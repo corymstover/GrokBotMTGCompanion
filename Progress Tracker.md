@@ -62,6 +62,7 @@
 | v0.3 – 10,000 cards | ✅ closed | `v0.3-10000-cards` |
 | v0.4 – 20,000 cards | ✅ closed | `v0.4-20000-cards` |
 | v1.0 – Full card coverage | ✅ closed | `v1.0-33894-cards` |
+| Bot cycle 3 sprint (lore, EDH, rules) | — | `v1.1-cycle3-lore-edh-rules` |
 | Lore foundation | 🟡 open | — |
 | EDH foundation | 🟡 open | — |
 | Rules interactions | 🟡 open | — |
