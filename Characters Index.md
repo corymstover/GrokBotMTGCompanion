@@ -5,6 +5,8 @@ tags: [characters, status, planeswalkers]
 issues: [7, 11, 20]
 generated_by: hand-written
 sources: [wizards-story]
+related: ["Conflicts & Arcs.md", "Master Timeline.md", "Planes Index.md", "Planeswalker Dossiers.md", "Story Arc Summaries.md", "Card Index.md"]
+schema: 2
 ---
 
 # Characters Index

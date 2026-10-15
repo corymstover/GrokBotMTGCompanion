@@ -3,10 +3,14 @@ title: "Deck Skeleton — Tatyova, Benthic Druid"
 category: deck
 kind: core
 commander: "Tatyova, Benthic Druid"
-color_identity: GU
+color_identity: UG
 bracket_floor: 3
 game_changers: 2
+combos: 2
+two_card_infinites: 0
 validated: true
+tags: [core, simic, bracket-floor-3, game-changers, combos]
+schema: 2
 ---
 
 # Deck Skeleton — Tatyova, Benthic Druid

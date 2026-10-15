@@ -5,6 +5,8 @@ tags: [story-archive, sources]
 issues: [14]
 generated_by: scripts/crawl_story_index.py
 sources: [wizards-story]
+related: ["Side-Media Index.md"]
+schema: 2
 ---
 
 # Story Archive Index

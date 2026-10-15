@@ -5,6 +5,8 @@ tags: [omenpaths, multiverse, planes]
 issues: [36]
 generated_by: hand-written
 sources: [wizards-story]
+related: ["Story Arc Summaries.md", "Conflicts & Arcs.md", "Master Timeline.md", "Planes Index.md"]
+schema: 2
 ---
 
 # Omenpath & Multiverse Connections

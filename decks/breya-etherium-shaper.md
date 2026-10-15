@@ -3,10 +3,14 @@ title: "Deck Skeleton — Breya, Etherium Shaper"
 category: deck
 kind: core
 commander: "Breya, Etherium Shaper"
-color_identity: BRUW
+color_identity: WUBR
 bracket_floor: 3
 game_changers: 3
+combos: 32
+two_card_infinites: 0
 validated: true
+tags: [core, yore, bracket-floor-3, game-changers, combos]
+schema: 2
 ---
 
 # Deck Skeleton — Breya, Etherium Shaper

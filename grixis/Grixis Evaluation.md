@@ -5,6 +5,8 @@ tags: [grixis, validation, legality]
 issues: [59]
 generated_by: scripts/build_grixis.py
 sources: [grixis-repo, scryfall]
+related: ["grixis/README.md"]
+schema: 2
 ---
 
 # Grixis Evaluation — all 62 source lists

@@ -5,6 +5,8 @@ tags: [planeswalkers, dossiers, sparks]
 issues: [35]
 generated_by: hand-written
 sources: [wizards-story]
+related: ["Characters Index.md", "Planes Index.md", "Art & Flavor Story Links.md", "Side-Media Index.md", "Story Arc Summaries.md"]
+schema: 2
 ---
 
 # Planeswalker Dossiers

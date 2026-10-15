@@ -5,6 +5,8 @@ tags: [upgrades, budget]
 issues: [30]
 generated_by: scripts/build_upgrade_paths.py
 sources: [scryfall, edhrec]
+related: ["EDH Standards.md", "Rules Interactions.md"]
+schema: 2
 ---
 
 # EDH Upgrade Paths

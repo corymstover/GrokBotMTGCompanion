@@ -5,6 +5,8 @@ tags: [index, coverage]
 issues: [1, 2, 5]
 generated_by: scripts/ingest_scryfall.py
 sources: [scryfall]
+related: ["EDH Standards.md", "Characters Index.md", "EDH Staples.md", "Planes Index.md"]
+schema: 2
 ---
 
 # Card Index

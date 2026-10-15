@@ -6,8 +6,12 @@ commander: "Evelyn, the Covetous"
 color_identity: UBR
 bracket_floor: 4
 game_changers: 19
+combos: 7
+two_card_infinites: 3
 validated: true
+tags: [grixis, grixis, bracket-floor-4, game-changers, two-card-infinite]
 source_repo: corymstover/grixis-commander-encyclopediaGPT
+schema: 2
 ---
 
 # Grixis Deck — Evelyn, the Covetous

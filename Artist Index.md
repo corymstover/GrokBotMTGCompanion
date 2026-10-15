@@ -5,6 +5,8 @@ tags: [artists, art-credits]
 issues: [43]
 generated_by: scripts/build_artists.py
 sources: [scryfall]
+related: ["Art & Flavor Story Links.md"]
+schema: 2
 ---
 
 # Artist Index

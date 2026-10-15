@@ -5,6 +5,8 @@ tags: [tokens, emblems, dungeons, not-cards]
 issues: [42]
 generated_by: scripts/build_tokens.py
 sources: [scryfall, cr]
+related: []
+schema: 2
 ---
 
 # Tokens, Emblems & Dungeons

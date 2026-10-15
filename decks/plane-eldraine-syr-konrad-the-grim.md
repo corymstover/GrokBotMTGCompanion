@@ -6,8 +6,12 @@ commander: "Syr Konrad, the Grim"
 color_identity: B
 bracket_floor: 2
 game_changers: 0
+combos: 0
+two_card_infinites: 0
 validated: true
+tags: [plane, mono-black, bracket-floor-2, no-game-changers, plane-eldraine]
 plane: eldraine
+schema: 2
 ---
 
 # Deck Skeleton — Syr Konrad, the Grim — Eldraine-only

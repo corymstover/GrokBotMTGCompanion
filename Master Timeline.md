@@ -5,6 +5,8 @@ tags: [timeline, eras]
 issues: [7]
 generated_by: hand-written
 sources: [wizards-story]
+related: ["Characters Index.md", "Conflicts & Arcs.md", "Planes Index.md", "Omenpath & Multiverse Connections.md", "Story Arc Summaries.md"]
+schema: 2
 ---
 
 # Master Timeline

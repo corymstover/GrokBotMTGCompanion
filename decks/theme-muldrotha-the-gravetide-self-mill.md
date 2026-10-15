@@ -3,10 +3,15 @@ title: "Deck Skeleton — Muldrotha, the Gravetide — Self Mill theme"
 category: deck
 kind: theme
 commander: "Muldrotha, the Gravetide"
-color_identity: BGU
+color_identity: UBG
 bracket_floor: 2
 game_changers: 0
+combos: 2
+two_card_infinites: 0
 validated: true
+tags: [theme, sultai, bracket-floor-2, no-game-changers, combos, theme-self-mill]
+theme: self-mill
+schema: 2
 ---
 
 # Deck Skeleton — Muldrotha, the Gravetide — Self Mill theme

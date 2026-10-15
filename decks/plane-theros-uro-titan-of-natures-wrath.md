@@ -3,11 +3,15 @@ title: "Deck Skeleton — Uro, Titan of Nature's Wrath — Theros-only"
 category: deck
 kind: plane
 commander: "Uro, Titan of Nature's Wrath"
-color_identity: GU
+color_identity: UG
 bracket_floor: 3
 game_changers: 1
+combos: 0
+two_card_infinites: 0
 validated: true
+tags: [plane, simic, bracket-floor-3, game-changers, plane-theros]
 plane: theros
+schema: 2
 ---
 
 # Deck Skeleton — Uro, Titan of Nature's Wrath — Theros-only

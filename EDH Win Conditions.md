@@ -5,6 +5,8 @@ tags: [win-conditions, combos]
 issues: [27]
 generated_by: scripts/build_wincons.py
 sources: [scryfall, spellbook]
+related: ["Rules Interactions.md", "EDH Packages.md", "EDH Standards.md", "EDH Interaction.md", "cEDH Primer.md", "EDH Archetypes.md"]
+schema: 2
 ---
 
 # EDH Win Conditions

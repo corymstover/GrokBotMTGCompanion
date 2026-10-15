@@ -5,6 +5,8 @@ tags: [tags, releases, snapshots]
 issues: [47]
 generated_by: hand-written
 sources: []
+related: ["Front-Matter Schema.md", "Knowledge Index.md", "Progress Tracker.md", "ROADMAP.md"]
+schema: 2
 ---
 
 # Knowledge Snapshots

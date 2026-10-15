@@ -5,6 +5,8 @@ tags: [lands, mana-base, color-identity]
 issues: [25]
 generated_by: scripts/build_mana_bases.py
 sources: [scryfall, edhrec]
+related: ["EDH Packages.md", "EDH Standards.md", "EDH Mulligans.md", "EDH Staples.md", "Rules Interactions.md", "grixis/README.md"]
+schema: 2
 ---
 
 # EDH Mana Bases

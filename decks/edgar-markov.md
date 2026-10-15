@@ -3,10 +3,14 @@ title: "Deck Skeleton — Edgar Markov"
 category: deck
 kind: core
 commander: "Edgar Markov"
-color_identity: BRW
+color_identity: WBR
 bracket_floor: 3
 game_changers: 3
+combos: 6
+two_card_infinites: 6
 validated: true
+tags: [core, mardu, bracket-floor-3, game-changers, two-card-infinite]
+schema: 2
 ---
 
 # Deck Skeleton — Edgar Markov

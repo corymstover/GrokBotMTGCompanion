@@ -6,8 +6,12 @@ commander: "Mai and Zuko"
 color_identity: UBR
 bracket_floor: 4
 game_changers: 15
+combos: 8
+two_card_infinites: 1
 validated: true
+tags: [grixis, grixis, bracket-floor-4, game-changers, two-card-infinite]
 source_repo: corymstover/grixis-commander-encyclopediaGPT
+schema: 2
 ---
 
 # Grixis Deck — Mai and Zuko

@@ -6,7 +6,11 @@ commander: "Talrand, Sky Summoner"
 color_identity: U
 bracket_floor: 3
 game_changers: 3
+combos: 2
+two_card_infinites: 1
 validated: true
+tags: [core, mono-blue, bracket-floor-3, game-changers, two-card-infinite]
+schema: 2
 ---
 
 # Deck Skeleton — Talrand, Sky Summoner

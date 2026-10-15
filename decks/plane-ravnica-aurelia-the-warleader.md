@@ -3,11 +3,15 @@ title: "Deck Skeleton — Aurelia, the Warleader — Ravnica-only"
 category: deck
 kind: plane
 commander: "Aurelia, the Warleader"
-color_identity: RW
+color_identity: WR
 bracket_floor: 3
 game_changers: 1
+combos: 0
+two_card_infinites: 0
 validated: true
+tags: [plane, boros, bracket-floor-3, game-changers, plane-ravnica]
 plane: ravnica
+schema: 2
 ---
 
 # Deck Skeleton — Aurelia, the Warleader — Ravnica-only

@@ -6,7 +6,11 @@ commander: "Lathril, Blade of the Elves"
 color_identity: BG
 bracket_floor: 3
 game_changers: 1
+combos: 0
+two_card_infinites: 0
 validated: true
+tags: [core, golgari, bracket-floor-3, game-changers]
+schema: 2
 ---
 
 # Deck Skeleton — Lathril, Blade of the Elves

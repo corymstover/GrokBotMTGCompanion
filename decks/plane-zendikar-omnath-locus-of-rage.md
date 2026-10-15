@@ -3,11 +3,15 @@ title: "Deck Skeleton — Omnath, Locus of Rage — Zendikar-only"
 category: deck
 kind: plane
 commander: "Omnath, Locus of Rage"
-color_identity: GR
+color_identity: RG
 bracket_floor: 2
 game_changers: 0
+combos: 0
+two_card_infinites: 0
 validated: true
+tags: [plane, gruul, bracket-floor-2, no-game-changers, plane-zendikar]
 plane: zendikar
+schema: 2
 ---
 
 # Deck Skeleton — Omnath, Locus of Rage — Zendikar-only

@@ -5,6 +5,8 @@ tags: [keywords, evergreen, rulings]
 issues: [39]
 generated_by: scripts/build_keywords.py
 sources: [cr, scryfall, wotc-articles]
+related: ["Rules Interactions.md"]
+schema: 2
 ---
 
 # Keyword Encyclopedia

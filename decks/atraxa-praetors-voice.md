@@ -3,10 +3,14 @@ title: "Deck Skeleton — Atraxa, Praetors' Voice"
 category: deck
 kind: core
 commander: "Atraxa, Praetors' Voice"
-color_identity: BGUW
+color_identity: WUBG
 bracket_floor: 4
 game_changers: 5
+combos: 1
+two_card_infinites: 0
 validated: true
+tags: [core, witch, bracket-floor-4, game-changers, combos]
+schema: 2
 ---
 
 # Deck Skeleton — Atraxa, Praetors' Voice

@@ -6,7 +6,11 @@ commander: "Krenko, Mob Boss"
 color_identity: R
 bracket_floor: 2
 game_changers: 0
+combos: 4
+two_card_infinites: 0
 validated: true
+tags: [core, mono-red, bracket-floor-2, no-game-changers, combos]
+schema: 2
 ---
 
 # Deck Skeleton — Krenko, Mob Boss

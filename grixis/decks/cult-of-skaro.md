@@ -6,8 +6,12 @@ commander: "Cult of Skaro"
 color_identity: UBR
 bracket_floor: 3
 game_changers: 3
+combos: 1
+two_card_infinites: 1
 validated: true
+tags: [grixis, grixis, bracket-floor-3, game-changers, two-card-infinite]
 source_repo: corymstover/grixis-commander-encyclopediaGPT
+schema: 2
 ---
 
 # Grixis Deck — Cult of Skaro

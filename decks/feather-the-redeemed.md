@@ -3,10 +3,14 @@ title: "Deck Skeleton — Feather, the Redeemed"
 category: deck
 kind: core
 commander: "Feather, the Redeemed"
-color_identity: RW
+color_identity: WR
 bracket_floor: 2
 game_changers: 0
+combos: 0
+two_card_infinites: 0
 validated: true
+tags: [core, boros, bracket-floor-2, no-game-changers]
+schema: 2
 ---
 
 # Deck Skeleton — Feather, the Redeemed

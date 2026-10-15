@@ -3,10 +3,14 @@ title: "Deck Skeleton — Xenagos, God of Revels"
 category: deck
 kind: core
 commander: "Xenagos, God of Revels"
-color_identity: GR
+color_identity: RG
 bracket_floor: 3
 game_changers: 0
+combos: 4
+two_card_infinites: 3
 validated: true
+tags: [core, gruul, bracket-floor-3, no-game-changers, two-card-infinite]
+schema: 2
 ---
 
 # Deck Skeleton — Xenagos, God of Revels

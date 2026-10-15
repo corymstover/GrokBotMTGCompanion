@@ -5,6 +5,8 @@ tags: [checklist, evaluation, brackets, methodology]
 issues: [62]
 generated_by: hand-written
 sources: [grixis-repo, cr, scryfall, spellbook]
+related: ["EDH Deck Template.md", "EDH Standards.md", "grixis/Grixis Corrections.md", "EDH Mulligans.md", "grixis/Grixis Packages.md", "grixis/README.md"]
+schema: 2
 ---
 
 # EDH Deck Evaluation Checklist

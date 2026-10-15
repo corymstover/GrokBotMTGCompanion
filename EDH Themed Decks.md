@@ -5,6 +5,8 @@ tags: [decks, plane-restricted, themes]
 issues: [33]
 generated_by: scripts/build_themed_index.py
 sources: [scryfall, edhrec]
+related: ["EDH Standards.md"]
+schema: 2
 ---
 
 # EDH Themed & Plane-Restricted Decks

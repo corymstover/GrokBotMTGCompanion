@@ -3,11 +3,15 @@ title: "Deck Skeleton — Isshin, Two Heavens as One — Kamigawa-only"
 category: deck
 kind: plane
 commander: "Isshin, Two Heavens as One"
-color_identity: BRW
+color_identity: WBR
 bracket_floor: 3
 game_changers: 1
+combos: 0
+two_card_infinites: 0
 validated: true
+tags: [plane, mardu, bracket-floor-3, game-changers, plane-kamigawa]
 plane: kamigawa
+schema: 2
 ---
 
 # Deck Skeleton — Isshin, Two Heavens as One — Kamigawa-only

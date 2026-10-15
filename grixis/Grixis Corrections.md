@@ -5,6 +5,8 @@ tags: [grixis, corrections, legality, oracle]
 issues: [60]
 generated_by: scripts/build_grixis.py
 sources: [grixis-repo, scryfall, spellbook]
+related: ["EDH Standards.md", "EDH Deck Evaluation Checklist.md", "grixis/README.md"]
+schema: 2
 ---
 
 # Grixis Corrections

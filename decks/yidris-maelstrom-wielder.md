@@ -3,10 +3,14 @@ title: "Deck Skeleton — Yidris, Maelstrom Wielder"
 category: deck
 kind: core
 commander: "Yidris, Maelstrom Wielder"
-color_identity: BGRU
+color_identity: UBRG
 bracket_floor: 2
 game_changers: 0
+combos: 0
+two_card_infinites: 0
 validated: true
+tags: [core, glint, bracket-floor-2, no-game-changers]
+schema: 2
 ---
 
 # Deck Skeleton — Yidris, Maelstrom Wielder

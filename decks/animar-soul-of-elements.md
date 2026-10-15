@@ -3,10 +3,14 @@ title: "Deck Skeleton — Animar, Soul of Elements"
 category: deck
 kind: core
 commander: "Animar, Soul of Elements"
-color_identity: GRU
+color_identity: URG
 bracket_floor: 4
 game_changers: 5
+combos: 4
+two_card_infinites: 3
 validated: true
+tags: [core, temur, bracket-floor-4, game-changers, two-card-infinite]
+schema: 2
 ---
 
 # Deck Skeleton — Animar, Soul of Elements

@@ -3,10 +3,15 @@ title: "Deck Skeleton — Atraxa, Praetors' Voice — Planeswalkers theme"
 category: deck
 kind: theme
 commander: "Atraxa, Praetors' Voice"
-color_identity: BGUW
+color_identity: WUBG
 bracket_floor: 4
 game_changers: 7
+combos: 8
+two_card_infinites: 2
 validated: true
+tags: [theme, witch, bracket-floor-4, game-changers, two-card-infinite, theme-planeswalkers]
+theme: planeswalkers
+schema: 2
 ---
 
 # Deck Skeleton — Atraxa, Praetors' Voice — Planeswalkers theme

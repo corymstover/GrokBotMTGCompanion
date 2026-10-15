@@ -5,6 +5,8 @@ tags: [mulligan, opening-hand]
 issues: [31]
 generated_by: scripts/build_mulligans.py
 sources: [cr, scryfall]
+related: ["EDH Archetypes.md", "EDH Deck Evaluation Checklist.md", "EDH Mana Bases.md", "EDH Standards.md", "Rules Interactions.md", "cEDH Primer.md"]
+schema: 2
 ---
 
 # EDH Mulligans

@@ -3,10 +3,15 @@ title: "Deck Skeleton — Edgar Markov — Lifegain theme"
 category: deck
 kind: theme
 commander: "Edgar Markov"
-color_identity: BRW
+color_identity: WBR
 bracket_floor: 4
 game_changers: 4
+combos: 6
+two_card_infinites: 6
 validated: true
+tags: [theme, mardu, bracket-floor-4, game-changers, two-card-infinite, theme-lifegain]
+theme: lifegain
+schema: 2
 ---
 
 # Deck Skeleton — Edgar Markov — Lifegain theme

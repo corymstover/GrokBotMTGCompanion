@@ -3,10 +3,15 @@ title: "Deck Skeleton — Chulane, Teller of Tales — Landfall theme"
 category: deck
 kind: theme
 commander: "Chulane, Teller of Tales"
-color_identity: GUW
+color_identity: WUG
 bracket_floor: 3
 game_changers: 1
+combos: 12
+two_card_infinites: 3
 validated: true
+tags: [theme, bant, bracket-floor-3, game-changers, two-card-infinite, theme-landfall]
+theme: landfall
+schema: 2
 ---
 
 # Deck Skeleton — Chulane, Teller of Tales — Landfall theme
