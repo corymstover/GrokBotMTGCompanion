@@ -5,7 +5,7 @@ tags: [changelog]
 issues: []
 generated_by: hand-written
 sources: []
-related: ["Knowledge Index.md", "Front-Matter Schema.md", "EDH Deck Evaluation Checklist.md", "EDH Deck Template.md", "Progress Tracker.md"]
+related: ["Knowledge Index.md", "Front-Matter Schema.md", "EDH Bracket Calibration.md", "EDH Deck Evaluation Checklist.md", "EDH Deck Template.md", "Progress Tracker.md"]
 schema: 2
 ---
 
@@ -14,6 +14,7 @@ schema: 2
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-15 — Bot cycle 19 (Phase 5 complete: bracket calibration & pilot notes)](#2026-10-15--bot-cycle-19-phase-5-complete-bracket-calibration--pilot-notes)
 - [2026-10-15 — Bot cycle 18 (Phase 5: cross-references)](#2026-10-15--bot-cycle-18-phase-5-cross-references)
 - [2026-10-15 — Bot cycle 17 (Phase 5: schema v2, retrieval index, validate_all)](#2026-10-15--bot-cycle-17-phase-5-schema-v2-retrieval-index-validate_all)
 - [2026-10-15 — Bot cycle 16 (Grixis integration)](#2026-10-15--bot-cycle-16-grixis-integration)
@@ -32,6 +33,17 @@ schema: 2
 - [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-15 — Bot cycle 19 (Phase 5 complete: bracket calibration & pilot notes)
+
+> All entries are **Bot cycle 19** (Grok Bot) changes on branch `bot-cycle19-calibration`, issue [#68](https://github.com/corymstover/GrokBotMTGCompanion/issues/68). Closes the Phase 5 milestone; snapshot `v2.0-phase5-optimization`.
+
+| # | Summary | Files affected | Reason |
+|---|---|---|---|
+| 19.1 | **Bracket calibration & pilot notes** block in all 86 decks (after *Bracket assessment*): floor-rationale table (Game Changers, mass land denial, extra turns, two-card infinites from the deck's Spellbook block, tutors as information only since the Oct 2025 update), the calibrated floor and what sets it, context (Grixis stated target vs floor; EDHREC community bracket shares for core decks; combos one card away), lower-bracket cut paths (guidance; minimum cut set that breaks every two-card infinite), and pilot notes (guidance) built on facts: lands, ramp, average MV, exact opening-hand odds, interaction budget, combo lines and the tutors that find them, pregame talk. Grixis decks point to the source author's verbatim reasoning. | `decks/*.md`, `grixis/decks/*.md`, `scripts/deck_calibration.py` (new), `data/deck_calibration.json` (new) | The user asked for floor rationale, Game Changers, combos and pilot tips labeled as guidance on every deck. |
+| 19.2 | Core decks' stale bullet *"Two-card infinite combos: ⚠️ not machine-checked"* (written before Spellbook detection existed) replaced with the actual count and pairs in 46 decks. | `decks/*.md` | Correctness: Spellbook data was already on the page. |
+| 19.3 | **[EDH Bracket Calibration](EDH%20Bracket%20Calibration.md)**: one row per deck (floor, GC, two-card infinites, MLD, extra turns, tutors, lands, average MV, stated target, EDHREC mode), summary and method. Results: floors B2 **10** · B3 **30** · B4 **46** (all equal to the existing front-matter floors); 146 two-card infinites in 37 decks; 1 MLD deck (Grixistax, *Back to Basics*); 17 decks with extra-turn cards; 0 Grixis stated targets below the floor. | `EDH Bracket Calibration.md` (new), `scripts/front_matter.py`, `EDH Standards.md` | Calibration across all material in one place. |
+| 19.4 | `validate_all.py` gains the `calibration` step (`deck_calibration.py --check`). Docs: README (Phase 5 complete, commands, key files, releases), Lookup Guide, Knowledge Index, Progress Tracker, ROADMAP, Knowledge Snapshots (`v2.0-phase5-optimization`). | `scripts/validate_all.py`, listed docs | Single gate stays complete; dashboards current. |
 
 ## 2026-10-15 — Bot cycle 18 (Phase 5: cross-references)
 

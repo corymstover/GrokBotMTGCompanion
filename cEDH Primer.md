@@ -5,7 +5,7 @@ tags: [cedh, competitive, bracket-5]
 issues: [29]
 generated_by: scripts/build_cedh.py
 sources: [scryfall, spellbook]
-related: ["EDH Standards.md", "EDH Interaction.md", "EDH Win Conditions.md", "Rules Interactions.md", "EDH Mulligans.md", "EDH Packages.md"]
+related: ["EDH Standards.md", "EDH Interaction.md", "EDH Win Conditions.md", "Rules Interactions.md", "EDH Bracket Calibration.md", "EDH Mulligans.md"]
 schema: 2
 ---
 
