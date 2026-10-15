@@ -3,10 +3,23 @@
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-15 — Bot cycle 5 (sprint: rules topics, remaining planes, story archive, maintenance)](#2026-10-15--bot-cycle-5-sprint-rules-topics-remaining-planes-story-archive-maintenance)
 - [2026-10-15 — Bot cycle 4 (sprint: rules topics, Planeswalker review, ELD/THB/IKO sources, combos & archetypes)](#2026-10-15--bot-cycle-4-sprint-rules-topics-planeswalker-review-eldthbiko-sources-combos--archetypes)
 - [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-15 — Bot cycle 5 (sprint: rules topics, remaining planes, story archive, maintenance)
+
+> All entries in this section are **Bot cycle 5** (Grok Bot) changes. Sprint mode: the only committing process.
+
+| # | Summary | Files affected | Reason |
+|---|---|---|---|
+| 5.1 | Bot cycle 5: **Rules Interactions 17 → 27 topics**: sagas (714), classes (716), phasing (702.26), DFCs/transform (712/701.27), legend rule (704.5j), "can't" beats "can" (101.2–101.4), replacement-effect ordering (616 + 614.15), commander damage (903.10a/704.6c), partner & Backgrounds (702.124), and leaving a multiplayer game (800.4). Now 37 official CR examples (was 20) and 139 linked rulings (was 87). Topics with no matching official ruling say so instead of using weak matches. | `Rules Interactions.md`, `scripts/build_rules_interactions.py` | Issue #9. |
+| 5.2 | Bot cycle 5: **Planes Index 18 → 23 detailed entries**. Mercadia and Ulgrotha are now ✅ sourced from Wizards' *The Known Multiverse* (2008); the official pages still 404, and no archived copy was needed. Added Ergamon (*Known Multiverse* + Rosewater's *Choosing Your Battles, Part 3*), Zendikar (ZNR guide + Ep. 1/5), Kamigawa (NEO Planeswalker's Guide + Ep. 1/5), Dominaria (DMU Planeswalker's Guide + Ep. 1/5), and the Arcavios colleges table (SOS Planeswalker's Guide; color pairs from Scryfall Campus lands). Vryn's mage-rings and factions are sourced from *The Worlds of Magic Origins* and *Absent Minds*. | `Planes Index.md` | Issue #12. |
+| 5.3 | Bot cycle 5: **story archive index**. The Wayback Machine CDX lists 292 Uncharted Realms slugs and 193 old magic-story slugs (the first CDX results page; the full query timed out). Each one is fetched live if it still resolves, otherwise from a 🗄️ archived snapshot. **612 pages indexed** (575 live, 37 archived); 104 candidates were unresolved, mostly translations or listing pages. No full text is committed. | `scripts/crawl_story_index.py`, `data/story_index.csv`, `Story Archive Index.md` | Issue #14. |
+| 5.4 | Bot cycle 5: **maintenance**. `ingest_scryfall.py` refresh against the newest Scryfall bulk (2026-10-15 09:02 UTC; no newer bulk published): 0 new and 0 changed cards. Commander Spellbook re-run: 189 combos and 51 two-card infinites, unchanged. Deck legality recheck: 3,200 cards across 32 decks, 0 not Commander-legal. | `data/ingest_state.json`, `README.md`, `Progress Tracker.md`, `decks/*` | Issue #17. |
+| 5.5 | Bot cycle 5: README dashboard, Progress Tracker, Knowledge Index and Update Log refreshed; milestones updated. | `README.md`, `Progress Tracker.md`, `Knowledge Index.md`, `Update Log.md` | Keep the dashboard current. |
 
 ## 2026-10-15 — Bot cycle 4 (sprint: rules topics, Planeswalker review, ELD/THB/IKO sources, combos & archetypes)
 

@@ -6,7 +6,7 @@
 ## Contents
 - [Planes with official profiles](#planes-with-official-profiles)
 - [Other planes in recent stories (Omenpath era)](#other-planes-in-recent-stories-omenpath-era)
-- [Detailed plane entries](#detailed-plane-entries): [Kaldheim](#kaldheim) · [Eldraine](#eldraine) · [Ikoria](#ikoria) · [New Capenna](#new-capenna) · [Phyrexia & New Phyrexia's spheres](#phyrexia-old-phyrexia--new-phyrexias-spheres) · [Ravnica after the invasion](#ravnica-after-the-invasion-murders-at-karlov-manor) · [Skalla](#skalla) · [Vryn](#vryn) · [Regatha](#regatha) · [Rath](#rath) · [Mercadia](#mercadia) ⚠️ · [Ulgrotha](#ulgrotha) ⚠️ · [Theros Underworld](#theros-the-underworld-theros-beyond-death) · [Muraganda](#muraganda) · [Kylem](#kylem) · [Gobakhan](#gobakhan) · [Shenmeng](#shenmeng) · [Segovia](#segovia)
+- [Detailed plane entries](#detailed-plane-entries): [Kaldheim](#kaldheim) · [Eldraine](#eldraine) · [Ikoria](#ikoria) · [New Capenna](#new-capenna) · [Phyrexia & New Phyrexia's spheres](#phyrexia-old-phyrexia--new-phyrexias-spheres) · [Ravnica after the invasion](#ravnica-after-the-invasion-murders-at-karlov-manor) · [Skalla](#skalla) · [Vryn](#vryn) · [Regatha](#regatha) · [Rath](#rath) · [Mercadia](#mercadia) · [Ulgrotha](#ulgrotha) · [Ergamon](#ergamon) · [Theros Underworld](#theros-the-underworld-theros-beyond-death) · [Muraganda](#muraganda) · [Kylem](#kylem) · [Gobakhan](#gobakhan) · [Shenmeng](#shenmeng) · [Segovia](#segovia) · [Zendikar (ZNR)](#zendikar-zendikar-rising-era) · [Kamigawa (NEO)](#kamigawa-neon-dynasty-era) · [Dominaria (DMU)](#dominaria-dominaria-united-era) · [Arcavios colleges](#arcavios--the-strixhaven-colleges)
 - [Special realms & cosmology](#special-realms--cosmology)
 - [Gaps / next to add](#gaps--next-to-add)
 
@@ -121,7 +121,8 @@ No standalone official profile was found in the 2026-10-15 sitemap for these; fa
 
 ### Vryn
 - ✅ Jace Beleren's home plane ("our home plane of Vryn", [PW Guide: Reality Fracture](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-to-reality-fracture)); after the Echoverse collapsed Jace "was laid to rest as a son of Vryn" in a funerary lake ([RF Episode 10](https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-10-happy-birthday)). See [Jace's Echoverse](Conflicts%20%26%20Arcs.md#jaces-echoverse-reality-fracture).
-- ⚠️ Vryn's mage-rings and its conflicts (Magic Origins era) are not yet sourced here.
+- ✅ "An embattled plane where rival factions fight for control of the enormous, mana-channeling mage rings." The mage-rings "channel mana from the outlying areas to the politically powerful Core States. The age and origin of the plane's mage-rings are unknown, and many are in disrepair." Jace "grew up as a 'ringer,' one of the inhabitants of the mage-rings" ([The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09), 2015-07-09).
+- ✅ Factions: "The Ampryn League, also called the Ampryn Core or the Core States, is the ascendant faction". The Trovian Separatists are the rebels, whose fight "largely revolves around who can seize control of contested strings of mage-rings" (same source). In [Jace's Origin: Absent Minds](https://magic.wizards.com/en/news/feature/jaces-origin-absent-minds-2015-06-24) (2015-06-24) the sphinx Alhammarret takes Jace on ("you, Jace Beleren, are a mind mage of unusual talent"), and Jace gathers intelligence for him: "Jace had learned from a high-ranking Separatist officer of Trovian designs for a surprise springtime offensive". Cards: [Jace, Vryn's Prodigy](cards/J/ja.md#jace-vryns-prodigy--jace-telepath-unbound), [Mage-Ring Network](cards/M/mag.md#mage-ring-network).
 
 ### Regatha
 - ✅ Chandra Nalaar's refuge: her spark ignited and vaulted her "from imminent doom at the hands of Lieutenant Baral to the fire monasteries of Regatha" ([Renegade Prime](https://magic.wizards.com/en/news/magic-story/renegade-prime-2016-09-14)).
@@ -134,10 +135,19 @@ No standalone official profile was found in the 2026-10-15 sitemap for these; fa
 - ⚠️ Rath's nature (an artificial plane used for Phyrexia's invasion of Dominaria) is widely known from the Tempest-era novels but is **not stated in any fetched source**; see [Phyrexia vs. Dominaria & the Weatherlight](Conflicts%20%26%20Arcs.md#phyrexia-vs-dominaria--the-weatherlight).
 
 ### Mercadia
-- ⚠️ **No official source found.** No Wizards story or plane page for Mercadia is in the fetched sitemap or corpus, and `magic.wizards.com/en/story/mercadia-plane` returned 404 (checked 2026-10-15). Nothing about it is recorded here until a source is found.
+- ✅ Settings: *Mercadian Masques*, *Nemesis*, *Prophecy*. "This plane is riddled with improbabilities and inversions: Its largest city sits atop a huge inverted mountain, and goblins are at the top of the social order." The source adds that "Commerce is the lifeblood of Mercadia", and that "the elaborate diplomacy and trade agreements between the goblins and humans of Mercadia City and the merfolk of Saprazzo define the plane" ([The Known Multiverse](https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19) (Wizards feature by Brady Dommermuth, 2008-03-19)).
+- ✅ Weatherlight saga: Gerrard and the crew "ended up in this plane after blindly flinging themselves from Rath". The ship "was seized by a group of pious human rebels called the Cho-Arrim", and Gerrard "had to make delicate deals with multiple Mercadian factions to get the ship back" (same source). See [Rath](#rath) and [Phyrexia vs. Dominaria & the Weatherlight](Conflicts%20%26%20Arcs.md#phyrexia-vs-dominaria--the-weatherlight).
+- ⚠️ This is a 2008 overview, not story text. The Masques-block novels were not fetched.
 
 ### Ulgrotha
-- ⚠️ **No official source found.** Same check as Mercadia: no sitemap or corpus hit, and `/en/story/ulgrotha-plane` returned 404 (2026-10-15).
+- ✅ Setting: *Homelands*. "Sometimes called 'The Homelands' by its denizens, long ago Ulgrotha was a remote plane ravaged by wars of sorcery between planeswalkers." Its mana "had been diminished and damaged when the planeswalker Ravi, who later became Grandmother Sengir, rang the Apocalypse Chime at the end of those ancient wars" ([The Known Multiverse](https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19) (Wizards feature by Brady Dommermuth, 2008-03-19)).
+- ✅ "Later the planeswalkers Feroz and Serra decided to become Ulgrotha's caretakers, and Feroz created Feroz's Ban to protect the plane from interlopers". After Feroz's death the ban faded. Ulgrotha "is home to Baron Sengir, a powerful vampire". A portal deep in Sengir's castle "leads to an unknown plane" (same source). Cards: [Baron Sengir](cards/B/bar.md#baron-sengir), [Grandmother Sengir](cards/G/gra.md#grandmother-sengir), [Apocalypse Chime](cards/A/ap.md#apocalypse-chime), [Feroz's Ban](cards/F/fe.md#ferozs-ban).
+- ⚠️ This is a 2008 overview. The Homelands-era story text was not fetched.
+
+### Ergamon
+- ✅ A "small, hidden plane" with "colossal peaks and exotic fauna". It is the setting of Richard Garfield's "Roreca's Tale" from the 1994 *Pocket Players' Guide* ([The Known Multiverse](https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19) (Wizards feature by Brady Dommermuth, 2008-03-19); republished as [Roreca's Tale](https://magic.wizards.com/en/news/feature/rorecas-tale-2008-03-19), whose story text is not in the fetched page).
+- ✅ In the original *Alpha* rulebook story, Worzel and Thomil's duel "took place on the plane of Ergamon". The only card reference before *March of the Machine* was the plane card *Truga Jungle* (Planechase 2012; a plane card, which this repo does not ingest). For *March of the Machine*, Creative made it "a plane filled with wild animals, including a race of rhinos" ([Choosing Your Battles, Part 3](https://magic.wizards.com/en/news/making-magic/choosing-your-battles-part-3), Mark Rosewater, Making Magic). Card: [Invasion of Ergamon](cards/I/inv.md#invasion-of-ergamon--truga-cliffcharger).
+- ⚠️ "Choosing Your Battles" is a design column, not story fiction.
 
 ### Theros: the Underworld (Theros Beyond Death)
 - ✅ The gods arose from mortal devotion: "From this prayer, this concentrated devotion, sprang forth the gods themselves." The gods "sealed the titans away in the Underworld", and Klothys, god of fate, "acted as eternal seal" while Erebos rules "this realm beyond death" ([THB Story Summary](https://magic.wizards.com/en/news/feature/theros-beyond-death-story-summary-2020-01-10)).
@@ -160,6 +170,46 @@ No standalone official profile was found in the 2026-10-15 sitemap for these; fa
 ### Segovia
 - 🗣️ Only a passing mention. The compleated Vraska, narrating, recalls a souvenir: "an entire Segovian chariot I could barely carry into the Blind Eternities but now sits under a bell jar" ([MOM: One and the Same](https://magic.wizards.com/en/news/magic-story/one-and-the-same)). No other fetched source describes the plane.
 
+### Zendikar (Zendikar Rising era)
+- ✅ The Roil remains: it "became clear that the Roil was Zendikar's own effort to purify itself of corruption", and it "remains active even after the destruction of the Eldrazi" ([Zendikar: Things Have Changed](https://magic.wizards.com/en/news/feature/zendikar-things-have-changed-2020-09-01), 2020-09-01).
+- ✅ **Skyclaves**: centuries before the Eldrazi, the kor Makindi empire built "seven Skyclaves—military bases, government headquarters, and small cities that ﬂoated in the sky above each continent". They fell one by one. After the Eldrazi's fall, explorers of Emeria "triggered the magical defenses of the ancient Skyclave—and awakened the other six" (same source).
+- ✅ Sea Gate was rebuilt to Tazri's plan with Linvala's backing ("Within a year, the city was restored"). The new Sea Gate Expeditionary House was founded by Kesenya, and "Unknown to virtually anyone, that benefactor is Nahiri". Drana is "the last living bloodchief" (same source).
+- ✅ Story: in [ZNR Episode 1: In the Heart of the Skyclave](https://magic.wizards.com/en/news/magic-story/episode-1-heart-skyclave-2020-09-02) (2020-09-02), Nahiri uses a Skyclave key's power and "the Roil shuddered and stopped completely". Characters: [Nahiri](Characters%20Index.md#nahiri), [Nissa Revane](Characters%20Index.md#nissa-revane). Cards: [Nahiri, Heir of the Ancients](cards/N/na.md#nahiri-heir-of-the-ancients), [Drana, Liberator of Malakir](cards/D/dra.md#drana-liberator-of-malakir), [Linvala, the Preserver](cards/L/li.md#linvala-the-preserver).
+- ✅ Outcome: in [ZNR Episode 5: The Two Guardians](https://magic.wizards.com/en/news/magic-story/episode-5-two-guardians-2020-09-30), Nissa uses the Core and "Zendikar was healing, turning into something healthier, stronger than it was before the battle with the Eldrazi". The Core is left "inert", and Nahiri "turned and planeswalked away" after rebuking Jace.
+
+### Kamigawa (Neon Dynasty era)
+- ✅ History: "1,200 years ago, Konda, Lord of Eiganjo, captured and imprisoned a part of O-Kagachi". That part "broke free and became a new kami named Kyodai". O-Kagachi's death "caused the barrier between the two realms to break down" ([Planeswalker's Guide to Kamigawa: Neon Dynasty](https://magic.wizards.com/en/news/feature/planeswalkers-guide-kamigawa-neon-dynasty-2022-02-03), 2022-02-03).
+- ✅ Modern Kamigawa: Towashi grew around the Jukai Forest, where "kami and human alike live among its towering skyscrapers". The "Emperor of Kamigawa" title "is given to whomever Kyodai has chosen to bond with", and "the current emperor vanished without a trace" (same source).
+- ✅ Factions (same source): the **Imperials**, who restrict new technology; the **Saiba Futurists**, "a technocratic elite"; the **Reckoners**, "a sprawling, loosely connected series of criminal gangs"; the **Asari Uprisers**, led by Risona; the **Order of Jukai**, led by the orochi Shigeki; and the **Living Historians**. Places: Eiganjo, Otawara, the Towashi Undercity, Sokenzanshi and Boseiju.
+- ✅ Story: in [NEO Episode 1: A Stranger in Eiganjo](https://magic.wizards.com/en/news/magic-story/episode-1-stranger-eiganjo-2022-01-24), Kaito finds that "the emperor was gone, too", and resolves to find "the man with the metal arm". By [Episode 5: Threads of War](https://magic.wizards.com/en/news/magic-story/episode-5-threads-war-2022-01-27), Light-Paws is "the Regent of Kamigawa" and Kaito leaves to "search the Multiverse for Tamiyo" and "bring the emperor home". The epilogue shows Tamiyo compleated by Jin-Gitaxias as "the first Phyrexianized planeswalker". Character: [Kaito Shizuki](Characters%20Index.md#kaito-shizuki). Cards: [Kaito Shizuki](cards/K/ka.md#kaito-shizuki), [Risona, Asari Commander](cards/R/ri.md#risona-asari-commander), [Hidetsugu, Devouring Chaos](cards/H/hi.md#hidetsugu-devouring-chaos), [Eiganjo, Seat of the Empire](cards/E/ei.md#eiganjo-seat-of-the-empire).
+
+### Dominaria (Dominaria United era)
+- ✅ "We return to Dominaria during a time of regrowth and rejuvenation". After the Mending, "Within decades, Dominaria was healthier than it had been in centuries" ([Planeswalker's Guide to Dominaria](https://magic.wizards.com/en/news/feature/planeswalkers-guide-dominaria-2022-08-31), 2022-08-31; written for *Dominaria United*).
+- ✅ Regions and powers (same source):
+  - **Benalia** is "ruled by a council of seven noble houses".
+  - **New Argive** has the rebuilt Argivia, "the greatest fortiﬁcation in all Dominaria".
+  - The **Tolarian academies** are home to rumored secret societies, the Society of Mishra and the Gixians.
+  - **Vodalia** is the merfolk's "only true global empire".
+  - **Urborg** is ruled from the Stronghold of the slain Belzenlok.
+  - **Keld** is led by Radha.
+  - **Shiv** holds the Thran-built **Mana Rig**, restored by Jhoira.
+  - **Llanowar** breeds kavu.
+  - **Yavimaya** elves were exiled by Multani and are led by Meria.
+- ✅ Threat: "now the terrible praetor Sheoldred leads a new invasion", using compleated sleeper agents so that "anyone could be an agent of the enemy" (same source). In [DMU Episode 1: Echoes in the Dark](https://magic.wizards.com/en/news/magic-story/episode-1-echoes-dark-2022-08-10) (2022-08-10), Karn finds Sheoldred in the Caves of Koilos. In [Episode 5: A Whisper in the Wind](https://magic.wizards.com/en/news/magic-story/episode-5-whisper-wind-2022-08-18), the survivors build a memorial for Jaya. Teferi prepares to "cross time itself" to learn how to activate the sylex. Karn is carried by the Planar Bridge to Elesh Norn ("Welcome, Father"). Arc: [Phyrexian Invasion of the Multiverse](Conflicts%20%26%20Arcs.md#phyrexian-invasion-of-the-multiverse). Cards: [Sheoldred, the Apocalypse](cards/S/she.md#sheoldred-the-apocalypse), [Radha, Coalition Warlord](cards/R/rad.md#radha-coalition-warlord), [Jhoira, Ageless Innovator](cards/J/jh.md#jhoira-ageless-innovator).
+
+### Arcavios — the Strixhaven colleges
+- ✅ "Founded over 700 years ago by five spellcasting dragons, Strixhaven University is Arcavios's premier institution of magical learning". Each college "focuses on the clash between two opposing colors of mana" ([Planeswalker's Guide to Secrets of Strixhaven](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-to-secrets-of-strixhaven)).
+
+| College | Official subtitle | In the guide's words |
+|---|---|---|
+| Silverquill (W/B) | The College of Eloquence | "masters of the magic of language" |
+| Prismari (U/R) | The College of Elemental Arts | "see no difference between magic and art" |
+| Witherbloom (B/G) | The College of Essence Studies | "draw power from the opposing forces of life and death" |
+| Lorehold (R/W) | The College of Archaeomancy | "passionate scholars captivated by history" |
+| Quandrix (G/U) | The College of Numeromancy | "innovative nature mathematicians" |
+
+- ✅ After the Blood Age, "The Founder Dragons rang in a new era of magical research with the founding of Strixhaven University". Graduates may join the Dragonsguard, who "work directly with the five Founder Dragons" (same source). The color pairs are not quoted from the guide; they come from the color identity of each college's Campus land (Scryfall Oracle, e.g. [Silverquill Campus](cards/S/si.md#silverquill-campus) W/B).
+
 ## Special realms & cosmology
 - **Blind Eternities** — the chaotic void between planes, home of the Eldrazi titans ([Zendikar profile](https://magic.wizards.com/en/story/zendikar-plane)).
 - **Omenpaths** — portals between planes that appeared after the Phyrexian Invasion, letting non-Planeswalkers travel (used throughout OTJ, Lorwyn Eclipsed and SOS stories; ✅ e.g. [OTJ Episode 1](https://magic.wizards.com/en/news/magic-story/episode-1-an-offer-of-revenge)). ⚠️ The exact in-story origin of the Omenpaths is not yet cited here — open question for next cycle.
@@ -168,4 +218,5 @@ No standalone official profile was found in the 2026-10-15 sitemap for these; fa
 
 ## Gaps / next to add
 - **Done in Bot cycle 2:** Eldraine, Kaldheim, Ikoria, New Capenna, Phyrexia (original) + New Phyrexia's spheres, Ravnica post-invasion, Skalla, Vryn (stub).
-- **Still to add:** Ergamon (no fetched source), Mercadia & Ulgrotha (⚠️ stubs — no official source found yet), Vryn (mage-rings / Magic Origins), Dominaria United-era Dominaria, Zendikar Rising, Kamigawa: Neon Dynasty detail, Strixhaven colleges, Nauctis (announced set "Nauctis: The Sunken Realm", Scryfall release 2027-02 — ❓ no story yet). Tracked in GitHub issue #12.
+- **Done in Bot cycle 5:** Mercadia and Ulgrotha (sourced from the official *Known Multiverse* overview), Ergamon, Vryn (mage-rings and factions), Zendikar Rising-era Zendikar, Neon Dynasty Kamigawa, Dominaria United-era Dominaria, and the Strixhaven colleges.
+- **Still to add:** Nauctis (announced set "Nauctis: The Sunken Realm", Scryfall release 2027-02 — ❓ no story yet). Tracked in GitHub issue #12.
