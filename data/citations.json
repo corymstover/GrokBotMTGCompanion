@@ -1,0 +1,2970 @@
+{
+ "generated_by": "scripts/check_citations.py --online",
+ "sitemap": "https://magic.wizards.com/en/sitemap.xml",
+ "sitemap_urls": 4578,
+ "checked": "2026-10-15",
+ "urls": {
+  "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=73979": {
+   "status": "redirect",
+   "http": 200,
+   "checked": "2026-10-15",
+   "final": "https://gatherer.wizards.com/UNH/en-us/50/bloodletter"
+  },
+  "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=74275": {
+   "status": "redirect",
+   "http": 200,
+   "checked": "2026-10-15",
+   "final": "https://gatherer.wizards.com/UNH/en-us/10/erase-not-the-urzas-legacy-one"
+  },
+  "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=9757": {
+   "status": "redirect",
+   "http": 200,
+   "checked": "2026-10-15",
+   "final": "https://gatherer.wizards.com/UG/en-us/53/the-ultimate-nightmare-of-wizards-of-the-coast-customer-service"
+  },
+  "http://magic.wizards.com/en/articles/archive/feature/ixalan-mechanics": {
+   "status": "redirect",
+   "http": 200,
+   "checked": "2026-10-15",
+   "final": "https://magic.wizards.com/en/news/feature/ixalan-mechanics"
+  },
+  "http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics": {
+   "status": "redirect",
+   "http": 200,
+   "checked": "2026-10-15",
+   "final": "https://magic.wizards.com/en/news/feature/shadows-over-innistrad-mechanics"
+  },
+  "https://magic.wizards.com/en/articles/archive/feature/eldritch-moon-mechanics-2016-06-27": {
+   "status": "redirect",
+   "http": 200,
+   "checked": "2026-10-15",
+   "final": "https://magic.wizards.com/en/news/feature/eldritch-moon-mechanics-2016-06-27"
+  },
+  "https://magic.wizards.com/en/articles/archive/feature/kaldheim-release-notes-2021-01-22": {
+   "status": "redirect",
+   "http": 200,
+   "checked": "2026-10-15",
+   "final": "https://magic.wizards.com/en/news/feature/kaldheim-release-notes-2021-01-22"
+  },
+  "https://magic.wizards.com/en/articles/archive/news/january-21-2019-banned-and-restricted-announcement": {
+   "status": "redirect",
+   "http": 200,
+   "checked": "2026-10-15",
+   "final": "https://magic.wizards.com/en/news/announcements/january-21-2019-banned-and-restricted-announcement"
+  },
+  "https://magic.wizards.com/en/articles/archive/news/june-1-2020-banned-and-restricted-announcement": {
+   "status": "redirect",
+   "http": 200,
+   "checked": "2026-10-15",
+   "final": "https://magic.wizards.com/en/news/announcements/june-1-2020-banned-and-restricted-announcement"
+  },
+  "https://magic.wizards.com/en/articles/archive/news/unstable-faqawaslfaqpaftidawabiajtbt-2017-12-06": {
+   "status": "redirect",
+   "http": 200,
+   "checked": "2026-10-15",
+   "final": "https://magic.wizards.com/en/news/announcements/unstable-faqawaslfaqpaftidawabiajtbt-2017-12-06"
+  },
+  "https://magic.wizards.com/en/banned-restricted-list": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/formats/commander": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/keyword-glossary": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/announcements/a-first-look-at-wilds-of-eldraine": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/announcements/commander-banned-and-restricted-february-9-2026": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/announcements/commander-brackets-beta-update-february-9-2026": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/announcements/commander-brackets-beta-update-october-21-2025": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/announcements/introducing-commander-brackets-beta": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/announcements/official-reprint-policy": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/card-preview/introducing-ward-2021-03-25": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/absolution-guildpact-2013-01-07": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/armor-crypt-2013-07-01": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/armor-crypt-2013-07-03": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/asphodel-2013-12-11": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/azorius-ten-most-wanted-2012-10-29": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/barrins-tall-tale-2013-04-17": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/battle-ninth-2013-06-19": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/beast-2014-06-19": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/behind-black-sun-2013-03-25": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/bilagru-will-come-you-2013-03-13": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/black-rose-2014-05-21-0": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/blessed-life-2013-07-24": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/building-toward-dream-part-1-2013-11-27": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/building-toward-dream-part-2-2013-12-03": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/building-toward-dream-part-2-2013-12-04": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/burying-part-1-2013-01-30": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/burying-part-2-2013-03-06": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/chandras-origin-fire-logic-2015-06-10": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/cogwork-2014-05-28-0": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/consequences-attraction-2013-10-09": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/core-set-2021-and-jumpstart-release-notes-2020-06-20": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/cowardice-hero-2014-01-22-0": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/dance-flitterstep-2014-02-19-0": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/desperate-stand-2014-04-16-0": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/dragons-errand-2015-05-06": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/dreams-city-2014-04-23-0": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/experiment-one-2013-02-18": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/fblthp-2013-12-18": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/fblthp-2013-12-25": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/gideons-origin-kytheon-iora-akros-2015-07-01": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/gods-born-gods-2014-01-29-0": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/great-concourse-2012-10-23": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/greater-good-2013-02-06": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/gruul-ingenuity-2012-12-21": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/hero-iroas-2014-03-05-0": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/i-iroan-2013-11-04": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/ikoria-lair-behemoths-story-cards-2020-04-10": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/jaces-origin-absent-minds-2015-06-24": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/journey-nexus-2014-12-10": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/last-day-2013-06-05": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/legends-youll-find-dominaria-united-2022-09-01": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/life-ring-2013-05-08": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/lilianas-origin-fourth-pact-2015-06-17": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/lost-confession-2013-09-09": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/lost-confession-2013-09-11": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/lost-confession-2013-12-18": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/lost-confession-2014-01-01": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/magic-fiction-ebook-collection-2015-09-23": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/my-journey-2014-04-07": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/naming-nameless-brandon-sanderson-2018-12-12": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/nymphs-theros-2013-10-01": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/nymphs-theros-2013-10-02": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/one-hundred-steps-2013-05-22": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/path-bravery-2013-07-10": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/perfect-gift-2013-10-16": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/persistence-memory-2013-01-16": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/planeswalkers-guide-born-gods-2014-01-08": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/planeswalkers-guide-dominaria-2022-08-31": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/planeswalkers-guide-dragons-tarkir-part-1-2015-03-11": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/planeswalkers-guide-eldraine-2019-10-31": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/planeswalkers-guide-ikoria-2020-04-02": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/planeswalkers-guide-journey-nyx-2014-04-02": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/planeswalkers-guide-kaldheim-part-1-2021-01-08": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/planeswalkers-guide-kaldheim-part-2-2021-01-14": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/planeswalkers-guide-kamigawa-neon-dynasty-2022-02-03": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-murders-at-karlov-manor": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-phyrexia-all-will-be-one": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-streets-of-new-capenna": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/preparation-2013-05-29": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/pride-cometh-2013-07-17": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/prince-anax-part-1-2013-09-16": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/prince-anax-part-1-2013-09-18": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/prince-anax-part-2-2013-09-23": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/pursuit-part-1-2013-05-01": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/ravnica-high-2013-08-14": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/reclamation-2016-01-06": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/reforged-chain-2015-01-21": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/rorecas-tale-2008-03-19": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/ruric-thar-2013-04-02": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/ruric-thar-2013-04-03": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/sea-gods-labyrinth-part-1-2013-11-13": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/sea-gods-labyrinth-part-2-2013-11-20": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/slaughter-games-2012-10-13": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/stonekiller-2012-08-06": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/ten-commanders-2013-10-29": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/ten-commanders-2013-10-30": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/teysa-karlov-2013-04-09": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/teysa-karlov-2013-04-10": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/theros-beyond-death-story-cards-2019-12-16": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/theros-beyond-death-story-summary-2020-01-10": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/top-20-flavor-text-2013-08-06": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/top-20-flavor-text-2013-08-07": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/tragedy-2013-10-23": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/xathrid-gorgon-2012-12-19": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/zendikar-things-have-changed-2020-09-01": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/feature/zurbits-day-2013-07-31": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/a-hollow-body": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/a-long-way-from-home": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/a-man-of-parts": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/a-pleasant-family-outing": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/a-radiant-heart": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/aetherdrift-episode-1-the-dashing-and-the-desperate": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/aetherdrift-episode-2-pit-stop": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/aetherdrift-episode-3-go": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/aetherdrift-episode-4-little-guy-shortcuts": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/aetherdrift-episode-5-first-over-the-line": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/aetherdrift-episode-6-the-bloodless-revolution": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/aetherdrift-hour-of-restoration": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/aetherdrift-like-no-other-beast": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/aim-through-target-2021-01-15": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/ajani-mentor-heroes-2014-12-17": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/all-cairns-jund-2015-11-04": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/alley-cat-blues-2022-04-05": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/alone": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/an-excerpt-from-strixhaven-omens-of-chaos": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/any-cost-2015-11-25": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/arbiter-law-left-chaos-his-wake-2018-01-24": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/archmage-goldnight-2016-06-08": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/ascension-reza-2019-02-27": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/assault-on-new-phyrexia-or-episode-1-uncontrolled-descent": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/assault-on-new-phyrexia-or-episode-2-unstable-foundations": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/assault-on-new-phyrexia-or-episode-3-inconceivable-losses": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/assault-on-new-phyrexia-or-episode-4-impossible-odds": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/assault-on-new-phyrexia-or-episode-5-inevitable-resolutions": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/awakening-the-bear": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/bard-and-biologist-2014-07-09": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/battle-thraben-2016-07-20": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/battles-in-the-field-and-in-the-mind": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/believers-pilgrimage-2015-09-02": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/beneath-riverroot-tree-2020-09-18": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/beneath-surface-2016-01-27": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/betrayal-2014-05-14": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/beyond-repair": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/black-rose-2014-05-21": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/blade-reflected-and-reborn-2022-02-07": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/blessed-life-2012-07-24": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/blessing-blood-2021-11-05": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/blight-we-were-born-2016-01-13": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/blood-is-thicker-than-venom": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/bloody-instructions": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/blue-green-ribbons-2021-04-23": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/bond-and-blood-2014-12-03": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/born-aether-2016-09-21": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/bottled-2016-09-28": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/bound-and-bonded-2018-11-14": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/brazen-2017-05-03": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/breaking-points-2017-01-18": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/breakthrough-2016-12-14": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/brink-extinction-2016-02-10": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/brokenbrow-2021-01-22": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/burn": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/call-2015-04-15": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/campaign-vengeance-2016-07-06": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/catching-2015-07-22": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/chains-bind-2021-04-09": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-blood-and-fire-2018-07-18": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-familiar-stranger-2018-08-01": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-first-lesson-2018-06-20": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-perspectives-2018-08-08": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-things-unseen-2018-06-27": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-twins-2018-06-13": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-unwritten-now-2018-08-15": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-whispers-treachery-2018-07-11": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/chronomaton-2012-07-10": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/cinders": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/clans-legions-2018-10-24": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/cogwork-2014-05-28": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/contract-breaker-2022-03-28": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/cowardice-hero-2014-01-22": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/cry-magic-2021-03-26": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/dance-flitterstep-2014-02-19": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/dance-undeath-2021-09-24": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/dead-night-2016-11-30": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/death-and-salvation-2022-08-16": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/deaths-precious-moments-2018-11-07": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/deepest-night-2021-07-21": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/desperate-stand-2014-04-16": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/devouring-house-2021-11-19": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/direction-purpose-honor-glory-2021-01-29": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/doom-golden-fang-2015-02-04": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/dreams-city-2014-04-23": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/dreams-of-the-damned": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/drop-drop-2015-05-20": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/drownyard-temple-2016-04-06": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/dusk-reborn-2021-10-01": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-compact-me-to-zero": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-episode-1": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-episode-10": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-episode-11": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-episode-2": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-episode-3": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-episode-4": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-episode-5": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-episode-6": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-episode-7": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-episode-8": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-episode-9": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-grasp-in-the-dark": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-kadrik-and-the-pod": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-the-doors-of-uthros": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-the-wefthunter": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/edge-world-2021-10-29": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/education-ulf-2022-08-15": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/emonberry-red-2014-02-05": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/emrakul-rises": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/endure-2017-07-19": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/enlightened": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/epilogue-1-the-invasion-tree": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/epilogue-2-bring-the-end-part-2": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-1-an-offer-of-revenge": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-1-calamity-comes-to-valley": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-1-class-session-2021-03-25": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-1-echoes-dark-2022-08-10": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-1-ghosts-of-our-past": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-1-heart-skyclave-2020-09-02": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-1-homecoming-2022-03-28": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-1-pure-of-heart": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-1-stranger-eiganjo-2022-01-24": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-1-tithes-and-invitations-2021-10-28": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-1-travelers-2021-01-07": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-1-triumph-of-the-fleshless": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-1-witch-woods-2021-09-02": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-10-roots-of-decay": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-10-the-rhythms-of-life": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-11-portents-and-omens": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-2-an-expected-party": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-2-awaken-trolls-2021-01-13": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-2-dirty-laundry-2022-03-29": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-2-dolorous-weight-pleasantries-2021-11-03": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-2-holding-your-breath": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-2-lessons-2021-03-31": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-2-lies-promises-and-neon-flames-2022-01-24": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-2-monsters-we-became": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-2-motives-wolf-2021-09-08": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-2-race-murasa-skyclave-2020-09-09": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-2-sand-hourglass-2022-08-11": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-2-the-jailbreak": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-2-wandering-knight-budding-hero": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-3-a-train-to-prosperity": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-3-dangerous-climb-long-fall-2020-09-16": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-3-extracurriculars-2021-04-07": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-3-fall-house-betzold-2021-09-15": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-3-forever-hold-your-peace-2021-11-10": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-3-locked-tower-2022-08-12": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-3-mother-son-and-story": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-3-saga-tibalt-2021-01-20": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-3-shadows-of-regret": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-3-tests-2022-03-30": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-3-the-lost-and-the-found": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-3-two-great-banquets": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-3-unexpected-alliance-2022-01-24": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-4-beneath-eyes-unblinking": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-4-break-2022-01-26": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-4-brutal-blow-2022-08-15": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-4-demons-realm-2021-01-27": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-4-finding-tarnation": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-4-font-2022-04-04": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-4-harvesttide-2021-09-22": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-4-haunting-songs-and-whispered-warnings-2020-09-23": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-4-justice-before-mercy": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-4-put-test-2021-04-14": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-4-ruby-and-the-frozen-heart": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-4-soothsaying-and-stormcalling": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-4-wedding-crashers-2021-11-17": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-5-battle-kaldheim-2021-02-03": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-5-broken-oaths": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-5-cathartic-reunion": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-5-chains-of-expectation": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-5-final-exam-2021-04-21": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-5-high-moon": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-5-hymn-angels-2022-04-05": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-5-night-closes-round-2021-09-29": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-5-nightfall-in-fountainport": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-5-threads-war-2022-01-27": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-5-till-death-do-us-part-2021-11-24": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-5-two-guardians-2020-09-30": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-5-whisper-wind-2022-08-18": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-6-explosions-of-genius": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-6-the-ballad-of-thieves-and-thunderslingers": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-6-the-last-to-leave": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-7-divine-intervention": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-7-rot-before-recovery": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-8-gods-of-chaos": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-8-wrenn-and-eight": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-9-beauty-in-destruction": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-9-the-old-sins-of-new-phyrexia": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-five-dont-give-in": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-four-dont-give-up": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-one-dont-go-past-the-old-dark-house": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-six-dont-die": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-three-dont-look-back": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/episode-two-dont-split-the-party": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/epoch-engine-2022-02-08": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/faith-birds-2022-08-17": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/family-game-night": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/family-man-2022-04-04": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/family-values-2015-11-11": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/favor-2017-07-05": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/feast-2017-06-14": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/flames-2016-01-20": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/flood-2018-01-10": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/foes-who-make-us-2022-02-09": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/games-2016-04-27": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/garden-flesh-2022-05-03": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/gaze-blank-and-pitiless-2016-03-09": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/glimpse-far-side-sun-2018-01-17": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/gods-born-gods-2014-01-29": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/gorgon-and-guildpact-2014-03-12": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/grateful-consulate-2016-10-19": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/great-teachers-student-2015-03-04": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/guardian-2015-04-02": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/hand-moves-2017-04-26": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/hard-as-anger-bright-as-joy": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/hedron-alignment-2015-11-18": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/hero-iroas-2014-03-05": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/his-eyes-all-them-2021-09-17": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/home-waters-2015-09-30": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/homecoming-2022-08-12": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/homesick-2016-08-29": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/hour-devastation-2017-07-26": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/hour-eternity-2017-07-12": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/hour-glory-2017-06-21": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/hour-promise-2017-06-28": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/hour-revelation-2017-06-07": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/hunger-2020-09-25": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/hunter-cannot-pity-2014-07-16": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/i-am-avacyn-2016-05-18": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/illusions-childs-play-2019-01-23": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/impact-2017-03-29": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/in-praise-of-the-worldsoul-part-1": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/in-praise-of-the-worldsoul-part-2": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/in-praise-of-the-worldsoul-part-3": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/innistrads-last-hope-2016-06-29": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/its-time-talk-commander-2016-edition-2016-10-26": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/jace-alone-2017-09-06": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/judgment-2017-05-17": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/kaito-origin-stories-test-loyalty-path-forward-2021-12-16": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/khanfall-2015-02-18": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/kioras-followers-2014-02-14": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/know-which-way-wind-blowing-2021-01-08": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/krenko-mob-boss-2012-07-16": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/krenko-mob-boss-2012-07-18": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/kruphixs-insight-2014-06-11": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/laid-rest-2016-08-03": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/ledger-hidden-fortunes-2019-02-20": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/leovolds-dossiers-2016-08-24": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/liberation-sea-gate-2015-10-28": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/lilianas-indignation-2016-04-20": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/limits-2015-07-15": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-1-out-of-this-wood": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-2-shake-off-slumber": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-3-aweary-of-this-moon": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-4-fetch-me-that-flower": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-5-if-we-shadows": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-6-full-of-hateful-fantasies": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-7-the-charm-dissolves-apace": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-much-ado-about-thieving": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-star-crossed": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-three-dreams-three-truths": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/lunarch-inquisition-2016-05-04": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/lunarchs-journal-2014-08-13": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/maelstrom": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/magic-origins-new-era-2015-06-03": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/magic-story-shadows-over-innistrad-e-book-collection-2016-06-01": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/magosi-steps-2020-09-10": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/making-kaladesh-2016-11-09": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/memories-blood-2015-09-16": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/mentor-2021-04-16": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/mercy": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/mystery-markov-manor-2016-03-30": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/nature-identity-2014-01-15": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/nature-identity-2014-01-15-0": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/new-tarkir-old-2014-12-31": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/nissa-worldwaker-2014-06-25": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/nissas-origin-home-2015-07-08": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/nissas-quest-2015-09-23": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/nissas-resolve-2015-10-07": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/no-end-and-no-beginning-2015-02-11": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/no-tells": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/note-stranger-2022-05-02": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/oath-gatewatch-2016-02-03": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/odric-master-tactician-2012-06-26": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/offers-fire-2015-08-05": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/one-and-the-same": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/oracle-ephara-2014-03-19": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/oracle-ephara-2014-03-19-0": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/path-or-horizon-2014-05-07": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/path-or-horizon-2014-05-07-0": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-dragons-tarkir-part-2-2015-03-18": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-fate-reforged-2015-01-07": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-kaladesh-2016-11-02": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-to-edge-of-eternities": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-to-lorwyn-eclipsed": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-to-reality-fracture": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-to-secrets-of-strixhaven": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/poisoned-heart-2015-04-08": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/pride-kraul-2017-05-31": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/principles-unnatural-selection-2019-02-06": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/proclamation-adriana-captain-guard-2016-08-16": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/proclamation-queen-marchesa-2016-08-15": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/prodigal-sorcerers-2016-05-25": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/project-lightning-bug-2015-05-27": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/promised-end-2016-07-27": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/promises-keep-2015-12-02": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/promises-old-and-new-2016-04-13": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/puppets-2017-01-25": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/question-confidence-2017-09-13": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/quiet-moments-2016-12-07": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/race-part-1-2017-10-11": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/race-part-2-2017-10-18": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/rage-unsung-2019-01-30": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-1-tam-alive": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-10-happy-birthday": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-2-purge-yourself-of-doubt": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-3-i-can-be-both": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-4-oh-sweetie": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-5-i-dont-need-to-convince-you": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-6-the-man-who-kills-his-own-ambition": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-7-pick-up-the-pieces": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-8-keep-your-lids-open": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-9-unafraid": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/red-route-2020-09-04": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/release-2016-10-05": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/renegade-prime-2016-09-14": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/renewal-2017-02-01": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/retaliation-ob-nixilis-2015-12-30": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-1-2018-03-21": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-10-2018-05-16": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-11-2018-05-23": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-12-2018-05-30": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-2-2018-03-22": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-3-2018-03-28": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-4-2018-04-04": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-5-2018-04-11": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-6-2018-04-18": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-7-2018-04-25": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-8-2018-05-02": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-9-2018-05-09": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/revelation-eye-2015-10-14": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/revolution-begins-2017-01-02": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/rise-kozilek-2015-12-09": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/rivals-ixalan-magic-story-alternate-endings-2018-02-21": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/sabotage-2018-01-31": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/sacrifice-2016-03-23": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/saga-lathril-2021-02-05": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/saint-traft-and-flight-nightmares-2016-07-13": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-a-living-flame": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-down-to-the-lake-alone": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-episode-1-penmanship-practice": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-episode-2-travels-and-travails": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-episode-3-asunder": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-episode-4-something-to-offer": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-episode-5-breaking-point": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-episode-6-two-three-five-seven": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-field-studies-in-a-future-tense": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-off-the-record": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-the-math-of-more": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-winnowing-season": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/servants-2017-04-19": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/shapers-2017-09-27": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/shaping-army-2015-10-21": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/shards-nightmares-2022-08-17": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/she-who-breaks-the-world": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/side-five-dead-end": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/side-four-keep-them-alive": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/side-freedom-2022-03-30": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/side-one-welcome-home": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/side-six-its-a-beautiful-day": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/side-three-children-of-the-carnival-part-2": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/side-two-children-of-the-carnival-part-1": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/silent-cry-2015-08-26": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/silent-voice-calls-2021-04-30": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/sisters-2021-09-10": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/skies-over-ghirapur-2017-01-11": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/slaughter-refuge-2015-08-19": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/something-else-entirely-2017-10-04": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/sorins-restoration-2015-03-27": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/sorins-revelation": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/spirits-of-the-abzan": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/stirring-slumber-2015-05-13": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/stone-and-blood-2016-06-15": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/stonekiller-part-2-2012-08-13": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/stories-and-endings-2016-05-11": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/story-tarkir-block-2015-04-29": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/survival-of-the-fittest": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/survivors-2021-11-12": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/survivors-sky-rock-2015-09-09": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/taigams-scheming": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/talented-captain-vraska-2017-09-20": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/talrand-sky-summoner-2012-07-30": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/tangles-2021-09-03": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/tarkir-dragons-2015-02-25": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-abzan-siege-blossoms": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-1-stories-and-their-bones": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-2-omens": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-3-what-the-past-devours": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-4-heart-of-fire": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-5-recursion": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-6-how-wretched-love": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-7-return": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-jeskai-the-unknown-way": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-mardu-where-lightning-tells-our-story": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-sultai-betrayal": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-temur-together-survives-the-pack": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/testing-dark-waters-2018-10-17": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/thank-gods-2014-04-30": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/the-adventures-of-rankle-master-of-love": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/the-battle-of-fort-keff": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-1-stronghold": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-2-antiquities": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-3-nemesis": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-4-the-dark": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-5-exodus": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-1-the-end": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-2-the-beginning": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-3-sword-one": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-4-the-ink-of-empires": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-5-as-cruel-as-necessary": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/the-chensal-twins": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/the-fall-of-park-heights": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/the-legends-of-edge-of-eternities": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/the-legends-of-lorwyn-eclipsed": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/the-legends-of-secrets-of-strixhaven": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/the-lithomancer": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-episode-1": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-episode-2": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-episode-3": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-episode-4": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-episode-5": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-episode-6": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-pawns": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/the-madness-of-sarkhan": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/the-salt-road": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/the-shadows-of-prahv-part-1": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/the-shadows-of-prahv-part-2": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/threadbare-2012-07-23": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/three-hundred-steps-under-the-sun": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/time-innovation-2016-08-31": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/torch-defiance-2016-09-07": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/torrent": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/trespass-2017-05-10": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/trust-2017-04-05": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/truth-names-2015-01-28": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/tyrants-2016-08-10": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/unbowed-part-1-2018-08-29": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/unbowed-part-2-2018-09-05": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/unbowed-part-3-2018-09-07": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/unbroken-and-unbowed-2015-04-22": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/under-cover-fog-2018-10-10": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/under-silver-moon-2016-03-02": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/unkindness-ravens-2015-07-29": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/unwelcome-2016-03-16": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/unwritten-2015-01-14": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/veil-deceit-2014-07-01": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/very-arena-2016-10-12": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/victory-2014-11-26": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/walls-akros-2014-02-26": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-desperate-operatives-2019-05-29": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-old-friends-and-new-2019-05-08": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-operation-desperation-2019-06-05": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-path-opulent-2019-05-15": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-rallying-reluctant-2019-05-22": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/way-of-the-mantis": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/what-you-expect-see-2022-03-29": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/who-tells-stories-2018-02-07": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/wool-over-eyes-2018-02-14": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/world-class-2017-11-29": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/writing-wall-2017-04-12": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/xathrid-gorgon-2012-07-03": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/zendikar-2015-08-12": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/zendikar-resurgent-2016-02-24": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/magic-story/zendikars-last-stand-2016-02-17": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/making-magic/choosing-your-battles-part-3": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/making-magic/deciduous-2022-03-28": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/making-magic/evergreen-eggs-ham-2015-06-08": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/making-magic/journeys-end-2014-05-26": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/making-magic/odds-ends-theros-beyond-death-2020-01-27": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/news/making-magic/ten-stories-tall": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/rules": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/ajani-goldmane-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/alara-plane": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/amonkhet-plane": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/angrath-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/arlinn-kord-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/ashiok-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/avishkar-plane": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/basri-ket-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/calix-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/chandra-nalaar-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/dack-fayden-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/dakkon-blackblade-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/daretti-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/davriel-cane-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/dominaria-plane": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/domri-rade-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/dovin-baan-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/elspeth-tirel-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/fiora-plane": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/freyalise-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/garruk-wildspeaker-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/geyadrone-dihada-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/gideon-jura-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/grist-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/huatli-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/innistrad-plane": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/ixalan-plane": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/jace-beleren-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/jaya-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/jiang-yanggu-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/kaito-shizuki-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/kamigawa-plane": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/karn-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/kasmina-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/kaya-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/kiora-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/koth-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/liliana-vess-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/lorwyn-and-shadowmoor-plane": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/mirrodin-plane": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/mu-yanling-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/nahiri-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/narset-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/new-phyrexia-plane": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/nicol-bolas-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/niko-aris-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/nissa-revane-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/ob-nixilis-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/oko-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/ral-zarek-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/ravnica-plane": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/rowan-kenrith-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/saheeli-rai-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/samut-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/sarkhan-vol-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/serra-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/shandalar-plane": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/sorin-markov-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/tamiyo-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/tarkir-plane": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/teferi-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/tevesh-szat-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/teyo-verada-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/tezzeret-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/the-wanderer-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/theros-plane": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/tibalt-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/tyvar-kell-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/ugin-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/urza-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/venser-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/vivien-reid-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/vraska-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/will-kenrith-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/windgrace-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/wrenn-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/xenagos-planeswalker": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://magic.wizards.com/en/story/zendikar-plane": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  },
+  "https://media.wizards.com/2022/downloads/BRO_Release_Notes/EN_MTGBRO_ReleaseNotes_20221014_2Bg2YEfIsE.pdf": {
+   "status": "live",
+   "http": 200,
+   "checked": "2026-10-15"
+  },
+  "https://media.wizards.com/2023/downloads/RVR_Release_Notes_XrN0zlJaFn/EN_MTGRVR_ReleaseNotes_20231120.pdf": {
+   "status": "live",
+   "http": 200,
+   "checked": "2026-10-15"
+  },
+  "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt": {
+   "status": "live",
+   "http": 200,
+   "checked": "2026-10-15"
+  },
+  "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/magic-story/brulis-2017-01-04": {
+   "status": "archived",
+   "http": 200,
+   "checked": "2026-10-15"
+  },
+  "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/magic-story/die-erschaffung-von-kaladesh-2016-11-09": {
+   "status": "archived",
+   "http": 200,
+   "checked": "2026-10-15"
+  },
+  "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/magic-story/el-juramento-de-los-guardianes-2016-02-03": {
+   "status": "archived",
+   "http": 200,
+   "checked": "2026-10-15"
+  },
+  "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/barrins-tall-tale-2013-04-15": {
+   "status": "archived",
+   "http": 200,
+   "checked": "2026-10-15"
+  },
+  "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/battle-ninth-2013-06-18": {
+   "status": "archived",
+   "http": 200,
+   "checked": "2026-10-15"
+  },
+  "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/behind-black-sun-2013-03-27": {
+   "status": "archived",
+   "http": 200,
+   "checked": "2026-10-15"
+  },
+  "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/bilagru-will-come-you-2013-03-11": {
+   "status": "archived",
+   "http": 0,
+   "checked": "2026-10-15"
+  },
+  "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/blood-will-have-blood-2014-06-04": {
+   "status": "archived",
+   "http": 200,
+   "checked": "2026-10-15"
+  },
+  "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/building-toward-dream-part-1-2013-11-26": {
+   "status": "archived",
+   "http": 200,
+   "checked": "2026-10-15"
+  },
+  "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/burying-part-1-2013-01-28": {
+   "status": "archived",
+   "http": 200,
+   "checked": "2026-10-15"
+  },
+  "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/consequences-attraction-2013-10-07": {
+   "status": "archived",
+   "http": 200,
+   "checked": "2026-10-15"
+  },
+  "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/dance-flitterstep-2014-02-18": {
+   "status": "archived",
+   "http": 200,
+   "checked": "2026-10-15"
+  },
+  "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/el-grito-silencioso-2015-08-26": {
+   "status": "archived",
+   "http": 200,
+   "checked": "2026-10-15"
+  },
+  "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/expectations-2013-04-24": {
+   "status": "archived",
+   "http": 200,
+   "checked": "2026-10-15"
+  },
+  "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/fblthp-2013-02-26": {
+   "status": "archived",
+   "http": 200,
+   "checked": "2026-10-15"
+  },
+  "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/fblthp-2013-02-27": {
+   "status": "archived",
+   "http": 200,
+   "checked": "2026-10-15"
+  },
+  "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/gorgon-and-guildpact-2014-03-12-0": {
+   "status": "archived",
+   "http": 200,
+   "checked": "2026-10-15"
+  },
+  "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/greater-good-2013-02-04": {
+   "status": "archived",
+   "http": 200,
+   "checked": "2026-10-15"
+  },
+  "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/guild-deals-2013-02-12": {
+   "status": "archived",
+   "http": 200,
+   "checked": "2026-10-15"
+  },
+  "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/guild-deals-2013-02-13": {
+   "status": "archived",
+   "http": 200,
+   "checked": "2026-10-15"
+  },
+  "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/hard-sell-2013-03-19": {
+   "status": "archived",
+   "http": 200,
+   "checked": "2026-10-15"
+  },
+  "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/hero-iroas-2014-03-04": {
+   "status": "archived",
+   "http": 200,
+   "checked": "2026-10-15"
+  },
+  "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/i-iroan-2013-11-06": {
+   "status": "archived",
+   "http": 200,
+   "checked": "2026-10-15"
+  },
+  "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/labyrinth-labors-2014-04-16": {
+   "status": "archived",
+   "http": 200,
+   "checked": "2026-10-15"
+  },
+  "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/last-day-2013-06-03": {
+   "status": "archived",
+   "http": 200,
+   "checked": "2026-10-15"
+  },
+  "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/life-ring-2013-05-07": {
+   "status": "archived",
+   "http": 200,
+   "checked": "2026-10-15"
+  },
+  "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/los-supervivientes-de-la-roca-celeste-2015-09-09": {
+   "status": "archived",
+   "http": 200,
+   "checked": "2026-10-15"
+  },
+  "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/nissa-worldwaker-2014-12-24": {
+   "status": "archived",
+   "http": 200,
+   "checked": "2026-10-15"
+  },
+  "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/one-hundred-steps-2013-05-21": {
+   "status": "archived",
+   "http": 200,
+   "checked": "2026-10-15"
+  },
+  "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/pursuit-part-1-2013-04-30": {
+   "status": "archived",
+   "http": 0,
+   "checked": "2026-10-15"
+  },
+  "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/pursuit-part-2-2013-05-14": {
+   "status": "archived",
+   "http": 200,
+   "checked": "2026-10-15"
+  },
+  "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/seasons-setessa-2014-03-26": {
+   "status": "archived",
+   "http": 200,
+   "checked": "2026-10-15"
+  },
+  "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/seven-bells-part-1-2012-11-05": {
+   "status": "archived",
+   "http": 200,
+   "checked": "2026-10-15"
+  },
+  "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/shadows-prahv-part-1-2012-08-27": {
+   "status": "archived",
+   "http": 200,
+   "checked": "2026-10-15"
+  },
+  "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/shadows-prahv-part-2-2012-09-04": {
+   "status": "archived",
+   "http": 200,
+   "checked": "2026-10-15"
+  },
+  "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/walls-akros-2014-02-26-0": {
+   "status": "archived",
+   "http": 200,
+   "checked": "2026-10-15"
+  },
+  "https://web.archive.org/web/2019id_/https://magic.wizards.com/en/articles/archive/uncharted-realms/zurbits-day-2013-07-30": {
+   "status": "archived",
+   "http": 200,
+   "checked": "2026-10-15"
+  },
+  "https://wpn.wizards.com/en/document/magic-gathering-tournament-rules": {
+   "status": "redirect",
+   "http": 200,
+   "checked": "2026-10-15",
+   "final": "https://wpn.wizards.com/en/rules-documents"
+  },
+  "https://www.magic.wizards.com/en/news/announcements/banned-and-restricted-october-12-2026": {
+   "status": "sitemap",
+   "checked": "2026-10-15"
+  }
+ }
+}

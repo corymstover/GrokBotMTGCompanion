@@ -85,9 +85,16 @@ def http_get(url: str) -> bytes:
 
 def get_bulk(cache_dir: Path, bulk_file: str | None, kind: str = "oracle-cards") -> tuple[list[dict], str]:
     """Return (objects, bulk_updated_at) for a Scryfall bulk type (oracle-cards, rulings, ...)."""
+    if not bulk_file and os.environ.get("SCRYFALL_OFFLINE"):
+        # Offline mode (Bot cycle 17, scripts/validate_all.py): newest cached bulk of this kind.
+        cached = sorted(cache_dir.glob(f"{kind}-*.json*"))
+        if cached:
+            bulk_file = str(cached[-1])
     if bulk_file:
         path = Path(bulk_file)
-        updated = dt.datetime.fromtimestamp(path.stat().st_mtime, dt.timezone.utc).isoformat()
+        m = re.search(r"-(\d{4})(\d{2})(\d{2})(\d{2})(\d{2})(\d{2})\.", path.name)
+        updated = ("{}-{}-{}T{}:{}:{}+00:00".format(*m.groups()) if m
+                   else dt.datetime.fromtimestamp(path.stat().st_mtime, dt.timezone.utc).isoformat())
     else:
         meta = json.loads(http_get(f"{API}/bulk-data/{kind}"))
         updated = meta["updated_at"]
@@ -457,6 +464,9 @@ def main() -> int:
                          "batch": r.get("batch", label),
                          "rulings": str(len(rl)) if rl is not None else ""})
         p.write_text("\n".join(head) + "\n\n## Entries\n\n" + "\n".join(body), encoding="utf-8")
+
+    import front_matter  # Bot cycle 17 (#65): typed YAML front-matter on every shard
+    front_matter.apply_shards()
 
     rows.sort(key=lambda r: (ascii_key(r["name"]), r["name"]))
     DATA_DIR.mkdir(exist_ok=True)

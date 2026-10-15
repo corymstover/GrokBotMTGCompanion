@@ -1,0 +1,11172 @@
+{
+"schema": 1,
+"generated_by": "scripts/kb_find.py --build",
+"entries": 131,
+"note": "Pages and decks only; card entries are indexed by data/card_index.csv.",
+"items": [
+{
+"path": "Art & Flavor Story Links.md",
+"kind": "page",
+"title": "Art & Flavor Story Links",
+"category": "lore",
+"tags": [
+"art",
+"flavor",
+"story-spotlight"
+],
+"headings": [
+[
+2,
+"Story Spotlight cards by arc",
+"story-spotlight-cards-by-arc"
+],
+[
+3,
+"Kaladesh & Aether Revolt (2016–17)",
+"kaladesh--aether-revolt-201617"
+],
+[
+3,
+"Amonkhet & Hour of Devastation (2017)",
+"amonkhet--hour-of-devastation-2017"
+],
+[
+3,
+"Return to Dominaria (2018)",
+"return-to-dominaria-2018"
+],
+[
+3,
+"War of the Spark (2019)",
+"war-of-the-spark-2019"
+],
+[
+3,
+"The Phyrexian Invasion saga (2023)",
+"the-phyrexian-invasion-saga-2023"
+],
+[
+3,
+"Wilds of Eldraine (2023)",
+"wilds-of-eldraine-2023"
+],
+[
+3,
+"The Lost Caverns of Ixalan (2023)",
+"the-lost-caverns-of-ixalan-2023"
+],
+[
+3,
+"Murders at Karlov Manor (2024)",
+"murders-at-karlov-manor-2024"
+],
+[
+3,
+"Outlaws of Thunder Junction (2024)",
+"outlaws-of-thunder-junction-2024"
+],
+[
+3,
+"Bloomburrow (2024)",
+"bloomburrow-2024"
+],
+[
+3,
+"Duskmourn: House of Horror (2024)",
+"duskmourn-house-of-horror-2024"
+],
+[
+3,
+"Aetherdrift (2025)",
+"aetherdrift-2025"
+],
+[
+3,
+"Tarkir: Dragonstorm (2025)",
+"tarkir-dragonstorm-2025"
+],
+[
+3,
+"Edge of Eternities (2025)",
+"edge-of-eternities-2025"
+],
+[
+3,
+"Lorwyn Eclipsed (2025–26)",
+"lorwyn-eclipsed-202526"
+],
+[
+3,
+"Secrets of Strixhaven (2026)",
+"secrets-of-strixhaven-2026"
+],
+[
+3,
+"Reality Fracture (2026)",
+"reality-fracture-2026"
+],
+[
+2,
+"Captioned art on cited story pages",
+"captioned-art-on-cited-story-pages"
+]
+],
+"issues": [
+"37"
+],
+"related": [
+"Story Arc Summaries.md",
+"Artist Index.md",
+"Planeswalker Dossiers.md",
+"Side-Media Index.md"
+]
+},
+{
+"path": "Artist Index.md",
+"kind": "page",
+"title": "Artist Index",
+"category": "cards",
+"tags": [
+"artists",
+"art-credits"
+],
+"headings": [
+[
+2,
+"Most prolific artists",
+"most-prolific-artists"
+],
+[
+2,
+"Artists A",
+"artists-a"
+],
+[
+2,
+"Artists B",
+"artists-b"
+],
+[
+2,
+"Artists C",
+"artists-c"
+],
+[
+2,
+"Artists D",
+"artists-d"
+],
+[
+2,
+"Artists E",
+"artists-e"
+],
+[
+2,
+"Artists F",
+"artists-f"
+],
+[
+2,
+"Artists G",
+"artists-g"
+],
+[
+2,
+"Artists H",
+"artists-h"
+],
+[
+2,
+"Artists I",
+"artists-i"
+],
+[
+2,
+"Artists J",
+"artists-j"
+],
+[
+2,
+"Artists K",
+"artists-k"
+],
+[
+2,
+"Artists L",
+"artists-l"
+],
+[
+2,
+"Artists M",
+"artists-m"
+],
+[
+2,
+"Artists N",
+"artists-n"
+],
+[
+2,
+"Artists O",
+"artists-o"
+],
+[
+2,
+"Artists P",
+"artists-p"
+],
+[
+2,
+"Artists Q",
+"artists-q"
+],
+[
+2,
+"Artists R",
+"artists-r"
+],
+[
+2,
+"Artists S",
+"artists-s"
+],
+[
+2,
+"Artists T",
+"artists-t"
+],
+[
+2,
+"Artists U",
+"artists-u"
+],
+[
+2,
+"Artists V",
+"artists-v"
+],
+[
+2,
+"Artists W",
+"artists-w"
+],
+[
+2,
+"Artists X",
+"artists-x"
+],
+[
+2,
+"Artists Y",
+"artists-y"
+],
+[
+2,
+"Artists Z",
+"artists-z"
+],
+[
+2,
+"Artists Other",
+"artists-other"
+]
+],
+"issues": [
+"43"
+],
+"related": [
+"Art & Flavor Story Links.md"
+]
+},
+{
+"path": "Card Data Conventions.md",
+"kind": "page",
+"title": "Card Data Conventions",
+"category": "meta",
+"tags": [
+"conventions",
+"card-entries"
+],
+"headings": [
+[
+2,
+"Source of truth",
+"source-of-truth"
+],
+[
+2,
+"Storage layout (scales to ~33,000+ cards)",
+"storage-layout-scales-to-33000-cards"
+],
+[
+2,
+"Entry format",
+"entry-format"
+],
+[
+2,
+"Field definitions",
+"field-definitions"
+],
+[
+2,
+"Rulings",
+"rulings"
+],
+[
+2,
+"Source flags & verification status",
+"source-flags--verification-status"
+],
+[
+2,
+"What counts as a \"card\" (universe)",
+"what-counts-as-a-card-universe"
+],
+[
+3,
+"Duplicate names",
+"duplicate-names"
+],
+[
+3,
+"Verification",
+"verification"
+],
+[
+2,
+"Ingestion order",
+"ingestion-order"
+],
+[
+2,
+"Editing rules",
+"editing-rules"
+]
+],
+"issues": [],
+"related": [
+"EDH Standards.md",
+"Front-Matter Schema.md",
+"Card Index.md",
+"Knowledge Index.md"
+]
+},
+{
+"path": "Card Index.md",
+"kind": "page",
+"title": "Card Index",
+"category": "cards",
+"tags": [
+"index",
+"coverage"
+],
+"headings": [
+[
+2,
+"Totals",
+"totals"
+],
+[
+3,
+"By color identity",
+"by-color-identity"
+],
+[
+2,
+"Shards by letter",
+"shards-by-letter"
+],
+[
+2,
+"Category trackers",
+"category-trackers"
+],
+[
+3,
+"Utility Lands (47/47)",
+"utility-lands-4747"
+],
+[
+3,
+"Land Destruction (28/28)",
+"land-destruction-2828"
+],
+[
+3,
+"Counterspells (39/39)",
+"counterspells-3939"
+],
+[
+3,
+"Fast Mana & Rocks (20/20)",
+"fast-mana--rocks-2020"
+],
+[
+3,
+"Removal & Board Wipes (28/28)",
+"removal--board-wipes-2828"
+],
+[
+3,
+"Tutors (22/22)",
+"tutors-2222"
+],
+[
+3,
+"Card Advantage (23/23)",
+"card-advantage-2323"
+],
+[
+3,
+"Protection (16/16)",
+"protection-1616"
+],
+[
+3,
+"Ramp (20/20)",
+"ramp-2020"
+],
+[
+2,
+"Game Changers ingested",
+"game-changers-ingested"
+],
+[
+2,
+"Top 100 by EDHREC rank",
+"top-100-by-edhrec-rank"
+],
+[
+2,
+"How to find a card",
+"how-to-find-a-card"
+]
+],
+"issues": [
+"1",
+"2",
+"5"
+],
+"related": [
+"EDH Standards.md",
+"Characters Index.md",
+"EDH Staples.md",
+"Planes Index.md"
+]
+},
+{
+"path": "Characters Index.md",
+"kind": "page",
+"title": "Characters Index",
+"category": "lore",
+"tags": [
+"characters",
+"status",
+"planeswalkers"
+],
+"headings": [
+[
+2,
+"Status at a glance",
+"status-at-a-glance"
+],
+[
+2,
+"Pre-Mending / Ancient",
+"pre-mending--ancient"
+],
+[
+3,
+"Nicol Bolas",
+"nicol-bolas"
+],
+[
+3,
+"Ugin",
+"ugin"
+],
+[
+3,
+"Sorin Markov",
+"sorin-markov"
+],
+[
+3,
+"Nahiri",
+"nahiri"
+],
+[
+3,
+"Serra",
+"serra"
+],
+[
+3,
+"Geyadrone Dihada",
+"geyadrone-dihada"
+],
+[
+3,
+"Dakkon Blackblade",
+"dakkon-blackblade"
+],
+[
+3,
+"Jaya Ballard",
+"jaya-ballard"
+],
+[
+3,
+"Freyalise",
+"freyalise"
+],
+[
+2,
+"Brothers' War & Weatherlight",
+"brothers-war--weatherlight"
+],
+[
+3,
+"Urza",
+"urza"
+],
+[
+3,
+"Mishra",
+"mishra"
+],
+[
+3,
+"Karn",
+"karn"
+],
+[
+3,
+"Teferi",
+"teferi"
+],
+[
+3,
+"Tevesh Szat",
+"tevesh-szat"
+],
+[
+3,
+"Lord Windgrace",
+"lord-windgrace"
+],
+[
+3,
+"Yawgmoth",
+"yawgmoth"
+],
+[
+3,
+"Venser",
+"venser"
+],
+[
+2,
+"Post-Mending Planeswalkers",
+"post-mending-planeswalkers"
+],
+[
+3,
+"Jace Beleren",
+"jace-beleren"
+],
+[
+3,
+"Chandra Nalaar",
+"chandra-nalaar"
+],
+[
+3,
+"Gideon Jura",
+"gideon-jura"
+],
+[
+3,
+"Nissa Revane",
+"nissa-revane"
+],
+[
+3,
+"Liliana Vess",
+"liliana-vess"
+],
+[
+3,
+"Ajani Goldmane",
+"ajani-goldmane"
+],
+[
+3,
+"Vraska",
+"vraska"
+],
+[
+3,
+"Garruk Wildspeaker",
+"garruk-wildspeaker"
+],
+[
+3,
+"Elspeth Tirel",
+"elspeth-tirel"
+],
+[
+3,
+"Sarkhan Vol",
+"sarkhan-vol"
+],
+[
+3,
+"Narset",
+"narset"
+],
+[
+3,
+"Tamiyo",
+"tamiyo"
+],
+[
+3,
+"Kaya",
+"kaya"
+],
+[
+3,
+"Ral Zarek",
+"ral-zarek"
+],
+[
+3,
+"Tezzeret",
+"tezzeret"
+],
+[
+3,
+"Oko",
+"oko"
+],
+[
+3,
+"Kaito Shizuki",
+"kaito-shizuki"
+],
+[
+3,
+"Niko Aris",
+"niko-aris"
+],
+[
+3,
+"The Wanderer",
+"the-wanderer"
+],
+[
+3,
+"Koth",
+"koth"
+],
+[
+3,
+"Saheeli Rai",
+"saheeli-rai"
+],
+[
+3,
+"Huatli",
+"huatli"
+],
+[
+3,
+"Rowan Kenrith",
+"rowan-kenrith"
+],
+[
+3,
+"Jiang Yanggu",
+"jiang-yanggu"
+],
+[
+3,
+"Lukka",
+"lukka"
+],
+[
+3,
+"Wrenn",
+"wrenn"
+],
+[
+3,
+"Kiora",
+"kiora"
+],
+[
+3,
+"Samut",
+"samut"
+],
+[
+3,
+"Teyo Verada",
+"teyo-verada"
+],
+[
+2,
+"New Phyrexia Praetors",
+"new-phyrexia-praetors"
+],
+[
+3,
+"Elesh Norn",
+"elesh-norn"
+],
+[
+3,
+"Sheoldred",
+"sheoldred"
+],
+[
+3,
+"Jin-Gitaxias",
+"jin-gitaxias"
+],
+[
+3,
+"Vorinclex",
+"vorinclex"
+],
+[
+3,
+"Urabrask",
+"urabrask"
+],
+[
+2,
+"Recent / Omenpath Era",
+"recent--omenpath-era"
+],
+[
+3,
+"Tam",
+"tam"
+],
+[
+3,
+"Ranna Beleren",
+"ranna-beleren"
+],
+[
+3,
+"Kellan",
+"kellan"
+],
+[
+3,
+"Helga",
+"helga"
+],
+[
+3,
+"Kirol, Abigale, Lluwen, Sanar",
+"kirol-abigale-lluwen-sanar"
+],
+[
+3,
+"Proft, Etrata, Aminatou, Niv-Mizzet",
+"proft-etrata-aminatou-niv-mizzet"
+],
+[
+3,
+"Uldaros Theorix",
+"uldaros-theorix"
+],
+[
+3,
+"Pinnacle / Sothera cast (Haliya, Sami, Mirri, Alpharael)",
+"pinnacle--sothera-cast-haliya-sami-mirri-alpharael"
+],
+[
+2,
+"Sparks after the Phyrexian Invasion",
+"sparks-after-the-phyrexian-invasion"
+],
+[
+2,
+"Echoverse counterparts",
+"echoverse-counterparts"
+],
+[
+2,
+"Remaining profiled Planeswalkers (reviewed Bot cycle 4)",
+"remaining-profiled-planeswalkers-reviewed-bot-cycle-4"
+],
+[
+3,
+"Angrath",
+"angrath"
+],
+[
+3,
+"Arlinn Kord",
+"arlinn-kord"
+],
+[
+3,
+"Ashiok",
+"ashiok"
+],
+[
+3,
+"Basri Ket",
+"basri-ket"
+],
+[
+3,
+"Calix",
+"calix"
+],
+[
+3,
+"Dack Fayden",
+"dack-fayden"
+],
+[
+3,
+"Daretti",
+"daretti"
+],
+[
+3,
+"Davriel Cane",
+"davriel-cane"
+],
+[
+3,
+"Domri Rade",
+"domri-rade"
+],
+[
+3,
+"Dovin Baan",
+"dovin-baan"
+],
+[
+3,
+"Grist",
+"grist"
+],
+[
+3,
+"Kasmina",
+"kasmina"
+],
+[
+3,
+"Mu Yanling",
+"mu-yanling"
+],
+[
+3,
+"Ob Nixilis",
+"ob-nixilis"
+],
+[
+3,
+"Tibalt",
+"tibalt"
+],
+[
+3,
+"Tyvar Kell",
+"tyvar-kell"
+],
+[
+3,
+"Vivien Reid",
+"vivien-reid"
+],
+[
+3,
+"Will Kenrith",
+"will-kenrith"
+],
+[
+3,
+"Xenagos",
+"xenagos"
+],
+[
+2,
+"Open questions",
+"open-questions"
+]
+],
+"issues": [
+"7",
+"11",
+"20"
+],
+"related": [
+"Conflicts & Arcs.md",
+"Master Timeline.md",
+"Planes Index.md",
+"Planeswalker Dossiers.md",
+"Story Arc Summaries.md",
+"Card Index.md"
+]
+},
+{
+"path": "Conflicts & Arcs.md",
+"kind": "page",
+"title": "Conflicts & Arcs",
+"category": "lore",
+"tags": [
+"arcs",
+"conflicts"
+],
+"headings": [
+[
+2,
+"Ancient: imprisoning the Eldrazi",
+"ancient-imprisoning-the-eldrazi"
+],
+[
+2,
+"The Brothers' War",
+"the-brothers-war"
+],
+[
+2,
+"Phyrexia vs. Dominaria & the Weatherlight",
+"phyrexia-vs-dominaria--the-weatherlight"
+],
+[
+2,
+"Time Rifts & the Mending",
+"time-rifts--the-mending"
+],
+[
+2,
+"Conflux of Alara",
+"conflux-of-alara"
+],
+[
+2,
+"Phyrexian conquest of Mirrodin",
+"phyrexian-conquest-of-mirrodin"
+],
+[
+2,
+"Eldrazi Awaken / Battle for Zendikar / Gatewatch",
+"eldrazi-awaken--battle-for-zendikar--gatewatch"
+],
+[
+2,
+"Innistrad & Emrakul",
+"innistrad--emrakul"
+],
+[
+2,
+"Kaladesh revolt",
+"kaladesh-revolt"
+],
+[
+2,
+"Amonkhet & the God-Pharaoh",
+"amonkhet--the-god-pharaoh"
+],
+[
+2,
+"Ixalan & the Immortal Sun",
+"ixalan--the-immortal-sun"
+],
+[
+2,
+"Tarkir: Fate Reforged",
+"tarkir-fate-reforged"
+],
+[
+2,
+"Return to Dominaria & War of the Spark",
+"return-to-dominaria--war-of-the-spark"
+],
+[
+2,
+"Post–War of the Spark arcs (2019–2022)",
+"postwar-of-the-spark-arcs-20192022"
+],
+[
+3,
+"Throne of Eldraine (2019)",
+"throne-of-eldraine-2019"
+],
+[
+3,
+"Theros Beyond Death (2020)",
+"theros-beyond-death-2020"
+],
+[
+3,
+"Ikoria: Lair of Behemoths (2020)",
+"ikoria-lair-of-behemoths-2020"
+],
+[
+3,
+"Zendikar Rising (2020)",
+"zendikar-rising-2020"
+],
+[
+3,
+"Kaldheim (2021)",
+"kaldheim-2021"
+],
+[
+3,
+"Strixhaven (2021)",
+"strixhaven-2021"
+],
+[
+3,
+"Innistrad: Midnight Hunt & Crimson Vow (2021)",
+"innistrad-midnight-hunt--crimson-vow-2021"
+],
+[
+3,
+"Kamigawa: Neon Dynasty (2022)",
+"kamigawa-neon-dynasty-2022"
+],
+[
+3,
+"Streets of New Capenna (2022)",
+"streets-of-new-capenna-2022"
+],
+[
+2,
+"Phyrexian Invasion of the Multiverse",
+"phyrexian-invasion-of-the-multiverse"
+],
+[
+3,
+"Dominaria United (2022)",
+"dominaria-united-2022"
+],
+[
+3,
+"The Brothers' War frame story (2022)",
+"the-brothers-war-frame-story-2022"
+],
+[
+3,
+"Phyrexia: All Will Be One (2023)",
+"phyrexia-all-will-be-one-2023"
+],
+[
+3,
+"March of the Machine (2023)",
+"march-of-the-machine-2023"
+],
+[
+3,
+"March of the Machine: The Aftermath (2023)",
+"march-of-the-machine-the-aftermath-2023"
+],
+[
+2,
+"Omenpath-era arcs (2024–2026)",
+"omenpath-era-arcs-20242026"
+],
+[
+3,
+"Wilds of Eldraine (2023)",
+"wilds-of-eldraine-2023"
+],
+[
+3,
+"The Lost Caverns of Ixalan (2023)",
+"the-lost-caverns-of-ixalan-2023"
+],
+[
+3,
+"Murders at Karlov Manor (2024)",
+"murders-at-karlov-manor-2024"
+],
+[
+3,
+"Outlaws of Thunder Junction (2024)",
+"outlaws-of-thunder-junction-2024"
+],
+[
+3,
+"Bloomburrow (2024)",
+"bloomburrow-2024"
+],
+[
+3,
+"Duskmourn: House of Horror (2024)",
+"duskmourn-house-of-horror-2024"
+],
+[
+3,
+"Aetherdrift (2025)",
+"aetherdrift-2025"
+],
+[
+3,
+"Tarkir: Dragonstorm (2025)",
+"tarkir-dragonstorm-2025"
+],
+[
+3,
+"Edge of Eternities (2025)",
+"edge-of-eternities-2025"
+],
+[
+3,
+"Lorwyn Eclipsed (2025–26)",
+"lorwyn-eclipsed-202526"
+],
+[
+3,
+"Secrets of Strixhaven (2026)",
+"secrets-of-strixhaven-2026"
+],
+[
+2,
+"Jace's Echoverse (Reality Fracture)",
+"jaces-echoverse-reality-fracture"
+],
+[
+2,
+"Cross-arc threads",
+"cross-arc-threads"
+],
+[
+2,
+"Open questions",
+"open-questions"
+]
+],
+"issues": [
+"7",
+"13",
+"34"
+],
+"related": [
+"Characters Index.md",
+"Master Timeline.md",
+"Planes Index.md",
+"Story Arc Summaries.md",
+"Omenpath & Multiverse Connections.md"
+]
+},
+{
+"path": "EDH Archetypes.md",
+"kind": "page",
+"title": "EDH Archetypes",
+"category": "edh",
+"tags": [
+"archetypes",
+"strategy"
+],
+"headings": [
+[
+2,
+"Aristocrats (sacrifice & death triggers)",
+"aristocrats-sacrifice--death-triggers"
+],
+[
+2,
+"Tokens / go-wide",
+"tokens--go-wide"
+],
+[
+2,
+"Spellslinger (instants & sorceries)",
+"spellslinger-instants--sorceries"
+],
+[
+2,
+"Lands matter / landfall",
+"lands-matter--landfall"
+],
+[
+2,
+"+1/+1 counters",
+"11-counters"
+],
+[
+2,
+"Graveyard value / reanimator",
+"graveyard-value--reanimator"
+],
+[
+2,
+"Blink / flicker",
+"blink--flicker"
+],
+[
+2,
+"Artifacts",
+"artifacts"
+],
+[
+2,
+"Combat / voltron & extra combats",
+"combat--voltron--extra-combats"
+],
+[
+2,
+"Cascade & big spells",
+"cascade--big-spells"
+],
+[
+2,
+"Group hug & group slug",
+"group-hug--group-slug"
+],
+[
+2,
+"Life as a resource / lifedrain",
+"life-as-a-resource--lifedrain"
+]
+],
+"issues": [
+"16",
+"19"
+],
+"related": [
+"EDH Standards.md",
+"Rules Interactions.md",
+"EDH Mulligans.md",
+"EDH Staples.md",
+"EDH Packages.md",
+"EDH Win Conditions.md"
+]
+},
+{
+"path": "EDH Deck Evaluation Checklist.md",
+"kind": "page",
+"title": "EDH Deck Evaluation Checklist",
+"category": "edh",
+"tags": [
+"checklist",
+"evaluation",
+"brackets",
+"methodology"
+],
+"headings": [
+[
+2,
+"Gate A — hard correctness (machine-checked)",
+"gate-a--hard-correctness-machine-checked"
+],
+[
+2,
+"Gate B — bracket inputs",
+"gate-b--bracket-inputs"
+],
+[
+2,
+"Gate C — rules lines",
+"gate-c--rules-lines"
+],
+[
+2,
+"Gate D — strategy (guidance)",
+"gate-d--strategy-guidance"
+],
+[
+2,
+"Gate E — evidence labels and stopping",
+"gate-e--evidence-labels-and-stopping"
+],
+[
+2,
+"Official legality vs house exceptions",
+"official-legality-vs-house-exceptions"
+],
+[
+2,
+"Running the checks",
+"running-the-checks"
+]
+],
+"issues": [
+"62"
+],
+"related": [
+"EDH Deck Template.md",
+"EDH Standards.md",
+"grixis/Grixis Corrections.md",
+"EDH Mulligans.md",
+"grixis/Grixis Packages.md",
+"grixis/README.md"
+]
+},
+{
+"path": "EDH Deck Template.md",
+"kind": "page",
+"title": "EDH Deck Template",
+"category": "edh",
+"tags": [
+"template",
+"blueprint",
+"swap-ledger",
+"methodology"
+],
+"headings": [
+[
+2,
+"1. Commander block",
+"1-commander-block"
+],
+[
+2,
+"2. Commander-first blueprint",
+"2-commander-first-blueprint"
+],
+[
+2,
+"3. Role and package map (whole-list audit)",
+"3-role-and-package-map-whole-list-audit"
+],
+[
+2,
+"4. Swap ledger",
+"4-swap-ledger"
+],
+[
+2,
+"5. Card-fit rubric",
+"5-card-fit-rubric"
+],
+[
+2,
+"6. Finalization record",
+"6-finalization-record"
+],
+[
+2,
+"7. Page layout for a finished deck",
+"7-page-layout-for-a-finished-deck"
+]
+],
+"issues": [
+"62"
+],
+"related": [
+"EDH Deck Evaluation Checklist.md",
+"EDH Standards.md",
+"grixis/README.md",
+"EDH Win Conditions.md",
+"grixis/Grixis Packages.md"
+]
+},
+{
+"path": "EDH Interaction.md",
+"kind": "page",
+"title": "EDH Interaction",
+"category": "edh",
+"tags": [
+"removal",
+"interaction",
+"stax"
+],
+"headings": [
+[
+2,
+"Targeted removal",
+"targeted-removal"
+],
+[
+3,
+"1. Any permanent / nonland permanent",
+"1-any-permanent--nonland-permanent"
+],
+[
+3,
+"2. Artifact or enchantment",
+"2-artifact-or-enchantment"
+],
+[
+3,
+"3. Creature",
+"3-creature"
+],
+[
+3,
+"4. Bounce (tempo)",
+"4-bounce-tempo"
+],
+[
+2,
+"Mass removal (board wipes)",
+"mass-removal-board-wipes"
+],
+[
+3,
+"1. Creature wipes",
+"1-creature-wipes"
+],
+[
+3,
+"2. Everything / nonland wipes",
+"2-everything--nonland-wipes"
+],
+[
+3,
+"3. Artifact / enchantment wipes",
+"3-artifact--enchantment-wipes"
+],
+[
+2,
+"Stack interaction",
+"stack-interaction"
+],
+[
+3,
+"1. Hard counters (any spell)",
+"1-hard-counters-any-spell"
+],
+[
+3,
+"2. Free / alternative-cost counters",
+"2-free--alternative-cost-counters"
+],
+[
+3,
+"3. Soft & conditional counters",
+"3-soft--conditional-counters"
+],
+[
+3,
+"4. Ability counters (Stifle effects)",
+"4-ability-counters-stifle-effects"
+],
+[
+2,
+"Graveyard hate",
+"graveyard-hate"
+],
+[
+3,
+"1. Static graveyard hate",
+"1-static-graveyard-hate"
+],
+[
+3,
+"2. Repeatable / instant-speed exile",
+"2-repeatable--instant-speed-exile"
+],
+[
+2,
+"Artifact & enchantment hate (static)",
+"artifact--enchantment-hate-static"
+],
+[
+3,
+"1. Repeatable answers on permanents",
+"1-repeatable-answers-on-permanents"
+],
+[
+2,
+"Stax & taxes",
+"stax--taxes"
+],
+[
+3,
+"1. Search / tutor hate",
+"1-search--tutor-hate"
+],
+[
+3,
+"2. Spell-count limits",
+"2-spell-count-limits"
+],
+[
+3,
+"3. Taxes",
+"3-taxes"
+],
+[
+3,
+"4. Untap restriction",
+"4-untap-restriction"
+],
+[
+3,
+"5. ⚠️ Mass land denial",
+"5--mass-land-denial"
+],
+[
+2,
+"How much interaction (guidance)",
+"how-much-interaction-guidance"
+]
+],
+"issues": [
+"28"
+],
+"related": [
+"EDH Packages.md",
+"EDH Standards.md",
+"EDH Win Conditions.md",
+"Rules Interactions.md",
+"cEDH Primer.md"
+]
+},
+{
+"path": "EDH Mana Bases.md",
+"kind": "page",
+"title": "EDH Mana Bases",
+"category": "edh",
+"tags": [
+"lands",
+"mana-base",
+"color-identity"
+],
+"headings": [
+[
+2,
+"Land counts",
+"land-counts"
+],
+[
+2,
+"Universal fixing (any identity)",
+"universal-fixing-any-identity"
+],
+[
+2,
+"Colorless utility lands",
+"colorless-utility-lands"
+],
+[
+3,
+"Fetch lands & land search",
+"fetch-lands--land-search"
+],
+[
+3,
+"Land destruction / utility removal",
+"land-destruction--utility-removal"
+],
+[
+3,
+"Card advantage",
+"card-advantage"
+],
+[
+3,
+"Graveyard interaction",
+"graveyard-interaction"
+],
+[
+3,
+"Creature lands",
+"creature-lands"
+],
+[
+3,
+"Mana & untapping",
+"mana--untapping"
+],
+[
+3,
+"Other utility",
+"other-utility"
+],
+[
+2,
+"By color identity",
+"by-color-identity"
+],
+[
+3,
+"Colorless C",
+"colorless-c"
+],
+[
+3,
+"White W",
+"white-w"
+],
+[
+3,
+"Blue U",
+"blue-u"
+],
+[
+3,
+"Black B",
+"black-b"
+],
+[
+3,
+"Red R",
+"red-r"
+],
+[
+3,
+"Green G",
+"green-g"
+],
+[
+3,
+"Azorius WU",
+"azorius-wu"
+],
+[
+3,
+"Dimir UB",
+"dimir-ub"
+],
+[
+3,
+"Rakdos BR",
+"rakdos-br"
+],
+[
+3,
+"Gruul RG",
+"gruul-rg"
+],
+[
+3,
+"Selesnya WG",
+"selesnya-wg"
+],
+[
+3,
+"Orzhov WB",
+"orzhov-wb"
+],
+[
+3,
+"Izzet UR",
+"izzet-ur"
+],
+[
+3,
+"Golgari BG",
+"golgari-bg"
+],
+[
+3,
+"Boros WR",
+"boros-wr"
+],
+[
+3,
+"Simic UG",
+"simic-ug"
+],
+[
+3,
+"Bant WUG",
+"bant-wug"
+],
+[
+3,
+"Esper WUB",
+"esper-wub"
+],
+[
+3,
+"Grixis UBR",
+"grixis-ubr"
+],
+[
+3,
+"Jund BRG",
+"jund-brg"
+],
+[
+3,
+"Naya WRG",
+"naya-wrg"
+],
+[
+3,
+"Abzan WBG",
+"abzan-wbg"
+],
+[
+3,
+"Jeskai WUR",
+"jeskai-wur"
+],
+[
+3,
+"Sultai UBG",
+"sultai-ubg"
+],
+[
+3,
+"Mardu WBR",
+"mardu-wbr"
+],
+[
+3,
+"Temur URG",
+"temur-urg"
+],
+[
+3,
+"Glint (non-W) UBRG",
+"glint-non-w-ubrg"
+],
+[
+3,
+"Dune (non-U) WBRG",
+"dune-non-u-wbrg"
+],
+[
+3,
+"Ink (non-B) WURG",
+"ink-non-b-wurg"
+],
+[
+3,
+"Witch (non-R) WUBG",
+"witch-non-r-wubg"
+],
+[
+3,
+"Yore (non-G) WUBR",
+"yore-non-g-wubr"
+],
+[
+3,
+"Five-color WUBRG",
+"five-color-wubrg"
+],
+[
+2,
+"Method",
+"method"
+]
+],
+"issues": [
+"25"
+],
+"related": [
+"EDH Packages.md",
+"EDH Standards.md",
+"EDH Mulligans.md",
+"EDH Staples.md",
+"Rules Interactions.md",
+"grixis/README.md"
+]
+},
+{
+"path": "EDH Mulligans.md",
+"kind": "page",
+"title": "EDH Mulligans",
+"category": "edh",
+"tags": [
+"mulligan",
+"opening-hand"
+],
+"headings": [
+[
+2,
+"Rules (fact)",
+"rules-fact"
+],
+[
+2,
+"Opening-hand land odds (math)",
+"opening-hand-land-odds-math"
+],
+[
+2,
+"Odds of seeing a key piece (math)",
+"odds-of-seeing-a-key-piece-math"
+],
+[
+2,
+"Opening-hand cards (CR 103.6)",
+"opening-hand-cards-cr-1036"
+],
+[
+2,
+"Keep or mulligan? (guidance)",
+"keep-or-mulligan-guidance"
+],
+[
+2,
+"Priorities by archetype (guidance)",
+"priorities-by-archetype-guidance"
+]
+],
+"issues": [
+"31"
+],
+"related": [
+"EDH Archetypes.md",
+"EDH Deck Evaluation Checklist.md",
+"EDH Mana Bases.md",
+"EDH Standards.md",
+"Rules Interactions.md",
+"cEDH Primer.md"
+]
+},
+{
+"path": "EDH Packages.md",
+"kind": "page",
+"title": "EDH Packages",
+"category": "edh",
+"tags": [
+"packages",
+"ramp",
+"card-advantage"
+],
+"headings": [
+[
+2,
+"Ramp",
+"ramp"
+],
+[
+3,
+"Ramp: Mana rocks (MV ≤ 2)",
+"ramp-mana-rocks-mv--2"
+],
+[
+3,
+"Ramp: Land ramp (puts lands onto the battlefield)",
+"ramp-land-ramp-puts-lands-onto-the-battlefield"
+],
+[
+3,
+"Ramp: Mana creatures (MV ≤ 2)",
+"ramp-mana-creatures-mv--2"
+],
+[
+3,
+"Ramp: Cost reducers",
+"ramp-cost-reducers"
+],
+[
+2,
+"Card advantage",
+"card-advantage"
+],
+[
+3,
+"Card advantage: Repeatable draw engines (permanents)",
+"card-advantage-repeatable-draw-engines-permanents"
+],
+[
+3,
+"Card advantage: Burst draw (instants & sorceries)",
+"card-advantage-burst-draw-instants--sorceries"
+],
+[
+3,
+"Card advantage: Impulse / exile-to-play",
+"card-advantage-impulse--exile-to-play"
+],
+[
+2,
+"Aristocrats",
+"aristocrats"
+],
+[
+3,
+"Aristocrats: Free sacrifice outlets",
+"aristocrats-free-sacrifice-outlets"
+],
+[
+3,
+"Aristocrats: Death-trigger drain payoffs",
+"aristocrats-death-trigger-drain-payoffs"
+],
+[
+3,
+"Aristocrats: Fodder makers (multiple creature tokens)",
+"aristocrats-fodder-makers-multiple-creature-tokens"
+],
+[
+2,
+"+1/+1 counters",
+"11-counters"
+],
+[
+3,
+"+1/+1 counters: Counter doublers",
+"11-counters-counter-doublers"
+],
+[
+3,
+"+1/+1 counters: Proliferate",
+"11-counters-proliferate"
+],
+[
+3,
+"+1/+1 counters: Counter payoffs",
+"11-counters-counter-payoffs"
+],
+[
+2,
+"Spellslinger",
+"spellslinger"
+],
+[
+3,
+"Spellslinger: Instant/sorcery cost reducers",
+"spellslinger-instantsorcery-cost-reducers"
+],
+[
+3,
+"Spellslinger: Spell copiers",
+"spellslinger-spell-copiers"
+],
+[
+3,
+"Spellslinger: Cast-trigger payoffs",
+"spellslinger-cast-trigger-payoffs"
+],
+[
+2,
+"Graveyard",
+"graveyard"
+],
+[
+3,
+"Graveyard: Self-mill",
+"graveyard-self-mill"
+],
+[
+3,
+"Graveyard: Reanimation",
+"graveyard-reanimation"
+],
+[
+3,
+"Graveyard: Recursion to hand",
+"graveyard-recursion-to-hand"
+],
+[
+2,
+"Tokens",
+"tokens"
+],
+[
+3,
+"Tokens: Token doublers",
+"tokens-token-doublers"
+],
+[
+3,
+"Tokens: Anthems",
+"tokens-anthems"
+],
+[
+3,
+"Tokens: Mass pump finishers",
+"tokens-mass-pump-finishers"
+],
+[
+2,
+"Blink",
+"blink"
+],
+[
+3,
+"Blink: Blink effects",
+"blink-blink-effects"
+],
+[
+3,
+"Blink: ETB doublers",
+"blink-etb-doublers"
+],
+[
+2,
+"Lands / landfall",
+"lands--landfall"
+],
+[
+3,
+"Lands / landfall: Extra land drops",
+"lands--landfall-extra-land-drops"
+],
+[
+3,
+"Lands / landfall: Landfall payoffs",
+"lands--landfall-landfall-payoffs"
+],
+[
+3,
+"Lands / landfall: Lands from graveyard",
+"lands--landfall-lands-from-graveyard"
+],
+[
+2,
+"Artifacts",
+"artifacts"
+],
+[
+3,
+"Artifacts: Artifact payoffs",
+"artifacts-artifact-payoffs"
+],
+[
+3,
+"Artifacts: Artifact cost reducers",
+"artifacts-artifact-cost-reducers"
+],
+[
+2,
+"Enchantress",
+"enchantress"
+],
+[
+3,
+"Enchantress: Enchantress draw",
+"enchantress-enchantress-draw"
+],
+[
+2,
+"Voltron (equipment & auras)",
+"voltron-equipment--auras"
+],
+[
+3,
+"Voltron (equipment & auras): Protective equipment/auras",
+"voltron-equipment--auras-protective-equipmentauras"
+],
+[
+3,
+"Voltron (equipment & auras): Evasion & double strike",
+"voltron-equipment--auras-evasion--double-strike"
+],
+[
+2,
+"Treasure",
+"treasure"
+],
+[
+3,
+"Treasure: Repeatable Treasure makers",
+"treasure-repeatable-treasure-makers"
+],
+[
+2,
+"Method",
+"method"
+]
+],
+"issues": [
+"26"
+],
+"related": [
+"EDH Interaction.md",
+"EDH Win Conditions.md",
+"Rules Interactions.md",
+"EDH Archetypes.md",
+"EDH Mana Bases.md",
+"EDH Standards.md"
+]
+},
+{
+"path": "EDH Pairings.md",
+"kind": "page",
+"title": "EDH Pairings — Partner, Background, Friends forever & Doctor's companion",
+"category": "edh",
+"tags": [
+"partner",
+"background",
+"pairings"
+],
+"headings": [
+[
+2,
+"Rules (fact)",
+"rules-fact"
+],
+[
+2,
+"Card counts",
+"card-counts"
+],
+[
+2,
+"Identity matrix",
+"identity-matrix"
+],
+[
+2,
+"Partner",
+"partner"
+],
+[
+2,
+"Partner—Character select",
+"partnercharacter-select"
+],
+[
+2,
+"Partner—Father & son",
+"partnerfather--son"
+],
+[
+2,
+"Partner—Friends forever",
+"partnerfriends-forever"
+],
+[
+2,
+"Partner—Survivors",
+"partnersurvivors"
+],
+[
+2,
+"Partner with",
+"partner-with"
+],
+[
+2,
+"Choose a Background",
+"choose-a-background"
+],
+[
+2,
+"Doctor's companion",
+"doctors-companion"
+],
+[
+2,
+"Guidance (opinion)",
+"guidance-opinion"
+]
+],
+"issues": [
+"32"
+],
+"related": [
+"Rules Interactions.md",
+"EDH Standards.md"
+]
+},
+{
+"path": "EDH Standards.md",
+"kind": "page",
+"title": "EDH Standards",
+"category": "edh",
+"tags": [
+"deckbuilding-rules",
+"color-identity",
+"brackets"
+],
+"headings": [
+[
+2,
+"Core rules (verified)",
+"core-rules-verified"
+],
+[
+2,
+"Color identity (strict)",
+"color-identity-strict"
+],
+[
+2,
+"Commander first",
+"commander-first"
+],
+[
+2,
+"List format: Archidekt",
+"list-format-archidekt"
+],
+[
+2,
+"Power bracket assessment",
+"power-bracket-assessment"
+],
+[
+2,
+"Banned list & legality",
+"banned-list--legality"
+],
+[
+2,
+"Game Changers",
+"game-changers"
+],
+[
+2,
+"Deck skeletons",
+"deck-skeletons"
+],
+[
+2,
+"Synergy notes",
+"synergy-notes"
+],
+[
+3,
+"Death triggers ×2 — Teysa Karlov (WB, aristocrats)",
+"death-triggers-2--teysa-karlov-wb-aristocrats"
+],
+[
+3,
+"Instants & sorceries make bodies — Talrand, Sky Summoner (U, spellslinger)",
+"instants--sorceries-make-bodies--talrand-sky-summoner-u-spellslinger"
+],
+[
+3,
+"Landfall card draw — Tatyova, Benthic Druid (GU, lands matter)",
+"landfall-card-draw--tatyova-benthic-druid-gu-lands-matter"
+],
+[
+3,
+"Sacrifice = card + counter — Korvold, Fae-Cursed King (BRG, sacrifice/Treasure)",
+"sacrifice--card--counter--korvold-fae-cursed-king-brg-sacrificetreasure"
+],
+[
+3,
+"One permanent of each type from the graveyard — Muldrotha, the Gravetide (BGU, self-mill)",
+"one-permanent-of-each-type-from-the-graveyard--muldrotha-the-gravetide-bgu-self-mill"
+],
+[
+3,
+"Recursion with a cost reduction — Karador, Ghost Chieftain (WBG, graveyard creatures)",
+"recursion-with-a-cost-reduction--karador-ghost-chieftain-wbg-graveyard-creatures"
+],
+[
+3,
+"Ninjas reveal and drain — Yuriko, the Tiger's Shadow (UB, ninjutsu)",
+"ninjas-reveal-and-drain--yuriko-the-tigers-shadow-ub-ninjutsu"
+],
+[
+3,
+"Life as black mana — K'rrik, Son of Yawgmoth (B, life-payment)",
+"life-as-black-mana--krrik-son-of-yawgmoth-b-life-payment"
+],
+[
+3,
+"Blink on combat damage — Brago, King Eternal (WU, flicker)",
+"blink-on-combat-damage--brago-king-eternal-wu-flicker"
+],
+[
+3,
+"Playing from exile makes Treasure — Prosper, Tome-Bound (BR, impulse draw)",
+"playing-from-exile-makes-treasure--prosper-tome-bound-br-impulse-draw"
+],
+[
+3,
+"Draw ↔ damage loop — Niv-Mizzet, Parun (UR, spellslinger) ⚠️ two-card combo",
+"draw--damage-loop--niv-mizzet-parun-ur-spellslinger--two-card-combo"
+],
+[
+3,
+"Artifacts as ammunition — Breya, Etherium Shaper (WUBR, artifacts)",
+"artifacts-as-ammunition--breya-etherium-shaper-wubr-artifacts"
+],
+[
+3,
+"Cascade on combat damage — Yidris, Maelstrom Wielder (UBRG, cascade)",
+"cascade-on-combat-damage--yidris-maelstrom-wielder-ubrg-cascade"
+],
+[
+3,
+"Combat damage, redirected — Saskia the Unyielding (BRGW, aggro)",
+"combat-damage-redirected--saskia-the-unyielding-brgw-aggro"
+],
+[
+3,
+"Group hug lands & cards — Kynaios and Tiro of Meletis (RGWU, group hug)",
+"group-hug-lands--cards--kynaios-and-tiro-of-meletis-rgwu-group-hug"
+],
+[
+2,
+"Deck-building checklist",
+"deck-building-checklist"
+],
+[
+2,
+"Deck evaluation method (from the Grixis repo)",
+"deck-evaluation-method-from-the-grixis-repo"
+],
+[
+2,
+"Official legality vs house exceptions",
+"official-legality-vs-house-exceptions"
+],
+[
+2,
+"Open questions",
+"open-questions"
+]
+],
+"issues": [
+"6"
+],
+"related": [
+"grixis/Grixis Corrections.md",
+"EDH Archetypes.md",
+"EDH Staples.md",
+"EDH Deck Template.md",
+"EDH Deck Evaluation Checklist.md",
+"EDH Win Conditions.md"
+]
+},
+{
+"path": "EDH Staples.md",
+"kind": "page",
+"title": "EDH Staples",
+"category": "edh",
+"tags": [
+"staples",
+"color-identity"
+],
+"headings": [
+[
+2,
+"How to use",
+"how-to-use"
+],
+[
+2,
+"By color identity",
+"by-color-identity"
+],
+[
+3,
+"Colorless",
+"colorless"
+],
+[
+3,
+"White",
+"white"
+],
+[
+3,
+"Blue",
+"blue"
+],
+[
+3,
+"Black",
+"black"
+],
+[
+3,
+"Red",
+"red"
+],
+[
+3,
+"Green",
+"green"
+],
+[
+3,
+"Azorius (WU)",
+"azorius-wu"
+],
+[
+3,
+"Dimir (UB)",
+"dimir-ub"
+],
+[
+3,
+"Rakdos (BR)",
+"rakdos-br"
+],
+[
+3,
+"Gruul (RG)",
+"gruul-rg"
+],
+[
+3,
+"Selesnya (WG)",
+"selesnya-wg"
+],
+[
+3,
+"Orzhov (WB)",
+"orzhov-wb"
+],
+[
+3,
+"Izzet (UR)",
+"izzet-ur"
+],
+[
+3,
+"Golgari (BG)",
+"golgari-bg"
+],
+[
+3,
+"Boros (WR)",
+"boros-wr"
+],
+[
+3,
+"Simic (UG)",
+"simic-ug"
+],
+[
+3,
+"Bant (WUG)",
+"bant-wug"
+],
+[
+3,
+"Esper (WUB)",
+"esper-wub"
+],
+[
+3,
+"Grixis (UBR)",
+"grixis-ubr"
+],
+[
+3,
+"Jund (BRG)",
+"jund-brg"
+],
+[
+3,
+"Naya (WRG)",
+"naya-wrg"
+],
+[
+3,
+"Abzan (WBG)",
+"abzan-wbg"
+],
+[
+3,
+"Jeskai (WUR)",
+"jeskai-wur"
+],
+[
+3,
+"Sultai (UBG)",
+"sultai-ubg"
+],
+[
+3,
+"Mardu (WBR)",
+"mardu-wbr"
+],
+[
+3,
+"Temur (URG)",
+"temur-urg"
+],
+[
+2,
+"By role and archetype",
+"by-role-and-archetype"
+],
+[
+3,
+"Ramp (mana rocks & land ramp)",
+"ramp-mana-rocks--land-ramp"
+],
+[
+3,
+"Card draw & advantage",
+"card-draw--advantage"
+],
+[
+3,
+"Targeted removal",
+"targeted-removal"
+],
+[
+3,
+"Board wipes",
+"board-wipes"
+],
+[
+3,
+"Counterspells",
+"counterspells"
+],
+[
+3,
+"Tutors",
+"tutors"
+],
+[
+3,
+"Protection",
+"protection"
+],
+[
+3,
+"Graveyard recursion",
+"graveyard-recursion"
+],
+[
+3,
+"Tokens / go-wide",
+"tokens--go-wide"
+],
+[
+3,
+"Sacrifice / aristocrats",
+"sacrifice--aristocrats"
+],
+[
+3,
+"+1/+1 counters",
+"11-counters"
+],
+[
+3,
+"Spellslinger (instants & sorceries matter)",
+"spellslinger-instants--sorceries-matter"
+],
+[
+3,
+"Landfall / lands matter",
+"landfall--lands-matter"
+],
+[
+3,
+"Utility lands",
+"utility-lands"
+],
+[
+2,
+"Method & patterns",
+"method--patterns"
+]
+],
+"issues": [],
+"related": [
+"EDH Archetypes.md",
+"EDH Standards.md",
+"Card Index.md",
+"EDH Mana Bases.md",
+"EDH Packages.md"
+]
+},
+{
+"path": "EDH Themed Decks.md",
+"kind": "page",
+"title": "EDH Themed & Plane-Restricted Decks",
+"category": "edh",
+"tags": [
+"decks",
+"plane-restricted",
+"themes"
+],
+"headings": [
+[
+2,
+"Plane-restricted",
+"plane-restricted"
+],
+[
+2,
+"Themed",
+"themed"
+],
+[
+2,
+"Rebuild",
+"rebuild"
+]
+],
+"issues": [
+"33"
+],
+"related": [
+"EDH Standards.md"
+]
+},
+{
+"path": "EDH Upgrade Paths.md",
+"kind": "page",
+"title": "EDH Upgrade Paths",
+"category": "edh",
+"tags": [
+"upgrades",
+"budget"
+],
+"headings": [
+[
+2,
+"How to read this",
+"how-to-read-this"
+],
+[
+2,
+"Animar, Soul of Elements",
+"animar-soul-of-elements"
+],
+[
+2,
+"Atraxa, Praetors' Voice",
+"atraxa-praetors-voice"
+],
+[
+2,
+"Brago, King Eternal",
+"brago-king-eternal"
+],
+[
+2,
+"Breya, Etherium Shaper",
+"breya-etherium-shaper"
+],
+[
+2,
+"Chulane, Teller of Tales",
+"chulane-teller-of-tales"
+],
+[
+2,
+"Edgar Markov",
+"edgar-markov"
+],
+[
+2,
+"Feather, the Redeemed",
+"feather-the-redeemed"
+],
+[
+2,
+"Giada, Font of Hope",
+"giada-font-of-hope"
+],
+[
+2,
+"Gishath, Sun's Avatar",
+"gishath-suns-avatar"
+],
+[
+2,
+"Karador, Ghost Chieftain",
+"karador-ghost-chieftain"
+],
+[
+2,
+"Korvold, Fae-Cursed King",
+"korvold-fae-cursed-king"
+],
+[
+2,
+"Kozilek, the Great Distortion",
+"kozilek-the-great-distortion"
+],
+[
+2,
+"Krenko, Mob Boss",
+"krenko-mob-boss"
+],
+[
+2,
+"K'rrik, Son of Yawgmoth",
+"krrik-son-of-yawgmoth"
+],
+[
+2,
+"Kykar, Wind's Fury",
+"kykar-winds-fury"
+],
+[
+2,
+"Kynaios and Tiro of Meletis",
+"kynaios-and-tiro-of-meletis"
+],
+[
+2,
+"Lathril, Blade of the Elves",
+"lathril-blade-of-the-elves"
+],
+[
+2,
+"Muldrotha, the Gravetide",
+"muldrotha-the-gravetide"
+],
+[
+2,
+"Nekusar, the Mindrazer",
+"nekusar-the-mindrazer"
+],
+[
+2,
+"Niv-Mizzet, Parun",
+"niv-mizzet-parun"
+],
+[
+2,
+"Prosper, Tome-Bound",
+"prosper-tome-bound"
+],
+[
+2,
+"Saskia the Unyielding",
+"saskia-the-unyielding"
+],
+[
+2,
+"Selvala, Heart of the Wilds",
+"selvala-heart-of-the-wilds"
+],
+[
+2,
+"Talrand, Sky Summoner",
+"talrand-sky-summoner"
+],
+[
+2,
+"Tatyova, Benthic Druid",
+"tatyova-benthic-druid"
+],
+[
+2,
+"Teysa Karlov",
+"teysa-karlov"
+],
+[
+2,
+"The Ur-Dragon",
+"the-ur-dragon"
+],
+[
+2,
+"Trostani, Selesnya's Voice",
+"trostani-selesnyas-voice"
+],
+[
+2,
+"Xenagos, God of Revels",
+"xenagos-god-of-revels"
+],
+[
+2,
+"Yidris, Maelstrom Wielder",
+"yidris-maelstrom-wielder"
+],
+[
+2,
+"Yuriko, the Tiger's Shadow",
+"yuriko-the-tigers-shadow"
+],
+[
+2,
+"Zur the Enchanter",
+"zur-the-enchanter"
+]
+],
+"issues": [
+"30"
+],
+"related": [
+"EDH Standards.md",
+"Rules Interactions.md"
+]
+},
+{
+"path": "EDH Win Conditions.md",
+"kind": "page",
+"title": "EDH Win Conditions",
+"category": "edh",
+"tags": [
+"win-conditions",
+"combos"
+],
+"headings": [
+[
+2,
+"Combat damage (go-wide)",
+"combat-damage-go-wide"
+],
+[
+3,
+"Mass pump / overrun finishers",
+"mass-pump--overrun-finishers"
+],
+[
+3,
+"Extra combat phases",
+"extra-combat-phases"
+],
+[
+3,
+"Haste enablers",
+"haste-enablers"
+],
+[
+2,
+"Commander damage (voltron)",
+"commander-damage-voltron"
+],
+[
+3,
+"Double strike granters",
+"double-strike-granters"
+],
+[
+3,
+"Unblockability",
+"unblockability"
+],
+[
+2,
+"Life drain & burn",
+"life-drain--burn"
+],
+[
+3,
+"Repeatable drain",
+"repeatable-drain"
+],
+[
+3,
+"X-burn / X-drain finishers",
+"x-burn--x-drain-finishers"
+],
+[
+3,
+"Damage doublers",
+"damage-doublers"
+],
+[
+2,
+"Alternate win cards",
+"alternate-win-cards"
+],
+[
+3,
+"\"You win the game\"",
+"you-win-the-game"
+],
+[
+2,
+"Opponents lose directly",
+"opponents-lose-directly"
+],
+[
+3,
+"\"loses the game\" effects",
+"loses-the-game-effects"
+],
+[
+2,
+"Poison (infect / toxic)",
+"poison-infect--toxic"
+],
+[
+3,
+"Infect & toxic creatures",
+"infect--toxic-creatures"
+],
+[
+3,
+"Proliferate finishers",
+"proliferate-finishers"
+],
+[
+2,
+"Mill (decking)",
+"mill-decking"
+],
+[
+3,
+"Mass mill",
+"mass-mill"
+],
+[
+2,
+"Protection for the winning turn",
+"protection-for-the-winning-turn"
+],
+[
+3,
+"Team protection",
+"team-protection"
+],
+[
+3,
+"Counter-proofing",
+"counter-proofing"
+],
+[
+2,
+"Combo kills (Commander Spellbook)",
+"combo-kills-commander-spellbook"
+],
+[
+2,
+"Choosing a win condition (guidance)",
+"choosing-a-win-condition-guidance"
+]
+],
+"issues": [
+"27"
+],
+"related": [
+"Rules Interactions.md",
+"EDH Packages.md",
+"EDH Standards.md",
+"EDH Interaction.md",
+"cEDH Primer.md",
+"EDH Archetypes.md"
+]
+},
+{
+"path": "FAQ.md",
+"kind": "page",
+"title": "FAQ",
+"category": "meta",
+"tags": [
+"faq",
+"lore",
+"rules"
+],
+"headings": [
+[
+2,
+"Lore",
+"lore"
+],
+[
+3,
+"Is Jace Beleren dead?",
+"is-jace-beleren-dead"
+],
+[
+3,
+"What is an Omenpath?",
+"what-is-an-omenpath"
+],
+[
+3,
+"How did the Phyrexian invasion end?",
+"how-did-the-phyrexian-invasion-end"
+],
+[
+3,
+"Who founded the Gatewatch, and what happened to the Eldrazi titans?",
+"who-founded-the-gatewatch-and-what-happened-to-the-eldrazi-titans"
+],
+[
+3,
+"What was the Mending?",
+"what-was-the-mending"
+],
+[
+3,
+"Is the Echoverse canon?",
+"is-the-echoverse-canon"
+],
+[
+3,
+"When and how did a Planeswalker's spark ignite?",
+"when-and-how-did-a-planeswalkers-spark-ignite"
+],
+[
+3,
+"Are the novels and comics canon? Where do I find them?",
+"are-the-novels-and-comics-canon-where-do-i-find-them"
+],
+[
+3,
+"Which card shows a given story moment?",
+"which-card-shows-a-given-story-moment"
+],
+[
+2,
+"Rules",
+"rules"
+],
+[
+3,
+"What does a keyword do, and is it evergreen?",
+"what-does-a-keyword-do-and-is-it-evergreen"
+],
+[
+3,
+"Is protection still evergreen?",
+"is-protection-still-evergreen"
+],
+[
+3,
+"How do hexproof, shroud and ward differ?",
+"how-do-hexproof-shroud-and-ward-differ"
+],
+[
+3,
+"How do layers and timestamps work?",
+"how-do-layers-and-timestamps-work"
+],
+[
+3,
+"Deathtouch plus trample: how much damage gets through?",
+"deathtouch-plus-trample-how-much-damage-gets-through"
+],
+[
+3,
+"Can a token, emblem or dungeon go in my deck?",
+"can-a-token-emblem-or-dungeon-go-in-my-deck"
+],
+[
+3,
+"Is an adventurer card one card or two?",
+"is-an-adventurer-card-one-card-or-two"
+],
+[
+3,
+"What happens when I control two legendary permanents with the same name?",
+"what-happens-when-i-control-two-legendary-permanents-with-the-same-name"
+],
+[
+3,
+"What happens when a player leaves a multiplayer game?",
+"what-happens-when-a-player-leaves-a-multiplayer-game"
+],
+[
+2,
+"Commander deck-building",
+"commander-deck-building"
+],
+[
+3,
+"What are the basic Commander deck rules?",
+"what-are-the-basic-commander-deck-rules"
+],
+[
+3,
+"Can I play a card that has a mana symbol of a color outside my commander's identity?",
+"can-i-play-a-card-that-has-a-mana-symbol-of-a-color-outside-my-commanders-identity"
+],
+[
+3,
+"How does commander damage work?",
+"how-does-commander-damage-work"
+],
+[
+3,
+"Can I have two commanders?",
+"can-i-have-two-commanders"
+],
+[
+3,
+"What are brackets and Game Changers?",
+"what-are-brackets-and-game-changers"
+],
+[
+3,
+"How should I mulligan?",
+"how-should-i-mulligan"
+],
+[
+3,
+"Where do I start building a deck?",
+"where-do-i-start-building-a-deck"
+],
+[
+2,
+"Cards & collecting",
+"cards--collecting"
+],
+[
+3,
+"Is a card legal in Modern, Legacy, Pauper…?",
+"is-a-card-legal-in-modern-legacy-pauper"
+],
+[
+3,
+"Will a card be reprinted? Is it on the Reserved List?",
+"will-a-card-be-reprinted-is-it-on-the-reserved-list"
+],
+[
+3,
+"Who illustrated a card, and what else did they paint?",
+"who-illustrated-a-card-and-what-else-did-they-paint"
+],
+[
+3,
+"Where is a card's full Oracle text and rulings?",
+"where-is-a-cards-full-oracle-text-and-rulings"
+]
+],
+"issues": [
+"45"
+],
+"related": [
+"Rules Interactions.md",
+"EDH Standards.md",
+"Keyword Encyclopedia.md",
+"Story Arc Summaries.md",
+"Front-Matter Schema.md",
+"Characters Index.md"
+]
+},
+{
+"path": "Format Legality Matrix.md",
+"kind": "page",
+"title": "Format Legality Matrix",
+"category": "cards",
+"tags": [
+"legality",
+"formats",
+"banned-restricted"
+],
+"headings": [
+[
+2,
+"Totals by format",
+"totals-by-format"
+],
+[
+2,
+"Banned and restricted lists",
+"banned-and-restricted-lists"
+],
+[
+3,
+"standard",
+"standard"
+],
+[
+3,
+"pioneer",
+"pioneer"
+],
+[
+3,
+"modern",
+"modern"
+],
+[
+3,
+"legacy",
+"legacy"
+],
+[
+3,
+"vintage",
+"vintage"
+],
+[
+3,
+"pauper",
+"pauper"
+],
+[
+3,
+"commander",
+"commander"
+],
+[
+3,
+"oathbreaker",
+"oathbreaker"
+],
+[
+3,
+"brawl",
+"brawl"
+],
+[
+3,
+"competitivebrawl",
+"competitivebrawl"
+],
+[
+3,
+"paupercommander",
+"paupercommander"
+],
+[
+3,
+"duel",
+"duel"
+],
+[
+3,
+"predh",
+"predh"
+],
+[
+3,
+"premodern",
+"premodern"
+],
+[
+3,
+"oldschool",
+"oldschool"
+],
+[
+3,
+"gladiator",
+"gladiator"
+],
+[
+3,
+"historic",
+"historic"
+],
+[
+3,
+"timeless",
+"timeless"
+],
+[
+3,
+"alchemy",
+"alchemy"
+],
+[
+3,
+"future",
+"future"
+],
+[
+3,
+"tlr",
+"tlr"
+],
+[
+2,
+"Lookup",
+"lookup"
+]
+],
+"issues": [
+"41"
+],
+"related": [
+"EDH Standards.md"
+]
+},
+{
+"path": "Front-Matter Schema.md",
+"kind": "page",
+"title": "Front-Matter Schema",
+"category": "meta",
+"tags": [
+"schema",
+"front-matter",
+"tags",
+"retrieval"
+],
+"headings": [
+[
+2,
+"Format",
+"format"
+],
+[
+2,
+"Page keys",
+"page-keys"
+],
+[
+2,
+"Deck keys",
+"deck-keys"
+],
+[
+2,
+"Card-shard keys",
+"card-shard-keys"
+],
+[
+2,
+"Source keys",
+"source-keys"
+],
+[
+2,
+"Tag vocabulary",
+"tag-vocabulary"
+],
+[
+3,
+"Page tags",
+"page-tags"
+],
+[
+3,
+"Deck tags",
+"deck-tags"
+],
+[
+2,
+"Validation rules",
+"validation-rules"
+],
+[
+2,
+"Filtering examples",
+"filtering-examples"
+]
+],
+"issues": [
+"65"
+],
+"related": [
+"Knowledge Index.md",
+"Card Data Conventions.md",
+"EDH Deck Evaluation Checklist.md",
+"EDH Deck Template.md",
+"Lookup Guide.md",
+"Tokens, Emblems & Dungeons.md"
+]
+},
+{
+"path": "Keyword Encyclopedia.md",
+"kind": "page",
+"title": "Keyword Encyclopedia",
+"category": "rules",
+"tags": [
+"keywords",
+"evergreen",
+"rulings"
+],
+"headings": [
+[
+2,
+"Keyword abilities (CR 702)",
+"keyword-abilities-cr-702"
+],
+[
+3,
+"Abilities: A",
+"abilities-a"
+],
+[
+3,
+"Abilities: B",
+"abilities-b"
+],
+[
+3,
+"Abilities: C",
+"abilities-c"
+],
+[
+3,
+"Abilities: D",
+"abilities-d"
+],
+[
+3,
+"Abilities: E",
+"abilities-e"
+],
+[
+3,
+"Abilities: F",
+"abilities-f"
+],
+[
+3,
+"Abilities: G",
+"abilities-g"
+],
+[
+3,
+"Abilities: H",
+"abilities-h"
+],
+[
+3,
+"Abilities: I",
+"abilities-i"
+],
+[
+3,
+"Abilities: J",
+"abilities-j"
+],
+[
+3,
+"Abilities: K",
+"abilities-k"
+],
+[
+3,
+"Abilities: L",
+"abilities-l"
+],
+[
+3,
+"Abilities: M",
+"abilities-m"
+],
+[
+3,
+"Abilities: N",
+"abilities-n"
+],
+[
+3,
+"Abilities: O",
+"abilities-o"
+],
+[
+3,
+"Abilities: P",
+"abilities-p"
+],
+[
+3,
+"Abilities: R",
+"abilities-r"
+],
+[
+3,
+"Abilities: S",
+"abilities-s"
+],
+[
+3,
+"Abilities: T",
+"abilities-t"
+],
+[
+3,
+"Abilities: U",
+"abilities-u"
+],
+[
+3,
+"Abilities: V",
+"abilities-v"
+],
+[
+3,
+"Abilities: W",
+"abilities-w"
+],
+[
+3,
+"Abilities: ∞",
+"abilities-"
+],
+[
+2,
+"Keyword actions (CR 701)",
+"keyword-actions-cr-701"
+],
+[
+3,
+"Actions: A",
+"actions-a"
+],
+[
+3,
+"Actions: B",
+"actions-b"
+],
+[
+3,
+"Actions: C",
+"actions-c"
+],
+[
+3,
+"Actions: D",
+"actions-d"
+],
+[
+3,
+"Actions: E",
+"actions-e"
+],
+[
+3,
+"Actions: F",
+"actions-f"
+],
+[
+3,
+"Actions: G",
+"actions-g"
+],
+[
+3,
+"Actions: H",
+"actions-h"
+],
+[
+3,
+"Actions: I",
+"actions-i"
+],
+[
+3,
+"Actions: L",
+"actions-l"
+],
+[
+3,
+"Actions: M",
+"actions-m"
+],
+[
+3,
+"Actions: O",
+"actions-o"
+],
+[
+3,
+"Actions: P",
+"actions-p"
+],
+[
+3,
+"Actions: R",
+"actions-r"
+],
+[
+3,
+"Actions: S",
+"actions-s"
+],
+[
+3,
+"Actions: T",
+"actions-t"
+],
+[
+3,
+"Actions: V",
+"actions-v"
+],
+[
+3,
+"Actions: W",
+"actions-w"
+]
+],
+"issues": [
+"39"
+],
+"related": [
+"Rules Interactions.md"
+]
+},
+{
+"path": "Knowledge Index.md",
+"kind": "page",
+"title": "Knowledge Index",
+"category": "meta",
+"tags": [
+"index",
+"maintenance"
+],
+"headings": [
+[
+2,
+"File map",
+"file-map"
+],
+[
+2,
+"Maintenance rules",
+"maintenance-rules"
+],
+[
+2,
+"Canon & verification flags",
+"canon--verification-flags"
+],
+[
+2,
+"Source hierarchy",
+"source-hierarchy"
+],
+[
+2,
+"Improvement-cycle checklist",
+"improvement-cycle-checklist"
+],
+[
+2,
+"GitHub workflow conventions",
+"github-workflow-conventions"
+]
+],
+"issues": [],
+"related": [
+"Front-Matter Schema.md",
+"Update Log.md",
+"Card Data Conventions.md",
+"Conflicts & Arcs.md",
+"EDH Staples.md",
+"Lookup Guide.md"
+]
+},
+{
+"path": "Knowledge Snapshots.md",
+"kind": "page",
+"title": "Knowledge Snapshots",
+"category": "meta",
+"tags": [
+"tags",
+"releases",
+"snapshots"
+],
+"headings": [
+[
+2,
+"Snapshot policy",
+"snapshot-policy"
+],
+[
+2,
+"Snapshots",
+"snapshots"
+],
+[
+2,
+"Using a snapshot",
+"using-a-snapshot"
+]
+],
+"issues": [
+"47"
+],
+"related": [
+"Front-Matter Schema.md",
+"Knowledge Index.md",
+"Progress Tracker.md",
+"ROADMAP.md"
+]
+},
+{
+"path": "Lookup Guide.md",
+"kind": "page",
+"title": "Lookup Guide",
+"category": "meta",
+"tags": [
+"lookup",
+"retrieval"
+],
+"headings": [
+[
+2,
+"Cards",
+"cards"
+],
+[
+2,
+"Rules",
+"rules"
+],
+[
+2,
+"Commander / EDH",
+"commander--edh"
+],
+[
+2,
+"Lore",
+"lore"
+],
+[
+2,
+"Filtering by front-matter",
+"filtering-by-front-matter"
+],
+[
+2,
+"Retrieval index (kb_find)",
+"retrieval-index-kb_find"
+],
+[
+2,
+"Validating the knowledge base",
+"validating-the-knowledge-base"
+],
+[
+2,
+"Answering a question: which source wins",
+"answering-a-question-which-source-wins"
+]
+],
+"issues": [
+"46"
+],
+"related": [
+"Front-Matter Schema.md",
+"FAQ.md",
+"Format Legality Matrix.md",
+"Knowledge Index.md",
+"ROADMAP.md",
+"Art & Flavor Story Links.md"
+]
+},
+{
+"path": "Master Timeline.md",
+"kind": "page",
+"title": "Master Timeline",
+"category": "lore",
+"tags": [
+"timeline",
+"eras"
+],
+"headings": [
+[
+2,
+"A. In-universe eras",
+"a-in-universe-eras"
+],
+[
+3,
+"Pre-Mending / Ancient",
+"pre-mending--ancient"
+],
+[
+3,
+"Brothers' War & Phyrexian wars",
+"brothers-war--phyrexian-wars"
+],
+[
+3,
+"Dated events (AR)",
+"dated-events-ar"
+],
+[
+3,
+"Time Rifts & the Mending",
+"time-rifts--the-mending"
+],
+[
+3,
+"Post-Mending (Gatewatch era)",
+"post-mending-gatewatch-era"
+],
+[
+3,
+"Phyrexian Invasion",
+"phyrexian-invasion"
+],
+[
+3,
+"Omenpath era (post-invasion)",
+"omenpath-era-post-invasion"
+],
+[
+2,
+"B. Real-world story chronology",
+"b-real-world-story-chronology"
+],
+[
+2,
+"Open questions",
+"open-questions"
+]
+],
+"issues": [
+"7"
+],
+"related": [
+"Characters Index.md",
+"Conflicts & Arcs.md",
+"Planes Index.md",
+"Omenpath & Multiverse Connections.md",
+"Story Arc Summaries.md"
+]
+},
+{
+"path": "Omenpath & Multiverse Connections.md",
+"kind": "page",
+"title": "Omenpath & Multiverse Connections",
+"category": "lore",
+"tags": [
+"omenpaths",
+"multiverse",
+"planes"
+],
+"headings": [
+[
+2,
+"What an Omenpath is",
+"what-an-omenpath-is"
+],
+[
+2,
+"Known connections",
+"known-connections"
+],
+[
+2,
+"Infrastructure & institutions",
+"infrastructure--institutions"
+],
+[
+2,
+"Exceptions: artificial paths, maps and closures",
+"exceptions-artificial-paths-maps-and-closures"
+],
+[
+2,
+"Open questions",
+"open-questions"
+]
+],
+"issues": [
+"36"
+],
+"related": [
+"Story Arc Summaries.md",
+"Conflicts & Arcs.md",
+"Master Timeline.md",
+"Planes Index.md"
+]
+},
+{
+"path": "Planes Index.md",
+"kind": "page",
+"title": "Planes Index",
+"category": "lore",
+"tags": [
+"planes"
+],
+"headings": [
+[
+2,
+"Planes with official profiles",
+"planes-with-official-profiles"
+],
+[
+2,
+"Other planes in recent stories (Omenpath era)",
+"other-planes-in-recent-stories-omenpath-era"
+],
+[
+2,
+"Detailed plane entries",
+"detailed-plane-entries"
+],
+[
+3,
+"Kaldheim",
+"kaldheim"
+],
+[
+3,
+"Eldraine",
+"eldraine"
+],
+[
+3,
+"Ikoria",
+"ikoria"
+],
+[
+3,
+"New Capenna",
+"new-capenna"
+],
+[
+3,
+"Phyrexia (Old Phyrexia) & New Phyrexia's spheres",
+"phyrexia-old-phyrexia--new-phyrexias-spheres"
+],
+[
+3,
+"Ravnica after the invasion (Murders at Karlov Manor)",
+"ravnica-after-the-invasion-murders-at-karlov-manor"
+],
+[
+3,
+"Skalla",
+"skalla"
+],
+[
+3,
+"Vryn",
+"vryn"
+],
+[
+3,
+"Regatha",
+"regatha"
+],
+[
+3,
+"Rath",
+"rath"
+],
+[
+3,
+"Mercadia",
+"mercadia"
+],
+[
+3,
+"Ulgrotha",
+"ulgrotha"
+],
+[
+3,
+"Ergamon",
+"ergamon"
+],
+[
+3,
+"Theros: the Underworld (Theros Beyond Death)",
+"theros-the-underworld-theros-beyond-death"
+],
+[
+3,
+"Muraganda",
+"muraganda"
+],
+[
+3,
+"Kylem",
+"kylem"
+],
+[
+3,
+"Gobakhan",
+"gobakhan"
+],
+[
+3,
+"Shenmeng",
+"shenmeng"
+],
+[
+3,
+"Segovia",
+"segovia"
+],
+[
+3,
+"Zendikar (Zendikar Rising era)",
+"zendikar-zendikar-rising-era"
+],
+[
+3,
+"Kamigawa (Neon Dynasty era)",
+"kamigawa-neon-dynasty-era"
+],
+[
+3,
+"Dominaria (Dominaria United era)",
+"dominaria-dominaria-united-era"
+],
+[
+3,
+"Arcavios — the Strixhaven colleges",
+"arcavios--the-strixhaven-colleges"
+],
+[
+2,
+"Special realms & cosmology",
+"special-realms--cosmology"
+],
+[
+2,
+"Gaps / next to add",
+"gaps--next-to-add"
+]
+],
+"issues": [
+"7",
+"12"
+],
+"related": [
+"Characters Index.md",
+"Conflicts & Arcs.md",
+"Master Timeline.md",
+"Planeswalker Dossiers.md",
+"Story Arc Summaries.md",
+"Card Index.md"
+]
+},
+{
+"path": "Planeswalker Dossiers.md",
+"kind": "page",
+"title": "Planeswalker Dossiers",
+"category": "lore",
+"tags": [
+"planeswalkers",
+"dossiers",
+"sparks"
+],
+"headings": [
+[
+2,
+"Jace Beleren",
+"jace-beleren"
+],
+[
+2,
+"Chandra Nalaar",
+"chandra-nalaar"
+],
+[
+2,
+"Nissa Revane",
+"nissa-revane"
+],
+[
+2,
+"Liliana Vess",
+"liliana-vess"
+],
+[
+2,
+"Elspeth Tirel",
+"elspeth-tirel"
+],
+[
+2,
+"Karn",
+"karn"
+],
+[
+2,
+"Teferi",
+"teferi"
+],
+[
+2,
+"Ajani Goldmane",
+"ajani-goldmane"
+],
+[
+2,
+"Kaya",
+"kaya"
+],
+[
+2,
+"Kaito Shizuki",
+"kaito-shizuki"
+],
+[
+2,
+"Vraska",
+"vraska"
+],
+[
+2,
+"Tamiyo",
+"tamiyo"
+],
+[
+2,
+"Sarkhan Vol",
+"sarkhan-vol"
+],
+[
+2,
+"Gideon Jura",
+"gideon-jura"
+],
+[
+2,
+"Nahiri",
+"nahiri"
+],
+[
+2,
+"Sorin Markov",
+"sorin-markov"
+],
+[
+2,
+"Ugin",
+"ugin"
+],
+[
+2,
+"Nicol Bolas",
+"nicol-bolas"
+],
+[
+2,
+"Ral Zarek",
+"ral-zarek"
+],
+[
+2,
+"Oko",
+"oko"
+],
+[
+2,
+"Tezzeret",
+"tezzeret"
+],
+[
+2,
+"Spark & allegiance summary",
+"spark--allegiance-summary"
+]
+],
+"issues": [
+"35"
+],
+"related": [
+"Characters Index.md",
+"Planes Index.md",
+"Art & Flavor Story Links.md",
+"Side-Media Index.md",
+"Story Arc Summaries.md"
+]
+},
+{
+"path": "Printing History.md",
+"kind": "page",
+"title": "Printing History",
+"category": "cards",
+"tags": [
+"printings",
+"reprints",
+"reserved-list"
+],
+"headings": [
+[
+2,
+"Fields",
+"fields"
+],
+[
+2,
+"Distribution",
+"distribution"
+],
+[
+2,
+"Most-printed cards",
+"most-printed-cards"
+],
+[
+2,
+"Longest gaps between paper printings",
+"longest-gaps-between-paper-printings"
+],
+[
+2,
+"Popular Commander cards with a single paper printing",
+"popular-commander-cards-with-a-single-paper-printing"
+],
+[
+2,
+"Reserved List",
+"reserved-list"
+]
+],
+"issues": [
+"40"
+],
+"related": []
+},
+{
+"path": "Progress Tracker.md",
+"kind": "page",
+"title": "Progress Tracker",
+"category": "meta",
+"tags": [
+"progress",
+"milestones"
+],
+"headings": [
+[
+2,
+"Cards",
+"cards"
+],
+[
+2,
+"Lore",
+"lore"
+],
+[
+2,
+"EDH",
+"edh"
+],
+[
+2,
+"Rules",
+"rules"
+],
+[
+2,
+"Milestones & tags",
+"milestones--tags"
+]
+],
+"issues": [],
+"related": [
+"Front-Matter Schema.md",
+"Knowledge Index.md",
+"ROADMAP.md",
+"Artist Index.md",
+"EDH Archetypes.md",
+"EDH Deck Evaluation Checklist.md"
+]
+},
+{
+"path": "ROADMAP.md",
+"kind": "page",
+"title": "MTG Companion Refinement Sprint (user brief, 2026-10-15)",
+"category": "meta",
+"tags": [
+"roadmap",
+"sprint"
+],
+"headings": [
+[
+2,
+"Tracking (Bot cycle 6; updated Bot cycle 14)",
+"tracking-bot-cycle-6-updated-bot-cycle-14"
+],
+[
+2,
+"Grixis integration (Bot cycle 16; user task, 2026-10-15)",
+"grixis-integration-bot-cycle-16-user-task-2026-10-15"
+],
+[
+2,
+"Phase 5 — Optimization pass (Bot cycles 17–19; user task, 2026-10-15)",
+"phase-5--optimization-pass-bot-cycles-1719-user-task-2026-10-15"
+]
+],
+"issues": [],
+"related": [
+"Front-Matter Schema.md",
+"Lookup Guide.md",
+"Progress Tracker.md",
+"Art & Flavor Story Links.md",
+"Artist Index.md",
+"EDH Deck Evaluation Checklist.md"
+]
+},
+{
+"path": "Rules Interactions.md",
+"kind": "page",
+"title": "Rules Interactions",
+"category": "rules",
+"tags": [
+"rules",
+"interactions",
+"rulings"
+],
+"headings": [
+[
+2,
+"Layers & timestamps",
+"layers--timestamps"
+],
+[
+2,
+"Dependency",
+"dependency"
+],
+[
+2,
+"Replacement effects vs. triggered abilities",
+"replacement-effects-vs-triggered-abilities"
+],
+[
+2,
+"State-based actions",
+"state-based-actions"
+],
+[
+2,
+"Copy effects",
+"copy-effects"
+],
+[
+2,
+"Commander: color identity",
+"commander-color-identity"
+],
+[
+2,
+"Commander: returning to the command zone",
+"commander-returning-to-the-command-zone"
+],
+[
+2,
+"Worked layer examples (official CR examples)",
+"worked-layer-examples-official-cr-examples"
+],
+[
+2,
+"Stack & priority",
+"stack--priority"
+],
+[
+2,
+"Casting vs. copying a spell",
+"casting-vs-copying-a-spell"
+],
+[
+2,
+"Combat damage assignment",
+"combat-damage-assignment"
+],
+[
+2,
+"Deathtouch + trample",
+"deathtouch--trample"
+],
+[
+2,
+"Protection",
+"protection"
+],
+[
+2,
+"Hexproof, shroud & ward",
+"hexproof-shroud--ward"
+],
+[
+2,
+"ETB / LTB & look-back triggers",
+"etb--ltb--look-back-triggers"
+],
+[
+2,
+"Mutate & merged permanents",
+"mutate--merged-permanents"
+],
+[
+2,
+"Commander tax",
+"commander-tax"
+],
+[
+2,
+"Sagas",
+"sagas"
+],
+[
+2,
+"Classes",
+"classes"
+],
+[
+2,
+"Phasing",
+"phasing"
+],
+[
+2,
+"Double-faced cards & transform",
+"double-faced-cards--transform"
+],
+[
+2,
+"The legend rule",
+"the-legend-rule"
+],
+[
+2,
+"\"Can't\" beats \"can\" (and impossible instructions)",
+"cant-beats-can-and-impossible-instructions"
+],
+[
+2,
+"Ordering replacement effects (worked examples)",
+"ordering-replacement-effects-worked-examples"
+],
+[
+2,
+"Commander damage",
+"commander-damage"
+],
+[
+2,
+"Partner & Backgrounds",
+"partner--backgrounds"
+],
+[
+2,
+"When a player leaves a multiplayer game",
+"when-a-player-leaves-a-multiplayer-game"
+],
+[
+2,
+"Open questions / next topics",
+"open-questions--next-topics"
+]
+],
+"issues": [
+"9"
+],
+"related": [
+"EDH Archetypes.md",
+"EDH Win Conditions.md",
+"EDH Pairings.md",
+"EDH Packages.md",
+"EDH Interaction.md",
+"cEDH Primer.md"
+]
+},
+{
+"path": "Side-Media Index.md",
+"kind": "page",
+"title": "Side-Media Index",
+"category": "lore",
+"tags": [
+"novels",
+"comics",
+"side-media"
+],
+"headings": [
+[
+2,
+"Novels & novellas",
+"novels--novellas"
+],
+[
+2,
+"Official e-book collections of web fiction",
+"official-e-book-collections-of-web-fiction"
+],
+[
+2,
+"Comics",
+"comics"
+],
+[
+2,
+"Games & other media",
+"games--other-media"
+],
+[
+2,
+"How to use this index",
+"how-to-use-this-index"
+]
+],
+"issues": [
+"38"
+],
+"related": [
+"Story Arc Summaries.md",
+"Art & Flavor Story Links.md",
+"Planeswalker Dossiers.md",
+"Story Archive Index.md"
+]
+},
+{
+"path": "Story Arc Summaries.md",
+"kind": "page",
+"title": "Story Arc Summaries",
+"category": "lore",
+"tags": [
+"arcs",
+"story-beats"
+],
+"headings": [
+[
+2,
+"Battle for Zendikar & Oath of the Gatewatch (2015–16)",
+"battle-for-zendikar--oath-of-the-gatewatch-201516"
+],
+[
+2,
+"Shadows over Innistrad & Eldritch Moon (2016)",
+"shadows-over-innistrad--eldritch-moon-2016"
+],
+[
+2,
+"Kaladesh & Aether Revolt (2016–17)",
+"kaladesh--aether-revolt-201617"
+],
+[
+2,
+"Amonkhet & Hour of Devastation (2017)",
+"amonkhet--hour-of-devastation-2017"
+],
+[
+2,
+"Return to Dominaria (2018)",
+"return-to-dominaria-2018"
+],
+[
+2,
+"War of the Spark (2019)",
+"war-of-the-spark-2019"
+],
+[
+2,
+"The Phyrexian Invasion saga (2023)",
+"the-phyrexian-invasion-saga-2023"
+],
+[
+3,
+"Phyrexia: All Will Be One — *Assault on New Phyrexia*",
+"phyrexia-all-will-be-one--assault-on-new-phyrexia"
+],
+[
+3,
+"March of the Machine",
+"march-of-the-machine"
+],
+[
+2,
+"Wilds of Eldraine (2023)",
+"wilds-of-eldraine-2023"
+],
+[
+2,
+"The Lost Caverns of Ixalan (2023)",
+"the-lost-caverns-of-ixalan-2023"
+],
+[
+2,
+"Murders at Karlov Manor (2024)",
+"murders-at-karlov-manor-2024"
+],
+[
+2,
+"Outlaws of Thunder Junction (2024)",
+"outlaws-of-thunder-junction-2024"
+],
+[
+2,
+"Bloomburrow (2024)",
+"bloomburrow-2024"
+],
+[
+2,
+"Duskmourn: House of Horror (2024)",
+"duskmourn-house-of-horror-2024"
+],
+[
+2,
+"Aetherdrift (2025)",
+"aetherdrift-2025"
+],
+[
+2,
+"Tarkir: Dragonstorm (2025)",
+"tarkir-dragonstorm-2025"
+],
+[
+2,
+"Edge of Eternities (2025)",
+"edge-of-eternities-2025"
+],
+[
+2,
+"Lorwyn Eclipsed (2025–26)",
+"lorwyn-eclipsed-202526"
+],
+[
+2,
+"Secrets of Strixhaven (2026)",
+"secrets-of-strixhaven-2026"
+],
+[
+2,
+"Reality Fracture (2026)",
+"reality-fracture-2026"
+]
+],
+"issues": [
+"34"
+],
+"related": [
+"Conflicts & Arcs.md",
+"Art & Flavor Story Links.md",
+"Omenpath & Multiverse Connections.md",
+"Side-Media Index.md",
+"Characters Index.md",
+"Planes Index.md"
+]
+},
+{
+"path": "Story Archive Index.md",
+"kind": "page",
+"title": "Story Archive Index",
+"category": "lore",
+"tags": [
+"story-archive",
+"sources"
+],
+"headings": [
+[
+2,
+"2007",
+"2007"
+],
+[
+2,
+"2008",
+"2008"
+],
+[
+2,
+"2012",
+"2012"
+],
+[
+2,
+"2013",
+"2013"
+],
+[
+2,
+"2014",
+"2014"
+],
+[
+2,
+"2015",
+"2015"
+],
+[
+2,
+"2016",
+"2016"
+],
+[
+2,
+"2017",
+"2017"
+],
+[
+2,
+"2018",
+"2018"
+],
+[
+2,
+"2019",
+"2019"
+],
+[
+2,
+"2020",
+"2020"
+],
+[
+2,
+"2021",
+"2021"
+],
+[
+2,
+"2022",
+"2022"
+],
+[
+2,
+"2023",
+"2023"
+],
+[
+2,
+"2024",
+"2024"
+],
+[
+2,
+"2025",
+"2025"
+],
+[
+2,
+"2026",
+"2026"
+],
+[
+2,
+"undated",
+"undated"
+]
+],
+"issues": [
+"14"
+],
+"related": [
+"Side-Media Index.md"
+]
+},
+{
+"path": "Tokens, Emblems & Dungeons.md",
+"kind": "page",
+"title": "Tokens, Emblems & Dungeons",
+"category": "cards",
+"tags": [
+"tokens",
+"emblems",
+"dungeons",
+"not-cards"
+],
+"headings": [
+[
+2,
+"Creature tokens",
+"creature-tokens"
+],
+[
+2,
+"Noncreature tokens",
+"noncreature-tokens"
+],
+[
+2,
+"Emblems",
+"emblems"
+],
+[
+2,
+"Dungeons",
+"dungeons"
+],
+[
+2,
+"Adventurer cards (real cards)",
+"adventurer-cards-real-cards"
+]
+],
+"issues": [
+"42"
+],
+"related": []
+},
+{
+"path": "Update Log.md",
+"kind": "page",
+"title": "Update Log",
+"category": "meta",
+"tags": [
+"changelog"
+],
+"headings": [
+[
+2,
+"2026-10-15 — Bot cycle 17 (Phase 5: schema v2, retrieval index, validate_all)",
+"2026-10-15--bot-cycle-17-phase-5-schema-v2-retrieval-index-validate_all"
+],
+[
+2,
+"2026-10-15 — Bot cycle 16 (Grixis integration)",
+"2026-10-15--bot-cycle-16-grixis-integration"
+],
+[
+2,
+"2026-10-15 — Bot cycle 15 (Phase 4 complete; duplicate cleanup)",
+"2026-10-15--bot-cycle-15-phase-4-complete-duplicate-cleanup"
+],
+[
+2,
+"2026-10-15 — Bot cycle 14 (Phase 4: Lookup Guide)",
+"2026-10-15--bot-cycle-14-phase-4-lookup-guide"
+],
+[
+2,
+"2026-10-15 — Bot cycle 13 (Phase 3 complete: Artist Index)",
+"2026-10-15--bot-cycle-13-phase-3-complete-artist-index"
+],
+[
+2,
+"2026-10-15 — Bot cycle 12 (Phase 3: Tokens, Emblems & Dungeons)",
+"2026-10-15--bot-cycle-12-phase-3-tokens-emblems--dungeons"
+],
+[
+2,
+"2026-10-15 — Bot cycle 11 (Phase 3: Format Legality Matrix)",
+"2026-10-15--bot-cycle-11-phase-3-format-legality-matrix"
+],
+[
+2,
+"2026-10-15 — Bot cycle 10 (Phase 3: Printing History)",
+"2026-10-15--bot-cycle-10-phase-3-printing-history"
+],
+[
+2,
+"2026-10-15 — Bot cycle 9 (Phase 3: Keyword Encyclopedia complete)",
+"2026-10-15--bot-cycle-9-phase-3-keyword-encyclopedia-complete"
+],
+[
+2,
+"2026-10-15 — Bot cycle 8 (Phase 2 complete; Phase 3 keyword encyclopedia started)",
+"2026-10-15--bot-cycle-8-phase-2-complete-phase-3-keyword-encyclopedia-started"
+],
+[
+2,
+"2026-10-15 — Bot cycle 7 (Phase 1 complete; Phase 2 lore depth started)",
+"2026-10-15--bot-cycle-7-phase-1-complete-phase-2-lore-depth-started"
+],
+[
+2,
+"2026-10-15 — Bot cycle 6 (ROADMAP Phase 1: EDH & deckbuilding depth)",
+"2026-10-15--bot-cycle-6-roadmap-phase-1-edh--deckbuilding-depth"
+],
+[
+2,
+"2026-10-15 — Bot cycle 5 (sprint: rules topics, remaining planes, story archive, maintenance)",
+"2026-10-15--bot-cycle-5-sprint-rules-topics-remaining-planes-story-archive-maintenance"
+],
+[
+2,
+"2026-10-15 — Bot cycle 4 (sprint: rules topics, Planeswalker review, ELD/THB/IKO sources, combos & archetypes)",
+"2026-10-15--bot-cycle-4-sprint-rules-topics-planeswalker-review-eldthbiko-sources-combos--archetypes"
+],
+[
+2,
+"2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)",
+"2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions"
+],
+[
+2,
+"2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)",
+"2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters"
+],
+[
+2,
+"2026-10-15 — Bot cycle 1 (repository bootstrap)",
+"2026-10-15--bot-cycle-1-repository-bootstrap"
+]
+],
+"issues": [],
+"related": [
+"Knowledge Index.md",
+"Front-Matter Schema.md",
+"EDH Deck Evaluation Checklist.md",
+"EDH Deck Template.md",
+"Progress Tracker.md"
+]
+},
+{
+"path": "cEDH Primer.md",
+"kind": "page",
+"title": "cEDH Primer",
+"category": "edh",
+"tags": [
+"cedh",
+"competitive",
+"bracket-5"
+],
+"headings": [
+[
+2,
+"What cEDH is",
+"what-cedh-is"
+],
+[
+2,
+"Fast mana",
+"fast-mana"
+],
+[
+3,
+"Mana rocks, MV ≤ 1",
+"mana-rocks-mv--1"
+],
+[
+3,
+"Rituals, MV ≤ 2",
+"rituals-mv--2"
+],
+[
+3,
+"Mana creatures, MV ≤ 1",
+"mana-creatures-mv--1"
+],
+[
+2,
+"Tutors",
+"tutors"
+],
+[
+3,
+"Tutors, MV ≤ 2",
+"tutors-mv--2"
+],
+[
+2,
+"Free interaction",
+"free-interaction"
+],
+[
+3,
+"Free counterspells",
+"free-counterspells"
+],
+[
+3,
+"Free removal & protection",
+"free-removal--protection"
+],
+[
+2,
+"Compact combos",
+"compact-combos"
+],
+[
+2,
+"Stax packages",
+"stax-packages"
+],
+[
+3,
+"Tutor / search hate",
+"tutor--search-hate"
+],
+[
+3,
+"Spell-count limits",
+"spell-count-limits"
+],
+[
+3,
+"Taxes",
+"taxes"
+],
+[
+3,
+"Rule-setting hosers",
+"rule-setting-hosers"
+],
+[
+2,
+"Guidance (opinion)",
+"guidance-opinion"
+]
+],
+"issues": [
+"29"
+],
+"related": [
+"EDH Standards.md",
+"EDH Interaction.md",
+"EDH Win Conditions.md",
+"Rules Interactions.md",
+"EDH Mulligans.md",
+"EDH Packages.md"
+]
+},
+{
+"path": "grixis/Grixis Corrections.md",
+"kind": "page",
+"title": "Grixis Corrections",
+"category": "edh",
+"tags": [
+"grixis",
+"corrections",
+"legality",
+"oracle"
+],
+"headings": [
+[
+2,
+"Summary",
+"summary"
+],
+[
+2,
+"Corrections table",
+"corrections-table"
+],
+[
+2,
+"Oracle text check",
+"oracle-text-check"
+],
+[
+2,
+"Source-repo structural findings",
+"source-repo-structural-findings"
+]
+],
+"issues": [
+"60"
+],
+"related": [
+"EDH Standards.md",
+"EDH Deck Evaluation Checklist.md",
+"grixis/README.md"
+]
+},
+{
+"path": "grixis/Grixis Evaluation.md",
+"kind": "page",
+"title": "Grixis Evaluation — all 62 source lists",
+"category": "edh",
+"tags": [
+"grixis",
+"validation",
+"legality"
+],
+"headings": [
+[
+2,
+"Summary",
+"summary"
+],
+[
+2,
+"Per-list results",
+"per-list-results"
+],
+[
+2,
+"How the current list was chosen",
+"how-the-current-list-was-chosen"
+]
+],
+"issues": [
+"59"
+],
+"related": [
+"grixis/README.md"
+]
+},
+{
+"path": "grixis/Grixis Integration Summary.md",
+"kind": "page",
+"title": "Grixis Integration Summary",
+"category": "meta",
+"tags": [
+"grixis",
+"summary",
+"follow-ups"
+],
+"headings": [
+[
+2,
+"Source repo inventory",
+"source-repo-inventory"
+],
+[
+2,
+"What was integrated",
+"what-was-integrated"
+],
+[
+2,
+"What was left out and why",
+"what-was-left-out-and-why"
+],
+[
+2,
+"Fixes",
+"fixes"
+],
+[
+2,
+"What was generalized",
+"what-was-generalized"
+],
+[
+2,
+"What we did not take",
+"what-we-did-not-take"
+],
+[
+2,
+"Recommended follow-ups",
+"recommended-follow-ups"
+],
+[
+2,
+"Reproducing",
+"reproducing"
+]
+],
+"issues": [
+"59",
+"60",
+"61",
+"62",
+"63"
+],
+"related": [
+"Front-Matter Schema.md",
+"grixis/Grixis Corrections.md",
+"grixis/README.md",
+"EDH Deck Evaluation Checklist.md",
+"EDH Deck Template.md",
+"EDH Standards.md"
+]
+},
+{
+"path": "grixis/Grixis Packages.md",
+"kind": "page",
+"title": "Grixis Packages",
+"category": "edh",
+"tags": [
+"grixis",
+"packages",
+"rules-insights"
+],
+"headings": [
+[
+2,
+"Land",
+"land"
+],
+[
+2,
+"Ramp",
+"ramp"
+],
+[
+2,
+"Removal",
+"removal"
+],
+[
+2,
+"Draw",
+"draw"
+],
+[
+2,
+"Tutor",
+"tutor"
+],
+[
+2,
+"Recursion",
+"recursion"
+],
+[
+2,
+"Copy",
+"copy"
+],
+[
+2,
+"Protection",
+"protection"
+],
+[
+2,
+"Counters",
+"counters"
+],
+[
+2,
+"Tokens",
+"tokens"
+],
+[
+2,
+"Creature",
+"creature"
+],
+[
+2,
+"Theft",
+"theft"
+],
+[
+2,
+"Discard",
+"discard"
+],
+[
+2,
+"Burn",
+"burn"
+],
+[
+2,
+"Finisher",
+"finisher"
+],
+[
+2,
+"Artifact",
+"artifact"
+],
+[
+2,
+"Stax",
+"stax"
+],
+[
+2,
+"Instant",
+"instant"
+],
+[
+2,
+"Sac Outlet",
+"sac-outlet"
+],
+[
+2,
+"Drain",
+"drain"
+],
+[
+2,
+"Mill",
+"mill"
+],
+[
+2,
+"Evasion",
+"evasion"
+],
+[
+2,
+"Sorcery",
+"sorcery"
+],
+[
+2,
+"Enchantment",
+"enchantment"
+],
+[
+2,
+"Untap",
+"untap"
+],
+[
+2,
+"Anthem",
+"anthem"
+],
+[
+2,
+"Blink",
+"blink"
+],
+[
+2,
+"Lifegain",
+"lifegain"
+],
+[
+2,
+"Clones",
+"clones"
+],
+[
+2,
+"Pump",
+"pump"
+],
+[
+2,
+"Pingers",
+"pingers"
+],
+[
+2,
+"Infect",
+"infect"
+],
+[
+2,
+"Planeswalker",
+"planeswalker"
+],
+[
+2,
+"Grixis rules insights (from the source)",
+"grixis-rules-insights-from-the-source"
+]
+],
+"issues": [
+"61"
+],
+"related": [
+"grixis/README.md",
+"EDH Deck Evaluation Checklist.md",
+"EDH Deck Template.md",
+"EDH Packages.md"
+]
+},
+{
+"path": "grixis/README.md",
+"kind": "page",
+"title": "Grixis (U/B/R) Commander",
+"category": "edh",
+"tags": [
+"grixis",
+"decks",
+"index"
+],
+"headings": [
+[
+2,
+"Pages",
+"pages"
+],
+[
+2,
+"Decks",
+"decks"
+],
+[
+2,
+"What was left out",
+"what-was-left-out"
+]
+],
+"issues": [
+"59",
+"60",
+"61"
+],
+"related": [
+"grixis/Grixis Evaluation.md",
+"EDH Deck Template.md",
+"EDH Standards.md",
+"grixis/Grixis Corrections.md",
+"grixis/Grixis Packages.md",
+"EDH Deck Evaluation Checklist.md"
+]
+},
+{
+"path": "decks/animar-soul-of-elements.md",
+"kind": "deck",
+"title": "Deck Skeleton — Animar, Soul of Elements",
+"category": "deck",
+"tags": [
+"core",
+"temur",
+"bracket-floor-4",
+"game-changers",
+"two-card-infinite"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Rejected candidates",
+"rejected-candidates"
+],
+[
+2,
+"Commander rules & rulings",
+"commander-rules--rulings"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "core",
+"commander": "Animar, Soul of Elements",
+"color_identity": "URG",
+"bracket_floor": "4",
+"game_changers": "5",
+"two_card_infinites": "3"
+},
+{
+"path": "decks/atraxa-praetors-voice.md",
+"kind": "deck",
+"title": "Deck Skeleton — Atraxa, Praetors' Voice",
+"category": "deck",
+"tags": [
+"core",
+"witch",
+"bracket-floor-4",
+"game-changers",
+"combos"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Rejected candidates",
+"rejected-candidates"
+],
+[
+2,
+"Commander rules & rulings",
+"commander-rules--rulings"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "core",
+"commander": "Atraxa, Praetors' Voice",
+"color_identity": "WUBG",
+"bracket_floor": "4",
+"game_changers": "5",
+"two_card_infinites": "0"
+},
+{
+"path": "decks/brago-king-eternal.md",
+"kind": "deck",
+"title": "Deck Skeleton — Brago, King Eternal",
+"category": "deck",
+"tags": [
+"core",
+"azorius",
+"bracket-floor-3",
+"game-changers",
+"two-card-infinite"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Rejected candidates",
+"rejected-candidates"
+],
+[
+2,
+"Commander rules & rulings",
+"commander-rules--rulings"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "core",
+"commander": "Brago, King Eternal",
+"color_identity": "WU",
+"bracket_floor": "3",
+"game_changers": "1",
+"two_card_infinites": "4"
+},
+{
+"path": "decks/breya-etherium-shaper.md",
+"kind": "deck",
+"title": "Deck Skeleton — Breya, Etherium Shaper",
+"category": "deck",
+"tags": [
+"core",
+"yore",
+"bracket-floor-3",
+"game-changers",
+"combos"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Rejected candidates",
+"rejected-candidates"
+],
+[
+2,
+"Commander rules & rulings",
+"commander-rules--rulings"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "core",
+"commander": "Breya, Etherium Shaper",
+"color_identity": "WUBR",
+"bracket_floor": "3",
+"game_changers": "3",
+"two_card_infinites": "0"
+},
+{
+"path": "decks/chulane-teller-of-tales.md",
+"kind": "deck",
+"title": "Deck Skeleton — Chulane, Teller of Tales",
+"category": "deck",
+"tags": [
+"core",
+"bant",
+"bracket-floor-4",
+"game-changers",
+"two-card-infinite"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Rejected candidates",
+"rejected-candidates"
+],
+[
+2,
+"Commander rules & rulings",
+"commander-rules--rulings"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "core",
+"commander": "Chulane, Teller of Tales",
+"color_identity": "WUG",
+"bracket_floor": "4",
+"game_changers": "6",
+"two_card_infinites": "3"
+},
+{
+"path": "decks/edgar-markov.md",
+"kind": "deck",
+"title": "Deck Skeleton — Edgar Markov",
+"category": "deck",
+"tags": [
+"core",
+"mardu",
+"bracket-floor-3",
+"game-changers",
+"two-card-infinite"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Rejected candidates",
+"rejected-candidates"
+],
+[
+2,
+"Commander rules & rulings",
+"commander-rules--rulings"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "core",
+"commander": "Edgar Markov",
+"color_identity": "WBR",
+"bracket_floor": "3",
+"game_changers": "3",
+"two_card_infinites": "6"
+},
+{
+"path": "decks/feather-the-redeemed.md",
+"kind": "deck",
+"title": "Deck Skeleton — Feather, the Redeemed",
+"category": "deck",
+"tags": [
+"core",
+"boros",
+"bracket-floor-2",
+"no-game-changers"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Rejected candidates",
+"rejected-candidates"
+],
+[
+2,
+"Commander rules & rulings",
+"commander-rules--rulings"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "core",
+"commander": "Feather, the Redeemed",
+"color_identity": "WR",
+"bracket_floor": "2",
+"game_changers": "0",
+"two_card_infinites": "0"
+},
+{
+"path": "decks/giada-font-of-hope.md",
+"kind": "deck",
+"title": "Deck Skeleton — Giada, Font of Hope",
+"category": "deck",
+"tags": [
+"core",
+"mono-white",
+"bracket-floor-3",
+"game-changers"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Rejected candidates",
+"rejected-candidates"
+],
+[
+2,
+"Commander rules & rulings",
+"commander-rules--rulings"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "core",
+"commander": "Giada, Font of Hope",
+"color_identity": "W",
+"bracket_floor": "3",
+"game_changers": "3",
+"two_card_infinites": "0"
+},
+{
+"path": "decks/gishath-suns-avatar.md",
+"kind": "deck",
+"title": "Deck Skeleton — Gishath, Sun's Avatar",
+"category": "deck",
+"tags": [
+"core",
+"naya",
+"bracket-floor-3",
+"no-game-changers",
+"two-card-infinite"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Rejected candidates",
+"rejected-candidates"
+],
+[
+2,
+"Commander rules & rulings",
+"commander-rules--rulings"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "core",
+"commander": "Gishath, Sun's Avatar",
+"color_identity": "WRG",
+"bracket_floor": "3",
+"game_changers": "0",
+"two_card_infinites": "1"
+},
+{
+"path": "decks/karador-ghost-chieftain.md",
+"kind": "deck",
+"title": "Deck Skeleton — Karador, Ghost Chieftain",
+"category": "deck",
+"tags": [
+"core",
+"abzan",
+"bracket-floor-2",
+"no-game-changers",
+"combos"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Rejected candidates",
+"rejected-candidates"
+],
+[
+2,
+"Commander rules & rulings",
+"commander-rules--rulings"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "core",
+"commander": "Karador, Ghost Chieftain",
+"color_identity": "WBG",
+"bracket_floor": "2",
+"game_changers": "0",
+"two_card_infinites": "0"
+},
+{
+"path": "decks/korvold-fae-cursed-king.md",
+"kind": "deck",
+"title": "Deck Skeleton — Korvold, Fae-Cursed King",
+"category": "deck",
+"tags": [
+"core",
+"jund",
+"bracket-floor-4",
+"game-changers",
+"two-card-infinite"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Rejected candidates",
+"rejected-candidates"
+],
+[
+2,
+"Commander rules & rulings",
+"commander-rules--rulings"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "core",
+"commander": "Korvold, Fae-Cursed King",
+"color_identity": "BRG",
+"bracket_floor": "4",
+"game_changers": "4",
+"two_card_infinites": "1"
+},
+{
+"path": "decks/kozilek-the-great-distortion.md",
+"kind": "deck",
+"title": "Deck Skeleton — Kozilek, the Great Distortion",
+"category": "deck",
+"tags": [
+"core",
+"colorless",
+"bracket-floor-3",
+"game-changers",
+"two-card-infinite"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Rejected candidates",
+"rejected-candidates"
+],
+[
+2,
+"Commander rules & rulings",
+"commander-rules--rulings"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "core",
+"commander": "Kozilek, the Great Distortion",
+"color_identity": "C",
+"bracket_floor": "3",
+"game_changers": "1",
+"two_card_infinites": "1"
+},
+{
+"path": "decks/krenko-mob-boss.md",
+"kind": "deck",
+"title": "Deck Skeleton — Krenko, Mob Boss",
+"category": "deck",
+"tags": [
+"core",
+"mono-red",
+"bracket-floor-2",
+"no-game-changers",
+"combos"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Rejected candidates",
+"rejected-candidates"
+],
+[
+2,
+"Commander rules & rulings",
+"commander-rules--rulings"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "core",
+"commander": "Krenko, Mob Boss",
+"color_identity": "R",
+"bracket_floor": "2",
+"game_changers": "0",
+"two_card_infinites": "0"
+},
+{
+"path": "decks/krrik-son-of-yawgmoth.md",
+"kind": "deck",
+"title": "Deck Skeleton — K'rrik, Son of Yawgmoth",
+"category": "deck",
+"tags": [
+"core",
+"mono-black",
+"bracket-floor-4",
+"game-changers",
+"two-card-infinite"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Rejected candidates",
+"rejected-candidates"
+],
+[
+2,
+"Commander rules & rulings",
+"commander-rules--rulings"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "core",
+"commander": "K'rrik, Son of Yawgmoth",
+"color_identity": "B",
+"bracket_floor": "4",
+"game_changers": "7",
+"two_card_infinites": "5"
+},
+{
+"path": "decks/kykar-winds-fury.md",
+"kind": "deck",
+"title": "Deck Skeleton — Kykar, Wind's Fury",
+"category": "deck",
+"tags": [
+"core",
+"jeskai",
+"bracket-floor-4",
+"game-changers"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Rejected candidates",
+"rejected-candidates"
+],
+[
+2,
+"Commander rules & rulings",
+"commander-rules--rulings"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "core",
+"commander": "Kykar, Wind's Fury",
+"color_identity": "WUR",
+"bracket_floor": "4",
+"game_changers": "6",
+"two_card_infinites": "0"
+},
+{
+"path": "decks/kynaios-and-tiro-of-meletis.md",
+"kind": "deck",
+"title": "Deck Skeleton — Kynaios and Tiro of Meletis",
+"category": "deck",
+"tags": [
+"core",
+"ink",
+"bracket-floor-3",
+"game-changers"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Rejected candidates",
+"rejected-candidates"
+],
+[
+2,
+"Commander rules & rulings",
+"commander-rules--rulings"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "core",
+"commander": "Kynaios and Tiro of Meletis",
+"color_identity": "WURG",
+"bracket_floor": "3",
+"game_changers": "1",
+"two_card_infinites": "0"
+},
+{
+"path": "decks/lathril-blade-of-the-elves.md",
+"kind": "deck",
+"title": "Deck Skeleton — Lathril, Blade of the Elves",
+"category": "deck",
+"tags": [
+"core",
+"golgari",
+"bracket-floor-3",
+"game-changers"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Rejected candidates",
+"rejected-candidates"
+],
+[
+2,
+"Commander rules & rulings",
+"commander-rules--rulings"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "core",
+"commander": "Lathril, Blade of the Elves",
+"color_identity": "BG",
+"bracket_floor": "3",
+"game_changers": "1",
+"two_card_infinites": "0"
+},
+{
+"path": "decks/muldrotha-the-gravetide.md",
+"kind": "deck",
+"title": "Deck Skeleton — Muldrotha, the Gravetide",
+"category": "deck",
+"tags": [
+"core",
+"sultai",
+"bracket-floor-3",
+"game-changers",
+"combos"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Rejected candidates",
+"rejected-candidates"
+],
+[
+2,
+"Commander rules & rulings",
+"commander-rules--rulings"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "core",
+"commander": "Muldrotha, the Gravetide",
+"color_identity": "UBG",
+"bracket_floor": "3",
+"game_changers": "1",
+"two_card_infinites": "0"
+},
+{
+"path": "decks/nekusar-the-mindrazer.md",
+"kind": "deck",
+"title": "Deck Skeleton — Nekusar, the Mindrazer",
+"category": "deck",
+"tags": [
+"core",
+"grixis",
+"bracket-floor-3",
+"game-changers",
+"two-card-infinite"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Rejected candidates",
+"rejected-candidates"
+],
+[
+2,
+"Commander rules & rulings",
+"commander-rules--rulings"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "core",
+"commander": "Nekusar, the Mindrazer",
+"color_identity": "UBR",
+"bracket_floor": "3",
+"game_changers": "2",
+"two_card_infinites": "5"
+},
+{
+"path": "decks/niv-mizzet-parun.md",
+"kind": "deck",
+"title": "Deck Skeleton — Niv-Mizzet, Parun",
+"category": "deck",
+"tags": [
+"core",
+"izzet",
+"bracket-floor-4",
+"game-changers",
+"two-card-infinite"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Rejected candidates",
+"rejected-candidates"
+],
+[
+2,
+"Commander rules & rulings",
+"commander-rules--rulings"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "core",
+"commander": "Niv-Mizzet, Parun",
+"color_identity": "UR",
+"bracket_floor": "4",
+"game_changers": "4",
+"two_card_infinites": "8"
+},
+{
+"path": "decks/plane-dominaria-braids-arisen-nightmare.md",
+"kind": "deck",
+"title": "Deck Skeleton — Braids, Arisen Nightmare — Dominaria-only",
+"category": "deck",
+"tags": [
+"plane",
+"mono-black",
+"bracket-floor-3",
+"no-game-changers",
+"two-card-infinite",
+"plane-dominaria"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Rejected candidates",
+"rejected-candidates"
+],
+[
+2,
+"Commander rules & rulings",
+"commander-rules--rulings"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "plane",
+"commander": "Braids, Arisen Nightmare",
+"color_identity": "B",
+"bracket_floor": "3",
+"game_changers": "0",
+"two_card_infinites": "1"
+},
+{
+"path": "decks/plane-eldraine-syr-konrad-the-grim.md",
+"kind": "deck",
+"title": "Deck Skeleton — Syr Konrad, the Grim — Eldraine-only",
+"category": "deck",
+"tags": [
+"plane",
+"mono-black",
+"bracket-floor-2",
+"no-game-changers",
+"plane-eldraine"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Rejected candidates",
+"rejected-candidates"
+],
+[
+2,
+"Commander rules & rulings",
+"commander-rules--rulings"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "plane",
+"commander": "Syr Konrad, the Grim",
+"color_identity": "B",
+"bracket_floor": "2",
+"game_changers": "0",
+"two_card_infinites": "0"
+},
+{
+"path": "decks/plane-innistrad-the-gitrog-monster.md",
+"kind": "deck",
+"title": "Deck Skeleton — The Gitrog Monster — Innistrad-only",
+"category": "deck",
+"tags": [
+"plane",
+"golgari",
+"bracket-floor-2",
+"no-game-changers",
+"plane-innistrad"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Rejected candidates",
+"rejected-candidates"
+],
+[
+2,
+"Commander rules & rulings",
+"commander-rules--rulings"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "plane",
+"commander": "The Gitrog Monster",
+"color_identity": "BG",
+"bracket_floor": "2",
+"game_changers": "0",
+"two_card_infinites": "0"
+},
+{
+"path": "decks/plane-ixalan-ghalta-primal-hunger.md",
+"kind": "deck",
+"title": "Deck Skeleton — Ghalta, Primal Hunger — Ixalan-only",
+"category": "deck",
+"tags": [
+"plane",
+"mono-green",
+"bracket-floor-2",
+"no-game-changers",
+"plane-ixalan"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Rejected candidates",
+"rejected-candidates"
+],
+[
+2,
+"Commander rules & rulings",
+"commander-rules--rulings"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "plane",
+"commander": "Ghalta, Primal Hunger",
+"color_identity": "G",
+"bracket_floor": "2",
+"game_changers": "0",
+"two_card_infinites": "0"
+},
+{
+"path": "decks/plane-kamigawa-isshin-two-heavens-as-one.md",
+"kind": "deck",
+"title": "Deck Skeleton — Isshin, Two Heavens as One — Kamigawa-only",
+"category": "deck",
+"tags": [
+"plane",
+"mardu",
+"bracket-floor-3",
+"game-changers",
+"plane-kamigawa"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Rejected candidates",
+"rejected-candidates"
+],
+[
+2,
+"Commander rules & rulings",
+"commander-rules--rulings"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "plane",
+"commander": "Isshin, Two Heavens as One",
+"color_identity": "WBR",
+"bracket_floor": "3",
+"game_changers": "1",
+"two_card_infinites": "0"
+},
+{
+"path": "decks/plane-new-phyrexia-elesh-norn-mother-of-machines.md",
+"kind": "deck",
+"title": "Deck Skeleton — Elesh Norn, Mother of Machines — Mirrodin/New Phyrexia-only",
+"category": "deck",
+"tags": [
+"plane",
+"mono-white",
+"bracket-floor-3",
+"game-changers",
+"plane-new"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Rejected candidates",
+"rejected-candidates"
+],
+[
+2,
+"Commander rules & rulings",
+"commander-rules--rulings"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "plane",
+"commander": "Elesh Norn, Mother of Machines",
+"color_identity": "W",
+"bracket_floor": "3",
+"game_changers": "1",
+"two_card_infinites": "0"
+},
+{
+"path": "decks/plane-ravnica-aurelia-the-warleader.md",
+"kind": "deck",
+"title": "Deck Skeleton — Aurelia, the Warleader — Ravnica-only",
+"category": "deck",
+"tags": [
+"plane",
+"boros",
+"bracket-floor-3",
+"game-changers",
+"plane-ravnica"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Rejected candidates",
+"rejected-candidates"
+],
+[
+2,
+"Commander rules & rulings",
+"commander-rules--rulings"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "plane",
+"commander": "Aurelia, the Warleader",
+"color_identity": "WR",
+"bracket_floor": "3",
+"game_changers": "1",
+"two_card_infinites": "0"
+},
+{
+"path": "decks/plane-tarkir-atarka-world-render.md",
+"kind": "deck",
+"title": "Deck Skeleton — Atarka, World Render — Tarkir-only",
+"category": "deck",
+"tags": [
+"plane",
+"gruul",
+"bracket-floor-2",
+"no-game-changers",
+"plane-tarkir"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Rejected candidates",
+"rejected-candidates"
+],
+[
+2,
+"Commander rules & rulings",
+"commander-rules--rulings"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "plane",
+"commander": "Atarka, World Render",
+"color_identity": "RG",
+"bracket_floor": "2",
+"game_changers": "0",
+"two_card_infinites": "0"
+},
+{
+"path": "decks/plane-theros-uro-titan-of-natures-wrath.md",
+"kind": "deck",
+"title": "Deck Skeleton — Uro, Titan of Nature's Wrath — Theros-only",
+"category": "deck",
+"tags": [
+"plane",
+"simic",
+"bracket-floor-3",
+"game-changers",
+"plane-theros"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Rejected candidates",
+"rejected-candidates"
+],
+[
+2,
+"Commander rules & rulings",
+"commander-rules--rulings"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "plane",
+"commander": "Uro, Titan of Nature's Wrath",
+"color_identity": "UG",
+"bracket_floor": "3",
+"game_changers": "1",
+"two_card_infinites": "0"
+},
+{
+"path": "decks/plane-zendikar-omnath-locus-of-rage.md",
+"kind": "deck",
+"title": "Deck Skeleton — Omnath, Locus of Rage — Zendikar-only",
+"category": "deck",
+"tags": [
+"plane",
+"gruul",
+"bracket-floor-2",
+"no-game-changers",
+"plane-zendikar"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Rejected candidates",
+"rejected-candidates"
+],
+[
+2,
+"Commander rules & rulings",
+"commander-rules--rulings"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "plane",
+"commander": "Omnath, Locus of Rage",
+"color_identity": "RG",
+"bracket_floor": "2",
+"game_changers": "0",
+"two_card_infinites": "0"
+},
+{
+"path": "decks/prosper-tome-bound.md",
+"kind": "deck",
+"title": "Deck Skeleton — Prosper, Tome-Bound",
+"category": "deck",
+"tags": [
+"core",
+"rakdos",
+"bracket-floor-3",
+"game-changers",
+"combos"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Rejected candidates",
+"rejected-candidates"
+],
+[
+2,
+"Commander rules & rulings",
+"commander-rules--rulings"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "core",
+"commander": "Prosper, Tome-Bound",
+"color_identity": "BR",
+"bracket_floor": "3",
+"game_changers": "1",
+"two_card_infinites": "0"
+},
+{
+"path": "decks/saskia-the-unyielding.md",
+"kind": "deck",
+"title": "Deck Skeleton — Saskia the Unyielding",
+"category": "deck",
+"tags": [
+"core",
+"dune",
+"bracket-floor-3",
+"game-changers"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Rejected candidates",
+"rejected-candidates"
+],
+[
+2,
+"Commander rules & rulings",
+"commander-rules--rulings"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "core",
+"commander": "Saskia the Unyielding",
+"color_identity": "WBRG",
+"bracket_floor": "3",
+"game_changers": "1",
+"two_card_infinites": "0"
+},
+{
+"path": "decks/selvala-heart-of-the-wilds.md",
+"kind": "deck",
+"title": "Deck Skeleton — Selvala, Heart of the Wilds",
+"category": "deck",
+"tags": [
+"core",
+"mono-green",
+"bracket-floor-3",
+"game-changers",
+"two-card-infinite"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Rejected candidates",
+"rejected-candidates"
+],
+[
+2,
+"Commander rules & rulings",
+"commander-rules--rulings"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "core",
+"commander": "Selvala, Heart of the Wilds",
+"color_identity": "G",
+"bracket_floor": "3",
+"game_changers": "2",
+"two_card_infinites": "9"
+},
+{
+"path": "decks/talrand-sky-summoner.md",
+"kind": "deck",
+"title": "Deck Skeleton — Talrand, Sky Summoner",
+"category": "deck",
+"tags": [
+"core",
+"mono-blue",
+"bracket-floor-3",
+"game-changers",
+"two-card-infinite"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Rejected candidates",
+"rejected-candidates"
+],
+[
+2,
+"Commander rules & rulings",
+"commander-rules--rulings"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "core",
+"commander": "Talrand, Sky Summoner",
+"color_identity": "U",
+"bracket_floor": "3",
+"game_changers": "3",
+"two_card_infinites": "1"
+},
+{
+"path": "decks/tatyova-benthic-druid.md",
+"kind": "deck",
+"title": "Deck Skeleton — Tatyova, Benthic Druid",
+"category": "deck",
+"tags": [
+"core",
+"simic",
+"bracket-floor-3",
+"game-changers",
+"combos"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Rejected candidates",
+"rejected-candidates"
+],
+[
+2,
+"Commander rules & rulings",
+"commander-rules--rulings"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "core",
+"commander": "Tatyova, Benthic Druid",
+"color_identity": "UG",
+"bracket_floor": "3",
+"game_changers": "2",
+"two_card_infinites": "0"
+},
+{
+"path": "decks/teysa-karlov.md",
+"kind": "deck",
+"title": "Deck Skeleton — Teysa Karlov",
+"category": "deck",
+"tags": [
+"core",
+"orzhov",
+"bracket-floor-3",
+"game-changers",
+"combos"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Rejected candidates",
+"rejected-candidates"
+],
+[
+2,
+"Commander rules & rulings",
+"commander-rules--rulings"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "core",
+"commander": "Teysa Karlov",
+"color_identity": "WB",
+"bracket_floor": "3",
+"game_changers": "2",
+"two_card_infinites": "0"
+},
+{
+"path": "decks/the-ur-dragon.md",
+"kind": "deck",
+"title": "Deck Skeleton — The Ur-Dragon",
+"category": "deck",
+"tags": [
+"core",
+"five-color",
+"bracket-floor-3",
+"game-changers",
+"two-card-infinite"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Rejected candidates",
+"rejected-candidates"
+],
+[
+2,
+"Commander rules & rulings",
+"commander-rules--rulings"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "core",
+"commander": "The Ur-Dragon",
+"color_identity": "WUBRG",
+"bracket_floor": "3",
+"game_changers": "3",
+"two_card_infinites": "1"
+},
+{
+"path": "decks/theme-atraxa-praetors-voice-planeswalkers.md",
+"kind": "deck",
+"title": "Deck Skeleton — Atraxa, Praetors' Voice — Planeswalkers theme",
+"category": "deck",
+"tags": [
+"theme",
+"witch",
+"bracket-floor-4",
+"game-changers",
+"two-card-infinite",
+"theme-planeswalkers"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Rejected candidates",
+"rejected-candidates"
+],
+[
+2,
+"Commander rules & rulings",
+"commander-rules--rulings"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "theme",
+"commander": "Atraxa, Praetors' Voice",
+"color_identity": "WUBG",
+"bracket_floor": "4",
+"game_changers": "7",
+"two_card_infinites": "2"
+},
+{
+"path": "decks/theme-chulane-teller-of-tales-landfall.md",
+"kind": "deck",
+"title": "Deck Skeleton — Chulane, Teller of Tales — Landfall theme",
+"category": "deck",
+"tags": [
+"theme",
+"bant",
+"bracket-floor-3",
+"game-changers",
+"two-card-infinite",
+"theme-landfall"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Rejected candidates",
+"rejected-candidates"
+],
+[
+2,
+"Commander rules & rulings",
+"commander-rules--rulings"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "theme",
+"commander": "Chulane, Teller of Tales",
+"color_identity": "WUG",
+"bracket_floor": "3",
+"game_changers": "1",
+"two_card_infinites": "3"
+},
+{
+"path": "decks/theme-edgar-markov-lifegain.md",
+"kind": "deck",
+"title": "Deck Skeleton — Edgar Markov — Lifegain theme",
+"category": "deck",
+"tags": [
+"theme",
+"mardu",
+"bracket-floor-4",
+"game-changers",
+"two-card-infinite",
+"theme-lifegain"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Rejected candidates",
+"rejected-candidates"
+],
+[
+2,
+"Commander rules & rulings",
+"commander-rules--rulings"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "theme",
+"commander": "Edgar Markov",
+"color_identity": "WBR",
+"bracket_floor": "4",
+"game_changers": "4",
+"two_card_infinites": "6"
+},
+{
+"path": "decks/theme-muldrotha-the-gravetide-self-mill.md",
+"kind": "deck",
+"title": "Deck Skeleton — Muldrotha, the Gravetide — Self Mill theme",
+"category": "deck",
+"tags": [
+"theme",
+"sultai",
+"bracket-floor-2",
+"no-game-changers",
+"combos",
+"theme-self-mill"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Rejected candidates",
+"rejected-candidates"
+],
+[
+2,
+"Commander rules & rulings",
+"commander-rules--rulings"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "theme",
+"commander": "Muldrotha, the Gravetide",
+"color_identity": "UBG",
+"bracket_floor": "2",
+"game_changers": "0",
+"two_card_infinites": "0"
+},
+{
+"path": "decks/trostani-selesnyas-voice.md",
+"kind": "deck",
+"title": "Deck Skeleton — Trostani, Selesnya's Voice",
+"category": "deck",
+"tags": [
+"core",
+"selesnya",
+"bracket-floor-3",
+"game-changers"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Rejected candidates",
+"rejected-candidates"
+],
+[
+2,
+"Commander rules & rulings",
+"commander-rules--rulings"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "core",
+"commander": "Trostani, Selesnya's Voice",
+"color_identity": "WG",
+"bracket_floor": "3",
+"game_changers": "1",
+"two_card_infinites": "0"
+},
+{
+"path": "decks/xenagos-god-of-revels.md",
+"kind": "deck",
+"title": "Deck Skeleton — Xenagos, God of Revels",
+"category": "deck",
+"tags": [
+"core",
+"gruul",
+"bracket-floor-3",
+"no-game-changers",
+"two-card-infinite"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Rejected candidates",
+"rejected-candidates"
+],
+[
+2,
+"Commander rules & rulings",
+"commander-rules--rulings"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "core",
+"commander": "Xenagos, God of Revels",
+"color_identity": "RG",
+"bracket_floor": "3",
+"game_changers": "0",
+"two_card_infinites": "3"
+},
+{
+"path": "decks/yidris-maelstrom-wielder.md",
+"kind": "deck",
+"title": "Deck Skeleton — Yidris, Maelstrom Wielder",
+"category": "deck",
+"tags": [
+"core",
+"glint",
+"bracket-floor-2",
+"no-game-changers"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Rejected candidates",
+"rejected-candidates"
+],
+[
+2,
+"Commander rules & rulings",
+"commander-rules--rulings"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "core",
+"commander": "Yidris, Maelstrom Wielder",
+"color_identity": "UBRG",
+"bracket_floor": "2",
+"game_changers": "0",
+"two_card_infinites": "0"
+},
+{
+"path": "decks/yuriko-the-tigers-shadow.md",
+"kind": "deck",
+"title": "Deck Skeleton — Yuriko, the Tiger's Shadow",
+"category": "deck",
+"tags": [
+"core",
+"dimir",
+"bracket-floor-4",
+"game-changers"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Rejected candidates",
+"rejected-candidates"
+],
+[
+2,
+"Commander rules & rulings",
+"commander-rules--rulings"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "core",
+"commander": "Yuriko, the Tiger's Shadow",
+"color_identity": "UB",
+"bracket_floor": "4",
+"game_changers": "4",
+"two_card_infinites": "0"
+},
+{
+"path": "decks/zur-the-enchanter.md",
+"kind": "deck",
+"title": "Deck Skeleton — Zur the Enchanter",
+"category": "deck",
+"tags": [
+"core",
+"esper",
+"bracket-floor-4",
+"game-changers",
+"combos"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Rejected candidates",
+"rejected-candidates"
+],
+[
+2,
+"Commander rules & rulings",
+"commander-rules--rulings"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "core",
+"commander": "Zur the Enchanter",
+"color_identity": "WUB",
+"bracket_floor": "4",
+"game_changers": "8",
+"two_card_infinites": "0"
+},
+{
+"path": "grixis/decks/abaddon-the-despoiler.md",
+"kind": "deck",
+"title": "Grixis Deck — Abaddon the Despoiler",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-4",
+"game-changers",
+"combos"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/blueprints/Abaddon_the_Despoiler_v1.md`",
+"from-refinementblueprintsabaddon_the_despoiler_v1md"
+],
+[
+3,
+"From `refinement/decisions/Abaddon_the_Despoiler_Candidate_Decisions_2026-10-12.csv` (candidate decision ledger)",
+"from-refinementdecisionsabaddon_the_despoiler_candidate_decisions_2026-10-12csv-candidate-decision-ledger"
+],
+[
+3,
+"From `refinement/evidence/Abaddon_the_Despoiler_Deck_Quality_v3.md`",
+"from-refinementevidenceabaddon_the_despoiler_deck_quality_v3md"
+],
+[
+3,
+"Further source evidence (linked, not copied)",
+"further-source-evidence-linked-not-copied"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "grixis",
+"commander": "Abaddon the Despoiler",
+"color_identity": "UBR",
+"bracket_floor": "4",
+"game_changers": "14",
+"two_card_infinites": "0"
+},
+{
+"path": "grixis/decks/admiral-beckett-brass.md",
+"kind": "deck",
+"title": "Grixis Deck — Admiral Beckett Brass",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-4",
+"game-changers"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/blueprints/Admiral_Beckett_Brass_v1.md`",
+"from-refinementblueprintsadmiral_beckett_brass_v1md"
+],
+[
+3,
+"From `refinement/decisions/Admiral_Beckett_Brass_Candidate_Decisions_2026-10-13.csv` (candidate decision ledger)",
+"from-refinementdecisionsadmiral_beckett_brass_candidate_decisions_2026-10-13csv-candidate-decision-ledger"
+],
+[
+3,
+"Further source evidence (linked, not copied)",
+"further-source-evidence-linked-not-copied"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "grixis",
+"commander": "Admiral Beckett Brass",
+"color_identity": "UBR",
+"bracket_floor": "4",
+"game_changers": "6",
+"two_card_infinites": "0"
+},
+{
+"path": "grixis/decks/admiral-brass-unsinkable.md",
+"kind": "deck",
+"title": "Grixis Deck — Admiral Brass, Unsinkable",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-4",
+"game-changers"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/blueprints/Admiral_Brass_Unsinkable_v1.md`",
+"from-refinementblueprintsadmiral_brass_unsinkable_v1md"
+],
+[
+3,
+"From `refinement/decisions/Admiral_Brass_Unsinkable_Candidate_Decisions_2026-10-13.csv` (candidate decision ledger)",
+"from-refinementdecisionsadmiral_brass_unsinkable_candidate_decisions_2026-10-13csv-candidate-decision-ledger"
+],
+[
+3,
+"Further source evidence (linked, not copied)",
+"further-source-evidence-linked-not-copied"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "grixis",
+"commander": "Admiral Brass, Unsinkable",
+"color_identity": "UBR",
+"bracket_floor": "4",
+"game_changers": "6",
+"two_card_infinites": "0"
+},
+{
+"path": "grixis/decks/anhelo-the-painter.md",
+"kind": "deck",
+"title": "Grixis Deck — Anhelo, the Painter",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-4",
+"game-changers",
+"two-card-infinite"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/blueprints/Anhelo_the_Painter_v1.md`",
+"from-refinementblueprintsanhelo_the_painter_v1md"
+],
+[
+3,
+"From `refinement/decisions/Anhelo_the_Painter_Candidate_Decisions_2026-10-13.csv` (candidate decision ledger)",
+"from-refinementdecisionsanhelo_the_painter_candidate_decisions_2026-10-13csv-candidate-decision-ledger"
+],
+[
+3,
+"Further source evidence (linked, not copied)",
+"further-source-evidence-linked-not-copied"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "grixis",
+"commander": "Anhelo, the Painter",
+"color_identity": "UBR",
+"bracket_floor": "4",
+"game_changers": "7",
+"two_card_infinites": "5"
+},
+{
+"path": "grixis/decks/ashad-the-lone-cyberman.md",
+"kind": "deck",
+"title": "Grixis Deck — Ashad, the Lone Cyberman",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-3",
+"game-changers",
+"combos"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/blueprints/Ashad_the_Lone_Cyberman_v1.md`",
+"from-refinementblueprintsashad_the_lone_cyberman_v1md"
+],
+[
+3,
+"From `refinement/decisions/Ashad_the_Lone_Cyberman_Candidate_Decisions_2026-10-13.md`",
+"from-refinementdecisionsashad_the_lone_cyberman_candidate_decisions_2026-10-13md"
+],
+[
+3,
+"Further source evidence (linked, not copied)",
+"further-source-evidence-linked-not-copied"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "grixis",
+"commander": "Ashad, the Lone Cyberman",
+"color_identity": "UBR",
+"bracket_floor": "3",
+"game_changers": "3",
+"two_card_infinites": "0"
+},
+{
+"path": "grixis/decks/ashnod-the-uncaring.md",
+"kind": "deck",
+"title": "Grixis Deck — Ashnod the Uncaring",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-4",
+"game-changers",
+"combos"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/blueprints/Ashnod_the_Uncaring_v1.md`",
+"from-refinementblueprintsashnod_the_uncaring_v1md"
+],
+[
+3,
+"From `refinement/decisions/Ashnod_the_Uncaring_Candidate_Decisions_2026-10-13.md`",
+"from-refinementdecisionsashnod_the_uncaring_candidate_decisions_2026-10-13md"
+],
+[
+3,
+"From `refinement/approvals/Ashnod_the_Uncaring_Approved_2026-10-13.md`",
+"from-refinementapprovalsashnod_the_uncaring_approved_2026-10-13md"
+],
+[
+3,
+"From `refinement/evidence/Ashnod_the_Uncaring_Approval_Gate_Dossier_2026-10-13.md`",
+"from-refinementevidenceashnod_the_uncaring_approval_gate_dossier_2026-10-13md"
+],
+[
+3,
+"From `refinement/evidence/Ashnod_the_Uncaring_Finalization_Blockers_2026-10-13.md`",
+"from-refinementevidenceashnod_the_uncaring_finalization_blockers_2026-10-13md"
+],
+[
+3,
+"From `refinement/evidence/Ashnod_the_Uncaring_Oracle_Red_Team_Correction_2026-10-13.md`",
+"from-refinementevidenceashnod_the_uncaring_oracle_red_team_correction_2026-10-13md"
+],
+[
+3,
+"Further source evidence (linked, not copied)",
+"further-source-evidence-linked-not-copied"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "grixis",
+"commander": "Ashnod the Uncaring",
+"color_identity": "UBR",
+"bracket_floor": "4",
+"game_changers": "6",
+"two_card_infinites": "0"
+},
+{
+"path": "grixis/decks/belakor-the-dark-master.md",
+"kind": "deck",
+"title": "Grixis Deck — Be'lakor, the Dark Master",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-4",
+"game-changers",
+"two-card-infinite"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/blueprints/Be_lakor__the_Dark_Master_v1.md`",
+"from-refinementblueprintsbe_lakor__the_dark_master_v1md"
+],
+[
+3,
+"From `refinement/blueprints/Belakor_the_Dark_Master_v1.md`",
+"from-refinementblueprintsbelakor_the_dark_master_v1md"
+],
+[
+3,
+"From `refinement/decisions/Belakor_the_Dark_Master_Candidate_Decisions_2026-10-13.csv` (candidate decision ledger)",
+"from-refinementdecisionsbelakor_the_dark_master_candidate_decisions_2026-10-13csv-candidate-decision-ledger"
+],
+[
+3,
+"From `refinement/approvals/Be_lakor_the_Dark_Master_Approved_2026-10-13.md`",
+"from-refinementapprovalsbe_lakor_the_dark_master_approved_2026-10-13md"
+],
+[
+3,
+"From `refinement/evidence/Be_lakor__the_Dark_Master_Whole_List_Working_Audit_2026-10-13.md`",
+"from-refinementevidencebe_lakor__the_dark_master_whole_list_working_audit_2026-10-13md"
+],
+[
+3,
+"From `refinement/evidence/Be_lakor_the_Dark_Master_Approval_Gate_Dossier_2026-10-13.md`",
+"from-refinementevidencebe_lakor_the_dark_master_approval_gate_dossier_2026-10-13md"
+],
+[
+3,
+"Further source evidence (linked, not copied)",
+"further-source-evidence-linked-not-copied"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "grixis",
+"commander": "Be'lakor, the Dark Master",
+"color_identity": "UBR",
+"bracket_floor": "4",
+"game_changers": "5",
+"two_card_infinites": "1"
+},
+{
+"path": "grixis/decks/bjorna-nightfall-alchemist-cecily.md",
+"kind": "deck",
+"title": "Grixis Deck — Bjorna, Nightfall Alchemist + Cecily, Haunted Mage",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-4",
+"game-changers",
+"two-card-infinite"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/blueprints/Cecily__Bjorna__Lutri_v1.md`",
+"from-refinementblueprintscecily__bjorna__lutri_v1md"
+],
+[
+3,
+"From `refinement/approvals/Cecily__Bjorna__Lutri_Approved_2026-10-13.md`",
+"from-refinementapprovalscecily__bjorna__lutri_approved_2026-10-13md"
+],
+[
+3,
+"From `refinement/evidence/Cecily__Bjorna__Lutri_Approval_Gate_Dossier_2026-10-13.md`",
+"from-refinementevidencececily__bjorna__lutri_approval_gate_dossier_2026-10-13md"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "grixis",
+"commander": "Bjorna, Nightfall Alchemist",
+"color_identity": "UBR",
+"bracket_floor": "4",
+"game_changers": "10",
+"two_card_infinites": "2"
+},
+{
+"path": "grixis/decks/cormela-glamour-thief.md",
+"kind": "deck",
+"title": "Grixis Deck — Cormela, Glamour Thief",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-4",
+"game-changers",
+"two-card-infinite"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/blueprints/Cormela_Glamour_Thief_v1.md`",
+"from-refinementblueprintscormela_glamour_thief_v1md"
+],
+[
+3,
+"From `refinement/decisions/Cormela_Glamour_Thief_Candidate_Decisions_2026-10-13.csv` (candidate decision ledger)",
+"from-refinementdecisionscormela_glamour_thief_candidate_decisions_2026-10-13csv-candidate-decision-ledger"
+],
+[
+3,
+"From `refinement/evidence/Cormela_Glamour_Thief_Current_Cycle_Approval_Gate_2026-10-14.md`",
+"from-refinementevidencecormela_glamour_thief_current_cycle_approval_gate_2026-10-14md"
+],
+[
+3,
+"Further source evidence (linked, not copied)",
+"further-source-evidence-linked-not-copied"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "grixis",
+"commander": "Cormela, Glamour Thief",
+"color_identity": "UBR",
+"bracket_floor": "4",
+"game_changers": "20",
+"two_card_infinites": "2"
+},
+{
+"path": "grixis/decks/crosis-the-purger.md",
+"kind": "deck",
+"title": "Grixis Deck — Crosis, the Purger",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-4",
+"game-changers",
+"combos"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/blueprints/Crosis_the_Purger_v1.md`",
+"from-refinementblueprintscrosis_the_purger_v1md"
+],
+[
+3,
+"From `refinement/decisions/Crosis_the_Purger_Current_Cycle_Decisions_2026-10-14.md`",
+"from-refinementdecisionscrosis_the_purger_current_cycle_decisions_2026-10-14md"
+],
+[
+3,
+"Further source evidence (linked, not copied)",
+"further-source-evidence-linked-not-copied"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "grixis",
+"commander": "Crosis, the Purger",
+"color_identity": "UBR",
+"bracket_floor": "4",
+"game_changers": "14",
+"two_card_infinites": "0"
+},
+{
+"path": "grixis/decks/cult-of-skaro.md",
+"kind": "deck",
+"title": "Grixis Deck — Cult of Skaro",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-3",
+"game-changers",
+"two-card-infinite"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/blueprints/Cult_of_Skaro_v1.md`",
+"from-refinementblueprintscult_of_skaro_v1md"
+],
+[
+3,
+"From `refinement/decisions/Cult_of_Skaro_Current_Cycle_Decisions_2026-10-14.md`",
+"from-refinementdecisionscult_of_skaro_current_cycle_decisions_2026-10-14md"
+],
+[
+3,
+"Further source evidence (linked, not copied)",
+"further-source-evidence-linked-not-copied"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "grixis",
+"commander": "Cult of Skaro",
+"color_identity": "UBR",
+"bracket_floor": "3",
+"game_changers": "3",
+"two_card_infinites": "1"
+},
+{
+"path": "grixis/decks/davros-dalek-creator.md",
+"kind": "deck",
+"title": "Grixis Deck — Davros, Dalek Creator",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-4",
+"game-changers"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/blueprints/Davros_Dalek_Creator_v1.md`",
+"from-refinementblueprintsdavros_dalek_creator_v1md"
+],
+[
+3,
+"From `refinement/decisions/Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md`",
+"from-refinementdecisionsdavros_dalek_creator_current_cycle_decisions_2026-10-14md"
+],
+[
+3,
+"From `refinement/approvals/Davros_Dalek_Creator_Approved_2026-10-14.md`",
+"from-refinementapprovalsdavros_dalek_creator_approved_2026-10-14md"
+],
+[
+3,
+"Further source evidence (linked, not copied)",
+"further-source-evidence-linked-not-copied"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "grixis",
+"commander": "Davros, Dalek Creator",
+"color_identity": "UBR",
+"bracket_floor": "4",
+"game_changers": "5",
+"two_card_infinites": "0"
+},
+{
+"path": "grixis/decks/doctor-doom-king-of-latveria.md",
+"kind": "deck",
+"title": "Grixis Deck — Doctor Doom, King of Latveria",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-4",
+"game-changers",
+"combos"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/blueprints/Doctor_Doom_King_of_Latveria_Current_Cycle_Blueprint_2026-10-14.md`",
+"from-refinementblueprintsdoctor_doom_king_of_latveria_current_cycle_blueprint_2026-10-14md"
+],
+[
+3,
+"From `refinement/decisions/Doctor_Doom_King_of_Latveria_Current_Cycle_Decisions_2026-10-14.md`",
+"from-refinementdecisionsdoctor_doom_king_of_latveria_current_cycle_decisions_2026-10-14md"
+],
+[
+3,
+"From `refinement/approvals/Doctor_Doom_King_of_Latveria_Approved_2026-10-14.md`",
+"from-refinementapprovalsdoctor_doom_king_of_latveria_approved_2026-10-14md"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "grixis",
+"commander": "Doctor Doom, King of Latveria",
+"color_identity": "UBR",
+"bracket_floor": "4",
+"game_changers": "6",
+"two_card_infinites": "0"
+},
+{
+"path": "grixis/decks/don-andres-the-renegade.md",
+"kind": "deck",
+"title": "Grixis Deck — Don Andres, the Renegade",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-4",
+"game-changers"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/blueprints/Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md`",
+"from-refinementblueprintsdon_andres_the_renegade_current_cycle_blueprint_2026-10-14md"
+],
+[
+3,
+"From `refinement/decisions/Don_Andres_the_Renegade_Current_Cycle_Decisions_2026-10-14.md`",
+"from-refinementdecisionsdon_andres_the_renegade_current_cycle_decisions_2026-10-14md"
+],
+[
+3,
+"From `refinement/approvals/Don_Andres_the_Renegade_Approved_2026-10-14.md`",
+"from-refinementapprovalsdon_andres_the_renegade_approved_2026-10-14md"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "grixis",
+"commander": "Don Andres, the Renegade",
+"color_identity": "UBR",
+"bracket_floor": "4",
+"game_changers": "5",
+"two_card_infinites": "0"
+},
+{
+"path": "grixis/decks/dr-eggman.md",
+"kind": "deck",
+"title": "Grixis Deck — Dr. Eggman",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-3",
+"game-changers"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/blueprints/Dr_Eggman_Current_Cycle_Blueprint_2026-10-14.md`",
+"from-refinementblueprintsdr_eggman_current_cycle_blueprint_2026-10-14md"
+],
+[
+3,
+"From `refinement/approvals/Dr_Eggman_Approved_2026-10-14.md`",
+"from-refinementapprovalsdr_eggman_approved_2026-10-14md"
+],
+[
+3,
+"Further source evidence (linked, not copied)",
+"further-source-evidence-linked-not-copied"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "grixis",
+"commander": "Dr. Eggman",
+"color_identity": "UBR",
+"bracket_floor": "3",
+"game_changers": "3",
+"two_card_infinites": "0"
+},
+{
+"path": "grixis/decks/edea-possessed-sorceress.md",
+"kind": "deck",
+"title": "Grixis Deck — Edea, Possessed Sorceress",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-3",
+"game-changers"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/decisions/Edea_Possessed_Sorceress_Current_Cycle_Decisions_2026-10-14.md`",
+"from-refinementdecisionsedea_possessed_sorceress_current_cycle_decisions_2026-10-14md"
+],
+[
+3,
+"From `refinement/approvals/Edea_Possessed_Sorceress_Approved_2026-10-14.md`",
+"from-refinementapprovalsedea_possessed_sorceress_approved_2026-10-14md"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "grixis",
+"commander": "Edea, Possessed Sorceress",
+"color_identity": "UBR",
+"bracket_floor": "3",
+"game_changers": "3",
+"two_card_infinites": "0"
+},
+{
+"path": "grixis/decks/edward-kenway.md",
+"kind": "deck",
+"title": "Grixis Deck — Edward Kenway",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-4",
+"game-changers",
+"two-card-infinite"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/decisions/Edward_Kenway_Current_Cycle_Decisions_2026-10-14.md`",
+"from-refinementdecisionsedward_kenway_current_cycle_decisions_2026-10-14md"
+],
+[
+3,
+"From `refinement/approvals/Edward_Kenway_Approved_2026-10-14.md`",
+"from-refinementapprovalsedward_kenway_approved_2026-10-14md"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "grixis",
+"commander": "Edward Kenway",
+"color_identity": "UBR",
+"bracket_floor": "4",
+"game_changers": "10",
+"two_card_infinites": "5"
+},
+{
+"path": "grixis/decks/evelyn-the-covetous.md",
+"kind": "deck",
+"title": "Grixis Deck — Evelyn, the Covetous",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-4",
+"game-changers",
+"two-card-infinite"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/decisions/Evelyn_the_Covetous_Current_Cycle_Decisions_2026-10-14.md`",
+"from-refinementdecisionsevelyn_the_covetous_current_cycle_decisions_2026-10-14md"
+],
+[
+3,
+"From `refinement/approvals/Evelyn_the_Covetous_Approved_2026-10-14.md`",
+"from-refinementapprovalsevelyn_the_covetous_approved_2026-10-14md"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "grixis",
+"commander": "Evelyn, the Covetous",
+"color_identity": "UBR",
+"bracket_floor": "4",
+"game_changers": "19",
+"two_card_infinites": "3"
+},
+{
+"path": "grixis/decks/fire-lord-azula.md",
+"kind": "deck",
+"title": "Grixis Deck — Fire Lord Azula",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-4",
+"game-changers",
+"two-card-infinite"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/decisions/Fire_Lord_Azula_Current_Cycle_Decisions_2026-10-14.md`",
+"from-refinementdecisionsfire_lord_azula_current_cycle_decisions_2026-10-14md"
+],
+[
+3,
+"From `refinement/approvals/Fire_Lord_Azula_Approved_2026-10-14.md`",
+"from-refinementapprovalsfire_lord_azula_approved_2026-10-14md"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "grixis",
+"commander": "Fire Lord Azula",
+"color_identity": "UBR",
+"bracket_floor": "4",
+"game_changers": "20",
+"two_card_infinites": "1"
+},
+{
+"path": "grixis/decks/garza-zol-plague-queen.md",
+"kind": "deck",
+"title": "Grixis Deck — Garza Zol, Plague Queen",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-4",
+"game-changers",
+"two-card-infinite"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/blueprints/Garza_Zol_Plague_Queen_Current_Cycle_Blueprint_2026-10-14.md`",
+"from-refinementblueprintsgarza_zol_plague_queen_current_cycle_blueprint_2026-10-14md"
+],
+[
+3,
+"From `refinement/decisions/Garza_Zol_Plague_Queen_Current_Cycle_Decisions_2026-10-14.md`",
+"from-refinementdecisionsgarza_zol_plague_queen_current_cycle_decisions_2026-10-14md"
+],
+[
+3,
+"From `refinement/approvals/Garza_Zol_Plague_Queen_Approved_2026-10-14.md`",
+"from-refinementapprovalsgarza_zol_plague_queen_approved_2026-10-14md"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "grixis",
+"commander": "Garza Zol, Plague Queen",
+"color_identity": "UBR",
+"bracket_floor": "4",
+"game_changers": "9",
+"two_card_infinites": "2"
+},
+{
+"path": "grixis/decks/goro-goro-and-satoru.md",
+"kind": "deck",
+"title": "Grixis Deck — Goro-Goro and Satoru",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-4",
+"game-changers",
+"two-card-infinite"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/decisions/Goro_Goro_and_Satoru_Current_Cycle_Decisions_2026-10-14.md`",
+"from-refinementdecisionsgoro_goro_and_satoru_current_cycle_decisions_2026-10-14md"
+],
+[
+3,
+"From `refinement/approvals/Goro_Goro_and_Satoru_Approved_2026-10-14.md`",
+"from-refinementapprovalsgoro_goro_and_satoru_approved_2026-10-14md"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "grixis",
+"commander": "Goro-Goro and Satoru",
+"color_identity": "UBR",
+"bracket_floor": "4",
+"game_changers": "6",
+"two_card_infinites": "5"
+},
+{
+"path": "grixis/decks/grixistax-october-2026.md",
+"kind": "deck",
+"title": "Grixis Deck — Kraum, Ludevic's Opus + Tevesh Szat, Doom of Fools",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-4",
+"game-changers",
+"combos"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/decisions/Grixistax_October_2026_Current_Cycle_Decisions_2026-10-14.md`",
+"from-refinementdecisionsgrixistax_october_2026_current_cycle_decisions_2026-10-14md"
+],
+[
+3,
+"From `refinement/approvals/Grixistax_October_2026_Approved_2026-10-14.md`",
+"from-refinementapprovalsgrixistax_october_2026_approved_2026-10-14md"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "grixis",
+"commander": "Kraum, Ludevic's Opus",
+"color_identity": "UBR",
+"bracket_floor": "4",
+"game_changers": "22",
+"two_card_infinites": "0"
+},
+{
+"path": "grixis/decks/gwendlyn-di-corci.md",
+"kind": "deck",
+"title": "Grixis Deck — Gwendlyn Di Corci",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-4",
+"game-changers",
+"combos"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/decisions/Gwendlyn_Di_Corci_Current_Cycle_Decisions_2026-10-14.md`",
+"from-refinementdecisionsgwendlyn_di_corci_current_cycle_decisions_2026-10-14md"
+],
+[
+3,
+"From `refinement/approvals/Gwendlyn_Di_Corci_Approved_2026-10-14.md`",
+"from-refinementapprovalsgwendlyn_di_corci_approved_2026-10-14md"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "grixis",
+"commander": "Gwendlyn Di Corci",
+"color_identity": "UBR",
+"bracket_floor": "4",
+"game_changers": "17",
+"two_card_infinites": "0"
+},
+{
+"path": "grixis/decks/inalla-archmage-ritualist.md",
+"kind": "deck",
+"title": "Grixis Deck — Inalla, Archmage Ritualist",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-4",
+"game-changers",
+"combos"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/decisions/Inalla_Archmage_Ritualist_Current_Cycle_Decisions_2026-10-14.md`",
+"from-refinementdecisionsinalla_archmage_ritualist_current_cycle_decisions_2026-10-14md"
+],
+[
+3,
+"From `refinement/approvals/Inalla_Archmage_Ritualist_Approved_2026-10-14.md`",
+"from-refinementapprovalsinalla_archmage_ritualist_approved_2026-10-14md"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "grixis",
+"commander": "Inalla, Archmage Ritualist",
+"color_identity": "UBR",
+"bracket_floor": "4",
+"game_changers": "18",
+"two_card_infinites": "0"
+},
+{
+"path": "grixis/decks/jeleva-nephalias-scourge.md",
+"kind": "deck",
+"title": "Grixis Deck — Jeleva, Nephalia's Scourge",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-4",
+"game-changers",
+"combos"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/decisions/Jeleva_Nephalia_s_Scourge_Current_Cycle_Decisions_2026-10-14.md`",
+"from-refinementdecisionsjeleva_nephalia_s_scourge_current_cycle_decisions_2026-10-14md"
+],
+[
+3,
+"From `refinement/approvals/Jeleva_Nephalia_s_Scourge_Approved_2026-10-14.md`",
+"from-refinementapprovalsjeleva_nephalia_s_scourge_approved_2026-10-14md"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "grixis",
+"commander": "Jeleva, Nephalia's Scourge",
+"color_identity": "UBR",
+"bracket_floor": "4",
+"game_changers": "20",
+"two_card_infinites": "0"
+},
+{
+"path": "grixis/decks/kefka-court-mage.md",
+"kind": "deck",
+"title": "Grixis Deck — Kefka, Court Mage // Kefka, Ruler of Ruin",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-4",
+"game-changers",
+"combos"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/decisions/Kefka_Court_Mage_Current_Cycle_Decisions_2026-10-14.md`",
+"from-refinementdecisionskefka_court_mage_current_cycle_decisions_2026-10-14md"
+],
+[
+3,
+"From `refinement/approvals/Kefka_Court_Mage_Approved_2026-10-14.md`",
+"from-refinementapprovalskefka_court_mage_approved_2026-10-14md"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "grixis",
+"commander": "Kefka, Court Mage // Kefka, Ruler of Ruin",
+"color_identity": "UBR",
+"bracket_floor": "4",
+"game_changers": "20",
+"two_card_infinites": "0"
+},
+{
+"path": "grixis/decks/kess-dissident-mage.md",
+"kind": "deck",
+"title": "Grixis Deck — Kess, Dissident Mage",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-4",
+"game-changers",
+"two-card-infinite"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/decisions/Kess_Dissident_Mage_Baseline_SHA_Correction_2026-10-14.md`",
+"from-refinementdecisionskess_dissident_mage_baseline_sha_correction_2026-10-14md"
+],
+[
+3,
+"From `refinement/decisions/Kess_Dissident_Mage_Current_Cycle_Decisions_2026-10-14.md`",
+"from-refinementdecisionskess_dissident_mage_current_cycle_decisions_2026-10-14md"
+],
+[
+3,
+"From `refinement/approvals/Kess_Dissident_Mage_Approved_2026-10-14.md`",
+"from-refinementapprovalskess_dissident_mage_approved_2026-10-14md"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "grixis",
+"commander": "Kess, Dissident Mage",
+"color_identity": "UBR",
+"bracket_floor": "4",
+"game_changers": "21",
+"two_card_infinites": "1"
+},
+{
+"path": "grixis/decks/loki-the-deceiver.md",
+"kind": "deck",
+"title": "Grixis Deck — Loki, the Deceiver",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-4",
+"game-changers"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/decisions/Loki_the_Deceiver_Current_Cycle_Decisions_2026-10-14.md`",
+"from-refinementdecisionsloki_the_deceiver_current_cycle_decisions_2026-10-14md"
+],
+[
+3,
+"From `refinement/approvals/Loki_the_Deceiver_Approved_2026-10-14.md`",
+"from-refinementapprovalsloki_the_deceiver_approved_2026-10-14md"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "grixis",
+"commander": "Loki, the Deceiver",
+"color_identity": "UBR",
+"bracket_floor": "4",
+"game_changers": "5",
+"two_card_infinites": "0"
+},
+{
+"path": "grixis/decks/lord-of-tresserhorn.md",
+"kind": "deck",
+"title": "Grixis Deck — Lord of Tresserhorn",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-3",
+"game-changers",
+"two-card-infinite"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/decisions/Lord_of_Tresserhorn_Current_Cycle_Decisions_2026-10-14.md`",
+"from-refinementdecisionslord_of_tresserhorn_current_cycle_decisions_2026-10-14md"
+],
+[
+3,
+"From `refinement/approvals/Lord_of_Tresserhorn_Approved_2026-10-14.md`",
+"from-refinementapprovalslord_of_tresserhorn_approved_2026-10-14md"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "grixis",
+"commander": "Lord of Tresserhorn",
+"color_identity": "UBR",
+"bracket_floor": "3",
+"game_changers": "2",
+"two_card_infinites": "1"
+},
+{
+"path": "grixis/decks/lord-xander-the-collector.md",
+"kind": "deck",
+"title": "Grixis Deck — Lord Xander, the Collector",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-4",
+"game-changers",
+"two-card-infinite"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/decisions/Lord_Xander_the_Collector_Current_Cycle_Decisions_2026-10-14.md`",
+"from-refinementdecisionslord_xander_the_collector_current_cycle_decisions_2026-10-14md"
+],
+[
+3,
+"From `refinement/approvals/Lord_Xander_the_Collector_Approved_2026-10-14.md`",
+"from-refinementapprovalslord_xander_the_collector_approved_2026-10-14md"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "grixis",
+"commander": "Lord Xander, the Collector",
+"color_identity": "UBR",
+"bracket_floor": "4",
+"game_changers": "20",
+"two_card_infinites": "7"
+},
+{
+"path": "grixis/decks/lynde-cheerful-tormentor.md",
+"kind": "deck",
+"title": "Grixis Deck — Lynde, Cheerful Tormentor",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-4",
+"game-changers"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/decisions/Lynde_Cheerful_Tormentor_Current_Cycle_Decisions_2026-10-14.md`",
+"from-refinementdecisionslynde_cheerful_tormentor_current_cycle_decisions_2026-10-14md"
+],
+[
+3,
+"From `refinement/approvals/Lynde_Cheerful_Tormentor_Approved_2026-10-14.md`",
+"from-refinementapprovalslynde_cheerful_tormentor_approved_2026-10-14md"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "grixis",
+"commander": "Lynde, Cheerful Tormentor",
+"color_identity": "UBR",
+"bracket_floor": "4",
+"game_changers": "8",
+"two_card_infinites": "0"
+},
+{
+"path": "grixis/decks/mai-and-zuko.md",
+"kind": "deck",
+"title": "Grixis Deck — Mai and Zuko",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-4",
+"game-changers",
+"two-card-infinite"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/decisions/Mai_and_Zuko_Current_Cycle_Decisions_2026-10-14.md`",
+"from-refinementdecisionsmai_and_zuko_current_cycle_decisions_2026-10-14md"
+],
+[
+3,
+"From `refinement/approvals/Mai_and_Zuko_Approved_2026-10-14.md`",
+"from-refinementapprovalsmai_and_zuko_approved_2026-10-14md"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "grixis",
+"commander": "Mai and Zuko",
+"color_identity": "UBR",
+"bracket_floor": "4",
+"game_changers": "15",
+"two_card_infinites": "1"
+},
+{
+"path": "grixis/decks/mairsil-the-pretender.md",
+"kind": "deck",
+"title": "Grixis Deck — Mairsil, the Pretender",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-4",
+"game-changers",
+"combos"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/decisions/Mairsil_the_Pretender_Current_Cycle_Decisions_2026-10-14.md`",
+"from-refinementdecisionsmairsil_the_pretender_current_cycle_decisions_2026-10-14md"
+],
+[
+3,
+"From `refinement/approvals/Mairsil_the_Pretender_Approved_2026-10-14.md`",
+"from-refinementapprovalsmairsil_the_pretender_approved_2026-10-14md"
+],
+[
+3,
+"Further source evidence (linked, not copied)",
+"further-source-evidence-linked-not-copied"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "grixis",
+"commander": "Mairsil, the Pretender",
+"color_identity": "UBR",
+"bracket_floor": "4",
+"game_changers": "13",
+"two_card_infinites": "0"
+},
+{
+"path": "grixis/decks/marchesa-dealer-of-death.md",
+"kind": "deck",
+"title": "Grixis Deck — Marchesa, Dealer of Death",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-4",
+"game-changers",
+"two-card-infinite"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/decisions/Marchesa_Dealer_of_Death_Current_Cycle_Decisions_2026-10-15.md`",
+"from-refinementdecisionsmarchesa_dealer_of_death_current_cycle_decisions_2026-10-15md"
+],
+[
+3,
+"From `refinement/approvals/Marchesa_Dealer_of_Death_Approved_2026-10-15.md`",
+"from-refinementapprovalsmarchesa_dealer_of_death_approved_2026-10-15md"
+],
+[
+3,
+"Further source evidence (linked, not copied)",
+"further-source-evidence-linked-not-copied"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "grixis",
+"commander": "Marchesa, Dealer of Death",
+"color_identity": "UBR",
+"bracket_floor": "4",
+"game_changers": "18",
+"two_card_infinites": "1"
+},
+{
+"path": "grixis/decks/marchesa-the-black-rose.md",
+"kind": "deck",
+"title": "Grixis Deck — Marchesa, the Black Rose",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-4",
+"game-changers",
+"two-card-infinite"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/decisions/Marchesa_the_Black_Rose_Current_Cycle_Decisions_2026-10-15.md`",
+"from-refinementdecisionsmarchesa_the_black_rose_current_cycle_decisions_2026-10-15md"
+],
+[
+3,
+"From `refinement/approvals/Marchesa_the_Black_Rose_Approved_2026-10-15.md`",
+"from-refinementapprovalsmarchesa_the_black_rose_approved_2026-10-15md"
+],
+[
+3,
+"Further source evidence (linked, not copied)",
+"further-source-evidence-linked-not-copied"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "grixis",
+"commander": "Marchesa, the Black Rose",
+"color_identity": "UBR",
+"bracket_floor": "4",
+"game_changers": "5",
+"two_card_infinites": "38"
+},
+{
+"path": "grixis/decks/mishra-artificer-prodigy.md",
+"kind": "deck",
+"title": "Grixis Deck — Mishra, Artificer Prodigy",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-4",
+"game-changers",
+"two-card-infinite"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/decisions/Mishra_Artificer_Prodigy_Current_Cycle_Decisions_2026-10-15.md`",
+"from-refinementdecisionsmishra_artificer_prodigy_current_cycle_decisions_2026-10-15md"
+],
+[
+3,
+"From `refinement/approvals/Mishra_Artificer_Prodigy_Approved_2026-10-15.md`",
+"from-refinementapprovalsmishra_artificer_prodigy_approved_2026-10-15md"
+],
+[
+3,
+"Further source evidence (linked, not copied)",
+"further-source-evidence-linked-not-copied"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "grixis",
+"commander": "Mishra, Artificer Prodigy",
+"color_identity": "UBR",
+"bracket_floor": "4",
+"game_changers": "15",
+"two_card_infinites": "1"
+},
+{
+"path": "grixis/decks/mishra-eminent-one.md",
+"kind": "deck",
+"title": "Grixis Deck — Mishra, Eminent One",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-4",
+"game-changers",
+"two-card-infinite"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/decisions/Mishra_Eminent_One_Current_Cycle_Decisions_2026-10-15.md`",
+"from-refinementdecisionsmishra_eminent_one_current_cycle_decisions_2026-10-15md"
+],
+[
+3,
+"From `refinement/approvals/Mishra_Eminent_One_Approved_2026-10-15.md`",
+"from-refinementapprovalsmishra_eminent_one_approved_2026-10-15md"
+],
+[
+3,
+"Further source evidence (linked, not copied)",
+"further-source-evidence-linked-not-copied"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "grixis",
+"commander": "Mishra, Eminent One",
+"color_identity": "UBR",
+"bracket_floor": "4",
+"game_changers": "14",
+"two_card_infinites": "1"
+},
+{
+"path": "grixis/decks/missy.md",
+"kind": "deck",
+"title": "Grixis Deck — Missy",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-4",
+"game-changers",
+"combos"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/blueprints/Missy_Commander_Blueprint_2026-10-15.md`",
+"from-refinementblueprintsmissy_commander_blueprint_2026-10-15md"
+],
+[
+3,
+"From `refinement/decisions/Missy_Candidate_Decisions_2026-10-15.md`",
+"from-refinementdecisionsmissy_candidate_decisions_2026-10-15md"
+],
+[
+3,
+"From `refinement/approvals/Missy_Approved_2026-10-15.md`",
+"from-refinementapprovalsmissy_approved_2026-10-15md"
+],
+[
+3,
+"Further source evidence (linked, not copied)",
+"further-source-evidence-linked-not-copied"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "grixis",
+"commander": "Missy",
+"color_identity": "UBR",
+"bracket_floor": "4",
+"game_changers": "7",
+"two_card_infinites": "0"
+},
+{
+"path": "grixis/decks/nathan-drake-treasure-hunter.md",
+"kind": "deck",
+"title": "Grixis Deck — Nathan Drake, Treasure Hunter",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-4",
+"game-changers"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/blueprints/Nathan_Drake_Treasure_Hunter_v1.md`",
+"from-refinementblueprintsnathan_drake_treasure_hunter_v1md"
+],
+[
+3,
+"From `refinement/decisions/Nathan_Drake_Treasure_Hunter_Candidate_Decisions_2026-10-15.md`",
+"from-refinementdecisionsnathan_drake_treasure_hunter_candidate_decisions_2026-10-15md"
+],
+[
+3,
+"From `refinement/approvals/Nathan_Drake_Treasure_Hunter_Approved_2026-10-15.md`",
+"from-refinementapprovalsnathan_drake_treasure_hunter_approved_2026-10-15md"
+],
+[
+3,
+"Further source evidence (linked, not copied)",
+"further-source-evidence-linked-not-copied"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "grixis",
+"commander": "Nathan Drake, Treasure Hunter",
+"color_identity": "UBR",
+"bracket_floor": "4",
+"game_changers": "9",
+"two_card_infinites": "0"
+},
+{
+"path": "grixis/decks/nekusar-the-mindrazer.md",
+"kind": "deck",
+"title": "Grixis Deck — Nekusar, the Mindrazer",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-4",
+"game-changers",
+"two-card-infinite"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/blueprints/Nekusar_the_Mindrazer_Commander_Blueprint_2026-10-15.md`",
+"from-refinementblueprintsnekusar_the_mindrazer_commander_blueprint_2026-10-15md"
+],
+[
+3,
+"From `refinement/decisions/Nekusar_the_Mindrazer_Candidate_Decisions_2026-10-15.md`",
+"from-refinementdecisionsnekusar_the_mindrazer_candidate_decisions_2026-10-15md"
+],
+[
+3,
+"From `refinement/approvals/Nekusar_the_Mindrazer_Approved_2026-10-15.md`",
+"from-refinementapprovalsnekusar_the_mindrazer_approved_2026-10-15md"
+],
+[
+3,
+"Further source evidence (linked, not copied)",
+"further-source-evidence-linked-not-copied"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+]
+],
+"deck_kind": "grixis",
+"commander": "Nekusar, the Mindrazer",
+"color_identity": "UBR",
+"bracket_floor": "4",
+"game_changers": "15",
+"two_card_infinites": "5"
+}
+]
+}
