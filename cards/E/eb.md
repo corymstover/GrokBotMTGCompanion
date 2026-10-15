@@ -46,7 +46,11 @@
   > You may cast this card from your graveyard if a creature not named Ebondeath, Dracolich died this turn.
 - **Keywords:** Flying, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6915 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/100/ebondeath-dracolich) · oracle_id `1a6fce11-e77c-41f1-9ff7-9a93b18071db` · printing: AFR #100 (2021-07-23) · [rulings](https://api.scryfall.com/cards/e6b3f460-92ba-4af0-aad9-cf86615d4177/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-07-23* — Casting Ebondeath, Dracolich from your graveyard follows the normal rules for casting that card. You must pay its costs, and you must follow all applicable timing rules.
+  - *2021-07-23* — Ebondeath Dracolich cares what the creature's name was while it was last on the battlefield, not what it is in the graveyard. For example, if a creature with a different name becomes a copy of Ebondeath, Dracolich and then dies, you won't be able to cast Ebondeath, Dracolich from your graveyard.
+  - *2021-07-23* — Ebondeath, Dracolich's last ability cares only whether a creature not named Ebondeath, Dracolich died during the turn, even if Ebondeath, Dracolich wasn't in your graveyard when that happened. It doesn't matter if a creature named Ebondeath, Dracolich also died, and it doesn't matter what happens to the creature after it dies. For example, if the creature that died is a token or the creature card leaves the graveyard later in the turn, you can still cast Ebondeath, Dracolich.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/100/ebondeath-dracolich) · oracle_id `1a6fce11-e77c-41f1-9ff7-9a93b18071db` · printing: AFR #100 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ebon Dragon
 
@@ -120,7 +124,19 @@
   > {4}: Roll a d6. Until end of turn, you may have this artifact become an X/X Insect artifact creature with flying, where X is the result.
   > Whenever this artifact attacks, another target attacking creature gains flying until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8187 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afc/60/ebony-fly) · oracle_id `2a2f2d6c-3937-4e4b-9e4a-3480e0c787d0` · printing: AFC #60 (2021-07-23) · [rulings](https://api.scryfall.com/cards/7f11245d-9e80-42b0-b371-21e990a2e6ef/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2021-07-23* — An ability that tells you to roll a die will also specify what to do with the result of that roll. Most often, this is in the form of a “results table” in the card text.
+  - *2021-07-23* — An effect that says “choose a target, then roll a d20” or similar still uses the normal process of putting an ability on the stack and resolving it. Choosing targets is part of putting the ability on the stack and rolling the d20 happens later, as the ability resolves.
+  - *2021-07-23* — Dice are identified by the number of faces each one has. For example, a d20 is a twenty-sided die.
+  - *2021-07-23* — Dice used must have equally likely outcomes and the roll must be fair. Although physical dice are recommended, digital substitutes are allowed, provided they have the same number of equally likely outcomes as specified in the original roll instruction.
+  - *2021-07-23* — Some abilities, like that of Pixie Guide and Barbarian Class, replace rolling a die with rolling extra dice and ignoring the lowest roll. The ignored rolls are not considered for the effect that instructed you to roll a die, and do not cause abilities to trigger. For all intents and purposes, once you determine which dice count, any extra dice were never rolled.
+  - *2021-07-23* — Some effects instruct you to roll again. This uses the same number and type of dice as the original roll, and that roll will use the same set of possible outcomes.
+  - *2021-07-23* — Some effects may modify the result of a die roll. This may be part of the instruction to roll a die or it may come from other cards. Anything that references the “result” of a die roll is looking for the result after these modifications. Anything that is looking for the “natural result” is looking for the number shown on the face of the die before these modifications.
+  - *2021-07-23* — The instruction to roll a die and the effect that occurs because of the result are all part of the same ability. Players do not get the chance to respond to the ability after knowing the result of the roll.
+  - *2021-07-23* — Tournament events have more specific rules regarding dice and die-rolling. For more information, please see the most recent version of the Magic Tournament Rules at https://wpn.wizards.com/en/document/magic-gathering-tournament-rules.
+  - *2021-07-23* — While playing Planechase, rolling the planar die will cause any ability that triggers whenever a player rolls one or more dice to trigger. However, any effect that refers to a numerical result will ignore the rolling of the planar die.
+  - *2021-07-23* — You choose whether Ebony Fly becomes a creature as the second ability resolves, after you see the result of the die roll. If you don't choose to make it a creature at that time, you can't choose to make it a creature later in the turn unless you activate the ability again.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afc/60/ebony-fly) · oracle_id `2a2f2d6c-3937-4e4b-9e4a-3480e0c787d0` · printing: AFC #60 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ebony Horse
 

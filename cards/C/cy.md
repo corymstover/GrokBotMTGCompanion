@@ -70,7 +70,13 @@
 - **Flavor text** (WHO printing):
   > *"Do not fear. We will take your fear from you. You will be like us."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4973 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/38/cyber-conversion) · oracle_id `33761c1a-9848-45bf-b934-123cebab566b` · printing: WHO #38 (2023-10-13) · [rulings](https://api.scryfall.com/cards/e4ce5aa7-70cb-4ab2-9a25-4363aa2b370f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-10-13* — Double-faced permanents that are already on the battlefield can't be turned face down this way. However, a double-faced card can be put onto the battlefield face down from another zone this way.
+  - *2023-10-13* — Each creature turned face down this way or put onto the battlefield this way is a 2/2 Cyberman artifact creature with no name and no color.
+  - *2023-10-13* — If the face-down card has a morph ability, its controller may turn it face up by paying the associated morph cost.
+  - *2023-10-13* — If, for any reason, the face-down creature is turned face up, the effect making it a Cyberman ends. It will be whatever is printed on the card.
+  - *2023-10-13* — The player who controls a face-down permanent may look at it at any time. Notably, if the cards were put on the battlefield face down from another player's library, the player that owns them does not get to look at those cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/38/cyber-conversion) · oracle_id `33761c1a-9848-45bf-b934-123cebab566b` · printing: WHO #38 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cyberdrive Awakener
 
@@ -83,6 +89,7 @@
   > When this creature enters, each noncreature artifact you control becomes a 4/4 artifact creature until end of turn.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #970 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/69/cyberdrive-awakener) · oracle_id `126a5d0b-e7d6-458e-87af-47d845678014` · printing: EOC #69 (2025-08-01) · [rulings](https://api.scryfall.com/cards/19bf6b74-b236-42eb-8c88-d715cece6357/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cyberman Patrol
@@ -95,6 +102,7 @@
 - **Flavor text** (WHO printing):
   > *"Obey or you will be destroyed."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2807 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/174/cyberman-patrol) · oracle_id `1e51fab7-3ca5-4fbb-a1e9-b39c842895e8` · printing: WHO #174 (2023-10-13) · [rulings](https://api.scryfall.com/cards/566ae475-48cd-42d0-8d96-168529b2180d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cybermat
@@ -117,7 +125,18 @@
 - **Oracle text:**
   > Nonlegendary artifact creatures you control have myriad. (Whenever a creature with myriad attacks, for each opponent other than defending player, you may create a token copy that's tapped and attacking that player or a planeswalker they control. Exile the tokens at end of combat.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2073 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/176/cybermen-squadron) · oracle_id `8d035688-089f-4d5c-bcad-9140a6c1681b` · printing: WHO #176 (2023-10-13) · [rulings](https://api.scryfall.com/cards/7ce660ef-0c6f-413d-8ddd-b755a19ab731/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2023-10-13* — Although the tokens enter the battlefield attacking, they were never declared as attackers. Abilities that trigger whenever a creature attacks won't trigger, including the myriad ability of the tokens. If there any costs to have a creature attack, those costs won't apply to the tokens.
+  - *2023-10-13* — Any enters-the-battlefield abilities of the copied creature will trigger when the token enters the battlefield. Any "as [this permanent] enters the battlefield" or "[this permanent] enters the battlefield with" abilities of the copied creature will also work.
+  - *2023-10-13* — Cybermen Squadron will itself have myriad as long as it remains a nonlegendary artifact creature.
+  - *2023-10-13* — Each token copies exactly what was printed on the original creature and nothing else. It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+  - *2023-10-13* — If myriad creates more than one token for any given player (due to an effect such as the one Doubling Season creates), you may choose separately for each token whether it's attacking the player or a planeswalker they control.
+  - *2023-10-13* — If the defending player is your only opponent, no tokens are put onto the battlefield.
+  - *2023-10-13* — Multiple instances of myriad trigger separately.
+  - *2023-10-13* — The term "defending player" in the myriad rules (or any other ability of an attacking creature) refers to the player the creature with myriad was attacking at the time it became an attacking creature this combat, or the controller of the planeswalker or the protector of the battle the creature was attacking at the time it became an attacking creature this combat.
+  - *2023-10-13* — The token creatures all enter the battlefield at the same time.
+  - *2023-10-13* — You choose whether each token is attacking the player or a planeswalker they control as the token is created.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/176/cybermen-squadron) · oracle_id `8d035688-089f-4d5c-bcad-9140a6c1681b` · printing: WHO #176 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cybernetica Datasmith
 
@@ -158,7 +177,13 @@
   > Crew 4
 - **Keywords:** Flying, Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5872 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/177/cybership) · oracle_id `9c6ac895-0644-47ea-8a40-8f35cbbeba42` · printing: WHO #177 (2023-10-13) · [rulings](https://api.scryfall.com/cards/b0b9d006-7179-4d59-88ef-34b4d4b2e2fc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-10-13* — Double-faced permanents that are already on the battlefield can't be turned face down this way. However, a double-faced card can be put onto the battlefield face down from another zone this way.
+  - *2023-10-13* — Each creature turned face down this way or put onto the battlefield this way is a 2/2 Cyberman artifact creature with no name and no color.
+  - *2023-10-13* — If the face-down card has a morph ability, its controller may turn it face up by paying the associated morph cost.
+  - *2023-10-13* — If, for any reason, the face-down creature is turned face up, the effect making it a Cyberman ends. It will be whatever is printed on the card.
+  - *2023-10-13* — The player who controls a face-down permanent may look at it at any time. Notably, if the cards were put on the battlefield face down from another player's library, the player that owns them does not get to look at those cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/177/cybership) · oracle_id `9c6ac895-0644-47ea-8a40-8f35cbbeba42` · printing: WHO #177 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cycle of Life
 
@@ -181,6 +206,7 @@
   > *"These acorns are everywhere, Aang. That means the forest will grow back."*
   > *—Katara*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1901 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/170/cycle-of-renewal) · oracle_id `77eda626-5cef-496d-b291-cfa1ee6fc1fb` · printing: TLA #170 (2025-11-21) · [rulings](https://api.scryfall.com/cards/233f4a05-057b-48f4-8f56-8d4a060a40e4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cyclical Evolution
@@ -227,6 +253,7 @@
 - **Flavor text** (KHM printing):
   > *Frost giants study for centuries in isolation, honing their ability to harness elemental mayhem.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7318 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/52/cyclone-summoner) · oracle_id `2088e791-9ce5-4e97-a4ce-f51adaa3f42b` · printing: KHM #52 (2021-02-05) · [rulings](https://api.scryfall.com/cards/b2d40071-cadf-48de-a8ed-d55adbfab632/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cyclonic Rift
@@ -442,7 +469,13 @@
   > *"Thanks, but no thanks. I'm done with hope."*
 - **Keywords:** Survival
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8877 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/89/cynical-loner) · oracle_id `9d5ff568-1c55-4757-94d0-5743ca674bab` · printing: DSK #89 (2024-09-27) · [rulings](https://api.scryfall.com/cards/cc93bcb8-778d-491e-877b-e6ad432764cb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-09-20* — If a creature with a survival ability isn't tapped when your second main phase begins, the ability won't trigger at all. You won't be able to tap it during your second main phase in time to have that ability trigger.
+  - *2024-09-20* — If a creature's survival ability triggers but that creature is untapped when the ability begins to resolve, that ability won't do anything.
+  - *2024-09-20* — If a creature's survival ability triggers but the creature leaves the battlefield before the ability resolves, use its tapped or untapped status as it last existed on the battlefield to determine whether or not the ability will do anything.
+  - *2024-09-20* — Once Cynical Loner has been blocked by a creature, giving that creature the Glimmer creature type won't cause Cynical Loner to become unblocked.
+  - *2024-09-20* — Survival abilities (and other abilities that trigger at the beginning of your second main phase) will trigger at the beginning of the second main phase you take in a turn. They won't trigger during your third, fourth, or other additional main phases in a single turn, if effects somehow cause you to have more than two main phases.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/89/cynical-loner) · oracle_id `9d5ff568-1c55-4757-94d0-5743ca674bab` · printing: DSK #89 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cystbearer
 

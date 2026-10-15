@@ -74,6 +74,7 @@
   > *"Kefnet may be gone, but the thirst for wisdom never dies."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5140 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/drc/10/rhet-tomb-mystic) · oracle_id `e445825a-e70e-4796-99be-4a7c4080b8cc` · printing: DRC #10 (2025-02-14) · [rulings](https://api.scryfall.com/cards/131a68e6-09ee-4afd-a0e1-d63bbc0775e8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rhino-
@@ -175,7 +176,13 @@
   > Green creature spells you cast cost {1} less to cast.
   > Whenever you cast a creature spell, target creature you control gets +2/+2 and gains trample until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2130 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/gnt/56/rhonass-monument) · oracle_id `b9a7c722-6b24-4383-ac6e-2a30f7834269` · printing: GNT #56 (2018-11-16) · [rulings](https://api.scryfall.com/cards/7d24b200-5cab-406a-a0e6-71a4d33b26fb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2017-04-18* — A creature spell that's multiple colors is each of those colors. For example, Ahn-Crop Champion is a white creature and a green creature, so it can benefit from either Oketra's Monument or Rhonas's Monument—or both at once.
+  - *2017-04-18* — Each Monument has one ability that reduces the cost of creature spells of a certain color, and a triggered ability that triggers whenever you cast any creature spell—not just a creature spell of that color.
+  - *2017-04-18* — Each Monument's triggered ability triggers as the creature spell is cast and resolves before that creature spell resolves. The ability will resolve even if that creature spell is countered.
+  - *2017-04-18* — The triggered ability of Rhonas's Monument can't target the creature spell that caused it to trigger.
+  - *2017-04-18* — To determine the total cost of a creature spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the creature remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/gnt/56/rhonass-monument) · oracle_id `b9a7c722-6b24-4383-ac6e-2a30f7834269` · printing: GNT #56 (2018-11-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rhonas's Stalwart
 
@@ -201,7 +208,10 @@
   > {2}{G}: Another target creature gets +2/+0 and gains trample until end of turn.
 - **Keywords:** Indestructible, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5023 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/akh/182/rhonas-the-indomitable) · oracle_id `5d2acd3e-4782-42e3-bcd5-80f8b439cc28` · printing: AKH #182 (2017-04-28) · [rulings](https://api.scryfall.com/cards/50f23c47-278c-4188-8fb4-ae20a0c423c5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-04-18* — Once Rhonas has attacked or blocked, it will remain in combat even if you no longer control another creature with power 4 or greater.
+  - *2017-04-18* — You don't have to attack with another creature with power 4 or greater for Rhonas to be able to attack. The same is true of blocking.
+- **Source flags:** [Scryfall](https://scryfall.com/card/akh/182/rhonas-the-indomitable) · oracle_id `5d2acd3e-4782-42e3-bcd5-80f8b439cc28` · printing: AKH #182 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rhovanion Rampager
 
@@ -280,7 +290,11 @@
   > *Rhoxes who live long enough to retire from war lend support with their extensive knowledge of combat injuries.*
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1572 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/128/rhox-faithmender) · oracle_id `2abe9303-d498-4aad-b6b2-8b5064bd2ffd` · printing: TDC #128 (2025-04-11) · [rulings](https://api.scryfall.com/cards/c79a8938-aae6-42ff-888c-2783e11a8d4f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2012-07-01* — If an effect sets your life total to a specific number, and that number is higher than your current life total, the effect will cause you to gain life equal to the difference. Rhox Faithmender will then double that number. For example, if you have 3 life and an effect says that your life total "becomes 10," your life total will actually become 17.
+  - *2012-07-01* — If you control two Rhox Faithmenders, life you gain will be multiplied by four. Three Rhox Faithmenders will multiply any life gain by eight, and so on.
+  - *2012-07-01* — In a Two-Headed Giant game, only Rhox Faithmender's controller is affected by it. If that player's teammate gains life, Rhox Faithmender will have no effect, even when that life gain is applied to the shared team life total.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/128/rhox-faithmender) · oracle_id `2abe9303-d498-4aad-b6b2-8b5064bd2ffd` · printing: TDC #128 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rhox Maulers
 
@@ -411,7 +425,9 @@
   > *Once a famed hunter and packmaster, now a renegade seeking his own path.*
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8782 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/khc/73/rhys-the-exiled) · oracle_id `7613c50b-4568-4340-b64a-ab427aaffd51` · printing: KHC #73 (2021-02-05) · [rulings](https://api.scryfall.com/cards/85004079-f9fa-4a05-904d-a77782c4165c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-04-01* — You may sacrifice Rhys the Exiled to pay for its own regeneration ability. However, since Rhys is no longer on the battlefield, the ability will have no effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khc/73/rhys-the-exiled) · oracle_id `7613c50b-4568-4340-b64a-ab427aaffd51` · printing: KHC #73 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rhys the Redeemed
 
@@ -424,6 +440,7 @@
 - **Flavor text** (2XM printing):
   > *Whole again in honor and horn.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3378 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/213/rhys-the-redeemed) · oracle_id `f7252190-ad24-4ba3-a644-2790dd1d680d` · printing: 2XM #213 (2020-08-07) · [rulings](https://api.scryfall.com/cards/b91dadcb-31e9-43b0-b425-c9311af3e9d7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rhystic Cave

@@ -13,6 +13,7 @@
 | # | Summary | Files affected | Reason |
 |---|---|---|---|
 | 2.1 | Bot cycle: rulings support — Scryfall `rulings` bulk joined by oracle_id, rendered inside card entries, resumable via `rulings` CSV column + `data/ingest_state.json` → `rulings`; verifier checks every ruling verbatim. Rulings batch R1: first 1,000 cards in priority/EDHREC order (2,604 rulings on 686 cards). | `scripts/ingest_scryfall.py`, `scripts/verify_cards.py`, `cards/**`, `data/*`, `Card Index.md`, `README.md`, `Progress Tracker.md` | Issue #10. |
+| 2.2 | Bot cycle: rulings batch R2: +9,000 cards → 10,000 processed (32,675 rulings on 7,385 cards). | `cards/**`, `data/*`, `Card Index.md`, `README.md`, `Progress Tracker.md` | Issue #10. |
 
 ## 2026-10-15 — Bot cycle 1 (repository bootstrap)
 

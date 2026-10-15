@@ -93,7 +93,16 @@
   > Enchanted creature gets +1/+1 and has afterlife 1.
 - **Keywords:** Afterlife, Bestow
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8691 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/31/indebted-spirit) · oracle_id `c4c0a622-7325-4024-8b2e-6335f9a729e9` · printing: MH3 #31 (2024-06-14) · [rulings](https://api.scryfall.com/cards/bfdbef00-bc1b-4dd6-aef5-aeb5ce454344/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2024-06-07* — Auras attached to a creature don't become tapped when the creature becomes tapped. Except in some rare cases, an Aura with bestow remains untapped when it becomes unattached and becomes a creature.
+  - *2024-06-07* — Because blockers are chosen all at once, you can't block with a creature with afterlife, wait for it to die, then block with the resulting Spirit tokens.
+  - *2024-06-07* — If Indebted Spirit is put into a graveyard from the battlefield while it's an Aura, its afterlife ability will still trigger.
+  - *2024-06-07* — If a bestowed Indebted Spirit and the creature it's attached to are put into a graveyard from the battlefield at the same time, each of their afterlife abilities will trigger.
+  - *2024-06-07* — If a permanent with bestow enters the battlefield by any method other than being cast, it will be an enchantment creature. You can't choose to pay the bestow cost and have it become an Aura.
+  - *2024-06-07* — On the stack, a spell with bestow is either a creature spell or an Aura spell. It's never both, although it's an enchantment spell in either case.
+  - *2024-06-07* — Unlike other Aura spells, an Aura spell with bestow isn't countered if its target is illegal as it begins to resolve. Rather, the effect making it an Aura spell ends, it loses enchant creature, it returns to being an enchantment creature spell, and it resolves and enters the battlefield as an enchantment creature.
+  - *2024-06-07* — Unlike other Auras, an Aura with bestow isn't put into its owner's graveyard if it becomes unattached. Rather, the effect making it an Aura ends, it loses enchant creature, and it remains on the battlefield as an enchantment creature. It can attack (and its {T} abilities can be activated, if it has any) on the turn it becomes unattached if it's been under your control continuously, even as an Aura, since your most recent turn began.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/31/indebted-spirit) · oracle_id `c4c0a622-7325-4024-8b2e-6335f9a729e9` · printing: MH3 #31 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Indentured Djinn
 
@@ -144,7 +153,11 @@
   > *"By all means, keep trying."*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7927 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m14/23/indestructibility) · oracle_id `9aaa0a28-e342-48bd-8f59-0cd289491f98` · printing: M14 #23 (2013-07-19) · [rulings](https://api.scryfall.com/cards/e086a062-d39b-4e2a-bde0-f4d6d1797a5f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2009-10-01* — If an effect would simultaneously destroy Indestructibility and the creature it’s enchanting, only Indestructibility is destroyed.
+  - *2013-07-01* — If a creature enchanted by Indestructibility is dealt lethal damage, the creature isn’t destroyed, but the damage remains marked on the creature. If Indestructibility stops enchanting that creature later in the turn, the creature will no longer have indestructible and will be destroyed.
+  - *2013-07-01* — Lethal damage, damage from a source with deathtouch, and effects that say “destroy” won’t cause a permanent with indestructible to be put into the graveyard. However, a permanent with indestructible can be put into the graveyard for a number of reasons. The most likely reasons are if it’s sacrificed, if it’s legendary and another legendary permanent with the same name is controlled by the same player, if it’s a planeswalker and another planeswalker with the same subtype is controlled by the same player, if it’s a creature with toughness 0 or less, or if it’s an Aura that’s either unattached or attached to something illegal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m14/23/indestructibility) · oracle_id `9aaa0a28-e342-48bd-8f59-0cd289491f98` · printing: M14 #23 (2013-07-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Indestructible Aura
 
@@ -228,6 +241,7 @@
   > *"Odum and Broadbark were the only beings mighty enough to challenge the giant Moran the Destroyer. Their battle lasted a hundred dawns, until Moran became so exhausted that he fell into namesleep. He awoke as Moran the Gardener."*
   > *—\*The Tale of Odum and Broadbark\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4426 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/121/indomitable-ancients) · oracle_id `2764741c-1f3e-459a-a487-54cbac2c84a6` · printing: TDC #121 (2025-04-11) · [rulings](https://api.scryfall.com/cards/a4e20d78-8c01-40ed-bc69-89d4d5028552/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Indomitable Archangel
@@ -243,6 +257,7 @@
   > *—Auriok proverb*
 - **Keywords:** Flying, Metalcraft
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7176 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/nec/85/indomitable-archangel) · oracle_id `0f9269eb-6a6c-4b32-8b3d-73724c12ca6b` · printing: NEC #85 (2022-02-18) · [rulings](https://api.scryfall.com/cards/23f4b149-fad5-4ba2-a484-dd29d97d120d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Indomitable Creativity
@@ -265,7 +280,10 @@
   > Enchanted creature's controller may have it assign its combat damage as though it weren't blocked.
 - **Keywords:** Enchant, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4724 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afc/40/indomitable-might) · oracle_id `069c3c87-81a8-4d2a-ad2f-8d3243d0e3db` · printing: AFC #40 (2021-07-23) · [rulings](https://api.scryfall.com/cards/063b156b-7e05-4b49-a40a-54d713004ebf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-07-23* — Assigning the creature's damage as though it weren't blocked is all or nothing. You can't use this effect to assign some of the creature's damage to a blocking creature and the rest to the defending player or planeswalker.
+  - *2021-07-23* — Even if it assigns damage as though it were not blocked, it will still receive damage from creatures that are blocking it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afc/40/indomitable-might) · oracle_id `069c3c87-81a8-4d2a-ad2f-8d3243d0e3db` · printing: AFC #40 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Indomitable Will
 
@@ -293,7 +311,11 @@
   > Enrage — Whenever Indoraptor is dealt damage, choose an opponent at random. Indoraptor deals damage equal to its power to that player unless they sacrifice a nontoken creature of their choice.
 - **Keywords:** Enrage, Bloodthirst, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8880 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/rex/15/indoraptor-the-perfect-hybrid) · oracle_id `0dd4bc7b-2ddf-4ca4-912c-59685c41c3b5` · printing: REX #15 (2023-11-17) · [rulings](https://api.scryfall.com/cards/3826e2af-c134-4dc1-98b5-574b1bda9a98/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-11-10* — If lethal damage is dealt to Indoraptor, its enrage ability triggers. Use Indoraptor's power from when it was last on the battlefield to determine how much damage it deals to the chosen player if they don't sacrifice a nontoken creature.
+  - *2023-11-10* — If multiple sources deal damage to a creature with an enrage ability at the same time, most likely because multiple creatures blocked that creature, the enrage ability triggers only once.
+  - *2023-11-10* — Indoraptor, the Perfect Hybrid's bloodthirst ability counts all damage dealt to your opponents this turn, not just damage dealt by sources you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rex/15/indoraptor-the-perfect-hybrid) · oracle_id `0dd4bc7b-2ddf-4ca4-912c-59685c41c3b5` · printing: REX #15 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Indrik Stomphowler
 
@@ -376,7 +398,9 @@
   > *"If you're not surrounded by decadence, my question to you is—why not?"*
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2575 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/118/indulgent-aristocrat) · oracle_id `c7054a2d-2e7b-4487-8fc3-f6a47a716fd3` · printing: INR #118 (2025-01-24) · [rulings](https://api.scryfall.com/cards/07015524-874f-4856-a5c1-3148bd126886/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-04-08* — You can sacrifice Indulgent Aristocrat to pay the cost of its own activated ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/118/indulgent-aristocrat) · oracle_id `c7054a2d-2e7b-4487-8fc3-f6a47a716fd3` · printing: INR #118 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Indulgent Tormentor
 
@@ -390,7 +414,10 @@
   > *The promise of anguish is payment enough for services rendered.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4003 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ima/94/indulgent-tormentor) · oracle_id `8b202c63-c961-4590-958f-d17e76610ab5` · printing: IMA #94 (2017-11-17) · [rulings](https://api.scryfall.com/cards/af042ca9-c57d-4477-965e-182fc557ca6b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-11-17* — If there are no legal targets to choose, perhaps because all your opponents have hexproof, the ability is removed from the stack with no effect. You won’t draw a card. This is also true if the target opponent becomes an illegal target in response to the ability.
+  - *2017-11-17* — The opponent chooses whether they sacrifice a creature, pays 3 life, or allows you to draw a card. That player can’t make an impossible choice, such as sacrificing a creature while they control no creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ima/94/indulgent-tormentor) · oracle_id `8b202c63-c961-4590-958f-d17e76610ab5` · printing: IMA #94 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Indulging Patrician
 
@@ -405,7 +432,12 @@
   > *"Just a nibble for now. I wouldn't want to ruin my appetite."*
 - **Keywords:** Flying, Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4296 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/292/indulging-patrician) · oracle_id `189131b7-ed59-4750-a4ed-453e4497a5c8` · printing: TDC #292 (2025-04-11) · [rulings](https://api.scryfall.com/cards/a2c1765c-0054-4c9f-a6b3-5e54189b44c3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-06-23* — Each opponent loses just 3 life, no matter how much life you've gained past 3 life.
+  - *2020-06-23* — If you haven't gained 3 life by the time your end step begins, Indulging Patrician's last ability won't trigger at all.
+  - *2020-06-23* — In a Two-Headed Giant game, Indulging Patrician's last ability causes the opposing team to lose 6 life.
+  - *2020-06-23* — Indulging Patrician's last ability looks at how much life you've gained in the turn, even if it wasn't on the battlefield when you gained life. It doesn't care if you also lost life, even if you lost more life than you gained.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/292/indulging-patrician) · oracle_id `189131b7-ed59-4750-a4ed-453e4497a5c8` · printing: TDC #292 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Industrial Advancement
 
@@ -414,4 +446,5 @@
 - **Oracle text:**
   > At the beginning of your end step, you may sacrifice a creature. If you do, look at the top X cards of your library, where X is that creature's mana value. You may put a creature card from among them onto the battlefield. Put the rest on the bottom of your library in a random order.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6634 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/47/industrial-advancement) · oracle_id `7a0aa9ea-610e-4910-b66d-fdac69e88adf` · printing: NCC #47 (2022-04-29) · [rulings](https://api.scryfall.com/cards/81f1416c-48bd-4168-aacd-a9b0a3afb8bc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

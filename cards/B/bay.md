@@ -28,7 +28,25 @@
   > *"Our will never rests . . ."*
 - **Keywords:** Disguise, Double strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4449 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/acr/50/bayek-of-siwa) · oracle_id `b0322e2e-e9f9-4fe2-a7a5-3e49665ad177` · printing: ACR #50 (2024-07-05) · [rulings](https://api.scryfall.com/cards/5e4510e9-dc3f-4403-ae52-348d2a3eef84/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (17):
+  - *2024-07-05* — A card, spell, or permanent is historic if it has the legendary supertype, the artifact card type, or the Saga subtype. Having two of those qualities doesn’t make an object more historic than another or provide an additional bonus—an object either is historic or it isn’t.
+  - *2024-07-05* — A disguise ability lets you cast a card face down by paying {3} and announcing that you are using a disguise ability. Any time you have priority, you can turn a face-down permanent you control face up by paying its disguise cost.
+  - *2024-07-05* — A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent and Auras and Equipment that were attached to that permanent aren’t affected unless the new characteristics of the object change the legality of those targets or attachments.
+  - *2024-07-05* — An ability that triggers “whenever you cast a historic spell” doesn’t trigger if a historic card is put onto the battlefield without being cast.
+  - *2024-07-05* — Any time you have priority, you may turn the face-down creature face up by revealing what its disguise cost is and paying that cost. This is a special action. It doesn’t use the stack and can’t be responded to. Only a face-down permanent can be turned face up this way; a face-down spell cannot.
+  - *2024-07-05* — At any time, you can look at a face-down spell or permanent you control. You can’t look at face-down permanents or spells you don’t control unless an effect instructs or allows you to do so.
+  - *2024-07-05* — Because face-down creatures don’t have a name, they can’t have the same name as any other creature, even another face-down creature.
+  - *2024-07-05* — Because the permanent is on the battlefield both before and after it’s turned face up, turning a permanent face up doesn’t cause any enters-the-battlefield abilities to trigger.
+  - *2024-07-05* — If a face-down creature loses its abilities, it can’t be turned face up with a disguise ability because it will no longer have a disguise ability (or a disguise cost) once face up.
+  - *2024-07-05* — If a face-down spell leaves the stack and goes to any zone other than the battlefield (if it was countered, for example), you must reveal it. Similarly, if a face-down permanent leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or the game ends.
+  - *2024-07-05* — If something tries to turn a face-down instant or sorcery card on the battlefield face up, reveal that card to show all players it’s an instant or sorcery card. The permanent remains on the battlefield face down. Abilities that trigger when a permanent turns face up won’t trigger, because even though you revealed the card, it never turned face up.
+  - *2024-07-05* — Lands are never cast, so abilities that trigger “whenever you cast a historic spell” won’t trigger if you play a legendary land. They also won’t trigger if a card on the battlefield transforms into a card with the legendary supertype, the artifact card type, or the Saga subtype.
+  - *2024-07-05* — Some abilities trigger “whenever you cast a historic spell.” Such an ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+  - *2024-07-05* — The creature spell is a 2/2 creature spell with ward {2} that has no name, mana cost, or creature types. The resulting creature is a 2/2 creature with ward {2} that has no name, mana cost, or creature types. Both the spell and the resulting creature are colorless and have a mana value of 0. Other effects that apply to the spell or creature can still grant it any characteristics it doesn’t have or change the characteristics it does have.
+  - *2024-07-05* — The face-down spell has no mana cost and a mana value of 0. When you cast a face-down spell, put it on the stack face down so no other player knows what it is, and pay {3} to cast it. This is an alternative cost.
+  - *2024-07-05* — Turning a permanent face up or face down doesn’t change whether that permanent is tapped or untapped.
+  - *2024-07-05* — You must ensure that your face-down spells and permanents can be easily differentiated from each other. You’re not allowed to mix up the cards that represent them on the battlefield to confuse other players. The order in which they entered the battlefield should remain clear, as well as what ability caused them to be face down. (This includes disguise, cloak, and in games involving older cards, morph and manifest, as well as a few other effects that turn cards face down.) Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/acr/50/bayek-of-siwa) · oracle_id `b0322e2e-e9f9-4fe2-a7a5-3e49665ad177` · printing: ACR #50 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bay Falcon
 
@@ -55,7 +73,10 @@
   > Tap three untapped tokens you control: Draw a card.
   > Tap four untapped tokens you control: Put three +1/+1 counters on Baylen. It gains trample until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2680 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/205/baylen-the-haymaker) · oracle_id `73dc28a7-37ac-4b16-aa00-967c9c44d979` · printing: BLB #205 (2024-08-02) · [rulings](https://api.scryfall.com/cards/00e93be2-e06b-4774-8ba5-ccf82a6da1d8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-07-26* — Baylen's first ability is a mana ability. It doesn't use the stack and can't be responded to.
+  - *2024-07-26* — You may tap any untapped tokens you control to activate Baylen's abilities, including creature tokens that entered this turn, even if they don't have haste.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/205/baylen-the-haymaker) · oracle_id `73dc28a7-37ac-4b16-aa00-967c9c44d979` · printing: BLB #205 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bayou
 

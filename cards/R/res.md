@@ -199,7 +199,10 @@
   > *It brings the two things weary soldiers need most: medicine and morale.*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9262 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/288/rescue-retriever) · oracle_id `86f9897f-84aa-4c8d-8335-cfdb2f565311` · printing: BRO #288 (2022-11-18) · [rulings](https://api.scryfall.com/cards/598def2c-003c-4aa4-ac7c-44ffd9639fdc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-10-14* — If Rescue Retriever leaves the battlefield before combat damage is dealt to your other attacking Soldiers, they will take damage as normal. Notably, this means it is usually a bad idea to attack with Rescue Retriever if your opponent could block it with a creature that has first strike and enough power to kill it.
+  - *2022-10-14* — Rescue Retriever prevents damage to other attacking Soldiers even if it isn't also attacking.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/288/rescue-retriever) · oracle_id `86f9897f-84aa-4c8d-8335-cfdb2f565311` · printing: BRO #288 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rescuer Sphinx
 
@@ -237,6 +240,7 @@
 - **Flavor text** (SOC printing):
   > *Critics were struck first by the elemental's surprising grace, and then by its fists.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #923 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/201/resculpt) · oracle_id `814e321d-16fd-4f7b-a8d8-2b089be76f2c` · printing: SOC #201 (2026-04-24) · [rulings](https://api.scryfall.com/cards/5443f46d-03f9-468e-a78d-a059529b1151/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Research Assistant
@@ -284,6 +288,7 @@
   > *The Futurists eagerly supplement their research with their rivals' closely guarded secrets.*
 - **Keywords:** Flying, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4670 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/nec/16/research-thief) · oracle_id `ba5055ce-6809-47a4-bee6-fb97a5b60f8a` · printing: NEC #16 (2022-02-18) · [rulings](https://api.scryfall.com/cards/d0ef159d-657a-4566-b9e0-f545df230025/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Resentful Revelation
@@ -297,7 +302,14 @@
   > *"The Jenova Project resulted in my conception."*
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6695 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/114/resentful-revelation) · oracle_id `71d6aa12-4888-458d-9dc8-9954b247a246` · printing: FIN #114 (2025-06-13) · [rulings](https://api.scryfall.com/cards/945006ea-c6a1-4ee5-abb2-387c2b6d3123/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-06-06* — "Flashback [cost]" means "You may cast this card from your graveyard if the resulting spell is an instant or sorcery spell by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2025-06-06* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2025-06-06* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2025-06-06* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2025-06-06* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/114/resentful-revelation) · oracle_id `71d6aa12-4888-458d-9dc8-9954b247a246` · printing: FIN #114 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reservoir Kraken
 
@@ -344,7 +356,9 @@
   > *"Today's paperweight, tomorrow's leveler."*
   > *—Bruenna, Neurok leader*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3139 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/64/reshape) · oracle_id `42a3855d-25ab-45b3-9e5d-9a0f3da35a05` · printing: 2XM #64 (2020-08-07) · [rulings](https://api.scryfall.com/cards/8f8a8f14-bced-4388-b263-5e70431b191f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-08-07* — If a card in a player's library has {X} in its mana cost, X is considered to be 0 for that card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/64/reshape) · oracle_id `42a3855d-25ab-45b3-9e5d-9a0f3da35a05` · printing: 2XM #64 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reshape the Earth
 
@@ -356,6 +370,7 @@
   > *"The land is not dead, merely dormant. It will awaken if you know how to ask."*
   > *—Gilanra, Caller of Wirewood*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3396 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/249/reshape-the-earth) · oracle_id `edc15ea8-d321-4884-bdcf-ae6198aab78b` · printing: CMR #249 (2020-11-20) · [rulings](https://api.scryfall.com/cards/ada14bc8-4549-4a73-8cbb-9a43698deb36/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Resilient Khenra
@@ -485,7 +500,10 @@
   > *Cut it down, bury it in snow, put it to the torch. The rose will still bloom again.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9759 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m15/28/resolute-archangel) · oracle_id `0d6dc95d-55ce-4ef8-b065-d7203f5bf642` · printing: M15 #28 (2014-07-18) · [rulings](https://api.scryfall.com/cards/e37b31b8-d868-4dff-9ab0-723ce41ee7e4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-07-18* — If your life total is less than your starting life total, you actually gain the appropriate amount of life. Other effects that interact with life gain will interact with Resolute Archangel’s ability accordingly.
+  - *2014-07-18* — Your starting life total is the life total you began the game with. For most two-player formats, this is 20. For Two-Headed Giant, it’s the life total your team started with, usually 30. In Commander games, your starting life total is 40.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m15/28/resolute-archangel) · oracle_id `0d6dc95d-55ce-4ef8-b065-d7203f5bf642` · printing: M15 #28 (2014-07-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Resolute Blademaster
 
@@ -512,6 +530,7 @@
   > *Morale rarely survives the sudden appearance of a squad of Sursi skirmishers at an army's flank.*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7147 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/145/resolute-reinforcements) · oracle_id `eaaed253-9b11-47e2-8624-0340ab2207f6` · printing: FDN #145 (2024-11-15) · [rulings](https://api.scryfall.com/cards/940f3989-77cc-49a9-92e0-095a75d80f0f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Resolute Rider
@@ -579,7 +598,9 @@
   > *A friend in good times, a guardian in bad times, and a savior when all else fails.*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8334 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rna/19/resolute-watchdog) · oracle_id `ca2aee09-398d-4eaa-acbb-98663216185b` · printing: RNA #19 (2019-01-25) · [rulings](https://api.scryfall.com/cards/56d86909-b7f3-4a46-9904-e173853b79f1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-01-25* — Resolute Watchdog can be the target of its own ability. The ability won’t resolve since it won’t have a legal target, and no creature will gain indestructible, but this does allow you to sacrifice Resolute Watchdog without another creature to target if you want to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rna/19/resolute-watchdog) · oracle_id `ca2aee09-398d-4eaa-acbb-98663216185b` · printing: RNA #19 (2019-01-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Resonance Technician
 
@@ -604,7 +625,9 @@
 - **Flavor text** (SOS printing):
   > *School styluses are just tools. Passion is a Prismari's true instrument.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2627 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/221/resonating-lute) · oracle_id `9263287d-f782-4318-9ab8-e2e5f8107f5e` · printing: SOS #221 (2026-04-24) · [rulings](https://api.scryfall.com/cards/6ef168d6-28f2-4c24-9bfa-82c35663b729/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-03-20* — Once you've activated Resonating Lute's last ability, it doesn't matter if the number of cards in your hand drops below seven. The ability will still resolve as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/221/resonating-lute) · oracle_id `9263287d-f782-4318-9ab8-e2e5f8107f5e` · printing: SOS #221 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Resounding Roar
 
@@ -674,6 +697,7 @@
   > Whenever a permanent you control leaves the battlefield, if it had counters on it, put those counters on target permanent you control.
   > {4}{W}: Move any number of counters from target permanent you control onto a second target permanent you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1568 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/67/resourceful-defense) · oracle_id `83e78565-e61f-4bbc-b834-f47941f7e3ec` · printing: EOC #67 (2025-08-01) · [rulings](https://api.scryfall.com/cards/78743ab3-0289-4799-b139-a37964532b92/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Resourceful Return
@@ -696,6 +720,7 @@
 - **Flavor text** (CNS printing):
   > *"If they board us we're finished," warned Orim. Crovax nodded. "And if they don't . . . what then?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8689 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cns/176/respite) · oracle_id `46137f00-f7f5-430a-857c-ff2dbf2d2579` · printing: CNS #176 (2014-06-06) · [rulings](https://api.scryfall.com/cards/d9b5c747-43d6-4c5f-9ca3-feaf004a88cb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Resplendent Angel
@@ -709,7 +734,13 @@
   > {3}{W}{W}{W}: Until end of turn, this creature gets +2/+2 and gains lifelink.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1939 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/32/resplendent-angel) · oracle_id `2ac93092-1a57-4cf7-8f03-1dca86d5c476` · printing: LCI #32 (2023-11-17) · [rulings](https://api.scryfall.com/cards/59adbd35-9959-4a0f-babf-46ea3c15f018/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2018-07-13* — If you didn't gain life during the turn before the end step begins, Resplendent Angel's triggered ability won't trigger at all. Gaining life during the end step won't cause the ability to trigger.
+  - *2018-07-13* — In a Two-Headed Giant game, life gained by your teammate won't satisfy Resplendent Angel's triggered ability, even though it caused your team's life total to increase.
+  - *2018-07-13* — Resplendent Angel's triggered ability checks if you gained 5 or more life total during the turn. It doesn't matter if you also lost life or whether your life total is greater than it was at the beginning of the turn. It also doesn't matter whether Resplendent Angel was on the battlefield when any of the life gain happened.
+  - *2018-07-13* — You create only one Angel token, no matter how many times you gained 5 or more life.
+  - *2018-07-13* — You don't need to have gained 5 life all at once to satisfy Resplendent Angel's triggered ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/32/resplendent-angel) · oracle_id `2ac93092-1a57-4cf7-8f03-1dca86d5c476` · printing: LCI #32 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Resplendent Griffin
 
@@ -756,7 +787,17 @@
 - **Face 2: Resurgence** — {3}{R}{W} — Sorcery
   > Creatures you control gain first strike and vigilance until end of turn. After this main phase, there is an additional combat phase followed by an additional main phase.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5536 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/247/response-resurgence) · oracle_id `ae93854b-c808-44cb-b0be-7d1035c597d7` · printing: RVR #247 (2024-01-12) · [rulings](https://api.scryfall.com/cards/2502d3bf-1956-4294-b4d5-38eee79eeda1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2018-10-05* — If you cast Resurgence when it's not a main phase (perhaps with Omnispell Adept's ability), creatures you control gain first strike and vigilance, but there's no additional combat phase or main phase. If you cast it during an opponent's main phase, there are additional combat and main phases, but that player attacks during that combat phase, not you.
+  - *2018-10-05* — Resurgence affects only creatures you control at the time it resolves. Creatures that come under your control later in the turn won't gain first strike and vigilance.
+  - *2022-12-08* — A split card's characteristics are a combination of its two halves while it is not on the stack. For example, Assault // Battery has a mana value of 5 while it is in your library. If an effect allows you to search your library for a card with mana value 4 or less, you can't find Assault // Battery.
+  - *2022-12-08* — Each split card has two names. If an effect instructs you to choose a card name, you may choose one of those names, but not both.
+  - *2022-12-08* — Each split card is a single card. For example, if you discard a split card, you've discarded one card, not two. If an effect counts the number of sorcery cards in your graveyard, Assault // Battery counts once, not twice.
+  - *2022-12-08* — If an effect allows you to cast a spell with certain characteristics, consider only the characteristics of the half you're casting. For example, if an effect allows you to cast a sorcery spell with mana value 2 or less from among cards in your graveyard, you could cast Assault this way, but not Battery.
+  - *2022-12-08* — If you copy a spell that's half of a split card, the copy copies that same half. For example, if you copy Assault, the copy is also Assault, not Battery.
+  - *2022-12-08* — Split cards have two card faces on a single card. The characteristics of the half you didn't cast are ignored while the spell is on the stack.
+  - *2022-12-08* — To cast a split card, choose one of its halves to cast. There's no way to cast both halves of this split card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/247/response-resurgence) · oracle_id `ae93854b-c808-44cb-b0be-7d1035c597d7` · printing: RVR #247 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Restart Sequence
 
@@ -769,7 +810,9 @@
   > *In the Animus, death is only a temporary setback.*
 - **Keywords:** Freerunning
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4628 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/acr/30/restart-sequence) · oracle_id `c415bfdd-3d42-4f94-9f93-7e310becbc8b` · printing: ACR #30 (2024-07-05) · [rulings](https://api.scryfall.com/cards/9a2b1b20-e5fd-4ccb-8529-12dbde0e0811/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-07-05* — Once an Assassin creature or commander you control deals combat damage to a player in a turn, you can cast spells for their freerunning costs for the rest of that turn. It doesn’t matter what happens to that Assassin or commander after that.
+- **Source flags:** [Scryfall](https://scryfall.com/card/acr/30/restart-sequence) · oracle_id `c415bfdd-3d42-4f94-9f93-7e310becbc8b` · printing: ACR #30 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rest for the Weary
 
@@ -792,7 +835,11 @@
   > When this enchantment enters, exile all graveyards.
   > If a card or token would be put into a graveyard from anywhere, exile it instead.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2314 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/big/4/rest-in-peace) · oracle_id `087f9ad7-e74f-40e2-8102-1ed2925d0418` · printing: BIG #4 (2024-04-19) · [rulings](https://api.scryfall.com/cards/d108c2b1-236e-4b8d-8445-d9749ccc4fea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-03-16* — If Rest in Peace is destroyed by a spell, Rest in Peace will be exiled and then the spell will be put into its owner's graveyard.
+  - *2018-03-16* — If a card is discarded while Rest in Peace is on the battlefield, abilities that function when a card is discarded (such as madness) still work, even though that card never reaches a graveyard. In addition, spells or abilities that check the characteristics of a discarded card (such as Chandra Ablaze's first ability) can find that card in exile.
+  - *2018-03-16* — While Rest in Peace is on the battlefield, abilities that trigger whenever a creature dies won't trigger because cards and tokens are never put into a player's graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/big/4/rest-in-peace) · oracle_id `087f9ad7-e74f-40e2-8102-1ed2925d0418` · printing: BIG #4 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Restless Anchorage
 
@@ -804,7 +851,11 @@
   > {1}{W}{U}: Until end of turn, this land becomes a 2/3 white and blue Bird creature with flying. It's still a land.
   > Whenever this land attacks, create a Map token.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3657 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frc/81/restless-anchorage) · oracle_id `91320daf-f69c-4350-b0fc-4bb37a6904b1` · printing: FRC #81 (2026-10-02) · [rulings](https://api.scryfall.com/cards/109900a9-6dcb-4f89-b84c-0ce0a0175e8f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-11-10* — If this becomes a creature because of an effect other than its own ability, its last ability will still trigger whenever it attacks.
+  - *2023-11-10* — If this becomes a creature but you haven't controlled it continuously since your most recent turn began, you won't be able to activate its mana ability or attack with it that turn.
+  - *2023-11-10* — Map tokens are a kind of predefined token. Each one is a colorless artifact with the artifact subtype Map and the ability "{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery."
+- **Source flags:** [Scryfall](https://scryfall.com/card/frc/81/restless-anchorage) · oracle_id `91320daf-f69c-4350-b0fc-4bb37a6904b1` · printing: FRC #81 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Restless Apparition
 
@@ -828,7 +879,11 @@
   > {1}{R}{W}: This land becomes a 2/2 red and white Ox creature until end of turn. It's still a land.
   > Whenever this land attacks, put a +1/+1 counter on target creature you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4808 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/257/restless-bivouac) · oracle_id `b3c7b46f-c9ab-40ca-b50b-a4e0d0bd9be8` · printing: WOE #257 (2023-09-08) · [rulings](https://api.scryfall.com/cards/b85e0aed-bfb2-4aa8-a754-849c4d9a6a58/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-09-01* — Counters on Restless Bivouac remain on it when it stops being a creature. If it becomes a creature later, they'll apply to it.
+  - *2023-09-01* — If this becomes a creature because of an effect other than its own ability, its last ability will still trigger whenever it attacks.
+  - *2023-09-01* — If this becomes a creature but you haven't controlled it continuously since your most recent turn began, you won't be able to activate its mana ability or attack with it that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/257/restless-bivouac) · oracle_id `b3c7b46f-c9ab-40ca-b50b-a4e0d0bd9be8` · printing: WOE #257 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Restless Bloodseeker // Bloodsoaked Reveler
 
@@ -871,7 +926,14 @@
   > Whenever this land attacks, create a Food token and exile up to one target card from a graveyard.
 - **Keywords:** Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3523 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/258/restless-cottage) · oracle_id `7e16595f-bdeb-422e-b99a-bfc0ed52e9f8` · printing: WOE #258 (2023-09-08) · [rulings](https://api.scryfall.com/cards/787eadf3-5005-4ae5-820f-4012a4d4e1a5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-09-01* — If this becomes a creature because of an effect other than its own ability, its last ability will still trigger whenever it attacks.
+  - *2023-09-01* — If this becomes a creature but you haven't controlled it continuously since your most recent turn began, you won't be able to activate its mana ability or attack with it that turn.
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Some spells and abilities that create Food tokens may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Food tokens.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/258/restless-cottage) · oracle_id `7e16595f-bdeb-422e-b99a-bfc0ed52e9f8` · printing: WOE #258 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Restless Dead
 
@@ -909,7 +971,10 @@
   > {2}{W}{B}: This land becomes a 1/4 white and black Nightmare creature until end of turn. It's still a land.
   > Whenever this land attacks, defending player loses 2 life and you gain 2 life.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4781 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/259/restless-fortress) · oracle_id `8b3726f1-20b8-42ec-8f9b-b361515c3f05` · printing: WOE #259 (2023-09-08) · [rulings](https://api.scryfall.com/cards/675213bb-28d7-460c-a4f3-950f5b9090af/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-09-01* — If this becomes a creature because of an effect other than its own ability, its last ability will still trigger whenever it attacks.
+  - *2023-09-01* — If this becomes a creature but you haven't controlled it continuously since your most recent turn began, you won't be able to activate its mana ability or attack with it that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/259/restless-fortress) · oracle_id `8b3726f1-20b8-42ec-8f9b-b361515c3f05` · printing: WOE #259 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Restless Prairie
 
@@ -921,7 +986,10 @@
   > {2}{G}{W}: This land becomes a 3/3 green and white Llama creature until end of turn. It's still a land.
   > Whenever this land attacks, other creatures you control get +1/+1 until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5139 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/281/restless-prairie) · oracle_id `c071257a-63e7-48d0-a677-0b396a09b624` · printing: LCI #281 (2023-11-17) · [rulings](https://api.scryfall.com/cards/f94ef116-6aff-4f53-a7f9-be5e21c7afa4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-11-10* — If this becomes a creature because of an effect other than its own ability, its last ability will still trigger whenever it attacks.
+  - *2023-11-10* — If this becomes a creature but you haven't controlled it continuously since your most recent turn began, you won't be able to activate its mana ability or attack with it that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/281/restless-prairie) · oracle_id `c071257a-63e7-48d0-a677-0b396a09b624` · printing: LCI #281 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Restless Reef
 
@@ -934,7 +1002,10 @@
   > Whenever this land attacks, target player mills four cards.
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4194 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/282/restless-reef) · oracle_id `df20f85b-5f81-4ee4-8487-55d90109ac36` · printing: LCI #282 (2023-11-17) · [rulings](https://api.scryfall.com/cards/8a8121c9-2480-419c-aa9c-5b8b55f65014/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-11-10* — If this becomes a creature because of an effect other than its own ability, its last ability will still trigger whenever it attacks.
+  - *2023-11-10* — If this becomes a creature but you haven't controlled it continuously since your most recent turn began, you won't be able to activate its mana ability or attack with it that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/282/restless-reef) · oracle_id `df20f85b-5f81-4ee4-8487-55d90109ac36` · printing: LCI #282 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Restless Ridgeline
 
@@ -946,7 +1017,10 @@
   > {2}{R}{G}: This land becomes a 3/4 red and green Dinosaur creature until end of turn. It's still a land.
   > Whenever this land attacks, another target attacking creature gets +2/+0 until end of turn. Untap that creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4750 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/283/restless-ridgeline) · oracle_id `4c0f4a63-586a-4dde-9621-b0dd9118b2e5` · printing: LCI #283 (2023-11-17) · [rulings](https://api.scryfall.com/cards/abde5bed-dc4e-4b2b-820c-18d4d0cf8042/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-11-10* — If this becomes a creature because of an effect other than its own ability, its last ability will still trigger whenever it attacks.
+  - *2023-11-10* — If this becomes a creature but you haven't controlled it continuously since your most recent turn began, you won't be able to activate its mana ability or attack with it that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/283/restless-ridgeline) · oracle_id `4c0f4a63-586a-4dde-9621-b0dd9118b2e5` · printing: LCI #283 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Restless Spire
 
@@ -959,7 +1033,10 @@
   > Whenever this land attacks, scry 1.
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4394 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frc/82/restless-spire) · oracle_id `0ca4e80e-c19c-4b74-b531-c5a4dc5a8ba9` · printing: FRC #82 (2026-10-02) · [rulings](https://api.scryfall.com/cards/30ecfd44-8dd4-4ae3-9076-14799f8a9a14/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-09-01* — If this becomes a creature because of an effect other than its own ability, its last ability will still trigger whenever it attacks.
+  - *2023-09-01* — If this becomes a creature but you haven't controlled it continuously since your most recent turn began, you won't be able to activate its mana ability or attack with it that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frc/82/restless-spire) · oracle_id `0ca4e80e-c19c-4b74-b531-c5a4dc5a8ba9` · printing: FRC #82 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Restless Vents
 
@@ -971,7 +1048,10 @@
   > {1}{B}{R}: Until end of turn, this land becomes a 2/3 black and red Insect creature with menace. It's still a land.
   > Whenever this land attacks, you may discard a card. If you do, draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5295 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/284/restless-vents) · oracle_id `696e7ddb-bdc7-40ee-bc5c-59e98f4a7401` · printing: LCI #284 (2023-11-17) · [rulings](https://api.scryfall.com/cards/e628e89b-bee9-408d-bb05-1784fda6b8a1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-11-10* — If this becomes a creature because of an effect other than its own ability, its last ability will still trigger whenever it attacks.
+  - *2023-11-10* — If this becomes a creature but you haven't controlled it continuously since your most recent turn began, you won't be able to activate its mana ability or attack with it that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/284/restless-vents) · oracle_id `696e7ddb-bdc7-40ee-bc5c-59e98f4a7401` · printing: LCI #284 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Restless Vinestalk
 
@@ -983,7 +1063,10 @@
   > {3}{G}{U}: Until end of turn, this land becomes a 5/5 green and blue Plant creature with trample. It's still a land.
   > Whenever this land attacks, up to one other target creature has base power and toughness 3/3 until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5936 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/261/restless-vinestalk) · oracle_id `0935faa2-fb90-48db-8a92-906ba0f374c7` · printing: WOE #261 (2023-09-08) · [rulings](https://api.scryfall.com/cards/e5f3161d-3f69-4b06-ab73-c31fc0c1520c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-09-01* — If this becomes a creature because of an effect other than its own ability, its last ability will still trigger whenever it attacks.
+  - *2023-09-01* — If this becomes a creature but you haven't controlled it continuously since your most recent turn began, you won't be able to activate its mana ability or attack with it that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/261/restless-vinestalk) · oracle_id `0935faa2-fb90-48db-8a92-906ba0f374c7` · printing: WOE #261 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Restock
 
@@ -1007,7 +1090,11 @@
   > When this creature enters, you may exile target non-Angel creature you control, then return that card to the battlefield under your control.
 - **Keywords:** Flying, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1381 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/38/restoration-angel) · oracle_id `dfbd3afc-9905-4cff-a4f4-df08a4d0a7fa` · printing: INR #38 (2025-01-24) · [rulings](https://api.scryfall.com/cards/f17f85d3-58e5-4128-90c5-98b524256af8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-03-19* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
+  - *2021-03-19* — Once the exiled creature returns, it's considered a new object with no relation to the object that it was. Auras attached to the exiled creature will be put into their owners' graveyards. Equipment attached to the exiled creature will become unattached and remain on the battlefield. Any counters on the exiled creature will cease to exist.
+  - *2021-03-19* — When an effect returns the exiled card "under your control," you control it indefinitely after that. If you had temporarily gained control of a creature, it won't return to its previous controller. In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, a creature you took with Restoration Angel's effect is exiled.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/38/restoration-angel) · oracle_id `dfbd3afc-9905-4cff-a4f4-df08a4d0a7fa` · printing: INR #38 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Restoration Gearsmith
 
@@ -1032,7 +1119,15 @@
   > • Curaga — {3}{W} — Permanents you control gain hexproof and indestructible until end of turn. You gain 6 life.
 - **Keywords:** Curaga, Cura, Tiered, Cure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1070 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/30/restoration-magic) · oracle_id `ddbe0d17-5cac-417c-afc0-e4aebae83205` · printing: FIN #30 (2025-06-13) · [rulings](https://api.scryfall.com/cards/494e68e9-ecba-4482-82bc-207ad59144c1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2025-06-06* — If a mode requires a target, you can select that mode only if there's a legal target available. Ignore the targeting requirements for modes you don't choose.
+  - *2025-06-06* — If a spell with tiered is copied, the effect that creates the copy may allow you to choose new targets. You cannot choose a new mode.
+  - *2025-06-06* — If an effect allows you to cast a spell with tiered "without paying its mana cost," you must still choose exactly one mode and pay the associated additional cost.
+  - *2025-06-06* — If you chose the Cura mode and the target permanent is an illegal target when Restoration Magic tries to resolve, it won't resolve and none of its effects will happen. You won't gain 3 life.
+  - *2025-06-06* — The mana value of a spell with tiered is determined only by its mana cost (in the upper right corner of the card). It doesn't matter which mode you choose or which additional costs you pay, including any additional costs imposed by other effects.
+  - *2025-06-06* — You choose the mode as you cast the spell with tiered. Once the mode is chosen, it can't be changed.
+  - *2025-06-06* — You must choose exactly one of the listed modes and pay its associated additional cost in order to cast a spell with tiered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/30/restoration-magic) · oracle_id `ddbe0d17-5cac-417c-afc0-e4aebae83205` · printing: FIN #30 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Restoration Seminar
 
@@ -1043,7 +1138,11 @@
   > Paradigm (Then exile this spell. After you first resolve a spell with this name, you may cast a copy of it from exile without paying its mana cost at the beginning of each of your first main phases.)
 - **Keywords:** Paradigm
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4233 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/30/restoration-seminar) · oracle_id `fd0a27a9-7d7e-4a16-9dd0-0715e6c97b36` · printing: SOS #30 (2026-04-24) · [rulings](https://api.scryfall.com/cards/9ebc4ecf-2fa2-4ab8-afde-3b91cf5eadb6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2026-03-20* — Each spell with paradigm has the Lesson subtype. The Lesson subtype appears on instants and sorceries and has no inherent rules meaning. Other effects (such as the learn ability from the original Strixhaven release) may refer to it.
+  - *2026-03-20* — Once a spell with paradigm has resolved, it doesn't matter what happens to the card in exile. Even if the card leaves exile, the delayed triggered ability will still trigger during each of your first main phases, and the copy will still be created.
+  - *2026-03-20* — Paradigm creates a delayed triggered ability that triggers at the beginning of each of your first main phases for the rest of the game. When that ability resolves and the copy is created, you can choose not to cast the copy. In that case, the copy will cease to exist the next time state-based actions are checked. The delayed triggered ability will still trigger again at the beginning of your first main phase on your next turn regardless.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/30/restoration-seminar) · oracle_id `fd0a27a9-7d7e-4a16-9dd0-0715e6c97b36` · printing: SOS #30 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Restoration Specialist
 
@@ -1138,7 +1237,24 @@
   > Other permanents you control have hexproof.
   > (You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5600 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/227/restricted-office-lecture-hall) · oracle_id `b36286fa-4007-4276-af9c-d8f0da9e94d1` · printing: DSK #227 (2024-09-27) · [rulings](https://api.scryfall.com/cards/ac794b2f-b5ea-449d-bb0b-4f0e6cc145ef/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (16):
+  - *2024-09-20* — An ability that triggers "when you unlock this door" triggers when that door becomes unlocked. This can happen one of two ways: (1) the door becomes unlocked on the battlefield or (2) the door becomes unlocked as the Room enters the battlefield because you cast the corresponding half. In the latter case, since the door becoming unlocked is what causes the ability to trigger, effects that cause abilities that trigger when a permanent enters to trigger an additional time (such as that of Panharmonicon) won't apply.
+  - *2024-09-20* — An ability that triggers "whenever you fully unlock a Room" triggers when a door becomes unlocked and the other door of that Room is already unlocked, or when both doors of that Room become unlocked simultaneously.
+  - *2024-09-20* — Any time you have priority during a main phase of your turn and the stack is empty, you may pay the mana cost of a locked door (also called its "unlock cost"). That door becomes unlocked. This is a special action. It doesn't use the stack and can't be responded to.
+  - *2024-09-20* — Each Room card has two names. If an effect instructs you to choose a card name, you may choose one of those names, but not both.
+  - *2024-09-20* — Each Room card is a single card. For example, if you discard a Room card, you've discarded one card, not two. If an effect counts the number of enchantment cards in your graveyard, Bottomless Pool // Locker Room counts once, not twice.
+  - *2024-09-20* — If a Room enters from any zone other than the stack, it will enter with both halves locked.
+  - *2024-09-20* — If a spell or ability would create a copy of a Room spell on the stack, the copy retains the choice of which door was cast but also retains the full characteristics of the spell. The characteristics of the door that wasn't cast are still ignored while the copy is on the stack, and when the copy resolves, the token it becomes will enter with the appropriate door unlocked.
+  - *2024-09-20* — If an effect allows you to cast a spell with certain characteristics, consider only the characteristics of the door you're casting. For example, if an effect allows you to cast a permanent spell with mana value 3 or less from among cards in your graveyard, you could cast Bottomless Pool this way, but not Locker Room.
+  - *2024-09-20* — If neither door of a Room is unlocked, it's a Room enchantment with no name and no abilities.
+  - *2024-09-20* — Room cards have two card faces with a shared type line on a single card. The characteristics of the door you didn't cast are ignored while the spell is on the stack.
+  - *2024-09-20* — Some abilities allow you to lock a door of a Room you control. You can't choose to lock a door that's already locked with such an ability. If such an ability requires a target, you can target a Room even if both of its doors are locked, but the ability won't do anything when it resolves.
+  - *2024-09-20* — Some abilities allow you to unlock a door of a Room you control. You can't choose to unlock a door that's already unlocked with such an ability. If such an ability requires a target, you can target a Room even if both of its doors are unlocked, but the ability won't do anything when it resolves.
+  - *2024-09-20* — Some doors have abilities that trigger whenever you unlock that door and require one or more targets. You can unlock that door even if there would be insufficient legal targets for that triggered ability. The triggered ability won't go on the stack.
+  - *2024-09-20* — To cast a Room spell, choose a half (or "door") to cast. There's no way to cast both halves of a Room card. When the Room spell resolves, the corresponding door becomes unlocked as the Room enters.
+  - *2024-09-20* — While in any zone other than the stack or the battlefield, a Room card's characteristics are a combination of its two doors. For example, Bottomless Pool // Locker Room has a mana value of 6 while it's in your library. If an effect allows you to search your library for a card with mana value 4 or less, you can't find Bottomless Pool // Locker Room.
+  - *2024-09-20* — While on the battlefield, a Room's characteristics are a combination of the characteristics of its unlocked doors. For example, if Bottomless Pool // Locker Room is on the battlefield with both doors unlocked, its names are Bottomless Pool and Locker Room, its mana value is 6, it's a Room Enchantment, and it has the abilities in each door's text box.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/227/restricted-office-lecture-hall) · oracle_id `b36286fa-4007-4276-af9c-d8f0da9e94d1` · printing: DSK #227 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Resupply
 
@@ -1162,7 +1278,25 @@
   > Return all enchantment cards from your graveyard to the battlefield. (Auras with nothing to enchant remain in your graveyard.)
 - **Keywords:** Suspend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2845 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/26/resurgent-belief) · oracle_id `0fcfef04-a954-4423-82b0-c70dc64a8fbc` · printing: MH2 #26 (2021-06-18) · [rulings](https://api.scryfall.com/cards/01880c6f-be00-48b5-913f-ec6c80ced184/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (17):
+  - *2021-06-18* — All of the enchantment cards in your graveyard that can return to the battlefield will. You can't choose to leave some in the graveyard. If you're returning an Aura that can only be attached to a creature, but your opponent is the only player who controls a creature, you must choose to attach it to that creature.
+  - *2021-06-18* — If an effect puts an Aura onto the battlefield under your control, you choose what it enters attached to. It must be something that it could legally enchant, but not necessarily something it could target if it were on the stack. For example, you could attach an Aura with enchant creature to an opponent's creature with hexproof, but not to a creature with protection from enchantments.
+  - *2024-02-02* — A card with no mana cost can't be cast normally; you'll need a way to cast it for an alternative cost or without paying its mana cost, such as by suspending it.
+  - *2024-02-02* — Cards exiled with suspend are exiled face up.
+  - *2024-02-02* — Due to a recent rules change to suspend, you are no longer required to cast the suspended card as the second triggered ability of suspend resolves. Instead, as the second triggered ability resolves, you may cast the card. Timing permissions based on the card's type are ignored. If you don't cast the card, it remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to.
+  - *2024-02-02* — If a card with no mana cost is given an alternative cost equal to its mana cost (by Snapcaster Mage, for example), that cost cannot be paid and the card cannot be cast this way.
+  - *2024-02-02* — If an effect refers to a "suspended card," that means a card that (1) has suspend, (2) is in exile, and (3) has one or more time counters on it.
+  - *2024-02-02* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-02-02* — If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again at the beginning of the card's owner's next upkeep.
+  - *2024-02-02* — If the second triggered ability is countered, the card can't be cast. It remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it's exiled.
+  - *2024-02-02* — If you cast a card "without paying its mana cost," such as with suspend, you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those if you want to cast the card.
+  - *2024-02-02* — Suspend is a keyword that represents three abilities. The first is a static ability that allows you to exile the card from your hand with the specified number of time counters (the number before the dash) on it by paying its suspend cost (listed after the dash). The second is a triggered ability that removes a time counter from the suspended card at the beginning of each of your upkeeps. The third is a triggered ability that gives you the option to cast the card when the last time counter is removed.
+  - *2024-02-02* — The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.
+  - *2024-02-02* — When the last time counter is removed, the second triggered ability of suspend (the one that lets you cast the card) triggers. It doesn't matter why the last time counter was removed or what effect removed it.
+  - *2024-02-02* — You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effects that modify when you could cast it (such as flash) and any other effects that stop you from casting it (such as from Meddling Mage's ability) to determine if and when you can do this. Whether you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or that requires a target even if no legal targets are available at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/26/resurgent-belief) · oracle_id `0fcfef04-a954-4423-82b0-c70dc64a8fbc` · printing: MH2 #26 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Resurrected Cultist
 
@@ -1197,7 +1331,9 @@
   > Equip {4} ({4}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4285 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/40k/165/resurrection-orb) · oracle_id `b410f294-cbb6-4016-981f-808fd9b7bbae` · printing: 40K #165 (2022-10-07) · [rulings](https://api.scryfall.com/cards/2d6209c8-9fa1-4f0a-ab65-ac2fedfcd09b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-10-07* — Resurrection Orb's triggered ability creates a delayed triggered ability that will trigger at the beginning of the next end step. It triggers even if Resurrection Orb is no longer on the battlefield at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/40k/165/resurrection-orb) · oracle_id `b410f294-cbb6-4016-981f-808fd9b7bbae` · printing: 40K #165 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Resuscitate
 

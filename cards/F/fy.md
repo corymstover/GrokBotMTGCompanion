@@ -134,4 +134,6 @@
   > *"Come, Koma, and reclaim what you lost! Or does the great serpent fear a rematch?"*
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2729 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/637/fynn-the-fangbearer) · oracle_id `c0b1fba1-4338-4671-934b-098689ad2085` · printing: FDN #637 (2024-11-15) · [rulings](https://api.scryfall.com/cards/699efb9e-2649-432b-8b2d-10775114c314/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-02-05* — Losing the game because a player (preferably an opponent) has ten or more poison counters is a rule of the game. Fynn doesn't have to still be on the battlefield when someone (preferably an opponent) gets their tenth poison counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/637/fynn-the-fangbearer) · oracle_id `c0b1fba1-4338-4671-934b-098689ad2085` · printing: FDN #637 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

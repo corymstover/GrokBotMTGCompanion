@@ -359,6 +359,7 @@
   > Whenever you cast a green spell and whenever a Forest you control enters, put a +1/+1 counter on target creature you control.
   > {T}: Add {G}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8299 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hoc/12/necklace-of-girion) · oracle_id `9f970385-e7c6-40bf-999e-7015693c2250` · printing: HOC #12 (2026-08-14) · [rulings](https://api.scryfall.com/cards/67c30782-0d28-4ce7-ad5b-ffbffeb97584/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Neck Snap
@@ -478,7 +479,13 @@
   > Your maximum hand size is five.
   > If a card or token would be put into your graveyard from anywhere, exile it instead.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4445 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/102/necrodominance) · oracle_id `a10b3e35-8cc4-450e-9e30-0fce8df0fea4` · printing: MH3 #102 (2024-06-14) · [rulings](https://api.scryfall.com/cards/ffc0109c-f939-4424-820e-d6e60cacd794/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-06-07* — If a Necrodominance you control is destroyed by a spell you own, Necrodominance will be exiled and then the spell will be put into your graveyard.
+  - *2024-06-07* — If a player has more cards in their hand than their maximum hand size during the cleanup step of that player's turn, that player discards until they have that many cards. A player's maximum hand size isn't checked at any time other than their own cleanup step.
+  - *2024-06-07* — If multiple effects modify your hand size, apply them in timestamp order. For example, if you put Necrodominance onto the battlefield and then put Spellbook (an artifact that says you have no maximum hand size) onto the battlefield, you would have no maximum hand size. However, if those permanents entered the battlefield in the opposite order, your maximum hand size would be five.
+  - *2024-06-07* — If you discard a card while you control Necrodominance, abilities that function when a card is discarded (such as madness) still work, even though that card never reaches your graveyard. In addition, spells or abilities that check the characteristics of a discarded card (such as connive) can find that card in exile.
+  - *2024-06-07* — While Necrodominance is on the battlefield under your control, abilities that trigger whenever a permanent you own is put into your graveyard from the battlefield (for example, "When this creature dies…") won't trigger because cards and tokens are never put into your graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/102/necrodominance) · oracle_id `a10b3e35-8cc4-450e-9e30-0fce8df0fea4` · printing: MH3 #102 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Necroduality
 
@@ -490,7 +497,11 @@
   > *"Geralf's prowess continues to grow. He can now replicate my own creations with near-perfect accuracy."*
   > *—Ludevic's laboratory notes*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3043 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/79/necroduality) · oracle_id `d36acdfe-2b1b-4c19-8b81-0b3127e480fe` · printing: INR #79 (2025-01-24) · [rulings](https://api.scryfall.com/cards/6385509a-6814-4039-83fb-1fa5a7439696/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-01-24* — Any “enters” abilities of the copied permanent will trigger when the token enters. Any “as [this permanent] enters” or “[this permanent] enters with” abilities of the copied permanent will also work.
+  - *2025-01-24* — If the copied permanent is copying something else, then the token enters as whatever that permanent copied.
+  - *2025-01-24* — The token copies exactly what was printed on the original permanent and nothing else (unless that permanent is copying something else; see below). It doesn’t copy whether that permanent is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/79/necroduality) · oracle_id `d36acdfe-2b1b-4c19-8b81-0b3127e480fe` · printing: INR #79 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Necrogen Censer
 
@@ -514,7 +525,15 @@
   > When enchanted creature dies, return that card to the battlefield under your control.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5292 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/99/necrogen-communion) · oracle_id `ff58459a-0015-4012-86c0-580da4e02676` · printing: ONE #99 (2023-02-10) · [rulings](https://api.scryfall.com/cards/6ac8cd7c-992f-4953-b5bf-42e5a9ff09ad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-02-04* — A player with ten or more poison counters loses the game. This is a state-based action and doesn't use the stack. In other words, it happens immediately and players can't respond to it, just like a player losing the game due to having 0 or less life.
+  - *2023-02-04* — Any other effects of that damage, such as life gain from lifelink, still apply.
+  - *2023-02-04* — Conversely, replacement effects that apply to the number of counters put on a player can modify the counters placed this way. For example, Vorinclex, Monstrous Raider's last two abilities can apply to counters placed this way.
+  - *2023-02-04* — Damage dealt by a creature with toxic grants the same number of counters regardless of how much damage is dealt. Notably, if a replacement effect modifies the damage in some way (such as that of Gratuitous Violence), the number of counters given remains unchanged.
+  - *2023-02-04* — If a creature with toxic deals combat damage to a creature or planeswalker, or if it deals noncombat damage, toxic has no effect and no player gets poison counters.
+  - *2023-02-04* — Multiple instances of toxic are cumulative. For example, if a creature has toxic 2 and gains toxic 1 due to another effect, combat damage that creature deals to a player will cause that player to get 3 poison counters.
+  - *2023-02-04* — Toxic doesn't change the amount of combat damage a creature deals. For example, if a 2/2 creature with toxic 1 deals combat damage to a player, that creature will deal 2 damage. The results of that damage are the player loses 2 life and gets a poison counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/99/necrogen-communion) · oracle_id `ff58459a-0015-4012-86c0-580da4e02676` · printing: ONE #99 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Necrogenesis
 
@@ -537,6 +556,7 @@
 - **Flavor text** (MRD printing):
   > *Mephidross filled with roars of fury and wails of despair as the leonin fought to keep their memories from being pulled into the mists.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6262 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mrd/69/necrogen-mists) · oracle_id `db25d48e-e5eb-4364-9d7a-f9757ee4ccbe` · printing: MRD #69 (2003-10-02) · [rulings](https://api.scryfall.com/cards/18291514-9ffb-4032-9c77-cec0200bf1b6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Necrogen Rotpriest
@@ -550,7 +570,15 @@
   > {1}{B}{G}: Target creature you control with toxic gains deathtouch until end of turn.
 - **Keywords:** Toxic
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7009 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/212/necrogen-rotpriest) · oracle_id `7d9a424e-cab1-410f-9c04-ee0025d04169` · printing: ONE #212 (2023-02-10) · [rulings](https://api.scryfall.com/cards/87519b36-1d95-4020-a61d-6afb75555e3e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-02-04* — A player with ten or more poison counters loses the game. This is a state-based action and doesn't use the stack. In other words, it happens immediately and players can't respond to it, just like a player losing the game due to having 0 or less life.
+  - *2023-02-04* — Any other effects of that damage, such as life gain from lifelink, still apply.
+  - *2023-02-04* — Conversely, replacement effects that apply to the number of counters put on a player can modify the counters placed this way. For example, Vorinclex, Monstrous Raider's last two abilities can apply to counters placed this way.
+  - *2023-02-04* — Damage dealt by a creature with toxic grants the same number of counters regardless of how much damage is dealt. Notably, if a replacement effect modifies the damage in some way (such as that of Gratuitous Violence), the number of counters given remains unchanged.
+  - *2023-02-04* — If a creature with toxic deals combat damage to a creature or planeswalker, or if it deals noncombat damage, toxic has no effect and no player gets poison counters.
+  - *2023-02-04* — Multiple instances of toxic are cumulative. For example, if a creature has toxic 2 and gains toxic 1 due to another effect, combat damage that creature deals to a player will cause that player to get 3 poison counters.
+  - *2023-02-04* — Toxic doesn't change the amount of combat damage a creature deals. For example, if a 2/2 creature with toxic 1 deals combat damage to a player, that creature will deal 2 damage. The results of that damage are the player loses 2 life and gets a poison counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/212/necrogen-rotpriest) · oracle_id `7d9a424e-cab1-410f-9c04-ee0025d04169` · printing: ONE #212 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Necrogen Scudder
 
@@ -590,7 +618,17 @@
   > Madness {1}{B}{B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
 - **Keywords:** Madness
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3146 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/93/necrogoyf) · oracle_id `e034a02d-3482-44eb-90dc-c38be104197f` · printing: MH2 #93 (2021-06-18) · [rulings](https://api.scryfall.com/cards/f200ea9a-198b-4ba2-ad2b-ea4a133b7f40/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2022-12-08* — A card with madness that's discarded counts as having been discarded even though it's put into exile rather than a graveyard. If it was discarded to pay a cost, that cost is still paid. Abilities that trigger when a card is discarded will still trigger.
+  - *2022-12-08* — A spell cast for its madness cost is put onto the stack like any other spell. It can be countered, copied, and so on. As it resolves, it's put onto the battlefield if it's a permanent card or into its owner's graveyard if it's an instant or sorcery card.
+  - *2022-12-08* — Cards are discarded in a Magic game only from a player's hand. Effects that put cards into a player's graveyard from anywhere else do not cause those cards to be discarded.
+  - *2022-12-08* — Casting a spell with madness ignores the timing rules based on the card's card type. For example, you can cast a sorcery with madness if you discard it during an opponent's turn.
+  - *2022-12-08* — If you choose not to cast a card with madness when the madness triggered ability resolves, it's put into your graveyard. Madness doesn't give you another chance to cast it later.
+  - *2022-12-08* — If you discard a card with madness to pay the cost of a spell or activated ability, that card's madness triggered ability (and the spell that card becomes, if you choose to cast it) will resolve before the spell or ability the discard paid for.
+  - *2022-12-08* — If you discard a card with madness while a spell or ability is resolving, it moves immediately to exile. Continue resolving that spell or ability, noting that the card you discarded is not in your graveyard at this time. Its madness triggered ability will be placed onto the stack once that spell or ability has completely resolved.
+  - *2022-12-08* — Madness works independently of why you're discarding the card. You could discard it to pay a cost, because a spell or ability tells you to, or because you have too many cards in your hand during your cleanup step. You can't discard a card with madness just because you want to, though.
+  - *2022-12-08* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a madness cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/93/necrogoyf) · oracle_id `e034a02d-3482-44eb-90dc-c38be104197f` · printing: MH2 #93 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Necro-Impotence
 
@@ -615,7 +653,9 @@
   > *"My enemies' death yields threefold benefit: removal, reuse, and research."*
   > *—Volrath*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9570 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tpr/110/necrologia) · oracle_id `925f11c3-fd32-4aa7-a130-6554b81ad3eb` · printing: TPR #110 (2015-05-06) · [rulings](https://api.scryfall.com/cards/d3e1f268-9861-40bf-85a7-2d33f0972e23/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — This spell is cast during the End step. Since you discard down to 7 cards in the cleanup step, this card is used before the discard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tpr/110/necrologia) · oracle_id `925f11c3-fd32-4aa7-a130-6554b81ad3eb` · printing: TPR #110 (2015-05-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Necromancer's Assistant
 
@@ -684,7 +724,13 @@
   > You may cast this spell as though it had flash. If you cast it any time a sorcery couldn't have been cast, the controller of the permanent it becomes sacrifices it at the beginning of the next cleanup step.
   > When this enchantment enters, if it's on the battlefield, it becomes an Aura with "enchant creature put onto the battlefield with Necromancy." Put target creature card from a graveyard onto the battlefield under your control and attach this enchantment to it. When this enchantment leaves the battlefield, that creature's controller sacrifices it.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1032 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/131/necromancy) · oracle_id `699b192c-f3f2-4ac5-9ca9-e35bcf08ad8a` · printing: MKC #131 (2024-02-09) · [rulings](https://api.scryfall.com/cards/3dd34a1a-e76b-46ee-be8d-5f7f4a092648/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2004-10-04* — The bringing of the creature onto the battlefield and then putting Necromancy on it is all done as part of the resolution.
+  - *2004-10-04* — When putting a card onto the battlefield that requires a definition for its value or some other choice, you do what is needed to define the value or make the choice.
+  - *2005-08-01* — Necromancy enters as an enchantment and then becomes an Enchant Creature Aura as a triggered ability upon entering. It follows all the rules for Auras from then on.
+  - *2008-04-01* — If the creature card put onto the battlefield has protection from black (or anything that prevents this from legally being attached), this won't be able to attach to it. Then this will go to the graveyard as a state-based action, causing the creature to be sacrificed.
+  - *2022-12-08* — The sacrifice occurs only if you cast it using its own ability. If you cast it using some other effect (for example, if another effect allowed you to cast it as though it had flash), then it won't be sacrificed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/131/necromancy) · oracle_id `699b192c-f3f2-4ac5-9ca9-e35bcf08ad8a` · printing: MKC #131 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Necromantic Selection
 
@@ -695,7 +741,10 @@
 - **Flavor text** (TDC printing):
   > *It shambled from the cloud of ash and bone dust, undeterred by its own extinction.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3476 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/189/necromantic-selection) · oracle_id `b48a149c-aead-43b2-a99e-c964d6d28aa0` · printing: TDC #189 (2025-04-11) · [rulings](https://api.scryfall.com/cards/2002d779-9ea2-432b-8c15-d61995b8adda/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-11-07* — If the creature is normally colorless, it will simply become black. It can't be both black and colorless.
+  - *2014-11-07* — Necromantic Selection doesn't overwrite any of the creature's colors or types. Rather, it adds another color and another creature type.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/189/necromantic-selection) · oracle_id `b48a149c-aead-43b2-a99e-c964d6d28aa0` · printing: TDC #189 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Necromantic Summons
 
@@ -750,6 +799,7 @@
   > Synaptic Disintegrator — When this creature enters, destroy up to one target creature and target player mills three cards.
 - **Keywords:** Synaptic Disintegrator, Flash, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5013 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/42/necron-deathmark) · oracle_id `45866598-4ee4-46b6-ade2-ffcdbe98e58f` · printing: 40K #42 (2022-10-07) · [rulings](https://api.scryfall.com/cards/4129cb0d-eefe-4971-9db8-1196201ef353/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Necron Monolith
@@ -800,7 +850,14 @@
   > When this creature dies, you may put a -1/-1 counter on target creature.
 - **Keywords:** Infect
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8973 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/som/185/necropede) · oracle_id `e5021798-1f3d-42ed-be88-e76349ef46c6` · printing: SOM #185 (2010-10-01) · [rulings](https://api.scryfall.com/cards/8d2e522b-e6f8-4fae-8c08-ce2bb8bed04f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2011-01-01* — A player who has ten or more poison counters loses the game. This is a state-based action.
+  - *2011-01-01* — Damage from a source with infect affects planeswalkers normally.
+  - *2011-01-01* — Damage from a source with infect is damage in all respects. If the source with infect also has lifelink, damage dealt by that source also causes its controller to gain that much life. Damage from a source with infect can be prevented or redirected. Abilities that trigger on damage being dealt will trigger if a source with infect deals damage, if appropriate.
+  - *2011-01-01* — If damage from a source with infect that would be dealt to a player is prevented, that player doesn’t get poison counters. If damage from a source with infect that would be dealt to a creature is prevented, that creature doesn’t get -1/-1 counters.
+  - *2011-01-01* — Infect’s effect applies to any damage, not just combat damage.
+  - *2011-01-01* — The -1/-1 counters remain on the creature indefinitely. They’re not removed if the creature regenerates or the turn ends.
+- **Source flags:** [Scryfall](https://scryfall.com/card/som/185/necropede) · oracle_id `e5021798-1f3d-42ed-be88-e76349ef46c6` · printing: SOM #185 (2010-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Necroplasm
 
@@ -852,7 +909,9 @@
   > *"Jarad fancies himself king of the undercity, but he's merely king of rot."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4123 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/voc/132/necropolis-regent) · oracle_id `33c3a6be-8cae-4de8-9d9b-43216d727e93` · printing: VOC #132 (2021-11-19) · [rulings](https://api.scryfall.com/cards/9cd548d5-6162-4eff-adfc-69b7e3b45712/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2012-10-01* — If that creature deals combat damage to a player at the same time it's dealt lethal damage (perhaps because it has trample and was blocked), it will die before the triggered ability resolves and puts +1/+1 counters on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/voc/132/necropolis-regent) · oracle_id `33c3a6be-8cae-4de8-9d9b-43216d727e93` · printing: VOC #132 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Necropotence
 
@@ -906,7 +965,11 @@
   > *A swarm ever grows in its wake.*
 - **Keywords:** Wither
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2938 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/48/necroskitter) · oracle_id `536f7c92-2f1e-49e7-98de-47382a9488f1` · printing: ECC #48 (2026-01-23) · [rulings](https://api.scryfall.com/cards/1743ff46-7bfe-46f7-a2cf-170dd92bf28f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2008-08-01* — It doesn't matter how many -1/-1 counters were on the creature when it was put into a graveyard from the battlefield, as long as it had at least one.
+  - *2008-08-01* — It doesn't matter whose graveyard the creature is put into. It matters only that an opponent controlled it when it left the battlefield.
+  - *2008-08-01* — The card returns to the battlefield without any -1/-1 counters on it (unless some other effect causes it to enter with some).
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/48/necroskitter) · oracle_id `536f7c92-2f1e-49e7-98de-47382a9488f1` · printing: ECC #48 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Necrosquito
 
@@ -932,7 +995,9 @@
   > When enchanted creature dies, look at the top X cards of your library, where X is its power. Put one of those cards into your hand and the rest on the bottom of your library in a random order.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9496 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mid/115/necrosynthesis) · oracle_id `661618a2-54c7-4136-beff-fff5ff7d84cb` · printing: MID #115 (2021-09-24) · [rulings](https://api.scryfall.com/cards/b75b89f1-e032-4d8c-b2b6-1b76e8644801/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-09-24* — Use the enchanted creature's power as it last existed on the battlefield to determine the value of X.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mid/115/necrosynthesis) · oracle_id `661618a2-54c7-4136-beff-fff5ff7d84cb` · printing: MID #115 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Necrotic Fumes
 
@@ -956,7 +1021,10 @@
   > *"You foolish knights pound your breastplates and vow to fight until your last breath. As if that's when it ends."*
   > *—Tormod, the Desecrator*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6640 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/137/necrotic-hex) · oracle_id `a6e720a2-9819-40ec-a811-7812898b531a` · printing: CMR #137 (2020-11-20) · [rulings](https://api.scryfall.com/cards/009d2fb8-6144-46d9-9085-26232c174109/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-11-10* — Let's say everyone controls lots of creatures. As Necrotc Hex resolves, first the player whose turn it is (likely you) chooses which six creatures they'll sacrifice, then each other player in turn order does the same, knowing the choices of players before them. Then all creatures are sacrificed simultaneously. Finally, you'll create the six tapped Zombies.
+  - *2020-11-10* — You'll create six tapped Zombies no matter how many creatures you sacrifice.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/137/necrotic-hex) · oracle_id `a6e720a2-9819-40ec-a811-7812898b531a` · printing: CMR #137 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Necrotic Ooze
 
@@ -969,7 +1037,11 @@
   > *"To death all must go, and so in death lies ultimate power."*
   > *—Geth, Lord of the Vault*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4599 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/83/necrotic-ooze) · oracle_id `2fdeb920-2e48-4308-9517-743eec219c04` · printing: 2X2 #83 (2022-07-08) · [rulings](https://api.scryfall.com/cards/acc3557d-49c6-49cd-a540-1b24897f4e86/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2011-01-01* — Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keywords are activated abilities; they have colons in their reminder text.
+  - *2011-01-01* — If an activated ability of a card in a graveyard references the card it's printed on by name, treat Necrotic Ooze's version of that ability as though it referenced Necrotic Ooze by name instead. For example, if Cudgel Troll (which says "{G}: Regenerate Cudgel Troll") is in a graveyard, Necrotic Ooze has the ability "{G}: Regenerate Necrotic Ooze."
+  - *2011-01-01* — Necrotic Ooze gains only activated abilities. It doesn't gain keyword abilities (unless those keyword abilities are activated), triggered abilities, or static abilities.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/83/necrotic-ooze) · oracle_id `2fdeb920-2e48-4308-9517-743eec219c04` · printing: 2X2 #83 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Necrotic Plague
 
@@ -993,7 +1065,10 @@
 - **Flavor text** (CMM printing):
   > *Though Volrath is long dead, the slivers have become everything he wanted them to be: mindless instruments of destruction and despair.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5198 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/932/necrotic-sliver) · oracle_id `9655569d-bfa5-4665-9371-9f275b8d223e` · printing: CMM #932 (2023-08-04) · [rulings](https://api.scryfall.com/cards/d0f4e782-5503-4698-a1ba-0f30e443f14c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-07-01* — Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn't provide any additional benefit.
+  - *2013-07-01* — If the creature type of a Sliver changes so it's no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/932/necrotic-sliver) · oracle_id `9655569d-bfa5-4665-9371-9f275b8d223e` · printing: CMM #932 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Necrotic Wound
 
@@ -1081,6 +1156,7 @@
   > *"First it was plovers and mulldrifters. Now it's knitting needles the size of javelins."*
   > *—Calydd, kithkin farmer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6711 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lrw/186/needle-drop) · oracle_id `8622a2b2-fe07-41bd-bef3-e60731e0d701` · printing: LRW #186 (2007-10-12) · [rulings](https://api.scryfall.com/cards/d3f89bcf-46f8-4598-a949-7f10134606aa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Needlepeak Spider
@@ -1132,7 +1208,12 @@
   > {T}: Add {R} or {W}.
   > {2}{R}{W}: Until end of turn, this land becomes a 2/1 red and white Elemental creature with double strike. It's still a land.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5603 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/278/needle-spires) · oracle_id `e7bb8160-0a4b-4e46-b196-7a19fb388d8e` · printing: MKC #278 (2024-02-09) · [rulings](https://api.scryfall.com/cards/4a58a287-e4ca-4c6b-8096-142660cee299/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2016-01-22* — A land that becomes a creature may be affected by "summoning sickness." You can't attack with it or use any of its {T} abilities (including its mana abilities) unless it began your most recent turn on the battlefield under your control. Note that summoning sickness cares about when that permanent came under your control, not when it became a creature nor when it entered the battlefield.
+  - *2016-01-22* — An ability that turns a land into a creature also sets that creature's power and toughness. If the land was already a creature (for example, if it was the target of a spell with awaken), this will overwrite the previous effect that set its power and toughness. Effects that modify its power or toughness will continue to apply no matter when they started to take effect. The same is true for counters that change its power or toughness (such as +1/+1 counters) and effects that switch its power and toughness. For example, if Needle Spires has been made a 0/0 creature with three +1/+1 counters on it, activating its last ability will turn it into a 5/4 creature that's still a land.
+  - *2016-01-22* — This land is colorless until the last ability gives it colors.
+  - *2016-01-22* — When a land becomes a creature, that doesn't count as having a creature enter the battlefield. The permanent was already on the battlefield; it only changed its types. Abilities that trigger whenever a creature enters the battlefield won't trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/278/needle-spires) · oracle_id `e7bb8160-0a4b-4e46-b196-7a19fb388d8e` · printing: MKC #278 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Needle Storm
 
@@ -1199,7 +1280,17 @@
   > *"The oxen here take an almost feline delight in pushing things over the edge."*
   > *—Akiri, kor line-slinger*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #874 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/263/needleverge-pathway-pillarverge-pathway) · oracle_id `a9b8d020-4d72-4934-8942-df29ef19fc1d` · printing: ZNR #263 (2020-09-25) · [rulings](https://api.scryfall.com/cards/6559047e-6ede-4815-a3a0-389062094f9d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2020-09-25* — A modal double-faced card can't be transformed or be put onto the battlefield transformed. Ignore any instruction to transform a modal double-faced card or to put one onto the battlefield transformed.
+  - *2020-09-25* — If an effect allows you to play a land or cast a spell from among a group of cards, you may play or cast a modal double-faced card with any face that fits the criteria of that effect.
+  - *2020-09-25* — If an effect allows you to play a specific modal double-faced card, you may cast it as a spell or play it as a land, as determined by which face you choose to play. If an effect allows you to cast (rather than "play") a specific modal double-faced card, you can't play it as a land.
+  - *2020-09-25* — If an effect instructs a player to choose a card name, the name of either face may be chosen. If that effect or a linked ability refers to a spell with the chosen name being cast and/or a land with the chosen name being played, it considers only the chosen name, not the other face's name.
+  - *2020-09-25* — If an effect puts a double-faced card onto the battlefield, it enters with its front face up. If that front face can't be put onto the battlefield, it doesn't enter the battlefield.
+  - *2020-09-25* — In the Commander variant, a double-faced card's color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered.
+  - *2020-09-25* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack and battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
+  - *2020-09-25* — There is a single triangle icon in the top left corner of the front face. There is a double triangle icon in the top left corner of the back face.
+  - *2020-09-25* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/263/needleverge-pathway-pillarverge-pathway) · oracle_id `a9b8d020-4d72-4934-8942-df29ef19fc1d` · printing: ZNR #263 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Neera, Wild Mage
 
@@ -1209,7 +1300,10 @@
 - **Oracle text:**
   > Whenever you cast a spell, you may put it on the bottom of its owner's library. If you do, reveal cards from the top of your library until you reveal a nonland card. You may cast that card without paying its mana cost. Then put all revealed cards not cast this way on the bottom of your library in a random order. This ability triggers only once each turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8237 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/288/neera-wild-mage) · oracle_id `88fb1dd1-60fb-4f51-ac4d-30b43156a474` · printing: CLB #288 (2022-06-10) · [rulings](https://api.scryfall.com/cards/e5431f73-9a70-47dc-b5d4-7f43e41b878e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-06-10* — Neera, Wild Mage has received a minor update to its Oracle text to clarify its function. Specifically, if you choose not to cast the nonland card, it will be put on the bottom of your library along with the other revealed cards.
+  - *2022-06-10* — You must have legal targets to cast a spell with targets, even if you intend to put it onto the bottom of your library this way.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/288/neera-wild-mage) · oracle_id `88fb1dd1-60fb-4f51-ac4d-30b43156a474` · printing: CLB #288 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Neerdiv, Devious Diver
 
@@ -1221,7 +1315,10 @@
   > Whenever you cast a spell from your graveyard or activate an ability of a card in your graveyard, draw a card and put a +1/+1 counter on Neerdiv.
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8048 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/j25/36/neerdiv-devious-diver) · oracle_id `b015ec84-95b9-4010-afef-d9d0cacb98dd` · printing: J25 #36 (2024-11-15) · [rulings](https://api.scryfall.com/cards/070e0081-b0fe-4417-b943-d0496e3b8cd7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-11-08* — If Neerdiv leaves the battlefield while its first ability is still on the stack, use its power as it last existed on the battlefield to determine how many cards the target player mills.
+  - *2024-11-08* — Neerdiv's last ability resolves before the spell or ability that caused it to trigger. It resolves even if that spell or ability is countered or otherwise leaves the stack without resolving.
+- **Source flags:** [Scryfall](https://scryfall.com/card/j25/36/neerdiv-devious-diver) · oracle_id `b015ec84-95b9-4010-afef-d9d0cacb98dd` · printing: J25 #36 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nefarious Imp
 
@@ -1340,7 +1437,9 @@
 - **Flavor text** (DSK printing):
   > *They say every family who resided there met a grisly end, and once in a while you'll hear their screams echoing through the moldering halls.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8212 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/264/neglected-manor) · oracle_id `c8c632ab-14ec-44e1-ac00-81d48336320d` · printing: DSK #264 (2024-09-27) · [rulings](https://api.scryfall.com/cards/11cf1531-8a3c-4e28-a114-d3a342b33bb6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-09-20* — If one of these lands is entering at the same time as a "shock land" (a cycle of lands originally from Ravnica block that allow you to pay life or have them enter tapped), use the life totals of all players before choices are made for that shock land's replacement effect to determine whether or not the land enters tapped. For example, if a Lakeside Shack and a Breeding Pool you control are entering at the same time (perhaps because of the effect of a spell like Scapeshift), your life total is 14, and your opponent's life total is 20, the Lakeside Shack will enter tapped whether or not you choose to pay life as Breeding Pool enters.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/264/neglected-manor) · oracle_id `c8c632ab-14ec-44e1-ac00-81d48336320d` · printing: DSK #264 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Neheb, Dreadhorde Champion
 
@@ -1352,7 +1451,9 @@
   > Whenever Neheb deals combat damage to a player or planeswalker, you may discard any number of cards. If you do, draw that many cards and add that much {R}. Until end of turn, you don't lose this mana as steps and phases end.
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3967 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/125/neheb-dreadhorde-champion) · oracle_id `ed8e9a2e-5fb8-4f39-b954-dbcbc96d909f` · printing: DMC #125 (2022-09-09) · [rulings](https://api.scryfall.com/cards/a8cbc3ba-f552-43fd-a59b-f3d8e3edd12f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-05-03* — Other effects may cause you to draw more or fewer cards than the number of cards you discarded. In these cases, the amount of mana you add is equal to the number of cards you discarded, not the number of cards you drew.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/125/neheb-dreadhorde-champion) · oracle_id `ed8e9a2e-5fb8-4f39-b954-dbcbc96d909f` · printing: DMC #125 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Neheb, the Eternal
 
@@ -1367,7 +1468,19 @@
   > *—Nicol Bolas*
 - **Keywords:** Afflict
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1202 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/158/neheb-the-eternal) · oracle_id `b0d3fd57-1420-4dd1-8410-9d659655287f` · printing: MKC #158 (2024-02-09) · [rulings](https://api.scryfall.com/cards/767c5831-2195-4efa-802d-2ea2e6dabb5b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2017-07-14* — Afflict causes the defending player to lose life; it's not damage or combat damage.
+  - *2017-07-14* — Afflict resolves before combat damage is dealt. If this loss of life brings a player to 0 life or less, that player loses the game immediately. A blocking creature with lifelink won't deal combat damage in time to save that player.
+  - *2017-07-14* — Because it triggers at the beginning of a phase, Neheb's last ability isn't a mana ability. It uses the stack and can be countered by effects that interact with triggered abilities, such as that of Nimble Obstructionist.
+  - *2017-07-14* — Damage dealt to a player causes that player to lose that much life.
+  - *2017-07-14* — If an opponent loses life and subsequently loses the game before your postcombat main phase, Neheb's last ability counts that loss of life.
+  - *2017-07-14* — If an opponent loses life but Neheb leaves the battlefield before your postcombat main phase begins, its last ability doesn't trigger.
+  - *2017-07-14* — If multiple creatures block a creature with afflict, afflict triggers only once.
+  - *2017-07-14* — If you somehow have more than two main phases in a turn, each main phase after your first one is a postcombat main phase, and Neheb's last ability triggers at the beginning of each of them.
+  - *2017-07-14* — Neheb's ability checks only how much life opponents lost during the turn, not by how much their life total decreased compared to the start of the turn. For example, if an opponent lost 2 life and then gained 8 life before your postcombat main phase, you'll add {R}{R}.
+  - *2017-07-14* — You get a postcombat main phase even if no creatures attacked during a turn. Neheb's last ability will trigger.
+  - *2023-07-28* — If a creature is attacking a planeswalker, that planeswalker's controller is the defending player. If a creature is attacking a battle, that battle's protector is the defending player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/158/neheb-the-eternal) · oracle_id `b0d3fd57-1420-4dd1-8410-9d659655287f` · printing: MKC #158 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Neheb, the Worthy
 
@@ -1432,7 +1545,9 @@
 - **Flavor text** (CMM printing):
   > *His enemies wondered if the lich king's brutal death and unnatural rebirth had been his plan all along.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3792 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/349/nekusar-the-mindrazer) · oracle_id `8a5e3c8e-8e22-49b9-8ee5-4a36361f0da6` · printing: CMM #349 (2023-08-04) · [rulings](https://api.scryfall.com/cards/4afdc65d-3c97-47af-83fa-df340389802e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-11-10* — If a spell or ability causes you to put cards into your hand without specifically using the word "draw," it doesn't count as drawing cards and it doesn't cause Nekusar's second ability to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/349/nekusar-the-mindrazer) · oracle_id `8a5e3c8e-8e22-49b9-8ee5-4a36361f0da6` · printing: CMM #349 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nelly Borca, Impulsive Accuser
 
@@ -1445,7 +1560,14 @@
   > Whenever one or more creatures an opponent controls deal combat damage to one or more of your opponents, you and the controller of those creatures each draw a card.
 - **Keywords:** Goad, Vigilance, Suspect
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4849 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/4/nelly-borca-impulsive-accuser) · oracle_id `7ef5b2b6-86da-4e4a-9456-dcbb878936c4` · printing: MKC #4 (2024-02-09) · [rulings](https://api.scryfall.com/cards/2ef59aa9-f5e1-413a-869b-d287db95efd0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-02-02* — Being suspected isn't a copiable value. If a permanent becomes a copy of a suspected creature, it won't be suspected.
+  - *2024-02-02* — If a creature is already suspected, suspecting it again won't have any effect.
+  - *2024-02-02* — If a suspected creature loses all abilities, it will lose menace and "This creature can't block", but it won't stop being suspected.
+  - *2024-02-02* — There's no limit to the number of creatures that can be suspected simultaneously. Suspecting a new creature doesn't cause other creatures to stop being suspected.
+  - *2024-02-02* — When an effect suspects a creature, it becomes suspected. It gains menace and "This creature can't block" for as long as it's suspected. It stays suspected until it leaves the battlefield or another effect causes it to no longer be suspected.
+  - *2024-02-02* — You can target a creature that's already suspected with Nelly Borca, Impulsive Accuser's second ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/4/nelly-borca-impulsive-accuser) · oracle_id `7ef5b2b6-86da-4e4a-9456-dcbb878936c4` · printing: MKC #4 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nema Siltlurker
 
@@ -1471,6 +1593,7 @@
   > *"Anyone who believes the elder dragons are the only ancient powers of this world has spent too much time listening to the elder dragons."*
   > *—Multani*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8675 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/307/nemata-grove-guardian) · oracle_id `5ce58279-7f1e-4ef7-a352-ecbaee31b6ff` · printing: CMM #307 (2023-08-04) · [rulings](https://api.scryfall.com/cards/d60e3465-46ae-486f-8deb-6e2f1ac71a1b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nemata, Primeval Warden
@@ -1485,7 +1608,9 @@
   > {1}{B}, Sacrifice two Saprolings: Draw a card.
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4861 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/209/nemata-primeval-warden) · oracle_id `f72558f5-ac5c-4efa-b01b-439bc0bbf18d` · printing: DMU #209 (2022-09-09) · [rulings](https://api.scryfall.com/cards/adcd556d-351f-4faf-9456-0e47def69a69/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-09-09* — If a creature an opponent controls would die, and both Nemata and another effect are trying to exile it instead, that opponent chooses which effect to apply. If Nemata's effect ends up not applying because of this choice, the triggered ability that creates a Saproling token won't trigger, even if the creature card ends up in exile.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/209/nemata-primeval-warden) · oracle_id `f72558f5-ac5c-4efa-b01b-439bc0bbf18d` · printing: DMU #209 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nemesis Mask
 
@@ -1496,6 +1621,7 @@
   > Equip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6679 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dst/134/nemesis-mask) · oracle_id `34062d79-457f-4af3-b9c6-cab2e4d17581` · printing: DST #134 (2004-02-06) · [rulings](https://api.scryfall.com/cards/d6fc3b76-bc51-49ce-8f3f-2314207be4a7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nemesis of Mortals
@@ -1521,7 +1647,9 @@
   > *Words describing it fail. Pages relating it shrivel. Tales recounting it end.*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4625 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/850/nemesis-of-reason) · oracle_id `b1d70845-869b-45f7-b4bf-1549bac51d58` · printing: CLB #850 (2022-06-10) · [rulings](https://api.scryfall.com/cards/022aacc6-2d82-43c0-ac08-ba9b20578929/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-05-01* — If the defending player has fewer than ten cards in their library, that player's entire library is put into their graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/850/nemesis-of-reason) · oracle_id `b1d70845-869b-45f7-b4bf-1549bac51d58` · printing: CLB #850 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nemesis Phoenix
 
@@ -1555,7 +1683,13 @@
   > As an additional cost to cast this spell, sacrifice a creature.
   > Search your library for a creature card with mana value equal to 1 plus the sacrificed creature's mana value, put that card onto the battlefield with an additional +1/+1 counter on it, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2339 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/war/206/neoform) · oracle_id `420c6dcf-966d-4a4c-a0ef-23037ab8b325` · printing: WAR #206 (2019-05-03) · [rulings](https://api.scryfall.com/cards/92d8f67e-4f2f-4a1f-b190-7c3f39e477e4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2019-05-03* — A creature put onto the battlefield this way enters the battlefield with one +1/+1 counter if it would otherwise enter with no +1/+1 counters.
+  - *2019-05-03* — If a creature or a creature card in your library has {X} in its mana cost, X is considered to be 0.
+  - *2019-05-03* — Players can respond to Neoform only after it's been cast and all its costs have been paid. No one can try to destroy the creature you sacrificed to stop you from casting this spell.
+  - *2019-05-03* — Tokens that aren't a copy of something else don't have a mana cost. Anything without a mana cost normally has a mana value of 0.
+  - *2019-05-03* — You must sacrifice exactly one creature to cast this spell; you can't cast it without sacrificing one, and you can't sacrifice additional creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/war/206/neoform) · oracle_id `420c6dcf-966d-4a4c-a0ef-23037ab8b325` · printing: WAR #206 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Neonate's Rush
 
@@ -1595,6 +1729,7 @@
   > *—Jadar, ghoulcaller of Nephalia*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3382 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/344/nephalia-drownyard) · oracle_id `6429b4ed-1845-4643-9a3d-85f7c12f2bba` · printing: LCC #344 (2023-11-17) · [rulings](https://api.scryfall.com/cards/fe2e25b7-f950-482b-9e35-266b1278a71a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nephalia Moondrakes
@@ -1660,6 +1795,7 @@
   > Enchanted creature has "You have no maximum hand size" and "Whenever this creature attacks, if you have ten or more cards in hand, it gets +10/+10 until end of turn."
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4583 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/pip/34/nerd-rage) · oracle_id `4601e4c7-74bc-44ce-9274-68ba79f8aae1` · printing: PIP #34 (2024-03-08) · [rulings](https://api.scryfall.com/cards/e9857669-5fad-458a-8eda-c1790298add7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nerf War
@@ -1685,7 +1821,10 @@
   > Whenever Neriv attacks, exile a number of cards from the top of your library equal to the number of differently named tokens you control. During any turn you attacked with a commander, you may play those cards.
 - **Keywords:** Deathtouch, Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9582 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/6/neriv-crackling-vanguard) · oracle_id `c8f827d7-4740-43c8-b494-c9e0479e0bf7` · printing: TDC #6 (2025-04-11) · [rulings](https://api.scryfall.com/cards/ac552ea3-f521-4c42-a846-21a73364e0ca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-04-04* — The effect that creates a token may set the name of that token. A token that’s a copy of something else has the name of the object it’s a copy of, unless otherwise specified. All other tokens have a name that matches the subtypes of the token that was created plus the word “Token.” For example, an effect that says “Create a 1/1 green Elf creature token” creates a token that’s name is “Elf Token.”
+  - *2025-04-04* — To determine the number of differently named tokens you control, count each token you control once, but only if its English name isn’t the same as another token you’ve already counted this way. For example, if you control two tokens named “Elf Token” and one token named “Goblin Token,” you exile two cards from the top of your library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/6/neriv-crackling-vanguard) · oracle_id `c8f827d7-4740-43c8-b494-c9e0479e0bf7` · printing: TDC #6 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Neriv, Heart of the Storm
 
@@ -1699,7 +1838,11 @@
   > *Scales streaked with lightning, trailing thunder in his wake, Neriv is the living banner around which the Mardu rally.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4790 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/210/neriv-heart-of-the-storm) · oracle_id `66290104-ac65-4eb5-bf00-89b944249e07` · printing: TDM #210 (2025-04-11) · [rulings](https://api.scryfall.com/cards/b58112b0-a05c-4b98-b650-fd27ad97789f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-04-04* — If another effect (or effects) modifies how much damage a creature you control that entered this turn would deal (for example, by preventing some of that damage), the player being dealt damage or the controller of the permanent being dealt damage chooses the order in which any such effects, including the effect of Neriv’s last ability, apply. If all of the damage is prevented before the effect of Neriv’s last ability would apply, its effect no longer applies.
+  - *2025-04-04* — If damage dealt is being divided or assigned among multiple permanents or players, that damage is divided or assigned before any effects modify how much damage would be dealt. For example, say you control Neriv and you attack an opponent with a 5/5 creature with trample and haste that entered this turn. If it’s blocked by a 2/2 creature, you can assign 2 damage to the blocker and 3 damage to the defending player. Those amounts are then doubled to 4 and 6, respectively.
+  - *2025-04-04* — The damage is dealt by the same source as the original source of damage. The doubled damage isn’t dealt by Neriv unless it was the original source of damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/210/neriv-heart-of-the-storm) · oracle_id `66290104-ac65-4eb5-bf00-89b944249e07` · printing: TDM #210 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nervous Gardener
 
@@ -1797,7 +1940,10 @@
   > Constellation — Whenever an enchantment you control enters, look at the top three cards of your library. You may reveal a land card from among them and put that card into your hand. Put the rest on the bottom of your library in a random order.
 - **Keywords:** Constellation
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8529 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/905/nessian-wanderer) · oracle_id `45703364-660a-4e73-a467-5ee47d936c1a` · printing: CMM #905 (2023-08-04) · [rulings](https://api.scryfall.com/cards/1a4789a2-f201-4b05-954d-527d169de091/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-01-24* — A constellation ability triggers whenever an enchantment enters the battlefield under your control for any reason. Enchantments with other card types, such as enchantment creatures, will also cause constellation abilities to trigger.
+  - *2020-01-24* — An Aura spell that has an illegal target when it tries to resolve doesn’t resolve and is instead put into its owner’s graveyard. It doesn’t enter the battlefield, so constellation abilities don’t trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/905/nessian-wanderer) · oracle_id `45703364-660a-4e73-a467-5ee47d936c1a` · printing: CMM #905 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nessian Wilds Ravager
 
@@ -1834,7 +1980,9 @@
 - **Flavor text** (MH2 printing):
   > *Home is where the heart was.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4144 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/95/nested-shambler) · oracle_id `bfa882ee-de18-4ef8-8957-3e04ed6e3c1e` · printing: MH2 #95 (2021-06-18) · [rulings](https://api.scryfall.com/cards/9851f290-f502-49f8-9b48-67f7966d4e34/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-06-18* — X is Nested Shambler's power the last time it was on the battlefield, not its power in the graveyard. If its power was 0 or less when it died, you won't create any tokens.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/95/nested-shambler) · oracle_id `bfa882ee-de18-4ef8-8957-3e04ed6e3c1e` · printing: MH2 #95 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nesting Bot
 
@@ -1847,7 +1995,14 @@
   > Max speed — This creature gets +1/+0.
 - **Keywords:** Max speed, Start your engines!
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9880 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dft/22/nesting-bot) · oracle_id `7ffb8c2e-1737-4df3-b310-384a5000bfa5` · printing: DFT #22 (2025-02-14) · [rulings](https://api.scryfall.com/cards/7829c0ae-f72f-4195-ad43-775d7218565c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-02-07* — A player “has max speed” if their speed is 4.
+  - *2025-02-07* — Each player tracks their speed (or lack thereof) separately. Increasing your speed has no effect on whether another player has speed.
+  - *2025-02-07* — If an effect needs to know what a player’s speed is and that player doesn’t have a speed, their speed is considered 0.
+  - *2025-02-07* — Start your engines! isn’t a triggered ability. Increasing your speed to 1 is something that happens as a state-based action as soon as you control a permanent with the ability. Notably, this includes gaining control of a permanent with the ability that another player controls.
+  - *2025-02-07* — Your speed doesn’t change until a spell or ability says so, such as the inherent triggered ability that cares about opponents losing life during your turn. Notably, losing control of permanents with start your engines! doesn’t affect your speed.
+  - *2025-02-07* — “Max speed — [ability]” means “As long as you have max speed, this object has [ability].” If the granted ability functions in a zone other than the battlefield, the max speed ability does too.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dft/22/nesting-bot) · oracle_id `7ffb8c2e-1737-4df3-b310-384a5000bfa5` · printing: DFT #22 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nesting Dovehawk
 
@@ -1860,7 +2015,14 @@
   > Whenever a creature token you control enters, put a +1/+1 counter on this creature.
 - **Keywords:** Flying, Populate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3159 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/17/nesting-dovehawk) · oracle_id `fe8fc442-ed17-40b2-8624-69f2eed3f9be` · printing: MOC #17 (2023-04-21) · [rulings](https://api.scryfall.com/cards/c58ff93f-7135-40af-92ce-358da48694dc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-01-12* — Any enters-the-battlefield abilities of the copied token will trigger when the new token enters the battlefield. Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the copied token will also work.
+  - *2024-01-12* — If you choose to copy a creature token that's a copy of another creature, the new creature token will copy the characteristics of whatever the original token is copying.
+  - *2024-01-12* — If you control no creature tokens when you populate, nothing will happen.
+  - *2024-01-12* — Populate doesn't target the creature token you're copying. You choose that creature token as you're taking the populate action. You can choose any creature token you control. If a spell or ability causes you to create a creature token and then instructs you to populate, you may choose to copy the token you just created, or you may choose to copy another creature token you control.
+  - *2024-01-12* — The new creature token copies the characteristics of the original token as stated by the effect that created the original token.
+  - *2024-01-12* — The new token doesn't copy whether the original token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any noncopy effects that have changed its power, toughness, color, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/17/nesting-dovehawk) · oracle_id `fe8fc442-ed17-40b2-8624-69f2eed3f9be` · printing: MOC #17 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nesting Dragon
 
@@ -1872,6 +2034,7 @@
   > Landfall — Whenever a land you control enters, create a 0/2 red Dragon Egg creature token with defender and "When this token dies, create a 2/2 red Dragon creature token with flying and '{R}: This token gets +1/+0 until end of turn.'"
 - **Keywords:** Landfall, Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3587 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/225/nesting-dragon) · oracle_id `0acc9372-58b4-43bf-ab82-1f95831c81d4` · printing: TDC #225 (2025-04-11) · [rulings](https://api.scryfall.com/cards/626db678-2dec-4026-af5a-83e834692ba0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nesting Grounds
@@ -1925,7 +2088,10 @@
   > *"They are small, but they always want more. Learn from them."*
   > *—Bontu, god of ambition*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3495 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/akh/101/nest-of-scarabs) · oracle_id `1f21cf59-6390-44b4-ab2e-ef290dfd8c85` · printing: AKH #101 (2017-04-28) · [rulings](https://api.scryfall.com/cards/97aa6b45-055a-411e-b2db-b373a4d3826d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-04-18* — If a creature with wither or infect deals damage to a creature, the controller of the creature with wither or infect puts that many -1/-1 counters on the second creature.
+  - *2017-04-18* — If an effect has you put more -1/-1 counters on a creature than it has toughness, you’ll put all of those counters on it and create that many Insects, even if that makes its toughness a negative number.
+- **Source flags:** [Scryfall](https://scryfall.com/card/akh/101/nest-of-scarabs) · oracle_id `1f21cf59-6390-44b4-ab2e-ef290dfd8c85` · printing: AKH #101 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nest Robber
 
@@ -1964,7 +2130,13 @@
 - **Flavor text** (C20 printing):
   > *It is spoken of only in whispers, visited only by the desperate.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9771 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c20/45/netherborn-altar) · oracle_id `a127d62a-8709-46bb-9301-96f09e7924a1` · printing: C20 #45 (2020-04-17) · [rulings](https://api.scryfall.com/cards/541151af-f1a3-494f-858e-2c3fe447e036/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2020-04-17* — If Netherborn Altar leaves the battlefield while its ability is on the stack, the amount of life you lose is determined by the number of soul counters it had on it immediately before it left the battlefield.
+  - *2020-04-17* — If you have two commanders in the command zone, Netherborn Altar’s ability puts one of your choice into your hand, not both.
+  - *2020-04-17* — If your commander isn’t in the command zone (or if you’re not playing the Commander variant), Netherborn Altar only makes you lose life.
+  - *2020-04-17* — Putting a soul counter onto Netherborn Altar is part of the cost to activate its ability, and counting the number of soul counters is done as the ability resolves. Players may take actions between those times to change the number of soul counters, perhaps by removing them all so that you lose no life.
+  - *2020-04-17* — The “commander tax” increases based on how many times a commander was cast from the command zone. Casting a commander from your hand doesn’t require that additional cost, and it doesn’t increase what the cost will be the next time you cast that commander from the command zone.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c20/45/netherborn-altar) · oracle_id `a127d62a-8709-46bb-9301-96f09e7924a1` · printing: C20 #45 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Netherborn Phalanx
 
@@ -1989,7 +2161,21 @@
   > *Each configuration reveals a potential future.*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8724 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afc/17/netherese-puzzle-ward) · oracle_id `561e8ecc-1f2b-4fd4-8f92-a0acea449816` · printing: AFC #17 (2021-07-23) · [rulings](https://api.scryfall.com/cards/26bd3a70-3154-44a4-8705-1eac01cde8fd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2021-07-23* — An ability that tells you to roll a die will also specify what to do with the result of that roll. Most often, this is in the form of a "results table" in the card text.
+  - *2021-07-23* — An effect that says "choose a target, then roll a d20" or similar still uses the normal process of putting an ability on the stack and resolving it. Choosing targets is part of putting the ability on the stack and rolling the d20 happens later, as the ability resolves.
+  - *2021-07-23* — Any die roll that is ignored, such as from Pixie Guide's effect, will not cause the Perfect Illumination ability to trigger.
+  - *2021-07-23* — Dice are identified by the number of faces each one has. For example, a d20 is a twenty-sided die.
+  - *2021-07-23* — Dice used must have equally likely outcomes and the roll must be fair. Although physical dice are recommended, digital substitutes are allowed, provided they have the same number of equally likely outcomes as specified in the original roll instruction.
+  - *2021-07-23* — If you roll a natural 4 while resolving the Focus Beam ability, you will scry before you draw a card for the Perfect Illumination ability.
+  - *2021-07-23* — If you're instructed to roll multiple dice (with one exception, see below) and more than one shows the highest natural result, the Perfect Illumination ability will trigger that many times.
+  - *2021-07-23* — Some abilities, like that of Pixie Guide and Barbarian Class, replace rolling a die with rolling extra dice and ignoring the lowest roll. The ignored rolls are not considered for the effect that instructed you to roll a die, and do not cause abilities to trigger. For all intents and purposes, once you determine which dice count, any extra dice were never rolled.
+  - *2021-07-23* — Some effects instruct you to roll again. This uses the same number and type of dice as the original roll, and that roll will use the same set of possible outcomes.
+  - *2021-07-23* — Some effects may modify the result of a die roll. This may be part of the instruction to roll a die or it may come from other cards. Anything that references the "result" of a die roll is looking for the result after these modifications. Anything that is looking for the "natural result" is looking for the number shown on the face of the die before these modifications.
+  - *2021-07-23* — The instruction to roll a die and the effect that occurs because of the result are all part of the same ability. Players do not get the chance to respond to the ability after knowing the result of the roll.
+  - *2021-07-23* — Tournament events have more specific rules regarding dice and die-rolling. For more information, please see the most recent version of the Magic Tournament Rules at https://wpn.wizards.com/en/document/magic-gathering-tournament-rules.
+  - *2021-07-23* — While playing Planechase, rolling the planar die will cause any ability that triggers whenever a player rolls one or more dice to trigger. However, any effect that refers to a numerical result will ignore the rolling of the planar die.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afc/17/netherese-puzzle-ward) · oracle_id `561e8ecc-1f2b-4fd4-8f92-a0acea449816` · printing: AFC #17 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nethergoyf
 
@@ -2001,7 +2187,18 @@
   > Escape—{2}{B}, Exile any number of other cards from your graveyard with four or more card types among them. (You may cast this card from your graveyard for its escape cost.)
 - **Keywords:** Escape
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9634 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/103/nethergoyf) · oracle_id `040cbd8a-a9e5-454b-a5ae-9b66bb66b8e9` · printing: MH3 #103 (2024-06-14) · [rulings](https://api.scryfall.com/cards/3ee3945e-5089-4751-b7b3-5961c39d2a33/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2024-06-07* — After an escaped spell resolves, it returns to its owner's graveyard if it's not a permanent spell. If it is a permanent spell, it enters the battlefield and will return to its owner's graveyard if it dies later. It can escape again.
+  - *2024-06-07* — Card types that can appear on cards in a graveyard are artifact, battle, creature, enchantment, instant, kindred, land, planeswalker, and sorcery. Legendary, basic, and snow are supertypes, not card types; Lhurgoyf, Forest, and Siege are subtypes, not card types.
+  - *2024-06-07* — Escape's permission doesn't change when you may cast the spell from your graveyard.
+  - *2024-06-07* — If a card has multiple abilities giving you permission to cast it, such as two escape abilities or an escape ability and a flashback ability, you choose which one to apply. The others have no effect.
+  - *2024-06-07* — If a card with escape is put into your graveyard during your turn, you'll be able to cast it right away if it's legal to do so, before an opponent can take any actions.
+  - *2024-06-07* — If you cast a spell with its escape permission, you can't choose to apply any other alternative costs or to cast it without paying its mana cost. If it has any additional costs, you must pay those.
+  - *2024-06-07* — Nethergoyf's first ability counts card types, not cards. If the only card in your graveyard is a single artifact creature card, Nethergoyf will be a 2/3. If your graveyard consists of ten artifact cards and ten creature cards, Nethergoyf will still be a 2/3.
+  - *2024-06-07* — Once you begin casting a spell with escape, it immediately moves to the stack. Players can't take any other actions until you're done casting the spell.
+  - *2024-06-07* — The ability that defines Nethergoyf's power and toughness works in all zones, not just the battlefield.
+  - *2024-06-07* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an escape cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was and no matter whether an alternative cost was paid.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/103/nethergoyf) · oracle_id `040cbd8a-a9e5-454b-a5ae-9b66bb66b8e9` · printing: MH3 #103 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nether Horror
 
@@ -2051,7 +2248,14 @@
   > Whenever another creature is put into your graveyard from the battlefield, you may pay {B}. If you do, return this card from your graveyard to the battlefield.
 - **Keywords:** Shadow, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2356 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/220/nether-traitor) · oracle_id `6f16c3ac-a9b8-47e6-b18b-ae37c74d44a0` · printing: SOC #220 (2026-04-24) · [rulings](https://api.scryfall.com/cards/fae5d1cb-ead9-41e1-84ce-2f06dc8cf6ba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-03-19* — A token you own that dies is put into your graveyard before it ceases to exist.
+  - *2021-03-19* — If Nether Traitor and another creature are put into your graveyard at the same time, Nether Traitor's ability won't trigger. This is because it must be in your graveyard before the creature dies in order for its ability that returns it to the battlefield to trigger.
+  - *2021-03-19* — If an attacking creature has multiple evasion abilities, such as shadow and flying, a creature can block it only if that creature satisfies all of the appropriate evasion abilities.
+  - *2021-03-19* — If multiple creatures are put into your graveyard at the same time, Nether Traitor's ability triggers for each of them. Once you return it to the battlefield, you may pay {B} for the other abilities as they resolve, but they'll have no effect if you do. Even if Nether Traitor returns to your graveyard, it's considered a new object and won't be returned.
+  - *2021-03-19* — Multiple instances of shadow on the same creature are redundant.
+  - *2021-03-19* — Once a creature has been blocked, that creature remains blocked and will deal and be dealt combat damage even if it gains or loses shadow or if the blocking creature gains or loses shadow.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/220/nether-traitor) · oracle_id `6f16c3ac-a9b8-47e6-b18b-ae37c74d44a0` · printing: SOC #220 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nether Void
 
@@ -2075,7 +2279,11 @@
   > Whenever this creature mutates, return any number of target creature cards with total power 10 or less from your graveyard to the battlefield.
 - **Keywords:** Lifelink, Mutate, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5570 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/163/nethroi-apex-of-death) · oracle_id `66bef5a7-79b7-4a9c-98dc-8670f867f04c` · printing: DMC #163 (2022-09-09) · [rulings](https://api.scryfall.com/cards/04b9b58f-4c01-48a5-afaf-b8a37165a83f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-04-17* — If the power of the target creature cards change while in your graveyard, most likely because one has a characteristic-defining ability that defines a * in its power, the total power of the creatures may become greater than 10. If this happens, the entire selection of targets is illegal and nothing is returned to the battlefield.
+  - *2020-04-17* — Nethroi's triggered ability can return any combination of creatures whose powers total 10 or less. For example, it could target ten 1/1 creature cards, two 5/5 creature cards, and so on. Regardless of what other creature cards you choose as targets, you can also choose any number of creature cards with power 0 as targets.
+  - *2020-04-17* — Use the power of the creature cards as they exist in your graveyard to determine whether they can be the targets of Nethroi's triggered ability. For example, a 0/0 creature card that will enter the battlefield as a copy of a 15/15 creature can be returned, as can five 0/0 creature cards that will each enter the battlefield with three +1/+1 counters on them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/163/nethroi-apex-of-death) · oracle_id `66bef5a7-79b7-4a9c-98dc-8670f867f04c` · printing: DMC #163 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Netter en-Dal
 
@@ -2099,7 +2307,14 @@
   > Equip {2}
 - **Keywords:** Equip, Living weapon
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1035 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/233/nettlecyst) · oracle_id `04c7f4fe-2098-4311-866d-6733c08d5178` · printing: MKC #233 (2024-02-09) · [rulings](https://api.scryfall.com/cards/0a7cb0f8-2946-4b00-a192-0b31c8e1ec5c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-06-18* — If a permanent you control is both an artifact and an enchantment, count it only once when determining the bonus from an equipped Nettlecyst.
+  - *2021-06-18* — If the Phyrexian Germ token is destroyed, the Equipment remains on the battlefield as with any other Equipment.
+  - *2021-06-18* — If the living weapon trigger causes two Phyrexian Germs to be created (due to an effect such as that of Doubling Season), the Equipment becomes attached to one of them. The other will be put into your graveyard and subsequently cease to exist, unless another effect raises its toughness above 0.
+  - *2021-06-18* — Like other Equipment, each Equipment with living weapon has an equip cost. You can pay this cost to attach an Equipment to another creature you control. Once the Phyrexian Germ token is no longer equipped, it will be put into your graveyard and subsequently cease to exist, unless another effect raises its toughness above 0.
+  - *2021-06-18* — The Phyrexian Germ token enters the battlefield as a 0/0 creature and the Equipment becomes attached to it before state-based actions would cause the token to die. Abilities that trigger as the token enters the battlefield see that a 0/0 creature entered the battlefield.
+  - *2021-06-18* — The living weapon ability has been updated so that the triggered ability creates Phyrexian Germ tokens rather than Germ tokens. This update applies to all cards with living weapon.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/233/nettlecyst) · oracle_id `04c7f4fe-2098-4311-866d-6733c08d5178` · printing: MKC #233 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nettle Drone
 
@@ -2211,7 +2426,13 @@
   > Whenever one or more Faeries you control deal combat damage to a player, that player creates a 4/2 red Pirate creature token with "This token can't block." The token is goaded for the rest of the game. (It attacks each combat if able and attacks a player other than you if able.)
 - **Keywords:** Flying, Goad
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8145 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woc/15/nettling-nuisance) · oracle_id `9662c579-f414-4c2d-b133-0f5f21d5c28a` · printing: WOC #15 (2023-09-08) · [rulings](https://api.scryfall.com/cards/5826d347-9160-4471-af6f-ae6712048301/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-09-01* — Attacking with a goaded creature doesn't cause it to stop being goaded. If there is an additional combat phase that turn, or if another player gains control of it before it stops being goaded, it must attack again if able.
+  - *2023-09-01* — Being goaded isn't an ability the creature has. Once it's been goaded, it must attack as detailed above even if it loses all abilities.
+  - *2023-09-01* — If the creature doesn't meet any of the above exceptions and can attack, it must attack a player other than the controller of the spell or ability that goaded it if able. If the creature can't attack any of those players but could otherwise attack, it must attack a planeswalker an opponent controls, a battle an opponent protects, or the player that goaded it.
+  - *2023-09-01* — If, during a player's declare attackers step, a creature that player controls that's been goaded is tapped, is affected by a spell or ability that says it can't attack, or hasn't been under that player's control continuously since the turn began (and doesn't have haste), then it doesn't attack. If there's a cost associated with having a creature attack a player, its controller isn't forced to pay that cost, so it doesn't have to attack that player.
+  - *2023-09-01* — Normally, combat damage is dealt all at the same time. In that case, Nettling Nuisance's ability triggers once for each player that Faeries you control dealt combat damage to, regardless of how many creatures were dealing that damage. If any of those Faeries have double strike or first strike, the ability will trigger once for each player dealt damage in each combat damage step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woc/15/nettling-nuisance) · oracle_id `9662c579-f414-4c2d-b133-0f5f21d5c28a` · printing: WOC #15 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Network Disruptor
 
@@ -2237,6 +2458,7 @@
 - **Flavor text** (NEO printing):
   > *Public access terminals around Towashi provide residents with up-to-date information on everything from traffic delays to hostile kami sightings.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9495 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/251/network-terminal) · oracle_id `a0eb1d5b-2c54-44fa-b7ad-bdd4b1147929` · printing: NEO #251 (2022-02-18) · [rulings](https://api.scryfall.com/cards/d61e596f-97ef-4eb3-af42-ddfe50d07667/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Neural Network
@@ -2346,6 +2568,7 @@
   > Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8010 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/td2/25/neurok-stealthsuit) · oracle_id `cee06ea6-8bad-4858-b78e-04879a825bbe` · printing: TD2 #25 (2011-05-14) · [rulings](https://api.scryfall.com/cards/d5e58c74-0ba6-452a-94a6-8256c4f6aba8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Neurok Transmuter
@@ -2370,6 +2593,7 @@
   > *On Ikoria, reactive magic can make the difference between barely grazed and really dead.*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7281 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/59/neutralize) · oracle_id `c2c60973-b4d5-43fa-a0c4-b5688b28df05` · printing: IKO #59 (2020-04-24) · [rulings](https://api.scryfall.com/cards/0430da3c-9460-4b62-ae28-2e7e6f4d06a4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Neutralize the Guards
@@ -2502,7 +2726,19 @@
   > Ward {4} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {4}.)
 - **Keywords:** Trample, Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5931 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afc/41/neverwinter-hydra) · oracle_id `e71e7a68-d96e-4ebb-8d4f-9c45ff8b8b66` · printing: AFC #41 (2021-07-23) · [rulings](https://api.scryfall.com/cards/e57338ac-e794-41a0-8c3c-61df9c099cfb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2021-07-23* — An ability that tells you to roll a die will also specify what to do with the result of that roll. Most often, this is in the form of a “results table” in the card text.
+  - *2021-07-23* — An effect that says “choose a target, then roll a d20” or similar still uses the normal process of putting an ability on the stack and resolving it. Choosing targets is part of putting the ability on the stack and rolling the d20 happens later, as the ability resolves.
+  - *2021-07-23* — Dice are identified by the number of faces each one has. For example, a d20 is a twenty-sided die.
+  - *2021-07-23* — Dice used must have equally likely outcomes and the roll must be fair. Although physical dice are recommended, digital substitutes are allowed, provided they have the same number of equally likely outcomes as specified in the original roll instruction.
+  - *2021-07-23* — If a player casts a spell that targets multiple permanents their opponent controls with ward, each of those ward abilities will trigger. If that player doesn't pay for all of them, the spell will be countered.
+  - *2021-07-23* — Some abilities, like that of Pixie Guide and Barbarian Class, replace rolling a die with rolling extra dice and ignoring the lowest roll. The ignored rolls are not considered for the effect that instructed you to roll a die, and do not cause abilities to trigger. For all intents and purposes, once you determine which dice count, any extra dice were never rolled.
+  - *2021-07-23* — Some effects instruct you to roll again. This uses the same number and type of dice as the original roll, and that roll will use the same set of possible outcomes.
+  - *2021-07-23* — Some effects may modify the result of a die roll. This may be part of the instruction to roll a die or it may come from other cards. Anything that references the “result” of a die roll is looking for the result after these modifications. Anything that is looking for the “natural result” is looking for the number shown on the face of the die before these modifications.
+  - *2021-07-23* — The instruction to roll a die and the effect that occurs because of the result are all part of the same ability. Players do not get the chance to respond to the ability after knowing the result of the roll.
+  - *2021-07-23* — Tournament events have more specific rules regarding dice and die-rolling. For more information, please see the most recent version of the Magic Tournament Rules at https://wpn.wizards.com/en/document/magic-gathering-tournament-rules.
+  - *2021-07-23* — While playing Planechase, rolling the planar die will cause any ability that triggers whenever a player rolls one or more dice to trigger. However, any effect that refers to a numerical result will ignore the rolling of the planar die.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afc/41/neverwinter-hydra) · oracle_id `e71e7a68-d96e-4ebb-8d4f-9c45ff8b8b66` · printing: AFC #41 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nevinyrral's Disk
 
@@ -2514,7 +2750,9 @@
 - **Flavor text** (CMM printing):
   > *Nevinyrral's final act of spite was to make sure all of his magic was destroyed along with him.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2027 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/965/nevinyrrals-disk) · oracle_id `96230edf-568a-47dd-b877-9d92aa58fac8` · printing: CMM #965 (2023-08-04) · [rulings](https://api.scryfall.com/cards/36fb6ee3-bd54-4e5b-b055-c2c42515c162/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-11-10* — You don't sacrifice Nevinyrral's Disk to activate its ability. It's destroyed as part of the ability's resolution if it's still on the battlefield. If an effect gives Nevinyrral's Disk indestructible or regenerates it, it stays on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/965/nevinyrrals-disk) · oracle_id `96230edf-568a-47dd-b877-9d92aa58fac8` · printing: CMM #965 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nevinyrral, Urborg Tyrant
 
@@ -2540,7 +2778,9 @@
 - **Flavor text** (SOC printing):
   > *"Adrix and I have always debated for the betterment of our students. That won't change now we're both deans."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8465 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/41/nev-the-practical-dean) · oracle_id `42750e30-d022-4623-a290-d91fa80721c9` · printing: SOC #41 (2026-04-24) · [rulings](https://api.scryfall.com/cards/94cf1461-5e4f-4980-8ef9-293421af621f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-03-20* — If you cast your first spell with {X} in its mana cost during a turn before Nev is on the battlefield, casting another spell with {X} in its mana cost later in the turn won't cause his last ability to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/41/nev-the-practical-dean) · oracle_id `42750e30-d022-4623-a290-d91fa80721c9` · printing: SOC #41 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### New Benalia
 
@@ -2552,6 +2792,7 @@
   > {T}: Add {W}.
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9396 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c18/270/new-benalia) · oracle_id `6e743fbf-b5b6-4176-a4f2-6933f521f2fe` · printing: C18 #270 (2018-08-10) · [rulings](https://api.scryfall.com/cards/a11a0f9c-2253-468f-a9c0-42e1e38aad96/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### New Blood
@@ -2565,7 +2806,16 @@
   > *"Now isn't that better?"*
   > *—Olivia Voldaren*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4482 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/202/new-blood) · oracle_id `021d654e-b731-40d0-a18e-eaff43f9fdb9` · printing: LCC #202 (2023-11-17) · [rulings](https://api.scryfall.com/cards/6ee669ab-0ae6-43e5-86fd-f0dcb621e478/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2017-08-25* — New Blood changes the creature type each time it appears in the creature's type line and/or rules text. It doesn't change the name of the card or any instances of the word being used as part of a card's name.
+  - *2017-08-25* — New Blood's effect changes only the text printed on the creature. It can't change words found in abilities it's been granted. For example, if you change Rat to Vampire on Hungry Lynx, your Cats will have protection from Vampires; but if instead you change Rat to Vampire on Phantom Nishoba while you control a Hungry Lynx, Phantom Nishoba will have protection from Rats.
+  - *2017-08-25* — The creature you gain control of won't be a Vampire if you don't choose a creature type in that creature's type line as one to replace.
+  - *2017-08-25* — The type-changing effect can change part of a word (such as "non-Human") if the part of the word is being used to refer to a creature type.
+  - *2017-08-25* — To pay the additional cost of New Blood, you may tap any untapped Vampire you control, including one you haven't controlled continuously since the beginning of your most recent turn. (Note that tapping the creature doesn't use {T} [the tap symbol].)
+  - *2017-08-25* — You can't choose multiple creature types, such as "Cat Warrior." A Cat Warrior is both a Cat and a Warrior. It's affected by anything that affects either type and unaffected by things that affect non-Cat or non-Warrior creatures.
+  - *2017-08-25* — You choose what word you're changing as New Blood resolves. You don't have to choose a word that appears in the creature's text.
+  - *2017-08-25* — You must choose an existing creature type, such as Vampire or Cat. Card types such as "artifact" can't be chosen.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/202/new-blood) · oracle_id `021d654e-b731-40d0-a18e-eaff43f9fdb9` · printing: LCC #202 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### New Frontiers
 
@@ -2601,7 +2851,10 @@
   > Enchanted land has "{T}: Add two mana of any one color."
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7137 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/557/new-horizons) · oracle_id `8834d3c9-cdb5-423b-bc78-94a94add5e74` · printing: FDN #557 (2024-11-15) · [rulings](https://api.scryfall.com/cards/86b3923c-c35c-4eb2-9dd3-b15c13778ecf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-05-03* — If the land this Aura would enchant is an illegal target by the time New Horizons resolves, the entire spell doesn't resolve. It won't enter the battlefield, so its ability won't trigger.
+  - *2019-05-03* — You can cast New Horizons even if you control no creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/557/new-horizons) · oracle_id `8834d3c9-cdb5-423b-bc78-94a94add5e74` · printing: FDN #557 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### New Magic Game Plus
 
@@ -2683,7 +2936,12 @@
   > *The blessed union of gun, claw, and merciless intent is a force to be truly feared.*
 - **Keywords:** Strategic Coordinator
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5212 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/40k/95/nexos) · oracle_id `4b9a2d17-205a-49cf-98c3-fd833015da18` · printing: 40K #95 (2022-10-07) · [rulings](https://api.scryfall.com/cards/73ca0549-5775-4778-bd47-f5f234a71201/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-10-07* — A "cost that contains {X}" may be a spell's total cost, an activated ability's cost, a cost to perform a special action, or a cost you're asked to pay as part of the resolution of a spell or ability (such as Condescend). A spell's total cost includes either its mana cost (printed in the upper right corner) or its alternative cost (such as flashback), as well as any additional costs (such as kicker). If it's something you can spend mana on, it's a cost. If that cost includes the {X} symbol in it, you can spend mana generated by the granted ability on that cost.
+  - *2022-10-07* — You can spend mana generated by the granted ability on a cost that includes {X} even if you've chosen an X of 0, or if the card specifies that you can spend only colored mana on X. (You'll have to spend the {C}{C} on a different part of that cost, of course.)
+  - *2022-10-07* — You can spend mana generated by the granted ability on any part of a cost that contains {X}. You're not limited to spending it only on the {X} part.
+  - *2022-10-07* — You don't have to spend all of the mana on the same cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/40k/95/nexos) · oracle_id `4b9a2d17-205a-49cf-98c3-fd833015da18` · printing: 40K #95 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Next of Kin
 
@@ -2714,7 +2972,11 @@
 - **Oracle text:**
   > At the beginning of combat on your turn, draw a card. Then you may exile an artifact or creature card from your hand. If you do, create a token that's a copy of the exiled card, except it's a 3/3 Golem artifact creature in addition to its other types.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6821 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/big/25/nexus-of-becoming) · oracle_id `07142ee9-dc2c-4b33-ad20-2f5285225e86` · printing: BIG #25 (2024-04-19) · [rulings](https://api.scryfall.com/cards/b0f61742-522c-4b36-97db-41d0c412a072/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-04-12* — Any enters-the-battlefield abilities of the copied card will trigger when the token enters the battlefield. Any “as [this permanent] enters the battlefield” or “[this permanent] enters the battlefield with” abilities of the copied card will also work.
+  - *2024-04-12* — Except for the listed exceptions, the token copies exactly what’s printed on the exiled card and nothing else.
+  - *2024-04-12* — If the exiled card has {X} in its mana cost, X is 0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/big/25/nexus-of-becoming) · oracle_id `07142ee9-dc2c-4b33-ad20-2f5285225e86` · printing: BIG #25 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nexus of Fate
 
@@ -2726,7 +2988,9 @@
 - **Flavor text** (PLST printing):
   > *Sarkhan wandered into a tomb and back in time.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2312 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/plst/M19-306/nexus-of-fate) · oracle_id `6c1d22d4-f28e-4041-a9b6-1575e8929b61` · printing: PLST #M19-306 (2024-08-02) · [rulings](https://api.scryfall.com/cards/f0aacf61-be23-400e-8e3c-5584b44df449/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-07-13* — Nexus of Fate’s last ability applies if it would be put into a graveyard in any way, including while it’s resolving.
+- **Source flags:** [Scryfall](https://scryfall.com/card/plst/M19-306/nexus-of-fate) · oracle_id `6c1d22d4-f28e-4041-a9b6-1575e8929b61` · printing: PLST #M19-306 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nexus Wardens
 
@@ -2751,7 +3015,14 @@
   > Attacking tokens you control have double strike.
   > Whenever one or more tokens you control attack a player, exile the top card of your library. During any turn you attacked with a token, you may play that card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3505 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/onc/2/neyali-suns-vanguard) · oracle_id `4012b400-7dcd-43d6-8806-39a3cb743d8f` · printing: ONC #2 (2023-02-10) · [rulings](https://api.scryfall.com/cards/2b5df03d-2463-468b-b444-d946eeb1c96d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-02-04* — Casting an exiled card causes it to leave exile. You can't cast it multiple times.
+  - *2023-02-04* — Neyali's effect doesn't change when you can cast the exiled card. For example, if you exile a sorcery card, you can cast it only during your main phase when the stack is empty.
+  - *2023-02-04* — The card Neyali exiles is exiled face up.
+  - *2023-02-04* — The effect allowing you to cast the exiled card if you attacked with a token continues to apply even if Neyali leaves the battlefield or another player gains control of it. It also continues to apply during later turns—as long as you attacked with a token during those later turns.
+  - *2023-02-04* — The second ability of Neyali, Suns' Vanguard triggers for each player you are attacking with one or more tokens. It does not trigger if you are attacking a planeswalker a player controls, but not that player.
+  - *2023-02-04* — You can cast the exiled card if the token that attacked is still in combat, if it's left combat, if it's left the battlefield, or even if combat is over.
+- **Source flags:** [Scryfall](https://scryfall.com/card/onc/2/neyali-suns-vanguard) · oracle_id `4012b400-7dcd-43d6-8806-39a3cb743d8f` · printing: ONC #2 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Neyam Shai Murad
 
@@ -2774,7 +3045,16 @@
   > At the beginning of combat on your turn, you may pay {2}{R/G}. If you do, double target creature's power until end of turn. That creature must be blocked this combat if able. ({R/G} can be paid with either {R} or {G}.)
 - **Keywords:** Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4258 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/30/neyith-of-the-dire-hunt) · oracle_id `aba04455-c13f-48f7-9674-56803b39a42b` · printing: JMP #30 (2020-07-17) · [rulings](https://api.scryfall.com/cards/0c1eed0f-9692-44c0-b1ad-afa691165d52/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2020-06-23* — A creature “fights” when an effect instructs it to fight. Dealing combat damage isn’t fighting.
+  - *2020-06-23* — If an effect instructs you to “double” a creature’s power, that creature gets +X/+0, where X is its power as that effect begins to apply. If its power is negative, instead it gets -X/-0 where X is how far below 0 its power is. The value of X won’t change if another effect alters the creature’s power later in the turn.
+  - *2020-06-23* — If each creature the defending player controls can’t block for any reason (such as being tapped), then the target creature isn’t blocked. If there’s a cost associated with blocking the target creature, the defending player isn’t forced to pay that cost, so it doesn’t have to be blocked in that case either.
+  - *2020-06-23* — If the target creature has menace, two creatures must block it if able.
+  - *2020-06-23* — Only one creature is required to block the target creature. Other creatures may also block it and are free to block other creatures or not block at all.
+  - *2020-06-23* — The defending player, not you, chooses which creature blocks the target creature.
+  - *2020-06-23* — While resolving Neyith’s last ability, you can’t pay multiple times to double a creature’s power more than once or to double more than one creature’s power.
+  - *2020-06-23* — You draw just one card as Neyith’s first ability resolves, no matter how many creatures you control fought or became blocked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/30/neyith-of-the-dire-hunt) · oracle_id `aba04455-c13f-48f7-9674-56803b39a42b` · printing: JMP #30 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nezahal, Primal Tide
 
@@ -2787,7 +3067,12 @@
   > Whenever an opponent casts a noncreature spell, draw a card.
   > Discard three cards: Exile Nezahal. Return it to the battlefield tapped under its owner's control at the beginning of the next end step.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1121 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/401/nezahal-primal-tide) · oracle_id `c45e96cb-2539-4e00-9fff-782a182c2f4b` · printing: CMR #401 (2020-11-20) · [rulings](https://api.scryfall.com/cards/a959b40d-dd8c-49d8-8003-744d0c877b04/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2018-01-19* — After Nezahal returns to the battlefield, it will be a new object with no connection to the creature that was exiled. It won't be in combat or have any additional abilities it may have had when it was exiled. Any +1/+1 counters on it or Auras attached to it are removed, and any Equipment will no longer be attached.
+  - *2018-01-19* — Nezahal's triggered ability resolves before the noncreature spell that caused it to trigger.
+  - *2018-01-19* — Players can cast spells and activate abilities after Nezahal's triggered ability resolves but before the spell that caused it to trigger does. Notably, the card you draw may be able to counter that spell or may be discarded to activate Nezahal's last ability.
+  - *2018-01-19* — Your maximum hand size is checked only during the cleanup step on your turn. If Nezahal's last ability is activated before your turn's end step, it will return before your next cleanup step and you'll have no maximum hand size.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/401/nezahal-primal-tide) · oracle_id `c45e96cb-2539-4e00-9fff-782a182c2f4b` · printing: CMR #401 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nezumi Bladeblesser
 
@@ -2869,7 +3154,9 @@
 - **Flavor text** (MOM printing):
   > *"Tell Boss Umezawa there's a new gang moving in on our territory. I'm forwarding their insignia. Watch for it elsewhere."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4738 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/120/nezumi-informant) · oracle_id `a70ffefb-840c-48c3-a59d-e12306086bb6` · printing: MOM #120 (2023-04-21) · [rulings](https://api.scryfall.com/cards/e36fbff8-471e-4cf8-8946-e1e5cdf598af/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-04-14* — To resolve Nezumi Informant’s ability in a multiplayer game, the next opponent in turn order (or, if it’s an opponent’s turn, the opponent whose turn it is) chooses a card in hand and sets it aside without revealing it. Then each other opponent in turn order does the same. Finally, all chosen cards are revealed and discarded at the same time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/120/nezumi-informant) · oracle_id `a70ffefb-840c-48c3-a59d-e12306086bb6` · printing: MOM #120 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nezumi Linkbreaker
 
@@ -2881,6 +3168,7 @@
 - **Flavor text** (OTJ printing):
   > *"If they want to get to Prosperity so badly, they can walk there."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9487 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/96/nezumi-linkbreaker) · oracle_id `5d24fb6b-7176-407c-b917-6c88a6da40df` · printing: OTJ #96 (2024-04-19) · [rulings](https://api.scryfall.com/cards/6dd0095b-6136-4368-94cb-4c82621aaf37/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nezumi Prowler
@@ -2893,7 +3181,15 @@
   > When this creature enters, target creature you control gains deathtouch and lifelink until end of turn.
 - **Keywords:** Ninjutsu
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6222 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/116/nezumi-prowler) · oracle_id `a93b5956-c11e-434e-bed5-94af9de55382` · printing: NEO #116 (2022-02-18) · [rulings](https://api.scryfall.com/cards/ca911e9a-bd04-4531-a81e-3485e9cbe89e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2022-02-18* — Although the Ninja is attacking, it was never declared as an attacking creature (for purposes of abilities that trigger whenever a creature attacks, for example).
+  - *2022-02-18* — As you activate a ninjutsu ability, you reveal the Ninja card in your hand and return the attacking creature. The Ninja card stays revealed and isn't put onto the battlefield until the ability resolves. If it leaves your hand before then, it won't enter the battlefield at all.
+  - *2022-02-18* — If a creature in combat has first strike or double strike, you can activate the ninjutsu ability during the first-strike combat damage step. The Ninja will deal combat damage during the regular combat damage step, even if it has first strike.
+  - *2022-02-18* — Puff of smoke not included.
+  - *2022-02-18* — The creature with ninjutsu enters the battlefield attacking the same player or planeswalker that the returned creature was attacking. This is a rule specific to ninjutsu; in other cases, when a creature is put onto the battlefield attacking, that creature's controller chooses which player or planeswalker it's attacking.
+  - *2022-02-18* — The ninjutsu ability can be activated during the declare blockers step, combat damage step, or end of combat step. In most cases (see below), if you wait until the combatdamage step or end of combat step, it will be after combat damage has been dealt, so the Ninja won't deal combat damage.
+  - *2022-02-18* — The ninjutsu ability can be activated only after blockers have been declared. Before then, attacking creatures are neither blocked nor unblocked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/116/nezumi-prowler) · oracle_id `a93b5956-c11e-434e-bed5-94af9de55382` · printing: NEO #116 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nezumi Ronin
 

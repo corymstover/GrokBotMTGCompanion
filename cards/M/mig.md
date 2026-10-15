@@ -55,7 +55,10 @@
   > Warp {2}{G} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)
 - **Keywords:** Warp, Double, Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3065 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/200/mightform-harmonizer) · oracle_id `8e025cda-71c5-4d06-8436-decd408667af` · printing: EOE #200 (2025-08-01) · [rulings](https://api.scryfall.com/cards/f32302f1-b54f-4489-9d0b-9b771e59da06/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-07-25* — If a creature’s power is less than 0 when it’s doubled, instead that creature gets -X/-0, where X is how much less than 0 its power is. For example, if an effect has given Bear Cub, a 2/2 creature, -4/-0 so that it’s a -2/2 creature, doubling its power and toughness gives it -2/+2, and it becomes a -4/4 creature.
+  - *2025-07-25* — If an effect instructs you to “double” a creature’s power, that creature gets +X/+0, where X is its power as that effect begins to apply. Similarly, a creature whose toughness is doubled gets +0/+X, where X is its toughness as the effect begins to apply.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/200/mightform-harmonizer) · oracle_id `8e025cda-71c5-4d06-8436-decd408667af` · printing: EOE #200 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Might Makes Right
 
@@ -137,7 +140,10 @@
 - **Flavor text** (2XM printing):
   > *The Joraga elves never need ask a troll to leave their territory. They merely grant it their combined strength, and it can't resist embarking on a merry rampage.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7677 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/176/might-of-the-masses) · oracle_id `f73416a8-40e5-4791-948f-147ef2221ee7` · printing: 2XM #176 (2020-08-07) · [rulings](https://api.scryfall.com/cards/9900f47d-e1ec-411d-92f3-aed8e01ee535/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-08-07* — If you target a creature you control with Might of the Masses, remember to count that creature when determining the amount of the bonus.
+  - *2020-08-07* — The size of the bonus is determined as Might of the Masses resolves; it won't change if the number of creatures you control changes later in the turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/176/might-of-the-masses) · oracle_id `f73416a8-40e5-4791-948f-147ef2221ee7` · printing: 2XM #176 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Might of the Meek
 
@@ -150,7 +156,9 @@
   > *"Fear is unavoidable. You can run from it with your tail between your legs, or charge it head on with sword in hand. I prefer the latter."*
   > *—Rho, veteran hero*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3852 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/144/might-of-the-meek) · oracle_id `19b5c94b-b4fa-41a9-b649-51c4e6f03602` · printing: BLB #144 (2024-08-02) · [rulings](https://api.scryfall.com/cards/509bf254-8a2b-4dfa-9ae5-386321b35e8b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-07-26* — If the target creature is an illegal target as Might of the Meek tries to resolve, it won’t resolve and none of its effects will happen. You won’t draw a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/144/might-of-the-meek) · oracle_id `19b5c94b-b4fa-41a9-b649-51c4e6f03602` · printing: BLB #144 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Might of the Nephilim
 
@@ -188,7 +196,11 @@
   > *"The colossal thing rumbled over the ridge, tree husks crumbling before it. The ones we were already fighting howled as it came, their muscles suddenly surging, and we knew it was time to flee."*
   > *—Llanach, Skyshroud ranger*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7464 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/903/might-sliver) · oracle_id `92f5f80c-de1a-44e8-93f1-e405241c1e82` · printing: CMM #903 (2023-08-04) · [rulings](https://api.scryfall.com/cards/c783dfd2-a935-41e0-bd8e-97ac81f771b2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2013-07-01* — Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn't provide any additional benefit.
+  - *2013-07-01* — If the creature type of a Sliver changes so it's no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures.
+  - *2021-03-19* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to a Sliver may become lethal if Might Sliver leaves the battlefield during that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/903/might-sliver) · oracle_id `92f5f80c-de1a-44e8-93f1-e405241c1e82` · printing: CMM #903 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mightstone
 
@@ -275,7 +287,9 @@
   > Crew 4
 - **Keywords:** Crew, Trample, Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6068 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/324/mighty-servant-of-leuk-o) · oracle_id `0b59099f-2172-4eab-9c0d-7048e6771018` · printing: CLB #324 (2022-06-10) · [rulings](https://api.scryfall.com/cards/257f12c2-db58-413f-9896-6e556bd9c0d9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-06-10* — An ability that triggers whenever a Vehicle "becomes crewed" triggers when its crew ability resolves. In this case, it will trigger only if exactly two creatures were tapped to pay the crew cost of the ability that caused it to become crewed for the first time that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/324/mighty-servant-of-leuk-o) · oracle_id `0b59099f-2172-4eab-9c0d-7048e6771018` · printing: CLB #324 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Migloz, Maze Crusher
 
@@ -312,6 +326,7 @@
   > Cycling {2} ({2}, Discard this card: Draw a card.)
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1229 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/262/migration-path) · oracle_id `db4907f3-4071-47c4-9329-96b4813435be` · printing: TDC #262 (2025-04-11) · [rulings](https://api.scryfall.com/cards/21e3dfad-69b6-416c-966b-0d9c876d22fe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Migratory Greathorn
@@ -324,6 +339,7 @@
   > Whenever this creature mutates, search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
 - **Keywords:** Mutate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5559 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/165/migratory-greathorn) · oracle_id `4c6c8155-efa0-4c22-b255-34974a80c496` · printing: IKO #165 (2020-04-24) · [rulings](https://api.scryfall.com/cards/6a2a287b-b83f-444f-84f7-e388beb616c2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Migratory Route
@@ -335,4 +351,5 @@
   > Basic landcycling {2} ({2}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)
 - **Keywords:** Landcycling, Basic landcycling, Typecycling, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7212 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/336/migratory-route) · oracle_id `f6a74582-62b6-48d1-89d6-e26059229840` · printing: MOC #336 (2023-04-21) · [rulings](https://api.scryfall.com/cards/e8c8f35e-faa8-4537-b320-c84ebe8e71e4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

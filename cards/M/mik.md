@@ -25,6 +25,7 @@
   > {T}: Put a +1/+1 counter on Mikaeus.
   > {T}, Remove a +1/+1 counter from Mikaeus: Put a +1/+1 counter on each other creature you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2001 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/197/mikaeus-the-lunarch) · oracle_id `82f3faa8-39fa-450b-843f-d60a4c36d8f7` · printing: MOC #197 (2023-04-21) · [rulings](https://api.scryfall.com/cards/fb885d30-c6e5-494a-bc01-3d5085b8e262/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mikaeus, the Unhallowed
@@ -38,7 +39,12 @@
   > Other non-Human creatures you control get +1/+1 and have undying. (When a creature with undying dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.)
 - **Keywords:** Intimidate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1325 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/173/mikaeus-the-unhallowed) · oracle_id `5d27c63e-d1ef-48af-b51d-01ebc6daeac9` · printing: CMM #173 (2023-08-04) · [rulings](https://api.scryfall.com/cards/bc1f42a2-fe11-45da-9552-069803b4068a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2018-12-07* — Any damage dealt to you by a Human will cause Mikaeus’s ability to trigger, including noncombat damage dealt to you by a Human and damage dealt to you by a Human you control.
+  - *2018-12-07* — If a Human deals damage to you at the same time that Mikaeus is dealt lethal damage, Mikaeus’s triggered ability triggers. That Human will be destroyed even though Mikaeus has left the battlefield.
+  - *2018-12-07* — If a non-Human creature you control without a +1/+1 counter dies at the same time as Mikaeus, that creature’s undying ability granted by Mikaeus triggers and will return it to the battlefield.
+  - *2018-12-07* — The +1/+1 bonus that Mikaeus gives to other non-Human creatures you control isn’t a counter. It won’t prevent undying from triggering.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/173/mikaeus-the-unhallowed) · oracle_id `5d27c63e-d1ef-48af-b51d-01ebc6daeac9` · printing: CMM #173 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mikey & Don, Party Planners
 
@@ -63,6 +69,7 @@
 - **Flavor text** (TMT printing):
   > *Their strength hailed not from what they shared, but from how their differences complemented one another.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7117 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/158/mikey-&-leo-chaos-&-order) · oracle_id `a86117c1-b83d-4350-9a10-a23b7e67e1bd` · printing: TMT #158 (2026-03-06) · [rulings](https://api.scryfall.com/cards/9cfeb2b4-937c-4bcc-bb03-467cc0effba2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mikey & Mona, Mutant Sitters
@@ -88,4 +95,5 @@
   > *"Center of the Sea, Eye of the World, Shrine of Enlightenment. Seek it for answers. Seek it for healing. Seek it and return transformed."*
   > *—Scroll fragment from the ruins of Minamo*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1185 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/217/mikokoro-center-of-the-sea) · oracle_id `a4580a1d-141e-449b-9018-e0258130634b` · printing: DMC #217 (2022-09-09) · [rulings](https://api.scryfall.com/cards/d80eb098-5433-4b1e-aad5-0fd31bf598dd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

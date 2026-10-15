@@ -74,6 +74,7 @@
   > *"Theory? Meet practice."*
   > *—Tam, Quandrix second-year*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4552 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/58/mathemagics) · oracle_id `5f56a303-b3da-41df-a959-7823a87ee60c` · printing: SOS #58 (2026-04-24) · [rulings](https://api.scryfall.com/cards/cd3cc172-5609-4bc8-9d84-50680fed6df9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mathise, Surge Channeler
@@ -133,6 +134,7 @@
 - **Flavor text** (FIN printing):
   > *"Don't you know it's rude to enter without knocking? Hmph, the youth of today..."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4163 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/62/matoya-archon-elder) · oracle_id `ef6c0054-3a89-4fac-b822-37c7d2514489` · printing: FIN #62 (2025-06-13) · [rulings](https://api.scryfall.com/cards/1dd61cf6-2fb5-4cff-ab00-7677ac85774c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Matsu-Tribe Birdstalker
@@ -188,7 +190,10 @@
   > ({C} represents colorless mana.)
   > When this creature dies, reveal the top card of your library. You may put that card onto the battlefield if it's a permanent card with mana value 3 or less. Otherwise, put that card into your hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8057 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/806/matter-reshaper) · oracle_id `38538aff-b6f9-4c30-992e-7fd78da3c44a` · printing: CMM #806 (2023-08-04) · [rulings](https://api.scryfall.com/cards/38e6e9aa-2e5f-49f7-beef-b876c070d72d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2016-01-22* — If you don’t put the card onto the battlefield for any reason, you put the card into your hand.
+  - *2016-01-22* — If you put an Aura card onto the battlefield this way, you choose what it enchants as it enters the battlefield. You must be able to choose a legal player or permanent or you can’t put the Aura onto the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/806/matter-reshaper) · oracle_id `38538aff-b6f9-4c30-992e-7fd78da3c44a` · printing: CMM #806 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Matt Murdock, Justice Seeker
 
@@ -214,4 +219,9 @@
   > *Centuries ago, under siege from the Mycotyrant, the Oltec sealed the Core off from the world... until Huatli's party arrived.*
 - **Keywords:** Transform, Fathomless descent
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1821 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/256/matzalantli-the-great-door-the-core) · oracle_id `16182e01-22ff-4786-985d-919b47c4aa4d` · printing: LCI #256 (2023-11-17) · [rulings](https://api.scryfall.com/cards/b4c31b29-06ba-436d-a3d9-18f4796c39be/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2023-11-10* — Cards with the ability word "fathomless descent" have abilities that care how many permanent cards are in your graveyard.
+  - *2023-11-10* — Some descend triggered abilities include intervening "if" clauses (i.e. "if you have [four or eight] permanent cards in your graveyard" in the middle of the ability). Each of these abilities checks your graveyard at the moment it would trigger to see if it does. If you don't have the required number of permanent cards in your graveyard at that time, the ability doesn't trigger at all. If it does trigger, it will check again as it tries to resolve. If you don't have the required number of permanent cards in your graveyard at that time, the ability won't resolve and none of its effects will happen.
+  - *2023-11-10* — The Core's activated ability is a mana ability. It doesn't use the stack and can't be responded to.
+  - *2023-11-10* — Transforming Matzalantli doesn't cause it to leave the battlefield. It also doesn't cause it to become untapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/256/matzalantli-the-great-door-the-core) · oracle_id `16182e01-22ff-4786-985d-919b47c4aa4d` · printing: LCI #256 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

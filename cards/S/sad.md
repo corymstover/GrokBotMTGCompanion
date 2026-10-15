@@ -131,7 +131,9 @@
 - **Flavor text** (DSC printing):
   > *"Shame about your friends. Wanna see what's inside yours?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5424 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/24/sadistic-shell-game) · oracle_id `88c3fc46-f2f5-440c-80a6-fed5b42cd340` · printing: DSC #24 (2024-09-27) · [rulings](https://api.scryfall.com/cards/4c5c8eb3-c866-4974-90eb-be99c07af1a1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-09-20* — Each player will know what choices players earlier in the turn order made.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/24/sadistic-shell-game) · oracle_id `88c3fc46-f2f5-440c-80a6-fed5b42cd340` · printing: DSC #24 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sadistic Skymarcher
 

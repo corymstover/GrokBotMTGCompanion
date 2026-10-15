@@ -190,7 +190,9 @@
   > *Now she is New Capenna's greatest hope.*
 - **Keywords:** Flying, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1629 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/141/giada-font-of-hope) · oracle_id `48e6d3d8-2f27-4017-acdd-40bce8cdbc02` · printing: FDN #141 (2024-11-15) · [rulings](https://api.scryfall.com/cards/8ae6fc26-cfad-4da8-98d9-49c27c24d293/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-11-08* — "Each Angel you already control" means each Angel you control other than the Angel entering, including Giada. It doesn't matter if some or all of the Angels on the battlefield entered after Giada did.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/141/giada-font-of-hope) · oracle_id `48e6d3d8-2f27-4017-acdd-40bce8cdbc02` · printing: FDN #141 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Giant Adephage
 
@@ -205,7 +207,9 @@
   > *—Dars Gostok, Firefist captain*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2582 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/179/giant-adephage) · oracle_id `8e1d261d-b8d3-4fb1-922d-47789854b5b3` · printing: DSC #179 (2024-09-27) · [rulings](https://api.scryfall.com/cards/893b22a7-b46c-4473-8d88-11ddf4406af1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-01-24* — As the token is created, it checks the printed values of the Giant Adephage it's copying—or, if the Giant Adephage whose ability triggered was itself a token, the original characteristics of that token as stated by the effect that put it onto the battlefield—as well as any copy effects that have been applied to it. It won't copy counters on the Giant Adephage, nor will it copy other effects that have changed Giant Adephage's power, toughness, types, color, or so on. Normally, this means the token will simply be a Giant Adephage. But if any copy effects have affected that Giant Adephage, they're taken into account.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/179/giant-adephage) · oracle_id `8e1d261d-b8d3-4fb1-922d-47789854b5b3` · printing: DSC #179 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Giant Albatross
 
@@ -244,6 +248,7 @@
   > Other creatures you control have trample and ward {2}.
 - **Keywords:** Trample, Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5244 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/233/giant-ankheg) · oracle_id `ca905672-50c2-4e19-9d08-2d3f8e3debfd` · printing: CLB #233 (2022-06-10) · [rulings](https://api.scryfall.com/cards/bc420f2c-09fa-4f90-a1c3-7d151ecaa8b3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Giant Badger
@@ -390,6 +395,7 @@
 - **Flavor text** (MSH printing):
   > *"Cap called for Giant-Man, not Ant-Man. Something big must be going down."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3293 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/167/giant-growth) · oracle_id `5748ebf1-24e3-499d-ab7c-c2cebd462a24` · printing: MSH #167 (2026-06-26) · [rulings](https://api.scryfall.com/cards/fd1f95bf-48ea-455a-8a6c-0249b11c8900/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Giant Harbinger
@@ -427,7 +433,18 @@
 - **Flavor text** (ELD printing):
   > *"What size advantage? They never even see me coming."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7381 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eld/14/giant-killer-chop-down) · oracle_id `91e71279-c9d2-4873-916a-59da03a65741` · printing: ELD #14 (2019-10-04) · [rulings](https://api.scryfall.com/cards/75754468-2850-42e6-ab22-61ff7b9d1214/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2019-10-04* — An adventurer card is a permanent card in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it's in your graveyard, Giant Killer is a white creature card whose mana value is 1. It can't be the target of the triggered ability of Mystic Sanctuary.
+  - *2019-10-04* — Casting a card as an Adventure isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Adventure.
+  - *2019-10-04* — If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner's graveyard as it resolves. For as long as it remains exiled, that player may cast it as a permanent spell. If an Adventure spell leaves the stack in any way other than resolving (most likely by being countered or by failing to resolve because its targets have all become illegal), that card won't be exiled and the spell's controller won't be able to cast it as a permanent later.
+  - *2019-10-04* — If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won't give you permission to cast it as a permanent spell.
+  - *2019-10-04* — If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it's not possible to cast the copy as a permanent.
+  - *2019-10-04* — If an effect instructs you to choose a card name, you may choose the alternative Adventure name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2019-10-04* — If an object becomes a copy of an object that has an Adventure, the copy also has an Adventure. If it changes zones, it will either cease to exist (if it's a token) or cease to be a copy (if it's a nontoken permanent), and so you won't be able to cast it as an Adventure.
+  - *2019-10-04* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell. For example, if Giant Killer is exiled with the last ability of Vivien, Champion of the Wilds, you can't cast it as Chop Down.
+  - *2019-10-04* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+  - *2019-10-04* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eld/14/giant-killer-chop-down) · oracle_id `91e71279-c9d2-4873-916a-59da03a65741` · printing: ELD #14 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Giant Koi
 
@@ -519,7 +536,14 @@
   > *They look tasty, but best to plant them.*
 - **Keywords:** Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9214 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eld/159/giant-opportunity) · oracle_id `395aa62e-0786-4bd8-a88f-998e4700742e` · printing: ELD #159 (2019-10-04) · [rulings](https://api.scryfall.com/cards/40383646-3fc4-4267-b9ad-bf90a85972fc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2019-10-04* — You can't sacrifice more than two Foods to create more than one Giant token.
+  - *2019-10-04* — You choose whether to sacrifice two Foods as Giant Opportunity resolves, not as you cast it.
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, you can sacrifice Tough Cookie (an Artifact Creature — Food Golem) to activate Maraleaf Rider's ability (an ability with "Sacrifice a Food" in its cost).
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eld/159/giant-opportunity) · oracle_id `395aa62e-0786-4bd8-a88f-998e4700742e` · printing: ELD #159 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Giant Ox
 
@@ -837,7 +861,12 @@
   > 0: Create a 2/2 white Knight Ally creature token.
   > −4: You get an emblem with "Creatures you control get +1/+1."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8963 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/29/gideon-ally-of-zendikar) · oracle_id `51eae7ff-fed9-4afe-8053-7690379449dd` · printing: BFZ #29 (2015-10-02) · [rulings](https://api.scryfall.com/cards/187e887c-c39d-4d25-a506-cdc95fc70316/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2015-08-25* — Gideon's first ability causes him to become a creature with the creature types Human, Soldier, and Ally. He remains a planeswalker with the planeswalker type Gideon. (He also retains any other card types or subtypes he may have had.) Each subtype is correlated to the proper card type: planeswalker is only a type (not a creature type), and Human, Soldier, and Ally are just creature types (not planeswalker types).
+  - *2015-08-25* — Gideon's first ability doesn't count as a creature entering the battlefield. Gideon was already on the battlefield; he only changed his types. Specifically, your rally abilities won't trigger. (Of course, Gideon's second ability will cause rally abilities to trigger.)
+  - *2015-08-25* — If Gideon becomes a creature the same turn he enters the battlefield, you can't attack with him or use any of his {T} abilities (if he gains any).
+  - *2015-08-25* — If damage that can't be prevented is dealt to Gideon after his first ability has resolved, that damage will have all applicable results: specifically, the damage is marked on Gideon (since he's a creature) and that damage causes that many loyalty counters to be removed from him (since he's a planeswalker). Even though he has indestructible, if Gideon has no loyalty counters on him, he's put into his owner's graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/29/gideon-ally-of-zendikar) · oracle_id `51eae7ff-fed9-4afe-8053-7690379449dd` · printing: BFZ #29 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gideon Blackblade
 
@@ -850,7 +879,13 @@
   > +1: Up to one other target creature you control gains your choice of vigilance, lifelink, or indestructible until end of turn.
   > −6: Exile target nonland permanent.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8715 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/20/gideon-blackblade) · oracle_id `813c19f5-3580-488d-9eee-c7a563def532` · printing: RVR #20 (2024-01-12) · [rulings](https://api.scryfall.com/cards/41326ca6-f815-4af7-b022-67db127bc125/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2019-05-03* — Any counters that are put on Gideon remain on him while he's not a creature, even if they have no effect on a noncreature planeswalker.
+  - *2019-05-03* — If an Equipment becomes attached to Gideon while he's a creature, it'll become unattached during the next upkeep that isn't yours. The same is true of any Auras that become attached to Gideon that can't enchant a noncreature planeswalker.
+  - *2019-05-03* — If an effect causes Gideon to lose all abilities during your turn, he's still a Human Soldier creature and a Gideon planeswalker. This is because his first ability applies before that ability is lost.
+  - *2019-05-03* — If damage that can't be prevented is dealt to Gideon during your turn, that damage will have all applicable results: specifically, the damage is marked on Gideon (since he's a creature) and that damage causes that many loyalty counters to be removed from him (since he's a planeswalker). Even though he has indestructible, if Gideon has no loyalty counters on him, he's put into his owner's graveyard.
+  - *2019-05-03* — You choose which ability the target creature gains as Gideon's first loyalty ability resolves, not as you activate it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/20/gideon-blackblade) · oracle_id `813c19f5-3580-488d-9eee-c7a563def532` · printing: RVR #20 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gideon, Champion of Justice
 
@@ -1025,7 +1060,14 @@
 - **Flavor text** (MKC printing):
   > *To Liliana's surprise, the cost of betraying Bolas did not fall on her.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5251 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/68/gideons-sacrifice) · oracle_id `1af63a5e-2bec-4f8d-a373-d9ce43a7d242` · printing: MKC #68 (2024-02-09) · [rulings](https://api.scryfall.com/cards/d483b409-1853-4456-a077-daeb77e165ba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2019-05-03* — Gideon's Sacrifice doesn't change the source of the damage or whether the damage is combat damage.
+  - *2019-05-03* — Gideon's Sacrifice has no effect on damage already dealt earlier in the turn.
+  - *2019-05-03* — If the chosen creature or planeswalker isn't on the battlefield or isn't a creature or planeswalker at the time damage would be dealt, the damage won't be redirected.
+  - *2019-05-03* — If you cast more than one Gideon's Sacrifice in one turn, all damage that would be dealt at once to you and/or permanents you control is dealt to one of the chosen permanents of your choice. It's not dealt to all of them, and you can't split the damage between them. The next time damage would be dealt to you, you may choose a different one of those permanents to be dealt that damage.
+  - *2019-05-03* — If you control no creatures or planeswalkers as Gideon's Sacrifice resolves, nothing happens. The damage redirection effect won't be able to be applied to any damage events.
+  - *2019-05-03* — More damage can be redirected to the chosen creature than it has toughness or to the chosen planeswalker than it has loyalty, as long as that damage is all dealt at once (like combat damage is) or is all dealt while a single spell or ability is resolving.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/68/gideons-sacrifice) · oracle_id `1af63a5e-2bec-4f8d-a373-d9ce43a7d242` · printing: MKC #68 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gideon's Triumph
 
@@ -1076,6 +1118,7 @@
   > *A few aetherborn have discovered a way to sustain their own existences at the cost of an insatiable hunger for the life essence of other beings.*
 - **Keywords:** Lifelink, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4772 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/239/gifted-aetherborn) · oracle_id `0c6a6587-2b3f-40d1-a5f2-06128da0d52e` · printing: JMP #239 (2020-07-17) · [rulings](https://api.scryfall.com/cards/8644d4d1-8499-40a8-a01f-68172c82bf58/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gift Horse
@@ -1109,7 +1152,12 @@
   > As this Aura is turned face up, you may attach it to a creature.
 - **Keywords:** Morph, Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6668 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c19/17/gift-of-doom) · oracle_id `2dd1450e-902e-480a-9c42-1c47549d2eeb` · printing: C19 #17 (2019-08-23) · [rulings](https://api.scryfall.com/cards/ad6e1ba7-047b-41a3-8ab4-17a5c5476749/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2019-08-23* — If there's no creature you can legally attach Gift of Doom to as you turn it face up, or if you choose not to attach it to a creature, it's put into its owner's graveyard.
+  - *2019-08-23* — No player may take any actions between the time you announce that you're turning Gift of Doom face up and the time it's attached to the chosen creature.
+  - *2019-08-23* — This doesn't target the creature Gift of Doom will enchant, so an opponent's creature with hexproof or a creature with shroud may be chosen this way. The chosen recipient must be able to legally be enchanted by the Aura, so a creature with protection from black can't be chosen this way.
+  - *2019-08-23* — You can't pay Gift of Doom's morph cost more than once.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c19/17/gift-of-doom) · oracle_id `2dd1450e-902e-480a-9c42-1c47549d2eeb` · printing: C19 #17 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gift of Estates
 
@@ -1118,7 +1166,10 @@
 - **Oracle text:**
   > If an opponent controls more lands than you, search your library for up to three Plains cards, reveal them, put them into your hand, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5114 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c14/73/gift-of-estates) · oracle_id `1bd70be6-752c-4ecb-a3e8-2bacec4b94fc` · printing: C14 #73 (2014-11-07) · [rulings](https://api.scryfall.com/cards/561e1994-0b8d-436c-9934-41c486dc8ff8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2005-08-01* — Gift of Estates does nothing if each of your opponents has the same number of lands or fewer as you.
+  - *2005-08-01* — You can find nonbasic lands if they have the Plains land type, such as dual lands (Tundra, et al).
+- **Source flags:** [Scryfall](https://scryfall.com/card/c14/73/gift-of-estates) · oracle_id `1bd70be6-752c-4ecb-a3e8-2bacec4b94fc` · printing: C14 #73 (2014-11-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gift of Fangs
 
@@ -1168,7 +1219,10 @@
   > When enchanted creature dies, return that card to the battlefield under its owner's control. Return this card to the battlefield attached to that creature at the beginning of the next end step.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1890 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/134/gift-of-immortality) · oracle_id `2c11c72f-5b04-47d8-bdf8-8d9d197ebc1b` · printing: MSC #134 (2026-06-26) · [rulings](https://api.scryfall.com/cards/4ae22015-073a-4666-9e3b-15dcf61f50ce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-09-15* — If the creature is no longer on the battlefield at the beginning of the next end step after it's returned to the battlefield, Gift of Immortality will remain in its owner's graveyard.
+  - *2013-09-15* — If the enchanted creature is a token, neither it nor Gift of Immortality will return to the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/134/gift-of-immortality) · oracle_id `2c11c72f-5b04-47d8-bdf8-8d9d197ebc1b` · printing: MSC #134 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gift of Orzhova
 
@@ -1194,7 +1248,9 @@
   > Enchanted land has "{T}: Add two mana of any one color."
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6858 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c21/191/gift-of-paradise) · oracle_id `43a86d36-9653-4498-a533-8b30b919cdbf` · printing: C21 #191 (2021-04-23) · [rulings](https://api.scryfall.com/cards/48273e83-139a-43a4-9bb8-171d3620da60/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-11-10* — If the target land is an illegal target by the time Gift of Paradise tries to resolve, it doesn't resolve. It won't enter the battlefield, so its enters-the-battlefield ability won't trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c21/191/gift-of-paradise) · oracle_id `43a86d36-9653-4498-a533-8b30b919cdbf` · printing: C21 #191 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gift of Strands
 
@@ -1251,6 +1307,7 @@
 - **Flavor text** (MH3 printing):
   > *Ohran mages willingly endure the bites of vipers, believing the snakes bestow great power on those who survive their venom.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1711 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/156/gift-of-the-viper) · oracle_id `7b1a59db-0ffc-490b-a881-c8192f3747db` · printing: MH3 #156 (2024-06-14) · [rulings](https://api.scryfall.com/cards/17fa0b62-d474-4dc7-9631-9d0a9d99e5e2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gift of the Woods
@@ -1320,7 +1377,9 @@
 - **Oracle text:**
   > Search your library for up to four cards with different names and reveal them. Target opponent chooses two of those cards. Put the chosen cards into your graveyard and the rest into your hand. Then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1540 · Game Changer: **yes** · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/51/gifts-ungiven) · oracle_id `58aec411-167d-4709-8560-793eaaed62c5` · printing: 2X2 #51 (2022-07-08) · [rulings](https://api.scryfall.com/cards/cc950b6c-0346-4939-b36b-9f10a75f7a32/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-03-14* — You can choose to find fewer than four cards if you want. If you find one or two cards, your opponent must choose for them to be put into your graveyard, even if they don't want to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/51/gifts-ungiven) · oracle_id `58aec411-167d-4709-8560-793eaaed62c5` · printing: 2X2 #51 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gigadrowse
 
@@ -1395,7 +1454,21 @@
   > *"I appreciate things that exceed expectations."*
   > *—Mizzix*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9058 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c15/11/gigantoplasm) · oracle_id `52fdfe4b-10a7-421d-80ea-f6c39013062b` · printing: C15 #11 (2015-11-13) · [rulings](https://api.scryfall.com/cards/27163b43-61e2-495c-b544-55c349eba99c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2015-11-04* — Any enters-the-battlefield abilities of the copied creature will trigger when Gigantoplasm enters the battlefield. Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the chosen creature will also work.
+  - *2015-11-04* — Effects that modify Gigantoplasm's power and/or toughness, such as the effect of Giant Growth or Glorious Anthem, will apply to Gigantoplasm no matter when they started applying. The same is true for counters that affect its power and/or toughness and effects that switch its power and toughness.
+  - *2015-11-04* — Gigantoplasm copies exactly what was printed on the original creature and nothing more (unless that creature is copying something else or is a token; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras attached to it, or any non-copy effects that have changed its power, toughness, types, color, etc.
+  - *2015-11-04* — However, the effect of that ability isn't copiable. That is, if Gigantoplasm is a copy of a creature with base power and toughness 2/2 and you activate its ability making it a 4/4 creature, another creature that becomes a copy of Gigantoplasm will have base power and toughness 2/2.
+  - *2015-11-04* — If Gigantoplasm isn't a creature (perhaps because it copied a land that had temporarily become a creature), you can still activate the ability "{X}: This creature has base power and toughness X/X." However, this ability won't have any effect, and it won't turn Gigantoplasm into a creature.
+  - *2015-11-04* — If Gigantoplasm somehow enters the battlefield at the same time as another creature, it can't become a copy of that creature. You may choose only a creature that's already on the battlefield.
+  - *2015-11-04* — If the chosen creature has {X} in its mana cost, X is 0. The ability that Gigantoplasm gives itself doesn't affect an {X} in its mana cost.
+  - *2015-11-04* — If the chosen creature is copying something else (for example, if the chosen creature is another Gigantoplasm), then Gigantoplasm enters the battlefield as whatever the chosen creature was copying (plus any abilities it gained as part of the copy process, if applicable).
+  - *2015-11-04* — The activated ability Gigantoplasm gives itself becomes part of its copiable values. Unless the ability is overwritten by another copy effect, a creature that's a copy of Gigantoplasm will have that ability.
+  - *2015-11-04* — The activated ability overwrites all previous effects that set Gigantoplasm's base power and/or toughness to specific values. Other effects that set its base power and/or toughness that start to apply after the ability resolves (including ones created by subsequent activations of the ability) will overwrite the effect of the ability.
+  - *2015-11-04* — You can choose not to copy anything. In that case, Gigantoplasm enters the battlefield as a 0/0 Shapeshifter creature, and is probably put into the graveyard immediately.
+  - *2024-01-12* — If the chosen creature is a token, Gigantoplasm copies the original characteristics of that token as stated by the effect that created the token. Gigantoplasm isn't a token, even if it's copying one.
+  - *2024-01-12* — The activated ability that Gigantoplasm gives itself doesn't have a duration. It lasts until Gigantoplasm leaves the battlefield or another effect overwrites it (for example, if you activate the ability again once you have more mana available). Each time the ability resolves, it will overwrite any previous effects that set its power and toughness, including previous activations of the ability. Effects that otherwise modify Gigantoplasm's power and/or toughness, including +1/+1 counters, will still apply no matter when they took effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c15/11/gigantoplasm) · oracle_id `52fdfe4b-10a7-421d-80ea-f6c39013062b` · printing: C15 #11 (2015-11-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gigantosaurus
 
@@ -1408,6 +1481,7 @@
   > *"Each tooth is the length of a horse, and new ones grow in every sixteen days. Let's get a closer look!"*
   > *—Vivien Reid*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4323 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m19/185/gigantosaurus) · oracle_id `e666bae7-dd51-4921-8b89-7e8d423caba0` · printing: M19 #185 (2018-07-13) · [rulings](https://api.scryfall.com/cards/c1db84d8-d426-4c0d-b44e-5be7b0f5f5bf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gigapede
@@ -1445,7 +1519,11 @@
   > {5}: Monstrosity 5. (If this creature isn't monstrous, put five +1/+1 counters on it and it becomes monstrous.)
 - **Keywords:** Indestructible, Monstrosity
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2242 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/39/giggling-skitterspike) · oracle_id `ca02cb31-9850-48bf-bc8d-ed86a4d4d4f7` · printing: DSC #39 (2024-09-27) · [rulings](https://api.scryfall.com/cards/fba20e7e-9581-4a9b-bdda-5c85d3450d4c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-09-20* — If Giggling Skitterspike is no longer on the battlefield when its second ability resolves, use its power as it last existed on the battlefield to determine how much damage it deals.
+  - *2024-09-20* — Monstrous isn't an ability that a creature has. It's just something true about that creature. If the creature stops being a creature or loses its abilities, it will continue to be monstrous.
+  - *2024-09-20* — Once a creature becomes monstrous, it can't become monstrous again. If the creature is already monstrous when the monstrosity ability resolves, nothing happens.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/39/giggling-skitterspike) · oracle_id `ca02cb31-9850-48bf-bc8d-ed86a4d4d4f7` · printing: DSC #39 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gilacorn
 
@@ -1484,7 +1562,18 @@
   > *"Something mighty stirs in the forest. Can't you feel it?"*
 - **Keywords:** Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8770 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/230/gilanra-caller-of-wirewood) · oracle_id `4bda947d-493f-47a0-b0d2-516a6ef6b2c0` · printing: CMR #230 (2020-11-20) · [rulings](https://api.scryfall.com/cards/745d297d-4bb4-40cf-bb9c-99dac04e5069/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2020-11-10* — An ability that triggers when a player spends mana to cast a spell resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+  - *2020-11-10* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2020-11-10* — Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+  - *2020-11-10* — For a spell with {X} in its mana cost, use the value chosen for X to determine the spell's mana value.
+  - *2020-11-10* — If an effect causes Gilanra's ability to produce more than one mana (such as that of Mana Reflection), the delayed triggered ability will be created for each of those mana, and you'll draw a card each time one of those mana is spent to cast a spell with mana value 6 or greater. If you spend two of those mana to cast a single spell with mana value 6 or greater, you'll draw two cards.
+  - *2020-11-10* — If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+  - *2020-11-10* — If your Commander deck has two commanders, you can only include cards whose own color identities are also found in your commanders' combined color identities. If Falthis and Kediss are your commanders, your deck may contain cards with black and/or red in their color identity, but not cards with green, white, or blue.
+  - *2020-11-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from any one of them, not from both of them combined.
+  - *2020-11-10* — To have two commanders, both must have the partner ability as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
+  - *2020-11-10* — You can choose two commanders with partner that are the same color or colors. In Commander Draft, you can even choose two of the same commander with partner if you drafted them. If you do this, make sure you keep the number of times you've cast each from the command zone clear for "commander tax" purposes.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/230/gilanra-caller-of-wirewood) · oracle_id `4bda947d-493f-47a0-b0d2-516a6ef6b2c0` · printing: CMR #230 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gild
 
@@ -1534,7 +1623,10 @@
   > *Buyer beware.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2743 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/usg/76/gilded-drake) · oracle_id `7f06c098-6482-4bf3-a9a1-110d6d5b5703` · printing: USG #76 (1998-10-12) · [rulings](https://api.scryfall.com/cards/8de3fdae-cc2c-4a14-b15b-4fe1a983dfbf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — If the chosen creature to exchange is not on the battlefield at resolution, then sacrifice this card.
+  - *2004-10-04* — This ability is targeted, so Protection can prevent targeting if it exists when the ability would be put on the stack. Once the ability is on the stack, adding Protection will not counter the ability but the exchange will not take place since the target is illegal and you sacrifice this card on resolution.
+- **Source flags:** [Scryfall](https://scryfall.com/card/usg/76/gilded-drake) · oracle_id `7f06c098-6482-4bf3-a9a1-110d6d5b5703` · printing: USG #76 (1998-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gilded Ghoda
 
@@ -1602,6 +1694,7 @@
   > Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Treasure, Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9055 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/238/gilded-pinions) · oracle_id `8a7c3718-74a1-4f26-8e06-0e17db4b0077` · printing: SNC #238 (2022-04-29) · [rulings](https://api.scryfall.com/cards/dca8554a-f74c-4d2d-95b6-ef6e74431d7c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gilded Scuttler
@@ -1650,7 +1743,10 @@
 - **Oracle text:**
   > Whenever Gilgamesh enters or attacks, look at the top six cards of your library. You may put any number of Equipment cards from among them onto the battlefield. Put the rest on the bottom of your library in a random order. When you put one or more Equipment onto the battlefield this way, you may attach one of them to a Samurai you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4603 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/139/gilgamesh-master-at-arms) · oracle_id `c9432e87-38f6-4889-8f07-ae7cd045e532` · printing: FIN #139 (2025-06-13) · [rulings](https://api.scryfall.com/cards/1eb81329-fb7a-4347-b96c-9960a5c48e87/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-06-06* — If you put an Equipment with job select onto the battlefield with Gilgamesh's ability, the job select ability and the reflexive triggered ability will both trigger, and you'll choose the order in which those abilities go on the stack. For example, if you put the reflexive triggered ability on the top of the stack with the job select ability below it, the reflexive triggered ability will resolve first and allow you to attach the Equipment to a Samurai you control. After that, regardless of whether or not you chose to attach the Equipment to a Samurai you control, the job select ability will create a Hero token and attach the Equipment to the Hero token.
+  - *2025-06-06* — You can't use the reflexive triggered ability to try to attach an Equipment to a creature if that Equipment can't legally be attached to that creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/139/gilgamesh-master-at-arms) · oracle_id `c9432e87-38f6-4889-8f07-ae7cd045e532` · printing: FIN #139 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gilraen, Dúnedain Protector
 
@@ -1662,7 +1758,10 @@
 - **Flavor text** (LTC printing):
   > *"Ónen i-Estel Edain, ú-chebin estel anim."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4659 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/13/gilraen-d%C3%BAnedain-protector) · oracle_id `27e83bae-0ffe-4cc7-a6c0-cbca25f2ba4e` · printing: LTC #13 (2023-06-23) · [rulings](https://api.scryfall.com/cards/07efe592-5851-4577-b73f-0bb232feb68b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-06-16* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
+  - *2023-06-16* — When the card returns to the battlefield, it will be a new object with no connection to the card that was exiled. Auras attached to the exiled creature will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled creature will cease to exist.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/13/gilraen-d%C3%BAnedain-protector) · oracle_id `27e83bae-0ffe-4cc7-a6c0-cbca25f2ba4e` · printing: LTC #13 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gilt-Blade Prowler
 
@@ -1722,6 +1821,7 @@
 - **Flavor text** (LRW printing):
   > *Dawn's Light, greatest palace of Gilt-Leaf Wood, is built on tiers of wood and power.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4950 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lrw/268/gilt-leaf-palace) · oracle_id `85573a3d-2993-491a-8f8d-bbdb844fa84e` · printing: LRW #268 (2007-10-12) · [rulings](https://api.scryfall.com/cards/cc4bbbb5-4218-4b2a-9ca2-de4d5f5dda19/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gilt-Leaf Seer
@@ -1800,7 +1900,9 @@
   > *"Twenty-one!" cried Gimli. He hewed a two- handed stroke and laid the last Orc before his feet. "Now my count passes Master Legolas."*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6339 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/129/gimli-counter-of-kills) · oracle_id `96ebcd8b-ae3c-47b0-b895-bfc9848713e5` · printing: LTR #129 (2023-06-23) · [rulings](https://api.scryfall.com/cards/28b41c48-0715-49d9-98e5-e82b706da816/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-06-16* — If Gimli, Counter of Kills dies at the same time as one or more creatures an opponent controls, the last ability will trigger for each of those other creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/129/gimli-counter-of-kills) · oracle_id `96ebcd8b-ae3c-47b0-b895-bfc9848713e5` · printing: LTR #129 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gimli, Mournful Avenger
 
@@ -1827,6 +1929,7 @@
   > *"No Dwarf could be unmoved by such loveliness."*
 - **Keywords:** Treasure, Double strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3087 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/32/gimli-of-the-glittering-caves) · oracle_id `f6747295-d21d-40d7-bc70-baa4a37ae668` · printing: LTC #32 (2023-06-23) · [rulings](https://api.scryfall.com/cards/5afc0319-9e17-4e81-a0b6-e76645bacb04/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gimli's Axe
@@ -1839,6 +1942,7 @@
   > Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9545 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/130/gimlis-axe) · oracle_id `773b40b1-72f0-48a0-b210-2afa5df5485e` · printing: LTR #130 (2023-06-23) · [rulings](https://api.scryfall.com/cards/d8999b6c-e501-48d0-ae51-a35b96f996ec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gimli's Fury
@@ -1864,7 +1968,9 @@
   > *—Aragorn*
 - **Keywords:** Fight, Formidable
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4550 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/494/gimlis-reckless-might) · oracle_id `824abca7-b5e2-4ddb-ac7d-b7d04758a3c9` · printing: LTC #494 (2023-11-03) · [rulings](https://api.scryfall.com/cards/36f85c90-08e9-42cd-9d5d-55f77d5544aa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-11-03* — Gimli's Reckless Might's formidable ability checks the total power of creatures you control twice: once at the appropriate time to see if the ability will trigger, and again as the ability tries to resolve. If, at that time, the total power of creatures you control is no longer 8 or greater, the ability will have no effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/494/gimlis-reckless-might) · oracle_id `824abca7-b5e2-4ddb-ac7d-b7d04758a3c9` · printing: LTC #494 (2023-11-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gimme Five
 
@@ -1900,7 +2006,13 @@
   > When this land enters untapped, create a Food token. (It's an artifact with "{2}, {T}, Sacrifice this token: You gain 3 life.")
 - **Keywords:** Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2892 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c21/290/gingerbread-cabin) · oracle_id `fa98c367-0312-49c6-abef-72e5ead4cc7d` · printing: C21 #290 (2021-04-23) · [rulings](https://api.scryfall.com/cards/3b583cc8-95e6-4772-afe3-d405b65836e0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2019-10-04* — As these lands are entering the battlefield, they check for lands that are already on the battlefield. They won't see lands that are entering the battlefield at the same time (due to Scapeshift, for example).
+  - *2019-10-04* — If another effect puts these lands onto the battlefield tapped, they enter tapped, even if you control enough lands with the appropriate basic land type.
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c21/290/gingerbread-cabin) · oracle_id `fa98c367-0312-49c6-abef-72e5ead4cc7d` · printing: C21 #290 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gingerbread Hunter // Puny Snack
 
@@ -1927,7 +2039,13 @@
   > *Sometimes, "as fast as you can" isn't quite fast enough.*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1682 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/246/gingerbrute) · oracle_id `10b8d4c7-7553-4d76-b643-d98b80701e13` · printing: WOE #246 (2023-09-08) · [rulings](https://api.scryfall.com/cards/09a4578a-7dc6-4da3-93ee-913b10be5740/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2019-10-04* — Activating Gingerbrute's middle ability after it has become blocked by a creature without haste won't cause it to become unblocked.
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, you can sacrifice Tough Cookie (an Artifact Creature — Food Golem) to activate Maraleaf Rider's ability (an ability with "Sacrifice a Food" in its cost).
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/246/gingerbrute) · oracle_id `10b8d4c7-7553-4d76-b643-d98b80701e13` · printing: WOE #246 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ginger, Queen of Sweets
 
@@ -2004,7 +2122,14 @@
   > *"A sentiment that warms my heart, sister."*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3999 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/237/gisa-and-geralf) · oracle_id `20e94d0f-6887-45f8-a137-877011d786c6` · printing: INR #237 (2025-01-24) · [rulings](https://api.scryfall.com/cards/bce9bf8d-4d22-4967-bd9e-27fe444ef3f6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-01-24* — If a Zombie card is put into your graveyard during your main phase and the stack is empty, you have a chance to cast it before any player may attempt to remove that card from your graveyard.
+  - *2025-01-24* — If multiple effects allow you to cast a Zombie creature spell from your graveyard, such as those of Gisa and Geralf and Karador, Ghost Chieftain, you must announce which permission you’re using as you begin to cast the spell.
+  - *2025-01-24* — If you cast one Zombie creature spell from your graveyard and then have a new Gisa and Geralf come under your control in the same turn, you may cast another Zombie creature spell from your graveyard that turn.
+  - *2025-01-24* — Once you begin to cast the Zombie spell, losing control of Gisa and Geralf won’t affect the spell.
+  - *2025-01-24* — You must follow the normal timing permissions and restrictions of the Zombie spell you cast from your graveyard.
+  - *2025-01-24* — You must pay the costs to cast that Zombie spell. If it has an alternative cost, you may cast it for that cost instead.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/237/gisa-and-geralf) · oracle_id `20e94d0f-6887-45f8-a137-877011d786c6` · printing: INR #237 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gisa, Glorious Resurrector
 
@@ -2015,7 +2140,15 @@
   > If a creature an opponent controls would die, exile it instead.
   > At the beginning of your upkeep, put all creature cards exiled with Gisa onto the battlefield under your control. They gain decayed. (A creature with decayed can't block. When it attacks, sacrifice it at end of combat.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2881 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mid/103/gisa-glorious-resurrector) · oracle_id `f1354b1b-896c-4492-b0c0-3dd07c6d3917` · printing: MID #103 (2021-09-24) · [rulings](https://api.scryfall.com/cards/63461076-a13d-488d-bd82-ceac441341c8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2021-09-24* — Because creatures controlled by opponents aren't dying due to Gisa's replacement effect, any "when [this creature] dies" triggered abilities those creatures have won't trigger.
+  - *2021-09-24* — Decayed does not create any attacking requirements. You may choose not to attack with a creature that has decayed.
+  - *2021-09-24* — Decayed does not grant haste. Creatures with decayed that enter the battlefield during your turn may not attack until your next turn.
+  - *2021-09-24* — Decayed represents a static ability and a triggered ability. "Decayed" means "This creature can't block" and "When this creature attacks, sacrifice it at end of combat."
+  - *2021-09-24* — Gisa does not grant haste to the creatures that are returned to the battlefield, so you normally won't be able to attack with them the turn they are returned.
+  - *2021-09-24* — If a creature your opponent controls would die and more than one effect would cause it to be exiled, that opponent chooses which one to apply. If the creature is exiled due to some other replacement effect, it will not be returned to the battlefield with Gisa.
+  - *2021-09-24* — Once a creature with decayed attacks, it will be sacrificed at end of combat, even if it no longer has decayed at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mid/103/gisa-glorious-resurrector) · oracle_id `f1354b1b-896c-4492-b0c0-3dd07c6d3917` · printing: MID #103 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gisa's Bidding
 
@@ -2053,7 +2186,13 @@
   > Whenever you commit a crime, create two tapped 2/2 blue and black Zombie Rogue creature tokens. This ability triggers only once each turn. (Targeting opponents, anything they control, and/or cards in their graveyards is a crime.)
 - **Keywords:** Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3313 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/89/gisa-the-hellraiser) · oracle_id `696363c9-e8a7-4c65-b65c-4a94891ec43d` · printing: OTJ #89 (2024-04-19) · [rulings](https://api.scryfall.com/cards/db7c07b2-02b2-4e62-bf1b-4848e06eec28/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-04-12* — A player can commit only one crime per spell or ability they control. Targeting multiple opponents, permanents, spells, abilities, and/or cards with the same spell or ability doesn’t constitute committing multiple crimes.
+  - *2024-04-12* — A player commits a crime as they cast a spell, activate an ability, or put a triggered ability on the stack that targets at least one opponent, at least one permanent, spell, or ability an opponent controls, and/or at least one card in an opponent’s graveyard.
+  - *2024-04-12* — Changing the target or targets of a spell or ability won’t affect whether or not the controller of that spell or ability has committed a crime. Only the initial targets chosen for that spell or ability are used to determine whether or not its controller committed a crime.
+  - *2024-04-12* — For example, an ability that triggers when you cast a spell that targets an opponent will trigger at the same time as an ability that triggers whenever you commit a crime. Those abilities can be put on the stack in either order (if you control them both), and they’ll both resolve before the spell that caused them to trigger.
+  - *2024-04-12* — The spell or ability that constituted a crime doesn’t have to have resolved yet or at all. As soon as you’re finished casting the spell, activating the ability, or putting the triggered ability on the stack, you’ve committed a crime.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/89/gisa-the-hellraiser) · oracle_id `696363c9-e8a7-4c65-b65c-4a94891ec43d` · printing: OTJ #89 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gisela, Blade of Goldnight
 
@@ -2066,7 +2205,11 @@
   > If a source would deal damage to you or a permanent you control, prevent half that damage, rounded up.
 - **Keywords:** Flying, First strike, Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1125 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/211/gisela-blade-of-goldnight) · oracle_id `66f9f325-5e8e-4ebf-b5b3-c6410d80f2c5` · printing: MKC #211 (2024-02-09) · [rulings](https://api.scryfall.com/cards/900b8908-ba51-472e-ab7a-43bd07f90577/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-03-16* — Gisela doubles damage dealt to opponents and permanents your opponents control from any source, including sources controlled by those opponents.
+  - *2018-03-16* — If damage dealt by a source you control is being divided or assigned among multiple permanents an opponent controls or among an opponent and one or more permanents they control simultaneously, divide the original amount and double the results. For example, if you attack with a 5/5 creature with trample and your opponent blocks with a 2/2 creature, you can assign 2 damage to the blocker and 3 damage to the defending player. These amounts are then doubled to 4 and 6 damage, respectively. You can't double the damage to 10 first and then assign 2 to the creature and 8 to the player.
+  - *2018-03-16* — If multiple replacement effects would modify how damage would be dealt, the player being dealt damage (or the controller of the permanent being dealt damage) chooses the order in which to apply those effects.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/211/gisela-blade-of-goldnight) · oracle_id `66f9f325-5e8e-4ebf-b5b3-c6410d80f2c5` · printing: MKC #211 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gisela, the Broken Blade
 
@@ -2080,7 +2223,9 @@
   > *She now hears only Emrakul's murmurs.*
 - **Keywords:** Flying, Lifelink, First strike, Meld
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2547 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/24/gisela-the-broken-blade) · oracle_id `f3e23d5e-bd88-4e7c-a3fb-db2a8cb05b22` · printing: INR #24 (2025-01-24) · [rulings](https://api.scryfall.com/cards/04506bad-3856-4184-8dda-941ded60f41a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-07-13* — In a Commander game, your commander may be Bruna, the Fading Light or Gisela, the Broken Blade, and the other may be in your deck. If they meld into Brisela, Voice of Nightmares, Brisela will also be your commander; but if Brisela leaves the battlefield, only the card chosen as your commander at the start of the game may be put into the command zone.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/24/gisela-the-broken-blade) · oracle_id `f3e23d5e-bd88-4e7c-a3fb-db2a8cb05b22` · printing: INR #24 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gishath, Sun's Avatar
 
@@ -2092,7 +2237,9 @@
   > Whenever Gishath deals combat damage to a player, reveal that many cards from the top of your library. Put any number of Dinosaur creature cards from among them onto the battlefield and the rest on the bottom of your library in a random order.
 - **Keywords:** Vigilance, Haste, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2458 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/229/gishath-suns-avatar) · oracle_id `a311daab-40dc-4433-9ed8-feab7c558bbf` · printing: LCI #229 (2023-11-17) · [rulings](https://api.scryfall.com/cards/bc4a65de-23b5-48f0-b8b7-94608eaced3e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-09-29* — If you have fewer cards in your library than the amount of damage Gishath deals, you reveal the cards you have. Because you're not drawing cards, you don't lose the game.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/229/gishath-suns-avatar) · oracle_id `a311daab-40dc-4433-9ed8-feab7c558bbf` · printing: LCI #229 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gitaxian Anatomist
 
@@ -2233,6 +2380,7 @@
 - **Flavor text** (BRO printing):
   > *To some, desecration. To Gix, decoration.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4272 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/99/gixian-puppeteer) · oracle_id `9d6a9a37-a245-4503-baeb-9488553798ab` · printing: BRO #99 (2022-11-18) · [rulings](https://api.scryfall.com/cards/2cc86e18-ffbc-4c5f-a694-922332b146cc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gixian Skullflayer
@@ -2270,7 +2418,9 @@
   > • Return up to two creature cards from your graveyard to your hand.
   > • Each opponent sacrifices a creature with the greatest power among creatures they control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6792 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/97/gixs-command) · oracle_id `9270eb03-4600-40cc-83a5-ea987d5d4978` · printing: BRO #97 (2022-11-18) · [rulings](https://api.scryfall.com/cards/9606de75-c25f-411b-a271-258ac5a60987/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-10-14* — Since none of the modes have targets, you don't have to choose which creature is getting the counters or which cards you're returning until Gix's Command resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/97/gixs-command) · oracle_id `9270eb03-4600-40cc-83a5-ea987d5d4978` · printing: BRO #97 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gix, Yawgmoth Praetor
 
@@ -2281,4 +2431,8 @@
   > Whenever a creature deals combat damage to one of your opponents, its controller may pay 1 life. If they do, they draw a card.
   > {4}{B}{B}{B}, Discard X cards: Exile the top X cards of target opponent's library. You may play lands and cast spells from among cards exiled this way without paying their mana costs.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1991 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/181/gix-yawgmoth-praetor) · oracle_id `928d977e-cff0-4e0e-83bb-16d73a754f35` · printing: TDC #181 (2025-04-11) · [rulings](https://api.scryfall.com/cards/135c5948-4c95-4f24-b648-eda55ab637c8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-10-14* — If a spell you cast this way has an {X} in its mana cost, you must choose 0 for X.
+  - *2022-10-14* — You may play a land this way only during your own turn and only if you have not yet played a land this turn.
+  - *2022-10-14* — You must play the cards as you resolve the last ability. You can't wait and play them later.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/181/gix-yawgmoth-praetor) · oracle_id `928d977e-cff0-4e0e-83bb-16d73a754f35` · printing: TDC #181 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

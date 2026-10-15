@@ -322,7 +322,21 @@
   > Partner (You can have two commanders if both have partner.)
 - **Keywords:** Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5385 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/239/vial-smasher-the-fierce) · oracle_id `1b355139-4891-436c-9079-0ce17ecc2d65` · printing: DSC #239 (2024-09-27) · [rulings](https://api.scryfall.com/cards/cc7be939-2202-40fe-8899-a05682d76190/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2017-04-17* *(Scryfall note)* — Vial Smasher the Fierce is banned as a commander in Duel Commander format, but it may be part of your deck.
+  - *2020-11-10* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2020-11-10* — Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+  - *2020-11-10* — For spells with {X} in their mana costs, use the value chosen for X to determine the spell's mana value.
+  - *2020-11-10* — If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+  - *2020-11-10* — If your Commander deck has two commanders, you can only include cards whose own color identities are also found in your commanders' combined color identities. If Falthis and Kediss are your commanders, your deck may contain cards with black and/or red in their color identity, but not cards with green, white, or blue.
+  - *2020-11-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from any one of them, not from both of them combined.
+  - *2020-11-10* — The opponent to be dealt damage is chosen at random while the triggered ability is resolving. After that opponent is chosen, you choose whether damage will be dealt to that player or to a planeswalker they control, and if so, which planeswalker. No player may take any actions between the damage recipient being chosen and the damage being dealt.
+  - *2020-11-10* — To have two commanders, both must have the partner ability as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
+  - *2020-11-10* — Vial Smasher has to be on the battlefield at the moment you cast your first spell. If that spell causes Vial Smasher to leave the battlefield as an additional cost to cast it, Vial Smasher's ability can't trigger. If that spell is Vial Smasher itself, Vial Smasher's ability can't trigger.
+  - *2020-11-10* — Vial Smasher's triggered ability resolves before the spell that caused it to trigger. If Vial Smasher's ability resolves and the spell that caused it to trigger has been countered, use that spell's mana value as it last existed on the stack to determine how much damage is dealt.
+  - *2020-11-10* — Vial Smasher's triggered ability triggers when you cast your first spell each turn, regardless of whose turn it is.
+  - *2020-11-10* — You can choose two commanders with partner that are the same color or colors. In Commander Draft, you can even choose two of the same commander with partner if you drafted them. If you do this, make sure you keep the number of times you've cast each from the command zone clear for "commander tax" purposes.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/239/vial-smasher-the-fierce) · oracle_id `1b355139-4891-436c-9079-0ce17ecc2d65` · printing: DSC #239 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viashino Bey
 
@@ -665,7 +679,13 @@
   > Evoke {R/G}{R/G}
 - **Keywords:** Evoke
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8208 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/249/vibrance) · oracle_id `52867cdd-8bf2-4cae-bb8d-0f16a18a455b` · printing: ECL #249 (2026-01-23) · [rulings](https://api.scryfall.com/cards/b9f71c3b-0840-475f-9c17-fdacbc7f3213/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-11-17* — If this spell is copied, the copy will not have had any colors of mana paid for it, no matter what colors were spent on the original spell.
+  - *2025-11-17* — If you pay the evoke cost, you can have the creature's own triggered ability or abilities resolve before the evoke triggered ability. You can cast spells after that ability resolves but before you have to sacrifice the creature.
+  - *2025-11-17* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an evoke cost), add any cost increases, then apply any cost reductions. The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+  - *2025-11-17* — Vibrance's first and second abilities care about what mana was spent to pay its total cost, not just what mana was spent to pay the hybrid mana symbols in its cost.
+  - *2025-11-17* — Vibrance's first and second abilities check to see if at least two mana of the appropriate colors were spent to pay Vibrance's cost. It doesn't matter if more than two mana of that color was spent; the effect isn't multiplied.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/249/vibrance) · oracle_id `52867cdd-8bf2-4cae-bb8d-0f16a18a455b` · printing: ECL #249 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vibranium Energy Daggers
 
@@ -719,6 +739,7 @@
   > *"Where do you want to go? Jungle level? Ice level? Lava level? They have all the classics!"*
   > *—Donatello*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1374 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmc/82/vibrant-cityscape) · oracle_id `6a7f3e1f-6798-4644-b64c-7765f81f0938` · printing: TMC #82 (2026-03-06) · [rulings](https://api.scryfall.com/cards/b5e7cdb4-7b4d-4c6c-b016-d6cd3f9a04f2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vibrant Outburst
@@ -790,6 +811,7 @@
   > *"He is ambitious. Tireless. And utterly ruthless. Ideal for the frontier."*
   > *—Viceroy Elia Sotonores, report to the queen*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9095 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/128/vicious-conquistador) · oracle_id `26b077df-7a05-459a-b5ff-bf27767bb519` · printing: XLN #128 (2017-09-29) · [rulings](https://api.scryfall.com/cards/2a4b6ced-e8d3-47e9-bd27-3e0cb644afe4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vicious Hunger
@@ -836,7 +858,9 @@
 - **Flavor text** (SOS printing):
   > *So intense was their hatred they didn't realize how lonely they'd become. In the end, all they had was each other, and they hated that, too.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9011 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/241/vicious-rivalry) · oracle_id `90898c76-21f9-4597-88fe-dc9179911cde` · printing: SOS #241 (2026-04-24) · [rulings](https://api.scryfall.com/cards/6fa9cd18-3181-4373-ab65-49bf9de9487f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-03-20* — If a permanent has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/241/vicious-rivalry) · oracle_id `90898c76-21f9-4597-88fe-dc9179911cde` · printing: SOS #241 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vicious Rumors
 
@@ -849,7 +873,10 @@
   > *—Lazav*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4409 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/grn/89/vicious-rumors) · oracle_id `55b72b1f-6463-406a-8824-d99a3c028285` · printing: GRN #89 (2018-10-05) · [rulings](https://api.scryfall.com/cards/b1939952-608e-4786-beeb-a6ff0fa36624/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-10-05* — As Vicious Rumors resolves, it deals 1 damage to each opponent, then the next opponent in turn order (or, if it’s an opponent’s turn, that opponent) chooses a card in hand without revealing it, then each other opponent in turn order does the same. Then the chosen cards are discarded at the same time. Next, each opponent puts the top card of their library into their graveyard at the same time. Finally, you gain 1 life.
+  - *2018-10-05* — In a Two-Headed Giant game, Vicious Rumors causes the opposing team to lose 2 life, each of those players discards a card and puts the top card of their library into their graveyard, and you gain 1 life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/grn/89/vicious-rumors) · oracle_id `55b72b1f-6463-406a-8824-d99a3c028285` · printing: GRN #89 (2018-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vicious Shadows
 
@@ -873,7 +900,18 @@
   > Choose a Background (You can have a Background as a second commander.)
 - **Keywords:** Choose a background
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9846 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/156/viconia-drow-apostate) · oracle_id `22e36922-a81a-4a0c-b698-51b48bd91ce6` · printing: CLB #156 (2022-06-10) · [rulings](https://api.scryfall.com/cards/f631762a-e833-40a5-a6e9-b6cde38f62f0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2022-06-10* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2022-06-10* — Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+  - *2022-06-10* — Choose a Background is a variant of the partner ability. You may have two commanders if one of them is a legendary creature with the choose a background ability and the other is a legendary Background enchantment. Backgrounds and cards with choose a Background do not interact with cards which have any other partner ability.
+  - *2022-06-10* — If a card refers to a commander creature you own, a Background won't usually be counted or included for that effect. If another spell or ability causes your Background to become a creature, however, it will be included. Any effect that refers to your commander or a commander you own or control without specifying creature will apply to a Background that is your commander, as appropriate.
+  - *2022-06-10* — If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+  - *2022-06-10* — If you control a Background that grants an ability to commander creatures you own, and you own more than one commander creature, each of them will have that ability.
+  - *2022-06-10* — If your Commander deck has two commanders, you can include only cards whose own color identities are also found in your commanders’ combined color identities.
+  - *2022-06-10* — If your commander loses the choose a Background ability or stops being a Background during the game, as appropriate, it is still your commander.
+  - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won’t have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won’t usually be a creature anyway).
+  - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/156/viconia-drow-apostate) · oracle_id `22e36922-a81a-4a0c-b698-51b48bd91ce6` · printing: CLB #156 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Victimize
 
@@ -950,7 +988,11 @@
   > Eerie — Whenever an enchantment you control enters and whenever you fully unlock a Room, surveil 2 if this is the first time this ability has resolved this turn. If it's the second time, each opponent discards a card. If it's the third time, put a creature card from a graveyard onto the battlefield under your control.
 - **Keywords:** Surveil, Eerie
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5640 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/238/victor-valgavoths-seneschal) · oracle_id `92bf8f05-cbfd-42d8-8bc1-d7f2e46f9872` · printing: DSK #238 (2024-09-27) · [rulings](https://api.scryfall.com/cards/51392ece-c9f5-46b0-9dce-0a1a0343a536/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-09-20* — An ability that triggers "whenever you fully unlock a Room" triggers when a door becomes unlocked and the other door of that Room is already unlocked, or when both doors of that Room become unlocked simultaneously.
+  - *2024-09-20* — If a permanent with an eerie ability enters at the same time as one or more enchantments, its ability will trigger for each of those enchantments.
+  - *2024-09-20* — Victor's ability has no effect beyond the third time it resolves in a turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/238/victor-valgavoths-seneschal) · oracle_id `92bf8f05-cbfd-42d8-8bc1-d7f2e46f9872` · printing: DSK #238 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Victory Chimes
 
@@ -962,7 +1004,10 @@
 - **Flavor text** (C21 printing):
   > *The favored noisemaker of goblins ever since the wardens cracked down on explosives.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3745 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c21/274/victory-chimes) · oracle_id `be8b36ce-52c1-4ca0-9141-4c9a80dca3ea` · printing: C21 #274 (2021-04-23) · [rulings](https://api.scryfall.com/cards/9cb27fb1-41b1-49b8-bb3b-2c8a011ae7a9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-06-08* — The activated ability of Victory Chimes is a mana ability and doesn’t use the stack. However, you can’t normally activate mana abilities when another player is asked to pay mana. If you’d like to give someone else mana, you must give them mana before they need it.
+  - *2018-06-08* — Victory Chimes also untaps as normal during your untap step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c21/274/victory-chimes) · oracle_id `be8b36ce-52c1-4ca0-9141-4c9a80dca3ea` · printing: C21 #274 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Victory's Envoy
 
@@ -1022,7 +1067,10 @@
   > Search your library for up to three basic land cards and reveal them. Put two of them onto the battlefield tapped and the other into your hand, then shuffle.
 - **Keywords:** Freerunning
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5634 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/acr/43/viewpoint-synchronization) · oracle_id `2e338e09-5758-4cc2-9143-21f050a28677` · printing: ACR #43 (2024-07-05) · [rulings](https://api.scryfall.com/cards/b0f10999-c7c2-462e-bd75-e3710f7a3364/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-07-05* — If you find two or fewer basic land cards, you’ll put them onto the battlefield tapped. You won’t be able to put any of them into your hand, even if you want to.
+  - *2024-07-05* — Once an Assassin creature or commander you control deals combat damage to a player in a turn, you can cast spells for their freerunning costs for the rest of that turn. It doesn’t matter what happens to that Assassin or commander after that.
+- **Source flags:** [Scryfall](https://scryfall.com/card/acr/43/viewpoint-synchronization) · oracle_id `2e338e09-5758-4cc2-9143-21f050a28677` · printing: ACR #43 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vigean Graftmage
 
@@ -1156,7 +1204,12 @@
   > When Vigor is put into a graveyard from anywhere, shuffle it into its owner's library.
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1318 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/215/vigor) · oracle_id `70787d8b-0a40-43ea-837a-9617dc13e7e5` · printing: BBD #215 (2018-06-08) · [rulings](https://api.scryfall.com/cards/ea7047d8-8d32-48a3-829b-7eb5427ed53a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2007-10-01* — Although this ability triggers when the Incarnation is put into a graveyard from the battlefield, it doesn't *specifically* trigger on leaving the battlefield, so it doesn't behave like other leaves-the-battlefield abilities. The ability will trigger from the graveyard.
+  - *2007-10-01* — If the Incarnation had lost this ability while on the battlefield (due to Lignify, for example) and then was destroyed, the ability would still trigger and it would get shuffled into its owner's library. However, if the Incarnation lost this ability when it was put into the graveyard (due to Yixlid Jailer, for example), the ability wouldn't trigger and the Incarnation would remain in the graveyard.
+  - *2007-10-01* — If the Incarnation is removed from the graveyard after the ability triggers but before it resolves, it will remain in its new zone when its owner shuffles their library. Similarly, if a replacement effect has the Incarnation move to a different zone instead of being put into the graveyard, the ability won't trigger at all.
+  - *2007-10-01* — The last ability triggers when the Incarnation is put into its owner's graveyard from any zone, not just from on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/215/vigor) · oracle_id `70787d8b-0a40-43ea-837a-9617dc13e7e5` · printing: BBD #215 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vigorbloom Annex
 
@@ -1239,7 +1292,13 @@
   > Other outlaws you control have vigilance and haste. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.)
   > At the beginning of combat on your turn, you may have Treasures you control become 3/3 Construct Assassin artifact creatures in addition to their other types until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6064 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/8/vihaan-goldwaker) · oracle_id `0613a0d8-f6bc-41ca-8070-b2506f756fc8` · printing: OTC #8 (2024-04-19) · [rulings](https://api.scryfall.com/cards/7b549690-72eb-4244-bb66-996a2bd1027e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-04-12* — A card, spell, or permanent is an outlaw if it has the Assassin, Mercenary, Pirate, Rogue, or Warlock creature type. It doesn’t matter if it has more than one of those creature types; as long as it has at least one, it’s an outlaw.
+  - *2024-04-12* — If a Treasure you control is already a creature when Vihaan’s second ability resolves and you choose to apply its effect to all Treasures you control, that effect will overwrite any previous effects that set that creature’s power and toughness to specific numbers. Effects that otherwise modify its power and toughness will still apply no matter when they took effect. The same is true for +1/+1 counters.
+  - *2024-04-12* — If an ability refers to an outlaw or whether a player controls an outlaw, it’s referring only to permanents with one or more of the creature types specified above. Notably, it’s not referring to any spell or card not on the battlefield. However, other abilities may refer to an “outlaw spell” or “outlaw card” in a zone other than the battlefield. Those abilities refer to spells and cards with one or more of the specified creature types.
+  - *2024-04-12* — Outlaw is not a creature type. If an effect asks you to choose a creature type, you can’t choose outlaw.
+  - *2024-04-12* — Treasures you control will keep any abilities they previously had while they’re creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/8/vihaan-goldwaker) · oracle_id `0613a0d8-f6bc-41ca-8070-b2506f756fc8` · printing: OTC #8 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vikya, Scorching Stalwart
 
@@ -1330,6 +1389,7 @@
   > *The dead are lonely in the crypt and always eager for company.*
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1909 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/616/vile-entomber) · oracle_id `556dd333-4066-41f7-98f6-41794754de71` · printing: FDN #616 (2024-11-15) · [rulings](https://api.scryfall.com/cards/833b5a32-5d77-4e46-a524-25bada29ef59/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vile Manifestation
@@ -1357,7 +1417,9 @@
   > When this creature enters, each opponent sacrifices a nontoken enchantment of their choice, then sacrifices a nontoken creature of their choice.
 - **Keywords:** Flying, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6608 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/122/vile-mutilator) · oracle_id `1aae80a5-079c-48f3-aad1-563931e1a031` · printing: DSK #122 (2024-09-27) · [rulings](https://api.scryfall.com/cards/383fe040-98bb-40f3-b809-48c429b83f47/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-09-20* — While resolving Vile Mutilator's last ability, the next opponent in turn order chooses a nontoken enchantment they control, then each other opponent in turn order does the same. Then each of the chosen nontoken enchantments are sacrificed simultaneously. Finally, repeat this process for nontoken creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/122/vile-mutilator) · oracle_id `1aae80a5-079c-48f3-aad1-563931e1a031` · printing: DSK #122 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vile Rebirth
 
@@ -1419,7 +1481,10 @@
   > *"You can sign, or you can spend your life imagining what might have been yours."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1127 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/m20/122/vilis-broker-of-blood) · oracle_id `7c209753-121b-4859-944b-4e33f885e777` · printing: M20 #122 (2019-07-12) · [rulings](https://api.scryfall.com/cards/ecdf2bd9-87b9-470a-ad2e-0ebf98560f87/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-07-12* — A player loses life if they pay life.
+  - *2019-07-12* — If you pay life to cast a spell or activate an ability, you don't draw cards until after you've finished casting that spell or activating that ability. You draw those cards before that spell or ability resolves, but after targets are chosen for it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m20/122/vilis-broker-of-blood) · oracle_id `7c209753-121b-4859-944b-4e33f885e777` · printing: M20 #122 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Village Bell-Ringer
 
@@ -1433,7 +1498,9 @@
   > *"Priests, hunters, slayers—to arms! The enemy approaches!"*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3766 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/216/village-bell-ringer) · oracle_id `d7b50175-b473-452a-bb30-19a71c42e649` · printing: MOC #216 (2023-04-21) · [rulings](https://api.scryfall.com/cards/b72b39fd-507d-432b-b5b0-5657e5ed0a47/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-09-22* — Untapping an attacking creature doesn't remove it from combat.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/216/village-bell-ringer) · oracle_id `d7b50175-b473-452a-bb30-19a71c42e649` · printing: MOC #216 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Village Cannibals
 
@@ -1508,7 +1575,9 @@
   > Whenever a creature an opponent controls with a counter on it dies, you create a tapped Treasure token.
 - **Keywords:** Treasure, Wither
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5429 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/14/village-pillagers) · oracle_id `54b44499-398b-47ad-b790-bd5b5994d1a6` · printing: ECC #14 (2026-01-23) · [rulings](https://api.scryfall.com/cards/a1e34ec4-6a85-4e22-9be9-f27dda5752d6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-11-17* — Wither applies to any damage dealt to creatures by Village Pillagers. This includes combat damage as well as anything that causes it to deal noncombat damage, such as the effect of its second ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/14/village-pillagers) · oracle_id `54b44499-398b-47ad-b790-bd5b5994d1a6` · printing: ECC #14 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Village Rites
 
@@ -1584,6 +1653,7 @@
   > {3}, {T}: Target Villain you control connives. Activate only as a sorcery. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.)
 - **Keywords:** Connive
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7713 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/276/villainous-hideout) · oracle_id `cd2888aa-71f3-47ee-ba33-7bb95d5bc836` · printing: MSH #276 (2026-06-26) · [rulings](https://api.scryfall.com/cards/822b0249-e1df-453d-8b60-75a5196ed818/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Villainous Ogre
@@ -1621,7 +1691,13 @@
 - **Flavor text** (OTC printing):
   > *Gold buys death. Death earns gold.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2472 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/249/villainous-wealth) · oracle_id `f2fae95d-074b-4c0c-99cd-f9385a424c05` · printing: OTC #249 (2024-04-19) · [rulings](https://api.scryfall.com/cards/a467072c-99d9-4013-8d28-607a06cf50fe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-04-12* — Any cards you don't cast this way will remain in exile.
+  - *2024-04-12* — If a spell you cast has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-04-12* — If you cast a spell "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs, such as kicker costs. If the spell has any mandatory additional costs, those must be paid to cast the spell.
+  - *2024-04-12* — You cast the spells one at a time as Villainous Wealth is resolving, choosing modes, targets, and so on. The last spell you cast will be the first one to resolve. Ignore timing restrictions based on the spells' types. Other timing restrictions, such as "Cast [this spell] only during combat," must be followed.
+  - *2024-04-12* — You choose which spells (if any) to cast as Villainous Wealth resolves. If you do, you do so as part of the resolution of Villainous Wealth. You can't wait to cast them later in the turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/249/villainous-wealth) · oracle_id `f2fae95d-074b-4c0c-99cd-f9385a424c05` · printing: OTC #249 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Villainous Wrath
 
@@ -1632,6 +1708,7 @@
 - **Flavor text** (SPM printing):
   > *"You fool! You thought you had won?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4729 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/74/villainous-wrath) · oracle_id `1c7c1867-20cb-4035-bb2a-42760edf0a55` · printing: SPM #74 (2025-09-26) · [rulings](https://api.scryfall.com/cards/d78e36fd-5817-4c4a-8880-dabe6dd4ba81/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vincent's Limit Break
@@ -1646,7 +1723,16 @@
   > • Hellmasker — {3} — 7/2.
 - **Keywords:** Hellmasker, Death Gigas, Tiered, Galian Beast
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7487 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/126/vincents-limit-break) · oracle_id `814679b4-51bd-4b07-a7b8-d3375d36ff45` · printing: FIN #126 (2025-06-13) · [rulings](https://api.scryfall.com/cards/0502c426-5271-4989-8598-5bc159afe79c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2025-06-06* — If a mode requires a target, you can select that mode only if there's a legal target available. Ignore the targeting requirements for modes you don't choose.
+  - *2025-06-06* — If a spell with tiered is copied, the effect that creates the copy may allow you to choose new targets. You cannot choose a new mode.
+  - *2025-06-06* — If an effect allows you to cast a spell with tiered "without paying its mana cost," you must still choose exactly one mode and pay the associated additional cost.
+  - *2025-06-06* — If the target creature is a token, the ability still triggers when it dies, but you won't return the token to the battlefield.
+  - *2025-06-06* — The mana value of a spell with tiered is determined only by its mana cost (in the upper right corner of the card). It doesn't matter which mode you choose or which additional costs you pay, including any additional costs imposed by other effects.
+  - *2025-06-06* — Vincent's Limit Break will overwrite any previous effects that set the creature's power and toughness to specific numbers. Effects that otherwise modify its power and toughness will still apply no matter when they took effect. The same is true for +1/+1 counters.
+  - *2025-06-06* — You choose the mode as you cast the spell with tiered. Once the mode is chosen, it can't be changed.
+  - *2025-06-06* — You must choose exactly one of the listed modes and pay its associated additional cost in order to cast a spell with tiered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/126/vincents-limit-break) · oracle_id `814679b4-51bd-4b07-a7b8-d3375d36ff45` · printing: FIN #126 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vincent Valentine // Galian Beast
 
@@ -1663,7 +1749,17 @@
   > *"This body is... the punishment that's been given to me..."*
 - **Keywords:** Lifelink, Transform, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3409 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/125/vincent-valentine-galian-beast) · oracle_id `f40e6bbf-1fed-4ec5-869d-18c2dd396d14` · printing: FIN #125 (2025-06-13) · [rulings](https://api.scryfall.com/cards/028ef608-acfe-4e9d-90db-eca4411ba78a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2025-06-06* — A nonmodal double-faced card enters with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed or allows you to cast it transformed, in which case it enters with its back face up.
+  - *2025-06-06* — A token that is created as a copy of a double-faced permanent or a double-faced card in another zone is a double-faced token. It will have both the front face and back face of whatever object it's copying. If it's copying a double-faced permanent whose back face is up, the token will enter with its back face up. It can transform if instructed to do so.
+  - *2025-06-06* — Each face of a nonmodal double-faced card has its own set of characteristics: name, types, subtypes, abilities, and so on. While a nonmodal double-faced permanent is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored.
+  - *2025-06-06* — Each nonmodal double-faced card in this release is cast face up. In every zone other than the battlefield, consider only the characteristics of its front face. If it is on the battlefield, consider only the characteristics of the face that's up; the other face's characteristics are ignored.
+  - *2025-06-06* — If you are instructed to put a card that isn't a double-faced card onto the battlefield transformed, it will not enter at all. In that case, it stays in the zone it was previously in. For example, if a single-faced card is a copy of Crystal Fragments, it will be exiled during the resolution of its second ability and remain in exile.
+  - *2025-06-06* — In the Commander variant, a double-faced card's color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered. For example, Cecil, Dark Knight's color identity is black and white, since its front face is black and its back face has a white color indicator.
+  - *2025-06-06* — The back face of a nonmodal double-faced card usually has a color indicator that defines its color.
+  - *2025-06-06* — The mana value of a nonmodal double-faced card is the mana value of its front face, no matter which face is up.
+  - *2025-06-06* — Use the creature's power as it last existed on the battlefield to determine how many +1/+1 counters to put on Vincent Valentine.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/125/vincent-valentine-galian-beast) · oracle_id `f40e6bbf-1fed-4ec5-869d-18c2dd396d14` · printing: FIN #125 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vincent, Vengeful Atoner
 
@@ -1676,7 +1772,11 @@
   > Chaos — Whenever Vincent deals combat damage to an opponent, it deals that much damage to each other opponent if Vincent's power is 7 or greater.
 - **Keywords:** Chaos, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4052 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/64/vincent-vengeful-atoner) · oracle_id `b8961205-87fa-4cce-aba9-84fa2f91a67f` · printing: FIC #64 (2025-06-13) · [rulings](https://api.scryfall.com/cards/9e53d0b2-eeb0-4d54-86e5-723e05aaf6da/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-06-06* — If Vincent isn't on the battlefield when its last ability resolves, use its power as it last existed on the battlefield to determine whether it deals damage to each other opponent.
+  - *2025-06-06* — The damage dealt by Vincent as a result of its last ability is not combat damage and therefore doesn't cause the ability to trigger again.
+  - *2025-06-06* — Vincent's last ability doesn't care what Vincent's power is when it deals combat damage to an opponent; it only matters what its power is when the ability resolves. For example, if Vincent's power was 7 when it dealt combat damage to an opponent but is reduced to 6 just before its last ability resolves, it won't deal any additional damage when the last ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/64/vincent-vengeful-atoner) · oracle_id `b8961205-87fa-4cce-aba9-84fa2f91a67f` · printing: FIC #64 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vindicate
 
@@ -1714,7 +1814,10 @@
 - **Flavor text** (CMM printing):
   > *Heart, mind, soul—weapons all.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7636 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/196/vindictive-lich) · oracle_id `6dc7f837-158f-4ccf-86a5-a07a20891ec5` · printing: CMM #196 (2023-08-04) · [rulings](https://api.scryfall.com/cards/0120b644-477d-4297-b94f-56120a384bc2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-08-25* — You can’t choose more modes for Vindictive Lich’s triggered ability than you have opponents, but you need to choose at least one target if you can.
+  - *2017-08-25* — You don’t have to choose a mode for each opponent. For example, you could make one opponent lose 5 life and spare each other opponent. They might not repay your kindness.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/196/vindictive-lich) · oracle_id `6dc7f837-158f-4ccf-86a5-a07a20891ec5` · printing: CMM #196 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vindictive Mob
 
@@ -1750,7 +1853,11 @@
 - **Flavor text** (CLU printing):
   > *In theory, the Guildpact keeps guild feuds from spiraling out of control. Personal feuds, however, are not covered.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4527 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/126/vindictive-vampire) · oracle_id `11ad664e-36d3-4d5b-8a87-59ea715877e0` · printing: CLU #126 (2024-02-23) · [rulings](https://api.scryfall.com/cards/335cf2ae-90c3-407e-9e4a-5e18aab74744/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-01-25* — If Vindictive Vampire dies at the same time as one or more other creatures you control, Vindictive Vampire’s ability triggers for each of those other creatures.
+  - *2019-01-25* — If your life total is brought to 0 or less at the same time that creatures you control are dealt lethal damage, you lose the game before Vindictive Vampire’s triggered ability goes on the stack.
+  - *2019-01-25* — In a Two-Headed Giant game, Vindictive Vampire’s ability causes the opposing team to lose 2 life and you gain 1 life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/126/vindictive-vampire) · oracle_id `11ad664e-36d3-4d5b-8a87-59ea715877e0` · printing: CLU #126 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vindictive Warden
 
@@ -1887,7 +1994,11 @@
   > *"In youth, we reap. In death, we sow."*
 - **Keywords:** Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6141 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/238/vinereap-mentor) · oracle_id `db649e15-24ca-4fd8-9f0b-f1df28c9c57d` · printing: BLB #238 (2024-08-02) · [rulings](https://api.scryfall.com/cards/29b615ba-45c4-42a1-8525-1535f0b55300/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/238/vinereap-mentor) · oracle_id `db649e15-24ca-4fd8-9f0b-f1df28c9c57d` · printing: BLB #238 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vineshaper Mystic
 
@@ -1944,7 +2055,15 @@
   > Target creature can't be the target of spells or abilities your opponents control this turn. If this spell was kicked, that creature gets +4/+4 until end of turn.
 - **Keywords:** Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4072 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mm2/168/vines-of-vastwood) · oracle_id `8998d211-5ca6-41d2-bc64-f51f70bd41e5` · printing: MM2 #168 (2015-05-22) · [rulings](https://api.scryfall.com/cards/6203e3d4-8998-41d6-9f7e-b68af0f1f8b5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2013-04-15* — This is not the same as hexproof. If, for example, you target one of your opponent's creatures, your opponents won't be able to target their own creature with spells or abilities.
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mm2/168/vines-of-vastwood) · oracle_id `8998d211-5ca6-41d2-bc64-f51f70bd41e5` · printing: MM2 #168 (2015-05-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vine Trellis
 
@@ -1958,6 +2077,7 @@
   > *Nature twists knots stronger than any rope.*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6240 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gvl/4/vine-trellis) · oracle_id `57de8fe7-3d1b-41cd-8354-38aff3d2d052` · printing: GVL #4 (2014-12-05) · [rulings](https://api.scryfall.com/cards/4683fa31-da33-4313-82b5-0ed91f33e8d3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vineweft
@@ -2123,7 +2243,14 @@
   > {3}{U}: Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)
 - **Keywords:** Flying, Proliferate, Infect
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7152 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/nph/49/viral-drake) · oracle_id `3b1647d1-9aec-454f-a215-e28633cb7a2d` · printing: NPH #49 (2011-05-13) · [rulings](https://api.scryfall.com/cards/d89b312b-cc90-4f08-ae2e-043a79e51156/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-02-04* — An ability that triggers "Whenever you proliferate" triggers even if you chose no permanents or players while doing so.
+  - *2023-02-04* — If a permanent ever has both +1/+1 counters and -1/-1 counters on it at the same time, they're removed in pairs as a state-based action so that the permanent has only one of those kinds of counters on it.
+  - *2023-02-04* — If a player or permanent has more than one kind of counter on it, and you choose for it to get additional counters, it must get one of each kind of counter it already has. You can't have it get just one kind of counter it already has and not the others.
+  - *2023-02-04* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
+  - *2023-02-04* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
+  - *2023-02-04* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/nph/49/viral-drake) · oracle_id `3b1647d1-9aec-454f-a215-e28633cb7a2d` · printing: NPH #49 (2011-05-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viral Spawning
 
@@ -2207,7 +2334,10 @@
   > When this creature enters, destroy target artifact.
 - **Keywords:** Infect
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6279 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/td2/56/viridian-corrupter) · oracle_id `8ba5e97b-3eac-4291-8674-4b402a5554bc` · printing: TD2 #56 (2011-05-14) · [rulings](https://api.scryfall.com/cards/d3178acf-9c5a-418c-bbf7-8e430534396d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2011-06-01* — If there are no artifacts on the battlefield when Viridian Corrupter enters the battlefield, its enters-the-battlefield does nothing. Viridian Corrupter will simply enter the battlefield.
+  - *2011-06-01* — The enters-the-battlefield ability is not optional. You must target an artifact you control if there are no other artifacts on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/td2/56/viridian-corrupter) · oracle_id `8ba5e97b-3eac-4291-8674-4b402a5554bc` · printing: TD2 #56 (2011-05-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viridian Emissary
 
@@ -2243,6 +2373,7 @@
 - **Flavor text** (MRD printing):
   > *"The Tangle reaches out to itself constantly, forming new connections. We must follow its example."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7161 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mrd/138/viridian-joiner) · oracle_id `84244aa6-11be-4940-b102-e029f955fc9a` · printing: MRD #138 (2003-10-02) · [rulings](https://api.scryfall.com/cards/b50679df-bf82-4bb2-9fe3-8ebd7a9decde/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viridian Longbow
@@ -2254,6 +2385,7 @@
   > Equip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4649 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/afc/221/viridian-longbow) · oracle_id `8b9119b0-9948-497f-aa92-2879d07bed1c` · printing: AFC #221 (2021-07-23) · [rulings](https://api.scryfall.com/cards/f4607634-6206-4c6c-b389-abcbfe969b65/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viridian Lorebearers
@@ -2278,7 +2410,9 @@
   > *"Let them have their revel. Soon those who won't submit will be turned. Those who won't be turned will die."*
   > *—Vorinclex, Voice of Hunger*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4100 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/som/132/viridian-revel) · oracle_id `c24b0c7d-1a4b-4eca-8d83-9e81ed3b3b27` · printing: SOM #132 (2010-10-01) · [rulings](https://api.scryfall.com/cards/2d7f565e-0fb8-40c8-9540-213d35af846a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-01-01* — It doesn’t matter who controlled the artifact while it was on the battlefield, only whose graveyard it was put into.
+- **Source flags:** [Scryfall](https://scryfall.com/card/som/132/viridian-revel) · oracle_id `c24b0c7d-1a4b-4eca-8d83-9e81ed3b3b27` · printing: SOM #132 (2010-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viridian Scout
 
@@ -2338,7 +2472,22 @@
 - **Face 2: Embereth Blaze** — {1}{R} — Instant — Adventure
   > Embereth Blaze deals 2 damage to any target. (Then exile this card. You may cast the enchantment later from exile.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4002 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/157/virtue-of-courage-embereth-blaze) · oracle_id `af6438b9-3fde-45c9-af69-dff686c1e0de` · printing: WOE #157 (2023-09-08) · [rulings](https://api.scryfall.com/cards/8b0e6daf-0dec-4718-af79-b7ce137c3135/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (14):
+  - *2023-09-01* — An adventurer card is a permanent card in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it’s in your graveyard, Questing Druid is a green creature card whose mana value is 2. It can’t be the target of Tenacious Tomeseeker’s triggered ability (“return target instant or sorcery card from your graveyard to your hand”).
+  - *2023-09-01* — An effect may refer to a card, spell, or permanent that “has an Adventure.” This refers to a card, spell, or permanent that has an adventurer card’s set of alternative characteristics, even if they’re not being used and even if that card was never cast as an Adventure.
+  - *2023-09-01* — Casting a card as an Adventure isn’t casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Adventure.
+  - *2023-09-01* — Combat damage is the damage that's dealt automatically by attacking and blocking creatures. Any other damage is noncombat damage, even if it's dealt during a combat phase by an attacking or blocking creature.
+  - *2023-09-01* — If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner’s graveyard as it resolves. For as long as it remains exiled, that player may cast it as a permanent spell. If an Adventure spell leaves the stack in any way other than resolving (most likely by being countered or by failing to resolve because its targets have all become illegal), that card won’t be exiled and the spell’s controller won’t be able to cast it as a permanent later.
+  - *2023-09-01* — If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won’t give you permission to cast it as a permanent spell.
+  - *2023-09-01* — If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it’s not possible to cast the copy as a permanent.
+  - *2023-09-01* — If an effect instructs you to choose a card name, you may choose the alternative Adventure name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2023-09-01* — If an effect refers to a card, spell, or permanent that has an Adventure, it won’t find an instant or sorcery spell on the stack that’s been cast as an Adventure.
+  - *2023-09-01* — If an object becomes a copy of an object that has an Adventure, the copy also has an Adventure. If it changes zones, it will either cease to exist (if it’s a token) or cease to be a copy (if it’s a nontoken permanent), and so you won’t be able to cast it as an Adventure.
+  - *2023-09-01* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it’s legal to cast that spell. For example, if you control Johann, Apprentice Sorcerer (“Once each turn, you may cast an instant or sorcery spell from the top of your library.”) and Questing Druid is on top of your library, you can cast Seek the Beast, but not Questing Druid.
+  - *2023-09-01* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+  - *2023-09-01* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you’ll be able to cast it only during your main phase while the stack is empty.
+  - *2023-09-01* — You pay all costs and follow all normal timing rules for a card played this way. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/157/virtue-of-courage-embereth-blaze) · oracle_id `af6438b9-3fde-45c9-af69-dff686c1e0de` · printing: WOE #157 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Virtue of Knowledge // Vantress Visions
 
@@ -2348,7 +2497,37 @@
 - **Face 2: Vantress Visions** — {1}{U} — Instant — Adventure
   > Copy target activated or triggered ability you control. You may choose new targets for the copy.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2275 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/76/virtue-of-knowledge-vantress-visions) · oracle_id `f0bbcabf-29e7-4c7e-893f-86b64d3620a9` · printing: WOE #76 (2023-09-08) · [rulings](https://api.scryfall.com/cards/df606cf5-67dc-46f4-8c79-1d2f1d054391/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (29):
+  - *2023-09-01* — Abilities that apply "as [this permanent] enters the battlefield," such as choosing a number with Talion, the Kindly Lord, are also unaffected.
+  - *2023-09-01* — Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keyword abilities (such as equip) are activated abilities and will have colons in their reminder text.
+  - *2023-09-01* — An adventurer card is a permanent card in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it’s in your graveyard, Questing Druid is a green creature card whose mana value is 2. It can’t be the target of Tenacious Tomeseeker’s triggered ability (“return target instant or sorcery card from your graveyard to your hand”).
+  - *2023-09-01* — An effect may refer to a card, spell, or permanent that “has an Adventure.” This refers to a card, spell, or permanent that has an adventurer card’s set of alternative characteristics, even if they’re not being used and even if that card was never cast as an Adventure.
+  - *2023-09-01* — Any choices made when the ability resolves won't have been made yet when it's copied by Vantress Visions. Any such choices will be made separately when the copy resolves. If a triggered ability asks you to pay a cost, you pay that cost for the copy separately.
+  - *2023-09-01* — Casting a card as an Adventure isn’t casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Adventure.
+  - *2023-09-01* — If a permanent entering the battlefield at the same time as Virtue of Knowledge (including Virtue of Knowledge itself) causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.
+  - *2023-09-01* — If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner’s graveyard as it resolves. For as long as it remains exiled, that player may cast it as a permanent spell. If an Adventure spell leaves the stack in any way other than resolving (most likely by being countered or by failing to resolve because its targets have all become illegal), that card won’t be exiled and the spell’s controller won’t be able to cast it as a permanent later.
+  - *2023-09-01* — If a triggered ability is linked to a second ability, additional instances of that triggered ability are also linked to that second ability. If the second ability refers to "the exiled card," it refers to all cards exiled by instances of the triggered ability.
+  - *2023-09-01* — If an ability is linked to a second ability, copies of that ability are also linked to that second ability. If the second ability refers to "the exiled card," it refers to all cards exiled by the ability and the copy. For example, if Tidehollow Sculler's enters-the-battlefield ability is copied and two cards are exiled, they both return when Tidehollow Sculler leaves the battlefield.
+  - *2023-09-01* — If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won’t give you permission to cast it as a permanent spell.
+  - *2023-09-01* — If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it’s not possible to cast the copy as a permanent.
+  - *2023-09-01* — If an effect instructs you to choose a card name, you may choose the alternative Adventure name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2023-09-01* — If an effect refers to a card, spell, or permanent that has an Adventure, it won’t find an instant or sorcery spell on the stack that’s been cast as an Adventure.
+  - *2023-09-01* — If an object becomes a copy of an object that has an Adventure, the copy also has an Adventure. If it changes zones, it will either cease to exist (if it’s a token) or cease to be a copy (if it’s a nontoken permanent), and so you won’t be able to cast it as an Adventure.
+  - *2023-09-01* — If the ability copied by Vantress Visions divides damage or distributes counters among a number of targets, the division and number of targets can't be changed. If you choose new targets, you must choose the same number of targets.
+  - *2023-09-01* — If the ability copied by Vantress Visions is modal (that is, if it says, "Choose one —" or similar), the mode is copied and can't be changed.
+  - *2023-09-01* — If the activated ability's cost contains a choice, such as a creature to sacrifice or a number of counters to remove, the copy created by Vantress Visions uses that same information. You can't pay the cost again, even if you want to.
+  - *2023-09-01* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it’s legal to cast that spell. For example, if you control Johann, Apprentice Sorcerer (“Once each turn, you may cast an instant or sorcery spell from the top of your library.”) and Questing Druid is on top of your library, you can cast Seek the Beast, but not Questing Druid.
+  - *2023-09-01* — If you control two copies of Virtue of Knowledge, a permanent entering the battlefield causes abilities to trigger three times, not four. A third Virtue of Knowledge causes abilities to trigger four times, a fourth causes abilities to trigger five times, and so on.
+  - *2023-09-01* — In a Two-Headed Giant game, Virtue of Knowledge does not affect triggered abilities of permanents your teammate controls.
+  - *2023-09-01* — In some cases involving linked abilities, an ability requires information about "the exiled card." When this happens, the ability gets multiple answers. If these answers are being used to determine the value of a variable, the sum is used. For example, if Elite Arcanist's enters-the-battlefield ability triggers twice, two cards are exiled. The value of X in the activation cost of Elite Arcanist's other ability is the sum of the two cards' mana values. As the ability resolves, you create copies of both cards and can cast none, one, or both of the copies in any order.
+  - *2023-09-01* — Replacement effects are unaffected by Virtue of Knowledge's ability. For example, a creature that enters the battlefield under your control with one +1/+1 counter on it won't receive an additional +1/+1 counter.
+  - *2023-09-01* — The source of the copy created by Vantress Visions is the same as the source of the original ability.
+  - *2023-09-01* — Triggered abilities use the word "when," "whenever," or "at." They're often written as "[Trigger condition], [effect]." Some keyword abilities are triggered abilities and will have "when," "whenever," or "at the beginning of" in their reminder text.
+  - *2023-09-01* — Virtue of Knowledge's ability affects a permanent's own enters-the-battlefield triggered abilities as well as other triggered abilities that trigger when that permanent enters the battlefield. Such triggered abilities start with "when" or "whenever." Some keyword abilities also include a triggered ability that happens when a permanent enters the battlefield.
+  - *2023-09-01* — Virtue of Knowledge's ability doesn't copy the triggered ability; it just causes the ability to trigger an additional time. Any choices made as you put the ability onto the stack, such as modes and targets, are made separately for each instance of the ability. Any choices made on resolution, such as whether to put counters on a permanent, are also made individually.
+  - *2023-09-01* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+  - *2023-09-01* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you’ll be able to cast it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/76/virtue-of-knowledge-vantress-visions) · oracle_id `f0bbcabf-29e7-4c7e-893f-86b64d3620a9` · printing: WOE #76 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Virtue of Loyalty // Ardenvale Fealty
 
@@ -2358,7 +2537,20 @@
 - **Face 2: Ardenvale Fealty** — {1}{W} — Instant — Adventure
   > Create a 2/2 white Knight creature token with vigilance. (Then exile this card. You may cast the enchantment later from exile.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2660 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/38/virtue-of-loyalty-ardenvale-fealty) · oracle_id `f61f4307-4eec-476a-97e5-d4d3da2b54c3` · printing: WOE #38 (2023-09-08) · [rulings](https://api.scryfall.com/cards/ea7e7daf-7c06-4c74-8bcf-e42c1f611861/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2023-09-01* — An adventurer card is a permanent card in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it's in your graveyard, Questing Druid is a green creature card whose mana value is 2. It can't be the target of Tenacious Tomeseeker's triggered ability ("return target instant or sorcery card from your graveyard to your hand").
+  - *2023-09-01* — An effect may refer to a card, spell, or permanent that "has an Adventure." This refers to a card, spell, or permanent that has an adventurer card's set of alternative characteristics, even if they're not being used and even if that card was never cast as an Adventure.
+  - *2023-09-01* — Casting a card as an Adventure isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Adventure.
+  - *2023-09-01* — If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner's graveyard as it resolves. For as long as it remains exiled, that player may cast it as a permanent spell. If an Adventure spell leaves the stack in any way other than resolving (most likely by being countered or by failing to resolve because its targets have all become illegal), that card won't be exiled and the spell's controller won't be able to cast it as a permanent later.
+  - *2023-09-01* — If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won't give you permission to cast it as a permanent spell.
+  - *2023-09-01* — If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it's not possible to cast the copy as a permanent.
+  - *2023-09-01* — If an effect instructs you to choose a card name, you may choose the alternative Adventure name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2023-09-01* — If an effect refers to a card, spell, or permanent that has an Adventure, it won't find an instant or sorcery spell on the stack that's been cast as an Adventure.
+  - *2023-09-01* — If an object becomes a copy of an object that has an Adventure, the copy also has an Adventure. If it changes zones, it will either cease to exist (if it's a token) or cease to be a copy (if it's a nontoken permanent), and so you won't be able to cast it as an Adventure.
+  - *2023-09-01* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell. For example, if you control Johann, Apprentice Sorcerer ("Once each turn, you may cast an instant or sorcery spell from the top of your library.") and Questing Druid is on top of your library, you can cast Seek the Beast, but not Questing Druid.
+  - *2023-09-01* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+  - *2023-09-01* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/38/virtue-of-loyalty-ardenvale-fealty) · oracle_id `f61f4307-4eec-476a-97e5-d4d3da2b54c3` · printing: WOE #38 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Virtue of Persistence // Locthwain Scorn
 
@@ -2368,7 +2560,20 @@
 - **Face 2: Locthwain Scorn** — {1}{B} — Sorcery — Adventure
   > Target creature gets -3/-3 until end of turn. You gain 2 life.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2012 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/115/virtue-of-persistence-locthwain-scorn) · oracle_id `fae36da0-bf9c-484f-b2fe-dd8ab2effc5c` · printing: WOE #115 (2023-09-08) · [rulings](https://api.scryfall.com/cards/f1e5cafb-b0e6-4ee5-8c58-6f8e5ef2b9da/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2023-09-01* — An adventurer card is a permanent card in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it's in your graveyard, Questing Druid is a green creature card whose mana value is 2. It can't be the target of Tenacious Tomeseeker's triggered ability ("return target instant or sorcery card from your graveyard to your hand").
+  - *2023-09-01* — An effect may refer to a card, spell, or permanent that "has an Adventure." This refers to a card, spell, or permanent that has an adventurer card's set of alternative characteristics, even if they're not being used and even if that card was never cast as an Adventure.
+  - *2023-09-01* — Casting a card as an Adventure isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Adventure.
+  - *2023-09-01* — If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner's graveyard as it resolves. For as long as it remains exiled, that player may cast it as a permanent spell. If an Adventure spell leaves the stack in any way other than resolving (most likely by being countered or by failing to resolve because its targets have all become illegal), that card won't be exiled and the spell's controller won't be able to cast it as a permanent later.
+  - *2023-09-01* — If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won't give you permission to cast it as a permanent spell.
+  - *2023-09-01* — If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it's not possible to cast the copy as a permanent.
+  - *2023-09-01* — If an effect instructs you to choose a card name, you may choose the alternative Adventure name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2023-09-01* — If an effect refers to a card, spell, or permanent that has an Adventure, it won't find an instant or sorcery spell on the stack that's been cast as an Adventure.
+  - *2023-09-01* — If an object becomes a copy of an object that has an Adventure, the copy also has an Adventure. If it changes zones, it will either cease to exist (if it's a token) or cease to be a copy (if it's a nontoken permanent), and so you won't be able to cast it as an Adventure.
+  - *2023-09-01* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell. For example, if you control Johann, Apprentice Sorcerer ("Once each turn, you may cast an instant or sorcery spell from the top of your library.") and Questing Druid is on top of your library, you can cast Seek the Beast, but not Questing Druid.
+  - *2023-09-01* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+  - *2023-09-01* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/115/virtue-of-persistence-locthwain-scorn) · oracle_id `fae36da0-bf9c-484f-b2fe-dd8ab2effc5c` · printing: WOE #115 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Virtue of Strength // Garenbrig Growth
 
@@ -2378,7 +2583,25 @@
 - **Face 2: Garenbrig Growth** — {G} — Sorcery — Adventure
   > Return target creature or land card from your graveyard to your hand. (Then exile this card. You may cast the enchantment later from exile.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2817 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/197/virtue-of-strength-garenbrig-growth) · oracle_id `31af78dd-e962-4d9a-b696-f3048be03486` · printing: WOE #197 (2023-09-08) · [rulings](https://api.scryfall.com/cards/ff857d41-767d-4e99-83cc-444738341b92/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (17):
+  - *2023-09-01* — An adventurer card is a permanent card in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it's in your graveyard, Questing Druid is a green creature card whose mana value is 2. It can't be the target of Tenacious Tomeseeker's triggered ability ("return target instant or sorcery card from your graveyard to your hand").
+  - *2023-09-01* — An effect may refer to a card, spell, or permanent that "has an Adventure." This refers to a card, spell, or permanent that has an adventurer card's set of alternative characteristics, even if they're not being used and even if that card was never cast as an Adventure.
+  - *2023-09-01* — An object with the land card type and a basic land type has the intrinsic ability "{T}: Add [mana symbol]," even if the text box doesn't actually contain that text or the object has no text box. For example, a basic Forest will have the intrinsic ability "{T}: Add {G}."
+  - *2023-09-01* — Casting a card as an Adventure isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Adventure.
+  - *2023-09-01* — If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner's graveyard as it resolves. For as long as it remains exiled, that player may cast it as a permanent spell. If an Adventure spell leaves the stack in any way other than resolving (most likely by being countered or by failing to resolve because its targets have all become illegal), that card won't be exiled and the spell's controller won't be able to cast it as a permanent later.
+  - *2023-09-01* — If an ability triggers "whenever you tap" a basic land for mana and produces mana, that triggered mana ability won't be affected by Virtue of Strength.
+  - *2023-09-01* — If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won't give you permission to cast it as a permanent spell.
+  - *2023-09-01* — If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it's not possible to cast the copy as a permanent.
+  - *2023-09-01* — If an effect instructs you to choose a card name, you may choose the alternative Adventure name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2023-09-01* — If an effect refers to a card, spell, or permanent that has an Adventure, it won't find an instant or sorcery spell on the stack that's been cast as an Adventure.
+  - *2023-09-01* — If an object becomes a copy of an object that has an Adventure, the copy also has an Adventure. If it changes zones, it will either cease to exist (if it's a token) or cease to be a copy (if it's a nontoken permanent), and so you won't be able to cast it as an Adventure.
+  - *2023-09-01* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell. For example, if you control Johann, Apprentice Sorcerer ("Once each turn, you may cast an instant or sorcery spell from the top of your library.") and Questing Druid is on top of your library, you can cast Seek the Beast, but not Questing Druid.
+  - *2023-09-01* — The effects of multiple copies of Virtue of Strength are cumulative. For example, if you have two Virtue of Strengths on the battlefield, you'll get nine times the original amount and type of mana.
+  - *2023-09-01* — Virtue of Strength doesn't produce any mana itself. Rather, it causes basic lands you tap for mana to produce more mana.
+  - *2023-09-01* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+  - *2023-09-01* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+  - *2023-09-01* — You're "tapping a basic land for mana" only if you're activating a mana ability of a basic land that includes the {T} symbol in its cost. A mana ability produces mana as part of its effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/197/virtue-of-strength-garenbrig-growth) · oracle_id `31af78dd-e962-4d9a-b696-f3048be03486` · printing: WOE #197 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Virtue's Ruin
 
@@ -2439,7 +2662,19 @@
   > Whenever Virtus deals combat damage to a player, that player loses half their life, rounded up.
 - **Keywords:** Partner with, Partner, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7871 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner, Partner with
-- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/7/virtus-the-veiled) · oracle_id `6da4f16c-f187-479e-b19b-78a137b1abe5` · printing: BBD #7 (2018-06-08) · [rulings](https://api.scryfall.com/cards/4a45a631-f899-4414-8e0a-64d987e9ba8b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2018-06-08* — "Partner with [name]" represents two abilities. The first is a triggered ability: "When this permanent enters the battlefield, target player may search their library for a card named [name], reveal it, put it into their hand, then shuffle their library."
+  - *2018-06-08* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2018-06-08* — Both commanders start in the command zone, and the remaining 98 cards of your deck are shuffled to become your library.
+  - *2018-06-08* — If your Commander deck has two commanders, you can only include cards whose own color identities are also found in your commanders' combined color identities. If Khorvath and Sylvia are your commanders, your deck may contain cards with red and/or white in their color identity, but not blue, black, or green.
+  - *2018-06-08* — In a Two-Headed Giant game, a player's life total is the same as their team's life total.
+  - *2018-06-08* — Note that the target player searches their library (which may be affected by effects such as that of Stranglehold) and that the card they find is revealed, even though these words aren't included in the ability's reminder text.
+  - *2018-06-08* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from one of them, not from both of them combined. Command Beacon's effect puts one into your hand from the command zone, not both.
+  - *2018-06-08* — The second ability represented by the "partner with [name]" keyword modifies the rules for deck construction in the Commander variant and has no function outside of that variant. If a legendary creature card with "partner with [name]" is designated as your commander, the named legendary creature card can also be designated as your commander. For more information on the Commander variant, please visit Wizards.com/Commander.
+  - *2018-06-08* — The triggered ability of the "partner with" keyword still triggers in a Commander game. If your other commander has somehow ended up in your library, you can find it. You can also target another player who might have that card in their library.
+  - *2018-06-08* — To have two commanders, both must have the partner ability (featured in the Magic: The Gathering—Commander™ (2016 Edition) set) or corresponding "partner with" abilities as the game begins. A creature with a "partner with" ability can't partner with any creature other than its designated partner. Losing a partner ability during the game doesn't cause either to cease to be your commander.
+  - *2018-06-08* — Virtus's last ability triggers and resolves after combat damage is dealt. For example, if Virtus deals 1 combat damage to a player with 10 life, combat damage will reduce that player's life total to 9. Then its ability will cause the player to lose 5 life, leaving the player at 4.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/7/virtus-the-veiled) · oracle_id `6da4f16c-f187-479e-b19b-78a137b1abe5` · printing: BBD #7 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Virulent Emissary
 
@@ -2453,6 +2688,7 @@
   > *"I could use a knife, but I'd miss that tremble under my fingers as the poison takes hold."*
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3102 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/202/virulent-emissary) · oracle_id `3d4bec90-7bbc-4385-a2b8-303c7a8d0a0f` · printing: ECL #202 (2026-01-23) · [rulings](https://api.scryfall.com/cards/0702efed-915e-466a-96bb-ac09af06b21e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Virulent Plague
@@ -2477,7 +2713,9 @@
 - **Flavor text** (EOE printing):
   > *Nano-infectant: A category-Phi substance, capable of infecting both organics and artificials. Weaponizing it is a war crime.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7309 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/248/virulent-silencer) · oracle_id `7d70a2f4-92cb-40c3-9e5a-f6c57d4a64c2` · printing: EOE #248 (2025-08-01) · [rulings](https://api.scryfall.com/cards/4120fcfc-3547-4774-a15d-b9cccac04e76/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-07-25* — A player with ten or more poison counters loses the game. This is a state-based action and doesn’t use the stack. In other words, it happens immediately and players can’t respond to it, just like a player losing the game due to having 0 or less life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/248/virulent-silencer) · oracle_id `7d70a2f4-92cb-40c3-9e5a-f6c57d4a64c2` · printing: EOE #248 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Virulent Sliver
 
@@ -2487,7 +2725,12 @@
 - **Oracle text:**
   > All Sliver creatures have poisonous 1. (Whenever a Sliver deals combat damage to a player, that player gets a poison counter. A player with ten or more poison counters loses the game.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6662 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/246/virulent-sliver) · oracle_id `767c896d-4ff6-4cd4-b3a4-80179e84e1cd` · printing: TSR #246 (2021-03-19) · [rulings](https://api.scryfall.com/cards/d5082a2a-e8b1-4799-ad29-a632d95ae1da/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2013-07-01* — If the creature type of a Sliver changes so it's no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures.
+  - *2021-03-19* — A player with ten or more poison counters loses the game as a state-based action, even if no permanents with poisonous are on the battlefield.
+  - *2021-03-19* — If a creature has multiple instances of poisonous, each triggers separately.
+  - *2021-03-19* — Poisonous 1 causes the player to get just one poison counter when a Sliver deals combat damage to them, no matter how much damage that Sliver dealt.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/246/virulent-sliver) · oracle_id `767c896d-4ff6-4cd4-b3a4-80179e84e1cd` · printing: TSR #246 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Virulent Swipe
 
@@ -2521,6 +2764,7 @@
 - **Flavor text** (EOE printing):
   > *The Eumidian biotechs were delighted when a mutated malware gene devastated their systems. They'd encourage the trait, so long as future clutches could be contained.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4020 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/124/virus-beetle) · oracle_id `e1e489f6-37e5-469e-bca3-0e9d3fc3fa95` · printing: EOE #124 (2025-08-01) · [rulings](https://api.scryfall.com/cards/e96c986c-684c-4546-a9c9-b6b903bda101/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Visage Bandit
@@ -2533,7 +2777,20 @@
   > Plot {2}{U} (You may pay {2}{U} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)
 - **Keywords:** Plot
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7392 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/76/visage-bandit) · oracle_id `db11596a-6704-427b-aaef-0211e7822127` · printing: OTJ #76 (2024-04-19) · [rulings](https://api.scryfall.com/cards/685ec4c6-3332-498f-8b56-d7ad8fc5230c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2024-04-12* — Any enters-the-battlefield abilities of the copied creature will trigger when Visage Bandit enters the battlefield. Any “as [this creature] enters the battlefield” or “[this creature] enters the battlefield with” abilities of the copied creature will also work.
+  - *2024-04-12* — Except for the listed exceptions, Visage Bandit copies exactly what was printed on the original creature and nothing else (unless that creature is copying something else or is a token; see below). It doesn’t copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+  - *2024-04-12* — Exiling a card using its plot ability is a special action. Once you announce you’re taking that action, no other player can respond by trying to remove that card from your hand.
+  - *2024-04-12* — If Visage Bandit somehow enters the battlefield at the same time as another creature, Visage Bandit can’t become a copy of that creature. You may choose only a creature that’s already on the battlefield.
+  - *2024-04-12* — If a plotted card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-04-12* — If the copied creature has {X} in its mana cost, X is 0.
+  - *2024-04-12* — If the copied creature is a token, Visage Bandit copies the original characteristics of that token as stated by the effect that created that token, with the stated exceptions.
+  - *2024-04-12* — If the copied creature is copying something else, then Visage Bandit enters the battlefield as whatever that creature copied, with the stated exceptions.
+  - *2024-04-12* — If you’re casting a plotted card from exile without paying its mana cost, you can’t choose to cast it for any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the plotted card has any mandatory additional costs, those must still be paid to cast the spell.
+  - *2024-04-12* — Plot abilities are written “Plot [cost],” which means “Any time you have priority during your main phase while the stack is empty, you may pay [cost] and exile this card from your hand. It becomes plotted.”
+  - *2024-04-12* — You can choose not to copy anything. In that case, Visage Bandit simply enters the battlefield as a 2/2 Shapeshifter Rogue creature.
+  - *2024-04-12* — You can’t cast a plotted card on the same turn it became plotted. On any future turn, you may cast that card from exile without paying its mana cost during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/76/visage-bandit) · oracle_id `db11596a-6704-427b-aaef-0211e7822127` · printing: OTJ #76 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Visage of Bolas
 
@@ -2679,7 +2936,16 @@
   > Vishgraz gets +1/+1 for each poison counter your opponents have.
 - **Keywords:** Toxic, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6852 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/onc/4/vishgraz-the-doomhive) · oracle_id `7b1599c0-bb4f-48f8-a358-dc60166b13e7` · printing: ONC #4 (2023-02-10) · [rulings](https://api.scryfall.com/cards/fb1d33b2-9082-4043-8e52-a5c2f3a174ba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2023-02-04* — A player with ten or more poison counters loses the game. This is a state-based action and doesn't use the stack. In other words, it happens immediately and players can't respond to it, just like a player losing the game due to having 0 or less life.
+  - *2023-02-04* — Any other effects of that damage, such as life gain from lifelink, still apply.
+  - *2023-02-04* — Conversely, replacement effects that apply to the number of counters put on a player can modify the counters placed this way. For example, Vorinclex, Monstrous Raider's last two abilities can apply to counters placed this way.
+  - *2023-02-04* — Damage dealt by a creature with toxic grants the same number of counters regardless of how much damage is dealt. Notably, if a replacement effect modifies the damage in some way (such as that of Gratuitous Violence), the number of counters given remains unchanged.
+  - *2023-02-04* — If a creature with toxic deals combat damage to a creature or planeswalker, or if it deals noncombat damage, toxic has no effect and no player gets poison counters.
+  - *2023-02-04* — Multiple instances of toxic are cumulative. For example, if a creature has toxic 2 and gains toxic 1 due to another effect, combat damage that creature deals to a player will cause that player to get 3 poison counters.
+  - *2023-02-04* — The bonus Vishgraz receives due to its last ability may cause it to survive combat damage in some cases. For example, if an attacking Vishgraz is blocked by a 3/3 and another creature with toxic 1 is attacking at the same time and is unblocked, Vishgraz with deal 3 damage, receive 3 damage, and get +1/+1 at exactly the same time. The end result is that it will stay alive and be a 4/4 creature with 3 damage marked on it.
+  - *2023-02-04* — Toxic doesn't change the amount of combat damage a creature deals. For example, if a 2/2 creature with toxic 1 deals combat damage to a player, that creature will deal 2 damage. The results of that damage are the player loses 2 life and gets a poison counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/onc/4/vishgraz-the-doomhive) · oracle_id `7b1599c0-bb4f-48f8-a358-dc60166b13e7` · printing: ONC #4 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vish Kal, Blood Arbiter
 
@@ -2741,6 +3007,7 @@
 - **Flavor text** (MSH printing):
   > *Love transcends all barriers.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7852 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/158/vision-of-love) · oracle_id `70c96b50-ac2b-493d-bd15-fc66eb767111` · printing: MSH #158 (2026-06-26) · [rulings](https://api.scryfall.com/cards/5604cee1-a2ea-48ed-88f4-6878bd053fc8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vision Quest
@@ -2776,6 +3043,7 @@
 - **Flavor text** (E01 printing):
   > *"I could see in the other mage's eyes that he'd thought of it too. Then it became a race to exploit the knowledge first."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4192 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/e01/29/vision-skeins) · oracle_id `6d42dff5-97ec-4768-b112-84a3584d0b87` · printing: E01 #29 (2017-06-16) · [rulings](https://api.scryfall.com/cards/76999d96-f3fe-421e-9190-e682259e3cdb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Visions of Beyond
@@ -2788,7 +3056,9 @@
   > *"The past is the foundation for all that exists in the present. We merely reconstruct what our ancestors have already discovered."*
   > *—Sachimir, Sage of Memories*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3458 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/uma/81/visions-of-beyond) · oracle_id `c68964df-51ae-43b0-abea-74735016c13f` · printing: UMA #81 (2018-12-07) · [rulings](https://api.scryfall.com/cards/f0b97772-9490-4db3-b4dd-a87d973680a5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-12-07* — You determine whether you'll draw one or three cards as Visions of Beyond begins to resolve. This means that if you have nineteen cards in your graveyard and use a dredge ability to replace the one card draw, you won't draw two more cards after that even though your graveyard now has twenty cards in it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/uma/81/visions-of-beyond) · oracle_id `c68964df-51ae-43b0-abea-74735016c13f` · printing: UMA #81 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Visions of Brutality
 
@@ -2812,7 +3082,17 @@
   > Flashback {8}{G}{G}. This spell costs {X} less to cast this way, where X is the greatest mana value of a commander you own on the battlefield or in the command zone. (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback, Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7924 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mic/37/visions-of-dominance) · oracle_id `14290772-ca17-4a55-86b2-7a638929b12d` · printing: MIC #37 (2021-09-24) · [rulings](https://api.scryfall.com/cards/15947810-9a38-417f-84dc-5a83446deb81/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2021-09-24* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2021-09-24* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2021-09-24* — If your commander is under the control of another player as you cast Visions of Dominance using its flashback ability, that commander's mana value can be used to determine the value of X.
+  - *2021-09-24* — The cost-reduction effect that applies if you cast Visions of Dominance using flashback applies only to the generic portion of the cost to cast it, although it can apply to any additional costs there may be to cast the spell. It can't reduce any colored mana required to cast the spell.
+  - *2021-09-24* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2021-09-24* — To double the number of +1/+1 counters on a permanent, put a number of +1/+1 counters on it equal to the number it already has. Other cards that interact with putting counters on it will interact with this effect accordingly.
+  - *2021-09-24* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2021-09-24* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+  - *2021-09-24* — “Flashback [cost]” means “You may cast this card from your graveyard by paying [cost] rather than paying its mana cost” and “If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack.”
+- **Source flags:** [Scryfall](https://scryfall.com/card/mic/37/visions-of-dominance) · oracle_id `14290772-ca17-4a55-86b2-7a638929b12d` · printing: MIC #37 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Visions of Dread
 
@@ -2845,7 +3125,14 @@
   > Flashback {8}{W}{W}. This spell costs {X} less to cast this way, where X is the greatest mana value of a commander you own on the battlefield or in the command zone. (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6156 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mic/32/visions-of-glory) · oracle_id `ef47c447-bd7f-43c6-b4db-4a848c39820c` · printing: MIC #32 (2021-09-24) · [rulings](https://api.scryfall.com/cards/11675d8a-cd81-4055-bdbd-2e709e12ba66/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-09-24* — "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2021-09-24* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2021-09-24* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2021-09-24* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2021-09-24* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2021-09-24* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mic/32/visions-of-glory) · oracle_id `ef47c447-bd7f-43c6-b4db-4a848c39820c` · printing: MIC #32 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Visions of Phyrexia
 
@@ -2855,7 +3142,14 @@
   > At the beginning of your upkeep, exile the top card of your library. You may play that card this turn.
   > At the beginning of your end step, if you didn't play a card from exile this turn, create a tapped Powerstone token. (It's an artifact with "{T}: Add {C}. This mana can't be spent to cast a nonartifact spell.")
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9051 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/156/visions-of-phyrexia) · oracle_id `634b46a6-ec8b-41f0-8eb6-1e9144035847` · printing: BRO #156 (2022-11-18) · [rulings](https://api.scryfall.com/cards/e922ef35-b62a-4cf8-9282-319f6de150b0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2022-10-14* — Although all the cards in The Brothers' War that create Powerstone tokens create a tapped Powerstone token, entering the battlefield tapped isn't part of the token's definition. Notably, if you create a token that is a copy of a Powerstone token, the token copy won't enter the battlefield tapped.
+  - *2022-10-14* — If the card you exiled with the first ability is an instant, you may play it during your end step after Visions of Phyrexia's last ability has already resolved and created a Powerstone token. We call this having your cake and compleating it too.
+  - *2022-10-14* — If you played a card from exile for any reason, the ability won't trigger, even if it wasn't the card you exiled with the first ability.
+  - *2022-10-14* — Powerstone tokens are a kind of predefined token. Each one has the artifact subtype "Powerstone" and the ability "{T}: Add {C}. This mana can't be spent to cast a nonartifact spell."
+  - *2022-10-14* — You can use the {C} added by a Powerstone token on anything that isn't a nonartifact spell. This includes paying costs to activate abilities of both artifact and nonartifact permanents, paying ward costs, and so on.
+  - *2022-10-14* — You must follow all normal timing rules for a card you play using Visions of Phyrexia's first ability and, if it's a spell, you must pay its costs to cast it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/156/visions-of-phyrexia) · oracle_id `634b46a6-ec8b-41f0-8eb6-1e9144035847` · printing: BRO #156 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Visions of Ruin
 
@@ -2866,7 +3160,14 @@
   > Flashback {8}{R}{R}. This spell costs {X} less to cast this way, where X is the greatest mana value of a commander you own on the battlefield or in the command zone. (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Treasure, Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8610 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mic/36/visions-of-ruin) · oracle_id `3570001c-844f-4319-9850-ab997d62a83b` · printing: MIC #36 (2021-09-24) · [rulings](https://api.scryfall.com/cards/803a93c7-d8e4-4cda-8fa0-d9cd50b7d977/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-09-24* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2021-09-24* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2021-09-24* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2021-09-24* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2021-09-24* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+  - *2021-09-24* — “Flashback [cost]” means “You may cast this card from your graveyard by paying [cost] rather than paying its mana cost” and “If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack.”
+- **Source flags:** [Scryfall](https://scryfall.com/card/mic/36/visions-of-ruin) · oracle_id `3570001c-844f-4319-9850-ab997d62a83b` · printing: MIC #36 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Visions of Villainy
 
@@ -2979,6 +3280,7 @@
   > *"After waking to the magic of Llanowar, no dreams can compare."*
   > *—Mirri of the \*Weatherlight\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3577 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/6ed/265/vitalize) · oracle_id `cd3226c6-bd47-4246-8ab3-01316c5d1809` · printing: 6ED #265 (1999-04-21) · [rulings](https://api.scryfall.com/cards/435a4569-fa62-4e1a-b837-f68159cb270d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vitalizing Cascade
@@ -3077,7 +3379,10 @@
   > Whenever you sacrifice another permanent, you gain 2 life if this is the first time this ability has resolved this turn. If it's the second time, each opponent loses 2 life. If it's the third time, create a 4/3 white and black Vampire Demon creature token with flying.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9163 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/243/vito-fanatic-of-aclazotz) · oracle_id `9768d43b-8b3f-4d03-ac1b-e603af832875` · printing: LCI #243 (2023-11-17) · [rulings](https://api.scryfall.com/cards/c4fd9047-df91-4d82-be00-c623acae0f01/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-11-10* — If you sacrifice Vito at the same time you sacrifice other permanents, Vito's ability will trigger for each of those other permanents.
+  - *2023-11-10* — Vito's triggered ability has no effect each time beyond the third it resolves in a turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/243/vito-fanatic-of-aclazotz) · oracle_id `9768d43b-8b3f-4d03-ac1b-e603af832875` · printing: LCI #243 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vito's Inquisitor
 
@@ -3147,6 +3452,7 @@
 - **Flavor text** (AFC printing):
   > *In the autumn, she casts her seeds across the streets below, and come spring, her children rise in service to the Conclave.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8419 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/afc/272/vitu-ghazi-the-city-tree) · oracle_id `88fb9e82-28b9-4275-a1e2-cb3a9bfda127` · printing: AFC #272 (2021-07-23) · [rulings](https://api.scryfall.com/cards/33145080-077e-4231-96ca-e8b1852b6380/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vivid Crag
@@ -3158,6 +3464,7 @@
   > {T}: Add {R}.
   > {T}, Remove a charge counter from this land: Add one mana of any color.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7432 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cm2/276/vivid-crag) · oracle_id `d8e2efe0-33a4-4303-9e83-ac42ea5df8cb` · printing: CM2 #276 (2018-06-08) · [rulings](https://api.scryfall.com/cards/da397243-2193-4e5d-8dee-df37b70677e7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vivid Creek
@@ -3169,6 +3476,7 @@
   > {T}: Add {U}.
   > {T}, Remove a charge counter from this land: Add one mana of any color.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4661 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/444/vivid-creek) · oracle_id `2da7c49f-cc1e-45d9-9cbf-067e92b0daef` · printing: NCC #444 (2022-04-29) · [rulings](https://api.scryfall.com/cards/c9082527-aa88-42f7-b2f2-de21878cb179/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vivid Flying Fish
@@ -3192,6 +3500,7 @@
   > {T}: Add {G}.
   > {T}, Remove a charge counter from this land: Add one mana of any color.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4696 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/445/vivid-grove) · oracle_id `b7a68899-c0d3-49e0-854b-19268ae9b89d` · printing: NCC #445 (2022-04-29) · [rulings](https://api.scryfall.com/cards/12ccc686-bbaa-4c34-a7b8-a1e763fe0ad0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vivid Marsh
@@ -3203,6 +3512,7 @@
   > {T}: Add {B}.
   > {T}, Remove a charge counter from this land: Add one mana of any color.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6557 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c17/292/vivid-marsh) · oracle_id `20b32052-f66f-4eb8-b56e-00d531907f19` · printing: C17 #292 (2017-08-25) · [rulings](https://api.scryfall.com/cards/b71b3df3-e188-45bb-8dc8-53fd4d527735/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vivid Meadow
@@ -3214,6 +3524,7 @@
   > {T}: Add {W}.
   > {T}, Remove a charge counter from this land: Add one mana of any color.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6105 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/446/vivid-meadow) · oracle_id `dee99df5-628f-4a4e-a203-4dfddc927373` · printing: NCC #446 (2022-04-29) · [rulings](https://api.scryfall.com/cards/625a42b4-d88c-48e0-96b1-77388ca48810/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vivid Revival
@@ -3249,7 +3560,11 @@
   > +1: Until your next turn, up to one target creature gains reach and vigilance.
   > −2: Look at the top three cards of your library. Exile one face down and put the rest on the bottom of your library in any order. For as long as it remains exiled, you may cast it if it's a creature spell.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3956 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/838/vivien-champion-of-the-wilds) · oracle_id `146eb8c8-93d5-4dd5-af7a-46d5acd4a89d` · printing: CLB #838 (2022-06-10) · [rulings](https://api.scryfall.com/cards/e11dc967-ae38-4c19-bf54-b3209e203b39/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-05-03* — Once you cast the creature card, it leaves exile. You can't cast it again if that card becomes exiled again.
+  - *2019-05-03* — While resolving Vivien's last ability, you must exile one of the three cards, even if none of them are creature cards. You may look at the exiled card at any time, even if it's not a creature card.
+  - *2019-05-03* — You must follow any applicable timing permissions and restrictions if you cast the exiled card. This means that if Vivien leaves the battlefield, you can't cast the creature spell as though it had flash unless another effect allows you to do so.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/838/vivien-champion-of-the-wilds) · oracle_id `146eb8c8-93d5-4dd5-af7a-46d5acd4a89d` · printing: CLB #838 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vivien, Monsters' Advocate
 
@@ -3262,7 +3577,17 @@
   > +1: Create a 3/3 green Beast creature token. Put your choice of a reach counter, a vigilance counter, or a trample counter on it.
   > −2: When you next cast a creature spell this turn, search your library for a creature card with lesser mana value, put it onto the battlefield, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6543 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/iko/175/vivien-monsters-advocate) · oracle_id `7256b03e-4fd5-4a0a-9b20-7b88870edfec` · printing: IKO #175 (2020-04-24) · [rulings](https://api.scryfall.com/cards/504ebb84-7e7b-4119-a128-a9c183c5d9de/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2020-04-17* — After activating Vivien's last loyalty ability, the delayed triggered ability it creates will put a creature card onto the battlefield before the creature spell that caused the ability to trigger resolves.
+  - *2020-04-17* — For spells with {X} in their mana costs, use the value chosen for X to determine the spell's mana value.
+  - *2020-04-17* — If a card in a player's library has {X} in its mana cost, X is considered to be 0.
+  - *2020-04-17* — If the top card of your library changes while you're casting a spell, playing a land, or activating an ability, you can't look at the new top card until you finish doing so. This means that if you cast the top card of your library, you can't look at the next one until you're done paying for that spell.
+  - *2020-04-17* — If you cast a mutating creature spell, you must choose a target for it before the triggered ability from Vivien's last ability puts a creature onto the battlefield. The creature you find can't be the target of the mutating creature spell.
+  - *2020-04-17* — Normally, Vivien allows you to cast the top card of your library if it's a creature card, it's your main phase, and the stack is empty. If that creature card has flash, you'll be able to cast it any time you could cast an instant, even on an opponent's turn.
+  - *2020-04-17* — The top card of your library isn't in your hand, so you can't cycle it, discard it, or activate any of its activated abilities.
+  - *2020-04-17* — Vivien lets you look at the top card of your library whenever you want (with one restriction; see below), even if you don't have priority. This action doesn't use the stack. Knowing what that card is becomes part of the information you have access to, just like you can look at the cards in your hand.
+  - *2020-04-17* — You'll still pay all costs for that spell, including additional costs. You may also pay alternative costs such as mutate costs.
+- **Source flags:** [Scryfall](https://scryfall.com/card/iko/175/vivien-monsters-advocate) · oracle_id `7256b03e-4fd5-4a0a-9b20-7b88870edfec` · printing: IKO #175 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vivien, Nature's Avenger
 
@@ -3299,7 +3624,9 @@
   > −1: Create a 4/4 green Rhino Warrior creature token.
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8499 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/snc/162/vivien-on-the-hunt) · oracle_id `f6f927f3-dc3f-446c-aa7b-81048eb73243` · printing: SNC #162 (2022-04-29) · [rulings](https://api.scryfall.com/cards/5edfb119-abc9-4d4d-bc46-33cce1a0922d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-04-29* — You may activate Vivien on the Hunt's first ability without sacrificing a creature. If you do, the ability does nothing.
+- **Source flags:** [Scryfall](https://scryfall.com/card/snc/162/vivien-on-the-hunt) · oracle_id `f6f927f3-dc3f-446c-aa7b-81048eb73243` · printing: SNC #162 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vivien Reid
 
@@ -3311,6 +3638,7 @@
   > −3: Destroy target artifact, enchantment, or creature with flying.
   > −8: You get an emblem with "Creatures you control get +2/+2 and have vigilance, trample, and indestructible."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4075 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/234/vivien-reid) · oracle_id `b5f20a6d-8c3e-452f-9d98-4886f0fa052a` · printing: FDN #234 (2024-11-15) · [rulings](https://api.scryfall.com/cards/38769247-42a1-4571-9071-6d59fe28650a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vivien's Arkbow
@@ -3411,7 +3739,10 @@
   > {0}: Add X mana in any combination of {U} and/or {R}, where X is Vivi Ornitier's power. Activate only during your turn and only once each turn.
   > Whenever you cast a noncreature spell, put a +1/+1 counter on Vivi Ornitier and it deals 1 damage to each opponent.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1097 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/248/vivi-ornitier) · oracle_id `0452be2a-e97a-4269-a9e3-b616265ecb2e` · printing: FIN #248 (2025-06-13) · [rulings](https://api.scryfall.com/cards/ecc1027a-8c07-44a0-bdde-fa2844cff694/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-06-06* — Vivi Ornitier's first ability is a mana ability. It doesn't use the stack and it can't be responded to.
+  - *2025-06-06* — Vivi Ornitier's last ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/248/vivi-ornitier) · oracle_id `0452be2a-e97a-4269-a9e3-b616265ecb2e` · printing: FIN #248 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vivisection
 
@@ -3447,7 +3778,9 @@
   > Create a 0/1 black Wizard creature token with "Whenever you cast a noncreature spell, this token deals 1 damage to each opponent."
   > Whenever your commander enters or attacks, you may pay {2}. If you do, return this card from your graveyard to your hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6048 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/458/vivis-persistence) · oracle_id `fd4a1f4b-674d-41f3-a9a6-c2b65bf5c1ab` · printing: FIC #458 (2025-12-05) · [rulings](https://api.scryfall.com/cards/be6ba2e4-e657-4a2d-8f5f-255376d861b3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-10-02* — The Wizard token's ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/458/vivis-persistence) · oracle_id `fd4a1f4b-674d-41f3-a9a6-c2b65bf5c1ab` · printing: FIC #458 (2025-12-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vivisurgeon's Insight
 
@@ -3459,7 +3792,14 @@
   > *"Experimental Log 290: Leaving the subject's pain receptors active appears to yield an unprecedented combination of incoherence and hyperawareness."*
 - **Keywords:** Proliferate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7840 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/77/vivisurgeons-insight) · oracle_id `cf6ff089-63d7-4a98-b95d-2837c017a866` · printing: ONE #77 (2023-02-10) · [rulings](https://api.scryfall.com/cards/cd244359-781e-4e1d-946d-243664f40c7c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-02-04* — An ability that triggers "Whenever you proliferate" triggers even if you chose no permanents or players while doing so.
+  - *2023-02-04* — If a permanent ever has both +1/+1 counters and -1/-1 counters on it at the same time, they're removed in pairs as a state-based action so that the permanent has only one of those kinds of counters on it.
+  - *2023-02-04* — If a player or permanent has more than one kind of counter on it, and you choose for it to get additional counters, it must get one of each kind of counter it already has. You can't have it get just one kind of counter it already has and not the others.
+  - *2023-02-04* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
+  - *2023-02-04* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
+  - *2023-02-04* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/77/vivisurgeons-insight) · oracle_id `cf6ff089-63d7-4a98-b95d-2837c017a866` · printing: ONE #77 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viv Vision, Teen Synthezoid
 
@@ -3496,7 +3836,21 @@
   > Embalm {3}{U}{U}
 - **Keywords:** Embalm
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4342 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/123/vizier-of-many-faces) · oracle_id `55bceb83-bbba-477f-98ce-6e0a80b91080` · printing: MKC #123 (2024-02-09) · [rulings](https://api.scryfall.com/cards/f4f5deae-3fa7-4c06-abe1-753d94158a0a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2017-04-18* — Any enters-the-battlefield abilities of the copied creature will trigger when Vizier of Many Faces enters the battlefield. Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the chosen creature will also work.
+  - *2017-04-18* — For each card with embalm, a corresponding game play supplement token can be found in some Amonkhet booster packs. These supplements are not required to play with cards with embalm; you can use the same items to represent an embalmed token as you would any other token.
+  - *2017-04-18* — If Vizier of Many Faces somehow enters the battlefield at the same time as another creature, Vizier of Many Faces can't become a copy of that creature. You may choose only a creature that's already on the battlefield.
+  - *2017-04-18* — If the card copied by the token had any "when [this permanent] enters the battlefield" abilities, then the token also has those abilities and will trigger them when it's created. Similarly, any "as [this permanent] enters the battlefield" or "[this permanent] enters the battlefield with" abilities that the token has copied will also work.
+  - *2017-04-18* — If the chosen creature has {X} in its mana cost, X is considered to be 0.
+  - *2017-04-18* — If the chosen creature is a token, Vizier of Many Faces copies the original characteristics of that token as stated by the effect that created the token. Vizier of Many Faces is not a token in this case unless it's embalmed.
+  - *2017-04-18* — If the chosen creature is copying something else (for example, if the chosen creature is another Vizier of Many Faces), then Vizier of Many Faces enters the battlefield as whatever the chosen creature copied.
+  - *2017-04-18* — The characteristics Vizier of Many Faces gains as part of its copy effect are copiable values that other effects may copy.
+  - *2017-04-18* — The token copies exactly what was printed on the original card and nothing else. It doesn't copy any information about the object the card was before it was put into your graveyard.
+  - *2017-04-18* — The token is a Zombie in addition to its other types and is white instead of its other colors. It has no mana cost, and thus its mana value is 0. These are copiable values of the token that other effects may copy.
+  - *2017-04-18* — Vizier of Many Faces copies exactly what was printed on the original creature (unless that creature is copying something else or is a token; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
+  - *2017-07-14* — If a spell or ability puts a creature card with embalm into your graveyard during your main phase, you'll have priority immediately after that spell or ability resolves. You can activate the creature card's embalm ability before any player can exile it with an effect, such as that of Crook of Condemnation, if it's legal for you to do so.
+  - *2017-07-14* — Once you've activated an embalm ability, the card is immediately exiled. Opponents can't try to stop the ability by exiling the card with an effect such as that of Crook of Condemnation.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/123/vizier-of-many-faces) · oracle_id `55bceb83-bbba-477f-98ce-6e0a80b91080` · printing: MKC #123 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vizier of Remedies
 
@@ -3531,7 +3885,14 @@
   > You may cast creature spells from the top of your library.
   > You can spend mana of any type to cast creature spells.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4249 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/769/vizier-of-the-menagerie) · oracle_id `4f890d42-e4f1-4eed-aa6c-718865de8927` · printing: FDN #769 (2026-04-24) · [rulings](https://api.scryfall.com/cards/14ab742a-89dc-4c01-99e3-21fc609128f2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2017-04-18* — If the top card of your library changes while you're casting a spell, playing a land, or activating an ability, you can't look at the new top card until you finish doing so. This means that if you cast the top card of your library, you can't look at the next one until you're done paying for that spell.
+  - *2017-04-18* — Normally, Vizier of the Menagerie allows you to cast the top card of your library if it's a creature card, it's your main phase, and the stack is empty. If that creature card has flash, you'll be able to cast it any time you could cast an instant, even on an opponent's turn.
+  - *2017-04-18* — The top card of your library isn't in your hand, so you can't cycle it, discard it, or activate any of its activated abilities.
+  - *2017-04-18* — Vizier of the Menagerie lets you look at the top card of your library whenever you want (with one restriction—see below), even if you don't have priority. This action doesn't use the stack. Knowing what that card is becomes part of the information you have access to, just like you can look at the cards in your hand.
+  - *2017-04-18* — You may spend mana as though it were mana of any type to cast any creature spell, not just creature spells that you cast from the top of your library.
+  - *2017-04-18* — You'll still pay all costs for that spell, including additional costs. You may also pay alternative costs such as emerge or that of As Foretold.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/769/vizier-of-the-menagerie) · oracle_id `4f890d42-e4f1-4eed-aa6c-718865de8927` · printing: FDN #769 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vizier of the Scorpion
 
@@ -3545,7 +3906,15 @@
   > *His blessing is a curse.*
 - **Keywords:** Amass
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7111 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/war/111/vizier-of-the-scorpion) · oracle_id `61897e1b-dea0-44c2-9e38-6e2627647e17` · printing: WAR #111 (2019-05-03) · [rulings](https://api.scryfall.com/cards/2444c7dc-7aa1-4476-8660-19d26607306d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-06-16* — Amass Orcs works the same way, except you create a 0/0 black Orc Army creature token if you don't control an Army. If the Army creature you chose isn't already an Orc, it becomes an Orc in addition to its other types. By combining cards with amass Orcs and amass Zombies, you can end up with an Orc Zombie Army.
+  - *2023-06-16* — Amass abilities are now written as "amass [subtype] N." Previous cards with amass have received errata to say "amass Zombies N."
+  - *2023-06-16* — If you don't control an Army, the Zombie Army token you create enters the battlefield as a 0/0 creature before receiving counters. Any abilities that trigger when a creature with a certain power enters the battlefield, such as that of Mentor of the Meek, will see the token enter as a 0/0 creature before it gets +1/+1 counters.
+  - *2023-06-16* — In the rare case that you control multiple Army creatures (perhaps because you played a creature with changeling) while you amass Zombies, you choose which of your Army creatures to put the +1/+1 counters on. If that creature isn't a Zombie, it becomes a Zombie in addition to its other types.
+  - *2023-06-16* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
+  - *2023-06-16* — Some cards that cause you to amass Zombies also provide bonuses to "Zombie tokens." These affect any token that happens to be a Zombie, not just a Zombie Army you've amassed.
+  - *2023-06-16* — To amass Zombies N, if you don't control an Army creature, create a 0/0 black Zombie Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already a Zombie, it becomes a Zombie in addition to its other types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/war/111/vizier-of-the-scorpion) · oracle_id `61897e1b-dea0-44c2-9e38-6e2627647e17` · printing: WAR #111 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vizier of the True
 
@@ -3574,7 +3943,10 @@
   > *"Time is like the Luxa River—though it flows in one direction, it can be diverted."*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3423 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/131/vizier-of-tumbling-sands) · oracle_id `699fc7cf-1ad3-4c32-b3e4-49f9a2da4b26` · printing: CMM #131 (2023-08-04) · [rulings](https://api.scryfall.com/cards/a9aef509-50f0-4848-87d5-3c169453186f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-12-08* — The cycling ability and the triggered ability are separate. If the triggered ability doesn't resolve (because, for example, it has been countered, or all of its targets have become illegal), the cycling ability will still resolve, and you'll draw a card.
+  - *2022-12-08* — When you cycle this card, first the cycling ability goes on the stack, then the triggered ability goes on the stack on top of it. The triggered ability will resolve before you draw a card from the cycling ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/131/vizier-of-tumbling-sands) · oracle_id `699fc7cf-1ad3-4c32-b3e4-49f9a2da4b26` · printing: CMM #131 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vizkopa Confessor
 
@@ -3597,7 +3969,11 @@
   > {1}{W}{B}: Target creature gains lifelink until end of turn.
   > {1}{W}{B}: Whenever you gain life this turn, each opponent loses that much life.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4518 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ima/211/vizkopa-guildmage) · oracle_id `f19e7c5c-67fa-4ae4-89b8-afa0e08a6c48` · printing: IMA #211 (2017-11-17) · [rulings](https://api.scryfall.com/cards/dfdce9d1-a163-40e1-a70a-1f09cf400a6c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2017-11-17* — Each time Vizkopa Guildmage’s second ability resolves, a delayed triggered ability is created. Whenever you gain life that turn, each of those abilities will trigger. For example, if you activate the second ability twice, let those abilities resolve, then gain 2 life, each opponent will lose a total of 4 life.
+  - *2017-11-17* — In a Two-Headed Giant game, Vizkopa Guildmage’s delayed triggered ability causes the opposing team to lose twice the life you gained.
+  - *2017-11-17* — Multiple instances of lifelink on the same creature are redundant.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ima/211/vizkopa-guildmage) · oracle_id `f19e7c5c-67fa-4ae4-89b8-afa0e08a6c48` · printing: IMA #211 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vizkopa Vampire
 

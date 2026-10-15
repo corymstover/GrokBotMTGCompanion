@@ -71,7 +71,9 @@
 - **Flavor text** (TLA printing):
   > *"Bosco seems to like him."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2570 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/172/the-earth-king) · oracle_id `d5770b0f-4493-42e9-a2d7-0e74a28da4ba` · printing: TLA #172 (2025-11-21) · [rulings](https://api.scryfall.com/cards/a8d5dca6-381a-4361-b265-27de8d04335c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-10-02* — The Earth King's second ability counts the number of creatures with power 4 or greater you attack with when the ability triggers. Even if some or all of those creatures are no longer attacking or no longer have power 4 or greater when the ability resolves, they still count towards how many lands you can search for.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/172/the-earth-king) · oracle_id `d5770b0f-4493-42e9-a2d7-0e74a28da4ba` · printing: TLA #172 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Echoverse Fulcrum
 
@@ -121,7 +123,10 @@
   > III — Create a 4/4 red Dragon creature token with flying.
 - **Keywords:** Read Ahead
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9425 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/121/the-elder-dragon-war) · oracle_id `4945f03b-ff99-4923-b62d-3cdb60275ef1` · printing: DMU #121 (2022-09-09) · [rulings](https://api.scryfall.com/cards/0c52c7d4-a350-4518-8c9a-72cf7b14603d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-09-09* — As a Saga with read ahead enters the battlefield, its controller chooses a number from one to that Saga's greatest chapter number. The Saga enters the battlefield with the chosen number of lore counters. Neither choosing the number nor putting the counters on the Saga use the stack, and neither can be responded to.
+  - *2022-09-09* — In a Two-Headed Giant game, the first chapter ability deals to damage to each player on the opposing team, reducing that team's life total by 4.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/121/the-elder-dragon-war) · oracle_id `4945f03b-ff99-4923-b62d-3cdb60275ef1` · printing: DMU #121 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Elderspell
 
@@ -144,7 +149,18 @@
   > II — Each opponent discards a card.
   > III — Put target creature or planeswalker card from a graveyard onto the battlefield under your control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2024 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/139/the-eldest-reborn) · oracle_id `44ed4c0c-a012-4895-a547-b04150553bba` · printing: DSC #139 (2024-09-27) · [rulings](https://api.scryfall.com/cards/4d29351e-5608-40e8-8220-6c9635d48ad4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2018-04-27* — A chapter ability doesn't trigger if a lore counter is put on a Saga that already had a number of lore counters greater than or equal to that chapter's number. For example, the third lore counter put on a Saga causes the III chapter ability to trigger, but I and II won't trigger again.
+  - *2018-04-27* — As a Saga enters the battlefield, its controller puts a lore counter on it. As your precombat main phase begins (immediately after your draw step), you put another lore counter on each Saga you control. Putting a lore counter on a Saga in either of these ways doesn't use the stack.
+  - *2018-04-27* — Each symbol on the left of a Saga's text box represents a chapter ability. A chapter ability is a triggered ability that triggers when a lore counter that is put on the Saga causes the number of lore counters on the Saga to become equal to or greater than the ability's chapter number. Chapter abilities are put onto the stack and may be responded to.
+  - *2018-04-27* — If counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives lore counters. Removing lore counters won't cause a previous chapter ability to trigger.
+  - *2018-04-27* — If multiple chapter abilities trigger at the same time, their controller puts them on the stack in any order. If any of them require targets, those targets are chosen as you put the abilities on the stack, before any of those abilities resolve.
+  - *2018-04-27* — In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, the permanent you control from The Eldest Reborn's final chapter ability is exiled.
+  - *2018-04-27* — Once a chapter ability has triggered, the ability on the stack won't be affected if the Saga gains or loses counters, or if it leaves the battlefield.
+  - *2018-04-27* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities—in the Dominaria set, this is always three—the Saga's controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn't use the stack.
+  - *2018-04-27* — When the first chapter ability of The Eldest Reborn resolves, the next opponent in turn order (or, if it's an opponent's turn, that opponent) chooses a creature or planeswalker they control, then each other opponent in turn order (if any) does the same. All chosen permanents are then sacrificed at the same time. Players will know the choices made by earlier players when making their choices.
+  - *2018-04-27* — When the second chapter ability of The Eldest Reborn resolves, the next opponent in turn order (or, if it's an opponent's turn, that opponent) chooses a card in hand without revealing it, then each other opponent in turn order (if any) does the same. All chosen cards are then discarded at the same time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/139/the-eldest-reborn) · oracle_id `44ed4c0c-a012-4895-a547-b04150553bba` · printing: DSC #139 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Eleventh Doctor
 
@@ -156,7 +172,25 @@
   > {2}: Target creature with power 3 or less can't be blocked this turn.
 - **Keywords:** I. AM. TALKING!
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9781 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/125/the-eleventh-doctor) · oracle_id `721e8249-ff1b-4c15-964b-4ba2a96beb75` · printing: WHO #125 (2023-10-13) · [rulings](https://api.scryfall.com/cards/590849a7-9abc-4757-8e13-f680d3b1dceb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (17):
+  - *2023-10-13* — After The Eleventh Doctor's last ability resolves, that creature can't be blocked this turn even if its power later increases to greater than 3.
+  - *2023-10-13* — If an effect instructs you to choose a creature type, you may choose Time Lord.
+  - *2023-10-13* — Neither "Time" nor "Lord" are creature types. Some older cards were printed with the subtype "Lord," but all of those cards have updated Oracle card text that removed that type.
+  - *2023-10-13* — Unlike other creature types in Magic that are each only one word, the two words "Time Lord" represent a single creature subtype. Time Lord is the only two-word creature type.
+  - *2024-02-02* — Cards exiled with suspend are exiled face up.
+  - *2024-02-02* — Due to a recent rules change to suspend, you are no longer required to cast the suspended card as the second triggered ability of suspend resolves. Instead, as the second triggered ability resolves, you may cast the card. Timing permissions based on the card's type are ignored. If you don't cast the card, it remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to.
+  - *2024-02-02* — If an effect refers to a "suspended card," that means a card that (1) has suspend, (2) is in exile, and (3) has one or more time counters on it.
+  - *2024-02-02* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-02-02* — If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again at the beginning of the card's owner's next upkeep.
+  - *2024-02-02* — If the second triggered ability is countered, the card can't be cast. It remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it's exiled.
+  - *2024-02-02* — If you cast a card "without paying its mana cost," such as with suspend, you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those if you want to cast the card.
+  - *2024-02-02* — Suspend is a keyword that represents three abilities. The first is a static ability that allows you to exile the card from your hand with the specified number of time counters (the number before the dash) on it by paying its suspend cost (listed after the dash). The second is a triggered ability that removes a time counter from the suspended card at the beginning of each of your upkeeps. The third is a triggered ability that gives you the option to cast the card when the last time counter is removed.
+  - *2024-02-02* — The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.
+  - *2024-02-02* — When the last time counter is removed, the second triggered ability of suspend (the one that lets you cast the card) triggers. It doesn't matter why the last time counter was removed or what effect removed it.
+  - *2024-02-02* — You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effects that modify when you could cast it (such as flash) and any other effects that stop you from casting it (such as from Meddling Mage's ability) to determine if and when you can do this. Whether you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or that requires a target even if no legal targets are available at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/125/the-eleventh-doctor) · oracle_id `721e8249-ff1b-4c15-964b-4ba2a96beb75` · printing: WHO #125 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Eleventh Hour
 
@@ -185,7 +219,18 @@
   > *"All the world shall fall by my hand."*
 - **Keywords:** Starfall, Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4355 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/219/the-emperor-of-palamecia-the-lord-master-of-hell) · oracle_id `042c01ec-9f1f-432b-bea9-d64d822cd91e` · printing: FIN #219 (2025-06-13) · [rulings](https://api.scryfall.com/cards/3d75e8fd-6139-4b10-9ce3-195b47d72e0c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2025-06-06* — A nonmodal double-faced card enters with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed or allows you to cast it transformed, in which case it enters with its back face up.
+  - *2025-06-06* — A token that is created as a copy of a double-faced permanent or a double-faced card in another zone is a double-faced token. It will have both the front face and back face of whatever object it's copying. If it's copying a double-faced permanent whose back face is up, the token will enter with its back face up. It can transform if instructed to do so.
+  - *2025-06-06* — Each face of a nonmodal double-faced card has its own set of characteristics: name, types, subtypes, abilities, and so on. While a nonmodal double-faced permanent is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored.
+  - *2025-06-06* — Each nonmodal double-faced card in this release is cast face up. In every zone other than the battlefield, consider only the characteristics of its front face. If it is on the battlefield, consider only the characteristics of the face that's up; the other face's characteristics are ignored.
+  - *2025-06-06* — If you are instructed to put a card that isn't a double-faced card onto the battlefield transformed, it will not enter at all. In that case, it stays in the zone it was previously in. For example, if a single-faced card is a copy of Crystal Fragments, it will be exiled during the resolution of its second ability and remain in exile.
+  - *2025-06-06* — In the Commander variant, a double-faced card's color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered. For example, Cecil, Dark Knight's color identity is black and white, since its front face is black and its back face has a white color indicator.
+  - *2025-06-06* — The Emperor of Palamecia's last ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+  - *2025-06-06* — The back face of a nonmodal double-faced card usually has a color indicator that defines its color.
+  - *2025-06-06* — The mana value of a nonmodal double-faced card is the mana value of its front face, no matter which face is up.
+  - *2025-06-06* — The value of X is calculated only once, as The Lord Master of Hell's ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/219/the-emperor-of-palamecia-the-lord-master-of-hell) · oracle_id `042c01ec-9f1f-432b-bea9-d64d822cd91e` · printing: FIN #219 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The End
 
@@ -207,7 +252,10 @@
 - **Flavor text** (EOE printing):
   > *The future is set. The present remains uncertain.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3183 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/240/the-endstone) · oracle_id `57ee0730-3ac5-4f17-ac82-bd4a6673c2bb` · printing: EOE #240 (2025-08-01) · [rulings](https://api.scryfall.com/cards/a451a459-18e0-4c53-a171-3e9da534ebf1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-07-25* — For your life total to become a certain value, you will gain or lose the appropriate amount of life. For example, if your starting life total is 20 and your life total is 17 when The Endstone’s last ability resolves, you will lose 7 life and your life total will become 10. Other abilities that interact with life gain or life loss will interact with this effect accordingly.
+  - *2025-07-25* — The Endstone’s first ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack without resolving.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/240/the-endstone) · oracle_id `57ee0730-3ac5-4f17-ac82-bd4a6673c2bb` · printing: EOE #240 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Enigma Jewel // Locus of Enlightenment
 
@@ -221,7 +269,25 @@
   > Whenever you activate an ability that isn't a mana ability, copy it. You may choose new targets for the copy.
 - **Keywords:** Craft, Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6488 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/55/the-enigma-jewel-locus-of-enlightenment) · oracle_id `c0d2bdd9-1e68-4d3a-83f8-ec2ba440a494` · printing: LCI #55 (2023-11-17) · [rulings](https://api.scryfall.com/cards/2e98970d-06a8-4c91-ba47-4a02c5b949f2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (17):
+  - *2023-11-10* — Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keyword abilities are activated abilities and will have colons in their reminder text.
+  - *2023-11-10* — An activated mana ability is one that produces mana as it resolves, not one that costs mana to activate.
+  - *2023-11-10* — Any choices made when the ability resolves won't have been made yet when it's copied. Any such choices will be made separately when the copy resolves.
+  - *2023-11-10* — Craft abilities are activated abilities. You can spend mana from The Enigma Jewel's activated ability to activate its own craft ability, for example.
+  - *2023-11-10* — If a card that isn't a transforming double-faced card becomes a copy of a card with craft, it'll stay in exile if you activate the craft ability. It won't return to the battlefield.
+  - *2023-11-10* — If an activated ability of an exiled card used to craft Locus of Enlightenment references the card it's printed on by name, treat Locus of Enlightenment's version of that ability as though it referenced Locus of Enlightenment instead.
+  - *2023-11-10* — If the ability has damage divided as it was put onto the stack, the division can't be changed, although the targets receiving that damage still can. The same is true of abilities that distribute counters.
+  - *2023-11-10* — If the ability that's copied has an X whose value was determined as it was cast, the copy has the same value of X.
+  - *2023-11-10* — If the ability that's copied is modal (that is, it says "Choose one —" or the like), the copy will have the same mode or modes. You can't choose different ones.
+  - *2023-11-10* — If the materials required include multiple objects, you may exile some of them from among permanents you control and the rest from among cards in your graveyard. You don't have to choose all permanents or all cards from your graveyard.
+  - *2023-11-10* — Locus of Enlightenment has only the activated abilities of the exiled cards used to craft it. It doesn't gain keyword abilities (unless those keyword abilities are activated), triggered abilities, or static abilities.
+  - *2023-11-10* — The "only once each turn" restriction applies to each ability individually, even if multiples of the same card were exiled to craft Locus of Enlightenment. For example, if two of the same card were exiled to craft Locus of Enlightenment, it will have two instances of each of that card's activated abilities. Each of those abilities may be activated once each turn.
+  - *2023-11-10* — The back faces of some cards with craft refer to cards "used to craft" it. This refers to the cards exiled as part of the cost of the craft ability of the front face. Those cards are considered to be "used to craft" that permanent as long as they remain exiled and the permanent remains on the battlefield, even if the permanent's controller changes or some of its characteristics change (because of a copy effect, for example.)
+  - *2023-11-10* — The copy is created on the stack, so it's not "activated." Abilities that trigger when a player activates an ability (such as Locus of Enlightenment's own triggered ability) won't trigger.
+  - *2023-11-10* — The copy of the activated ability created by Locus of Enlightenment's triggered ability resolves before the original ability.
+  - *2023-11-10* — The copy will have the same targets as the ability it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them.
+  - *2023-11-10* — You may exile tokens you control as part of the materials required. However, because they aren't cards and won't stay in exile, any abilities that refer to what you "used to craft" the back faces won't refer to anything.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/55/the-enigma-jewel-locus-of-enlightenment) · oracle_id `c0d2bdd9-1e68-4d3a-83f8-ec2ba440a494` · printing: LCI #55 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Eternal Wanderer
 
@@ -234,7 +300,14 @@
   > 0: Create a 2/2 white Samurai creature token with double strike.
   > −4: For each player, choose a creature that player controls. Each player sacrifices all creatures they control not chosen this way.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1801 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/11/the-eternal-wanderer) · oracle_id `20a1671d-e8a4-4cf1-87a7-f2f6319f4b9e` · printing: ONE #11 (2023-02-10) · [rulings](https://api.scryfall.com/cards/905f0dd4-0197-45f8-8e7f-396d6dcef600/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-02-04* — Auras attached to the exiled permanent will be put into their owners' graveyards. Equipment attached to the exiled permanent will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist. Once the exiled permanent returns, it's considered a new object with no relation to the object that it was.
+  - *2023-02-04* — For the first loyalty ability, the exiled card will return to the battlefield at the beginning of that player's next end step even if The Eternal Wanderer is no longer on the battlefield at that time.
+  - *2023-02-04* — For the last loyalty ability, none of the chosen creatures are targets of the ability. You may choose creatures with hexproof, for example, and choosing a creature with ward will not cause the ward ability to trigger.
+  - *2023-02-04* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
+  - *2023-02-04* — If the permanent that returns to the battlefield has any abilities that trigger at the beginning of the end step, those abilities won't trigger that turn.
+  - *2023-02-04* — The Eternal Wanderer does not have a planeswalker type.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/11/the-eternal-wanderer) · oracle_id `20a1671d-e8a4-4cf1-87a7-f2f6319f4b9e` · printing: ONE #11 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Eternity Elevator
 
@@ -246,6 +319,7 @@
   > 20+ | {T}: Add X mana of any one color, where X is the number of charge counters on The Eternity Elevator.
 - **Keywords:** Station
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1567 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/241/the-eternity-elevator) · oracle_id `11323af4-b8b8-4ca9-932f-377c7fd77dea` · printing: EOE #241 (2025-08-01) · [rulings](https://api.scryfall.com/cards/1bb90ab9-43b9-4991-806a-0afc4d8caf5f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Ever-Changing 'Dane
@@ -272,7 +346,15 @@
   > Whenever you cast a permanent spell using mana produced by The Myriad Pools, up to one other target permanent you control becomes a copy of that spell until end of turn.
 - **Keywords:** Transform, Descend, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5237 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/56/the-everflowing-well-the-myriad-pools) · oracle_id `1f57a9f1-6b95-4395-bdf0-c5289b786ab1` · printing: LCI #56 (2023-11-17) · [rulings](https://api.scryfall.com/cards/bf573fb7-fa6c-4df7-8e5e-1e071585361e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-11-10* — Because the target permanent isn't entering the battlefield when it becomes a copy of a permanent spell, any "When [this permanent] enters the battlefield" or "[This permanent] enters the battlefield with" abilities of the copied spell won't apply for the target permanent.
+  - *2023-11-10* — Cards with the ability word "descend N" have abilities that care if you have at least N permanent cards in your graveyard.
+  - *2023-11-10* — If the copied spell has {X} in its mana cost, X is still 0 for the purposes of determining the mana value of the permanent on the battlefield.
+  - *2023-11-10* — Non-copy effects that have already applied to the target permanent will continue to apply to it. For example, if it's a creature, +1/+1 counters on it will still affect it.
+  - *2023-11-10* — Some descend triggered abilities include intervening "if" clauses (i.e. "if you have [four or eight] permanent cards in your graveyard" in the middle of the ability). Each of these abilities checks your graveyard at the moment it would trigger to see if it does. If you don't have the required number of permanent cards in your graveyard at that time, the ability doesn't trigger at all. If it does trigger, it will check again as it tries to resolve. If you don't have the required number of permanent cards in your graveyard at that time, the ability won't resolve and none of its effects will happen.
+  - *2023-11-10* — The target permanent copies what is printed on the original card, plus any choices that were made when casting the spell.
+  - *2023-11-10* — The triggered ability of The Myriad Pools will resolve before the spell that caused it to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/56/the-everflowing-well-the-myriad-pools) · oracle_id `1f57a9f1-6b95-4395-bdf0-c5289b786ab1` · printing: LCI #56 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Everforger
 

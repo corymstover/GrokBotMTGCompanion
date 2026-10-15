@@ -69,7 +69,10 @@
   > *Zuko's journey began when he refused to duel his father, but it would end dueling his sister.*
 - **Keywords:** Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1997 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/144/the-last-agni-kai) · oracle_id `fd1998c0-c18e-4310-82de-b6320be5fe10` · printing: TLA #144 (2025-11-21) · [rulings](https://api.scryfall.com/cards/61eaebc6-7575-48ed-b212-ff8b0c7ae694/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-10-02* — Excess damage has been dealt to a creature if the damage dealt to it is greater than lethal damage. Usually, this means damage greater than its toughness, although damage already marked on the creature is taken into account.
+  - *2025-10-02* — In some cases, the creature you control that is fighting may have deathtouch. Even 1 damage dealt to a creature from a source with deathtouch is considered lethal damage, so any amount greater than that will cause excess damage to be dealt, even if the total amount of damage isn't greater than the opponent's creature's toughness.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/144/the-last-agni-kai) · oracle_id `fd1998c0-c18e-4310-82de-b6320be5fe10` · printing: TLA #144 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Last Ride
 
@@ -136,7 +139,13 @@
   > Exhaust — Waterbend {20}: Take an extra turn after this one. (While paying a waterbend cost, you can tap your artifacts and creatures to help. Each one pays for {1}. Activate each exhaust ability only once.)
 - **Keywords:** Transform, Exhaust, Waterbend, Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6120 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/61/the-legend-of-kuruk-avatar-kuruk) · oracle_id `201b8936-18f4-4881-a1d4-c308cf3832bf` · printing: TLA #61 (2025-11-21) · [rulings](https://api.scryfall.com/cards/5e9a53d3-7f2f-4a9c-9516-0713da740478/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-10-02* — A nonmodal double-faced card enters with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed or you cast it transformed, in which case it enters with its back face up.
+  - *2025-10-02* — Each face of a nonmodal double-faced card has its own set of characteristics: name, types, subtypes, abilities, and so on. While a nonmodal double-faced permanent is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored.
+  - *2025-10-02* — Each nonmodal double-faced card in this set is cast face up. In every zone other than the battlefield, consider only the characteristics of its front face. If it is on the battlefield, consider only the characteristics of the face that's up; the other face's characteristics are ignored.
+  - *2025-10-02* — If you are instructed to put a card that isn't a double-faced card onto the battlefield transformed, it will not enter the battlefield at all. In that case, it stays in the zone it was previously in. For example, if a single-faced card is a copy of The Legend of Kuruk, the chapter III ability will cause it to be exiled and then remain in exile.
+  - *2025-10-02* — The mana value of a nonmodal double-faced card is the mana value of its front face, no matter which face is up.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/61/the-legend-of-kuruk-avatar-kuruk) · oracle_id `201b8936-18f4-4881-a1d4-c308cf3832bf` · printing: TLA #61 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Legend of Kyoshi // Avatar Kyoshi
 
@@ -154,7 +163,22 @@
   > *"Only justice will bring peace."*
 - **Keywords:** Transform, Earthbend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3015 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/186/the-legend-of-kyoshi-avatar-kyoshi) · oracle_id `e41e8754-028c-4399-b530-de9e134d04b0` · printing: TLA #186 (2025-11-21) · [rulings](https://api.scryfall.com/cards/4887ce64-7c98-4bd7-95db-0c43ab71cc6e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (14):
+  - *2025-10-02* — "Earthbend N" means "Target land you control becomes a 0/0 land creature with haste in addition to its other types. Put N +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped under your control."
+  - *2025-10-02* — A nonmodal double-faced card enters with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed or you cast it transformed, in which case it enters with its back face up.
+  - *2025-10-02* — Avatar Kyoshi's last ability is a mana ability. It doesn't use the stack and can't be responded to. If the greatest power among creatures you control is 0 or less, no mana is added.
+  - *2025-10-02* — Each face of a nonmodal double-faced card has its own set of characteristics: name, types, subtypes, abilities, and so on. While a nonmodal double-faced permanent is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored.
+  - *2025-10-02* — Each nonmodal double-faced card in this set is cast face up. In every zone other than the battlefield, consider only the characteristics of its front face. If it is on the battlefield, consider only the characteristics of the face that's up; the other face's characteristics are ignored.
+  - *2025-10-02* — Earthbend doesn't give the land you control a color. As most lands are colorless, in most cases the resulting land creature will also be colorless.
+  - *2025-10-02* — If a land was animated by earthbend and would go to any zone other than the graveyard or exile, it will not be returned to the battlefield by the delayed triggered ability created by earthbend.
+  - *2025-10-02* — If the targeted land becomes an illegal target before the spell or ability that includes earthbend resolves, earthbend does nothing. If the spell or ability didn't have other targets, it won't resolve.
+  - *2025-10-02* — If you are instructed to put a card that isn't a double-faced card onto the battlefield transformed, it will not enter the battlefield at all. In that case, it stays in the zone it was previously in. For example, if a single-faced card is a copy of The Legend of Kyoshi, the chapter III ability will cause it to be exiled and then remain in exile.
+  - *2025-10-02* — The effect making the land an Island doesn't have a duration and will last indefinitely while that land is on the battlefield. The land retains any land types and abilities it already had. An Island has the ability "{T}: Add {U}."
+  - *2025-10-02* — The greatest power among creatures you control is determined as The Legend of Kyoshi's first chapter ability resolves. If the greatest power among creatures you control is 0 or less at that time, you will not draw any cards.
+  - *2025-10-02* — The land will retain any other types, subtypes, or supertypes it previously had. It will also retain any mana abilities it had as a result of those subtypes. For example, a Forest that's turned into a creature this way can still be tapped for {G}.
+  - *2025-10-02* — The mana value of a nonmodal double-faced card is the mana value of its front face, no matter which face is up.
+  - *2025-10-02* — You may target a land that is already a creature, perhaps because of a previous earthbend ability. The land will get the +1/+1 counters, gain haste, and have its base power and toughness set to 0/0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/186/the-legend-of-kyoshi-avatar-kyoshi) · oracle_id `e41e8754-028c-4399-b530-de9e134d04b0` · printing: TLA #186 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Legend of Roku // Avatar Roku
 
@@ -172,7 +196,14 @@
   > *"You must be decisive."*
 - **Keywords:** Transform, Firebending
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4111 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/145/the-legend-of-roku-avatar-roku) · oracle_id `2f26f270-26d9-46d3-957f-19f52d51eb03` · printing: TLA #145 (2025-11-21) · [rulings](https://api.scryfall.com/cards/95f2f5af-d405-4534-8683-5a9001f997b4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-10-02* — A nonmodal double-faced card enters with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed or you cast it transformed, in which case it enters with its back face up.
+  - *2025-10-02* — Each face of a nonmodal double-faced card has its own set of characteristics: name, types, subtypes, abilities, and so on. While a nonmodal double-faced permanent is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored.
+  - *2025-10-02* — Each nonmodal double-faced card in this set is cast face up. In every zone other than the battlefield, consider only the characteristics of its front face. If it is on the battlefield, consider only the characteristics of the face that's up; the other face's characteristics are ignored.
+  - *2025-10-02* — If you are instructed to put a card that isn't a double-faced card onto the battlefield transformed, it will not enter the battlefield at all. In that case, it stays in the zone it was previously in. For example, if a single-faced card is a copy of The Legend of Roku, the chapter III ability will cause it to be exiled and then remain in exile.
+  - *2025-10-02* — The mana value of a nonmodal double-faced card is the mana value of its front face, no matter which face is up.
+  - *2025-10-02* — You pay all costs and follow all timing rules for cards played from exile using The Legend of Roku's first chapter ability. For example, if one of the exiled cards is a land card, you may play it only during your main phase while the stack is empty. You may play those exiled cards even if you no longer control The Legend of Roku.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/145/the-legend-of-roku-avatar-roku) · oracle_id `2f26f270-26d9-46d3-957f-19f52d51eb03` · printing: TLA #145 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Legend of Yangchen // Avatar Yangchen
 
@@ -190,7 +221,15 @@
   > *"Selfless duty calls you to sacrifice your own spiritual needs and do whatever it takes to protect the world."*
 - **Keywords:** Flying, Airbend, Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4281 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/27/the-legend-of-yangchen-avatar-yangchen) · oracle_id `521a63cf-5e83-4649-9800-c62b2fc474d6` · printing: TLA #27 (2025-11-21) · [rulings](https://api.scryfall.com/cards/a60e8f23-90b2-4bc6-bd54-a95055556389/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2025-10-02* — A nonmodal double-faced card enters with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed or you cast it transformed, in which case it enters with its back face up.
+  - *2025-10-02* — Each face of a nonmodal double-faced card has its own set of characteristics: name, types, subtypes, abilities, and so on. While a nonmodal double-faced permanent is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored.
+  - *2025-10-02* — Each nonmodal double-faced card in this set is cast face up. In every zone other than the battlefield, consider only the characteristics of its front face. If it is on the battlefield, consider only the characteristics of the face that's up; the other face's characteristics are ignored.
+  - *2025-10-02* — If you are instructed to put a card that isn't a double-faced card onto the battlefield transformed, it will not enter the battlefield at all. In that case, it stays in the zone it was previously in. For example, if a single-faced card is a copy of The Legend of Yangchen, the chapter III ability will cause it to be exiled and then remain in exile.
+  - *2025-10-02* — Permanents chosen by players using The Legend of Yangchen's first ability will be exiled simultaneously once all players have chosen permanents.
+  - *2025-10-02* — The mana value of a nonmodal double-faced card is the mana value of its front face, no matter which face is up.
+  - *2025-10-02* — You must choose a target opponent for The Legend of Yangchen's second chapter ability when it is put on the stack. You will not choose whether or not that opponent will draw cards until the ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/27/the-legend-of-yangchen-avatar-yangchen) · oracle_id `521a63cf-5e83-4649-9800-c62b2fc474d6` · printing: TLA #27 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Lion-Turtle
 
@@ -230,7 +269,11 @@
   > When The Locust God dies, return it to its owner's hand at the beginning of the next end step.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1738 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/335/the-locust-god) · oracle_id `e025a714-02da-4b0c-8021-cf3e8dc9b19e` · printing: MOC #335 (2023-04-21) · [rulings](https://api.scryfall.com/cards/7e599847-8ab0-4fd6-b2c0-cb44a7669aa5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2017-07-14* — If a spell or ability causes you to put cards into your hand without specifically using the word “draw,” The Locust God's first triggered ability won't trigger.
+  - *2017-07-14* — If this creature dies but leaves your graveyard before the next end step, it will remain in its new zone.
+  - *2017-07-14* — The “next end step” refers to the next end step that occurs, not the end step of the next turn. If this creature dies before a turn's end step (for example, during combat), it will be returned to its owner's hand at the beginning of that turn's end step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/335/the-locust-god) · oracle_id `e025a714-02da-4b0c-8021-cf3e8dc9b19e` · printing: MOC #335 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Lonely Mountain
 
@@ -241,6 +284,7 @@
   > This land enters tapped unless you control an Equipment.
   > {4}{R}, {T}: Create a 2/2 red Dwarf creature token. This ability costs {1} less to activate for each Equipment you control. Activate only as a sorcery.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7616 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/187/the-lonely-mountain) · oracle_id `3678c06f-8a33-4a6d-bf20-5b92d5c05a95` · printing: HOB #187 (2026-08-14) · [rulings](https://api.scryfall.com/cards/b39ebc4d-a01a-4401-ab3a-bf6142c93b47/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Long Reach of Night // Animus of Night's Reach
@@ -284,7 +328,9 @@
   > When this creature is turned face up, create four 1/1 green Saproling creature tokens.
 - **Keywords:** Morph
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7864 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/188/thelonite-hermit) · oracle_id `69d2e5f3-2f4d-4a36-bcd5-181164ecd894` · printing: MKC #188 (2024-02-09) · [rulings](https://api.scryfall.com/cards/4271f5b2-32ca-4349-9a09-afffbdacf636/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-03-19* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to a Saproling may become lethal if Thelonite Hermit leaves the battlefield during that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/188/thelonite-hermit) · oracle_id `69d2e5f3-2f4d-4a36-bcd5-181164ecd894` · printing: MKC #188 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thelonite Monk
 
@@ -343,7 +389,12 @@
   > Whenever a player casts their first spell each turn, choose another target player. The Lord of Pain deals damage equal to that spell's mana value to the chosen player.
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2462 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/3/the-lord-of-pain) · oracle_id `b194f277-5045-4391-8b48-d555a6d657a7` · printing: DSC #3 (2024-09-27) · [rulings](https://api.scryfall.com/cards/494c244e-dcdc-4169-9743-8a61f58e8763/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-09-20* — If a spell has {X} in its mana cost, use the value chosen for X when determining that spell's mana value.
+  - *2024-09-20* — If an effect says to set an opponent's life total to a number that's higher than their current life total, that player's life total won't change.
+  - *2024-09-20* — Spells and abilities that cause opponents to gain life still resolve while The Lord of Pain is on the battlefield. They won't gain life, but any other effects of that spell or ability will still happen.
+  - *2024-09-20* — The Lord of Pain's last ability must target a player other than the one who cast the spell that caused the ability to trigger. That means that if it's just you and one other player in the game, you'll have to target yourself when that player casts their first spell each turn. (What did you expect? You summoned The Lord of Pain!)
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/3/the-lord-of-pain) · oracle_id `b194f277-5045-4391-8b48-d555a6d657a7` · printing: DSC #3 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Lord of the Eagles
 
@@ -369,6 +420,7 @@
 - **Flavor text** (40K printing):
   > *The gods of Chaos bestow gifts of mutations upon their champions. Too many of these gifts transform their bearer into mindless, writhing chaos spawn.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5705 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/129/the-lost-and-the-damned) · oracle_id `22e70ad0-1a9c-4d9e-8cc1-ebea485282ca` · printing: 40K #129 (2022-10-07) · [rulings](https://api.scryfall.com/cards/9a53cf96-b47f-48f0-b9cc-3330ae546a87/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Lunar Whale

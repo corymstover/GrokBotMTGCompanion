@@ -31,7 +31,9 @@
   > You may cast historic spells as though they had flash. (Artifacts, legendaries, and Sagas are historic.)
 - **Keywords:** Flying, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6526 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/351/raff-capashen-ships-mage) · oracle_id `13044ca1-76a3-43b2-a8e4-3bbc692c30c5` · printing: CMM #351 (2023-08-04) · [rulings](https://api.scryfall.com/cards/c681e33b-3d60-4aaa-8186-51866d8b79d1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-04-27* — A card, spell, or permanent is historic if it has the legendary supertype, the artifact card type, or the Saga subtype. Having two of those qualities doesn't make an object more historic than another or provide an additional bonus—an object either is historic or it isn't.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/351/raff-capashen-ships-mage) · oracle_id `13044ca1-76a3-43b2-a8e4-3bbc692c30c5` · printing: CMM #351 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raffine, Scheming Seer
 
@@ -43,7 +45,11 @@
   > Whenever you attack, target attacking creature connives X, where X is the number of attacking creatures. (Draw X cards, then discard X cards. Put a +1/+1 counter on that creature for each nonland card discarded this way.)
 - **Keywords:** Flying, Ward, Connive
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4486 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/snc/213/raffine-scheming-seer) · oracle_id `9307f7e9-bcd9-41f9-88f8-0fb9700a6b12` · printing: SNC #213 (2022-04-29) · [rulings](https://api.scryfall.com/cards/716a44b4-f6b0-4f14-a270-6442aed3251f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-04-29* — Connive X is a variant of connive. If a creature connives X, its controller will draw X cards, discard X cards, then then put a number of +1/+1 counters on the conniving permanent equal to the number of nonland cards discarded this way.
+  - *2024-04-12* — If no card is discarded, most likely because that player's hand is empty and an effect says they can't draw cards, the conniving creature does not receive a +1/+1 counter.
+  - *2024-04-12* — Once an ability that causes a creature to connive begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the conniving creature after you discard a nonland card but before it receives a counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/snc/213/raffine-scheming-seer) · oracle_id `9307f7e9-bcd9-41f9-88f8-0fb9700a6b12` · printing: SNC #213 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raffine's Guidance
 

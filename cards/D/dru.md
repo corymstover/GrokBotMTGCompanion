@@ -110,7 +110,20 @@
   > When this Class becomes level 3, target land you control becomes a creature with haste and "This creature's power and toughness are each equal to the number of lands you control." It's still a land.
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1658 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/180/druid-class) · oracle_id `dcbcbf42-4654-487a-acad-21f2606d229b` · printing: AFR #180 (2021-07-23) · [rulings](https://api.scryfall.com/cards/09278e95-eaae-4cd4-a0d8-a2d15b0abb58/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2021-07-23* — Each Class has five abilities. The three in the major sections of its text box are class abilities. Class abilities can be static, activated, or triggered abilities. The other two are level abilities, one activated ability to advance the Class to level 2 and another to advance the Class to level 3.
+  - *2021-07-23* — Each Class starts with only the first of three class abilities. As the first level ability resolves, the Class becomes level 2 and gains the second class ability. As the second level ability resolves, the Class becomes level 3 and gains the third class ability.
+  - *2021-07-23* — For the third ability, the power and toughness of the creature will change as the number of lands you control changes.
+  - *2021-07-23* — Gaining a level is a normal activated ability. It uses the stack and can be responded to.
+  - *2021-07-23* — Gaining a level won't remove abilities that a Class had at a previous level.
+  - *2021-07-23* — If you have more than one Druid Class at level 2 or higher, you can play that many additional lands per turn. For example, with two Druid Classes at level 2, you can play three lands during your turn.
+  - *2021-07-23* — Some Class cards have an effect that increases when more are under your control. For example, if you have multiple Barbarian Class cards, you roll that many additional dice and ignore that many of the lowest rolls.
+  - *2021-07-23* — You can multiclass or even control multiple Class enchantments of the same class. Each Class permanent tracks its own level separately.
+  - *2021-07-23* — You can't activate the first level ability of a Class unless that Class is level 1. Similarly, you can't activate the second level ability of a Class unless that Class is level 2.
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/180/druid-class) · oracle_id `dcbcbf42-4654-487a-acad-21f2606d229b` · printing: AFR #180 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Druidic Ritual
 
@@ -167,7 +180,9 @@
 - **Flavor text** (AFC printing):
   > *"Return to the earth and the wind."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2471 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afc/39/druid-of-purification) · oracle_id `5bb32efd-9e58-4021-bbda-4ffccfa1d601` · printing: AFC #39 (2021-07-23) · [rulings](https://api.scryfall.com/cards/096c2b28-3e29-4c27-998d-51bff0ba96c5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-07-23* — Players make their choices in turn order and get to know what choices were made before theirs. They may choose an artifact or an enchantment that was already chosen by another player. Once all players have made their choices, the permanents are destroyed simultaneously.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afc/39/druid-of-purification) · oracle_id `5bb32efd-9e58-4021-bbda-4ffccfa1d601` · printing: AFC #39 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Druid of the Anima
 
@@ -179,6 +194,7 @@
 - **Flavor text** (ALA printing):
   > *Although the Anima herself remains at the Sacellum, her druids roam Naya, collecting mana bonds with every location in the world.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7789 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ala/128/druid-of-the-anima) · oracle_id `8d7933c4-4c74-492f-a9cd-50b339a4b29e` · printing: ALA #128 (2008-10-03) · [rulings](https://api.scryfall.com/cards/de32bf78-73c2-4cd4-b3b3-ef8be53e1e5e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Druid of the Cowl
@@ -191,6 +207,7 @@
 - **Flavor text** (FDN printing):
   > *"The wild tangle of the Cowl provides sanctuary to life that watched the first buildings rise."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7465 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/554/druid-of-the-cowl) · oracle_id `b1793c3b-25d6-4fae-a99d-cfdd2210ca67` · printing: FDN #554 (2024-11-15) · [rulings](https://api.scryfall.com/cards/db2d0ee9-865c-4fc9-8cb6-540c597e1bf4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Druid of the Emerald Grove
@@ -253,7 +270,17 @@
   > *"Selesnya's roots reach deep into the Worldsoul, and we will not be moved."*
 - **Keywords:** Populate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3947 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c19/162/druids-deliverance) · oracle_id `fde7645a-5f02-4d5f-b38c-8390f325899e` · printing: C19 #162 (2019-08-23) · [rulings](https://api.scryfall.com/cards/eabb6ba4-4256-401c-96eb-6e2a14c50602/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2017-03-14* — Combat damage dealt to creatures or planeswalkers you control won't be prevented.
+  - *2017-03-14* — In a Two-Headed Giant game, combat damage dealt to your teammate won't be prevented.
+  - *2017-03-14* — You can cast Druid's Deliverance even if you don't control any creature tokens.
+  - *2024-01-12* — Any enters-the-battlefield abilities of the copied token will trigger when the new token enters the battlefield. Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the copied token will also work.
+  - *2024-01-12* — If you choose to copy a creature token that's a copy of another creature, the new creature token will copy the characteristics of whatever the original token is copying.
+  - *2024-01-12* — If you control no creature tokens when you populate, nothing will happen.
+  - *2024-01-12* — Populate doesn't target the creature token you're copying. You choose that creature token as you're taking the populate action. You can choose any creature token you control. If a spell or ability causes you to create a creature token and then instructs you to populate, you may choose to copy the token you just created, or you may choose to copy another creature token you control.
+  - *2024-01-12* — The new creature token copies the characteristics of the original token as stated by the effect that created the original token.
+  - *2024-01-12* — The new token doesn't copy whether the original token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any noncopy effects that have changed its power, toughness, color, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c19/162/druids-deliverance) · oracle_id `fde7645a-5f02-4d5f-b38c-8390f325899e` · printing: C19 #162 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Druid's Familiar
 
@@ -275,7 +302,10 @@
   > Whenever a creature you control attacks, put a charge counter on this enchantment.
   > Remove a charge counter from this enchantment: Add one mana of any color.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7229 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/avr/176/druids-repository) · oracle_id `cbbc530f-e51b-423e-b219-23bb580fd834` · printing: AVR #176 (2012-05-04) · [rulings](https://api.scryfall.com/cards/57e6fb62-7ee3-444d-8fd4-c1f44014a05c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2012-05-01* — The first ability of Druids’ Repository will trigger once for each creature you control that attacks.
+  - *2012-05-01* — You can activate the second ability of Druids’ Repository multiple times in the same turn. It’s a mana ability, doesn’t use the stack, and can’t be responded to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/avr/176/druids-repository) · oracle_id `cbbc530f-e51b-423e-b219-23bb580fd834` · printing: AVR #176 (2012-05-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drumbellower
 
@@ -289,7 +319,10 @@
   > *By the second night after the kami had drifted into town, the local general store was completely sold out of earplugs.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1919 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/143/drumbellower) · oracle_id `03dee43b-6377-4f7b-956b-a384160322e4` · printing: SOC #143 (2026-04-24) · [rulings](https://api.scryfall.com/cards/c19e0ebf-ca94-4684-8b2c-68e592b65a24/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-02-18* — All your creatures untap during each other player's untap step. You have no choice about what untaps.
+  - *2022-02-18* — Other effects can prevent a creature from untapping during an untap step. You do need to look carefully, however, as many effects say that the creature doesn't untap during its controller's untap step, and this card's ability applies during other players' untap steps. If a card does say this, then Drumbellower can untap it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/143/drumbellower) · oracle_id `03dee43b-6377-4f7b-956b-a384160322e4` · printing: SOC #143 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drumhunter
 
@@ -302,7 +335,9 @@
 - **Flavor text** (C13 printing):
   > *"I feel the vine-rhythm as my friends drive the beast to me. I will not miss my mark."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8122 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c13/142/drumhunter) · oracle_id `3aab84f2-731c-4079-9623-0b0c433442c3` · printing: C13 #142 (2013-11-01) · [rulings](https://api.scryfall.com/cards/343ef398-576a-43b6-a32b-f916ccd63579/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — The first ability has an “intervening ‘if’ clause.” That means (1) the ability won’t trigger at all unless you control a creature with power 5 or greater as your end step begins, and (2) the ability will do nothing if you don’t control a creature with power 5 or greater by the time it resolves. (It doesn’t have to be the same creature as the one that allowed the ability to trigger.) Power-boosting effects that last “until end of turn” will still be in effect when this kind of ability triggers and resolves. An ability like this will trigger a maximum of once per turn, no matter how many applicable creatures you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c13/142/drumhunter) · oracle_id `3aab84f2-731c-4079-9623-0b0c433442c3` · printing: C13 #142 (2013-11-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drunau Corpse Trawler
 

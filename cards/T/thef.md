@@ -113,6 +113,7 @@
 - **Flavor text** (ONE printing):
   > *In Elesh Norn's domain, the gospel of unity is the highest law.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7097 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/252/the-fair-basilica) · oracle_id `8618f8e8-fd86-47e3-905d-e6624b599b9b` · printing: ONE #252 (2023-02-10) · [rulings](https://api.scryfall.com/cards/01d6ba55-7bc0-41c6-84be-8cd528e46a05/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Falcon, Airship Restored
@@ -127,7 +128,9 @@
   > Crew 2
 - **Keywords:** Flying, Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8756 · Game Changer: no · Can be commander: Yes (legendary Vehicle, CR 903.3)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/45/the-falcon-airship-restored) · oracle_id `9f4093a6-83f1-4c1d-8b03-8fe15647fb11` · printing: FIC #45 (2025-06-13) · [rulings](https://api.scryfall.com/cards/080fc2be-d463-4e8e-ba42-8f3cb0c95ed3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-06-06* — You don't choose a target for The Falcon's second ability at the time it triggers. Rather, a second "reflexive" ability triggers when you sacrifice The Falcon this way. You choose a target for that ability as it goes on the stack. Each player may respond to this triggered ability as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/45/the-falcon-airship-restored) · oracle_id `9f4093a6-83f1-4c1d-8b03-8fe15647fb11` · printing: FIC #45 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Falcon, Sam Wilson
 
@@ -335,7 +338,10 @@
   > Crew 2
 - **Keywords:** Crew, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7942 · Game Changer: no · Can be commander: Yes (legendary Vehicle, CR 903.3)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/98/the-fire-nation-drill) · oracle_id `3d4b9d71-4275-4c18-a4dc-9aad234eb92c` · printing: TLA #98 (2025-11-21) · [rulings](https://api.scryfall.com/cards/54d762f6-e131-480f-b294-10f5a63d9c98/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-10-02* — Because damage remains marked on a creature until the damage is removed as the turn ends, damage previously dealt to a creature with indestructible may cause it to be destroyed if The Fire Nation Drill's first activated ability resolves during that turn.
+  - *2025-10-02* — If a permanent enters under an opponent's control with hexproof or indestructible after The Fire Nation Drill's first activated ability resolves, it won't lose that ability unless you activate The Fire Nation Drill's ability again. The same is true if an opponent's permanent gains indestructible or hexproof after The Fire Nation Drill's ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/98/the-fire-nation-drill) · oracle_id `3d4b9d71-4275-4c18-a4dc-9aad234eb92c` · printing: TLA #98 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The First Doctor
 
@@ -371,7 +377,16 @@
   > III — If you control a creature with power 4 or greater, draw two cards.
   > IV — Create a Gold token. (It's an artifact with "Sacrifice this token: Add one mana of any color.")
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6146 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/170/the-first-iroan-games) · oracle_id `58934f6d-1aa2-414c-85c6-955a1e26d675` · printing: THB #170 (2020-01-24) · [rulings](https://api.scryfall.com/cards/4b05ada5-8e5f-4158-bd28-e6c24e4a2299/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2020-01-24* — A Gold token is a colorless Gold artifact token with "Sacrifice this artifact: Add one mana of any color."
+  - *2020-01-24* — A chapter ability doesn't trigger if a lore counter is put on a Saga that already had a number of lore counters greater than or equal to that chapter's number. For example, the third lore counter put on a Saga causes the III chapter ability to trigger, but I and II won't trigger again.
+  - *2020-01-24* — As a Saga enters the battlefield, its controller puts a lore counter on it. As your precombat main phase begins (immediately after your draw step), you put another lore counter on each Saga you control. Putting a lore counter on a Saga in either of these ways doesn't use the stack.
+  - *2020-01-24* — Each symbol on the left of a Saga's text box represents a chapter ability. A chapter ability is a triggered ability that triggers when a lore counter that is put on the Saga causes the number of lore counters on the Saga to become equal to or greater than the ability's chapter number. Chapter abilities are put onto the stack and may be responded to.
+  - *2020-01-24* — If multiple chapter abilities trigger at the same time, their controller puts them on the stack in any order. If any of them require targets, those targets are chosen as you put the abilities on the stack, before any of those abilities resolve.
+  - *2020-01-24* — Once a chapter ability has triggered, the ability on the stack won't be affected if the Saga gains or loses counters, or if it leaves the battlefield.
+  - *2020-01-24* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities, the Saga's controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn't use the stack.
+  - *2020-01-24* — Removing lore counters won't cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives lore counters. 
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/170/the-first-iroan-games) · oracle_id `58934f6d-1aa2-414c-85c6-955a1e26d675` · printing: THB #170 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The First Sliver
 
@@ -383,7 +398,19 @@
   > Sliver spells you cast have cascade.
 - **Keywords:** Cascade
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4266 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/200/the-first-sliver) · oracle_id `55e4d4b2-1bd8-4c29-a21a-c014a974b715` · printing: MH1 #200 (2019-06-14) · [rulings](https://api.scryfall.com/cards/06d4fbe1-8a2f-4958-bb85-1a1e5f1e8d87/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2019-06-14* — If a spell has multiple instances of cascade (for example, if you cast a second The First Sliver), each instance of cascade triggers and resolves separately. The spell you cast due to the first cascade ability will go on the stack on top of the second cascade ability. That spell will resolve before you exile cards for the second cascade ability.
+  - *2019-06-14* — The First Sliver's last ability only applies while it's on the battlefield. If The First Sliver's own cascade ability lets you cast another Sliver card, that Sliver won't have cascade.
+  - *2021-06-18* — A spell's mana value is determined only by its mana cost. Ignore any alternative costs, additional costs, cost increases, or cost reductions.
+  - *2021-06-18* — Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade.
+  - *2021-06-18* — Due to a 2021 rules change to cascade, not only do you stop exiling cards if you exile a nonland card with lesser mana value than the spell with cascade, but the resulting spell you cast must also have lesser mana value. Previously, in cases where a card's mana value differed from the resulting spell, such as with some modal double-faced cards or cards with an Adventure, you could cast a spell with a higher mana value than the exiled card.
+  - *2021-06-18* — If a spell with cascade is countered, the cascade ability will still resolve normally.
+  - *2021-06-18* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2021-06-18* — If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those to cast the card.
+  - *2021-06-18* — The mana value of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves.
+  - *2021-06-18* — When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled.
+  - *2021-06-18* — You exile the cards face up. All players will be able to see them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/200/the-first-sliver) · oracle_id `55e4d4b2-1bd8-4c29-a21a-c014a974b715` · printing: MH1 #200 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The First Tyrannic War
 
@@ -484,7 +511,9 @@
   > Water Always Wins — Whenever this creature attacks, put a flood counter on another target creature or land. If it's a creature, it becomes a copy of this creature. If it's a land, it becomes an Island in addition to its other types.
 - **Keywords:** Landwalk, Water Always Wins, Islandwalk
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8834 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/45/the-flood-of-mars) · oracle_id `677bd655-b240-4862-912c-29209fb295e1` · printing: WHO #45 (2023-10-13) · [rulings](https://api.scryfall.com/cards/8c3474c4-9466-46fc-8327-50950d75e79f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-10-13* — If the target is both a creature and a land as the triggered ability resolves, it will become a copy of The Flood of Mars. Excepting some very unusual cases, that copy won't be a land, so it won't also become an Island.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/45/the-flood-of-mars) · oracle_id `677bd655-b240-4862-912c-29209fb295e1` · printing: WHO #45 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Flux
 
@@ -496,7 +525,9 @@
   > II, III, IV, V — Exile the top card of your library. You may play that card this turn.
   > VI — Add six {R}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9075 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/86/the-flux) · oracle_id `8beaaf55-e05d-49c3-9320-c222c4d8ad12` · printing: WHO #86 (2023-10-13) · [rulings](https://api.scryfall.com/cards/026611f8-ae07-464f-afe5-6e94bcfac05e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-10-13* — You must pay all costs and follow all normal timing rules to play a card with The Flux's middle chapter abilities. For example, you can play a land exiled this way only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/86/the-flux) · oracle_id `8beaaf55-e05d-49c3-9320-c222c4d8ad12` · printing: WHO #86 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Foretold Soldier
 

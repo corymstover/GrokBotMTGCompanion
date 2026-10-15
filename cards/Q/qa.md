@@ -28,7 +28,14 @@
   > Whenever you gain life, put a +1/+1 counter on Qala.
   > {3}{W}: You gain 1 life.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7378 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/j25/32/qala-ajanis-pridemate) · oracle_id `1fc1b0d7-7f15-4d00-bc8f-e06489afd425` · printing: J25 #32 (2024-11-15) · [rulings](https://api.scryfall.com/cards/3cf1e9ab-343d-462c-a71e-e12b101aa0b4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — Each creature with lifelink dealing combat damage causes a separate life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, Qala's second ability will trigger twice. However, if a single creature you control with lifelink deals combat damage to multiple creatures, players, planeswalkers, and/or battles at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once.
+  - *2024-11-08* — If Qala is dealt lethal damage at the same time that you gain life, it won't receive a counter from its second ability in time to save it.
+  - *2024-11-08* — If you gain an amount of life "for each" of something or "equal to the number" of something, that life is gained as one event and Qala's second ability triggers only once.
+  - *2024-11-08* — In a Two-Headed Giant game, life gained by your teammate won't cause Qala's second ability to trigger, even though it caused your team's life total to increase.
+  - *2024-11-08* — Qala's second ability triggers just once for each life-gaining event, whether it's 1 life from Dazzling Angel or 4 life from Apothecary Stomper.
+  - *2024-11-08* — The value of X is calculated only once, as Qala's first ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/j25/32/qala-ajanis-pridemate) · oracle_id `1fc1b0d7-7f15-4d00-bc8f-e06489afd425` · printing: J25 #32 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Qal Sisma Behemoth
 
@@ -79,7 +86,9 @@
   > *—Sultai warning*
 - **Keywords:** Deathtouch, Flying, Lifelink, Renew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2336 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/86/qarsi-revenant) · oracle_id `bbea79bc-71d4-4100-92f4-783c2c4b46da` · printing: TDM #86 (2025-04-11) · [rulings](https://api.scryfall.com/cards/8c93a0f6-5e50-4dda-9ff6-da741fb839ff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-04-04* — If a card with a renew ability is put into your graveyard during your turn, you can activate that ability if it’s legal to do so before any other player can take any actions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/86/qarsi-revenant) · oracle_id `bbea79bc-71d4-4100-92f4-783c2c4b46da` · printing: TDM #86 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Qarsi Sadist
 
@@ -121,7 +130,11 @@
   > *An elder in one pride, of the Sigiled caste in another.*
 - **Keywords:** Exalted
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5265 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/267/qasali-pridemage) · oracle_id `10821e37-8a83-4d8e-a12f-249a10933a22` · printing: 2X2 #267 (2022-07-08) · [rulings](https://api.scryfall.com/cards/a103646d-b363-4896-a48f-0527d746587e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-03-19* — If you declare exactly one creature as an attacker, each exalted ability on each permanent you control (including, perhaps, the attacking creature itself) will trigger.
+  - *2021-03-19* — Some effects put creatures onto the battlefield attacking. Since those creatures were never declared as attackers, they're ignored by exalted abilities. They won't cause exalted abilities to trigger. If any exalted abilities have already triggered (because exactly one creature was declared as an attacker), those abilities will resolve as normal even though there may now be multiple attackers.
+  - *2021-03-19* — You must attack with exactly one creature for exalted abilities to trigger. Exalted abilities won't trigger if you attack a player with one creature and a planeswalker with another, for example, or if you attack with two creatures but one is removed from combat.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/267/qasali-pridemage) · oracle_id `10821e37-8a83-4d8e-a12f-249a10933a22` · printing: 2X2 #267 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Qasali Slingers
 
@@ -135,4 +148,6 @@
   > *All things will crumble, whether by time or by force.*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5649 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c17/33/qasali-slingers) · oracle_id `f763d118-3183-4604-a50c-7c3933e2185e` · printing: C17 #33 (2017-08-25) · [rulings](https://api.scryfall.com/cards/40e21394-146e-4648-b81e-63659c0c4764/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-08-25* — If Qasali Slingers enters the battlefield at the same time as other Cats you control, its ability will trigger for each of those Cats.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c17/33/qasali-slingers) · oracle_id `f763d118-3183-4604-a50c-7c3933e2185e` · printing: C17 #33 (2017-08-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -100,6 +100,7 @@
   > At the beginning of each player's upkeep, this enchantment deals 2 damage to that player.
   > If a player would gain life, that player gains no life instead.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2847 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/144/sulfuric-vortex) · oracle_id `7652f328-e142-494b-a869-772ced10c26a` · printing: DMR #144 (2023-01-13) · [rulings](https://api.scryfall.com/cards/3253a624-50cc-4a8a-9b0c-9902aa53775f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sulfurous Blast
@@ -124,7 +125,13 @@
   > *"In my youth, we used to best each other at hopping rabbit-fast between the lava spouts, the burning tar spattering our legs."*
   > *—Iskene, Kannah storyteller*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5923 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/270/sulfurous-mire) · oracle_id `77cf536e-246e-4c18-8e04-c904fcad3f40` · printing: KHM #270 (2021-02-05) · [rulings](https://api.scryfall.com/cards/35ebe245-ebb5-493c-b9c1-56fbfda9bd66/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-02-05* — Snow is a supertype, not a card type. It has no rules meaning or function by itself, but spells and abilities may refer to it.
+  - *2021-02-05* — Snow isn't a type of mana. If an effect says you may spend mana as though it were any type, you can't pay for {S} using mana that wasn't produced by a snow source.
+  - *2021-02-05* — Some cards have additional effects for each {S} spent to cast them. You can cast these spells even if you don't spend any snow mana to cast them; their additional effects simply won't do anything.
+  - *2021-02-05* — The Kaldheim set doesn't have any cards with mana costs that include {S}, but some previous sets do. If an effect says such a spell costs {1} less to cast, that reduction doesn't apply to any {S} costs. This is also true for activated abilities that include {S} in their activation costs and effects that reduce those costs.
+  - *2021-02-05* — The {S} symbol is a generic mana symbol. It represents a cost that can be paid by one mana that was produced by a snow source. That mana can be any color or colorless.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/270/sulfurous-mire) · oracle_id `77cf536e-246e-4c18-8e04-c904fcad3f40` · printing: KHM #270 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sulfurous Springs
 
@@ -158,7 +165,9 @@
   > At the beginning of your upkeep, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9299 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/203/sultai-ascendancy) · oracle_id `06e92ab3-c781-4f32-9ada-09a388047067` · printing: KTK #203 (2014-09-26) · [rulings](https://api.scryfall.com/cards/3314d77a-039f-43e4-a457-6ceba20c0ffe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-01-12* — When you surveil, you may put all the cards you look at back on top of your library, you may put all of those cards into your graveyard, or you may put some of those cards on top and the rest of them into your graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/203/sultai-ascendancy) · oracle_id `06e92ab3-c781-4f32-9ada-09a388047067` · printing: KTK #203 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sultai Banner
 
@@ -184,7 +193,9 @@
 - **Flavor text** (DMC printing):
   > *"Strike," the fumes hiss. "Raise an empire with your ambition."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5204 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/168/sultai-charm) · oracle_id `46ed38d1-e642-4cea-99ed-a9c17fd982b1` · printing: DMC #168 (2022-09-09) · [rulings](https://api.scryfall.com/cards/72af6c1f-33a0-4e02-95b7-74ecaa6a6d87/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2014-09-20* — A monocolored creature is exactly one color. Colorless creatures aren't monocolored.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/168/sultai-charm) · oracle_id `46ed38d1-e642-4cea-99ed-a9c17fd982b1` · printing: DMC #168 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sultai Devotee
 

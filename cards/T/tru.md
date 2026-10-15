@@ -78,7 +78,12 @@
   > *"Sure, trudges smell like soggy death, but the mushrooms on their backs are the tastiest delicacy in Sedgemoor!"*
   > *—Gyome, Witherbloom chef*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8766 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/290/trudge-garden) · oracle_id `be175e92-567a-42e3-ad54-136c0631fe0e` · printing: SOC #290 (2026-04-24) · [rulings](https://api.scryfall.com/cards/80dd8180-668a-41e4-a4e9-ebdd71345841/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-04-16* — An ability that triggers "whenever you gain life" triggers just once for each life-gaining event, no matter how much life you gain.
+  - *2021-04-16* — Each creature with lifelink dealing combat damage causes a separate life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, a "whenever you gain life" ability will trigger twice. However, if a single creature you control with lifelink deals combat damage to multiple creatures, players, and/or planeswalkers at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once.
+  - *2021-04-16* — If you gain an amount of life "for each" of something, that life is gained as one event and the ability will trigger only once.
+  - *2021-04-16* — You may only pay {2} once for each life gain event.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/290/trudge-garden) · oracle_id `be175e92-567a-42e3-ad54-136c0631fe0e` · printing: SOC #290 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### True Ancestry
 
@@ -91,7 +96,10 @@
   > *"Understanding the struggle between your two great-grandfathers can help you better understand the battle within yourself."*
   > *—Iroh*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5578 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/199/true-ancestry) · oracle_id `26c2dd96-07e7-4294-9431-96d5aeff3761` · printing: TLA #199 (2025-11-21) · [rulings](https://api.scryfall.com/cards/8c55b333-dc8b-4332-895b-eec5eb45543f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-10-02* — Clue tokens are artifact tokens with "{2}, Sacrifice this token: Draw a card."
+  - *2025-10-02* — Creating a Clue token this way isn't the same thing as investigating. Notably, an ability that triggers whenever you investigate won't trigger because of creating a Clue token this way.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/199/true-ancestry) · oracle_id `26c2dd96-07e7-4294-9431-96d5aeff3761` · printing: TLA #199 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### True Believer
 
@@ -114,6 +122,7 @@
 - **Flavor text** (C14 printing):
   > *Dozens of spells known only to the Auriok elders were lost, but the next generation, galvanized by war, devised even more potent magic.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1837 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c14/93/true-conviction) · oracle_id `fc299c1c-50f3-492a-b6b8-a3664bb72ab7` · printing: C14 #93 (2014-11-07) · [rulings](https://api.scryfall.com/cards/9e5dc58b-f486-4b9f-9138-33efa31a05e4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### True-Faith Censer
@@ -273,7 +282,17 @@
   > {2}{R}, Discard this card: It deals 3 damage to target creature or planeswalker.
 - **Keywords:** Discover, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1657 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/171/trumpeting-carnosaur) · oracle_id `f2ef8bda-373d-4387-900d-0f1b6ccf72e9` · printing: LCI #171 (2023-11-17) · [rulings](https://api.scryfall.com/cards/edc035ca-f0a3-4814-9405-d6dc6f048315/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2023-11-10* — A spell's mana value is determined only by its mana cost. Ignore any alternative costs, additional costs, cost increases, or cost reductions.
+  - *2023-11-10* — If the discovered card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2023-11-10* — If you can't cast the discovered card (perhaps because there are no legal targets for the spell), you'll put it into your hand.
+  - *2023-11-10* — If you cast a spell "without paying its mana cost", you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the spell has any mandatory additional costs, you must pay those to cast it.
+  - *2023-11-10* — If you discover an adventurer card, split card, or modal double-faced card, you might be able to cast that card with either set of characteristics depending on the effect's discover value. For example, if you discover 4 and reveal Galvanic Giant (an adventurer card from Wilds of Eldraine with a mana value of 4), you could cast Galvanic Giant, but not Storm Reading (its Adventure, which has a mana value of 7). If you discover 7 and reveal Galvanic Giant, you could cast either Galvanic Giant or Storm Reading.
+  - *2023-11-10* — Some spells and abilities that cause you to discover may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve and you won't discover.
+  - *2023-11-10* — The mana value of a split card is determined by the combined mana cost of its two halves. If discover allows you to cast a split card, you may cast either half (as long as its mana value is less than or equal to the effect's discover value) but not both halves.
+  - *2023-11-10* — When you discover, you must exile cards. The only optional part of the ability is whether you cast the exiled card or put it into your hand.
+  - *2023-11-10* — You exile the cards face up. All players will be able to see them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/171/trumpeting-carnosaur) · oracle_id `f2ef8bda-373d-4387-900d-0f1b6ccf72e9` · printing: LCI #171 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trumpeting Gnarr
 
@@ -285,6 +304,7 @@
   > Whenever this creature mutates, create a 3/3 green Beast creature token.
 - **Keywords:** Mutate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9166 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/213/trumpeting-gnarr) · oracle_id `734be5ec-6148-48b9-9021-380e9b62ec23` · printing: IKO #213 (2020-04-24) · [rulings](https://api.scryfall.com/cards/063a95ee-3fda-436f-9ff8-de80cc874dde/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trumpeting Herd

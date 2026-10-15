@@ -74,7 +74,12 @@
   > • Counter target artifact or enchantment spell. If that spell is countered this way, exile it instead of putting it into its owner's graveyard.
   > • Counter target activated or triggered ability.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6512 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/45/defabricate) · oracle_id `60fc5eb0-95d6-49b0-a538-945ef599e484` · printing: BRO #45 (2022-11-18) · [rulings](https://api.scryfall.com/cards/7dd32168-0b9c-4633-adec-d41cf125cc35/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-10-14* — Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keyword abilities (such as equip and unearth) are activated abilities and will have colons in their reminder text.
+  - *2022-10-14* — The last mode can target delayed triggered abilities. Notably, it can target the delayed triggered ability that exiles an unearthed permanent at the beginning of the next end step. If that delayed triggered ability is countered, the unearthed permanent remains on the battlefield indefinitely. It will still be exiled, however, if it would die or otherwise leave the battlefield for any other reason.
+  - *2022-10-14* — Triggered abilities use the word "when," "whenever," or "at." They're often written as "[Trigger condition], [effect]."
+  - *2022-10-14* — Turn-based actions and special actions like the normal card draw, combat damage, or turning a face-down creature face up can't be targeted. Mana abilities also can't be targeted.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/45/defabricate) · oracle_id `60fc5eb0-95d6-49b0-a538-945ef599e484` · printing: BRO #45 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deface
 
@@ -101,7 +106,24 @@
   > Draw two cards. Each player loses 2 life.
 - **Keywords:** Prepared, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8003 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/45/defacing-duskmage-vandals-edit) · oracle_id `27c366cf-00d7-47d4-9577-736bfc4a3b81` · printing: SOC #45 (2026-04-24) · [rulings](https://api.scryfall.com/cards/c35a1c6f-1656-4619-9ab8-40044c857a7f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (16):
+  - *2026-03-20* — A creature with a prepare spell can't become prepared more than once at the same time. For example, Emeritus of Ideation is on the battlefield and is prepared. When it attacks, its last ability triggers. When that ability resolves, its controller may still exile eight cards from their graveyard, but doing so won't cause Emeritus of Ideation to become prepared a second time or create a second copy of Ancestral Recall in exile.
+  - *2026-03-20* — A creature without a prepare spell can't become prepared.
+  - *2026-03-20* — A preparation card is a creature card in every zone. For example, while it's in your graveyard, Emeritus of Ideation is a blue creature whose mana value is 5. It can't be the target of Zealous Lorecaster's triggered ability ("When this creature enters, return target instant or sorcery card from your graveyard to your hand.").
+  - *2026-03-20* — As an effect causes a creature with a prepare spell to become prepared (including effects that state that a creature "enters prepared"), that creature's controller creates a copy of that creature's prepare spell in exile. That copy remains in exile for as long as that permanent is on the battlefield and is prepared. That creature's controller may cast that copy as long as it remains in exile. As they cast it, that creature stops being prepared.
+  - *2026-03-20* — Being prepared isn't a copiable value. If a permanent becomes a copy of a prepared creature, it won't be prepared. That permanent will have the alternative characteristics, though, and some other effect could cause it to become prepared later.
+  - *2026-03-20* — Casting a copy of a prepare spell from exile isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to a copy of a prepare spell cast from exile.
+  - *2026-03-20* — Creating a copy of a creature's prepare spell in exile ignores copy exceptions applied to that creature that would affect the copiable values of that spell. For example, say a player casts Croaking Counterpart (a sorcery that says "Create a token that's a copy of target non-Frog creature, except it's a 1/1 green Frog.") targeting Goblin Glasswright. The token copy of Goblin Glasswright will enter prepared as a 1/1 green Frog creature, but the copy of Craft with Pride in exile will still be a red sorcery. The copy of Craft with Pride won't be green, a creature, or a Frog, and it won't have power or toughness.
+  - *2026-03-20* — Defacing Duskmage doesn't need to have been under your control when the first card is drawn for its ability to trigger. As long as you control it when an opponent draws their second card in a turn, that ability will trigger.
+  - *2026-03-20* — If a prepare spell with one or more targets has no legal targets when it tries to resolve, it won't resolve and none of its effects will happen. Since the spell was cast, the associated permanent will still not be prepared.
+  - *2026-03-20* — If a prepared creature loses all abilities, it won't stop being prepared, and nothing will happen to its alternative characteristics or to the copy of its prepare spell in exile.
+  - *2026-03-20* — If a prepared creature stops being a creature, it will still be prepared, and the copy of its prepare spell will remain in exile. That permanent's controller will still be able to cast it. The same is true if a prepared creature becomes a copy of something else, even if it's then a permanent without a prepare spell.
+  - *2026-03-20* — If an effect causes a creature to become unprepared, a prepared creature stops being prepared and the associated copy of its prepare spell in exile ceases to exist. If it wasn't prepared at that time, nothing happens.
+  - *2026-03-20* — If an effect instructs you to choose a card name, you may choose the alternative prepare spell's name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2026-03-20* — Only the current controller of a prepared creature can cast the copy of its prepare spell in exile. It doesn't matter who owns that creature or who controlled it when it became prepared.
+  - *2026-03-20* — Preparation cards can only be cast with their base characteristics.
+  - *2026-03-20* — While copies of spells in zones other than the stack cease to exist when state-based actions are checked, this does not apply to copies of prepare spells in exile that were created as a creature became prepared.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/45/defacing-duskmage-vandals-edit) · oracle_id `27c366cf-00d7-47d4-9577-736bfc4a3b81` · printing: SOC #45 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defang
 
@@ -260,6 +282,7 @@
 - **Flavor text** (DFT printing):
   > *Lagorin would not lose another.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3245 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/157/defend-the-rider) · oracle_id `561af57d-d43d-4d98-9ef6-18a0843f22ae` · printing: DFT #157 (2025-02-14) · [rulings](https://api.scryfall.com/cards/59ed23a2-6153-47b2-ab73-062195cafb74/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defenestrate
@@ -310,7 +333,10 @@
 - **Flavor text** (9ED printing):
   > *It lights up the sky, beckoning enemies only to repel them.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1921 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/9ed/293/defense-grid) · oracle_id `22ba474e-f6e6-450d-a4cf-0739f0b51079` · printing: 9ED #293 (2005-07-29) · [rulings](https://api.scryfall.com/cards/f939dac5-ad71-4163-adde-4f435412477c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — The additional cost can be reduced by effects that reduce costs, such as Sapphire Medallion.
+  - *2006-05-01* — In Two-Headed Giant, spells don't cost extra on your own turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/9ed/293/defense-grid) · oracle_id `22ba474e-f6e6-450d-a4cf-0739f0b51079` · printing: 9ED #293 (2005-07-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defense of the Heart
 
@@ -319,7 +345,10 @@
 - **Oracle text:**
   > At the beginning of your upkeep, if an opponent controls three or more creatures, sacrifice this enchantment, search your library for up to two creature cards, put those cards onto the battlefield, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1304 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ulg/100/defense-of-the-heart) · oracle_id `e7e1b166-9267-426d-897d-24903327b48d` · printing: ULG #100 (1999-02-15) · [rulings](https://api.scryfall.com/cards/9e93381f-627f-41b6-b1b6-45d712a44d8e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-09-01* — Defense of the Heart's ability will check if an opponent controls three or more creatures as your upkeep begins. If none of them do, the ability won't trigger at all. If an opponent does, the ability will check again as it tries to resolve. If none of your opponents control three or more creatures at that point, the ability won't do anything. The opponent that controls three or more creatures as the ability resolves doesn't have to be the same opponent that controlled three or more creatures as it triggered.
+  - *2023-09-01* — If Defense of the Heart leaves the battlefield while its triggered ability is on the stack, the ability will still resolve as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ulg/100/defense-of-the-heart) · oracle_id `e7e1b166-9267-426d-897d-24903327b48d` · printing: ULG #100 (1999-02-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defensive Formation
 
@@ -371,7 +400,11 @@
   > *—Drana, Kalastria bloodchief*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5977 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c21/142/defiant-bloodlord) · oracle_id `7bf5196d-a16c-418f-943c-2128e40c55da` · printing: C21 #142 (2021-04-23) · [rulings](https://api.scryfall.com/cards/4e7ae077-52c7-49a1-a61a-61e50b494616/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2015-08-25* — A creature with lifelink dealing combat damage is a single life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, the ability will trigger twice. However, if a single creature with lifelink deals combat damage to multiple creatures, players, and/or planeswalkers at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once.
+  - *2015-08-25* — In a Two-Headed Giant game, life gained by your teammate won’t cause the ability to trigger, even though it causes your team’s life total to increase.
+  - *2015-08-25* — The ability triggers just once for each life-gaining event, whether it’s 1 life from Drana’s Emissary or 7 life from Nissa’s Renewal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c21/142/defiant-bloodlord) · oracle_id `7bf5196d-a16c-418f-943c-2128e40c55da` · printing: C21 #142 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defiant Elf
 
@@ -467,7 +500,9 @@
 - **Flavor text** (M21 printing):
   > *"My family was saved thanks to a single Boros soldier. It's why I joined the Legion. I will be the protector now."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5714 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m21/15/defiant-strike) · oracle_id `f8c2d9c5-6fe6-4698-9972-83cdd625d94b` · printing: M21 #15 (2020-07-03) · [rulings](https://api.scryfall.com/cards/5c23869b-c99a-49dd-9e29-fcc0eb63fad1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-06-23* — If the target creature is an illegal target by the time Defiant Strike tries to resolve, the spell won't resolve. You won't draw a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m21/15/defiant-strike) · oracle_id `f8c2d9c5-6fe6-4698-9972-83cdd625d94b` · printing: M21 #15 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defiant Survivor
 
@@ -514,6 +549,7 @@
 - **Flavor text** (MH1 printing):
   > *The only shortcut in a bog is to the bottom.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #985 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh1/86/defile) · oracle_id `49dddec0-d958-4810-8c6e-225fc8118c8f` · printing: MH1 #86 (2019-06-14) · [rulings](https://api.scryfall.com/cards/5bcb4398-edd1-41a7-a496-b12bce22ceb6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defiled Crypt // Cadaver Lab
@@ -526,7 +562,24 @@
   > When you unlock this door, return target creature card from your graveyard to your hand.
   > (You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5921 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/91/defiled-crypt-cadaver-lab) · oracle_id `f97de425-c7ab-4688-8606-159370d179ee` · printing: DSK #91 (2024-09-27) · [rulings](https://api.scryfall.com/cards/d94fb4da-0d3f-4d84-966b-914b84b23289/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (16):
+  - *2024-09-20* — An ability that triggers "when you unlock this door" triggers when that door becomes unlocked. This can happen one of two ways: (1) the door becomes unlocked on the battlefield or (2) the door becomes unlocked as the Room enters the battlefield because you cast the corresponding half. In the latter case, since the door becoming unlocked is what causes the ability to trigger, effects that cause abilities that trigger when a permanent enters to trigger an additional time (such as that of Panharmonicon) won't apply.
+  - *2024-09-20* — An ability that triggers "whenever you fully unlock a Room" triggers when a door becomes unlocked and the other door of that Room is already unlocked, or when both doors of that Room become unlocked simultaneously.
+  - *2024-09-20* — Any time you have priority during a main phase of your turn and the stack is empty, you may pay the mana cost of a locked door (also called its "unlock cost"). That door becomes unlocked. This is a special action. It doesn't use the stack and can't be responded to.
+  - *2024-09-20* — Each Room card has two names. If an effect instructs you to choose a card name, you may choose one of those names, but not both.
+  - *2024-09-20* — Each Room card is a single card. For example, if you discard a Room card, you've discarded one card, not two. If an effect counts the number of enchantment cards in your graveyard, Bottomless Pool // Locker Room counts once, not twice.
+  - *2024-09-20* — If a Room enters from any zone other than the stack, it will enter with both halves locked.
+  - *2024-09-20* — If a spell or ability would create a copy of a Room spell on the stack, the copy retains the choice of which door was cast but also retains the full characteristics of the spell. The characteristics of the door that wasn't cast are still ignored while the copy is on the stack, and when the copy resolves, the token it becomes will enter with the appropriate door unlocked.
+  - *2024-09-20* — If an effect allows you to cast a spell with certain characteristics, consider only the characteristics of the door you're casting. For example, if an effect allows you to cast a permanent spell with mana value 3 or less from among cards in your graveyard, you could cast Bottomless Pool this way, but not Locker Room.
+  - *2024-09-20* — If neither door of a Room is unlocked, it's a Room enchantment with no name and no abilities.
+  - *2024-09-20* — Room cards have two card faces with a shared type line on a single card. The characteristics of the door you didn't cast are ignored while the spell is on the stack.
+  - *2024-09-20* — Some abilities allow you to lock a door of a Room you control. You can't choose to lock a door that's already locked with such an ability. If such an ability requires a target, you can target a Room even if both of its doors are locked, but the ability won't do anything when it resolves.
+  - *2024-09-20* — Some abilities allow you to unlock a door of a Room you control. You can't choose to unlock a door that's already unlocked with such an ability. If such an ability requires a target, you can target a Room even if both of its doors are unlocked, but the ability won't do anything when it resolves.
+  - *2024-09-20* — Some doors have abilities that trigger whenever you unlock that door and require one or more targets. You can unlock that door even if there would be insufficient legal targets for that triggered ability. The triggered ability won't go on the stack.
+  - *2024-09-20* — To cast a Room spell, choose a half (or "door") to cast. There's no way to cast both halves of a Room card. When the Room spell resolves, the corresponding door becomes unlocked as the Room enters.
+  - *2024-09-20* — While in any zone other than the stack or the battlefield, a Room card's characteristics are a combination of its two doors. For example, Bottomless Pool // Locker Room has a mana value of 6 while it's in your library. If an effect allows you to search your library for a card with mana value 4 or less, you can't find Bottomless Pool // Locker Room.
+  - *2024-09-20* — While on the battlefield, a Room's characteristics are a combination of the characteristics of its unlocked doors. For example, if Bottomless Pool // Locker Room is on the battlefield with both doors unlocked, its names are Bottomless Pool and Locker Room, its mana value is 6, it's a Room Enchantment, and it has the abilities in each door's text box.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/91/defiled-crypt-cadaver-lab) · oracle_id `f97de425-c7ab-4688-8606-159370d179ee` · printing: DSK #91 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defiler of Dreams
 
@@ -539,7 +592,10 @@
   > Whenever you cast a blue permanent spell, draw a card.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4372 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/46/defiler-of-dreams) · oracle_id `9d4ec5e5-5520-45c3-8071-53191811117d` · printing: DMU #46 (2022-09-09) · [rulings](https://api.scryfall.com/cards/881cc4a3-252b-4155-a34f-63d4b4f44442/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-09-09* — Some players may make the mental shortcut that the Defilers effectively turn one of the colored mana symbols in the spell’s cost into a Phyrexian colored mana symbol. Despite the similarity in function, this ability does not cause the spells to have Phyrexian mana symbols in their costs. Sorry, Rage Extractor!
+  - *2022-09-09* — You may only pay the additional cost once per permanent spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/46/defiler-of-dreams) · oracle_id `9d4ec5e5-5520-45c3-8071-53191811117d` · printing: DMU #46 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defiler of Faith
 
@@ -552,7 +608,10 @@
   > Whenever you cast a white permanent spell, create a 1/1 white Soldier creature token.
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5008 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/16/defiler-of-faith) · oracle_id `88ac2d09-7993-4bce-8aae-b2683c5c25a5` · printing: DMU #16 (2022-09-09) · [rulings](https://api.scryfall.com/cards/2cfe404d-1a27-4627-9284-56188d92d5d5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-09-09* — Some players may make the mental shortcut that the Defilers effectively turn one of the colored mana symbols in the spell’s cost into a Phyrexian colored mana symbol. Despite the similarity in function, this ability does not cause the spells to have Phyrexian mana symbols in their costs. Sorry, Rage Extractor!
+  - *2022-09-09* — You may only pay the additional cost once per permanent spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/16/defiler-of-faith) · oracle_id `88ac2d09-7993-4bce-8aae-b2683c5c25a5` · printing: DMU #16 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defiler of Flesh
 
@@ -565,7 +624,10 @@
   > Whenever you cast a black permanent spell, target creature you control gets +1/+1 and gains menace until end of turn.
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5765 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/90/defiler-of-flesh) · oracle_id `3ad002de-8be3-48d2-a0e0-865538144789` · printing: DMU #90 (2022-09-09) · [rulings](https://api.scryfall.com/cards/61a4dd11-6166-4a54-95c0-728c623d0fbc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-09-09* — Some players may make the mental shortcut that the Defilers effectively turn one of the colored mana symbols in the spell’s cost into a Phyrexian colored mana symbol. Despite the similarity in function, this ability does not cause the spells to have Phyrexian mana symbols in their costs. Sorry, Rage Extractor!
+  - *2022-09-09* — You may only pay the additional cost once per permanent spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/90/defiler-of-flesh) · oracle_id `3ad002de-8be3-48d2-a0e0-865538144789` · printing: DMU #90 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defiler of Instinct
 
@@ -578,7 +640,10 @@
   > Whenever you cast a red permanent spell, this creature deals 1 damage to any target.
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4955 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/119/defiler-of-instinct) · oracle_id `590137df-af61-4e93-b6f1-3a2e438b8037` · printing: DMU #119 (2022-09-09) · [rulings](https://api.scryfall.com/cards/0e76e0cc-caff-4b15-b550-39e2324c8c95/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-09-09* — Some players may make the mental shortcut that the Defilers effectively turn one of the colored mana symbols in the spell’s cost into a Phyrexian colored mana symbol. Despite the similarity in function, this ability does not cause the spells to have Phyrexian mana symbols in their costs. Sorry, Rage Extractor!
+  - *2022-09-09* — You may only pay the additional cost once per permanent spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/119/defiler-of-instinct) · oracle_id `590137df-af61-4e93-b6f1-3a2e438b8037` · printing: DMU #119 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defiler of Souls
 
@@ -606,7 +671,10 @@
   > Whenever you cast a green permanent spell, put a +1/+1 counter on each creature you control.
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1642 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/160/defiler-of-vigor) · oracle_id `0a1dc797-7531-4494-afe6-add6ac3f74c0` · printing: DMU #160 (2022-09-09) · [rulings](https://api.scryfall.com/cards/0896860c-d028-4193-89a5-97e05c12a1e7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-09-09* — Some players may make the mental shortcut that the Defilers effectively turn one of the colored mana symbols in the spell’s cost into a Phyrexian colored mana symbol. Despite the similarity in function, this ability does not cause the spells to have Phyrexian mana symbols in their costs. Sorry, Rage Extractor!
+  - *2022-09-09* — You may only pay the additional cost once per permanent spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/160/defiler-of-vigor) · oracle_id `0a1dc797-7531-4494-afe6-add6ac3f74c0` · printing: DMU #160 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defiling Daemogoth
 
@@ -619,7 +687,9 @@
   > At the beginning of your end step, each opponent loses X life, where X is the amount of life you gained this turn.
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6653 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/25/defiling-daemogoth) · oracle_id `d3f7095a-b287-4858-9d08-242cf18e87cb` · printing: SOC #25 (2026-04-24) · [rulings](https://api.scryfall.com/cards/2cde79eb-91c3-4a42-a2d3-e733e3b56846/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-03-20* — The value of X is calculated at the time Defiling Daemogoth's last ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/25/defiling-daemogoth) · oracle_id `d3f7095a-b287-4858-9d08-242cf18e87cb` · printing: SOC #25 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defiling Tears
 
@@ -652,7 +722,10 @@
 - **Oracle text:**
   > The next time a source of your choice would deal damage to you this turn, prevent that damage. If damage is prevented this way, Deflecting Palm deals that much damage to that source's controller.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1131 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/205/deflecting-palm) · oracle_id `dc5dffc8-fac5-4956-bac4-1ad2cc16f6be` · printing: MKC #205 (2024-02-09) · [rulings](https://api.scryfall.com/cards/c5bda1a7-537f-4a80-95a0-c45eb127969b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-09-20* — Deflecting Palm doesn't target any permanent or player. You choose a source of damage as Deflecting Palm resolves.
+  - *2014-09-20* — If multiple prevention and/or replacement effects are trying to apply to the same damage, the player who would be dealt damage chooses the order in which to apply them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/205/deflecting-palm) · oracle_id `dc5dffc8-fac5-4956-bac4-1ad2cc16f6be` · printing: MKC #205 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deflecting Swat
 

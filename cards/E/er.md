@@ -86,7 +86,14 @@
   > Boast — {1}{B}, Sacrifice a creature: Each opponent sacrifices a creature or planeswalker. (Activate only if this creature attacked this turn and only once each turn.)
 - **Keywords:** Flying, Lifelink, Hexproof from, Hexproof, Boast
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8083 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/94/eradicator-valkyrie) · oracle_id `06b7987d-c876-4369-9c2d-ce1d35a01097` · printing: KHM #94 (2021-02-05) · [rulings](https://api.scryfall.com/cards/d00edda3-ddbc-44ee-a14b-47a701445bb0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-02-05* — A boast ability can be activated at any point after the creature with that ability has been declared as an attacker. This can be before blockers are declared, after blockers are declared but before combat damage is dealt, during combat after combat damage is dealt, during the postcombat main phase, during the end step, or, in some unusual cases, during the cleanup step.
+  - *2021-02-05* — As the boast ability resolves, first the next opponent in turn order chooses a creature or planeswalker they control. Then each other opponent in turn order chooses a creature or planeswalker they control, knowing the choices made before their choice. Then all chosen creatures and planeswalkers are sacrificed at the same time.
+  - *2021-02-05* — Eradicator Valkyrie can't be the target of abilities whose source is a planeswalker an opponent controls.
+  - *2021-02-05* — If a creature with a boast ability is put onto the battlefield attacking, it was never declared as an attacker. Its boast ability can't be activated that turn.
+  - *2021-02-05* — If an effect adds additional combat phases to a turn and a creature with a boast ability attacks more than once during that turn, its boast ability can still be activated only once.
+  - *2021-02-05* — If it's not your turn and you gain control of a creature with a boast ability after that creature attacked, you can activate that creature's boast ability if it hasn't been activated yet that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/94/eradicator-valkyrie) · oracle_id `06b7987d-c876-4369-9c2d-ce1d35a01097` · printing: KHM #94 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Era of Enlightenment // Hand of Enlightenment
 
@@ -114,7 +121,19 @@
   > Whenever an artifact or Artificer you control enters, you may pay {1}. If you do, you get {E}{E} (two energy counters).
   > Pay six {E}, Sacrifice this enchantment: Draw three cards.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7496 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/kld/45/era-of-innovation) · oracle_id `355603d1-f62d-407a-8fa9-74e7dca8ecf9` · printing: KLD #45 (2016-09-30) · [rulings](https://api.scryfall.com/cards/5dae3b1f-6a31-4a8a-9e44-063f8f670134/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2016-09-20* — If a creature that is both an artifact and an Artificer enters the battlefield under your control, Era of Innovation's triggered ability triggers only once.
+  - *2016-09-20* — You can pay {1} only once each time Era of Innovation's first ability resolves. You can't pay more to get more than {E}{E}.
+  - *2024-06-07* — Energy counters are a kind of counter that a player may have. They're not associated with any specific permanents.
+  - *2024-06-07* — Energy counters aren't mana. They don't go away as steps, phases, and turns end, and effects that add mana "of any type" can't give you energy counters.
+  - *2024-06-07* — If a spell or ability with one or more targets states that you "may pay" some amount of {E}, and each permanent that it targets has become an illegal target, the spell or ability won't resolve. You can't pay any {E} even if you want to.
+  - *2024-06-07* — If an effect says you get one or more {E}, you get that many energy counters. To pay one or more {E}, you lose that many energy counters. You can't pay more energy counters than you have. Any effects that interact with counters a player gets, has, or loses can interact with energy counters.
+  - *2024-06-07* — Keep track of how many energy counters each player has. Potential ways to track this include writing theme down on paper or using dice, but any method that is clear and mutually agreeable is fine. (At higher levels of tournament play, dice may not be allowed for tracking counters that players have.)
+  - *2024-06-07* — Some spells and abilities that give you {E} may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't get any {E}.
+  - *2024-06-07* — Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
+  - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
+  - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/kld/45/era-of-innovation) · oracle_id `355603d1-f62d-407a-8fa9-74e7dca8ecf9` · printing: KLD #45 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Erase
 
@@ -171,6 +190,7 @@
   > *—Vallon, Thraben inspector*
 - **Keywords:** Flying, Investigate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5848 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/104/erdwal-illuminator) · oracle_id `5ff4ef34-acb9-46c3-8530-f4b093807066` · printing: MKC #104 (2024-02-09) · [rulings](https://api.scryfall.com/cards/5c39fa19-ca75-49f4-8e1e-8b59bc9b664a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Erdwal Ripper
@@ -198,7 +218,9 @@
   > *"We make good armor and keen swords, but we cannot again make mail or blade to match those that our fathers made before the dragon came."*
   > *—Glóin*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2488 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/122/erebor-flamesmith) · oracle_id `6eb93545-a1a6-4447-82c5-421d8e9f023d` · printing: LTR #122 (2023-06-23) · [rulings](https://api.scryfall.com/cards/552730c5-e3a6-468f-91b2-82c272dda400/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-06-16* — Erebor Flamesmith's triggered ability will resolve before the spell that caused the ability to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/122/erebor-flamesmith) · oracle_id `6eb93545-a1a6-4447-82c5-421d8e9f023d` · printing: LTR #122 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Erebos, Bleak-Hearted
 
@@ -212,7 +234,24 @@
   > {1}{B}, Sacrifice another creature: Target creature gets -2/-1 until end of turn.
 - **Keywords:** Indestructible
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4265 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/868/erebos-bleak-hearted) · oracle_id `a5690dc9-f12e-4ecc-b528-f2f83c79c3c8` · printing: CMM #868 (2023-08-04) · [rulings](https://api.scryfall.com/cards/84701927-799f-4af4-85b8-389f903c5bc0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (16):
+  - *2020-01-24* — As a God enters the battlefield, your devotion to its color will determine whether any replacement effects that affect creatures entering the battlefield apply to that God. Because replacement effects are considered before the God is on the battlefield, the mana symbols in its mana cost won’t be counted when determining this.
+  - *2020-01-24* — Colorless and generic mana symbols ({C}, {0}, {1}, {2}, {X}, and so on) in mana costs of permanents you control don’t count toward your devotion to any color.
+  - *2020-01-24* — Counters put on a God remain on it while it’s not a creature, even if they have no effect.
+  - *2020-01-24* — Erebos’s last ability can target the creature you’ll sacrifice to pay its cost. In this case, the ability won’t resolve, but Erebos’s triggered ability will trigger.
+  - *2020-01-24* — Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s).
+  - *2020-01-24* — If a God is attacking or blocking and it stops being a creature, it will be removed from combat. It won’t rejoin combat if it resumes being a creature later during that combat.
+  - *2020-01-24* — If a God stops being a creature, it loses the type creature and the creature type God. It continues to be a legendary enchantment.
+  - *2020-01-24* — If an activated ability or triggered ability has an effect that depends on your devotion to a color, you count the number of mana symbols of that color among the mana costs of permanents you control as the ability resolves. The permanent with that ability will be counted if it’s still on the battlefield at that time.
+  - *2020-01-24* — If an effect causes a God to lose all abilities, its ability that causes it to stop being a creature still applies if appropriate.
+  - *2020-01-24* — If one or more creatures you control die at the same time as Erebos, its triggered ability triggers for each of those creatures.
+  - *2020-01-24* — If you put an Aura on an opponent’s permanent, you still control the Aura, and mana symbols in its mana cost count towards your devotion.
+  - *2020-01-24* — Mana symbols in the text boxes of permanents you control don’t count toward your devotion to any color.
+  - *2020-01-24* — The abilities of Gods function as long as they’re on the battlefield, regardless of whether they’re creatures.
+  - *2020-01-24* — The type-changing ability that can make a God not be a creature functions only on the battlefield. It’s always a creature card in other zones, regardless of your devotion to its color. It’s always a creature spell while it’s on the stack.
+  - *2020-01-24* — When a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not for abilities that trigger whenever a creature enters the battlefield.
+  - *2020-01-24* — While resolving Erebos’s triggered ability, you can’t pay more than 2 life to draw more than one card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/868/erebos-bleak-hearted) · oracle_id `a5690dc9-f12e-4ecc-b528-f2f83c79c3c8` · printing: CMM #868 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Erebos, God of the Dead
 
@@ -226,7 +265,20 @@
   > {1}{B}, Pay 2 life: Draw a card.
 - **Keywords:** Indestructible
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3062 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ths/85/erebos-god-of-the-dead) · oracle_id `1cfc7b12-a595-492d-81ee-bd100ba7de6a` · printing: THS #85 (2013-09-27) · [rulings](https://api.scryfall.com/cards/d0787e1f-0b75-44ab-a8fd-90358906a787/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2013-09-15* — Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s).
+  - *2013-09-15* — If an activated ability or triggered ability has an effect that depends on your devotion to a color, you count the number of mana symbols of that color among the mana costs of permanents you control as the ability resolves. The permanent with that ability will be counted if it's still on the battlefield at that time.
+  - *2013-09-15* — Mana symbols in the text boxes of permanents you control don't count toward your devotion to any color.
+  - *2013-09-15* — Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don't count toward your devotion to any color.
+  - *2020-01-24* — As a God enters the battlefield, your devotion to its color will determine whether any replacement effects that affect creatures entering the battlefield apply to that God. Because replacement effects are considered before the God is on the battlefield, the mana symbols in its mana cost won't be counted when determining this.
+  - *2020-01-24* — Counters put on a God remain on it while it's not a creature, even if they have no effect.
+  - *2020-01-24* — If a God is attacking or blocking and it stops being a creature, it will be removed from combat. It won't rejoin combat if it resumes being a creature later during that combat.
+  - *2020-01-24* — If a God stops being a creature, it loses the type creature and the creature type God. It continues to be a legendary enchantment.
+  - *2020-01-24* — If an effect causes a God to lose all abilities, its ability that causes it to stop being a creature still applies if appropriate.
+  - *2020-01-24* — The abilities of Gods function as long as they're on the battlefield, regardless of whether they're creatures.
+  - *2020-01-24* — The type-changing ability that can make a God not be a creature functions only on the battlefield. It's always a creature card in other zones, regardless of your devotion to its color. It's always a creature spell while it's on the stack.
+  - *2020-01-24* — When a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not for abilities that trigger whenever a creature enters the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ths/85/erebos-god-of-the-dead) · oracle_id `1cfc7b12-a595-492d-81ee-bd100ba7de6a` · printing: THS #85 (2013-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Erebos's Emissary
 
@@ -252,7 +304,9 @@
 - **Flavor text** (THB printing):
   > *"I bring a death none can escape."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6313 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/94/ereboss-intervention) · oracle_id `e078585e-7058-4746-a884-3c9a14630a1b` · printing: THB #94 (2020-01-24) · [rulings](https://api.scryfall.com/cards/88e35c80-6cfe-49fc-8138-562233ccf987/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-01-24* — If you choose the first mode and the target creature is an illegal target by the time Erebos’s Intervention tries to resolve, the spell won’t resolve. You won’t gain X life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/94/ereboss-intervention) · oracle_id `e078585e-7058-4746-a884-3c9a14630a1b` · printing: THB #94 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Erebos's Titan
 
@@ -313,7 +367,10 @@
 - **Flavor text** (SOC printing):
   > *"Hush now. I need your beauty sleep."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3928 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/307/eriette-of-the-charmed-apple) · oracle_id `f43f5855-f297-4433-984b-18263b734cfc` · printing: SOC #307 (2026-04-24) · [rulings](https://api.scryfall.com/cards/baf256c5-1b4c-4fbe-94e4-1538d2577f8f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-09-01* — By default, the controller of a Role token is the player who created it, even if that Role token is attached to a creature they don't control.
+  - *2023-09-01* — Count the number of Auras you control as the ability resolves to determine the value of X.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/307/eriette-of-the-charmed-apple) · oracle_id `f43f5855-f297-4433-984b-18263b734cfc` · printing: SOC #307 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eriette's Lullaby
 
@@ -335,6 +392,7 @@
   > {2}, {T}, Sacrifice Eriette's Tempting Apple: You gain 3 life.
   > {2}, {T}, Sacrifice Eriette's Tempting Apple: Target opponent loses 3 life.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8359 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/245/eriettes-tempting-apple) · oracle_id `b26a2875-c704-491a-b82d-07c316e53611` · printing: WOE #245 (2023-09-08) · [rulings](https://api.scryfall.com/cards/5b61711f-8982-4ff0-86ba-01e0125cd705/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eriette's Whisper
@@ -372,7 +430,18 @@
   > Choose a Background (You can have a Background as a second commander.)
 - **Keywords:** Choose a background, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7870 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/230/erinis-gloom-stalker) · oracle_id `1b76a54d-5a9f-4b1b-a075-4b4c4de8ba0a` · printing: CLB #230 (2022-06-10) · [rulings](https://api.scryfall.com/cards/b6a7d041-957a-4b19-9517-214689dadd45/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2022-06-10* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2022-06-10* — Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+  - *2022-06-10* — Choose a Background is a variant of the partner ability. You may have two commanders if one of them is a legendary creature with the choose a background ability and the other is a legendary Background enchantment. Backgrounds and cards with choose a Background do not interact with cards which have any other partner ability.
+  - *2022-06-10* — If a card refers to a commander creature you own, a Background won't usually be counted or included for that effect. If another spell or ability causes your Background to become a creature, however, it will be included. Any effect that refers to your commander or a commander you own or control without specifying creature will apply to a Background that is your commander, as appropriate.
+  - *2022-06-10* — If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+  - *2022-06-10* — If you control a Background that grants an ability to commander creatures you own, and you own more than one commander creature, each of them will have that ability.
+  - *2022-06-10* — If your Commander deck has two commanders, you can include only cards whose own color identities are also found in your commanders' combined color identities.
+  - *2022-06-10* — If your commander loses the choose a Background ability or stops being a Background during the game, as appropriate, it is still your commander.
+  - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won't usually be a creature anyway).
+  - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/230/erinis-gloom-stalker) · oracle_id `1b76a54d-5a9f-4b1b-a075-4b4c4de8ba0a` · printing: CLB #230 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eris, Roar of the Storm
 
@@ -385,7 +454,12 @@
   > Whenever you cast your second spell each turn, create a 4/4 red Dragon Elemental creature token with flying and prowess.
 - **Keywords:** Flying, Prowess
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6704 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/5/eris-roar-of-the-storm) · oracle_id `918991a6-7321-419d-8f3d-150fe32d02d2` · printing: OTC #5 (2024-04-19) · [rulings](https://api.scryfall.com/cards/1adce281-4d5a-44d2-8cfa-25f860b015ff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-04-12* — If the mana cost of a card in your graveyard includes {X}, X is 0 for the purpose of determining its mana value.
+  - *2024-04-12* — Spells that were cast before Eris entered the battlefield count. If Eris was the first spell you cast this turn, the next spell you cast this turn is your second spell.
+  - *2024-04-12* — The mana value of a double-faced card in your graveyard is always the mana value of the front face.
+  - *2024-04-12* — The mana value of a split card in the graveyard is the total mana value of both halves of that card. It does not have two mana values.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/5/eris-roar-of-the-storm) · oracle_id `918991a6-7321-419d-8f3d-150fe32d02d2` · printing: OTC #5 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Erithizon
 
@@ -409,7 +483,9 @@
 - **Flavor text** (LTR printing):
   > *Down from the hills leaped Erkenbrand, lord of Westfold, and the hosts of Isengard roared in fear.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7985 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/123/erkenbrand-lord-of-westfold) · oracle_id `8cac919f-3bb8-49cb-b4e4-4dd0dcd7746c` · printing: LTR #123 (2023-06-23) · [rulings](https://api.scryfall.com/cards/38f81e68-cddd-47f4-b1d1-a297c3298c25/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-06-16* — Erkenbrand, Lord of Westfold's triggered ability affects only creatures you control at the time it resolves. Any creatures that come under your control later in the turn won't be affected.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/123/erkenbrand-lord-of-westfold) · oracle_id `8cac919f-3bb8-49cb-b4e4-4dd0dcd7746c` · printing: LTR #123 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Erode
 
@@ -421,7 +497,9 @@
   > *"Our lives are built upon our pasts. What happens, then, if we are cut off from them?"*
   > *—Augusta, dean of order*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1782 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/15/erode) · oracle_id `2e467fab-e808-44d3-99bf-e3621baeb7cb` · printing: SOS #15 (2026-04-24) · [rulings](https://api.scryfall.com/cards/32e670da-7563-4f6a-a7db-4c126a440eb8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-03-20* — If the target is illegal as Erode tries to resolve, it won't resolve and none of its effects will happen. No player will search their library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/15/erode) · oracle_id `2e467fab-e808-44d3-99bf-e3621baeb7cb` · printing: SOS #15 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eroded Canyon
 
@@ -435,7 +513,9 @@
   > *"The water looks like liquid gold. Wonder how many died trying to bottle it."*
   > *—Pioneer journal of Big Ralph*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3962 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/256/eroded-canyon) · oracle_id `852c6520-d148-4923-a312-05a9af821f24` · printing: OTJ #256 (2024-04-19) · [rulings](https://api.scryfall.com/cards/5c9d080f-28d7-41d6-a4e0-5b3e3a5ed770/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-04-12* — Desert is a land subtype with no special meaning. It doesn’t grant the land an intrinsic mana ability. Other cards may care about which lands are Deserts.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/256/eroded-canyon) · oracle_id `852c6520-d148-4923-a312-05a9af821f24` · printing: OTJ #256 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eron the Relentless
 
@@ -499,7 +579,10 @@
   > You may cast spells with flash or flying from the top of your library.
 - **Keywords:** Flying, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7767 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/224/errant-and-giada) · oracle_id `24697554-02fa-48ba-b51d-6bba3f85c293` · printing: MOM #224 (2023-04-21) · [rulings](https://api.scryfall.com/cards/54aa2d03-7713-44d4-8fca-45c6f77b174b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-04-14* — Errant and Giada lets you look at the top card of your library whenever you want (with one restriction—see below), even if you don’t have priority. This action doesn’t use the stack. Knowing what that card is becomes part of the information you have access to, just like you can look at the cards in your hand.
+  - *2023-04-14* — If the top card of your library changes while you’re casting a spell, playing a land, or activating an ability, you can’t look at the new top card until you finish doing so. This means that if you cast the top card of your library, you can’t look at the next one until you’re done paying for that spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/224/errant-and-giada) · oracle_id `24697554-02fa-48ba-b51d-6bba3f85c293` · printing: MOM #224 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Errant Doomsayers
 
@@ -565,6 +648,7 @@
   > *Few know her face, but everyone knows her work.*
 - **Keywords:** Haste, Flash, Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8957 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/41/errant-street-artist) · oracle_id `23e6df25-90db-42a4-8658-e592e67be15e` · printing: SNC #41 (2022-04-29) · [rulings](https://api.scryfall.com/cards/61d23407-9fe0-4cbf-b4b5-bc1e132c36e4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Erratic Apparition
@@ -624,6 +708,7 @@
 - **Flavor text** (TPR printing):
   > *"In Barrin's name!" cried Lyna as Hanna's sword passed through her, "Ertai sends word that the portal is open—but not for long!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9118 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/222/erratic-portal) · oracle_id `4a85cd7e-625b-4043-b7f1-999def26eb36` · printing: TPR #222 (2015-05-06) · [rulings](https://api.scryfall.com/cards/d6a72bdb-102b-40a6-82ff-caa4dbfe1175/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Erratic Visionary
@@ -690,7 +775,12 @@
   > • Destroy another target creature or planeswalker. Its controller draws a card.
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3470 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/199/ertai-resurrected) · oracle_id `3d038f7c-95fa-4b71-8f74-b9b4dd45cde0` · printing: DMU #199 (2022-09-09) · [rulings](https://api.scryfall.com/cards/7f7e780e-fbc5-4dc0-b5c7-efcb8645c7c6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-09-09* — Abilities that create replacement effects, such as a permanent entering the battlefield tapped or with counters on it, can’t be targeted. Abilities that apply “as [this creature] enters the battlefield” are also replacement effects and can’t be targeted. Similarly, the replacement effect that prevents a creature with a stun counter on it from untapping can’t be countered.
+  - *2022-09-09* — Activated abilities are written in the form “Cost: Effect.” Some keyword abilities, such as equip and crew, are activated abilities and will have colons in their reminder texts.
+  - *2022-09-09* — If you counter a delayed triggered ability that triggers at the beginning of the “next” occurrence of a specified step or phase, that ability won’t trigger again the following time that phase or step occurs.
+  - *2022-09-09* — Triggered abilities use the word “when,” “whenever,” or “at.” They’re often written as “[Trigger condition], [effect].” Some keyword abilities, such as prowess and fabricate, are triggered abilities and will have “when,” “whenever,” or “at” in their reminder text.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/199/ertai-resurrected) · oracle_id `3d038f7c-95fa-4b71-8f74-b9b4dd45cde0` · printing: DMU #199 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ertai's Familiar
 
@@ -726,7 +816,9 @@
 - **Flavor text** (DMU printing):
   > *"You're not so special, Karn. Anything that has been assembled can be disassembled."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9493 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/48/ertais-scorn) · oracle_id `76e6c0e7-593a-4b4a-9eb6-a912f9c3f26f` · printing: DMU #48 (2022-09-09) · [rulings](https://api.scryfall.com/cards/6129b0d3-b50a-4a4b-9111-39f8fc6718dd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-09-09* — If multiple opponents have each cast two or more spells this turn, Ertai’s Scorn costs only {U} less to cast, not {U} less for each of them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/48/ertais-scorn) · oracle_id `76e6c0e7-593a-4b4a-9eb6-a912f9c3f26f` · printing: DMU #48 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ertai's Trickery
 
@@ -773,7 +865,17 @@
   > When Ertha Jo enters, create a 1/1 red Mercenary creature token with "{T}: Target creature you control gets +1/+0 until end of turn. Activate only as a sorcery."
   > Whenever you activate an ability that targets a creature or player, copy that ability. You may choose new targets for the copy.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8301 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/203/ertha-jo-frontier-mentor) · oracle_id `0a66ce8b-af99-411f-8ecb-52a5d2f6af3d` · printing: OTJ #203 (2024-04-19) · [rulings](https://api.scryfall.com/cards/a4e81be6-6447-4f1e-be00-6fcdb2ab35af/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2024-04-12* — Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keyword abilities (such as equip) are activated abilities and will have colons in their reminder text.
+  - *2024-04-12* — Any choices made when the ability resolves won't have been made yet when it's copied. Any such choices will be made separately when the copy resolves.
+  - *2024-04-12* — If an ability is linked to a second ability, copies of that ability are also linked to that second ability. If the second ability refers to "the exiled card," it refers to all cards exiled by the ability and the copy. For example, if one of Helvault's activated abilities is copied and two cards are exiled, they both return when Helvault is put into a graveyard from the battlefield.
+  - *2024-04-12* — If the ability divides damage or distributes counters among a number of targets, the division and number of targets can't be changed. If you choose new targets, you must choose the same number of targets.
+  - *2024-04-12* — If the ability is modal (that is, if it says, "Choose one —" or similar), the mode is copied and can't be changed.
+  - *2024-04-12* — If the activated ability's cost contains a choice, such as a creature to sacrifice or a number of counters to remove, the copy uses that same information. You can't pay the cost again, even if you want to.
+  - *2024-04-12* — The copy made by Ertha Jo's triggered ability is created on the stack, so it's not "activated."
+  - *2024-04-12* — The copy will have the same targets as the ability it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. The new targets must be legal.
+  - *2024-04-12* — The source of the copy is the same as the source of the original ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/203/ertha-jo-frontier-mentor) · oracle_id `0a66ce8b-af99-411f-8ecb-52a5d2f6af3d` · printing: OTJ #203 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Erudite Wizard
 
@@ -797,4 +899,6 @@
 - **Flavor text** (VOW printing):
   > *She is cursed with visions of monsters and suffering . . . and all her visions come true.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6367 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/vow/237/eruth-tormented-prophet) · oracle_id `a0380b63-58ef-4545-beec-6ad307bbc21b` · printing: VOW #237 (2021-11-19) · [rulings](https://api.scryfall.com/cards/9f764077-df2d-4ac7-b507-2c8e08386d49/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-11-19* — You may choose to apply Eruth's replacement effect even if there are fewer than two cards in your library. If there are no cards in your library, you won't exile any cards this way, but you also won't lose the game for having attempted to draw from an empty library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vow/237/eruth-tormented-prophet) · oracle_id `a0380b63-58ef-4545-beec-6ad307bbc21b` · printing: VOW #237 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

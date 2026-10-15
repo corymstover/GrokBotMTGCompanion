@@ -28,7 +28,9 @@
   > *—Bilbo*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8816 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/78/model-of-unity) · oracle_id `d7b69fd7-e575-4009-8549-f576249ba641` · printing: LTC #78 (2023-06-23) · [rulings](https://api.scryfall.com/cards/0d804d47-1f7b-47bd-9eac-aa539eda9af7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-06-16* — If multiple players are instructed to scry at once, those players each look at the top cards of their library at the same time, then they choose in turn order whether to put those cards on the top or bottom of their library and in what order.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/78/model-of-unity) · oracle_id `d7b69fd7-e575-4009-8549-f576249ba641` · printing: LTC #78 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moderation
 
@@ -52,6 +54,7 @@
 - **Flavor text** (CLB printing):
   > *Percival's clothes itched and his dinner was unpleasantly wriggly, but the kobold looked like he was having the time of his life.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8022 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/83/modify-memory) · oracle_id `2c37d4e1-6b76-4feb-933b-1752ecc6d3e8` · printing: CLB #83 (2022-06-10) · [rulings](https://api.scryfall.com/cards/f915b034-ab16-48a6-a151-71eaa0b542f9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### M.O.D.O.K.
@@ -65,6 +68,7 @@
   > Designed Only for Killing — Creatures your opponents control get -1/-1.
 - **Keywords:** Mental Organism, Flying, Lifelink, Designed Only for Killing, Connive
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7850 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/106/modok) · oracle_id `fe7cc414-42d0-4dad-8516-7a0be0860a67` · printing: MSH #106 (2026-06-26) · [rulings](https://api.scryfall.com/cards/38e87542-50f7-4812-9338-84e4b9b7bb44/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### M.O.D.O.K., Evil Intellect

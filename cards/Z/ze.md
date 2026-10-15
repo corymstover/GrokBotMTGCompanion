@@ -115,7 +115,9 @@
   > When this creature enters, gain control of target permanent until end of turn. Untap that permanent. It gains haste until end of turn.
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2453 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/183/zealous-conscripts) · oracle_id `1dae6f39-2cbd-485c-b190-017a26401fd4` · printing: INR #183 (2025-01-24) · [rulings](https://api.scryfall.com/cards/b5ca6c08-bfe0-4021-b6ad-e235c8905661/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-03-19* — The triggered ability can target any permanent, including one that's untapped or one that you already control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/183/zealous-conscripts) · oracle_id `1dae6f39-2cbd-485c-b190-017a26401fd4` · printing: INR #183 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zealous Display
 
@@ -210,7 +212,11 @@
   > At the beginning of your upkeep, you gain X life and draw X cards, where X is the number of permanents you own that your opponents control.
   > {U}{R}{W}: Target opponent gains control of target permanent you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8736 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/c16/231/zedruu-the-greathearted) · oracle_id `514179c0-a50b-4565-8e71-9dad256edd85` · printing: C16 #231 (2016-11-11) · [rulings](https://api.scryfall.com/cards/e9ea2a6b-5aaf-4178-b945-f409fe83c41a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-11-10* — If an opponent leaves the game, all permanents you gave to them courtesy of Zedruu will return to your control.
+  - *2020-11-10* — If either the opponent or the permanent you control becomes an illegal target by the time Zedruu's last ability tries to resolve, the ability does nothing.
+  - *2020-11-10* — If you leave the game, all permanents you own leave the game with you.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c16/231/zedruu-the-greathearted) · oracle_id `514179c0-a50b-4565-8e71-9dad256edd85` · printing: C16 #231 (2016-11-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zegana, Utopian Speaker
 
@@ -223,7 +229,10 @@
   > Each creature you control with a +1/+1 counter on it has trample.
 - **Keywords:** Adapt
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5507 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/298/zegana-utopian-speaker) · oracle_id `04260930-ff38-4b35-9ec4-e89196a4f2c7` · printing: LCC #298 (2023-11-17) · [rulings](https://api.scryfall.com/cards/93800249-4fcd-47ec-92f9-58f875cb6f00/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-01-25* — If a creature somehow loses all of its +1/+1 counters, it can adapt again and get more +1/+1 counters.
+  - *2019-01-25* — You can always activate an ability that will cause a creature to adapt. As that ability resolves, if the creature has a +1/+1 counter on it for any reason, you simply won't put any +1/+1 counters on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/298/zegana-utopian-speaker) · oracle_id `04260930-ff38-4b35-9ec4-e89196a4f2c7` · printing: LCC #298 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zektar Shrine Expedition
 
@@ -248,7 +257,9 @@
 - **Flavor text** (FIN printing):
   > *"My weapons are these fists of mine!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5287 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/170/zell-dincht) · oracle_id `f207ce73-e4cd-4dfc-b3b9-5704f5148959` · printing: FIN #170 (2025-06-13) · [rulings](https://api.scryfall.com/cards/135d6b27-9168-4513-9d7d-56edae048857/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-06-06* — The effect of Zell Dincht's first ability is cumulative with similar effects. For example, if you control both Zell Dincht and Exploration (an enchantment with "You may play an additional land on each of your turns"), you'll be able to play three lands during each of your turns.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/170/zell-dincht) · oracle_id `f207ce73-e4cd-4dfc-b3b9-5704f5148959` · printing: FIN #170 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zellix, Sanity Flayer
 
@@ -261,7 +272,18 @@
   > Choose a Background (You can have a Background as a second commander.)
 - **Keywords:** Choose a background, Hive Mind, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3037 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/652/zellix-sanity-flayer) · oracle_id `4dde484a-8d5b-4eb6-ab4a-e30cc370431c` · printing: CLB #652 (2022-06-10) · [rulings](https://api.scryfall.com/cards/a5d57db6-0aa5-4e28-b156-e97b74af2cee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2022-06-10* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2022-06-10* — Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+  - *2022-06-10* — Choose a Background is a variant of the partner ability. You may have two commanders if one of them is a legendary creature with the choose a background ability and the other is a legendary Background enchantment. Backgrounds and cards with choose a Background do not interact with cards which have any other partner ability.
+  - *2022-06-10* — If a card refers to a commander creature you own, a Background won't usually be counted or included for that effect. If another spell or ability causes your Background to become a creature, however, it will be included. Any effect that refers to your commander or a commander you own or control without specifying creature will apply to a Background that is your commander, as appropriate.
+  - *2022-06-10* — If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+  - *2022-06-10* — If you control a Background that grants an ability to commander creatures you own, and you own more than one commander creature, each of them will have that ability.
+  - *2022-06-10* — If your Commander deck has two commanders, you can include only cards whose own color identities are also found in your commanders’ combined color identities.
+  - *2022-06-10* — If your commander loses the choose a Background ability or stops being a Background during the game, as appropriate, it is still your commander.
+  - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won’t have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won’t usually be a creature anyway).
+  - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/652/zellix-sanity-flayer) · oracle_id `4dde484a-8d5b-4eb6-ab4a-e30cc370431c` · printing: CLB #652 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zelyon Sword
 
@@ -309,7 +331,10 @@
   > Whenever you tap a land for mana, add one mana of any type that land produced. (The types of mana are white, blue, black, red, green, and colorless.)
   > Whenever you cast a creature spell, draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2444 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c17/160/zendikar-resurgent) · oracle_id `a0af158b-f42a-4022-a438-e0a2e1fd6d9e` · printing: C17 #160 (2017-08-25) · [rulings](https://api.scryfall.com/cards/33f64032-1e87-4d22-a211-c37e11ffa247/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2016-01-22* — If the land’s mana ability produces more than one type of mana, choose one of those types to determine what mana Zendikar Resurgent produces.
+  - *2016-01-22* — The last ability will resolve before the creature spell that caused it to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c17/160/zendikar-resurgent) · oracle_id `a0af158b-f42a-4022-a438-e0a2e1fd6d9e` · printing: C17 #160 (2017-08-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zendikar's Roil
 
@@ -322,6 +347,7 @@
   > *—Nissa Revane*
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2183 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/znc/88/zendikars-roil) · oracle_id `a842cc2b-52eb-4dc5-86c6-6575c2ed913d` · printing: ZNC #88 (2020-09-25) · [rulings](https://api.scryfall.com/cards/60297593-2438-48d7-9414-48af114a93d2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zenith Chronicler
@@ -334,6 +360,7 @@
 - **Flavor text** (ONE printing):
   > *It watches through the never-ending day, motionless save for the unsettling, twitching dance it performs as each sun reaches its apex.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2682 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/246/zenith-chronicler) · oracle_id `9fed6494-3bdd-4bc6-901f-da5fb623b152` · printing: ONE #246 (2023-02-10) · [rulings](https://api.scryfall.com/cards/1431fe83-7dc7-4c40-8d66-6525560e4323/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zenith Festival
@@ -345,7 +372,16 @@
   > Harmonize {X}{R}{R} (You may cast this card from your graveyard for its harmonize cost. You may tap a creature you control to reduce that cost by an amount of generic mana equal to its power. Then exile this spell.)
 - **Keywords:** Harmonize
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7284 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/41/zenith-festival) · oracle_id `4dabba8c-0490-41ec-a03e-f7d0c9f0edb6` · printing: TDC #41 (2025-04-11) · [rulings](https://api.scryfall.com/cards/8cffd86b-1f4a-4e1c-a5a0-f467ecd8f63b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2025-04-04* — A spell cast using harmonize will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2025-04-04* — If a card with harmonize is put into your graveyard during your turn, you can cast it if it’s legal to do so before any other player can take any actions.
+  - *2025-04-04* — Tapping a creature won’t reduce colored mana components of harmonize costs.
+  - *2025-04-04* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a harmonize cost) you’re paying, add any cost increases, then apply any cost reductions (such as the cost reduction from tapping a creature). The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2025-04-04* — You can cast a spell using harmonize even if it was somehow put into your graveyard without having been cast.
+  - *2025-04-04* — You must still follow any timing restrictions and permissions, including those based on the card’s type. For instance, you can cast a sorcery using harmonize only when you could normally cast a sorcery.
+  - *2025-04-04* — You pay all costs and follow all timing rules for cards played this way. For example, if one of the exiled cards is a land card, you may play it only during your main phase while the stack is empty.
+  - *2025-04-04* — “Harmonize [cost]” means “You may cast this card from your graveyard by paying [cost] and tapping up to one untapped creature you control rather than paying the spell’s mana cost,” “If you cast this spell using its harmonize ability, its total cost is reduced by an amount of generic mana equal to the tapped creature’s power,” and “If the harmonize cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack.”
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/41/zenith-festival) · oracle_id `4dabba8c-0490-41ec-a03e-f7d0c9f0edb6` · printing: TDC #41 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zenith Flare
 
@@ -389,7 +425,18 @@
   > *"The heavens are too small a field for our dance. Let us transcend this mortal coil!"*
 - **Keywords:** Flying, Transform, My First Friend, Burning Chains
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4777 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/127/zenos-yae-galvus-shinryu-transcendent-rival) · oracle_id `8f52fc65-a914-421a-9426-21eb520d55d5` · printing: FIN #127 (2025-06-13) · [rulings](https://api.scryfall.com/cards/b65ffce4-bb58-418a-9bad-81533a5f2ba2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2025-06-06* — A nonmodal double-faced card enters with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed or allows you to cast it transformed, in which case it enters with its back face up.
+  - *2025-06-06* — A token that is created as a copy of a double-faced permanent or a double-faced card in another zone is a double-faced token. It will have both the front face and back face of whatever object it's copying. If it's copying a double-faced permanent whose back face is up, the token will enter with its back face up. It can transform if instructed to do so.
+  - *2025-06-06* — Each face of a nonmodal double-faced card has its own set of characteristics: name, types, subtypes, abilities, and so on. While a nonmodal double-faced permanent is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored.
+  - *2025-06-06* — Each nonmodal double-faced card in this release is cast face up. In every zone other than the battlefield, consider only the characteristics of its front face. If it is on the battlefield, consider only the characteristics of the face that's up; the other face's characteristics are ignored.
+  - *2025-06-06* — If this card somehow enters the battlefield with its back face up, it didn't transform, so you won't choose an opponent.
+  - *2025-06-06* — If you are instructed to put a card that isn't a double-faced card onto the battlefield transformed, it will not enter at all. In that case, it stays in the zone it was previously in. For example, if a single-faced card is a copy of Crystal Fragments, it will be exiled during the resolution of its second ability and remain in exile.
+  - *2025-06-06* — In the Commander variant, a double-faced card's color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered. For example, Cecil, Dark Knight's color identity is black and white, since its front face is black and its back face has a white color indicator.
+  - *2025-06-06* — In the case where you can't choose a creature an opponent controls for Zenos's first ability (probably because your opponents control no creatures), other creatures will still get -2/-2 until end of turn when Zenos's first ability resolves.
+  - *2025-06-06* — The back face of a nonmodal double-faced card usually has a color indicator that defines its color.
+  - *2025-06-06* — The mana value of a nonmodal double-faced card is the mana value of its front face, no matter which face is up.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/127/zenos-yae-galvus-shinryu-transcendent-rival) · oracle_id `8f52fc65-a914-421a-9426-21eb520d55d5` · printing: FIN #127 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zephid
 
@@ -428,6 +475,7 @@
   > Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4551 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/261/zephyr-boots) · oracle_id `02f3b9c3-f611-4f05-ab3e-b296916efdad` · printing: STX #261 (2021-04-23) · [rulings](https://api.scryfall.com/cards/4d0566fd-3775-48f1-ba22-6e659558c3d3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zephyr Charge
@@ -599,6 +647,7 @@
   > *"Beyond the supervoid, existence collapses into a singular point. We are all dead. We all live."*
   > *—Xu-Ifit, osteoharmonist*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7350 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/128/zero-point-ballad) · oracle_id `835abd35-27ea-45fe-b55d-25081c57bd4a` · printing: EOE #128 (2025-08-01) · [rulings](https://api.scryfall.com/cards/59cf9f4d-54cd-4cda-9726-65e16100ab46/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zetalpa, Primal Dawn
@@ -612,7 +661,9 @@
   > *The sky takes flight and the earth trembles.*
 - **Keywords:** Flying, Indestructible, Vigilance, Trample, Double strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1630 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/142/zetalpa-primal-dawn) · oracle_id `7da0e5de-3e4c-420a-8685-991206100b9d` · printing: TDC #142 (2025-04-11) · [rulings](https://api.scryfall.com/cards/78c71a23-8e73-406e-bbd0-4474c17c1d04/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-11-08* — If an attacking creature with double strike and trample destroys all of its blocking creatures with first-strike combat damage, all of its normal combat damage is assigned to the player, planeswalker, or battle that creature's attacking.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/142/zetalpa-primal-dawn) · oracle_id `7da0e5de-3e4c-420a-8685-991206100b9d` · printing: TDC #142 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zethi, Arcane Blademaster
 

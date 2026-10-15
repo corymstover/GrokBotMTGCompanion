@@ -41,7 +41,13 @@
   > Whenever you tap a land for mana while you're the monarch, add an additional one mana of any color.
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2451 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/251/regal-behemoth) · oracle_id `797c2b1c-c373-4735-b397-f561559c7c61` · printing: LCC #251 (2023-11-17) · [rulings](https://api.scryfall.com/cards/e3a8bdfa-a39c-4ca7-b591-1c6aca4cc5ac/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2016-08-23* — Abilities that trigger whenever you "become the monarch" trigger only if you aren't already the monarch. For example, if you are already the monarch as Custodi Lich enters the battlefield, its last ability won't trigger.
+  - *2016-08-23* — Being the monarch carries two inherent triggered abilities. "At the beginning of the monarch's end step, that player draws a card" and "Whenever a creature deals combat damage to the monarch, its controller becomes the monarch."
+  - *2016-08-23* — If the triggered ability that causes the monarch to draw a card goes on the stack, and a different player becomes the monarch before that ability resolves, the first player will still draw the card.
+  - *2016-08-23* — Regal Behemoth's last ability is a triggered mana ability. It doesn't use the stack and can't be responded to.
+  - *2016-08-23* — The game starts with no monarch. Once an effect makes one player the monarch, the game will have exactly one monarch from that point forward.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/251/regal-behemoth) · oracle_id `797c2b1c-c373-4735-b397-f561559c7c61` · printing: LCC #251 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Regal Bloodlord
 
@@ -68,7 +74,9 @@
   > *"It's entirely peaceful, as long as you don't try to pet it, pen it, take its food, take its hide, sit on its grass, or dress it up in colorful garb for human holidays."*
   > *—Sturwynn, Boundary Lands ranger*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6449 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/25/regal-bunnicorn) · oracle_id `efd93428-88a5-4f7b-95f3-1d6eec069a4c` · printing: WOE #25 (2023-09-08) · [rulings](https://api.scryfall.com/cards/03c7d409-90e7-44d7-a8c6-4eda35fbcc83/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-09-01* — The ability that defines Regal Bunnicorn's power and toughness functions in all zones, not just the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/25/regal-bunnicorn) · oracle_id `efd93428-88a5-4f7b-95f3-1d6eec069a4c` · printing: WOE #25 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Regal Caracal
 
@@ -81,7 +89,10 @@
 - **Flavor text** (FDN printing):
   > *Oketra's closest viziers are known as her chosen, though others may have a better claim to that moniker.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3007 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/579/regal-caracal) · oracle_id `aa571676-b390-4b8a-baea-4c4cd60c01f6` · printing: FDN #579 (2024-11-15) · [rulings](https://api.scryfall.com/cards/b6310a82-73db-40cb-ae64-6f07f869024c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-11-08* — All other Cats you control get +1/+1 and have lifelink, not just those created by Regal Caracal's last ability.
+  - *2024-11-08* — Multiple instances of lifelink on the same creature are redundant.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/579/regal-caracal) · oracle_id `aa571676-b390-4b8a-baea-4c4cd60c01f6` · printing: FDN #579 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Regal Force
 
@@ -93,7 +104,9 @@
 - **Flavor text** (DDU printing):
   > *It rarely moves, standing stock still in its clearing. When it does stir, ravens stop their cawing and crickets their chirping. All of nature watches in awed silence.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3630 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddu/22/regal-force) · oracle_id `e264ffe3-0252-49d6-b990-dbb3654325a5` · printing: DDU #22 (2018-04-06) · [rulings](https://api.scryfall.com/cards/9c24fe81-a8b7-4b20-b5dd-1d1c91ff057f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-06-08* — If Regal Force is still on the battlefield as its triggered ability resolves, its ability will count itself.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddu/22/regal-force) · oracle_id `e264ffe3-0252-49d6-b990-dbb3654325a5` · printing: DDU #22 (2018-04-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Regal Imperiosaur
 
@@ -105,6 +118,7 @@
 - **Flavor text** (DFT printing):
   > *Initially frustrated by Muraganda's inconsistent biodiversity, Avishkari researchers made a breakthrough after mapping the plane's aetheric index—the wide variety of fauna was the result of raw magic, not evolution.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7012 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/177/regal-imperiosaur) · oracle_id `83a76601-ef59-4888-af70-5088dd1f504c` · printing: DFT #177 (2025-02-14) · [rulings](https://api.scryfall.com/cards/36f569cc-ed09-4c27-b753-18b22ad7f425/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Regal Leosaur
@@ -237,6 +251,7 @@
   > *"Seeing a pack of these monsters hunt together, I'm at a loss to imagine the size of their prey."*
   > *—Adrian Adanto of Lujio*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2526 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/286/regisaur-alpha) · oracle_id `0673f4e0-66ff-458c-b4ba-eb067e560cce` · printing: LCC #286 (2023-11-17) · [rulings](https://api.scryfall.com/cards/2a3c6780-8ac2-489c-a347-19dbe977df43/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Regna's Sanction
@@ -285,4 +300,5 @@
 - **Flavor text** (MH1 printing):
   > *While the root remains, the tree yet lives.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1393 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh1/175/regrowth) · oracle_id `e6e4a8bd-5c40-4654-8de1-0da9afed90fd` · printing: MH1 #175 (2019-06-14) · [rulings](https://api.scryfall.com/cards/d771fc5d-b9a1-4637-8241-3f54616b64af/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

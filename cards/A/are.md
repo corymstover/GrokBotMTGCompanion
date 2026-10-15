@@ -40,6 +40,7 @@
 - **Flavor text** (FIN printing):
   > *"The Seventh Astral Era is come!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7459 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/196/a-realm-reborn) · oracle_id `fd230ab5-874e-4827-9b5c-6d39d079cee6` · printing: FIN #196 (2025-06-13) · [rulings](https://api.scryfall.com/cards/d1af74e4-38d5-44b5-85e1-4d13f6970453/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arena
@@ -50,7 +51,12 @@
   > {3}, {T}: Tap target creature you control and target creature of an opponent's choice they control. Those creatures fight each other. (Each deals damage equal to its power to the other.)
 - **Keywords:** Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8441 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsb/117/arena) · oracle_id `12326d23-1fb5-4084-a23a-d6e2c90ea36c` · printing: TSB #117 (2006-10-06) · [rulings](https://api.scryfall.com/cards/e5b7afa9-e07a-4a84-a41f-7a8bc5c1d274/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2004-10-04* — Either or both creatures can be tapped prior to using the ability and it still works.
+  - *2004-10-04* — In multiplayer games, you can choose a different opposing player each time it the ability is activated.
+  - *2004-10-04* — The power of the creatures when the effect resolves is used to determine how much damage is done.
+  - *2006-09-25* — If either target is illegal at the time the ability resolves (whether because it has left the battlefield, because it has gained Shroud or Protection, or for any other reason), the ability taps the remaining target, but no damage is dealt. If both targets are illegal, the ability doesn't resolve.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsb/117/arena) · oracle_id `12326d23-1fb5-4084-a23a-d6e2c90ea36c` · printing: TSB #117 (2006-10-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arena Athlete
 
@@ -106,7 +112,9 @@
 - **Flavor text** (BBD printing):
   > *"I see something special in you—a bright ember that yearns to dance among the stars."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8851 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/23/arena-rector) · oracle_id `6a23963c-21dc-4d21-8d28-5abad7f859a1` · printing: BBD #23 (2018-06-08) · [rulings](https://api.scryfall.com/cards/60a24826-55fc-4b1b-98bf-3204ad852765/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-06-08* — If Arena Rector leaves your graveyard before its triggered ability resolves, perhaps because it’s a token and ceased to exist, you can’t exile it and won’t be able to search your library for a planeswalker card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/23/arena-rector) · oracle_id `6a23963c-21dc-4d21-8d28-5abad7f859a1` · printing: BBD #23 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arena Trickster
 

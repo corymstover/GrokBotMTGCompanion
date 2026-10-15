@@ -24,7 +24,9 @@
 - **Flavor text** (CMM printing):
   > *For some of Ghirapur's aerowrights, building thopters is a byproduct of larger construction efforts.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2611 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/88/efficient-construction) · oracle_id `5af48f87-7b94-44de-90e3-91f10ced00d3` · printing: CMM #88 (2023-08-04) · [rulings](https://api.scryfall.com/cards/af4d2f70-816c-4410-b3a3-9b9a4b69df52/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-02-09* — Efficient Construction’s triggered ability resolves before the spell that caused it to trigger. The ability will resolve even if that spell is countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/88/efficient-construction) · oracle_id `5af48f87-7b94-44de-90e3-91f10ced00d3` · printing: CMM #88 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Efflorescence
 

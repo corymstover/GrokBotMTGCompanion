@@ -166,7 +166,20 @@
   > Umbra armor (If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura.)
 - **Keywords:** Umbra armor, Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1519 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/nec/130/snake-umbra) · oracle_id `70ed2052-f03c-461d-b32a-8835c97c559f` · printing: NEC #130 (2022-02-18) · [rulings](https://api.scryfall.com/cards/106d17d6-5ef2-4634-8dd6-790b12574042/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2010-06-15* — Snake Umbra grants the triggered ability to the creature. It triggers whenever the enchanted creature deals damage to an opponent of its controller (who is not necessarily an opponent of the Aura's controller). In other words, if your Snake Umbra winds up enchanting your opponent's creature, that opponent will draw a card whenever that creature damages you.
+  - *2010-06-15* — The ability triggers when the enchanted creature deals any damage, not just combat damage.
+  - *2024-06-07* — If a creature enchanted with an Aura that has umbra armor has indestructible, lethal damage and effects that try to destroy it simply have no effect. Umbra armor won't do anything because it won't have to.
+  - *2024-06-07* — If a creature enchanted with an Aura that has umbra armor would be destroyed by multiple state-based actions at the same time (most likely because a creature with deathtouch has dealt damage to that creature greater than or equal to its toughness), umbra armor's effect will replace all of them and save the creature.
+  - *2024-06-07* — If a creature you control is enchanted with multiple Auras that have umbra armor, and the enchanted creature would be destroyed, one of those Auras is destroyed instead—but only one of them. You choose which one because you control the enchanted creature.
+  - *2024-06-07* — If a spell or ability says that it would "destroy" a creature enchanted with an Aura that has umbra armor, that spell or ability is what causes the Aura to be destroyed instead. Umbra armor doesn't destroy the Aura; rather, it changes the effects of the spell or ability. On the other hand, if a spell or ability deals lethal damage to a creature enchanted with an Aura that has umbra armor, the game rules regarding lethal damage cause the Aura to be destroyed, not that spell or ability.
+  - *2024-06-07* — If a spell or ability would destroy both an Aura with umbra armor and the creature it's enchanting at the same time, umbra armor's effect will save the enchanted creature from being destroyed. Instead, the spell or ability will destroy the Aura in two different ways at the same time, but the result is the same as destroying it once.
+  - *2024-06-07* — Some printings of this card refer to the ability "totem armor". This ability's name has been replaced with "umbra armor". This change does not affect the gameplay function of this card.
+  - *2024-06-07* — Umbra armor has no effect if the enchanted creature is put into a graveyard for any other reason, such as if it's sacrificed, if the "legend rule" applies to it, or if its toughness is 0 or less.
+  - *2024-06-07* — Umbra armor's effect is applied no matter why the enchanted creature would be destroyed: because it's been dealt lethal damage, or because it's being affected by an effect that says to "destroy" it (such as Breathe Your Last). In either case, all damage is removed from the creature and the Aura is destroyed instead.
+  - *2024-06-07* — Umbra armor's effect is mandatory. If the enchanted creature would be destroyed, you must remove all damage from it (if it has any) and destroy the Aura that has umbra armor instead.
+  - *2024-06-07* — Umbra armor's effect is not regeneration. Specifically, if umbra armor's effect is applied, the enchanted creature does not become tapped and is not removed from combat as a result. Effects that say the enchanted creature can't be regenerated won't prevent umbra armor's effect from being applied.
+- **Source flags:** [Scryfall](https://scryfall.com/card/nec/130/snake-umbra) · oracle_id `70ed2052-f03c-461d-b32a-8835c97c559f` · printing: NEC #130 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snap
 
@@ -192,7 +205,9 @@
   > *"If it returns years hence, our knowledge of how to combat it will be that much greater."*
   > *—Andorel, Tolarian sentinel*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4082 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/87/snapback) · oracle_id `e88de17c-086d-4e2a-b5b2-2f9f57ca7c0f` · printing: TSR #87 (2021-03-19) · [rulings](https://api.scryfall.com/cards/367d46d1-fa7a-403d-8949-b478a1f83f46/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as the alternative cost of Snapback), add any cost increases, then apply any cost reductions. The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/87/snapback) · oracle_id `e88de17c-086d-4e2a-b5b2-2f9f57ca7c0f` · printing: TSR #87 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snapcaster Mage
 
@@ -204,7 +219,19 @@
   > When this creature enters, target instant or sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to its mana cost. (You may cast that card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1442 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/478/snapcaster-mage) · oracle_id `2bb2eda7-3b38-4c56-870f-c3218a1056f5` · printing: INR #478 (2025-01-24) · [rulings](https://api.scryfall.com/cards/22b36ad5-bf4d-436a-9c3c-fa4acd0052fe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2025-06-06* — "Flashback [cost]" means "You may cast this card from your graveyard if the resulting spell is an instant or sorcery spell by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2025-06-06* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2025-06-06* — If a card has multiple instances of flashback, you may choose any of its flashback costs to pay.
+  - *2025-06-06* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2025-06-06* — If a card with no mana cost gains flashback, it has no flashback cost. It can't be cast this way.
+  - *2025-06-06* — If a split card gains flashback, you pay only the cost of the half you're casting.
+  - *2025-06-06* — If you cast a spell with flashback, you can't pay any alternative costs such as overload costs. You can pay additional costs such as kicker costs. If the spell has any mandatory additional costs, you must pay those to cast the spell with flashback.
+  - *2025-06-06* — If you cast an instant or sorcery with {X} in its mana cost this way, you still choose the value of X as part of casting the spell and pay that cost.
+  - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2025-06-06* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2025-06-06* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/478/snapcaster-mage) · oracle_id `2bb2eda7-3b38-4c56-870f-c3218a1056f5` · printing: INR #478 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snapdax, Apex of the Hunt
 
@@ -308,7 +335,13 @@
   > *Once considered a delicacy, turtle soup is no longer served in Nephalia's inns.*
 - **Keywords:** Devoid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4727 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/204/snapping-voidcraw) · oracle_id `e495033b-f727-41e3-b7fc-7f5fa8abdd87` · printing: MH3 #204 (2024-06-14) · [rulings](https://api.scryfall.com/cards/9185371c-2dde-48ad-ab27-08be04b3c522/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-06-07* — A card with devoid is just colorless. It's not colorless and the colors of mana in its mana cost.
+  - *2024-06-07* — Devoid doesn't affect the color identity of the card for the purposes of the Commander variant. For example, while Abstruse Appropriation is colorless because it has devoid, its color identity is still white and black, and it can't be included in a Commander deck where the commander's color identity doesn't include both white and black.
+  - *2024-06-07* — Devoid works in all zones, not just on the battlefield.
+  - *2024-06-07* — If a card loses devoid, it will still be colorless. This is because effects that change an object's color (like the one created by devoid) are considered before the object loses devoid.
+  - *2024-06-07* — Other cards and abilities can give a card with devoid a color. If that happens, it's just the new color, not that color and colorless.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/204/snapping-voidcraw) · oracle_id `e495033b-f727-41e3-b7fc-7f5fa8abdd87` · printing: MH3 #204 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snapsail Glider
 
@@ -412,7 +445,9 @@
   > *—Alquist Proft, to Judith*
 - **Keywords:** Surveil, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5211 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/105/snarling-gorehound) · oracle_id `d2b1c5eb-06f0-4ec4-9446-791faac099a7` · printing: MKM #105 (2024-02-09) · [rulings](https://api.scryfall.com/cards/93ab3e11-8584-406f-b9ae-9e1df4396cbc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-02-02* — Snarling Gorehound's ability checks the power of a creature only at the moment it enters the battlefield. If it enters with counters, those counters are included. If that creature's power is 2 or less when it enters the battlefield but becomes greater than 2 after the ability triggers, you'll still surveil 1.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/105/snarling-gorehound) · oracle_id `d2b1c5eb-06f0-4ec4-9446-791faac099a7` · printing: MKM #105 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snarling Undorak
 
@@ -489,7 +524,9 @@
 - **Flavor text** (DMR printing):
   > *"Nothin' beat surprise—'cept rock."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1506 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/139/sneak-attack) · oracle_id `e7aee670-e6ac-4b3a-b3d1-7b7013db8f3d` · printing: DMR #139 (2023-01-13) · [rulings](https://api.scryfall.com/cards/a45b4ca9-4355-4690-84c3-a7d44c367dbf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-08-07* — You sacrifice the creature only if you still control it. If that creature has left the battlefield, even if it came back, you don't sacrifice it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/139/sneak-attack) · oracle_id `e7aee670-e6ac-4b3a-b3d1-7b7013db8f3d` · printing: DMR #139 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### S.N.E.A.K. Dispatcher
 
@@ -601,7 +638,15 @@
   > Flashback {5}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4774 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/58/snort) · oracle_id `ab94985c-5a3e-42c7-be10-29c5b638346b` · printing: FIC #58 (2025-06-13) · [rulings](https://api.scryfall.com/cards/46f1179d-6e48-46ed-ab41-abddace7b5d4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2025-06-06* — "Flashback [cost]" means "You may cast this card from your graveyard if the resulting spell is an instant or sorcery spell by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2025-06-06* — A player may choose to discard their hand even if their hand contains zero cards. Snort will still deal 5 damage to that player if they choose to discard their empty hand.
+  - *2025-06-06* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2025-06-06* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2025-06-06* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2025-06-06* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/58/snort) · oracle_id `ab94985c-5a3e-42c7-be10-29c5b638346b` · printing: FIC #58 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snorting Gahr
 
@@ -741,7 +786,13 @@
   > *"Young Vitima bellowed to the Cosmos, daring the gods to punish her hubris! Well, she got their attention, as you can see."*
   > *—Iskene, Kannah storyteller*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4260 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/915/snowfield-sinkhole) · oracle_id `749c2c8e-9588-4e83-b07f-3c37eb63338b` · printing: CLB #915 (2022-06-10) · [rulings](https://api.scryfall.com/cards/3c6e17f2-b1e4-4189-a02f-92fa4b13a1ed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-02-05* — Snow is a supertype, not a card type. It has no rules meaning or function by itself, but spells and abilities may refer to it.
+  - *2021-02-05* — Snow isn't a type of mana. If an effect says you may spend mana as though it were any type, you can't pay for {S} using mana that wasn't produced by a snow source.
+  - *2021-02-05* — Some cards have additional effects for each {S} spent to cast them. You can cast these spells even if you don't spend any snow mana to cast them; their additional effects simply won't do anything.
+  - *2021-02-05* — The Kaldheim set doesn't have any cards with mana costs that include {S}, but some previous sets do. If an effect says such a spell costs {1} less to cast, that reduction doesn't apply to any {S} costs. This is also true for activated abilities that include {S} in their activation costs and effects that reduce those costs.
+  - *2021-02-05* — The {S} symbol is a generic mana symbol. It represents a cost that can be paid by one mana that was produced by a snow source. That mana can be any color or colorless.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/915/snowfield-sinkhole) · oracle_id `749c2c8e-9588-4e83-b07f-3c37eb63338b` · printing: CLB #915 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snow Fortress
 

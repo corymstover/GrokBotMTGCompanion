@@ -97,7 +97,10 @@
   > *It brings belligerence to new heights.*
 - **Keywords:** Enrage, Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1497 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/232/apex-altisaur) · oracle_id `fc467fe5-85ab-4c95-8d21-49096778b107` · printing: LCC #232 (2023-11-17) · [rulings](https://api.scryfall.com/cards/1e6beba4-128c-418e-83ed-8a82afc0c39e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-08-23* — If Apex Altisaur fights a creature while either of its abilities is resolving, being dealt damage this way causes its second ability to trigger. It may fight several times in a row this way.
+  - *2019-08-23* — If the target creature is an illegal target when Apex Altisaur's last ability tries to resolve, the ability doesn't resolve. If it's a legal target but Apex Altisaur is no longer on the battlefield when the ability resolves (perhaps because it has already died from picking too many fights) the target creature won't deal or be dealt damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/232/apex-altisaur) · oracle_id `fc467fe5-85ab-4c95-8d21-49096778b107` · printing: LCC #232 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Apex Devastator
 
@@ -108,7 +111,19 @@
   > Cascade, cascade, cascade, cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order. Multiple instances of cascade each trigger separately.)
 - **Keywords:** Cascade
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1049 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/217/apex-devastator) · oracle_id `b4d6747c-3516-4e71-be30-af007c6b1dc4` · printing: CMR #217 (2020-11-20) · [rulings](https://api.scryfall.com/cards/8fa281e1-5c48-4bba-b8e9-88c6f5f53abb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2020-11-10* — Each instance of cascade triggers and resolves separately. The spell you cast due to the first cascade ability will go on the stack on top of the second, third, and fourth cascade abilities. That spell will resolve before you exile cards for the second cascade ability. The spell you cast for the second will resolve before you exile cards for the third, and so on.
+  - *2020-11-10* — Each of Apex Devastator's four cascade abilities will look for a nonland card with mana value less than 10 (Apex Devastator's mana value). This doesn't change even if one or more of the spells you cast because of those cascade abilities has cascade itself. Each of those additional cascade abilities, if any, will refer to the mana value of the spell that caused it to trigger. In other words, each cascade ability cares only about the spell that caused it to trigger, the stack can get messy, and we wish you luck.
+  - *2021-06-18* — A spell's mana value is determined only by its mana cost. Ignore any alternative costs, additional costs, cost increases, or cost reductions.
+  - *2021-06-18* — Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade.
+  - *2021-06-18* — Due to a 2021 rules change to cascade, not only do you stop exiling cards if you exile a nonland card with lesser mana value than the spell with cascade, but the resulting spell you cast must also have lesser mana value. Previously, in cases where a card's mana value differed from the resulting spell, such as with some modal double-faced cards or cards with an Adventure, you could cast a spell with a higher mana value than the exiled card.
+  - *2021-06-18* — If a spell with cascade is countered, the cascade ability will still resolve normally.
+  - *2021-06-18* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2021-06-18* — If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those to cast the card.
+  - *2021-06-18* — The mana value of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves.
+  - *2021-06-18* — When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled.
+  - *2021-06-18* — You exile the cards face up. All players will be able to see them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/217/apex-devastator) · oracle_id `b4d6747c-3516-4e71-be30-af007c6b1dc4` · printing: CMR #217 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Apex Hawks
 
@@ -134,7 +149,12 @@
   > *"As I desire, so it shall be."*
   > *—Nicol Bolas*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3949 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afc/114/apex-of-power) · oracle_id `d06eedb4-bd5a-4864-9505-a570a745d165` · printing: AFC #114 (2021-07-23) · [rulings](https://api.scryfall.com/cards/dc922e89-c816-476a-82c3-3c6b9fd196a9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2018-07-13* — Any cards not cast, including land cards, remain in exile.
+  - *2018-07-13* — Apex of Power doesn't change when you can cast the exiled cards. For example, if you exile a sorcery card, you can cast it only during your main phase when the stack is empty.
+  - *2018-07-13* — Casting an exiled card causes it to leave exile. You can't cast it multiple times.
+  - *2018-07-13* — If an effect copies Apex of Power, the copy wasn't cast at all, so you won't add ten mana.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afc/114/apex-of-power) · oracle_id `d06eedb4-bd5a-4864-9505-a570a745d165` · printing: AFC #114 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Apex Witchstalker
 
@@ -160,7 +180,9 @@
   > {4}{B}: Until end of turn, whenever one or more Gorgons and/or Snakes you control deal combat damage to a player, that player loses half their life, rounded up.
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9460 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/j25/40/aphelia-viper-whisperer) · oracle_id `191e003f-1a78-4d85-9c70-2ae132a5f9cc` · printing: J25 #40 (2024-11-15) · [rulings](https://api.scryfall.com/cards/1a0867be-a861-4fb4-b8ff-cb2966193755/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-11-08* — The triggered ability created by Aphelia's last ability triggers and resolves after combat damage is dealt. For example, if Gorgons and/or Snakes you control deal a total of 3 combat damage to a player with 12 life, combat damage will reduce that player's life total to 9. Then the triggered ability will cause the player to lose 5 life, leaving the player at 4.
+- **Source flags:** [Scryfall](https://scryfall.com/card/j25/40/aphelia-viper-whisperer) · oracle_id `191e003f-1a78-4d85-9c70-2ae132a5f9cc` · printing: J25 #40 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aphemia, the Cacophony
 
@@ -189,6 +211,7 @@
   > *He brews trouble.*
 - **Keywords:** Morph
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4913 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ons/64/aphetto-alchemist) · oracle_id `867aa0b7-b814-4d33-a677-f6368c8e93c0` · printing: ONS #64 (2002-10-07) · [rulings](https://api.scryfall.com/cards/dfd2628f-63c4-4e19-83ea-26041650faab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aphetto Dredging
@@ -260,7 +283,11 @@
 - **Flavor text** (SHM printing):
   > *Merrows skulk the silty bogs around the Wanderbrine, their very thoughts stained with evil.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8584 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/shm/55/aphotic-wisps) · oracle_id `db951ec2-d751-479d-af1f-885d3cf50027` · printing: SHM #55 (2008-05-02) · [rulings](https://api.scryfall.com/cards/52fd47e7-02c5-4f91-bb3b-697c4c53232a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2008-05-01* — An effect that changes a permanent’s colors overwrites all its old colors unless it specifically says “in addition to its other colors.” For example, after Cerulean Wisps resolves, the affected creature will just be blue. It doesn’t matter what colors it used to be (even if, for example, it used to be blue and black).
+  - *2008-05-01* — Changing a permanent’s color won’t change its text. If you turn Wilt-Leaf Liege blue, it will still affect green creatures and white creatures.
+  - *2008-05-01* — Colorless is not a color.
+- **Source flags:** [Scryfall](https://scryfall.com/card/shm/55/aphotic-wisps) · oracle_id `db951ec2-d751-479d-af1f-885d3cf50027` · printing: SHM #55 (2008-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Apocalypse
 
@@ -361,7 +388,15 @@
   > ({W/P} can be paid with either {W} or 2 life.)
   > Target artifact or creature you control gains protection from artifacts or from the color of your choice until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7560 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mm2/8/apostles-blessing) · oracle_id `ea393815-0202-4edc-aa1e-6885fe9b20ab` · printing: MM2 #8 (2015-05-22) · [rulings](https://api.scryfall.com/cards/fdfbc07e-d726-4d42-9394-6aa0f5fc3a3a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2011-06-01* — A card with Phyrexian mana symbols in its mana cost is each color that appears in that mana cost, regardless of how that cost may have been paid.
+  - *2011-06-01* — Any Equipment attached to a creature that gains protection from artifacts will become unattached.
+  - *2011-06-01* — As you cast a spell or activate an activated ability with one or more Phyrexian mana symbols in its cost, you choose how to pay for each Phyrexian mana symbol at the same time you would choose modes or choose a value for X.
+  - *2011-06-01* — If you're at 1 life or less, you can't pay 2 life.
+  - *2011-06-01* — Phyrexian mana is not a new color. Players can't produce Phyrexian mana.
+  - *2011-06-01* — To calculate the mana value of a card with Phyrexian mana symbols in its cost, count each Phyrexian mana symbol as 1.
+  - *2011-06-01* — You choose the target as part of casting the spell. You choose what attribute the target gains protection from when the spell resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mm2/8/apostles-blessing) · oracle_id `ea393815-0202-4edc-aa1e-6885fe9b20ab` · printing: MM2 #8 (2015-05-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Apothecary Geist
 
@@ -416,7 +451,12 @@
   > {W}, {T}, Tap X untapped Foods you control: Create X 1/1 white Human creature tokens.
 - **Keywords:** Vigilance, Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5721 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/1/apothecary-white) · oracle_id `7bf8bb41-6f46-492c-b6cf-5cfb29f973a4` · printing: CLU #1 (2024-02-23) · [rulings](https://api.scryfall.com/cards/4fedf84e-55ca-4334-a2c1-6e991112bb68/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-02-02* — If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, you can tap Krovod Haunch to pay for Apothecary White's activated ability.
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/1/apothecary-white) · oracle_id `7bf8bb41-6f46-492c-b6cf-5cfb29f973a4` · printing: CLU #1 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Appa, Aang's Companion
 
@@ -444,7 +484,13 @@
   > • Airbend another target nonland permanent you control. (Exile it. While it's exiled, its owner may cast it for {2} rather than its mana cost.)
 - **Keywords:** Flying, Airbend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6183 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/9/appa-loyal-sky-bison) · oracle_id `c6e28cf0-81c7-4f52-a29b-988cc6fd31ee` · printing: TLA #9 (2025-11-21) · [rulings](https://api.scryfall.com/cards/a9b2a843-c6fe-4d19-801e-1538e4381ab0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-10-02* — If the spell you cast has {X} in its mana cost, you must choose 0 as the value of X.
+  - *2025-10-02* — Lands exiled this way cannot be played from exile. (Lands that were animated by earthbend will be returned to the battlefield tapped when they're exiled.)
+  - *2025-10-02* — Since you are using an alternative cost to cast a spell from exile this way, you can't pay any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, you must pay those.
+  - *2025-10-02* — To airbend one or more permanents and/or spells means to exile each of those objects. For each card exiled this way, for as long as it's exiled, its owner may cast it from exile by paying {2} rather than paying its mana cost.
+  - *2025-10-02* — Tokens exiled this way will cease to exist and cannot be cast.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/9/appa-loyal-sky-bison) · oracle_id `c6e28cf0-81c7-4f52-a29b-988cc6fd31ee` · printing: TLA #9 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Appa, Steadfast Guardian
 
@@ -458,7 +504,13 @@
   > Whenever you cast a spell from exile, create a 1/1 white Ally creature token.
 - **Keywords:** Flying, Airbend, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3011 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/10/appa-steadfast-guardian) · oracle_id `03c141ca-11e4-4927-a6bd-980ee1203c73` · printing: TLA #10 (2025-11-21) · [rulings](https://api.scryfall.com/cards/829d91e9-4878-4e55-a262-ac0d55b65d4e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-10-02* — If the spell you cast has {X} in its mana cost, you must choose 0 as the value of X.
+  - *2025-10-02* — Lands exiled this way cannot be played from exile. (Lands that were animated by earthbend will be returned to the battlefield tapped when they're exiled.)
+  - *2025-10-02* — Since you are using an alternative cost to cast a spell from exile this way, you can't pay any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, you must pay those.
+  - *2025-10-02* — To airbend one or more permanents and/or spells means to exile each of those objects. For each card exiled this way, for as long as it's exiled, its owner may cast it from exile by paying {2} rather than paying its mana cost.
+  - *2025-10-02* — Tokens exiled this way will cease to exist and cannot be cast.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/10/appa-steadfast-guardian) · oracle_id `03c141ca-11e4-4927-a6bd-980ee1203c73` · printing: TLA #10 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Appa, the Vigilant
 
@@ -470,6 +522,7 @@
   > Whenever Appa or another Ally you control enters, creatures you control get +1/+1 and gain flying and vigilance until end of turn.
 - **Keywords:** Flying, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8558 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/62/appa-the-vigilant) · oracle_id `72994a7a-7c0d-4f28-8cc0-28161d098d7f` · printing: TLE #62 (2025-11-21) · [rulings](https://api.scryfall.com/cards/e5ead59f-4c09-4b56-913e-4ff5d6d48ac2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Appeal // Authority
@@ -597,7 +650,9 @@
 - **Flavor text** (UMA printing):
   > *A mage willing to dedicate his life to his craft.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4692 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/uma/84/apprentice-necromancer) · oracle_id `d1a6aa5f-2ad6-4bc7-82f0-4262f66af730` · printing: UMA #84 (2018-12-07) · [rulings](https://api.scryfall.com/cards/18d86ad3-e0a1-43da-9dc1-a9028b719c99/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-12-07* — Apprentice Necromancer can’t be the target of its own ability. This is because targets are chosen for activated abilities before costs (such as “Sacrifice Apprentice Necromancer”) are paid.
+- **Source flags:** [Scryfall](https://scryfall.com/card/uma/84/apprentice-necromancer) · oracle_id `d1a6aa5f-2ad6-4bc7-82f0-4262f66af730` · printing: UMA #84 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Apprentice Sharpshooter
 
@@ -633,6 +688,7 @@
 - **Flavor text** (2XM printing):
   > *Aspiring wizards must demonstrate basic levels of willpower and mental discipline to even be considered for an apprenticeship.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9870 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/40/apprentice-wizard) · oracle_id `d16d2451-1c21-4a6b-8a4a-40ac8cd9fe08` · printing: 2XM #40 (2020-08-07) · [rulings](https://api.scryfall.com/cards/e13026a8-7e3c-45b2-9838-080f14ae4b29/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Approach of the Second Sun
@@ -642,7 +698,14 @@
 - **Oracle text:**
   > If this spell was cast from your hand and you've cast another spell named Approach of the Second Sun this game, you win the game. Otherwise, put Approach of the Second Sun into its owner's library seventh from the top and you gain 7 life.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #968 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/akh/4/approach-of-the-second-sun) · oracle_id `e4125377-34c0-4b54-bdf8-4e88f5d24565` · printing: AKH #4 (2017-04-28) · [rulings](https://api.scryfall.com/cards/fdf59a6e-7708-45a1-884d-d12e9f7b9ed9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2017-04-18* — A card that changes zones is considered a new object, so casting the same Approach of the Second Sun card on a later turn is “another spell” named Approach of the Second Sun.
+  - *2017-04-18* — A copy of a spell isn't cast, so it won't count as the first nor as the second Approach of the Second Sun.
+  - *2017-04-18* — As your second Approach of the Second Sun resolves, it checks only whether the first one was cast, not whether the first one resolved. If your first Approach of the Second Sun was countered, you'll still win the game as your second one resolves.
+  - *2017-04-18* — If you have fewer than six cards in your library, you'll put Approach of the Second Sun on the bottom of your library. Otherwise, you'll lift up the top six cards without looking at them and place Approach of the Second Sun just under them.
+  - *2017-04-18* — The second Approach of the Second Sun that you cast must be cast from your hand, but first may have been cast from anywhere.
+  - *2017-07-14* — Approach of the Second Sun has no effect until it's resolving. If the second one you cast is countered, you won't win the game.
+- **Source flags:** [Scryfall](https://scryfall.com/card/akh/4/approach-of-the-second-sun) · oracle_id `e4125377-34c0-4b54-bdf8-4e88f5d24565` · printing: AKH #4 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### April O'Neil, Hacktivist
 

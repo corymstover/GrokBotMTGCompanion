@@ -181,7 +181,17 @@
   > *"This is my battle, one I must fight alone to atone for my wrongs."*
 - **Keywords:** Lifelink, Protect, Transform, Darkness, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9219 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/91/cecil-dark-knight-cecil-redeemed-paladin) · oracle_id `e4719557-d94e-490f-8a56-c1867a01d2ef` · printing: FIN #91 (2025-06-13) · [rulings](https://api.scryfall.com/cards/026e7167-d665-43d0-a51e-8df2d68cdb5e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2025-06-06* — A nonmodal double-faced card enters with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed or allows you to cast it transformed, in which case it enters with its back face up.
+  - *2025-06-06* — A token that is created as a copy of a double-faced permanent or a double-faced card in another zone is a double-faced token. It will have both the front face and back face of whatever object it's copying. If it's copying a double-faced permanent whose back face is up, the token will enter with its back face up. It can transform if instructed to do so.
+  - *2025-06-06* — Each face of a nonmodal double-faced card has its own set of characteristics: name, types, subtypes, abilities, and so on. While a nonmodal double-faced permanent is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored.
+  - *2025-06-06* — Each nonmodal double-faced card in this release is cast face up. In every zone other than the battlefield, consider only the characteristics of its front face. If it is on the battlefield, consider only the characteristics of the face that's up; the other face's characteristics are ignored.
+  - *2025-06-06* — If Cecil, Dark Knight is dealt lethal damage at the same time it deals damage (probably because it blocked or became blocked), its last ability will still trigger. You'll still lose life, but you won't untap or transform Cecil, Dark Knight because it won't be on the battlefield anymore.
+  - *2025-06-06* — If you are instructed to put a card that isn't a double-faced card onto the battlefield transformed, it will not enter at all. In that case, it stays in the zone it was previously in. For example, if a single-faced card is a copy of Crystal Fragments, it will be exiled during the resolution of its second ability and remain in exile.
+  - *2025-06-06* — In the Commander variant, a double-faced card's color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered. For example, Cecil, Dark Knight's color identity is black and white, since its front face is black and its back face has a white color indicator.
+  - *2025-06-06* — The back face of a nonmodal double-faced card usually has a color indicator that defines its color.
+  - *2025-06-06* — The mana value of a nonmodal double-faced card is the mana value of its front face, no matter which face is up.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/91/cecil-dark-knight-cecil-redeemed-paladin) · oracle_id `e4719557-d94e-490f-8a56-c1867a01d2ef` · printing: FIN #91 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cecily, Haunted Mage
 
@@ -208,7 +218,10 @@
   > *His eyes were keen as lances in starlight, and yet profound, the wells of deep memory.*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9185 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/hoc/203/celeborn-the-wise) · oracle_id `64fa0416-16b7-4128-ac6c-f30373074a1e` · printing: HOC #203 (2026-08-14) · [rulings](https://api.scryfall.com/cards/c88e946a-03dc-4730-8f74-e41dfaf28177/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-06-16* — Celeborn the Wise's first ability has you scry 1 just once whenever you attack with one or more Elves, no matter how many Elves you attack with and no matter how many players you attack.
+  - *2023-06-16* — Celeborn the Wise's last ability cares about the number of cards you actually looked at. For example, if you were supposed to scry 3 but only had two cards in your library, Celeborn would get +2/+2.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hoc/203/celeborn-the-wise) · oracle_id `64fa0416-16b7-4128-ac6c-f30373074a1e` · printing: HOC #203 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Celebr-8000
 
@@ -224,7 +237,15 @@
   > • 6 — indestructible
 - **Keywords:** Flying, Lifelink, Indestructible, Vigilance, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7355 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/185/celebr-8000) · oracle_id `058f74f6-eeed-4ee8-8574-f95fea8d8f14` · printing: UNF #185 (2022-10-07) · [rulings](https://api.scryfall.com/cards/1aa7b481-9332-4140-9a46-11e4e384d8f1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2022-10-07* — Each die is identified by the number of faces it has. A six-sided die is a die with six equally likely outcomes: 1, 2, 3, 4, 5, and 6. The roll must be fair. Although physical dice are recommended, digital substitutes are allowed except in cases where the physical die is required for the effect.
+  - *2022-10-07* — If a die is rerolled, the original roll essentially never happened: it doesn't cause any abilities to trigger, and no effect that cares about die rolls will consider it.
+  - *2022-10-07* — If an ability triggers "whenever you roll a die," it will trigger whenever you roll any die, including the planar die. This is a change from previous Un- rules. Some abilities use the result to determine part of the effect. If you get a non-numerical result (currently just the planar die, but the future is long), that part of the effect won't do anything.
+  - *2022-10-07* — If you roll a result higher than 6 because of modifications to the results, Celebr-8000 won't gain any ability from that roll. If you roll doubles of such a number, it will still gain double strike until end of turn.
+  - *2022-10-07* — Results can be numbers not ordinarily possible on a six-sided die. Spells like Scooch can change the result to 0 or 7, for example.
+  - *2022-10-07* — Some effects may modify the result of a die roll. This may be part of the instruction to roll a die, or it may come from other cards. Anything that references the "result" of a die roll is looking for the result after these modifications.
+  - *2022-10-07* — Something in the game must tell you to roll a die. If you roll a die for any other reason (to simulate a coin flip, to choose pizza toppings, to create alternate timelines), that roll doesn't count.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/185/celebr-8000) · oracle_id `058f74f6-eeed-4ee8-8574-f95fea8d8f14` · printing: UNF #185 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Celebrate the Harvest
 
@@ -270,7 +291,9 @@
   > When Celes enters, discard any number of cards, then draw that many cards plus one.
   > Whenever one or more other creatures you control enter, if one or more of them entered from a graveyard or was cast from a graveyard, put a +1/+1 counter on each creature you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4876 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/1/celes-rune-knight) · oracle_id `aea8345a-191d-4c62-8d15-a716a9934b66` · printing: FIC #1 (2025-06-13) · [rulings](https://api.scryfall.com/cards/30584c53-533b-4dc7-b07c-8600164a99b3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-06-06* — You choose how many cards to discard as Celes's first ability resolves. You may choose to discard no cards and just draw a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/1/celes-rune-knight) · oracle_id `aea8345a-191d-4c62-8d15-a716a9934b66` · printing: FIC #1 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Celestial Ancient
 
@@ -311,7 +334,10 @@
   > Equip {3}{W} ({3}{W}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Equip, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3251 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/5/celestial-armor) · oracle_id `4f1b68d7-7d16-4bb1-af5f-f1708b23ca73` · printing: FDN #5 (2024-11-15) · [rulings](https://api.scryfall.com/cards/809ee8ad-1573-49e5-9e84-b7cdd29efcae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-11-08* — Attaching Celestial Armor to a creature that has already been blocked won't cause it to become unblocked, even if one or more of the blocking creatures don't have flying or reach.
+  - *2024-11-08* — If a creature gains hexproof in response to a spell or ability controlled by an opponent that only targets that creature, then when that spell or ability tries to resolve, all of its targets will be illegal. As a result, that spell or ability won't resolve and none of its effects will happen.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/5/celestial-armor) · oracle_id `4f1b68d7-7d16-4bb1-af5f-f1708b23ca73` · printing: FDN #5 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Celestial Colonnade
 
@@ -322,7 +348,12 @@
   > {T}: Add {W} or {U}.
   > {3}{W}{U}: Until end of turn, this land becomes a 4/4 white and blue Elemental creature with flying and vigilance. It's still a land.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5571 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/uma/238/celestial-colonnade) · oracle_id `876ac6f6-74de-4666-84c6-83d81f054723` · printing: UMA #238 (2018-12-07) · [rulings](https://api.scryfall.com/cards/4c830a99-595b-4aed-9f6b-85a78917f498/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2010-03-01* — A land that becomes a creature may be affected by "summoning sickness." You can't attack with it or use any of its {T} abilities (including its mana abilities) unless it began your most recent turn on the battlefield under your control. Note that summoning sickness cares about when that permanent came under your control, not when it became a creature.
+  - *2010-03-01* — When a land becomes a creature, that doesn't count as having a creature enter. The permanent was already on the battlefield; it only changed its types. Abilities that trigger whenever a creature enters won't trigger.
+  - *2018-12-07* — If Celestial Colonnade can't attack unless you pay a cost that includes a mana payment, you may attack with it and tap it to pay for that cost. It will still attack in this case.
+  - *2018-12-07* — Once Celestial Colonnade has attacked, tapping it for mana won't remove it from combat.
+- **Source flags:** [Scryfall](https://scryfall.com/card/uma/238/celestial-colonnade) · oracle_id `876ac6f6-74de-4666-84c6-83d81f054723` · printing: UMA #238 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Celestial Convergence
 
@@ -446,7 +477,13 @@
   > *Upon such armor, even a mountain would break.*
 - **Keywords:** Enchant, Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6445 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/96/celestial-mantle) · oracle_id `7417bc73-a75a-4c3a-88d2-17b43e225c2c` · printing: JMP #96 (2020-07-17) · [rulings](https://api.scryfall.com/cards/136dfcf5-130a-4d75-9785-a090215a29b1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2009-10-01* — At the time the ability triggers, determine which creature Celestial Mantle is enchanting. As the ability resolves, determine who currently controls that creature (or, if it’s no longer on the battlefield, determine who controlled it when it left). That’s the player whose life total is doubled. It doesn’t matter who controls Celestial Mantle, who controlled the creature at the time the ability triggered, or what creature Celestial Mantle enchants at the time the ability resolves.
+  - *2009-10-01* — If a creature dealing combat damage at the same time as the enchanted creature has lifelink, the life gained due to lifelink happens before Celestial Mantle’s triggered ability resolves.
+  - *2009-10-01* — If a player’s life total is doubled, that player actually gains or loses the necessary amount of life. For example, if the life total of the enchanted creature’s controller is 14 when Celestial Mantle’s triggered ability resolves, the ability causes that player to gain 14 life. Other cards that interact with life gain or life loss will interact with this effect accordingly.
+  - *2009-10-01* — If the enchanted creature’s controller has a life total below 0 (which is possible if that player controls Platinum Angel, for example), Celestial Mantle’s triggered ability multiplies that number by two. For example, if the player had -4 life, that player’s life total becomes -8.
+  - *2010-06-15* — In a Two-Headed Giant game, Celestial Mantle’s essentially doubles the team’s life total. Specifically, the triggered ability will affect one player’s life total, and then the team’s life total is adjusted by the amount of life the player gains as a result of this ability. Suppose a creature enchanted by Celestial Mantle deals combat damage to an opponent, and that creature’s controller’s team has 11 life. That player then has 11 life, so it’s doubled to 22, for a net gain of 11 life. The team’s life total becomes 22 (11 + 11).
+- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/96/celestial-mantle) · oracle_id `7417bc73-a75a-4c3a-88d2-17b43e225c2c` · printing: JMP #96 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Celestial Messenger
 
@@ -506,7 +543,14 @@
   > Search your library for a creature card with mana value X or less, reveal it, put it into your hand, then shuffle. If this spell's additional cost was paid and the revealed card is the chosen type, put that card onto the battlefield instead of putting it into your hand.
 - **Keywords:** Behold
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8986 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/170/celestial-reunion) · oracle_id `ba0a815c-1dfe-47c1-890f-496c670124f3` · printing: ECL #170 (2026-01-23) · [rulings](https://api.scryfall.com/cards/583b2863-aca1-4dab-9196-ea453b5d9454/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-11-17* — If a card in a library has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
+  - *2025-11-17* — If a card in your hand is already revealed (perhaps because it was revealed to pay a cost of a spell that's still on the stack or due to the effect of a card like Telepathy), you may reveal it again to pay the cost of another spell or ability that requires you to reveal a card from your hand.
+  - *2025-11-17* — If a cost to cast a spell includes revealing a card, that card remains revealed from the time the spell is announced until the time it leaves the stack.
+  - *2025-11-17* — If an effect refers to a "[subtype] card," it refers only to a card that has that subtype. For example, Glen Elendra's Answer creates a Faerie token and features a Faerie in its art, but it isn't a Faerie card.
+  - *2025-11-17* — Notably, Celestial Reunion's behold instruction is limited to "creatures." It doesn't allow you to behold kindred cards or kindred permanents, which are permitted for most other behold instructions.
+  - *2025-11-17* — To behold two creatures of a specified creature type, you can reveal two creature cards of that type from your hand, choose two creatures you control of that type on the battlefield, or reveal one card and choose one creature on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/170/celestial-reunion) · oracle_id `ba0a815c-1dfe-47c1-890f-496c670124f3` · printing: ECL #170 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Celestial Sword
 
@@ -530,7 +574,13 @@
 - **Flavor text** (AFR printing):
   > *When all hope fails, its light remains.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9255 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/5/celestial-unicorn) · oracle_id `be030639-cbc9-416b-b0ca-1a76439791d8` · printing: AFR #5 (2021-07-23) · [rulings](https://api.scryfall.com/cards/f2d68812-8862-4e34-a992-7d6bbadaf316/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-07-23* — Each creature with lifelink dealing combat damage causes a separate life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, Ajani's Pridemate's ability will trigger twice. However, if a single creature you control with lifelink deals combat damage to multiple creatures, players, planeswalkers, and/or battles at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once.
+  - *2021-07-23* — If Celestial Unicorn is dealt lethal damage at the same time that you gain life, it won't receive a counter from its ability in time to save it.
+  - *2021-07-23* — If you gain an amount of life "for each" of something or "equal to the number" of something, that life is gained as one event and Celestial Unicorn's ability triggers only once.
+  - *2021-07-23* — In a Two-Headed Giant game, life gained by your teammate won't cause Celestial Unicorn's ability to trigger, even though it caused your team's life total to increase.
+  - *2021-07-23* — The ability of Celestial Unicorn triggers just once for each life-gaining event, whether it's 1 life from Dazzling Angel or 4 life from Apothecary Stomper.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/5/celestial-unicorn) · oracle_id `be030639-cbc9-416b-b0ca-1a76439791d8` · printing: AFR #5 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Celestine Cave Witch
 
@@ -553,7 +603,10 @@
   > Healing Tears — At the beginning of your end step, return target creature card with mana value X or less from your graveyard to the battlefield, where X is the amount of life you gained this turn.
 - **Keywords:** Flying, Lifelink, Healing Tears
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2868 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/40k/10/celestine-the-living-saint) · oracle_id `6503ed78-6499-47f6-856b-ee1003ce4a4f` · printing: 40K #10 (2022-10-07) · [rulings](https://api.scryfall.com/cards/a099cbd2-e92a-433a-bc51-0aa2f8fc6857/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-10-07* — Celestine's triggered ability looks at the total amount of life you gained to determine X, regardless of whether or not you also lost any life. For example, if you gained 3 life this turn, X is 3, even if you also lost some amount of life in the same turn.
+  - *2022-10-07* — The target creature card is chosen as the triggered ability is put on the stack. Gaining life after that point won't let you choose a target with a higher mana value.
+- **Source flags:** [Scryfall](https://scryfall.com/card/40k/10/celestine-the-living-saint) · oracle_id `6503ed78-6499-47f6-856b-ee1003ce4a4f` · printing: 40K #10 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Celestus Sanctifier
 
@@ -629,7 +682,9 @@
   > Whenever a player plays a land or casts a spell, if it shares a card type with the exiled card, this creature deals 2 damage to that player.
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7709 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/vow/148/cemetery-gatekeeper) · oracle_id `fa450433-85b0-4f95-bd4e-f141ba036bee` · printing: VOW #148 (2021-11-19) · [rulings](https://api.scryfall.com/cards/457086c4-1b4e-4f79-8f2a-10b16174c8bb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-11-19* — Card types that can be exiled from a graveyard include artifact, creature, enchantment, land, planeswalker, instant, and sorcery. Legendary, basic, and snow are supertypes, not card types. Human, Equipment, and Aura are subtypes, not card types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vow/148/cemetery-gatekeeper) · oracle_id `fa450433-85b0-4f95-bd4e-f141ba036bee` · printing: VOW #148 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cemetery Illuminator
 
@@ -669,7 +724,10 @@
   > Spells you cast cost {1} less to cast for each card type they share with cards exiled with this creature.
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5667 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/vow/191/cemetery-prowler) · oracle_id `fa53cc50-f06f-44b0-850f-cfa6e0caa4c5` · printing: VOW #191 (2021-11-19) · [rulings](https://api.scryfall.com/cards/b124ccc4-76e3-41a4-92b2-8f1d06ea9cb8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-11-19* — Card types that can be exiled from a graveyard include artifact, creature, enchantment, land, planeswalker, instant, and sorcery. Legendary, basic, and snow are supertypes, not card types. Human, Equipment, and Aura are subtypes, not card types.
+  - *2021-11-19* — Cemetery Prowler's last ability checks the number of card types among cards exiled with it, not the number of cards exiled. For example, if Cemetery Prowler has exiled two creature cards, creature spells you cast cost {1} less, not {2} less.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vow/191/cemetery-prowler) · oracle_id `fa53cc50-f06f-44b0-850f-cfa6e0caa4c5` · printing: VOW #191 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cemetery Puca
 
@@ -695,7 +753,11 @@
 - **Flavor text** (MIC printing):
   > *Every grave cradles a recruit.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2145 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mic/108/cemetery-reaper) · oracle_id `70fa209f-5e79-44de-81ce-1d8d0d8c1006` · printing: MIC #108 (2021-09-24) · [rulings](https://api.scryfall.com/cards/9008e94a-cfec-473f-ae75-57586e45098d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2009-10-01* — A "creature card" is any card with the type creature, even if it has other types such as artifact, enchantment, or land. Older cards of type summon are also creature cards.
+  - *2009-10-01* — Cemetery Reaper grants +1/+1 to all other Zombie creatures you control, not just the ones its ability puts onto the battlefield.
+  - *2009-10-01* — The creature card in a graveyard is exiled as part of the activated ability's effect, not as a cost. If that card has left the graveyard by the time the ability would resolve, the ability doesn't resolve and you don't get a Zombie token.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mic/108/cemetery-reaper) · oracle_id `70fa209f-5e79-44de-81ce-1d8d0d8c1006` · printing: MIC #108 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cemetery Recruitment
 
@@ -717,7 +779,12 @@
   > At the beginning of your upkeep, you may mill three cards. Then if there are twenty or more cards in your graveyard, you may play the exiled card without paying its mana cost.
 - **Keywords:** Mill, Hideaway
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2856 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/135/cemetery-tampering) · oracle_id `9babcd0a-531f-417d-905e-b916a87112bb` · printing: DSC #135 (2024-09-27) · [rulings](https://api.scryfall.com/cards/b6d4cf14-c43e-454b-ae76-3678617067f8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-04-29* —  Any player who has controlled a permanent with a hideaway ability since a card was exiled with it may look at that card.
+  - *2022-04-29* — "Hideaway N" means "When this permanent enters the battlefield, look at the top N cards of your library. Exile one of them face down and put the rest on the bottom of your library in a random order. The exiled card gains 'The player who controls the permanent that exiled this card may look at this card in the exile zone.'"
+  - *2022-04-29* — Hideaway now causes you to put the rest of the cards on the bottom of your library in a random order instead of any order.
+  - *2022-04-29* — Previously, permanents with hideaway entered the battlefield tapped. This ability has been removed from the definition of hideaway. Older cards have received errata to have an additional paragraph that reads "[This permanent] enters the battlefield tapped," and they now have hideaway 4.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/135/cemetery-tampering) · oracle_id `9babcd0a-531f-417d-905e-b916a87112bb` · printing: DSC #135 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cenn's Enlistment
 
@@ -1015,7 +1082,10 @@
   > (You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it.)
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8345 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/44/central-elevator-promising-stairs) · oracle_id `927fa223-69a3-4563-80b1-b578f3d031f1` · printing: DSK #44 (2024-09-27) · [rulings](https://api.scryfall.com/cards/e548befc-4cd4-46be-951f-045452261cda/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-09-20* — Promising Stairs's ability counts names, not permanents. A Room with two unlocked doors has two names.
+  - *2024-09-20* — Two or more objects (cards, permanents, spells, etc.) have the same name if they have at least one name in common, even if one or more of those objects have additional names. Central Elevator's ability lets you search your library for any Room card that doesn't share a name with a Room you control on the battlefield, checking only the names of unlocked doors. If a Room on the battlefield has no unlocked doors, it doesn't have either of its names.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/44/central-elevator-promising-stairs) · oracle_id `927fa223-69a3-4563-80b1-b578f3d031f1` · printing: DSK #44 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Centrifuge
 
@@ -1063,6 +1133,7 @@
   > Threshold — {U}, {T}, Sacrifice this land: Target player draws three cards, then discards three cards. Activate only if there are seven or more cards in your graveyard.
 - **Keywords:** Threshold
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #854 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/349/cephalid-coliseum) · oracle_id `c733873e-77db-471f-8061-139db24f7e7c` · printing: TDC #349 (2025-04-11) · [rulings](https://api.scryfall.com/cards/03b9c9ed-fb6f-4f8d-bb1d-7999dec4245c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cephalid Constable
@@ -1088,6 +1159,7 @@
 - **Flavor text** (NCC printing):
   > *Few think to look past a familiar face and a friendly smile.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6945 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/23/cephalid-facetaker) · oracle_id `cfb41a2b-4d8b-47e3-a074-95a1bd502227` · printing: NCC #23 (2022-04-29) · [rulings](https://api.scryfall.com/cards/a77d91f7-f7c9-47e4-b5c5-46c921335e42/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cephalid Illusionist
@@ -1394,7 +1466,11 @@
   > *"If you see ghostly lights by the river, eat three twigs of marshroot to ward off kelpies."*
   > *—Kithkin superstition*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4543 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/shm/31/cerulean-wisps) · oracle_id `a6605c50-558e-417c-8c75-6c45b06d6e13` · printing: SHM #31 (2008-05-02) · [rulings](https://api.scryfall.com/cards/0dca4f46-0aad-484f-b4ea-ed61a4fc1a89/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2008-05-01* — An effect that changes a permanent’s colors overwrites all its old colors unless it specifically says “in addition to its other colors.” For example, after Cerulean Wisps resolves, the affected creature will just be blue. It doesn’t matter what colors it used to be (even if, for example, it used to be blue and black).
+  - *2008-05-01* — Changing a permanent’s color won’t change its text. If you turn Wilt-Leaf Liege blue, it will still affect green creatures and white creatures.
+  - *2008-05-01* — Colorless is not a color.
+- **Source flags:** [Scryfall](https://scryfall.com/card/shm/31/cerulean-wisps) · oracle_id `a6605c50-558e-417c-8c75-6c45b06d6e13` · printing: SHM #31 (2008-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cerulean Wyvern
 

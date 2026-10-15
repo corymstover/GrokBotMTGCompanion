@@ -19,7 +19,10 @@
   > If a player would draw a card, that player exiles that card face up instead.
   > Each player may play lands and cast spells from among cards they exiled with this artifact this turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9336 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/chk/272/uba-mask) · oracle_id `766c644c-04fe-4b01-93dd-09a50d78d01f` · printing: CHK #272 (2004-10-01) · [rulings](https://api.scryfall.com/cards/fa3ecb4e-d08f-4fac-8842-c3e772b95bd5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-12-01* — Any cards you don’t play just remain exiled when the turn ends.
+  - *2004-12-01* — You can’t play cards you exiled with Uba Mask on previous turns.
+- **Source flags:** [Scryfall](https://scryfall.com/card/chk/272/uba-mask) · oracle_id `766c644c-04fe-4b01-93dd-09a50d78d01f` · printing: CHK #272 (2004-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ubul Sar Gatekeepers
 

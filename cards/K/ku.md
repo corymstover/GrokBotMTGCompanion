@@ -54,7 +54,11 @@
 - **Flavor text** (MH3 printing):
   > *Born from the greatest granite boulder, nursed on the sweetest honey, crowned amid a raging blizzard.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6647 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/192/kudo-king-among-bears) · oracle_id `070d22cf-2eed-4d04-b932-4b8339ea9b7a` · printing: MH3 #192 (2024-06-14) · [rulings](https://api.scryfall.com/cards/585e4e02-4873-4a65-a9ad-30cf0d5b6f79/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-06-07* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to creatures may become lethal if Kudo enters or leaves the battlefield during that turn.
+  - *2024-06-07* — If an effect causes a noncreature permanent to become a creature and sets its power and toughness as it does so, that creature will have that power and toughness; it won't be 2/2. Notably, crewing a Vehicle does not set its power and toughness, so a Vehicle will be a 2/2 creature once crewed.
+  - *2024-06-07* — Kudo, King Among Bears's ability overwrites any effects that set a creature's power and toughness. Any existing effects or counters that raise, lower, or switch a creature's power and/or toughness continue to apply to the creature's newly set power and toughness. Any power- or toughness-setting effects that start to apply after Kudo enters the battlefield will overwrite this effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/192/kudo-king-among-bears) · oracle_id `070d22cf-2eed-4d04-b932-4b8339ea9b7a` · printing: MH3 #192 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kudzu
 
@@ -82,7 +86,20 @@
   > *"Yes, this is it! This is the power I've always wanted!"*
 - **Keywords:** Transform, Flare Star, Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3035 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/232/kuja-genome-sorcerer-trance-kuja-fate-defied) · oracle_id `3998a60d-9521-4100-8d41-3e612972a3de` · printing: FIN #232 (2025-06-13) · [rulings](https://api.scryfall.com/cards/008782d2-72b0-4554-b1ce-2db99969a4d8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2025-06-06* — A nonmodal double-faced card enters with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed or allows you to cast it transformed, in which case it enters with its back face up.
+  - *2025-06-06* — A token that is created as a copy of a double-faced permanent or a double-faced card in another zone is a double-faced token. It will have both the front face and back face of whatever object it's copying. If it's copying a double-faced permanent whose back face is up, the token will enter with its back face up. It can transform if instructed to do so.
+  - *2025-06-06* — Each face of a nonmodal double-faced card has its own set of characteristics: name, types, subtypes, abilities, and so on. While a nonmodal double-faced permanent is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored.
+  - *2025-06-06* — Each nonmodal double-faced card in this release is cast face up. In every zone other than the battlefield, consider only the characteristics of its front face. If it is on the battlefield, consider only the characteristics of the face that's up; the other face's characteristics are ignored.
+  - *2025-06-06* — If another effect (or effects) modifies how much damage a Wizard you control would deal—by preventing some of it, for example—the player being dealt damage or the controller of the permanent being dealt damage chooses the order in which any such effects (including Trance Kuja's) apply. If all of the damage is prevented, Trance Kuja's effect no longer applies.
+  - *2025-06-06* — If damage dealt by a Wizard you control is being divided or assigned among multiple permanents and/or players, that damage is divided or assigned before doubling. For example, if you attack with a 4/6 Wizard with trample and it's blocked by a 1/1 creature, you can assign 1 damage to the blocker and 3 damage to the defending player. Those amounts are then doubled to 2 and 6, respectively.
+  - *2025-06-06* — If you are instructed to put a card that isn't a double-faced card onto the battlefield transformed, it will not enter at all. In that case, it stays in the zone it was previously in. For example, if a single-faced card is a copy of Crystal Fragments, it will be exiled during the resolution of its second ability and remain in exile.
+  - *2025-06-06* — In the Commander variant, a double-faced card's color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered. For example, Cecil, Dark Knight's color identity is black and white, since its front face is black and its back face has a white color indicator.
+  - *2025-06-06* — The Wizard token's ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+  - *2025-06-06* — The back face of a nonmodal double-faced card usually has a color indicator that defines its color.
+  - *2025-06-06* — The damage is dealt by the same source as the original source of damage. The doubled damage isn't dealt by Trance Kuja unless it was the original source of damage.
+  - *2025-06-06* — The mana value of a nonmodal double-faced card is the mana value of its front face, no matter which face is up.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/232/kuja-genome-sorcerer-trance-kuja-fate-defied) · oracle_id `3998a60d-9521-4100-8d41-3e612972a3de` · printing: FIN #232 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kujar Seedsculptor
 
@@ -155,7 +172,9 @@
 - **Flavor text** (2XM printing):
   > *The goblins say it used to be larger, before it began to stoke the Great Furnace with pieces of itself.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2672 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/266/kuldotha-forgemaster) · oracle_id `b0f99367-4313-4bb1-a9fd-7711bc4ce40e` · printing: 2XM #266 (2020-08-07) · [rulings](https://api.scryfall.com/cards/c768267f-5ad2-4f4d-bbc7-6639325401c7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-08-07* — Kuldotha Forgemaster can be one of the three artifacts you sacrifice to activate the ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/266/kuldotha-forgemaster) · oracle_id `b0f99367-4313-4bb1-a9fd-7711bc4ce40e` · printing: 2XM #266 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kuldotha Phoenix
 
@@ -208,7 +227,9 @@
   > *Mounted cinders circle the blasted peak at Kulrath, hunting the Extinguisher.*
 - **Keywords:** Flying, Wither
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5465 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/126/kulrath-knight) · oracle_id `f3d1b2e9-6ede-416d-937b-2063ea278d2f` · printing: ECC #126 (2026-01-23) · [rulings](https://api.scryfall.com/cards/c28c15bd-6fb3-4250-81c4-d42f3efdb6f6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-05-01* — This checks your opponents' creatures for any kind of counters, not just -1/-1 counters.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/126/kulrath-knight) · oracle_id `f3d1b2e9-6ede-416d-937b-2063ea278d2f` · printing: ECC #126 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kulrath Mystic
 
@@ -323,7 +344,10 @@
   > Tap three untapped Merfolk you control: Draw a card.
   > Tap five untapped Merfolk you control: Put a +1/+1 counter on each Merfolk you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5320 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/274/kumena-tyrant-of-orazca) · oracle_id `e7125493-febc-4e8e-abdc-5fc4f94a281c` · printing: LCC #274 (2023-11-17) · [rulings](https://api.scryfall.com/cards/aebcbb35-2973-41bf-811a-e2413ef45c3e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-01-19* — Activating Kumena's first ability after it has become blocked won't cause it to become unblocked.
+  - *2018-01-19* — To activate Kumena's abilities, you may tap any untapped Merfolk you control, including one you haven't controlled continuously since the beginning of your most recent turn. (Note that tapping the creature doesn't use {T} [the tap symbol].) For Kumena's second and third abilities, this includes Kumena itself.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/274/kumena-tyrant-of-orazca) · oracle_id `e7125493-febc-4e8e-abdc-5fc4f94a281c` · printing: LCC #274 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### K'un-Lun Warrior
 
@@ -351,7 +375,11 @@
   > *Three sharp barks announce an attempt to escape the Underworld. Three sharp bites end it.*
 - **Keywords:** Lifelink, Vigilance, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9329 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/222/kunoros-hound-of-athreos) · oracle_id `d297ce39-da98-4351-be9d-24f4d09bee7f` · printing: THB #222 (2020-01-24) · [rulings](https://api.scryfall.com/cards/dbc0d2c3-8060-4155-b10e-d641648a4e6b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-01-24* — If an effect exiles a card from a graveyard and allows a player to cast it, that player may do so. The spell is cast from exile, not a graveyard.
+  - *2020-01-24* — Look at the card as it exists in your graveyard to determine whether it can enter the battlefield. For example, Sculpting Steel (a noncreature card in the graveyard) can be put onto the battlefield as a copy of a creature, but Phyrexian Metamorph (a creature card in the graveyard) can’t be put onto the battlefield, even if it would copy a noncreature artifact. A Theros Beyond Death God creature card can’t be put onto the battlefield regardless of your devotion to its colors.
+  - *2020-01-24* — Players can still play lands from graveyards if an effect allows them to do so.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/222/kunoros-hound-of-athreos) · oracle_id `d297ce39-da98-4351-be9d-24f4d09bee7f` · printing: THB #222 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kuon, Ogre Ascendant // Kuon's Essence
 
@@ -376,6 +404,7 @@
   > • Create an X/X green Spirit creature token, where X is the number of lands you control.
 - **Keywords:** Deathtouch, Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4523 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/200/kura-the-boundless-sky) · oracle_id `6426e73a-7e11-48ab-ac5c-15647c6cf9ba` · printing: NEO #200 (2022-02-18) · [rulings](https://api.scryfall.com/cards/06b25752-26be-4189-bc8b-828db6f0e612/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kurbis, Harvest Celebrant
@@ -494,4 +523,5 @@
   > • Exile target player's graveyard.
 - **Keywords:** Flash, Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9508 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/20/kutzils-flanker) · oracle_id `ba557e19-a409-4c02-a9ac-a8fb77762e43` · printing: LCI #20 (2023-11-17) · [rulings](https://api.scryfall.com/cards/d1201811-54ab-4c4e-b6e1-19b0d07e5ede/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

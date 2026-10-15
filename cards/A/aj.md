@@ -49,7 +49,9 @@
   > −2: Return target creature card with mana value 2 or less from your graveyard to the battlefield.
   > −7: You get an emblem with "At the beginning of your end step, create three 1/1 white Cat creature tokens with lifelink."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8045 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m19/3/ajani-adversary-of-tyrants) · oracle_id `b25bea73-7444-4ee2-8022-611461506117` · printing: M19 #3 (2018-07-13) · [rulings](https://api.scryfall.com/cards/4c565076-5db2-47ea-8ee0-4a4fd7bb353d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-07-13* — If a card in your graveyard has {X} in its mana cost, X is considered to be 0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m19/3/ajani-adversary-of-tyrants) · oracle_id `b25bea73-7444-4ee2-8022-611461506117` · printing: M19 #3 (2018-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ajani, Caller of the Pride
 
@@ -61,7 +63,10 @@
   > −3: Target creature gains flying and double strike until end of turn.
   > −8: Create X 2/2 white Cat creature tokens, where X is your life total.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4345 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/134/ajani-caller-of-the-pride) · oracle_id `1d5ff280-7f4d-4801-aefd-9b6e6b1f2818` · printing: FDN #134 (2024-11-15) · [rulings](https://api.scryfall.com/cards/59793f1c-8c7e-433e-9c09-40aa3ce931a1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2012-07-01* — The number of Cat tokens you put onto the battlefield is equal to your life total when the third ability resolves.
+  - *2012-07-01* — You can activate the first ability without a target. You'll still put one loyalty counter on Ajani when you activate the ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/134/ajani-caller-of-the-pride) · oracle_id `1d5ff280-7f4d-4801-aefd-9b6e6b1f2818` · printing: FDN #134 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ajani Fells the Godsire
 
@@ -109,7 +114,10 @@
   > +1: Look at the top four cards of your library. You may reveal an Aura, creature, or planeswalker card from among them and put it into your hand. Put the rest on the bottom of your library in any order.
   > −8: You gain 100 life.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8170 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jou/145/ajani-mentor-of-heroes) · oracle_id `a612bd38-069f-4bdc-9aa6-c172435e3841` · printing: JOU #145 (2014-05-02) · [rulings](https://api.scryfall.com/cards/4a30bcfa-6f95-450f-aea7-885983d7c6a5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-04-26* — If one or more, but not all, of the targets of the first ability are illegal when that ability tries to resolve, no counters will be placed on illegal targets. You can't change the distribution you announced when you activated the ability; the excess counters are just lost.
+  - *2014-04-26* — You announce how many counters will be placed on each target creature as you activate Ajani's first ability. Each target must receive at least one counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jou/145/ajani-mentor-of-heroes) · oracle_id `a612bd38-069f-4bdc-9aa6-c172435e3841` · printing: JOU #145 (2014-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ajani, Nacatl Pariah // Ajani, Nacatl Avenger
 
@@ -127,7 +135,23 @@
   > −4: Each opponent chooses an artifact, a creature, an enchantment, and a planeswalker from among the nonland permanents they control, then sacrifices the rest.
 - **Keywords:** Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4505 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/237/ajani-nacatl-pariah-ajani-nacatl-avenger) · oracle_id `2588f348-d7a3-46c8-9ace-dca53ed5ef99` · printing: MH3 #237 (2024-06-14) · [rulings](https://api.scryfall.com/cards/0d16e8e0-31b2-4389-afd6-783c501f6fa0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2024-06-07* — A permanent with more than one type may be chosen as any of its types. For example, an artifact creature may be chosen as the artifact, the creature, or both. Choosing the same permanent twice this way has the same result as choosing it once.
+  - *2024-06-07* — A transforming double-faced card enters the battlefield with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed or allows you to cast it transformed, in which case it enters with its back face up.
+  - *2024-06-07* — Each face of a transforming double-faced card has its own set of characteristics: name, types, subtypes, abilities, and so on. While a transforming double-faced permanent is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored.
+  - *2024-06-07* — Each transforming double-faced card in this set is cast with its front face up. In every zone other than the battlefield, consider only the characteristics of its front face. If it is on the battlefield, consider only the characteristics of the face that's up; the other face's characteristics are ignored.
+  - *2024-06-07* — If an opponent doesn't control any permanents of one of the types, they'll still choose the permanents of the types they do control.
+  - *2024-06-07* — If you are instructed to put a card that isn't a double-faced card onto the battlefield transformed, it will not enter the battlefield at all. In that case, it stays in the zone it was previously in. For example, if a single-faced card is a copy of Ral, Monsoon Mage, choosing to exile that permanent during the resolution of its triggered ability will cause it to remain in exile.
+  - *2024-06-07* — In a case where you create more than one Cat Warrior creature token with Ajani, Nacatl Avenger's second ability (for example, because of the effect of Doubling Season), the reflexive ability will trigger once for each Cat Warrior you made this way. If a replacement effect causes you to create different tokens instead (for example, the effect of Divine Visitation), the creation of those tokens won't cause the reflexive ability to trigger.
+  - *2024-06-07* — In some rare cases, a spell or ability may cause Ajani, Nacatl Pariah to transform while it's a creature (front face up) on the battlefield. If this happens, Ajani, Nacatl Avenger won't have any loyalty counters on him and will subsequently be put into his owner's graveyard.
+  - *2024-06-07* — In the Commander variant, a double-faced card's color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered. For example, Ral, Monsoon Mage's color identity is blue and red, since its front face is red and its back face has a blue and red color indicator.
+  - *2024-06-07* — Lands can't be chosen and won't be sacrificed, even if they have any of the types referenced by Ajani, Nacatl Avenger's last ability.
+  - *2024-06-07* — The back face of a transforming double-faced card usually has a color indicator that defines its color. Colorless back faces, such as lands, do not.
+  - *2024-06-07* — The mana value of a transforming double-faced card is the mana value of its front face, no matter which face is up.
+  - *2024-06-07* — When Ajani, Nacatl Avenger's last ability resolves, starting with the next opponent in turn order, each opponent in turn order chooses permanents they control. Each opponent will know the choices made by players who chose before them. They then sacrifice all of their unchosen nonland permanents simultaneously.
+  - *2024-06-07* — You can activate one of Ajani, Nacatl Avenger's loyalty abilities the turn he enters the battlefield. However, you may do so only during one of your main phases when the stack is empty. For example, if Ajani, Nacatl Avenger enters the battlefield during combat, there will be an opportunity for your opponent to remove him before you can activate one of his abilities.
+  - *2024-06-07* — You don't choose a target for Ajani, Nacatl Avenger's second ability when you activate it. Rather, if you control a red permanent other than Ajani, Nacatl Avenger, a second "reflexive" ability triggers when you create a Cat Warrior creature token this way. You choose a target for that ability as it goes on the stack. Each player may respond to this triggered ability as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/237/ajani-nacatl-pariah-ajani-nacatl-avenger) · oracle_id `2588f348-d7a3-46c8-9ace-dca53ed5ef99` · printing: MH3 #237 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ajani, Outland Chaperone
 
@@ -186,7 +210,12 @@
 - **Flavor text** (SOC printing):
   > *"United, our roar will level mountains."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4089 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/132/ajanis-chosen) · oracle_id `9c77eb0a-543a-41db-ba1f-aa0163837ae0` · printing: SOC #132 (2026-04-24) · [rulings](https://api.scryfall.com/cards/bc20cca0-303f-4463-85ae-26b80ff26211/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2013-07-01* — If you cast an Aura targeting an opponent or a permanent controlled by an opponent, you control that Aura when it enters the battlefield. The ability of Ajani's Chosen will trigger.
+  - *2013-07-01* — The ability doesn't trigger until the enchantment enters the battlefield. This means that, for example, you can't cast an Aura with enchant creature if there are no legal targets available, hoping to enchant the Cat token. Ajani's Chosen itself, however, may be a legal target for the Aura.
+  - *2013-07-01* — You may attach the Aura to the Cat token only if the Aura and the token are both on the battlefield when the triggered ability resolves. If the Aura leaves the battlefield before the ability resolves, it won't become attached to the token. If the token leaves the battlefield before the ability resolves, the Aura won't become attached to that token.
+  - *2013-07-01* — You may attach the Aura to the token only if it can legally enchant that token. For example, if the enchantment that entered the battlefield is an Aura with "enchant land," it won't become attached to that token.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/132/ajanis-chosen) · oracle_id `9c77eb0a-543a-41db-ba1f-aa0163837ae0` · printing: SOC #132 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ajani's Comrade
 
@@ -234,7 +263,12 @@
   > −6: You get an emblem with "Whenever you cast a creature or planeswalker spell, target opponent gets two poison counters."
 - **Keywords:** Compleated
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6678 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/192/ajani-sleeper-agent) · oracle_id `37714eb9-a39d-4534-a2d3-27908c418f8a` · printing: DMU #192 (2022-09-09) · [rulings](https://api.scryfall.com/cards/7641f4d9-4614-41c8-87f5-4845bd78e9b3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-09-09* — A hybrid Phyrexian mana symbol is counted the same way as a normal mana symbol when determining the mana value of a card. Specifically, Ajani’s mana value is always 4, even if you pay {1}{G}{W} and 2 life to cast him.
+  - *2022-09-09* — Compleated is a replacement effect, and it applies only to a permanent that is entering the battlefield with loyalty counters. Any other replacement effect that would apply to the number of loyalty counters it enters the battlefield with will apply as normal.
+  - *2022-09-09* — Phyrexian is not a color nor a type of mana, and players cannot add Phyrexian mana. It’s just a symbol that gives you another way to pay for a spell or ability.
+  - *2022-09-09* — The compleated ability looks only at whether a player chose to pay 2 life for a Phyrexian mana symbol as they were casting the spell. If a player paid life for some other reason while casting the spell, that will not reduce the number of loyalty counters the planeswalker enters the battlefield with.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/192/ajani-sleeper-agent) · oracle_id `37714eb9-a39d-4534-a2d3-27908c418f8a` · printing: DMU #192 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ajani's Mantra
 
@@ -269,7 +303,13 @@
 - **Flavor text** (FDN printing):
   > *Once rejected by his pride, Ajani is now revered by countless leonin as a healer and, more importantly, a friend.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2540 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/135/ajanis-pridemate) · oracle_id `95e94dea-5ac0-4d6f-adec-ca147aee861f` · printing: FDN #135 (2024-11-15) · [rulings](https://api.scryfall.com/cards/222c1a68-e34c-4103-b1be-17d4ceaef6ce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-11-08* — Each creature with lifelink dealing combat damage causes a separate life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, Ajani's Pridemate's ability will trigger twice. However, if a single creature you control with lifelink deals combat damage to multiple creatures, players, planeswalkers, and/or battles at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once.
+  - *2024-11-08* — If Ajani's Pridemate is dealt lethal damage at the same time that you gain life, it won't receive a counter from its ability in time to save it.
+  - *2024-11-08* — If you gain an amount of life "for each" of something or "equal to the number" of something, that life is gained as one event and Ajani's Pridemate's ability triggers only once.
+  - *2024-11-08* — In a Two-Headed Giant game, life gained by your teammate won't cause Ajani's Pridemate's ability to trigger, even though it caused your team's life total to increase.
+  - *2024-11-08* — The ability of Ajani's Pridemate triggers just once for each life-gaining event, whether it's 1 life from Dazzling Angel or 4 life from Apothecary Stomper.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/135/ajanis-pridemate) · oracle_id `95e94dea-5ac0-4d6f-adec-ca147aee861f` · printing: FDN #135 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ajani's Response
 
@@ -306,7 +346,13 @@
   > −2: Put a +1/+1 counter on each creature you control and a loyalty counter on each other planeswalker you control.
   > −7: You get an emblem with "If a source would deal damage to you or a planeswalker you control, prevent all but 1 of that damage."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4994 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/813/ajani-steadfast) · oracle_id `90249526-1875-450a-882d-bf6f6bfd37a6` · printing: CMM #813 (2023-08-04) · [rulings](https://api.scryfall.com/cards/51825d35-cdb2-40fa-ab89-1625161b04af/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2014-07-18* — Each attacking creature is a separate source of damage. For example, if two 3/3 creatures attack you and are unblocked, the emblem will prevent 2 damage from each creature. You’ll be dealt a total of 2 damage.
+  - *2014-07-18* — If a permanent you control is both a creature and a planeswalker, Ajani’s second ability will put both a +1/+1 counter and a loyalty counter on it.
+  - *2014-07-18* — If multiple effects modify how damage is dealt, the player being dealt damage or the controller of the permanent being dealt damage chooses the order to apply the effects. For example, Dictate of the Twin Gods says, “If a source would deal damage to a permanent or player, it deals double that damage to that permanent or player instead.” Suppose you would be dealt 3 damage while Dictate of the Twin Gods is on the battlefield and you control Ajani’s emblem. You can either (a) prevent all but 1 damage first and then let Dictate of the Twin Gods’s effect double that, for a result of being dealt 2 damage, or (b) double the damage to 6 and then prevent all but 1 of that damage.
+  - *2014-07-18* — The emblem’s ability doesn’t consider who controls the source dealing damage to you or a planeswalker you control.
+  - *2014-07-18* — You may activate the first ability with no targets. If you do, you simply put a loyalty counter on Ajani to pay the cost of the ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/813/ajani-steadfast) · oracle_id `90249526-1875-450a-882d-bf6f6bfd37a6` · printing: CMM #813 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ajani, Strength of the Pride
 
@@ -318,7 +364,16 @@
   > −2: Create a 2/2 white Cat Soldier creature token named Ajani's Pridemate with "Whenever you gain life, put a +1/+1 counter on this token."
   > 0: If you have at least 15 life more than your starting life total, exile Ajani and each artifact and creature your opponents control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3072 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m20/2/ajani-strength-of-the-pride) · oracle_id `c3974ec7-7af0-4b65-baf6-4c1c4fe8a5c4` · printing: M20 #2 (2019-07-12) · [rulings](https://api.scryfall.com/cards/79883468-a37c-4894-8d05-6a4d150b7d59/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2019-07-12* — Each creature with lifelink dealing combat damage causes a separate life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, Ajani's Pridemate's ability will trigger twice. However, if a single creature you control with lifelink deals combat damage to multiple creatures, players, and/or planeswalkers at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once.
+  - *2019-07-12* — If Ajani's Pridemate is dealt lethal damage at the same time that you gain life, it won't receive a counter from its ability in time to save it.
+  - *2019-07-12* — If a planeswalker you control is also a creature (most likely because it's Gideon), it will be counted twice as Ajani's first ability resolves.
+  - *2019-07-12* — In a Two-Headed Giant game, Ajani's last ability exiles permanents as long as your team's life total is greater than your team's starting life total by 15 or more life. 
+  - *2019-07-12* — In a Two-Headed Giant game, life gained by your teammate won't cause Ajani's Pridemate's ability to trigger, even though it will cause your team's life total to increase.
+  - *2019-07-12* — The ability of Ajani's Pridemate triggers just once for each life-gaining event, whether it's 1 life from Impassioned Orator or 4 life from Dawning Angel. If you gain an amount of life "for each" of something or "equal to the number" of something, that life is gained as one event and the ability of Ajani's Pridemate triggers only once.
+  - *2019-07-12* — The tokens created by Ajani's second ability are similar to the card Ajani's Pridemate, but they have no mana cost and their mana value is 0.
+  - *2019-07-12* — Whether you have at least 15 life more than your starting life total is determined as Ajani's last ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m20/2/ajani-strength-of-the-pride) · oracle_id `c3974ec7-7af0-4b65-baf6-4c1c4fe8a5c4` · printing: M20 #2 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ajani's Welcome
 
@@ -329,6 +384,7 @@
 - **Flavor text** (M19 printing):
   > *"You cannot defend others if your own well-being is neglected."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2495 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m19/6/ajanis-welcome) · oracle_id `4a782bf9-4051-4613-8852-33b0d85a0edd` · printing: M19 #6 (2018-07-13) · [rulings](https://api.scryfall.com/cards/c9045fcb-b633-4c35-8058-6234311551ae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ajani, the Greathearted
@@ -341,7 +397,10 @@
   > +1: You gain 3 life.
   > −2: Put a +1/+1 counter on each creature you control and a loyalty counter on each other planeswalker you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4088 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/war/184/ajani-the-greathearted) · oracle_id `f5d9be71-91d0-4166-ba58-cbbf5d490c40` · printing: WAR #184 (2019-05-03) · [rulings](https://api.scryfall.com/cards/6cc78151-8cb0-4521-9674-fb0c67e24a17/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-05-03* — If Ajani is somehow a creature as his last ability resolves, he’ll get a +1/+1 counter.
+  - *2019-05-03* — If a planeswalker you control is also a creature (most likely because it’s Gideon), that planeswalker receives both a +1/+1 counter and a loyalty counter as Ajani’s last ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/war/184/ajani-the-greathearted) · oracle_id `f5d9be71-91d0-4166-ba58-cbbf5d490c40` · printing: WAR #184 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ajani Unrelenting
 

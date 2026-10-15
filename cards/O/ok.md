@@ -42,7 +42,11 @@
   > *At his behest the Kami War began to regain That Which Was Taken.*
 - **Keywords:** Flying, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8488 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/164/o-kagachi-vengeful-kami) · oracle_id `300715a0-4f95-4212-9e13-558434c9d1a4` · printing: DMC #164 (2022-09-09) · [rulings](https://api.scryfall.com/cards/07a42ae6-c2ca-4028-a364-70c19ce125b3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2017-08-25* — A player attacked you if that player declared a creature as an attacking creature and that creature is attacking you. If that player attacked only planeswalkers you control, that player didn't attack you. If that player's creatures were attacking you only because they were put onto the battlefield attacking or only because you were reselected as the player they were attacking, that player didn't attack you.
+  - *2017-08-25* — If O-Kagachi deals lethal damage to a blocking creature and also deals damage to its controller, that blocking creature is destroyed before a target is selected for O-Kagachi's last ability. It can't be exiled.
+  - *2017-08-25* — O-Kagachi's last ability exiles only one nonland permanent, no matter how many creatures attacked you or how many times that player attacked you during their last turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/164/o-kagachi-vengeful-kami) · oracle_id `300715a0-4f95-4212-9e13-558434c9d1a4` · printing: DMC #164 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Okaun, Eye of Chaos
 
@@ -55,7 +59,21 @@
   > Whenever a player wins a coin flip, double Okaun's power and toughness until end of turn.
 - **Keywords:** Partner with, Partner, Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7068 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner, Partner with
-- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/6/okaun-eye-of-chaos) · oracle_id `7dec219b-96d1-4d4c-b3ac-15eda9d2ccc6` · printing: BBD #6 (2018-06-08) · [rulings](https://api.scryfall.com/cards/d53ee8c0-b27c-4556-b610-ff64edb7a18f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2018-06-08* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2018-06-08* — Both commanders start in the command zone, and the remaining 98 cards of your deck are shuffled to become your library.
+  - *2018-06-08* — If a creature’s power is less than 0 when it’s doubled, instead that creature gets -X/-0, where X is how much less than 0 its power is. The same is true for its toughness. For example, if an effect has given Okaun -7/-0 so that its power and toughness are -4/3, doubling its power and toughness gives it -4/+3 and it’s -8/6 until end of turn.
+  - *2018-06-08* — If an effect has a player flip a coin but refers to whether the flip came up heads or tails, that flip has no winner or loser.
+  - *2018-06-08* — If an effect instructs you to “double” a creature’s power, that creature gets +X/+0, where X is its power. The same is true for its toughness.
+  - *2018-06-08* — If your Commander deck has two commanders, you can only include cards whose own color identities are also found in your commanders’ combined color identities. If Khorvath and Sylvia are your commanders, your deck may contain cards with red and/or white in their color identity, but not blue, black, or green.
+  - *2018-06-08* — Note that the target player searches their library (which may be affected by effects such as that of Stranglehold) and that the card they find is revealed, even though these words aren’t included in the ability’s reminder text.
+  - *2018-06-08* — Once the game begins, your two commanders are tracked separately. If you cast one, you won’t have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from one of them, not from both of them combined. Command Beacon’s effect puts one into your hand from the command zone, not both.
+  - *2018-06-08* — The second ability represented by the “partner with [name]” keyword modifies the rules for deck construction in the Commander variant and has no function outside of that variant. If a legendary creature card with “partner with [name]” is designated as your commander, the named legendary creature card can also be designated as your commander. For more information on the Commander variant, please visit Wizards.com/Commander.
+  - *2018-06-08* — The triggered ability of the “partner with” keyword still triggers in a Commander game. If your other commander has somehow ended up in your library, you can find it. You can also target another player who might have that card in their library.
+  - *2018-06-08* — To have two commanders, both must have the partner ability (featured in the Magic: The Gathering—Commander™ (2016 Edition) set) or corresponding “partner with” abilities as the game begins. A creature with a “partner with” ability can’t partner with any creature other than its designated partner. Losing a partner ability during the game doesn’t cause either to cease to be your commander.
+  - *2018-06-08* — “Partner with [name]” represents two abilities. The first is a triggered ability: “When this permanent enters the battlefield, target player may search their library for a card named [name], reveal it, put it into their hand, then shuffle their library.”
+  - *2018-07-13* — If an effect has a player flip a coin and refers to winning or losing a flip, only the player who flipped the coin wins or loses the flip. If that player loses the flip, nobody wins the flip.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/6/okaun-eye-of-chaos) · oracle_id `7dec219b-96d1-4d4c-b3ac-15eda9d2ccc6` · printing: BBD #6 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oketra's Attendant
 
@@ -105,7 +123,12 @@
   > *"The worthy shall respect the worthy. In the afterlife, all will stand united."*
   > *—Monument inscription*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1050 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/188/oketras-monument) · oracle_id `0370afa0-07d3-4787-8a5b-10272cb3a486` · printing: DMC #188 (2022-09-09) · [rulings](https://api.scryfall.com/cards/a7f1d5a6-bdf2-4b12-b11e-70f58b59dd80/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2017-04-18* — A creature spell that's multiple colors is each of those colors. For example, Ahn-Crop Champion is a white creature and a green creature, so it can benefit from either Oketra's Monument or Rhonas's Monument—or both at once.
+  - *2017-04-18* — Each Monument has one ability that reduces the cost of creature spells of a certain color, and a triggered ability that triggers whenever you cast any creature spell—not just a creature spell of that color.
+  - *2017-04-18* — Each Monument's triggered ability triggers as the creature spell is cast and resolves before that creature spell resolves. The ability will resolve even if that creature spell is countered.
+  - *2017-04-18* — To determine the total cost of a creature spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the creature remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/188/oketras-monument) · oracle_id `0370afa0-07d3-4787-8a5b-10272cb3a486` · printing: DMC #188 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oketra the True
 
@@ -118,7 +141,10 @@
   > {3}{W}: Create a 1/1 white Warrior creature token with vigilance.
 - **Keywords:** Indestructible, Double strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8073 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/akh/21/oketra-the-true) · oracle_id `646e68c8-cc42-4d6c-8363-a18b10a10eae` · printing: AKH #21 (2017-04-28) · [rulings](https://api.scryfall.com/cards/f2cc79cf-d4db-4236-b3e2-fd12662b2a74/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-04-18* — Once Oketra has attacked or blocked, it will remain in combat even if the number of other creatures you control becomes two or fewer.
+  - *2017-04-18* — You don't have to attack with three other creatures for Oketra to be able to attack. The same is true of blocking.
+- **Source flags:** [Scryfall](https://scryfall.com/card/akh/21/oketra-the-true) · oracle_id `646e68c8-cc42-4d6c-8363-a18b10a10eae` · printing: AKH #21 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Okiba-Gang Shinobi
 
@@ -182,6 +208,7 @@
 - **Flavor text** (CHK printing):
   > *If a land can be said to have a heart, Okina is the heart of Kamigawa.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6250 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/280/okina-temple-to-the-grandfathers) · oracle_id `3ad69bfb-2e51-4fe9-8d2f-7d071a4f1c69` · printing: CHK #280 (2004-10-01) · [rulings](https://api.scryfall.com/cards/ee8cf7aa-388c-47ec-be59-6ba98f3853cb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Okk
@@ -274,7 +301,21 @@
   > −5: Exchange control of target artifact or creature you control and target creature an opponent controls with power 3 or less.
 - **Keywords:** Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2090 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eld/197/oko-thief-of-crowns) · oracle_id `60c60923-ff1b-43f7-8768-731499fcffc9` · printing: ELD #197 (2019-10-04) · [rulings](https://api.scryfall.com/cards/3462a3d0-5552-49fa-9eb7-100960c55891/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2019-10-04* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to a creature may become lethal if Oko's second ability changes its toughness during that turn.
+  - *2019-10-04* — Effects that modify a creature's power and/or toughness, such as the effect of Festive Funeral, will apply to the creature no matter when they started to take effect. The same is true for any counters that change its power and/or toughness.
+  - *2019-10-04* — Gaining control of a permanent doesn't cause you to gain control of any Auras or Equipment attached to it. Gaining control of an Equipment doesn't cause it to become unattached, although its new controller may activate its equip abilities during their main phase.
+  - *2019-10-04* — If either of the target permanents is an illegal target when Oko's last ability resolves, the exchange won't happen.
+  - *2019-10-04* — If the affected creature gains an ability after Oko's second ability resolves, it will keep that ability.
+  - *2019-10-04* — Oko's second ability may target a permanent that is only temporarily an artifact or a creature, such as Oko, the Trickster. If this happens, the effect causes that permanent to remain a green Elk creature even after the temporary effect expires.
+  - *2019-10-04* — Oko's second ability overwrites all colors and creature types the affected creature has. It's just a green Elk. The creature keeps any supertypes (such as legendary) it has, but loses any other card types it has (such as artifact).
+  - *2019-10-04* — Oko's second ability overwrites all previous effects that set the creature's base power and toughness to specific values. Any power- or toughness-setting effects that start to apply after Oko's second ability resolves will overwrite this effect.
+  - *2019-10-04* — The effects of Oko's second ability lasts indefinitely. It doesn't expire during the cleanup step or if you or Oko leave the game.
+  - *2019-10-04* — The effects of Oko's third ability lasts indefinitely. It doesn't expire during the cleanup step or if the creature you take has its power raised above 3 later.
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eld/197/oko-thief-of-crowns) · oracle_id `60c60923-ff1b-43f7-8768-731499fcffc9` · printing: ELD #197 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Okoye, Dora Milaje Leader
 

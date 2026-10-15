@@ -117,7 +117,10 @@
   > {T}, Pay 1 life: Add {W}.
   > {2}{W}{W}, {T}, Sacrifice a Desert: Creatures you control get +1/+1 until end of turn. Activate only as a sorcery.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5389 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/318/shefet-dunes) · oracle_id `8305715e-f711-47d6-8efe-d0efe4ced418` · printing: OTC #318 (2024-04-19) · [rulings](https://api.scryfall.com/cards/c9b0a526-73b0-4501-80a3-f16dbef9cdfd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-04-18* — Desert is a land subtype with no special meaning. It doesn't grant the land an intrinsic mana ability. Other cards may care about which lands are Deserts.
+  - *2017-07-14* — If a Desert has an ability with a cost of "Sacrifice a Desert," you can sacrifice that Desert to pay the cost for its own ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/318/shefet-dunes) · oracle_id `8305715e-f711-47d6-8efe-d0efe4ced418` · printing: OTC #318 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shefet Monitor
 
@@ -198,6 +201,7 @@
   > *"Truly, I know nothing of the ways of fighting, but I do know some white magic."*
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5435 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/94/shelinda-yevon-acolyte) · oracle_id `b06c9a4b-f309-45b3-ae5b-0ce3f067a5cb` · printing: FIC #94 (2025-06-13) · [rulings](https://api.scryfall.com/cards/6f2cec5d-50ea-4d0f-8925-eba06222d015/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shelkin Brownie
@@ -290,7 +294,18 @@
   > Whenever another creature dealt damage this turn by a Spider you controlled dies, create a token that's a copy of that creature, except it's a Food artifact with "{2}, {T}, Sacrifice this token: You gain 3 life," and it loses all other card types.
 - **Keywords:** Food, Ward, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5071 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/230/shelob-child-of-ungoliant) · oracle_id `8372115d-c963-4a41-8759-72f7f6a8935a` · printing: LTR #230 (2023-06-23) · [rulings](https://api.scryfall.com/cards/a14c4b29-3363-45ce-9190-0f79e1a0ef7f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2023-06-16* — Any enters-the-battlefield abilities of the copied creature will trigger when the token enters the battlefield. Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the chosen creature will also work.
+  - *2023-06-16* — Except for being a Food artifact, having the listed activated ability, and losing all other card types and subtypes, the token copies only what was printed on the original creature (unless that creature is copying something else; see below). It doesn't copy whether that creature was tapped or untapped, whether it had any counters on it or Auras or Equipment attached to it, or any non-copy effects that had changed its power, toughness, types, color, or so on.
+  - *2023-06-16* — If the copied creature has {X} in its mana cost, X is considered to be 0.
+  - *2023-06-16* — If the copied creature is a token, the new token that's created copies the original characteristics of that token as stated by the effect that created that token, with the exceptions noted above.
+  - *2023-06-16* — If the copied creature is copying something else, then the token enters the battlefield as whatever that creature copied, with the exceptions noted above.
+  - *2023-06-16* — Since the token is a Food artifact and not a creature, it can't attack or block unless it becomes a creature somehow.
+  - *2023-06-16* — The token copies the creature as it last existed on the battlefield before it died, not as it exists in the graveyard.
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/230/shelob-child-of-ungoliant) · oracle_id `8372115d-c963-4a41-8759-72f7f6a8935a` · printing: LTR #230 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shelob, Dread Weaver
 
@@ -302,7 +317,10 @@
   > {2}{B}, Put a creature card exiled with Shelob into its owner's graveyard: Put two +1/+1 counters on Shelob. Draw a card.
   > {X}{1}{B}: Put target creature card with mana value X exiled with Shelob onto the battlefield tapped under your control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5853 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/29/shelob-dread-weaver) · oracle_id `7eade76f-92e4-4d26-9eb8-d3d954845c04` · printing: LTC #29 (2023-06-23) · [rulings](https://api.scryfall.com/cards/83944c19-6f9b-4043-9eeb-1a4ca452f698/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-06-16* — Cards exiled with Shelob, Dread Weaver that would go to the graveyard but have that replaced by an effect such as Leyline of the Void are considered new objects. They are no longer considered to have been exiled with Shelob, Dread Weaver for the purposes of its activated abilities.
+  - *2023-06-16* — If Shelob, Dread Weaver and a nontoken creature an opponent controls die at the same time, the opponent's creature will be exiled.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/29/shelob-dread-weaver) · oracle_id `7eade76f-92e4-4d26-9eb8-d3d954845c04` · printing: LTC #29 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shelob's Ambush
 
@@ -314,7 +332,12 @@
   > *As Frodo ran forward, eager, rejoicing to be free, Shelob with hideous speed came behind and stung him in the neck.*
 - **Keywords:** Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9379 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/108/shelobs-ambush) · oracle_id `c2816923-9daf-4277-adf7-20427d14ba4a` · printing: LTR #108 (2023-06-23) · [rulings](https://api.scryfall.com/cards/25e69fa8-7339-4bfa-8e35-9cbfe0001d8b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Some spells and abilities that create Food tokens may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Food tokens.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/108/shelobs-ambush) · oracle_id `c2816923-9daf-4277-adf7-20427d14ba4a` · printing: LTR #108 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shelter
 
@@ -326,7 +349,12 @@
 - **Flavor text** (CMM printing):
   > *From the storm of hellfire, the angel emerged, smiling.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3316 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/56/shelter) · oracle_id `c1909d70-d8f4-4c54-8587-0a910f123238` · printing: CMM #56 (2023-08-04) · [rulings](https://api.scryfall.com/cards/1f4fedc9-6dd1-4190-a0c9-e9d10fd91315/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2019-06-14* — A permanent gaining protection may cause a spell or ability on the stack to have an illegal target. As a spell or ability tries to resolve, if all its targets are illegal, that spell or ability doesn’t resolve. None of its effects happen, including effects unrelated to the target. If at least one target is still legal, the spell or ability does as much as it can to the remaining legal targets, and its other effects still happen.
+  - *2019-06-14* — Protection from a color means that the target creature can’t be blocked by creatures of that color, can’t be the target of spells of that color or abilities from sources of that color, can’t be enchanted or equipped by Auras or Equipment of that color, and all damage that sources of that color would deal to it is prevented. Nothing other than these events is prevented or illegal.
+  - *2019-06-14* — The legality of a spell’s targets is checked only as that spell begins to resolve. If Shelter gives the targeted creature protection from white, you’ll still draw a card.
+  - *2019-06-14* — You can’t choose “artifact” or “colorless” as Shelter asks you to choose a color, since those are not colors.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/56/shelter) · oracle_id `c1909d70-d8f4-4c54-8587-0a910f123238` · printing: CMM #56 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sheltered Aerie
 
@@ -351,7 +379,11 @@
   > Enchanted creature gets +1/+0 and has lifelink and ward {2}.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1262 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/171/sheltered-by-ghosts) · oracle_id `d13fc657-c6fc-4394-bc70-691050550226` · printing: SOC #171 (2026-04-24) · [rulings](https://api.scryfall.com/cards/8e8a5cfe-1b3f-4414-b9a4-078bdb4072a7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-09-20* — Auras attached to the exiled permanent will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist. When the card returns to the battlefield, it will be a new object with no connection to the card that was exiled.
+  - *2024-09-20* — If Sheltered by Ghosts leaves the battlefield before its triggered ability resolves, the target permanent won't be exiled at all.
+  - *2024-09-20* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/171/sheltered-by-ghosts) · oracle_id `d13fc657-c6fc-4394-bc70-691050550226` · printing: SOC #171 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sheltered Thicket
 
@@ -414,6 +446,7 @@
   > Cycling {R}{G}{W} ({R}{G}{W}, Discard this card: Draw a card.)
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2342 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/227/sheltering-landscape) · oracle_id `5b932be0-4dac-41b9-9c59-f79e4cecc31a` · printing: MH3 #227 (2024-06-14) · [rulings](https://api.scryfall.com/cards/0fe070f4-8877-4280-b8fd-869f3ac34ab6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sheltering Light
@@ -459,7 +492,14 @@
   > *Pricy baubles are no match for cheap tricks.*
 - **Keywords:** Dredge, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9535 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/146/shenanigans) · oracle_id `1d9b94af-3bfa-4257-8347-675468f0b0e5` · printing: MH1 #146 (2019-06-14) · [rulings](https://api.scryfall.com/cards/580c6fe2-ab43-491e-a1b2-d076a5c2a74e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-01-12* — Dredge can replace any card draw, not only the one during your draw step.
+  - *2024-01-12* — If an effect puts a card into your hand without specifically using the word "draw," you're not drawing a card. Dredge can't replace this event.
+  - *2024-01-12* — If you're drawing multiple cards, each draw is performed one at a time. For example, if you're instructed to draw two cards and you replace the first draw with a dredge ability, another card with a dredge ability (including one that was milled by the first dredge ability) may be used to replace the second draw.
+  - *2024-01-12* — Once you've announced that you're applying a card's dredge ability to replace a draw, players can't take any actions until you've put that card into your hand and milled cards.
+  - *2024-01-12* — One card draw can't be replaced by multiple dredge abilities.
+  - *2024-01-12* — You can't attempt to use a dredge ability if you don't have enough cards in your library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/146/shenanigans) · oracle_id `1d9b94af-3bfa-4257-8347-675468f0b0e5` · printing: MH1 #146 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shen, Wish Granter
 
@@ -486,6 +526,7 @@
 - **Flavor text** (ONE printing):
   > *"Congratulations. I am entertained."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1148 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/108/sheoldreds-edict) · oracle_id `217062f5-96f1-454c-9507-17f34ef37070` · printing: ONE #108 (2023-02-10) · [rulings](https://api.scryfall.com/cards/a9225cc3-90f0-448f-a8d9-7c6c2796d077/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sheoldred's Headcleaver
@@ -555,7 +596,12 @@
   > III — Put all creature cards from all graveyards onto the battlefield under your control. Exile this Saga, then return it to the battlefield (front face up).
 - **Keywords:** Transform, Menace, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2015 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/125/sheoldred-the-true-scriptures) · oracle_id `97652492-7906-4d79-983c-fa1dc1239eba` · printing: MOM #125 (2023-04-21) · [rulings](https://api.scryfall.com/cards/bf2249e6-af74-4b88-8eb7-144ce8fa7f6b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2023-04-14* — Once you’ve activated Sheoldred’s last ability, it doesn’t matter what happens to the number of cards in opponents’ graveyards. The ability will resolve even if no opponent has eight or more cards in their graveyard by that time.
+  - *2023-04-14* — To resolve Sheoldred’s enters-the-battlefield ability in a multiplayer game, the next opponent in turn order (or, if it’s an opponent’s turn, the opponent whose turn it is) chooses a creature they control to sacrifice. Then each other opponent in turn order does the same. Then those creatures are sacrificed at the same time.
+  - *2023-04-14* — To resolve chapter II of The True Scriptures in a multiplayer game, the next opponent in turn order (or, if it’s an opponent’s turn, the opponent whose turn it is) chooses three cards in hand. Any opponent who has fewer than three cards in hand chooses all cards they have in hand. They set the chosen cards aside without revealing them. Then each other opponent in turn order does the same. Next, all chosen cards are revealed and discarded at the same time. Then, each opponent mills three cards.
+  - *2023-04-14* — You can activate Sheoldred’s last ability if any opponent has eight or more cards in their graveyard, not necessarily all of them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/125/sheoldred-the-true-scriptures) · oracle_id `97652492-7906-4d79-983c-fa1dc1239eba` · printing: MOM #125 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sheoldred, Whispering One
 
@@ -614,6 +660,7 @@
   > *"My priests swore loyalty to the Cabal not until death, but beyond it."*
   > *—Cabal Patriarch*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5831 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hop/40/shepherd-of-rot) · oracle_id `af18e496-fef9-4869-867b-bdac653cafd0` · printing: HOP #40 (2009-09-04) · [rulings](https://api.scryfall.com/cards/6ee5a529-3223-4982-83d1-eb517c2a258c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shepherd of the Clouds

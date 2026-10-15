@@ -69,7 +69,16 @@
 - **Flavor text** (PIP printing):
   > *The end of the world occurred as predicted: too many humans, not enough space or resources to go around. The details are trivial and pointless. The reasons, as always, purely human ones.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3122 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/47/nuclear-fallout) · oracle_id `f09388e2-f190-4b48-ba85-3ffc33020392` · printing: PIP #47 (2024-03-08) · [rulings](https://api.scryfall.com/cards/e717e4b0-a8c1-4411-b18a-1d17e7225503/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2024-03-08* — Any effects (such as proliferate) that interact with counters a player gets, has, or loses can interact with rad counters.
+  - *2024-03-08* — If a player has fewer cards remaining in their library than the number of rad counters they have when the triggered ability resolves, they’ll mill as many cards as they can.
+  - *2024-03-08* — In a game using the shared team turns option, such as an Archenemy or Two-Headed Giant game, the inherent triggered ability associated with rad counters triggers once for each player on the active team that has rad counters. Each instance of that ability is controlled by one of those players.
+  - *2024-03-08* — Keep track of how many rad counters each player has. Potential ways to track this include writing them down on paper or using dice, but any method that is clear and mutually agreeable is fine.
+  - *2024-03-08* — Rad counters are a kind of counter that a player may have. They’re not associated with any specific permanents.
+  - *2024-03-08* — Rad counters don’t go away as steps, phases, or turns end. They only go away when an effect instructs a player to remove rad counters from themselves.
+  - *2024-03-08* — The cards are milled all at once, which means abilities that trigger “whenever one or more nonland cards are milled” will trigger exactly once as long as at least one nonland card was milled.
+  - *2024-03-08* — There is an inherent triggered ability associated with having rad counters. This triggered ability has no source and is controlled by the active player. The full text of this ability is “At the beginning of the precombat main phase of a player with rad counters, that player mills cards equal to the number of rad counters they have. For each nonland card milled this way, that player loses 1 life and removes one rad counter from themselves.”
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/47/nuclear-fallout) · oracle_id `f09388e2-f190-4b48-ba85-3ffc33020392` · printing: PIP #47 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nuisance Engine
 
@@ -94,7 +103,13 @@
   > *—Sunset Sarsaparilla slogan*
 - **Keywords:** Treasure, Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1295 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sld/2462/nuka-cola-vending-machine) · oracle_id `6cfb03e5-aca6-4fe2-a3f1-93e1f0cbf9e1` · printing: SLD #2462 (2026-01-26) · [rulings](https://api.scryfall.com/cards/bd5cc052-7175-4bb8-a52c-f1fb80cb731a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-03-08* — If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, if you sacrifice a nontoken Food artifact, such as Candy Trail from the Wilds of Eldraine set, Nuka-Cola Vending Machine's last ability will trigger.
+  - *2024-03-08* — Nuka-Cola Vending Machine's last ability triggers whenever you sacrifice a Food for any reason, not just to activate a Food's activated ability.
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sld/2462/nuka-cola-vending-machine) · oracle_id `6cfb03e5-aca6-4fe2-a3f1-93e1f0cbf9e1` · printing: SLD #2462 (2026-01-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nuka-Nuke Launcher
 
@@ -106,7 +121,17 @@
   > Equip {3}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7295 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/138/nuka-nuke-launcher) · oracle_id `7fb88a5d-9b72-4da9-ade4-d09cadd7e1cb` · printing: PIP #138 (2024-03-08) · [rulings](https://api.scryfall.com/cards/68d5835b-c206-4884-bdcf-38c7cdc703f4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2024-03-08* — Any effects (such as proliferate) that interact with counters a player gets, has, or loses can interact with rad counters.
+  - *2024-03-08* — If a player has fewer cards remaining in their library than the number of rad counters they have when the triggered ability resolves, they’ll mill as many cards as they can.
+  - *2024-03-08* — In a game using the shared team turns option, such as an Archenemy or Two-Headed Giant game, the inherent triggered ability associated with rad counters triggers once for each player on the active team that has rad counters. Each instance of that ability is controlled by one of those players.
+  - *2024-03-08* — Keep track of how many rad counters each player has. Potential ways to track this include writing them down on paper or using dice, but any method that is clear and mutually agreeable is fine.
+  - *2024-03-08* — Once the equipped creature has been blocked, changing its color or the blocking creature’s color or stopping the blocking creature from being an artifact won’t cause the equipped creature to become unblocked.
+  - *2024-03-08* — Rad counters are a kind of counter that a player may have. They’re not associated with any specific permanents.
+  - *2024-03-08* — Rad counters don’t go away as steps, phases, or turns end. They only go away when an effect instructs a player to remove rad counters from themselves.
+  - *2024-03-08* — The cards are milled all at once, which means abilities that trigger “whenever one or more nonland cards are milled” will trigger exactly once as long as at least one nonland card was milled.
+  - *2024-03-08* — There is an inherent triggered ability associated with having rad counters. This triggered ability has no source and is controlled by the active player. The full text of this ability is “At the beginning of the precombat main phase of a player with rad counters, that player mills cards equal to the number of rad counters they have. For each nonland card milled this way, that player loses 1 life and removes one rad counter from themselves.”
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/138/nuka-nuke-launcher) · oracle_id `7fb88a5d-9b72-4da9-ade4-d09cadd7e1cb` · printing: PIP #138 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Null Brooch
 
@@ -172,7 +197,12 @@
   > Evoke {2}{U} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters.)
 - **Keywords:** Flying, Annihilator, Evoke
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2511 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/13/nulldrifter) · oracle_id `ef8d9c3a-5860-45bf-8205-14e2df9a6fc8` · printing: MH3 #13 (2024-06-14) · [rulings](https://api.scryfall.com/cards/4d9f1bb8-c91b-40cd-a416-abbff0d65306/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-06-07* — Annihilator abilities trigger and resolve during the declare attackers step. The defending player sacrifices the required number of permanents of their choice before they declare blockers. Any creatures sacrificed this way won't be able to block.
+  - *2024-06-07* — If a creature with annihilator is attacking a planeswalker, and the defending player chooses to sacrifice that planeswalker, the attacking creature continues to attack. It may be blocked. If it isn't blocked, it simply won't deal combat damage to anything.
+  - *2024-06-07* — Nulldrifter's first triggered ability will resolve before Nulldrifter does. If Nulldrifter is countered or otherwise leaves the stack in response to that triggered ability, the triggered ability will still resolve as normal.
+  - *2024-06-07* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an evoke cost), add any cost increases, then apply any cost reductions. The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/13/nulldrifter) · oracle_id `ef8d9c3a-5860-45bf-8205-14e2df9a6fc8` · printing: MH3 #13 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Null Elemental Blast
 
@@ -186,6 +216,7 @@
   > *"Despite my years, I am still but a student of the Multiverse. How arrogant to think yourself its master."*
   > *—Ugin, to Nicol Bolas*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1553 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/12/null-elemental-blast) · oracle_id `ec7699e3-ce56-46e4-9e4d-5ed2bd5fca83` · printing: MH3 #12 (2024-06-14) · [rulings](https://api.scryfall.com/cards/8e259868-d29a-4c03-8ec3-49e914f849fb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Null Group Biological Assets
@@ -250,6 +281,7 @@
 - **Flavor text** (KHC printing):
   > *The Skelle spent days carving runes and erecting their scorn poles. The herd crushed them to splinters in seconds.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6082 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/khc/70/nullmage-shepherd) · oracle_id `4dcfd397-9d29-420c-8fd8-c7c2a99de122` · printing: KHC #70 (2021-02-05) · [rulings](https://api.scryfall.com/cards/c4a15a09-cf68-411a-a18d-aaad00d308c9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nullpriest of Oblivion
@@ -264,7 +296,14 @@
   > When this creature enters, if it was kicked, return target creature card from your graveyard to the battlefield.
 - **Keywords:** Lifelink, Menace, Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4822 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/611/nullpriest-of-oblivion) · oracle_id `c1111228-ef88-4b64-91e0-66ee32a1f5e4` · printing: FDN #611 (2024-11-15) · [rulings](https://api.scryfall.com/cards/b2c7613c-38fc-49c3-93ee-1df93136455a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/611/nullpriest-of-oblivion) · oracle_id `c1111228-ef88-4b64-91e0-66ee32a1f5e4` · printing: FDN #611 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Null Profusion
 
@@ -290,7 +329,12 @@
   > *Gerrard: "But it doesn't do anything!"*
   > *Hanna: "No—it does nothing."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9345 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/vma/278/null-rod) · oracle_id `2f83ca86-e23d-40f7-8085-6928d8cfef9b` · printing: VMA #278 (2014-06-16) · [rulings](https://api.scryfall.com/cards/73ac9f52-e6ff-4e6f-9733-fe24a5fb4b4e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2008-04-01* — This covers only artifacts that are on the battlefield.
+  - *2013-07-01* — This effect applies to all activated abilities of artifacts, including mana abilities.
+  - *2013-07-01* — This effect does not prevent triggered abilities from triggering and it doesn’t stop the effects of static abilities.
+  - *2016-06-08* — Activated abilities contain a colon. They’re generally written “[Cost]: [Effect].” Some keywords are activated abilities and will have colons in their reminder text.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vma/278/null-rod) · oracle_id `2f83ca86-e23d-40f7-8085-6928d8cfef9b` · printing: VMA #278 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nullstone Gargoyle
 
@@ -429,6 +473,7 @@
   > *Each plaguebearer is formed from the blighted soul of a mortal slain by Nurgle's Rot.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8189 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/45/nurgles-rot) · oracle_id `1b01dcff-0639-4ed0-bd9e-f28429cb803d` · printing: 40K #45 (2022-10-07) · [rulings](https://api.scryfall.com/cards/9116138a-679d-4169-a4a9-c76460bbb3fd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nurturer Initiate
@@ -477,6 +522,7 @@
 - **Flavor text** (MH1 printing):
   > *New life is born within its shadows.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1621 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh1/243/nurturing-peatland) · oracle_id `8ed932ff-986c-4592-ad70-53b3fac80d69` · printing: MH1 #243 (2019-06-14) · [rulings](https://api.scryfall.com/cards/2744ac83-a79f-4042-8720-688b5adda382/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nurturing Pixie
@@ -517,7 +563,9 @@
   > *"I'll call you Reginald, and you're Mimi, and you're Tank, and you're Bobo..."*
 - **Keywords:** Threshold
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7586 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/171/nut-collector) · oracle_id `4e1bc03c-e131-4422-beba-0a45a26fdf43` · printing: DMR #171 (2023-01-13) · [rulings](https://api.scryfall.com/cards/32980fc5-32ef-4f6d-8972-7a9e122c02e2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-12-08* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to Squirrels may become lethal if the number of cards in your graveyard falls below seven.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/171/nut-collector) · oracle_id `4e1bc03c-e131-4422-beba-0a45a26fdf43` · printing: DMR #171 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nutrient Block
 
@@ -532,4 +580,7 @@
   > *—Tannuk*
 - **Keywords:** Indestructible
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6247 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/243/nutrient-block) · oracle_id `04a0382f-7e4e-4450-ae70-18999379d875` · printing: EOE #243 (2025-08-01) · [rulings](https://api.scryfall.com/cards/a26064bb-c568-4ed6-86db-3aab69b050db/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-07-25* — If an effect refers to a Food, it means any Food artifact, not just a Food token. For example, when you activate the second ability of Ragost, Deft Gastronaut (which says “{1}, {T}, Sacrifice a Food: Ragost deals 3 damage to each opponent”), you can sacrifice Nutrient Block to pay its cost.
+  - *2025-07-25* — You can’t sacrifice a Food to pay multiple costs. For example, you can’t sacrifice a Nutrient Block to activate its own last ability and also to pay the cost of Ragost, Deft Gastronaut’s second ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/243/nutrient-block) · oracle_id `04a0382f-7e4e-4450-ae70-18999379d875` · printing: EOE #243 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

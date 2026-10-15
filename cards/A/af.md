@@ -133,6 +133,7 @@
   > For each player, choose up to one target creature card in that player's graveyard. Put those cards onto the battlefield under your control. They're Zombies in addition to their other types.
 - **Keywords:** Delve
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4099 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/25/afterlife-from-the-loam) · oracle_id `151c867f-cc77-42de-9ae5-5fd2233ccdab` · printing: TDC #25 (2025-04-11) · [rulings](https://api.scryfall.com/cards/9361b548-a8d9-4e57-98cf-0c464742e1c9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Afterlife Insurance
@@ -144,7 +145,9 @@
 - **Flavor text** (CLU printing):
   > *As far as the Orzhov Syndicate is concerned, it is the height of irresponsibility not to have a plan for your own ghost.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7143 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/23/afterlife-insurance) · oracle_id `05501e88-d4c3-4474-92a9-c02ab15b107b` · printing: CLU #23 (2024-02-23) · [rulings](https://api.scryfall.com/cards/2fa47810-ba83-4a6e-9940-7315ee7e44a5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-02-02* — Because blockers are chosen all at once, you can't block with a creature with afterlife, wait for it to die, then block with the resulting Spirit tokens.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/23/afterlife-insurance) · oracle_id `05501e88-d4c3-4474-92a9-c02ab15b107b` · printing: CLU #23 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aftermath Analyst
 

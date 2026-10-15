@@ -188,6 +188,7 @@
   > *Neither hostile nor friendly, pixies flit through the forest seeking the treasures of the wilds.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4711 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/196/maraleaf-pixie) · oracle_id `013e4281-4e3e-47c2-ac9a-f570668bcb16` · printing: ELD #196 (2019-10-04) · [rulings](https://api.scryfall.com/cards/e6d7f9c9-dd83-4684-a949-1c22f316138a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maraleaf Rider
@@ -213,7 +214,12 @@
   > Once each turn, you may cast a spell with mana value less than or equal to the number of Elves and Faeries you control from among cards exiled with Maralen this turn without paying its mana cost.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5686 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/233/maralen-fae-ascendant) · oracle_id `114e1d2c-cefc-4e2a-922e-3b2ceed1871d` · printing: ECL #233 (2026-01-23) · [rulings](https://api.scryfall.com/cards/c50f5408-5b5c-41dc-807e-136233403a09/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-11-17* — If Maralen enters at the same time as one or more other Elves or Faeries you control, its first ability will trigger for each of those other Elves and Faeries as well as itself.
+  - *2025-11-17* — If an exiled card has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
+  - *2025-11-17* — If the spell you cast has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2025-11-17* — Since you are using an alternative cost to cast the spell, you can't pay any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, you must pay those.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/233/maralen-fae-ascendant) · oracle_id `114e1d2c-cefc-4e2a-922e-3b2ceed1871d` · printing: ECL #233 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maralen of the Mornsong
 
@@ -252,7 +258,18 @@
   > Draw three cards, then discard a card. (Then shuffle this card into its owner's library.)
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3163 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/51/marang-river-regent-coil-and-catch) · oracle_id `099b8d2c-b482-48dd-b6bc-dedf546d66c5` · printing: TDM #51 (2025-04-11) · [rulings](https://api.scryfall.com/cards/f890bdc7-32e6-4492-bac7-7cabf54a8bfd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2025-04-04* — An omen card is a creature card in every zone except the stack, as well as while on the stack if not cast as an Omen. Ignore its alternative characteristics in those cases. For example, while it’s in your graveyard, Twinmaw Stormbrood is a white creature card whose mana value is 6. It can’t be the target of the reflexive ability created by Kishla Trawlers’s triggered ability (“…When you do, return target instant or sorcery card from your graveyard to your hand.”).
+  - *2025-04-04* — As a player casts an omen card, the player chooses whether they cast the card normally or as an Omen.
+  - *2025-04-04* — Casting a card as an Omen isn’t casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Omen.
+  - *2025-04-04* — If a spell is cast as an Omen, its controller shuffles it into its owner’s library instead of putting it into its owner’s graveyard as it resolves.
+  - *2025-04-04* — If an Omen spell has one or more targets and all of those targets are illegal when the spell tries to resolve, it won’t resolve. None of its effects will happen, and it will be put into its owner’s graveyard. It won’t be shuffled into its owner’s library.
+  - *2025-04-04* — If an Omen spell is copied, that copy is also an Omen and is shuffled into its owner’s library as it resolves. Its owner still shuffles their library, but the copy ceases to exist as a state-based action.
+  - *2025-04-04* — If an Omen spell is countered or an effect causes it to otherwise leave the stack, it won’t be shuffled into its owner’s library.
+  - *2025-04-04* — If an effect instructs you to choose a card name, you may choose the alternative Omen name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2025-04-04* — If you cast an omen card as an Omen, use only its alternative characteristics to determine whether it’s legal to cast that spell. For example, if you control Thundermane Dragon (“You may cast creature spells with power 4 or greater from the top of your library.”) and Twinmaw Stormbrood is on top of your library, you can cast Twinmaw Stormbrood, but not Charring Bite.
+  - *2025-04-04* — When casting a spell as an Omen, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/51/marang-river-regent-coil-and-catch) · oracle_id `099b8d2c-b482-48dd-b6bc-dedf546d66c5` · printing: TDM #51 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Marang River Skeleton
 
@@ -305,7 +322,12 @@
 - **Flavor text** (FDN printing):
   > *"The vampires never had gods. We followed our bloodchiefs. Now they are gone. What is left? Destruction and death, my friends. That is enough."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1100 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/178/marauding-blight-priest) · oracle_id `814b87fe-2a75-4ff2-8637-7e69e3fb285b` · printing: FDN #178 (2024-11-15) · [rulings](https://api.scryfall.com/cards/5f70dafc-c638-4ec0-ab5b-62998f752720/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-11-08* — Each creature with lifelink dealing combat damage causes a separate life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, Marauding Blight-Priest's ability will trigger twice. However, if a single creature you control with lifelink deals combat damage to multiple creatures, players, planeswalkers, and/or battles at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once.
+  - *2024-11-08* — If you gain an amount of life "for each" of something or "equal to the number" of something, that life is gained as one event and Marauding Blight-Priest's ability will trigger only once.
+  - *2024-11-08* — In a Two-Headed Giant game, life gained by your teammate won't cause Marauding Blight-Priest's ability to trigger, even though it caused your team's life total to increase.
+  - *2024-11-08* — Marauding Blight-Priest's ability triggers just once for each life-gaining event, whether it's 1 life from Dazzling Angel or 4 life from Apothecary Stomper.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/178/marauding-blight-priest) · oracle_id `814b87fe-2a75-4ff2-8637-7e69e3fb285b` · printing: FDN #178 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Marauding Boneslasher
 
@@ -385,6 +407,7 @@
   > *"What a bunch of junk. I'll take the lot."*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5102 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/138/marauding-mako) · oracle_id `e349be42-5f14-44a9-9608-281985c10e2d` · printing: DFT #138 (2025-02-14) · [rulings](https://api.scryfall.com/cards/9efbfd67-e0f5-43e0-9fff-1eb4a2bed0d8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Marauding Maulhorn
@@ -412,7 +435,10 @@
   > *"Stand still and try not to look like prey!"*
   > *—Skerk Hobnett, wilderness guide*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3045 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/228/marauding-raptor) · oracle_id `b3fe2f61-c58e-4ebc-a5e3-99d6b6f62caf` · printing: LCC #228 (2023-11-17) · [rulings](https://api.scryfall.com/cards/0b5cf2aa-f6dd-47d2-a57f-0ae2308c0f9a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-07-12* — Effects that reduce the generic mana cost of a spell (such as that of Marauding Raptor) can't reduce that spell's colored mana requirements.
+  - *2019-07-12* — Marauding Raptor's cost reduction doesn't affect itself.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/228/marauding-raptor) · oracle_id `b3fe2f61-c58e-4ebc-a5e3-99d6b6f62caf` · printing: LCC #228 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Marauding Sphinx
 
@@ -462,6 +488,7 @@
 - **Flavor text** (CLB printing):
   > *Every facet a benediction of Lathander's light.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1118 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/320/marble-diamond) · oracle_id `910488bf-66ab-415e-973b-1262b2ab7454` · printing: CLB #320 (2022-06-10) · [rulings](https://api.scryfall.com/cards/0930f71c-c3c8-4bdd-8468-6a61349cc8ca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Marble Gargoyle
@@ -526,7 +553,12 @@
   > *"Those who seize power must have the means to hold it."*
   > *—Queen Marchesa*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7014 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/44/marchesas-decree) · oracle_id `e4ab5ee4-4683-4219-9e15-31975e69efbb` · printing: CN2 #44 (2016-08-26) · [rulings](https://api.scryfall.com/cards/413bec4e-e2ce-46f1-b038-6e359cd78b53/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2016-08-23* — Abilities that trigger whenever you "become the monarch" trigger only if you aren't already the monarch. For example, if you are already the monarch as Custodi Lich enters the battlefield, its last ability won't trigger.
+  - *2016-08-23* — Being the monarch carries two inherent triggered abilities. "At the beginning of the monarch's end step, that player draws a card" and "Whenever a creature deals combat damage to the monarch, its controller becomes the monarch."
+  - *2016-08-23* — If the triggered ability that causes the monarch to draw a card goes on the stack, and a different player becomes the monarch before that ability resolves, the first player will still draw the card.
+  - *2016-08-23* — The game starts with no monarch. Once an effect makes one player the monarch, the game will have exactly one monarch from that point forward.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/44/marchesas-decree) · oracle_id `e4ab5ee4-4683-4219-9e15-31975e69efbb` · printing: CN2 #44 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Marchesa's Emissary
 
@@ -594,7 +626,15 @@
   > Whenever a creature you control with a +1/+1 counter on it dies, return that card to the battlefield under your control at the beginning of the next end step.
 - **Keywords:** Dethrone
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4921 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/248/marchesa-the-black-rose) · oracle_id `17a59d3d-9e01-48cd-bb4a-3eaaa077751c` · printing: 2X2 #248 (2022-07-08) · [rulings](https://api.scryfall.com/cards/3242a9f0-2ba3-4852-ac8f-366772ac1c62/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2014-05-29* — If Marchesa has a +1/+1 counter on it when it dies, it will return to the battlefield under your control because of its own ability.
+  - *2014-05-29* — If a creature has multiple instances of dethrone, each triggers separately.
+  - *2014-05-29* — If the creature card leaves the graveyard before the delayed triggered ability resolves, that card won't return to the battlefield, even if it's back in the graveyard when the delayed triggered ability resolves.
+  - *2014-05-29* — In a Two-Headed Giant game, dethrone will trigger if the creature attacks either player on the team with the most life or tied for the most life.
+  - *2014-05-29* — Once dethrone triggers, it doesn't matter what happens to the players' life totals before the ability resolves. You'll put a +1/+1 counter on the creature even if the defending player doesn't have the most life as the ability resolves.
+  - *2014-05-29* — The +1/+1 counter is put on the creature before blockers are declared.
+  - *2023-07-28* — Dethrone doesn't trigger if the creature attacks a planeswalker, even if its controller has the most life. The same is true if the creature attacks a battle, even if its protector has the most life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/248/marchesa-the-black-rose) · oracle_id `17a59d3d-9e01-48cd-bb4a-3eaaa077751c` · printing: 2X2 #248 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### March from the Black Gate
 
@@ -606,7 +646,15 @@
   > *Like a storm, they broke upon the line of the Men of Gondor.*
 - **Keywords:** Amass
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5221 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/94/march-from-the-black-gate) · oracle_id `9259e918-ace5-4f13-9035-d8bc8c820d25` · printing: LTR #94 (2023-06-23) · [rulings](https://api.scryfall.com/cards/e57815d4-b21f-4ceb-a3f1-73cff5f0e612/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-06-16* — Amass Zombies works the same way, except you create a 0/0 black Zombie Army creature token if you don't control an Army. If the Army creature you chose isn't already a Zombie, it becomes a Zombie in addition to its other types. By combining cards with amass Orcs and amass Zombies, you can end up with an Orc Zombie Army.
+  - *2023-06-16* — Amass abilities are now written as "amass [subtype] N." Previous cards with amass have received errata to say "amass Zombies N."
+  - *2023-06-16* — If you don't control an Army, the Orc Army token you create enters the battlefield as a 0/0 creature before receiving counters. Any abilities that trigger when a creature with a certain power enters the battlefield, such as that of Mentor of the Meek, will see the token enter as a 0/0 creature before it gets +1/+1 counters.
+  - *2023-06-16* — In the rare case that you control multiple Army creatures (perhaps because you played a creature with changeling) while you amass Orcs, you choose which of your Army creatures to put the +1/+1 counters on. If that creature isn't an Orc, it becomes an Orc in addition to its other types.
+  - *2023-06-16* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
+  - *2023-06-16* — Some spells and abilities that amass Orcs may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't amass Orcs.
+  - *2023-06-16* — To amass Orcs N, if you don't control an Army creature, create a 0/0 black Orc Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already an Orc, it becomes an Orc in addition to its other types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/94/march-from-the-black-gate) · oracle_id `9259e918-ace5-4f13-9035-d8bc8c820d25` · printing: LTR #94 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### March from the Tomb
 
@@ -641,6 +689,7 @@
   > *"One-two! One-two! One-two! One-two!"*
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6965 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/321/marching-duodrone) · oracle_id `939b77f1-d7c4-4e52-b487-5866145ace01` · printing: CLB #321 (2022-06-10) · [rulings](https://api.scryfall.com/cards/822e46fc-1ebc-4151-bfd3-333fa6b77816/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### March of Burgeoning Life
@@ -661,7 +710,11 @@
   > As an additional cost to cast this spell, you may exile any number of white cards from your hand. This spell costs {2} less to cast for each card exiled this way.
   > Exile target artifact, creature, or enchantment with mana value X or less.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7800 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/28/march-of-otherworldly-light) · oracle_id `ed06e421-480c-40c8-8c3e-1e466e5327b2` · printing: NEO #28 (2022-02-18) · [rulings](https://api.scryfall.com/cards/553fb946-2706-475b-89f9-e4355ec9ea2b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-02-18* — For example, say you wanted to choose a target with mana value 6. You need X to be at least 6. You could choose to cast March of Otherworldly Light by paying {6}{W}. You could also exile white cards from your hand to reduce that cost by {2} for each one. If you had a reason to, you could even choose a greater value for X.
+  - *2022-02-18* — The mana value of March of Otherworldly Light while it's on the stack is the value chosen for X plus 1, no matter how much mana you actually paid to cast it.
+  - *2022-02-18* — You may exile more cards than necessary for March of Otherworldly Light's first ability, but you can't reduce the mana it costs to less than {W} this way.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/28/march-of-otherworldly-light) · oracle_id `ed06e421-480c-40c8-8c3e-1e466e5327b2` · printing: NEO #28 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### March of Progress
 
@@ -672,7 +725,19 @@
   > Overload {6}{U} (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of "target" with "each.")
 - **Keywords:** Overload
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5164 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/brc/8/march-of-progress) · oracle_id `dd45c284-c34c-4085-8066-dbeee223fb6e` · printing: BRC #8 (2022-11-18) · [rulings](https://api.scryfall.com/cards/ac2da0e8-cdc5-4ffc-8a5e-893c34b7dd45/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2022-10-14* — Any enters-the-battlefield abilities of the copied artifact creature will trigger when the token enters the battlefield. Any “as [this creature] enters the battlefield” or “[this creature] enters the battlefield with” abilities of the chosen creature will also work.
+  - *2022-10-14* — Because a spell with overload doesn’t target when its overload cost is paid, it may affect permanents with hexproof or with protection from the appropriate color.
+  - *2022-10-14* — Casting a spell with overload doesn’t change that spell’s mana cost. You just pay the overload cost instead.
+  - *2022-10-14* — Each token copies exactly what was printed on the original artifact creature and nothing more (unless that creature is copying something else or is a token; see below. It doesn’t copy whether that creature is tapped or untapped, whether it has any counters on it or Auras attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+  - *2022-10-14* — Effects that cause you to pay more or less for a spell will cause you to pay that much more or less while casting it for its overload cost, too.
+  - *2022-10-14* — If the chosen artifact creature is copying something else, then the token enters the battlefield as whatever the chosen creature is copying.
+  - *2022-10-14* — If the chosen artifact creature is itself a token, the token March of Progress creates copies the original characteristics of that token as stated by the effect that created that token.
+  - *2022-10-14* — If the copied artifact creature has {X} in its mana cost, X is 0.
+  - *2022-10-14* — If you are instructed to cast a spell with overload “without paying its mana cost,” you can’t choose to pay its overload cost instead.
+  - *2022-10-14* — If you don’t pay the overload cost of a spell, that spell will have a single target. If you pay the overload cost, the spell won’t have any targets.
+  - *2022-10-14* — Overload doesn’t change when you can cast the spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/brc/8/march-of-progress) · oracle_id `dd45c284-c34c-4085-8066-dbeee223fb6e` · printing: BRC #8 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### March of Reckless Joy
 
@@ -682,7 +747,11 @@
   > As an additional cost to cast this spell, you may exile any number of red cards from your hand. This spell costs {2} less to cast for each card exiled this way.
   > Exile the top X cards of your library. You may play up to two of those cards until the end of your next turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7833 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/154/march-of-reckless-joy) · oracle_id `3b3ecaf2-7e95-4b62-9bc0-a61985508808` · printing: NEO #154 (2022-02-18) · [rulings](https://api.scryfall.com/cards/780e1bf1-e392-40f2-9e84-764dedc5fcd4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-02-18* — The mana value of March of Reckless Joy while it's on the stack is the value chosen for X plus 1, no matter how much mana you actually paid to cast it.
+  - *2022-02-18* — You choose which cards that you are playing from exile as you play them, not as March of Reckless Joy is resolving.
+  - *2022-02-18* — You may exile more cards than necessary for March of Reckless Joy's first ability, but you can't reduce the mana it costs to less than {R} this way.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/154/march-of-reckless-joy) · oracle_id `3b3ecaf2-7e95-4b62-9bc0-a61985508808` · printing: NEO #154 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### March of Souls
 
@@ -701,7 +770,18 @@
   > As an additional cost to cast this spell, you may exile any number of blue cards from your hand. This spell costs {2} less to cast for each card exiled this way.
   > Up to X target creatures phase out. (While they're phased out, they're treated as though they don't exist. Each one phases in before its controller untaps during their next untap step.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1614 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/61/march-of-swirling-mist) · oracle_id `debc69ea-372a-4720-838a-16856cd50b07` · printing: NEO #61 (2022-02-18) · [rulings](https://api.scryfall.com/cards/100171d8-7436-44c8-b4cb-0101ffa05c25/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2022-02-18* — An attacking or blocking creature that phases out is removed from combat.
+  - *2022-02-18* — Any continuous effects with a “for as long as” duration, such as that of Mind Flayer, ignore phased-out objects. If ignoring those objects causes the effect's conditions to no longer be met, the duration will expire.
+  - *2022-02-18* — As a creature is phased out, Auras and Equipment attached to it also phase out at the same time. Those Auras and Equipment will phase in at the same time that creature does, and they'll phase in still attached to that creature.
+  - *2022-02-18* — Choices made for permanents as they entered the battlefield are remembered when they phase in.
+  - *2022-02-18* — If an opponent gains control of one of your creatures, that creature phases out, and the duration of the control-change effect expires before it phases back in, that creature phases in under your control as that opponent's next untap step begins. If they leave the game before their next untap step, it phases in as the next untap step begins after their turn would have begun.
+  - *2022-02-18* — Permanents phase back in during their controller's untap step, immediately before that player untaps their permanents. Creatures that phase in this way are able to attack and pay a cost of {T} during that turn. If a permanent had counters on it when it phased out, it will have those counters when it phases back in.
+  - *2022-02-18* — Phased out permanents are treated as though they don't exist. They can't be the target of spells or abilities, their static abilities have no effect on the game, their triggered abilities can't trigger, they can't attack or block, and so on.
+  - *2022-02-18* — Phasing out doesn't cause permanents to leave or re-enter the battlefield, so no “leaves the battlefield” or “enters the battlefield” abilities will trigger.
+  - *2022-02-18* — The mana value of March of Swirling Mist while it's on the stack is the value chosen for X plus 1, no matter how much mana you actually paid to cast it.
+  - *2022-02-18* — You may exile more cards than necessary for March of Swirling Mist's first ability, but you can't reduce the mana it costs to less than {U} this way.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/61/march-of-swirling-mist) · oracle_id `debc69ea-372a-4720-838a-16856cd50b07` · printing: NEO #61 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### March of the Canonized
 
@@ -711,7 +791,15 @@
   > When this enchantment enters, create X 1/1 white Vampire creature tokens with lifelink.
   > At the beginning of your upkeep, if your devotion to white and black is seven or greater, create a 4/3 white and black Vampire Demon creature token with flying.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5153 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/73/march-of-the-canonized) · oracle_id `9eb427ab-1483-4c40-8cb2-fd463e1e5fe0` · printing: LCC #73 (2023-11-17) · [rulings](https://api.scryfall.com/cards/547581d0-025a-435a-8016-ee7c6b890e53/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-11-10* — Colorless and generic mana symbols ({C}, {0}, {1}, {2}, {X}, and so on) in mana costs of permanents you control don't count toward your devotion to any color.
+  - *2023-11-10* — Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s).
+  - *2023-11-10* — If you put an Aura on an opponent's permanent, you still control the Aura, and mana symbols in its mana cost count toward your devotion.
+  - *2023-11-10* — Mana symbols in the text boxes of permanents you control don't count toward your devotion to any color.
+  - *2023-11-10* — March of the Canonized's last ability will trigger only if your devotion to white and black is seven or greater at the beginning of your upkeep. As the triggered ability tries to resolve, if your devotion to white and black is no longer at least seven, the ability won't do anything.
+  - *2023-11-10* — The back face of a transforming double-faced permanent has no mana cost. Mana symbols on a transforming double-faced permanent's front face don't count toward your devotion to any color while it's on the battlefield with its back face up.
+  - *2023-11-10* — Your devotion to two colors is the number of mana symbols among mana costs of permanents you control that are the first color, the second, or both. If an effect counts your devotion to two colors, a hybrid symbol that is both of those colors is counted just once.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/73/march-of-the-canonized) · oracle_id `9eb427ab-1483-4c40-8cb2-fd463e1e5fe0` · printing: LCC #73 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### March of the Drowned
 
@@ -744,7 +832,15 @@
   > *"Our forces number more than the leaves of Vitu-Ghazi. Do not provoke us."*
 - **Keywords:** Convoke
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3034 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/346/march-of-the-multitudes) · oracle_id `0c26ab0d-80f6-4e5b-9d0e-af17c1519583` · printing: NCC #346 (2022-04-29) · [rulings](https://api.scryfall.com/cards/65c7067d-61ec-4558-b0d4-0048d2d86743/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2024-01-12* — Because convoke isn't an alternative cost, it can be used in conjunction with alternative costs.
+  - *2024-01-12* — If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.
+  - *2024-01-12* — Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature's colors.
+  - *2024-01-12* — Tapping an untapped creature that's attacking or blocking to convoke a spell won't cause that creature to stop attacking or blocking.
+  - *2024-01-12* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
+  - *2024-01-12* — When using convoke to cast a spell with {X} in its mana cost, first choose the value for X. That choice, plus any cost increases or decreases, will determine the spell's total cost. Then you can tap creatures you control to help pay that cost. For example, if you cast Chord of Calling (a spell with convoke and mana cost {X}{G}{G}{G}) and choose X to be 3, the total cost is {3}{G}{G}{G}. If you tap two green creatures and two red creatures, you'll have to pay {1}{G}.
+  - *2024-01-12* — You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/346/march-of-the-multitudes) · oracle_id `0c26ab0d-80f6-4e5b-9d0e-af17c1519583` · printing: NCC #346 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### March of the Returned
 
@@ -768,6 +864,7 @@
   > *"The fauna here functions as a planar antibody."*
   > *—Rashmi, aether-seer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4164 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/169/march-of-the-world-ooze) · oracle_id `a04696c4-4138-47e2-8da4-81d61748519f` · printing: DFT #169 (2025-02-14) · [rulings](https://api.scryfall.com/cards/b1964ec5-0dd1-4b54-917c-cbeab05aba79/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### March of Wretched Sorrow
@@ -778,7 +875,10 @@
   > As an additional cost to cast this spell, you may exile any number of black cards from your hand. This spell costs {2} less to cast for each card exiled this way.
   > March of Wretched Sorrow deals X damage to target creature or planeswalker and you gain X life.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9552 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/111/march-of-wretched-sorrow) · oracle_id `6e638332-fba1-4e91-9237-fdff23826640` · printing: NEO #111 (2022-02-18) · [rulings](https://api.scryfall.com/cards/050a604e-6146-4e2e-88a5-863ecb3dfa1f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-02-18* — The mana value of March of Wretched Sorrow while it's on the stack is the value chosen for X plus 1, no matter how much mana you actually paid to cast it.
+  - *2022-02-18* — You may exile more cards than necessary for March of Wretched Sorrow's first ability, but you can't reduce the mana it costs to less than {B} this way.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/111/march-of-wretched-sorrow) · oracle_id `6e638332-fba1-4e91-9237-fdff23826640` · printing: NEO #111 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Marcus, Mutant Mayor
 
@@ -792,6 +892,7 @@
   > *"Welcome to Jacobstown, human. You're free to walk around. Just don't stare at the nightkin."*
 - **Keywords:** Vigilance, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6641 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/pip/109/marcus-mutant-mayor) · oracle_id `c9db8f36-2c72-403e-b2b7-7cdfba5feaa4` · printing: PIP #109 (2024-03-08) · [rulings](https://api.scryfall.com/cards/15db5769-af10-4369-ab4c-db25adb22223/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mardu Ascendancy
@@ -802,7 +903,10 @@
   > Whenever a nontoken creature you control attacks, create a 1/1 red Goblin creature token that's tapped and attacking.
   > Sacrifice this enchantment: Creatures you control get +0/+3 until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7074 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/185/mardu-ascendancy) · oracle_id `aa1de5ce-ddd4-4c1f-8c52-0311f4419e7b` · printing: KTK #185 (2014-09-26) · [rulings](https://api.scryfall.com/cards/02bc2415-b1d1-467a-9578-3948dda166cf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-09-20* — Although the tokens are attacking, they were never declared as attacking creatures (for purposes of abilities that trigger whenever a creature attacks, for example).
+  - *2014-09-20* — As the Goblin token enters the battlefield, you choose which opponent or opposing planeswalker it’s attacking. It doesn’t have to attack the same opponent or opposing planeswalker that the original creature is attacking.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/185/mardu-ascendancy) · oracle_id `aa1de5ce-ddd4-4c1f-8c52-0311f4419e7b` · printing: KTK #185 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mardu Banner
 
@@ -973,7 +1077,15 @@
   > Whenever this creature attacks, for each opponent, create a tapped token that's a copy of the exiled card attacking that opponent. At the beginning of your next end step, sacrifice those tokens.
 - **Keywords:** Haste, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3737 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/206/mardu-siegebreaker) · oracle_id `1f82e4b9-e67f-4f34-ac4c-57b0b300ee42` · printing: TDM #206 (2025-04-11) · [rulings](https://api.scryfall.com/cards/3044b232-edf4-4000-9273-cc4653ad653a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2025-04-04* — Although the tokens enter attacking, they were never declared as attacking creatures. Abilities that trigger whenever a creature attacks won’t trigger when those tokens enter attacking.
+  - *2025-04-04* — Any “enters” abilities of the copied card will trigger when the tokens enter. Any “as this creature enters” or “this creature enters with” abilities of the copied card will also work.
+  - *2025-04-04* — Auras attached to the exiled creature will be put into their owners’ graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled creature will cease to exist. When the card returns to the battlefield, it will be a new object with no connection to the card that was exiled.
+  - *2025-04-04* — If Mardu Siegebreaker leaves the battlefield before its “enters” ability resolves, the target creature won’t be exiled.
+  - *2025-04-04* — If a token is exiled with Mardu Siegebreaker’s third ability, it will cease to exist and won’t return to the battlefield. Mardu Siegebreaker’s last ability won’t create copies of that token.
+  - *2025-04-04* — If the exiled card isn’t a creature card, the token copies will still be created and they’ll still enter tapped. They just won’t be attacking.
+  - *2025-04-04* — The token copies what’s printed on the exiled card and nothing else. It doesn’t copy any effects that changed its characteristics before it was exiled.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/206/mardu-siegebreaker) · oracle_id `1f82e4b9-e67f-4f34-ac4c-57b0b300ee42` · printing: TDM #206 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mardu Skullhunter
 
@@ -1057,6 +1169,7 @@
   > When Marina Vendrell enters, reveal the top seven cards of your library. Put all enchantment cards from among them into your hand and the rest on the bottom of your library in a random order.
   > {T}: Lock or unlock a door of target Room you control. Activate only as a sorcery.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8384 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/221/marina-vendrell) · oracle_id `5aafc6c3-14f2-45b1-bd5b-c27760d791dd` · printing: DSK #221 (2024-09-27) · [rulings](https://api.scryfall.com/cards/6428cddc-2fb6-41af-a643-e83c81dc04f5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Marina Vendrell's Grimoire
@@ -1069,7 +1182,9 @@
   > Whenever you gain life, draw that many cards.
   > Whenever you lose life, discard that many cards. Then if you have no cards in hand, you lose the game.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7343 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/64/marina-vendrells-grimoire) · oracle_id `096eac52-00c2-4439-b2f3-ff555d15ec88` · printing: DSK #64 (2024-09-27) · [rulings](https://api.scryfall.com/cards/1ab1aef7-4171-4869-8eb5-fe42e3ca9e45/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-09-20* — You have no maximum hand size regardless of what your life total is.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/64/marina-vendrells-grimoire) · oracle_id `096eac52-00c2-4439-b2f3-ff555d15ec88` · printing: DSK #64 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Marionette Apprentice
 
@@ -1099,7 +1214,15 @@
   > Whenever an artifact you control is put into a graveyard from the battlefield, target opponent loses life equal to this creature's power.
 - **Keywords:** Fabricate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1586 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afc/102/marionette-master) · oracle_id `dabbf796-3b88-499e-8839-06fa36fe01ac` · printing: AFC #102 (2021-07-23) · [rulings](https://api.scryfall.com/cards/dd21a925-c76f-4c1d-b5b8-8d3352730e5f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2016-09-20* — Artifact tokens that are sacrificed or destroyed are put into their owner's graveyard before ceasing to exist. If you controlled the token, Marionette Master's last ability will trigger.
+  - *2016-09-20* — Fabricate doesn't cause the creature with the ability to enter the battlefield with +1/+1 counters already on it. For example, Weaponcraft Enthusiast will enter the battlefield as a 0/1 creature, then its fabricate ability goes on the stack. Players may take actions (such as casting instants) while the ability is waiting to resolve.
+  - *2016-09-20* — If Marionette Master and an artifact you control are put into a graveyard at the same time, Marionette Master's ability triggers.
+  - *2016-09-20* — If Marionette Master's power is negative, the target opponent doesn't lose (or gain) life.
+  - *2016-09-20* — If you can't put +1/+1 counters on the creature for any reason as fabricate resolves (for instance, if it's no longer on the battlefield), you just create Servo tokens.
+  - *2016-09-20* — The amount of life lost is determined as Marionette Master's last ability resolves. If Marionette Master is no longer on the battlefield, use its power as it last existed on the battlefield to determine how much life is lost.
+  - *2016-09-20* — You choose whether to put +1/+1 counters on the creature or create Servo tokens as the fabricate ability is resolving. No player may take actions between the time you choose and the time that counters are added or tokens are created.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afc/102/marionette-master) · oracle_id `dabbf796-3b88-499e-8839-06fa36fe01ac` · printing: AFC #102 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mariposa Military Base
 
@@ -1110,7 +1233,16 @@
   > {T}: Add {C}.
   > {5}, {T}: Draw a card. This ability costs {1} less to activate for each rad counter you have.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5419 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/151/mariposa-military-base) · oracle_id `f1e03d99-024a-430b-9342-ffd2268bd103` · printing: PIP #151 (2024-03-08) · [rulings](https://api.scryfall.com/cards/cd7be9d4-f9fa-44a3-9902-7e9e226ccf56/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2024-03-08* — Any effects (such as proliferate) that interact with counters a player gets, has, or loses can interact with rad counters.
+  - *2024-03-08* — If a player has fewer cards remaining in their library than the number of rad counters they have when the triggered ability resolves, they’ll mill as many cards as they can.
+  - *2024-03-08* — In a game using the shared team turns option, such as an Archenemy or Two-Headed Giant game, the inherent triggered ability associated with rad counters triggers once for each player on the active team that has rad counters. Each instance of that ability is controlled by one of those players.
+  - *2024-03-08* — Keep track of how many rad counters each player has. Potential ways to track this include writing them down on paper or using dice, but any method that is clear and mutually agreeable is fine.
+  - *2024-03-08* — Rad counters are a kind of counter that a player may have. They’re not associated with any specific permanents.
+  - *2024-03-08* — Rad counters don’t go away as steps, phases, or turns end. They only go away when an effect instructs a player to remove rad counters from themselves.
+  - *2024-03-08* — The cards are milled all at once, which means abilities that trigger “whenever one or more nonland cards are milled” will trigger exactly once as long as at least one nonland card was milled.
+  - *2024-03-08* — There is an inherent triggered ability associated with having rad counters. This triggered ability has no source and is controlled by the active player. The full text of this ability is “At the beginning of the precombat main phase of a player with rad counters, that player mills cards equal to the number of rad counters they have. For each nonland card milled this way, that player loses 1 life and removes one rad counter from themselves.”
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/151/mariposa-military-base) · oracle_id `f1e03d99-024a-430b-9342-ffd2268bd103` · printing: PIP #151 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Marisi, Breaker of the Coil
 
@@ -1124,7 +1256,18 @@
   > *"Cast off the law! Awaken your rage!"*
 - **Keywords:** Goad
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4694 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/c19/46/marisi-breaker-of-the-coil) · oracle_id `17475cf0-661d-4361-827b-1e4d638089f1` · printing: C19 #46 (2019-08-23) · [rulings](https://api.scryfall.com/cards/c366e1c0-f62d-41ce-baec-de11dbc1c5f4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2019-08-23* — Creatures that enter the battlefield after Marisi's second ability resolves won't be goaded.
+  - *2019-08-23* — If an effect allows or instructs an opponent to cast a spell during a combat phase, they can't do so. Marisi's restriction takes precedence over that permission.
+  - *2019-08-23* — In a multiplayer game, if you leave the game after Marisi's second ability resolves but before your next turn begins, its effect lasts until your next turn would have begun. It neither expires immediately nor lasts indefinitely.
+  - *2019-08-23* — Opponents can still activate abilities during combat.
+  - *2019-08-23* — The goaded creatures remain goaded even if Marisi leaves the battlefield before your next turn.
+  - *2023-06-30* — Attacking with a goaded creature doesn't cause it to stop being goaded. If there is an additional combat phase that turn, or if another player gains control of it before it stops being goaded, it must attack again if able.
+  - *2023-06-30* — Being goaded isn't an ability the creature has. Once it's been goaded, it must attack as detailed above even if it loses all abilities.
+  - *2023-06-30* — If a creature you control has been goaded by multiple opponents, it must attack one of your opponents that hasn't goaded it, as that fulfills the maximum number of goad requirements. If a creature you control has been goaded by each of your opponents, the creature must attack an opponent (rather than a planeswalker or battle), but you choose which opponent it attacks.
+  - *2023-06-30* — If the creature doesn't meet any of the above exceptions and can attack, it must attack a player other than the controller of the spell or ability that goaded it if able. If the creature can't attack any of those players but could otherwise attack, it must attack a planeswalker an opponent controls, a battle an opponent controls, or a player who goaded it.
+  - *2023-06-30* — If, during a player's declare attackers step, a creature that player controls that's been goaded is tapped, is affected by a spell or ability that says it can't attack, or hasn't been under that player's control continuously since the turn began (and doesn't have haste), then it doesn't attack. If there's a cost associated with having a creature attack a player, its controller isn't forced to pay that cost, so it doesn't have to attack that player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c19/46/marisi-breaker-of-the-coil) · oracle_id `17475cf0-661d-4361-827b-1e4d638089f1` · printing: C19 #46 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Marisi's Twinclaws
 
@@ -1150,6 +1293,7 @@
   > Assassins, Mercenaries, and Rogues you control have deathtouch and "Whenever this creature deals combat damage to a player, you may remove a hit counter from a card that player owns in exile. If you do, draw a card and create two Treasure tokens."
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2606 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/138/mari-the-killing-quill) · oracle_id `5f1fdc23-9af0-41a1-aeba-7288f9642734` · printing: OTC #138 (2024-04-19) · [rulings](https://api.scryfall.com/cards/6b4b3c1a-671c-422d-a98c-7d750760ca46/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maritime Guard
@@ -1173,7 +1317,11 @@
   > At the beginning of your upkeep, if you control ten or more snow permanents, sacrifice Marit Lage's Slumber. If you do, create Marit Lage, a legendary 20/20 black Avatar creature token with flying and indestructible.
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8846 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/56/marit-lages-slumber) · oracle_id `a11d890e-38d4-467c-bc04-948979c142e0` · printing: MH1 #56 (2019-06-14) · [rulings](https://api.scryfall.com/cards/4f5d2a6e-22cd-4493-9e58-e9c2aa3a31ab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-06-14* — If Marit Lage’s Slumber leaves the battlefield before its last ability resolves, you won’t be able to sacrifice it, so you won’t create Marit Lage.
+  - *2019-06-14* — If you don’t control ten or more snow permanents as your upkeep begins, the last ability won’t trigger. No player may take any actions during a turn before the turn’s upkeep begins.
+  - *2019-06-14* — If you don’t control ten snow permanents as the last ability resolves, you can’t sacrifice Marit Lage’s Slumber.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/56/marit-lages-slumber) · oracle_id `a11d890e-38d4-467c-bc04-948979c142e0` · printing: MH1 #56 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Marjhan
 
@@ -1227,6 +1375,7 @@
 - **Flavor text** (DFT printing):
   > *Many of the inventions built to fight the Phyrexians have since been repurposed for civilian use.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3971 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/235/marketback-walker) · oracle_id `0405e0a9-6d02-4691-bdb8-59c72b824dab` · printing: DFT #235 (2025-02-14) · [rulings](https://api.scryfall.com/cards/c2152030-6007-493f-a616-545723a00249/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Market Festival
@@ -1253,7 +1402,10 @@
 - **Flavor text** (LCI printing):
   > *"Maize, sweet and fresh! Tamal, hot and filling! Water, still or sparkling!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8953 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/22/market-gnome) · oracle_id `12fa17b2-158e-4d53-897f-81111f912b00` · printing: LCI #22 (2023-11-17) · [rulings](https://api.scryfall.com/cards/36dafcd6-ce4e-4a27-bd8c-fa1a3bffc99e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-11-10* — Market Gnome's last ability will go onto the stack above the craft ability that caused it to trigger. This means you'll gain 1 life and draw a card before the transformed card returns to the battlefield.
+  - *2023-11-10* — Most of the time, Market Gnome's last ability will trigger because it was exiled as one of the components used in the craft ability. However, in some uncommon cases, the ability will also trigger if Market Gnome is exiled while you're activating mana abilities as part of paying for that craft ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/22/market-gnome) · oracle_id `12fa17b2-158e-4d53-897f-81111f912b00` · printing: LCI #22 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Marketwatch Phantom
 
@@ -1325,7 +1477,10 @@
 - **Flavor text** (IMA printing):
   > *The flame of anger is hard to douse once lit.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9840 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ima/139/mark-of-mutiny) · oracle_id `5599ddb6-1404-4884-b6ca-c1852a521079` · printing: IMA #139 (2017-11-17) · [rulings](https://api.scryfall.com/cards/a8882153-ad51-4bef-91bd-275a46688320/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-11-17* — Mark of Mutiny can target any creature, even one that you already control or that is already untapped.
+  - *2017-11-17* — The +1/+1 counter remains on the creature after the control-changing effect ends.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ima/139/mark-of-mutiny) · oracle_id `5599ddb6-1404-4884-b6ca-c1852a521079` · printing: IMA #139 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mark of Sakiko
 
@@ -1379,7 +1534,22 @@
   > Madness {2}{B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
 - **Keywords:** Lifelink, Madness, Convoke
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3679 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mat/14/markov-baron) · oracle_id `bafc2e11-5f1c-46f1-a852-2330e099b8e2` · printing: MAT #14 (2023-05-12) · [rulings](https://api.scryfall.com/cards/a1dc6b0f-09bb-4489-8022-42c700eb1191/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (14):
+  - *2023-05-12* — A card with madness that's discarded counts as having been discarded even though it's put into exile rather than a graveyard. If it was discarded to pay a cost, that cost is still paid. Abilities that trigger when a card is discarded will still trigger.
+  - *2023-05-12* — A spell cast for its madness cost is put onto the stack like any other spell. It can be countered, copied, and so on. As it resolves, it's put onto the battlefield if it's a permanent card or into its owner's graveyard if it's an instant or sorcery card.
+  - *2023-05-12* — Cards are discarded in a Magic game only from a player's hand. Effects that put cards into a player's graveyard from anywhere else do not cause those cards to be discarded.
+  - *2023-05-12* — Casting a spell with madness ignores the timing rules based on the card's card type. For example, you can cast a creature with madness if you discard it during an opponent's turn.
+  - *2023-05-12* — If you choose not to cast a card with madness when the madness triggered ability resolves, it's put into your graveyard. Madness doesn't give you another chance to cast it later.
+  - *2023-05-12* — If you discard a card with madness to pay the cost of a spell or activated ability, that card's madness triggered ability (and the spell that card becomes, if you choose to cast it) will resolve before the spell or ability the discard paid for.
+  - *2023-05-12* — If you discard a card with madness while a spell or ability is resolving, it moves immediately to exile. Continue resolving that spell or ability, noting that the card you discarded is not in your graveyard at this time. Its madness triggered ability will be placed onto the stack once that spell or ability has completely resolved.
+  - *2023-05-12* — Madness works independently of why you're discarding the card. You could discard it to pay a cost, because a spell or ability tells you to, or because you have too many cards in your hand during your cleanup step. You can't discard a card with madness just because you want to, though.
+  - *2024-01-12* — Because convoke isn't an alternative cost, it can be used in conjunction with alternative costs.
+  - *2024-01-12* — If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.
+  - *2024-01-12* — Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature's colors.
+  - *2024-01-12* — Tapping an untapped creature that's attacking or blocking to convoke a spell won't cause that creature to stop attacking or blocking.
+  - *2024-01-12* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
+  - *2024-01-12* — You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mat/14/markov-baron) · oracle_id `bafc2e11-5f1c-46f1-a852-2330e099b8e2` · printing: MAT #14 (2023-05-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Markov Blademaster
 
@@ -1433,7 +1603,11 @@
   > Whenever a creature dealt damage by this creature this turn dies, create a Blood token. (It's an artifact with "{1}, {T}, Discard a card, Sacrifice this token: Draw a card.")
 - **Keywords:** Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8891 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/voc/26/markov-enforcer) · oracle_id `e262ea6f-c8c7-45c7-a9a6-29dcbe6300a4` · printing: VOC #26 (2021-11-19) · [rulings](https://api.scryfall.com/cards/597bc4ae-335d-4d1d-8a57-530291abc540/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-01-24* — If an effect refers to a Blood token, it means any artifact token with the subtype Blood, even if it has gained other subtypes.
+  - *2025-01-24* — Some triggered abilities trigger "whenever you sacrifice a Blood token." These abilities trigger regardless of why you sacrificed that Blood token.
+  - *2025-01-24* — You can't sacrifice a Blood token to pay multiple costs.
+- **Source flags:** [Scryfall](https://scryfall.com/card/voc/26/markov-enforcer) · oracle_id `e262ea6f-c8c7-45c7-a9a6-29dcbe6300a4` · printing: VOC #26 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Markov Patrician
 
@@ -1460,7 +1634,9 @@
   > *The ceremonial "incense" was a concoction of Edgar's own design, a precise blend of blood from his favorite human lineages.*
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8879 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/vow/241/markov-purifier) · oracle_id `d28eac97-f38a-4d2a-aeae-e758bd3ecf4e` · printing: VOW #241 (2021-11-19) · [rulings](https://api.scryfall.com/cards/bb95d34a-0b13-4533-9efc-08381c81e6cd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-11-19* — Markov Purifier's ability triggers if you gained any amount of life that turn, even if you also lost that much or more life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vow/241/markov-purifier) · oracle_id `d28eac97-f38a-4d2a-aeae-e758bd3ecf4e` · printing: VOW #241 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Markov Retribution
 
@@ -1522,6 +1698,7 @@
   > Chapter Master — {6}: Create two 2/2 white Astartes Warrior creature tokens with vigilance.
 - **Keywords:** Double strike, Master Tactician, Chapter Master
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5379 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/8/marneus-calgar) · oracle_id `f6479f7e-01f4-49f1-a444-04bf38934f6b` · printing: 40K #8 (2022-10-07) · [rulings](https://api.scryfall.com/cards/e7517e8e-b424-4731-ba9d-6132bdefa6bf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maro
@@ -1598,7 +1775,9 @@
 - **Flavor text** (CHK printing):
   > *Marrow-Gnawer united three nezumi gangs when he slew their leaders in a single night. Now they call him their first lord.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3170 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/chk/124/marrow-gnawer) · oracle_id `2b934761-5720-477b-94b7-d1d91dc581a6` · printing: CHK #124 (2004-10-01) · [rulings](https://api.scryfall.com/cards/72e4548b-c171-4f10-b896-af37543dcf0f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-12-01* — Marrow-Gnawer's ability counts the number of Rats on the battlefield when it resolves, so you don't count the sacrificed Rat.
+- **Source flags:** [Scryfall](https://scryfall.com/card/chk/124/marrow-gnawer) · oracle_id `2b934761-5720-477b-94b7-d1d91dc581a6` · printing: CHK #124 (2004-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Marrow Shards
 
@@ -1659,6 +1838,7 @@
 - **Flavor text** (MOM printing):
   > *"How kind of our foes to move in such perfect, predictable unison. Split into squadrons and execute the Lion's Claw!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8014 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/246/marshal-of-zhalfir) · oracle_id `9ad01fb2-2ba7-447a-a5ef-e57d46421635` · printing: MOM #246 (2023-04-21) · [rulings](https://api.scryfall.com/cards/c2418f5c-a85f-4249-8a53-c94b011b9714/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Marshal's Anthem
@@ -1671,7 +1851,14 @@
   > When this enchantment enters, return up to X target creature cards from your graveyard to the battlefield, where X is the number of times this enchantment was kicked.
 - **Keywords:** Multikicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4755 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/82/marshals-anthem) · oracle_id `41fb2b0e-d0a0-4e47-a6f3-fc9860ade65a` · printing: OTC #82 (2024-04-19) · [rulings](https://api.scryfall.com/cards/7c84cbf6-cab0-4b53-ab60-470ade5c3654/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/82/marshals-anthem) · oracle_id `41fb2b0e-d0a0-4e47-a6f3-fc9860ade65a` · printing: OTC #82 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Marshals' Pathcruiser
 
@@ -1870,7 +2057,15 @@
   > Doctor's companion (You can have two commanders if the other is the Doctor.)
 - **Keywords:** Investigate, Woman Who Walked the Earth, Doctor's companion
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9277 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Doctor's companion
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/48/martha-jones) · oracle_id `5b7ccdd2-40aa-4619-a147-0792dc02b2e5` · printing: WHO #48 (2023-10-13) · [rulings](https://api.scryfall.com/cards/2a9f97c9-825b-43dc-96a5-807d1a15fdce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-10-13* — Although Doctor's companion is a new variant of the partner ability, the rules for partner have not otherwise changed. Notably, Time Lord Doctors and cards with Doctor's companion do not interact with cards which have another partner ability.
+  - *2023-10-13* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2023-10-13* — Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+  - *2023-10-13* — If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+  - *2023-10-13* — If your Commander deck has two commanders, you can include only cards whose own color identities are also found in your commanders' combined color identities.
+  - *2023-10-13* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined.
+  - *2023-10-13* — The Doctor's companion ability allows you to have two commanders if one has the ability and the other is a legendary creature that is a Time Lord Doctor and has no other creature types. Creatures with the changeling ability, for example, can't be a second commander this way.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/48/martha-jones) · oracle_id `5b7ccdd2-40aa-4619-a147-0792dc02b2e5` · printing: WHO #48 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Martial Coup
 
@@ -1881,7 +2076,11 @@
 - **Flavor text** (FRC printing):
   > *Their war forgotten, the nations of Bant stood united in the face of a common threat.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1353 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frc/28/martial-coup) · oracle_id `2b7c4dab-e432-4b34-b058-3cec5c0d72df` · printing: FRC #28 (2026-10-02) · [rulings](https://api.scryfall.com/cards/5c4d0ad9-4d57-4e5c-b478-059220f5b1dd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2009-02-01* — Martial Coup checks the number you chose for X, not the amount of mana you actually spent.
+  - *2009-02-01* — No one can cast spells or activate abilities between the time the Soldier tokens are put onto the battlefield and the time all other creatures are destroyed. For example, you can't sacrifice one of those Soldier tokens to regenerate a Skeletal Kathari.
+  - *2009-02-01* — You do what the spell says in order. If X is 5 or more, you'll put the Soldier tokens onto the battlefield, then you'll destroy all other creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frc/28/martial-coup) · oracle_id `2b7c4dab-e432-4b34-b058-3cec5c0d72df` · printing: FRC #28 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Martial Glory
 
@@ -1906,7 +2105,13 @@
   > Whenever enchanted creature attacks, each other creature that's attacking one of your opponents gets +1/+1 until end of turn.
 - **Keywords:** Goad, Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3812 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/156/martial-impetus) · oracle_id `c8decfdf-1421-4649-acde-5215e7f08bb9` · printing: SOC #156 (2026-04-24) · [rulings](https://api.scryfall.com/cards/41ccc31c-9377-4e8a-aede-248d16cd5264/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-06-30* — Attacking with a goaded creature doesn't cause it to stop being goaded. If there is an additional combat phase that turn, or if another player gains control of it before it stops being goaded, it must attack again if able.
+  - *2023-06-30* — Being goaded isn't an ability the creature has. Once it's been goaded, it must attack as detailed above even if it loses all abilities.
+  - *2023-06-30* — If a creature you control has been goaded by multiple opponents, it must attack one of your opponents that hasn't goaded it, as that fulfills the maximum number of goad requirements. If a creature you control has been goaded by each of your opponents, the creature must attack an opponent (rather than a planeswalker or battle), but you choose which opponent it attacks.
+  - *2023-06-30* — If the creature doesn't meet any of the above exceptions and can attack, it must attack a player other than the controller of the spell or ability that goaded it if able. If the creature can't attack any of those players but could otherwise attack, it must attack a planeswalker an opponent controls, a battle an opponent controls, or a player who goaded it.
+  - *2023-06-30* — If, during a player's declare attackers step, a creature that player controls that's been goaded is tapped, is affected by a spell or ability that says it can't attack, or hasn't been under that player's control continuously since the turn began (and doesn't have haste), then it doesn't attack. If there's a cost associated with having a creature attack a player, its controller isn't forced to pay that cost, so it doesn't have to attack that player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/156/martial-impetus) · oracle_id `c8decfdf-1421-4649-acde-5215e7f08bb9` · printing: SOC #156 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Martial Law
 
@@ -2063,6 +2268,7 @@
 - **Flavor text** (ULG printing):
   > *Dying is a soldier's talent.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8046 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ulg/13/martyrs-cause) · oracle_id `72d1c789-e79f-4f15-80d0-981d4120b085` · printing: ULG #13 (1999-02-15) · [rulings](https://api.scryfall.com/cards/4c1f026b-8c7f-4051-9922-5684a6b2c06b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Martyr's Cry
@@ -2160,7 +2366,11 @@
 - **Flavor text** (DSK printing):
   > *In a moment of bloodthirsty whimsy, a razorkin once picked up a ventriloquist's puppet and used it to terrorize a survivor. Now it hunts on its own, with no one pulling its strings.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1087 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/253/marvin-murderous-mimic) · oracle_id `22f0dbbb-9d8d-42bc-8903-fc0b65e00952` · printing: DSK #253 (2024-09-27) · [rulings](https://api.scryfall.com/cards/66898970-b99b-48f2-9240-68c301c95500/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-09-20* — If an activated ability of a creature you control that doesn't have the same name as Marvin references the card it's printed on by name, treat Marvin's version of that ability as though it referenced Marvin instead. For example, say you control Marvin as well as Floodpits Drowner (which has the ability "{1}{U}, {T}: Shuffle Floodpits Drowner and target creature with a stun counter on it into their owners' libraries."). You would treat Marvin's version of the ability as though it said "{1}{U}, {T}: Shuffle Marvin, Murderous Mimic and target creature with a stun counter on it into their owners' libraries."
+  - *2024-09-20* — Marvin gains only activated abilities. It doesn't gain triggered abilities or static abilities. Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keywords are activated abilities and may have colons in their reminder text.
+  - *2024-09-20* — Once one of Marvin's abilities has been activated, it doesn't matter if the other creature you control with that ability leaves the battlefield; the ability still resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/253/marvin-murderous-mimic) · oracle_id `22f0dbbb-9d8d-42bc-8903-fc0b65e00952` · printing: DSK #253 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Marvo, Deep Operative
 
@@ -2172,6 +2382,7 @@
   > Whenever you win a clash, draw a card. Then you may cast a spell from your hand with mana value 8 or less without paying its mana cost.
 - **Keywords:** Clash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7368 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/7/marvo-deep-operative) · oracle_id `317ab0b3-1163-4893-a881-4c397feb213d` · printing: MKC #7 (2024-02-09) · [rulings](https://api.scryfall.com/cards/8fdb30c1-0551-48b7-8bcb-d7e0dbb6690a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Marwyn, the Clearcutter
@@ -2197,7 +2408,9 @@
 - **Flavor text** (KHC printing):
   > *Midwife to mothers and leader to all.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1203 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/khc/68/marwyn-the-nurturer) · oracle_id `ee35de1c-aef1-4bd4-85fd-fe77bc927790` · printing: KHC #68 (2021-02-05) · [rulings](https://api.scryfall.com/cards/aad61d99-5c8e-47b7-ab1a-e70905f59205/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-04-27* — Marwyn's activated ability is a mana ability. It doesn't use the stack and can't be responded to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khc/68/marwyn-the-nurturer) · oracle_id `ee35de1c-aef1-4bd4-85fd-fe77bc927790` · printing: KHC #68 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Marwyn, the Preserver
 
@@ -2222,6 +2435,7 @@
 - **Flavor text** (SPM printing):
   > *Charismatic and confident, Mary Jane was born for the limelight.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9162 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/134/mary-jane-watson) · oracle_id `6d44c87b-8945-4c39-b034-7690cf483992` · printing: SPM #134 (2025-09-26) · [rulings](https://api.scryfall.com/cards/178345f7-8ccd-4e47-80f4-5bd31bab6655/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mary O'Kill
@@ -2248,4 +2462,6 @@
   > *—Anne Bonny*
 - **Keywords:** Treasure, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5421 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/acr/61/mary-read-and-anne-bonny) · oracle_id `5182de2d-aceb-450e-bd20-8bc7db124334` · printing: ACR #61 (2024-07-05) · [rulings](https://api.scryfall.com/cards/116bf8c6-8488-4eff-b350-b3ea821353b1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-07-05* — If you discard a card with one or more of the types  listed in Mary Read and Anne Bonny’s last ability, the ability will still trigger only once for that discarded card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/acr/61/mary-read-and-anne-bonny) · oracle_id `5182de2d-aceb-450e-bd20-8bc7db124334` · printing: ACR #61 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -68,7 +68,11 @@
   > *The Company had lost a great deal, but they had killed the Great Goblin and many others besides. All in all, they had the best of it.*
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9646 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/hob/154/dwalin-weaponmaster) · oracle_id `cee583b7-7cc3-40ea-a227-b760839ec291` · printing: HOB #154 (2026-08-14) · [rulings](https://api.scryfall.com/cards/196d9287-a37d-4b27-a83b-a5489a54f081/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2026-06-29* — A creature equipped by an Equipment with hone counters on it gets +1/+0 for each hone counter on that Equipment. This effect is from the counter itself rather than an ability on the Equipment, so even if the Equipment loses some of its abilities, each hone counter will still grant +1/+0 to the creature.
+  - *2026-06-29* — Hone counters can be put on any Equipment and each one will grant +1/+0 to that Equipment's equipped creature, even if the Equipment the hone counters are on doesn't reference hone counters or have an ability that puts them on itself.
+  - *2026-06-29* — The power boost applies only while the Equipment with hone counters is attached to a creature. If an Equipment with hone counters on it becomes unattached from a creature, leaves the battlefield, or has its hone counters removed, the power of the creature changes immediately.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hob/154/dwalin-weaponmaster) · oracle_id `cee583b7-7cc3-40ea-a227-b760839ec291` · printing: HOB #154 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwarfhold Champion
 
@@ -143,7 +147,10 @@
 - **Flavor text** (JUD printing):
   > *His battle cry unleashes an avalanche of dwarves.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9261 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jud/84/dwarven-bloodboiler) · oracle_id `cbbca098-0b33-4693-8ea7-a2005b79af3d` · printing: JUD #84 (2002-05-27) · [rulings](https://api.scryfall.com/cards/9ac576b2-cda4-4aea-aa5c-933ec0457dda/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — The ability can be activated the turn it enters because the ability does not use the {T} symbol.
+  - *2004-10-04* — Yes, it can tap itself.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jud/84/dwarven-bloodboiler) · oracle_id `cbbca098-0b33-4693-8ea7-a2005b79af3d` · printing: JUD #84 (2002-05-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwarven Castle Guard
 
@@ -228,6 +235,7 @@
   > *—Dwarven compliment*
 - **Keywords:** Landwalk, Mountainwalk
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8286 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/185/dwarven-grunt) · oracle_id `6da00e2d-4287-48eb-8abe-d153318381fd` · printing: ODY #185 (2001-10-01) · [rulings](https://api.scryfall.com/cards/6f00d726-4289-48ff-8c14-6a5080a00fda/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwarven Hammer
@@ -323,7 +331,10 @@
   > This land enters tapped unless you control three or more other Mountains.
   > When this land enters untapped, create a 1/1 red Dwarf creature token.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2753 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eld/243/dwarven-mine) · oracle_id `74ed0bd3-ac31-41a4-8220-d8e7c8c1c437` · printing: ELD #243 (2019-10-04) · [rulings](https://api.scryfall.com/cards/5c83074d-0c9b-4b58-94ca-d75240485579/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-10-04* — As these lands are entering the battlefield, they check for lands that are already on the battlefield. They won't see lands that are entering the battlefield at the same time (due to Scapeshift, for example).
+  - *2019-10-04* — If another effect puts these lands onto the battlefield tapped, they enter tapped, even if you control enough lands with the appropriate basic land type.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eld/243/dwarven-mine) · oracle_id `74ed0bd3-ac31-41a4-8220-d8e7c8c1c437` · printing: ELD #243 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwarven Miner
 
@@ -409,6 +420,7 @@
 - **Oracle text:**
   > When this creature enters, search your library for any number of Dwarf cards, reveal them, then shuffle and put those cards on top in any order.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9346 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/186/dwarven-recruiter) · oracle_id `d047a819-5196-4a16-8d67-a4edaf6fdef0` · printing: ODY #186 (2001-10-01) · [rulings](https://api.scryfall.com/cards/6a15d274-85b4-4f3c-b502-f6dfe7db4d37/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwarven Reinforcements
@@ -433,6 +445,7 @@
   > {T}: Add {R}.
   > {T}, Sacrifice this land: Add {R}{R}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8435 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me2/227/dwarven-ruins) · oracle_id `cbef6ad5-717f-4b02-9c62-e5deba407ad1` · printing: ME2 #227 (2008-09-22) · [rulings](https://api.scryfall.com/cards/0b6adef9-a1c5-452d-94c7-4110f4998180/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwarven Scorcher
@@ -612,7 +625,9 @@
   > Whenever Dwynen attacks, you gain 1 life for each attacking Elf you control.
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2639 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/217/dwynen-gilt-leaf-daen) · oracle_id `30d0d75f-e94c-460b-b957-9f1d655c0f65` · printing: FDN #217 (2024-11-15) · [rulings](https://api.scryfall.com/cards/01c00d7b-7fac-4f8c-a1ea-de2cf4d06627/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2015-06-22* — Count the number of attacking Elves you control as Dwynen's last ability resolves to determine how much life to gain.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/217/dwynen-gilt-leaf-daen) · oracle_id `30d0d75f-e94c-460b-b957-9f1d655c0f65` · printing: FDN #217 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwynen's Elite
 
@@ -624,4 +639,6 @@
 - **Flavor text** (FDN printing):
   > *Call one, call them all.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5561 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/218/dwynens-elite) · oracle_id `3d4a7dd3-9258-4bd1-adc4-08f0205e196a` · printing: FDN #218 (2024-11-15) · [rulings](https://api.scryfall.com/cards/89d94c28-ea2e-4a3d-935f-6b2d9f2efc7a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-11-08* — Dwynen's Elite's ability checks at the moment it would trigger to see if you control another Elf. If you don't, the ability won't trigger at all. If it does trigger, the ability will check again as it tries to resolve. If you don't control another Elf at that time, the ability won't resolve and none of its effects will happen.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/218/dwynens-elite) · oracle_id `3d4a7dd3-9258-4bd1-adc4-08f0205e196a` · printing: FDN #218 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

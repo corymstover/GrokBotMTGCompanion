@@ -23,7 +23,13 @@
   > Exile all opponents' graveyards. You may cast spells from among those cards this turn, and mana of any type can be spent to cast them. At the beginning of the next end step, if any of those cards remain exiled, return them to their owners' graveyards.
   > Exile Mnemonic Betrayal.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2529 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/grn/189/mnemonic-betrayal) · oracle_id `aa41e0e6-d04e-48d6-8450-02b972dd0bb1` · printing: GRN #189 (2018-10-05) · [rulings](https://api.scryfall.com/cards/a5cf45aa-ed34-4add-a2ec-fc11f8c15ffa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2018-10-05* — If you cast a spell this way and that card is exiled, it’s considered a new object. Mnemonic Betrayal no longer allows you to cast it. It remains in exile when Mnemonic Betrayal’s delayed triggered ability resolves.
+  - *2018-10-05* — In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, any spells or permanents you control from Mnemonic Betrayal’s effect are exiled. If you leave the game before Mnemonic Betrayal’s delayed triggered ability resolves, the cards remain exiled.
+  - *2018-10-05* — Mnemonic Betrayal doesn’t change when you can cast the exiled cards. For example, if you exile a sorcery card, you can cast it only during your main phase when the stack is empty.
+  - *2018-10-05* — Only the cards that remain in exile are returned to their owners’ graveyards. For example, a permanent spell cast this way will remain on the battlefield.
+  - *2018-10-05* — You can’t play land cards exiled this way.
+- **Source flags:** [Scryfall](https://scryfall.com/card/grn/189/mnemonic-betrayal) · oracle_id `aa41e0e6-d04e-48d6-8450-02b972dd0bb1` · printing: GRN #189 (2018-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mnemonic Deluge
 
@@ -34,7 +40,12 @@
 - **Flavor text** (CMR printing):
   > *Past, present, and future surged through the wizard's mind, bringing a flood of possibilities.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3779 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/82/mnemonic-deluge) · oracle_id `56de4cdc-4db0-48ec-8a16-f66086507233` · printing: CMR #82 (2020-11-20) · [rulings](https://api.scryfall.com/cards/2d0e725b-2250-4189-9682-73461b5cfed2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-11-10* — Because you're casting the spells during the resolution of Mnemonic Deluge, ignore any timing restrictions based on card type. In other words, you can cast copies of a sorcery card this way.
+  - *2020-11-10* — If the card you copy has {X} in its mana cost, you must choose 0 as the value of X when casting the copy without paying its mana cost.
+  - *2020-11-10* — If you cast a spell "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those to cast it.
+  - *2020-11-10* — You create and cast the copies all during the resolution of Mnemonic Deluge. You can't wait and cast them later. If you don't cast all three copies, the ones you don't cast will cease to exist.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/82/mnemonic-deluge) · oracle_id `56de4cdc-4db0-48ec-8a16-f66086507233` · printing: CMR #82 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mnemonic Nexus
 
@@ -87,4 +98,5 @@
   > *—Perisophia the philosopher*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6659 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ima/67/mnemonic-wall) · oracle_id `f2933616-211b-4d3f-8064-2be61c26079a` · printing: IMA #67 (2017-11-17) · [rulings](https://api.scryfall.com/cards/a3e6784b-78e8-4f0b-8d27-d49c7cea9252/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

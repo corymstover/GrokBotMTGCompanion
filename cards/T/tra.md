@@ -145,6 +145,7 @@
   > Whenever enchanted land is tapped for mana, its controller adds an additional one mana of any color.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7022 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/arb/142/trace-of-abundance) · oracle_id `530140f1-e992-4b5e-882c-c15bacc328fa` · printing: ARB #142 (2009-04-30) · [rulings](https://api.scryfall.com/cards/6151001a-cf4b-4f95-a986-7181313e2224/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Track Down
@@ -226,6 +227,7 @@
 - **Flavor text** (9ED printing):
   > *The wise, the righteous, the mighty—the merchant feeds them all.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8309 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/9ed/108/trade-routes) · oracle_id `120fa67e-e5e0-4c23-9a78-d6171d357aee` · printing: 9ED #108 (2005-07-29) · [rulings](https://api.scryfall.com/cards/57e5d7c9-36f7-4312-ada0-b6c2757487c8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trade Secrets
@@ -275,6 +277,7 @@
   > {1}, {T}, Sacrifice a creature: Return target artifact card from your graveyard to your hand.
   > {1}, {T}, Sacrifice an artifact: Draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2163 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/224/trading-post) · oracle_id `63788566-e25a-44bb-bb55-197e1b93b3e8` · printing: MSC #224 (2026-06-26) · [rulings](https://api.scryfall.com/cards/03499a72-e865-46ff-bcb2-75e53e4b600e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tragda, the Burner
@@ -317,7 +320,10 @@
   > *"Here we are again, Victor. This is how it always goes."*
   > *—Mister Fantastic, Reed Richards*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2803 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/144/tragic-arrogance) · oracle_id `8a29bd35-33ef-4317-9fe5-8aaff5d7d64d` · printing: MSC #144 (2026-06-26) · [rulings](https://api.scryfall.com/cards/956d4728-e7a3-43f4-a350-86eca1b95d06/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2015-06-22* — If a permanent has more than one of the affected types, it can count for any of them. For example, you could choose an artifact creature as the artifact you're sparing, another creature as the creature, and an enchantment creature as the enchantment. Similarly, you could choose an enchantment creature as both the creature and the enchantment that you're sparing, even if the player controls another creature and/or another enchantment.
+  - *2015-06-22* — None of the chosen permanents are targets of Tragic Arrogance.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/144/tragic-arrogance) · oracle_id `8a29bd35-33ef-4317-9fe5-8aaff5d7d64d` · printing: MSC #144 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tragic Banshee
 
@@ -379,6 +385,7 @@
   > *Linger on death's door and risk being invited in.*
 - **Keywords:** Morbid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #885 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/134/tragic-slip) · oracle_id `fa6e2a47-a8cb-4224-ae3e-f61c90477285` · printing: INR #134 (2025-01-24) · [rulings](https://api.scryfall.com/cards/132ccc20-cb42-4474-b747-7e41a661060e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tragic Trajectory
@@ -456,7 +463,14 @@
   > Whenever you sacrifice a Food, you may pay {1}. If you do, look at the top two cards of your library. You may reveal a permanent card from among them and put it into your hand. Put the rest on the bottom of your library in any order.
 - **Keywords:** Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4752 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eld/179/trail-of-crumbs) · oracle_id `185d6356-8f8d-4b32-8259-b4eb0a95866c` · printing: ELD #179 (2019-10-04) · [rulings](https://api.scryfall.com/cards/2688ac16-4ed6-4e79-815a-be173deb4603/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2019-10-04* — A permanent card is an artifact, creature, enchantment, land, or planeswalker card.
+  - *2019-10-04* — While resolving the second triggered ability, you can't pay {1} multiple times to look at more cards.
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, you can sacrifice Tough Cookie (an Artifact Creature — Food Golem) to activate Maraleaf Rider's ability (an ability with "Sacrifice a Food" in its cost).
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eld/179/trail-of-crumbs) · oracle_id `185d6356-8f8d-4b32-8259-b4eb0a95866c` · printing: ELD #179 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trail of Evidence
 
@@ -469,7 +483,11 @@
   > *—Jace Beleren*
 - **Keywords:** Investigate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9388 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soi/93/trail-of-evidence) · oracle_id `e10065ba-fe24-4974-a500-d4151397a4d9` · printing: SOI #93 (2016-04-08) · [rulings](https://api.scryfall.com/cards/4b150797-ee8d-42f8-adcb-2f4b1783c074/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2016-04-08* — Clue is an artifact type. Even though it appears on some cards with other permanent types, it's never a creature type, a land type, or anything but an artifact type.
+  - *2016-04-08* — If an effect refers to a Clue, it means any Clue artifact, not just a Clue artifact token. For example, you can sacrifice Wrench to pay for Alquist Proft, Master Sleuth's activated ability.
+  - *2016-04-08* — You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soi/93/trail-of-evidence) · oracle_id `e10065ba-fe24-4974-a500-d4151397a4d9` · printing: SOI #93 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trail of Mystery
 
@@ -479,6 +497,7 @@
   > Whenever a face-down creature you control enters, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle.
   > Whenever a permanent you control is turned face up, if it's a creature, it gets +2/+2 until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6055 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/203/trail-of-mystery) · oracle_id `0e09aaba-5c32-4a45-8a07-b69e873510ef` · printing: DSC #203 (2024-09-27) · [rulings](https://api.scryfall.com/cards/56271ec9-5e41-47d3-ac76-d0743fb399cc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trailtracker Scout
@@ -492,7 +511,11 @@
 - **Flavor text** (BLC printing):
   > *It takes great courage—and great curiosity—to tail calamity.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3484 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blc/35/trailtracker-scout) · oracle_id `d38646dc-d1ea-473c-aaf1-df8ba327459f` · printing: BLC #35 (2024-08-02) · [rulings](https://api.scryfall.com/cards/36ee967a-3cac-4fff-b616-ec2557c676f2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-07-26* — A permanent with an ability that triggers whenever you "expend N" will see mana you spent to cast spells the turn it enters, including mana you spent before it entered. For example, if you cast Junkblade Bruiser (a creature with a mana value of 5 and an ability that triggers whenever you expend 4) by paying its full cost of five mana, you'll already have spent four mana on spells before Junkblade Bruiser enters, and therefore its ability that triggers whenever you expend 4 won't be able to trigger at all that turn.
+  - *2024-07-26* — Abilities that trigger whenever you "expend N" only trigger when you reach that specific amount of mana spent on casting spells that turn. This can only happen once per turn. For example, if you've spent three mana on spells so far this turn and you control a permanent with an ability that triggers "whenever you expend 4," that ability will trigger the next time you spend at least one mana to cast a spell this turn. It won't trigger again if you spend another four mana to cast spells later in the turn.
+  - *2024-07-26* — If the cost to cast a spell is increased, decreased, or changed because of additional or alternative costs, expend counts only the mana you actually spent.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blc/35/trailtracker-scout) · oracle_id `d38646dc-d1ea-473c-aaf1-df8ba327459f` · printing: BLC #35 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trained Armodon
 
@@ -634,6 +657,7 @@
   > *"I've been authorized to set up a California expansion team. Who's with me?"*
   > *—Hawkeye, Clint Barton*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7180 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/275/training-compound) · oracle_id `99c70f4e-de8a-426d-99aa-17b2f87625ba` · printing: MSH #275 (2026-06-26) · [rulings](https://api.scryfall.com/cards/c91e28db-307f-462a-88aa-581d10e77f10/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Training Drone
@@ -658,7 +682,16 @@
 - **Flavor text** (MAT printing):
   > *For those who survived, being prepared for the next crisis became one of the greatest virtues.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1043 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mat/9/training-grounds) · oracle_id `8de3eabe-9a8f-4865-beef-a4888c081d39` · printing: MAT #9 (2023-05-12) · [rulings](https://api.scryfall.com/cards/991c27ed-f53c-48c6-8c12-282f44b8d441/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2010-06-15* — Training Grounds won't affect a cost that isn't the cost to activate a creature's activated ability. For example, it won't affect Flameblast Dragon's {X}{R} cost, since that's a cost paid when a triggered ability resolves, and it won't affect a kicker cost, since that's an additional cost to cast a spell. Activated ability costs appear before a colon (:) in a card's rules text, or, in the case of some keywords, before a colon in reminder text.
+  - *2025-10-02* — If an activated ability of a creature you control costs no generic mana to activate (for example, if it costs {R}{R}, it costs {0}, or it costs only nonmana actions such as {T} or "Sacrifice a creature"), Training Grounds simply won't affect it. In particular, it won't increase the cost to include a mana payment of {1}.
+  - *2025-10-02* — Training Grounds affects only creatures you control on the battlefield. The costs of activated abilities that work in other zones (such as cycling or unearth) won't be reduced.
+  - *2025-10-02* — Training Grounds can reduce the amount you pay for a creature's activated ability cost that includes {X}. For example, Drana, Kalastria Bloodchief has an activated ability that costs {X}{B}{B}. If you control Training Grounds and you activate the ability with X equal to 5, you'll have to pay only {3}{B}{B}. This is true even if the ability states that {X} must be paid with a certain color of mana, as Crimson Hellkite's ability does.
+  - *2025-10-02* — Training Grounds can reduce the part of an activation cost represented by generic mana symbols down to nothing, as long as it still costs at least one mana. For example, if an activation cost is {2}{G}, you'd have to pay only {G}. If an activation cost is {2}, though, you'd still have to pay {1}.
+  - *2025-10-02* — Training Grounds reduces the generic mana in waterbend costs for activated abilities. It will not reduce waterbend costs that are additional costs for casting spells.
+  - *2025-10-02* — Training Grounds takes the total cost to activate a creature's activated ability into account, not just the cost printed on it. For example, Urabrask has an activated ability that costs {R}, and Suppression Field says "Activated abilities cost {2} more to activate unless they're mana abilities." Since activating Urabrask's activated ability would now cost {2}{R}, Training Grounds reduces that cost back to {R}.
+  - *2025-10-02* — Training Grounds won't affect the part of an activation cost represented by colored mana symbols or snow mana symbols. It also won't affect nonmana parts of an activation cost, if there are any.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mat/9/training-grounds) · oracle_id `8de3eabe-9a8f-4865-beef-a4888c081d39` · printing: MAT #9 (2023-05-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Training Regimen
 
@@ -719,7 +752,11 @@
   > *"Remind me again, what's the going rate for betrayal these days?"*
   > *—Captain Rhenmir*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8888 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m21/166/traitorous-greed) · oracle_id `344cdec9-60b3-42ec-a3d5-41ee1d4f7c6c` · printing: M21 #166 (2020-07-03) · [rulings](https://api.scryfall.com/cards/ab7052f1-9736-47b6-9da3-8c5ca925ab54/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-06-23* — Gaining control of a creature doesn't cause you to gain control of any Auras or Equipment attached to it.
+  - *2020-06-23* — If the target creature is an illegal target by the time Traitorous Greed tries to resolve, the spell won't resolve. You won't add two mana.
+  - *2020-06-23* — Traitorous Greed can target any creature, even one that's untapped or one you already control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m21/166/traitorous-greed) · oracle_id `344cdec9-60b3-42ec-a3d5-41ee1d4f7c6c` · printing: M21 #166 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Traitorous Instinct
 
@@ -774,6 +811,7 @@
 - **Flavor text** (SNC printing):
   > *A ten-minute ride can take you to the luxury of Park Heights, or the grit of the Caldaia.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7442 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/258/tramway-station) · oracle_id `e90e519d-023e-4d19-85ad-9972a76df3ba` · printing: SNC #258 (2022-04-29) · [rulings](https://api.scryfall.com/cards/e0532304-da6d-45cd-b1e6-4779d3f3b2bc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tranquil Cove
@@ -788,6 +826,7 @@
   > *"Abzan vintages are nice, but the sorghum wine made in Riverwheel Village is beyond compare."*
   > *—Iramaz, Abzan trader*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1102 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/270/tranquil-cove) · oracle_id `5d641bf6-0f93-4189-8dc1-ec7ea446dade` · printing: TDM #270 (2025-04-11) · [rulings](https://api.scryfall.com/cards/1c4efa6c-4f29-41cd-a728-bf0e479ace05/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tranquil Domain
@@ -812,6 +851,7 @@
 - **Flavor text** (C18 printing):
   > *Despite the chaos of the Roil and the devastation of the Eldrazi, Zendikar is a world of breathtaking beauty.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8172 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c18/289/tranquil-expanse) · oracle_id `a5478263-47c9-447f-9c7a-c77ce0752947` · printing: C18 #289 (2018-08-10) · [rulings](https://api.scryfall.com/cards/123cd67f-7226-4e69-8637-382380fb213e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tranquil Frillback
@@ -825,7 +865,9 @@
   > • Exile target player's graveyard.
   > • You gain 4 life.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6638 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mat/24/tranquil-frillback) · oracle_id `e87a4461-f3d1-443f-ad4c-dba91a993809` · printing: MAT #24 (2023-05-12) · [rulings](https://api.scryfall.com/cards/5b647377-d47e-4630-8ccc-933ef6127880/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-05-12* — Tranquil Frillback's triggered ability goes on the stack with no targets and no modes chosen. As it resolves, you may pay {G} up to three times. That is, you may pay {G}, {G}{G}, {G}{G}{G}, or choose not to pay. If you chose to pay, the second "reflexive" triggered ability will trigger. You'll choose the modes and targets, if any, for that second ability at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mat/24/tranquil-frillback) · oracle_id `e87a4461-f3d1-443f-ad4c-dba91a993809` · printing: MAT #24 (2023-05-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tranquil Garden
 
@@ -879,6 +921,7 @@
   > Cycling {G}{W}{U} ({G}{W}{U}, Discard this card: Draw a card.)
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2152 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/231/tranquil-landscape) · oracle_id `d4eb65d5-99fd-4daf-b7d3-8ebf99ee9c61` · printing: MH3 #231 (2024-06-14) · [rulings](https://api.scryfall.com/cards/113f48b9-a972-4e2c-af95-05ab078e01f2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tranquil Path
@@ -903,6 +946,7 @@
   > Cycling {G} ({G}, Discard this card: Draw a card.)
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1078 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/318/tranquil-thicket) · oracle_id `9f8fe514-77ed-41b4-a6f3-c6f095bb97be` · printing: DSC #318 (2024-09-27) · [rulings](https://api.scryfall.com/cards/7aed7d9d-d796-493e-98fd-c5b1a26621ed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Transcantation
@@ -950,7 +994,11 @@
   > When this creature enters, if you cast it, counter target spell. If that spell is countered this way, exile it instead of putting it into its owner's graveyard, then you may cast it without paying its mana cost.
 - **Keywords:** Flying, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7086 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/22/transcendent-dragon) · oracle_id `e83a629e-2d74-48e2-ad4d-f390067cc51a` · printing: TDC #22 (2025-04-11) · [rulings](https://api.scryfall.com/cards/3c9a4205-eda8-4858-9d46-2428058c94fc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-04-04* — If a spell has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2025-04-04* — If you cast a spell “without paying its mana cost,” you can’t choose to cast it for any alternative costs. You can, however, pay additional costs, such as kicker costs. If the spell has any mandatory additional costs those must be paid to cast the spell.
+  - *2025-04-04* — If you wish to cast the exiled card, you do so as part of the resolution of Transcendent Dragon’s last ability. You can’t wait to cast it later. Timing permissions based on the card’s type are ignored.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/22/transcendent-dragon) · oracle_id `e83a629e-2d74-48e2-ad4d-f390067cc51a` · printing: TDC #22 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Transcendent Envoy
 
@@ -965,6 +1013,7 @@
   > *—\*The Cosmogony\**
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2875 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/183/transcendent-envoy) · oracle_id `f08f7814-4585-41dd-b82e-ed2ef5e24242` · printing: SOC #183 (2026-04-24) · [rulings](https://api.scryfall.com/cards/363a88de-c9ae-41b8-a8d8-321a1b95a427/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Transcendent Master
@@ -995,7 +1044,14 @@
   > *Wrenn reached out to Teferi through the Blind Eternities, and an impossible connection flared across the vast emptiness.*
 - **Keywords:** Convoke
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6233 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/83/transcendent-message) · oracle_id `1f7f7765-aeb9-4e47-a6b9-ce823bb29e33` · printing: MOM #83 (2023-04-21) · [rulings](https://api.scryfall.com/cards/3261c7e6-45be-44d1-8855-026359ba0ae7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-01-12* — Because convoke isn't an alternative cost, it can be used in conjunction with alternative costs.
+  - *2024-01-12* — If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.
+  - *2024-01-12* — Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature's colors.
+  - *2024-01-12* — Tapping an untapped creature that's attacking or blocking to convoke a spell won't cause that creature to stop attacking or blocking.
+  - *2024-01-12* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
+  - *2024-01-12* — You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/83/transcendent-message) · oracle_id `1f7f7765-aeb9-4e47-a6b9-ce823bb29e33` · printing: MOM #83 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Transdimensional Bovine
 
@@ -1070,6 +1126,7 @@
   > When this land enters, sacrifice it unless you pay {1}.
   > {T}: Add one mana of any color.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8169 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/499/transguild-promenade) · oracle_id `98334bfa-c516-4c20-bdc5-9e32e7127adc` · printing: CMR #499 (2020-11-20) · [rulings](https://api.scryfall.com/cards/a0baaa39-7fce-4feb-9118-b1d6bc24f548/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Transit Mage
@@ -1082,6 +1139,7 @@
 - **Flavor text** (DFT printing):
   > *"Remember: You can take the wheel if you want, but \*I\* choose the music."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5390 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/70/transit-mage) · oracle_id `991efbf1-299d-4892-aeab-8ff9827f7168` · printing: DFT #70 (2025-02-14) · [rulings](https://api.scryfall.com/cards/6727169f-c33a-4ca5-889d-a63bcfc5a3f0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Transluminant
@@ -1153,7 +1211,10 @@
   > This artifact enters with three charge counters on it.
   > {1}, {T}, Remove a charge counter from this artifact: Destroy target creature. Its controller creates a 2/4 white Ox creature token. Activate only as a sorcery.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7921 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/981/transmogrifying-wand) · oracle_id `921345ce-2eaf-4b95-b65d-1c27204665ed` · printing: CMM #981 (2023-08-04) · [rulings](https://api.scryfall.com/cards/30bbb789-82e3-4c41-997f-2dc829e2a29d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-07-13* — If the target creature is a legal target but can’t be destroyed, most likely because it has indestructible, its controller gets an Ox token and gets to keep that creature.
+  - *2018-07-13* — If the target creature is an illegal target by the time Transmogrifying Wand’s ability tries to resolve, the ability doesn’t resolve. No player creates an Ox token.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/981/transmogrifying-wand) · oracle_id `921345ce-2eaf-4b95-b65d-1c27204665ed` · printing: CMM #981 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Transmutation
 
@@ -1176,7 +1237,14 @@
   > {3}, {T}, Sacrifice three artifact tokens with different names: Search your library for an artifact card, put it onto the battlefield, then shuffle. Activate only as a sorcery.
 - **Keywords:** Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3426 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/big/28/transmutation-font) · oracle_id `a68e57f3-f138-4c26-b8d5-55d1adec44a8` · printing: BIG #28 (2024-04-19) · [rulings](https://api.scryfall.com/cards/e6cfe673-d688-499a-882b-4fe5418739e3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+  - *2025-01-24* — If an effect refers to a Blood token, it means any artifact token with the subtype Blood, even if it has gained other subtypes.
+  - *2025-01-24* — Some triggered abilities trigger "whenever you sacrifice a Blood token." These abilities trigger regardless of why you sacrificed that Blood token.
+  - *2025-01-24* — You can't sacrifice a Blood token to pay multiple costs.
+- **Source flags:** [Scryfall](https://scryfall.com/card/big/28/transmutation-font) · oracle_id `a68e57f3-f138-4c26-b8d5-55d1adec44a8` · printing: BIG #28 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Transmute Artifact
 
@@ -1185,7 +1253,14 @@
 - **Oracle text:**
   > Sacrifice an artifact. If you do, search your library for an artifact card. If that card's mana value is less than or equal to the sacrificed artifact's mana value, put it onto the battlefield. If it's greater, you may pay {X}, where X is the difference. If you do, put it onto the battlefield. If you don't, put it into its owner's graveyard. Then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3706 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/me4/69/transmute-artifact) · oracle_id `dbe792f9-22be-4972-b418-99a6190c4421` · printing: ME4 #69 (2011-01-10) · [rulings](https://api.scryfall.com/cards/2888553d-5ed0-4e47-8cc2-1491b5557c53/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2004-10-04* — Additional mana spent to cover the differences in mana costs is not part of the mana cost of this spell. It is spent during spell resolution.
+  - *2004-10-04* — Because the "search" requires you to find a card with certain characteristics, you don't have to find the card if you don't want to.
+  - *2004-10-04* — If the chosen artifact costs less than or the same as the sacrificed artifact, you simply put it onto the battlefield without paying any additional costs.
+  - *2004-10-04* — The one from the library enters when the spell is resolved, and this does not count as the casting of an artifact.
+  - *2004-10-04* — You can't sacrifice more than one artifact to this spell.
+  - *2011-01-01* — The sacrifice of an artifact is an effect of the spell, not a cost, which means it happens as the spell resolves. If Transmute Artifact is countered, you do not have to sacrifice an artifact.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me4/69/transmute-artifact) · oracle_id `dbe792f9-22be-4972-b418-99a6190c4421` · printing: ME4 #69 (2011-01-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Transplant Theorist
 
@@ -1196,6 +1271,7 @@
   > Whenever this creature or another artifact you control enters, you may draw a card. If you do, discard a card.
   > {2}: Put target card from your graveyard on the bottom of your library.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9850 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/73/transplant-theorist) · oracle_id `4a60db66-0347-4efc-8507-ab7ed8d984fe` · printing: ONE #73 (2023-02-10) · [rulings](https://api.scryfall.com/cards/f912c4ec-08e9-4524-a2ba-98f6dfabdc18/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Transpose
@@ -1207,7 +1283,11 @@
   > Rebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)
 - **Keywords:** Rebound
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2656 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/52/transpose) · oracle_id `77d5f298-06b4-49d1-9b33-f1f176665ba2` · printing: FIC #52 (2025-06-13) · [rulings](https://api.scryfall.com/cards/66392b0e-8691-42a4-bc84-03b017174a73/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-06-06* — Casting the card again due to rebound's delayed triggered ability is optional. If you choose not to cast the card, or if you can't because an effect prohibits it, the card will stay exiled. You won't get another chance to cast it on a future turn. If you do cast the card, it's put into its owner's graveyard as normal once it resolves.
+  - *2025-06-06* — If a spell with rebound that you cast from your hand doesn't resolve for any reason, including being countered, that spell won't resolve and none of its effects will happen, including rebound. The spell will be put into its owner's graveyard and you won't get to cast it again on your next turn.
+  - *2025-06-06* — The Wizard token's ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/52/transpose) · oracle_id `77d5f298-06b4-49d1-9b33-f1f176665ba2` · printing: FIC #52 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trap Digger
 
@@ -1284,7 +1364,13 @@
   > *—Huatli*
 - **Keywords:** Enrage
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9264 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rix/29/trapjaw-tyrant) · oracle_id `00605b83-faf6-4779-be9d-6a2c8f0ea722` · printing: RIX #29 (2018-01-19) · [rulings](https://api.scryfall.com/cards/b2c280c8-3471-4ae1-be96-0f392b095ce2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2018-01-19* — Auras attached to the exiled creature will be put into their owners’ graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled creature will cease to exist.
+  - *2018-01-19* — If Trapjaw Tyrant leaves the battlefield before its triggered ability resolves (most likely because it was dealt lethal damage), the target creature won’t be exiled.
+  - *2018-01-19* — If a token is exiled this way, it will cease to exist and won’t return to the battlefield.
+  - *2018-01-19* — If lethal damage is dealt to a creature with an enrage ability, that ability triggers. The creature with that enrage ability leaves the battlefield before that ability resolves, so it won’t be affected by the resolving ability.
+  - *2018-01-19* — If multiple sources deal damage to a creature with an enrage ability at the same time, most likely because multiple creatures blocked that creature, the enrage ability triggers only once.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rix/29/trapjaw-tyrant) · oracle_id `00605b83-faf6-4779-be9d-6a2c8f0ea722` · printing: RIX #29 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trapmaker's Snare
 
@@ -1308,7 +1394,11 @@
   > *Maggie had always wanted to be on television.*
 - **Keywords:** Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9027 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/36/trapped-in-the-screen) · oracle_id `20f2fc0e-b1d4-4f80-9c7a-a9fb25fef7b8` · printing: DSK #36 (2024-09-27) · [rulings](https://api.scryfall.com/cards/1fe95bfb-8ca7-434f-a2e7-a6b2e699584e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-09-20* — Auras attached to the exiled permanent will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist. When the card returns to the battlefield, it will be a new object with no connection to the card that was exiled.
+  - *2024-09-20* — If Trapped in the Screen leaves the battlefield before its last ability resolves, the target permanent won't be exiled at all.
+  - *2024-09-20* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/36/trapped-in-the-screen) · oracle_id `20f2fc0e-b1d4-4f80-9c7a-a9fb25fef7b8` · printing: DSK #36 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trapped in the Tower
 
@@ -1355,7 +1445,16 @@
   > Secret council — Each player secretly votes for a creature you don't control, then those votes are revealed. For each creature with one or more votes, put that many stun counters on it, then tap it. (If a permanent with a stun counter would become untapped, remove one from it instead.)
 - **Keywords:** Secret council
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7918 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/25/trap-the-trespassers) · oracle_id `ef72af33-37fc-48ed-90d8-547c90e1609d` · printing: LTC #25 (2023-06-23) · [rulings](https://api.scryfall.com/cards/a077a046-300b-41d2-b891-c57ebe983ba2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2023-06-16* — Abilities that trigger "whenever players finish voting" trigger once all players have voted or once all secret votes are revealed, but they won't go on the stack until the current spell or ability finishes resolving.
+  - *2023-06-16* — Before secret votes are revealed, players may announce how they intend to vote, but they can't reveal what they actually wrote down until all votes are simultaneously revealed. Players can lie about how they intend to vote before the votes are revealed.
+  - *2023-06-16* — Each player must vote for one of the available options. They can't abstain.
+  - *2023-06-16* — No player votes until the spell or ability resolves. Any responses to that spell or ability must be made without knowing the outcome of the vote.
+  - *2023-06-16* — None of the creatures are targeted. Players may vote for a creature with hexproof, protection from blue, or similar.
+  - *2023-06-16* — Players may vote for creatures that are already tapped.
+  - *2023-06-16* — The phrase "the vote is tied" refers only to when there is more than one choice that received the most votes. For example, if a 5-player vote from among three different choices ends 3 votes to 1 vote to 1 vote, the vote isn't tied.
+  - *2023-06-16* — To secretly vote, each player writes down their chosen option without showing it to anyone else. Each player then keeps their vote secret until all players simultaneously reveal their votes.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/25/trap-the-trespassers) · oracle_id `ef72af33-37fc-48ed-90d8-547c90e1609d` · printing: LTC #25 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trash Bin
 
@@ -1379,7 +1478,11 @@
 - **Flavor text** (2XM printing):
   > *Goblins generally have two possessions: one per hand.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3907 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/148/trash-for-treasure) · oracle_id `e69279f6-50a1-4db5-83be-30a2ea7fc6a9` · printing: 2XM #148 (2020-08-07) · [rulings](https://api.scryfall.com/cards/75993427-fb8d-41cc-9016-323e804a5eb7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-08-07* — The artifact that you sacrifice is sacrificed after determining the total cost to cast Trash for Treasure. Its abilities may affect that cost.
+  - *2020-08-07* — Trash for Treasure can't target the artifact that you sacrifice to pay its additional cost.
+  - *2020-08-07* — You can't sacrifice an artifact to generate mana to pay towards Trash for Treasure's cost and also to pay its additional cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/148/trash-for-treasure) · oracle_id `e69279f6-50a1-4db5-83be-30a2ea7fc6a9` · printing: 2XM #148 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trash Panda
 
@@ -1405,7 +1508,20 @@
   > + {1} — Until end of turn, target creature gains "Whenever this creature deals combat damage to a player, draw two cards."
 - **Keywords:** Spree
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6089 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/186/trash-the-town) · oracle_id `b47f7f1e-2d81-4b1b-870d-4c1a4f020505` · printing: OTJ #186 (2024-04-19) · [rulings](https://api.scryfall.com/cards/eda59f99-1d6d-4051-ac89-b7cbfa19262e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2024-04-12* — Each additional cost and associated mode in the text box is also preceded with a + indicator. These symbols also have no rules meaning and serve only to remind players that the listed costs are additional costs.
+  - *2024-04-12* — If a mode requires a target, you can select that mode only if there’s a legal target available. Ignore the targeting requirements for modes you don’t choose.
+  - *2024-04-12* — If a spell with spree is copied, the effect that creates the copy may allow you to choose new targets. You cannot choose new modes.
+  - *2024-04-12* — If all targets for the chosen modes become illegal before a spell with spree resolves, the spell won’t resolve and none of its effects will happen. If at least one target is still legal, the spell will resolve but will have no effect on any illegal targets.
+  - *2024-04-12* — If an effect allows you to cast a spell with spree “without paying its mana cost,” you must still choose at least one mode and pay the associated additional costs.
+  - *2024-04-12* — No matter which modes you choose, you always follow the instructions in the order they are written.
+  - *2024-04-12* — No player can cast spells or activate abilities in between the modes of a resolving spell. Any abilities that trigger won’t be put onto the stack until the spell is done resolving.
+  - *2024-04-12* — Spells with spree have a + (plus sign) indicator in the upper right corner of the card frame. This has no rules meaning and serves only to remind players that at least one additional cost is required to cast the spell.
+  - *2024-04-12* — The mana value of a spell with spree is determined only by its mana cost (in the upper right corner of the card). It doesn’t matter which modes you choose or which additional costs you pay, including any additional costs imposed by other effects.
+  - *2024-04-12* — You can’t choose the same mode more than once.
+  - *2024-04-12* — You choose the modes as you cast the spell with spree. Once modes are chosen, they can’t be changed.
+  - *2024-04-12* — You must choose at least one of the listed modes and pay its associated additional cost in order to cast a spell with spree.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/186/trash-the-town) · oracle_id `b47f7f1e-2d81-4b1b-870d-4c1a4f020505` · printing: OTJ #186 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Traumatic Critique
 
@@ -1417,7 +1533,9 @@
   > *"The \*artist\* should suffer for their craft, not the audience!"*
   > *—Galazeth Prismari*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8389 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/239/traumatic-critique) · oracle_id `06c1f8a4-4948-435b-ae98-b1276b57e958` · printing: SOS #239 (2026-04-24) · [rulings](https://api.scryfall.com/cards/2a812fa7-4599-4e25-97db-20ffc6bc0b26/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-03-20* — If the target is illegal as Traumatic Critique tries to resolve, it won't resolve and none of its effects will happen. You won't draw or discard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/239/traumatic-critique) · oracle_id `06c1f8a4-4948-435b-ae98-b1276b57e958` · printing: SOS #239 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Traumatic Revelation
 
@@ -1452,7 +1570,9 @@
   > *He was left with just enough memory to understand what he had lost.*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2756 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m14/77/traumatize) · oracle_id `e2ea7d01-6564-4a7f-b935-49a5e3978dac` · printing: M14 #77 (2013-07-19) · [rulings](https://api.scryfall.com/cards/9b8784dd-83f9-41f8-aedc-f0f81073ffcb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — The player can put the cards in their graveyard in any order they choose.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m14/77/traumatize) · oracle_id `e2ea7d01-6564-4a7f-b935-49a5e3978dac` · printing: M14 #77 (2013-07-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Traveler's Amulet
 
@@ -1463,6 +1583,7 @@
 - **Flavor text** (INR printing):
   > *The rider set off into the eerie mist, swaddled in armor and laden with amulets.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4798 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/273/travelers-amulet) · oracle_id `48b561dd-f23d-409a-87c8-e49902b2477b` · printing: INR #273 (2025-01-24) · [rulings](https://api.scryfall.com/cards/26a7e5f0-0d60-4118-ad10-b27c7382511a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Traveler's Cloak
@@ -1500,7 +1621,21 @@
   > You may play lands and cast Bird spells from the top of your library.
   > If a land or Bird you control entering the battlefield causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1874 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/210/traveling-chocobo) · oracle_id `2e5675d3-3fb0-43b5-a65c-95aacbe48bf9` · printing: FIN #210 (2025-06-13) · [rulings](https://api.scryfall.com/cards/2462df62-fc35-47ed-9571-40452074dc6d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2025-06-06* — Abilities that apply "as [this permanent] enters," such as choosing a color with Crossroads Village, are also unaffected.
+  - *2025-06-06* — If a land or Bird you control entering at the same time as Traveling Chocobo (including Traveling Chocobo itself) causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.
+  - *2025-06-06* — If a triggered ability is linked to a second ability, additional instances of that triggered ability are also linked to that second ability. If the second ability refers to "the exiled card," it refers to all cards exiled by instances of the triggered ability.
+  - *2025-06-06* — If the top card of your library changes while you're casting a spell, playing a land, or activating an ability, you can't look at the new top card until you finish doing so. This means that if you cast the top card of your library, you can't look at the next one until you're done paying for that spell.
+  - *2025-06-06* — If you control two Traveling Chocobos, a land or Bird you control entering causes abilities to trigger three times, not four. A third Traveling Chocobo causes abilities to trigger four times, a fourth causes abilities to trigger five times, and so on.
+  - *2025-06-06* — In a Two-Headed Giant game, Traveling Chocobo's second ability does not affect triggered abilities of permanents your teammate controls.
+  - *2025-06-06* — In some cases involving linked abilities, an ability requires information about "the exiled card." When this happens, the ability gets multiple answers. If these answers are being used to determine the value of a variable, the sum is used. For example, if Clive's Hideaway's hideaway ability triggers twice, two cards are eventually exiled. The last ability of Clive's Hideaway will allow you to cast both exiled cards without paying their mana costs (assuming you control four or more legendary creatures at that time.)
+  - *2025-06-06* — Replacement effects are unaffected by Traveling Chocobo's ability. For example, a Bird that enters the battlefield under your control with one +1/+1 counter on it won't receive an additional +1/+1 counter.
+  - *2025-06-06* — The top card of your library isn't in your hand, so you can't cycle it, discard it, or activate any of its abilities that could be activated from your hand.
+  - *2025-06-06* — Traveling Chocobo lets you look at the top card of your library whenever you want (with one restriction—see below), even if you don't have priority. This action doesn't use the stack. Knowing what that card is becomes part of the information you have access to, just like you can look at the cards in your hand.
+  - *2025-06-06* — Traveling Chocobo's ability doesn't copy the triggered ability; it just causes the ability to trigger an additional time. Any choices made as you put the ability onto the stack, such as modes and targets, are made separately for each instance of the ability. Any choices made on resolution, such as whether to put counters on a permanent, are also made individually.
+  - *2025-06-06* — Traveling Chocobo's last ability affects a permanent's own "enters" triggered abilities (as long as it's a land or Bird you control) as well as other triggered abilities that trigger when a land or Bird you control enters the battlefield. Such triggered abilities start with "when" or "whenever." Some keyword abilities also include a triggered ability that happens when a permanent enters the battlefield.
+  - *2025-06-06* — You must follow all normal timing rules for Bird spells cast and lands played using the middle ability and must pay all costs for spells cast this way. To cast a spell this way, you may choose to pay any alternative costs or optional additional costs the spell may have (such as a kicker cost). You must pay any mandatory additional costs.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/210/traveling-chocobo) · oracle_id `2e5675d3-3fb0-43b5-a65c-95aacbe48bf9` · printing: FIN #210 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Traveling Minister
 
@@ -1565,6 +1700,7 @@
   > *—Bartz Klauser*
 - **Keywords:** Affinity
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9669 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/82/travel-the-overworld) · oracle_id `61e3709e-7ecd-4a59-bca1-019d16795740` · printing: FIN #82 (2025-06-13) · [rulings](https://api.scryfall.com/cards/aa5086e0-e2f2-498f-9035-1b31e1d21e0a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Travel Through Caradhras
@@ -1588,7 +1724,9 @@
   > *"Know thine enemy. Admirable advice."*
   > *—The Fourth Doctor*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8049 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/60/traverse-eternity) · oracle_id `ac5c2975-6a56-42c7-97c5-6a0e75c000bb` · printing: WHO #60 (2023-10-13) · [rulings](https://api.scryfall.com/cards/f6570c23-f135-4e81-9a4c-934c298a51ad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-10-13* — If a historic permanent has an {X} in its mana cost, the value of {X} is 0 when determining the mana value of that permanent.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/60/traverse-eternity) · oracle_id `ac5c2975-6a56-42c7-97c5-6a0e75c000bb` · printing: WHO #60 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Traverse the Outlands
 
@@ -1600,6 +1738,7 @@
   > *"By the time you've seen it all, all have already changed."*
   > *—Wandering treant, name unknown*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1654 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/258/traverse-the-outlands) · oracle_id `0d49cf51-af1f-4c17-9cf4-b82bc7c2c72e` · printing: CLB #258 (2022-06-10) · [rulings](https://api.scryfall.com/cards/ef192364-713a-42ff-8249-69a73ae61bd8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Traverse the Ulvenwald
@@ -1611,7 +1750,14 @@
   > Delirium — If there are four or more card types among cards in your graveyard, instead search your library for a creature or land card, reveal it, put it into your hand, then shuffle.
 - **Keywords:** Delirium
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5195 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/221/traverse-the-ulvenwald) · oracle_id `c9dd2bf5-32e0-47f7-9a49-501c262d745b` · printing: INR #221 (2025-01-24) · [rulings](https://api.scryfall.com/cards/77b459cb-994c-430d-b0a6-59a8dd20adbd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2016-04-08* — Some delirium abilities that appear on instants and sorceries use the word "instead." These spells have an upgraded effect when they resolve if there are four or more card types among cards in your graveyard. They check that number only while they're resolving and don't count themselves, since they aren't in your graveyard yet. You only get the upgraded effect, not both effects.
+  - *2025-01-24* — Because you consider only the characteristics of a double-faced card’s front face while it’s not on the battlefield, the types of its back face won’t be counted for delirium.
+  - *2025-01-24* — Some delirium abilities that appear on instants and sorceries use the word “instead.” These spells have an upgraded effect when they resolve if there are four or more card types among cards in your graveyard. They check that number only while they’re resolving and don’t count themselves, since they aren’t in your graveyard yet. You only get the upgraded effect, not both effects.
+  - *2025-01-24* — The card types that could appear in your graveyard are artifact, battle, creature, enchantment, instant, kindred, land, planeswalker, and sorcery. Supertypes (such as legendary and basic) and subtypes (such as Human and Equipment) are not counted.
+  - *2025-01-24* — The delirium ability of Traverse the Ulvenwald allows you to find a nonbasic land card.
+  - *2025-01-24* — The number of card types matters, not the number of cards. For example, Epitaph Golem (an artifact creature) along with Memory Deluge (an instant) and Travel Preparations (a sorcery) will enable delirium.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/221/traverse-the-ulvenwald) · oracle_id `c9dd2bf5-32e0-47f7-9a49-501c262d745b` · printing: INR #221 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trawler Drake
 
@@ -1669,7 +1815,12 @@
   > Whenever you cast a historic spell, untap Traxos. (Artifacts, legendaries, and Sagas are historic.)
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3948 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/195/traxos-scourge-of-kroog) · oracle_id `c1c78144-b335-4d22-a668-9173ab6a0d04` · printing: DMC #195 (2022-09-09) · [rulings](https://api.scryfall.com/cards/8566e91a-5f2c-4854-aeb3-68b3c4344582/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2018-04-27* — A card, spell, or permanent is historic if it has the legendary supertype, the artifact card type, or the Saga subtype. Having two of those qualities doesn't make an object more historic than another or provide an additional bonus—an object either is historic or it isn't.
+  - *2018-04-27* — An ability that triggers "whenever you cast a historic spell" doesn't trigger if a historic card is put onto the battlefield without being cast.
+  - *2018-04-27* — Lands are never cast, so abilities that trigger "whenever you cast a historic spell" won't trigger if you play a legendary land. They also won't trigger if a card on the battlefield transforms into a legendary land, as the Ixalan and Rivals of Ixalan double-faced cards do.
+  - *2018-04-27* — Some abilities trigger "whenever you cast a historic spell." Such an ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/195/traxos-scourge-of-kroog) · oracle_id `c1c78144-b335-4d22-a668-9173ab6a0d04` · printing: DMC #195 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trazyn the Infinite
 

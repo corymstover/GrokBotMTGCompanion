@@ -7,7 +7,7 @@
   "ingested_total": 33894,
   "batches_run": 6,
   "next_batch_size": 2000,
-  "last_run": "2026-10-15T11:03:04+00:00",
+  "last_run": "2026-10-15T11:03:53+00:00",
   "last_added": 0,
   "ingested_edhrec_rank_contiguous_through": 32351,
   "max_ingested_edhrec_rank": 32353,
@@ -65,22 +65,27 @@
     "source": "scryfall rulings bulk",
     "bulk_updated_at": "2026-10-15T09:00:33.309+00:00",
     "next_batch_size": 5000,
-    "cards_processed": 1000,
-    "cards_with_rulings_rendered": 686,
-    "rulings_rendered": 2604,
+    "cards_processed": 10000,
+    "cards_with_rulings_rendered": 7385,
+    "rulings_rendered": 32675,
     "cards_with_rulings_available": 19889,
     "rulings_available_for_ingested": 78943,
-    "last_added": 1000,
+    "last_added": 9000,
     "next_target": {
-      "name": "Delney, Streetwise Lookout",
-      "oracle_id": "245d0ccf-87b6-460a-8b99-9e2079f2d375",
-      "edhrec_rank": 852
+      "name": "Exterminate!",
+      "oracle_id": "90b540ab-b05a-4d29-b896-7ff5da0b101d",
+      "edhrec_rank": 9909
     },
     "history": [
       {
         "date": "2026-10-15",
         "cards_processed": 1000,
         "done_total": 1000
+      },
+      {
+        "date": "2026-10-15",
+        "cards_processed": 9000,
+        "done_total": 10000
       }
     ]
   }

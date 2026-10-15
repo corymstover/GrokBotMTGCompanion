@@ -141,7 +141,11 @@
   > When this creature enters, another target permanent gains indestructible for as long as you control this creature. (Effects that say "destroy" don't destroy it. A creature with indestructible can't be destroyed by damage.)
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6990 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/e01/1/aegis-angel) · oracle_id `5902e074-7154-4fc7-8776-b87e8b1925e7` · printing: E01 #1 (2017-06-16) · [rulings](https://api.scryfall.com/cards/3d27e65f-6d55-420e-a843-16097b50f7a2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2011-09-22* — If Aegis Angel and the permanent would be destroyed simultaneously, only Aegis Angel will be destroyed.
+  - *2011-09-22* — If Aegis Angel leaves the battlefield, you no longer control it.
+  - *2013-07-01* — If another player gains control of Aegis Angel, the permanent will no longer have indestructible, even if you regain control of Aegis Angel.
+- **Source flags:** [Scryfall](https://scryfall.com/card/e01/1/aegis-angel) · oracle_id `5902e074-7154-4fc7-8776-b87e8b1925e7` · printing: E01 #1 (2017-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aegis Automaton
 
@@ -174,6 +178,7 @@
 - **Flavor text** (JOU printing):
   > *Athreos cares little for the other gods' conflict with mortals. He is concerned only with safe passage for the dead.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7565 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jou/1/aegis-of-the-gods) · oracle_id `c5bfc1b9-a55d-4608-a6f7-bb62cb8dc3c6` · printing: JOU #1 (2014-05-02) · [rulings](https://api.scryfall.com/cards/f2b2f381-86a2-42ac-b694-dcde437d574f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aegis of the Heavens
@@ -234,6 +239,7 @@
 - **Flavor text** (FDN printing):
   > *On Ikoria, even the gentlest creatures are constantly evolving, outpacing tooth and claw with mighty natural armor.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9554 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/150/aegis-turtle) · oracle_id `f84c30e7-2ea8-43ff-9356-1f907558cfd9` · printing: FDN #150 (2024-11-15) · [rulings](https://api.scryfall.com/cards/c7f2014a-fbc9-447c-a440-e06d01066bb9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aeolipile
@@ -378,6 +384,7 @@
   > Whenever another player casts a spell from anywhere other than their hand, draw a card.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2782 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/54/aerial-extortionist) · oracle_id `7e7d7f4d-2c22-4803-ba5e-5eb653c25b5e` · printing: MKC #54 (2024-02-09) · [rulings](https://api.scryfall.com/cards/5353bcb9-800d-4d74-95fa-42350a0f25de/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aerial Formation
@@ -452,6 +459,7 @@
   > *Dwarves have an instinct for repair, an inherent understanding of how systems work, and a reputation for fearlessness. They're perfect candidates for the Fair's emergency response team.*
 - **Keywords:** Flying, Lifelink, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8753 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c20/72/aerial-responder) · oracle_id `69b1b0ec-9db0-48d1-a7b5-71281aca16fe` · printing: C20 #72 (2020-04-17) · [rulings](https://api.scryfall.com/cards/8833065e-5022-4f48-b2fd-6fe5647c0a07/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aerial Surveyor
@@ -465,7 +473,9 @@
   > Crew 2
 - **Keywords:** Flying, Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5092 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/nec/5/aerial-surveyor) · oracle_id `92c9b2fd-95d6-4937-aee2-67b4bb8ca29d` · printing: NEC #5 (2022-02-18) · [rulings](https://api.scryfall.com/cards/7c474f31-336d-44df-a7da-27aefd220e22/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-02-18* — Aerial Surveyor's triggered ability has an intervening "if" clause. That means (1) the ability won't trigger at all unless the defending player controls more lands than you, and (2) the ability will do nothing if you control at least as many lands as the defending player by the time it resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/nec/5/aerial-surveyor) · oracle_id `92c9b2fd-95d6-4937-aee2-67b4bb8ca29d` · printing: NEC #5 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aerial Toastmaster
 
@@ -579,7 +589,14 @@
   > When Aerith Gainsborough dies, put X +1/+1 counters on each legendary creature you control, where X is the number of +1/+1 counters on Aerith Gainsborough.
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2086 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/4/aerith-gainsborough) · oracle_id `dd9a6f6b-f9b7-4292-bc80-b7da326de032` · printing: FIN #4 (2025-06-13) · [rulings](https://api.scryfall.com/cards/e86328b6-ded2-41df-8b6e-4a770e7b171e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-06-06* — Aerith Gainsborough's second ability triggers just once for each life-gaining event, whether it's 1 life from Al Bhed Salvagers or 3 life from Balamb T-Rexaur.
+  - *2025-06-06* — Each creature with lifelink dealing combat damage causes a separate life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, Aerith Gainsborough's second ability will trigger twice. However, if a single creature you control with lifelink deals combat damage to multiple creatures, players, planeswalkers, and/or battles at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once.
+  - *2025-06-06* — If Aerith Gainsborough is dealt lethal damage at the same time that you gain life, it will die before its second ability would resolve. Its last ability will use the number of counters that were on it when it was last on the battlefield.
+  - *2025-06-06* — If you gain an amount of life "for each" of something or "equal to the number" of something, that life is gained as one event and Aerith Gainsborough's second ability triggers only once.
+  - *2025-06-06* — In a Two-Headed Giant game, life gained by your teammate won't cause Aerith Gainsborough's second ability to trigger, even though it caused your team's life total to increase.
+  - *2025-06-06* — In the rare case where enough -1/-1 counters are put on Aerith Gainsborough at the same time to make its toughness 0 or less, the number of +1/+1 counters on it before it got those -1/-1 counters will be used to determine the value of X in Aerith Gainsborough's third ability. For example, if there are two +1/+1 counters on Aerith Gainsborough and it gets three -1/-1 counters, you'll put two +1/+1 counters on each legendary creature you control when Aerith Gainsborough's third ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/4/aerith-gainsborough) · oracle_id `dd9a6f6b-f9b7-4292-bc80-b7da326de032` · printing: FIN #4 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aerith, Last Ancient
 
@@ -593,7 +610,9 @@
   > *"Right here, right now, I need to know I did everything I could."*
 - **Keywords:** Lifelink, Raise
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5245 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/76/aerith-last-ancient) · oracle_id `d6cba688-faff-4d9f-8148-37d389fa5fb3` · printing: FIC #76 (2025-06-13) · [rulings](https://api.scryfall.com/cards/d041a51c-9a28-4b32-9da3-0f06807959f1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-06-06* — Aerith's last ability checks at the moment it would trigger to see if you gained life this turn. If you didn't, the ability won't trigger at all. Once your end step begins, it's too late to gain life in order to cause this ability to trigger. However, the last part of the ability will check how much life you've gained as the ability resolves, so if you've only gained 5 life this turn by the time the end step comes around, you could still gain 2 more life while this ability is on the stack in order to return the target creature card to the battlefield instead of your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/76/aerith-last-ancient) · oracle_id `d6cba688-faff-4d9f-8148-37d389fa5fb3` · printing: FIC #76 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aerith Rescue Mission
 
@@ -648,6 +667,7 @@
   > *The Consulate recruits its best pilots from the League of Aeronauts. Many go on to command entire fleets.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9078 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/nec/79/aeronaut-admiral) · oracle_id `dcde1a62-33a5-4454-a389-9bf7a3521a4c` · printing: NEC #79 (2022-02-18) · [rulings](https://api.scryfall.com/cards/943f7244-aa62-423f-aaaa-680bdfb4f47e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aeronaut Cavalry
@@ -812,6 +832,7 @@
   > • Return another target nonland permanent to its owner's hand.
   > • Draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1559 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/42/aether-channeler) · oracle_id `fb220f46-f8b8-4804-baa4-e7d50b4871f7` · printing: DMU #42 (2022-09-09) · [rulings](https://api.scryfall.com/cards/60afeb75-2c1e-4634-8c83-88b1dddb77c2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aether Charge
@@ -899,7 +920,16 @@
 - **Flavor text** (DRC printing):
   > *As Kaladesh became Avishkar, aether finally started flowing freely to all.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5523 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/drc/17/aetherflux-conduit) · oracle_id `775617cd-7264-4365-94c4-ffae4eb9ec8b` · printing: DRC #17 (2025-02-14) · [rulings](https://api.scryfall.com/cards/dd9ac0f2-2d8f-40fc-97fb-d6e05633405d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2025-02-07* — Energy counters are a kind of counter that a player may have. They’re not associated with any specific permanents.
+  - *2025-02-07* — Energy counters aren’t mana. They don’t go away as steps, phases, and turns end, and effects that add mana “of any type” can’t give you energy counters.
+  - *2025-02-07* — If an effect says you get one or more {E}, you get that many energy counters. To pay one or more {E}, you lose that many energy counters. You can’t pay more energy counters than you have. Any effects that interact with counters a player gets, has, or loses can interact with energy counters.
+  - *2025-02-07* — Keep track of how many energy counters each player has. Potential ways to track this include writing them down on paper or using dice, but any method that is clear and mutually agreeable is fine.
+  - *2025-02-07* — Some spells and abilities say that you “may pay” a certain amount of {E}, then describes an effect that happens “if you do.” In that case, no player may take actions to try to stop the ability’s effect after you make your choice. If the payment is instead followed by the phrase “when you do” followed by an effect, then after you choose to pay {E}, a new triggered ability called a reflexive trigger is put on the stack, and you choose targets for the reflexive trigger (if the effect asks for targets). Players may respond as normal to this new triggered ability. Once that reflexive trigger resolves, the effect will finally occur.
+  - *2025-02-07* — Some spells and abilities say that you “may pay” a certain amount of {E}. You can’t pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
+  - *2025-02-07* — Some spells and abilities which give you {E} or say you “may pay” some amount of {E} require one or more targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won’t resolve. None of its effects will happen, you won’t get any {E} from it, and you won’t get the chance to pay any {E} for its effects even if you want to.
+  - *2025-02-07* — {E} is the energy symbol. It represents one energy counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/drc/17/aetherflux-conduit) · oracle_id `775617cd-7264-4365-94c4-ffae4eb9ec8b` · printing: DRC #17 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aetherflux Reservoir
 
@@ -927,7 +957,9 @@
 - **Flavor text** (SOC printing):
   > *The militia formed up in the central plaza awaiting the onslaught, but the giants never quite made it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3701 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/186/aether-gale) · oracle_id `b21d6482-1b3a-47e6-98a5-3067f5f3818b` · printing: SOC #186 (2026-04-24) · [rulings](https://api.scryfall.com/cards/4e336e87-e5af-46a0-8caf-5d9ad8d671fd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2014-11-07* — You must choose six different legal targets in order to cast Aether Gale. If some, but not all, of those targets become illegal before Aether Gale resolves, the remaining legal targets will be put into their owners' hands.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/186/aether-gale) · oracle_id `b21d6482-1b3a-47e6-98a5-3067f5f3818b` · printing: SOC #186 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aethergeode Miner
 
@@ -986,7 +1018,17 @@
 - **Flavor text** (KLD printing):
   > *It powers the dreams of Ghirapur.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3449 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/kld/242/aether-hub) · oracle_id `61c89b11-65c9-4fda-bbcd-d84de25df801` · printing: KLD #242 (2016-09-30) · [rulings](https://api.scryfall.com/cards/25ea04d8-5d85-49d3-8d8d-7fe123d0ed6c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2024-06-07* — Energy counters are a kind of counter that a player may have. They're not associated with any specific permanents.
+  - *2024-06-07* — Energy counters aren't mana. They don't go away as steps, phases, and turns end, and effects that add mana "of any type" can't give you energy counters.
+  - *2024-06-07* — If a spell or ability with one or more targets states that you "may pay" some amount of {E}, and each permanent that it targets has become an illegal target, the spell or ability won't resolve. You can't pay any {E} even if you want to.
+  - *2024-06-07* — If an effect says you get one or more {E}, you get that many energy counters. To pay one or more {E}, you lose that many energy counters. You can't pay more energy counters than you have. Any effects that interact with counters a player gets, has, or loses can interact with energy counters.
+  - *2024-06-07* — Keep track of how many energy counters each player has. Potential ways to track this include writing theme down on paper or using dice, but any method that is clear and mutually agreeable is fine. (At higher levels of tournament play, dice may not be allowed for tracking counters that players have.)
+  - *2024-06-07* — Some spells and abilities that give you {E} may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't get any {E}.
+  - *2024-06-07* — Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
+  - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
+  - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/kld/242/aether-hub) · oracle_id `61c89b11-65c9-4fda-bbcd-d84de25df801` · printing: KLD #242 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aetheric Amplifier
 
@@ -999,7 +1041,9 @@
   > • Double the number of each kind of counter you have.
 - **Keywords:** Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2288 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/drc/18/aetheric-amplifier) · oracle_id `295cd8e1-0830-46c1-9957-556afd4bcee6` · printing: DRC #18 (2025-02-14) · [rulings](https://api.scryfall.com/cards/21c33a91-b02c-43ec-a385-aa0349928f9c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-02-07* — To double the number of a kind of counters on a permanent, put a number of that kind of counters on it equal to the number it already has. Other cards that interact with putting counters on it will interact with this effect accordingly. The same is true for doubling the number of counters on a player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/drc/18/aetheric-amplifier) · oracle_id `295cd8e1-0830-46c1-9957-556afd4bcee6` · printing: DRC #18 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aether Inspector
 
@@ -1132,7 +1176,19 @@
 - **Flavor text** (M3C printing):
   > *Avaati Vya's invention stabilized raw aether, but even she didn't know it would also create life.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5584 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m3c/54/aether-refinery) · oracle_id `9e9cde32-0568-44bc-a00a-9709f15c1350` · printing: M3C #54 (2024-06-14) · [rulings](https://api.scryfall.com/cards/94553de8-52e8-4209-919a-cdf9289af116/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2024-06-07* — Energy counters are a kind of counter that a player may have. They're not associated with any specific permanents.
+  - *2024-06-07* — Energy counters aren't mana. They don't go away as steps, phases, and turns end, and effects that add mana "of any type" can't give you energy counters.
+  - *2024-06-07* — If a spell or ability with one or more targets states that you "may pay" some amount of {E}, and each permanent that it targets has become an illegal target, the spell or ability won't resolve. You can't pay any {E} even if you want to.
+  - *2024-06-07* — If an effect says you get one or more {E}, you get that many energy counters. To pay one or more {E}, you lose that many energy counters. You can't pay more energy counters than you have. Any effects that interact with counters a player gets, has, or loses can interact with energy counters.
+  - *2024-06-07* — If two or more effects attempt to modify how many {E} you get (or how many counters you would get), you choose the order to apply those effects, no matter who controls the sources of those effects.
+  - *2024-06-07* — If you control two Aether Refineries, the amount of {E} you get is four times the original number. Three Aether Refineries multiplies the original number by eight, and so on.
+  - *2024-06-07* — Keep track of how many energy counters each player has. Potential ways to track this include writing theme down on paper or using dice, but any method that is clear and mutually agreeable is fine. (At higher levels of tournament play, dice may not be allowed for tracking counters that players have.)
+  - *2024-06-07* — Some spells and abilities that give you {E} may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't get any {E}.
+  - *2024-06-07* — Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
+  - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
+  - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m3c/54/aether-refinery) · oracle_id `9e9cde32-0568-44bc-a00a-9709f15c1350` · printing: M3C #54 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aether Revolt
 
@@ -1143,7 +1199,23 @@
   > Whenever you get one or more {E}, this enchantment deals that much damage to any target.
 - **Keywords:** Revolt
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7071 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/113/aether-revolt) · oracle_id `b73661a6-d136-4c65-804c-461e83484f4b` · printing: MH3 #113 (2024-06-14) · [rulings](https://api.scryfall.com/cards/b8732e62-cdee-4d32-82a8-8a71a04be7a1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2024-06-07* — Energy counters are a kind of counter that a player may have. They're not associated with any specific permanents.
+  - *2024-06-07* — Energy counters aren't mana. They don't go away as steps, phases, and turns end, and effects that add mana "of any type" can't give you energy counters.
+  - *2024-06-07* — If a spell or ability with one or more targets states that you "may pay" some amount of {E}, and each permanent that it targets has become an illegal target, the spell or ability won't resolve. You can't pay any {E} even if you want to.
+  - *2024-06-07* — If an effect instructs you to get one or more {E} and then allows you to spend {E}, Aether Revolt's last ability will see the amount of {E} you got. It doesn't matter how much {E} you spend after that.
+  - *2024-06-07* — If an effect says you get one or more {E}, you get that many energy counters. To pay one or more {E}, you lose that many energy counters. You can't pay more energy counters than you have. Any effects that interact with counters a player gets, has, or loses can interact with energy counters.
+  - *2024-06-07* — If another effect modifies how much damage a source would deal to an opponent or a permanent they control, including preventing some of it, the player being dealt damage or the controller of the permanent being dealt damage chooses an order in which to apply those effects. If all of the damage is prevented, Aether Revolt's effect no longer applies.
+  - *2024-06-07* — If noncombat damage dealt by a source you control is being divided or assigned among multiple opponents and/or permanents opponents control, divide the original amount before adding 2. For example, if you cast a spell that deals 4 damage divided among any number of targets and you choose to have it deal 2 damage to a creature and 2 damage to that creature's controller, that spell will deal 4 damage to each of them instead.
+  - *2024-06-07* — If you get multiple {E} at once, Aether Revolt's last ability will trigger only once. When the triggered ability resolves, it will deal damage to the target equal to the amount of {E} you gained.
+  - *2024-06-07* — Keep track of how many energy counters each player has. Potential ways to track this include writing theme down on paper or using dice, but any method that is clear and mutually agreeable is fine. (At higher levels of tournament play, dice may not be allowed for tracking counters that players have.)
+  - *2024-06-07* — Once a permanent you control leaves the battlefield, Aether Revolt's revolt ability will apply to noncombat damage dealt by sources you control until the turn ends or Aether Revolt leaves the battlefield, whichever happens first. It doesn't matter what happens to the card or token that left the battlefield afterward.
+  - *2024-06-07* — Some spells and abilities that give you {E} may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't get any {E}.
+  - *2024-06-07* — Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
+  - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
+  - *2024-06-07* — The additional damage is dealt by the original source of the damage, not by Aether Revolt.
+  - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/113/aether-revolt) · oracle_id `b73661a6-d136-4c65-804c-461e83484f4b` · printing: MH3 #113 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aether Rift
 
@@ -1237,6 +1309,7 @@
   > *"Release that which was never caged."*
   > *—Spellbomb inscription*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2713 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/456/aether-spellbomb) · oracle_id `4b033a0a-c1ae-44d7-9662-72cbbfda024b` · printing: JMP #456 (2020-07-17) · [rulings](https://api.scryfall.com/cards/a54e8ce9-edd7-4ae7-9521-6fb6727cf63b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aethersphere Harvester
@@ -1263,7 +1336,19 @@
   > *"The shield doesn't block the fire physically. It tells the fire to stop."*
   > *—Genku, future shaper*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7531 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/50/aether-spike) · oracle_id `e4a85647-0b8c-40b2-a5d5-43c78877ce36` · printing: MH3 #50 (2024-06-14) · [rulings](https://api.scryfall.com/cards/012f5195-10ab-4b32-a5de-a79341cd536a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2024-06-07* — Energy counters are a kind of counter that a player may have. They're not associated with any specific permanents.
+  - *2024-06-07* — Energy counters aren't mana. They don't go away as steps, phases, and turns end, and effects that add mana "of any type" can't give you energy counters.
+  - *2024-06-07* — If a spell or ability with one or more targets states that you "may pay" some amount of {E}, and each permanent that it targets has become an illegal target, the spell or ability won't resolve. You can't pay any {E} even if you want to.
+  - *2024-06-07* — If an effect says you get one or more {E}, you get that many energy counters. To pay one or more {E}, you lose that many energy counters. You can't pay more energy counters than you have. Any effects that interact with counters a player gets, has, or loses can interact with energy counters.
+  - *2024-06-07* — Keep track of how many energy counters each player has. Potential ways to track this include writing theme down on paper or using dice, but any method that is clear and mutually agreeable is fine. (At higher levels of tournament play, dice may not be allowed for tracking counters that players have.)
+  - *2024-06-07* — Some spells and abilities that give you {E} may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't get any {E}.
+  - *2024-06-07* — Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
+  - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
+  - *2024-06-07* — You choose the target spell as you cast Aether Spike. You don't choose how much {E} to pay until Aether Spike is resolving. No player may take actions between the time you choose how much {E} to pay and the time the target spell's controller chooses whether or not to pay {1} for each {E} paid this way.
+  - *2024-06-07* — You may pay zero {E}. You will get {E}{E}, and the target spell will resolve as long as its controller chooses to pay {0}. In most cases, this won't be a difficult choice for them.
+  - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/50/aether-spike) · oracle_id `e4a85647-0b8c-40b2-a5d5-43c78877ce36` · printing: MH3 #50 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aetherspouts
 
@@ -1275,7 +1360,10 @@
   > *"Don't worry, there's plenty for everyone."*
   > *—Vickon, Eleventh Company battlemage*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2792 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mic/97/aetherspouts) · oracle_id `48369aec-a991-4bef-8554-01c84302b063` · printing: MIC #97 (2021-09-24) · [rulings](https://api.scryfall.com/cards/b5cb6da6-d43b-4ad1-bb77-9eeb6d15240c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-07-18* — If an effect puts two or more cards on the top or bottom of a library at the same time, the owner of those cards may arrange them in any order. That library's owner doesn't reveal the order in which the cards go into their library.
+  - *2014-07-18* — The owner of each attacking creature chooses whether to put it on the top or bottom of their library. The active player (the player whose turn it is) makes all of their choices first, followed by each other player in turn order.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mic/97/aetherspouts) · oracle_id `48369aec-a991-4bef-8554-01c84302b063` · printing: MIC #97 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aethersquall Ancient
 
@@ -1288,7 +1376,17 @@
   > Pay eight {E}: Return all other creatures to their owners' hands. Activate only as a sorcery.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6738 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/kld/39/aethersquall-ancient) · oracle_id `47c685b1-6e1e-4e08-8a52-9da6902df113` · printing: KLD #39 (2016-09-30) · [rulings](https://api.scryfall.com/cards/55127a25-dc64-4f26-ae50-ed7247c22ae6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2024-06-07* — Energy counters are a kind of counter that a player may have. They're not associated with any specific permanents.
+  - *2024-06-07* — Energy counters aren't mana. They don't go away as steps, phases, and turns end, and effects that add mana "of any type" can't give you energy counters.
+  - *2024-06-07* — If a spell or ability with one or more targets states that you "may pay" some amount of {E}, and each permanent that it targets has become an illegal target, the spell or ability won't resolve. You can't pay any {E} even if you want to.
+  - *2024-06-07* — If an effect says you get one or more {E}, you get that many energy counters. To pay one or more {E}, you lose that many energy counters. You can't pay more energy counters than you have. Any effects that interact with counters a player gets, has, or loses can interact with energy counters.
+  - *2024-06-07* — Keep track of how many energy counters each player has. Potential ways to track this include writing theme down on paper or using dice, but any method that is clear and mutually agreeable is fine. (At higher levels of tournament play, dice may not be allowed for tracking counters that players have.)
+  - *2024-06-07* — Some spells and abilities that give you {E} may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't get any {E}.
+  - *2024-06-07* — Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
+  - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
+  - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/kld/39/aethersquall-ancient) · oracle_id `47c685b1-6e1e-4e08-8a52-9da6902df113` · printing: KLD #39 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aether Sting
 
@@ -1325,7 +1423,20 @@
   > Whenever this creature attacks, you may pay {E}{E}. If you do, put a +1/+1 counter on it and tap up to one target creature defending player controls.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8266 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/kld/3/aetherstorm-roc) · oracle_id `06f09e5a-5cfb-437f-9dd1-1682d71f4e7f` · printing: KLD #3 (2016-09-30) · [rulings](https://api.scryfall.com/cards/79fb7541-7a27-40a5-aabd-fce26df03485/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2016-09-20* — A creature entering the battlefield at the same time as Aetherstorm Roc causes its first triggered ability to trigger.
+  - *2016-09-20* — Aetherstorm Roc's second triggered ability resolves before blockers are chosen. A creature tapped this way won't be able to block.
+  - *2016-09-20* — You don't have to target a creature with Aetherstorm Roc's last ability. If you do choose a target, and that target becomes illegal, the ability doesn't resolve and you won't be able to pay {E}{E} to put a counter on Aetherstorm Roc.
+  - *2024-06-07* — Energy counters are a kind of counter that a player may have. They're not associated with any specific permanents.
+  - *2024-06-07* — Energy counters aren't mana. They don't go away as steps, phases, and turns end, and effects that add mana "of any type" can't give you energy counters.
+  - *2024-06-07* — If a spell or ability with one or more targets states that you "may pay" some amount of {E}, and each permanent that it targets has become an illegal target, the spell or ability won't resolve. You can't pay any {E} even if you want to.
+  - *2024-06-07* — If an effect says you get one or more {E}, you get that many energy counters. To pay one or more {E}, you lose that many energy counters. You can't pay more energy counters than you have. Any effects that interact with counters a player gets, has, or loses can interact with energy counters.
+  - *2024-06-07* — Keep track of how many energy counters each player has. Potential ways to track this include writing theme down on paper or using dice, but any method that is clear and mutually agreeable is fine. (At higher levels of tournament play, dice may not be allowed for tracking counters that players have.)
+  - *2024-06-07* — Some spells and abilities that give you {E} may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't get any {E}.
+  - *2024-06-07* — Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
+  - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
+  - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/kld/3/aetherstorm-roc) · oracle_id `06f09e5a-5cfb-437f-9dd1-1682d71f4e7f` · printing: KLD #3 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aetherstream Leopard
 
@@ -1363,7 +1474,14 @@
   > Max speed — Whenever you draw a card, each opponent mills two cards. (Each opponent puts the top two cards of their library into their graveyard.)
 - **Keywords:** Max speed, Mill, Start your engines!
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8567 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dft/38/aether-syphon) · oracle_id `d8956775-fda8-475d-9e8a-b61196a958ea` · printing: DFT #38 (2025-02-14) · [rulings](https://api.scryfall.com/cards/d7033739-4cd8-4727-b9b5-099fb597006b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-02-07* — A player “has max speed” if their speed is 4.
+  - *2025-02-07* — Each player tracks their speed (or lack thereof) separately. Increasing your speed has no effect on whether another player has speed.
+  - *2025-02-07* — If an effect needs to know what a player’s speed is and that player doesn’t have a speed, their speed is considered 0.
+  - *2025-02-07* — Start your engines! isn’t a triggered ability. Increasing your speed to 1 is something that happens as a state-based action as soon as you control a permanent with the ability. Notably, this includes gaining control of a permanent with the ability that another player controls.
+  - *2025-02-07* — Your speed doesn’t change until a spell or ability says so, such as the inherent triggered ability that cares about opponents losing life during your turn. Notably, losing control of permanents with start your engines! doesn’t affect your speed.
+  - *2025-02-07* — “Max speed — [ability]” means “As long as you have max speed, this object has [ability].” If the granted ability functions in a zone other than the battlefield, the max speed ability does too.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dft/38/aether-syphon) · oracle_id `d8956775-fda8-475d-9e8a-b61196a958ea` · printing: DFT #38 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aether Theorist
 
@@ -1403,7 +1521,17 @@
   > *—Kadhu, skywhaler*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8758 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/aer/27/aethertide-whale) · oracle_id `53b2c8f2-db9a-4ab0-a4e8-17385b2fa3bd` · printing: AER #27 (2017-01-20) · [rulings](https://api.scryfall.com/cards/38722c25-13a7-47af-a4cd-90722f289499/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2024-06-07* — Energy counters are a kind of counter that a player may have. They're not associated with any specific permanents.
+  - *2024-06-07* — Energy counters aren't mana. They don't go away as steps, phases, and turns end, and effects that add mana "of any type" can't give you energy counters.
+  - *2024-06-07* — If a spell or ability with one or more targets states that you "may pay" some amount of {E}, and each permanent that it targets has become an illegal target, the spell or ability won't resolve. You can't pay any {E} even if you want to.
+  - *2024-06-07* — If an effect says you get one or more {E}, you get that many energy counters. To pay one or more {E}, you lose that many energy counters. You can't pay more energy counters than you have. Any effects that interact with counters a player gets, has, or loses can interact with energy counters.
+  - *2024-06-07* — Keep track of how many energy counters each player has. Potential ways to track this include writing theme down on paper or using dice, but any method that is clear and mutually agreeable is fine. (At higher levels of tournament play, dice may not be allowed for tracking counters that players have.)
+  - *2024-06-07* — Some spells and abilities that give you {E} may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't get any {E}.
+  - *2024-06-07* — Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
+  - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
+  - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/aer/27/aethertide-whale) · oracle_id `53b2c8f2-db9a-4ab0-a4e8-17385b2fa3bd` · printing: AER #27 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aethertorch Renegade
 
@@ -1450,6 +1578,7 @@
   > *If you can't find a doorway, make one.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4339 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m19/43/aether-tunnel) · oracle_id `0a90d1fb-7a76-4b62-b001-4a539a8e5df1` · printing: M19 #43 (2018-07-13) · [rulings](https://api.scryfall.com/cards/5d6178ed-6353-4733-81e1-7b3dc592c3bd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aether Vial
@@ -1460,7 +1589,10 @@
   > At the beginning of your upkeep, you may put a charge counter on this artifact.
   > {T}: You may put a creature card with mana value equal to the number of charge counters on this artifact from your hand onto the battlefield.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5841 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/298/aether-vial) · oracle_id `fc148e1e-dff0-448e-9f16-625341754356` · printing: 2X2 #298 (2022-07-08) · [rulings](https://api.scryfall.com/cards/11e8d2fd-b132-4807-9410-8edeffa519ed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-11-17* — If Aether Vial leaves the battlefield while its second ability is on the stack, use its last known number of charge counters to determine what you may put from your hand onto the battlefield.
+  - *2017-11-17* — If a card in a player's hand has {X} in its mana cost, X is considered to be 0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/298/aether-vial) · oracle_id `fc148e1e-dff0-448e-9f16-625341754356` · printing: 2X2 #298 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aether Web
 
@@ -1497,7 +1629,22 @@
   > Whenever a permanent you control is put into a graveyard, you get {E} (an energy counter).
   > {T}, Pay six {E}: Look at the top six cards of your library. You may cast a spell from among them without paying its mana cost. Put the rest on the bottom of your library in a random order.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3576 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/kld/193/aetherworks-marvel) · oracle_id `470ec98e-120c-446d-ade6-7d80aa836b55` · printing: KLD #193 (2016-09-30) · [rulings](https://api.scryfall.com/cards/884f6948-3e03-48c6-8be2-6f2539386c9d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (14):
+  - *2016-09-20* — Aetherworks Marvel's first ability triggers whenever any permanent you control is put into a graveyard from the battlefield, including Aetherworks Marvel itself and other permanents put into a graveyard at the same time as it.
+  - *2016-09-20* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2016-09-20* — If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs, such as emerge costs. You can, however, pay additional costs. If the card has any mandatory additional costs, such as that of Incendiary Sabotage, you must pay those to cast the card.
+  - *2016-09-20* — The card cast with Aetherworks Marvel's second ability is cast from your library.
+  - *2016-09-20* — Tokens that are sacrificed or destroyed are put into their owner's graveyard before ceasing to exist. If you controlled the token, Aetherworks Marvel's first ability will trigger.
+  - *2024-06-07* — Energy counters are a kind of counter that a player may have. They're not associated with any specific permanents.
+  - *2024-06-07* — Energy counters aren't mana. They don't go away as steps, phases, and turns end, and effects that add mana "of any type" can't give you energy counters.
+  - *2024-06-07* — If a spell or ability with one or more targets states that you "may pay" some amount of {E}, and each permanent that it targets has become an illegal target, the spell or ability won't resolve. You can't pay any {E} even if you want to.
+  - *2024-06-07* — If an effect says you get one or more {E}, you get that many energy counters. To pay one or more {E}, you lose that many energy counters. You can't pay more energy counters than you have. Any effects that interact with counters a player gets, has, or loses can interact with energy counters.
+  - *2024-06-07* — Keep track of how many energy counters each player has. Potential ways to track this include writing theme down on paper or using dice, but any method that is clear and mutually agreeable is fine. (At higher levels of tournament play, dice may not be allowed for tracking counters that players have.)
+  - *2024-06-07* — Some spells and abilities that give you {E} may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't get any {E}.
+  - *2024-06-07* — Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
+  - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
+  - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/kld/193/aetherworks-marvel) · oracle_id `470ec98e-120c-446d-ade6-7d80aa836b55` · printing: KLD #193 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aettir and Priwen
 
@@ -1511,7 +1658,9 @@
   > *—Gerolt Blackthorne*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2734 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/253/aettir-and-priwen) · oracle_id `19d8937e-23fb-4758-a306-0e7af9bb44c4` · printing: FIN #253 (2025-06-13) · [rulings](https://api.scryfall.com/cards/038710ca-c756-4e66-a9de-278e676c9f5b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-06-06* — The value of X changes as your life total changes. Since damage remains marked on creatures until the damage is removed as the turn ends, nonlethal damage dealt to the equipped creature may become lethal if your life total decreases during that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/253/aettir-and-priwen) · oracle_id `19d8937e-23fb-4758-a306-0e7af9bb44c4` · printing: FIN #253 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aeve, Progenitor Ooze
 
@@ -1524,4 +1673,11 @@
   > Aeve enters with a +1/+1 counter on it for each other Ooze you control.
 - **Keywords:** Storm
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7492 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/148/aeve-progenitor-ooze) · oracle_id `44600a74-9584-488b-a342-2fccd8fa7599` · printing: MH2 #148 (2021-06-18) · [rulings](https://api.scryfall.com/cards/dfe9b1b8-dffe-427d-be1e-2c6b8395bd54/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-06-18* — A copy of a spell can be countered like any other spell, but it must be countered individually. Countering a spell with storm won't affect the copies.
+  - *2021-06-18* — If a spell with storm has targets, you may choose new targets for any of the copies. You can make different choices for each copy.
+  - *2021-06-18* — Spells cast from zones other than a player's hand and spells that were countered or otherwise failed to resolve are counted by the storm ability.
+  - *2021-06-18* — The copies are put directly onto the stack. They aren't cast and won't be counted by other spells with storm cast later in the turn.
+  - *2021-06-18* — The storm copies enter the battlefield one by one, followed by the original spell. Each of them enters the battlefield with a number of +1/+1 counters equal to the number of Oozes you control as it enters the battlefield. If you don't control any Oozes at the start, the first one enters with no counters, the second one enters with one counter, and so on.
+  - *2021-06-18* — The triggered ability that creates the copies can itself be countered by anything that can counter a triggered ability. If it is countered, no copies will be put onto the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/148/aeve-progenitor-ooze) · oracle_id `44600a74-9584-488b-a342-2fccd8fa7599` · printing: MH2 #148 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

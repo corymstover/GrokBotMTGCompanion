@@ -72,7 +72,10 @@
   > *"Just gotta hit 'em harder than they hit you!"*
 - **Keywords:** Replicate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8837 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmc/34/super-combo) · oracle_id `68555673-2833-459a-b415-e2805f837778` · printing: TMC #34 (2026-03-06) · [rulings](https://api.scryfall.com/cards/52bed0d4-3bcf-4770-b9c9-2a1d0666d220/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2026-01-27* — A copy of a spell can be countered like any other spell, but it must be countered individually. Countering a spell with replicate won't affect the copies.
+  - *2026-01-27* — If either target is an illegal target as Super Combo resolves, the creature you control won't deal damage due to the effect of that copy of Super Combo.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmc/34/super-combo) · oracle_id `68555673-2833-459a-b415-e2805f837778` · printing: TMC #34 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Super-Duper Death Ray
 
@@ -110,6 +113,7 @@
   > *—Leader, Samuel Sterns*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9335 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/77/super-intelligence) · oracle_id `d82929f2-57ad-45be-a834-984437046026` · printing: MSH #77 (2026-06-26) · [rulings](https://api.scryfall.com/cards/f26613a1-b4ad-4c7f-8dd9-8f82de995f0c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Superior Foes of Spider-Man
@@ -147,7 +151,10 @@
   > *—Otto Octavius*
 - **Keywords:** Mind Swap
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6979 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/spm/155/superior-spider-man) · oracle_id `636cc915-9d1b-4ffe-9e74-795b78663911` · printing: SPM #155 (2025-09-26) · [rulings](https://api.scryfall.com/cards/ad4adc3e-ec41-4406-8ff2-59ba8067cf4e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-09-19* — If the copied card has {X} in its mana cost, X is 0.
+  - *2025-09-19* — Treat Superior Spider-Man as though he were the chosen card entering (with the noted exceptions). Any "As this creature enters," "This creature enters with," and "When this creature enters" abilities of the chosen card will work.
+- **Source flags:** [Scryfall](https://scryfall.com/card/spm/155/superior-spider-man) · oracle_id `636cc915-9d1b-4ffe-9e74-795b78663911` · printing: SPM #155 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Super Mutant Scavenger
 
@@ -186,7 +193,9 @@
   > *"All are not equal—neither in life nor after death. Bontu's favorites will stand highest in eternity."*
   > *—Senifet, vizier of Bontu*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1772 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/188/supernatural-stamina) · oracle_id `65756e6d-9825-4ed6-91c4-79f1e3bd4ae5` · printing: CMM #188 (2023-08-04) · [rulings](https://api.scryfall.com/cards/2b349b4b-f08d-45e8-81f6-3467a02e6d23/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-11-10* — Supernatural Stamina's effect works only once. If the targeted creature dies and is then returned to the battlefield, it's considered to be a new creature. If that new creature dies, it won't come back a second time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/188/supernatural-stamina) · oracle_id `65756e6d-9825-4ed6-91c4-79f1e3bd4ae5` · printing: CMM #188 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Super Secret Tech
 
@@ -212,6 +221,7 @@
   > *"I have molded myself into perfection, Hamato. Look upon me, and know fear."*
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5067 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/83/super-shredder) · oracle_id `b7ee76bf-d15a-489e-8f05-414788f8f649` · printing: TMT #83 (2026-03-06) · [rulings](https://api.scryfall.com/cards/37a497b8-e908-4ddc-996e-a8470df72afb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Supersize
@@ -250,6 +260,7 @@
   > Whenever enchanted creature attacks or blocks, attach any number of target Equipment you control to it.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9334 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/38/super-soldier-serum) · oracle_id `6f2ba142-5e7c-4709-ae03-e028cb2a9872` · printing: MSH #38 (2026-06-26) · [rulings](https://api.scryfall.com/cards/845b0be1-4f85-4a8c-8205-dc85c8cf9a61/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Super Speed
@@ -275,6 +286,7 @@
   > Whenever enchanted creature deals combat damage to an opponent, it deals that much damage to each other opponent.
 - **Keywords:** First strike, Trample, Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2248 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/2081/super-state) · oracle_id `ab2dfe99-bd77-44d7-92be-81643ea901f0` · printing: SLD #2081 (2025-07-14) · [rulings](https://api.scryfall.com/cards/a6a39919-a521-4e96-a47a-e09ac4d783bf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Super Strength
@@ -327,7 +339,9 @@
 - **Flavor text** (FIN printing):
   > *"The time has come to put my training to use!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4273 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/164/suplex) · oracle_id `2d1bbeda-2e81-4aaa-9494-094ec3dd6c3b` · printing: FIN #164 (2025-06-13) · [rulings](https://api.scryfall.com/cards/f61693a2-7042-44e0-85ba-9bf12ab94e7e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-06-06* — The replacement effect from Suplex's first mode will exile the target creature if it would die this turn for any reason, not just due to lethal damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/164/suplex) · oracle_id `2d1bbeda-2e81-4aaa-9494-094ec3dd6c3b` · printing: FIN #164 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Supper for Spiders
 
@@ -487,7 +501,24 @@
   > *"Chaos fuels the flames of violence. Only through order can peace be assured."*
   > *—Dovin Baan*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7538 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/260/suppression-ray-orderly-plaza) · oracle_id `b592568b-11b0-4081-90a7-30cfb9c1ba80` · printing: MH3 #260 (2024-06-14) · [rulings](https://api.scryfall.com/cards/0cccd328-457a-48ab-97fb-4bc319db2e60/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (16):
+  - *2024-06-07* — "Creatures tapped this way" means creatures that became tapped as a result of Suppression Ray's effect, not creatures that were already tapped before Suppression Ray began to resolve. For example, if a player controls two tapped creatures and one untapped creature and you cast Suppression Ray targeting that player, you'll only be able to choose the creature that was untapped to get a stun counter (as long as you paid at least one {E}).
+  - *2024-06-07* — A modal double-faced card can't be transformed or be put onto the battlefield transformed. Ignore any instruction to transform a modal double-faced card or to put one onto the battlefield transformed.
+  - *2024-06-07* — Energy counters are a kind of counter that a player may have. They're not associated with any specific permanents.
+  - *2024-06-07* — Energy counters aren't mana. They don't go away as steps, phases, and turns end, and effects that add mana "of any type" can't give you energy counters.
+  - *2024-06-07* — If a spell or ability with one or more targets states that you "may pay" some amount of {E}, and each permanent that it targets has become an illegal target, the spell or ability won't resolve. You can't pay any {E} even if you want to.
+  - *2024-06-07* — If an effect allows you to play a land or cast a spell from among a group of cards, you may play or cast a modal double-faced card with any face that fits the criteria of that effect. For example, if an effect allows you to play lands from your graveyard, you can play Garden of Freyalise, but you can't cast Disciple of Freyalise.
+  - *2024-06-07* — If an effect allows you to play a specific modal double-faced card, you may cast it as a spell or play it as a land, as determined by which face you choose to play. If an effect allows you to cast (rather than "play") a specific modal double-faced card, you can't play it as a land.
+  - *2024-06-07* — If an effect allows you to put a card with particular characteristics onto the battlefield without instructing you to play or cast it, you consider only the characteristics of a modal double-faced card's front face to see if that card qualifies. If it does, it enters the battlefield with its front face up. For example, if an effect allows you to put a creature card from your graveyard onto the battlefield, you can put Disciple of Freyalise onto the battlefield. However, an effect that lets you return a land card from your graveyard to your hand won't let you return Garden of Freyalise to your hand, as that card has only its front face's characteristics while in the graveyard.
+  - *2024-06-07* — If an effect says you get one or more {E}, you get that many energy counters. To pay one or more {E}, you lose that many energy counters. You can't pay more energy counters than you have. Any effects that interact with counters a player gets, has, or loses can interact with energy counters.
+  - *2024-06-07* — Keep track of how many energy counters each player has. Potential ways to track this include writing theme down on paper or using dice, but any method that is clear and mutually agreeable is fine. (At higher levels of tournament play, dice may not be allowed for tracking counters that players have.)
+  - *2024-06-07* — Some spells and abilities that give you {E} may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't get any {E}.
+  - *2024-06-07* — Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
+  - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
+  - *2024-06-07* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack or the battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
+  - *2024-06-07* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics. For example, if an effect stops you from casting creature spells, you can't cast Disciple of Freyalise, but you can still play Garden of Freyalise.
+  - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/260/suppression-ray-orderly-plaza) · oracle_id `b592568b-11b0-4081-90a7-30cfb9c1ba80` · printing: MH3 #260 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Suppressor Skyguard
 
@@ -501,7 +532,10 @@
   > *"Attention, brawlers! You are in violation of Senate statute 2309.76-22. Halt your melee before you incur further charges."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9403 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/46/suppressor-skyguard) · oracle_id `06c47664-2b4b-468e-a38d-04b62e6edd67` · printing: CLU #46 (2024-02-23) · [rulings](https://api.scryfall.com/cards/fbdaca43-a5be-43e3-8dd9-3a5f2cd8f0d0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-02-02* — If the "intervening if" clause of Suppressor Skyguard's last ability is no longer met when the ability tries to resolve, it won't resolve and none of its effects will happen. For example, if all of the attacking player's other opponents leave the game before Suppressor Skyguard's last ability resolves, the condition will no longer be true when the ability tries to resolve, the ability won't resolve, and damage won't be prevented.
+  - *2024-02-02* — Suppressor Skyguard's ability will trigger if any of the attacking player's opponents besides you aren't being attacked. It doesn't matter if that player is also attacking any planeswalkers those opponents control or battles they protect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/46/suppressor-skyguard) · oracle_id `06c47664-2b4b-468e-a38d-04b62e6edd67` · printing: CLU #46 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Supreme Exemplar
 
@@ -539,7 +573,9 @@
   > *A king's knowledge does not vanish when the heart stops beating.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9772 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/voc/115/supreme-phantom) · oracle_id `9c5f4d02-eedb-4c6c-9f13-1b7a45382483` · printing: VOC #115 (2021-11-19) · [rulings](https://api.scryfall.com/cards/cbf4ca25-73cc-45ba-bed5-dbaa517e8bb8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-07-13* — Because damage remains marked on a creature until it's removed as the turn ends, nonlethal damage dealt to a Spirit you control may become lethal if Supreme Phantom leaves the battlefield during that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/voc/115/supreme-phantom) · oracle_id `9c5f4d02-eedb-4c6c-9f13-1b7a45382483` · printing: VOC #115 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Supreme Verdict
 

@@ -63,7 +63,13 @@
   > Enchanted creature gets +4/+4 and has flying, first strike, vigilance, trample, and lifelink.
 - **Keywords:** Flying, Lifelink, Vigilance, First strike, Trample, Bestow
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9862 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/146/chromanticore) · oracle_id `695ee4fe-356d-47fb-9442-d171b618151c` · printing: DMC #146 (2022-09-09) · [rulings](https://api.scryfall.com/cards/f1182463-348b-45b3-a662-68f06ac53699/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2013-09-15* — Auras attached to a creature don't become tapped when the creature becomes tapped. Except in some rare cases, an Aura with bestow remains untapped when it becomes unattached and becomes a creature.
+  - *2013-09-15* — If a permanent with bestow enters the battlefield by any method other than being cast, it will be an enchantment creature. You can't choose to pay the bestow cost and have it become an Aura.
+  - *2013-09-15* — On the stack, a spell with bestow is either a creature spell or an Aura spell. It's never both, although it's an enchantment spell in either case.
+  - *2013-09-15* — Unlike other Aura spells, an Aura spell with bestow isn't countered if its target is illegal as it begins to resolve. Rather, the effect making it an Aura spell ends, it loses enchant creature, it returns to being an enchantment creature spell, and it resolves and enters the battlefield as an enchantment creature.
+  - *2013-09-15* — Unlike other Auras, an Aura with bestow isn't put into its owner's graveyard if it becomes unattached. Rather, the effect making it an Aura ends, it loses enchant creature, and it remains on the battlefield as an enchantment creature. It can attack (and its {T} abilities can be activated, if it has any) on the turn it becomes unattached if it's been under your control continuously, even as an Aura, since your most recent turn began.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/146/chromanticore) · oracle_id `695ee4fe-356d-47fb-9442-d171b618151c` · printing: DMC #146 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chromatic Armor
 
@@ -104,7 +110,9 @@
 - **Flavor text** (M21 printing):
   > *Visitors marvel at its design, unaware of the other world that inspired it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1256 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m21/228/chromatic-orrery) · oracle_id `95c3976c-33f3-490b-bfd3-7f1af2fe0416` · printing: M21 #228 (2020-07-03) · [rulings](https://api.scryfall.com/cards/3af78d76-ad5c-44ba-880d-b834bcde5398/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-06-23* — Chromatic Orrery's last ability can have you draw at most five cards. "Colorless," "artifact," and "gold" are not colors.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m21/228/chromatic-orrery) · oracle_id `95c3976c-33f3-490b-bfd3-7f1af2fe0416` · printing: M21 #228 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chromatic Sphere
 
@@ -116,7 +124,9 @@
   > *"As expected, this sphere's design reflects the colors of the four moons . . . plus another?"*
   > *—Pontifex, elder researcher*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5189 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/462/chromatic-sphere) · oracle_id `2e03e44a-9fff-4490-859f-b42e89e8563a` · printing: JMP #462 (2020-07-17) · [rulings](https://api.scryfall.com/cards/edabc8b2-4413-48e4-8d6f-521b19d839a6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-08-05* — Chromatic Sphere’s ability is not a mana ability. Players can respond to it, and it can’t be activated in the middle of paying for a cost. A recent update to rule 605.1a has made any abilities that move cards to or from libraries no longer mana abilities.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/462/chromatic-sphere) · oracle_id `2e03e44a-9fff-4490-859f-b42e89e8563a` · printing: JMP #462 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chromatic Star
 
@@ -129,6 +139,7 @@
   > *"This item is not from ... now. It reflects a sky no longer ours and gleams with hope that does not exist."*
   > *—Tavalus, acolyte of Korlis*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2824 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/263/chromatic-star) · oracle_id `fedbd40b-e3a5-449c-a8a3-b42e9da191a9` · printing: TSR #263 (2021-03-19) · [rulings](https://api.scryfall.com/cards/c2e8d492-2c67-410b-b556-c157a14c4cec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chrome Cat
@@ -181,7 +192,13 @@
 - **Flavor text** (TMT printing):
   > *"Broadcast: Seized. Initiate seek-and-destroy protocols."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7182 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/172/chrome-dome) · oracle_id `3dc71e16-b935-4ad7-b3f7-945ac2c179a7` · printing: TMT #172 (2026-03-06) · [rulings](https://api.scryfall.com/cards/994a01eb-2689-49e7-be23-0713da9da9a8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2026-01-27* — If the artifact copied by the token had any "when [this artifact] enters" abilities, the token also has those abilities, and they'll trigger when it's created. Similarly, any "as [this artifact] enters" or "[this artifact] enters with" abilities that the token has copied will also work.
+  - *2026-01-27* — If the copied artifact has {X} in its mana cost, X is 0.
+  - *2026-01-27* — If the copied artifact is a token, the new token that's created copies the original characteristics of that token as stated by the effect that created the token.
+  - *2026-01-27* — If the copied artifact is copying something else, then the token enters as whatever that artifact copied.
+  - *2026-01-27* — The token copies exactly what was printed on the original artifact (unless that artifact is copying something else or is a token; see below). It doesn't copy whether that artifact is tapped or untapped, whether it has any counters on it, or any Auras or Equipment attached to it, or any non-copy effects that have changed its types, color, power and toughness, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/172/chrome-dome) · oracle_id `3dc71e16-b935-4ad7-b3f7-945ac2c179a7` · printing: TMT #172 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chrome Host Seedshark
 
@@ -193,7 +210,9 @@
   > Whenever you cast a noncreature spell, incubate X, where X is that spell's mana value. (Create an Incubator token with X +1/+1 counters on it and "{2}: Transform this token." It transforms into a 0/0 Phyrexian artifact creature.)
 - **Keywords:** Flying, Incubate, Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3526 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/68/chrome-host-seedshark) · oracle_id `837c5d0e-0a33-4f9d-ae25-68a687bdf640` · printing: EOC #68 (2025-08-01) · [rulings](https://api.scryfall.com/cards/04e02176-16ee-4676-8b33-cedebdb18cbc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-04-14* — If the noncreature spell has {X} in its mana cost, use the value chosen for X when calculating that spell's mana value.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/68/chrome-host-seedshark) · oracle_id `837c5d0e-0a33-4f9d-ae25-68a687bdf640` · printing: EOC #68 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chrome Mox
 
@@ -259,7 +278,13 @@
   > When this creature is turned face up, you may exchange control of target creature you control and target creature an opponent controls.
 - **Keywords:** Morph
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9758 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c19/81/chromeshell-crab) · oracle_id `8cbac2e8-5755-433b-9f42-7fd5c214aab3` · printing: C19 #81 (2019-08-23) · [rulings](https://api.scryfall.com/cards/c91cf95f-5007-409c-b891-00e10a3477e0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2004-10-04* — The creatures can’t attack until you start a turn with them under your control. So you can’t swap and then attack.
+  - *2004-10-04* — The exchange fails if either target is not still on the battlefield at that time.
+  - *2004-10-04* — The exchange fails if either you no longer control your creature or the other creature is now controlled by you.
+  - *2004-10-04* — The trigger occurs when you use the Morph ability to turn the card face up, or when an effect turns it face up. It will not trigger on being revealed or on leaving the battlefield.
+  - *2004-10-04* — You choose the two target creatures when the triggered ability is put onto the stack. You do not have to choose Chromeshell Crab. You choose whether or not to do the exchange on resolution.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c19/81/chromeshell-crab) · oracle_id `8cbac2e8-5755-433b-9f42-7fd5c214aab3` · printing: C19 #81 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chrome Steed
 
@@ -349,7 +374,11 @@
   > *"For those we lost, that they may forever live."*
   > *—Tapestry inscription*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1469 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/253/chronicle-of-victory) · oracle_id `e949b362-4988-4482-ac51-c1049af9040c` · printing: ECL #253 (2026-01-23) · [rulings](https://api.scryfall.com/cards/b3c2d68d-690b-41e7-99ed-2d20c7e0a9b4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-11-17* — Chronicle of Victory's last ability resolves before the spell that causes it to trigger. The ability will resolve even if that spell is countered or otherwise leaves the stack.
+  - *2025-11-17* — The choice of creature type is made as Chronicle of Victory enters. Players can't take any actions between the time the choice is made and the time the appropriate creatures begin to get +2/+2.
+  - *2025-11-17* — You must choose an existing creature type, such as Goblin or Elemental. Card types such as artifact and supertypes such as legendary can't be chosen.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/253/chronicle-of-victory) · oracle_id `e949b362-4988-4482-ac51-c1049af9040c` · printing: ECL #253 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chronicler of Heroes
 
@@ -384,7 +413,13 @@
   > Unearth {2}{B} ({2}{B}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)
 - **Keywords:** Flying, Atomic Transmutation, Unearth
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7686 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/40k/32/chronomancer) · oracle_id `9833e3bd-6e7f-41b7-bf7e-ffb74ff17844` · printing: 40K #32 (2022-10-07) · [rulings](https://api.scryfall.com/cards/a960acea-3404-4834-9296-d6715add49af/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2022-10-07* — Activating a permanent card's unearth ability isn't the same as casting it as a spell. The unearth ability is put on the stack, but the card is not. Spells and abilities that interact with activated abilities (such as Stifle) will interact with unearth, but spells and abilities that interact with spells (such as Cancel) will not.
+  - *2022-10-07* — At the beginning of the end step, a permanent returned to the battlefield with unearth is exiled. This is a delayed triggered ability, and it can be countered by effects that counter triggered abilities. If the ability is countered, the permanent will stay on the battlefield and the delayed trigger won't trigger again. However, the replacement effect will still exile it if it eventually leaves the battlefield.
+  - *2022-10-07* — If a permanent returned to the battlefield by an unearth ability would leave it for any reason, it's exiled instead—unless the spell or ability that's causing it to leave the battlefield is actually trying to exile it. In that case, the spell or ability succeeds at exiling the permanent. If the spell or ability later returns the card to the battlefield, it will return as a new object with no relation to its previous existence. The unearth effect will no longer apply to it.
+  - *2022-10-07* — If you activate a card's unearth ability but that card is removed from your graveyard before the ability resolves, that unearth ability will resolve and do nothing.
+  - *2022-10-07* — Unearth grants haste to the permanent that's returned to the battlefield. However, neither of the "exile" abilities is granted to that permanent. If that creature loses all its abilities, it will still be exiled at the beginning of the end step, and if it would leave the battlefield, it is still exiled instead.
+- **Source flags:** [Scryfall](https://scryfall.com/card/40k/32/chronomancer) · oracle_id `9833e3bd-6e7f-41b7-bf7e-ffb74ff17844` · printing: 40K #32 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chronomantic Escape
 

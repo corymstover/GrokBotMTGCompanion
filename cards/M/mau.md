@@ -33,7 +33,9 @@
   > *"We are the servants of Saruman the Wise, the White Hand: the Hand that gives us Man's-flesh to eat."*
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4466 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/214/mauh%C3%BAr-uruk-hai-captain) · oracle_id `9966cac0-331f-4627-be5a-5060a6ac5a32` · printing: LTR #214 (2023-06-23) · [rulings](https://api.scryfall.com/cards/65e9a757-7ed4-4cc0-bb6f-a59fa69b32a5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-06-16* — Mauhúr's last ability applies to counters placed on Army tokens when you amass Orcs (or Zombies, or anything else.)
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/214/mauh%C3%BAr-uruk-hai-captain) · oracle_id `9966cac0-331f-4627-be5a-5060a6ac5a32` · printing: LTR #214 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maular, the Next Evolution
 
@@ -98,7 +100,10 @@
   > Equip {2}{W}{W}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4167 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/195/maul-of-the-skyclaves) · oracle_id `088a1f56-198c-41a1-b244-ec1c7a771041` · printing: MOC #195 (2023-04-21) · [rulings](https://api.scryfall.com/cards/3213c1f9-bff5-4629-a0b6-0c81ccf6c80d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-09-25* — Attaching an Equipment with its enters-the-battlefield triggered ability isn't the same as using its equip ability. You don't pay mana for the attachment, and if the Equipment enters at a time you couldn't cast a sorcery, you can still attach it to a creature you control.
+  - *2020-09-25* — If the target creature becomes an illegal target, the Equipment remains on the battlefield unattached.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/195/maul-of-the-skyclaves) · oracle_id `088a1f56-198c-41a1-b244-ec1c7a771041` · printing: MOC #195 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maul Splicer
 
@@ -144,7 +149,12 @@
   > Undergrowth — Search your library for a black card with mana value less than or equal to the number of creature cards in your graveyard, reveal it, put it into your hand, then shuffle.
 - **Keywords:** Undergrowth
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7505 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/grn/75/mausoleum-secrets) · oracle_id `30c4914e-4d9f-453d-bf5b-48ab8e0f2ba3` · printing: GRN #75 (2018-10-05) · [rulings](https://api.scryfall.com/cards/26f7cf38-78cc-4139-9f2a-4dd0be7d9da8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2018-10-05* — A land card that produces black mana, even a Swamp, normally has no color.
+  - *2018-10-05* — Because tokens aren’t cards, they never count for undergrowth abilities.
+  - *2018-10-05* — Creature cards with other types, such as artifact creature cards, count for undergrowth abilities.
+  - *2018-10-05* — If a card in your library has {X} in its mana cost, X is considered to be 0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/grn/75/mausoleum-secrets) · oracle_id `30c4914e-4d9f-453d-bf5b-48ab8e0f2ba3` · printing: GRN #75 (2018-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mausoleum Turnkey
 
@@ -169,4 +179,5 @@
   > Sacrifice this creature: Counter target instant or sorcery spell unless its controller pays {X}, where X is this creature's power.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6804 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/74/mausoleum-wanderer) · oracle_id `1803850e-9499-4bf7-a4d9-6bf655cbe87d` · printing: INR #74 (2025-01-24) · [rulings](https://api.scryfall.com/cards/f47bda42-8eb7-49c5-8f3b-e988e377a7f5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -100,7 +100,10 @@
 - **Flavor text** (INR printing):
   > *"Let's start fresh, shall we?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9028 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/88/summary-dismissal) · oracle_id `f69d65e0-4d8a-4e27-b4dd-dd8c50acb8eb` · printing: INR #88 (2025-01-24) · [rulings](https://api.scryfall.com/cards/91b51351-d4ea-4bf8-aa43-29e71cd01819/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2016-07-13* — Only activated and triggered abilities on the stack are countered. Static abilities of objects remain unaffected, and activated and triggered abilities of objects may be activated or may trigger again later in the turn. Spells and abilities that have already resolved aren’t affected.
+  - *2016-07-13* — Spells that can’t be countered are exiled by Summary Dismissal. They won’t resolve.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/88/summary-dismissal) · oracle_id `f69d65e0-4d8a-4e27-b4dd-dd8c50acb8eb` · printing: INR #88 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summary Judgment
 
@@ -124,7 +127,9 @@
 - **Flavor text** (2X2 printing):
   > *"All the treasures of this world are grown, not made."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2952 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/160/summer-bloom) · oracle_id `e5df4597-1647-4ac2-bdb3-a517598d1431` · printing: 2X2 #160 (2022-07-08) · [rulings](https://api.scryfall.com/cards/7383f71d-3f51-4632-9ea0-27d47fa2fa50/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — This spell increases the number of lands you can play in a turn. The land cards are played as you would normally play lands.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/160/summer-bloom) · oracle_id `e5df4597-1647-4ac2-bdb3-a517598d1431` · printing: 2X2 #160 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summit Apes
 
@@ -191,7 +196,17 @@
   > Menace
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6594 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/120/summon:-anima) · oracle_id `0990e57f-279e-4348-a049-e06187cc38d4` · printing: FIN #120 (2025-06-13) · [rulings](https://api.scryfall.com/cards/aa4f6703-21f8-4c29-ad5a-5afb54188ade/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2025-06-06* — A chapter ability doesn't trigger if a lore counter is put on a Saga that already had a number of lore counters greater than or equal to that chapter's number. For example, the third lore counter put on a Saga causes the chapter III ability to trigger, but chapters I and II won't trigger again.
+  - *2025-06-06* — As a Saga enters, its controller puts a lore counter on it. As your first main phase begins (immediately after your draw step), you put another lore counter on each Saga you control. Putting a lore counter on a Saga in either of these ways doesn't use the stack.
+  - *2025-06-06* — Due to a rules change that takes effect with this release (see below for details), a Saga that somehow loses all of its chapter abilities will not be sacrificed as a state-based action. It will also not gain a lore counter at the beginning of each of its controller's first main phases.
+  - *2025-06-06* — Each symbol on the left of a Saga's text box represents a chapter ability. A chapter ability is a triggered ability that triggers when a lore counter that is put on the Saga causes the number of lore counters on the Saga to become equal to or greater than the ability's chapter number. Chapter abilities are put onto the stack and may be responded to.
+  - *2025-06-06* — If multiple chapter abilities trigger at the same time, their controller puts them on the stack in any order. If any of them require targets, those targets are chosen as you put the abilities on the stack, before any of those abilities resolve.
+  - *2025-06-06* — Once a chapter ability has triggered, the ability on the stack won't be affected if the Saga gains or loses counters, or if it leaves the battlefield.
+  - *2025-06-06* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities, the Saga's controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn't use the stack.
+  - *2025-06-06* — Removing lore counters won't cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives more lore counters.
+  - *2025-06-06* — Saga creatures have two sections to their text boxes. The first section, above the type line, contains their chapter abilities, and the second section, below the type line, contains any other abilities (or italicized flavor text). Any abilities in the latter section aren't chapter abilities and apply no matter how many lore counters are on the creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/120/summon:-anima) · oracle_id `0990e57f-279e-4348-a049-e06187cc38d4` · printing: FIN #120 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summon: Bahamut
 
@@ -206,7 +221,20 @@
   > Flying
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1219 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/1/summon:-bahamut) · oracle_id `fe9f6825-597b-4d80-ab7c-f4ee4e824b6f` · printing: FIN #1 (2025-06-13) · [rulings](https://api.scryfall.com/cards/95318d85-4a08-47ac-a43d-ea83c0bea81c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2025-06-06* — A chapter ability doesn't trigger if a lore counter is put on a Saga that already had a number of lore counters greater than or equal to that chapter's number. For example, the third lore counter put on a Saga causes the chapter III ability to trigger, but chapters I and II won't trigger again.
+  - *2025-06-06* — As a Saga enters, its controller puts a lore counter on it. As your first main phase begins (immediately after your draw step), you put another lore counter on each Saga you control. Putting a lore counter on a Saga in either of these ways doesn't use the stack.
+  - *2025-06-06* — Due to a rules change that takes effect with this release (see below for details), a Saga that somehow loses all of its chapter abilities will not be sacrificed as a state-based action. It will also not gain a lore counter at the beginning of each of its controller's first main phases.
+  - *2025-06-06* — Each symbol on the left of a Saga's text box represents a chapter ability. A chapter ability is a triggered ability that triggers when a lore counter that is put on the Saga causes the number of lore counters on the Saga to become equal to or greater than the ability's chapter number. Chapter abilities are put onto the stack and may be responded to.
+  - *2025-06-06* — If a permanent you control has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
+  - *2025-06-06* — If multiple chapter abilities trigger at the same time, their controller puts them on the stack in any order. If any of them require targets, those targets are chosen as you put the abilities on the stack, before any of those abilities resolve.
+  - *2025-06-06* — Once a chapter ability has triggered, the ability on the stack won't be affected if the Saga gains or loses counters, or if it leaves the battlefield.
+  - *2025-06-06* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities, the Saga's controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn't use the stack.
+  - *2025-06-06* — Removing lore counters won't cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives more lore counters.
+  - *2025-06-06* — Saga creatures have two sections to their text boxes. The first section, above the type line, contains their chapter abilities, and the second section, below the type line, contains any other abilities (or italicized flavor text). Any abilities in the latter section aren't chapter abilities and apply no matter how many lore counters are on the creature.
+  - *2025-06-06* — The mana value of a nonmodal double-faced permanent is the mana value of its front face, no matter which face is up.
+  - *2025-06-06* — Use the total mana value of other permanents you control as Summon: Bahamut's fourth chapter ability resolves to determine how much damage is dealt.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/1/summon:-bahamut) · oracle_id `fe9f6825-597b-4d80-ab7c-f4ee4e824b6f` · printing: FIN #1 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summon: Brynhildr
 
@@ -220,7 +248,18 @@
 - **Flavor text** (FIN printing):
   > *A name in blood, a pact of flame.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7983 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/160/summon:-brynhildr) · oracle_id `bab5e9ce-6d55-4d1e-a9ac-c2b954191be9` · printing: FIN #160 (2025-06-13) · [rulings](https://api.scryfall.com/cards/8ab5429a-1075-49aa-9608-0610080fbf7a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2025-06-06* — A chapter ability doesn't trigger if a lore counter is put on a Saga that already had a number of lore counters greater than or equal to that chapter's number. For example, the third lore counter put on a Saga causes the chapter III ability to trigger, but chapters I and II won't trigger again.
+  - *2025-06-06* — As a Saga enters, its controller puts a lore counter on it. As your first main phase begins (immediately after your draw step), you put another lore counter on each Saga you control. Putting a lore counter on a Saga in either of these ways doesn't use the stack.
+  - *2025-06-06* — Due to a rules change that takes effect with this release (see below for details), a Saga that somehow loses all of its chapter abilities will not be sacrificed as a state-based action. It will also not gain a lore counter at the beginning of each of its controller's first main phases.
+  - *2025-06-06* — Each symbol on the left of a Saga's text box represents a chapter ability. A chapter ability is a triggered ability that triggers when a lore counter that is put on the Saga causes the number of lore counters on the Saga to become equal to or greater than the ability's chapter number. Chapter abilities are put onto the stack and may be responded to.
+  - *2025-06-06* — If multiple chapter abilities trigger at the same time, their controller puts them on the stack in any order. If any of them require targets, those targets are chosen as you put the abilities on the stack, before any of those abilities resolve.
+  - *2025-06-06* — Once a chapter ability has triggered, the ability on the stack won't be affected if the Saga gains or loses counters, or if it leaves the battlefield.
+  - *2025-06-06* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities, the Saga's controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn't use the stack.
+  - *2025-06-06* — Removing lore counters won't cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives more lore counters.
+  - *2025-06-06* — Saga creatures have two sections to their text boxes. The first section, above the type line, contains their chapter abilities, and the second section, below the type line, contains any other abilities (or italicized flavor text). Any abilities in the latter section aren't chapter abilities and apply no matter how many lore counters are on the creature.
+  - *2025-06-06* — You pay all costs and follow all timing rules for cards played this way. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty and only if you have an available land play remaining.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/160/summon:-brynhildr) · oracle_id `bab5e9ce-6d55-4d1e-a9ac-c2b954191be9` · printing: FIN #160 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summon: Choco/Mog
 
@@ -233,7 +272,17 @@
 - **Flavor text** (FIN printing):
   > *"Wark? Kupo!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6866 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/35/summon:-chocomog) · oracle_id `8b4bfdc5-8c0a-40c3-abbf-ada4a536dc34` · printing: FIN #35 (2025-06-13) · [rulings](https://api.scryfall.com/cards/00546117-018a-4286-bc20-b5446c5be56f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2025-06-06* — A chapter ability doesn't trigger if a lore counter is put on a Saga that already had a number of lore counters greater than or equal to that chapter's number. For example, the third lore counter put on a Saga causes the chapter III ability to trigger, but chapters I and II won't trigger again.
+  - *2025-06-06* — As a Saga enters, its controller puts a lore counter on it. As your first main phase begins (immediately after your draw step), you put another lore counter on each Saga you control. Putting a lore counter on a Saga in either of these ways doesn't use the stack.
+  - *2025-06-06* — Due to a rules change that takes effect with this release (see below for details), a Saga that somehow loses all of its chapter abilities will not be sacrificed as a state-based action. It will also not gain a lore counter at the beginning of each of its controller's first main phases.
+  - *2025-06-06* — Each symbol on the left of a Saga's text box represents a chapter ability. A chapter ability is a triggered ability that triggers when a lore counter that is put on the Saga causes the number of lore counters on the Saga to become equal to or greater than the ability's chapter number. Chapter abilities are put onto the stack and may be responded to.
+  - *2025-06-06* — If multiple chapter abilities trigger at the same time, their controller puts them on the stack in any order. If any of them require targets, those targets are chosen as you put the abilities on the stack, before any of those abilities resolve.
+  - *2025-06-06* — Once a chapter ability has triggered, the ability on the stack won't be affected if the Saga gains or loses counters, or if it leaves the battlefield.
+  - *2025-06-06* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities, the Saga's controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn't use the stack.
+  - *2025-06-06* — Removing lore counters won't cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives more lore counters.
+  - *2025-06-06* — Saga creatures have two sections to their text boxes. The first section, above the type line, contains their chapter abilities, and the second section, below the type line, contains any other abilities (or italicized flavor text). Any abilities in the latter section aren't chapter abilities and apply no matter how many lore counters are on the creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/35/summon:-chocomog) · oracle_id `8b4bfdc5-8c0a-40c3-abbf-ada4a536dc34` · printing: FIN #35 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summoned Dromedary
 
@@ -312,7 +361,12 @@
   > Abraxas — Equip {3}
 - **Keywords:** Job select, Equip, Abraxas
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7844 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/205/summoners-grimoire) · oracle_id `d4453b3e-733e-4038-81da-135a6a03079c` · printing: FIN #205 (2025-06-13) · [rulings](https://api.scryfall.com/cards/d9fda3fc-569d-49f8-a2ed-e0b1d6668426/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-06-06* — If the Hero token is destroyed, the Equipment stays on the battlefield.
+  - *2025-06-06* — If the job select ability causes two Hero tokens to be created (due to an effect such as that of Doubling Season), the Equipment becomes attached to only one of them.
+  - *2025-06-06* — The Hero token enters as a 1/1 creature, then the Equipment becomes attached to it. Abilities that trigger when a creature enters the battlefield see that a 1/1 creature entered the battlefield.
+  - *2025-06-06* — You may pay the Equipment's equip cost as normal to move it from the Hero token to another creature you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/205/summoners-grimoire) · oracle_id `d4453b3e-733e-4038-81da-135a6a03079c` · printing: FIN #205 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summoner's Pact
 
@@ -322,7 +376,10 @@
   > Search your library for a green creature card, reveal it, put it into your hand, then shuffle.
   > At the beginning of your next upkeep, pay {2}{G}{G}. If you don't, you lose the game.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2994 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/234/summoners-pact) · oracle_id `782dcbc4-5a11-42f5-b8d9-4572e36d45b3` · printing: TSR #234 (2021-03-19) · [rulings](https://api.scryfall.com/cards/ee0f88ac-8a90-4057-b0e6-c15fbd02da38/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-06-07* — Although originally printed with a characteristic-defining ability that defined its color, this card now has a color indicator. This color indicator can't be affected by text-changing effects (such as the one created by Crystal Spray), although color-changing effects can still overwrite it.
+  - *2021-03-19* — If Summoner's Pact is countered, the delayed triggered ability that threatens you with a game loss won't trigger at the beginning of your next upkeep.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/234/summoners-pact) · oracle_id `782dcbc4-5a11-42f5-b8d9-4572e36d45b3` · printing: TSR #234 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summoner's Sending
 
@@ -333,7 +390,9 @@
 - **Flavor text** (FIC printing):
   > *The sending takes them to the Farplane, where they may rest in peace.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8718 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/29/summoners-sending) · oracle_id `46b01055-4839-4b95-aa53-b954e9669e03` · printing: FIC #29 (2025-06-13) · [rulings](https://api.scryfall.com/cards/8150be1a-4bac-4c67-9165-9d6fc04a69cc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-06-06* — If the exiled card has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/29/summoners-sending) · oracle_id `46b01055-4839-4b95-aa53-b954e9669e03` · printing: FIC #29 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summon: Esper Ramuh
 
@@ -361,7 +420,19 @@
   > Flying, haste
 - **Keywords:** Flying, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5222 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/60/summon:-esper-valigarmanda) · oracle_id `cecd2f49-8ccb-472d-9cf1-fd0f4d93546d` · printing: FIC #60 (2025-06-13) · [rulings](https://api.scryfall.com/cards/7f0298b4-c7ca-49b8-baaa-b9fad4c2bfd5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2025-06-06* — A chapter ability doesn't trigger if a lore counter is put on a Saga that already had a number of lore counters greater than or equal to that chapter's number. For example, the third lore counter put on a Saga causes the chapter III ability to trigger, but chapters I and II won't trigger again.
+  - *2025-06-06* — As a Saga enters, its controller puts a lore counter on it. As your first main phase begins (immediately after your draw step), you put another lore counter on each Saga you control. Putting a lore counter on a Saga in either of these ways doesn't use the stack.
+  - *2025-06-06* — Due to a rules change that takes effect with this release (see below for details), a Saga that somehow loses all of its chapter abilities will not be sacrificed as a state-based action. It will also not gain a lore counter at the beginning of each of its controller's first main phases.
+  - *2025-06-06* — Each symbol on the left of a Saga's text box represents a chapter ability. A chapter ability is a triggered ability that triggers when a lore counter that is put on the Saga causes the number of lore counters on the Saga to become equal to or greater than the ability's chapter number. Chapter abilities are put onto the stack and may be responded to.
+  - *2025-06-06* — If multiple chapter abilities trigger at the same time, their controller puts them on the stack in any order. If any of them require targets, those targets are chosen as you put the abilities on the stack, before any of those abilities resolve.
+  - *2025-06-06* — Once a chapter ability has triggered, the ability on the stack won't be affected if the Saga gains or loses counters, or if it leaves the battlefield.
+  - *2025-06-06* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities, the Saga's controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn't use the stack.
+  - *2025-06-06* — Removing lore counters won't cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives more lore counters.
+  - *2025-06-06* — Saga creatures have two sections to their text boxes. The first section, above the type line, contains their chapter abilities, and the second section, below the type line, contains any other abilities (or italicized flavor text). Any abilities in the latter section aren't chapter abilities and apply no matter how many lore counters are on the creature.
+  - *2025-06-06* — Summon: Esper Valigarmanda's second, third, and fourth chapter abilities aren't mana abilities. They use the stack and can be responded to.
+  - *2025-06-06* — You cast the spell while the ability is resolving and still on the stack. You can't wait to cast it later in the turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/60/summon:-esper-valigarmanda) · oracle_id `cecd2f49-8ccb-472d-9cf1-fd0f4d93546d` · printing: FIC #60 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summon: Fat Chocobo
 
@@ -375,7 +446,17 @@
 - **Flavor text** (FIN printing):
   > *A pleasingly plump summon.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4591 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/202/summon:-fat-chocobo) · oracle_id `b5d2f8e7-89d3-4015-ab99-ba4d66918e37` · printing: FIN #202 (2025-06-13) · [rulings](https://api.scryfall.com/cards/32eb192b-de6b-4814-8077-628d343d014e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2025-06-06* — A chapter ability doesn't trigger if a lore counter is put on a Saga that already had a number of lore counters greater than or equal to that chapter's number. For example, the third lore counter put on a Saga causes the chapter III ability to trigger, but chapters I and II won't trigger again.
+  - *2025-06-06* — As a Saga enters, its controller puts a lore counter on it. As your first main phase begins (immediately after your draw step), you put another lore counter on each Saga you control. Putting a lore counter on a Saga in either of these ways doesn't use the stack.
+  - *2025-06-06* — Due to a rules change that takes effect with this release (see below for details), a Saga that somehow loses all of its chapter abilities will not be sacrificed as a state-based action. It will also not gain a lore counter at the beginning of each of its controller's first main phases.
+  - *2025-06-06* — Each symbol on the left of a Saga's text box represents a chapter ability. A chapter ability is a triggered ability that triggers when a lore counter that is put on the Saga causes the number of lore counters on the Saga to become equal to or greater than the ability's chapter number. Chapter abilities are put onto the stack and may be responded to.
+  - *2025-06-06* — If multiple chapter abilities trigger at the same time, their controller puts them on the stack in any order. If any of them require targets, those targets are chosen as you put the abilities on the stack, before any of those abilities resolve.
+  - *2025-06-06* — Once a chapter ability has triggered, the ability on the stack won't be affected if the Saga gains or loses counters, or if it leaves the battlefield.
+  - *2025-06-06* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities, the Saga's controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn't use the stack.
+  - *2025-06-06* — Removing lore counters won't cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives more lore counters.
+  - *2025-06-06* — Saga creatures have two sections to their text boxes. The first section, above the type line, contains their chapter abilities, and the second section, below the type line, contains any other abilities (or italicized flavor text). Any abilities in the latter section aren't chapter abilities and apply no matter how many lore counters are on the creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/202/summon:-fat-chocobo) · oracle_id `b5d2f8e7-89d3-4015-ab99-ba4d66918e37` · printing: FIN #202 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summon: Fenrir
 
@@ -390,7 +471,17 @@
 - **Flavor text** (FIN printing):
   > *"Who dares summon me from the darkness?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1973 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/203/summon:-fenrir) · oracle_id `3509171e-8d7d-4e9e-97a1-58e6c7d225ed` · printing: FIN #203 (2025-06-13) · [rulings](https://api.scryfall.com/cards/93feb9d5-d004-4598-a448-b3488c869c05/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2025-06-06* — A chapter ability doesn't trigger if a lore counter is put on a Saga that already had a number of lore counters greater than or equal to that chapter's number. For example, the third lore counter put on a Saga causes the chapter III ability to trigger, but chapters I and II won't trigger again.
+  - *2025-06-06* — As a Saga enters, its controller puts a lore counter on it. As your first main phase begins (immediately after your draw step), you put another lore counter on each Saga you control. Putting a lore counter on a Saga in either of these ways doesn't use the stack.
+  - *2025-06-06* — Due to a rules change that takes effect with this release (see below for details), a Saga that somehow loses all of its chapter abilities will not be sacrificed as a state-based action. It will also not gain a lore counter at the beginning of each of its controller's first main phases.
+  - *2025-06-06* — Each symbol on the left of a Saga's text box represents a chapter ability. A chapter ability is a triggered ability that triggers when a lore counter that is put on the Saga causes the number of lore counters on the Saga to become equal to or greater than the ability's chapter number. Chapter abilities are put onto the stack and may be responded to.
+  - *2025-06-06* — If multiple chapter abilities trigger at the same time, their controller puts them on the stack in any order. If any of them require targets, those targets are chosen as you put the abilities on the stack, before any of those abilities resolve.
+  - *2025-06-06* — Once a chapter ability has triggered, the ability on the stack won't be affected if the Saga gains or loses counters, or if it leaves the battlefield.
+  - *2025-06-06* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities, the Saga's controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn't use the stack.
+  - *2025-06-06* — Removing lore counters won't cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives more lore counters.
+  - *2025-06-06* — Saga creatures have two sections to their text boxes. The first section, above the type line, contains their chapter abilities, and the second section, below the type line, contains any other abilities (or italicized flavor text). Any abilities in the latter section aren't chapter abilities and apply no matter how many lore counters are on the creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/203/summon:-fenrir) · oracle_id `3509171e-8d7d-4e9e-97a1-58e6c7d225ed` · printing: FIN #203 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summon: G.F. Cerberus
 
@@ -406,7 +497,24 @@
   > *"Pretty confident. Let's see how you do."*
 - **Keywords:** Surveil, Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7577 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/162/summon:-gf-cerberus) · oracle_id `b6b22bac-853a-45a8-a74d-9904ec2b34fd` · printing: FIN #162 (2025-06-13) · [rulings](https://api.scryfall.com/cards/d0e5cbd4-401b-4456-80bf-d90beadfd1f8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (16):
+  - *2025-06-06* — A chapter ability doesn't trigger if a lore counter is put on a Saga that already had a number of lore counters greater than or equal to that chapter's number. For example, the third lore counter put on a Saga causes the chapter III ability to trigger, but chapters I and II won't trigger again.
+  - *2025-06-06* — After Summon: G.F. Cerberus's second or third chapter ability resolves, the next instant or sorcery spell you cast that turn will be copied whether or not it has targets.
+  - *2025-06-06* — As a Saga enters, its controller puts a lore counter on it. As your first main phase begins (immediately after your draw step), you put another lore counter on each Saga you control. Putting a lore counter on a Saga in either of these ways doesn't use the stack.
+  - *2025-06-06* — Due to a rules change that takes effect with this release (see below for details), a Saga that somehow loses all of its chapter abilities will not be sacrificed as a state-based action. It will also not gain a lore counter at the beginning of each of its controller's first main phases.
+  - *2025-06-06* — Each symbol on the left of a Saga's text box represents a chapter ability. A chapter ability is a triggered ability that triggers when a lore counter that is put on the Saga causes the number of lore counters on the Saga to become equal to or greater than the ability's chapter number. Chapter abilities are put onto the stack and may be responded to.
+  - *2025-06-06* — If multiple chapter abilities trigger at the same time, their controller puts them on the stack in any order. If any of them require targets, those targets are chosen as you put the abilities on the stack, before any of those abilities resolve.
+  - *2025-06-06* — If the copied spell divides damage or distributes counters among a number of targets, the division and number of targets can't be changed. If you choose new targets, you must choose the same number of targets.
+  - *2025-06-06* — If the spell has any targets, the copy will have the same targets unless you choose new ones. You may change any number of the targets, including all of them or none of them. The new targets must be legal.
+  - *2025-06-06* — If the spell that's copied has an X whose value was determined as it was cast, the copy will have the same value of X.
+  - *2025-06-06* — If the spell that's copied is modal (that is, it says "Choose one —" or the like), the copy will have the same mode or modes. You can't choose different ones.
+  - *2025-06-06* — Once a chapter ability has triggered, the ability on the stack won't be affected if the Saga gains or loses counters, or if it leaves the battlefield.
+  - *2025-06-06* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities, the Saga's controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn't use the stack.
+  - *2025-06-06* — Removing lore counters won't cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives more lore counters.
+  - *2025-06-06* — Saga creatures have two sections to their text boxes. The first section, above the type line, contains their chapter abilities, and the second section, below the type line, contains any other abilities (or italicized flavor text). Any abilities in the latter section aren't chapter abilities and apply no matter how many lore counters are on the creature.
+  - *2025-06-06* — The copy is created on the stack, so it's not "cast." Abilities that trigger when a player casts a spell won't trigger.
+  - *2025-06-06* — You can't choose to pay any additional costs for the copy. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/162/summon:-gf-cerberus) · oracle_id `b6b22bac-853a-45a8-a74d-9904ec2b34fd` · printing: FIN #162 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summon: G.F. Ifrit
 
@@ -420,7 +528,18 @@
 - **Flavor text** (FIN printing):
   > *"Hm! Not bad for a human."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6724 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/163/summon:-gf-ifrit) · oracle_id `96d1bfc1-b80f-466f-b07d-df1ab361e8e0` · printing: FIN #163 (2025-06-13) · [rulings](https://api.scryfall.com/cards/c6c73092-5195-4bdc-b039-a699f6e297b2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2025-06-06* — A chapter ability doesn't trigger if a lore counter is put on a Saga that already had a number of lore counters greater than or equal to that chapter's number. For example, the third lore counter put on a Saga causes the chapter III ability to trigger, but chapters I and II won't trigger again.
+  - *2025-06-06* — As a Saga enters, its controller puts a lore counter on it. As your first main phase begins (immediately after your draw step), you put another lore counter on each Saga you control. Putting a lore counter on a Saga in either of these ways doesn't use the stack.
+  - *2025-06-06* — Due to a rules change that takes effect with this release (see below for details), a Saga that somehow loses all of its chapter abilities will not be sacrificed as a state-based action. It will also not gain a lore counter at the beginning of each of its controller's first main phases.
+  - *2025-06-06* — Each symbol on the left of a Saga's text box represents a chapter ability. A chapter ability is a triggered ability that triggers when a lore counter that is put on the Saga causes the number of lore counters on the Saga to become equal to or greater than the ability's chapter number. Chapter abilities are put onto the stack and may be responded to.
+  - *2025-06-06* — If multiple chapter abilities trigger at the same time, their controller puts them on the stack in any order. If any of them require targets, those targets are chosen as you put the abilities on the stack, before any of those abilities resolve.
+  - *2025-06-06* — Once a chapter ability has triggered, the ability on the stack won't be affected if the Saga gains or loses counters, or if it leaves the battlefield.
+  - *2025-06-06* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities, the Saga's controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn't use the stack.
+  - *2025-06-06* — Removing lore counters won't cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives more lore counters.
+  - *2025-06-06* — Saga creatures have two sections to their text boxes. The first section, above the type line, contains their chapter abilities, and the second section, below the type line, contains any other abilities (or italicized flavor text). Any abilities in the latter section aren't chapter abilities and apply no matter how many lore counters are on the creature.
+  - *2025-06-06* — Summon: G.F. Ifrit's third and fourth chapter abilities aren't mana abilities. They use the stack and can be responded to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/163/summon:-gf-ifrit) · oracle_id `96d1bfc1-b80f-466f-b07d-df1ab361e8e0` · printing: FIN #163 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summon: Good King Mog XII
 
@@ -435,7 +554,21 @@
   > Flying, lifelink
 - **Keywords:** Flying, Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4834 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/26/summon:-good-king-mog-xii) · oracle_id `2148820c-85b6-4598-adf2-10873001a779` · printing: FIC #26 (2025-06-13) · [rulings](https://api.scryfall.com/cards/c14098d6-28ae-492f-8ffc-7d115d83ce6a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2025-06-06* — A chapter ability doesn't trigger if a lore counter is put on a Saga that already had a number of lore counters greater than or equal to that chapter's number. For example, the third lore counter put on a Saga causes the chapter III ability to trigger, but chapters I and II won't trigger again.
+  - *2025-06-06* — Any "as [this permanent] enters" or "[this permanent] enters with" abilities of the new token will work.
+  - *2025-06-06* — As a Saga enters, its controller puts a lore counter on it. As your first main phase begins (immediately after your draw step), you put another lore counter on each Saga you control. Putting a lore counter on a Saga in either of these ways doesn't use the stack.
+  - *2025-06-06* — Due to a rules change that takes effect with this release (see below for details), a Saga that somehow loses all of its chapter abilities will not be sacrificed as a state-based action. It will also not gain a lore counter at the beginning of each of its controller's first main phases.
+  - *2025-06-06* — Each symbol on the left of a Saga's text box represents a chapter ability. A chapter ability is a triggered ability that triggers when a lore counter that is put on the Saga causes the number of lore counters on the Saga to become equal to or greater than the ability's chapter number. Chapter abilities are put onto the stack and may be responded to.
+  - *2025-06-06* — If multiple chapter abilities trigger at the same time, their controller puts them on the stack in any order. If any of them require targets, those targets are chosen as you put the abilities on the stack, before any of those abilities resolve.
+  - *2025-06-06* — Once a chapter ability has triggered, the ability on the stack won't be affected if the Saga gains or loses counters, or if it leaves the battlefield.
+  - *2025-06-06* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities, the Saga's controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn't use the stack.
+  - *2025-06-06* — Removing lore counters won't cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives more lore counters.
+  - *2025-06-06* — Saga creatures have two sections to their text boxes. The first section, above the type line, contains their chapter abilities, and the second section, below the type line, contains any other abilities (or italicized flavor text). Any abilities in the latter section aren't chapter abilities and apply no matter how many lore counters are on the creature.
+  - *2025-06-06* — The delayed triggered ability set up by Summon: Good King Mog XII's second and third chapter abilities resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+  - *2025-06-06* — The new token copies the original characteristics of the copied token as stated by the effect that created that token.
+  - *2025-06-06* — The new token doesn't copy whether the original token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, color, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/26/summon:-good-king-mog-xii) · oracle_id `2148820c-85b6-4598-adf2-10873001a779` · printing: FIC #26 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summoning Materia
 
@@ -448,7 +581,12 @@
   > Equip {2}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6417 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/72/summoning-materia) · oracle_id `2ca9e6e5-5eec-4593-8816-5c4317c79eb0` · printing: FIC #72 (2025-06-13) · [rulings](https://api.scryfall.com/cards/176401fb-f87c-4085-9dac-e6c8a843e32e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-06-06* — If the top card of your library changes while you're casting a spell, playing a land, or activating an ability, you can't look at the new top card until you finish doing so. This means that if you cast the top card of your library, you can't look at the next one until you're done paying for that spell.
+  - *2025-06-06* — Summoning Materia lets you look at the top card of your library whenever you want (with one restriction—see below), even if you don't have priority. This action doesn't use the stack. Knowing what that card is becomes part of the information you have access to, just like you can look at the cards in your hand.
+  - *2025-06-06* — The top card of your library isn't in your hand, so you can't cycle it, discard it, or activate any of its abilities that could be activated from your hand.
+  - *2025-06-06* — You must follow all normal timing rules for spells cast using the second ability and must pay all costs for spells cast this way. To cast a spell this way, you may choose to pay any alternative costs or optional additional costs the spell may have (such as a kicker cost). You must pay any mandatory additional costs.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/72/summoning-materia) · oracle_id `2ca9e6e5-5eec-4593-8816-5c4317c79eb0` · printing: FIC #72 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summoning Station
 
@@ -482,7 +620,22 @@
   > First strike
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3573 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/27/summon:-ixion) · oracle_id `1ccb8122-9135-4b8d-b1d1-18997fd7e9d2` · printing: FIC #27 (2025-06-13) · [rulings](https://api.scryfall.com/cards/acb35dcb-0bee-4deb-88bf-ffa1f110c67b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (14):
+  - *2025-06-06* — A chapter ability doesn't trigger if a lore counter is put on a Saga that already had a number of lore counters greater than or equal to that chapter's number. For example, the third lore counter put on a Saga causes the chapter III ability to trigger, but chapters I and II won't trigger again.
+  - *2025-06-06* — As a Saga enters, its controller puts a lore counter on it. As your first main phase begins (immediately after your draw step), you put another lore counter on each Saga you control. Putting a lore counter on a Saga in either of these ways doesn't use the stack.
+  - *2025-06-06* — Auras attached to the exiled permanent will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist. When the card returns to the battlefield, it will be a new object with no connection to the card that was exiled.
+  - *2025-06-06* — Due to a rules change that takes effect with this release (see below for details), a Saga that somehow loses all of its chapter abilities will not be sacrificed as a state-based action. It will also not gain a lore counter at the beginning of each of its controller's first main phases.
+  - *2025-06-06* — Each symbol on the left of a Saga's text box represents a chapter ability. A chapter ability is a triggered ability that triggers when a lore counter that is put on the Saga causes the number of lore counters on the Saga to become equal to or greater than the ability's chapter number. Chapter abilities are put onto the stack and may be responded to.
+  - *2025-06-06* — If Summon: Ixion leaves the battlefield before its first chapter ability resolves, the target permanent won't be exiled.
+  - *2025-06-06* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
+  - *2025-06-06* — If an Aura is exiled this way, its owner chooses what it will enchant as it returns to the battlefield. An Aura put onto the battlefield this way doesn't target anything (so it could be attached to a permanent with shroud, for example), but the Aura's enchant ability restricts what it can be attached to. If the Aura can't legally be attached to anything, it remains in exile for the rest of the game.
+  - *2025-06-06* — If multiple chapter abilities trigger at the same time, their controller puts them on the stack in any order. If any of them require targets, those targets are chosen as you put the abilities on the stack, before any of those abilities resolve.
+  - *2025-06-06* — Once a chapter ability has triggered, the ability on the stack won't be affected if the Saga gains or loses counters, or if it leaves the battlefield.
+  - *2025-06-06* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities, the Saga's controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn't use the stack.
+  - *2025-06-06* — Removing lore counters won't cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives more lore counters.
+  - *2025-06-06* — Saga creatures have two sections to their text boxes. The first section, above the type line, contains their chapter abilities, and the second section, below the type line, contains any other abilities (or italicized flavor text). Any abilities in the latter section aren't chapter abilities and apply no matter how many lore counters are on the creature.
+  - *2025-06-06* — You don't have to choose any targets for Summon: Ixion's second or third chapter ability. However, if you do and all of the targets are illegal when the ability tries to resolve, it won't resolve and none of its effects will happen. You won't gain life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/27/summon:-ixion) · oracle_id `1ccb8122-9135-4b8d-b1d1-18997fd7e9d2` · printing: FIC #27 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summon: Knights of Round
 
@@ -496,7 +649,17 @@
   > Indestructible
 - **Keywords:** Indestructible
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2168 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/36/summon:-knights-of-round) · oracle_id `73122880-d7f4-422f-a336-18773bcb7bfe` · printing: FIN #36 (2025-06-13) · [rulings](https://api.scryfall.com/cards/44d23652-077e-4c1f-b640-b284685db911/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2025-06-06* — A chapter ability doesn't trigger if a lore counter is put on a Saga that already had a number of lore counters greater than or equal to that chapter's number. For example, the third lore counter put on a Saga causes the chapter III ability to trigger, but chapters I and II won't trigger again.
+  - *2025-06-06* — As a Saga enters, its controller puts a lore counter on it. As your first main phase begins (immediately after your draw step), you put another lore counter on each Saga you control. Putting a lore counter on a Saga in either of these ways doesn't use the stack.
+  - *2025-06-06* — Due to a rules change that takes effect with this release (see below for details), a Saga that somehow loses all of its chapter abilities will not be sacrificed as a state-based action. It will also not gain a lore counter at the beginning of each of its controller's first main phases.
+  - *2025-06-06* — Each symbol on the left of a Saga's text box represents a chapter ability. A chapter ability is a triggered ability that triggers when a lore counter that is put on the Saga causes the number of lore counters on the Saga to become equal to or greater than the ability's chapter number. Chapter abilities are put onto the stack and may be responded to.
+  - *2025-06-06* — If multiple chapter abilities trigger at the same time, their controller puts them on the stack in any order. If any of them require targets, those targets are chosen as you put the abilities on the stack, before any of those abilities resolve.
+  - *2025-06-06* — Once a chapter ability has triggered, the ability on the stack won't be affected if the Saga gains or loses counters, or if it leaves the battlefield.
+  - *2025-06-06* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities, the Saga's controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn't use the stack.
+  - *2025-06-06* — Removing lore counters won't cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives more lore counters.
+  - *2025-06-06* — Saga creatures have two sections to their text boxes. The first section, above the type line, contains their chapter abilities, and the second section, below the type line, contains any other abilities (or italicized flavor text). Any abilities in the latter section aren't chapter abilities and apply no matter how many lore counters are on the creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/36/summon:-knights-of-round) · oracle_id `73122880-d7f4-422f-a336-18773bcb7bfe` · printing: FIN #36 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summon: Kujata
 
@@ -511,7 +674,18 @@
   > Trample, haste
 - **Keywords:** Haste, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5954 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/61/summon:-kujata) · oracle_id `9fe77f70-85cf-4a18-9451-2fad4c341f07` · printing: FIC #61 (2025-06-13) · [rulings](https://api.scryfall.com/cards/ba934866-efd0-4126-b1ff-9c7e82b73bd6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2025-06-06* — A chapter ability doesn't trigger if a lore counter is put on a Saga that already had a number of lore counters greater than or equal to that chapter's number. For example, the third lore counter put on a Saga causes the chapter III ability to trigger, but chapters I and II won't trigger again.
+  - *2025-06-06* — As a Saga enters, its controller puts a lore counter on it. As your first main phase begins (immediately after your draw step), you put another lore counter on each Saga you control. Putting a lore counter on a Saga in either of these ways doesn't use the stack.
+  - *2025-06-06* — Due to a rules change that takes effect with this release (see below for details), a Saga that somehow loses all of its chapter abilities will not be sacrificed as a state-based action. It will also not gain a lore counter at the beginning of each of its controller's first main phases.
+  - *2025-06-06* — Each symbol on the left of a Saga's text box represents a chapter ability. A chapter ability is a triggered ability that triggers when a lore counter that is put on the Saga causes the number of lore counters on the Saga to become equal to or greater than the ability's chapter number. Chapter abilities are put onto the stack and may be responded to.
+  - *2025-06-06* — If multiple chapter abilities trigger at the same time, their controller puts them on the stack in any order. If any of them require targets, those targets are chosen as you put the abilities on the stack, before any of those abilities resolve.
+  - *2025-06-06* — If the discarded card has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
+  - *2025-06-06* — Once a chapter ability has triggered, the ability on the stack won't be affected if the Saga gains or loses counters, or if it leaves the battlefield.
+  - *2025-06-06* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities, the Saga's controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn't use the stack.
+  - *2025-06-06* — Removing lore counters won't cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives more lore counters.
+  - *2025-06-06* — Saga creatures have two sections to their text boxes. The first section, above the type line, contains their chapter abilities, and the second section, below the type line, contains any other abilities (or italicized flavor text). Any abilities in the latter section aren't chapter abilities and apply no matter how many lore counters are on the creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/61/summon:-kujata) · oracle_id `9fe77f70-85cf-4a18-9451-2fad4c341f07` · printing: FIC #61 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summon: Leviathan
 
@@ -525,7 +699,17 @@
   > Ward {2}
 - **Keywords:** Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3646 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/77/summon:-leviathan) · oracle_id `b38d1811-64d7-4a35-a86c-3291eecd8391` · printing: FIN #77 (2025-06-13) · [rulings](https://api.scryfall.com/cards/ea7f26a9-b203-4ee7-88f1-3d9c77a25bcb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2025-06-06* — A chapter ability doesn't trigger if a lore counter is put on a Saga that already had a number of lore counters greater than or equal to that chapter's number. For example, the third lore counter put on a Saga causes the chapter III ability to trigger, but chapters I and II won't trigger again.
+  - *2025-06-06* — As a Saga enters, its controller puts a lore counter on it. As your first main phase begins (immediately after your draw step), you put another lore counter on each Saga you control. Putting a lore counter on a Saga in either of these ways doesn't use the stack.
+  - *2025-06-06* — Due to a rules change that takes effect with this release (see below for details), a Saga that somehow loses all of its chapter abilities will not be sacrificed as a state-based action. It will also not gain a lore counter at the beginning of each of its controller's first main phases.
+  - *2025-06-06* — Each symbol on the left of a Saga's text box represents a chapter ability. A chapter ability is a triggered ability that triggers when a lore counter that is put on the Saga causes the number of lore counters on the Saga to become equal to or greater than the ability's chapter number. Chapter abilities are put onto the stack and may be responded to.
+  - *2025-06-06* — If multiple chapter abilities trigger at the same time, their controller puts them on the stack in any order. If any of them require targets, those targets are chosen as you put the abilities on the stack, before any of those abilities resolve.
+  - *2025-06-06* — Once a chapter ability has triggered, the ability on the stack won't be affected if the Saga gains or loses counters, or if it leaves the battlefield.
+  - *2025-06-06* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities, the Saga's controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn't use the stack.
+  - *2025-06-06* — Removing lore counters won't cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives more lore counters.
+  - *2025-06-06* — Saga creatures have two sections to their text boxes. The first section, above the type line, contains their chapter abilities, and the second section, below the type line, contains any other abilities (or italicized flavor text). Any abilities in the latter section aren't chapter abilities and apply no matter how many lore counters are on the creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/77/summon:-leviathan) · oracle_id `b38d1811-64d7-4a35-a86c-3291eecd8391` · printing: FIN #77 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summon: Magus Sisters
 
@@ -541,7 +725,26 @@
   > Haste
 - **Keywords:** Combine Powers!, Haste, Fight, Defense!
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4811 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/71/summon:-magus-sisters) · oracle_id `06f11ff8-cc99-411d-b00b-464ba4b7b87d` · printing: FIC #71 (2025-06-13) · [rulings](https://api.scryfall.com/cards/76a8cae7-e6ea-45eb-be8d-0e6a29b98aa6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (18):
+  - *2025-06-06* — "Shield" is not an ability that creatures have and shield counters are not keyword counters. If a creature with a shield counter loses its abilities, the shield counter will still protect it as normal.
+  - *2025-06-06* — A chapter ability doesn't trigger if a lore counter is put on a Saga that already had a number of lore counters greater than or equal to that chapter's number. For example, the third lore counter put on a Saga causes the chapter III ability to trigger, but chapters I and II won't trigger again.
+  - *2025-06-06* — A creature with a shield counter on it may still be destroyed by state-based actions if it has damage marked on it equal to its toughness or has been dealt unpreventable damage by a source with deathtouch.
+  - *2025-06-06* — As a Saga enters, its controller puts a lore counter on it. As your first main phase begins (immediately after your draw step), you put another lore counter on each Saga you control. Putting a lore counter on a Saga in either of these ways doesn't use the stack.
+  - *2025-06-06* — As you put one of Summon: Magus Sisters's chapter abilities on the stack, you choose a mode at random. Players can respond to the ability knowing which mode was chosen.
+  - *2025-06-06* — Due to a rules change that takes effect with this release (see below for details), a Saga that somehow loses all of its chapter abilities will not be sacrificed as a state-based action. It will also not gain a lore counter at the beginning of each of its controller's first main phases.
+  - *2025-06-06* — Each symbol on the left of a Saga's text box represents a chapter ability. A chapter ability is a triggered ability that triggers when a lore counter that is put on the Saga causes the number of lore counters on the Saga to become equal to or greater than the ability's chapter number. Chapter abilities are put onto the stack and may be responded to.
+  - *2025-06-06* — If a permanent that would be dealt damage has more than one shield counter on it, that damage is prevented and only one shield counter is removed.
+  - *2025-06-06* — If a permanent with a shield counter is dealt unpreventable damage, that damage will be dealt and a shield counter will still be removed.
+  - *2025-06-06* — If multiple chapter abilities trigger at the same time, their controller puts them on the stack in any order. If any of them require targets, those targets are chosen as you put the abilities on the stack, before any of those abilities resolve.
+  - *2025-06-06* — In the incredibly rare case where there is no legal target for the first or second mode, those modes can't be chosen at random. Since the third mode doesn't require a target, it is always eligible to be chosen.
+  - *2025-06-06* — Once a chapter ability has triggered, the ability on the stack won't be affected if the Saga gains or loses counters, or if it leaves the battlefield.
+  - *2025-06-06* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities, the Saga's controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn't use the stack.
+  - *2025-06-06* — Removing a shield counter when a permanent would be dealt damage or destroyed isn't the same as regenerating that permanent.
+  - *2025-06-06* — Removing lore counters won't cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives more lore counters.
+  - *2025-06-06* — Saga creatures have two sections to their text boxes. The first section, above the type line, contains their chapter abilities, and the second section, below the type line, contains any other abilities (or italicized flavor text). Any abilities in the latter section aren't chapter abilities and apply no matter how many lore counters are on the creature.
+  - *2025-06-06* — Shield counters don't prevent players from sacrificing creatures.
+  - *2025-06-06* — The random choice of mode for Summon: Magus Sisters's chapter abilities is made before targets are chosen.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/71/summon:-magus-sisters) · oracle_id `06f11ff8-cc99-411d-b00b-464ba4b7b87d` · printing: FIC #71 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summon: Primal Garuda
 
@@ -555,7 +758,17 @@
   > Flying
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6794 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/37/summon:-primal-garuda) · oracle_id `aaf9e711-94e1-4869-81b0-baa6380ee873` · printing: FIN #37 (2025-06-13) · [rulings](https://api.scryfall.com/cards/e44497a8-067e-454e-a9c0-684f03df55ff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2025-06-06* — A chapter ability doesn't trigger if a lore counter is put on a Saga that already had a number of lore counters greater than or equal to that chapter's number. For example, the third lore counter put on a Saga causes the chapter III ability to trigger, but chapters I and II won't trigger again.
+  - *2025-06-06* — As a Saga enters, its controller puts a lore counter on it. As your first main phase begins (immediately after your draw step), you put another lore counter on each Saga you control. Putting a lore counter on a Saga in either of these ways doesn't use the stack.
+  - *2025-06-06* — Due to a rules change that takes effect with this release (see below for details), a Saga that somehow loses all of its chapter abilities will not be sacrificed as a state-based action. It will also not gain a lore counter at the beginning of each of its controller's first main phases.
+  - *2025-06-06* — Each symbol on the left of a Saga's text box represents a chapter ability. A chapter ability is a triggered ability that triggers when a lore counter that is put on the Saga causes the number of lore counters on the Saga to become equal to or greater than the ability's chapter number. Chapter abilities are put onto the stack and may be responded to.
+  - *2025-06-06* — If multiple chapter abilities trigger at the same time, their controller puts them on the stack in any order. If any of them require targets, those targets are chosen as you put the abilities on the stack, before any of those abilities resolve.
+  - *2025-06-06* — Once a chapter ability has triggered, the ability on the stack won't be affected if the Saga gains or loses counters, or if it leaves the battlefield.
+  - *2025-06-06* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities, the Saga's controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn't use the stack.
+  - *2025-06-06* — Removing lore counters won't cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives more lore counters.
+  - *2025-06-06* — Saga creatures have two sections to their text boxes. The first section, above the type line, contains their chapter abilities, and the second section, below the type line, contains any other abilities (or italicized flavor text). Any abilities in the latter section aren't chapter abilities and apply no matter how many lore counters are on the creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/37/summon:-primal-garuda) · oracle_id `aaf9e711-94e1-4869-81b0-baa6380ee873` · printing: FIN #37 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summon: Primal Odin
 
@@ -570,7 +783,18 @@
 - **Flavor text** (FIN printing):
   > *The elder primal Odin has returned to Eorzea.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2273 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/121/summon:-primal-odin) · oracle_id `032f59c3-9f47-4db3-a43c-065a99ed7efe` · printing: FIN #121 (2025-06-13) · [rulings](https://api.scryfall.com/cards/8b1b5f06-e34d-44a3-976e-5157c4b7a0f4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2025-06-06* — A chapter ability doesn't trigger if a lore counter is put on a Saga that already had a number of lore counters greater than or equal to that chapter's number. For example, the third lore counter put on a Saga causes the chapter III ability to trigger, but chapters I and II won't trigger again.
+  - *2025-06-06* — As a Saga enters, its controller puts a lore counter on it. As your first main phase begins (immediately after your draw step), you put another lore counter on each Saga you control. Putting a lore counter on a Saga in either of these ways doesn't use the stack.
+  - *2025-06-06* — Due to a rules change that takes effect with this release (see below for details), a Saga that somehow loses all of its chapter abilities will not be sacrificed as a state-based action. It will also not gain a lore counter at the beginning of each of its controller's first main phases.
+  - *2025-06-06* — Each symbol on the left of a Saga's text box represents a chapter ability. A chapter ability is a triggered ability that triggers when a lore counter that is put on the Saga causes the number of lore counters on the Saga to become equal to or greater than the ability's chapter number. Chapter abilities are put onto the stack and may be responded to.
+  - *2025-06-06* — If multiple chapter abilities trigger at the same time, their controller puts them on the stack in any order. If any of them require targets, those targets are chosen as you put the abilities on the stack, before any of those abilities resolve.
+  - *2025-06-06* — Once Summon: Primal Odin deals combat damage to a player and the ability granted by Summon: Primal Odin's second chapter ability triggers, it doesn't matter what happens to Summon: Primal Odin. When that ability resolves, the player who was dealt combat damage this way loses the game even if Summon: Primal Odin isn't on the battlefield anymore or is controlled by another player.
+  - *2025-06-06* — Once a chapter ability has triggered, the ability on the stack won't be affected if the Saga gains or loses counters, or if it leaves the battlefield.
+  - *2025-06-06* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities, the Saga's controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn't use the stack.
+  - *2025-06-06* — Removing lore counters won't cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives more lore counters.
+  - *2025-06-06* — Saga creatures have two sections to their text boxes. The first section, above the type line, contains their chapter abilities, and the second section, below the type line, contains any other abilities (or italicized flavor text). Any abilities in the latter section aren't chapter abilities and apply no matter how many lore counters are on the creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/121/summon:-primal-odin) · oracle_id `032f59c3-9f47-4db3-a43c-065a99ed7efe` · printing: FIN #121 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summon: Shiva
 
@@ -584,7 +808,17 @@
 - **Flavor text** (FIN printing):
   > *"Let us summon a sea in a new dream world."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4914 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/78/summon:-shiva) · oracle_id `5846718c-7d31-4d2c-80a2-b1534e2aebc1` · printing: FIN #78 (2025-06-13) · [rulings](https://api.scryfall.com/cards/a80511f8-7cb1-4974-afde-8a5cebe13ad7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2025-06-06* — A chapter ability doesn't trigger if a lore counter is put on a Saga that already had a number of lore counters greater than or equal to that chapter's number. For example, the third lore counter put on a Saga causes the chapter III ability to trigger, but chapters I and II won't trigger again.
+  - *2025-06-06* — As a Saga enters, its controller puts a lore counter on it. As your first main phase begins (immediately after your draw step), you put another lore counter on each Saga you control. Putting a lore counter on a Saga in either of these ways doesn't use the stack.
+  - *2025-06-06* — Due to a rules change that takes effect with this release (see below for details), a Saga that somehow loses all of its chapter abilities will not be sacrificed as a state-based action. It will also not gain a lore counter at the beginning of each of its controller's first main phases.
+  - *2025-06-06* — Each symbol on the left of a Saga's text box represents a chapter ability. A chapter ability is a triggered ability that triggers when a lore counter that is put on the Saga causes the number of lore counters on the Saga to become equal to or greater than the ability's chapter number. Chapter abilities are put onto the stack and may be responded to.
+  - *2025-06-06* — If multiple chapter abilities trigger at the same time, their controller puts them on the stack in any order. If any of them require targets, those targets are chosen as you put the abilities on the stack, before any of those abilities resolve.
+  - *2025-06-06* — Once a chapter ability has triggered, the ability on the stack won't be affected if the Saga gains or loses counters, or if it leaves the battlefield.
+  - *2025-06-06* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities, the Saga's controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn't use the stack.
+  - *2025-06-06* — Removing lore counters won't cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives more lore counters.
+  - *2025-06-06* — Saga creatures have two sections to their text boxes. The first section, above the type line, contains their chapter abilities, and the second section, below the type line, contains any other abilities (or italicized flavor text). Any abilities in the latter section aren't chapter abilities and apply no matter how many lore counters are on the creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/78/summon:-shiva) · oracle_id `5846718c-7d31-4d2c-80a2-b1534e2aebc1` · printing: FIN #78 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summons of Saruman
 
@@ -595,7 +829,18 @@
   > Flashback—{3}{U}{R}, Exile X cards from your graveyard.
 - **Keywords:** Amass, Flashback, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5602 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/70/summons-of-saruman) · oracle_id `aede5485-7b8c-4e29-a3a4-9a3513dc733f` · printing: LTC #70 (2023-06-23) · [rulings](https://api.scryfall.com/cards/cbb1bc1f-b1d6-4639-b892-9b1ff6ed65fb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2023-06-16* — Amass Zombies works the same way, except you create a 0/0 black Zombie Army creature token if you don't control an Army. If the Army creature you chose isn't already a Zombie, it becomes a Zombie in addition to its other types. By combining cards with amass Orcs and amass Zombies, you can end up with an Orc Zombie Army.
+  - *2023-06-16* — Amass abilities are now written as "amass [subtype] N." Previous cards with amass have received errata to say "amass Zombies N."
+  - *2023-06-16* — If the spell has {X} in its mana cost, you must choose 0 as the value of X.
+  - *2023-06-16* — If you cast a spell "without paying its mana cost", you can't choose to cast it for any alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
+  - *2023-06-16* — If you don't control an Army, the Orc Army token you create enters the battlefield as a 0/0 creature before receiving counters. Any abilities that trigger when a creature with a certain power enters the battlefield, such as that of Mentor of the Meek, will see the token enter as a 0/0 creature before it gets +1/+1 counters.
+  - *2023-06-16* — If you want to cast one of the milled cards, you cast it as part of the resolution of Summons of Saruman. You can't wait to cast the spell later in the turn. Timing permissions based on the card's type are ignored.
+  - *2023-06-16* — In the rare case that you control multiple Army creatures (perhaps because you played a creature with changeling) while you amass Orcs, you choose which of your Army creatures to put the +1/+1 counters on. If that creature isn't an Orc, it becomes an Orc in addition to its other types.
+  - *2023-06-16* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
+  - *2023-06-16* — Some spells and abilities that amass Orcs may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't amass Orcs.
+  - *2023-06-16* — To amass Orcs N, if you don't control an Army creature, create a 0/0 black Orc Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already an Orc, it becomes an Orc in addition to its other types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/70/summons-of-saruman) · oracle_id `aede5485-7b8c-4e29-a3a4-9a3513dc733f` · printing: LTC #70 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summon the Pack
 
@@ -632,7 +877,18 @@
   > Reach, trample
 - **Keywords:** Reach, Trample, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1961 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/204/summon:-titan) · oracle_id `66ce0c60-f406-4ece-915f-675da4e8b16d` · printing: FIN #204 (2025-06-13) · [rulings](https://api.scryfall.com/cards/5ce6ea96-7293-496d-b9c8-8ed6d6109a4d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2025-06-06* — A chapter ability doesn't trigger if a lore counter is put on a Saga that already had a number of lore counters greater than or equal to that chapter's number. For example, the third lore counter put on a Saga causes the chapter III ability to trigger, but chapters I and II won't trigger again.
+  - *2025-06-06* — As a Saga enters, its controller puts a lore counter on it. As your first main phase begins (immediately after your draw step), you put another lore counter on each Saga you control. Putting a lore counter on a Saga in either of these ways doesn't use the stack.
+  - *2025-06-06* — Due to a rules change that takes effect with this release (see below for details), a Saga that somehow loses all of its chapter abilities will not be sacrificed as a state-based action. It will also not gain a lore counter at the beginning of each of its controller's first main phases.
+  - *2025-06-06* — Each symbol on the left of a Saga's text box represents a chapter ability. A chapter ability is a triggered ability that triggers when a lore counter that is put on the Saga causes the number of lore counters on the Saga to become equal to or greater than the ability's chapter number. Chapter abilities are put onto the stack and may be responded to.
+  - *2025-06-06* — If multiple chapter abilities trigger at the same time, their controller puts them on the stack in any order. If any of them require targets, those targets are chosen as you put the abilities on the stack, before any of those abilities resolve.
+  - *2025-06-06* — Once a chapter ability has triggered, the ability on the stack won't be affected if the Saga gains or loses counters, or if it leaves the battlefield.
+  - *2025-06-06* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities, the Saga's controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn't use the stack.
+  - *2025-06-06* — Removing lore counters won't cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives more lore counters.
+  - *2025-06-06* — Saga creatures have two sections to their text boxes. The first section, above the type line, contains their chapter abilities, and the second section, below the type line, contains any other abilities (or italicized flavor text). Any abilities in the latter section aren't chapter abilities and apply no matter how many lore counters are on the creature.
+  - *2025-06-06* — The value of X in Summon: Titan's third chapter ability is calculated only once, as the ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/204/summon:-titan) · oracle_id `66ce0c60-f406-4ece-915f-675da4e8b16d` · printing: FIN #204 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summon Undead
 
@@ -658,7 +914,19 @@
   > Flying
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4559 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/42/summon:-valefor) · oracle_id `67d29e56-9ca8-46bc-9ee0-20184e867ce4` · printing: FIC #42 (2025-06-13) · [rulings](https://api.scryfall.com/cards/e0474d99-48e5-4e60-8cd6-537a10bcfea5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2025-06-06* — A chapter ability doesn't trigger if a lore counter is put on a Saga that already had a number of lore counters greater than or equal to that chapter's number. For example, the third lore counter put on a Saga causes the chapter III ability to trigger, but chapters I and II won't trigger again.
+  - *2025-06-06* — As a Saga enters, its controller puts a lore counter on it. As your first main phase begins (immediately after your draw step), you put another lore counter on each Saga you control. Putting a lore counter on a Saga in either of these ways doesn't use the stack.
+  - *2025-06-06* — Due to a rules change that takes effect with this release (see below for details), a Saga that somehow loses all of its chapter abilities will not be sacrificed as a state-based action. It will also not gain a lore counter at the beginning of each of its controller's first main phases.
+  - *2025-06-06* — Each symbol on the left of a Saga's text box represents a chapter ability. A chapter ability is a triggered ability that triggers when a lore counter that is put on the Saga causes the number of lore counters on the Saga to become equal to or greater than the ability's chapter number. Chapter abilities are put onto the stack and may be responded to.
+  - *2025-06-06* — If a creature on the battlefield has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
+  - *2025-06-06* — If multiple chapter abilities trigger at the same time, their controller puts them on the stack in any order. If any of them require targets, those targets are chosen as you put the abilities on the stack, before any of those abilities resolve.
+  - *2025-06-06* — Once a chapter ability has triggered, the ability on the stack won't be affected if the Saga gains or loses counters, or if it leaves the battlefield.
+  - *2025-06-06* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities, the Saga's controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn't use the stack.
+  - *2025-06-06* — Removing lore counters won't cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives more lore counters.
+  - *2025-06-06* — Saga creatures have two sections to their text boxes. The first section, above the type line, contains their chapter abilities, and the second section, below the type line, contains any other abilities (or italicized flavor text). Any abilities in the latter section aren't chapter abilities and apply no matter how many lore counters are on the creature.
+  - *2025-06-06* — While resolving Valefor's first chapter ability, the next opponent in turn order chooses a creature with the greatest mana value among creatures they control, then each other opponent in turn order does the same. Then the chosen creatures are returned to their owners' hands simultaneously.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/42/summon:-valefor) · oracle_id `67d29e56-9ca8-46bc-9ee0-20184e867ce4` · printing: FIC #42 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summon: Yojimbo
 
@@ -673,4 +941,16 @@
   > Vigilance
 - **Keywords:** Vigilance, Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2310 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/28/summon:-yojimbo) · oracle_id `ff70d743-280e-476f-a3b8-92026419419d` · printing: FIC #28 (2025-06-13) · [rulings](https://api.scryfall.com/cards/cdbc2d28-ea35-47c6-af7e-07924e9d5794/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2025-06-06* — A chapter ability doesn't trigger if a lore counter is put on a Saga that already had a number of lore counters greater than or equal to that chapter's number. For example, the third lore counter put on a Saga causes the chapter III ability to trigger, but chapters I and II won't trigger again.
+  - *2025-06-06* — As a Saga enters, its controller puts a lore counter on it. As your first main phase begins (immediately after your draw step), you put another lore counter on each Saga you control. Putting a lore counter on a Saga in either of these ways doesn't use the stack.
+  - *2025-06-06* — Due to a rules change that takes effect with this release (see below for details), a Saga that somehow loses all of its chapter abilities will not be sacrificed as a state-based action. It will also not gain a lore counter at the beginning of each of its controller's first main phases.
+  - *2025-06-06* — Each symbol on the left of a Saga's text box represents a chapter ability. A chapter ability is a triggered ability that triggers when a lore counter that is put on the Saga causes the number of lore counters on the Saga to become equal to or greater than the ability's chapter number. Chapter abilities are put onto the stack and may be responded to.
+  - *2025-06-06* — If multiple chapter abilities trigger at the same time, their controller puts them on the stack in any order. If any of them require targets, those targets are chosen as you put the abilities on the stack, before any of those abilities resolve.
+  - *2025-06-06* — On turns where the effect of Summon: Yojimbo's second or third chapter ability is applying, your opponents can choose not to attack with a creature that must attack if able as long as there is no other player, planeswalker, or battle for that creature to attack that wouldn't require a cost.
+  - *2025-06-06* — Once a chapter ability has triggered, the ability on the stack won't be affected if the Saga gains or loses counters, or if it leaves the battlefield.
+  - *2025-06-06* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities, the Saga's controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn't use the stack.
+  - *2025-06-06* — Removing lore counters won't cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives more lore counters.
+  - *2025-06-06* — Saga creatures have two sections to their text boxes. The first section, above the type line, contains their chapter abilities, and the second section, below the type line, contains any other abilities (or italicized flavor text). Any abilities in the latter section aren't chapter abilities and apply no matter how many lore counters are on the creature.
+  - *2025-06-06* — The value of X is determined only once, as Summon: Yojimbo's fourth chapter ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/28/summon:-yojimbo) · oracle_id `ff70d743-280e-476f-a3b8-92026419419d` · printing: FIC #28 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

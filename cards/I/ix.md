@@ -62,7 +62,9 @@
 - **Flavor text** (LCI printing):
   > *"Did we follow the dinosaurs out of the caverns, or did they follow us? These glyphs could change our entire understanding of our history."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6057 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/194/ixallis-lorekeeper) · oracle_id `a3ce0fa9-8742-4e2c-a8a0-00fc009f998a` · printing: LCI #194 (2023-11-17) · [rulings](https://api.scryfall.com/cards/4bc94ded-458d-4458-9c0b-136d825b885d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-11-10* — A "Dinosaur source" is any object with the creature type Dinosaur. This means you could spend the mana to activate an ability of a Dinosaur you control or a Dinosaur card in your hand or graveyard, for example.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/194/ixallis-lorekeeper) · oracle_id `a3ce0fa9-8742-4e2c-a8a0-00fc009f998a` · printing: LCI #194 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ixhel, Scion of Atraxa
 
@@ -74,7 +76,20 @@
   > Corrupted — At the beginning of your end step, each opponent who has three or more poison counters exiles the top card of their library face down. You may look at and play those cards for as long as they remain exiled, and you may spend mana as though it were mana of any color to cast those spells.
 - **Keywords:** Flying, Toxic, Vigilance, Corrupted
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5857 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/onc/1/ixhel-scion-of-atraxa) · oracle_id `9fb7982f-fe35-4dea-a515-a0039ddbbaec` · printing: ONC #1 (2023-02-10) · [rulings](https://api.scryfall.com/cards/ab866ec4-dcb4-47ef-8de1-a369986609c0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2023-02-04* — A player with ten or more poison counters loses the game. This is a state-based action and doesn't use the stack. In other words, it happens immediately and players can't respond to it, just like a player losing the game due to having 0 or less life.
+  - *2023-02-04* — Any other effects of that damage, such as life gain from lifelink, still apply.
+  - *2023-02-04* — Casting an exiled card causes it to leave exile. You can't cast it multiple times.
+  - *2023-02-04* — Conversely, replacement effects that apply to the number of counters put on a player can modify the counters placed this way. For example, Vorinclex, Monstrous Raider's last two abilities can apply to counters placed this way.
+  - *2023-02-04* — Damage dealt by a creature with toxic grants the same number of counters regardless of how much damage is dealt. Notably, if a replacement effect modifies the damage in some way (such as that of Gratuitous Violence), the number of counters given remains unchanged.
+  - *2023-02-04* — If a creature with toxic deals combat damage to a creature or planeswalker, or if it deals noncombat damage, toxic has no effect and no player gets poison counters.
+  - *2023-02-04* — If you leave the game, the cards remain exiled face down indefinitely. No player may look at them.
+  - *2023-02-04* — Ixhel doesn't change when you can cast an exiled card. For example, if you exile a creature card without flash, you can cast it only during your main phase when the stack is empty.
+  - *2023-02-04* — Multiple instances of toxic are cumulative. For example, if a creature has toxic 2 and gains toxic 1 due to another effect, combat damage that creature deals to a player will cause that player to get 3 poison counters.
+  - *2023-02-04* — Toxic doesn't change the amount of combat damage a creature deals. For example, if a 2/2 creature with toxic 1 deals combat damage to a player, that creature will deal 2 damage. The results of that damage are the player loses 2 life and gets a poison counter.
+  - *2023-02-04* — You may look at and cast the exiled cards (and spend mana as though it were mana of any color to do so) even if Ixhel leaves the battlefield. If another player gains control of Ixhel, that player can't look at or cast the cards, and you still can.
+  - *2023-02-04* — You pay the costs for an exiled card if you cast it. You may pay any alternative costs the card has rather than the card's mana cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/onc/1/ixhel-scion-of-atraxa) · oracle_id `9fb7982f-fe35-4dea-a515-a0039ddbbaec` · printing: ONC #1 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ixidor, Reality Sculptor
 
@@ -109,4 +124,10 @@
   > As this creature enters, turn all other nontoken creatures face down. (They're 2/2 creatures.)
   > Ixidron's power and toughness are each equal to the number of face-down creatures on the battlefield.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8012 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c19/87/ixidron) · oracle_id `a86587ea-14ec-45db-8bac-10b6b9eaeb25` · printing: C19 #87 (2019-08-23) · [rulings](https://api.scryfall.com/cards/c30ec372-5cf7-471c-b3fd-411095fc249a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2006-09-25* — If Ixidron and another creature are entering at the same time, the other creature enters face up.
+  - *2006-09-25* — The controller of a face-down creature can look at it at any time, even if it doesn't have morph. Other players can't, but the rules for face-down permanents state that "you must ensure at all times that your face-down spells and permanents can be easily differentiated from each other." As a result, all players must be able to figure out what each of the creatures Ixidron turned face down is.
+  - *2006-09-25* — Turning a face-down creature face-down typically has no effect; the creature's status is unchanged.
+  - *2006-09-25* — You turn the creatures face-down *as* Ixidron enters. There is never a moment when Ixidron is on the battlefield and the creatures are face-up. If a creature on the battlefield has a "whenever another creature enters" ability, it won't trigger because that creature will be face down before Ixidron enters.
+  - *2018-04-27* — Creatures turned face down by Ixidron are 2/2 creatures with no text, no name, no subtypes, no expansion symbol, and no mana cost. These values are copiable if an object becomes a copy of one of those creatures, and their normal values are not copiable.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c19/87/ixidron) · oracle_id `a86587ea-14ec-45db-8bac-10b6b9eaeb25` · printing: C19 #87 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

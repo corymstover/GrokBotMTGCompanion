@@ -56,6 +56,7 @@
 - **Flavor text** (FIC printing):
   > *"Say, lad, you wouldn't have a bit o' gil to lend?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3354 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/39/oaka-traveling-merchant) · oracle_id `ed0fc294-de9b-4c64-b97d-e3a41fd2f46a` · printing: FIC #39 (2025-06-13) · [rulings](https://api.scryfall.com/cards/9d860089-fb88-4736-b7f4-b605551bedc8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oaken Brawler
@@ -132,6 +133,7 @@
   > *The elves remember every secret path from the days when they ruled the realm.*
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6481 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/167/oakhame-adversary) · oracle_id `3afe4852-d506-45d7-8a19-ddcbc3dd90d4` · printing: ELD #167 (2019-10-04) · [rulings](https://api.scryfall.com/cards/9fb4e77f-e189-4ad3-9fca-8da04289e396/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oakhame Ranger // Bring Back
@@ -168,7 +170,9 @@
   > {T}: Add {G}. Spend this mana only to cast a creature spell.
   > {G}, {T}: Put a +1/+1 counter on each Frog, Rabbit, Raccoon, or Squirrel you control that entered the battlefield this turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2980 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/258/oakhollow-village) · oracle_id `177b7fe4-8565-4631-b4d9-8b2b4282f3ac` · printing: BLB #258 (2024-08-02) · [rulings](https://api.scryfall.com/cards/0d49b016-b02b-459f-85e9-c04f6bdcb94e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-07-26* — Oakhollow Village’s last ability cares about permanents’ characteristics at the time the ability resolves, not their characteristics at the time they entered the battlefield. For example, say a Bear creature enters the battlefield and, later in the turn, gains the Frog creature type. When Oakhollow Village’s last ability resolves that turn, you’ll put a +1/+1 counter on that creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/258/oakhollow-village) · oracle_id `177b7fe4-8565-4631-b4d9-8b2b4282f3ac` · printing: BLB #258 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oakshade Stalker // Moonlit Ambusher
 
@@ -233,6 +237,7 @@
   > *"I think the blasted thing's actually attracting \*more\* birds, but all the same, the garden's never looked better."*
   > *—Jay Marigold, homesteader*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8546 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/246/oasis-gardener) · oracle_id `210a130c-d5d3-43bf-8a80-d796c37242e8` · printing: OTJ #246 (2024-04-19) · [rulings](https://api.scryfall.com/cards/ee0dc663-4bfb-46d4-af79-d0143c799487/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oasis Ritualist
@@ -272,6 +277,7 @@
 - **Flavor text** (AER printing):
   > *"Until all have found their place, I will keep watch."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9686 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/aer/131/oath-of-ajani) · oracle_id `1ec39c8f-eb1e-4881-a749-0c188788b612` · printing: AER #131 (2017-01-20) · [rulings](https://api.scryfall.com/cards/968c7d5a-b037-4ff7-b6d2-df00adf5691b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oath of Chandra
@@ -305,7 +311,14 @@
   > II — Create two 2/2 red Human Knight creature tokens with trample and haste.
   > III — Put an indestructible counter on up to one target Human. You become the monarch.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7241 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/64/oath-of-eorl) · oracle_id `3f8f72d8-5c3a-4f31-8741-3c1a55d9b739` · printing: LTC #64 (2023-06-23) · [rulings](https://api.scryfall.com/cards/1ffc7f95-daed-452e-a114-859b8798055b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-06-16* — If combat damage dealt to the monarch causes that player to lose the game, the triggered ability that causes the controller of the attacking creature to become the monarch doesn't resolve. In most cases, the controller of the attacking creature will still become the monarch as it is likely their turn.
+  - *2023-06-16* — If the monarch leaves the game during another player's turn, that player becomes the monarch. If the monarch leaves the game during their turn, the next player in turn order becomes the monarch.
+  - *2023-06-16* — If the triggered ability that causes the monarch to draw a card goes on the stack and a different player becomes the monarch before that ability resolves, the first player will still draw the card.
+  - *2023-06-16* — The game starts with no monarch. Once an effect makes one player the monarch, the game will have exactly one monarch from that point forward. As a player becomes the monarch, the current monarch (if any) ceases being the monarch.
+  - *2023-06-16* — There are two inherent triggered abilities associated with being the monarch. These triggered abilities have no source and are controlled by the player who was the monarch at the time the abilities triggered. The full texts of these abilities are "At the beginning of the monarch's end step, that player draws a card" and "Whenever a creature deals combat damage to the monarch, its controller becomes the monarch."
+  - *2023-06-16* — When Oath of Eorl's final chapter ability triggers, you can choose not to target a Human just to become the monarch. However, if you do choose a target, and that target is illegal at the time the ability tries to resolve, the ability won't resolve and none of its effects will happen. You won't become the monarch.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/64/oath-of-eorl) · oracle_id `3f8f72d8-5c3a-4f31-8741-3c1a55d9b739` · printing: LTC #64 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oath of Ghouls
 
@@ -326,7 +339,11 @@
 - **Flavor text** (CMM printing):
   > *"For justice and peace, I will keep watch."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6729 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/830/oath-of-gideon) · oracle_id `ea168acc-22a1-4ba5-affd-fb813b93535a` · printing: CMM #830 (2023-08-04) · [rulings](https://api.scryfall.com/cards/b8a3f02b-9408-46a5-8d25-f5cec553d600/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2016-01-22* — Each of the Oaths is legendary: if you control more than one of any particular Oath, you choose one to remain on the battlefield and the others are put into your graveyard.
+  - *2016-01-22* — Even if you control a particular Oath, you can cast another of that Oath to take advantage of its enters-the-battlefield ability. It will enter the battlefield, causing its first ability to trigger. You will then choose one to keep, as detailed above, and then its enters-the-battlefield ability will resolve.
+  - *2016-01-22* — The “legend rule” checks the full names of legendary permanents. You can control Oath of Gideon and Oath of Chandra at the same time, for example.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/830/oath-of-gideon) · oracle_id `ea168acc-22a1-4ba5-affd-fb813b93535a` · printing: CMM #830 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oath of Jace
 
@@ -339,7 +356,12 @@
   > *"For the sake of the Multiverse, I will keep watch."*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9104 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/854/oath-of-jace) · oracle_id `dc92b420-8ac7-4478-a287-3d897357be08` · printing: CMM #854 (2023-08-04) · [rulings](https://api.scryfall.com/cards/da62e9a8-d1aa-4fea-abb7-50c10d40fa6a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2016-01-22* — Each of the Oaths is legendary: if you control more than one of any particular Oath, you choose one to remain on the battlefield and the others are put into your graveyard.
+  - *2016-01-22* — Even if you control a particular Oath, you can cast another of that Oath to take advantage of its enters-the-battlefield ability. It will enter the battlefield, causing its first ability to trigger. You will then choose one to keep, as detailed above, and then its enters-the-battlefield ability will resolve.
+  - *2016-01-22* — If you control no planeswalkers as the last ability resolves, you won’t scry at all. Abilities that trigger whenever you scry won’t trigger.
+  - *2016-01-22* — The “legend rule” checks the full names of legendary permanents. You can control Oath of Gideon and Oath of Chandra at the same time, for example.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/854/oath-of-jace) · oracle_id `dc92b420-8ac7-4478-a287-3d897357be08` · printing: CMM #854 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oath of Kaya
 
@@ -403,7 +425,11 @@
 - **Flavor text** (OGW printing):
   > *"For the life of every plane, I will keep watch."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6861 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/140/oath-of-nissa) · oracle_id `c4efdbab-711d-4269-9b24-b05d36f7e5c7` · printing: OGW #140 (2016-01-22) · [rulings](https://api.scryfall.com/cards/613513ea-55dd-4ae8-93b2-247e468112a6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2016-01-22* — Each of the Oaths is legendary: if you control more than one of any particular Oath, you choose one to remain on the battlefield and the others are put into your graveyard.
+  - *2016-01-22* — Even if you control a particular Oath, you can cast another of that Oath to take advantage of its enters-the-battlefield ability. It will enter the battlefield, causing its first ability to trigger. You will then choose one to keep, as detailed above, and then its enters-the-battlefield ability will resolve.
+  - *2016-01-22* — The “legend rule” checks the full names of legendary permanents. You can control Oath of Gideon and Oath of Chandra at the same time, for example.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/140/oath-of-nissa) · oracle_id `c4efdbab-711d-4269-9b24-b05d36f7e5c7` · printing: OGW #140 (2016-01-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oath of Scholars
 
@@ -424,7 +450,13 @@
 - **Flavor text** (CMM printing):
   > *"For the lost and forgotten, I will keep watch."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2700 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/934/oath-of-teferi) · oracle_id `ee00a42d-6ee4-4e46-92d6-62e8e5910880` · printing: CMM #934 (2023-08-04) · [rulings](https://api.scryfall.com/cards/f7474f9e-a994-4ed7-83df-22edd8219e24/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2018-04-27* — For Oath of Teferi’s second ability, you may activate the same ability of a planeswalker twice, or you may activate two different abilities of that planeswalker.
+  - *2018-04-27* — If a token is exiled this way, it ceases to exist and won’t return to the battlefield.
+  - *2018-04-27* — If the exiled card is an Aura, that card’s owner chooses what it will enchant as it returns to the battlefield. An Aura put onto the battlefield this way doesn’t target anything (so it could be attached to an opponent’s permanent with hexproof, for example), but the Aura’s enchant ability restricts what it can be attached to. If the Aura can’t legally be attached to anything, it remains exiled.
+  - *2018-04-27* — If you somehow control more than one Oath of Teferi, you won’t be able to activate abilities of planeswalkers you control more than twice in one turn.
+  - *2018-04-27* — The exiled card will return to the battlefield at the beginning of the next end step even if Oath of Teferi is no longer on the battlefield at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/934/oath-of-teferi) · oracle_id `ee00a42d-6ee4-4e46-92d6-62e8e5910880` · printing: CMM #934 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oath of the Ancient Wood
 
@@ -488,4 +520,7 @@
   > *"My conquistadors are never slain, merely laid to rest."*
   > *—Queen Miralda the Pious*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6179 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/204/oathsworn-vampire) · oracle_id `e1fb696f-1df8-4571-9710-0d79001326d3` · printing: LCC #204 (2023-11-17) · [rulings](https://api.scryfall.com/cards/cde542de-0b87-4eb1-be05-abdb729ada10/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-01-19* — Casting Oathsworn Vampire from your graveyard follows the normal rules for casting that card. You must pay its costs, and you must follow all applicable timing rules.
+  - *2018-01-19* — Oathsworn Vampire's last ability cares only whether you gained life in the turn, even if Oathsworn Vampire wasn't in your graveyard when that happened. It doesn't care how much you gained, whether you also lost life, or even whether you lost more life than you gained.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/204/oathsworn-vampire) · oracle_id `e1fb696f-1df8-4571-9710-0d79001326d3` · printing: LCC #204 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

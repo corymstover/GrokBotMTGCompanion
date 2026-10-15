@@ -160,7 +160,10 @@
   > Whenever you discard a creature card, you may pay {2}. If you do, create a 3/2 colorless Eldrazi Horror creature token.
 - **Keywords:** Skulk
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6616 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/737/wharf-infiltrator) · oracle_id `ac88975c-fb2c-441a-bdd4-e7de6ba865e7` · printing: CLB #737 (2022-06-10) · [rulings](https://api.scryfall.com/cards/b434ba9e-528c-43b4-a463-0e697dce8d5d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2016-07-13* — Wharf Infiltrator's last ability triggers anytime you discard a creature card, not just when you discard a card because of Wharf Infiltrator's other triggered ability.
+  - *2016-07-13* — While resolving Wharf Infiltrator's last ability, you can't pay {2} multiple times to get multiple Eldrazi Horror tokens.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/737/wharf-infiltrator) · oracle_id `ac88975c-fb2c-441a-bdd4-e7de6ba865e7` · printing: CLB #737 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### What Must Be Done
 
@@ -172,7 +175,12 @@
   > • Release Juno — Return target historic permanent card from your graveyard to the battlefield. It enters with two additional +1/+1 counters on it if it's a creature. (Artifacts, legendaries, and Sagas are historic.)
 - **Keywords:** Release Juno, Let the World Burn
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8548 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/acr/11/what-must-be-done) · oracle_id `bd0df0a8-c2ec-4d1f-9ada-cc91f7a20e1a` · printing: ACR #11 (2024-07-05) · [rulings](https://api.scryfall.com/cards/fe034544-e13f-45fc-ae43-83d0f399ed33/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-07-05* — A card, spell, or permanent is historic if it has the legendary supertype, the artifact card type, or the Saga subtype. Having two of those qualities doesn’t make an object more historic than another or provide an additional bonus—an object either is historic or it isn’t.
+  - *2024-07-05* — An ability that triggers “whenever you cast a historic spell” doesn’t trigger if a historic card is put onto the battlefield without being cast.
+  - *2024-07-05* — Lands are never cast, so abilities that trigger “whenever you cast a historic spell” won’t trigger if you play a legendary land. They also won’t trigger if a card on the battlefield transforms into a card with the legendary supertype, the artifact card type, or the Saga subtype.
+  - *2024-07-05* — Some abilities trigger “whenever you cast a historic spell.” Such an ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/acr/11/what-must-be-done) · oracle_id `bd0df0a8-c2ec-4d1f-9ada-cc91f7a20e1a` · printing: ACR #11 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wheel and Deal
 
@@ -182,7 +190,10 @@
   > Any number of target opponents each discard their hands, then draw seven cards.
   > Draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5913 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ons/121/wheel-and-deal) · oracle_id `a7c6f07c-3cc3-4271-bbc7-9f7d5bbed3e8` · printing: ONS #121 (2002-10-07) · [rulings](https://api.scryfall.com/cards/61f50a1a-f3d0-4fcf-bd32-0e173b0d3247/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — You can choose to target zero opponents.
+  - *2004-10-04* — You can't target yourself.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ons/121/wheel-and-deal) · oracle_id `a7c6f07c-3cc3-4271-bbc7-9f7d5bbed3e8` · printing: ONS #121 (2002-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wheel of Fate
 
@@ -193,7 +204,24 @@
   > Each player discards their hand, then draws seven cards.
 - **Keywords:** Suspend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3795 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/198/wheel-of-fate) · oracle_id `15e4938d-1cd3-4670-9de5-2dc10abe4c19` · printing: TSR #198 (2021-03-19) · [rulings](https://api.scryfall.com/cards/c7937e12-76d9-4030-a68c-7a93a3c852cb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (16):
+  - *2013-06-07* — Although originally printed with a characteristic-defining ability that defined its color, this card now has a color indicator. This color indicator can't be affected by text-changing effects (such as the one created by Crystal Spray), although color-changing effects can still overwrite it.
+  - *2024-02-02* — A card with no mana cost can't be cast normally; you'll need a way to cast it for an alternative cost or without paying its mana cost, such as by suspending it.
+  - *2024-02-02* — Cards exiled with suspend are exiled face up.
+  - *2024-02-02* — Due to a recent rules change to suspend, you are no longer required to cast the suspended card as the second triggered ability of suspend resolves. Instead, as the second triggered ability resolves, you may cast the card. Timing permissions based on the card's type are ignored. If you don't cast the card, it remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to.
+  - *2024-02-02* — If a card with no mana cost is given an alternative cost equal to its mana cost (by Snapcaster Mage, for example), that cost cannot be paid and the card cannot be cast this way.
+  - *2024-02-02* — If an effect refers to a "suspended card," that means a card that (1) has suspend, (2) is in exile, and (3) has one or more time counters on it.
+  - *2024-02-02* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-02-02* — If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again at the beginning of the card's owner's next upkeep.
+  - *2024-02-02* — If the second triggered ability is countered, the card can't be cast. It remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it's exiled.
+  - *2024-02-02* — If you cast a card "without paying its mana cost," such as with suspend, you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those if you want to cast the card.
+  - *2024-02-02* — Suspend is a keyword that represents three abilities. The first is a static ability that allows you to exile the card from your hand with the specified number of time counters (the number before the dash) on it by paying its suspend cost (listed after the dash). The second is a triggered ability that removes a time counter from the suspended card at the beginning of each of your upkeeps. The third is a triggered ability that gives you the option to cast the card when the last time counter is removed.
+  - *2024-02-02* — The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.
+  - *2024-02-02* — When the last time counter is removed, the second triggered ability of suspend (the one that lets you cast the card) triggers. It doesn't matter why the last time counter was removed or what effect removed it.
+  - *2024-02-02* — You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effects that modify when you could cast it (such as flash) and any other effects that stop you from casting it (such as from Meddling Mage's ability) to determine if and when you can do this. Whether you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or that requires a target even if no legal targets are available at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/198/wheel-of-fate) · oracle_id `15e4938d-1cd3-4670-9de5-2dc10abe4c19` · printing: TSR #198 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wheel of Fortune
 
@@ -212,7 +240,10 @@
 - **Oracle text:**
   > Each player secretly chooses a number 0 or greater, then all players reveal those numbers simultaneously and determine the highest and lowest numbers revealed this way. Wheel of Misfortune deals damage equal to the highest number to each player who chose that number. Each player who didn't choose the lowest number discards their hand, then draws seven cards.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1221 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/211/wheel-of-misfortune) · oracle_id `10aff3f6-8347-4e1b-b8e7-c204c9e46657` · printing: CMR #211 (2020-11-20) · [rulings](https://api.scryfall.com/cards/74177b51-a300-49d9-8ea7-557b19cf80c7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-11-10* — For each player to secretly choose a number, that player should write down their chosen number without showing it to anyone else. Each player then keeps their number secret until all players simultaneously reveal their numbers.
+  - *2020-11-10* — The number of players choosing the highest number doesn't change how much damage is dealt. For example, if the four players in your game reveal 4, 7, 7, and 7, Wheel of Misfortune will deal 7 damage to each of the last three players and those three players will discard their hand and draw seven cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/211/wheel-of-misfortune) · oracle_id `10aff3f6-8347-4e1b-b8e7-c204c9e46657` · printing: CMR #211 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wheel of Not Ideal
 
@@ -273,6 +304,7 @@
   > *"I can see why this appeals to Thassa."*
   > *—Kiora*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2385 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/409/whelming-wave) · oracle_id `e510eaaf-6497-480f-baa8-f4796b5f1086` · printing: CMR #409 (2020-11-20) · [rulings](https://api.scryfall.com/cards/ddb863a0-3ff8-42a3-a151-4ea9aa433336/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### When Fluffy Bunnies Attack
@@ -592,7 +624,10 @@
   > *—Kaldrin, jungle sightseer*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7048 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/nec/134/whiptongue-hydra) · oracle_id `53d5d961-d6a3-49b1-b335-2c2b49972008` · printing: NEC #134 (2022-02-18) · [rulings](https://api.scryfall.com/cards/57cfa420-306d-4d2c-8e83-fa9b46f2aa27/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-07-13* — A creature with indestructible or a creature that regenerates won't count as having been "destroyed this way."
+  - *2018-07-13* — If a creature with flying would be destroyed, but an Aura with the umbra armor ability is destroyed instead, Whiptongue Hydra won't count that creature or that Aura as a "creature destroyed this way."
+- **Source flags:** [Scryfall](https://scryfall.com/card/nec/134/whiptongue-hydra) · oracle_id `53d5d961-d6a3-49b1-b335-2c2b49972008` · printing: NEC #134 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Whip Vine
 
@@ -628,7 +663,10 @@
   > When this creature enters, create two 1/1 colorless Thopter artifact creature tokens with flying.
   > Tap two untapped artifacts you control: Target creature can't be blocked this turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2250 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/122/whirler-rogue) · oracle_id `7060f2c8-fca0-4b7a-bddf-37682f434596` · printing: OTC #122 (2024-04-19) · [rulings](https://api.scryfall.com/cards/d1054d2b-a424-466d-8ec6-36f014849e43/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2015-06-22* — Activating the second ability of Whirler Rogue after a creature has become blocked won't cause it to become unblocked.
+  - *2015-06-22* — You may tap any two untapped artifacts you control, including artifact creatures that haven't been under your control continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/122/whirler-rogue) · oracle_id `7060f2c8-fca0-4b7a-bddf-37682f434596` · printing: OTC #122 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Whirler Virtuoso
 
@@ -641,7 +679,17 @@
 - **Flavor text** (KLD printing):
   > *The first tentative flaps are like a song to his soul.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5966 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/kld/190/whirler-virtuoso) · oracle_id `f82da236-e567-4221-a0bc-439a0c7e2b03` · printing: KLD #190 (2016-09-30) · [rulings](https://api.scryfall.com/cards/ae429806-28b5-4bee-b0e1-1bd876f282c2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2024-06-07* — Energy counters are a kind of counter that a player may have. They're not associated with any specific permanents.
+  - *2024-06-07* — Energy counters aren't mana. They don't go away as steps, phases, and turns end, and effects that add mana "of any type" can't give you energy counters.
+  - *2024-06-07* — If a spell or ability with one or more targets states that you "may pay" some amount of {E}, and each permanent that it targets has become an illegal target, the spell or ability won't resolve. You can't pay any {E} even if you want to.
+  - *2024-06-07* — If an effect says you get one or more {E}, you get that many energy counters. To pay one or more {E}, you lose that many energy counters. You can't pay more energy counters than you have. Any effects that interact with counters a player gets, has, or loses can interact with energy counters.
+  - *2024-06-07* — Keep track of how many energy counters each player has. Potential ways to track this include writing theme down on paper or using dice, but any method that is clear and mutually agreeable is fine. (At higher levels of tournament play, dice may not be allowed for tracking counters that players have.)
+  - *2024-06-07* — Some spells and abilities that give you {E} may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't get any {E}.
+  - *2024-06-07* — Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
+  - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
+  - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/kld/190/whirler-virtuoso) · oracle_id `f82da236-e567-4221-a0bc-439a0c7e2b03` · printing: KLD #190 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Whirling Catapult
 
@@ -713,6 +761,7 @@
   > When this creature enters, shuffle the cards from your hand into your library, then draw that many cards.
   > {R}, Sacrifice this creature: Each player shuffles the cards from their hand into their library, then draws that many cards.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7321 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/pca/29/whirlpool-warrior) · oracle_id `b7a1c54b-bb2f-4423-865a-ad114cd18c76` · printing: PCA #29 (2016-11-25) · [rulings](https://api.scryfall.com/cards/10587371-5f50-4caa-ab2e-7d57b721b5e8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Whirlpool Whelm
@@ -759,7 +808,10 @@
 - **Flavor text** (THB printing):
   > *"No, no, and ... no."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6396 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/81/whirlwind-denial) · oracle_id `ba9e129d-a3cf-431c-93af-f2e4902d40a0` · printing: THB #81 (2020-01-24) · [rulings](https://api.scryfall.com/cards/9e127856-bedd-40a9-9e8e-d1f9fbefe07d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-01-24* — Among abilities, only activated and triggered abilities use the stack. Activated abilities are written in the form "[Cost]: [Effect]." Triggered abilities use the word "when," "whenever," or "at." They're often written as "[Trigger condition], [effect]." Some keyword abilities are activated abilities and will have colons in their reminder texts, and some keyword abilities are triggered abilities and will have "when," "whenever," or "at" in their reminder texts.
+  - *2020-01-24* — As Whirlwind Denial resolves, first the opponent whose turn it is (or, if it's your turn, the next opponent in turn order) chooses which spells and/or abilities to pay for, then pays that amount. Then each other opponent in turn order does the same. Then all spells and abilities that weren't paid for are countered at the same time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/81/whirlwind-denial) · oracle_id `ba9e129d-a3cf-431c-93af-f2e4902d40a0` · printing: THB #81 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Whirlwind, Killer Cyclone
 
@@ -784,7 +836,10 @@
 - **Flavor text** (FRC printing):
   > *As Narset struggled to meditate, tiny dragonlings spiraled around her, conjuring thoughts of ancient clans.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1468 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frc/51/whirlwind-of-thought) · oracle_id `6467cbb7-1e4e-482d-a20f-6cb9fc0f1ad1` · printing: FRC #51 (2026-10-02) · [rulings](https://api.scryfall.com/cards/e1de5fb8-7206-44a6-b827-5c6a21c25296/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-04-17* — An ability that triggers when a player casts a spell resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+  - *2020-04-17* — Players can cast spells and activate abilities after the triggered ability resolves but before the spell that caused it to trigger does.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frc/51/whirlwind-of-thought) · oracle_id `6467cbb7-1e4e-482d-a20f-6cb9fc0f1ad1` · printing: FRC #51 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Whirlwind Technique
 
@@ -811,7 +866,18 @@
   > Put three +1/+1 counters on target creature you control. (Then shuffle this card into its owner's library.)
 - **Keywords:** Flying, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6610 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/234/whirlwing-stormbrood-dynamic-soar) · oracle_id `4fbfc814-df10-4d61-ada9-c96cc8ee8d8c` · printing: TDM #234 (2025-04-11) · [rulings](https://api.scryfall.com/cards/56a25eb1-bdb8-4f86-8d9a-3055ad1b2a13/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2025-04-04* — An omen card is a creature card in every zone except the stack, as well as while on the stack if not cast as an Omen. Ignore its alternative characteristics in those cases. For example, while it’s in your graveyard, Twinmaw Stormbrood is a white creature card whose mana value is 6. It can’t be the target of the reflexive ability created by Kishla Trawlers’s triggered ability (“…When you do, return target instant or sorcery card from your graveyard to your hand.”).
+  - *2025-04-04* — As a player casts an omen card, the player chooses whether they cast the card normally or as an Omen.
+  - *2025-04-04* — Casting a card as an Omen isn’t casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Omen.
+  - *2025-04-04* — If a spell is cast as an Omen, its controller shuffles it into its owner’s library instead of putting it into its owner’s graveyard as it resolves.
+  - *2025-04-04* — If an Omen spell has one or more targets and all of those targets are illegal when the spell tries to resolve, it won’t resolve. None of its effects will happen, and it will be put into its owner’s graveyard. It won’t be shuffled into its owner’s library.
+  - *2025-04-04* — If an Omen spell is copied, that copy is also an Omen and is shuffled into its owner’s library as it resolves. Its owner still shuffles their library, but the copy ceases to exist as a state-based action.
+  - *2025-04-04* — If an Omen spell is countered or an effect causes it to otherwise leave the stack, it won’t be shuffled into its owner’s library.
+  - *2025-04-04* — If an effect instructs you to choose a card name, you may choose the alternative Omen name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2025-04-04* — If you cast an omen card as an Omen, use only its alternative characteristics to determine whether it’s legal to cast that spell. For example, if you control Thundermane Dragon (“You may cast creature spells with power 4 or greater from the top of your library.”) and Twinmaw Stormbrood is on top of your library, you can cast Twinmaw Stormbrood, but not Charring Bite.
+  - *2025-04-04* — When casting a spell as an Omen, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/234/whirlwing-stormbrood-dynamic-soar) · oracle_id `4fbfc814-df10-4d61-ada9-c96cc8ee8d8c` · printing: TDM #234 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Whir of Invention
 
@@ -868,7 +934,11 @@
   > Valiant — Whenever this creature becomes the target of a spell or ability you control for the first time each turn, look at the top five cards of your library. You may reveal a creature card with mana value 3 or less from among them. You may put it onto the battlefield if it's your turn. If you don't put it onto the battlefield, put it into your hand. Put the rest on the bottom of your library in a random order.
 - **Keywords:** Valiant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9701 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/40/whiskervale-forerunner) · oracle_id `861e427f-cbb4-4ed5-8356-747ac638ac34` · printing: BLB #40 (2024-08-02) · [rulings](https://api.scryfall.com/cards/60a78d59-af31-4af9-95aa-2573fe553925/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-07-26* — If a spell or ability you control has one or more of its targets changed to a creature you control with a valiant ability, that ability will trigger if that creature hasn't yet been the target of a spell or ability you control this turn.
+  - *2024-07-26* — If you create a copy of a spell on the stack and target a creature you control with a valiant ability, that ability will trigger as long as the creature hasn't yet been the target of a spell or ability you control this turn.
+  - *2024-07-26* — Valiant abilities will resolve before the spell or ability that caused them to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/40/whiskervale-forerunner) · oracle_id `861e427f-cbb4-4ed5-8356-747ac638ac34` · printing: BLB #40 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Whisper Agent
 
@@ -894,7 +964,10 @@
 - **Flavor text** (CMM printing):
   > *"Look how they beg for the knife! The Demonlord has trained them well."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6271 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/198/whisper-blood-liturgist) · oracle_id `496ab82e-24a9-4a74-ba4b-992c7309b44a` · printing: CMM #198 (2023-08-04) · [rulings](https://api.scryfall.com/cards/82ce13b0-372d-4664-a888-85f4c72e030d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-04-27* — Neither sacrificed creature can be the target of Whisper’s ability.
+  - *2018-04-27* — Whisper can be one of the creatures sacrificed to activate its ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/198/whisper-blood-liturgist) · oracle_id `496ab82e-24a9-4a74-ba4b-992c7309b44a` · printing: CMM #198 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Whisperer of the Wilds
 
@@ -908,6 +981,7 @@
   > *She speaks only in whispers but can be heard over the fiercest storm.*
 - **Keywords:** Ferocious
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5739 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/187/whisperer-of-the-wilds) · oracle_id `c1e456b6-5d2b-4c42-9464-54a8f9f8f3ba` · printing: 2XM #187 (2020-08-07) · [rulings](https://api.scryfall.com/cards/2cf17d8a-c7ee-4909-bc80-4138dcfe7e67/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Whispergear Sneak
@@ -932,7 +1006,21 @@
   > Cipher (Then you may exile this spell card encoded on a creature you control. Whenever that creature deals combat damage to a player, its controller may cast a copy of the encoded card without paying its mana cost.)
 - **Keywords:** Cipher
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3195 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c16/229/whispering-madness) · oracle_id `7bbc5f3a-f8fb-47e8-837e-ce319bc489de` · printing: C16 #229 (2016-11-11) · [rulings](https://api.scryfall.com/cards/5a62cda0-34b2-42f0-83bd-c08eecf02fa4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2013-01-24* — Each player draws cards simultaneously. If this causes a player to draw more cards than are left in their library, that player will lose the game. If this causes all players to do so, the game is a draw. (In multiplayer games, multiple players drawing from an empty library will cause those players to lose although the game may continue.)
+  - *2013-01-24* — You’ll draw cards before deciding which creature (if any) Whispering Madness will be encoded on.
+  - *2013-04-15* — If a creature with an encoded card deals combat damage to more than one player simultaneously (perhaps because some of the combat damage was redirected), the triggered ability will trigger once for each player it deals combat damage to. Each ability will create a copy of the exiled card and allow you to cast it.
+  - *2013-04-15* — If another player gains control of the creature, that player will control the triggered ability. That player will create a copy of the encoded card and may cast it.
+  - *2013-04-15* — If the creature leaves the battlefield, the exiled card will no longer be encoded on any creature. It will stay exiled.
+  - *2013-04-15* — If the spell with cipher doesn’t resolve, none of its effects will happen, including cipher. The card will go to its owner’s graveyard and won’t be encoded on a creature.
+  - *2013-04-15* — If you choose not to cast the copy, or you can’t cast it (perhaps because there are no legal targets available), the copy will cease to exist the next time state-based actions are performed. You won’t get a chance to cast the copy at a later time.
+  - *2013-04-15* — If you want to encode the card with cipher onto a noncreature permanent such as a Keyrune that can turn into a creature, that permanent has to be a creature before the spell with cipher starts resolving. You can choose only a creature to encode the card onto.
+  - *2013-04-15* — The copy of the card with cipher is created in and cast from exile.
+  - *2013-04-15* — The exiled card with cipher grants a triggered ability to the creature it’s encoded on. If that creature loses that ability and subsequently deals combat damage to a player, the triggered ability won’t trigger. However, the exiled card will continue to be encoded on that creature.
+  - *2013-04-15* — The spell with cipher is encoded on the creature as part of that spell’s resolution, just after the spell’s other effects. That card goes directly from the stack to exile. It never goes to the graveyard.
+  - *2013-04-15* — You cast the copy of the card with cipher during the resolution of the triggered ability. Ignore timing restrictions based on the card’s type.
+  - *2013-04-15* — You choose the creature as the spell resolves. The cipher ability doesn’t target that creature, although the spell with cipher may target that creature (or a different creature) because of its other abilities.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c16/229/whispering-madness) · oracle_id `7bbc5f3a-f8fb-47e8-837e-ce319bc489de` · printing: C16 #229 (2016-11-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Whispering Shade
 
@@ -995,7 +1083,14 @@
   > *"Live or die, you serve the Steel Thanes now."*
 - **Keywords:** Proliferate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3717 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/117/whisper-of-the-dross) · oracle_id `23c2cdc9-2b16-423a-b932-2daadeb1021b` · printing: ONE #117 (2023-02-10) · [rulings](https://api.scryfall.com/cards/58d287e8-5297-415a-97d5-02002470c52b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-02-04* — An ability that triggers "Whenever you proliferate" triggers even if you chose no permanents or players while doing so.
+  - *2023-02-04* — If a permanent ever has both +1/+1 counters and -1/-1 counters on it at the same time, they're removed in pairs as a state-based action so that the permanent has only one of those kinds of counters on it.
+  - *2023-02-04* — If a player or permanent has more than one kind of counter on it, and you choose for it to get additional counters, it must get one of each kind of counter it already has. You can't have it get just one kind of counter it already has and not the others.
+  - *2023-02-04* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
+  - *2023-02-04* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
+  - *2023-02-04* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/117/whisper-of-the-dross) · oracle_id `23c2cdc9-2b16-423a-b932-2daadeb1021b` · printing: ONE #117 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Whispersilk Cloak
 
@@ -1072,7 +1167,22 @@
   > Sacrifice this creature: Until end of turn, face-up nontoken creatures you control gain "When this creature dies, manifest the top card of your library."
 - **Keywords:** Manifest
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5882 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/204/whisperwood-elemental) · oracle_id `8ec7c7ce-23a5-4ba7-8cfd-4caf8601a9c8` · printing: DSC #204 (2024-09-27) · [rulings](https://api.scryfall.com/cards/f522f32d-e510-4128-98ae-d3c0f684b899/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (14):
+  - *2014-11-24* — A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent, as well as Auras and Equipment that were attached to the permanent, aren't affected.
+  - *2014-11-24* — Any time you have priority, you may turn a manifested creature face up by revealing that it's a creature card (ignoring any copy effects or type-changing effects that might be applying to it) and paying its mana cost. This is a special action. It doesn't use the stack and can't be responded to.
+  - *2014-11-24* — At any time, you can look at a face-down permanent you control. You can't look at face-down permanents you don't control unless an effect allows you to or instructs you to.
+  - *2014-11-24* — Because face-down creatures don't have names, they can't have the same name as any other creature, even another face-down creature.
+  - *2014-11-24* — Because the permanent is on the battlefield both before and after it's turned face up, turning a permanent face up doesn't cause any enters-the-battlefield abilities to trigger.
+  - *2014-11-24* — If a double-faced card is manifested, it will be put onto the battlefield face down. While face down, it can't transform. If the front face of the card is a creature card, you can turn it face up by paying its mana cost. If you do, its front face will be up.
+  - *2014-11-24* — If a face-down permanent you control leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or if the game ends.
+  - *2014-11-24* — If a manifested creature would have morph if it were face up, you may also turn it face up by paying its morph cost.
+  - *2014-11-24* — The face-down permanent is a 2/2 creature with no name, mana cost, creature types, or abilities. It's colorless and has a mana value of 0. Other effects that apply to the permanent can still grant or change any of these characteristics.
+  - *2014-11-24* — The last ability grants that ability to face-up nontoken creatures you control as that ability resolves. Creatures that come under your control later in the turn won't have that ability.
+  - *2014-11-24* — There are no cards in the Fate Reforged set that would turn a face-down instant or sorcery card on the battlefield face up, but some older cards can try to do this. If something tries to turn a face-down instant or sorcery card on the battlefield face up, reveal that card to show all players it's an instant or sorcery card. The permanent remains on the battlefield face down. Abilities that trigger when a permanent turns face up won't trigger, because even though you revealed the card, it never turned face up.
+  - *2014-11-24* — Turning a permanent face up or face down doesn't change whether that permanent is tapped or untapped.
+  - *2014-11-24* — Unlike a face-down creature that was cast using the morph ability, a manifested creature may still be turned face up after it loses its abilities if it's a creature card.
+  - *2014-11-24* — You must ensure that your face-down spells and permanents can easily be differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for indicating this include using markers or dice, or simply placing them in order on the battlefield. You must also track how each became face down (manifested, cast face down using the morph ability, and so on).
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/204/whisperwood-elemental) · oracle_id `8ec7c7ce-23a5-4ba7-8cfd-4caf8601a9c8` · printing: DSC #204 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### White Auracite
 
@@ -1084,7 +1194,12 @@
 - **Flavor text** (FIN printing):
   > *"She gave her life that we might defeat the Ascians. Her sacrifice must not be in vain."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3711 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/41/white-auracite) · oracle_id `6022608a-6cf2-45bd-adec-63211710a5ed` · printing: FIN #41 (2025-06-13) · [rulings](https://api.scryfall.com/cards/2df6f515-9d21-4769-b1c4-c219611bccbb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-06-06* — Auras attached to the exiled permanent will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist. When the card returns to the battlefield, it will be a new object with no connection to the card that was exiled.
+  - *2025-06-06* — If White Auracite leaves the battlefield before its triggered ability resolves, the target permanent won't be exiled.
+  - *2025-06-06* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
+  - *2025-06-06* — If an Aura is exiled this way, its owner chooses what it will enchant as it returns to the battlefield. An Aura put onto the battlefield this way doesn't target anything (so it could be attached to a permanent with shroud, for example), but the Aura's enchant ability restricts what it can be attached to. If the Aura can't legally be attached to anything, it remains in exile for the rest of the game.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/41/white-auracite) · oracle_id `6022608a-6cf2-45bd-adec-63211710a5ed` · printing: FIN #41 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### White Dragon
 
@@ -1140,7 +1255,9 @@
   > *"The White Lotus opens wide to those who know her secrets."*
   > *—Fung, White Lotus member*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5271 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/281/white-lotus-hideout) · oracle_id `2cdbfda3-98fc-4108-b551-c7049168924e` · printing: TLA #281 (2025-11-21) · [rulings](https://api.scryfall.com/cards/24d1e22c-0d99-4ed5-94f0-fd055fd8e2be/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-10-02* — A "Lesson or Shrine spell" is any spell with the subtype Lesson or Shrine. Mana produced by the second ability can't be spent to pay the costs of abilities of Shrines you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/281/white-lotus-hideout) · oracle_id `2cdbfda3-98fc-4108-b551-c7049168924e` · printing: TLA #281 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### White Lotus Reinforcements
 
@@ -1168,7 +1285,9 @@
   > *"Most people think the lotus tile insignificant, but it is essential for the unusual strategy that I employ."*
   > *—Iroh*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3874 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/262/white-lotus-tile) · oracle_id `f8a5e009-45b7-4e62-a494-1579f5fc0ba6` · printing: TLA #262 (2025-11-21) · [rulings](https://api.scryfall.com/cards/1d70f9ec-fdc1-4219-b89b-c030d712c1fc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-10-02* — You'll always use the greatest number possible for X. You don't need to choose any creature types. For example, if you control a Human Soldier, a Warrior Ally, a Warrior, and a Human Warrior, White Lotus Tile will add three mana.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/262/white-lotus-tile) · oracle_id `f8a5e009-45b7-4e62-a494-1579f5fc0ba6` · printing: TLA #262 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### White Mage's Staff
 
@@ -1180,6 +1299,7 @@
   > Equip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Job select, Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7923 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/42/white-mages-staff) · oracle_id `af1acf07-39e2-441e-a1e0-1db535535e2e` · printing: FIN #42 (2025-06-13) · [rulings](https://api.scryfall.com/cards/30db372e-0b4c-4e16-9667-bf3fda666f72/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### White Mana Battery
@@ -1204,7 +1324,10 @@
   > *Saltfield nomads call a sudden storm a "whitemane."*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3846 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/35/whitemane-lion) · oracle_id `e8d6084b-9b72-438e-a30a-851b888f3e4d` · printing: DMR #35 (2023-01-13) · [rulings](https://api.scryfall.com/cards/a358def9-65a0-4741-896c-b2a8c8947768/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-12-08* — Whitemane Lion's ability doesn't target any creature, therefore no player may take actions between the time you choose the creature to return and the time you return it.
+  - *2022-12-08* — You may return Whitemane Lion itself to its owner's hand as its triggered ability resolves. If you don't control any other creature, you must return it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/35/whitemane-lion) · oracle_id `e8d6084b-9b72-438e-a30a-851b888f3e4d` · printing: DMR #35 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### White Orchid Phantom
 
@@ -1218,7 +1341,10 @@
   > *His oath required no service beyond death, but his honor demanded it.*
 - **Keywords:** Flying, First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7207 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/184/white-orchid-phantom) · oracle_id `6edd2a36-3d65-4bf9-bd82-b6d03a7e8fea` · printing: SOC #184 (2026-04-24) · [rulings](https://api.scryfall.com/cards/e6cebc57-d7b0-4e86-bc9e-ebb1de58f932/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-06-07* — If the target land is an illegal target when White Orchid Phantom's last ability tries to resolve, it won't resolve and none of its effects will happen. That land's controller won't get to search for a basic land card.
+  - *2024-06-07* — If the target land isn't destroyed by White Orchid Phantom's last ability (perhaps because the land has indestructible), its controller still gets to search for a basic land card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/184/white-orchid-phantom) · oracle_id `6edd2a36-3d65-4bf9-bd82-b6d03a7e8fea` · printing: SOC #184 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Whiteout
 
@@ -1239,7 +1365,18 @@
   > When this creature enters, you take the initiative.
   > At the beginning of each opponent's upkeep, untap a creature you control. If you've completed a dungeon, untap all creatures you control instead.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3357 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/49/white-plume-adventurer) · oracle_id `51f091a7-9b0b-4362-8e9c-c174752f369b` · printing: CLB #49 (2022-06-10) · [rulings](https://api.scryfall.com/cards/b256ddc8-8b12-434c-a610-1a872e948f2f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2022-06-10* — A player who currently has the initiative may take the initiative again. This causes that player to venture into Undercity again, but does not cause them to have multiple initiative designations.
+  - *2022-06-10* — If the player with the initiative leaves the game, the active player takes the initiative at the same time that player leaves the game. If the active player is leaving the game or if there is no active player, the next player in turn order takes the initiative.
+  - *2022-06-10* — If you aren’t in a dungeon when instructed to venture into Undercity, you will put Undercity into the command zone and move your venture marker to Secret Entrance (the first room).
+  - *2022-06-10* — If you’re already in a dungeon when instructed to venture into Undercity, you move to the next room of that dungeon. If you are already in the last room, you will complete that dungeon and start Undercity. This is true whether you’re already in Undercity or any other dungeon.
+  - *2022-06-10* — In a Two-Headed Giant game, if both players on a team deal combat damage to the player that has the initiative at the same time, the player with the initiative will choose the order of the triggered abilities. Then, as those abilities resolve, one team member takes the initiative (and ventures into Undercity) and then the other team member does the same. The last player to take the initiative keeps it until the initiative changes again.
+  - *2022-06-10* — Only one player can have the initiative at a time. As one player takes the initiative, any other player that had the initiative ceases to have it.
+  - *2022-06-10* — Similarly, when instructed to venture into Undercity, you can’t start a dungeon that isn’t Undercity.
+  - *2022-06-10* — The initiative is a designation a player can have. A player with the initiative designation is said to “have the initiative.” The initiative carries two inherent rules. First, whenever a player takes the initiative, and at the beginning of the upkeep of the player with the initiative, that player ventures into Undercity. Second, whenever one or more creatures a player controls deal combat damage to the player who has the initiative, the first player takes the initiative. Also, some abilities will refer to having the initiative and provide other benefits.
+  - *2022-06-10* — There is no initiative in a game until an effect instructs a player to take the initiative. Once a player is instructed to do this, they have the initiative until another player takes the initiative.
+  - *2022-06-10* — You cannot venture into Undercity unless instructed to do so, either because you have the initiative at the beginning of your upkeep or because you take the initiative. Notably, if you aren’t in a dungeon and an effect instructs you to venture into the dungeon (not venture into Undercity), you can’t start Undercity.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/49/white-plume-adventurer) · oracle_id `51f091a7-9b0b-4362-8e9c-c174752f369b` · printing: CLB #49 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### White Rhystic Study
 
@@ -1295,7 +1432,15 @@
 - **Oracle text:**
   > You gain X life. Create X 1/1 colorless Phyrexian Mite artifact creature tokens with toxic 1 and "This token can't block." If X is 5 or more, destroy all other creatures. (Players dealt combat damage by a creature with toxic 1 also get a poison counter.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1907 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frc/38/white-suns-twilight) · oracle_id `a38828be-781e-4340-9c6f-f40b1d34773f` · printing: FRC #38 (2026-10-02) · [rulings](https://api.scryfall.com/cards/ae7a778c-f4a7-447f-90f0-146997e03398/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-02-04* — A player with ten or more poison counters loses the game. This is a state-based action and doesn't use the stack. In other words, it happens immediately and players can't respond to it, just like a player losing the game due to having 0 or less life.
+  - *2023-02-04* — Any other effects of that damage, such as life gain from lifelink, still apply.
+  - *2023-02-04* — Conversely, replacement effects that apply to the number of counters put on a player can modify the counters placed this way. For example, Vorinclex, Monstrous Raider's last two abilities can apply to counters placed this way.
+  - *2023-02-04* — Damage dealt by a creature with toxic grants the same number of counters regardless of how much damage is dealt. Notably, if a replacement effect modifies the damage in some way (such as that of Gratuitous Violence), the number of counters given remains unchanged.
+  - *2023-02-04* — If a creature with toxic deals combat damage to a creature or planeswalker, or if it deals noncombat damage, toxic has no effect and no player gets poison counters.
+  - *2023-02-04* — Multiple instances of toxic are cumulative. For example, if a creature has toxic 2 and gains toxic 1 due to another effect, combat damage that creature deals to a player will cause that player to get 3 poison counters.
+  - *2023-02-04* — Toxic doesn't change the amount of combat damage a creature deals. For example, if a 2/2 creature with toxic 1 deals combat damage to a player, that creature will deal 2 damage. The results of that damage are the player loses 2 life and gets a poison counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frc/38/white-suns-twilight) · oracle_id `a38828be-781e-4340-9c6f-f40b1d34773f` · printing: FRC #38 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### White Sun's Zenith
 
@@ -1306,7 +1451,9 @@
 - **Flavor text** (CMR printing):
   > *After the Battle of Liet Field, the white sun crested above Taj-Nar, bringing hope to all who survived the carnage.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3437 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/391/white-suns-zenith) · oracle_id `ea4a9299-c2b3-4092-89dd-28142b203d60` · printing: CMR #391 (2020-11-20) · [rulings](https://api.scryfall.com/cards/029e0450-ceb1-484d-8a18-e769defac428/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-06-01* — If this spell doesn't resolve, none of its effects occur. In particular, it will go to the graveyard rather than to its owner's library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/391/white-suns-zenith) · oracle_id `ea4a9299-c2b3-4092-89dd-28142b203d60` · printing: CMR #391 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### White Tiger, Amulet Keeper
 

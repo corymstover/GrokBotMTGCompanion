@@ -67,7 +67,14 @@
 - **Flavor text** (MH2 printing):
   > *Though Heliod turned against humanity in his hunger for power, the ideals he once championed still stand strong.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2879 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/22/nykthos-paragon) · oracle_id `367ac7e2-5056-48f3-a296-87d6cb1f7b54` · printing: MH2 #22 (2021-06-18) · [rulings](https://api.scryfall.com/cards/2963205e-b181-44d1-809f-6577e29fa812/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-06-18* — "Do this only once each turn" refers only to the ability it is attached to, not other instances of the same ability. In other words, if you control multiple Nykthos Paragons, you will be able to do this once for each of them.
+  - *2021-06-18* — "Do this only once each turn" refers to putting +1/+1 counters on your creatures using the triggered ability. As long as you haven't yet chosen to put +1/+1 counters on your creatures with it, all instances of gaining life will cause Nykthos Paragon's ability to trigger.
+  - *2021-06-18* — Each creature with lifelink dealing combat damage causes a separate life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time and you haven't used it yet, Nykthos Paragon's ability will trigger twice. However, if a single creature you control with lifelink deals combat damage to multiple creatures, players, and/or planeswalkers at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once.
+  - *2021-06-18* — If a creature you control is dealt lethal damage at the same time that you gain life, it won't receive +1/+1 counters from Nykthos Paragon's ability in time to save it.
+  - *2021-06-18* — If multiple instances of the ability are on the stack, you will be able to put +1/+1 counters for only one of those instances. Once you do that, other instances will do nothing as they resolve.
+  - *2021-06-18* — Once you have chosen to put +1/+1 counters on your creatures, further instances of gaining life will not cause the ability to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/22/nykthos-paragon) · oracle_id `367ac7e2-5056-48f3-a296-87d6cb1f7b54` · printing: MH2 #22 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nykthos, Shrine to Nyx
 
@@ -108,7 +115,20 @@
   > {3}{G}: Target creature gets +2/+2 until end of turn.
 - **Keywords:** Indestructible
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3452 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ths/166/nylea-god-of-the-hunt) · oracle_id `43674fdf-496f-42dc-8a0a-5c42a7c7d910` · printing: THS #166 (2013-09-27) · [rulings](https://api.scryfall.com/cards/f185a734-a32a-4244-88e8-dabafbfd064f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2013-09-15* — Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s).
+  - *2013-09-15* — If an activated ability or triggered ability has an effect that depends on your devotion to a color, you count the number of mana symbols of that color among the mana costs of permanents you control as the ability resolves. The permanent with that ability will be counted if it's still on the battlefield at that time.
+  - *2013-09-15* — Mana symbols in the text boxes of permanents you control don't count toward your devotion to any color.
+  - *2013-09-15* — Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don't count toward your devotion to any color.
+  - *2020-01-24* — As a God enters the battlefield, your devotion to its color will determine whether any replacement effects that affect creatures entering the battlefield apply to that God. Because replacement effects are considered before the God is on the battlefield, the mana symbols in its mana cost won't be counted when determining this.
+  - *2020-01-24* — Counters put on a God remain on it while it's not a creature, even if they have no effect.
+  - *2020-01-24* — If a God is attacking or blocking and it stops being a creature, it will be removed from combat. It won't rejoin combat if it resumes being a creature later during that combat.
+  - *2020-01-24* — If a God stops being a creature, it loses the type creature and the creature type God. It continues to be a legendary enchantment.
+  - *2020-01-24* — If an effect causes a God to lose all abilities, its ability that causes it to stop being a creature still applies if appropriate.
+  - *2020-01-24* — The abilities of Gods function as long as they're on the battlefield, regardless of whether they're creatures.
+  - *2020-01-24* — The type-changing ability that can make a God not be a creature functions only on the battlefield. It's always a creature card in other zones, regardless of your devotion to its color. It's always a creature spell while it's on the stack.
+  - *2020-01-24* — When a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not for abilities that trigger whenever a creature enters the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ths/166/nylea-god-of-the-hunt) · oracle_id `43674fdf-496f-42dc-8a0a-5c42a7c7d910` · printing: THS #166 (2013-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nylea, Keen-Eyed
 
@@ -122,7 +142,22 @@
   > {2}{G}: Reveal the top card of your library. If it's a creature card, put it into your hand. Otherwise, you may put it into your graveyard.
 - **Keywords:** Indestructible
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3606 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/185/nylea-keen-eyed) · oracle_id `642bbdf6-9a8c-4158-83c8-d59feb49101b` · printing: THB #185 (2020-01-24) · [rulings](https://api.scryfall.com/cards/bdf894d4-1a06-4952-a481-22786ab87a73/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (14):
+  - *2020-01-24* — As a God enters the battlefield, your devotion to its color will determine whether any replacement effects that affect creatures entering the battlefield apply to that God. Because replacement effects are considered before the God is on the battlefield, the mana symbols in its mana cost won’t be counted when determining this.
+  - *2020-01-24* — Colorless and generic mana symbols ({C}, {0}, {1}, {2}, {X}, and so on) in mana costs of permanents you control don’t count toward your devotion to any color.
+  - *2020-01-24* — Counters put on a God remain on it while it’s not a creature, even if they have no effect.
+  - *2020-01-24* — Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s).
+  - *2020-01-24* — If a God is attacking or blocking and it stops being a creature, it will be removed from combat. It won’t rejoin combat if it resumes being a creature later during that combat.
+  - *2020-01-24* — If a God stops being a creature, it loses the type creature and the creature type God. It continues to be a legendary enchantment.
+  - *2020-01-24* — If an activated ability or triggered ability has an effect that depends on your devotion to a color, you count the number of mana symbols of that color among the mana costs of permanents you control as the ability resolves. The permanent with that ability will be counted if it’s still on the battlefield at that time.
+  - *2020-01-24* — If an effect causes a God to lose all abilities, its ability that causes it to stop being a creature still applies if appropriate.
+  - *2020-01-24* — If you don’t put the revealed noncreature card into your graveyard, it remains on top of your library.
+  - *2020-01-24* — If you put an Aura on an opponent’s permanent, you still control the Aura, and mana symbols in its mana cost count towards your devotion.
+  - *2020-01-24* — Mana symbols in the text boxes of permanents you control don’t count toward your devotion to any color.
+  - *2020-01-24* — The abilities of Gods function as long as they’re on the battlefield, regardless of whether they’re creatures.
+  - *2020-01-24* — The type-changing ability that can make a God not be a creature functions only on the battlefield. It’s always a creature card in other zones, regardless of your devotion to its color. It’s always a creature spell while it’s on the stack.
+  - *2020-01-24* — When a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not for abilities that trigger whenever a creature enters the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/185/nylea-keen-eyed) · oracle_id `642bbdf6-9a8c-4158-83c8-d59feb49101b` · printing: THB #185 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nylea's Colossus
 
@@ -136,7 +171,10 @@
   > *—Nylea, god of the hunt*
 - **Keywords:** Double, Constellation
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7458 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c18/33/nyleas-colossus) · oracle_id `3d73dfd6-fd74-453f-b323-6505825caf4c` · printing: C18 #33 (2018-08-10) · [rulings](https://api.scryfall.com/cards/5cf50d41-02ce-4a39-b3a0-82ddd7277fca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-07-13* — If a creature’s power is less than 0 when it’s doubled, instead that creature gets -X/-0, where X is how much less than 0 its power is. For example, if an effect has given Nylea’s Colossus -8/-0 so that it’s a -2/6 creature, doubling its power and toughness gives it -2/+6, and it will become a -4/12 until end of turn.
+  - *2018-07-13* — If an effect instructs you to “double” a creature’s power, that creature gets +X/+0, where X is its power as that effect begins to apply. Toughness is doubled similarly.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c18/33/nyleas-colossus) · oracle_id `3d73dfd6-fd74-453f-b323-6505825caf4c` · printing: C18 #33 (2018-08-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nylea's Disciple
 
@@ -198,7 +236,9 @@
 - **Flavor text** (THB printing):
   > *"I bring a wilderness no law can tame."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5783 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/188/nyleas-intervention) · oracle_id `acf388b2-c4e3-4f1b-a16c-88f991d5c17b` · printing: THB #188 (2020-01-24) · [rulings](https://api.scryfall.com/cards/daa2f963-9d16-4224-b24e-b6a79f2b9d75/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-01-24* — The second mode of Nylea’s Intervention has it deal damage to each creature with flying equal to twice X. It doesn’t deal X damage to them then deal X damage again.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/188/nyleas-intervention) · oracle_id `acf388b2-c4e3-4f1b-a16c-88f991d5c17b` · printing: THB #188 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nylea's Presence
 
@@ -225,6 +265,7 @@
   > *Mischief is its own reward.*
 - **Keywords:** Flying, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5690 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/288/nymris-oonas-trickster) · oracle_id `9ee50bae-47c4-4ae7-a82b-f2a0b366df35` · printing: CMR #288 (2020-11-20) · [rulings](https://api.scryfall.com/cards/b8cfc97a-3c8a-4d44-846b-7a523dc11878/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nyssa of Traken
@@ -265,7 +306,12 @@
   > *Ancient yet ever-young, it is wise and subtle—and cruel and reckless as the spring itself.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1025 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/190/nyxbloom-ancient) · oracle_id `8b610f8f-c8dd-4eeb-bc6e-3bc706d5f63e` · printing: THB #190 (2020-01-24) · [rulings](https://api.scryfall.com/cards/a391da36-0b40-46ea-b771-50d2b920207e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-01-24* — If an ability triggers “whenever you tap” something for mana and produces mana, that triggered mana ability won’t be affected by Nyxbloom Ancient.
+  - *2020-01-24* — Nyxbloom Ancient doesn’t produce any mana itself. Rather, it causes permanents you tap for mana to produce more mana. If the mana ability of that permanent puts any restrictions or riders on the mana it produces, that will apply to all the mana it produces this way.
+  - *2020-01-24* — The effects of multiple Nyxbloom Ancients are cumulative. For example, if you have two Nyxbloom Ancients on the battlefield, you’ll get nine times the original amount and type of mana.
+  - *2020-01-24* — You’re “tapping a permanent for mana” only if you’re activating a mana ability of that permanent that includes the {T} symbol in its cost. A mana ability produces mana as part of its effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/190/nyxbloom-ancient) · oracle_id `8b610f8f-c8dd-4eeb-bc6e-3bc706d5f63e` · printing: THB #190 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nyxborn Behemoth
 
@@ -278,6 +324,7 @@
   > {1}{G}, Sacrifice another enchantment: This creature gains indestructible until end of turn.
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7498 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/742/nyxborn-behemoth) · oracle_id `58e20ca7-5fe3-49ff-bee0-0388722e3cab` · printing: CMM #742 (2023-08-04) · [rulings](https://api.scryfall.com/cards/b9f1dbdc-e590-48a4-bc52-e9e4e907fb82/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nyxborn Brute
@@ -350,7 +397,13 @@
   > Enchanted creature gets +1/+1 for each +1/+1 counter on this Aura and has reach and trample.
 - **Keywords:** Reach, Trample, Bestow
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3454 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/164/nyxborn-hydra) · oracle_id `4d1b655f-05b8-4b82-9cb9-67660f570a9b` · printing: MH3 #164 (2024-06-14) · [rulings](https://api.scryfall.com/cards/902a969e-9f22-4e92-93eb-9d4536ca82e5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-06-07* — Auras attached to a creature don't become tapped when the creature becomes tapped. Except in some rare cases, an Aura with bestow remains untapped when it becomes unattached and becomes a creature.
+  - *2024-06-07* — If a permanent with bestow enters the battlefield by any method other than being cast, it will be an enchantment creature. You can't choose to pay the bestow cost and have it become an Aura.
+  - *2024-06-07* — On the stack, a spell with bestow is either a creature spell or an Aura spell. It's never both, although it's an enchantment spell in either case.
+  - *2024-06-07* — Unlike other Aura spells, an Aura spell with bestow isn't countered if its target is illegal as it begins to resolve. Rather, the effect making it an Aura spell ends, it loses enchant creature, it returns to being an enchantment creature spell, and it resolves and enters the battlefield as an enchantment creature.
+  - *2024-06-07* — Unlike other Auras, an Aura with bestow isn't put into its owner's graveyard if it becomes unattached. Rather, the effect making it an Aura ends, it loses enchant creature, and it remains on the battlefield as an enchantment creature. It can attack (and its {T} abilities can be activated, if it has any) on the turn it becomes unattached if it's been under your control continuously, even as an Aura, since your most recent turn began.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/164/nyxborn-hydra) · oracle_id `4d1b655f-05b8-4b82-9cb9-67660f570a9b` · printing: MH3 #164 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nyxborn Marauder
 
@@ -458,6 +511,7 @@
 - **Flavor text** (TDC printing):
   > *The gods are fascinated by innocence, perhaps because it's a quality they themselves lack.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4500 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/126/nyx-fleece-ram) · oracle_id `5a20113c-7ea8-4edf-af9f-148ccd326a88` · printing: TDC #126 (2025-04-11) · [rulings](https://api.scryfall.com/cards/771fcea9-1007-4ff6-8000-99017978ac1c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nyx Herald
@@ -494,7 +548,14 @@
   > Nyx Lotus enters tapped.
   > {T}: Choose a color. Add an amount of mana of that color equal to your devotion to that color. (Your devotion to a color is the number of mana symbols of that color in the mana costs of permanents you control.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1784 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/235/nyx-lotus) · oracle_id `cfb8cdde-11f6-441a-942b-32d8c191fc90` · printing: THB #235 (2020-01-24) · [rulings](https://api.scryfall.com/cards/5bd6353f-d119-40e6-895c-030a11a7a2fe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2020-01-24* — Colorless and generic mana symbols ({C}, {0}, {1}, {2}, {X}, and so on) in mana costs of permanents you control don’t count toward your devotion to any color.
+  - *2020-01-24* — Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s).
+  - *2020-01-24* — If an activated ability or triggered ability has an effect that depends on your devotion to a color, you count the number of mana symbols of that color among the mana costs of permanents you control as the ability resolves. The permanent with that ability will be counted if it’s still on the battlefield at that time.
+  - *2020-01-24* — If you put an Aura on an opponent’s permanent, you still control the Aura, and mana symbols in its mana cost count towards your devotion.
+  - *2020-01-24* — Mana symbols in the text boxes of permanents you control don’t count toward your devotion to any color.
+  - *2020-01-24* — Nyx Lotus’s second ability is a mana ability. It doesn’t use the stack and can’t be responded to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/235/nyx-lotus) · oracle_id `cfb8cdde-11f6-441a-942b-32d8c191fc90` · printing: THB #235 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nyx Weaver
 
@@ -507,4 +568,5 @@
   > {1}{B}{G}, Exile this creature: Return target card from your graveyard to your hand.
 - **Keywords:** Reach, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1762 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/298/nyx-weaver) · oracle_id `6f8bf968-0571-4582-8c04-9791e44d5df0` · printing: TDC #298 (2025-04-11) · [rulings](https://api.scryfall.com/cards/26c4c471-f79f-4ca4-acc7-852cdc14e726/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

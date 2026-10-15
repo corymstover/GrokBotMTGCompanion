@@ -146,7 +146,15 @@
 - **Flavor text** (C16 printing):
   > *An eye for detail, a mind for numbers, a soul of clockwork.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7110 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c16/86/chief-engineer) · oracle_id `02dbb6f8-ef84-4156-87dc-34033e64fdb7` · printing: C16 #86 (2016-11-11) · [rulings](https://api.scryfall.com/cards/8c67872b-f375-42b9-b81c-3c8c52c0c24e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2014-07-18* — Multiple instances of convoke on a single spell are redundant.
+  - *2024-01-12* — Because convoke isn't an alternative cost, it can be used in conjunction with alternative costs.
+  - *2024-01-12* — If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.
+  - *2024-01-12* — Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature's colors.
+  - *2024-01-12* — Tapping an untapped creature that's attacking or blocking to convoke a spell won't cause that creature to stop attacking or blocking.
+  - *2024-01-12* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
+  - *2024-01-12* — You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c16/86/chief-engineer) · oracle_id `02dbb6f8-ef84-4156-87dc-34033e64fdb7` · printing: C16 #86 (2016-11-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chief Magistrate of Mercadia
 
@@ -183,7 +191,9 @@
 - **Flavor text** (2XM printing):
   > *The foundries of Kaladesh run like clockwork under the supervision of their formidable overseers.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2844 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/238/chief-of-the-foundry) · oracle_id `4fdfa41a-75a5-4b36-8c9e-083e26d137e2` · printing: 2XM #238 (2020-08-07) · [rulings](https://api.scryfall.com/cards/bf306f7f-b231-4343-807c-083df8b90c87/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-08-07* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to an artifact creature you control may become lethal if Chief of the Foundry leaves the battlefield during that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/238/chief-of-the-foundry) · oracle_id `4fdfa41a-75a5-4b36-8c9e-083e26d137e2` · printing: 2XM #238 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chief of the Scale
 
@@ -261,6 +271,7 @@
   > *The progeny of the Maelstrom shows no allegiance—and no mercy—to any of the five shards.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8185 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/192/child-of-alara) · oracle_id `70dbe8a9-505d-41c2-9b5b-a991d13ab459` · printing: 2X2 #192 (2022-07-08) · [rulings](https://api.scryfall.com/cards/b2373625-af3c-4c2a-a1d1-5288c446955d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Child of Gaea
@@ -347,7 +358,10 @@
   > *"We have a proud history of self-sacrifice. But it is easy, in these bleak times, to find one among us who is eager to die for any cause."*
   > *—Tavalus, acolyte of Korlis*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4219 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/14/children-of-korlis) · oracle_id `d44a8f89-b9c0-4e8a-9179-baa0c448a3c9` · printing: TSR #14 (2021-03-19) · [rulings](https://api.scryfall.com/cards/1a6cbece-f9d8-4c40-b72b-dfdb86430ff2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-03-19* — If your life total becomes 0 or less, you'll lose the game before you can activate the ability of Children of Korlis.
+  - *2021-03-19* — The life you gain is based on the total amount of life you lost, not the difference in your life total from when the turn started. For example, if you lose 5 life and gain 3 life before activating the ability, the ability will cause you to gain 5 life, not 2.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/14/children-of-korlis) · oracle_id `d44a8f89-b9c0-4e8a-9179-baa0c448a3c9` · printing: TSR #14 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chill
 
@@ -664,7 +678,11 @@
   > Whenever an Aura or Equipment you control enters, create a 2/2 red Spirit creature token with menace.
   > At the beginning of your end step, put a +1/+1 counter on each modified creature you control. (Equipment, Auras you control, and counters are modifications.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6115 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/nec/1/chishiro-the-shattered-blade) · oracle_id `c98a4af3-3e58-4927-9a60-d2664cf0b139` · printing: NEC #1 (2022-02-18) · [rulings](https://api.scryfall.com/cards/bffa36ac-137d-481c-b1b7-76a88ef15d54/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-02-18* — A creature that is equipped is considered modified no matter who controls the Equipment that's attached to it.
+  - *2022-02-18* — A creature with a counter on it is considered modified no matter what kind of counter it is or which player put it on that creature.
+  - *2022-02-18* — An Aura controlled by an opponent does not cause a creature you control to be modified.
+- **Source flags:** [Scryfall](https://scryfall.com/card/nec/1/chishiro-the-shattered-blade) · oracle_id `c98a4af3-3e58-4927-9a60-d2664cf0b139` · printing: NEC #1 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chiss-Goria, Forge Tyrant
 
@@ -677,6 +695,7 @@
   > Whenever Chiss-Goria attacks, exile the top five cards of your library. You may cast an artifact spell from among them this turn. If you do, it has affinity for artifacts.
 - **Keywords:** Flying, Affinity, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7794 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/onc/25/chiss-goria-forge-tyrant) · oracle_id `3f4d1ae1-d5c6-4afb-94c8-8e0ae4891501` · printing: ONC #25 (2023-02-10) · [rulings](https://api.scryfall.com/cards/923eb713-c955-4e12-8a8f-df3b4b361487/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chitin Gravestalker
@@ -734,7 +753,22 @@
   > *Eldrazi spawn are not their cherished young—they are smaller weapons.*
 - **Keywords:** Devoid, Myriad
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4314 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m3c/63/chittering-dispatcher) · oracle_id `c1b276b7-f1b3-4f6f-b6a2-1315d805e0f2` · printing: M3C #63 (2024-06-14) · [rulings](https://api.scryfall.com/cards/ec5fe7d0-b444-4488-b058-f3916e404cac/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (14):
+  - *2024-06-07* — A card with devoid is just colorless. It's not colorless and the colors of mana in its mana cost.
+  - *2024-06-07* — Although the tokens enter the battlefield attacking, they were never declared as attackers. Abilities that trigger whenever a creature attacks won't trigger, including the myriad ability of the tokens. If there are any costs to have a creature attack, those costs won't apply to the tokens.
+  - *2024-06-07* — Any enters-the-battlefield abilities of the copied creature will trigger when the token enters the battlefield. Any "as [this permanent] enters the battlefield" or "[this permanent] enters the battlefield with" abilities of the copied creature will also work.
+  - *2024-06-07* — Devoid doesn't affect the color identity of the card for the purposes of the Commander variant. For example, while Abstruse Appropriation is colorless because it has devoid, its color identity is still white and black, and it can't be included in a Commander deck where the commander's color identity doesn't include both white and black.
+  - *2024-06-07* — Devoid works in all zones, not just on the battlefield.
+  - *2024-06-07* — Each token copies exactly what was printed on the original creature and nothing else. It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+  - *2024-06-07* — If a card loses devoid, it will still be colorless. This is because effects that change an object's color (like the one created by devoid) are considered before the object loses devoid.
+  - *2024-06-07* — If myriad creates more than one token for any given player (due to an effect such as the one Doubling Season creates), you may choose separately for each token whether it's attacking the player or a planeswalker they control.
+  - *2024-06-07* — If the defending player is your only opponent, no tokens are put onto the battlefield.
+  - *2024-06-07* — Myriad is a triggered ability. Whenever a creature with myriad attacks, for each opponent other than defending player, you may create a token copy that's tapped and attacking that player or a planeswalker they control. Exile the tokens at end of combat.
+  - *2024-06-07* — Other cards and abilities can give a card with devoid a color. If that happens, it's just the new color, not that color and colorless.
+  - *2024-06-07* — The term "defending player" in the myriad rules (or any other ability of an attacking creature) refers to the player the creature with myriad was attacking at the time it became an attacking creature this combat, the controller of the planeswalker the creature was attacking at the time it became an attacking creature this combat, or the protector of the battle this creature was attacking at the time it became an attacking creature this combat.
+  - *2024-06-07* — The token creatures all enter the battlefield at the same time.
+  - *2024-06-07* — You choose whether each token is attacking the player or a planeswalker they control as the token is created.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m3c/63/chittering-dispatcher) · oracle_id `c1b276b7-f1b3-4f6f-b6a2-1315d805e0f2` · printing: M3C #63 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chittering Doom
 
@@ -757,7 +791,9 @@
   > Whenever this creature mutates, each opponent sacrifices a creature of their choice.
 - **Keywords:** Mutate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9087 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/iko/80/chittering-harvester) · oracle_id `9473b445-294b-4572-8267-f1f2fc2a05a7` · printing: IKO #80 (2020-04-24) · [rulings](https://api.scryfall.com/cards/d51a0700-d4d3-4b7e-bdb5-6cd913c948d9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-04-17* — As the triggered ability resolves, first the next opponent in turn order (or, if it’s an opponent’s turn, the opponent whose turn it is) chooses a creature they control, then each other opponent in turn order does the same, knowing the choices made before them. Then all the chosen creatures are sacrificed at the same time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/iko/80/chittering-harvester) · oracle_id `9473b445-294b-4572-8267-f1f2fc2a05a7` · printing: IKO #80 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chittering Host
 
@@ -806,7 +842,10 @@
   > When this creature enters, create a number of 1/1 black Rat creature tokens equal to the number of opponents you have.
   > {1}{B}, Sacrifice a creature: Target creature gets -2/-2 until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3397 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/175/chittering-witch) · oracle_id `8b1aa532-4f19-407e-83a5-13b3160ad8c2` · printing: TDC #175 (2025-04-11) · [rulings](https://api.scryfall.com/cards/7e361851-346e-4747-bbce-e2dc19e39b31/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-10-04* — In a multiplayer game, opponents who have left the game aren't counted by Chittering Witch's triggered ability.
+  - *2019-10-04* — You can sacrifice Chittering Witch to pay the cost of its last ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/175/chittering-witch) · oracle_id `8b1aa532-4f19-407e-83a5-13b3160ad8c2` · printing: TDC #175 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chitterspitter
 
@@ -817,6 +856,7 @@
   > Squirrels you control get +1/+1 for each acorn counter on this artifact.
   > {G}, {T}: Create a 1/1 green Squirrel creature token.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3174 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/153/chitterspitter) · oracle_id `4a338863-d599-46e7-9c30-e11b898ae1b0` · printing: MH2 #153 (2021-06-18) · [rulings](https://api.scryfall.com/cards/7ee33ff3-d3d6-4519-9d9f-72e342d8b215/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chivalric Alliance
@@ -829,6 +869,7 @@
 - **Flavor text** (MOC printing):
   > *"I dub thee Syr Hellraker. For now."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3077 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/11/chivalric-alliance) · oracle_id `9b8d9236-0452-4509-aca4-a53a399fff85` · printing: MOC #11 (2023-04-21) · [rulings](https://api.scryfall.com/cards/f96d4b03-e3b0-4b24-869d-4270b813b518/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chivalrous Chevalier

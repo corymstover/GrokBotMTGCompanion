@@ -55,7 +55,24 @@
   > At the beginning of each upkeep, if you had another creature enter the battlefield under your control last turn, draw a card.
 - **Keywords:** Indestructible
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5845 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/bng/145/ephara-god-of-the-polis) · oracle_id `5968ecb5-5728-429f-9324-0c108820ebe8` · printing: BNG #145 (2014-02-07) · [rulings](https://api.scryfall.com/cards/6832e495-7ee9-43e0-94ea-03c88344080e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (16):
+  - *2013-09-15* — Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s).
+  - *2013-09-15* — If an activated ability or triggered ability has an effect that depends on your devotion to a color, you count the number of mana symbols of that color among the mana costs of permanents you control as the ability resolves. The permanent with that ability will be counted if it's still on the battlefield at that time.
+  - *2013-09-15* — Mana symbols in the text boxes of permanents you control don't count toward your devotion to any color.
+  - *2013-09-15* — Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don't count toward your devotion to any color.
+  - *2014-02-01* — Ephara's last ability checks at the beginning of each upkeep whether another creature entered the battlefield under your control last turn. If one did, it will trigger; otherwise, it won't. The ability will trigger only once no matter how many creatures entered the battlefield under your control that turn, as long as at least one did.
+  - *2014-02-01* — If a noncreature permanent you control (such as an Aura with bestow) becomes a creature, it will not cause Ephara's last ability to trigger the following turn. This is true even if that noncreature permanent became a creature the same turn it entered the battlefield.
+  - *2014-02-01* — The last ability will trigger regardless of what has happened to the creature that entered the battlefield on the previous turn. It doesn't matter whether it's still under your control or whether it's still on the battlefield.
+  - *2020-01-24* — As a God enters the battlefield, your devotion to its color will determine whether any replacement effects that affect creatures entering the battlefield apply to that God. Because replacement effects are considered before the God is on the battlefield, the mana symbols in its mana cost won't be counted when determining this.
+  - *2020-01-24* — Counters put on a God remain on it while it's not a creature, even if they have no effect.
+  - *2020-01-24* — If a God is attacking or blocking and it stops being a creature, it will be removed from combat. It won't rejoin combat if it resumes being a creature later during that combat.
+  - *2020-01-24* — If a God stops being a creature, it loses the type creature and the creature type God. It continues to be a legendary enchantment.
+  - *2020-01-24* — If an effect causes a God to lose all abilities, its ability that causes it to stop being a creature still applies if appropriate.
+  - *2020-01-24* — The abilities of Gods function as long as they're on the battlefield, regardless of whether they're creatures.
+  - *2020-01-24* — The type-changing ability that can make a God not be a creature functions only on the battlefield. It's always a creature card in other zones, regardless of your devotion to its color. It's always a creature spell while it's on the stack.
+  - *2020-01-24* — When a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not for abilities that trigger whenever a creature enters the battlefield.
+  - *2020-01-24* — Your devotion to two colors is the number of mana symbols among mana costs of permanents you control that are the first color, the second, or both. If an effect counts your devotion to two colors, a hybrid symbol that is both of those colors is counted just once.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bng/145/ephara-god-of-the-polis) · oracle_id `5968ecb5-5728-429f-9324-0c108820ebe8` · printing: BNG #145 (2014-02-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ephara's Dispersal
 
@@ -170,7 +187,10 @@
 - **Flavor text** (TLA printing):
   > *With Azula's defeat, all of her nobility, grace, and confidence shattered into harrowing screams from the would-be Fire Lord.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7624 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/96/epic-downfall) · oracle_id `ed5d6aba-0b8d-48b3-a84c-618f45fb67b1` · printing: TLA #96 (2025-11-21) · [rulings](https://api.scryfall.com/cards/3b4a6804-04f5-4467-bb1c-9466a47bc55f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-10-04* — If a creature on the battlefield has {X} in its mana cost, X is considered to be 0.
+  - *2025-10-02* — If a creature on the battlefield has {X} in its mana cost, X is considered to be 0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/96/epic-downfall) · oracle_id `ed5d6aba-0b8d-48b3-a84c-618f45fb67b1` · printing: TLA #96 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Epicenter
 
@@ -192,7 +212,13 @@
 - **Oracle text:**
   > Exile the top X cards of your library. You may cast instant and sorcery spells with mana value X or less from among them without paying their mana costs. Then put all cards exiled this way that weren't cast into your graveyard.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6331 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/222/epic-experiment) · oracle_id `08bc10fd-8901-4836-ad4d-a867e1bcba77` · printing: OTC #222 (2024-04-19) · [rulings](https://api.scryfall.com/cards/d3ad9626-3124-4ad6-9cac-49aa9c3ce88c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-03-19* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2021-03-19* — If you can't cast a card, perhaps because there are no legal targets available, or if you choose not to cast it, it will be put into your graveyard.
+  - *2021-03-19* — If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those to cast the card.
+  - *2021-03-19* — When casting an instant or sorcery card this way, ignore timing restrictions based on the card's type. Other timing restrictions, such as "Cast [this card] only during combat," must be followed.
+  - *2021-03-19* — You cast the cards one at a time, choosing modes, targets, and so on. The last card you cast will be the first one to resolve.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/222/epic-experiment) · oracle_id `08bc10fd-8901-4836-ad4d-a867e1bcba77` · printing: OTC #222 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Epic Fight
 
@@ -245,7 +271,12 @@
 - **Flavor text** (C21 printing):
   > *"Fleshy, with just a hint of leather. A fine vintage."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7004 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c21/143/epicure-of-blood) · oracle_id `bdb319a6-a1cd-44f5-999d-af1bb55b2fc4` · printing: C21 #143 (2021-04-23) · [rulings](https://api.scryfall.com/cards/ac79386b-91eb-4813-8f3c-3b74b45be188/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2019-07-12* — Each creature with lifelink dealing combat damage causes a separate life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, Epicure of Blood's ability will trigger twice. However, if a single creature you control with lifelink deals combat damage to multiple creatures, players, and/or planeswalkers at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once.
+  - *2019-07-12* — In a Two-Headed Giant game, Epicure of Blood's ability causes the opposing team to lose 1 life twice.
+  - *2019-07-12* — In a Two-Headed Giant game, life gained by your teammate won't cause the ability to trigger, even though it caused your team's life total to increase.
+  - *2019-07-12* — The ability of Epicure of Blood triggers just once for each life-gaining event, whether it's 1 life from Impassioned Orator or 4 life from Dawning Angel. If you gain an amount of life "for each" of something or "equal to the number" of something, that life is gained as one event and the ability of Epicure of Blood triggers only once.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c21/143/epicure-of-blood) · oracle_id `bdb319a6-a1cd-44f5-999d-af1bb55b2fc4` · printing: C21 #143 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Epiphany at the Drownyard
 

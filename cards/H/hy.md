@@ -94,7 +94,12 @@
   > When this creature becomes monstrous, create X X/X green Hydra creature tokens.
 - **Keywords:** Monstrosity
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4334 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c21/194/hydra-broodmaster) · oracle_id `9e4fb4b1-9b28-4a49-b4ac-d5549c08594d` · printing: C21 #194 (2021-04-23) · [rulings](https://api.scryfall.com/cards/5b11bb5a-66e3-4dc6-9df4-e1683c57e488/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2014-04-26* — An ability that triggers when a creature becomes monstrous won't trigger if that creature isn't on the battlefield when its monstrosity ability resolves.
+  - *2014-04-26* — Monstrous isn't an ability that a creature has. It's just something true about that creature. If the creature stops being a creature or loses its abilities, it will continue to be monstrous.
+  - *2014-04-26* — Once a creature becomes monstrous, it can't become monstrous again. If the creature is already monstrous when the monstrosity ability resolves, nothing happens.
+  - *2014-04-26* — The value of each X in Hydra Broodmaster's last ability is equal to the value chosen for X when its monstrosity ability was activated.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c21/194/hydra-broodmaster) · oracle_id `9e4fb4b1-9b28-4a49-b4ac-d5549c08594d` · printing: C21 #194 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### HYDRA Disintegrator
 
@@ -145,7 +150,9 @@
   > *"We should learn from the hydra. It never plays favorites; it devours everyone equally."*
   > *—Thrass, elder druid*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4094 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/185/hydra-omnivore) · oracle_id `8f504855-f3df-4284-a189-e799bcddf620` · printing: DSC #185 (2024-09-27) · [rulings](https://api.scryfall.com/cards/a6abde7a-da2a-4631-9db6-9d0ffe1e1105/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-09-22* — The damage dealt by Hydra Omnivore as a result of its triggered ability is not combat damage (and doesn't cause the ability to trigger again).
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/185/hydra-omnivore) · oracle_id `8f504855-f3df-4284-a189-e799bcddf620` · printing: DSC #185 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hydra's Growth
 
@@ -157,7 +164,10 @@
   > At the beginning of your upkeep, double the number of +1/+1 counters on enchanted creature.
 - **Keywords:** Enchant, Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2150 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/172/hydras-growth) · oracle_id `559903cd-5cba-47a5-8b5b-7067e393e76a` · printing: THB #172 (2020-01-24) · [rulings](https://api.scryfall.com/cards/5112ee2a-a6f3-4280-a915-000a97a9cdef/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-01-24* — If Hydra's Growth leaves the battlefield before its enters-the-battlefield triggered ability resolves, the creature it last enchanted before it left gets the +1/+1 counter.
+  - *2020-01-24* — To double the number of +1/+1 counters on a creature, put a number of +1/+1 counters on it equal to the number it already has. Other cards that interact with putting counters on it will interact with this effect accordingly.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/172/hydras-growth) · oracle_id `559903cd-5cba-47a5-8b5b-7067e393e76a` · printing: THB #172 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hydra's Impenetrable Hide
 
@@ -286,7 +296,9 @@
   > *Havoc is a small price to pay for data.*
 - **Keywords:** Flying, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1554 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/315/hydroid-krasis) · oracle_id `6bd872b2-5c40-4e11-9a7f-0136a51b0642` · printing: SOC #315 (2026-04-24) · [rulings](https://api.scryfall.com/cards/52e5d3fe-46bc-4014-9819-5aa7c7e64838/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-01-25* — Hydroid Krasis's first ability triggers as you cast it, and that ability resolves before the spell itself. It resolves even if Hydroid Krasis is countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/315/hydroid-krasis) · oracle_id `6bd872b2-5c40-4e11-9a7f-0136a51b0642` · printing: SOC #315 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hydrolash
 
@@ -376,7 +388,18 @@
   > Umbra armor (If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura.)
 - **Keywords:** Umbra armor, Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2741 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/13/hyena-umbra) · oracle_id `354affb3-1be7-4a9e-91da-2989eb54f62d` · printing: 2X2 #13 (2022-07-08) · [rulings](https://api.scryfall.com/cards/f6cc0f1f-191a-4141-965f-8d159bf54732/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2024-06-07* — If a creature enchanted with an Aura that has umbra armor has indestructible, lethal damage and effects that try to destroy it simply have no effect. Umbra armor won't do anything because it won't have to.
+  - *2024-06-07* — If a creature enchanted with an Aura that has umbra armor would be destroyed by multiple state-based actions at the same time (most likely because a creature with deathtouch has dealt damage to that creature greater than or equal to its toughness), umbra armor's effect will replace all of them and save the creature.
+  - *2024-06-07* — If a creature you control is enchanted with multiple Auras that have umbra armor, and the enchanted creature would be destroyed, one of those Auras is destroyed instead—but only one of them. You choose which one because you control the enchanted creature.
+  - *2024-06-07* — If a spell or ability says that it would "destroy" a creature enchanted with an Aura that has umbra armor, that spell or ability is what causes the Aura to be destroyed instead. Umbra armor doesn't destroy the Aura; rather, it changes the effects of the spell or ability. On the other hand, if a spell or ability deals lethal damage to a creature enchanted with an Aura that has umbra armor, the game rules regarding lethal damage cause the Aura to be destroyed, not that spell or ability.
+  - *2024-06-07* — If a spell or ability would destroy both an Aura with umbra armor and the creature it's enchanting at the same time, umbra armor's effect will save the enchanted creature from being destroyed. Instead, the spell or ability will destroy the Aura in two different ways at the same time, but the result is the same as destroying it once.
+  - *2024-06-07* — Some printings of this card refer to the ability "totem armor". This ability's name has been replaced with "umbra armor". This change does not affect the gameplay function of this card.
+  - *2024-06-07* — Umbra armor has no effect if the enchanted creature is put into a graveyard for any other reason, such as if it's sacrificed, if the "legend rule" applies to it, or if its toughness is 0 or less.
+  - *2024-06-07* — Umbra armor's effect is applied no matter why the enchanted creature would be destroyed: because it's been dealt lethal damage, or because it's being affected by an effect that says to "destroy" it (such as Breathe Your Last). In either case, all damage is removed from the creature and the Aura is destroyed instead.
+  - *2024-06-07* — Umbra armor's effect is mandatory. If the enchanted creature would be destroyed, you must remove all damage from it (if it has any) and destroy the Aura that has umbra armor instead.
+  - *2024-06-07* — Umbra armor's effect is not regeneration. Specifically, if umbra armor's effect is applied, the enchanted creature does not become tapped and is not removed from combat as a result. Effects that say the enchanted creature can't be regenerated won't prevent umbra armor's effect from being applied.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/13/hyena-umbra) · oracle_id `354affb3-1be7-4a9e-91da-2989eb54f62d` · printing: 2X2 #13 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hylda of the Icy Crown
 
@@ -390,7 +413,9 @@
   > • Scry 2, then draw a card.
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6748 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/206/hylda-of-the-icy-crown) · oracle_id `1733c71b-fd28-48dd-8a3d-41afd4b22f0e` · printing: WOE #206 (2023-09-08) · [rulings](https://api.scryfall.com/cards/ae9231fd-053d-4b84-a7a8-86063465bc49/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-09-01* — Hylda of the Icy Crown's ability will trigger only when an effect instructs you to tap an opponent's creature. It won't trigger if a spell or ability you control instructs an opponent to tap a creature they control. For example, if you control Tangle Wire and an opponent taps an untapped creature they control as part of the resolution of Tangle Wire's triggered ability, Hylda's ability won't trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/206/hylda-of-the-icy-crown) · oracle_id `1733c71b-fd28-48dd-8a3d-41afd4b22f0e` · printing: WOE #206 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hylda's Crown of Winter
 
@@ -402,6 +427,7 @@
 - **Flavor text** (WOE printing):
   > *With each day she wore the crown, her icy kingdom spread, and her heart grew ever colder.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5564 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/247/hyldas-crown-of-winter) · oracle_id `a8291d04-240e-456b-8c86-1fb4eb460476` · printing: WOE #247 (2023-09-08) · [rulings](https://api.scryfall.com/cards/b0d4a6c0-f00e-45a7-9c88-899460007020/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hylderblade
@@ -478,6 +504,7 @@
 - **Flavor text** (EMA printing):
   > *The priests plead for your anguish and pray for your despair.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9606 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ema/92/hymn-to-tourach) · oracle_id `992d9a72-d34d-47d7-96fb-37f0efb515ef` · printing: EMA #92 (2016-06-10) · [rulings](https://api.scryfall.com/cards/3faa8c5e-9e1b-4cee-b322-a033bf33dcbc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hypergenesis
@@ -609,7 +636,9 @@
   > *Its victims are known by their eyes: shattered vessels leaking broken dreams.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8513 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m10/100/hypnotic-specter) · oracle_id `759af941-f6a3-4726-91f2-9b1e4e55ea71` · printing: M10 #100 (2009-07-17) · [rulings](https://api.scryfall.com/cards/9695f390-f791-4d64-90b2-731d6d37df1c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-08-01* — The ability triggers even if the Specter’s damage is being redirected to an opponent. It does not trigger if damage that would have been dealt to the opponent is redirected to a nonopponent player or a creature, or if the damage is prevented.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m10/100/hypnotic-specter) · oracle_id `759af941-f6a3-4726-91f2-9b1e4e55ea71` · printing: M10 #100 (2009-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hypnotic Sprite // Mesmeric Glare
 
@@ -621,7 +650,20 @@
   > Counter target spell with mana value 3 or less. (Then exile this card. You may cast the creature later from exile.)
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5780 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eld/49/hypnotic-sprite-mesmeric-glare) · oracle_id `1f9efad1-9f51-47aa-a5a7-9c8103435a01` · printing: ELD #49 (2019-10-04) · [rulings](https://api.scryfall.com/cards/7acbd812-b994-4e68-8f95-04222796e994/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2025-06-06* — An adventurer card uses only its non-Adventure characteristics in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it's in your graveyard, Jidoor, Aristocratic Capital is a colorless Town land card whose mana value is 0. It can't be the target of Sorceress's Schemes, which reads in part "Return target instant or sorcery card from your graveyard or exiled card with flashback you own to your hand."
+  - *2025-06-06* — An effect may refer to a card, spell, or permanent that "has an Adventure." This refers to a card, spell, or permanent that has an adventurer card's set of alternative characteristics, even if they're not being used and even if that card was never cast as an Adventure.
+  - *2025-06-06* — Casting a card as an Adventure isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Adventure.
+  - *2025-06-06* — If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner's graveyard as it resolves. For as long as it remains exiled, that player may play it using its primary characteristics. If an Adventure spell leaves the stack in any way other than resolving (most likely by being countered or by failing to resolve because its targets have all become illegal), that card won't be exiled and the spell's controller won't be able to play that card from exile later.
+  - *2025-06-06* — If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won't give you permission to play it with its primary characteristics.
+  - *2025-06-06* — If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it's not possible to play the copy as a permanent.
+  - *2025-06-06* — If an effect instructs you to choose a card name, you may choose the alternative Adventure name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2025-06-06* — If an effect refers to a card, spell, or permanent that has an Adventure, it won't find an instant or sorcery spell on the stack that's been cast as an Adventure.
+  - *2025-06-06* — If an object becomes a copy of an object that has an Adventure, the copy also has an Adventure. If it changes zones, it will either cease to exist (if it's a token) or cease to be a copy (if it's a nontoken permanent), and so you won't be able to cast it as an Adventure.
+  - *2025-06-06* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell. For example, if you control Traveling Chocobo ("You may play lands and cast Bird spells from the top of your library.") and Jidoor, Aristocratic Capital is on top of your library, you can play Jidoor, Aristocratic Capital, but you can't cast Overture.
+  - *2025-06-06* — When playing a card as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The resulting spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+  - *2025-06-06* — You must still follow any timing restrictions and permissions for the card you play from exile. In the case of any of the five lands in this release, you'll be able to play it only during your main phase while the stack is empty and only if you have an available land play remaining.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eld/49/hypnotic-sprite-mesmeric-glare) · oracle_id `1f9efad1-9f51-47aa-a5a7-9c8103435a01` · printing: ELD #49 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hypnotic Swirly Disc
 
@@ -678,7 +720,9 @@
 - **Flavor text** (THB printing):
   > *The scouts of Hyrax Tower keep watch at the edge of Setessan territory, protecting the polis from inhuman monsters and enemy armies.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9568 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/173/hyrax-tower-scout) · oracle_id `c1261a72-ccbd-4be9-bc3b-c1bcb807eb85` · printing: THB #173 (2020-01-24) · [rulings](https://api.scryfall.com/cards/bb7f2638-d757-4df6-90b0-b616534dd3a0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-01-24* — Hyrax Tower Scout’s ability can target an untapped creature, including Hyrax Tower Scout itself, if there are no tapped creatures you wish to untap.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/173/hyrax-tower-scout) · oracle_id `c1261a72-ccbd-4be9-bc3b-c1bcb807eb85` · printing: THB #173 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hysterical Blindness
 

@@ -25,7 +25,11 @@
   > • Breathe Flame — Klauth's Will deals X damage to each creature without flying.
   > • Smash Relics — Destroy up to X target artifacts and/or enchantments.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6437 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afc/51/klauths-will) · oracle_id `639926c1-c4b4-4a49-b125-0e1b584c5bb8` · printing: AFC #51 (2021-07-23) · [rulings](https://api.scryfall.com/cards/761e1f77-5231-4008-829f-99650b429fb3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-07-23* — Once you've announced that you're casting Klauth's Will, players can't take any actions until you've finished doing so. Notably, opponents can't try to remove your commander to change how many modes you may choose.
+  - *2021-07-23* — The commander you control doesn't have to be your commander.
+  - *2021-07-23* — Whether or not you control a commander is determined only once, as you choose the modes for this spell. If you somehow lose control of that commander before you finish casting the spell (perhaps because you sacrifice it to activate a mana ability), it won't change the number of modes chosen.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afc/51/klauths-will) · oracle_id `639926c1-c4b4-4a49-b125-0e1b584c5bb8` · printing: AFC #51 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Klauth, Unrivaled Ancient
 
@@ -37,7 +41,9 @@
   > Whenever Klauth attacks, add X mana in any combination of colors, where X is the total power of attacking creatures. Spend this mana only to cast spells. Until end of turn, you don't lose this mana as steps and phases end.
 - **Keywords:** Flying, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2177 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/afc/50/klauth-unrivaled-ancient) · oracle_id `8cefa5d6-5151-4e75-8b72-f210a4c751ea` · printing: AFC #50 (2021-07-23) · [rulings](https://api.scryfall.com/cards/7f5cf828-17b2-4105-9a9a-ee0ab720c2ee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-07-23* — Despite that fact that it can produce mana as it resolves, Klauth's triggered ability is not a mana ability because its trigger condition wasn't the activation or resolution of an activated mana ability. This means that it uses the stack and can be responded to. Notably, players can respond by destroying attacking creatures to reduce the amount of mana produced.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afc/50/klauth-unrivaled-ancient) · oracle_id `8cefa5d6-5151-4e75-8b72-f210a4c751ea` · printing: AFC #50 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Klaw, Master of Sound
 
@@ -89,7 +95,26 @@
   > At the beginning of your first main phase, exile target card from a graveyard. If it was a land card, add {R} or {G}. Otherwise, you gain 2 life and Klothys deals 2 damage to each opponent.
 - **Keywords:** Indestructible
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5200 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/220/klothys-god-of-destiny) · oracle_id `e8473969-195f-41ee-a84d-463cc8c0ef02` · printing: THB #220 (2020-01-24) · [rulings](https://api.scryfall.com/cards/5b3c393c-3596-4bd9-a553-e0b03c2eb950/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (18):
+  - *2020-01-24* — As a God enters the battlefield, your devotion to its color will determine whether any replacement effects that affect creatures entering the battlefield apply to that God. Because replacement effects are considered before the God is on the battlefield, the mana symbols in its mana cost won’t be counted when determining this.
+  - *2020-01-24* — Colorless and generic mana symbols ({C}, {0}, {1}, {2}, {X}, and so on) in mana costs of permanents you control don’t count toward your devotion to any color.
+  - *2020-01-24* — Counters put on a God remain on it while it’s not a creature, even if they have no effect.
+  - *2020-01-24* — Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s).
+  - *2020-01-24* — If a God is attacking or blocking and it stops being a creature, it will be removed from combat. It won’t rejoin combat if it resumes being a creature later during that combat.
+  - *2020-01-24* — If a God stops being a creature, it loses the type creature and the creature type God. It continues to be a legendary enchantment.
+  - *2020-01-24* — If an activated ability or triggered ability has an effect that depends on your devotion to a color, you count the number of mana symbols of that color among the mana costs of permanents you control as the ability resolves. The permanent with that ability will be counted if it’s still on the battlefield at that time.
+  - *2020-01-24* — If an effect causes a God to lose all abilities, its ability that causes it to stop being a creature still applies if appropriate.
+  - *2020-01-24* — If the target card in a graveyard is an illegal target by the time Klothys’s last ability tries to resolve, the ability won’t resolve. You won’t add mana, gain life, or deal damage.
+  - *2020-01-24* — If you exile a land card that has another card type (such as an artifact land), you add one mana, but you won’t gain life or deal damage.
+  - *2020-01-24* — If you exile a nonland card, you gain only 2 life, no matter how many opponents are dealt damage.
+  - *2020-01-24* — If you put an Aura on an opponent’s permanent, you still control the Aura, and mana symbols in its mana cost count towards your devotion.
+  - *2020-01-24* — In a Two-Headed Giant game, Klothys’s last ability causes the opposing team to lose 4 life and you gain 2 life.
+  - *2020-01-24* — Mana symbols in the text boxes of permanents you control don’t count toward your devotion to any color.
+  - *2020-01-24* — The abilities of Gods function as long as they’re on the battlefield, regardless of whether they’re creatures.
+  - *2020-01-24* — The type-changing ability that can make a God not be a creature functions only on the battlefield. It’s always a creature card in other zones, regardless of your devotion to its color. It’s always a creature spell while it’s on the stack.
+  - *2020-01-24* — When a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not for abilities that trigger whenever a creature enters the battlefield.
+  - *2020-01-24* — Your devotion to two colors is the number of mana symbols among mana costs of permanents you control that are the first color, the second, or both. If an effect counts your devotion to two colors, a hybrid symbol that is both of those colors is counted just once.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/220/klothys-god-of-destiny) · oracle_id `e8473969-195f-41ee-a84d-463cc8c0ef02` · printing: THB #220 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Klothys's Design
 

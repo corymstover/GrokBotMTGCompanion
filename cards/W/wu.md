@@ -75,7 +75,10 @@
   > If a creature you control attacking causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.
 - **Keywords:** Melee
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4796 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/afc/56/wulfgar-of-icewind-dale) · oracle_id `b19d1459-eb08-4e75-95f4-402d86371a78` · printing: AFC #56 (2021-07-23) · [rulings](https://api.scryfall.com/cards/80665af6-fd66-4684-94ec-1f04eb898c2a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-07-23* — Wulfgar of Icewind Dale's last ability affects only triggered abilities with conditions that are directly related to attacking, such as “whenever this creature attacks” or “whenever you attack with one or more creatures.” It does not affect triggered abilities with other trigger conditions, such as “whenever this creature becomes tapped.”
+  - *2021-07-23* — Wulfgar's last ability will cause its melee ability to trigger an additional time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afc/56/wulfgar-of-icewind-dale) · oracle_id `b19d1459-eb08-4e75-95f4-402d86371a78` · printing: AFC #56 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wu Light Cavalry
 
@@ -148,7 +151,10 @@
   > When this creature dies, create a 3/3 colorless Phyrexian Wurm artifact creature token with deathtouch and a 3/3 colorless Phyrexian Wurm artifact creature token with lifelink.
 - **Keywords:** Lifelink, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1075 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/308/wurmcoil-engine) · oracle_id `d1a60f44-7696-49ee-91fb-cab5b3102962` · printing: 2XM #308 (2020-08-07) · [rulings](https://api.scryfall.com/cards/5d275f04-cc60-4e3f-95cc-3d02bc916b82/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2011-01-01* — It must be clear to all players which token has deathtouch and which token has lifelink.
+  - *2011-01-01* — The two creature tokens enter at the same time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/308/wurmcoil-engine) · oracle_id `d1a60f44-7696-49ee-91fb-cab5b3102962` · printing: 2XM #308 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wurmcoil Larva
 

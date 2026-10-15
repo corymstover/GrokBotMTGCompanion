@@ -156,7 +156,19 @@
   > Flashback {7}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3492 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/797/ignite-the-future) · oracle_id `915aa871-4c5e-4799-9a07-d7b855df4e7a` · printing: CLB #797 (2022-06-10) · [rulings](https://api.scryfall.com/cards/58e82d3c-a7ec-4e0d-a17e-51ebd2f3f331/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2019-08-23* — If a spell has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2019-08-23* — If you cast Ignite the Future from a zone other than a graveyard, you must pay the mana cost or an alternative cost for each spell cast this way. If you cast Ignite the Future from a graveyard, you may choose to cast each spell for its mana cost, an alternative cost, or without paying its mana cost.
+  - *2019-08-23* — If you cast a card “without paying its mana cost,” you can't choose to cast it for any alternative costs and not pay that cost. You can, however, pay additional costs. If the card has any mandatory additional costs, such as that of Momentous Fall, you must pay those to cast the card.
+  - *2019-08-23* — If you don't play some or all of the exiled cards, those cards remain in exile.
+  - *2019-08-23* — Ignite the Future doesn't change when you can play the exiled cards. For example, if you exile a sorcery card, you can cast it only during your main phase when the stack is empty. If you exile a land card, you can play it only during your main phase and only if you have an available land play remaining.
+  - *2021-03-19* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2021-03-19* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2021-03-19* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+  - *2021-03-19* — “Flashback [cost]” means “You may cast this card from your graveyard by paying [cost] rather than paying its mana cost” and “If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack.”
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/797/ignite-the-future) · oracle_id `915aa871-4c5e-4799-9a07-d7b855df4e7a` · printing: CLB #797 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ignition Team
 

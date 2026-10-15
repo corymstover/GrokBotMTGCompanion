@@ -117,7 +117,11 @@
   > *He'd ignite the World Tree itself if he could.*
 - **Keywords:** Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9504 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/125/calamity-bearer) · oracle_id `b3f7c4ac-b788-4307-9bc3-d99ce310e07c` · printing: KHM #125 (2021-02-05) · [rulings](https://api.scryfall.com/cards/a15edad1-ff68-4f20-95f6-99fe549bea98/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-02-05* — If another effect (or effects) modifies how much damage your Giant source would deal—by preventing some of it, for example—the player being dealt damage or the controller of the permanent being dealt damage chooses the order in which any such effects (including Calamity Bearer’s) apply. If all of the damage is prevented, Calamity Bearer’s effect no longer applies.
+  - *2021-02-05* — If damage dealt by a Giant source you control is being divided or assigned among multiple permanents and/or players, that damage is divided or assigned before doubling. For example, if you attack with a 5/5 Giant with trample and it’s blocked by a 2/2 creature, you can assign 2 damage to the blocker and 3 damage to the defending player. Those amounts are then doubled to 4 and 6, respectively.
+  - *2021-02-05* — The damage is dealt by the same source as the original source of damage. The doubled damage isn’t dealt by Calamity Bearer unless it was the original source of damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/125/calamity-bearer) · oracle_id `b3f7c4ac-b788-4307-9bc3-d99ce310e07c` · printing: KHM #125 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Calamity, Galloping Inferno
 
@@ -130,7 +134,22 @@
   > Saddle 1
 - **Keywords:** Saddle, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6515 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/116/calamity-galloping-inferno) · oracle_id `eb37496e-374f-41b9-bd52-f52f37bdac31` · printing: OTJ #116 (2024-04-19) · [rulings](https://api.scryfall.com/cards/e7a70f5a-2056-4c26-b6ea-9f751b5d0d8c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (14):
+  - *2024-04-12* — "Saddle N" means "Tap any number of other untapped creatures you control with total power N or greater: This permanent becomes saddled until end of turn. Activate only as a sorcery."
+  - *2024-04-12* — "Saddled" isn't an ability that a creature has. It's just something true about that creature. It won't stop being saddled until the turn ends or it leaves the battlefield.
+  - *2024-04-12* — Although the tokens enter the battlefield attacking, they were never declared as attackers. Abilities that trigger whenever a creature attacks won't trigger. If there are any costs to have a creature attack, those costs won't apply to the tokens.
+  - *2024-04-12* — An ability that triggers when a creature "attacks while saddled" will trigger only if that creature was saddled when it was declared as an attacker.
+  - *2024-04-12* — Any enters-the-battlefield abilities of the copied creature will trigger when the token enters the battlefield. Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the copied creature will also work.
+  - *2024-04-12* — Creatures with saddle can attack or block as normal even if they aren't saddled.
+  - *2024-04-12* — Each of the tokens copies exactly what was printed on the original creature and nothing else (unless that creature is copying something else or is a token; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+  - *2024-04-12* — If a permanent becomes a copy of a saddled Mount, the copy won't be saddled.
+  - *2024-04-12* — If the copied creature has {X} in its mana cost, X is 0.
+  - *2024-04-12* — If the copied creature is a token, the token that's created copies the original characteristics of that token as stated by the effect that created that token.
+  - *2024-04-12* — If the copied creature is copying something else, then the token enters the battlefield as whatever that creature copied.
+  - *2024-04-12* — You choose which player, planeswalker, or battle each of the tokens is attacking as it enters the battlefield. They don't have to attack the same player, planeswalker, or battle that Calamity is attacking, nor do they have to attack the same player, planeswalker, or battle as each other.
+  - *2024-04-12* — You don't have to choose the same creature both times for Calamity's triggered ability.
+  - *2024-04-12* — You may activate a permanent's saddle ability even if that permanent is already saddled.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/116/calamity-galloping-inferno) · oracle_id `eb37496e-374f-41b9-bd52-f52f37bdac31` · printing: OTJ #116 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Calamity of Cinders
 
@@ -141,7 +160,14 @@
   > Calamity of Cinders deals 6 damage to each untapped creature.
 - **Keywords:** Convoke
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6887 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blc/23/calamity-of-cinders) · oracle_id `fbcf0c1c-29a7-4e83-8b06-869f83be49cd` · printing: BLC #23 (2024-08-02) · [rulings](https://api.scryfall.com/cards/97c72d4b-a5d4-4f68-bbcd-b7ed0326fc1c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-07-26* — Because convoke isn't an alternative cost, it can be used in conjunction with alternative costs.
+  - *2024-07-26* — If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.
+  - *2024-07-26* — If tapping a creature using convoke wouldn't pay for any mana in that spell's cost (because you've already paid for all of the mana in the spell's cost by tapping other creatures or because you've already paid for all of the generic mana in the cost by tapping other creatures and the creature you want to tap doesn't share a color with any of the remaining mana symbols in the spell's cost), you can't use convoke to tap that creature. Effects that increase or reduce the cost of a spell with convoke apply before costs are paid and will increase or decrease the total amount of creatures you can tap.
+  - *2024-07-26* — Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature's colors.
+  - *2024-07-26* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
+  - *2024-07-26* — You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blc/23/calamity-of-cinders) · oracle_id `fbcf0c1c-29a7-4e83-8b06-869f83be49cd` · printing: BLC #23 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Calamity of the Titans
 
@@ -153,7 +179,10 @@
 - **Flavor text** (CMM printing):
   > *To the Zendikari, an apocalypse. To the Eldrazi, a day like any other.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4590 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/713/calamity-of-the-titans) · oracle_id `4bb3edc5-2616-4d0d-b9dc-32ed79f38f67` · printing: CMM #713 (2023-08-04) · [rulings](https://api.scryfall.com/cards/839a3a89-a87e-4108-87c5-74f656a6249f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-07-28* — The colorless creature card stays revealed until Calamity of the Titans leaves the stack.
+  - *2023-07-28* — The colorless creature card you reveal doesn't have to still be in your hand as Calamity of the Titans resolves. If it's not, use its mana value as it last existed in your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/713/calamity-of-the-titans) · oracle_id `4bb3edc5-2616-4d0d-b9dc-32ed79f38f67` · printing: CMM #713 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Calamity's Wake
 
@@ -298,7 +327,9 @@
   > *It's the reason monks gave up on mapping Qadat.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4386 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/33/caldera-pyremaw) · oracle_id `3eb5ae68-7f76-4874-80a4-80058b10fc7a` · printing: TDC #33 (2025-04-11) · [rulings](https://api.scryfall.com/cards/f5fab7a4-3612-4b79-b2f5-8a1e52ebe409/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-04-04* — If Caldera Pyremaw leaves the battlefield in response to its ability, use its power the last time it existed on the battlefield to determine how much damage it deals as its ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/33/caldera-pyremaw) · oracle_id `3eb5ae68-7f76-4874-80a4-80058b10fc7a` · printing: TDC #33 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Calibrated Blast
 
@@ -335,7 +366,13 @@
   > −3: Exile target creature or enchantment you don't control until target enchantment you control leaves the battlefield.
   > −7: Return all enchantment cards from your graveyard to the battlefield.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5094 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/918/calix-destinys-hand) · oracle_id `d9f01177-2237-475e-ad91-114bfae077ce` · printing: CMM #918 (2023-08-04) · [rulings](https://api.scryfall.com/cards/53ec142a-81c0-43e3-bf37-bdc18d7b780e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2020-01-24* — Auras attached to the exiled permanent will be put into their owners’ graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist. When the card returns to the battlefield, it will be a new object with no connection to the card that was exiled.
+  - *2020-01-24* — If a token is exiled this way, it will cease to exist and won’t return to the battlefield.
+  - *2020-01-24* — If an Aura is being put onto the battlefield at the same time as an enchantment creature, that Aura can’t enchant that creature.
+  - *2020-01-24* — If an Aura is put onto the battlefield without being cast, the Aura’s controller-to-be chooses what it will enchant as it comes back onto the battlefield. An Aura put onto the battlefield this way doesn’t target anything (so it could be attached to an opponent’s permanent with hexproof, for example), but the Aura’s enchant ability restricts what it can be attached to. If the Aura can’t legally be attached to anything, it remains in its current zone.
+  - *2020-01-24* — If the target enchantment you control leaves the battlefield or otherwise becomes an illegal target before Calix’s second ability resolves, the target permanent you don’t control won’t be exiled.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/918/calix-destinys-hand) · oracle_id `d9f01177-2237-475e-ad91-114bfae077ce` · printing: CMM #918 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Calix, Guided by Fate
 
@@ -347,7 +384,16 @@
   > Whenever Calix or an enchanted creature you control deals combat damage to a player, you may create a token that's a copy of a nonlegendary enchantment you control. Do this only once each turn.
 - **Keywords:** Constellation
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3687 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mat/26/calix-guided-by-fate) · oracle_id `1bcc8ca6-5fd0-4fc9-8f0c-f81d8abf9249` · printing: MAT #26 (2023-05-12) · [rulings](https://api.scryfall.com/cards/0a707ab3-b9b5-422a-8b0f-e963d3ad6606/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2023-05-12* — Any enters-the-battlefield abilities of the copied permanent will trigger when the token enters the battlefield. Any "as [this permanent] enters the battlefield" or "[this permanent] enters the battlefield with" abilities of the copied permanent will also work.
+  - *2023-05-12* — Calix may be the target of its own constellation ability. This includes when Calix itself enters the battlefield.
+  - *2023-05-12* — Calix's last ability doesn't target any permanent. You choose which nonlegendary enchantment you control you're creating a token copy of, if any, as the ability resolves. No player may take any actions between your choice and the creation of the token.
+  - *2023-05-12* — If the copied permanent has {X} in its mana cost, X is 0.
+  - *2023-05-12* — If the copied permanent is a token, the token that's created copies the original characteristics of that token as stated by the effect that created that token.
+  - *2023-05-12* — If the copied permanent is copying something else, then the token enters the battlefield as whatever that permanent copied.
+  - *2023-05-12* — Once you choose to create a token using the last ability, that ability won't trigger again that turn. Additional instances of the ability that are already on the stack will resolve but will have no effect.
+  - *2023-05-12* — The token copies exactly what was printed on the original permanent and nothing else (unless that permanent is copying something else or is a token; see below). It doesn't copy whether that permanent is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mat/26/calix-guided-by-fate) · oracle_id `1bcc8ca6-5fd0-4fc9-8f0c-f81d8abf9249` · printing: MAT #26 (2023-05-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Callaphe, Beloved of the Sea
 
@@ -358,7 +404,17 @@
   > Callaphe's power is equal to your devotion to blue. (Each {U} in the mana costs of permanents you control counts toward your devotion to blue.)
   > Creatures and enchantments you control have "Spells your opponents cast that target this permanent cost {1} more to cast."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7736 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/45/callaphe-beloved-of-the-sea) · oracle_id `faf081dc-1fb2-47ac-a9c7-8001b4904120` · printing: THB #45 (2020-01-24) · [rulings](https://api.scryfall.com/cards/c5d433f2-0a3b-4f45-83a3-ed600a6d10b1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2020-01-24* — An opponent’s spell that targets a single creature or enchantment you control more than once costs only {1} more to cast. An opponent’s spell that targets multiple creatures and/or enchantments you control costs {1} more for each of them.
+  - *2020-01-24* — Callaphe’s last ability applies to itself as well as other creatures and enchantments you control.
+  - *2020-01-24* — Callaphe’s last ability gives only one instance of the ability to creatures you control that are also enchantments.
+  - *2020-01-24* — Colorless and generic mana symbols ({C}, {0}, {1}, {2}, {X}, and so on) in mana costs of permanents you control don’t count toward your devotion to any color.
+  - *2020-01-24* — Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s).
+  - *2020-01-24* — If an activated ability or triggered ability has an effect that depends on your devotion to a color, you count the number of mana symbols of that color among the mana costs of permanents you control as the ability resolves. The permanent with that ability will be counted if it’s still on the battlefield at that time.
+  - *2020-01-24* — If you put an Aura on an opponent’s permanent, you still control the Aura, and mana symbols in its mana cost count towards your devotion.
+  - *2020-01-24* — Mana symbols in the text boxes of permanents you control don’t count toward your devotion to any color.
+  - *2020-01-24* — The ability that defines Callaphe’s power works in all zones, not just the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/45/callaphe-beloved-of-the-sea) · oracle_id `faf081dc-1fb2-47ac-a9c7-8001b4904120` · printing: THB #45 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Call a Surprise Witness
 
@@ -454,7 +510,10 @@
   > *"We must hasten. The beacons of Gondor are alight. War is kindled."*
   > *—Gandalf*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7438 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/30/call-for-aid) · oracle_id `6d650eef-1156-4e3b-8fa8-90a6ee04d9a8` · printing: LTC #30 (2023-06-23) · [rulings](https://api.scryfall.com/cards/7072b75a-64ab-4894-943e-fc0b779ca60e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-06-16* — If an effect instructs you to sacrifice a creature, and you control any creatures other than the ones you gained control of with Call for Aid this turn, you must sacrifice one of them. You can't try to sacrifice one of the creatures you gained control of, fail, and therefore ignore the effect.
+  - *2023-06-16* — You can't sacrifice the creatures you gained control of with Call for Aid this turn for any reason. If an effect instructs you to sacrifice one of them, you can't and it remains on the battlefield. You also can't sacrifice any of them to pay a cost that requires you to sacrifice a creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/30/call-for-aid) · oracle_id `6d650eef-1156-4e3b-8fa8-90a6ee04d9a8` · printing: LTC #30 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Call for Blood
 
@@ -475,7 +534,19 @@
   > Call Forth the Tempest deals damage to each creature your opponents control equal to the total mana value of other spells you've cast this turn.
 - **Keywords:** Cascade
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1799 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/509/call-forth-the-tempest) · oracle_id `0623c51a-e829-413f-a3a0-817c0902821e` · printing: LTC #509 (2023-11-03) · [rulings](https://api.scryfall.com/cards/81d6b979-251a-4736-86f0-35a6c8b492c9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2023-11-03* — A spell's mana value is determined only by its mana cost. Ignore any alternative costs, additional costs, cost increases, or cost reductions.
+  - *2023-11-03* — Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade.
+  - *2023-11-03* — Count the mana values of all other spells you've cast this turn before Call Forth the Tempest resolved, including any spells that you've cast due to Call Forth the Tempest's cascade abilities. It doesn't matter whether those spells resolved; you only need to have cast them. Conversely, if you copy a spell without casting it, you won't include that copy's mana value in the amount of damage Call Forth the Tempest deals.
+  - *2023-11-03* — Due to a 2021 rules change to cascade, not only do you stop exiling cards if you exile a nonland card with lesser mana value than the spell with cascade, but the resulting spell you cast must also have lesser mana value. Previously, in cases where a card's mana value differed from the resulting spell, such as with some modal double-faced cards or cards with an Adventure, you could cast a spell with a higher mana value than the exiled card.
+  - *2023-11-03* — Each instance of cascade triggers and resolves separately. The spell you cast due to the first cascade ability will go on the stack on top of the second cascade ability. That spell will resolve before you exile cards for the second cascade ability.
+  - *2023-11-03* — If a spell with cascade is countered, the cascade ability will still resolve normally.
+  - *2023-11-03* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2023-11-03* — If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those to cast the card.
+  - *2023-11-03* — No matter what spell you cast with the first cascade ability (or with any cascade abilities that result from casting that spell), the second cascade ability will look for a card with mana value less than Call Forth the Tempest's mana value of 8.
+  - *2023-11-03* — When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled.
+  - *2023-11-03* — You exile the cards face up. All players will be able to see them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/509/call-forth-the-tempest) · oracle_id `0623c51a-e829-413f-a3a0-817c0902821e` · printing: LTC #509 (2023-11-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Call for Unity
 
@@ -488,7 +559,13 @@
   > *The "leaking spire" stands for liberation from Consulate control.*
 - **Keywords:** Revolt
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8302 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/aer/9/call-for-unity) · oracle_id `288d5415-ef44-400f-ab88-7c8a4deaaf4b` · printing: AER #9 (2017-01-20) · [rulings](https://api.scryfall.com/cards/eeca4557-98aa-433b-a3ee-050e4a3e6d88/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2017-02-09* — All cards in the Aether Revolt set with triggered revolt abilities use an intervening "if" clause. A permanent you controlled must have left the battlefield earlier in the turn in order for these abilities to trigger; otherwise they do nothing. In other words, there's no way to have the ability trigger if no permanent you controlled has left the battlefield that turn, even if you intend to have one do so in response to the triggered ability.
+  - *2017-02-09* — Energy counters aren't permanents. Paying {E} won't satisfy a revolt ability.
+  - *2017-02-09* — Revolt abilities check only whether a permanent you controlled left the battlefield this turn or not. They don't apply multiple times if more than one permanent you controlled left the battlefield. They don't check whether the permanent that left the battlefield is still in the zone it moved to.
+  - *2017-02-09* — Revolt abilities don't care why the permanent left the battlefield, who caused it to move, or where it moved to. They're equally satisfied by an artifact you sacrificed to pay a cost, a creature you controlled that was destroyed by Murder, or an enchantment you returned to your hand with Leave in the Dust.
+  - *2017-02-09* — Tokens that leave the battlefield will satisfy a revolt ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/aer/9/call-for-unity) · oracle_id `288d5415-ef44-400f-ab88-7c8a4deaaf4b` · printing: AER #9 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Call from the Grave
 
@@ -509,7 +586,15 @@
   > Polymorphine — You may have this creature enter tapped as a copy of any creature on the battlefield, except it has "When this creature enters, destroy up to one other target creature with the same name as this creature."
 - **Keywords:** Polymorphine, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6062 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/40k/109/callidus-assassin) · oracle_id `4240dab9-ace7-490d-97c3-489a9fd52038` · printing: 40K #109 (2022-10-07) · [rulings](https://api.scryfall.com/cards/18a5e38a-6c8c-427f-9143-59212e711f1c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2022-10-07* — Any enters-the-battlefield abilities of the copied creature will trigger when Callidus Assassin enters the battlefield. You get to choose the order of those abilities and the triggered ability it has due to its copy effect. Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the chosen creature will also work.
+  - *2022-10-07* — Callidus Assassin copies exactly what was printed on the original creature (unless that creature is copying something else or is a token; see below) and it has the triggered ability. It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or any Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
+  - *2022-10-07* — If Callidus Assassin somehow enters the battlefield at the same time as another creature, Callidus Assassin can't become a copy of that creature. You may choose only a creature that's already on the battlefield.
+  - *2022-10-07* — If the chosen creature is a token, Callidus Assassin copies the original characteristics of that token as stated by the effect that created the token. Callidus Assassin is not a token in this case.
+  - *2022-10-07* — If the chosen creature is copying something else (for example, if the chosen creature is another Callidus Assassin), then your Callidus Assassin enters the battlefield as whatever the chosen creature copied.
+  - *2022-10-07* — The triggered ability that Callidus Assassin has is part of its copy effect and is a copiable value that other effects may copy.
+  - *2022-10-07* — You can choose not to copy anything. In that case, Callidus Assassin enters the battlefield as a 3/3 creature. Notably, it does not have "When this creature enters the battlefield, destroy up to one other target creature with the same name as this creature."
+- **Source flags:** [Scryfall](https://scryfall.com/card/40k/109/callidus-assassin) · oracle_id `4240dab9-ace7-490d-97c3-489a9fd52038` · printing: 40K #109 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Call In a Professional
 
@@ -542,7 +627,12 @@
 - **Flavor text** (IKO printing):
   > *The living fear Nethroi's whispers. The dead heed them.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9195 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/iko/78/call-of-the-death-dweller) · oracle_id `97773064-6534-4761-8c73-3ffd713f4569` · printing: IKO #78 (2020-04-24) · [rulings](https://api.scryfall.com/cards/37e34017-0aeb-4a93-9edf-596bf3597a0e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-04-17* — If a card in a player’s graveyard has {X} in its mana cost, X is considered to be 0.
+  - *2020-04-17* — If you return no creature cards to the battlefield, you won’t put any counters on any creatures.
+  - *2020-04-17* — If you return two creature cards, you may put one counter on each or put both counters on one.
+  - *2020-04-17* — You could target a single creature card with Call of the Death-Dweller. In this case, you’ll put both counters on that creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/iko/78/call-of-the-death-dweller) · oracle_id `97773064-6534-4761-8c73-3ffd713f4569` · printing: IKO #78 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Call of the Full Moon
 
@@ -588,7 +678,17 @@
 - **Flavor text** (LTR printing):
   > *"The Ring is mine!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1419 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/79/call-of-the-ring) · oracle_id `9fcb920c-b8d7-4a79-a335-f63050182cca` · printing: LTR #79 (2023-06-23) · [rulings](https://api.scryfall.com/cards/a92a2c5a-e450-494a-b23b-7ac0a6c50535/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2023-06-16* — As the Ring tempts you, you get an emblem named The Ring if you don't have one. Then your emblem gains its next ability and you choose a creature you control to become (or remain) your Ring-bearer.
+  - *2023-06-16* — Call of the Ring's last ability will trigger any time you choose a creature as your Ring-bearer, even if that creature was already your Ring-bearer.
+  - *2023-06-16* — Each player can have only one emblem named The Ring and only one Ring-bearer at a time.
+  - *2023-06-16* — Each time the Ring tempts you, you must choose a creature if you control one.
+  - *2023-06-16* — If the Ring tempts you but you can't choose a creature as your Ring-bearer (probably because you control no creatures), Call of the Ring's last ability won't trigger.
+  - *2023-06-16* — If the creature you choose as your Ring-bearer was already your Ring-bearer, that still counts as choosing that creature as your Ring-bearer for the purpose of abilities that trigger "whenever you choose a creature as your Ring-bearer" or abilities that care about which creature was chosen as your Ring-bearer.
+  - *2023-06-16* — Some spells and abilities that cause the Ring to tempt you may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Ring won't tempt you.
+  - *2023-06-16* — The Ring can tempt you even if you don't control a creature. In this case, abilities that trigger "whenever the Ring tempts you" will still trigger.
+  - *2023-06-16* — The Ring gains its abilities in order from top to bottom. Once it gains an ability, it has that ability for the rest of the game.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/79/call-of-the-ring) · oracle_id `9fcb920c-b8d7-4a79-a335-f63050182cca` · printing: LTR #79 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Call of the Wild
 
@@ -612,6 +712,7 @@
   > • You draw a card and you lose 1 life.
   > • Exile target player's graveyard.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8112 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/66/callous-bloodmage) · oracle_id `96c12c12-140a-462d-bff0-0554d192b1f4` · printing: STX #66 (2021-04-23) · [rulings](https://api.scryfall.com/cards/81358736-65cf-44d8-819e-d0268d14cc76/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Callous Deceiver
@@ -734,7 +835,13 @@
   > *When the alarm crystals flash, Drannith's finest answer the call.*
 - **Keywords:** Strive
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1648 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/195/call-the-coppercoats) · oracle_id `73d8c33d-916a-4220-96ae-9622aad36210` · printing: NCC #195 (2022-04-29) · [rulings](https://api.scryfall.com/cards/e203daaf-bd68-4251-9106-00299b3ad662/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2020-04-17* — Any target opponents that are no longer legal targets by the time Call the Coppercoats resolves won't have their creatures counted when determining how many tokens you create.
+  - *2020-04-17* — If a spell or ability allows you to cast a strive spell without paying its mana cost, you must pay the additional cost for any targets beyond the first.
+  - *2020-04-17* — If this spell is copied and the effect that copies the spell allows a player to choose new targets for the copy, the number of targets can't be changed. The player may change any number of the targets, including all of them or none of them. If, for one of the targets, the player can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
+  - *2020-04-17* — The mana value of a strive spell doesn't change no matter how many targets it has.
+  - *2020-04-17* — You choose how many targets each spell with a strive ability has and what those targets are as you cast it. It's legal to cast such a spell with no targets, although this is rarely a good idea. You can't choose the same target more than once for a single strive spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/195/call-the-coppercoats) · oracle_id `73d8c33d-916a-4220-96ae-9622aad36210` · printing: NCC #195 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Call the Gatewatch
 
@@ -795,7 +902,11 @@
 - **Flavor text** (TDM printing):
   > *The essence of Tarkir was shaped into draconic embodiments of the re-formed clans.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4549 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/174/call-the-spirit-dragons) · oracle_id `3ceb23f5-abb1-4569-a1e4-1eed9a9babcf` · printing: TDM #174 (2025-04-11) · [rulings](https://api.scryfall.com/cards/b1ad91db-5f16-4392-baf1-f8400ec11e0a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-04-04* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to a Dragon you control may become lethal if Call the Spirit Dragons leaves the battlefield during that turn.
+  - *2025-04-04* — If you control a Dragon that is more than one color, you may put more than one +1/+1 counter on it with the last ability of Call the Spirit Dragons.
+  - *2025-04-04* — The last ability will only cause you to win the game if you put a +1/+1 counter on each of five different Dragons with it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/174/call-the-spirit-dragons) · oracle_id `3ceb23f5-abb1-4569-a1e4-1eed9a9babcf` · printing: TDM #174 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Call to Arms
 
@@ -897,7 +1008,17 @@
   > Madness {0} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
 - **Keywords:** Madness
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6820 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c19/108/call-to-the-netherworld) · oracle_id `a28ef7a5-4b47-4429-838b-a64a7c0701d0` · printing: C19 #108 (2019-08-23) · [rulings](https://api.scryfall.com/cards/caccee1e-971d-4b92-9f9a-624865c508d9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2022-12-08* — A card with madness that's discarded counts as having been discarded even though it's put into exile rather than a graveyard. If it was discarded to pay a cost, that cost is still paid. Abilities that trigger when a card is discarded will still trigger.
+  - *2022-12-08* — A spell cast for its madness cost is put onto the stack like any other spell. It can be countered, copied, and so on. As it resolves, it's put onto the battlefield if it's a permanent card or into its owner's graveyard if it's an instant or sorcery card.
+  - *2022-12-08* — Cards are discarded in a Magic game only from a player's hand. Effects that put cards into a player's graveyard from anywhere else do not cause those cards to be discarded.
+  - *2022-12-08* — Casting a spell with madness ignores the timing rules based on the card's card type. For example, you can cast a sorcery with madness if you discard it during an opponent's turn.
+  - *2022-12-08* — If you choose not to cast a card with madness when the madness triggered ability resolves, it's put into your graveyard. Madness doesn't give you another chance to cast it later.
+  - *2022-12-08* — If you discard a card with madness to pay the cost of a spell or activated ability, that card's madness triggered ability (and the spell that card becomes, if you choose to cast it) will resolve before the spell or ability the discard paid for.
+  - *2022-12-08* — If you discard a card with madness while a spell or ability is resolving, it moves immediately to exile. Continue resolving that spell or ability, noting that the card you discarded is not in your graveyard at this time. Its madness triggered ability will be placed onto the stack once that spell or ability has completely resolved.
+  - *2022-12-08* — Madness works independently of why you're discarding the card. You could discard it to pay a cost, because a spell or ability tells you to, or because you have too many cards in your hand during your cleanup step. You can't discard a card with madness just because you want to, though.
+  - *2022-12-08* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a madness cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c19/108/call-to-the-netherworld) · oracle_id `a28ef7a5-4b47-4429-838b-a64a7c0701d0` · printing: C19 #108 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Call to the Void
 
@@ -952,4 +1073,5 @@
 - **Flavor text** (7ED printing):
   > *The Eastern Paladin knew how highly his southern rival valued horses, so he gleefully prepared a suitable welcome.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5346 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/7ed/288/caltrops) · oracle_id `b13f97b3-56ae-4131-a93b-b162c8ff7cca` · printing: 7ED #288 (2001-04-11) · [rulings](https://api.scryfall.com/cards/8769b55a-a0a1-4b6f-8c80-669385a34425/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

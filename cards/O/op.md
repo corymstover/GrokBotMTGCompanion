@@ -264,6 +264,7 @@
 - **Flavor text** (ZNC printing):
   > *The one thing the Gatewatch didn't expect to find on a plane ruled by Nicol Bolas was perfection.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7731 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/znc/34/open-into-wonder) · oracle_id `d9688f6e-7163-408b-b32b-b9645aed1f8c` · printing: ZNC #34 (2020-09-25) · [rulings](https://api.scryfall.com/cards/a921ff16-2cd1-4080-80a9-dd73c4eda5c7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Open the Armory
@@ -288,6 +289,7 @@
   > *"If you don't have a destination in mind, the route is all that matters."*
   > *—Tamina, district guide*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4888 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/151/open-the-gates) · oracle_id `f38e43b6-9a8c-4f6a-bd1c-d5c4913a28a1` · printing: RVR #151 (2024-01-12) · [rulings](https://api.scryfall.com/cards/0daa4f17-149a-4304-a488-8874ebe045e9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Open the Graves
@@ -299,7 +301,9 @@
 - **Flavor text** (MIC printing):
   > *It was a night like any other. It would soon become a night no one would ever forget.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3789 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mic/126/open-the-graves) · oracle_id `28778958-a1f9-4fea-b551-c193d1257f18` · printing: MIC #126 (2021-09-24) · [rulings](https://api.scryfall.com/cards/130978d1-0b20-4dfa-85f5-3ff2bc2cfda3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-07-13* — If another creature you control dies at the same time that Open the Graves leaves the battlefield, you'll get a Zombie token.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mic/126/open-the-graves) · oracle_id `28778958-a1f9-4fea-b551-c193d1257f18` · printing: MIC #126 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Open the Omenpaths
 
@@ -321,7 +325,12 @@
 - **Flavor text** (2XM printing):
   > *When the vaults are empty, everyone is rich.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4070 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/24/open-the-vaults) · oracle_id `1e9c473e-bd65-4e1f-b2ab-cac58dc581c9` · printing: 2XM #24 (2020-08-07) · [rulings](https://api.scryfall.com/cards/e5c5a822-0f5e-4b5f-b969-b27324e4543f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-08-07* — An Aura put onto the battlefield this way can't enchant an artifact or enchantment that's also being put onto the battlefield with Open the Vaults.
+  - *2020-08-07* — If an Aura can be returned to the battlefield with Open the Vaults, it must be, even if its owner doesn't like what it would enchant.
+  - *2020-08-07* — If an Aura is put onto the battlefield without being cast, the Aura's controller-to-be chooses what it will enchant as it enters the battlefield. An Aura put onto the battlefield this way doesn't target anything (so it could be attached to an opponent's permanent with hexproof, for example), but the Aura's enchant ability restricts what it can be attached to. If the Aura can't legally be attached to anything, it remains in its current zone.
+  - *2020-08-07* — If multiple players have Auras in their graveyards, the player whose turn it is announces what their Auras will enchant, then each other player in turn order does the same, then all artifacts and enchantments (including both Auras and non-Auras) enter the battlefield at the same time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/24/open-the-vaults) · oracle_id `1e9c473e-bd65-4e1f-b2ab-cac58dc581c9` · printing: 2XM #24 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Open the Way
 
@@ -331,7 +340,9 @@
   > X can't be greater than the number of players in the game.
   > Reveal cards from the top of your library until you reveal X land cards. Put those land cards onto the battlefield tapped and the rest on the bottom of your library in a random order.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1694 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/280/open-the-way) · oracle_id `e07297c7-83bc-4162-bbb1-362bc737efe0` · printing: SOC #280 (2026-04-24) · [rulings](https://api.scryfall.com/cards/5d928e0d-a586-4de1-a469-0591122659fa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-05-12* — The number of players in the game is checked only as you choose the value for X. Once you've cast Open the Way, players leaving the game in response to the spell won't affect the number of land cards you'll find.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/280/open-the-way) · oracle_id `e07297c7-83bc-4162-bbb1-362bc737efe0` · printing: SOC #280 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Opera Love Song
 
@@ -344,7 +355,9 @@
 - **Flavor text** (FIN printing):
   > *"O my hero, my beloved, shall we still be made to part?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5226 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/147/opera-love-song) · oracle_id `22f259b3-9de1-44a1-a89d-f2f1b1249d4d` · printing: FIN #147 (2025-06-13) · [rulings](https://api.scryfall.com/cards/0343916d-1b65-4e95-aef1-e72dbcebf0c4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-06-06* — You pay all costs and follow all timing rules for cards played this way. For example, if one of the exiled cards is a land card, you may play it only during your main phase while the stack is empty and only if you have an available land play remaining.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/147/opera-love-song) · oracle_id `22f259b3-9de1-44a1-a89d-f2f1b1249d4d` · printing: FIN #147 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Operations Officer
 
@@ -379,7 +392,9 @@
   > Whenever enchanted creature deals damage to an opponent, you may draw a card.
 - **Keywords:** Enchant, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1612 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsp/70/ophidian-eye) · oracle_id `e83b8830-fa97-4e60-b042-005e552a3ceb` · printing: TSP #70 (2006-10-06) · [rulings](https://api.scryfall.com/cards/26836ff5-b3c3-4b10-af1e-df3658781cb2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-09-25* — The third ability triggers when the enchanted creature deals damage to an opponent of the player who controls Ophidian Eye.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsp/70/ophidian-eye) · oracle_id `e83b8830-fa97-4e60-b042-005e552a3ceb` · printing: TSP #70 (2006-10-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ophiomancer
 
@@ -419,7 +434,12 @@
   > When this creature enters, choose target Human or artifact an opponent controls. For as long as this creature remains on the battlefield, gain control of that permanent, it loses all abilities, and it can't attack or block.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8326 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/228/opportunistic-dragon) · oracle_id `46f46bdd-52b8-436f-9a39-f5360a84b2cd` · printing: TDC #228 (2025-04-11) · [rulings](https://api.scryfall.com/cards/eac89f5e-6331-4f4a-b0b4-bc9c57f8b892/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2019-10-04* — If Opportunistic Dragon leaves the battlefield before its triggered ability resolves, your opponent keeps control of their Human or artifact, it doesn't lose any abilities, and it can still attack or block as normal. You don't gain control of it at all.
+  - *2019-10-04* — If another player gains control of the permanent Opportunistic Dragon has kidnapped, that permanent doesn't regain its abilities and still can't attack or block.
+  - *2019-10-04* — If the stolen permanent normally has any abilities that would trigger when Opportunistic Dragon dies, those abilities won't trigger.
+  - *2019-10-04* — Opportunistic Dragon's effect doesn't expire if another player gains control of it or if it loses all abilities. The effect only expires once it's no longer on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/228/opportunistic-dragon) · oracle_id `46f46bdd-52b8-436f-9a39-f5360a84b2cd` · printing: TDC #228 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Opportunity
 
@@ -441,7 +461,10 @@
 - **Flavor text** (DMR printing):
   > *Exhausting a wizard can be exhausting work.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6212 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/62/opposition) · oracle_id `bf0b252d-1295-44e4-bac3-113b5732a2a9` · printing: DMR #62 (2023-01-13) · [rulings](https://api.scryfall.com/cards/ae14acde-8a5c-4f0e-8e68-b799a363b9f7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-12-08* — Once a player announces that they’re casting a spell or activating an ability, no player may take other actions until the spell or ability has been paid for. Notably, other players can’t try to tap that player’s permanents to stop them from paying {T} or to stop them from producing enough mana.
+  - *2022-12-08* — You can tap any untapped creature you control to activate Opposition’s ability, even one you haven’t controlled continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/62/opposition) · oracle_id `bf0b252d-1295-44e4-bac3-113b5732a2a9` · printing: DMR #62 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Opposition Agent
 
@@ -477,6 +500,7 @@
   > *"Defeating an enemy is not nearly as satisfying as watching one suffer."*
   > *—The Western Paladin*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3198 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/7ed/152/oppression) · oracle_id `f488f679-f5d5-4e61-b0c8-0b0eb622df0d` · printing: 7ED #152 (2001-04-11) · [rulings](https://api.scryfall.com/cards/ac327f80-983e-4e28-96e8-91ff5377f5a3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oppressive Rays
@@ -536,7 +560,10 @@
   > *"A void rod? Perfect! Now I'll be able to get the glitch reader working again."*
 - **Keywords:** Eerie
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9494 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/21/optimistic-scavenger) · oracle_id `0180c67b-c5c8-4a67-9562-d51f9e7ffff5` · printing: DSK #21 (2024-09-27) · [rulings](https://api.scryfall.com/cards/9c72fc6f-6a96-420d-812d-b5cf0f57cc7f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-09-20* — An ability that triggers "whenever you fully unlock a Room" triggers when a door becomes unlocked and the other door of that Room is already unlocked, or when both doors of that Room become unlocked simultaneously.
+  - *2024-09-20* — If a permanent with an eerie ability enters at the same time as one or more enchantments, its ability will trigger for each of those enchantments.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/21/optimistic-scavenger) · oracle_id `0180c67b-c5c8-4a67-9562-d51f9e7ffff5` · printing: DSK #21 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Optimus Prime, Hero // Optimus Prime, Autobot Leader
 
@@ -553,7 +580,24 @@
   > Whenever you attack, bolster 2. The chosen creature gains trample until end of turn. When that creature deals combat damage to a player this turn, convert Optimus Prime.
 - **Keywords:** Living metal, Trample, Convert, More Than Meets the Eye, Bolster
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9383 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/bot/13/optimus-prime-hero-optimus-prime-autobot-leader) · oracle_id `199c4a1a-2082-417c-a174-f479d7334d15` · printing: BOT #13 (2022-11-18) · [rulings](https://api.scryfall.com/cards/f04ed2cc-aae1-400b-9cc5-5d4e3e3dd714/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (16):
+  - *2022-10-14* — "Living metal" means "As long as it's your turn, this permanent is an artifact creature in addition to its other types."
+  - *2022-10-14* — "More Than Meets the Eye [cost]" means "You may cast this card converted by paying [cost] rather than its mana cost." It functions in any zone from which the spell can be cast.
+  - *2022-10-14* — A spell cast this way enters the battlefield with its back face up.
+  - *2022-10-14* — Any triggered ability of another card that triggers whenever a permanent transforms will also trigger whenever a permanent converts.
+  - *2022-10-14* — Bolster doesn't target; you choose the creature to put the counters on as the attack triggered ability resolves.
+  - *2022-10-14* — Converting a permanent doesn't affect any Auras or Equipment that are attached to it. Similarly, any counters on the permanent will remain on that permanent after it converts. Any continuous effects from a resolved spell or ability will continue to affect it. Any spells or abilities on the stack that target a permanent continue to do so after that permanent converts.
+  - *2022-10-14* — If a static ability of another permanent applies only to noncreature permanents, that ability applies to a Vehicle with living metal only during your opponents' turns. For example, if you control Arcee, Acrobatic Coupe and March of the Machines, Arcee will be a 2/2 artifact creature during your turn and a 3/3 artifact creature (because its mana value is 3) during each opponent's turn.
+  - *2022-10-14* — If you copy a permanent spell cast this way, the copy has the characteristics of the card's back face, even though it isn't itself a double-faced card.
+  - *2022-10-14* — Similarly, an ability of another card that instructs you to "transform" one of these cards will cause you to convert it, even if that ability doesn't use the word "convert."
+  - *2022-10-14* — The convert keyword action functions the same way as the transform keyword action found on some other cards; to convert a permanent on the battlefield, turn it over so that its other face is up.
+  - *2022-10-14* — The cost is an alternative cost, so it can't be combined with any other alternative costs. It can be combined with any applicable additional costs.
+  - *2022-10-14* — The mana value of a converted permanent on the battlefield is equal to the mana value of the card's front face, no matter which face is up.
+  - *2022-10-14* — To bolster 2, put two +1/+1 counters on the creature with the least toughness among creatures you control. If more than one creature is tied for the least toughness, choose one of them.
+  - *2022-10-14* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a More Than Meets the Eye cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of a spell cast using More Than Meets the Eye is determined by the mana cost on the front face of the card, no matter what the total cost to cast the spell was.
+  - *2022-10-14* — When you cast a spell using its More Than Meets the Eye ability, the card is put onto the stack with its back face up. The resulting spell has all characteristics of that face.
+  - *2022-10-14* — While it's a creature, the Vehicle has its printed power and toughness.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bot/13/optimus-prime-hero-optimus-prime-autobot-leader) · oracle_id `199c4a1a-2082-417c-a174-f479d7334d15` · printing: BOT #13 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Optimus Prime, Inspiring Leader
 

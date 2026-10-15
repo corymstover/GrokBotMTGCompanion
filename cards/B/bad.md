@@ -53,7 +53,14 @@
   > Creatures you control with +1/+1 counters on them have trample.
 - **Keywords:** Earthbend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4038 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/166/badgermole) · oracle_id `2084a7f6-226b-4fb4-a30e-703f674d33b4` · printing: TLA #166 (2025-11-21) · [rulings](https://api.scryfall.com/cards/aabbd420-b7fc-496f-9168-bad823d51d9e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-10-02* — "Earthbend N" means "Target land you control becomes a 0/0 land creature with haste in addition to its other types. Put N +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped under your control."
+  - *2025-10-02* — Earthbend doesn't give the land you control a color. As most lands are colorless, in most cases the resulting land creature will also be colorless.
+  - *2025-10-02* — If a land was animated by earthbend and would go to any zone other than the graveyard or exile, it will not be returned to the battlefield by the delayed triggered ability created by earthbend.
+  - *2025-10-02* — If the targeted land becomes an illegal target before the spell or ability that includes earthbend resolves, earthbend does nothing. If the spell or ability didn't have other targets, it won't resolve.
+  - *2025-10-02* — The land will retain any other types, subtypes, or supertypes it previously had. It will also retain any mana abilities it had as a result of those subtypes. For example, a Forest that's turned into a creature this way can still be tapped for {G}.
+  - *2025-10-02* — You may target a land that is already a creature, perhaps because of a previous earthbend ability. The land will get the +1/+1 counters, gain haste, and have its base power and toughness set to 0/0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/166/badgermole) · oracle_id `2084a7f6-226b-4fb4-a30e-703f674d33b4` · printing: TLA #166 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Badgermole Cub
 
@@ -67,7 +74,16 @@
   > *Every mountain starts as a molehill.*
 - **Keywords:** Earthbend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1145 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/167/badgermole-cub) · oracle_id `2b0afb89-0944-4861-b9c3-e909e2ac215e` · printing: TLA #167 (2025-11-21) · [rulings](https://api.scryfall.com/cards/340c5799-4964-44dd-8c48-8f3f3aba5211/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2025-10-02* — "Earthbend N" means "Target land you control becomes a 0/0 land creature with haste in addition to its other types. Put N +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped under your control."
+  - *2025-10-02* — An ability that triggers "whenever you tap a creature for mana" triggers only if you activate a mana ability of a creature including {T} in its cost. Mana abilities that don't include the {T} symbol and instead say "Tap an untapped creature you control" or similar won't cause Badgermole Cub's second ability to trigger. Similarly, it won't trigger if you tap a creature to activate a mana ability of another object (even if that mana ability also includes {T}).
+  - *2025-10-02* — Badgermole Cub's last ability is a triggered mana ability. It doesn't use the stack and can't be responded to.
+  - *2025-10-02* — Earthbend doesn't give the land you control a color. As most lands are colorless, in most cases the resulting land creature will also be colorless.
+  - *2025-10-02* — If a land was animated by earthbend and would go to any zone other than the graveyard or exile, it will not be returned to the battlefield by the delayed triggered ability created by earthbend.
+  - *2025-10-02* — If the targeted land becomes an illegal target before the spell or ability that includes earthbend resolves, earthbend does nothing. If the spell or ability didn't have other targets, it won't resolve.
+  - *2025-10-02* — The land will retain any other types, subtypes, or supertypes it previously had. It will also retain any mana abilities it had as a result of those subtypes. For example, a Forest that's turned into a creature this way can still be tapped for {G}.
+  - *2025-10-02* — You may target a land that is already a creature, perhaps because of a previous earthbend ability. The land will get the +1/+1 counters, gain haste, and have its base power and toughness set to 0/0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/167/badgermole-cub) · oracle_id `2b0afb89-0944-4861-b9c3-e909e2ac215e` · printing: TLA #167 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Badgey, Malicious Glitch
 
@@ -126,6 +142,7 @@
 - **Oracle text:**
   > Black creatures get +1/+1.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7303 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gvl/48/bad-moon) · oracle_id `fc5d3341-cbce-49e5-93cc-8add92479dca` · printing: GVL #48 (2014-12-05) · [rulings](https://api.scryfall.com/cards/8f8a75da-ea3c-43e7-9d32-1c92f8ec0fd2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bad River
@@ -136,4 +153,6 @@
   > This land enters tapped.
   > {T}, Sacrifice this land: Search your library for an Island or Swamp card, put it onto the battlefield, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6876 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/197/bad-river) · oracle_id `259fc423-d078-4668-9e95-8c1a0d2e49ba` · printing: DMC #197 (2022-09-09) · [rulings](https://api.scryfall.com/cards/ca79caa8-9893-49be-bc39-f021adb28220/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Because the “search” requires you to find a card with certain characteristics, you don't have to find the card if you don't want to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/197/bad-river) · oracle_id `259fc423-d078-4668-9e95-8c1a0d2e49ba` · printing: DMC #197 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

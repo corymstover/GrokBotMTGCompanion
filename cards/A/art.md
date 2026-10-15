@@ -82,7 +82,11 @@
 - **Flavor text** (RIX printing):
   > *"It is impious to admit, but I do enjoy pirate blood. Something in the salty tang of it, the spice of rebellion."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8700 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rix/62/arterial-flow) · oracle_id `f5e2fb92-4678-410c-8c83-42aead9d29d3` · printing: RIX #62 (2018-01-19) · [rulings](https://api.scryfall.com/cards/13c41212-9f16-48e0-8c4b-985ce331164b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-01-19* — Arterial Flow causes each opponent to lose 2 life if you control a Vampire, even if some or all of those players were unable to discard any cards.
+  - *2018-01-19* — In a Two-Headed Giant game, Arterial Flow causes the opposing team to lose 4 life, and each player on that team discards two cards. You gain 2 life.
+  - *2018-01-19* — Whether you control a Vampire is checked as Arterial Flow resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rix/62/arterial-flow) · oracle_id `f5e2fb92-4678-410c-8c83-42aead9d29d3` · printing: RIX #62 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Artful Dodge
 
@@ -95,7 +99,14 @@
   > *Those who know the alleys and sewers of the Erdwal can disappear like smoke.*
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4007 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dka/27/artful-dodge) · oracle_id `c174dcbb-03a0-439c-b3d8-ed61bd46dc67` · printing: DKA #27 (2012-02-03) · [rulings](https://api.scryfall.com/cards/de6ce6aa-e19f-4299-9807-e68920e63c73/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-03-19* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2021-03-19* — If a card with flashback is put into your graveyard during your turn, you can cast it if it’s legal to do so before any other player can take any actions.
+  - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you’re paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2021-03-19* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card’s type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+  - *2021-03-19* — “Flashback [cost]” means “You may cast this card from your graveyard by paying [cost] rather than paying its mana cost” and “If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack.”
+- **Source flags:** [Scryfall](https://scryfall.com/card/dka/27/artful-dodge) · oracle_id `c174dcbb-03a0-439c-b3d8-ed61bd46dc67` · printing: DKA #27 (2012-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Artful Looter
 
@@ -144,7 +155,10 @@
   > Whenever Arthur and at least one other creature attack, look at the top six cards of your library. You may put a creature card from among them onto the battlefield tapped and attacking. Put the rest on the bottom of your library in a random order. Return that creature to its owner's hand at end of combat.
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8159 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/blc/5/arthur-marigold-knight) · oracle_id `8d6ce07f-b21b-42eb-a3d6-df810664e2be` · printing: BLC #5 (2024-08-02) · [rulings](https://api.scryfall.com/cards/9b3603aa-58a2-41d4-a58f-2b3306876e35/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-07-26* — Although the creature you put onto the battlefield is attacking, it was never declared as an attacking creature. Abilities that trigger whenever a creature attacks won't trigger when that creature enters attacking.
+  - *2024-07-26* — You choose the player, planeswalker, or battle the creature you put onto the battlefield is attacking. It doesn't have to be the same player, planeswalker, or battle that Arthur or any other attacking creatures are attacking.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blc/5/arthur-marigold-knight) · oracle_id `8d6ce07f-b21b-42eb-a3d6-df810664e2be` · printing: BLC #5 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Artifact Blast
 
@@ -167,7 +181,9 @@
   > *"There's nothing technology can build that nature can't eventually reclaim."*
   > *—Vivien Reid*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2579 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/326/artifact-mutation) · oracle_id `e77e8768-3ea8-44f9-aba6-1e023e006946` · printing: NCC #326 (2022-04-29) · [rulings](https://api.scryfall.com/cards/fed09083-a259-4ab5-bb85-aeab9d0b1f7c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — This spell is countered and you get no Saprolings if the artifact is an illegal target on resolution.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/326/artifact-mutation) · oracle_id `e77e8768-3ea8-44f9-aba6-1e023e006946` · printing: NCC #326 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Artifact Possession
 
@@ -217,7 +233,14 @@
   > {5}{U}: Level 3
   > At the beginning of your end step, create a token that's a copy of target artifact you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4156 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/663/artificer-class) · oracle_id `6dccf583-1045-4058-86cc-ebbcc8de080e` · printing: CLB #663 (2022-06-10) · [rulings](https://api.scryfall.com/cards/cf4e9335-06e3-4b27-8fd8-3e44ece89a36/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2022-06-10* — Class is a returning enchantment type. Each Class has five abilities. The three in the major sections of its text box are class abilities. Class abilities can be static, activated, or triggered abilities. The other two are level abilities, one activated ability to advance the Class to level 2 and another to advance the Class to level 3.
+  - *2022-06-10* — Each Class starts with only the first of three class abilities. As the first level ability resolves, the Class becomes level 2 and gains the second class ability. As the second level ability resolves, the Class becomes level 3 and gains the third class ability.
+  - *2022-06-10* — Gaining a level is a normal activated ability. It uses the stack and can be responded to.
+  - *2022-06-10* — Gaining a level won't remove abilities that a Class had at a previous level.
+  - *2022-06-10* — You can multiclass or even control multiple Class enchantments of the same class. Each Class permanent tracks its own level separately.
+  - *2022-06-10* — You can't activate the first level ability of a Class unless that Class is level 1. Similarly, you can't activate the second level ability of a Class unless that Class is level 2.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/663/artificer-class) · oracle_id `6dccf583-1045-4058-86cc-ebbcc8de080e` · printing: CLB #663 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Artificer's Assistant
 
@@ -229,7 +252,12 @@
   > Whenever you cast a historic spell, scry 1. (Artifacts, legendaries, and Sagas are historic. To scry 1, look at the top card of your library, then you may put that card on the bottom.)
 - **Keywords:** Scry, Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5274 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dom/44/artificers-assistant) · oracle_id `6191a7eb-04b5-47e6-a31f-43f9aa91d4d7` · printing: DOM #44 (2018-04-27) · [rulings](https://api.scryfall.com/cards/deadf867-b999-49b2-88d8-91da975a3cc5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2018-04-27* — A card, spell, or permanent is historic if it has the legendary supertype, the artifact card type, or the Saga subtype. Having two of those qualities doesn’t make an object more historic than another or provide an additional bonus—an object either is historic or it isn’t.
+  - *2018-04-27* — An ability that triggers “whenever you cast a historic spell” doesn’t trigger if a historic card is put onto the battlefield without being cast.
+  - *2018-04-27* — Lands are never cast, so abilities that trigger “whenever you cast a historic spell” won’t trigger if you play a legendary land. They also won’t trigger if a card on the battlefield transforms into a legendary land, as the Ixalan and Rivals of Ixalan double-faced cards do.
+  - *2018-04-27* — Some abilities trigger “whenever you cast a historic spell.” Such an ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dom/44/artificers-assistant) · oracle_id `6191a7eb-04b5-47e6-a31f-43f9aa91d4d7` · printing: DOM #44 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Artificer's Dragon
 
@@ -345,7 +373,10 @@
   > Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents of their choice.)
 - **Keywords:** Annihilator
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1207 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/801/artisan-of-kozilek) · oracle_id `19409704-09c4-4a4b-a5a7-f95120b425db` · printing: CMM #801 (2023-08-04) · [rulings](https://api.scryfall.com/cards/9312fada-fc31-46ac-b6a1-cfffd776856f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2010-06-15* — Annihilator abilities trigger and resolve during the declare attackers step. The defending player chooses and sacrifices the required number of permanents before they declare blockers. Any creatures sacrificed this way won't be able to block.
+  - *2010-06-15* — If a creature with annihilator is attacking a planeswalker, and the defending player chooses to sacrifice that planeswalker, the attacking creature continues to attack. It may be blocked. If it isn't blocked, it simply won't deal combat damage to anything.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/801/artisan-of-kozilek) · oracle_id `19409704-09c4-4a4b-a5a7-f95120b425db` · printing: CMM #801 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Artisan's Sorrow
 
@@ -394,7 +425,15 @@
   > *Errant wouldn't allow anything to stop her from decorating the streets of New Capenna.*
 - **Keywords:** Convoke
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7405 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/46/artistic-refusal) · oracle_id `ff192482-3808-4291-a31e-3dfaeb49cda2` · printing: MOM #46 (2023-04-21) · [rulings](https://api.scryfall.com/cards/2bd05f97-ef8b-4cbe-a44b-6501aa5895b0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-04-14* — If you choose both modes, and the target of the first mode is an illegal target at the time Artistic Refusal tries to resolve (probably because that spell has been countered by something else), Artistic Refusal won't resolve and none of its effects will happen. You won't draw or discard any cards.
+  - *2024-01-12* — Because convoke isn't an alternative cost, it can be used in conjunction with alternative costs.
+  - *2024-01-12* — If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.
+  - *2024-01-12* — Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature's colors.
+  - *2024-01-12* — Tapping an untapped creature that's attacking or blocking to convoke a spell won't cause that creature to stop attacking or blocking.
+  - *2024-01-12* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
+  - *2024-01-12* — You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/46/artistic-refusal) · oracle_id `ff192482-3808-4291-a31e-3dfaeb49cda2` · printing: MOM #46 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Artist's Talent
 
@@ -408,4 +447,15 @@
   > {2}{R}: Level 3
   > If a source you control would deal noncombat damage to an opponent or a permanent an opponent controls, it deals that much damage plus 2 instead.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1557 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/124/artists-talent) · oracle_id `ea734863-5793-49d6-b10e-109432aec0a3` · printing: BLB #124 (2024-08-02) · [rulings](https://api.scryfall.com/cards/8b9e51d9-189b-4dd6-87cb-628ea6373e81/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2024-07-26* — Each Class has five abilities. The three in the major sections of its text box are class abilities. Class abilities can be static, activated, or triggered abilities. The other two are level abilities, one activated ability to advance the Class to level 2 and another to advance the Class to level 3.
+  - *2024-07-26* — Each Class starts with only the first of its three class abilities. As the first level ability resolves, the Class becomes level 2 and gains the second class ability. As the second level ability resolves, the Class becomes level 3 and gains the third class ability.
+  - *2024-07-26* — Gaining a level is a normal activated ability. It uses the stack and can be responded to.
+  - *2024-07-26* — Gaining a level won't remove abilities that a Class had at a previous level.
+  - *2024-07-26* — If another effect modifies how much damage a source would deal, including preventing some of it, the player being dealt damage or the controller of the permanent being dealt damage chooses an order in which to apply those effects. If all of the damage is prevented, the effect of Artist's Talent's last ability no longer applies.
+  - *2024-07-26* — The additional 2 damage is dealt by the same source as the original source of damage. The damage isn't dealt by Artist's Talent unless Artist's Talent is somehow the original source of that damage.
+  - *2024-07-26* — The cost reduction applies only to generic mana in the total cost of noncreature spells you cast.
+  - *2024-07-26* — There's no restriction on how many Class permanents you can control, whether they're the same or different classes. Each Class permanent tracks its own level separately.
+  - *2024-07-26* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as a flashback cost), add any cost increases (such as kicker costs), then apply any cost reductions (such as that of this ability). The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+  - *2024-07-26* — You can't activate the first level ability of a Class unless that Class is level 1. Similarly, you can't activate the second level ability of a Class unless that Class is level 2.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/124/artists-talent) · oracle_id `ea734863-5793-49d6-b10e-109432aec0a3` · printing: BLB #124 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

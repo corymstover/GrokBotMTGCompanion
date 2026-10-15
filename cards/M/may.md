@@ -23,7 +23,10 @@
 - **Oracle text:**
   > At the beginning of your upkeep, put a +1/+1 counter on each creature you control if you control a creature with power 5 or greater. Then you gain 10 life if you control a creature with power 10 or greater. Then you win the game if you control a creature with power 20 or greater.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7138 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/253/mayaels-aria) · oracle_id `6cb9ca93-e0bb-4758-bf0d-c9a8fce5f11f` · printing: 2X2 #253 (2022-07-08) · [rulings](https://api.scryfall.com/cards/a53170fe-7f18-47ef-b501-1ed398306419/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2009-05-01* — The three parts of the ability happen sequentially. For example, if you control a creature with 9 power when the ability starts to resolve, you'll put a +1/+1 counter on each creature you control — and now, since you control a creature with 10 power, you'll gain 10 life.
+  - *2009-05-01* — This ability triggers at the beginning of each of your upkeeps. Whether you control any applicable creatures is checked only when the ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/253/mayaels-aria) · oracle_id `6cb9ca93-e0bb-4758-bf0d-c9a8fce5f11f` · printing: 2X2 #253 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mayael the Anima
 
@@ -94,7 +97,9 @@
   > At the beginning of each upkeep, if a player cast two or more spells last turn, transform this creature.
 - **Keywords:** Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8508 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/207/mayor-of-avabruck-howlpack-alpha) · oracle_id `6e638587-30b3-4c4b-b463-fb415ea048f7` · printing: INR #207 (2025-01-24) · [rulings](https://api.scryfall.com/cards/ef84540b-a132-4169-b3c0-b0edeb395c9b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-01-24* — A creature that is both a Werewolf and a Wolf will only get +1/+1 from Howlpack Alpha’s first ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/207/mayor-of-avabruck-howlpack-alpha) · oracle_id `6e638587-30b3-4c4b-b463-fb415ea048f7` · printing: INR #207 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### May the Mana Be with You
 

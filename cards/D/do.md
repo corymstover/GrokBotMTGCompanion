@@ -189,7 +189,15 @@
 - **Flavor text** (OTJ printing):
   > *"Learning stops only when you close your mind off to wonder."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2532 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/201/doc-aurlock-grizzled-genius) · oracle_id `3ca32660-bf5f-4398-bef6-a0ec8bc767cf` · printing: OTJ #201 (2024-04-19) · [rulings](https://api.scryfall.com/cards/6fc27b30-8c8e-434c-a72c-e1d409efc1ae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2024-04-12* — Doc Aurlock’s abilities can’t reduce the amount of colored mana you pay for a spell or ability. It reduces only the generic mana component of that spell or ability’s cost.
+  - *2024-04-12* — Doc Aurlock’s abilities don’t change the mana cost or mana value of any spell. They change only the total cost you pay to cast spells or plot cards from the appropriate zones.
+  - *2024-04-12* — Exiling a card using its plot ability is a special action. Once you announce you’re taking that action, no other player can respond by trying to remove that card from your hand.
+  - *2024-04-12* — If a plotted card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-04-12* — If you’re casting a plotted card from exile without paying its mana cost, you can’t choose to cast it for any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the plotted card has any mandatory additional costs, those must still be paid to cast the spell.
+  - *2024-04-12* — Plot abilities are written “Plot [cost],” which means “Any time you have priority during your main phase while the stack is empty, you may pay [cost] and exile this card from your hand. It becomes plotted.”
+  - *2024-04-12* — You can’t cast a plotted card on the same turn it became plotted. On any future turn, you may cast that card from exile without paying its mana cost during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/201/doc-aurlock-grizzled-genius) · oracle_id `3ca32660-bf5f-4398-bef6-a0ec8bc767cf` · printing: OTJ #201 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Docent of Perfection // Final Iteration
 
@@ -207,7 +215,12 @@
   > Whenever you cast an instant or sorcery spell, create a 1/1 blue Human Wizard creature token.
 - **Keywords:** Flying, Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6095 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/62/docent-of-perfection-final-iteration) · oracle_id `85e797de-da27-4cd5-8fa4-4aef948988b2` · printing: INR #62 (2025-01-24) · [rulings](https://api.scryfall.com/cards/96658239-3169-42ef-9983-cd4da24e0f4c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-01-24* — All Wizards you control get +2/+1 and have flying, not just those created by Docent of Perfection or Final Iteration.
+  - *2025-01-24* — An ability that triggers when a player casts a spell resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack without resolving.
+  - *2025-01-24* — If you control three or more Wizards while you control Docent of Perfection, it won’t transform yet. It only transforms while its triggered ability is resolving after you cast an instant or sorcery spell.
+  - *2025-01-24* — When Docent of Perfection transforms into Final Iteration, the instant or sorcery spell that’s on the stack doesn’t cause Final Iteration’s triggered ability to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/62/docent-of-perfection-final-iteration) · oracle_id `85e797de-da27-4cd5-8fa4-4aef948988b2` · printing: INR #62 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dockbreacher
 
@@ -231,6 +244,7 @@
 - **Flavor text** (NEO printing):
   > *The squirming is how you know it's fresh.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3380 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/93/dockside-chef) · oracle_id `fed12a16-8920-403c-be63-0601a9d864b0` · printing: NEO #93 (2022-02-18) · [rulings](https://api.scryfall.com/cards/d80100c3-c81e-4084-8dfe-f8610637fd91/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dockside Extortionist
@@ -310,7 +324,9 @@
   > *Once powerful tools of science, Dr. Otto Octavius's mechanical arms became his most formidable weapons.*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8163 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/spm/162/doc-ocks-tentacles) · oracle_id `a5a18764-eb29-4bd8-a2e9-0ce55f4f6c88` · printing: SPM #162 (2025-09-26) · [rulings](https://api.scryfall.com/cards/fed9547c-9d0d-4e62-9639-887ed09231a2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-09-19* — If a creature has {X} in its mana cost, X is 0 when determining its mana value.
+- **Source flags:** [Scryfall](https://scryfall.com/card/spm/162/doc-ocks-tentacles) · oracle_id `a5a18764-eb29-4bd8-a2e9-0ce55f4f6c88` · printing: SPM #162 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Doc Samson, Super Psychiatrist
 
@@ -323,6 +339,7 @@
 - **Flavor text** (MSH printing):
   > *"Go ahead, Bruce. Let out your feelings."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9902 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/164/doc-samson-super-psychiatrist) · oracle_id `699610c9-c991-4faf-b712-d015ef0799ad` · printing: MSH #164 (2026-06-26) · [rulings](https://api.scryfall.com/cards/19dc5fcc-d05d-41a0-84c5-2dec996f3e4f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Doctor Doom
@@ -335,6 +352,7 @@
   > As long as you control an artifact creature or a Plan, Doctor Doom has indestructible.
   > At the beginning of your end step, you draw a card and lose 1 life.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9882 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/95/doctor-doom) · oracle_id `9e4fa592-71f8-4c71-8c91-78e6326cd736` · printing: MSH #95 (2026-06-26) · [rulings](https://api.scryfall.com/cards/9b1f213a-e1d4-4a0f-954b-c83915698d98/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Doctor Doom, King of Latveria
@@ -347,6 +365,7 @@
   > At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.)
 - **Keywords:** Connive
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8603 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/pmei/2026-26/doctor-doom-king-of-latveria) · oracle_id `9c9cd0fd-bfe9-409c-a9a9-146f5f4a2ef4` · printing: PMEI #2026-26 (2026-12-18) · [rulings](https://api.scryfall.com/cards/91a7f124-79af-45c2-a43d-7004bbda3045/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Doctor Doom, Unrivaled
@@ -387,7 +406,11 @@
 - **Flavor text** (SPM printing):
   > *"Soon all will cower before the superior intellect of Doctor Octopus!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7226 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/spm/128/doctor-octopus-master-planner) · oracle_id `2fecfbef-e521-4025-94ea-451c9abde3de` · printing: SPM #128 (2025-09-26) · [rulings](https://api.scryfall.com/cards/76e1d361-18a1-4dec-a203-f83bf0014e02/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-09-19* — If multiple effects modify your hand size, apply them in timestamp order. For example, if you put Spellbook (an artifact that says you have no maximum hand size) onto the battlefield and then put Doctor Octopus, Master Planner onto the battlefield, your maximum hand size will be eight. However, if those permanents entered in the opposite order, you would have no maximum hand size.
+  - *2025-09-19* — The number of cards you ultimately draw may be affected by replacement effects. For example, if you have six cards in hand as Doctor Octopus's last ability resolves, and you also control Thought Reflection (an enchantment that says "If you would draw a card, draw two cards instead"), you'll end up drawing four cards.
+  - *2025-09-19* — Your maximum hand size is checked only during the cleanup step of your turn. At any other time, you may have any number of cards in hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/spm/128/doctor-octopus-master-planner) · oracle_id `2fecfbef-e521-4025-94ea-451c9abde3de` · printing: SPM #128 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Doctor Spectrum
 
@@ -466,7 +489,10 @@
   > Whenever an opponent draws their second card each turn, you may return this card from your graveyard to your hand.
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7178 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/127/dogged-detective) · oracle_id `c5a1516a-5e01-48c5-88c7-2178f4b2ad24` · printing: MKC #127 (2024-02-09) · [rulings](https://api.scryfall.com/cards/57d1f729-0d7c-4122-9bca-f3b08cf6fe4f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-04-29* — Dogged Detective doesn't need to be in the graveyard when the first card is drawn for its last ability to trigger. As long as it is in the graveyard when an opponent draws their second card in a turn, it will trigger.
+  - *2024-01-12* — When you surveil, you may put all the cards you look at back on top of your library, you may put all of those cards into your graveyard, or you may put some of those cards on top and the rest of them into your graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/127/dogged-detective) · oracle_id `c5a1516a-5e01-48c5-88c7-2178f4b2ad24` · printing: MKC #127 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dogged Hunter
 
@@ -501,7 +527,12 @@
   > Whenever a creature you control that's enchanted or equipped attacks, create a Junk token. (It's an artifact with "{T}, Sacrifice this token: Exile the top card of your library. You may play that card this turn. Activate only as a sorcery.")
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9305 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/2/dogmeat-ever-loyal) · oracle_id `5232fcc0-5dba-4569-8e99-c0b2c230e9f0` · printing: PIP #2 (2024-03-08) · [rulings](https://api.scryfall.com/cards/86b45e3e-8460-4678-87d1-d74479936c83/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-03-08* — Some spells and abilities that create Junk tokens may require targets. If each target chosen is illegal as that spell or ability tries to resolve, it won't resolve and none of its effects happen. You won't create any Junk tokens.
+  - *2024-03-08* — The card you return with Dogmeat's first ability doesn't have to be one of the cards you milled with that ability.
+  - *2024-03-08* — You can't sacrifice a Junk token to pay multiple costs. For example, you can't sacrifice a Junk token to activate its own ability and also to activate the second ability of Junk Jet.
+  - *2024-03-08* — You pay all costs and follow all normal timing rules for the card played from exile with a Junk token's ability. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/2/dogmeat-ever-loyal) · oracle_id `5232fcc0-5dba-4569-8e99-c0b2c230e9f0` · printing: PIP #2 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dogpile
 
@@ -531,7 +562,19 @@
   > As long as another player controls enchanted creature, it can't attack or block. Otherwise, this Aura has umbra armor. (If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura.)
 - **Keywords:** Enchant, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7166 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/22/dog-umbra) · oracle_id `e475c96f-6cf8-4139-92fd-f68ecaae4893` · printing: MH3 #22 (2024-06-14) · [rulings](https://api.scryfall.com/cards/8d4ba710-eddb-40ca-b2fe-0e4e778aab9c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2024-06-07* — Attaching Dog Umbra to a creature another player controls that's already attacking or blocking won't remove that creature from combat.
+  - *2024-06-07* — Dog Umbra continuously checks to see whether the controller of the enchanted creature is a different player from the controller of Dog Umbra. If either permanent changes controllers, the effect may change.
+  - *2024-06-07* — If a creature enchanted with an Aura that has umbra armor has indestructible, lethal damage and effects that try to destroy it simply have no effect. Umbra armor won't do anything because it won't have to.
+  - *2024-06-07* — If a creature enchanted with an Aura that has umbra armor would be destroyed by multiple state-based actions at the same time (most likely because a creature with deathtouch has dealt damage to that creature greater than or equal to its toughness), umbra armor's effect will replace all of them and save the creature.
+  - *2024-06-07* — If a creature you control is enchanted with multiple Auras that have umbra armor, and the enchanted creature would be destroyed, one of those Auras is destroyed instead—but only one of them. You choose which one because you control the enchanted creature.
+  - *2024-06-07* — If a spell or ability says that it would "destroy" a creature enchanted with an Aura that has umbra armor, that spell or ability is what causes the Aura to be destroyed instead. Umbra armor doesn't destroy the Aura; rather, it changes the effects of the spell or ability. On the other hand, if a spell or ability deals lethal damage to a creature enchanted with an Aura that has umbra armor, the game rules regarding lethal damage cause the Aura to be destroyed, not that spell or ability.
+  - *2024-06-07* — If a spell or ability would destroy both an Aura with umbra armor and the creature it's enchanting at the same time, umbra armor's effect will save the enchanted creature from being destroyed. Instead, the spell or ability will destroy the Aura in two different ways at the same time, but the result is the same as destroying it once.
+  - *2024-06-07* — Umbra armor has no effect if the enchanted creature is put into a graveyard for any other reason, such as if it's sacrificed, if the "legend rule" applies to it, or if its toughness is 0 or less.
+  - *2024-06-07* — Umbra armor's effect is applied no matter why the enchanted creature would be destroyed: because it's been dealt lethal damage, or because it's being affected by an effect that says to "destroy" it (such as Breathe Your Last). In either case, all damage is removed from the creature and the Aura is destroyed instead.
+  - *2024-06-07* — Umbra armor's effect is mandatory. If the enchanted creature would be destroyed, you must remove all damage from it (if it has any) and destroy the Aura that has umbra armor instead.
+  - *2024-06-07* — Umbra armor's effect is not regeneration. Specifically, if umbra armor's effect is applied, the enchanted creature does not become tapped and is not removed from combat as a result. Effects that say the enchanted creature can't be regenerated won't prevent umbra armor's effect from being applied.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/22/dog-umbra) · oracle_id `e475c96f-6cf8-4139-92fd-f68ecaae4893` · printing: MH3 #22 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dog Walker
 
@@ -582,7 +625,16 @@
   > Whenever this creature deals combat damage to a player, you may discard a creature card. When you do, destroy target creature or planeswalker that player controls.
 - **Keywords:** Ninjutsu
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6728 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/95/dokuchi-silencer) · oracle_id `d377b28f-c887-4937-9f14-74484b612551` · printing: NEO #95 (2022-02-18) · [rulings](https://api.scryfall.com/cards/a24d5664-e214-466d-bb53-4e8f6f75a009/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2022-02-18* — Although the Ninja is attacking, it was never declared as an attacking creature (for purposes of abilities that trigger whenever a creature attacks, for example).
+  - *2022-02-18* — As you activate a ninjutsu ability, you reveal the Ninja card in your hand and return the attacking creature. The Ninja card stays revealed and isn't put onto the battlefield until the ability resolves. If it leaves your hand before then, it won't enter the battlefield at all.
+  - *2022-02-18* — If a creature in combat has first strike or double strike, you can activate the ninjutsu ability during the first-strike combat damage step. The Ninja will deal combat damage during the regular combat damage step, even if it has first strike.
+  - *2022-02-18* — Puff of smoke not included.
+  - *2022-02-18* — The creature with ninjutsu enters the battlefield attacking the same player or planeswalker that the returned creature was attacking. This is a rule specific to ninjutsu; in other cases, when a creature is put onto the battlefield attacking, that creature's controller chooses which player or planeswalker it's attacking.
+  - *2022-02-18* — The ninjutsu ability can be activated during the declare blockers step, combat damage step, or end of combat step. In most cases (see below), if you wait until the combatdamage step or end of combat step, it will be after combat damage has been dealt, so the Ninja won't deal combat damage.
+  - *2022-02-18* — The ninjutsu ability can be activated only after blockers have been declared. Before then, attacking creatures are neither blocked nor unblocked.
+  - *2022-02-18* — You don't choose the target for Dokuchi Silencer's last ability until after you have chosen whether or not to discard a card. If you choose to discard a card, a second triggered ability goes on the stack and you will choose a target for it. Opponents may respond to that triggered ability as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/95/dokuchi-silencer) · oracle_id `d377b28f-c887-4937-9f14-74484b612551` · printing: NEO #95 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dollhouse of Horrors
 
@@ -603,7 +655,29 @@
   > Creatures you control have base power and toughness each equal to the number of creatures you control.
   > (You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2510 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/4/dollmakers-shop-porcelain-gallery) · oracle_id `e633412b-e36b-4ec5-b0d0-7cb24c7503f4` · printing: DSK #4 (2024-09-27) · [rulings](https://api.scryfall.com/cards/c5ee6651-9946-4bae-b21e-6cf28fa77b13/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (21):
+  - *2024-09-20* — An ability that triggers "when you unlock this door" triggers when that door becomes unlocked. This can happen one of two ways: (1) the door becomes unlocked on the battlefield or (2) the door becomes unlocked as the Room enters the battlefield because you cast the corresponding half. In the latter case, since the door becoming unlocked is what causes the ability to trigger, effects that cause abilities that trigger when a permanent enters to trigger an additional time (such as that of Panharmonicon) won't apply.
+  - *2024-09-20* — An ability that triggers "whenever you fully unlock a Room" triggers when a door becomes unlocked and the other door of that Room is already unlocked, or when both doors of that Room become unlocked simultaneously.
+  - *2024-09-20* — Any time you have priority during a main phase of your turn and the stack is empty, you may pay the mana cost of a locked door (also called its "unlock cost"). That door becomes unlocked. This is a special action. It doesn't use the stack and can't be responded to.
+  - *2024-09-20* — Because damage remains marked on creatures until the damage is removed as the turn ends, nonlethal damage dealt to creatures you control while Porcelain Gallery is unlocked may become lethal if other creatures you control leave the battlefield during that turn.
+  - *2024-09-20* — Creatures that enter attacking are never declared as attackers, and as such, they won't cause Dollmaker's Shop's ability to trigger.
+  - *2024-09-20* — Dollmaker's Shop's ability will trigger once for each player you attack with one or more non-Toy creatures.
+  - *2024-09-20* — Each Room card has two names. If an effect instructs you to choose a card name, you may choose one of those names, but not both.
+  - *2024-09-20* — Each Room card is a single card. For example, if you discard a Room card, you've discarded one card, not two. If an effect counts the number of enchantment cards in your graveyard, Bottomless Pool // Locker Room counts once, not twice.
+  - *2024-09-20* — Effects that modify a creature's power and/or toughness, such as the effect of Jump Scare, will apply to that creature no matter when they started to take effect. The same is true for any counters that change its power and/or toughness and effects that switch its power and toughness.
+  - *2024-09-20* — If a Room enters from any zone other than the stack, it will enter with both halves locked.
+  - *2024-09-20* — If a spell or ability would create a copy of a Room spell on the stack, the copy retains the choice of which door was cast but also retains the full characteristics of the spell. The characteristics of the door that wasn't cast are still ignored while the copy is on the stack, and when the copy resolves, the token it becomes will enter with the appropriate door unlocked.
+  - *2024-09-20* — If an effect allows you to cast a spell with certain characteristics, consider only the characteristics of the door you're casting. For example, if an effect allows you to cast a permanent spell with mana value 3 or less from among cards in your graveyard, you could cast Bottomless Pool this way, but not Locker Room.
+  - *2024-09-20* — If neither door of a Room is unlocked, it's a Room enchantment with no name and no abilities.
+  - *2024-09-20* — Porcelain Gallery's ability overrides all previous effects that set the base power and toughness of creatures you control to specific values. Any power- or toughness-setting effects that start to apply to a creature you control after Porcelain Gallery is unlocked will overwrite this effect on that creature.
+  - *2024-09-20* — Room cards have two card faces with a shared type line on a single card. The characteristics of the door you didn't cast are ignored while the spell is on the stack.
+  - *2024-09-20* — Some abilities allow you to lock a door of a Room you control. You can't choose to lock a door that's already locked with such an ability. If such an ability requires a target, you can target a Room even if both of its doors are locked, but the ability won't do anything when it resolves.
+  - *2024-09-20* — Some abilities allow you to unlock a door of a Room you control. You can't choose to unlock a door that's already unlocked with such an ability. If such an ability requires a target, you can target a Room even if both of its doors are unlocked, but the ability won't do anything when it resolves.
+  - *2024-09-20* — Some doors have abilities that trigger whenever you unlock that door and require one or more targets. You can unlock that door even if there would be insufficient legal targets for that triggered ability. The triggered ability won't go on the stack.
+  - *2024-09-20* — To cast a Room spell, choose a half (or "door") to cast. There's no way to cast both halves of a Room card. When the Room spell resolves, the corresponding door becomes unlocked as the Room enters.
+  - *2024-09-20* — While in any zone other than the stack or the battlefield, a Room card's characteristics are a combination of its two doors. For example, Bottomless Pool // Locker Room has a mana value of 6 while it's in your library. If an effect allows you to search your library for a card with mana value 4 or less, you can't find Bottomless Pool // Locker Room.
+  - *2024-09-20* — While on the battlefield, a Room's characteristics are a combination of the characteristics of its unlocked doors. For example, if Bottomless Pool // Locker Room is on the battlefield with both doors unlocked, its names are Bottomless Pool and Locker Room, its mana value is 6, it's a Room Enchantment, and it has the abilities in each door's text box.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/4/dollmakers-shop-porcelain-gallery) · oracle_id `e633412b-e36b-4ec5-b0d0-7cb24c7503f4` · printing: DSK #4 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dolmen Gate
 
@@ -614,6 +688,7 @@
 - **Flavor text** (LRW printing):
   > *Lorwyn's stones resonate with the place from which they were hewed. Though taken far, still they call to their home when silence is upon the land.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1343 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lrw/256/dolmen-gate) · oracle_id `d53d000f-c92f-4d70-ae60-8be3791da8a2` · printing: LRW #256 (2007-10-12) · [rulings](https://api.scryfall.com/cards/fdcbf10e-32f2-41c5-a7a2-5f24662892d2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Domesticated Hydra
@@ -741,7 +816,11 @@
 - **Oracle text:**
   > Target player gains control of up to three target nonattacking creatures until end of turn. Untap those creatures. They block this turn if able.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8369 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/719/domineering-will) · oracle_id `2c438ecb-b127-4450-9395-2d1eea294f30` · printing: CLB #719 (2022-06-10) · [rulings](https://api.scryfall.com/cards/e8c3836d-a08b-424c-aefe-e1585161edf7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2014-11-07* — Each of those creatures blocks only if it's able to do so as the declare blockers step begins. If, at that time, one of the creatures is tapped, is affected by a spell or ability that says it can't block, or no creatures are attacking that creature's controller or a planeswalker controlled by that player, then it doesn't block. If there's a cost associated with having the creature block, the player isn't forced to pay that cost, so it doesn't block in that case either.
+  - *2014-11-07* — Notably, Domineering Will doesn't give any of the target creatures haste. Unless they have haste due to some other means, they won't be able to attack that turn.
+  - *2014-11-07* — The controller of the creatures still chooses which attacking creature each of the three target creatures blocks.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/719/domineering-will) · oracle_id `2c438ecb-b127-4450-9395-2d1eea294f30` · printing: CLB #719 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dominion Saboteur
 
@@ -794,7 +873,13 @@
   > −2: Target creature you control fights target creature you don't control.
 - **Keywords:** Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2740 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/war/191/domri-anarch-of-bolas) · oracle_id `afc2269c-d3b5-487d-9445-800c7a8e526b` · printing: WAR #191 (2019-05-03) · [rulings](https://api.scryfall.com/cards/c1af9881-e35b-4be2-8716-ea7c6664e22c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2019-05-03* — A spell or ability that counters spells can still target a creature spell you control after Domri's first loyalty ability has resolved. When that spell or ability resolves, the creature spell won't be countered, but any additional effects of that spell or ability will still happen.
+  - *2019-05-03* — After Domri's first loyalty ability has resolved, no creature spells you cast can be countered during that turn, not just the one you spend the mana on.
+  - *2019-05-03* — Because it's a loyalty ability, Domri's first loyalty ability isn't a mana ability. It can be activated only any time you could cast a sorcery. It uses the stack and can be responded to.
+  - *2019-05-03* — If Domri leaves the battlefield before his last ability resolves, most likely because he only had 2 loyalty when you activated the ability, the creature won't have +1/+0 from Domri's static ability while it fights.
+  - *2019-05-03* — If either target is an illegal target as Domri's last ability resolves, no creature will deal or be dealt damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/war/191/domri-anarch-of-bolas) · oracle_id `afc2269c-d3b5-487d-9445-800c7a8e526b` · printing: WAR #191 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Domri, Chaos Bringer
 
@@ -894,7 +979,10 @@
   > *"Why climb the tangled rigging of the Legion of Dusk's hierarchy when I can fly a free flag of my own?"*
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5460 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/6/don-andres-the-renegade) · oracle_id `060ef981-db05-436b-b1c1-f55071375344` · printing: LCC #6 (2023-11-17) · [rulings](https://api.scryfall.com/cards/3cf9f3ae-694d-4d37-9498-4bdd1723a55e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-11-10* — The owner of a copy of a spell is the player under whose control it was put onto the stack.
+  - *2023-11-10* — The player who creates a token is its owner.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/6/don-andres-the-renegade) · oracle_id `060ef981-db05-436b-b1c1-f55071375344` · printing: LCC #6 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Donate
 
@@ -917,7 +1005,16 @@
   > Whenever Donatello deals combat damage to a player, create a token that's a copy of target artifact you control.
 - **Keywords:** Sneak
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9513 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/35/donatello-gadget-master) · oracle_id `bb6aef0d-052b-44e6-b4cd-2d2eafd84969` · printing: TMT #35 (2026-03-06) · [rulings](https://api.scryfall.com/cards/8b5dd830-dab8-4628-845f-3d17973f9ffa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2026-01-27* — Although a creature put onto the battlefield this way is attacking, it was never declared as an attacking creature. Abilities that trigger whenever a creature attacks won't trigger when that creature enters attacking.
+  - *2026-01-27* — If a creature spell's sneak cost was paid, the creature it becomes enters tapped and attacking the same player, planeswalker, or battle as the creature that was returned to its owner's hand to pay its sneak cost. This is a rule specific to sneak; in other cases, when a creature is put onto the battlefield attacking, that creature's controller chooses which player, planeswalker, or battle it's attacking.
+  - *2026-01-27* — If the artifact copied by the token had any "when [this artifact] enters" abilities, the token also has those abilities, and they'll trigger when it's created. Similarly, any "as [this artifact] enters" or "[this artifact] enters with" abilities that the token has copied will also work.
+  - *2026-01-27* — If the copied artifact has {X} in its mana cost, X is 0.
+  - *2026-01-27* — If the copied artifact is a token, the new token that's created copies the original characteristics of that token as stated by the effect that created the token.
+  - *2026-01-27* — If the copied artifact is copying something else, then the token enters as whatever that artifact copied.
+  - *2026-01-27* — Spells can only be cast for their sneak costs any time you could play an instant during the declare blockers step on your turn (after your opponent has decided whether to block).
+  - *2026-01-27* — The token copies exactly what was printed on the original artifact (unless that artifact is copying something else or is a token; see below). It doesn't copy whether that artifact is tapped or untapped, whether it has any counters on it, or any Auras or Equipment attached to it, or any non-copy effects that have changed its types, color, power and toughness, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/35/donatello-gadget-master) · oracle_id `bb6aef0d-052b-44e6-b4cd-2d2eafd84969` · printing: TMT #35 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Donatello, Mutant Mechanic
 
@@ -978,7 +1075,19 @@
   > *"I always thought there'd be more to the ooze."*
 - **Keywords:** Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6955 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmc/2/donatello-the-brains) · oracle_id `1ba2f763-5895-4663-b38f-95591ebb2ef4` · printing: TMC #2 (2026-03-06) · [rulings](https://api.scryfall.com/cards/774716f4-d211-497a-be91-69cd700edbf2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2026-01-27* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2026-01-27* — Both commanders start in the command zone, and the remaining 98 cards of your deck are shuffled to become your library.
+  - *2026-01-27* — If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+  - *2026-01-27* — If your Commander deck has two commanders, you can only include cards whose own color identities are also found in your commanders' combined color identities. If Donatello, the Brains and Splinter, the Mentor are your commanders, your deck may contain cards with blue and/or black in their color identity, but not cards with red, green, or white. (If Leonardo, the Balance is one of your commanders, your deck may contain cards with any color or combination of colors in their color identity, regardless of who your other commander is.)
+  - *2026-01-27* — Mutagen tokens are a kind of predefined token. Each one is a colorless artifact with the artifact subtype Mutagen and the ability "{1}, {T}, Sacrifice this token: Put a +1/+1 counter on target creature. Activate only as a sorcery."
+  - *2026-01-27* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from any one of them, not from both of them combined.
+  - *2026-01-27* — Some spells and abilities that create Mutagen tokens require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Mutagen token won't be created.
+  - *2026-01-27* — The additional Mutagen token won't have any abilities the other tokens were created with. Anything else specified in the effect creating the token (such as tapped or "Exile that token at end of combat") applies to both the original tokens and the Mutagen token.
+  - *2026-01-27* — To have two commanders, both must have appropriate partner abilities as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
+  - *2026-01-27* — You can have two commanders if each one has "Partner—Character select." You can't mix and match them with cards that have other partner abilities.
+  - *2026-01-27* — You don't need to control the spell or ability that creates the tokens, but you do have to be the one creating the tokens for Donatello's first ability to apply.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmc/2/donatello-the-brains) · oracle_id `1ba2f763-5895-4663-b38f-95591ebb2ef4` · printing: TMC #2 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Donatello, Turtle Techie
 
@@ -1106,6 +1215,7 @@
   > *Jace kept his mouth shut, but he couldn't shake the feeling that the strange creatures could hear the screaming in his mind.*
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6107 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/49/dont-make-a-sound) · oracle_id `f28a373b-4a8d-40a5-ace1-3bbd8489ad36` · printing: DSK #49 (2024-09-27) · [rulings](https://api.scryfall.com/cards/b5f42e59-7315-41cb-9c41-346e44f0c5fb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Don't Move
@@ -1115,7 +1225,9 @@
 - **Oracle text:**
   > Destroy all tapped creatures. Until your next turn, whenever a creature becomes tapped, destroy it.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7822 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mar/43/dont-move) · oracle_id `23cf095c-d43e-4a80-9bc5-f0f46ff885c4` · printing: MAR #43 (2026-06-26) · [rulings](https://api.scryfall.com/cards/c55e5f0d-8a4b-4b6f-ab43-1268b6fac74e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-11-10* — Don't Move won't affect a creature that enters the battlefield tapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mar/43/dont-move) · oracle_id `23cf095c-d43e-4a80-9bc5-f0f46ff885c4` · printing: MAR #43 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Don't Try This at Home
 
@@ -1148,6 +1260,7 @@
 - **Flavor text** (MSC printing):
   > *"Doom has found diversion in the thrust and parry of our storied struggle. But you have fallen behind, Richards. Now you shall fall asunder!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2226 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/576/doom-blade) · oracle_id `59e7f2ae-4535-4191-98be-3e65b6b2befa` · printing: MSC #576 (2026-06-26) · [rulings](https://api.scryfall.com/cards/5dcd0c4e-4047-47a2-8969-c62616d457c2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Doombot Harbinger
@@ -1196,6 +1309,7 @@
 - **Flavor text** (VOW printing):
   > *The most dangerous place to be in Kessig is alone.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7886 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vow/106/doomed-dissenter) · oracle_id `11cb509d-21af-48f1-b355-135ebd3e4bd1` · printing: VOW #106 (2021-11-19) · [rulings](https://api.scryfall.com/cards/f7c0cf16-81ea-45e3-99cc-4424d59bb44b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Doomed Necromancer
@@ -1208,7 +1322,9 @@
 - **Flavor text** (AFC printing):
   > *Many necromancers share the same last words—the ones that conclude the undeath ritual.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4047 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afc/98/doomed-necromancer) · oracle_id `155422a0-a0cd-4399-8ed9-fa68ac2c80a6` · printing: AFC #98 (2021-07-23) · [rulings](https://api.scryfall.com/cards/2d3225e8-9902-4826-9cb3-68ecfaebb1e9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-08-07* — Because targets are chosen before costs are paid, Doomed Necromancer can't be the target of its own ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afc/98/doomed-necromancer) · oracle_id `155422a0-a0cd-4399-8ed9-fa68ac2c80a6` · printing: AFC #98 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Doomed Traveler
 
@@ -1220,6 +1336,7 @@
 - **Flavor text** (CLU printing):
   > *He vowed he would never rest until he reached his destination. He doesn't know how right he was.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5097 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/59/doomed-traveler) · oracle_id `a30907c0-fbde-4fd3-a8c7-f304305fcea7` · printing: CLU #59 (2024-02-23) · [rulings](https://api.scryfall.com/cards/8a03d414-bff9-4aba-8b0a-0ed57982251e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Doomfall
@@ -1279,7 +1396,10 @@
 - **Flavor text** (MSC printing):
   > *"Before this day is ended, all shall grovel helplessly at my feet!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5248 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/796/doomsday) · oracle_id `721eb5a2-d7cf-4db0-8013-ef3f596c52a5` · printing: MSC #796 (2026-06-26) · [rulings](https://api.scryfall.com/cards/72cd296e-e550-46bf-9378-586a24c9b2a7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-03-16* — If your graveyard and library combined contain fewer than five cards, all of those cards will wind up in your library.
+  - *2018-03-16* — If your graveyard and library combined contain five or more cards, you must choose five cards from among them. You can't choose to find fewer than that.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/796/doomsday) · oracle_id `721eb5a2-d7cf-4db0-8013-ef3f596c52a5` · printing: MSC #796 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Doomsday Confluence
 
@@ -1291,7 +1411,12 @@
   > • Create a 3/3 black Dalek artifact creature token with menace.
   > • Each opponent discards a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9081 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/67/doomsday-confluence) · oracle_id `01bc8bfa-2e46-4324-a848-cc68bc9330d0` · printing: WHO #67 (2023-10-13) · [rulings](https://api.scryfall.com/cards/a4e86622-6f30-41b2-87d0-d345110e2387/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2023-10-13* — If an effect copies Doomsday Confluence, the copy will have the same modes chosen the same number of times.
+  - *2023-10-13* — No matter which combination of modes you choose, you always follow the instructions in the order they are written.
+  - *2023-10-13* — No player can cast spells or activate abilities in between the modes of a resolving spell.
+  - *2023-10-13* — You choose the modes as you cast the spell. Once modes are chosen, they can't be changed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/67/doomsday-confluence) · oracle_id `01bc8bfa-2e46-4324-a848-cc68bc9330d0` · printing: WHO #67 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Doomsday Excruciator
 
@@ -1306,7 +1431,9 @@
   > *"All stars grow dark. All worlds come to an end."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5393 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/94/doomsday-excruciator) · oracle_id `ad0db433-a406-4ef0-8ffa-416af610c4e7` · printing: DSK #94 (2024-09-27) · [rulings](https://api.scryfall.com/cards/542c89b6-48c6-4fcb-8a4c-b5ed2fa1d384/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-09-20* — A player with six or fewer cards remaining in their library when Doomsday Excruciator's second ability resolves won't exile any cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/94/doomsday-excruciator) · oracle_id `ad0db433-a406-4ef0-8ffa-416af610c4e7` · printing: DSK #94 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Doomsday Specter
 
@@ -1332,7 +1459,11 @@
   > *The realms crashed together, with Bretagard at the center of the calamity.*
 - **Keywords:** Foretell
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4910 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/9/doomskar) · oracle_id `38ece0fa-2c94-4eae-b6ab-74b783862f3e` · printing: KHM #9 (2021-02-05) · [rulings](https://api.scryfall.com/cards/130ee895-1e5e-4f82-bb66-e1275bac75dd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-02-05* — Because exiling a card with foretell from your hand is a special action, you can do so any time you have priority during your turn, including in response to spells and abilities. Once you announce you’re taking the action, no other player can respond by trying to remove the card from your hand.
+  - *2021-02-05* — Casting a foretold card from exile follows the timing rules for that card. If you foretell an instant card, you can cast it as soon as the next player’s turn. In most cases, if you foretell a card that isn’t an instant (or doesn’t have flash), you’ll have to wait until your next turn to cast it.
+  - *2021-02-05* — If you’re casting a foretold card from exile for its foretell cost, you can’t choose to cast it for any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/9/doomskar) · oracle_id `38ece0fa-2c94-4eae-b6ab-74b783862f3e` · printing: KHM #9 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Doomskar Oracle
 
@@ -1396,6 +1527,7 @@
 - **Flavor text** (MSC printing):
   > *"Time itself yields to Doom."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9481 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/103/dooms-time-platform) · oracle_id `78019626-1154-483f-b862-73982f9ddc7f` · printing: MSC #103 (2026-06-26) · [rulings](https://api.scryfall.com/cards/6f7935d1-d588-40ca-804f-bac56d986d74/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Doomwake Giant
@@ -1409,7 +1541,11 @@
   > *Crippling fear precedes it. A foul stench accompanies it. Death follows in its wake.*
 - **Keywords:** Constellation
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1883 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/212/doomwake-giant) · oracle_id `ba069664-9f92-47c7-b556-9e5143a22579` · printing: SOC #212 (2026-04-24) · [rulings](https://api.scryfall.com/cards/0be3f848-ba01-4890-a3a1-ed0dfb564632/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2014-04-26* — A constellation ability triggers whenever an enchantment enters the battlefield under your control for any reason. Enchantments with other card types, such as enchantment creatures, will also cause constellation abilities to trigger.
+  - *2014-04-26* — An Aura spell without bestow that has an illegal target when it tries to resolve won't resolve and will be put into its owner's graveyard. It won't enter the battlefield and constellation abilities won't trigger. An Aura spell with bestow won't be countered this way. It will revert to being an enchantment creature and resolve, entering the battlefield and triggering constellation abilities.
+  - *2014-04-26* — When an enchantment enters the battlefield under your control, each constellation ability of permanents you control will trigger. You can put these abilities on the stack in any order. The last ability you put on the stack will be the first one that resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/212/doomwake-giant) · oracle_id `ba069664-9f92-47c7-b556-9e5143a22579` · printing: SOC #212 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Doom Weaver
 
@@ -1422,7 +1558,9 @@
   > As long as Doom Weaver is paired with another creature, each of those creatures has "When this creature dies, draw cards equal to its power."
 - **Keywords:** Reach, Soulbond
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8511 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/voc/34/doom-weaver) · oracle_id `172b94a0-2801-4623-aed8-902591c2d591` · printing: VOC #34 (2021-11-19) · [rulings](https://api.scryfall.com/cards/08c79a77-810d-4ee2-8afc-18ddfba41ad1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-11-19* — Use the creature's power as it last existed on the battlefield to determine how many cards to draw.
+- **Source flags:** [Scryfall](https://scryfall.com/card/voc/34/doom-weaver) · oracle_id `172b94a0-2801-4623-aed8-902591c2d591` · printing: VOC #34 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Doom Whisperer
 
@@ -1436,7 +1574,10 @@
   > *The sound of every twisted secret tempts you to hear another.*
 - **Keywords:** Flying, Surveil, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1845 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/128/doom-whisperer) · oracle_id `4a01db2e-cd43-4b1a-a480-169018f82501` · printing: MKC #128 (2024-02-09) · [rulings](https://api.scryfall.com/cards/e8aabcaf-0968-402f-bc9f-289756e4d4b7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-01-12* — When you surveil, you may put all the cards you look at back on top of your library, you may put all of those cards into your graveyard, or you may put some of those cards on top and the rest of them into your graveyard.
+  - *2024-01-12* — You perform the actions stated on a card in sequence. For some spells and abilities, you'll surveil last. For others, you'll surveil and then perform other actions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/128/doom-whisperer) · oracle_id `4a01db2e-cd43-4b1a-a480-169018f82501` · printing: MKC #128 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Do or Die
 
@@ -1474,7 +1615,13 @@
   > *Parties at Karlov Manor are strictly invitation only.*
 - **Keywords:** Flying, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7211 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/13/doorkeeper-thrull) · oracle_id `0eaea4fd-a377-4541-9bdd-14921034a975` · printing: MKM #13 (2024-02-09) · [rulings](https://api.scryfall.com/cards/80a1cd28-d2a5-4d1a-aa03-a6a5958ae432/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-02-02* — If Doorkeeper Thrull and another creature or an artifact enter the battlefield at the same time, neither one will cause triggered abilities to trigger when they enter the battlefield.
+  - *2024-02-02* — Look at the permanent as it exists on the battlefield, taking into account continuous effects, to determine whether any triggered abilities will trigger. For example, if you control Opalescence, which says, in part, "Each other non-Aura enchantment is a creature," each enchantment will be a creature at the time it enters the battlefield and will not cause triggered abilities to trigger.
+  - *2024-02-02* — Replacement effects, such as a permanent entering the battlefield tapped or with counters on it, are unaffected. Abilities that apply "as [this permanent] enters the battlefield" are replacement effects.
+  - *2024-02-02* — The trigger event doesn't have to specify artifacts or creatures entering the battlefield. For example, Tireless Tracker has an ability that says "Whenever a land enters the battlefield under your control, investigate." If an artifact land or creature land enters the battlefield under your control, that ability won't trigger. If a nonartifact, noncreature land enters the battlefield under your control, the ability will trigger.
+  - *2024-02-02* — Triggered abilities use the word "when," "whenever," or "at." They're often written as "[Trigger condition], [effect]." Some keyword abilities are triggered abilities and will have "when," "whenever," or "at the beginning of" in their reminder text.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/13/doorkeeper-thrull) · oracle_id `0eaea4fd-a377-4541-9bdd-14921034a975` · printing: MKM #13 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Doorman
 
@@ -1497,7 +1644,10 @@
   > Whenever you cast a spell of the chosen type, put a charge counter on this artifact.
   > Creatures you control of the chosen type get +1/+1 for each charge counter on this artifact.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1086 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/198/door-of-destinies) · oracle_id `9b6d3dcf-aa5a-4516-bd48-a0723e86bfd1` · printing: MSC #198 (2026-06-26) · [rulings](https://api.scryfall.com/cards/1d0d80c7-87b5-47cc-b2fd-7defd281e1a2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-04-01* — If you cast a creature spell of the chosen type, Door of Destinies will get a charge counter before the creature enters. The creature will enter with the additional boost to its power and toughness.
+  - *2013-07-01* — Creature types, such as Human or Sliver, appear after the dash on the type line of creatures. Notably, artifact is not a creature type. A creature may have more than one creature type, such as Goblin Warrior. Such a creature would benefit from Door of Destinies if the chosen creature type was Goblin or Warrior.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/198/door-of-destinies) · oracle_id `9b6d3dcf-aa5a-4516-bd48-a0723e86bfd1` · printing: MSC #198 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Doors of Durin
 
@@ -1509,7 +1659,9 @@
   > *"Speak, friend, and enter."*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4986 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/199/doors-of-durin) · oracle_id `d82c77a1-2b81-415d-9f18-47e059c15e01` · printing: LTR #199 (2023-06-23) · [rulings](https://api.scryfall.com/cards/8ebd8813-4aaf-48bf-9243-3ec4099b8372/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-06-16* — If the creature put onto the battlefield this way is a Dwarf and/or Elf, Doors of Durin will see it when checking whether you control a Dwarf or Elf.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/199/doors-of-durin) · oracle_id `d82c77a1-2b81-415d-9f18-47e059c15e01` · printing: LTR #199 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Door to Nothingness
 
@@ -1521,6 +1673,7 @@
 - **Flavor text** (M13 printing):
   > *Only a madman could create such a door. Only an imbecile would open it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7541 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m13/203/door-to-nothingness) · oracle_id `b919cca5-88c0-4104-b54e-49644fbf78a5` · printing: M13 #203 (2012-07-13) · [rulings](https://api.scryfall.com/cards/57877b1c-e91d-4941-81bd-008dff1272ed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Do-Over
@@ -1542,7 +1695,12 @@
   > *"Suspect spotted at the Tin Street Market, Yescu Street entrance. And the Oak Street entrance. And somehow also in Lobar Alley!"*
   > *—Avult of the Foundway Associates*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2987 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/198/doppelgang) · oracle_id `d04c6375-25dd-4882-b8b3-a3b0d3081f32` · printing: MKM #198 (2024-02-09) · [rulings](https://api.scryfall.com/cards/a2daec58-78ed-4da5-b3b0-b04f12b0acbd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-02-02* — Any enters-the-battlefield abilities of the copied permanent will trigger when the tokens enter the battlefield. Any "as [this permanent] enters the battlefield" or "[this permanent] enters the battlefield with" abilities of the permanent will also work.
+  - *2024-02-02* — If the copied permanent has {X} in its mana cost, X is 0.
+  - *2024-02-02* — If the copied permanent is copying something else, then the tokens enter the battlefield as whatever that permanent copied.
+  - *2024-02-02* — The tokens copy exactly what was printed on the original permanent and nothing else (unless that permanent is itself copying something else; see below). They don't copy whether that permanent is tapped or untapped, whether it has any counters on it or Auras attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/198/doppelgang) · oracle_id `d04c6375-25dd-4882-b8b3-a3b0d3081f32` · printing: MKM #198 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dora Milaje Elite
 
@@ -1568,7 +1726,12 @@
 - **Flavor text** (ECL printing):
   > *"Each year that passes rots you with scars. Shelter your heart, for the world is cruel."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5635 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/215/doran-besieged-by-time) · oracle_id `dd35a377-0865-4b25-bd0f-aaead29a9f0e` · printing: ECL #215 (2026-01-23) · [rulings](https://api.scryfall.com/cards/568aa70a-6765-486a-bd37-5d38b16c46de/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-11-17* — Doran's first ability applies only to generic mana in the total cost of creature spells you cast with toughness greater than their power.
+  - *2025-11-17* — The value of X is calculated only once, as Doran's last ability resolves.
+  - *2025-11-17* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as a flashback cost), add any cost increases (such as kicker costs), then apply any cost reductions (such as that of this ability). The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+  - *2025-11-17* — To find the difference between a creature's power and its toughness, subtract the smaller of those two numbers from the larger one. For example, the difference between the power and toughness of a 3/5 creature is 2. The difference between the power and toughness of a 5/3 creature is also 2.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/215/doran-besieged-by-time) · oracle_id `dd35a377-0865-4b25-bd0f-aaead29a9f0e` · printing: ECL #215 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Doran, the Siege Tower
 
@@ -1580,7 +1743,11 @@
 - **Flavor text** (2X2 printing):
   > *"Each year that passes rings you inwardly with memory and might. Wield your heart, and the world will tremble."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5229 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/201/doran-the-siege-tower) · oracle_id `a46d96d9-8e59-4777-8208-7730b9e33240` · printing: 2X2 #201 (2022-07-08) · [rulings](https://api.scryfall.com/cards/e0ad8e7f-cda0-4529-94fc-dd3709158a94/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2007-10-01* — Doran's ability doesn't actually change creatures' power; it changes only the value of the combat damage they assign. All other rules and effects that check power or toughness use the real values.
+  - *2007-10-01* — Doran's ability means, for example, that a 2/3 creature will assign 3 damage in combat instead of 2.
+  - *2007-10-01* — This effect is mandatory and affects all creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/201/doran-the-siege-tower) · oracle_id `a46d96d9-8e59-4777-8208-7730b9e33240` · printing: 2X2 #201 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dori, Bearer of Friends
 
@@ -1625,6 +1792,7 @@
   > *Far from the bloodsoaked wedding, unseen by human eyes, a long-slumbering force arose to protect its home.*
 - **Keywords:** Vigilance, Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9820 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vow/198/dormant-grove-gnarled-grovestrider) · oracle_id `1be58157-186e-48e4-b375-dc5f10d785ac` · printing: VOW #198 (2021-11-19) · [rulings](https://api.scryfall.com/cards/e7d3012e-1798-4f72-8d9a-b2d16f817502/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dormant Sliver
@@ -1650,7 +1818,9 @@
   > When this land enters, sacrifice it unless you return an untapped Mountain you control to its owner's hand.
   > {T}: Add {C}{R}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9333 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cm2/246/dormant-volcano) · oracle_id `38ba1956-5505-4a7a-b6af-e75715b1401f` · printing: CM2 #246 (2018-06-08) · [rulings](https://api.scryfall.com/cards/83f90da4-9b01-431d-83b1-f54c132efec1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-02-01* — This has a triggered ability when it enters, not a replacement effect, as previously worded.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cm2/246/dormant-volcano) · oracle_id `38ba1956-5505-4a7a-b6af-e75715b1401f` · printing: CM2 #246 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dorothea, Vengeful Victim // Dorothea's Retribution
 
@@ -1693,7 +1863,9 @@
   > *"Each night as Master Dosan prays to the kami, the hate he receives in return withers his body a little more. Though the kami are slowly killing him, still he continues his prayers."*
   > *—Meditation journal of a young budoka*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6230 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/chk/205/dosan-the-falling-leaf) · oracle_id `70e4025f-41de-4b47-a590-3c922dc1e209` · printing: CHK #205 (2004-10-01) · [rulings](https://api.scryfall.com/cards/ffb190db-48fc-4c39-ae9f-5e304eabb4f4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-12-01* — Dosan’s ability only stops players from casting spells. It doesn’t stop activated or triggered abilities.
+- **Source flags:** [Scryfall](https://scryfall.com/card/chk/205/dosan-the-falling-leaf) · oracle_id `70e4025f-41de-4b47-a590-3c922dc1e209` · printing: CHK #205 (2004-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dose of Dawnglow
 
@@ -1785,7 +1957,16 @@
 - **Flavor text** (OTJ printing):
   > *The best alibi is being in multiple places at the same time.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6226 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/44/double-down) · oracle_id `60dd4233-ee50-42b8-88f5-ac5d105d83cd` · printing: OTJ #44 (2024-04-19) · [rulings](https://api.scryfall.com/cards/8ecccdf3-98c6-4aed-8757-913623efb677/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2024-04-12* — A card, spell, or permanent is an outlaw if it has the Assassin, Mercenary, Pirate, Rogue, or Warlock creature type. It doesn't matter if it has more than one of those creature types; as long as it has at least one, it's an outlaw.
+  - *2024-04-12* — As a copy of a permanent spell resolves, it's put onto the battlefield as a token rather than putting a copy of the spell onto the battlefield. The rules that apply to a permanent spell becoming a permanent apply to a copy of a spell becoming a token.
+  - *2024-04-12* — Double Down's ability and the copy it creates will resolve before the spell that caused it to trigger. They resolve even if that spell is countered.
+  - *2024-04-12* — Double Down's ability doesn't trigger if an outlaw permanent is put onto the battlefield without being cast.
+  - *2024-04-12* — If a spell has the kindred card type and one of the outlaw creature types, Double Down will copy it.
+  - *2024-04-12* — If an ability refers to an outlaw or whether a player controls an outlaw, it's referring only to permanents with one or more of the creature types specified above. Notably, it's not referring to any spell or card not on the battlefield. However, other abilities may refer to an "outlaw spell" or "outlaw card" in a zone other than the battlefield. Those abilities refer to spells and cards with one or more of the specified creature types.
+  - *2024-04-12* — Outlaw is not a creature type. If an effect asks you to choose a creature type, you can't choose outlaw.
+  - *2024-04-12* — The token that a resolving copy of a permanent spell becomes isn't "created." Abilities that refer to a token being created won't interact with the copy resolving.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/44/double-down) · oracle_id `60dd4233-ee50-42b8-88f5-ac5d105d83cd` · printing: OTJ #44 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Double-Faced Substitute Card
 
@@ -1832,7 +2013,10 @@
 - **Flavor text** (STX printing):
   > *"Now I can dedicate myself fully to zoetimancy and void theory!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3128 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/stx/179/double-major) · oracle_id `ece44a82-dcf0-4439-bdd9-a09c99a6f159` · printing: STX #179 (2021-04-23) · [rulings](https://api.scryfall.com/cards/c3d35413-8742-4443-8859-93c91112978d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-04-16* — If a creature spell is copied, it’s put onto the battlefield as a token as the spell resolves rather than putting the copy of the spell onto the battlefield. The rules that apply to a permanent spell becoming a permanent apply to a copy of a spell becoming a token.
+  - *2021-04-16* — The token that a resolving copy of a spell becomes isn’t said to have been “created.”
+- **Source flags:** [Scryfall](https://scryfall.com/card/stx/179/double-major) · oracle_id `ece44a82-dcf0-4439-bdd9-a09c99a6f159` · printing: STX #179 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Double Negative
 
@@ -1922,7 +2106,16 @@
 - **Flavor text** (NCC printing):
   > *"Your eyes aren't playing tricks on you. I am."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2787 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/267/double-vision) · oracle_id `6629a48b-be9a-4636-8add-69d096a1ca7e` · printing: NCC #267 (2022-04-29) · [rulings](https://api.scryfall.com/cards/1b597992-8e11-41a0-ac87-33fffd82b993/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2020-06-23* — A copy is created even if the spell that caused Double Vision's ability to trigger has been countered by the time that ability resolves. The copy resolves before the original spell.
+  - *2020-06-23* — Double Vision's ability will copy any instant or sorcery spell, not just one with targets.
+  - *2020-06-23* — If the spell that's copied has an X whose value was determined as it was cast, the copy has the same value of X.
+  - *2020-06-23* — If the spell that's copied is modal (that is, it says “Choose one —” or the like), the copy will have the same mode or modes. You can't choose different ones.
+  - *2020-06-23* — If you cast an instant or sorcery spell before Double Vision enters the battlefield during the same turn, its ability can't trigger that turn.
+  - *2020-06-23* — The copy that Double Vision's ability creates is created on the stack, so it's not “cast.” Abilities that trigger when a player casts a spell won't trigger.
+  - *2020-06-23* — The copy will have the same targets as the spell it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. The new targets must be legal.
+  - *2020-06-23* — You can't choose to pay any additional costs for the copy. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/267/double-vision) · oracle_id `6629a48b-be9a-4636-8add-69d096a1ca7e` · printing: NCC #267 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Doubling Chant
 
@@ -1945,7 +2138,11 @@
   > *The cube's surface is pockmarked with jagged runes that seem to shift when unobserved.*
 - **Keywords:** Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3455 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/10e/321/doubling-cube) · oracle_id `9afd8f12-0796-4500-aaa3-10b4a46ef6ec` · printing: 10E #321 (2007-07-13) · [rulings](https://api.scryfall.com/cards/3d946df5-f206-4241-bb55-97db67dc793c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-12-01* — Any restrictions on the unspent mana aren't copied. For example, if you have {C}{W}{W}{B} with no restrictions on it and {U}{U}{U} that can be used only to cast artifact spells, you'll end up with {C}{C}{W}{W}{W}{W}{B}{B}, {U}{U}{U} that can be used only to cast artifact spells, and {U}{U}{U} that can be used for anything.
+  - *2004-12-01* — Doubling Cube's ability is a mana ability.
+  - *2004-12-01* — The "type" of mana is its color, or lack thereof (if the mana is colorless).
+- **Source flags:** [Scryfall](https://scryfall.com/card/10e/321/doubling-cube) · oracle_id `9afd8f12-0796-4500-aaa3-10b4a46ef6ec` · printing: 10E #321 (2007-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Doubling Season
 
@@ -1987,7 +2184,10 @@
 - **Flavor text** (BLB printing):
   > *"Find your mooring and stop clogging the shipping lanes!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1535 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/47/dour-port-mage) · oracle_id `cf58e309-00e8-438e-813e-2e1c1002db23` · printing: BLB #47 (2024-08-02) · [rulings](https://api.scryfall.com/cards/6402133e-eed1-4a46-9667-8b7a310362c1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-07-26* — Dour Port-Mage’s first ability triggers whenever one or more creatures you control go to any zone other than the graveyard from the battlefield. They could be returned to your hand, your library, or exiled, for example.
+  - *2024-07-26* — If Dour-Port Mage leaves the battlefield at the same time one or more other creatures you control leave the battlefield without dying, its first ability will still trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/47/dour-port-mage) · oracle_id `cf58e309-00e8-438e-813e-2e1c1002db23` · printing: BLB #47 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Douse
 
@@ -2078,7 +2278,11 @@
   > Artifact, instant, and sorcery spells your opponents cast cost {1} more to cast.
   > −1: Until your next turn, prevent all damage that would be dealt to and dealt by target permanent an opponent controls.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8492 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/war/229/dovin-hand-of-control) · oracle_id `95bbe04c-bcea-461d-9946-6c1a35dfbeb1` · printing: WAR #229 (2019-05-03) · [rulings](https://api.scryfall.com/cards/bd6ff745-919b-4688-9e9e-ab7835b3b891/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-05-03* — Dovin’s loyalty ability can target any permanent an opponent controls, not just one that can deal or be dealt damage.
+  - *2019-05-03* — In a multiplayer game, if you leave the game after Dovin’s last ability resolves but before your next turn begins, its effect lasts until your next turn would have begun. It neither expires immediately nor lasts indefinitely.
+  - *2019-05-03* — Once Dovin’s loyalty ability resolves, the damage prevention continues to apply even if Dovin leaves the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/war/229/dovin-hand-of-control) · oracle_id `95bbe04c-bcea-461d-9946-6c1a35dfbeb1` · printing: WAR #229 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dovin's Acuity
 
@@ -2250,7 +2454,9 @@
   > *The pirates had ventured into the interior for treasure. They found something far greater.*
 - **Keywords:** Transform, Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2411 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/xln/235/dowsing-dagger-lost-vale) · oracle_id `df34a6ad-ae1c-4470-8c9e-49815bba1973` · printing: XLN #235 (2017-09-29) · [rulings](https://api.scryfall.com/cards/514d53be-6ade-4f73-a844-e9ae2dafd6ce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-09-29* — Attacking with an equipped creature doesn't cause Equipment attached to it to become tapped. Dowsing Dagger will normally be untapped when it transforms into Lost Vale.
+- **Source flags:** [Scryfall](https://scryfall.com/card/xln/235/dowsing-dagger-lost-vale) · oracle_id `df34a6ad-ae1c-4470-8c9e-49815bba1973` · printing: XLN #235 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dowsing Device // Geode Grotto
 
@@ -2266,7 +2472,9 @@
   > {2}{R}, {T}: Until end of turn, target creature gains haste and gets +X/+0, where X is the number of artifacts you control. Activate only as a sorcery.
 - **Keywords:** Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5651 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/146/dowsing-device-geode-grotto) · oracle_id `2f4374f6-c695-4a5d-a6d6-0e41eaa587ca` · printing: LCI #146 (2023-11-17) · [rulings](https://api.scryfall.com/cards/3d715e9f-223d-462e-8ce3-eebbaf1cd021/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-11-10* — The value of X for Geode Grotto's last ability is determined only as it resolves. Once that happens, the value of X won't change later in the turn even if the number of artifacts you control changes.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/146/dowsing-device-geode-grotto) · oracle_id `2f4374f6-c695-4a5d-a6d6-0e41eaa587ca` · printing: LCI #146 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dowsing Shaman
 

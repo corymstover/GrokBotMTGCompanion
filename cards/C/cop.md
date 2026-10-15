@@ -49,7 +49,9 @@
 - **Flavor text** (MAT printing):
   > *It was a time for rebuilding, but first Ikoria's wrecked cities had to be cleared of monsters.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4168 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mat/1/coppercoat-vanguard) · oracle_id `9f6fc734-4935-42d9-93a0-1b5ad8d8d277` · printing: MAT #1 (2023-05-12) · [rulings](https://api.scryfall.com/cards/d786f05d-78a2-41b6-a185-111e8c1b216b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-05-12* — Once a ward ability has triggered, causing that Human to lose ward by removing Coppercoat Vanguard won't affect that ability. The appropriate player will still have to pay {1} or see their spell or ability countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mat/1/coppercoat-vanguard) · oracle_id `9f6fc734-4935-42d9-93a0-1b5ad8d8d277` · printing: MAT #1 (2023-05-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Copper Gnomes
 
@@ -85,7 +87,10 @@
 - **Flavor text** (CN2 printing):
   > *Fangren spur may sound louder, but Viridian resurgents claim that the horn of the vorrac creates a truer, more inspiring note.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5633 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/179/copperhorn-scout) · oracle_id `3d2ea1a3-72af-48bc-a8f1-98facc2eebd0` · printing: CN2 #179 (2016-08-26) · [rulings](https://api.scryfall.com/cards/fd900b70-0957-4d81-ae25-dfa9343bd174/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2011-01-01* — As Copperhorn Scout’s ability resolves, you’ll untap each other creature you control regardless of whether that creature was attacking.
+  - *2011-01-01* — Untapping an attacking creature doesn’t cause it to stop attacking.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/179/copperhorn-scout) · oracle_id `3d2ea1a3-72af-48bc-a8f1-98facc2eebd0` · printing: CN2 #179 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Copper Host Crusher
 
@@ -126,7 +131,10 @@
 - **Flavor text** (ONE printing):
   > *Where fire meets ferocity, a greater evolution begins.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1501 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/249/copperline-gorge) · oracle_id `a05f641c-15c9-43dc-ae0d-1ea372fd33d5` · printing: ONE #249 (2023-02-10) · [rulings](https://api.scryfall.com/cards/78b0f36b-7d8c-4e77-adc2-a4dad93a81d5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-02-04* — If one of these lands enters the battlefield at the same time as one or more other lands (due to Oblivion Sower or Warp World, perhaps), it doesn't take those lands into consideration when determining how many other lands you control.
+  - *2023-02-04* — If one of these lands enters the battlefield under your control and you control zero, one, or two other lands, it enters the battlefield untapped. If you control three or more other lands, however, it enters the battlefield tapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/249/copperline-gorge) · oracle_id `a05f641c-15c9-43dc-ae0d-1ea372fd33d5` · printing: ONE #249 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Copper Longlegs
 
@@ -152,6 +160,7 @@
 - **Flavor text** (SOM printing):
   > *The myr are like verdigris: an ever-present patina on the surface of a metal world.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3609 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/som/146/copper-myr) · oracle_id `8b52f30c-5e38-4333-88ab-901b37105b36` · printing: SOM #146 (2010-10-01) · [rulings](https://api.scryfall.com/cards/323efe27-da58-4207-9c0c-dba5031bfa04/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Copper Tablet
@@ -170,7 +179,11 @@
 - **Oracle text:**
   > You may have this enchantment enter as a copy of any artifact on the battlefield, except it's an enchantment in addition to its other types.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4108 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/me4/44/copy-artifact) · oracle_id `80bc56a9-40e0-48da-ae86-190e39c8a4a3` · printing: ME4 #44 (2011-01-10) · [rulings](https://api.scryfall.com/cards/cd360a6c-6685-462b-8aee-b869c1e4aa89/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-10-04* — The artifact to copy is chosen at the time this card enters. If there is no valid artifact to choose, then this card enters as an enchantment that has no effect.
+  - *2004-10-04* — The copy is both an artifact and an enchantment, so it is an artifact-enchantment (perhaps even an artifact-creature-enchantment). It can be affected by anything which affects either type of permanent.
+  - *2004-10-04* — The copy of the artifact is not still blue. It copies the color of the thing it is copying.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me4/44/copy-artifact) · oracle_id `80bc56a9-40e0-48da-ae86-190e39c8a4a3` · printing: ME4 #44 (2011-01-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Copy Catchers
 
@@ -198,7 +211,18 @@
   > *The best hiding places are other people.*
 - **Keywords:** Connive
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5994 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/55/copycrook) · oracle_id `ce184565-71fb-4e23-b45b-8786727d21f7` · printing: MH3 #55 (2024-06-14) · [rulings](https://api.scryfall.com/cards/52ea5e71-d0a3-4065-918b-9b2af98589ba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2024-06-07* — Any enters-the-battlefield abilities of the copied creature will trigger when Copycrook enters the battlefield. Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the chosen permanent will also work.
+  - *2024-06-07* — Except for the listed exception, Copycrook copies exactly what was printed on the original creature and nothing more (unless that creature is itself copying something or is a token; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+  - *2024-06-07* — If Copycrook somehow enters the battlefield at the same time as another creature, Copycrook can't become a copy of that creature. You may choose only a creature that's already on the battlefield.
+  - *2024-06-07* — If a resolving spell or ability instructs a specific creature to connive but that creature has left the battlefield, the creature still connives. If you discard a nonland card this way, you won't put a +1/+1 counter on anything. Abilities that trigger "when [that creature] connives" will trigger.
+  - *2024-06-07* — If no card is discarded, most likely because that player's hand is empty and an effect says they can't draw cards, the conniving creature does not receive a +1/+1 counter.
+  - *2024-06-07* — If the chosen creature has {X} in its mana cost, X is 0.
+  - *2024-06-07* — If the chosen creature is copying something else (for example, if the chosen creature is a Clone), then your Copycrook enters the battlefield as whatever the chosen creature copied, with the listed exception.
+  - *2024-06-07* — If the chosen permanent is a token, Copycrook copies the original characteristics of that token as stated by the effect that put the token onto the battlefield, with the listed exception. Copycrook does not become a token.
+  - *2024-06-07* — Once an ability that causes a creature to connive begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the conniving creature after you discard a nonland card but before it receives a counter.
+  - *2024-06-07* — You can choose not to copy anything. In that case, Copycrook simply enters the battlefield as a 0/0 creature and is probably put into your graveyard immediately, unless something else is increasing its toughness to keep it alive. It won't have "Whenever this creature attacks, it connives."
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/55/copycrook) · oracle_id `ce184565-71fb-4e23-b45b-8786727d21f7` · printing: MH3 #55 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Copy Enchantment
 
@@ -209,7 +233,16 @@
 - **Flavor text** (RVR printing):
   > *Simic mages create redundant backups of their experiments to reduce the consequences of catastrophe.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2039 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/39/copy-enchantment) · oracle_id `87bc0b1f-49ef-4c06-9049-2c148b467882` · printing: RVR #39 (2024-01-12) · [rulings](https://api.scryfall.com/cards/ce82b316-8982-41bf-a990-6b776a9e83ac/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2023-09-01* — Any enters-the-battlefield abilities of the copied permanent will trigger when Copy Enchantment enters the battlefield. Any "as [this enchantment] enters the battlefield" or "[this enchantment] enters the battlefield with" abilities of the chosen permanent will also work.
+  - *2023-09-01* — Copy Enchantment copies exactly what was printed on the original permanent and nothing more (unless that permanent is itself copying something or is a token; see below). It doesn't copy whether that permanent is tapped or untapped, whether it has any counters on it or Auras attached to it, or any noncopy effects that have changed its power, toughness, types, color, and so on.
+  - *2023-09-01* — If Copy Enchantment copies an Aura this way, you choose what the Aura will enchant just before it enters the battlefield. You can't choose any permanents entering the battlefield at the same time as that Aura. This doesn't target the player or permanent it will enchant, so an opponent's permanent with hexproof may be chosen this way. The chosen recipient must be able to legally be enchanted by the Aura, so a player or permanent with protection from one of the Aura's qualities can't be chosen this way. If there's nothing legal for the Aura to enchant, Copy Enchantment stays in its current zone (unless it's a spell, in which case it's put into its owner's graveyard).
+  - *2023-09-01* — If Copy Enchantment somehow enters the battlefield at the same time as another permanent, Copy Enchantment can't become a copy of that permanent. You may choose only a permanent that's already on the battlefield.
+  - *2023-09-01* — If the chosen permanent has {X} in its mana cost, X is 0.
+  - *2023-09-01* — If the chosen permanent is a token, Copy Enchantment copies the original characteristics of that token as stated by the effect that created the token. Copy Enchantment does not become a token.
+  - *2023-09-01* — If the chosen permanent is copying something else (for example, if the chosen permanent is another Copy Enchantment), then your Copy Enchantment enters the battlefield as whatever the chosen permanent copied.
+  - *2023-09-01* — You can choose not to copy anything. In that case, Copy Enchantment simply enters the battlefield as an enchantment with an irrelevant ability. We're sure you had your reasons.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/39/copy-enchantment) · oracle_id `87bc0b1f-49ef-4c06-9049-2c148b467882` · printing: RVR #39 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Copy Land
 
@@ -221,4 +254,12 @@
   > *"Most mortals are blissfully ignorant of the thin veil that separates their world from the Underworld."*
   > *—Ephara*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6288 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m3c/47/copy-land) · oracle_id `caa208bd-92e9-40ec-95c0-86e89d4facbb` · printing: M3C #47 (2024-06-14) · [rulings](https://api.scryfall.com/cards/c3d44c0e-733b-4ad3-b45b-6a3b09c12fb0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2024-06-07* — Any enters-the-battlefield abilities of the copied permanent will trigger when Copy Land enters the battlefield. Any "as [this land] enters the battlefield" or "[this land] enters the battlefield with" abilities of the chosen permanent will also work.
+  - *2024-06-07* — Copy Land copies exactly what was printed on the original permanent and nothing more, with the listed exception (unless that permanent is itself copying something or is a token; see below). It doesn't copy whether that permanent is tapped or untapped, whether it has any counters on it or Auras attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+  - *2024-06-07* — If Copy Land somehow enters the battlefield at the same time as another permanent, Copy Land can't become a copy of that permanent. You may choose only a permanent that's already on the battlefield.
+  - *2024-06-07* — If the chosen permanent is a token, Copy Land copies the original characteristics of that token as stated by the effect that created the token, with the listed exception. Copy Land does not become a token.
+  - *2024-06-07* — If the chosen permanent is copying something else (for example, if the chosen permanent is another Copy Land), then your Copy Land enters the battlefield as whatever the chosen permanent copied, with the listed exception.
+  - *2024-06-07* — In the unusual case where the chosen permanent has {X} in its mana cost, X is 0.
+  - *2024-06-07* — You can choose not to copy anything. In that case, Copy Land simply enters the battlefield as an enchantment with an irrelevant ability. We're sure you had your reasons.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m3c/47/copy-land) · oracle_id `caa208bd-92e9-40ec-95c0-86e89d4facbb` · printing: M3C #47 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

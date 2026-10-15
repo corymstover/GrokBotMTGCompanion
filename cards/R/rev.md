@@ -85,7 +85,15 @@
   > Evoke {5}{W} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters.)
 - **Keywords:** Flying, Evoke
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3658 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/26/reveillark) · oracle_id `1be13ede-98f8-497e-800c-03e5802932b3` · printing: 2X2 #26 (2022-07-08) · [rulings](https://api.scryfall.com/cards/53b4dcd6-b1b6-4f1c-9264-e58bdc87399b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2008-04-01* — Effects that cause you to pay more or less to cast a spell will cause you to pay that much more or less while casting it for its evoke cost, too. That's because they affect the total cost of the spell, not its mana cost.
+  - *2008-04-01* — Evoke doesn't change the timing of when you can cast the creature that has it. If you could cast that creature spell only when you could cast a sorcery, the same is true for cast it with evoke.
+  - *2008-04-01* — If a creature spell cast with evoke changes controllers before it enters, it will still be sacrificed when it enters. Similarly, if a creature cast with evoke changes controllers after it enters but before its sacrifice ability resolves, it will still be sacrificed. In both cases, the controller of the creature at the time it left the battlefield will control its leaves-the-battlefield ability.
+  - *2008-04-01* — If you're casting a spell "without paying its mana cost," you can't use its evoke ability.
+  - *2008-04-01* — When you cast a spell by paying its evoke cost, its mana cost doesn't change. You just pay the evoke cost instead.
+  - *2008-04-01* — Whether evoke's sacrifice ability triggers when the creature enters depends on whether the spell's controller chose to pay the evoke cost, not whether they actually paid it (if it was reduced or otherwise altered by another ability, for example).
+  - *2018-12-07* — Reveillark's ability may target zero, one, or two creature cards in your graveyard. Each target must have power 2 or less.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/26/reveillark) · oracle_id `1be13ede-98f8-497e-800c-03e5802932b3` · printing: 2X2 #26 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reveille Squad
 
@@ -143,7 +151,12 @@
   > At the beginning of your upkeep, if you control ten or more Treasures, you win the game.
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1162 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/xln/117/revel-in-riches) · oracle_id `cc3fcd26-c088-4335-9a35-0e11019e3d5b` · printing: XLN #117 (2017-09-29) · [rulings](https://api.scryfall.com/cards/79b0e035-8716-469d-99ae-a530cd96ef09/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2017-09-29* — If an opponent's creature dies at the same time that Revel in Riches is destroyed, you'll get a Treasure.
+  - *2017-09-29* — If the second ability of Revel in Riches causes you to win the game, please refrain from throwing your Treasure tokens into the air as this may distract or injure other players.
+  - *2017-09-29* — If you don't control ten Treasures as the second ability of Revel in Riches resolves, you won't win the game.
+  - *2017-09-29* — If you don't control ten Treasures as your upkeep begins, the second ability of Revel in Riches won't trigger. You can't take any actions during your turn before your upkeep begins.
+- **Source flags:** [Scryfall](https://scryfall.com/card/xln/117/revel-in-riches) · oracle_id `cc3fcd26-c088-4335-9a35-0e11019e3d5b` · printing: XLN #117 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Revel of the Fallen God
 
@@ -215,7 +228,9 @@
 - **Flavor text** (ELD printing):
   > *Syr Tasdale declared that he never wanted to see the witch Ygretta again. Her familiars quickly granted his request.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2910 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eld/104/revenge-of-ravens) · oracle_id `dd96f145-73eb-4a6d-bcfd-5d6313fac1f9` · printing: ELD #104 (2019-10-04) · [rulings](https://api.scryfall.com/cards/3474289a-193e-452d-b248-e53ee99e22c0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-10-04* — The triggered ability of Revenge of Ravens resolves before any abilities the attacking player controls. If this causes the attacking player to lose the game, that player's triggered abilities won't resolve and no combat damage will be dealt.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eld/104/revenge-of-ravens) · oracle_id `dd96f145-73eb-4a6d-bcfd-5d6313fac1f9` · printing: ELD #104 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Revenge of the Drowned
 
@@ -251,7 +266,14 @@
   > *—Entry in a heavily chewed journal*
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6125 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/67/revenge-of-the-rats) · oracle_id `29e3a3d9-4839-44d0-ad48-159c01645a6a` · printing: FDN #67 (2024-11-15) · [rulings](https://api.scryfall.com/cards/1f463c55-39a0-4f2f-aae3-0c5540bde5b7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2024-11-08* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2024-11-08* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2024-11-08* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2024-11-08* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2024-11-08* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/67/revenge-of-the-rats) · oracle_id `29e3a3d9-4839-44d0-ad48-159c01645a6a` · printing: FDN #67 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reverberate
 
@@ -262,7 +284,15 @@
 - **Flavor text** (M13 printing):
   > *"Not bad, but I can think of a better use for that."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1425 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m13/145/reverberate) · oracle_id `a1f55890-31c5-4ed4-a2cd-7a4a9f05f8ca` · printing: M13 #145 (2012-07-13) · [rulings](https://api.scryfall.com/cards/5996feb4-02ac-45e8-a7f2-966cf74391dc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2010-08-15* — If the copy says that it affects "you," it affects the controller of the copy, not the controller of the original spell. Similarly, if the copy says that it affects an "opponent," it affects an opponent of the copy's controller, not an opponent of the original spell's controller.
+  - *2010-08-15* — If the spell Reverberate copies has an X whose value was determined as it was cast (like Earthquake does), the copy has the same value of X.
+  - *2010-08-15* — If the spell Reverberate copies is modal (that is, it says "Choose one —" or the like), the copy will have the same mode. You can't choose a different one.
+  - *2010-08-15* — Reverberate can target (and copy) any instant or sorcery spell, not just one with targets. It doesn't matter who controls it.
+  - *2010-08-15* — The copy will have the same targets as the spell it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
+  - *2010-08-15* — When Reverberate resolves, it creates a copy of a spell. You control the copy. That copy is created on the stack, so it's not "cast." Abilities that trigger when a player casts a spell won't trigger. The copy will then resolve like a normal spell, after players get a chance to cast spells and activate abilities.
+  - *2010-08-15* — You can't choose to pay any additional costs for the copy. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too. For example, if a player sacrifices a 3/3 creature to cast Fling, and you copy it with Reverberate, the copy of Fling will also deal 3 damage to its target.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m13/145/reverberate) · oracle_id `a1f55890-31c5-4ed4-a2cd-7a4a9f05f8ca` · printing: M13 #145 (2012-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reverberating Summons
 
@@ -346,7 +376,13 @@
 - **Flavor text** (THB printing):
   > *"Zeal is the sharpest blade, and piety the strongest shield."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5827 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/33/reverent-hoplite) · oracle_id `8cb6dbb5-9ea2-4c19-8173-148080fb898e` · printing: THB #33 (2020-01-24) · [rulings](https://api.scryfall.com/cards/54153b9c-483e-4e5c-a1ab-b1c8a7a657d4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2020-01-24* — Colorless and generic mana symbols ({C}, {0}, {1}, {2}, {X}, and so on) in mana costs of permanents you control don’t count toward your devotion to any color.
+  - *2020-01-24* — Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s).
+  - *2020-01-24* — If an activated ability or triggered ability has an effect that depends on your devotion to a color, you count the number of mana symbols of that color among the mana costs of permanents you control as the ability resolves. The permanent with that ability will be counted if it’s still on the battlefield at that time.
+  - *2020-01-24* — If you put an Aura on an opponent’s permanent, you still control the Aura, and mana symbols in its mana cost count towards your devotion.
+  - *2020-01-24* — Mana symbols in the text boxes of permanents you control don’t count toward your devotion to any color.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/33/reverent-hoplite) · oracle_id `8cb6dbb5-9ea2-4c19-8173-148080fb898e` · printing: THB #33 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reverent Howl
 
@@ -425,7 +461,16 @@
   > *The Hold, an illegal research facility in a derelict merchant ship, became a wellspring of renegade intelligence.*
 - **Keywords:** Improvise
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8029 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/116/reverse-engineer) · oracle_id `f56596be-e12f-4ab6-af61-3ef8dc87134c` · printing: CMM #116 (2023-08-04) · [rulings](https://api.scryfall.com/cards/07fff0a3-1315-42f7-9d36-4f5eaad0c62e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2018-07-13* — Equipment attached to a creature doesn't become tapped when that creature becomes tapped, and tapping that Equipment doesn't cause the creature to become tapped.
+  - *2018-07-13* — If an artifact you control has a mana ability with {T} in the cost, activating that ability while casting a spell with improvise will result in the artifact being tapped when you pay the spell's costs. You won't be able to tap it again for improvise. Similarly, if you sacrifice an artifact to activate a mana ability while casting a spell with improvise, that artifact won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for improvise.
+  - *2018-07-13* — Improvise can't be used to pay for anything other than the cost of casting the spell. For example, it can't be used during the resolution of an ability that says “Counter target spell unless its controller pays {3}.”
+  - *2018-07-13* — Improvise can't pay for {W}, {U}, {B}, {R}, {G}, or {C} mana symbols in a spell's total cost.
+  - *2018-07-13* — Improvise doesn't change a spell's mana cost or mana value.
+  - *2018-07-13* — Tapping an artifact won't cause its abilities to stop applying unless those abilities say so.
+  - *2018-07-13* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Improvise applies after the total cost is calculated.
+  - *2018-07-13* — When using improvise to cast a spell with {X} in its mana cost, first choose the value for X. That choice, plus any cost increases or decreases, will determine the spell's total cost. Then you can tap artifacts you control to help pay that cost. For example, if you cast Saheeli's Directive and choose X to be 3, the total cost is {3}{R}{R}{R}. If you tap two artifacts, you'll have to pay {1}{R}{R}{R}.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/116/reverse-engineer) · oracle_id `f56596be-e12f-4ab6-af61-3ef8dc87134c` · printing: CMM #116 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reverse Ninja
 
@@ -460,7 +505,10 @@
 - **Flavor text** (WHO printing):
   > *"You see, before you reactivated it, I reversed the polarity of the neutron flow."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5117 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/54/reverse-the-polarity) · oracle_id `4499d8cd-d090-4acc-a1d9-3d9d9b6ef768` · printing: WHO #54 (2023-10-13) · [rulings](https://api.scryfall.com/cards/76f3ea66-555c-490d-b34f-12c267bc4e9b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-10-13* — Because damage remains marked on a creature until the cleanup step or an effect removes that damage, nonlethal damage dealt to a creature may become lethal if you switch its power and toughness during that turn.
+  - *2023-10-13* — Effects that switch a creature's power and toughness apply after all other effects, regardless of when those effects began to apply. For instance, if you switch a 2/4 creature's power and toughness and then give it +2/+0 later in the turn, it's a 4/4 creature, not a 6/2 creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/54/reverse-the-polarity) · oracle_id `4499d8cd-d090-4acc-a1d9-3d9d9b6ef768` · printing: WHO #54 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reverse the Sands
 
@@ -483,6 +531,7 @@
 - **Flavor text** (KHM printing):
   > *Esika alone knows how to distill the essence of the World Tree into the Cosmos Elixir, a magical substance which grants the Skoti god-family immortality.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4225 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/23/revitalize) · oracle_id `b1385b03-cb4b-4812-857f-7421f1df39af` · printing: KHM #23 (2021-02-05) · [rulings](https://api.scryfall.com/cards/3a9fb75e-c8e5-417b-83d4-5105af9c66c1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Revitalizing Repast // Old-Growth Grove
@@ -540,7 +589,17 @@
   > Double your life total. Target opponent loses half their life, rounded up.
 - **Keywords:** Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6231 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/241/revival-revenge) · oracle_id `836ecd67-6487-4f3d-9e08-013746be829a` · printing: RVR #241 (2024-01-12) · [rulings](https://api.scryfall.com/cards/e33b265d-1956-48d0-91d5-036f06dd816a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2019-01-25* — If a card in a graveyard has {X} in its mana cost, X is considered to be 0.
+  - *2019-01-25* — To double a player's life total, that player gains as much life as needed so that their life total is twice the number it was before. If their life total was negative, that player loses as much life as needed so that their life total is twice as far below 0 as it was before. Other effects interact with this life gain or loss accordingly.
+  - *2022-12-08* — A split card's characteristics are a combination of its two halves while it is not on the stack. For example, Assault // Battery has a mana value of 5 while it is in your library. If an effect allows you to search your library for a card with mana value 4 or less, you can't find Assault // Battery.
+  - *2022-12-08* — Each split card has two names. If an effect instructs you to choose a card name, you may choose one of those names, but not both.
+  - *2022-12-08* — Each split card is a single card. For example, if you discard a split card, you've discarded one card, not two. If an effect counts the number of sorcery cards in your graveyard, Assault // Battery counts once, not twice.
+  - *2022-12-08* — If an effect allows you to cast a spell with certain characteristics, consider only the characteristics of the half you're casting. For example, if an effect allows you to cast a sorcery spell with mana value 2 or less from among cards in your graveyard, you could cast Assault this way, but not Battery.
+  - *2022-12-08* — If you copy a spell that's half of a split card, the copy copies that same half. For example, if you copy Assault, the copy is also Assault, not Battery.
+  - *2022-12-08* — Split cards have two card faces on a single card. The characteristics of the half you didn't cast are ignored while the spell is on the stack.
+  - *2022-12-08* — To cast a split card, choose one of its halves to cast. There's no way to cast both halves of this split card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/241/revival-revenge) · oracle_id `836ecd67-6487-4f3d-9e08-013746be829a` · printing: RVR #241 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Revive
 
@@ -573,7 +632,12 @@
   > *In the Party Field, a beautiful young sapling leaped up: it was indeed a \*mallorn\*, and it was the wonder of the neighborhood.*
 - **Keywords:** Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2984 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/185/revive-the-shire) · oracle_id `67afcfef-3f0c-4823-b690-01732f28a005` · printing: LTR #185 (2023-06-23) · [rulings](https://api.scryfall.com/cards/46b7f493-1b57-4b07-8510-30703282f879/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Some spells and abilities that create Food tokens may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Food tokens.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/185/revive-the-shire) · oracle_id `67afcfef-3f0c-4823-b690-01732f28a005` · printing: LTR #185 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Revivify
 
@@ -584,6 +648,7 @@
   > 1—14 | Return all creature cards in your graveyard that were put there from the battlefield this turn to your hand.
   > 15+ | Return those cards from your graveyard to the battlefield.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8360 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/afc/10/revivify) · oracle_id `55eb3c21-6834-4c62-8ab9-54b901531fed` · printing: AFC #10 (2021-07-23) · [rulings](https://api.scryfall.com/cards/6d21fb27-e821-4ce1-8f34-fc5d6c69d779/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reviving Dose
@@ -642,6 +707,7 @@
   > *"The time has come for us to throw off the chains of tyrannical gods and antiquated superstitions."*
   > *—Tikaia, disciple of Uremides*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8196 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/28/revoke-existence) · oracle_id `289e1a7c-b301-4395-baf8-e9a1c6d38aab` · printing: 2XM #28 (2020-08-07) · [rulings](https://api.scryfall.com/cards/7bd4fc26-8351-4371-948b-f43346c3e771/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Revoke Privileges
@@ -690,4 +756,9 @@
   > Whenever one or more creatures you control deal combat damage to a player, create a Treasure token, then look at the top card of that player's library and exile it face down. You may cast that card for as long as it remains exiled. (A Treasure token is an artifact with "{T}, Sacrifice this token: Add one mana of any color.")
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2297 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/plst/J25-45/rev-tithe-extractor) · oracle_id `8345eb05-c04e-4c1d-9776-5ab7d91a7842` · printing: PLST #J25-45 (2026-10-19) · [rulings](https://api.scryfall.com/cards/34d75399-02e1-4ab8-9493-70c1d9d28b42/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-11-08* — An effect that instructs you to "cast" a card doesn't allow you to play lands.
+  - *2024-11-08* — If you leave the game, cards exiled face down with Rev's last ability remain exiled face down indefinitely. No player may look at them.
+  - *2024-11-08* — You may look at and cast cards exiled face down with Rev's last ability even if Rev leaves the battlefield. If another player gains control of Rev, that player can't look at or cast the cards you exiled with its last ability, and you still can.
+  - *2024-11-08* — You pay all costs and follow all timing rules for spells cast with the permission granted by Rev's last ability. For example, if the exiled card is a sorcery, you may cast it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/plst/J25-45/rev-tithe-extractor) · oracle_id `8345eb05-c04e-4c1d-9776-5ab7d91a7842` · printing: PLST #J25-45 (2026-10-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

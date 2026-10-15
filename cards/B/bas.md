@@ -59,7 +59,10 @@
   > *"Fascinating . . . These creatures display the paradox of tenacity and purposed self-destruction I have sought to breed into my thrulls."*
   > *—Endrek Sahr, master breeder*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8987 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsp/96/basal-sliver) · oracle_id `18e7ba0d-88a5-466b-9228-d3f5aae8f83e` · printing: TSP #96 (2006-10-06) · [rulings](https://api.scryfall.com/cards/4564e9df-bfa3-48e5-a12e-f7e96a504cb1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-07-01* — Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn’t provide any additional benefit.
+  - *2013-07-01* — If the creature type of a Sliver changes so it’s no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsp/96/basal-sliver) · oracle_id `18e7ba0d-88a5-466b-9228-d3f5aae8f83e` · printing: TSP #96 (2006-10-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Basalt Gargoyle
 
@@ -235,7 +238,12 @@
   > *A screech in the night is all it takes for Orzhov debtors to clutch at their coin purses.*
 - **Keywords:** Flying, Extort
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7114 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/105/basilica-screecher) · oracle_id `752ebcba-97fb-43a3-8811-d244164b3e16` · printing: CLU #105 (2024-02-23) · [rulings](https://api.scryfall.com/cards/5b28ac31-7ac0-458d-937c-75ff8ecd92cb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-01-12* — The amount of life you gain from extort is based on the total amount of life lost, not necessarily the number of opponents you have. For example, if your opponent's life total can't change (perhaps because that player controls Platinum Emperion), you won't gain any life.
+  - *2024-01-12* — The extort ability doesn't target any player.
+  - *2024-01-12* — The extort ability resolves before the spell that caused it to trigger. The ability resolves even if that spell is countered.
+  - *2024-01-12* — You may pay {W/B} a maximum of one time for each extort triggered ability. You decide whether to pay when the ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/105/basilica-screecher) · oracle_id `752ebcba-97fb-43a3-8811-d244164b3e16` · printing: CLU #105 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Basilica Shepherd
 
@@ -296,6 +304,7 @@
 - **Flavor text** (CLB printing):
   > *The eastern passage into the city is filled with reminders that the patriars are literally looking down on you.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2920 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/346/basilisk-gate) · oracle_id `8733a4fc-4068-4af4-9598-dc3d895e8556` · printing: CLB #346 (2022-06-10) · [rulings](https://api.scryfall.com/cards/4a306025-d429-4006-b7ed-bdb287e83f57/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Basim Ibn Ishaq
@@ -309,7 +318,12 @@
 - **Flavor text** (ACR printing):
   > *Haunted by memories he never had, of a family that was never his.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3188 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/acr/49/basim-ibn-ishaq) · oracle_id `8a70bde5-c514-4dcf-919a-48bdd1c17768` · printing: ACR #49 (2024-07-05) · [rulings](https://api.scryfall.com/cards/f8aa19c1-4e87-4f42-814c-490e75565f6e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-07-05* — A card, spell, or permanent is historic if it has the legendary supertype, the artifact card type, or the Saga subtype. Having two of those qualities doesn’t make an object more historic than another or provide an additional bonus—an object either is historic or it isn’t.
+  - *2024-07-05* — An ability that triggers “whenever you cast a historic spell” doesn’t trigger if a historic card is put onto the battlefield without being cast.
+  - *2024-07-05* — Lands are never cast, so abilities that trigger “whenever you cast a historic spell” won’t trigger if you play a legendary land. They also won’t trigger if a card on the battlefield transforms into a card with the legendary supertype, the artifact card type, or the Saga subtype.
+  - *2024-07-05* — Some abilities trigger “whenever you cast a historic spell.” Such an ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/acr/49/basim-ibn-ishaq) · oracle_id `8a70bde5-c514-4dcf-919a-48bdd1c17768` · printing: ACR #49 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ba Sing Se
 
@@ -321,7 +335,15 @@
   > {2}{G}, {T}: Earthbend 2. Activate only as a sorcery. (Target land you control becomes a 0/0 creature with haste that's still a land. Put two +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.)
 - **Keywords:** Earthbend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1634 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/266/ba-sing-se) · oracle_id `de1ae205-ca5b-4d26-8194-ca85f1406e53` · printing: TLA #266 (2025-11-21) · [rulings](https://api.scryfall.com/cards/bdf3b2be-d0cd-4a3c-a10e-82d32c12d3bd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2025-10-02* — "Earthbend N" means "Target land you control becomes a 0/0 land creature with haste in addition to its other types. Put N +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped under your control."
+  - *2025-10-02* — Earthbend doesn't give the land you control a color. As most lands are colorless, in most cases the resulting land creature will also be colorless.
+  - *2025-10-02* — If a land was animated by earthbend and would go to any zone other than the graveyard or exile, it will not be returned to the battlefield by the delayed triggered ability created by earthbend.
+  - *2025-10-02* — If one of these lands enters at the same time as any number of basic lands, those other lands are not counted when determining if this land enters tapped or untapped.
+  - *2025-10-02* — If the targeted land becomes an illegal target before the spell or ability that includes earthbend resolves, earthbend does nothing. If the spell or ability didn't have other targets, it won't resolve.
+  - *2025-10-02* — The land will retain any other types, subtypes, or supertypes it previously had. It will also retain any mana abilities it had as a result of those subtypes. For example, a Forest that's turned into a creature this way can still be tapped for {G}.
+  - *2025-10-02* — You may target a land that is already a creature, perhaps because of a previous earthbend ability. The land will get the +1/+1 counters, gain haste, and have its base power and toughness set to 0/0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/266/ba-sing-se) · oracle_id `de1ae205-ca5b-4d26-8194-ca85f1406e53` · printing: TLA #266 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Basking Broodscale
 
@@ -334,7 +356,15 @@
   > Whenever one or more +1/+1 counters are put on this creature, you may create a 0/1 colorless Eldrazi Spawn creature token with "Sacrifice this token: Add {C}."
 - **Keywords:** Devoid, Adapt
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2126 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/145/basking-broodscale) · oracle_id `a7c69802-99c4-4778-934e-cc09ba58c267` · printing: MH3 #145 (2024-06-14) · [rulings](https://api.scryfall.com/cards/5feba5d6-99a6-4e9b-8a7d-90d955868fc3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2024-06-07* — A card with devoid is just colorless. It's not colorless and the colors of mana in its mana cost.
+  - *2024-06-07* — Devoid doesn't affect the color identity of the card for the purposes of the Commander variant. For example, while Abstruse Appropriation is colorless because it has devoid, its color identity is still white and black, and it can't be included in a Commander deck where the commander's color identity doesn't include both white and black.
+  - *2024-06-07* — Devoid works in all zones, not just on the battlefield.
+  - *2024-06-07* — If a card loses devoid, it will still be colorless. This is because effects that change an object's color (like the one created by devoid) are considered before the object loses devoid.
+  - *2024-06-07* — If a creature somehow loses all of its +1/+1 counters, it can adapt again and get more +1/+1 counters.
+  - *2024-06-07* — Other cards and abilities can give a card with devoid a color. If that happens, it's just the new color, not that color and colorless.
+  - *2024-06-07* — You can always activate an ability that will cause a creature to adapt. As that ability resolves, if the creature has a +1/+1 counter on it for any reason, you simply won't put any +1/+1 counters on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/145/basking-broodscale) · oracle_id `a7c69802-99c4-4778-934e-cc09ba58c267` · printing: MH3 #145 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Basking Capybara
 
@@ -384,7 +414,13 @@
   > −2: Whenever one or more nontoken creatures attack this turn, create that many 1/1 white Soldier creature tokens that are tapped and attacking.
   > −6: You get an emblem with "At the beginning of combat on your turn, create a 1/1 white Soldier creature token, then put a +1/+1 counter on each creature you control."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7045 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m21/7/basri-ket) · oracle_id `497d7ab8-07f1-4c8a-a45a-52b9a4d9400f` · printing: M21 #7 (2020-07-03) · [rulings](https://api.scryfall.com/cards/98c85699-2daf-4e87-a3be-465d02bd64bb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2020-06-23* — Although the Soldiers are attacking creatures, they were never declared as attacking creatures. This means that abilities that trigger whenever a creature attacks won't trigger when the Soldiers enter the battlefield attacking.
+  - *2020-06-23* — Any effects that say that the Soldiers can't attack (such as that of Propaganda) affect only the declaration of attackers. They won't stop the Soldier tokens from entering the battlefield attacking.
+  - *2020-06-23* — The Soldier token created by Basri's last ability can't attack during the turn you create it unless it gains haste somehow.
+  - *2020-06-23* — The delayed triggered ability of Basri's second ability triggers if any nontoken creatures attack, and it counts how many nontoken creatures attacked. Attacking nontoken creatures that leave combat before the triggered ability resolves are counted. Token creatures that are attacking don't stop the ability from triggering and aren't counted.
+  - *2020-06-23* — You choose which player or planeswalker each Soldier token is attacking. They don't have to be attacking the same players or planeswalkers that the nontoken creatures are attacking, and they don't have to be attacking the same player or planeswalker as each other.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m21/7/basri-ket) · oracle_id `497d7ab8-07f1-4c8a-a45a-52b9a4d9400f` · printing: M21 #7 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Basri's Acolyte
 
@@ -423,7 +459,12 @@
   > Whenever this creature or another creature you control dies, if it had a +1/+1 counter on it, create a 2/2 white Knight creature token with vigilance.
 - **Keywords:** Vigilance, Protection
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8347 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m21/9/basris-lieutenant) · oracle_id `57d0c688-6206-4c83-9fcb-27fd29e2a9ed` · printing: M21 #9 (2020-07-03) · [rulings](https://api.scryfall.com/cards/74b1eae0-1bf8-4922-a9e3-45c01ece9005/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-06-23* — Basri's Lieutenant can be the target of its own enters-the-battlefield triggered ability.
+  - *2020-06-23* — If Basri's Lieutenant dies at the same time as other creatures, its last ability will trigger for any of the creatures that had a +1/+1 counter on it, including itself.
+  - *2020-06-23* — If a creature with +1/+1 counters on it receives a greater or equal number of -1/-1 counters and this causes it to be destroyed by lethal damage or put into its owner's graveyard for having 0 or less toughness, the last ability triggers. This is because the ability checks the creature as it last existed on the battlefield, and it still had those counters on it at that point.
+  - *2020-06-23* — The second triggered ability of Basri's Lieutenant triggers just once if the dying creature has +1/+1 counters on it, no matter how many of those counters it has.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m21/9/basris-lieutenant) · oracle_id `57d0c688-6206-4c83-9fcb-27fd29e2a9ed` · printing: M21 #9 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Basri's Solidarity
 
@@ -528,7 +569,11 @@
   > *"Director Fury's not receiving visitors today."*
   > *—Agent Gabe Jones*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #935 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/122/bastion-protector) · oracle_id `858f53ef-3fec-4aa0-867d-b7f040614b3c` · printing: MSC #122 (2026-06-26) · [rulings](https://api.scryfall.com/cards/1582488a-ad15-487e-9271-6d9330b46fb4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2015-11-04* — A "commander creature" is a permanent that's both someone's commander and a creature.
+  - *2015-11-04* — Bastion Protector's ability applies to any commander creature you control, whether you own it or not.
+  - *2015-11-04* — Bastion Protector's ability doesn't apply to commanders that aren't currently creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/122/bastion-protector) · oracle_id `858f53ef-3fec-4aa0-867d-b7f040614b3c` · printing: MSC #122 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bast, Panther Goddess
 

@@ -116,7 +116,13 @@
   > Landfall — Whenever a land you control enters, if it's your main phase, there's an additional combat phase after this phase. At the beginning of that combat, untap all creatures you control.
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #972 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/89/moraug-fury-of-akoum) · oracle_id `6288c0cb-cf32-4ae9-abf0-104ec71654fa` · printing: EOC #89 (2025-08-01) · [rulings](https://api.scryfall.com/cards/4481eab8-9e7d-4db8-b1f2-fdf5ee1919a2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2020-09-25* — A creature that enters the battlefield attacking hasn't attacked that combat. Moraug's ability won't count that combat. Unless that creature has haste, it won't be able to attack in additional combats this turn.
+  - *2020-09-25* — If the landfall ability resolves during your precombat main phase, the additional combat phase will happen before your regular combat phase. You'll untap creatures you control at the beginning of the additional combat but not at the beginning of your regular combat.
+  - *2020-09-25* — Moraug's first ability checks each turn how many times each creature has attacked. It counts times that creature attacked before Moraug was on the battlefield, and it stops applying if Moraug leaves the battlefield.
+  - *2020-09-25* — Moraug's first ability counts how many times a creature has attacked, not how many times it has dealt damage. The first time a creature attacks in a turn, the +1/+0 bonus will apply to the combat damage it deals during that combat.
+  - *2020-09-25* — There won't be an additional main phase after the additional combat phase. For example, if the landfall ability resolves twice during your postcombat main phase, you'll get two consecutive additional combat phases after your main phase (untapping your creatures at the beginning of each), followed by your ending phase.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/89/moraug-fury-of-akoum) · oracle_id `6288c0cb-cf32-4ae9-abf0-104ec71654fa` · printing: EOC #89 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Morbid Bloom
 
@@ -140,7 +146,11 @@
 - **Flavor text** (BBD printing):
   > *"Every creation carries a piece of its creators. Their knowledge, their dreams, their soul. That is the best part."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8383 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/149/morbid-curiosity) · oracle_id `59c620fb-a58d-4038-a7e2-0185324b5123` · printing: BBD #149 (2018-06-08) · [rulings](https://api.scryfall.com/cards/03898f46-a26c-4765-8f1e-ea976fc53d7e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2016-09-20* — If a permanent has {X} in its mana cost, X is considered to be 0.
+  - *2016-09-20* — If an effect copies Morbid Curiosity, the controller of the copy will draw the same number of cards as determined by the original. Its controller can't and doesn't have to sacrifice a permanent.
+  - *2016-09-20* — To determine how many cards to draw, use the mana value of the permanent immediately before you sacrificed it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/149/morbid-curiosity) · oracle_id `59c620fb-a58d-4038-a7e2-0185324b5123` · printing: BBD #149 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Morbid Hunger
 
@@ -215,6 +225,7 @@
   > *"Despite recent alliances, we must never forget the ideals of perfection which define us."*
   > *—High Perfect's decree*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5400 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/236/morcants-loyalist) · oracle_id `b2c30683-cc7f-4341-add1-b08cb9b93eeb` · printing: ECL #236 (2026-01-23) · [rulings](https://api.scryfall.com/cards/175c6b1c-8790-41a2-ae15-5031206c410f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mordant Dragon
@@ -240,7 +251,10 @@
   > −2: Create a blue Dog Illusion creature token with "This token's power and toughness are each equal to twice the number of cards in your hand."
   > −10: Exchange your hand and library, then shuffle. You get an emblem with "You have no maximum hand size."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8079 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/64/mordenkainen) · oracle_id `6be0bf15-fdcb-4425-9bd8-3c39039cab7d` · printing: AFR #64 (2021-07-23) · [rulings](https://api.scryfall.com/cards/2fa5e4c7-12fa-4ec4-bd4b-752e367306c7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-07-23* — The cards put into your hand due to Mordenkainen's last ability aren't "drawn." Anything that cares about you drawing cards won't notice your hand suddenly becoming very, very well-stocked.
+  - *2021-07-23* — The power and toughness of the Dog Illusion token will change as the number of cards in your hand changes.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/64/mordenkainen) · oracle_id `6be0bf15-fdcb-4425-9bd8-3c39039cab7d` · printing: AFR #64 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mordenkainen's Polymorph
 
@@ -265,7 +279,15 @@
   > *—Gollum*
 - **Keywords:** Amass
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7855 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/96/mordor-muster) · oracle_id `492108b7-f831-4739-925f-c3a419859c52` · printing: LTR #96 (2023-06-23) · [rulings](https://api.scryfall.com/cards/aae2f15a-0629-453e-992c-a199af194a3c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-06-16* — Amass Zombies works the same way, except you create a 0/0 black Zombie Army creature token if you don't control an Army. If the Army creature you chose isn't already a Zombie, it becomes a Zombie in addition to its other types. By combining cards with amass Orcs and amass Zombies, you can end up with an Orc Zombie Army.
+  - *2023-06-16* — Amass abilities are now written as "amass [subtype] N." Previous cards with amass have received errata to say "amass Zombies N."
+  - *2023-06-16* — If you don't control an Army, the Orc Army token you create enters the battlefield as a 0/0 creature before receiving counters. Any abilities that trigger when a creature with a certain power enters the battlefield, such as that of Mentor of the Meek, will see the token enter as a 0/0 creature before it gets +1/+1 counters.
+  - *2023-06-16* — In the rare case that you control multiple Army creatures (perhaps because you played a creature with changeling) while you amass Orcs, you choose which of your Army creatures to put the +1/+1 counters on. If that creature isn't an Orc, it becomes an Orc in addition to its other types.
+  - *2023-06-16* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
+  - *2023-06-16* — Some spells and abilities that amass Orcs may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't amass Orcs.
+  - *2023-06-16* — To amass Orcs N, if you don't control an Army creature, create a 0/0 black Orc Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already an Orc, it becomes an Orc in addition to its other types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/96/mordor-muster) · oracle_id `492108b7-f831-4739-925f-c3a419859c52` · printing: LTR #96 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mordor on the March
 
@@ -387,7 +409,9 @@
   > *There was a rush of hoarse laughter, like the fall of sliding stones into a pit; amid the clamor a deep voice was raised in command.*
 - **Keywords:** Double strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5410 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/138/moria-marauder) · oracle_id `9f0027e3-815b-4965-9ef4-3c4814c62cf3` · printing: LTR #138 (2023-06-23) · [rulings](https://api.scryfall.com/cards/f33d5394-2248-4654-bec5-33b144752586/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-06-16* — You must follow all normal timing rules for a card you play using Moria Marauder's last ability and, if it's a spell, you must pay its costs to cast it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/138/moria-marauder) · oracle_id `9f0027e3-815b-4965-9ef4-3c4814c62cf3` · printing: LTR #138 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moria Scavenger
 
@@ -399,7 +423,15 @@
   > {T}, Discard a card: Draw a card. If the discarded card was a creature card, amass Orcs 1. (Put a +1/+1 counter on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first.)
 - **Keywords:** Amass, Haste, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5280 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/63/moria-scavenger) · oracle_id `a598e824-ad8e-4947-896b-70c5275b615a` · printing: LTC #63 (2023-06-23) · [rulings](https://api.scryfall.com/cards/ea926187-ac8e-4197-8fd4-ac6b8d818d83/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-06-16* — Amass Zombies works the same way, except you create a 0/0 black Zombie Army creature token if you don't control an Army. If the Army creature you chose isn't already a Zombie, it becomes a Zombie in addition to its other types. By combining cards with amass Orcs and amass Zombies, you can end up with an Orc Zombie Army.
+  - *2023-06-16* — Amass abilities are now written as "amass [subtype] N." Previous cards with amass have received errata to say "amass Zombies N."
+  - *2023-06-16* — If you don't control an Army, the Orc Army token you create enters the battlefield as a 0/0 creature before receiving counters. Any abilities that trigger when a creature with a certain power enters the battlefield, such as that of Mentor of the Meek, will see the token enter as a 0/0 creature before it gets +1/+1 counters.
+  - *2023-06-16* — In the rare case that you control multiple Army creatures (perhaps because you played a creature with changeling) while you amass Orcs, you choose which of your Army creatures to put the +1/+1 counters on. If that creature isn't an Orc, it becomes an Orc in addition to its other types.
+  - *2023-06-16* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
+  - *2023-06-16* — Some spells and abilities that amass Orcs may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't amass Orcs.
+  - *2023-06-16* — To amass Orcs N, if you don't control an Army creature, create a 0/0 black Orc Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already an Orc, it becomes an Orc in addition to its other types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/63/moria-scavenger) · oracle_id `a598e824-ad8e-4947-896b-70c5275b615a` · printing: LTC #63 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Morinfen
 
@@ -475,7 +507,26 @@
   > You may have Moritte enter as a copy of a permanent you control, except it's legendary and snow in addition to its other types and, if it's a creature, it enters with two additional +1/+1 counters on it and has changeling.
 - **Keywords:** Changeling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6410 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/223/moritte-of-the-frost) · oracle_id `78699161-fc14-4a44-8a15-0f7c08be0343` · printing: KHM #223 (2021-02-05) · [rulings](https://api.scryfall.com/cards/22fdbe71-abca-4e48-99b2-1cb6b35d930b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (18):
+  - *2021-02-05* — Any enters-the-battlefield abilities of the copied permanent will trigger when Moritte enters the battlefield. Any "as [this permanent] enters the battlefield" or "[this permanent] enters the battlefield with" abilities of the chosen permanent will also work.
+  - *2021-02-05* — Changeling is a characteristic-defining ability. It functions in all zones, not only while a card that has it is on the battlefield.
+  - *2021-02-05* — If Moritte copies a creature, it enters with two +1/+1 counters on it, plus any counters that will be put on it by abilities it copied or abilities of other objects.
+  - *2021-02-05* — If Moritte copies a nonlegendary permanent, you'll control two permanents with same name, but only one of them (Moritte) will be legendary. You won't put any of them into their owner's graveyard.
+  - *2021-02-05* — If Moritte somehow enters the battlefield at the same time as another permanent, it can't become a copy of that permanent. You may choose only a permanent that's already on the battlefield.
+  - *2021-02-05* — If an effect causes a creature with changeling to become a new creature type, it will be only that new creature type. It will still have changeling; the effect making it all creature types will simply be overwritten.
+  - *2021-02-05* — If an effect causes a creature with changeling to lose all abilities, it will remain all creature types, even though it will no longer have changeling. This is because changeling applies before the effect that removes it.
+  - *2021-02-05* — If the chosen permanent has {X} in its mana cost, X is considered to be 0.
+  - *2021-02-05* — If the chosen permanent is a token, Moritte copies the original characteristics of that token as stated by the effect that created the token. Moritte doesn't become a token in this case.
+  - *2021-02-05* — If the chosen permanent is copying something else, Moritte will use the copiable values of the chosen permanent. In most cases, it will be a copy of whatever the chosen permanent is copying. If it's copying a permanent or card with {X} in its mana cost, X is 0.
+  - *2021-02-05* — If the copied permanent is affected by a type-changing effect, Moritte may enter the battlefield with different permanent types than the copied permanent currently has. Use the characteristics of Moritte as it enters the battlefield, not of the copied permanent, to determine whether it enters with an additional counter on it. Notably, if Moritte copies a permanent that's normally not a creature but has been made a creature by another effect, Moritte enters as a noncreature permanent that doesn't get +1/+1 counters or have changeling.
+  - *2021-02-05* — Moritte copies exactly what was printed on the original permanent (unless that permanent is copying something else or is a token; see below). It doesn't copy whether that permanent is tapped or untapped, whether it has any counters on it, whether it has any Auras and/or Equipment attached to it, or any non-copy effects that changed its power, toughness, types, color, and so on.
+  - *2021-02-05* — Snow is a supertype, not a card type. It has no rules meaning or function by itself, but spells and abilities may refer to it.
+  - *2021-02-05* — Snow isn't a type of mana. If an effect says you may spend mana as though it were any type, you can't pay for {S} using mana that wasn't produced by a snow source.
+  - *2021-02-05* — Some cards have additional effects for each {S} spent to cast them. You can cast these spells even if you don't spend any snow mana to cast them; their additional effects simply won't do anything.
+  - *2021-02-05* — The Kaldheim set doesn't have any cards with mana costs that include {S}, but some previous sets do. If an effect says such a spell costs {1} less to cast, that reduction doesn't apply to any {S} costs. This is also true for activated abilities that include {S} in their activation costs and effects that reduce those costs.
+  - *2021-02-05* — The subtype Shapeshifter that appears on the type line is mostly there to reinforce the flavor. A creature card with changeling is just as much an Elf, a Dwarf, a Sliver, a Goat, a Coward, and a Zombie as it is a Shapeshifter.
+  - *2021-02-05* — The {S} symbol is a generic mana symbol. It represents a cost that can be paid by one mana that was produced by a snow source. That mana can be any color or colorless.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/223/moritte-of-the-frost) · oracle_id `78699161-fc14-4a44-8a15-0f7c08be0343` · printing: KHM #223 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Morkrut Banshee
 
@@ -533,6 +584,7 @@
   > *The Inheritors stalk the Spiders across worlds, feeding on their life force for sustenance.*
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9349 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/59/morlun-devourer-of-spiders) · oracle_id `273ad15c-366a-4691-978b-d6028b57005a` · printing: SPM #59 (2025-09-26) · [rulings](https://api.scryfall.com/cards/1beb2eb9-90b5-43ba-8b04-cfce7dcb744b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Morningtide
@@ -556,7 +608,10 @@
   > Until your next turn, prevent all damage that would be dealt to you.
   > Exile Morningtide's Light.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6600 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/27/morningtides-light) · oracle_id `a25bcf65-4417-45e9-a4b1-94e0ea78af63` · printing: ECL #27 (2026-01-23) · [rulings](https://api.scryfall.com/cards/181ee045-5650-479a-8c03-015b38fdcd63/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-11-17* — Auras attached to the exiled creatures will be put into their owners' graveyards. Equipment attached to the exiled creatures will become unattached and remain on the battlefield. Any counters on the exiled creatures will cease to exist.
+  - *2025-11-17* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/27/morningtides-light) · oracle_id `a25bcf65-4417-45e9-a4b1-94e0ea78af63` · printing: ECL #27 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mornsong Aria
 
@@ -597,7 +652,13 @@
   > Other creatures you control of the chosen type get +1/+1.
 - **Keywords:** Changeling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1591 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/3/morophon-the-boundless) · oracle_id `bf418a2f-e639-4e52-9cad-5a0713a1829b` · printing: CMM #3 (2023-08-04) · [rulings](https://api.scryfall.com/cards/84238335-e08c-421c-b9b9-70a679ff2967/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2019-06-14* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to other creatures you control of the chosen type may become lethal if Morophon leaves the battlefield during that turn.
+  - *2019-06-14* — Cost reduction effects are applied after other cost modifiers, so Morophon can reduce additional costs or alternative costs of spells of the chosen type.
+  - *2019-06-14* — If a spell has hybrid mana symbols in its mana cost, you choose which half you will be paying before determining the total cost. For example, if a spell of the chosen type costs {2}{W/U}{W/U}, you may choose for the cost to be {2}{W}{U} and then reduce it to {2}.
+  - *2019-06-14* — Morophon's effect reduces the total cost by up to one mana of each color. For example, if a spell of the chosen type costs {4}{R}{W}{W}, it will cost {4}{W} after applying Morophon's effect.
+  - *2019-06-14* — You must choose an existing creature type, such as Sliver or Warrior. Card types such as artifact, and supertypes such as legendary or snow, can't be chosen.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/3/morophon-the-boundless) · oracle_id `bf418a2f-e639-4e52-9cad-5a0713a1829b` · printing: CMM #3 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Morphic Pool
 
@@ -662,7 +723,13 @@
   > Whenever you draw your second card each turn, put two +1/+1 counters on Morska.
 - **Keywords:** Investigate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8975 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/3/morska-undersea-sleuth) · oracle_id `80ea3e65-946d-42c3-a26f-3d74e81d70b4` · printing: MKC #3 (2024-02-09) · [rulings](https://api.scryfall.com/cards/ae9ccfec-05c6-469e-b1dd-dfbafa1e927f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-02-02* — Clue is an artifact type. Even though it appears on some cards with other permanent types, it's never a creature type, a land type, or anything but an artifact type.
+  - *2024-02-02* — If an effect refers to a Clue, it means any Clue artifact, not just a Clue artifact token. For example, you can sacrifice Wrench to pay for Alquist Proft, Master Sleuth's activated ability.
+  - *2024-02-02* — Some abilities trigger "whenever you sacrifice a Clue". Those abilities trigger whenever you sacrifice a Clue for any reason, not just to activate a Clue's activated ability.
+  - *2024-02-02* — Some spells and abilities that investigate may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Clue tokens.
+  - *2024-02-02* — You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/3/morska-undersea-sleuth) · oracle_id `80ea3e65-946d-42c3-a26f-3d74e81d70b4` · printing: MKC #3 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mortal Combat
 
@@ -685,7 +752,9 @@
 - **Flavor text** (SOC printing):
   > *"Death is my life's work."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3361 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/321/mortality-spear) · oracle_id `544acde0-850d-4c4f-8389-e22930d87345` · printing: SOC #321 (2026-04-24) · [rulings](https://api.scryfall.com/cards/f6cdff9b-bb09-45b9-aa3c-16a3136d183c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-04-16* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions (such as that of Mortality Spear). Mortality Spear's mana value is always 4, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/321/mortality-spear) · oracle_id `544acde0-850d-4c4f-8389-e22930d87345` · printing: SOC #321 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mortal Obstinacy
 
@@ -830,6 +899,7 @@
   > *The light sigh of its breath whistles through its bones.*
 - **Keywords:** Heal, Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5611 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cm2/69/mortivore) · oracle_id `2f554218-2072-4d9b-b4d4-34f161f1f2a9` · printing: CM2 #69 (2018-06-08) · [rulings](https://api.scryfall.com/cards/beeaaef1-5cd9-402a-982e-2cb4e69cfaca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mortuary

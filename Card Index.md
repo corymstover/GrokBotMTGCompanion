@@ -19,7 +19,7 @@
 | EDHREC-rank coverage (all Commander-legal cards ranked ≤ N ingested) | N = 32,351 |
 | Commander legality of ingested | banned: 83, legal: 32,116, not_legal: 1,695 |
 | Game Changers ingested | 53 |
-| Rulings ingested (Scryfall `rulings` bulk) | 2,604 rulings on 686 cards · 1,000/33,894 cards processed · 19,889 ingested cards have rulings on Scryfall |
+| Rulings ingested (Scryfall `rulings` bulk) | 32,675 rulings on 7,385 cards · 10,000/33,894 cards processed · 19,889 ingested cards have rulings on Scryfall |
 | Shard files | 684 |
 | Scryfall bulk data timestamp | 2026-10-15T09:02:01.217+00:00 |
 

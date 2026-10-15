@@ -90,7 +90,16 @@
   > Spirit of the Whalaqee — Equip {2}
 - **Keywords:** Job select, Spirit of the Whalaqee, Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7425 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/35/blue-mages-cane) · oracle_id `6290233b-b015-4909-8aba-bf8d65cc37b5` · printing: FIC #35 (2025-06-13) · [rulings](https://api.scryfall.com/cards/9b3cfc13-db4e-4ec3-8444-f715bcd43be6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2025-06-06* — If the Hero token is destroyed, the Equipment stays on the battlefield.
+  - *2025-06-06* — If the job select ability causes two Hero tokens to be created (due to an effect such as that of Doubling Season), the Equipment becomes attached to only one of them.
+  - *2025-06-06* — If the spell has {X} in its mana cost, you must choose 0 as the value of X when casting it by paying {3} rather than paying its mana cost.
+  - *2025-06-06* — If you cast a spell by paying {3} rather than paying its mana cost, you can't choose to cast it for any other alternative cost. You can, however, pay additional costs. If the spell has any mandatory additional costs, those must be paid to cast the card.
+  - *2025-06-06* — If you don't want to cast the copy, you can choose not to; the copy ceases to exist the next time state-based actions are performed.
+  - *2025-06-06* — The Hero token enters as a 1/1 creature, then the Equipment becomes attached to it. Abilities that trigger when a creature enters the battlefield see that a 1/1 creature entered the battlefield.
+  - *2025-06-06* — You cast the copy while the ability is resolving and still on the stack. You can't wait to cast it later in the turn.
+  - *2025-06-06* — You may pay the Equipment's equip cost as normal to move it from the Hero token to another creature you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/35/blue-mages-cane) · oracle_id `6290233b-b015-4909-8aba-bf8d65cc37b5` · printing: FIC #35 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blue Mana Battery
 
@@ -161,7 +170,9 @@
   > *"Where once there was ignorance, Jin-Gitaxias brought knowledge, and an age of progress dawned."*
   > *—Monument inscription*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4324 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/43/blue-suns-twilight) · oracle_id `11e637b4-6ce0-4514-98d6-02a2d073f73b` · printing: ONE #43 (2023-02-10) · [rulings](https://api.scryfall.com/cards/3a836e6b-6854-4f6f-bc78-2da1fd4dd224/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-02-04* — If the target creature is an illegal target by the time the spell tries to resolve, the spell will not resolve. No token is created, even if X is 5 or more.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/43/blue-suns-twilight) · oracle_id `11e637b4-6ce0-4514-98d6-02a2d073f73b` · printing: ONE #43 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blue Sun's Zenith
 
@@ -173,7 +184,10 @@
   > *"The Origin Query will wait. We must ensure we survive to return to it."*
   > *—Pelyus, vedalken ordinar*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1760 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/a25/44/blue-suns-zenith) · oracle_id `613a41b8-0b4f-4995-bf1e-ca41f96e6438` · printing: A25 #44 (2018-03-16) · [rulings](https://api.scryfall.com/cards/500a2aa4-712f-41be-920e-f2f448ff83d0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2011-06-01* — If this spell doesn't resolve, none of its effects occur. In particular, it will go to the graveyard rather than to its owner's library.
+  - *2018-03-16* — Because you follow the spell's instructions in order, you won't be able to draw the same Blue Sun's Zenith that you cast.
+- **Source flags:** [Scryfall](https://scryfall.com/card/a25/44/blue-suns-zenith) · oracle_id `613a41b8-0b4f-4995-bf1e-ca41f96e6438` · printing: A25 #44 (2018-03-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blue Ward
 
@@ -232,7 +246,10 @@
 - **Flavor text** (CLB printing):
   > *"It's as much a trick of the mind as it is a trick of the eye."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2316 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/58/blur) · oracle_id `00b36996-43c6-42a5-892c-c7c8864cf973` · printing: CLB #58 (2022-06-10) · [rulings](https://api.scryfall.com/cards/77a43413-3ab0-4ef6-83de-192a11d48f00/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-06-10* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
+  - *2022-06-10* — When the card returns to the battlefield, it will be a new object with no connection to the card that was exiled. Auras attached to the exiled creature will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled creature will cease to exist.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/58/blur) · oracle_id `00b36996-43c6-42a5-892c-c7c8864cf973` · printing: CLB #58 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blur of Blades
 
@@ -304,7 +321,11 @@
 - **Flavor text** (CMM printing):
   > *Traveling across the desert alone, you might assume you'd see them coming, but that would be your third mistake.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6787 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/873/blur-sliver) · oracle_id `e0f05979-daba-43eb-b356-24284e7ca99c` · printing: CMM #873 (2023-08-04) · [rulings](https://api.scryfall.com/cards/d44db4fa-8b13-4eb2-a66e-a55b2e0c0fb3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2013-07-01* — Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn’t provide any additional benefit.
+  - *2013-07-01* — If Blur Sliver leaves the battlefield during combat, any attacking Sliver creatures that came under your control this turn will continue to attack, even though they will no longer have haste.
+  - *2013-07-01* — If you change the creature type of a Sliver you control so it’s no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/873/blur-sliver) · oracle_id `e0f05979-daba-43eb-b356-24284e7ca99c` · printing: CMM #873 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blustering Barnyard
 
@@ -334,4 +355,9 @@
   > *Weather is more predictable than the Izzet.*
 - **Keywords:** Overload
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6802 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c15/89/blustersquall) · oracle_id `2dfad8c3-1973-4fc8-971d-f66cacd88070` · printing: C15 #89 (2015-11-13) · [rulings](https://api.scryfall.com/cards/1736aaf7-b61d-426e-af5e-f70272e7b07e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-01-12* — Because a spell with overload doesn't target when its overload cost is paid, it may affect permanents with hexproof or with protection from the appropriate color.
+  - *2024-01-12* — If you are instructed to cast a spell with overload "without paying its mana cost," you can't choose to pay its overload cost instead.
+  - *2024-01-12* — If you don't pay the overload cost of a spell with overload, that spell will have a single target. If you pay the overload cost, the spell won't have any targets.
+  - *2024-01-12* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an overload cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c15/89/blustersquall) · oracle_id `2dfad8c3-1973-4fc8-971d-f66cacd88070` · printing: C15 #89 (2015-11-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

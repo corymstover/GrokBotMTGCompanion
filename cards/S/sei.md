@@ -130,6 +130,7 @@
 - **Flavor text** (TLA printing):
   > *"Even though I was born blind, I've never had a problem seeing ... I feel the vibrations in the earth, and I can 'see' where everything is."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4450 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/195/seismic-sense) · oracle_id `9d586c74-b1dd-4fcb-a24a-c703d250fa63` · printing: TLA #195 (2025-11-21) · [rulings](https://api.scryfall.com/cards/a7b93c2a-c478-4734-8aca-03f3e9c11b20/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seismic Shift
@@ -227,6 +228,7 @@
   > *"If you would taste the wisdom of the oni, be prepared to salt it with your blood."*
   > *—Kiku, Night's Flower*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3716 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/143/seizan-perverter-of-truth) · oracle_id `04d0d20f-720e-4cb6-a3ad-ea2b57bb7efa` · printing: CHK #143 (2004-10-01) · [rulings](https://api.scryfall.com/cards/e1e61750-f7d7-4e6d-9d68-e1e357868a8d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seized from Slumber
@@ -263,7 +265,17 @@
   > Flashback {2}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1599 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/166/seize-the-day) · oracle_id `2a6abd59-e448-46f1-9af8-bb9040645971` · printing: MSC #166 (2026-06-26) · [rulings](https://api.scryfall.com/cards/9cb5d064-f474-4db9-b349-b9f71c587742/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2018-12-07* — If the target creature becomes an illegal target for Seize the Day, the spell doesn't resolve. There isn't an additional combat phase or main phase.
+  - *2018-12-07* — If you somehow cast Seize the Day during an opponent's main phase, that opponent attacks during the resulting combat phase, since it's still that player's turn. If you somehow cast it not during a main phase at all, all that happens is you untap the target creature.
+  - *2018-12-07* — Seize the Day can target a creature that's already untapped.
+  - *2021-03-19* — "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2021-03-19* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2021-03-19* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2021-03-19* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/166/seize-the-day) · oracle_id `2a6abd59-e448-46f1-9af8-bb9040645971` · printing: MSC #166 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seize the Initiative
 
@@ -324,6 +336,7 @@
   > Each opponent chooses fame or fortune. For each player who chose fame, gain control of a creature that player controls until end of turn. Untap those creatures and they gain haste until end of turn. For each player who chose fortune, you draw a card and create a Treasure token.
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1767 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/179/seize-the-spotlight) · oracle_id `3d1b09a3-f151-4218-974b-02bb6159247a` · printing: OTC #179 (2024-04-19) · [rulings](https://api.scryfall.com/cards/01fe0af9-55b4-4390-8de4-2cd58aa7efde/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seize the Storm

@@ -224,7 +224,10 @@
 - **Flavor text** (CMR printing):
   > *Elves of the immaculate class weave flora into living creatures—sometimes to endorse an elite warrior, sometimes to create a breathing work of art.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3392 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/234/immaculate-magistrate) · oracle_id `e6e38bd4-e6dc-400b-8e08-956726842dc4` · printing: CMR #234 (2020-11-20) · [rulings](https://api.scryfall.com/cards/d9208db8-1ba5-4f9c-90a4-03e377ae6f86/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-11-10* — The number of counters to put on the target creature is determined only as Immaculate Magistrate's ability resolves. Elves coming and going later won't cause that creature to gain or lose +1/+1 counters.
+  - *2020-11-10* — The target creature doesn't have to be an Elf.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/234/immaculate-magistrate) · oracle_id `e6e38bd4-e6dc-400b-8e08-956726842dc4` · printing: CMR #234 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Immard, the Stormcleaver
 
@@ -286,7 +289,12 @@
   > Sacrifice another creature: This creature gains indestructible until end of turn. Tap it.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7100 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/660/immersturm-predator) · oracle_id `fcb6c6d4-ea8d-49cf-b6df-377084bdb757` · printing: FDN #660 (2024-11-15) · [rulings](https://api.scryfall.com/cards/52dfc234-e87a-4594-8dcf-0a2f95eedc97/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-11-08* — For the triggered ability to trigger, Immersturm Predator has to actually change from untapped to tapped. If an effect attempts to tap it while it is already tapped, the ability won't trigger.
+  - *2024-11-08* — Immersturm Predator's triggered ability doesn't allow you to tap Immersturm Predator. You have to find some other way to tap it. Let us suggest attacking.
+  - *2024-11-08* — You can activate Immersturm Predator's last ability even if it's already tapped.
+  - *2024-11-08* — You don't have to choose a target for Immersturm Predator's triggered ability. However, if you do choose a target and that card is an illegal target as the ability tries to resolve, the ability won't resolve and none of its effects will happen. In that case, you won't put a +1/+1 counter on Immersturm Predator.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/660/immersturm-predator) · oracle_id `fcb6c6d4-ea8d-49cf-b6df-377084bdb757` · printing: FDN #660 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Immersturm Raider
 
@@ -322,7 +330,11 @@
   > Non-Human Werewolves you control can't transform.
 - **Keywords:** Transform, Intimidate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8351 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dka/141/immerwolf) · oracle_id `3c2445ee-84d5-47de-8b09-dbdc89ca2db7` · printing: DKA #141 (2012-02-03) · [rulings](https://api.scryfall.com/cards/9326061f-ea76-4be7-a06f-aefb63454777/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2011-01-22* — A creature that’s both a Wolf and a Werewolf gets the bonus only once.
+  - *2011-01-22* — A “non-Human Werewolf” is a creature that is a Werewolf but is not a Human.
+  - *2011-01-22* — Immerwolf’s bonus never applies to itself, even if it somehow becomes a Werewolf creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dka/141/immerwolf) · oracle_id `3c2445ee-84d5-47de-8b09-dbdc89ca2db7` · printing: DKA #141 (2012-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Imminent Doom
 
@@ -420,7 +432,13 @@
 - **Flavor text** (RNA printing):
   > *"Hello, kindling."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7705 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rna/106/immolation-shaman) · oracle_id `cf681c9e-a644-44c7-b744-34faafc67d50` · printing: RNA #106 (2019-01-25) · [rulings](https://api.scryfall.com/cards/45e668e5-ef50-43eb-852e-b111370459c8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2019-01-25* — Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keyword abilities are activated abilities and will have colons in their reminder text (such as equip does). An activated mana ability is one that produces mana as it resolves, not one that costs mana to activate.
+  - *2019-01-25* — Activating Immolation Shaman's second ability after one creature has blocked it won't cause Immolation Shaman to become unblocked.
+  - *2019-01-25* — Immolation Shaman's first ability doesn't trigger when an opponent activates an ability of a card in hand (such as cycling) or a card in a graveyard (such as that of Bone Dragon), even if that causes a card to be put onto the battlefield.
+  - *2019-01-25* — Immolation Shaman's first ability resolves before the ability that caused it to trigger.
+  - *2019-01-25* — Multiple instances of menace on the same creature are redundant.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rna/106/immolation-shaman) · oracle_id `cf681c9e-a644-44c7-b744-34faafc67d50` · printing: RNA #106 (2019-01-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Immoral Bargain
 
@@ -432,6 +450,7 @@
 - **Flavor text** (SOC printing):
   > *To control a spell, you must first strip it of its flesh and bones.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6502 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/47/immoral-bargain) · oracle_id `c82cc78b-ffd6-4f72-881d-85913830feb2` · printing: SOC #47 (2026-04-24) · [rulings](https://api.scryfall.com/cards/fc01f092-80fb-4643-8ada-c2e5aeb68658/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Immortal Coil
@@ -455,6 +474,7 @@
   > *Death is no reprieve from an Orzhov debt.*
 - **Keywords:** Goad
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7511 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/10/immortal-obligation) · oracle_id `b34080fe-69d1-4cc9-9feb-c37762f26a23` · printing: MKC #10 (2024-02-09) · [rulings](https://api.scryfall.com/cards/bdadc60f-942f-47e2-b8fc-51deb3d0b86d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Immortal Phoenix
@@ -528,6 +548,7 @@
 - **Flavor text** (WOE printing):
   > *"The realm needs a ruler, not a boy playing king."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8250 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/137/imodane-the-pyrohammer) · oracle_id `d70d4686-2c35-4149-aed1-7e3b9e022702` · printing: WOE #137 (2023-09-08) · [rulings](https://api.scryfall.com/cards/14b44833-0482-4b47-a594-4050bb87f1a5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Imoen, Mystic Trickster
@@ -553,7 +574,9 @@
   > Grand Strategist — At the beginning of combat on your turn, another target artifact creature you control gets +2/+2 and gains menace until end of turn.
 - **Keywords:** Phaeron, Grand Strategist
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4979 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/40k/5/imotekh-the-stormlord) · oracle_id `425fea06-76ec-4cd9-bd3b-750504fd7fd2` · printing: 40K #5 (2022-10-07) · [rulings](https://api.scryfall.com/cards/286ff901-1faf-4a02-a37a-fa165989112f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-10-07* — If multiple artifact cards leave your graveyard at the same time, the first ability triggers only once, and you will create only two tokens.
+- **Source flags:** [Scryfall](https://scryfall.com/card/40k/5/imotekh-the-stormlord) · oracle_id `425fea06-76ec-4cd9-bd3b-750504fd7fd2` · printing: 40K #5 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Imoti, Celebrant of Bounty
 
@@ -565,7 +588,19 @@
   > Spells you cast with mana value 6 or greater have cascade.
 - **Keywords:** Cascade
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2604 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/280/imoti-celebrant-of-bounty) · oracle_id `eca32dcd-6845-433e-a631-ed1f0ee78f25` · printing: CMR #280 (2020-11-20) · [rulings](https://api.scryfall.com/cards/8afceb13-877a-4256-9ba6-851b6924ffd9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2020-11-10* — In some unusual situations, you may lose control of Imoti during the process of casting a spell with mana value 6 or greater. In those situations, that spell won't have cascade.
+  - *2020-11-10* — Once you announce that you're casting a spell, players can't take actions until you've finished casting it. Causing Imoti, Celebrant of Bounty to leave the battlefield after a spell with mana value 6 or greater has been cast won't stop that spell's cascade ability from resolving.
+  - *2021-06-18* — A spell's mana value is determined only by its mana cost. Ignore any alternative costs, additional costs, cost increases, or cost reductions.
+  - *2021-06-18* — Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade.
+  - *2021-06-18* — Due to a 2021 rules change to cascade, not only do you stop exiling cards if you exile a nonland card with lesser mana value than the spell with cascade, but the resulting spell you cast must also have lesser mana value. Previously, in cases where a card's mana value differed from the resulting spell, such as with some modal double-faced cards or cards with an Adventure, you could cast a spell with a higher mana value than the exiled card.
+  - *2021-06-18* — If a spell with cascade is countered, the cascade ability will still resolve normally.
+  - *2021-06-18* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2021-06-18* — If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those to cast the card.
+  - *2021-06-18* — The mana value of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves.
+  - *2021-06-18* — When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled.
+  - *2021-06-18* — You exile the cards face up. All players will be able to see them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/280/imoti-celebrant-of-bounty) · oracle_id `eca32dcd-6845-433e-a631-ed1f0ee78f25` · printing: CMR #280 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Impact Resonance
 
@@ -626,6 +661,7 @@
 - **Flavor text** (M20 printing):
   > *In times of unrest, the crowd is eager for the comfort of strong convictions.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4592 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m20/306/impassioned-orator) · oracle_id `c7107a2d-2dcf-42e9-9ea9-d0fc0d6d2ec6` · printing: M20 #306 (2019-07-12) · [rulings](https://api.scryfall.com/cards/696d6c4b-69d7-498b-87d4-0a03b16cc971/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Impatience
@@ -724,7 +760,15 @@
   > Foretell {1}{R}{R} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)
 - **Keywords:** Paradox, Foretell
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9268 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/87/impending-flux) · oracle_id `7089512e-f9b6-4d8e-bccc-29e6785cc041` · printing: WHO #87 (2023-10-13) · [rulings](https://api.scryfall.com/cards/98cc159d-74f7-41fe-a866-c18d96219794/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-10-13* — A triggered ability that triggers when a spell is cast from anywhere other than your hand, such as that of The Thirteenth Doctor, functions only on the battlefield, so it doesn't trigger when you cast that spell from a zone other than your hand.
+  - *2023-10-13* — An instant or sorcery that counts how many spells you've cast from anywhere other than your hand, such as Surge of Brilliance, counts itself if it was cast from a zone other than your hand.
+  - *2023-10-13* — Because exiling a card with foretell from your hand is a special action, you can do so any time you have priority during your turn, including in response to spells and abilities. Once you announce you're taking the action, no other player can respond by trying to remove the card from your hand.
+  - *2023-10-13* — Casting a foretold card from exile follows the timing rules for that card. If you foretell an instant card, you can cast it as soon as the next player's turn. In most cases, if you foretell a card that isn't an instant (like Impending Flux), you'll have to wait until your next turn to cast it.
+  - *2023-10-13* — If a spell or ability allows you to copy a spell on the stack but doesn't specify that the spell is cast, that spell wasn't cast and won't be counted by paradox abilities. However, if a spell or ability allows you to cast a copy of a spell, that spell will be counted for paradox abilities.
+  - *2023-10-13* — If you cast Impending Flux from exile, it counts itself when determining the value of X.
+  - *2023-10-13* — Paradox abilities count any spells cast from zones other than your hand. These are usually spells cast from exile, the graveyard, or the command zone. They also count spells cast from outside the game, such as spells cast with Wish or Garth One-Eye's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/87/impending-flux) · oracle_id `7089512e-f9b6-4d8e-bccc-29e6785cc041` · printing: WHO #87 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Imperial Aerosaur
 
@@ -954,7 +998,9 @@
 - **Flavor text** (FDN printing):
   > *In a culture of beauty, the most beautiful are worshipped as gods.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1424 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/719/imperious-perfect) · oracle_id `3fa71348-fa4d-4f39-a451-cf1570591991` · printing: FDN #719 (2024-11-15) · [rulings](https://api.scryfall.com/cards/83b4a09f-ea53-42b4-a41a-4299192a6fd3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-11-10* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to Elves you control may become lethal if Imperious Perfect leaves the battlefield during that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/719/imperious-perfect) · oracle_id `3fa71348-fa4d-4f39-a451-cf1570591991` · printing: FDN #719 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Impervious Greatwurm
 
@@ -968,7 +1014,14 @@
   > *The ultimate answer to intrigue and subtlety.*
 - **Keywords:** Indestructible, Convoke
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4499 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/152/impervious-greatwurm) · oracle_id `65c0ab05-e740-4380-b39c-8bae9662f885` · printing: 2X2 #152 (2022-07-08) · [rulings](https://api.scryfall.com/cards/a1aa77ae-f685-48ee-85dc-ba6084cd30ba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-01-12* — Because convoke isn't an alternative cost, it can be used in conjunction with alternative costs.
+  - *2024-01-12* — If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.
+  - *2024-01-12* — Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature's colors.
+  - *2024-01-12* — Tapping an untapped creature that's attacking or blocking to convoke a spell won't cause that creature to stop attacking or blocking.
+  - *2024-01-12* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
+  - *2024-01-12* — You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/152/impervious-greatwurm) · oracle_id `65c0ab05-e740-4380-b39c-8bae9662f885` · printing: 2X2 #152 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Impetuous Devils
 
@@ -1098,7 +1151,9 @@
 - **Flavor text** (ECL printing):
   > *"We smelled you kith-twits makin' porridge in here! We love porridge! Give us your porridge!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5771 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/146/impolite-entrance) · oracle_id `b77764fe-bc79-410a-995a-ac392f5b46b8` · printing: ECL #146 (2026-01-23) · [rulings](https://api.scryfall.com/cards/45be88d8-0be1-47a2-a1c1-d6e693fc706f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-11-17* — If the target creature is an illegal target as Impolite Entrance tries to resolve, it won't resolve and none of its effects will happen. You won't draw a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/146/impolite-entrance) · oracle_id `b77764fe-bc79-410a-995a-ac392f5b46b8` · printing: ECL #146 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Imposing Grandeur
 
@@ -1109,6 +1164,7 @@
 - **Flavor text** (VOC printing):
   > *The wedding's lavish decorations paled in comparison to the opulence of its elite guests.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6750 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/voc/24/imposing-grandeur) · oracle_id `c9ef02d6-717d-4f2a-aa10-0af717d6360f` · printing: VOC #24 (2021-11-19) · [rulings](https://api.scryfall.com/cards/8d236055-d524-4312-9c6f-eddb34703e3e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Imposing Sovereign
@@ -1189,7 +1245,10 @@
   > *The best way to fight evil is with its own weapons.*
 - **Keywords:** Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2232 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/nec/13/imposter-mech) · oracle_id `f434e266-d9d6-4058-96ff-a1bd4029d8dc` · printing: NEC #13 (2022-02-18) · [rulings](https://api.scryfall.com/cards/59b7450c-3163-4f12-9af1-2e998a6c36cf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-02-18* — If Imposter Mech enters the battlefield as a copy of a creature that was also a planeswalker, it loses both the planeswalker and creature card types. Its controller may activate any loyalty abilities it now has as normal, but it notably cannot be attacked and it does not lose loyalty counters when it is dealt damage.
+  - *2022-02-18* — Imposter Mech does not copy any subtypes related to a card type that it lost. For example, if Imposter Mech enters the battlefield as a copy of a 1/1 Human Soldier token, it is neither a Human nor a Soldier. It won't gain those subtypes if it is later crewed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/nec/13/imposter-mech) · oracle_id `f434e266-d9d6-4058-96ff-a1bd4029d8dc` · printing: NEC #13 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Impostor of the Sixth Pride
 
@@ -1214,7 +1273,13 @@
   > *"I'm the real Spider-Man!"*
   > *"No, \*I'm\* the real Spider-Man!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3134 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/spm/34/impostor-syndrome) · oracle_id `7be47440-b627-411e-a28f-d5a92e5e2fb7` · printing: SPM #34 (2025-09-26) · [rulings](https://api.scryfall.com/cards/08da9f92-0e25-4f39-aaa4-d8974af81a41/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-09-19* — Any enters-the-battlefield abilities of the copied creature will trigger when the token enters the battlefield. Any "as [this creature] enters" or "[this creature] enters with" abilities of the creature will also work.
+  - *2025-09-19* — Except for not being legendary, the token copies exactly what was printed on the original creature and nothing else (unless that permanent is itself copying something else; see below). It doesn't copy whether that permanent is tapped or untapped, whether it has any counters on it or Auras attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+  - *2025-09-19* — If something becomes a copy of the token, the copy also isn't legendary.
+  - *2025-09-19* — If the copied creature has {X} in its mana cost, X is 0.
+  - *2025-09-19* — If the copied creature is copying something else, then the token enters as whatever that creature copied, with the listed exceptions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/spm/34/impostor-syndrome) · oracle_id `7be47440-b627-411e-a28f-d5a92e5e2fb7` · printing: SPM #34 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Impounding Lot-Bot
 
@@ -1317,7 +1382,14 @@
   > Paradigm (Then exile this spell. After you first resolve a spell with this name, you may cast a copy of it from exile without paying its mana cost at the beginning of each of your first main phases.)
 - **Keywords:** Paradigm
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2486 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/120/improvisation-capstone) · oracle_id `fd4f0315-567a-4cc5-bc7e-88a9d2cee910` · printing: SOS #120 (2026-04-24) · [rulings](https://api.scryfall.com/cards/d01fe6e9-49ee-4708-833e-75cd5a9f167c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2026-03-20* — Each spell with paradigm has the Lesson subtype. The Lesson subtype appears on instants and sorceries and has no inherent rules meaning. Other effects (such as the learn ability from the original Strixhaven release) may refer to it.
+  - *2026-03-20* — If an exiled card has {X} in its mana cost, X is 0 for the purpose of determining its mana value and you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2026-03-20* — If you cast a spell "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those to cast the spell.
+  - *2026-03-20* — Once a spell with paradigm has resolved, it doesn't matter what happens to the card in exile. Even if the card leaves exile, the delayed triggered ability will still trigger during each of your first main phases, and the copy will still be created.
+  - *2026-03-20* — Paradigm creates a delayed triggered ability that triggers at the beginning of each of your first main phases for the rest of the game. When that ability resolves and the copy is created, you can choose not to cast the copy. In that case, the copy will cease to exist the next time state-based actions are checked. The delayed triggered ability will still trigger again at the beginning of your first main phase on your next turn regardless.
+  - *2026-03-20* — You cast the spells while Improvisation Capstone is resolving and still on the stack. You can't wait to cast them later in the turn. Timing restrictions based on the cards' types are ignored.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/120/improvisation-capstone) · oracle_id `fd4f0315-567a-4cc5-bc7e-88a9d2cee910` · printing: SOS #120 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Improvised Armor
 
@@ -1346,7 +1418,12 @@
   > *—Casey Jones*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8996 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/92/improvised-arsenal) · oracle_id `4f02aa99-481c-4089-8f7c-cfe7eaa7dda0` · printing: TMT #92 (2026-03-06) · [rulings](https://api.scryfall.com/cards/003265d9-b2fc-4916-afc8-53ed2d6aa053/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2026-01-27* — If Improvised Arsenal leaves the battlefield before its second ability resolves, the token will still enter as a copy of Improvised Arsenal, using Improvised Arsenal's copiable values from when it was last on the battlefield.
+  - *2026-01-27* — In the unusual case where Improvised Arsenal becomes a copy of something else while its second ability is on the stack but before it resolves, the token will enter as a copy of whatever Improvised Arsenal is copying. (This is the rules equivalent of "yes, and.")
+  - *2026-01-27* — The token copy will have Improvised Arsenal's abilities and will be able to create copies of itself.
+  - *2026-01-27* — The token doesn't copy whether Improvised Arsenal is tapped or untapped, whether it has any counters on it or Auras attached to it, or any non-copy effects that have changed its types, color, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/92/improvised-arsenal) · oracle_id `4f02aa99-481c-4089-8f7c-cfe7eaa7dda0` · printing: TMT #92 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Improvised Club
 
@@ -1418,7 +1495,10 @@
   > *"I've always made snap decisions. I'm just better at making the right ones now that I'm older and wiser."*
   > *—Teferi*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2652 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/56/impulse) · oracle_id `f6bd2902-7f8b-419e-bbc7-bcab0c1b7e01` · printing: DMR #56 (2023-01-13) · [rulings](https://api.scryfall.com/cards/3ec50625-5e14-4fd0-9a96-86f195342695/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — Due to errata, you no longer shuffle your library.
+  - *2004-10-04* — This is not a draw.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/56/impulse) · oracle_id `f6bd2902-7f8b-419e-bbc7-bcab0c1b7e01` · printing: DMR #56 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Impulsive Charge
 
@@ -1458,7 +1538,15 @@
   > Encore {3}{R} ({3}{R}, Exile this card from your graveyard: For each opponent, create a token copy that attacks that opponent this turn if able. They gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery.)
 - **Keywords:** Treasure, Encore
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1727 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/171/impulsive-pilferer) · oracle_id `7d9fc9e7-d80b-49c3-871c-ed25b3059ae8` · printing: OTC #171 (2024-04-19) · [rulings](https://api.scryfall.com/cards/0f020359-5ad1-43c4-8588-172be635cccc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2020-11-10* — Each token must attack the appropriate player if able.
+  - *2020-11-10* — Exiling the card with encore is a cost to activate the ability. Once you announce that you're activating it, no player may take actions until you've finished. They can't try to remove the card from your graveyard to stop you from paying the cost.
+  - *2020-11-10* — If one of the tokens can't attack for any reason (such as being tapped), then it doesn't attack. If there's a cost associated with having it attack, you aren't forced to pay that cost, so it doesn't have to attack in that case either.
+  - *2020-11-10* — If one of the tokens somehow is under another player's control as the delayed triggered ability resolves, you can't sacrifice that token. It remains on the battlefield indefinitely, even if you regain control of it later.
+  - *2020-11-10* — Opponents who have left the game aren't counted when determining how many tokens to create.
+  - *2020-11-10* — The tokens copy only what's on the original card. Effects that modified that creature when it was previously on the battlefield won't be copied.
+  - *2023-07-28* — If an effect stops a token from attacking a specific player, that token can attack any player, planeswalker, or battle, or not attack at all. If the effect stops the token from attacking a specific player unless a cost is paid, you don't have to pay that cost unless you want to attack that player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/171/impulsive-pilferer) · oracle_id `7d9fc9e7-d80b-49c3-871c-ed25b3059ae8` · printing: OTC #171 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Impulsive Return
 
@@ -1479,7 +1567,19 @@
   > Encore {7}{R}{R} ({7}{R}{R}, Exile this card from your graveyard: For each opponent, create a token copy that attacks that opponent this turn if able. They gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery.)
 - **Keywords:** Encore
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5839 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/13/impulsivity) · oracle_id `02b6900b-219f-4832-8f93-6ef27ee76c0c` · printing: ECC #13 (2026-01-23) · [rulings](https://api.scryfall.com/cards/c1c9ff71-b818-4d8b-8e0a-432becb7bf09/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2025-11-17* — Each token must attack the appropriate player if able.
+  - *2025-11-17* — Encore is an activated ability that functions from the graveyard. "Encore [cost]" means "[Cost], Exile this card from your graveyard: For each opponent, create a token that's a copy of this card that attacks that opponent this turn if able. The tokens gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery."
+  - *2025-11-17* — Exiling the card with encore is a cost to activate the encore ability. Once you announce that you're activating it, no player may take actions until you've finished. They can't try to remove the card from your graveyard to stop you from paying the cost.
+  - *2025-11-17* — If an effect stops a token from attacking a specific player, that token can attack any player, planeswalker, or battle, or not attack at all. If the effect stops the token from attacking a specific player unless a cost is paid, you don't have to pay that cost unless you want to attack that player.
+  - *2025-11-17* — If one of the tokens can't attack for any reason (such as being tapped), then it doesn't attack. If there's a cost associated with having it attack, you aren't forced to pay that cost, so it doesn't have to attack in that case either.
+  - *2025-11-17* — If one of the tokens somehow is under another player's control as the delayed triggered ability resolves, you can't sacrifice that token. It remains on the battlefield indefinitely, even if you regain control of it later.
+  - *2025-11-17* — If the spell you cast has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2025-11-17* — If you choose to cast the instant or sorcery card, you do so while Impulsivity's first ability is resolving and still on the stack. You can't wait to cast it later in the turn. Timing restrictions based on the card's type are ignored.
+  - *2025-11-17* — Opponents who have left the game aren't counted when determining how many tokens to create.
+  - *2025-11-17* — Since you are using an alternative cost to cast the spell, you can't pay any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, you must pay those.
+  - *2025-11-17* — The tokens copy only what's on the original card. Effects that modified that creature when it was previously on the battlefield won't be copied.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/13/impulsivity) · oracle_id `02b6900b-219f-4832-8f93-6ef27ee76c0c` · printing: ECC #13 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### I'm Rubber, You're Glue
 
@@ -1502,4 +1602,8 @@
   > {3}{R}, Sacrifice an artifact: Imskir deals damage equal to the sacrificed artifact's mana value to any target.
 - **Keywords:** Affinity
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7072 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/189/imskir-iron-eater) · oracle_id `2494101a-2c6b-45d8-95fe-e62bf9a25130` · printing: MH3 #189 (2024-06-14) · [rulings](https://api.scryfall.com/cards/541209fa-38b6-4d61-a72d-26bfb6ad5ead/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-06-07* — If an artifact on the battlefield has {X} in its mana cost, X is 0 when determining its mana value.
+  - *2024-06-07* — The value of X is calculated only once, as Imskir Iron-Eater's triggered ability resolves.
+  - *2024-06-07* — Use the mana value of the sacrificed artifact as it last existed on the battlefield to determine how much damage is dealt.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/189/imskir-iron-eater) · oracle_id `2494101a-2c6b-45d8-95fe-e62bf9a25130` · printing: MH3 #189 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

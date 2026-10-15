@@ -60,7 +60,23 @@
   > When Omarthis dies, manifest a number of cards from the top of your library equal to the number of counters on it.
 - **Keywords:** Manifest
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8755 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/708/omarthis-ghostfire-initiate) · oracle_id `50676eba-a55a-4749-bb07-74a30e015781` · printing: CMM #708 (2023-08-04) · [rulings](https://api.scryfall.com/cards/985e16ac-8e0f-4e2e-9b74-d6a77dddf274/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2023-07-28* — A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent, as well as Auras and Equipment that were attached to the permanent, aren't affected.
+  - *2023-07-28* — Any time you have priority, you may turn a manifested creature face up by revealing that it's a creature card (ignoring any copy effects or type-changing effects that might be applying to it) and paying its mana cost. This is a special action. It doesn't use the stack and can't be responded to.
+  - *2023-07-28* — Because face-down creatures don't have names, they can't have the same name as any other creature, even another face-down creature.
+  - *2023-07-28* — Because the permanent is on the battlefield both before and after it's turned face up, turning a permanent face up doesn't cause any enters-the-battlefield abilities to trigger.
+  - *2023-07-28* — If Omarthis, Ghostfire Initiate's last ability causes its controller to manifest multiple cards, those cards are manifested one at a time.
+  - *2023-07-28* — If a face-down permanent you control leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or if the game ends.
+  - *2023-07-28* — If a manifested creature would have morph if it were face up, you may also turn it face up by paying its morph cost.
+  - *2023-07-28* — If something tries to turn a face-down instant or sorcery card on the battlefield face up, reveal that card to show all players it's an instant or sorcery card. The permanent remains on the battlefield face down. Abilities that trigger when a permanent turns face up won't trigger, because even though you revealed the card, it never turned face up.
+  - *2023-07-28* — Omarthis, Ghostfire Initiate's second ability will trigger any time you put one or more counters on another colorless creature. This might be due to a spell or ability resolving or a colorless creature you control entering the battlefield with counters.
+  - *2023-07-28* — The face-down permanent is a 2/2 creature with no name, mana cost, creature types, or abilities. It's colorless and has a mana value of 0. Other effects that apply to the permanent can still grant or change any of these characteristics.
+  - *2023-07-28* — Turning a permanent face up or face down doesn't change whether that permanent is tapped or untapped.
+  - *2023-07-28* — Unlike a face-down creature that was cast using the morph ability, a manifested creature may still be turned face up after it loses its abilities if it's a creature card.
+  - *2023-07-28* — You can look at a face-down permanent you control any time. You can't look at face-down permanents you don't control unless an effect allows you to or instructs you to.
+  - *2023-07-28* — You must ensure that your face-down spells and permanents can easily be differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield to confuse other players. The order they entered the battlefield should remain clear. Common methods for indicating this include using markers or dice, or simply placing them in order on the battlefield. You must also track how each became face down (manifested, cast face down using the morph ability, and so on).
+  - *2023-07-28* —  If a double-faced card is manifested, it will be put onto the battlefield face down. While face down, a transforming double-faced card can't transform or convert. If the front face of a face down double-faced card is a creature card, you can turn it face up by paying its mana cost. If you do, its front face will be up.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/708/omarthis-ghostfire-initiate) · oracle_id `50676eba-a55a-4749-bb07-74a30e015781` · printing: CMM #708 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Omashu City
 
@@ -74,6 +90,7 @@
   > *"The Earth Kingdom city of Omashu! I used to always come here to visit my friend Bumi."*
   > *—Aang*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6903 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/275/omashu-city) · oracle_id `6f9a4bb2-5959-4a5c-83af-c2729e6673df` · printing: TLA #275 (2025-11-21) · [rulings](https://api.scryfall.com/cards/c21e413b-96ed-4ded-b567-f1647074ce5f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Omega, Heartless Evolution
@@ -85,7 +102,9 @@
   > Wave Cannon — When Omega enters, for each opponent, tap up to one target nonland permanent that opponent controls. Put X stun counters on each of those permanents and you gain X life, where X is the number of nonbasic lands you control. (If a permanent with a stun counter would become untapped, remove one from it instead.)
 - **Keywords:** Wave Cannon
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9136 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/236/omega-heartless-evolution) · oracle_id `3173ca98-d46a-4de3-a95e-3eaad28d4017` · printing: FIN #236 (2025-06-13) · [rulings](https://api.scryfall.com/cards/9a8eb7e6-0c0b-42d0-aa90-2d3d29bc15aa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-06-06* — The value of X is calculated only once, as Omega's ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/236/omega-heartless-evolution) · oracle_id `3173ca98-d46a-4de3-a95e-3eaad28d4017` · printing: FIN #236 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Omega Myr
 
@@ -119,6 +138,7 @@
 - **Flavor text** (MOM printing):
   > *After years of fabricating visions for naive customers of the Obscura, Stafano was flummoxed by the nightmarish scenes that played out unbidden in his mind's eye.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5007 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/70/omen-hawker) · oracle_id `215fd0b4-5817-4335-a0ed-1694e44bde41` · printing: MOM #70 (2023-04-21) · [rulings](https://api.scryfall.com/cards/d0749c3c-e3f7-4c96-8c5b-4fd2401544c4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Omen Machine
@@ -197,6 +217,7 @@
   > *"My time will come, when the rising tide will surge above the tallest mountain."*
 - **Keywords:** Flash, Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6108 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/58/omen-of-the-sea) · oracle_id `41960d32-ddb5-42be-94b2-3a2e77ca148d` · printing: THB #58 (2020-01-24) · [rulings](https://api.scryfall.com/cards/a5f30ecd-d009-4d44-aef4-c926ed55a521/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Omen of the Sun
@@ -221,7 +242,10 @@
   > When this enchantment enters, search your library for up to five land cards that have different names, exile them, then shuffle.
   > At the beginning of your end step, choose a card at random exiled with this enchantment and put it onto the battlefield tapped.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6027 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/big/18/omenpath-journey) · oracle_id `8b067e44-2001-4b49-aa4a-2c86f8929751` · printing: BIG #18 (2024-04-19) · [rulings](https://api.scryfall.com/cards/c49c9b72-61c0-4e3a-a3a6-994b149398a9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-04-12* — While in your library, a double-faced card has only the name of its front face. It’s not possible to reveal two of the same double-faced card this way.
+  - *2024-04-12* — You may search your library for only one land card and exile it, if you like.
+- **Source flags:** [Scryfall](https://scryfall.com/card/big/18/omenpath-journey) · oracle_id `8b067e44-2001-4b49-aa4a-2c86f8929751` · printing: BIG #18 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Omenpath to Naya
 
@@ -272,6 +296,7 @@
   > *—Dr. Ashley Kafka, Ravencroft Institute*
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7848 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/181/ominous-asylum) · oracle_id `676141c3-a433-4aba-86fb-729628f96dfa` · printing: SPM #181 (2025-09-26) · [rulings](https://api.scryfall.com/cards/4329f94a-9110-4f07-b4a6-f1ccae97ccc9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ominous Cemetery
@@ -285,6 +310,7 @@
   > *"They are fast. Faster than you can believe. Don't turn your back, don't look away, and don't blink."*
   > *—The Tenth Doctor*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6084 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/189/ominous-cemetery) · oracle_id `d002391f-1dad-4966-ac36-56cc3ec015b2` · printing: WHO #189 (2023-10-13) · [rulings](https://api.scryfall.com/cards/2e843c57-fae3-4127-94e7-cad8c8bb9486/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ominous Harvest
@@ -334,7 +360,9 @@
   > Cycling {2} ({2}, Discard this card: Draw a card.)
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1410 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/iko/61/ominous-seas) · oracle_id `58ea9b0a-1bef-4ccb-acb7-f03c8daf3df3` · printing: IKO #61 (2020-04-24) · [rulings](https://api.scryfall.com/cards/ce8965f2-756a-4461-a643-db024a11c2de/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-04-17* — If a spell or ability causes you to put cards into your hand without specifically using the word “draw,” it’s not a card drawn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/iko/61/ominous-seas) · oracle_id `58ea9b0a-1bef-4ccb-acb7-f03c8daf3df3` · printing: IKO #61 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ominous Sphinx
 
@@ -359,7 +387,12 @@
   > If you would lose unspent mana, that mana becomes black instead.
   > At the beginning of your first main phase, look at the top card of your library. You may reveal that card if it has three or more colored mana symbols in its mana cost. If you do, add three mana in any combination of its colors and put it into your hand. If you don't reveal it, put it into your hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5494 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/249/omnath-locus-of-all) · oracle_id `26445dc7-8363-4205-aee8-1cafeb4ba4c0` · printing: MOM #249 (2023-04-21) · [rulings](https://api.scryfall.com/cards/33d94ecf-758b-4f68-a7be-6bf3ff1047f4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2023-04-14* — As long as Omnath, Locus of All remains under your control, you'll retain unspent mana as steps and phases end, although that mana will become black. This means you can add mana and spend it during a future step, phase, or turn. Once Omnath leaves your control, you'll have until the end of the current step or phase to spend the mana before it is lost.
+  - *2023-04-14* — If unspent mana you have has any restrictions or riders associated with it (for example, if it was produced by Omen Hawker), those restrictions or riders remain associated with that mana when it becomes black.
+  - *2023-04-14* — Omnath's last ability isn't a mana ability even though it can cause you to add mana. It uses the stack and can be responded to.
+  - *2023-04-14* — The mana symbols in the card you reveal may be in any combination of colors. For example, you could reveal a card with mana cost {1}{R}{R}{R}, one with mana cost {4}{U}{R}{W}, one with mana cost {W}{U}{B}{R}{G}, or one with mana cost {R/G}{G}{G/W}.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/249/omnath-locus-of-all) · oracle_id `26445dc7-8363-4205-aee8-1cafeb4ba4c0` · printing: MOM #249 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Omnath, Locus of Creation
 
@@ -371,7 +404,14 @@
   > Landfall — Whenever a land you control enters, you gain 4 life if this is the first time this ability has resolved this turn. If it's the second time, add {R}{G}{W}{U}. If it's the third time, Omnath deals 4 damage to each opponent and each planeswalker you don't control.
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4221 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/232/omnath-locus-of-creation) · oracle_id `cd133d30-51ff-4114-a7d7-029345f0f0d7` · printing: ZNR #232 (2020-09-25) · [rulings](https://api.scryfall.com/cards/4e4fb50c-a81f-44d3-93c5-fa9a0b37f617/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2020-09-25* — In a Two-Headed Giant game, Omnath's second ability causes the opposing team to lose 8 life the third time it resolves. Each other player's planeswalkers—including your teammate's—are dealt 4 damage.
+  - *2020-09-25* — Omnath's landfall ability always uses the stack and players may respond to it. It isn't a mana ability because the event that causes it to trigger isn't a mana ability, even if it's the second time the ability has resolved in a turn.
+  - *2020-09-25* — Omnath's landfall ability has no effect each time beyond the third it resolves in a turn.
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/232/omnath-locus-of-creation) · oracle_id `cd133d30-51ff-4114-a7d7-029345f0f0d7` · printing: ZNR #232 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Omnath, Locus of Mana
 
@@ -384,7 +424,11 @@
 - **Flavor text** (CMM printing):
   > *It gathers against the coming storm.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3736 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/310/omnath-locus-of-mana) · oracle_id `9da896e1-2256-425b-b801-1ae6f0470559` · printing: CMM #310 (2023-08-04) · [rulings](https://api.scryfall.com/cards/acf0cab3-da50-4561-8797-cd179af39216/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2010-03-01* — If a green mana you produce has certain restrictions or riders associated with it (for example, if it was produced by Ancient Ziggurat), they'll apply to that mana no matter when you spend it.
+  - *2010-03-01* — Once Omnath leaves the battlefield, you have until the end of the current step or phase to spend your unspent green mana before it too is lost as normal. There is no penalty associated with this other than the loss of the mana.
+  - *2010-03-01* — You can keep unspent green mana indefinitely while Omnath is on the battlefield. That means if you add a green mana during one step or phase, you can spend it during a later step or phase, or even a later turn. Other types of mana will be lost as normal as each step and phase ends.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/310/omnath-locus-of-mana) · oracle_id `9da896e1-2256-425b-b801-1ae6f0470559` · printing: CMM #310 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Omnath, Locus of Rage
 
@@ -396,7 +440,10 @@
   > Whenever Omnath or another Elemental you control dies, Omnath deals 3 damage to any target.
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #951 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/129/omnath-locus-of-rage) · oracle_id `1816eede-c5bd-49df-958f-a3af64cb2932` · printing: ECC #129 (2026-01-23) · [rulings](https://api.scryfall.com/cards/637c5910-f835-496e-b1b9-445bfb71da97/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2015-08-25* — If Omnath dies at the same time as any other Elementals you control, Omnath's last ability will trigger for each of them (and once for itself).
+  - *2015-08-25* — Omanth doesn't have the land type Locus.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/129/omnath-locus-of-rage) · oracle_id `1816eede-c5bd-49df-958f-a3af64cb2932` · printing: ECC #129 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Omnath, Locus of the Roil
 
@@ -408,7 +455,11 @@
   > Landfall — Whenever a land you control enters, put a +1/+1 counter on target Elemental you control. If you control eight or more lands, draw a card.
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3566 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/130/omnath-locus-of-the-roil) · oracle_id `ffd34151-457a-4a93-82db-24b18319a06b` · printing: ECC #130 (2026-01-23) · [rulings](https://api.scryfall.com/cards/6da6957b-8f52-4fc9-affe-e1e0db03fbe2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-07-12* — If the target Elemental is an illegal target by the time Omnath's second ability tries to resolve, the ability doesn't resolve. You don't draw a card if you control eight or more lands. If the target is legal but can't have a +1/+1 counter put on it (most likely because an opponent controls Blightbeetle), you do draw a card if you control eight or more lands.
+  - *2019-07-12* — The number of Elementals you control is counted as Omnath's first ability resolves. If Omnath is still on the battlefield, it will count itself.
+  - *2019-07-12* — You may choose Omnath as the target of its own second ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/130/omnath-locus-of-the-roil) · oracle_id `ffd34151-457a-4a93-82db-24b18319a06b` · printing: ECC #130 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Omnath, Locus of the Void
 
@@ -449,7 +500,22 @@
   > You may have this creature enter as a copy of any creature on the battlefield, except it has changeling.
 - **Keywords:** Convoke, Changeling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5151 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/62/omni-changeling) · oracle_id `66d4370e-19b9-4680-9b1e-a192537bc002` · printing: ECL #62 (2026-01-23) · [rulings](https://api.scryfall.com/cards/f29ce8f9-42a3-43fa-8197-666cc26e2c76/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (14):
+  - *2025-11-17* — Any "enters" abilities of the copied creature will trigger when Omni-Changeling enters. Any "as this creature enters" or "this creature enters with" abilities of the copied creature will also work.
+  - *2025-11-17* — Changeling is a characteristic-defining ability. It functions in all zones, not only while a card that has it is on the battlefield.
+  - *2025-11-17* — If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.
+  - *2025-11-17* — If an effect causes a creature with changeling to become a new creature type, it will be only that new creature type (unless the effect says "in addition" or similar). It will still have changeling; the effect making it all creature types will simply be overwritten.
+  - *2025-11-17* — If an effect causes a creature with changeling to lose all abilities, it will remain all creature types, even though it will no longer have changeling. This is because changeling applies before the effect that removes it.
+  - *2025-11-17* — If the copied creature has {X} in its mana cost, X is 0.
+  - *2025-11-17* — If the copied creature is a token, Omni-Changeling copies the original characteristics of that token as stated by the effect that created that token, with the listed exception.
+  - *2025-11-17* — If the copied creature is copying something else, then Omni-Changeling enters as whatever that creature copied, with the listed exception.
+  - *2025-11-17* — Omni-Changeling copies exactly what was printed on the original creature and nothing else, with the listed exception (unless that creature is copying something else or is a token; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+  - *2025-11-17* — Tapping an untapped creature that's attacking or blocking to convoke a spell won't cause that creature to stop attacking or blocking.
+  - *2025-11-17* — The subtype Shapeshifter that appears on the type line is mostly there to reinforce the flavor. A creature card with changeling is just as much a Kithkin, a Goblin, a Merfolk, and a Brushwagg as it is a Shapeshifter.
+  - *2025-11-17* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
+  - *2025-11-17* — You can choose not to have Omni-Changeling enter as a copy of another creature. If you do, it will just be a 0/0 Shapeshifter with changeling, and unless another effect is increasing its toughness, it will be put into its owner's graveyard.
+  - *2025-11-17* — You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/62/omni-changeling) · oracle_id `66d4370e-19b9-4680-9b1e-a192537bc002` · printing: ECL #62 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Omni-Cheese Pizza
 
@@ -512,7 +578,12 @@
   > *"The things I once imagined would be my greatest achievements were only the first steps toward a future I can only begin to fathom."*
   > *—Jace Beleren*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1027 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/161/omniscience) · oracle_id `730e39e6-c61d-48b5-8827-bfd952bf1be7` · printing: FDN #161 (2024-11-15) · [rulings](https://api.scryfall.com/cards/d33d91d0-1506-45e4-9def-975bf901815e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2018-07-13* — If a spell has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2018-07-13* — If you cast a spell "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, such as that of Tormenting Voice, those must be paid to cast the spell.
+  - *2018-07-13* — Once you cast Omniscience, if it's your turn, you'll have priority immediately after it resolves. You can cast another spell before any player can attempt to remove Omniscience with spells or abilities.
+  - *2018-07-13* — You must follow the normal timing permissions and restrictions of each spell you cast.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/161/omniscience) · oracle_id `730e39e6-c61d-48b5-8827-bfd952bf1be7` · printing: FDN #161 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Omnispell Adept
 
@@ -547,4 +618,6 @@
   > Each land with an everything counter on it is every land type in addition to its other types.
   > Each nonland creature with an everything counter on it is every creature type.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5167 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/m3c/2/omo-queen-of-vesuva) · oracle_id `021b91ea-18d8-4b50-97da-dd003380cd68` · printing: M3C #2 (2024-06-14) · [rulings](https://api.scryfall.com/cards/e5d1c814-4c22-4917-95ae-dffaf491db32/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-06-07* — Omo's second ability grants every land type to lands with everything counters on them, not just basic land types. The full list of land types can be found in the Comprehensive Rules of Magic.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m3c/2/omo-queen-of-vesuva) · oracle_id `021b91ea-18d8-4b50-97da-dd003380cd68` · printing: M3C #2 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

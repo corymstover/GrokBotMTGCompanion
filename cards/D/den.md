@@ -37,7 +37,10 @@
 - **Flavor text** (LTR printing):
   > *"Much must be risked in war."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7280 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/198/denethor-ruling-steward) · oracle_id `1b82312c-f748-4c36-8934-ecbcfc10cc7d` · printing: LTR #198 (2023-06-23) · [rulings](https://api.scryfall.com/cards/fa8654cf-431c-427b-b78f-0e48f6007e9e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-06-16* — Denethor, Ruling Steward doesn't need to have been on the battlefield when the creature died. For example, if a creature dies during combat on your turn and you cast Denethor, Ruling Steward during your second main phase, its first ability will trigger at the beginning of your end step.
+  - *2023-06-16* — Denethor, Ruling Steward's first ability will trigger only once during your end step, no matter how many creatures died under your control this turn. However, if no creatures have died under your control this turn as your end step begins, the ability won't trigger at all. It's not possible to cause a creature to die under your control during the end step in time to have the ability trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/198/denethor-ruling-steward) · oracle_id `1b82312c-f748-4c36-8934-ecbcfc10cc7d` · printing: LTR #198 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Denethor, Stone Seer
 
@@ -102,7 +105,11 @@
   > {T}: Add {R}.
   > {3}{R}: Until end of turn, this land becomes a 3/2 red Goblin creature with "Whenever this creature attacks, create a 1/1 red Goblin creature token that's tapped and attacking." It's still a land.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3055 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/254/den-of-the-bugbear) · oracle_id `f451b8f0-1ff5-4e8d-9f30-9352d83ed687` · printing: AFR #254 (2021-07-23) · [rulings](https://api.scryfall.com/cards/f231caf8-56c0-4719-a90d-5e5efbee3148/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-07-23* — If Den of the Bugbear enters the battlefield at the same time as one or more other lands, it doesn't take those lands into consideration when determining how many other lands you control.
+  - *2021-07-23* — If Den of the Bugbear's last ability is activated multiple times in one turn, it will have multiple instances of the triggered ability that it grants. For example, if you activate it twice and attack, you will create two 1/1 red Goblin creature tokens that are tapped and attacking.
+  - *2021-07-23* — If you turn Den of the Bugbear into a creature but haven't controlled it continuously since your most recent turn began, you won't be able to activate its mana ability or attack with it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/254/den-of-the-bugbear) · oracle_id `f451b8f0-1ff5-4e8d-9f30-9352d83ed687` · printing: AFR #254 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Den Protector
 
@@ -115,7 +122,12 @@
   > When this creature is turned face up, return target card from your graveyard to your hand.
 - **Keywords:** Megamorph
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6719 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/169/den-protector) · oracle_id `59324efc-65b7-4b31-89c5-17aed5c7eeb1` · printing: MKC #169 (2024-02-09) · [rulings](https://api.scryfall.com/cards/c22d8b77-4274-48ae-a36f-5739d785b599/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2015-02-25* — If a face-down creature with megamorph is turned face up some other way (for example, if you manifest a card with megamorph and then pay its mana cost to turn it face up), you won't put a +1/+1 counter on it.
+  - *2015-02-25* — Megamorph is a variant of the morph ability. You can find more information on morph on cards with morph from the Khans of Tarkir set.
+  - *2015-02-25* — Turning a face-down creature with megamorph face up and putting a +1/+1 counter on it is a special action. It doesn't use the stack and can't be responded to.
+  - *2015-02-25* — You compare Den Protector's power to the power of any creature trying to block it only as blockers are assigned. Once Den Protector has been legally blocked by a creature, changing the power of either creature won't change or undo the block.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/169/den-protector) · oracle_id `59324efc-65b7-4b31-89c5-17aed5c7eeb1` · printing: MKC #169 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Denry Klin, Editor in Chief
 
@@ -126,7 +138,9 @@
   > Denry Klin enters with your choice of a +1/+1, first strike, or vigilance counter on it.
   > Whenever a nontoken creature you control enters, if Denry Klin has counters on it, put the same number of each kind of counter on that creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9691 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/71/denry-klin-editor-in-chief) · oracle_id `ba477a45-84cc-4a85-98e4-50dca3e58788` · printing: NCC #71 (2022-04-29) · [rulings](https://api.scryfall.com/cards/ac40ca08-50e6-46e6-9d50-c4e84325620d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-04-29* — Denry Klin, Editor in Chief was printed with a nonstandard wording, and its Oracle text has been updated for consistency. Specifically, its last ability now says "Whenever a nontoken creature enters the battlefield under your control, if Denry has counters on it, put the same number of each kind of counter on that creature." This is not a functional change.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/71/denry-klin-editor-in-chief) · oracle_id `ba477a45-84cc-4a85-98e4-50dca3e58788` · printing: NCC #71 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dense Canopy
 
@@ -217,6 +231,7 @@
 - **Flavor text** (40K printing):
   > *"This heresy cannot stand!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9824 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/116/deny-the-witch) · oracle_id `ddff34d8-715b-4d6a-8ced-7ff5c4c911bc` · printing: 40K #116 (2022-10-07) · [rulings](https://api.scryfall.com/cards/d3e5b091-2aa7-4aca-9855-bb802d3d563e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Denzilore Fatehold

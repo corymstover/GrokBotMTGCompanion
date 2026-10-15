@@ -27,7 +27,11 @@
 - **Flavor text** (WHO printing):
   > *"The most damning is still to come. And when I have finished, this court will demand your life!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8287 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/165/the-valeyard) · oracle_id `ed202f1d-3511-45f4-bfbc-e6b76d4311d1` · printing: WHO #165 (2023-10-13) · [rulings](https://api.scryfall.com/cards/d63218a4-afaf-4ad8-9ca4-4f9af87877b9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-10-13* — If an effect instructs you to choose a creature type, you may choose Time Lord.
+  - *2023-10-13* — Neither "Time" nor "Lord" are creature types. Some older cards were printed with the subtype "Lord," but all of those cards have updated Oracle card text that removed that type.
+  - *2023-10-13* — Unlike other creature types in Magic that are each only one word, the two words "Time Lord" represent a single creature subtype. Time Lord is the only two-word creature type.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/165/the-valeyard) · oracle_id `ed202f1d-3511-45f4-bfbc-e6b76d4311d1` · printing: WHO #165 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Value Knight
 
@@ -92,6 +96,7 @@
   > • Technopathy — Draw a card.
 - **Keywords:** Density Control, Flying, Vigilance, Technopathy, Solar Beam
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7250 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/255/the-vision) · oracle_id `32aee76a-e738-4898-985a-801d1cce15ea` · printing: MSH #255 (2026-06-26) · [rulings](https://api.scryfall.com/cards/2961cf20-33c8-4e66-9d0f-6daca8ea7880/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Vision and Scarlet Witch

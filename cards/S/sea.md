@@ -119,7 +119,10 @@
 - **Flavor text** (ONE printing):
   > *Where indoctrination meets inquiry, currents roil restlessly beneath the surface.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1166 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/258/seachrome-coast) · oracle_id `9e7a240d-dc33-47ac-9f17-77fab4c1c340` · printing: ONE #258 (2023-02-10) · [rulings](https://api.scryfall.com/cards/9ed7441f-f624-49c8-8611-d9bba0e441ac/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-02-04* — If one of these lands enters the battlefield at the same time as one or more other lands (due to Oblivion Sower or Warp World, perhaps), it doesn't take those lands into consideration when determining how many other lands you control.
+  - *2023-02-04* — If one of these lands enters the battlefield under your control and you control zero, one, or two other lands, it enters the battlefield untapped. If you control three or more other lands, however, it enters the battlefield tapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/258/seachrome-coast) · oracle_id `9e7a240d-dc33-47ac-9f17-77fab4c1c340` · printing: ONE #258 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seacoast Drake
 
@@ -145,6 +148,7 @@
   > Whenever this creature deals combat damage to a player, draw a card.
 - **Keywords:** Mutate, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4804 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/66/sea-dasher-octopus) · oracle_id `0b718d21-6873-4613-ad15-660d30527fcd` · printing: IKO #66 (2020-04-24) · [rulings](https://api.scryfall.com/cards/a6f59d9e-6c1b-437a-934c-7c776c8dd1d5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sea Drake
@@ -204,7 +208,9 @@
 - **Flavor text** (LCC printing):
   > *Where the light falls dim and blue on broken ships, secrets lie unclaimed.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4562 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/170/seafloor-oracle) · oracle_id `f9f719cb-7778-4109-bbd3-4504ee1b5f49` · printing: LCC #170 (2023-11-17) · [rulings](https://api.scryfall.com/cards/a746c2ff-60f3-41c4-853d-e5159d005bea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-01-19* — If Seafloor Oracle is dealt lethal damage at the same time a Merfolk you control deals combat damage to a player, you'll draw a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/170/seafloor-oracle) · oracle_id `f9f719cb-7778-4109-bbd3-4504ee1b5f49` · printing: LCC #170 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seafloor Stalker
 
@@ -229,6 +235,7 @@
 - **Flavor text** (CLB printing):
   > *An efficient route from a smuggler's ship to a patriar's manor.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2584 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/359/sea-gate) · oracle_id `b574c540-9f8a-4fd4-8809-d02c9b099ddc` · printing: CLB #359 (2022-06-10) · [rulings](https://api.scryfall.com/cards/d97f31e1-bcaf-4316-a2de-49e2cf7566ec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sea Gate Banneret
@@ -267,6 +274,7 @@
   > *"He's a living library. He remembers everything our band of explorers has seen, and we can use that to our advantage."*
   > *—Zahr Gada, Halimar expedition leader*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7566 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/zen/63/sea-gate-loremaster) · oracle_id `6eed122b-9760-47fd-8ba2-adeda8054e0d` · printing: ZEN #63 (2009-10-02) · [rulings](https://api.scryfall.com/cards/5cd723c8-4b3d-4fbb-a825-79934279382d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sea Gate Oracle
@@ -279,7 +287,9 @@
 - **Flavor text** (KHC printing):
   > *"The secret entrance should be near."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7841 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khc/43/sea-gate-oracle) · oracle_id `b333c194-d285-4dfb-984c-57b7e88393af` · printing: KHC #43 (2021-02-05) · [rulings](https://api.scryfall.com/cards/498743ce-0ca5-488a-ae5e-d348b274bf3b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-03-14* — If there’s only one card in your library as Sea Gate Oracle’s ability resolves, you’ll put it into your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khc/43/sea-gate-oracle) · oracle_id `b333c194-d285-4dfb-984c-57b7e88393af` · printing: KHC #43 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sea Gate Restoration // Sea Gate, Reborn
 
@@ -331,7 +341,9 @@
 - **Flavor text** (CMM printing):
   > *Once a center for knowledge, Sea Gate now serves as a reminder of what was lost.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5648 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/1028/sea-gate-wreckage) · oracle_id `91f34686-cb96-49c0-b4a7-49dd1fd076e2` · printing: CMM #1028 (2023-08-04) · [rulings](https://api.scryfall.com/cards/1c137634-7531-4573-9bfa-623d8edf839c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-01-22* — It doesn’t matter how many cards are in your hand as the last ability resolves. For example, if you have no cards in hand and control two Sea Gate Wreckages, you can activate the last ability of each of them. You’ll draw a card as each ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/1028/sea-gate-wreckage) · oracle_id `91f34686-cb96-49c0-b4a7-49dd1fd076e2` · printing: CMM #1028 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sea God's Revenge
 
@@ -449,7 +461,13 @@
   > When this enchantment enters, exile target nonland permanent an opponent controls until this enchantment leaves the battlefield.
 - **Keywords:** Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9559 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/35/seal-from-existence) · oracle_id `72c4c682-df97-4408-997b-e849f54aba39` · printing: MOM #35 (2023-04-21) · [rulings](https://api.scryfall.com/cards/2ccc29cc-025d-402e-9fe3-75998eb290c9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-04-14* — Auras attached to the exiled permanent will be put into their owners’ graveyards. Equipment attached to an exiled creature will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist.
+  - *2023-04-14* — If Seal from Existence leaves the battlefield before its last ability resolves, the target permanent won’t be exiled.
+  - *2023-04-14* — If a token is exiled, it ceases to exist. It won’t be returned to the battlefield.
+  - *2023-04-14* — In a multiplayer game, if Seal from Existence’s owner leaves the game, the exiled card will return to the battlefield. Because the one-shot effect that returns the card isn’t an ability that goes on the stack, it won’t cease to exist along with the leaving player’s spells and abilities on the stack.
+  - *2023-04-14* — Seal from Existence’s last ability creates two one-shot effects: one that exiles the permanent when the ability resolves, and another that returns the exiled card to the battlefield immediately after Seal from Existence leaves the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/35/seal-from-existence) · oracle_id `72c4c682-df97-4408-997b-e849f54aba39` · printing: MOM #35 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sealock Monster
 
@@ -474,7 +492,9 @@
   > *"I am the purifier, the light that clears all shadows."*
   > *—Seal inscription*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3375 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/80/seal-of-cleansing) · oracle_id `a75dbe70-7e3e-446f-9a76-9fbb414f2e7c` · printing: MKC #80 (2024-02-09) · [rulings](https://api.scryfall.com/cards/22a6673b-1528-4e0f-b316-bd482c7ed8aa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-06-18* — Sacrificing Seal of Cleansing is the cost to activate its ability. Once you activate the ability, no player can do anything to Seal of Cleansing to stop you from activating it. Notably, if you cast Seal of Cleansing during your turn, you'll have priority to activate its ability before anyone can respond to stop you.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/80/seal-of-cleansing) · oracle_id `a75dbe70-7e3e-446f-9a76-9fbb414f2e7c` · printing: MKC #80 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seal of Doom
 
@@ -486,6 +506,7 @@
   > *"A basilisk's gaze is effective, but disposing of physical remains is a tiresome task. It's far more discreet to dissolve one's victim entirely."*
   > *—Szadek*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9674 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm3/83/seal-of-doom) · oracle_id `71d54ba3-91fe-4a14-8b99-c284b4c75013` · printing: MM3 #83 (2017-03-17) · [rulings](https://api.scryfall.com/cards/3647ef4a-fbf3-4f64-8376-72c9247bbc22/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seal of Fire
@@ -509,7 +530,10 @@
   > *"I am the simplifier, the root that drags all artifice to earth."*
   > *—Seal inscription*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3759 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/228/seal-of-primordium) · oracle_id `f14dbb39-c9f9-4f64-b22a-38dba28f5b1e` · printing: TSR #228 (2021-03-19) · [rulings](https://api.scryfall.com/cards/fd5592ab-6883-4c5a-8d50-d9530d905b19/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — This is not modal. If the target changes from an artifact to an enchantment or vice versa, this still destroys it.
+  - *2017-03-14* — You can activate Seal of Primordium's ability targeting Seal of Primordium itself if you want it to leave the battlefield. This is because targets are chosen before costs are paid. The ability won't resolve as it tries to resolve.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/228/seal-of-primordium) · oracle_id `f14dbb39-c9f9-4f64-b22a-38dba28f5b1e` · printing: TSR #228 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seal of Removal
 
@@ -521,7 +545,9 @@
   > *"I am the unraveler, the loosened thread that will not hold."*
   > *—Seal inscription*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6809 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/269/seal-of-removal) · oracle_id `f0801029-bcf7-4bdb-84bf-e88dcaa9dc03` · printing: MH2 #269 (2021-06-18) · [rulings](https://api.scryfall.com/cards/6dfc7060-e374-486f-8029-d3fdfe4b61e7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-06-18* — Sacrificing Seal of Removal is the cost to activate its ability. Once you activate the ability, no player can do anything to Seal of Removal to stop you from activating it. Notably, if you cast Seal of Removal during your turn, you'll have priority to activate its ability before anyone can respond to stop you.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/269/seal-of-removal) · oracle_id `f0801029-bcf7-4bdb-84bf-e88dcaa9dc03` · printing: MH2 #269 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seal of Strength
 
@@ -588,7 +614,10 @@
   > {T}: Add X mana of any one color, where X is the number of soul counters on this artifact. Spend this mana only to cast instant, sorcery, Demon, and Spirit spells.
 - **Keywords:** Morbid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4287 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/40/s%C3%A9ance-board) · oracle_id `8331d2ff-3729-4014-8dcb-278644d2632a` · printing: DSC #40 (2024-09-27) · [rulings](https://api.scryfall.com/cards/65a6c25f-860e-401f-ac01-d16e4327248d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-09-20* — If a spell has {X} in its mana cost, use the value chosen for X when determining that spell's mana value.
+  - *2024-09-20* — If no creatures have died in a turn by the time that turn's end step begins, Séance Board's first ability won't trigger at all. Causing a creature to die during the end step won't cause the ability to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/40/s%C3%A9ance-board) · oracle_id `8331d2ff-3729-4014-8dcb-278644d2632a` · printing: DSC #40 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sea of Clouds
 
@@ -640,7 +669,11 @@
   > {2}{U}, {T}: Look at the top four cards of your library. You may reveal a noncreature, nonland card from among them and put it into your hand. Put the rest on the bottom of your library in any order.
 - **Keywords:** Surveil, Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3984 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/xln/74/search-for-azcanta-azcanta-the-sunken-ruin) · oracle_id `f74c4d96-bc4a-4d32-9519-a753d192144e` · printing: XLN #74 (2017-09-29) · [rulings](https://api.scryfall.com/cards/1a7e242e-bb48-4134-a1c2-6033713d658f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2017-09-29* — If a seventh card is put into your graveyard by something other than resolving Search for Azcanta's triggered ability, you won't transform it yet. You'll have to wait until your next upkeep.
+  - *2017-09-29* — If you don't put the top card of your library into your graveyard while resolving Search for Azcanta's triggered ability, you'll leave it on top of your library (and probably draw it during your draw step).
+  - *2017-09-29* — If you have seven or more cards in your graveyard, you may transform Search for Azcanta while resolving its triggered ability even if you choose not to put the top card of your library into your graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/xln/74/search-for-azcanta-azcanta-the-sunken-ruin) · oracle_id `f74c4d96-bc4a-4d32-9519-a753d192144e` · printing: XLN #74 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Search for Dagger
 
@@ -660,7 +693,16 @@
 - **Oracle text:**
   > Search your library for a snow permanent card, a legendary card, or a Saga card, reveal it, put it into your hand, then shuffle. You gain 1 life for each {S} spent to cast this spell. ({S} is mana from a snow source.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4204 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/27/search-for-glory) · oracle_id `fab29bc7-1f0a-4df4-b8f1-c008ce5583d2` · printing: KHM #27 (2021-02-05) · [rulings](https://api.scryfall.com/cards/b65c215d-562d-4c7c-bc9f-b1d741050158/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2021-02-05* — A snow permanent card is any artifact, creature, enchantment, land, or planeswalker card with the supertype snow.
+  - *2021-02-05* — If Search for Glory is copied, no snow mana was spent to cast the copy, so you won’t gain any life. You’ll still search . . . for glory.
+  - *2021-02-05* — If you cast Search for Glory without spending snow mana, you won’t gain any life. You’ll still perform the search.
+  - *2021-02-05* — Snow is a supertype, not a card type. It has no rules meaning or function by itself, but spells and abilities may refer to it.
+  - *2021-02-05* — Snow isn’t a type of mana. If an effect says you may spend mana as though it were any type, you can’t pay for {S} using mana that wasn’t produced by a snow source.
+  - *2021-02-05* — Some cards have additional effects for each {S} spent to cast them. You can cast these spells even if you don’t spend any snow mana to cast them; their additional effects simply won’t do anything.
+  - *2021-02-05* — The Kaldheim set doesn’t have any cards with mana costs that include {S}, but some previous sets do. If an effect says such a spell costs {1} less to cast, that reduction doesn’t apply to any {S} costs. This is also true for activated abilities that include {S} in their activation costs and effects that reduce those costs.
+  - *2021-02-05* — The {S} symbol is a generic mana symbol. It represents a cost that can be paid by one mana that was produced by a snow source. That mana can be any color or colorless.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/27/search-for-glory) · oracle_id `fab29bc7-1f0a-4df4-b8f1-c008ce5583d2` · printing: KHM #27 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Search for Survivors
 
@@ -682,7 +724,21 @@
   > Suspend 2—{G} (Rather than cast this card from your hand, you may pay {G} and exile it with two time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.)
 - **Keywords:** Suspend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1860 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/137/search-for-tomorrow) · oracle_id `9cdc9f99-c6fa-40cd-90b0-e47d43a8cc3c` · printing: DMC #137 (2022-09-09) · [rulings](https://api.scryfall.com/cards/4a0c73a9-38a2-4a3d-938e-b81ba166f0ff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2024-02-02* — Cards exiled with suspend are exiled face up.
+  - *2024-02-02* — Due to a recent rules change to suspend, you are no longer required to cast the suspended card as the second triggered ability of suspend resolves. Instead, as the second triggered ability resolves, you may cast the card. Timing permissions based on the card's type are ignored. If you don't cast the card, it remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to.
+  - *2024-02-02* — If an effect refers to a "suspended card," that means a card that (1) has suspend, (2) is in exile, and (3) has one or more time counters on it.
+  - *2024-02-02* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-02-02* — If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again at the beginning of the card's owner's next upkeep.
+  - *2024-02-02* — If the second triggered ability is countered, the card can't be cast. It remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it's exiled.
+  - *2024-02-02* — If you cast a card "without paying its mana cost," such as with suspend, you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those if you want to cast the card.
+  - *2024-02-02* — Suspend is a keyword that represents three abilities. The first is a static ability that allows you to exile the card from your hand with the specified number of time counters (the number before the dash) on it by paying its suspend cost (listed after the dash). The second is a triggered ability that removes a time counter from the suspended card at the beginning of each of your upkeeps. The third is a triggered ability that gives you the option to cast the card when the last time counter is removed.
+  - *2024-02-02* — The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.
+  - *2024-02-02* — When the last time counter is removed, the second triggered ability of suspend (the one that lets you cast the card) triggers. It doesn't matter why the last time counter was removed or what effect removed it.
+  - *2024-02-02* — You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effects that modify when you could cast it (such as flash) and any other effects that stop you from casting it (such as from Meddling Mage's ability) to determine if and when you can do this. Whether you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or that requires a target even if no legal targets are available at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/137/search-for-tomorrow) · oracle_id `9cdc9f99-c6fa-40cd-90b0-e47d43a8cc3c` · printing: DMC #137 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Searchlight Companion
 
@@ -746,6 +802,7 @@
   > *—Inquisitor Delmund*
 - **Keywords:** Investigate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7373 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/81/search-the-premises) · oracle_id `0232418d-1c52-4573-b488-c62345ca1c8d` · printing: MKC #81 (2024-02-09) · [rulings](https://api.scryfall.com/cards/08877e2c-79ac-4a4d-a7dd-60652c5eb5f6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Search Warrant
@@ -912,7 +969,11 @@
   > *Ikko hadn't intended to start a riot, but now that it was under way, he was having a lot of fun.*
 - **Keywords:** Raid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3667 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/93/searslicer-goblin) · oracle_id `86ec0b56-497f-481c-a03a-c4e64e8e7404` · printing: FDN #93 (2024-11-15) · [rulings](https://api.scryfall.com/cards/94ad0b97-a318-4e76-ac79-b3e83417c333/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — Raid abilities care only that you attacked with a creature. It doesn't matter how many creatures you attacked with or which player, planeswalker, or battle those creatures attacked.
+  - *2024-11-08* — Raid abilities evaluate the entire turn to see if you attacked with a creature. That creature doesn't have to still be on the battlefield. Similarly, the player, planeswalker, or battle it attacked doesn't have to still be in the game or on the battlefield.
+  - *2024-11-08* — Some raid abilities trigger at the beginning of your end step. These abilities trigger if you attacked with a creature that turn, even if the permanent with that raid ability wasn't on the battlefield when you attacked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/93/searslicer-goblin) · oracle_id `86ec0b56-497f-481c-a03a-c4e64e8e7404` · printing: FDN #93 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seascape Aerialist
 
@@ -1081,7 +1142,18 @@
   > Whenever you attack, target attacking Cleric, Rogue, Warrior, or Wizard gains protection from creatures until end of turn. It explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on the creature, then put the card back or put it into your graveyard.)
 - **Keywords:** Explore
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4620 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/660/seasoned-dungeoneer) · oracle_id `5ea675aa-88d6-4387-a14d-e606fa9c3aec` · printing: CLB #660 (2022-06-10) · [rulings](https://api.scryfall.com/cards/7fee3f76-20a8-4621-84fb-ddf79c955532/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2022-06-10* — A player who currently has the initiative may take the initiative again. This causes that player to venture into Undercity again, but does not cause them to have multiple initiative designations.
+  - *2022-06-10* — If the player with the initiative leaves the game, the active player takes the initiative at the same time that player leaves the game. If the active player is leaving the game or if there is no active player, the next player in turn order takes the initiative.
+  - *2022-06-10* — If you aren’t in a dungeon when instructed to venture into Undercity, you will put Undercity into the command zone and move your venture marker to Secret Entrance (the first room).
+  - *2022-06-10* — If you’re already in a dungeon when instructed to venture into Undercity, you move to the next room of that dungeon. If you are already in the last room, you will complete that dungeon and start Undercity. This is true whether you’re already in Undercity or any other dungeon.
+  - *2022-06-10* — In a Two-Headed Giant game, if both players on a team deal combat damage to the player that has the initiative at the same time, the player with the initiative will choose the order of the triggered abilities. Then, as those abilities resolve, one team member takes the initiative (and ventures into Undercity) and then the other team member does the same. The last player to take the initiative keeps it until the initiative changes again.
+  - *2022-06-10* — Only one player can have the initiative at a time. As one player takes the initiative, any other player that had the initiative ceases to have it.
+  - *2022-06-10* — Similarly, when instructed to venture into Undercity, you can’t start a dungeon that isn’t Undercity.
+  - *2022-06-10* — The initiative is a designation a player can have. A player with the initiative designation is said to “have the initiative.” The initiative carries two inherent rules. First, whenever a player takes the initiative, and at the beginning of the upkeep of the player with the initiative, that player ventures into Undercity. Second, whenever one or more creatures a player controls deal combat damage to the player who has the initiative, the first player takes the initiative. Also, some abilities will refer to having the initiative and provide other benefits.
+  - *2022-06-10* — There is no initiative in a game until an effect instructs a player to take the initiative. Once a player is instructed to do this, they have the initiative until another player takes the initiative.
+  - *2022-06-10* — You cannot venture into Undercity unless instructed to do so, either because you have the initiative at the beginning of your upkeep or because you take the initiative. Notably, if you aren’t in a dungeon and an effect instructs you to venture into the dungeon (not venture into Undercity), you can’t start Undercity.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/660/seasoned-dungeoneer) · oracle_id `5ea675aa-88d6-4387-a14d-e606fa9c3aec` · printing: CLB #660 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seasoned Hallowblade
 
@@ -1163,7 +1235,17 @@
   > {P}{P} — Choose artifact or enchantment. Destroy all permanents of the chosen type.
   > {P}{P}{P} — Draw cards equal to the greatest power among creatures you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1766 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/192/season-of-gathering) · oracle_id `3ea060d8-449c-4a5e-8883-b45bd7707b5b` · printing: BLB #192 (2024-08-02) · [rulings](https://api.scryfall.com/cards/71dd3c27-e0d5-434e-a0f3-4a95245e21c2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2024-07-26* — Choices made for the first and second modes of Season of Gathering aren't made until the spell is resolving.
+  - *2024-07-26* — If a Season is copied, the effect that creates the copy will usually allow you to choose new targets, but you can't choose new modes.
+  - *2024-07-26* — If a mode requires a target, you can select that mode only if there's a legal target available. Ignore the targeting requirements for modes you don't choose. Each time you select that mode, you can choose a different target, or you can choose the same target.
+  - *2024-07-26* — If all targets for the chosen modes become illegal before the Season resolves, the spell won't resolve and none of its effects will happen. If at least one target is still legal, the spell will resolve but will have no effect on any illegal targets.
+  - *2024-07-26* — No matter which combination of modes you choose, you always follow the instructions of a Season in the order they are written. If the same mode is chosen more than once, you choose their relative order as you cast the spell.
+  - *2024-07-26* — No player can cast spells or activate abilities in between the modes of a resolving spell.
+  - *2024-07-26* — The pawprint symbol does not represent a cost, mana, counters, or any kind of persistent resource. You can't "save up" pawprint symbols from one Season spell to use on a future one, mostly because there isn't anything concrete to save up. They're just pawprints.
+  - *2024-07-26* — You choose the modes as you cast the spell. Once modes are chosen, they can't be changed.
+  - *2024-07-26* — You don't have to choose modes that add up to exactly five pawprints. For example, you could choose the two pawprint mode twice and leave it at that. You could even choose no modes at all. You probably shouldn't, but you could.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/192/season-of-gathering) · oracle_id `3ea060d8-449c-4a5e-8883-b45bd7707b5b` · printing: BLB #192 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Season of Growth
 
@@ -1176,7 +1258,11 @@
   > *"Awake, and lift your faces to the sun."*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2238 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m20/191/season-of-growth) · oracle_id `3f4e300a-ec5c-42f3-a97b-d58e62abe22b` · printing: M20 #191 (2019-07-12) · [rulings](https://api.scryfall.com/cards/65b9a718-01b9-46b2-85eb-55f6206ee5e4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-07-12* — If multiple creatures enter the battlefield under your control simultaneously, you’ll scry 1 for each of those creatures. You won’t look at more than one card from your library at once.
+  - *2019-07-12* — Season of Growth’s last ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+  - *2019-07-12* — Season of Growth’s last ability triggers when you cast a spell that has multiple targets, as long as at least one of those targets is a creature you control. It doesn’t trigger multiple times if you cast a spell that targets a creature you control multiple times or that targets multiple creatures you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m20/191/season-of-growth) · oracle_id `3f4e300a-ec5c-42f3-a97b-d58e62abe22b` · printing: M20 #191 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Season of Loss
 
@@ -1188,7 +1274,17 @@
   > {P}{P} — Draw a card for each creature that died under your control this turn.
   > {P}{P}{P} — Each opponent loses X life, where X is the number of creature cards in your graveyard.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4859 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/112/season-of-loss) · oracle_id `31b5d0ad-3a4d-4f43-b0a9-c9f7a362680f` · printing: BLB #112 (2024-08-02) · [rulings](https://api.scryfall.com/cards/cc540652-916b-45c5-ae5a-0a0bc557cee1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2024-07-26* — If a Season is copied, the effect that creates the copy will usually allow you to choose new targets, but you can't choose new modes.
+  - *2024-07-26* — If a mode requires a target, you can select that mode only if there's a legal target available. Ignore the targeting requirements for modes you don't choose. Each time you select that mode, you can choose a different target, or you can choose the same target.
+  - *2024-07-26* — If all targets for the chosen modes become illegal before the Season resolves, the spell won't resolve and none of its effects will happen. If at least one target is still legal, the spell will resolve but will have no effect on any illegal targets.
+  - *2024-07-26* — No matter which combination of modes you choose, you always follow the instructions of a Season in the order they are written. If the same mode is chosen more than once, you choose their relative order as you cast the spell.
+  - *2024-07-26* — No player can cast spells or activate abilities in between the modes of a resolving spell.
+  - *2024-07-26* — The pawprint symbol does not represent a cost, mana, counters, or any kind of persistent resource. You can't "save up" pawprint symbols from one Season spell to use on a future one, mostly because there isn't anything concrete to save up. They're just pawprints.
+  - *2024-07-26* — When you're following the instructions from the first mode, first the player whose turn it is chooses which creature they're going to sacrifice, then each other player in turn order does the same. Players will know the choices of previous players when making their choices. Then all chosen creatures are sacrificed by their controllers simultaneously. Repeat this process for each additional time the first mode was chosen.
+  - *2024-07-26* — You choose the modes as you cast the spell. Once modes are chosen, they can't be changed.
+  - *2024-07-26* — You don't have to choose modes that add up to exactly five pawprints. For example, you could choose the two pawprint mode twice and leave it at that. You could even choose no modes at all. You probably shouldn't, but you could.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/112/season-of-loss) · oracle_id `31b5d0ad-3a4d-4f43-b0a9-c9f7a362680f` · printing: BLB #112 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Season of Renewal
 
@@ -1214,7 +1310,19 @@
   > {P}{P}{P} — Until the end of your next turn, whenever you cast a spell, Season of the Bold deals 2 damage to up to one target creature.
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6052 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/152/season-of-the-bold) · oracle_id `5fe29c25-a7ad-4c79-a5a5-da1bbc832141` · printing: BLB #152 (2024-08-02) · [rulings](https://api.scryfall.com/cards/84352565-558b-4f9b-a411-532147806a78/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2024-07-26* — If a Season is copied, the effect that creates the copy will usually allow you to choose new targets, but you can't choose new modes.
+  - *2024-07-26* — If a mode requires a target, you can select that mode only if there's a legal target available. Ignore the targeting requirements for modes you don't choose. Each time you select that mode, you can choose a different target, or you can choose the same target.
+  - *2024-07-26* — If all targets for the chosen modes become illegal before the Season resolves, the spell won't resolve and none of its effects will happen. If at least one target is still legal, the spell will resolve but will have no effect on any illegal targets.
+  - *2024-07-26* — No matter which combination of modes you choose, you always follow the instructions of a Season in the order they are written. If the same mode is chosen more than once, you choose their relative order as you cast the spell.
+  - *2024-07-26* — No player can cast spells or activate abilities in between the modes of a resolving spell.
+  - *2024-07-26* — The delayed triggered ability created by the third mode of Season of the Bold resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+  - *2024-07-26* — The pawprint symbol does not represent a cost, mana, counters, or any kind of persistent resource. You can't "save up" pawprint symbols from one Season spell to use on a future one, mostly because there isn't anything concrete to save up. They're just pawprints.
+  - *2024-07-26* — You choose the modes as you cast the spell. Once modes are chosen, they can't be changed.
+  - *2024-07-26* — You don't choose a target for the last mode when Season of the Bold resolves. Instead, until the end of your next turn, a delayed triggered ability goes on the stack whenever you cast a spell. You choose a target for that ability when it goes on the stack. Each player may respond to that ability as normal.
+  - *2024-07-26* — You don't have to choose modes that add up to exactly five pawprints. For example, you could choose the two pawprint mode twice and leave it at that. You could even choose no modes at all. You probably shouldn't, but you could.
+  - *2024-07-26* — You pay all costs and follow all timing rules for cards played with the permission granted by the second mode. For example, if one of the exiled cards is a land card, you may play it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/152/season-of-the-bold) · oracle_id `5fe29c25-a7ad-4c79-a5a5-da1bbc832141` · printing: BLB #152 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Season of the Burrow
 
@@ -1226,7 +1334,16 @@
   > {P}{P} — Exile target nonland permanent. Its controller draws a card.
   > {P}{P}{P} — Return target permanent card with mana value 3 or less from your graveyard to the battlefield with an indestructible counter on it.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4119 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/29/season-of-the-burrow) · oracle_id `8e013e51-1684-4f58-8fe1-3588b6fbb5b5` · printing: BLB #29 (2024-08-02) · [rulings](https://api.scryfall.com/cards/33bf9c60-4e58-48a4-8e53-abef7ab3b671/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2024-07-26* — If a Season is copied, the effect that creates the copy will usually allow you to choose new targets, but you can't choose new modes.
+  - *2024-07-26* — If a mode requires a target, you can select that mode only if there's a legal target available. Ignore the targeting requirements for modes you don't choose. Each time you select that mode, you can choose a different target, or you can choose the same target.
+  - *2024-07-26* — If all targets for the chosen modes become illegal before the Season resolves, the spell won't resolve and none of its effects will happen. If at least one target is still legal, the spell will resolve but will have no effect on any illegal targets.
+  - *2024-07-26* — No matter which combination of modes you choose, you always follow the instructions of a Season in the order they are written. If the same mode is chosen more than once, you choose their relative order as you cast the spell.
+  - *2024-07-26* — No player can cast spells or activate abilities in between the modes of a resolving spell.
+  - *2024-07-26* — The pawprint symbol does not represent a cost, mana, counters, or any kind of persistent resource. You can't "save up" pawprint symbols from one Season spell to use on a future one, mostly because there isn't anything concrete to save up. They're just pawprints.
+  - *2024-07-26* — You choose the modes as you cast the spell. Once modes are chosen, they can't be changed.
+  - *2024-07-26* — You don't have to choose modes that add up to exactly five pawprints. For example, you could choose the two pawprint mode twice and leave it at that. You could even choose no modes at all. You probably shouldn't, but you could.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/29/season-of-the-burrow) · oracle_id `8e013e51-1684-4f58-8fe1-3588b6fbb5b5` · printing: BLB #29 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Season of the Witch
 
@@ -1248,7 +1365,21 @@
   > {P}{P} — Choose an artifact or creature you control. Create a token that's a copy of it.
   > {P}{P}{P} — Return each nonland, nontoken permanent to its owner's hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2228 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/68/season-of-weaving) · oracle_id `4b473a42-a0c5-43d5-93f9-c599e963a06b` · printing: BLB #68 (2024-08-02) · [rulings](https://api.scryfall.com/cards/f5713bb4-bdd9-4253-b6b9-e590532ed773/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2024-07-26* — Any "enters" abilities of the copied permanent will trigger when the token enters. Any "as [this permanent enters" or "[this permanent] enters with" abilities of the chosen permanent will also work.
+  - *2024-07-26* — If a Season is copied, the effect that creates the copy will usually allow you to choose new targets, but you can't choose new modes.
+  - *2024-07-26* — If a mode requires a target, you can select that mode only if there's a legal target available. Ignore the targeting requirements for modes you don't choose. Each time you select that mode, you can choose a different target, or you can choose the same target.
+  - *2024-07-26* — If all targets for the chosen modes become illegal before the Season resolves, the spell won't resolve and none of its effects will happen. If at least one target is still legal, the spell will resolve but will have no effect on any illegal targets.
+  - *2024-07-26* — If the copied permanent is a token, the token that's created copies the original characteristics of that token as stated by the effect that created the token.
+  - *2024-07-26* — If the copied permanent is copying something else, then the token enters as whatever that permanent copied.
+  - *2024-07-26* — No matter which combination of modes you choose, you always follow the instructions of a Season in the order they are written. If the same mode is chosen more than once, you choose their relative order as you cast the spell.
+  - *2024-07-26* — No player can cast spells or activate abilities in between the modes of a resolving spell.
+  - *2024-07-26* — The choice made for the second mode of Season of Weaving isn't made until the spell is resolving.
+  - *2024-07-26* — The pawprint symbol does not represent a cost, mana, counters, or any kind of persistent resource. You can't "save up" pawprint symbols from one Season spell to use on a future one, mostly because there isn't anything concrete to save up. They're just pawprints.
+  - *2024-07-26* — The token from the second mode copies exactly what was printed on the original creature or artifact and nothing else (unless that permanent is copying something else or is a token; see below). It doesn't copy whether that permanent is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.  If it is a Vehicle, it is not crewed. If it is an Equipment, it is not attached to any creature.
+  - *2024-07-26* — You choose the modes as you cast the spell. Once modes are chosen, they can't be changed.
+  - *2024-07-26* — You don't have to choose modes that add up to exactly five pawprints. For example, you could choose the two pawprint mode twice and leave it at that. You could even choose no modes at all. You probably shouldn't, but you could.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/68/season-of-weaving) · oracle_id `4b473a42-a0c5-43d5-93f9-c599e963a06b` · printing: BLB #68 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Season's Beatings
 
@@ -1271,7 +1402,12 @@
 - **Flavor text** (SOI printing):
   > *The seeds of new life take root in the soil of old.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8551 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soi/226/seasons-past) · oracle_id `c46738a4-e0d4-41dc-a20d-4800f00cea62` · printing: SOI #226 (2016-04-08) · [rulings](https://api.scryfall.com/cards/668afd78-3cf5-4daf-8dfb-fca90de0ae5a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2016-04-08* — A card with no mana cost, such as a land, has a mana value of 0.
+  - *2016-04-08* — If a card in your graveyard has {X} in its mana cost, X is considered to be 0.
+  - *2016-04-08* — The phrase "different mana values" compares the mana costs of cards in your graveyard to one another, not to Seasons Past. You may return a card with a mana value of 6.
+  - *2016-04-08* — You choose which cards to return as Seasons Past resolves, not as you cast it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soi/226/seasons-past) · oracle_id `c46738a4-e0d4-41dc-a20d-4800f00cea62` · printing: SOI #226 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sea Spirit
 

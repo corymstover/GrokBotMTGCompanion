@@ -33,7 +33,9 @@
   > *—Calydd, kithkin farmer*
 - **Keywords:** Changeling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4380 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mma/53/mothdust-changeling) · oracle_id `52237e6b-19f6-405c-a668-545c4ccb1b6d` · printing: MMA #53 (2013-06-07) · [rulings](https://api.scryfall.com/cards/18acffb1-c1e8-4729-a350-64823b2f9d29/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-04-01* — Since the activated ability doesn't have a tap symbol in its cost, you can tap a creature (including Mothdust Changeling itself) that hasn't been under your control since your most recent turn began to pay the cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mma/53/mothdust-changeling) · oracle_id `52237e6b-19f6-405c-a668-545c4ccb1b6d` · printing: MMA #53 (2013-06-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mother Bear
 
@@ -45,6 +47,7 @@
 - **Flavor text** (MH1 printing):
   > *Even without her, the cubs will always know their mother's love.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8355 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh1/171/mother-bear) · oracle_id `fe742976-ef13-4c25-972f-254b1ed436de` · printing: MH1 #171 (2019-06-14) · [rulings](https://api.scryfall.com/cards/efae4d84-8134-461a-a352-a5bdff7259a7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mother Kangaroo
@@ -156,4 +159,9 @@
   > Whenever this creature attacks, attacking creatures get +1/+1 until end of turn. If a Food entered the battlefield under your control this turn, untap those creatures and they get an additional +2/+2 until end of turn.
 - **Keywords:** Haste, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7823 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/42/motivated-pony) · oracle_id `44906d21-83cc-49ec-8505-4f7b020ac05f` · printing: LTC #42 (2023-06-23) · [rulings](https://api.scryfall.com/cards/9be4f8b6-90ef-4c77-ae70-bffae229d243/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, you can sacrifice Tough Cookie (an Artifact Creature — Food Golem) to activate Maraleaf Rider's ability (an ability with "Sacrifice a Food" in its cost).
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/42/motivated-pony) · oracle_id `44906d21-83cc-49ec-8505-4f7b020ac05f` · printing: LTC #42 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

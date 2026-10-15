@@ -29,7 +29,13 @@
 - **Oracle text:**
   > At the beginning of your upkeep, choose target opponent. Until end of turn, that player can't cast spells, you may look at the top card of their library any time, you may play the top card of their library, and you may spend mana as though it were mana of any color to cast spells this way.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6880 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/239/xanathar-guild-kingpin) · oracle_id `1a168ba5-8e11-41dd-8f8a-8cb23bbde056` · printing: AFR #239 (2021-07-23) · [rulings](https://api.scryfall.com/cards/5bc58050-a615-4090-9cf5-cd49ccb4e2c6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-07-23* — During your turn, you can look at the top card of the chosen opponent's library whenever you want (with one restriction; see below), even if you don't have priority. This action doesn't use the stack. Knowing what that card is becomes part of the information you have access to, just like you can look at the cards in your hand.
+  - *2021-07-23* — If the top card of that library changes while you're casting a spell, playing a land, or activating an ability, you can't look at the new top card until you finish doing so. This means that if you cast a spell from the top of that library, you can't look at the next card until you're done paying for that spell.
+  - *2021-07-23* — The target opponent may still cast spells in response to Xanathar, Guild Kingpin's ability in your upkeep. If that player has somehow become an illegal target for the ability as it tries to resolve, the ability does nothing. They may cast spells and you cannot look at or play the top card of their library.
+  - *2021-07-23* — Xanathar doesn't change when you can cast spells or play lands. You must still follow all normal timing rules and land play limits.
+  - *2021-07-23* — You'll still pay all costs for spells cast this way, including additional costs. You may also pay alternative costs if any are available.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/239/xanathar-guild-kingpin) · oracle_id `1a168ba5-8e11-41dd-8f8a-8cb23bbde056` · printing: AFR #239 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Xande, Dark Mage
 
@@ -81,7 +87,14 @@
   > Xantcha attacks each combat if able and can't attack its owner or planeswalkers its owner controls.
   > {3}: Xantcha's controller loses 2 life and you draw a card. Any player may activate this ability.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3036 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/362/xantcha-sleeper-agent) · oracle_id `0f0f3712-8d13-41a5-b332-2ab34e48d79d` · printing: CMM #362 (2023-08-04) · [rulings](https://api.scryfall.com/cards/91316746-ec2b-4c1a-b9c4-a870d6318c33/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2018-07-13* — If Xantcha can't attack for any reason (such as being tapped or having come under that player's control that turn), then it doesn't attack. If there's a cost associated with having it attack, the player isn't forced to pay that cost, so it doesn't have to attack in that case either.
+  - *2018-07-13* — If a player creates a token that's a copy of Xantcha, the player who creates the token is its owner, not the player under whose control it enters the battlefield. This is a change from previous rules.
+  - *2018-07-13* — The player who draws a card when Xantcha's last ability resolves is the player who activated the ability.
+  - *2018-07-13* — Xantcha's controller may activate its last ability. In this case, the same player loses 2 life and draws a card.
+  - *2018-07-13* — Xantcha's first ability is a replacement effect that modifies how it enters the battlefield, not a triggered ability. Players can't take actions (such as activating its last ability) while Xantcha's on the battlefield before it's controlled by another player.
+  - *2019-08-23* — In a multiplayer game, if Xantcha's owner leaves the game, Xantcha leaves the game with them. If Xantcha's controller leaves the game, Xantcha is exiled. This is a change from previous rulings due to Xantcha's updated wording.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/362/xantcha-sleeper-agent) · oracle_id `0f0f3712-8d13-41a5-b332-2ab34e48d79d` · printing: CMM #362 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Xanthic Statue
 
@@ -169,4 +182,16 @@
   > {T}, Sacrifice another creature: Proliferate. Activate only as a sorcery. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)
 - **Keywords:** Proliferate, Populate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8983 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/14/xavier-sal-infested-captain) · oracle_id `50a9c647-47ba-4732-852a-f0ab2b4549c9` · printing: LCC #14 (2023-11-17) · [rulings](https://api.scryfall.com/cards/94a420c2-b1a8-4a98-a2a5-7f949d3081bc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2023-11-10* — An ability that triggers "Whenever you proliferate" triggers even if you chose no permanents or players while doing so.
+  - *2023-11-10* — If a player or permanent has more than one kind of counter on it, and you choose for it to get additional counters, it must get one of each kind of counter it already has. You can't have it get just one kind of counter it already has and not the others.
+  - *2023-11-10* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
+  - *2023-11-10* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
+  - *2023-11-10* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+  - *2024-01-12* — Any enters-the-battlefield abilities of the copied token will trigger when the new token enters the battlefield. Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the copied token will also work.
+  - *2024-01-12* — If you choose to copy a creature token that's a copy of another creature, the new creature token will copy the characteristics of whatever the original token is copying.
+  - *2024-01-12* — If you control no creature tokens when you populate, nothing will happen.
+  - *2024-01-12* — Populate doesn't target the creature token you're copying. You choose that creature token as you're taking the populate action. You can choose any creature token you control. If a spell or ability causes you to create a creature token and then instructs you to populate, you may choose to copy the token you just created, or you may choose to copy another creature token you control.
+  - *2024-01-12* — The new creature token copies the characteristics of the original token as stated by the effect that created the original token.
+  - *2024-01-12* — The new token doesn't copy whether the original token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any noncopy effects that have changed its power, toughness, color, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/14/xavier-sal-infested-captain) · oracle_id `50a9c647-47ba-4732-852a-f0ab2b4549c9` · printing: LCC #14 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

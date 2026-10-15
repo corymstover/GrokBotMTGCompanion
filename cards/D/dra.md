@@ -195,7 +195,12 @@
   > *"Let the dragonstorms rage. Let what seeks sustenance feed. Let Tarkir be what it was always meant to be."*
   > *—Sarkhan*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2222 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/105/dracogenesis) · oracle_id `9b06f2bf-146d-4b30-b467-e16f1a942253` · printing: TDM #105 (2025-04-11) · [rulings](https://api.scryfall.com/cards/0d5674f9-22b2-45f9-902d-4fd245485c60/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-04-04* — If a spell has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2025-04-04* — If you cast a spell “without paying its mana cost,” you can’t choose to cast it for any alternative costs. You can, however, pay additional costs, such as kicker costs. If the spell has any mandatory additional costs those must be paid to cast the spell.
+  - *2025-04-04* — Once you cast Dracogenesis, if it’s your turn, you’ll have priority immediately after it resolves. You can cast another spell before any player can attempt to remove Dracogenesis with spells or abilities.
+  - *2025-04-04* — You must follow the normal timing permissions and restrictions of each Dragon spell you cast this way.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/105/dracogenesis) · oracle_id `9b06f2bf-146d-4b30-b467-e16f1a942253` · printing: TDM #105 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Draconautics Engineer
 
@@ -283,7 +288,9 @@
 - **Flavor text** (TDC printing):
   > *The wyrmling studied the ancient carvings and dreamed of a day when her own exploits would be immortalized in stone.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7932 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/151/draconic-lore) · oracle_id `440881ad-48cf-4b82-8bb5-f506d1a51755` · printing: TDC #151 (2025-04-11) · [rulings](https://api.scryfall.com/cards/8b3da929-eb0a-4149-9a0d-8f2b916f0e47/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-06-10* — The cost of Draconic Lore is determined and locked in as you cast it before any mana abilities are activated and before any player can respond. Notably, this means that no player can respond to remove your Dragon before the cost is reduced, and if you sacrifice that Dragon as part of a mana ability, the cost won't be increased.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/151/draconic-lore) · oracle_id `440881ad-48cf-4b82-8bb5-f506d1a51755` · printing: TDC #151 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Draconic Muralists
 
@@ -295,6 +302,7 @@
 - **Flavor text** (CLB printing):
   > *"We must never allow the deeds of our great ancestors to be forgotten."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7640 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/224/draconic-muralists) · oracle_id `4dfad4ec-9695-4f3a-8269-4cc00c26204c` · printing: CLB #224 (2022-06-10) · [rulings](https://api.scryfall.com/cards/4c9bf864-1f93-4d73-a212-f71265411768/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Draconic Roar
@@ -359,7 +367,10 @@
 - **Flavor text** (BRO printing):
   > *Alongside his wife, Hurkyl, Drafna built a legacy of scholarship that endured for millennia.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6752 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/47/drafna-founder-of-lat-nam) · oracle_id `ed2e8718-4b20-4310-96ce-05a29a24ef32` · printing: BRO #47 (2022-11-18) · [rulings](https://api.scryfall.com/cards/f7355905-2b3b-4191-a89c-a0fc1494928b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-10-14* — A resolving copy of a permanent spell becomes a token, so the token isn't "created." Effects that care about a token being created won't interact with a token that enters the battlefield because the triggered ability copied a permanent spell.
+  - *2022-10-14* — If an effect copies a prototyped spell, that copy (as well as the token it becomes on the battlefield) will have the same characteristics as the prototyped spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/47/drafna-founder-of-lat-nam) · oracle_id `ed2e8718-4b20-4310-96ce-05a29a24ef32` · printing: BRO #47 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drafna's Restoration
 
@@ -406,7 +417,10 @@
 - **Flavor text** (2X2 printing):
   > *In their hunger for the arch's power, mages often forget that it only makes dragons easier to summon. It doesn't make them easier to control.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9737 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/305/dragon-arch) · oracle_id `fdf21a39-7392-49b1-b9c4-ee8122631cab` · printing: 2X2 #305 (2022-07-08) · [rulings](https://api.scryfall.com/cards/d2312a56-088f-42f9-9bd2-7b0b94935236/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — A multicolored card has more than one color in its mana cost.
+  - *2007-05-01* — Putting the card onto the battlefield is optional. When the ability resolves, you can choose not to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/305/dragon-arch) · oracle_id `fdf21a39-7392-49b1-b9c4-ee8122631cab` · printing: 2X2 #305 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dragonback Assault
 
@@ -417,7 +431,11 @@
   > Landfall — Whenever a land you control enters, create a 4/4 red Dragon creature token with flying.
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5715 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/179/dragonback-assault) · oracle_id `413fb2db-f1a1-4d22-ac37-a52821d35ca2` · printing: TDM #179 (2025-04-11) · [rulings](https://api.scryfall.com/cards/d54cc838-d79d-433a-99fb-d6e4d1c1431d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-04-04* — A landfall ability doesn’t trigger if a permanent already on the battlefield becomes a land.
+  - *2025-04-04* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2025-04-04* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them on the stack in any order. The last ability you put on the stack will be the first one to resolve. (As a result, you can have those abilities resolve in the order of your choosing.)
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/179/dragonback-assault) · oracle_id `413fb2db-f1a1-4d22-ac37-a52821d35ca2` · printing: TDM #179 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dragonback Lancer
 
@@ -470,7 +488,9 @@
   > *"I was raised on the stories of my ancestors, and I want to write my own pages in the tales."*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3637 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afc/45/dragonborn-champion) · oracle_id `9e51ccf9-d55d-4231-8ff5-ef3ca1485c8d` · printing: AFC #45 (2021-07-23) · [rulings](https://api.scryfall.com/cards/9f6e43a7-84b9-4e89-bfe1-442d08df34d8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-07-23* — Dragonborn Champion's last ability only triggers if 5 or more damage is dealt by the same source at the same time. If a source deals 3 damage to a player and then later deals 2 more damage to the same player, this will not cause the ability to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afc/45/dragonborn-champion) · oracle_id `9e51ccf9-d55d-4231-8ff5-ef3ca1485c8d` · printing: AFC #45 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dragonborn Looter
 
@@ -507,7 +527,10 @@
   > At the beginning of each upkeep, create a 1/1 red and green Dragon creature token with flying and devour 2. (As the token enters, you may sacrifice any number of creatures. It enters with twice that many +1/+1 counters on it.)
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7396 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/arb/53/dragon-broodmother) · oracle_id `a9a6c2ba-30ba-4e45-9ea0-ea9833342069` · printing: ARB #53 (2009-04-30) · [rulings](https://api.scryfall.com/cards/f7f99431-ae43-4b68-82f0-faf940216c91/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2009-05-01* — In a Two-Headed Giant game, Dragon Broodmother’s second ability triggers only once at the beginning of each team’s upkeep, not once for each player. You’ll get one Dragon token at the beginning of your team’s upkeep and one Dragon token at the beginning of the opposing team’s upkeep.
+  - *2009-05-01* — Putting a token creature with devour onto the battlefield works the same as putting any other creature with devour onto the battlefield. The token may devour Dragon Broodmother itself!
+- **Source flags:** [Scryfall](https://scryfall.com/card/arb/53/dragon-broodmother) · oracle_id `a9a6c2ba-30ba-4e45-9ea0-ea9833342069` · printing: ARB #53 (2009-04-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dragonbroods' Relic
 
@@ -551,6 +574,7 @@
   > {1}, {T}: Until end of turn, target creature gains "Whenever this creature deals combat damage to a player, create a Treasure token."
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6952 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hoc/8/dragon-cursed-halls) · oracle_id `5be7a4d5-33b7-464b-8851-d4ad35302e62` · printing: HOC #8 (2026-08-14) · [rulings](https://api.scryfall.com/cards/506b9df7-8236-4c6e-aebc-6b7e6fcd7e88/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dragon Egg
@@ -602,6 +626,7 @@
   > *It's as if the metal itself rages.*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2139 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/240/dragonfire-blade) · oracle_id `e809b847-b712-4558-95ea-9bb7356cde91` · printing: TDM #240 (2025-04-11) · [rulings](https://api.scryfall.com/cards/031afea3-fbfb-4663-a8cc-9b7eb7b16020/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dragonfly Suit
@@ -640,6 +665,7 @@
 - **Flavor text** (FDN printing):
   > *Gnorl and Vurg knew all too well how much dragons liked to eat goblins, but they had a dream that could not be dampened: they were going to be the first goblins to eat a dragon.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1955 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/535/dragon-fodder) · oracle_id `d0d2c45b-b6e3-4999-bdab-976e8f0d6617` · printing: FDN #535 (2024-11-15) · [rulings](https://api.scryfall.com/cards/f9abe517-f601-4784-8d62-2350bd755146/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dragon Grip
@@ -679,7 +705,11 @@
   > Whenever Dragonhawk enters or attacks, exile the top X cards of your library, where X is the number of creatures you control with power 4 or greater. You may play those cards until your next end step. At the beginning of your next end step, Dragonhawk deals 2 damage to each opponent for each of those cards that are still exiled.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2215 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/132/dragonhawk-fates-tempest) · oracle_id `f7f435bc-1716-4412-9505-a1f2f2d83d08` · printing: BLB #132 (2024-08-02) · [rulings](https://api.scryfall.com/cards/8659789c-6a2c-439f-a348-b9b1b06c55b8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-07-26* — The delayed triggered ability created by Dragonhawk's last ability counts only cards that were exiled by the ability that created it. It doesn't count cards exiled by previous instances of Dragonhawk's last ability or by the abilities of other Dragonhawks you may have controlled previously.
+  - *2024-07-26* — The value of X is calculated only once, as Dragonhawk's last ability resolves.
+  - *2024-07-26* — You pay all costs and follow all timing rules for cards played this way. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/132/dragonhawk-fates-tempest) · oracle_id `f7f435bc-1716-4412-9505-a1f2f2d83d08` · printing: BLB #132 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dragon Hunter
 
@@ -720,7 +750,10 @@
   > *Swarms thrive in its nest, feeding on leathery bits of discarded wing.*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8350 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pca/87/dragonlair-spider) · oracle_id `f17d3aa4-6e88-4973-b2a4-942098a1c463` · printing: PCA #87 (2016-11-25) · [rulings](https://api.scryfall.com/cards/a9e2bb08-9be0-4046-9c22-7b132ce5f506/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2012-06-01* — The triggered ability will resolve and the Insect will be created before the spell that caused it to trigger resolves.
+  - *2012-06-01* — The triggered ability won’t be affected if the spell that caused it to trigger is countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pca/87/dragonlair-spider) · oracle_id `f17d3aa4-6e88-4973-b2a4-942098a1c463` · printing: PCA #87 (2016-11-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dragonloft Idol
 
@@ -744,7 +777,10 @@
   > When Dragonlord Atarka enters, it deals 5 damage divided as you choose among any number of target creatures and/or planeswalkers your opponents control.
 - **Keywords:** Flying, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4525 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/285/dragonlord-atarka) · oracle_id `daff70a4-a990-47c9-b6ef-2c379272c8a3` · printing: TDC #285 (2025-04-11) · [rulings](https://api.scryfall.com/cards/d411ad43-3718-4ed7-932f-fcea28705782/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2015-02-25* — If some of the targets are illegal targets as the ability tries to resolve, the original division of damage still applies but no damage is dealt to the illegal targets. If all targets are illegal, the ability doesn’t resolve.
+  - *2015-02-25* — You choose how many targets the ability has and how the damage is divided as you put the ability on the stack. Each target must receive at least 1 damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/285/dragonlord-atarka) · oracle_id `daff70a4-a990-47c9-b6ef-2c379272c8a3` · printing: TDC #285 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dragonlord Dromoka
 
@@ -759,6 +795,7 @@
   > *Dromoka's followers forsake blood ties so that they may join a greater family.*
 - **Keywords:** Flying, Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1891 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/286/dragonlord-dromoka) · oracle_id `82cdd612-3322-4372-810f-1ff106ea8e6a` · printing: TDC #286 (2025-04-11) · [rulings](https://api.scryfall.com/cards/4452d99e-23c2-408d-9eb8-ef31aefafa9d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dragonlord Kolaghan
@@ -772,7 +809,10 @@
   > Whenever an opponent casts a creature or planeswalker spell with the same name as a card in their graveyard, that player loses 10 life.
 - **Keywords:** Flying, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7846 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/218/dragonlord-kolaghan) · oracle_id `5ff89859-ddfd-48e5-8423-57b3956173ac` · printing: DTK #218 (2015-03-27) · [rulings](https://api.scryfall.com/cards/1cbf8933-32a1-4892-9bdc-89464ed9ce1b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2015-02-25* — Casting a spell face down won’t cause Dragonlord Kolaghan’s last ability to trigger. A spell with no name can’t have the same name as any other card.
+  - *2015-02-25* — If an opponent casts a creature spell with delve and exiles all cards from their graveyard with the same name to help pay its cost, Dragonlord Kolaghan’s ability won’t trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/218/dragonlord-kolaghan) · oracle_id `5ff89859-ddfd-48e5-8423-57b3956173ac` · printing: DTK #218 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dragonlord Ojutai
 
@@ -785,6 +825,7 @@
   > Whenever Dragonlord Ojutai deals combat damage to a player, look at the top three cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7242 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/337/dragonlord-ojutai) · oracle_id `654ff673-4630-4068-9bcf-e88a7877eb58` · printing: NCC #337 (2022-04-29) · [rulings](https://api.scryfall.com/cards/a9f39d28-08eb-4eff-ae55-abd377877a27/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dragonlord Silumgar
@@ -799,7 +840,11 @@
   > *Silumgar never passes up an opportunity to add to his opulence.*
 - **Keywords:** Deathtouch, Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6853 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/203/dragonlord-silumgar) · oracle_id `44581d4f-746b-43b8-a34d-16dc383ab70e` · printing: 2X2 #203 (2022-07-08) · [rulings](https://api.scryfall.com/cards/9ee837b8-c280-4a5b-acdf-71247ab096f5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2015-02-25* — If Dragonlord Silumgar ceases to be under your control before its ability resolves, you won't gain control of the creature or planeswalker at all.
+  - *2015-02-25* — If Dragonlord Silumgar leaves the battlefield, you no longer control it, and its control-change effect ends.
+  - *2015-02-25* — If another player gains control of Dragonlord Silumgar, its control-change effect ends. Regaining control of Dragonlord Silumgar won't cause you to regain control of the creature or planeswalker.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/203/dragonlord-silumgar) · oracle_id `44581d4f-746b-43b8-a34d-16dc383ab70e` · printing: 2X2 #203 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dragonlord's Prerogative
 
@@ -822,7 +867,14 @@
 - **Flavor text** (TDC printing):
   > *Atarka serving-goblins coat themselves with grease imbued with noxious herbs, hoping to discourage their ravenous masters from adding them to the meal.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1349 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/210/dragonlords-servant) · oracle_id `faf81ae0-0b35-45ef-a50d-6cecf0c0eeeb` · printing: TDC #210 (2025-04-11) · [rulings](https://api.scryfall.com/cards/be6fa0dc-74e7-4fad-9bdd-8e986612577a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2015-02-25* — Dragonlord's Servant can't reduce the colored mana requirement of a Dragon spell you cast.
+  - *2015-02-25* — If there are any additional costs to cast a Dragon spell, apply those before applying Dragonlord's Servant and any other cost reductions.
+  - *2015-02-25* — The ability can apply to alternative costs to cast a Dragon spell.
+  - *2015-02-25* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2024-11-08* — Dragonlord's Servant's ability can't reduce the amount of colored mana you pay for a spell. It reduces only the generic mana component of that spell.
+  - *2024-11-08* — Dragonlord's Servant's ability doesn't change the mana cost or mana value of any spell. It changes only the total cost you pay to cast Dragon spells.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/210/dragonlords-servant) · oracle_id `faf81ae0-0b35-45ef-a50d-6cecf0c0eeeb` · printing: TDC #210 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dragon Mage
 
@@ -837,7 +889,10 @@
   > *—Tadith the Wise, last words*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2992 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/621/dragon-mage) · oracle_id `eab71e4e-27c3-4c41-b95f-259c1d14b97a` · printing: FDN #621 (2024-11-15) · [rulings](https://api.scryfall.com/cards/5525cfde-a92b-4fb5-8f15-a05efebecd3d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-07-12* — If a player has fewer than seven cards in their library, that player loses the game after Dragon Mage's triggered ability resolves. If each player loses the game this way, the game's a draw.
+  - *2024-11-08* — If a player has fewer than seven cards in their library, that player loses the game after Dragon Mage's triggered ability resolves. If each player loses the game this way, the game's a draw.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/621/dragon-mage) · oracle_id `eab71e4e-27c3-4c41-b95f-259c1d14b97a` · printing: FDN #621 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dragon Man, Reformed Robot
 
@@ -862,7 +917,9 @@
   > Enchanted creature has "{R}: This creature gets +1/+0 until end of turn."
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6353 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/174/dragon-mantle) · oracle_id `0cc5aaa1-07bf-4872-ac72-303cef9fb143` · printing: CMR #174 (2020-11-20) · [rulings](https://api.scryfall.com/cards/ca32fd66-f7f1-4e50-817f-bb259f690f00/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-11-10* — If the target creature is an illegal target by the time Dragon Mantle tries to resolve, it doesn't resolve. It won't enter the battlefield, so its enters-the-battlefield ability won't trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/174/dragon-mantle) · oracle_id `0cc5aaa1-07bf-4872-ac72-303cef9fb143` · printing: CMR #174 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dragon Mask
 
@@ -886,6 +943,7 @@
 - **Flavor text** (TDC printing):
   > *"This world will be ruled by its rightful sovereigns, not these hideous pretenders."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1544 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/211/dragonmaster-outcast) · oracle_id `b6fb79c3-cd32-4045-8177-e52841eea65b` · printing: TDC #211 (2025-04-11) · [rulings](https://api.scryfall.com/cards/a485edea-07cd-48dd-97e7-daeba85553d6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dragon Moose
@@ -910,6 +968,7 @@
   > When this creature enters, look at the top six cards of your library. You may reveal an instant, sorcery, or Dragon card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.
   > Untapped Dragons you control have hexproof.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6264 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/42/dragonologist) · oracle_id `f6791df0-a37b-44dc-8bf3-40ac2304d188` · printing: TDM #42 (2025-04-11) · [rulings](https://api.scryfall.com/cards/8810ebb4-9e51-46f0-a54a-a0b4d77b762a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dragonrage
@@ -943,7 +1002,10 @@
   > Dragon's Approach deals 3 damage to each opponent. You may exile this spell and four cards named Dragon's Approach from your graveyard. If you do, search your library for a Dragon creature card, put it onto the battlefield, then shuffle.
   > A deck can have any number of cards named Dragon's Approach.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9365 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/stx/97/dragons-approach) · oracle_id `47e191f7-6314-4875-b5ee-57e5daf089c4` · printing: STX #97 (2021-04-23) · [rulings](https://api.scryfall.com/cards/0cb504a0-1dfb-49d0-84c3-7bd318d55481/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-04-16* — In most cases, you'll need to exile five cards named Dragon's Approach (the resolving one from the stack plus four more from your graveyard) to search for a Dragon card. However, if Dragon's Approach is a copy, you can still exile it along with four cards named Dragon's Approach from your graveyard to search for a Dragon card. The exiled copy will then cease to exist.
+  - *2021-04-16* — The last ability of Dragon's Approach lets you ignore the "four-of" rule. It doesn't let you ignore format legality. For example, during a Strixhaven Limited event, you can't add Dragon's Approach from your personal collection.
+- **Source flags:** [Scryfall](https://scryfall.com/card/stx/97/dragons-approach) · oracle_id `47e191f7-6314-4875-b5ee-57e5daf089c4` · printing: STX #97 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dragonscale Boon
 
@@ -1060,7 +1122,10 @@
   > As an additional cost to cast this spell, you may reveal a Dragon card from your hand or choose a Dragon you control.
   > Dragon's Fire deals 3 damage to target creature or planeswalker. If you revealed a Dragon card or chose a Dragon as you cast this spell, Dragon's Fire deals damage equal to the power of that card or creature instead.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7168 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/139/dragons-fire) · oracle_id `7237d607-2613-4786-96d6-55792c2e02b9` · printing: AFR #139 (2021-07-23) · [rulings](https://api.scryfall.com/cards/9666987a-5267-46d3-9b00-31baa92a9cbc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-07-23* — A Dragon card is a card with the creature type Dragon in its type line. Similarly, a creature on the battlefield is a Dragon if it has the Dragon creature type. A card that has "Dragon" in the name (such as Dragon's Fire) isn't a Dragon card unless it also has the Dragon creature type.
+  - *2021-07-23* — If you chose a Dragon you control, use that Dragon's power as Dragon's Fire resolves to determine how much damage is dealt. If the Dragon you chose is no longer on the battlefield as Dragon's Fire resolves, Dragon's Fire will deal damage equal to the power it had the last time it was on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/139/dragons-fire) · oracle_id `7237d607-2613-4786-96d6-55792c2e02b9` · printing: AFR #139 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dragonsguard Elite
 
@@ -1120,6 +1185,7 @@
   > {T}, Remove a gold counter from this artifact: Draw a card.
   > {T}: Add one mana of any color.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1193 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/317/dragons-hoard) · oracle_id `8cf77dc4-763b-41b7-a5da-0ef2734f08e6` · printing: TDC #317 (2025-04-11) · [rulings](https://api.scryfall.com/cards/3ee80876-6e87-46c4-a6fd-ff6752db3032/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dragonskull Summit
@@ -1149,6 +1215,7 @@
   > *During Dromoka's reign, Qatros Karst City was a haven for the Abzan rebellion. Its current residents have not lost their proficiency against their former foes.*
 - **Keywords:** Reach, Vigilance, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3939 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/139/dragon-sniper) · oracle_id `913dbce2-6805-453f-a9c3-64f1cc658627` · printing: TDM #139 (2025-04-11) · [rulings](https://api.scryfall.com/cards/074b1e00-45bb-4436-8f5e-058512b2d08a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dragonsoul Knight
@@ -1173,7 +1240,10 @@
   > Whenever this artifact or another artifact you control enters, put a charge counter on this artifact.
   > {4}, Sacrifice this artifact: It deals damage equal to the number of charge counters on it to target player and that much damage to up to one target creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8995 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/137/dragonspark-reactor) · oracle_id `a8acb0b0-7265-42f6-8143-62d0c02d5a28` · printing: NEO #137 (2022-02-18) · [rulings](https://api.scryfall.com/cards/5cf531dd-0a93-43e3-880b-f705fa5f533d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-02-18* — If you target both a player and a creature as you activate the ability, and one of the targets is illegal as the ability resolves, Dragonspark Reactor will deal damage to the remaining legal target. If both targets are illegal, the ability won't resolve.
+  - *2022-02-18* — Targeting a creature is optional, but you must choose at least one target player to activate Dragonspark Reactor's last ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/137/dragonspark-reactor) · oracle_id `a8acb0b0-7265-42f6-8143-62d0c02d5a28` · printing: NEO #137 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dragonspeaker Shaman
 
@@ -1185,6 +1255,7 @@
 - **Flavor text** (AFC printing):
   > *"We speak the dragons' language of flame and rage. They speak our language of fury and honor. Together we shall weave a tale of destruction without equal."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1316 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/afc/330/dragonspeaker-shaman) · oracle_id `6a29f36b-7911-4d84-a3ae-546b131d5159` · printing: AFC #330 (2021-07-23) · [rulings](https://api.scryfall.com/cards/7b0a2799-197e-4d61-ab23-67d974458a05/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dragon's Presence
@@ -1222,7 +1293,10 @@
   > Delirium — As long as there are four or more card types among cards in your graveyard, this creature gets +2/+2, has flying, and attacks each combat if able.
 - **Keywords:** Delirium, Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1856 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/121/dragons-rage-channeler) · oracle_id `0c016ccc-a341-4b76-87ba-69c639d2746d` · printing: MH2 #121 (2021-06-18) · [rulings](https://api.scryfall.com/cards/4ced112a-e775-4f97-97b3-74877e9dce12/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-06-18* — Because damage remains marked on a creature until the cleanup step or an effect removes that damage, nonlethal damage dealt to Dragon's Rage Channeler may become lethal if the number of card types found in your graveyard drops below four.
+  - *2021-06-18* — The card types that can appear in a graveyard are artifact, battle, creature, enchantment, instant, kindred, land, planeswalker, and sorcery. Legendary, basic, and snow are supertypes, not card types; Human and Shaman are subtypes, not card types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/121/dragons-rage-channeler) · oracle_id `0c016ccc-a341-4b76-87ba-69c639d2746d` · printing: MH2 #121 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dragon's Smile
 
@@ -1285,7 +1359,9 @@
 - **Flavor text** (TDM printing):
   > *Jeskai scholars fashioned devices to forecast the behavior of the dragonstorms.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2857 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/241/dragonstorm-globe) · oracle_id `f6de5bd7-7704-4a0c-a27a-9e565e49f5e9` · printing: TDM #241 (2025-04-11) · [rulings](https://api.scryfall.com/cards/7f50aa6e-ce6a-4479-9725-202926245f2c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-04-04* — Dragons you control that enter at the same time as Dragonstorm Globe won’t enter with an additional +1/+1 counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/241/dragonstorm-globe) · oracle_id `f6de5bd7-7704-4a0c-a27a-9e565e49f5e9` · printing: TDM #241 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dragon-Style Twins
 
@@ -1326,7 +1402,10 @@
   > *What once soared high above Tarkir is now reduced to a seat.*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7372 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/219/dragon-throne-of-tarkir) · oracle_id `93e40d56-18fd-42e1-a598-636aab79b836` · printing: KTK #219 (2014-09-26) · [rulings](https://api.scryfall.com/cards/d508e6a6-034c-424d-993e-7354ce212f13/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-09-20* — The value of X is determined as the activated ability resolves. If the equipped creature isn't on the battlefield at that time, use its power the last time it was on the battlefield to determine the value of X.
+  - *2017-07-14* — If the equipped creature's power is negative while resolving the activated ability it gains, X is considered to be 0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/219/dragon-throne-of-tarkir) · oracle_id `93e40d56-18fd-42e1-a598-636aab79b836` · printing: KTK #219 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dragon Trainer
 
@@ -1427,7 +1506,12 @@
   > Gae Bolg — Equip {4}
 - **Keywords:** Gae Bolg, Job select, Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7674 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/17/dragoons-lance) · oracle_id `a66c35fc-d5db-4cfd-9b85-d70b001d83d3` · printing: FIN #17 (2025-06-13) · [rulings](https://api.scryfall.com/cards/96630531-8eb7-4e3e-8d63-60c562a5571b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-06-06* — If the Hero token is destroyed, the Equipment stays on the battlefield.
+  - *2025-06-06* — If the job select ability causes two Hero tokens to be created (due to an effect such as that of Doubling Season), the Equipment becomes attached to only one of them.
+  - *2025-06-06* — The Hero token enters as a 1/1 creature, then the Equipment becomes attached to it. Abilities that trigger when a creature enters the battlefield see that a 1/1 creature entered the battlefield.
+  - *2025-06-06* — You may pay the Equipment's equip cost as normal to move it from the Hero token to another creature you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/17/dragoons-lance) · oracle_id `a66c35fc-d5db-4cfd-9b85-d70b001d83d3` · printing: FIN #17 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dragoon's Wyvern
 
@@ -1480,7 +1564,9 @@
   > *—Victor, Valgavoth's seneschal*
 - **Keywords:** Delirium
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4311 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/213/drag-to-the-roots) · oracle_id `ef4c478c-7019-4ec0-8edf-2a3078a8e97a` · printing: DSK #213 (2024-09-27) · [rulings](https://api.scryfall.com/cards/46f46095-6479-46b0-9e59-194d83f86a46/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-09-20* — Once you've announced that you're casting Drag to the Roots, players can't take any actions until you've finished doing so. Notably, opponents can't try to remove cards from your graveyard to change the cost of Drag to the Roots.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/213/drag-to-the-roots) · oracle_id `ef4c478c-7019-4ec0-8edf-2a3078a8e97a` · printing: DSK #213 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drag to the Underworld
 
@@ -1613,7 +1699,13 @@
   > *"If you want to truly test your survival skills, walk the Obelisk Path when the drakes are feeding."*
   > *—Etha, initiate of Rhet crop*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8873 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c20/110/drake-haven) · oracle_id `86d3def3-53fa-4cad-bb25-d3275af1e3f5` · printing: C20 #110 (2020-04-17) · [rulings](https://api.scryfall.com/cards/e2502a3a-2c1d-490e-b958-969dfc7f875a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2017-04-18* — An ability that triggers whenever you discard a card doesn’t give you permission to discard cards. You’ll need another effect that instructs or allows you to discard them.
+  - *2017-04-18* — An ability that triggers whenever you “cycle or discard” a card triggers only once if you cycle a card. The ability “Whenever you discard a card” is functionally identical to this ability; cycling is mentioned for clarity.
+  - *2017-04-18* — If a player discards a card during their cleanup step due to having too many cards in hand, any appropriate abilities that trigger on discarding that card trigger. If this happens, those triggered abilities are put onto the stack and players receive priority in that cleanup step to cast spells or activate abilities (normally, no players may take actions during a cleanup step). Another cleanup step is created following that one.
+  - *2017-04-18* — Some cards have an ability that triggers whenever you cycle any card. These triggered abilities resolve before you draw from the cycling ability.
+  - *2017-04-18* — While resolving Drake Haven’s triggered ability, you can’t pay {1} multiple times to get multiple Drakes.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c20/110/drake-haven) · oracle_id `86d3def3-53fa-4cad-bb25-d3275af1e3f5` · printing: C20 #110 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drake-Skull Cameo
 
@@ -1688,7 +1780,10 @@
   > *—Marsden, party leader, last words*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1116 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/760/drakuseth-maw-of-flames) · oracle_id `060deaff-44d6-4f03-9568-bcb7add80255` · printing: FDN #760 (2026-04-24) · [rulings](https://api.scryfall.com/cards/9e9b40f5-3dd0-4607-a78d-b004d57fa4ea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-07-12* — You can't choose the same target multiple times to have it be dealt 6, 7, or 10 damage.
+  - *2023-07-28* — If Drakuseth attacks a planeswalker and that planeswalker is reduced to 0 loyalty from the damage caused by Drakuseth's ability, Drakuseth continues to attack. It can be blocked, and it won't deal any combat damage if it's not blocked. The same is true if Drakuseth attacks a battle and that battle is reduced to 0 defense from the damage caused by Drakuseth's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/760/drakuseth-maw-of-flames) · oracle_id `060deaff-44d6-4f03-9568-bcb7add80255` · printing: FDN #760 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dralnu, Lich Lord
 
@@ -1811,7 +1906,12 @@
   > Drana and Linvala has all activated abilities of all creatures your opponents control. You may spend mana as though it were mana of any color to activate those abilities.
 - **Keywords:** Flying, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1938 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/222/drana-and-linvala) · oracle_id `7abc2a1b-b758-480b-9415-f8f5369ab52f` · printing: MOM #222 (2023-04-21) · [rulings](https://api.scryfall.com/cards/bbda000f-3cf7-48b6-96ff-c23a3a64eab5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2023-04-14* — Drana and Linvala gains only activated abilities. It doesn’t gain triggered abilities or static abilities. Activated abilities contain a colon. They’re generally written “[Cost]: [Effect].” Some keywords are activated abilities; they have colons in their reminder texts.
+  - *2023-04-14* — If an activated ability references the creature that has it by name, treat Drana and Linvala’s version of that ability as though it referenced Drana and Linvala by name instead. For example, if an opponent controls Onakke Javelineer, Drana and Linvala has the ability “{T}: Drana and Linvala deals 2 damage to target player or battle.”
+  - *2023-04-14* — If multiple players control a Drana and Linvala, exactly what abilities each of them has can get complex, based on what order they entered the battlefield. However, as none of those abilities can be activated, we won’t waste a lot of your time getting into it.
+  - *2023-04-14* — Once an ability has been activated, it doesn’t matter if Drana and Linvala loses that ability because the opposing creature with that ability leaves the battlefield (or, more optimistically, you gain control of it).
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/222/drana-and-linvala) · oracle_id `7abc2a1b-b758-480b-9415-f8f5369ab52f` · printing: MOM #222 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drana, Kalastria Bloodchief
 
@@ -1839,7 +1939,10 @@
   > *"I will not live as a slave. If you would be free, then fight alongside me."*
 - **Keywords:** Flying, First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1547 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/193/drana-liberator-of-malakir) · oracle_id `89b24b5f-d837-4274-8877-8ff7dc2708ba` · printing: LCC #193 (2023-11-17) · [rulings](https://api.scryfall.com/cards/0850b41d-3589-40cd-ae22-cc5b4ddee1c4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2015-08-25* — Drana's last ability triggers after combat damage has been dealt, so only attacking creatures that survive the combat damage step in which Drana deals combat damage will have +1/+1 counters put on them.
+  - *2015-08-25* — The +1/+1 counter won't change how much damage Drana or any other attacking creature with first strike or double strike deals during that combat damage step. However, the +1/+1 counters that are put on attacking creatures without first strike will affect the damage those creatures deal during the regular combat damage step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/193/drana-liberator-of-malakir) · oracle_id `89b24b5f-d837-4274-8877-8ff7dc2708ba` · printing: LCC #193 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drana's Chosen
 
@@ -1866,6 +1969,7 @@
   > *"The taste of freedom is sweeter than blood."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6739 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/210/dranas-emissary) · oracle_id `ef49b53d-e5b6-423a-88f0-51a7b2021c46` · printing: BFZ #210 (2015-10-02) · [rulings](https://api.scryfall.com/cards/99e82d47-9bbb-4bf9-a935-2c0b27b64a84/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drana's Silencer
@@ -1890,7 +1994,12 @@
   > Whenever Drana attacks, defending player chooses a nonlegendary creature card in your graveyard. You return that card to the battlefield with an additional +1/+1 counter on it. The creature is a Vampire in addition to its other types.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6493 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/98/drana-the-last-bloodchief) · oracle_id `3ae3b901-4d36-40e2-b861-26209fa1e823` · printing: ZNR #98 (2020-09-25) · [rulings](https://api.scryfall.com/cards/5cd4154e-7681-444b-a0f2-33e887791ba7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-09-25* — Because all attackers are declared at the same time, the returned creature can't attack during the same combat it returns, even if it has haste.
+  - *2020-09-25* — If Drana attacks a planeswalker, that planeswalker's controller is the defending player.
+  - *2020-09-25* — The defending player chooses a card and you put it onto the battlefield all while Drana's ability is resolving. No player may take actions in between those events.
+  - *2020-09-25* — The returned creature remains a Vampire in addition to its other types even after Drana leaves the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/98/drana-the-last-bloodchief) · oracle_id `3ae3b901-4d36-40e2-b861-26209fa1e823` · printing: ZNR #98 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drannith Healer
 
@@ -1932,6 +2041,7 @@
 - **Flavor text** (MAT printing):
   > *Like Orn before it, Drannith was reduced to a playground for Ikoria's monsters.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5534 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mat/50/drannith-ruins) · oracle_id `d1f10cca-8dfa-4ea5-b227-4446cd8514a8` · printing: MAT #50 (2023-05-12) · [rulings](https://api.scryfall.com/cards/9c07dda8-06dd-499a-9825-dc6b9a73e455/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drannith Stinger

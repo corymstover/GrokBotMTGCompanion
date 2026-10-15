@@ -100,7 +100,10 @@
   > At the beginning of your end step, if you control four or more artifacts, return target creature card from your graveyard to your hand. Then if you control eight or more artifacts, each opponent loses life equal to that card's power.
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4028 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/225/golbez-crystal-collector) · oracle_id `533d5bf9-0912-451f-a3f4-3842b0a75b1d` · printing: FIN #225 (2025-06-13) · [rulings](https://api.scryfall.com/cards/849f5716-7211-4e93-a220-f88d49f937f4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-06-06* — Golbez, Crystal Collector's last ability checks at the moment it would trigger to see if you control four or more artifacts. If you don't, the ability won't trigger at all. If it does trigger, the ability will check again as it tries to resolve. If you don't control four or more artifacts at that time, the ability won't resolve and none of its effects will happen.
+  - *2025-06-06* — If the target creature card is an illegal target as Golbez, Crystal Collector's last ability tries to resolve, it won't resolve and none of its effects will happen. Opponents won't lose life even if you control eight or more artifacts.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/225/golbez-crystal-collector) · oracle_id `533d5bf9-0912-451f-a3f4-3842b0a75b1d` · printing: FIN #225 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goldberry, River-Daughter
 
@@ -113,7 +116,9 @@
 - **Flavor text** (LTR printing):
   > *"Fear nothing! For tonight you are under the roof of Tom Bombadil."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4981 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/52/goldberry-river-daughter) · oracle_id `fca3545a-2956-49f9-8465-1c8937deb294` · printing: LTR #52 (2023-06-23) · [rulings](https://api.scryfall.com/cards/bf4f0a7c-620e-4ed8-8da3-fa6564e8a0cd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-06-16* — To move a counter from one permanent to another, the counter is removed from the first permanent and put on the second. Any abilities that care about a counter being removed from or put onto a permanent will apply.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/52/goldberry-river-daughter) · oracle_id `fca3545a-2956-49f9-8465-1c8937deb294` · printing: LTR #52 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goldbug, Humanity's Ally // Goldbug, Scrappy Scout
 
@@ -142,7 +147,10 @@
   > Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)
 - **Keywords:** Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6088 · Game Changer: no · Can be commander: Yes (legendary Vehicle, CR 903.3)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/230/golden-argosy) · oracle_id `b636a16d-f5ca-443d-8e6f-a2c240700c36` · printing: DMU #230 (2022-09-09) · [rulings](https://api.scryfall.com/cards/f8611a53-e54e-4625-8e28-03511f1550e8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-09-09* — Golden Argosy’s triggered ability will only exile creatures that are still on the battlefield as it resolves, and any creatures that crewed it this turn that had already left the battlefield will not be returned.
+  - *2022-09-09* — The exiled creatures will be returned at the beginning of the next end step even if Golden Argosy is no longer on the battlefield at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/230/golden-argosy) · oracle_id `b636a16d-f5ca-443d-8e6f-a2c240700c36` · printing: DMU #230 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Golden Bear
 
@@ -176,7 +184,12 @@
   > {1}, {T}, Sacrifice this artifact: Add one mana of any color.
   > {2}, {T}, Sacrifice this artifact: You gain 3 life.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8023 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eld/220/golden-egg) · oracle_id `25977c02-e2d4-4afd-b12d-37ce4d58f453` · printing: ELD #220 (2019-10-04) · [rulings](https://api.scryfall.com/cards/525142c3-f17c-4e02-a02d-fa385215aa12/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, you can sacrifice Tough Cookie (an Artifact Creature — Food Golem) to activate Maraleaf Rider's ability (an ability with "Sacrifice a Food" in its cost).
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eld/220/golden-egg) · oracle_id `25977c02-e2d4-4afd-b12d-37ce4d58f453` · printing: ELD #220 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goldenglow Moth
 
@@ -209,7 +222,11 @@
   > *An army of living gold for the golden city.*
 - **Keywords:** Transform, Fight, Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7576 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rix/179/golden-guardian-gold-forge-garrison) · oracle_id `58afb897-4d57-4b53-a5c3-b532cb3d5180` · printing: RIX #179 (2018-01-19) · [rulings](https://api.scryfall.com/cards/397ba02d-f347-46f7-b028-dd4ba55faa2f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-01-19* — If Golden Guardian leaves the battlefield before its activated ability has resolved, it won't be returned to the battlefield when the ability resolves.
+  - *2018-01-19* — If the target of Golden Guardian's activated ability isn't a legal target as that ability resolves, or if Golden Guardian has left the battlefield, neither creature will deal or be dealt damage.
+  - *2018-01-19* — Once Golden Guardian's activated ability has resolved, it will return to the battlefield transformed if it dies for any reason in that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rix/179/golden-guardian-gold-forge-garrison) · oracle_id `58afb897-4d57-4b53-a5c3-b532cb3d5180` · printing: RIX #179 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goldenhide Ox
 
@@ -333,7 +350,9 @@
   > *Worlds apart, Huatli built a device Saheeli would have been proud of.*
 - **Keywords:** Flying, Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2614 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mat/31/gold-forged-thopteryx) · oracle_id `c27e2d6f-498c-42d8-aa1a-ac6402bf3f9a` · printing: MAT #31 (2023-05-12) · [rulings](https://api.scryfall.com/cards/6917d51b-eb61-4e7e-8336-8b4adf8d1e39/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-05-12* — Once a ward ability has triggered, causing that legendary permanent to lose ward by removing Gold-Forged Thopteryx won't affect that ability. The appropriate player will still have to pay {2} or see their spell or ability countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mat/31/gold-forged-thopteryx) · oracle_id `c27e2d6f-498c-42d8-aa1a-ac6402bf3f9a` · printing: MAT #31 (2023-05-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goldfury Strider
 
@@ -363,7 +382,11 @@
   > *The staccato clatter of its metal claws on pavement is unmistakable.*
 - **Keywords:** First strike, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4780 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/snc/108/goldhound) · oracle_id `b5eb72bb-897f-4911-a797-3153c31df3e0` · printing: SNC #108 (2022-04-29) · [rulings](https://api.scryfall.com/cards/c059e4b4-1542-4b5c-810a-9f0abac5792b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-04-29* — Even when it is on a creature, Treasure is an artifact type and not a creature type. Similarly, Dog is always a creature type and not an artifact type.
+  - *2022-04-29* — If an effect refers to a Treasure, it means any Treasure artifact, not just a Treasure artifact token.
+  - *2022-04-29* — Since Goldhound is a creature, its {T} ability can't be activated the turn that it enters the battlefield or the turn a player gains control of it unless it has haste.
+- **Source flags:** [Scryfall](https://scryfall.com/card/snc/108/goldhound) · oracle_id `b5eb72bb-897f-4911-a797-3153c31df3e0` · printing: SNC #108 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goldlust Triad
 
@@ -376,7 +399,16 @@
   > Whenever this creature deals combat damage to a player, create a Treasure token.
 - **Keywords:** Myriad, Flying, Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1873 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/34/goldlust-triad) · oracle_id `86d76078-9af3-45a7-90d6-72946afdc78b` · printing: TDC #34 (2025-04-11) · [rulings](https://api.scryfall.com/cards/2876d57a-a17e-4892-9992-321a32562e13/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2025-04-04* — Although the tokens enter attacking, they were never declared as attackers. Abilities that trigger whenever a creature attacks won’t trigger, including the myriad ability of the tokens. If there are any costs to have a creature attack, those costs won’t apply to the tokens.
+  - *2025-04-04* — Any “enters” abilities of the copied creature will trigger when the tokens enter. Any “as [this creature] enters” or “[this creature] enters with” abilities of the copied creature will also work.
+  - *2025-04-04* — Each token copies exactly what was printed on the original creature and nothing else. It doesn’t copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+  - *2025-04-04* — If an instance of myriad creates more than one token for any given player (due to an effect such as the one Doubling Season creates), you may choose separately for each token whether it’s attacking the player or a planeswalker they control.
+  - *2025-04-04* — If the defending player is your only opponent, no tokens are put onto the battlefield.
+  - *2025-04-04* — The term “defending player” in the myriad rules (or any other ability of an attacking creature) refers to the player the creature with myriad was attacking, the controller of the planeswalker it was attacking, or the protector of the battle it was attacking at the time the ability resolves. If that creature is no longer attacking, it refers to the appropriate player based on who or what the creature was last attacking.
+  - *2025-04-04* — The tokens created by a single instance of myriad all enter at the same time.
+  - *2025-04-04* — You choose whether each token is attacking the player or a planeswalker they control as the token is created. If it’s attacking a planeswalker, you choose which one. You can’t have any of the tokens attack a battle.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/34/goldlust-triad) · oracle_id `86d76078-9af3-45a7-90d6-72946afdc78b` · printing: TDC #34 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goldmane Griffin
 
@@ -486,6 +518,7 @@
   > *The path to glory is forged in ambition.*
 - **Keywords:** Indestructible
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2305 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/407/goldmire-bridge) · oracle_id `c9b7ea9c-3bcb-4538-aa25-cdb82a52037e` · printing: MOC #407 (2023-04-21) · [rulings](https://api.scryfall.com/cards/3235954d-a1b1-4822-b177-1691347d1e58/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gold Myr
@@ -498,6 +531,7 @@
 - **Flavor text** (NEC printing):
   > *The leonin thought of the myr as omens, never imagining the sinister fate they foretold.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1371 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/nec/153/gold-myr) · oracle_id `bd6af7b3-b30f-4a65-a18f-8655f778e76a` · printing: NEC #153 (2022-02-18) · [rulings](https://api.scryfall.com/cards/12331b1d-a561-4a8c-8e85-ed3a607ce508/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goldnight Castigator
@@ -523,7 +557,9 @@
 - **Flavor text** (TDC printing):
   > *"One faith, but many hands in victory."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3815 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/117/goldnight-commander) · oracle_id `3dc51dfc-7a60-41bf-b944-6afad6b06c22` · printing: TDC #117 (2025-04-11) · [rulings](https://api.scryfall.com/cards/854ee15f-bf36-4b80-9717-6e6f02da790e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2012-05-01* — The creature that entered will also get +1/+1 until end of turn if it's still on the battlefield when the ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/117/goldnight-commander) · oracle_id `3dc51dfc-7a60-41bf-b944-6afad6b06c22` · printing: TDC #117 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goldnight Redeemer
 
@@ -561,7 +597,10 @@
   > *"Don't believe anyone who tells you to bite it. If it's the real thing, you'll know."*
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9756 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/166/gold-rush) · oracle_id `45687a24-e8cb-4864-8721-410eb8320aab` · printing: OTJ #166 (2024-04-19) · [rulings](https://api.scryfall.com/cards/15845be1-919d-4450-9de6-3552c52e8623/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-04-12* — Count the number of Treasures you control as Gold Rush resolves to determine how big a bonus the target creature receives. That bonus won’t change even if the number of Treasures you control does during the turn.
+  - *2024-04-12* — You don’t have to choose a target for Gold Rush. However, if you do, and that creature is an illegal target at the time Gold Rush tries to resolve, it won’t resolve and none of its effects will happen. You won’t create a Treasure token.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/166/gold-rush) · oracle_id `45687a24-e8cb-4864-8721-410eb8320aab` · printing: OTJ #166 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goldspan Dragon
 
@@ -593,7 +632,9 @@
   > *The key is to slay it before it sprouts so many heads that your fear outpaces your greed.*
 - **Keywords:** Vigilance, Treasure, Haste, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1434 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/270/goldvein-hydra) · oracle_id `2b62543f-a475-457a-a96b-b5d070383d3c` · printing: SOC #270 (2026-04-24) · [rulings](https://api.scryfall.com/cards/3baebc29-bc89-4b56-a821-b5d3ca0cd3b4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-04-12* — Use Goldvein Hydra's power as it last existed on the battlefield to determine how many Treasure tokens to create.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/270/goldvein-hydra) · oracle_id `2b62543f-a475-457a-a96b-b5d070383d3c` · printing: SOC #270 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goldvein Pick
 
@@ -605,6 +646,7 @@
   > Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Treasure, Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1981 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/253/goldvein-pick) · oracle_id `c1624d10-8838-4af8-aea1-a96c0fe6fd6b` · printing: FDN #253 (2024-11-15) · [rulings](https://api.scryfall.com/cards/a241317d-2277-467e-a8f9-aa71c944e244/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goldwardens' Gambit
@@ -655,7 +697,9 @@
   > Whenever you cast an artifact spell, you may put a charge counter on this artifact.
   > Remove three charge counters from this artifact: Create a 3/3 colorless Golem artifact creature token.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5668 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/138/golem-foundry) · oracle_id `8e96c09f-c064-4dd8-85ee-0f48d86ab670` · printing: EOC #138 (2025-08-01) · [rulings](https://api.scryfall.com/cards/18724f37-d50b-4b00-bd47-c5bc6e62697a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-01-01* — Whenever you cast an artifact spell, Golem Foundry's first ability triggers and goes on the stack on top of it. It will resolve before the artifact spell does.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/138/golem-foundry) · oracle_id `8e96c09f-c064-4dd8-85ee-0f48d86ab670` · printing: EOC #138 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Golem's Heart
 
@@ -677,7 +721,10 @@
   > Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7363 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/259/golem-skin-gauntlets) · oracle_id `2a956224-8bdb-40d8-8405-2aa29eb228e0` · printing: 2XM #259 (2020-08-07) · [rulings](https://api.scryfall.com/cards/ee198804-a247-46b9-be6e-71bbb5840401/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-08-07* — Golem-Skin Gauntlets is counted by its own ability, so it gives at least +1/+0.
+  - *2020-08-07* — The bonus from Golem-Skin Gauntlets is in addition to whatever bonus the other Equipment gives it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/259/golem-skin-gauntlets) · oracle_id `2a956224-8bdb-40d8-8405-2aa29eb228e0` · printing: 2XM #259 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Golgari Brownscale
 
@@ -705,6 +752,7 @@
   > *—Jarad*
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1619 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/uma/201/golgari-charm) · oracle_id `f0ab7166-9fcf-46e5-af2c-b7f628db4789` · printing: UMA #201 (2018-12-07) · [rulings](https://api.scryfall.com/cards/9d467e61-bbec-4cea-bd5d-f10555910c9d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Golgari Cluestone
@@ -752,6 +800,7 @@
 - **Flavor text** (RVR printing):
   > *"We gather the past from surface dwellers and sell it right back to them."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8974 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/187/golgari-findbroker) · oracle_id `e5456b35-d7a9-4717-90df-c6c46f1ec437` · printing: RVR #187 (2024-01-12) · [rulings](https://api.scryfall.com/cards/eb6104f6-127f-4ab8-94bb-d98783ecb377/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Golgari Germination
@@ -763,6 +812,7 @@
 - **Flavor text** (MM3 printing):
   > *The Golgari don't bury their dead. They plant them.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8123 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm3/167/golgari-germination) · oracle_id `3f9cf871-7df6-49d5-aab3-ad945571b707` · printing: MM3 #167 (2017-03-17) · [rulings](https://api.scryfall.com/cards/8d03f6eb-a146-45e8-a8e0-a46ec0c20c1d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Golgari Grave-Troll
@@ -776,7 +826,16 @@
   > Dredge 6 (If you would draw a card, you may mill six cards instead. If you do, return this card from your graveyard to your hand.)
 - **Keywords:** Dredge, Regenerate, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2812 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/144/golgari-grave-troll) · oracle_id `686f4a37-b5e4-46d4-9e0e-11794b2d12cd` · printing: RVR #144 (2024-01-12) · [rulings](https://api.scryfall.com/cards/d332acbc-6224-43bc-a509-3a7edc877423/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2018-12-07* — Because damage remains marked on a creature until it's removed as the turn ends, nonlethal damage dealt to Golgari Grave-Troll may become lethal if you remove +1/+1 counters from it during that turn. In this case, it dies before you can resolve the activated ability that will regenerate it.
+  - *2018-12-07* — If you return Golgari Grave-Troll from your graveyard directly to the battlefield, its first ability counts itself.
+  - *2024-01-12* — Dredge can replace any card draw, not only the one during your draw step.
+  - *2024-01-12* — If an effect puts a card into your hand without specifically using the word "draw," you're not drawing a card. Dredge can't replace this event.
+  - *2024-01-12* — If you're drawing multiple cards, each draw is performed one at a time. For example, if you're instructed to draw two cards and you replace the first draw with a dredge ability, another card with a dredge ability (including one that was milled by the first dredge ability) may be used to replace the second draw.
+  - *2024-01-12* — Once you've announced that you're applying a card's dredge ability to replace a draw, players can't take any actions until you've put that card into your hand and milled cards.
+  - *2024-01-12* — One card draw can't be replaced by multiple dredge abilities.
+  - *2024-01-12* — You can't attempt to use a dredge ability if you don't have enough cards in your library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/144/golgari-grave-troll) · oracle_id `686f4a37-b5e4-46d4-9e0e-11794b2d12cd` · printing: RVR #144 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Golgari Guildgate
 
@@ -788,7 +847,10 @@
 - **Flavor text** (FDN printing):
   > *Enter those who are starving and sick. You are welcome among the Swarm when the rest of Ravnica rejects you.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1644 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/689/golgari-guildgate) · oracle_id `fa2da325-6859-45bb-b185-35526b01bcc1` · printing: FDN #689 (2024-11-15) · [rulings](https://api.scryfall.com/cards/92d4646c-a375-4835-aa58-8bb77d1a5abf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-04-15* — Gate is not a basic land type.
+  - *2013-04-15* — The subtype Gate has no special rules significance, but other spells and abilities may refer to it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/689/golgari-guildgate) · oracle_id `fa2da325-6859-45bb-b185-35526b01bcc1` · printing: FDN #689 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Golgari Guildmage
 
@@ -899,7 +961,14 @@
   > Dredge 4 (If you would draw a card, you may mill four cards instead. If you do, return this card from your graveyard to your hand.)
 - **Keywords:** Dredge, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3509 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/76/golgari-thug) · oracle_id `a426a258-fd8b-489c-8642-9868ee47de85` · printing: RVR #76 (2024-01-12) · [rulings](https://api.scryfall.com/cards/6a8c5d3b-71b4-4e99-82e9-dfc0b98698b0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-01-12* — Dredge can replace any card draw, not only the one during your draw step.
+  - *2024-01-12* — If an effect puts a card into your hand without specifically using the word "draw," you're not drawing a card. Dredge can't replace this event.
+  - *2024-01-12* — If you're drawing multiple cards, each draw is performed one at a time. For example, if you're instructed to draw two cards and you replace the first draw with a dredge ability, another card with a dredge ability (including one that was milled by the first dredge ability) may be used to replace the second draw.
+  - *2024-01-12* — Once you've announced that you're applying a card's dredge ability to replace a draw, players can't take any actions until you've put that card into your hand and milled cards.
+  - *2024-01-12* — One card draw can't be replaced by multiple dredge abilities.
+  - *2024-01-12* — You can't attempt to use a dredge ability if you don't have enough cards in your library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/76/golgari-thug) · oracle_id `a426a258-fd8b-489c-8642-9868ee47de85` · printing: RVR #76 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Golgothian Sylex
 
@@ -934,7 +1003,13 @@
   > Whenever you cast an instant or sorcery spell from your hand, exile that card with a dream counter on it instead of putting it into your graveyard as it resolves.
   > Whenever this creature attacks, you may cast a spell from among cards you own in exile with dream counters on them without paying its mana cost.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9616 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/143/goliath-daydreamer) · oracle_id `9207facd-fbf9-4faa-ac44-6c0bcac81551` · printing: ECL #143 (2026-01-23) · [rulings](https://api.scryfall.com/cards/88e8cd13-2a29-4df6-937c-1bed68fbeafa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-11-17* — Goliath Daydreamer's last ability allows you to cast an exiled card with a dream counter on it only while the ability is resolving and still on the stack. You can't wait to cast the spell later in the turn. Timing restrictions based on the card's type are ignored.
+  - *2025-11-17* — If a spell is countered or otherwise fails to resolve, Goliath Daydreamer's first ability won't exile it.
+  - *2025-11-17* — If the spell you cast has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2025-11-17* — Since you are using an alternative cost to cast the spell, you can't pay any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, you must pay those.
+  - *2025-11-17* — The spell will have all of its normal effects before being exiled. If the spell's normal effects include exiling itself, the effect of Goliath Daydreamer's first ability won't apply to it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/143/goliath-daydreamer) · oracle_id `9207facd-fbf9-4faa-ac44-6c0bcac81551` · printing: ECL #143 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goliath Hatchery
 
@@ -1023,7 +1098,10 @@
   > *He hated the Ring and loved it, as he hated and loved himself.*
 - **Keywords:** Skulk
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5089 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/26/gollum-obsessed-stalker) · oracle_id `95d59a06-5144-4da3-8a9c-846b087975b9` · printing: LTC #26 (2023-06-23) · [rulings](https://api.scryfall.com/cards/e5a43cf0-60b3-4770-945c-41ee3ec54d5a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-06-16* — Gollum, Obsessed Stalker's last ability counts players who were dealt combat damage by any creature named Gollum, Obsessed Stalker. It doesn't matter who controlled those creatures.
+  - *2023-06-16* — Gollum, Obsessed Stalker's last ability counts the total amount of life you gained without taking into account any life you lost during that turn. For example, if you gained 3 life and lost 3 life earlier in the turn, each opponent dealt combat damage this game by a creature named Gollum, Obsessed Stalker loses 3 life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/26/gollum-obsessed-stalker) · oracle_id `95d59a06-5144-4da3-8a9c-846b087975b9` · printing: LTC #26 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gollum, Patient Plotter
 
@@ -1036,7 +1114,15 @@
 - **Flavor text** (LTR printing):
   > *"They'll take it, steal my Precious. Thieves. We hates them."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4501 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/84/gollum-patient-plotter) · oracle_id `c4545884-35b7-47cf-939e-3d5d3fe555a4` · printing: LTR #84 (2023-06-23) · [rulings](https://api.scryfall.com/cards/4ddda7d4-0226-404f-8418-f1f5720dcef8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-06-16* — As the Ring tempts you, you get an emblem named The Ring if you don't have one. Then your emblem gains its next ability and you choose a creature you control to become (or remain) your Ring-bearer.
+  - *2023-06-16* — Each player can have only one emblem named The Ring and only one Ring-bearer at a time.
+  - *2023-06-16* — Each time the Ring tempts you, you must choose a creature if you control one.
+  - *2023-06-16* — If the creature you choose as your Ring-bearer was already your Ring-bearer, that still counts as choosing that creature as your Ring-bearer for the purpose of abilities that trigger "whenever you choose a creature as your Ring-bearer" or abilities that care about which creature was chosen as your Ring-bearer.
+  - *2023-06-16* — Some spells and abilities that cause the Ring to tempt you may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Ring won't tempt you.
+  - *2023-06-16* — The Ring can tempt you even if you don't control a creature. In this case, abilities that trigger "whenever the Ring tempts you" will still trigger.
+  - *2023-06-16* — The Ring gains its abilities in order from top to bottom. Once it gains an ability, it has that ability for the rest of the game.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/84/gollum-patient-plotter) · oracle_id `c4545884-35b7-47cf-939e-3d5d3fe555a4` · printing: LTR #84 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gollum, Riddle Master
 
@@ -1073,7 +1159,11 @@
 - **Oracle text:**
   > Whenever Gollum attacks, look at the top two cards of your library, put them back in any order, then choose land or nonland. An opponent guesses whether the top card of your library is the chosen kind. Reveal that card. If they guessed right, remove Gollum from combat. Otherwise, you draw a card and Gollum can't be blocked this turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9294 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/292/gollum-scheming-guide) · oracle_id `3fb5c9a6-3fab-4109-875b-83c92518c5eb` · printing: LTR #292 (2023-06-23) · [rulings](https://api.scryfall.com/cards/7f93ad17-b655-4a10-990e-b26ead90d221/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-06-16* — If you have no cards in your library as Gollum, Scheming Guide's ability resolves, your opponent's guess will not be right no matter what they guess. That means you'll draw a card, or more accurately, attempt to draw a card from your empty library and therefore (usually) lose the game.
+  - *2023-06-16* — If you only have one card in your library as Gollum, Scheming Guide's ability resolves, you'll look at that card, put it back on top of your library, and then continue with the ability as normal.
+  - *2023-06-16* — You reveal the card even if your opponent guessed correctly.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/292/gollum-scheming-guide) · oracle_id `3fb5c9a6-3fab-4109-875b-83c92518c5eb` · printing: LTR #292 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gollum, Silent Slinker // Meager Meal
 

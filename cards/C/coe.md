@@ -66,7 +66,13 @@
   > Whenever enchanted creature attacks, you draw a card and lose 1 life.
 - **Keywords:** Goad, Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6777 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/24/coercive-impetus) · oracle_id `dbb8a3d9-6b1b-4ad1-b8b9-f92ead03d1d9` · printing: SOC #24 (2026-04-24) · [rulings](https://api.scryfall.com/cards/f98ca390-d2ea-41c8-93ed-57fcd22737d8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2026-03-20* — Attacking with a goaded creature doesn't cause it to stop being goaded. If there is an additional combat phase that turn, or if another player gains control of it before it stops being goaded, it must attack again if able.
+  - *2026-03-20* — Being goaded isn't an ability the creature has. Once it's been goaded, it must attack as detailed above even if it loses all abilities.
+  - *2026-03-20* — If a creature you control has been goaded by multiple opponents, it must attack one of your opponents that hasn't goaded it, as that fulfills the maximum number of goad requirements. If a creature you control has been goaded by each of your opponents, the creature must attack an opponent (rather than a planeswalker or battle), but you choose which opponent it attacks.
+  - *2026-03-20* — If the creature doesn't meet any of the above exceptions and can attack, it must attack a player other than the controller of the spell or ability that goaded it if able. If the creature can't attack any of those players but could otherwise attack, it must attack a planeswalker an opponent controls, a battle an opponent protects, or the player that goaded it.
+  - *2026-03-20* — If, during a player's declare attackers step, a creature that player controls that's been goaded is tapped, is affected by a spell or ability that says it can't attack, or hasn't been under that player's control continuously since the turn began (and doesn't have haste), then it doesn't attack. If there's a cost associated with having a creature attack a player, its controller isn't forced to pay that cost, so it doesn't have to attack that player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/24/coercive-impetus) · oracle_id `dbb8a3d9-6b1b-4ad1-b8b9-f92ead03d1d9` · printing: SOC #24 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coercive Portal
 
@@ -76,7 +82,13 @@
   > Will of the council — At the beginning of your upkeep, starting with you, each player votes for carnage or homage. If carnage gets more votes, sacrifice this artifact and destroy all nonland permanents. If homage gets more votes or the vote is tied, draw a card.
 - **Keywords:** Will of the council
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8907 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/vma/266/coercive-portal) · oracle_id `eea4feef-2595-4ed2-92a0-11ccb3e7d40e` · printing: VMA #266 (2014-06-16) · [rulings](https://api.scryfall.com/cards/18e8c013-1a56-4894-a4f5-6ec564bcbe9b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2014-05-29* — Because the votes are cast in turn order, each player will know the votes of players who voted beforehand.
+  - *2014-05-29* — No player votes until the spell or ability resolves. Any responses to that spell or ability must be made without knowing the outcome of the vote.
+  - *2014-05-29* — Players can't do anything after they finish voting but before the spell or ability that included the vote finishes resolving.
+  - *2014-05-29* — The phrase "the vote is tied" refers only to when there is more than one choice that received the most votes. For example, if a 5-player vote from among three different choices ends 3 votes to 1 vote to 1 vote, the vote isn't tied.
+  - *2014-05-29* — You must vote for one of the available options. You can't abstain.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vma/266/coercive-portal) · oracle_id `eea4feef-2595-4ed2-92a0-11ccb3e7d40e` · printing: VMA #266 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coercive Recruiter
 
@@ -88,7 +100,10 @@
 - **Flavor text** (LCC printing):
   > *"Choose, vampire: our hat on your head, or no hat, no head."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3758 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/222/coercive-recruiter) · oracle_id `ad33530c-a8df-4c1c-a863-501e583290b6` · printing: LCC #222 (2023-11-17) · [rulings](https://api.scryfall.com/cards/16a1d084-34f1-4278-ae54-d0dac288b1da/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-11-10* — Coercive Recruiter's ability can target any creature, even one that's untapped or one you already control. It can even target itself or the creature that caused the ability to trigger.
+  - *2020-11-10* — Gaining control of a creature doesn't cause you to gain control of any Auras or Equipment attached to it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/222/coercive-recruiter) · oracle_id `ad33530c-a8df-4c1c-a863-501e583290b6` · printing: LCC #222 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coeurl
 

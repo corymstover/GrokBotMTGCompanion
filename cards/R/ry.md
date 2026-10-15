@@ -50,7 +50,15 @@
   > Summon — {X}, {T}: Return target Saga card with mana value X from your graveyard to the battlefield with a finality counter on it. It gains haste until end of turn. Activate only as a sorcery.
 - **Keywords:** Summon, Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4956 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/239/rydia-summoner-of-mist) · oracle_id `a08f79b7-d66f-47da-9670-afd7409c0c5c` · printing: FIN #239 (2025-06-13) · [rulings](https://api.scryfall.com/cards/99450143-6ab5-463d-9e04-e8e6703a8b92/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2025-06-06* — Finality counters aren't keyword counters, and a finality counter doesn't give any abilities to the permanent it's on. If that permanent loses its abilities and then would go to a graveyard, it will still be exiled instead.
+  - *2025-06-06* — Finality counters don't stop permanents from going to zones other than the graveyard from the battlefield. For example, if a permanent with a finality counter on it would be put into its owner's hand from the battlefield, it does so normally.
+  - *2025-06-06* — Finality counters work on any permanent, not only creatures. If a permanent with a finality counter on it would be put into a graveyard from the battlefield, exile it instead.
+  - *2025-06-06* — Multiple finality counters on a single permanent are redundant.
+  - *2025-07-25* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2025-07-25* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2025-07-25* — Whenever a land you control enters, each landfall ability of permanents you control will trigger. You can put them on the stack in any order. The last ability you put on the stack will be the first one to resolve. As a result, you can have those abilities resolve in the order of your choosing.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/239/rydia-summoner-of-mist) · oracle_id `a08f79b7-d66f-47da-9670-afd7409c0c5c` · printing: FIN #239 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rysorian Badger
 
@@ -74,4 +82,5 @@
   > *The course of the falling star always ends in ruin.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6065 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/806/ryusei-the-falling-star) · oracle_id `5e99ba3b-dc2b-4c3c-84ce-228d4772cfee` · printing: CLB #806 (2022-06-10) · [rulings](https://api.scryfall.com/cards/68d57ab8-fbe0-4f01-b7f7-2a5cccd2d13a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

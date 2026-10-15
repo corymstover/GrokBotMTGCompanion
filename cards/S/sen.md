@@ -211,7 +211,11 @@
 - **Oracle text:**
   > Whenever Sensational Spider-Man attacks, tap target creature defending player controls and put a stun counter on it. Then you may remove up to three stun counters from among all permanents. Draw cards equal to the number of stun counters removed this way.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9857 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/spe/25/sensational-spider-man) · oracle_id `8c489e39-b9ff-400f-a855-3cddf7e112e6` · printing: SPE #25 (2025-09-26) · [rulings](https://api.scryfall.com/cards/7a938fa9-cba2-4773-9be9-db1e37aa001f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-09-19* — One or more stun counters on a permanent create a single replacement effect that stops the permanent from untapping. That effect is "If a permanent with a stun counter on it would become untapped, instead remove a stun counter from it."
+  - *2025-09-19* — The stun counters don't need to be removed from the same permanent. For example, if an opponent controls three permanents that each have two stun counters on them, you could remove one stun counter from each of those permanents.
+  - *2025-09-19* — You may remove stun counters from permanents you control as well as ones your opponents control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/spe/25/sensational-spider-man) · oracle_id `8c489e39-b9ff-400f-a855-3cddf7e112e6` · printing: SPE #25 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sensation Gorger
 
@@ -384,7 +388,14 @@
   > Battalion — Whenever Sentinel Sarah Lyons and at least two other creatures attack, Sentinel Sarah Lyons deals damage equal to the number of artifacts you control to target player.
 - **Keywords:** Battalion, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7836 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/118/sentinel-sarah-lyons) · oracle_id `b368b1bd-3273-40a9-8102-27501f4d0e15` · printing: PIP #118 (2024-03-08) · [rulings](https://api.scryfall.com/cards/23b76965-528c-48f9-9ee6-332b09cae664/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-03-08* — Once Sentinel Sarah Lyons’s battalion ability has triggered, it doesn’t matter how many creatures are still attacking when that ability resolves. It also doesn’t matter whether or not Sentinel Sarah Lyons is still attacking or on the battlefield.
+  - *2024-03-08* — Once an artifact enters the battlefield under your control in a given turn, it doesn’t matter what happens to it later. Creatures you control will still get +2/+2 that turn as long as Sentinel Sarah Lyons is on the battlefield under your control.
+  - *2024-03-08* — Sentinel Sarah Lyons doesn’t have to have been on the battlefield at the point in the turn where an artifact entered the battlefield under your control. If an artifact enters the battlefield under your control and then Sentinel Sarah Lyons enters the battlefield under your control later in that turn, creatures you control will still get +2/+2 that turn as long as Sentinel Sarah Lyons remains on the battlefield and under your control.
+  - *2024-03-08* — Sentinel Sarah Lyons’s second ability only cares if one or more artifacts entered the battlefield under your control this turn. Your creatures won’t get more powerful if more than one artifact entered the battlefield under your control this turn.
+  - *2024-03-08* — The three attacking creatures don’t have to be attacking the same player, planeswalker, or battle.
+  - *2024-03-08* — Use the number of artifacts you control at the time Sentinel Sarah Lyons’s battalion ability resolves to determine how much damage to deal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/118/sentinel-sarah-lyons) · oracle_id `b368b1bd-3273-40a9-8102-27501f4d0e15` · printing: PIP #118 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sentinel's Eyes
 
@@ -396,7 +407,15 @@
   > Escape—{W}, Exile two other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)
 - **Keywords:** Enchant, Escape
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6470 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/168/sentinels-eyes) · oracle_id `0a7d6489-b239-4ce8-aea3-7b5d0e436f70` · printing: SOC #168 (2026-04-24) · [rulings](https://api.scryfall.com/cards/9f50278a-06fc-4b11-a1d2-d28cd213ff8f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2020-01-24* — After an escaped spell resolves, it returns to its owner's graveyard if it's not a permanent spell. If it is a permanent spell, it enters the battlefield and will return to its owner's graveyard if it dies later. Perhaps it will escape again—good underworld security is so hard to come by these days.
+  - *2020-01-24* — Escape's permission doesn't change when you may cast the spell from your graveyard.
+  - *2020-01-24* — If a card has multiple abilities giving you permission to cast it, such as two escape abilities or an escape ability and a flashback ability, you choose which one to apply. The others have no effect.
+  - *2020-01-24* — If a card with escape is put into your graveyard during your turn, you'll be able to cast it right away if it's legal to do so, before an opponent can take any actions.
+  - *2020-01-24* — If you cast a spell with its escape permission, you can't choose to apply any other alternative costs or to cast it without paying its mana cost. If it has any additional costs, you must pay those.
+  - *2020-01-24* — Once you begin casting a spell with escape, it immediately moves to the stack. Players can't take any other actions until you're done casting the spell.
+  - *2020-01-24* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an escape cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was and no matter whether an alternative cost was paid.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/168/sentinels-eyes) · oracle_id `0a7d6489-b239-4ce8-aea3-7b5d0e436f70` · printing: SOC #168 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sentinel Sliver
 
@@ -409,7 +428,10 @@
   > *"Nine hells! How does something with no eyes see so far?"*
   > *—Max, Benalish scout*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4370 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/835/sentinel-sliver) · oracle_id `1d0f1186-be6c-45c3-9703-f0c1e13892fb` · printing: CMM #835 (2023-08-04) · [rulings](https://api.scryfall.com/cards/7cb2cc85-f4a6-47ad-b94e-f16534d02ae2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-07-01* — Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn’t provide any additional benefit.
+  - *2013-07-01* — If you change the creature type of a Sliver you control so it’s no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/835/sentinel-sliver) · oracle_id `1d0f1186-be6c-45c3-9703-f0c1e13892fb` · printing: CMM #835 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sentinel's Mark
 
@@ -484,7 +506,14 @@
 - **Flavor text** (2XM printing):
   > *They are the masters of your mind.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9426 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/218/sen-triplets) · oracle_id `f0c5864f-83c3-4d99-8f97-0ab92608fff3` · printing: 2XM #218 (2020-08-07) · [rulings](https://api.scryfall.com/cards/13ac5292-9817-4f5d-b3fa-611f9ba44443/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2020-08-07* — Abilities that create replacement effects, such as a permanent entering the battlefield tapped or with counters on it, are unaffected by Sen Triplets. Abilities that apply “as [this creature] enters the battlefield” are also replacement effects and are unaffected.
+  - *2020-08-07* — Activated abilities are written in the form “[Cost]: [Effect].” Some keyword abilities (such as cycling) are activated abilities and will have colons in their reminder texts.
+  - *2020-08-07* — Sen Triplets doesn't allow you to play more than one land during your turn or change when you may cast spells from the target opponent's hand.
+  - *2020-08-07* — The target opponent can't activate any abilities, including mana abilities.
+  - *2020-08-07* — Triggered abilities use the word “when,” “whenever,” or “at.” They're often written as “[Trigger condition], [effect].” Triggered abilities are unaffected by Sen Triplets.
+  - *2020-08-07* — You can't activate abilities of cards in the target opponent's hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/218/sen-triplets) · oracle_id `f0c5864f-83c3-4d99-8f97-0ab92608fff3` · printing: 2XM #218 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sentry Bot
 
@@ -540,4 +569,8 @@
   > *—Bayek of Siwa*
 - **Keywords:** Scry, Flying, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4488 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/acr/8/senu-keen-eyed-protector) · oracle_id `bf2dc318-7b51-451e-ac4d-0f1b756dc860` · printing: ACR #8 (2024-07-05) · [rulings](https://api.scryfall.com/cards/5671a03d-0858-41e7-976c-60825c29af04/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-07-05* — Although Senu enters the battlefield attacking as a result of its last ability, it was never declared as an attacking creature. Abilities that trigger whenever a creature attacks won't trigger when Senu enters the battlefield attacking.
+  - *2024-07-05* — Senu's last ability will trigger only if Senu is already exiled at the point immediately after blockers are declared and at least one legendary creature you control that attacked isn't blocked. It's not possible to exile Senu during the declare blockers step in time to have the ability trigger.
+  - *2024-07-05* — You choose which player, planeswalker, or battle Senu is attacking when you put it onto the battlefield attacking. It doesn't have to be the same one that the unblocked legendary creature you control is attacking.
+- **Source flags:** [Scryfall](https://scryfall.com/card/acr/8/senu-keen-eyed-protector) · oracle_id `bf2dc318-7b51-451e-ac4d-0f1b756dc860` · printing: ACR #8 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

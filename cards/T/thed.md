@@ -41,7 +41,11 @@
   > At the beginning of combat on your turn, each opponent faces a villainous choice — That player sacrifices a creature of their choice, or you create a 3/3 black Dalek artifact creature token with menace.
 - **Keywords:** Affinity
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9618 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/120/the-dalek-emperor) · oracle_id `07799012-7051-400e-adde-b54b41b80c70` · printing: WHO #120 (2023-10-13) · [rulings](https://api.scryfall.com/cards/e96e1793-cf1c-452d-9443-b0aad4475d50/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-10-13* — A player facing a villainous choice can always choose either option, even if one or both of the options are impossible. For example, if one of the options is to sacrifice a creature, a player who controls no creatures can still choose that option.
+  - *2023-10-13* — If a spell or ability requires multiple players to face a villainous choice, the result is a little different from other effects in Magic. In that case, the first player in turn order makes their choice and the action for that choice is performed before the next player makes their choice. Then each of the remaining players repeat this process in turn order.
+  - *2023-10-13* — When a player faces a villainous choice, they first choose one of the two options, then all actions in the chosen option are performed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/120/the-dalek-emperor) · oracle_id `07799012-7051-400e-adde-b54b41b80c70` · printing: WHO #120 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Darkhold
 
@@ -64,7 +68,13 @@
   > If a nontoken creature an opponent controls would die, instead exile it and you gain 2 life.
   > {4}{B}{B}, {T}: Put target creature card exiled with The Darkness Crystal onto the battlefield tapped under your control with two additional +1/+1 counters on it.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1152 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/96/the-darkness-crystal) · oracle_id `660f370a-b25b-4ea5-b765-7abf96899c1c` · printing: FIN #96 (2025-06-13) · [rulings](https://api.scryfall.com/cards/0f93b6ac-54ce-45d0-8549-19307406e6e5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-06-06* — If The Darkness Crystal leaves the battlefield at the same time as one or more nontoken creatures an opponent controls would die, those creature cards will be exiled and you'll gain 2 life for each of them.
+  - *2025-06-06* — If a creature token an opponent controls dies, it goes to that player's graveyard as normal before ceasing to exist.
+  - *2025-06-06* — The cost reduction applies only to generic mana in the total cost of black spells you cast.
+  - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as a flashback cost), add any cost increases (such as kicker costs), then apply any cost reductions (such as that of The Darkness Crystal's first ability). The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+  - *2025-06-06* — While you control The Darkness Crystal, abilities that trigger whenever a nontoken creature an opponent control dies won't trigger because that card is exiled instead.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/96/the-darkness-crystal) · oracle_id `660f370a-b25b-4ea5-b765-7abf96899c1c` · printing: FIN #96 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Dawning Archaic
 
@@ -77,7 +87,11 @@
   > Whenever The Dawning Archaic attacks, you may cast target instant or sorcery card from your graveyard without paying its mana cost. If that spell would be put into your graveyard, exile it instead.
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8071 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/1/the-dawning-archaic) · oracle_id `a3e10b9b-9349-4b44-a46c-c825293dbd05` · printing: SOS #1 (2026-04-24) · [rulings](https://api.scryfall.com/cards/7a451985-37e1-44d8-839b-dc1e88df5c96/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2026-03-20* — If the target of The Dawning Archaic's last ability has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2026-03-20* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions (such as that of The Dawning Archaic's first ability). The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+  - *2026-03-20* — You cast the spell while The Dawning Archaic's last ability is resolving and still on the stack. You can't wait to cast it later in the turn. Timing restrictions based on the card's types are ignored. If you cast a spell "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the spell has any mandatory additional costs, you must pay those to cast the spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/1/the-dawning-archaic) · oracle_id `a3e10b9b-9349-4b44-a46c-c825293dbd05` · printing: SOS #1 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Day of the Doctor
 
@@ -100,6 +114,7 @@
   > II — Each player may discard a card. Each player who doesn't loses 3 life.
   > III — Exile any number of target players' graveyards.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9287 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/54/the-death-of-gwen-stacy) · oracle_id `2624b5c5-ba59-4e20-8e66-e463268366e4` · printing: SPM #54 (2025-09-26) · [rulings](https://api.scryfall.com/cards/690f1f31-f8c5-4336-9ec9-72ff761e3adc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Deck of Many Things
@@ -112,7 +127,19 @@
   > 10—19 | Draw two cards.
   > 20 | Put a creature card from any graveyard onto the battlefield under your control. When that creature dies, its owner loses the game.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4567 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/241/the-deck-of-many-things) · oracle_id `91df4cf5-d7ec-4fcd-87ed-e075ef6ceba9` · printing: AFR #241 (2021-07-23) · [rulings](https://api.scryfall.com/cards/feddbdc6-0757-43cb-bb41-dc83c6cf42ea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2021-07-23* — An ability that tells you to roll a die will also specify what to do with the result of that roll. Most often, this is in the form of a “results table” in the card text.
+  - *2021-07-23* — An effect that says “choose a target, then roll a d20” or similar still uses the normal process of putting an ability on the stack and resolving it. Choosing targets is part of putting the ability on the stack and rolling the d20 happens later, as the ability resolves.
+  - *2021-07-23* — Dice are identified by the number of faces each one has. For example, a d20 is a twenty-sided die.
+  - *2021-07-23* — Dice used must have equally likely outcomes and the roll must be fair. Although physical dice are recommended, digital substitutes are allowed, provided they have the same number of equally likely outcomes as specified in the original roll instruction.
+  - *2021-07-23* — Like all results tables, the one on The Deck of Many Things cares about the result of the die roll after any adjustments, such as subtracting the number of cards in your hand. This means it's usually not possible to get a result of 20 unless you have no cards in hand.
+  - *2021-07-23* — Some abilities, like that of Pixie Guide and Barbarian Class, replace rolling a die with rolling extra dice and ignoring the lowest roll. The ignored rolls are not considered for the effect that instructed you to roll a die, and do not cause abilities to trigger. For all intents and purposes, once you determine which dice count, any extra dice were never rolled.
+  - *2021-07-23* — Some effects instruct you to roll again. This uses the same number and type of dice as the original roll, and that roll will use the same set of possible outcomes.
+  - *2021-07-23* — Some effects may modify the result of a die roll. This may be part of the instruction to roll a die or it may come from other cards. Anything that references the “result” of a die roll is looking for the result after these modifications. Anything that is looking for the “natural result” is looking for the number shown on the face of the die before these modifications.
+  - *2021-07-23* — The instruction to roll a die and the effect that occurs because of the result are all part of the same ability. Players do not get the chance to respond to the ability after knowing the result of the roll.
+  - *2021-07-23* — Tournament events have more specific rules regarding dice and die-rolling. For more information, please see the most recent version of the Magic Tournament Rules at https://wpn.wizards.com/en/document/magic-gathering-tournament-rules.
+  - *2021-07-23* — While playing Planechase, rolling the planar die will cause any ability that triggers whenever a player rolls one or more dice to trigger. However, any effect that refers to a numerical result will ignore the rolling of the planar die.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/241/the-deck-of-many-things) · oracle_id `91df4cf5-d7ec-4fcd-87ed-e075ef6ceba9` · printing: AFR #241 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Destined
 
@@ -134,7 +161,12 @@
   > Whenever you cast a noncreature spell, The Destined Black Mage deals 1 damage to each opponent. If you have a full party, it deals 3 damage to each opponent instead.
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9523 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/447/the-destined-black-mage) · oracle_id `ef2aa67a-9531-495c-85c7-7f745bc19ce1` · printing: FIC #447 (2025-12-05) · [rulings](https://api.scryfall.com/cards/cbba90d0-c45e-4ef1-ba0e-a2160533e27f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-10-02* — If a creature has more than one party creature type, and there are multiple ways to count that creature that could result in a different number of creatures in your party, the highest such number is used. For example, if you control a Cleric and a Cleric Wizard, the number of creatures in your party is two. You can't choose to have it be just one by counting the Cleric Wizard first as a Cleric.
+  - *2025-10-02* — Some cards refer to you having a "full party." This is true if the number of creatures in your party is four.
+  - *2025-10-02* — The Destined Black Mage's last ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+  - *2025-10-02* — To determine "the number of creatures in your party," check whether you control a Cleric, whether you control a Rogue, whether you control a Warrior, and whether you control a Wizard. The number is the total number of those checks to which you answered yes. Each creature you control can be counted for only one of those checks.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/447/the-destined-black-mage) · oracle_id `ef2aa67a-9531-495c-85c7-7f745bc19ce1` · printing: FIC #447 (2025-12-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Destined Thief
 
@@ -172,7 +204,16 @@
   > Whenever you gain life, put a +1/+1 counter on target creature you control. If you have a full party, put three +1/+1 counters on that creature instead.
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9665 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/444/the-destined-white-mage) · oracle_id `c8110200-209e-423a-96b7-81a3ac32447c` · printing: FIC #444 (2025-12-05) · [rulings](https://api.scryfall.com/cards/8b52f14c-e6b9-4ad0-8515-6644b201e2ea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2025-10-02* — Each creature with lifelink dealing combat damage causes a separate life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, The Destined White Mage's third ability will trigger twice. However, if a single creature you control with lifelink deals combat damage to multiple creatures, players, planeswalkers, and/or battles at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once.
+  - *2025-10-02* — If a creature has more than one party creature type, and there are multiple ways to count that creature that could result in a different number of creatures in your party, the highest such number is used. For example, if you control a Cleric and a Cleric Wizard, the number of creatures in your party is two. You can't choose to have it be just one by counting the Cleric Wizard first as a Cleric.
+  - *2025-10-02* — If a creature you control is dealt lethal damage at the same time that you gain life, it can't receive a counter from The Destined White Mage's second ability in time to save it.
+  - *2025-10-02* — If you gain an amount of life "for each" of something or "equal to the number" of something, that life is gained as one event and The Destined White Mage's third ability triggers only once.
+  - *2025-10-02* — In a Two-Headed Giant game, life gained by your teammate won't cause The Destined White Mage's third ability to trigger, even though it caused your team's life total to increase.
+  - *2025-10-02* — Some cards refer to you having a "full party." This is true if the number of creatures in your party is four.
+  - *2025-10-02* — The Destined White Mage's second ability triggers just once for each life-gaining event, whether it's 1 life from Al Bhed Salvagers or 3 life from Balamb T-Rexaur.
+  - *2025-10-02* — To determine "the number of creatures in your party," check whether you control a Cleric, whether you control a Rogue, whether you control a Warrior, and whether you control a Wizard. The number is the total number of those checks to which you answered yes. Each creature you control can be counted for only one of those checks.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/444/the-destined-white-mage) · oracle_id `c8110200-209e-423a-96b7-81a3ac32447c` · printing: FIC #444 (2025-12-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Dilu Horse
 
@@ -260,6 +301,7 @@
 - **Flavor text** (ONE printing):
   > *In Sheoldred's domain, the Steel Thanes wage a never-ending war in her long shadow.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7685 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/251/the-dross-pits) · oracle_id `8110fe69-c66c-4e2c-86ee-dcc8dc9a13d1` · printing: ONE #251 (2023-02-10) · [rulings](https://api.scryfall.com/cards/19d469f1-2219-4466-9f8a-769ee43e28db/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Duke of Midrange

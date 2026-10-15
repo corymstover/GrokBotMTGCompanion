@@ -88,7 +88,9 @@
 - **Flavor text** (NEM printing):
   > *"They're not worth much, but they're easy to catch."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8872 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/nem/96/moggcatcher) · oracle_id `4845dc21-7534-4896-b298-4d44cd7a3b27` · printing: NEM #96 (2000-02-14) · [rulings](https://api.scryfall.com/cards/9ba582d7-1dce-4664-8bd9-6b419596788c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Because the “search” requires you to find a card with certain characteristics, you don’t have to find the card if you don’t want to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/nem/96/moggcatcher) · oracle_id `4845dc21-7534-4896-b298-4d44cd7a3b27` · printing: NEM #96 (2000-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mogg Conscripts
 
@@ -205,7 +207,12 @@
 - **Flavor text** (MH2 printing):
   > *Three moggs, one treasure, too bad.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6681 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/282/mogg-salvage) · oracle_id `0923ad85-2ea4-4463-8f71-b7d0a162b486` · printing: MH2 #282 (2021-06-18) · [rulings](https://api.scryfall.com/cards/2b93e65e-8a10-444f-8b0a-9327dd30cce2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-06-18* — Casting a spell without paying its mana cost has no effect on its mana value. Mogg Salvage's mana value is always 3.
+  - *2021-06-18* — To cast Mogg Salvage without paying its mana cost, any opponent may control an Island, not just the one who controls the target artifact.
+  - *2021-06-18* — Who controls what lands is important only as you cast Mogg Salvage. Once it has been cast, you no longer controlling a Mountain or each opponent no longer controlling any Islands won't affect Mogg Salvage.
+  - *2021-06-18* — You don't sacrifice Nevinyrral's Disk to activate its ability. It's destroyed as part of the ability's resolution if it's still on the battlefield. If an effect gives Nevinyrral's Disk indestructible or regenerates it, it stays on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/282/mogg-salvage) · oracle_id `0923ad85-2ea4-4463-8f71-b7d0a162b486` · printing: MH2 #282 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mogg Sentry
 
@@ -252,6 +259,7 @@
   > When this creature enters or dies, create a 1/1 red Goblin creature token.
 - **Keywords:** Echo
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3025 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/plst/DMR-131/mogg-war-marshal) · oracle_id `7b8f4879-578e-40e4-863a-41d0c32c6bdd` · printing: PLST #DMR-131 (2026-05-18) · [rulings](https://api.scryfall.com/cards/4ebce261-3a53-48f2-a173-0d98c68aff2c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mogis, God of Slaughter
@@ -265,7 +273,22 @@
   > At the beginning of each opponent's upkeep, Mogis deals 2 damage to that player unless they sacrifice a creature of their choice.
 - **Keywords:** Indestructible
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2518 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/89/mogis-god-of-slaughter) · oracle_id `e5912d21-e188-4b9e-8e92-a6e8196353c6` · printing: DSC #89 (2024-09-27) · [rulings](https://api.scryfall.com/cards/521911e5-9ce5-4d55-bfc4-fbfeba4047fe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (14):
+  - *2013-09-15* — Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s).
+  - *2013-09-15* — If an activated ability or triggered ability has an effect that depends on your devotion to a color, you count the number of mana symbols of that color among the mana costs of permanents you control as the ability resolves. The permanent with that ability will be counted if it's still on the battlefield at that time.
+  - *2013-09-15* — Mana symbols in the text boxes of permanents you control don't count toward your devotion to any color.
+  - *2013-09-15* — Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don't count toward your devotion to any color.
+  - *2014-02-01* — If the player can't sacrifice a creature (usually because they don't control one), Mogis will deal 2 damage to them.
+  - *2020-01-24* — As a God enters the battlefield, your devotion to its color will determine whether any replacement effects that affect creatures entering the battlefield apply to that God. Because replacement effects are considered before the God is on the battlefield, the mana symbols in its mana cost won't be counted when determining this.
+  - *2020-01-24* — Counters put on a God remain on it while it's not a creature, even if they have no effect.
+  - *2020-01-24* — If a God is attacking or blocking and it stops being a creature, it will be removed from combat. It won't rejoin combat if it resumes being a creature later during that combat.
+  - *2020-01-24* — If a God stops being a creature, it loses the type creature and the creature type God. It continues to be a legendary enchantment.
+  - *2020-01-24* — If an effect causes a God to lose all abilities, its ability that causes it to stop being a creature still applies if appropriate.
+  - *2020-01-24* — The abilities of Gods function as long as they're on the battlefield, regardless of whether they're creatures.
+  - *2020-01-24* — The type-changing ability that can make a God not be a creature functions only on the battlefield. It's always a creature card in other zones, regardless of your devotion to its color. It's always a creature spell while it's on the stack.
+  - *2020-01-24* — When a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not for abilities that trigger whenever a creature enters the battlefield.
+  - *2020-01-24* — Your devotion to two colors is the number of mana symbols among mana costs of permanents you control that are the first color, the second, or both. If an effect counts your devotion to two colors, a hybrid symbol that is both of those colors is counted just once.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/89/mogis-god-of-slaughter) · oracle_id `e5912d21-e188-4b9e-8e92-a6e8196353c6` · printing: DSC #89 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mogis's Favor
 
@@ -314,4 +337,6 @@
   > Dance — At the beginning of your end step, each player may discard a card. Each player who discarded a card this way draws a card. If a creature card was discarded this way, you create a 1/2 white Moogle creature token with lifelink. Then if a noncreature card was discarded this way, put a +1/+1 counter on each Moogle you control.
 - **Keywords:** Lifelink, Dance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7288 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/89/mog-moogle-warrior) · oracle_id `f18cce8c-8fb6-49a7-8f79-2529c0ee3ecc` · printing: FIC #89 (2025-06-13) · [rulings](https://api.scryfall.com/cards/e9cb8ac9-64a0-455d-a8dd-1579ee321bbd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-06-06* — As long as at least one creature card was discarded this way, you'll create a Moogle token, and as long as at least one noncreature card was discarded this way, you'll put a +1/+1 counter on each Moogle you control. Additional creature cards discarded beyond the first won't result in additional Moogle tokens, and additional noncreature cards discarded beyond the first won't result in additional counters.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/89/mog-moogle-warrior) · oracle_id `f18cce8c-8fb6-49a7-8f79-2529c0ee3ecc` · printing: FIC #89 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

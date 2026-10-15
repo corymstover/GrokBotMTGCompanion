@@ -29,7 +29,17 @@
   > *"The Ondu Skyclave was a center for rebellion against the capital in Makindi. Of course they built in deadly traps."*
   > *—Nys Dal, Sea Gate trapfinder*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2671 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/64/jwari-disruption-jwari-ruins) · oracle_id `941a4b14-ea2a-4bd0-8cc2-d609f80df32c` · printing: ZNR #64 (2020-09-25) · [rulings](https://api.scryfall.com/cards/301750a7-d1fd-435e-bfa8-9d2fb22ad627/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2020-09-25* — A modal double-faced card can't be transformed or be put onto the battlefield transformed. Ignore any instruction to transform a modal double-faced card or to put one onto the battlefield transformed.
+  - *2020-09-25* — If an effect allows you to play a land or cast a spell from among a group of cards, you may play or cast a modal double-faced card with any face that fits the criteria of that effect.
+  - *2020-09-25* — If an effect allows you to play a specific modal double-faced card, you may cast it as a spell or play it as a land, as determined by which face you choose to play. If an effect allows you to cast (rather than "play") a specific modal double-faced card, you can't play it as a land.
+  - *2020-09-25* — If an effect instructs a player to choose a card name, the name of either face may be chosen. If that effect or a linked ability refers to a spell with the chosen name being cast and/or a land with the chosen name being played, it considers only the chosen name, not the other face's name.
+  - *2020-09-25* — If an effect puts a double-faced card onto the battlefield, it enters with its front face up. If that front face can't be put onto the battlefield, it doesn't enter the battlefield.
+  - *2020-09-25* — In the Commander variant, a double-faced card's color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered.
+  - *2020-09-25* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack and battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
+  - *2020-09-25* — There is a single triangle icon in the top left corner of the front face. There is a double triangle icon in the top left corner of the back face.
+  - *2020-09-25* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/64/jwari-disruption-jwari-ruins) · oracle_id `941a4b14-ea2a-4bd0-8cc2-d609f80df32c` · printing: ZNR #64 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jwari Scuttler
 
@@ -79,4 +89,5 @@
   > When this land enters, you gain 1 life.
   > {T}: Add {U} or {B}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4709 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/znc/133/jwar-isle-refuge) · oracle_id `8b96f837-7c32-473a-b5ae-1d66527eaf7b` · printing: ZNC #133 (2020-09-25) · [rulings](https://api.scryfall.com/cards/6d103181-25a1-4928-ac37-adf11038d5b5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

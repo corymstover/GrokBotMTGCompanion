@@ -231,7 +231,10 @@
   > At the beginning of combat on your turn, any opponent may sacrifice a creature of their choice. If a player does, tap this creature, you gain 3 life, and you draw a card.
 - **Keywords:** Haste, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5398 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eld/84/clackbridge-troll) · oracle_id `9c2f25af-0b16-488d-9249-026a84bdb27f` · printing: ELD #84 (2019-10-04) · [rulings](https://api.scryfall.com/cards/85929131-4df6-415c-b592-aefb2943c477/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-10-04* — If a player sacrifices a creature for any other reason (perhaps because it's a Food and the player was hungry), Clackbridge Troll's ability won't tap it or cause you to gain life or draw a card.
+  - *2019-10-04* — When Clackbridge Troll's last ability resolves, the next opponent in turn order chooses whether they want to sacrifice a creature at all and which creature to sacrifice if so, then each other opponent in turn order does the same, knowing the choices made before them. Then all the chosen creatures are sacrificed at the same time. If one or more creatures were sacrificed this way, Clackbridge Troll is tapped and you gain 3 life and draw a card—you don't gain more life or draw more cards if more than one creature was sacrificed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eld/84/clackbridge-troll) · oracle_id `9c2f25af-0b16-488d-9249-026a84bdb27f` · printing: ELD #84 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Claim // Fame
 
@@ -255,7 +258,10 @@
   > When this creature enters, if an opponent controls more lands than you, you may search your library for a Plains card and put it onto the battlefield tapped. Then if an opponent controls more lands than you, repeat this process once. If you search your library this way, shuffle.
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1828 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/140/claim-jumper) · oracle_id `18f0cd0b-3e4f-4637-a62e-75dd1b2f3fce` · printing: SOC #140 (2026-04-24) · [rulings](https://api.scryfall.com/cards/11bda4c5-099f-489e-b64b-f4719241cf9d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-04-12* — For example, say you control three lands, one opponent controls four lands, and another opponent controls five lands. As Claim Jumper's ability resolves, at least one opponent controls more lands than you, so you search for a Plains card and put it onto the battlefield tapped. Now you control four lands, but there's still an opponent who controls more lands than you, so you repeat the process once, searching for another Plains. You end up controlling five lands (two tapped Plains plus your original three, which you probably tapped to cast Claim Jumper in the first place).
+  - *2024-04-12* — When Claim Jumper enters the battlefield, its triggered ability will check to see if at least one opponent controls more lands than you. If none do, the ability won't trigger at all. If the ability does trigger, it will check again as it tries to resolve. If there's no longer an opponent that controls more lands than you, the ability won't do anything.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/140/claim-jumper) · oracle_id `18f0cd0b-3e4f-4637-a62e-75dd1b2f3fce` · printing: SOC #140 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Claim of Erebos
 
@@ -280,7 +286,11 @@
   > *"The deal was struck and the favor had been done. And so, under the cover of night, the debt was paid."*
   > *—\*Tales of the Fae\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6859 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eld/118/claim-the-firstborn) · oracle_id `9bb82829-05e8-4cdd-91e4-b837a620bfc8` · printing: ELD #118 (2019-10-04) · [rulings](https://api.scryfall.com/cards/feaf1e6c-c7d9-4ac7-9aeb-c4b5d61548ec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-10-04* — Claim the Firstborn can target any creature with mana value 3 or less, even one that's untapped or one you already control.
+  - *2019-10-04* — Gaining control of a creature doesn't cause you to gain control of any Auras or Equipment attached to it.
+  - *2019-10-04* — If a creature on the battlefield has {X} in its mana cost, X is considered to be 0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eld/118/claim-the-firstborn) · oracle_id `9bb82829-05e8-4cdd-91e4-b837a620bfc8` · printing: ELD #118 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Claim the Kingdom
 
@@ -303,7 +313,15 @@
   > *"I think it is a sad story, and it might have happened to others, even to some Hobbits that I have known."*
   > *—Gandalf*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3880 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/81/claim-the-precious) · oracle_id `8b0a0991-2327-45ea-b47f-c31db367fa1d` · printing: LTR #81 (2023-06-23) · [rulings](https://api.scryfall.com/cards/121c12c4-83ea-463e-8fdf-30718968a2bd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-06-16* — As the Ring tempts you, you get an emblem named The Ring if you don't have one. Then your emblem gains its next ability and you choose a creature you control to become (or remain) your Ring-bearer.
+  - *2023-06-16* — Each player can have only one emblem named The Ring and only one Ring-bearer at a time.
+  - *2023-06-16* — Each time the Ring tempts you, you must choose a creature if you control one.
+  - *2023-06-16* — If the creature you choose as your Ring-bearer was already your Ring-bearer, that still counts as choosing that creature as your Ring-bearer for the purpose of abilities that trigger "whenever you choose a creature as your Ring-bearer" or abilities that care about which creature was chosen as your Ring-bearer.
+  - *2023-06-16* — Some spells and abilities that cause the Ring to tempt you may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Ring won't tempt you.
+  - *2023-06-16* — The Ring can tempt you even if you don't control a creature. In this case, abilities that trigger "whenever the Ring tempts you" will still trigger.
+  - *2023-06-16* — The Ring gains its abilities in order from top to bottom. Once it gains an ability, it has that ability for the rest of the game.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/81/claim-the-precious) · oracle_id `8b0a0991-2327-45ea-b47f-c31db367fa1d` · printing: LTR #81 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Claire D'Loon, Joy Sculptor
 
@@ -342,6 +360,7 @@
   > *"The star-born approach! Their holy angels descend! Take up arms, my brothers and sisters, for the Day of Ascension is upon us!"*
 - **Keywords:** Proclamator Hailer
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7266 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/90/clamavus) · oracle_id `d772b16b-31db-48aa-8bb6-da32f45eebe4` · printing: 40K #90 (2022-10-07) · [rulings](https://api.scryfall.com/cards/127e9c03-f8de-497e-b94d-d6c484cab7fd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Clambassadors
@@ -518,7 +537,9 @@
   > *All challengers were summarily silenced.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6283 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/5/clarion-conqueror) · oracle_id `f1266a1b-bae6-4ded-b4d5-7586a5b6c5d0` · printing: TDM #5 (2025-04-11) · [rulings](https://api.scryfall.com/cards/f892d156-371c-4391-8ae6-25513c5032b0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-04-04* — Activated abilities contain a colon. They’re generally written “[Cost]: [Effect].” Some keywords are activated abilities and will have colons in their reminder text.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/5/clarion-conqueror) · oracle_id `f1266a1b-bae6-4ded-b4d5-7586a5b6c5d0` · printing: TDM #5 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Clarion Spirit
 
@@ -530,7 +551,10 @@
 - **Flavor text** (KHM printing):
   > *To the living, the horn sounds faint and mournful, but to the spirits of Istfell, it is a thunderous call that must be obeyed.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7130 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/6/clarion-spirit) · oracle_id `dec20b18-afe6-405e-b47d-a757a5645c63` · printing: KHM #6 (2021-02-05) · [rulings](https://api.scryfall.com/cards/86a4c348-1012-4339-960a-c7bc7fd84fbb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-02-05* — The triggered ability can trigger only once each turn. The ability will resolve before the second spell does. It doesn’t matter if the first spell you cast that turn has resolved, was countered, or is still on the stack.
+  - *2021-02-05* — The triggered ability triggers only if the creature that has it is on the battlefield as you cast your second spell. Spells you cast in a turn before that creature entered the battlefield will count. In other words, the ability won’t trigger if the creature with the ability is the second spell you cast during a turn or if you have already cast two or more spells by the time that creature enters the battlefield that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/6/clarion-spirit) · oracle_id `dec20b18-afe6-405e-b47d-a757a5645c63` · printing: KHM #6 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Clarion Ultimatum
 
@@ -575,7 +599,10 @@
   > • Put a lore counter on target Saga you control.
 - **Keywords:** Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6160 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/180/clash-of-the-eikons) · oracle_id `b1c38b70-575d-4d87-bc50-0b77b48ee823` · printing: FIN #180 (2025-06-13) · [rulings](https://api.scryfall.com/cards/75c18134-f517-4a68-8640-0426b3cd4f6c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-06-06* — Putting a lore counter on a Saga will usually cause its next chapter ability to trigger. If it already has a number of lore counters on it that's greater than or equal to its final chapter number, however, no chapter abilities trigger.
+  - *2025-06-06* — Removing lore counters won't cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives more lore counters.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/180/clash-of-the-eikons) · oracle_id `b1c38b70-575d-4d87-bc50-0b77b48ee823` · printing: FIN #180 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Clash of Titans
 
@@ -611,6 +638,7 @@
   > When this creature enters, you draw a card and you lose 1 life.
   > {2}{B}{B}: Return this card from your graveyard to your hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9886 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/79/clattering-augur) · oracle_id `d88f249f-5bf1-448a-91d1-f81538dfd475` · printing: MH2 #79 (2021-06-18) · [rulings](https://api.scryfall.com/cards/a22dd28d-eb65-410a-af17-51b5064c6033/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Clattering Skeletons
@@ -648,6 +676,7 @@
 - **Oracle text:**
   > Whenever you attack, target attacking Vampire that isn't a Demon becomes a Demon in addition to its other types. It gains "When this creature dies, draw a card and create a tapped 4/3 white and black Vampire Demon creature token with flying."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3551 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/2/clavile%C3%B1o-first-of-the-blessed) · oracle_id `2b62a716-7831-4c76-8f2d-b99b04e33350` · printing: LCC #2 (2023-11-17) · [rulings](https://api.scryfall.com/cards/9f55b648-b1ec-407a-a0c7-7647755793d1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Clawing Torment
@@ -662,6 +691,7 @@
   > *A kami's anger never fades, never sleeps, never loosens its grasp.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8728 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/91/clawing-torment) · oracle_id `0ac5c149-f6af-46b6-974e-14689e9a583d` · printing: NEO #91 (2022-02-18) · [rulings](https://api.scryfall.com/cards/621fce96-5933-4e2b-98ec-2589940e24cb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Claws of Gix
@@ -673,6 +703,7 @@
 - **Flavor text** (TSB printing):
   > *When the Brotherhood of Gix dug out the cave of Koilos they found their master's severed hand. They enshrined it, hoping that one day it would point the way to Phyrexia.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7027 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsb/107/claws-of-gix) · oracle_id `c4d384d7-f294-4b2d-9971-a4689c150255` · printing: TSB #107 (2006-10-06) · [rulings](https://api.scryfall.com/cards/d02b645e-ba2c-44a0-889e-c1b46d2cd925/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Claws of Valakut
@@ -859,6 +890,7 @@
 - **Flavor text** (MSC printing):
   > *"I'm still Frankie Raye. Just a newer, better Frankie Raye. And I'm free!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1270 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/124/cleansing-nova) · oracle_id `aff34f28-f707-4458-8af3-1bd5b13a6b10` · printing: MSC #124 (2026-06-26) · [rulings](https://api.scryfall.com/cards/670e4457-927e-42ed-a36f-28b60c2f7566/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cleansing Ray
@@ -896,7 +928,9 @@
 - **Flavor text** (ZNR printing):
   > *Every rebirth looks like a death.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7205 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/137/cleansing-wildfire) · oracle_id `993b92f4-4160-4171-9e67-90dc935030fe` · printing: ZNR #137 (2020-09-25) · [rulings](https://api.scryfall.com/cards/492d77e5-acc6-41b8-8930-f39d69234919/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-09-25* — If the target land is an illegal target by the time Cleansing Wildfire tries to resolve, the spell doesn’t resolve. No player searches for a basic land card and you don’t draw a card. If the target is legal but not destroyed (most likely because it has indestructible), its controller does search for a basic land card and you do draw a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/137/cleansing-wildfire) · oracle_id `993b92f4-4160-4171-9e67-90dc935030fe` · printing: ZNR #137 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cleanup Crew
 
@@ -978,7 +1012,10 @@
   > *"The best way to keep a secret is to forget it."*
   > *—Lazav*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7214 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rna/34/clear-the-mind) · oracle_id `141c33be-7a25-4981-b62c-efee8e8ec91d` · printing: RNA #34 (2019-01-25) · [rulings](https://api.scryfall.com/cards/a7da6982-9e57-41d2-a052-f2a3bb646436/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-01-25* — Clear the Mind can target a player with no cards in their graveyard. That player shuffles their library and then you draw a card.
+  - *2019-01-25* — If you choose yourself as the target for Clear the Mind, Clear the Mind will end up as the only card in your graveyard after it’s done resolving.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rna/34/clear-the-mind) · oracle_id `141c33be-7a25-4981-b62c-efee8e8ec91d` · printing: RNA #34 (2019-01-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Clear, the Mind
 
@@ -1070,7 +1107,10 @@
 - **Flavor text** (MIC printing):
   > *Furious and unable to separate, the bitter rivals consoled themselves by splitting everything else they saw in half.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4650 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mic/11/cleaver-skaab) · oracle_id `9fa66e03-7b20-43f6-8c53-1ce18169c382` · printing: MIC #11 (2021-09-24) · [rulings](https://api.scryfall.com/cards/30498d6c-29e2-4d05-a5bc-e2e623c5704d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-09-24* — If the sacrificed Zombie was itself copying a permanent, the tokens will be copies of whatever it was copying, as modified by that copy effect. The tokens won't copy any other effects that were applying to the sacrificed creature, including effects that changed its types, color, power, or toughness while it was on the battlefield.
+  - *2021-09-24* — You can choose to sacrifice a Zombie token to activate the ability. You'll create two tokens that are copies of that token as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mic/11/cleaver-skaab) · oracle_id `9fa66e03-7b20-43f6-8c53-1ce18169c382` · printing: MIC #11 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cleaving Reaper
 
@@ -1123,6 +1163,7 @@
   > Frogs you control have "{T}: Add {G} or {U}. Spend this mana only to cast a creature spell."
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6736 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/209/clement-the-worrywort) · oracle_id `57ce5ebd-cfac-4bb9-b010-04d0c285be27` · printing: BLB #209 (2024-08-02) · [rulings](https://api.scryfall.com/cards/7028130c-c91d-4bf7-b0b0-450f71107d7a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cleon, Merry Champion
@@ -1151,7 +1192,9 @@
   > *"Know thy enemies as thy kin."*
 - **Keywords:** Allies, Betrayal
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9597 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/acr/52/cleopatra-exiled-pharaoh) · oracle_id `e7a80464-1522-48d7-bf82-f9894f5c3ae0` · printing: ACR #52 (2024-07-05) · [rulings](https://api.scryfall.com/cards/769bbbb3-37e9-47ec-9cee-db63672275e6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-07-05* — You lose only 2 life when Cleopatra’s last ability resolves regardless of how many counters the legendary creature that died had on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/acr/52/cleopatra-exiled-pharaoh) · oracle_id `e7a80464-1522-48d7-bf82-f9894f5c3ae0` · printing: ACR #52 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Clergy en-Vec
 
@@ -1190,7 +1233,20 @@
   > {4}{W}: Level 3
   > When this Class becomes level 3, return target creature card from your graveyard to the battlefield. You gain life equal to that creature's toughness.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1416 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/6/cleric-class) · oracle_id `f0ead7f5-5c82-40fd-8e89-3e3c5d31fbad` · printing: AFR #6 (2021-07-23) · [rulings](https://api.scryfall.com/cards/47ce8b7e-d8e1-489a-a69e-99089eeb8739/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2021-07-23* — An ability that triggers “whenever you gain life” triggers just once for each life gain event, no matter how much life you gain.
+  - *2021-07-23* — Each Class has five abilities. The three in the major sections of its text box are class abilities. Class abilities can be static, activated, or triggered abilities. The other two are level abilities, one activated ability to advance the Class to level 2 and another to advance the Class to level 3.
+  - *2021-07-23* — Each Class starts with only the first of three class abilities. As the first level ability resolves, the Class becomes level 2 and gains the second class ability. As the second level ability resolves, the Class becomes level 3 and gains the third class ability.
+  - *2021-07-23* — Each creature with lifelink dealing combat damage causes a separate life gain event. For example, if two creatures you control with lifelink deal combat damage at the same time, you will gain 2 additional life from Cleric Class's first ability and its level 2 ability will trigger twice. However, if a single creature you control with lifelink deals combat damage to multiple creatures, players, and/or planeswalkers at the same time (perhaps because it has trample or was blocked by more than one creature), you will only gain 1 additional life and the ability will trigger only once.
+  - *2021-07-23* — Gaining a level is a normal activated ability. It uses the stack and can be responded to.
+  - *2021-07-23* — Gaining a level won't remove abilities that a Class had at a previous level.
+  - *2021-07-23* — If you gain an amount of life “for each” of something, that life is gained as one event and the ability will trigger only once.
+  - *2021-07-23* — If you gain life at the same time a creature is dealt lethal damage, it dies before Cleric Class's level 2 ability can put a +1/+1 counter on it.
+  - *2021-07-23* — Some Class cards have an effect that increases when more are under your control. For example, if you have multiple Barbarian Class cards, you roll that many additional dice and ignore that many of the lowest rolls.
+  - *2021-07-23* — When Cleric Class's level 3 ability resolves, you gain life equal to the creature's toughness as it exists on battlefield, which may be different than its toughness in the graveyard.
+  - *2021-07-23* — You can multiclass or even control multiple Class enchantments of the same class. Each Class permanent tracks its own level separately.
+  - *2021-07-23* — You can't activate the first level ability of a Class unless that Class is level 1. Similarly, you can't activate the second level ability of a Class unless that Class is level 2.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/6/cleric-class) · oracle_id `f0ead7f5-5c82-40fd-8e89-3e3c5d31fbad` · printing: AFR #6 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cleric of Chill Depths
 
@@ -1275,7 +1331,9 @@
 - **Flavor text** (AFR printing):
   > *"I'm always happy to lend a hand!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9696 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/51/clever-conjurer) · oracle_id `628e59e2-3665-40dd-ba4f-11ab5824de22` · printing: AFR #51 (2021-07-23) · [rulings](https://api.scryfall.com/cards/b9784c97-3839-4a4b-ae8a-965844dbeb70/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-07-23* — If Clever Conjurer somehow loses the name Clever Conjurer, perhaps because you mutated another creature on top of it or copied it with Sakashima the Impostor, it can target itself with its Mage Hand ability. How clever!
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/51/clever-conjurer) · oracle_id `628e59e2-3665-40dd-ba4f-11ab5824de22` · printing: AFR #51 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Clever Impersonator
 
@@ -1288,7 +1346,18 @@
   > *"Our own selves are the greatest obstacles to enlightenment."*
   > *—Narset, khan of the Jeskai*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1230 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c19/82/clever-impersonator) · oracle_id `d4ec0df9-a4a3-48cf-a0aa-b1aea5c49142` · printing: C19 #82 (2019-08-23) · [rulings](https://api.scryfall.com/cards/c0516453-3e6a-4b7f-8df6-72a6e207169a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2014-09-20* — Any enters-the-battlefield abilities of the chosen permanent will trigger when Clever Impersonator enters the battlefield. Any "as [this permanent] enters the battlefield" or "[this permanent] enters the battlefield with" abilities of the chosen permanent will also work.
+  - *2014-09-20* — Clever Impersonator copies exactly what is printed on the chosen permanent (unless that permanent is copying something else or is a token; see below). It doesn't copy whether that permanent is tapped or untapped, whether that permanent has any counters on it or any Auras and/or Equipment attached to it, and it doesn't copy any non-copy effects that have changed that permanent's power, toughness, types, color, abilities, or so on.
+  - *2014-09-20* — If Clever Impersonator enters the battlefield as a copy of a planeswalker, it will enter the battlefield with a number of loyalty counters on it equal to the loyalty printed in the lower right corner of the planeswalker card. It won't copy the number of loyalty counters on the original planeswalker.
+  - *2014-09-20* — If Clever Impersonator enters the battlefield at the same time as another permanent, it can't become a copy of that permanent. You may choose only a nonland permanent that's already on the battlefield.
+  - *2014-09-20* — If the chosen permanent has {X} in its mana cost, X is considered to be 0.
+  - *2014-09-20* — If the chosen permanent is a copy of something else (for example, if the chosen permanent is another Clever Impersonator), then your Clever Impersonator enters the battlefield as whatever the chosen permanent copied.
+  - *2014-09-20* — If the chosen permanent is a token, Clever Impersonator copies the original characteristics of that token as defined by the effect that put that token onto the battlefield. Clever Impersonator is not a token.
+  - *2014-09-20* — Remember that if you control more than one legendary permanent with the same name, you'll choose one to remain on the battlefield and put the rest into their owner's graveyard.
+  - *2014-09-20* — You can choose not to copy anything. In that case, Clever Impersonator enters the battlefield as a 0/0 creature, and it's put into the graveyard immediately (unless something is raising its toughness above 0).
+  - *2014-09-20* — You choose which nonland permanent Clever Impersonator will copy, if any, as it enters the battlefield. This doesn't target that nonland permanent.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c19/82/clever-impersonator) · oracle_id `d4ec0df9-a4a3-48cf-a0aa-b1aea5c49142` · printing: C19 #82 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Clever Lumimancer
 
@@ -1328,6 +1397,7 @@
 - **Flavor text** (CLB printing):
   > *A partition between the hopeless living and the restless dead.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3079 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/350/cliffgate) · oracle_id `1999b5ac-21fb-4d99-ad72-58bf507f9a59` · printing: CLB #350 (2022-06-10) · [rulings](https://api.scryfall.com/cards/557470dc-c594-4b26-81b9-356bedb0c215/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cliffhaven Kitesail
@@ -1342,7 +1412,10 @@
   > *Made from canvas, wood, and hope.*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6200 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/243/cliffhaven-kitesail) · oracle_id `68fb8f21-4403-4829-8826-f2418664197e` · printing: ZNR #243 (2020-09-25) · [rulings](https://api.scryfall.com/cards/eebf8f67-49d0-42de-a5cc-ad13d19d2c55/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-09-25* — Attaching an Equipment with its enters-the-battlefield triggered ability isn't the same as using its equip ability. You don't pay mana for the attachment, and if the Equipment enters at a time you couldn't cast a sorcery, you can still attach it to a creature you control.
+  - *2020-09-25* — If the target creature becomes an illegal target, the Equipment remains on the battlefield unattached.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/243/cliffhaven-kitesail) · oracle_id `68fb8f21-4403-4829-8826-f2418664197e` · printing: ZNR #243 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cliffhaven Sell-Sword
 
@@ -1368,7 +1441,11 @@
   > *"My people are no longer slaves to the Eldrazi, beholden to the past. We will determine our own future."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4977 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/153/cliffhaven-vampire) · oracle_id `1915a311-209b-4628-8122-af3055a78fed` · printing: OGW #153 (2016-01-22) · [rulings](https://api.scryfall.com/cards/5544247d-1f8f-443f-a4c4-d8461db28a79/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2016-01-22* — A creature with lifelink dealing combat damage causes a single life-gaining event. For example, if a single creature with lifelink deals combat damage to multiple creatures, players, and/or planeswalkers at the same time (perhaps because it has trample or was blocked by more than one creature), Cliffhaven Vampire’s triggered ability will trigger only once. However, if two creatures you control with lifelink deal combat damage at the same time, the ability will trigger twice.
+  - *2016-01-22* — In a Two-Headed Giant game, life gained by your teammate won’t cause the ability to trigger, even though it causes your team’s life total to increase.
+  - *2016-01-22* — The ability triggers just once for each life-gaining event, no matter how much life is gained.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/153/cliffhaven-vampire) · oracle_id `1915a311-209b-4628-8122-af3055a78fed` · printing: OGW #153 (2016-01-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cliffrunner Behemoth
 
@@ -1432,7 +1509,9 @@
   > When this creature enters, reveal cards from the top of your library until you reveal a land card. Put that card onto the battlefield tapped and the rest on the bottom of your library in a random order.
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2758 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/168/clifftop-lookout) · oracle_id `446db5a4-21b0-44c1-b12b-d365313dd67a` · printing: BLB #168 (2024-08-02) · [rulings](https://api.scryfall.com/cards/662d3bcc-65f3-4c69-8ea1-446870a1193d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-07-26* — If you get through your whole library without revealing a land card, you’ll just end up revealing and randomizing your library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/168/clifftop-lookout) · oracle_id `446db5a4-21b0-44c1-b12b-d365313dd67a` · printing: BLB #168 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Clifftop Retreat
 
@@ -1494,7 +1573,18 @@
   > *In bleak Tizerus, all hope crumbles in your grasp.*
 - **Keywords:** Escape
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8089 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/87/cling-to-dust) · oracle_id `9c44e556-4c7a-48bf-a108-c584f69c2cfa` · printing: THB #87 (2020-01-24) · [rulings](https://api.scryfall.com/cards/52c2de5f-e486-4cfe-9fb6-be0078ce5f93/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2020-01-24* — After an escaped spell resolves, it returns to its owner’s graveyard if it’s not a permanent spell. If it is a permanent spell, it enters the battlefield and will return to its owner’s graveyard if it dies later. Perhaps it will escape again—good underworld security is so hard to come by these days.
+  - *2020-01-24* — Cling to Dust can target one of the five cards you’ll exile to pay its escape cost. In this case, the spell won’t resolve.
+  - *2020-01-24* — Escape’s permission doesn’t change when you may cast the spell from your graveyard.
+  - *2020-01-24* — If a card has multiple abilities giving you permission to cast it, such as two escape abilities or an escape ability and a flashback ability, you choose which one to apply. The others have no effect.
+  - *2020-01-24* — If a card with escape is put into your graveyard during your turn, you’ll be able to cast it right away if it’s legal to do so, before an opponent can take any actions.
+  - *2020-01-24* — If the exiled card is a creature card that’s also another card type (such as an enchantment creature), you gain 3 life. You don’t also draw a card.
+  - *2020-01-24* — If the target card is an illegal target by the time Cling to Dust tries to resolve, the spell won’t resolve. You won’t gain 3 life or draw a card.
+  - *2020-01-24* — If you cast a spell with its escape permission, you can’t choose to apply any other alternative costs or to cast it without paying its mana cost. If it has any additional costs, you must pay those.
+  - *2020-01-24* — Once you begin casting a spell with escape, it immediately moves to the stack. Players can’t take any other actions until you’re done casting the spell.
+  - *2020-01-24* — To determine the total cost of a spell, start with the mana cost or alternative cost you’re paying (such as an escape cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was and no matter whether an alternative cost was paid.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/87/cling-to-dust) · oracle_id `9c44e556-4c7a-48bf-a108-c584f69c2cfa` · printing: THB #87 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Clinquant Skymage
 
@@ -1508,6 +1598,7 @@
   > *Despite their advanced intellect, some aven never quite shake their instinctive need to collect shiny baubles.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5775 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/33/clinquant-skymage) · oracle_id `d9a3207a-a330-4517-967e-f37c9a9f1355` · printing: FDN #33 (2024-11-15) · [rulings](https://api.scryfall.com/cards/36012810-0e83-4640-8ba7-7262229f1b84/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Clip Wings
@@ -1537,7 +1628,29 @@
   > *"Let the flames burn within you! No... let them burn without!"*
 - **Keywords:** Transform, Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3319 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/133/clive-ifrits-dominant-ifrit-warden-of-inferno) · oracle_id `ceba3d03-be5a-4dd7-b829-7db216a0f44e` · printing: FIN #133 (2025-06-13) · [rulings](https://api.scryfall.com/cards/9a069e96-2786-493d-aca8-f70611435dbe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (21):
+  - *2025-06-06* — "Hideaway N" means "When this permanent enters, look at the top N cards of your library. Exile one of them face down and put the rest on the bottom of your library in a random order. The exiled card gains ‘The player who controls the permanent that exiled this card may look at this card in the exile zone.'"
+  - *2025-06-06* — A nonmodal double-faced card enters with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed or allows you to cast it transformed, in which case it enters with its back face up.
+  - *2025-06-06* — A token that is created as a copy of a double-faced permanent or a double-faced card in another zone is a double-faced token. It will have both the front face and back face of whatever object it's copying. If it's copying a double-faced permanent whose back face is up, the token will enter with its back face up. It can transform if instructed to do so.
+  - *2025-06-06* — Any player who has controlled a permanent with a hideaway ability since a card was exiled with it may look at that card.
+  - *2025-06-06* — Clive's Hideaway's last ability only cares if you control four or more legendary creatures at the time it resolves. You don't even have to control four or more legendary creatures when you activate it.
+  - *2025-06-06* — Colorless and generic mana symbols ({C}, {0}, {1}, {2}, {X}, and so on) in mana costs of permanents you control don't count toward your devotion to any color.
+  - *2025-06-06* — Count the number of red mana symbols among the mana costs of permanents you control as Clive's triggered ability resolves to determine your devotion to red. If Clive is still on the battlefield at that time, it will be included in that count.
+  - *2025-06-06* — Each face of a nonmodal double-faced card has its own set of characteristics: name, types, subtypes, abilities, and so on. While a nonmodal double-faced permanent is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored.
+  - *2025-06-06* — Each nonmodal double-faced card in this release is cast face up. In every zone other than the battlefield, consider only the characteristics of its front face. If it is on the battlefield, consider only the characteristics of the face that's up; the other face's characteristics are ignored.
+  - *2025-06-06* — Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s).
+  - *2025-06-06* — If a spell has {X} in its mana cost, you must choose 0 as the value of X when playing it without paying its mana cost.
+  - *2025-06-06* — If the exiled card is a land card, you may play it only if you have an available land play remaining this turn.
+  - *2025-06-06* — If you are instructed to put a card that isn't a double-faced card onto the battlefield transformed, it will not enter at all. In that case, it stays in the zone it was previously in. For example, if a single-faced card is a copy of Crystal Fragments, it will be exiled during the resolution of its second ability and remain in exile.
+  - *2025-06-06* — If you cast a spell "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the spell has any mandatory additional costs, those must be paid to cast the spell.
+  - *2025-06-06* — If you put an Aura on an opponent's permanent, you still control the Aura, and mana symbols in its mana cost count towards your devotion. Similarly, if you make an opponent the protector of a Siege you control, mana symbols in that battle's mana cost count toward your devotion.
+  - *2025-06-06* — In the Commander variant, a double-faced card's color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered. For example, Cecil, Dark Knight's color identity is black and white, since its front face is black and its back face has a white color indicator.
+  - *2025-06-06* — Mana symbols in the text boxes of permanents you control don't count toward your devotion to any color.
+  - *2025-06-06* — The back face of a nonmodal double-faced card usually has a color indicator that defines its color.
+  - *2025-06-06* — The mana value of a nonmodal double-faced card is the mana value of its front face, no matter which face is up.
+  - *2025-06-06* — You may choose to discard your hand even if your hand contains zero cards.
+  - *2025-06-06* — You play the card while Clive's Hideaway's last ability is resolving and still on the stack. You can't wait to play it later in the turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/133/clive-ifrits-dominant-ifrit-warden-of-inferno) · oracle_id `ceba3d03-be5a-4dd7-b829-7db216a0f44e` · printing: FIN #133 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Clive's Hideaway
 
@@ -1549,7 +1662,9 @@
   > {2}, {T}: You may play the exiled card without paying its mana cost if you control four or more legendary creatures.
 - **Keywords:** Hideaway
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4962 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/275/clives-hideaway) · oracle_id `283f743f-6e79-49de-b7ed-08e6ffb64cc6` · printing: FIN #275 (2025-06-13) · [rulings](https://api.scryfall.com/cards/5e43c36f-b8a2-4b2b-b2ea-57e6fa97521c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-06-06* — Town is a land type with no special meaning. It doesn't grant the land any intrinsic abilities. Other cards may care about which lands are Towns.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/275/clives-hideaway) · oracle_id `283f743f-6e79-49de-b7ed-08e6ffb64cc6` · printing: FIN #275 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cloak and Dagger
 
@@ -1664,6 +1779,7 @@
   > *—Rivalen Blackhand, proprietor of Sorcerous Sundries*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6174 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/307/cloak-of-the-bat) · oracle_id `ecd28e2a-e172-4f4c-8416-b9a0d97ee497` · printing: CLB #307 (2022-06-10) · [rulings](https://api.scryfall.com/cards/2f508a65-ff32-480a-b9c6-075074d0c3c3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cloak of the Philosopher
@@ -1687,7 +1803,20 @@
 - **Flavor text** (CLB printing):
   > *You've always preferred the company of animals to people.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8572 · Game Changer: no · Can be commander: Only alongside a commander with *Choose a Background*
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/221/cloakwood-hermit) · oracle_id `f898bf43-6a9c-46eb-b805-63cb12bab273` · printing: CLB #221 (2022-06-10) · [rulings](https://api.scryfall.com/cards/4bd8689d-a0c1-4041-bead-7b512fe25663/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2022-06-10* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2022-06-10* — Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+  - *2022-06-10* — Choose a Background is a variant of the partner ability. You may have two commanders if one of them is a legendary creature with the choose a background ability and the other is a legendary Background enchantment. Backgrounds and cards with choose a Background do not interact with cards which have any other partner ability.
+  - *2022-06-10* — If a card refers to a commander creature you own, a Background won't usually be counted or included for that effect. If another spell or ability causes your Background to become a creature, however, it will be included. Any effect that refers to your commander or a commander you own or control without specifying creature will apply to a Background that is your commander, as appropriate.
+  - *2022-06-10* — If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+  - *2022-06-10* — If you control a Background that grants an ability to commander creatures you own, and you own more than one commander creature, each of them will have that ability.
+  - *2022-06-10* — If your Commander deck has two commanders, you can include only cards whose own color identities are also found in your commanders’ combined color identities.
+  - *2022-06-10* — If your commander loses the choose a Background ability or stops being a Background during the game, as appropriate, it is still your commander.
+  - *2022-06-10* — Notably, this means that if your commander creature dies and you choose to return it to the command zone from the graveyard, then cast it again the same turn, the ability granted to it by Cloakwood Hermit will trigger at the beginning of that turn's end step.
+  - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won’t have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won’t usually be a creature anyway).
+  - *2022-06-10* — The ability Cloakwood Hermit grants triggers if you control a creature with that ability as the end step begins and a creature card was put into your graveyard from anywhere this turn. This is true even if no creatures had this ability at the time the creature card went to the graveyard or the creature card is no longer in your graveyard as your end step begins.
+  - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/221/cloakwood-hermit) · oracle_id `f898bf43-6a9c-46eb-b805-63cb12bab273` · printing: CLB #221 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cloakwood Swarmkeeper
 
@@ -1733,6 +1862,7 @@
 - **Flavor text** (M13 printing):
   > *Most clocks measure time, but a few measure everything.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1708 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m13/202/clock-of-omens) · oracle_id `5d0f4665-aa10-4251-b590-129b59274fb3` · printing: M13 #202 (2012-07-13) · [rulings](https://api.scryfall.com/cards/5b087992-9c30-4434-acb3-a12ee6f207b3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Clockspinning
@@ -1744,7 +1874,23 @@
   > Choose a counter on target permanent or suspended card. Remove that counter from that permanent or card or put another of those counters on it.
 - **Keywords:** Buyback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4317 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsp/53/clockspinning) · oracle_id `3e1b32a9-27a4-4550-a644-ebe254e1f512` · printing: TSP #53 (2006-10-06) · [rulings](https://api.scryfall.com/cards/1323d548-e2fe-47c5-8df3-f181aed537c5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2006-09-25* — Clockspinning can affect any kind of counter, not just a time counter. The type of counter isn't chosen until resolution. Whether to add or remove a counter isn't chosen until resolution.
+  - *2006-09-25* — If the target is a permanent and it has no counter on it when Clockspinning resolves, nothing happens.
+  - *2024-02-02* — Cards exiled with suspend are exiled face up.
+  - *2024-02-02* — Due to a recent rules change to suspend, you are no longer required to cast the suspended card as the second triggered ability of suspend resolves. Instead, as the second triggered ability resolves, you may cast the card. Timing permissions based on the card's type are ignored. If you don't cast the card, it remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to.
+  - *2024-02-02* — If an effect refers to a "suspended card," that means a card that (1) has suspend, (2) is in exile, and (3) has one or more time counters on it.
+  - *2024-02-02* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-02-02* — If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again at the beginning of the card's owner's next upkeep.
+  - *2024-02-02* — If the second triggered ability is countered, the card can't be cast. It remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it's exiled.
+  - *2024-02-02* — If you cast a card "without paying its mana cost," such as with suspend, you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those if you want to cast the card.
+  - *2024-02-02* — Suspend is a keyword that represents three abilities. The first is a static ability that allows you to exile the card from your hand with the specified number of time counters (the number before the dash) on it by paying its suspend cost (listed after the dash). The second is a triggered ability that removes a time counter from the suspended card at the beginning of each of your upkeeps. The third is a triggered ability that gives you the option to cast the card when the last time counter is removed.
+  - *2024-02-02* — The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.
+  - *2024-02-02* — When the last time counter is removed, the second triggered ability of suspend (the one that lets you cast the card) triggers. It doesn't matter why the last time counter was removed or what effect removed it.
+  - *2024-02-02* — You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effects that modify when you could cast it (such as flash) and any other effects that stop you from casting it (such as from Meddling Mage's ability) to determine if and when you can do this. Whether you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or that requires a target even if no legal targets are available at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsp/53/clockspinning) · oracle_id `3e1b32a9-27a4-4550-a644-ebe254e1f512` · printing: TSP #53 (2006-10-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Clockwork Avian
 
@@ -1886,7 +2032,9 @@
   > *Dance to its beat, or it will dance on your grave.*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8788 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/130/clockwork-percussionist) · oracle_id `3b74c8ac-9c19-45b0-935f-8630b8da4543` · printing: DSK #130 (2024-09-27) · [rulings](https://api.scryfall.com/cards/10986e5a-9fc6-41e2-8352-289328245171/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-09-20* — You pay all costs and follow all timing rules for cards played this way. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/130/clockwork-percussionist) · oracle_id `3b74c8ac-9c19-45b0-935f-8630b8da4543` · printing: DSK #130 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Clockwork Servant
 
@@ -1996,7 +2144,16 @@
 - **Flavor text** (M14 printing):
   > *He knows your strengths, your weaknesses, and the shape of that unfortunate birthmark on your backside.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3705 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m14/47/clone) · oracle_id `42226b87-0746-4ebf-9fd0-108d508462af` · printing: M14 #47 (2013-07-19) · [rulings](https://api.scryfall.com/cards/5e648262-3b9b-4c58-8e29-48356e3cb064/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2025-10-02* — Any enters abilities of the copied creature will trigger when Clone enters. Any "as [this creature] enters" or "[this creature] enters with" abilities of the chosen creature will also work.
+  - *2025-10-02* — Clone copies exactly what was printed on the original creature and nothing else (unless that creature is copying something else or is a token; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
+  - *2025-10-02* — Clone's ability doesn't target the chosen creature.
+  - *2025-10-02* — If Clone somehow enters at the same time as another creature, Clone can't become a copy of that creature. You may choose only a creature that's already on the battlefield.
+  - *2025-10-02* — If the copied creature has {X} in its mana cost, X is considered to be 0.
+  - *2025-10-02* — If the copied creature is a token, Clone copies the original characteristics of that token as stated by the effect that created the token.
+  - *2025-10-02* — If the copied creature is copying something else (for example, if the copied creature is an Evil Twin), then Clone enters as whatever that creature copied.
+  - *2025-10-02* — You can choose not to copy anything. In that case, Clone enters as a 0/0 Shapeshifter creature, and is probably put into the graveyard immediately.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m14/47/clone) · oracle_id `42226b87-0746-4ebf-9fd0-108d508462af` · printing: M14 #47 (2013-07-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Clone Legion
 
@@ -2007,7 +2164,16 @@
 - **Flavor text** (NCC printing):
   > *Their lust for battle was so great that they didn't care their enemies wore their own faces.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3649 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/215/clone-legion) · oracle_id `690bd111-5b32-4156-b650-9afad3d6ef3d` · printing: NCC #215 (2022-04-29) · [rulings](https://api.scryfall.com/cards/f5ebe939-fef3-4085-808c-41ff97e83a7e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2015-02-25* — A token that enters the battlefield as a copy of a face-down creature is a face-up colorless 2/2 creature with no name, abilities, or creature types.
+  - *2015-02-25* — Any enters-the-battlefield abilities of the copied creature will trigger when the token enters the battlefield. Any "as [this permanent] enters the battlefield" or "[this permanent] enters the battlefield with" abilities of the copied creature will also work.
+  - *2015-02-25* — Each token copies exactly what was printed on the original creature and nothing else (unless that permanent is copying something else or is a token; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+  - *2015-02-25* — If the copied creature has {X} in its mana cost, X is considered to be zero.
+  - *2015-02-25* — If the copied creature is a token, the token created by Clone Legion copies the original characteristics of that token as stated by the effect that put the token onto the battlefield.
+  - *2015-02-25* — If the copied creature is copying something else, then the token enters the battlefield as whatever that creature copied.
+  - *2015-02-25* — Remember that if you control more than one legendary permanent with the same name, you'll choose one to remain on the battlefield and put the rest into their owners' graveyards.
+  - *2015-02-25* — The token creatures all enter the battlefield at the same time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/215/clone-legion) · oracle_id `690bd111-5b32-4156-b650-9afad3d6ef3d` · printing: NCC #215 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Clone Shell
 
@@ -2082,6 +2248,7 @@
   > *All the aether charts in the world can't compete with the trained eye of a talented scout.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3604 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/653/cloudblazer) · oracle_id `f84d1291-1f82-4b67-a26e-b79624b4ce1d` · printing: FDN #653 (2024-11-15) · [rulings](https://api.scryfall.com/cards/a9c966ab-0d92-4fa7-8a91-1f77089d8fc7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cloudbound Moogle
@@ -2224,7 +2391,9 @@
   > Whenever Cloud attacks, draw a card for each equipped attacking creature you control. Then if Cloud has power 7 or greater, create two Treasure tokens.
 - **Keywords:** Treasure, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4404 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/2/cloud-ex-soldier) · oracle_id `653f0452-5802-4639-86c2-1500c3964fcb` · printing: FIC #2 (2025-06-13) · [rulings](https://api.scryfall.com/cards/07b4e4f8-6a31-4533-be51-668ce3ddc84f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-06-06* — You can't use Cloud's second ability to try to attach an Equipment to Cloud if that Equipment can't legally be attached to Cloud.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/2/cloud-ex-soldier) · oracle_id `653f0452-5802-4639-86c2-1500c3964fcb` · printing: FIC #2 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cloudfin Raptor
 
@@ -2324,6 +2493,7 @@
   > *"I can see which way the wind is blowing."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8719 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/82/cloudkin-seer) · oracle_id `09bd4e1c-9861-481f-80dc-4de955c8d3af` · printing: CLU #82 (2024-02-23) · [rulings](https://api.scryfall.com/cards/25e97ad6-8b49-4fb6-9c07-e8d91bbaed5a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cloud Manta
@@ -2348,7 +2518,12 @@
   > When Cloud enters, search your library for an Equipment card, reveal it, put it into your hand, then shuffle.
   > As long as Cloud is equipped, if a triggered ability of Cloud or an Equipment attached to it triggers, that ability triggers an additional time.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1561 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/10/cloud-midgar-mercenary) · oracle_id `33d2584b-bf29-4c22-bd45-14ba2fb98c0e` · printing: FIN #10 (2025-06-13) · [rulings](https://api.scryfall.com/cards/2cf7e8a3-fad7-413d-b17c-7519a9cf5fb5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-06-06* — Cloud's last ability doesn't copy the triggered ability; it just causes the ability to trigger an additional time. Any choices made as you put the ability onto the stack, such as modes and targets, are made separately for each instance of the ability. Any choices made on resolution, such as whether to put counters on a permanent, are also made individually.
+  - *2025-06-06* — If a triggered ability is linked to a second ability, additional instances of that triggered ability are also linked to that second ability. If the second ability refers to "the exiled card," it refers to all cards exiled by instances of the triggered ability.
+  - *2025-06-06* — In some cases involving linked abilities, an ability requires information about "the exiled card." When this happens, the ability gets multiple answers. If these answers are being used to determine the value of a variable, the sum is used. For example, if Strata Scythe's imprint ability ("When this Equipment enters, search your library for a land card, exile it, then shuffle.") triggers twice (probably because it somehow entered attached to Cloud), up to two total land cards can be exiled. Strata Scythe's last ability will give the equipped creature +1/+1 for each land on the battlefield with the same name as either of the exiled cards.
+  - *2025-06-06* — Triggered abilities use the word "when," "whenever," or "at." They're often written as "[Trigger condition], [effect]." Some keyword abilities are triggered abilities and will have "when," "whenever," or "at" in their reminder text.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/10/cloud-midgar-mercenary) · oracle_id `33d2584b-bf29-4c22-bd45-14ba2fb98c0e` · printing: FIN #10 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cloud of Darkness
 
@@ -2375,7 +2550,9 @@
   > Cycling {2} ({2}, Discard this card: Draw a card.)
 - **Keywords:** Flying, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1380 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/219/cloud-of-faeries) · oracle_id `adc1f3b4-cce7-42c9-a208-dbab1d1924f5` · printing: MOC #219 (2023-04-21) · [rulings](https://api.scryfall.com/cards/03aff125-8962-4a0a-a2b4-e5d693b75400/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-12-08* — You choose which lands to untap as the triggered ability resolves. They aren't targeted, and they don't have to be lands that you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/219/cloud-of-faeries) · oracle_id `adc1f3b4-cce7-42c9-a208-dbab1d1924f5` · printing: MOC #219 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cloudpiercer
 
@@ -2413,7 +2590,10 @@
 - **Flavor text** (FIN printing):
   > *"It's not over yet... this isn't the end!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7016 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/552/cloud-planets-champion) · oracle_id `8512bd08-ecba-4e0e-b65c-8209764a65e5` · printing: FIN #552 (2025-06-13) · [rulings](https://api.scryfall.com/cards/a6d58067-337d-43dc-b4a3-c6acc701d450/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-06-06* — Cloud's last ability reduces only the amount of generic mana you pay for equip abilities that target Cloud. For example, it will reduce {2} to {0}, but it will have no effect on an equip cost of {G}.
+  - *2025-06-06* — Some Equipment creature cards in other sets have reconfigure, a different ability that attaches them to a creature. Reconfigure is not an equip ability, and reconfigure costs are not reduced by Cloud's last ability. Equip variants or equip abilities with restrictions, like the "equip legendary creature" ability of Wrecking Ball Arm, are still equip abilities, and their costs will be reduced by Cloud's last ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/552/cloud-planets-champion) · oracle_id `8512bd08-ecba-4e0e-b65c-8209764a65e5` · printing: FIN #552 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cloudpost
 
@@ -2426,6 +2606,7 @@
   > *"He watches from above. He watches from below. He watches from within."*
   > *—Inscription on Tel-Jilad, the Tree of Tales*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5829 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mrd/280/cloudpost) · oracle_id `f705c0eb-9c6c-4315-a860-208ed0c5d93e` · printing: MRD #280 (2003-10-02) · [rulings](https://api.scryfall.com/cards/2f28ecdc-a4f0-4327-a78c-340be41555ee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cloudreach Cavalry
@@ -2505,7 +2686,9 @@
 - **Flavor text** (CMM printing):
   > *Forked tails rustled. Talons clicked. A lone sliver streaked overhead like jagged lightning, and the hive thundered.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3451 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/919/cloudshredder-sliver) · oracle_id `f943c005-9b77-411a-b522-1182e22724e1` · printing: CMM #919 (2023-08-04) · [rulings](https://api.scryfall.com/cards/9f523765-7704-4faf-a72b-8a2c414bb179/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-06-14* — If Cloudshredder Sliver leaves the battlefield during combat, any attacking Slivers that came under your control this turn will continue to attack, even though they will no longer have haste.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/919/cloudshredder-sliver) · oracle_id `f943c005-9b77-411a-b522-1182e22724e1` · printing: CMM #919 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cloudskate
 
@@ -2530,7 +2713,14 @@
   > • Omnislash — {3}{W} — Destroy all tapped creatures.
 - **Keywords:** Omnislash, Blade Beam, Tiered, Cross-Slash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5146 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/14/clouds-limit-break) · oracle_id `93df61b5-6abe-4603-9a6e-cba90a834173` · printing: FIC #14 (2025-06-13) · [rulings](https://api.scryfall.com/cards/1eb10082-4f0a-41f9-9a70-0d3c7ead249f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-06-06* — If a mode requires a target, you can select that mode only if there's a legal target available. Ignore the targeting requirements for modes you don't choose.
+  - *2025-06-06* — If a spell with tiered is copied, the effect that creates the copy may allow you to choose new targets. You cannot choose a new mode.
+  - *2025-06-06* — If an effect allows you to cast a spell with tiered "without paying its mana cost," you must still choose exactly one mode and pay the associated additional cost.
+  - *2025-06-06* — The mana value of a spell with tiered is determined only by its mana cost (in the upper right corner of the card). It doesn't matter which mode you choose or which additional costs you pay, including any additional costs imposed by other effects.
+  - *2025-06-06* — You choose the mode as you cast the spell with tiered. Once the mode is chosen, it can't be changed.
+  - *2025-06-06* — You must choose exactly one of the listed modes and pay its associated additional cost in order to cast a spell with tiered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/14/clouds-limit-break) · oracle_id `93df61b5-6abe-4603-9a6e-cba90a834173` · printing: FIC #14 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cloudspire Captain
 
@@ -2609,7 +2799,22 @@
   > Reconfigure {5} ({5}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.)
 - **Keywords:** Reconfigure, Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5113 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/8/cloudsteel-kirin) · oracle_id `a34a71eb-26a4-4e37-8d3c-a0352bea491b` · printing: NEO #8 (2022-02-18) · [rulings](https://api.scryfall.com/cards/a13ddda7-da6e-415e-8886-295514f862d4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (14):
+  - *2022-02-18* — Although it causes an Equipment to become attached to a creature, reconfigure is not an “equip ability” for the purpose of cards like Fighter Class and Leonin Shikari.
+  - *2022-02-18* — An Equipment creature can never become attached to itself. If an effect tries to do this, nothing happens.
+  - *2022-02-18* — An Equipment creature with reconfigure can be attached to creatures by effects other than its reconfigure ability, such as the activated ability of Brass Squire.
+  - *2022-02-18* — An Equipment doesn't become tapped when the permanent it's attached to becomes tapped. For example, if you attack with a creature that is equipped with Acquisition Octopus, then use reconfigure to unattach Acquisition Octopus after combat, the Octopus will be untapped and could be used to block during your opponent's turn.
+  - *2022-02-18* — As soon as an Equipment creature with reconfigure stops being a creature, any Equipment and Auras with enchant creature abilities become unattached. Auras that can enchant an Equipment that isn't a creature remain attached to it.
+  - *2022-02-18* — Attaching an Equipment with reconfigure to a creature causes that Equipment to stop being a creature until it becomes unattached. It also loses any creature subtypes it had.
+  - *2022-02-18* — If a permanent with reconfigure is somehow still a creature after it becomes attached (perhaps due to an effect like that of March of the Machines), it immediately becomes unattached from the equipped creature.
+  - *2022-02-18* — If an Equipment with reconfigure somehow loses its abilities while it is attached, the effect causing it to not be a creature continues to apply until it becomes unattached.
+  - *2022-02-18* — If you control a creature equipped with Cloudsteel Kirin in a Two-Headed Giant game, your team can't lose the game and the opposing team can't win the game.
+  - *2022-02-18* — If you have 0 or less life while Cloudsteel Kirin is equipped to a creature, activating reconfigure to attach Cloudsteel Kirin to another creature you control doesn't cause you to lose the game. You would lose the game if Cloudsteel Kirin becomes unattached or becomes attached to a creature you don't control.
+  - *2022-02-18* — No game effect can cause you to lose the game or cause any opponent to win the game while you control a creature equipped with Cloudsteel Kirin. It doesn't matter whether you have 0 or less life, you're forced to draw a card while your library is empty, you have ten or more poison counters, you're at the end of your Nine Lives, your opponent is a Triskaidekaphile, or so on. You keep playing.
+  - *2022-02-18* — Other circumstances can still cause you to lose the game. For example, you will lose a game if you concede or if you're penalized with a Game Loss or a Match Loss during a sanctioned tournament due to a tournament rules infraction.
+  - *2022-02-18* — Reconfigure represents two activated abilities. Reconfigure [cost] means “[Cost]: Attach this permanent to another target creature you control. Activate only as a sorcery,” and “[Cost]: Unattach this permanent. Activate only if this permanent is attached to a creature and only as a sorcery.”
+  - *2022-02-18* — Similarly, if an Equipment is tapped, its reconfigure abilities may still be activated and it may still become attached to creatures. Becoming attached doesn't untap it. In most cases, an attached Equipment being tapped won't affect gameplay, but it will be relevant if it becomes unattached again before it untaps.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/8/cloudsteel-kirin) · oracle_id `a34a71eb-26a4-4e37-8d3c-a0352bea491b` · printing: NEO #8 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cloudstone Curio
 
@@ -2620,6 +2825,7 @@
 - **Flavor text** (RVR printing):
   > *It \*wants\* to remain a mystery, banishing the curious in favor of less inquisitive company.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2744 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/255/cloudstone-curio) · oracle_id `5cd2fd32-4da2-40eb-b003-c0b9a9ec91c1` · printing: RVR #255 (2024-01-12) · [rulings](https://api.scryfall.com/cards/6146bf98-3cab-4044-a1a2-cf2203f617aa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cloudthresher
@@ -2646,7 +2852,9 @@
   > As long as enchanted creature is red, it gets +1/+1 and has haste.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6969 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eve/99/clout-of-the-dominus) · oracle_id `6e412163-a93a-4738-a8f0-a4d27c960360` · printing: EVE #99 (2008-07-25) · [rulings](https://api.scryfall.com/cards/7c8ce6d6-014f-46c2-baf3-f250e9dc3085/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-08-01* — If the enchanted creature is both of the listed colors, it will get both bonuses.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eve/99/clout-of-the-dominus) · oracle_id `6e412163-a93a-4738-a8f0-a4d27c960360` · printing: EVE #99 (2008-07-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cloven Casting
 
@@ -2671,7 +2879,16 @@
   > *It runs on laughing gas.*
 - **Keywords:** Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3997 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/186/clown-car) · oracle_id `e0a6947f-3d52-45e0-8fd7-0bc07cc8c784` · printing: UNF #186 (2022-10-07) · [rulings](https://api.scryfall.com/cards/c6667e4f-f0f6-4416-940a-d03bed75f5a7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2022-10-07* — Each die is identified by the number of faces it has. A six-sided die is a die with six equally likely outcomes: 1, 2, 3, 4, 5, and 6. The roll must be fair. Although physical dice are recommended, digital substitutes are allowed except in cases where the physical die is required for the effect.
+  - *2022-10-07* — If X is a very large number, you may be required to roll more dice than you physically can in a reasonable time frame. In such cases, we encourage you to use digital resources for simulating die rolls or generating random numbers.
+  - *2022-10-07* — If a die is rerolled, the original roll essentially never happened: it doesn't cause any abilities to trigger, and no effect that cares about die rolls will consider it.
+  - *2022-10-07* — If an ability triggers "whenever you roll a die," it will trigger whenever you roll any die, including the planar die. This is a change from previous Un- rules. Some abilities use the result to determine part of the effect. If you get a non-numerical result (currently just the planar die, but the future is long), that part of the effect won't do anything.
+  - *2022-10-07* — In an Un- game, if X is actually infinite (Urza's Fun House is a pathway to many game states some consider to be unnatural), you can assume that every natural result on a six-sided die is rolled infinite times, leading to infinite Clown Robot tokens and infinite +1/+1 counters on Clown Car. If abilities trigger from you rolling those results, they will each trigger infinite times. Have fun!
+  - *2022-10-07* — Results can be numbers not ordinarily possible on a six-sided die. Spells like Scooch can change the result to 0 or 7, for example.
+  - *2022-10-07* — Some effects may modify the result of a die roll. This may be part of the instruction to roll a die, or it may come from other cards. Anything that references the "result" of a die roll is looking for the result after these modifications.
+  - *2022-10-07* — Something in the game must tell you to roll a die. If you roll a die for any other reason (to simulate a coin flip, to choose pizza toppings, to create alternate timelines), that roll doesn't count.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/186/clown-car) · oracle_id `e0a6947f-3d52-45e0-8fd7-0bc07cc8c784` · printing: UNF #186 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Clown Extruder
 

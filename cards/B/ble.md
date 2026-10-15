@@ -75,7 +75,9 @@
 - **Flavor text** (SOS printing):
   > *Despite Blex's passing, Witherbloom students still continued the tradition of a yearly search in his honor. His son, however, took little effort to find.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7190 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/176/blech-loafing-pest) · oracle_id `c1bdd361-c7f2-4aa2-8d07-b582775551ff` · printing: SOS #176 (2026-04-24) · [rulings](https://api.scryfall.com/cards/f588fa50-7cc5-41ba-90df-2d252eb5c785/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-03-20* — A creature with more than one of the listed types will still get only one +1/+1 counter when Blech's ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/176/blech-loafing-pest) · oracle_id `c1bdd361-c7f2-4aa2-8d07-b582775551ff` · printing: SOS #176 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bleed Dry
 
@@ -109,7 +111,10 @@
   > *"What is a man but the sum of his memories? We are the stories we live! The tales we tell ourselves!"*
   > *—Clay Kaczmarek*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9560 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/acr/51/bleeding-effect) · oracle_id `689c9a49-d0f5-494a-9fa2-948cd5517e74` · printing: ACR #51 (2024-07-05) · [rulings](https://api.scryfall.com/cards/6e942730-712a-42b2-8683-a18702d685f6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-07-05* — If one of the creature cards in your graveyard has one or more variants of the listed keywords (for example, hexproof from white), creatures you control gain those specific variants.
+  - *2024-07-05* — The set of creatures affected by Bleeding Effect’s ability and how they are affected is determined as the ability resolves. Creatures you begin to control later in the turn won’t gain any abilities, and the abilities gained won’t change if creature cards enter or leave your graveyard after the ability has resolved.
+- **Source flags:** [Scryfall](https://scryfall.com/card/acr/51/bleeding-effect) · oracle_id `689c9a49-d0f5-494a-9fa2-948cd5517e74` · printing: ACR #51 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bleeding Woods
 
@@ -121,7 +126,9 @@
 - **Flavor text** (DSK printing):
   > *They say if someone lies down to sleep beneath the trees, in the morning nothing will remain but a few scattered bones and a bed of blood-red lilies.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9449 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/257/bleeding-woods) · oracle_id `47b6d2ae-d3d7-41eb-9172-2076eb8d028d` · printing: DSK #257 (2024-09-27) · [rulings](https://api.scryfall.com/cards/cb224874-aff5-461f-82ee-89b06663231a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-09-20* — If one of these lands is entering at the same time as a "shock land" (a cycle of lands originally from Ravnica block that allow you to pay life or have them enter tapped), use the life totals of all players before choices are made for that shock land's replacement effect to determine whether or not the land enters tapped. For example, if a Lakeside Shack and a Breeding Pool you control are entering at the same time (perhaps because of the effect of a spell like Scapeshift), your life total is 14, and your opponent's life total is 20, the Lakeside Shack will enter tapped whether or not you choose to pay life as Breeding Pool enters.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/257/bleeding-woods) · oracle_id `47b6d2ae-d3d7-41eb-9172-2076eb8d028d` · printing: DSK #257 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blended Twistling
 
@@ -243,7 +250,10 @@
   > *"Water the soil with blood, if you must. Eventually it must be tilled with forgiveness."*
   > *—Greensleeves*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3806 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/150/blessed-respite) · oracle_id `8c888122-9d05-4641-931c-83f771ba9d09` · printing: MH2 #150 (2021-06-18) · [rulings](https://api.scryfall.com/cards/2217881d-26dc-44c0-81d8-8c78c44bc5f0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-06-18* — If you target yourself with Blessed Respite, it will not be shuffled into your library. It will go to your graveyard after it resolves.
+  - *2021-06-18* — You may cast Blessed Respite even if there are no cards in the target player's graveyard. If you do, they will still shuffle their library and combat damage will still be prevented.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/150/blessed-respite) · oracle_id `8c888122-9d05-4641-931c-83f771ba9d09` · printing: MH2 #150 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blessed Reversal
 
@@ -264,7 +274,10 @@
   > Prevent all noncombat damage that would be dealt to you and creatures you control.
   > Whenever a nontoken creature you control enters, create a 2/2 white Unicorn creature token.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5993 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/1/blessed-sanctuary) · oracle_id `1b70d7fa-ba2c-4945-b8fd-23623b88c036` · printing: JMP #1 (2020-07-17) · [rulings](https://api.scryfall.com/cards/ff80029e-650e-469d-8393-0edf7d9cd695/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-06-23* — Combat damage is the damage that’s dealt automatically by attacking and blocking creatures. Any other damage is noncombat damage, even if it’s dealt during a combat phase by an attacking or blocking creature.
+  - *2020-06-23* — Effects that cause you to lose life aren’t prevented.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/1/blessed-sanctuary) · oracle_id `1b70d7fa-ba2c-4945-b8fd-23623b88c036` · printing: JMP #1 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blessed Spirits
 
@@ -391,4 +404,7 @@
 - **Face 2: Search for Blex** — {2}{B}{B} — Sorcery
   > Look at the top five cards of your library. You may put any number of them into your hand and the rest into your graveyard. You lose 3 life for each card you put into your hand this way.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7352 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/stx/148/blex-vexing-pest-search-for-blex) · oracle_id `b2c53124-e422-4786-8135-67c350d71a36` · printing: STX #148 (2021-04-23) · [rulings](https://api.scryfall.com/cards/c204b7ca-0904-40fa-b20c-92400fae20b8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-04-16* — If a creature is more than one of the creature types Blex cares about, it may haunt your dreams, but it will get the +1/+1 bonus only once.
+  - *2021-04-16* — While resolving Search for Blex, you may put any number of the cards into your hand, even if you don’t have enough life to cover it. We’ll assume you have a plan that’s better than “and then I’ll lose the game.”
+- **Source flags:** [Scryfall](https://scryfall.com/card/stx/148/blex-vexing-pest-search-for-blex) · oracle_id `b2c53124-e422-4786-8135-67c350d71a36` · printing: STX #148 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

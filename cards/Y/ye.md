@@ -47,7 +47,11 @@
 - **Flavor text** (DSC printing):
   > *"Even in death, we never stop growing."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3273 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/209/yedora-grave-gardener) · oracle_id `1fa20b05-cc06-4fb7-ae76-677a29e2185a` · printing: DSC #209 (2024-09-27) · [rulings](https://api.scryfall.com/cards/7b852b55-bee1-46fc-87e4-5c01b90bbd43/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-04-16* — If one of these Forests is turned face up, the effect making it a Forest land will expire. The face-up permanent will again have its printed name, type line, mana cost, abilities, and so on.
+  - *2021-04-16* — If the face-down card has morph, you can pay its morph cost to turn it face up.
+  - *2021-04-16* — The face-down card has no name or colors. Its only type is land, its only subtype is Forest, and its only ability is "{T}: Add {G}."
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/209/yedora-grave-gardener) · oracle_id `1fa20b05-cc06-4fb7-ae76-677a29e2185a` · printing: DSC #209 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yellowjacket, Heartless Marauder
 
@@ -112,7 +116,13 @@
   > *"My people are both bloom and thorn."*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3004 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/219/yenna-redtooth-regent) · oracle_id `0adede77-5181-4190-8066-4797cefe0189` · printing: WOE #219 (2023-09-08) · [rulings](https://api.scryfall.com/cards/e635d461-254a-434e-8e5d-dea61dd8ca4f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-09-01* — Any enters-the-battlefield abilities of the copied enchantment will trigger when the token enters the battlefield. Any "as [this enchantment] enters the battlefield" or "[this enchantment] enters the battlefield with" abilities of the enchantment will also work.
+  - *2023-09-01* — Except for the listed exceptions, the token copies exactly what was printed on the original enchantment and nothing else (unless that enchantment is itself copying something else; see below). It doesn't copy whether that permanent is tapped or untapped, whether it has any counters on it or Auras attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+  - *2023-09-01* — If something becomes a copy of the token, the copy also isn't legendary.
+  - *2023-09-01* — If the copied enchantment has {X} in its mana cost, X is 0.
+  - *2023-09-01* — If the copied enchantment is copying something else, then the token enters the battlefield as whatever that creature copied, with the stated exceptions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/219/yenna-redtooth-regent) · oracle_id `0adede77-5181-4190-8066-4797cefe0189` · printing: WOE #219 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yennett, Cryptic Sovereign
 
@@ -126,7 +136,13 @@
   > *She talks using riddles her disciples alone can unravel.*
 - **Keywords:** Flying, Vigilance, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8787 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/363/yennett-cryptic-sovereign) · oracle_id `4eec6838-3565-407f-8941-ce9421402f0b` · printing: CMM #363 (2023-08-04) · [rulings](https://api.scryfall.com/cards/28ee11c9-fa23-4863-8a18-25a008f18da5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2018-07-13* — Because all attackers are chosen at once, a spell cast this way can't affect which creatures you can attack with, but it can affect which creatures will be able to block.
+  - *2018-07-13* — If a spell has {X} in its mana cost, you must choose 0 as the value of X if you cast it without paying its mana cost.
+  - *2018-07-13* — If the revealed card doesn't have an odd mana value or if that card does but you choose not to cast it, you draw a card. Keep in mind that revealing a card doesn't cause it to change zones. This means that the card you draw will be the card you revealed.
+  - *2018-07-13* — If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs, such as evoke costs. You can, however, pay additional costs. If the card has any mandatory additional costs, such as that of Tormenting Voice, those must be paid to cast it.
+  - *2018-07-13* — If you wish to cast the revealed card without paying its mana cost, you must cast it while Yennett's triggered ability is resolving; you can't cast for free it later in the turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/363/yennett-cryptic-sovereign) · oracle_id `4eec6838-3565-407f-8941-ce9421402f0b` · printing: CMM #363 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yes Man, Personal Securitron
 
@@ -138,7 +154,11 @@
   > Wild Card — When Yes Man leaves the battlefield, its owner creates a tapped 1/1 white Soldier creature token for each quest counter on it.
 - **Keywords:** Wild Card
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3822 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/29/yes-man-personal-securitron) · oracle_id `16b8eab0-ccbd-4dbf-9998-82a4d85d0f77` · printing: PIP #29 (2024-03-08) · [rulings](https://api.scryfall.com/cards/8e2fac8c-a574-4414-ac68-632fc822ddbb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-03-08* — If Yes Man isn't on the battlefield as its first ability resolves, or if the target opponent is an illegal target as the ability tries to resolve, nothing will happen. You won't draw two cards, because that effect is part of a reflexive triggered ability that triggers only if the target opponent gains control of Yes Man.
+  - *2024-03-08* — When Yes Man's controller leaves the game, if that player wasn't its owner, the effect giving that player control of Yes Man ends. Yes Man will return to the control of the player still in the game who most recently controlled it, ignoring any control effects whose durations have already expired.
+  - *2024-03-08* — When Yes Man's owner leaves the game, Yes Man leaves the game along with that player. It's just doing what it's told.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/29/yes-man-personal-securitron) · oracle_id `16b8eab0-ccbd-4dbf-9998-82a4d85d0f77` · printing: PIP #29 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yet Another Aether Vortex
 
@@ -180,7 +200,10 @@
   > *"I can call an army to my side in the blink of an eye. Best not blink."*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3317 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/162/yeva-natures-herald) · oracle_id `2d513c3e-bd27-479e-af32-7f66d96d0de0` · printing: RVR #162 (2024-01-12) · [rulings](https://api.scryfall.com/cards/67ff9ba3-cd2b-4970-b4da-22104b10a4a4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2012-07-01* — Yeva's ability applies to green creature cards in any zone, provided something is allowing you to cast them. For example, if the top card of your library is a green creature card and you control Garruk's Horde, you can cast that card as though it had flash.
+  - *2012-07-01* — You still pay the costs for green creature spells you cast.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/162/yeva-natures-herald) · oracle_id `2d513c3e-bd27-479e-af32-7f66d96d0de0` · printing: RVR #162 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yeva's Forcemage
 

@@ -34,7 +34,9 @@
 - **Flavor text** (FIC printing):
   > *"Always we took the burden of fighting upon ourselves. That's what heroes do, isn't it?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4842 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/77/ardbert-warrior-of-darkness) · oracle_id `a9243760-b9b1-4d43-8550-3528b5571dae` · printing: FIC #77 (2025-06-13) · [rulings](https://api.scryfall.com/cards/9fc1ac8a-bbd4-4d17-81d9-fd04876084b1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-06-06* — Each of Ardbert's abilities resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/77/ardbert-warrior-of-darkness) · oracle_id `a9243760-b9b1-4d43-8550-3528b5571dae` · printing: FIC #77 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arden Angel
 
@@ -62,7 +64,17 @@
   > *"With the right tools, even the sky is within reach."*
 - **Keywords:** Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1697 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/10/ardenn-intrepid-archaeologist) · oracle_id `7c521612-21c6-4c4b-b10e-66e70928609b` · printing: CMR #10 (2020-11-20) · [rulings](https://api.scryfall.com/cards/728b802c-969b-4865-b7a0-871c585d097a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2020-11-10* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2020-11-10* — Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+  - *2020-11-10* — If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+  - *2020-11-10* — If your Commander deck has two commanders, you can only include cards whose own color identities are also found in your commanders' combined color identities. If Falthis and Kediss are your commanders, your deck may contain cards with black and/or red in their color identity, but not cards with green, white, or blue.
+  - *2020-11-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from any one of them, not from both of them combined.
+  - *2020-11-10* — Other players and permanents controlled by other players can be targeted by Ardenn's ability. This can cause Equipment under your control to be attached to a creature an opponent controls. Auras and Equipment that say "you" still refer to you, as you still control them. Ardenn's ability can't cause an Aura or Equipment to be attached to something it couldn't be attached to.
+  - *2020-11-10* — To have two commanders, both must have the partner ability as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
+  - *2020-11-10* — You can choose two commanders with partner that are the same color or colors. In Commander Draft, you can even choose two of the same commander with partner if you drafted them. If you do this, make sure you keep the number of times you've cast each from the command zone clear for "commander tax" purposes.
+  - *2020-11-10* — You choose which Auras and Equipment to move as Ardenn's ability resolves. Players can't take actions between the time you choose what to move and the time they're attached to the target permanent or player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/10/ardenn-intrepid-archaeologist) · oracle_id `7c521612-21c6-4c4b-b10e-66e70928609b` · printing: CMR #10 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ardent Dustspeaker
 
@@ -98,6 +110,7 @@
 - **Flavor text** (MID printing):
   > *While the Dawnhart witches focus their magic on nature and community, other covens consort with devils and twist the elements to their will.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8283 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/128/ardent-elementalist) · oracle_id `1edd4f50-05ee-43e0-a288-c26666910c8b` · printing: MID #128 (2021-09-24) · [rulings](https://api.scryfall.com/cards/f58592f7-1df5-428d-9dde-e6acd9a5d1d5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ardent Militia
@@ -202,4 +215,9 @@
   > Starscourge — At the beginning of combat on your turn, exile up to one target creature card from a graveyard. If you exiled a card this way, create a token that's a copy of that card, except it's a 5/5 black Demon.
 - **Keywords:** Starscourge
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3328 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/89/ardyn-the-usurper) · oracle_id `9ae13026-960a-4d31-b775-d47209a1e313` · printing: FIN #89 (2025-06-13) · [rulings](https://api.scryfall.com/cards/4627072e-9c72-4084-8021-690777342548/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-06-06* — Except for the listed exceptions, the token copies exactly what was printed on the original card and nothing else. It doesn't copy any information about the object the card was before it was put into a graveyard.
+  - *2025-06-06* — If a card copied by the token had any "when [this permanent] enters" abilities, the token also has those abilities, and they'll trigger when it's created. Similarly, any "as [this permanent] enters" or "[this permanent] enters with" abilities that the token has copied will also work.
+  - *2025-06-06* — If the copied card has {X} in its mana cost, X is 0.
+  - *2025-06-06* — The token is a Demon creature instead of its other types and is black instead of its other colors. Its base power and toughness are 5/5. These are copiable values of the token that other effects may copy.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/89/ardyn-the-usurper) · oracle_id `9ae13026-960a-4d31-b775-d47209a1e313` · printing: FIN #89 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

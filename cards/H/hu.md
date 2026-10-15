@@ -181,7 +181,9 @@
   > IV — Dinosaurs you control gain double strike and trample until end of turn.
 - **Keywords:** Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9406 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/189/huatli-poet-of-unity-roar-of-the-fifth-people) · oracle_id `2e6ed3e6-d2b8-4b75-b7e1-0773da4987a1` · printing: LCI #189 (2023-11-17) · [rulings](https://api.scryfall.com/cards/57df2563-18d4-4526-a8bc-0c114e6fd4d9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-11-10* — Roar of the Fifth People's second chapter ability doesn't have a duration. It will continue to apply as long as Roar of the Fifth People remains on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/189/huatli-poet-of-unity-roar-of-the-fifth-people) · oracle_id `2e6ed3e6-d2b8-4b75-b7e1-0773da4987a1` · printing: LCI #189 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Huatli, Radiant Champion
 
@@ -193,7 +195,10 @@
   > −1: Target creature gets +X/+X until end of turn, where X is the number of creatures you control.
   > −8: You get an emblem with "Whenever a creature you control enters, you may draw a card."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9573 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rix/159/huatli-radiant-champion) · oracle_id `5ab5b82a-83e1-44d7-b8c3-9cd7accc1ca4` · printing: RIX #159 (2018-01-19) · [rulings](https://api.scryfall.com/cards/39bcc48a-efdb-443f-93b8-bc0b54aa0eb8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-01-19* — If you activate Huatli's first ability while you control no creatures, she'll get one loyalty counter from the ability's activation cost and no others as it resolves.
+  - *2018-01-19* — The number of creatures you control is counted only as Huatli's first or second ability resolves. Once her second ability resolves, the bonus won't change, even if the number of creatures you control changes later in the turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rix/159/huatli-radiant-champion) · oracle_id `5ab5b82a-83e1-44d7-b8c3-9cd7accc1ca4` · printing: RIX #159 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Huatli's Final Strike
 
@@ -254,7 +259,10 @@
   > Each creature you control assigns combat damage equal to its toughness rather than its power.
   > −3: You gain life equal to the greatest toughness among creatures you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6453 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/war/230/huatli-the-suns-heart) · oracle_id `e1a13723-a6b1-4160-8eb5-f7a4860898a3` · printing: WAR #230 (2019-05-03) · [rulings](https://api.scryfall.com/cards/d709742c-82a2-457e-9991-85e98d78029d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-05-03* — Huatli’s first ability doesn’t actually change any creature’s power. It changes only the amount of combat damage it assigns. All other rules and effects that check power or toughness use the real values. For example, Domri’s Ambush won’t cause a creature to deal damage equal to its toughness.
+  - *2019-05-03* — The greatest toughness among creatures you control is determined only as Huatli’s loyalty ability begins to resolve.
+- **Source flags:** [Scryfall](https://scryfall.com/card/war/230/huatli-the-suns-heart) · oracle_id `e1a13723-a6b1-4160-8eb5-f7a4860898a3` · printing: WAR #230 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Huatli, Warrior Poet
 
@@ -328,7 +336,11 @@
   > *Most of his scars tell tales. A few tell jokes.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5168 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/218/hugs-grisly-guardian) · oracle_id `3c5c227a-335b-4995-9821-d4269a0a233a` · printing: BLB #218 (2024-08-02) · [rulings](https://api.scryfall.com/cards/f09d7f4a-c947-4389-befa-1d547d0d1237/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-07-26* — The effect of Hugs's last ability that allows you to play an additional land is cumulative with similar effects. For example, if you control Hugs as well as Exploration (an enchantment with "You may play an additional land on each of your turns."), you'll be able to play three lands during each of your turns.
+  - *2024-07-26* — You may play the exiled cards even if Hugs is no longer on the battlefield or under your control.
+  - *2024-07-26* — You pay all costs and follow all timing rules for cards played this way. For example, if one of the exiled cards is a land card, you may play it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/218/hugs-grisly-guardian) · oracle_id `3c5c227a-335b-4995-9821-d4269a0a233a` · printing: BLB #218 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hulk, Always Angry
 
@@ -382,6 +394,7 @@
   > *—Iron Man, Tony Stark*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8751 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/107/hulkbuster-armor) · oracle_id `abc3f55e-5fc6-44b3-a2f5-b8f49d93249f` · printing: MSC #107 (2026-06-26) · [rulings](https://api.scryfall.com/cards/0cd857a3-ad93-4d74-80e0-c99d0a04a60a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hulk, Gamma Goliath
@@ -456,7 +469,23 @@
   > You may have this creature enter as a copy of an artifact or creature you control, except it's an artifact creature in addition to its other types, and its power and toughness are equal to this creature's power and toughness.
 - **Keywords:** Prototype
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8192 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/79/hulking-metamorph) · oracle_id `b2b09dc3-8239-4f3b-91d2-e7cbbdc062f7` · printing: BRO #79 (2022-11-18) · [rulings](https://api.scryfall.com/cards/420f0b81-8b87-4854-9dc4-6da84cc38623/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2022-10-14* — A prototype card is a colorless card in every zone except the stack or the battlefield, as well as while on the stack or the battlefield if not cast as a prototyped spell. Ignore its alternative characteristics in those cases. For example, while it's in your graveyard, Blitz Automaton is a colorless creature card with mana value 7. It can't be the target of Recommission, a spell that targets an artifact or creature card with mana value 3 or less in your graveyard.
+  - *2022-10-14* — Any enters-the-battlefield abilities of the copied permanent will trigger when Hulking Metamorph enters the battlefield. Any "as [this] enters the battlefield" or "[this] enters the battlefield with" abilities of the chosen permanent will also work.
+  - *2022-10-14* — Casting a prototyped spell isn't the same as casting it for an alternative cost, and an alternative cost may be applied to a spell cast this way. For example, if an effect allows you to cast an artifact card without paying its mana cost, you could either cast Blitz Automaton normally, or as a prototyped spell.
+  - *2022-10-14* — Except for also being an artifact creature and having a different power and toughness, Hulking Metamorph copies exactly what was printed on the original permanent and nothing more (unless that permanent is itself copying something or is a token; see below). It doesn't copy whether that permanent is tapped or untapped, whether it has any counters on it or Auras attached to it, or any noncopy effects that have changed its power, toughness, types, color, and so on.
+  - *2022-10-14* — If Hulking Metamorph somehow enters the battlefield at the same time as another permanent, Hulking Metamorph can't become a copy of that permanent. You may choose only a permanent that's already on the battlefield.
+  - *2022-10-14* — If an effect copies a prototyped spell, that copy (as well as the token it becomes on the battlefield) will have the same characteristics as the prototyped spell. Similarly, if an effect creates a token that's a copy of a prototyped permanent or causes another permanent to become a copy of it, the copy would have the same characteristics as the prototyped permanent.
+  - *2022-10-14* — If the chosen permanent has {X} in its mana cost, X is 0.
+  - *2022-10-14* — If the chosen permanent is a token, Hulking Metamorph copies the original characteristics of that token as stated by the effect that put the token onto the battlefield, with the listed exceptions. Hulking Metamorph does not become a token.
+  - *2022-10-14* — If the chosen permanent is copying something else (for example, if the chosen permanent is a Clone), then your Hulking Metamorph enters the battlefield as whatever the chosen permanent copied, with the stated exceptions.
+  - *2022-10-14* — Regardless of how it was cast, a prototype card always has the same name, abilities, types, and so on. Only the mana cost, mana value, color, power, and toughness change depending on whether the card was cast as a prototyped spell.
+  - *2022-10-14* — The prototype ability functions in any zone that the spell could be cast from. For example, if an effect allows you to cast artifact spells from your graveyard, you could cast a prototyped Blitz Automaton from your graveyard.
+  - *2022-10-14* — Use the appropriate printed power and toughness (either 7/7 or 3/3) to determine the result of Hulking Metamorph's copy effect.
+  - *2022-10-14* — When cast as a prototyped spell, that spell has the mana cost, power, and toughness characteristics shown in its colored, secondary text box rather than the normal values of those characteristics. Its color and mana value are determined by that mana cost. The permanent that spell becomes as it resolves has the same characteristics. If the spell leaves the stack in any other way, or the permanent it becomes leaves the battlefield, it immediately resumes using its normal characteristics.
+  - *2022-10-14* — When casting a prototyped spell, use only its prototype characteristics to determine whether it's legal to cast it. For example, if Blitz Automaton is exiled with the last ability of Chandra, Dressed to Kill, you would be able to cast it for {2}{R} (because it's a red spell), even though you wouldn't be able to cast it as a colorless spell for its normal cost.
+  - *2022-10-14* — You can choose not to copy anything. In that case, Hulking Metamorph simply enters the battlefield as a 7/7 (or 3/3) artifact creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/79/hulking-metamorph) · oracle_id `b2b09dc3-8239-4f3b-91d2-e7cbbdc062f7` · printing: BRO #79 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hulking Ogre
 
@@ -483,6 +512,7 @@
   > *—Huatli*
 - **Keywords:** Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1937 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/191/hulking-raptor) · oracle_id `9f2e7533-cfc1-4dd8-a9b8-09cdc712ef2f` · printing: LCI #191 (2023-11-17) · [rulings](https://api.scryfall.com/cards/45f763af-5a6a-404c-8e8c-4dbed71277bc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hulkling, Burgeoning Bruiser
@@ -565,6 +595,7 @@
   > *"Kang, ol' buddy, you think you know all about time? Ben, tell Kang what time it is!"*
   > *—Human Torch, Johnny Storm*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2421 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/185/hull-breach) · oracle_id `2da232d8-580f-4116-b977-2c59cd21b5a4` · printing: MSC #185 (2026-06-26) · [rulings](https://api.scryfall.com/cards/3ff49b0b-322b-4b98-8604-d6716f3bec39/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hullbreacher
@@ -698,7 +729,12 @@
   > *"You were once Mardu, so your body and will are strong. Now we must train your mind."*
   > *—Houn, Jeskai elder*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1794 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/170/humble-defector) · oracle_id `1582e16d-4825-4cc5-b12c-449c45e4e449` · printing: OTC #170 (2024-04-19) · [rulings](https://api.scryfall.com/cards/d17c10a1-12fe-4a58-81ed-03a8bdd06686/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-11-10* — Humble Defector's ability can be activated any time during your turn, including in response to a spell or ability.
+  - *2020-11-10* — If Humble Defector is controlled by a player other than its owner, and its controller leaves the game, the effect giving that player control of Humble Defector ends. Humble Defector will return to the control of the player still in the game who most recently controlled it.
+  - *2020-11-10* — If Humble Defector isn't on the battlefield as its ability resolves, but the target player is still a legal target, the ability will resolve. You'll draw two cards, even though the player doesn't gain control of Humble Defector.
+  - *2020-11-10* — If Humble Defector's owner leaves the game, Humble Defector humbly leaves the game along with that player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/170/humble-defector) · oracle_id `1582e16d-4825-4cc5-b12c-449c45e4e449` · printing: OTC #170 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Humble Naturalist
 
@@ -913,6 +949,7 @@
   > This creature can't be blocked by more than one creature.
   > Whenever this creature is dealt damage, put that many +1/+1 counters on it. (It must survive the damage to get the counters.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3638 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c20/177/hungering-hydra) · oracle_id `d1dde190-8124-4590-9507-801ea4c8cde3` · printing: C20 #177 (2020-04-17) · [rulings](https://api.scryfall.com/cards/cce0561d-252a-499f-bfa0-9de59e4ea5ba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hungering Puppetbeast
@@ -1033,7 +1070,14 @@
   > At the beginning of your end step, target opponent creates a 1/1 black Rat creature token with deathtouch.
   > Whenever a Rat dies, put a +1/+1 counter on each Cat you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6593 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c17/31/hungry-lynx) · oracle_id `a5fdc358-25de-4a5b-b965-53a01df6019c` · printing: C17 #31 (2017-08-25) · [rulings](https://api.scryfall.com/cards/c0ad6f84-8ede-4411-9979-cefee255fa70/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2017-08-25* — Hungry Lynx’s last ability puts a +1/+1 counter on each Cat you control, including itself.
+  - *2017-08-25* — If Hungry Lynx dies at the same time as a Rat, its ability triggers, but Hungry Lynx won't be on the battlefield as that ability resolves. It can’t be saved by the +1/+1 counter that would have been put on it. The same is true of any other Cats you control that die at the same time. Your remaining Cats will each get a +1/+1 counter.
+  - *2017-08-25* — If a permanent has protection from Rats, it means four things: 1) Damage from a source that’s a Rat that would be dealt to that permanent is prevented. 2) Auras and Equipment that are somehow Rats can’t be attached to that permanent. 3) Rats can’t block that permanent. 4) That permanent can’t be the target of abilities of Rats or spells that are somehow Rats.
+  - *2017-08-25* — Nothing other than the specified events is prevented or illegal. Hungry Lynx can’t block a Rat with the ability “This creature can’t be blocked,” for example.
+  - *2017-08-25* — The opponent who creates the Rat token is the owner of that token.
+  - *2017-08-25* — Tokens that are sacrificed or destroyed are put into their owner’s graveyard before ceasing to exist. If the token was a Rat, Hungry Lynx’s last ability will trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c17/31/hungry-lynx) · oracle_id `a5fdc358-25de-4a5b-b965-53a01df6019c` · printing: C17 #31 (2017-08-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hungry Megasloth
 
@@ -1111,7 +1155,20 @@
   > Disguise {1}{B}
 - **Keywords:** Menace, Disguise
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6387 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/87/hunted-bonebrute) · oracle_id `c1d9c41a-0941-4b7e-b8a6-890d30386458` · printing: MKM #87 (2024-02-09) · [rulings](https://api.scryfall.com/cards/a4ca0e10-8b7c-4ce2-888b-752fc909757a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2024-02-02* — A disguise ability lets you cast a card face down by paying {3} and announcing that you are using a disguise ability. Any time you have priority, you can turn a face-down permanent with disguise face up by paying its disguise cost.
+  - *2024-02-02* — A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent and Auras and Equipment that were attached to that permanent aren't affected unless the new characteristics of the object change the legality of those targets or attachments.
+  - *2024-02-02* — Any time you have priority, you may turn the face-down creature face up by revealing what its disguise cost is and paying that cost. This is a special action. It doesn't use the stack and can't be responded to. Only a face-down permanent can be turned face up this way; a face-down spell cannot.
+  - *2024-02-02* — At any time, you can look at a face-down spell or permanent you control. You can't look at face-down permanents or spells you don't control unless an effect instructs or allows you to do so.
+  - *2024-02-02* — Because face-down creatures don't have a name, they can't have the same name as any other creature, even another face-down creature.
+  - *2024-02-02* — Because the permanent is on the battlefield both before and after it's turned face up, turning a permanent face up doesn't cause any enters-the-battlefield abilities to trigger.
+  - *2024-02-02* — If a face-down creature loses its abilities, it can't be turned face up with a disguise ability because it will no longer have a disguise ability (or a disguise cost) once face up.
+  - *2024-02-02* — If a face-down spell leaves the stack and goes to any zone other than the battlefield (if it was countered, for example), you must reveal it. Similarly, if a face-down permanent leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or the game ends.
+  - *2024-02-02* — The creature spell is a 2/2 creature spell with ward {2} that has no name, mana cost, or creature types. The resulting creature is a 2/2 creature with ward {2} that has no name, mana cost, or creature types. Both the spell and the resulting creature are colorless and have a mana value of 0. Other effects that apply to the spell or creature can still grant it any characteristics it doesn't have or change the characteristics it does have.
+  - *2024-02-02* — The face-down spell has no mana cost and a mana value of 0. When you cast a face-down spell, put it on the stack face down so no other player knows what it is, and pay {3} to cast it. This is an alternative cost.
+  - *2024-02-02* — Turning a permanent face up or face down doesn't change whether that permanent is tapped or untapped.
+  - *2024-02-02* — You must ensure that your face-down spells and permanents can be easily differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield to confuse other players. The order in which they entered the battlefield should remain clear, as well as what ability caused them to be face down. (This includes disguise, cloak, and in games involving older cards, morph and manifest, as well as a few other effects that turn cards face down.) Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/87/hunted-bonebrute) · oracle_id `c1d9c41a-0941-4b7e-b8a6-890d30386458` · printing: MKM #87 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hunted by The Family
 
@@ -1120,7 +1177,11 @@
 - **Oracle text:**
   > Choose up to four target creatures you don't control. For each of them, that creature's controller faces a villainous choice — That creature becomes a 1/1 white Human creature and loses all abilities, or you create a token that's a copy of it.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9873 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/46/hunted-by-the-family) · oracle_id `7d178f1c-faf7-4efd-87a6-201a40c55ec8` · printing: WHO #46 (2023-10-13) · [rulings](https://api.scryfall.com/cards/04b0a2a9-ba95-4330-a8ab-9cb530eb4257/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-10-13* — A player facing a villainous choice can always choose either option, even if one or both of the options are impossible. For example, if one of the options is to sacrifice a creature, a player who controls no creatures can still choose that option.
+  - *2023-10-13* — If a spell or ability requires multiple players to face a villainous choice, the result is a little different from other effects in Magic. In that case, the first player in turn order makes their choice and the action for that choice is performed before the next player makes their choice. Then each of the remaining players repeat this process in turn order.
+  - *2023-10-13* — When a player faces a villainous choice, they first choose one of the two options, then all actions in the chosen option are performed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/46/hunted-by-the-family) · oracle_id `7d178f1c-faf7-4efd-87a6-201a40c55ec8` · printing: WHO #46 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hunted Dragon
 
@@ -1158,6 +1219,7 @@
   > When this creature enters, target opponent creates two 3/3 green Centaur creature tokens with protection from black.
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4624 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/758/hunted-horror) · oracle_id `3469463e-ed4d-44bb-81f3-42bbe09d34ad` · printing: CLB #758 (2022-06-10) · [rulings](https://api.scryfall.com/cards/02f74866-d0ea-42ce-bc44-500219fb73d4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hunted Lammasu
@@ -1222,6 +1284,7 @@
 - **Flavor text** (GRN printing):
   > *He ferried weapons, spells, exotic animals—but his most dangerous cargo was the truth.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7894 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/grn/15/hunted-witness) · oracle_id `1fde570c-aa96-45ca-a6be-f59c8e4f4b6a` · printing: GRN #15 (2018-10-05) · [rulings](https://api.scryfall.com/cards/8c31b8e5-2349-4119-9dc2-3e41c5364a78/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hunted Wumpus
@@ -1286,6 +1349,7 @@
   > *—Nirk Doobin, last words*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7765 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/255/hunters-blowgun) · oracle_id `a0292e0b-7bb3-46d3-a29f-b54bce5b20f0` · printing: LCI #255 (2023-11-17) · [rulings](https://api.scryfall.com/cards/3348abe7-6aa3-47f7-8203-a15f75007e33/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hunter's Bow
@@ -1300,7 +1364,9 @@
   > *Not all glory is won with an axe.*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6276 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/acr/41/hunters-bow) · oracle_id `810592fe-65f5-4c95-9d75-d6806e004903` · printing: ACR #41 (2024-07-05) · [rulings](https://api.scryfall.com/cards/ca2765df-edff-4607-843c-8528d5d4fce9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-07-05* — If either creature is an illegal target as Hunter's Bow's first ability tries to resolve, the creature you control won't deal damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/acr/41/hunters-bow) · oracle_id `810592fe-65f5-4c95-9d75-d6806e004903` · printing: ACR #41 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hunter's Edge
 
@@ -1334,6 +1400,7 @@
   > *"The predator knows the true way of the world. Life is conflict. Only the strong survive."*
   > *—Garruk Wildspeaker*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1067 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/296/hunters-insight) · oracle_id `cf8a0782-f545-445e-abac-d9063dad696b` · printing: CMM #296 (2023-08-04) · [rulings](https://api.scryfall.com/cards/de399acd-e792-4f4a-8025-434f1080c0fc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hunter Sliver
@@ -1368,6 +1435,7 @@
 - **Flavor text** (C17 printing):
   > *To be counted among the warriors of Setessa's Leina Tower, you must not fear death, only failure.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5604 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c17/152/hunters-prowess) · oracle_id `e1a776d2-fb3a-4215-a14e-4b6e9bda95df` · printing: C17 #152 (2017-08-25) · [rulings](https://api.scryfall.com/cards/64e0f9db-fd82-44d0-9d98-12275e2f05e8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hunter's Talent
@@ -1382,7 +1450,16 @@
   > {3}{G}: Level 3
   > At the beginning of your end step, if you control a creature with power 4 or greater, draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3650 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/179/hunters-talent) · oracle_id `a8a9b103-0cb8-4810-a2d7-42f6a10f80bd` · printing: BLB #179 (2024-08-02) · [rulings](https://api.scryfall.com/cards/e9a31863-9649-4a4f-99e4-c93729938bd7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2024-07-26* — Each Class has five abilities. The three in the major sections of its text box are class abilities. Class abilities can be static, activated, or triggered abilities. The other two are level abilities, one activated ability to advance the Class to level 2 and another to advance the Class to level 3.
+  - *2024-07-26* — Each Class starts with only the first of its three class abilities. As the first level ability resolves, the Class becomes level 2 and gains the second class ability. As the second level ability resolves, the Class becomes level 3 and gains the third class ability.
+  - *2024-07-26* — Gaining a level is a normal activated ability. It uses the stack and can be responded to.
+  - *2024-07-26* — Gaining a level won't remove abilities that a Class had at a previous level.
+  - *2024-07-26* — Hunter's Talent's level 3 class ability will trigger only once during your end step, no matter how many creatures you control with power 4 or greater. However, if you don't control a creature with power 4 or greater as your end step begins, the ability won't trigger at all. It's not possible to put a creature with power 4 or greater onto the battlefield or increase a creature's power to 4 or greater during the end step in time to have the ability trigger. If you don't control any creatures with power 4 or greater when the ability resolves, the ability won't do anything.
+  - *2024-07-26* — If either target is illegal as the level 1 class ability resolves, no damage will be dealt. If both targets are illegal, the ability won't resolve at all.
+  - *2024-07-26* — There's no restriction on how many Class permanents you can control, whether they're the same or different classes. Each Class permanent tracks its own level separately.
+  - *2024-07-26* — You can't activate the first level ability of a Class unless that Class is level 1. Similarly, you can't activate the second level ability of a Class unless that Class is level 2.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/179/hunters-talent) · oracle_id `a8a9b103-0cb8-4810-a2d7-42f6a10f80bd` · printing: BLB #179 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hunt for Specimens
 
@@ -1495,7 +1572,10 @@
   > *—Robert Muldoon*
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3891 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rex/4/hunting-velociraptor) · oracle_id `bca33fb6-cd37-4259-8c0b-7a4675754a00` · printing: REX #4 (2023-11-17) · [rulings](https://api.scryfall.com/cards/e2c5c161-49c5-404d-bd8e-86e634222232/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-11-10* — Prowl compares the creature types of the spell with the creature types of the creatures that dealt combat damage to players this turn. For example, this means that normally, if you control Hunting Velociraptor, you can cast Grim Giganotosaurus for its prowl cost only if a Dinosaur dealt combat damage to a player, but if an effect causes the spell to have other creature types, the prowl ability is also satisfied by a creature with those additional types having dealt combat damage to a player.
+  - *2023-11-10* — You can cast a spell for its prowl cost any time in a turn after a creature you control of a matching type has dealt combat damage to a player. It doesn't matter if that player left the game, if that creature left the battlefield or left your control, or if that creature no longer has a matching type.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rex/4/hunting-velociraptor) · oracle_id `bca33fb6-cd37-4259-8c0b-7a4675754a00` · printing: REX #4 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hunting Wilds
 
@@ -1507,7 +1587,16 @@
   > If this spell was kicked, untap all Forests put onto the battlefield this way. They become 3/3 green creatures with haste that are still lands.
 - **Keywords:** Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8822 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c18/152/hunting-wilds) · oracle_id `e9bc324e-c200-45ef-8b9b-52a61d0f7374` · printing: C18 #152 (2018-08-10) · [rulings](https://api.scryfall.com/cards/0097101d-e63d-4785-8c68-5d2fca3ded78/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2007-02-01* — If the Hunting Wilds is kicked, the Forests become creatures with haste permanently.
+  - *2009-10-01* — A noncreature permanent that turns into a creature is subject to the "summoning sickness" rule: It can only attack, and its {T} abilities can only be activated, if its controller has continuously controlled that permanent since the beginning of their most recent turn.
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c18/152/hunting-wilds) · oracle_id `e9bc324e-c200-45ef-8b9b-52a61d0f7374` · printing: C18 #152 (2018-08-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Huntmaster Liger
 
@@ -1535,7 +1624,9 @@
   > At the beginning of each upkeep, if a player cast two or more spells last turn, transform this creature.
 - **Keywords:** Transform, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8688 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/241/huntmaster-of-the-fells-ravager-of-the-fells) · oracle_id `582328cd-660d-47a4-bb23-e91e80b9a907` · printing: INR #241 (2025-01-24) · [rulings](https://api.scryfall.com/cards/b3819a11-2f3e-4304-a1b0-6abf893c89c5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-07-13* — For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/241/huntmaster-of-the-fells-ravager-of-the-fells) · oracle_id `582328cd-660d-47a4-bb23-e91e80b9a907` · printing: INR #241 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hunt the Hunter
 
@@ -1676,7 +1767,10 @@
 - **Flavor text** (AFC printing):
   > *No one returns unchanged.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6342 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afc/48/hurl-through-hell) · oracle_id `4254c048-7207-4ca0-bd20-ebb418d9ed1a` · printing: AFC #48 (2021-07-23) · [rulings](https://api.scryfall.com/cards/47a3321c-28ed-4cd7-84d8-c8cecc09348b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-07-23* — If the creature you exile is actually a land card that was animated, you won't be able to play the land card from exile.
+  - *2021-07-23* — You must still follow all normal timing rules for casting the spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afc/48/hurl-through-hell) · oracle_id `4254c048-7207-4ca0-bd20-ebb418d9ed1a` · printing: AFC #48 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hurly-Burly
 
@@ -1699,7 +1793,9 @@
   > *"Don't envy the grandeur of drakes. Their impression of grace fades when the first gust sends them crashing into one another."*
   > *—Molimo, maro-sorcerer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8968 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/10e/270/hurricane) · oracle_id `9c021685-4017-49c7-9f58-2ae0243361a0` · printing: 10E #270 (2007-07-13) · [rulings](https://api.scryfall.com/cards/371d83e8-f514-433c-bc6a-e0eeef3fab2a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Whether or not a creature has flying is only checked on resolution.
+- **Source flags:** [Scryfall](https://scryfall.com/card/10e/270/hurricane) · oracle_id `9c021685-4017-49c7-9f58-2ae0243361a0` · printing: 10E #270 (2007-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hurr Jackal
 
@@ -1746,7 +1842,17 @@
   > *"Let's begin this conversation again, and this time you will only listen."*
 - **Keywords:** Flying, Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4026 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eld/18/hushbringer) · oracle_id `3d21f710-6bbc-41ae-a8e5-02debe3e02bd` · printing: ELD #18 (2019-10-04) · [rulings](https://api.scryfall.com/cards/663b3e6f-1099-4de8-a0a7-6f1919c38010/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2019-10-04* — A creature entering the battlefield or dying at the same time as Hushbringer (including Hushbringer itself entering or dying) won't cause abilities to trigger.
+  - *2019-10-04* — Abilities that apply "as [this creature] enters the battlefield," such as choosing a color with Diamond Knight, are unaffected.
+  - *2019-10-04* — An ability that triggers on an event that causes a creature to die will still trigger. For example, an ability that triggers "whenever you sacrifice a creature" still triggers.
+  - *2019-10-04* — An ability that triggers when a card is put into a graveyard "from anywhere" may still trigger even if a creature dies. It will trigger if the ability is of a dying creature that triggers only when that creature is put into a graveyard from anywhere, if Hushbringer is the card being put into a graveyard, or if Hushbringer leaves the battlefield at the same time as the dying creature.
+  - *2019-10-04* — An ability that triggers when a creature "leaves the battlefield" won't trigger if that creature leaves the battlefield by dying.
+  - *2019-10-04* — Hushbringer affects a creature's own triggered abilities as well as other triggered abilities that trigger when that creature enters the battlefield or dies. Such triggered abilities start with "when" or "whenever."
+  - *2019-10-04* — Look at each permanent as it exists on the battlefield, taking into account continuous effects that apply to it after entering or before dying, to determine whether any triggered abilities will be stopped from triggering. For example, if a land that has become a creature dies, an ability that triggers when it dies doesn't trigger.
+  - *2019-10-04* — Replacement effects are unaffected by Hushbringer's ability. For example, a creature that enters the battlefield with one +1/+1 counter on it will still receive a +1/+1 counter, and Leyline of the Void will still exile creatures that would die.
+  - *2019-10-04* — The trigger event doesn't have to specifically refer to "creatures." In these cases, the trigger event may also refer to something being "put into a graveyard from the battlefield." For example, an ability that triggers "whenever an artifact is put into a graveyard from the battlefield" won't trigger if an artifact creature dies while Hushbringer is on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eld/18/hushbringer) · oracle_id `3d21f710-6bbc-41ae-a8e5-02debe3e02bd` · printing: ELD #18 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hushwing Gryff
 
@@ -1786,6 +1892,7 @@
   > Menace, deathtouch
 - **Keywords:** Menace, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7761 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/98/huskburster-swarm) · oracle_id `faefb352-575c-49f7-9f7a-96f2279a077b` · printing: BLB #98 (2024-08-02) · [rulings](https://api.scryfall.com/cards/ed2f61d7-4eb0-41c5-8a34-a0793c2abc51/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hussar Patrol

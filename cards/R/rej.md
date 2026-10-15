@@ -38,7 +38,14 @@
   > *—Sarnvax, Gitaxian sective*
 - **Keywords:** Proliferate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4759 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/67/reject-imperfection) · oracle_id `25781dc5-d6ea-4273-9fe3-06a8808b3718` · printing: ONE #67 (2023-02-10) · [rulings](https://api.scryfall.com/cards/c7ce5296-f28f-4105-9c79-b9c63ea720e7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-02-04* — An ability that triggers "Whenever you proliferate" triggers even if you chose no permanents or players while doing so.
+  - *2023-02-04* — If a permanent ever has both +1/+1 counters and -1/-1 counters on it at the same time, they're removed in pairs as a state-based action so that the permanent has only one of those kinds of counters on it.
+  - *2023-02-04* — If a player or permanent has more than one kind of counter on it, and you choose for it to get additional counters, it must get one of each kind of counter it already has. You can't have it get just one kind of counter it already has and not the others.
+  - *2023-02-04* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
+  - *2023-02-04* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
+  - *2023-02-04* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/67/reject-imperfection) · oracle_id `25781dc5-d6ea-4273-9fe3-06a8808b3718` · printing: ONE #67 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rejoin the Fight
 
@@ -50,6 +57,7 @@
   > *"I have to fight... to protect the people I love, and to make the world a safe place for new lives!"*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8248 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/49/rejoin-the-fight) · oracle_id `d22ea32b-2128-4dcc-8b1c-c4c52f0b2f45` · printing: FIC #49 (2025-06-13) · [rulings](https://api.scryfall.com/cards/f3140950-1ce2-41b8-91f9-da53bfbee963/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rejuvenate

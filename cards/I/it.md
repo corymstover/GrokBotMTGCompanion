@@ -146,6 +146,7 @@
 - **Flavor text** (TLA printing):
   > *"Drink cactus juice. Nothing's quenchier. It's the quenchiest!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3686 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/58/itll-quench-ya!) · oracle_id `cb184995-700f-4900-994a-4ce7fd12f942` · printing: TLA #58 (2025-11-21) · [rulings](https://api.scryfall.com/cards/47c25e41-f43c-4447-81b5-b9631448bd29/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### It of the Horrid Swarm
@@ -185,7 +186,16 @@
   > *All will be harvested.*
 - **Keywords:** Annihilator
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1555 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/805/it-that-betrays) · oracle_id `b11187ab-f8a8-422b-b550-4495f96de0f2` · printing: CMM #805 (2023-08-04) · [rulings](https://api.scryfall.com/cards/ca08b369-783d-4fe4-8fc8-9cd595638550/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2010-06-15* — Annihilator abilities trigger and resolve during the declare attackers step. The defending player chooses and sacrifices the required number of permanents before they declare blockers. Any creatures sacrificed this way won’t be able to block.
+  - *2010-06-15* — If a creature with annihilator is attacking a planeswalker, and the defending player chooses to sacrifice that planeswalker, the attacking creature continues to attack. It may be blocked. If it isn’t blocked, it simply won’t deal combat damage to anything.
+  - *2010-06-15* — If an opponent sacrifices a nontoken permanent as part of paying the cost of a spell or ability, the second ability triggers and goes on the stack on top of it. This ability will resolve, causing you to return the card to the battlefield before the other spell or ability resolves.
+  - *2010-06-15* — If an opponent sacrifices an Aura, you’ll choose what it enchants as you return it to the battlefield. No player can respond to the choice. Since an Aura doesn’t target anything if it isn’t cast as a spell, you can enchant a permanent with shroud this way.
+  - *2010-06-15* — If the sacrificed permanent that caused the second ability to trigger somehow leaves the graveyard before the ability resolves (possibly because it was returned to the battlefield by the ability of another It That Betrays), the ability simply won’t do anything when it resolves.
+  - *2010-06-15* — It doesn’t matter whose graveyard the permanent is put into, only that it was last controlled by, and sacrificed by, an opponent.
+  - *2010-06-15* — The second ability triggers whenever an opponent sacrifices a nontoken permanent for any reason, not just due to the annihilator ability.
+  - *2010-06-15* — When the second ability resolves, you must return the card to the battlefield, even if you don’t want to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/805/it-that-betrays) · oracle_id `b11187ab-f8a8-422b-b550-4495f96de0f2` · printing: CMM #805 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### It That Gets Left Hanging
 
@@ -211,7 +221,10 @@
   > *"At first we ignored the little ones. By the time we realized our error, it was too late."*
   > *—General Tazri, allied commander*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2294 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/9/it-that-heralds-the-end) · oracle_id `c14ac951-329d-452b-be75-5c72166cd9c7` · printing: MH3 #9 (2024-06-14) · [rulings](https://api.scryfall.com/cards/c8c47679-0fac-466f-be3c-794f23576e55/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-06-07* — For spells with {X} in their mana costs, use the value chosen for X to determine the spell's mana value.
+  - *2024-06-07* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions (such as that of It That Heralds the End). The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/9/it-that-heralds-the-end) · oracle_id `c14ac951-329d-452b-be75-5c72166cd9c7` · printing: MH3 #9 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Itzquinth, Firstborn of Gishath
 
@@ -226,4 +239,6 @@
   > *—Atla Palani, nest tender*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5947 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/230/itzquinth-firstborn-of-gishath) · oracle_id `f976a244-1240-4430-9182-bb8d6d932ea0` · printing: LCI #230 (2023-11-17) · [rulings](https://api.scryfall.com/cards/7112c366-b36a-4bc8-aa64-6bad16bebc39/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-11-10* — You don't choose targets for Itzquinth, Firstborn of Gishath's triggered ability at the time it triggers. Rather, a second "reflexive" ability triggers when you pay {2} this way. You choose targets for that ability as it goes on the stack. Each player may respond to this triggered ability as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/230/itzquinth-firstborn-of-gishath) · oracle_id `f976a244-1240-4430-9182-bb8d6d932ea0` · printing: LCI #230 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

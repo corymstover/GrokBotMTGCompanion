@@ -165,6 +165,7 @@
   > Threshold — {B}, {T}, Sacrifice this land: Target creature gets -2/-2 until end of turn. Activate only if there are seven or more cards in your graveyard.
 - **Keywords:** Threshold
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6806 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/315/cabal-pit) · oracle_id `92392467-a22f-4dd7-a0eb-393bef956dc0` · printing: ODY #315 (2001-10-01) · [rulings](https://api.scryfall.com/cards/848d686a-e2f7-488d-947f-a555099b74b1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cabal Ritual
@@ -213,6 +214,7 @@
 - **Flavor text** (DOM printing):
   > *The seat of Belzenlok's power, the Stronghold serves as the gathering place for the Cabal as their dark influence spreads from Urborg.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #971 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dom/238/cabal-stronghold) · oracle_id `066cd584-773c-4623-be53-8f6feda5a26a` · printing: DOM #238 (2018-04-27) · [rulings](https://api.scryfall.com/cards/0bda51ef-ee3e-48d4-92e2-c9083bbe0f80/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cabal Surgeon
@@ -296,6 +298,7 @@
   > • Creatures you control get +1/+1 and gain trample until end of turn.
   > • Create two 1/1 green and white Citizen creature tokens.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7835 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/173/cabaretti-charm) · oracle_id `36d8b701-f5dc-42c0-9869-268f8149cbd1` · printing: SNC #173 (2022-04-29) · [rulings](https://api.scryfall.com/cards/08f33c8a-8e93-4296-964b-da132a854b3b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cabaretti Confluence
@@ -319,6 +322,7 @@
 - **Flavor text** (EOC printing):
   > *So long as the Halo keeps flowing, the festivities never end.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #973 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/151/cabaretti-courtyard) · oracle_id `65424bea-fd53-4f85-9757-0b91a6d40ba4` · printing: EOC #151 (2025-08-01) · [rulings](https://api.scryfall.com/cards/c54ddd4e-f668-4ec8-b123-59afa977eba4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cabaretti Initiate

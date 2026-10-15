@@ -71,7 +71,12 @@
   > Foretell {4}{R}{R} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)
 - **Keywords:** Foretell
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1420 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/676/delayed-blast-fireball) · oracle_id `99915b5a-5092-4900-8824-6de2aab1b2c1` · printing: CLB #676 (2022-06-10) · [rulings](https://api.scryfall.com/cards/e59903e3-a344-4218-9d41-8b19a9bc8311/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-06-10* — Because exiling a card with foretell from your hand is a special action, you can do so any time you have priority during your turn, including in response to spells and abilities. Once you announce you're taking the action, no other player can respond by trying to remove the card from your hand.
+  - *2022-06-10* — Casting a foretold card from exile follows the timing rules for that card. If you foretell an instant card, you can cast it as soon as the next player's turn. In most cases, if you foretell a card that isn't an instant (or doesn't have flash), you'll have to wait until your next turn to cast it.
+  - *2022-06-10* — Delayed Blast Fireball deals 5 damage if it was cast from exile for any reason; it doesn't have to be from its foretell ability.
+  - *2022-06-10* — If you're casting a foretold card from exile for its foretell cost, you can't choose to cast it for any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/676/delayed-blast-fireball) · oracle_id `99915b5a-5092-4900-8824-6de2aab1b2c1` · printing: CLB #676 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Delaying Shield
 
@@ -92,6 +97,7 @@
 - **Flavor text** (WHO printing):
   > *"You will be deleted."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5354 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/81/delete) · oracle_id `01d0156f-c26a-4668-a3a4-15ee0790d1b6` · printing: WHO #81 (2023-10-13) · [rulings](https://api.scryfall.com/cards/875c7337-78af-4e13-89e5-3255ba2d4053/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deliberate
@@ -104,6 +110,7 @@
   > *"I can't see all that the future holds, but I can keep us one step ahead of death."*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4749 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/znr/56/deliberate) · oracle_id `362fc643-ab76-4160-a73e-73397464db40` · printing: ZNR #56 (2020-09-25) · [rulings](https://api.scryfall.com/cards/c41c0dd0-fef2-4f3c-8f3c-9c9c521b5442/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Delif's Cone
@@ -180,7 +187,11 @@
   > 1—14 | Create a tapped and attacking token that's a copy of that creature, except it's not legendary and it has "At end of combat, exile this token."
   > 15—20 | Create one of those tokens. You may roll again.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1742 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/138/delina-wild-mage) · oracle_id `8d57dadb-c689-4691-b331-aba15daf46ff` · printing: AFR #138 (2021-07-23) · [rulings](https://api.scryfall.com/cards/e87459aa-af8f-4bd2-a310-151353083a2e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-07-23* — Although the token is attacking, it was never declared as an attacking creature (for purposes of abilities that trigger whenever a creature attacks, for example).
+  - *2021-07-23* — Delina, Wild Mage has received an update to its Oracle text. Specifically, rolling again on a result of 15–20 is optional.
+  - *2021-07-23* — You declare which player or planeswalker the token is attacking as you put it onto the battlefield. It doesn't have to be the same player or planeswalker Delina, Wild Mage is attacking.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/138/delina-wild-mage) · oracle_id `8d57dadb-c689-4691-b331-aba15daf46ff` · printing: AFR #138 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Delirium
 
@@ -201,7 +212,9 @@
 - **Flavor text** (MM3 printing):
   > *There came a rush, a sudden fire in the mind. Then the two saw only the sooty fog of madness, heard only the crackling of their last thoughts burning away.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7375 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mm3/65/delirium-skeins) · oracle_id `7397036f-8114-47cc-b52f-c532a6845d16` · printing: MM3 #65 (2017-03-17) · [rulings](https://api.scryfall.com/cards/64b0d9e7-4a0f-4f07-99ae-31c3c9f0037a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-03-14* — When Delirium Skeins resolves, first the player whose turn it is chooses three cards to discard, then each other player in turn order chooses three cards to discard, then all of those cards are discarded simultaneously. No one sees what the other players are discarding before deciding which cards to discard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mm3/65/delirium-skeins) · oracle_id `7397036f-8114-47cc-b52f-c532a6845d16` · printing: MM3 #65 (2017-03-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deliver Unto Evil
 
@@ -225,6 +238,7 @@
   > *"A new letter has arrived just for you, kupo!"*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7125 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/15/delivery-moogle) · oracle_id `60043b87-6008-4cfa-9d8f-6ee6e3f70766` · printing: FIN #15 (2025-06-13) · [rulings](https://api.scryfall.com/cards/f58840dc-c641-4092-8b67-9c0d449af715/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Delney, Streetwise Lookout
@@ -238,7 +252,18 @@
 - **Flavor text** (MKM printing):
   > *"It's not a matter of what I know. It's a matter of making it worth my while to tell you."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #852 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/12/delney-streetwise-lookout) · oracle_id `245d0ccf-87b6-460a-8b99-9e2079f2d375` · printing: MKM #12 (2024-02-09) · [rulings](https://api.scryfall.com/cards/be219928-3d0e-4d00-b124-152ce8a8c13b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2024-02-02* — Abilities that apply "as [this creature] enters the battlefield" or "as [this creature] is turned face up" are also unaffected.
+  - *2024-02-02* — Abilities that apply "when [this creature] is turned face up" will trigger an additional time only if that creature's power is 2 or less once it has been turned face up.
+  - *2024-02-02* — Delney, Streetwise Lookout's last ability doesn't copy the triggered ability; it just causes the ability to trigger an additional time. Any choices made as you put the ability onto the stack, such as modes and targets, are made separately for each instance of the ability. Any choices made on resolution, such as whether to put counters on a permanent, are also made individually.
+  - *2024-02-02* — If a triggered ability is linked to a second ability, additional instances of that triggered ability are also linked to that second ability. If the second ability refers to "the exiled card," it refers to all cards exiled by instances of the triggered ability.
+  - *2024-02-02* — If you somehow control two Delney, Streetwise Lookouts, abilities of creatures you control with power 2 or less trigger three times. A third Delney causes such abilities to trigger four times, a fourth causes such abilities to trigger five times, and so on.
+  - *2024-02-02* — In some cases involving linked abilities, an ability requires information about "the exiled card." When this happens, the ability gets multiple answers. If these answers are being used to determine the value of a variable, the sum is used. For example, if Elite Arcanist's enters-the-battlefield ability triggers twice, two cards are exiled. The value of X in the activation cost of Elite Arcanist's other ability is the sum of the two cards' mana values. As the ability resolves, you create copies of both cards and can cast none, one, or both of the copies in any order.
+  - *2024-02-02* — Once a creature you control has become blocked, reducing its power to 2 or less and/or increasing the power of the creature blocking it to 3 or greater won't cause it to become unblocked.
+  - *2024-02-02* — Once an ability of a creature you control has triggered, reducing its power to 2 or less won't cause that ability to trigger an additional time. Similarly, once an ability of a creature you control with power 2 or less has triggered an additional time due to Delney, Streetwise Lookout's last ability, increasing its power to 3 or greater won't remove that additional triggered ability from the stack.
+  - *2024-02-02* — Replacement effects are unaffected by Delney, Streetwise Lookout's last ability. For example, a 1/1 creature that enters the battlefield under your control with one +1/+1 counter on it won't receive an additional +1/+1 counter.
+  - *2024-02-02* — Triggered abilities use the word "when," "whenever," or "at." They're often written as "[Trigger condition], [effect]." Some keyword abilities are triggered abilities and will have "when," "whenever," or "at the beginning of" in their reminder text.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/12/delney-streetwise-lookout) · oracle_id `245d0ccf-87b6-460a-8b99-9e2079f2d375` · printing: MKM #12 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Delphia, Undecided
 
@@ -340,7 +365,11 @@
   > Crew 2
 - **Keywords:** Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7219 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/21/deluxe-dragster) · oracle_id `56ba8fe5-8693-4783-8406-9ced99de0b2a` · printing: MOC #21 (2023-04-21) · [rulings](https://api.scryfall.com/cards/4b90313d-9f61-4788-a55e-1f8189bf1ef5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-04-14* — If an exiled card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2023-04-14* — If you cast a card "without paying its mana cost," you can't pay any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, those must be paid to cast the card.
+  - *2023-04-14* — If you cast the instant or sorcery card, you do so as part of the resolution of the triggered ability. You can't wait to cast them later in the turn. Timing restrictions based on a card's type are ignored.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/21/deluxe-dragster) · oracle_id `56ba8fe5-8693-4783-8406-9ced99de0b2a` · printing: MOC #21 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Delver of Secrets // Insectile Aberration
 

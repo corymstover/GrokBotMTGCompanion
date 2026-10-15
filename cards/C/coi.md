@@ -40,6 +40,7 @@
 - **Flavor text** (RVR printing):
   > *Snaking remnants of nature directed by a body of thought and progress, the oracles embody all that is Simic.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1395 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/172/coiling-oracle) · oracle_id `69fd4ddf-9ed8-4c56-bef3-9944daf05e4f` · printing: RVR #172 (2024-01-12) · [rulings](https://api.scryfall.com/cards/559ff1b1-018c-4e08-9531-8af20af47d05/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coiling Rebirth
@@ -51,7 +52,20 @@
   > Return target creature card from your graveyard to the battlefield. Then if the gift was promised and that creature isn't legendary, create a token that's a copy of that creature, except it's 1/1.
 - **Keywords:** Gift
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4595 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/86/coiling-rebirth) · oracle_id `27a91ebd-39f4-432d-b6cc-cd86b4a3979a` · printing: BLB #86 (2024-08-02) · [rulings](https://api.scryfall.com/cards/96d5de3e-0440-4dd1-899c-ab40c0752343/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2024-07-26* — Any abilities that trigger during the resolution of Coiling Rebirth will wait to be put onto the stack until Coiling Rebirth finishes resolving. An ability that triggers when the creature is returned to the battlefield from the graveyard may target the token copy, and vice versa.
+  - *2024-07-26* — Any “enters” abilities of the copied creature will trigger when the token enters. Any “as [this creature] enters” or “[this creature] enters with” abilities of the copied creature will also work.
+  - *2024-07-26* — As an additional cost to cast a spell with gift, you can promise the listed gift to an opponent. That opponent is chosen as part of that additional cost. The gift isn’t given at this time; rather, it’s given at a later time based on whether or not the spell is a permanent spell.
+  - *2024-07-26* — For instants and sorceries with gift, the gift is given to the appropriate opponent as part of the resolution of the spell. This happens before any of the spell’s other effects would take place.
+  - *2024-07-26* — For permanent spells with gift, an ability triggers when that permanent enters if the gift was promised. When that ability resolves, the gift is given to the appropriate opponent.
+  - *2024-07-26* — If a spell for which the gift was promised is countered, doesn’t resolve (perhaps because all of its targets are illegal), or is otherwise removed from the stack, the gift won’t be given. None of its other effects will happen either.
+  - *2024-07-26* — If the copied creature has {X} in its mana cost, X is 0.
+  - *2024-07-26* — If you copy a spell for which the gift was promised, the gift was also promised to the same opponent for the copy. If a card or token enters as a copy of a permanent that’s already on the battlefield, the gift isn’t promised for that new permanent, even if it was promised for the original.
+  - *2024-07-26* — In the main set, there are four different kinds of gifts. “Gift a Food” causes the chosen opponent to create a Food token, while “Gift a Treasure” causes the chosen opponent to create a Treasure token. “Gift a card” causes them to draw a card, and “Gift a tapped Fish” causes them to create a tapped 1/1 blue Fish creature token. The Commander decks contain two more kinds of gifts: “Gift an Octopus,” which causes the chosen opponent to create an 8/8 blue Octopus creature token, and “Gift an extra turn,” which causes them to take an extra turn after the current turn ends.
+  - *2024-07-26* — Some instant or sorcery spells require alternative or additional targets if the gift was promised. You ignore these targeting requirements if the gifts aren’t promised for those spells. On the other hand, you can promise a gift for a permanent spell even if you won’t be able to choose targets for an enters ability of that permanent once the spell resolves.
+  - *2024-07-26* — The token created by the additional effect of Coiling Rebirth isn’t “cast,” so abilities that trigger when a creature spell is cast won’t trigger for the copy.
+  - *2024-07-26* — You can’t pay a gift cost more than once.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/86/coiling-rebirth) · oracle_id `27a91ebd-39f4-432d-b6cc-cd86b4a3979a` · printing: BLB #86 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coiling Stalker
 
@@ -113,4 +127,5 @@
   > *Nowhere else can one coin buy you a second chance.*
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4616 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmc/38/coin-of-mastery) · oracle_id `d78518ee-df79-48d1-b9d5-4f968b441899` · printing: TMC #38 (2026-03-06) · [rulings](https://api.scryfall.com/cards/ca053574-2ac9-4814-955d-87a97e0aca7e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

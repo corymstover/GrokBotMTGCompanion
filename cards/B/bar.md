@@ -122,7 +122,16 @@
   > *—Gandalf*
 - **Keywords:** Amass
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1753 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/253/barad-d%C3%BBr) · oracle_id `88159872-d37d-4847-b048-e4a9af6437bd` · printing: LTR #253 (2023-06-23) · [rulings](https://api.scryfall.com/cards/eb5038af-06b0-401e-8dea-a1a8483788ae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2023-06-16* — Amass Zombies works the same way, except you create a 0/0 black Zombie Army creature token if you don't control an Army. If the Army creature you chose isn't already a Zombie, it becomes a Zombie in addition to its other types. By combining cards with amass Orcs and amass Zombies, you can end up with an Orc Zombie Army.
+  - *2023-06-16* — Amass abilities are now written as "amass [subtype] N." Previous cards with amass have received errata to say "amass Zombies N."
+  - *2023-06-16* — If you don't control an Army, the Orc Army token you create enters the battlefield as a 0/0 creature before receiving counters. Any abilities that trigger when a creature with a certain power enters the battlefield, such as that of Mentor of the Meek, will see the token enter as a 0/0 creature before it gets +1/+1 counters.
+  - *2023-06-16* — In the rare case that you control multiple Army creatures (perhaps because you played a creature with changeling) while you amass Orcs, you choose which of your Army creatures to put the +1/+1 counters on. If that creature isn't an Orc, it becomes an Orc in addition to its other types.
+  - *2023-06-16* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
+  - *2023-06-16* — Some spells and abilities that amass Orcs may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't amass Orcs.
+  - *2023-06-16* — The legendary creature must already be on the battlefield as the land enters the battlefield. If it enters the battlefield at the same time, the land will enter tapped.
+  - *2023-06-16* — To amass Orcs N, if you don't control an Army creature, create a 0/0 black Orc Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already an Orc, it becomes an Orc in addition to its other types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/253/barad-d%C3%BBr) · oracle_id `88159872-d37d-4847-b048-e4a9af6437bd` · printing: LTR #253 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Baral and Kari Zev
 
@@ -134,7 +143,12 @@
   > Whenever you cast your first instant or sorcery spell each turn, you may cast a spell with lesser mana value that shares a card type with it from your hand without paying its mana cost. If you don't, create First Mate Ragavan, a legendary 2/1 red Monkey Pirate creature token. It gains haste until end of turn.
 - **Keywords:** First strike, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7209 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/282/baral-and-kari-zev) · oracle_id `386a6fa7-db5b-4e82-bd25-fd86d910ed0c` · printing: TDC #282 (2025-04-11) · [rulings](https://api.scryfall.com/cards/e777c383-161f-4a80-acb3-2a5c9ed5e927/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2023-04-14* — Baral and Kari Zev will count any instant or sorcery spell you cast during a turn, even if it wasn’t on the battlefield at the time. This means if you cast an instant or sorcery spell, then Baral and Kari Zev comes under your control, its triggered ability won’t trigger that turn.
+  - *2023-04-14* — If the spell has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2023-04-14* — If you cast a spell without paying its mana cost, you can’t choose to cast it for any alternative costs. You can, however, pay any additional costs. If the spell has any mandatory additional costs, you must pay those.
+  - *2023-04-14* — The spell you cast from your hand without paying its mana cost is cast during the resolution of the triggered ability. Timing restrictions of that spell based on card type are ignored. It will resolve before the spell that caused the ability to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/282/baral-and-kari-zev) · oracle_id `386a6fa7-db5b-4e82-bd25-fd86d910ed0c` · printing: TDC #282 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Baral, Chief of Compliance
 
@@ -147,7 +161,11 @@
 - **Flavor text** (AER printing):
   > *"The echo of silence is music to my ears."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1344 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/aer/28/baral-chief-of-compliance) · oracle_id `baf80db7-2ca8-4bfc-b5b6-25ed51878dd7` · printing: AER #28 (2017-01-20) · [rulings](https://api.scryfall.com/cards/60e16d94-1166-4050-8554-686e153a7f80/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-03-19* — A spell or ability counters a spell only if it specifically contains the word "counter" in its text. If a spell or ability you control causes all the targets of a spell to become illegal, that spell doesn't resolve but it's not countered.
+  - *2021-03-19* — The cost reduction applies only to generic mana in the cost of instant and sorcery spells you cast.
+  - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as a flashback cost), add any cost increases (such as kicker costs), then apply any cost reductions (such as that of Baral's first ability). The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/aer/28/baral-chief-of-compliance) · oracle_id `baf80db7-2ca8-4bfc-b5b6-25ed51878dd7` · printing: AER #28 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Baral's Expertise
 
@@ -159,7 +177,17 @@
 - **Flavor text** (TDC printing):
   > *"Get out of my way."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3848 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/146/barals-expertise) · oracle_id `a1cdcb8c-1e12-4d39-aa4a-db678a80df9c` · printing: TDC #146 (2025-04-11) · [rulings](https://api.scryfall.com/cards/d5beecd5-4267-454d-87db-24d476e1f352/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2017-02-09* — A card's mana value is determined solely by the mana symbols printed in its upper right corner. The mana value is the total amount of mana in that cost, regardless of color. For example, a card with mana cost {1}{U}{U} has mana value 3. Ignore any alternative costs, additional costs, cost increases, or cost reductions that could apply to it. A card with no mana cost has a mana value of 0.
+  - *2017-02-09* — Any triggered abilities that trigger while performing the Expertise spell's first effect won't be put onto the stack until after you're done casting your free spell. They're put onto the stack at the same time as any abilities that triggered while casting that spell regardless of the order in which those abilities triggered.
+  - *2017-02-09* — Effects that allow you to "cast" a card don't allow you to play a land card.
+  - *2017-02-09* — If the Expertise spell you cast has any targets, and those targets become illegal before the spell resolves, the spell doesn't resolve and none of its effects happen. You won't get to cast a free spell.
+  - *2017-02-09* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2017-02-09* — If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs, such as emerge costs. You can, however, pay additional costs. If the card has any mandatory additional costs, such as that of Cathartic Reunion, you must pay those to cast the card.
+  - *2017-02-09* — The card that you cast may be an artifact or creature that was returned to your hand by this spell.
+  - *2017-02-09* — While you're casting your free spell, the Expertise spell is still on the stack. It will be put into its owner's graveyard after the free spell is cast. The free spell can't target the Expertise card in your graveyard. It can target the Expertise spell on the stack, but the Expertise spell will become an illegal target before the free spell resolves.
+  - *2017-04-18* — The mana value of a split card is determined by the combined mana cost of its two halves. If an expertise spell allows you to cast a split card, you may cast either half or, if that split card has fuse, both halves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/146/barals-expertise) · oracle_id `a1cdcb8c-1e12-4d39-aa4a-db678a80df9c` · printing: TDC #146 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Barbara Wright
 
@@ -173,7 +201,17 @@
   > *"There will be no sacrifice this afternoon, Doctor. Or ever again."*
 - **Keywords:** History Teacher, Doctor's companion
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7259 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Doctor's companion
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/14/barbara-wright) · oracle_id `0e61a062-f13a-4958-91de-909650c662a8` · printing: WHO #14 (2023-10-13) · [rulings](https://api.scryfall.com/cards/414bdd33-549d-4690-917c-ea48decffbbb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2023-10-13* — Although Doctor's companion is a new variant of the partner ability, the rules for partner have not otherwise changed. Notably, Time Lord Doctors and cards with Doctor's companion do not interact with cards which have another partner ability.
+  - *2023-10-13* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2023-10-13* — As a Saga with read ahead enters the battlefield, its controller chooses a number from one to that Saga's greatest chapter number. The Saga enters the battlefield with the chosen number of lore counters. Neither choosing the number nor putting the counters on the Saga use the stack, and neither can be responded to.
+  - *2023-10-13* — Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+  - *2023-10-13* — Having multiple instances of read ahead doesn't cause anything unusual to happen. It functions the same way as having one instance of read ahead.
+  - *2023-10-13* — If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+  - *2023-10-13* — If your Commander deck has two commanders, you can include only cards whose own color identities are also found in your commanders' combined color identities.
+  - *2023-10-13* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined.
+  - *2023-10-13* — The Doctor's companion ability allows you to have two commanders if one has the ability and the other is a legendary creature that is a Time Lord Doctor and has no other creature types. Creatures with the changeling ability, for example, can't be a second commander this way.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/14/barbara-wright) · oracle_id `0e61a062-f13a-4958-91de-909650c662a8` · printing: WHO #14 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Barbarian Bully
 
@@ -199,7 +237,15 @@
   > {2}{R}: Level 3
   > Creatures you control have haste.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4085 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/131/barbarian-class) · oracle_id `59faa1b9-17aa-4f2c-a8f8-17ab50392b36` · printing: AFR #131 (2021-07-23) · [rulings](https://api.scryfall.com/cards/647c2269-bdc7-4455-9158-73abbff6e50e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2021-07-23* — Each Class has five abilities. The three in the major sections of its text box are class abilities. Class abilities can be static, activated, or triggered abilities. The other two are level abilities, one activated ability to advance the Class to level 2 and another to advance the Class to level 3.
+  - *2021-07-23* — Each Class starts with only the first of three class abilities. As the first level ability resolves, the Class becomes level 2 and gains the second class ability. As the second level ability resolves, the Class becomes level 3 and gains the third class ability.
+  - *2021-07-23* — Gaining a level is a normal activated ability. It uses the stack and can be responded to.
+  - *2021-07-23* — Gaining a level won't remove abilities that a Class had at a previous level.
+  - *2021-07-23* — Some Class cards have an effect that increases when more are under your control. For example, if you have multiple Barbarian Class cards, you roll that many additional dice and ignore that many of the lowest rolls.
+  - *2021-07-23* — You can multiclass or even control multiple Class enchantments of the same class. Each Class permanent tracks its own level separately.
+  - *2021-07-23* — You can't activate the first level ability of a Class unless that Class is level 1. Similarly, you can't activate the second level ability of a Class unless that Class is level 2.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/131/barbarian-class) · oracle_id `59faa1b9-17aa-4f2c-a8f8-17ab50392b36` · printing: AFR #131 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Barbarian General
 
@@ -285,6 +331,7 @@
   > Threshold — {R}, {T}, Sacrifice this land: It deals 2 damage to any target. Activate only if there are seven or more cards in your graveyard.
 - **Keywords:** Threshold
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4889 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/299/barbarian-ring) · oracle_id `eeb9377b-72c1-4214-9a66-0f55577c17d1` · printing: MH3 #299 (2024-06-14) · [rulings](https://api.scryfall.com/cards/c184406c-b22c-4b9b-9d3a-3e7b17efd8a0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Barbary Apes
@@ -403,7 +450,15 @@
   > Whenever this creature is dealt damage, target opponent loses that much life.
 - **Keywords:** Indestructible, Suspect
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5645 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/77/barbed-servitor) · oracle_id `e3d82066-d8b9-47bf-8821-1370c506970b` · printing: MKM #77 (2024-02-09) · [rulings](https://api.scryfall.com/cards/1c34e4ae-9bf3-4098-88f1-267e7d6cfa35/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2024-02-02* — A creature can be dealt an amount of damage greater than its toughness. For example, if Barbed Servitor is dealt 3 damage, its last ability causes the target opponent to lose 3 life.
+  - *2024-02-02* — Being suspected isn't a copiable value. If a permanent becomes a copy of a suspected creature, it won't be suspected.
+  - *2024-02-02* — If a creature is already suspected, suspecting it again won't have any effect.
+  - *2024-02-02* — If a suspected creature loses all abilities, it will lose menace and "This creature can't block", but it won't stop being suspected.
+  - *2024-02-02* — If your life total is brought to 0 or less at the same time that Barbed Servitor is dealt damage, you lose the game before its last ability goes on the stack.
+  - *2024-02-02* — There's no limit to the number of creatures that can be suspected simultaneously. Suspecting a new creature doesn't cause other creatures to stop being suspected.
+  - *2024-02-02* — When an effect suspects a creature, it becomes suspected. It gains menace and "This creature can't block" for as long as it's suspected. It stays suspected until it leaves the battlefield or another effect causes it to no longer be suspected.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/77/barbed-servitor) · oracle_id `e3d82066-d8b9-47bf-8821-1370c506970b` · printing: MKM #77 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Barbed Sextant
 
@@ -477,7 +532,9 @@
   > *—Meg, supply runner*
 - **Keywords:** First strike, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8124 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/26/barbflare-gremlin) · oracle_id `bd7accec-ca8a-49c7-9ae4-fe97d99b4a34` · printing: DSC #26 (2024-09-27) · [rulings](https://api.scryfall.com/cards/825f509c-272e-4c91-a139-da3c67bd6b33/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-09-20* — Barbflare Gremlin's last ability is a mana ability. It doesn't use the stack and can't be responded to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/26/barbflare-gremlin) · oracle_id `bd7accec-ca8a-49c7-9ae4-fe97d99b4a34` · printing: DSC #26 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Barbtooth Wurm
 
@@ -516,7 +573,19 @@
   > {3}{R}{G}: Level 3
   > Whenever you cast a legendary spell, exile the top two cards of your library. You may play them this turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7838 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/217/bard-class) · oracle_id `5bbc3ad0-4865-43f0-8baf-e7f4af5db656` · printing: AFR #217 (2021-07-23) · [rulings](https://api.scryfall.com/cards/37d6343a-c514-4ca6-a415-62d1a473ae20/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2021-07-23* — Each Class has five abilities. The three in the major sections of its text box are class abilities. Class abilities can be static, activated, or triggered abilities. The other two are level abilities, one activated ability to advance the Class to level 2 and another to advance the Class to level 3.
+  - *2021-07-23* — Each Class starts with only the first of three class abilities. As the first level ability resolves, the Class becomes level 2 and gains the second class ability. As the second level ability resolves, the Class becomes level 3 and gains the third class ability.
+  - *2021-07-23* — Gaining a level is a normal activated ability. It uses the stack and can be responded to.
+  - *2021-07-23* — Gaining a level won't remove abilities that a Class had at a previous level.
+  - *2021-07-23* — If you control multiple Bard Classes, legendary creatures you control enter the battlefield with that many additional +1/+1 counters.
+  - *2021-07-23* — If you do not play the cards exiled with Bard Classes Level 3 ability on the turn they are exiled, they will remain exiled indefinitely and cannot be played on a later turn.
+  - *2021-07-23* — If you exile a modal double-faced card this way, you may cast either face of that card.
+  - *2021-07-23* — Some Class cards have an effect that increases when more are under your control. For example, if you have multiple Barbarian Class cards, you roll that many additional dice and ignore that many of the lowest rolls.
+  - *2021-07-23* — Unlike most abilities that reduce the costs of spells, Bard Class's Level 2 ability cannot be applied to generic mana costs. For example, a spell that costs {2}{G} to cast would instead cost {2} to cast.
+  - *2021-07-23* — You can multiclass or even control multiple Class enchantments of the same class. Each Class permanent tracks its own level separately.
+  - *2021-07-23* — You can't activate the first level ability of a Class unless that Class is level 1. Similarly, you can't activate the second level ability of a Class unless that Class is level 2.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/217/bard-class) · oracle_id `5bbc3ad0-4865-43f0-8baf-e7f4af5db656` · printing: AFR #217 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bard, Heir of Girion
 
@@ -544,7 +613,17 @@
   > If one or more tokens would be created under your control, twice that many of those tokens are created instead.
 - **Keywords:** Reach, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7293 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/hob/144/bard-king-of-dale) · oracle_id `d05db2c1-a19a-4803-8e8a-fa2f9b798181` · printing: HOB #144 (2026-08-14) · [rulings](https://api.scryfall.com/cards/c05c2aa6-29c7-40f8-872e-91099b9225c4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2026-06-29* — Bard's last ability only applies to tokens that are created. Copies of permanent spells that resolve become tokens on the battlefield, but those tokens are not created and will not be doubled by Bard's ability.
+  - *2026-06-29* — Because Bard, King of Dale is legendary, it's unlikely that one player will control two. However, if that happens, cards drawn by that player will be multiplied by four. Three Bards will multiply by eight, and so on.
+  - *2026-06-29* — For Bard's last ability, all of the tokens enter the battlefield simultaneously. They'll be created with the same name, color, type and subtype, abilities, power, toughness, and so on.
+  - *2026-06-29* — If an effect creates more than one kind of token, it'll create twice as many of each kind. For example, if you control Bilbo, Fellow Conspirator and Bard, King of Dale and you create a Food token, you'll create two Food tokens and two Treasure tokens (regardless of the order you chose to apply the replacement effects).
+  - *2026-06-29* — If the effect creating the tokens instructs you to do something with those tokens at a later time, like exiling them at the end of combat, you'll do that for all the tokens.
+  - *2026-06-29* — If the token you create has any "as [this permanent] enters" or "[this permanent] enters with" abilities, first determine how many tokens are being created, then apply those abilities individually for each one. For example, if a token with "You may have [this permanent] enter as a copy of any creature on the battlefield" would be created (such as an embalmed Vizier of Many Faces), the resulting two tokens can each copy a different creature.
+  - *2026-06-29* — If two or more replacement effects would apply to a card-drawing event, the player drawing the card chooses the order in which to apply them.
+  - *2026-06-29* — If you control Bard, King of Dale and create an Army token because you amass and didn't already control an Army, you will create two Army tokens. However, since you can only put the counters on one of the tokens, the other remains a 0/0 creature and will be put into its owner's graveyard the next time state-based actions are checked.
+  - *2026-06-29* — Similarly, the effect of the last ability on multiple Bard, King of Dale is cumulative. If you control two, you'll create four times the number of tokens.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hob/144/bard-king-of-dale) · oracle_id `d05db2c1-a19a-4803-8e8a-fa2f9b798181` · printing: HOB #144 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bard's Bow
 
@@ -670,7 +749,17 @@
   > *"Trust in the path, and it will bear you to safety."*
   > *—Inga Rune-Eyes*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1132 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/251/barkchannel-pathway-tidechannel-pathway) · oracle_id `59d22de5-e310-44d7-89cf-ef3529e40cef` · printing: KHM #251 (2021-02-05) · [rulings](https://api.scryfall.com/cards/b6de14ae-0132-4261-af00-630bf15918cd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2021-02-05* — A modal double-faced card can’t be transformed or be put onto the battlefield transformed. Ignore any instruction to transform a modal double-faced card or to put one onto the battlefield transformed.
+  - *2021-02-05* — If an effect allows you to play a land or cast a spell from among a group of cards, you may play or cast a modal double-faced card with any face that fits the criteria of that effect.
+  - *2021-02-05* — If an effect allows you to play a specific modal double-faced card, you may cast it as a spell or play it as a land, as determined by which face you choose to play. If an effect allows you to cast (rather than “play”) a specific modal double-faced card, you can’t play it as a land.
+  - *2021-02-05* — If an effect instructs a player to choose a card name, the name of either face may be chosen. If that effect or a linked ability refers to a spell with the chosen name being cast and/or a land with the chosen name being played, it considers only the chosen name, not the other face’s name.
+  - *2021-02-05* — If an effect puts a double-faced card onto the battlefield, it enters with its front face up. If that front face can’t be put onto the battlefield, it doesn’t enter the battlefield.
+  - *2021-02-05* — In the Commander variant, a double-faced card’s color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered.
+  - *2021-02-05* — The mana value of a modal double-faced card is based on the characteristics of the face that’s being considered. On the stack and battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
+  - *2021-02-05* — There is a single triangle icon in the top left corner of the front face. There is a double triangle icon in the top left corner of the back face.
+  - *2021-02-05* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you’re playing and ignore the other face’s characteristics.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/251/barkchannel-pathway-tidechannel-pathway) · oracle_id `59d22de5-e310-44d7-89cf-ef3529e40cef` · printing: KHM #251 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Barkform Harvester
 
@@ -685,7 +774,12 @@
   > *The farmers hide when it runs out of potatoes to harvest.*
 - **Keywords:** Reach, Changeling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4401 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/243/barkform-harvester) · oracle_id `0339bd11-ad71-4998-9b5d-a32790f0e5e3` · printing: BLB #243 (2024-08-02) · [rulings](https://api.scryfall.com/cards/f77049a6-0f22-415b-bc89-20bcb32accf6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-07-26* — Changeling is a characteristic-defining ability. It functions in all zones, not only while a card that has it is on the battlefield.
+  - *2024-07-26* — If an effect causes a creature with changeling to become a new creature type, it will be only that new creature type. It will still have changeling; the effect making it all creature types will simply be overwritten.
+  - *2024-07-26* — If an effect causes a creature with changeling to lose all abilities, it will remain all creature types, even though it will no longer have changeling. This is because changeling applies before the effect that removes it.
+  - *2024-07-26* — The subtype Shapeshifter that appears on the type line is mostly there to reinforce the flavor. A creature card with changeling is just as much a Mouse, a Frog, a Rabbit, a Lizard, and a Brushwagg as it is a Shapeshifter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/243/barkform-harvester) · oracle_id `0339bd11-ad71-4998-9b5d-a32790f0e5e3` · printing: BLB #243 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Barkhide Mauler
 
@@ -796,7 +890,9 @@
 - **Flavor text** (FIN printing):
   > *The advent of the airship marked the realization of Baron's dreams, but also the birth of its militarism.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4464 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/273/baron-airship-kingdom) · oracle_id `cc710da0-5a2e-4bc4-8fdd-d90e7bc1f224` · printing: FIN #273 (2025-06-13) · [rulings](https://api.scryfall.com/cards/6e4bf840-802d-47d5-bffd-8ba495e19cf6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-06-06* — Town is a land type with no special meaning. It doesn't grant the land any intrinsic abilities. Other cards may care about which lands are Towns.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/273/baron-airship-kingdom) · oracle_id `cc710da0-5a2e-4bc4-8fdd-d90e7bc1f224` · printing: FIN #273 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Baron Bertram Graywater
 
@@ -809,7 +905,9 @@
 - **Flavor text** (OTJ printing):
   > *"Of course the law's on my side. I wrote it."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4434 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/195/baron-bertram-graywater) · oracle_id `e25b516c-bf95-42bc-8b1e-04617a3d28df` · printing: OTJ #195 (2024-04-19) · [rulings](https://api.scryfall.com/cards/e9da18b4-1efc-44b7-8001-a2cfd44c69bf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-04-12* — If Baron Bertram Graywater enters under your control and is itself a token, its own ability will trigger and you’ll create a Vampire Rogue token. If you also control a nontoken Baron Bertram Graywater, that one’s ability will also trigger, netting you another Vampire Rogue. Of course, both Barons Bertram Graywater are legendary, so one Baron Bertram Graywater will soon be taking their leave. Farewell, Baron Bertram Graywater.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/195/baron-bertram-graywater) · oracle_id `e25b516c-bf95-42bc-8b1e-04617a3d28df` · printing: OTJ #195 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Baron Helmut Zemo
 
@@ -851,6 +949,7 @@
   > *"Minions of HYDRA! Behold! Our ultimate destiny is at hand!"*
 - **Keywords:** Connive
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7896 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/88/baron-strucker-hydra-overlord) · oracle_id `c91e64d4-e687-4ccd-a56e-796cff6e052c` · printing: MSH #88 (2026-06-26) · [rulings](https://api.scryfall.com/cards/eaf2251a-ffaf-4055-9474-7e3d08d89609/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Baron Von Count
@@ -983,7 +1082,9 @@
   > Cycling {B} ({B}, Discard this card: Draw a card.)
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1060 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/262/barren-moor) · oracle_id `326ba371-124c-4949-a048-3a0c8962e567` · printing: DSC #262 (2024-09-27) · [rulings](https://api.scryfall.com/cards/380eb7fd-bc79-4cad-9c2b-9b2b10761a72/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/262/barren-moor) · oracle_id `326ba371-124c-4949-a048-3a0c8962e567` · printing: DSC #262 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Barrensteppe Siege
 
@@ -994,7 +1095,10 @@
   > • Abzan — At the beginning of your end step, put a +1/+1 counter on each creature you control.
   > • Mardu — At the beginning of your end step, if a creature died under your control this turn, each opponent sacrifices a creature of their choice.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4877 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/171/barrensteppe-siege) · oracle_id `228d3307-69a9-45ce-a610-77754ed50877` · printing: TDM #171 (2025-04-11) · [rulings](https://api.scryfall.com/cards/2556a35b-2229-42c7-8cb3-c8c668403dd2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-04-04* — Barrensteppe Siege’s Mardu ability will check as the end step starts to see if a creature died under your control this turn. If none did, the ability won’t trigger at all.
+  - *2025-04-04* — If you somehow control Barrensteppe Siege and no choice was made for it (perhaps because another permanent on the battlefield became a copy of it), it has neither of the two abilities.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/171/barrensteppe-siege) · oracle_id `228d3307-69a9-45ce-a610-77754ed50877` · printing: TDM #171 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Barrenton Cragtreads
 
@@ -1032,7 +1136,9 @@
   > At the beginning of combat on your turn, attach up to one target Equipment you control to target Rebel you control.
 - **Keywords:** Reach, Avalanche!
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7466 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/79/barret-avalanche-leader) · oracle_id `83f776d9-f3b6-40c2-8008-1ace4d110825` · printing: FIC #79 (2025-06-13) · [rulings](https://api.scryfall.com/cards/2e37fd36-84f0-4869-bfae-da4b97c9725d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-06-06* — You can't use Barret's last ability to try to attach an Equipment to a Rebel if that Equipment can't legally be attached to that Rebel.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/79/barret-avalanche-leader) · oracle_id `83f776d9-f3b6-40c2-8008-1ace4d110825` · printing: FIC #79 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Barret Wallace
 
@@ -1146,7 +1252,13 @@
 - **Flavor text** (M21 printing):
   > *"There is no age at which you stop learning."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8737 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/m21/45/barrin-tolarian-archmage) · oracle_id `f98f7cb7-90ca-41e7-9f1d-8054931ecf0e` · printing: M21 #45 (2020-07-03) · [rulings](https://api.scryfall.com/cards/cb078fbb-beb9-4c0b-be93-ed1e73e6f8d8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2020-06-23* — Barrin's last ability checks the entire turn, even before Barrin was on the battlefield.
+  - *2020-06-23* — If a permanent wasn't put into your hand from the battlefield before your end step begins, Barrin's ability doesn't trigger at all.
+  - *2020-06-23* — If a token is returned to your hand, it's put there before it ceases to exist.
+  - *2020-06-23* — The permanent that was returned to your hand doesn't have to still be there.
+  - *2020-06-23* — You draw only one card, no matter how many permanents were put into your hand from the battlefield during that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m21/45/barrin-tolarian-archmage) · oracle_id `f98f7cb7-90ca-41e7-9f1d-8054931ecf0e` · printing: M21 #45 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Barroom Brawl
 
@@ -1170,6 +1282,7 @@
   > Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7206 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/237/barrow-blade) · oracle_id `867c5592-50d5-420c-ac71-50014bc390eb` · printing: LTR #237 (2023-06-23) · [rulings](https://api.scryfall.com/cards/f0eb7284-78a5-4b5e-8f6d-6be540e0bef8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Barrow Ghoul
@@ -1196,7 +1309,11 @@
   > Whenever this creature deals combat damage to a player, you may mill that many cards. If you do, you may put a creature card from among them into your hand.
 - **Keywords:** Lifelink, Mill, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4185 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/plst/M3C-102/barrowgoyf) · oracle_id `74c0164c-130f-4572-9066-626c77f6e2ff` · printing: PLST #M3C-102 (2026-10-19) · [rulings](https://api.scryfall.com/cards/fcf0c46b-a37c-4475-99a1-bff6bc0cf2db/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-06-07* — Card types that can appear on cards in a graveyard are artifact, battle, creature, enchantment, instant, kindred, land, planeswalker, and sorcery. Legendary, basic, and snow are supertypes, not card types; Lhurgoyf, Forest, and Siege are subtypes, not card types.
+  - *2024-06-07* — The ability that defines Barrowgoyf's power and toughness counts card types, not cards. If the only card in all graveyards is a single artifact creature card, Barrowgoyf will be a 2/3. If the cards in all graveyards are ten artifact cards and ten creature cards, Barrowgoyf will still be a 2/3.
+  - *2024-06-07* — The ability that defines Barrowgoyf's power and toughness works in all zones, not just the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/plst/M3C-102/barrowgoyf) · oracle_id `74c0164c-130f-4572-9066-626c77f6e2ff` · printing: PLST #M3C-102 (2026-10-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Barrowin of Clan Undurr
 
@@ -1296,6 +1413,7 @@
   > *"It may not look like much, but it's a good old door with strong wards. It'll hold."*
   > *—Olgard of the Skiltfolk*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8759 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dka/2/bar-the-door) · oracle_id `1ecd7248-ff28-4e12-b72a-0cb279ec7561` · printing: DKA #2 (2012-02-03) · [rulings](https://api.scryfall.com/cards/b593f544-2d82-4237-b9a9-88503b5036cc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bar the Gate
@@ -1333,6 +1451,7 @@
 - **Flavor text** (LCI printing):
   > *"Bless this sinner, who sacrificed his blood so that I may live."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1800 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/224/bartolom%C3%A9-del-presidio) · oracle_id `f47e4c56-0a0b-422d-bf3d-7a20ee289f15` · printing: LCI #224 (2023-11-17) · [rulings](https://api.scryfall.com/cards/690ccdc7-6c43-4902-9d11-2f07b7a36b11/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bartz and Boko
@@ -1347,7 +1466,9 @@
   > *"Call me Bartz. Me and my chocobo just go wherever the trail leads us..."*
 - **Keywords:** Affinity
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7154 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/175/bartz-and-boko) · oracle_id `2d995c47-e548-4fc4-9182-fef46af20ca5` · printing: FIN #175 (2025-06-13) · [rulings](https://api.scryfall.com/cards/d818d574-2832-4a7a-a13b-aa6e695fdaa5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-06-06* — Bartz and Boko's last ability targets only one creature, regardless of how many Birds you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/175/bartz-and-boko) · oracle_id `2d995c47-e548-4fc4-9182-fef46af20ca5` · printing: FIN #175 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Baru, Fist of Krosa
 
@@ -1370,4 +1491,6 @@
   > Wurms you control get +2/+2 and have trample.
   > {7}{G}, {T}: Create a 4/4 green Wurm creature token. This ability costs {X} less to activate, where X is the greatest power among Wurms you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9866 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/26/baru-wurmspeaker) · oracle_id `1cf27d78-d6ae-4fa2-9c8d-c277913f821c` · printing: DMC #26 (2022-09-09) · [rulings](https://api.scryfall.com/cards/2cae4149-d8ef-4772-9db4-cb576bef61b5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-09-09* — The cost reduction of Baru’s last ability can’t reduce the cost to activate it to less than {G}, even if you control a Wurm with power greater than 7.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/26/baru-wurmspeaker) · oracle_id `1cf27d78-d6ae-4fa2-9c8d-c277913f821c` · printing: DMC #26 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -207,6 +207,7 @@
   > Fire of Tzeentch — Whenever you cast an instant or sorcery spell, this creature deals 1 damage to each opponent.
 - **Keywords:** Sorcerous Inspiration, Fire of Tzeentch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3280 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/119/exalted-flamer-of-tzeentch) · oracle_id `6591a589-deb4-462f-a4f1-f6261f3433c3` · printing: 40K #119 (2022-10-07) · [rulings](https://api.scryfall.com/cards/47ebc3bc-113f-437c-b60a-9597939d91ea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Exalted Sunborn
@@ -220,7 +221,9 @@
   > Warp {1}{W} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)
 - **Keywords:** Flying, Lifelink, Warp
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1308 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/15/exalted-sunborn) · oracle_id `43febbcd-ecbe-4edb-ad90-7fc6dc381d05` · printing: EOE #15 (2025-08-01) · [rulings](https://api.scryfall.com/cards/7e1fe101-f634-41e5-9aa4-e8d7474535dc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-07-25* — Everything that is specified by the effect creating the original token or tokens will also be true about the additional token or tokens created by Exalted Sunborn’s replacement effect. For example, if an effect tells you to create a token “tapped and attacking,” the additional tokens will also be tapped and attacking. Similarly, if an effect creates a token and puts counters on it, the additional token will also get those counters.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/15/exalted-sunborn) · oracle_id `43febbcd-ecbe-4edb-ad90-7fc6dc381d05` · printing: EOE #15 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Exava, Rakdos Blood Witch
 
@@ -247,7 +250,13 @@
   > *The ultimate sword, used by a legendary king. It was forged in another world.*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4526 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/257/excalibur-ii) · oracle_id `bfb6651c-e0b3-4dbd-b26a-3eeb690985fc` · printing: FIN #257 (2025-06-13) · [rulings](https://api.scryfall.com/cards/d42e5fed-67ac-46d7-a5d4-78f661f3e8b4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-06-06* — Each creature with lifelink dealing combat damage causes a separate life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, Excalibur II's ability will trigger twice. However, if a single creature you control with lifelink deals combat damage to multiple creatures, players, planeswalkers, and/or battles at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once.
+  - *2025-06-06* — Excalibur II's first ability triggers just once for each life-gaining event, whether it's 1 life from Al Bhed Salvagers or 3 life from Balamb T-Rexaur.
+  - *2025-06-06* — If the equipped creature is dealt lethal damage at the same time that you gain life, it will die before Excalibur II's first ability would resolve.
+  - *2025-06-06* — If you gain an amount of life "for each" of something or "equal to the number" of something, that life is gained as one event and Excalibur II's first ability triggers only once.
+  - *2025-06-06* — In a Two-Headed Giant game, life gained by your teammate won't cause Excalibur II's first ability to trigger, even though it caused your team's life total to increase.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/257/excalibur-ii) · oracle_id `bfb6651c-e0b3-4dbd-b26a-3eeb690985fc` · printing: FIN #257 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Excalibur, Sword of Eden
 
@@ -258,7 +267,15 @@
   > Equipped creature gets +10/+0 and has vigilance.
   > Equip legendary creature {2}
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #926 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/acr/72/excalibur-sword-of-eden) · oracle_id `9fb6bd72-031b-40a1-83c5-8a1c82f84e12` · printing: ACR #72 (2024-07-05) · [rulings](https://api.scryfall.com/cards/26dbf574-3193-413e-a982-4b9d27dafaf5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2024-07-05* — A card, spell, or permanent is historic if it has the legendary supertype, the artifact card type, or the Saga subtype. Having two of those qualities doesn’t make an object more historic than another or provide an additional bonus—an object either is historic or it isn’t.
+  - *2024-07-05* — An ability that triggers “whenever you cast a historic spell” doesn’t trigger if a historic card is put onto the battlefield without being cast.
+  - *2024-07-05* — Excalibur’s mana value doesn’t change no matter what the total mana value of historic permanents you control is.
+  - *2024-07-05* — Lands are never cast, so abilities that trigger “whenever you cast a historic spell” won’t trigger if you play a legendary land. They also won’t trigger if a card on the battlefield transforms into a card with the legendary supertype, the artifact card type, or the Saga subtype.
+  - *2024-07-05* — Once you announce you’re casting a spell, no player may take actions until the spell has been paid for. Notably, opponents can’t try to remove historic permanents you control from the battlefield at that time.
+  - *2024-07-05* — Once you determine the cost to cast Excalibur, you may activate mana abilities to pay that cost. If the total mana value of historic permanents you control changes while activating mana abilities (probably because you sacrificed one or more historic permanents), the cost to cast Excalibur remains what you previously determined.
+  - *2024-07-05* — Some abilities trigger “whenever you cast a historic spell.” Such an ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/acr/72/excalibur-sword-of-eden) · oracle_id `9fb6bd72-031b-40a1-83c5-8a1c82f84e12` · printing: ACR #72 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Excavated Wall
 
@@ -405,7 +422,9 @@
   > *"Riddles are but petty diversions. Phyrexia is the only truth."*
 - **Keywords:** Incubate, Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7386 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/14/excise-the-imperfect) · oracle_id `d3264482-2a5a-45e8-987f-593b8aceac12` · printing: MOC #14 (2023-04-21) · [rulings](https://api.scryfall.com/cards/ec4d501d-dacf-4f49-8756-f1190e244405/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-04-14* — If the nonland permanent is an illegal target at the time Excise the Imperfect tries to resolve, it won't resolve and none of its effects will happen. Its controller won't incubate.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/14/excise-the-imperfect) · oracle_id `d3264482-2a5a-45e8-987f-593b8aceac12` · printing: MOC #14 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Exclude
 
@@ -418,7 +437,9 @@
   > *"I don't have time for you right now."*
   > *—Teferi*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9438 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/90/exclude) · oracle_id `a8c9f91a-b1e7-451d-b6db-ae865e2b853c` · printing: CMM #90 (2023-08-04) · [rulings](https://api.scryfall.com/cards/014bc5a5-4483-42e9-9c14-1ad229b28eb7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-06-14* — Exclude can target a creature spell that can't be countered. When Exclude resolves, that spell won't be countered, but you'll still draw a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/90/exclude) · oracle_id `a8c9f91a-b1e7-451d-b6db-ae865e2b853c` · printing: CMM #90 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Exclusion Mage
 
@@ -523,7 +544,9 @@
 - **Flavor text** (2XM printing):
   > *There is always a moment of trepidation before opening a message capsule, for fear of the judgment that might be contained within.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7264 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/92/executioners-capsule) · oracle_id `c9cd266c-7ecf-4beb-b9da-69b88f33abd3` · printing: 2XM #92 (2020-08-07) · [rulings](https://api.scryfall.com/cards/032ea333-96e1-4ad8-8947-21d6bc3a9f91/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — The only difference between a colored artifact and a colorless artifact is, obviously, its color. Unlike most artifacts, a colored artifact requires colored mana to cast. Also unlike most artifacts, a colored artifact has a color in all zones. It will interact with cards that care about color. Other than that, a colored artifact behaves just like any other artifact. It will interact as normal with any card that cares about artifacts, such as Shatter or Arcbound Ravager.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/92/executioners-capsule) · oracle_id `c9cd266c-7ecf-4beb-b9da-69b88f33abd3` · printing: 2XM #92 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Executioner's Hood
 
@@ -558,7 +581,14 @@
   > Whenever you put one or more +1/+1 counters on this creature, draw a card. This ability triggers only once each turn.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1137 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/733/exemplar-of-light) · oracle_id `9ad730b5-8950-4215-9319-387e2970dd22` · printing: FDN #733 (2026-04-24) · [rulings](https://api.scryfall.com/cards/b7393efb-da40-4b55-a6ff-ce774f0815f9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — Each creature with lifelink dealing combat damage causes a separate life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, Exemplar of Light's second ability will trigger twice. However, if a single creature you control with lifelink deals combat damage to multiple creatures, players, planeswalkers, and/or battles at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once.
+  - *2024-11-08* — Exemplar of Light's last ability triggers whenever you put one or more +1/+1 counters on it for any reason, not just as a result of its second ability.
+  - *2024-11-08* — Exemplar of Light's second ability triggers just once for each life-gaining event, whether it's 1 life from Dazzling Angel or 4 life from Apothecary Stomper.
+  - *2024-11-08* — If Exemplar of Light is dealt lethal damage at the same time that you gain life, it won't receive a counter from its second ability in time to save it.
+  - *2024-11-08* — If you gain an amount of life "for each" of something or "equal to the number" of something, that life is gained as one event and Exemplar of Light's second ability triggers only once.
+  - *2024-11-08* — In a Two-Headed Giant game, life gained by your teammate won't cause Exemplar of Light's second ability to trigger, even though it caused your team's life total to increase.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/733/exemplar-of-light) · oracle_id `9ad730b5-8950-4215-9319-387e2970dd22` · printing: FDN #733 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Exemplar of Strength
 
@@ -621,7 +651,9 @@
   > *—\*Strixhaven Star\* gallery show review*
 - **Keywords:** Mill, Opus
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8076 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/48/exhibition-tidecaller) · oracle_id `d32c9439-4c97-412b-83cc-6d9acb48be3c` · printing: SOS #48 (2026-04-24) · [rulings](https://api.scryfall.com/cards/a58c364e-d0c5-41b9-8c8b-2e5a99468cc7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-03-20* — An opus ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/48/exhibition-tidecaller) · oracle_id `d32c9439-4c97-412b-83cc-6d9acb48be3c` · printing: SOS #48 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Exhilarating Elocution
 
@@ -644,6 +676,7 @@
   > *"Death—an outmoded concept. We sleep, and we change."*
   > *—Sitrik, birth priest*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3943 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/230/exhume) · oracle_id `fbe61f74-1b3c-4e12-8758-7029872c9ff1` · printing: JMP #230 (2020-07-17) · [rulings](https://api.scryfall.com/cards/5f1cdcba-a04a-4a2f-8bc1-0dd7fa03754d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Exhumer Thrull
@@ -747,7 +780,12 @@
   > Bio-plasmic Barrage — When this creature enters, it deals X damage to each player and each other creature.
 - **Keywords:** Ravenous, Bio-plasmic Barrage
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7336 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/40k/76/exocrine) · oracle_id `cdf34da6-d952-43ca-855d-fcd9d49efae6` · printing: 40K #76 (2022-10-07) · [rulings](https://api.scryfall.com/cards/5b8c1303-6829-4c82-96de-a67bc0d72e42/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-10-07* — A creature with ravenous gets its counters as it enters the battlefield. It doesn't enter the battlefield first and then get its counters. Any triggered ability that looks for a creature with a certain power or toughness entering the battlefield will see the counters when it checks to see if it should trigger.
+  - *2022-10-07* — If a permanent spell with ravenous is copied, the copy will have the same value for X, and the token permanent that the spell becomes as it enters the battlefield will enter with X counters.
+  - *2022-10-07* — If another permanent enters the battlefield as a copy of a creature with Ravenous, it will not enter with any counters from the ravenous ability.
+  - *2022-10-07* — The triggered ability that checks to see if X is 5 or greater refers to the value of X that was chosen as the spell was cast, which may be different from the number of counters it entered with if there are replacement effects involved. This is also true for any other ability that it has which refers to X and triggers when it enters the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/40k/76/exocrine) · oracle_id `cdf34da6-d952-43ca-855d-fcd9d49efae6` · printing: 40K #76 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Exorcise
 
@@ -759,6 +797,7 @@
   > *"Strictly speaking, you can't kill what's already dead, but trapping and disintegrating it is pretty close."*
   > *—Garden, survivor technologist*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5941 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/8/exorcise) · oracle_id `58916455-844c-4d97-908f-8205bdc117c0` · printing: DSK #8 (2024-09-27) · [rulings](https://api.scryfall.com/cards/f49006f2-a097-417d-8eb0-b8016ff2e0d5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Exorcist
@@ -891,7 +930,20 @@
   > Look at the top six cards of your library. Put up to two land cards from among them onto the battlefield tapped and the rest on the bottom of your library in a random order. If you put fewer than two lands onto the battlefield this way, proliferate a number of times equal to the difference. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)
 - **Keywords:** Proliferate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5296 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/168/expand-the-sphere) · oracle_id `0fac3187-9b86-4854-854b-a4c203526a64` · printing: ONE #168 (2023-02-10) · [rulings](https://api.scryfall.com/cards/572e174e-99f7-4b5e-8506-1833adddbf07/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2023-02-04* — An ability that triggers "Whenever you proliferate" triggers even if you chose no permanents or players while doing so.
+  - *2023-02-04* — An ability that triggers "Whenever you proliferate" triggers even if you chose no permanents or players while doing so.
+  - *2023-02-04* — If a permanent ever has both +1/+1 counters and -1/-1 counters on it at the same time, they're removed in pairs as a state-based action so that the permanent has only one of those kinds of counters on it.
+  - *2023-02-04* — If a permanent ever has both +1/+1 counters and -1/-1 counters on it at the same time, they're removed in pairs as a state-based action so that the permanent has only one of those kinds of counters on it.
+  - *2023-02-04* — If a player or permanent has more than one kind of counter on it, and you choose for it to get additional counters, it must get one of each kind of counter it already has. You can't have it get just one kind of counter it already has and not the others.
+  - *2023-02-04* — If a player or permanent has more than one kind of counter on it, and you choose for it to get additional counters, it must get one of each kind of counter it already has. You can't have it get just one kind of counter it already has and not the others.
+  - *2023-02-04* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
+  - *2023-02-04* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
+  - *2023-02-04* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
+  - *2023-02-04* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
+  - *2023-02-04* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+  - *2023-02-04* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/168/expand-the-sphere) · oracle_id `0fac3187-9b86-4854-854b-a4c203526a64` · printing: ONE #168 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Expansion Algorithm
 
@@ -904,7 +956,14 @@
   > *—Zimone*
 - **Keywords:** Proliferate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5867 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/19/expansion-algorithm) · oracle_id `afbc348a-7b27-4577-8c24-cd6d5b894dc1` · printing: SOC #19 (2026-04-24) · [rulings](https://api.scryfall.com/cards/ef261999-1c18-46f3-bbd6-72911e14328f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2026-03-20* — If a player or permanent has more than one kind of counter on it, and you choose for it to get additional counters, it must get one of each kind of counter it already has. You can't have it get just one kind of counter it already has and not the others.
+  - *2026-03-20* — If you proliferate multiple times, you don't have to choose the same set of players and/or permanents to get additional counters each time.
+  - *2026-03-20* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
+  - *2026-03-20* — When you proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
+  - *2026-03-20* — While proliferating multiple times, players can't respond between proliferating the first time and proliferating the second time, and so on.
+  - *2026-03-20* — You don't have to choose every permanent or player that has a counter—only the ones you want to add counters to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/19/expansion-algorithm) · oracle_id `afbc348a-7b27-4577-8c24-cd6d5b894dc1` · printing: SOC #19 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Expansion // Explosion
 
@@ -914,7 +973,26 @@
 - **Face 2: Explosion** — {X}{U}{U}{R}{R} — Instant
   > Explosion deals X damage to any target. Target player draws X cards.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3901 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/287/expansion-explosion) · oracle_id `af6f771f-5154-4fb3-8ed4-768d71eea568` · printing: TDC #287 (2025-04-11) · [rulings](https://api.scryfall.com/cards/65c091fa-00a8-4f20-8148-46db3fc3c67d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (18):
+  - *2022-12-08* — A split card's characteristics are a combination of its two halves while it is not on the stack. For example, Assault // Battery has a mana value of 5 while it is in your library. If an effect allows you to search your library for a card with mana value 4 or less, you can't find Assault // Battery.
+  - *2022-12-08* — Each split card has two names. If an effect instructs you to choose a card name, you may choose one of those names, but not both.
+  - *2022-12-08* — Each split card is a single card. For example, if you discard a split card, you've discarded one card, not two. If an effect counts the number of sorcery cards in your graveyard, Assault // Battery counts once, not twice.
+  - *2022-12-08* — If an effect allows you to cast a spell with certain characteristics, consider only the characteristics of the half you're casting. For example, if an effect allows you to cast a sorcery spell with mana value 2 or less from among cards in your graveyard, you could cast Assault this way, but not Battery.
+  - *2022-12-08* — If you copy a spell that's half of a split card, the copy copies that same half. For example, if you copy Assault, the copy is also Assault, not Battery.
+  - *2022-12-08* — Split cards have two card faces on a single card. The characteristics of the half you didn't cast are ignored while the spell is on the stack.
+  - *2022-12-08* — To cast a split card, choose one of its halves to cast. There's no way to cast both halves of this split card.
+  - *2024-01-12* — Any choices made as a spell resolves won't have been made yet once it's copied. Any such choices will be made separately as the copy resolves.
+  - *2024-01-12* — Expansion can copy any instant or sorcery spell with an appropriate mana value, not just one with targets.
+  - *2024-01-12* — If a spell has {X} in its mana cost, include the value chosen for that X when determining the mana value of that spell.
+  - *2024-01-12* — If one of Explosion's two targets becomes illegal, the other is affected as appropriate.
+  - *2024-01-12* — If the spell has damage divided as it was cast, the division can't be changed (although the targets receiving that damage still can). The same is true of spells that distribute counters.
+  - *2024-01-12* — If the spell that's copied has an X whose value was determined as it was cast (like Banefire does), the copy will have the same value of X.
+  - *2024-01-12* — If the spell that's copied is modal (that is, it says "Choose one —" or the like), the copy will have the same mode or modes. You can't choose different ones.
+  - *2024-01-12* — If you copy a spell, you control the copy. It will resolve before the original spell does.
+  - *2024-01-12* — The controller of a copy can't choose to pay any alternative or additional costs for the copy. However, effects based on any alternative or additional costs that were paid for the original spell are copied as though those same costs were paid for the copy.
+  - *2024-01-12* — The copy is created on the stack, so it's not "cast." Abilities that trigger when a player casts a spell won't trigger.
+  - *2024-01-12* — The copy will have the same targets as the spell it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/287/expansion-explosion) · oracle_id `af6f771f-5154-4fb3-8ed4-768d71eea568` · printing: TDC #287 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Expedite
 
@@ -926,6 +1004,7 @@
 - **Flavor text** (CMR printing):
   > *"I run, and thunder follows."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1215 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/413/expedite) · oracle_id `3501a839-eef5-44e4-8637-b5754780454e` · printing: CMR #413 (2020-11-20) · [rulings](https://api.scryfall.com/cards/b86c0628-0b61-44f2-91cc-1c3c309631ce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Expedited Inheritance
@@ -1074,7 +1153,9 @@
 - **Flavor text** (TDC printing):
   > *When a redcap raid threatened the Grand Ball at Delverhaugh, Goddric had no choice but to reveal his true identity and douse the invaders in dragonfire.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2772 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/115/expel-the-interlopers) · oracle_id `744b7e93-c893-4770-a3bb-6a45b7f8e4f7` · printing: TDC #115 (2025-04-11) · [rulings](https://api.scryfall.com/cards/bbdf088c-3067-4df2-92f7-95fed5b304b8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-09-01* — The numbers you may choose include 0 and 10.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/115/expel-the-interlopers) · oracle_id `744b7e93-c893-4770-a3bb-6a45b7f8e4f7` · printing: TDC #115 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Expel the Unworthy
 
@@ -1140,7 +1221,14 @@
   > Look at the top three cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order. Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)
 - **Keywords:** Proliferate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1326 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/73/experimental-augury) · oracle_id `2ee08dcd-5558-45be-b619-8a550f3865ad` · printing: EOC #73 (2025-08-01) · [rulings](https://api.scryfall.com/cards/8b817b17-27cf-4f6b-baf2-4c4dbb3e71d1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-02-04* — An ability that triggers "Whenever you proliferate" triggers even if you chose no permanents or players while doing so.
+  - *2023-02-04* — If a permanent ever has both +1/+1 counters and -1/-1 counters on it at the same time, they're removed in pairs as a state-based action so that the permanent has only one of those kinds of counters on it.
+  - *2023-02-04* — If a player or permanent has more than one kind of counter on it, and you choose for it to get additional counters, it must get one of each kind of counter it already has. You can't have it get just one kind of counter it already has and not the others.
+  - *2023-02-04* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
+  - *2023-02-04* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
+  - *2023-02-04* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/73/experimental-augury) · oracle_id `2ee08dcd-5558-45be-b619-8a550f3865ad` · printing: EOC #73 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Experimental Aviator
 
@@ -1166,7 +1254,12 @@
   > Whenever you sacrifice a Food, create a 1/1 black Rat creature token with "This token can't block."
 - **Keywords:** Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3883 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/314/experimental-confectioner) · oracle_id `87f82d15-5b6b-400f-8a15-d45a2a735f7d` · printing: WOE #314 (2023-09-08) · [rulings](https://api.scryfall.com/cards/49aaf5db-9418-4b97-97da-736c674905d4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, you can sacrifice Tough Cookie (an Artifact Creature — Food Golem) to activate Maraleaf Rider's ability (an ability with "Sacrifice a Food" in its cost).
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/314/experimental-confectioner) · oracle_id `87f82d15-5b6b-400f-8a15-d45a2a735f7d` · printing: WOE #314 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Experimental Frenzy
 
@@ -1193,7 +1286,40 @@
   > (You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it.)
 - **Keywords:** Manifest, Manifest dread
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9590 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/33/experimental-lab-staff-room) · oracle_id `8869df0c-fe84-4964-8d38-a8ecefa9c252` · printing: DSC #33 (2024-09-27) · [rulings](https://api.scryfall.com/cards/0ee64079-76f2-49da-bd62-3d22dc1ec0c0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (32):
+  - *2024-09-20* — A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent and Auras and Equipment that were attached to that permanent aren't affected unless the new characteristics of the object change the legality of those targets or attachments.
+  - *2024-09-20* — An ability that triggers "when you unlock this door" triggers when that door becomes unlocked. This can happen one of two ways: (1) the door becomes unlocked on the battlefield or (2) the door becomes unlocked as the Room enters the battlefield because you cast the corresponding half. In the latter case, since the door becoming unlocked is what causes the ability to trigger, effects that cause abilities that trigger when a permanent enters to trigger an additional time (such as that of Panharmonicon) won't apply.
+  - *2024-09-20* — An ability that triggers "whenever you fully unlock a Room" triggers when a door becomes unlocked and the other door of that Room is already unlocked, or when both doors of that Room become unlocked simultaneously.
+  - *2024-09-20* — Any time you have priority during a main phase of your turn and the stack is empty, you may pay the mana cost of a locked door (also called its "unlock cost"). That door becomes unlocked. This is a special action. It doesn't use the stack and can't be responded to.
+  - *2024-09-20* — Any time you have priority, you can turn a manifested permanent you control face up by revealing that it's a creature card (ignoring any copy effects or type-changing effects that might be applying to it) and paying its mana cost. This is a special action. It doesn't use the stack and can't be responded to.
+  - *2024-09-20* — At any time, you can look at a face-down spell or permanent you control. You can't look at face-down permanents or spells you don't control unless an effect instructs or allows you to do so.
+  - *2024-09-20* — Because face-down creatures don't have a name, they can't have the same name as any other creature, even another face-down creature.
+  - *2024-09-20* — Because the permanent is on the battlefield both before and after it's turned face up, turning a permanent face up doesn't cause any enters-the-battlefield abilities to trigger.
+  - *2024-09-20* — Each Room card has two names. If an effect instructs you to choose a card name, you may choose one of those names, but not both.
+  - *2024-09-20* — Each Room card is a single card. For example, if you discard a Room card, you've discarded one card, not two. If an effect counts the number of enchantment cards in your graveyard, Bottomless Pool // Locker Room counts once, not twice.
+  - *2024-09-20* — If a Room enters from any zone other than the stack, it will enter with both halves locked.
+  - *2024-09-20* — If a double-faced card is manifested, it will be put onto the battlefield face down. While face down, it can't transform. If the front face of the card is a creature card, you can turn it face up by paying its mana cost. If you do, its front face will be up.
+  - *2024-09-20* — If a face-down creature loses its abilities, it can't be turned face up with a disguise or morph ability because it will no longer have that ability (or the associated cost) once face up.
+  - *2024-09-20* — If a face-down spell leaves the stack and goes to any zone other than the battlefield (if it was countered, for example), you must reveal it. Similarly, if a face-down permanent leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or the game ends.
+  - *2024-09-20* — If a manifested creature would have disguise or morph if it were face up, you may also turn it face up by paying its disguise or morph cost, as appropriate.
+  - *2024-09-20* — If a spell or ability would create a copy of a Room spell on the stack, the copy retains the choice of which door was cast but also retains the full characteristics of the spell. The characteristics of the door that wasn't cast are still ignored while the copy is on the stack, and when the copy resolves, the token it becomes will enter with the appropriate door unlocked.
+  - *2024-09-20* — If an effect allows you to cast a spell with certain characteristics, consider only the characteristics of the door you're casting. For example, if an effect allows you to cast a permanent spell with mana value 3 or less from among cards in your graveyard, you could cast Bottomless Pool this way, but not Locker Room.
+  - *2024-09-20* — If neither door of a Room is unlocked, it's a Room enchantment with no name and no abilities.
+  - *2024-09-20* — If something tries to turn a face-down instant or sorcery card on the battlefield face up, reveal that card to show all players it's an instant or sorcery card. The permanent remains on the battlefield face down. Abilities that trigger when a permanent turns face up won't trigger, because even though you revealed the card, it never turned face up.
+  - *2024-09-20* — If your library contains only one card when you manifest dread, you'll look at that card and put it onto the battlefield face down. You won't have the option to put it into your graveyard instead. If your library contains no cards when you manifest dread, you won't do anything.
+  - *2024-09-20* — Room cards have two card faces with a shared type line on a single card. The characteristics of the door you didn't cast are ignored while the spell is on the stack.
+  - *2024-09-20* — Some abilities allow you to lock a door of a Room you control. You can't choose to lock a door that's already locked with such an ability. If such an ability requires a target, you can target a Room even if both of its doors are locked, but the ability won't do anything when it resolves.
+  - *2024-09-20* — Some abilities allow you to unlock a door of a Room you control. You can't choose to unlock a door that's already unlocked with such an ability. If such an ability requires a target, you can target a Room even if both of its doors are unlocked, but the ability won't do anything when it resolves.
+  - *2024-09-20* — Some cards in the Duskmourn release have abilities that trigger "whenever you manifest dread." In circumstances where you are instructed to manifest dread but can't perform some or all of the steps of manifesting dread (probably because your library has one or fewer cards in it), these abilities will still trigger.
+  - *2024-09-20* — Some doors have abilities that trigger whenever you unlock that door and require one or more targets. You can unlock that door even if there would be insufficient legal targets for that triggered ability. The triggered ability won't go on the stack.
+  - *2024-09-20* — To cast a Room spell, choose a half (or "door") to cast. There's no way to cast both halves of a Room card. When the Room spell resolves, the corresponding door becomes unlocked as the Room enters.
+  - *2024-09-20* — To manifest dread, look at the top two cards of your library. Manifest one (by putting it onto the battlefield face down) and put the other into your graveyard. The card you put onto the battlefield becomes a 2/2 face-down creature with no name, mana cost, creature types, or abilities. It's colorless and has a mana value of 0. Other effects that apply to the permanent can still grant it any characteristics it doesn't have or change the characteristics it does have.
+  - *2024-09-20* — Turning a permanent face up or face down doesn't change whether that permanent is tapped or untapped.
+  - *2024-09-20* — Unlike a face-down creature that was cast using a disguise or morph ability, a manifested creature may still be turned face up after it loses its abilities if it's a creature card.
+  - *2024-09-20* — While in any zone other than the stack or the battlefield, a Room card's characteristics are a combination of its two doors. For example, Bottomless Pool // Locker Room has a mana value of 6 while it's in your library. If an effect allows you to search your library for a card with mana value 4 or less, you can't find Bottomless Pool // Locker Room.
+  - *2024-09-20* — While on the battlefield, a Room's characteristics are a combination of the characteristics of its unlocked doors. For example, if Bottomless Pool // Locker Room is on the battlefield with both doors unlocked, its names are Bottomless Pool and Locker Room, its mana value is 6, it's a Room Enchantment, and it has the abilities in each door's text box.
+  - *2024-09-20* — You must ensure that your face-down spells and permanents can be easily differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield to confuse other players. The order in which they entered should remain clear, as well as what ability caused them to be face down. (This includes manifest, disguise, cloak, morph, and a few older effects that turn cards face down.) Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/33/experimental-lab-staff-room) · oracle_id `8869df0c-fe84-4964-8d38-a8ecefa9c252` · printing: DSC #33 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Experimental Overload
 
@@ -1214,6 +1340,7 @@
   > When this artifact enters or leaves the battlefield, exile the top card of your library. Until end of turn, you may play that card.
   > {2}{R}, Sacrifice this artifact: Create a 2/2 white Samurai creature token with vigilance. Activate only as a sorcery.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9561 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/138/experimental-synthesizer) · oracle_id `11db299a-0918-46a3-b39b-16acc3f4e281` · printing: NEO #138 (2022-02-18) · [rulings](https://api.scryfall.com/cards/c47931c9-685d-4b83-8299-bc347224b4e8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Experiment Five
@@ -1263,7 +1390,20 @@
   > Disguise {4}{G} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)
 - **Keywords:** Trample, Disguise
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8233 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/37/experiment-twelve) · oracle_id `67a10da3-76f2-4f4a-90d1-e77abb5842fe` · printing: MKC #37 (2024-02-09) · [rulings](https://api.scryfall.com/cards/7d76089e-b21a-4d89-9562-957c18474967/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2024-02-02* — A disguise ability lets you cast a card face down by paying {3} and announcing that you are using a disguise ability. Any time you have priority, you can turn a face-down permanent with disguise face up by paying its disguise cost.
+  - *2024-02-02* — A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent and Auras and Equipment that were attached to that permanent aren’t affected unless the new characteristics of the object change the legality of those targets or attachments.
+  - *2024-02-02* — Any time you have priority, you may turn the face-down creature face up by revealing what its disguise cost is and paying that cost. This is a special action. It doesn’t use the stack and can’t be responded to. Only a face-down permanent can be turned face up this way; a face-down spell cannot.
+  - *2024-02-02* — At any time, you can look at a face-down spell or permanent you control. You can’t look at face-down permanents or spells you don’t control unless an effect instructs or allows you to do so.
+  - *2024-02-02* — Because face-down creatures don’t have a name, they can’t have the same name as any other creature, even another face-down creature.
+  - *2024-02-02* — Because the permanent is on the battlefield both before and after it’s turned face up, turning a permanent face up doesn’t cause any enters-the-battlefield abilities to trigger.
+  - *2024-02-02* — If a face-down creature loses its abilities, it can’t be turned face up with a disguise ability because it will no longer have a disguise ability (or a disguise cost) once face up.
+  - *2024-02-02* — If a face-down spell leaves the stack and goes to any zone other than the battlefield (if it was countered, for example), you must reveal it. Similarly, if a face-down permanent leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or the game ends.
+  - *2024-02-02* — The creature spell is a 2/2 creature spell with ward {2} that has no name, mana cost, or creature types. The resulting creature is a 2/2 creature with ward {2} that has no name, mana cost, or creature types. Both the spell and the resulting creature are colorless and have a mana value of 0. Other effects that apply to the spell or creature can still grant it any characteristics it doesn’t have or change the characteristics it does have.
+  - *2024-02-02* — The face-down spell has no mana cost and a mana value of 0. When you cast a face-down spell, put it on the stack face down so no other player knows what it is, and pay {3} to cast it. This is an alternative cost.
+  - *2024-02-02* — Turning a permanent face up or face down doesn’t change whether that permanent is tapped or untapped.
+  - *2024-02-02* — You must ensure that your face-down spells and permanents can be easily differentiated from each other. You’re not allowed to mix up the cards that represent them on the battlefield to confuse other players. The order in which they entered the battlefield should remain clear, as well as what ability caused them to be face down. (This includes disguise, cloak, and in games involving older cards, morph and manifest, as well as a few other effects that turn cards face down.) Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/37/experiment-twelve) · oracle_id `67a10da3-76f2-4f4a-90d1-e77abb5842fe` · printing: MKC #37 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Expert-Level Safe
 
@@ -1325,7 +1465,9 @@
   > Once during each of your turns, you may cast a permanent spell from your graveyard by sacrificing a land in addition to paying its other costs.
 - **Keywords:** Station
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1558 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/14/exploration-broodship) · oracle_id `8a83ecee-092b-456c-803f-a9aaa17c4da9` · printing: EOC #14 (2025-08-01) · [rulings](https://api.scryfall.com/cards/61596da3-2a0e-47d9-b707-8db4cce2479d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-07-25* — You pay all costs and follow all timing rules for cards cast with the permission granted by Exploration Broodship’s last ability. For example, you may cast a creature spell from your graveyard only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/14/exploration-broodship) · oracle_id `8a83ecee-092b-456c-803f-a9aaa17c4da9` · printing: EOC #14 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Explore
 
@@ -1363,6 +1505,7 @@
   > Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2254 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/380/explorers-scope) · oracle_id `a563ede9-b92f-4285-88f8-abcbdd017742` · printing: CMM #380 (2023-08-04) · [rulings](https://api.scryfall.com/cards/be120499-fe2f-4c21-982c-566d0dbbddff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Explore the Underdark
@@ -1376,7 +1519,18 @@
   > *"Careful near those pretty glowing plants. What do you think they feed on?"*
   > *—Talin, Underdark guide*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5813 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/232/explore-the-underdark) · oracle_id `13bad22a-6ba3-4197-8658-e47049a1cf1f` · printing: CLB #232 (2022-06-10) · [rulings](https://api.scryfall.com/cards/0cbf06f5-d1c7-474c-8f09-72f5ad0c8120/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2022-06-10* — A player who currently has the initiative may take the initiative again. This causes that player to venture into Undercity again, but does not cause them to have multiple initiative designations.
+  - *2022-06-10* — If the player with the initiative leaves the game, the active player takes the initiative at the same time that player leaves the game. If the active player is leaving the game or if there is no active player, the next player in turn order takes the initiative.
+  - *2022-06-10* — If you aren’t in a dungeon when instructed to venture into Undercity, you will put Undercity into the command zone and move your venture marker to Secret Entrance (the first room).
+  - *2022-06-10* — If you’re already in a dungeon when instructed to venture into Undercity, you move to the next room of that dungeon. If you are already in the last room, you will complete that dungeon and start Undercity. This is true whether you’re already in Undercity or any other dungeon.
+  - *2022-06-10* — In a Two-Headed Giant game, if both players on a team deal combat damage to the player that has the initiative at the same time, the player with the initiative will choose the order of the triggered abilities. Then, as those abilities resolve, one team member takes the initiative (and ventures into Undercity) and then the other team member does the same. The last player to take the initiative keeps it until the initiative changes again.
+  - *2022-06-10* — Only one player can have the initiative at a time. As one player takes the initiative, any other player that had the initiative ceases to have it.
+  - *2022-06-10* — Similarly, when instructed to venture into Undercity, you can’t start a dungeon that isn’t Undercity.
+  - *2022-06-10* — The initiative is a designation a player can have. A player with the initiative designation is said to “have the initiative.” The initiative carries two inherent rules. First, whenever a player takes the initiative, and at the beginning of the upkeep of the player with the initiative, that player ventures into Undercity. Second, whenever one or more creatures a player controls deal combat damage to the player who has the initiative, the first player takes the initiative. Also, some abilities will refer to having the initiative and provide other benefits.
+  - *2022-06-10* — There is no initiative in a game until an effect instructs a player to take the initiative. Once a player is instructed to do this, they have the initiative until another player takes the initiative.
+  - *2022-06-10* — You cannot venture into Undercity unless instructed to do so, either because you have the initiative at the beginning of your upkeep or because you take the initiative. Notably, if you aren’t in a dungeon and an effect instructs you to venture into the dungeon (not venture into Undercity), you can’t start Undercity.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/232/explore-the-underdark) · oracle_id `13bad22a-6ba3-4197-8658-e47049a1cf1f` · printing: CLB #232 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Explosion of Riches
 
@@ -1516,6 +1670,7 @@
 - **Flavor text** (DSC printing):
   > *Torching Krosa would be pointless. It grows faster than it burns.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1253 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/177/explosive-vegetation) · oracle_id `a0abd957-01a0-4aa9-8fc8-0e6840d21606` · printing: DSC #177 (2024-09-27) · [rulings](https://api.scryfall.com/cards/8de3fdf8-d55e-4ffc-8f8b-6314d4d467ce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Explosive Welcome
@@ -1539,7 +1694,11 @@
   > *Most Quandrix students fundamentally disagree with the concept of "enough."*
 - **Keywords:** Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6774 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/stx/130/exponential-growth) · oracle_id `18616f70-e30c-4ff7-b62a-55939a96ca1b` · printing: STX #130 (2021-04-23) · [rulings](https://api.scryfall.com/cards/7c129bb7-9489-44bd-a46d-c5f738bf9d25/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-04-16* — Exponential Growth doubles a creature’s power sequentially, not all at the same time. For example, if X is 3 and you target a 2/2 creature, you will double its power once to 4, again to 8, and a third time to 16, making it a 16/2 creature until end of turn.
+  - *2021-04-16* — If a creature’s power is less than 0 when it’s doubled, instead that creature gets -X/-0, where X is how much less than 0 its power is. For example, if an effect has given a 5/5 creature -7/-0 so that it’s a -2/5 creature, doubling its power makes it a -4/5 creature.
+  - *2021-04-16* — If an effect instructs you to “double” a creature’s power, that creature gets +X/+0, where X is its power as that effect begins to apply. (This is not the value of X you chose when you cast the spell)
+- **Source flags:** [Scryfall](https://scryfall.com/card/stx/130/exponential-growth) · oracle_id `18616f70-e30c-4ff7-b62a-55939a96ca1b` · printing: STX #130 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Expose Evil
 
@@ -1604,7 +1763,11 @@
   > *"Whaddaya say Flame-Os, let's put on a real show!"*
   > *—Human Torch, Johnny Storm*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #879 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/183/expressive-iteration) · oracle_id `c7aecca5-2f67-4245-ab2d-e723d8b23a67` · printing: MSC #183 (2026-06-26) · [rulings](https://api.scryfall.com/cards/96f866ec-a163-4095-b088-d93fa0b6f6f7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2026-03-20* — If there are fewer than three cards in your library, follow the instructions in the order given for any cards that are there. For example, if there are two cards in your library, you'll put one of them into your hand and one of them on the bottom of your library. You won't have the option to exile either of them.
+  - *2026-03-20* — If you choose to play the exiled card this turn, you must still pay all costs and follow all timing restrictions required by that card. If it's a land, you can't play it unless you have a land play available.
+  - *2026-03-20* — If you don't play the exiled card, it remains exiled. It won't be available to be played on future turns.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/183/expressive-iteration) · oracle_id `c7aecca5-2f67-4245-ab2d-e723d8b23a67` · printing: MSC #183 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Expropriate
 
@@ -1616,7 +1779,18 @@
   > *Few things are more valuable than time or money—and Leovold has plenty of both.*
 - **Keywords:** Council's dilemma
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2509 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/30/expropriate) · oracle_id `a69265b2-0e37-4d86-866e-e4a923233b4d` · printing: CN2 #30 (2016-08-26) · [rulings](https://api.scryfall.com/cards/9c8a2a5a-cb9b-4582-a453-085da78584f9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2016-08-23* — Because the votes are made in turn order, each player will know the votes of players who voted beforehand.
+  - *2016-08-23* — If a creature with an enters-the-battlefield council's dilemma ability leaves the battlefield before that ability resolves, players can still vote for any option that would put +1/+1 counters on that creature, even though—or perhaps especially because—those votes won't generate an effect.
+  - *2016-08-23* — No player votes until the spell or ability resolves. Any responses to that spell or ability must be made without knowing the outcome of the vote.
+  - *2016-08-23* — Players can't do anything between voting and finishing the resolution of the spell or ability that included the vote.
+  - *2016-08-23* — The effects of each council's dilemma ability happen in the stated order. First the vote occurs, then the first effect, and finally the second effect.
+  - *2016-08-23* — Unlike the will of the council cards from the original Conspiracy set, where a majority of votes determined what happened, each vote made for a council's dilemma card adds to the ultimate effect.
+  - *2016-08-23* — You must vote for one of the available options. You can't abstain.
+  - *2024-09-20* — Each player must vote for one of the available options. They can't abstain.
+  - *2024-09-20* — No player votes until Expropriate resolves. Any responses to the spell must be made without knowing the outcome of the vote.
+  - *2024-09-20* — Votes are cast in turn order, and each player will know the votes of players who voted beforehand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/30/expropriate) · oracle_id `a69265b2-0e37-4d86-866e-e4a923233b4d` · printing: CN2 #30 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Expunge
 
@@ -1705,7 +1879,11 @@
   > Whenever a Knight you control deals combat damage to a player, put a +1/+1 counter on that creature and create a Blood token. (It's an artifact with "{1}, {T}, Discard a card, Sacrifice this token: Draw a card.")
 - **Keywords:** Lifelink, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6886 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/26/exsanguinator-cavalry) · oracle_id `a867be6f-46ce-4a12-a827-9429bd94243f` · printing: MOC #26 (2023-04-21) · [rulings](https://api.scryfall.com/cards/efbd35cd-8f5c-4698-b4e2-f6b1f61cd653/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-01-24* — If an effect refers to a Blood token, it means any artifact token with the subtype Blood, even if it has gained other subtypes.
+  - *2025-01-24* — Some triggered abilities trigger "whenever you sacrifice a Blood token." These abilities trigger regardless of why you sacrificed that Blood token.
+  - *2025-01-24* — You can't sacrifice a Blood token to pay multiple costs.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/26/exsanguinator-cavalry) · oracle_id `a867be6f-46ce-4a12-a827-9429bd94243f` · printing: MOC #26 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Extended Absence
 
@@ -1779,7 +1957,11 @@
   > *"Nature is more merciless than any hunter I've ever known."*
   > *—Zai, nightsquad captain*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9578 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/iko/88/extinction-event) · oracle_id `0a11a3a8-ee5f-4caf-bf84-c8248e07c825` · printing: IKO #88 (2020-04-24) · [rulings](https://api.scryfall.com/cards/8725a869-462b-4381-880a-b4bcc63a655b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-04-17* — If a creature on the battlefield has {X} in its mana cost, X is considered to be 0.
+  - *2020-04-17* — The mana value of a token that isn't a copy of another object is 0. A token that is a copy of another object has the same mana cost as that object.
+  - *2020-04-17* — You choose odd or even while Extinction Event is resolving. Players can't take any actions between the time you make that choice and the time some creatures go extinct.
+- **Source flags:** [Scryfall](https://scryfall.com/card/iko/88/extinction-event) · oracle_id `0a11a3a8-ee5f-4caf-bf84-c8248e07c825` · printing: IKO #88 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Extinguish
 
@@ -1799,6 +1981,7 @@
 - **Flavor text** (CMM printing):
   > *Phenax, god of deception, offered the soldiers protection from every poison on Theros. He saw no need to mention that Pharika's poisons were drawn from Nyx.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3973 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/157/extinguish-all-hope) · oracle_id `c7ca25f3-7a22-477b-8546-4c2597d5d1ff` · printing: CMM #157 (2023-08-04) · [rulings](https://api.scryfall.com/cards/1888ac60-a885-43a7-8e95-9523a0213644/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Extinguisher Battleship
@@ -1812,7 +1995,9 @@
   > 5+ | Flying, trample
 - **Keywords:** Station
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4086 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/242/extinguisher-battleship) · oracle_id `cce3dcc3-57bb-4b95-8b70-337c67bb3c4e` · printing: EOE #242 (2025-08-01) · [rulings](https://api.scryfall.com/cards/5541cdd2-84a6-4667-83eb-fffbe5b3cd3d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-07-25* — If the target permanent is an illegal target as Extinguisher Battleship’s first ability tries to resolve, it won’t resolve and none of its effects will happen. No creatures will be dealt damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/242/extinguisher-battleship) · oracle_id `cce3dcc3-57bb-4b95-8b70-337c67bb3c4e` · printing: EOE #242 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Extinguish the Light
 
@@ -1892,6 +2077,7 @@
 - **Flavor text** (OTC printing):
   > *No thought is as succulent as a secret.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8633 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/225/extract-brain) · oracle_id `bb0eb9c2-c26d-452d-9e02-fc0bec2655c4` · printing: OTC #225 (2024-04-19) · [rulings](https://api.scryfall.com/cards/8c3a4a44-5e75-42a4-8140-2105c2becff9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Extract from Darkness
@@ -1904,7 +2090,9 @@
   > *If you want to wreak havoc above, sometimes it's best to look below.*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3266 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/210/extract-from-darkness) · oracle_id `e597d8a1-3bbc-4001-b642-f4421447970f` · printing: 2X2 #210 (2022-07-08) · [rulings](https://api.scryfall.com/cards/e0769e3f-d27d-4aff-8da0-f03c10b8650b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-06-08* — Extract from Darkness doesn't target a creature card. You choose which card you're putting onto the battlefield as it resolves. You can choose any creature card in a graveyard at that time, including one just put into a graveyard by Extract from Darkness. If there are no creature cards in graveyards at that time, Extract from Darkness simply finishes resolving.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/210/extract-from-darkness) · oracle_id `e597d8a1-3bbc-4001-b642-f4421447970f` · printing: 2X2 #210 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Extraction Specialist
 
@@ -1973,6 +2161,7 @@
   > Whenever a land with the same name as the exiled card is tapped for mana, its controller adds one mana of any type that land produced.
 - **Keywords:** Imprint
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1692 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/381/extraplanar-lens) · oracle_id `e48f9fc7-72cf-4c3a-b3b3-d237edc01310` · printing: CMM #381 (2023-08-04) · [rulings](https://api.scryfall.com/cards/f050a675-c6a2-4d0d-bac6-1d8c51ecf824/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Extrapolate the Impossible
@@ -1995,6 +2184,7 @@
 - **Flavor text** (FDN printing):
   > *"Just one aether tiger? What do I look like, a peasant?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1793 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/154/extravagant-replication) · oracle_id `3a646245-b8b7-4f91-a312-d5eea9a9e49a` · printing: FDN #154 (2024-11-15) · [rulings](https://api.scryfall.com/cards/6a41dfae-bc7e-4105-8f7e-fd0109197ad8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Extravagant Spirit

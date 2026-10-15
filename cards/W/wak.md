@@ -120,7 +120,10 @@
   > *"Kinjalli's encompassing rays herald new life in the moment of the sun's dawning."*
   > *—Chitlati, Lightning Rider*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3272 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/139/wakening-suns-avatar) · oracle_id `3c2aec69-ffd9-4a34-888c-58adbbb99bb5` · printing: LCC #139 (2023-11-17) · [rulings](https://api.scryfall.com/cards/820b6327-2cbf-4054-bc33-4baf9c26dd70/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-09-29* — If you cast a creature spell that enters the battlefield as a copy of Wakening Sun's Avatar, such as Clone, the enters-the-battlefield ability will trigger.
+  - *2017-09-29* — If you put Wakening Sun's Avatar onto the battlefield from your hand without casting it, its ability won't trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/139/wakening-suns-avatar) · oracle_id `3c2aec69-ffd9-4a34-888c-58adbbb99bb5` · printing: LCC #139 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wake of Destruction
 
@@ -210,7 +213,9 @@
   > Cast this spell only during combat on an opponent's turn.
   > Return X target creature cards from your graveyard to the battlefield. Sacrifice those creatures at the beginning of the next end step.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8431 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/197/wake-the-dead) · oracle_id `69bf79c3-87d1-4244-8d58-989307c91a12` · printing: CMM #197 (2023-08-04) · [rulings](https://api.scryfall.com/cards/e1780be8-26f6-4f33-9bc6-ecafc3751c8e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2014-11-07* — The delayed triggered ability that makes you sacrifice the creatures will trigger only once. If you don’t sacrifice one or more of those creatures at that time (perhaps because another player gained control of them), the ability won’t try to make you sacrifice them on future turns.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/197/wake-the-dead) · oracle_id `69bf79c3-87d1-4244-8d58-989307c91a12` · printing: CMM #197 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wake the Dragon
 
@@ -221,7 +226,14 @@
   > Flashback {6}{B}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8294 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/74/wake-the-dragon) · oracle_id `cfa5b168-d112-4b92-ac42-8bba30f15d77` · printing: LTC #74 (2023-06-23) · [rulings](https://api.scryfall.com/cards/f9cf5f78-0316-4c35-a40e-9bfba2e46ad8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-06-16* — "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2023-06-16* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2023-06-16* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2023-06-16* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2023-06-16* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2023-06-16* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/74/wake-the-dragon) · oracle_id `cfa5b168-d112-4b92-ac42-8bba30f15d77` · printing: LTC #74 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wake the Past
 
@@ -233,6 +245,7 @@
   > *"Belong in a museum? I think we should let relics belong wherever they please!"*
   > *—Quintorius, Lorehold mage-student*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2026 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/128/wake-the-past) · oracle_id `34143cfa-aa48-481c-af42-1240af174b80` · printing: EOC #128 (2025-08-01) · [rulings](https://api.scryfall.com/cards/1a58dad4-0189-4e28-a9e1-0b15aa5d84eb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wake the Reflections
@@ -306,4 +319,7 @@
   > Blitzball Captain — At the beginning of your end step, if a counter was put on Wakka this turn, put a +1/+1 counter on each other creature you control.
 - **Keywords:** Reach, Trample, Blitzball Captain
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5002 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/97/wakka-devoted-guardian) · oracle_id `fbd37284-35ff-4409-b6d5-f813c06c4931` · printing: FIC #97 (2025-06-13) · [rulings](https://api.scryfall.com/cards/9f7fcef4-99fc-4df2-b0f5-4398f71b2fcf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-06-06* — Wakka's last ability checks at the moment it would trigger to see if a counter was put on Wakka this turn. If none were, the ability won't trigger at all. Once your end step begins, it's too late to put a counter on Wakka in order to cause this ability to trigger.
+  - *2025-06-06* — You don't have to choose a target for Wakka's second ability. However, if you do and the target is illegal as the ability tries to resolve, it won't resolve and none of its effects will happen. You won't put a counter on Wakka.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/97/wakka-devoted-guardian) · oracle_id `fbd37284-35ff-4409-b6d5-f813c06c4931` · printing: FIC #97 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

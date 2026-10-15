@@ -97,7 +97,9 @@
   > *Renowned for your extensive support and goodwill, you are idolized by the community.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3640 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/17/idolized) · oracle_id `8cbf0173-2349-4205-b720-378643c347a4` · printing: PIP #17 (2024-03-08) · [rulings](https://api.scryfall.com/cards/687133cb-3754-475c-9e21-b6a33aa58bb0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-03-08* — A creature attacks alone if it’s the only creature declared as an attacker during the declare attackers step (including creatures controlled by your teammates, if applicable). For example, the ability granted by Idolized won’t trigger if you attack with multiple creatures and all but one of them are removed from combat. Similarly, creatures that enter the battlefield attacking later in combat won’t be considered when determining whether or not a creature attacked alone.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/17/idolized) · oracle_id `8cbf0173-2349-4205-b720-378643c347a4` · printing: PIP #17 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Idol of Endurance
 
@@ -118,7 +120,15 @@
   > Whenever another Eldrazi you control dies, put a +1/+1 counter on this artifact.
   > As long as this artifact has eight or more +1/+1 counters on it, it's a 0/0 creature in addition to its other types and it has annihilator 2.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5108 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/210/idol-of-false-gods) · oracle_id `b30d583b-e770-47e8-9f26-fca7ef43285c` · printing: MH3 #210 (2024-06-14) · [rulings](https://api.scryfall.com/cards/d5e1ff6d-190a-497f-89c3-35e0979c93b5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2024-06-07* — Annihilator abilities trigger and resolve during the declare attackers step. The defending player sacrifices the required number of permanents of their choice before they declare blockers. Any creatures sacrificed this way won't be able to block.
+  - *2024-06-07* — Idol of False Gods's second ability will trigger whenever another Eldrazi you control is put into a graveyard from the battlefield, even if that Eldrazi isn't a creature.
+  - *2024-06-07* — If Idol of False Gods loses its abilities, the type-changing effect of its last ability will continue to apply to it. This is because effects that change an object's types are always applied before effects that remove abilities. In that case, if it has eight or more +1/+1 counters on it, it will be an Eldrazi kindred artifact creature. This is true even if it somehow gained its eighth +1/+1 counter after losing its abilities. If Idol of False Gods loses its abilities before gaining its eighth +1/+1 counter, it will have annihilator 2; otherwise, it won't.
+  - *2024-06-07* — If a creature with annihilator is attacking a planeswalker, and the defending player chooses to sacrifice that planeswalker, the attacking creature continues to attack. It may be blocked. If it isn't blocked, it simply won't deal combat damage to anything.
+  - *2024-06-07* — In the rare case where enough -1/-1 counters are placed on Idol of False Gods to reduce its toughness to 0 or less while it's a creature because of the effect of its last ability, Idol of False Gods will be put into its owner's graveyard when state-based actions are performed. Effects that care about the number and types of counters that were on Idol of False Gods when it died will see both the +1/+1 and -1/-1 counters, and any effects that trigger "whenever a modified creature dies" will still trigger.
+  - *2024-06-07* — Kindred is a card type that allows noncreature cards to have creature types. For example, Echoes of Eternity is an Eldrazi (although not a creature) while on the battlefield and an Eldrazi card (although not a creature card) in zones other than the battlefield.
+  - *2024-06-07* — While it appears only on cards that already have other card types, kindred is a card type and will be counted by effects that refer to the number of card types among cards in a zone.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/210/idol-of-false-gods) · oracle_id `b30d583b-e770-47e8-9f26-fca7ef43285c` · printing: MH3 #210 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Idol of Oblivion
 
@@ -172,6 +182,7 @@
 - **Flavor text** (DMU printing):
   > *In the tradition of the original Tolarian Academy, every Tolarian campus is built near a body of water.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2237 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/249/idyllic-beachfront) · oracle_id `0aea7e5d-40d7-46c7-a8a6-479cb8061e49` · printing: DMU #249 (2022-09-09) · [rulings](https://api.scryfall.com/cards/c50ec22c-decb-419f-ae52-78ea1706eb11/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Idyllic Grange
@@ -185,7 +196,10 @@
 - **Flavor text** (ELD printing):
   > *Every hero's journey starts somewhere.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4289 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eld/246/idyllic-grange) · oracle_id `23d349a0-e441-40b8-b634-13e61440a7c8` · printing: ELD #246 (2019-10-04) · [rulings](https://api.scryfall.com/cards/ca2c611c-3a6f-44b0-9daa-837a465845e0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-10-04* — As these lands are entering the battlefield, they check for lands that are already on the battlefield. They won't see lands that are entering the battlefield at the same time (due to Scapeshift, for example).
+  - *2019-10-04* — If another effect puts these lands onto the battlefield tapped, they enter tapped, even if you control enough lands with the appropriate basic land type.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eld/246/idyllic-grange) · oracle_id `23d349a0-e441-40b8-b634-13e61440a7c8` · printing: ELD #246 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Idyllic Tutor
 

@@ -32,7 +32,11 @@
   > 0: Add {C}{C}{C}.
   > −11: Search your library for any number of colorless nonland cards, exile them, then shuffle. Until end of turn, you may cast those cards without paying their mana costs.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1695 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/1/ugin-eye-of-the-storms) · oracle_id `5c58353a-fd60-4528-bf0d-669626cda0b2` · printing: TDM #1 (2025-04-11) · [rulings](https://api.scryfall.com/cards/64a5d494-efa1-446b-bebe-2ad36e154376/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-04-04* — If a spell has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2025-04-04* — If you cast a spell “without paying its mana cost,” you can’t choose to cast it for any alternative costs. You can, however, pay additional costs, such as kicker costs. If the spell has any mandatory additional costs those must be paid to cast the spell.
+  - *2025-04-04* — You must follow the normal timing permissions and restrictions of each spell you cast using the permission granted by Ugin’s last ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/1/ugin-eye-of-the-storms) · oracle_id `5c58353a-fd60-4528-bf0d-669626cda0b2` · printing: TDM #1 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ugin's Binding
 
@@ -44,7 +48,14 @@
   > Whenever you cast a colorless spell with mana value 7 or greater, you may exile this card from your graveyard. When you do, return each nonland permanent you don't control to its owner's hand.
 - **Keywords:** Devoid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5152 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/76/ugins-binding) · oracle_id `ed622e71-f348-4e46-8fb9-05aae430983a` · printing: MH3 #76 (2024-06-14) · [rulings](https://api.scryfall.com/cards/be13786a-f967-456b-bbc6-f4312467a827/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-06-07* — A card with devoid is just colorless. It's not colorless and the colors of mana in its mana cost.
+  - *2024-06-07* — Devoid doesn't affect the color identity of the card for the purposes of the Commander variant. For example, while Abstruse Appropriation is colorless because it has devoid, its color identity is still white and black, and it can't be included in a Commander deck where the commander's color identity doesn't include both white and black.
+  - *2024-06-07* — Devoid works in all zones, not just on the battlefield.
+  - *2024-06-07* — If a card loses devoid, it will still be colorless. This is because effects that change an object's color (like the one created by devoid) are considered before the object loses devoid.
+  - *2024-06-07* — Other cards and abilities can give a card with devoid a color. If that happens, it's just the new color, not that color and colorless.
+  - *2024-06-07* — The last ability triggers only if Ugin's Binding is in your graveyard as you cast the colorless spell. That ability will resolve before the colorless spell does. If the colorless spell is countered or otherwise leaves the stack in response to Ugin's Binding's triggered ability, the ability will still resolve as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/76/ugins-binding) · oracle_id `ed622e71-f348-4e46-8fb9-05aae430983a` · printing: MH3 #76 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ugin's Conjurant
 
@@ -80,7 +91,10 @@
   > *—Ugin, to Jace Beleren*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9224 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/87/ugins-insight) · oracle_id `ad7b9db0-e061-4360-9b81-0408d18d971d` · printing: BFZ #87 (2015-10-02) · [rulings](https://api.scryfall.com/cards/f37d5938-9c8f-4203-8f3f-d6e89ced28ef/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2015-08-25* — If X is 0, you won't scry at all. Any abilities that trigger whenever you scry won't trigger.
+  - *2015-08-25* — Use the highest mana value among permanents you control as Ugin's Insight resolves to determine how many cards you scry.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/87/ugins-insight) · oracle_id `ad7b9db0-e061-4360-9b81-0408d18d971d` · printing: BFZ #87 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ugin's Labyrinth
 
@@ -92,7 +106,9 @@
   > {T}: Return the exiled card to its owner's hand.
 - **Keywords:** Imprint
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2765 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/233/ugins-labyrinth) · oracle_id `d565cd3d-68d4-4039-9e45-7e69e31d0ffb` · printing: MH3 #233 (2024-06-14) · [rulings](https://api.scryfall.com/cards/020e1348-1a35-4cc8-bad6-9fbddfa79277/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-06-07* — In the rare case where more than one card is exiled with Ugin's Labyrinth's imprint ability (likely because the triggered ability was copied or the ability triggered a second time), its last ability will return all such cards to their owners' hands.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/233/ugins-labyrinth) · oracle_id `d565cd3d-68d4-4039-9e45-7e69e31d0ffb` · printing: MH3 #233 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ugin's Mastery
 
@@ -103,7 +119,21 @@
   > Whenever you attack with creatures with total power 6 or greater, you may turn a face-down creature you control face up.
 - **Keywords:** Manifest
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4622 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/53/ugins-mastery) · oracle_id `d6158860-ada8-4e39-8156-23dee2f68f79` · printing: MKC #53 (2024-02-09) · [rulings](https://api.scryfall.com/cards/995b5a27-6a95-4208-9d6d-3a3801a6d0ae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2023-07-28* — A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent, as well as Auras and Equipment that were attached to the permanent, aren't affected.
+  - *2023-07-28* — Any time you have priority, you may turn a manifested creature face up by revealing that it's a creature card (ignoring any copy effects or type-changing effects that might be applying to it) and paying its mana cost. This is a special action. It doesn't use the stack and can't be responded to.
+  - *2023-07-28* — Because face-down creatures don't have names, they can't have the same name as any other creature, even another face-down creature.
+  - *2023-07-28* — Because the permanent is on the battlefield both before and after it's turned face up, turning a permanent face up doesn't cause any enters-the-battlefield abilities to trigger.
+  - *2023-07-28* — If a double-faced card is manifested, it will be put onto the battlefield face down. While face down, a transforming double-faced card can't transform or convert. If the front face of a face down double-faced card is a creature card, you can turn it face up by paying its mana cost. If you do, its front face will be up.
+  - *2023-07-28* — If a face-down permanent you control leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or if the game ends.
+  - *2023-07-28* — If a manifested creature would have morph if it were face up, you may also turn it face up by paying its morph cost.
+  - *2023-07-28* — If something tries to turn a face-down instant or sorcery card on the battlefield face up, reveal that card to show all players it's an instant or sorcery card. The permanent remains on the battlefield face down. Abilities that trigger when a permanent turns face up won't trigger, because even though you revealed the card, it never turned face up.
+  - *2023-07-28* — The face-down permanent is a 2/2 creature with no name, mana cost, creature types, or abilities. It's colorless and has a mana value of 0. Other effects that apply to the permanent can still grant or change any of these characteristics.
+  - *2023-07-28* — Turning a permanent face up or face down doesn't change whether that permanent is tapped or untapped.
+  - *2023-07-28* — Unlike a face-down creature that was cast using the morph ability, a manifested creature may still be turned face up after it loses its abilities if it's a creature card.
+  - *2023-07-28* — You can look at a face-down permanent you control any time. You can't look at face-down permanents you don't control unless an effect allows you to or instructs you to.
+  - *2023-07-28* — You must ensure that your face-down spells and permanents can easily be differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield to confuse other players. The order they entered the battlefield should remain clear. Common methods for indicating this include using markers or dice, or simply placing them in order on the battlefield. You must also track how each became face down (manifested, cast face down using the morph ability, and so on).
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/53/ugins-mastery) · oracle_id `d6158860-ada8-4e39-8156-23dee2f68f79` · printing: MKC #53 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ugin's Nexus
 
@@ -115,7 +145,11 @@
 - **Flavor text** (KTK printing):
   > *All at once Sarkhan's mind fell silent.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7384 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/227/ugins-nexus) · oracle_id `fe2afa18-54d0-4595-af27-256398793a42` · printing: KTK #227 (2014-09-26) · [rulings](https://api.scryfall.com/cards/94002868-a48a-4ea8-bfce-17257078f5db/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2014-09-20* — An "extra turn" is any turn created by a spell or ability. Notably, it doesn't include additional turns taken in tournaments after time expires for a round.
+  - *2014-09-20* — Extra turns can still be created while Ugin's Nexus is on the battlefield. They're not skipped until they would begin, so if Ugin's Nexus leaves the battlefield before that happens, the extra turns will be unaffected.
+  - *2014-09-20* — Notably, if you control more than one Ugin's Nexus, all but one will be exiled and an extra turn created for each. If the Ugin's Nexus that remains on the battlefield isn't on the battlefield when each of those extra turns would begin, you can take those turns.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/227/ugins-nexus) · oracle_id `fe2afa18-54d0-4595-af27-256398793a42` · printing: KTK #227 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ugin, the Ineffable
 
@@ -127,7 +161,15 @@
   > +1: Exile the top card of your library face down and look at it. Create a 2/2 colorless Spirit creature token. When that token leaves the battlefield, put the exiled card into your hand.
   > −3: Destroy target permanent that's one or more colors.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1095 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/811/ugin-the-ineffable) · oracle_id `18bdc181-9592-4147-81fb-7f83ce137f70` · printing: CMM #811 (2023-08-04) · [rulings](https://api.scryfall.com/cards/2eb7e322-aba0-42f5-80a1-267f3444ac4d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2019-05-03* — A colorless spell whose mana cost is {2} or {1} will cost {0} to cast.
+  - *2019-05-03* — A land normally has no color, even if it can produce one or more colors of mana.
+  - *2019-05-03* — If an effect such as that of Doubling Season causes Ugin to create two Spirit tokens, you still only exile one card from your library. You'll put that card into your hand the first time that either of the tokens leaves the battlefield.
+  - *2019-05-03* — If the Spirit leaves the battlefield for any reason, you'll put the exiled card into your hand, even if Ugin left the battlefield before that happened.
+  - *2019-05-03* — If you've activated Ugin's ability multiple times, you must keep track of which exiled card belongs to each Spirit token.
+  - *2019-05-03* — Once you look at the exiled face-down card once, you may look at it again any time you wish. If another player gains control of the Spirit token, that player can't look at the exiled card.
+  - *2019-05-03* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions (such as that of Ugin). The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/811/ugin-the-ineffable) · oracle_id `18bdc181-9592-4147-81fb-7f83ce137f70` · printing: CMM #811 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ugin, the Spirit Dragon
 
@@ -139,7 +181,13 @@
   > −X: Exile each permanent with mana value X or less that's one or more colors.
   > −10: You gain 7 life, draw seven cards, then put up to seven permanent cards from your hand onto the battlefield.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1583 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m21/1/ugin-the-spirit-dragon) · oracle_id `eecb3047-a563-441a-9175-200421981ac3` · printing: M21 #1 (2020-07-03) · [rulings](https://api.scryfall.com/cards/9c017fa9-7021-417a-9c2e-3df409644fcf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2014-11-24* — If you choose to put permanent cards with morph onto the battlefield with the third ability, you must put them onto the battlefield face up.
+  - *2014-11-24* — Ugin, the Spirit Dragon is not a Dragon card; that is, he doesn't have the creature type Dragon. Spells and abilities that refer to Dragon cards or Dragons don't apply to Ugin.
+  - *2020-06-23* — A permanent card is an artifact, creature, enchantment, land, or planeswalker card.
+  - *2020-06-23* — If a permanent has {X} in its mana cost, X is considered to be 0.
+  - *2020-06-23* — The mana value of a token that isn't a copy of another object is 0. A token that is a copy of another object has the same mana cost as that object.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m21/1/ugin-the-spirit-dragon) · oracle_id `eecb3047-a563-441a-9175-200421981ac3` · printing: M21 #1 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Uglúk of the White Hand
 
@@ -151,4 +199,5 @@
 - **Flavor text** (LTR printing):
   > *"I am Uglúk. I command. I return to Isengard by the shortest road."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8534 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/235/ugl%C3%BAk-of-the-white-hand) · oracle_id `ebd6a3a0-ae8d-44e6-8d0b-048da6dd1f03` · printing: LTR #235 (2023-06-23) · [rulings](https://api.scryfall.com/cards/e914c7fc-be3c-4346-bf37-6e10f4998204/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

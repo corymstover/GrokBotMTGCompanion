@@ -35,7 +35,12 @@
   > *". . . and our blades shall never tire."*
 - **Keywords:** Lifelink, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5970 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/acr/48/aya-of-alexandria) · oracle_id `27b690f2-d7ce-43b6-8e8b-98a8ffe487bb` · printing: ACR #48 (2024-07-05) · [rulings](https://api.scryfall.com/cards/80bd1928-18ec-4f55-acd8-9a62f9869fff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-07-05* — A card, spell, or permanent is historic if it has the legendary supertype, the artifact card type, or the Saga subtype. Having two of those qualities doesn’t make an object more historic than another or provide an additional bonus—an object either is historic or it isn’t.
+  - *2024-07-05* — An ability that triggers “whenever you cast a historic spell” doesn’t trigger if a historic card is put onto the battlefield without being cast.
+  - *2024-07-05* — Lands are never cast, so abilities that trigger “whenever you cast a historic spell” won’t trigger if you play a legendary land. They also won’t trigger if a card on the battlefield transforms into a card with the legendary supertype, the artifact card type, or the Saga subtype.
+  - *2024-07-05* — Some abilities trigger “whenever you cast a historic spell.” Such an ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/acr/48/aya-of-alexandria) · oracle_id `27b690f2-d7ce-43b6-8e8b-98a8ffe487bb` · printing: ACR #48 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ayara, First of Locthwain
 
@@ -62,7 +67,11 @@
   > Whenever this creature deals combat damage to a player, if it has fewer than four +1/+1 counters on it, put a +1/+1 counter on it. Then if it has exactly four +1/+1 counters on it, search your library for a card, put it into your hand, then shuffle.
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7377 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mat/11/ayaras-oathsworn) · oracle_id `ff3936bb-3281-4260-84de-1f65dbfbe993` · printing: MAT #11 (2023-05-12) · [rulings](https://api.scryfall.com/cards/5330e6b7-eca3-46a4-8905-8f1de16f76af/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-05-12* — If Ayara's Oathsworn has four or more +1/+1 counters on it as it deals combat damage to a player, its ability won't trigger at all. None of its effects will happen. You won't put a +1/+1 counter on Ayara's Oathsworn and you won't search for a card.
+  - *2023-05-12* — If Ayara's Oathsworn isn't on the battlefield as its ability tries to resolve, you won't search for a card, even if Ayara's Oathsworn had three +1/+1 counters on it before if left the battlefield, because it won't be around to have the fourth +1/+1 counter put on it.
+  - *2023-05-12* — If the triggered ability does trigger, that ability will check Ayara's Oathsworn again as it tries to resolve. If Ayara's Oathsworn has four or more +1/+1 counters on it at that time, the ability won't resolve. None of its effects will happen. You won't put a +1/+1 counter on Ayara's Oathsworn and you won't search for a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mat/11/ayaras-oathsworn) · oracle_id `ff3936bb-3281-4260-84de-1f65dbfbe993` · printing: MAT #11 (2023-05-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ayara, Widow of the Realm // Ayara, Furnace Queen
 
@@ -78,7 +87,9 @@
   > *Ayara cherished her new machine servitors just as much as she once did her many suitors: not at all.*
 - **Keywords:** Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7253 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/90/ayara-widow-of-the-realm-ayara-furnace-queen) · oracle_id `f9ef90b9-a2b4-4a5b-92fb-2268ea7d709f` · printing: MOM #90 (2023-04-21) · [rulings](https://api.scryfall.com/cards/a21b1734-a773-4107-95c1-b44d5ccdfd82/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-04-14* — The first activated ability of Ayara, Widow of the Realm uses the mana value of the permanent you sacrificed as it last existed on the battlefield, not its mana value in the graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/90/ayara-widow-of-the-realm-ayara-furnace-queen) · oracle_id `f9ef90b9-a2b4-4a5b-92fb-2268ea7d709f` · printing: MOM #90 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ayesha Tanaka
 
@@ -114,7 +125,10 @@
   > {1}{W}{B}, Sacrifice another creature: Exile target nonland permanent. Activate only if you have at least 10 life more than your starting life total.
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5554 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/652/ayli-eternal-pilgrim) · oracle_id `e6a35729-edee-4a8c-9aa1-041114d66c69` · printing: FDN #652 (2024-11-15) · [rulings](https://api.scryfall.com/cards/06969031-2c13-4b5a-bb4e-86eed025e614/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-11-08* — In a Two-Headed Giant game, Ayli's last ability checks your team's life total.
+  - *2024-11-08* — Once you've activated Ayli's last ability, it doesn't matter what happens to your life total.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/652/ayli-eternal-pilgrim) · oracle_id `e6a35729-edee-4a8c-9aa1-041114d66c69` · printing: FDN #652 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aysen Abbey
 
@@ -180,7 +194,10 @@
   > *Born from the oldest red cedar, nursed on the sap of the tallest spruce, coronated under the mightiest pine.*
 - **Keywords:** Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5367 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/155/ayula-queen-among-bears) · oracle_id `a79d2fc8-467f-464d-9e73-2dae4b059628` · printing: MH1 #155 (2019-06-14) · [rulings](https://api.scryfall.com/cards/c046dfb0-9ca3-4219-a6b0-d7503bc2fbd0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-06-14* — Either of Ayula's modes can target any Bear you control, not just the Bear that entered the battlefield. Ayula can even be the target of its own ability.
+  - *2019-06-14* — For Ayula's second mode, if either target isn't a creature or is otherwise an illegal target as the ability resolves, no creature will deal or be dealt damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/155/ayula-queen-among-bears) · oracle_id `a79d2fc8-467f-464d-9e73-2dae4b059628` · printing: MH1 #155 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ayula's Influence
 
@@ -191,7 +208,9 @@
 - **Flavor text** (MH1 printing):
   > *Ayula's runic clawmarks ensure her territories are never left defenseless.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9259 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/156/ayulas-influence) · oracle_id `25d955e3-2b98-4a75-bb51-6072000111be` · printing: MH1 #156 (2019-06-14) · [rulings](https://api.scryfall.com/cards/1b9296ca-39a8-4aad-be92-0a56c704e950/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-06-14* — If an effect instructs you to draw cards and then discard cards, you can’t take actions in between. For example, if you have no cards in hand and cast Bazaar Trademage, you can’t activate Ayula’s Influence’s ability between the time you draw two cards and discard those cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/156/ayulas-influence) · oracle_id `25d955e3-2b98-4a75-bb51-6072000111be` · printing: MH1 #156 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ayumi, the Last Visitor
 

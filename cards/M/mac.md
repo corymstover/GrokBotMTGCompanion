@@ -56,7 +56,10 @@
 - **Flavor text** (FDN printing):
   > *Liliana is never one to follow someone else's lead.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5246 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/177/macabre-waltz) · oracle_id `cf75dbd8-b65a-48d9-b96b-4afb43f336d1` · printing: FDN #177 (2024-11-15) · [rulings](https://api.scryfall.com/cards/4d1f3c84-89ba-4426-a80b-d524f172c912/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-07-13* — If you have no other cards in hand, you'll have to discard one of the creature cards you return to your hand.
+  - *2018-07-13* — You may cast Macabre Waltz targeting one or zero creature cards. You'll still discard a card, even if you target no creature cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/177/macabre-waltz) · oracle_id `cf75dbd8-b65a-48d9-b96b-4afb43f336d1` · printing: FDN #177 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### MacCready, Lamplight Mayor
 
@@ -67,7 +70,10 @@
   > Whenever a creature you control with power 2 or less attacks, it gains skulk until end of turn. (It can't be blocked by creatures with greater power.)
   > Whenever a creature with power 4 or greater attacks you, its controller loses 2 life and you gain 2 life.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3761 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/108/maccready-lamplight-mayor) · oracle_id `f40a1a41-d340-4256-8f97-77499cd511a8` · printing: PIP #108 (2024-03-08) · [rulings](https://api.scryfall.com/cards/0d2251ce-2d5b-4d0d-8dc9-44f6b40aa7cf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-03-08* — Similarly, the power of the creature attacking you is checked only when MacCready’s second ability triggers. Once it triggers, the creature’s controller will lose 2 life and you’ll gain 2 life when the ability resolves, regardless of whether or not its power is still 4 or greater at that time or whether or not it’s still on the battlefield.
+  - *2024-03-08* — The power of your attacking creature is checked only when MacCready’s first ability triggers. Once it triggers, the creature will gain skulk until end of turn when the ability resolves, regardless of whether or not its power is still 2 or less at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/108/maccready-lamplight-mayor) · oracle_id `f40a1a41-d340-4256-8f97-77499cd511a8` · printing: PIP #108 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mace of the Valiant
 
@@ -79,7 +85,9 @@
   > Equip {3}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9004 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/41/mace-of-the-valiant) · oracle_id `881c3dd4-49df-48c3-b514-509990332e25` · printing: CMM #41 (2023-08-04) · [rulings](https://api.scryfall.com/cards/88a08aff-3a50-4f2e-97a1-f1d79d5c4ade/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-10-04* — The equipped creature has vigilance even if Mace of the Valiant has no charge counters on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/41/mace-of-the-valiant) · oracle_id `881c3dd4-49df-48c3-b514-509990332e25` · printing: CMM #41 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Macetail Hystrodon
 
@@ -142,7 +150,19 @@
 - **Flavor text** (BRC printing):
   > *Gix ensured his most loyal followers were the first to taste Phyrexian perfection.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2959 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/brc/16/machine-gods-effigy) · oracle_id `64ebdd6f-acde-4aab-a86b-2798bad5f70c` · printing: BRC #16 (2022-11-18) · [rulings](https://api.scryfall.com/cards/637f69c2-ba24-42d1-9345-8ebdb04b6904/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2022-10-14* — Any enters-the-battlefield abilities of the copied creature will trigger when Machine God’s Effigy enters the battlefield. Any “as [this creature] enters the battlefield” or “[this creature] enters the battlefield with” abilities of the chosen creature will also work. Note that some of these effects may function correctly only if it is a creature, and will not do anything productive since the copy is an artifact, not a creature.
+  - *2022-10-14* — Except for its types and non-artifact subtypes, Machine God’s Effigy copies exactly what was printed on the original creature and nothing more (unless that creature is copying something else or is a token; see below), and it will have “{T}:Add {U}.” It doesn’t copy whether that creature is tapped or untapped, whether it has any counters on it or Auras attached to it, or any non-copy effects that have changed its types, color, and so on.
+  - *2022-10-14* — If Machine God’s Effigy copies a Saga that has become a creature due to an effect, it will have that Saga’s chapter abilities, but it won’t get a lore counter every turn because it isn’t itself a Saga since its only card type is artifact. Unless it has the read ahead ability found on some Saga cards in the Dominaria United set, it also won’t enter the battlefield with any counters. If you do find a way to put lore counters on it, the appropriate ability or abilities will trigger. It will not be sacrificed after it has lore counters equal to its final chapter number.
+  - *2022-10-14* — If Machine God’s Effigy copies a land with a basic land type that has become a creature due to an effect, it will not have any mana abilities that land had due to its land types (it will have the one it gives itself, though). For example, if a basic Forest became a creature due to some effect, and Machine God’s Effigy entered the battlefield as a copy of it, it would be a basic artifact named Forest and have “{T}: Add {U},” but not the intrinsic ability “{T}: Add {G}.”
+  - *2022-10-14* — If Machine God’s Effigy copies a planeswalker that became a creature due to an effect, Machine God’s Effigy will have that planeswalker’s loyalty abilities but its only card type is artifact (it will still be legendary in most cases). Because it isn’t a planeswalker itself, it won’t enter the battlefield with any loyalty counters, but it also won’t die because due to not having any. Similarly, it can’t be attacked and damage can’t be dealt to it. You may activate only one loyalty ability of that permanent per turn. If it later becomes a creature and damage is dealt to it, that damage won’t remove any loyalty counters.
+  - *2022-10-14* — If Machine God’s Effigy somehow enters the battlefield at the same time as another creature, it can’t become a copy of that creature. You may choose only a creature that’s already on the battlefield.
+  - *2022-10-14* — If the chosen creature is a token, Machine God’s Effigy copies the original characteristics of that token as stated by the effect that created the token, plus the listed exceptions. Machine God’s Effigy is not a token, even when copying one.
+  - *2022-10-14* — If the chosen creature is copying something else, then Machine God’s Effigy enters the battlefield as whatever the chosen creature is copying (with the listed exceptions).
+  - *2022-10-14* — If the copied creature has {X} in its mana cost, X is 0.
+  - *2022-10-14* — Machine God’s Effigy will not copy any types (such as creature or enchantment) or non-artifact subtypes (such as Phyrexian or Elf) that creature had, but it will copy any supertypes, such as legendary, and artifact subtypes (such as Treasure or Vehicle). It also has the same name, so if you copy a legendary creature you control, you will need to choose one of them to put in your graveyard due to the legend rule.
+  - *2022-10-14* — The ability of Machine God’s Effigy doesn’t target the creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/brc/16/machine-gods-effigy) · oracle_id `64ebdd6f-acde-4aab-a86b-2798bad5f70c` · printing: BRC #16 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Machine Man, Model X-51
 
@@ -193,4 +213,9 @@
   > Machina — Equip {4} ({4}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Machina, Job select, Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4726 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/23/machinists-arsenal) · oracle_id `e7fff34e-9b80-4a67-a917-fd9efddb5a1f` · printing: FIN #23 (2025-06-13) · [rulings](https://api.scryfall.com/cards/ff976428-2145-4630-aab1-08870b90b2f0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-06-06* — If the Hero token is destroyed, the Equipment stays on the battlefield.
+  - *2025-06-06* — If the job select ability causes two Hero tokens to be created (due to an effect such as that of Doubling Season), the Equipment becomes attached to only one of them.
+  - *2025-06-06* — The Hero token enters as a 1/1 creature, then the Equipment becomes attached to it. Abilities that trigger when a creature enters the battlefield see that a 1/1 creature entered the battlefield.
+  - *2025-06-06* — You may pay the Equipment's equip cost as normal to move it from the Hero token to another creature you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/23/machinists-arsenal) · oracle_id `e7fff34e-9b80-4a67-a917-fd9efddb5a1f` · printing: FIN #23 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

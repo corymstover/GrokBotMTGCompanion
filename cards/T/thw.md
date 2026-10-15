@@ -43,7 +43,14 @@
   > This spell costs {1} less to cast for each creature in your party. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)
   > Return target creature card and up to one target Cleric, Rogue, Warrior, or Wizard creature card from your graveyard to the battlefield.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8936 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/773/thwart-the-grave) · oracle_id `b545e26f-2034-409c-80cc-51b72e75e6e4` · printing: CLB #773 (2022-06-10) · [rulings](https://api.scryfall.com/cards/cc339d3b-9c89-4679-bc83-8399d9a864c7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2020-09-25* — An ability referring to the number of creatures in your party gets a number from zero to four. Such abilities never ask which creatures are in your party, and you never have to designate specific creatures as being in your party. You can't choose to exclude creatures from this count to lower the number.
+  - *2020-09-25* — If a creature has more than one party creature type, and there are multiple ways to count that creature that could result in a different number of creatures in your party, the highest such number is used. For example, if you control a Cleric and a Cleric Wizard, the number of creatures in your party is two. You can't choose to have it be just one by counting the Cleric Wizard first as a Cleric.
+  - *2020-09-25* — If a spell has a cost reduction based on the number of creatures in your party, no player may attempt to change that number after you begin to cast the spell but before you pay the cost.
+  - *2020-09-25* — Several cards have a cost reduction based on the number of creatures in your party. To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2020-09-25* — Thwart the Grave's first target doesn't have to be one of the party creature types.
+  - *2020-09-25* — To determine “the number of creatures in your party,” check whether you control a Cleric, whether you control a Rogue, whether you control a Warrior, and whether you control a Wizard. The number is the total number of those checks to which you answered yes. Each creature you control can be counted for only one of those checks.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/773/thwart-the-grave) · oracle_id `b545e26f-2034-409c-80cc-51b72e75e6e4` · printing: CLB #773 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thwip!
 

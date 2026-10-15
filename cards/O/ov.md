@@ -160,7 +160,13 @@
   > When this creature exploits a creature, counter target spell, activated ability, or triggered ability.
 - **Keywords:** Flying, Flash, Exploit
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4927 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/80/overcharged-amalgam) · oracle_id `d4838305-5392-42b2-81d1-9b9da71b20b1` · printing: INR #80 (2025-01-24) · [rulings](https://api.scryfall.com/cards/2fae9b40-a1ee-425d-bbf6-fa4b0861cdc4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-01-24* — Abilities that create replacement effects, such as a permanent entering tapped or with counters on it, can’t be targeted. Abilities that apply “as [this creature] enters” are also replacement effects and can’t be targeted.
+  - *2025-01-24* — Activated abilities are written in the form “[Cost]: [Effect].” Some keyword abilities, such as equip and crew, are activated abilities and will have colons in their reminder texts.
+  - *2025-01-24* — If you counter a delayed triggered ability that triggers at the beginning of the “next” occurrence of a specified step or phase, that ability won’t trigger again the following time that phase or step occurs.
+  - *2025-01-24* — Overcharged Amalgam’s exploit ability can’t target mana abilities. An activated mana ability is one that could add mana as it resolves, doesn’t have a target, and isn’t a loyalty ability. A triggered mana ability is one that could add mana as it resolves and triggers based on an activated mana ability.
+  - *2025-01-24* — Triggered abilities use the word “when,” “whenever,” or “at.” They’re often written as “[Trigger condition], [effect].” Some keyword abilities, such as prowess and fabricate, are triggered abilities and will have “when,” “whenever,” or “at” in their reminder text.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/80/overcharged-amalgam) · oracle_id `d4838305-5392-42b2-81d1-9b9da71b20b1` · printing: INR #80 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Overclocked Electromancer
 
@@ -286,7 +292,9 @@
   > *—\*The War Diaries\**
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2838 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/264/overgrown-battlement) · oracle_id `585f62dc-4461-42f1-a3a4-b19a1e550d2d` · printing: TDC #264 (2025-04-11) · [rulings](https://api.scryfall.com/cards/680f6308-4469-4565-873e-40fb5aaef27d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-11-17* — Overgrown Battlement's last ability is a mana ability. It doesn't use the stack and can't be responded to (such as by removing creatures with defender you control).
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/264/overgrown-battlement) · oracle_id `585f62dc-4461-42f1-a3a4-b19a1e550d2d` · printing: TDC #264 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Overgrown Estate
 
@@ -353,7 +361,9 @@
 - **Flavor text** (DSK printing):
   > *Even as the roots twisted painfully into his flesh, he sang out in joy, for he could feel himself becoming one with the woods.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6851 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/193/overgrown-zealot) · oracle_id `5146b291-1170-481f-a4b9-709dd5c4b09c` · printing: DSK #193 (2024-09-27) · [rulings](https://api.scryfall.com/cards/96d68d29-499a-4864-be18-bd98fda0d173/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-09-20* — Mana produced by Overgrown Zealot's last ability can be used to pay morph or disguise costs when turning a face-down permanent face up or to pay costs associated with turning a manifested or cloaked permanent face up.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/193/overgrown-zealot) · oracle_id `5146b291-1170-481f-a4b9-709dd5c4b09c` · printing: DSK #193 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Overgrowth
 
@@ -367,7 +377,9 @@
   > *—Molimo, maro-sorcerer*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3158 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c18/157/overgrowth) · oracle_id `e6ccebf4-f4f0-404f-a634-4d751ef9c8aa` · printing: C18 #157 (2018-08-10) · [rulings](https://api.scryfall.com/cards/e2e1694b-4d69-4961-b189-a7ba25a11836/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — This is a triggered mana ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c18/157/overgrowth) · oracle_id `e6ccebf4-f4f0-404f-a634-4d751ef9c8aa` · printing: C18 #157 (2018-08-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Overgrowth Elemental
 
@@ -390,6 +402,7 @@
   > *"Hey why don't ya try out that sword I gave you!"*
   > *—Wakka*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2119 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/109/overkill) · oracle_id `571cb4b6-b4e5-40a2-a970-42c1ab65c8a9` · printing: FIN #109 (2025-06-13) · [rulings](https://api.scryfall.com/cards/ae075e71-d33d-4d6c-b4a5-0b47dd6fd196/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Overlaid Terrain
@@ -425,7 +438,13 @@
   > Whenever this permanent enters or attacks, mill four cards, then you may return a non-Avatar creature card or a planeswalker card from your graveyard to your hand.
 - **Keywords:** Impending, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2256 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/113/overlord-of-the-balemurk) · oracle_id `652e87af-7cf0-407f-9fb7-1a630fb8dd47` · printing: DSK #113 (2024-09-27) · [rulings](https://api.scryfall.com/cards/9b911653-7b96-4cf3-a907-13c5c53a14f7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-09-20* — "Impending N–[cost]" is a keyword that represents multiple abilities. The official rules are as follows: (a) You may choose to pay [cost] rather than pay this spell's mana cost. (b) If you chose to pay this spell's impending cost, it enters the battlefield with N time counters on it. (c) As long as this permanent has a time counter on it, if it was cast for its impending cost, it's not a creature. (d) At the beginning of your end step, if this permanent was cast for its impending cost, remove a time counter from it.
+  - *2024-09-20* — If an object enters as a copy of a permanent that was cast with its impending cost, it won't enter with time counters, and it will be a creature.
+  - *2024-09-20* — If you choose to pay the impending cost of a creature spell, it's still a creature spell on the stack. You can cast that spell for its impending cost only when you could normally cast that creature spell. Most of the time, this means during your main phase when the stack is empty.
+  - *2024-09-20* — If you choose to pay the impending cost rather than the mana cost, you're still casting the spell. It goes on the stack and can be responded to, countered, and so on.
+  - *2024-09-20* — You may return any non-Avatar creature card or any planeswalker card from your graveyard to your hand with Overlord of the Balemurk's last ability, not just one you milled while resolving that ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/113/overlord-of-the-balemurk) · oracle_id `652e87af-7cf0-407f-9fb7-1a630fb8dd47` · printing: DSK #113 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Overlord of the Boilerbilges
 
@@ -437,7 +456,12 @@
   > Whenever this permanent enters or attacks, it deals 4 damage to any target.
 - **Keywords:** Impending
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4623 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/146/overlord-of-the-boilerbilges) · oracle_id `c2db05e0-879b-43e4-9009-37a95fd848dc` · printing: DSK #146 (2024-09-27) · [rulings](https://api.scryfall.com/cards/d58d3545-043a-457a-8324-facc3c2363ec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-09-20* — "Impending N–[cost]" is a keyword that represents multiple abilities. The official rules are as follows: (a) You may choose to pay [cost] rather than pay this spell's mana cost. (b) If you chose to pay this spell's impending cost, it enters the battlefield with N time counters on it. (c) As long as this permanent has a time counter on it, if it was cast for its impending cost, it's not a creature. (d) At the beginning of your end step, if this permanent was cast for its impending cost, remove a time counter from it.
+  - *2024-09-20* — If an object enters as a copy of a permanent that was cast with its impending cost, it won't enter with time counters, and it will be a creature.
+  - *2024-09-20* — If you choose to pay the impending cost of a creature spell, it's still a creature spell on the stack. You can cast that spell for its impending cost only when you could normally cast that creature spell. Most of the time, this means during your main phase when the stack is empty.
+  - *2024-09-20* — If you choose to pay the impending cost rather than the mana cost, you're still casting the spell. It goes on the stack and can be responded to, countered, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/146/overlord-of-the-boilerbilges) · oracle_id `c2db05e0-879b-43e4-9009-37a95fd848dc` · printing: DSK #146 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Overlord of the Floodpits
 
@@ -450,7 +474,12 @@
   > Whenever this permanent enters or attacks, draw two cards, then discard a card.
 - **Keywords:** Flying, Impending
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2990 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/68/overlord-of-the-floodpits) · oracle_id `31196f0b-33ee-4981-ac97-24226e8b405f` · printing: DSK #68 (2024-09-27) · [rulings](https://api.scryfall.com/cards/5fca5de8-9cda-4370-9f72-4462f8cfd696/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-09-20* — "Impending N–[cost]" is a keyword that represents multiple abilities. The official rules are as follows: (a) You may choose to pay [cost] rather than pay this spell's mana cost. (b) If you chose to pay this spell's impending cost, it enters the battlefield with N time counters on it. (c) As long as this permanent has a time counter on it, if it was cast for its impending cost, it's not a creature. (d) At the beginning of your end step, if this permanent was cast for its impending cost, remove a time counter from it.
+  - *2024-09-20* — If an object enters as a copy of a permanent that was cast with its impending cost, it won't enter with time counters, and it will be a creature.
+  - *2024-09-20* — If you choose to pay the impending cost of a creature spell, it's still a creature spell on the stack. You can cast that spell for its impending cost only when you could normally cast that creature spell. Most of the time, this means during your main phase when the stack is empty.
+  - *2024-09-20* — If you choose to pay the impending cost rather than the mana cost, you're still casting the spell. It goes on the stack and can be responded to, countered, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/68/overlord-of-the-floodpits) · oracle_id `31196f0b-33ee-4981-ac97-24226e8b405f` · printing: DSK #68 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Overlord of the Hauntwoods
 
@@ -462,7 +491,13 @@
   > Whenever this permanent enters or attacks, create a tapped colorless land token named Everywhere that is every basic land type.
 - **Keywords:** Impending
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1743 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/194/overlord-of-the-hauntwoods) · oracle_id `4669e8c7-fc37-4b97-9cb7-8d29b43d9176` · printing: DSK #194 (2024-09-27) · [rulings](https://api.scryfall.com/cards/05d08ff1-edcc-4c76-96e0-683b3da36ebb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-09-20* — "Impending N–[cost]" is a keyword that represents multiple abilities. The official rules are as follows: (a) You may choose to pay [cost] rather than pay this spell's mana cost. (b) If you chose to pay this spell's impending cost, it enters the battlefield with N time counters on it. (c) As long as this permanent has a time counter on it, if it was cast for its impending cost, it's not a creature. (d) At the beginning of your end step, if this permanent was cast for its impending cost, remove a time counter from it.
+  - *2024-09-20* — If an object enters as a copy of a permanent that was cast with its impending cost, it won't enter with time counters, and it will be a creature.
+  - *2024-09-20* — If you choose to pay the impending cost of a creature spell, it's still a creature spell on the stack. You can cast that spell for its impending cost only when you could normally cast that creature spell. Most of the time, this means during your main phase when the stack is empty.
+  - *2024-09-20* — If you choose to pay the impending cost rather than the mana cost, you're still casting the spell. It goes on the stack and can be responded to, countered, and so on.
+  - *2024-09-20* — The Everywhere token created by Overlord of the Hauntwoods's last ability has the land types Plains, Island, Swamp, Mountain, and Forest. It also has the mana ability of each basic land type (for example, Forests have "{T}: Add {G}"). It does not have the basic supertype.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/194/overlord-of-the-hauntwoods) · oracle_id `4669e8c7-fc37-4b97-9cb7-8d29b43d9176` · printing: DSK #194 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Overlord of the Mistmoors
 
@@ -474,7 +509,12 @@
   > Whenever this permanent enters or attacks, create two 2/1 white Insect creature tokens with flying.
 - **Keywords:** Impending
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3884 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frc/29/overlord-of-the-mistmoors) · oracle_id `7e64b1dc-a238-4bff-98ff-2bea44340568` · printing: FRC #29 (2026-10-02) · [rulings](https://api.scryfall.com/cards/152d9e61-40f4-489a-b94d-af17a3674441/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-09-20* — "Impending N–[cost]" is a keyword that represents multiple abilities. The official rules are as follows: (a) You may choose to pay [cost] rather than pay this spell's mana cost. (b) If you chose to pay this spell's impending cost, it enters the battlefield with N time counters on it. (c) As long as this permanent has a time counter on it, if it was cast for its impending cost, it's not a creature. (d) At the beginning of your end step, if this permanent was cast for its impending cost, remove a time counter from it.
+  - *2024-09-20* — If an object enters as a copy of a permanent that was cast with its impending cost, it won't enter with time counters, and it will be a creature.
+  - *2024-09-20* — If you choose to pay the impending cost of a creature spell, it's still a creature spell on the stack. You can cast that spell for its impending cost only when you could normally cast that creature spell. Most of the time, this means during your main phase when the stack is empty.
+  - *2024-09-20* — If you choose to pay the impending cost rather than the mana cost, you're still casting the spell. It goes on the stack and can be responded to, countered, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frc/29/overlord-of-the-mistmoors) · oracle_id `7e64b1dc-a238-4bff-98ff-2bea44340568` · printing: FRC #29 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Overmaster
 
@@ -486,6 +526,7 @@
 - **Flavor text** (DMR printing):
   > *"My, what a pretty little trick. At least you'll die with style."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3169 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/132/overmaster) · oracle_id `acc842a4-26e8-435a-b717-c1043b581ff8` · printing: DMR #132 (2023-01-13) · [rulings](https://api.scryfall.com/cards/28e812a8-66cf-4005-a647-780d49aa74a4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Over My Dead Bodies
@@ -507,7 +548,9 @@
   > Untap all creatures you control that attacked this turn. If it's your main phase, there is an additional combat phase after this phase, followed by an additional main phase.
 - **Keywords:** Freerunning
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2010 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/acr/37/overpowering-attack) · oracle_id `e31235f0-1f25-4158-b46e-cacde2f58b7e` · printing: ACR #37 (2024-07-05) · [rulings](https://api.scryfall.com/cards/e4ad338e-88ee-4919-aec4-320071a7cfb5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-07-05* — Once an Assassin creature or commander you control deals combat damage to a player in a turn, you can cast spells for their freerunning costs for the rest of that turn. It doesn’t matter what happens to that Assassin or commander after that.
+- **Source flags:** [Scryfall](https://scryfall.com/card/acr/37/overpowering-attack) · oracle_id `e31235f0-1f25-4158-b46e-cacde2f58b7e` · printing: ACR #37 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Overprotect
 
@@ -519,6 +562,7 @@
   > *"Blor's defenses are impervious!"*
   > *—Blor the Impervious*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1595 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/185/overprotect) · oracle_id `c8c3a293-ae6d-4c52-be2d-2d4b6a8edb66` · printing: BLB #185 (2024-08-02) · [rulings](https://api.scryfall.com/cards/079e979f-b618-4625-989c-e0ea5b61ed8a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Override
@@ -552,7 +596,9 @@
 - **Flavor text** (FDN printing):
   > *Nature doesn't walk.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1710 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/230/overrun) · oracle_id `204f9afe-c20b-4933-b5cd-aa572784762a` · printing: FDN #230 (2024-11-15) · [rulings](https://api.scryfall.com/cards/1d8e9cbb-8bf4-4a48-a58e-79deb3abdf7f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-10-01* — Overrun affects only creatures you control at the time it resolves. It won't affect creatures that come under your control later in the turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/230/overrun) · oracle_id `204f9afe-c20b-4933-b5cd-aa572784762a` · printing: FDN #230 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Overseer of the Damned
 
@@ -565,6 +611,7 @@
   > Whenever a nontoken creature an opponent controls dies, create a tapped 2/2 black Zombie creature token.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3590 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/132/overseer-of-the-damned) · oracle_id `c1f085ce-5b52-45b3-aef0-f77f36b3da36` · printing: MKC #132 (2024-02-09) · [rulings](https://api.scryfall.com/cards/0a1a06a4-af73-43e3-a2cd-3a2f0f9b18f0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Overseer of Vault 76
@@ -589,7 +636,10 @@
   > *"A fine example of addition by subtraction."*
   > *—Deekah, professor of fractal theory*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7046 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/322/oversimplify) · oracle_id `25e1d5fe-c2d8-4a11-ad54-bf1626f9ab45` · printing: SOC #322 (2026-04-24) · [rulings](https://api.scryfall.com/cards/4bfc75ff-3213-495d-9e46-3ba5e8b7b5d3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-04-16* — If a commander is exiled this way, its power will be counted along with the other creatures. Once Oversimplify finishes resolving, that commander's owner may move it to the command zone.
+  - *2021-04-16* — Oversimplify counts the total power of the creatures as they last existed on the battlefield, not the power of those cards in exile.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/322/oversimplify) · oracle_id `25e1d5fe-c2d8-4a11-ad54-bf1626f9ab45` · printing: SOC #322 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oversold Cemetery
 
@@ -600,7 +650,9 @@
 - **Flavor text** (DMR printing):
   > *It was a profitable scheme, at least until the dead began to object.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1683 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/96/oversold-cemetery) · oracle_id `ed4cd3a1-688b-4c05-948d-39d3336e00c0` · printing: DMR #96 (2023-01-13) · [rulings](https://api.scryfall.com/cards/06b7312a-c775-4fa8-ba62-c84ff38459e8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-12-08* — Oversold Cemetery’s ability will check your graveyard as your upkeep begins, before any player has the opportunity to take any actions. If you have fewer than four creature cards in your graveyard at that time, the ability won’t trigger at all. If the ability does trigger, it will check again as it tries to resolve. If you have fewer than four creature cards in your graveyard at that point, the ability won’t have any effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/96/oversold-cemetery) · oracle_id `ed4cd3a1-688b-4c05-948d-39d3336e00c0` · printing: DMR #96 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oversoul of Dusk
 
@@ -638,7 +690,14 @@
   > • Target creature you control explores, then it explores again. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on that creature, then put the card back or put it into your graveyard. Then repeat this process.)
 - **Keywords:** Explore
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8717 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/205/over-the-edge) · oracle_id `26b441b9-fdfb-43e2-bc02-b358653eadf4` · printing: LCI #205 (2023-11-17) · [rulings](https://api.scryfall.com/cards/23dddddb-5409-4c28-bf32-e6473f2cc620/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-11-10* — If a resolving spell or ability instructs a specific creature to explore but that creature has left the battlefield, the creature still explores. If you reveal a nonland card this way, you won't put a +1/+1 counter on anything, but you may put the revealed card into your graveyard. Effects that trigger "whenever a creature explores" trigger as appropriate.
+  - *2023-11-10* — If an ability instructs a creature to explore, its controller reveals the top card of their library. If it's a land card, they'll put it into their hand. Otherwise, they'll put a +1/+1 counter on that creature, then choose to either leave that card on top of their library or put it into their graveyard.
+  - *2023-11-10* — If no card is revealed, most likely because that player's library is empty, the exploring creature receives a +1/+1 counter.
+  - *2023-11-10* — In some unusual cases, noncreature permanents may explore. For example, if the creature card returned by Defossilize is somehow not a creature once it's on the battlefield, it can still explore. You'll take all the same actions, and you may end up putting a +1/+1 counter on the permanent. (Note that some effects target a creature, and those effects would still require a legal target to have it explore.)
+  - *2023-11-10* — Once an ability that causes a creature to explore begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the exploring creature after you reveal a nonland card but before it receives a counter.
+  - *2023-11-10* — Some spells or abilities might cause a creature to explore multiple times in a row. If you reveal a nonland card when a creature explores and leave it on top of your library, then the creature explores again immediately afterwards, you'll reveal the same card again.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/205/over-the-edge) · oracle_id `26b441b9-fdfb-43e2-bc02-b358653eadf4` · printing: LCI #205 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Over the Top
 
@@ -772,7 +831,10 @@
 - **Flavor text** (BRO printing):
   > *Tocasia's face haunted his vision. The explosion still rung in his ears. Mishra kept running and never once looked back.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7600 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/110/overwhelming-remorse) · oracle_id `bb4507c1-1e5d-48b5-8fc0-1d26bd1c9e72` · printing: BRO #110 (2022-11-18) · [rulings](https://api.scryfall.com/cards/202cbfa4-3b3d-47fd-84a6-892692c906d6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-10-14* — Overwhelming Remorse's first ability can't reduce its cost to less than {B}.
+  - *2022-10-14* — Overwhelming Remorse's first ability doesn't change its mana cost or mana value. It just reduces the cost to cast the spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/110/overwhelming-remorse) · oracle_id `bb4507c1-1e5d-48b5-8fc0-1d26bd1c9e72` · printing: BRO #110 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Overwhelming Splendor
 
@@ -784,7 +846,17 @@
   > Enchanted player can't activate abilities that aren't mana abilities or loyalty abilities.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8677 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hou/19/overwhelming-splendor) · oracle_id `1099588c-cc26-4523-8bd2-90e1e1433f53` · printing: HOU #19 (2017-07-14) · [rulings](https://api.scryfall.com/cards/867b32d2-e396-411d-ac02-1af4106dd3d2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2017-07-14* — Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keyword abilities (such as equip and eternalize) are activated abilities and will have colons in their reminder text. Triggered abilities (starting with "when," "whenever," or "at") of noncreature permanents are unaffected by the last ability of Overwhelming Splendor.
+  - *2017-07-14* — An activated mana ability is one that produces mana as it resolves, not one that costs mana to activate. A loyalty ability is an ability of a planeswalker whose cost specifies how many loyalty counters to give or remove.
+  - *2017-07-14* — Effects that modify a creature's power and/or toughness, such as the effect of Titanic Growth, will apply to the creatures no matter when they started to take effect. The same is true for any counters that change their power and/or toughness.
+  - *2017-07-14* — If Overwhelming Splendor leaves the battlefield at the same time as a creature enchanted player controls, any "when [this creature] [dies or leaves the battlefield]" abilities of that creature won't trigger.
+  - *2017-07-14* — If a noncreature permanent becomes a creature, it will lose all abilities it has. However, if the effect that makes that permanent a creature grants it an ability, it will continue to have that ability. For example, the enchanted player's Riddleform will have flying once it becomes a creature.
+  - *2017-07-14* — If an effect grants a creature an ability after Overwhelming Splendor has become attached to its controller, that creature won't lose that ability.
+  - *2017-07-14* — Overwhelming Splendor overwrites all previous effects that set a creature's base power and toughness to specific values. Any power- or toughness-setting effects that start to apply to a creature after Overwhelming Splendor becomes attached to its controller will overwrite this effect. For example, the enchanted player's Riddleform will become a 3/3 creature if player casts a noncreature spell.
+  - *2017-07-14* — While the enchanted player can still activate mana abilities and loyalty abilities, creatures that player controls won't normally have any of those abilities to be activated.
+  - *2017-09-29* — If a creature enters the battlefield under enchanted player's control, any "when [this creature] enters the battlefield" abilities of that creature won't trigger. Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities won't be applied.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hou/19/overwhelming-splendor) · oracle_id `1099588c-cc26-4523-8bd2-90e1e1433f53` · printing: HOU #19 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Overwhelming Stampede
 
@@ -821,7 +893,9 @@
 - **Flavor text** (TLE printing):
   > *"Yes, we defeated you for all time. You will never rise from the ashes of your shame and humiliation!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7945 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tle/123/overwhelming-victory) · oracle_id `20d94561-7526-4305-8d2d-7daf62729ff4` · printing: TLE #123 (2025-11-21) · [rulings](https://api.scryfall.com/cards/498b0bff-28f2-458f-844b-13814cfa8b14/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-10-02* — Excess damage has been dealt to a creature if the damage dealt to it is greater than lethal damage. Usually, this means damage greater than its toughness, although damage already marked on the creature is taken into account.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tle/123/overwhelming-victory) · oracle_id `20d94561-7526-4305-8d2d-7daf62729ff4` · printing: TLE #123 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Overwrite the Multiverse
 
@@ -858,7 +932,9 @@
   > Whenever you cast a noncreature spell, create X 1/1 red Phyrexian Goblin creature tokens, where X is the mana value of that spell. They gain haste until end of turn.
 - **Keywords:** Flying, Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3355 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/663/ovika-enigma-goliath) · oracle_id `b05a2b5f-1b5c-4f1b-8a6b-525c5c8b8ba1` · printing: FDN #663 (2024-11-15) · [rulings](https://api.scryfall.com/cards/54819d7a-eec6-49e6-a0bb-d9d07d42b4a6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-11-08* — If a spell on the stack has {X} in its cost, use the value chosen for X to determine its mana value.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/663/ovika-enigma-goliath) · oracle_id `b05a2b5f-1b5c-4f1b-8a6b-525c5c8b8ba1` · printing: FDN #663 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ovinize
 
@@ -891,7 +967,9 @@
   > Each creature that's attacking one of your opponents has trample.
   > {G}, {T}: You may put a creature or Vehicle card from your hand onto the battlefield. If you put an artifact onto the battlefield this way, put two +1/+1 counters on it.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3164 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dft/173/oviya-automech-artisan) · oracle_id `b01649b8-b0b5-4cf6-aea7-291f3407859e` · printing: DFT #173 (2025-02-14) · [rulings](https://api.scryfall.com/cards/ee5f504c-33fc-4a91-b69b-8ef555987c79/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-02-07* — In some rare cases, a nonartifact card put onto the battlefield this way will get two +1/+1 counters because some other effect (like that of Mycosynth Lattice) makes it an artifact on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dft/173/oviya-automech-artisan) · oracle_id `b01649b8-b0b5-4cf6-aea7-291f3407859e` · printing: DFT #173 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oviya Pashiri, Sage Lifecrafter
 

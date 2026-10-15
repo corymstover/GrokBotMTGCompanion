@@ -135,4 +135,7 @@
 - **Flavor text** (TSR printing):
   > *In the blink of an eye, she strode from deep snow to dusty waste. From the crease of light behind her, a voice rang hollow: "Saffi, wait for me . . . ."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7606 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/260/saffi-eriksdotter) · oracle_id `84ba3e2c-ea96-470b-92c6-b937dc87549b` · printing: TSR #260 (2021-03-19) · [rulings](https://api.scryfall.com/cards/4176dda4-ec5c-4734-bb48-0876304aa219/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-03-19* — Saffi can be the target of its own ability. In this case, the ability won't resolve because its target is illegal, so Saffi won't be returned to the battlefield, but any abilities that check when or if a creature dies will see that it died.
+  - *2021-03-19* — Saffi's effect works only once. If the target creature dies and is then returned to the battlefield, it's considered to be a new creature. If that new creature dies, it won't come back.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/260/saffi-eriksdotter) · oracle_id `84ba3e2c-ea96-470b-92c6-b937dc87549b` · printing: TSR #260 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

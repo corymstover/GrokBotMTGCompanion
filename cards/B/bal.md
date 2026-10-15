@@ -142,7 +142,17 @@
   > Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)
 - **Keywords:** Flying, Transform, Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6289 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/272/balamb-garden-seed-academy-balamb-garden-airborne) · oracle_id `8b84fec5-617c-4088-8250-2ba1f1f9479a` · printing: FIN #272 (2025-06-13) · [rulings](https://api.scryfall.com/cards/001e9f20-5b15-41cb-bf82-46172decc235/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2025-06-06* — A nonmodal double-faced card enters with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed or allows you to cast it transformed, in which case it enters with its back face up.
+  - *2025-06-06* — A token that is created as a copy of a double-faced permanent or a double-faced card in another zone is a double-faced token. It will have both the front face and back face of whatever object it's copying. If it's copying a double-faced permanent whose back face is up, the token will enter with its back face up. It can transform if instructed to do so.
+  - *2025-06-06* — Each face of a nonmodal double-faced card has its own set of characteristics: name, types, subtypes, abilities, and so on. While a nonmodal double-faced permanent is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored.
+  - *2025-06-06* — Each nonmodal double-faced card in this release is cast face up. In every zone other than the battlefield, consider only the characteristics of its front face. If it is on the battlefield, consider only the characteristics of the face that's up; the other face's characteristics are ignored.
+  - *2025-06-06* — If you are instructed to put a card that isn't a double-faced card onto the battlefield transformed, it will not enter at all. In that case, it stays in the zone it was previously in. For example, if a single-faced card is a copy of Crystal Fragments, it will be exiled during the resolution of its second ability and remain in exile.
+  - *2025-06-06* — In the Commander variant, a double-faced card's color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered. For example, Cecil, Dark Knight's color identity is black and white, since its front face is black and its back face has a white color indicator.
+  - *2025-06-06* — The back face of a nonmodal double-faced card usually has a color indicator that defines its color.
+  - *2025-06-06* — The mana value of a nonmodal double-faced card is the mana value of its front face, no matter which face is up.
+  - *2025-06-06* — Town is a land type with no special meaning. It doesn't grant the land any intrinsic abilities. Other cards may care about which lands are Towns.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/272/balamb-garden-seed-academy-balamb-garden-airborne) · oracle_id `8b84fec5-617c-4088-8250-2ba1f1f9479a` · printing: FIN #272 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Balamb T-Rexaur
 
@@ -207,7 +217,10 @@
   > *"What weapon will you bear against one who's mastered them all?"*
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6624 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/16/balan-wandering-knight) · oracle_id `d12cfd46-73c2-4206-9a10-0d2e7d6ac87e` · printing: CMM #16 (2023-08-04) · [rulings](https://api.scryfall.com/cards/049ebad9-bf65-48e2-9640-c11b5f04e38b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-08-25* — Balan's activated ability has no timing restriction. You can activate it any time you have priority.
+  - *2017-08-25* — If Balan deals first-strike damage and then gains double strike (most likely because it picked up some Equipment with its activated ability after first-strike damage was dealt), it will also deal regular combat damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/16/balan-wandering-knight) · oracle_id `d12cfd46-73c2-4206-9a10-0d2e7d6ac87e` · printing: CMM #16 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Baldin, Century Herdmaster
 
@@ -218,7 +231,9 @@
   > During your turn, each creature assigns combat damage equal to its toughness rather than its power.
   > Whenever Baldin attacks, up to one hundred target creatures each get +0/+X until end of turn, where X is the number of cards in your hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3816 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/110/baldin-century-herdmaster) · oracle_id `14493624-fdc7-4630-9b1e-f35668651108` · printing: TDC #110 (2025-04-11) · [rulings](https://api.scryfall.com/cards/fc018483-69a7-4c4c-adfe-44071f53a7de/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-11-08* — For the purposes of deck construction, format legality, and all rules, abilities, and effects that refer to a card’s name, this card’s name is the same as that of E. Honda, Sumo Champion.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/110/baldin-century-herdmaster) · oracle_id `14493624-fdc7-4630-9b1e-f35668651108` · printing: TDC #110 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Baldur's Gate
 
@@ -231,6 +246,7 @@
   > *"Of course I know what 'eponymous' means! It's a little horse."*
   > *—Krizz, gate guard*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2585 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/345/baldurs-gate) · oracle_id `da307ea2-4df7-4d6b-be0f-9dc6ac93db61` · printing: CLB #345 (2022-06-10) · [rulings](https://api.scryfall.com/cards/2436aa14-9200-4295-8041-b682cf3c4216/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Baldur's Gate Wilderness
@@ -398,7 +414,9 @@
   > *"Let your heartbeat be the thunder in the valley. Let your swords be the lightning on the peaks."*
   > *—Lothar Lovisason, Balduvian chieftain*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9653 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/115/balduvian-rage) · oracle_id `1bc7d73b-0f54-4807-b13a-3def0c5e5616` · printing: 2XM #115 (2020-08-07) · [rulings](https://api.scryfall.com/cards/81848391-ed73-498a-a650-4041fb9a46bc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-08-07* — If the target creature is an illegal target by the time Balduvian Rage tries to resolve, the spell won't resolve. You won't draw a card next turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/115/balduvian-rage) · oracle_id `1bc7d73b-0f54-4807-b13a-3def0c5e5616` · printing: 2XM #115 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Balduvian Shaman
 
@@ -471,7 +489,9 @@
   > *If it comes for you, die boldly or die swiftly—for die you will.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1281 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/479/balefire-dragon) · oracle_id `3d783beb-9ca6-4681-9276-fc3ad13b993f` · printing: INR #479 (2025-01-24) · [rulings](https://api.scryfall.com/cards/e4510ee2-8a2e-4fe5-94af-df420a6a35a0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-12-07* — The damage dealt by Balefire Dragon’s triggered ability isn’t combat damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/479/balefire-dragon) · oracle_id `3d783beb-9ca6-4681-9276-fc3ad13b993f` · printing: INR #479 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Balefire Liege
 
@@ -484,7 +504,9 @@
   > Whenever you cast a red spell, this creature deals 3 damage to target player or planeswalker.
   > Whenever you cast a white spell, you gain 3 life.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4878 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/295/balefire-liege) · oracle_id `ee35ed62-d5a2-4e65-a7eb-fcdcb3665532` · printing: SOC #295 (2026-04-24) · [rulings](https://api.scryfall.com/cards/6f236f33-f6d2-4b07-a69d-42165670bd45/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-08-01* — The abilities are separate and cumulative. If another creature you control is both of the listed colors, it will get a total of +2/+2.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/295/balefire-liege) · oracle_id `ee35ed62-d5a2-4e65-a7eb-fcdcb3665532` · printing: SOC #295 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Baleful Ammit
 
@@ -548,7 +570,13 @@
   > If the {1}{B} cost was paid, an opponent draws a card.
   > Exile target creature or planeswalker.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1429 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/126/baleful-mastery) · oracle_id `adfcdadd-ddda-477b-8e72-0cae2430fb63` · printing: OTC #126 (2024-04-19) · [rulings](https://api.scryfall.com/cards/579e20e7-1395-4a6c-a836-ae3419fc8808/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-04-16* —  If an effect increases or decreases the cost of spells you cast, that cost increase or decrease is applied to the alternative cost you chose to pay. In that case, the cost was still paid for the purposes of the effect, even if you paid more or less for it when it was cast.
+  - *2021-04-16* —  If you choose to pay one alternative cost, you can't pay any other alternative costs. For example, if an effect lets you cast a "Mastery" spell "without paying its mana cost," you can't also choose to pay its given alternative cost.
+  - *2021-04-16* —  If you copy a "Mastery" spell and the alternative cost was paid, the copy will resolve as though the cost was paid.
+  - *2021-04-16* —  In a multiplayer game, you choose which opponent takes the prescribed action as the spell resolves.
+  - *2021-04-16* —  The mana value of a spell on the stack is determined by its mana cost, not any alternative costs you used to pay for it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/126/baleful-mastery) · oracle_id `adfcdadd-ddda-477b-8e72-0cae2430fb63` · printing: OTC #126 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Baleful Stare
 
@@ -587,7 +615,10 @@
   > *Adapted to feed on dead flesh, it's not averse to making its own when no corpses are available.*
 - **Keywords:** Eerie
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7934 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/84/balemurk-leech) · oracle_id `a511772c-3739-469d-a5a2-5827b7ce9b5c` · printing: DSK #84 (2024-09-27) · [rulings](https://api.scryfall.com/cards/f0621b32-95c5-4f70-96cf-d46d20efc85d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-09-20* — An ability that triggers "whenever you fully unlock a Room" triggers when a door becomes unlocked and the other door of that Room is already unlocked, or when both doors of that Room become unlocked simultaneously.
+  - *2024-09-20* — If a permanent with an eerie ability enters at the same time as one or more enchantments, its ability will trigger for each of those enchantments.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/84/balemurk-leech) · oracle_id `a511772c-3739-469d-a5a2-5827b7ce9b5c` · printing: DSK #84 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Balin, Loremaster
 
@@ -611,7 +642,12 @@
   > IV — Historic spells you cast this turn cost {2} less to cast.
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6645 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/acr/13/ballad-of-the-black-flag) · oracle_id `e8e15ab4-e4c7-4faf-b469-288451ddee02` · printing: ACR #13 (2024-07-05) · [rulings](https://api.scryfall.com/cards/2d6b1b2f-903c-438c-baba-a3b3e60b1d4f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-07-05* — A card, spell, or permanent is historic if it has the legendary supertype, the artifact card type, or the Saga subtype. Having two of those qualities doesn’t make an object more historic than another or provide an additional bonus—an object either is historic or it isn’t.
+  - *2024-07-05* — An ability that triggers “whenever you cast a historic spell” doesn’t trigger if a historic card is put onto the battlefield without being cast.
+  - *2024-07-05* — Lands are never cast, so abilities that trigger “whenever you cast a historic spell” won’t trigger if you play a legendary land. They also won’t trigger if a card on the battlefield transforms into a card with the legendary supertype, the artifact card type, or the Saga subtype.
+  - *2024-07-05* — Some abilities trigger “whenever you cast a historic spell.” Such an ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/acr/13/ballad-of-the-black-flag) · oracle_id `e8e15ab4-e4c7-4faf-b469-288451ddee02` · printing: ACR #13 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ballista Charger
 
@@ -665,7 +701,9 @@
   > At the beginning of the end step, sacrifice this creature.
 - **Keywords:** Haste, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8673 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/618/ball-lightning) · oracle_id `7485cf25-eb41-4397-be13-7f0b8c10c70a` · printing: FDN #618 (2024-11-15) · [rulings](https://api.scryfall.com/cards/5f27dbf0-6818-40ea-832d-10686b4c2900/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2007-02-01* — The creature is sacrificed at the end of every turn in which it is on the battlefield. There is no choice about what turn to sacrifice it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/618/ball-lightning) · oracle_id `7485cf25-eb41-4397-be13-7f0b8c10c70a` · printing: FDN #618 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Balloon Peddler
 
@@ -778,7 +816,11 @@
 - **Flavor text** (FDN printing):
   > *Only wool from the side of the springjack turned most often to the sun can be woven into kithkin battle standards. Jackherds record every movement of their woolly-jacks until shearing.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8883 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/567/ballyrush-banneret) · oracle_id `0ad27d0e-b6c3-4c3f-a389-285d889b6a65` · printing: FDN #567 (2024-11-15) · [rulings](https://api.scryfall.com/cards/b18a7daa-a112-4728-9123-594366694915/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — Ballyrush Banneret's ability can't reduce the amount of colored mana you pay for a spell. It reduces only the generic mana component of that spell.
+  - *2024-11-08* — Ballyrush Banneret's ability doesn't change the mana cost or mana value of any spell. It changes only the total cost you pay to cast Kithkin and Soldier spells.
+  - *2024-11-08* — Spells you cast that have both types cost {1} less to cast, not {2} less.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/567/ballyrush-banneret) · oracle_id `0ad27d0e-b6c3-4c3f-a389-285d889b6a65` · printing: FDN #567 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Balm of Restoration
 
@@ -806,7 +848,10 @@
   > *"Even the most hardened armies are ill-equipped to defend against an onslaught from the sky."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2120 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/237/balmor-battlemage-captain) · oracle_id `7da19fc5-cb85-4ec7-beea-95210378bbfe` · printing: FDN #237 (2024-11-15) · [rulings](https://api.scryfall.com/cards/0b45ab13-9bb6-48af-8b37-d97b25801ac8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-11-08* — Balmor's last ability affects only creatures you control at the time it resolves, including Balmor itself. Creatures you begin to control later in the turn or noncreature permanents that become creatures later won't get the bonus.
+  - *2024-11-08* — Balmor's last ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack without resolving.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/237/balmor-battlemage-captain) · oracle_id `7da19fc5-cb85-4ec7-beea-95210378bbfe` · printing: FDN #237 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Balor
 
@@ -821,6 +866,7 @@
   > • This creature deals damage to target opponent equal to the number of cards in their hand.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4467 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/162/balor) · oracle_id `6f931c1e-f1d2-4dc7-a653-c29adfc8fb2c` · printing: CLB #162 (2022-06-10) · [rulings](https://api.scryfall.com/cards/60c1b3da-e8e6-4118-a268-1e3871e6ffee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Baloth Cage Trap
@@ -870,7 +916,9 @@
   > Whenever you sacrifice a land, create a tapped 4/4 green Beast creature token and untap this creature.
   > {4}, Sacrifice a land: You gain 2 life.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3966 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/13/baloth-prime) · oracle_id `dba3dcc1-2177-4a8c-8cf3-7d4fb83c7a16` · printing: EOC #13 (2025-08-01) · [rulings](https://api.scryfall.com/cards/2c723fc9-d5c9-4126-a9a6-f80c247a4b6b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-07-25* — If Baloth Prime leaves the battlefield at the same time as you sacrifice one or more lands (probably because you also sacrificed Baloth Prime), its second ability triggers for each of those lands.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/13/baloth-prime) · oracle_id `dba3dcc1-2177-4a8c-8cf3-7d4fb83c7a16` · printing: EOC #13 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Baloth Pup
 
@@ -960,7 +1008,9 @@
 - **Flavor text** (JUD printing):
   > *He remembers enough of his life to weep for what he has lost.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9367 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/jud/61/balthor-the-defiled) · oracle_id `dfd8e6c2-e425-41fa-af55-985271f771b3` · printing: JUD #61 (2002-05-27) · [rulings](https://api.scryfall.com/cards/ed4cc273-adc3-4f46-9743-134b552d1d56/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-07-01* — You can only activate this ability if Balthor the Defiled is on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jud/61/balthor-the-defiled) · oracle_id `dfd8e6c2-e425-41fa-af55-985271f771b3` · printing: JUD #61 (2002-05-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Balthor the Stout
 

@@ -68,7 +68,9 @@
 - **Flavor text** (GRN printing):
   > *"Countermagic is a simple process of breaking matter into its elementary particles."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7669 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/grn/179/ionize) · oracle_id `01da67a5-e3dc-44f4-8a93-513bfa4d8fbc` · printing: GRN #179 (2018-10-05) · [rulings](https://api.scryfall.com/cards/f161f7d2-eaa1-4931-93f9-befa8b5df821/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-10-05* — A spell that can’t be countered is a legal target for Ionize. The spell won’t be countered when Ionize resolves, but Ionize still deals 2 damage to that spell’s controller.
+- **Source flags:** [Scryfall](https://scryfall.com/card/grn/179/ionize) · oracle_id `01da67a5-e3dc-44f4-8a93-513bfa4d8fbc` · printing: GRN #179 (2018-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ion Storm
 
@@ -92,6 +94,7 @@
 - **Flavor text** (LTR printing):
   > *"I have been too busy with this and that to heed all the crying and shouting. All I hope is that those murdering devils do not come to this House and trouble the sick."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2419 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/56/ioreth-of-the-healing-house) · oracle_id `af6e4c3e-0276-4f72-9a70-25868fe8bba5` · printing: LTR #56 (2023-06-23) · [rulings](https://api.scryfall.com/cards/03ab74cd-978a-49eb-9d38-bc8b472b3cef/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ior Ruin Expedition

@@ -46,7 +46,21 @@
   > *Memories burn with the brightest flames.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8093 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/103/backdraft-hellkite) · oracle_id `fcf9057a-4975-4a7d-85f5-3fdc80942fcd` · printing: 2X2 #103 (2022-07-08) · [rulings](https://api.scryfall.com/cards/4fb3f1cb-7180-4c5f-8e04-58bb9bf45733/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2019-08-23* — Once Backdraft Hellkite has attacked, its ability will resolve and grant the appropriate cards flashback even if Backdraft Hellkite leaves the battlefield before the ability resolves or after it resolves but before you cast the spells.
+  - *2019-08-23* — Only instant and sorcery cards in your graveyard when Backdraft Hellkite's triggered ability resolves will gain flashback. Instant and sorcery cards that are put into your graveyard later in the turn won't gain flashback.
+  - *2021-03-19* — "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2021-03-19* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2021-03-19* — If a card has multiple instances of flashback, you may choose any of its flashback costs to pay.
+  - *2021-03-19* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2021-03-19* — If a card with no mana cost gains flashback, it has no flashback cost. It can't be cast this way.
+  - *2021-03-19* — If a split card gains flashback, you pay only the cost of the half you're casting.
+  - *2021-03-19* — If you cast a spell with flashback, you can't pay any alternative costs such as overload costs. You can pay additional costs such as kicker costs. If the spell has any mandatory additional costs, you must pay those to cast the spell with flashback.
+  - *2021-03-19* — If you cast an instant or sorcery with {X} in its mana cost this way, you still choose the value of X as part of casting the spell and pay that cost.
+  - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2021-03-19* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/103/backdraft-hellkite) · oracle_id `fcf9057a-4975-4a7d-85f5-3fdc80942fcd` · printing: 2X2 #103 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Backfire
 
@@ -81,7 +95,14 @@
   > Return up to two target creature cards from your graveyard to your hand. If this spell was bargained, you may put one of those cards with mana value 4 or less onto the battlefield instead of putting it into your hand.
 - **Keywords:** Bargain
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7883 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/80/back-for-seconds) · oracle_id `ee3d21b9-58b4-480c-bae3-26de50f1a5c6` · printing: WOE #80 (2023-09-08) · [rulings](https://api.scryfall.com/cards/660845b5-96fa-4484-822b-aa0508801306/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-09-01* — Bargain means “As an additional cost to cast this spell, you may sacrifice an artifact, enchantment, or token.”
+  - *2023-09-01* — Bargain represents an optional additional cost. A spell cast with that additional cost paid is “bargained.”
+  - *2023-09-01* — If you bargain this spell, you can still choose not to put one of the cards onto the battlefield, even if at least one is eligible.
+  - *2023-09-01* — If you copy a bargained spell, the copy is also bargained. If a card or token enters the battlefield as a copy of a permanent that’s already on the battlefield, the new permanent isn’t bargained, even if the original was.
+  - *2023-09-01* — Some instant and sorcery spells require additional targets if they’re bargained. You ignore those targeting requirements if those spells aren’t bargained, and you can’t bargain those spells unless you can choose the appropriate targets. On the other hand, you can bargain a permanent spell even if you won’t be able to choose targets for an enters-the-battlefield ability of that permanent once the spell resolves.
+  - *2023-09-01* — You may sacrifice only one artifact, enchantment, or token to pay a spell’s bargain cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/80/back-for-seconds) · oracle_id `ee3d21b9-58b4-480c-bae3-26de50f1a5c6` · printing: WOE #80 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Back from the Brink
 
@@ -104,7 +125,11 @@
   > *"Well, there's a good day's work ruined."*
   > *—Erin Nath, Omenport gravedigger*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4768 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/18/back-in-town) · oracle_id `ce723db6-2a80-42a5-a176-cd322b4e1e27` · printing: OTC #18 (2024-04-19) · [rulings](https://api.scryfall.com/cards/393a864c-caa0-4030-b8bd-be0bb967eb72/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-04-12* — A card, spell, or permanent is an outlaw if it has the Assassin, Mercenary, Pirate, Rogue, or Warlock creature type. It doesn’t matter if it has more than one of those creature types; as long as it has at least one, it’s an outlaw.
+  - *2024-04-12* — If an ability refers to an outlaw or whether a player controls an outlaw, it’s referring only to permanents with one or more of the creature types specified above. Notably, it’s not referring to any spell or card not on the battlefield. However, other abilities may refer to an “outlaw spell” or “outlaw card” in a zone other than the battlefield. Those abilities refer to spells and cards with one or more of the specified creature types.
+  - *2024-04-12* — Outlaw is not a creature type. If an effect asks you to choose a creature type, you can’t choose outlaw.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/18/back-in-town) · oracle_id `ce723db6-2a80-42a5-a176-cd322b4e1e27` · printing: OTC #18 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Backlash
 
@@ -165,6 +190,7 @@
   > *"A ruler wears a crown while the rest of us wear hats, but which would you rather have when it's raining?"*
   > *—Barrin, \*Principia\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5445 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/uma/46/back-to-basics) · oracle_id `05c2dec2-d2f7-4036-b91f-4fccba10a8bb` · printing: UMA #46 (2018-12-07) · [rulings](https://api.scryfall.com/cards/0600d6c2-0f72-4e79-a55d-1f06dffa48c2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Back to Nature
@@ -176,6 +202,7 @@
 - **Flavor text** (M15 printing):
   > *There will always be those who presume to improve nature, or dare to befoul it. And nature will always have a response.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9838 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m15/169/back-to-nature) · oracle_id `b8d8ece6-397e-4bc9-b86c-7caa1d675d0f` · printing: M15 #169 (2014-07-18) · [rulings](https://api.scryfall.com/cards/b49270b2-ba15-4268-adb3-16d09c09adee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Backup Agent

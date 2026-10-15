@@ -130,6 +130,7 @@
 - **Flavor text** (LRW printing):
   > *"May you shade three generations of seedlings."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7592 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lrw/235/seedguide-ash) · oracle_id `7ff007cb-c994-4643-a6d4-c58e030514e1` · printing: LRW #235 (2007-10-12) · [rulings](https://api.scryfall.com/cards/eca605c0-6270-4238-bb77-0bbfd7568807/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seedling Charm
@@ -167,7 +168,22 @@
   > • Copy target spell. You may choose new targets for the copy. (A copy of a permanent spell becomes a token.)
   > • Create a token that's a copy of target creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3468 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/77/see-double) · oracle_id `144d0817-348c-4171-aa7e-3468b23cf97d` · printing: MOM #77 (2023-04-21) · [rulings](https://api.scryfall.com/cards/41634103-7b58-4feb-84b7-90a07a7b474f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (14):
+  - *2023-04-14* — A copy of a spell is created on the stack, so it’s not “cast.” Abilities that trigger when a player casts a spell won’t trigger.
+  - *2023-04-14* — Any enters-the-battlefield abilities of the copied creature will trigger when the token enters the battlefield. Any “as [this creature] enters the battlefield” or “[this creature] enters the battlefield with” abilities of the copied creature will also work.
+  - *2023-04-14* — If the copied creature has {X} in its mana cost, X is 0.
+  - *2023-04-14* — If the copied creature is a token, the token that’s created copies the original characteristics of that token as stated by the effect that created that token.
+  - *2023-04-14* — If the copied creature is copying something else, then the token enters the battlefield as whatever that creature copied.
+  - *2023-04-14* — If the spell has damage divided as it was cast, the division can’t be changed (although the targets receiving that damage still can). The same is true of spells that distribute counters.
+  - *2023-04-14* — If the spell that’s copied has an X whose value was determined as it was cast, the copy will have the same value of X.
+  - *2023-04-14* — If the spell that’s copied is modal (that is, it includes a choice from a bulleted list of effects), the copy will have the same mode. A different mode can’t be chosen.
+  - *2023-04-14* — If you copy a spell, you control the copy. It will resolve before the original spell does.
+  - *2023-04-14* — Once you’ve cast See Double and legally chosen both modes, it doesn’t matter what happens to the number of cards in opponents’ graveyards.
+  - *2023-04-14* — The copy will have the same targets as the spell it’s copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can’t choose a new legal target, then it remains unchanged (even if the current target is illegal).
+  - *2023-04-14* — The token copies exactly what was printed on the original creature and nothing else (unless that creature is copying something else or is a token; see below). It doesn’t copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+  - *2023-04-14* — You can’t choose to pay any alternative or additional costs for the copy of the spell. However, effects based on any alternative or additional costs that were paid for the original spell are copied as though those same costs were paid for the copy.
+  - *2023-04-14* — You may choose both modes if any opponent has eight or more cards in their graveyard, not necessarily all of them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/77/see-double) · oracle_id `144d0817-348c-4171-aa7e-3468b23cf97d` · printing: MOM #77 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seedpod Caretaker
 
@@ -225,6 +241,7 @@
   > *"Inspiration blossoms from fertile rot."*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8155 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/227/seedship-broodtender) · oracle_id `15c994b9-901a-46d6-804b-24560a14a481` · printing: EOE #227 (2025-08-01) · [rulings](https://api.scryfall.com/cards/1abc176f-2ccf-4371-b4b5-030dd99ff7fc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seedship Impact
@@ -236,7 +253,9 @@
 - **Flavor text** (EOE printing):
   > *A new brood finds its home on the doorstep of another's.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9848 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/205/seedship-impact) · oracle_id `c6d89c4a-351f-4d63-ba57-b978a695191e` · printing: EOE #205 (2025-08-01) · [rulings](https://api.scryfall.com/cards/d060d95f-f33a-4fc0-b002-c394d4cd82ce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-07-25* — If a permanent has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/205/seedship-impact) · oracle_id `c6d89c4a-351f-4d63-ba57-b978a695191e` · printing: EOE #205 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seeds of Innocence
 
@@ -358,7 +377,9 @@
 - **Flavor text** (7ED printing):
   > *Seekers spend their lives protecting a home they rarely visit.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3902 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/7ed/268/seeker-of-skybreak) · oracle_id `704723f3-0490-4d96-930a-aacc6d19ba8d` · printing: 7ED #268 (2001-04-11) · [rulings](https://api.scryfall.com/cards/d1f20175-8bfa-417a-912b-d6d472f091ab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — It can use its tap ability to untap itself.
+- **Source flags:** [Scryfall](https://scryfall.com/card/7ed/268/seeker-of-skybreak) · oracle_id `704723f3-0490-4d96-930a-aacc6d19ba8d` · printing: 7ED #268 (2001-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seeker of Slaanesh
 
@@ -522,7 +543,12 @@
   > *"The shadow travels toward the apex. I predict we will soon see the true measure of darkness."*
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4420 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/470/seers-sundial) · oracle_id `9929d7ba-cdc5-4099-a0ee-3a15073336f3` · printing: CMR #470 (2020-11-20) · [rulings](https://api.scryfall.com/cards/491b8613-d5cd-4749-9c1b-d27a388c616a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2010-03-01* — You choose whether to pay {2} as the ability resolves. You may pay {2} only once per resolution.
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/470/seers-sundial) · oracle_id `9929d7ba-cdc5-4099-a0ee-3a15073336f3` · printing: CMR #470 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seer's Vision
 
@@ -543,7 +569,10 @@
 - **Flavor text** (M21 printing):
   > *"What is this that is neither future nor past?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6386 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m21/69/see-the-truth) · oracle_id `b23c1f40-291d-43b3-971d-97ded8b367cb` · printing: M21 #69 (2020-07-03) · [rulings](https://api.scryfall.com/cards/91af15cc-fdd5-4d72-a53a-314fa5353527/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-06-23* — If an effect copies See the Truth while it's on the stack, the copy wasn't cast at all, so you only get one of the cards it has you look at.
+  - *2020-06-23* — See the Truth doesn't give you permission to cast it from a zone other than your hand. You'll need to find another way to do so.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m21/69/see-the-truth) · oracle_id `b23c1f40-291d-43b3-971d-97ded8b367cb` · printing: M21 #69 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### See the Unwritten
 
@@ -577,6 +606,7 @@
   > Cycling {U}{B}{R} ({U}{B}{R}, Discard this card: Draw a card.)
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1984 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/225/seething-landscape) · oracle_id `2d8635bd-ed96-4bb1-8718-6962a0eee3d5` · printing: MH3 #225 (2024-06-14) · [rulings](https://api.scryfall.com/cards/661fc907-7003-45c6-820c-9616e9a71c30/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seething Pathblazer

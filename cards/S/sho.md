@@ -88,6 +88,7 @@
 - **Flavor text** (MSC printing):
   > *If you're going to have a gimmick, embrace it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2221 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/809/shock) · oracle_id `a9d288b8-cdc1-4e55-a0c9-d6edfc95e65d` · printing: MSC #809 (2026-06-26) · [rulings](https://api.scryfall.com/cards/b23900fb-efe9-43ab-9f67-4545dd01fb9c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shock Brigade
@@ -102,7 +103,10 @@
   > *"From Alesha to Zurgo, all Mardu khans started right here. At the front lines."*
 - **Keywords:** Menace, Mobilize
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7949 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/120/shock-brigade) · oracle_id `8676e917-17dd-4047-99c4-402f2e909e16` · printing: TDM #120 (2025-04-11) · [rulings](https://api.scryfall.com/cards/66940466-8e9d-4a85-bfb0-e92189b7a121/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-04-04* — Although the Warrior tokens enter as attacking creatures, they were never declared as attacking creatures. Abilities that trigger whenever a creature attacks won’t trigger when the tokens enter attacking.
+  - *2025-04-04* — You choose the player, planeswalker, or battle each Warrior token is attacking. They don’t all have to attack the same one, and they don’t have to attack the same player, planeswalker, or battle as the creature with mobilize.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/120/shock-brigade) · oracle_id `8676e917-17dd-4047-99c4-402f2e909e16` · printing: TDM #120 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shocker
 
@@ -153,6 +157,7 @@
   > *—Balur, Mardu warrior*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6959 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/121/shocking-sharpshooter) · oracle_id `fbb7735f-ec91-4ed4-b735-d94a76e68a80` · printing: TDM #121 (2025-04-11) · [rulings](https://api.scryfall.com/cards/4a10342d-ca04-4d1e-bca9-79f531951a16/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shockmaw Dragon
@@ -215,7 +220,12 @@
   > *"Now, where is that deputy?"*
   > *—Jana, Hellspur thunderslinger*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4188 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/106/shoot-the-sheriff) · oracle_id `2038138e-2e52-41e4-90fc-443fa054c5c0` · printing: OTJ #106 (2024-04-19) · [rulings](https://api.scryfall.com/cards/180d6528-c524-4bb8-8a72-b3775cd2c177/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-04-12* — A card, spell, or permanent is an outlaw if it has the Assassin, Mercenary, Pirate, Rogue, or Warlock creature type. It doesn’t matter if it has more than one of those creature types; as long as it has at least one, it’s an outlaw.
+  - *2024-04-12* — If an ability refers to an outlaw or whether a player controls an outlaw, it’s referring only to permanents with one or more of the creature types specified above. Notably, it’s not referring to any spell or card not on the battlefield. However, other abilities may refer to an “outlaw spell” or “outlaw card” in a zone other than the battlefield. Those abilities refer to spells and cards with one or more of the specified creature types.
+  - *2024-04-12* — Outlaw is not a creature type. If an effect asks you to choose a creature type, you can’t choose outlaw.
+  - *2024-04-12* — The only deputy in the Outlaws of Thunder Junction release is a Mercenary, so no, you cannot shoot the deputy.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/106/shoot-the-sheriff) · oracle_id `2038138e-2e52-41e4-90fc-443fa054c5c0` · printing: OTJ #106 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shopkeeper's Bane
 
@@ -293,6 +303,7 @@
   > *A water skimmer's ability to sense danger in the slightest ripple makes them a prized companion for Long River trawlers.*
 - **Keywords:** Threshold
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2950 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/70/shoreline-looter) · oracle_id `c15cad77-e70f-42cc-a9f5-50e1fd8c9c96` · printing: BLB #70 (2024-08-02) · [rulings](https://api.scryfall.com/cards/d5bf8cf0-419a-4dc9-9342-aad55c1af05a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shoreline Raider
@@ -369,6 +380,7 @@
 - **Flavor text** (BLB printing):
   > *"Is that all you've got? Put some mussel into it!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1685 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/69/shore-up) · oracle_id `c9d8c983-2845-42e6-b6b8-bf7cf2729b23` · printing: BLB #69 (2024-08-02) · [rulings](https://api.scryfall.com/cards/4dc3b49e-3674-494c-bdea-4374cefd10f4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shorikai, Genesis Engine
@@ -381,6 +393,7 @@
   > Crew 8 (Tap any number of creatures you control with total power 8 or more: This Vehicle becomes an artifact creature until end of turn.)
 - **Keywords:** Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2308 · Game Changer: no · Can be commander: Yes (legendary Vehicle, CR 903.3)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/nec/4/shorikai-genesis-engine) · oracle_id `e2962883-6daf-4a84-af73-917afc73092c` · printing: NEC #4 (2022-02-18) · [rulings](https://api.scryfall.com/cards/969ac7dd-f3aa-4888-9ff0-d16a31b5e7a9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Short Bow
@@ -394,6 +407,7 @@
   > *Take heart. Take aim. Take them down.*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5017 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/248/short-bow) · oracle_id `ce5f5ff9-13f7-41eb-ada0-7f73de42acef` · printing: BLB #248 (2024-08-02) · [rulings](https://api.scryfall.com/cards/51d8b72b-fa8f-48d3-bddc-d3ce9b8ba2ea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Short Circuit
@@ -479,7 +493,11 @@
 - **Flavor text** (CN2 printing):
   > *At the academy, "show and tell" too often becomes "run and hide."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6316 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/121/show-and-tell) · oracle_id `b83a3ba0-249e-4c39-bbf0-cb005413f7d2` · printing: CN2 #121 (2016-08-26) · [rulings](https://api.scryfall.com/cards/fa7b7897-36e0-415a-8bb7-602886164852/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-10-04* — If the cards being put onto the battlefield also require choices, those choices are made after all players choose their card. The active player makes choices for their card (if any), then the other players (if any) in turn order.
+  - *2004-10-04* — Players choose cards during resolution, not announcement.
+  - *2008-04-01* — The current player chooses first, then each other player chooses in turn order. A player does not have to reveal the chosen card, so long as it is clear *which* card was chosen. After all choices are made, the cards are put onto the battlefield simultaneously.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/121/show-and-tell) · oracle_id `b83a3ba0-249e-4c39-bbf0-cb005413f7d2` · printing: CN2 #121 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Showdown of the Skalds
 
@@ -490,7 +508,19 @@
   > I — Exile the top four cards of your library. Until the end of your next turn, you may play those cards.
   > II, III — Whenever you cast a spell this turn, put a +1/+1 counter on target creature you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8032 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/229/showdown-of-the-skalds) · oracle_id `6107f9aa-3373-4166-b4b8-a26fd6d69c72` · printing: KHM #229 (2021-02-05) · [rulings](https://api.scryfall.com/cards/3d9d840e-1f13-44e3-a4de-903cfa58a346/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2021-02-05* — A chapter ability doesn’t trigger if a lore counter is put on a Saga that already had a number of lore counters greater than or equal to that chapter’s number. For example, the third lore counter put on a Saga causes the chapter III ability to trigger, but chapters I and II won’t trigger again.
+  - *2021-02-05* — Any cards you don’t play by the end of your next turn will remain exiled.
+  - *2021-02-05* — As a Saga enters the battlefield, its controller puts a lore counter on it. As your precombat main phase begins (immediately after your draw step), you put another lore counter on each Saga you control. Putting a lore counter on a Saga in either of these ways doesn’t use the stack.
+  - *2021-02-05* — Each symbol on the left of a Saga’s text box represents a chapter ability. A chapter ability is a triggered ability that triggers when a lore counter that is put on the Saga causes the number of lore counters on the Saga to become equal to or greater than the ability’s chapter number. Chapter abilities are put onto the stack and may be responded to.
+  - *2021-02-05* — If multiple chapter abilities trigger at the same time, their controller puts them on the stack in any order. If any of them require targets, those targets are chosen as you put the abilities on the stack, before any of those abilities resolve.
+  - *2021-02-05* — Once a chapter ability has triggered, the ability on the stack won’t be affected if the Saga gains or loses counters, or if it leaves the battlefield.
+  - *2021-02-05* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities, the Saga’s controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn’t use the stack.
+  - *2021-02-05* — Playing a card this way follows the normal rules for playing the card. You must pay its costs, and you must follow all applicable timing rules. For example, if one of the cards is a sorcery card, you can cast it only during your main phase while the stack is empty.
+  - *2021-02-05* — Removing lore counters won’t cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives more lore counters.
+  - *2021-02-05* — The cards you exile because of the chapter I ability are exiled face up.
+  - *2021-02-05* — Under normal circumstances, you can play a land from among the exiled cards only if you haven’t played a land yet that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/229/showdown-of-the-skalds) · oracle_id `6107f9aa-3373-4166-b4b8-a26fd6d69c72` · printing: KHM #229 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shower of Arrows
 
@@ -503,6 +533,7 @@
   > *—Legolas*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8729 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/188/shower-of-arrows) · oracle_id `efcbca5a-743c-4b16-a7cf-b07335b31ced` · printing: LTR #188 (2023-06-23) · [rulings](https://api.scryfall.com/cards/92cd3884-18d1-4200-b28e-a52349ef37aa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shower of Coals

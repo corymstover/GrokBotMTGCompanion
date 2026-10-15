@@ -106,7 +106,12 @@
   > *"Adapt to this, you bug-eyed planet-squatters!"*
   > *—Admiral Scargruf, Kavaron Memorial Navy*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3514 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/132/devastating-onslaught) · oracle_id `2e17cd4c-ebf0-40d0-b52d-b4d84bbcf7b3` · printing: EOE #132 (2025-08-01) · [rulings](https://api.scryfall.com/cards/fc779971-24e2-46a8-86be-16f0b244a3d2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-07-25* — Any enters abilities of the copied permanent will trigger when the tokens enter. Any “as [this permanent] enters” or “[this permanent] enters with” abilities of the copied permanent will also work.
+  - *2025-07-25* — If the copied permanent is a token, the tokens that are created copy the original characteristics of that token as stated by the effect that created the token.
+  - *2025-07-25* — If the copied permanent is copying something else, then the tokens enter as whatever that permanent copied.
+  - *2025-07-25* — The tokens copy exactly what was printed on the original permanent and nothing else (unless that permanent is itself copying something else; see below). They don’t copy whether that permanent is tapped or untapped, whether it has any counters on it or Auras attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on. If the permanent is a Vehicle, the copies are not crewed. If it is an Equipment, the copies are not attached to any creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/132/devastating-onslaught) · oracle_id `2e17cd4c-ebf0-40d0-b52d-b4d84bbcf7b3` · printing: EOE #132 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devastating Summons
 
@@ -142,7 +147,19 @@
   > *It's hard to argue with a force made of divine will.*
 - **Keywords:** Miracle
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4044 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c18/85/devastation-tide) · oracle_id `4245ee98-2d4c-49d1-8d07-80760cae2bf9` · printing: C18 #85 (2018-08-10) · [rulings](https://api.scryfall.com/cards/2d493bd6-af71-45be-bd4c-1d8f94bca19e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2018-07-13* — If an effect puts a card into your hand without using the word "draw," the card wasn't drawn.
+  - *2018-07-13* — If the card with miracle leaves your hand before the triggered ability resolves, you won't be able to cast it using its miracle ability.
+  - *2018-07-13* — It's important to reveal a card with miracle before it is mixed with the other cards in your hand.
+  - *2018-07-13* — Miracle is an alternative cost to cast the spell with miracle. It can't be combined with other alternative costs, such as casting a spell "without paying its mana cost."
+  - *2018-07-13* — Multiple card draws are always treated as a sequence of individual card draws. For example, if you haven't drawn any cards yet during a turn and cast a spell that instructs you to draw three cards, you'll draw them one at a time. Only the first card drawn this way may be revealed and cast using its miracle ability.
+  - *2018-07-13* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a miracle cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+  - *2018-07-13* — You can cast a card for its miracle cost only as the miracle triggered ability resolves. If you don't want to cast it at that time (or you can't cast it, perhaps because there are no legal targets available), you won't be able to cast it later for the miracle cost.
+  - *2018-07-13* — You can reveal and cast a card with miracle on any turn, not just your own, if it's the first card you've drawn that turn.
+  - *2018-07-13* — You cast the card with miracle during the resolution of the triggered ability. Ignore any timing rules based on the card's type.
+  - *2018-07-13* — You don't have to reveal a drawn card with miracle if you don't wish to cast it at that time.
+  - *2018-07-13* — You still draw the card, whether you use the miracle ability or not. Any ability that triggers whenever you draw a card, for example, will trigger. If you don't cast the card using its miracle ability, it will remain in your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c18/85/devastation-tide) · oracle_id `4245ee98-2d4c-49d1-8d07-80760cae2bf9` · printing: C18 #85 (2018-08-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deviant Glee
 
@@ -184,7 +201,9 @@
   > *Nobody thought twice about checking their weapons at the door, until they were informed there was no weapon check at the door.*
 - **Keywords:** Alliance, Haste, Trample, Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3506 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/snc/105/devilish-valet) · oracle_id `e1e0dc37-20c9-4236-ae01-e0891ce83afb` · printing: SNC #105 (2022-04-29) · [rulings](https://api.scryfall.com/cards/45d3fc69-6c5e-4ede-9f8d-c1cee096a78a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-04-29* — To double a creature's power means that creature gets +X/+0, where X is its power as the ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/snc/105/devilish-valet) · oracle_id `e1e0dc37-20c9-4236-ae01-e0891ce83afb` · printing: SNC #105 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devil K. Nevil
 
@@ -304,7 +323,10 @@
 - **Flavor text** (ECC printing):
   > *"Mana lurks in all things, even in the depths of one's own heart."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #969 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/104/devoted-druid) · oracle_id `cb814e16-acf7-41d5-a357-1323dcc369f3` · printing: ECC #104 (2026-01-23) · [rulings](https://api.scryfall.com/cards/22589a81-3ea8-4e78-98c9-c015e7539cf9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-12-07* — If you can't put -1/-1 counters on Devoted Druid (due to an effect such as that of Solemnity), you can't activate its second ability. If you can put counters on it, but that is modified by an effect (such as that of Vizier of Remedies), you can activate the ability even if paying the cost causes no counters to be put on Devoted Druid.
+  - *2018-12-07* — You put the -1/-1 counter on Devoted Druid as a cost to activate its ability, not when it resolves. If paying the cost causes Devoted Druid to have 0 toughness, it's put into your graveyard before you can untap it and before you can even pay the cost again.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/104/devoted-druid) · oracle_id `cb814e16-acf7-41d5-a357-1323dcc369f3` · printing: ECC #104 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devoted Duelist
 
@@ -441,7 +463,11 @@
   > You may reveal this card from your opening hand. If you do, at the beginning of your first upkeep, look at the top four cards of your library. You may put one of those cards back on top of your library. Exile the rest.
   > When you cast this spell, exile target permanent that's one or more colors.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8269 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/2/devourer-of-destiny) · oracle_id `89215e6d-ebe7-4eb0-9999-11ee2e6eb1d2` · printing: MH3 #2 (2024-06-14) · [rulings](https://api.scryfall.com/cards/560debcd-feb4-4534-991e-a7aa1cca2409/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-06-07* — A player's "opening hand" is the hand of cards the player has after all players have taken mulligans. If players have any cards in hand that allow actions to be taken with them from a player's opening hand, the starting player takes all such actions first in any order, followed by each other player in turn order. Then the first turn begins.
+  - *2024-06-07* — Devourer of Destiny's last triggered ability will resolve before Devourer of Destiny does. If Devourer of Destiny is countered or otherwise leaves the stack in response to that triggered ability, the triggered ability will still resolve as normal.
+  - *2024-06-07* — If you reveal more than one Devourer of Destiny from your opening hand, you'll put that many triggered abilities on the stack at the beginning of your first upkeep. As a result, you'll look at the top four cards of your library, put up to one back on top, and exile the rest once for each Devour of Destiny you revealed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/2/devourer-of-destiny) · oracle_id `89215e6d-ebe7-4eb0-9999-11ee2e6eb1d2` · printing: MH3 #2 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devourer of Memory
 
@@ -623,7 +649,9 @@
 - **Flavor text** (C20 printing):
   > *"By Avacyn's decree, we shall cleanse these relics of their demonic past."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9110 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c20/87/devout-chaplain) · oracle_id `1e575a82-e128-4637-87cd-f075654bc41b` · printing: C20 #87 (2020-04-17) · [rulings](https://api.scryfall.com/cards/4be0f70c-6bee-4208-8111-735b2fa31b4d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2012-05-01* — You can tap any two untapped Humans you control, including ones you haven’t controlled continuously since the beginning of your most recent turn, to pay the cost of Devout Chaplain’s activated ability. You must have controlled Devout Chaplain continuously since the beginning of your most recent turn, however.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c20/87/devout-chaplain) · oracle_id `1e575a82-e128-4637-87cd-f075654bc41b` · printing: C20 #87 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devout Decree
 

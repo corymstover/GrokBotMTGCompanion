@@ -181,7 +181,9 @@
 - **Flavor text** (DMU printing):
   > *Twigs broken underfoot in Llanowar tend to return the favor.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3950 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/170/llanowar-loamspeaker) · oracle_id `08377424-619e-48ae-bc3c-fb199cd77cf9` · printing: DMU #170 (2022-09-09) · [rulings](https://api.scryfall.com/cards/bd5611db-82dd-464d-8b03-70d7619dcefe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-09-09* — Llanowar Loamspeaker's second ability doesn't untap the land that becomes a creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/170/llanowar-loamspeaker) · oracle_id `08377424-619e-48ae-bc3c-fb199cd77cf9` · printing: DMU #170 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Llanowar Mentor
 
@@ -205,7 +207,9 @@
   > Graft 1 (This land enters with a +1/+1 counter on it. Whenever a creature enters, you may move a +1/+1 counter from this land onto it.)
 - **Keywords:** Graft
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2422 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/341/llanowar-reborn) · oracle_id `92acb789-0e42-465c-ac16-40fefec48805` · printing: LCC #341 (2023-11-17) · [rulings](https://api.scryfall.com/cards/284e165e-9ab6-47fc-9685-0fb03de237df/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2007-05-01* — The +1/+1 counter won't affect Llanowar Reborn in any way unless another effect turns it into a creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/341/llanowar-reborn) · oracle_id `92acb789-0e42-465c-ac16-40fefec48805` · printing: LCC #341 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Llanowar Scout
 
@@ -217,7 +221,9 @@
 - **Flavor text** (DOM printing):
   > *Llanowar elfhames occupy different heights within the great forest. Elves of the Loridalh and Kelfae hames can see neither earth nor sky.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6297 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dom/170/llanowar-scout) · oracle_id `3bdc9211-8eff-4b30-8d6f-d26f4087f77f` · printing: DOM #170 (2018-04-27) · [rulings](https://api.scryfall.com/cards/c8026d80-2e91-46f9-ae97-1f137848236c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-04-27* — Llanowar Scout’s effect doesn’t count as playing a land. It can put a land card onto the battlefield even if you’ve already played as many lands as able this turn or if it’s not your turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dom/170/llanowar-scout) · oracle_id `3bdc9211-8eff-4b30-8d6f-d26f4087f77f` · printing: DOM #170 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Llanowar Sentinel
 
@@ -254,6 +260,7 @@
 - **Flavor text** (KHC printing):
   > *"Llanowar remembers the Ice Age, the Phyrexian Invasion, and the Rift Era. So long as we draw breath, we will ensure such disasters never threaten our world again."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2214 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/khc/66/llanowar-tribe) · oracle_id `cfd0f0e6-1bbf-4450-97d2-c54907abb7e4` · printing: KHC #66 (2021-02-05) · [rulings](https://api.scryfall.com/cards/407c1b95-dc0c-4154-a441-fe25537df45c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Llanowar Vanguard
@@ -279,6 +286,7 @@
 - **Flavor text** (M21 printing):
   > *The elves of Llanowar look to their past to determine the shape of their future.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3824 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m21/193/llanowar-visionary) · oracle_id `f75ed312-3a23-4624-80c5-03980aa22d0b` · printing: M21 #193 (2020-07-03) · [rulings](https://api.scryfall.com/cards/d6e23afa-7e08-4049-baf0-d4d0134ba2c8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Llanowar Wastes
@@ -333,4 +341,5 @@
   > *"I know I belong somewhere—just not here."*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9016 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/232/lluwen-imperfect-naturalist) · oracle_id `81ff5764-72ce-4b9a-a14f-07413700d935` · printing: ECL #232 (2026-01-23) · [rulings](https://api.scryfall.com/cards/127a30a6-c25a-448a-a242-dc04f273a854/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

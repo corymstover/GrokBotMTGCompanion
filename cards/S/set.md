@@ -66,7 +66,11 @@
   > *"A blessing is not a gift. It is a duty."*
 - **Keywords:** Constellation
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1055 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/912/setessan-champion) · oracle_id `38513660-260f-4663-b199-6473fa004a3b` · printing: CMM #912 (2023-08-04) · [rulings](https://api.scryfall.com/cards/7680a8e1-cd59-43c5-8f06-426b918692c8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-01-24* — A constellation ability triggers whenever an enchantment enters the battlefield under your control for any reason. Enchantments with other card types, such as enchantment creatures, will also cause constellation abilities to trigger.
+  - *2020-01-24* — An Aura spell that has an illegal target when it tries to resolve doesn't resolve and is instead put into its owner's graveyard. It doesn't enter the battlefield, so constellation abilities don't trigger.
+  - *2020-01-24* — If Setessan Champion leaves the battlefield after its ability has triggered, you still draw a card even though you won't put a +1/+1 counter on Setessan Champion.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/912/setessan-champion) · oracle_id `38513660-260f-4663-b199-6473fa004a3b` · printing: CMM #912 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Setessan Griffin
 
@@ -260,7 +264,14 @@
 - **Flavor text** (HOB printing):
   > *There was a hiss, a gushing whirl, and then silence. And that was the end of Smaug and Esgaroth.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2850 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hob/26/settle-the-wreckage) · oracle_id `2a2ea189-b663-4f4a-bb23-ff7a4af25f71` · printing: HOB #26 (2026-08-14) · [rulings](https://api.scryfall.com/cards/31a7a5e2-4cb8-48fc-8351-18344b4a7560/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2017-09-29* — Settle the Wreckage targets only the player. Creatures with hexproof that player controls will be exiled as this spell resolves.
+  - *2017-09-29* — That player can find fewer basic land cards than the number of exiled creatures, whether because they want to or because they don't have that many basic land cards left.
+  - *2017-09-29* — The number of lands that player may find is the number of attacking creatures that were exiled, even if some of those creatures were tokens, weren't creature cards, or didn't end up in exile (most likely because one was that player's commander in the Commander variant).
+  - *2026-06-29* — Settle the Wreckage targets only the player. Attacking creatures with hexproof that player controls will be exiled as this spell resolves.
+  - *2026-06-29* — That player can find fewer basic land cards than the number of exiled creatures, whether because they want to or because they don't have that many basic land cards left.
+  - *2026-06-29* — The number of lands that player may find is the number of attacking creatures that were exiled, even if some of those creatures were tokens, weren't creature cards, or didn't end up in exile (most likely because one was that player's commander in the Commander variant).
+- **Source flags:** [Scryfall](https://scryfall.com/card/hob/26/settle-the-wreckage) · oracle_id `2a2ea189-b663-4f4a-bb23-ff7a4af25f71` · printing: HOB #26 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Setzer, Wandering Gambler
 

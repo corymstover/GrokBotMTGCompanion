@@ -206,7 +206,15 @@
   > This creature escapes with two +1/+1 counters on it.
 - **Keywords:** Escape, Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1676 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/231/woe-strider) · oracle_id `3adbd963-e85d-4569-963a-4472594f06f9` · printing: SOC #231 (2026-04-24) · [rulings](https://api.scryfall.com/cards/f458ae68-5cda-4c40-a348-47b4196fba02/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2020-01-24* — After an escaped spell resolves, it returns to its owner's graveyard if it's not a permanent spell. If it is a permanent spell, it enters the battlefield and will return to its owner's graveyard if it dies later. Perhaps it will escape again—good underworld security is so hard to come by these days.
+  - *2020-01-24* — Escape's permission doesn't change when you may cast the spell from your graveyard.
+  - *2020-01-24* — If a card has multiple abilities giving you permission to cast it, such as two escape abilities or an escape ability and a flashback ability, you choose which one to apply. The others have no effect.
+  - *2020-01-24* — If a card with escape is put into your graveyard during your turn, you'll be able to cast it right away if it's legal to do so, before an opponent can take any actions.
+  - *2020-01-24* — If you cast a spell with its escape permission, you can't choose to apply any other alternative costs or to cast it without paying its mana cost. If it has any additional costs, you must pay those.
+  - *2020-01-24* — Once you begin casting a spell with escape, it immediately moves to the stack. Players can't take any other actions until you're done casting the spell.
+  - *2020-01-24* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an escape cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was and no matter whether an alternative cost was paid.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/231/woe-strider) · oracle_id `3adbd963-e85d-4569-963a-4472594f06f9` · printing: SOC #231 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wojek Apothecary
 
@@ -273,7 +281,13 @@
   > *"Well, this clearly didn't come from anyone I know..."*
 - **Keywords:** Flying, Investigate, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4695 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/36/wojek-investigator) · oracle_id `ab41243d-b178-4ebe-a7ac-bea37427be99` · printing: MKM #36 (2024-02-09) · [rulings](https://api.scryfall.com/cards/296574c6-3933-4ab3-b591-72514b244da9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-02-02* — Clue is an artifact type. Even though it appears on some cards with other permanent types, it's never a creature type, a land type, or anything but an artifact type.
+  - *2024-02-02* — If an effect refers to a Clue, it means any Clue artifact, not just a Clue artifact token. For example, you can sacrifice Wrench to pay for Alquist Proft, Master Sleuth's activated ability.
+  - *2024-02-02* — Some abilities trigger "whenever you sacrifice a Clue". Those abilities trigger whenever you sacrifice a Clue for any reason, not just to activate a Clue's activated ability.
+  - *2024-02-02* — Some spells and abilities that investigate may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Clue tokens.
+  - *2024-02-02* — You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/36/wojek-investigator) · oracle_id `ab41243d-b178-4ebe-a7ac-bea37427be99` · printing: MKM #36 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wojek Siren
 
@@ -531,6 +545,7 @@
   > {4}{G}, Sacrifice this Aura: Create a 2/2 green Wolf creature token. Activate only during your turn.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4978 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/205/wolfwillow-haven) · oracle_id `7579f57d-c76e-4703-a030-34fb7160cb23` · printing: THB #205 (2020-01-24) · [rulings](https://api.scryfall.com/cards/72b886c3-234c-49ce-9a11-456c1e8f092f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wolverine, Best There Is
@@ -544,6 +559,7 @@
   > {1}{G}: Regenerate Wolverine. (The next time he would be destroyed this turn, instead tap him, remove him from combat, and heal all damage on him.)
 - **Keywords:** Heal, Regenerate, Unrivaled Lethality, Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6737 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mar/97/wolverine-best-there-is) · oracle_id `6e53a43e-5a23-4057-9bb5-281508da57af` · printing: MAR #97 (2026-06-26) · [rulings](https://api.scryfall.com/cards/9976c1a8-ef3d-4911-854d-f53394fd709d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wolverine, Claws Out
@@ -600,7 +616,9 @@
 - **Flavor text** (KHC printing):
   > *"We'll break their lines. The rest of you, follow!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2946 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khc/14/wolverine-riders) · oracle_id `09070db6-01f6-4a8a-b167-a7825e6959f4` · printing: KHC #14 (2021-02-05) · [rulings](https://api.scryfall.com/cards/70fd0439-294b-454c-b2af-e814b85f4590/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-02-05* — Use the toughness of the creature as the last ability resolves to determine how much life you gain. If the Elf is no longer on the battlefield at that time, use its toughness from when it was last on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khc/14/wolverine-riders) · oracle_id `09070db6-01f6-4a8a-b167-a7825e6959f4` · printing: KHC #14 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wonder
 
@@ -654,7 +672,12 @@
   > At the beginning of your end step, mill two cards, then exile a nonland card at random from your graveyard. Copy it. You may cast the copy without paying its mana cost. (A copy of a permanent spell becomes a token.)
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4864 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/brc/20/wondrous-crucible) · oracle_id `d0e80414-abde-4f5e-9539-3efc83aa507f` · printing: BRC #20 (2022-11-18) · [rulings](https://api.scryfall.com/cards/f4cb4a2b-c48f-4d30-8e0d-f76579be1747/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-10-14* — If the copy has {X} in its mana cost, you must choose 0 as the value of X.
+  - *2022-10-14* — If you cast a spell “without paying its mana cost,” you can’t pay any alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, you must pay those.
+  - *2022-10-14* — If you don’t cast the copy (perhaps because there are no legal targets available or you don’t want to), the copy will cease to exist.
+  - *2022-10-14* — The card remains exiled no matter what happens to the copy.
+- **Source flags:** [Scryfall](https://scryfall.com/card/brc/20/wondrous-crucible) · oracle_id `d0e80414-abde-4f5e-9539-3efc83aa507f` · printing: BRC #20 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wondrous Revival
 
@@ -725,6 +748,7 @@
 - **Flavor text** (2XM printing):
   > *The elves of Wilt-Leaf Wood continually expand the palisade surrounding the sanctuary. They hope to one day enclose the entire forest within its walls.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2019 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/332/wooded-bastion) · oracle_id `61b85077-64aa-4bcc-890d-2d88da9543c0` · printing: 2XM #332 (2020-08-07) · [rulings](https://api.scryfall.com/cards/36b591ec-0231-4b91-a132-eb3aedfdf8fa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wooded Foothills
@@ -749,6 +773,7 @@
 - **Flavor text** (DMU printing):
   > *The power of long-forgotten empires still pulses in the earth of Dominaria, giving rise to strange, mana-rich pockets of growth.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1871 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/260/wooded-ridgeline) · oracle_id `c2ca3e20-23ca-4d2a-88a1-5e98ff884abb` · printing: DMU #260 (2022-09-09) · [rulings](https://api.scryfall.com/cards/e8e31184-dca4-48b1-be9d-581247c41d99/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wood Elemental
@@ -824,7 +849,15 @@
   > Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
 - **Keywords:** Persist, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4051 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/322/woodfall-primus) · oracle_id `2f70f1bb-29fa-4abb-afc2-653acd0a08b9` · printing: NCC #322 (2022-04-29) · [rulings](https://api.scryfall.com/cards/97914abe-71d5-4bd6-87d7-8e7379abf1aa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2013-06-07* — If a creature with persist stops being a creature, persist will still work.
+  - *2013-06-07* — If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner's graveyard for having 0 or less toughness, persist won't trigger and the card won't return to the battlefield. That's because persist checks the creature's existence just before it leaves the battlefield, and it still has all those counters on it at that point.
+  - *2013-06-07* — If a permanent has multiple instances of persist, they'll each trigger separately, but the redundant instances will have no effect. If one instance returns the card to the battlefield, the next to resolve will do nothing.
+  - *2013-06-07* — If a token with no -1/-1 counters on it has persist, the ability will trigger when the token is put into the graveyard. However, the token will cease to exist and can't return to the battlefield.
+  - *2013-06-07* — If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player's persist creatures will return to the battlefield first, then the active player's persist creatures do the same. The creatures return to the battlefield one at a time.
+  - *2013-06-07* — The persist ability triggers when the permanent is put into a graveyard. Its last known information (that is, how the creature last existed on the battlefield) is used to determine whether it had a -1/-1 counter on it.
+  - *2013-06-07* — When a permanent with persist returns to the battlefield, it's a new object with no memory of or connection to its previous existence.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/322/woodfall-primus) · oracle_id `2f70f1bb-29fa-4abb-afc2-653acd0a08b9` · printing: NCC #322 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Woodland Acolyte // Mend the Wilds
 
@@ -849,7 +882,9 @@
 - **Oracle text:**
   > When this creature enters, you may search your library for a nonlegendary green creature card with mana value 3 or less, put it onto the battlefield, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6356 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ori/207/woodland-bellower) · oracle_id `5859fd59-8732-414a-8932-007980af495d` · printing: ORI #207 (2015-07-17) · [rulings](https://api.scryfall.com/cards/a706d4bb-0b44-4e43-b340-7de799c086b8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2015-06-22* — If a card has {X} in its mana cost, X is 0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ori/207/woodland-bellower) · oracle_id `5859fd59-8732-414a-8932-007980af495d` · printing: ORI #207 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Woodland Cemetery
 
@@ -901,7 +936,13 @@
   > *"Is this the grave of a god? A tunnel carved by the Cosmos Serpent? It matters not. It is no place for us."*
   > *—Iskene, Kannah storyteller*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3274 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/274/woodland-chasm) · oracle_id `bf5482b6-dd3e-4fb7-bc62-29e23b417a5f` · printing: KHM #274 (2021-02-05) · [rulings](https://api.scryfall.com/cards/b2dd0b71-5a60-418c-82fc-f13d1b5075d0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-02-05* — Snow is a supertype, not a card type. It has no rules meaning or function by itself, but spells and abilities may refer to it.
+  - *2021-02-05* — Snow isn't a type of mana. If an effect says you may spend mana as though it were any type, you can't pay for {S} using mana that wasn't produced by a snow source.
+  - *2021-02-05* — Some cards have additional effects for each {S} spent to cast them. You can cast these spells even if you don't spend any snow mana to cast them; their additional effects simply won't do anything.
+  - *2021-02-05* — The Kaldheim set doesn't have any cards with mana costs that include {S}, but some previous sets do. If an effect says such a spell costs {1} less to cast, that reduction doesn't apply to any {S} costs. This is also true for activated abilities that include {S} in their activation costs and effects that reduce those costs.
+  - *2021-02-05* — The {S} symbol is a generic mana symbol. It represents a cost that can be paid by one mana that was produced by a snow source. That mana can be any color or colorless.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/274/woodland-chasm) · oracle_id `bf5482b6-dd3e-4fb7-bc62-29e23b417a5f` · printing: KHM #274 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Woodland Druid
 
@@ -986,6 +1027,7 @@
 - **Flavor text** (CMR printing):
   > *Waterways carve their routes through the land to reflect the paths the aether streams cut through the clouds.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5397 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/503/woodland-stream) · oracle_id `e887fb3f-d4c9-4022-8f75-1de6ec94af96` · printing: CMR #503 (2020-11-20) · [rulings](https://api.scryfall.com/cards/77619840-963f-4ff7-9a42-b36e3d53646d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Woodland Wanderer
@@ -1317,6 +1359,7 @@
 - **Flavor text** (ODY printing):
   > *Knowledge can't be kept in a bottle or sealed in a box. It yearns to be spread and shared.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6685 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/114/words-of-wisdom) · oracle_id `cff1b9bb-2a4c-4522-94a4-a674f942e376` · printing: ODY #114 (2001-10-01) · [rulings](https://api.scryfall.com/cards/c0199cfb-5e44-40f0-b9cf-71473155eb94/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Words of Worship
@@ -1390,7 +1433,9 @@
 - **Flavor text** (CMR printing):
   > *Sometimes the smallest things make the biggest difference.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3959 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/348/workshop-assistant) · oracle_id `319ee221-bace-41e9-b386-6b528bd780c1` · printing: CMR #348 (2020-11-20) · [rulings](https://api.scryfall.com/cards/e9387e8f-0e72-4212-81c8-e64050700c52/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-11-10* — If another artifact card is put into your graveyard at the same time as Workshop Assistant, you can target it with Workshop Assistant's triggered ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/348/workshop-assistant) · oracle_id `319ee221-bace-41e9-b386-6b528bd780c1` · printing: CMR #348 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Workshop Elders
 
@@ -1429,7 +1474,20 @@
   > Rebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)
 - **Keywords:** Rebound
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3254 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/roe/172/world-at-war) · oracle_id `02a8a5cc-62ce-4ae5-aa7d-760124af7d7b` · printing: ROE #172 (2010-04-23) · [rulings](https://api.scryfall.com/cards/a47a05ad-fe86-481e-b770-e1760be4f852/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2010-06-15* — As long as World at War resolves before the first postcombat main phase of a turn ends, it will have its full effect. That will happen in most cases, since it’s a sorcery (meaning it’s probably cast during the first or second main phase of a turn), and it has rebound (meaning it’ll be cast during your upkeep). If, however, it’s cast later than that, it won’t create any new phases. For example, if one World at War creates a second combat phase and a third main phase in a turn, then a second World at War is cast during that third main phase, no additional phases are created. The rebound effect still works, though.
+  - *2010-06-15* — At the beginning of your upkeep, all delayed triggered abilities created by rebound effects trigger. You may handle them in any order. If you want to cast a card this way, you do so as part of the resolution of its delayed triggered ability. Timing restrictions based on the card’s type (if it’s a sorcery) are ignored. Other restrictions are not (such as the one from Rule of Law).
+  - *2010-06-15* — If a replacement effect would cause a spell with rebound that you cast from your hand to be put somewhere else instead of your graveyard (such as Leyline of the Void might), you choose whether to apply the rebound effect or the other effect as the spell resolves.
+  - *2010-06-15* — If a spell with rebound that you cast from your hand doesn’t resolve for any reason (due being countered by a spell like Cancel, or because all of its targets are illegal), rebound has no effect. The spell is simply put into your graveyard. You won’t get to cast it again next turn.
+  - *2010-06-15* — If you are unable to cast a card from exile this way, or you choose not to, nothing happens when the delayed triggered ability resolves. The card remains exiled for the rest of the game, and you won’t get another chance to cast the card. The same is true if the ability is countered (due to Stifle, perhaps).
+  - *2010-06-15* — If you cast a card from exile this way, it will go to your graveyard when it resolves, fails to resolve, or is countered. It won’t go back to exile.
+  - *2010-06-15* — If you cast a spell with rebound from anywhere other than your hand (such as from your graveyard due to Sins of the Past, from your library due to cascade, or from your opponent’s hand due to Sen Triplets), rebound won’t have any effect. If you do cast it from your hand, rebound will work regardless of whether you paid its mana cost (for example, if you cast it from your hand due to Maelstrom Archangel).
+  - *2010-06-15* — If you cast a spell with rebound from your hand and it resolves, it isn’t put into your graveyard. Rather, it’s exiled directly from the stack. Effects that care about cards being put into your graveyard won’t do anything.
+  - *2010-06-15* — Multiple World at War effects are cumulative, as long as they’re cast early enough. The first one modifies the turn structure to this: beginning phase, precombat main phase, combat phase, postcombat main phase, [new combat phase], [new postcombat main phase], ending phase. Each subsequent one inserts another combat phase and main phase into the turn after the original postcombat main phase and before the newest combat phase.
+  - *2010-06-15* — Rebound will have no effect on copies of spells because you don’t cast them from your hand.
+  - *2010-06-15* — Unlike other similar cards (such as Relentless Assault), World at War doesn’t untap the creatures that have attacked this turn when it resolves. Rather, those creatures untap when the new combat phase created by the spell begins. All creatures that attacked this turn untap, regardless of which combat phase they attacked in (if there have been more than one) or who controls them (if you’re playing a Two-Headed Giant game, for example).
+  - *2010-06-15* — You don’t have to attack with any creatures during the new combat phase.
+- **Source flags:** [Scryfall](https://scryfall.com/card/roe/172/world-at-war) · oracle_id `02a8a5cc-62ce-4ae5-aa7d-760124af7d7b` · printing: ROE #172 (2010-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### World-Bottling Kit
 
@@ -1454,7 +1512,9 @@
   > {2}{C}, Sacrifice a land: Return this card from your graveyard to your hand. ({C} represents colorless mana.)
 - **Keywords:** Reach, Devoid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4762 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/112/world-breaker) · oracle_id `deeb7e22-b207-42de-b9d4-f790403d52a9` · printing: EOC #112 (2025-08-01) · [rulings](https://api.scryfall.com/cards/d25856c9-cb3d-44d9-905e-007f1af65c06/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-01-22* — You can activate the last ability only if World Breaker is in your graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/112/world-breaker) · oracle_id `deeb7e22-b207-42de-b9d4-f790403d52a9` · printing: EOC #112 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Worldfire
 
@@ -1465,7 +1525,11 @@
 - **Flavor text** (M13 printing):
   > *Even the smallest spark may set a world ablaze.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8239 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m13/158/worldfire) · oracle_id `ae0b8c13-0a71-4a60-bf9f-6e2da9503e9c` · printing: M13 #158 (2012-07-13) · [rulings](https://api.scryfall.com/cards/2ef3d4b5-0453-4bf0-b018-23b0c3b9ae11/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2012-07-01* — If your life total is greater than 1 when Worldfire resolves, the change in life total will count as life loss. Other effects that interact with life loss will interact with this effect accordingly.
+  - *2012-07-01* — These actions are performed in order, but no triggered abilities resolve in between them and no player may cast spells or activate abilities in between them. This means that if a permanent’s ability triggers on a player losing life, that permanent will be exiled first and won’t be on the battlefield when your life total becomes 1. Leaves-the-battlefield triggers won’t resolve until you’re done resolving Worldfire entirely.
+  - *2012-07-01* — Worldfire won’t be exiled. It will go to your graveyard as the final part of its resolution.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m13/158/worldfire) · oracle_id `ae0b8c13-0a71-4a60-bf9f-6e2da9503e9c` · printing: M13 #158 (2012-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Worldgorger Dragon
 
@@ -1478,7 +1542,10 @@
   > When this creature leaves the battlefield, return the exiled cards to the battlefield under their owners' control.
 - **Keywords:** Flying, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6023 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/148/worldgorger-dragon) · oracle_id `a628186d-b7d9-40a5-9ae2-fbc9d2a14c7c` · printing: DMR #148 (2023-01-13) · [rulings](https://api.scryfall.com/cards/33dde6e0-d0a7-4432-a3f4-b48234f4e055/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-12-08* — If Worldgorger Dragon leaves the battlefield before its enters-the-battlefield ability resolves, the "leaves-the-battlefield" ability will trigger and resolve first. It won't return anything. Then the enters-the-battlefield ability will exile all other permanents you control indefinitely.
+  - *2022-12-08* — If an Aura is exiled with Worldgorger Dragon and then returns to the battlefield, the player who controls the Aura as it enters the battlefield chooses what it will enchant. An Aura put onto the battlefield this way doesn't target anything (so it could be attached to an opponent's permanent with hexproof, for example), but the Aura's enchant ability restricts what it can be attached to. If the Aura can't legally be attached to anything, it stays exiled. It can't enter the battlefield enchanting a permanent that enters the battlefield at the same time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/148/worldgorger-dragon) · oracle_id `a628186d-b7d9-40a5-9ae2-fbc9d2a14c7c` · printing: DMR #148 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Worldheart Phoenix
 
@@ -1546,6 +1613,7 @@
 - **Flavor text** (FIN printing):
   > *And so their quest began.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2925 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/270/world-map) · oracle_id `51d4f95e-aad2-4e5f-9f15-a68bbdf9ab3e` · printing: FIN #270 (2025-06-13) · [rulings](https://api.scryfall.com/cards/70d9ab99-ec8a-402e-ba1d-ffa6c4c84a3f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Worldpurge
@@ -1584,6 +1652,7 @@
   > *"The Great River will not be tamed."*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1524 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/214/world-shaper) · oracle_id `3c075bb6-1831-4521-bd8d-4ed2825ae796` · printing: OTC #214 (2024-04-19) · [rulings](https://api.scryfall.com/cards/cc765da4-4bca-4250-80e4-05575d6fa98c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Worldslayer
@@ -1598,7 +1667,9 @@
   > *—Fodrus, mastersmith*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8674 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m12/222/worldslayer) · oracle_id `31be715f-9ad3-435c-9e52-e108fe96b969` · printing: M12 #222 (2011-07-15) · [rulings](https://api.scryfall.com/cards/db6c6b15-40f3-4556-978f-878bedb13762/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-09-22* — The equipped creature is also destroyed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m12/222/worldslayer) · oracle_id `31be715f-9ad3-435c-9e52-e108fe96b969` · printing: M12 #222 (2011-07-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Worldsoul Colossus
 
@@ -1621,6 +1692,7 @@
 - **Flavor text** (EOC printing):
   > *"Hoarding supplies, profiting from death and destruction, colluding with the invaders—every one of them betrayed Ravnica in its time of greatest need. They all deserved to die. And I'm not done yet!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2684 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/130/worldsouls-rage) · oracle_id `3b6ef144-bb98-4686-9718-204f1c3cf020` · printing: EOC #130 (2025-08-01) · [rulings](https://api.scryfall.com/cards/1a54246e-1e22-4660-b2c8-fdfa2110b4fe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Worldspine Wurm
@@ -1634,7 +1706,9 @@
   > When Worldspine Wurm is put into a graveyard from anywhere, shuffle it into its owner's library.
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2403 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/206/worldspine-wurm) · oracle_id `254f87cc-e0c2-484d-b5e8-1ea8c366990c` · printing: DSC #206 (2024-09-27) · [rulings](https://api.scryfall.com/cards/edb684f3-7787-4e54-96a2-61f95b6494a8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2012-10-01* — Worldspine Wurm's last ability is a triggered ability, not a replacement ability. Players can respond to this ability, for example, by trying to exile Worldspine Wurm from the graveyard before it's shuffled into a library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/206/worldspine-wurm) · oracle_id `254f87cc-e0c2-484d-b5e8-1ea8c366990c` · printing: DSC #206 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Worlds Within Worlds
 
@@ -1657,7 +1731,15 @@
   > {1}{U}, {T}: Create a token that's a copy of target artifact token you control.
 - **Keywords:** Explore
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3386 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/big/7/worldwalker-helm) · oracle_id `9573c85a-e574-4b4e-aae0-2165c45fd27e` · printing: BIG #7 (2024-04-19) · [rulings](https://api.scryfall.com/cards/b74ad496-05bc-4c5a-9027-b14df9c387ab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2024-04-12* — Any enters-the-battlefield abilities of the copied token will trigger when the token enters the battlefield. Any "as [this permanent] enters the battlefield" or "[this permanent] enters the battlefield with" abilities of the copied token will also work.
+  - *2024-04-12* — If the copied token has {X} in its mana cost, X is 0. (Most tokens don't have a mana cost unless they're copying something else.)
+  - *2024-04-12* — If the copied token is copying something else, then the new token enters the battlefield as whatever that token copied.
+  - *2024-04-12* — The additional Map token won't have any abilities the other tokens were created with. Anything else specified in the effect creating the token (such as tapped or "Exile that token at end of combat") applies to both the original tokens and the Map.
+  - *2024-04-12* — The new token created by Worldwaker Helm's last ability copies the original characteristics of the target token as stated by the effect that created the target token and nothing else (unless that token is copying something else; see below). It doesn't copy whether the target token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+  - *2024-04-12* — Worldwaker Helm's first ability applies to all kinds of artifact tokens that its controller creates, not just Map tokens.
+  - *2024-04-12* — You don't need to control the spell or ability that creates the tokens, but you do have to be the one creating the tokens for Worldwaker Helm's first ability to apply.
+- **Source flags:** [Scryfall](https://scryfall.com/card/big/7/worldwalker-helm) · oracle_id `9573c85a-e574-4b4e-aae0-2165c45fd27e` · printing: BIG #7 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### World War Hulk
 
@@ -1670,6 +1752,7 @@
   > III — Choose target creature you control. Until end of turn, double its power and toughness and it gains trample.
 - **Keywords:** Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7217 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/197/world-war-hulk) · oracle_id `8c4da760-8913-46ca-b00c-bba6d877d482` · printing: MSH #197 (2026-06-26) · [rulings](https://api.scryfall.com/cards/9032f05b-5c21-4996-90c1-268dc6dffbaa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### World-Weary
@@ -1870,7 +1953,21 @@
 - **Flavor text** (JOU printing):
   > *Elspeth feared that her trespass into Nyx would not go unanswered.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8540 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jou/87/worst-fears) · oracle_id `face0a43-6604-4508-b511-81ab0bef7b18` · printing: JOU #87 (2014-05-02) · [rulings](https://api.scryfall.com/cards/8f4e21ac-4f3e-4a3e-83c0-0a59a1b84020/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2014-04-26* — If the target player skips their next turn, you'll control the next turn the affected player actually takes.
+  - *2014-04-26* — Multiple player-controlling effects that affect the same player overwrite each other. The last one to be created is the one that works.
+  - *2014-04-26* — The player you're controlling is still the active player during that turn.
+  - *2014-04-26* — While controlling another player, you also continue to make your own choices and decisions.
+  - *2014-04-26* — While controlling another player, you make all choices and decisions that player is allowed to make or is told to make during that turn. This includes choices about what spells to cast or what abilities to activate, as well as any decisions called for by triggered abilities or for any other reason.
+  - *2014-04-26* — You also can't make any choices or decisions for the player that would be called for by the tournament rules (such as whether to take an intentional draw or whether to call a judge).
+  - *2014-04-26* — You can use only the affected player's resources (cards, mana, and so on) to pay costs for that player; you can't use your own. Similarly, you can use the affected player's resources only to pay that player's costs; you can't spend them on your costs.
+  - *2014-04-26* — You can't make any illegal decisions or illegal choices—you can't do anything that player couldn't do. You can't make choices or decisions for that player that aren't called for by the game rules or by any cards, permanents, spells, abilities, and so on. If an effect causes another player to make decisions that the affected player would normally make (such as Master Warcraft does), that effect takes precedence. In other words, if the affected player wouldn't make a decision, you wouldn't make that decision on their behalf.
+  - *2014-04-26* — You can't make the affected player concede. That player may choose to concede at any time, even while you're controlling them.
+  - *2014-04-26* — You could gain control of yourself using Worst Fears, but unless you do so to overwrite someone else's player-controlling effect, this doesn't do anything.
+  - *2014-04-26* — You only control the player. You don't control any of their permanents, spells, or abilities.
+  - *2016-07-13* — Controlling a player doesn't allow you to look at that player's sideboard. If an effect instructs that player to choose a card from outside the game, you can't have that player choose any card.
+  - *2016-07-13* — While controlling another player, you can see all cards in the game that player can see. This includes cards in that player's hand, face-down cards that player controls, and any cards in that player's library the player may look at.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jou/87/worst-fears) · oracle_id `face0a43-6604-4508-b511-81ab0bef7b18` · printing: JOU #87 (2014-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wort, Boggart Auntie
 
@@ -1909,6 +2006,7 @@
   > *"'Victory is survival' is the tenet that guides us. My love, know that I will always ensure your survivial."*
   > *—Duvir, Mardu warrior, final letter*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5614 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/99/worthy-cost) · oracle_id `0f8ebf11-b5ec-4f21-8c49-90d569b5a4c5` · printing: TDM #99 (2025-04-11) · [rulings](https://api.scryfall.com/cards/adc18edc-01d8-4a7e-a87b-a854e50aa75e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Worthy Knight
@@ -1921,7 +2019,11 @@
 - **Flavor text** (MOC printing):
   > *Every Ardenvale aspirant must step through the flame. Their honor determines whether they burn or shine.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8555 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/217/worthy-knight) · oracle_id `37733e29-3ade-4bfd-89c9-efd13b548a53` · printing: MOC #217 (2023-04-21) · [rulings](https://api.scryfall.com/cards/bdbfe895-f806-4490-9ae6-b39b28ea4e28/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-10-04* — If an effect refers to a “[subtype] spell,” it refers only to a spell that has that subtype. For example, Knights' Charge is a card with “Knight” in its name and benefits Knights, but it isn't a Knight card.
+  - *2019-10-04* — Worthy Knight's ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+  - *2019-10-04* — Worthy Knight's triggered ability won't trigger when you cast it because it's not on the battlefield yet.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/217/worthy-knight) · oracle_id `37733e29-3ade-4bfd-89c9-efd13b548a53` · printing: MOC #217 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wort, the Raidmother
 
@@ -1958,6 +2060,7 @@
 - **Flavor text** (LTR printing):
   > *"Road is forgotten, but not by Wild Folk. Over hill and behind hill it lies still under grass and tree. Wild Folk will show you that road."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8747 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/190/wose-pathfinder) · oracle_id `eb2ff7f2-b7fd-4984-a4e8-cf57b619c1a5` · printing: LTR #190 (2023-06-23) · [rulings](https://api.scryfall.com/cards/6589b339-9067-4e9b-bfdb-c49f8b3ef2d4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Would You Have Done the Same?
@@ -1979,7 +2082,12 @@
 - **Flavor text** (2XM printing):
   > *The greater the suffering, the sweeter the taste.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1982 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/113/wound-reflection) · oracle_id `b09206a4-8b73-4125-8b79-53f6fd511b16` · printing: 2XM #113 (2020-08-07) · [rulings](https://api.scryfall.com/cards/2b14a82c-877a-445f-8910-33aaa6fe3d15/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-08-07* — If Wound Reflection's ability resolves, then an opponent loses life later in the same turn, that life loss is never counted by Wound Reflection.
+  - *2020-08-07* — Multiple Wound Reflections each trigger separately. For example, if an opponent lost 1 life, the first one's triggered ability to resolve causes them to lose another 1 life. Since they've now lost 2 life, the next triggered ability causes them to lose 2 life, and the next 4, and so on.
+  - *2020-08-07* — When Wound Reflection's ability resolves, it checks how much life each opponent lost over the course of the turn, then it causes that opponent to lose that much life. It doesn't matter how the opponent lost life or who caused it. It also doesn't matter if Wound Reflection wasn't on the battlefield at the time some or all of the life was lost.
+  - *2020-08-07* — Wound Reflection's ability checks only whether life was lost. It doesn't care whether life was also gained. For example, if an opponent lost 4 life and gained 6 life during the turn, that player will have a higher life total than they started the turn with but Wound Reflection's ability will still cause that player to lose 4 life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/113/wound-reflection) · oracle_id `b09206a4-8b73-4125-8b79-53f6fd511b16` · printing: 2XM #113 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wowzer, the Aspirational
 

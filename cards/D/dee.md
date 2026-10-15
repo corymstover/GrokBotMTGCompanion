@@ -65,7 +65,12 @@
   > {3}{U}: Target creature token can't be blocked this turn.
 - **Keywords:** Magecraft
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4734 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/193/deekah-fractal-theorist) · oracle_id `6b071146-2f83-4fda-a55a-46fcb74e6f28` · printing: SOC #193 (2026-04-24) · [rulings](https://api.scryfall.com/cards/186e15a7-d97e-40df-adaa-96d9bd64f3ca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-04-16* — Each magecraft ability has a different effect, although they all have the same trigger condition, whenever you cast or copy an instant or sorcery spell.
+  - *2021-04-16* — If an effect creates a copy of an instant or sorcery spell, this will also cause the magecraft ability to trigger.
+  - *2021-04-16* — If an effect creates multiple copies of an instant or sorcery spell, magecraft abilities trigger once for each copy created by the effect.
+  - *2021-04-16* — Some effects instruct you to copy an instant or sorcery card in a zone other than the stack. These copies do not cause magecraft abilities to trigger. However, most effects that do this also allow you to cast the copy, and casting the copy will cause magecraft abilities to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/193/deekah-fractal-theorist) · oracle_id `6b071146-2f83-4fda-a55a-46fcb74e6f28` · printing: SOC #193 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dee Kay, Finder of the Lost
 
@@ -116,7 +121,14 @@
   > *One thing is sure: Reed Richards will always overthink things.*
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1448 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/149/deep-analysis) · oracle_id `579cbd92-797f-4cdf-91ed-fca7a523eae5` · printing: MSC #149 (2026-06-26) · [rulings](https://api.scryfall.com/cards/1a297bae-f259-4fc7-b76a-285f972d69e3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2024-11-08* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2024-11-08* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2024-11-08* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2024-11-08* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2024-11-08* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/149/deep-analysis) · oracle_id `579cbd92-797f-4cdf-91ed-fca7a523eae5` · printing: MSC #149 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deep-Cavern Bat
 
@@ -130,7 +142,9 @@
   > *The first shriek locates the prey. The second immobilizes it.*
 - **Keywords:** Flying, Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8081 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/102/deep-cavern-bat) · oracle_id `e46f6644-6bf1-47b1-817c-906bd3eca99f` · printing: LCI #102 (2023-11-17) · [rulings](https://api.scryfall.com/cards/69c68c95-b788-43b1-9f22-1b22c5a00b25/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-11-10* — If Deep-Cavern Bat leaves the battlefield before its last ability resolves, you'll still look at the target opponent's hand, but you won't exile any cards from it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/102/deep-cavern-bat) · oracle_id `e46f6644-6bf1-47b1-817c-906bd3eca99f` · printing: LCI #102 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deepcavern Imp
 
@@ -167,6 +181,7 @@
 - **Flavor text** (SHM printing):
   > *The rivers can no longer provide safe passage for travelers and commerce. They serve only as highways for raiders and channels for blood and woe.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9752 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/shm/35/deepchannel-mentor) · oracle_id `53b121df-3040-4ad0-a25d-587a299b4f8b` · printing: SHM #35 (2008-05-02) · [rulings](https://api.scryfall.com/cards/e8ae429d-c09d-4818-8eb8-7e1c97e4b0c9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deep Dish Pizza
@@ -202,7 +217,9 @@
   > {3}{C}: Target creature can't be blocked this turn. ({C} represents colorless mana.)
 - **Keywords:** Devoid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7101 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/43/deepfathom-skulker) · oracle_id `a09a4556-8913-495c-8768-e05413c48f0b` · printing: OGW #43 (2016-01-22) · [rulings](https://api.scryfall.com/cards/496a22cc-36dd-4d4d-b887-8c4733a29870/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-01-22* — Activating Deepfathom Skulker’s last ability after it’s been legally blocked won’t change or undo that block. The declare attackers step is the last time you can activate the ability and have it be effective.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/43/deepfathom-skulker) · oracle_id `a09a4556-8913-495c-8768-e05413c48f0b` · printing: OGW #43 (2016-01-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deepfire Elemental
 
@@ -228,6 +245,7 @@
   > Squirrels you control get +1/+1.
 - **Keywords:** Vanishing
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3548 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh1/161/deep-forest-hermit) · oracle_id `80e9a42e-f4f4-4bfc-91a2-ad124737dca2` · printing: MH1 #161 (2019-06-14) · [rulings](https://api.scryfall.com/cards/3287775f-7bec-4e8f-bb8d-daf5ce92e4a8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deep Freeze
@@ -267,7 +285,11 @@
   > *Its graceful glide paints the ocean floor with strokes of luminescence.*
 - **Keywords:** Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1723 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/70/deepglow-skate) · oracle_id `debce64a-18bd-42f5-9e85-158c2242e9e9` · printing: EOC #70 (2025-08-01) · [rulings](https://api.scryfall.com/cards/6fb36f7b-6d31-413d-8392-ae4f8ca3c0c4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-08-07* — As Deepglow Skate's ability resolves, you must double each kind of counter on the permanents it targets.
+  - *2020-08-07* — To double the number of each kind of counter on a permanent, put another counter on it for each counter it already has. Effects that interact with counters being put onto permanents apply as appropriate.
+  - *2020-08-07* — You can choose no targets if you don't want to double the counters on any permanents.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/70/deepglow-skate) · oracle_id `debce64a-18bd-42f5-9e85-158c2242e9e9` · printing: EOC #70 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deep Gnome Terramancer
 
@@ -279,6 +301,7 @@
   > Mold Earth — Whenever one or more lands enter under an opponent's control without being played, you may search your library for a Plains card, put it onto the battlefield tapped, then shuffle. Do this only once each turn.
 - **Keywords:** Mold Earth, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2236 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/658/deep-gnome-terramancer) · oracle_id `d4e3440d-4e34-40d7-8a42-c673225c0332` · printing: CLB #658 (2022-06-10) · [rulings](https://api.scryfall.com/cards/cc75f9f1-5873-450f-a0b2-871b55036954/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deep Goblin Skulltaker
@@ -341,7 +364,9 @@
 - **Flavor text** (LCC printing):
   > *"You think I stand alone? I have the forest at my call, the waters at my back. I outnumber you."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5952 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/237/deeproot-elite) · oracle_id `764e8e6e-0ace-4fc8-8ca5-468a10ae3b73` · printing: LCC #237 (2023-11-17) · [rulings](https://api.scryfall.com/cards/991e24e5-8b37-4034-9be7-2fab5983ee7b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-01-19* — Deeproot Elite's ability can target the Merfolk that caused it to trigger. It can also target Deeproot Elite itself.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/237/deeproot-elite) · oracle_id `764e8e6e-0ace-4fc8-8ca5-468a10ae3b73` · printing: LCC #237 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deeproot Historian
 
@@ -353,7 +378,9 @@
 - **Flavor text** (LCC printing):
   > *"The language of the Komon Winaq has much in common with the tongue of our ancestors. Surely the two peoples once lived and worked in close harmony."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7475 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/91/deeproot-historian) · oracle_id `4b8d82fe-571d-4fd6-8d0c-77b7e5ef3e23` · printing: LCC #91 (2023-11-17) · [rulings](https://api.scryfall.com/cards/fffb73ed-5748-4c2a-afe5-e29bf954b578/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-11-10* — If a spell you cast with retrace is countered, it's put back into your graveyard. You may use the retrace ability to cast it again.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/91/deeproot-historian) · oracle_id `4b8d82fe-571d-4fd6-8d0c-77b7e5ef3e23` · printing: LCC #91 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deeproot Pilgrimage
 
@@ -364,7 +391,9 @@
 - **Flavor text** (LCI printing):
   > *"These glyphs are more than trail markings! They tell a story as they go. But does it end in celebration or tragedy?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4519 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/52/deeproot-pilgrimage) · oracle_id `188656d8-4ea8-4e58-88da-b010a16eb6f2` · printing: LCI #52 (2023-11-17) · [rulings](https://api.scryfall.com/cards/e2449311-a705-4a31-a345-a36d436ae561/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-11-10* — If more than one nontoken Merfolk you control becomes tapped at the same time (for example, to pay the cost of Adaptive Gemguard's activated ability), Deeproot Pilgrimage's ability will trigger only once.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/52/deeproot-pilgrimage) · oracle_id `188656d8-4ea8-4e58-88da-b010a16eb6f2` · printing: LCI #52 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deeproot Warrior
 
@@ -388,7 +417,10 @@
 - **Flavor text** (LCC printing):
   > *A visit to the Deeproot Tree and its ancient spring replenishes a merfolk's connection to nature.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4406 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/152/deeproot-waters) · oracle_id `8e7b31eb-7a91-4992-b24a-d81173e1dbc8` · printing: LCC #152 (2023-11-17) · [rulings](https://api.scryfall.com/cards/a624ef59-69e6-4a41-b41a-3d19e287fe08/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-09-29* — The ability of Deeproot Waters resolves before the spell that caused it to trigger.
+  - *2018-01-19* — If an effect refers to a "[subtype] spell" or "[subtype] card," it refers only to a spell or card that has that subtype. For example, March of the Drowned is a card that benefits Pirates and features Pirates in its illustration, but it isn't a Pirate card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/152/deeproot-waters) · oracle_id `8e7b31eb-7a91-4992-b24a-d81173e1dbc8` · printing: LCC #152 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deeproot Wayfinder
 
@@ -414,7 +446,22 @@
   > Whenever an opponent casts a spell, if this card is suspended, remove a time counter from it.
 - **Keywords:** Suspend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5473 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dds/3/deep-sea-kraken) · oracle_id `54de4a7f-86f4-4029-80f7-bc25d6509cc8` · printing: DDS #3 (2017-03-31) · [rulings](https://api.scryfall.com/cards/df5a543e-8416-4f01-91f5-e1ed87f1a510/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (14):
+  - *2024-02-02* — A creature cast using suspend will enter the battlefield with haste. It will have haste until another player gains control of it. (In some rare cases, another player may gain control of the creature spell itself. If this happens, the creature won't enter the battlefield with haste.)
+  - *2024-02-02* — Cards exiled with suspend are exiled face up.
+  - *2024-02-02* — Due to a recent rules change to suspend, you are no longer required to cast the suspended card as the second triggered ability of suspend resolves. Instead, as the second triggered ability resolves, you may cast the card. Timing permissions based on the card's type are ignored. If you don't cast the card, it remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to.
+  - *2024-02-02* — If an effect refers to a "suspended card," that means a card that (1) has suspend, (2) is in exile, and (3) has one or more time counters on it.
+  - *2024-02-02* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-02-02* — If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again at the beginning of the card's owner's next upkeep.
+  - *2024-02-02* — If the second triggered ability is countered, the card can't be cast. It remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it's exiled.
+  - *2024-02-02* — If you cast a card "without paying its mana cost," such as with suspend, you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those if you want to cast the card.
+  - *2024-02-02* — Suspend is a keyword that represents three abilities. The first is a static ability that allows you to exile the card from your hand with the specified number of time counters (the number before the dash) on it by paying its suspend cost (listed after the dash). The second is a triggered ability that removes a time counter from the suspended card at the beginning of each of your upkeeps. The third is a triggered ability that gives you the option to cast the card when the last time counter is removed.
+  - *2024-02-02* — The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.
+  - *2024-02-02* — When the last time counter is removed, the second triggered ability of suspend (the one that lets you cast the card) triggers. It doesn't matter why the last time counter was removed or what effect removed it.
+  - *2024-02-02* — You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effects that modify when you could cast it (such as flash) and any other effects that stop you from casting it (such as from Meddling Mage's ability) to determine if and when you can do this. Whether you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or that requires a target even if no legal targets are available at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dds/3/deep-sea-kraken) · oracle_id `54de4a7f-86f4-4029-80f7-bc25d6509cc8` · printing: DDS #3 (2017-03-31) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deep-Sea Serpent
 

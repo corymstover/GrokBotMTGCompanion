@@ -172,7 +172,10 @@
   > *"Hold the line, for family and the fallen!"*
 - **Keywords:** Outlast
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5533 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/7/ainok-bond-kin) · oracle_id `8a4028cd-6004-4fb0-a044-0bee662a78e1` · printing: CMM #7 (2023-08-04) · [rulings](https://api.scryfall.com/cards/6956c523-507c-4256-88b8-58a8a108c79f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-09-20* — Several creatures with outlast also grant an ability to creatures you control with +1/+1 counters on them, including themselves. These counters could come from an outlast ability, but any +1/+1 counter on the creature will count.
+  - *2014-09-20* — The cost to activate a creature's outlast ability includes the tap symbol ({T}). A creature's outlast ability can't be activated unless that creature has been under your control continuously since the beginning of your turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/7/ainok-bond-kin) · oracle_id `8a4028cd-6004-4fb0-a044-0bee662a78e1` · printing: CMM #7 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ainok Guide
 
@@ -197,6 +200,7 @@
 - **Flavor text** (TDC printing):
   > *When dalkovans need protecting, all respond.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2114 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/11/ainok-strike-leader) · oracle_id `8c1fda45-09f1-4b58-a487-e11c868e1357` · printing: TDC #11 (2025-04-11) · [rulings](https://api.scryfall.com/cards/cabd77a6-0913-4522-891d-c8a412a536c2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ainok Survivalist
@@ -209,7 +213,11 @@
   > When this creature is turned face up, destroy target artifact or enchantment an opponent controls.
 - **Keywords:** Megamorph
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6937 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/165/ainok-survivalist) · oracle_id `7a5dae5f-29ab-4996-b236-c754de8769bc` · printing: MKC #165 (2024-02-09) · [rulings](https://api.scryfall.com/cards/0f4b5b18-569f-4f61-ad2f-966ba4fbabdc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2015-02-25* — If a face-down creature with megamorph is turned face up some other way (for example, if you manifest a card with megamorph and then pay its mana cost to turn it face up), you won't put a +1/+1 counter on it.
+  - *2015-02-25* — Megamorph is a variant of the morph ability. You can find more information on morph on cards with morph from the Khans of Tarkir set.
+  - *2015-02-25* — Turning a face-down creature with megamorph face up and putting a +1/+1 counter on it is a special action. It doesn't use the stack and can't be responded to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/165/ainok-survivalist) · oracle_id `7a5dae5f-29ab-4996-b236-c754de8769bc` · printing: MKC #165 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ainok Tracker
 
@@ -248,7 +256,15 @@
   > At the beginning of your end step, if this enchantment has four or more quest counters on it, exile up to one target creature you control, then return it to the battlefield under its owner's control.
 - **Keywords:** Airbend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2290 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/6/airbender-ascension) · oracle_id `c4d2fdf9-637d-4e97-ae33-45f2d27bf8cd` · printing: TLA #6 (2025-11-21) · [rulings](https://api.scryfall.com/cards/99a90d13-891c-45cc-b1d5-6080ebae5862/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2025-10-02* — If a token is exiled by airbend or Airbender Ascension's last ability, it will cease to exist and can't be cast or return to the battlefield.
+  - *2025-10-02* — If the spell you cast has {X} in its mana cost, you must choose 0 as the value of X.
+  - *2025-10-02* — Lands exiled this way cannot be played from exile. (Lands that were animated by earthbend will be returned to the battlefield tapped when they're exiled.)
+  - *2025-10-02* — Since you are using an alternative cost to cast a spell from exile this way, you can't pay any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, you must pay those.
+  - *2025-10-02* — To airbend one or more permanents and/or spells means to exile each of those objects. For each card exiled this way, for as long as it's exiled, its owner may cast it from exile by paying {2} rather than paying its mana cost.
+  - *2025-10-02* — Tokens exiled this way will cease to exist and cannot be cast.
+  - *2025-10-02* — When the creature is exiled, Auras attached to the exiled creature will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled creature will cease to exist. When the card returns to the battlefield, it will be a new object with no connection to the card that was exiled.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/6/airbender-ascension) · oracle_id `c4d2fdf9-637d-4e97-ae33-45f2d27bf8cd` · printing: TLA #6 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Airbender's Reversal
 
@@ -262,7 +278,13 @@
   > *Aang employed the typical Airbender tactics against Zuko: avoid and evade.*
 - **Keywords:** Airbend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4182 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/7/airbenders-reversal) · oracle_id `64e3791b-de99-4eed-af49-cbec218c28aa` · printing: TLA #7 (2025-11-21) · [rulings](https://api.scryfall.com/cards/6b7078e4-2892-4b5f-83ab-90369e0d6dba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-10-02* — If the spell you cast has {X} in its mana cost, you must choose 0 as the value of X.
+  - *2025-10-02* — Lands exiled this way cannot be played from exile. (Lands that were animated by earthbend will be returned to the battlefield tapped when they're exiled.)
+  - *2025-10-02* — Since you are using an alternative cost to cast a spell from exile this way, you can't pay any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, you must pay those.
+  - *2025-10-02* — To airbend one or more permanents and/or spells means to exile each of those objects. For each card exiled this way, for as long as it's exiled, its owner may cast it from exile by paying {2} rather than paying its mana cost.
+  - *2025-10-02* — Tokens exiled this way will cease to exist and cannot be cast.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/7/airbenders-reversal) · oracle_id `64e3791b-de99-4eed-af49-cbec218c28aa` · printing: TLA #7 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Airbending Lesson
 
@@ -276,7 +298,13 @@
   > *—Monk Gyatso*
 - **Keywords:** Airbend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3919 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/8/airbending-lesson) · oracle_id `e101b744-9175-4aa5-bf80-d6944359e538` · printing: TLA #8 (2025-11-21) · [rulings](https://api.scryfall.com/cards/e2bcd0a6-e94d-4a21-a334-a57459c1b8cc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-10-02* — If the spell you cast has {X} in its mana cost, you must choose 0 as the value of X.
+  - *2025-10-02* — Lands exiled this way cannot be played from exile. (Lands that were animated by earthbend will be returned to the battlefield tapped when they're exiled.)
+  - *2025-10-02* — Since you are using an alternative cost to cast a spell from exile this way, you can't pay any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, you must pay those.
+  - *2025-10-02* — To airbend one or more permanents and/or spells means to exile each of those objects. For each card exiled this way, for as long as it's exiled, its owner may cast it from exile by paying {2} rather than paying its mana cost.
+  - *2025-10-02* — Tokens exiled this way will cease to exist and cannot be cast.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/8/airbending-lesson) · oracle_id `e101b744-9175-4aa5-bf80-d6944359e538` · printing: TLA #8 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Air Bladder
 
@@ -302,6 +330,7 @@
   > *"We help our Southern Order comrades as much as we can. But the Cabal's insidious influence spreads, dividing our forces and leaving new arrivals to fend for themselves."*
   > *—Commander Eesha*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7402 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ons/62/airborne-aid) · oracle_id `7f715f72-5444-4ab3-a6ca-3d5bfd0d4851` · printing: ONS #62 (2002-10-07) · [rulings](https://api.scryfall.com/cards/0aaa43b0-601f-4b99-a328-541b04d5696d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Air-Cult Elemental
@@ -462,6 +491,7 @@
 - **Flavor text** (TLA printing):
   > *The Fire Nation's expansion fueled progress, and their progress fueled expansion.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6452 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/265/airship-engine-room) · oracle_id `01ed9139-293d-4477-a145-3c6fe59266c7` · printing: TLA #265 (2025-11-21) · [rulings](https://api.scryfall.com/cards/0b98ba34-f251-4bd0-9d75-1d4445be5cfd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Airtight Alibi

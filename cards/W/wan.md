@@ -172,7 +172,12 @@
 - **Face 2: Explore the Vastlands** — {3} — Sorcery
   > Each player looks at the top five cards of their library and may reveal a land card and/or an instant or sorcery card from among them. Each player puts the cards they revealed this way into their hand and the rest on the bottom of their library in a random order. Each player gains 3 life.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1292 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/stx/6/wandering-archaic-explore-the-vastlands) · oracle_id `6556c4c0-b10d-4208-821b-0c0a49abd188` · printing: STX #6 (2021-04-23) · [rulings](https://api.scryfall.com/cards/18a2bdc8-b705-4eb5-b3a5-ff2e2ab8f312/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-04-16* — Explore the Vastlands has received an update to its Oracle text. Specifically, revealing either a land card or an instant or sorcery card is optional. Any player who can't reveal a card or chooses not to simply puts all cards they looked at on the bottom of their library in a random order. Each player gains 3 life whether they revealed a card or not.
+  - *2021-04-16* — For Wandering Archaic's triggered ability, the opponent chooses whether to pay {2} before their spell resolves. If they don't pay {2}, your copy will resolve before the original spell.
+  - *2021-04-16* — While resolving Explore the Vastlands, first the active player reveals the cards they are going to put into their hand. Then each other player in turn order does the same, knowing choices made before they choose.
+  - *2021-04-16* —  
+- **Source flags:** [Scryfall](https://scryfall.com/card/stx/6/wandering-archaic-explore-the-vastlands) · oracle_id `6556c4c0-b10d-4208-821b-0c0a49abd188` · printing: STX #6 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wandering Champion
 
@@ -209,7 +214,15 @@
   > {T}: Add {U} or {R}.
   > {2}{U}{R}: Until end of turn, this land becomes a 1/4 blue and red Elemental creature with "{0}: Switch this creature's power and toughness until end of turn." It's still a land.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7914 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/928/wandering-fumarole) · oracle_id `741c51f1-cfbe-4c29-ac8f-ca6bcd2652f9` · printing: CLB #928 (2022-06-10) · [rulings](https://api.scryfall.com/cards/ce3a6a8e-a01e-4d14-a6e5-c02c8205c749/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2016-01-22* — A land that becomes a creature may be affected by “summoning sickness.” You can't attack with it or use any of its {T} abilities (including its mana abilities) unless it began your most recent turn on the battlefield under your control. Note that summoning sickness cares about when that permanent came under your control, not when it became a creature nor when it entered the battlefield.
+  - *2016-01-22* — An ability that turns a land into a creature also sets that creature's power and toughness. If the land was already a creature (for example, if it was the target of a spell with awaken), this will overwrite the previous effect that set its power and toughness. Effects that modify its power or toughness will continue to apply no matter when they started to take effect. The same is true for counters that change its power or toughness (such as +1/+1 counters) and effects that switch its power and toughness. For example, if Wandering Fumarole has been made a 0/0 creature with three +1/+1 counters on it, activating its last ability will turn it into a 4/7 creature that's still a land.
+  - *2016-01-22* — This land is colorless until the last ability gives it colors.
+  - *2016-01-22* — When a land becomes a creature, that doesn't count as having a creature enter the battlefield. The permanent was already on the battlefield; it only changed its types. Abilities that trigger whenever a creature enters the battlefield won't trigger.
+  - *2021-03-19* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to a creature may become lethal if you switch its power and toughness during that turn.
+  - *2021-03-19* — Effects that switch a creature's power and toughness apply after all other effects, regardless of when those effects began to apply. For instance, if you target a 1/2 creature then give it +2/+0 later in the turn, it's a 2/3 creature, not a 4/1 creature.
+  - *2021-03-19* — Switching a creature's power and toughness twice (or any even number of times) effectively returns the creature to the power and toughness it had before any switches.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/928/wandering-fumarole) · oracle_id `741c51f1-cfbe-4c29-ac8f-ca6bcd2652f9` · printing: CLB #928 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wandering Goblins
 
@@ -397,7 +410,11 @@
 - **Flavor text** (BLB printing):
   > *"You've all grown so much since I passed through this burrow last! Let's see, where to begin this story?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4905 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/240/wandertale-mentor) · oracle_id `9d14c7bd-7802-401c-b02b-c7f3c51b007f` · printing: BLB #240 (2024-08-02) · [rulings](https://api.scryfall.com/cards/8c399a55-d02e-41ed-b827-8784b738c118/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-07-26* — A permanent with an ability that triggers whenever you “expend N” will see mana you spent to cast spells the turn it enters, including mana you spent before it entered. For example, if you cast Junkblade Bruiser (a creature with a mana value of 5 and an ability that triggers whenever you expend 4) by paying its full cost of five mana, you’ll already have spent four mana on spells before Junkblade Bruiser enters, and therefore its ability that triggers whenever you expend 4 won’t be able to trigger at all that turn.
+  - *2024-07-26* — Abilities that trigger whenever you “expend N” only trigger when you reach that specific amount of mana spent on casting spells that turn. This can only happen once per turn. For example, if you’ve spent three mana on spells so far this turn and you control a permanent with an ability that triggers “whenever you expend 4,” that ability will trigger the next time you spend at least one mana to cast a spell this turn. It won’t trigger again if you spend another four mana to cast spells later in the turn.
+  - *2024-07-26* — If the cost to cast a spell is increased, decreased, or changed because of additional or alternative costs, expend counts only the mana you actually spent.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/240/wandertale-mentor) · oracle_id `9d14c7bd-7802-401c-b02b-c7f3c51b007f` · printing: BLB #240 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wanderwine Distracter
 
@@ -444,6 +461,7 @@
   > Whenever this creature deals combat damage to a player, you may sacrifice a Merfolk. If you do, take an extra turn after this one.
 - **Keywords:** Champion
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9574 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lrw/95/wanderwine-prophets) · oracle_id `9ab36915-b600-4970-961a-403f5da0dba1` · printing: LRW #95 (2007-10-12) · [rulings](https://api.scryfall.com/cards/6cdbb6ff-c945-4dd6-aba6-4fd4b77824c0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wand of Denial
@@ -476,6 +494,7 @@
   > Equip {3}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4812 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/afc/28/wand-of-orcus) · oracle_id `9fd521d5-baa3-4054-a990-d23265863c71` · printing: AFC #28 (2021-07-23) · [rulings](https://api.scryfall.com/cards/510af4b7-289a-4de7-9a22-00fe1e8aaabf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wand of the Elements
@@ -502,7 +521,15 @@
   > *"May Mat'Selesnya bind our hearts as one."*
   > *—Selesnya prayer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5746 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/20/wand-of-the-worldsoul) · oracle_id `3d175a59-c1b4-43b8-8a1f-f7cbcefe130e` · printing: MOC #20 (2023-04-21) · [rulings](https://api.scryfall.com/cards/3ef9fb7d-1fd5-4dce-afda-6743dec3bbc1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-04-14* — If the next spell you cast after Wand of the Worldsoul's ability resolves already has convoke, giving it convoke again doesn't have any real benefit. Tapping a creature you control will still pay for only {1} or one mana of that creature's color.
+  - *2024-01-12* — Because convoke isn't an alternative cost, it can be used in conjunction with alternative costs.
+  - *2024-01-12* — If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.
+  - *2024-01-12* — Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature's colors.
+  - *2024-01-12* — Tapping an untapped creature that's attacking or blocking to convoke a spell won't cause that creature to stop attacking or blocking.
+  - *2024-01-12* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
+  - *2024-01-12* — You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/20/wand-of-the-worldsoul) · oracle_id `3d175a59-c1b4-43b8-8a1f-f7cbcefe130e` · printing: MOC #20 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wand of Vertebrae
 
@@ -527,6 +554,7 @@
   > 10—19 | X is two.
   > 20 | X is three.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2499 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/204/wand-of-wonder) · oracle_id `8f1123dd-19b7-402b-8ecd-ab62494c9fd5` · printing: CLB #204 (2022-06-10) · [rulings](https://api.scryfall.com/cards/df67ec01-9d4c-4ae1-9c8a-f94d649c81bc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Waning Wurm
@@ -565,7 +593,10 @@
   > Whenever an opponent searches their library, put a +1/+1 counter on Wan Shi Tong and draw a card.
 - **Keywords:** Flying, Vigilance, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1233 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/78/wan-shi-tong-librarian) · oracle_id `2bace3ea-7d28-4a1c-857a-d3c3a1c11b59` · printing: TLA #78 (2025-11-21) · [rulings](https://api.scryfall.com/cards/e20da6b5-1057-4a28-9e85-07de714e262f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-10-02* — The second triggered ability won't be put on the stack until after the spell or ability causing the opponent to search their library finishes resolving.
+  - *2025-10-02* — Wan Shi Tong, Librarian's second triggered ability won't trigger if you search an opponent's library or if an opponent searches another player's library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/78/wan-shi-tong-librarian) · oracle_id `2bace3ea-7d28-4a1c-857a-d3c3a1c11b59` · printing: TLA #78 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wanted Griffin
 

@@ -54,7 +54,9 @@
   > • Create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.")
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9013 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/86/gorbag-of-minas-morgul) · oracle_id `e77e97d7-58ff-4454-ba49-66182e550f12` · printing: LTR #86 (2023-06-23) · [rulings](https://api.scryfall.com/cards/58aafdb6-1c8c-4fc4-a52e-3e601be7fb0c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-06-16* — You don't choose a mode for Gorbag of Minas Morgul's ability at the time it triggers. Rather, a second "reflexive" ability triggers when you sacrifice a Goblin or Orc this way. You choose a mode for that ability as it goes on the stack. Each player may respond to this triggered ability as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/86/gorbag-of-minas-morgul) · oracle_id `e77e97d7-58ff-4454-ba49-66182e550f12` · printing: LTR #86 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goreclaw, Terror of Qal Sisma
 
@@ -212,6 +214,7 @@
   > Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9440 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m10/211/gorgon-flail) · oracle_id `91dab3e2-039e-4db9-94e3-1146bced18ed` · printing: M10 #211 (2009-07-17) · [rulings](https://api.scryfall.com/cards/eefc48cb-79aa-4e28-a736-ae9e4e2bc97b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gorgon Recluse
@@ -238,6 +241,7 @@
   > *—King Igalus, last words*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6195 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bng/158/gorgons-head) · oracle_id `190cdc23-fa05-475f-b853-471ca0f21b71` · printing: BNG #158 (2014-02-07) · [rulings](https://api.scryfall.com/cards/d745dd92-9f7a-44a4-a27f-2ff17753db1c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gorilla Berserkers
@@ -293,7 +297,9 @@
   > *"Frankly, destruction is best left to professionals."*
   > *—Jaya Ballard, task mage*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8223 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/280/gorilla-shaman) · oracle_id `9f53b691-da24-4264-a2a0-d0b95a385963` · printing: MH2 #280 (2021-06-18) · [rulings](https://api.scryfall.com/cards/c8f8ee19-3a88-40fa-85d8-386ffe06efd7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — A tip on how this math works: The cost to destroy a noncreature artifact with mana value 0 is {0} + {0} + {1} = {1}. The cost to destroy a noncreature artifact with mana value 1 is {1} + {1} + {1} = {3}. The cost to destroy a noncreature artifact with mana value 2 is {2} + {2} + {1} = {5}. And so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/280/gorilla-shaman) · oracle_id `9f53b691-da24-4264-a2a0-d0b95a385963` · printing: MH2 #280 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gorilla Tactics
 
@@ -355,6 +361,7 @@
   > *—Itzama the Crested*
 - **Keywords:** Double strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6482 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/13/goring-ceratops) · oracle_id `34f5383b-21fe-45f5-9598-7382ee4c5b12` · printing: XLN #13 (2017-09-29) · [rulings](https://api.scryfall.com/cards/8309f684-5912-4191-9f64-d573f1cc84c9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goring Warplow
@@ -396,7 +403,9 @@
   > Nontoken creatures you control enter with an additional +1/+1 counter on them for each creature that died under your control this turn.
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7351 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/3/gorma-the-gullet) · oracle_id `ae5f30cc-a22e-4fbb-9510-e9429de3623c` · printing: SOC #3 (2026-04-24) · [rulings](https://api.scryfall.com/cards/86f97dd8-8647-4938-aee0-690bb715f88b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-03-20* — In the case where Gorma and one or more other creatures enter at the same time, those creatures won't enter with additional +1/+1 counters, even if one or more creatures died under your control this turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/3/gorma-the-gullet) · oracle_id `ae5f30cc-a22e-4fbb-9510-e9429de3623c` · printing: SOC #3 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gorm the Great
 
@@ -449,7 +458,12 @@
   > Attacking Warriors you control get +X/+0, where X is the number of Cowards your opponents control.
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5748 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/plst/J25-49/gornog-the-red-reaper) · oracle_id `adfd6c2d-a7f8-4f5c-bc31-d65c8150ed49` · printing: PLST #J25-49 (2026-10-19) · [rulings](https://api.scryfall.com/cards/2f8f2cde-6894-4d8d-ade1-dcc36ed51c73/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-11-08* — Gornog's third ability doesn't have a duration. It will remain in effect until the game ends, the target creature leaves the battlefield, or some subsequent effect changes the creature's characteristics, whichever comes first.
+  - *2024-11-08* — Gornog's third ability overwrites the target's existing creature types. Once the ability resolves, that creature will be a Coward and won't have its previous creature types. It retains any other types and supertypes it has as well as any subtypes that aren't creature types.
+  - *2024-11-08* — Once a creature has blocked a Warrior, turning that creature into a Coward won't remove it from combat or cause the Warrior to become unblocked. (The Coward might suddenly have some regrets, though.)
+  - *2024-11-08* — The bonus granted by Gornog's last ability changes as the number of Cowards your opponents control changes.
+- **Source flags:** [Scryfall](https://scryfall.com/card/plst/J25-49/gornog-the-red-reaper) · oracle_id `adfd6c2d-a7f8-4f5c-bc31-d65c8150ed49` · printing: PLST #J25-49 (2026-10-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goro-Goro and Satoru
 
@@ -471,7 +485,11 @@
   > {R}: Creatures you control gain haste until end of turn.
   > {3}{R}{R}: Create a 5/5 red Dragon Spirit creature token with flying. Activate only if you control an attacking modified creature. (Equipment, Auras you control, and counters are modifications.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3243 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/145/goro-goro-disciple-of-ryusei) · oracle_id `b80df711-af51-4f9a-9a3f-f7a4cddc9c2c` · printing: NEO #145 (2022-02-18) · [rulings](https://api.scryfall.com/cards/1ca736c7-35a9-48c7-b5a9-69b2a6e33ad0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-02-18* — A creature that is equipped is considered modified no matter who controls the Equipment that's attached to it.
+  - *2022-02-18* — A creature with a counter on it is considered modified no matter what kind of counter it is or which player put it on that creature.
+  - *2022-02-18* — An Aura controlled by an opponent does not cause a creature you control to be modified.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/145/goro-goro-disciple-of-ryusei) · oracle_id `b80df711-af51-4f9a-9a3f-f7a4cddc9c2c` · printing: NEO #145 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goryo's Vengeance
 

@@ -193,7 +193,10 @@
   > {W/U}: Target Human gains flying until end of turn.
 - **Keywords:** Flying, Partner with, Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6562 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner, Partner with
-- **Source flags:** [Scryfall](https://scryfall.com/card/c20/14/shabraz-the-skyshark) · oracle_id `7599fe9a-b6a5-491b-a308-aef3bf1e9daf` · printing: C20 #14 (2020-04-17) · [rulings](https://api.scryfall.com/cards/9955d172-0b24-4c61-9dee-c935a1f26da2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-04-17* — If a spell or ability causes you to put cards into your hand without specifically using the word "draw," it's not a card drawn.
+  - *2020-04-17* — Shabraz's middle ability has you gain 1 life even if you can't put a +1/+1 counter on Shabraz, most likely because Shabraz has left the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c20/14/shabraz-the-skyshark) · oracle_id `7599fe9a-b6a5-491b-a308-aef3bf1e9daf` · printing: C20 #14 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shacklegeist
 
@@ -304,7 +307,10 @@
 - **Oracle text:**
   > Whenever another black creature you control enters, target creature gains intimidate until end of turn. (It can't be blocked except by artifact creatures and/or creatures that share a color with it.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7265 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/92/shadow-alley-denizen) · oracle_id `3dd2f3de-98cc-4263-bd16-b5803e48e892` · printing: RVR #92 (2024-01-12) · [rulings](https://api.scryfall.com/cards/b2bfa6f0-05d9-4a15-b65c-e40eca10fbfa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-01-24* — Shadow Alley Denizen can be chosen as the target of its own ability.
+  - *2013-01-24* — The black creature that entered can be chosen as the target of Shadow Alley Denizen's ability, but it won't be able to attack that turn unless it also has haste.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/92/shadow-alley-denizen) · oracle_id `3dd2f3de-98cc-4263-bd16-b5803e48e892` · printing: RVR #92 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shadowbane
 
@@ -449,7 +455,18 @@
   > Madness—{2}{B}, Pay 8 life. (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
 - **Keywords:** Madness
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4444 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/voc/22/shadowgrange-archfiend) · oracle_id `8f3705ff-e8e5-48e7-ab68-df6849d78867` · printing: VOC #22 (2021-11-19) · [rulings](https://api.scryfall.com/cards/de4e445f-4d54-44a8-a5f5-ef02b3d57251/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2021-11-19* — If a player controls more than one creature tied for the greatest power among creatures they control while Shadowgrange Archfiend's first ability is resolving, that player chooses which one of those creatures to sacrifice.
+  - *2022-12-08* — A card with madness that's discarded counts as having been discarded even though it's put into exile rather than a graveyard. If it was discarded to pay a cost, that cost is still paid. Abilities that trigger when a card is discarded will still trigger.
+  - *2022-12-08* — A spell cast for its madness cost is put onto the stack like any other spell. It can be countered, copied, and so on. As it resolves, it's put onto the battlefield if it's a permanent card or into its owner's graveyard if it's an instant or sorcery card.
+  - *2022-12-08* — Cards are discarded in a Magic game only from a player's hand. Effects that put cards into a player's graveyard from anywhere else do not cause those cards to be discarded.
+  - *2022-12-08* — Casting a spell with madness ignores the timing rules based on the card's card type. For example, you can cast a sorcery with madness if you discard it during an opponent's turn.
+  - *2022-12-08* — If you choose not to cast a card with madness when the madness triggered ability resolves, it's put into your graveyard. Madness doesn't give you another chance to cast it later.
+  - *2022-12-08* — If you discard a card with madness to pay the cost of a spell or activated ability, that card's madness triggered ability (and the spell that card becomes, if you choose to cast it) will resolve before the spell or ability the discard paid for.
+  - *2022-12-08* — If you discard a card with madness while a spell or ability is resolving, it moves immediately to exile. Continue resolving that spell or ability, noting that the card you discarded is not in your graveyard at this time. Its madness triggered ability will be placed onto the stack once that spell or ability has completely resolved.
+  - *2022-12-08* — Madness works independently of why you're discarding the card. You could discard it to pay a cost, because a spell or ability tells you to, or because you have too many cards in your hand during your cleanup step. You can't discard a card with madness just because you want to, though.
+  - *2022-12-08* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a madness cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/voc/22/shadowgrange-archfiend) · oracle_id `8f3705ff-e8e5-48e7-ab68-df6849d78867` · printing: VOC #22 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shadow Guildmage
 
@@ -477,7 +494,18 @@
   > *"Shar's will shall be done. As sure as night will fall."*
 - **Keywords:** Choose a background
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3483 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/146/shadowheart-dark-justiciar) · oracle_id `180919a5-67b2-473a-9b90-a828bdc2477c` · printing: CLB #146 (2022-06-10) · [rulings](https://api.scryfall.com/cards/13a0913d-776b-4ef8-adef-8861349df2b5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2022-06-10* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2022-06-10* — Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+  - *2022-06-10* — Choose a Background is a variant of the partner ability. You may have two commanders if one of them is a legendary creature with the choose a background ability and the other is a legendary Background enchantment. Backgrounds and cards with choose a Background do not interact with cards which have any other partner ability.
+  - *2022-06-10* — If a card refers to a commander creature you own, a Background won't usually be counted or included for that effect. If another spell or ability causes your Background to become a creature, however, it will be included. Any effect that refers to your commander or a commander you own or control without specifying creature will apply to a Background that is your commander, as appropriate.
+  - *2022-06-10* — If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+  - *2022-06-10* — If you control a Background that grants an ability to commander creatures you own, and you own more than one commander creature, each of them will have that ability.
+  - *2022-06-10* — If your Commander deck has two commanders, you can include only cards whose own color identities are also found in your commanders’ combined color identities.
+  - *2022-06-10* — If your commander loses the choose a Background ability or stops being a Background during the game, as appropriate, it is still your commander.
+  - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won’t have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won’t usually be a creature anyway).
+  - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/146/shadowheart-dark-justiciar) · oracle_id `180919a5-67b2-473a-9b90-a828bdc2477c` · printing: CLB #146 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shadow in the Warp
 
@@ -489,7 +517,9 @@
 - **Flavor text** (40K printing):
   > *The astropath collapsed, his empty eye sockets aglow. He spoke three words before falling lifeless to the ground: "They . . . are . . . coming!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3588 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/40k/140/shadow-in-the-warp) · oracle_id `4d81db0d-2f56-42ac-92ce-249a34d262d4` · printing: 40K #140 (2022-10-07) · [rulings](https://api.scryfall.com/cards/bd60cd99-1511-4903-b678-ff5a1853a742/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-10-07* — Both the first and last abilities of Shadow in the Warp take into account spells cast before it was on the battlefield. For example, if an opponent cast a noncreature spell before it was on the battlefield, then casts a noncreature spell after it is put on the battlefield, Shadow in the Warp's second ability won't trigger because that is the second noncreature spell they've cast that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/40k/140/shadow-in-the-warp) · oracle_id `4d81db0d-2f56-42ac-92ce-249a34d262d4` · printing: 40K #140 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shadow Kin
 
@@ -501,6 +531,7 @@
   > At the beginning of your upkeep, each player mills three cards. You may exile a creature card from among the cards milled this way. If you do, this creature becomes a copy of that card, except it has this ability.
 - **Keywords:** Flash, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8078 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mic/16/shadow-kin) · oracle_id `7ecc506e-bed0-4ae2-9d2f-5143ef63f62c` · printing: MIC #16 (2021-09-24) · [rulings](https://api.scryfall.com/cards/00ca621f-c409-4255-828b-c9957e82c06f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shadow Lance
@@ -527,6 +558,7 @@
   > Whenever this creature deals combat damage to a player, you may draw a card.
 - **Keywords:** Fear
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5670 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/240/shadowmage-infiltrator) · oracle_id `3a6f886b-2043-47e9-9c0f-f7913a6fa67d` · printing: OTC #240 (2024-04-19) · [rulings](https://api.scryfall.com/cards/2ac920d7-013f-40ad-b79f-0bb59062d42a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shadowmoor Draw Spell
@@ -549,7 +581,10 @@
   > Throw — Whenever Shadow deals combat damage to a player, you may sacrifice another nonland permanent. If you do, draw two cards and each opponent loses life equal to the mana value of the sacrificed permanent.
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5665 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/50/shadow-mysterious-assassin) · oracle_id `13ca49a2-8a78-4be4-976a-b684086864bb` · printing: FIC #50 (2025-06-13) · [rulings](https://api.scryfall.com/cards/f88d81d9-8ded-4c20-8237-2218046595fb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-06-06* — If a permanent has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
+  - *2025-06-06* — Use the mana value of the sacrificed permanent as it last existed on the battlefield to determine how much life each opponent loses.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/50/shadow-mysterious-assassin) · oracle_id `13ca49a2-8a78-4be4-976a-b684086864bb` · printing: FIC #50 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shadow of Doubt
 
@@ -576,7 +611,9 @@
   > *"Build your towers as tall as you want. The shadow always reaches higher."*
   > *—Message scrawled on an alley wall*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4754 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/snc/94/shadow-of-mortality) · oracle_id `45378874-aa51-4bb6-a161-be336c164778` · printing: SNC #94 (2022-04-29) · [rulings](https://api.scryfall.com/cards/40cbb0db-94e9-4988-b900-ced4f9e6d4ed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-04-29* — In a Two-Headed Giant game, your starting life total is the life total your team started at, and your current life total is your team's current life total.
+- **Source flags:** [Scryfall](https://scryfall.com/card/snc/94/shadow-of-mortality) · oracle_id `45378874-aa51-4bb6-a161-be336c164778` · printing: SNC #94 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shadow of the Enemy
 
@@ -600,6 +637,7 @@
   > *"It's time, Harry. Take the mask and avenge me."*
 - **Keywords:** Unreliable Visions, Undying Vengeance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4131 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/87/shadow-of-the-goblin) · oracle_id `f343b6f9-41c3-419b-a57c-a7b08603ef5c` · printing: SPM #87 (2025-09-26) · [rulings](https://api.scryfall.com/cards/854b6898-c480-435b-8952-a077c7977cec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shadow of the Grave
@@ -612,7 +650,10 @@
   > *"Death has seeped into every part of this plane. I can feel it on my skin and taste it like sand in my mouth."*
   > *—Nissa Revane*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8889 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/akh/107/shadow-of-the-grave) · oracle_id `f33d1132-064d-42f1-8814-95d27fde8bf8` · printing: AKH #107 (2017-04-28) · [rulings](https://api.scryfall.com/cards/9b0205cb-c163-4332-9624-394e1024bf6a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-04-18* — If you discard a card with madness but don’t cast it, Shadow of the Grave can find it in your graveyard. If you do cast that card, Shadow of the Grave can’t find it in your graveyard.
+  - *2017-04-18* — Shadow of the Grave returns to your hand all cards that you discarded for any reason—a card you cycled, cards you discarded to an opponent’s Unburden, and a card you discarded to cast Tormenting Voice all count.
+- **Source flags:** [Scryfall](https://scryfall.com/card/akh/107/shadow-of-the-grave) · oracle_id `f33d1132-064d-42f1-8814-95d27fde8bf8` · printing: AKH #107 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shadow of the Second Sun
 
@@ -625,7 +666,14 @@
   > *Live fully, then return to the beginning.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3683 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/70/shadow-of-the-second-sun) · oracle_id `2ee9d018-02c7-43e7-ba2e-95e36d8ac0e8` · printing: MH3 #70 (2024-06-14) · [rulings](https://api.scryfall.com/cards/0da72736-574d-4d99-98ba-3a91c374cd10/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-06-07* — After the additional beginning phase, the game proceeds to the ending phase (unless something has added even more phases; see below).
+  - *2024-06-07* — Even if the enchanted player doesn't attack with any creatures during combat, they'll still get a postcombat main phase and Shadow of the Second Sun's ability will still trigger.
+  - *2024-06-07* — If multiple phases are added to the same point in your turn, the most recently created phase happens first. For example, say you are enchanted by Shadow of the Second Sun and its ability triggers during your postcombat main phase. Later during that same main phase, another effect gives you an additional combat phase after this main phase. The additional combat will happen first, followed by the additional beginning phase.
+  - *2024-06-07* — If the enchanted player somehow has more than two main phases in a turn, each main phase other than the first one is a postcombat main phase, and Shadow of the Second Sun's ability triggers at the beginning of each of them.
+  - *2024-06-07* — The additional beginning phase all happens during the current turn. Any effects that last "until your next turn" or similar won't expire just because they'll go through an additional beginning phase.
+  - *2024-06-07* — The enchanted player's additional beginning phase will be a lot like their normal beginning phase. During the untap step, permanents will phase in or out as appropriate and they'll untap their tapped permanents. Anything they control that triggers "at the beginning of your upkeep" or similar will trigger during their upkeep step, and they'll eventually draw a card for their draw step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/70/shadow-of-the-second-sun) · oracle_id `2ee9d018-02c7-43e7-ba2e-95e36d8ac0e8` · printing: MH3 #70 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shadow Prophecy
 
@@ -650,7 +698,13 @@
   > Whenever a creature you control with flying attacks, you may have it become a red Dragon with base power and toughness 4/4 in addition to its other colors and types until end of turn.
 - **Keywords:** Flying, Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6161 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woc/12/shadow-puppeteers) · oracle_id `0a570fdb-2104-4592-b158-5b5d88f1d087` · printing: WOC #12 (2023-09-08) · [rulings](https://api.scryfall.com/cards/2ad71a49-8a93-462f-a2c3-9362b33481fa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-09-01* — Effects that modify a creature's power and/or toughness, such as the one created by Squeak By or a +1/+1 counter, will apply to the creature no matter when they started to take effect.
+  - *2023-09-01* — If the creature loses flying before Shadow Puppeteers's last ability resolves, the creature will still become a red Dragon with base power and toughness 4/4 in addition to its other colors and types until end of turn. It won't gain flying.
+  - *2023-09-01* — If the creature stops being a creature before Shadow Puppeteers's last ability resolves, it will become red until end of turn in addition to its other colors. Since it's not a creature, it won't gain the Dragon subtype, and it won't have base power and toughness 4/4.
+  - *2023-09-01* — Shadow Puppeteers's last ability doesn't remove any abilities the creature has.
+  - *2023-09-01* — Shadow Puppeteers's last ability overwrites any previous effects that set the creature's power and/or toughness to specific values. Any power- or toughness-setting effects that start to apply after Shadow Puppeteers's last ability resolves will overwrite this effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woc/12/shadow-puppeteers) · oracle_id `0a570fdb-2104-4592-b158-5b5d88f1d087` · printing: WOC #12 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shadow Rider
 
@@ -673,6 +727,7 @@
   > Target creature gains shadow until end of turn. (It can block or be blocked by only creatures with shadow.)
   > Draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2907 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/66/shadow-rift) · oracle_id `66810ef7-ea3a-4afa-92f0-b21ec52cc8d0` · printing: TPR #66 (2015-05-06) · [rulings](https://api.scryfall.com/cards/06f6d0bd-19b9-45d0-8768-691a6a593d81/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shadow-Rite Priest
@@ -812,6 +867,7 @@
   > Chaos Control — Each spell you cast has split second if mana from an artifact was spent to cast it. (As long as it's on the stack, players can't cast spells or activate abilities that aren't mana abilities.)
 - **Keywords:** Chaos Control, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5757 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/2086/shadow-the-hedgehog) · oracle_id `0c12abcc-6ada-43b3-8750-9cb6ce2b0785` · printing: SLD #2086 (2025-07-14) · [rulings](https://api.scryfall.com/cards/6c184959-a1e5-40d7-8faa-99310c4156ef/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shadow Urchin
@@ -852,7 +908,10 @@
   > • Target player puts a +1/+1 counter on each creature they control.
 - **Keywords:** Flying, Double strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2634 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/330/shadrix-silverquill) · oracle_id `2143f413-7baa-4fd6-a7ca-32f52bfa553f` · printing: SOC #330 (2026-04-24) · [rulings](https://api.scryfall.com/cards/214a695b-208e-4fd5-9ceb-23c882eadcf7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-04-16* — You can target a player with the third mode even if they control no creatures.
+  - *2021-04-16* — You may choose exactly zero modes or two modes. You can't choose only one mode. If you choose two modes, you choose which two and the target players as you put the triggered ability on the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/330/shadrix-silverquill) · oracle_id `2143f413-7baa-4fd6-a7ca-32f52bfa553f` · printing: SOC #330 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shady Informant
 
@@ -975,6 +1034,7 @@
   > *"Look, we both get what we want. I get your Halo. You get to keep your kneecaps."*
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6812 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/95/shakedown-heavy) · oracle_id `77b24f10-93af-44b9-af78-3a2f5ab32251` · printing: SNC #95 (2022-04-29) · [rulings](https://api.scryfall.com/cards/ce418184-a672-46bc-a17d-c559614defb5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shake the Foundations
@@ -1001,6 +1061,7 @@
   > *Between the angel's blade and the elf's bow, few Phyrexians made it as far as Llanowar's canopy.*
 - **Keywords:** Flying, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4136 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/10/shalai-and-hallar) · oracle_id `e7604cd9-d00d-4957-82c9-46a7cdb88209` · printing: MOC #10 (2023-04-21) · [rulings](https://api.scryfall.com/cards/80804f25-efc3-44a2-bbae-9a97fec98009/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shalai's Acolyte
@@ -1029,6 +1090,7 @@
   > {4}{G}{G}: Put a +1/+1 counter on each creature you control.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1138 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/130/shalai-voice-of-plenty) · oracle_id `a0c47ab6-dfb4-46ee-a3f7-9e1521b4bb4b` · printing: TDC #130 (2025-04-11) · [rulings](https://api.scryfall.com/cards/53876046-cdb8-4157-96cd-7832d3ad2549/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shaleskin Bruiser
@@ -1104,7 +1166,16 @@
   > Formidable — {9}{G}{G}, {T}: Each player's life total becomes the number of creatures they control. Activate only if creatures you control have total power 8 or greater.
 - **Keywords:** Formidable
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6609 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/204/shaman-of-forgotten-ways) · oracle_id `ca405696-8c30-4c01-bf90-11cdf8837942` · printing: DTK #204 (2015-03-27) · [rulings](https://api.scryfall.com/cards/a3e9c8f7-2232-4a2a-8a00-0a2908bc7543/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2015-02-25* — Count the number of creatures each player controls when the last ability resolves to determine what number each player’s life total will become.
+  - *2015-02-25* — For a player’s life total to become a specific number, the player gains or loses the appropriate amount of life. For example, if a player’s life total is 12 and that player controls three creatures as the ability resolves, they will lose 9 life. Other effects that interact with life gain or loss will interact with this effect accordingly.
+  - *2015-02-25* — If a player controls no creatures as the last ability resolves, their life total will become 0, causing that player to lose the game. If all players’ life totals become 0 this way, the game will be a draw.
+  - *2015-02-25* — If you control a creature with power less than 0, use its actual power when calculating the total power of creatures you control. For example, if you control three creatures with powers 4, 5, and -2, the total power of creatures you control is 7.
+  - *2015-02-25* — Other formidable abilities are triggered abilities with an “intervening ‘if’” clause. Such abilities check the total power of creatures you control twice: once at the appropriate time to see if the ability will trigger, and again as the ability tries to resolve. If, at that time, the total power of creatures you control is no longer 8 or greater, the ability will have no effect.
+  - *2015-02-25* — Some formidable abilities are activated abilities that require creatures you control to have total power 8 or greater. Once you activate these abilities, it doesn’t matter what happens to the total power of creatures you control.
+  - *2015-02-25* — The first ability of Shaman of Forgotten Ways is a mana ability. It doesn’t use the stack and can’t be responded to.
+  - *2015-02-25* — The mana produced by Shaman of Forgotten Ways can be used to cast face-down creature spells with morph or megamorph.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/204/shaman-of-forgotten-ways) · oracle_id `ca405696-8c30-4c01-bf90-11cdf8837942` · printing: DTK #204 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shaman of Spring
 
@@ -1141,7 +1212,9 @@
 - **Flavor text** (KHC printing):
   > *To the elves, her spear is a compass; to the boggarts, a harbinger of doom.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4557 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khc/92/shaman-of-the-pack) · oracle_id `39c7d2cc-4fd1-4f1a-be1a-a6ae56d2356d` · printing: KHC #92 (2021-02-05) · [rulings](https://api.scryfall.com/cards/da9705e2-40e5-4ec9-8aef-2eab28d5a66f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-06-08* — Count the number of Elves you control as Shaman of the Pack’s ability resolves, including Shaman of the Pack if it’s still on the battlefield, to determine how much life is lost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khc/92/shaman-of-the-pack) · oracle_id `39c7d2cc-4fd1-4f1a-be1a-a6ae56d2356d` · printing: KHC #92 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shaman's Trance
 
@@ -1214,6 +1287,7 @@
   > • Create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.")
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3209 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/119/shambling-ghast) · oracle_id `e5e6229a-3422-4afd-9a87-86daa2d31d3a` · printing: AFR #119 (2021-07-23) · [rulings](https://api.scryfall.com/cards/d96198a7-dd19-4940-bf8f-23135011fc84/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shambling Ghoul
@@ -1311,7 +1385,13 @@
   > {T}: Add {W} or {B}.
   > {1}{W}{B}: Until end of turn, this land becomes a 2/3 white and black Elemental creature with lifelink. It's still a land.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5900 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/914/shambling-vent) · oracle_id `4725abd4-06bc-464a-bc5b-c9e0f71ec079` · printing: CLB #914 (2022-06-10) · [rulings](https://api.scryfall.com/cards/1f5bf05a-04a1-4dde-845b-eced21a785fa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2015-08-25* — A land that becomes a creature may be affected by "summoning sickness." You can't attack with it or use any of its {T} abilities (including its mana abilities) unless it began your most recent turn on the battlefield under your control. Note that summoning sickness cares about when that permanent came under your control, not when it became a creature nor when it entered the battlefield.
+  - *2015-08-25* — An ability that turns a land into a creature also sets that creature's power and toughness. If the land was already a creature (for example, if it was the target of a spell with awaken), this will overwrite the previous effect that set its power and toughness. Effects that modify its power or toughness will continue to apply no matter when they started to take effect. The same is true for counters that change its power or toughness (such as +1/+1 counters) and effects that switch its power and toughness. For example, if Shambling Vent has been made a 0/0 creature with three +1/+1 counters on it, activating its last ability will turn it into a 5/6 creature that's still a land.
+  - *2015-08-25* — Multiple instances of lifelink on the same creature are redundant. Activating the last ability more than once won't cause you to gain additional life if Shambling Vent deals damage.
+  - *2015-08-25* — This land is colorless until the last ability gives it colors.
+  - *2015-08-25* — When a land becomes a creature, that doesn't count as having a creature enter the battlefield. The permanent was already on the battlefield; it only changed its types. Abilities that trigger whenever a creature enters the battlefield won't trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/914/shambling-vent) · oracle_id `4725abd4-06bc-464a-bc5b-c9e0f71ec079` · printing: CLB #914 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shameless Charlatan
 
@@ -1362,6 +1442,7 @@
 - **Flavor text** (MSH printing):
   > *"Many underestimate me because I carry no weapon. But I am the weapon."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4850 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/187/shang-chi-master-of-kung-fu) · oracle_id `700ef9c8-698b-45f7-a1fd-dec74e553224` · printing: MSH #187 (2026-06-26) · [rulings](https://api.scryfall.com/cards/2edbb62f-ad45-4422-850b-68dcc18b4c73/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shanid, Sleepers' Scourge
@@ -1375,7 +1456,10 @@
   > Whenever you play a legendary land or cast a legendary spell, you draw a card and you lose 1 life.
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4688 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/4/shanid-sleepers-scourge) · oracle_id `70e03c58-194f-443d-ab64-646dd14d2f53` · printing: DMC #4 (2022-09-09) · [rulings](https://api.scryfall.com/cards/1b0fb859-055d-4aa1-814c-0894cd2ccd4a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-09-09* — A legendary land entering the battlefield without being played does not cause Shanid’s last ability to trigger.
+  - *2022-09-09* — If casting a legendary spell causes Shanid’s last ability to trigger, that ability goes on the stack above the spell that caused it to trigger and resolves first. It resolves even if that spell is countered or otherwise left the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/4/shanid-sleepers-scourge) · oracle_id `70e03c58-194f-443d-ab64-646dd14d2f53` · printing: DMC #4 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shanna, Purifying Blade
 
@@ -1427,7 +1511,9 @@
 - **Flavor text** (FIN printing):
   > *"Ohohoho! I might be the harshest mistress in all of Vana'diel. But I may yet forgive you, if at my feet you kneel."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9819 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/241/shantotto-tactician-magician) · oracle_id `381df197-5fb7-44ab-a31f-96c4993a0e53` · printing: FIN #241 (2025-06-13) · [rulings](https://api.scryfall.com/cards/eff984b2-6ea9-4471-91c5-99c47f87f10b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-06-06* — Shantotto's ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/241/shantotto-tactician-magician) · oracle_id `381df197-5fb7-44ab-a31f-96c4993a0e53` · printing: FIN #241 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shao Jun
 
@@ -1441,7 +1527,9 @@
   > *"I shall walk in the darkness and strike swiftly. No one will stop me in my hunt."*
 - **Keywords:** Leap Strike, Rope Dart
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8396 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/acr/63/shao-jun) · oracle_id `126aab4d-df6e-4840-8cdc-49e890b1557f` · printing: ACR #63 (2024-07-05) · [rulings](https://api.scryfall.com/cards/085568e5-d622-45ff-9a31-52eaa513ff31/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-07-05* — You can tap any two untapped artifacts you control to pay the cost of Shao Jun’s last ability, including artifact creatures you haven’t controlled continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/acr/63/shao-jun) · oracle_id `126aab4d-df6e-4840-8cdc-49e890b1557f` · printing: ACR #63 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shape Anew
 
@@ -1538,7 +1626,16 @@
   > *One good mimic deserves another.*
 - **Keywords:** Changeling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9183 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lrw/85/shapesharer) · oracle_id `400c9fd8-c307-4b27-af6a-73e100717881` · printing: LRW #85 (2007-10-12) · [rulings](https://api.scryfall.com/cards/e148481d-a969-40d9-9335-d0e06ad8245b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2007-10-01* — Effects that have already applied to the targeted Shapeshifter will continue to apply to it. For example, if Giant Growth had given it +3/+3 earlier in the turn, then this ability makes it a copy of Grizzly Bears, it will be a 5/5 Grizzly Bears.
+  - *2007-10-01* — If Shapesharer itself becomes a copy of another creature, it loses both changeling and its activated ability (unless it’s copying another creature with changeling and/or another Shapesharer, of course).
+  - *2007-10-01* — If the targeted Shapeshifter becomes a copy of a face-down creature, it will become a 2/2 creature with no name, creature type, abilities, mana cost, or color. It will not become face down and thus can’t be turned face up.
+  - *2007-10-01* — If the targeted Shapeshifter copies a creature that’s copying a creature, it will become whatever the chosen creature is copying.
+  - *2007-10-01* — The copy effect doesn’t wear off until just before your next untap step (even if an effect will cause that untap step to be skipped).
+  - *2007-10-01* — The targeted Shapeshifter copies the printed values of the targeted creature, plus any copy effects that have been applied to it. It won’t copy counters on that creature. It won’t copy effects that have changed the creature’s power, toughness, types, color, and so on.
+  - *2007-10-01* — This ability can cause a creature to become a copy of itself. This will usually have no visible effect.
+  - *2017-09-29* — If either target becomes an illegal target, the ability will resolve but have no effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lrw/85/shapesharer) · oracle_id `400c9fd8-c307-4b27-af6a-73e100717881` · printing: LRW #85 (2007-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shapeshifter
 
@@ -1595,7 +1692,10 @@
   > When Sharae enters, tap target creature an opponent controls and put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)
   > Whenever you tap one or more untapped creatures your opponents control, draw a card. This ability triggers only once each turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7452 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/213/sharae-of-numbing-depths) · oracle_id `c736935a-e006-4a67-b942-e8ccf1cd9abb` · printing: WOE #213 (2023-09-08) · [rulings](https://api.scryfall.com/cards/600bc36a-3ef0-459c-9a93-94ec45b8c3d9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-09-01* — Sharae of Numbing Depths's last ability will trigger only when an effect instructs you to tap one or more creatures your opponents control. It won't trigger if a spell or ability you control instructs an opponent to tap a creature they control. For example, if you control Tangle Wire and an opponent taps an untapped creature they control as part of the resolution of Tangle Wire's triggered ability, Sharae's ability won't trigger.
+  - *2023-09-01* — You may target a creature that is already tapped with Sharae's first ability. If the target creature is already tapped as it resolves, you will still put a stun counter on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/213/sharae-of-numbing-depths) · oracle_id `c736935a-e006-4a67-b942-e8ccf1cd9abb` · printing: WOE #213 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shard Convergence
 
@@ -1620,7 +1720,10 @@
   > *Whether mechanical or biological, life finds a way to propagate itself.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3801 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/235/sharding-sphinx) · oracle_id `9ebc0144-fc45-4de7-b3d8-ef8cf2e211ae` · printing: MOC #235 (2023-04-21) · [rulings](https://api.scryfall.com/cards/1d93d905-cc36-4a78-b07c-07f8bbf39a47/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-10-01* — If combat damage is dealt to players by multiple artifact creatures you control (including, perhaps, Sharding Sphinx itself), Sharding Sphinx's ability will trigger that many times. You'll get that many Thopter tokens. You'll get just one token per creature, no matter how much combat damage that creature dealt.
+  - *2008-10-01* — The only difference between a colored artifact and a colorless artifact is, obviously, its color. Unlike most artifacts, a colored artifact requires colored mana to cast. Also unlike most artifacts, a colored artifact has a color in all zones. It will interact with cards that care about color. Other than that, a colored artifact behaves just like any other artifact. It will interact as normal with any card that cares about artifacts, such as Shatter or Arcbound Ravager.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/235/sharding-sphinx) · oracle_id `9ebc0144-fc45-4de7-b3d8-ef8cf2e211ae` · printing: MOC #235 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shardless Agent
 
@@ -1631,7 +1734,17 @@
   > Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.)
 - **Keywords:** Cascade
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7451 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/292/shardless-agent) · oracle_id `2afbaa9a-c171-4a8b-90f3-5250d8498356` · printing: MH2 #292 (2021-06-18) · [rulings](https://api.scryfall.com/cards/b0824e77-c84b-464a-aa0c-44af5f6faa50/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2021-06-18* — A spell's mana value is determined only by its mana cost. Ignore any alternative costs, additional costs, cost increases, or cost reductions.
+  - *2021-06-18* — Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade.
+  - *2021-06-18* — Due to a 2021 rules change to cascade, not only do you stop exiling cards if you exile a nonland card with lesser mana value than the spell with cascade, but the resulting spell you cast must also have lesser mana value. Previously, in cases where a card's mana value differed from the resulting spell, such as with some modal double-faced cards or cards with an Adventure, you could cast a spell with a higher mana value than the exiled card.
+  - *2021-06-18* — If a spell with cascade is countered, the cascade ability will still resolve normally.
+  - *2021-06-18* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2021-06-18* — If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those to cast the card.
+  - *2021-06-18* — The mana value of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves.
+  - *2021-06-18* — When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled.
+  - *2021-06-18* — You exile the cards face up. All players will be able to see them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/292/shardless-agent) · oracle_id `2afbaa9a-c171-4a8b-90f3-5250d8498356` · printing: MH2 #292 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shardless Outlander
 
@@ -1660,6 +1773,7 @@
   > *With a flick of their wrist, Niko shattered the wickerfolk and whisked Nashi to safety.*
 - **Keywords:** Enchant, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5411 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/29/shardmages-rescue) · oracle_id `406247ee-2b86-4068-b5fa-65cdc83a82f4` · printing: DSK #29 (2024-09-27) · [rulings](https://api.scryfall.com/cards/aed0cafa-d701-4e1f-9773-abcf817c244c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shard of Broken Glass
@@ -1687,6 +1801,7 @@
   > *—Illuminor Szeras*
 - **Keywords:** Flying, Drain Life
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5659 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/55/shard-of-the-nightbringer) · oracle_id `eedd5a17-d0fe-4a13-8f2c-f343bfa43f92` · printing: 40K #55 (2022-10-07) · [rulings](https://api.scryfall.com/cards/21e4140e-22b3-479f-a259-0f56ed02b8ad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shard of the Void Dragon
@@ -1774,6 +1889,7 @@
   > *"We are all living together even if most folks don't act like it. We all have the same roots, and we are all branches of the same tree."*
   > *—Huu*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1006 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/196/shared-roots) · oracle_id `9e0fd3bf-f47a-4f06-8ff1-73f6bf5d1e03` · printing: TLA #196 (2025-11-21) · [rulings](https://api.scryfall.com/cards/e7847ba5-e85e-417f-96c0-aef2e6f83994/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shared Summons
@@ -1786,6 +1902,7 @@
   > *"In times of need, the forest creates its own protectors."*
   > *—Vivien Reid*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4019 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m20/193/shared-summons) · oracle_id `c2c9dbd0-2062-4ee1-b32e-8eeacd95589c` · printing: M20 #193 (2019-07-12) · [rulings](https://api.scryfall.com/cards/1e1e49b6-ed0f-42f5-af22-6f4aa23ce4ef/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shared Trauma
@@ -1818,7 +1935,12 @@
   > When this enchantment enters and whenever an opponent loses the game, exile the top card of each player's library.
   > During each player's turn, that player may play a land or cast a spell from among cards exiled with this enchantment, and they may spend mana as though it were mana of any color to cast that spell. When they do, exile the top card of their library.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5443 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afc/34/share-the-spoils) · oracle_id `d39af66c-4997-48b8-a704-f21d93247d7d` · printing: AFC #34 (2021-07-23) · [rulings](https://api.scryfall.com/cards/5e35d719-8766-47dc-8c0d-8e2b37b907a8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-07-23* — If you control an opponent's Share the Spoils and that player loses the game, Share the Spoils leaves the game with them and the first ability won't trigger.
+  - *2021-07-23* — Once Share the Spoils leaves the battlefield, players may no longer play the exiled cards. If Share the Spoils is destroyed and somehow returns to the battlefield, it's a new object with no memory of the previously exiled cards.
+  - *2021-07-23* — Once a player plays a land or casts a spell from among the exiled cards, they can't play any more of those cards that turn. That is, it's one land or one spell, not one of each.
+  - *2021-07-23* — Playing a card this way follows all the normal timing rules for that card. For example, if you play a land this way, you may do so only during your main phase while the stack is empty and only if you havem't yet played a land (unless another effect allows you to play additional lands).
+- **Source flags:** [Scryfall](https://scryfall.com/card/afc/34/share-the-spoils) · oracle_id `d39af66c-4997-48b8-a704-f21d93247d7d` · printing: AFC #34 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sharkey, Tyrant of the Shire
 
@@ -1843,7 +1965,13 @@
   > Whenever Shark Shredder deals combat damage to a player, put up to one target creature card from that player's graveyard onto the battlefield under your control. It enters tapped and attacking that player.
 - **Keywords:** First strike, Sneak
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8322 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/73/shark-shredder-killer-clone) · oracle_id `dabd0867-ee3f-40cb-8314-b4a3966f8b24` · printing: TMT #73 (2026-03-06) · [rulings](https://api.scryfall.com/cards/8f946b3d-7d2a-4210-a909-d16078757e3b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2026-01-27* — Although a creature put onto the battlefield this way is attacking, it was never declared as an attacking creature. Abilities that trigger whenever a creature attacks won't trigger when that creature enters attacking.
+  - *2026-01-27* — If Shark Shredder deals combat damage to a player during the first strike combat damage step and its last ability returns a creature with first strike, the returned creature will still deal combat damage during the regular combat damage step. If the returned creature has double strike, it will deal combat damage only once during that regular combat damage step.
+  - *2026-01-27* — If a creature spell's sneak cost was paid, the creature it becomes enters tapped and attacking the same player, planeswalker, or battle as the creature that was returned to its owner's hand to pay its sneak cost. This is a rule specific to sneak; in other cases, when a creature is put onto the battlefield attacking, that creature's controller chooses which player, planeswalker, or battle it's attacking.
+  - *2026-01-27* — In the case where Shark Shredder deals combat damage to a player during the regular combat damage step (probably because another effect granted Shark Shredder double strike), the creature returned with Shark Shredder's last ability won't deal combat damage at all during that combat phase.
+  - *2026-01-27* — Spells can only be cast for their sneak costs any time you could play an instant during the declare blockers step on your turn (after your opponent has decided whether to block).
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/73/shark-shredder-killer-clone) · oracle_id `dabd0867-ee3f-40cb-8314-b4a3966f8b24` · printing: TMT #73 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sharktocrab
 
@@ -1867,7 +1995,14 @@
   > When you cycle this card, create an X/X blue Shark creature token with flying.
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1237 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frc/44/shark-typhoon) · oracle_id `8c0520fa-276b-4d21-b4a9-dce1fce59f6b` · printing: FRC #44 (2026-10-02) · [rulings](https://api.scryfall.com/cards/605ca3c0-7c9a-4bc1-9795-82aeb6f552ee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2020-04-17* — An ability that triggers when a player casts a spell resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+  - *2020-04-17* — For spells with {X} in their mana costs, use the value chosen for X to determine the spell's mana value.
+  - *2020-04-17* — Some cards with cycling have an ability that triggers when you cycle them, and some cards have an ability that triggers whenever you cycle any card. These triggered abilities resolve before you draw from the cycling ability.
+  - *2020-04-17* — Triggered abilities from cycling a card and the cycling ability itself aren't spells. Effects that interact with spells (such as that of Cancel) won't affect them.
+  - *2020-04-17* — You can choose 0 as the value of X in Shark Typhoon's cycling cost. The last ability will trigger, and you'll create a 0/0 blue Shark creature token with flying. Unless something else is raising its toughness, the Shark will then immediately die.
+  - *2020-04-17* — You can cycle a card even if it has a triggered ability from cycling that won't have a legal target. This is because the cycling ability and the triggered ability are separate. This also means that if either ability is countered (with Disallow, for example), the other ability will still resolve.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frc/44/shark-typhoon) · oracle_id `8c0520fa-276b-4d21-b4a9-dce1fce59f6b` · printing: FRC #44 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sharlayan, Nation of Scholars
 
@@ -1880,7 +2015,9 @@
   > *"The Sharlayans were the keepers of wisdom both old and new. Their mastery over magic and aether was unsurpassed, and even the Garleans knew to fear them."*
   > *—Minfilia Warde*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4903 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/288/sharlayan-nation-of-scholars) · oracle_id `564bdbdd-8392-4ee1-a132-1a17a67b2110` · printing: FIN #288 (2025-06-13) · [rulings](https://api.scryfall.com/cards/7a745b5e-cdb8-4d05-ac5c-87be69536da6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-06-06* — Town is a land type with no special meaning. It doesn't grant the land any intrinsic abilities. Other cards may care about which lands are Towns.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/288/sharlayan-nation-of-scholars) · oracle_id `564bdbdd-8392-4ee1-a132-1a17a67b2110` · printing: FIN #288 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sharpened Pitchfork
 
@@ -1942,7 +2079,9 @@
   > *To gain audience with the hegemon, one must bring a riddle she has not heard.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7002 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/219/sharuum-the-hegemon) · oracle_id `037e7fc9-3aa6-484c-a2c8-43009e45f1d8` · printing: 2XM #219 (2020-08-07) · [rulings](https://api.scryfall.com/cards/af80ef38-ab95-476f-b0dd-b5ef3e9bceab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-08-07* — If Sharuum the Hegemon is put into your graveyard as a state-based action immediately after Sharuum the Hegemon enters the battlefield (most likely due to the "legend rule") it can be the artifact card targeted by its own ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/219/sharuum-the-hegemon) · oracle_id `037e7fc9-3aa6-484c-a2c8-43009e45f1d8` · printing: 2XM #219 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shatter
 
@@ -1994,6 +2133,7 @@
   > *She preaches the blessings of the Machine Orthodoxy.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6720 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/206/shattered-angel) · oracle_id `e339c6cb-c75d-4dd4-8c1a-78f844983242` · printing: MOC #206 (2023-04-21) · [rulings](https://api.scryfall.com/cards/58e4fb9b-76bc-4daf-b0a3-4bf62757902d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shattered Crypt
@@ -2044,6 +2184,7 @@
   > Cycling {R}{W}{B} ({R}{W}{B}, Discard this card: Draw a card.)
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1962 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/390/shattered-landscape) · oracle_id `7fbad3f2-66f6-4e3a-b9e0-1ddbcd94d42a` · printing: TDC #390 (2025-04-11) · [rulings](https://api.scryfall.com/cards/f8373e5a-94bb-4aa0-bd09-13a01e0cb02a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shattered Perception
@@ -2143,7 +2284,10 @@
   > Destroy target artifact.
 - **Keywords:** Replicate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7961 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/gpt/75/shattering-spree) · oracle_id `fe725b27-49ef-41bc-91f9-9cd9871ad863` · printing: GPT #75 (2006-02-03) · [rulings](https://api.scryfall.com/cards/d6dcff21-5900-43c4-a38b-cdc19c704ce4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-01-12* — As the replicate triggered ability resolves, you'll copy Shattering Spree for each time you paid its replicate cost, even if the original spell is no longer on the stack at that time (perhaps because it was countered).
+  - *2024-01-12* — The copies that replicate creates are created on the stack, so they're not "cast." Abilities that trigger when a player casts a spell won't trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/gpt/75/shattering-spree) · oracle_id `fe725b27-49ef-41bc-91f9-9cd9871ad863` · printing: GPT #75 (2006-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shatterskull Charger
 
@@ -2212,7 +2356,20 @@
   > *"The safest way across the Skyfangs is to fly. Shatterskull Pass is a pretty distant second."*
   > *—Samila, Murasa Expeditionary House*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1417 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/161/shatterskull-smashing-shatterskull-the-hammer-pass) · oracle_id `78301998-fd9b-4cd5-afad-dbcb43cac2a7` · printing: ZNR #161 (2020-09-25) · [rulings](https://api.scryfall.com/cards/bc7239ea-f8aa-4a6f-87bd-c35359635673/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2020-09-25* — A modal double-faced card can't be transformed or be put onto the battlefield transformed. Ignore any instruction to transform a modal double-faced card or to put one onto the battlefield transformed.
+  - *2020-09-25* — If X is 6 or more, you divide twice X damage; you don't assign X damage and then double that damage.
+  - *2020-09-25* — If an effect allows you to play a land or cast a spell from among a group of cards, you may play or cast a modal double-faced card with any face that fits the criteria of that effect.
+  - *2020-09-25* — If an effect allows you to play a specific modal double-faced card, you may cast it as a spell or play it as a land, as determined by which face you choose to play. If an effect allows you to cast (rather than "play") a specific modal double-faced card, you can't play it as a land.
+  - *2020-09-25* — If an effect instructs a player to choose a card name, the name of either face may be chosen. If that effect or a linked ability refers to a spell with the chosen name being cast and/or a land with the chosen name being played, it considers only the chosen name, not the other face's name.
+  - *2020-09-25* — If an effect puts a double-faced card onto the battlefield, it enters with its front face up. If that front face can't be put onto the battlefield, it doesn't enter the battlefield.
+  - *2020-09-25* — If one of the targets becomes illegal for Shatterskull Smashing, the original division of damage still applies to the still-legal target, but the damage that would have been dealt to the illegal target isn't dealt at all.
+  - *2020-09-25* — In the Commander variant, a double-faced card's color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered.
+  - *2020-09-25* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack and battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
+  - *2020-09-25* — There is a single triangle icon in the top left corner of the front face. There is a double triangle icon in the top left corner of the back face.
+  - *2020-09-25* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics.
+  - *2020-09-25* — You divide the damage as you cast Shatterskull Smashing, not as it resolves. If you choose two targets, each target must be assigned at least 1 damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/161/shatterskull-smashing-shatterskull-the-hammer-pass) · oracle_id `78301998-fd9b-4cd5-afad-dbcb43cac2a7` · printing: ZNR #161 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shatterstorm
 
@@ -2244,7 +2401,10 @@
 - **Flavor text** (ECC printing):
   > *When the gods go to war, mortals pay the highest price.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7889 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/66/shatter-the-sky) · oracle_id `2ffc7509-c7ce-44c4-a8cf-90ed161b5d10` · printing: ECC #66 (2026-01-23) · [rulings](https://api.scryfall.com/cards/e79f7e98-2f80-444b-8ca2-d529472ba798/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-01-24* — No player may take any actions between the time each qualifying player draws a card and the time all creatures are destroyed.
+  - *2020-01-24* — Shatter the Sky destroys all creatures, even if no player draws a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/66/shatter-the-sky) · oracle_id `2ffc7509-c7ce-44c4-a8cf-90ed161b5d10` · printing: ECC #66 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shatter the Source
 
@@ -2309,7 +2469,16 @@
   > Whenever you attack, you may create a tapped and attacking token that's a copy of target attacking legendary creature you control other than Shaun, except it's not legendary and it's a Synth artifact creature in addition to its other types.
   > When Shaun leaves the battlefield, exile all Synth tokens you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6831 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/119/shaun-father-of-synths) · oracle_id `0bd11d6c-b707-4b37-b49c-a3274b2a5a81` · printing: PIP #119 (2024-03-08) · [rulings](https://api.scryfall.com/cards/68af449f-3c30-43ea-be60-d85061d7adbd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2024-03-08* — Although the token is attacking, it was never declared as an attacking creature. This means that abilities that trigger whenever a creature attacks won’t trigger when it enters the battlefield attacking.
+  - *2024-03-08* — Any enters-the-battlefield abilities of the copied creature will trigger when the token enters the battlefield. Any “as [this creature] enters the battlefield” or “[this creature] enters the battlefield with” abilities of the copied creature will also work.
+  - *2024-03-08* — Except for the noted exceptions, the token copies exactly what was printed on the original creature and nothing else (unless that creature is copying something else or is a token; see below). It doesn’t copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+  - *2024-03-08* — If the copied creature has {X} in its mana cost, X is 0.
+  - *2024-03-08* — If the copied creature is a token, the token that’s created copies the original characteristics of that token as stated by the effect that created that token, with the noted exceptions.
+  - *2024-03-08* — If the copied creature is copying something else, then the token enters the battlefield as whatever that creature copied, with the noted exceptions.
+  - *2024-03-08* — Shaun’s last ability will exile all Synth tokens you control, not just Synth tokens created by its first ability.
+  - *2024-03-08* — You declare which player, planeswalker, or battle the token is attacking as you put it onto the battlefield. It doesn’t have to be attacking the same player, planeswalker, or battle that Shaun is attacking.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/119/shaun-father-of-synths) · oracle_id `0bd11d6c-b707-4b37-b49c-a3274b2a5a81` · printing: PIP #119 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shaun & Rebecca, Agents
 
@@ -2336,4 +2505,9 @@
   > Whenever a creature an opponent controls becomes the target of a spell or ability you control, put a bounty counter on that creature.
   > Whenever a creature with a bounty counter on it dies, put two +1/+1 counters on Shay Cormac.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4114 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/acr/65/shay-cormac) · oracle_id `95892392-2ed3-4c1a-bbaa-4083f526769c` · printing: ACR #65 (2024-07-05) · [rulings](https://api.scryfall.com/cards/42ca7f13-df00-4904-a7be-44f94272bfee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-07-05* — Because damage remains marked on a creature until damage is removed as the turn ends, damage previously dealt to a creature with indestructible may cause it to be destroyed if Shay Cormac’s first ability resolves later during that turn. This is notably not the case with protection, as protection prevents damage.
+  - *2024-07-05* — If a permanent enters the battlefield under an opponent’s control with hexproof, indestructible, protection, shroud, and/or ward after Shay Cormac’s first ability resolves, it won’t lose that ability until you activate Shay Cormac’s first ability again. The same is true if an opponent’s permanent gains one of those abilities after Shay Cormac’s first ability resolves.
+  - *2024-07-05* — Shay Cormac’s last ability looks for any bounty counter on a creature, not just one from that Shay Cormac. For example, if players A and B each control a Shay Cormac and player A has put a bounty counter on player C’s creature, both players A and B will put two +1/+1 counters on their respective Shay Cormacs when that creature dies.
+  - *2024-07-05* — Shay Cormac’s second ability resolves before the spell or ability that caused it to trigger. It resolves even if that spell or ability is countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/acr/65/shay-cormac) · oracle_id `95892392-2ed3-4c1a-bbaa-4083f526769c` · printing: ACR #65 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -44,7 +44,23 @@
   > Crew 1
 - **Keywords:** Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5386 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/50/cosima-god-of-the-voyage-the-omenkeel) · oracle_id `648100cd-d44a-48f8-87e4-a1d5467f348c` · printing: KHM #50 (2021-02-05) · [rulings](https://api.scryfall.com/cards/fab2fca4-a99f-4ffe-9c02-edb6e0be2358/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2021-02-05* — A modal double-faced card can't be transformed or be put onto the battlefield transformed. Ignore any instruction to transform a modal double-faced card or to put one onto the battlefield transformed.
+  - *2021-02-05* — Cosima's ability triggers only if Cosima is on the battlefield at the beginning of your upkeep, and you may exile Cosima only if it is still on the battlefield as the ability resolves.
+  - *2021-02-05* — If a land enters the battlefield under your control while Cosima is exiled and has the added triggered ability, that ability will trigger. As the ability tries to resolve, it will check to see if Cosima is still in exile. If Cosima has left exile before the ability tries to resolve, it won't resolve and none of its effects will happen. This is true even if Cosima returns to exile before that ability tries to resolve.
+  - *2021-02-05* — If an effect allows you to play a land or cast a spell from among a group of cards, you may play or cast a modal double-faced card with any face that fits the criteria of that effect.
+  - *2021-02-05* — If an effect allows you to play a specific modal double-faced card, you may cast it as a spell or play it as a land, as determined by which face you choose to play. If an effect allows you to cast (rather than "play") a specific modal double-faced card, you can't play it as a land.
+  - *2021-02-05* — If an effect instructs a player to choose a card name, the name of either face may be chosen. If that effect or a linked ability refers to a spell with the chosen name being cast and/or a land with the chosen name being played, it considers only the chosen name, not the other face's name.
+  - *2021-02-05* — If an effect puts a double-faced card onto the battlefield, it enters with its front face up. If that front face can't be put onto the battlefield, it doesn't enter the battlefield.
+  - *2021-02-05* — In the Commander variant, a double-faced card's color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered.
+  - *2021-02-05* — The Omenkeel doesn't allow you to play additional lands during your turn, nor does it allow you to play lands at times you normally can't. In most cases, you'll be able to play only one land from among cards exiled with The Omenkeel during each of your turns.
+  - *2021-02-05* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack and battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
+  - *2021-02-05* — There is a single triangle icon in the top left corner of the front face. There is a double triangle icon in the top left corner of the back face.
+  - *2021-02-05* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics.
+  - *2021-02-05* — While the triggered ability Cosima gains is resolving, if you don't put a voyage counter on Cosima, you'll immediately return it to the battlefield and draw cards equal to the number of voyage counters Cosima had on it in exile. Players can't respond to this choice, and no player may take actions during this process.
+  - *2021-02-05* — You can play lands from among cards exiled with The Omenkeel for as long as they remain exiled, even if The Omenkeel leaves the battlefield or another player gains control of it.
+  - *2021-02-05* — You may choose to return Cosima to the battlefield even if it doesn't have any voyage counters on it. If you do, it won't enter with any +1/+1 counters on it and you won't draw any cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/50/cosima-god-of-the-voyage-the-omenkeel) · oracle_id `648100cd-d44a-48f8-87e4-a1d5467f348c` · printing: KHM #50 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cosi's Ravager
 
@@ -93,6 +109,7 @@
   > Whenever you attack, look at the top six cards of your library. You may cast a spell from among them with mana value less than or equal to the greatest power among attacking creatures you control without paying its mana cost. Put the rest on the bottom of your library in a random order.
 - **Keywords:** Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5349 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/245/cosmic-cube) · oracle_id `0866a630-d962-4aa9-a15f-08b2947540ef` · printing: MSH #245 (2026-06-26) · [rulings](https://api.scryfall.com/cards/d1cf1ead-fe91-4328-89ab-6d0bc9ff6cbe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cosmic Epiphany
@@ -131,7 +148,9 @@
 - **Flavor text** (MOM printing):
   > *The Copper Host sought only the strongest converts. In Koma, it found perfection.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6060 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/182/cosmic-hunger) · oracle_id `fe84ce0b-cd25-41ee-82c1-8ab03df5791b` · printing: MOM #182 (2023-04-21) · [rulings](https://api.scryfall.com/cards/b8eef541-6851-4312-ad2b-74f45c7ede6c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-04-14* — If either target is an illegal target as Cosmic Hunger tries to resolve, the creature you control won’t deal damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/182/cosmic-hunger) · oracle_id `fe84ce0b-cd25-41ee-82c1-8ab03df5791b` · printing: MOM #182 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cosmic Intervention
 
@@ -142,7 +161,15 @@
   > Foretell {1}{W} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)
 - **Keywords:** Foretell
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4135 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khc/3/cosmic-intervention) · oracle_id `cddccc2a-a76e-48b3-b4dd-dfeab89e1619` · printing: KHC #3 (2021-02-05) · [rulings](https://api.scryfall.com/cards/933c4a54-5c3a-496b-aa35-edf791155d8d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2021-02-05* — Because exiling a card with foretell from your hand is a special action, you can do so any time you have priority during your turn, including in response to spells and abilities. Once you announce you’re taking the action, no other player can respond by trying to remove the card from your hand.
+  - *2021-02-05* — Casting a foretold card from exile follows the timing rules for that card. If you foretell an instant card, you can cast it as soon as the next player’s turn. In most cases, if you foretell a card that isn’t an instant (or doesn’t have flash), you’ll have to wait until your next turn to cast it.
+  - *2021-02-05* — Each permanent that is exiled instead of being put into a graveyard from the battlefield creates its own triggered ability to return itself. Those abilities all trigger at the beginning of the next end step, and you can choose the order in which those abilities will go on the stack. The cards will be returned to the battlefield one at a time as those abilities resolve.
+  - *2021-02-05* — If a token permanent would be put into a graveyard, it’s exiled and then ceases to exist. It won’t return to the battlefield.
+  - *2021-02-05* — If you return an Aura this way, you choose what the Aura will enchant just before it enters the battlefield. An Aura returning to the battlefield this way doesn’t target the player or permanent it will enchant, so permanents or players with hexproof may be chosen; however, the chosen recipient must be able to legally be enchanted by the Aura, so a player or permanent with protection from one of the Aura’s qualities can’t be chosen this way. If there’s nothing legal for the Aura to enchant, it stays in exile.
+  - *2021-02-05* — If you’re casting a foretold card from exile for its foretell cost, you can’t choose to cast it for any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
+  - *2021-02-05* — Once Cosmic Intervention resolves, any “When [this creature] dies” abilities of permanents you control won’t trigger for the rest of the turn because those permanents won’t be put into the graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khc/3/cosmic-intervention) · oracle_id `cddccc2a-a76e-48b3-b4dd-dfeab89e1619` · printing: KHC #3 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cosmic Larva
 
@@ -169,7 +196,9 @@
   > *"When all the stories find their ends, a new one shall begin."*
   > *—\*The Endsaga\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6548 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mat/28/cosmic-rebirth) · oracle_id `add60aad-2532-4f59-bfb9-f0168c2adda6` · printing: MAT #28 (2023-05-12) · [rulings](https://api.scryfall.com/cards/7fcb225c-d18f-4b84-b2fc-91ed84ec30aa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-05-12* — You put the card into your hand if you didn't put it onto the battlefield because you chose not to or because its mana value was 4 or greater.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mat/28/cosmic-rebirth) · oracle_id `add60aad-2532-4f59-bfb9-f0168c2adda6` · printing: MAT #28 (2023-05-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cosmic Spider-Man
 
@@ -183,6 +212,7 @@
   > *The Enigma Force granted Peter the greatest power, and with it, the greatest responsibility.*
 - **Keywords:** Flying, Lifelink, First strike, Haste, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8211 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/127/cosmic-spider-man) · oracle_id `0334a2f8-a74a-44c9-ba64-d9b7fabe160c` · printing: SPM #127 (2025-09-26) · [rulings](https://api.scryfall.com/cards/f82f4013-7308-4917-9042-19a5909f2134/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cosmium Blast
@@ -234,7 +264,10 @@
 - **Flavor text** (EOE printing):
   > *Cosmogrands of the Celestial Palatinate always seek to expand their grip on the Edge.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3193 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/9/cosmogrand-zenith) · oracle_id `e2cd65f6-7cbc-497c-bdc9-698ff17da31e` · printing: EOE #9 (2025-08-01) · [rulings](https://api.scryfall.com/cards/b3c1e5e3-4e6b-456a-958c-7a75c38f8183/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-07-25* — Cosmogrand Zenith’s ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack without resolving. Notably, if your second spell is a creature spell and you choose the second mode for Cosmogrand Zenith’s ability, the resulting creature from that spell won’t get a +1/+1 counter.
+  - *2025-07-25* — Cosmogrand Zenith’s ability will count any spells you’ve cast this turn, which may include Cosmogrand Zenith itself. It doesn’t matter if the other spells resolved, didn’t resolve, were countered, or are still on the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/9/cosmogrand-zenith) · oracle_id `e2cd65f6-7cbc-497c-bdc9-698ff17da31e` · printing: EOE #9 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cosmos Charger
 
@@ -259,7 +292,9 @@
 - **Flavor text** (KHM printing):
   > *The Skoti owe their immortality to the elixir, and the manner of its creation is their most closely guarded secret.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2719 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/237/cosmos-elixir) · oracle_id `ed7300f4-831a-4ba4-b5e6-ceba8d079eaa` · printing: KHM #237 (2021-02-05) · [rulings](https://api.scryfall.com/cards/6bf084fe-7762-49c5-974a-cdecc10666b3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-02-05* — You compare your current life total to your starting life total as Cosmos Elixir’s ability resolves to determine whether you draw a card or gain 2 life. There are no situations in which you’ll do both.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/237/cosmos-elixir) · oracle_id `ed7300f4-831a-4ba4-b5e6-ceba8d079eaa` · printing: KHM #237 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cosmotronic Wave
 
@@ -282,7 +317,10 @@
 - **Flavor text** (2XM printing):
   > *No lock of iron is a match for Vraska's will of stone.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3464 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/80/costly-plunder) · oracle_id `8cdfd9df-4783-4138-a286-828a97f516aa` · printing: 2XM #80 (2020-08-07) · [rulings](https://api.scryfall.com/cards/598405fd-02d2-4bf8-b241-7a2ae6338913/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-08-07* — You can't cast Costly Plunder without sacrificing a permanent, and you can't sacrifice additional permanents.
+  - *2020-08-07* — You can't sacrifice an artifact to generate mana to pay towards Costly Plunder's cost and also to pay its additional cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/80/costly-plunder) · oracle_id `8cdfd9df-4783-4138-a286-828a97f516aa` · printing: 2XM #80 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cost of Brilliance
 

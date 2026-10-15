@@ -28,7 +28,12 @@
   > *"Our enemies have breached our realm. To survive, the clans must fight as one!"*
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3585 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/222/maja-bretagard-protector) · oracle_id `0a2075b5-9609-433d-bcd2-e0a637456cf8` · printing: KHM #222 (2021-02-05) · [rulings](https://api.scryfall.com/cards/cc3707f1-ed9d-412e-a7be-b6d8b554bd6c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-02-05* — Because damage remains marked on creatures until the damage is removed as the turn ends, nonlethal damage dealt to creatures you control may become lethal if Maja, Bretagard Protector leaves the battlefield that turn.
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/222/maja-bretagard-protector) · oracle_id `0a2075b5-9609-433d-bcd2-e0a637456cf8` · printing: KHM #222 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Majestic Auricorn
 
@@ -50,7 +55,9 @@
 - **Oracle text:**
   > Reveal the top X cards of your library, where X is the greatest mana value of a commander you own on the battlefield or in the command zone. You may put any number of permanent cards from among them onto the battlefield. Put the rest on the bottom of your library in a random order.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5854 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/240/majestic-genesis) · oracle_id `15039c85-31e2-4a2b-82f8-2f8270ff9a00` · printing: CLB #240 (2022-06-10) · [rulings](https://api.scryfall.com/cards/eaadb067-4a77-4d6e-931d-447bd0c06594/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-06-10* — If your commander is under the control of another player as Majestic Genesis resolves, it is still on the battlefield and will still be used to determine the value of X.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/240/majestic-genesis) · oracle_id `15039c85-31e2-4a2b-82f8-2f8270ff9a00` · printing: CLB #240 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Majestic Heliopterus
 
@@ -65,6 +72,7 @@
   > *—Huatli*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9775 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/131/majestic-heliopterus) · oracle_id `d3b49970-46b7-441b-bff8-8403d982b8a7` · printing: LCC #131 (2023-11-17) · [rulings](https://api.scryfall.com/cards/637741c4-5420-4a54-839e-4fd454d93172/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Majestic Metamorphosis

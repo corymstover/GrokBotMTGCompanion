@@ -73,6 +73,7 @@
   > Skilled Outrider — Whenever this creature deals combat damage to a player, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
 - **Keywords:** Haste, Trample, Skilled Outrider
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5442 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/105/atalan-jackal) · oracle_id `8be11473-6edf-4f45-b541-11858655fb5f` · printing: 40K #105 (2022-10-07) · [rulings](https://api.scryfall.com/cards/3fc069f7-2445-44ff-bcff-5b0741841690/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### A Tale for the Ages
@@ -159,7 +160,15 @@
   > • You may put a land card from your hand onto the battlefield.
   > • Creatures you control get +1/+1 and gain reach until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6618 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/176/atarkas-command) · oracle_id `1943cbb0-2b12-4450-90af-060b8c8627c3` · printing: 2X2 #176 (2022-07-08) · [rulings](https://api.scryfall.com/cards/c57b152e-c94e-4c10-9f0d-d960e878a430/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2015-02-25* — As the spell resolves, follow the instructions of the modes you chose in the order they are printed on the card. For example, if you chose the second and fourth modes of Ojutai's Command, you would gain 4 life and then draw a card. (The order won't matter in most cases.)
+  - *2015-02-25* — If a Command is copied, the effect that creates the copy will usually allow you to choose new targets for the copy, but you can't choose new modes.
+  - *2015-02-25* — If all targets for the chosen modes become illegal before the Command resolves, the spell won't resolve and none of its effects will happen. If at least one target is still legal, the spell will resolve but will have no effect on any illegal targets.
+  - *2015-02-25* — If you choose the third mode and put a land card onto the battlefield, that doesn't count as playing a land. For example, you can both play a land and put a land onto the battlefield this way during your turn.
+  - *2015-02-25* — The first mode won't affect life that was gained earlier in the turn.
+  - *2015-02-25* — You can choose a mode only if you can choose legal targets for that mode. Ignore the targeting requirements for modes that aren't chosen. For example, you can cast Ojutai's Command without targeting a creature spell provided you don't choose the third mode.
+  - *2015-02-25* — You choose the two modes as you cast the spell. You must choose two different modes. Once modes are chosen, they can't be changed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/176/atarkas-command) · oracle_id `1943cbb0-2b12-4450-90af-060b8c8627c3` · printing: 2X2 #176 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Atarka, World Render
 
@@ -174,6 +183,7 @@
   > *—Yasova Dragonclaw*
 - **Keywords:** Flying, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1373 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/281/atarka-world-render) · oracle_id `c0b3bbce-977c-42a9-afcb-dabdfc717c97` · printing: TDC #281 (2025-04-11) · [rulings](https://api.scryfall.com/cards/c569fab1-6901-40ab-b958-001698819585/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Atemsis, All-Seeing
@@ -187,7 +197,12 @@
   > Whenever Atemsis deals damage to an opponent, you may reveal your hand. If cards with at least six different mana values are revealed this way, that player loses the game.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9271 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/m20/46/atemsis-all-seeing) · oracle_id `f557aa26-8b79-4116-9249-a067b21b88ef` · printing: M20 #46 (2019-07-12) · [rulings](https://api.scryfall.com/cards/b8f527d1-25c0-49b9-83d5-1278ca72d009/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2019-07-12* — Every Magic card has exactly one mana value. A card with no mana cost has a mana value of 0, and 0 can be one of the six mana values that count toward Atemsis's ability.
+  - *2019-07-12* — If a card in your hand has {X} in its mana cost, the value of X is considered to be 0. 
+  - *2019-07-12* — If an effect causes you to play with your hand revealed, you can still reveal your hand as Atemsis's last ability resolves. The ability works as normal. 
+  - *2019-07-12* — The mana value of a split card is determined by combining its two halves. For example, the mana value of Fire//Ice in your hand is 4.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m20/46/atemsis-all-seeing) · oracle_id `f557aa26-8b79-4116-9249-a067b21b88ef` · printing: M20 #46 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ate-o'-Clock
 
@@ -212,7 +227,22 @@
   > Whenever another creature you own dies, return it to your hand unless target opponent pays 3 life.
 - **Keywords:** Indestructible
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3024 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/jou/146/athreos-god-of-passage) · oracle_id `af206aed-1f58-4f5a-ba42-0e0d1f282940` · printing: JOU #146 (2014-05-02) · [rulings](https://api.scryfall.com/cards/52705c53-883e-4b6a-9c08-3fa35f6f17d5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (14):
+  - *2014-04-26* — Athreos's last ability will trigger if a token creature you own dies. The target opponent has the option to pay 3 life, although the token can't return to your hand.
+  - *2014-04-26* — If there are no legal targets for Athreos's last ability (perhaps because each of your opponents has hexproof), it will be removed from the stack with no effect. No one may pay 3 life and you won't return the creature card to your hand.
+  - *2014-04-26* — It doesn't matter who controlled the creature when it died. Athreos's last ability will trigger if you owned that creature.
+  - *2014-04-26* — The target opponent chooses whether to pay 3 life when Athreos's last ability resolves. You won't return the card to your hand if that player pays 3 life or if the card leaves the graveyard before the ability resolves.
+  - *2014-04-26* — You are a creature's owner if the card representing it began the game in your deck, or if it's a token that entered the battlefield under your control.
+  - *2020-01-24* — As a God enters the battlefield, your devotion to its color will determine whether any replacement effects that affect creatures entering the battlefield apply to that God. Because replacement effects are considered before the God is on the battlefield, the mana symbols in its mana cost won't be counted when determining this.
+  - *2020-01-24* — Counters put on a God remain on it while it's not a creature, even if they have no effect.
+  - *2020-01-24* — If a God is attacking or blocking and it stops being a creature, it will be removed from combat. It won't rejoin combat if it resumes being a creature later during that combat.
+  - *2020-01-24* — If a God stops being a creature, it loses the type creature and the creature type God. It continues to be a legendary enchantment.
+  - *2020-01-24* — If an effect causes a God to lose all abilities, its ability that causes it to stop being a creature still applies if appropriate.
+  - *2020-01-24* — The abilities of Gods function as long as they're on the battlefield, regardless of whether they're creatures.
+  - *2020-01-24* — The type-changing ability that can make a God not be a creature functions only on the battlefield. It's always a creature card in other zones, regardless of your devotion to its color. It's always a creature spell while it's on the stack.
+  - *2020-01-24* — When a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not for abilities that trigger whenever a creature enters the battlefield.
+  - *2020-01-24* — Your devotion to two colors is the number of mana symbols among mana costs of permanents you control that are the first color, the second, or both. If an effect counts your devotion to two colors, a hybrid symbol that is both of those colors is counted just once.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jou/146/athreos-god-of-passage) · oracle_id `af206aed-1f58-4f5a-ba42-0e0d1f282940` · printing: JOU #146 (2014-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Athreos, Shroud-Veiled
 
@@ -226,7 +256,32 @@
   > Whenever a creature with a coin counter on it dies or is put into exile, return that card to the battlefield under your control.
 - **Keywords:** Indestructible
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3264 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/212/athreos-shroud-veiled) · oracle_id `9aacc1ce-8d0d-4a24-9a15-74635f2f127d` · printing: DSC #212 (2024-09-27) · [rulings](https://api.scryfall.com/cards/f50ffa76-f704-4d53-a15c-8316b07c1d12/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (24):
+  - *2020-01-24* — As a God enters the battlefield, your devotion to its color will determine whether any replacement effects that affect creatures entering the battlefield apply to that God. Because replacement effects are considered before the God is on the battlefield, the mana symbols in its mana cost won't be counted when determining this.
+  - *2020-01-24* — Colorless and generic mana symbols ({C}, {0}, {1}, {2}, {X}, and so on) in mana costs of permanents you control don't count toward your devotion to any color.
+  - *2020-01-24* — Counters put on a God remain on it while it's not a creature, even if they have no effect.
+  - *2020-01-24* — Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s).
+  - *2020-01-24* — If Athreos and a creature with a coin counter on it are both put into graveyards and/or exiled at the same time, the other creature will be returned to the battlefield.
+  - *2020-01-24* — If Athreos leaves the battlefield, creatures with coin counters on them keep them. The counters won't have any meaning or effect unless another Athreos is on the battlefield later.
+  - *2020-01-24* — If Athreos somehow gets a coin counter on itself, its last ability will return it when it dies or is exiled.
+  - *2020-01-24* — If a God is attacking or blocking and it stops being a creature, it will be removed from combat. It won't rejoin combat if it resumes being a creature later during that combat.
+  - *2020-01-24* — If a God stops being a creature, it loses the type creature and the creature type God. It continues to be a legendary enchantment.
+  - *2020-01-24* — If a creature with a coin counter on it is put into a graveyard or exile but leaves that zone before Athreos's last ability resolves, that card stays in its new zone, even if that zone is also a graveyard or exile. You don't return it to the battlefield.
+  - *2020-01-24* — If a creature with a coin counter on it stops being a creature, it keeps its coin counter, but Athreos's last ability won't trigger when that permanent dies or is exiled unless it's a creature again by that time.
+  - *2020-01-24* — If a creature you don't own has a coin counter on it, that permanent will return to the battlefield under your control when it dies or is exiled while you control Athreos. In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, any creatures you control from Athreos's ability are exiled.
+  - *2020-01-24* — If a token with a coin counter on it dies or is exiled, Athreos's last ability triggers, but won't return it to the battlefield.
+  - *2020-01-24* — If an activated ability or triggered ability has an effect that depends on your devotion to a color, you count the number of mana symbols of that color among the mana costs of permanents you control as the ability resolves. The permanent with that ability will be counted if it's still on the battlefield at that time.
+  - *2020-01-24* — If an effect causes a God to lose all abilities, its ability that causes it to stop being a creature still applies if appropriate.
+  - *2020-01-24* — If an effect exiles a creature with a coin counter on it and immediately returns it to the battlefield, Athreos's last ability triggers but will have no effect. If an effect exiles a creature with a coin counter on it and would return it to the battlefield at a later time, Athreos's last ability will return that card to the battlefield and it won't be returned later.
+  - *2020-01-24* — If you put an Aura on an opponent's permanent, you still control the Aura, and mana symbols in its mana cost count towards your devotion.
+  - *2020-01-24* — In a two-player game, if both players control an Athreos when a creature with a coin counter on it dies, the nonactive player (the one whose turn it isn't) will return the creature under their control. If that happens in a multiplayer game, the nonactive player closest to the right of the player whose turn it is will return the creature under their control.
+  - *2020-01-24* — Mana symbols in the text boxes of permanents you control don't count toward your devotion to any color.
+  - *2020-01-24* — The abilities of Gods function as long as they're on the battlefield, regardless of whether they're creatures.
+  - *2020-01-24* — The creature returns to the battlefield without a coin counter on it.
+  - *2020-01-24* — The type-changing ability that can make a God not be a creature functions only on the battlefield. It's always a creature card in other zones, regardless of your devotion to its color. It's always a creature spell while it's on the stack.
+  - *2020-01-24* — When a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not for abilities that trigger whenever a creature enters the battlefield.
+  - *2020-01-24* — Your devotion to two colors is the number of mana symbols among mana costs of permanents you control that are the first color, the second, or both. If an effect counts your devotion to two colors, a hybrid symbol that is both of those colors is counted just once.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/212/athreos-shroud-veiled) · oracle_id `9aacc1ce-8d0d-4a24-9a15-74635f2f127d` · printing: DSC #212 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Atinlay Igpay
 
@@ -249,7 +304,17 @@
   > During your turn, outlaws you control have first strike. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.)
   > Whenever you commit a crime, create a 1/1 red Mercenary creature token with "{T}: Target creature you control gets +1/+0 until end of turn. Activate only as a sorcery." This ability triggers only once each turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7514 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/193/at-knifepoint) · oracle_id `bddb2064-afdb-4184-ae4a-633745e64a3c` · printing: OTJ #193 (2024-04-19) · [rulings](https://api.scryfall.com/cards/897d594d-b5b0-43dc-b877-b483942416ce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2024-04-12* — A card, spell, or permanent is an outlaw if it has the Assassin, Mercenary, Pirate, Rogue, or Warlock creature type. It doesn’t matter if it has more than one of those creature types; as long as it has at least one, it’s an outlaw.
+  - *2024-04-12* — A player can commit only one crime per spell or ability they control. Targeting multiple opponents, permanents, spells, abilities, and/or cards with the same spell or ability doesn’t constitute committing multiple crimes.
+  - *2024-04-12* — A player commits a crime as they cast a spell, activate an ability, or put a triggered ability on the stack that targets at least one opponent, at least one permanent, spell, or ability an opponent controls, and/or at least one card in an opponent’s graveyard.
+  - *2024-04-12* — Changing the target or targets of a spell or ability won’t affect whether or not the controller of that spell or ability has committed a crime. Only the initial targets chosen for that spell or ability are used to determine whether or not its controller committed a crime.
+  - *2024-04-12* — Creatures that deal first strike combat damage but lose first strike before regular combat damage is dealt won’t deal combat damage again unless they have double strike. This means you can’t have At Knifepoint leave the battlefield to have your outlaws deal combat damage twice in a turn.
+  - *2024-04-12* — For example, an ability that triggers when you cast a spell that targets an opponent will trigger at the same time as an ability that triggers whenever you commit a crime. Those abilities can be put on the stack in either order (if you control them both), and they’ll both resolve before the spell that caused them to trigger.
+  - *2024-04-12* — If an ability refers to an outlaw or whether a player controls an outlaw, it’s referring only to permanents with one or more of the creature types specified above. Notably, it’s not referring to any spell or card not on the battlefield. However, other abilities may refer to an “outlaw spell” or “outlaw card” in a zone other than the battlefield. Those abilities refer to spells and cards with one or more of the specified creature types.
+  - *2024-04-12* — Outlaw is not a creature type. If an effect asks you to choose a creature type, you can’t choose outlaw.
+  - *2024-04-12* — The spell or ability that constituted a crime doesn’t have to have resolved yet or at all. As soon as you’re finished casting the spell, activating the ability, or putting the triggered ability on the stack, you’ve committed a crime.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/193/at-knifepoint) · oracle_id `bddb2064-afdb-4184-ae4a-633745e64a3c` · printing: OTJ #193 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Atlantean Cavalry
 
@@ -301,7 +366,10 @@
   > {2}, {T}: Create a 0/1 green Egg creature token with defender.
   > Whenever an Egg you control dies, reveal cards from the top of your library until you reveal a creature card. Put that card onto the battlefield and the rest on the bottom of your library in a random order.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4572 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/142/atla-palani-nest-tender) · oracle_id `b56cebe0-3752-4ce5-afbd-911543784015` · printing: DMC #142 (2022-09-09) · [rulings](https://api.scryfall.com/cards/2b8414f7-22c3-4e1c-934b-4a0e7acf951d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-08-23* — If Atla Palani dies at the same time as one or more Eggs you control, its last ability triggers for each of those Eggs.
+  - *2019-08-23* — If there are no creature cards in your library as Atla Palani's last ability resolves, you reveal your library then put it back in a random order.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/142/atla-palani-nest-tender) · oracle_id `b56cebe0-3752-4ce5-afbd-911543784015` · printing: DMC #142 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Atlas, Sizable Stooge
 
@@ -398,7 +466,13 @@
   > *Plasma rifles—separating soft tissues from hard ones since 2077.*
 - **Keywords:** Proliferate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2108 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/94/atomize) · oracle_id `4b457bc2-2d8c-42cb-9a63-bb4c459d14e3` · printing: PIP #94 (2024-03-08) · [rulings](https://api.scryfall.com/cards/592cbafc-ab4e-461f-b64f-0bf9d83aaff3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-03-08* — If a player or permanent has more than one kind of counter on it, and you choose for it to get additional counters, it must get one of each kind of counter it already has. You can’t have it get just one kind of counter it already has and not the others.
+  - *2024-03-08* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it’s too late for anyone to respond.
+  - *2024-03-08* — Some spells and abilities that cause you to proliferate may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won’t resolve. You won’t proliferate.
+  - *2024-03-08* — You can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can’t choose cards in any zone other than the battlefield, even if they have counters on them.
+  - *2024-03-08* — You don’t have to choose every permanent or player that has a counter—only the ones you want to add counters to. Since “any number” includes zero, you don’t have to choose any permanents at all, and you don’t have to choose any players at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/94/atomize) · oracle_id `4b457bc2-2d8c-42cb-9a63-bb4c459d14e3` · printing: PIP #94 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Atomwheel Acrobats
 
@@ -433,7 +507,10 @@
   > When Atraxa enters, reveal the top ten cards of your library. For each card type, you may put a card of that type from among the revealed cards into your hand. Put the rest on the bottom of your library in a random order. (Artifact, battle, creature, enchantment, instant, land, planeswalker, and sorcery are card types.)
 - **Keywords:** Deathtouch, Flying, Lifelink, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3570 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/196/atraxa-grand-unifier) · oracle_id `abbcb153-0763-44c6-964f-b4ff0eb64257` · printing: ONE #196 (2023-02-10) · [rulings](https://api.scryfall.com/cards/4a1f905f-1d55-4d02-9d24-e58070793d3f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-02-04* — At the time of this document's publication, it is exceedingly unlikely you will reveal a battle this way. This likelihood will change over time.
+  - *2023-02-04* — If a revealed card has more than one card type, you may choose to put it into your hand for any of its types. For example, an artifact creature card could be put into your hand as the artifact card you choose or as the creature card you choose. If you choose it as the artifact card, you could also put into your hand a creature card, and vice versa.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/196/atraxa-grand-unifier) · oracle_id `abbcb153-0763-44c6-964f-b4ff0eb64257` · printing: ONE #196 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Atraxa, Praetors' Voice
 
@@ -445,7 +522,14 @@
   > At the beginning of your end step, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)
 - **Keywords:** Deathtouch, Flying, Lifelink, Vigilance, Proliferate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2365 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/190/atraxa-praetors-voice) · oracle_id `7e6b9b59-cd68-4e3c-827b-38833c92d6eb` · printing: 2XM #190 (2020-08-07) · [rulings](https://api.scryfall.com/cards/d0d33d52-3d28-4635-b985-51e126289259/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-02-04* — An ability that triggers "Whenever you proliferate" triggers even if you chose no permanents or players while doing so.
+  - *2023-02-04* — If a permanent ever has both +1/+1 counters and -1/-1 counters on it at the same time, they're removed in pairs as a state-based action so that the permanent has only one of those kinds of counters on it.
+  - *2023-02-04* — If a player or permanent has more than one kind of counter on it, and you choose for it to get additional counters, it must get one of each kind of counter it already has. You can't have it get just one kind of counter it already has and not the others.
+  - *2023-02-04* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
+  - *2023-02-04* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
+  - *2023-02-04* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/190/atraxa-praetors-voice) · oracle_id `7e6b9b59-cd68-4e3c-827b-38833c92d6eb` · printing: 2XM #190 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Atraxa's Fall
 
@@ -457,6 +541,7 @@
   > *"Fallen angels should stay fallen."*
   > *—Henzie "Toolbox" Torre*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9485 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/176/atraxas-fall) · oracle_id `22677153-bd87-4ff8-af92-ced4da2aac6c` · printing: MOM #176 (2023-04-21) · [rulings](https://api.scryfall.com/cards/e08ed414-77bf-402a-82a8-9d4e1bd627a1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Atraxa's Skitterfang
@@ -494,6 +579,7 @@
   > Partner—Father & son (You can have two commanders if both have this ability.)
 - **Keywords:** Reach, Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8227 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/2212/atreus-impulsive-son) · oracle_id `f6a4298c-3d9d-43e1-b32c-b168c02ad503` · printing: SLD #2212 (2025-10-27) · [rulings](https://api.scryfall.com/cards/2e53b0b2-dba1-4a95-80c4-622ab1a547a4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Atris, Oracle of Half-Truths
@@ -532,6 +618,7 @@
   > • Create three Treasure tokens.
 - **Keywords:** Flying, Treasure, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1364 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/236/atsushi-the-blazing-sky) · oracle_id `535f405d-94df-4f45-aedc-b331103720b7` · printing: SOC #236 (2026-04-24) · [rulings](https://api.scryfall.com/cards/06658540-0104-428f-91b1-40552826e781/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Attack-in-the-Box
@@ -555,7 +642,16 @@
 - **Flavor text** (UNF printing):
   > *Squawks was quick to establish the social pecking order.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7524 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/66/attempted-murder) · oracle_id `89e90361-822f-42b6-9ed9-d94e6d24fb95` · printing: UNF #66 (2022-10-07) · [rulings](https://api.scryfall.com/cards/840dd63f-55c7-4bf3-b748-b157721054ad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2022-10-07* — Each die is identified by the number of faces it has. A six-sided die is a die with six equally likely outcomes: 1, 2, 3, 4, 5, and 6. The roll must be fair. Although physical dice are recommended, digital substitutes are allowed except in cases where the physical die is required for the effect.
+  - *2022-10-07* — If X is a very large number, you may be required to roll more dice than you physically can in a reasonable time frame. In such cases, we encourage you to use digital resources for simulating die rolls or generating random numbers.
+  - *2022-10-07* — If a die is rerolled, the original roll essentially never happened: it doesn't cause any abilities to trigger, and no effect that cares about die rolls will consider it.
+  - *2022-10-07* — If an ability triggers "whenever you roll a die," it will trigger whenever you roll any die, including the planar die. This is a change from previous Un- rules. Some abilities use the result to determine part of the effect. If you get a non-numerical result (currently just the planar die, but the future is long), that part of the effect won't do anything.
+  - *2022-10-07* — In an Un- game, if X is actually infinite (Urza's Fun House is a pathway to many game states some consider to be unnatural), you can assume that every natural result on a six-sided die is rolled infinite times, leading to infinite -1/-1 counters and infinite Storm Crows. If abilities trigger from you rolling those results, they will each trigger infinite times. Have fun!
+  - *2022-10-07* — Results can be numbers not ordinarily possible on a six-sided die. Spells like Scooch can change the result to 0 or 7, for example.
+  - *2022-10-07* — Some effects may modify the result of a die roll. This may be part of the instruction to roll a die, or it may come from other cards. Anything that references the "result" of a die roll is looking for the result after these modifications.
+  - *2022-10-07* — Something in the game must tell you to roll a die. If you roll a die for any other reason (to simulate a coin flip, to choose pizza toppings, to create alternate timelines), that roll doesn't count.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/66/attempted-murder) · oracle_id `89e90361-822f-42b6-9ed9-d94e6d24fb95` · printing: UNF #66 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Attendant of Vraska
 
@@ -660,6 +756,7 @@
   > *"I will trade life for life with the insurgents. Our resources, unlike theirs, are limitless."*
   > *—Davvol, Evincar of Rath*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4892 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmd/72/attrition) · oracle_id `a85ee0cf-39ce-49f2-874a-f6f54ca1775f` · printing: CMD #72 (2011-06-17) · [rulings](https://api.scryfall.com/cards/f8f29b57-172e-407b-b55e-32fe96198f92/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Attuma, Atlantean Warlord
@@ -710,7 +807,17 @@
 - **Flavor text** (KLD printing):
   > *"I've never seen a world where aether weaves through every aspect of nature."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8641 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/kld/145/attune-with-aether) · oracle_id `b337c241-f2c4-48e3-a303-371b172fcd18` · printing: KLD #145 (2016-09-30) · [rulings](https://api.scryfall.com/cards/32b0707d-241e-4ced-9251-b16af4fef2cb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2024-06-07* — Energy counters are a kind of counter that a player may have. They're not associated with any specific permanents.
+  - *2024-06-07* — Energy counters aren't mana. They don't go away as steps, phases, and turns end, and effects that add mana "of any type" can't give you energy counters.
+  - *2024-06-07* — If a spell or ability with one or more targets states that you "may pay" some amount of {E}, and each permanent that it targets has become an illegal target, the spell or ability won't resolve. You can't pay any {E} even if you want to.
+  - *2024-06-07* — If an effect says you get one or more {E}, you get that many energy counters. To pay one or more {E}, you lose that many energy counters. You can't pay more energy counters than you have. Any effects that interact with counters a player gets, has, or loses can interact with energy counters.
+  - *2024-06-07* — Keep track of how many energy counters each player has. Potential ways to track this include writing theme down on paper or using dice, but any method that is clear and mutually agreeable is fine. (At higher levels of tournament play, dice may not be allowed for tracking counters that players have.)
+  - *2024-06-07* — Some spells and abilities that give you {E} may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't get any {E}.
+  - *2024-06-07* — Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
+  - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
+  - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/kld/145/attune-with-aether) · oracle_id `b337c241-f2c4-48e3-a303-371b172fcd18` · printing: KLD #145 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Atzocan Archer
 
@@ -737,4 +844,7 @@
 - **Flavor text** (LCC printing):
   > *Streams of gold and bright feathers flash in the orb, visions of past and future.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4873 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/265/atzocan-seer) · oracle_id `affced7f-797d-4e50-8a24-2da14de44e43` · printing: LCC #265 (2023-11-17) · [rulings](https://api.scryfall.com/cards/985448b8-5852-4074-a4bd-1dee5192b104/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-01-19* — Atzocan Seer's second ability doesn't include the {T} symbol. You can activate that ability even if it's already been tapped, perhaps because you activated its first ability.
+  - *2018-01-19* — If an effect refers to a "[subtype] spell" or "[subtype] card," it refers only to a spell or card that has that subtype. For example, March of the Drowned is a card that benefits Pirates and features Pirates in its illustration, but it isn't a Pirate card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/265/atzocan-seer) · oracle_id `affced7f-797d-4e50-8a24-2da14de44e43` · printing: LCC #265 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -23,6 +23,7 @@
 - **Flavor text** (TLA printing):
   > *"I'm okay. Just finish the mission!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6513 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/37/suki-courageous-rescuer) · oracle_id `70ea1a9d-ec52-4c11-8c4d-0d957e5491ad` · printing: TLA #37 (2025-11-21) · [rulings](https://api.scryfall.com/cards/33b97433-e16c-422e-a0ca-f6b1e98d8681/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Suki, Kyoshi Captain
@@ -49,4 +50,8 @@
 - **Flavor text** (TLA printing):
   > *"Hoping for another dance lesson?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7218 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/243/suki-kyoshi-warrior) · oracle_id `9223488e-5206-4d43-90ef-387189dcee16` · printing: TLA #243 (2025-11-21) · [rulings](https://api.scryfall.com/cards/3e311480-04f8-4b8f-938e-1cc6d06b9902/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-10-02* — Although the Ally token created by the triggered ability is attacking, it was never declared as an attacking creature (for the purposes of abilities that trigger whenever a creature attacks, for example).
+  - *2025-10-02* — The ability that defines Suki, Kyoshi Warrior's power works in all zones, not just the battlefield. As long as Suki is on the battlefield (and still a creature), that ability will count Suki herself.
+  - *2025-10-02* — You choose which opponent, planeswalker, or battle the token is attacking as it enters.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/243/suki-kyoshi-warrior) · oracle_id `9223488e-5206-4d43-90ef-387189dcee16` · printing: TLA #243 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

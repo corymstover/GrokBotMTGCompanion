@@ -96,7 +96,15 @@
   > Target creature you control deals damage equal to its power to target creature an opponent controls. If this spell was kicked, the creature you control deals twice that much damage instead.
 - **Keywords:** Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6260 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/178/chocobo-kick) · oracle_id `aa00c18b-8719-4095-940a-8e35a57b46c2` · printing: FIN #178 (2025-06-13) · [rulings](https://api.scryfall.com/cards/ff8c8be0-8223-499c-8704-cb68e0a42ce2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2025-06-06* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2025-06-06* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2025-06-06* — If either target is illegal as Chocobo Kick resolves, no damage will be dealt. If both targets are illegal, the spell won't resolve at all.
+  - *2025-06-06* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2025-06-06* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2025-06-06* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2025-06-06* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/178/chocobo-kick) · oracle_id `aa00c18b-8719-4095-940a-8e35a57b46c2` · printing: FIN #178 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chocobo Knights
 
@@ -108,6 +116,7 @@
 - **Flavor text** (FIC printing):
   > *Only a select few can become Chocobo Knights. You have to be a skilled rider or achieve some combat merit to become one.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4205 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/12/chocobo-knights) · oracle_id `6cbefcba-0c1c-48fd-9b78-905ed61aae1e` · printing: FIC #12 (2025-06-13) · [rulings](https://api.scryfall.com/cards/e874e435-7ade-4299-9803-1358c0f07a8f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chocobo Racetrack
@@ -121,7 +130,11 @@
   > *—Racing expert*
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3267 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/179/chocobo-racetrack) · oracle_id `7522f7fd-6fda-4ed3-9131-21bf91616a73` · printing: FIN #179 (2025-06-13) · [rulings](https://api.scryfall.com/cards/1565813b-6912-42f4-bae0-22136a2d6a92/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-07-25* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2025-07-25* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2025-07-25* — Whenever a land you control enters, each landfall ability of permanents you control will trigger. You can put them on the stack in any order. The last ability you put on the stack will be the first one to resolve. As a result, you can have those abilities resolve in the order of your choosing.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/179/chocobo-racetrack) · oracle_id `7522f7fd-6fda-4ed3-9131-21bf91616a73` · printing: FIN #179 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Choco-Comet
 
@@ -145,7 +158,11 @@
   > Landfall — Whenever a land you control enters, Choco gets +1/+0 until end of turn.
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6170 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/215/choco-seeker-of-paradise) · oracle_id `7979bf83-5091-4e62-8885-ca1833a97306` · printing: FIN #215 (2025-06-13) · [rulings](https://api.scryfall.com/cards/409c305a-52dc-4538-8e72-efcd568eaf49/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-07-25* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2025-07-25* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2025-07-25* — Whenever a land you control enters, each landfall ability of permanents you control will trigger. You can put them on the stack in any order. The last ability you put on the stack will be the first one to resolve. As a result, you can have those abilities resolve in the order of your choosing.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/215/choco-seeker-of-paradise) · oracle_id `7979bf83-5091-4e62-8885-ca1833a97306` · printing: FIN #215 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Choice of Damnations
 
@@ -300,7 +317,12 @@
   > *The knight was irritated when her rations went missing and truly baffled when her weapons started disappearing too.*
 - **Keywords:** Changeling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2441 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/172/chomping-changeling) · oracle_id `d740dbd9-8e90-4121-8d53-c6ddf5178d58` · printing: ECL #172 (2026-01-23) · [rulings](https://api.scryfall.com/cards/e187dcc6-19ad-4cf6-94b4-daf07f5144e5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-11-17* — Changeling is a characteristic-defining ability. It functions in all zones, not only while a card that has it is on the battlefield.
+  - *2025-11-17* — If an effect causes a creature with changeling to become a new creature type, it will be only that new creature type (unless the effect says "in addition" or similar). It will still have changeling; the effect making it all creature types will simply be overwritten.
+  - *2025-11-17* — If an effect causes a creature with changeling to lose all abilities, it will remain all creature types, even though it will no longer have changeling. This is because changeling applies before the effect that removes it.
+  - *2025-11-17* — The subtype Shapeshifter that appears on the type line is mostly there to reinforce the flavor. A creature card with changeling is just as much a Kithkin, a Goblin, a Merfolk, and a Brushwagg as it is a Shapeshifter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/172/chomping-changeling) · oracle_id `d740dbd9-8e90-4121-8d53-c6ddf5178d58` · printing: ECL #172 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chomping Kavu
 

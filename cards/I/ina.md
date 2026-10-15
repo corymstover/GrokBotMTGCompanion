@@ -38,7 +38,19 @@
   > Tap five untapped Wizards you control: Target player loses 7 life.
 - **Keywords:** Eminence
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8523 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/c17/38/inalla-archmage-ritualist) · oracle_id `21bdba6e-3f9d-4ead-8212-0cbb0ce7f8cc` · printing: C17 #38 (2017-08-25) · [rulings](https://api.scryfall.com/cards/7c6e803a-451c-4aa6-97a2-400077f32c47/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2017-08-25* — Any enters-the-battlefield abilities of the copied creature will trigger when the token enters the battlefield. Any "As [this creature] enters the battlefield" or "[This creature] enters the battlefield with" abilities of the copied creature will also work.
+  - *2017-08-25* — If Inalla enters the battlefield at the same time as other Wizards you control, its ability will trigger for each of those other Wizards.
+  - *2017-08-25* — If a copied creature is legendary, any triggered abilities it has will trigger if appropriate before the "legend rule" causes one of those legendary creatures to be put into its owner's graveyard. Those abilities will be put on the stack after the "legend rule" is applied.
+  - *2017-08-25* — If the copied creature had {X} in its mana cost, X is 0.
+  - *2017-08-25* — If the copied creature was copying something else, the token enters the battlefield as whatever that permanent was copying.
+  - *2017-08-25* — If the creature that caused Inalla's ability to trigger has already left the battlefield by the time the ability resolves, you can still pay {1}. If you do, you'll create a token with the copiable values of the characteristics of that creature as it last existed on the battlefield.
+  - *2017-08-25* — Notably, if your commander is on the battlefield and its eminence ability triggers, but it's put into the command zone before that ability resolves, that ability won't do anything as it resolves. This is because an object that changes zones is considered a new object.
+  - *2017-08-25* — The token copies exactly what was printed on the creature and nothing else (unless that creature was copying something else; see below). It doesn't copy whether that creature was tapped or untapped, whether it had any counters on it or Auras and/or Equipment attached to it, or any non-copy effects that changed its power, toughness, types, color, and so on.
+  - *2017-08-25* — This commander's eminence ability is a triggered ability. The commander must be on the battlefield or in the command zone as the trigger event occurs and also as the triggered ability resolves. If the commander is in an appropriate zone as the trigger event occurs but leaves that zone, the ability won't do anything as it resolves.
+  - *2017-08-25* — To activate Inalla's last ability, you may tap any untapped Wizards you control, including ones you haven't controlled continuously since the beginning of your most recent turn, such as Inalla itself. (Note that tapping the creature doesn't use {T} [the tap symbol].)
+  - *2017-08-25* — You can pay {1} only once each time Inalla's first ability resolves. You can't pay more to get more than one token.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c17/38/inalla-archmage-ritualist) · oracle_id `21bdba6e-3f9d-4ead-8212-0cbb0ce7f8cc` · printing: C17 #38 (2017-08-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Iname as One
 

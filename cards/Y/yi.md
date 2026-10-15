@@ -25,7 +25,13 @@
   > When you cycle this card, shuffle it into your library from your graveyard. If you've cycled a card named Yidaro, Wandering Monster four or more times this game, put it onto the battlefield from your graveyard instead. (Do this before you draw.)
 - **Keywords:** Haste, Trample, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8028 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/iko/141/yidaro-wandering-monster) · oracle_id `6c0e22f2-f0f3-43e6-87c5-c543032112d8` · printing: IKO #141 (2020-04-24) · [rulings](https://api.scryfall.com/cards/b540c7c6-5b9e-4606-ac84-e583a62a3647/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2020-04-17* — If you cycle Yidaro but it isn't in your graveyard as the triggered ability resolves, you can't put it onto the battlefield or shuffle it into your library. You'll still shuffle your library if you haven't cycled Yidaro four times this game.
+  - *2020-04-17* — Some cards with cycling have an ability that triggers when you cycle them, and some cards have an ability that triggers whenever you cycle any card. These triggered abilities resolve before you draw from the cycling ability.
+  - *2020-04-17* — Triggered abilities from cycling a card and the cycling ability itself aren't spells. Effects that interact with spells (such as that of Cancel) won't affect them.
+  - *2020-04-17* — You can cycle a card even if it has a triggered ability from cycling that won't have a legal target. This is because the cycling ability and the triggered ability are separate. This also means that if either ability is countered (with Disallow, for example), the other ability will still resolve.
+  - *2020-04-17* — You don't have to cycle the same physical card four times for Yidaro to get tired of being cycled and stomp onto the battlefield. Any cards named Yidaro, Wandering Monster will count.
+- **Source flags:** [Scryfall](https://scryfall.com/card/iko/141/yidaro-wandering-monster) · oracle_id `6c0e22f2-f0f3-43e6-87c5-c543032112d8` · printing: IKO #141 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yidris, Maelstrom Wielder
 
@@ -37,7 +43,19 @@
   > Whenever Yidris deals combat damage to a player, as you cast spells from your hand this turn, they gain cascade. (When you cast the spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.)
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9179 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/c16/50/yidris-maelstrom-wielder) · oracle_id `9efe8aff-9a7d-4397-b5fd-c1a0fad7c15f` · printing: C16 #50 (2016-11-11) · [rulings](https://api.scryfall.com/cards/c219dd22-433c-4f6a-a0c4-fae12239291c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2016-11-08* — If Yidris's triggered ability resolves more than once in one turn, spells you cast from your hand will gain cascade that many times. Each instance of cascade triggers separately; resolve one cascade trigger and the spell you cast from it before resolving the next cascade trigger.
+  - *2016-11-08* — Spells you cast from your hand this turn will gain cascade even if Yidris leaves the battlefield.
+  - *2021-06-18* — A spell's mana value is determined only by its mana cost. Ignore any alternative costs, additional costs, cost increases, or cost reductions.
+  - *2021-06-18* — Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade.
+  - *2021-06-18* — Due to a 2021 rules change to cascade, not only do you stop exiling cards if you exile a nonland card with lesser mana value than the spell with cascade, but the resulting spell you cast must also have lesser mana value. Previously, in cases where a card's mana value differed from the resulting spell, such as with some modal double-faced cards or cards with an Adventure, you could cast a spell with a higher mana value than the exiled card.
+  - *2021-06-18* — If a spell with cascade is countered, the cascade ability will still resolve normally.
+  - *2021-06-18* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2021-06-18* — If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those to cast the card.
+  - *2021-06-18* — The mana value of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves.
+  - *2021-06-18* — When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled.
+  - *2021-06-18* — You exile the cards face up. All players will be able to see them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c16/50/yidris-maelstrom-wielder) · oracle_id `9efe8aff-9a7d-4397-b5fd-c1a0fad7c15f` · printing: C16 #50 (2016-11-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yip Yip!
 
@@ -59,7 +77,9 @@
 - **Oracle text:**
   > {2}{G}, {T}, Put a verse counter on Yisan: Search your library for a creature card with mana value equal to the number of verse counters on Yisan, put it onto the battlefield, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8148 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/334/yisan-the-wanderer-bard) · oracle_id `7f4b0233-a2b0-41a2-8448-2df1f845148c` · printing: CMM #334 (2023-08-04) · [rulings](https://api.scryfall.com/cards/94e3a130-deeb-4bf4-a1f6-9219c3d8c373/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2014-07-18* — If Yisan isn't on the battlefield when its ability resolves, use the number of verse counters on it when it left the battlefield to determine which creature cards may be put onto the battlefield. This number will include the counter you put on Yisan to activate the ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/334/yisan-the-wanderer-bard) · oracle_id `7f4b0233-a2b0-41a2-8448-2df1f845148c` · printing: CMM #334 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yixlid Jailer
 

@@ -23,4 +23,16 @@
   > • Proliferate.
 - **Keywords:** Proliferate, Fabricate, Populate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4393 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/m3c/6/cayth-famed-mechanist) · oracle_id `d18a014e-16a0-4641-9546-ff3729437eed` · printing: M3C #6 (2024-06-14) · [rulings](https://api.scryfall.com/cards/5f8e6e5d-63d8-48c3-93a0-e7de1d75f5ca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2024-06-07* — Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the new token will work.
+  - *2024-06-07* — Fabricate doesn't cause the creature with the ability to enter the battlefield with +1/+1 counters already on it. For example, Cayth, Famed Machinist will enter the battlefield as a 3/3 creature, then its fabricate ability goes on the stack. Players may take actions (such as casting instants) while the ability is waiting to resolve.
+  - *2024-06-07* — If a player or permanent has more than one kind of counter on it, and you choose for it to get additional counters, it must get one of each kind of counter it already has. You can't have it get just one kind of counter it already has and not the others.
+  - *2024-06-07* — If you can't put a +1/+1 counter on the creature for any reason as fabricate resolves (for instance, if it's no longer on the battlefield), you just create a Servo token.
+  - *2024-06-07* — If you control no creature tokens when you populate, nothing will happen.
+  - *2024-06-07* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
+  - *2024-06-07* — The new creature token copies the characteristics of the original token as stated by the effect that created the original token.
+  - *2024-06-07* — The new token doesn't copy whether the original token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, color, and so on.
+  - *2024-06-07* — When you proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
+  - *2024-06-07* — You choose whether to put a +1/+1 counter on the creature or create a Servo token as the fabricate ability is resolving. No player may take actions between the time you choose and the time that the counter is added or the token is created.
+  - *2024-06-07* — You don't have to choose every permanent or player that has a counter—only the ones you want to add counters to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m3c/6/cayth-famed-mechanist) · oracle_id `d18a014e-16a0-4641-9546-ff3729437eed` · printing: M3C #6 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

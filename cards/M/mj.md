@@ -24,6 +24,7 @@
   > {2}{R}, Discard this card: It deals 2 damage to each creature.
 - **Keywords:** Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4132 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/146/mj%C3%B6lnir-hammer-of-thor) · oracle_id `7f9a8845-d760-44a7-a4c9-8a20dba4e14a` · printing: MSH #146 (2026-06-26) · [rulings](https://api.scryfall.com/cards/e0c7f566-5351-44e3-a346-b84b0eb10209/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mjölnir's Might
@@ -48,7 +49,9 @@
   > Equip {4}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3223 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/acr/74/mj%C3%B6lnir-storm-hammer) · oracle_id `f497e9a5-0ad3-4aec-8422-14be8e0dba4c` · printing: ACR #74 (2024-07-05) · [rulings](https://api.scryfall.com/cards/df09fc8c-e008-427b-b007-ceec9a4aa4ab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-07-05* — If the target creature is an illegal target as Mjölnir’s last ability triers to resolve, it won’t resolve and none of its effects will happen. No opponents will be dealt damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/acr/74/mj%C3%B6lnir-storm-hammer) · oracle_id `f497e9a5-0ad3-4aec-8422-14be8e0dba4c` · printing: ACR #74 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### MJ, Rising Star
 

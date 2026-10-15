@@ -82,7 +82,14 @@
   > When this creature leaves the battlefield, put the exiled card into its owner's hand.
 - **Keywords:** Hideaway
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7572 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/76/watcher-for-tomorrow) · oracle_id `277aafa6-4270-4d24-a888-cf9e8e635d4b` · printing: MH1 #76 (2019-06-14) · [rulings](https://api.scryfall.com/cards/15f01a3c-0a66-48da-a7d2-46260e3b721f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2019-06-14* — If Watcher for Tomorrow leaves the battlefield before its triggered ability from hideaway resolves, its leaves-the-battlefield ability resolves and does nothing. Then its enters-the-battlefield ability resolves and you exile a card with no way to return it to your hand.
+  - *2019-06-14* — You don't reveal the exiled card when you put it into its owner's hand.
+  - *2022-04-29* — "Hideaway N" means "When this permanent enters the battlefield, look at the top N cards of your library. Exile one of them face down and put the rest on the bottom of your library in a random order. The exiled card gains 'The player who controls the permanent that exiled this card may look at this card in the exile zone.'"
+  - *2022-04-29* — Any player who has controlled a permanent with a hideaway ability since a card was exiled with it may look at that card.
+  - *2022-04-29* — Hideaway now causes you to put the rest of the cards on the bottom of your library in a random order instead of any order.
+  - *2022-04-29* — Previously, permanents with hideaway entered the battlefield tapped. This ability has been removed from the definition of hideaway. Older cards have received errata to have an additional paragraph that reads "[This permanent] enters the battlefield tapped," and they now have hideaway 4.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/76/watcher-for-tomorrow) · oracle_id `277aafa6-4270-4d24-a888-cf9e8e635d4b` · printing: MH1 #76 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Watcher in the Mist
 
@@ -147,7 +154,11 @@
   > Whenever another creature you control with flying enters, this creature gets +1/+1 until end of turn.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4276 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m21/227/watcher-of-the-spheres) · oracle_id `d43463d2-4395-4616-acc3-c4f80ebe3242` · printing: M21 #227 (2020-07-03) · [rulings](https://api.scryfall.com/cards/354b9ea4-3d55-48cc-b426-c46b1d1bb397/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-06-23* — A creature spell that doesn't have flying won't cost less even if an effect will cause the creature to have flying once on the battlefield. This is also true if the creature spell itself has an ability that gives it flying once on the battlefield under certain conditions, even if those conditions are true.
+  - *2020-06-23* — The cost reduction applies only to generic mana in the cost of creature spells with flying you cast. For example, if you cast a second Watcher of the Spheres, its cost won't be reduced below {W}{U}.
+  - *2020-06-23* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions (such as that of Watcher of the Spheres). The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m21/227/watcher-of-the-spheres) · oracle_id `d43463d2-4395-4616-acc3-c4f80ebe3242` · printing: M21 #227 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Watcher of the Wayside
 
@@ -253,7 +264,27 @@
   > *Don't mistake timidness for defenselessness.*
 - **Keywords:** Evolve
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6399 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/87/watchful-radstag) · oracle_id `572afa0f-9e82-4899-b622-a7554625b9f4` · printing: PIP #87 (2024-03-08) · [rulings](https://api.scryfall.com/cards/be4151d4-4d35-48d2-9e72-c87014f79137/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (19):
+  - *2024-03-08* — Any effects (such as proliferate) that interact with counters a player gets, has, or loses can interact with rad counters.
+  - *2024-03-08* — If Watchful Radstag leaves the battlefield before its last ability resolves, the token will still enter the battlefield as a copy of Watchful Radstag, using Watchful Radstag’s copiable values from when it was last on the battlefield.
+  - *2024-03-08* — If a creature enters the battlefield with +1/+1 counters on it, consider those counters when determining if evolve will trigger. For example, a 1/1 creature that enters the battlefield with two +1/+1 counters on it will cause the evolve ability of a 2/2 creature to trigger.
+  - *2024-03-08* — If a player has fewer cards remaining in their library than the number of rad counters they have when the triggered ability resolves, they’ll mill as many cards as they can.
+  - *2024-03-08* — If evolve triggers, the stat comparison will happen again when the ability tries to resolve. If neither stat of the new creature is greater, the ability will do nothing. If the creature that entered the battlefield leaves the battlefield before evolve tries to resolve, use its last known power and toughness to compare the stats.
+  - *2024-03-08* — If multiple creatures enter the battlefield at the same time, evolve may trigger multiple times, although the stat comparison will take place each time one of those abilities tries to resolve. For example, if you control a 2/2 creature with evolve and two 3/3 creatures enter the battlefield, evolve will trigger twice. The first ability will resolve and put a +1/+1 counter on the creature with evolve. When the second ability tries to resolve, neither the power nor the toughness of the new creature is greater than that of the creature with evolve, so that ability does nothing.
+  - *2024-03-08* — In a game using the shared team turns option, such as an Archenemy or Two-Headed Giant game, the inherent triggered ability associated with rad counters triggers once for each player on the active team that has rad counters. Each instance of that ability is controlled by one of those players.
+  - *2024-03-08* — Keep track of how many rad counters each player has. Potential ways to track this include writing them down on paper or using dice, but any method that is clear and mutually agreeable is fine.
+  - *2024-03-08* — Rad counters are a kind of counter that a player may have. They’re not associated with any specific permanents.
+  - *2024-03-08* — Rad counters don’t go away as steps, phases, or turns end. They only go away when an effect instructs a player to remove rad counters from themselves.
+  - *2024-03-08* — The cards are milled all at once, which means abilities that trigger “whenever one or more nonland cards are milled” will trigger exactly once as long as at least one nonland card was milled.
+  - *2024-03-08* — The token copy will have Watchful Radstag’s abilities. It will also be able to create copies of itself.
+  - *2024-03-08* — The token copy won’t copy counters or damage marked on Watchful Radstag, nor will it copy other effects that have changed Watchful Radstag’s power, toughness, types, color, and so on. Normally, this means the token will simply be a Watchful Radstag, but if any copy effects have affected the original Watchful Radstag, the token will take those into account.
+  - *2024-03-08* — There is an inherent triggered ability associated with having rad counters. This triggered ability has no source and is controlled by the active player. The full text of this ability is “At the beginning of the precombat main phase of a player with rad counters, that player mills cards equal to the number of rad counters they have. For each nonland card milled this way, that player loses 1 life and removes one rad counter from themselves.”
+  - *2024-03-08* — Watchful Radstag “evolves” when its evolve ability resolves and a +1/+1 counter is put on it. If a replacement effect causes the evolve ability to put more than one +1/+1 counter on Watchful Radstag, its last ability triggers only once. If no +1/+1 counter is put on it (perhaps because it left the battlefield while its evolve ability was still on the stack), then its last ability doesn’t trigger.
+  - *2024-03-08* — Watchful Radstag’s last ability won’t trigger if a +1/+1 counter is put on it for any reason other than its evolve ability resolving.
+  - *2024-03-08* — When comparing the stats as the evolve ability resolves, it’s possible that the stat that’s greater changes from power to toughness or vice versa. If this happens, the ability will still resolve and you’ll put a +1/+1 counter on the creature with evolve. For example, if you control a 2/2 creature with evolve and a 1/3 creature enters the battlefield under your control, its toughness is greater, so evolve will trigger. In response, the 1/3 creature gets +2/-2. When the evolve trigger tries to resolve, its power is greater. You’ll put a +1/+1 counter on the creature with evolve.
+  - *2024-03-08* — When comparing the stats of the two creatures for evolve, you always compare power to power and toughness to toughness.
+  - *2024-03-08* — Whenever a creature enters the battlefield under your control, check its power and toughness against the power and toughness of the creature with evolve. If neither stat of the new creature is greater, evolve won’t trigger at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/87/watchful-radstag) · oracle_id `572afa0f-9e82-4899-b622-a7554625b9f4` · printing: PIP #87 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Watchwing Scarecrow
 
@@ -289,7 +320,13 @@
   > Waterbend {4}: Target creature can't be blocked this turn. (While paying a waterbend cost, you can tap your artifacts and creatures to help. Each one pays for {1}.)
 - **Keywords:** Waterbend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3722 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/79/waterbender-ascension) · oracle_id `aeddfdc2-149b-4703-ba57-8d844b25ef08` · printing: TLA #79 (2025-11-21) · [rulings](https://api.scryfall.com/cards/3f57e0f9-e232-489c-b991-d0d23f75d8dd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-10-02* — "Waterbend [cost]" means "Pay [cost]. For each generic mana in that cost, you may tap an untapped artifact or creature you control rather than pay that mana."
+  - *2025-10-02* — Even if the cost of the spell or ability that waterbend is part of increases or decreases, you still may only tap artifacts or creatures to pay for costs up to the amount of the generic mana in the waterbend cost.
+  - *2025-10-02* — If a waterbend cost is part of the total cost to cast a spell or activate an ability, you may tap an untapped artifact or creature you control rather than pay one generic mana in that total cost any number of times up to a maximum of the amount of generic mana in the waterbend component of that total cost.
+  - *2025-10-02* — If an artifact or creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell or activating an ability with waterbend will result in the artifact or creature being tapped before you pay the spell's costs. You won't be able to tap it again for waterbend. Similarly, if you sacrifice an artifact or creature to activate a mana ability to pay a cost with waterbend, that artifact or creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for waterbend.
+  - *2025-10-02* — You can tap any untapped creature or artifact you control to pay a waterbend cost, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/79/waterbender-ascension) · oracle_id `aeddfdc2-149b-4703-ba57-8d844b25ef08` · printing: TLA #79 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Waterbender's Restoration
 
@@ -300,7 +337,13 @@
   > Exile X target creatures you control. Return those cards to the battlefield under their owner's control at the beginning of the next end step.
 - **Keywords:** Waterbend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6078 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tle/99/waterbenders-restoration) · oracle_id `285046f6-b3c4-4eb7-8712-9dffebabc762` · printing: TLE #99 (2025-11-21) · [rulings](https://api.scryfall.com/cards/fe68e08e-8d84-4f87-b2e9-b552788d78e7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-10-02* — "Waterbend [cost]" means "Pay [cost]. For each generic mana in that cost, you may tap an untapped artifact or creature you control rather than pay that mana."
+  - *2025-10-02* — Even if the cost of the spell or ability that waterbend is part of increases or decreases, you still may only tap artifacts or creatures to pay for costs up to the amount of the generic mana in the waterbend cost.
+  - *2025-10-02* — If a waterbend cost is part of the total cost to cast a spell or activate an ability, you may tap an untapped artifact or creature you control rather than pay one generic mana in that total cost any number of times up to a maximum of the amount of generic mana in the waterbend component of that total cost.
+  - *2025-10-02* — If an artifact or creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell or activating an ability with waterbend will result in the artifact or creature being tapped before you pay the spell's costs. You won't be able to tap it again for waterbend. Similarly, if you sacrifice an artifact or creature to activate a mana ability to pay a cost with waterbend, that artifact or creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for waterbend.
+  - *2025-10-02* — You can tap any untapped creature or artifact you control to pay a waterbend cost, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tle/99/waterbenders-restoration) · oracle_id `285046f6-b3c4-4eb7-8712-9dffebabc762` · printing: TLE #99 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Waterbending Lesson
 
@@ -313,7 +356,13 @@
   > *—Katara*
 - **Keywords:** Waterbend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4417 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/80/waterbending-lesson) · oracle_id `3d28886c-46bf-4d2e-a257-cb9016cc3573` · printing: TLA #80 (2025-11-21) · [rulings](https://api.scryfall.com/cards/4f81e3b5-a0a9-4764-8c2d-b499ce1740b4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-10-02* — "Waterbend [cost]" means "Pay [cost]. For each generic mana in that cost, you may tap an untapped artifact or creature you control rather than pay that mana."
+  - *2025-10-02* — Even if the cost of the spell or ability that waterbend is part of increases or decreases, you still may only tap artifacts or creatures to pay for costs up to the amount of the generic mana in the waterbend cost.
+  - *2025-10-02* — If a waterbend cost is part of the total cost to cast a spell or activate an ability, you may tap an untapped artifact or creature you control rather than pay one generic mana in that total cost any number of times up to a maximum of the amount of generic mana in the waterbend component of that total cost.
+  - *2025-10-02* — If an artifact or creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell or activating an ability with waterbend will result in the artifact or creature being tapped before you pay the spell's costs. You won't be able to tap it again for waterbend. Similarly, if you sacrifice an artifact or creature to activate a mana ability to pay a cost with waterbend, that artifact or creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for waterbend.
+  - *2025-10-02* — You can tap any untapped creature or artifact you control to pay a waterbend cost, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/80/waterbending-lesson) · oracle_id `3d28886c-46bf-4d2e-a257-cb9016cc3573` · printing: TLA #80 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Waterbending Scroll
 
@@ -324,6 +373,7 @@
 - **Flavor text** (TLA printing):
   > *The scroll taught Katara many useful skills. So did fighting the angry pirates she stole it from.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7447 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/81/waterbending-scroll) · oracle_id `882d032b-db36-401a-8075-a9fabc90c53d` · printing: TLA #81 (2025-11-21) · [rulings](https://api.scryfall.com/cards/50d0be73-a2c8-44a0-9178-9949f342f6f9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Watercourser
@@ -388,6 +438,7 @@
 - **Flavor text** (SNC printing):
   > *The bottom of the dark canals is littered with countless corpses and treasures.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7171 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/259/waterfront-district) · oracle_id `18b0b583-d17b-4c67-bc67-c4d9aad155c7` · printing: SNC #259 (2022-04-29) · [rulings](https://api.scryfall.com/cards/debf7aac-4d31-49b4-955b-79036258df69/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Water Gun Balloon Game
@@ -435,6 +486,7 @@
 - **Flavor text** (MH1 printing):
   > *The trees pull water from deep underground, filling the forest for miles.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1167 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh1/249/waterlogged-grove) · oracle_id `70fa2eba-565e-4fed-adc9-7f5d9fcbf1fa` · printing: MH1 #249 (2019-06-14) · [rulings](https://api.scryfall.com/cards/0ab6bfbd-d2e1-4c4c-9f91-6f69c5b8e3bb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Waterlogged Hulk // Watertight Gondola
@@ -465,7 +517,14 @@
   - *Flavor text (MH3 printing):*
   > *Moldering tomes line rotting shelves. Generations of priceless knowledge fade from memory beneath the waves.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1401 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/261/waterlogged-teachings-inundated-archive) · oracle_id `e6ad1be9-f13d-4590-b3db-e2d0fff46f03` · printing: MH3 #261 (2024-06-14) · [rulings](https://api.scryfall.com/cards/060f9675-4921-4cbb-bae2-54c85c679fd4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-06-07* — A modal double-faced card can't be transformed or be put onto the battlefield transformed. Ignore any instruction to transform a modal double-faced card or to put one onto the battlefield transformed.
+  - *2024-06-07* — If an effect allows you to play a land or cast a spell from among a group of cards, you may play or cast a modal double-faced card with any face that fits the criteria of that effect. For example, if an effect allows you to play lands from your graveyard, you can play Garden of Freyalise, but you can't cast Disciple of Freyalise.
+  - *2024-06-07* — If an effect allows you to play a specific modal double-faced card, you may cast it as a spell or play it as a land, as determined by which face you choose to play. If an effect allows you to cast (rather than "play") a specific modal double-faced card, you can't play it as a land.
+  - *2024-06-07* — If an effect allows you to put a card with particular characteristics onto the battlefield without instructing you to play or cast it, you consider only the characteristics of a modal double-faced card's front face to see if that card qualifies. If it does, it enters the battlefield with its front face up. For example, if an effect allows you to put a creature card from your graveyard onto the battlefield, you can put Disciple of Freyalise onto the battlefield. However, an effect that lets you return a land card from your graveyard to your hand won't let you return Garden of Freyalise to your hand, as that card has only its front face's characteristics while in the graveyard.
+  - *2024-06-07* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack or the battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
+  - *2024-06-07* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics. For example, if an effect stops you from casting creature spells, you can't cast Disciple of Freyalise, but you can still play Garden of Freyalise.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/261/waterlogged-teachings-inundated-archive) · oracle_id `e6ad1be9-f13d-4590-b3db-e2d0fff46f03` · printing: MH3 #261 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Watermarket
 
@@ -661,7 +720,13 @@
   > Waterbend {5}: Enchanted creature's owner shuffles it into their library. (While paying a waterbend cost, you can tap your artifacts and creatures to help. Each one pays for {1}.)
 - **Keywords:** Enchant, Waterbend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9477 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/82/watery-grasp) · oracle_id `520b2799-66bd-40bf-9bc0-9cd3aed321f5` · printing: TLA #82 (2025-11-21) · [rulings](https://api.scryfall.com/cards/26bcff57-428e-4f30-a153-a778fbfc437d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-10-02* — "Waterbend [cost]" means "Pay [cost]. For each generic mana in that cost, you may tap an untapped artifact or creature you control rather than pay that mana."
+  - *2025-10-02* — Even if the cost of the spell or ability that waterbend is part of increases or decreases, you still may only tap artifacts or creatures to pay for costs up to the amount of the generic mana in the waterbend cost.
+  - *2025-10-02* — If a waterbend cost is part of the total cost to cast a spell or activate an ability, you may tap an untapped artifact or creature you control rather than pay one generic mana in that total cost any number of times up to a maximum of the amount of generic mana in the waterbend component of that total cost.
+  - *2025-10-02* — If an artifact or creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell or activating an ability with waterbend will result in the artifact or creature being tapped before you pay the spell's costs. You won't be able to tap it again for waterbend. Similarly, if you sacrifice an artifact or creature to activate a mana ability to pay a cost with waterbend, that artifact or creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for waterbend.
+  - *2025-10-02* — You can tap any untapped creature or artifact you control to pay a waterbend cost, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/82/watery-grasp) · oracle_id `520b2799-66bd-40bf-9bc0-9cd3aed321f5` · printing: TLA #82 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Watery Grave
 

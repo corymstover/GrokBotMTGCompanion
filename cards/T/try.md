@@ -27,6 +27,7 @@
   > *Held aloft by metabolized magic, trygons are ravenous for sources of mystic fuel.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3563 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/667/trygon-predator) · oracle_id `c744b5f4-fbcf-48b8-9d60-5e9c6ac297e0` · printing: FDN #667 (2024-11-15) · [rulings](https://api.scryfall.com/cards/cdb88a22-8086-4bf7-89e8-cce929440dd8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trygon Prime
@@ -95,4 +96,14 @@
   > • Destroy target creature or enchantment.
   > • Creatures target player controls get +3/+3 until end of turn. Untap them.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7467 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/247/trystans-command) · oracle_id `ecc4e230-a546-4cb4-987c-87300060bbe2` · printing: ECL #247 (2026-01-23) · [rulings](https://api.scryfall.com/cards/ba1d99ca-740a-481a-be89-615e40d56d06/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2025-11-17* — Any enters abilities of the copied permanent will trigger when the token enters. Any "as [this permanent] enters" or "[this permanent] enters with" abilities of the copied permanent will also work.
+  - *2025-11-17* — If all of Trystan's Command's targets are illegal as it tries to resolve, it will do nothing. If at least one target is still legal, it will resolve and do as much as it can.
+  - *2025-11-17* — If the copied permanent has {X} in its mana cost, X is 0.
+  - *2025-11-17* — If the copied permanent is a token, the token that's created copies the original characteristics of that token as stated by the effect that created that token.
+  - *2025-11-17* — If the copied permanent is copying something else, then the token enters as whatever that permanent copied.
+  - *2025-11-17* — Kindred is a card type that allows noncreature cards to have creature types. For example, Morcant's Eyes is an Elf (although not a creature) while on the battlefield and an Elf card (although not a creature card) in zones other than the battlefield.
+  - *2025-11-17* — Some older cards were originally printed with the "tribal" card type. That card type has been replaced with "kindred." This change does not affect the gameplay function of these cards.
+  - *2025-11-17* — The token created by the first mode of Trystan's Command copies exactly what was printed on the original permanent and nothing else (unless that permanent is copying something else or is a token; see below). It doesn't copy whether that permanent is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+  - *2025-11-17* — While it appears only on cards that already have other card types, kindred is a card type and will be counted by effects that refer to the number of card types among cards in a zone.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/247/trystans-command) · oracle_id `ecc4e230-a546-4cb4-987c-87300060bbe2` · printing: ECL #247 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

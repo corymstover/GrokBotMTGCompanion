@@ -89,7 +89,11 @@
 - **Flavor text** (JMP printing):
   > *Every day the cat returns to kill the same mouse, which sinks again into the cauldron's brew.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3023 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/216/cauldron-familiar) · oracle_id `a7dc2e62-1c50-4ed7-b71f-2d782a447a5e` · printing: JMP #216 (2020-07-17) · [rulings](https://api.scryfall.com/cards/32cf273e-b8f7-434b-9d5d-883dfd6f7423/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-10-04* — In a Two-Headed Giant game, Cauldron Familiar's first ability causes the opposing team to lose 1 life twice, and you gain 1 life once.
+  - *2019-10-04* — You can't activate Cauldron Familiar's last ability unless it's in your graveyard.
+  - *2024-11-08* — If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, you can sacrifice Tough Cookie (an Artifact Creature — Food Golem) to activate Maraleaf Rider's ability (an ability with "Sacrifice a Food" in its cost).
+- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/216/cauldron-familiar) · oracle_id `a7dc2e62-1c50-4ed7-b71f-2d782a447a5e` · printing: JMP #216 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cauldron Haze
 
@@ -110,7 +114,10 @@
 - **Flavor text** (SOS printing):
   > *In the gloomy depths of Widdershins Hall sits an iron belly—always hungry, but generous to those who feed it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2084 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/179/cauldron-of-essence) · oracle_id `a2f8cde8-bf7b-4234-89f0-a95f9dc937e3` · printing: SOS #179 (2026-04-24) · [rulings](https://api.scryfall.com/cards/b7091740-e70c-4cf2-8d3d-b8e1ac1fbbdd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2026-03-20* — Because targets are chosen before costs are paid, the target of Cauldron of Essence's last ability can't be the creature sacrificed to pay its cost.
+  - *2026-03-20* — If one or more creatures you control die at the same time that Cauldron of Essence leaves the battlefield, its first ability triggers once for each of those creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/179/cauldron-of-essence) · oracle_id `a2f8cde8-bf7b-4234-89f0-a95f9dc937e3` · printing: SOS #179 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cauldron of Souls
 
@@ -119,7 +126,16 @@
 - **Oracle text:**
   > {T}: Choose any number of target creatures. Each of those creatures gains persist until end of turn. (When it dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4389 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cm2/180/cauldron-of-souls) · oracle_id `5811d905-cae5-4f92-a78e-abb43f8864a7` · printing: CM2 #180 (2018-06-08) · [rulings](https://api.scryfall.com/cards/cbd4604e-c21a-42a1-b099-aad7f9263a82/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2008-05-01* — If a nontoken creature that gains persist this way is put into a graveyard, that card will be returned to the battlefield with a -1/-1 counter on it. However, because it’s a new object with no relation to its previous existence, the returned creature will not have persist.
+  - *2013-06-07* — If a creature with persist stops being a creature, persist will still work.
+  - *2013-06-07* — If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner’s graveyard for having 0 or less toughness, persist won’t trigger and the card won’t return to the battlefield. That’s because persist checks the creature’s existence just before it leaves the battlefield, and it still has all those counters on it at that point.
+  - *2013-06-07* — If a permanent has multiple instances of persist, they’ll each trigger separately, but the redundant instances will have no effect. If one instance returns the card to the battlefield, the next to resolve will do nothing.
+  - *2013-06-07* — If a token with no -1/-1 counters on it has persist, the ability will trigger when the token is put into the graveyard. However, the token will cease to exist and can’t return to the battlefield.
+  - *2013-06-07* — If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player’s persist creatures will return to the battlefield first, then the active player’s persist creatures do the same. The creatures return to the battlefield one at a time.
+  - *2013-06-07* — The persist ability triggers when the permanent is put into a graveyard. Its last known information (that is, how the creature last existed on the battlefield) is used to determine whether it had a -1/-1 counter on it.
+  - *2013-06-07* — When a permanent with persist returns to the battlefield, it’s a new object with no memory of or connection to its previous existence.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cm2/180/cauldron-of-souls) · oracle_id `5811d905-cae5-4f92-a78e-abb43f8864a7` · printing: CM2 #180 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cauldron's Gift
 
@@ -142,7 +158,18 @@
   > Saddle 3 (Tap any number of other creatures you control with total power 3 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.)
 - **Keywords:** Saddle
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6646 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/82/caustic-bronco) · oracle_id `165bdc68-1da0-47db-a069-978fc4c04b3f` · printing: OTJ #82 (2024-04-19) · [rulings](https://api.scryfall.com/cards/e9a268ba-c442-4fe4-90b4-2810c8474f4e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2024-04-12* — An ability that triggers when a creature “attacks while saddled” will trigger only if that creature was saddled when it was declared as an attacker.
+  - *2024-04-12* — Creatures with saddle can attack or block as normal even if they aren’t saddled.
+  - *2024-04-12* — If Caustic Bronco isn’t on the battlefield as its triggered ability resolves, use whether it was saddled or not before it left the battlefield to determine who loses life.
+  - *2024-04-12* — If a permanent becomes a copy of a saddled Mount, the copy won’t be saddled.
+  - *2024-04-12* — If the revealed card doesn’t have a mana cost (because it’s a land card, for example), its mana value is 0.
+  - *2024-04-12* — If the revealed card is a split card, that card’s mana value is based on the combined mana cost of its two halves.
+  - *2024-04-12* — If the revealed card’s mana cost includes {X}, X is 0 for the purpose of determining its mana value.
+  - *2024-04-12* — You may activate a permanent’s saddle ability even if that permanent is already saddled.
+  - *2024-04-12* — “Saddle N” means “Tap any number of other untapped creatures you control with total power N or greater: This permanent becomes saddled until end of turn. Activate only as a sorcery.”
+  - *2024-04-12* — “Saddled” isn’t an ability that a creature has. It’s just something true about that creature. It won’t stop being saddled until the turn ends or it leaves the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/82/caustic-bronco) · oracle_id `165bdc68-1da0-47db-a069-978fc4c04b3f` · printing: OTJ #82 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Caustic Caterpillar
 
@@ -155,6 +182,7 @@
   > *"The rare and beautiful butterflies inspire the design of our thopters. The larvae, however, are a different story entirely."*
   > *—Kiran Nalaar, Ghirapur inventor*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3540 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ori/170/caustic-caterpillar) · oracle_id `45d35128-76e6-43f9-8d23-41f7506c3a71` · printing: ORI #170 (2015-07-17) · [rulings](https://api.scryfall.com/cards/f03d4e0d-bddd-4835-91b8-11c2f15e54c3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Caustic Crawler

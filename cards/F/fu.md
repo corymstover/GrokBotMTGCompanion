@@ -107,7 +107,16 @@
   > *"Your ideas will be discarded and your will repurposed."*
 - **Keywords:** Proliferate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6546 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mbs/25/fuel-for-the-cause) · oracle_id `667cffdd-8951-4223-8895-fa46e9f14b96` · printing: MBS #25 (2011-02-04) · [rulings](https://api.scryfall.com/cards/4126e0e5-9b23-496f-8a09-7a35499f9a09/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2011-06-01* — If the spell is an illegal target when Fuel for the Cause tries to resolve, it won't resolve. You won't proliferate.
+  - *2011-06-01* — You must be able to target another spell in order to cast Fuel for the Cause. You can't just cast it in order to proliferate, and it can't target itself.
+  - *2023-02-04* — An ability that triggers "Whenever you proliferate" triggers even if you chose no permanents or players while doing so.
+  - *2023-02-04* — If a permanent ever has both +1/+1 counters and -1/-1 counters on it at the same time, they're removed in pairs as a state-based action so that the permanent has only one of those kinds of counters on it.
+  - *2023-02-04* — If a player or permanent has more than one kind of counter on it, and you choose for it to get additional counters, it must get one of each kind of counter it already has. You can't have it get just one kind of counter it already has and not the others.
+  - *2023-02-04* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
+  - *2023-02-04* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
+  - *2023-02-04* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mbs/25/fuel-for-the-cause) · oracle_id `667cffdd-8951-4223-8895-fa46e9f14b96` · printing: MBS #25 (2011-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fuel the Flames
 
@@ -232,7 +241,18 @@
   > *A swirl of light, a whisper through the leaves, and all at once the forest came to life.*
 - **Keywords:** Populate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9661 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c19/32/full-flowering) · oracle_id `cb3328b5-a759-4c30-8b1f-202980bb6f6d` · printing: C19 #32 (2019-08-23) · [rulings](https://api.scryfall.com/cards/ea2e9f4c-b6b4-4199-93ae-10df75590715/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2019-08-23* — Any abilities that trigger while you're populating won't be put onto the stack until after you've finished populating X times.
+  - *2019-08-23* — Each time you populate, you can pick any creature token you control to copy. You don't have to create X tokens that are all copies of the same creature token.
+  - *2019-08-23* — If X is 0, you don't populate at all.
+  - *2019-08-23* — The tokens enter the battlefield one at a time.
+  - *2024-01-12* — Any enters-the-battlefield abilities of the copied token will trigger when the new token enters the battlefield. Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the copied token will also work.
+  - *2024-01-12* — If you choose to copy a creature token that's a copy of another creature, the new creature token will copy the characteristics of whatever the original token is copying.
+  - *2024-01-12* — If you control no creature tokens when you populate, nothing will happen.
+  - *2024-01-12* — Populate doesn't target the creature token you're copying. You choose that creature token as you're taking the populate action. You can choose any creature token you control. If a spell or ability causes you to create a creature token and then instructs you to populate, you may choose to copy the token you just created, or you may choose to copy another creature token you control.
+  - *2024-01-12* — The new creature token copies the characteristics of the original token as stated by the effect that created the original token.
+  - *2024-01-12* — The new token doesn't copy whether the original token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any noncopy effects that have changed its power, toughness, color, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c19/32/full-flowering) · oracle_id `cb3328b5-a759-4c30-8b1f-202980bb6f6d` · printing: C19 #32 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Full Moon's Rise
 
@@ -245,7 +265,9 @@
   > *Some lycanthropes wish they could abandon their weak human shapes and revel in the power of the wolf.*
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8671 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/isd/180/full-moons-rise) · oracle_id `3aef097b-711a-4463-a59c-831e4dd5e69a` · printing: ISD #180 (2011-09-30) · [rulings](https://api.scryfall.com/cards/02a35eac-b962-466e-a4da-a4010c68ef16/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-09-22* — In order to regenerate Werewolves involved in combat, you must sacrifice Full Moon’s Rise before combat damage is assigned. This means they will lose the +1/+0 and trample bonuses before combat damage assignment.
+- **Source flags:** [Scryfall](https://scryfall.com/card/isd/180/full-moons-rise) · oracle_id `3aef097b-711a-4463-a59c-831e4dd5e69a` · printing: ISD #180 (2011-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Full Steam Ahead
 
@@ -269,7 +291,10 @@
   > *"You wanted a fight. Now you've got two."*
   > *—Chandra Nalaar*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1330 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dft/127/full-throttle) · oracle_id `3c2f87eb-b0f4-4578-b143-6fba313a82ec` · printing: DFT #127 (2025-02-14) · [rulings](https://api.scryfall.com/cards/d91f7cad-89e8-45cb-a78e-b35b0ee64783/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-02-07* — If you somehow cast this spell when it’s not a main phase, the second ability still takes effect, but there are no additional combat phases this turn. If you cast it during an opponent’s main phase, there are two additional combat phases, but that opponent gets to attack during those combat phases, not you.
+  - *2025-02-07* — There is no main phase between the two additional combat phases. If you cast this during your second main phase, you will go directly to the end step after the two additional combat phases are complete.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dft/127/full-throttle) · oracle_id `3c2f87eb-b0f4-4578-b143-6fba313a82ec` · printing: DFT #127 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fully Grown
 
@@ -355,7 +380,10 @@
   > *"Ghirapur's gremlin population poses a threat to the infrastructure of the fairgrounds. Threats must be eliminated."*
   > *—Sram, senior edificer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #999 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/65/fumigate) · oracle_id `b17ea905-0696-4e58-b564-557e87236e27` · printing: EOC #65 (2025-08-01) · [rulings](https://api.scryfall.com/cards/976f6850-e646-4b51-a103-25240658672d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-11-08* — Creatures destroyed this way count toward the life gained even if they're put into a zone other than a graveyard.
+  - *2024-11-08* — You won't gain 1 life for a creature that isn't actually destroyed, such as a creature with indestructible.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/65/fumigate) · oracle_id `b17ea905-0696-4e58-b564-557e87236e27` · printing: EOC #65 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fumiko the Lowblood
 
@@ -366,7 +394,11 @@
   > Fumiko has bushido X, where X is the number of attacking creatures. (Whenever this creature blocks or becomes blocked, it gets +X/+X until end of turn.)
   > Creatures your opponents control attack each combat if able.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7159 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/c20/152/fumiko-the-lowblood) · oracle_id `cba58942-b98c-45aa-8651-7dc666e31c93` · printing: C20 #152 (2020-04-17) · [rulings](https://api.scryfall.com/cards/d3ee3011-3d17-435d-a483-79b0419b589b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2005-02-01* — Fumiko's ability doesn't force an opponent to pay for effects in order to be able to attack with their creatures (such as Ghostly Prison, for example).
+  - *2005-02-01* — Fumiko's ability doesn't force tapped creatures or creatures with summoning sickness to attack.
+  - *2005-02-01* — X is variable. The bushido bonus is calculated each time Fumiko's bushido trigger resolves, based on the number of attackers at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c20/152/fumiko-the-lowblood) · oracle_id `cba58942-b98c-45aa-8651-7dc666e31c93` · printing: C20 #152 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fuming Effigy
 
@@ -391,7 +423,10 @@
   > Whenever an Insect, Leech, Slug, or Worm you control attacks, defending player loses 1 life and you gain 1 life.
 - **Keywords:** Deathtouch, Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4856 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/j25/42/fumulus-the-infestation) · oracle_id `c75f8365-71f1-415f-8bbc-9bacb8ddba0b` · printing: J25 #42 (2024-11-15) · [rulings](https://api.scryfall.com/cards/ee5e47c2-7648-4218-b42c-ed9650e12914/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-11-08* — If a nontoken creature is sacrificed to pay a cost of a spell or ability, Fumulus's thirdsecond ability will resolve before that spell or ability. Conversely, if a nontoken creature is sacrificed during the resolution of a spell or ability, that spell or ability will finish resolving before Fumulus's second ability is put onto the stack.
+  - *2024-11-08* — If you sacrifice Fumulus, its thirdsecond ability will still trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/j25/42/fumulus-the-infestation) · oracle_id `c75f8365-71f1-415f-8bbc-9bacb8ddba0b` · printing: J25 #42 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Funeral Charm
 
@@ -468,7 +503,25 @@
   > When you unlock this door, return all creature cards from your graveyard to the battlefield.
   > (You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2123 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/100/funeral-room-awakening-hall) · oracle_id `a39d541e-86c1-4595-a2e9-f107def5bbc6` · printing: DSK #100 (2024-09-27) · [rulings](https://api.scryfall.com/cards/48237c98-5067-47a8-af74-7b9bce57c6a4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (17):
+  - *2024-09-20* — An ability that triggers "when you unlock this door" triggers when that door becomes unlocked. This can happen one of two ways: (1) the door becomes unlocked on the battlefield or (2) the door becomes unlocked as the Room enters the battlefield because you cast the corresponding half. In the latter case, since the door becoming unlocked is what causes the ability to trigger, effects that cause abilities that trigger when a permanent enters to trigger an additional time (such as that of Panharmonicon) won't apply.
+  - *2024-09-20* — An ability that triggers "whenever you fully unlock a Room" triggers when a door becomes unlocked and the other door of that Room is already unlocked, or when both doors of that Room become unlocked simultaneously.
+  - *2024-09-20* — Any time you have priority during a main phase of your turn and the stack is empty, you may pay the mana cost of a locked door (also called its "unlock cost"). That door becomes unlocked. This is a special action. It doesn't use the stack and can't be responded to.
+  - *2024-09-20* — Each Room card has two names. If an effect instructs you to choose a card name, you may choose one of those names, but not both.
+  - *2024-09-20* — Each Room card is a single card. For example, if you discard a Room card, you've discarded one card, not two. If an effect counts the number of enchantment cards in your graveyard, Bottomless Pool // Locker Room counts once, not twice.
+  - *2024-09-20* — If Funeral Room is unlocked and this Room leaves the battlefield at the same time one or more creatures you control die, its ability will trigger once for each of those creatures.
+  - *2024-09-20* — If a Room enters from any zone other than the stack, it will enter with both halves locked.
+  - *2024-09-20* — If a spell or ability would create a copy of a Room spell on the stack, the copy retains the choice of which door was cast but also retains the full characteristics of the spell. The characteristics of the door that wasn't cast are still ignored while the copy is on the stack, and when the copy resolves, the token it becomes will enter with the appropriate door unlocked.
+  - *2024-09-20* — If an effect allows you to cast a spell with certain characteristics, consider only the characteristics of the door you're casting. For example, if an effect allows you to cast a permanent spell with mana value 3 or less from among cards in your graveyard, you could cast Bottomless Pool this way, but not Locker Room.
+  - *2024-09-20* — If neither door of a Room is unlocked, it's a Room enchantment with no name and no abilities.
+  - *2024-09-20* — Room cards have two card faces with a shared type line on a single card. The characteristics of the door you didn't cast are ignored while the spell is on the stack.
+  - *2024-09-20* — Some abilities allow you to lock a door of a Room you control. You can't choose to lock a door that's already locked with such an ability. If such an ability requires a target, you can target a Room even if both of its doors are locked, but the ability won't do anything when it resolves.
+  - *2024-09-20* — Some abilities allow you to unlock a door of a Room you control. You can't choose to unlock a door that's already unlocked with such an ability. If such an ability requires a target, you can target a Room even if both of its doors are unlocked, but the ability won't do anything when it resolves.
+  - *2024-09-20* — Some doors have abilities that trigger whenever you unlock that door and require one or more targets. You can unlock that door even if there would be insufficient legal targets for that triggered ability. The triggered ability won't go on the stack.
+  - *2024-09-20* — To cast a Room spell, choose a half (or "door") to cast. There's no way to cast both halves of a Room card. When the Room spell resolves, the corresponding door becomes unlocked as the Room enters.
+  - *2024-09-20* — While in any zone other than the stack or the battlefield, a Room card's characteristics are a combination of its two doors. For example, Bottomless Pool // Locker Room has a mana value of 6 while it's in your library. If an effect allows you to search your library for a card with mana value 4 or less, you can't find Bottomless Pool // Locker Room.
+  - *2024-09-20* — While on the battlefield, a Room's characteristics are a combination of the characteristics of its unlocked doors. For example, if Bottomless Pool // Locker Room is on the battlefield with both doors unlocked, its names are Bottomless Pool and Locker Room, its mana value is 6, it's a Room Enchantment, and it has the abilities in each door's text box.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/100/funeral-room-awakening-hall) · oracle_id `a39d541e-86c1-4595-a2e9-f107def5bbc6` · printing: DSK #100 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fungal Behemoth
 
@@ -518,6 +571,7 @@
   > When enchanted creature dies, return it to the battlefield tapped under its owner's control.
 - **Keywords:** Enchant, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5870 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/106/fungal-fortitude) · oracle_id `cf73d2e7-584f-41d0-8fc7-50d886dcf9fe` · printing: LCI #106 (2023-11-17) · [rulings](https://api.scryfall.com/cards/9d2bd0ca-521c-45d9-85ed-2f36f583408e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fungal Infection
@@ -541,6 +595,7 @@
 - **Flavor text** (CMM printing):
   > *Thallids nurture saprolings, entertain them, and eat them.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6551 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/291/fungal-plots) · oracle_id `0a85402a-e3be-4ebb-8001-9d9a20dde7e8` · printing: CMM #291 (2023-08-04) · [rulings](https://api.scryfall.com/cards/783fb92d-6de6-49f5-a204-5bcf577c9640/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fungal Reaches
@@ -564,7 +619,11 @@
   > *"We're all food for something in the end."*
   > *—Cevraya, Golgari shaman*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6017 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/163/fungal-rebirth) · oracle_id `b917f39a-3176-47ad-afda-08d09b873c02` · printing: CLU #163 (2024-02-23) · [rulings](https://api.scryfall.com/cards/52abf994-78d6-40dd-9d43-19ae8176e3bd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-06-23* — Fungal Rebirth checks only whether a creature died this turn. It doesn't give you additional Saprolings if more than one creature died.
+  - *2020-06-23* — If a creature died this turn, you get Saproling tokens in addition to the permanent card being returned to your hand.
+  - *2024-01-12* — A permanent card is an artifact, battle, creature, enchantment, land, or planeswalker card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/163/fungal-rebirth) · oracle_id `b917f39a-3176-47ad-afda-08d09b873c02` · printing: CLU #163 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fungal Shambler
 
@@ -588,7 +647,9 @@
   > *"Saprolings need only a host to feed upon. Numbers will take care of the rest."*
   > *—Ghave, Guru of Spores*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5688 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m13/173/fungal-sprouting) · oracle_id `303d4533-0c6b-4f93-80e8-b1f5926f4cd4` · printing: M13 #173 (2012-07-13) · [rulings](https://api.scryfall.com/cards/97413ae3-037e-4786-85a3-e92604acd771/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2012-07-01* — Fungal Sprouting doesn’t target any creature. The greatest power among creatures you control is determined when Fungal Sprouting resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m13/173/fungal-sprouting) · oracle_id `303d4533-0c6b-4f93-80e8-b1f5926f4cd4` · printing: M13 #173 (2012-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fungusaur
 
@@ -712,7 +773,13 @@
 - **Flavor text** (CMM printing):
   > *Klothys set out to mend the destiny of Theros, her fury guiding every stitch.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8921 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/225/furious-rise) · oracle_id `52b3a979-3b93-4441-9237-0c8a754e5523` · printing: CMM #225 (2023-08-04) · [rulings](https://api.scryfall.com/cards/1f5da1ab-d720-4140-8121-89de760d020c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2020-06-23* — Furious Rise's ability has you exile only one card, no matter how many creatures with power 4 or greater you control beyond the first.
+  - *2020-06-23* — Furious Rise's effect doesn't change when you can play the exiled card. For example, if you exile a sorcery card, you can cast it only during your main phase when the stack is empty. If you exile a land card, you can't play it unless you have land plays available.
+  - *2020-06-23* — If Furious Rise leaves the battlefield before you play the most recently exiled card, you can play that card for as long as it remains exiled.
+  - *2020-06-23* — If you don't control a creature with power 4 or greater as your end step begins, Furious Rise's ability doesn't trigger. If you don't control one as the ability resolves, it has no effect. It doesn't have to be the same creature at both times, however.
+  - *2020-06-23* — Playing an exiled card causes it to leave exile. You can't play it multiple times.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/225/furious-rise) · oracle_id `52b3a979-3b93-4441-9237-0c8a754e5523` · printing: CMM #225 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Furious Spinesplitter
 
@@ -829,7 +896,13 @@
   > *The furnace awaits the next master who would stoke the fires of apocalypse.*
 - **Keywords:** Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4642 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hop/55/furnace-of-rath) · oracle_id `68715465-6cf9-4006-87e9-31f227fe9ed3` · printing: HOP #55 (2009-09-04) · [rulings](https://api.scryfall.com/cards/d7f0e720-3c32-4040-b663-7f99ad5bc810/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2004-10-04* — If a spell or ability damages multiple things, divide up the damage before applying this effect. This means you can’t normally end up with an odd amount of damage on something.
+  - *2004-10-04* — If you have two of these on the battlefield, the damage is multiplied by 4.
+  - *2004-10-04* — The multiplied damage counts in all ways as if it came from the original source. Furnace of Rath is not the source.
+  - *2004-10-04* — The trample rules cause damage to be divided before it is doubled.
+  - *2005-08-01* — If multiple effects modify how damage will be dealt, the player who would be dealt damage or the controller of the creature that would be dealt damage chooses the order to apply the effects. For example, Mending Hands says, “Prevent the next 4 damage that would be dealt to any target this turn.” Suppose a spell would deal 5 damage to a player who has cast Mending Hands targeting themselves. That player can either (a) prevent 4 damage first and then let Furnace of Rath double the remaining 1 damage, taking 2 damage, or (b) double the damage to 10 and then prevent 4 damage, taking 6 damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hop/55/furnace-of-rath) · oracle_id `68715465-6cf9-4006-87e9-31f227fe9ed3` · printing: HOP #55 (2009-09-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Furnace Oriflamme
 
@@ -864,6 +937,7 @@
   > Gain control of target creature until end of turn. Untap that creature. Until end of turn, it gains haste and "Whenever this creature deals combat damage to a player or battle, create a Treasure token." (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.")
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6559 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/141/furnace-reins) · oracle_id `b623e61a-cdb9-46b0-a443-547be05db877` · printing: MOM #141 (2023-04-21) · [rulings](https://api.scryfall.com/cards/e91bfea6-0e80-4239-bede-7cb971e64c1a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Furnace Scamp
@@ -997,7 +1071,12 @@
   > Evoke—Exile a red card from your hand.
 - **Keywords:** Evoke, Double strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2397 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/50/fury) · oracle_id `fbf9f8c5-849f-45d5-8129-5fc683c21a04` · printing: ECC #50 (2026-01-23) · [rulings](https://api.scryfall.com/cards/932d0fb9-382d-464a-9427-b91fa2398cdb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-06-18* — If some of the targets are illegal as the triggered ability tries to resolve, the original division of damage still applies, but the damage that would have been dealt to the illegal targets isn't dealt at all.
+  - *2021-06-18* — If you pay the evoke cost, you can have the creature's own triggered ability resolve before the evoke triggered ability. You can cast spells after that ability resolves but before you have to sacrifice the creature.
+  - *2021-06-18* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an evoke cost), add any cost increases, then apply any cost reductions. The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+  - *2021-06-18* — You divide the damage as you put the triggered ability on the stack, not as it resolves. Each target must be assigned at least 1 damage. You can't choose more than four targets and deal 0 damage to some of them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/50/fury) · oracle_id `fbf9f8c5-849f-45d5-8129-5fc683c21a04` · printing: ECC #50 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Furyblade Vampire
 
@@ -1056,7 +1135,9 @@
   > • Target creature gets +1/+1 and gains trample until end of turn.
   > • Remove two time counters from target permanent or suspended card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9849 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ima/130/fury-charm) · oracle_id `b86b1878-65a9-48df-9727-1e80683d7e86` · printing: IMA #130 (2017-11-17) · [rulings](https://api.scryfall.com/cards/d585cf04-b823-49c1-a33a-9cd8f3116eda/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-11-17* — If a permanent or suspended card has only one time counter on it, Fury Charm's last mode removes that one counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ima/130/fury-charm) · oracle_id `b86b1878-65a9-48df-9727-1e80683d7e86` · printing: IMA #130 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Furygale Flocking
 
@@ -1078,7 +1159,13 @@
   > You may exile two red cards from your hand rather than pay this spell's mana cost.
   > Untap all creatures that attacked this turn. After this main phase, there is an additional combat phase followed by an additional main phase.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6008 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddn/30/fury-of-the-horde) · oracle_id `c90e2db7-6973-4243-9645-265fd3bc8546` · printing: DDN #30 (2014-09-05) · [rulings](https://api.scryfall.com/cards/52dd1712-6937-4630-b44c-952699307da4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2006-07-15* — If it’s somehow not a main phase when Fury of the Horde resolves, all it does is untap all creatures that attacked that turn. No new phases are created.
+  - *2006-07-15* — If you don’t have two cards of the right color in your hand, you can’t choose to cast the spell using the alternative cost.
+  - *2006-07-15* — Paying the alternative cost doesn’t change when you can cast the spell. A creature spell you cast this way, for example, can still only be cast during your main phase while the stack is empty.
+  - *2006-07-15* — You can’t exile a card from your hand to pay for itself. At the time you would pay costs, that card is on the stack, not in your hand.
+  - *2006-07-15* — You may pay the alternative cost rather than the card’s mana cost. Any additional costs are paid as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddn/30/fury-of-the-horde) · oracle_id `c90e2db7-6973-4243-9645-265fd3bc8546` · printing: DDN #30 (2014-09-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fury Sliver
 
@@ -1113,7 +1200,21 @@
   > When you cast this spell, copy it for each time you've cast your commander from the command zone this game. You may choose new targets for the copies.
   > Copy target instant or sorcery spell. You may choose new targets for the copy.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7456 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c18/22/fury-storm) · oracle_id `371fa9e3-5432-4f2f-89d4-55061b0b4e57` · printing: C18 #22 (2018-08-10) · [rulings](https://api.scryfall.com/cards/10dad353-7200-46de-96ad-4c457b94c62b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2018-07-13* — Each Storm’s triggered ability can copy the Storm spell even if that spell is countered before that ability resolves.
+  - *2018-07-13* — Each Storm’s triggered ability counts only how many times you’ve cast your commander from the command zone before that triggered ability resolves. If you cast your commander again later, you won’t get another copy.
+  - *2018-07-13* — Fury Storm can copy any instant or sorcery spell, not just one with targets.
+  - *2018-07-13* — If the spell has damage divided as it was cast (like Chandra’s Pyrohelix), the division can’t be changed (although the targets receiving that damage still can).
+  - *2018-07-13* — If the spell that’s copied has an X whose value was determined as it was cast (like Lavalanche does), the copy will have the same value of X.
+  - *2018-07-13* — If the spell that’s copied is modal (that is, it says “Choose one —” or the like), the copy will have the same mode. A different mode can’t be chosen.
+  - *2018-07-13* — If you copy a spell, you control the copy. It will resolve before the original spell does.
+  - *2018-07-13* — If your commander was countered, that time you cast it still counts.
+  - *2018-07-13* — The controller of a copy can’t choose to pay any alternative or additional costs for the copy. However, effects based on any alternative or additional costs that were paid for the original spell are copied as though those same costs were paid for the copy.
+  - *2018-07-13* — The copies are created on the stack, so they’re not “cast.” Abilities that trigger when a player casts a spell (such as the Storm’s ability itself) won’t trigger.
+  - *2018-07-13* — The copy is created on the stack, so it’s not “cast.” Abilities that trigger when a player casts a spell won’t trigger. This means, for example, that Fury Storm’s copies may target Fury Storm itself, but this won’t trigger the copy’s “when you cast this spell” ability, and it won’t increase the number of copies of other spells you end up with.
+  - *2018-07-13* — The copy will have the same targets as the spell it’s copying unless you choose new ones. You may change any number of the targets, including all of them or none of them, but not how many targets there are. If, for one of the targets, you can’t choose a new legal target, then it remains unchanged (even if the current target is illegal).
+  - *2018-10-05* — If you have multiple commanders, you’ll copy this spell for each time you’ve cast either of them. For example, if you’ve cast one commander once and one twice, you’ll copy this spell three times.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c18/22/fury-storm) · oracle_id `371fa9e3-5432-4f2f-89d4-55061b0b4e57` · printing: C18 #22 (2018-08-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fusion Elemental
 
@@ -1163,7 +1264,12 @@
   > *"Is the inevitable any less miraculous?"*
   > *—Veldka, wandering sage*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7478 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/53/future-sight) · oracle_id `93a0e938-b916-47ec-9803-369e885e253c` · printing: MH1 #53 (2019-06-14) · [rulings](https://api.scryfall.com/cards/639cb483-ffe2-4abc-a050-5cdc8aebd5a2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2019-06-14* — If the top card of your library changes while you're casting a spell, playing a land, or activating an ability (most likely because that top card is the card you're playing), the new top card won't be revealed until you finish doing so.
+  - *2019-06-14* — If the top card of your library is a land, you may play that land only if you have any available land plays.
+  - *2019-06-14* — The top card of your library isn't in your hand, so you can't suspend it, cycle it, or activate any of its abilities.
+  - *2019-06-14* — You must follow the normal timing permissions and restrictions for the top card of your library and pay its costs. If the card has alternative or additional costs, you may pay those. If the card has any mandatory additional costs, you must pay those.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/53/future-sight) · oracle_id `93a0e938-b916-47ec-9803-369e885e253c` · printing: MH1 #53 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Futurist Forge
 

@@ -34,7 +34,15 @@
   > At the beginning of your upkeep, create a 1/1 white Ally creature token for each experience counter you have.
 - **Keywords:** Airbend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4787 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tle/74/aang-airbending-master) · oracle_id `f3176779-74f7-4136-a701-438feeead7a0` · printing: TLE #74 (2025-11-21) · [rulings](https://api.scryfall.com/cards/de7a150b-1b0d-4928-a2cc-80a4b7412350/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2025-10-02* — All experience counters are identical, no matter how you got them. For example, the last ability will count experience counters that you got from the second ability, from another ability, from another copy of Aang, Airbending Master, and so on.
+  - *2025-10-02* — If the spell you cast has {X} in its mana cost, you must choose 0 as the value of X.
+  - *2025-10-02* — Lands exiled this way cannot be played from exile. (Lands that were animated by earthbend will be returned to the battlefield tapped when they're exiled.)
+  - *2025-10-02* — Since you are using an alternative cost to cast a spell from exile this way, you can't pay any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, you must pay those.
+  - *2025-10-02* — The experience counter goes on you, the player, not on Aang. You will keep that counter even if Aang, Airbending Master dies.
+  - *2025-10-02* — To airbend one or more permanents and/or spells means to exile each of those objects. For each card exiled this way, for as long as it's exiled, its owner may cast it from exile by paying {2} rather than paying its mana cost.
+  - *2025-10-02* — Tokens exiled this way will cease to exist and cannot be cast.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tle/74/aang-airbending-master) · oracle_id `f3176779-74f7-4136-a701-438feeead7a0` · printing: TLE #74 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aang, Air Nomad
 
@@ -72,6 +80,7 @@
 - **Oracle text:**
   > Whenever Aang and Katara enter or attack, create X 1/1 white Ally creature tokens, where X is the number of tapped artifacts and/or creatures you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9237 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/69/aang-and-katara) · oracle_id `481c3e14-b670-4fab-aa9f-6ce5b514096d` · printing: TLE #69 (2025-11-21) · [rulings](https://api.scryfall.com/cards/f333ea01-124f-4125-87ab-609be40e774c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aang, at the Crossroads // Aang, Destined Savior
@@ -89,7 +98,10 @@
   > At the beginning of combat on your turn, earthbend 2. (Target land you control becomes a 0/0 creature with haste that's still a land. Put two +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.)
 - **Keywords:** Flying, Transform, Earthbend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5003 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/203/aang-at-the-crossroads-aang-destined-savior) · oracle_id `96e5d4a1-e59f-4140-823f-a17e15ee5d8d` · printing: TLA #203 (2025-11-21) · [rulings](https://api.scryfall.com/cards/fea89ca0-8070-4f28-9851-994314f9d248/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-10-02* — Aang, at the Crossroads's delayed triggered ability triggers at the beginning of the next upkeep regardless of whose turn it is.
+  - *2025-10-02* — Aang, at the Crossroads's delayed triggered ability won't cause it to transform back into Aang, at the Crossroads if it has already transformed into Aang, Destined Savior, perhaps because several creatures left the battlefield in one turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/203/aang-at-the-crossroads-aang-destined-savior) · oracle_id `96e5d4a1-e59f-4140-823f-a17e15ee5d8d` · printing: TLA #203 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aang's Defense
 
@@ -114,7 +126,18 @@
   > Waterbend {3}: Sacrifice this enchantment. If you do, scry 2. (While paying a waterbend cost, you can tap your artifacts and creatures to help. Each one pays for {1}.)
 - **Keywords:** Flash, Waterbend, Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6391 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/5/aangs-iceberg) · oracle_id `646f9ad8-9d18-4b42-954a-e21a62e9f0e8` · printing: TLA #5 (2025-11-21) · [rulings](https://api.scryfall.com/cards/720fbd87-b1c1-4b3b-97a1-46b943b115e3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2025-10-02* — "Waterbend [cost]" means "Pay [cost]. For each generic mana in that cost, you may tap an untapped artifact or creature you control rather than pay that mana."
+  - *2025-10-02* — Auras attached to the exiled permanent will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist. When the card returns to the battlefield, it will be a new object with no connection to the card that was exiled.
+  - *2025-10-02* — Even if the cost of the spell or ability that waterbend is part of increases or decreases, you still may only tap artifacts or creatures to pay for costs up to the amount of the generic mana in the waterbend cost.
+  - *2025-10-02* — If Aang's Iceberg leaves the battlefield before its triggered ability resolves, including if it is sacrificed by its activated ability, the target permanent won't be exiled.
+  - *2025-10-02* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
+  - *2025-10-02* — If a waterbend cost is part of the total cost to cast a spell or activate an ability, you may tap an untapped artifact or creature you control rather than pay one generic mana in that total cost any number of times up to a maximum of the amount of generic mana in the waterbend component of that total cost.
+  - *2025-10-02* — If an Aura is exiled this way, its owner chooses what it will enchant as it returns to the battlefield. An Aura put onto the battlefield this way doesn't target anything (so it could be attached to a permanent with shroud, for example), but the Aura's enchant ability restricts what it can be attached to. If the Aura can't legally be attached to anything, it remains in exile for the rest of the game.
+  - *2025-10-02* — If an artifact or creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell or activating an ability with waterbend will result in the artifact or creature being tapped before you pay the spell's costs. You won't be able to tap it again for waterbend. Similarly, if you sacrifice an artifact or creature to activate a mana ability to pay a cost with waterbend, that artifact or creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for waterbend.
+  - *2025-10-02* — The third ability of Aang's Iceberg allows you to sacrifice Aang's Iceberg as the ability resolves, not as a cost to activate the ability. If Aang's Iceberg leaves the battlefield before the activated ability resolves, you will be unable to sacrifice Aang's Iceberg and will not scry, even if Aang's Iceberg was sacrificed via a different ability while its activated ability was on the stack.
+  - *2025-10-02* — You can tap any untapped creature or artifact you control to pay a waterbend cost, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/5/aangs-iceberg) · oracle_id `646f9ad8-9d18-4b42-954a-e21a62e9f0e8` · printing: TLA #5 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aang's Journey
 
@@ -126,6 +149,7 @@
   > You gain 2 life.
 - **Keywords:** Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4469 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/1/aangs-journey) · oracle_id `ddf461b9-a205-4dc7-a9c3-c047b1ff709f` · printing: TLA #1 (2025-11-21) · [rulings](https://api.scryfall.com/cards/5e51f727-5a9b-4bc7-83a9-dbcf1c933e15/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aang, Swift Savior // Aang and La, Ocean's Fury
@@ -145,7 +169,19 @@
   > *With the death of the moon spirit, the Avatar's tides of vengeance crashed over the Fire Nation fleet.*
 - **Keywords:** Flying, Reach, Airbend, Transform, Trample, Flash, Waterbend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3582 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/204/aang-swift-savior-aang-and-la-oceans-fury) · oracle_id `cbf09050-39d0-463b-96db-9e22011ae0d8` · printing: TLA #204 (2025-11-21) · [rulings](https://api.scryfall.com/cards/82866a0e-485a-4f7e-8c49-f7d9ff3f4ad4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2025-10-02* — "Waterbend [cost]" means "Pay [cost]. For each generic mana in that cost, you may tap an untapped artifact or creature you control rather than pay that mana."
+  - *2025-10-02* — Even if the cost of the spell or ability that waterbend is part of increases or decreases, you still may only tap artifacts or creatures to pay for costs up to the amount of the generic mana in the waterbend cost.
+  - *2025-10-02* — If a spell is exiled this way, it's removed from the stack and thus will not resolve. The spell isn't countered; it is exiled. This works against a spell that can't be countered.
+  - *2025-10-02* — If a waterbend cost is part of the total cost to cast a spell or activate an ability, you may tap an untapped artifact or creature you control rather than pay one generic mana in that total cost any number of times up to a maximum of the amount of generic mana in the waterbend component of that total cost.
+  - *2025-10-02* — If an artifact or creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell or activating an ability with waterbend will result in the artifact or creature being tapped before you pay the spell's costs. You won't be able to tap it again for waterbend. Similarly, if you sacrifice an artifact or creature to activate a mana ability to pay a cost with waterbend, that artifact or creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for waterbend.
+  - *2025-10-02* — If the spell you cast has {X} in its mana cost, you must choose 0 as the value of X.
+  - *2025-10-02* — Lands exiled this way cannot be played from exile. (Lands that were animated by earthbend will be returned to the battlefield tapped when they're exiled.)
+  - *2025-10-02* — Since you are using an alternative cost to cast a spell from exile this way, you can't pay any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, you must pay those.
+  - *2025-10-02* — To airbend one or more permanents and/or spells means to exile each of those objects. For each card exiled this way, for as long as it's exiled, its owner may cast it from exile by paying {2} rather than paying its mana cost.
+  - *2025-10-02* — Tokens exiled this way will cease to exist and cannot be cast.
+  - *2025-10-02* — You can tap any untapped creature or artifact you control to pay a waterbend cost, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/204/aang-swift-savior-aang-and-la-oceans-fury) · oracle_id `cbf09050-39d0-463b-96db-9e22011ae0d8` · printing: TLA #204 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aang, the Last Airbender
 
@@ -158,7 +194,13 @@
   > Whenever you cast a Lesson spell, Aang gains lifelink until end of turn.
 - **Keywords:** Flying, Airbend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6021 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/4/aang-the-last-airbender) · oracle_id `70564c3a-858f-498e-8b92-acb3ca54ae7e` · printing: TLA #4 (2025-11-21) · [rulings](https://api.scryfall.com/cards/245e008c-e073-443f-9592-6f628c0026ec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-10-02* — If the spell you cast has {X} in its mana cost, you must choose 0 as the value of X.
+  - *2025-10-02* — Lands exiled this way cannot be played from exile. (Lands that were animated by earthbend will be returned to the battlefield tapped when they're exiled.)
+  - *2025-10-02* — Since you are using an alternative cost to cast a spell from exile this way, you can't pay any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, you must pay those.
+  - *2025-10-02* — To airbend one or more permanents and/or spells means to exile each of those objects. For each card exiled this way, for as long as it's exiled, its owner may cast it from exile by paying {2} rather than paying its mana cost.
+  - *2025-10-02* — Tokens exiled this way will cease to exist and cannot be cast.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/4/aang-the-last-airbender) · oracle_id `70564c3a-858f-498e-8b92-acb3ca54ae7e` · printing: TLA #4 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aarakocra Sneak
 
@@ -172,7 +214,18 @@
   > *"Shhh! I think I hear goblins. And I definitely smell them."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9176 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/54/aarakocra-sneak) · oracle_id `c1882cb4-f69e-441e-8871-743ed636cad0` · printing: CLB #54 (2022-06-10) · [rulings](https://api.scryfall.com/cards/2a83882c-3e03-4e85-aaac-97fa1d08a772/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2022-06-10* — A player who currently has the initiative may take the initiative again. This causes that player to venture into Undercity again, but does not cause them to have multiple initiative designations.
+  - *2022-06-10* — If the player with the initiative leaves the game, the active player takes the initiative at the same time that player leaves the game. If the active player is leaving the game or if there is no active player, the next player in turn order takes the initiative.
+  - *2022-06-10* — If you aren't in a dungeon when instructed to venture into Undercity, you will put Undercity into the command zone and move your venture marker to Secret Entrance (the first room).
+  - *2022-06-10* — If you're already in a dungeon when instructed to venture into Undercity, you move to the next room of that dungeon. If you are already in the last room, you will complete that dungeon and start Undercity. This is true whether you're already in Undercity or any other dungeon.
+  - *2022-06-10* — In a Two-Headed Giant game, if both players on a team deal combat damage to the player that has the initiative at the same time, the player with the initiative will choose the order of the triggered abilities. Then, as those abilities resolve, one team member takes the initiative (and ventures into Undercity) and then the other team member does the same. The last player to take the initiative keeps it until the initiative changes again.
+  - *2022-06-10* — Only one player can have the initiative at a time. As one player takes the initiative, any other player that had the initiative ceases to have it.
+  - *2022-06-10* — Similarly, when instructed to venture into Undercity, you can't start a dungeon that isn't Undercity.
+  - *2022-06-10* — The initiative is a designation a player can have. A player with the initiative designation is said to "have the initiative." The initiative carries two inherent rules. First, whenever a player takes the initiative, and at the beginning of the upkeep of the player with the initiative, that player ventures into Undercity. Second, whenever one or more creatures a player controls deal combat damage to the player who has the initiative, the first player takes the initiative. Also, some abilities will refer to having the initiative and provide other benefits.
+  - *2022-06-10* — There is no initiative in a game until an effect instructs a player to take the initiative. Once a player is instructed to do this, they have the initiative until another player takes the initiative.
+  - *2022-06-10* — You cannot venture into Undercity unless instructed to do so, either because you have the initiative at the beginning of your upkeep or because you take the initiative. Notably, if you aren't in a dungeon and an effect instructs you to venture into the dungeon (not venture into Undercity), you can't start Undercity.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/54/aarakocra-sneak) · oracle_id `c1882cb4-f69e-441e-8871-743ed636cad0` · printing: CLB #54 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aardvark Sloth
 
@@ -208,4 +261,7 @@
   > When Aatchik enters, create a 1/1 green Insect creature token for each artifact and/or creature card in your graveyard.
   > Whenever another Insect you control dies, put a +1/+1 counter on Aatchik. Each opponent loses 1 life.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6964 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dft/187/aatchik-emerald-radian) · oracle_id `405c4a7b-dbb3-48a1-9205-7dbe6e2ad363` · printing: DFT #187 (2025-02-14) · [rulings](https://api.scryfall.com/cards/fbdaa29b-85ff-4a06-b27e-fcdbdfd4a3fe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-02-07* — If Aatchik is dealt lethal damage at the same time as another Insect you control, Aatchik’s last ability will still trigger, causing each opponent to lose 1 life, but Aatchik won’t get a +1/+1 counter in time to save it.
+  - *2025-02-07* — If a card in your graveyard is an artifact creature card, count it only once when determining how many Insect tokens to create for Aatchik’s first ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dft/187/aatchik-emerald-radian) · oracle_id `405c4a7b-dbb3-48a1-9205-7dbe6e2ad363` · printing: DFT #187 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

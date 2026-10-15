@@ -22,7 +22,9 @@
   > Whenever you cast a spell, target opponent draws a card. Put a +1/+1 counter on target creature. It gains flying until end of turn. If this is the second time this ability has resolved this turn, you draw two cards.
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3189 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/blc/3/ms-bumbleflower) · oracle_id `25636214-c6ea-4655-a5e8-98e735da5b05` · printing: BLC #3 (2024-08-02) · [rulings](https://api.scryfall.com/cards/42bbedc1-6b83-46b4-8b3b-a4e05ce77d87/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-07-26* — Ms. Bumbleflower's last ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blc/3/ms-bumbleflower) · oracle_id `25636214-c6ea-4655-a5e8-98e735da5b05` · printing: BLC #3 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ms. Marvel, Elastic Ally
 

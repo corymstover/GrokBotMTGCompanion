@@ -87,7 +87,13 @@
   > {T}: Add one mana of any color.
   > {2}, {T}, Remove two loot counters from this artifact: Draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5466 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/240/bandits-haul) · oracle_id `84b08b55-0623-4202-98c6-1756d3c1bb8f` · printing: OTJ #240 (2024-04-19) · [rulings](https://api.scryfall.com/cards/68b2e74b-933b-4285-963b-dda3a986a914/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-04-12* — A player can commit only one crime per spell or ability they control. Targeting multiple opponents, permanents, spells, abilities, and/or cards with the same spell or ability doesn't constitute committing multiple crimes.
+  - *2024-04-12* — A player commits a crime as they cast a spell, activate an ability, or put a triggered ability on the stack that targets at least one opponent, at least one permanent, spell, or ability an opponent controls, and/or at least one card in an opponent's graveyard.
+  - *2024-04-12* — Changing the target or targets of a spell or ability won't affect whether or not the controller of that spell or ability has committed a crime. Only the initial targets chosen for that spell or ability are used to determine whether or not its controller committed a crime.
+  - *2024-04-12* — For example, an ability that triggers when you cast a spell that targets an opponent will trigger at the same time as an ability that triggers whenever you commit a crime. Those abilities can be put on the stack in either order (if you control them both), and they'll both resolve before the spell that caused them to trigger.
+  - *2024-04-12* — The spell or ability that constituted a crime doesn't have to have resolved yet or at all. As soon as you're finished casting the spell, activating the ability, or putting the triggered ability on the stack, you've committed a crime.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/240/bandits-haul) · oracle_id `84b08b55-0623-4202-98c6-1756d3c1bb8f` · printing: OTJ #240 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bandit's Talent
 
@@ -101,7 +107,15 @@
   > {3}{B}: Level 3
   > At the beginning of your draw step, draw an additional card for each opponent who has one or fewer cards in hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4235 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/83/bandits-talent) · oracle_id `bcbe879a-4609-4493-bd7d-47c26d27e83c` · printing: BLB #83 (2024-08-02) · [rulings](https://api.scryfall.com/cards/485dc8d8-9e44-4a0f-9ff6-fa448e232290/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2024-07-26* — Each Class has five abilities. The three in the major sections of its text box are class abilities. Class abilities can be static, activated, or triggered abilities. The other two are level abilities, one activated ability to advance the Class to level 2 and another to advance the Class to level 3.
+  - *2024-07-26* — Each Class starts with only the first of its three class abilities. As the first level ability resolves, the Class becomes level 2 and gains the second class ability. As the second level ability resolves, the Class becomes level 3 and gains the third class ability.
+  - *2024-07-26* — Gaining a level is a normal activated ability. It uses the stack and can be responded to.
+  - *2024-07-26* — Gaining a level won't remove abilities that a Class had at a previous level.
+  - *2024-07-26* — Opponents can discard either one nonland card or two cards which may or may not be nonland cards. If they really want to, they can discard two nonland cards.
+  - *2024-07-26* — There's no restriction on how many Class permanents you can control, whether they're the same or different classes. Each Class permanent tracks its own level separately.
+  - *2024-07-26* — You can't activate the first level ability of a Class unless that Class is level 1. Similarly, you can't activate the second level ability of a Class unless that Class is level 2.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/83/bandits-talent) · oracle_id `bcbe879a-4609-4493-bd7d-47c26d27e83c` · printing: BLB #83 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Band Together
 
@@ -166,7 +180,11 @@
 - **Flavor text** (M19 printing):
   > *For Sarkhan Vol, the dragon is the purest expression of life's savage splendor.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4137 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m19/130/banefire) · oracle_id `5eff8a06-e0d6-435a-a7c0-db9f9d98636a` · printing: M19 #130 (2018-07-13) · [rulings](https://api.scryfall.com/cards/5b012532-1186-4dc8-9d42-867e418b0280/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-07-13* — Banefire can be targeted by spells that try to counter it regardless of what the value of X is. If X is 5 or more, those spells will still resolve, but the part of their effect that would counter Banefire won’t do anything. Any other effects those spells have will work as normal.
+  - *2018-07-13* — If its target is illegal by the time Banefire tries to resolve, the spell isn’t countered, but it doesn’t resolve. The target won’t be dealt damage.
+  - *2018-07-13* — To determine whether it can be countered and its damage can be prevented, Banefire checks the number you chose for X, not the amount of mana you actually spent or the amount of damage it will actually deal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m19/130/banefire) · oracle_id `5eff8a06-e0d6-435a-a7c0-db9f9d98636a` · printing: M19 #130 (2018-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Baneful Omen
 
@@ -191,6 +209,7 @@
   > *—Zhosmir, urban huntmaster*
 - **Keywords:** Lifelink, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9483 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/77/banehound) · oracle_id `63d846e2-4bef-4911-9508-273c75a4a040` · printing: WAR #77 (2019-05-03) · [rulings](https://api.scryfall.com/cards/b9e03567-c95a-40b8-a75a-971076093f57/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bane, Lord of Darkness
@@ -214,7 +233,11 @@
 - **Flavor text** (CMM printing):
   > *The continent of Bala Ged was ravaged by massive Eldrazi of Ulamog's lineage, its lush jungles and cascading rivers reduced to dust.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3353 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/802/bane-of-bala-ged) · oracle_id `38839894-1706-4e11-8310-5ea8dd8866d9` · printing: CMM #802 (2023-08-04) · [rulings](https://api.scryfall.com/cards/c3cb0fff-da50-40b9-9839-68cdf25a0193/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2015-08-25* — If Bane of Bala Ged attacks a planeswalker, the defending player may exile that planeswalker. Bane of Bala Ged will still be attacking and may be blocked as normal. If it’s not blocked, it won’t deal combat damage.
+  - *2015-08-25* — If the defending player controls only one permanent, that permanent will be exiled.
+  - *2015-08-25* — The permanents are exiled before blockers are chosen.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/802/bane-of-bala-ged) · oracle_id `38839894-1706-4e11-8310-5ea8dd8866d9` · printing: CMM #802 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bane of Progress
 
@@ -226,7 +249,10 @@
 - **Flavor text** (ECC printing):
   > *It sees shaped stone and carved wood as mutilations.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1244 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/99/bane-of-progress) · oracle_id `51f9a6cc-8eb2-44ed-a2d9-913ac514ad67` · printing: ECC #99 (2026-01-23) · [rulings](https://api.scryfall.com/cards/54c98a43-d358-4bb5-ba65-dff25c2f12ea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-10-17* — Bane of Progress's ability destroys all artifacts and enchantments, including those you control.
+  - *2013-10-17* — If an artifact or enchantment isn't destroyed (perhaps because it has indestructible or it regenerated), it won't count toward the number of +1/+1 counters put on Bane of Progress. However, if an artifact or enchantment is destroyed but doesn't go to its owner's graveyard due to a replacement effect (like the one Rest in Peace creates), it will count.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/99/bane-of-progress) · oracle_id `51f9a6cc-8eb2-44ed-a2d9-913ac514ad67` · printing: ECC #99 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bane of the Living
 
@@ -250,7 +276,9 @@
   > *"My whims dictate the fate of nations. Your pitiful mortal magic is no more significant than a gnat buzzing in my ear."*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6549 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/57/banes-contingency) · oracle_id `8089c3eb-99a8-40ca-882a-c1d4e30075ee` · printing: CLB #57 (2022-06-10) · [rulings](https://api.scryfall.com/cards/19f81099-f657-4f7d-84ad-f472ae87d9c5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-06-10* — A "commander you control" means a permanent on the battlefield that is a commander and is under your control. It can be your commander or one owned by another player. It doesn't refer to your commander in any other zone. Notably, if a player uses Bane's Contingency to counter a spell that would counter their commander, they do not scry or draw a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/57/banes-contingency) · oracle_id `8089c3eb-99a8-40ca-882a-c1d4e30075ee` · printing: CLB #57 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bane's Invoker
 
@@ -276,7 +304,9 @@
   > *Some angels protect the meek and innocent. Others seek out and smite evil wherever it lurks.*
 - **Keywords:** Flying, Lifelink, First strike, Protection
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4926 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m21/6/baneslayer-angel) · oracle_id `0e11792b-7fe5-4208-aa0b-e5d09b2b65fe` · printing: M21 #6 (2020-07-03) · [rulings](https://api.scryfall.com/cards/4bd3014b-94bb-4a9f-92cf-239a2dcc7e97/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-10-01* — “Protection from Demons and from Dragons” means the following: -- Baneslayer Angel can't be blocked by creatures with the creature type Demon or the creature type Dragon. -- Baneslayer Angel can't be targeted abilities from sources with the creature type Demon or the creature type Dragon, or by spells with either of those types. -- All damage that would be dealt to Baneslayer Angel by sources with the creature type Demon or the creature type Dragon is prevented. -- Baneslayer Angel can't be enchanted by Auras or equipped by artifacts that have somehow gotten the creature type Demon or the creature type Dragon.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m21/6/baneslayer-angel) · oracle_id `0e11792b-7fe5-4208-aa0b-e5d09b2b65fe` · printing: M21 #6 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Baneslayer Aspirant
 
@@ -359,7 +389,10 @@
 - **Flavor text** (EVE printing):
   > *Suddenly he realized that everything was connected by invisible strings, strings that could be pulled—or cut.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6605 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eve/17/banishing-knack) · oracle_id `6f23621e-eceb-402e-a8d3-8e2b734762b3` · printing: EVE #17 (2008-07-25) · [rulings](https://api.scryfall.com/cards/371a769a-ddae-47f6-b2c2-957de5c18417/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-08-01* — The targeted creature’s controller, not Banishing Knack’s controller, is the one who can activate the creature’s new ability.
+  - *2008-08-01* — “Summoning sickness” applies. The new ability can’t be activated unless the targeted creature has been under its controller’s control since the beginning of that player’s most recent turn or it has haste.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eve/17/banishing-knack) · oracle_id `6f23621e-eceb-402e-a8d3-8e2b734762b3` · printing: EVE #17 (2008-07-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Banishing Light
 
@@ -370,7 +403,12 @@
 - **Flavor text** (HOC printing):
   > *Before all went Aragorn with the Flame of the West—Andúril, like a new fire kindled, Narsil reforged as deadly as of old. And upon his brow was the Star of Elendil.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2373 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hoc/161/banishing-light) · oracle_id `f28b21a6-f7ce-437a-8c5b-0423cb55cefb` · printing: HOC #161 (2026-08-14) · [rulings](https://api.scryfall.com/cards/d53c7e49-745d-48ba-bc50-240472a4f039/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-07-25* — Auras attached to the exiled permanent will be put into their owners’ graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist. When the card returns to the battlefield, it will be a new object with no connection to the card that was exiled.
+  - *2025-07-25* — If Banishing Light leaves the battlefield before its triggered ability resolves, the target permanent won’t be exiled.
+  - *2025-07-25* — If a token is exiled this way, it will cease to exist and won’t return to the battlefield.
+  - *2025-07-25* — If an Aura is exiled this way, its owner chooses what it will enchant as it returns to the battlefield. An Aura put onto the battlefield this way doesn’t target anything (so it could be attached to a permanent an opponent controls with hexproof, for example), but the Aura’s enchant ability restricts what it can be attached to. If the Aura can’t legally be attached to anything, it remains in exile for the rest of the game.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hoc/161/banishing-light) · oracle_id `f28b21a6-f7ce-437a-8c5b-0423cb55cefb` · printing: HOC #161 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Banishing Slash
 
@@ -506,7 +544,9 @@
   > *"You are this world's last ray of light... our final hope."*
 - **Keywords:** Pray
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6545 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/78/banon-the-returners-leader) · oracle_id `1b62e88f-d544-4c01-a5a2-1c185a3c9c1e` · printing: FIC #78 (2025-06-13) · [rulings](https://api.scryfall.com/cards/63e84ece-b129-457d-84ed-b4280120f08b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-06-06* — You pay all costs and follow all timing rules for cards played with the permission granted by Banon's first ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/78/banon-the-returners-leader) · oracle_id `1b62e88f-d544-4c01-a5a2-1c185a3c9c1e` · printing: FIC #78 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Banquet Guests
 
@@ -520,7 +560,12 @@
   > {2}, Sacrifice a Food: This creature gains indestructible until end of turn.
 - **Keywords:** Affinity, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4560 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/47/banquet-guests) · oracle_id `7f2579ef-0422-4cb1-a0f8-6ad0d942515b` · printing: LTC #47 (2023-06-23) · [rulings](https://api.scryfall.com/cards/f4994a52-667f-46cf-9893-2f18b1f8bea2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, you can sacrifice Tough Cookie (an Artifact Creature — Food Golem) to activate Maraleaf Rider's ability (an ability with "Sacrifice a Food" in its cost).
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/47/banquet-guests) · oracle_id `7f2579ef-0422-4cb1-a0f8-6ad0d942515b` · printing: LTC #47 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Banshee
 
@@ -583,7 +628,11 @@
 - **Flavor text** (2X2 printing):
   > *Bant is a world where death and chaos hold no sway.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5078 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/181/bant-charm) · oracle_id `324889d6-c857-41ed-bb60-408809fc9964` · printing: 2X2 #181 (2022-07-08) · [rulings](https://api.scryfall.com/cards/7906b1e8-3049-4f4e-b1fd-b2547e7079f0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2008-10-01* — If this spell is copied, the copy will have the same mode as the original.
+  - *2008-10-01* — While the spell is on the stack, treat it as though its only text is the chosen mode. The other two modes are treated as though they don't exist. You don't choose targets for those modes.
+  - *2008-10-01* — You can choose a mode only if you can choose legal targets for that mode. If you can't choose legal targets for any of the modes, you can't cast the spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/181/bant-charm) · oracle_id `324889d6-c857-41ed-bb60-408809fc9964` · printing: 2X2 #181 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bant Panorama
 
@@ -595,6 +644,7 @@
 - **Flavor text** (NCC printing):
   > *Bant's hearts are as pure as its air and as bright as its skies.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5012 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/387/bant-panorama) · oracle_id `0a1d817d-dce8-4e83-a380-909f7c9eee46` · printing: NCC #387 (2022-04-29) · [rulings](https://api.scryfall.com/cards/dc506497-4ecd-41d3-9042-f92f498251b0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bant Sojourners

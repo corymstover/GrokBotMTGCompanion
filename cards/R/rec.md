@@ -184,6 +184,7 @@
 - **Flavor text** (CLB printing):
   > *The best defense is not even knowing what the word "defense" means.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3521 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/193/reckless-barbarian) · oracle_id `a621ae15-122a-4e11-bfcf-11dfc09784c0` · printing: CLB #193 (2022-06-10) · [rulings](https://api.scryfall.com/cards/c912e984-1d27-4da2-9733-d56e437bcf58/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reckless Blaze
@@ -233,7 +234,14 @@
   > Flashback {2}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6441 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/144/reckless-charge) · oracle_id `45bee121-0beb-4901-9473-20e4704ba6dc` · printing: MH1 #144 (2019-06-14) · [rulings](https://api.scryfall.com/cards/1754a8db-060e-470f-94c0-37f12d82978a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-03-19* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2021-03-19* — If a card with flashback is put into your graveyard during your turn, you can cast it if it’s legal to do so before any other player can take any actions.
+  - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you’re paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2021-03-19* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card’s type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+  - *2021-03-19* — “Flashback [cost]” means “You may cast this card from your graveyard by paying [cost] rather than paying its mana cost” and “If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack.”
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/144/reckless-charge) · oracle_id `45bee121-0beb-4901-9473-20e4704ba6dc` · printing: MH1 #144 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reckless Cohort
 
@@ -292,7 +300,18 @@
   > *Which burns more fiercely? Your ambition, or the flame?*
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3446 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afc/33/reckless-endeavor) · oracle_id `928bf0d9-89be-462d-aeb7-74a65e95535c` · printing: AFC #33 (2021-07-23) · [rulings](https://api.scryfall.com/cards/ba98a4bd-e217-4dba-aee9-315b4f843cdf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2021-07-23* — An ability that tells you to roll a die will also specify what to do with the result of that roll. Most often, this is in the form of a “results table” in the card text.
+  - *2021-07-23* — An effect that says “choose a target, then roll a d20” or similar still uses the normal process of putting an ability on the stack and resolving it. Choosing targets is part of putting the ability on the stack and rolling the d20 happens later, as the ability resolves.
+  - *2021-07-23* — Dice are identified by the number of faces each one has. For example, a d20 is a twenty-sided die.
+  - *2021-07-23* — Dice used must have equally likely outcomes and the roll must be fair. Although physical dice are recommended, digital substitutes are allowed, provided they have the same number of equally likely outcomes as specified in the original roll instruction.
+  - *2021-07-23* — Some abilities, like that of Pixie Guide and Barbarian Class, replace rolling a die with rolling extra dice and ignoring the lowest roll. The ignored rolls are not considered for the effect that instructed you to roll a die, and do not cause abilities to trigger. For all intents and purposes, once you determine which dice count, any extra dice were never rolled.
+  - *2021-07-23* — Some effects instruct you to roll again. This uses the same number and type of dice as the original roll, and that roll will use the same set of possible outcomes.
+  - *2021-07-23* — Some effects may modify the result of a die roll. This may be part of the instruction to roll a die or it may come from other cards. Anything that references the “result” of a die roll is looking for the result after these modifications. Anything that is looking for the “natural result” is looking for the number shown on the face of the die before these modifications.
+  - *2021-07-23* — The instruction to roll a die and the effect that occurs because of the result are all part of the same ability. Players do not get the chance to respond to the ability after knowing the result of the roll.
+  - *2021-07-23* — Tournament events have more specific rules regarding dice and die-rolling. For more information, please see the most recent version of the Magic Tournament Rules at https://wpn.wizards.com/en/document/magic-gathering-tournament-rules.
+  - *2021-07-23* — While playing Planechase, rolling the planar die will cause any ability that triggers whenever a player rolls one or more dice to trigger. However, any effect that refers to a numerical result will ignore the rolling of the planar die.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afc/33/reckless-endeavor) · oracle_id `928bf0d9-89be-462d-aeb7-74a65e95535c` · printing: AFC #33 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reckless Fireweaver
 
@@ -317,7 +336,10 @@
 - **Flavor text** (MAT printing):
   > *The relic shattered, and something in Nahiri broke as well.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2731 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mat/19/reckless-handling) · oracle_id `f1ea7dc5-01cb-4780-947c-08ea9324c52f` · printing: MAT #19 (2023-05-12) · [rulings](https://api.scryfall.com/cards/239165bb-7819-4d54-a84c-2911934253d6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-05-12* — You can't do anything between putting the artifact card you found in your hand and discarding. You may end up discarding that card. But hey, if you do, 2 damage!
+  - *2023-05-12* — You discard a card at random even if you didn't find an artifact card in your library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mat/19/reckless-handling) · oracle_id `f1ea7dc5-01cb-4780-947c-08ea9324c52f` · printing: MAT #19 (2023-05-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reckless Imp
 
@@ -342,7 +364,9 @@
   > *Fortune favors the bold.*
   > *—Human proverb*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2128 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/trk/168/reckless-impulse) · oracle_id `584cf0fd-112a-4ca6-9c0e-1f3228a7d325` · printing: TRK #168 (2026-11-13) · [rulings](https://api.scryfall.com/cards/5bca43d8-7c69-47f4-8f82-48dd2b6a7cba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-11-19* — You must still pay all costs to cast those spells and follow normal casting permissions. For example, if one of the exiled cards is a sorcery, this effect doesn't allow you to cast it during an opponent's turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/trk/168/reckless-impulse) · oracle_id `584cf0fd-112a-4ca6-9c0e-1f3228a7d325` · printing: TRK #168 (2026-11-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reckless Lackey
 
@@ -356,6 +380,7 @@
   > *"First to the fray, first to the pay!"*
 - **Keywords:** First strike, Treasure, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6164 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/140/reckless-lackey) · oracle_id `73733fa5-d292-40ec-8f17-05ba5feb40ab` · printing: OTJ #140 (2024-04-19) · [rulings](https://api.scryfall.com/cards/912fcd14-5e81-418c-997b-771f2f38f63d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reckless Ogre
@@ -444,7 +469,9 @@
   > *Most thieves are silent and swift, leaving no trace of their crime. Noggles take a different approach.*
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6558 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/152/reckless-ransacking) · oracle_id `ebcd198e-7fbd-46e0-a6d9-ff499e541978` · printing: ECL #152 (2026-01-23) · [rulings](https://api.scryfall.com/cards/24a5b025-4cdb-416d-aad6-0fc7e8da3df2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-11-17* — If the target creature is an illegal target as Reckless Ransacking tries to resolve, it won't resolve and none of its effects will happen. You won't create a Treasure token.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/152/reckless-ransacking) · oracle_id `ebcd198e-7fbd-46e0-a6d9-ff499e541978` · printing: ECL #152 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reckless Reveler
 
@@ -495,7 +522,17 @@
   > Nightbound (If a player casts at least two spells during their own turn, it becomes day next turn.)
 - **Keywords:** Transform, Daybound, Nightbound
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9881 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mid/157/reckless-stormseeker-storm-charged-slasher) · oracle_id `ea5fd21a-c23a-49ee-aab8-0a9618d65c11` · printing: MID #157 (2021-09-24) · [rulings](https://api.scryfall.com/cards/a33af331-0746-4adf-935a-bf61ff9d8d4b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2021-09-24* — Before a player untaps their permanents during the untap step, the game checks to see if the day/night designation should change.
+  - *2021-09-24* — Day and night are designations that the game itself can have. The game starts as neither. Once the game becomes day (or less commonly, night), the game will be exactly one of them—day or night—going back and forth for the rest of the game.
+  - *2021-09-24* — Double-faced permanents with daybound transform to their nightbound faces as it becomes night. Similarly, double-faced permanents with nightbound transform to their daybound faces as it becomes day. This happens immediately and is not a state-based action. It happens any time it becomes day or night, not just during the untap step.
+  - *2021-09-24* — If it is day, and the active player of the previous turn cast no spells during their turn, it becomes night.
+  - *2021-09-24* — If it is night, and the active player of the previous turn cast two or more spells during their turn, it becomes day.
+  - *2021-09-24* — If it is night, permanents with daybound that enter the battlefield without being cast will enter with their nightbound faces up.
+  - *2021-09-24* — If it's neither day nor night, and a creature with daybound and a creature with nightbound somehow appear on the battlefield at the same time, it becomes day. The creature with nightbound will transform.
+  - *2021-09-24* — If you cast a spell with daybound during night, that spell will be front face up (that is, daybound face up) on the stack. However, it will enter the battlefield with its back face up (that is, with its nightbound face up). It won't enter with its daybound face up and then transform.
+  - *2021-09-24* — Permanents with daybound and nightbound can't transform via any means other than their daybound and nightbound abilities. Notably, older cards such as Moonmist that instruct a player to transform permanents don't affect permanents with daybound or nightbound.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mid/157/reckless-stormseeker-storm-charged-slasher) · oracle_id `ea5fd21a-c23a-49ee-aab8-0a9618d65c11` · printing: MID #157 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reckless Velocitaur
 
@@ -551,6 +588,7 @@
   > Crew 3
 - **Keywords:** Treasure, Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3799 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/255/reckoner-bankbuster) · oracle_id `b6be94dc-7162-4887-b959-3bda709724eb` · printing: NEO #255 (2022-02-18) · [rulings](https://api.scryfall.com/cards/279acd17-6c17-427b-a69d-fc02442ff4a3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reckoner's Bargain
@@ -563,6 +601,7 @@
 - **Flavor text** (NEO printing):
   > *Restricted auctions are held once a year at the Dragon's Lair—the sacred, neutral meeting ground of all Reckoner gangs.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3865 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/120/reckoners-bargain) · oracle_id `044ea111-ce87-49ab-98f7-ae8447f48ac5` · printing: NEO #120 (2022-02-18) · [rulings](https://api.scryfall.com/cards/6338942d-d650-4571-8ec6-4d658792c53e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reckoner Shakedown
@@ -586,6 +625,7 @@
 - **Flavor text** (ORI printing):
   > *The wise pay as much attention to what they throw away as to what they keep.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5038 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ori/195/reclaim) · oracle_id `797155cd-faf4-4321-8629-c8c352392748` · printing: ORI #195 (2015-07-17) · [rulings](https://api.scryfall.com/cards/88f3c600-66f1-4a5e-ba4f-61e9f7f7a1d9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reclaiming Vines
@@ -706,7 +746,9 @@
 - **Flavor text** (BRO printing):
   > *"Put your backs into it! If we don't lay claim to it, the Fallaji will!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7817 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/22/recommission) · oracle_id `e43e8c00-f1e7-49d2-bb27-f1c16d85cc22` · printing: BRO #22 (2022-11-18) · [rulings](https://api.scryfall.com/cards/2a64e330-1257-4ec3-9a75-889cdcac3ade/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-10-14* — If a noncreature artifact is returned to the battlefield this way and another effect would cause that artifact to be a creature while it is on the battlefield (such as the ability of March of the Machines), that artifact will enter the battlefield with an additional +1/+1 counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/22/recommission) · oracle_id `e43e8c00-f1e7-49d2-bb27-f1c16d85cc22` · printing: BRO #22 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Recon Craft Theta
 
@@ -720,7 +762,13 @@
   > Crew 2
 - **Keywords:** Flying, Crew, Proliferate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5935 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/141/recon-craft-theta) · oracle_id `8fba247e-9849-4a06-84ff-242894b0503a` · printing: PIP #141 (2024-03-08) · [rulings](https://api.scryfall.com/cards/21aa59d3-e786-4ba0-9802-01b57597cda2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-03-08* — If a player or permanent has more than one kind of counter on it, and you choose for it to get additional counters, it must get one of each kind of counter it already has. You can't have it get just one kind of counter it already has and not the others.
+  - *2024-03-08* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
+  - *2024-03-08* — Some spells and abilities that cause you to proliferate may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't proliferate.
+  - *2024-03-08* — You can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
+  - *2024-03-08* — You don't have to choose every permanent or player that has a counter—only the ones you want to add counters to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/141/recon-craft-theta) · oracle_id `8fba247e-9849-4a06-84ff-242894b0503a` · printing: PIP #141 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reconnaissance
 
@@ -731,7 +779,9 @@
 - **Flavor text** (EXO printing):
   > *War favors the informed.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #891 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/exo/17/reconnaissance) · oracle_id `32599d7c-243b-447b-9d5d-e8e29830ac61` · printing: EXO #17 (1998-06-15) · [rulings](https://api.scryfall.com/cards/a16012d8-703c-4385-8769-13e3caba3fc6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Does not undo any effects which triggered on declaration of attackers or blockers.
+- **Source flags:** [Scryfall](https://scryfall.com/card/exo/17/reconnaissance) · oracle_id `32599d7c-243b-447b-9d5d-e8e29830ac61` · printing: EXO #17 (1998-06-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reconnaissance Mission
 
@@ -745,7 +795,9 @@
   > *—Black Widow, Natasha Romanoff*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #906 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/153/reconnaissance-mission) · oracle_id `11bf211c-95a3-4e7f-bd08-13f979d54e73` · printing: MSC #153 (2026-06-26) · [rulings](https://api.scryfall.com/cards/9fdd83d4-b473-498f-b45e-174f025e1259/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-04-17* — Reconnaissance Mission's triggered ability triggers for each creature you control that deals combat damage to a player. You may draw one card each time the ability resolves, no matter how much damage was dealt.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/153/reconnaissance-mission) · oracle_id `11bf211c-95a3-4e7f-bd08-13f979d54e73` · printing: MSC #153 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reconstructed Thopter
 
@@ -769,6 +821,7 @@
   > Return up to one target artifact card, up to one target enchantment card, up to one target instant card, up to one target sorcery card, and up to one target planeswalker card from your graveyard to your hand.
   > Exile Reconstruct History.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5899 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/222/reconstruct-history) · oracle_id `97fad58a-8ee4-4f01-a47a-5ddc9ed845af` · printing: STX #222 (2021-04-23) · [rulings](https://api.scryfall.com/cards/3e565e38-43d5-482e-a911-ce525dfee74f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reconstruction
@@ -835,7 +888,9 @@
 - **Flavor text** (MH3 printing):
   > *"The kingdom is in peril! Who among you is brave enough to defend it?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1169 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/266/recruiter-of-the-guard) · oracle_id `d521a329-a53a-4962-810a-2abed80df260` · printing: MH3 #266 (2024-06-14) · [rulings](https://api.scryfall.com/cards/8e4c6ba1-1abc-478f-9b7c-97e9e3c92fb0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-06-07* — If a creature card has "*" in its toughness, the ability that defines its toughness works in all zones. For example, if Nethergoyf is in your library, its toughness is determined by the ability "Nethergoyf's power is equal to the number of card types among cards in your graveyard and its toughness is equal to that number plus 1." If your graveyard consists of an artifact card, a creature card, and an instant card, you won't be able to find Nethergoyf with Recruiter of the Guard since Nethergoyf's toughness will be 4.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/266/recruiter-of-the-guard) · oracle_id `d521a329-a53a-4962-810a-2abed80df260` · printing: MH3 #266 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Recruitment Drive
 
@@ -847,6 +902,7 @@
   > 10—19 | Create two 2/2 white Knight creature tokens.
   > 20 | Create three 2/2 white Knight creature tokens.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9750 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/38/recruitment-drive) · oracle_id `d37e37d7-ce66-42cb-862e-fc5c414cfeb6` · printing: CLB #38 (2022-06-10) · [rulings](https://api.scryfall.com/cards/afbd2822-d161-41df-9f48-abecd5da19c4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Recruitment Officer
@@ -913,7 +969,16 @@
   > *On trial for sparing Galactus, Reed Richards found a cosmic truth and an unexpected ally.*
 - **Keywords:** Rebound
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9860 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/154/recurring-insight) · oracle_id `c6815bbb-24a5-4c9f-bf30-6190bc766d05` · printing: MSC #154 (2026-06-26) · [rulings](https://api.scryfall.com/cards/a3b0c460-1a5f-4e22-a594-34905117169c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2010-06-15* — At the beginning of your upkeep, all delayed triggered abilities created by rebound effects trigger. You may handle them in any order. If you want to cast a card this way, you do so as part of the resolution of its delayed triggered ability. Timing restrictions based on the card’s type (if it’s a sorcery) are ignored. Other restrictions are not (such as the one from Rule of Law).
+  - *2010-06-15* — If a replacement effect would cause a spell with rebound that you cast from your hand to be put somewhere else instead of your graveyard (such as Leyline of the Void might), you choose whether to apply the rebound effect or the other effect as the spell resolves.
+  - *2010-06-15* — If a spell with rebound that you cast from your hand doesn’t resolve for any reason (due being countered by a spell like Cancel, or because all of its targets are illegal), rebound has no effect. The spell is simply put into your graveyard. You won’t get to cast it again next turn.
+  - *2010-06-15* — If you are unable to cast a card from exile this way, or you choose not to, nothing happens when the delayed triggered ability resolves. The card remains exiled for the rest of the game, and you won’t get another chance to cast the card. The same is true if the ability is countered (due to Stifle, perhaps).
+  - *2010-06-15* — If you cast a card from exile this way, it will go to your graveyard when it resolves, fails to resolve, or is countered. It won’t go back to exile.
+  - *2010-06-15* — If you cast a spell with rebound from anywhere other than your hand (such as from your graveyard due to Sins of the Past, from your library due to cascade, or from your opponent’s hand due to Sen Triplets), rebound won’t have any effect. If you do cast it from your hand, rebound will work regardless of whether you paid its mana cost (for example, if you cast it from your hand due to Maelstrom Archangel).
+  - *2010-06-15* — If you cast a spell with rebound from your hand and it resolves, it isn’t put into your graveyard. Rather, it’s exiled directly from the stack. Effects that care about cards being put into your graveyard won’t do anything.
+  - *2010-06-15* — Rebound will have no effect on copies of spells because you don’t cast them from your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/154/recurring-insight) · oracle_id `c6815bbb-24a5-4c9f-bf30-6190bc766d05` · printing: MSC #154 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Recurring Nightmare
 

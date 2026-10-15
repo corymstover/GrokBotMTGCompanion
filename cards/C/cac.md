@@ -46,7 +46,11 @@
   > Mill four cards. You may put a permanent card from among the cards milled this way into your hand. If you control a Squirrel or returned a Squirrel card to your hand this way, create a Food token. (To mill four cards, put the top four cards of your library into your graveyard. A Food token is an artifact with "{2}, {T}, Sacrifice this token: You gain 3 life.")
 - **Keywords:** Food, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5088 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/167/cache-grab) · oracle_id `06ccec61-27d2-4079-80b5-29ebd3a980ee` · printing: BLB #167 (2024-08-02) · [rulings](https://api.scryfall.com/cards/dfd977dc-a7c3-4d0a-aca7-b25bd154e963/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/167/cache-grab) · oracle_id `06ccec61-27d2-4079-80b5-29ebd3a980ee` · printing: BLB #167 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cache Raiders
 
@@ -69,7 +73,19 @@
   > Flashback {5}{U}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2927 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/55/cackling-counterpart) · oracle_id `9e2adca5-f39c-4a09-bcce-8238ebac2c4a` · printing: INR #55 (2025-01-24) · [rulings](https://api.scryfall.com/cards/a865fdc5-955a-4c4a-90c0-342c15fd7bbc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2024-11-08* — "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2024-11-08* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2024-11-08* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2024-11-08* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2024-11-08* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2024-11-08* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+  - *2025-01-24* — Any “enters” triggered ability of the copied creature will trigger when the token enters the battlefield. Any “as [this creature] enters” or “[this creature] enters with” abilities of the chosen creature will also work.
+  - *2025-01-24* — If the copied creature has {X} in its mana cost, X is considered to be 0.
+  - *2025-01-24* — If the copied creature is a token, the token that’s created copies the original characteristics of that token as stated by the effect that created the token.
+  - *2025-01-24* — If the copied creature is copying something else, then the token enters the battlefield as whatever that creature copied.
+  - *2025-01-24* — The token copies exactly what was printed on the original creature and nothing else (unless that creature is copying something else or is a token; see below). It doesn’t copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/55/cackling-counterpart) · oracle_id `9e2adca5-f39c-4a09-bcce-8238ebac2c4a` · printing: INR #55 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cackling Fiend
 
@@ -182,7 +198,10 @@
   > When this enchantment enters, if you cast it, destroy all nonenchantment creatures.
   > Whenever this enchantment or another enchantment you control enters, until end of turn, this enchantment becomes a legendary 6/6 Nightmare God creature with menace and deathtouch. It's still an enchantment.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7195 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/730/cacophony-unleashed) · oracle_id `1f6056be-67c8-40a9-86ef-1606961644eb` · printing: CMM #730 (2023-08-04) · [rulings](https://api.scryfall.com/cards/908d9aa5-818c-4651-b135-cc6d1983ad99/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-07-28* — A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.
+  - *2023-07-28* — You can't cast an Aura with "enchant creature" targeting Cacophony Unleashed unless it's already a creature before you cast that Aura.  When Cacophony Unleashed stops being a creature, any such auras will be put into their owners' graveyards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/730/cacophony-unleashed) · oracle_id `1f6056be-67c8-40a9-86ef-1606961644eb` · printing: CMM #730 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cactarantula
 
@@ -222,7 +241,9 @@
   > At the beginning of combat on your turn, other creatures you control with power 4 or greater gain trample and haste until end of turn.
 - **Keywords:** Reach, Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5885 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/199/cactusfolk-sureshot) · oracle_id `05f15b7b-28bf-4b63-a4ca-b57712a1a66a` · printing: OTJ #199 (2024-04-19) · [rulings](https://api.scryfall.com/cards/318b8c5d-9fb0-488f-9b32-c2e29d1f1dbb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-04-12* — Cactusfolk Sureshot’s last ability affects only creatures you control at the time it resolves. Creatures you control with power 4 or greater you begin to control later in the turn won’t gain trample or haste.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/199/cactusfolk-sureshot) · oracle_id `05f15b7b-28bf-4b63-a4ca-b57712a1a66a` · printing: OTJ #199 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cactus Preserve
 
@@ -233,4 +254,12 @@
   > {T}: Add one mana of any type that a land you control could produce.
   > {3}: Until end of turn, this land becomes an X/X green Plant creature with reach, where X is the greatest mana value among your commanders. It's still a land.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3954 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/40/cactus-preserve) · oracle_id `8da29533-f389-4bc2-ab9b-b469f893a362` · printing: OTC #40 (2024-04-19) · [rulings](https://api.scryfall.com/cards/ad9d426f-5870-42bb-a589-9218f7e35d62/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2024-04-12* — Any change to a land’s type or abilities gained by a land can affect the types of mana a land can produce.
+  - *2024-04-12* — Cactus Preserve doesn’t care about any restrictions or riders your lands put on the mana they produce, such as that of Bucolic Ranch or the ability granted by Discreet Retreat. It just produces one mana of the appropriate type, with no restrictions or riders.
+  - *2024-04-12* — Cactus Preserve’s second ability checks the effects of all mana-producing abilities of lands you control, but it doesn’t check their costs or legality. For example, Spire of Industry says “{T}, Pay 1 life: Add one mana of any color. Activate only if you control an artifact.” If you control Spire of Industry and Cactus Preserve, you can tap Cactus Preserve for any color of mana. It doesn’t matter whether you control an artifact, whether you can pay 1 life, or whether Spire of Industry is untapped.
+  - *2024-04-12* — Desert is a land subtype with no special meaning. It doesn’t grant the land an intrinsic mana ability. Other cards may care about which lands are Deserts.
+  - *2024-04-12* — If Cactus Preserve becomes a creature but you haven’t controlled it continuously since your most recent turn began, you won’t be able to activate its mana ability or attack with it that turn.
+  - *2024-04-12* — It doesn’t matter where your commander is (or commanders are, if you have more than one because of the partner ability or similar). The value of X will be calculated using your commander’s current characteristics. (Mana value typically doesn’t change, but your commander may become a copy of something else.)
+  - *2024-04-12* — The types of mana are white, blue, black, red, green, and colorless.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/40/cactus-preserve) · oracle_id `8da29533-f389-4bc2-ab9b-b469f893a362` · printing: OTC #40 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

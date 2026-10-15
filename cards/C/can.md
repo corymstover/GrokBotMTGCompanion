@@ -118,7 +118,11 @@
 - **Flavor text** (ME4 printing):
   > *Tawnos learned quickly from Urza that utter simplicity often led to wondrous, yet subtle utility.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6527 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/me4/187/candelabra-of-tawnos) · oracle_id `c7c7bffa-442d-4ba5-b778-ad394c192f27` · printing: ME4 #187 (2011-01-10) · [rulings](https://api.scryfall.com/cards/5e8416b8-aae1-4599-9e22-650dd86aefcb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-10-04* — Can be used on an untapped land.
+  - *2004-10-04* — This is not mana ability. It is a normal ability and it will resolve along with other spells and abilities on the stack. The lands untap during resolution.
+  - *2004-10-04* — You may untap your opponent's lands if desired.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me4/187/candelabra-of-tawnos) · oracle_id `c7c7bffa-442d-4ba5-b778-ad394c192f27` · printing: ME4 #187 (2011-01-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Candlegrove Witch
 
@@ -142,7 +146,10 @@
 - **Flavor text** (CLB printing):
   > *Tales of heroes past galvanize the heroes of the future.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9725 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/59/candlekeep-inspiration) · oracle_id `32d666ff-4d6b-4c60-8d3d-5bdae2d475fa` · printing: CLB #59 (2022-06-10) · [rulings](https://api.scryfall.com/cards/33464767-45f3-42b8-8d83-33b090eead93/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-06-10* — The set of creatures that Candlekeep Inspiration applies to is locked in as it resolves. Creatures that enter the battlefield under your control after it resolves will not be affected.
+  - *2022-06-10* — The value of X is locked in at the time that Candlekeep Inspiration resolves. The power and toughness of creatures affected by it will not change as cards enter and leave exile and/or your graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/59/candlekeep-inspiration) · oracle_id `32d666ff-4d6b-4c60-8d3d-5bdae2d475fa` · printing: CLB #59 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Candlekeep Sage
 
@@ -153,7 +160,18 @@
 - **Flavor text** (CLB printing):
   > *You love the smell of dusty tomes, the flicker of candles during late-night reading, and the old texts that bring to life the scholars who have come before.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5642 · Game Changer: no · Can be commander: Only alongside a commander with *Choose a Background*
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/60/candlekeep-sage) · oracle_id `f9516b60-36dd-4f8a-bebb-ac1bc0961f07` · printing: CLB #60 (2022-06-10) · [rulings](https://api.scryfall.com/cards/6f706ac3-0ad8-44ac-a99e-21c04075951d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2022-06-10* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2022-06-10* — Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+  - *2022-06-10* — Choose a Background is a variant of the partner ability. You may have two commanders if one of them is a legendary creature with the choose a background ability and the other is a legendary Background enchantment. Backgrounds and cards with choose a Background do not interact with cards which have any other partner ability.
+  - *2022-06-10* — If a card refers to a commander creature you own, a Background won't usually be counted or included for that effect. If another spell or ability causes your Background to become a creature, however, it will be included. Any effect that refers to your commander or a commander you own or control without specifying creature will apply to a Background that is your commander, as appropriate.
+  - *2022-06-10* — If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+  - *2022-06-10* — If you control a Background that grants an ability to commander creatures you own, and you own more than one commander creature, each of them will have that ability.
+  - *2022-06-10* — If your Commander deck has two commanders, you can include only cards whose own color identities are also found in your commanders’ combined color identities.
+  - *2022-06-10* — If your commander loses the choose a Background ability or stops being a Background during the game, as appropriate, it is still your commander.
+  - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won’t have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won’t usually be a creature anyway).
+  - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/60/candlekeep-sage) · oracle_id `f9516b60-36dd-4f8a-bebb-ac1bc0961f07` · printing: CLB #60 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Candlelight Vigil
 
@@ -254,6 +272,7 @@
   > *—Daniela, Edgewall youth*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6823 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/243/candy-trail) · oracle_id `7c8e4f29-53e0-4242-8ef8-7a9476dce178` · printing: WOE #243 (2023-09-08) · [rulings](https://api.scryfall.com/cards/1a860925-d912-49e5-9ddc-41ab26916bb3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Canker Abomination
@@ -331,7 +350,9 @@
   > Feeder Mandibles — When this creature enters, exile target player's graveyard. For each artifact or land card exiled this way, create a 1/1 colorless Insect artifact creature token with flying.
 - **Keywords:** Flying, Feeder Mandibles
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4097 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/40k/150/canoptek-scarab-swarm) · oracle_id `5b7f6cc3-8d4e-42e5-a908-7ebe3bccaf1e` · printing: 40K #150 (2022-10-07) · [rulings](https://api.scryfall.com/cards/3ce2021c-1422-4901-a554-2d4fab72c8e4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-10-07* — If an exiled card is both an artifact card and a land card, you will create one token, not two.
+- **Source flags:** [Scryfall](https://scryfall.com/card/40k/150/canoptek-scarab-swarm) · oracle_id `5b7f6cc3-8d4e-42e5-a908-7ebe3bccaf1e` · printing: 40K #150 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Canoptek Spyder
 
@@ -343,6 +364,7 @@
   > Fabricator Claw Array — Whenever another nontoken artifact creature or Vehicle you control enters, draw a card.
 - **Keywords:** Flying, Fabricator Claw Array
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3347 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/151/canoptek-spyder) · oracle_id `bcad5b83-5513-4455-a9c9-716281505eaa` · printing: 40K #151 (2022-10-07) · [rulings](https://api.scryfall.com/cards/56ae1e4b-b620-480b-b6fc-66f2137d7d89/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Canoptek Tomb Sentinel
@@ -356,7 +378,13 @@
   > Unearth {7} ({7}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)
 - **Keywords:** Exile Cannon, Vigilance, Unearth
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8082 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/40k/152/canoptek-tomb-sentinel) · oracle_id `678b3fb5-aa9f-4268-9433-2a89dd37b927` · printing: 40K #152 (2022-10-07) · [rulings](https://api.scryfall.com/cards/aec9ba42-4c58-4e40-a8c5-63da81c44616/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2022-10-07* — Activating a permanent card's unearth ability isn't the same as casting it as a spell. The unearth ability is put on the stack, but the card is not. Spells and abilities that interact with activated abilities (such as Stifle) will interact with unearth, but spells and abilities that interact with spells (such as Cancel) will not.
+  - *2022-10-07* — At the beginning of the end step, a permanent returned to the battlefield with unearth is exiled. This is a delayed triggered ability, and it can be countered by effects that counter triggered abilities. If the ability is countered, the permanent will stay on the battlefield and the delayed trigger won't trigger again. However, the replacement effect will still exile it if it eventually leaves the battlefield.
+  - *2022-10-07* — If a permanent returned to the battlefield by an unearth ability would leave it for any reason, it's exiled instead—unless the spell or ability that's causing it to leave the battlefield is actually trying to exile it. In that case, the spell or ability succeeds at exiling the permanent. If the spell or ability later returns the card to the battlefield, it will return as a new object with no relation to its previous existence. The unearth effect will no longer apply to it.
+  - *2022-10-07* — If you activate a card's unearth ability but that card is removed from your graveyard before the ability resolves, that unearth ability will resolve and do nothing.
+  - *2022-10-07* — Unearth grants haste to the permanent that's returned to the battlefield. However, neither of the "exile" abilities is granted to that permanent. If that creature loses all its abilities, it will still be exiled at the beginning of the end step, and if it would leave the battlefield, it is still exiled instead.
+- **Source flags:** [Scryfall](https://scryfall.com/card/40k/152/canoptek-tomb-sentinel) · oracle_id `678b3fb5-aa9f-4268-9433-2a89dd37b927` · printing: 40K #152 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Canoptek Wraith
 
@@ -368,7 +396,9 @@
   > Transdimensional Scout — When this creature deals combat damage to a player, you may pay {3} and sacrifice it. If you do, choose a land you control. Then search your library for up to two basic land cards which have the same name as the chosen land, put them onto the battlefield tapped, then shuffle.
 - **Keywords:** Transdimensional Scout, Wraith Form
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6865 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/40k/153/canoptek-wraith) · oracle_id `61849685-b407-4ed0-aafc-ec3a003200b9` · printing: 40K #153 (2022-10-07) · [rulings](https://api.scryfall.com/cards/06199f88-720f-484a-953e-9189bafbe173/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-10-07* — Canoptek Wraith has received an update to its Oracle text to make it clearer that the two lands must have the same name as each other. Its triggered ability now reads "When Canoptek Wraith deals combat damage to a player, you may pay {3} and sacrifice it. If you do, choose a land you control. Then search your library for up to two basic land cards which have the same name as the chosen land, put them onto the battlefield tapped, then shuffle."
+- **Source flags:** [Scryfall](https://scryfall.com/card/40k/153/canoptek-wraith) · oracle_id `61849685-b407-4ed0-aafc-ec3a003200b9` · printing: 40K #153 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Canopy Baloth
 
@@ -405,7 +435,9 @@
   > Enchanted creature can't be the target of spells or abilities your opponents control.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4357 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/wwk/98/canopy-cover) · oracle_id `5b84101e-7e23-437d-835c-409bc061ecbb` · printing: WWK #98 (2010-02-05) · [rulings](https://api.scryfall.com/cards/4fcc34db-60be-4017-adfa-6bdfacec793f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-04-15* — This is not the same as hexproof. If, for example, you target one of your opponent’s creatures, your opponents won’t be able to target their own creature with spells or abilities.
+- **Source flags:** [Scryfall](https://scryfall.com/card/wwk/98/canopy-cover) · oracle_id `5b84101e-7e23-437d-835c-409bc061ecbb` · printing: WWK #98 (2010-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Canopy Crawler
 
@@ -446,6 +478,7 @@
   > *Its very presence forces nature to adapt.*
 - **Keywords:** Flying, Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3089 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/45/canopy-gargantuan) · oracle_id `ec1e69b1-f664-494b-8da2-c7199872b08b` · printing: TDC #45 (2025-04-11) · [rulings](https://api.scryfall.com/cards/87736547-7534-4f0a-86e0-be9b0428be1e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Canopy Gorger
@@ -508,7 +541,9 @@
 - **Flavor text** (KHM printing):
   > *"Death and life are two ends of the same spear."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3263 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/378/canopy-tactician) · oracle_id `8b20d6f4-6322-4435-92d5-acaae74774f4` · printing: KHM #378 (2021-02-05) · [rulings](https://api.scryfall.com/cards/3eaf48c9-09bc-4d81-a3a5-432219a71754/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-02-05* — Because damage remains marked on creatures until the damage is removed as the turn ends, nonlethal damage dealt to Elves you control may become lethal if Canopy Tactician leaves the battlefield that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/378/canopy-tactician) · oracle_id `8b20d6f4-6322-4435-92d5-acaae74774f4` · printing: KHM #378 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Canopy Vista
 

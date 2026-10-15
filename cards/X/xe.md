@@ -30,7 +30,22 @@
   > At the beginning of combat on your turn, another target creature you control gains haste and gets +X/+X until end of turn, where X is that creature's power.
 - **Keywords:** Indestructible
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1216 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/295/xenagos-god-of-revels) · oracle_id `cb15a8dd-57fe-466f-847e-66476b690a1f` · printing: LCC #295 (2023-11-17) · [rulings](https://api.scryfall.com/cards/6f1bc3bb-46da-492a-850c-f1f588ad8d18/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (14):
+  - *2013-09-15* — Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s).
+  - *2013-09-15* — If an activated ability or triggered ability has an effect that depends on your devotion to a color, you count the number of mana symbols of that color among the mana costs of permanents you control as the ability resolves. The permanent with that ability will be counted if it's still on the battlefield at that time.
+  - *2013-09-15* — Mana symbols in the text boxes of permanents you control don't count toward your devotion to any color.
+  - *2013-09-15* — Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don't count toward your devotion to any color.
+  - *2014-02-01* — The value of X is calculated only once, as the ability resolves.
+  - *2020-11-10* — As Xenagos enters the battlefield, your devotion to red and green will determine whether any replacement effects that affect creatures entering the battlefield apply. Because replacement effects are considered before Xenagos is on the battlefield, the mana symbols in its mana cost won't be counted when determining this.
+  - *2020-11-10* — Counters put on Xenagos remain on it while it's not a creature, even if they have no effect.
+  - *2020-11-10* — If Xenagos is attacking or blocking and it stops being a creature, it will be removed from combat. It won't rejoin combat if it resumes being a creature later during that combat.
+  - *2020-11-10* — If Xenagos stops being a creature, it loses the type creature and the creature type God. It continues to be a legendary enchantment.
+  - *2020-11-10* — If an effect causes Xenagos to lose all abilities, its ability that causes it to stop being a creature still applies if appropriate.
+  - *2020-11-10* — The type-changing ability that can make Xenagos not be a creature functions only on the battlefield. It's always a creature card in other zones, regardless of your devotion to red and green. It's always a creature spell while it's on the stack.
+  - *2020-11-10* — When Xenagos enters the battlefield, your devotion to red and green will determine if a creature entered the battlefield or not for abilities that trigger whenever a creature enters the battlefield. The mana symbols in Xenagos's own mana cost are counted when determining this.
+  - *2020-11-10* — Xenagos's abilities function as long as it's on the battlefield, regardless of whether it's a creature.
+  - *2020-11-10* — Your devotion to two colors is the number of mana symbols among mana costs of permanents you control that are the first color, the second, or both. If an effect counts your devotion to two colors, a hybrid symbol that is both of those colors is counted just once.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/295/xenagos-god-of-revels) · oracle_id `cb15a8dd-57fe-466f-847e-66476b690a1f` · printing: LCC #295 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Xenagos's Scorn
 
@@ -60,7 +75,10 @@
   > 0: Create a 2/2 red and green Satyr creature token with haste.
   > −6: Exile the top seven cards of your library. You may put any number of creature and/or land cards from among them onto the battlefield.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5084 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/853/xenagos-the-reveler) · oracle_id `942a318e-90eb-4f10-bb30-2e10f5cc922a` · printing: CLB #853 (2022-06-10) · [rulings](https://api.scryfall.com/cards/edfd90ee-a142-4a80-b383-802bbee2cef1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-09-15* — Creature cards with bestow put onto the battlefield with the third ability will be creatures on the battlefield, not Auras.
+  - *2013-09-15* — Xenagos's first ability isn't a mana ability. It uses the stack and can be responded to. Count the number of creatures you control as the ability resolves to determine how much mana to add. You choose how much of that mana is red and how much is green at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/853/xenagos-the-reveler) · oracle_id `942a318e-90eb-4f10-bb30-2e10f5cc922a` · printing: CLB #853 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Xenic Poltergeist
 

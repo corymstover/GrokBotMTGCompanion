@@ -162,7 +162,28 @@
   > *As the lazotep covered his body, he heard Norn's voice fade from a deafening clarion to a distant whisper.*
 - **Keywords:** Transform, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8519 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/231/invasion-of-amonkhet-lazotep-convert) · oracle_id `fd9b8889-a78a-4cda-9a6b-39f5536c3a0b` · printing: MOM #231 (2023-04-21) · [rulings](https://api.scryfall.com/cards/981f091a-17f8-412e-9752-69070ebed4ea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (20):
+  - *2023-04-14* — A Siege’s controller can’t be its protector. If a Siege’s protector ever gains control of it, they choose a new player to be its protector. This is a state-based action.
+  - *2023-04-14* — A battle can be attacked by all players other than its protector. Notably, this means a Siege’s controller can attack it.
+  - *2023-04-14* — A battle can be dealt damage and be target of spells and/or abilities that target “any target.”
+  - *2023-04-14* — A battle’s “defense” is displayed in the bottom right corner of the card. A battle enters the battlefield with that number of defense counters. If another permanent enters the battlefield as a copy of a battle, it also enters with that number of defense counters.
+  - *2023-04-14* — Any enters-the-battlefield abilities of the copied creature card will trigger when Lazotep Convert enters the battlefield. Any “as [this creature] enters the battlefield” or “[this creature] enters the battlefield with” abilities of the chosen creature card will also work.
+  - *2023-04-14* — As a Siege enters the battlefield, its controller chooses an opponent to be its protector.
+  - *2023-04-14* — Battles can’t attack or block, even if one also becomes a creature. If an attacking or blocking creature somehow becomes a battle in addition to being a creature, it is removed from combat.
+  - *2023-04-14* — Damage dealt to a battle causes that many defense counters to be removed from it.
+  - *2023-04-14* — If a Siege never had defense counters on it (perhaps because a permanent became a copy of one), it can’t have its last defense counter removed. It will be put into its owner’s graveyard. You won’t exile it or cast the other face.
+  - *2023-04-14* — If a battle has no defense counters, and it isn’t the source of a triggered ability that has triggered but not yet left the stack, that battle is put into its owner’s graveyard. This is a state-based action. This doesn’t cause a Siege’s intrinsic triggered ability to trigger.
+  - *2023-04-14* — If a battle that’s being attacked somehow stops being a battle, it is removed from combat. Similarly, if its controller changes in the middle of combat, it is removed from combat.
+  - *2023-04-14* — If a non-battle permanent that is already on the battlefield become a copy of a Siege, its controller chooses one of their opponents to be that battle’s protector. However, it will most likely be put into its owner’s graveyard because it has no defense counters (see below).
+  - *2023-04-14* — If a permanent that is represented by a transforming double-faced card becomes a copy of a Siege, it will be exiled as that Siege’s triggered ability resolves, then it will be cast transformed. Note that this applies only to transforming double-faced cards, not to modal double-faced cards that can normally be played using either face.
+  - *2023-04-14* — If a token or a card that isn’t represented by a transforming double-faced card becomes a copy of a Siege, it can’t be cast as its triggered ability resolves. It will remain in exile. If it’s a token, it will cease to exist the next time state-based actions are performed.
+  - *2023-04-14* — In a multiplayer game, if the protector of a battle leaves the game and that battle is not currently being attacked, its controller chooses a new protector for it as a state-based action. If it is being attacked, its controller chooses a new protector for it once no creatures are attacking it. This means that it continues to be attacked and can be dealt combat damage as normal.
+  - *2023-04-14* — Lazotep Convert copies exactly what was printed on the original creature card, with the noted exceptions.
+  - *2023-04-14* — Lazotep Convert has received an update to its official rules text to clarify that it keeps its other colors and types as part of its copy effect.
+  - *2023-04-14* — Only creatures controlled by a battle’s protector can block creatures that are attacking that battle. This means a Siege’s controller can never assign creatures to block for it.
+  - *2023-04-14* — Sieges each have an intrinsic triggered ability. That ability is “When the last defense counter is removed from this permanent, exile it, then you may cast it transformed without paying its mana cost.”
+  - *2023-04-14* — To resolve Invasion of Amonkhet’s enters-the-battlefield ability, first each player mills three cards. Then the next opponent in turn order (or, if it’s an opponent’s turn, the opponent whose turn it is) chooses a card in hand and sets it aside without revealing it. Then each other opponent in turn order does the same. Finally, all chosen cards are revealed and discarded at the same time. Finally, you draw a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/231/invasion-of-amonkhet-lazotep-convert) · oracle_id `fd9b8889-a78a-4cda-9a6b-39f5536c3a0b` · printing: MOM #231 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Invasion of Arcavios // Invocation of the Founders
 
@@ -277,7 +298,25 @@
   > At the beginning of your upkeep, if you haven't been dealt combat damage since your last turn, you draw a card and you lose 1 life.
 - **Keywords:** Transform, Menace, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6693 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/114/invasion-of-fiora-marchesa-resolute-monarch) · oracle_id `7209f2b6-8851-42ab-bac6-5cf06e211e46` · printing: MOM #114 (2023-04-21) · [rulings](https://api.scryfall.com/cards/b3af679b-6ee6-4a1d-8ec3-b659bdd90b4a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (17):
+  - *2023-04-14* — A Siege’s controller can’t be its protector. If a Siege’s protector ever gains control of it, they choose a new player to be its protector. This is a state-based action.
+  - *2023-04-14* — A battle can be attacked by all players other than its protector. Notably, this means a Siege’s controller can attack it.
+  - *2023-04-14* — A battle can be dealt damage and be target of spells and/or abilities that target “any target.”
+  - *2023-04-14* — A battle’s “defense” is displayed in the bottom right corner of the card. A battle enters the battlefield with that number of defense counters. If another permanent enters the battlefield as a copy of a battle, it also enters with that number of defense counters.
+  - *2023-04-14* — As a Siege enters the battlefield, its controller chooses an opponent to be its protector.
+  - *2023-04-14* — Battles can’t attack or block, even if one also becomes a creature. If an attacking or blocking creature somehow becomes a battle in addition to being a creature, it is removed from combat.
+  - *2023-04-14* — Damage dealt to a battle causes that many defense counters to be removed from it.
+  - *2023-04-14* — If a Siege never had defense counters on it (perhaps because a permanent became a copy of one), it can’t have its last defense counter removed. It will be put into its owner’s graveyard. You won’t exile it or cast the other face.
+  - *2023-04-14* — If a battle has no defense counters, and it isn’t the source of a triggered ability that has triggered but not yet left the stack, that battle is put into its owner’s graveyard. This is a state-based action. This doesn’t cause a Siege’s intrinsic triggered ability to trigger.
+  - *2023-04-14* — If a battle that’s being attacked somehow stops being a battle, it is removed from combat. Similarly, if its controller changes in the middle of combat, it is removed from combat.
+  - *2023-04-14* — If a non-battle permanent that is already on the battlefield become a copy of a Siege, its controller chooses one of their opponents to be that battle’s protector. However, it will most likely be put into its owner’s graveyard because it has no defense counters (see below).
+  - *2023-04-14* — If a permanent that is represented by a transforming double-faced card becomes a copy of a Siege, it will be exiled as that Siege’s triggered ability resolves, then it will be cast transformed. Note that this applies only to transforming double-faced cards, not to modal double-faced cards that can normally be played using either face.
+  - *2023-04-14* — If a token or a card that isn’t represented by a transforming double-faced card becomes a copy of a Siege, it can’t be cast as its triggered ability resolves. It will remain in exile. If it’s a token, it will cease to exist the next time state-based actions are performed.
+  - *2023-04-14* — If you choose both modes for Invasion of Fiora’s enters-the-battlefield ability, the modes happen in order. First all legendary creatures are destroyed, then all nonlegendary creatures.
+  - *2023-04-14* — In a multiplayer game, if the protector of a battle leaves the game and that battle is not currently being attacked, its controller chooses a new protector for it as a state-based action. If it is being attacked, its controller chooses a new protector for it once no creatures are attacking it. This means that it continues to be attacked and can be dealt combat damage as normal.
+  - *2023-04-14* — Only creatures controlled by a battle’s protector can block creatures that are attacking that battle. This means a Siege’s controller can never assign creatures to block for it.
+  - *2023-04-14* — Sieges each have an intrinsic triggered ability. That ability is “When the last defense counter is removed from this permanent, exile it, then you may cast it transformed without paying its mana cost.”
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/114/invasion-of-fiora-marchesa-resolute-monarch) · oracle_id `7209f2b6-8851-42ab-bac6-5cf06e211e46` · printing: MOM #114 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Invasion of Gobakhan // Lightshield Array
 
@@ -293,7 +332,27 @@
   > *The weight of Phyrexia crashed down upon Gobakhan, but the will of its people endured.*
 - **Keywords:** Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8655 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/22/invasion-of-gobakhan-lightshield-array) · oracle_id `86c32a56-3272-4738-b0b3-a8aa49a17ce4` · printing: MOM #22 (2023-04-21) · [rulings](https://api.scryfall.com/cards/11798730-6788-4e0b-a828-b46cab1a4fa7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (19):
+  - *2023-04-14* — A Siege’s controller can’t be its protector. If a Siege’s protector ever gains control of it, they choose a new player to be its protector. This is a state-based action.
+  - *2023-04-14* — A battle can be attacked by all players other than its protector. Notably, this means a Siege’s controller can attack it.
+  - *2023-04-14* — A battle can be dealt damage and be target of spells and/or abilities that target “any target.”
+  - *2023-04-14* — A battle’s “defense” is displayed in the bottom right corner of the card. A battle enters the battlefield with that number of defense counters. If another permanent enters the battlefield as a copy of a battle, it also enters with that number of defense counters.
+  - *2023-04-14* — As a Siege enters the battlefield, its controller chooses an opponent to be its protector.
+  - *2023-04-14* — Battles can’t attack or block, even if one also becomes a creature. If an attacking or blocking creature somehow becomes a battle in addition to being a creature, it is removed from combat.
+  - *2023-04-14* — Damage dealt to a battle causes that many defense counters to be removed from it.
+  - *2023-04-14* — If a Siege never had defense counters on it (perhaps because a permanent became a copy of one), it can’t have its last defense counter removed. It will be put into its owner’s graveyard. You won’t exile it or cast the other face.
+  - *2023-04-14* — If a battle has no defense counters, and it isn’t the source of a triggered ability that has triggered but not yet left the stack, that battle is put into its owner’s graveyard. This is a state-based action. This doesn’t cause a Siege’s intrinsic triggered ability to trigger.
+  - *2023-04-14* — If a battle that’s being attacked somehow stops being a battle, it is removed from combat. Similarly, if its controller changes in the middle of combat, it is removed from combat.
+  - *2023-04-14* — If a non-battle permanent that is already on the battlefield become a copy of a Siege, its controller chooses one of their opponents to be that battle’s protector. However, it will most likely be put into its owner’s graveyard because it has no defense counters (see below).
+  - *2023-04-14* — If a permanent that is represented by a transforming double-faced card becomes a copy of a Siege, it will be exiled as that Siege’s triggered ability resolves, then it will be cast transformed. Note that this applies only to transforming double-faced cards, not to modal double-faced cards that can normally be played using either face.
+  - *2023-04-14* — If a token or a card that isn’t represented by a transforming double-faced card becomes a copy of a Siege, it can’t be cast as its triggered ability resolves. It will remain in exile. If it’s a token, it will cease to exist the next time state-based actions are performed.
+  - *2023-04-14* — If the exiled card is a modal double-faced card and its back face is a land, its owner may play it as a land. (Note that if the front face is also a land, you couldn’t have exiled it to begin with.)
+  - *2023-04-14* — In a multiplayer game, if the protector of a battle leaves the game and that battle is not currently being attacked, its controller chooses a new protector for it as a state-based action. If it is being attacked, its controller chooses a new protector for it once no creatures are attacking it. This means that it continues to be attacked and can be dealt combat damage as normal.
+  - *2023-04-14* — Only creatures controlled by a battle’s protector can block creatures that are attacking that battle. This means a Siege’s controller can never assign creatures to block for it.
+  - *2023-04-14* — Playing the exiled card follows all normal timing restrictions.
+  - *2023-04-14* — Sieges each have an intrinsic triggered ability. That ability is “When the last defense counter is removed from this permanent, exile it, then you may cast it transformed without paying its mana cost.”
+  - *2023-04-14* — The set of creatures affected by Lightshield Array’s last ability is determined as the ability resolves. Creatures you begin to control later in the turn and noncreature permanents that become creatures later in the turn won’t gain hexproof and indestructible.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/22/invasion-of-gobakhan-lightshield-array) · oracle_id `86c32a56-3272-4738-b0b3-a8aa49a17ce4` · printing: MOM #22 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Invasion of Ikoria // Zilortha, Apex of Ikoria
 
@@ -310,7 +369,27 @@
   > *Phyrexia's largest goliaths stormed Ikoria, ready to challenge the world's great monsters. Zilortha was unimpressed.*
 - **Keywords:** Reach, Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1412 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/190/invasion-of-ikoria-zilortha-apex-of-ikoria) · oracle_id `21d90735-5e04-4a8c-a546-ff26d4d5998d` · printing: MOM #190 (2023-04-21) · [rulings](https://api.scryfall.com/cards/5d59c8f2-f6af-40a6-8dfe-8cc45bf231ce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (19):
+  - *2023-04-14* — A Siege’s controller can’t be its protector. If a Siege’s protector ever gains control of it, they choose a new player to be its protector. This is a state-based action.
+  - *2023-04-14* — A battle can be attacked by all players other than its protector. Notably, this means a Siege’s controller can attack it.
+  - *2023-04-14* — A battle can be dealt damage and be target of spells and/or abilities that target “any target.”
+  - *2023-04-14* — A battle’s “defense” is displayed in the bottom right corner of the card. A battle enters the battlefield with that number of defense counters. If another permanent enters the battlefield as a copy of a battle, it also enters with that number of defense counters.
+  - *2023-04-14* — As a Siege enters the battlefield, its controller chooses an opponent to be its protector.
+  - *2023-04-14* — Assigning a creature’s damage as though it weren’t blocked is all or nothing. You can’t use this effect to assign some of the creature’s damage to a blocking creature and the rest to the player, planeswalker, or battle it’s attacking.
+  - *2023-04-14* — Battles can’t attack or block, even if one also becomes a creature. If an attacking or blocking creature somehow becomes a battle in addition to being a creature, it is removed from combat.
+  - *2023-04-14* — Damage dealt to a battle causes that many defense counters to be removed from it.
+  - *2023-04-14* — Even if a creature assigns damage as though it were not blocked, it will still receive damage from creatures that are blocking it.
+  - *2023-04-14* — If a Siege never had defense counters on it (perhaps because a permanent became a copy of one), it can’t have its last defense counter removed. It will be put into its owner’s graveyard. You won’t exile it or cast the other face.
+  - *2023-04-14* — If a battle has no defense counters, and it isn’t the source of a triggered ability that has triggered but not yet left the stack, that battle is put into its owner’s graveyard. This is a state-based action. This doesn’t cause a Siege’s intrinsic triggered ability to trigger.
+  - *2023-04-14* — If a battle that’s being attacked somehow stops being a battle, it is removed from combat. Similarly, if its controller changes in the middle of combat, it is removed from combat.
+  - *2023-04-14* — If a non-battle permanent that is already on the battlefield become a copy of a Siege, its controller chooses one of their opponents to be that battle’s protector. However, it will most likely be put into its owner’s graveyard because it has no defense counters (see below).
+  - *2023-04-14* — If a permanent that is represented by a transforming double-faced card becomes a copy of a Siege, it will be exiled as that Siege’s triggered ability resolves, then it will be cast transformed. Note that this applies only to transforming double-faced cards, not to modal double-faced cards that can normally be played using either face.
+  - *2023-04-14* — If a token or a card that isn’t represented by a transforming double-faced card becomes a copy of a Siege, it can’t be cast as its triggered ability resolves. It will remain in exile. If it’s a token, it will cease to exist the next time state-based actions are performed.
+  - *2023-04-14* — In a multiplayer game, if the protector of a battle leaves the game and that battle is not currently being attacked, its controller chooses a new protector for it as a state-based action. If it is being attacked, its controller chooses a new protector for it once no creatures are attacking it. This means that it continues to be attacked and can be dealt combat damage as normal.
+  - *2023-04-14* — Only creatures controlled by a battle’s protector can block creatures that are attacking that battle. This means a Siege’s controller can never assign creatures to block for it.
+  - *2023-04-14* — Sieges each have an intrinsic triggered ability. That ability is “When the last defense counter is removed from this permanent, exile it, then you may cast it transformed without paying its mana cost.”
+  - *2023-04-14* — You decide whether to assign a non-Human creature’s combat damage as though it weren’t blocked just before it assigns that damage. You may make a different choice for each non-Human creature you control—that is, you may have none, some, or all of those creatures assign combat damage as though they weren’t blocked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/190/invasion-of-ikoria-zilortha-apex-of-ikoria) · oracle_id `21d90735-5e04-4a8c-a546-ff26d4d5998d` · printing: MOM #190 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Invasion of Innistrad // Deluge of the Dead
 
@@ -379,7 +458,30 @@
   > *The warriors of Kaldheim burned the soul of their world to keep it out of Phyrexia's hands.*
 - **Keywords:** Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8506 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/145/invasion-of-kaldheim-pyre-of-the-world-tree) · oracle_id `66914a34-59b3-48a0-9305-ebd956d34f02` · printing: MOM #145 (2023-04-21) · [rulings](https://api.scryfall.com/cards/f7cedd62-efc8-464d-8387-220bb55e07e9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (22):
+  - *2023-04-14* — A Siege’s controller can’t be its protector. If a Siege’s protector ever gains control of it, they choose a new player to be its protector. This is a state-based action.
+  - *2023-04-14* — A battle can be attacked by all players other than its protector. Notably, this means a Siege’s controller can attack it.
+  - *2023-04-14* — A battle can be dealt damage and be target of spells and/or abilities that target “any target.”
+  - *2023-04-14* — A battle’s “defense” is displayed in the bottom right corner of the card. A battle enters the battlefield with that number of defense counters. If another permanent enters the battlefield as a copy of a battle, it also enters with that number of defense counters.
+  - *2023-04-14* — Any cards you don’t play will remain exiled.
+  - *2023-04-14* — As a Siege enters the battlefield, its controller chooses an opponent to be its protector.
+  - *2023-04-14* — Battles can’t attack or block, even if one also becomes a creature. If an attacking or blocking creature somehow becomes a battle in addition to being a creature, it is removed from combat.
+  - *2023-04-14* — Both Invasion of Kaldheim and Pyre of the World Tree have an ability that allow you to play cards from exile. You may play those cards during the specified duration even if the permanent with the ability leaves the battlefield or you lose control of it.
+  - *2023-04-14* — Damage dealt to a battle causes that many defense counters to be removed from it.
+  - *2023-04-14* — If a Siege never had defense counters on it (perhaps because a permanent became a copy of one), it can’t have its last defense counter removed. It will be put into its owner’s graveyard. You won’t exile it or cast the other face.
+  - *2023-04-14* — If a battle has no defense counters, and it isn’t the source of a triggered ability that has triggered but not yet left the stack, that battle is put into its owner’s graveyard. This is a state-based action. This doesn’t cause a Siege’s intrinsic triggered ability to trigger.
+  - *2023-04-14* — If a battle that’s being attacked somehow stops being a battle, it is removed from combat. Similarly, if its controller changes in the middle of combat, it is removed from combat.
+  - *2023-04-14* — If a non-battle permanent that is already on the battlefield become a copy of a Siege, its controller chooses one of their opponents to be that battle’s protector. However, it will most likely be put into its owner’s graveyard because it has no defense counters (see below).
+  - *2023-04-14* — If a permanent that is represented by a transforming double-faced card becomes a copy of a Siege, it will be exiled as that Siege’s triggered ability resolves, then it will be cast transformed. Note that this applies only to transforming double-faced cards, not to modal double-faced cards that can normally be played using either face.
+  - *2023-04-14* — If a token or a card that isn’t represented by a transforming double-faced card becomes a copy of a Siege, it can’t be cast as its triggered ability resolves. It will remain in exile. If it’s a token, it will cease to exist the next time state-based actions are performed.
+  - *2023-04-14* — If that ability triggers during the cleanup step because you discarded a land card to bring your hand size down to your maximum hand size, you will get priority after the ability resolves, so you’ll have a chance to cast an instant card or a card with flash you exiled. Whether you cast the exiled card or not, there will be then be another cleanup step before the turn ends.
+  - *2023-04-14* — In a multiplayer game, if the protector of a battle leaves the game and that battle is not currently being attacked, its controller chooses a new protector for it as a state-based action. If it is being attacked, its controller chooses a new protector for it once no creatures are attacking it. This means that it continues to be attacked and can be dealt combat damage as normal.
+  - *2023-04-14* — Only creatures controlled by a battle’s protector can block creatures that are attacking that battle. This means a Siege’s controller can never assign creatures to block for it.
+  - *2023-04-14* — Playing the exiled cards follows the normal rules for playing those cards. You must pay their costs, and you must follow all applicable timing rules. For example, if one of the cards is a creature card, you can cast that card by paying its mana cost only during your main phase while the stack is empty.
+  - *2023-04-14* — Sieges each have an intrinsic triggered ability. That ability is “When the last defense counter is removed from this permanent, exile it, then you may cast it transformed without paying its mana cost.”
+  - *2023-04-14* — The last ability of Pyre of the World Tree will trigger whenever you discard a land card for any reason, not just because you activated its other ability.
+  - *2023-04-14* — Unless an effect allows you to play additional lands that turn, you can play an exiled land card only if you haven’t played a land yet that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/145/invasion-of-kaldheim-pyre-of-the-world-tree) · oracle_id `66914a34-59b3-48a0-9305-ebd956d34f02` · printing: MOM #145 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Invasion of Kamigawa // Rooftop Saboteurs
 
@@ -587,7 +689,31 @@
   > At the beginning of your end step, untap up to four target creatures.
 - **Keywords:** Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5662 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/63/invasion-of-segovia-caetus-sea-tyrant-of-segovia) · oracle_id `7b3c0d89-55ed-43d7-a00a-7b060857ec4e` · printing: MOM #63 (2023-04-21) · [rulings](https://api.scryfall.com/cards/9df3e743-7bb8-482a-afd1-4d51119d416c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (23):
+  - *2023-04-14* — A Siege's controller can't be its protector. If a Siege's protector ever gains control of it, they choose a new player to be its protector. This is a state-based action.
+  - *2023-04-14* — A battle can be attacked by all players other than its protector. Notably, this means a Siege's controller can attack it.
+  - *2023-04-14* — A battle can be dealt damage and be target of spells and/or abilities that target "any target."
+  - *2023-04-14* — A battle's "defense" is displayed in the bottom right corner of the card. A battle enters the battlefield with that number of defense counters. If another permanent enters the battlefield as a copy of a battle, it also enters with that number of defense counters.
+  - *2023-04-14* — As a Siege enters the battlefield, its controller chooses an opponent to be its protector.
+  - *2023-04-14* — Battles can't attack or block, even if one also becomes a creature. If an attacking or blocking creature somehow becomes a battle in addition to being a creature, it is removed from combat.
+  - *2023-04-14* — Damage dealt to a battle causes that many defense counters to be removed from it.
+  - *2023-04-14* — If a Siege never had defense counters on it (perhaps because a permanent became a copy of one), it can't have its last defense counter removed. It will be put into its owner's graveyard. You won't exile it or cast the other face.
+  - *2023-04-14* — If a battle has no defense counters, and it isn't the source of a triggered ability that has triggered but not yet left the stack, that battle is put into its owner's graveyard. This is a state-based action. This doesn't cause a Siege's intrinsic triggered ability to trigger.
+  - *2023-04-14* — If a battle that's being attacked somehow stops being a battle, it is removed from combat. Similarly, if its controller changes in the middle of combat, it is removed from combat.
+  - *2023-04-14* — If a non-battle permanent that is already on the battlefield become a copy of a Siege, its controller chooses one of their opponents to be that battle's protector. However, it will most likely be put into its owner's graveyard because it has no defense counters (see below).
+  - *2023-04-14* — If a permanent that is represented by a transforming double-faced card becomes a copy of a Siege, it will be exiled as that Siege's triggered ability resolves, then it will be cast transformed. Note that this applies only to transforming double-faced cards, not to modal double-faced cards that can normally be played using either face.
+  - *2023-04-14* — If a token or a card that isn't represented by a transforming double-faced card becomes a copy of a Siege, it can't be cast as its triggered ability resolves. It will remain in exile. If it's a token, it will cease to exist the next time state-based actions are performed.
+  - *2023-04-14* — If you sacrifice Caetus while casting a noncreature spell (say, to activate a mana ability), the spell won't have convoke when you pay its costs unless it has convoke some other way.
+  - *2023-04-14* — In a multiplayer game, if the protector of a battle leaves the game and that battle is not currently being attacked, its controller chooses a new protector for it as a state-based action. If it is being attacked, its controller chooses a new protector for it once no creatures are attacking it. This means that it continues to be attacked and can be dealt combat damage as normal.
+  - *2023-04-14* — Only creatures controlled by a battle's protector can block creatures that are attacking that battle. This means a Siege's controller can never assign creatures to block for it.
+  - *2023-04-14* — Sieges each have an intrinsic triggered ability. That ability is "When the last defense counter is removed from this permanent, exile it, then you may cast it transformed without paying its mana cost."
+  - *2024-01-12* — Because convoke isn't an alternative cost, it can be used in conjunction with alternative costs.
+  - *2024-01-12* — If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.
+  - *2024-01-12* — Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature's colors.
+  - *2024-01-12* — Tapping an untapped creature that's attacking or blocking to convoke a spell won't cause that creature to stop attacking or blocking.
+  - *2024-01-12* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
+  - *2024-01-12* — You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/63/invasion-of-segovia-caetus-sea-tyrant-of-segovia) · oracle_id `7b3c0d89-55ed-43d7-a00a-7b060857ec4e` · printing: MOM #63 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Invasion of Shandalar // Leyline Surge
 
@@ -602,7 +728,24 @@
   > *Shandalar's wild magic stripped away the unnatural Phyrexian carapaces, reclaiming the true forms hidden underneath.*
 - **Keywords:** Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8444 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/193/invasion-of-shandalar-leyline-surge) · oracle_id `b5fe62f0-d914-4789-afd3-3831dcdbed7b` · printing: MOM #193 (2023-04-21) · [rulings](https://api.scryfall.com/cards/5f80764e-8fa2-44e2-84c6-3b55f1c40ee7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (16):
+  - *2023-04-14* — A Siege’s controller can’t be its protector. If a Siege’s protector ever gains control of it, they choose a new player to be its protector. This is a state-based action.
+  - *2023-04-14* — A battle can be attacked by all players other than its protector. Notably, this means a Siege’s controller can attack it.
+  - *2023-04-14* — A battle can be dealt damage and be target of spells and/or abilities that target “any target.”
+  - *2023-04-14* — A battle’s “defense” is displayed in the bottom right corner of the card. A battle enters the battlefield with that number of defense counters. If another permanent enters the battlefield as a copy of a battle, it also enters with that number of defense counters.
+  - *2023-04-14* — As a Siege enters the battlefield, its controller chooses an opponent to be its protector.
+  - *2023-04-14* — Battles can’t attack or block, even if one also becomes a creature. If an attacking or blocking creature somehow becomes a battle in addition to being a creature, it is removed from combat.
+  - *2023-04-14* — Damage dealt to a battle causes that many defense counters to be removed from it.
+  - *2023-04-14* — If a Siege never had defense counters on it (perhaps because a permanent became a copy of one), it can’t have its last defense counter removed. It will be put into its owner’s graveyard. You won’t exile it or cast the other face.
+  - *2023-04-14* — If a battle has no defense counters, and it isn’t the source of a triggered ability that has triggered but not yet left the stack, that battle is put into its owner’s graveyard. This is a state-based action. This doesn’t cause a Siege’s intrinsic triggered ability to trigger.
+  - *2023-04-14* — If a battle that’s being attacked somehow stops being a battle, it is removed from combat. Similarly, if its controller changes in the middle of combat, it is removed from combat.
+  - *2023-04-14* — If a non-battle permanent that is already on the battlefield become a copy of a Siege, its controller chooses one of their opponents to be that battle’s protector. However, it will most likely be put into its owner’s graveyard because it has no defense counters (see below).
+  - *2023-04-14* — If a permanent that is represented by a transforming double-faced card becomes a copy of a Siege, it will be exiled as that Siege’s triggered ability resolves, then it will be cast transformed. Note that this applies only to transforming double-faced cards, not to modal double-faced cards that can normally be played using either face.
+  - *2023-04-14* — If a token or a card that isn’t represented by a transforming double-faced card becomes a copy of a Siege, it can’t be cast as its triggered ability resolves. It will remain in exile. If it’s a token, it will cease to exist the next time state-based actions are performed.
+  - *2023-04-14* — In a multiplayer game, if the protector of a battle leaves the game and that battle is not currently being attacked, its controller chooses a new protector for it as a state-based action. If it is being attacked, its controller chooses a new protector for it once no creatures are attacking it. This means that it continues to be attacked and can be dealt combat damage as normal.
+  - *2023-04-14* — Only creatures controlled by a battle’s protector can block creatures that are attacking that battle. This means a Siege’s controller can never assign creatures to block for it.
+  - *2023-04-14* — Sieges each have an intrinsic triggered ability. That ability is “When the last defense counter is removed from this permanent, exile it, then you may cast it transformed without paying its mana cost.”
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/193/invasion-of-shandalar-leyline-surge) · oracle_id `b5fe62f0-d914-4789-afd3-3831dcdbed7b` · printing: MOM #193 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Invasion of Tarkir // Defiant Thundermaw
 
@@ -620,7 +763,26 @@
   > *—Sarkhan Vol*
 - **Keywords:** Flying, Transform, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8179 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/149/invasion-of-tarkir-defiant-thundermaw) · oracle_id `5c7f02ad-1daf-4d1a-bef0-0b2064f9b67e` · printing: MOM #149 (2023-04-21) · [rulings](https://api.scryfall.com/cards/a98f71a0-7c99-4cee-8f70-877e698cca84/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (18):
+  - *2023-04-14* — A Siege’s controller can’t be its protector. If a Siege’s protector ever gains control of it, they choose a new player to be its protector. This is a state-based action.
+  - *2023-04-14* — A battle can be attacked by all players other than its protector. Notably, this means a Siege’s controller can attack it.
+  - *2023-04-14* — A battle can be dealt damage and be target of spells and/or abilities that target “any target.”
+  - *2023-04-14* — A battle’s “defense” is displayed in the bottom right corner of the card. A battle enters the battlefield with that number of defense counters. If another permanent enters the battlefield as a copy of a battle, it also enters with that number of defense counters.
+  - *2023-04-14* — As a Siege enters the battlefield, its controller chooses an opponent to be its protector.
+  - *2023-04-14* — Battles can’t attack or block, even if one also becomes a creature. If an attacking or blocking creature somehow becomes a battle in addition to being a creature, it is removed from combat.
+  - *2023-04-14* — Damage dealt to a battle causes that many defense counters to be removed from it.
+  - *2023-04-14* — If a Siege never had defense counters on it (perhaps because a permanent became a copy of one), it can’t have its last defense counter removed. It will be put into its owner’s graveyard. You won’t exile it or cast the other face.
+  - *2023-04-14* — If a battle has no defense counters, and it isn’t the source of a triggered ability that has triggered but not yet left the stack, that battle is put into its owner’s graveyard. This is a state-based action. This doesn’t cause a Siege’s intrinsic triggered ability to trigger.
+  - *2023-04-14* — If a battle that’s being attacked somehow stops being a battle, it is removed from combat. Similarly, if its controller changes in the middle of combat, it is removed from combat.
+  - *2023-04-14* — If a non-battle permanent that is already on the battlefield become a copy of a Siege, its controller chooses one of their opponents to be that battle’s protector. However, it will most likely be put into its owner’s graveyard because it has no defense counters (see below).
+  - *2023-04-14* — If a permanent that is represented by a transforming double-faced card becomes a copy of a Siege, it will be exiled as that Siege’s triggered ability resolves, then it will be cast transformed. Note that this applies only to transforming double-faced cards, not to modal double-faced cards that can normally be played using either face.
+  - *2023-04-14* — If a token or a card that isn’t represented by a transforming double-faced card becomes a copy of a Siege, it can’t be cast as its triggered ability resolves. It will remain in exile. If it’s a token, it will cease to exist the next time state-based actions are performed.
+  - *2023-04-14* — If you don’t reveal any Dragon cards from your hand, the reflexive triggered ability will cause Invasion of Tarkir to deal 2 damage to the target of the ability.
+  - *2023-04-14* — In a multiplayer game, if the protector of a battle leaves the game and that battle is not currently being attacked, its controller chooses a new protector for it as a state-based action. If it is being attacked, its controller chooses a new protector for it once no creatures are attacking it. This means that it continues to be attacked and can be dealt combat damage as normal.
+  - *2023-04-14* — Invasion of Tarkir’s enters-the-battlefield ability triggers and goes on the stack without a target. As it resolves, you’ll reveal any number of Dragon cards from your hand. As the card reminds you, that number can be zero. Then the second “reflexive” triggered ability will trigger. You’ll choose the target for that second ability at that time.
+  - *2023-04-14* — Only creatures controlled by a battle’s protector can block creatures that are attacking that battle. This means a Siege’s controller can never assign creatures to block for it.
+  - *2023-04-14* — Sieges each have an intrinsic triggered ability. That ability is “When the last defense counter is removed from this permanent, exile it, then you may cast it transformed without paying its mana cost.”
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/149/invasion-of-tarkir-defiant-thundermaw) · oracle_id `5c7f02ad-1daf-4d1a-bef0-0b2064f9b67e` · printing: MOM #149 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Invasion of the Giants
 
@@ -650,7 +812,26 @@
   > *When the sun falters and the seas disperse, when the wilds wither and the forges go cold, when death itself succumbs, she endures.*
 - **Keywords:** Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7479 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/23/invasion-of-theros-ephara-ever-sheltering) · oracle_id `ba5f7f37-352a-4b9c-b648-0ba5c8d842fc` · printing: MOM #23 (2023-04-21) · [rulings](https://api.scryfall.com/cards/433e9f1c-9d6c-4c7e-89d0-79595b4331f2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (18):
+  - *2023-04-14* — A Siege’s controller can’t be its protector. If a Siege’s protector ever gains control of it, they choose a new player to be its protector. This is a state-based action.
+  - *2023-04-14* — A battle can be attacked by all players other than its protector. Notably, this means a Siege’s controller can attack it.
+  - *2023-04-14* — A battle can be dealt damage and be target of spells and/or abilities that target “any target.”
+  - *2023-04-14* — A battle’s “defense” is displayed in the bottom right corner of the card. A battle enters the battlefield with that number of defense counters. If another permanent enters the battlefield as a copy of a battle, it also enters with that number of defense counters.
+  - *2023-04-14* — As a Siege enters the battlefield, its controller chooses an opponent to be its protector.
+  - *2023-04-14* — Battles can’t attack or block, even if one also becomes a creature. If an attacking or blocking creature somehow becomes a battle in addition to being a creature, it is removed from combat.
+  - *2023-04-14* — Damage dealt to Ephara is tracked even if Ephara has indestructible. For example, if Ephara is dealt what would be lethal damage and later loses indestructible (perhaps because you lose control of some enchantments), it will be destroyed the next time state-based actions are performed. However, the check for whether a creature dealt damage by a source with deathtouch is destroyed happens only the first time that state-based actions are performed after that damage-dealing event.
+  - *2023-04-14* — Damage dealt to a battle causes that many defense counters to be removed from it.
+  - *2023-04-14* — If Ephara enters the battlefield under your control at the same time as other enchantments, its last ability will trigger for each of those other enchantments.
+  - *2023-04-14* — If a Siege never had defense counters on it (perhaps because a permanent became a copy of one), it can’t have its last defense counter removed. It will be put into its owner’s graveyard. You won’t exile it or cast the other face.
+  - *2023-04-14* — If a battle has no defense counters, and it isn’t the source of a triggered ability that has triggered but not yet left the stack, that battle is put into its owner’s graveyard. This is a state-based action. This doesn’t cause a Siege’s intrinsic triggered ability to trigger.
+  - *2023-04-14* — If a battle that’s being attacked somehow stops being a battle, it is removed from combat. Similarly, if its controller changes in the middle of combat, it is removed from combat.
+  - *2023-04-14* — If a non-battle permanent that is already on the battlefield become a copy of a Siege, its controller chooses one of their opponents to be that battle’s protector. However, it will most likely be put into its owner’s graveyard because it has no defense counters (see below).
+  - *2023-04-14* — If a permanent that is represented by a transforming double-faced card becomes a copy of a Siege, it will be exiled as that Siege’s triggered ability resolves, then it will be cast transformed. Note that this applies only to transforming double-faced cards, not to modal double-faced cards that can normally be played using either face.
+  - *2023-04-14* — If a token or a card that isn’t represented by a transforming double-faced card becomes a copy of a Siege, it can’t be cast as its triggered ability resolves. It will remain in exile. If it’s a token, it will cease to exist the next time state-based actions are performed.
+  - *2023-04-14* — In a multiplayer game, if the protector of a battle leaves the game and that battle is not currently being attacked, its controller chooses a new protector for it as a state-based action. If it is being attacked, its controller chooses a new protector for it once no creatures are attacking it. This means that it continues to be attacked and can be dealt combat damage as normal.
+  - *2023-04-14* — Only creatures controlled by a battle’s protector can block creatures that are attacking that battle. This means a Siege’s controller can never assign creatures to block for it.
+  - *2023-04-14* — Sieges each have an intrinsic triggered ability. That ability is “When the last defense counter is removed from this permanent, exile it, then you may cast it transformed without paying its mana cost.”
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/23/invasion-of-theros-ephara-ever-sheltering) · oracle_id `ba5f7f37-352a-4b9c-b648-0ba5c8d842fc` · printing: MOM #23 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Invasion of Tolvada // The Broken Sky
 
@@ -734,7 +915,26 @@
   > *Nahiri tried to bend Zendikar to Phyrexia's will. In response, the world rose against her.*
 - **Keywords:** Vigilance, Transform, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3601 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/194/invasion-of-zendikar-awakened-skyclave) · oracle_id `4b1874af-4ea5-4e22-a4d4-e718d75fe95e` · printing: MOM #194 (2023-04-21) · [rulings](https://api.scryfall.com/cards/8fed056f-a8f5-41ec-a7d2-a80a238872d1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (18):
+  - *2023-04-14* — A Siege's controller can't be its protector. If a Siege's protector ever gains control of it, they choose a new player to be its protector. This is a state-based action.
+  - *2023-04-14* — A battle can be attacked by all players other than its protector. Notably, this means a Siege's controller can attack it.
+  - *2023-04-14* — A battle can be dealt damage and be target of spells and/or abilities that target "any target."
+  - *2023-04-14* — A battle's "defense" is displayed in the bottom right corner of the card. A battle enters the battlefield with that number of defense counters. If another permanent enters the battlefield as a copy of a battle, it also enters with that number of defense counters.
+  - *2023-04-14* — As a Siege enters the battlefield, its controller chooses an opponent to be its protector.
+  - *2023-04-14* — Awakened Skyclave is cast as a creature spell. It can be countered and otherwise responded to. It won't be a land in addition to its other types until it enters the battlefield.
+  - *2023-04-14* — Battles can't attack or block, even if one also becomes a creature. If an attacking or blocking creature somehow becomes a battle in addition to being a creature, it is removed from combat.
+  - *2023-04-14* — Damage dealt to a battle causes that many defense counters to be removed from it.
+  - *2023-04-14* — If Awakened Skyclave enters the battlefield, any ability that triggers whenever a land enters the battlefield will trigger.
+  - *2023-04-14* — If a Siege never had defense counters on it (perhaps because a permanent became a copy of one), it can't have its last defense counter removed. It will be put into its owner's graveyard. You won't exile it or cast the other face.
+  - *2023-04-14* — If a battle has no defense counters, and it isn't the source of a triggered ability that has triggered but not yet left the stack, that battle is put into its owner's graveyard. This is a state-based action. This doesn't cause a Siege's intrinsic triggered ability to trigger.
+  - *2023-04-14* — If a battle that's being attacked somehow stops being a battle, it is removed from combat. Similarly, if its controller changes in the middle of combat, it is removed from combat.
+  - *2023-04-14* — If a non-battle permanent that is already on the battlefield become a copy of a Siege, its controller chooses one of their opponents to be that battle's protector. However, it will most likely be put into its owner's graveyard because it has no defense counters (see below).
+  - *2023-04-14* — If a permanent that is represented by a transforming double-faced card becomes a copy of a Siege, it will be exiled as that Siege's triggered ability resolves, then it will be cast transformed. Note that this applies only to transforming double-faced cards, not to modal double-faced cards that can normally be played using either face.
+  - *2023-04-14* — If a token or a card that isn't represented by a transforming double-faced card becomes a copy of a Siege, it can't be cast as its triggered ability resolves. It will remain in exile. If it's a token, it will cease to exist the next time state-based actions are performed.
+  - *2023-04-14* — In a multiplayer game, if the protector of a battle leaves the game and that battle is not currently being attacked, its controller chooses a new protector for it as a state-based action. If it is being attacked, its controller chooses a new protector for it once no creatures are attacking it. This means that it continues to be attacked and can be dealt combat damage as normal.
+  - *2023-04-14* — Only creatures controlled by a battle's protector can block creatures that are attacking that battle. This means a Siege's controller can never assign creatures to block for it.
+  - *2023-04-14* — Sieges each have an intrinsic triggered ability. That ability is "When the last defense counter is removed from this permanent, exile it, then you may cast it transformed without paying its mana cost."
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/194/invasion-of-zendikar-awakened-skyclave) · oracle_id `4b1874af-4ea5-4e22-a4d4-e718d75fe95e` · printing: MOM #194 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Invasion Plans
 
@@ -760,6 +960,7 @@
   > *Many of the those who aided in the invasion of the Fire Nation were not soldiers by occupation, though they were warriors at heart.*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8143 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/24/invasion-reinforcements) · oracle_id `185316ff-6fb7-4b5c-8a60-3238674562a6` · printing: TLA #24 (2025-11-21) · [rulings](https://api.scryfall.com/cards/b8845bba-d116-43cd-8ae0-e553f3324d66/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Invasion Specialist
@@ -849,7 +1050,16 @@
   > *—Emire, director of the Saiba Futurists*
 - **Keywords:** Flying, Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9828 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/57/inventive-iteration-living-breakthrough) · oracle_id `e711a213-2a6b-4b34-a788-95b6c0b7ba48` · printing: NEO #57 (2022-02-18) · [rulings](https://api.scryfall.com/cards/ea6d3242-8059-4203-aa06-58a6a3925eda/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2022-02-18* — A transforming double-faced card enters the battlefield with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed or you cast it transformed, in which case it enters with its back face up.
+  - *2022-02-18* — Each face of a transforming double-faced card has its own set of characteristics: name, types, subtypes, abilities, and so on. While a transforming double-faced permanent is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored.
+  - *2022-02-18* — Each transforming double-faced card in this set is cast face up. In every zone other than the battlefield, consider only the characteristics of its front face. If it is on the battlefield, consider only the characteristics of the face that's up; the other face's characteristics are ignored.
+  - *2022-02-18* — If you are instructed to put a card that isn't a double-faced card onto the battlefield transformed, it will not enter the battlefield at all. In that case, it stays in the zone it was previously in. For example, if a single-faced card is a copy of Azusa's Many Journeys, the chapter III ability will cause it to be exiled and then remain in exile.
+  - *2022-02-18* — Living Breakthrough's triggered ability will resolve before the spell that caused it to trigger. Notably, the ability has no effect until it resolves, so your opponents can respond to it by casting instant spells with the same mana value as the original spell.
+  - *2022-02-18* — Living Breakthrough's triggered ability won't affect spells that a player has already cast, even if those spells haven't resolved yet.
+  - *2022-02-18* — The back face of a transforming double-faced card usually has a color indicator that defines its color.
+  - *2022-02-18* — The mana value of a transforming double-faced card is the mana value of its front face, no matter which face is up.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/57/inventive-iteration-living-breakthrough) · oracle_id `e711a213-2a6b-4b34-a788-95b6c0b7ba48` · printing: NEO #57 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inventive Wingsmith
 
@@ -929,7 +1139,15 @@
   > *Constant danger requires constant preparedness.*
 - **Keywords:** Split second
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3414 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/105/inventory-management) · oracle_id `b20eae3d-d0ff-42c3-a060-d06629506781` · printing: PIP #105 (2024-03-08) · [rulings](https://api.scryfall.com/cards/7a1acb59-a679-4c6d-8458-8fe5556b9d4d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2024-03-08* — After a spell with split second resolves (or otherwise leaves the stack), players may again cast spells and activate abilities before the next object on the stack resolves.
+  - *2024-03-08* — Casting a spell with split second won’t affect spells and abilities that are already on the stack.
+  - *2024-03-08* — If the resolution of a triggered ability involves casting a spell, that spell can’t be cast if a spell with split second is on the stack.
+  - *2024-03-08* — Players may turn face-down creatures face up while a spell with split second is on the stack.
+  - *2024-03-08* — Players still get priority while a spell with split second is on the stack; their options are just limited to mana abilities and certain special actions.
+  - *2024-03-08* — Split second doesn’t stop triggered abilities from triggering. If one does, its controller puts it on the stack and chooses targets for it, if any. Those abilities will resolve as normal.
+  - *2024-03-08* — You can’t try to attach an Aura or Equipment to a creature if that Aura or Equipment can’t legally be attached to it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/105/inventory-management) · oracle_id `b20eae3d-d0ff-42c3-a060-d06629506781` · printing: PIP #105 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inversion Behemoth
 
@@ -993,7 +1211,12 @@
   > *"Skreeg! I thought I told you to stop messing with... Oh, that worked. Good job, Skreeg."*
   > *—Ral Zarek*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2258 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/190/invert-polarity) · oracle_id `69e12b1f-0fd9-43a9-b3db-fe08290442c6` · printing: MH3 #190 (2024-06-14) · [rulings](https://api.scryfall.com/cards/dcee6a8a-c3a8-43bc-beb9-be30d03ab952/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-06-07* — If the target spell has a variable number of targets, you can't change how many targets it has.
+  - *2024-06-07* — If the target spell has damage divided as it was cast, the division can't be changed although the targets receiving that damage still can. The same is true of spells that distribute counters.
+  - *2024-06-07* — If you choose new targets for the target spell, the new targets must be legal.
+  - *2024-06-07* — You don't make any decisions about new targets for the spell until you win the flip.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/190/invert-polarity) · oracle_id `69e12b1f-0fd9-43a9-b3db-fe08290442c6` · printing: MH3 #190 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Invert the Skies
 
@@ -1034,7 +1257,10 @@
   > If you control a Forest, rather than pay this spell's mana cost, you may have an opponent gain 3 life.
   > Target creature gets +4/+4 until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3478 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/172/invigorate) · oracle_id `9264c198-76c7-4ac0-9334-37c691de1b54` · printing: 2XM #172 (2020-08-07) · [rulings](https://api.scryfall.com/cards/e0899da3-7beb-4161-81a3-e2d694e5b8a5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-08-07* — If an effect says that an opponent can't gain life, you can't have that player gain life to pay Invigorate's alternative cost. If an effect instead replaces life gain, such as that of Sulfuric Vortex, you may choose to pay the cost even though the cost's action is replaced with nothing.
+  - *2020-08-07* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as the alternative cost of Invigorate), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/172/invigorate) · oracle_id `9264c198-76c7-4ac0-9334-37c691de1b54` · printing: 2XM #172 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Invigorated Rampage
 
@@ -1081,7 +1307,11 @@
   > Modified creatures you control have haste. (Equipment, Auras you control, and counters are modifications.)
   > Remove a +1/+1 counter from this enchantment: Put a +1/+1 counter on target creature you control. Activate only as a sorcery and only once each turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4801 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/223/invigorating-hot-spring) · oracle_id `a972630e-651e-439d-9412-5be50da9b934` · printing: NEO #223 (2022-02-18) · [rulings](https://api.scryfall.com/cards/59a118d1-30b8-42c0-ac42-6fba0778200a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-02-18* — A creature that is equipped is considered modified no matter who controls the Equipment that's attached to it.
+  - *2022-02-18* — A creature with a counter on it is considered modified no matter what kind of counter it is or which player put it on that creature.
+  - *2022-02-18* — An Aura controlled by an opponent does not cause a creature you control to be modified.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/223/invigorating-hot-spring) · oracle_id `a972630e-651e-439d-9412-5be50da9b934` · printing: NEO #223 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Invigorating Surge
 
@@ -1093,7 +1323,9 @@
   > *For hydras, most problems can be solved with the addition of a few extra heads.*
 - **Keywords:** Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3612 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m21/190/invigorating-surge) · oracle_id `5daac63a-1534-4194-8cb7-506508e364f4` · printing: M21 #190 (2020-07-03) · [rulings](https://api.scryfall.com/cards/531e1fc0-a3aa-4b57-87b2-79a31af5c922/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-06-23* — To double the number of +1/+1 counters on a creature, put a number of +1/+1 counters on it equal to the number it already has. Other cards that interact with putting counters on it will interact with this effect accordingly.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m21/190/invigorating-surge) · oracle_id `5daac63a-1534-4194-8cb7-506508e364f4` · printing: M21 #190 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Invincible Hymn
 
@@ -1157,6 +1389,7 @@
   > *"All that concerns me is the vampires' sense of smell and those freezing Nephalian nights."*
 - **Keywords:** Hexproof
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2698 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/znc/27/invisible-stalker) · oracle_id `1a137a67-4156-45c8-aae9-838f688e12bd` · printing: ZNC #27 (2020-09-25) · [rulings](https://api.scryfall.com/cards/14d265aa-c1d8-4faa-b282-5c273ab725fd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Invisible Woman
@@ -1202,7 +1435,12 @@
 - **Oracle text:**
   > You may cast up to two instant and/or sorcery spells with total mana value 6 or less from your graveyard and/or hand without paying their mana costs. If those spells would be put into your graveyard, exile them instead. Exile Invoke Calamity.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4098 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/147/invoke-calamity) · oracle_id `5b3f041e-ad4a-47ea-bdc4-1be2353f2e18` · printing: NEO #147 (2022-02-18) · [rulings](https://api.scryfall.com/cards/fe666c86-6734-4c47-9244-bcd26b54068d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-02-18* — If the spell has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2022-02-18* — If you cast a spell without paying its mana cost, you can't choose to cast it for any alternative costs. You can, however, pay any additional costs. If the spell has any mandatory additional costs, you must pay those.
+  - *2022-02-18* — Invoke Calamity looks for the mana values and types of the spells on the stack, not the mana values and types of the cards in your graveyard. Notably, this means that you may cast the back face of a modal double-faced card or either face of a split card as long as the spells you are casting are either instants or sorceries and together have a total mana value of 6 or less.
+  - *2022-02-18* — The spells are cast one after the other during the resolution of Invoke Calamity. The one you cast second will be the first one to resolve.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/147/invoke-calamity) · oracle_id `5b3f041e-ad4a-47ea-bdc4-1be2353f2e18` · printing: NEO #147 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Invoke Despair
 
@@ -1213,7 +1451,11 @@
 - **Flavor text** (NEO printing):
   > *Although officials said it was a sewer failure, the people whispered that it was a warning of night's reach.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8960 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/101/invoke-despair) · oracle_id `f9ee4c80-20fb-4322-be02-1c78d37d7a99` · printing: NEO #101 (2022-02-18) · [rulings](https://api.scryfall.com/cards/35af9d5c-4449-4549-b549-c3ba4a67dee0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-02-18* — The target opponent doesn't choose whether to sacrifice a creature or not, although they do choose which creature they control to sacrifice.
+  - *2022-02-18* — When you repeat the process, you don't choose a new player. The same player sacrifices each of the three permanents, if able.
+  - *2022-02-18* — You repeat the process for an enchantment and a planeswalker whether the target opponent was able to sacrifice a creature or not.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/101/invoke-despair) · oracle_id `f9ee4c80-20fb-4322-be02-1c78d37d7a99` · printing: NEO #101 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Invoke Justice
 
@@ -1256,7 +1498,10 @@
 - **Flavor text** (KHM printing):
   > *"Let's see how brave you really are behind all that oak and steel."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6361 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/16/invoke-the-divine) · oracle_id `87bd0fdb-c5b9-46ea-9858-1a870960351f` · printing: KHM #16 (2021-02-05) · [rulings](https://api.scryfall.com/cards/7213d9e1-e9c6-45d8-bb7f-336c41e7b6f7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-07-13* — If the target artifact or enchantment is an illegal target by the time Invoke the Divine tries to resolve, the spell doesn’t resolve. You won’t gain any life.
+  - *2021-02-05* — If the target artifact or enchantment is an illegal target as Invoke the Divine tries to resolve, it won’t resolve and none of its effects will happen. You won’t gain 4 life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/16/invoke-the-divine) · oracle_id `87bd0fdb-c5b9-46ea-9858-1a870960351f` · printing: KHM #16 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Invoke the Firemind
 
@@ -1303,6 +1548,7 @@
   > Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. Create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.")
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6177 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/203/involuntary-employment) · oracle_id `7e86fb1e-9987-43ba-b59e-0cb03bbdedb6` · printing: FDN #203 (2024-11-15) · [rulings](https://api.scryfall.com/cards/f3ad3d62-2f24-4562-b3fa-809213dbc4a4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Invulnerability

@@ -85,6 +85,7 @@
   > *"Even if you battle unseen, even if there is no one to witness your sacrifice—strike! Strike true. Strike from the heart. Let that be your legacy."*
   > *—Shiko*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9348 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/20/rebellious-strike) · oracle_id `4f3d7102-f8ce-42d4-94eb-f69b695773d1` · printing: TDM #20 (2025-04-11) · [rulings](https://api.scryfall.com/cards/c9bafe19-3bd6-4da0-b3e5-e0b89262504c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rebel Salvo
@@ -156,7 +157,10 @@
   > *"I cannot teach you their brand of magic, but I can teach you how to defend against it."*
   > *—Tavalus, priest of Korlis*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1525 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/35/rebuff-the-wicked) · oracle_id `f5822e53-ddec-4c77-bcf4-091e35c1e731` · printing: TSR #35 (2021-03-19) · [rulings](https://api.scryfall.com/cards/a6ea5111-5a5c-4c40-8686-8123c822843a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-03-19* — If the permanent you control targeted by the target spell leaves the battlefield, that spell is no longer a legal target for Rebuff the Wicked. On the other hand, if that targeted permanent becomes an illegal target for the target spell but remains on the battlefield under your control, the target spell is still a legal target for Rebuff the Wicked.
+  - *2021-03-19* — Rebuff the Wicked can target a spell that has multiple targets, as long as at least one of those targets is a permanent you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/35/rebuff-the-wicked) · oracle_id `f5822e53-ddec-4c77-bcf4-091e35c1e731` · printing: TSR #35 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rebuild
 

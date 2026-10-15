@@ -172,7 +172,9 @@
   > Juggernauts you control can't be blocked by Walls.
   > Other creatures you control have base power and toughness 5/3 and are Juggernauts in addition to their other creature types.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7025 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/229/graaz-unstoppable-juggernaut) · oracle_id `aebfdcc0-c5b9-4737-8498-764a5021b087` · printing: ONE #229 (2023-02-10) · [rulings](https://api.scryfall.com/cards/e0e73b63-17cc-4dca-abd6-728b74bc37a8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-02-04* — If Graaz loses its abilities for some reason, then Juggernauts you control will not have to attack each combat and will be able to be blocked by Walls. However, due to how continuous effects are applied in layers, other creatures you control will continue to be 5/3 Juggernauts in addition to their other types. Unstoppable, indeed!
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/229/graaz-unstoppable-juggernaut) · oracle_id `aebfdcc0-c5b9-4737-8498-764a5021b087` · printing: ONE #229 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grabby Giant // That's Mine
 
@@ -209,6 +211,7 @@
 - **Flavor text** (DSK printing):
   > *Unfortunately, the keyhole turned out to be located in an even larger, scarier clown mouth.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1449 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/138/grab-the-prize) · oracle_id `a37387f0-9d57-49ff-aa38-2c6b359e8916` · printing: DSK #138 (2024-09-27) · [rulings](https://api.scryfall.com/cards/50895202-f1a1-4840-a11a-55b78b8b5929/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grab the Reins
@@ -330,7 +333,12 @@
   > *"Best bury them right. We don't want any gruesome encores."*
   > *—Constable Trosk*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2151 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m20/227/grafdiggers-cage) · oracle_id `753cb2b2-24ce-484f-a2d0-be6fd2c67ebd` · printing: M20 #227 (2019-07-12) · [rulings](https://api.scryfall.com/cards/0a135e09-b534-4836-9a10-3a9a4a9f8c53/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2019-07-12* — If an effect exiles a card from a library and allows a player to cast it, that player may do so. The spell is cast from exile, not a library.
+  - *2019-07-12* — Look at the card as it exists in your graveyard to determine whether it can enter the battlefield. For example, Sculpting Steel can be put onto the battlefield as a copy of a creature, but Phyrexian Metamorph can't be put onto the battlefield, even if it would copy a noncreature artifact.
+  - *2019-07-12* — Manifesting a card from a graveyard or library is an impossible action while Grafdigger's Cage is on the battlefield.
+  - *2019-07-12* — Players can still play lands from graveyards or libraries if an effect allows them to do so.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m20/227/grafdiggers-cage) · oracle_id `753cb2b2-24ce-484f-a2d0-be6fd2c67ebd` · printing: M20 #227 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Graf Harvest
 
@@ -340,6 +348,7 @@
   > Zombies you control have menace. (They can't be blocked except by two or more creatures.)
   > {3}{B}, Exile a creature card from your graveyard: Create a 2/2 black Zombie creature token.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9160 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/emn/90/graf-harvest) · oracle_id `d3ba6922-c2f7-45ab-87a3-d4bbd770d1ba` · printing: EMN #90 (2016-07-22) · [rulings](https://api.scryfall.com/cards/fbc17697-9db9-41d4-aacf-b2f2e6ff80cf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Graf Mole
@@ -389,6 +398,7 @@
   > Other Phyrexians you control get +1/+1.
   > {3}{B}, Sacrifice an artifact or creature: Return this card from your graveyard to the battlefield. Activate only as a sorcery.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9151 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/109/grafted-butcher) · oracle_id `6c4a0e3d-c63c-4acf-8386-b51f1ec37463` · printing: MOM #109 (2023-04-21) · [rulings](https://api.scryfall.com/cards/e22f11a1-0cbd-4b36-8dbd-37ba29ad4608/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grafted Exoskeleton
@@ -401,7 +411,16 @@
   > Equip {2}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2307 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/td2/74/grafted-exoskeleton) · oracle_id `f4350c4e-7e53-4401-b889-14bed27bee9c` · printing: TD2 #74 (2011-05-14) · [rulings](https://api.scryfall.com/cards/f86a9d3f-43a8-4da3-9eed-353582986140/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2011-01-01* — A player who has ten or more poison counters loses the game. This is a state-based action.
+  - *2011-01-01* — Damage from a source with infect affects planeswalkers normally.
+  - *2011-01-01* — Damage from a source with infect is damage in all respects. If the source with infect also has lifelink, damage dealt by that source also causes its controller to gain that much life. Damage from a source with infect can be prevented or redirected. Abilities that trigger on damage being dealt will trigger if a source with infect deals damage, if appropriate.
+  - *2011-01-01* — If Grafted Exoskeleton's last ability triggers, but you don't control the permanent it became unattached from at the time that ability resolves (perhaps because another player has somehow gained control of it), you won't be able to sacrifice it.
+  - *2011-01-01* — If damage from a source with infect that would be dealt to a player is prevented, that player doesn't get poison counters. If damage from a source with infect that would be dealt to a creature is prevented, that creature doesn't get -1/-1 counters.
+  - *2011-01-01* — In addition to the effect of its equip ability, Grafted Exoskeleton becomes unattached from the creature it's equipping if a spell or ability (such as Fulgent Distraction) causes it to become unattached, if Grafted Exoskeleton leaves the battlefield, if the equipped creature ceases to be a creature, or if Grafted Exoskeleton ceases to be an Equipment. (It also becomes unattached if the equipped creature leaves the battlefield, but the triggered ability won't do anything in that case.)
+  - *2011-01-01* — Infect's effect applies to any damage, not just combat damage.
+  - *2011-01-01* — The -1/-1 counters remain on the creature indefinitely. They're not removed if the creature regenerates or the turn ends.
+- **Source flags:** [Scryfall](https://scryfall.com/card/td2/74/grafted-exoskeleton) · oracle_id `f4350c4e-7e53-4401-b889-14bed27bee9c` · printing: TD2 #74 (2011-05-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grafted Growth
 
@@ -452,7 +471,11 @@
   > Equip {0} ({0}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9314 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/312/grafted-wargear) · oracle_id `c48cf069-eb20-4a61-b58c-b031ec22a5f0` · printing: CMR #312 (2020-11-20) · [rulings](https://api.scryfall.com/cards/1d023d44-482e-4f60-b9b1-eede9bfb732f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-12-01* — If your Grafted Wargear somehow ends up on an opponent's creature and it then becomes unattached from that creature, you won't be able to sacrifice that creature because you don't control it.
+  - *2013-04-15* — You may activate this card's equip ability targeting the creature that it is currently attached to, even if it's the only creature you control. Since the equip ability costs zero, you can do this as many times as you like during your main phases, though it generally won't do anything.
+  - *2020-11-10* — Grafted Wargear becomes unattached from the creature it's equipping if you equip it to a new creature, if Grafted Wargear leaves the battlefield, if the equipped creature ceases to be a creature, or if Grafted Wargear ceases to be an Equipment. (It also becomes unattached if the equipped creature leaves the battlefield, but the triggered ability won't do anything in that case.)
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/312/grafted-wargear) · oracle_id `c48cf069-eb20-4a61-b58c-b031ec22a5f0` · printing: CMR #312 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Graft Surgeon
 
@@ -503,7 +526,11 @@
   > Throw Wide the Gates — Whenever you cast a noncreature spell, you may pay X life, where X is that spell's mana value. If you do, create a 1/1 colorless Hero creature token and put X +1/+1 counters on it. Do this only once each turn.
 - **Keywords:** Lifelink, Throw Wide the Gates
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5894 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/3/graha-tia-scion-reborn) · oracle_id `f558c758-8f12-45f9-8683-eee33ba1fb0d` · printing: FIC #3 (2025-06-13) · [rulings](https://api.scryfall.com/cards/f90eb8ef-ad70-4d6c-9958-e6153f8599bc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-06-06* — Alternative costs, additional costs, and cost reductions don't change a spell's mana value. Its mana value is still based on its mana cost.
+  - *2025-06-06* — For spells on the stack with {X} in their mana costs, use the value chosen for X to determine the spell's mana value.
+  - *2025-06-06* — G'raha Tia's last ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/3/graha-tia-scion-reborn) · oracle_id `f558c758-8f12-45f9-8683-eee33ba1fb0d` · printing: FIC #3 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grakk the Pacifist
 
@@ -555,7 +582,10 @@
 - **Flavor text** (2X2 printing):
   > *The Arbiter is a conduit of justice, a will so disciplined that it dispenses justice without ego or remorse.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1804 · Game Changer: **yes** · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/221/grand-arbiter-augustin-iv) · oracle_id `1f8d4d5f-e82f-45f3-823e-1bb6b536eb18` · printing: 2X2 #221 (2022-07-08) · [rulings](https://api.scryfall.com/cards/f43748ea-1d65-4ee8-9c66-221412a284c0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2006-05-01* — Spells you cast that are both blue and white cost {2} less to cast.
+  - *2006-05-01* — This reduces only generic mana portion of mana costs. A spell you cast with mana cost {1}{W}{U} will cost {W}{U} to cast.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/221/grand-arbiter-augustin-iv) · oracle_id `1f8d4d5f-e82f-45f3-823e-1bb6b536eb18` · printing: 2X2 #221 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grand Architect
 
@@ -567,7 +597,11 @@
   > {U}: Target artifact creature becomes blue until end of turn.
   > Tap an untapped blue creature you control: Add {C}{C}. Spend this mana only to cast artifact spells or activate abilities of artifacts.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7323 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/53/grand-architect) · oracle_id `7af1d7f9-058a-4ccb-96b7-fc391b615c09` · printing: 2XM #53 (2020-08-07) · [rulings](https://api.scryfall.com/cards/14ce909d-a53e-4711-a9fd-b110433d460f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-08-07* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to a blue creature you control may become lethal if Grand Architect leaves the battlefield during that turn.
+  - *2020-08-07* — Grand Architect's second ability causes the affected artifact creature to lose any other colors it has, but it doesn't cause it to stop being an artifact.
+  - *2020-08-07* — You can tap any untapped blue creature you control, including one you haven't controlled continuously since the beginning of your most recent turn, to pay the cost of Grand Architect's mana ability. This includes Grand Architect itself.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/53/grand-architect) · oracle_id `7af1d7f9-058a-4ccb-96b7-fc391b615c09` · printing: 2XM #53 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grand Ball Guest
 
@@ -594,6 +628,7 @@
   > *"You have traveled from the multitude of diverse universes, and I bid you welcome to the Battle Nexus Tournament."*
   > *—Daimyo*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4104 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmc/68/grand-coliseum) · oracle_id `1cea9b82-d2e9-4758-8ec8-729fcf4bb7d7` · printing: TMC #68 (2026-03-06) · [rulings](https://api.scryfall.com/cards/b07eb189-559a-4cd5-95ac-f6612fd11cf1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grand Crescendo
@@ -605,6 +640,7 @@
 - **Flavor text** (FRC printing):
   > *The roar of applause drowned out the melee raging in the lobby.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1251 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/26/grand-crescendo) · oracle_id `dc600c06-8239-409e-b53d-20f813a3f5e7` · printing: FRC #26 (2026-10-02) · [rulings](https://api.scryfall.com/cards/a60834b0-38ab-40c9-9fd9-db3a23b13076/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grand Entryway // Elegant Rotunda
@@ -692,7 +728,10 @@
   > *"The future is my gift to Keld."*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5655 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dom/195/grand-warlord-radha) · oracle_id `0fb90df6-a62b-4a9f-ae79-db71d40466ce` · printing: DOM #195 (2018-04-27) · [rulings](https://api.scryfall.com/cards/986981fa-a744-45d8-81c7-68ef335c79e2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-04-27* — After Radha’s triggered ability resolves, you can cast spells and activate abilities before blockers are declared.
+  - *2018-04-27* — The amount of mana you’ll add is the number of creatures you attack with. Creatures that are put onto the battlefield attacking before Radha’s triggered ability resolves don’t count, and creatures that attacked but left combat before the triggered ability resolves do count.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dom/195/grand-warlord-radha) · oracle_id `0fb90df6-a62b-4a9f-ae79-db71d40466ce` · printing: DOM #195 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Granger Guildmage
 
@@ -719,7 +758,9 @@
 - **Flavor text** (TLA printing):
   > *"It's been so long since I've had hope, but you brought it back to life."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6311 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/54/gran-gran) · oracle_id `0259a9ed-0558-4183-b737-871ed5573c32` · printing: TLA #54 (2025-11-21) · [rulings](https://api.scryfall.com/cards/fa434b41-e5f7-4989-865a-95db67b05cb1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-10-02* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/54/gran-gran) · oracle_id `0259a9ed-0558-4183-b737-871ed5573c32` · printing: TLA #54 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Granite Gargoyle
 
@@ -902,7 +943,9 @@
   > *Emrakul does not grant wishes. Desires simply align to her will.*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2190 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/257/grapple-with-the-past) · oracle_id `d14c633d-977a-4f78-85c2-88582b3c3670` · printing: TDC #257 (2025-04-11) · [rulings](https://api.scryfall.com/cards/76c25c9a-245b-41c7-a75d-8061eb231389/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-07-13* — Grapple with the Past doesn't target the card to return to your hand. After putting the top three cards of your library into your graveyard, you may choose from among any creature or land cards there.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/257/grapple-with-the-past) · oracle_id `d14c633d-977a-4f78-85c2-88582b3c3670` · printing: TDC #257 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grappling Hook
 
@@ -930,7 +973,12 @@
   > *—Kiora*
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5484 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/39/grappling-kraken) · oracle_id `1ba99ade-df8d-4654-882a-a5f4256ada3d` · printing: FDN #39 (2024-11-15) · [rulings](https://api.scryfall.com/cards/d1f5cab3-3fc0-448d-8252-cd55abf5b596/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+  - *2024-11-08* — You may target a creature that's already tapped with Grappling Kraken's ability. In that case, you'll just put a stun counter on that creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/39/grappling-kraken) · oracle_id `1ba99ade-df8d-4654-882a-a5f4256ada3d` · printing: FDN #39 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grappling Sundew
 
@@ -964,7 +1012,9 @@
   > {T}: Add {C}.
   > {1}, {T}, Sacrifice this land: Put a -1/-1 counter on target creature. Activate only as a sorcery.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7948 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/akh/244/grasping-dunes) · oracle_id `47d16c11-3033-44f3-9a12-2daf3453cc5b` · printing: AKH #244 (2017-04-28) · [rulings](https://api.scryfall.com/cards/a8fcc939-6a31-4fb3-abe7-7663b85868dd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-04-18* — Desert is a land subtype with no special meaning. It doesn’t grant the land an intrinsic mana ability. Other cards may care about which lands are Deserts.
+- **Source flags:** [Scryfall](https://scryfall.com/card/akh/244/grasping-dunes) · oracle_id `47d16c11-3033-44f3-9a12-2daf3453cc5b` · printing: AKH #244 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grasping Giant
 
@@ -1067,7 +1117,13 @@
 - **Flavor text** (CMM printing):
   > *Few escape the Underworld. Fewer still escape fate.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1153 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/823/grasp-of-fate) · oracle_id `1b26a54f-6c27-4940-b77e-2a66175c5eff` · printing: CMM #823 (2023-08-04) · [rulings](https://api.scryfall.com/cards/43787574-7700-47ab-b57c-98ef968cce71/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2015-11-04* — Auras attached to exiled nonland permanents will be put into their owners' graveyards. Equipment attached to exiled creatures will become unattached and remain on the battlefield. Any counters on exiled nonland permanents will cease to exist.
+  - *2015-11-04* — If Grasp of Fate leaves the battlefield before its triggered ability resolves, no nonland permanents will be exiled.
+  - *2015-11-04* — If a token is exiled, it ceases to exist. It won't be returned to the battlefield.
+  - *2015-11-04* — In a multiplayer game, if Grasp of Fate's owner leaves the game, the exiled cards will return to the battlefield. Because the one-shot effect that returns the cards isn't an ability that goes on the stack, it won't cease to exist along with the leaving player's spells and abilities on the stack.
+  - *2015-11-04* — The exiled cards return to the battlefield immediately after Grasp of Fate leaves the battlefield. Nothing happens between the two events, including state-based actions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/823/grasp-of-fate) · oracle_id `1b26a54f-6c27-4940-b77e-2a66175c5eff` · printing: CMM #823 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grasp of Phantoms
 
@@ -1114,7 +1170,9 @@
   > This land enters tapped.
   > {T}, Sacrifice this land: Search your library for a Forest or Plains card, put it onto the battlefield, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5004 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/1002/grasslands) · oracle_id `e80bd454-8bc5-4921-90cf-6ad28a27a88b` · printing: CMM #1002 (2023-08-04) · [rulings](https://api.scryfall.com/cards/ecf52798-b2e0-4d0a-a41b-8927bfa60375/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — You do not have to find a plains or forest card if you do not want to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/1002/grasslands) · oracle_id `e80bd454-8bc5-4921-90cf-6ad28a27a88b` · printing: CMM #1002 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grateful Apparition
 
@@ -1126,7 +1184,14 @@
   > Whenever this creature deals combat damage to a player or planeswalker, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)
 - **Keywords:** Flying, Proliferate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1817 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/824/grateful-apparition) · oracle_id `f1b3e0fc-1dc3-4eba-bd54-557f036f5ea9` · printing: CMM #824 (2023-08-04) · [rulings](https://api.scryfall.com/cards/5e1cf888-dd41-4cc2-a16e-3414ef7a78ed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-02-04* — An ability that triggers "Whenever you proliferate" triggers even if you chose no permanents or players while doing so.
+  - *2023-02-04* — If a permanent ever has both +1/+1 counters and -1/-1 counters on it at the same time, they're removed in pairs as a state-based action so that the permanent has only one of those kinds of counters on it.
+  - *2023-02-04* — If a player or permanent has more than one kind of counter on it, and you choose for it to get additional counters, it must get one of each kind of counter it already has. You can't have it get just one kind of counter it already has and not the others.
+  - *2023-02-04* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
+  - *2023-02-04* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
+  - *2023-02-04* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/824/grateful-apparition) · oracle_id `f1b3e0fc-1dc3-4eba-bd54-557f036f5ea9` · printing: CMM #824 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gratuitous Violence
 
@@ -1138,6 +1203,7 @@
   > *What was supposed to be a quiet time in town turned into an adventure of its own.*
 - **Keywords:** Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1511 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/715/gratuitous-violence) · oracle_id `7c340a39-4ee0-4ba1-bb66-6674f8020fda` · printing: FDN #715 (2024-11-15) · [rulings](https://api.scryfall.com/cards/e89024c5-eef5-468c-92b4-e53dd212909c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gravblade Heavy
@@ -1169,7 +1235,15 @@
 - **Oracle text:**
   > Whenever a creature you don't control dies, return it to the battlefield under your control with an additional +1/+1 counter on it at the beginning of the next end step. That creature is a black Zombie in addition to its other colors and types.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4836 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/67/grave-betrayal) · oracle_id `892c8fd1-9553-4ced-84ec-9fc35c314c76` · printing: RTR #67 (2012-10-05) · [rulings](https://api.scryfall.com/cards/47b38c68-8e72-4afc-bb5e-0b40880fdda9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2012-10-01* — Each creature you don't control that dies causes a delayed triggered ability to trigger at the beginning of the next end step. If there are multiple such abilities, you can put them on the stack in any order. The creatures will return to the battlefield one at a time as each ability resolves. The last ability you put on the stack will be the first one to resolve.
+  - *2012-10-01* — Grave Betrayal doesn't overwrite any previous colors or types. Rather, it adds another color and another creature type.
+  - *2012-10-01* — If a creature you don't control dies during the end step, that creature won't return to the battlefield until the beginning of the next end step.
+  - *2012-10-01* — If the creature card leaves the graveyard before the delayed triggered ability resolves, it won't return to the battlefield. This is also true if the card leaves the graveyard and returns to the graveyard before that ability resolves.
+  - *2012-10-01* — If the creature is normally colorless, it will simply be black. It won't be both black and colorless.
+  - *2012-10-01* — In a multiplayer game, if more than one player controls a Grave Betrayal and a creature controlled by none of those players dies, each Grave Betrayal will create a delayed triggered ability at the beginning of the next end step. The first such ability to resolve will return the creature. Usually, this will be one controlled by the player furthest from the active player in turn order.
+  - *2012-10-01* — The phrase "with an additional +1/+1 counter on it" means that the creature enters with one more +1/+1 counter than it would normally enter with. It doesn't keep any counters it had on it when it died.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/67/grave-betrayal) · oracle_id `892c8fd1-9553-4ced-84ec-9fc35c314c76` · printing: RTR #67 (2012-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gravebind
 
@@ -1216,6 +1290,7 @@
   > *"Her voice is damnation, unyielding and certain."*
   > *—Phage the Untouchable*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7051 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/10e/145/graveborn-muse) · oracle_id `d2a65ff4-ab82-42f7-9d90-feb29132121e` · printing: 10E #145 (2007-07-13) · [rulings](https://api.scryfall.com/cards/3d460b79-f1a5-41c4-a5b3-61f703fd97df/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grave Bramble
@@ -1242,7 +1317,9 @@
   > Spells you cast from your graveyard cost {1} less to cast.
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3838 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/98/gravebreaker-lamia) · oracle_id `2c1d288a-22ea-482c-947e-f3ab04172da0` · printing: THB #98 (2020-01-24) · [rulings](https://api.scryfall.com/cards/408a2073-d068-44bc-b596-5a3a3a446ee1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-01-24* — Gravebreaker Lamia’s last ability doesn’t give you permission to cast cards from your graveyard. You need something else allowing you to do so, such as the escape keyword ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/98/gravebreaker-lamia) · oracle_id `2c1d288a-22ea-482c-947e-f3ab04172da0` · printing: THB #98 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grave Consequences
 
@@ -1309,7 +1386,9 @@
 - **Flavor text** (M20 printing):
   > *In Amonkhet's ever-shifting sands, nothing stays buried for long.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9032 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m20/103/gravedigger) · oracle_id `1a2030cc-d7ee-4059-b2d7-fb95ea8e267b` · printing: M20 #103 (2019-07-12) · [rulings](https://api.scryfall.com/cards/0fb714a0-e61b-4ccf-8de6-3a6bf87c8315/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-10-01* — A "creature card" is any card with the type creature, even if it has other types such as artifact, enchantment, or land. Older cards of type summon are also creature cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m20/103/gravedigger) · oracle_id `1a2030cc-d7ee-4059-b2d7-fb95ea8e267b` · printing: M20 #103 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grave Endeavor
 
@@ -1320,7 +1399,18 @@
 - **Flavor text** (AFC printing):
   > *Not alive, not dead, but definitely furious.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8583 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afc/24/grave-endeavor) · oracle_id `917dc5a0-071d-4658-ab58-29ac841260f7` · printing: AFC #24 (2021-07-23) · [rulings](https://api.scryfall.com/cards/1ef4b0fb-d4a5-43ce-a079-10d346e194d5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2021-07-23* — An ability that tells you to roll a die will also specify what to do with the result of that roll. Most often, this is in the form of a “results table” in the card text.
+  - *2021-07-23* — An effect that says “choose a target, then roll a d20” or similar still uses the normal process of putting an ability on the stack and resolving it. Choosing targets is part of putting the ability on the stack and rolling the d20 happens later, as the ability resolves.
+  - *2021-07-23* — Dice are identified by the number of faces each one has. For example, a d20 is a twenty-sided die.
+  - *2021-07-23* — Dice used must have equally likely outcomes and the roll must be fair. Although physical dice are recommended, digital substitutes are allowed, provided they have the same number of equally likely outcomes as specified in the original roll instruction.
+  - *2021-07-23* — Some abilities, like that of Pixie Guide and Barbarian Class, replace rolling a die with rolling extra dice and ignoring the lowest roll. The ignored rolls are not considered for the effect that instructed you to roll a die, and do not cause abilities to trigger. For all intents and purposes, once you determine which dice count, any extra dice were never rolled.
+  - *2021-07-23* — Some effects instruct you to roll again. This uses the same number and type of dice as the original roll, and that roll will use the same set of possible outcomes.
+  - *2021-07-23* — Some effects may modify the result of a die roll. This may be part of the instruction to roll a die or it may come from other cards. Anything that references the “result” of a die roll is looking for the result after these modifications. Anything that is looking for the “natural result” is looking for the number shown on the face of the die before these modifications.
+  - *2021-07-23* — The instruction to roll a die and the effect that occurs because of the result are all part of the same ability. Players do not get the chance to respond to the ability after knowing the result of the roll.
+  - *2021-07-23* — Tournament events have more specific rules regarding dice and die-rolling. For more information, please see the most recent version of the Magic Tournament Rules at https://wpn.wizards.com/en/document/magic-gathering-tournament-rules.
+  - *2021-07-23* — While playing Planechase, rolling the planar die will cause any ability that triggers whenever a player rolls one or more dice to trigger. However, any effect that refers to a numerical result will ignore the rolling of the planar die.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afc/24/grave-endeavor) · oracle_id `917dc5a0-071d-4658-ab58-29ac841260f7` · printing: AFC #24 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grave Exchange
 
@@ -1409,7 +1499,9 @@
   > *It appears only to those whose lives are ending, welcoming them to their fate.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5381 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/98/gravelighter) · oracle_id `45ef5ea9-70a6-4999-8778-6a11cb97d28e` · printing: NEO #98 (2022-02-18) · [rulings](https://api.scryfall.com/cards/532c5b14-75cf-4e4c-9b80-2d56a86e2844/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-02-18* — The word “otherwise” in Gravelighter's triggered ability refers to whether or not a creature died this turn, not whether or not a card was drawn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/98/gravelighter) · oracle_id `45ef5ea9-70a6-4999-8778-6a11cb97d28e` · printing: NEO #98 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gravel Slinger
 
@@ -1515,7 +1607,12 @@
   > *"Lord Silumgar has given you a second chance to please him."*
   > *—Siara, the Dragon's Mouth*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7480 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/104/gravepurge) · oracle_id `cc94462f-a207-4fdb-8704-aa979c244cab` · printing: DTK #104 (2015-03-27) · [rulings](https://api.scryfall.com/cards/b5bf549c-799f-456f-85d5-8a7302bc729d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2011-01-22* — If you cast Gravepurge with at least one target and all of those targets become illegal, the spell won’t resolve and you won’t get to draw a card.
+  - *2011-01-22* — You can cast Gravepurge with zero targets. If you do, you’ll draw a card as the spell resolves.
+  - *2011-01-22* — You choose the order of the cards you put on top of your library.
+  - *2015-02-25* — You can cast Gravepurge with no targets. If you do, you’ll just draw a card. However, if you cast it with at least one target and all of those targets become illegal, the spell won’t resolve and you won’t draw a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/104/gravepurge) · oracle_id `cc94462f-a207-4fdb-8704-aa979c244cab` · printing: DTK #104 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grave Researcher // Reanimate
 
@@ -1527,7 +1624,28 @@
   > Put target creature card from a graveyard onto the battlefield under your control. You lose life equal to that card's mana value.
 - **Keywords:** Surveil, Prepared
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2125 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/85/grave-researcher-reanimate) · oracle_id `6cb8b8c4-0674-4f14-9d89-010969fbb80e` · printing: SOS #85 (2026-04-24) · [rulings](https://api.scryfall.com/cards/8b1e10e8-ea14-4761-910b-4072e2a18456/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (20):
+  - *2026-03-20* — A creature with a prepare spell can't become prepared more than once at the same time. For example, Emeritus of Ideation is on the battlefield and is prepared. When it attacks, its last ability triggers. When that ability resolves, its controller may still exile eight cards from their graveyard, but doing so won't cause Emeritus of Ideation to become prepared a second time or create a second copy of Ancestral Recall in exile.
+  - *2026-03-20* — A creature without a prepare spell can't become prepared.
+  - *2026-03-20* — A preparation card is a creature card in every zone. For example, while it's in your graveyard, Emeritus of Ideation is a blue creature whose mana value is 5. It can't be the target of Zealous Lorecaster's triggered ability ("When this creature enters, return target instant or sorcery card from your graveyard to your hand.").
+  - *2026-03-20* — As an effect causes a creature with a prepare spell to become prepared (including effects that state that a creature "enters prepared"), that creature's controller creates a copy of that creature's prepare spell in exile. That copy remains in exile for as long as that permanent is on the battlefield and is prepared. That creature's controller may cast that copy as long as it remains in exile. As they cast it, that creature stops being prepared.
+  - *2026-03-20* — Being prepared isn't a copiable value. If a permanent becomes a copy of a prepared creature, it won't be prepared. That permanent will have the alternative characteristics, though, and some other effect could cause it to become prepared later.
+  - *2026-03-20* — Casting a copy of a prepare spell from exile isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to a copy of a prepare spell cast from exile.
+  - *2026-03-20* — Creating a copy of a creature's prepare spell in exile ignores copy exceptions applied to that creature that would affect the copiable values of that spell. For example, say a player casts Croaking Counterpart (a sorcery that says "Create a token that's a copy of target non-Frog creature, except it's a 1/1 green Frog.") targeting Goblin Glasswright. The token copy of Goblin Glasswright will enter prepared as a 1/1 green Frog creature, but the copy of Craft with Pride in exile will still be a red sorcery. The copy of Craft with Pride won't be green, a creature, or a Frog, and it won't have power or toughness.
+  - *2026-03-20* — If a card in a graveyard has {X} in its mana cost, X is 0.
+  - *2026-03-20* — If a prepare spell with one or more targets has no legal targets when it tries to resolve, it won't resolve and none of its effects will happen. Since the spell was cast, the associated permanent will still not be prepared.
+  - *2026-03-20* — If a prepared creature loses all abilities, it won't stop being prepared, and nothing will happen to its alternative characteristics or to the copy of its prepare spell in exile.
+  - *2026-03-20* — If a prepared creature stops being a creature, it will still be prepared, and the copy of its prepare spell will remain in exile. That permanent's controller will still be able to cast it. The same is true if a prepared creature becomes a copy of something else, even if it's then a permanent without a prepare spell.
+  - *2026-03-20* — If an effect causes a creature to become unprepared, a prepared creature stops being prepared and the associated copy of its prepare spell in exile ceases to exist. If it wasn't prepared at that time, nothing happens.
+  - *2026-03-20* — If an effect instructs you to choose a card name, you may choose the alternative prepare spell's name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2026-03-20* — If any abilities trigger on the creature entering the battlefield, those abilities resolve after you lose life. If losing life results in you losing the game, those abilities won't resolve.
+  - *2026-03-20* — In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, the creature you control from Reanimate is exiled.
+  - *2026-03-20* — Only the current controller of a prepared creature can cast the copy of its prepare spell in exile. It doesn't matter who owns that creature or who controlled it when it became prepared.
+  - *2026-03-20* — Preparation cards can only be cast with their base characteristics.
+  - *2026-03-20* — The amount of life you lose as Reanimate resolves is determined by the mana value of the card in your graveyard, not the creature once it's on the battlefield.
+  - *2026-03-20* — While copies of spells in zones other than the stack cease to exist when state-based actions are checked, this does not apply to copies of prepare spells in exile that were created as a creature became prepared.
+  - *2026-03-20* — You lose life after the creature is already on the battlefield. Any abilities it has that interact with loss of life, such as that of Platinum Emperion, apply to that loss of life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/85/grave-researcher-reanimate) · oracle_id `6cb8b8c4-0674-4f14-9d89-010969fbb80e` · printing: SOS #85 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grave Robbers
 
@@ -1608,7 +1726,12 @@
   > *—Kithkin saying meaning "they won't be forgotten"*
 - **Keywords:** Changeling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2820 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/104/graveshifter) · oracle_id `1eebc02a-9a64-49b0-8322-c5ce671457ce` · printing: ECL #104 (2026-01-23) · [rulings](https://api.scryfall.com/cards/dadb02b9-d3a0-4b51-bbc3-53b2316cd70d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-11-17* — Changeling is a characteristic-defining ability. It functions in all zones, not only while a card that has it is on the battlefield.
+  - *2025-11-17* — If an effect causes a creature with changeling to become a new creature type, it will be only that new creature type (unless the effect says "in addition" or similar). It will still have changeling; the effect making it all creature types will simply be overwritten.
+  - *2025-11-17* — If an effect causes a creature with changeling to lose all abilities, it will remain all creature types, even though it will no longer have changeling. This is because changeling applies before the effect that removes it.
+  - *2025-11-17* — The subtype Shapeshifter that appears on the type line is mostly there to reinforce the flavor. A creature card with changeling is just as much a Kithkin, a Goblin, a Merfolk, and a Brushwagg as it is a Shapeshifter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/104/graveshifter) · oracle_id `1eebc02a-9a64-49b0-8322-c5ce671457ce` · printing: ECL #104 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grave Sifter
 
@@ -1632,7 +1755,9 @@
 - **Flavor text** (MIC printing):
   > *The Cabal never expected its creations to create servants of their own.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7930 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mic/120/gravespawn-sovereign) · oracle_id `4235c99b-50de-4190-8938-3ce5ec5c5248` · printing: MIC #120 (2021-09-24) · [rulings](https://api.scryfall.com/cards/58d36326-882e-46bb-a00c-5ea0f6515f65/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — You may tap any untapped permanents you control with the appropriate creature type (including this creature) to pay the cost of the ability, including creatures that haven't been under your control continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mic/120/gravespawn-sovereign) · oracle_id `4235c99b-50de-4190-8938-3ce5ec5c5248` · printing: MIC #120 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gravestone Strider
 
@@ -1694,6 +1819,7 @@
   > *Death in form and function.*
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1377 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/74/grave-titan) · oracle_id `f3abd4d1-a975-4e85-8684-aa0fce029670` · printing: ECC #74 (2026-01-23) · [rulings](https://api.scryfall.com/cards/3b4faa6e-5013-4c59-80f5-662a386672eb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grave Upheaval
@@ -1716,7 +1842,13 @@
   > At the beginning of your end step, if you're the monarch, return up to one target creature card from your graveyard to your hand.
   > Whenever a creature you control dies, each opponent loses 1 life and you gain 1 life.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4101 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/9/grave-venerations) · oracle_id `1cb71772-592d-4dd1-91af-816933af760c` · printing: ECC #9 (2026-01-23) · [rulings](https://api.scryfall.com/cards/ec52f819-038a-41c3-91ef-91b1975d094c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-11-17* — If combat damage dealt to the monarch causes that player to lose the game, the triggered ability that causes the controller of the attacking creature to become the monarch doesn't resolve. In most cases, the controller of the attacking creature will still become the monarch as it is likely their turn.
+  - *2025-11-17* — If the monarch leaves the game during another player's turn, that player becomes the monarch. If the monarch leaves the game during their turn, the next player in turn order becomes the monarch.
+  - *2025-11-17* — If the triggered ability that causes the monarch to draw a card goes on the stack and a different player becomes the monarch before that ability resolves, the first player will still draw the card.
+  - *2025-11-17* — The game starts with no monarch. As a player becomes the monarch, the current monarch (if any) ceases being the monarch. There is never more than one monarch at a time.
+  - *2025-11-17* — There are two inherent triggered abilities associated with being the monarch. These triggered abilities have no source and are controlled by the player who was the monarch at the time the abilities triggered. The full texts of these abilities are "At the beginning of the monarch's end step, that player draws a card" and "Whenever a creature deals combat damage to the monarch, its controller becomes the monarch."
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/9/grave-venerations) · oracle_id `1cb71772-592d-4dd1-91af-816933af760c` · printing: ECC #9 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gravewaker
 
@@ -1818,6 +1950,7 @@
 - **Flavor text** (ROE printing):
   > *As they awakened, the Eldrazi reasserted their mastery over all of Zendikar's natural forces.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6360 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/roe/69/gravitational-shift) · oracle_id `0411aead-9f77-435d-a343-635f23221cf7` · printing: ROE #69 (2010-04-23) · [rulings](https://api.scryfall.com/cards/bad32b9f-0aa4-4036-90e6-c087cffd52e7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gravitic Punch
@@ -1829,7 +1962,13 @@
   > Jump-start (You may cast this card from your graveyard by discarding a card in addition to paying its other costs. Then exile this card.)
 - **Keywords:** Jump, Jump-start
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9844 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/grn/105/gravitic-punch) · oracle_id `90ea4c57-e0ff-4697-912c-c6e2dc873529` · printing: GRN #105 (2018-10-05) · [rulings](https://api.scryfall.com/cards/05fe0428-6e7d-49d4-9a29-80a3589f565a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2018-10-05* — A spell cast using jump-start will always be exiled afterward, whether it resolves, it's countered, or it leaves the stack in some other way.
+  - *2018-10-05* — If a card with jump-start is put into your graveyard during your turn, you'll be able to cast it right away if it's legal to do so, before an opponent can take any actions.
+  - *2018-10-05* — If an effect allows you to pay an alternative cost rather than a spell's mana cost, you may pay that alternative cost when you jump-start a spell. You'll still discard a card as an additional cost to cast it.
+  - *2018-10-05* — If the target creature or the target player is an illegal target as Gravitic Punch tries to resolve, the creature won't deal damage.
+  - *2018-10-05* — You must still follow any timing restrictions and permissions when casting a spell with jump-start, including those based on the card's type. For instance, you can cast a sorcery using jump-start only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/grn/105/gravitic-punch) · oracle_id `90ea4c57-e0ff-4697-912c-c6e2dc873529` · printing: GRN #105 (2018-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Graviton, Fundamental Force
 
@@ -1996,6 +2135,7 @@
   > When this land enters, you gain 1 life.
   > {T}: Add {G} or {W}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2784 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c19/249/graypelt-refuge) · oracle_id `60b36821-0fad-423c-98c4-f64d991719f3` · printing: C19 #249 (2019-08-23) · [rulings](https://api.scryfall.com/cards/0849b6dd-0330-4b7e-b7da-98e767adb4a0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grayscaled Gharial
@@ -2044,7 +2184,9 @@
 - **Flavor text** (CLB printing):
   > *"You studied hard. How delicious!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2006 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/723/grazilaxx-illithid-scholar) · oracle_id `d22ff377-d282-4a28-9dce-96f25913dc96` · printing: CLB #723 (2022-06-10) · [rulings](https://api.scryfall.com/cards/3de11222-c2fa-4544-a501-a02b31797259/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-07-23* — Grazilaxx's first ability triggers before combat damage is dealt. If you choose to return the creature to your hand, it won't deal or receive combat damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/723/grazilaxx-illithid-scholar) · oracle_id `d22ff377-d282-4a28-9dce-96f25913dc96` · printing: CLB #723 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grazing Gladehart
 

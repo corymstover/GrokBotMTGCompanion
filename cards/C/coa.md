@@ -106,7 +106,10 @@
   > {T}: Put a charge counter on this artifact.
   > At the beginning of your first main phase, remove all charge counters from this artifact. Add one mana of any color for each charge counter removed this way.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3445 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/180/coalition-relic) · oracle_id `008cb342-79f5-4df6-a6b7-0e9e22ed693f` · printing: DMC #180 (2022-09-09) · [rulings](https://api.scryfall.com/cards/ef44324a-32bd-47e9-8fd9-258ba668de53/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-03-19* — If you remove multiple charge counters from Coalition Relic at once, you may add a different color of mana for each one.
+  - *2021-03-19* — Only the first main phase each turn is considered a precombat main phase, even if additional main phases or combat phases are created.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/180/coalition-relic) · oracle_id `008cb342-79f5-4df6-a6b7-0e9e22ed693f` · printing: DMC #180 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coalition Skyknight
 
@@ -130,7 +133,9 @@
   > *"You can build a perfect machine out of imperfect parts."*
   > *—Urza*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9587 · Game Changer: **yes** · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsb/91/coalition-victory) · oracle_id `e9e25800-9ee7-40c9-b22d-611c7281c125` · printing: TSB #91 (2006-10-06) · [rulings](https://api.scryfall.com/cards/446824f7-dc42-42da-8bd5-6c37f3358d65/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-09-25* — When Coalition Victory resolves, it checks for the five basic land types (Plains, Island, Swamp, Mountain, Forest) and the five colors (white, blue, black, red, green). If a single land has multiple types and/or a single creature is multiple colors, it will count all those types and/or colors.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsb/91/coalition-victory) · oracle_id `e9e25800-9ee7-40c9-b22d-611c7281c125` · printing: TSB #91 (2006-10-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coalition Warbrute
 
@@ -156,7 +161,12 @@
   > When this creature enters, put target creature card with mana value 4 or less from a graveyard onto the battlefield under your control with a finality counter on it. That creature gains menace, deathtouch, and haste. At the beginning of your next end step, exile that creature.
 - **Keywords:** Menace, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8198 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dft/198/coalstoke-gearhulk) · oracle_id `2cdbaa4e-8907-49dc-9fa9-0df70db3bf23` · printing: DFT #198 (2025-02-14) · [rulings](https://api.scryfall.com/cards/73431628-b9b0-41e6-8e9b-8a090939b0c1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-02-07* — Finality counters aren’t keyword counters, and a finality counter doesn’t give any abilities to the permanent it’s on. If that permanent loses its abilities and then would go to a graveyard, it will still be exiled instead.
+  - *2025-02-07* — Finality counters don’t stop permanents from going to zones other than the graveyard from the battlefield. For example, if a permanent with a finality counter on it would be put into its owner’s hand from the battlefield, it does so normally.
+  - *2025-02-07* — Finality counters work on any permanent, not only creatures. If a permanent with a finality counter on it would be put into a graveyard from the battlefield, exile it instead.
+  - *2025-02-07* — Multiple finality counters on a single permanent are redundant.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dft/198/coalstoke-gearhulk) · oracle_id `2cdbaa4e-8907-49dc-9fa9-0df70db3bf23` · printing: DFT #198 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coal Stoker
 
@@ -247,7 +257,9 @@
   > *—Pepper Potts*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4930 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/232/coastal-peak) · oracle_id `0e25faa2-efb0-4ca5-b280-18c38faa860c` · printing: MSC #232 (2026-06-26) · [rulings](https://api.scryfall.com/cards/d2a70a9d-2d9f-4afd-9393-8d6518936ee2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-03-20* — Unlike some other dual lands, Coastal Peak has two basic land types. It's not basic, so effects that search for basic lands can't find it, but it does have the appropriate land types for effects such as that of Frostboil Snarl.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/232/coastal-peak) · oracle_id `0e25faa2-efb0-4ca5-b280-18c38faa860c` · printing: MSC #232 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coastal Piracy
 
@@ -259,7 +271,9 @@
   > *"Earth Nation! Fire Nation! Water Nation! So long as bargains are your inclination, you're welcome here!"*
   > *—Pirate peddler*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1518 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tle/156/coastal-piracy) · oracle_id `8a05ec32-7b0c-4f23-a4f7-413301c2a70a` · printing: TLE #156 (2025-11-21) · [rulings](https://api.scryfall.com/cards/3c3d9916-76c4-425a-a215-6226d0921f0b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — You draw one card per creature, not one per point of damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tle/156/coastal-piracy) · oracle_id `8a05ec32-7b0c-4f23-a4f7-413301c2a70a` · printing: TLE #156 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coastal Tower
 
@@ -345,7 +359,11 @@
 - **Flavor text** (DDS printing):
   > *A banner for bonds of blood or belief.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #957 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dds/58/coat-of-arms) · oracle_id `5f7f133e-58ea-41ab-b1be-be4b400fac4c` · printing: DDS #58 (2017-03-31) · [rulings](https://api.scryfall.com/cards/513d4c36-6ad4-4ee9-b161-3136eb59504f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-10-04* — If a creature has more than one creature type, and one of those types matches the creature you are calculating for, then count that creature. Only one type needs to match in order to get counted.
+  - *2004-10-04* — If you have a creature with more than one creature type, count all creatures which have either creature type.
+  - *2009-10-01* — Sharing multiple creature types doesn't give an additional bonus. Coat of Arms counts creatures, not creature types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dds/58/coat-of-arms) · oracle_id `5f7f133e-58ea-41ab-b1be-be4b400fac4c` · printing: DDS #58 (2017-03-31) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coat with Venom
 

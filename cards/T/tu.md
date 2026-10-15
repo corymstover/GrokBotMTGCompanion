@@ -192,6 +192,7 @@
   > *As with everything else, goblins believe fortifications benefit from as many spiky bits as possible.*
 - **Keywords:** Reach, Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8041 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/znr/173/tuktuk-rubblefort) · oracle_id `48dab180-4ffd-4b39-9f5a-6bdc017a1eae` · printing: ZNR #173 (2020-09-25) · [rulings](https://api.scryfall.com/cards/02eedf9d-e26c-405c-aee5-1b3493dc5e9b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tuktuk Scrapper
@@ -327,6 +328,7 @@
 - **Flavor text** (MH3 printing):
   > *"The kami whisper of other worlds, brimming with stories untold. It would take a lifetime to learn them. A lifetime well spent."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6093 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/75/tune-the-narrative) · oracle_id `4262a726-d1da-4bdc-ab14-73212aa83f9c` · printing: MH3 #75 (2024-06-14) · [rulings](https://api.scryfall.com/cards/40b13321-98f1-4e8c-802d-65498e43ec24/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tune Up
@@ -386,7 +388,11 @@
   > *As Ulamog's brood reduces the earth to dust, geopedes burst from their tunnels in search of solid ground.*
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4919 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/158/tunneling-geopede) · oracle_id `78cd6d20-033f-471f-a86e-59ec8307ae1f` · printing: BFZ #158 (2015-10-02) · [rulings](https://api.scryfall.com/cards/d4071152-5e64-4133-88a2-8fa5cb0eeb6c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/158/tunneling-geopede) · oracle_id `78cd6d20-033f-471f-a86e-59ec8307ae1f` · printing: BFZ #158 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tunnel of Love
 
@@ -478,7 +484,10 @@
   > *"The Theorist swears this Multiverse will be free of suffering, but part of me wonders if he just plans on hiding it better."*
   > *—Tam, field notes*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9455 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frc/16/turbulent-crater) · oracle_id `e86a0b64-fe4a-4ea8-99e8-35860dbac765` · printing: FRC #16 (2026-10-02) · [rulings](https://api.scryfall.com/cards/0cb04417-063e-45f7-86d3-7648111d04d7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2026-08-21* — If this land enters the battlefield at the same time as any number of lands your opponents control, those other lands are not counted when determining if this land enters the battlefield tapped or untapped.
+  - *2026-08-21* — Unlike some other dual lands, Turbulent Crater has two basic land types. It's not basic, so effects that search for basic lands can't find it, but it does have the appropriate land types for effects such as that of Dragonskull Summit ("This land enters tapped unless you control a Swamp or a Mountain.").
+- **Source flags:** [Scryfall](https://scryfall.com/card/frc/16/turbulent-crater) · oracle_id `e86a0b64-fe4a-4ea8-99e8-35860dbac765` · printing: FRC #16 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Turbulent Dreams
 
@@ -503,7 +512,10 @@
   > *"Life is beauty and cruelty. Pain and joy. It is the promise of certain death at the end of a glorious journey."*
   > *—Beledros Witherbloom*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3220 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/55/turbulent-fen) · oracle_id `114dd40d-5ad8-4913-a08f-572b9521eb5b` · printing: SOC #55 (2026-04-24) · [rulings](https://api.scryfall.com/cards/9737159b-256c-4004-ba5f-0417c35e1b30/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2026-03-20* — If this land enters the battlefield at the same time as any number of lands your opponents control, those other lands are not counted when determining if this land enters the battlefield tapped or untapped.
+  - *2026-03-20* — Unlike some other dual lands, Turbulent Fen has two basic land types. It's not basic, so effects that search for basic lands can't find it, but it does have the appropriate land types for effects such as that of Necroblossom Snarl (included in the Secrets of Strixhaven Commander decks).
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/55/turbulent-fen) · oracle_id `114dd40d-5ad8-4913-a08f-572b9521eb5b` · printing: SOC #55 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Turbulent Moor
 
@@ -516,7 +528,10 @@
   > *"Where others see melancholy, I see promise. All our kindness and cruelty make such haunting poetry."*
   > *—Shadrix Silverquill*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3326 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/56/turbulent-moor) · oracle_id `2eb4da30-2600-4a7f-8e6c-6a090faa9a8d` · printing: SOC #56 (2026-04-24) · [rulings](https://api.scryfall.com/cards/da54562d-8c09-4728-bb2b-ae8d464106b8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2026-03-20* — If this land enters the battlefield at the same time as any number of lands your opponents control, those other lands are not counted when determining if this land enters the battlefield tapped or untapped.
+  - *2026-03-20* — Unlike some other dual lands, Turbulent Moor has two basic land types. It's not basic, so effects that search for basic lands can't find it, but it does have the appropriate land types for effects such as that of Shineshadow Snarl (included in the Secrets of Strixhaven Commander decks).
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/56/turbulent-moor) · oracle_id `2eb4da30-2600-4a7f-8e6c-6a090faa9a8d` · printing: SOC #56 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Turbulent Shore
 
@@ -529,7 +544,10 @@
   > *"I knew this Multiverse to be superior when I had never experienced the other. Now that I have, I am . . . less certain."*
   > *—Tam, field notes*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8805 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frc/17/turbulent-shore) · oracle_id `c13c5f07-dac5-47d0-a088-e24b9fbec3c5` · printing: FRC #17 (2026-10-02) · [rulings](https://api.scryfall.com/cards/92039341-152a-4797-a3df-e89e8d5145d3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2026-08-21* — If this land enters the battlefield at the same time as any number of lands your opponents control, those other lands are not counted when determining if this land enters the battlefield tapped or untapped.
+  - *2026-08-21* — Unlike some other dual lands, Turbulent Shore has two basic land types. It's not basic, so effects that search for basic lands can't find it, but it does have the appropriate land types for effects such as that of Glacial Fortress (included in the Reality Fracture Commander deck).
+- **Source flags:** [Scryfall](https://scryfall.com/card/frc/17/turbulent-shore) · oracle_id `c13c5f07-dac5-47d0-a088-e24b9fbec3c5` · printing: FRC #17 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Turbulent Springs
 
@@ -542,7 +560,10 @@
   > *"The Multiverse itself is a never-ending act of creation. Do not look inward so often that you forget how to see it."*
   > *—Galazeth Prismari*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3246 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/57/turbulent-springs) · oracle_id `9aef7510-9f06-4939-8cae-f71330d1105e` · printing: SOC #57 (2026-04-24) · [rulings](https://api.scryfall.com/cards/a25cb813-aa6d-469c-aa29-61ffa32267f2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2026-03-20* — If this land enters the battlefield at the same time as any number of lands your opponents control, those other lands are not counted when determining if this land enters the battlefield tapped or untapped.
+  - *2026-03-20* — Unlike some other dual lands, Turbulent Springs has two basic land types. It's not basic, so effects that search for basic lands can't find it, but it does have the appropriate land types for effects such as that of Frostboil Snarl (included in the Secrets of Strixhaven Commander decks).
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/57/turbulent-springs) · oracle_id `9aef7510-9f06-4939-8cae-f71330d1105e` · printing: SOC #57 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Turbulent Steppe
 
@@ -555,7 +576,10 @@
   > *"Respect for the past is respect for oneself. It's an admission that we too shall pass into history."*
   > *—Velomachus Lorehold*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3688 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/58/turbulent-steppe) · oracle_id `db444f9d-4dde-4308-b0f2-7acfe6de871a` · printing: SOC #58 (2026-04-24) · [rulings](https://api.scryfall.com/cards/c0c73dd5-0a88-4a94-9c01-c1473433e46f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2026-03-20* — If this land enters the battlefield at the same time as any number of lands your opponents control, those other lands are not counted when determining if this land enters the battlefield tapped or untapped.
+  - *2026-03-20* — Unlike some other dual lands, Turbulent Steppe has two basic land types. It's not basic, so effects that search for basic lands can't find it, but it does have the appropriate land types for effects such as that of Furycalm Snarl (included in the Secrets of Strixhaven Commander decks).
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/58/turbulent-steppe) · oracle_id `db444f9d-4dde-4308-b0f2-7acfe6de871a` · printing: SOC #58 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Turbulent Wetlands
 
@@ -568,7 +592,10 @@
   > *"There is a deep sadness here . . . one I had not thought possible in this reality. Is it my understanding that's flawed or the Theorist's?"*
   > *—-Tam, field notes*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8952 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frc/18/turbulent-wetlands) · oracle_id `b51c8659-ec4f-4213-beb1-49a7acd7366c` · printing: FRC #18 (2026-10-02) · [rulings](https://api.scryfall.com/cards/8d86f7f8-492d-4e19-8b61-39084c6299ac/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2026-08-21* — If this land enters the battlefield at the same time as any number of lands your opponents control, those other lands are not counted when determining if this land enters the battlefield tapped or untapped.
+  - *2026-08-21* — Unlike some other dual lands, Turbulent Wetlands has two basic land types. It's not basic, so effects that search for basic lands can't find it, but it does have the appropriate land types for effects such as that of Drowned Catacomb (included in the Reality Fracture Commander deck).
+- **Source flags:** [Scryfall](https://scryfall.com/card/frc/18/turbulent-wetlands) · oracle_id `b51c8659-ec4f-4213-beb1-49a7acd7366c` · printing: FRC #18 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Turbulent Wilderness
 
@@ -581,7 +608,10 @@
   > *"Existence is more perfect, more informative and unknowable, than the cleverest theorem ever devised."*
   > *—Tanazir Quandrix*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3730 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/59/turbulent-wilderness) · oracle_id `bd8adca6-4f16-45f8-994a-fe55bd573bd0` · printing: SOC #59 (2026-04-24) · [rulings](https://api.scryfall.com/cards/b6ca755c-4b17-450b-b995-bfec8a55396f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2026-03-20* — If this land enters the battlefield at the same time as any number of lands your opponents control, those other lands are not counted when determining if this land enters the battlefield tapped or untapped.
+  - *2026-03-20* — Unlike some other dual lands, Turbulent Wilderness has two basic land types. It's not basic, so effects that search for basic lands can't find it, but it does have the appropriate land types for effects such as that of Vineglimmer Snarl (included in the Secrets of Strixhaven Commander decks).
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/59/turbulent-wilderness) · oracle_id `bd8adca6-4f16-45f8-994a-fe55bd573bd0` · printing: SOC #59 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Turf War
 
@@ -615,7 +645,9 @@
 - **Flavor text** (DMR printing):
   > *The best cure for a big ego is a little failure.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4228 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/70/turnabout) · oracle_id `715d0777-4d36-463b-9102-6bb6bb00b7e9` · printing: DMR #70 (2023-01-13) · [rulings](https://api.scryfall.com/cards/04cfc84b-88ae-4fb8-b568-e0635e2a194a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-12-08* — You decide on resolution if you are tapping or untapping, and which kind of permanent you are affecting.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/70/turnabout) · oracle_id `715d0777-4d36-463b-9102-6bb6bb00b7e9` · printing: DMR #70 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Turn Against
 
@@ -640,7 +672,9 @@
   > *"There are tides beyond those in the sea that are driven by Innistrad's silver moon. If you learn their patterns, you can channel them in fascinating ways."*
   > *—Tamiyo*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6597 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/emn/78/turn-aside) · oracle_id `4325ae73-af43-4a7d-a552-9909f0dc77db` · printing: EMN #78 (2016-07-22) · [rulings](https://api.scryfall.com/cards/3b7573c2-484c-4b4e-9c26-0f005bd1daee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-07-13* — Turn Aside can target a spell that has multiple targets, as long as at least one of those targets is a permanent you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/emn/78/turn-aside) · oracle_id `4325ae73-af43-4a7d-a552-9909f0dc77db` · printing: EMN #78 (2016-07-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Turn // Burn
 
@@ -782,7 +816,9 @@
 - **Flavor text** (OTC printing):
   > *"Zendikar's wounds can be healed."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7776 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/211/turntimber-sower) · oracle_id `23d7d8ba-5237-4ffc-bd5f-b07ff9ec73af` · printing: OTC #211 (2024-04-19) · [rulings](https://api.scryfall.com/cards/11bdff1d-4542-4c71-af00-731d6651b492/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-07-13* — If multiple land cards are put into your graveyard at once, Turntimber Sower's first ability triggers only once. This could happen because an effect put them there from your library at once, or because they were destroyed at the same time (such as two land creatures that were dealt lethal combat damage), for example.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/211/turntimber-sower) · oracle_id `23d7d8ba-5237-4ffc-bd5f-b07ff9ec73af` · printing: OTC #211 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Turntimber Symbiosis // Turntimber, Serpentine Wood
 
@@ -796,7 +832,19 @@
   > *"The trees here twist around spikes of mana, feeding off the flowing power."*
   > *—Jori En, expedition leader*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2334 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/215/turntimber-symbiosis-turntimber-serpentine-wood) · oracle_id `403b59f3-7ade-4bc2-a3e6-de0c3c700f18` · printing: ZNR #215 (2020-09-25) · [rulings](https://api.scryfall.com/cards/61bd69ea-1e9e-46b0-b1a1-ed7fdbe3deb6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2020-09-25* — A modal double-faced card can't be transformed or be put onto the battlefield transformed. Ignore any instruction to transform a modal double-faced card or to put one onto the battlefield transformed.
+  - *2020-09-25* — If a card in a player's library has {X} in its mana cost, X is considered to be 0.
+  - *2020-09-25* — If an effect allows you to play a land or cast a spell from among a group of cards, you may play or cast a modal double-faced card with any face that fits the criteria of that effect.
+  - *2020-09-25* — If an effect allows you to play a specific modal double-faced card, you may cast it as a spell or play it as a land, as determined by which face you choose to play. If an effect allows you to cast (rather than "play") a specific modal double-faced card, you can't play it as a land.
+  - *2020-09-25* — If an effect instructs a player to choose a card name, the name of either face may be chosen. If that effect or a linked ability refers to a spell with the chosen name being cast and/or a land with the chosen name being played, it considers only the chosen name, not the other face's name.
+  - *2020-09-25* — If an effect puts a double-faced card onto the battlefield, it enters with its front face up. If that front face can't be put onto the battlefield, it doesn't enter the battlefield.
+  - *2020-09-25* — In the Commander variant, a double-faced card's color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered.
+  - *2020-09-25* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack and battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
+  - *2020-09-25* — There is a single triangle icon in the top left corner of the front face. There is a double triangle icon in the top left corner of the back face.
+  - *2020-09-25* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics.
+  - *2020-09-25* — Use the mana value of the creature card as it exists in your library to determine whether it receives +1/+1 counters, ignoring any replacement effects (such as that of Glasspool Mimic) that will change its mana value once it's on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/215/turntimber-symbiosis-turntimber-serpentine-wood) · oracle_id `403b59f3-7ade-4bc2-a3e6-de0c3c700f18` · printing: ZNR #215 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Turn to Dust
 
@@ -818,7 +866,14 @@
 - **Flavor text** (CLU printing):
   > *"Ribbit."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9042 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/103/turn-to-frog) · oracle_id `74c4c1e2-c50d-4c8f-889a-0d5674dc6d67` · printing: CLU #103 (2024-02-23) · [rulings](https://api.scryfall.com/cards/5c2410cc-4094-48c4-a219-b4fc385b3746/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2014-07-18* — Effects that modify a creature’s power and/or toughness, such as the effect of Titanic Growth, will apply to the creature no matter when they started to take effect. The same is true for any counters that change its power and/or toughness and effects that switch its power and toughness.
+  - *2014-07-18* — If one of the Theros block Gods is affected by Turn to Frog, it will be a legendary 1/1 blue Frog enchantment creature with no abilities. If it stops being a creature, perhaps because your devotion to its color(s) decreased, it will be a legendary blue enchantment with no abilities. The way continuous effects work, the God’s type-changing ability is applied before the effect that removes that ability is applied.
+  - *2014-07-18* — If the affected creature gains an ability after Turn to Frog resolves, it will keep that ability.
+  - *2014-07-18* — The creature will lose all other colors and creature types, but it will retain any other card types (such as artifact) or supertypes (such as legendary) it may have.
+  - *2014-07-18* — Turn to Frog doesn’t counter abilities that have already triggered or been activated. In particular, there is no way to cast this spell to stop a creature’s ability that says “At the beginning of your upkeep,” “When this creature enters the battlefield,” or similar from triggering.
+  - *2014-07-18* — Turn to Frog overwrites all previous effects that set the creature’s base power and toughness to specific values. Any power- or toughness-setting effects that start to apply after Turn to Frog resolves will overwrite this effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/103/turn-to-frog) · oracle_id `74c4c1e2-c50d-4c8f-889a-0d5674dc6d67` · printing: CLU #103 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Turn to Mist
 
@@ -894,7 +949,9 @@
 - **Flavor text** (TMT printing):
   > *Home is where your pizza delivers.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5608 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/190/turtle-lair) · oracle_id `eb002bbc-08df-4bf0-bea3-46494ad261b6` · printing: TMT #190 (2026-03-06) · [rulings](https://api.scryfall.com/cards/c50c4580-979b-4863-86b9-16e258198972/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-01-27* — Once a Ninja or Turtle creature has been blocked, activating Turtle Lair's last ability targeting that creature won't cause it to become unblocked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/190/turtle-lair) · oracle_id `eb002bbc-08df-4bf0-bea3-46494ad261b6` · printing: TMT #190 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Turtle Power!
 
@@ -1034,7 +1091,10 @@
   > *One quiet word sets off the stampede.*
 - **Keywords:** Outlast
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5575 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/328/tuskguard-captain) · oracle_id `aa149597-087a-4e1f-953c-2cd04e90a93b` · printing: CMM #328 (2023-08-04) · [rulings](https://api.scryfall.com/cards/be1165a2-e697-4ceb-91ba-693a3a006f27/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-09-20* — Several creatures with outlast also grant an ability to creatures you control with +1/+1 counters on them, including themselves. These counters could come from an outlast ability, but any +1/+1 counter on the creature will count.
+  - *2014-09-20* — The cost to activate a creature's outlast ability includes the tap symbol ({T}). A creature's outlast ability can't be activated unless that creature has been under your control continuously since the beginning of your turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/328/tuskguard-captain) · oracle_id `aa149597-087a-4e1f-953c-2cd04e90a93b` · printing: CMM #328 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tuvasa the Sunlit
 
@@ -1047,7 +1107,10 @@
 - **Flavor text** (C18 printing):
   > *"My people have always been here, and here we shall remain."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8421 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/c18/47/tuvasa-the-sunlit) · oracle_id `6a83d976-8087-48d7-b6f5-63efb8329e99` · printing: C18 #47 (2018-08-10) · [rulings](https://api.scryfall.com/cards/bdda07ac-2f9f-4c8e-b3f6-b54d0afd730c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-07-13* — Because damage remains marked on a creature until it's removed as the turn ends, nonlethal damage dealt to Tuvasa may become lethal if some of your enchantments leave the battlefield during that turn.
+  - *2018-07-13* — Tuvasa's triggered ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c18/47/tuvasa-the-sunlit) · oracle_id `6a83d976-8087-48d7-b6f5-63efb8329e99` · printing: C18 #47 (2018-08-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tuya Bearclaw
 

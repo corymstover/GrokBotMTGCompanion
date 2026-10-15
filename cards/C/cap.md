@@ -162,7 +162,9 @@
   > *A city built upon the Isles of Ark that straddle the continents of Storm and Ash.*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3674 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/274/capital-city) · oracle_id `2c96ab90-155b-4bf4-acc9-65a2f0cd3189` · printing: FIN #274 (2025-06-13) · [rulings](https://api.scryfall.com/cards/f73ce8ec-c916-48eb-ae20-c0d6d03d7145/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-06-06* — Town is a land type with no special meaning. It doesn't grant the land any intrinsic abilities. Other cards may care about which lands are Towns.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/274/capital-city) · oracle_id `2c96ab90-155b-4bf4-acc9-65a2f0cd3189` · printing: FIN #274 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Capital Guard
 
@@ -198,7 +200,17 @@
   > *—Queen Marchesa*
 - **Keywords:** Council's dilemma
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9490 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/40/capital-punishment) · oracle_id `c2902f4f-b40e-49f7-8ab0-5b6a70021482` · printing: CN2 #40 (2016-08-26) · [rulings](https://api.scryfall.com/cards/051830bb-1baa-4c11-9177-efcd908fbcaf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2016-08-23* — Because the votes are made in turn order, each player will know the votes of players who voted beforehand.
+  - *2016-08-23* — Each opponent chooses an appropriate number of creatures to sacrifice in turn order, then all of those creatures are sacrificed simultaneously. After that is complete, each opponent sets aside an appropriate number of cards to discard in turn order, then all cards are revealed and discarded simultaneously.
+  - *2016-08-23* — If a creature with an enters-the-battlefield council’s dilemma ability leaves the battlefield before that ability resolves, players can still vote for any option that would put +1/+1 counters on that creature, even though—or perhaps especially because—those votes won’t generate an effect.
+  - *2016-08-23* — If an opponent controls fewer creatures or has fewer cards in hand than the number of appropriate votes, all those creatures are sacrificed or all those cards are discarded, as applicable.
+  - *2016-08-23* — No player votes until the spell or ability resolves. Any responses to that spell or ability must be made without knowing the outcome of the vote.
+  - *2016-08-23* — Players can’t do anything between voting and finishing the resolution of the spell or ability that included the vote.
+  - *2016-08-23* — The effects of each council’s dilemma ability happen in the stated order. First the vote occurs, then the first effect, and finally the second effect.
+  - *2016-08-23* — Unlike the will of the council cards from the original Conspiracy set, where a majority of votes determined what happened, each vote made for a council’s dilemma card adds to the ultimate effect.
+  - *2016-08-23* — You must vote for one of the available options. You can’t abstain.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/40/capital-punishment) · oracle_id `c2902f4f-b40e-49f7-8ab0-5b6a70021482` · printing: CN2 #40 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Caprichrome
 
@@ -271,7 +283,13 @@
   > This creature enters with X +1/+1 counters on it.
   > {2}: Put a +1/+1 counter on this creature, then you may reselect which player this creature is attacking. Only the player this creature is attacking may activate this ability and only during the declare attackers step. (It can't attack its controller.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8626 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c20/58/capricopian) · oracle_id `3a5a6732-bdfa-4b64-b897-6817983dbb0e` · printing: C20 #58 (2020-04-17) · [rulings](https://api.scryfall.com/cards/0b81f82a-f004-44f3-9dad-1675941fe57b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2020-04-17* — If you reselect which player an attacking creature is attacking, that creature is still considered to have attacked the player as declared, but it is now attacking the new player.
+  - *2020-04-17* — Reselecting which player a creature is attacking doesn’t cause “whenever this creature attacks” abilities to trigger.
+  - *2020-04-17* — Reselecting which player a creature is attacking ignores all requirements, restrictions, and costs associated with attacking.
+  - *2020-04-17* — The player Capricopian becomes attacking may activate its ability, perhaps sending Capricopian right back towards its original destination.
+  - *2020-04-17* — The player Capricopian is attacking can’t reselect it to attack a planeswalker instead. If Capricopian is attacking a planeswalker, no player may activate its last ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c20/58/capricopian) · oracle_id `3a5a6732-bdfa-4b64-b897-6817983dbb0e` · printing: C20 #58 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Capsize
 
@@ -282,6 +300,7 @@
   > Return target permanent to its owner's hand.
 - **Keywords:** Buyback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5363 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/42/capsize) · oracle_id `77637eff-2963-4402-88f3-ca346f762fc8` · printing: TPR #42 (2015-05-06) · [rulings](https://api.scryfall.com/cards/f36f6545-e4e0-4dc8-acea-e527e43f3e14/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Captain America, First Avenger
@@ -294,6 +313,7 @@
   > ... Catch — At the beginning of combat on your turn, attach up to one target Equipment you control to Captain America.
 - **Keywords:** Throw ..., ... Catch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7815 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mar/88/captain-america-first-avenger) · oracle_id `7d038055-035d-4698-b6b6-e2859bf2f1d1` · printing: MAR #88 (2026-06-26) · [rulings](https://api.scryfall.com/cards/0669ffcf-30c1-4d90-ae5f-3deca0f82526/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Captain America, Liberator
@@ -319,6 +339,7 @@
   > *"They say the world moved on without me, but as long as injustice exists, I'm still needed here."*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6994 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/210/captain-america-living-legend) · oracle_id `67aa946d-e694-494e-ba0c-44880d5bc03e` · printing: MSH #210 (2026-06-26) · [rulings](https://api.scryfall.com/cards/6516f292-469d-4092-b099-97c698f373cd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Captain America, Skybound
@@ -359,6 +380,7 @@
   > *It defends what is and stands for what could be.*
 - **Keywords:** Indestructible, Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5134 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/244/captain-americas-shield) · oracle_id `8255a797-ddd3-4db0-a3f5-dd8f38c3b908` · printing: MSH #244 (2026-06-26) · [rulings](https://api.scryfall.com/cards/4b5433ac-0d36-4472-bf8b-d22f0ffd367b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Captain America, Steve Rogers
@@ -433,6 +455,7 @@
   > Whenever you discard one or more cards, target creature gets +2/+0 until end of turn for each card discarded this way. Whenever that creature deals combat damage to a player this turn, you draw a card.
 - **Keywords:** Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5033 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/194/captain-howler-sea-scourge) · oracle_id `46c99d67-8307-4af0-afd0-377714806614` · printing: DFT #194 (2025-02-14) · [rulings](https://api.scryfall.com/cards/0957c90f-e10d-40f8-a4be-9e9ef623dd43/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Captain James T. Kirk
@@ -484,7 +507,11 @@
   > Whenever you sacrifice a Treasure, Captain Lannery Storm gets +1/+0 until end of turn.
 - **Keywords:** Treasure, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1195 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/158/captain-lannery-storm) · oracle_id `235bf0ba-658c-463f-b112-7478ba27bd7b` · printing: OTC #158 (2024-04-19) · [rulings](https://api.scryfall.com/cards/60a457e2-6cc7-47f0-9a24-df5459395358/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2017-09-29* — Captain Lannery Storm's last ability triggers whenever you sacrifice a Treasure for any reason, not just to activate a Treasure's mana ability.
+  - *2017-09-29* — If you sacrifice Treasures to cast Captain Lannery Storm, its last ability won't trigger for those Treasures.
+  - *2017-09-29* — You can activate the mana ability of a Treasure even if you have nothing to spend that mana on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/158/captain-lannery-storm) · oracle_id `235bf0ba-658c-463f-b112-7478ba27bd7b` · printing: OTC #158 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Captain Marvel, Apex Avenger
 
@@ -551,6 +578,7 @@
   > At the beginning of your end step, choose target artifact or creature card in an opponent's graveyard that was put there from their library this turn. Put it onto the battlefield under your control.
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4478 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/646/captain-nghathrod) · oracle_id `cfb23c6b-6e4a-4fc9-b3bb-a3ddc2ba06b8` · printing: CLB #646 (2022-06-10) · [rulings](https://api.scryfall.com/cards/55c02dc8-0743-400c-b334-ca029caf0463/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Captain of the Mists
@@ -577,7 +605,9 @@
   > When this creature enters, create three 1/1 white Soldier creature tokens.
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3972 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddo/3/captain-of-the-watch) · oracle_id `9f2af06d-8fb7-4276-bb92-3559a6d1fa18` · printing: DDO #3 (2015-02-27) · [rulings](https://api.scryfall.com/cards/6e201980-e220-44dc-beab-ad13c20332bd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-10-01* — Captain of the Watch grants +1/+1 and vigilance to all other Soldier creatures you control, not just the ones its ability puts onto the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddo/3/captain-of-the-watch) · oracle_id `9f2af06d-8fb7-4276-bb92-3559a6d1fa18` · printing: DDO #3 (2015-02-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Captain of Umbar
 
@@ -674,7 +704,9 @@
 - **Flavor text** (INV printing):
   > *Her leadership forged the \*Weatherlight\*'s finest crew.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4502 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/inv/237/captain-sisay) · oracle_id `2e7a9ea9-f76c-4c12-950f-c613fa16cfa8` · printing: INV #237 (2000-10-02) · [rulings](https://api.scryfall.com/cards/d24d441c-f37f-44fe-8a93-f5c89df807e4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Because the "search" requires you to find a card with certain characteristics, you don't have to find the card if you don't want to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inv/237/captain-sisay) · oracle_id `2e7a9ea9-f76c-4c12-950f-c613fa16cfa8` · printing: INV #237 (2000-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Captain's Maneuver
 
@@ -697,6 +729,7 @@
 - **Flavor text** (LCI printing):
   > *"To the mother lode, and death take the wary!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6140 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/227/captain-storm-cosmium-raider) · oracle_id `431e85e3-15e6-471b-ba71-6058394c9a96` · printing: LCI #227 (2023-11-17) · [rulings](https://api.scryfall.com/cards/14c65f5a-10bd-4f9b-b816-46c2240b11ff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Captain's Tutelage
@@ -735,6 +768,7 @@
   > {1}, {T}: Add one mana of any color.
   > {4}, {T}, Sacrifice this land: Put two +1/+1 counters on target creature. Activate only as a sorcery.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6249 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/268/captivating-cave) · oracle_id `4c77767a-8133-43bc-b7a5-09a73259d354` · printing: LCI #268 (2023-11-17) · [rulings](https://api.scryfall.com/cards/1d1a645e-85c7-4044-b817-6e24744d245e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Captivating Crew
@@ -747,7 +781,9 @@
 - **Flavor text** (OTC printing):
   > *"We sail. We plunder. Then we dance."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3586 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/159/captivating-crew) · oracle_id `1049bc06-83de-4ed6-ae38-f259e5038a95` · printing: OTC #159 (2024-04-19) · [rulings](https://api.scryfall.com/cards/13710c49-496d-41f9-87a4-5794dea9145d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-09-29* — You can target and gain control of an untapped creature this way.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/159/captivating-crew) · oracle_id `1049bc06-83de-4ed6-ae38-f259e5038a95` · printing: OTC #159 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Captivating Glance
 
@@ -795,7 +831,11 @@
   > Other Vampire creatures you control get +1/+1.
   > Tap five untapped Vampires you control: Gain control of target creature. It becomes a Vampire in addition to its other types.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2490 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/100/captivating-vampire) · oracle_id `acd382ee-94fb-4a29-b14e-c2a3c6dde7e0` · printing: INR #100 (2025-01-24) · [rulings](https://api.scryfall.com/cards/0f87aadf-7638-4691-b5a5-86f928e98462/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2010-08-15* — Gaining control of a creature doesn’t cause you gain control of any Auras or Equipment attached to it.
+  - *2010-08-15* — Since Captivating Vampire’s activated ability doesn’t have a tap symbol in its cost, you can tap a Vampire (including Captivating Vampire itself) that hasn’t been under your control since your most recent turn began to pay the cost.
+  - *2010-08-15* — The effect of Captivating Vampire’s activated ability has no duration. You retain control of the affected creature until the game ends, the creature leaves the battlefield, or a later effect causes someone else to gain control of it. It doesn’t matter whether Captivating Vampire remains on the battlefield. Similarly, the affected creature remains a Vampire in addition to its other types until the game ends, the creature leaves the battlefield, or a later effect changes its types or subtypes.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/100/captivating-vampire) · oracle_id `acd382ee-94fb-4a29-b14e-c2a3c6dde7e0` · printing: INR #100 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Captive Audience
 
@@ -808,7 +848,14 @@
   > • Discard your hand.
   > • Each opponent creates five 2/2 black Zombie creature tokens.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7627 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rna/160/captive-audience) · oracle_id `fc25ca51-f351-4877-a092-525fb48524a1` · printing: RNA #160 (2019-01-25) · [rulings](https://api.scryfall.com/cards/065f63b2-472e-4148-8294-88ed38a5685f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2019-01-25* — For a player’s life total to become 4, that player gains or loses the appropriate amount of life. For example, if a player’s life total is 20, Captive Audience will cause that player to lose 16 life; alternatively, if their life total is 1, it will cause them to gain 3 life. Other cards that interact with life gain or life loss will interact with this effect accordingly.
+  - *2019-01-25* — If all three modes have been chosen, Captive Audience’s triggered ability is removed from the stack with no effect, but Captive Audience remains on the battlefield.
+  - *2019-01-25* — In a Two-Headed Giant game, Captive Audience’s first mode causes its controller to gain or lose life so that their team’s life total becomes 4.
+  - *2019-01-25* — In a multiplayer game, if Captive Audience’s owner leaves the game, Captive Audience leaves the game with them. If Captive Audience’s controller leaves the game, Captive Audience is exiled (assuming that player wasn’t also Captive Audience’s owner).
+  - *2019-01-25* — Once Captive Audience is controlled by your opponent, its ability triggers during that player’s upkeep and that player makes all choices for it. That player is affected by its first two modes, and that player’s opponents create the tokens for its last mode.
+  - *2019-01-25* — You may choose Captive Audience’s first mode even if your life total is already 4. Similarly, you may choose its second mode even if you have no cards in hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rna/160/captive-audience) · oracle_id `fc25ca51-f351-4877-a092-525fb48524a1` · printing: RNA #160 (2019-01-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Captive Flame
 
@@ -886,6 +933,7 @@
 - **Flavor text** (CMM printing):
   > *The province of Jingzhou was the fulcrum of the three kingdoms. At separate times it was coveted and controlled by the Wu, the Shu, and the Wei.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5160 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/79/capture-of-jingzhou) · oracle_id `89aa65d9-2502-40b0-90b6-b25a8e9f6155` · printing: CMM #79 (2023-08-04) · [rulings](https://api.scryfall.com/cards/f87d0298-f76b-4ea8-82c4-5861c4539d8b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Capture Sphere

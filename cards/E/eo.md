@@ -28,7 +28,13 @@
   > When Éomer enters, target player becomes the monarch. Éomer deals damage equal to its power to any target.
 - **Keywords:** Double strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4831 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/52/%C3%A9omer-king-of-rohan) · oracle_id `4f8191e6-a6aa-4426-9014-eff4e0efee9e` · printing: LTC #52 (2023-06-23) · [rulings](https://api.scryfall.com/cards/5f48930a-d7bd-410b-995a-4e2837aabb25/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-06-16* — If combat damage dealt to the monarch causes that player to lose the game, the triggered ability that causes the controller of the attacking creature to become the monarch doesn't resolve. In most cases, the controller of the attacking creature will still become the monarch as it is likely their turn.
+  - *2023-06-16* — If the monarch leaves the game during another player's turn, that player becomes the monarch. If the monarch leaves the game during their turn, the next player in turn order becomes the monarch.
+  - *2023-06-16* — If the triggered ability that causes the monarch to draw a card goes on the stack and a different player becomes the monarch before that ability resolves, the first player will still draw the card.
+  - *2023-06-16* — The game starts with no monarch. Once an effect makes one player the monarch, the game will have exactly one monarch from that point forward. As a player becomes the monarch, the current monarch (if any) ceases being the monarch.
+  - *2023-06-16* — There are two inherent triggered abilities associated with being the monarch. These triggered abilities have no source and are controlled by the player who was the monarch at the time the abilities triggered. The full texts of these abilities are "At the beginning of the monarch's end step, that player draws a card" and "Whenever a creature deals combat damage to the monarch, its controller becomes the monarch."
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/52/%C3%A9omer-king-of-rohan) · oracle_id `4f8191e6-a6aa-4426-9014-eff4e0efee9e` · printing: LTC #52 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Éomer, Marshal of Rohan
 
@@ -42,7 +48,10 @@
   > *"Need brooks no delay, yet late is better than never."*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5632 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/120/%C3%A9omer-marshal-of-rohan) · oracle_id `b2d95950-18b3-463f-94f4-299e420751dc` · printing: LTR #120 (2023-06-23) · [rulings](https://api.scryfall.com/cards/0bd31ce9-9551-4efe-8bd2-b97d8efbf75e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-06-16* — If Éomer, Marshal of Rohan and one or more other attacking legendary creatures you control die at the same time (probably due to combat damage), Éomer, Marshal of Rohan's last ability will trigger.
+  - *2023-06-16* — Notably, Éomer, Marshal of Rohan's triggered ability doesn't give you any additional main phases. This means that you will move directly from the end of combat step of one combat phase to the beginning of combat step of the next one.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/120/%C3%A9omer-marshal-of-rohan) · oracle_id `b2d95950-18b3-463f-94f4-299e420751dc` · printing: LTR #120 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Éomer of the Riddermark
 
@@ -93,7 +102,9 @@
   > *"Am I not of the House of Eorl? I have waited on faltering feet long enough."*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3262 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/201/%C3%A9owyn-fearless-knight) · oracle_id `dcc349e9-399d-4f33-8131-d1801272466a` · printing: LTR #201 (2023-06-23) · [rulings](https://api.scryfall.com/cards/adffb389-c9a3-41c4-b078-292a2bcf870d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-06-16* — Éowyn, Fearless Knight cares about the creature's colors just before it left the battlefield. These could be different from the creature card's colors in exile (for example, if it had a copy effect applied to it on the battlefield.)
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/201/%C3%A9owyn-fearless-knight) · oracle_id `dcc349e9-399d-4f33-8131-d1801272466a` · printing: LTR #201 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Éowyn, Lady of Rohan
 
@@ -104,7 +115,10 @@
   > At the beginning of combat on your turn, target creature gains your choice of first strike or vigilance until end of turn. If that creature is equipped, it gains first strike and vigilance until end of turn instead.
   > Equip abilities you activate cost {1} less to activate.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7443 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/10/%C3%A9owyn-lady-of-rohan) · oracle_id `1ee3753c-3b6e-4182-9305-2ab757f485f0` · printing: LTR #10 (2023-06-23) · [rulings](https://api.scryfall.com/cards/e59710c4-24de-419e-a8a0-e8392d450c23/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-06-16* — Some Equipment creature cards in other sets have reconfigure, a different ability that attaches them to a creature. Reconfigure is not an equip ability, and reconfigure costs are not reduced by Éowyn, Lady of Rohan's last ability. Equip variants or equip abilities with restrictions, like the "equip Human" ability of Dúnedain Blade, are still equip abilities, and their costs will be reduced by Éowyn, Lady of Rohan's last ability.
+  - *2023-06-16* — Éowyn, Lady of Rohan's last ability reduces only the amount of generic mana in equip abilities. For example, it will reduce an equip cost of {1} to {0}, but it will have no effect on an equip cost of {G}.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/10/%C3%A9owyn-lady-of-rohan) · oracle_id `1ee3753c-3b6e-4182-9305-2ab757f485f0` · printing: LTR #10 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Éowyn, Shieldmaiden
 
@@ -116,4 +130,6 @@
   > At the beginning of combat on your turn, if another Human entered the battlefield under your control this turn, create two 2/2 red Human Knight creature tokens with trample and haste. Then if you control six or more Humans, draw a card.
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4530 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/1/%C3%A9owyn-shieldmaiden) · oracle_id `98a2a642-a30a-43e7-b47f-4776c22d1cb0` · printing: LTC #1 (2023-06-23) · [rulings](https://api.scryfall.com/cards/dd4a00ff-2206-4e12-a0ab-61ed82c9e6c5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-06-16* — If another Human didn't enter the battlefield before your beginning of combat step, Éowyn, Shieldmaiden's ability won't trigger. You won't draw a card even if you control six or more Humans.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/1/%C3%A9owyn-shieldmaiden) · oracle_id `98a2a642-a30a-43e7-b47f-4776c22d1cb0` · printing: LTC #1 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

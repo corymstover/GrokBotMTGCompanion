@@ -129,6 +129,7 @@
   > Nightbound (If a player casts at least two spells during their own turn, it becomes day next turn.)
 - **Keywords:** Transform, Daybound, Hexproof, Nightbound
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7488 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vow/187/avabruck-caretaker-hollowhenge-huntmaster) · oracle_id `730be0d6-2612-44d6-9d36-e1fc6510c6bd` · printing: VOW #187 (2021-11-19) · [rulings](https://api.scryfall.com/cards/c0c358b4-5af2-438f-8bd5-beb0ee6b518b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Avacyn and Griselbrand
@@ -174,7 +175,9 @@
   > *—Geist of Saint Thalia*
 - **Keywords:** Deathtouch, Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6698 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/frc/7/avacyn-angel-of-horror) · oracle_id `4af61d45-7114-4eb4-a905-9e03caf87454` · printing: FRC #7 (2026-10-02) · [rulings](https://api.scryfall.com/cards/ff65f46b-0f82-49b8-93b9-7ac0243ce941/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-08-21* — If Avacyn dies at the same time as another nontoken creature, her ability will trigger for each of them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frc/7/avacyn-angel-of-horror) · oracle_id `4af61d45-7114-4eb4-a905-9e03caf87454` · printing: FRC #7 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Avacyn, Guardian Angel
 
@@ -263,6 +266,7 @@
   > *They had no marble, so the faithful repaired her likeness with wood, straw, twine, and clay.*
 - **Keywords:** Indestructible
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7773 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mic/31/avacyns-memorial) · oracle_id `a8abc5db-4e0b-488d-898a-8109690d5099` · printing: MIC #31 (2021-09-24) · [rulings](https://api.scryfall.com/cards/c8134a08-4c7f-419e-940d-95bc9f630ae2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Avacyn's Pilgrim
@@ -409,7 +413,19 @@
   > At the beginning of each upkeep, you may transform Aang, Master of Elements. If you do, you gain 4 life, draw four cards, put four +1/+1 counters on him, and he deals 4 damage to each opponent.
 - **Keywords:** Flying, Transform, Firebending
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6885 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/207/avatar-aang-aang-master-of-elements) · oracle_id `b4872bac-5822-4c35-9b73-38c4e3ffa477` · printing: TLA #207 (2025-11-21) · [rulings](https://api.scryfall.com/cards/fe29e909-50e9-4f04-b1a3-2cc5d7e3efe8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2025-10-02* — "Firebending N" is a keyword that represents the ability "Whenever this creature attacks, add N {R}. Until end of combat, you don't lose this mana as steps end."
+  - *2025-10-02* — An ability that triggers "whenever you airbend" triggers after the process described by the airbend keyword action is complete, even if some or all of the actions were impossible.
+  - *2025-10-02* — An ability that triggers "whenever you earthbend" triggers immediately after the list of actions earthbend entails is complete, even if some or all of those actions were impossible, perhaps because an effect does not allow counters to be placed on creatures you control.
+  - *2025-10-02* — An ability that triggers "whenever you firebend" triggers whenever a firebending ability you control resolves.
+  - *2025-10-02* — An ability that triggers "whenever you waterbend" triggers whenever you pay a waterbend cost, regardless of how you paid that cost. You do not have to tap artifacts or creatures to help pay the cost for the ability to trigger.
+  - *2025-10-02* — Any other mana you add during combat will still be lost as normal when moving between steps of combat.
+  - *2025-10-02* — Avatar Aang's last ability looks at the whole turn when determining whether or not Avatar Aang should transform, not just actions you've taken since he entered or came under your control. For example, say you airbend, waterbend, and earthbend, then play Avatar Aang. If you firebend later in the turn, then when Avatar Aang's ability resolves, he'll transform since you've done all four this turn.
+  - *2025-10-02* — Firebending abilities aren't mana abilities. They use the stack and can be responded to.
+  - *2025-10-02* — Mana from firebending abilities isn't lost until you leave combat and go to your second main phase. It can be used at any time during combat, even after combat damage has been dealt.
+  - *2025-10-02* — Multiple instances of firebending on the same creature trigger separately, each granting you the appropriate amount of mana.
+  - *2025-10-02* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/207/avatar-aang-aang-master-of-elements) · oracle_id `b4872bac-5822-4c35-9b73-38c4e3ffa477` · printing: TLA #207 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Avatar Destiny
 
@@ -433,6 +449,7 @@
 - **Flavor text** (TLA printing):
   > *"There he is! There he is! The Avatar's on Kyoshi!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8570 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/11/avatar-enthusiasts) · oracle_id `7b0d9d79-2e86-4079-8db3-500483c8807e` · printing: TLA #11 (2025-11-21) · [rulings](https://api.scryfall.com/cards/7292e5f2-d5a1-4e39-8f75-eba471819f04/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Avatar Kyoshi, Earthbender
@@ -445,7 +462,14 @@
   > At the beginning of combat on your turn, earthbend 8, then untap that land. (Target land you control becomes a 0/0 creature with haste that's still a land. Put eight +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.)
 - **Keywords:** Earthbend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4269 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tle/130/avatar-kyoshi-earthbender) · oracle_id `fd751ed4-4002-4cae-9d1d-1fe0f1fd4965` · printing: TLE #130 (2025-11-21) · [rulings](https://api.scryfall.com/cards/e5505044-d181-4af7-bd24-1a703e58d400/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-10-02* — "Earthbend N" means "Target land you control becomes a 0/0 land creature with haste in addition to its other types. Put N +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped under your control."
+  - *2025-10-02* — Earthbend doesn't give the land you control a color. As most lands are colorless, in most cases the resulting land creature will also be colorless.
+  - *2025-10-02* — If a land was animated by earthbend and would go to any zone other than the graveyard or exile, it will not be returned to the battlefield by the delayed triggered ability created by earthbend.
+  - *2025-10-02* — If the targeted land becomes an illegal target before the spell or ability that includes earthbend resolves, earthbend does nothing. If the spell or ability didn't have other targets, it won't resolve.
+  - *2025-10-02* — The land will retain any other types, subtypes, or supertypes it previously had. It will also retain any mana abilities it had as a result of those subtypes. For example, a Forest that's turned into a creature this way can still be tapped for {G}.
+  - *2025-10-02* — You may target a land that is already a creature, perhaps because of a previous earthbend ability. The land will get the +1/+1 counters, gain haste, and have its base power and toughness set to 0/0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tle/130/avatar-kyoshi-earthbender) · oracle_id `fd751ed4-4002-4cae-9d1d-1fe0f1fd4965` · printing: TLE #130 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Avatar of Burgeoning Echoes
 
@@ -548,7 +572,9 @@
   > *"Diplomacy has solved nothing. Only bloodspill can end this now. Call forth the warbringer."*
   > *—Basandra, Battle Seraph*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7701 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/206/avatar-of-slaughter) · oracle_id `2fc6305e-e75e-478a-826b-49f655ed832c` · printing: CMM #206 (2023-08-04) · [rulings](https://api.scryfall.com/cards/c93dd6cc-53e8-4c67-8838-180b19f02088/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-09-22* — If, during a player's declare attackers step, a creature is tapped, is affected by a spell or ability that says it can't attack, or hasn't been under that player's control continuously since the turn began (and doesn't have haste), then it doesn't attack. If there's a cost associated with having a creature attack, the player isn't forced to pay that cost, so it doesn't have to attack in that case either.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/206/avatar-of-slaughter) · oracle_id `2fc6305e-e75e-478a-826b-49f655ed832c` · printing: CMM #206 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Avatar of the Resolute
 
@@ -587,7 +613,9 @@
   > {T}: Destroy target creature. It can't be regenerated.
 - **Keywords:** Fear
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5687 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cm2/57/avatar-of-woe) · oracle_id `2da5aa33-3794-4f83-936c-9d8640833d86` · printing: CM2 #57 (2018-06-08) · [rulings](https://api.scryfall.com/cards/7e8e34de-4b0a-48fe-bb13-c7e181d37e6c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — The mana value of this card is still 8, even if you only pay {B}{B} to cast it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cm2/57/avatar-of-woe) · oracle_id `2da5aa33-3794-4f83-936c-9d8640833d86` · printing: CM2 #57 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Avatar Roku, Firebender
 
@@ -600,6 +628,7 @@
 - **Flavor text** (TLE printing):
   > *"Make sense of our past, Aang, and you will bring peace, and restore balance to the world."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4784 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/112/avatar-roku-firebender) · oracle_id `9eb9e4c1-fabf-45ff-a584-fbe4b94fb41c` · printing: TLE #112 (2025-11-21) · [rulings](https://api.scryfall.com/cards/b1fced2b-eba2-4e70-8f1c-6d3c973b6a8d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Avatar's Wrath
@@ -612,7 +641,13 @@
   > Exile Avatar's Wrath.
 - **Keywords:** Airbend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1545 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/12/avatars-wrath) · oracle_id `e3431dae-969c-4896-9f9e-a80e7bec4bdf` · printing: TLA #12 (2025-11-21) · [rulings](https://api.scryfall.com/cards/4811072d-fac0-40dd-a5cf-9694d51b12cf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-10-02* — If the spell you cast has {X} in its mana cost, you must choose 0 as the value of X.
+  - *2025-10-02* — Lands exiled this way cannot be played from exile. (Lands that were animated by earthbend will be returned to the battlefield tapped when they're exiled.)
+  - *2025-10-02* — Since you are using an alternative cost to cast a spell from exile this way, you can't pay any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, you must pay those.
+  - *2025-10-02* — To airbend one or more permanents and/or spells means to exile each of those objects. For each card exiled this way, for as long as it's exiled, its owner may cast it from exile by paying {2} rather than paying its mana cost.
+  - *2025-10-02* — Tokens exiled this way will cease to exist and cannot be cast.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/12/avatars-wrath) · oracle_id `e3431dae-969c-4896-9f9e-a80e7bec4bdf` · printing: TLA #12 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aveline de Grandpré
 
@@ -625,7 +660,22 @@
   > Disguise {B}{G} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)
 - **Keywords:** Disguise, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7542 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/acr/40/aveline-de-grandpr%C3%A9) · oracle_id `5c8c4d53-f364-40da-989b-cfe1e3f79b7d` · printing: ACR #40 (2024-07-05) · [rulings](https://api.scryfall.com/cards/db3b4f73-e241-4d60-a877-25327092c291/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (14):
+  - *2024-07-05* — A disguise ability lets you cast a card face down by paying {3} and announcing that you are using a disguise ability. Any time you have priority, you can turn a face-down permanent you control face up by paying its disguise cost.
+  - *2024-07-05* — A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent and Auras and Equipment that were attached to that permanent aren’t affected unless the new characteristics of the object change the legality of those targets or attachments.
+  - *2024-07-05* — Any time you have priority, you may turn the face-down creature face up by revealing what its disguise cost is and paying that cost. This is a special action. It doesn’t use the stack and can’t be responded to. Only a face-down permanent can be turned face up this way; a face-down spell cannot.
+  - *2024-07-05* — At any time, you can look at a face-down spell or permanent you control. You can’t look at face-down permanents or spells you don’t control unless an effect instructs or allows you to do so.
+  - *2024-07-05* — Because face-down creatures don’t have a name, they can’t have the same name as any other creature, even another face-down creature.
+  - *2024-07-05* — Because the permanent is on the battlefield both before and after it’s turned face up, turning a permanent face up doesn’t cause any enters-the-battlefield abilities to trigger.
+  - *2024-07-05* — If a creature you control with deathtouch deals combat damage to a player at the same time it’s dealt lethal damage (perhaps because it has trample and was blocked), it will die before Aveline’s triggered ability resolves and puts +1/+1 counters on it.
+  - *2024-07-05* — If a face-down creature loses its abilities, it can’t be turned face up with a disguise ability because it will no longer have a disguise ability (or a disguise cost) once face up.
+  - *2024-07-05* — If a face-down spell leaves the stack and goes to any zone other than the battlefield (if it was countered, for example), you must reveal it. Similarly, if a face-down permanent leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or the game ends.
+  - *2024-07-05* — If something tries to turn a face-down instant or sorcery card on the battlefield face up, reveal that card to show all players it’s an instant or sorcery card. The permanent remains on the battlefield face down. Abilities that trigger when a permanent turns face up won’t trigger, because even though you revealed the card, it never turned face up.
+  - *2024-07-05* — The creature spell is a 2/2 creature spell with ward {2} that has no name, mana cost, or creature types. The resulting creature is a 2/2 creature with ward {2} that has no name, mana cost, or creature types. Both the spell and the resulting creature are colorless and have a mana value of 0. Other effects that apply to the spell or creature can still grant it any characteristics it doesn’t have or change the characteristics it does have.
+  - *2024-07-05* — The face-down spell has no mana cost and a mana value of 0. When you cast a face-down spell, put it on the stack face down so no other player knows what it is, and pay {3} to cast it. This is an alternative cost.
+  - *2024-07-05* — Turning a permanent face up or face down doesn’t change whether that permanent is tapped or untapped.
+  - *2024-07-05* — You must ensure that your face-down spells and permanents can be easily differentiated from each other. You’re not allowed to mix up the cards that represent them on the battlefield to confuse other players. The order in which they entered the battlefield should remain clear, as well as what ability caused them to be face down. (This includes disguise, cloak, and in games involving older cards, morph and manifest, as well as a few other effects that turn cards face down.) Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/acr/40/aveline-de-grandpr%C3%A9) · oracle_id `5c8c4d53-f364-40da-989b-cfe1e3f79b7d` · printing: ACR #40 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aven Archer
 
@@ -706,7 +756,9 @@
   > Whenever this creature attacks, choose a counter on a permanent you control. Put a counter of that kind on target permanent you control if it doesn't have a counter of that kind on it.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8903 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/22/aven-courier) · oracle_id `a01746f3-8e6f-47ce-a95b-e44556d1f73e` · printing: NCC #22 (2022-04-29) · [rulings](https://api.scryfall.com/cards/7bb0e478-c359-4523-a1e1-ba711a8cb8e0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-04-29* — You choose the target permanent to put a counter on as you put the triggered ability of Aven Courier on the stack. You choose the kind of counter from a permanent as that ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/22/aven-courier) · oracle_id `a01746f3-8e6f-47ce-a95b-e44556d1f73e` · printing: NCC #22 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aven Envoy
 
@@ -867,7 +919,11 @@
   > Mobilize X, where X is the number of creature cards in your graveyard. (Whenever this creature attacks, create X tapped and attacking 1/1 red Warrior creature tokens. Sacrifice them at the beginning of the next end step.)
 - **Keywords:** Mobilize, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3916 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/73/avenger-of-the-fallen) · oracle_id `158d0272-a850-4399-8afa-d0caa143c3cb` · printing: TDM #73 (2025-04-11) · [rulings](https://api.scryfall.com/cards/d5397366-151f-46b0-b9b2-fa4d5bd892d8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-04-04* — Although the Warrior tokens enter as attacking creatures, they were never declared as attacking creatures. Abilities that trigger whenever a creature attacks won’t trigger when the tokens enter attacking.
+  - *2025-04-04* — The value of X is calculated only once, as Avenger of the Fallen’s mobilize ability resolves.
+  - *2025-04-04* — You choose the player, planeswalker, or battle each Warrior token is attacking. They don’t all have to attack the same one, and they don’t have to attack the same player, planeswalker, or battle as the creature with mobilize.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/73/avenger-of-the-fallen) · oracle_id `158d0272-a850-4399-8afa-d0caa143c3cb` · printing: TDM #73 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Avenger of Zendikar
 
@@ -946,6 +1002,7 @@
   > {T}: Add one mana of any color. Spend this mana only to cast a Hero spell or to activate an ability of a Hero source.
   > {4}, {T}: Look at the top three cards of your library. You may reveal a Hero card from among them and put it into your hand. Put the rest on the bottom of your library in any order.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7066 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/260/avengers-tower) · oracle_id `c5fc8e7c-a87e-4586-a13c-d30e0a3aafbf` · printing: MSH #260 (2026-06-26) · [rulings](https://api.scryfall.com/cards/88f0d9c9-8a1f-4b5a-b6f9-821ddd658d27/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Avengers: Under Siege
@@ -1060,7 +1117,16 @@
   > Spells your opponents cast from graveyards or from exile cost {2} more to cast.
 - **Keywords:** Flying, Plot, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1927 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/4/aven-interrupter) · oracle_id `d31fd12f-b4dd-4bc3-ace4-703dabd0f607` · printing: OTJ #4 (2024-04-19) · [rulings](https://api.scryfall.com/cards/d3ca43a4-d194-440f-8099-f1fa103a108d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2024-04-12* — Exiling a card using its plot ability is a special action. Once you announce you're taking that action, no other player can respond by trying to remove that card from your hand.
+  - *2024-04-12* — If a plotted card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-04-12* — If the plotted card's owner casts it, the spell has no relation to the spell that player originally cast. Any choices made for the original spell or effects affecting the original spell aren't carried over to the new one.
+  - *2024-04-12* — If you're casting a plotted card from exile without paying its mana cost, you can't choose to cast it for any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the plotted card has any mandatory additional costs, those must still be paid to cast the spell.
+  - *2024-04-12* — Plot abilities are written "Plot [cost]," which means "Any time you have priority during your main phase while the stack is empty, you may pay [cost] and exile this card from your hand. It becomes plotted."
+  - *2024-04-12* — Spells that can't be countered can still be exiled by Aven Interrupter's triggered ability. They won't resolve.
+  - *2024-04-12* — You can't cast a plotted card on the same turn it became plotted. On any future turn, you may cast that card from exile without paying its mana cost during your main phase while the stack is empty.
+  - *2024-06-07* — If an instant or a card with flash is plotted this way, you can still cast it only when you have priority during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/4/aven-interrupter) · oracle_id `d31fd12f-b4dd-4bc3-ace4-703dabd0f607` · printing: OTJ #4 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aven Liberator
 
@@ -1100,7 +1166,12 @@
   > If an opponent would search a library, that player searches the top four cards of that library instead.
 - **Keywords:** Flying, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1264 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/688/aven-mindcensor) · oracle_id `d9517c5d-66d0-4178-96fb-a8c04f311ad8` · printing: CLB #688 (2022-06-10) · [rulings](https://api.scryfall.com/cards/d4cf468f-4e9d-4551-a0ed-10bd6a2316ad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-03-19* — After the search is complete, the entire library is shuffled.
+  - *2021-03-19* — Each search works exactly the same as normal except that the opponent doing the searching sees only the top four cards of that library. They can't look at the other cards in that library at all. Cards not in the top four cards of the library can't be found in the search, even if they're identifiable in some manner.
+  - *2021-03-19* — For effects that check whether a player searched a library or may search a library, searching the top four cards of that library counts as searching that library.
+  - *2021-03-19* — If an effect uses the word "search" once but allows an opponent to search for multiple cards, the top four cards remain the same throughout the entire search. Finding one card won't cause the fifth card to become included in the search.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/688/aven-mindcensor) · oracle_id `d9517c5d-66d0-4178-96fb-a8c04f311ad8` · printing: CLB #688 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aven of Enduring Hope
 
@@ -1337,7 +1408,13 @@
   > Embalm {4}{W}{U} ({4}{W}{U}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a white Zombie Bird Warrior with no mana cost. Embalm only as a sorcery.)
 - **Keywords:** Flying, Vigilance, Embalm
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9632 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/akh/195/aven-wind-guide) · oracle_id `bb813ffa-2615-4177-a7fb-6e0dfb819fc2` · printing: AKH #195 (2017-04-28) · [rulings](https://api.scryfall.com/cards/414bc716-2b1b-4731-bd0c-f4a5caf26e40/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2017-04-18* — For each card with embalm, a corresponding game play supplement token can be found in some Amonkhet booster packs. These supplements are not required to play with cards with embalm; you can use the same items to represent an embalmed token as you would any other token.
+  - *2017-04-18* — The token copies exactly what was printed on the original card and nothing else. It doesn't copy any information about the object the card was before it was put into your graveyard.
+  - *2017-04-18* — The token is a Zombie in addition to its other types and is white instead of its other colors. It has no mana cost, and thus its mana value is 0. These are copiable values of the token that other effects may copy.
+  - *2017-07-14* — If a spell or ability puts a creature card with embalm into your graveyard during your main phase, you'll have priority immediately after that spell or ability resolves. You can activate the creature card's embalm ability before any player can exile it with an effect, such as that of Crook of Condemnation, if it's legal for you to do so.
+  - *2017-07-14* — Once you've activated an embalm ability, the card is immediately exiled. Opponents can't try to stop the ability by exiling the card with an effect such as that of Crook of Condemnation.
+- **Source flags:** [Scryfall](https://scryfall.com/card/akh/195/aven-wind-guide) · oracle_id `bb813ffa-2615-4177-a7fb-6e0dfb819fc2` · printing: AKH #195 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aven Wind Mage
 
@@ -1377,7 +1454,19 @@
 - **Flavor text** (CMR printing):
   > *"Nature is a dance. Master it, and the world can keep no secrets from you."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7063 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/269/averna-the-chaos-bloom) · oracle_id `23695bc2-86d3-4d78-b374-9e83c4cc9cc4` · printing: CMR #269 (2020-11-20) · [rulings](https://api.scryfall.com/cards/e46b3ef3-3ba9-4da7-a675-86468a8da4c7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2020-11-10* — Averna's ability isn't the same as playing a land. You may do this even if you've already played a land during your turn and even if it isn't your turn at all.
+  - *2020-11-10* — If you don't cast the nonland card you reveal, or if you don't reveal any nonland cards with lesser mana value, you can still put a land card onto the battlefield before you finish cascading.
+  - *2021-06-18* — A spell's mana value is determined only by its mana cost. Ignore any alternative costs, additional costs, cost increases, or cost reductions.
+  - *2021-06-18* — Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade.
+  - *2021-06-18* — Due to a 2021 rules change to cascade, not only do you stop exiling cards if you exile a nonland card with lesser mana value than the spell with cascade, but the resulting spell you cast must also have lesser mana value. Previously, in cases where a card's mana value differed from the resulting spell, such as with some modal double-faced cards or cards with an Adventure, you could cast a spell with a higher mana value than the exiled card.
+  - *2021-06-18* — If a spell with cascade is countered, the cascade ability will still resolve normally.
+  - *2021-06-18* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2021-06-18* — If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those to cast the card.
+  - *2021-06-18* — The mana value of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves.
+  - *2021-06-18* — When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled.
+  - *2021-06-18* — You exile the cards face up. All players will be able to see them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/269/averna-the-chaos-bloom) · oracle_id `23695bc2-86d3-4d78-b374-9e83c4cc9cc4` · printing: CMR #269 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Avian Changeling
 
@@ -1454,7 +1543,14 @@
   > *Stage 1: The winding streets of Ghirapur.*
 - **Keywords:** Max speed, Start your engines!
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3803 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dft/249/avishkar-raceway) · oracle_id `e2c35551-1ba5-4424-baf9-821b49bbcc8c` · printing: DFT #249 (2025-02-14) · [rulings](https://api.scryfall.com/cards/08a6b378-c7fa-4226-a310-4ee7e550b4d6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-02-07* — A player “has max speed” if their speed is 4.
+  - *2025-02-07* — Each player tracks their speed (or lack thereof) separately. Increasing your speed has no effect on whether another player has speed.
+  - *2025-02-07* — If an effect needs to know what a player’s speed is and that player doesn’t have a speed, their speed is considered 0.
+  - *2025-02-07* — Start your engines! isn’t a triggered ability. Increasing your speed to 1 is something that happens as a state-based action as soon as you control a permanent with the ability. Notably, this includes gaining control of a permanent with the ability that another player controls.
+  - *2025-02-07* — Your speed doesn’t change until a spell or ability says so, such as the inherent triggered ability that cares about opponents losing life during your turn. Notably, losing control of permanents with start your engines! doesn’t affect your speed.
+  - *2025-02-07* — “Max speed — [ability]” means “As long as you have max speed, this object has [ability].” If the granted ability functions in a zone other than the battlefield, the max speed ability does too.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dft/249/avishkar-raceway) · oracle_id `e2c35551-1ba5-4424-baf9-821b49bbcc8c` · printing: DFT #249 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Avizoa
 
@@ -1477,4 +1573,6 @@
 - **Oracle text:**
   > Counter target instant or Aura spell that targets a permanent you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8260 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsb/73/avoid-fate) · oracle_id `c04dd88f-fb7f-43be-b586-7fc5642073dc` · printing: TSB #73 (2006-10-06) · [rulings](https://api.scryfall.com/cards/04c9f48d-2213-4f95-8eac-b23bd2d95e34/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-01-22* — Avoid Fate must target an instant spell or an Aura spell as it’s cast, and it must be targeting an instant or an Aura spell at the time it resolves. It will still resolve if it starts out targeting a spell of one type but the target changes to a spell of the other type (thanks to Shunt, for instance) before it resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsb/73/avoid-fate) · oracle_id `c04dd88f-fb7f-43be-b586-7fc5642073dc` · printing: TSB #73 (2006-10-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

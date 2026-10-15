@@ -41,7 +41,16 @@
   > Whenever an opponent draws their second card each turn, you draw two cards.
 - **Keywords:** Ward, Flash, Waterbend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2882 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/77/the-unagi-of-kyoshi-island) · oracle_id `be922360-ee9f-4cfb-bf10-d481c5de5cb1` · printing: TLA #77 (2025-11-21) · [rulings](https://api.scryfall.com/cards/0ecd8b38-9ee5-41a5-9b93-21c33fc1a6ff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2025-10-02* — "Waterbend [cost]" means "Pay [cost]. For each generic mana in that cost, you may tap an untapped artifact or creature you control rather than pay that mana."
+  - *2025-10-02* — Even if the cost of the spell or ability that waterbend is part of increases or decreases, you still may only tap artifacts or creatures to pay for costs up to the amount of the generic mana in the waterbend cost.
+  - *2025-10-02* — If a card or ability instructs your opponent to put cards into their hand without specifically using the word "draw," it's not a card drawn.
+  - *2025-10-02* — If a waterbend cost is part of the total cost to cast a spell or activate an ability, you may tap an untapped artifact or creature you control rather than pay one generic mana in that total cost any number of times up to a maximum of the amount of generic mana in the waterbend component of that total cost.
+  - *2025-10-02* — If an artifact or creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell or activating an ability with waterbend will result in the artifact or creature being tapped before you pay the spell's costs. You won't be able to tap it again for waterbend. Similarly, if you sacrifice an artifact or creature to activate a mana ability to pay a cost with waterbend, that artifact or creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for waterbend.
+  - *2025-10-02* — If an effect instructs your opponent to draw multiple cards, the ability triggers after they draw whichever is the second one for the turn. It goes on the stack after they've drawn and looked at all the cards and finished resolving the spell or ability that caused them to draw cards.
+  - *2025-10-02* — The last ability can trigger only once each turn for each opponent. It doesn't matter whether The Unagi of Kyoshi Island was on the battlefield when the first card was drawn. If it's not on the battlefield when the second card is drawn, the ability can't trigger at all that turn. It won't trigger when the third or fourth card is drawn.
+  - *2025-10-02* — You can tap any untapped creature or artifact you control to pay a waterbend cost, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/77/the-unagi-of-kyoshi-island) · oracle_id `be922360-ee9f-4cfb-bf10-d481c5de5cb1` · printing: TLA #77 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Unbeatable Squirrel Girl
 
@@ -55,6 +64,7 @@
   > *"We're here to eat nuts and kick butts!"*
 - **Keywords:** I LOVE Squirrels!
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6096 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/193/the-unbeatable-squirrel-girl) · oracle_id `80312910-5d53-44f1-9982-e46dc7532abb` · printing: MSH #193 (2026-06-26) · [rulings](https://api.scryfall.com/cards/d8b94ebb-0b3a-4e68-8c0c-3a61ac32f3ef/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Underworld Cookbook
@@ -66,7 +76,12 @@
   > {4}, {T}, Sacrifice this artifact: Return target creature card from your graveyard to your hand.
 - **Keywords:** Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4382 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/240/the-underworld-cookbook) · oracle_id `37d5c720-d090-44bc-91df-0a7bab79a03e` · printing: MH2 #240 (2021-06-18) · [rulings](https://api.scryfall.com/cards/039d62b0-3309-4424-a2ea-5a0d88d4bd72/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-06-18* — The Underworld Cookbook's last ability can target any creature card in your graveyard, not just one discarded with its first ability. For example, if a Granite Gargoyle you control dies after being dealt damage by Lightning Axe, you could use The Underworld Cookbook to make a delicious Gargoyle entrée.
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/240/the-underworld-cookbook) · oracle_id `37d5c720-d090-44bc-91df-0a7bab79a03e` · printing: MH2 #240 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Underworld Fantasy Queen
 
@@ -136,7 +151,12 @@
   > Whenever one or more Dragons you control attack, draw that many cards, then you may put a permanent card from your hand onto the battlefield.
 - **Keywords:** Flying, Eminence
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2669 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/361/the-ur-dragon) · oracle_id `87b22b09-4f6d-4bc5-9cfc-663e4c7c6981` · printing: CMM #361 (2023-08-04) · [rulings](https://api.scryfall.com/cards/10d42b35-844f-4a64-9981-c6118d45e826/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2017-08-25* — If a Dragon you control enters the battlefield attacking, it won’t cause The Ur-Dragon’s last ability to trigger.
+  - *2017-08-25* — The Ur-Dragon’s triggered ability resolves after all attackers have been chosen. You can’t attack with some Dragons, put a creature card with haste onto the battlefield, and then attack with that creature. Similarly, any “whenever a creature attacks” abilities of the permanent card you put onto the battlefield won’t trigger.
+  - *2017-08-25* — You draw one card for each Dragon you controlled that attacked, even if some of them left the battlefield before The Ur-Dragon’s triggered ability resolves.
+  - *2017-08-25* — You may only put one permanent card from your hand onto the battlefield, no matter how many Dragons you attacked with or how many players they attacked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/361/the-ur-dragon) · oracle_id `87b22b09-4f6d-4bc5-9cfc-663e4c7c6981` · printing: CMM #361 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Ur-Sphinx
 

@@ -304,6 +304,7 @@
 - **Flavor text** (KHC printing):
   > *The river split into many channels as it flowed to the Halimar Sea. Few travelers could follow the same one twice.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7601 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/khc/114/meandering-river) · oracle_id `2d9663be-c466-4191-85e2-a69ce0965432` · printing: KHC #114 (2021-02-05) · [rulings](https://api.scryfall.com/cards/e283db9e-6a51-4b28-9f6c-0c040a9d6d8c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Meandering Towershell
@@ -349,7 +350,14 @@
   > Whenever a creature you control dies, you may pay 3 life. If you do, return that card under your control with a finality counter on it.
   > Whenever a creature an opponent controls dies, they may pay 3 life. If they don't, return that card under your control with a finality counter on it.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3152 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/108/meathook-massacre-ii) · oracle_id `68957dca-df5c-4051-af22-407cb7e47200` · printing: DSK #108 (2024-09-27) · [rulings](https://api.scryfall.com/cards/3db59d06-a226-42b2-8f01-6b63a6eea83f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-09-20* — Finality counters aren't keyword counters, and a finality counter doesn't give any abilities to the permanent it's on. If that permanent loses its abilities and then would go to a graveyard, it will still be exiled instead.
+  - *2024-09-20* — Finality counters don't stop permanents from going to zones other than the graveyard from the battlefield. For example, if a permanent with a finality counter on it would be put into its owner's hand from the battlefield, it does so normally.
+  - *2024-09-20* — Finality counters work on any permanent, not only creatures. If a permanent with a finality counter on it would be put into a graveyard from the battlefield, exile it instead.
+  - *2024-09-20* — If a creature that dies leaves the graveyard before Meathook Massacre II's second or third ability (as appropriate) resolves, that creature won't return to the battlefield regardless of whether or not life was paid.
+  - *2024-09-20* — Multiple finality counters on a single permanent are redundant.
+  - *2024-09-20* — When a token creature dies, Meathook Massacre II's second or third ability (as appropriate) will trigger. The appropriate player has the option to pay 3 life, but regardless of their choice, the token won't return to the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/108/meathook-massacre-ii) · oracle_id `68957dca-df5c-4051-af22-407cb7e47200` · printing: DSK #108 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Meat Locker // Drowned Diner
 
@@ -361,7 +369,24 @@
   > When you unlock this door, draw three cards, then discard a card.
   > (You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8821 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/65/meat-locker-drowned-diner) · oracle_id `897eef47-3e99-4a5f-8a3e-ddb06bc95e9a` · printing: DSK #65 (2024-09-27) · [rulings](https://api.scryfall.com/cards/b3c773f0-9e65-48de-a362-a9a943198693/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (16):
+  - *2024-09-20* — An ability that triggers "when you unlock this door" triggers when that door becomes unlocked. This can happen one of two ways: (1) the door becomes unlocked on the battlefield or (2) the door becomes unlocked as the Room enters the battlefield because you cast the corresponding half. In the latter case, since the door becoming unlocked is what causes the ability to trigger, effects that cause abilities that trigger when a permanent enters to trigger an additional time (such as that of Panharmonicon) won't apply.
+  - *2024-09-20* — An ability that triggers "whenever you fully unlock a Room" triggers when a door becomes unlocked and the other door of that Room is already unlocked, or when both doors of that Room become unlocked simultaneously.
+  - *2024-09-20* — Any time you have priority during a main phase of your turn and the stack is empty, you may pay the mana cost of a locked door (also called its "unlock cost"). That door becomes unlocked. This is a special action. It doesn't use the stack and can't be responded to.
+  - *2024-09-20* — Each Room card has two names. If an effect instructs you to choose a card name, you may choose one of those names, but not both.
+  - *2024-09-20* — Each Room card is a single card. For example, if you discard a Room card, you've discarded one card, not two. If an effect counts the number of enchantment cards in your graveyard, Bottomless Pool // Locker Room counts once, not twice.
+  - *2024-09-20* — If a Room enters from any zone other than the stack, it will enter with both halves locked.
+  - *2024-09-20* — If a spell or ability would create a copy of a Room spell on the stack, the copy retains the choice of which door was cast but also retains the full characteristics of the spell. The characteristics of the door that wasn't cast are still ignored while the copy is on the stack, and when the copy resolves, the token it becomes will enter with the appropriate door unlocked.
+  - *2024-09-20* — If an effect allows you to cast a spell with certain characteristics, consider only the characteristics of the door you're casting. For example, if an effect allows you to cast a permanent spell with mana value 3 or less from among cards in your graveyard, you could cast Bottomless Pool this way, but not Locker Room.
+  - *2024-09-20* — If neither door of a Room is unlocked, it's a Room enchantment with no name and no abilities.
+  - *2024-09-20* — Room cards have two card faces with a shared type line on a single card. The characteristics of the door you didn't cast are ignored while the spell is on the stack.
+  - *2024-09-20* — Some abilities allow you to lock a door of a Room you control. You can't choose to lock a door that's already locked with such an ability. If such an ability requires a target, you can target a Room even if both of its doors are locked, but the ability won't do anything when it resolves.
+  - *2024-09-20* — Some abilities allow you to unlock a door of a Room you control. You can't choose to unlock a door that's already unlocked with such an ability. If such an ability requires a target, you can target a Room even if both of its doors are unlocked, but the ability won't do anything when it resolves.
+  - *2024-09-20* — Some doors have abilities that trigger whenever you unlock that door and require one or more targets. You can unlock that door even if there would be insufficient legal targets for that triggered ability. The triggered ability won't go on the stack.
+  - *2024-09-20* — To cast a Room spell, choose a half (or "door") to cast. There's no way to cast both halves of a Room card. When the Room spell resolves, the corresponding door becomes unlocked as the Room enters.
+  - *2024-09-20* — While in any zone other than the stack or the battlefield, a Room card's characteristics are a combination of its two doors. For example, Bottomless Pool // Locker Room has a mana value of 6 while it's in your library. If an effect allows you to search your library for a card with mana value 4 or less, you can't find Bottomless Pool // Locker Room.
+  - *2024-09-20* — While on the battlefield, a Room's characteristics are a combination of the characteristics of its unlocked doors. For example, if Bottomless Pool // Locker Room is on the battlefield with both doors unlocked, its names are Bottomless Pool and Locker Room, its mana value is 6, it's a Room Enchantment, and it has the abilities in each door's text box.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/65/meat-locker-drowned-diner) · oracle_id `897eef47-3e99-4a5f-8a3e-ddb06bc95e9a` · printing: DSK #65 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Meatsqueak, Hoard Lord
 
@@ -440,7 +465,19 @@
   > *—Dovin Baan*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #989 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/109/mechanized-production) · oracle_id `39d8406a-90c3-460c-b4e8-0f590573db51` · printing: MKC #109 (2024-02-09) · [rulings](https://api.scryfall.com/cards/eaf86997-68e8-4c37-99f1-db10ac08f54c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2017-02-09* — All eight of the permanents sharing a name must be artifacts. If you control only seven artifacts with the same name and a nonartifact permanent with that same name, you won't win the game.
+  - *2017-02-09* — Any abilities that trigger on the token being created won't resolve until after Mechanized Production's triggered ability has finished resolving entirely and performed its check for eight artifacts with the same name.
+  - *2017-02-09* — Any enters-the-battlefield abilities of the copied artifact trigger when the artifact token enters the battlefield. The artifact token also has any "this enters the battlefield with" or "as this enters the battlefield" abilities that the copied artifact has.
+  - *2017-02-09* — If Mechanized Production and the enchanted artifact leave the battlefield simultaneously in response to the triggered ability, then the effect creates a token that's a copy of the artifact as it last existed on the battlefield.
+  - *2017-02-09* — If the copied artifact has {X} in its mana cost, X is considered to be zero.
+  - *2017-02-09* — If the copied artifact is a token, the token that's created copies the original characteristics of that token as stated by the effect that created it.
+  - *2017-02-09* — If the copied artifact is copying something else (for example, if the copied artifact is a Sculpting Steel), then the token enters the battlefield as whatever that artifact copied.
+  - *2017-02-09* — If the enchanted artifact leaves the battlefield in response to Mechanized Production's triggered ability but Mechanized Production does not, Mechanized Production is put into its owner's graveyard as a state-based action with no enchanted artifact. The triggered ability creates no token, but you can still win the game if you control enough artifacts with the same name.
+  - *2017-02-09* — If you control eight or more artifacts that share a name while you control Mechanized Production, you won't win the game yet. You'll win the game while resolving its triggered ability during your upkeep.
+  - *2017-02-09* — The eight artifacts with the same name don't have to have the same name as the enchanted artifact. For example, you win the game if you control eight Thopter artifact creature tokens as Mechanized Production's ability resolves, even if Mechanized Production isn't attached to a Thopter.
+  - *2017-02-09* — The token copies exactly what was printed on the original artifact and nothing else (unless that artifact is copying something else or is a token; see below). It doesn't copy whether that artifact is tapped or untapped, whether it has any counters on it or Auras attached to it, or any non-copy effects that have changed its types, color, or so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/109/mechanized-production) · oracle_id `39d8406a-90c3-460c-b4e8-0f590573db51` · printing: MKC #109 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mechanized Warfare
 
@@ -451,7 +488,11 @@
 - **Flavor text** (BRO printing):
   > *First the automatons reinforced depleted squads. Then they replaced them entirely.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4250 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/139/mechanized-warfare) · oracle_id `c912a43b-8994-434e-84c0-f4cf58abbd42` · printing: BRO #139 (2022-11-18) · [rulings](https://api.scryfall.com/cards/ba2d026f-bdca-4376-9d70-c81c707598e8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-10-14* — If another effect modifies how much damage a source would deal to an opponent or a permanent they control, including preventing some of it, the player being dealt damage or the controller of the permanent being dealt damage chooses an order in which to apply those effects. If all of the damage is prevented, Mechanized Warfare's effect no longer applies.
+  - *2022-10-14* — If damage dealt by a red or artifact source you control is being divided or assigned among multiple opponents and/or permanents opponents' control, divide the original amount before adding 1. For example, if you cast a red spell that deals 4 damage divided among any number of targets and you choose to have it deal 2 damage to a creature and 2 damage to that creature's controller, that spell will deal 3 damage to each of them instead.
+  - *2022-10-14* — The additional 1 damage is dealt by the original source of damage. The additional damage isn't dealt by Mechanized Warfare.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/139/mechanized-warfare) · oracle_id `c912a43b-8994-434e-84c0-f4cf58abbd42` · printing: BRO #139 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mechan Navigator
 
@@ -501,7 +542,10 @@
   > {T}: Add one mana of any color. Spend this mana only to cast a Pilot or Vehicle spell.
   > {3}, {T}: Target Vehicle becomes an artifact creature until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3359 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/270/mech-hangar) · oracle_id `abc04775-171d-41f3-83ea-4b4eb72723d5` · printing: NEO #270 (2022-02-18) · [rulings](https://api.scryfall.com/cards/c093984d-38cd-4b49-b179-1e289ab442d1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-02-18* — If an effect that causes a Vehicle to become a creature doesn't specify its power and toughness, it has the same power and toughness that it would normally have if it were crewed.
+  - *2022-02-18* — Mech Hangar's last ability doesn't count as “crewing” a Vehicle for any ability that would trigger off of a Vehicle becoming crewed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/270/mech-hangar) · oracle_id `abc04775-171d-41f3-83ea-4b4eb72723d5` · printing: NEO #270 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mechtitan Core
 
@@ -513,6 +557,7 @@
   > Crew 2
 - **Keywords:** Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4561 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/249/mechtitan-core) · oracle_id `f1eb489d-104c-4801-b6d2-3f1a7ee73a75` · printing: NEO #249 (2022-02-18) · [rulings](https://api.scryfall.com/cards/ca286ba9-01a7-4dce-b388-177f5dcb95b1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Meddle
@@ -628,6 +673,7 @@
   > *"As you see, there are several pools where the water swirls around before flowing on. These pools are like our chakras."*
   > *—Guru Pathik*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7453 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/272/meditation-pools) · oracle_id `66208129-20fb-4cb4-8f00-8d4574c9c653` · printing: TLA #272 (2025-11-21) · [rulings](https://api.scryfall.com/cards/cc078fc6-4470-473f-9e24-d2c470e09141/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Meditation Puzzle
@@ -668,7 +714,10 @@
   > Medomai can't attack during extra turns.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6388 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ths/196/medomai-the-ageless) · oracle_id `b6b91ea7-a22c-4835-8c62-3360b0fd3a8b` · printing: THS #196 (2013-09-27) · [rulings](https://api.scryfall.com/cards/b5f4b3cf-2c78-42c9-9873-3758c7f7bb7d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-09-15* — An "extra turn" is any turn created by a spell or ability. Notably, it doesn't include additional turns taken in tournaments after time expires for a round.
+  - *2013-09-15* — It doesn't matter whose turn it is. In very rare cases, an opponent may be taking an extra turn and gain control of Medomai. Medomai can't attack during that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ths/196/medomai-the-ageless) · oracle_id `b6b91ea7-a22c-4835-8c62-3360b0fd3a8b` · printing: THS #196 (2013-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Medusa, Inhuman Queen
 
@@ -704,6 +753,7 @@
 - **Flavor text** (7ED printing):
   > *The bigger they are, the stronger its pull.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2825 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/7ed/307/meekstone) · oracle_id `5ba73182-30a7-4bad-9cb6-c0feecc2db33` · printing: 7ED #307 (2001-04-11) · [rulings](https://api.scryfall.com/cards/0a691664-9275-4b89-a8e3-b99c88717ffb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Meet and Greet "Sisay"
@@ -731,7 +781,14 @@
   > *—Niambi, cleric of Dominaria*
 - **Keywords:** Convoke
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5810 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/66/meeting-of-minds) · oracle_id `3b91dc3e-46ef-4a68-829f-ef7d79598cf7` · printing: MOM #66 (2023-04-21) · [rulings](https://api.scryfall.com/cards/508b8650-c283-4e54-abdc-32ec2fb1ee34/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-01-12* — Because convoke isn't an alternative cost, it can be used in conjunction with alternative costs.
+  - *2024-01-12* — If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.
+  - *2024-01-12* — Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature's colors.
+  - *2024-01-12* — Tapping an untapped creature that's attacking or blocking to convoke a spell won't cause that creature to stop attacking or blocking.
+  - *2024-01-12* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
+  - *2024-01-12* — You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/66/meeting-of-minds) · oracle_id `3b91dc3e-46ef-4a68-829f-ef7d79598cf7` · printing: MOM #66 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Meeting of the Five
 
@@ -766,7 +823,10 @@
 - **Flavor text** (CMM printing):
   > *Slivers will swiftly adapt to fill any evolutionary niche, even if that niche is "earthshaking apex predator."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6426 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/901/megantic-sliver) · oracle_id `52e8ec03-23ed-43a0-bce2-ad0cd5c4d737` · printing: CMM #901 (2023-08-04) · [rulings](https://api.scryfall.com/cards/49c1afd5-d1d3-42b7-8417-bb05c91ef822/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-07-01* — Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn’t provide any additional benefit.
+  - *2013-07-01* — If you change the creature type of a Sliver you control so it’s no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/901/megantic-sliver) · oracle_id `52e8ec03-23ed-43a0-bce2-ad0cd5c4d737` · printing: CMM #901 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Megatherium
 
@@ -804,7 +864,16 @@
   > *Do the right thing—or the wrong thing.*
 - **Keywords:** Treasure, Disarm, Detonate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9125 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/61/megatons-fate) · oracle_id `09a688c1-21f6-4c7d-a6bd-aedc0d76a671` · printing: PIP #61 (2024-03-08) · [rulings](https://api.scryfall.com/cards/e8492127-888d-4da0-b49f-fba6a356b0a9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2024-03-08* — Any effects (such as proliferate) that interact with counters a player gets, has, or loses can interact with rad counters.
+  - *2024-03-08* — If a player has fewer cards remaining in their library than the number of rad counters they have when the triggered ability resolves, they’ll mill as many cards as they can.
+  - *2024-03-08* — In a game using the shared team turns option, such as an Archenemy or Two-Headed Giant game, the inherent triggered ability associated with rad counters triggers once for each player on the active team that has rad counters. Each instance of that ability is controlled by one of those players.
+  - *2024-03-08* — Keep track of how many rad counters each player has. Potential ways to track this include writing them down on paper or using dice, but any method that is clear and mutually agreeable is fine.
+  - *2024-03-08* — Rad counters are a kind of counter that a player may have. They’re not associated with any specific permanents.
+  - *2024-03-08* — Rad counters don’t go away as steps, phases, or turns end. They only go away when an effect instructs a player to remove rad counters from themselves.
+  - *2024-03-08* — The cards are milled all at once, which means abilities that trigger “whenever one or more nonland cards are milled” will trigger exactly once as long as at least one nonland card was milled.
+  - *2024-03-08* — There is an inherent triggered ability associated with having rad counters. This triggered ability has no source and is controlled by the active player. The full text of this ability is “At the beginning of the precombat main phase of a player with rad counters, that player mills cards equal to the number of rad counters they have. For each nonland card milled this way, that player loses 1 life and removes one rad counter from themselves.”
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/61/megatons-fate) · oracle_id `09a688c1-21f6-4c7d-a6bd-aedc0d76a671` · printing: PIP #61 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Megatron, Tyrant // Megatron, Destructive Force
 
@@ -846,6 +915,7 @@
   > *"It's a vicious circle. Stress breeds pain. Pain breeds stress. It's simply beautiful, wouldn't you agree?"*
   > *—Vradeen, vampire nocturnus*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2598 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m10/104/megrim) · oracle_id `633ad9e2-9f55-4a1c-9248-661ad4b0e1dc` · printing: M10 #104 (2009-07-17) · [rulings](https://api.scryfall.com/cards/3b04fca4-b4de-4343-ba58-d8aea39edc19/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Meishin, the Mind Cage
@@ -909,6 +979,7 @@
 - **Flavor text** (EOE printing):
   > *Only the most skilled matter shapers can imbue moxite with other raw energies, but the rewards are well worth the dangers.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8966 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/143/melded-moxite) · oracle_id `86e0e718-82b5-4c99-9837-1b4d8729a27e` · printing: EOE #143 (2025-08-01) · [rulings](https://api.scryfall.com/cards/474c067f-eb24-4ae8-b4c0-f6f8e24cdb2a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Meldweb Curator
@@ -959,7 +1030,19 @@
   > You may cast instant and sorcery spells from the top of your library.
   > Whenever you cast an instant or sorcery spell from your library, copy it. You may choose new targets for the copy.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7604 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/345/melek-izzet-paragon) · oracle_id `095d9719-0db6-43de-8e4f-a0035a4c65ed` · printing: CMM #345 (2023-08-04) · [rulings](https://api.scryfall.com/cards/66011fe8-8c5d-4990-a324-5839515dcacb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2013-04-15* — If the spell being copied has an X whose value was determined as it was cast (like Debt to the Deathless has), the copy has the same value of X.
+  - *2013-04-15* — If the spell being copied is modal (that is, it says “Choose one —” or the like), the copy will have the same mode. You can’t choose a different one.
+  - *2013-04-15* — If the top card of your library changes while you’re casting a spell, playing a land, or activating an ability, the new top card won’t be revealed until you finish doing so.
+  - *2013-04-15* — Instant and sorcery cards with miracle allow a player to cast a card immediately upon drawing it. If you cast a spell this way, you’re casting it from your hand, not your library. Melek’s ability won’t trigger.
+  - *2013-04-15* — Melek doesn’t affect the timing rules associated with when you can cast the card. If it’s a sorcery card, you can cast it only during your main phase when the stack is empty.
+  - *2013-04-15* — Melek’s last ability will copy any instant or sorcery spell you cast from your library, not just one with targets.
+  - *2013-04-15* — The copy will have the same targets as the spell it’s copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can’t choose a new legal target, then it remains unchanged (even if the current target is illegal).
+  - *2013-04-15* — The top card of your library isn’t in your hand, so you can’t suspend it, cycle it, discard it, or activate any of its activated abilities.
+  - *2013-04-15* — When playing with the top card of your library revealed, if an effect tells you to draw several cards, reveal each one before you draw it.
+  - *2013-04-15* — When the last ability resolves, it creates a copy of the spell. You control the copy. That copy is created on the stack, so it’s not “cast.” Abilities that trigger when a player casts a spell won’t trigger. The copy will then resolve like a normal spell, after players get a chance to cast spells and activate abilities.
+  - *2013-04-15* — You still pay all costs for that spell, including additional costs. You may also pay alternative costs, such as overload costs. Although you can’t pay additional costs for the copy that’s created, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too. For example, if a player sacrifices a 3/3 creature to cast Fling, and you copy it, the copy of Fling will also deal 3 damage to its target.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/345/melek-izzet-paragon) · oracle_id `095d9719-0db6-43de-8e4f-a0035a4c65ed` · printing: CMM #345 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Melek, Reforged Researcher
 
@@ -1068,6 +1151,7 @@
   > *He loved his cities in the clouds. When he traveled to the lands below, he brought many reminders of his home.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5930 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/399/meloku-the-clouded-mirror) · oracle_id `3b96b8c3-b9c8-4712-a3b1-243a67cc013a` · printing: CMR #399 (2020-11-20) · [rulings](https://api.scryfall.com/cards/60b9db96-a6ab-454b-99a7-910ef77560d7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Meltdown
@@ -1079,6 +1163,7 @@
 - **Flavor text** (MH3 printing):
   > *Catastrophes happened so often at the mana rig that the viashino language had a special word to describe them.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7597 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/282/meltdown) · oracle_id `8fd85a54-f0c7-4e9f-a4b4-b9b513b98d95` · printing: MH3 #282 (2024-06-14) · [rulings](https://api.scryfall.com/cards/173369d2-dc39-4bfe-a602-b47156570365/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Melting
@@ -1103,7 +1188,9 @@
 - **Flavor text** (EOE printing):
   > *There are no failures in terrasymbiosis, only lessons learned.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8000 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/197/meltstrider-eulogist) · oracle_id `046b60da-0a14-40b0-a36c-5328f6b8972b` · printing: EOE #197 (2025-08-01) · [rulings](https://api.scryfall.com/cards/df61aa0c-effc-4d57-be19-876a82c41d33/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-07-25* — If Meltstrider Eulogist dies at the same time as one or more creatures you control with +1/+1 counters on them, its ability will trigger for each of those creatures. This includes Meltstrider Eulogist itself if it had a +1/+1 counter on it when it died.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/197/meltstrider-eulogist) · oracle_id `046b60da-0a14-40b0-a36c-5328f6b8972b` · printing: EOE #197 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Meltstrider's Gear
 
@@ -1129,6 +1216,7 @@
   > Enchanted creature gets +0/+2 and can't be blocked by more than one creature.
 - **Keywords:** Fight, Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9883 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/199/meltstriders-resolve) · oracle_id `6f9bc0c6-1792-4771-a839-95a22d9c699a` · printing: EOE #199 (2025-08-01) · [rulings](https://api.scryfall.com/cards/53c08af4-b975-4d9d-baba-73e6727f2778/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Melt Terrain
@@ -1153,7 +1241,10 @@
 - **Flavor text** (ARC printing):
   > *In the blur between metal and flesh, Memnarch found madness.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7953 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/arc/112/memnarch) · oracle_id `52d8e70b-7e94-4e17-811f-70afe39ff9bd` · printing: ARC #112 (2010-06-18) · [rulings](https://api.scryfall.com/cards/9203fde4-dbc1-449f-9618-4656f0e25e3c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-12-01* — The effects of Memnarch’s abilities don’t end at end of turn, and they don’t end when Memnarch leaves the battlefield. Both effects last until the affected permanent leaves the battlefield.
+  - *2004-12-01* — You can use the first ability on a nonartifact permanent, wait for the ability to resolve, and then use the second ability on that permanent.
+- **Source flags:** [Scryfall](https://scryfall.com/card/arc/112/memnarch) · oracle_id `52d8e70b-7e94-4e17-811f-70afe39ff9bd` · printing: ARC #112 (2010-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Memnarchitect
 
@@ -1191,6 +1282,7 @@
 - **Flavor text** (TD2 printing):
   > *Reminders of Memnarch's reign still skirr across Mirrodin, reminiscent of his form if not his power.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2304 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/td2/2/memnite) · oracle_id `7663ac7c-1de3-4250-b96a-fae9dbd66a27` · printing: TD2 #2 (2011-05-14) · [rulings](https://api.scryfall.com/cards/975459ba-e1c2-4800-a3fa-5c0cf8ce728f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Memorial Team Leader
@@ -1216,6 +1308,7 @@
   > {T}: Add {B}.
   > {2}{B}, {T}, Sacrifice this land: Return target creature card from your graveyard to your hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2869 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/377/memorial-to-folly) · oracle_id `2bc38f14-0314-4351-8138-e2b8bf041404` · printing: TDC #377 (2025-04-11) · [rulings](https://api.scryfall.com/cards/2c5c070e-91d3-4613-8a46-0323ee425027/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Memorial to Genius
@@ -1227,6 +1320,7 @@
   > {T}: Add {U}.
   > {4}{U}, {T}, Sacrifice this land: Draw two cards.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9617 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/301/memorial-to-genius) · oracle_id `81763d7d-3897-4be9-bbf6-f6f5dee366ff` · printing: C21 #301 (2021-04-23) · [rulings](https://api.scryfall.com/cards/1d96dd97-ce88-4576-8261-c7866a06275d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Memorial to Glory
@@ -1238,6 +1332,7 @@
   > {T}: Add {W}.
   > {3}{W}, {T}, Sacrifice this land: Create two 1/1 white Soldier creature tokens.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7036 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dom/244/memorial-to-glory) · oracle_id `eb8ec34c-ae07-4a09-940f-ee965146a787` · printing: DOM #244 (2018-04-27) · [rulings](https://api.scryfall.com/cards/564d6ff1-2be1-42f1-a919-fe8c2e148c3f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Memorial to Unity
@@ -1293,7 +1388,14 @@
   > Flashback {7}{U}{U}
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9709 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/63/memories-returning) · oracle_id `6cdc6548-cb32-437f-850a-9002542ad3d5` · printing: FIN #63 (2025-06-13) · [rulings](https://api.scryfall.com/cards/a753abfc-35d3-4faf-ab35-3b51aa778174/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-06-06* — "Flashback [cost]" means "You may cast this card from your graveyard if the resulting spell is an instant or sorcery spell by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2025-06-06* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2025-06-06* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2025-06-06* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2025-06-06* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/63/memories-returning) · oracle_id `6cdc6548-cb32-437f-850a-9002542ad3d5` · printing: FIN #63 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Memory Bank
 
@@ -1325,7 +1427,18 @@
   > Flashback {5}{U}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6014 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/75/memory-deluge) · oracle_id `e6fd55f2-7e26-469c-a44a-ea2eb90e19a9` · printing: INR #75 (2025-01-24) · [rulings](https://api.scryfall.com/cards/edcd3802-ddb3-4eb6-9b6e-a26d76557662/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2021-09-24* — If Memory Deluge is copied, no mana was spent to cast the copy, so X will be 0. The amount of mana spent to cast the original spell is not copied. You won't look at any cards from your library as Memory Deluge resolves.
+  - *2021-09-24* — If an effect allows you to cast Memory Deluge without paying its mana cost, X will be 0. Memory Deluge will resolve, but you won't do anything.
+  - *2021-09-24* — If an effect requires you to pay some amount of mana to prevent Memory Deluge from being countered, as Flip the Switch does, that mana wasn't spent to cast Memory Deluge and will not be taken into account.
+  - *2021-09-24* — Memory Deluge cares about the mana you actually paid to cast it, not its mana cost. If you cast Memory Deluge for {2}{U}{U}, you will look at four cards. If you cast it with flashback for {5}{U}{U}, you will look at seven cards. Any effects that increase or decrease the cost to cast it will also be taken into account.
+  - *2025-06-06* — "Flashback [cost]" means "You may cast this card from your graveyard if the resulting spell is an instant or sorcery spell by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2025-06-06* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2025-06-06* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2025-06-06* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2025-06-06* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/75/memory-deluge) · oracle_id `e6fd55f2-7e26-469c-a44a-ea2eb90e19a9` · printing: INR #75 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Memory Drain
 
@@ -1350,6 +1463,7 @@
   > *—Lodus of the Ethersworn*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3800 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cm2/45/memory-erosion) · oracle_id `f4a96881-586d-44ad-b427-5cdf8988f9a1` · printing: CM2 #45 (2018-06-08) · [rulings](https://api.scryfall.com/cards/f2fedec9-d938-419b-91e1-b4d9ad970464/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Memory Guardian
@@ -1373,7 +1487,9 @@
 - **Oracle text:**
   > {T}, Sacrifice this artifact: Each player exiles all cards from their hand face down and draws seven cards. At the beginning of the next end step, each player discards their hand and returns to their hand each card they exiled this way.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6791 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/vma/276/memory-jar) · oracle_id `eb9c9a34-88a8-4afe-a053-806f6b29834f` · printing: VMA #276 (2014-06-16) · [rulings](https://api.scryfall.com/cards/60b70b7f-6f24-4c00-947a-b109f302205b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — You can’t look at the cards you exiled until they return to your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vma/276/memory-jar) · oracle_id `eb9c9a34-88a8-4afe-a053-806f6b29834f` · printing: VMA #276 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Memory Lapse
 
@@ -1412,7 +1528,11 @@
   > *"Vengeance is the echo of the victim's own crime."*
   > *—Grensch, merrow cutthroat*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4795 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/849/memory-plunder) · oracle_id `36b67014-0507-4976-ad52-a2a36676197d` · printing: CLB #849 (2022-06-10) · [rulings](https://api.scryfall.com/cards/4d9b3d8d-4941-44ca-b829-d53242feba1e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2008-05-01* — If you are unable to cast the card (there are no legal targets for the spell, for example), nothing happens when Memory Plunder resolves, and the card remains in its owner's graveyard.
+  - *2008-05-01* — If you cast a card “without paying its mana cost,” you can't pay any alternative costs. On the other hand, if the card has additional costs (such as conspire), you may pay those.
+  - *2008-05-01* — If you want to cast the card, you cast it as part of the resolution of Memory Plunder. Timing restrictions based on the card's type are ignored if it's a sorcery. Other casting restrictions are not (such as “Cast [this card] only during combat”).
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/849/memory-plunder) · oracle_id `36b67014-0507-4976-ad52-a2a36676197d` · printing: CLB #849 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Memory's Journey
 
@@ -1500,7 +1620,12 @@
   > Paradox — Whenever you cast a spell from anywhere other than your hand, this creature deals 2 damage to target player. That player discards a card, then draws a card. Put a +1/+1 counter on this creature.
 - **Keywords:** Paradox
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8568 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/90/memory-worm) · oracle_id `8fb39f48-10a1-4d9c-870a-eeda070bf12b` · printing: WHO #90 (2023-10-13) · [rulings](https://api.scryfall.com/cards/63837f16-8157-43c7-8da0-88441ac62f04/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2023-10-13* — A triggered ability that triggers when a spell is cast from anywhere other than your hand, such as that of The Thirteenth Doctor, functions only on the battlefield, so it doesn't trigger when you cast that spell from a zone other than your hand.
+  - *2023-10-13* — An instant or sorcery that counts how many spells you've cast from anywhere other than your hand, such as Surge of Brilliance, counts itself if it was cast from a zone other than your hand.
+  - *2023-10-13* — If a spell or ability allows you to copy a spell on the stack but doesn't specify that the spell is cast, that spell wasn't cast and won't be counted by paradox abilities. However, if a spell or ability allows you to cast a copy of a spell, that spell will be counted for paradox abilities.
+  - *2023-10-13* — Paradox abilities count any spells cast from zones other than your hand. These are usually spells cast from exile, the graveyard, or the command zone. They also count spells cast from outside the game, such as spells cast with Wish or Garth One-Eye's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/90/memory-worm) · oracle_id `8fb39f48-10a1-4d9c-870a-eeda070bf12b` · printing: WHO #90 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Menacing Ogre
 
@@ -1539,7 +1664,16 @@
   > Max speed — Whenever you cast an artifact spell, you may pay {1}. If you do, copy it. (The copy becomes a token.)
 - **Keywords:** Max speed, Start your engines!
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3269 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dft/213/mendicant-core-guidelight) · oracle_id `b20d74a4-0e08-4779-972a-499f1a2be15a` · printing: DFT #213 (2025-02-14) · [rulings](https://api.scryfall.com/cards/f434b103-490f-424e-a0a1-efb1b931c8e6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2025-02-07* — A player “has max speed” if their speed is 4.
+  - *2025-02-07* — A resolving copy of a permanent spell becomes a token, so the token isn’t “created.” Effects that care about a token being created won’t interact with a token that enters the battlefield from Mendicant Core’s last ability.
+  - *2025-02-07* — Each player tracks their speed (or lack thereof) separately. Increasing your speed has no effect on whether another player has speed.
+  - *2025-02-07* — If an effect needs to know what a player’s speed is and that player doesn’t have a speed, their speed is considered 0.
+  - *2025-02-07* — Start your engines! isn’t a triggered ability. Increasing your speed to 1 is something that happens as a state-based action as soon as you control a permanent with the ability. Notably, this includes gaining control of a permanent with the ability that another player controls.
+  - *2025-02-07* — The copy remembers any decisions that were made for the original spell as it was cast, including values chosen for X in its mana cost and whether any alternative or additional costs were chosen. For example, if the original artifact spell had kicker and its kicker cost was paid, the copy will also be kicked.
+  - *2025-02-07* — Your speed doesn’t change until a spell or ability says so, such as the inherent triggered ability that cares about opponents losing life during your turn. Notably, losing control of permanents with start your engines! doesn’t affect your speed.
+  - *2025-02-07* — “Max speed — [ability]” means “As long as you have max speed, this object has [ability].” If the granted ability functions in a zone other than the battlefield, the max speed ability does too.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dft/213/mendicant-core-guidelight) · oracle_id `b20d74a4-0e08-4779-972a-499f1a2be15a` · printing: DFT #213 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mending Hands
 
@@ -1579,7 +1713,11 @@
   > *—Gandalf*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7720 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/62/meneldor-swift-savior) · oracle_id `ef9a5bd1-6ce2-4570-9d42-89d997e2fc6f` · printing: LTR #62 (2023-06-23) · [rulings](https://api.scryfall.com/cards/62d2ee20-abbc-4a9d-8d30-4223242123e8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-06-16* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
+  - *2023-06-16* — Meneldor's second ability can target any permanent you own, including those another player controls.
+  - *2023-06-16* — Once the exiled permanent returns, it's considered a new object with no relation to the object that it was. Auras attached to the exiled permanent will be put into their owners' graveyards. Equipment attached to the exiled permanent will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/62/meneldor-swift-savior) · oracle_id `ef9a5bd1-6ce2-4570-9d42-89d997e2fc6f` · printing: LTR #62 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Meng Huo, Barbarian King
 
@@ -1749,6 +1887,7 @@
   > *"Don't look at me. I'm not drinking it."*
   > *—Dranach, Dire Fleet boatswain*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8463 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/112/mephitic-draught) · oracle_id `05da6b06-fb5f-41e8-b0a2-d949646e36d9` · printing: LCI #112 (2023-11-17) · [rulings](https://api.scryfall.com/cards/adcae196-dbcc-44d5-b700-c57b0b646483/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mephitic Ooze
@@ -1906,7 +2045,16 @@
   > Clues you control have exalted. (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn for each instance of exalted among permanents you control.)
 - **Keywords:** Flying, Investigate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6369 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/11/merchant-of-truth) · oracle_id `84275aab-f718-4896-b61c-63bf49fb483b` · printing: MKC #11 (2024-02-09) · [rulings](https://api.scryfall.com/cards/0f47e29e-54c5-4b1a-b9b9-d5e267a0203a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2024-02-02* — A creature attacks alone if it’s the only creature declared as an attacker during the declare attackers step (including creatures controlled by your teammates, if applicable). For example, exalted won’t trigger if you attack with multiple creatures and all but one of them are removed from combat. Similarly, creatures that enter the battlefield attacking later in combat won’t affect exalted abilities that have already triggered or resolved.
+  - *2024-02-02* — Clue is an artifact type. Even though it appears on some cards with other permanent types, it’s never a creature type, a land type, or anything but an artifact type.
+  - *2024-02-02* — If Merchant of Truth dies at the same time as one or more other nontoken creatures you control, its second ability will trigger for each of those creatures.
+  - *2024-02-02* — If an effect refers to a Clue, it means any Clue artifact, not just a Clue artifact token. For example, you can sacrifice Wrench to pay for Alquist Proft, Master Sleuth’s activated ability.
+  - *2024-02-02* — If you control multiple Merchants of Truth, Clues you control will have multiple instances of exalted.
+  - *2024-02-02* — Some abilities trigger “whenever you sacrifice a Clue”. Those abilities trigger whenever you sacrifice a Clue for any reason, not just to activate a Clue’s activated ability.
+  - *2024-02-02* — Some spells and abilities that investigate may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won’t resolve. You won’t create any Clue tokens.
+  - *2024-02-02* — You can’t sacrifice a Clue to pay multiple costs. For example, you can’t sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth’s ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/11/merchant-of-truth) · oracle_id `84275aab-f718-4896-b61c-63bf49fb483b` · printing: MKC #11 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Merchant of Venom
 
@@ -1933,7 +2081,11 @@
 - **Flavor text** (LCC printing):
   > *"Tell you what, you keep the rope."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7155 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/163/merchant-raiders) · oracle_id `8b388331-eaa7-41aa-99de-4451e51cb221` · printing: LCC #163 (2023-11-17) · [rulings](https://api.scryfall.com/cards/f6236b1e-2e3e-4088-87e0-9cdf1fc8db66/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-11-10* — If another player gains control of Merchant Raiders, the creature will no longer be affected by the ability stopping it from untapping, even if you later regain control of Merchant Raiders.
+  - *2020-11-10* — The ability stopping the creature from untapping will continue to apply to it even if the creature changes controllers.
+  - *2020-11-10* — The triggered ability can target any creature, including one that is already tapped. In that case, the creature stays tapped and won't untap during its controller's untap step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/163/merchant-raiders) · oracle_id `8b388331-eaa7-41aa-99de-4451e51cb221` · printing: LCC #163 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Merchant Scroll
 
@@ -1944,7 +2096,9 @@
 - **Flavor text** (8ED printing):
   > *Lat-Nam wizards trade knowledge on scrolls made of magic so they can better guard against thieves and spies.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2556 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/8ed/91/merchant-scroll) · oracle_id `86cebe2a-95e7-4f22-99cc-e805aeaf347e` · printing: 8ED #91 (2003-07-28) · [rulings](https://api.scryfall.com/cards/bb5385d2-ca5d-4fb9-934b-b7cc8b38ac89/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Because the "search" requires you to find a card with certain characteristics, you don't have to find the card if you don't want to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/8ed/91/merchant-scroll) · oracle_id `86cebe2a-95e7-4f22-99cc-e805aeaf347e` · printing: 8ED #91 (2003-07-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Merchant's Dockhand
 
@@ -2012,7 +2166,9 @@
   > • Exile all enchantments.
   > • Exile all planeswalkers.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3225 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/160/merciless-eviction) · oracle_id `3c8d4999-e18b-48d8-8ed9-f2feaa38300d` · printing: DMC #160 (2022-09-09) · [rulings](https://api.scryfall.com/cards/1d395707-4e6d-4e2c-b977-d9b8c0c9eb80/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-01-24* — You choose the mode as you cast the spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/160/merciless-eviction) · oracle_id `3c8d4999-e18b-48d8-8ed9-f2feaa38300d` · printing: DMC #160 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Merciless Executioner
 
@@ -2024,7 +2180,9 @@
 - **Flavor text** (HOC printing):
   > *"Curse the Isengarders! Uglúk u bagronk sha pushdug Saruman-glob búbhosh skai!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2194 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hoc/188/merciless-executioner) · oracle_id `c3c45d50-9038-41df-bb2f-9bc40071845b` · printing: HOC #188 (2026-08-14) · [rulings](https://api.scryfall.com/cards/7b135177-4786-4ebe-98cd-c1db9444e577/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2014-11-24* — If you control no other creatures as Merciless Executioner's ability resolves, you'll have to sacrifice Merciless Executioner.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hoc/188/merciless-executioner) · oracle_id `c3c45d50-9038-41df-bb2f-9bc40071845b` · printing: HOC #188 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Merciless Harlequin
 
@@ -2136,7 +2294,16 @@
   > Whenever you cast a noncreature spell, put an oil counter on this creature.
   > Whenever this creature deals combat damage to a player, you may remove two oil counters from it. If you do, when you next cast an instant or sorcery spell this turn, copy that spell. You may choose new targets for the copy.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5808 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/61/mercurial-spelldancer) · oracle_id `5b90f8ed-84b2-4306-9dfa-b5654ea0e4cd` · printing: ONE #61 (2023-02-10) · [rulings](https://api.scryfall.com/cards/cf28c75d-1fb3-44cc-b651-5b2830e22add/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2023-02-04* — A copy is created even if the spell that caused the delayed triggered ability to trigger has been countered by the time that delayed triggered ability resolves. The copy resolves before the original spell.
+  - *2023-02-04* — Any choices made when the spell resolves won't have been made yet when it's copied. Any such choices will be made separately when the copy resolves.
+  - *2023-02-04* — If the spell has damage divided as it was put onto the stack, the division can't be changed, although the targets receiving that damage still can. The same is true of spells that distribute counters.
+  - *2023-02-04* — If the spell that's copied has an X whose value was determined as it was cast, the copy has the same value of X.
+  - *2023-02-04* — If the spell that's copied is modal (that is, it says "Choose one —" or the like), the copy will have the same mode or modes. You can't choose different ones.
+  - *2023-02-04* — The copy is created on the stack, so it's not "cast." Creating the copy won't cause abilities that trigger when a player casts a spell to trigger.
+  - *2023-02-04* — The copy will have the same targets as the spell it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If the spell is a permanent spell with targets, such as an Aura, you may also choose a new target for that spell. The new targets must be legal. If, for any target, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
+  - *2023-02-04* — You can't choose to pay any additional costs for a copied spell. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/61/mercurial-spelldancer) · oracle_id `5b90f8ed-84b2-4306-9dfa-b5654ea0e4cd` · printing: ONE #61 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mercurial Transformation
 
@@ -2181,7 +2348,14 @@
   > Whenever another creature you control dies, you get an experience counter.
   > At the beginning of your end step, choose target creature card in your graveyard. If that card's mana value is less than or equal to the number of experience counters you have, return it to the battlefield. Otherwise, put it into your hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1514 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/297/meren-of-clan-nel-toth) · oracle_id `0310dfdb-0498-488d-9f1a-279f8239e024` · printing: TDC #297 (2025-04-11) · [rulings](https://api.scryfall.com/cards/508b1442-bf2c-4ad6-9bcf-bd894e081ab6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2015-11-04* — All experience counters are identical, no matter how you got them. For example, the last ability will count experience counters that you got from the first ability, from another ability, from proliferating, and so on.
+  - *2015-11-04* — Each game pack includes a card labeled “Experience” with the suggestion “Place your experience counters here.” This card isn’t required for play. It’s simply a convenient spot to put your experience counters, which can be represented with dice, glass beads, or other small items.
+  - *2015-11-04* — Experience counters are the second kind of counters a player can have, joining poison.
+  - *2015-11-04* — If Meren of Clan Nel Toth leaves the battlefield at the same time as other creatures you control die, its first ability will trigger for each of those creatures.
+  - *2015-11-04* — If a creature card in your graveyard has {X} in its mana cost, X is 0.
+  - *2015-11-04* — You can’t choose to put the creature card into your hand if its mana value is less than or equal to the number of experience counters you have as the ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/297/meren-of-clan-nel-toth) · oracle_id `0310dfdb-0498-488d-9f1a-279f8239e024` · printing: TDC #297 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Merfolk Assassin
 
@@ -2256,7 +2430,9 @@
 - **Flavor text** (AFC printing):
   > *Merfolk don't always know what they're looking for, but they're certain once they find it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4395 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afc/86/merfolk-looter) · oracle_id `67362406-b1ca-49e2-800d-9050bfe8742a` · printing: AFC #86 (2021-07-23) · [rulings](https://api.scryfall.com/cards/6d740928-bf61-4420-a403-63097538b97d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-03-16* — You can't do anything in between drawing a card and discarding a card, including casting or cycling the card you drew.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afc/86/merfolk-looter) · oracle_id `67362406-b1ca-49e2-800d-9050bfe8742a` · printing: AFC #86 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Merfolk Mesmerist
 
@@ -2283,7 +2459,9 @@
   > *"The mist clothes us when we are bare, hides us when we are alone, and unites us when we are together."*
   > *—Nirit of Pashona's band*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6409 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/276/merfolk-mistbinder) · oracle_id `be56dfea-1ece-4f06-b1cc-d7425b5018b4` · printing: LCC #276 (2023-11-17) · [rulings](https://api.scryfall.com/cards/f5c2c19b-2cac-4073-8d02-277cf42ae1ce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-01-19* — Because damage remains marked on a creature until it's removed as the turn ends, nonlethal damage dealt to another Merfolk you control may become lethal if Merfolk Mistbinder leaves the battlefield during that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/276/merfolk-mistbinder) · oracle_id `be56dfea-1ece-4f06-b1cc-d7425b5018b4` · printing: LCC #276 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Merfolk Observer
 
@@ -2406,7 +2584,15 @@
   > {3}{G}{U}: Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)
 - **Keywords:** Flying, Proliferate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6722 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/277/merfolk-skydiver) · oracle_id `5d2ccaa4-4815-4987-889f-d08c4d1e7a8e` · printing: LCC #277 (2023-11-17) · [rulings](https://api.scryfall.com/cards/bb8fcaa7-3430-4de1-854a-77b7bef59864/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2019-05-03* — You may choose Merfolk Skydiver as the target of its own ability.
+  - *2023-02-04* — An ability that triggers "Whenever you proliferate" triggers even if you chose no permanents or players while doing so.
+  - *2023-02-04* — If a permanent ever has both +1/+1 counters and -1/-1 counters on it at the same time, they're removed in pairs as a state-based action so that the permanent has only one of those kinds of counters on it.
+  - *2023-02-04* — If a player or permanent has more than one kind of counter on it, and you choose for it to get additional counters, it must get one of each kind of counter it already has. You can't have it get just one kind of counter it already has and not the others.
+  - *2023-02-04* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
+  - *2023-02-04* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
+  - *2023-02-04* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/277/merfolk-skydiver) · oracle_id `5d2ccaa4-4815-4987-889f-d08c4d1e7a8e` · printing: LCC #277 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Merfolk Skyscout
 
@@ -2433,7 +2619,9 @@
 - **Flavor text** (LCC printing):
   > *"Be like the sea: flow around that which is unmovable; for everything else, crash into it unrelentingly."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4161 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/164/merfolk-sovereign) · oracle_id `16aba9af-7a12-4c3d-87eb-06278921cb7c` · printing: LCC #164 (2023-11-17) · [rulings](https://api.scryfall.com/cards/ac545978-ad30-4c6b-8add-3edd6c0eb7f3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-10-01* — To have any effect, Merfolk Sovereign's activated ability must be activated before the declare blockers step begins. Once a Merfolk has become blocked, activating Merfolk Sovereign's ability won't change that.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/164/merfolk-sovereign) · oracle_id `16aba9af-7a12-4c3d-87eb-06278921cb7c` · printing: LCC #164 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Merfolk Spy
 
@@ -2495,7 +2683,11 @@
   > *Saved from destruction by one planeswalker's sacrifice, the Eliterate colony forswore the taking of life.*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9896 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dom/56/merfolk-trickster) · oracle_id `f712aed5-d6e0-45d3-ae20-518b765ce9da` · printing: DOM #56 (2018-04-27) · [rulings](https://api.scryfall.com/cards/359b2f2b-7b58-47b6-b00c-8616f981e3a3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-04-27* — If the target creature has an ability that triggers when it becomes tapped, that ability triggers before it loses all abilities.
+  - *2018-04-27* — If the target creature has power and toughness written as */* with an ability that defines its power and toughness, it’s 0/0 when it loses all abilities. If its power and toughness are written as */*+1, it’s 0/1, and so on.
+  - *2018-04-27* — Once you announce that you’re casting a spell or activating an ability, no player may take other actions until the spell or ability has been paid for. Notably, players can’t try to remove a permanent’s activated abilities to stop them from happening. Once activated, the ability on the stack will resolve even if the creature loses the ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dom/56/merfolk-trickster) · oracle_id `f712aed5-d6e0-45d3-ae20-518b765ce9da` · printing: DOM #56 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Merfolk Wayfinder
 
@@ -2520,7 +2712,10 @@
   > Sacrifice this creature: Draw a card. Activate only if an opponent has eight or more cards in their graveyard.
 - **Keywords:** Flying, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9391 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/70/merfolk-windrobber) · oracle_id `be8b9bef-a98d-40a8-bedd-d78f1f08f93b` · printing: ZNR #70 (2020-09-25) · [rulings](https://api.scryfall.com/cards/112077b8-1514-4320-a70f-b23f3c7ce18a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-09-25* — An ability that offers a bonus if an opponent has eight or more cards in their graveyard won’t provide additional benefits if more than one opponent has eight or more cards in their graveyard. There are also no additional benefits no matter how many cards are in an opponent’s graveyard, as long as there are at least eight.
+  - *2020-09-25* — In a multiplayer game, once an opponent leaves the game, they won’t be considered for such an effect, no matter how many cards they had in their graveyard before leaving the game.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/70/merfolk-windrobber) · oracle_id `be8b9bef-a98d-40a8-bedd-d78f1f08f93b` · printing: ZNR #70 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Meriadoc Brandybuck
 
@@ -2533,7 +2728,13 @@
   > *"My dear old Hobbit, you don't allow for the inquisitiveness of friends. I have known about the existence of the Ring for years."*
 - **Keywords:** Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6104 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/177/meriadoc-brandybuck) · oracle_id `fec6a4a7-4ded-4062-b99b-c1826dea7113` · printing: LTR #177 (2023-06-23) · [rulings](https://api.scryfall.com/cards/885a3277-ef10-4dcf-ac63-eb8971cd627c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-06-16* — Halflings attacking a planeswalker or battle won't cause Meriadoc Brandybuck's ability to trigger.
+  - *2023-06-16* — Meriadoc Brandybuck's ability has you create just one Food token per player you attack with a Halfling, no matter how many Halflings you attack them with beyond the first.
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/177/meriadoc-brandybuck) · oracle_id `fec6a4a7-4ded-4062-b99b-c1826dea7113` · printing: LTR #177 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Meria, Scholar of Antiquity
 
@@ -2605,7 +2806,11 @@
 - **Flavor text** (LRW printing):
   > *Schools meet and mingle on Lorwyn's riverways. In the bustling interplay, the merrow renew their sense of community as they sharpen their wits and hone their trading skills.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6670 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lrw/72/merrow-commerce) · oracle_id `a931b609-1486-447b-9479-61a45d64f2ef` · printing: LRW #72 (2007-10-12) · [rulings](https://api.scryfall.com/cards/3ad0c3b4-fd24-44ad-8b30-4176f07be3d6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-06-07* — Kindred is a card type that allows noncreature cards to have creature types. For example, Echoes of Eternity is an Eldrazi (although not a creature) while on the battlefield and an Eldrazi card (although not a creature card) in zones other than the battlefield.
+  - *2024-06-07* — This cards was originally printed with the "tribal" card type. That card type has been replaced with "kindred". This change does not affect the gameplay function of this card.
+  - *2024-06-07* — While it appears only on cards that already have other card types, kindred is a card type and will be counted by effects that refer to the number of card types among cards in a zone.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lrw/72/merrow-commerce) · oracle_id `a931b609-1486-447b-9479-61a45d64f2ef` · printing: LRW #72 (2007-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Merrow Grimeblotter
 
@@ -2629,6 +2834,7 @@
   > When this creature enters, you may search your library for a Merfolk card, reveal it, then shuffle and put that card on top.
 - **Keywords:** Landwalk, Islandwalk
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9324 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lrw/73/merrow-harbinger) · oracle_id `035ee753-232f-4ba2-afbf-8d1eb162e6f8` · printing: LRW #73 (2007-10-12) · [rulings](https://api.scryfall.com/cards/b47af11c-1090-4f0a-8eea-64a3b639e535/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Merrow Levitator
@@ -2655,6 +2861,7 @@
 - **Flavor text** (LCC printing):
   > *Steady and silent as the deep current, the reejerey guides the course of the school.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4016 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/165/merrow-reejerey) · oracle_id `6b7e6ae4-2ee1-44bf-ac93-79fc87494515` · printing: LCC #165 (2023-11-17) · [rulings](https://api.scryfall.com/cards/6ae8ea86-46c3-4855-92e9-7906e554becb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Merrow Skyswimmer
@@ -2721,7 +2928,9 @@
   > *Then suddenly Merry felt it at last, beyond doubt: a change. Wind was in his face!*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4400 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/215/merry-esquire-of-rohan) · oracle_id `4dce1f49-ddad-4748-893a-e10d831ee7d7` · printing: LTR #215 (2023-06-23) · [rulings](https://api.scryfall.com/cards/b7c5fe73-1684-4edc-9f9b-976b2246d5ea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-06-16* — Merry and the other attacking legendary creature don't have to be attacking the same player, planeswalker, or battle.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/215/merry-esquire-of-rohan) · oracle_id `4dce1f49-ddad-4748-893a-e10d831ee7d7` · printing: LTR #215 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Merry-Go-Round
 
@@ -2744,7 +2953,17 @@
   > Whenever one or more artifacts you control enter, create a 1/1 white Soldier creature token with lifelink. This ability triggers only once each turn.
 - **Keywords:** Partner with, Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5259 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner, Partner with
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/61/merry-warden-of-isengard) · oracle_id `1b600345-2b89-45bc-98c8-609fdd08a5fd` · printing: LTC #61 (2023-06-23) · [rulings](https://api.scryfall.com/cards/56a66d3b-3308-4db7-8fc1-97bb85bdcbf3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2023-06-16* — "Partner with [name]" represents two abilities. The first is a triggered ability: "When this permanent enters the battlefield, target player may search their library for a card named [name], reveal it, put it into their hand, then shuffle their library."
+  - *2023-06-16* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2023-06-16* — Both commanders start in the command zone, and the remaining 98 cards of your deck are shuffled to become your library.
+  - *2023-06-16* — If your Commander deck has two commanders, you can only include cards whose own color identities are also found in your commanders' combined color identities. If Frodo, Adventurous Hobbit and Sam, Loyal Attendant are your commanders, your deck may contain cards with white, black, and/or green in their color identity, but not blue or red.
+  - *2023-06-16* — Note that the target player searches their library (which may be affected by effects such as that of Stranglehold) and that the card they find is revealed, even though these words aren't included in the ability's reminder text.
+  - *2023-06-16* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from one of them, not from both of them combined. Command Beacon's effect puts one into your hand from the command zone, not both.
+  - *2023-06-16* — The second ability represented by the "partner with [name]" keyword modifies the rules for deck construction in the Commander variant and has no function outside of that variant. If a legendary creature card with "partner with [name]" is designated as your commander, the named legendary creature card can also be designated as your commander. For more information on the Commander variant, please visit Wizards.com/Commander.
+  - *2023-06-16* — The triggered ability of the "partner with" keyword still triggers in a Commander game. If your other commander has somehow ended up in your library, you can find it. You can also target another player, whether or not they have that card in their library.
+  - *2023-06-16* — To have two commanders, both must have the partner ability or corresponding "partner with" abilities as the game begins. A creature with a "partner with" ability can't partner with any creature other than its designated partner. Losing a partner ability during the game doesn't cause either to cease to be your commander.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/61/merry-warden-of-isengard) · oracle_id `1b600345-2b89-45bc-98c8-609fdd08a5fd` · printing: LTC #61 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Merseine
 
@@ -2879,7 +3098,9 @@
   > *A step in one direction is two steps away from another.*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1094 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/272/mesmeric-orb) · oracle_id `03efb4f3-b8e2-4441-824f-886dc40712c4` · printing: 2XM #272 (2020-08-07) · [rulings](https://api.scryfall.com/cards/e24fbdbb-f2ae-4823-9d2a-4c505332aa5b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-08-07* — If permanents become untapped during the untap step, Mesmeric Orb's ability will trigger that many times. However, since no player gets priority during the untap step, those abilities wait to be put on the stack until the upkeep starts. At that time, any "beginning of upkeep" triggers will also trigger. Those abilities and Mesmeric Orb's triggers are put onto the stack at the same time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/272/mesmeric-orb) · oracle_id `03efb4f3-b8e2-4441-824f-886dc40712c4` · printing: 2XM #272 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mesmeric Sliver
 
@@ -3055,7 +3276,12 @@
   > This creature is the chosen type in addition to its other types.
   > Each other creature you control of the chosen type enters with an additional +1/+1 counter on it.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #952 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/203/metallic-mimic) · oracle_id `1f91297a-ec2b-4ea8-9198-aa1daac20ff8` · printing: MSC #203 (2026-06-26) · [rulings](https://api.scryfall.com/cards/2623640e-51bb-4aba-a31f-1b6d170f58f6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2017-02-09* — Creatures of the chosen type that enter the battlefield at the same time as Metallic Mimic won't enter with an additional +1/+1 counter.
+  - *2017-02-09* — Even though Metallic Mimic is a Shapeshifter, other Shapeshifter creatures you control won't get a +1/+1 counter unless you chose Shapeshifter as Metallic Mimic entered the battlefield. If you do, that creature must be entering the battlefield as a Shapeshifter to get a +1/+1 counter. It won't get a +1/+1 counter if it enters the battlefield as a copy of a non-Shapeshifter creature.
+  - *2017-02-09* — The choice of creature type is made as Metallic Mimic enters the battlefield. Players can't respond to this choice. Metallic Mimic's second ability starts applying immediately.
+  - *2017-02-09* — You must choose an existing creature type. "Artifact" and "Vehicle" aren't creature types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/203/metallic-mimic) · oracle_id `1f91297a-ec2b-4ea8-9198-aa1daac20ff8` · printing: MSC #203 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Metallic Rebuke
 
@@ -3104,7 +3330,12 @@
   > Whenever you cast an instant or sorcery spell, create an X/X colorless Construct artifact creature token, where X is that spell's mana value.
   > {3}{U}{U}, Exile this enchantment: Return all instant and sorcery cards from your graveyard to your hand. Activate only if you control six or more artifacts.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4080 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c21/122/metallurgic-summonings) · oracle_id `7d5149c6-0e7e-438c-a554-5235c85e2426` · printing: C21 #122 (2021-04-23) · [rulings](https://api.scryfall.com/cards/3a769d7e-c749-4845-ba87-808f0386df80/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2016-09-20* — For a spell with {X} in its mana cost, use the value chosen for X to determine its mana value. For example, Clash of Wills is an instant spell with mana cost {X}{U}. If you chose 2 as the value of X, then Clash of Wills has mana value 3, and Metallurgic Summonings's ability will create a 3/3 token.
+  - *2016-09-20* — If Metallurgic Summonings's first ability resolves and the spell that caused it to trigger has been countered, use that spell's mana value as it last existed on the stack to determine the value of X.
+  - *2016-09-20* — Metallurgic Summonings's first ability resolves before the spell that caused it to trigger.
+  - *2016-09-20* — The number of artifacts you control is checked only as you activate Metallurgic Summonings's last ability. It's not checked again as it resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c21/122/metallurgic-summonings) · oracle_id `7d5149c6-0e7e-438c-a554-5235c85e2426` · printing: C21 #122 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Metalspinner's Puzzleknot
 
@@ -3127,7 +3358,13 @@
 - **Flavor text** (MSC printing):
   > *Wakandan defenses are centuries ahead of the rest of the world.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1670 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/204/metalwork-colossus) · oracle_id `64ffe529-ba53-48ec-8af1-b046fbd1f0cc` · printing: MSC #204 (2026-06-26) · [rulings](https://api.scryfall.com/cards/d7e2d686-1fbc-449a-9af4-f00a71ff7911/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2016-09-20* — If a permanent has {X} in its mana cost, X is considered to be 0.
+  - *2016-09-20* — If the total mana value of noncreature artifacts you control is 11 or greater, Metalwork Colossus costs {0} to cast.
+  - *2016-09-20* — Metalwork Colossus's last ability can be activated only if it is in your graveyard.
+  - *2016-09-20* — Once a player has announced that they are casting Metalwork Colossus, no player may take actions to try to change the number of artifacts its controller controls before that spell's cost is locked in.
+  - *2016-09-20* — The total cost to cast Metalwork Colossus is locked in before you pay that cost. For example, if you control three noncreature artifacts each with mana value 2, including one you can sacrifice to add {C} , the total cost of Metalwork Colossus is {5}. Then you can sacrifice the artifact when you activate mana abilities just before paying the cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/204/metalwork-colossus) · oracle_id `64ffe529-ba53-48ec-8af1-b046fbd1f0cc` · printing: MSC #204 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Metalworker
 
@@ -3140,7 +3377,10 @@
   > *"At this rate I fully expect to be replaced by a clockwork golem by year's end."*
   > *—Barrin*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3897 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/uds/135/metalworker) · oracle_id `9ed9accb-9f0c-40fa-aeea-2d1e1c9d1bd1` · printing: UDS #135 (1999-06-07) · [rulings](https://api.scryfall.com/cards/2050d414-71c7-4c42-a1ff-4c04068ba7f2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — This is a mana ability. It does not go on the stack and can’t be responded to.
+  - *2004-10-04* — You can reveal zero cards to gain zero mana.
+- **Source flags:** [Scryfall](https://scryfall.com/card/uds/135/metalworker) · oracle_id `9ed9accb-9f0c-40fa-aeea-2d1e1c9d1bd1` · printing: UDS #135 (1999-06-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Metamorphic Alteration
 
@@ -3200,7 +3440,11 @@
   > As an additional cost to cast this spell, sacrifice a creature.
   > Add X mana of any one color, where X is 1 plus the sacrificed creature's mana value. Spend this mana only to cast creature spells.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8601 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/chr/66/metamorphosis) · oracle_id `7140d726-0136-43af-84b5-85005a66a186` · printing: CHR #66 (1995-07-01) · [rulings](https://api.scryfall.com/cards/fc73bd94-6e14-4798-b9ff-163ba7bdd663/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-10-04* — This mana may be used on additional costs to cast the spell, such as Kicker.
+  - *2013-04-15* — Players can only respond once this spell has been cast and all its costs have been paid. No one can try to destroy the creature you sacrificed to prevent you from casting this spell.
+  - *2013-04-15* — You must sacrifice exactly one creature to cast this spell; you cannot cast it without sacrificing a creature, and you cannot sacrifice additional creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/chr/66/metamorphosis) · oracle_id `7140d726-0136-43af-84b5-85005a66a186` · printing: CHR #66 (1995-07-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Metamorphosis Fanatic
 
@@ -3213,7 +3457,19 @@
   > Miracle {1}{B} (You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)
 - **Keywords:** Lifelink, Miracle
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2880 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/21/metamorphosis-fanatic) · oracle_id `017aa9b3-a8ea-4588-9c50-e914a7d8e4ee` · printing: DSC #21 (2024-09-27) · [rulings](https://api.scryfall.com/cards/16448d95-ee21-4def-b880-26f6f159c213/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2024-09-20* — If an effect puts a card into your hand without using the word "draw," the card wasn't drawn.
+  - *2024-09-20* — If the card with miracle leaves your hand before the triggered ability resolves, you won't be able to cast it using its miracle ability.
+  - *2024-09-20* — It's important to reveal a card with miracle before it is mixed with the other cards in your hand.
+  - *2024-09-20* — Miracle is an alternative cost to cast the spell with miracle. It can't be combined with other alternative costs, such as casting a spell "without paying its mana cost." You may, however, pay additional costs, such as kicker. If the spell has any mandatory additional costs, those must be paid to cast the spell.
+  - *2024-09-20* — Multiple card draws are always treated as a sequence of individual card draws. For example, if you haven't drawn any cards yet during a turn and cast a spell that instructs you to draw three cards, you'll draw them one at a time. Only the first card drawn this way may be revealed and cast using its miracle ability.
+  - *2024-09-20* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a miracle cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+  - *2024-09-20* — You can cast a card for its miracle cost only as the miracle triggered ability resolves. If you don't want to cast it at that time (or you can't cast it, perhaps because there are no legal targets available), you won't be able to cast it later for the miracle cost.
+  - *2024-09-20* — You can reveal and cast a card with miracle on any turn, not just your own, if it's the first card you've drawn that turn.
+  - *2024-09-20* — You cast the card with miracle during the resolution of the triggered ability. Ignore any timing rules based on the card's type.
+  - *2024-09-20* — You don't have to reveal a drawn card with miracle if you don't wish to cast it at that time.
+  - *2024-09-20* — You still draw the card, whether you use the miracle ability or not. Any ability that triggers whenever you draw a card, for example, will trigger. If you don't cast the card using its miracle ability, it will remain in your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/21/metamorphosis-fanatic) · oracle_id `017aa9b3-a8ea-4588-9c50-e914a7d8e4ee` · printing: DSC #21 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Metastatic Evangel
 
@@ -3226,7 +3482,12 @@
   > *"I am no sleeper agent. I am a liberator. It is you who are asleep."*
 - **Keywords:** Proliferate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1512 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/35/metastatic-evangel) · oracle_id `0a27bd77-ec13-4e8d-acad-9aa9c66b3b73` · printing: MH3 #35 (2024-06-14) · [rulings](https://api.scryfall.com/cards/774e115a-c0dc-4901-9a1f-87754304e378/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-06-07* — If a player or permanent has more than one kind of counter on it, and you choose for it to get additional counters, it must get one of each kind of counter it already has. You can't have it get just one kind of counter it already has and not the others.
+  - *2024-06-07* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
+  - *2024-06-07* — When you proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
+  - *2024-06-07* — You don't have to choose every permanent or player that has a counter—only the ones you want to add counters to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/35/metastatic-evangel) · oracle_id `0a27bd77-ec13-4e8d-acad-9aa9c66b3b73` · printing: MH3 #35 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Metathran Aerostat
 
@@ -3312,7 +3573,9 @@
 - **Flavor text** (PLS printing):
   > *Legend has it that meteor craters are haunted by the ghosts of those who died on impact.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7028 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pls/140/meteor-crater) · oracle_id `ebddf68c-1b22-4313-83e1-13a5c1aec19e` · printing: PLS #140 (2001-02-05) · [rulings](https://api.scryfall.com/cards/043a2299-1cfc-4732-a10a-58c773b9992c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — You can’t choose “colorless”. You have to choose one of the five colors.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pls/140/meteor-crater) · oracle_id `ebddf68c-1b22-4313-83e1-13a5c1aec19e` · printing: PLS #140 (2001-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Meteor Golem
 
@@ -3338,7 +3601,17 @@
   > Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.)
 - **Keywords:** Equip, Cascade
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9474 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/283/meteoric-mace) · oracle_id `c6a607f2-4228-4bcc-84ed-37bd362d7542` · printing: MH3 #283 (2024-06-14) · [rulings](https://api.scryfall.com/cards/3fb34a09-d911-49ac-ac39-fad7ee1b41ef/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2021-06-18* — A spell's mana value is determined only by its mana cost. Ignore any alternative costs, additional costs, cost increases, or cost reductions.
+  - *2021-06-18* — Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade.
+  - *2021-06-18* — Due to a 2021 rules change to cascade, not only do you stop exiling cards if you exile a nonland card with lesser mana value than the spell with cascade, but the resulting spell you cast must also have lesser mana value. Previously, in cases where a card's mana value differed from the resulting spell, such as with some modal double-faced cards or cards with an Adventure, you could cast a spell with a higher mana value than the exiled card.
+  - *2021-06-18* — If a spell with cascade is countered, the cascade ability will still resolve normally.
+  - *2021-06-18* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2021-06-18* — If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those to cast the card.
+  - *2021-06-18* — The mana value of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves.
+  - *2021-06-18* — When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled.
+  - *2021-06-18* — You exile the cards face up. All players will be able to see them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/283/meteoric-mace) · oracle_id `c6a607f2-4228-4bcc-84ed-37bd362d7542` · printing: MH3 #283 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Meteorite
 
@@ -3399,6 +3672,7 @@
   > *Crafted from a fallen meteor, symbolizing the sudden change that wielding it brings.*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8119 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/258/meteor-sword) · oracle_id `181965fb-e685-4b1f-9bd6-3a33bed933b2` · printing: TLA #258 (2025-11-21) · [rulings](https://api.scryfall.com/cards/68b1c746-a4b8-4a45-9f0e-3962f0ae40e3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Me, the Immortal
@@ -3517,6 +3791,7 @@
   > *With their ancient enemy vanquished, the angels of New Capenna turned their eyes to their former captors: demons.*
 - **Keywords:** Flying, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4516 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mat/4/metropolis-reformer) · oracle_id `baec04a1-3bc9-4618-afab-e42013e36648` · printing: MAT #4 (2023-05-12) · [rulings](https://api.scryfall.com/cards/a61a3ba1-af6c-4ddc-aa82-34bfc30867d0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Metropolis Sprite

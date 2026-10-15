@@ -153,7 +153,9 @@
   > At the beginning of your upkeep, if you control no Thopters other than this creature, return this creature to its owner's hand and create five 1/1 colorless Thopter artifact creature tokens with flying.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5493 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/386/thopter-assembly) · oracle_id `007c110d-4364-41e5-a8bc-6ac05ecbbd00` · printing: MOC #386 (2023-04-21) · [rulings](https://api.scryfall.com/cards/efc9db16-53d3-4d27-ba42-c3c445f2f92f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-06-01* — The triggered ability looks for any permanent you control with the creature type Thopter, not just the Thopter tokens previously created by a Thopter Assembly.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/386/thopter-assembly) · oracle_id `007c110d-4364-41e5-a8bc-6ac05ecbbd00` · printing: MOC #386 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thopter Engineer
 
@@ -164,6 +166,7 @@
   > When this creature enters, create a 1/1 colorless Thopter artifact creature token with flying.
   > Artifact creatures you control have haste. (They can attack and {T} as soon as they come under your control.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7691 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/181/thopter-engineer) · oracle_id `4ac53b34-20d2-4a53-bade-4f998fb6ae67` · printing: C21 #181 (2021-04-23) · [rulings](https://api.scryfall.com/cards/03ba03d0-c2fd-44fa-809e-3873e1c3e968/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thopter Fabricator
@@ -179,6 +182,7 @@
   > *Every camera had a backup, and every backup had a backup, and every backup's backup had a backup, too.*
 - **Keywords:** Flying, Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4050 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/68/thopter-fabricator) · oracle_id `8aab9181-c306-471a-8061-9a7a7654dab5` · printing: DFT #68 (2025-02-14) · [rulings](https://api.scryfall.com/cards/8924b785-b140-4212-a1eb-a10340e09fea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thopter Foundry
@@ -191,7 +195,9 @@
   > *"Etherium is limited. Innovation is not."*
   > *—Tezzeret*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8031 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/222/thopter-foundry) · oracle_id `88bef744-550e-4f33-b1ff-a8ee990ec754` · printing: 2XM #222 (2020-08-07) · [rulings](https://api.scryfall.com/cards/3d8dcd5e-d4d0-49ae-a591-78d80322105d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-08-07* — You may sacrifice Thopter Foundry to pay the cost of its own ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/222/thopter-foundry) · oracle_id `88bef744-550e-4f33-b1ff-a8ee990ec754` · printing: 2XM #222 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thopter Mechanic
 
@@ -228,6 +234,7 @@
 - **Flavor text** (BRC printing):
   > *Rushed repairs once sent a thopter back to combat with a mechanic's still-warm lunch in the gunner's seat.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8013 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/brc/19/thopter-shop) · oracle_id `b2f9e07b-64b7-40b3-9a5e-5f1d59b35af7` · printing: BRC #19 (2022-11-18) · [rulings](https://api.scryfall.com/cards/e72a798b-8dab-41f4-9c2d-1d461e1b46c5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thopter Spy Network
@@ -238,7 +245,10 @@
   > At the beginning of your upkeep, if you control an artifact, create a 1/1 colorless Thopter artifact creature token with flying.
   > Whenever one or more artifact creatures you control deal combat damage to a player, draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #938 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/241/thopter-spy-network) · oracle_id `49be65fd-3755-410d-b0dc-2e5861ea2552` · printing: MOC #241 (2023-04-21) · [rulings](https://api.scryfall.com/cards/babc5799-31f3-452e-a61d-5c11f9f81bf9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2015-06-22* — The last ability will trigger, at most, once per combat damage step per player. However, if at least one artifact creature you control has first strike and others don't, or if an artifact creature you control has double strike, the ability could trigger twice per combat: once in each combat damage step.
+  - *2015-06-22* — Thopter Spy Network's first ability has an “intervening ‘if' clause.” That means (1) the ability won't trigger at all unless you control an artifact as your upkeep begins, and (2) the ability will do nothing if you don't control an artifact as it resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/241/thopter-spy-network) · oracle_id `49be65fd-3755-410d-b0dc-2e5861ea2552` · printing: MOC #241 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thopter Squadron
 
@@ -279,6 +289,7 @@
   > Whenever you cast a noncreature spell, Thor deals damage equal to that spell's mana value to any target.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8128 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/156/thor-god-of-thunder) · oracle_id `2842217a-173e-4879-8b25-fefe2fc1123f` · printing: MSH #156 (2026-06-26) · [rulings](https://api.scryfall.com/cards/cddd314c-c271-475a-b076-01a8599c8015/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thor, Guardian of Midgard
@@ -329,6 +340,7 @@
   > *"To me! O my kinsfolk!"*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9703 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/114/thorin-mountain-king) · oracle_id `94917b80-ac32-45ab-b4ee-157ade024bcd` · printing: HOB #114 (2026-08-14) · [rulings](https://api.scryfall.com/cards/117347af-0dd7-4350-901d-8c8a81387e22/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thorin Oakenshield
@@ -342,7 +354,14 @@
   > As long as you have an enduring story, artifacts and creatures you control have ward {1}.
 - **Keywords:** Trample, Storied
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8621 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/hob/165/thorin-oakenshield) · oracle_id `bdd41af0-bbd1-4ecd-a699-99f006f5e5ce` · printing: HOB #165 (2026-08-14) · [rulings](https://api.scryfall.com/cards/c7e18609-d1ed-4829-be11-f2ce2cfcbc49/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2026-06-29* — A permanent is any object on the battlefield, including tokens and lands. Spells and emblems aren't permanents.
+  - *2026-06-29* — A single permanent can only count once toward the three legendary, Saga, and/or artifact permanents needed to get an enduring story, even if it has more than one of those qualities. If you control one permanent that is a legendary artifact and a second permanent that is a Saga, you will only have two of the three permanents required to get an enduring story.
+  - *2026-06-29* — If you control three legendary, Saga, and/or artifact permanents but don't control a permanent with storied, you don't get an enduring story. For example, if you controlled three artifacts, lost control of two, then cast Thorin Oakenshield, you won't have an enduring story.
+  - *2026-06-29* — If your third legendary, Saga, or artifact permanent enters the battlefield and then one of those permanents leaves the battlefield immediately afterwards (most likely due to the "legend rule" or due to being a creature with 0 toughness), you get an enduring story before it leaves the battlefield.
+  - *2026-06-29* — Once you have an enduring story, you have it for the rest of the game, even if you lose control of some or all of your storied permanents. The enduring story designation is on the player and can't be removed by any effect.
+  - *2026-06-29* — Storied isn't a triggered ability and doesn't use the stack. Players can respond to a spell that will give you your third legendary, Saga, and/or artifact permanent, but they can't respond to you getting an enduring story once you control that third permanent.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hob/165/thorin-oakenshield) · oracle_id `bdd41af0-bbd1-4ecd-a699-99f006f5e5ce` · printing: HOB #165 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thorin's Last Stand
 
@@ -380,7 +399,14 @@
   > Equip {4}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2641 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mor/145/thornbite-staff) · oracle_id `dae4815e-9025-4993-ab46-52a3f1a7219e` · printing: MOR #145 (2008-02-01) · [rulings](https://api.scryfall.com/cards/c1ab3225-64a9-411e-b22b-1869e958b8e5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2008-04-01* — Each of these Equipment has a triggered ability that says "Whenever a [creature type] creature enters, you may attach [this Equipment] to it." This triggers whenever any creature of the specified creature type enters, no matter who controls it. You may attach your Equipment to another player's creature this way, even though you can't do so with the equip ability.
+  - *2008-04-01* — Each of these Equipment has two subtypes listed on its type line. The first one is a creature type, which in this case is also a subtype of kindred. The second one is Equipment, which is a subtype of artifact.
+  - *2008-04-01* — If you attach an Equipment you control to another player's creature, you retain control of the Equipment, but you don't control the creature. Only you can activate the Equipment's equip ability, and if the Equipment's ability triggers again, you choose whether to move the Equipment. Only the creature's controller can activate any activated abilities the Equipment grants to the creature, and "you" in any abilities granted to the creature refers to that player.
+  - *2024-06-07* — Kindred is a card type that allows noncreature cards to have creature types. For example, Echoes of Eternity is an Eldrazi (although not a creature) while on the battlefield and an Eldrazi card (although not a creature card) in zones other than the battlefield.
+  - *2024-06-07* — This cards was originally printed with the "tribal" card type. That card type has been replaced with "kindred". This change does not affect the gameplay function of this card.
+  - *2024-06-07* — While it appears only on cards that already have other card types, kindred is a card type and will be counted by effects that refer to the number of card types among cards in a zone.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mor/145/thornbite-staff) · oracle_id `dae4815e-9025-4993-ab46-52a3f1a7219e` · printing: MOR #145 (2008-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thornbow Archer
 
@@ -456,6 +482,7 @@
   > *The path to growth is forged in balance.*
 - **Keywords:** Indestructible
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4555 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/258/thornglint-bridge) · oracle_id `99720c65-be96-4220-8ed4-720660bf6928` · printing: MH2 #258 (2021-06-18) · [rulings](https://api.scryfall.com/cards/9d483643-6a11-47f7-a0aa-190e0179525f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thornhide Wolves
@@ -508,7 +535,9 @@
   > *It will come to the defense of all wild things, from the shivering wren to the towering giant.*
 - **Keywords:** Trample, Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5925 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eld/323/thorn-mammoth) · oracle_id `d7337b13-5459-434a-aa56-e1547b875594` · printing: ELD #323 (2019-10-04) · [rulings](https://api.scryfall.com/cards/80138656-b2e2-43bf-9fe6-7a852f53f9e9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-10-04* — If the target creature is an illegal target when Thorn Mammoth's last ability tries to resolve, the ability doesn't resolve. If Thorn Mammoth is no longer on the battlefield, the target creature won't deal or be dealt damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eld/323/thorn-mammoth) · oracle_id `d7337b13-5459-434a-aa56-e1547b875594` · printing: ELD #323 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thornmantle Striker
 
@@ -531,6 +560,7 @@
 - **Flavor text** (LRW printing):
   > *Mined from a cave in the Dark Meanders, it shines brightest when no one is looking.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6675 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lrw/262/thorn-of-amethyst) · oracle_id `0c6c5336-9233-4ab1-9d55-79f20be7ea57` · printing: LRW #262 (2007-10-12) · [rulings](https://api.scryfall.com/cards/e472d4f5-add4-4de3-8718-31a47a35277c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thorn of the Black Rose
@@ -545,7 +575,17 @@
   > *If bribery and intimidation fail, Marchesa turns to her favorite form of persuasion.*
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9821 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/190/thorn-of-the-black-rose) · oracle_id `a7894a81-8c0a-4015-8bc1-2698cf5306d1` · printing: CMM #190 (2023-08-04) · [rulings](https://api.scryfall.com/cards/b4b266e2-1cad-40df-bc0e-3e1464b299b3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2016-08-23* — Abilities that trigger whenever you "become the monarch" trigger only if you aren't already the monarch. For example, if you are already the monarch as Custodi Lich enters the battlefield, its last ability won't trigger.
+  - *2016-08-23* — Being the monarch carries two inherent triggered abilities. "At the beginning of the monarch's end step, that player draws a card" and "Whenever a creature deals combat damage to the monarch, its controller becomes the monarch."
+  - *2016-08-23* — If the triggered ability that causes the monarch to draw a card goes on the stack, and a different player becomes the monarch before that ability resolves, the first player will still draw the card.
+  - *2016-08-23* — The game starts with no monarch. Once an effect makes one player the monarch, the game will have exactly one monarch from that point forward.
+  - *2020-11-10* — If combat damage dealt to the monarch causes that player to lose the game, the triggered ability that causes the controller of the attacking creature to become the monarch doesn't resolve. In most cases, the controller of the attacking creature will still become the monarch as it is likely their turn.
+  - *2020-11-10* — If the monarch leaves the game during another player's turn, that player becomes the monarch. If the monarch leaves the game during their turn, the next player in turn order becomes the monarch.
+  - *2020-11-10* — If the triggered ability that causes the monarch to draw a card goes on the stack and a different player becomes the monarch before that ability resolves, the first player will still draw the card.
+  - *2020-11-10* — The game starts with no monarch. Once an effect makes one player the monarch, the game will have exactly one monarch from that point forward. As a player becomes the monarch, the current monarch (if any) ceases being the monarch.
+  - *2020-11-10* — There are two inherent triggered abilities associated with being the monarch. These triggered abilities have no source and are controlled by the player who was the monarch at the time the abilities triggered. The full texts of these abilities are "At the beginning of the monarch's end step, that player draws a card" and "Whenever a creature deals combat damage to the monarch, its controller becomes the monarch."
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/190/thorn-of-the-black-rose) · oracle_id `a7894a81-8c0a-4015-8bc1-2698cf5306d1` · printing: CMM #190 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thornplate Intimidator
 
@@ -668,7 +708,13 @@
   > {3}{G}, {T}: Search your library for a Squirrel card, reveal it, put it into your hand, then shuffle.
 - **Keywords:** Forage
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3276 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/197/thornvault-forager) · oracle_id `7b18cfad-a1cf-46c2-bcdd-7762c13d50e5` · printing: BLB #197 (2024-08-02) · [rulings](https://api.scryfall.com/cards/8c2d6b02-a453-40f9-992a-5c5542987cfb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-07-26* — If you don't have enough cards in your graveyard or a Food on the battlefield, you can't choose to forage.
+  - *2024-07-26* — Once you announce that you're casting a spell or activating an ability, players can't take actions until you've finished doing so. Notably, opponents can't try to remove cards from your graveyard or Foods you control to stop you from foraging.
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/197/thornvault-forager) · oracle_id `7b18cfad-a1cf-46c2-bcdd-7762c13d50e5` · printing: BLB #197 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thornwatch Scarecrow
 
@@ -693,6 +739,7 @@
   > *Their arrows are tipped with basilisk eyes and fletched with cockatrice feathers.*
 - **Keywords:** Reach, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5851 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/559/thornweald-archer) · oracle_id `b5ba87f5-3589-4a8b-ad65-2ae2523e98e8` · printing: FDN #559 (2024-11-15) · [rulings](https://api.scryfall.com/cards/189f6199-f2fe-49a5-89ca-3c4cb39fbf2b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thornwind Faeries
@@ -720,6 +767,7 @@
 - **Flavor text** (TDM printing):
   > *By morning the only evidence of conflict between Temur hunters and Sultai scouts were abandoned banners in the freshly fallen snow.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1103 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/269/thornwood-falls) · oracle_id `ec96cde2-f1e6-495c-94e2-3e8ae79e556c` · printing: TDM #269 (2025-04-11) · [rulings](https://api.scryfall.com/cards/ebb502c2-5fd0-46a9-b77d-010f4a942056/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thor Odinson
@@ -744,7 +792,19 @@
   > Whenever you sacrifice a Clue, venture into the dungeon. (Enter the first room or advance to the next room.)
 - **Keywords:** Investigate, Venture into the dungeon
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7198 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afc/12/thorough-investigation) · oracle_id `e7504407-bb72-4baf-be4a-8152e4198e2b` · printing: AFC #12 (2021-07-23) · [rulings](https://api.scryfall.com/cards/a40e6034-aa05-4542-ac12-78e6a76d86e9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2021-07-23* — A player may only have one dungeon in the command zone at a time.
+  - *2021-07-23* — Choosing the dungeon or room to venture into is part of resolving the venture into the dungeon keyword action. Once that choice is made, players may not respond until after the appropriate room ability has triggered.
+  - *2021-07-23* — Dungeon cards are not part of a player's deck or sideboard. In both constructed and limited formats, players can use any dungeon card when they venture into the dungeon.
+  - *2021-07-23* — Dungeons are removed from the game as a state-based action.
+  - *2021-07-23* — If you somehow venture into the dungeon while a room's ability is on the stack, you will continue on in the dungeon. If you're already in the last room, complete that dungeon and start a new one.
+  - *2021-07-23* — Moving into a dungeon room will cause its room ability to trigger.
+  - *2021-07-23* — Once you resolve the last room ability of a dungeon, that dungeon is now completed and is removed from the game.
+  - *2021-07-23* — The player venturing into the dungeon chooses which dungeon they will venture into. They may choose a dungeon that they have already completed this game.
+  - *2021-07-23* — Thorough Investigation's first ability can trigger only once per combat, no matter how many creatures you attack with.
+  - *2021-07-23* — To venture into the dungeon, a player moves their venture marker into the next room of the dungeon they are currently in. If they aren't currently in a dungeon, that player instead chooses a dungeon card from outside the game, puts it into the command zone, and moves their venture marker onto the first room.
+  - *2021-07-23* — You can only move forward (well, downward) in a dungeon, never backwards or sideways.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afc/12/thorough-investigation) · oracle_id `e7504407-bb72-4baf-be4a-8152e4198e2b` · printing: AFC #12 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Those Who Serve
 
@@ -809,6 +869,7 @@
   > *Vedalken eyes don't see the beauty in things. They see only what those things can teach.*
 - **Keywords:** Affinity
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #929 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/242/thoughtcast) · oracle_id `cce9bbff-82dc-4b2f-addd-d6715588de20` · printing: MOC #242 (2023-04-21) · [rulings](https://api.scryfall.com/cards/466a0be8-31b9-4ea0-9a96-b09a76f4ec69/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thought Collapse
@@ -822,7 +883,9 @@
   > *—Lazav*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5835 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/184/thought-collapse) · oracle_id `6a265af8-448d-402b-b728-b7ed64521842` · printing: JMP #184 (2020-07-17) · [rulings](https://api.scryfall.com/cards/0a932a37-a1db-4df9-9b65-27ee7b46957d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-01-25* — A spell that can’t be countered is a legal target for Thought Collapse. The spell won’t be countered when Thought Collapse resolves, but its controller will still put the top three cards of their library into their graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/184/thought-collapse) · oracle_id `6a265af8-448d-402b-b728-b7ed64521842` · printing: JMP #184 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thought Courier
 
@@ -970,6 +1033,7 @@
   > When this creature enters, target opponent reveals their hand. You choose a nonland card from it and exile that card.
   > When this creature leaves the battlefield, target opponent draws a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9099 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ogw/9/thought-knot-seer) · oracle_id `cef7396d-2168-4282-bf38-670ca9eebd91` · printing: OGW #9 (2016-01-22) · [rulings](https://api.scryfall.com/cards/bffc360e-db41-48f3-9365-680d55046e04/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thoughtlace
@@ -1067,7 +1131,11 @@
 - **Flavor text** (2XM printing):
   > *Only when two oracles speak in unison is an omen accepted as truth.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9600 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/72/thought-reflection) · oracle_id `692a6833-3014-42f6-b1ad-333bb3292c65` · printing: 2XM #72 (2020-08-07) · [rulings](https://api.scryfall.com/cards/e169e197-5ef4-454d-a31f-fcadedb74cfc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-08-07* — If a spell or ability causes you to draw multiple cards, Thought Reflection's effect doubles each card draw. For example, if you cast Harmonize (“Draw three cards”), you'll draw six cards.
+  - *2020-08-07* — If two or more replacement effects would apply to a card-drawing event, the player who's drawing the card chooses what order to apply them.
+  - *2020-08-07* — The effects of multiple Thought Reflections are cumulative. For example, if you have two Thought Reflections on the battlefield, you'll draw four times the original number of cards. If you have three, you'll draw eight times the number of cards, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/72/thought-reflection) · oracle_id `692a6833-3014-42f6-b1ad-333bb3292c65` · printing: 2XM #72 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thoughtrender Lamia
 
@@ -1093,7 +1161,10 @@
   > *He had glimpsed the truth of the Multiverse. Now if only he could remember it.*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1798 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/65/thought-scour) · oracle_id `83101ba8-a569-4827-8c53-9ca0dfcd59a7` · printing: 2X2 #65 (2022-07-08) · [rulings](https://api.scryfall.com/cards/4afee6b3-55a4-44e5-b08c-85e0c813cd09/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2011-01-22* — Follow the instructions in the order listed on the card: if you target yourself, you'll put the top two cards of your library into your graveyard and then draw a card.
+  - *2011-01-22* — If the target player is an illegal target when Thought Scour tries to resolve, it won't resolve and none of its effects will happen. You won't draw a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/65/thought-scour) · oracle_id `83101ba8-a569-4827-8c53-9ca0dfcd59a7` · printing: 2X2 #65 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thoughtseize
 
@@ -1104,7 +1175,9 @@
 - **Flavor text** (2XM printing):
   > *"Any dream is a robust harvest. Still, I prefer the timeworn dreams, heavy with import, that haunt the obsessive mind."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4432 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/109/thoughtseize) · oracle_id `edd8d1e8-be43-4c38-bb3a-83081fbaf0b5` · printing: 2XM #109 (2020-08-07) · [rulings](https://api.scryfall.com/cards/b281a308-ab6b-47b6-bec7-632c9aaecede/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-08-07* — You lose 2 life even if the target player has no nonland cards in their hand to discard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/109/thoughtseize) · oracle_id `edd8d1e8-be43-4c38-bb3a-83081fbaf0b5` · printing: 2XM #109 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thought Shucker
 
@@ -1239,7 +1312,22 @@
   > When this creature enters from your hand, if it's attacking, create a token that's a copy of another target attacking creature. The token enters tapped and attacking.
 - **Keywords:** Flying, Ninjutsu
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2694 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/86/thousand-faced-shadow) · oracle_id `98636623-bbc6-4935-a2bb-2234691eb6d8` · printing: NEO #86 (2022-02-18) · [rulings](https://api.scryfall.com/cards/89a698a5-f4ac-4b04-96dc-32e1eeef6ac7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (14):
+  - *2022-02-18* — Although the Ninja is attacking, it was never declared as an attacking creature (for purposes of abilities that trigger whenever a creature attacks, for example).
+  - *2022-02-18* — Although the token is attacking, it was never declared as an attacking creature (for purposes of abilities that trigger whenever a creature attacks, for example).
+  - *2022-02-18* — Any enters-the-battlefield abilities of the copied creature will trigger when the token enters the battlefield. Any “As [this creature] enters the battlefield” or “[This creature] enters the battlefield with” abilities of the copied creature will also work.
+  - *2022-02-18* — As you activate a ninjutsu ability, you reveal the Ninja card in your hand and return the attacking creature. The Ninja card stays revealed and isn't put onto the battlefield until the ability resolves. If it leaves your hand before then, it won't enter the battlefield at all.
+  - *2022-02-18* — If a creature in combat has first strike or double strike, you can activate the ninjutsu ability during the first-strike combat damage step. The Ninja will deal combat damage during the regular combat damage step, even if it has first strike.
+  - *2022-02-18* — If the copied creature had {X} in its mana cost, X is 0.
+  - *2022-02-18* — If the copied creature is a token, the token created by Thousand-Faced Shadow copies the original characteristics of that token as stated by the effect that put it onto the battlefield.
+  - *2022-02-18* — If the copied creature was copying something else, the token enters the battlefield as whatever that creature was copying.
+  - *2022-02-18* — Puff of smoke not included.
+  - *2022-02-18* — The creature with ninjutsu enters the battlefield attacking the same player or planeswalker that the returned creature was attacking. This is a rule specific to ninjutsu; in other cases, when a creature is put onto the battlefield attacking, that creature's controller chooses which player or planeswalker it's attacking.
+  - *2022-02-18* — The ninjutsu ability can be activated during the declare blockers step, combat damage step, or end of combat step. In most cases (see below), if you wait until the combatdamage step or end of combat step, it will be after combat damage has been dealt, so the Ninja won't deal combat damage.
+  - *2022-02-18* — The ninjutsu ability can be activated only after blockers have been declared. Before then, attacking creatures are neither blocked nor unblocked.
+  - *2022-02-18* — The token copies exactly what was printed on the original creature and nothing else (unless that permanent is copying something else or is a token; see below). It doesn't copy whether that creature has any counters on it or Auras and/or Equipment attached to it, or any non-copy effects that changed its power, toughness, types, color, and so on. Notably, it doesn't copy any effects that may have turned a noncreature permanent into a creature. If the token isn't a creature as it enters the battlefield, it won't be attacking.
+  - *2022-02-18* — You choose which opponent or opposing planeswalker the token is attacking as you put it onto the battlefield. It doesn't have to be the same player or planeswalker Thousand-Faced Shadow is attacking. (Remember that the rules for ninjutsu specify that a creature that enters the battlefield attacking because of a ninjutsu ability attacks the same player or planeswalker the returned unblocked creature was.)
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/86/thousand-faced-shadow) · oracle_id `98636623-bbc6-4935-a2bb-2234691eb6d8` · printing: NEO #86 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thousand-legged Kami
 
@@ -1288,7 +1376,12 @@
   > Whenever you cast an artifact or creature spell using mana produced by Barracks of the Thousand, create a white Gnome Soldier artifact creature token with "This token's power and toughness are each equal to the number of artifacts and/or creatures you control."
 - **Keywords:** Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2077 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/39/thousand-moons-smithy-barracks-of-the-thousand) · oracle_id `32af5f7b-a970-484a-9aff-226749551d32` · printing: LCI #39 (2023-11-17) · [rulings](https://api.scryfall.com/cards/4a6bec46-1acd-4726-b8d9-3045ac6a2ea2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2023-11-10* — An artifact creature you control counts only once towards the Gnome Soldier's power and toughness.
+  - *2023-11-10* — Barracks of the Thousand's triggered ability will resolve before the spell that caused it to trigger.
+  - *2023-11-10* — The Gnome Soldier's ability will count the Gnome Soldier itself, so it will be at least 1/1.
+  - *2023-11-10* — The power and toughness of the Gnome Soldier token will change as the number of artifacts and/or creatures you control changes.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/39/thousand-moons-smithy-barracks-of-the-thousand) · oracle_id `32af5f7b-a970-484a-9aff-226749551d32` · printing: LCI #39 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thousand Winds
 
@@ -1313,7 +1406,9 @@
 - **Flavor text** (C21 printing):
   > *Paradoxically, to tilt the massive jug for a sip, you'd need the energy of the giant's tonic.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #888 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c21/271/thousand-year-elixir) · oracle_id `4dc5726e-2f7e-4c2b-9616-c3301d212f78` · printing: C21 #271 (2021-04-23) · [rulings](https://api.scryfall.com/cards/95c2d832-5244-4236-81d5-2920aa2e281e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2007-10-01* — Thousand-Year Elixir doesn’t actually grant haste to creatures you control, nor does it let you attack with them as though they had haste.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c21/271/thousand-year-elixir) · oracle_id `4dc5726e-2f7e-4c2b-9616-c3301d212f78` · printing: C21 #271 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thousand-Year Storm
 
@@ -1324,4 +1419,15 @@
 - **Flavor text** (FDN printing):
   > *Ral's storm crackled with mystical detections: Planeswalkers were infiltrating Ravnica.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1396 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/248/thousand-year-storm) · oracle_id `dd4cf149-2fae-40e5-b50b-639f6bcec65e` · printing: FDN #248 (2024-11-15) · [rulings](https://api.scryfall.com/cards/76c48a67-1410-40f1-9b93-0172d85e4688/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2018-10-05* — Copies are created even if the spell that caused Thousand-Year Storm's ability to trigger has been countered by the time that ability resolves. The copies resolve before the original spell.
+  - *2018-10-05* — If an effect instructs you to cast multiple spells, they're cast one at a time in any order.
+  - *2018-10-05* — If the spell has damage divided as it was cast, the division can't be changed (although the targets receiving that damage still can). The same is true of spells that distribute counters.
+  - *2018-10-05* — If the spell that's copied has an X whose value was determined as it was cast, the copies will have the same value of X.
+  - *2018-10-05* — If the spell that's copied is modal (that is, it says "Choose one —" or the like), the copies will have the same mode or modes. You can't choose different ones.
+  - *2018-10-05* — Spells you've cast that were countered were still cast, and so will add copies when Thousand-Year Storm's ability resolves for later spells in the turn.
+  - *2018-10-05* — The copies that Thousand-Year Storm's ability creates are created on the stack, so they're not "cast." Abilities that trigger when a player casts a spell (such as that of Thousand-Year Storm itself) won't trigger.
+  - *2018-10-05* — The copies will have the same targets as the spell they're copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. The new targets must be legal.
+  - *2018-10-05* — Thousand-Year Storm's ability will copy any instant or sorcery spell, not just one with targets.
+  - *2018-10-05* — You can't choose to pay any additional costs for the copies. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/248/thousand-year-storm) · oracle_id `dd4cf149-2fae-40e5-b50b-639f6bcec65e` · printing: FDN #248 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

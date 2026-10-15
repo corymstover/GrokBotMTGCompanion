@@ -77,7 +77,15 @@
   > When this creature enters, create a 1/1 white Kor Warrior creature token for each creature in your party. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)
   > At the beginning of combat on your turn, if you have a full party, creatures you control get +1/+0 and gain indestructible until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9728 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/709/squad-commander) · oracle_id `11f21b50-b4b6-449e-a66a-eedd2920ed93` · printing: CLB #709 (2022-06-10) · [rulings](https://api.scryfall.com/cards/5390bbf3-9906-46a9-81d3-60e23eb89ca1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2020-09-25* — An ability referring to the number of creatures in your party gets a number from zero to four. Such abilities never ask which creatures are in your party, and you never have to designate specific creatures as being in your party. You can't choose to exclude creatures from this count to lower the number.
+  - *2020-09-25* — If a creature has more than one party creature type, and there are multiple ways to count that creature that could result in a different number of creatures in your party, the highest such number is used. For example, if you control a Cleric and a Cleric Wizard, the number of creatures in your party is two. You can't choose to have it be just one by counting the Cleric Wizard first as a Cleric.
+  - *2020-09-25* — If an ability of a creature counts the number of creatures in your party, that number is counted as the ability resolves. If that creature is still on the battlefield when the ability resolves, it'll be counted if appropriate.
+  - *2020-09-25* — Once Squad Commander's last ability has resolved, the affected creatures won't lose +1/+0 or indestructible if you no longer have a full party.
+  - *2020-09-25* — Some cards refer to you having a “full party.” This is true if the number of creatures in your party is four.
+  - *2020-09-25* — Squad Commander's last ability affects only creatures you control at the time it resolves. Creatures you begin to control later in the turn won't get +1/+0 or gain indestructible.
+  - *2020-09-25* — To determine “the number of creatures in your party,” check whether you control a Cleric, whether you control a Rogue, whether you control a Warrior, and whether you control a Wizard. The number is the total number of those checks to which you answered yes. Each creature you control can be counted for only one of those checks.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/709/squad-commander) · oracle_id `11f21b50-b4b6-449e-a66a-eedd2920ed93` · printing: CLB #709 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Squad Rallier
 
@@ -176,7 +184,13 @@
   > Whenever Squall deals combat damage to a player, return target permanent card with mana value 3 or less from your graveyard to the battlefield.
 - **Keywords:** Rough Divide
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3572 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/243/squall-seed-mercenary) · oracle_id `e2348e0e-eeca-47b5-9417-bf4470ec29bb` · printing: FIN #243 (2025-06-13) · [rulings](https://api.scryfall.com/cards/cc4e5234-fb41-48f7-91f4-039710542bc3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-06-06* — A creature attacks alone if it's the only creature declared as an attacker during the declare attackers step (including creatures controlled by your teammates, if applicable). For example, Squall's first ability won't trigger if you attack with multiple creatures and all but one of them are removed from combat. Similarly, creatures that enter the battlefield attacking later in combat won't be considered when determining whether or not a creature attacked alone.
+  - *2025-06-06* — If Starting Town enters during another player's turn, it'll enter tapped no matter how many turns they've taken.
+  - *2025-06-06* — If a card in your graveyard has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
+  - *2025-06-06* — If an effect restarts the game, Starting Town will enter tapped in the new game unless it's your first, second, or third turn of that game.
+  - *2025-06-06* — Starting Town's first ability cares about how many turns you have taken, not necessarily how many turns the game has had, in case you take an extra turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/243/squall-seed-mercenary) · oracle_id `e2348e0e-eeca-47b5-9417-bf4470ec29bb` · printing: FIN #243 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Squandered Resources
 
@@ -188,7 +202,9 @@
   > *"He traded sand for skins, skins for gold, gold for life. In the end, he traded life for sand."*
   > *—Afari, \*Tales\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5409 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/vis/137/squandered-resources) · oracle_id `620d0572-6d22-43e2-83a9-000e605c8a2b` · printing: VIS #137 (1997-02-03) · [rulings](https://api.scryfall.com/cards/fcddbea7-3025-47b1-a597-2d2b2711fb81/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Can sacrifice a land which can’t produce mana, but you don’t get any mana from this ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vis/137/squandered-resources) · oracle_id `620d0572-6d22-43e2-83a9-000e605c8a2b` · printing: VIS #137 (1997-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Square Up
 
@@ -277,7 +293,12 @@
   > You may cast this card from your graveyard by paying {3}{R} and exiling four other cards from your graveyard rather than paying its mana cost.
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5289 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/146/squee-dubious-monarch) · oracle_id `124a5dd7-c4f8-479c-9eb0-669aca01d045` · printing: DMU #146 (2022-09-09) · [rulings](https://api.scryfall.com/cards/3cd907ed-9c68-4bd6-af92-6244909fdf8b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-09-09* — If Squee is countered or dies after being cast from your graveyard, it returns to the graveyard. It may be cast this way again later.
+  - *2022-09-09* — Once you begin casting a spell from your graveyard, it immediately moves to the stack. Players can't take any other actions until you've finished casting the spell.
+  - *2022-09-09* — Squee's controller chooses which player or planeswalker the Goblin token is attacking. It doesn't need to be the same player or planeswalker that Squee is attacking.
+  - *2022-09-09* — The casting permission granted by Squee's last ability doesn't change when you may cast it from your graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/146/squee-dubious-monarch) · oracle_id `124a5dd7-c4f8-479c-9eb0-669aca01d045` · printing: DMU #146 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Squee, Goblin Nabob
 
@@ -290,7 +311,9 @@
   > *"Some goblins are expendable. Some are impossible to get rid of. But he's both—at the same time!"*
   > *—Starke*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3896 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/254/squee-goblin-nabob) · oracle_id `0ef760f4-bbec-4735-8d60-fc24d973452a` · printing: SOC #254 (2026-04-24) · [rulings](https://api.scryfall.com/cards/8aabc541-ff2a-416f-a973-44eda8ec4706/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-12-07* — If Squee isn't in your graveyard as your upkeep begins, its ability won't trigger. You can't take any actions during your turn before your upkeep begins.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/254/squee-goblin-nabob) · oracle_id `0ef760f4-bbec-4735-8d60-fc24d973452a` · printing: SOC #254 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Squee's Embrace
 
@@ -311,6 +334,7 @@
 - **Oracle text:**
   > Choose a number. Flip a coin that many times or until you lose a flip, whichever comes first. If you win all the flips, draw two cards for each flip.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9079 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/apc/123/squees-revenge) · oracle_id `3c9f3f26-339e-459e-9847-4e33aafb6f9b` · printing: APC #123 (2001-06-04) · [rulings](https://api.scryfall.com/cards/2b391ee3-c1cd-47bc-9540-977cbc32913e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Squee's Toy
@@ -334,7 +358,10 @@
 - **Flavor text** (NCC printing):
   > *"You gotta be pretty smart to live long as me, but not being able to die helps."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2280 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/275/squee-the-immortal) · oracle_id `481fb71a-11b9-462e-a4da-ca35ffd1bd22` · printing: NCC #275 (2022-04-29) · [rulings](https://api.scryfall.com/cards/a8232acd-4645-489c-8cf1-4efdc75d9322/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-04-27* — Squee's ability doesn't prevent you from casting Squee from any other zone.
+  - *2018-04-27* — You must follow the normal timing permissions and restrictions and pay its cost to cast Squee from your graveyard or from exile.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/275/squee-the-immortal) · oracle_id `481fb71a-11b9-462e-a4da-ca35ffd1bd22` · printing: NCC #275 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Squeeze
 
@@ -446,7 +473,12 @@
   > *Due to archaic Brazen Coalition guidelines regarding hats, a few mycoids are now technically pirate captains.*
 - **Keywords:** Fathomless descent
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5612 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/241/squirming-emergence) · oracle_id `e468f1fe-d99c-4034-a94f-91c41a129092` · printing: LCI #241 (2023-11-17) · [rulings](https://api.scryfall.com/cards/8ee16629-f9be-4cdb-bf52-1d640781ee00/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2023-11-10* — Cards with the ability word "fathomless descent" have abilities that care how many permanent cards are in your graveyard.
+  - *2023-11-10* — Like all spells that require targets, Squirming Emergence will check to make sure its target is still legal as it tries to resolve. Use the number of permanent cards in your graveyard at that time, even though it may be a different number than the number that were there as you cast the spell. If the permanent card's mana value is greater than the number of permanent cards in your graveyard at that time, Squirming Emergence won't resolve.
+  - *2023-11-10* — Some descend triggered abilities include intervening "if" clauses (i.e. "if you have [four or eight] permanent cards in your graveyard" in the middle of the ability). Each of these abilities checks your graveyard at the moment it would trigger to see if it does. If you don't have the required number of permanent cards in your graveyard at that time, the ability doesn't trigger at all. If it does trigger, it will check again as it tries to resolve. If you don't have the required number of permanent cards in your graveyard at that time, the ability won't resolve and none of its effects will happen.
+  - *2023-11-10* — The target nonland permanent card still counts toward the number of permanent cards in your graveyard for the purposes of Squirming Emergence.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/241/squirming-emergence) · oracle_id `e468f1fe-d99c-4034-a94f-91c41a129092` · printing: LCI #241 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Squirming Mass
 
@@ -508,7 +540,9 @@
 - **Flavor text** (MH2 printing):
   > *An army of squirrels is still an army.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5451 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/286/squirrel-mob) · oracle_id `451486df-6160-4ff7-b47c-dd3760417a31` · printing: MH2 #286 (2021-06-18) · [rulings](https://api.scryfall.com/cards/fa6bfc95-ec7e-46dd-88fd-b0e1ba48bfbc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-06-18* — Because damage remains marked on a creature until the cleanup step or an effect removes that damage, nonlethal damage dealt to Squirrel Mob may become lethal if the number of other Squirrels on the battlefield decreases.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/286/squirrel-mob) · oracle_id `451486df-6160-4ff7-b47c-dd3760417a31` · printing: MH2 #286 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Squirrel Nest
 
@@ -521,6 +555,7 @@
   > *In the treetops, unseen by many, lurks chittering, skittering death.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3424 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/177/squirrel-nest) · oracle_id `2d584333-b25e-4291-a2c9-80c6d9f8732a` · printing: DMR #177 (2023-01-13) · [rulings](https://api.scryfall.com/cards/6f2aa025-e041-4ed5-a046-9debc474fda0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Squirrel-Powered Scheme
@@ -542,7 +577,9 @@
   > When this enchantment enters, create a 1/1 green Squirrel creature token.
   > Whenever a nontoken creature you control dies, you may pay {1}. If you do, return this enchantment to its owner's hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9325 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/174/squirrel-sanctuary) · oracle_id `693d20e9-ad92-44ad-9190-d247c94660eb` · printing: MH2 #174 (2021-06-18) · [rulings](https://api.scryfall.com/cards/ed6ab503-5e9a-4339-a0e7-a909b2908f41/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-06-18* — The last ability functions only while Squirrel Sanctuary is on the battlefield. It won't return itself from your graveyard to your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/174/squirrel-sanctuary) · oracle_id `693d20e9-ad92-44ad-9190-d247c94660eb` · printing: MH2 #174 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Squirrel Sovereign
 
@@ -554,6 +591,7 @@
 - **Flavor text** (MH2 printing):
   > *For rule of the Aldering Forest, Numstail stole the acorn from Nestwind, who stole it from Brankie, who stole it from Lightroot, who stole it from Leafpaw, who stole it from Darkfur . . .*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4325 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/175/squirrel-sovereign) · oracle_id `f43d1ea5-8127-4b64-a87b-ee5cc9b9e9fa` · printing: MH2 #175 (2021-06-18) · [rulings](https://api.scryfall.com/cards/8f739d55-30d6-4879-872a-82c6778113de/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Squirrel Squatters

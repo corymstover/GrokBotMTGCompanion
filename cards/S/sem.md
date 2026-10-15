@@ -23,7 +23,14 @@
   > *Forged from what it forges.*
 - **Keywords:** Imprint
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2104 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/som/201/semblance-anvil) · oracle_id `bbd0c406-c995-46e0-898d-375fdbede203` · printing: SOM #201 (2010-10-01) · [rulings](https://api.scryfall.com/cards/0380b46d-1660-404d-9d11-705d8809ea46/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2011-01-01* — Artifact, battle, creature, enchantment, instant, kindred, planeswalker, and sorcery are card types.
+  - *2011-01-01* — Semblance Anvil can reduce the amount you pay for a spell's cost that includes {X}. For example, Blaze is a sorcery that costs {X}{R}. If the card exiled with Semblance Anvil is a sorcery, and you want to cast Blaze with X equal to 5, you'll have to pay only {3}{R}. This is true even if the ability states that {X} must be paid with a certain color of mana (as Drain Life does).
+  - *2011-01-01* — Semblance Anvil takes the total cost to cast a spell into account, not just its mana cost. This includes additional costs (such as kicker) and alternative costs (such as evoke). It also includes cost increases from other sources (such as Lodestone Golem's ability).
+  - *2011-01-01* — Semblance Anvil won't affect the part of a spell's cost represented by colored mana symbols. For example, a spell that normally costs {1}{U} to cast would cost {U} if it shared a card type with the exiled card.
+  - *2011-01-01* — Semblance Anvil's cost reduction effect is mandatory.
+  - *2011-01-01* — Spells you cast that share multiple card types with the exiled card still cost just {2} less to cast. They don't get a greater cost reduction.
+- **Source flags:** [Scryfall](https://scryfall.com/card/som/201/semblance-anvil) · oracle_id `bbd0c406-c995-46e0-898d-375fdbede203` · printing: SOM #201 (2010-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Semester Foreseer // Peer Review
 
@@ -45,4 +52,6 @@
 - **Oracle text:**
   > Exile any number of target creatures and/or planeswalkers you control. At the beginning of the next end step, return each of them to the battlefield under its owner's control. Each of them enters with an additional +1/+1 counter on it if it's a creature and an additional loyalty counter on it if it's a planeswalker.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2739 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/834/semesters-end) · oracle_id `3aeba3c2-5517-4870-8802-29b0fa70ffae` · printing: CMM #834 (2023-08-04) · [rulings](https://api.scryfall.com/cards/db2bb091-ac6d-4c99-bdf6-70ffb6291ef0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-04-16* — Use the characteristics of each permanent as it returns to the battlefield to determine if it should enter with an additional +1/+1 counter, an additional loyalty counter, or in very unusual cases, both. Notably, if you exile a creature that was only a creature because of a type-changing effect, it will enter as a noncreature permanent and won't get any additional +1/+1 counters from the effect of Semester's End.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/834/semesters-end) · oracle_id `3aeba3c2-5517-4870-8802-29b0fa70ffae` · printing: CMM #834 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

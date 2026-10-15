@@ -64,7 +64,9 @@
   > At the beginning of your end step, you may sacrifice another creature. When you do, Ziatora deals damage equal to that creature's power to any target and you create three Treasure tokens.
 - **Keywords:** Flying, Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3141 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/snc/231/ziatora-the-incinerator) · oracle_id `d46c3fb6-f1c7-4a96-ae42-5bce17fc7c1d` · printing: SNC #231 (2022-04-29) · [rulings](https://api.scryfall.com/cards/ba4fa4c8-f09f-4d97-a7d1-1b93caf7d4f9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-04-29* — Use the creature's power as it last existed on the battlefield to determine how much damage Ziatora deals.
+- **Source flags:** [Scryfall](https://scryfall.com/card/snc/231/ziatora-the-incinerator) · oracle_id `d46c3fb6-f1c7-4a96-ae42-5bce17fc7c1d` · printing: SNC #231 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zidane, Tantalus Thief
 
@@ -76,7 +78,9 @@
   > Whenever an opponent gains control of a permanent from you, you create a Treasure token.
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8213 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/251/zidane-tantalus-thief) · oracle_id `f267fb54-1881-464c-81af-9e03c3f3b41d` · printing: FIN #251 (2025-06-13) · [rulings](https://api.scryfall.com/cards/e42c7d9d-8685-415b-8c5d-6ab2165863b9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-06-06* — If an opponent gains control of Zidane from you, Zidane's last ability will trigger and you'll create a Treasure token. If an opponent gains control of Zidane and one or more other permanents from you simultaneously, Zidane's last ability will trigger for each of those permanents, including itself. This means you'll create a Treasure token for each of those permanents, including Zidane.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/251/zidane-tantalus-thief) · oracle_id `f267fb54-1881-464c-81af-9e03c3f3b41d` · printing: FIN #251 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zilortha, Strength Incarnate
 
@@ -91,7 +95,12 @@
   > *—Kelsien, the Plague*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8922 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/366/zilortha-strength-incarnate) · oracle_id `2dba8d8d-891e-482e-8014-879f701d0619` · printing: CMM #366 (2023-08-04) · [rulings](https://api.scryfall.com/cards/84e4e130-df21-4491-97c3-1b643d7e57ef/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-04-17* — A creature with 0 power isn’t destroyed unless it has at least 1 damage marked on it.
+  - *2020-04-17* — A creature with 0 toughness is put into its owner’s graveyard. This state-based action isn’t a consequence of damage, so Zilortha doesn’t affect it.
+  - *2020-04-17* — Any time the game is checking whether damage is lethal or if a creature should be destroyed for having lethal damage marked on it, use the power of your creatures rather than their toughness to check the damage against. This includes being assigned trample damage, damage from Flame Spill, and so on.
+  - *2020-04-17* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to a creature you control may become lethal if Zilortha enters or leaves the battlefield during that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/366/zilortha-strength-incarnate) · oracle_id `2dba8d8d-891e-482e-8014-879f701d0619` · printing: CMM #366 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zimone, All-Questioning
 
@@ -125,7 +134,11 @@
 - **Flavor text** (SOC printing):
   > *"The best answers leave you with more questions."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7450 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/10/zimone-infinite-analyst) · oracle_id `977f9390-e01d-4e9d-8e9c-e543b1266972` · printing: SOC #10 (2026-04-24) · [rulings](https://api.scryfall.com/cards/605afac4-d2e5-4e68-97d2-3ac2ead5f3a9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2026-03-20* — If you cast your first spell with {X} in its mana cost during a turn before Zimone is on the battlefield, casting another spell with {X} in its mana cost later in the turn won't cause her last ability to trigger. That spell also won't have the cost reduction from Zimone's first ability.
+  - *2026-03-20* — Since Zimone's last ability won't trigger until you've finished casting your first spell with {X} in its mana cost each turn, the counters from that ability won't be placed on Zimone until after that spell's cost has been determined. The counters put on Zimone from casting your first spell with {X} in its mana cost do not reduce that same spell's cost. 
+  - *2026-03-20* — Zimone's last ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/10/zimone-infinite-analyst) · oracle_id `977f9390-e01d-4e9d-8e9c-e543b1266972` · printing: SOC #10 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zimone, Mystery Unraveler
 
@@ -136,7 +149,27 @@
   > Landfall — Whenever a land you control enters, manifest dread if this is the first time this ability has resolved this turn. Otherwise, you may turn a permanent you control face up. (To manifest dread, look at the top two cards of your library. Put one onto the battlefield face down as a 2/2 creature and the other into your graveyard. Turn it face up any time for its mana cost if it's a creature card.)
 - **Keywords:** Manifest, Manifest dread, Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6079 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/8/zimone-mystery-unraveler) · oracle_id `75bf0f27-9df1-4ab4-97a8-94bb3223bdf9` · printing: DSC #8 (2024-09-27) · [rulings](https://api.scryfall.com/cards/30f23588-5064-48d9-a271-039df757f8d2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (19):
+  - *2024-09-20* — A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent and Auras and Equipment that were attached to that permanent aren't affected unless the new characteristics of the object change the legality of those targets or attachments.
+  - *2024-09-20* — Any time you have priority, you can turn a manifested permanent you control face up by revealing that it's a creature card (ignoring any copy effects or type-changing effects that might be applying to it) and paying its mana cost. This is a special action. It doesn't use the stack and can't be responded to.
+  - *2024-09-20* — At any time, you can look at a face-down spell or permanent you control. You can't look at face-down permanents or spells you don't control unless an effect instructs or allows you to do so.
+  - *2024-09-20* — Because face-down creatures don't have a name, they can't have the same name as any other creature, even another face-down creature.
+  - *2024-09-20* — Because the permanent is on the battlefield both before and after it's turned face up, turning a permanent face up doesn't cause any enters-the-battlefield abilities to trigger.
+  - *2024-09-20* — If a double-faced card is manifested, it will be put onto the battlefield face down. While face down, it can't transform. If the front face of the card is a creature card, you can turn it face up by paying its mana cost. If you do, its front face will be up.
+  - *2024-09-20* — If a face-down creature loses its abilities, it can't be turned face up with a disguise or morph ability because it will no longer have that ability (or the associated cost) once face up.
+  - *2024-09-20* — If a face-down spell leaves the stack and goes to any zone other than the battlefield (if it was countered, for example), you must reveal it. Similarly, if a face-down permanent leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or the game ends.
+  - *2024-09-20* — If a manifested creature would have disguise or morph if it were face up, you may also turn it face up by paying its disguise or morph cost, as appropriate.
+  - *2024-09-20* — If something tries to turn a face-down instant or sorcery card on the battlefield face up, reveal that card to show all players it's an instant or sorcery card. The permanent remains on the battlefield face down. Abilities that trigger when a permanent turns face up won't trigger, because even though you revealed the card, it never turned face up.
+  - *2024-09-20* — If your library contains only one card when you manifest dread, you'll look at that card and put it onto the battlefield face down. You won't have the option to put it into your graveyard instead. If your library contains no cards when you manifest dread, you won't do anything.
+  - *2024-09-20* — Some cards in the Duskmourn release have abilities that trigger "whenever you manifest dread." In circumstances where you are instructed to manifest dread but can't perform some or all of the steps of manifesting dread (probably because your library has one or fewer cards in it), these abilities will still trigger.
+  - *2024-09-20* — To manifest dread, look at the top two cards of your library. Manifest one (by putting it onto the battlefield face down) and put the other into your graveyard. The card you put onto the battlefield becomes a 2/2 face-down creature with no name, mana cost, creature types, or abilities. It's colorless and has a mana value of 0. Other effects that apply to the permanent can still grant it any characteristics it doesn't have or change the characteristics it does have.
+  - *2024-09-20* — Turning a permanent face up or face down doesn't change whether that permanent is tapped or untapped.
+  - *2024-09-20* — Unlike a face-down creature that was cast using a disguise or morph ability, a manifested creature may still be turned face up after it loses its abilities if it's a creature card.
+  - *2024-09-20* — You must ensure that your face-down spells and permanents can be easily differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield to confuse other players. The order in which they entered should remain clear, as well as what ability caused them to be face down. (This includes manifest, disguise, cloak, morph, and a few older effects that turn cards face down.) Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/8/zimone-mystery-unraveler) · oracle_id `75bf0f27-9df1-4ab4-97a8-94bb3223bdf9` · printing: DSC #8 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zimone, Paradox Sculptor
 
@@ -150,7 +183,9 @@
   > *"Extraplanar geometry isn't so hard once you get used to thinking in twelve dimensions."*
 - **Keywords:** Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3168 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/126/zimone-paradox-sculptor) · oracle_id `9dd674a7-becf-4106-b53f-bca88426d92d` · printing: FDN #126 (2024-11-15) · [rulings](https://api.scryfall.com/cards/20ccbfdd-ddae-440c-9bc0-38b15a56fdd1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-11-08* — To double the number of each kind of counter on a permanent, put another counter on it for each counter it already has. Effects that interact with counters being put onto permanents, such as the effect of Branching Evolution, apply as appropriate.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/126/zimone-paradox-sculptor) · oracle_id `9dd674a7-becf-4106-b53f-bca88426d92d` · printing: FDN #126 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zimone, Quandrix Prodigy
 
@@ -163,7 +198,10 @@
 - **Flavor text** (SOC printing):
   > *"What are they complaining about? It's not like axiomatic leyline paratrigonometrics is hard."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6951 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/341/zimone-quandrix-prodigy) · oracle_id `ee2ef1e0-6803-4eb5-8664-605438c67505` · printing: SOC #341 (2026-04-24) · [rulings](https://api.scryfall.com/cards/5a9a9f44-479e-47ca-afc4-d8372a11c9b3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-04-16* — Zimone's first ability isn't the same as playing a land. As it resolves, you may put a land card from your hand onto the battlefield tapped even if you have no available land plays or it's another player's turn.
+  - *2021-04-16* — Zimone's last ability counts the number of lands you control as it resolves, not as you activate it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/341/zimone-quandrix-prodigy) · oracle_id `ee2ef1e0-6803-4eb5-8664-605438c67505` · printing: SOC #341 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zimone's Experiment
 
@@ -193,7 +231,9 @@
 - **Flavor text** (SOC printing):
   > *"There exists a theoretical infinity between the discrete atoms of reality. I'm simply appropriating that infinity as storage space."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8486 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/206/zimones-hypothesis) · oracle_id `ae27fa09-ab73-44b4-8e86-44d626ec221d` · printing: SOC #206 (2026-04-24) · [rulings](https://api.scryfall.com/cards/f91afbaf-e035-47cd-b493-0d5817fefa76/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-09-20* — You choose odd or even while Zimone's Hypothesis is resolving. Players can't take any actions between the time you make that choice and the time creatures are returned to their owners' hands.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/206/zimones-hypothesis) · oracle_id `ae27fa09-ab73-44b4-8e86-44d626ec221d` · printing: SOC #206 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zinnia, Valley's Voice
 
@@ -206,7 +246,20 @@
   > Creature spells you cast gain offspring {2} as you cast them. (You may pay an additional {2} as you cast a creature spell. If you do, when that creature enters, create a 1/1 token copy of it.)
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7106 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/blc/4/zinnia-valleys-voice) · oracle_id `d8c16a3a-dd9d-410c-a5d5-06339a89970f` · printing: BLC #4 (2024-08-02) · [rulings](https://api.scryfall.com/cards/dfe36901-5841-4942-8b61-c273111f715e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2024-07-26* — Any "enters" abilities of the copied creature will trigger when the token enters. Any "as [this creature] enters" or "[this creature] enters with" abilities of the copied creature will also work.
+  - *2024-07-26* — If a creature has a characteristic-defining ability that sets its power, indicated with a */* or similar in the power and toughness box, that ability is taken into account when determining its base power.
+  - *2024-07-26* — If the spell is countered, the offspring ability will not trigger, and no token will be created.
+  - *2024-07-26* — If the spell resolves but the creature with offspring leaves the battlefield before the offspring ability resolves, you'll still create a token copy of it.
+  - *2024-07-26* — In the rare case where the creature doesn't have the offspring ability when it enters, the ability won't trigger even if you paid the offspring cost.
+  - *2024-07-26* — In the rare case where the original creature is copying something else when the offspring ability resolves, the token enters as whatever that creature copied, except it's a 1/1.
+  - *2024-07-26* — Many creatures with offspring abilities have other abilities that refer to them as "this creature" rather than referring to them by name. This difference is for clarity purposes and does not change the function of any of these abilities.
+  - *2024-07-26* — Normally, a creature's base power is the power printed on the card or, for a token, the power set by the effect that created it. If another effect sets a creature's power to a specific number or value, those become its base power. If an effect modifies a creature's power without setting it, that is not included when determining its base power.
+  - *2024-07-26* — Some creatures have base power and toughness 0/0 and an ability that gives them a bonus based on some criteria. Those are not characteristic-defining abilities, and that ability doesn't change its base power.
+  - *2024-07-26* — The token copies exactly what was printed on the original creature and nothing else, except it's a 1/1 (unless that creature is copying something else; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its types, color, or so on.
+  - *2024-07-26* — The token created by the offspring ability isn't "cast", so abilities that trigger when a creature spell is cast won't trigger for the copy.
+  - *2024-07-26* — You can pay an offspring cost only once as you cast a spell with offspring. You can't try to pay it multiple times to get more token copies.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blc/4/zinnia-valleys-voice) · oracle_id `d8c16a3a-dd9d-410c-a5d5-06339a89970f` · printing: BLC #4 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zirda, the Dawnwaker
 
@@ -219,7 +272,25 @@
   > {1}, {T}: Target creature can't block this turn.
 - **Keywords:** Companion
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3340 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Companion
-- **Source flags:** [Scryfall](https://scryfall.com/card/iko/233/zirda-the-dawnwaker) · oracle_id `7b515c56-7b1e-42a8-82b0-1b30201fb162` · printing: IKO #233 (2020-04-24) · [rulings](https://api.scryfall.com/cards/1bd8e61c-2ee8-4243-a848-7008810db8a0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (17):
+  - *2020-04-17* — Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keyword abilities are activated abilities (such as cycling) and will have colons in their reminder text.
+  - *2020-04-17* — Activating Zirda's last ability after a creature has blocked won't remove the blocking creature from combat or cause the creature it blocked to become unblocked.
+  - *2020-04-17* — An activated mana ability is one that produces mana as it resolves, not one that costs mana to activate.
+  - *2020-04-17* — Before shuffling your deck to become your library, you may reveal one card from outside the game to be your companion if your starting deck meets the requirements of the companion ability. You can't reveal more than one. It remains revealed outside the game as the game begins.
+  - *2020-04-17* — Effects that reduce the generic mana cost of an activation cost can't reduce that cost's colored mana requirements. The activation cost is reduced by only {1} if doing so reduces that cost to one mana. For example, a cycling cost of {2} would become {1}, and one of {1}{R} would become {R}. The activation cost is unaffected if it already costs one or zero mana (such as the activation cost of Zirda's last ability).
+  - *2020-04-17* — If more than one player wishes to reveal a companion, the starting player does so first, and players proceed in turn order. Once a player has chosen not to reveal a companion, that player can't change their mind.
+  - *2020-04-17* — If you reveal a companion outside the game, for as long as it remains there, you may pay {3} any time you could cast a sorcery (that is, you have priority during your main phase and the stack is empty). Once you do, you put it into your hand and behaves like any other card you've brought into the game. For example, if it's discard, countered, or destroyed, it's put into your graveyard, remaining in the game. This is a change from previous rules.
+  - *2020-04-17* — Paying {3} to put your companion into your hand is a special action. It doesn't use the stack and players can't respond to it. Once you take this action, you may cast that card if it's legal to do so before any other player can take actions.
+  - *2020-04-17* — Permanent cards are artifact, creature, enchantment, land, and planeswalker cards. Land cards with basic land types have intrinsic activated mana abilities associated with those types.
+  - *2020-04-17* — The companion ability has no effect if the card is in your starting deck and creates no restriction on putting a card with a companion ability into your starting deck. For example, Zirda may be in your starting deck even if your other permanent cards don't all have activated abilities.
+  - *2020-04-17* — The companion's other abilities apply only if the creature is on the battlefield. They have no effect while the companion is outside the game.
+  - *2020-04-17* — The requirements of the companion ability apply only to your starting deck. They do not apply to your sideboard.
+  - *2020-04-17* — You may have one companion in the Commander variant. Your deck, including your commander, must meet its companion requirement. Your companion is not one of your one hundred cards.
+  - *2020-04-17* — Your companion begins the game outside the game. In tournament play, this means your sideboard. In casual play, it's simply a card you own that's not in your starting deck.
+  - *2020-06-01* — If you reveal a companion outside the game, for as long as it remains there, you may pay {3} any time you could cast a sorcery (that is, you have priority during your main phase and the stack is empty). Once you do, you put it into your hand and behaves like any other card you've brought into the game. For example, if it's discarded, countered, or destroyed, it's put into your graveyard, remaining in the game. This is a change from previous rules.
+  - *2020-06-01* — Paying {3} to put your companion into your hand is a special action. It doesn't use the stack and players can't respond to it. Once you take this action, you may cast that card if it's legal to do so before any other player can take actions.
+  - *2020-06-01* *(Scryfall note)* — Wizards of the Coast has issued functional errata for the Companion mechanic. Instead of casting companions from outside the game: Once per game, any time you could cast a sorcery (during your main phase when the stack is empty), you can pay {3} to put your companion from your sideboard into your hand. This is a special action, not an activated ability. It happens immediately and can’t be responded to. It can’t be countered or stopped by cards like Phyrexian Revoker. For more information please see https://magic.wizards.com/en/articles/archive/news/june-1-2020-banned-and-restricted-announcement
+- **Source flags:** [Scryfall](https://scryfall.com/card/iko/233/zirda-the-dawnwaker) · oracle_id `7b515c56-7b1e-42a8-82b0-1b30201fb162` · printing: IKO #233 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zirilan of the Claw
 

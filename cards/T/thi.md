@@ -63,7 +63,10 @@
 - **Flavor text** (FDC printing):
   > *No pain, no fame.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3038 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdc/236/thickest-in-the-thicket) · oracle_id `4d60dae0-7be4-4859-99ac-781a27bcfd93` · printing: FDC #236 (2026-10-02) · [rulings](https://api.scryfall.com/cards/2534da93-ef25-4020-bea5-d3f75bfc44f8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-07-26* — The value of X is calculated only once, as Thickest in the Thicket's first ability resolves.
+  - *2024-07-26* — Thickest in the Thicket's last ability will trigger at the beginning of your end step regardless of who controls the creature with the greatest power. As long as you control the creature with the greatest power or tied for the greatest power when the ability resolves, you'll draw two cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdc/236/thickest-in-the-thicket) · oracle_id `4d60dae0-7be4-4859-99ac-781a27bcfd93` · printing: FDC #236 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thicket Basilisk
 
@@ -165,7 +168,13 @@
   > Whenever this creature deals combat damage to a player, look at the top three cards of that player's library, exile one of them face down, then put the rest into their graveyard. You may cast that card for as long as it remains exiled, and mana of any type can be spent to cast that spell.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3203 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/243/thief-of-sanity) · oracle_id `68b51d58-7566-4a26-8c31-8da32799bea7` · printing: OTC #243 (2024-04-19) · [rulings](https://api.scryfall.com/cards/94946d6c-1edb-46e9-a5ae-0ca2a016a7cd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2018-10-05* — An effect that instructs you to "cast" a card doesn't allow you to play lands.
+  - *2018-10-05* — Casting an exiled card causes it to leave exile. You can't cast it multiple times.
+  - *2018-10-05* — In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, any spells or permanents you control from Thief of Sanity's effect are exiled, and any of the face-down exiled cards remain face down indefinitely. No player may look at them.
+  - *2018-10-05* — Thief of Sanity's effect doesn't change when you can cast the exiled card. For example, if you exile a sorcery card, you can cast it only during your main phase when the stack is empty.
+  - *2018-10-05* — You can still cast the exiled card if Thief of Sanity leaves the battlefield or leaves your control. If another player gains control of Thief of Sanity, that player can't cast the exiled card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/243/thief-of-sanity) · oracle_id `68b51d58-7566-4a26-8c31-8da32799bea7` · printing: OTC #243 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thief's Knife
 
@@ -186,7 +195,13 @@
 - **Oracle text:**
   > Exile all nontoken permanents. Starting with you, each player chooses one of the exiled cards and puts it onto the battlefield tapped under their control. Repeat this process until all cards exiled this way have been chosen.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9841 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/8ed/227/thieves-auction) · oracle_id `230ee0b4-eb75-457f-b171-72d585cfb5aa` · printing: 8ED #227 (2003-07-28) · [rulings](https://api.scryfall.com/cards/c9e8ad32-a701-4b77-bb7e-0e440e4072da/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2004-10-04* — An Aura put onto the battlefield this way does not target the permanent it is placed upon.
+  - *2004-10-04* — In multi-player games, it affects all players and players make choices in turn order.
+  - *2004-10-04* — Triggers from the permanents leaving the battlefield and then being put back onto the battlefield are not put on the stack until the entire effect is done.
+  - *2004-10-04* — You can’t pick a card that can’t legally be returned to the battlefield. If there are no cards that can be legally returned, then you can’t pick one.
+  - *2005-08-01* — If you choose an Aura, you can put it on any permanent it can legally enchant. If there is nothing it can legally enchant, it remains exiled, and it can still be chosen by you or another player later in the auction. If there comes a point where only Auras and no legal permanents left, they stay exiled permanently.
+- **Source flags:** [Scryfall](https://scryfall.com/card/8ed/227/thieves-auction) · oracle_id `230ee0b4-eb75-457f-b171-72d585cfb5aa` · printing: 8ED #227 (2003-07-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thieves' Fortune
 
@@ -210,7 +225,10 @@
   > As long as an opponent has eight or more cards in their graveyard, this creature gets +2/+1 and has deathtouch.
 - **Keywords:** Flash, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9282 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m21/125/thieves-guild-enforcer) · oracle_id `84c0db59-255d-41af-a3d4-3f3548f1195f` · printing: M21 #125 (2020-07-03) · [rulings](https://api.scryfall.com/cards/df99f770-2c39-4025-a8a2-a5890f61eb53/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-06-23* — If Thieves' Guild Enforcer gains deathtouch only after dealing damage (most likely because another creature was dealt lethal damage at the same time that Thieves' Guild Enforcer dealt damage), the damage it dealt won't be from a source with deathtouch.
+  - *2020-06-23* — Thieves' Guild Enforcer gets +2/+1 just once, no matter how many opponents have eight or more cards in their graveyard and no matter how many cards they have past the eighth.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m21/125/thieves-guild-enforcer) · oracle_id `84c0db59-255d-41af-a3d4-3f3548f1195f` · printing: M21 #125 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thieves' Tools
 
@@ -222,7 +240,9 @@
   > Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Treasure, Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5955 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/152/thieves-tools) · oracle_id `7fe361ef-a168-4847-92a2-21c1661aac06` · printing: CLB #152 (2022-06-10) · [rulings](https://api.scryfall.com/cards/c3bf4ee1-b6a8-4a69-adab-6839c1786cc9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-07-23* — The equipped creature's power is checked only during the declare blockers step. If its power becomes greater than 3 after blockers are declared, it still can't be blocked. Similarly, if its power becomes 3 or less after it's been blocked, this won't make it unblocked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/152/thieves-tools) · oracle_id `7fe361ef-a168-4847-92a2-21c1661aac06` · printing: CLB #152 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thieving Amalgam
 
@@ -234,7 +254,13 @@
   > Whenever a creature you control but don't own dies, its owner loses 2 life and you gain 2 life.
 - **Keywords:** Manifest
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5516 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/150/thieving-amalgam) · oracle_id `f60cd1d8-eeb6-41a3-af32-3e2a54937ca2` · printing: OTC #150 (2024-04-19) · [rulings](https://api.scryfall.com/cards/c6225b97-396f-4969-954c-f2885da70c1b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2019-08-23* — If a creature you control but don't own dies at the same time that its owner leaves the game, Thieving Amalgam's last ability triggers. No player loses 2 life, but you gain 2 life.
+  - *2019-08-23* — If a creature you control but don't own dies at the same time that your life total becomes 0 or less, you lose the game before Thieving Amalgam's last ability can save you.
+  - *2019-08-23* — In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, the creatures you manifested with Thieving Amalgam's triggered ability are exiled.
+  - *2019-08-23* — In the Commander variant, you can produce mana that isn't of your commander's color identity if an effect lets you produce mana of that color or mana of any color, even though those symbols can't appear on cards in your deck. You may be able to turn a manifested creature card face up this way if it's not the same colors as your commander.
+  - *2019-08-23* — Your opponents can't look at the card they own that you manifested.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/150/thieving-amalgam) · oracle_id `f60cd1d8-eeb6-41a3-af32-3e2a54937ca2` · printing: OTC #150 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thieving Magpie
 
@@ -274,7 +300,17 @@
   > When this creature enters, if it was kicked, gain control of target artifact with mana value X or less. If that artifact is an Equipment, attach it to this creature.
 - **Keywords:** Kicker, Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2383 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/118/thieving-skydiver) · oracle_id `f509ac02-f22e-4d1a-9fe1-afa96dd7806d` · printing: OTC #118 (2024-04-19) · [rulings](https://api.scryfall.com/cards/06996ff1-7f57-4e73-940a-a58c4482cadd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2020-09-25* — If the Equipment can't be attached to Thieving Skydiver, most likely because Thieving Skydiver has left the battlefield before its triggered ability resolves, the Equipment remains attached to whatever it's currently attached to or remains unattached if attached to nothing.
+  - *2020-09-25* — The control-change effect of Thieving Skydiver lasts indefinitely. It doesn't wear off during the cleanup step, and it doesn't expire if Thieving Skydiver leaves the battlefield. In a multiplayer game, it does expire if you leave the game.
+  - *2020-09-25* — Thieving Skydiver's ability can target an artifact you already control. You'll attach it to Thieving Skydiver if it's an Equipment.
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/118/thieving-skydiver) · oracle_id `f509ac02-f22e-4d1a-9fe1-afa96dd7806d` · printing: OTC #118 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thieving Sprite
 
@@ -300,7 +336,9 @@
   > *After seeing what the varmint was doing with her pocket watch, Elsa wasn't sure she even wanted it back.*
 - **Keywords:** Lifelink, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4429 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/23/thieving-varmint) · oracle_id `b9f3cf9f-24c7-43ed-9ba1-f4570df3d09e` · printing: OTC #23 (2024-04-19) · [rulings](https://api.scryfall.com/cards/8e66d567-9f06-47c1-aa9f-f29ba5e9906a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-04-12* — You may spend the two mana added by the last ability on the same spell you don’t own or on two different spells you don’t own.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/23/thieving-varmint) · oracle_id `b9f3cf9f-24c7-43ed-9ba1-f4570df3d09e` · printing: OTC #23 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thijarian Witness
 
@@ -344,7 +382,11 @@
   > *—Runo Stromkirk*
 - **Keywords:** Transform, Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6621 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/91/thing-in-the-ice-awoken-horror) · oracle_id `f2c10591-4c0c-4286-af91-e8d8d10a4c9d` · printing: INR #91 (2025-01-24) · [rulings](https://api.scryfall.com/cards/7269d533-cb3f-498e-b97f-eb6c49e170c3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-01-24* — An ability that triggers when a player casts a spell resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack without resolving.
+  - *2025-01-24* — Removing all ice counters from Thing in the Ice some other way will not cause it to transform. You’ll need to cast an instant or sorcery spell and cause its last ability to trigger.
+  - *2025-01-24* — When Thing in the Ice’s triggered ability transforms it, Awoken Horror’s ability will trigger and resolve before the spell that caused Thing in the Ice’s last ability to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/91/thing-in-the-ice-awoken-horror) · oracle_id `f2c10591-4c0c-4286-af91-e8d8d10a4c9d` · printing: INR #91 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thing Swing
 
@@ -397,7 +439,14 @@
   > *—Immortus*
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2205 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/787/think-twice) · oracle_id `fa85c5a2-8e83-4624-a35a-a0bbf17ecbb4` · printing: MSC #787 (2026-06-26) · [rulings](https://api.scryfall.com/cards/85835de4-66ea-4ba1-87ca-6bcec2a8660a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2024-11-08* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2024-11-08* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2024-11-08* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2024-11-08* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2024-11-08* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/787/think-twice) · oracle_id `fa85c5a2-8e83-4624-a35a-a0bbf17ecbb4` · printing: MSC #787 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Third Path Iconoclast
 
@@ -409,6 +458,7 @@
 - **Flavor text** (TDC printing):
   > *"When all you have is a hammer, everything looks like a nail. I merely propose expanding our toolbox."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1359 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/307/third-path-iconoclast) · oracle_id `f7156897-2b02-4ecd-868d-d4d59244e9ed` · printing: TDC #307 (2025-04-11) · [rulings](https://api.scryfall.com/cards/ca29f373-7051-4cbe-bda8-e711fda4f9bb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Third Path Savant
@@ -457,6 +507,7 @@
   > *"This is your only warning, alchemist. The secrets of the sea are not yours to behold. Lord Krothuss will not be so merciful next time."*
   > *—Runo Stromkirk*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3762 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vow/85/thirst-for-discovery) · oracle_id `1e05e6ef-14af-451d-9d54-e75b1f8871ab` · printing: VOW #85 (2021-11-19) · [rulings](https://api.scryfall.com/cards/1ea179e9-9c0d-46c1-9ee8-60be68e1f79c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thirst for Identity
@@ -479,7 +530,9 @@
 - **Flavor text** (MSH printing):
   > *"I am the Watcher. My species learned long ago the perils of interfering. For now, we observe."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1990 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msh/79/thirst-for-knowledge) · oracle_id `939e6f71-185e-41f2-9d54-72cce06f1dce` · printing: MSH #79 (2026-06-26) · [rulings](https://api.scryfall.com/cards/5f4f77e5-0019-4a5f-bae6-136121946929/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-11-10* — You can discard either one artifact card or two cards which may or may not be artifacts. If you really want to, you can discard two artifact cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msh/79/thirst-for-knowledge) · oracle_id `939e6f71-185e-41f2-9d54-72cce06f1dce` · printing: MSH #79 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thirst for Meaning
 
@@ -490,7 +543,9 @@
 - **Flavor text** (DSC printing):
   > *A sip of recollection, an ocean of regrets.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8333 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/129/thirst-for-meaning) · oracle_id `70e58068-90d2-4720-a11c-5d243046b4a3` · printing: DSC #129 (2024-09-27) · [rulings](https://api.scryfall.com/cards/b91bd773-b36b-4a7a-a9e4-3a07cff90646/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-01-24* — You can discard either one enchantment card or two cards which may or may not be enchantments. If you really want to, you can discard two enchantment cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/129/thirst-for-meaning) · oracle_id `70e58068-90d2-4720-a11c-5d243046b4a3` · printing: DSC #129 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thirsting Axe
 
@@ -528,7 +583,14 @@
   > • Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)
 - **Keywords:** Proliferate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2374 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/185/thirsting-roots) · oracle_id `c0ef21d5-f4bf-4417-b701-d98c2dbbaa43` · printing: ONE #185 (2023-02-10) · [rulings](https://api.scryfall.com/cards/75a4a340-453b-471a-82ba-48ebf20b271a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-02-04* — An ability that triggers "Whenever you proliferate" triggers even if you chose no permanents or players while doing so.
+  - *2023-02-04* — If a permanent ever has both +1/+1 counters and -1/-1 counters on it at the same time, they're removed in pairs as a state-based action so that the permanent has only one of those kinds of counters on it.
+  - *2023-02-04* — If a player or permanent has more than one kind of counter on it, and you choose for it to get additional counters, it must get one of each kind of counter it already has. You can't have it get just one kind of counter it already has and not the others.
+  - *2023-02-04* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
+  - *2023-02-04* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
+  - *2023-02-04* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/185/thirsting-roots) · oracle_id `c0ef21d5-f4bf-4417-b701-d98c2dbbaa43` · printing: ONE #185 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thirsting Shade
 
@@ -554,7 +616,11 @@
 - **Flavor text** (WHO printing):
   > *"There's a gravestone here for someone with the same name as me."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8593 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/70/this-is-how-it-ends) · oracle_id `53467cf4-5db2-4b9c-af2b-03b044c558cd` · printing: WHO #70 (2023-10-13) · [rulings](https://api.scryfall.com/cards/250f6265-c0c8-4f51-bea8-408caf0a58d8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-10-13* — A player facing a villainous choice can always choose either option, even if one or both of the options are impossible. For example, if one of the options is to sacrifice a creature, a player who controls no creatures can still choose that option.
+  - *2023-10-13* — If a spell or ability requires multiple players to face a villainous choice, the result is a little different from other effects in Magic. In that case, the first player in turn order makes their choice and the action for that choice is performed before the next player makes their choice. Then each of the remaining players repeat this process in turn order.
+  - *2023-10-13* — When a player faces a villainous choice, they first choose one of the two options, then all actions in the chosen option are performed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/70/this-is-how-it-ends) · oracle_id `53467cf4-5db2-4b9c-af2b-03b044c558cd` · printing: WHO #70 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thistledown Duo
 
@@ -605,4 +671,5 @@
 - **Flavor text** (OTJ printing):
   > *"All that fancy footwork, and you can't even dodge one silly little rope? Cryin' shame, that is."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8999 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/74/this-town-aint-big-enough) · oracle_id `2550c2ae-834d-46e7-9ab4-d7bf7bfa6a78` · printing: OTJ #74 (2024-04-19) · [rulings](https://api.scryfall.com/cards/bb206e27-da4d-4abe-9d8c-6d18c5f2f52a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

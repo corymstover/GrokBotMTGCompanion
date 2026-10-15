@@ -106,4 +106,13 @@
   > This creature escapes with a +1/+1 counter on it.
 - **Keywords:** Escape
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9837 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/nec/108/ox-of-agonas) · oracle_id `22113051-c971-4108-953b-95356d21323a` · printing: NEC #108 (2022-02-18) · [rulings](https://api.scryfall.com/cards/00c46d18-064e-403a-bf39-ec655d78390a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2020-01-24* — After an escaped spell resolves, it returns to its owner's graveyard if it's not a permanent spell. If it is a permanent spell, it enters the battlefield and will return to its owner's graveyard if it dies later. Perhaps it will escape again—good underworld security is so hard to come by these days.
+  - *2020-01-24* — Escape's permission doesn't change when you may cast the spell from your graveyard.
+  - *2020-01-24* — If a card has multiple abilities giving you permission to cast it, such as two escape abilities or an escape ability and a flashback ability, you choose which one to apply. The others have no effect.
+  - *2020-01-24* — If a card with escape is put into your graveyard during your turn, you'll be able to cast it right away if it's legal to do so, before an opponent can take any actions.
+  - *2020-01-24* — If you cast a spell with its escape permission, you can't choose to apply any other alternative costs or to cast it without paying its mana cost. If it has any additional costs, you must pay those.
+  - *2020-01-24* — Once you begin casting a spell with escape, it immediately moves to the stack. Players can't take any other actions until you're done casting the spell.
+  - *2020-01-24* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an escape cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was and no matter whether an alternative cost was paid.
+  - *2020-01-24* — You draw three cards, even if you discard no cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/nec/108/ox-of-agonas) · oracle_id `22113051-c971-4108-953b-95356d21323a` · printing: NEC #108 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

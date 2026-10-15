@@ -45,7 +45,14 @@
   > Whenever another legendary creature you control dies, create a token that's a copy of that creature, except it's not legendary and it's a 2/2 black Zombie in addition to its other colors and types.
 - **Keywords:** Vigilance, Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2878 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/213/ratadrabik-of-urborg) · oracle_id `b3ab43f2-4f2b-4439-9254-0110ce443fdb` · printing: DMU #213 (2022-09-09) · [rulings](https://api.scryfall.com/cards/9315812d-03e8-4eb4-a693-e7adf281f7fb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2022-09-09* — Any enters-the-battlefield abilities of the copied creature will trigger when the token enters the battlefield. Any “as [this creature] enters the battlefield” or “[this creature] enters the battlefield with” abilities of the chosen creature will also work.
+  - *2022-09-09* — Except for power and toughness, the token copies only what was printed on the original creature (unless that creature is copying something else; see below) and adds the color black and the creature type Zombie. It doesn’t copy whether that creature was tapped or untapped, whether it had any counters on it or Auras or Equipment attached to it, or any non-copy effects that had changed its power, toughness, types, color, or so on.
+  - *2022-09-09* — If the copied creature has {X} in its mana cost, X is considered to be 0.
+  - *2022-09-09* — If the copied creature is a token, the new token that’s created copies the original characteristics of that token as stated by the effect that created that token, with the exceptions noted above.
+  - *2022-09-09* — If the copied creature is copying something else, then the token enters the battlefield as whatever that creature copied, with the exceptions noted above.
+  - *2022-09-09* — The token copies the creature as it last existed on the battlefield before it died, not as it exists in the graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/213/ratadrabik-of-urborg) · oracle_id `b3ab43f2-4f2b-4439-9254-0110ce443fdb` · printing: DMU #213 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ratatwotwo
 
@@ -71,6 +78,7 @@
   > *An ogre's poisonous stench is like fine Kashkaval cheese to the noses lowest to the ground.*
 - **Keywords:** Fear
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7706 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/a25/103/ratcatcher) · oracle_id `acba24c1-168c-473b-96bb-1ba836c69f22` · printing: A25 #103 (2018-03-16) · [rulings](https://api.scryfall.com/cards/e9cb08a7-cfcf-49ee-948b-4be859c1d256/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ratcatcher Trainee // Pest Problem
@@ -113,7 +121,24 @@
   > Whenever one or more nontoken artifacts you control are put into a graveyard from the battlefield, convert Ratchet. This ability triggers only once each turn.
 - **Keywords:** Lifelink, Living metal, Convert, More Than Meets the Eye
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7873 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/bot/2/ratchet-field-medic-ratchet-rescue-racer) · oracle_id `4f95664f-6113-41e6-a99e-12bfc9d1710a` · printing: BOT #2 (2022-11-18) · [rulings](https://api.scryfall.com/cards/c23a2d6b-43c2-4756-94c7-207cc344f0a7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (16):
+  - *2022-10-14* — "Living metal" means "As long as it's your turn, this permanent is an artifact creature in addition to its other types."
+  - *2022-10-14* — "More Than Meets the Eye [cost]" means "You may cast this card converted by paying [cost] rather than its mana cost." It functions in any zone from which the spell can be cast.
+  - *2022-10-14* — A spell cast this way enters the battlefield with its back face up.
+  - *2022-10-14* — Any triggered ability of another card that triggers whenever a permanent transforms will also trigger whenever a permanent converts.
+  - *2022-10-14* — Converting a permanent doesn't affect any Auras or Equipment that are attached to it. Similarly, any counters on the permanent will remain on that permanent after it converts. Any continuous effects from a resolved spell or ability will continue to affect it. Any spells or abilities on the stack that target a permanent continue to do so after that permanent converts.
+  - *2022-10-14* — If a static ability of another permanent applies only to noncreature permanents, that ability applies to a Vehicle with living metal only during your opponents' turns. For example, if you control Arcee, Acrobatic Coupe and March of the Machines, Arcee will be a 2/2 artifact creature during your turn and a 3/3 artifact creature (because its mana value is 3) during each opponent's turn.
+  - *2022-10-14* — If you copy a permanent spell cast this way, the copy has the characteristics of the card's back face, even though it isn't itself a double-faced card.
+  - *2022-10-14* — Multiple instances of gaining life that happen at the same time will cause Ratchet, Field Medic's last ability to trigger that many times. However, it can convert only once when that happens. Once it has converted due to that triggered ability, the rest of the abilities will resolve and do nothing.
+  - *2022-10-14* — Ratchet, Field Medic's last ability doesn't require a target. If you convert Ratchet as it resolves, a second ability triggers and you choose a target for it. Players may respond to this new triggered ability as normal.
+  - *2022-10-14* — Similarly, an ability of another card that instructs you to "transform" one of these cards will cause you to convert it, even if that ability doesn't use the word "convert."
+  - *2022-10-14* — The convert keyword action functions the same way as the transform keyword action found on some other cards; to convert a permanent on the battlefield, turn it over so that its other face is up.
+  - *2022-10-14* — The cost is an alternative cost, so it can't be combined with any other alternative costs. It can be combined with any applicable additional costs.
+  - *2022-10-14* — The mana value of a converted permanent on the battlefield is equal to the mana value of the card's front face, no matter which face is up.
+  - *2022-10-14* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a More Than Meets the Eye cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of a spell cast using More Than Meets the Eye is determined by the mana cost on the front face of the card, no matter what the total cost to cast the spell was.
+  - *2022-10-14* — When you cast a spell using its More Than Meets the Eye ability, the card is put onto the stack with its back face up. The resulting spell has all characteristics of that face.
+  - *2022-10-14* — While it's a creature, the Vehicle has its printed power and toughness.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bot/2/ratchet-field-medic-ratchet-rescue-racer) · oracle_id `4f95664f-6113-41e6-a99e-12bfc9d1710a` · printing: BOT #2 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rat Colony
 
@@ -126,7 +151,9 @@
 - **Flavor text** (DOM printing):
   > *Wreckage from the Phyrexian Invasion provided the rats with a seemingly unlimited number of breeding grounds.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4675 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dom/101/rat-colony) · oracle_id `ec77d23b-0165-450d-9aae-73b755163753` · printing: DOM #101 (2018-04-27) · [rulings](https://api.scryfall.com/cards/4f618e07-f06f-45d2-8512-e6cef88c0434/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-07-26* — Rat Colony's last ability lets you ignore only the "four-of" rule. It doesn't let you ignore format legality. For example, during a Bloomburrow Limited event, you can't add Rat Colonies from your personal collection.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dom/101/rat-colony) · oracle_id `ec77d23b-0165-450d-9aae-73b755163753` · printing: DOM #101 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rathi Assassin
 
@@ -223,6 +250,7 @@
   > *"Every chessboard requires pawns. Tonight, my pawn, I'll find out just how strong you are."*
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9276 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmc/19/rat-king-pale-piper) · oracle_id `da359f85-7a11-4575-848d-642d1ae0ddbb` · printing: TMC #19 (2026-03-06) · [rulings](https://api.scryfall.com/cards/9b215ce4-a085-4627-99b1-f4f1344ad41b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rat King, Verminister
@@ -235,7 +263,9 @@
   > {T}, Sacrifice three Rats: Return target creature card and all other cards with the same name as that card from your graveyard to the battlefield tapped.
 - **Keywords:** Disappear
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7719 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/71/rat-king-verminister) · oracle_id `a5656dab-5ce6-48fd-9eae-2c06969bb8df` · printing: TMT #71 (2026-03-06) · [rulings](https://api.scryfall.com/cards/be464d88-8933-46e8-97b0-3be05f1976a3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-01-27* — Some disappear abilities, such as those of the above cards, are triggered abilities with intervening if clauses. If a permanent hasn't left the battlefield under your control that turn by the time the disappear ability would trigger, it won't trigger at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/71/rat-king-verminister) · oracle_id `a5656dab-5ce6-48fd-9eae-2c06969bb8df` · printing: TMT #71 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rat of God
 
@@ -257,7 +287,10 @@
   > As long as Ratonhnhaké꞉ton hasn't dealt damage yet, it has hexproof and can't be blocked.
   > Whenever Ratonhnhaké꞉ton deals combat damage to a player, create a 1/1 black Assassin creature token with menace. When you do, return target Equipment card from your graveyard to the battlefield, then attach it to that token.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8402 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/acr/62/ratonhnhak%C3%A9%EA%9E%89ton) · oracle_id `a37f8381-83a4-4b6b-8176-c90f6a61da74` · printing: ACR #62 (2024-07-05) · [rulings](https://api.scryfall.com/cards/2b16a212-602c-4839-9e34-fc5c5b0388f0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-07-05* — You don't choose a target for Ratonhnhaké:ton's last ability at the time it triggers. Rather, a second "reflexive" ability triggers when you create an Assassin token this way. You choose a target for that ability as it goes on the stack. Each player may respond to this triggered ability as normal.
+  - *2024-07-05* — You may target an Equipment card with the reflexive triggered ability that can't legally be attached to the Assassin token. If you do, it will enter the battlefield unattached.
+- **Source flags:** [Scryfall](https://scryfall.com/card/acr/62/ratonhnhak%C3%A9%EA%9E%89ton) · oracle_id `a37f8381-83a4-4b6b-8176-c90f6a61da74` · printing: ACR #62 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rat Out
 
@@ -346,4 +379,15 @@
   > When this creature is turned face up, add {G}{U}{R}.
 - **Keywords:** Morph
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6238 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/144/rattleclaw-mystic) · oracle_id `84c9d8b8-8dd9-41fc-a2b6-af1ffb9090f9` · printing: KTK #144 (2014-09-26) · [rulings](https://api.scryfall.com/cards/4fb6c2e0-eeaa-4d60-aab7-2b8c739a9278/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2014-09-20* — A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent, as well as Auras and Equipment that were attached to the permanent, aren't affected.
+  - *2014-09-20* — Although turning a face-down creature with morph face up doesn't use the stack, Rattleclaw Mystic's triggered ability does use the stack, and players can respond to that ability. Notably, you can't turn Rattleclaw Mystic face up while casting a spell or activating an ability. You'll need to turn Rattleclaw Mystic face up and have its triggered ability resolve before you can spend that mana.
+  - *2014-09-20* — Any time you have priority, you may turn the face-down creature face up by revealing what its morph cost is and paying that cost. This is a special action. It doesn't use the stack and can't be responded to. Only a face-down permanent can be turned face up this way; a face-down spell cannot.
+  - *2014-09-20* — At any time, you can look at a face-down spell or permanent you control. You can't look at face-down spells or permanents you don't control unless an effect instructs you to do so.
+  - *2014-09-20* — Because the permanent is on the battlefield both before and after it's turned face up, turning a permanent face up doesn't cause any enters-the-battlefield abilities to trigger.
+  - *2014-09-20* — If a face-down permanent leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or if the game ends.
+  - *2014-09-20* — Morph lets you cast a card face down by paying {3}, and lets you turn the face-down permanent face up any time you have priority by paying its morph cost.
+  - *2014-09-20* — The face-down spell has no mana cost and has a mana value of 0. When you cast a face-down spell, put it on the stack face down so no other player knows what it is, and pay {3}. This is an alternative cost.
+  - *2014-09-20* — When the spell resolves, it enters the battlefield as a 2/2 creature with no name, mana cost, creature types, or abilities. It's colorless and has a mana value of 0. Other effects that apply to the creature can still grant it any of these characteristics.
+  - *2014-09-20* — You must ensure that your face-down spells and permanents can easily be differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/144/rattleclaw-mystic) · oracle_id `84c9d8b8-8dd9-41fc-a2b6-af1ffb9090f9` · printing: KTK #144 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

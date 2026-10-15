@@ -115,6 +115,7 @@
   > *"Guess this is goodbye, City of Mako."*
   > *—Tifa Lockhart*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4286 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/195/reach-the-horizon) · oracle_id `14bc29ee-4f84-4e62-8ede-5741b99414c9` · printing: FIN #195 (2025-06-13) · [rulings](https://api.scryfall.com/cards/c25960e0-5779-4e20-89f3-03950ad9d91c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reach Through Mists
@@ -208,6 +209,7 @@
   > When this Aura leaves the battlefield, enchanted permanent's controller sacrifices it.
 - **Keywords:** Vanishing, Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9592 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/81/reality-acid) · oracle_id `232c297d-71b6-429f-99df-39a11dbcea40` · printing: TSR #81 (2021-03-19) · [rulings](https://api.scryfall.com/cards/a8510381-e05c-4cc4-98aa-c9327e18ec02/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reality Anchor
@@ -234,6 +236,7 @@
   > *Kaito grabbed the chip, hoping it held answers.*
 - **Keywords:** Affinity
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9227 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/75/reality-heist) · oracle_id `569da5d3-6af2-4021-a464-b30ebaaf6fa0` · printing: NEO #75 (2022-02-18) · [rulings](https://api.scryfall.com/cards/5bc954d7-322a-45b8-9e25-6e9a97fbde61/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reality Hemorrhage
@@ -270,7 +273,15 @@
   > Retrace (You may cast this card from your graveyard by discarding a land card in addition to paying its other costs.)
 - **Keywords:** Retrace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9510 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c18/25/reality-scramble) · oracle_id `afad2e76-4b53-4884-8f96-ba68b0808990` · printing: C18 #25 (2018-08-10) · [rulings](https://api.scryfall.com/cards/34337c23-5dad-4ea3-84e9-aae7e34b2b17/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2018-07-13* — Casting a card by using its retrace ability works just like casting any other spell, with two exceptions: You’re casting it from your graveyard rather than your hand, and you must discard a land card in addition to any other costs.
+  - *2018-07-13* — Casting a card with retrace from your graveyard follows the normal timing rules for its card type.
+  - *2018-07-13* — In most cases, at least one card in your library (the card you put on the bottom of your library) will share a card type with the target permanent. However, in some unusual situations, no cards in your library share a card type with the permanent (perhaps because the permanent was a token or its types were changed). In that case, you’ll reveal your entire library, put nothing onto the battlefield, and put the cards back in a random order.
+  - *2018-07-13* — Reality Scramble can target any permanent you own, including those another player controls. A token’s owner is the player who created it.
+  - *2018-07-13* — The target permanent’s last known existence on the battlefield is checked to determine its types.
+  - *2018-07-13* — When a retrace card you cast from your graveyard resolves or is countered, it’s put back into your graveyard. You may use the retrace ability to cast it again. If it’s your turn, you may do so before any other player may take actions to try to remove it from your graveyard.
+  - *2018-07-13* — You’ll stop as soon as you reveal a card that shares any card types with the target permanent. For example, if the target permanent is an artifact creature, you’ll stop as soon as you reveal a card that’s an artifact or a creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c18/25/reality-scramble) · oracle_id `afad2e76-4b53-4884-8f96-ba68b0808990` · printing: C18 #25 (2018-08-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reality Shift
 
@@ -395,7 +406,10 @@
   > {10}, {T}, Sacrifice Realmbreaker: Search your library for any number of Praetor cards, put them onto the battlefield, then shuffle.
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4243 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/263/realmbreaker-the-invasion-tree) · oracle_id `77398866-eebb-4091-b566-7726f8194a59` · printing: MOM #263 (2023-04-21) · [rulings](https://api.scryfall.com/cards/7b608134-cfc3-48bf-92d8-35d732fcde54/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-04-14* — In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, any lands you control from Realmbreaker's ability are exiled.
+  - *2023-04-14* — The land card you put onto the battlefield can be one that was just milled, or it can be one that was already in their graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/263/realmbreaker-the-invasion-tree) · oracle_id `77398866-eebb-4091-b566-7726f8194a59` · printing: MOM #263 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Realm-Cloaked Giant // Cast Off
 
@@ -407,7 +421,18 @@
   > Destroy all non-Giant creatures. (Then exile this card. You may cast the creature later from exile.)
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7243 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afc/70/realm-cloaked-giant-cast-off) · oracle_id `a1d17244-9c92-4094-9843-d7ee31c85ea4` · printing: AFC #70 (2021-07-23) · [rulings](https://api.scryfall.com/cards/d6fc6ed9-740a-4726-8f2c-5d662636f687/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2019-10-04* — An adventurer card is a permanent card in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it's in your graveyard, Giant Killer is a white creature card whose mana value is 1. It can't be the target of the triggered ability of Mystic Sanctuary.
+  - *2019-10-04* — Casting a card as an Adventure isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Adventure.
+  - *2019-10-04* — If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner's graveyard as it resolves. For as long as it remains exiled, that player may cast it as a permanent spell. If an Adventure spell leaves the stack in any way other than resolving (most likely by being countered or by failing to resolve because its targets have all become illegal), that card won't be exiled and the spell's controller won't be able to cast it as a permanent later.
+  - *2019-10-04* — If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won't give you permission to cast it as a permanent spell.
+  - *2019-10-04* — If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it's not possible to cast the copy as a permanent.
+  - *2019-10-04* — If an effect instructs you to choose a card name, you may choose the alternative Adventure name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2019-10-04* — If an object becomes a copy of an object that has an Adventure, the copy also has an Adventure. If it changes zones, it will either cease to exist (if it's a token) or cease to be a copy (if it's a nontoken permanent), and so you won't be able to cast it as an Adventure.
+  - *2019-10-04* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell. For example, if Giant Killer is exiled with the last ability of Vivien, Champion of the Wilds, you can't cast it as Chop Down.
+  - *2019-10-04* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+  - *2019-10-04* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afc/70/realm-cloaked-giant-cast-off) · oracle_id `a1d17244-9c92-4094-9843-d7ee31c85ea4` · printing: AFC #70 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Realm of Koh
 
@@ -420,7 +445,9 @@
 - **Flavor text** (TLA printing):
   > *Aang delved deep into the spiraling depths in search of wherever Koh called home.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5741 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/276/realm-of-koh) · oracle_id `bb9ce416-eef1-49e8-89a0-2b6837505070` · printing: TLA #276 (2025-11-21) · [rulings](https://api.scryfall.com/cards/061ac694-610c-479f-b038-a4ef5270d5d7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-10-02* — If one of these lands enters at the same time as any number of basic lands, those other lands are not counted when determining if this land enters tapped or untapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/276/realm-of-koh) · oracle_id `bb9ce416-eef1-49e8-89a0-2b6837505070` · printing: TLA #276 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Realm Razer
 
@@ -458,7 +485,10 @@
   > This creature enters with X +1/+1 counters on it, where X is the total number of cards in all players' hands.
   > {2}{G}, Remove a +1/+1 counter from this creature: Search your library for a land card, reveal it, put it into your hand, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9414 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c16/162/realm-seekers) · oracle_id `ccb66cdc-909a-42c1-a10f-3886e9ed1936` · printing: C16 #162 (2016-11-11) · [rulings](https://api.scryfall.com/cards/93167de6-cbce-4bd6-bc41-c35f54f28544/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-05-29* — If Realm Seekers enters the battlefield directly from a player's hand without being cast, it counts itself when determining the value of X.
+  - *2014-05-29* — The value of X is determined as Realm Seekers enters the battlefield. Players can cast spells and activate abilities while Realm Seekers is on the stack to remove cards from their hands if they wish, and this will result in fewer counters being placed on Realm Seekers as it enters the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c16/162/realm-seekers) · oracle_id `ccb66cdc-909a-42c1-a10f-3886e9ed1936` · printing: C16 #162 (2016-11-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Realms Uncharted
 
@@ -467,7 +497,9 @@
 - **Oracle text:**
   > Search your library for up to four land cards with different names and reveal them. An opponent chooses two of those cards. Put the chosen cards into your graveyard and the rest into your hand. Then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4215 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/roe/206/realms-uncharted) · oracle_id `e21c8fc6-d4ef-42b6-b11e-d9c931da1387` · printing: ROE #206 (2010-04-23) · [rulings](https://api.scryfall.com/cards/8967ceff-9e25-46da-926b-e05f4ee98325/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2010-06-15* — You may reveal fewer than four land cards if you like. If you reveal one or two cards, those cards are put into your graveyard. If you reveal three cards, an opponent will choose two of those cards and you’ll put them into your graveyard; the remaining revealed card is put into your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/roe/206/realms-uncharted) · oracle_id `e21c8fc6-d4ef-42b6-b11e-d9c931da1387` · printing: ROE #206 (2010-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Realmwalker
 
@@ -559,7 +591,9 @@
   > *"Avacyn has deserted you. I welcome your devotion in her stead."*
 - **Keywords:** Flying, Morbid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5834 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c14/159/reaper-from-the-abyss) · oracle_id `d3a50d73-3a1f-43aa-ab97-c6c0031bb734` · printing: C14 #159 (2014-11-07) · [rulings](https://api.scryfall.com/cards/0831a574-33c5-4ab2-b7f6-17db2829df51/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-09-22* — The morbid ability is mandatory. If you control the only non-Demon creature when the ability triggers, you must choose it as the target.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c14/159/reaper-from-the-abyss) · oracle_id `d3a50d73-3a1f-43aa-ab97-c6c0031bb734` · printing: C14 #159 (2014-11-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reaper King
 
@@ -573,7 +607,12 @@
 - **Flavor text** (SHM printing):
   > *It's harvest time.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8786 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/shm/260/reaper-king) · oracle_id `70034860-5198-421f-871d-7c1676337b6e` · printing: SHM #260 (2008-05-02) · [rulings](https://api.scryfall.com/cards/502740bf-0bff-4358-8996-1a27e5f0343f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2008-05-01* — A card with a monocolored hybrid mana symbol in its mana cost is each of the colors that appears in its mana cost, regardless of what mana was spent to cast it. Thus, Reaper King is all colors even if you spend ten colorless mana to cast it.
+  - *2008-05-01* — A card with monocolored hybrid mana symbols in its mana cost has a mana value equal to the highest possible cost it could be cast for. Its mana value never changes. Thus, Reaper King has a mana value of 10, even if you spend {W}{U}{B}{R}{G} to cast it.
+  - *2008-05-01* — If a cost includes more than one monocolored hybrid mana symbol, you can choose a different way to pay for each symbol. For example, you can pay for Reaper King by spending one mana of each color, {2} and one mana each of four different colors, {4} and one mana each of three different colors, {6} and one mana each of two different colors, {8} and one mana of any color, or {10}.
+  - *2008-05-01* — If an effect reduces the cost to cast a spell by an amount of generic mana, it applies to a monocolored hybrid spell only if you've chosen a method of paying for it that includes generic mana.
+- **Source flags:** [Scryfall](https://scryfall.com/card/shm/260/reaper-king) · oracle_id `70034860-5198-421f-871d-7c1676337b6e` · printing: SHM #260 (2008-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reaper of Flight Moonsilver
 
@@ -634,7 +673,12 @@
   > Death Sickle — Equip {2}
 - **Keywords:** Death Sickle, Job select, Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6910 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/48/reapers-scythe) · oracle_id `b0f7c2a9-914a-48c1-871c-6f72946d61d8` · printing: FIC #48 (2025-06-13) · [rulings](https://api.scryfall.com/cards/e1e53ff2-c321-4fc8-b4d7-eb253d670c5b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-06-06* — If the Hero token is destroyed, the Equipment stays on the battlefield.
+  - *2025-06-06* — If the job select ability causes two Hero tokens to be created (due to an effect such as that of Doubling Season), the Equipment becomes attached to only one of them.
+  - *2025-06-06* — The Hero token enters as a 1/1 creature, then the Equipment becomes attached to it. Abilities that trigger when a creature enters the battlefield see that a 1/1 creature entered the battlefield.
+  - *2025-06-06* — You may pay the Equipment's equip cost as normal to move it from the Hero token to another creature you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/48/reapers-scythe) · oracle_id `b0f7c2a9-914a-48c1-871c-6f72946d61d8` · printing: FIC #48 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reaper's Talisman
 
@@ -816,7 +860,10 @@
   > Crew 4 (Tap any number of creatures you control with total power 4 or more: This Vehicle becomes an artifact creature until end of turn.)
 - **Keywords:** Gatling Blaster, Void Shields, Protection, Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3091 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/40k/163/reaver-titan) · oracle_id `2951671b-ac01-4e65-857f-0b7b7c7478ce` · printing: 40K #163 (2022-10-07) · [rulings](https://api.scryfall.com/cards/dacc5e02-c21e-4a41-a704-5b87151a28c6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-10-07* — The protection ability means the following: - Reaver Titan can't be blocked by creatures with mana value 3 or less. - Reaver Titan can't be enchanted by Auras with mana value 3 or less. It also can't be equipped by Equipment with mana value 3 or less. - Reaver Titan can't be targeted by spells with mana value 3 or less. It also can't be targeted by abilities from sources with mana value 3 or less. - All damage that would be dealt to Reaver Titan by sources with mana value 3 or less is prevented.
+  - *2022-10-07* — While a spell with X in its cost is on the stack, its mana value takes the chosen value of X into account. Reaver Titan can be chosen as a target for a Light Up the Night (which has mana cost {X}{R}) if X is 3 or greater, for example, but it can't be chosen as a target for a Light Up the Night if X is 2, 1, or 0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/40k/163/reaver-titan) · oracle_id `2951671b-ac01-4e65-857f-0b7b7c7478ce` · printing: 40K #163 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reave Soul
 

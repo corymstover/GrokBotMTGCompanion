@@ -101,6 +101,7 @@
 - **Flavor text** (CLB printing):
   > *Every veteran adventurer will tell you to stick with your party, because the ones who split up aren't around to give advice.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8738 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/661/stick-together) · oracle_id `4abda0ad-0a2b-4bd9-81c7-56329e62311d` · printing: CLB #661 (2022-06-10) · [rulings](https://api.scryfall.com/cards/8d77a57a-e30b-46d7-acb8-1d164c7dff78/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sticky Fingers
@@ -113,6 +114,7 @@
   > When enchanted creature dies, draw a card.
 - **Keywords:** Treasure, Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1865 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/124/sticky-fingers) · oracle_id `fa8ddc13-5108-4fe9-b3aa-dc28df476f7b` · printing: SNC #124 (2022-04-29) · [rulings](https://api.scryfall.com/cards/3678fa3d-d41f-4b7a-b25e-6fc5f78876c7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sticky Kavu Daredevil
@@ -139,6 +141,7 @@
   > *Victory doesn't have to be close for him to taste it.*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9399 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/193/stickytongue-sentinel) · oracle_id `899f0931-4e9b-4fa8-9f6d-d13a7de05334` · printing: BLB #193 (2024-08-02) · [rulings](https://api.scryfall.com/cards/b5fa9651-b217-4f93-9c46-9bdb11feedcb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stifle
@@ -256,6 +259,7 @@
   > *"How about a three-piece combo of Hi-Potion, Ether, and Phoenix Pinion for 444 Gil?"*
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6878 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/34/stiltzkin-moogle-merchant) · oracle_id `958c2a27-9fb1-42b4-a0ef-296584763a98` · printing: FIN #34 (2025-06-13) · [rulings](https://api.scryfall.com/cards/06a972a4-0c1b-4f12-a5a5-fdea47c4cd35/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stimulus Package
@@ -464,7 +468,10 @@
 - **Flavor text** (C21 printing):
   > *Silverquill first-years welcome discomfort in the classroom, knowing it will prepare them for the years ahead.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3412 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c21/44/stinging-study) · oracle_id `115bc79e-a109-42d7-ac58-2ee8dc0a959f` · printing: C21 #44 (2021-04-23) · [rulings](https://api.scryfall.com/cards/b8840226-1693-44bc-a067-e50198c5e17e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-04-16* — If you own multiple commanders on the battlefield and/or in the command zone, you choose one of them as Stinging Study resolves to determine the value of X.
+  - *2021-04-16* — If your commander is under the control of another player as Stinging Study resolves, it is still on the battlefield and will still be used to determine the value of X.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c21/44/stinging-study) · oracle_id `115bc79e-a109-42d7-ac58-2ee8dc0a959f` · printing: C21 #44 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stinging Vitriol
 
@@ -527,6 +534,7 @@
   > Equip {2}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1639 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/250/sting-the-glinting-dagger) · oracle_id `973c49a1-8425-40b9-8bdc-2c2434222314` · printing: LTR #250 (2023-06-23) · [rulings](https://api.scryfall.com/cards/afbec7e7-f5b9-407e-bf96-2e088710e791/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stinkdrinker Bandit
@@ -564,7 +572,15 @@
   > Dredge 5 (If you would draw a card, you may mill five cards instead. If you do, return this card from your graveyard to your hand.)
 - **Keywords:** Flying, Dredge, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3154 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dvd/36/stinkweed-imp) · oracle_id `e005bc76-4985-4ec6-b9f6-cf6d0d9f5df4` · printing: DVD #36 (2014-12-05) · [rulings](https://api.scryfall.com/cards/2ab08d69-210b-4b06-88a2-45281a1a4e1e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2021-03-19* — Notably, Stinkweed Imp's ability isn't deathtouch. It's a triggered ability that triggers only on combat damage.
+  - *2024-01-12* — Dredge can replace any card draw, not only the one during your draw step.
+  - *2024-01-12* — If an effect puts a card into your hand without specifically using the word "draw," you're not drawing a card. Dredge can't replace this event.
+  - *2024-01-12* — If you're drawing multiple cards, each draw is performed one at a time. For example, if you're instructed to draw two cards and you replace the first draw with a dredge ability, another card with a dredge ability (including one that was milled by the first dredge ability) may be used to replace the second draw.
+  - *2024-01-12* — Once you've announced that you're applying a card's dredge ability to replace a draw, players can't take any actions until you've put that card into your hand and milled cards.
+  - *2024-01-12* — One card draw can't be replaced by multiple dredge abilities.
+  - *2024-01-12* — You can't attempt to use a dredge ability if you don't have enough cards in your library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dvd/36/stinkweed-imp) · oracle_id `e005bc76-4985-4ec6-b9f6-cf6d0d9f5df4` · printing: DVD #36 (2014-12-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stirge
 
@@ -634,7 +650,10 @@
   > *Though not all her students have wings, she's determined to help them reach new heights.*
 - **Keywords:** Flying, Lifelink, Repartee
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9905 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/35/stirring-hopesinger) · oracle_id `7244d04a-bb9c-4fbe-a346-4a3f45709da7` · printing: SOS #35 (2026-04-24) · [rulings](https://api.scryfall.com/cards/21375667-b318-47f8-a482-9c8c2b5b14c0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2026-03-20* — A repartee ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+  - *2026-03-20* — It doesn't matter if the creature or creatures targeted by the spell that caused the repartee ability to trigger leave the battlefield or stop being creatures before that spell resolves. As long as that spell targeted one or more creatures when it was cast, the repartee ability will trigger and later resolve.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/35/stirring-hopesinger) · oracle_id `7244d04a-bb9c-4fbe-a346-4a3f45709da7` · printing: SOS #35 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stirring Wildwood
 
@@ -645,7 +664,10 @@
   > {T}: Add {G} or {W}.
   > {1}{G}{W}: Until end of turn, this land becomes a 3/4 green and white Elemental creature with reach. It's still a land.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7476 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/uma/251/stirring-wildwood) · oracle_id `e900f211-dc8b-40f7-a217-1b1462b15c26` · printing: UMA #251 (2018-12-07) · [rulings](https://api.scryfall.com/cards/22f40dfc-a35d-4094-9805-0de8b7f61cb0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2010-03-01* — A land that becomes a creature may be affected by "summoning sickness." You can't attack with it or use any of its {T} abilities (including its mana abilities) unless it began your most recent turn on the battlefield under your control. Note that summoning sickness cares about when that permanent came under your control, not when it became a creature.
+  - *2010-03-01* — When a land becomes a creature, that doesn't count as having a creature enter. The permanent was already on the battlefield; it only changed its types. Abilities that trigger whenever a creature enters won't trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/uma/251/stirring-wildwood) · oracle_id `e900f211-dc8b-40f7-a217-1b1462b15c26` · printing: UMA #251 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stir the Grave
 
@@ -794,6 +816,7 @@
 - **Flavor text** (RVR printing):
   > *Quyzl was told by his mentor to "make more time" for his studies.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5166 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/229/stitch-in-time) · oracle_id `59b2a90e-542f-4fb0-b290-ac79dc2892a4` · printing: RVR #229 (2024-01-12) · [rulings](https://api.scryfall.com/cards/da3a311a-d2c2-4bd1-aa39-9e6f4eb51960/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stitch Together
@@ -805,7 +828,9 @@
   > Threshold — Return that card from your graveyard to the battlefield instead if there are seven or more cards in your graveyard.
 - **Keywords:** Threshold
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1611 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c18/119/stitch-together) · oracle_id `bc3d5911-3580-4132-9daf-2826495b5739` · printing: C18 #119 (2018-08-10) · [rulings](https://api.scryfall.com/cards/8423c98d-4cb6-4a70-8bf2-3ac24c025c4e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Checks the number of cards in your graveyard when it starts resolving. You may drop below seven cards during resolution, but that won't stop it from resolving.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c18/119/stitch-together) · oracle_id `bc3d5911-3580-4132-9daf-2826495b5739` · printing: C18 #119 (2018-08-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stitchwing Skaab
 

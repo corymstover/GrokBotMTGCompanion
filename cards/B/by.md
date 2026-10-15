@@ -29,7 +29,9 @@
   > *"Dissent? Your gods can't even begin to comprehend the dissent that's about to happen here!"*
   > *—Chandra Nalaar*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6996 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/akh/123/by-force) · oracle_id `7ce950fb-e065-45d3-aeff-f8c475460754` · printing: AKH #123 (2017-04-28) · [rulings](https://api.scryfall.com/cards/66cdfdb2-b47f-446d-9850-8581bd1d806c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-01-19* — There are many important moments in the story, but the most crucial—called “story spotlights”—are shown on cards. These cards have the Planeswalker symbol in their text box; this symbol has no effect on gameplay. You can read more about these events in the official Magic fiction at http://www.mtgstory.com.
+- **Source flags:** [Scryfall](https://scryfall.com/card/akh/123/by-force) · oracle_id `7ce950fb-e065-45d3-aeff-f8c475460754` · printing: AKH #123 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### By Gnome Means
 
@@ -53,7 +55,12 @@
   > Whenever you cast a creature spell with mana value 3 or less, investigate. (Create a Clue token. It's an artifact with "{2}, Sacrifice this token: Draw a card.")
 - **Keywords:** Flying, Investigate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7595 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/689/bygone-bishop) · oracle_id `a47d9ea3-95fe-4774-8e72-30e7f56756f4` · printing: CLB #689 (2022-06-10) · [rulings](https://api.scryfall.com/cards/cf879fc7-9f84-40a7-a7be-9cc98a720af5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2016-04-08* — Casting a spell for an alternative cost, such as a madness cost, doesn't change its mana value. For example, casting Twins of Maurer Estate (a card with mana cost {4}{B} and madness cost {2}{B}) for its madness cost will not cause Bygone Bishop's ability to trigger.
+  - *2016-04-08* — Clue is an artifact type. Even though it appears on some cards with other permanent types, it's never a creature type, a land type, or anything but an artifact type.
+  - *2016-04-08* — If an effect refers to a Clue, it means any Clue artifact, not just a Clue artifact token. For example, you can sacrifice Wrench to pay for Alquist Proft, Master Sleuth's activated ability.
+  - *2016-04-08* — You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/689/bygone-bishop) · oracle_id `a47d9ea3-95fe-4774-8e72-30e7f56756f4` · printing: CLB #689 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bygone Colossus
 
@@ -66,6 +73,7 @@
   > *The Edge is littered with the vestiges of civilizations annihilated by the Eldrazi.*
 - **Keywords:** Warp
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4103 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/235/bygone-colossus) · oracle_id `1bd584d5-4e11-428c-b51e-462e4292b07f` · printing: EOE #235 (2025-08-01) · [rulings](https://api.scryfall.com/cards/4bb8f2ef-4398-4a07-9130-5005356a3b4a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bygone Marvels
@@ -77,7 +85,11 @@
   > Return target permanent card from your graveyard to your hand. Exile Bygone Marvels.
 - **Keywords:** Descend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9594 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/89/bygone-marvels) · oracle_id `494dc919-e429-491b-b19b-5037499e2dd6` · printing: LCC #89 (2023-11-17) · [rulings](https://api.scryfall.com/cards/3cc95fd4-901e-4a96-9c20-9e8ecf5cfb7c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-11-10* — Cards with the ability word "descend N" have abilities that care if you have at least N permanent cards in your graveyard.
+  - *2023-11-10* — Some descend triggered abilities include intervening "if" clauses (i.e. "if you have [four or eight] permanent cards in your graveyard" in the middle of the ability). Each of these abilities checks your graveyard at the moment it would trigger to see if it does. If you don't have the required number of permanent cards in your graveyard at that time, the ability doesn't trigger at all. If it does trigger, it will check again as it tries to resolve. If you don't have the required number of permanent cards in your graveyard at that time, the ability won't resolve and none of its effects will happen.
+  - *2023-11-10* — The triggered ability will resolve before Bygone Marvels does. If Bygone Marvels is countered in response to its own triggered ability, you will still copy Bygone Marvels twice.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/89/bygone-marvels) · oracle_id `494dc919-e429-491b-b19b-5037499e2dd6` · printing: LCC #89 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### By Invitation Only
 
@@ -88,7 +100,11 @@
 - **Flavor text** (VOW printing):
   > *The red envelopes guarantee safe passage through the Lurenbraum barrier. Olivia left strict instructions: no invitation, no entry, no exceptions.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9103 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/vow/5/by-invitation-only) · oracle_id `d64e96bf-6815-462c-93b4-c9c22dc43eda` · printing: VOW #5 (2021-11-19) · [rulings](https://api.scryfall.com/cards/46764e49-64da-4a94-b61c-75e006b2c5a9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-11-19* — If a player controls fewer than the chosen number of creatures, they will sacrifice all their creatures.
+  - *2021-11-19* — Starting with the player whose turn it is, each player in turn order chooses which creatures they will sacrifice, then all the creatures chosen by all players are sacrificed at the same time. Players get to know the choices made by players who chose before them.
+  - *2021-11-19* — The numbers you may choose include 0 and 13.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vow/5/by-invitation-only) · oracle_id `d64e96bf-6815-462c-93b4-c9c22dc43eda` · printing: VOW #5 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Byode, Inverse Sun
 
@@ -114,7 +130,9 @@
   > Whenever a creature you control with a +1/+1 counter on it attacks, double the number of +1/+1 counters on it.
 - **Keywords:** Vigilance, Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6013 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/380/byrke-long-ear-of-the-law) · oracle_id `e9c6e4e6-0c3f-4048-93e6-161a1221ea36` · printing: BLB #380 (2024-08-02) · [rulings](https://api.scryfall.com/cards/6441abd3-320b-424a-9753-61e3581fe1a9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-07-26* — To double the number of +1/+1 counters on a creature, put a number of +1/+1 counters on it equal to the number it already has. Replacement effects that modify the number of counters being placed on creatures you control, such as the effect of Branching Evolution, apply to this ability as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/380/byrke-long-ear-of-the-law) · oracle_id `e9c6e4e6-0c3f-4048-93e6-161a1221ea36` · printing: BLB #380 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Byway Barterer
 

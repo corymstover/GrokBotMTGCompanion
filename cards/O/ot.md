@@ -76,7 +76,10 @@
 - **Flavor text** (LCC printing):
   > *"Forward! Let the Burning Sun's light guide you to deserving prey!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3138 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/229/otepec-huntmaster) · oracle_id `41623eab-38b5-4058-8de2-e6b8706de7a2` · printing: LCC #229 (2023-11-17) · [rulings](https://api.scryfall.com/cards/00a87f71-8dbe-44e1-b69b-a03f6ab62055/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-09-29* — To determine the total cost of a Dinosaur spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the creature remains unchanged, no matter what the total cost to cast it was.
+  - *2018-01-19* — If an effect refers to a "[subtype] spell" or "[subtype] card," it refers only to a spell or card that has that subtype. For example, March of the Drowned is a card that benefits Pirates and features Pirates in its illustration, but it isn't a Pirate card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/229/otepec-huntmaster) · oracle_id `41623eab-38b5-4058-8de2-e6b8706de7a2` · printing: LCC #229 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Otharri, Suns' Glory
 
@@ -89,7 +92,9 @@
   > {2}{R}{W}, Tap an untapped Rebel you control: Return this card from your graveyard to the battlefield tapped.
 - **Keywords:** Flying, Lifelink, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2970 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/plst/ONC-3/otharri-suns-glory) · oracle_id `b081352b-d17b-4031-bbcc-c5c02cbfa6b6` · printing: PLST #ONC-3 (2026-10-19) · [rulings](https://api.scryfall.com/cards/89b4491d-154d-46e2-84c2-afa4596e2b13/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-02-04* — Tapping a Rebel you control is part of the cost to activate the last ability of Otharri, Suns' Glory while it is in the graveyard. Once a player has begun to activate the ability, other players may not respond by removing that Rebel from the battlefield to prevent it from being tapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/plst/ONC-3/otharri-suns-glory) · oracle_id `b081352b-d17b-4031-bbcc-c5c02cbfa6b6` · printing: PLST #ONC-3 (2026-10-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Othelm, Sigardian Outcast
 
@@ -114,6 +119,7 @@
   > *"Any fool can open it. But it takes a genius to decipher the blank pages."*
   > *—Kordel the Cryptic*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7059 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/avr/219/otherworld-atlas) · oracle_id `8d907a1b-f301-46a3-aa1c-25fb7f29c949` · printing: AVR #219 (2012-05-04) · [rulings](https://api.scryfall.com/cards/46e4aa67-4643-42ff-8172-200498686494/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Otherworldly Escort
@@ -138,7 +144,15 @@
   > Flashback {1}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Surveil, Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2493 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/122/otherworldly-gaze) · oracle_id `be668c2d-71ea-4346-8980-1fbf5e4cbed3` · printing: DSC #122 (2024-09-27) · [rulings](https://api.scryfall.com/cards/40bafd2b-acd4-46f0-abb2-139e2918ae99/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2024-01-12* — When you surveil, you may put all the cards you look at back on top of your library, you may put all of those cards into your graveyard, or you may put some of those cards on top and the rest of them into your graveyard.
+  - *2025-06-06* — "Flashback [cost]" means "You may cast this card from your graveyard if the resulting spell is an instant or sorcery spell by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2025-06-06* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2025-06-06* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2025-06-06* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2025-06-06* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/122/otherworldly-gaze) · oracle_id `be668c2d-71ea-4346-8980-1fbf5e4cbed3` · printing: DSC #122 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Otherworldly Journey
 
@@ -150,7 +164,11 @@
   > *"The landscape shimmered and I felt a chill breeze. When my vision cleared, I found myself alone among the corpses of my fallen friends."*
   > *—Journal found in Numai*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8624 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mm2/30/otherworldly-journey) · oracle_id `4a080242-412d-4968-ad57-2667dab977f5` · printing: MM2 #30 (2015-05-22) · [rulings](https://api.scryfall.com/cards/5cd220e4-2e2a-437e-aa4e-1007247c8e4d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-12-01* — The creature comes back onto the battlefield as a new creature, with one +1/+1 counter on it (plus any other counters that it would normally enter with).
+  - *2005-08-01* — Any Aura attached to the creature is put into its owner's graveyard as a state-based action. Equipment attached to the creature become unattached but remain on the battlefield.
+  - *2005-08-01* — If Otherworldly Journey is cast during an end step, the creature won't return until the beginning of the next end step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mm2/30/otherworldly-journey) · oracle_id `4a080242-412d-4968-ad57-2667dab977f5` · printing: MM2 #30 (2015-05-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Otherworldly Outburst
 
@@ -185,6 +203,7 @@
   > Flashback {3}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9416 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/63/otterball-antics) · oracle_id `43a6de3e-152e-4af1-acec-53405742425c` · printing: BLB #63 (2024-08-02) · [rulings](https://api.scryfall.com/cards/3ff83ff7-e428-4ccc-8341-f223dab76bd1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Otter-Penguin

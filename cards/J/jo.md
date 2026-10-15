@@ -109,7 +109,11 @@
   > *—Arkol, Argivian scholar*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5723 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/233/jodah-archmage-eternal) · oracle_id `8be4745e-36d8-430f-945e-c8a7fde9b4f6` · printing: 2X2 #233 (2022-07-08) · [rulings](https://api.scryfall.com/cards/73c18cb4-96b1-4af2-912e-974e22877ede/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-04-27* — If you apply Jodah's alternative cost to a spell with {X} in its mana cost, X is 0.
+  - *2018-04-27* — If you cast a spell for which mana may be spent as though it were mana of any color, you may cast it for Jodah's alternative cost and still spend mana as though it were mana of any color.
+  - *2018-04-27* — Jodah's ability is an alternative cost to cast a spell. You can't combine this with other alternative costs, such as flashback. You can pay additional costs, such as kicker, in addition to this alternative cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/233/jodah-archmage-eternal) · oracle_id `8be4745e-36d8-430f-945e-c8a7fde9b4f6` · printing: 2X2 #233 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jodah's Avenger
 
@@ -143,7 +147,18 @@
   > Legendary creatures you control get +X/+X, where X is the number of legendary creatures you control.
   > Whenever you cast a legendary spell from your hand, exile cards from the top of your library until you exile a legendary nonland card with lesser mana value. You may cast that card without paying its mana cost. Put the rest on the bottom of your library in a random order.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2876 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/203/jodah-the-unifier) · oracle_id `490a8045-e160-4ccf-a05e-658ad2b7ac2d` · printing: DMU #203 (2022-09-09) · [rulings](https://api.scryfall.com/cards/e4b1aa1e-b4e3-4346-8937-76b312501c70/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2022-09-09* — Both Jodah, the Unifier’s triggered ability and the spell cast with that ability resolve before the spell that caused the ability to trigger, even if the original spell was countered in response.
+  - *2022-09-09* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2022-09-09* — If the legendary nonland card exiled this way is a modal double-faced card, and the back face is also a nonland card face, you may cast either face, even if the back face isn’t legendary.
+  - *2022-09-09* — If you cast a spell “without paying its mana cost,” you can’t choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those to cast the spell.
+  - *2022-09-09* — If you choose not to cast the card, it remains in exile. The rest of the cards will be put on the bottom of your library in a random order.
+  - *2022-09-09* — If you exile your entire library without exiling a legendary nonland card with lesser mana value, you will randomize the exiled cards and they again become your library, ending the effect. You will not continue to exile and shuffle your library forever.
+  - *2022-09-09* — The legendary nonland card exiled may be cast immediately. If you do not cast it immediately, you don’t get to cast it at a later time.
+  - *2022-09-09* — The mana value of the spell that caused the ability to trigger is determined only by its mana cost, no matter what the total cost to cast the spell was. If that spell had an {X} in its cost, include the chosen value for X when determining its mana value.
+  - *2022-09-09* — The types and mana value of a double-faced card in exile are determined by the characteristics of its front face. The mana value of a split card is the total mana value of both halves of the split card added together.
+  - *2022-09-09* — You exile the cards face up. All players will be able to see them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/203/jodah-the-unifier) · oracle_id `490a8045-e160-4ccf-a05e-658ad2b7ac2d` · printing: DMU #203 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Joel, Resolute Survivor
 
@@ -244,7 +259,24 @@
   > You and target opponent each draw three cards.
 - **Keywords:** First strike, Prepared
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7033 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/23/joined-researchers-secret-rendezvous) · oracle_id `ec744a2d-4a33-4807-bce0-d95cd5277b1f` · printing: SOS #23 (2026-04-24) · [rulings](https://api.scryfall.com/cards/1ebaafe0-3a9a-424c-8698-d26e7be45343/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (16):
+  - *2026-03-20* — A creature with a prepare spell can't become prepared more than once at the same time. For example, Emeritus of Ideation is on the battlefield and is prepared. When it attacks, its last ability triggers. When that ability resolves, its controller may still exile eight cards from their graveyard, but doing so won't cause Emeritus of Ideation to become prepared a second time or create a second copy of Ancestral Recall in exile.
+  - *2026-03-20* — A creature without a prepare spell can't become prepared.
+  - *2026-03-20* — A preparation card is a creature card in every zone. For example, while it's in your graveyard, Emeritus of Ideation is a blue creature whose mana value is 5. It can't be the target of Zealous Lorecaster's triggered ability ("When this creature enters, return target instant or sorcery card from your graveyard to your hand.").
+  - *2026-03-20* — As an effect causes a creature with a prepare spell to become prepared (including effects that state that a creature "enters prepared"), that creature's controller creates a copy of that creature's prepare spell in exile. That copy remains in exile for as long as that permanent is on the battlefield and is prepared. That creature's controller may cast that copy as long as it remains in exile. As they cast it, that creature stops being prepared.
+  - *2026-03-20* — Being prepared isn't a copiable value. If a permanent becomes a copy of a prepared creature, it won't be prepared. That permanent will have the alternative characteristics, though, and some other effect could cause it to become prepared later.
+  - *2026-03-20* — Casting a copy of a prepare spell from exile isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to a copy of a prepare spell cast from exile.
+  - *2026-03-20* — Creating a copy of a creature's prepare spell in exile ignores copy exceptions applied to that creature that would affect the copiable values of that spell. For example, say a player casts Croaking Counterpart (a sorcery that says "Create a token that's a copy of target non-Frog creature, except it's a 1/1 green Frog.") targeting Goblin Glasswright. The token copy of Goblin Glasswright will enter prepared as a 1/1 green Frog creature, but the copy of Craft with Pride in exile will still be a red sorcery. The copy of Craft with Pride won't be green, a creature, or a Frog, and it won't have power or toughness.
+  - *2026-03-20* — If a prepare spell with one or more targets has no legal targets when it tries to resolve, it won't resolve and none of its effects will happen. Since the spell was cast, the associated permanent will still not be prepared.
+  - *2026-03-20* — If a prepared creature loses all abilities, it won't stop being prepared, and nothing will happen to its alternative characteristics or to the copy of its prepare spell in exile.
+  - *2026-03-20* — If a prepared creature stops being a creature, it will still be prepared, and the copy of its prepare spell will remain in exile. That permanent's controller will still be able to cast it. The same is true if a prepared creature becomes a copy of something else, even if it's then a permanent without a prepare spell.
+  - *2026-03-20* — If an effect causes a creature to become unprepared, a prepared creature stops being prepared and the associated copy of its prepare spell in exile ceases to exist. If it wasn't prepared at that time, nothing happens.
+  - *2026-03-20* — If an effect instructs you to choose a card name, you may choose the alternative prepare spell's name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2026-03-20* — Joined Researchers's last ability will check as each end step starts to see if an opponent has more cards in hand than you. If none do, the ability won't trigger at all. It's not possible to discard cards or cause an opponent to draw cards during an end step in time to have the ability trigger. If it does trigger, the ability will check again as it tries to resolve. If no opponent has more cards in hand than you at that time, the ability won't resolve and none of its effects will happen.
+  - *2026-03-20* — Only the current controller of a prepared creature can cast the copy of its prepare spell in exile. It doesn't matter who owns that creature or who controlled it when it became prepared.
+  - *2026-03-20* — Preparation cards can only be cast with their base characteristics.
+  - *2026-03-20* — While copies of spells in zones other than the stack cease to exist when state-based actions are checked, this does not apply to copies of prepare spells in exile that were created as a creature became prepared.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/23/joined-researchers-secret-rendezvous) · oracle_id `ec744a2d-4a33-4807-bce0-d95cd5277b1f` · printing: SOS #23 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Joiner Adept
 
@@ -304,7 +336,14 @@
   > *The Tolarians had the maps, but only the Yavimayans knew how to read them.*
 - **Keywords:** Kicker, Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5068 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/56/joint-exploration) · oracle_id `9eba1789-6e58-4d78-8a0d-b54a8be76ec5` · printing: DMU #56 (2022-09-09) · [rulings](https://api.scryfall.com/cards/b25ab334-1060-457e-b212-3d7a697c545e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/56/joint-exploration) · oracle_id `9eba1789-6e58-4d78-8a0d-b54a8be76ec5` · printing: DMU #56 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Join the Dance
 
@@ -406,6 +445,7 @@
   > *"So, are we doing this the easy way or the fun way?"*
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9659 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/210/jolene-plundering-pugilist) · oracle_id `fb8efd6e-b8f8-4da8-ac65-5b745c02d2bb` · printing: OTJ #210 (2024-04-19) · [rulings](https://api.scryfall.com/cards/fe30b5c8-4889-4350-bb1d-3e2a67d9dfb2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jolene, the Plunder Queen
@@ -419,6 +459,7 @@
   > Sacrifice five Treasures: Put five +1/+1 counters on Jolene.
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4714 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/73/jolene-the-plunder-queen) · oracle_id `8215f4a2-7131-426b-ad9c-6427caabd715` · printing: NCC #73 (2022-04-29) · [rulings](https://api.scryfall.com/cards/61c217d9-21d5-45ef-938a-138192a901f4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jolly Gerbils
@@ -456,7 +497,12 @@
 - **Flavor text** (MKC printing):
   > *"Humans bring nothing but suffering and deceit. They are not welcome in my forest."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2989 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/173/jolrael-mwonvuli-recluse) · oracle_id `f8640899-2458-40f2-98a3-35c402ee9a7a` · printing: MKC #173 (2024-02-09) · [rulings](https://api.scryfall.com/cards/188f9016-275f-4060-8b11-9cdeef3759bd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-12-08* — Effects that modify an affected creature's power and/or toughness without setting them to specific values will apply no matter when those effects began. The same is true for counters that change the creature's power and/or toughness.
+  - *2022-12-08* — Jolrael's last ability overwrites all previous effects that set the affected creatures' power and/or toughness to specific values. If other effects that set these characteristics to specific values start to apply after Jolrael's ability resolves, they will overwrite that part of the effect.
+  - *2022-12-08* — The triggered ability can trigger only once each turn. It doesn't matter if Jolrael was on the battlefield when the first card was drawn: if it's not on the battlefield when the second card is drawn, the ability can't trigger at all that turn.
+  - *2022-12-08* — The value of X is determined only as Jolrael's last ability resolves. Once that happens, the value of X won't change later in the turn even if the number of cards in your hand changes.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/173/jolrael-mwonvuli-recluse) · oracle_id `f8640899-2458-40f2-98a3-35c402ee9a7a` · printing: MKC #173 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jolrael's Centaur
 
@@ -521,7 +567,18 @@
   > Cycling {2} ({2}, Discard this card: Draw a card.)
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6508 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/33/jolted-awake) · oracle_id `4306a9e5-6845-4fd4-96ad-8888147612aa` · printing: MH3 #33 (2024-06-14) · [rulings](https://api.scryfall.com/cards/f773a79f-ad0f-45c9-bcf5-44ba5e992729/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2024-06-07* — Energy counters are a kind of counter that a player may have. They're not associated with any specific permanents.
+  - *2024-06-07* — Energy counters aren't mana. They don't go away as steps, phases, and turns end, and effects that add mana "of any type" can't give you energy counters.
+  - *2024-06-07* — If a card in your graveyard has {X} in its mana cost, X is 0 when determining its mana value.
+  - *2024-06-07* — If a spell or ability with one or more targets states that you "may pay" some amount of {E}, and each permanent that it targets has become an illegal target, the spell or ability won't resolve. You can't pay any {E} even if you want to.
+  - *2024-06-07* — If an effect says you get one or more {E}, you get that many energy counters. To pay one or more {E}, you lose that many energy counters. You can't pay more energy counters than you have. Any effects that interact with counters a player gets, has, or loses can interact with energy counters.
+  - *2024-06-07* — Keep track of how many energy counters each player has. Potential ways to track this include writing theme down on paper or using dice, but any method that is clear and mutually agreeable is fine. (At higher levels of tournament play, dice may not be allowed for tracking counters that players have.)
+  - *2024-06-07* — Some spells and abilities that give you {E} may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't get any {E}.
+  - *2024-06-07* — Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
+  - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
+  - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/33/jolted-awake) · oracle_id `4306a9e5-6845-4fd4-96ad-8888147612aa` · printing: MH3 #33 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jolting Merfolk
 
@@ -545,7 +602,10 @@
   > Whenever a creature you own but don't control attacks, you draw a card.
 - **Keywords:** Goad
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7617 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/278/jon-irenicus-shattered-one) · oracle_id `c5c19d6e-16d5-4d24-be2d-c63646bdf00c` · printing: CLB #278 (2022-06-10) · [rulings](https://api.scryfall.com/cards/bfddb61e-986f-4557-819d-d6c0ca85c74a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-06-10* — A token's owner is the player who created it.
+  - *2022-06-10* — When Jon Irenicus's first ability resolves, the opponent will gain control of a creature and that creature will immediately gain “This creature can't be sacrificed” as part of the resolution of the ability. There is no window of opportunity for that player to sacrifice that creature before it gains the ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/278/jon-irenicus-shattered-one) · oracle_id `c5c19d6e-16d5-4d24-be2d-c63646bdf00c` · printing: CLB #278 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Joo Dee, One of Many
 
@@ -623,7 +683,14 @@
   > Elves you control have "{T}: Add {G}{G}."
 - **Keywords:** Level Up
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4216 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/roe/190/joraga-treespeaker) · oracle_id `a011aefe-5853-4435-b686-179e931ba897` · printing: ROE #190 (2010-04-23) · [rulings](https://api.scryfall.com/cards/1132218d-56cd-441e-9006-df3c50344491/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2010-06-15* — A creature’s level is based on how many level counters it has on it, not how many times its level up ability has been activated or has resolved. If a leveler gets level counters due to some other effect (such as Clockspinning) or loses level counters for some reason (such as Vampire Hexmage), its level is changed accordingly.
+  - *2010-06-15* — Effects that modify a leveler’s power or toughness, such as the effects of Giant Growth or Glorious Anthem, will apply to it no matter when they started to take effect. The same is true for counters that change the creature’s power or toughness (such as +1/+1 counters) and effects that switch its power and toughness.
+  - *2010-06-15* — Effects that set a leveler’s power or toughness to a specific value, including the effects from a level symbol’s ability, apply in timestamp order. The timestamp of each level symbol’s ability is the same as the timestamp of the leveler itself, regardless of when the most recent level counter was put on it.
+  - *2010-06-15* — If Joraga Treespeaker is level 5 or greater, it grants the mana ability to each Elf you control, including itself.
+  - *2010-06-15* — If another creature becomes a copy of a leveler, all of the leveler’s printed abilities — including those represented by level symbols — are copied. The current characteristics of the leveler, and the number of level counters on it, are not. The abilities, power, and toughness of the copy will be determined based on how many level counters are on the copy.
+  - *2010-06-15* — The abilities a leveler grants to itself don’t overwrite any other abilities it may have. In particular, they don’t overwrite the creature’s level up ability; it always has that.
+- **Source flags:** [Scryfall](https://scryfall.com/card/roe/190/joraga-treespeaker) · oracle_id `a011aefe-5853-4435-b686-179e931ba897` · printing: ROE #190 (2010-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Joraga Visionary
 
@@ -648,7 +715,15 @@
   > Other Elf creatures you control get +1/+1 for each +1/+1 counter on this creature.
 - **Keywords:** Multikicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4447 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cma/120/joraga-warcaller) · oracle_id `8959a147-75b1-4f4a-a699-cb354ff55e59` · printing: CMA #120 (2017-06-09) · [rulings](https://api.scryfall.com/cards/fa125071-ced8-4ccc-bbff-a2cbff13b9d2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2010-03-01* — The last ability counts the total number of +1/+1 counters on Joraga Warcaller, not just the ones placed on it as a result of its "enters" ability.
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cma/120/joraga-warcaller) · oracle_id `8959a147-75b1-4f4a-a699-cb354ff55e59` · printing: CMA #120 (2017-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jori En, Ruin Diver
 
@@ -660,7 +735,10 @@
 - **Flavor text** (DDS printing):
   > *"Some relic hunters have given up exploring and gone to fight the Eldrazi. But I know our work is more important than ever. The secrets we uncover could lead to the world's salvation."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4818 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dds/23/jori-en-ruin-diver) · oracle_id `4cd9b48e-5774-4a1c-857f-9f4a92db9b41` · printing: DDS #23 (2017-03-31) · [rulings](https://api.scryfall.com/cards/40c020f2-5809-4aa6-a6f5-6030568058aa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2016-01-22* — Jori En must be on the battlefield in order for the ability to function. Notably, the ability won’t trigger if Jori En is the second spell you cast in a turn.
+  - *2016-01-22* — Jori En’s ability can trigger only once each turn. The ability will resolve before the second spell resolves. It doesn’t matter if the first spell you cast that turn has resolved, was countered, or is still on the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dds/23/jori-en-ruin-diver) · oracle_id `4cd9b48e-5774-4a1c-857f-9f4a92db9b41` · printing: DDS #23 (2017-03-31) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jor Kadeen, First Goldwarden
 
@@ -672,7 +750,9 @@
   > Whenever Jor Kadeen attacks, it gets +X/+X until end of turn, where X is the number of equipped creatures you control. Then if Jor Kadeen's power is 4 or greater, draw a card.
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9677 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/203/jor-kadeen-first-goldwarden) · oracle_id `967897db-a34b-493c-bd48-04e2650902d2` · printing: ONE #203 (2023-02-10) · [rulings](https://api.scryfall.com/cards/e7e4d8f7-874d-4b2a-ad23-afab479784ea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-02-04* — The value of X is determined only once, as the triggered ability resolves. If the number of equipped creatures you control changes after that time, it won't change the bonus granted.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/203/jor-kadeen-first-goldwarden) · oracle_id `967897db-a34b-493c-bd48-04e2650902d2` · printing: ONE #203 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jor Kadeen, the Prevailer
 
@@ -686,6 +766,7 @@
   > *"As long as my hand holds a blade, there's hope for a pure Mirrodin once again."*
 - **Keywords:** Metalcraft, First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9246 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/220/jor-kadeen-the-prevailer) · oracle_id `7c4dbaa8-e24f-4126-81fe-3f218f520d8c` · printing: C21 #220 (2021-04-23) · [rulings](https://api.scryfall.com/cards/576d86b5-2541-4ebc-8992-73248af7c805/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jorn, God of Winter // Kaldring, the Rimestaff
@@ -731,7 +812,18 @@
   > Flying, lifelink
 - **Keywords:** Flying, Lifelink, Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3744 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/229/joshua-phoenixs-dominant-phoenix-warden-of-fire) · oracle_id `f4629329-a79b-4460-a1bc-9ae0f59adf5a` · printing: FIN #229 (2025-06-13) · [rulings](https://api.scryfall.com/cards/457fdbb9-5439-460f-8e37-176f8919362c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2025-06-06* — A nonmodal double-faced card enters with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed or allows you to cast it transformed, in which case it enters with its back face up.
+  - *2025-06-06* — A token that is created as a copy of a double-faced permanent or a double-faced card in another zone is a double-faced token. It will have both the front face and back face of whatever object it's copying. If it's copying a double-faced permanent whose back face is up, the token will enter with its back face up. It can transform if instructed to do so.
+  - *2025-06-06* — Each face of a nonmodal double-faced card has its own set of characteristics: name, types, subtypes, abilities, and so on. While a nonmodal double-faced permanent is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored.
+  - *2025-06-06* — Each nonmodal double-faced card in this release is cast face up. In every zone other than the battlefield, consider only the characteristics of its front face. If it is on the battlefield, consider only the characteristics of the face that's up; the other face's characteristics are ignored.
+  - *2025-06-06* — If a card in your graveyard has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
+  - *2025-06-06* — If you are instructed to put a card that isn't a double-faced card onto the battlefield transformed, it will not enter at all. In that case, it stays in the zone it was previously in. For example, if a single-faced card is a copy of Crystal Fragments, it will be exiled during the resolution of its second ability and remain in exile.
+  - *2025-06-06* — In the Commander variant, a double-faced card's color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered. For example, Cecil, Dark Knight's color identity is black and white, since its front face is black and its back face has a white color indicator.
+  - *2025-06-06* — The back face of a nonmodal double-faced card usually has a color indicator that defines its color.
+  - *2025-06-06* — The mana value of a nonmodal double-faced card is the mana value of its front face, no matter which face is up.
+  - *2025-06-06* — You can choose to discard no cards when Joshua's first ability resolves. If you do, you won't draw any cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/229/joshua-phoenixs-dominant-phoenix-warden-of-fire) · oracle_id `f4629329-a79b-4460-a1bc-9ae0f59adf5a` · printing: FIN #229 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Josu Vess, Lich Knight
 
@@ -744,7 +836,14 @@
   > When Josu Vess enters, if he was kicked, create eight 2/2 black Zombie Knight creature tokens with menace.
 - **Keywords:** Menace, Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7300 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/253/josu-vess-lich-knight) · oracle_id `974a46f9-aa84-4b34-bee5-c635166e5841` · printing: MOC #253 (2023-04-21) · [rulings](https://api.scryfall.com/cards/30553f61-6edf-4e7b-b60f-b8f62ca2bcad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/253/josu-vess-lich-knight) · oracle_id `974a46f9-aa84-4b34-bee5-c635166e5841` · printing: MOC #253 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jötun Grunt
 
@@ -803,7 +902,9 @@
   > Entwine {2}{G} (Choose both if you pay the entwine cost.)
 - **Keywords:** Entwine
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9635 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mrd/123/journey-of-discovery) · oracle_id `1c586d8a-9d1a-48a7-bb3e-9b2c0c329f8d` · printing: MRD #123 (2003-10-02) · [rulings](https://api.scryfall.com/cards/a3f4356f-8cfb-43ed-bdf9-6191bb563388/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-12-01* — If you cast an entwined Journey of Discovery using Vedalken Orrery during an opponent’s turn, you can’t play two lands during that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mrd/123/journey-of-discovery) · oracle_id `1c586d8a-9d1a-48a7-bb3e-9b2c0c329f8d` · printing: MRD #123 (2003-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Journey to Eternity // Atzal, Cave of Eternity
 
@@ -821,7 +922,11 @@
   > *. . . but every end is a new beginning.*
 - **Keywords:** Transform, Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4079 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rix/160/journey-to-eternity-atzal-cave-of-eternity) · oracle_id `7d6ccd0b-df16-40b2-930b-bcde0b6ef73f` · printing: RIX #160 (2018-01-19) · [rulings](https://api.scryfall.com/cards/d81c4b3f-81c2-403b-8a5d-c9415f73a1f9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-01-19* — If Journey to Eternity and the enchanted creature are both put into graveyards at the same time, Journey to Eternity's ability will return both to the battlefield.
+  - *2018-01-19* — If Journey to Eternity enchants a creature you control but don't own, the creature will return to the battlefield under your control from its owner's graveyard when it dies. In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, any creatures you control from Journey to Eternity's effect are exiled.
+  - *2018-01-19* — If another player gains control of the enchanted creature, Journey to Eternity will be put into your graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rix/160/journey-to-eternity-atzal-cave-of-eternity) · oracle_id `7d6ccd0b-df16-40b2-930b-bcde0b6ef73f` · printing: RIX #160 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Journey to Nowhere
 
@@ -831,7 +936,9 @@
   > When this enchantment enters, exile target creature.
   > When this enchantment leaves the battlefield, return the exiled card to the battlefield under its owner's control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8838 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmd/17/journey-to-nowhere) · oracle_id `2bfec482-be0d-4768-84e7-1c2c74ea1373` · printing: CMD #17 (2011-06-17) · [rulings](https://api.scryfall.com/cards/4686b51c-e02b-48c1-bafe-e8d08a5407b9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-10-01* — If Journey to Nowhere leaves the battlefield before its first ability has resolved, its second ability will trigger and do nothing. Then its first ability will resolve and exile the targeted creature forever.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmd/17/journey-to-nowhere) · oracle_id `2bfec482-be0d-4768-84e7-1c2c74ea1373` · printing: CMD #17 (2011-06-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Journey to Oblivion
 

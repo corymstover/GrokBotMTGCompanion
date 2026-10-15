@@ -103,7 +103,11 @@
   > Whenever you attack with two or more creatures, put a +1/+1 counter on this creature and draw a card.
   > Whenever this creature attacks, you win the game if there are twenty or more counters on it or you have twenty or more cards in hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1649 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/plst/BLC-16/twenty-toed-toad) · oracle_id `cce643fb-cd88-457c-8f13-c203554df675` · printing: PLST #BLC-16 (2024-12-02) · [rulings](https://api.scryfall.com/cards/1b3de0d8-5911-4743-8623-010f12c2055b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-07-26* — If multiple effects modify your hand size, apply them in timestamp order. For example, if you put Twenty-Toed Toad onto the battlefield and then put Spellbook (an artifact that says you have no maximum hand size) onto the battlefield, you would have no maximum hand size. However, if those permanents entered in the opposite order, your maximum hand size would he twenty.
+  - *2024-07-26* — Twenty-Toed Toad's last ability will trigger whenever it attacks, no matter how many counters are on it or cards you have in your hand at that time. The number of counters on it and the number of cards in your hand are only checked when that ability resolves.
+  - *2024-07-26* — Your maximum hand size is only checked during the cleanup step of your turn. At other times, you may have more cards in hand than your maximum hand size.
+- **Source flags:** [Scryfall](https://scryfall.com/card/plst/BLC-16/twenty-toed-toad) · oracle_id `cce643fb-cd88-457c-8f13-c203554df675` · printing: PLST #BLC-16 (2024-12-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Twice Upon a Time // Unlikely Meeting
 
@@ -123,7 +127,10 @@
 - **Oracle text:**
   > You may tap or untap target artifact, creature, or land.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7730 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/8ed/111/twiddle) · oracle_id `773ad2ef-5acc-49ea-8d85-056330e87039` · printing: 8ED #111 (2003-07-28) · [rulings](https://api.scryfall.com/cards/1b25858a-ab2d-441a-a3fe-6d5ecd7f05be/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — The decision whether or not to tap or untap is made on resolution. This is not a modal spell.
+  - *2004-10-04* — This is not a toggle effect. If you use Twiddle to tap a card and before it takes effect your opponent taps it, Twiddle will not automatically untap the card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/8ed/111/twiddle) · oracle_id `773ad2ef-5acc-49ea-8d85-056330e87039` · printing: 8ED #111 (2003-07-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Twiddlestick Charger
 
@@ -157,7 +164,12 @@
   > Whenever one or more other creatures you control enter, if they entered or were cast from a graveyard, create a token that's a copy of one of them. This ability triggers only once each turn.
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2848 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/122/twilight-diviner) · oracle_id `05d7222b-cc08-4f1f-8e35-6058599572ba` · printing: ECL #122 (2026-01-23) · [rulings](https://api.scryfall.com/cards/443b6f30-1493-4d48-93d9-a91e22a7ebb3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-11-17* — Any enters abilities of the copied creature will trigger when the token enters. Any "as [this creature] enters" or "[this creature] enters with" abilities of the copied permanent will also work.
+  - *2025-11-17* — If the copied creature has {X} in its mana cost, X is 0.
+  - *2025-11-17* — If the copied creature is copying something else, then the token enters as whatever that creature copied.
+  - *2025-11-17* — The token created by Twilight Diviner's last ability copies exactly what was printed on the original permanent and nothing else (unless that permanent is copying something else; see below). It doesn't copy whether that permanent is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/122/twilight-diviner) · oracle_id `05d7222b-cc08-4f1f-8e35-6058599572ba` · printing: ECL #122 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Twilight Drover
 
@@ -168,7 +180,12 @@
   > Whenever a creature token leaves the battlefield, put a +1/+1 counter on this creature.
   > {2}{W}, Remove a +1/+1 counter from this creature: Create two 1/1 white Spirit creature tokens with flying.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6710 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/136/twilight-drover) · oracle_id `b0d60856-80f9-4c64-9768-28a0a690ecb1` · printing: TDC #136 (2025-04-11) · [rulings](https://api.scryfall.com/cards/481b1eb5-9fbb-4e27-8d0a-5ca6c34179b6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2005-10-01* — If Spirit tokens created by Twilight Drover leave the battlefield, they will trigger its first ability.
+  - *2005-10-01* — If a player leaves a multiplayer game, all creature tokens that player owns also leave the game. Twilight Drover's ability will trigger once per token.
+  - *2005-10-01* — Note that Twilight Drover doesn't have any way to sacrifice tokens or otherwise cause them to leave the battlefield.
+  - *2005-10-01* — The first ability only cares that creature tokens leave the battlefield. It doesn't matter where they went.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/136/twilight-drover) · oracle_id `b0d60856-80f9-4c64-9768-28a0a690ecb1` · printing: TDC #136 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Twilight Mire
 
@@ -206,7 +223,19 @@
   > At the beginning of your upkeep, if you have the city's blessing, reveal the top card of your library and put it into your hand. Each opponent loses X life and you gain X life, where X is that card's mana value.
 - **Keywords:** Flying, Ascend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1141 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/143/twilight-prophet) · oracle_id `a3afd8b9-d499-40f7-be41-f8fee6636a1d` · printing: MKC #143 (2024-02-09) · [rulings](https://api.scryfall.com/cards/050ca791-265a-4e7b-9640-4fd5a6d8cd3a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2018-01-19* — A permanent is any object on the battlefield, including tokens and lands. Spells and emblems aren't permanents.
+  - *2018-01-19* — Ascend on a permanent isn't a triggered ability and doesn't use the stack. Players can respond to a spell that will give you your tenth permanent, but they can't respond to getting the city's blessing once you control that tenth permanent. This means that if your tenth permanent is a land you play, players can't respond before you get the city's blessing.
+  - *2018-01-19* — If the mana cost of the revealed card includes {X}, X is considered to be 0.
+  - *2018-01-19* — If the revealed card doesn't have a mana cost (because it's a land card, for example), its mana value is 0.
+  - *2018-01-19* — If you cast a spell with ascend, you don't get the city's blessing until it resolves. Players may respond to that spell by trying to change whether you get the city's blessing.
+  - *2018-01-19* — If you control ten permanents but don't control a permanent or resolving spell with ascend, you don't get the city's blessing. For example, if you control ten permanents, lose control of one, then cast Golden Demise, you won't have the city's blessing and the spell will affect creatures you control.
+  - *2018-01-19* — If your tenth permanent enters the battlefield and then a permanent leaves the battlefield immediately afterwards (most likely due to the "Legend Rule" or due to being a creature with 0 toughness), you get the city's blessing before it leaves the battlefield.
+  - *2018-01-19* — In a Two-Headed Giant game, Twilight Prophet's last ability causes the opposing team to lose twice X life and you gain X life.
+  - *2018-01-19* — Once you have the city's blessing, you have it for the rest of the game, even if you lose control of some or all of your permanents. The city's blessing isn't a permanent itself and can't be removed by any effect.
+  - *2018-01-19* — Some cards have triggered abilities with an intervening "if" clause that checks whether you have the city's blessing. These are worded "[Trigger condition], if you have the city's blessing, [effect]." You must already have the city's blessing in order for these abilities to trigger; otherwise they do nothing. In other words, there's no way to have the ability trigger if you don't have the city's blessing, even if you intend to get it in response to the triggered ability.
+  - *2018-01-19* — The mana value of a split card, such as cards with aftermath from the Amonkhet block, is based on the combined mana cost of its two halves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/143/twilight-prophet) · oracle_id `a3afd8b9-d499-40f7-be41-f8fee6636a1d` · printing: MKC #143 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Twilight's Call
 
@@ -256,6 +285,7 @@
   > Enchanted creature has double strike. (It deals both first-strike and regular combat damage.)
 - **Keywords:** Enchant, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4746 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/26/twinblade-blessing) · oracle_id `b3e1674f-dba1-4570-9990-e5dc643e237d` · printing: FDN #26 (2024-11-15) · [rulings](https://api.scryfall.com/cards/ecf01cbe-9fcb-4f35-bc6b-2280620b06ff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Twinblade Geist // Twinblade Invocation
@@ -336,7 +366,15 @@
 - **Flavor text** (M10 printing):
   > *Imitation is the most dangerous form of flattery.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6261 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m10/78/twincast) · oracle_id `8f878efc-850f-43d2-a6fe-5ea8d1dd5afb` · printing: M10 #78 (2009-07-17) · [rulings](https://api.scryfall.com/cards/f38eec33-a40e-4739-ad2c-2f57008cef4e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2021-03-19* — If the spell has damage divided as it was cast, the division can't be changed, although the targets receiving that damage still can. The same is true of spells that distribute counters.
+  - *2021-03-19* — If the spell that's copied has an X whose value was determined as it was cast, the copy will have the same value of X.
+  - *2021-03-19* — If the spell that's copied is modal (that is, it says "Choose one —" or the like), the copy will have the same mode. A different mode can't be chosen.
+  - *2021-03-19* — The copy is created on the stack, so it's not "cast." Abilities that trigger when a player casts a spell won't trigger. The copy will resolve before the original spell does.
+  - *2021-03-19* — The copy will have the same targets as the spell it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
+  - *2021-03-19* — Twincast can copy any instant or sorcery spell, not just one with targets.
+  - *2021-03-19* — You can't choose to pay any alternative or additional costs for the copy. However, effects based on any alternative or additional costs that were paid for the original spell are copied as though those same costs were paid for the copy.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m10/78/twincast) · oracle_id `8f878efc-850f-43d2-a6fe-5ea8d1dd5afb` · printing: M10 #78 (2009-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Twinferno
 
@@ -350,7 +388,12 @@
   > *"More fire?" Jaya asked.*
   > *"More fire," Jodah agreed.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2651 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/149/twinferno) · oracle_id `93989dd7-2d3e-46e2-8e92-8d0479796087` · printing: DMU #149 (2022-09-09) · [rulings](https://api.scryfall.com/cards/bc531409-26cb-4c58-ba69-f39dd8aee3d1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-09-09* — If the spell that's copied has damage divided as it was cast, the division can't be changed (although the targets receiving that damage still can). The same is true of spells that distribute counters.
+  - *2022-09-09* — If the spell that's copied is modal (that is, it says "Choose one —" or the like), the copy created by Twinferno's delayed triggered ability will have the same mode or modes. You can't choose different ones.
+  - *2022-09-09* — The copies that Twinferno's ability creates are created on the stack, so they're not "cast." Abilities that trigger when a player casts a spell won't trigger.
+  - *2022-09-09* — You can't choose to pay any additional costs for the copy created by Twinferno's delayed triggered ability. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/149/twinferno) · oracle_id `93989dd7-2d3e-46e2-8e92-8d0479796087` · printing: DMU #149 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Twinflame
 
@@ -361,7 +404,20 @@
   > Choose any number of target creatures you control. For each of them, create a token that's a copy of that creature, except it has haste. Exile those tokens at the beginning of the next end step.
 - **Keywords:** Strive
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1260 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/258/twinflame) · oracle_id `83cf1169-5853-4332-b897-7b17d72d76ab` · printing: SOC #258 (2026-04-24) · [rulings](https://api.scryfall.com/cards/85c863ef-b266-410d-87b3-ced791f99966/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2014-04-26* — Any enters-the-battlefield abilities of the copied creature will trigger when the token enters the battlefield. Any "as [this permanent] enters the battlefield" or "[this permanent] enters the battlefield with" abilities of the copied creature will also work.
+  - *2014-04-26* — If a spell or ability allows you to cast a strive spell without paying its mana cost, you must pay the additional costs for any targets beyond the first.
+  - *2014-04-26* — If all of the spell's targets are illegal when the spell tries to resolve, it won't resolve and none of its effects will happen. If one or more of its targets are legal when it tries to resolve, the spell will resolve and affect only those legal targets. It will have no effect on any illegal targets.
+  - *2014-04-26* — If another creature becomes or enters the battlefield as a copy of the token, that creature will have haste, but you won't exile it. However, if Twinflame creates multiple tokens copying a single creature due to a replacement effect (like the one Doubling Season creates), you'll exile each of them.
+  - *2014-04-26* — If such a spell is copied, and the effect that copies the spell allows a player to choose new targets for the copy, the number of targets can't be changed. The player may change any number of the targets, including all of them or none of them. If, for one of the targets, the player can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
+  - *2014-04-26* — If the copied creature has {X} in its mana cost, X is considered to be 0.
+  - *2014-04-26* — If the copied creature is a token, the token created by Twinflame copies the original characteristics of that token as stated by the effect that put that token onto the battlefield.
+  - *2014-04-26* — If the copied creature is copying something else (for example, if the copied creature is a Clone), then the token enters the battlefield as whatever that creature copied.
+  - *2014-04-26* — The mana cost and mana value of strive spells don't change no matter how many targets they have. Strive abilities affect only what you pay.
+  - *2014-04-26* — The tokens copy exactly what was printed on the original creature and nothing else (unless that permanent is copying something else or is a token; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+  - *2014-04-26* — The tokens see each other enter the battlefield. If any of them have a triggered ability that triggers whenever a creature enters the battlefield, they'll trigger for one another.
+  - *2014-04-26* — You choose how many targets each spell with a strive ability has and what those targets are as you cast it. It's legal to cast such a spell with no targets, although this is rarely a good idea. You can't choose the same target more than once for a single strive spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/258/twinflame) · oracle_id `83cf1169-5853-4332-b897-7b17d72d76ab` · printing: SOC #258 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Twinflame Travelers
 
@@ -376,7 +432,13 @@
   > *—Ashling*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5197 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/248/twinflame-travelers) · oracle_id `341cf69a-246c-4eb5-910c-18c13a4c3dce` · printing: ECL #248 (2026-01-23) · [rulings](https://api.scryfall.com/cards/5fc9f409-3aef-4403-bf17-6e9a72ecfada/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-11-17* — Abilities that apply "as [this creature] enters" or "as [this creature] is turned face up" are also unaffected by Twinflame Travelers's ability.
+  - *2025-11-17* — If a triggered ability is linked to a second ability, additional instances of that triggered ability are also linked to that second ability. If the second ability refers to "the exiled card," it refers to all cards exiled by instances of the triggered ability.
+  - *2025-11-17* — In some cases involving linked abilities, an ability requires information about "the exiled card." When this happens, the ability gets multiple answers. If these answers are being used to determine the value of a variable, the sum is used. For example, if Elite Arcanist's enters-the-battlefield ability triggers twice, two cards are exiled. The value of X in the activation cost of Elite Arcanist's other ability is the sum of the two cards' mana values. As the ability resolves, you create copies of both cards and can cast none, one, or both of the copies in any order.
+  - *2025-11-17* — Triggered abilities use the word "when," "whenever," or "at." They're often written as "[Trigger condition], [effect]." Some keyword abilities, such as mobilize (from the Tarkir: Dragonstorm release), are triggered abilities and will have "when," "whenever," or "at" in their reminder text. Replacement effects are unaffected by Twinflame Travelers's ability. For example, a 1/1 Elemental creature that enters under your control "with a +1/+1 counter on it" won't receive an additional +1/+1 counter.
+  - *2025-11-17* — Twinflame Travelers's ability doesn't copy the triggered ability; it just causes the ability to trigger an additional time. Any choices made as you put the ability onto the stack, such as modes and targets, are made separately for each instance of the ability. Any choices made on resolution, such as whether to put counters on a permanent, are also made individually.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/248/twinflame-travelers) · oracle_id `341cf69a-246c-4eb5-910c-18c13a4c3dce` · printing: ECL #248 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Twinflame Tyrant
 
@@ -458,7 +520,19 @@
   > If you would copy a spell one or more times, instead copy it that many times plus an additional time. You may choose new targets for the additional copy.
   > {7}, {T}: Copy target instant or sorcery spell you control. You may choose new targets for the copy.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1703 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/383/twinning-staff) · oracle_id `3ca8113b-f5b8-41a7-aae6-ebb32554dfe3` · printing: NCC #383 (2022-04-29) · [rulings](https://api.scryfall.com/cards/5cdcc324-1427-453c-9940-c21f5d04c997/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2020-04-17* — If an effect copies a card rather than a spell (such as that of God-Eternal Kefnet), this doesn't cause an additional copy to be created.
+  - *2020-04-17* — If the spell has damage divided as it was cast (like Mythos of Vadrok), the division can't be changed, although the targets receiving that damage still can. The same is true of spells that distribute counters.
+  - *2020-04-17* — If the spell that's copied has an X whose value was determined as it was cast, the copy will have the same value of X.
+  - *2020-04-17* — If the spell that's copied is modal (that is, it says “Choose one —” or the like), the copy will have the same mode. A different mode can't be chosen.
+  - *2020-04-17* — If you have a second Twinning Staff, copying a spell results in two additional copies. If you have a third, you get three additional copies, and so on.
+  - *2020-04-17* — The controller of a copy can't choose to pay any alternative or additional costs for the copy. However, effects based on any alternative or additional costs that were paid for the original spell are copied as though those same costs were paid for the copy.
+  - *2020-04-17* — The copy is created on the stack, so it's not “cast.” Abilities that trigger when a player casts a spell won't trigger. It will resolve before the original spell does.
+  - *2020-04-17* — The copy will have the same targets as the spell it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
+  - *2020-04-17* — Twinning Staff's last ability can copy any instant or sorcery spell you control, not just one with targets.
+  - *2020-04-17* — You choose whether the additional copy is put onto the stack before or after the original copy. If a spell is being copied more than once, you can even have the additional copy put onto the stack in between the original copies.
+  - *2020-04-17* — You may choose new targets for the additional copy, even if you can't choose new targets for the original copy or copies.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/383/twinning-staff) · oracle_id `3ca8113b-f5b8-41a7-aae6-ebb32554dfe3` · printing: NCC #383 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Twinscroll Shaman
 
@@ -500,6 +574,7 @@
   > *A forest-wide network of webs brings a hungry couple to captured prey.*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8881 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh1/188/twin-silk-spider) · oracle_id `a2193302-402a-4cf0-8014-5facecad647b` · printing: MH1 #188 (2019-06-14) · [rulings](https://api.scryfall.com/cards/7cf3188c-879b-4b18-88b4-6237d7162271/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Twins of Discord
@@ -511,7 +586,12 @@
   > Whenever you attack, choose odd or even. Creatures with mana value of that quality can't block this turn. (Zero is even.)
   > Each other colorless creature you control has bloodthirst 2. (If an opponent was dealt damage this turn, that creature enters with two additional +1/+1 counters on it.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6656 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m3c/37/twins-of-discord) · oracle_id `4a8f2104-57ec-4b23-9857-f26afa5cbcfe` · printing: M3C #37 (2024-06-14) · [rulings](https://api.scryfall.com/cards/b3c237a5-1d2a-457a-be4e-c07483b31799/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-06-07* — If a creature on the battlefield has {X} in its mana cost, X is 0 when determining its mana value.
+  - *2024-06-07* — Multiple instances of bloodthirst are cumulative. For example, if you control Twins of Discord and a colorless creature with bloodthirst 1 enters the battlefield under your control, that creature will enter the battlefield with three +1/+1 counters on it if an opponent has been dealt damage that turn.
+  - *2024-06-07* — The mana value of a face-down creature is 0.
+  - *2024-06-07* — The mana value of a token that isn't a copy of another object is 0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m3c/37/twins-of-discord) · oracle_id `4a8f2104-57ec-4b23-9857-f26afa5cbcfe` · printing: M3C #37 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Twins of Maurer Estate
 
@@ -608,7 +688,17 @@
   > Create a Wicked Role token attached to up to one target creature. (If you control another Role on it, put that one into the graveyard. Enchanted creature gets +1/+1. When this token is put into a graveyard, each opponent loses 1 life.)
 - **Keywords:** Role token
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8291 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/154/twisted-fealty) · oracle_id `a5ae75de-0dff-44bf-9dc6-5895ab3ae731` · printing: WOE #154 (2023-09-08) · [rulings](https://api.scryfall.com/cards/382d6085-79b9-48f7-8949-9f44dde2c753/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2023-09-01* — A permanent can have multiple Roles attached to it if each one is controlled by a different player.
+  - *2023-09-01* — Cards in the Wilds of Eldraine main set create six different Role tokens: Cursed, Monster, Royal, Sorcerer, Wicked, and Young Hero. A seventh Role token, Virtuous, is created by Ellivere of the Wild Court, the commander of the "Virtue and Valor" Commander Deck.
+  - *2023-09-01* — Hexproof and shroud won't prevent a Role from becoming attached to a permanent if the ability creating that Role attached to that permanent doesn't target it.
+  - *2023-09-01* — If a permanent has more than one Role attached to it controlled by the same player, each of those Roles except the one with the most recent timestamp is put into its owner's graveyard. This is a state-based action.
+  - *2023-09-01* — If two or more Roles controlled by the same player become attached to a permanent at the same time (perhaps due to an effect such as that of Doubling Season), that player chooses which one to keep and which are put into their owners' graveyards.
+  - *2023-09-01* — If you don't choose a second target for Twisted Fealty or that target is illegal as the spell resolves, the Wicked Role token won't be created.
+  - *2023-09-01* — In rare cases, a spell or ability might attempt to create a Role token enchanting a permanent that it can't legally enchant (because of an ability like protection from enchantments). In such cases, the Role token isn't created.
+  - *2023-09-01* — Roles are colorless enchantment tokens. Each one has the Aura and Role subtypes and the enchant creature ability.
+  - *2023-09-01* — Some spells and abilities that create Role tokens require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Role token won't be created.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/154/twisted-fealty) · oracle_id `a5ae75de-0dff-44bf-9dc6-5895ab3ae731` · printing: WOE #154 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Twisted Image
 
@@ -621,7 +711,11 @@
   > *"True strength is in the mind, for the body is too malleable a form."*
   > *—Politus, vedalken emisar*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7026 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/a25/75/twisted-image) · oracle_id `4a40cee1-fc09-4f97-aef8-440778d8c0ca` · printing: A25 #75 (2018-03-16) · [rulings](https://api.scryfall.com/cards/60c38f83-32af-4819-b259-a986860f484a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-03-19* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to a creature may become lethal if you switch its power and toughness during that turn.
+  - *2021-03-19* — Effects that switch a creature's power and toughness apply after all other effects, regardless of when those effects began to apply. For instance, if you target a 1/2 creature then give it +2/+0 later in the turn, it's a 2/3 creature, not a 4/1 creature.
+  - *2021-03-19* — Switching a creature's power and toughness twice (or any even number of times) effectively returns the creature to the power and toughness it had before any switches.
+- **Source flags:** [Scryfall](https://scryfall.com/card/a25/75/twisted-image) · oracle_id `4a40cee1-fc09-4f97-aef8-440778d8c0ca` · printing: A25 #75 (2018-03-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Twisted Justice
 
@@ -644,6 +738,7 @@
   > Cycling {B}{R}{G} ({B}{R}{G}, Discard this card: Draw a card.)
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1902 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/232/twisted-landscape) · oracle_id `db659cae-2078-423e-a6ed-63898dbab87f` · printing: MH3 #232 (2024-06-14) · [rulings](https://api.scryfall.com/cards/d0e3e7b3-7ba9-47a2-b46c-a40bffb445e2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Twisted Reflection
@@ -681,7 +776,16 @@
   > When this creature enters, create a 1/1 black Rat creature token with "This creature can't block." Then for each Rat you control, create a Wicked Role token attached to that Rat. (If you control another Role on it, put that one into the graveyard. Enchanted creature gets +1/+1. When this token is put into a graveyard, each opponent loses 1 life.)
 - **Keywords:** Role token
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9344 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/114/twisted-sewer-witch) · oracle_id `99c9920a-f84b-4626-9fe5-d94cc62cd277` · printing: WOE #114 (2023-09-08) · [rulings](https://api.scryfall.com/cards/d6e3ddf7-582d-4923-be30-8428e52237e4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2023-09-01* — A permanent can have multiple Roles attached to it if each one is controlled by a different player.
+  - *2023-09-01* — Cards in the Wilds of Eldraine main set create six different Role tokens: Cursed, Monster, Royal, Sorcerer, Wicked, and Young Hero. A seventh Role token, Virtuous, is created by Ellivere of the Wild Court, the commander of the "Virtue and Valor" Commander Deck.
+  - *2023-09-01* — Hexproof and shroud won't prevent a Role from becoming attached to a permanent if the ability creating that Role attached to that permanent doesn't target it.
+  - *2023-09-01* — If a permanent has more than one Role attached to it controlled by the same player, each of those Roles except the one with the most recent timestamp is put into its owner's graveyard. This is a state-based action.
+  - *2023-09-01* — If two or more Roles controlled by the same player become attached to a permanent at the same time (perhaps due to an effect such as that of Doubling Season), that player chooses which one to keep and which are put into their owners' graveyards.
+  - *2023-09-01* — In rare cases, a spell or ability might attempt to create a Role token enchanting a permanent that it can't legally enchant (because of an ability like protection from enchantments). In such cases, the Role token isn't created.
+  - *2023-09-01* — Roles are colorless enchantment tokens. Each one has the Aura and Role subtypes and the enchant creature ability.
+  - *2023-09-01* — Some spells and abilities that create Role tokens require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Role token won't be created.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/114/twisted-sewer-witch) · oracle_id `99c9920a-f84b-4626-9fe5-d94cc62cd277` · printing: WOE #114 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Twisted Spider-Clone
 
@@ -706,7 +810,24 @@
   > • Manifest dread. (Look at the top two cards of your library. Put one onto the battlefield face down as a 2/2 creature and the other into your graveyard. Turn it face up any time for its mana cost if it's a creature card.)
 - **Keywords:** Manifest, Manifest dread
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9470 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/77/twist-reality) · oracle_id `55b0518e-9c87-4f0e-81c2-9c984f760be1` · printing: DSK #77 (2024-09-27) · [rulings](https://api.scryfall.com/cards/644714dd-7a0b-4d4b-9a61-8f6e505b1d22/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (16):
+  - *2024-09-20* — A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent and Auras and Equipment that were attached to that permanent aren't affected unless the new characteristics of the object change the legality of those targets or attachments.
+  - *2024-09-20* — Any time you have priority, you can turn a manifested permanent you control face up by revealing that it's a creature card (ignoring any copy effects or type-changing effects that might be applying to it) and paying its mana cost. This is a special action. It doesn't use the stack and can't be responded to.
+  - *2024-09-20* — At any time, you can look at a face-down spell or permanent you control. You can't look at face-down permanents or spells you don't control unless an effect instructs or allows you to do so.
+  - *2024-09-20* — Because face-down creatures don't have a name, they can't have the same name as any other creature, even another face-down creature.
+  - *2024-09-20* — Because the permanent is on the battlefield both before and after it's turned face up, turning a permanent face up doesn't cause any enters-the-battlefield abilities to trigger.
+  - *2024-09-20* — If a double-faced card is manifested, it will be put onto the battlefield face down. While face down, it can't transform. If the front face of the card is a creature card, you can turn it face up by paying its mana cost. If you do, its front face will be up.
+  - *2024-09-20* — If a face-down creature loses its abilities, it can't be turned face up with a disguise or morph ability because it will no longer have that ability (or the associated cost) once face up.
+  - *2024-09-20* — If a face-down spell leaves the stack and goes to any zone other than the battlefield (if it was countered, for example), you must reveal it. Similarly, if a face-down permanent leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or the game ends.
+  - *2024-09-20* — If a manifested creature would have disguise or morph if it were face up, you may also turn it face up by paying its disguise or morph cost, as appropriate.
+  - *2024-09-20* — If something tries to turn a face-down instant or sorcery card on the battlefield face up, reveal that card to show all players it's an instant or sorcery card. The permanent remains on the battlefield face down. Abilities that trigger when a permanent turns face up won't trigger, because even though you revealed the card, it never turned face up.
+  - *2024-09-20* — If your library contains only one card when you manifest dread, you'll look at that card and put it onto the battlefield face down. You won't have the option to put it into your graveyard instead. If your library contains no cards when you manifest dread, you won't do anything.
+  - *2024-09-20* — Some cards in the Duskmourn release have abilities that trigger "whenever you manifest dread." In circumstances where you are instructed to manifest dread but can't perform some or all of the steps of manifesting dread (probably because your library has one or fewer cards in it), these abilities will still trigger.
+  - *2024-09-20* — To manifest dread, look at the top two cards of your library. Manifest one (by putting it onto the battlefield face down) and put the other into your graveyard. The card you put onto the battlefield becomes a 2/2 face-down creature with no name, mana cost, creature types, or abilities. It's colorless and has a mana value of 0. Other effects that apply to the permanent can still grant it any characteristics it doesn't have or change the characteristics it does have.
+  - *2024-09-20* — Turning a permanent face up or face down doesn't change whether that permanent is tapped or untapped.
+  - *2024-09-20* — Unlike a face-down creature that was cast using a disguise or morph ability, a manifested creature may still be turned face up after it loses its abilities if it's a creature card.
+  - *2024-09-20* — You must ensure that your face-down spells and permanents can be easily differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield to confuse other players. The order in which they entered should remain clear, as well as what ability caused them to be face down. (This includes manifest, disguise, cloak, morph, and a few older effects that turn cards face down.) Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/77/twist-reality) · oracle_id `55b0518e-9c87-4f0e-81c2-9c984f760be1` · printing: DSK #77 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Twists and Turns // Mycoid Maze
 
@@ -733,7 +854,9 @@
 - **Flavor text** (TPR printing):
   > *Battles are won in nuance.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9328 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tpr/76/twitch) · oracle_id `321fd970-a259-448d-bd98-e85e386174f9` · printing: TPR #76 (2015-05-06) · [rulings](https://api.scryfall.com/cards/6c47db5b-7cc4-446f-b96c-e0c69ed9f0b0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2010-03-01* — If the targeted permanent is an illegal target by the time Twitch resolves, the entire spell doesn’t resolve. You don’t draw a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tpr/76/twitch) · oracle_id `321fd970-a259-448d-bd98-e85e386174f9` · printing: TPR #76 (2015-05-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Twitching Doll
 
@@ -744,7 +867,9 @@
   > {T}: Add one mana of any color. Put a nest counter on this creature.
   > {T}, Sacrifice this creature: Create a 2/2 green Spider creature token with reach for each counter on this creature. Activate only as a sorcery.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1505 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/201/twitching-doll) · oracle_id `fd6e1967-237a-41f6-bbf4-2c869f9447c8` · printing: DSK #201 (2024-09-27) · [rulings](https://api.scryfall.com/cards/416c025b-e40e-4d95-a774-ba3961f43808/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-09-20* — Twitching Doll's first ability is a mana ability. It doesn't use the stack and can't be responded to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/201/twitching-doll) · oracle_id `fd6e1967-237a-41f6-bbf4-2c869f9447c8` · printing: DSK #201 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Two by Four
 
@@ -767,7 +892,20 @@
   > Target creature you control gains double strike until end of turn. (Then exile this card. You may cast the artifact later from exile.)
 - **Keywords:** Equip, Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2416 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/203/two-handed-axe-sweeping-cleave) · oracle_id `b012cec9-2aff-4dfb-8db1-61e830c33926` · printing: CLB #203 (2022-06-10) · [rulings](https://api.scryfall.com/cards/21e34888-f57c-4f5d-bb5c-b82be980d145/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2022-06-10* — An adventurer card is a permanent card in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it’s in your graveyard, Altar of Bhaal is an artifact card whose mana value is 2.
+  - *2022-06-10* — An effect may refer to a card, spell, or permanent that “has an Adventure.” This refers to a card, spell, or permanent that has an adventurer card’s set of alternative characteristics, even if they’re not being used and even if that card was never cast as an Adventure.
+  - *2022-06-10* — Casting a card as an Adventure isn’t casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Adventure.
+  - *2022-06-10* — If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner’s graveyard as it resolves. For as long as it remains exiled, that player may cast it as a permanent spell. If an Adventure spell leaves the stack in any way other than resolving (most likely by being countered or by failing to resolve because its targets have all become illegal), that card won’t be exiled and the spell’s controller won’t be able to cast it as a permanent later.
+  - *2022-06-10* — If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won’t give you permission to cast it as a permanent spell.
+  - *2022-06-10* — If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it’s not possible to cast the copy from exile.
+  - *2022-06-10* — If an effect instructs you to choose a card name, you may choose the alternative Adventure name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2022-06-10* — If an object becomes a copy of an object that has an Adventure, the copy also has an Adventure. If it changes zones, it will either cease to exist (if it’s a token) or cease to be a copy (if it’s a nontoken permanent), and so you won’t be able to cast it as an Adventure.
+  - *2022-06-10* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it’s legal to cast that spell.
+  - *2022-06-10* — To double a creature's power, that creature gets +X/+0, where X is that creature's power as the triggered ability resolves.
+  - *2022-06-10* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+  - *2022-06-10* — You must still follow any relevant timing rules for the permanent spell you cast from exile. Normally, you’ll be able to cast it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/203/two-handed-axe-sweeping-cleave) · oracle_id `b012cec9-2aff-4dfb-8db1-61e830c33926` · printing: CLB #203 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Two-Headed Cerberus
 
@@ -832,6 +970,7 @@
   > *Eons ago, the ur-dragon roared. Its descendants still carry the echo across the Multiverse.*
 - **Keywords:** Flying, Haste, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4833 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/14/two-headed-hellkite) · oracle_id `27596982-f4ab-488f-a974-5b0404438504` · printing: DMC #14 (2022-09-09) · [rulings](https://api.scryfall.com/cards/8d5cf3a1-2228-4143-b07d-de082380b5e7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Two-Headed Hunter // Twice the Rage
@@ -860,7 +999,10 @@
 - **Flavor text** (CMM printing):
   > *When a species becomes so dominant that no other can compete, evolution gets creative.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6224 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/883/two-headed-sliver) · oracle_id `be857d6e-5bf2-491b-ab46-963b4d45adee` · printing: CMM #883 (2023-08-04) · [rulings](https://api.scryfall.com/cards/1fd73d00-feb0-4ec6-8031-6af5b334bba3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-07-01* — If the creature type of a Sliver changes so it's no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures.
+  - *2021-03-19* — Multiple instances of menace on the same creature are redundant.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/883/two-headed-sliver) · oracle_id `be857d6e-5bf2-491b-ab46-963b4d45adee` · printing: CMM #883 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Two-Headed Zombie
 

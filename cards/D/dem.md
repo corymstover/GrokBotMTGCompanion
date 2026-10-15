@@ -90,6 +90,7 @@
   > *A knight's devotion to their steed goes only so far.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7885 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/afc/120/demanding-dragon) · oracle_id `c8f1e3bd-bbf0-4750-b054-03553fc61850` · printing: AFC #120 (2021-07-23) · [rulings](https://api.scryfall.com/cards/4d8a5bab-813a-488a-ab65-3286582ef595/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dematerialize
@@ -191,6 +192,7 @@
   > *It rips through the Hauntwoods like a chainsaw, leaving a crushed and bloody trail behind.*
 - **Keywords:** Delirium, Haste, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6270 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/31/demolisher-spawn) · oracle_id `17bdd827-2e89-4559-939a-fc5c153189ed` · printing: DSC #31 (2024-09-27) · [rulings](https://api.scryfall.com/cards/16b97600-e4cf-4b9e-8f2d-2eb74298eb54/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Demolition Field
@@ -311,7 +313,12 @@
 - **Oracle text:**
   > Choose a card name. Exile the top six cards of your library, then reveal cards from the top of your library until you reveal a card with the chosen name. Put that card into your hand and exile all other cards revealed this way.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #920 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me2/85/demonic-consultation) · oracle_id `9a1412db-45ad-46ea-8f12-a85d203113d8` · printing: ME2 #85 (2008-09-22) · [rulings](https://api.scryfall.com/cards/1d779f19-3068-4976-b96b-8f93d156900b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2004-10-04* — There is no way to make this card affect your opponent. It affects "you", and "you" means the controller of the spell. It has no targets.
+  - *2004-10-04* — You must name a card that actually exists in the game of Magic.
+  - *2008-10-01* — If you don't reveal the named card (perhaps because it was in the top six cards of your library), you'll end up exiling your entire library. You don't lose the game at that point, but will lose the next time you're instructed to draw a card.
+  - *2008-10-01* — You don't name a card until Demonic Consultation resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me2/85/demonic-consultation) · oracle_id `9a1412db-45ad-46ea-8f12-a85d203113d8` · printing: ME2 #85 (2008-09-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Demonic Counsel
 
@@ -324,7 +331,9 @@
   > *Valgavoth whispered into Marina's ear until he was all she could hear.*
 - **Keywords:** Delirium
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1815 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/92/demonic-counsel) · oracle_id `712e3479-722c-40a1-9b61-d5bdde93042b` · printing: DSK #92 (2024-09-27) · [rulings](https://api.scryfall.com/cards/ff79c845-4115-4fbf-b20f-37470f2bf7fb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-09-20* — In the case where Demonic Counsel's delirium ability allows you to search your library for any card, you won't have to reveal that card. (You could, but as your demonic counsel, I wouldn't advise it.)
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/92/demonic-counsel) · oracle_id `712e3479-722c-40a1-9b61-d5bdde93042b` · printing: DSK #92 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Demonic Covenant
 
@@ -335,7 +344,12 @@
   > At the beginning of your end step, create a 5/5 black Demon creature token with flying, then mill two cards. If two cards that share all their card types were milled this way, sacrifice this enchantment.
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8261 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/19/demonic-covenant) · oracle_id `393b9d9e-9d71-43e7-aede-eac7f85d2365` · printing: DSC #19 (2024-09-27) · [rulings](https://api.scryfall.com/cards/90e9b488-37fd-42db-b0f2-b6c5a15a6e36/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-09-20* — Creatures that enter attacking are never declared as attackers, and as such, they won't cause Demonic Covenant's first ability to trigger.
+  - *2024-09-20* — Demonic Covenant's first ability will trigger once for each player you attack with one or more Demons.
+  - *2024-09-20* — Demonic Covenant's last ability will only cause you to sacrifice Demonic Covenant if both cards have the exact same combination of card types. Supertypes and subtypes are not taken into account.
+  - *2024-09-20* — The card types in Magic include artifact, battle, creature, enchantment, instant, kindred, land, planeswalker, and sorcery. Legendary, basic, and snow are supertypes, not card types; Horror and Room are subtypes, not card types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/19/demonic-covenant) · oracle_id `393b9d9e-9d71-43e7-aede-eac7f85d2365` · printing: DSC #19 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Demonic Dread
 
@@ -358,7 +372,11 @@
   > You may cast this card from your graveyard by paying 3 life and discarding a card in addition to paying its other costs.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7557 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m21/95/demonic-embrace) · oracle_id `d185c829-ef12-403a-a071-7520a0293d4a` · printing: M21 #95 (2020-07-03) · [rulings](https://api.scryfall.com/cards/56149192-ddc1-45a4-b7aa-be311da5fe8e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-06-23* — Casting Demonic Embrace with the permission granted by its last ability doesn't change when you can cast it.
+  - *2020-06-23* — If another effect gives you permission to cast Demonic Embrace from your graveyard, you don't pay the additional cost imposed by its last ability if you use that permission.
+  - *2020-06-23* — If the enchanted creature dies during your turn, you receive priority before any other player does. If you're allowed to cast Demonic Embrace at that time, you may do so before any player can attempt to remove it from your graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m21/95/demonic-embrace) · oracle_id `d185c829-ef12-403a-a071-7520a0293d4a` · printing: M21 #95 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Demonic Gifts
 
@@ -369,7 +387,9 @@
 - **Flavor text** (KHM printing):
   > *It began as a flavor on the tongue, like a bloody morsel of roast boar—but soon the power was a conflagration in her veins.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8578 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/84/demonic-gifts) · oracle_id `162bcc9d-6edf-4b3b-83e6-2c933e2a5967` · printing: KHM #84 (2021-02-05) · [rulings](https://api.scryfall.com/cards/3f23c487-ac4a-475b-ad5e-ec6f8678e668/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-02-05* — The reanimating effect of Demonic Gifts works only once. Once the creature dies and returns to the battlefield, it’s a new object with no relation to the creature it was. If that new creature dies, it won’t come back.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/84/demonic-gifts) · oracle_id `162bcc9d-6edf-4b3b-83e6-2c933e2a5967` · printing: KHM #84 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Demonic Hordes
 
@@ -395,6 +415,7 @@
   > Crew 2
 - **Keywords:** Affinity, Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4230 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/83/demonic-junker) · oracle_id `88075828-a76e-412d-b738-182f50e3a133` · printing: DFT #83 (2025-02-14) · [rulings](https://api.scryfall.com/cards/4aad569e-4acb-4416-9d4f-64e6991de3ed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Demonic Lore
@@ -421,7 +442,14 @@
   > • Draw two cards.
   > • You lose the game.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9433 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/602/demonic-pact) · oracle_id `19a2f0a0-9e68-4982-a5f5-b77d805befd7` · printing: FDN #602 (2024-11-15) · [rulings](https://api.scryfall.com/cards/5b0b7242-df91-48cf-bf4e-b68306c9965f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2015-06-22* — If the ability doesn't resolve (either for having its target become illegal or because a spell or ability counters it), the mode chosen for that instance of the ability still counts as being chosen.
+  - *2015-06-22* — In some very unusual situations, you may not be able to choose a mode, either because all modes have previously been chosen or the only remaining modes require targets and there are no legal targets available. In this case, the ability is simply removed from the stack with no effect.
+  - *2015-06-22* — It doesn't matter who has chosen any particular mode. For example, say you control Demonic Pact and have chosen the first two modes. If an opponent gains control of Demonic Pact, that player can choose only the third or fourth mode.
+  - *2015-06-22* — The phrase "that hasn't been chosen" refers only to that specific Demonic Pact. If you control one and cast another one, you can choose any mode for the second one the first time its ability triggers.
+  - *2015-06-22* — Yes, if the fourth mode is the only one remaining, you must choose it. You read the whole contract, right?
+  - *2015-06-22* — You choose the mode as the triggered ability goes on the stack. You can choose a mode that requires targets only if there are legal targets available.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/602/demonic-pact) · oracle_id `19a2f0a0-9e68-4982-a5f5-b77d805befd7` · printing: FDN #602 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Demonic Rising
 
@@ -445,7 +473,14 @@
   > Plot {R} (You may pay {R} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)
 - **Keywords:** Plot, Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6834 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/120/demonic-ruckus) · oracle_id `a861ee41-a2c6-4530-9974-82f55ce712b1` · printing: OTJ #120 (2024-04-19) · [rulings](https://api.scryfall.com/cards/5b491d11-d00a-4541-8389-2785a455eeee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-04-12* — Exiling a card using its plot ability is a special action. Once you announce you're taking that action, no other player can respond by trying to remove that card from your hand.
+  - *2024-04-12* — If a plotted card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-04-12* — If the creature Demonic Ruckus would enchant is an illegal target by the time the Aura spell resolves, the entire spell doesn't resolve. It's put into your graveyard from the stack, not the battlefield, so its triggered ability won't trigger.
+  - *2024-04-12* — If you're casting a plotted card from exile without paying its mana cost, you can't choose to cast it for any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the plotted card has any mandatory additional costs, those must still be paid to cast the spell.
+  - *2024-04-12* — Plot abilities are written "Plot [cost]," which means "Any time you have priority during your main phase while the stack is empty, you may pay [cost] and exile this card from your hand. It becomes plotted."
+  - *2024-04-12* — You can't cast a plotted card on the same turn it became plotted. On any future turn, you may cast that card from exile without paying its mana cost during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/120/demonic-ruckus) · oracle_id `a861ee41-a2c6-4530-9974-82f55ce712b1` · printing: OTJ #120 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Demonic Taskmaster
 
@@ -459,7 +494,10 @@
   > *Subservience to greater power is the only law in the pit.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9637 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/104/demonic-taskmaster) · oracle_id `162e45f5-edb8-4a13-acdc-8980ce5ba8ac` · printing: INR #104 (2025-01-24) · [rulings](https://api.scryfall.com/cards/af33e187-b535-49ac-90fa-17a5ed72d920/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2012-05-01* — If Demonic Taskmaster leaves the battlefield after its ability triggers but before it resolves, you’ll still have to sacrifice a creature. Notably, if you control two Demonic Taskmasters and no other creatures, each one will force you to sacrifice the other.
+  - *2012-05-01* — If you control no other creatures, you won’t sacrifice anything.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/104/demonic-taskmaster) · oracle_id `162e45f5-edb8-4a13-acdc-8980ce5ba8ac` · printing: INR #104 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Demonic Torment
 
@@ -525,7 +563,14 @@
   > When Demonlord Belzenlok enters, exile cards from the top of your library until you exile a nonland card, then put that card into your hand. If the card's mana value is 4 or greater, repeat this process. Demonlord Belzenlok deals 1 damage to you for each card put into your hand this way.
 - **Keywords:** Flying, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7337 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/151/demonlord-belzenlok) · oracle_id `667ece0e-a474-4e11-8ac4-6c8fc354457c` · printing: CMM #151 (2023-08-04) · [rulings](https://api.scryfall.com/cards/b07114d8-40b3-4102-8d70-e3ed94a7f515/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2018-04-27* — Demonlord Belzenlok's ability causes it to deal an amount of damage to you all at once; it doesn't deal 1 damage multiple times.
+  - *2018-04-27* — If the mana cost of the nonland card includes {X}, X is considered to be 0.
+  - *2018-04-27* — If the nonland card doesn't have a mana cost, its mana value is 0.
+  - *2018-04-27* — Land cards exiled this way remain exiled.
+  - *2018-04-27* — Once the triggered ability resolves, the ability will continue until you either exile a nonland card with mana value 3 or less or fail to exile any nonland cards while performing the process. You can't choose to stop receiving the blessings of Demonlord Belzenlok any sooner.
+  - *2018-04-27* — The mana value of a split card, such as a card with aftermath from the Amonkhet block, is equal to the combined mana cost of its two halves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/151/demonlord-belzenlok) · oracle_id `667ece0e-a474-4e11-8ac4-6c8fc354457c` · printing: CMM #151 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Demonlord of Ashmouth
 
@@ -579,7 +624,21 @@
   > {2}{B}, Pay {E}{E}{E}{E}: Put target creature card from a graveyard onto the battlefield tapped under your control.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8994 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/kld/73/demon-of-dark-schemes) · oracle_id `2b2f2abd-6c0f-49a5-a44b-f366614c944d` · printing: KLD #73 (2016-09-30) · [rulings](https://api.scryfall.com/cards/99c99736-5c9c-4d2f-946d-05606fcdd039/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2016-09-20* — Demon of Dark Schemes's second triggered ability triggers whenever another creature dies for any reason, not just due to the first triggered ability.
+  - *2016-09-20* — If Demon of Dark Schemes dies at the same time as another creature, its second triggered ability triggers.
+  - *2016-09-20* — If a creature's owner leaves the game after you've put that creature onto the battlefield with Demon of Dark Schemes's last ability, the creature leaves with that player. If you leave the game before that player, the creature is exiled.
+  - *2016-09-20* — The set of creatures affected by Demon of Dark Schemes's first triggered ability is determined as the ability resolves. Creatures that enter the battlefield later in the turn and noncreature permanents that become creatures later in the turn won't get -2/-2.
+  - *2024-06-07* — Energy counters are a kind of counter that a player may have. They're not associated with any specific permanents.
+  - *2024-06-07* — Energy counters aren't mana. They don't go away as steps, phases, and turns end, and effects that add mana "of any type" can't give you energy counters.
+  - *2024-06-07* — If a spell or ability with one or more targets states that you "may pay" some amount of {E}, and each permanent that it targets has become an illegal target, the spell or ability won't resolve. You can't pay any {E} even if you want to.
+  - *2024-06-07* — If an effect says you get one or more {E}, you get that many energy counters. To pay one or more {E}, you lose that many energy counters. You can't pay more energy counters than you have. Any effects that interact with counters a player gets, has, or loses can interact with energy counters.
+  - *2024-06-07* — Keep track of how many energy counters each player has. Potential ways to track this include writing theme down on paper or using dice, but any method that is clear and mutually agreeable is fine. (At higher levels of tournament play, dice may not be allowed for tracking counters that players have.)
+  - *2024-06-07* — Some spells and abilities that give you {E} may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't get any {E}.
+  - *2024-06-07* — Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
+  - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
+  - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/kld/73/demon-of-dark-schemes) · oracle_id `2b2f2abd-6c0f-49a5-a44b-f366614c944d` · printing: KLD #73 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Demon of Death's Gate
 
@@ -606,7 +665,10 @@
   > {2}{B}, Sacrifice another enchantment: This creature gets +X/+0 until end of turn, where X is the sacrificed enchantment's mana value.
 - **Keywords:** Flying, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3308 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/137/demon-of-fates-design) · oracle_id `53716e0b-4d4e-40b0-8370-38e11f73d195` · printing: DSC #137 (2024-09-27) · [rulings](https://api.scryfall.com/cards/0d3668fe-78d9-4c2c-8c83-5cace9d39e03/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-07-28* — If you cast a spell for another cost "rather than paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, those must be paid to cast the card.
+  - *2023-07-28* — If you cast a spell with {X} in its mana cost this way, the only legal choice for X is 0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/137/demon-of-fates-design) · oracle_id `53716e0b-4d4e-40b0-8370-38e11f73d195` · printing: DSC #137 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Demon of Loathing
 
@@ -620,7 +682,9 @@
   > *Hatred is a potent ally, but an insatiable master.*
 - **Keywords:** Flying, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8398 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/292/demon-of-loathing) · oracle_id `2e55fc03-779c-4a71-beb7-aa0ade738c24` · printing: THB #292 (2020-01-24) · [rulings](https://api.scryfall.com/cards/57564f6f-7c99-4325-8a0e-22342e73767b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-01-24* — If a creature is dealt lethal damage at the same time that Demon of Loathing deals combat damage to its controller, that player can’t sacrifice that creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/292/demon-of-loathing) · oracle_id `2e55fc03-779c-4a71-beb7-aa0ade738c24` · printing: THB #292 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Demon of Wailing Agonies
 
@@ -644,7 +708,10 @@
 - **Flavor text** (CMM printing):
   > *Taborax's cultists are the latest in a long history of beings who have desired to see Zendikar torn to pieces.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2235 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/149/demons-disciple) · oracle_id `d5a33091-a348-4b13-8dbd-79ab0ad99afe` · printing: CMM #149 (2023-08-04) · [rulings](https://api.scryfall.com/cards/cc7f2ce1-b442-4051-b1fe-90efde9bc181/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-09-25* — As the triggered ability resolves, first the player whose turn it is chooses a creature or planeswalker they control, then each other player in turn order does the same, knowing the choices made before them. Then all the chosen creatures and/or planeswalkers are sacrificed at the same time.
+  - *2020-09-25* — Demon's Disciple can be the creature sacrificed for its own ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/149/demons-disciple) · oracle_id `d5a33091-a348-4b13-8dbd-79ab0ad99afe` · printing: CMM #149 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Demon's Due
 
@@ -691,7 +758,10 @@
 - **Flavor text** (DVD printing):
   > *Its curve mimics the twists of life and death.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6556 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dvd/57/demons-horn) · oracle_id `ee38377f-8d3a-402e-a5d7-a01cfe3a5322` · printing: DVD #57 (2014-12-05) · [rulings](https://api.scryfall.com/cards/cd708b10-472f-44b1-9b62-668da6104ef5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2009-10-01* — If a player casts a black spell, Demon’s Horn’s ability triggers and is put on the stack on top of that spell. Demon’s Horn’s ability will resolve (causing you to gain 1 life) before the spell does.
+  - *2009-10-01* — The ability triggers whenever any player, not just you, casts a black spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dvd/57/demons-horn) · oracle_id `ee38377f-8d3a-402e-a5d7-a01cfe3a5322` · printing: DVD #57 (2014-12-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Demon's Jester
 

@@ -45,7 +45,11 @@
 - **Flavor text** (RNA printing):
   > *Let the Dimir worry about witnesses. For the Rakdos, screams count as applause.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9816 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rna/95/cavalcade-of-calamity) · oracle_id `e29be33c-e5b0-428d-a057-b1cd61127557` · printing: RNA #95 (2019-01-25) · [rulings](https://api.scryfall.com/cards/8a81e889-490b-4aeb-8e84-ea9a390bb8fe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-01-25* — A creature with power 0 or less can attack, as long as no rule or effect prohibits it from doing so. Many creatures with 0 power have defender, but not all do.
+  - *2019-01-25* — If multiple creatures you control with power 1 or less attack, Cavalcade of Calamity’s ability will trigger for each of those creatures. Each ability will cause Cavalcade of Calamity to deal 1 damage to the appropriate player or planeswalker.
+  - *2019-01-25* — The power of the attacking creature is checked only when the ability triggers. Once it triggers, Cavalcade of Calamity will deal 1 damage to the appropriate player or planeswalker even if the creature’s power changes or the creature leaves the battlefield before the ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rna/95/cavalcade-of-calamity) · oracle_id `e29be33c-e5b0-428d-a057-b1cd61127557` · printing: RNA #95 (2019-01-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cavalier of Dawn
 
@@ -58,7 +62,9 @@
   > When this creature dies, return target artifact or enchantment card from your graveyard to your hand.
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5704 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m20/10/cavalier-of-dawn) · oracle_id `7c520355-1ab8-4d6d-9a29-0f63d6b60024` · printing: M20 #10 (2019-07-12) · [rulings](https://api.scryfall.com/cards/f7b1919e-c0c1-4ac7-9061-a337b6fe7273/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-02-07* — You may put this creature’s enters ability onto the stack without choosing any target. It will resolve with no effect. However, if you do choose a target and the target permanent is an illegal target by the time that ability tries to resolve, the ability won’t resolve. No player will create a Golem token. If the target is legal but not destroyed (most likely because it has indestructible), its controller will create a Golem token.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m20/10/cavalier-of-dawn) · oracle_id `7c520355-1ab8-4d6d-9a29-0f63d6b60024` · printing: M20 #10 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cavalier of Flame
 
@@ -70,7 +76,10 @@
   > When this creature enters, discard any number of cards, then draw that many cards.
   > When this creature dies, it deals X damage to each opponent and each planeswalker they control, where X is the number of land cards in your graveyard.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6691 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m20/125/cavalier-of-flame) · oracle_id `98b19afc-7696-46b9-96f0-7f7c60003e1c` · printing: M20 #125 (2019-07-12) · [rulings](https://api.scryfall.com/cards/0c18c541-758b-4237-9961-9637e996e8a5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-07-12* — As Cavalier of Flame’s enters-the-battlefield ability resolves, you may choose to discard zero cards. You just won’t draw any cards.
+  - *2019-07-12* — In a Two-Headed Giant game, Cavalier of Flame’s last ability causes the opposing team to be dealt X damage twice.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m20/125/cavalier-of-flame) · oracle_id `98b19afc-7696-46b9-96f0-7f7c60003e1c` · printing: M20 #125 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cavalier of Gales
 
@@ -83,6 +92,7 @@
   > When this creature dies, shuffle it into its owner's library, then scry 2. (Look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.)
 - **Keywords:** Scry, Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7172 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m20/52/cavalier-of-gales) · oracle_id `08e2fead-53e9-445b-8fd1-c108bb09d81c` · printing: M20 #52 (2019-07-12) · [rulings](https://api.scryfall.com/cards/a5356b11-e505-4838-aecb-327689eeead1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cavalier of Night
@@ -96,7 +106,12 @@
   > When this creature dies, return target creature card with mana value 3 or less from your graveyard to the battlefield.
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5621 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m20/94/cavalier-of-night) · oracle_id `27c2b8ce-17b9-4f6c-8444-3bdc636dd413` · printing: M20 #94 (2019-07-12) · [rulings](https://api.scryfall.com/cards/f03109b9-54a8-4d68-97c2-e42c7d5c2d41/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2019-07-12* — Cavalier of Night’s enters-the-battlefield ability goes on the stack without a target. While that ability is resolving, you may sacrifice another creature. When you do, the reflexive triggered ability triggers and you pick a target creature to be destroyed. This is different from effects that say “If you do . . .” in that players may take actions after you’ve sacrificed the creature but before the target creature is destroyed.
+  - *2019-07-12* — If a card in a graveyard has {X} in its mana cost, X is considered to be 0.
+  - *2019-07-12* — If a creature card with mana value 3 or less becomes a copy of Cavalier of Night, its last ability can target itself when it dies.
+  - *2019-07-12* — While resolving Cavalier of Night’s enters-the-battlefield ability, you can’t sacrifice more than one creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m20/94/cavalier-of-night) · oracle_id `27c2b8ce-17b9-4f6c-8444-3bdc636dd413` · printing: M20 #94 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cavalier of Thorns
 
@@ -109,6 +124,7 @@
   > When this creature dies, you may exile it. If you do, put another target card from your graveyard on top of your library.
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5214 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/100/cavalier-of-thorns) · oracle_id `96b909ab-55f1-4cde-a675-2504de3da772` · printing: ECC #100 (2026-01-23) · [rulings](https://api.scryfall.com/cards/ace83f5b-2349-46b8-b27f-bf705912a6df/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cavalry Drillmaster
@@ -169,6 +185,7 @@
   > {1}, {T}: Add one mana of any color.
   > {4}, {T}, Sacrifice this land: Put two +1/+1 counters on target creature. Activate only as a sorcery.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9428 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh1/237/cave-of-temptation) · oracle_id `75540897-53f6-433b-bd70-9851551df6ef` · printing: MH1 #237 (2019-06-14) · [rulings](https://api.scryfall.com/cards/d86e9149-6fd9-44fc-b765-3e646c7d83d6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cave of the Frost Dragon
@@ -180,7 +197,10 @@
   > {T}: Add {W}.
   > {4}{W}: This land becomes a 3/4 white Dragon creature with flying until end of turn. It's still a land.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8025 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/253/cave-of-the-frost-dragon) · oracle_id `1e4146d2-cfa0-4f5e-9761-3c83519b90c3` · printing: AFR #253 (2021-07-23) · [rulings](https://api.scryfall.com/cards/bdb41396-5008-4a5f-92ca-54ecac42e926/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-07-23* — If Cave of the Frost Dragon enters the battlefield at the same time as one or more other lands, it doesn't take those lands into consideration when determining how many other lands you control.
+  - *2021-07-23* — If you turn Cave of the Frost Dragon into a creature but haven't controlled it continuously since your most recent turn began, you won't be able to activate its mana ability or attack with it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/253/cave-of-the-frost-dragon) · oracle_id `1e4146d2-cfa0-4f5e-9761-3c83519b90c3` · printing: AFR #253 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cave People
 
@@ -229,7 +249,12 @@
   > Whenever this creature deals combat damage to a player, you create a Treasure token for each artifact that player controls.
 - **Keywords:** Flying, Treasure, Haste, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1368 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/31/cavern-hoard-dragon) · oracle_id `939e8448-013a-4aef-9a92-7c883a77a1a0` · printing: LTC #31 (2023-06-23) · [rulings](https://api.scryfall.com/cards/c67e509e-a219-4f7f-b7eb-8c446cc0620a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2023-06-16* — Cavern-Hoard Dragon's first ability counts only the artifacts controlled by the opponent who controls the greatest number of artifacts among your opponents. If you have an opponent who controls two artifacts and another opponent who controls three artifacts, Cavern-Hoard Dragon's mana cost would be reduced by {3}.
+  - *2023-06-16* — Cavern-Hoard Dragon's last ability cares about the number of artifacts that player controls as the ability resolves.
+  - *2023-06-16* — If the greatest number of artifacts an opponent controls is seven or more, Cavern-Hoard Dragon costs {R}{R} to cast.
+  - *2023-06-16* — Once a player has announced that they are casting Cavern-Hoard Dragon, no player may take actions to try and change the greatest number of artifacts an opponent controls before Cavern-Hoard Dragon's cost is locked in.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/31/cavern-hoard-dragon) · oracle_id `939e8448-013a-4aef-9a92-7c883a77a1a0` · printing: LTC #31 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cavern Lampad
 
@@ -341,7 +366,20 @@
   > Whenever this creature attacks, exile the top card of your library. If you've completed a dungeon, you may play that card this turn without paying its mana cost. Otherwise, you may play that card this turn.
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7801 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/167/caves-of-chaos-adventurer) · oracle_id `e4d2dcbb-9910-482e-9e46-dfed2097509b` · printing: CLB #167 (2022-06-10) · [rulings](https://api.scryfall.com/cards/09abb6df-2aa1-4999-b550-db2892faa8c7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2022-06-10* — A player who currently has the initiative may take the initiative again. This causes that player to venture into Undercity again, but does not cause them to have multiple initiative designations.
+  - *2022-06-10* — Caves of Chaos Adventurer's last ability checks to see if you've completed a dungeon at the time you exile a card. If you haven't completed a dungeon at that time, you can't cast it without paying its mana cost, even if you complete a dungeon later during the same turn.
+  - *2022-06-10* — If the player with the initiative leaves the game, the active player takes the initiative at the same time that player leaves the game. If the active player is leaving the game or if there is no active player, the next player in turn order takes the initiative.
+  - *2022-06-10* — If you aren’t in a dungeon when instructed to venture into Undercity, you will put Undercity into the command zone and move your venture marker to Secret Entrance (the first room).
+  - *2022-06-10* — If you have completed a dungeon when Caves of Chaos Adventurer's last ability resolves, you can only play the exiled card without paying its mana cost. You can't choose to play it normally.
+  - *2022-06-10* — If you’re already in a dungeon when instructed to venture into Undercity, you move to the next room of that dungeon. If you are already in the last room, you will complete that dungeon and start Undercity. This is true whether you’re already in Undercity or any other dungeon.
+  - *2022-06-10* — In a Two-Headed Giant game, if both players on a team deal combat damage to the player that has the initiative at the same time, the player with the initiative will choose the order of the triggered abilities. Then, as those abilities resolve, one team member takes the initiative (and ventures into Undercity) and then the other team member does the same. The last player to take the initiative keeps it until the initiative changes again.
+  - *2022-06-10* — Only one player can have the initiative at a time. As one player takes the initiative, any other player that had the initiative ceases to have it.
+  - *2022-06-10* — Similarly, when instructed to venture into Undercity, you can’t start a dungeon that isn’t Undercity.
+  - *2022-06-10* — The initiative is a designation a player can have. A player with the initiative designation is said to “have the initiative.” The initiative carries two inherent rules. First, whenever a player takes the initiative, and at the beginning of the upkeep of the player with the initiative, that player ventures into Undercity. Second, whenever one or more creatures a player controls deal combat damage to the player who has the initiative, the first player takes the initiative. Also, some abilities will refer to having the initiative and provide other benefits.
+  - *2022-06-10* — There is no initiative in a game until an effect instructs a player to take the initiative. Once a player is instructed to do this, they have the initiative until another player takes the initiative.
+  - *2022-06-10* — You cannot venture into Undercity unless instructed to do so, either because you have the initiative at the beginning of your upkeep or because you take the initiative. Notably, if you aren’t in a dungeon and an effect instructs you to venture into the dungeon (not venture into Undercity), you can’t start Undercity.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/167/caves-of-chaos-adventurer) · oracle_id `e4d2dcbb-9910-482e-9e46-dfed2097509b` · printing: CLB #167 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Caves of Koilos
 

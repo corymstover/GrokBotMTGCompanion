@@ -71,6 +71,7 @@
 - **Flavor text** (LRW printing):
   > *Protected by glamers and guile, Glen Elendra harbors the elusive Oona, queen of the fae.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5126 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lrw/271/secluded-glen) · oracle_id `09f52275-99e6-45e0-b2db-cafe26d5fb91` · printing: LRW #271 (2007-10-12) · [rulings](https://api.scryfall.com/cards/9e4afa65-7933-4a64-b50f-a9a9f832b112/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Secluded Starforge
@@ -84,6 +85,7 @@
 - **Flavor text** (EOE printing):
   > *The heat of a sun condensed into a forge.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3691 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/257/secluded-starforge) · oracle_id `69f55a7c-6ddf-412e-b63b-b395731a1ff2` · printing: EOE #257 (2025-08-01) · [rulings](https://api.scryfall.com/cards/a997ff9f-045a-44a2-983d-f36414cef1ab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Secluded Steppe
@@ -96,6 +98,7 @@
   > Cycling {W} ({W}, Discard this card: Draw a card.)
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1459 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/177/secluded-steppe) · oracle_id `8dec6fcf-1254-4b1b-ba23-7a3e492a7241` · printing: EOC #177 (2025-08-01) · [rulings](https://api.scryfall.com/cards/aaa5bee9-3f6a-45b0-a282-6b23222e948f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Second Breakfast
@@ -189,6 +192,7 @@
 - **Flavor text** (MRD printing):
   > *The bright tunnel sometimes leads back to life.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9129 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mrd/20/second-sunrise) · oracle_id `15cef63b-903e-4f1b-a128-e59157e07c36` · printing: MRD #20 (2003-10-02) · [rulings](https://api.scryfall.com/cards/4e50ee7c-f2a2-4d49-a1cc-8233fd8dd0c5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Second Thoughts
@@ -227,7 +231,26 @@
   > Whenever you cast an enchantment spell, put a number of +1/+1 counters equal to that spell's mana value on up to one target creature.
   > (You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4483 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/10/secret-arcade-dusty-parlor) · oracle_id `c8abde48-a07a-42a0-a43b-c357e6d9cad4` · printing: DSC #10 (2024-09-27) · [rulings](https://api.scryfall.com/cards/fe050c16-9be5-42ef-988f-0531a8bb2352/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (18):
+  - *2024-09-20* — An ability that triggers "when you unlock this door" triggers when that door becomes unlocked. This can happen one of two ways: (1) the door becomes unlocked on the battlefield or (2) the door becomes unlocked as the Room enters the battlefield because you cast the corresponding half. In the latter case, since the door becoming unlocked is what causes the ability to trigger, effects that cause abilities that trigger when a permanent enters to trigger an additional time (such as that of Panharmonicon) won't apply.
+  - *2024-09-20* — An ability that triggers "whenever you fully unlock a Room" triggers when a door becomes unlocked and the other door of that Room is already unlocked, or when both doors of that Room become unlocked simultaneously.
+  - *2024-09-20* — Any time you have priority during a main phase of your turn and the stack is empty, you may pay the mana cost of a locked door (also called its "unlock cost"). That door becomes unlocked. This is a special action. It doesn't use the stack and can't be responded to.
+  - *2024-09-20* — Each Room card has two names. If an effect instructs you to choose a card name, you may choose one of those names, but not both.
+  - *2024-09-20* — Each Room card is a single card. For example, if you discard a Room card, you've discarded one card, not two. If an effect counts the number of enchantment cards in your graveyard, Bottomless Pool // Locker Room counts once, not twice.
+  - *2024-09-20* — If a Room enters from any zone other than the stack, it will enter with both halves locked.
+  - *2024-09-20* — If a spell has {X} in its mana cost, use the value chosen for X when determining that spell's mana value.
+  - *2024-09-20* — If a spell or ability would create a copy of a Room spell on the stack, the copy retains the choice of which door was cast but also retains the full characteristics of the spell. The characteristics of the door that wasn't cast are still ignored while the copy is on the stack, and when the copy resolves, the token it becomes will enter with the appropriate door unlocked.
+  - *2024-09-20* — If an effect allows you to cast a spell with certain characteristics, consider only the characteristics of the door you're casting. For example, if an effect allows you to cast a permanent spell with mana value 3 or less from among cards in your graveyard, you could cast Bottomless Pool this way, but not Locker Room.
+  - *2024-09-20* — If neither door of a Room is unlocked, it's a Room enchantment with no name and no abilities.
+  - *2024-09-20* — If no creatures have died in a turn by the time that turn's end step begins, Séance Board's first ability won't trigger at all. Causing a creature to die during the end step won't cause the ability to trigger.
+  - *2024-09-20* — Room cards have two card faces with a shared type line on a single card. The characteristics of the door you didn't cast are ignored while the spell is on the stack.
+  - *2024-09-20* — Some abilities allow you to lock a door of a Room you control. You can't choose to lock a door that's already locked with such an ability. If such an ability requires a target, you can target a Room even if both of its doors are locked, but the ability won't do anything when it resolves.
+  - *2024-09-20* — Some abilities allow you to unlock a door of a Room you control. You can't choose to unlock a door that's already unlocked with such an ability. If such an ability requires a target, you can target a Room even if both of its doors are unlocked, but the ability won't do anything when it resolves.
+  - *2024-09-20* — Some doors have abilities that trigger whenever you unlock that door and require one or more targets. You can unlock that door even if there would be insufficient legal targets for that triggered ability. The triggered ability won't go on the stack.
+  - *2024-09-20* — To cast a Room spell, choose a half (or "door") to cast. There's no way to cast both halves of a Room card. When the Room spell resolves, the corresponding door becomes unlocked as the Room enters.
+  - *2024-09-20* — While in any zone other than the stack or the battlefield, a Room card's characteristics are a combination of its two doors. For example, Bottomless Pool // Locker Room has a mana value of 6 while it's in your library. If an effect allows you to search your library for a card with mana value 4 or less, you can't find Bottomless Pool // Locker Room.
+  - *2024-09-20* — While on the battlefield, a Room's characteristics are a combination of the characteristics of its unlocked doors. For example, if Bottomless Pool // Locker Room is on the battlefield with both doors unlocked, its names are Bottomless Pool and Locker Room, its mana value is 6, it's a Room Enchantment, and it has the abilities in each door's text box.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/10/secret-arcade-dusty-parlor) · oracle_id `c8abde48-a07a-42a0-a43b-c357e6d9cad4` · printing: DSC #10 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Secret Base
 
@@ -301,7 +324,26 @@
   > Exile Secret of Bloodbending.
 - **Keywords:** Waterbend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7744 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/69/secret-of-bloodbending) · oracle_id `743fa824-18cb-4225-ba7b-5b0bbc3c8d41` · printing: TLA #69 (2025-11-21) · [rulings](https://api.scryfall.com/cards/9bb928ae-f636-4aee-9146-a7885e6a8976/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (18):
+  - *2025-10-02* — "Waterbend [cost]" means "Pay [cost]. For each generic mana in that cost, you may tap an untapped artifact or creature you control rather than pay that mana."
+  - *2025-10-02* — Controlling a player doesn't allow you to look at that player's sideboard. If an effect instructs that player to choose a card from outside the game, you can't have that player choose any card.
+  - *2025-10-02* — Even if the cost of the spell or ability that waterbend is part of increases or decreases, you still may only tap artifacts or creatures to pay for costs up to the amount of the generic mana in the waterbend cost.
+  - *2025-10-02* — If a waterbend cost is part of the total cost to cast a spell or activate an ability, you may tap an untapped artifact or creature you control rather than pay one generic mana in that total cost any number of times up to a maximum of the amount of generic mana in the waterbend component of that total cost.
+  - *2025-10-02* — If an artifact or creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell or activating an ability with waterbend will result in the artifact or creature being tapped before you pay the spell's costs. You won't be able to tap it again for waterbend. Similarly, if you sacrifice an artifact or creature to activate a mana ability to pay a cost with waterbend, that artifact or creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for waterbend.
+  - *2025-10-02* — If the targeted player skips their next combat phase or turn, you'll control the next combat phase or turn the affected player actually takes.
+  - *2025-10-02* — In a Two-Headed Giant game, gaining control of a player causes you to gain control of each player on that team.
+  - *2025-10-02* — Multiple player-controlling effects that affect the same player overwrite each other. The last one to be created is the one that works.
+  - *2025-10-02* — The player you're controlling is still the active player during that turn.
+  - *2025-10-02* — While controlling another player, you also continue to make your own choices and decisions.
+  - *2025-10-02* — While controlling another player, you can see all cards in the game that player can see. This includes cards in that player's hand, face-down cards that player controls, and any cards in that player's library the player may look at.
+  - *2025-10-02* — While controlling another player, you make all choices and decisions that player is allowed to make or is told to make. This includes choices about what spells to cast or what abilities to activate, as well as any decisions called for by triggered abilities or for any other reason.
+  - *2025-10-02* — You also can't make any choices or decisions for the player that would be called for by the tournament rules (such as whether to take an intentional draw or whether to call a judge).
+  - *2025-10-02* — You can tap any untapped creature or artifact you control to pay a waterbend cost, even one you haven't controlled continuously since the beginning of your most recent turn.
+  - *2025-10-02* — You can use only the affected player's resources (cards, mana, and so on) to pay costs for that player; you can't use your own. Similarly, you can use the affected player's resources only to pay that player's costs; you can't spend them on your costs.
+  - *2025-10-02* — You can't make any illegal decisions or illegal choices—you can't do anything that player couldn't do. You can't make choices or decisions for that player that aren't called for by the game rules or by any cards, permanents, spells, abilities, and so on. If an effect causes another player to make decisions that the affected player would normally make (such as Master Warcraft does), that effect takes precedence. In other words, if the affected player wouldn't make a decision, you wouldn't make that decision on that player's behalf.
+  - *2025-10-02* — You can't make the affected player concede. That player may choose to concede at any time, even while you're controlling that player.
+  - *2025-10-02* — You only control the player. You don't control any of that player's permanents, spells, or abilities.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/69/secret-of-bloodbending) · oracle_id `743fa824-18cb-4225-ba7b-5b0bbc3c8d41` · printing: TLA #69 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Secret Passage
 
@@ -325,7 +367,9 @@
 - **Flavor text** (C19 printing):
   > *Rakshasa trade in secrets, amassing wealth from their careful revelation.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9120 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c19/201/secret-plans) · oracle_id `7d0d7480-fddf-4841-bc2a-239e03f97f60` · printing: C19 #201 (2019-08-23) · [rulings](https://api.scryfall.com/cards/b223d673-79da-4e2e-84a4-db917fbbd7dd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2014-09-20* — As soon as a creature turns face up, it loses the +0/+1 from Secret Plans. If damage marked on that creature is equal to or greater than its new toughness, the creature will be destroyed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c19/201/secret-plans) · oracle_id `7d0d7480-fddf-4841-bc2a-239e03f97f60` · printing: C19 #201 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Secret Rendezvous
 
@@ -336,7 +380,9 @@
 - **Flavor text** (SOC printing):
   > *Strixhaven's five colleges encourage rivalries among the students, but some bonds transcend all barriers.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1111 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/166/secret-rendezvous) · oracle_id `34b90d3e-f48c-41ff-b3e4-5cab7a9cd597` · printing: SOC #166 (2026-04-24) · [rulings](https://api.scryfall.com/cards/9be712b3-14ed-4a73-b3d3-5b76b2c5db64/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-04-16* — If the opponent is an illegal target as Secret Rendezvous tries to resolve, neither player will draw cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/166/secret-rendezvous) · oracle_id `34b90d3e-f48c-41ff-b3e4-5cab7a9cd597` · printing: SOC #166 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Secret Salvage
 
@@ -386,7 +432,9 @@
   > *"The veil between the living and the dead is so very thin that the whispers of the ancients can finally be heard."*
   > *—Amalric of Midvast Hall*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3742 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c19/95/secrets-of-the-dead) · oracle_id `b9720c63-5aa7-4fb8-8d71-8f55d8b1337b` · printing: C19 #95 (2019-08-23) · [rulings](https://api.scryfall.com/cards/066311f5-51fc-4da9-a5fa-fa5059a88e5b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-01-22* — Secrets of the Dead’s triggered ability resolves before the spell you cast from your graveyard does.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c19/95/secrets-of-the-dead) · oracle_id `b9720c63-5aa7-4fb8-8d71-8f55d8b1337b` · printing: C19 #95 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Secrets of the Golden City
 
@@ -453,7 +501,10 @@
   > *"I forget the next couple of lines, but then it goes...'Secret tunnel! Secret tunnel!"*
   > *—Chong, nomad musician*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1309 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/278/secret-tunnel) · oracle_id `632e2979-d88a-482e-9bb8-57b683c5310f` · printing: TLA #278 (2025-11-21) · [rulings](https://api.scryfall.com/cards/2d39a0e1-6484-409c-ab05-5b276925a949/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-10-02* — If one of the two creatures leaves the battlefield before Secret Tunnel's ability resolves, the other still can't be blocked this turn as long as it has a creature type that the other card had as it left the battlefield. Love and music always find a way.
+  - *2025-10-02* — The creatures must share at least one creature type, such as Ally or Lemur. Card types such as artifact, and supertypes such as legendary or snow, aren't creature types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/278/secret-tunnel) · oracle_id `632e2979-d88a-482e-9bb8-57b683c5310f` · printing: TLA #278 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Secure Detention
 
@@ -491,6 +542,7 @@
   > *"The Shifting Wastes provide our clan eternal protection. It is our duty to return the favor."*
   > *—Kadri, Dromoka warrior*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1196 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/31/secure-the-wastes) · oracle_id `b2347910-d6c6-4681-8316-7ef27056485c` · printing: FRC #31 (2026-10-02) · [rulings](https://api.scryfall.com/cards/83a01121-e5cd-45ba-97c2-7bd7d50158e6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Securitron Squadron
@@ -504,7 +556,15 @@
   > Whenever a creature token you control enters, put a +1/+1 counter on it.
 - **Keywords:** Vigilance, Squad
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4575 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/23/securitron-squadron) · oracle_id `96312b75-3110-4506-9f95-0c6c17d9da11` · printing: PIP #23 (2024-03-08) · [rulings](https://api.scryfall.com/cards/b689a206-aec3-4a31-95cf-3d4b840db04c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2024-03-08* — For example, if you pay Securitron Squadron’s squad cost three times, then you’ll create three token copies of Securitron Squadron when its squad ability resolves. Each of those tokens will enter the battlefield simultaneously. When they enter, their last abilities will each trigger three times (once for each of the other two tokens, and once for itself.) If the original Securitron Squadron is still on the battlefield, its last ability will trigger three times as well. After all of the triggered abilities resolve, each of the three token copies of Securitron Squadron will have four +1/+1 counters on it.
+  - *2024-03-08* — If Securitron Squadron enters the battlefield at the same time as one or more creature tokens, its last ability will trigger for each of those creature tokens. If that Securitron Squadron is itself a creature token, its last ability will trigger when it enters the battlefield as well.
+  - *2024-03-08* — If the spell is countered, the squad ability will not trigger, and no tokens will be created.
+  - *2024-03-08* — If the spell resolves but the creature with squad leaves the battlefield before its squad ability resolves, you’ll still create the token copies.
+  - *2024-03-08* — If, for some reason, the creature doesn’t have the squad ability when it’s on the battlefield, the ability won’t trigger, even if you’ve paid the squad cost one or more times.
+  - *2024-03-08* — The tokens created by the squad ability aren’t “cast,” so any abilities that trigger when a spell is cast won’t trigger for the copies.
+  - *2024-03-08* — You may pay the squad cost any number of times. You will create a token that is a copy of that permanent for each time you paid the squad cost. If you paid the squad cost multiple times, the tokens will all enter the battlefield simultaneously.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/23/securitron-squadron) · oracle_id `96312b75-3110-4506-9f95-0c6c17d9da11` · printing: PIP #23 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Security Blockade
 
@@ -528,7 +588,11 @@
   > Enchanted creature has "Whenever this creature deals combat damage to a player, it connives." (Its controller draws a card, then discards a card. If they discarded a nonland card, they put a +1/+1 counter on this creature.)
 - **Keywords:** Enchant, Connive
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6100 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/snc/59/security-bypass) · oracle_id `cb660c6d-dc8b-4779-8613-6acf19418baa` · printing: SNC #59 (2022-04-29) · [rulings](https://api.scryfall.com/cards/5c155be9-8432-4e35-b586-96b6339d27ae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-04-29* — If a resolving spell or ability instructs a specific creature to connive but that creature has left the battlefield, the creature still connives. If you discard a nonland card this way, you won't put a +1/+1 counter on anything. Abilities that trigger “when [that creature] connives” will trigger.
+  - *2022-04-29* — If no card is discarded, most likely because that player's hand is empty and an effect says they can't draw cards, the conniving creature does not receive a +1/+1 counter.
+  - *2022-04-29* — Once an ability that causes a creature to connive begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the conniving creature after you discard a nonland card but before it receives a counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/snc/59/security-bypass) · oracle_id `cb660c6d-dc8b-4779-8613-6acf19418baa` · printing: SNC #59 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Security Detail
 

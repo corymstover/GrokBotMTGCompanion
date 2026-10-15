@@ -21,7 +21,10 @@
 - **Flavor text** (CLB printing):
   > *Better the cold night than her warm hospitality.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9521 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/266/baba-lysaga-night-witch) · oracle_id `d6cd4aa1-ff3a-4453-8735-e5ace5cbe386` · printing: CLB #266 (2022-06-10) · [rulings](https://api.scryfall.com/cards/2ef42c3f-f22e-4e99-adb0-9e8f8d442347/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-06-10* — Check the types of those permanents as they last existed on the battlefield to see if there were three or more card types among the sacrificed permanents.
+  - *2022-06-10* — You may sacrifice permanents that aren't different card types to pay the cost of Baba Lysaga's activated ability, but if you do, it will have no effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/266/baba-lysaga-night-witch) · oracle_id `d6cd4aa1-ff3a-4453-8735-e5ace5cbe386` · printing: CLB #266 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Baboon Spirit
 

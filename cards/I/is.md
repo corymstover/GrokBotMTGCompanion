@@ -57,6 +57,7 @@
 - **Flavor text** (JMP printing):
   > *The hound sniffed the air and let slip a low growl. General Takeno looked down at the faithful Isamaru and calmed him with a touch. "Alert the guard. The kami are coming."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7313 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/113/isamaru-hound-of-konda) · oracle_id `cfb756dd-6fe1-430a-8f04-8b10cac62a86` · printing: JMP #113 (2020-07-17) · [rulings](https://api.scryfall.com/cards/6afead32-3542-44c4-82d6-b6a81beb9f90/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Isao, Enlightened Bushi
@@ -96,7 +97,19 @@
   > Flashback {4}{R}{R}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Triple, Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5759 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/495/isengard-unleashed) · oracle_id `2b947703-751a-4d95-b5de-e2d6b1fcb502` · printing: LTC #495 (2023-11-03) · [rulings](https://api.scryfall.com/cards/55b5cfd6-1e20-4950-815f-f6666d6aef24/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2023-11-03* — "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2023-11-03* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2023-11-03* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2023-11-03* — If a creature with trample you control would deal combat damage to a blocking creature this turn, you must assign its unmodified damage. For example, a 3/3 creature with trample blocked by a 2/2 creature can have 1 damage assigned to the defending player. It will then deal 6 damage to the blocking creature (2 tripled) and 3 to the defending player (1 tripled).
+  - *2023-11-03* — If an effect such as that of Chandra's Pyrohelix asks you to divide damage among targets, you must divide the unmodified damage before tripling it.
+  - *2023-11-03* — If you resolve two copies of Isengard Unleashed in one turn, damage dealt by sources you control will be multiplied by 9. If you resolve three, it will be multiplied by 27, and so on.
+  - *2023-11-03* — Isengard Unleashed only stops damage from being prevented by effects that use the word "prevent" or keyword abilities like protection that prevent damage.
+  - *2023-11-03* — Protection prevents damage, so protection will be unable to prevent damage after Isengard Unleashed has resolved. However, this won't allow a spell or ability to target illegally, even if that spell or ability would cause damage to be dealt.
+  - *2023-11-03* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2023-11-03* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2023-11-03* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/495/isengard-unleashed) · oracle_id `2b947703-751a-4d95-b5de-e2d6b1fcb502` · printing: LTC #495 (2023-11-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ishai, Ojutai Dragonspeaker
 
@@ -111,7 +124,16 @@
   > *"Through me, the Great Teacher's voice will rattle this world."*
 - **Keywords:** Flying, Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4718 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
-- **Source flags:** [Scryfall](https://scryfall.com/card/cm2/12/ishai-ojutai-dragonspeaker) · oracle_id `4aae7102-301a-429d-b169-4f462384d55d` · printing: CM2 #12 (2018-06-08) · [rulings](https://api.scryfall.com/cards/2e89ce6a-6bc9-427f-a8b2-c07a9fc3218f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2020-11-10* — An ability that triggers when a player casts a spell resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+  - *2020-11-10* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2020-11-10* — Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+  - *2020-11-10* — If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+  - *2020-11-10* — If your Commander deck has two commanders, you can only include cards whose own color identities are also found in your commanders' combined color identities. If Falthis and Kediss are your commanders, your deck may contain cards with black and/or red in their color identity, but not cards with green, white, or blue.
+  - *2020-11-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from any one of them, not from both of them combined.
+  - *2020-11-10* — To have two commanders, both must have the partner ability as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
+  - *2020-11-10* — You can choose two commanders with partner that are the same color or colors. In Commander Draft, you can even choose two of the same commander with partner if you drafted them. If you do this, make sure you keep the number of times you've cast each from the command zone clear for "commander tax" purposes.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cm2/12/ishai-ojutai-dragonspeaker) · oracle_id `4aae7102-301a-429d-b169-4f462384d55d` · printing: CM2 #12 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ishgard, the Holy See // Faith & Grief
 
@@ -126,7 +148,21 @@
 - **Flavor text** (FIN printing):
   > *A great and proud nation devoted to Halone, the Fury.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1421 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/283/ishgard-the-holy-see-faith-&-grief) · oracle_id `4f4358cb-59df-46d9-be27-69929f5a615c` · printing: FIN #283 (2025-06-13) · [rulings](https://api.scryfall.com/cards/068bc755-9d3d-430b-abc5-c775a5415bf9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2025-06-06* — An adventurer card uses only its non-Adventure characteristics in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it's in your graveyard, Jidoor, Aristocratic Capital is a colorless Town land card whose mana value is 0. It can't be the target of Sorceress's Schemes, which reads in part "Return target instant or sorcery card from your graveyard or exiled card with flashback you own to your hand."
+  - *2025-06-06* — An effect may refer to a card, spell, or permanent that "has an Adventure." This refers to a card, spell, or permanent that has an adventurer card's set of alternative characteristics, even if they're not being used and even if that card was never cast as an Adventure.
+  - *2025-06-06* — Casting a card as an Adventure isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Adventure.
+  - *2025-06-06* — If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner's graveyard as it resolves. For as long as it remains exiled, that player may play it using its primary characteristics. If an Adventure spell leaves the stack in any way other than resolving (most likely by being countered or by failing to resolve because its targets have all become illegal), that card won't be exiled and the spell's controller won't be able to play that card from exile later.
+  - *2025-06-06* — If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won't give you permission to play it with its primary characteristics.
+  - *2025-06-06* — If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it's not possible to play the copy as a permanent.
+  - *2025-06-06* — If an effect instructs you to choose a card name, you may choose the alternative Adventure name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2025-06-06* — If an effect refers to a card, spell, or permanent that has an Adventure, it won't find an instant or sorcery spell on the stack that's been cast as an Adventure.
+  - *2025-06-06* — If an object becomes a copy of an object that has an Adventure, the copy also has an Adventure. If it changes zones, it will either cease to exist (if it's a token) or cease to be a copy (if it's a nontoken permanent), and so you won't be able to cast it as an Adventure.
+  - *2025-06-06* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell. For example, if you control Traveling Chocobo ("You may play lands and cast Bird spells from the top of your library.") and Jidoor, Aristocratic Capital is on top of your library, you can play Jidoor, Aristocratic Capital, but you can't cast Overture.
+  - *2025-06-06* — Town is a land type with no special meaning. It doesn't grant the land any intrinsic abilities. Other cards may care about which lands are Towns.
+  - *2025-06-06* — When playing a card as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The resulting spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+  - *2025-06-06* — You must still follow any timing restrictions and permissions for the card you play from exile. In the case of any of the five lands in this release, you'll be able to play it only during your main phase while the stack is empty and only if you have an available land play remaining.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/283/ishgard-the-holy-see-faith-&-grief) · oracle_id `4f4358cb-59df-46d9-be27-69929f5a615c` · printing: FIN #283 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ishi-Ishi, Akki Crackshot
 
@@ -152,7 +188,9 @@
   > {6}{B}: Target opponent loses 1 life for each Spider you control.
 - **Keywords:** Delirium, Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6899 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/187/ishkanah-grafwidow) · oracle_id `6f4861f4-1b3b-4dbc-b55b-196075d0a693` · printing: DSC #187 (2024-09-27) · [rulings](https://api.scryfall.com/cards/2a61bad1-f212-4d9b-8422-8ec548b8155c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-07-13* — The number of Spiders you control is checked only as Ishkanah's last ability resolves. The ability will count Ishkanah itself if it's still on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/187/ishkanah-grafwidow) · oracle_id `6f4861f4-1b3b-4dbc-b55b-196075d0a693` · printing: DSC #187 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Isildur's Fateful Strike
 
@@ -336,6 +374,7 @@
   > *"I serve only justice. But through that duty, I serve all of Ravnica."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8725 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c20/217/isperia-supreme-judge) · oracle_id `c46718dc-24dc-4b77-b455-aa4c89570b8d` · printing: C20 #217 (2020-04-17) · [rulings](https://api.scryfall.com/cards/1e3b82a7-ebef-4190-9f50-40b992ba89c9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Isperia the Inscrutable
@@ -360,7 +399,10 @@
 - **Flavor text** (NEO printing):
   > *Trained by the Imperials but disillusioned by their rigidity, he gave his heart—and his swords—to the Asari Uprising.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1471 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/224/isshin-two-heavens-as-one) · oracle_id `65114758-9a75-43a7-96e8-0aa68faa6b24` · printing: NEO #224 (2022-02-18) · [rulings](https://api.scryfall.com/cards/a062a004-984e-4b62-960c-af7288f7a3e9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-02-18* — Isshin's effect doesn't copy the triggered ability; it just causes the ability to trigger twice. Any choices made as you put the ability onto the stack, such as modes and targets, are made separately for each instance of the ability. Any choices made on resolution are also made individually.
+  - *2022-02-18* — Isshin, Two Heavens as One's ability affects only triggered abilities with conditions that are directly related to attacking, such as “whenever [this creature] attacks” or “whenever you attack with one or more creatures.” It does not affect triggered abilities with other trigger conditions, such as “whenever [this creature] becomes tapped.”
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/224/isshin-two-heavens-as-one) · oracle_id `65114758-9a75-43a7-96e8-0aa68faa6b24` · printing: NEO #224 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Istvan, Butcher of Eln
 

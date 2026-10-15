@@ -141,6 +141,7 @@
 - **Flavor text** (MH1 printing):
   > *Since the river ran dry, travelers wander where fish once swam.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1503 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh1/247/sunbaked-canyon) · oracle_id `f97fd068-b83a-4621-bf8c-cc96e880ce90` · printing: MH1 #247 (2019-06-14) · [rulings](https://api.scryfall.com/cards/c36820fa-ee86-4206-9a0d-737a67cf5208/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sunbathing Rootwalla
@@ -190,7 +191,16 @@
 - **Oracle text:**
   > Whenever you cast a spell from your hand, reveal the top X cards of your library, where X is that spell's mana value. You may cast a spell with mana value X or less from among cards revealed this way without paying its mana cost. Put the rest on the bottom of your library in a random order.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1935 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c21/180/sunbirds-invocation) · oracle_id `10d482fd-e034-4187-b148-51fe15885360` · printing: C21 #180 (2021-04-23) · [rulings](https://api.scryfall.com/cards/75c1eb6a-2183-4f60-b075-f7289df35be7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2017-09-29* — Casting Sunbird's Invocation won't cause its own ability to trigger.
+  - *2017-09-29* — For spells with {X} in their mana costs, use the value chosen for X to determine the spell's mana value.
+  - *2017-09-29* — If a revealed card in your library has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2017-09-29* — If the spell's mana value is 0, you do nothing as the ability of Sunbird's Invocation resolves.
+  - *2017-09-29* — If you cast a card "without paying its mana cost," you can't pay any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, such as that of Costly Plunder, those must be paid to cast the card.
+  - *2017-09-29* — If you cast one of the revealed cards, you do so as part of the resolution of the triggered ability. You can't wait to cast it later in the turn. Timing permissions based on the card's type are ignored, but other restrictions (such as "Cast [this card] only during combat") are not.
+  - *2017-09-29* — The ability of Sunbird's Invocation resolves before the spell that caused it to trigger. It will resolve even if that spell is countered. If you cast a spell as part of the resolution of the ability, that spell resolves before the spell that caused the ability to trigger.
+  - *2017-09-29* — The mana value of a split card, such as cards with aftermath from the Amonkhet block, is based on the combined mana cost of its two halves. The mana value of the resulting spell is based only on the half you cast.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c21/180/sunbirds-invocation) · oracle_id `10d482fd-e034-4187-b148-51fe15885360` · printing: C21 #180 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sunbird Standard // Sunbird Effigy
 
@@ -257,7 +267,9 @@
   > *There may exist powers even greater than Phyrexia.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3850 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afc/74/sunblast-angel) · oracle_id `8b34d1df-4024-497d-bd28-a7caa8c3fa24` · printing: AFC #74 (2021-07-23) · [rulings](https://api.scryfall.com/cards/680f7d5c-d518-4ebb-92d5-e835cd9eafe0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-01-01* — The second ability destroys each creature that's tapped at the time it resolves, including creatures you control. If Sunblast Angel has become tapped by the time its ability resolves, it will be destroyed too.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afc/74/sunblast-angel) · oracle_id `8b34d1df-4024-497d-bd28-a7caa8c3fa24` · printing: AFC #74 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sun-Blessed Guardian // Furnace-Blessed Conqueror
 
@@ -312,6 +324,7 @@
 - **Flavor text** (TLA printing):
   > *The sacred site of firebending's first spark.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7501 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/280/sun-blessed-peak) · oracle_id `d188a397-c7d9-4f16-bc21-d9e1b5ffc951` · printing: TLA #280 (2025-11-21) · [rulings](https://api.scryfall.com/cards/ae04c862-095f-41d2-8aef-21036d5a0cdc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sunbond
@@ -326,7 +339,10 @@
   > *—Elspeth*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8672 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bng/28/sunbond) · oracle_id `163ece8a-0479-4bb2-b559-581985d1898b` · printing: BNG #28 (2014-02-07) · [rulings](https://api.scryfall.com/cards/9f14bbff-8a3c-4aa0-a5aa-0dd6cb23b2a3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-02-01* — In a Two-Headed Giant game, life gained by your teammate won’t cause the ability to trigger, even though it causes your team’s life total to increase.
+  - *2014-02-01* — In some unusual cases, you can gain life even though your life total actually decreases. For example, if you are being attacked by two 3/3 creatures and you block one with a 2/2 creature with lifelink, your life total will decrease by 1 even though you’ve gained 2 life. You’ll put two +1/+1 counters on the enchanted creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bng/28/sunbond) · oracle_id `163ece8a-0479-4bb2-b559-581985d1898b` · printing: BNG #28 (2014-02-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sunbringer's Touch
 
@@ -469,7 +485,12 @@
   > When this creature enters, if you cast it, return all non-Elemental creatures to their owners' hands.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6000 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/74/sunderflock) · oracle_id `c01b221f-3993-43ab-8cde-b42fb344e2a7` · printing: ECL #74 (2026-01-23) · [rulings](https://api.scryfall.com/cards/e5b6221e-cb22-45e4-bb98-2b960afc614c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-11-17* — If an Elemental on the battlefield has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
+  - *2025-11-17* — Once you announce you're casting a spell, no player may take actions until the spell has been paid for. Notably, opponents can't try to remove Elementals you control from the battlefield at that time.
+  - *2025-11-17* — Once you determine the cost to cast Sunderflock, you may activate mana abilities to pay that cost. If the greatest mana value among Elementals you control changes while activating mana abilities (probably because you sacrificed one or more Elementals), the cost to cast Sunderflock remains what you previously determined.
+  - *2025-11-17* — To determine Sunderflock's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases, then apply any cost reductions. Sunderflock's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/74/sunderflock) · oracle_id `c01b221f-3993-43ab-8cde-b42fb344e2a7` · printing: ECL #74 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sunder from Within
 
@@ -540,7 +561,15 @@
   > *—Trostani*
 - **Keywords:** Populate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2523 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c19/203/sundering-growth) · oracle_id `a2a380d8-4df7-4357-862c-ed3fb795db6c` · printing: C19 #203 (2019-08-23) · [rulings](https://api.scryfall.com/cards/96feebe2-0a6b-4df8-8e7d-ee0bb82ac0c1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2017-03-14* — You must target an artifact or enchantment to cast Sundering Growth. If that artifact or enchantment is an illegal target when Sundering Growth tries to resolve, it won't resolve and none of its effects will happen. You won't populate.
+  - *2024-01-12* — Any enters-the-battlefield abilities of the copied token will trigger when the new token enters the battlefield. Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the copied token will also work.
+  - *2024-01-12* — If you choose to copy a creature token that's a copy of another creature, the new creature token will copy the characteristics of whatever the original token is copying.
+  - *2024-01-12* — If you control no creature tokens when you populate, nothing will happen.
+  - *2024-01-12* — Populate doesn't target the creature token you're copying. You choose that creature token as you're taking the populate action. You can choose any creature token you control. If a spell or ability causes you to create a creature token and then instructs you to populate, you may choose to copy the token you just created, or you may choose to copy another creature token you control.
+  - *2024-01-12* — The new creature token copies the characteristics of the original token as stated by the effect that created the original token.
+  - *2024-01-12* — The new token doesn't copy whether the original token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any noncopy effects that have changed its power, toughness, color, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c19/203/sundering-growth) · oracle_id `a2a380d8-4df7-4357-862c-ed3fb795db6c` · printing: C19 #203 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sundering Stroke
 
@@ -627,7 +656,13 @@
 - **Oracle text:**
   > {1}, {T}: End the turn. Activate only during your turn. (Exile all spells and abilities from the stack. Discard down to your maximum hand size. Damage wears off, and "this turn" and "until end of turn" effects end.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2796 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m12/218/sundial-of-the-infinite) · oracle_id `79d46e09-2548-440f-9c02-3c3dc39a0cd1` · printing: M12 #218 (2011-07-15) · [rulings](https://api.scryfall.com/cards/36d3da9c-cb7a-4cea-b6e6-6722bd16c73c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2011-09-22* — Ending the turn this way means the following things happen in order: 1) All spells and abilities on the stack are exiled. This includes spells and abilities that can't be countered. 2) All attacking and blocking creatures are removed from combat. 3) State-based actions are checked. No player gets priority, and no triggered abilities are put onto the stack. 4) The current phase and/or step ends. The game skips straight to the cleanup step. The cleanup step happens in its entirety.
+  - *2011-09-22* — If Sundial of the Infinite's ability is activated before the end step, any "at the beginning of the end step"-triggered abilities won't get the chance to trigger that turn because the end step is skipped. Those abilities will trigger at the beginning of the end step of the next turn. The same is true of abilities that trigger at the beginning of other phases or steps (except upkeep).
+  - *2011-09-22* — If any triggered abilities do trigger during this process, they're put onto the stack during the cleanup step. If this happens, players will have a chance to cast spells and activate abilities, then there will be another cleanup step before the turn finally ends.
+  - *2011-09-22* — The earliest that you can activate Sundial of the Infinite's ability is during your upkeep step, after abilities that trigger "at the beginning of your upkeep" have been put onto the stack but before they resolve.
+  - *2011-09-22* — Though spells and abilities that are exiled won't get a chance to resolve, they don't count as being "countered."
+- **Source flags:** [Scryfall](https://scryfall.com/card/m12/218/sundial-of-the-infinite) · oracle_id `79d46e09-2548-440f-9c02-3c3dc39a0cd1` · printing: M12 #218 (2011-07-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sundown Pass
 
@@ -715,7 +750,11 @@
   > Equip {3}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2037 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/473/sunforger) · oracle_id `d1421070-a3cc-4af3-bf91-0f97372f4161` · printing: CMR #473 (2020-11-20) · [rulings](https://api.scryfall.com/cards/dd3e42ee-ab13-460b-90fd-86e677abce4f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-08-07* — If a spell has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2020-08-07* — If you cast a spell "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
+  - *2020-08-07* — You can't pay the cost of unattaching Sunforger unless Sunforger is attached to a creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/473/sunforger) · oracle_id `d1421070-a3cc-4af3-bf91-0f97372f4161` · printing: CMR #473 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sunfrill Imitator
 
@@ -727,7 +766,13 @@
 - **Flavor text** (LCC printing):
   > *With a flare of plumage and an earthshaking bellow, it can scare off predators three times its size.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3829 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/94/sunfrill-imitator) · oracle_id `2f618a4a-8b76-4c87-baa7-fb6a17f6f51c` · printing: LCC #94 (2023-11-17) · [rulings](https://api.scryfall.com/cards/f1ac22a3-6edb-4f3e-b473-8166529eb769/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-11-10* — If Sunfrill Imitator copies a legendary creature, Sunfrill Imitator will also be legendary, but because its name remains Sunfrill Imitator, the "legend rule" won't cause either of them to be put into the graveyard.
+  - *2023-11-10* — If the copied creature has {X} in its mana cost, X is 0.
+  - *2023-11-10* — If the copied creature is a token, Sunfrill Imitator copies the original characteristics of that token as stated by the effect that created the token. Copying a token doesn't make Sunfrill Imitator a token. Similarly, if Sunfrill Imitator itself is a token, copying a nontoken permanent doesn't make it stop being a token.
+  - *2023-11-10* — If the copied creature is copying something else, then Sunfrill Imitator becomes a copy of whatever that creature is copying.
+  - *2023-11-10* — Sunfrill Imitator copies exactly what was printed on the original creature, with the listed exceptions (unless that creature is copying something else or is a token; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or any Auras or Equipment attached to it, or any non-copy effects that have changed its types, color, power and toughness, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/94/sunfrill-imitator) · oracle_id `2f618a4a-8b76-4c87-baa7-fb6a17f6f51c` · printing: LCC #94 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sunglasses of Urza
 
@@ -824,7 +869,10 @@
 - **Flavor text** (OTC printing):
   > *Sunhome—the stalwart shield, the towering sentinel, the seat of justice.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1879 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/324/sunhome-fortress-of-the-legion) · oracle_id `a9f8344c-1705-4254-81d6-aa05e0c69c29` · printing: OTC #324 (2024-04-19) · [rulings](https://api.scryfall.com/cards/4ebb97da-e4d5-41ba-9a70-2a1de91f513c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2005-10-01* — If you give double strike to a creature after either first-strike or normal combat damage has been dealt, it won't help that creature deal any additional combat damage.
+  - *2005-10-01* — If you give double strike to a creature with first strike after first-strike combat damage has been dealt, that creature will also deal damage during the normal combat damage step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/324/sunhome-fortress-of-the-legion) · oracle_id `a9f8344c-1705-4254-81d6-aa05e0c69c29` · printing: OTC #324 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sunhome Guildmage
 
@@ -870,7 +918,10 @@
   > {T}: Add one mana of the chosen color.
   > {T}: Add two mana of the chosen color. Spend this mana only to activate abilities of land sources.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6232 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/285/sunken-citadel) · oracle_id `508189e1-9cef-4f9c-8ff1-078c99a0f603` · printing: LCI #285 (2023-11-17) · [rulings](https://api.scryfall.com/cards/3e1c9b1a-e306-47bb-9f68-2083660319c0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-11-10* — "Land sources" include any objects with the card type land. This means you could spend the mana to activate an ability of a land you control or a land card in your hand or graveyard, for example.
+  - *2023-11-10* — You may spend the two mana added by the last ability on the same ability or on two different abilities.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/285/sunken-citadel) · oracle_id `508189e1-9cef-4f9c-8ff1-078c99a0f603` · printing: LCI #285 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sunken City
 
@@ -932,7 +983,17 @@
   > {T}: Add {U}.
   > {1}{U}, {T}, Exile seven cards from your graveyard: Add {U}. When you spend this mana to cast a spell or activate an ability, copy that spell or ability. You may choose new targets for the copy. (Mana abilities can't be copied.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4594 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m3c/81/sunken-palace) · oracle_id `c098c507-5154-423a-a70b-f6dfd4959cf6` · printing: M3C #81 (2024-06-14) · [rulings](https://api.scryfall.com/cards/e44ee47c-95de-4090-97b6-188585d86b0c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2024-06-07* — A copy is created even if the spell or ability that caused the delayed triggered ability to trigger has been countered by the time that delayed triggered ability resolves. The copy resolves before the original spell.
+  - *2024-06-07* — Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keyword abilities are activated abilities and will have a colon in their reminder text.
+  - *2024-06-07* — If the spell or ability has damage divided as it was cast or activated, the division can't be changed (although the targets receiving that damage still can). The same is true of spells and abilities that distribute counters.
+  - *2024-06-07* — If the spell or ability that's copied has an X whose value was determined as it was cast or activated, the copy will have the same value of X.
+  - *2024-06-07* — If the spell or ability that's copied is modal (that is, it says "Choose one —" or the like), the copy will have the same mode or modes. You can't choose different ones.
+  - *2024-06-07* — Resolving copies of permanent spells become tokens as they enter the battlefield. These tokens are not considered "created" when this happens.
+  - *2024-06-07* — The controller of a copy can't choose to pay any alternative or additional costs for the copy. However, effects based on any alternative or additional costs that were paid for the original spell are copied as though those same costs were paid for the copy.
+  - *2024-06-07* — The copy is created on the stack, so it's not "cast" or "activated." Creating the copy won't cause abilities that trigger when a player casts a spell or activates an ability to trigger.
+  - *2024-06-07* — The copy will have the same targets as the spell or ability it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If the spell is a permanent spell with targets, such as an Aura, you may also choose a new target for that spell. The new targets must be legal. If, for any target, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
+- **Source flags:** [Scryfall](https://scryfall.com/card/m3c/81/sunken-palace) · oracle_id `c098c507-5154-423a-a70b-f6dfd4959cf6` · printing: M3C #81 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sunken Ruins
 
@@ -944,6 +1005,7 @@
 - **Flavor text** (FRC printing):
   > *Without the care of the tideshapers, the Lanes lie neglected. Some have flooded entire towns; others dried to cracked mud.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #909 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/86/sunken-ruins) · oracle_id `e6415ffb-8b7a-41c3-bedf-0d4112b7b795` · printing: FRC #86 (2026-10-02) · [rulings](https://api.scryfall.com/cards/b8652a52-d9f6-42ad-9746-6827845b540e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sunlance
@@ -981,6 +1043,7 @@
 - **Flavor text** (SOC printing):
   > *Even the poisoned land around the Stronghold blossomed with new life in the wake of the Great Mending.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1783 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/409/sunlit-marsh) · oracle_id `a5e5a259-5fa7-4b01-93cb-a2b4aaf80927` · printing: SOC #409 (2026-04-24) · [rulings](https://api.scryfall.com/cards/fa447616-db24-4729-bf66-7f72aba0272d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sunmane Pegasus
@@ -1036,7 +1099,10 @@
 - **Flavor text** (CMM printing):
   > *"One score and four he reigned, the Southland king: / A dragon coiled, a tiger poised below the mighty Yangtze."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8365 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/123/sun-quan-lord-of-wu) · oracle_id `70503280-6bdf-431d-8213-367a9783463a` · printing: CMM #123 (2023-08-04) · [rulings](https://api.scryfall.com/cards/78c71971-fa26-4ae6-aa6f-a401e5285b76/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2009-10-01* — Despite the similarities between horsemanship and flying, horsemanship doesn’t interact with flying or reach.
+  - *2009-10-01* — Sun Quan’s ability affects Sun Quan itself.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/123/sun-quan-lord-of-wu) · oracle_id `70503280-6bdf-431d-8213-367a9783463a` · printing: CMM #123 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sunrise Cavalier
 
@@ -1126,7 +1192,15 @@
   > *The spirits of fallen battlemages can serve their guilds as familiars by joining with any physical form.*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6158 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pls/17/sunscape-familiar) · oracle_id `615603bb-3899-4419-9444-e4b64c94a438` · printing: PLS #17 (2001-02-05) · [rulings](https://api.scryfall.com/cards/9621f341-bf85-4b77-bf19-2fb013b4c955/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2004-10-04* — Can never affect the colored part of the cost.
+  - *2004-10-04* — If a spell is both green and blue, you pay {1} less, not {2} less.
+  - *2004-10-04* — If this card is sacrificed to pay part of a spell’s cost, the cost reduction still applies.
+  - *2004-10-04* — The effect is cumulative.
+  - *2004-10-04* — The generic X cost is still considered generic even if there is a requirement that a specific color be used for it. For example, “only black mana can be spent this way”. This distinction is important for effects which reduce the generic portion of a spell’s cost.
+  - *2004-10-04* — The lower cost is not optional like with some other cost reducers.
+  - *2004-10-04* — This can lower the cost to zero, but not below zero.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pls/17/sunscape-familiar) · oracle_id `615603bb-3899-4419-9444-e4b64c94a438` · printing: PLS #17 (2001-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sunscape Master
 
@@ -1149,7 +1223,9 @@
 - **Flavor text** (AKH printing):
   > *The only relief in sight is a mirage.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3324 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/akh/249/sunscorched-desert) · oracle_id `256b8c23-589e-429d-9e6e-433d55079eb4` · printing: AKH #249 (2017-04-28) · [rulings](https://api.scryfall.com/cards/405434c7-9206-45b7-af0f-d59aae294d39/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-04-18* — Desert is a land subtype with no special meaning. It doesn’t grant the land an intrinsic mana ability. Other cards may care about which lands are Deserts.
+- **Source flags:** [Scryfall](https://scryfall.com/card/akh/249/sunscorched-desert) · oracle_id `256b8c23-589e-429d-9e6e-433d55079eb4` · printing: AKH #249 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sunscorched Divide
 
@@ -1176,6 +1252,7 @@
   > *—Urdnan, Dromoka warrior*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1633 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/209/sunscorch-regent) · oracle_id `c8ff464f-0059-4055-a2f2-556fe6db8fbf` · printing: MOC #209 (2023-04-21) · [rulings](https://api.scryfall.com/cards/da6b530c-5a56-4dc1-8d36-6ed8d2c158a9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sunscour
@@ -1249,6 +1326,7 @@
   > If an opponent controls more creatures than you, create two 1/1 white Human creature tokens.
   > If an opponent has more cards in hand than you, draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8569 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/38/sunset-revelry) · oracle_id `65779f3b-7fc5-4847-99d7-78f697d34c3d` · printing: MID #38 (2021-09-24) · [rulings](https://api.scryfall.com/cards/61b39ef1-29d4-4c8d-aece-a3f1ce008e2d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sunset Saboteur
@@ -1277,6 +1355,7 @@
 - **Flavor text** (TDM printing):
   > *"Help the villagers to safety! I will hold the gate!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4826 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/126/sunset-strikemaster) · oracle_id `d81ade13-e7c7-4fe3-bb0c-5007ed9f1198` · printing: TDM #126 (2025-04-11) · [rulings](https://api.scryfall.com/cards/f8f1a2f2-526d-4b2c-985b-0acfdc21a2ee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sunshot Militia
@@ -1301,7 +1380,9 @@
 - **Flavor text** (BLB printing):
   > *Apprentice augurs begin their studies by predicting where the rain will fall. Even those who don't succeed derive great joy from the process.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6867 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/195/sunshower-druid) · oracle_id `7a70faf5-cc04-402b-92e3-67746788f510` · printing: BLB #195 (2024-08-02) · [rulings](https://api.scryfall.com/cards/7740abc5-54e1-478d-966e-0fa64e727995/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-07-26* — If the target creature is an illegal target as Sunshower Druid’s ability tries to resolve, it won’t resolve and none of its effects will happen. You won’t gain 1 life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/195/sunshower-druid) · oracle_id `7a70faf5-cc04-402b-92e3-67746788f510` · printing: BLB #195 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sunspear Shikari
 
@@ -1338,7 +1419,12 @@
   > Damage can't be prevented.
   > When this creature enters, it deals damage to each player equal to the number of nonbasic lands that player controls.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2916 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/155/sunspine-lynx) · oracle_id `479adf64-f42c-4cb6-bf25-648c044bca8b` · printing: BLB #155 (2024-08-02) · [rulings](https://api.scryfall.com/cards/8995ceaf-b7e0-423c-8f3e-25212d522502/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-07-26* — If an effect says to set a player’s life total to a number that’s higher than the player’s current life total while Sunspine Lynx is on the battlefield, the player’s life total doesn’t change.
+  - *2024-07-26* — Protection prevents damage, so protection will be unable to prevent damage while Sunspine Lynx is on the battlefield. However, this won’t allow spells or abilities to target permanents they wouldn’t ordinarily be able to target because of protection, even if that spell or ability would deal damage to those permanents.
+  - *2024-07-26* — Spells and abilities that cause players to gain life still resolve while Sunspine Lynx is on the battlefield. No player will gain life, but any other effects of that spell or ability will happen.
+  - *2024-07-26* — Sunspine Lynx only stops damage from being prevented by effects that specifically use the word “prevent.”
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/155/sunspine-lynx) · oracle_id `479adf64-f42c-4cb6-bf25-648c044bca8b` · printing: BLB #155 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sunspire Gatekeepers
 
@@ -1507,7 +1593,13 @@
   > *A secretive people who protect the ancient origins of firebending.*
 - **Keywords:** Firebending
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8259 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/244/sun-warriors) · oracle_id `513a2fca-fea4-434e-9b25-b0c0d7f322b2` · printing: TLA #244 (2025-11-21) · [rulings](https://api.scryfall.com/cards/e477d750-42d2-48c8-bc1f-8148d15d5f53/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-10-02* — "Firebending N" is a keyword that represents the ability "Whenever this creature attacks, add N {R}. Until end of combat, you don't lose this mana as steps end."
+  - *2025-10-02* — Any other mana you add during combat will still be lost as normal when moving between steps of combat.
+  - *2025-10-02* — Firebending abilities aren't mana abilities. They use the stack and can be responded to.
+  - *2025-10-02* — Mana from firebending abilities isn't lost until you leave combat and go to your second main phase. It can be used at any time during combat, even after combat damage has been dealt.
+  - *2025-10-02* — Multiple instances of firebending on the same creature trigger separately, each granting you the appropriate amount of mana.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/244/sun-warriors) · oracle_id `513a2fca-fea4-434e-9b25-b0c0d7f322b2` · printing: TLA #244 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sunweb
 

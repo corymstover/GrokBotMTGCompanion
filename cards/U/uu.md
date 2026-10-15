@@ -34,4 +34,7 @@
   > {B}{G}, Sacrifice a land: You gain 2 life.
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7892 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/127/uurg-spawn-of-turg) · oracle_id `0191a93a-f304-4c20-9af4-7cdea82c07cf` · printing: EOC #127 (2025-08-01) · [rulings](https://api.scryfall.com/cards/d1974536-9e4f-4808-9e49-a036ec7bf65c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-09-09* — If you don't put the card into your graveyard, it stays on top of your library.
+  - *2022-09-09* — The ability that defines Uurg, Spawn of Turg's power works in all zones, not just on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/127/uurg-spawn-of-turg) · oracle_id `0191a93a-f304-4c20-9af4-7cdea82c07cf` · printing: EOC #127 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -86,7 +86,18 @@
   > Whenever you gain life, Amalia Benavides Aguirre explores. Then destroy all other creatures if its power is exactly 20. (To have this creature explore, reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)
 - **Keywords:** Explore, Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4173 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/221/amalia-benavides-aguirre) · oracle_id `85eefda9-4aab-467d-a08c-be026cb8ff42` · printing: LCI #221 (2023-11-17) · [rulings](https://api.scryfall.com/cards/9acf80a5-f2ca-45b4-aca8-fbc690e35401/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2023-11-10* — Amalia Benavides Aguirre's power is checked only once, as the triggered ability resolves. If it is no longer on the battlefield at that point, use its power as it last existed on the battlefield.
+  - *2023-11-10* — Amalia Benavides Aguirre's power must be exactly 20 during the resolution of its last ability after it finishes exploring in order to destroy all other creatures. If it's more or less than 20, nothing is destroyed.
+  - *2023-11-10* — If a resolving spell or ability instructs a specific creature to explore but that creature has left the battlefield, the creature still explores. If you reveal a nonland card this way, you won't put a +1/+1 counter on anything, but you may put the revealed card into your graveyard. Effects that trigger "whenever a creature explores" trigger as appropriate.
+  - *2023-11-10* — If an ability instructs a creature to explore, its controller reveals the top card of their library. If it's a land card, they'll put it into their hand. Otherwise, they'll put a +1/+1 counter on that creature, then choose to either leave that card on top of their library or put it into their graveyard.
+  - *2023-11-10* — If multiple creatures with lifelink you control deal combat damage at the same time, the damage dealt by each of those creatures is a separate life-gaining event and Amalia Benavides Aguirre's ability will trigger that many times.
+  - *2023-11-10* — If no card is revealed, most likely because that player's library is empty, the exploring creature receives a +1/+1 counter.
+  - *2023-11-10* — In some unusual cases, noncreature permanents may explore. For example, if the creature card returned by Defossilize is somehow not a creature once it's on the battlefield, it can still explore. You'll take all the same actions, and you may end up putting a +1/+1 counter on the permanent. (Note that some effects target a creature, and those effects would still require a legal target to have it explore.)
+  - *2023-11-10* — Once an ability that causes a creature to explore begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the exploring creature after you reveal a nonland card but before it receives a counter.
+  - *2023-11-10* — Some spells or abilities might cause a creature to explore multiple times in a row. If you reveal a nonland card when a creature explores and leave it on top of your library, then the creature explores again immediately afterwards, you'll reveal the same card again.
+  - *2023-11-10* — The instruction for Amalia Benavides Aguirre to explore and the effect that occurs if Amalia Benavides Aguirre's power is exactly 20 are all part of the same ability. Players do not get to chance to respond to the ability after knowing the result of the explore.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/221/amalia-benavides-aguirre) · oracle_id `85eefda9-4aab-467d-a08c-be026cb8ff42` · printing: LCI #221 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Amarant Coral
 
@@ -181,6 +192,7 @@
 - **Flavor text** (SPM printing):
   > *"Hey, who added these deadly laser beams? Rude."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4102 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/25/amazing-acrobatics) · oracle_id `0466f23c-d07c-4015-82d5-eab4b226f1ff` · printing: SPM #25 (2025-09-26) · [rulings](https://api.scryfall.com/cards/9a2f6d84-3d83-4f48-9906-11f681171930/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Amazing Alliance
@@ -289,6 +301,7 @@
   > *"Conquering your first world is the hardest, after all. My power grew as I moved from world to world, taking anything that would make the next taking easier."*
   > *—Ob Nixilis*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3709 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/246/ambitions-cost) · oracle_id `84de4fec-2f38-4293-93d3-b3882c5aac14` · printing: MOC #246 (2023-04-21) · [rulings](https://api.scryfall.com/cards/d560c996-ef80-4117-8642-a632ae51c07d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ambitious Aetherborn
@@ -379,7 +392,11 @@
   > Landfall — Whenever a land you control enters, Ambrosia Whiteheart gets +1/+0 until end of turn.
 - **Keywords:** Flash, Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5699 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/6/ambrosia-whiteheart) · oracle_id `2bcc9f11-5b12-433e-9680-0f4b18aa521c` · printing: FIN #6 (2025-06-13) · [rulings](https://api.scryfall.com/cards/f2596767-7d19-4110-86ed-3cfc93ac7483/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-07-25* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2025-07-25* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2025-07-25* — Whenever a land you control enters, each landfall ability of permanents you control will trigger. You can put them on the stack in any order. The last ability you put on the stack will be the first one to resolve. As a result, you can have those abilities resolve in the order of your choosing.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/6/ambrosia-whiteheart) · oracle_id `2bcc9f11-5b12-433e-9680-0f4b18aa521c` · printing: FIN #6 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ambulatory Edifice
 
@@ -510,6 +527,7 @@
   > *—Uta Falkenrath*
 - **Keywords:** Flash, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4848 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/186/ambush-viper) · oracle_id `8957f7c2-040c-4048-9f21-efa7c97682b7` · printing: INR #186 (2025-01-24) · [rulings](https://api.scryfall.com/cards/37f9be6b-ae6e-4708-9749-83bebd351102/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ambush Wolf
@@ -551,7 +569,15 @@
 - **Oracle text:**
   > Exile the top eight cards of your library. You may put a land card from among them onto the battlefield. Until end of turn, for each nonland card type, you may cast a spell of that type from among the exiled cards without paying its mana cost.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2498 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/71/aminatous-augury) · oracle_id `c9160997-0305-47f5-9a2f-77588d167da0` · printing: DSC #71 (2024-09-27) · [rulings](https://api.scryfall.com/cards/503448da-d14f-4759-85b6-0db2e90e0241/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2018-07-13* — Casting an exiled card causes it to leave exile. You can't cast it multiple times.
+  - *2018-07-13* — If a nonland card has multiple types, such as an artifact creature, you may cast it as either of those types. For example, you could cast one artifact creature as your artifact card and another artifact creature as your creature card.
+  - *2018-07-13* — If a spell has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2018-07-13* — If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs, such as evoke costs. You can, however, pay additional costs. If the card has any mandatory additional costs, such as that of Tormenting Voice, those must be paid to cast the card.
+  - *2018-07-13* — If you exile a land with another card type, you can't play it later in the turn. You can only put it onto the battlefield at the time Aminatou's Augury instructs you to.
+  - *2018-07-13* — If you wish to put a land card onto the battlefield, you do so while Aminatou's Augury is resolving, before you're allowed to cast any of the other cards. You may do this even if you've already played a land this turn.
+  - *2018-07-13* — You must follow the normal timing permissions and restrictions of each spell you cast.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/71/aminatous-augury) · oracle_id `c9160997-0305-47f5-9a2f-77588d167da0` · printing: DSC #71 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aminatou, the Fateshifter
 
@@ -564,7 +590,16 @@
   > −6: Choose left or right. Each player gains control of all nonland permanents other than Aminatou controlled by the next player in the chosen direction.
   > Aminatou, the Fateshifter can be your commander.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4421 · Game Changer: no · Can be commander: Yes (Oracle text: "can be your commander")
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/169/aminatou-the-fateshifter) · oracle_id `3a30089d-cd2d-49be-9b06-7a2454117692` · printing: 2X2 #169 (2022-07-08) · [rulings](https://api.scryfall.com/cards/bc010302-e715-4946-89eb-a214e0b836ba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2018-07-13* — Aminatou's second ability can target any permanent you own, including those another player controls.
+  - *2018-07-13* — As Aminatou's third ability resolves, you choose a direction, then each player takes control of their new permanents at the same time.
+  - *2018-07-13* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
+  - *2018-07-13* — In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. The effect of Aminatou's third ability stops applying to all permanents that player controlled and control of them reverts to their previous controller.
+  - *2018-07-13* — In a two-player game, each player gains control of each permanent the other controls (aside from Aminatou) no matter which direction you choose.
+  - *2018-07-13* — Once the exiled permanent returns, it's considered a new object with no relation to the object that it was. Auras attached to the exiled permanent will be put into their owners' graveyards. Equipment attached to the exiled permanent will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist.
+  - *2018-07-13* — The effect of Aminatou's third ability lasts indefinitely. It continues to apply after Aminatou (or her controller) leaves the game.
+  - *2018-07-13* — You draw a card and put one back all while Aminatou's first ability is resolving. Nothing can happen between the two, and no player may choose to take actions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/169/aminatou-the-fateshifter) · oracle_id `3a30089d-cd2d-49be-9b06-7a2454117692` · printing: 2X2 #169 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aminatou, Veil Piercer
 
@@ -576,7 +611,19 @@
   > Each enchantment card in your hand has miracle. Its miracle cost is equal to its mana cost reduced by {4}. (You may cast a card for its miracle cost when you draw it if it's the first card you drew this turn.)
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5569 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/1/aminatou-veil-piercer) · oracle_id `bf45f5ee-4d5f-4920-b612-b5492c2f035d` · printing: DSC #1 (2024-09-27) · [rulings](https://api.scryfall.com/cards/9f868023-6035-403d-ba91-7a4840c6c392/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2024-09-20* — If an effect puts a card into your hand without using the word "draw," the card wasn't drawn.
+  - *2024-09-20* — If the card with miracle leaves your hand before the triggered ability resolves, you won't be able to cast it using its miracle ability.
+  - *2024-09-20* — It's important to reveal a card with miracle before it is mixed with the other cards in your hand.
+  - *2024-09-20* — Miracle is an alternative cost to cast the spell with miracle. It can't be combined with other alternative costs, such as casting a spell "without paying its mana cost." You may, however, pay additional costs, such as kicker. If the spell has any mandatory additional costs, those must be paid to cast the spell.
+  - *2024-09-20* — Multiple card draws are always treated as a sequence of individual card draws. For example, if you haven't drawn any cards yet during a turn and cast a spell that instructs you to draw three cards, you'll draw them one at a time. Only the first card drawn this way may be revealed and cast using its miracle ability.
+  - *2024-09-20* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a miracle cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+  - *2024-09-20* — You can cast a card for its miracle cost only as the miracle triggered ability resolves. If you don't want to cast it at that time (or you can't cast it, perhaps because there are no legal targets available), you won't be able to cast it later for the miracle cost.
+  - *2024-09-20* — You can reveal and cast a card with miracle on any turn, not just your own, if it's the first card you've drawn that turn.
+  - *2024-09-20* — You cast the card with miracle during the resolution of the triggered ability. Ignore any timing rules based on the card's type.
+  - *2024-09-20* — You don't have to reveal a drawn card with miracle if you don't wish to cast it at that time.
+  - *2024-09-20* — You still draw the card, whether you use the miracle ability or not. Any ability that triggers whenever you draw a card, for example, will trigger. If you don't cast the card using its miracle ability, it will remain in your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/1/aminatou-veil-piercer) · oracle_id `bf45f5ee-4d5f-4920-b612-b5492c2f035d` · printing: DSC #1 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ammit Eternal
 
@@ -614,7 +661,9 @@
   > {T}: Target creature loses all creature types until end of turn.
 - **Keywords:** Changeling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4901 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lrw/51/amoeboid-changeling) · oracle_id `68865793-daeb-4c55-80cb-12853f9f96c4` · printing: LRW #51 (2007-10-12) · [rulings](https://api.scryfall.com/cards/068518d2-f061-4061-b208-158e991156b6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2007-10-01* — If a creature loses all creature types but then gains a new creature type later in the turn, it will be that new creature type.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lrw/51/amoeboid-changeling) · oracle_id `68865793-daeb-4c55-80cb-12853f9f96c4` · printing: LRW #51 (2007-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Amok
 
@@ -652,7 +701,14 @@
   > *Stage 2: The sands and waters of Amonkhet.*
 - **Keywords:** Max speed, Start your engines!
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2333 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dft/248/amonkhet-raceway) · oracle_id `fe174586-d36b-40f6-babd-1f98e76eec22` · printing: DFT #248 (2025-02-14) · [rulings](https://api.scryfall.com/cards/4f312807-ea2a-4385-8774-4e23b4a5d4a6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-02-07* — A player “has max speed” if their speed is 4.
+  - *2025-02-07* — Each player tracks their speed (or lack thereof) separately. Increasing your speed has no effect on whether another player has speed.
+  - *2025-02-07* — If an effect needs to know what a player’s speed is and that player doesn’t have a speed, their speed is considered 0.
+  - *2025-02-07* — Start your engines! isn’t a triggered ability. Increasing your speed to 1 is something that happens as a state-based action as soon as you control a permanent with the ability. Notably, this includes gaining control of a permanent with the ability that another player controls.
+  - *2025-02-07* — Your speed doesn’t change until a spell or ability says so, such as the inherent triggered ability that cares about opponents losing life during your turn. Notably, losing control of permanents with start your engines! doesn’t affect your speed.
+  - *2025-02-07* — “Max speed — [ability]” means “As long as you have max speed, this object has [ability].” If the granted ability functions in a zone other than the battlefield, the max speed ability does too.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dft/248/amonkhet-raceway) · oracle_id `fe174586-d36b-40f6-babd-1f98e76eec22` · printing: DFT #248 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Amorphous Axe
 
@@ -677,7 +733,20 @@
   > When this creature enters, you get {E}{E} (two energy counters). Then if you cast it from your hand, exile cards from the top of your library until you exile a nonland card. You may cast that card by paying an amount of {E} equal to its mana value rather than paying its mana cost.
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7769 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/114/amped-raptor) · oracle_id `3ed14ea7-ee62-4604-af3b-deafb00108c3` · printing: MH3 #114 (2024-06-14) · [rulings](https://api.scryfall.com/cards/1ac0e78b-0fdd-44f9-8b7b-c4f28a32782e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2024-06-07* — Any land cards exiled with Amped Raptor's triggered ability will remain in exile. If you choose not to cast the exiled nonland card (either because you don't have enough {E} or you just don't want to), that card will remain in exile as well.
+  - *2024-06-07* — Energy counters are a kind of counter that a player may have. They're not associated with any specific permanents.
+  - *2024-06-07* — Energy counters aren't mana. They don't go away as steps, phases, and turns end, and effects that add mana "of any type" can't give you energy counters.
+  - *2024-06-07* — If a spell or ability with one or more targets states that you "may pay" some amount of {E}, and each permanent that it targets has become an illegal target, the spell or ability won't resolve. You can't pay any {E} even if you want to.
+  - *2024-06-07* — If an effect says you get one or more {E}, you get that many energy counters. To pay one or more {E}, you lose that many energy counters. You can't pay more energy counters than you have. Any effects that interact with counters a player gets, has, or loses can interact with energy counters.
+  - *2024-06-07* — If you cast a spell for another cost "rather than paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs, such as kicker costs. If the spell has any mandatory additional costs, those must be paid to cast it.
+  - *2024-06-07* — Keep track of how many energy counters each player has. Potential ways to track this include writing theme down on paper or using dice, but any method that is clear and mutually agreeable is fine. (At higher levels of tournament play, dice may not be allowed for tracking counters that players have.)
+  - *2024-06-07* — Some spells and abilities that give you {E} may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't get any {E}.
+  - *2024-06-07* — Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
+  - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
+  - *2024-06-07* — You choose whether or not to cast the exiled nonland card as Amped Raptor's triggered ability resolves. If you do, you do so as part of the resolution of that ability. You can't wait to cast it later in the turn. Timing restrictions based on the card's type are ignored.
+  - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/114/amped-raptor) · oracle_id `3ed14ea7-ee62-4604-af3b-deafb00108c3` · printing: MH3 #114 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Amped Up
 
@@ -702,7 +771,20 @@
   > Enchanted creature loses all abilities and is a blue Frog creature with base power and toughness 1/1.
 - **Keywords:** Storm, Enchant, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1232 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/51/amphibian-downpour) · oracle_id `a4280cea-386b-450d-a7e9-29c7aa58ce5a` · printing: MH3 #51 (2024-06-14) · [rulings](https://api.scryfall.com/cards/2d8aeca5-622a-45be-8168-07e7c00e3092/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2024-06-07* — A copy of a spell can be countered like any other spell, but it must be countered individually. Countering a spell with storm won't affect the copies.
+  - *2024-06-07* — Amphibian Downpour may enchant a permanent that is only temporarily a creature, such as a Vehicle. If this happens, Amphibian Downpour's effect causes the enchanted permanent to remain a 1/1 blue Frog creature even after the temporary effect making it a creature expires.
+  - *2024-06-07* — Amphibian Downpour overwrites all colors and creature types the enchanted creature has. It's just a blue Frog. The creature keeps any supertypes it has (such as legendary) but loses any other card types it has (such as artifact).
+  - *2024-06-07* — Amphibian Downpour overwrites all previous effects that set the creature's base power and toughness to specific values. Any power- or toughness-setting effects that start to apply afterward will overwrite this effect.
+  - *2024-06-07* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to a creature may become lethal if Amphibian Downpour becomes attached to it during that turn.
+  - *2024-06-07* — Effects that modify the creature's power and/or toughness, such as the effect of Wing It, will apply to the creature no matter when they started to take effect. The same is true for counters that change its power and/or toughness and effects that switch its power and toughness.
+  - *2024-06-07* — If the enchanted creature gains an ability after Amphibian Downpour becomes attached to it, it will keep that ability.
+  - *2024-06-07* — If the enchanted creature has any subtypes other than creature types, such as Equipment, Vehicle, or Urza's, it loses those as well.
+  - *2024-06-07* — Spells cast from zones other than a player's hand and spells that were countered or otherwise failed to resolve are counted by the storm ability.
+  - *2024-06-07* — The copies are put directly onto the stack. They aren't cast and won't be counted by other spells with storm cast later in the turn.
+  - *2024-06-07* — The triggered ability that creates the copies can itself be countered by anything that can counter a triggered ability. If it is countered, no copies will be put onto the stack.
+  - *2024-06-07* — You may choose new targets for any of the copies. You can make different choices for each copy.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/51/amphibian-downpour) · oracle_id `a4280cea-386b-450d-a7e9-29c7aa58ce5a` · printing: MH3 #51 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Amphibious Kavu
 
@@ -739,7 +821,16 @@
   > Encore {4}{U}{U} ({4}{U}{U}, Exile this card from your graveyard: For each opponent, create a token copy that attacks that opponent this turn if able. They gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery.)
 - **Keywords:** Encore
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3583 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/143/amphin-mutineer) · oracle_id `8910f79a-66c9-41b3-b55a-e3e651ae6f26` · printing: TDC #143 (2025-04-11) · [rulings](https://api.scryfall.com/cards/967b5ed9-7275-4564-8bf9-2748fea2f387/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2020-11-10* — Each token must attack the appropriate player if able.
+  - *2020-11-10* — Exiling the card with encore is a cost to activate the ability. Once you announce that you're activating it, no player may take actions until you've finished. They can't try to remove the card from your graveyard to stop you from paying the cost.
+  - *2020-11-10* — If one of the tokens can't attack for any reason (such as being tapped), then it doesn't attack. If there's a cost associated with having it attack, you aren't forced to pay that cost, so it doesn't have to attack in that case either.
+  - *2020-11-10* — If one of the tokens somehow is under another player's control as the delayed triggered ability resolves, you can't sacrifice that token. It remains on the battlefield indefinitely, even if you regain control of it later.
+  - *2020-11-10* — If the target non-Salamander creature is an illegal target by the time Amphin Mutineer's ability tries to resolve, the ability doesn't resolve. No player creates a Salamander Warrior token.
+  - *2020-11-10* — Opponents who have left the game aren't counted when determining how many tokens to create.
+  - *2020-11-10* — The tokens copy only what's on the original card. Effects that modified that creature when it was previously on the battlefield won't be copied.
+  - *2023-07-28* — If an effect stops a token from attacking a specific player, that token can attack any player, planeswalker, or battle, or not attack at all. If the effect stops the token from attacking a specific player unless a cost is paid, you don't have to pay that cost unless you want to attack that player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/143/amphin-mutineer) · oracle_id `8910f79a-66c9-41b3-b55a-e3e651ae6f26` · printing: TDC #143 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Amphin Pathmage
 
@@ -882,7 +973,10 @@
   > *"After years of study, I've learned an important lesson: the relics we watch may be watching us back."*
   > *—Anowon, the Ruin Sage*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1271 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/wwk/121/amulet-of-vigor) · oracle_id `dba16032-66c1-4ccb-9d65-d41ac550d182` · printing: WWK #121 (2010-02-05) · [rulings](https://api.scryfall.com/cards/997bc933-ac30-477b-a4e1-5333b796a99d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2010-03-01* — For Amulet of Vigor's ability to trigger, a permanent must enter tapped due to an effect that says "put [the permanent] onto the battlefield tapped," "[this permanent] enters tapped," or the like. If it enters untapped, the ability won't trigger, even if you tap that permanent afterward.
+  - *2010-03-01* — If you control more than one Amulet of Vigor, each Amulet's ability triggers when a permanent enters tapped and under your control. The first ability that resolves will untap that permanent. If the permanent somehow becomes tapped again before the next ability resolves, the next ability will untap it as well (and so on).
+- **Source flags:** [Scryfall](https://scryfall.com/card/wwk/121/amulet-of-vigor) · oracle_id `dba16032-66c1-4ccb-9d65-d41ac550d182` · printing: WWK #121 (2010-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Amy Pond
 
@@ -907,6 +1001,7 @@
   > Whenever Amy Rose attacks, attach up to one target Equipment to her. Then up to one other target attacking creature gets +X/+0 until end of turn, where X is Amy Rose's power.
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7933 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/2083/amy-rose) · oracle_id `b2d597b4-f9ba-44b0-a947-0c2ecda2d308` · printing: SLD #2083 (2025-07-14) · [rulings](https://api.scryfall.com/cards/6ac0c02f-6428-4ed0-bd1a-bf9f4af9c3c1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Amzu, Swarm's Hunger
@@ -920,4 +1015,6 @@
   > Whenever one or more cards leave your graveyard, you may create a 1/1 black and green Insect creature token, then put a number of +1/+1 counters on it equal to the greatest mana value among those cards. Do this only once each turn.
 - **Keywords:** Flying, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7970 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/24/amzu-swarms-hunger) · oracle_id `6777863c-e52c-4a7c-b8d2-a16b1438b3d2` · printing: CLU #24 (2024-02-23) · [rulings](https://api.scryfall.com/cards/634f6f70-347e-436f-abf9-4a573472e2c8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-02-02* — If multiple cards leave your graveyard at the same time, Amzu, Swarm's Hunger's ability will trigger only once.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/24/amzu-swarms-hunger) · oracle_id `6777863c-e52c-4a7c-b8d2-a16b1438b3d2` · printing: CLU #24 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

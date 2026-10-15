@@ -47,6 +47,7 @@
   > *—Theria the Sly, last words*
 - **Keywords:** Flying, Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3546 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/229/rapacious-dragon) · oracle_id `0944ec2e-1dd9-459f-8f1d-667242cf52fe` · printing: TDC #229 (2025-04-11) · [rulings](https://api.scryfall.com/cards/1098504a-977a-4733-a1ee-086461113a84/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rapacious Guest
@@ -61,7 +62,14 @@
   > When this creature leaves the battlefield, target opponent loses life equal to its power.
 - **Keywords:** Food, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3369 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/28/rapacious-guest) · oracle_id `54accd4a-b471-4ae5-b3b2-a5cec44023b7` · printing: LTC #28 (2023-06-23) · [rulings](https://api.scryfall.com/cards/ff9dfba4-07d2-4407-a441-88acc7284d43/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-06-16* — Rapacious Guest's third ability triggers whenever you sacrifice a Food for any reason, not just to activate a Food's activated ability.
+  - *2023-06-16* — To determine the amount of life the target opponent loses from Rapacious Guest's last ability, use Rapacious Guest's power as it last existed on the battlefield, not its power in the graveyard.
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, you can sacrifice Tough Cookie (an Artifact Creature — Food Golem) to activate Maraleaf Rider's ability (an ability with "Sacrifice a Food" in its cost).
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/28/rapacious-guest) · oracle_id `54accd4a-b471-4ae5-b3b2-a5cec44023b7` · printing: LTC #28 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rapacious One
 
@@ -86,6 +94,7 @@
   > At the beginning of each end step, if a creature card was put into your graveyard from anywhere this turn, create a 1/1 red Devil creature token with "When this token dies, it deals 1 damage to any target."
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5764 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/292/raphael-fiendish-savior) · oracle_id `23bd166b-d766-4d03-8016-6708481d2195` · printing: CLB #292 (2022-06-10) · [rulings](https://api.scryfall.com/cards/cc6902a4-2db0-47fe-ace8-0c890675bf19/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raphael, Most Attitude
@@ -153,7 +162,20 @@
   > Partner—Character select (You can have two commanders if both have this ability.)
 - **Keywords:** Partner, Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7360 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmc/4/raphael-the-muscle) · oracle_id `22008c3b-6e15-41cc-a15c-7871495191aa` · printing: TMC #4 (2026-03-06) · [rulings](https://api.scryfall.com/cards/bccdd54c-e64b-44d2-87b3-e80029672529/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2026-01-27* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2026-01-27* — Both commanders start in the command zone, and the remaining 98 cards of your deck are shuffled to become your library.
+  - *2026-01-27* — If damage dealt by a creature you control with counters on it is being divided or assigned among multiple permanents and/or players, that damage is divided or assigned before doubling. For example, if you attack with a 5/5 creature with trample and it's blocked by a 2/2 creature, you can assign 2 damage to the blocker and 3 damage to the defending player. Those amounts are then doubled to 4 and 6, respectively.
+  - *2026-01-27* — If other effects modify how much damage a creature you control with counters on it would deal—by preventing some of it, for example—the player being dealt damage or the controller of the permanent being dealt damage chooses the order in which any such effects (including Raphael's) apply. If all of the damage is prevented, Raphael's effect no longer applies.
+  - *2026-01-27* — If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+  - *2026-01-27* — If your Commander deck has two commanders, you can only include cards whose own color identities are also found in your commanders' combined color identities. If Donatello, the Brains and Splinter, the Mentor are your commanders, your deck may contain cards with blue and/or black in their color identity, but not cards with red, green, or white. (If Leonardo, the Balance is one of your commanders, your deck may contain cards with any color or combination of colors in their color identity, regardless of who your other commander is.)
+  - *2026-01-27* — Mutagen tokens are a kind of predefined token. Each one is a colorless artifact with the artifact subtype Mutagen and the ability "{1}, {T}, Sacrifice this token: Put a +1/+1 counter on target creature. Activate only as a sorcery."
+  - *2026-01-27* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from any one of them, not from both of them combined.
+  - *2026-01-27* — Some spells and abilities that create Mutagen tokens require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Mutagen token won't be created.
+  - *2026-01-27* — The damage is dealt by the same source as the original source of damage. The doubled damage isn't dealt by Raphael unless he was the original source of damage.
+  - *2026-01-27* — To have two commanders, both must have appropriate partner abilities as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
+  - *2026-01-27* — You can have two commanders if each one has "Partner—Character select." You can't mix and match them with cards that have other partner abilities.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmc/4/raphael-the-muscle) · oracle_id `22008c3b-6e15-41cc-a15c-7871495191aa` · printing: TMC #4 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raphael, the Nightwatcher
 
@@ -167,7 +189,11 @@
   > *"Time to punch in."*
 - **Keywords:** Sneak
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6860 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/103/raphael-the-nightwatcher) · oracle_id `8c1e5b25-ee5a-4ea9-a715-08dd1a4f51c4` · printing: TMT #103 (2026-03-06) · [rulings](https://api.scryfall.com/cards/6af50b50-3776-4383-b493-7c5dd732c965/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2026-01-27* — Although a creature put onto the battlefield this way is attacking, it was never declared as an attacking creature. Abilities that trigger whenever a creature attacks won't trigger when that creature enters attacking.
+  - *2026-01-27* — If a creature spell's sneak cost was paid, the creature it becomes enters tapped and attacking the same player, planeswalker, or battle as the creature that was returned to its owner's hand to pay its sneak cost. This is a rule specific to sneak; in other cases, when a creature is put onto the battlefield attacking, that creature's controller chooses which player, planeswalker, or battle it's attacking.
+  - *2026-01-27* — Spells can only be cast for their sneak costs any time you could play an instant during the declare blockers step on your turn (after your opponent has decided whether to block).
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/103/raphael-the-nightwatcher) · oracle_id `8c1e5b25-ee5a-4ea9-a715-08dd1a4f51c4` · printing: TMT #103 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raphael, Tough Turtle
 
@@ -193,6 +219,7 @@
 - **Flavor text** (TMT printing):
   > *At odds as brothers, perfectly in sync as fighters.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8586 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/166/raph-&-leo-sibling-rivals) · oracle_id `57f39ce2-ecbb-4262-8140-03aba5c4303f` · printing: TMT #166 (2026-03-06) · [rulings](https://api.scryfall.com/cards/49293f77-5d7b-4106-b485-db6ce0ed37e6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raph & Mikey, Troublemakers
@@ -205,7 +232,10 @@
   > Whenever Raph & Mikey attack, reveal cards from the top of your library until you reveal a creature card. Put that card onto the battlefield tapped and attacking and the rest on the bottom of your library in a random order.
 - **Keywords:** Haste, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6265 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/167/raph-&-mikey-troublemakers) · oracle_id `82563a5f-cae4-4ece-876c-0df245d2dc58` · printing: TMT #167 (2026-03-06) · [rulings](https://api.scryfall.com/cards/8795fba4-0ff3-4c04-a81c-60408608a00c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2026-01-27* — Although the creature you put onto the battlefield is attacking, it was never declared as an attacking creature. Abilities that trigger whenever a creature attacks won't trigger when that creature enters attacking.
+  - *2026-01-27* — You choose the player, planeswalker, or battle the creature you put onto the battlefield is attacking. It doesn't have to be the same player, planeswalker, or battle that Raph & Mikey or any other attacking creatures are attacking.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/167/raph-&-mikey-troublemakers) · oracle_id `82563a5f-cae4-4ece-876c-0df245d2dc58` · printing: TMT #167 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raph's Bravado
 
@@ -229,7 +259,11 @@
   > Whenever another creature you control enters, if it wasn't cast, put a +1/+1 counter on this creature and this creature can't be blocked this turn.
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7969 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blc/38/rapid-augmenter) · oracle_id `098a43e3-341d-4b27-8c17-ef5990e21b0a` · printing: BLC #38 (2024-08-02) · [rulings](https://api.scryfall.com/cards/c4643565-a462-45ce-b5ed-f19b796a64c5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-07-26* — If a creature has a characteristic-defining ability that sets its power, indicated with a */* or similar in the power and toughness box, that ability is taken into account when determining its base power.
+  - *2024-07-26* — Normally, a creature's base power is the power printed on the card or, for a token, the power set by the effect that created it. If an effect modifies a creature's power without setting it, that is not included when determining its base power.
+  - *2024-07-26* — Some creatures have base power and toughness 0/0 and an ability that gives them a bonus based on some criteria. Those are not characteristic-defining abilities, and that ability doesn't change its base power.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blc/38/rapid-augmenter) · oracle_id `098a43e3-341d-4b27-8c17-ef5990e21b0a` · printing: BLC #38 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rapid Decay
 
@@ -349,4 +383,5 @@
 - **Flavor text** (SOS printing):
   > *Fireworks of all kinds fill the skies of Summitfest.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7637 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/219/rapturous-moment) · oracle_id `c997afb7-82cb-4579-885e-3628cb1b51e4` · printing: SOS #219 (2026-04-24) · [rulings](https://api.scryfall.com/cards/21afe19d-881a-48cb-863e-22942bea5ebe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

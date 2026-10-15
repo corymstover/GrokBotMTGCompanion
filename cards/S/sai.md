@@ -65,7 +65,15 @@
   > Will of the council — Starting with you, each player votes for return or embark. If return gets more votes, each player returns up to two cards from their graveyard to their hand, then you exile Sail into the West. If embark gets more votes or the vote is tied, each player may discard their hand and draw seven cards.
 - **Keywords:** Will of the council
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9876 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/68/sail-into-the-west) · oracle_id `0a8956d0-bd37-4305-8443-4df043796f6e` · printing: LTC #68 (2023-06-23) · [rulings](https://api.scryfall.com/cards/b293d4cb-0920-46ef-bf4e-fc6a796df290/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-06-16* — Abilities that trigger "whenever players finish voting" trigger once all players have voted or once all secret votes are revealed, but they won't go on the stack until the current spell or ability finishes resolving.
+  - *2023-06-16* — Each player must vote for one of the available options. They can't abstain.
+  - *2023-06-16* — If embark gets more votes or the vote is tied, players decide and announce in turn order, starting with the active player, whether or not they want to discard their hand. Then, all players who chose to do so discard their hands and draw seven cards. Players later in the turn order will know if players before them are discarding, but they don't get to see what those players will discard to help them decide whether to discard themselves.
+  - *2023-06-16* — If return gets more votes, first the active player chooses which cards they'll return from their graveyard to their hand, then each other player in turn order does the same, knowing choices made before their choice. Then all those cards are returned from graveyards to hands simultaneously.
+  - *2023-06-16* — In the case of non-secret voting, votes are cast in turn order, and each player will know the votes of players who voted beforehand.
+  - *2023-06-16* — No player votes until the spell or ability resolves. Any responses to that spell or ability must be made without knowing the outcome of the vote.
+  - *2023-06-16* — The phrase "the vote is tied" refers only to when there is more than one choice that received the most votes. For example, if a 5-player vote from among three different choices ends 3 votes to 1 vote to 1 vote, the vote isn't tied.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/68/sail-into-the-west) · oracle_id `0a8956d0-bd37-4305-8443-4df043796f6e` · printing: LTC #68 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sailmonger
 

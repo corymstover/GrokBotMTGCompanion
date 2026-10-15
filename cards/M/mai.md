@@ -76,6 +76,7 @@
   > *"You miscalculated. I love Zuko more than I fear you."*
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4916 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/109/mai-scornful-striker) · oracle_id `953a2bd3-5bca-41fc-8785-66b2d7fa381a` · printing: TLA #109 (2025-11-21) · [rulings](https://api.scryfall.com/cards/74dd4c0e-27b8-4c47-b7a6-a281413cd6b4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maître Tree

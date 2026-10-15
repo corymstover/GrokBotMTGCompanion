@@ -217,7 +217,11 @@
   > Equip {3}
 - **Keywords:** Equip, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1376 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eld/120/embercleave) · oracle_id `4d6120d6-fcce-40bc-9fc6-e1f5beb6c728` · printing: ELD #120 (2019-10-04) · [rulings](https://api.scryfall.com/cards/aaae15dd-11b6-4421-99e9-365c7fe4a5d6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — Embercleave's second ability can't reduce its cost below {R}{R}.
+  - *2024-11-08* — Once you announce that you're casting a spell, no player may take actions until the spell has been paid for. Notably, opponents can't try to increase Embercleave's cost by removing attacking creatures you control.
+  - *2024-11-08* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eld/120/embercleave) · oracle_id `4d6120d6-fcce-40bc-9fc6-e1f5beb6c728` · printing: ELD #120 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Embereth Paladin
 
@@ -246,7 +250,18 @@
 - **Flavor text** (CLB printing):
   > *"Courage is the only shield I need."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9284 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/792/embereth-shieldbreaker-battle-display) · oracle_id `52e439d0-a263-4d53-9ae3-fa1f8aa8293e` · printing: CLB #792 (2022-06-10) · [rulings](https://api.scryfall.com/cards/e2f789b3-3274-4a93-b44b-fabc44c1833c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2019-10-04* — An adventurer card is a permanent card in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it's in your graveyard, Giant Killer is a white creature card whose mana value is 1. It can't be the target of the triggered ability of Mystic Sanctuary.
+  - *2019-10-04* — Casting a card as an Adventure isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Adventure.
+  - *2019-10-04* — If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner's graveyard as it resolves. For as long as it remains exiled, that player may cast it as a permanent spell. If an Adventure spell leaves the stack in any way other than resolving (most likely by being countered or by failing to resolve because its targets have all become illegal), that card won't be exiled and the spell's controller won't be able to cast it as a permanent later.
+  - *2019-10-04* — If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won't give you permission to cast it as a permanent spell.
+  - *2019-10-04* — If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it's not possible to cast the copy as a permanent.
+  - *2019-10-04* — If an effect instructs you to choose a card name, you may choose the alternative Adventure name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2019-10-04* — If an object becomes a copy of an object that has an Adventure, the copy also has an Adventure. If it changes zones, it will either cease to exist (if it's a token) or cease to be a copy (if it's a nontoken permanent), and so you won't be able to cast it as an Adventure.
+  - *2019-10-04* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell. For example, if Giant Killer is exiled with the last ability of Vivien, Champion of the Wilds, you can't cast it as Chop Down.
+  - *2019-10-04* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+  - *2019-10-04* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/792/embereth-shieldbreaker-battle-display) · oracle_id `52e439d0-a263-4d53-9ae3-fa1f8aa8293e` · printing: CLB #792 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Embereth Skyblazer
 
@@ -333,7 +348,12 @@
   > Valiant — Whenever this creature becomes the target of a spell or ability you control for the first time each turn, exile the top card of your library. Until end of turn, you may play that card.
 - **Keywords:** Prowess, Valiant, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9147 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/133/emberheart-challenger) · oracle_id `5b4b21ed-c24e-4038-83fb-bd7f3c3426cd` · printing: BLB #133 (2024-08-02) · [rulings](https://api.scryfall.com/cards/0035082e-bb86-4f95-be48-ffc87fe5286d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-07-26* — If a spell or ability you control has one or more of its targets changed to a creature you control with a valiant ability, that ability will trigger if that creature hasn't yet been the target of a spell or ability you control this turn.
+  - *2024-07-26* — If you create a copy of a spell on the stack and target a creature you control with a valiant ability, that ability will trigger as long as the creature hasn't yet been the target of a spell or ability you control this turn.
+  - *2024-07-26* — Valiant abilities will resolve before the spell or ability that caused them to trigger.
+  - *2024-07-26* — You pay all costs and follow all timing rules for cards played this way. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/133/emberheart-challenger) · oracle_id `5b4b21ed-c24e-4038-83fb-bd7f3c3426cd` · printing: BLB #133 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Emberhorn Minotaur
 
@@ -357,7 +377,13 @@
   > • Create a token that's a copy of target creature you control, except it's not legendary and it's a 4/4 Hero in addition to its other types.
   > • Create a token that's a copy of target creature an opponent controls, except it's not legendary and it's a 2/2 Coward in addition to its other types.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6619 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/48/ember-island-production) · oracle_id `0b786547-67ed-49fa-9981-35c4c2175f62` · printing: TLA #48 (2025-11-21) · [rulings](https://api.scryfall.com/cards/0f79a7fc-36b1-4397-8e67-6638379d3a38/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-10-02* — Any enters abilities of the copied creature will trigger when the token enters. Any "as [this creature] enters" or "[this creature] enters with" abilities of the targetted creature will also work.
+  - *2025-10-02* — If the copied creature has {X} in its mana cost, X is considered to be 0.
+  - *2025-10-02* — If the copied creature is a token, the token that's created copies the original characteristics of that token as stated by the effect that created the token, with the listed exceptions.
+  - *2025-10-02* — If the copied creature is copying something else (for example, if the copied creature is an Evil Twin), then the token enters as whatever that creature copied, with the listed exceptions.
+  - *2025-10-02* — The token copies exactly what was printed on the original creature and nothing else (unless that creature is copying something else or is a token; see below), with the listed exceptions. It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/48/ember-island-production) · oracle_id `0b786547-67ed-49fa-9981-35c4c2175f62` · printing: TLA #48 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Embermage Goblin
 
@@ -494,7 +520,16 @@
 - **Flavor text** (CMR printing):
   > *"You are bold, challenger, but flammable."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4130 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/175/emberwilde-captain) · oracle_id `4f4ec0fa-fcaf-4dc2-9c67-ee7881f5f77d` · printing: CMR #175 (2020-11-20) · [rulings](https://api.scryfall.com/cards/362850cd-d33c-4f61-9b3a-5de748adee7c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2020-11-10* — Emberwilde Captain's last ability triggers once for each player who attacks you, no matter how many creatures they attack with beyond the first.
+  - *2020-11-10* — Emberwilde Captain's last ability won't trigger if an opponent attacks only planeswalkers you control and not you.
+  - *2020-11-10* — If another player becomes the monarch after Emberwilde Captain's last ability triggers but before it resolves, the ability will resolve as normal. The player who attacked you will be dealt damage, even if that player was the one who became the monarch.
+  - *2020-11-10* — If combat damage dealt to the monarch causes that player to lose the game, the triggered ability that causes the controller of the attacking creature to become the monarch doesn't resolve. In most cases, the controller of the attacking creature will still become the monarch as it is likely their turn.
+  - *2020-11-10* — If the monarch leaves the game during another player's turn, that player becomes the monarch. If the monarch leaves the game during their turn, the next player in turn order becomes the monarch.
+  - *2020-11-10* — If the triggered ability that causes the monarch to draw a card goes on the stack and a different player becomes the monarch before that ability resolves, the first player will still draw the card.
+  - *2020-11-10* — The game starts with no monarch. Once an effect makes one player the monarch, the game will have exactly one monarch from that point forward. As a player becomes the monarch, the current monarch (if any) ceases being the monarch.
+  - *2020-11-10* — There are two inherent triggered abilities associated with being the monarch. These triggered abilities have no source and are controlled by the player who was the monarch at the time the abilities triggered. The full texts of these abilities are "At the beginning of the monarch's end step, that player draws a card" and "Whenever a creature deals combat damage to the monarch, its controller becomes the monarch."
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/175/emberwilde-captain) · oracle_id `4f4ec0fa-fcaf-4dc2-9c67-ee7881f5f77d` · printing: CMR #175 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Emberwilde Djinn
 
@@ -586,7 +621,10 @@
   > Landfall — Whenever a land you control enters, you may have target land you control become a 3/3 Elemental creature with haste until end of turn. It's still a land.
 - **Keywords:** Vigilance, Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7187 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znc/64/embodiment-of-insight) · oracle_id `ee1c7532-dc97-432d-964f-1c4087ab5248` · printing: ZNC #64 (2020-09-25) · [rulings](https://api.scryfall.com/cards/2f3d83f7-b087-4e9b-8e98-6b9b060d0627/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2016-01-22* — A “land creature” is a permanent that’s both a land and a creature.
+  - *2016-01-22* — You may target a land that’s already a creature. For example, if you target a land that’s also a 0/0 creature and has three +1/+1 counters on it, the resulting land creature will be 6/6.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znc/64/embodiment-of-insight) · oracle_id `ee1c7532-dc97-432d-964f-1c4087ab5248` · printing: ZNC #64 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Embodiment of Spring
 
@@ -658,7 +696,9 @@
   > *"Every lecture you attended—every theorem you memorized and equation you solved—has led to this first step into uncertainty."*
   > *—Professor Deekah*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9218 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/186/embrace-the-paradox) · oracle_id `b9110be0-3f0c-449b-8baf-689e92fdb8f0` · printing: SOS #186 (2026-04-24) · [rulings](https://api.scryfall.com/cards/c0cf5e0f-3668-46f2-850d-d91a538e8ead/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-03-20* — Putting a land card onto the battlefield with Embrace the Paradox doesn't count as playing a land. You can put a land card onto the battlefield this way even if you've already played a land for the turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/186/embrace-the-paradox) · oracle_id `b9110be0-3f0c-449b-8baf-689e92fdb8f0` · printing: SOS #186 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Embrace the Unknown
 
@@ -671,7 +711,13 @@
   > *"Everyone's gotta die somehow. I'll be damned if I meet my end cowering in some cellar."*
 - **Keywords:** Retrace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6743 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/28/embrace-the-unknown) · oracle_id `9f36dd20-350c-4046-b57f-e6b5cc9aa999` · printing: OTC #28 (2024-04-19) · [rulings](https://api.scryfall.com/cards/5aea4066-4f67-4a3d-b65d-04f74e1aaa76/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-04-12* — A retrace card cast from your graveyard follows the normal timing rules for its card type.
+  - *2024-04-12* — Casting a card by using its retrace ability works just like casting any other spell, with two exceptions: You’re casting it from your graveyard rather than your hand, and you must discard a land card in addition to any other costs.
+  - *2024-04-12* — If the active player casts a spell that has retrace, that player may cast that card again after it resolves, before another player can remove the card from the graveyard. The active player has priority after the spell resolves, so they can immediately cast a new spell. Since casting a card with retrace from the graveyard moves that card onto the stack, no one else would have the chance to affect it while it’s still in the graveyard.
+  - *2024-04-12* — When a retrace spell you cast from your graveyard resolves, fails to resolve, or is countered, it’s put back into your graveyard. You may use the retrace ability to cast it again.
+  - *2024-04-12* — You pay all costs and follow all normal timing rules for cards played from exile this way. For example, if an exiled card is a land card, you may play it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/28/embrace-the-unknown) · oracle_id `9f36dd20-350c-4046-b57f-e6b5cc9aa999` · printing: OTC #28 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Emcee
 
@@ -695,6 +741,7 @@
   > • Destroy target non-Aura enchantment.
   > • Target creature loses flying until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5939 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/158/emerald-charm) · oracle_id `904b3db5-70bc-4d49-9887-f504aff8666f` · printing: DMR #158 (2023-01-13) · [rulings](https://api.scryfall.com/cards/b5862e38-b48b-45e1-b0f6-d1d0d1124e50/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Emerald Collector
@@ -803,7 +850,9 @@
 - **Flavor text** (EOE printing):
   > *"This is your captain speaking. Our eternity drive has ruptured. Light be with you all."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8069 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/14/emergency-eject) · oracle_id `da363da1-aecf-4d49-8e77-8dc56981a741` · printing: EOE #14 (2025-08-01) · [rulings](https://api.scryfall.com/cards/fc98b2d4-86fc-4c47-b2a7-1f3c89463607/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-07-25* — If the target permanent is an illegal target as Emergency Eject tries to resolve, it won’t resolve and none of its effects will happen. The permanent’s controller won’t create a Lander token.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/14/emergency-eject) · oracle_id `da363da1-aecf-4d49-8e77-8dc56981a741` · printing: EOE #14 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Emergency Medical Hologram
 
@@ -889,7 +938,14 @@
 - **Oracle text:**
   > Search your library for up to three monocolored cards with different names and exile them. An opponent chooses one of those cards. Shuffle that card into your library. You may cast the other cards without paying their mana costs. Exile Emergent Ultimatum.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6968 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/iko/185/emergent-ultimatum) · oracle_id `0eecdfb3-3b05-4051-a660-060ff6df80ef` · printing: IKO #185 (2020-04-24) · [rulings](https://api.scryfall.com/cards/3a6a52ab-6d38-4429-9969-90064e615152/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-04-04* — A monocolored card is exactly one of white, blue, black, red, or green and no other colors. A colorless card isn’t monocolored.
+  - *2025-04-04* — Emergent Ultimatum is still on the stack while you cast the cards you found, so those spells could target it. However, once it’s exiled, it will no longer be a legal target.
+  - *2025-04-04* — If a spell has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2025-04-04* — If you cast a spell “without paying its mana cost,” you can’t choose to cast it for any alternative costs. You can, however, pay additional costs, such as kicker costs. If the spell has any mandatory additional costs, those must be paid to cast the spell.
+  - *2025-04-04* — If you find only one card, you’ll shuffle it into your library and exile Emergent Ultimatum without casting anything.
+  - *2025-04-04* — If you wish to cast any exiled cards, you do so as part of the resolution of Emergent Ultimatum. You can’t wait to cast them later. Timing permissions based on a card’s type are ignored.
+- **Source flags:** [Scryfall](https://scryfall.com/card/iko/185/emergent-ultimatum) · oracle_id `0eecdfb3-3b05-4051-a660-060ff6df80ef` · printing: IKO #185 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Emergent Woodwurm
 
@@ -901,7 +957,14 @@
   > Whenever this creature attacks, look at the top X cards of your library, where X is its power. You may put a permanent card with mana value X or less from among them onto the battlefield. Put the rest on the bottom of your library in a random order.
 - **Keywords:** Backup
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6981 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/37/emergent-woodwurm) · oracle_id `a74e41b4-6284-453c-a586-d575735dca65` · printing: MOC #37 (2023-04-21) · [rulings](https://api.scryfall.com/cards/af1b9c3d-5700-4298-a6a5-9379cad8726e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-04-14* — Backup confers only abilities that are actually printed below it. Any abilities that are gained by the permanent are ignored, including abilities gained due to a resolving spell or ability or copy effects.
+  - *2023-04-14* — If a backup ability causes another creature to gain abilities, the creature with backup will still have those abilities.
+  - *2023-04-14* — If a backup ability targets the creature with backup, that creature will get +1/+1 counters, but it won’t gain additional abilities.
+  - *2023-04-14* — If a permanent enters the battlefield as a copy of a card with a backup ability or a token is created that is a copy of that card, the order of the printed abilities is maintained.
+  - *2023-04-14* — The abilities that backup grants to the target creature are determined only once, at the time the ability triggers. They won’t change if the permanent with backup loses any abilities before the backup ability resolves.
+  - *2023-04-14* — Use the power of the creature as the triggered ability resolves to determine the value of X. If the creature is no longer on the battlefield at that time, use its power from when it was last on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/37/emergent-woodwurm) · oracle_id `a74e41b4-6284-453c-a586-d575735dca65` · printing: MOC #37 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Emerge Unscathed
 
@@ -912,7 +975,17 @@
   > Rebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)
 - **Keywords:** Rebound
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8518 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ima/19/emerge-unscathed) · oracle_id `894015d5-ee78-45df-8d37-53df963c59a6` · printing: IMA #19 (2017-11-17) · [rulings](https://api.scryfall.com/cards/d016f166-183e-4d9e-9292-9bfb1ca0d72b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2010-06-15* — At the beginning of your upkeep, all delayed triggered abilities created by rebound effects trigger. You may handle them in any order. If you want to cast a card this way, you do so as part of the resolution of its delayed triggered ability. Timing restrictions based on the card’s type (if it’s a sorcery) are ignored. Other restrictions are not (such as the one from Rule of Law).
+  - *2010-06-15* — If a replacement effect would cause a spell with rebound that you cast from your hand to be put somewhere else instead of your graveyard (such as Leyline of the Void might), you choose whether to apply the rebound effect or the other effect as the spell resolves.
+  - *2010-06-15* — If a spell with rebound that you cast from your hand doesn’t resolve for any reason (due being countered by a spell like Cancel, or because all of its targets are illegal), rebound has no effect. The spell is simply put into your graveyard. You won’t get to cast it again next turn.
+  - *2010-06-15* — If you are unable to cast a card from exile this way, or you choose not to, nothing happens when the delayed triggered ability resolves. The card remains exiled for the rest of the game, and you won’t get another chance to cast the card. The same is true if the ability is countered (due to Stifle, perhaps).
+  - *2010-06-15* — If you cast a card from exile this way, it will go to your graveyard when it resolves, fails to resolve, or is countered. It won’t go back to exile.
+  - *2010-06-15* — If you cast a spell with rebound from anywhere other than your hand (such as from your graveyard due to Sins of the Past, from your library due to cascade, or from your opponent’s hand due to Sen Triplets), rebound won’t have any effect. If you do cast it from your hand, rebound will work regardless of whether you paid its mana cost (for example, if you cast it from your hand due to Maelstrom Archangel).
+  - *2010-06-15* — If you cast a spell with rebound from your hand and it resolves, it isn’t put into your graveyard. Rather, it’s exiled directly from the stack. Effects that care about cards being put into your graveyard won’t do anything.
+  - *2010-06-15* — Rebound will have no effect on copies of spells because you don’t cast them from your hand.
+  - *2010-06-15* — You choose the color as Emerge Unscathed resolves. Once you choose a color, it’s too late for players to respond.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ima/19/emerge-unscathed) · oracle_id `894015d5-ee78-45df-8d37-53df963c59a6` · printing: IMA #19 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Emeria Angel
 
@@ -926,7 +999,11 @@
   > *When the earth shudders, the sky overflows.*
 - **Keywords:** Landfall, Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2022 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/114/emeria-angel) · oracle_id `ea6616e4-db8d-4905-80f8-cb0162906850` · printing: TDC #114 (2025-04-11) · [rulings](https://api.scryfall.com/cards/2406ab7c-c6be-421a-a92c-048441a01acd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/114/emeria-angel) · oracle_id `ea6616e4-db8d-4905-80f8-cb0162906850` · printing: TDC #114 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Emeria Captain
 
@@ -957,7 +1034,18 @@
   > *"You called it the castle of a god. It is less than that, and so much more."*
   > *—Kasla, Emeria shepherd*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2777 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/12/emerias-call-emeria-shattered-skyclave) · oracle_id `6ec2a242-9068-4ee2-8ac8-8341cc570f56` · printing: ZNR #12 (2020-09-25) · [rulings](https://api.scryfall.com/cards/c470539a-9cc7-4175-8f7c-c982b6072b6d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2020-09-25* — A modal double-faced card can't be transformed or be put onto the battlefield transformed. Ignore any instruction to transform a modal double-faced card or to put one onto the battlefield transformed.
+  - *2020-09-25* — Emeria's Call affects only creatures you control at the time it resolves. Creatures you begin to control later won't gain indestructible.
+  - *2020-09-25* — If an effect allows you to play a land or cast a spell from among a group of cards, you may play or cast a modal double-faced card with any face that fits the criteria of that effect.
+  - *2020-09-25* — If an effect allows you to play a specific modal double-faced card, you may cast it as a spell or play it as a land, as determined by which face you choose to play. If an effect allows you to cast (rather than "play") a specific modal double-faced card, you can't play it as a land.
+  - *2020-09-25* — If an effect instructs a player to choose a card name, the name of either face may be chosen. If that effect or a linked ability refers to a spell with the chosen name being cast and/or a land with the chosen name being played, it considers only the chosen name, not the other face's name.
+  - *2020-09-25* — If an effect puts a double-faced card onto the battlefield, it enters with its front face up. If that front face can't be put onto the battlefield, it doesn't enter the battlefield.
+  - *2020-09-25* — In the Commander variant, a double-faced card's color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered.
+  - *2020-09-25* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack and battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
+  - *2020-09-25* — There is a single triangle icon in the top left corner of the front face. There is a double triangle icon in the top left corner of the back face.
+  - *2020-09-25* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/12/emerias-call-emeria-shattered-skyclave) · oracle_id `6ec2a242-9068-4ee2-8ac8-8341cc570f56` · printing: ZNR #12 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Emeria Shepherd
 
@@ -969,7 +1057,13 @@
   > Landfall — Whenever a land you control enters, you may return target nonland permanent card from your graveyard to your hand. If that land is a Plains, you may return that nonland permanent card to the battlefield instead.
 - **Keywords:** Landfall, Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2076 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znc/16/emeria-shepherd) · oracle_id `473da1b6-232b-4428-a66d-30262246b47a` · printing: ZNC #16 (2020-09-25) · [rulings](https://api.scryfall.com/cards/a99dd58d-9fed-4d85-9bb5-f9c91834cab8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2015-08-25* — A "nonland permanent card" is an artifact, creature, enchantment, or planeswalker card.
+  - *2015-08-25* — If you return an Aura to the battlefield this way, you choose what it will enchant as it enters the battlefield. This doesn't target any player or permanent, so you could attach an Aura to a permanent with hexproof controlled by an opponent, for example. If there's nothing the Aura can legally enchant, it stays in the graveyard.
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/znc/16/emeria-shepherd) · oracle_id `473da1b6-232b-4428-a66d-30262246b47a` · printing: ZNC #16 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Emeria, the Sky Ruin
 
@@ -1012,7 +1106,24 @@
   > Return target card from your graveyard to your hand.
 - **Keywords:** Vigilance, Prepared
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5743 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/145/emeritus-of-abundance-regrowth) · oracle_id `e5152e8d-9f55-493d-a0fc-753cc72ee299` · printing: SOS #145 (2026-04-24) · [rulings](https://api.scryfall.com/cards/ac095763-6f4e-4d4e-9c99-414646368f8d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (16):
+  - *2026-03-20* — A creature with a prepare spell can't become prepared more than once at the same time. For example, Emeritus of Ideation is on the battlefield and is prepared. When it attacks, its last ability triggers. When that ability resolves, its controller may still exile eight cards from their graveyard, but doing so won't cause Emeritus of Ideation to become prepared a second time or create a second copy of Ancestral Recall in exile.
+  - *2026-03-20* — A creature without a prepare spell can't become prepared.
+  - *2026-03-20* — A preparation card is a creature card in every zone. For example, while it's in your graveyard, Emeritus of Ideation is a blue creature whose mana value is 5. It can't be the target of Zealous Lorecaster's triggered ability ("When this creature enters, return target instant or sorcery card from your graveyard to your hand.").
+  - *2026-03-20* — As an effect causes a creature with a prepare spell to become prepared (including effects that state that a creature "enters prepared"), that creature's controller creates a copy of that creature's prepare spell in exile. That copy remains in exile for as long as that permanent is on the battlefield and is prepared. That creature's controller may cast that copy as long as it remains in exile. As they cast it, that creature stops being prepared.
+  - *2026-03-20* — Being prepared isn't a copiable value. If a permanent becomes a copy of a prepared creature, it won't be prepared. That permanent will have the alternative characteristics, though, and some other effect could cause it to become prepared later.
+  - *2026-03-20* — Casting a copy of a prepare spell from exile isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to a copy of a prepare spell cast from exile.
+  - *2026-03-20* — Creating a copy of a creature's prepare spell in exile ignores copy exceptions applied to that creature that would affect the copiable values of that spell. For example, say a player casts Croaking Counterpart (a sorcery that says "Create a token that's a copy of target non-Frog creature, except it's a 1/1 green Frog.") targeting Goblin Glasswright. The token copy of Goblin Glasswright will enter prepared as a 1/1 green Frog creature, but the copy of Craft with Pride in exile will still be a red sorcery. The copy of Craft with Pride won't be green, a creature, or a Frog, and it won't have power or toughness.
+  - *2026-03-20* — Emeritus of Abundance's last ability checks at the moment it would trigger to see if you control eight or more lands. If you don't, the ability won't trigger at all. It's not possible to put lands onto the battlefield during your declare attackers step in time to have the ability trigger. If it does trigger, the ability will check again as it tries to resolve. If you don't control eight or more lands at that time, the ability won't resolve and none of its effects will happen.
+  - *2026-03-20* — If a prepare spell with one or more targets has no legal targets when it tries to resolve, it won't resolve and none of its effects will happen. Since the spell was cast, the associated permanent will still not be prepared.
+  - *2026-03-20* — If a prepared creature loses all abilities, it won't stop being prepared, and nothing will happen to its alternative characteristics or to the copy of its prepare spell in exile.
+  - *2026-03-20* — If a prepared creature stops being a creature, it will still be prepared, and the copy of its prepare spell will remain in exile. That permanent's controller will still be able to cast it. The same is true if a prepared creature becomes a copy of something else, even if it's then a permanent without a prepare spell.
+  - *2026-03-20* — If an effect causes a creature to become unprepared, a prepared creature stops being prepared and the associated copy of its prepare spell in exile ceases to exist. If it wasn't prepared at that time, nothing happens.
+  - *2026-03-20* — If an effect instructs you to choose a card name, you may choose the alternative prepare spell's name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2026-03-20* — Only the current controller of a prepared creature can cast the copy of its prepare spell in exile. It doesn't matter who owns that creature or who controlled it when it became prepared.
+  - *2026-03-20* — Preparation cards can only be cast with their base characteristics.
+  - *2026-03-20* — While copies of spells in zones other than the stack cease to exist when state-based actions are checked, this does not apply to copies of prepare spells in exile that were created as a creature became prepared.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/145/emeritus-of-abundance-regrowth) · oracle_id `e5152e8d-9f55-493d-a0fc-753cc72ee299` · printing: SOS #145 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Emeritus of Conflict // Lightning Bolt
 
@@ -1025,7 +1136,26 @@
   > Lightning Bolt deals 3 damage to any target.
 - **Keywords:** First strike, Prepared
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6954 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/113/emeritus-of-conflict-lightning-bolt) · oracle_id `5963eef1-1022-42b1-8a0c-fc9850bfc2a3` · printing: SOS #113 (2026-04-24) · [rulings](https://api.scryfall.com/cards/f58dba4f-1abb-47a3-a684-29c32bab95c0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (18):
+  - *2026-03-20* — A creature with a prepare spell can't become prepared more than once at the same time. For example, Emeritus of Ideation is on the battlefield and is prepared. When it attacks, its last ability triggers. When that ability resolves, its controller may still exile eight cards from their graveyard, but doing so won't cause Emeritus of Ideation to become prepared a second time or create a second copy of Ancestral Recall in exile.
+  - *2026-03-20* — A creature without a prepare spell can't become prepared.
+  - *2026-03-20* — A preparation card is a creature card in every zone. For example, while it's in your graveyard, Emeritus of Ideation is a blue creature whose mana value is 5. It can't be the target of Zealous Lorecaster's triggered ability ("When this creature enters, return target instant or sorcery card from your graveyard to your hand.").
+  - *2026-03-20* — As an effect causes a creature with a prepare spell to become prepared (including effects that state that a creature "enters prepared"), that creature's controller creates a copy of that creature's prepare spell in exile. That copy remains in exile for as long as that permanent is on the battlefield and is prepared. That creature's controller may cast that copy as long as it remains in exile. As they cast it, that creature stops being prepared.
+  - *2026-03-20* — Being prepared isn't a copiable value. If a permanent becomes a copy of a prepared creature, it won't be prepared. That permanent will have the alternative characteristics, though, and some other effect could cause it to become prepared later.
+  - *2026-03-20* — Casting a copy of a prepare spell from exile isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to a copy of a prepare spell cast from exile.
+  - *2026-03-20* — Creating a copy of a creature's prepare spell in exile ignores copy exceptions applied to that creature that would affect the copiable values of that spell. For example, say a player casts Croaking Counterpart (a sorcery that says "Create a token that's a copy of target non-Frog creature, except it's a 1/1 green Frog.") targeting Goblin Glasswright. The token copy of Goblin Glasswright will enter prepared as a 1/1 green Frog creature, but the copy of Craft with Pride in exile will still be a red sorcery. The copy of Craft with Pride won't be green, a creature, or a Frog, and it won't have power or toughness.
+  - *2026-03-20* — Emeritus of Conflict's last ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack without resolving.
+  - *2026-03-20* — Emeritus of Conflict's last ability will count any spells you've cast this turn, which may include Emeritus of Conflict itself. It doesn't matter if the other spells resolved, didn't resolve, were countered, or are still on the stack. If Emeritus of Conflict was the second spell you cast this turn, the next spell you cast this turn is your third spell. If Emeritus of Conflict is your third spell in a turn, it's not on the battlefield for its triggered ability to trigger, and it will not trigger for further spells cast after it that turn.
+  - *2026-03-20* — If a prepare spell with one or more targets has no legal targets when it tries to resolve, it won't resolve and none of its effects will happen. Since the spell was cast, the associated permanent will still not be prepared.
+  - *2026-03-20* — If a prepared creature loses all abilities, it won't stop being prepared, and nothing will happen to its alternative characteristics or to the copy of its prepare spell in exile.
+  - *2026-03-20* — If a prepared creature stops being a creature, it will still be prepared, and the copy of its prepare spell will remain in exile. That permanent's controller will still be able to cast it. The same is true if a prepared creature becomes a copy of something else, even if it's then a permanent without a prepare spell.
+  - *2026-03-20* — If an effect causes a creature to become unprepared, a prepared creature stops being prepared and the associated copy of its prepare spell in exile ceases to exist. If it wasn't prepared at that time, nothing happens.
+  - *2026-03-20* — If an effect instructs you to choose a card name, you may choose the alternative prepare spell's name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2026-03-20* — Only the current controller of a prepared creature can cast the copy of its prepare spell in exile. It doesn't matter who owns that creature or who controlled it when it became prepared.
+  - *2026-03-20* — Preparation cards can only be cast with their base characteristics.
+  - *2026-03-20* — Since Emeritus of Conflict will stop being prepared as soon as the copy of Lightning Bolt is cast, casting that copy of Lightning Bolt as your third spell in a turn will result in Emeritus of Conflict becoming prepared again when its last ability resolves.
+  - *2026-03-20* — While copies of spells in zones other than the stack cease to exist when state-based actions are checked, this does not apply to copies of prepare spells in exile that were created as a creature became prepared.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/113/emeritus-of-conflict-lightning-bolt) · oracle_id `5963eef1-1022-42b1-8a0c-fc9850bfc2a3` · printing: SOS #113 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Emeritus of Ideation // Ancestral Recall
 
@@ -1039,7 +1169,23 @@
   > Target player draws three cards.
 - **Keywords:** Flying, Prepared, Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5365 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/45/emeritus-of-ideation-ancestral-recall) · oracle_id `24a29be4-5bc2-469b-b2ce-2fb305c3facb` · printing: SOS #45 (2026-04-24) · [rulings](https://api.scryfall.com/cards/75961d36-acf6-425f-9698-0bf52af74f31/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2026-03-20* — A creature with a prepare spell can't become prepared more than once at the same time. For example, Emeritus of Ideation is on the battlefield and is prepared. When it attacks, its last ability triggers. When that ability resolves, its controller may still exile eight cards from their graveyard, but doing so won't cause Emeritus of Ideation to become prepared a second time or create a second copy of Ancestral Recall in exile.
+  - *2026-03-20* — A creature without a prepare spell can't become prepared.
+  - *2026-03-20* — A preparation card is a creature card in every zone. For example, while it's in your graveyard, Emeritus of Ideation is a blue creature whose mana value is 5. It can't be the target of Zealous Lorecaster's triggered ability ("When this creature enters, return target instant or sorcery card from your graveyard to your hand.").
+  - *2026-03-20* — As an effect causes a creature with a prepare spell to become prepared (including effects that state that a creature "enters prepared"), that creature's controller creates a copy of that creature's prepare spell in exile. That copy remains in exile for as long as that permanent is on the battlefield and is prepared. That creature's controller may cast that copy as long as it remains in exile. As they cast it, that creature stops being prepared.
+  - *2026-03-20* — Being prepared isn't a copiable value. If a permanent becomes a copy of a prepared creature, it won't be prepared. That permanent will have the alternative characteristics, though, and some other effect could cause it to become prepared later.
+  - *2026-03-20* — Casting a copy of a prepare spell from exile isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to a copy of a prepare spell cast from exile.
+  - *2026-03-20* — Creating a copy of a creature's prepare spell in exile ignores copy exceptions applied to that creature that would affect the copiable values of that spell. For example, say a player casts Croaking Counterpart (a sorcery that says "Create a token that's a copy of target non-Frog creature, except it's a 1/1 green Frog.") targeting Goblin Glasswright. The token copy of Goblin Glasswright will enter prepared as a 1/1 green Frog creature, but the copy of Craft with Pride in exile will still be a red sorcery. The copy of Craft with Pride won't be green, a creature, or a Frog, and it won't have power or toughness.
+  - *2026-03-20* — If a prepare spell with one or more targets has no legal targets when it tries to resolve, it won't resolve and none of its effects will happen. Since the spell was cast, the associated permanent will still not be prepared.
+  - *2026-03-20* — If a prepared creature loses all abilities, it won't stop being prepared, and nothing will happen to its alternative characteristics or to the copy of its prepare spell in exile.
+  - *2026-03-20* — If a prepared creature stops being a creature, it will still be prepared, and the copy of its prepare spell will remain in exile. That permanent's controller will still be able to cast it. The same is true if a prepared creature becomes a copy of something else, even if it's then a permanent without a prepare spell.
+  - *2026-03-20* — If an effect causes a creature to become unprepared, a prepared creature stops being prepared and the associated copy of its prepare spell in exile ceases to exist. If it wasn't prepared at that time, nothing happens.
+  - *2026-03-20* — If an effect instructs you to choose a card name, you may choose the alternative prepare spell's name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2026-03-20* — Only the current controller of a prepared creature can cast the copy of its prepare spell in exile. It doesn't matter who owns that creature or who controlled it when it became prepared.
+  - *2026-03-20* — Preparation cards can only be cast with their base characteristics.
+  - *2026-03-20* — While copies of spells in zones other than the stack cease to exist when state-based actions are checked, this does not apply to copies of prepare spells in exile that were created as a creature became prepared.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/45/emeritus-of-ideation-ancestral-recall) · oracle_id `24a29be4-5bc2-469b-b2ce-2fb305c3facb` · printing: SOS #45 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Emeritus of Truce // Swords to Plowshares
 
@@ -1051,7 +1197,23 @@
   > Exile target creature. Its controller gains life equal to its power.
 - **Keywords:** Prepared
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6740 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/13/emeritus-of-truce-swords-to-plowshares) · oracle_id `e6c41473-2398-4888-9f0c-467dce7c39a4` · printing: SOS #13 (2026-04-24) · [rulings](https://api.scryfall.com/cards/9869a753-5e41-4098-ab41-e75b4396ec50/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2026-03-20* — A creature with a prepare spell can't become prepared more than once at the same time. For example, Emeritus of Ideation is on the battlefield and is prepared. When it attacks, its last ability triggers. When that ability resolves, its controller may still exile eight cards from their graveyard, but doing so won't cause Emeritus of Ideation to become prepared a second time or create a second copy of Ancestral Recall in exile.
+  - *2026-03-20* — A creature without a prepare spell can't become prepared.
+  - *2026-03-20* — A preparation card is a creature card in every zone. For example, while it's in your graveyard, Emeritus of Ideation is a blue creature whose mana value is 5. It can't be the target of Zealous Lorecaster's triggered ability ("When this creature enters, return target instant or sorcery card from your graveyard to your hand.").
+  - *2026-03-20* — As an effect causes a creature with a prepare spell to become prepared (including effects that state that a creature "enters prepared"), that creature's controller creates a copy of that creature's prepare spell in exile. That copy remains in exile for as long as that permanent is on the battlefield and is prepared. That creature's controller may cast that copy as long as it remains in exile. As they cast it, that creature stops being prepared.
+  - *2026-03-20* — Being prepared isn't a copiable value. If a permanent becomes a copy of a prepared creature, it won't be prepared. That permanent will have the alternative characteristics, though, and some other effect could cause it to become prepared later.
+  - *2026-03-20* — Casting a copy of a prepare spell from exile isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to a copy of a prepare spell cast from exile.
+  - *2026-03-20* — Creating a copy of a creature's prepare spell in exile ignores copy exceptions applied to that creature that would affect the copiable values of that spell. For example, say a player casts Croaking Counterpart (a sorcery that says "Create a token that's a copy of target non-Frog creature, except it's a 1/1 green Frog.") targeting Goblin Glasswright. The token copy of Goblin Glasswright will enter prepared as a 1/1 green Frog creature, but the copy of Craft with Pride in exile will still be a red sorcery. The copy of Craft with Pride won't be green, a creature, or a Frog, and it won't have power or toughness.
+  - *2026-03-20* — If a prepare spell with one or more targets has no legal targets when it tries to resolve, it won't resolve and none of its effects will happen. Since the spell was cast, the associated permanent will still not be prepared.
+  - *2026-03-20* — If a prepared creature loses all abilities, it won't stop being prepared, and nothing will happen to its alternative characteristics or to the copy of its prepare spell in exile.
+  - *2026-03-20* — If a prepared creature stops being a creature, it will still be prepared, and the copy of its prepare spell will remain in exile. That permanent's controller will still be able to cast it. The same is true if a prepared creature becomes a copy of something else, even if it's then a permanent without a prepare spell.
+  - *2026-03-20* — If an effect causes a creature to become unprepared, a prepared creature stops being prepared and the associated copy of its prepare spell in exile ceases to exist. If it wasn't prepared at that time, nothing happens.
+  - *2026-03-20* — If an effect instructs you to choose a card name, you may choose the alternative prepare spell's name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2026-03-20* — Only the current controller of a prepared creature can cast the copy of its prepare spell in exile. It doesn't matter who owns that creature or who controlled it when it became prepared.
+  - *2026-03-20* — Preparation cards can only be cast with their base characteristics.
+  - *2026-03-20* — While copies of spells in zones other than the stack cease to exist when state-based actions are checked, this does not apply to copies of prepare spells in exile that were created as a creature became prepared.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/13/emeritus-of-truce-swords-to-plowshares) · oracle_id `e6c41473-2398-4888-9f0c-467dce7c39a4` · printing: SOS #13 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Emeritus of Woe // Demonic Tutor
 
@@ -1064,7 +1226,24 @@
   > Search your library for a card, put that card into your hand, then shuffle.
 - **Keywords:** Prepared
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2915 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/80/emeritus-of-woe-demonic-tutor) · oracle_id `93056597-b964-421f-be2f-e92abef1c2a4` · printing: SOS #80 (2026-04-24) · [rulings](https://api.scryfall.com/cards/7eb9e83d-515d-4911-a06b-9982200277b2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (16):
+  - *2026-03-20* — A creature with a prepare spell can't become prepared more than once at the same time. For example, Emeritus of Ideation is on the battlefield and is prepared. When it attacks, its last ability triggers. When that ability resolves, its controller may still exile eight cards from their graveyard, but doing so won't cause Emeritus of Ideation to become prepared a second time or create a second copy of Ancestral Recall in exile.
+  - *2026-03-20* — A creature without a prepare spell can't become prepared.
+  - *2026-03-20* — A preparation card is a creature card in every zone. For example, while it's in your graveyard, Emeritus of Ideation is a blue creature whose mana value is 5. It can't be the target of Zealous Lorecaster's triggered ability ("When this creature enters, return target instant or sorcery card from your graveyard to your hand.").
+  - *2026-03-20* — As an effect causes a creature with a prepare spell to become prepared (including effects that state that a creature "enters prepared"), that creature's controller creates a copy of that creature's prepare spell in exile. That copy remains in exile for as long as that permanent is on the battlefield and is prepared. That creature's controller may cast that copy as long as it remains in exile. As they cast it, that creature stops being prepared.
+  - *2026-03-20* — Being prepared isn't a copiable value. If a permanent becomes a copy of a prepared creature, it won't be prepared. That permanent will have the alternative characteristics, though, and some other effect could cause it to become prepared later.
+  - *2026-03-20* — Casting a copy of a prepare spell from exile isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to a copy of a prepare spell cast from exile.
+  - *2026-03-20* — Creating a copy of a creature's prepare spell in exile ignores copy exceptions applied to that creature that would affect the copiable values of that spell. For example, say a player casts Croaking Counterpart (a sorcery that says "Create a token that's a copy of target non-Frog creature, except it's a 1/1 green Frog.") targeting Goblin Glasswright. The token copy of Goblin Glasswright will enter prepared as a 1/1 green Frog creature, but the copy of Craft with Pride in exile will still be a red sorcery. The copy of Craft with Pride won't be green, a creature, or a Frog, and it won't have power or toughness.
+  - *2026-03-20* — Emeritus of Woe's last ability will check as your end step starts to see if two or more creatures have died this turn. If they haven't, the ability won't trigger at all. It's not possible to cause creatures to die during your end step in time to have the ability trigger.
+  - *2026-03-20* — If a prepare spell with one or more targets has no legal targets when it tries to resolve, it won't resolve and none of its effects will happen. Since the spell was cast, the associated permanent will still not be prepared.
+  - *2026-03-20* — If a prepared creature loses all abilities, it won't stop being prepared, and nothing will happen to its alternative characteristics or to the copy of its prepare spell in exile.
+  - *2026-03-20* — If a prepared creature stops being a creature, it will still be prepared, and the copy of its prepare spell will remain in exile. That permanent's controller will still be able to cast it. The same is true if a prepared creature becomes a copy of something else, even if it's then a permanent without a prepare spell.
+  - *2026-03-20* — If an effect causes a creature to become unprepared, a prepared creature stops being prepared and the associated copy of its prepare spell in exile ceases to exist. If it wasn't prepared at that time, nothing happens.
+  - *2026-03-20* — If an effect instructs you to choose a card name, you may choose the alternative prepare spell's name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2026-03-20* — Only the current controller of a prepared creature can cast the copy of its prepare spell in exile. It doesn't matter who owns that creature or who controlled it when it became prepared.
+  - *2026-03-20* — Preparation cards can only be cast with their base characteristics.
+  - *2026-03-20* — While copies of spells in zones other than the stack cease to exist when state-based actions are checked, this does not apply to copies of prepare spells in exile that were created as a creature became prepared.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/80/emeritus-of-woe-demonic-tutor) · oracle_id `93056597-b964-421f-be2f-e92abef1c2a4` · printing: SOS #80 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Emet-Selch of the Third Seat
 
@@ -1075,7 +1254,11 @@
   > Spells you cast from your graveyard cost {2} less to cast.
   > Whenever one or more opponents lose life, you may cast target instant or sorcery card from your graveyard. If that spell would be put into your graveyard, exile it instead. Do this only once each turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2977 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/81/emet-selch-of-the-third-seat) · oracle_id `634475d9-a1d7-4146-9a37-645d3d162af1` · printing: FIC #81 (2025-06-13) · [rulings](https://api.scryfall.com/cards/dd3141de-633e-48e3-a89f-a91339f5e882/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-06-06* — The cost reduction applies only to generic mana in the total cost of spells you cast from your graveyard.
+  - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as a flashback cost), add any cost increases (such as kicker costs), then apply any cost reductions (such as that of Emet-Selch of the Third Seat's first ability). The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+  - *2025-06-06* — You choose whether to cast the target card while Emet-Selch of the Third Seat's second ability is still on the stack. You can't wait to cast it later in the turn. Timing restrictions based on the card's type are ignored.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/81/emet-selch-of-the-third-seat) · oracle_id `634475d9-a1d7-4146-9a37-645d3d162af1` · printing: FIC #81 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Emet-Selch, Unsundered // Hades, Sorcerer of Eld
 
@@ -1094,7 +1277,21 @@
   > *"What will become of our triumphs? Our hopes? Our... our despair?"*
 - **Keywords:** Vigilance, Echo of the Lost, Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6244 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/218/emet-selch-unsundered-hades-sorcerer-of-eld) · oracle_id `3b102ccc-7629-457c-aba6-e9b00fd50c85` · printing: FIN #218 (2025-06-13) · [rulings](https://api.scryfall.com/cards/75cf4eb8-33e7-4dfc-b890-a7e3b5c1b9d5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2025-06-06* — A nonmodal double-faced card enters with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed or allows you to cast it transformed, in which case it enters with its back face up.
+  - *2025-06-06* — A token that is created as a copy of a double-faced permanent or a double-faced card in another zone is a double-faced token. It will have both the front face and back face of whatever object it's copying. If it's copying a double-faced permanent whose back face is up, the token will enter with its back face up. It can transform if instructed to do so.
+  - *2025-06-06* — Each face of a nonmodal double-faced card has its own set of characteristics: name, types, subtypes, abilities, and so on. While a nonmodal double-faced permanent is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored.
+  - *2025-06-06* — Each nonmodal double-faced card in this release is cast face up. In every zone other than the battlefield, consider only the characteristics of its front face. If it is on the battlefield, consider only the characteristics of the face that's up; the other face's characteristics are ignored.
+  - *2025-06-06* — Emet-Selch's last ability checks your graveyard at the moment it would trigger to see if you have fourteen or more cards in your graveyard. If you don't, the ability won't trigger at all. If it does trigger, the ability will check again as it tries to resolve. If you don't have fourteen or more cards in your graveyard at that time, the ability won't resolve and none of its effects will happen.
+  - *2025-06-06* — If a Hades, Sorcerer of Eld you control is destroyed by a spell you own, Hades will be exiled and then the spell will be put into your graveyard. Conversely, if a Hades you control is dealt lethal damage by a spell you own, the spell will be exiled, and then Hades will be exiled as well.
+  - *2025-06-06* — If you are instructed to put a card that isn't a double-faced card onto the battlefield transformed, it will not enter at all. In that case, it stays in the zone it was previously in. For example, if a single-faced card is a copy of Crystal Fragments, it will be exiled during the resolution of its second ability and remain in exile.
+  - *2025-06-06* — If you discard a card while you control Hades, Sorcerer of Eld, abilities that function when a card is discarded (such as madness) still work, even though that card never reaches your graveyard. In addition, spells or abilities that check the characteristics of a discarded card (such as connive) can find that card in exile.
+  - *2025-06-06* — In the Commander variant, a double-faced card's color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered. For example, Cecil, Dark Knight's color identity is black and white, since its front face is black and its back face has a white color indicator.
+  - *2025-06-06* — The back face of a nonmodal double-faced card usually has a color indicator that defines its color.
+  - *2025-06-06* — The mana value of a nonmodal double-faced card is the mana value of its front face, no matter which face is up.
+  - *2025-06-06* — While you control Hades, Sorcerer of Eld, abilities that trigger whenever a permanent you own is put into your graveyard from the battlefield (for example, "When this creature dies . . .") won't trigger.
+  - *2025-06-06* — You pay all costs and follow all timing rules for cards played with the permission granted by Hades, Sorcerer of Eld's second ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/218/emet-selch-unsundered-hades-sorcerer-of-eld) · oracle_id `3b102ccc-7629-457c-aba6-e9b00fd50c85` · printing: FIN #218 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Emiel the Blessed
 
@@ -1105,7 +1302,14 @@
   > {3}: Exile another target creature you control, then return it to the battlefield under its owner's control.
   > Whenever another creature you control enters, you may pay {G/W}. If you do, put a +1/+1 counter on it. If it's a Unicorn, put two +1/+1 counters on it instead. ({G/W} can be paid with either {G} or {W}.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2752 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/10/emiel-the-blessed) · oracle_id `b11c250c-f191-4c52-ba02-a9176f163447` · printing: 2X2 #10 (2022-07-08) · [rulings](https://api.scryfall.com/cards/0f594562-7e9f-47e6-a033-fb70e3cf1e10/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2020-06-23* — Emiel's second ability triggers whenever any creature other than itself enters the battlefield under your control, including those returned by its first ability.
+  - *2020-06-23* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
+  - *2020-06-23* — If the entering creature is a Unicorn, you still have to pay {G/W} to put two +1/+1 counters on it.
+  - *2020-06-23* — When the card returns to the battlefield, it will be a new object with no connection to the card that was exiled. Auras attached to the exiled creature will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled creature will cease to exist.
+  - *2020-06-23* — While resolving Emiel's triggered ability, you can't pay {G/W} more than once to put more counters on the creature.
+  - *2020-06-23* — You choose whether to pay for Emiel's triggered ability while it's resolving. If you do, no player may take other actions between the time you pay and the time the creature has one or two +1/+1 counters on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/10/emiel-the-blessed) · oracle_id `b11c250c-f191-4c52-ba02-a9176f163447` · printing: 2X2 #10 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Emil, Vastlands Roamer
 
@@ -1116,7 +1320,9 @@
   > Creatures you control with +1/+1 counters on them have trample.
   > {4}{G}, {T}: Create a 0/0 green and blue Fractal creature token. Put X +1/+1 counters on it, where X is the number of differently named lands you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9248 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/146/emil-vastlands-roamer) · oracle_id `9f800ebc-d6e4-4bfc-bebe-8baad51efa19` · printing: SOS #146 (2026-04-24) · [rulings](https://api.scryfall.com/cards/3654416d-8558-4af2-9e10-18dbc8f2b376/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-03-20* — To determine the number of differently named lands you control, count each land you control once, but only if its English name isn't exactly the same as another land you've already counted this way.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/146/emil-vastlands-roamer) · oracle_id `9f800ebc-d6e4-4bfc-bebe-8baad51efa19` · printing: SOS #146 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Emissary Escort
 
@@ -1128,7 +1334,10 @@
 - **Flavor text** (EOE printing):
   > *Emissary mechans are often assigned their own security detail given their importance in inter-Pinnacle dialogs.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9020 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/56/emissary-escort) · oracle_id `7d8b53f4-bdb5-4ba1-b6c0-f4846d8d3565` · printing: EOE #56 (2025-08-01) · [rulings](https://api.scryfall.com/cards/b52ba87f-3ac7-4f32-901c-d089df979f94/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-07-25* — Emissary Escort’s ability applies only while it is on the battlefield. In all other zones, its power is 0.
+  - *2025-07-25* — If a permanent has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/56/emissary-escort) · oracle_id `7d8b53f4-bdb5-4ba1-b6c0-f4846d8d3565` · printing: EOE #56 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Emissary Green
 
@@ -1139,7 +1348,12 @@
   > Whenever Emissary Green attacks, starting with you, each player votes for profit or security. You create a number of Treasure tokens equal to twice the number of profit votes. Put a number of +1/+1 counters on each creature you control equal to the number of security votes.
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8643 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/5/emissary-green) · oracle_id `c43e7fa5-ff93-42d9-af79-ee417a8e41a7` · printing: CLU #5 (2024-02-23) · [rulings](https://api.scryfall.com/cards/323e9430-b87c-4b02-9ade-c4c65343147b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-02-02* — Abilities that trigger "whenever players finish voting" trigger once all players have voted or once all secret votes are revealed, but they won't go on the stack until the current spell or ability finishes resolving.
+  - *2024-02-02* — Each player must vote for one of the available options. They can't abstain.
+  - *2024-02-02* — In the case of non-secret voting, votes are cast in turn order, and each player will know the votes of players who voted beforehand.
+  - *2024-02-02* — No player votes until the spell or ability resolves. Any responses to that spell or ability must be made without knowing the outcome of the vote.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/5/emissary-green) · oracle_id `c43e7fa5-ff93-42d9-af79-ee417a8e41a7` · printing: CLU #5 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Emissary of Despair
 
@@ -1242,7 +1456,10 @@
 - **Flavor text** (GRN printing):
   > *"Whatever hatred destroys, a single act of trust can revive."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6667 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/grn/168/emmara-soul-of-the-accord) · oracle_id `c65ba242-3369-48a9-864f-1b1f85238f67` · printing: GRN #168 (2018-10-05) · [rulings](https://api.scryfall.com/cards/41b930ee-e16b-4612-87de-c03ecc6ff6db/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-10-05* — Emmara's ability is a triggered ability, not an activated ability. It doesn't allow you to tap Emmara whenever you want; rather, you need some other way of tapping it, such as by attacking.
+  - *2018-10-05* — For the ability to trigger, Emmara has to actually change from untapped to tapped. If an effect attempts to tap Emmara, but it was already tapped at the time, this ability won't trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/grn/168/emmara-soul-of-the-accord) · oracle_id `c65ba242-3369-48a9-864f-1b1f85238f67` · printing: GRN #168 (2018-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Emmara Tandris
 
@@ -1289,7 +1506,12 @@
   > You may cast Merfolk spells from the top of your library.
   > Whenever you cast a Merfolk spell, you may pay {1}. If you do, create a 1/1 blue Merfolk creature token.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4246 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/155/emperor-mihail-ii) · oracle_id `6c901ff4-15c3-468f-9a1b-4c69a7bbc31a` · printing: LCC #155 (2023-11-17) · [rulings](https://api.scryfall.com/cards/444ccd33-e88f-4d37-8a99-e10096eef5d3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-09-09* — Emperor Mihail II lets you look at the top card of your library whenever you want (with one restriction—see below), even if you don't have priority. This action doesn't use the stack. Knowing what that card is becomes part of the information you have access to, just like you can look at the cards in your hand.
+  - *2022-09-09* — If the top card of your library changes while you're casting a spell, playing a land, or activating an ability, you can't look at the new top card until you finish doing so. This means that if you cast the top card of your library, you can't look at the next one until you're done paying for that spell.
+  - *2022-09-09* — The last ability triggers whenever you cast any Merfolk spell, not just when you cast a Merfolk spell from the top of your library. It will resolve before the spell that caused it to trigger, even if that spell has been countered or otherwise left the stack.
+  - *2022-09-09* — You must follow the normal timing permissions and restrictions of the cards you play from your library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/155/emperor-mihail-ii) · oracle_id `6c901ff4-15c3-468f-9a1b-4c69a7bbc31a` · printing: LCC #155 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Emperor of Bones
 
@@ -1302,7 +1524,14 @@
   > Whenever one or more +1/+1 counters are put on this creature, put a creature card exiled with this creature onto the battlefield under your control with a finality counter on it. It gains haste. Sacrifice it at the beginning of the next end step.
 - **Keywords:** Adapt
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5382 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/90/emperor-of-bones) · oracle_id `cb70a360-898e-443a-b053-38e35ea2baa2` · printing: MH3 #90 (2024-06-14) · [rulings](https://api.scryfall.com/cards/df9d9075-2d1e-4848-b661-816d539e05eb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-06-07* — Finality counters aren't keyword counters, and a finality counter doesn't give any abilities to the permanent it's on. If that permanent loses its abilities and then would go to a graveyard, it will still be exiled instead.
+  - *2024-06-07* — Finality counters don't stop permanents from going to zones other than the graveyard from the battlefield. For example, if a permanent with a finality counter on it would be put into its owner's hand from the battlefield, it does so normally.
+  - *2024-06-07* — If a creature somehow loses all of its +1/+1 counters, it can adapt again and get more +1/+1 counters.
+  - *2024-06-07* — If any permanent with a finality counter on it would go to a graveyard from the battlefield, exile it instead.
+  - *2024-06-07* — Multiple finality counters on a single permanent are redundant.
+  - *2024-06-07* — You can always activate an ability that will cause a creature to adapt. As that ability resolves, if the creature has a +1/+1 counter on it for any reason, you simply won't put any +1/+1 counters on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/90/emperor-of-bones) · oracle_id `cb70a360-898e-443a-b053-38e35ea2baa2` · printing: MH3 #90 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Emperor's Vanguard
 
@@ -1325,7 +1554,9 @@
 - **Flavor text** (EOC printing):
   > *Magic, unlike physics, has no unbreakable laws.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4005 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/135/empowered-autogenerator) · oracle_id `6832f9e2-294a-44a2-8af9-eb16ccfdfc36` · printing: EOC #135 (2025-08-01) · [rulings](https://api.scryfall.com/cards/1b6abe5b-9bd3-43a0-b1bb-e6ebb64b443c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-08-23* — Empowered Autogenerator's activated ability is a mana ability. It doesn't use the stack and can't be responded to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/135/empowered-autogenerator) · oracle_id `6832f9e2-294a-44a2-8af9-eb16ccfdfc36` · printing: EOC #135 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Empress Galina
 
@@ -1337,6 +1568,7 @@
 - **Flavor text** (INV printing):
   > *"Above the waves you may be mighty indeed, but down here you belong to me."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9730 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/54/empress-galina) · oracle_id `ea2614bc-00ad-4859-98f5-689f33357fe6` · printing: INV #54 (2000-10-02) · [rulings](https://api.scryfall.com/cards/6851dbc7-f072-41e7-a899-897445d99425/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Emptiness
@@ -1393,7 +1625,9 @@
 - **Oracle text:**
   > Sacrifice X Zombies, then reveal cards from the top of your library until you reveal a number of Zombie creature cards equal to the number of Zombies sacrificed this way. Put those cards onto the battlefield and the rest on the bottom of your library in a random order.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6652 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mic/14/empty-the-laboratory) · oracle_id `84f3736f-5b2a-40f9-8c3b-c18f8c637c22` · printing: MIC #14 (2021-09-24) · [rulings](https://api.scryfall.com/cards/191f6693-32d9-448d-8889-f98cf13c2277/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-09-24* — The Zombies will enter the battlefield simultaneously. They will see each other enter for the purposes of triggered abilities.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mic/14/empty-the-laboratory) · oracle_id `84f3736f-5b2a-40f9-8c3b-c18f8c637c22` · printing: MIC #14 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Empty the Pits
 
@@ -1420,7 +1654,12 @@
   > *—Argivian expression meaning "causing trouble"*
 - **Keywords:** Storm
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2521 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/plst/DMR-118/empty-the-warrens) · oracle_id `3a59c882-8bb8-49ba-862f-125020dd5bec` · printing: PLST #DMR-118 (2026-10-19) · [rulings](https://api.scryfall.com/cards/e9116aa0-1993-4f4a-9a1d-0561d0fbcba9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-12-08* — A copy of a spell can be countered like any other spell, but it must be countered individually. Countering a spell with storm won't affect the copies.
+  - *2022-12-08* — Spells cast from zones other than a player's hand and spells that were countered are counted by the storm ability.
+  - *2022-12-08* — The copies are put directly onto the stack. They aren't cast and won't be counted by other spells with storm cast later in the turn.
+  - *2022-12-08* — The triggered ability that creates the copies can itself be countered by anything that can counter a triggered ability. If it is countered, no copies will be put onto the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/plst/DMR-118/empty-the-warrens) · oracle_id `3a59c882-8bb8-49ba-862f-125020dd5bec` · printing: PLST #DMR-118 (2026-10-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Empyreal Voyager
 
@@ -1448,7 +1687,9 @@
   > *All the birds of the skies are the spirit's brood, gathered for safety under its wings.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3098 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/239/empyrean-eagle) · oracle_id `270d14b2-07bc-46bc-918f-658102265ccf` · printing: FDN #239 (2024-11-15) · [rulings](https://api.scryfall.com/cards/577e99a7-4a55-4314-8f08-2ae0c33b85c7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-07-12* — Because damage remains marked on a creature until it's removed as the turn ends, nonlethal damage dealt to other creatures you control with flying may become lethal if Empyrean Eagle leaves the battlefield during that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/239/empyrean-eagle) · oracle_id `270d14b2-07bc-46bc-918f-658102265ccf` · printing: FDN #239 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Empyrial Archangel
 
@@ -1490,6 +1731,7 @@
   > *A body clad in steel reflects a warrior's resolve.*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8811 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c16/251/empyrial-plate) · oracle_id `e95e100e-4886-4bde-825c-017e878ac825` · printing: C16 #251 (2016-11-11) · [rulings](https://api.scryfall.com/cards/d9086f9e-2c29-48ee-b0af-889351e86152/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Empyrial Storm
@@ -1540,6 +1782,7 @@
 - **Flavor text** (DDP printing):
   > *Wordlessly it leads its abhorrent brood.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7791 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddp/59/emrakuls-hatcher) · oracle_id `1ee811fb-c25d-4cf5-b396-539c36e8f90f` · printing: DDP #59 (2015-08-28) · [rulings](https://api.scryfall.com/cards/35fab29d-1bcc-4ba0-90bf-427d95bf6699/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Emrakul's Influence
@@ -1566,7 +1809,13 @@
   > *"Obey her will! Don't be a fool! Submit your mind to Emrakul!"*
 - **Keywords:** Flying, Devoid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2525 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/61/emrakuls-messenger) · oracle_id `f1409c9e-f0d9-49e1-b02e-d0f04a658331` · printing: MH3 #61 (2024-06-14) · [rulings](https://api.scryfall.com/cards/f0f818d7-320c-47b9-a083-40007f3d91ea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-06-07* — A card with devoid is just colorless. It's not colorless and the colors of mana in its mana cost.
+  - *2024-06-07* — Devoid doesn't affect the color identity of the card for the purposes of the Commander variant. For example, while Abstruse Appropriation is colorless because it has devoid, its color identity is still white and black, and it can't be included in a Commander deck where the commander's color identity doesn't include both white and black.
+  - *2024-06-07* — Devoid works in all zones, not just on the battlefield.
+  - *2024-06-07* — If a card loses devoid, it will still be colorless. This is because effects that change an object's color (like the one created by devoid) are considered before the object loses devoid.
+  - *2024-06-07* — Other cards and abilities can give a card with devoid a color. If that happens, it's just the new color, not that color and colorless.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/61/emrakuls-messenger) · oracle_id `f1409c9e-f0d9-49e1-b02e-d0f04a658331` · printing: MH3 #61 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Emrakul, the Aeons Torn
 
@@ -1616,7 +1865,26 @@
   > *An enigma as vexing as life itself.*
 - **Keywords:** Flying, Protection, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1838 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/5/emrakul-the-promised-end) · oracle_id `4e7a8817-1a66-45c3-ade9-eac79b40b89f` · printing: INR #5 (2025-01-24) · [rulings](https://api.scryfall.com/cards/71911392-42b0-4b6d-baf7-918a4bd3b924/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (18):
+  - *2025-01-24* — An ability that triggers when a player casts a spell resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack without resolving.
+  - *2025-01-24* — Controlling a player doesn’t allow you to look at that player’s sideboard. If an effect instructs that player to choose a card from outside the game, you can’t have that player choose any card.
+  - *2025-01-24* — If the targeted player loses the game while you control their turn during a multiplayer game, the extra turn never begins.
+  - *2025-01-24* — If the targeted player skips their next turn, you’ll control the next turn the affected player actually takes, and the extra turn the player takes will be after that turn.
+  - *2025-01-24* — In a Two-Headed Giant game, gaining control of a player causes you to gain control of each player on that team.
+  - *2025-01-24* — Multiple player-controlling effects that affect the same player overwrite each other. The last one to be created is the one that works. If multiple players have cast Emrakul and targeted the same player, each ability’s effect will create an extra turn.
+  - *2025-01-24* — Protection abilities only apply while the object with the ability is on the battlefield. Notably, Emrakul may be the target of a spell that targets it while on the stack, such as Syncopate.
+  - *2025-01-24* — Protection from instants means that Emrakul can’t be the target of instant spells or activated or triggered abilities from instant cards, and damage that would be dealt to it by instant spells or cards is prevented. Instant spells may still affect it in other ways; for example, it would still receive the bonus from Rally the Peasants.
+  - *2025-01-24* — The card types that could appear in your graveyard are artifact, battle, creature, enchantment, instant, kindred, land, planeswalker, and sorcery. Supertypes (such as legendary and basic) and subtypes (such as Human and Equipment) are not counted. The maximum discount that Emrakul’s own ability can provide is {9}.
+  - *2025-01-24* — The player you’re controlling is still the active player during that turn.
+  - *2025-01-24* — While controlling another player, you also continue to make your own choices and decisions.
+  - *2025-01-24* — While controlling another player, you can see all cards in the game that player can see. This includes cards in that player’s hand, face-down cards that player controls, and any cards in that player’s library the player may look at.
+  - *2025-01-24* — While controlling another player, you make all choices and decisions that player is allowed to make or is told to make during that turn. This includes choices about what spells to cast or what abilities to activate, as well as any decisions called for by triggered abilities or for any other reason.
+  - *2025-01-24* — You also can’t make any choices or decisions for the player that would be called for by the tournament rules (such as whether to take an intentional draw or whether to call a judge).
+  - *2025-01-24* — You can use only the affected player’s resources (cards, mana, and so on) to pay costs for that player; you can’t use your own. Similarly, you can use the affected player’s resources only to pay that player’s costs; you can’t spend them on your costs.
+  - *2025-01-24* — You can’t make any illegal decisions or illegal choices—you can’t do anything that player couldn’t do. You can’t make choices or decisions for that player that aren’t called for by the game rules or by any cards, permanents, spells, abilities, and so on. If an effect causes another player to make decisions that the affected player would normally make (such as Master Warcraft does), that effect takes precedence. In other words, if the affected player wouldn’t make a decision, you wouldn’t make that decision on that player’s behalf.
+  - *2025-01-24* — You can’t make the affected player concede. That player may choose to concede at any time, even while you’re controlling that player.
+  - *2025-01-24* — You only control the player. You don’t control any of that player’s permanents, spells, or abilities.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/5/emrakul-the-promised-end) · oracle_id `4e7a8817-1a66-45c3-ade9-eac79b40b89f` · printing: INR #5 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Emrakul, the World Anew
 
@@ -1630,7 +1898,19 @@
   > Madness—Pay six {C}.
 - **Keywords:** Flying, Madness, Protection
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2432 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/6/emrakul-the-world-anew) · oracle_id `33300e69-29f6-41e4-92ab-82d8b018b217` · printing: MH3 #6 (2024-06-14) · [rulings](https://api.scryfall.com/cards/b914bfd9-5be3-4459-a68a-9b3ea2747bbc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2024-06-07* — A card with madness that's discarded counts as having been discarded even though it's put into exile rather than a graveyard. If it was discarded to pay a cost, that cost is still paid. Abilities that trigger when a card is discarded will still trigger.
+  - *2024-06-07* — A spell cast for its madness cost is put onto the stack like any other spell. It can be countered, copied, and so on. As it resolves, it's put onto the battlefield if it's a permanent card or into its owner's graveyard if it's an instant or sorcery card.
+  - *2024-06-07* — Cards are discarded in a Magic game only from a player's hand. Effects that put cards into a player's graveyard from anywhere else do not cause those cards to be discarded.
+  - *2024-06-07* — Casting a spell with madness ignores the timing rules based on the card's card type. For example, you can cast a creature with madness if you discard it during an opponent's turn.
+  - *2024-06-07* — Emrakul, the World Anew's triggered ability will resolve before Emrakul does. If Emrakul is countered or otherwise leaves the stack in response to that triggered ability, the triggered ability will still resolve as normal.
+  - *2024-06-07* — If you choose not to cast a card with madness when the madness triggered ability resolves, it's put into your graveyard. Madness doesn't give you another chance to cast it later.
+  - *2024-06-07* — If you discard a card with madness to pay the cost of a spell or activated ability, that card's madness triggered ability (and the spell that card becomes, if you choose to cast it) will resolve before the spell or ability the discard paid for.
+  - *2024-06-07* — If you discard a card with madness while a spell or ability is resolving, it moves immediately to exile. Continue resolving that spell or ability, noting that the card you discarded is not in your graveyard at this time. Its madness triggered ability will be placed onto the stack once that spell or ability has completely resolved.
+  - *2024-06-07* — If you discard a card with madness, you discard it into exile instead of into your graveyard. When you do, you can either cast it from exile for its madness cost or put it into your graveyard.
+  - *2024-06-07* — Madness works independently of why you're discarding the card. You could discard it to pay a cost, because a spell or ability tells you to, or because you have too many cards in your hand during your cleanup step. You can't discard a card with madness just because you want to, though.
+  - *2024-06-07* — The control-change effect of Emrakul's first ability lasts indefinitely. It doesn't wear off during the cleanup step or when Emrakul leaves the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/6/emrakul-the-world-anew) · oracle_id `33300e69-29f6-41e4-92ab-82d8b018b217` · printing: MH3 #6 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Emry, Lurker of the Loch
 

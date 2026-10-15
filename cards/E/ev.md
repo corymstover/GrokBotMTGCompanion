@@ -125,7 +125,12 @@
 - **Oracle text:**
   > When this creature enters, create a number of 1/1 white Soldier creature tokens equal to your devotion to white. (Each {W} in the mana costs of permanents you control counts toward your devotion to white.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7876 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khc/23/evangel-of-heliod) · oracle_id `4fbe1c02-f5bf-47c7-80de-09a32d01e5db` · printing: KHC #23 (2021-02-05) · [rulings](https://api.scryfall.com/cards/ccc00c82-7c2a-4699-8058-e57f690ece96/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2013-09-15* — Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s).
+  - *2013-09-15* — If an activated ability or triggered ability has an effect that depends on your devotion to a color, you count the number of mana symbols of that color among the mana costs of permanents you control as the ability resolves. The permanent with that ability will be counted if it's still on the battlefield at that time.
+  - *2013-09-15* — Mana symbols in the text boxes of permanents you control don't count toward your devotion to any color.
+  - *2013-09-15* — Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don't count toward your devotion to any color.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khc/23/evangel-of-heliod) · oracle_id `4fbe1c02-f5bf-47c7-80de-09a32d01e5db` · printing: KHC #23 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Evangel of Synthesis
 
@@ -202,7 +207,9 @@
 - **Flavor text** (EOC printing):
   > *"Progress always has a price."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4069 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/10/evendo-brushrazer) · oracle_id `795bc0b0-4b0a-49d6-ac8e-a52a10a93be8` · printing: EOC #10 (2025-08-01) · [rulings](https://api.scryfall.com/cards/8b9001a4-953c-4a32-b51a-c6bec7e74f9e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-07-25* — You pay all costs and follow all timing rules for cards played with the permission granted by Evendo Brushrazer’s second ability. For example, if an exiled card is a land card, you may play it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/10/evendo-brushrazer) · oracle_id `795bc0b0-4b0a-49d6-ac8e-a52a10a93be8` · printing: EOC #10 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Evendo, Waking Haven
 
@@ -215,6 +222,7 @@
   > 12+ | {G}, {T}: Add {G} for each creature you control.
 - **Keywords:** Station
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #905 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/253/evendo-waking-haven) · oracle_id `83161d59-2520-4741-9328-e2a4a8b5d5bc` · printing: EOE #253 (2025-08-01) · [rulings](https://api.scryfall.com/cards/2fa09104-acbe-4410-b101-2fe6ac28efde/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Even the Odds
@@ -240,6 +248,7 @@
 - **Flavor text** (SNC printing):
   > *Those who try to rob the Obscura often leave behind more than they take away.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9643 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/42/even-the-score) · oracle_id `25f5cca6-a414-46d9-82e3-ce2fa21b14ca` · printing: SNC #42 (2022-04-29) · [rulings](https://api.scryfall.com/cards/c629217f-4a10-4d92-86f8-22dc4067a724/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eventide's Shadow
@@ -251,7 +260,9 @@
 - **Flavor text** (ECC printing):
   > *Ajani's heart went out to those changed by the aurora's tides. Having selfhood ripped away was still a painfully familiar feeling.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7618 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/8/eventides-shadow) · oracle_id `92ac8aa4-e23c-4ed9-8317-c249a17ce3d2` · printing: ECC #8 (2026-01-23) · [rulings](https://api.scryfall.com/cards/9c5d71a6-8e68-4aee-b781-486276d17fce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-11-17* — Eventide's Shadow allows you to remove counters from permanents controlled by any player, not just permanents you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/8/eventides-shadow) · oracle_id `92ac8aa4-e23c-4ed9-8317-c249a17ce3d2` · printing: ECC #8 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ever After
 
@@ -285,7 +296,14 @@
   > Whenever this creature deals combat damage to a player, if there are cards exiled with it, you may play one of them without paying its mana cost.
 - **Keywords:** Trample, Hideaway
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5061 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blc/30/evercoat-ursine) · oracle_id `65c32889-3d70-449f-af76-05385c78c5a9` · printing: BLC #30 (2024-08-02) · [rulings](https://api.scryfall.com/cards/b299d768-b171-47e5-b69d-82ce13917c43/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-07-26* — "Hideaway N" means "When this permanent enters, look at the top N cards of your library. Exile one of them face down and put the rest on the bottom of your library in a random order. The exiled card gains ‘The player who controls the permanent that exiled this card may look at this card in the exile zone.'"
+  - *2024-07-26* — Any player who has controlled a permanent with a hideaway ability since a card was exiled with it may look at that card.
+  - *2024-07-26* — If a spell has {X} in its mana cost, you must choose 0 as the value of X when playing it without paying its mana cost.
+  - *2024-07-26* — If one of the exiled cards is a land card, you may play it only if you have an available land play remaining this turn.
+  - *2024-07-26* — If you cast a spell "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the spell has any mandatory additional costs, those must be paid to cast the spell.
+  - *2024-07-26* — You choose and play the card while Evercoat Ursine's last ability is resolving and still on the stack. You can't wait to play it later in the turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blc/30/evercoat-ursine) · oracle_id `65c32889-3d70-449f-af76-05385c78c5a9` · printing: BLC #30 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Everdawn Champion
 
@@ -322,7 +340,9 @@
   > When Evereth dies, you may pay {1}{B/R}. When you do, Evereth deals damage equal to its power to each opponent.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7553 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/j25/41/evereth-viceroy-of-plunder) · oracle_id `55b8c81b-f26b-4ae1-94ba-30b19e6a944e` · printing: J25 #41 (2024-11-15) · [rulings](https://api.scryfall.com/cards/f9c9c0be-8c69-45e5-bdcb-e62ddb05e532/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-11-08* — Use Evereth's power as it last existed on the battlefield to determine how much damage it deals with its last ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/j25/41/evereth-viceroy-of-plunder) · oracle_id `55b8c81b-f26b-4ae1-94ba-30b19e6a944e` · printing: J25 #41 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Everett K. Ross, Hapless Attaché
 
@@ -414,7 +434,16 @@
 - **Flavor text** (ECC printing):
   > *When night fell, the plane itself was scarred.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5279 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/121/everlasting-torment) · oracle_id `de41081e-713c-4005-90f7-65d9426208f1` · printing: ECC #121 (2026-01-23) · [rulings](https://api.scryfall.com/cards/a1e79115-bb2d-4455-b6dc-aaf2d0e26c60/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2008-05-01* — Effects that replace an event with gaining life (like Words of Worship's effect does) will end up replacing the event with nothing.
+  - *2008-05-01* — Effects that would replace gaining life with some other effect won't be able to do anything because it's impossible for players to gain life.
+  - *2008-05-01* — If a cost includes life gain (like Invigorate's alternative cost does), that cost can't be paid.
+  - *2008-05-01* — If an effect says to set your life total to a certain number, and that number is higher than your current life total, that effect will normally cause you to gain life equal to the difference. With Everlasting Torment on the battlefield, that part of the effect won't do anything. (If the number is lower than your current life total, the effect will work as normal.)
+  - *2008-05-01* — Spells and abilities that replace or redirect damage aren't affected by Everlasting Torment's second ability. They'll work as normal.
+  - *2008-05-01* — Spells and abilities that would normally cause a player to gain life still resolve, but the life-gain part simply has no effect.
+  - *2008-05-01* — The "damage can't be prevented" statement overrides all forms of preventing damage, including protection abilities. Damage prevention spells and abilities can still be cast and played; they just don't do anything.
+  - *2008-05-01* — The last ability affects all damage, whether it's dealt by creatures, other permanents, spells, or cards that aren't on the battlefield. Wither works everywhere.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/121/everlasting-torment) · oracle_id `de41081e-713c-4005-90f7-65d9426208f1` · printing: ECC #121 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Evermind
 
@@ -490,7 +519,9 @@
   > *"You think they know we're here?"*
   > *—Orlo, goblin raider*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8843 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c18/9/ever-watching-threshold) · oracle_id `c6639b52-b51d-46e7-a83c-c4621b1cecaa` · printing: C18 #9 (2018-08-10) · [rulings](https://api.scryfall.com/cards/b711a0aa-90e5-4f16-9dc3-9cc331fc3101/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-07-13* — You’ll draw only one card for each opponent attacking you or your planeswalkers, no matter how many creatures they’re attacking with. If multiple opponents are attacking you or your planeswalkers at once, you’ll draw one card for each of those opponents.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c18/9/ever-watching-threshold) · oracle_id `c6639b52-b51d-46e7-a83c-c4621b1cecaa` · printing: C18 #9 (2018-08-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Everybody Lives!
 
@@ -502,7 +533,9 @@
   > *"Everybody lives, Rose. Just this once, everybody lives!"*
   > *—The Ninth Doctor*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2078 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/18/everybody-lives!) · oracle_id `39213de3-6a4a-4879-a7f9-70f45013765e` · printing: WHO #18 (2023-10-13) · [rulings](https://api.scryfall.com/cards/9dab0052-7f0c-4b56-847f-20552666a271/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-10-13* — Players can always concede from the game, even if they can't otherwise lose the game.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/18/everybody-lives!) · oracle_id `39213de3-6a4a-4879-a7f9-70f45013765e` · printing: WHO #18 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Everyone's an Impostor
 
@@ -593,7 +626,14 @@
   > *"I can see every single atom of your existence, and I divide them."*
 - **Keywords:** Convoke
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4613 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/19/everything-comes-to-dust) · oracle_id `39acc3d0-85fc-4814-93f2-e709c3b2c86b` · printing: WHO #19 (2023-10-13) · [rulings](https://api.scryfall.com/cards/fb4b912c-07d4-42a1-8f3b-d5f34cca087f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-01-12* — Because convoke isn't an alternative cost, it can be used in conjunction with alternative costs.
+  - *2024-01-12* — If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.
+  - *2024-01-12* — Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature's colors.
+  - *2024-01-12* — Tapping an untapped creature that's attacking or blocking to convoke a spell won't cause that creature to stop attacking or blocking.
+  - *2024-01-12* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
+  - *2024-01-12* — You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/19/everything-comes-to-dust) · oracle_id `39acc3d0-85fc-4814-93f2-e709c3b2c86b` · printing: WHO #19 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Everything Pizza
 
@@ -627,7 +667,18 @@
   > {1}, {T}: Draw a card, then discard a card. When you discard a creature card this way, target creature you control can't be blocked this turn.
 - **Keywords:** Partner with, Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6949 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner, Partner with
-- **Source flags:** [Scryfall](https://scryfall.com/card/acr/19/evie-frye) · oracle_id `248cafe8-cc37-4cf3-8239-ac10e55ced13` · printing: ACR #19 (2024-07-05) · [rulings](https://api.scryfall.com/cards/62f1ff84-d363-4aa2-b884-e9640cf62537/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2024-07-05* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2024-07-05* — Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+  - *2024-07-05* — If your Commander deck has two commanders, you can only include cards whose own color identities are also found in your commanders’ combined color identities. If Evie Frye and Jacob Frye are your commanders, your deck may contain cards with blue and/or black in their color identity, but not white, red, or green.
+  - *2024-07-05* — Note that the target player searches their library (which may be affected by effects such as that of Stranglehold) and that the card they find is revealed, even though these words aren’t included in the ability’s reminder text.
+  - *2024-07-05* — Once the game begins, your two commanders are tracked separately. If you cast one, you won’t have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from one of them, not from both of them combined. Command Beacon’s effect puts one into your hand from the command zone, not both.
+  - *2024-07-05* — The second ability represented by the “partner with [name]” keyword modifies the rules for deck construction in the Commander variant and has no function outside of that variant. If a legendary creature card with “partner with [name]” is designated as your commander, the named legendary creature card can also be designated as your commander.
+  - *2024-07-05* — The triggered ability of the “partner with” keyword still triggers in a Commander game. If your other commander has somehow ended up in your library, you can find it. You can also target another player, whether or not they have that card in their library.
+  - *2024-07-05* — To have two commanders, both must have the partner ability or corresponding “partner with” abilities as the game begins. A creature with a “partner with” ability can’t partner with any creature other than its designated partner. Losing a partner ability during the game doesn’t cause either to cease to be your commander.
+  - *2024-07-05* — You don’t choose a target for Evie Frye’s last ability at the time you activate it. Rather, a second “reflexive” ability triggers when you discard a creature card this way. You choose a target for that ability as it goes on the stack. Each player may respond to this triggered ability as normal.
+  - *2024-07-05* — “Partner with [name]” represents two abilities. The first is a triggered ability: “When this permanent enters the battlefield, target player may search their library for a card named [name], reveal it, put it into their hand, then shuffle their library.”
+- **Source flags:** [Scryfall](https://scryfall.com/card/acr/19/evie-frye) · oracle_id `248cafe8-cc37-4cf3-8239-ac10e55ced13` · printing: ACR #19 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Evil Boros Charm
 
@@ -702,6 +753,7 @@
 - **Flavor text** (FIN printing):
   > *"Galuf. It's good to see you again . . . Mwa-hahahahaha!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7632 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/98/evil-reawakened) · oracle_id `264f944b-386b-4378-9764-4a8bde246809` · printing: FIN #98 (2025-06-13) · [rulings](https://api.scryfall.com/cards/eb98cbc3-749c-44f4-974c-00be1286d69e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Evil's Thrall
@@ -726,7 +778,17 @@
 - **Flavor text** (BBD printing):
   > *You can always tell the evil one by the dagger he's sticking in you.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6980 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/222/evil-twin) · oracle_id `da17da9b-f300-4613-978b-ba3026d4e275` · printing: BBD #222 (2018-06-08) · [rulings](https://api.scryfall.com/cards/7b1969ce-3bf1-4beb-bbf8-22edfda8e3f8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2017-03-14* — Any enters-the-battlefield abilities of the copied creature will trigger when Evil Twin enters the battlefield. Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the chosen creature will also work.
+  - *2017-03-14* — Evil Twin copies exactly what was printed on the original creature (unless that creature is copying something else or is a token; see below) and it gains the activated ability. It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or any Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
+  - *2017-03-14* — If Evil Twin somehow enters the battlefield at the same time as another creature, Evil Twin can't become a copy of that creature. You may choose only a creature that's already on the battlefield.
+  - *2017-03-14* — If the chosen creature has {X} in its mana cost, X is considered to be 0.
+  - *2017-03-14* — If the chosen creature is a token, Evil Twin copies the original characteristics of that token as stated by the effect that created the token. Evil Twin is not a token in this case.
+  - *2017-03-14* — If the chosen creature is copying something else (for example, if the chosen creature is another Evil Twin), then your Evil Twin enters the battlefield as whatever the chosen creature copied.
+  - *2017-03-14* — The activated ability that Evil Twin gains as part of its copy effect is a copiable value that other effects may copy.
+  - *2017-03-14* — You can choose not to copy anything. In that case, Evil Twin enters the battlefield as a 0/0 creature, and is probably put into the graveyard immediately.
+  - *2022-06-10* — Unless a token is a copy of another permanent or was explicitly given a name by the effect that created it, its name is the subtypes it was given when it was created plus the word "Token." For example, if an effect creates a 1/1 Soldier creature token, that token is named "Soldier Token."
+- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/222/evil-twin) · oracle_id `da17da9b-f300-4613-978b-ba3026d4e275` · printing: BBD #222 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Evincar's Justice
 
@@ -791,7 +853,13 @@
   > *"We're all just the sum of our parts."*
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3925 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/93/eviscerators-insight) · oracle_id `81a398ee-e534-43b7-88fe-45155d6aba3a` · printing: MH3 #93 (2024-06-14) · [rulings](https://api.scryfall.com/cards/b00573bd-5bbb-4531-a0bb-a40f62b92b88/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-06-07* — "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2024-06-07* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2024-06-07* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2024-06-07* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2024-06-07* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/93/eviscerators-insight) · oracle_id `81a398ee-e534-43b7-88fe-45155d6aba3a` · printing: MH3 #93 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Evolutionary Escalation
 
@@ -813,7 +881,9 @@
 - **Flavor text** (NCC printing):
   > *The essence of nature is change.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3360 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/288/evolutionary-leap) · oracle_id `44cf5ef4-2b0f-4d9d-bf87-8835424721d0` · printing: NCC #288 (2022-04-29) · [rulings](https://api.scryfall.com/cards/4d007d3c-3356-4394-9bcd-2b2c1031c20b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-03-19* — If you don't reveal a creature card, you'll reveal all the cards from your library and then put them back in your library in a random order.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/288/evolutionary-leap) · oracle_id `44cf5ef4-2b0f-4d9d-bf87-8835424721d0` · printing: NCC #288 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Evolution Charm
 
@@ -825,6 +895,7 @@
   > • Return target creature card from your graveyard to your hand.
   > • Target creature gains flying until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7868 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/202/evolution-charm) · oracle_id `5f73fd4e-0d24-4daa-8d82-73c0cf7f801d` · printing: TSR #202 (2021-03-19) · [rulings](https://api.scryfall.com/cards/723d21cb-f506-4ad4-89d8-ecfdaed5952f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Evolution Sage
@@ -874,7 +945,10 @@
   > *She remembers every breakthrough, from the gene's mutation to the new life's propagation.*
 - **Keywords:** Adapt
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #943 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/151/evolution-witness) · oracle_id `0e07f1af-5ff6-4da5-8683-aea4cc390975` · printing: MH3 #151 (2024-06-14) · [rulings](https://api.scryfall.com/cards/4d89283e-9783-4006-9294-4ae0473d2ce6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-06-07* — If a creature somehow loses all of its +1/+1 counters, it can adapt again and get more +1/+1 counters.
+  - *2024-06-07* — You can always activate an ability that will cause a creature to adapt. As that ability resolves, if the creature has a +1/+1 counter on it for any reason, you simply won't put any +1/+1 counters on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/151/evolution-witness) · oracle_id `0e07f1af-5ff6-4da5-8683-aea4cc390975` · printing: MH3 #151 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Evolved Sleeper
 

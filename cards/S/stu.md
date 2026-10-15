@@ -58,7 +58,10 @@
   > *The Temur have no patience for subtlety.*
 - **Keywords:** Ferocious
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1536 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/56/stubborn-denial) · oracle_id `3adc3af3-5086-4d61-b38c-c1dddeaeebe6` · printing: KTK #56 (2014-09-26) · [rulings](https://api.scryfall.com/cards/6f8626c4-306f-4e9d-8840-2bb73fe87e87/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-09-20* — Ferocious abilities of instants and sorceries that don’t use the word “instead” will provide an additional effect if you control a creature with power 4 or greater as they resolve.
+  - *2014-09-20* — Some ferocious abilities that appear on instants and sorceries use the word “instead.” These spells have an upgraded effect if you control a creature with power 4 or greater as they resolve. For these, you only get the upgraded effect, not both effects.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/56/stubborn-denial) · oracle_id `3adc3af3-5086-4d61-b38c-c1dddeaeebe6` · printing: KTK #56 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stuck in Summoner's Sanctum
 
@@ -124,7 +127,23 @@
   > Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.
 - **Keywords:** Prepared
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2783 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/162/studious-first-year-rampant-growth) · oracle_id `58b0c737-0a84-4f9a-b3b7-300c5de43874` · printing: SOS #162 (2026-04-24) · [rulings](https://api.scryfall.com/cards/24f888dd-785c-4089-a89c-03f9080130ed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2026-03-20* — A creature with a prepare spell can't become prepared more than once at the same time. For example, Emeritus of Ideation is on the battlefield and is prepared. When it attacks, its last ability triggers. When that ability resolves, its controller may still exile eight cards from their graveyard, but doing so won't cause Emeritus of Ideation to become prepared a second time or create a second copy of Ancestral Recall in exile.
+  - *2026-03-20* — A creature without a prepare spell can't become prepared.
+  - *2026-03-20* — A preparation card is a creature card in every zone. For example, while it's in your graveyard, Emeritus of Ideation is a blue creature whose mana value is 5. It can't be the target of Zealous Lorecaster's triggered ability ("When this creature enters, return target instant or sorcery card from your graveyard to your hand.").
+  - *2026-03-20* — As an effect causes a creature with a prepare spell to become prepared (including effects that state that a creature "enters prepared"), that creature's controller creates a copy of that creature's prepare spell in exile. That copy remains in exile for as long as that permanent is on the battlefield and is prepared. That creature's controller may cast that copy as long as it remains in exile. As they cast it, that creature stops being prepared.
+  - *2026-03-20* — Being prepared isn't a copiable value. If a permanent becomes a copy of a prepared creature, it won't be prepared. That permanent will have the alternative characteristics, though, and some other effect could cause it to become prepared later.
+  - *2026-03-20* — Casting a copy of a prepare spell from exile isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to a copy of a prepare spell cast from exile.
+  - *2026-03-20* — Creating a copy of a creature's prepare spell in exile ignores copy exceptions applied to that creature that would affect the copiable values of that spell. For example, say a player casts Croaking Counterpart (a sorcery that says "Create a token that's a copy of target non-Frog creature, except it's a 1/1 green Frog.") targeting Goblin Glasswright. The token copy of Goblin Glasswright will enter prepared as a 1/1 green Frog creature, but the copy of Craft with Pride in exile will still be a red sorcery. The copy of Craft with Pride won't be green, a creature, or a Frog, and it won't have power or toughness.
+  - *2026-03-20* — If a prepare spell with one or more targets has no legal targets when it tries to resolve, it won't resolve and none of its effects will happen. Since the spell was cast, the associated permanent will still not be prepared.
+  - *2026-03-20* — If a prepared creature loses all abilities, it won't stop being prepared, and nothing will happen to its alternative characteristics or to the copy of its prepare spell in exile.
+  - *2026-03-20* — If a prepared creature stops being a creature, it will still be prepared, and the copy of its prepare spell will remain in exile. That permanent's controller will still be able to cast it. The same is true if a prepared creature becomes a copy of something else, even if it's then a permanent without a prepare spell.
+  - *2026-03-20* — If an effect causes a creature to become unprepared, a prepared creature stops being prepared and the associated copy of its prepare spell in exile ceases to exist. If it wasn't prepared at that time, nothing happens.
+  - *2026-03-20* — If an effect instructs you to choose a card name, you may choose the alternative prepare spell's name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2026-03-20* — Only the current controller of a prepared creature can cast the copy of its prepare spell in exile. It doesn't matter who owns that creature or who controlled it when it became prepared.
+  - *2026-03-20* — Preparation cards can only be cast with their base characteristics.
+  - *2026-03-20* — While copies of spells in zones other than the stack cease to exist when state-based actions are checked, this does not apply to copies of prepare spells in exile that were created as a creature became prepared.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/162/studious-first-year-rampant-growth) · oracle_id `58b0c737-0a84-4f9a-b3b7-300c5de43874` · printing: SOS #162 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Study
 
@@ -160,6 +179,7 @@
   > {1}, {T}: Add one mana of any color. When you spend this mana to cast your commander, scry X, where X is the number of times it's been cast from the command zone this game.
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3502 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/407/study-hall) · oracle_id `eb735501-19e7-4910-aa6a-6667fff6f4e5` · printing: SOC #407 (2026-04-24) · [rulings](https://api.scryfall.com/cards/93f812bc-7663-4504-b566-79e2c0a0f845/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Study the Classics
@@ -198,7 +218,10 @@
   > {T}: This creature deals 1 damage to itself.
 - **Keywords:** Indestructible
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2255 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/875/stuffy-doll) · oracle_id `499dceab-1890-49c8-b35d-b059a1dc950f` · printing: CLB #875 (2022-06-10) · [rulings](https://api.scryfall.com/cards/978c2c7d-6898-4be2-aed7-e673210ce654/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-03-19* — A creature can be dealt an amount of damage greater than its toughness. For example, if Stuffy Doll is dealt 3 damage, its triggered ability deals 3 damage, not 1, to the chosen player.
+  - *2021-03-19* — If your life total is brought to 0 or less at the same time that Stuffy Doll is dealt damage, you lose the game before its triggered ability goes on the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/875/stuffy-doll) · oracle_id `499dceab-1890-49c8-b35d-b059a1dc950f` · printing: CLB #875 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stumpsquall Hydra
 
@@ -226,7 +249,15 @@
   - *Flavor text (MH3 printing):*
   > *The loggers never questioned why the last crew had abandoned camp.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1285 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/259/stump-stomp-burnwillow-clearing) · oracle_id `eb7b1284-0b2c-4b6a-a389-b2b932838083` · printing: MH3 #259 (2024-06-14) · [rulings](https://api.scryfall.com/cards/49974246-0a3b-4ec9-b5ea-2a89df9bb0b5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2024-06-07* — A modal double-faced card can't be transformed or be put onto the battlefield transformed. Ignore any instruction to transform a modal double-faced card or to put one onto the battlefield transformed.
+  - *2024-06-07* — If an effect allows you to play a land or cast a spell from among a group of cards, you may play or cast a modal double-faced card with any face that fits the criteria of that effect. For example, if an effect allows you to play lands from your graveyard, you can play Garden of Freyalise, but you can't cast Disciple of Freyalise.
+  - *2024-06-07* — If an effect allows you to play a specific modal double-faced card, you may cast it as a spell or play it as a land, as determined by which face you choose to play. If an effect allows you to cast (rather than "play") a specific modal double-faced card, you can't play it as a land.
+  - *2024-06-07* — If an effect allows you to put a card with particular characteristics onto the battlefield without instructing you to play or cast it, you consider only the characteristics of a modal double-faced card's front face to see if that card qualifies. If it does, it enters the battlefield with its front face up. For example, if an effect allows you to put a creature card from your graveyard onto the battlefield, you can put Disciple of Freyalise onto the battlefield. However, an effect that lets you return a land card from your graveyard to your hand won't let you return Garden of Freyalise to your hand, as that card has only its front face's characteristics while in the graveyard.
+  - *2024-06-07* — If either target is an illegal target as Stump Stomp tries to resolve, the creature you control won't deal damage.
+  - *2024-06-07* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack or the battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
+  - *2024-06-07* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics. For example, if an effect stops you from casting creature spells, you can't cast Disciple of Freyalise, but you can still play Garden of Freyalise.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/259/stump-stomp-burnwillow-clearing) · oracle_id `eb7b1284-0b2c-4b6a-a389-b2b932838083` · printing: MH3 #259 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stun
 
@@ -239,7 +270,10 @@
   > *"I concede it was a cheap shot, but it was the only one I could afford."*
   > *—Gerrard of the Weatherlight*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9180 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tpr/163/stun) · oracle_id `d3491972-44c5-4962-a680-42b79357a189` · printing: TPR #163 (2015-05-06) · [rulings](https://api.scryfall.com/cards/4b3231af-f1cc-4f3c-8f97-60e5d639d1ad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — Must be used before blockers are declared in order to affect blocking decisions. You can’t wait to see what your opponent declares and then try to stop them.
+  - *2004-10-04* — You can use it after combat or even on a creature which can’t possibly block this turn because it’s that player’s turn to attack, but it generally has no effect other than to let you draw a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tpr/163/stun) · oracle_id `d3491972-44c5-4962-a680-42b79357a189` · printing: TPR #163 (2015-05-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stunning Reversal
 
@@ -299,7 +333,15 @@
   > *No duelist is without equal in Paliano.*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3817 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/101/stunt-double) · oracle_id `a7ff1b64-8eab-4309-892c-17a619cd302e` · printing: CLU #101 (2024-02-23) · [rulings](https://api.scryfall.com/cards/7afaaea9-300a-46c8-b9ec-a2579f8a4b7f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2016-08-23* — Any enters-the-battlefield abilities of the copied creature will trigger when Stunt Double enters the battlefield. Any “as [this creature] enters the battlefield” or “[this creature] enters the battlefield with” abilities of the chosen creature will also work.
+  - *2016-08-23* — If Stunt Double somehow enters the battlefield at the same time as another creature, it can’t become a copy of that creature. You may choose only a creature that’s already on the battlefield.
+  - *2016-08-23* — If the chosen creature is a token, Stunt Double copies the original characteristics of that token as stated by the effect that put the token onto the battlefield. Stunt Double isn’t a token.
+  - *2016-08-23* — If the chosen creature is copying something else (for example, if the chosen creature is another Stunt Double), then Stunt Double enters the battlefield as whatever the chosen creature copied.
+  - *2016-08-23* — If the copied creature has {X} in its mana cost, that X is considered to be 0.
+  - *2016-08-23* — Stunt Double copies exactly what was printed on the original creature (unless that creature is copying something else or is a token; see below). It doesn’t copy whether that creature is tapped or untapped, whether it has any counters on it or any Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
+  - *2016-08-23* — You can choose not to copy anything. In that case, Stunt Double enters the battlefield as a 0/0 creature, and is put into the graveyard immediately (unless something else is raising its toughness).
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/101/stunt-double) · oracle_id `a7ff1b64-8eab-4309-892c-17a619cd302e` · printing: CLU #101 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stunted Growth
 

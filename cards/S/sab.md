@@ -173,7 +173,11 @@
   > *These strange, ambulatory cacti are commonly found in the Altepa Desert of the Kuzotz Region, and little regarding their way of life is known to science.*
 - **Keywords:** Reach, Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2309 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/153/sabotender) · oracle_id `65385311-1158-4e94-892a-683997706ca8` · printing: FIN #153 (2025-06-13) · [rulings](https://api.scryfall.com/cards/12df1295-8b08-4c8e-bac9-55b4f514c0be/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-07-25* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2025-07-25* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2025-07-25* — Whenever a land you control enters, each landfall ability of permanents you control will trigger. You can put them on the stack in any order. The last ability you put on the stack will be the first one to resolve. As a result, you can have those abilities resolve in the order of your choosing.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/153/sabotender) · oracle_id `65385311-1158-4e94-892a-683997706ca8` · printing: FIN #153 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sabretooth Tiger
 
@@ -199,4 +203,5 @@
   > At the beginning of your first main phase, put a +1/+1 counter on Sab-Sunen. Then if it has an odd number of counters on it, draw two cards.
 - **Keywords:** Reach, Indestructible, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5446 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/221/sab-sunen-luxa-embodied) · oracle_id `07e15387-f346-4fa0-b556-d1c52d4acc07` · printing: DFT #221 (2025-02-14) · [rulings](https://api.scryfall.com/cards/2ef555b1-666d-4386-8983-0e88f9b6cdec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

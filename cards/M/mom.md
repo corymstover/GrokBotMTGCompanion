@@ -38,7 +38,16 @@
   > Flashback {3}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2762 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/15/momentary-blink) · oracle_id `a3ec6b5d-08ec-4ae0-b1db-c4b87a1849c7` · printing: DMR #15 (2023-01-13) · [rulings](https://api.scryfall.com/cards/619c620d-1920-40d1-98d4-df5607f84d26/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2021-03-19* — "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2021-03-19* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2021-03-19* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2021-03-19* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+  - *2022-12-08* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
+  - *2022-12-08* — When the card returns to the battlefield, it will be a new object with no connection to the card that was exiled. Auras attached to the exiled creature will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled creature will cease to exist.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/15/momentary-blink) · oracle_id `a3ec6b5d-08ec-4ae0-b1db-c4b87a1849c7` · printing: DMR #15 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moment of Craving
 
@@ -156,7 +165,11 @@
 - **Flavor text** (JMP printing):
   > *It wasn't long until the elves had developed a use for every part of the Eldrazi.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2591 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/411/momentous-fall) · oracle_id `6a5ce1b0-ac78-4a74-9eb7-4064e1687bf1` · printing: JMP #411 (2020-07-17) · [rulings](https://api.scryfall.com/cards/91a6f558-a754-4437-8328-00a6ca47f9b5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2010-06-15* — The sacrificed creature’s last known existence on the battlefield is checked to determine its power and its toughness.
+  - *2013-04-15* — Players can only respond once this spell has been cast and all its costs have been paid. No one can try to destroy the creature you sacrificed to prevent you from casting this spell.
+  - *2013-04-15* — You must sacrifice exactly one creature to cast this spell; you cannot cast it without sacrificing a creature, and you cannot sacrifice additional creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/411/momentous-fall) · oracle_id `6a5ce1b0-ac78-4a74-9eb7-4064e1687bf1` · printing: JMP #411 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moment's Peace
 
@@ -167,7 +180,14 @@
   > Flashback {2}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5738 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ody/251/moments-peace) · oracle_id `b6d22228-a45e-4296-9ae2-1649e04b1c53` · printing: ODY #251 (2001-10-01) · [rulings](https://api.scryfall.com/cards/40ebe935-ccf9-435e-8fe8-53bcbf3526e7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-03-19* — "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2021-03-19* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2021-03-19* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2021-03-19* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ody/251/moments-peace) · oracle_id `b6d22228-a45e-4296-9ae2-1649e04b1c53` · printing: ODY #251 (2001-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Momentum
 
@@ -191,7 +211,14 @@
   > {2}, Sacrifice this enchantment: You gain life equal to your speed.
 - **Keywords:** Start your engines!
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9642 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dft/97/momentum-breaker) · oracle_id `087d2e42-c69f-4cd2-b2e3-e0b64ac2893b` · printing: DFT #97 (2025-02-14) · [rulings](https://api.scryfall.com/cards/38513b53-384f-45e7-9905-80dd2c3c4918/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-02-07* — A player “has max speed” if their speed is 4.
+  - *2025-02-07* — Each player tracks their speed (or lack thereof) separately. Increasing your speed has no effect on whether another player has speed.
+  - *2025-02-07* — If an effect needs to know what a player’s speed is and that player doesn’t have a speed, their speed is considered 0.
+  - *2025-02-07* — Start your engines! isn’t a triggered ability. Increasing your speed to 1 is something that happens as a state-based action as soon as you control a permanent with the ability. Notably, this includes gaining control of a permanent with the ability that another player controls.
+  - *2025-02-07* — Your speed doesn’t change until a spell or ability says so, such as the inherent triggered ability that cares about opponents losing life during your turn. Notably, losing control of permanents with start your engines! doesn’t affect your speed.
+  - *2025-02-07* — “Max speed — [ability]” means “As long as you have max speed, this object has [ability].” If the granted ability functions in a zone other than the battlefield, the max speed ability does too.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dft/97/momentum-breaker) · oracle_id `087d2e42-c69f-4cd2-b2e3-e0b64ac2893b` · printing: DFT #97 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Momentum Rumbler
 
@@ -226,7 +253,9 @@
   > Whenever another creature you control with flying enters, Momo gets +1/+1 until end of turn.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7144 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/29/momo-friendly-flier) · oracle_id `a3c56e71-0de6-447a-a9b4-0971f56c2362` · printing: TLA #29 (2025-11-21) · [rulings](https://api.scryfall.com/cards/c472ef84-a632-4ad7-853c-60588a7a4b12/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-10-02* — Momo, Friendly Flier's second ability only reduces the generic mana cost of the spell. If first non-Lemur creature spell with flying you cast on your turn doesn't have generic mana in its cost, the cost will not be reduced and the cost reduction will not apply to the next spell you cast that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/29/momo-friendly-flier) · oracle_id `a3c56e71-0de6-447a-a9b4-0971f56c2362` · printing: TLA #29 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Momo, Playful Pet
 
@@ -241,7 +270,12 @@
   > • Scry 2.
 - **Keywords:** Scry, Flying, Vigilance, Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8669 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/30/momo-playful-pet) · oracle_id `85ee8ab6-8db5-45d7-85ae-64838771146a` · printing: TLA #30 (2025-11-21) · [rulings](https://api.scryfall.com/cards/9350bf4a-fa12-4867-b31f-1f1394d99571/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-10-02* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2025-10-02* — If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, you can sacrifice Tough Cookie (an Artifact Creature — Food Golem) to activate Bosco, Just a Bear's ability (an ability with "Sacrifice a Food" in its cost). You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Bosco, Just a Bear's ability.
+  - *2025-10-02* — Some spells and abilities that create Food tokens may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Food tokens.
+  - *2025-10-02* — Whatever you do, don't eat the delicious cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/30/momo-playful-pet) · oracle_id `85ee8ab6-8db5-45d7-85ae-64838771146a` · printing: TLA #30 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Momo, Rambunctious Rascal
 

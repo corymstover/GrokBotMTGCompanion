@@ -259,7 +259,11 @@
   > *—Jacob Frye*
 - **Keywords:** Freerunning
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7376 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/acr/23/chain-assassination) · oracle_id `37addb87-234a-402f-b7fb-f88ef3f2a589` · printing: ACR #23 (2024-07-05) · [rulings](https://api.scryfall.com/cards/d4bcd9c9-5957-48ee-9c12-f659c5fd07d0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-07-05* — If the target creature is a legal target but isn’t destroyed, most likely because it has indestructible, you’ll still draw a card if another creature died this turn.
+  - *2024-07-05* — If the target creature is an illegal target by the time Chain Assassination tries to resolve, it won’t resolve and none of its effects will happen. You won’t draw a card even if another creature has died this turn.
+  - *2024-07-05* — Once an Assassin creature or commander you control deals combat damage to a player in a turn, you can cast spells for their freerunning costs for the rest of that turn. It doesn’t matter what happens to that Assassin or commander after that.
+- **Source flags:** [Scryfall](https://scryfall.com/card/acr/23/chain-assassination) · oracle_id `37addb87-234a-402f-b7fb-f88ef3f2a589` · printing: ACR #23 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chainbreaker
 
@@ -333,7 +337,9 @@
   > {B}{B}{B}, Pay 3 life: Put target creature card from a graveyard onto the battlefield under your control. That creature is black and is a Nightmare in addition to its other creature types.
   > When Chainer leaves the battlefield, exile all Nightmares.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5563 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/144/chainer-dementia-master) · oracle_id `cb905eb0-bb20-41c0-9695-0f5c71972561` · printing: CMM #144 (2023-08-04) · [rulings](https://api.scryfall.com/cards/186c30e6-2b84-415d-83e4-ecddaeb11ca1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-12-08* — The creature put onto the battlefield by Chainer's activated ability is black only, not black in addition to its other colors. It is, however, a Nightmare in addition to its other creature types. As it enters the battlefield, it is already a black Nightmare (and perhaps some other creature types); it doesn't enter and then become a black Nightmare.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/144/chainer-dementia-master) · oracle_id `cb905eb0-bb20-41c0-9695-0f5c71972561` · printing: CMM #144 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chainer, Nightmare Adept
 
@@ -344,7 +350,13 @@
   > Discard a card: You may cast a creature spell from your graveyard this turn. Activate only once each turn.
   > Whenever a nontoken creature you control enters, if you didn't cast it from your hand, it gains haste until your next turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1635 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/289/chainer-nightmare-adept) · oracle_id `14f6fcb0-bed4-4a38-b7df-1e438d81bedb` · printing: MH2 #289 (2021-06-18) · [rulings](https://api.scryfall.com/cards/d8089e7f-7619-43fe-8e0b-31ce5d988a1b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2019-08-23* — Chainer's first ability doesn't change when you can cast the creature card. You can normally only cast it during your turn while the stack is empty, but if the creature card has flash, you can cast it at other times.
+  - *2019-08-23* — Chainer's last ability triggers if Chainer enters the battlefield without being cast from your hand.
+  - *2019-08-23* — Chainer's last ability triggers if the entering creature was cast from a zone other than your hand, or if it wasn't cast at all and is entering the battlefield from anywhere (including from your hand).
+  - *2019-08-23* — If you somehow activate Chainer's first ability more than once during a turn (perhaps because Chainer left the battlefield and returned), you can cast a creature card for each ability's permission. Similarly, if another effect allows you to cast a creature card from your graveyard, you may use that permission and later use Chainer's permission to cast another creature card.
+  - *2019-08-23* — You don't choose a creature card to cast while activating or resolving Chainer's first ability. The ability creates a permission for you to cast a creature card from your graveyard later in the turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/289/chainer-nightmare-adept) · oracle_id `14f6fcb0-bed4-4a38-b7df-1e438d81bedb` · printing: MH2 #289 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chainer's Edict
 
@@ -399,7 +411,12 @@
 - **Oracle text:**
   > Chain Lightning deals 3 damage to any target. Then that player or that permanent's controller may pay {R}{R}. If the player does, they may copy this spell and may choose a new target for that copy.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5786 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/113/chain-lightning) · oracle_id `8785f42f-87b9-4a0a-89ce-ea423649ba9c` · printing: DMR #113 (2023-01-13) · [rulings](https://api.scryfall.com/cards/2105a0d9-ea2e-4ffc-be08-424b5617205d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-12-08* — As Chain Lightning resolves, either the original or one of the copies, the targeted player or the controller of the targeted permanent may copy it. The copy has the same text, target, and color as the resolving spell, though the player creating the copy may choose a new target for it. Once that copy is created (or not), the Chain Lightning finishes resolving and leaves the stack.
+  - *2022-12-08* — If the targeted player or permanent is an illegal target as Chain Lightning tries to resolve, the spell doesn't resolve and none of its effects happen. It can't be copied.
+  - *2022-12-08* — The copy of Chain Lightning is created on the stack, so it's not cast. Abilities that trigger when a player casts a spell won't trigger. Players may respond to that spell before it resolves.
+  - *2022-12-08* — The player putting the copy of the spell on the stack controls that copy.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/113/chain-lightning) · oracle_id `8785f42f-87b9-4a0a-89ce-ea423649ba9c` · printing: DMR #113 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chain of Acid
 
@@ -435,6 +452,7 @@
 - **Oracle text:**
   > Target player discards two cards. That player may copy this spell and may choose a new target for that copy.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3275 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ons/132/chain-of-smog) · oracle_id `ea14c26b-bf2f-48b4-b879-6e63069ded1f` · printing: ONS #132 (2002-10-07) · [rulings](https://api.scryfall.com/cards/6bfe64f9-8b03-41f6-a47b-fade397ad9d1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chain of Vapor
@@ -444,6 +462,7 @@
 - **Oracle text:**
   > Return target nonland permanent to its owner's hand. Then that permanent's controller may sacrifice a land of their choice. If the player does, they may copy this spell and may choose a new target for that copy.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #990 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c16/84/chain-of-vapor) · oracle_id `2167ac25-d042-4b48-b770-8b94acc1a965` · printing: C16 #84 (2016-11-11) · [rulings](https://api.scryfall.com/cards/38f741bf-13ee-4384-98ab-27833ebb9f6d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chain Reaction
@@ -471,6 +490,7 @@
   > Equip {3}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3794 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/128/chainsaw) · oracle_id `3db40361-5f55-417e-a7cd-7e360cc91b4d` · printing: DSK #128 (2024-09-27) · [rulings](https://api.scryfall.com/cards/54e0c2cd-fa5f-427d-8e15-6066f002a8e3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chains of Custody
@@ -483,7 +503,12 @@
   > Enchanted creature has ward {2}. (Whenever it becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5161 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/139/chains-of-custody) · oracle_id `5acff7a3-bc84-4251-bd37-80231396ac38` · printing: SOC #139 (2026-04-24) · [rulings](https://api.scryfall.com/cards/3484b0bb-f305-404b-b4a9-430296061365/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-12-02* — Auras attached to the exiled permanent will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist. When the card returns to the battlefield, it will be a new object with no connection to the card that was exiled.
+  - *2022-12-02* — If Chains of Custody leaves the battlefield before its second ability resolves, the target permanent won't be exiled.
+  - *2022-12-02* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
+  - *2022-12-02* — If an Aura is exiled this way, its owner chooses what it will enchant as it returns to the battlefield. An Aura put onto the battlefield this way doesn't target anything (so it could be attached to a permanent with shroud, for example), but the Aura's enchant ability restricts what it can be attached to. If the Aura can't legally be attached to anything, it remains in exile for the rest of the game.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/139/chains-of-custody) · oracle_id `5acff7a3-bc84-4251-bd37-80231396ac38` · printing: SOC #139 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chains of Mephistopheles
 
@@ -531,7 +556,16 @@
   > This creature escapes with three +1/+1 counters on it.
 - **Keywords:** Reach, Escape
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9672 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/167/chainweb-aracnir) · oracle_id `c45423ad-1920-46f7-bcc1-ecade5880821` · printing: THB #167 (2020-01-24) · [rulings](https://api.scryfall.com/cards/874afaad-546a-4cb2-ad01-2b4a4862b219/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2020-01-24* — After an escaped spell resolves, it returns to its owner's graveyard if it's not a permanent spell. If it is a permanent spell, it enters the battlefield and will return to its owner's graveyard if it dies later. Perhaps it will escape again—good underworld security is so hard to come by these days.
+  - *2020-01-24* — Escape's permission doesn't change when you may cast the spell from your graveyard.
+  - *2020-01-24* — If Chainweb Aracnir leaves the battlefield before its triggered ability resolves, use its power as it last existed on the battlefield to determine how much damage it deals.
+  - *2020-01-24* — If a card has multiple abilities giving you permission to cast it, such as two escape abilities or an escape ability and a flashback ability, you choose which one to apply. The others have no effect.
+  - *2020-01-24* — If a card with escape is put into your graveyard during your turn, you'll be able to cast it right away if it's legal to do so, before an opponent can take any actions.
+  - *2020-01-24* — If you cast a spell with its escape permission, you can't choose to apply any other alternative costs or to cast it without paying its mana cost. If it has any additional costs, you must pay those.
+  - *2020-01-24* — Once you begin casting a spell with escape, it immediately moves to the stack. Players can't take any other actions until you're done casting the spell.
+  - *2020-01-24* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an escape cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was and no matter whether an alternative cost was paid.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/167/chainweb-aracnir) · oracle_id `c45423ad-1920-46f7-bcc1-ecade5880821` · printing: THB #167 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chainwhip Cyclops
 
@@ -554,7 +588,9 @@
   > When this enchantment enters, return up to one target instant or sorcery card from your graveyard to your hand.
   > Whenever you cast an instant or sorcery spell, draw a card. Then discard a card unless there are three or more Lesson cards in your graveyard.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9159 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tle/91/chakra-meditation) · oracle_id `12c57ebe-35a7-4cb3-936b-99c148a3cfed` · printing: TLE #91 (2025-11-21) · [rulings](https://api.scryfall.com/cards/98392aac-2c1c-4cff-ad14-0e2f51439012/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-10-02* — Chakra Meditation's second triggered ability will trigger and resolve before the instant or sorcery spell that triggered it. Notably, if you cast a Lesson spell while you have two Lesson cards in your graveyard, you will still have to discard a card to Chakra Meditation's ability because the Lesson you cast is still on the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tle/91/chakra-meditation) · oracle_id `12c57ebe-35a7-4cb3-936b-99c148a3cfed` · printing: TLE #91 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chakram Retriever
 
@@ -566,7 +602,13 @@
   > Whenever you cast a spell during your turn, untap target creature.
 - **Keywords:** Partner with, Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6075 · Game Changer: no · Can be commander: No · Pairing: Partner, Partner with
-- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/15/chakram-retriever) · oracle_id `8ad2ecd5-2d50-4a54-a672-335d7e636a5a` · printing: BBD #15 (2018-06-08) · [rulings](https://api.scryfall.com/cards/b57d518c-21bb-4451-8248-9ee838460c09/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2018-06-08* — A nonlegendary creature can’t be your commander, even if it has a “partner with” ability.
+  - *2018-06-08* — Chakram Retriever’s last ability resolves before the spell that caused it to trigger.
+  - *2018-06-08* — Note that the target player searches their library (which may be affected by effects such as that of Stranglehold) and that the card they find is revealed, even though these words aren’t included in the ability’s reminder text.
+  - *2018-06-08* — Players can cast spells and activate abilities after Chakram Retriever’s last ability resolves but before the spell that caused it to trigger does.
+  - *2018-06-08* — “Partner with [name]” represents two abilities. The first is a triggered ability: “When this permanent enters the battlefield, target player may search their library for a card named [name], reveal it, put it into their hand, then shuffle their library.”
+- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/15/chakram-retriever) · oracle_id `8ad2ecd5-2d50-4a54-a672-335d7e636a5a` · printing: BBD #15 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chakram Slinger
 
@@ -593,7 +635,10 @@
   > *The bitter taste of life's only certainty.*
 - **Keywords:** Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8246 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/257/chalice-of-life-chalice-of-death) · oracle_id `28df85d6-e13a-4178-a361-7015afd316ca` · printing: INR #257 (2025-01-24) · [rulings](https://api.scryfall.com/cards/e432b156-baf0-48a1-b8fb-1aa18bfbf7de/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2011-01-22* — You check your life total to see if Chalice of Life transforms only when its ability resolves.
+  - *2011-01-22* — Your starting life total is the life total you began the game with. For most two-player formats, this is 20. For Two-Headed Giant, it's the life total your team started with, usually 30. In Commander games, the starting life total is 40.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/257/chalice-of-life-chalice-of-death) · oracle_id `28df85d6-e13a-4178-a361-7015afd316ca` · printing: INR #257 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chalice of the Void
 
@@ -603,7 +648,12 @@
   > This artifact enters with X charge counters on it.
   > Whenever a player casts a spell with mana value equal to the number of charge counters on this artifact, counter that spell.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9410 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/a25/222/chalice-of-the-void) · oracle_id `74027ba4-a6ba-4696-baf1-60ef0b27ee0a` · printing: A25 #222 (2018-03-16) · [rulings](https://api.scryfall.com/cards/1f0d2e8e-c8f2-4b31-a6ba-6283fc8740d4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-03-19* — A mana cost of {X}{X} means that you pay twice X. For example, if you want X to be 3, you pay {6} to cast Chalice of the Void.
+  - *2021-03-19* — Chalice of the Void has to be on the battlefield at the end of casting a spell for the ability to trigger. If you sacrifice Chalice of the Void as a cost to cast a spell, its ability can't trigger. However, if it leaves the battlefield once its ability has triggered, that ability will still counter the spell.
+  - *2021-03-19* — If there are zero charge counters on Chalice of the Void, it counters each spell with a mana value of 0. This includes face-down creature spells cast with morph's alternative cost.
+  - *2021-03-19* — The number of charge counters on Chalice of the Void matters only at the time the spell is cast. Changing the number of charge counters on Chalice of the Void after a spell has been cast won't change whether the ability triggers or counters the spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/a25/222/chalice-of-the-void) · oracle_id `74027ba4-a6ba-4696-baf1-60ef0b27ee0a` · printing: A25 #222 (2018-03-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chalk Outline
 
@@ -690,6 +740,7 @@
   > {2}{G}{G}: This creature gets +X/+X until end of turn, where X is its power.
 - **Keywords:** Protection, Changeling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6519 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/afc/153/chameleon-colossus) · oracle_id `7b8f1458-c638-4907-9363-f7cc22d04605` · printing: AFC #153 (2021-07-23) · [rulings](https://api.scryfall.com/cards/15401ca4-f6cd-400e-8e5e-ea47493b56a4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chameleon, Master of Disguise
@@ -704,7 +755,10 @@
   > *"You have a lovely face. Mind if I borrow it?"*
 - **Keywords:** Mayhem
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1736 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/148/chameleon-master-of-disguise) · oracle_id `1ce239f2-79ad-4a30-8e8f-f985045f78dc` · printing: MSC #148 (2026-06-26) · [rulings](https://api.scryfall.com/cards/dcc50ba7-c4be-4c20-a1fc-466194aab7c2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-09-19* — Mayhem represents an alternative cost that can be paid to cast a spell from your graveyard if you discarded the card with mayhem that turn. You must pay any additional costs the spell has.
+  - *2025-09-19* — You must follow all normal timing rules when casting a spell with mayhem. For example, you can't cast a creature card with mayhem you couldn't normally cast during an opponent's turn, even if you discard that card during an opponent's turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/148/chameleon-master-of-disguise) · oracle_id `1ce239f2-79ad-4a30-8e8f-f985045f78dc` · printing: MSC #148 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chameleon Spirit
 
@@ -766,7 +820,9 @@
 - **Flavor text** (LCC printing):
   > *"Drench these golden streets in the blood of our enemies."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3608 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/188/champion-of-dusk) · oracle_id `5f7f0a38-fb7e-4ee8-a712-9aa911f17dae` · printing: LCC #188 (2023-11-17) · [rulings](https://api.scryfall.com/cards/5fa1674a-86cc-4fdf-8671-860b2bf5043d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-01-19* — The number of Vampires you control is counted only as Champion of Dusk's ability resolves. If Champion of Dusk is still on the battlefield, it'll count itself.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/188/champion-of-dusk) · oracle_id `5f7f0a38-fb7e-4ee8-a712-9aa911f17dae` · printing: LCC #188 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Champion of Lambholt
 
@@ -832,7 +888,9 @@
   > *Grand Warlord Radha's challengers are always defeated, but she rewards the most passionate with the Flame of Keld. After that, they burn for her.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9739 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/210/champion-of-the-flame) · oracle_id `d9dbe40f-38e9-460a-b84f-4aa22650017e` · printing: CMM #210 (2023-08-04) · [rulings](https://api.scryfall.com/cards/203dba7d-5e89-4a5a-998a-c26bf17c92f9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-11-10* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to Champion of the Flame may become lethal if an Aura or Equipment attached to it leaves the battlefield or becomes attached to another creature during that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/210/champion-of-the-flame) · oracle_id `d9dbe40f-38e9-460a-b84f-4aa22650017e` · printing: CMM #210 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Champion of the Hareish
 
@@ -855,6 +913,7 @@
 - **Flavor text** (DDQ printing):
   > *"I stand for every cobbler, tanner, and fool in this town—and they stand for me."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5540 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddq/4/champion-of-the-parish) · oracle_id `faeaa3eb-6eb8-4621-98c7-0c6f58bbff85` · printing: DDQ #4 (2016-02-26) · [rulings](https://api.scryfall.com/cards/ec2120ff-a6d4-4192-96c0-33c139155ddf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Champion of the Path
@@ -868,7 +927,14 @@
   > When this creature leaves the battlefield, return the exiled card to its owner's hand.
 - **Keywords:** Behold
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6884 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/130/champion-of-the-path) · oracle_id `b326ccd5-8ad2-441c-9d73-82ee6390dd36` · printing: ECL #130 (2026-01-23) · [rulings](https://api.scryfall.com/cards/e369cd31-3e22-47eb-bf6a-00d823651710/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-11-17* — If Champion of the Path is countered or otherwise fails to resolve, the beheld card will remain in exile indefinitely.
+  - *2025-11-17* — If a card in your hand is already revealed (perhaps because it was revealed to pay a cost of a spell that's still on the stack or due to the effect of a card like Telepathy), you may reveal it again to pay the cost of another spell or ability that requires you to reveal a card from your hand.
+  - *2025-11-17* — If a cost to cast a spell includes revealing a card, that card remains revealed from the time the spell is announced until the time it leaves the stack.
+  - *2025-11-17* — If an Elemental you control that isn't a creature enters (probably because it's a kindred permanent with the Elemental subtype), Champion of the Path's second ability will still trigger. If that Elemental still isn't a creature when the ability resolves, the ability won't deal any damage.
+  - *2025-11-17* — If an effect refers to a "[subtype] card," it refers only to a card that has that subtype. For example, Glen Elendra's Answer creates a Faerie token and features a Faerie in its art, but it isn't a Faerie card.
+  - *2025-11-17* — If the Elemental that caused Champion of the Path's second ability to trigger is no longer on the battlefield when that ability resolves, use that Elemental's power as it last existed on the battlefield to determine how much damage is dealt.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/130/champion-of-the-path) · oracle_id `b326ccd5-8ad2-441c-9d73-82ee6390dd36` · printing: ECL #130 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Champion of the Perished
 
@@ -880,6 +946,7 @@
 - **Flavor text** (MID printing):
   > *He rose from the graf for every cobbler, tanner, and fool who'd been slaughtered in the parish—and they rose and shambled after him.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2693 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/91/champion-of-the-perished) · oracle_id `f3654fbd-16a5-4953-84ac-534e8421032f` · printing: MID #91 (2021-09-24) · [rulings](https://api.scryfall.com/cards/8d8e6941-ad6e-4d2f-93c0-be79e75bdf06/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Champion of the Weird
@@ -905,7 +972,15 @@
   > Eternalize {5}{U}{U} ({5}{U}{U}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie Snake Wizard with no mana cost. Eternalize only as a sorcery.)
 - **Keywords:** Eternalize
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7231 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/213/champion-of-wits) · oracle_id `3fd8ba0c-75ec-43ea-8706-f71e6cf1d236` · printing: NCC #213 (2022-04-29) · [rulings](https://api.scryfall.com/cards/489e339b-3bc6-4221-9734-d796b65910d2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2017-07-14* — For each card with eternalize, a corresponding game play supplement token can be found in some Hour of Devastation booster packs. These supplements are not required to play with cards with eternalize; you can use the same items to represent an eternalized token as you would any other token.
+  - *2017-07-14* — If a creature card with eternalize is put into your graveyard during your main phase, you'll have priority immediately afterward. You can activate its eternalize ability before any player can try to exile it, such as with Crook of Condemnation, if it's legal for you to do so.
+  - *2017-07-14* — If the card copied by the token had any “when [this permanent] enters the battlefield” abilities, then the token also has those abilities and will trigger them when it's created. Similarly, any “as [this permanent] enters the battlefield” or “[this permanent] enters the battlefield with” abilities that the token has copied will also work.
+  - *2017-07-14* — Once you've activated an eternalize ability, the card is immediately exiled. Opponents can't try to stop the ability by exiling the card with an effect such as that of Crook of Condemnation.
+  - *2017-07-14* — The token copies exactly what was printed on the original card and nothing else, except the characteristics specifically modified by eternalize. It doesn't copy any information about the object the card was before it was put into your graveyard.
+  - *2017-07-14* — The token is a Zombie in addition to its other types and is black instead of its other colors. Its base power and toughness are 4/4. It has no mana cost, and thus its mana value is 0. These are copiable values of the token that other effects may copy.
+  - *2017-07-14* — Use Champion of Wits's power as the first ability resolves to determine if you want to use the ability and how many cards you draw if you do. If you use the ability, you discard two cards regardless of how many cards you draw. If Champion of Wits leaves the battlefield before that ability resolves, use its last known power.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/213/champion-of-wits) · oracle_id `3fd8ba0c-75ec-43ea-8706-f71e6cf1d236` · printing: NCC #213 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Champion's Drake
 
@@ -932,7 +1007,10 @@
   > Full Party — Whenever you attack with eight or more creatures, those creatures get +4/+4 until end of turn.
 - **Keywords:** Full Party, Light Party, Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3555 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/11/champions-from-beyond) · oracle_id `57e4a1c0-4218-4a07-88e7-d6083884c2b6` · printing: FIC #11 (2025-06-13) · [rulings](https://api.scryfall.com/cards/d1031ce5-063f-4c38-a6a9-abc15d254dfc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-06-06* — The second and third abilities of Champions from Beyond don't care what happens to those creatures after you attack with them. Once the second ability triggers, you'll scry 2 and then draw a card when it resolves even if one or more of those creatures left the battlefield or were otherwise removed from combat. Similarly, once the third ability triggers, those creatures will get +4/+4 when it resolves, even if one or more of those creatures left the battlefield. Any of those creatures that were removed from combat but are still on the battlefield will still get +4/+4.
+  - *2025-06-06* — While the second and third abilities of Champions from Beyond have "Party" in their flavor words, neither of them refer to a player's party (a mechanic from previous releases that also uses the term "full party").
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/11/champions-from-beyond) · oracle_id `57e4a1c0-4218-4a07-88e7-d6083884c2b6` · printing: FIC #11 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Champion's Helm
 
@@ -972,7 +1050,14 @@
 - **Flavor text** (LTC printing):
   > *"The Realm of Sauron is ended forever!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5247 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/10/champions-of-minas-tirith) · oracle_id `464a930a-79d5-4436-864d-3ce9f29475ae` · printing: LTC #10 (2023-06-23) · [rulings](https://api.scryfall.com/cards/34301efe-7085-476b-90e6-7ecd778b2970/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-06-16* — An opponent who chooses not to pay {X} for Champions of Minas Tirith's last ability can still attack planeswalkers you control or battles you're protecting.
+  - *2023-06-16* — If combat damage dealt to the monarch causes that player to lose the game, the triggered ability that causes the controller of the attacking creature to become the monarch doesn't resolve. In most cases, the controller of the attacking creature will still become the monarch as it is likely their turn.
+  - *2023-06-16* — If the monarch leaves the game during another player's turn, that player becomes the monarch. If the monarch leaves the game during their turn, the next player in turn order becomes the monarch.
+  - *2023-06-16* — If the triggered ability that causes the monarch to draw a card goes on the stack and a different player becomes the monarch before that ability resolves, the first player will still draw the card.
+  - *2023-06-16* — The game starts with no monarch. Once an effect makes one player the monarch, the game will have exactly one monarch from that point forward. As a player becomes the monarch, the current monarch (if any) ceases being the monarch.
+  - *2023-06-16* — There are two inherent triggered abilities associated with being the monarch. These triggered abilities have no source and are controlled by the player who was the monarch at the time the abilities triggered. The full texts of these abilities are "At the beginning of the monarch's end step, that player draws a card" and "Whenever a creature deals combat damage to the monarch, its controller becomes the monarch."
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/10/champions-of-minas-tirith) · oracle_id `464a930a-79d5-4436-864d-3ce9f29475ae` · printing: LTC #10 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Champions of the Perfect
 
@@ -985,7 +1070,12 @@
   > When this creature leaves the battlefield, return the exiled card to its owner's hand.
 - **Keywords:** Behold
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3993 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/171/champions-of-the-perfect) · oracle_id `9cb7f23f-322d-4a87-b6c6-15b9d446aef3` · printing: ECL #171 (2026-01-23) · [rulings](https://api.scryfall.com/cards/4f359211-8be5-4818-b73c-14f24b7ddb21/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-11-17* — If Champions of the Perfect is countered or otherwise fails to resolve, the beheld card will remain in exile indefinitely.
+  - *2025-11-17* — If a card in your hand is already revealed (perhaps because it was revealed to pay a cost of a spell that's still on the stack or due to the effect of a card like Telepathy), you may reveal it again to pay the cost of another spell or ability that requires you to reveal a card from your hand.
+  - *2025-11-17* — If a cost to cast a spell includes revealing a card, that card remains revealed from the time the spell is announced until the time it leaves the stack.
+  - *2025-11-17* — If an effect refers to a "[subtype] card," it refers only to a card that has that subtype. For example, Glen Elendra's Answer creates a Faerie token and features a Faerie in its art, but it isn't a Faerie card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/171/champions-of-the-perfect) · oracle_id `9cb7f23f-322d-4a87-b6c6-15b9d446aef3` · printing: ECL #171 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Champions of the Shoal
 
@@ -1021,7 +1111,9 @@
   > *"What are the odds, indeed?"*
   > *—Yusri, to Desera*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6826 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/277/chance-encounter) · oracle_id `8bd33b5c-0777-41ef-9e17-fb30ce69ec25` · printing: MH2 #277 (2021-06-18) · [rulings](https://api.scryfall.com/cards/49a4b0c9-a35b-4b55-ab27-7246bbca0d16/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-02-01* — You can only win a coin flip if you are the player flipping the coin. Your opponent losing a flip does not count as you winning one.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/277/chance-encounter) · oracle_id `8bd33b5c-0777-41ef-9e17-fb30ce69ec25` · printing: MH2 #277 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chance for Glory
 
@@ -1032,7 +1124,11 @@
 - **Flavor text** (GRN printing):
   > *"It is not your time. The Legion still needs your blade."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7908 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/grn/159/chance-for-glory) · oracle_id `324af60d-142b-4b6c-afe9-6aa36267d5ee` · printing: GRN #159 (2018-10-05) · [rulings](https://api.scryfall.com/cards/85edf6f9-b863-41e2-bb51-857ea2798090/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-10-05* — Chance for Glory’s first effect affects only creatures you control at the time it resolves. Creatures you begin to control later in the game won’t gain indestructible.
+  - *2018-10-05* — Creatures you control gain indestructible indefinitely. If you find a way to not lose the game during your next turn, they’ll continue to be indestructible for as long as they remain on the battlefield.
+  - *2018-10-05* — If you somehow skip the extra turn Chance for Glory gives you or skip that turn’s end step, the delayed triggered ability never triggers.
+- **Source flags:** [Scryfall](https://scryfall.com/card/grn/159/chance-for-glory) · oracle_id `324af60d-142b-4b6c-afe9-6aa36267d5ee` · printing: GRN #159 (2018-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chancellor of Tales
 
@@ -1170,7 +1266,12 @@
   > 0: Create two 1/1 red Elemental creature tokens. They gain haste. Sacrifice them at the beginning of the next end step.
   > −2: You may cast target instant or sorcery card with mana value 3 or less from your graveyard. If that spell would be put into your graveyard, exile it instead.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5866 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m20/126/chandra-acolyte-of-flame) · oracle_id `626e8acc-20da-496c-9a79-bfbf7529c01d` · printing: M20 #126 (2019-07-12) · [rulings](https://api.scryfall.com/cards/2cabfcfe-012e-4cab-bba2-24052eac0946/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2019-07-12* — Chandra’s first ability will put a counter on herself as well as any other red planeswalkers you control. This doesn’t cause any other planeswalkers’ loyalty abilities to be activated.
+  - *2019-07-12* — If a card in your graveyard has {X} in its mana cost, X is considered to be 0 while you target it with Chandra’s last ability; however, once you begin to cast it, you choose a value for X. If this causes the mana value to become greater than 3, you can still cast the spell.
+  - *2019-07-12* — If you wish to cast the target card, you must cast it while Chandra’s last ability is resolving. You can’t cast it later in the turn.
+  - *2019-07-12* — You must pay the costs for the spell you wish to cast with Chandra’s last ability. If that spell has any alternative costs, you may pay those.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m20/126/chandra-acolyte-of-flame) · oracle_id `626e8acc-20da-496c-9a79-bfbf7529c01d` · printing: M20 #126 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chandra, Awakened Inferno
 
@@ -1183,7 +1284,16 @@
   > −3: Chandra deals 3 damage to each non-Elemental creature.
   > −X: Chandra deals X damage to target creature or planeswalker. If a permanent dealt damage this way would die this turn, exile it instead.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3343 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/875/chandra-awakened-inferno) · oracle_id `7b2a600b-d6c8-45ff-a7fc-06105d27111f` · printing: CMM #875 (2023-08-04) · [rulings](https://api.scryfall.com/cards/0d4fb926-fe8c-4640-ac8d-ef418b8945d5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2019-07-12* — A player may have more than one of Chandra's emblems. Each one's ability triggers separately.
+  - *2019-07-12* — A spell or ability that counters spells can still target Chandra. When that spell or ability resolves, Chandra won't be countered, but any additional effects of that spell or ability will still happen.
+  - *2019-07-12* — Emblems aren't permanents and can't be exiled or destroyed. Once you have an emblem, there's no way to remove it.
+  - *2019-07-12* — If Chandra's last ability doesn't deal damage (most likely because the damage has been prevented in some way), the target won't be exiled if it would die.
+  - *2019-07-12* — If you leave a multiplayer game, your opponents keep any emblems Chandra gave them. Each opponent owns the emblem Chandra gives them. In multiplayer, your opponents continue to burn after you and Chandra leave the game.
+  - *2019-07-12* — In a Two-Headed Giant game, Chandra's first ability grants an emblem to each opponent. The opposing team will be dealt 1 damage twice during their upkeep.
+  - *2019-07-12* — The ability of Chandra's emblem triggers at the beginning of the upkeep of the player who gets the emblem, not the upkeep of Chandra's controller.
+  - *2019-07-12* — The replacement effect of Chandra's last ability will exile the target creature or planeswalker if it would die this turn for any reason, not just due to lethal damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/875/chandra-awakened-inferno) · oracle_id `7b2a600b-d6c8-45ff-a7fc-06105d27111f` · printing: CMM #875 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chandra, Bold Pyromancer
 
@@ -1221,7 +1331,13 @@
   > +1: Exile the top card of your library. If it's red, you may cast it this turn.
   > −7: Exile the top five cards of your library. You may cast red spells from among them this turn. You get an emblem with "Whenever you cast a red spell, this emblem deals X damage to any target, where X is the amount of mana spent to cast that spell."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6547 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/148/chandra-dressed-to-kill) · oracle_id `4686f776-2055-470c-bd99-7c4bb32902c0` · printing: INR #148 (2025-01-24) · [rulings](https://api.scryfall.com/cards/640b112d-fe82-4294-a632-efbb7f2467f5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-01-24* — Chandra’s first ability uses the stack and can be responded to, even if no targets were chosen. It isn’t a mana ability.
+  - *2025-01-24* — Chandra’s last ability, by contrast, only allows you to cast spells that are red when you cast them, no matter what the card in exile is. If Rowan, Scholar of Sparks (a modal double-faced card) is exiled by this ability, you won’t be able to cast its back face, Will, Scholar of Frost, this way because it would be a blue spell.
+  - *2025-01-24* — Chandra’s second ability checks the characteristics of the card you exiled to see if it’s red. If the card is red, but the spell that card becomes somehow isn’t red, you may still cast it. For example, Rowan, Scholar of Sparks, the front face of a modal double-faced card, is red. Will, Scholar of Frost, the back face of the same card, is blue. In exile, that card is red, so you may cast either face if you exile it with this ability.
+  - *2025-01-24* — The emblem’s triggered ability looks for the actual amount of mana spent to cast the spell. If an effect caused you to pay more or less mana for that spell as you cast it, that will be taken into account when determining the value of X. If an effect would counter that spell unless you pay some amount of mana, that mana doesn’t count as mana spent to cast it.
+  - *2025-01-24* — You must pay all costs for spells cast via Chandra’s last two abilities. For the middle ability, you must also follow all timing restrictions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/148/chandra-dressed-to-kill) · oracle_id `4686f776-2055-470c-bd99-7c4bb32902c0` · printing: INR #148 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chandra, Fire Artisan
 
@@ -1261,7 +1377,10 @@
   > 0: Discard all the cards in your hand, then draw that many cards plus one.
   > −X: Chandra deals X damage to each creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8876 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c20/145/chandra-flamecaller) · oracle_id `0c2a9131-f3d7-4f71-8bcc-3c169574b2e3` · printing: C20 #145 (2020-04-17) · [rulings](https://api.scryfall.com/cards/a83ca3a1-82a9-4f47-b0b8-21687afd705b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2016-01-22* — You can activate Chandra's second ability while you have an empty hand. If you do, you'll draw one card.
+  - *2016-04-08* — For Chandra's second ability, it doesn't matter if the cards don't go to your graveyard because of a replacement effect. For example, cards with madness discarded this way will still count toward the number of cards you discarded.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c20/145/chandra-flamecaller) · oracle_id `0c2a9131-f3d7-4f71-8bcc-3c169574b2e3` · printing: C20 #145 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chandra, Flame's Catalyst
 
@@ -1297,7 +1416,16 @@
   > +1: Create a token that's a copy of target creature you control, except it has haste and "At the beginning of the end step, sacrifice this token."
   > −4: Chandra deals 8 damage divided as you choose among any number of target creatures and/or planeswalkers.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5726 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/81/chandra-flameshaper) · oracle_id `818f908c-9af6-4edc-bb0e-193bc830e2e4` · printing: FDN #81 (2024-11-15) · [rulings](https://api.scryfall.com/cards/a22d21ec-0fb3-4574-a803-6442ec13167e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2024-11-08* — Any enters abilities of the copied creature will trigger when the token enters. Any "as [this permanent] enters" or "[this permanent] enters with" abilities of the copied creature will also work.
+  - *2024-11-08* — Chandra's first ability is not a mana ability. It uses the stack and players can respond to it.
+  - *2024-11-08* — If some of the targets of Chandra's last ability become illegal, the original division of damage still applies, but the damage that would have been dealt to illegal targets isn't dealt at all.
+  - *2024-11-08* — If the copied creature is a token, the token that's created copies the original characteristics of that token as stated by the effect that created the token, with the listed exceptions.
+  - *2024-11-08* — If the copied creature is copying something else, then the token enters as whatever that creature copied, with the listed exceptions.
+  - *2024-11-08* — The token created by Chandra's second ability copies exactly what was printed on the original creature and nothing else, with the listed exceptions (unless that creature is copying something else or is a token; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on. If it is a Vehicle, it is not crewed.
+  - *2024-11-08* — You choose the targets and how damage will be divided as you activate Chandra's last ability. Each chosen target must receive at least 1 damage.
+  - *2024-11-08* — You pay all costs and follow all timing rules for cards played with the permission granted by Chandra's first ability. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/81/chandra-flameshaper) · oracle_id `818f908c-9af6-4edc-bb0e-193bc830e2e4` · printing: FDN #81 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chandra, Gremlin Wrangler
 
@@ -1335,7 +1463,16 @@
   > +1: Exile the top five cards of your library. Until the end of your next turn, you may cast an instant or sorcery spell from among those exiled cards.
   > −X: Chandra deals X damage to each of up to two targets.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4245 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/134/chandra-hopes-beacon) · oracle_id `53231b31-fb3c-4b30-bfe9-0ee8e754247b` · printing: MOM #134 (2023-04-21) · [rulings](https://api.scryfall.com/cards/a146ea07-ec1c-448d-b67a-dd9f9e27c2e0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2023-04-14* — A copy of a spell is created on the stack, so it's not "cast." Abilities that trigger when a player casts a spell won't trigger.
+  - *2023-04-14* — For the second loyalty ability, the spell you cast must be an instant or sorcery spell, although the exiled card doesn't necessarily have to be. For example, if you exile a creature card that has an Adventure, you can cast that Adventure spell.
+  - *2023-04-14* — If the spell has damage divided as it was cast, the division can't be changed (although the targets receiving that damage still can). The same is true of spells that distribute counters.
+  - *2023-04-14* — If the spell that's copied has an X whose value was determined as it was cast, the copy will have the same value of X.
+  - *2023-04-14* — If the spell that's copied is modal (that is, it includes a choice from a bulleted list of effects), the copy will have the same mode. A different mode can't be chosen.
+  - *2023-04-14* — If you copy a spell, you control the copy. It will resolve before the original spell does.
+  - *2023-04-14* — The copy will have the same targets as the spell it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
+  - *2023-04-14* — You can't choose to pay any alternative or additional costs for the copy. However, effects based on any alternative or additional costs that were paid for the original spell are copied as though those same costs were paid for the copy.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/134/chandra-hopes-beacon) · oracle_id `53231b31-fb3c-4b30-bfe9-0ee8e754247b` · printing: MOM #134 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chandra, Legacy of Fire
 
@@ -1347,7 +1484,9 @@
   > +1: Add {R} for each planeswalker you control.
   > 0: Remove a loyalty counter from each of any number of permanents you control. Exile that many cards from the top of your library. You may play them this turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6302 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/735/chandra-legacy-of-fire) · oracle_id `8dfa789d-ae1c-4f18-a55c-f49a363a5e33` · printing: CMM #735 (2023-08-04) · [rulings](https://api.scryfall.com/cards/6b764e0d-ded0-4036-83b1-de49c6ee8f7e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-07-28* — You must pay all costs and follow all normal timing rules for cards played with Chandra, Legacy of Fire's last ability. For example, you may only play a land from exile this way during your main phase while the stack is empty, and only if you haven't played a land yet this turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/735/chandra-legacy-of-fire) · oracle_id `8dfa789d-ae1c-4f18-a55c-f49a363a5e33` · printing: CMM #735 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chandra Nalaar
 
@@ -1509,7 +1648,12 @@
   > Whenever a source you control deals noncombat damage to an opponent, this creature deals that much damage to target creature or planeswalker that player controls.
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2659 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m21/136/chandras-incinerator) · oracle_id `515cee6a-a2e1-4eeb-8e1d-293724313b14` · printing: M21 #136 (2020-07-03) · [rulings](https://api.scryfall.com/cards/ed875705-b7b6-4464-b16f-61629ffed04f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-06-23* — Chandra's Incinerator counts all noncombat damage dealt to your opponents, not the difference in their life totals since the turn began. For example, if an opponent was dealt 5 noncombat damage but gained 3 life, Chandra's Incinerator still costs just {R}.
+  - *2020-06-23* — Combat damage is the damage that's dealt automatically by attacking and blocking creatures. Any other damage is noncombat damage, even if it's dealt during a combat phase by an attacking or blocking creature.
+  - *2020-06-23* — In a multiplayer game, Chandra's Incinerator counts damage dealt to opponents who have lost the game.
+  - *2020-06-23* — The cost reduction applies only to generic mana in the cost of Chandra's Incinerator. It can't reduce the {R} requirement.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m21/136/chandras-incinerator) · oracle_id `515cee6a-a2e1-4eeb-8e1d-293724313b14` · printing: M21 #136 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chandra's Magmutt
 
@@ -1557,7 +1701,9 @@
   > 0: Create a 3/2 colorless Vehicle artifact token with crew 1.
   > −7: You get an emblem with "Whenever an artifact you control enters, this emblem deals 3 damage to any target."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6359 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dft/116/chandra-spark-hunter) · oracle_id `30bb01c1-9253-4251-80e7-fb8236b3d858` · printing: DFT #116 (2025-02-14) · [rulings](https://api.scryfall.com/cards/11f9b98e-48a1-491e-bdab-6e94e4ec747a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-02-07* — Emblems are colorless. This means that a permanent with protection from red can be the target of the emblem’s triggered ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dft/116/chandra-spark-hunter) · oracle_id `30bb01c1-9253-4251-80e7-fb8236b3d858` · printing: DFT #116 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chandra's Phoenix
 
@@ -1666,7 +1812,15 @@
   > −3: Chandra deals 4 damage to target creature.
   > −7: You get an emblem with "Whenever you cast a spell, this emblem deals 5 damage to any target."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1480 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/244/chandra-torch-of-defiance) · oracle_id `12cc800c-c7be-4811-8207-fd01a99cc892` · printing: FRA #244 (2026-10-02) · [rulings](https://api.scryfall.com/cards/40cb22c8-cb03-45c9-bb0e-b8cabdcc43cd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2026-08-21* — An effect that instructs you to "cast" a card doesn't allow you to play lands. If the card exiled with Chandra's first ability is a land card, you can't play it and Chandra deals 2 damage to each opponent.
+  - *2026-08-21* — Chandra's emblem's ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+  - *2026-08-21* — If you cast the exiled card, you do so as part of the resolution of Chandra's ability. You can't wait to cast it later in the turn. Timing permissions based on the card's type are ignored, but other restrictions (such as "Cast [this card] only during combat") are not.
+  - *2026-08-21* — In a Two-Headed Giant game, Chandra's first ability causes 4 damage total to be dealt to the opposing team.
+  - *2026-08-21* — Loyalty abilities can't be mana abilities. Chandra's second ability uses the stack and can be countered or otherwise responded to. Like all loyalty abilities, it can be activated only once per turn, during your main phase, when the stack is empty, and only if no other loyalty abilities of the planeswalker have been activated this turn.
+  - *2026-08-21* — The emblem created by Chandra's last ability is colorless. The damage it deals is from a colorless source.
+  - *2026-08-21* — You pay the costs for the exiled card if you cast it. You may pay alternative costs such as emerge rather than the card's mana cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/244/chandra-torch-of-defiance) · oracle_id `12cc800c-c7be-4811-8207-fd01a99cc892` · printing: FRA #244 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Changeling Berserker
 
@@ -1747,7 +1901,12 @@
   > *No map. No complaints.*
 - **Keywords:** Changeling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4546 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/1/changeling-wayfinder) · oracle_id `93409d98-93c8-4742-a635-2a4408e66c32` · printing: ECL #1 (2026-01-23) · [rulings](https://api.scryfall.com/cards/6c6061aa-a4da-4115-85b6-d0aa22f2386c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-11-17* — Changeling is a characteristic-defining ability. It functions in all zones, not only while a card that has it is on the battlefield.
+  - *2025-11-17* — If an effect causes a creature with changeling to become a new creature type, it will be only that new creature type (unless the effect says "in addition" or similar). It will still have changeling; the effect making it all creature types will simply be overwritten.
+  - *2025-11-17* — If an effect causes a creature with changeling to lose all abilities, it will remain all creature types, even though it will no longer have changeling. This is because changeling applies before the effect that removes it.
+  - *2025-11-17* — The subtype Shapeshifter that appears on the type line is mostly there to reinforce the flavor. A creature card with changeling is just as much a Kithkin, a Goblin, a Merfolk, and a Brushwagg as it is a Shapeshifter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/1/changeling-wayfinder) · oracle_id `93409d98-93c8-4742-a635-2a4408e66c32` · printing: ECL #1 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Change of Fortune
 
@@ -1759,7 +1918,9 @@
   > *"We cannot escape change, but with faith and fortitude, we can mold it to our liking."*
   > *—Marel, Dawnhart witch*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5675 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/vow/150/change-of-fortune) · oracle_id `925feb7e-7876-430b-b95a-92b236a2e409` · printing: VOW #150 (2021-11-19) · [rulings](https://api.scryfall.com/cards/63ca5ce5-94e7-43a1-8f2b-f0a4532f617a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-11-19* — Change of Fortune counts cards you discarded this turn for any reason, not just cards you discarded as part of the resolution of this effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vow/150/change-of-fortune) · oracle_id `925feb7e-7876-430b-b95a-92b236a2e409` · printing: VOW #150 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Change of Heart
 
@@ -1780,7 +1941,13 @@
   > Each of X target creatures you control connive. You may have any number of them phase out. (To have a creature connive, draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature. Treat phased-out permanents and anything attached to them as though they don't exist until their controller's next turn.)
 - **Keywords:** Connive
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7056 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/24/change-of-plans) · oracle_id `b2f43df5-ec64-4375-b67f-b198732ab0b1` · printing: NCC #24 (2022-04-29) · [rulings](https://api.scryfall.com/cards/7cc7f675-3e56-4e5a-9618-9a9ba8e0310d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2022-04-29* — If a resolving spell or ability instructs a specific creature to connive but that creature has left the battlefield, the creature still connives. If you discard a nonland card this way, you won't put a +1/+1 counter on anything. Abilities that trigger “when [that creature] connives” will trigger.
+  - *2022-04-29* — If multiple creatures are instructed to connive simultaneously, they connive one at a time in the order of their controller's choice.
+  - *2022-04-29* — If no card is discarded, most likely because that player's hand is empty and an effect says they can't draw cards, the conniving creature does not receive a +1/+1 counter.
+  - *2022-04-29* — Once an ability that causes a creature to connive begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the conniving creature after you discard a nonland card but before it receives a counter.
+  - *2022-04-29* — You choose which creatures to phase out after all of those creatures have connived.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/24/change-of-plans) · oracle_id `b2f43df5-ec64-4375-b67f-b198732ab0b1` · printing: NCC #24 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Change the Equation
 
@@ -1806,7 +1973,12 @@
   > When enchanted creature dies, return it to the battlefield under your control.
 - **Keywords:** Replicate, Enchant, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6274 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/23/changing-loyalty) · oracle_id `cdfa9de4-7d7d-4638-8ac4-793ece6372dd` · printing: SOC #23 (2026-04-24) · [rulings](https://api.scryfall.com/cards/5c2e30d4-98ab-46a7-87ab-1c36c43ab34a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2026-03-20* — A copy of a spell can be countered like any other spell, but it must be countered individually. Countering a spell with replicate won't affect the copies.
+  - *2026-03-20* — As the replicate triggered ability resolves, you'll copy Changing Loyalty for each time you paid its replicate cost, even if the original spell is no longer on the stack at that time (perhaps because it was countered).
+  - *2026-03-20* — The copies that replicate creates are created on the stack, so they're not "cast." Abilities that trigger when a player casts a spell won't trigger.
+  - *2026-03-20* — The replicate triggered ability that creates the copies can itself be countered by anything that can counter a triggered ability. If the ability countered, no copies will be put onto the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/23/changing-loyalty) · oracle_id `cdfa9de4-7d7d-4638-8ac4-793ece6372dd` · printing: SOC #23 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Channel
 
@@ -1853,6 +2025,7 @@
   > When this creature enters, put three -1/-1 counters on target creature you control.
   > {T}, Remove a -1/-1 counter from this creature: Add one mana of any color.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5809 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/101/channeler-initiate) · oracle_id `a98ea782-1c49-4207-a130-41329087fdf6` · printing: ECC #101 (2026-01-23) · [rulings](https://api.scryfall.com/cards/9011936a-ec69-4c1b-ae8e-c2d212047ca4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Channel Harm
@@ -1910,7 +2083,21 @@
   > 10—19 | Exile the top two cards of your library. You may play them this turn.
   > 20 | Exile the top three cards of your library. You may play them this turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6660 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/136/chaos-channeler) · oracle_id `ea9031de-6169-4b1c-9390-7fdaf876c7cd` · printing: AFR #136 (2021-07-23) · [rulings](https://api.scryfall.com/cards/7b9bb587-f732-42c9-a2a7-152629889997/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2021-07-23* — An ability that tells you to roll a die will also specify what to do with the result of that roll. Most often, this is in the form of a “results table” in the card text.
+  - *2021-07-23* — An effect that says “choose a target, then roll a d20” or similar still uses the normal process of putting an ability on the stack and resolving it. Choosing targets is part of putting the ability on the stack and rolling the d20 happens later, as the ability resolves.
+  - *2021-07-23* — Dice are identified by the number of faces each one has. For example, a d20 is a twenty-sided die.
+  - *2021-07-23* — Dice used must have equally likely outcomes and the roll must be fair. Although physical dice are recommended, digital substitutes are allowed, provided they have the same number of equally likely outcomes as specified in the original roll instruction.
+  - *2021-07-23* — If you do not play the exiled cards on the turn that they are exiled, they remain exiled indefinitely.
+  - *2021-07-23* — Normal costs and timing permissions apply to cards played this way. Unless an effect says you can play additional lands during your turn, you cannot play a land exiled this way if you have already played one this turn.
+  - *2021-07-23* — Some abilities, like that of Pixie Guide and Barbarian Class, replace rolling a die with rolling extra dice and ignoring the lowest roll. The ignored rolls are not considered for the effect that instructed you to roll a die, and do not cause abilities to trigger. For all intents and purposes, once you determine which dice count, any extra dice were never rolled.
+  - *2021-07-23* — Some effects instruct you to roll again. This uses the same number and type of dice as the original roll, and that roll will use the same set of possible outcomes.
+  - *2021-07-23* — Some effects may modify the result of a die roll. This may be part of the instruction to roll a die or it may come from other cards. Anything that references the “result” of a die roll is looking for the result after these modifications. Anything that is looking for the “natural result” is looking for the number shown on the face of the die before these modifications.
+  - *2021-07-23* — The cards are exiled face up.
+  - *2021-07-23* — The instruction to roll a die and the effect that occurs because of the result are all part of the same ability. Players do not get the chance to respond to the ability after knowing the result of the roll.
+  - *2021-07-23* — Tournament events have more specific rules regarding dice and die-rolling. For more information, please see the most recent version of the Magic Tournament Rules at https://wpn.wizards.com/en/document/magic-gathering-tournament-rules.
+  - *2021-07-23* — While playing Planechase, rolling the planar die will cause any ability that triggers whenever a player rolls one or more dice to trigger. However, any effect that refers to a numerical result will ignore the rolling of the planar die.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/136/chaos-channeler) · oracle_id `ea9031de-6169-4b1c-9390-7fdaf876c7cd` · printing: AFR #136 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chaos Charm
 
@@ -1945,7 +2132,9 @@
   > Battle Cannon — When this creature enters or dies, for each opponent, choose a nonland permanent that player controls. Destroy one of them chosen at random.
 - **Keywords:** Battle Cannon, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6368 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/40k/110/chaos-defiler) · oracle_id `eba7ef08-f444-4d23-92b8-29d2ac08b156` · printing: 40K #110 (2022-10-07) · [rulings](https://api.scryfall.com/cards/1c0f2873-5849-4cab-855a-2fbbc41dbb6c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-10-07* — If you choose one or more permanents with indestructible, and there are any permanents chosen which do not have indestructible, one of the permanents without indestructible will be randomly chosen and destroyed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/40k/110/chaos-defiler) · oracle_id `eba7ef08-f444-4d23-92b8-29d2ac08b156` · printing: 40K #110 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chaos Dragon
 
@@ -1958,7 +2147,19 @@
   > At the beginning of combat on your turn, each player rolls a d20. If one or more opponents had the highest result, this creature can't attack those players or planeswalkers they control this combat.
 - **Keywords:** Flying, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4034 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/784/chaos-dragon) · oracle_id `a04f46b4-b0b0-4aef-907f-1df1a2e261de` · printing: CLB #784 (2022-06-10) · [rulings](https://api.scryfall.com/cards/08219fbc-c155-4d1d-a08c-d2546c44bccc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2021-07-23* — An ability that tells you to roll a die will also specify what to do with the result of that roll. Most often, this is in the form of a "results table" in the card text.
+  - *2021-07-23* — An effect that says "choose a target, then roll a d20" or similar still uses the normal process of putting an ability on the stack and resolving it. Choosing targets is part of putting the ability on the stack and rolling the d20 happens later, as the ability resolves.
+  - *2021-07-23* — Dice are identified by the number of faces each one has. For example, a d20 is a twenty-sided die.
+  - *2021-07-23* — Dice used must have equally likely outcomes and the roll must be fair. Although physical dice are recommended, digital substitutes are allowed, provided they have the same number of equally likely outcomes as specified in the original roll instruction.
+  - *2021-07-23* — Some abilities, like that of Pixie Guide and Barbarian Class, replace rolling a die with rolling extra dice and ignoring the lowest roll. The ignored rolls are not considered for the effect that instructed you to roll a die, and do not cause abilities to trigger. For all intents and purposes, once you determine which dice count, any extra dice were never rolled.
+  - *2021-07-23* — Some effects instruct you to roll again. This uses the same number and type of dice as the original roll, and that roll will use the same set of possible outcomes.
+  - *2021-07-23* — Some effects may modify the result of a die roll. This may be part of the instruction to roll a die or it may come from other cards. Anything that references the "result" of a die roll is looking for the result after these modifications. Anything that is looking for the "natural result" is looking for the number shown on the face of the die before these modifications.
+  - *2021-07-23* — The instruction to roll a die and the effect that occurs because of the result are all part of the same ability. Players do not get the chance to respond to the ability after knowing the result of the roll.
+  - *2021-07-23* — Tournament events have more specific rules regarding dice and die-rolling. For more information, please see the most recent version of the Magic Tournament Rules at https://wpn.wizards.com/en/document/magic-gathering-tournament-rules.
+  - *2021-07-23* — While playing Planechase, rolling the planar die will cause any ability that triggers whenever a player rolls one or more dice to trigger. However, any effect that refers to a numerical result will ignore the rolling of the planar die.
+  - *2021-07-23* — You roll a d20 as well as your opponents. If you had a higher result than all of your opponents, Chaos Dragon won't have any restrictions on who it may attack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/784/chaos-dragon) · oracle_id `a04f46b4-b0b0-4aef-907f-1df1a2e261de` · printing: CLB #784 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chaos Harlequin
 
@@ -2033,7 +2234,9 @@
 - **Oracle text:**
   > Exile any number of target creatures controlled by different players. For each creature exiled this way, its controller reveals cards from the top of their library until they reveal a creature card, puts that card onto the battlefield, then puts the rest on the bottom of their library in a random order.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8884 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/40k/111/chaos-mutation) · oracle_id `1a240953-26e0-429f-9663-dcfe5bc2c1c7` · printing: 40K #111 (2022-10-07) · [rulings](https://api.scryfall.com/cards/ccaa5e8d-7113-4b9a-af63-ea61b93a8e5e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-10-07* — The phrase "target creatures controlled by different players" means that no two targets may be controlled by the same player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/40k/111/chaos-mutation) · oracle_id `1a240953-26e0-429f-9663-dcfe5bc2c1c7` · printing: 40K #111 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chaos Orb
 
@@ -2108,7 +2311,14 @@
 - **Oracle text:**
   > {4}, {T}: Target opponent exiles cards from the top of their library until they exile an instant or sorcery card. You may cast that card without paying its mana cost. Then put the exiled cards that weren't cast this way on the bottom of that library in a random order.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4319 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/254/chaos-wand) · oracle_id `0b95c115-6745-4ce1-896b-9021e93c161e` · printing: OTC #254 (2024-04-19) · [rulings](https://api.scryfall.com/cards/67eb6ab9-d264-4ec6-9dac-3b16ee8c9ec0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2018-07-13* — If the exiled card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2018-07-13* — If the opponent exiles their entire library without exiling an instant or sorcery card, that player stops exiling cards, and the exiled cards are put into their library in a random order.
+  - *2018-07-13* — If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, such as that of Tormenting Voice, those must be paid to cast the card.
+  - *2018-07-13* — If you don't cast the exiled instant or sorcery card, it's put on the bottom of that library with the other cards.
+  - *2018-07-13* — If you wish to cast the exiled card, you must cast it while Chaos Wand's ability is resolving. You can't cast it later in the turn. A spell cast this way may be cast at a time you normally wouldn't be able to cast a spell of that type, but other restrictions (such as "Cast this spell only during combat") are enforced.
+  - *2018-07-13* — The opponent stops exiling cards as soon as they exile any instant or sorcery card. You don't choose which card type to look for.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/254/chaos-wand) · oracle_id `0b95c115-6745-4ce1-896b-9021e93c161e` · printing: OTC #254 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chaos Warp
 
@@ -2322,7 +2532,15 @@
   > • Charge of the Mites deals damage equal to the number of creatures you control to target creature or planeswalker.
   > • Create two 1/1 colorless Phyrexian Mite artifact creature tokens with toxic 1 and "This token can't block." (Players dealt combat damage by them also get a poison counter.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9699 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/6/charge-of-the-mites) · oracle_id `fa47c190-d66a-41b0-aa08-21036cda4223` · printing: ONE #6 (2023-02-10) · [rulings](https://api.scryfall.com/cards/42060b9d-de58-485e-817a-1e64839943aa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-02-04* — A player with ten or more poison counters loses the game. This is a state-based action and doesn't use the stack. In other words, it happens immediately and players can't respond to it, just like a player losing the game due to having 0 or less life.
+  - *2023-02-04* — Any other effects of that damage, such as life gain from lifelink, still apply.
+  - *2023-02-04* — Conversely, replacement effects that apply to the number of counters put on a player can modify the counters placed this way. For example, Vorinclex, Monstrous Raider's last two abilities can apply to counters placed this way.
+  - *2023-02-04* — Damage dealt by a creature with toxic grants the same number of counters regardless of how much damage is dealt. Notably, if a replacement effect modifies the damage in some way (such as that of Gratuitous Violence), the number of counters given remains unchanged.
+  - *2023-02-04* — If a creature with toxic deals combat damage to a creature or planeswalker, or if it deals noncombat damage, toxic has no effect and no player gets poison counters.
+  - *2023-02-04* — Multiple instances of toxic are cumulative. For example, if a creature has toxic 2 and gains toxic 1 due to another effect, combat damage that creature deals to a player will cause that player to get 3 poison counters.
+  - *2023-02-04* — Toxic doesn't change the amount of combat damage a creature deals. For example, if a 2/2 creature with toxic 1 deals combat damage to a player, that creature will deal 2 damage. The results of that damage are the player loses 2 life and gets a poison counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/6/charge-of-the-mites) · oracle_id `fa47c190-d66a-41b0-aa08-21036cda4223` · printing: ONE #6 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Charge the Sanctum
 
@@ -2348,7 +2566,9 @@
   > *"What a move! Lorehold gets caught flat-footed, and Witherbloom barrels ahead."*
   > *—Cremik, Mage Tower commentator*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6759 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/stx/124/charge-through) · oracle_id `7e24b4da-9728-43a0-8af4-f513a3e1104b` · printing: STX #124 (2021-04-23) · [rulings](https://api.scryfall.com/cards/ed16926f-feb0-481a-8c5e-88ea119752cd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-04-16* — If the target becomes illegal before Charge Through resolves (perhaps because an opponent destroyed it), you won’t draw a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/stx/124/charge-through) · oracle_id `7e24b4da-9728-43a0-8af4-f513a3e1104b` · printing: STX #124 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Charging Badger
 
@@ -2556,6 +2776,7 @@
   > *The greatest heroes are the first to stand, the first to take up arms, and the first to meet the enemy.*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7661 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jou/159/chariot-of-victory) · oracle_id `5a40339d-7821-4f37-a957-1a6ebdd993e0` · printing: JOU #159 (2014-05-02) · [rulings](https://api.scryfall.com/cards/c2dd03d2-05ef-4929-b973-3dbe49fc7592/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Charisma
@@ -2579,7 +2800,9 @@
   > {T}: Add one mana of any color.
   > {4}, {T}: Create X 1/1 white Soldier creature tokens, where X is the number of Bobbleheads you control. Activate only as a sorcery.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6002 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/130/charisma-bobblehead) · oracle_id `77897962-7d67-4fa8-858f-2f35a322d7c6` · printing: PIP #130 (2024-03-08) · [rulings](https://api.scryfall.com/cards/35f61330-869f-448c-8374-1cbac7c23454/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-03-08* — The value of X is calculated only once, as Charisma Bobblehead’s last ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/130/charisma-bobblehead) · oracle_id `77897962-7d67-4fa8-858f-2f35a322d7c6` · printing: PIP #130 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Charismatic Conqueror
 
@@ -2593,7 +2816,9 @@
   > *"There's a whole world under the surface, waiting for the light of our salvation."*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1053 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/70/charismatic-conqueror) · oracle_id `3dcc35f3-74dc-46a8-8aa9-3411189f0547` · printing: LCC #70 (2023-11-17) · [rulings](https://api.scryfall.com/cards/599c934d-bfff-43ce-a545-6e3cde124515/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-11-10* — If the permanent is tapped as the ability resolves, the opponent can't choose to tap it, so you'll create a Vampire token. Similarly, if it's no longer on the battlefield as the ability resolves, they can't choose to tap it, and you'll create a Vampire token.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/70/charismatic-conqueror) · oracle_id `3dcc35f3-74dc-46a8-8aa9-3411189f0547` · printing: LCC #70 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Charismatic Vanguard
 
@@ -2615,7 +2840,11 @@
   > Noncreature spells cost {1} more to cast.
   > Whenever a player casts a noncreature spell, put a collection counter on this enchantment. Then if there are three or more collection counters on it, sacrifice it. If you do, draw a card, then you may search your library for a Plains card, put it onto the battlefield tapped, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7078 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/21/charitable-levy) · oracle_id `8a628875-96c8-4a28-aaff-99fd99ae778e` · printing: MH3 #21 (2024-06-14) · [rulings](https://api.scryfall.com/cards/4a5cab75-546c-4760-97b7-4591de9e6662/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-06-07* — Charitable Levy's triggered ability resolves before the spell that causes it to trigger. The ability will resolve even if that spell is countered or otherwise leaves the stack.
+  - *2024-06-07* — In the rare case where the player who controlled Charitable Levy as its last ability triggered doesn't control it as it resolves, that player won't be able to sacrifice Charitable Levy even if it has three or more collection counters on it.
+  - *2024-06-07* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/21/charitable-levy) · oracle_id `8a628875-96c8-4a28-aaff-99fd99ae778e` · printing: MH3 #21 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Charity Extractor
 
@@ -2641,7 +2870,11 @@
 - **Flavor text** (ZNR printing):
   > *Zendikar's seas are deeper than anyone can fathom.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3690 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/49/charix-the-raging-isle) · oracle_id `c38cc5fe-936a-4d61-a816-9be773ae1d02` · printing: ZNR #49 (2020-09-25) · [rulings](https://api.scryfall.com/cards/e83a6804-1e3c-428c-af5e-1d56ba11c108/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-09-25* — An opponent's spell that targets Charix more than once costs only {2} more to cast.
+  - *2020-09-25* — Each time you activate Charix's last ability, the value of X for that instance of the ability is determined only as that ability resolves. Once that happens, the size of the power-and-toughness change for that instance of the ability won't change later in the turn, even if the number of Islands you control does change.
+  - *2020-09-25* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases (such as that of Charix), then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/49/charix-the-raging-isle) · oracle_id `c38cc5fe-936a-4d61-a816-9be773ae1d02` · printing: ZNR #49 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Charmbreaker Devils
 
@@ -2652,7 +2885,11 @@
   > At the beginning of your upkeep, return an instant or sorcery card at random from your graveyard to your hand.
   > Whenever you cast an instant or sorcery spell, this creature gets +4/+0 until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7548 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c21/162/charmbreaker-devils) · oracle_id `1b9df437-6988-4ddc-80c4-893e11076067` · printing: C21 #162 (2021-04-23) · [rulings](https://api.scryfall.com/cards/4abf9b03-4157-42f0-ab3d-484bd9b64bb2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2017-11-17* — All players get to see which card you chose at random as it's returned to your hand.
+  - *2017-11-17* — Because the first ability doesn't target the instant or sorcery card, any instants or sorceries put into your graveyard in response to that ability may be returned to your hand.
+  - *2017-11-17* — The instant or sorcery card returned to your hand is chosen at random as Charmbreaker Devils's first ability resolves. If any player responds to the ability, that player won't yet know what card will be returned.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c21/162/charmbreaker-devils) · oracle_id `1b9df437-6988-4ddc-80c4-893e11076067` · printing: C21 #162 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Charmed Clothier
 
@@ -2729,7 +2966,11 @@
   > • Exile another target creature you own. Return it to the battlefield under your control at the beginning of the next end step.
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1775 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/568/charming-prince) · oracle_id `c48d844c-3976-4fa5-8e0d-3f0e535e7619` · printing: FDN #568 (2024-11-15) · [rulings](https://api.scryfall.com/cards/aa7b47e1-7e32-4f2f-aecf-bac7ca197081/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-10-04* — Auras attached to the exiled creature will be put into their owners' graveyards. Equipment attached to the exiled creature will become unattached and remain on the battlefield. Any counters on the exiled creature will cease to exist. Once the exiled creature returns, it's considered a new object with no relation to the object that it was.
+  - *2019-10-04* — Charming Prince's third mode can target any creature you own, including those another player controls.
+  - *2019-10-04* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/568/charming-prince) · oracle_id `c48d844c-3976-4fa5-8e0d-3f0e535e7619` · printing: FDN #568 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Charming Scoundrel
 
@@ -2744,7 +2985,16 @@
   > • Create a Wicked Role token attached to target creature you control.
 - **Keywords:** Role token, Treasure, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3472 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/124/charming-scoundrel) · oracle_id `9eec304d-ffcb-4287-b877-280ac1e4f496` · printing: WOE #124 (2023-09-08) · [rulings](https://api.scryfall.com/cards/c8090bcf-e17a-4110-a518-77ccd045b18f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2023-09-01* — A permanent can have multiple Roles attached to it if each one is controlled by a different player.
+  - *2023-09-01* — Cards in the Wilds of Eldraine main set create six different Role tokens: Cursed, Monster, Royal, Sorcerer, Wicked, and Young Hero. A seventh Role token, Virtuous, is created by Ellivere of the Wild Court, the commander of the "Virtue and Valor" Commander Deck.
+  - *2023-09-01* — Hexproof and shroud won't prevent a Role from becoming attached to a permanent if the ability creating that Role attached to that permanent doesn't target it.
+  - *2023-09-01* — If a permanent has more than one Role attached to it controlled by the same player, each of those Roles except the one with the most recent timestamp is put into its owner's graveyard. This is a state-based action.
+  - *2023-09-01* — If two or more Roles controlled by the same player become attached to a permanent at the same time (perhaps due to an effect such as that of Doubling Season), that player chooses which one to keep and which are put into their owners' graveyards.
+  - *2023-09-01* — In rare cases, a spell or ability might attempt to create a Role token enchanting a permanent that it can't legally enchant (because of an ability like protection from enchantments). In such cases, the Role token isn't created.
+  - *2023-09-01* — Roles are colorless enchantment tokens. Each one has the Aura and Role subtypes and the enchant creature ability.
+  - *2023-09-01* — Some spells and abilities that create Role tokens require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Role token won't be created.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/124/charming-scoundrel) · oracle_id `9eec304d-ffcb-4287-b877-280ac1e4f496` · printing: WOE #124 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Charm Peddler
 
@@ -2815,7 +3065,10 @@
   > Once each turn, you may pay {0} rather than pay the mana cost for a spell you cast from exile.
   > (You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2818 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/129/charred-foyer-warped-space) · oracle_id `9f50ec9f-78e6-403f-8f41-84d603fee0eb` · printing: DSK #129 (2024-09-27) · [rulings](https://api.scryfall.com/cards/a128e6d1-b90f-45a1-b587-f8c29bd0ec8c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-09-20* — If you cast a spell for an alternative cost of {0}, you can't pay any other alternative costs. You can, however, pay additional costs, such as kicker. If the card has any mandatory additional costs, you must pay those.
+  - *2024-09-20* — You pay all costs and follow all timing rules for cards played with the permission granted by Charred Foyer's ability. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/129/charred-foyer-warped-space) · oracle_id `9f50ec9f-78e6-403f-8f41-84d603fee0eb` · printing: DSK #129 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Charred Graverobber
 
@@ -2853,6 +3106,7 @@
 - **Flavor text** (FDN printing):
   > *While other pirates prowl for treasure, Captain Parrish plunders secrets.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1971 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/586/chart-a-course) · oracle_id `05878e49-93ad-4144-9c50-a0bb86126c2e` · printing: FDN #586 (2024-11-15) · [rulings](https://api.scryfall.com/cards/7599d459-fe71-48f4-8c65-0f519bb63a68/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chartooth Cougar
@@ -2955,7 +3209,13 @@
   > {B}, Sacrifice X Squirrels: Target creature gets +X/-X until end of turn.
 - **Keywords:** Landwalk, Forestwalk
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1059 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/151/chatterfang-squirrel-general) · oracle_id `f15b3b76-d38a-48db-bb44-3296183c8641` · printing: MH2 #151 (2021-06-18) · [rulings](https://api.scryfall.com/cards/1785cf85-1ac0-4246-9b89-1a8221a8e1b2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-06-18* — Chatterfang's second ability applies to all kinds of tokens, including Clue, Food, and Treasure tokens.
+  - *2021-06-18* — If an effect changes under whose control a token would be created, that effect applies before Chatterfang's effect applies. If an effect changes under whose control a token would enter the battlefield, that effect applies after Chatterfang's effect is able to be applied.
+  - *2021-06-18* — In a Commander game, the defending player is the player Chatterfang is attacking or the controller of the planeswalker Chatterfang is attacking.
+  - *2021-06-18* — The additional Squirrel tokens won't have any abilities the other tokens were created with. Anything else specified in the effect creating the token (such as tapped, attacking, "That token gains haste," or "Exile that token at end of combat") applies to both the original tokens and the Squirrels.
+  - *2025-01-24* — You don't need to control the spell or ability that creates the tokens, nor do you have to be the one creating the tokens for Chatterfang's ability to apply. As long as the tokens are being created under your control, Chatterang's replacement effect will apply.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/151/chatterfang-squirrel-general) · oracle_id `f15b3b76-d38a-48db-bb44-3296183c8641` · printing: MH2 #151 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chatter of the Squirrel
 
@@ -2966,7 +3226,14 @@
   > Flashback {1}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7164 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/157/chatter-of-the-squirrel) · oracle_id `b0aaa4b1-5188-43a6-997d-7a9b2ad452bc` · printing: 2XM #157 (2020-08-07) · [rulings](https://api.scryfall.com/cards/5f7e1991-9ffa-4a57-b8eb-ebe542a47f09/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-03-19* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2021-03-19* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2021-03-19* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+  - *2021-03-19* — “Flashback [cost]” means “You may cast this card from your graveyard by paying [cost] rather than paying its mana cost” and “If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack.”
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/157/chatter-of-the-squirrel) · oracle_id `b0aaa4b1-5188-43a6-997d-7a9b2ad452bc` · printing: 2XM #157 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chatterstorm
 
@@ -2980,7 +3247,13 @@
   > *—Larrel, Deep Forest hermit*
 - **Keywords:** Storm
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2863 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/152/chatterstorm) · oracle_id `7e6c7b57-bd6a-4ac8-bcab-c3a879f479c2` · printing: MH2 #152 (2021-06-18) · [rulings](https://api.scryfall.com/cards/b34f0ac1-6894-4761-b62c-b85d927acf09/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-06-18* —  A copy of a spell can be countered like any other spell, but it must be countered individually. Countering a spell with storm won't affect the copies.
+  - *2021-06-18* —  If a spell with storm has targets, you may choose new targets for any of the copies. You can make different choices for each copy.
+  - *2021-06-18* —  Spells cast from zones other than a player's hand and spells that were countered or otherwise failed to resolve are counted by the storm ability.
+  - *2021-06-18* —  The copies are put directly onto the stack. They aren't cast and won't be counted by other spells with storm cast later in the turn.
+  - *2021-06-18* —  The triggered ability that creates the copies can itself be countered by anything that can counter a triggered ability. If it is countered, no copies will be put onto the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/152/chatterstorm) · oracle_id `7e6c7b57-bd6a-4ac8-bcab-c3a879f479c2` · printing: MH2 #152 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chatterstorm and Awaken the Woods
 

@@ -84,7 +84,12 @@
 - **Oracle text:**
   > At the beginning of each combat, creatures you control gain first strike until end of turn if a creature you control has first strike. The same is true for flying, deathtouch, double strike, haste, hexproof, indestructible, lifelink, menace, reach, skulk, trample, and vigilance.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1495 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/36/odric-lunarch-marshal) · oracle_id `bad76170-c773-4be5-9457-20dc9f745cb4` · printing: INR #36 (2025-01-24) · [rulings](https://api.scryfall.com/cards/1db600b2-9b8b-4c21-8d8b-8033ec680a35/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2016-04-08* — Multiple instances of any of the abilities Odric can grant your creatures are redundant.
+  - *2016-04-08* — Odric's ability triggers at the beginning of each combat, not just combat on your turn, whether or not any creatures you control have any of the listed abilities. If a creature gains one of the listed abilities before Odric's triggered ability resolves, perhaps due to another ability that triggered at the beginning of combat, then creatures you control will gain that ability.
+  - *2016-04-08* — The set of creatures affected by Odric's ability and how they are affected is determined as the ability resolves. Creatures you begin to control later in the turn won't gain any abilities or cause creatures to gain new abilities, and the abilities gained won't change even if every creature that normally had the abilities leaves the battlefield.
+  - *2020-01-24* — If one of those creatures has one or more variants of the listed keywords (for example, hexproof from white), creatures you control gain those specific variants.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/36/odric-lunarch-marshal) · oracle_id `bad76170-c773-4be5-9457-20dc9f745cb4` · printing: INR #36 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Odric, Master Tactician
 
@@ -98,7 +103,11 @@
   > *"Fear holds no place in faith's battle plan."*
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2477 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/46/odric-master-tactician) · oracle_id `ade898df-14a5-460b-94f6-1f3f74d3ff95` · printing: CMM #46 (2023-08-04) · [rulings](https://api.scryfall.com/cards/13bfcec9-a789-41f1-aa3d-4e4cdd7555b2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2012-07-01* — All blocking declarations must still be legal.
+  - *2012-07-01* — If there's a cost associated with having a creature block and you choose for that creature to block, its controller can choose to pay that cost or not. If that player decides to not pay that cost, you must propose a new set of blocking creatures.
+  - *2012-07-01* — You can decide that a creature won't block.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/46/odric-master-tactician) · oracle_id `ade898df-14a5-460b-94f6-1f3f74d3ff95` · printing: CMM #46 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Odric's Outrider
 

@@ -28,6 +28,7 @@
   > {T}: Add {C}.
   > {T}: Add one mana of any color that a Gate you control could produce.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2662 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/353/gond-gate) · oracle_id `4306938b-c0db-4e63-a4fb-61628e5ff41f` · printing: CLB #353 (2022-06-10) · [rulings](https://api.scryfall.com/cards/746672d9-7c6b-415e-9f34-3cc3ac557008/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gone Missing
@@ -55,7 +56,9 @@
   > *"The Shinra people told us that everyone would be happy once the reactor was built. But all it brought us was sadness..."*
   > *—Gongaga villager*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5512 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/280/gongaga-reactor-town) · oracle_id `ac4e1818-4873-4143-9b99-46f205d006d9` · printing: FIN #280 (2025-06-13) · [rulings](https://api.scryfall.com/cards/7beccfa6-3e4b-4460-954e-870cb39e462d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-06-06* — Town is a land type with no special meaning. It doesn't grant the land any intrinsic abilities. Other cards may care about which lands are Towns.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/280/gongaga-reactor-town) · oracle_id `ac4e1818-4873-4143-9b99-46f205d006d9` · printing: FIN #280 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Go Ninja Go
 
@@ -77,7 +80,12 @@
   > Spells you cast but don't own cost {1} less to cast.
   > Whenever one or more creatures you control deal combat damage to a player, look at the top card of that player's library, then exile it face down. You may play that card for as long as it remains exiled, and mana of any type can be spent to cast that spell.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8275 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/1/gonti-canny-acquisitor) · oracle_id `7923ef4a-b1be-4f6a-b17b-4eab101390de` · printing: OTC #1 (2024-04-19) · [rulings](https://api.scryfall.com/cards/03a7e79f-625a-49ac-9cb1-e1fe5f51f5a0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-04-12* — If you leave the game, any remaining face-down exiled cards remain exiled face down indefinitely. No player may look at them.
+  - *2024-04-12* — Playing an exiled card causes it to leave exile. You can’t play it multiple times.
+  - *2024-04-12* — You may look at and play cards exiled face down with Gonti’s last ability (and spend mana of any type to do so) even if Gonti leaves the battlefield. If another player gains control of Gonti, that player can’t look at or play cards already exiled with Gonti, and you still can.
+  - *2024-04-12* — You pay all costs and follow all normal timing rules for cards played from exile with Gonti’s last ability. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/1/gonti-canny-acquisitor) · oracle_id `7923ef4a-b1be-4f6a-b17b-4eab101390de` · printing: OTC #1 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gonti, Lord of Luxury
 
@@ -89,7 +97,15 @@
   > When Gonti enters, look at the top four cards of target opponent's library, exile one of them face down, then put the rest on the bottom of that library in a random order. You may cast that card for as long as it remains exiled, and mana of any type can be spent to cast that spell.
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2100 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/135/gonti-lord-of-luxury) · oracle_id `d5be0ff6-39d9-4f9f-a028-e62dc38463f2` · printing: OTC #135 (2024-04-19) · [rulings](https://api.scryfall.com/cards/fbbb3aef-af1f-4b77-b7d6-64cfd706a9d9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2016-09-20* — An effect that instructs you to "cast" a card doesn't allow you to play lands.
+  - *2016-09-20* — Casting the card causes it to leave exile. You can't cast it multiple times.
+  - *2016-09-20* — Gonti doesn't change when you can cast the exiled card. For example, if you exile a creature card without flash, you can cast it only during your main phase when the stack is empty.
+  - *2016-09-20* — If you leave the game, the card remains exiled face down indefinitely. No player may look at it.
+  - *2016-09-20* — You may look at and cast that card (and spend mana as though it were mana of any type to do so) even if Gonti leaves the battlefield. If another player gains control of Gonti, that player can't look at or cast the card, and you still can.
+  - *2016-09-20* — You pay the costs for the exiled card if you cast it. You may pay alternative costs such as emerge rather than the card's mana cost.
+  - *2023-07-28* — The six types of mana are white, blue, black, red, green, and colorless. Snow mana is not a type of mana. Gonti, Lord of Luxury won't let you pay a snow cost using mana produced by a nonsnow source.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/135/gonti-lord-of-luxury) · oracle_id `d5be0ff6-39d9-4f9f-a028-e62dc38463f2` · printing: OTC #135 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gonti, Night Minister
 
@@ -101,6 +117,7 @@
   > Whenever a creature deals combat damage to one of your opponents, its controller looks at the top card of that opponent's library and exiles it face down. They may play that card for as long as it remains exiled. Mana of any type can be spent to cast a spell this way.
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2431 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/87/gonti-night-minister) · oracle_id `e16f79c1-ffbb-4893-b62a-d4e9d15e2b16` · printing: DFT #87 (2025-02-14) · [rulings](https://api.scryfall.com/cards/d79ca40a-e5c0-4956-8df0-ecbd2a25656f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gonti's Aether Heart
@@ -113,7 +130,17 @@
 - **Flavor text** (AER printing):
   > *Despite the magic that sustains Gonti's life, the crime lord is often described as heartless.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3668 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/aer/152/gontis-aether-heart) · oracle_id `69428825-3c40-486d-b051-14e97a598ce6` · printing: AER #152 (2017-01-20) · [rulings](https://api.scryfall.com/cards/9e4fc5ed-e90d-4965-985a-ed126a713506/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2024-06-07* — Energy counters are a kind of counter that a player may have. They're not associated with any specific permanents.
+  - *2024-06-07* — Energy counters aren't mana. They don't go away as steps, phases, and turns end, and effects that add mana "of any type" can't give you energy counters.
+  - *2024-06-07* — If a spell or ability with one or more targets states that you "may pay" some amount of {E}, and each permanent that it targets has become an illegal target, the spell or ability won't resolve. You can't pay any {E} even if you want to.
+  - *2024-06-07* — If an effect says you get one or more {E}, you get that many energy counters. To pay one or more {E}, you lose that many energy counters. You can't pay more energy counters than you have. Any effects that interact with counters a player gets, has, or loses can interact with energy counters.
+  - *2024-06-07* — Keep track of how many energy counters each player has. Potential ways to track this include writing theme down on paper or using dice, but any method that is clear and mutually agreeable is fine. (At higher levels of tournament play, dice may not be allowed for tracking counters that players have.)
+  - *2024-06-07* — Some spells and abilities that give you {E} may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't get any {E}.
+  - *2024-06-07* — Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
+  - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
+  - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/aer/152/gontis-aether-heart) · oracle_id `69428825-3c40-486d-b051-14e97a598ce6` · printing: AER #152 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gonti's Machinations
 

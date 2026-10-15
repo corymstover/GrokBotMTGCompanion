@@ -96,6 +96,7 @@
 - **Flavor text** (C21 printing):
   > *One moment, conscious only of a sense of repose. The next moment, hearing the trudge of his own footsteps. He sighed and squinted into the glare ahead.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8007 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/215/debtors-knell) · oracle_id `a9ff368b-5208-4ada-bb99-eccbf8eaea28` · printing: C21 #215 (2021-04-23) · [rulings](https://api.scryfall.com/cards/c9618200-f4ea-4572-9f17-9db8b785982e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Debtor's Pulpit
@@ -134,6 +135,7 @@
 - **Flavor text** (PLST printing):
   > *Some of Orzhov's cruelest collectors remember their debtors by taste alone.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2531 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/plst/RVR-176/debt-to-the-deathless) · oracle_id `6130f22d-7901-4f9f-b777-27bb0dacc063` · printing: PLST #RVR-176 (2026-10-19) · [rulings](https://api.scryfall.com/cards/f0d2831e-36b6-448b-9613-37eaf3ad1878/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Debt to the Kami

@@ -205,7 +205,9 @@
   > *—Jace Beleren*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1796 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m19/68/psychic-corrosion) · oracle_id `328b42f1-d679-4f9c-80e3-38fe3b965d10` · printing: M19 #68 (2018-07-13) · [rulings](https://api.scryfall.com/cards/285d22fa-1623-463a-83c0-a9aa7c969ce2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-07-13* — If a spell or ability causes you to put cards into your hand without specifically using the word “draw,” Psychic Corrosion’s ability won’t trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m19/68/psychic-corrosion) · oracle_id `328b42f1-d679-4f9c-80e3-38fe3b965d10` · printing: M19 #68 (2018-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psychic Drain
 
@@ -232,6 +234,7 @@
 - **Flavor text** (MH3 printing):
   > *Some frogs poison the body. Some frogs poison the mind.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2089 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/199/psychic-frog) · oracle_id `e157ad1e-be35-47f3-92db-01799f8fb6a5` · printing: MH3 #199 (2024-06-14) · [rulings](https://api.scryfall.com/cards/68924203-c3d9-41ce-8ca8-c6dd491eb3ca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psychic Impetus
@@ -244,7 +247,14 @@
   > Whenever enchanted creature attacks, you scry 2.
 - **Keywords:** Goad, Enchant, Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7122 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/92/psychic-impetus) · oracle_id `47214acc-08c4-4dcb-9a8b-09196ce41045` · printing: CLU #92 (2024-02-23) · [rulings](https://api.scryfall.com/cards/ef419666-2bb5-40bc-90bf-c1c4d7793141/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2020-04-17* — Psychic Impetus causes you to scry 2, not the attacking creature's controller.
+  - *2023-06-30* — Attacking with a goaded creature doesn't cause it to stop being goaded. If there is an additional combat phase that turn, or if another player gains control of it before it stops being goaded, it must attack again if able.
+  - *2023-06-30* — Being goaded isn't an ability the creature has. Once it's been goaded, it must attack as detailed above even if it loses all abilities.
+  - *2023-06-30* — If a creature you control has been goaded by multiple opponents, it must attack one of your opponents that hasn't goaded it, as that fulfills the maximum number of goad requirements. If a creature you control has been goaded by each of your opponents, the creature must attack an opponent (rather than a planeswalker or battle), but you choose which opponent it attacks.
+  - *2023-06-30* — If the creature doesn't meet any of the above exceptions and can attack, it must attack a player other than the controller of the spell or ability that goaded it if able. If the creature can't attack any of those players but could otherwise attack, it must attack a planeswalker an opponent controls, a battle an opponent controls, or a player who goaded it.
+  - *2023-06-30* — If, during a player's declare attackers step, a creature that player controls that's been goaded is tapped, is affected by a spell or ability that says it can't attack, or hasn't been under that player's control continuously since the turn began (and doesn't have haste), then it doesn't attack. If there's a cost associated with having a creature attack a player, its controller isn't forced to pay that cost, so it doesn't have to attack that player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/92/psychic-impetus) · oracle_id `47214acc-08c4-4dcb-9a8b-09196ce41045` · printing: CLU #92 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psychic Intrusion
 
@@ -313,7 +323,9 @@
   > Equip {2}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6464 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/181/psychic-paper) · oracle_id `110b601c-bf38-4985-8de6-fcb477f543a8` · printing: WHO #181 (2023-10-13) · [rulings](https://api.scryfall.com/cards/eae12c61-0125-4810-b0e4-139c27b1b08b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-10-13* — You must choose an existing creature type, such as Time Lord, Vampire, or Warrior. Card types (such as artifact) and supertypes (such as legendary) can't be chosen.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/181/psychic-paper) · oracle_id `110b601c-bf38-4985-8de6-fcb477f543a8` · printing: WHO #181 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psychic Pickpocket
 
@@ -408,7 +420,10 @@
   > *Until more information could be gleaned about Niv-Mizzet's intentions, Lazav took every opportunity to stall his experiments.*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9201 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/gtc/189/psychic-strike) · oracle_id `17694111-5623-48b3-8c54-c383418e8d2b` · printing: GTC #189 (2013-02-01) · [rulings](https://api.scryfall.com/cards/0d87927c-80a6-4146-92a5-58c510ce7958/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-01-24* — If the target spell is an illegal target when Psychic Strike tries to resolve, Psychic Strike won’t resolve and none of its effects will happen. The target’s controller won’t put any cards from the top of their library into their graveyard.
+  - *2013-01-24* — You may target a spell that can’t be countered. When Psychic Strike resolves, the target spell will be unaffected, but its controller will still put the top two cards of their library into their graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/gtc/189/psychic-strike) · oracle_id `17694111-5623-48b3-8c54-c383418e8d2b` · printing: GTC #189 (2013-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psychic Surgery
 
@@ -518,6 +533,7 @@
   > Harbinger of Despair — Whenever this creature or another nontoken artifact you control is put into a graveyard from the battlefield or is put into exile from the battlefield, target opponent loses 1 life and you gain 1 life.
 - **Keywords:** Flying, Harbinger of Despair
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9130 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/51/psychomancer) · oracle_id `589b742c-fee5-413a-a56c-4d4ffaf0f73d` · printing: 40K #51 (2022-10-07) · [rulings](https://api.scryfall.com/cards/780743bf-e1a0-4114-9474-319632e0c775/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psychosis Crawler
@@ -558,6 +574,7 @@
   > *"Rage, my servants. Our ancient power is renewed in blood."*
   > *—Rakdos*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4684 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dis/68/psychotic-fury) · oracle_id `1bf982e9-5868-46bf-81e3-f29ada33d169` · printing: DIS #68 (2006-05-05) · [rulings](https://api.scryfall.com/cards/4f626c70-1ede-4b00-bd95-d6ee26371131/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psychotic Haze
@@ -581,4 +598,5 @@
   > Remove three spore counters from this creature: Create a 1/1 green Saproling creature token.
   > {1}, Sacrifice a Saproling: Draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7785 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/plc/137/psychotrope-thallid) · oracle_id `384c61f2-17ed-4c7a-8722-e0a05e9dcaf9` · printing: PLC #137 (2007-02-02) · [rulings](https://api.scryfall.com/cards/e2803fdc-2ae1-438c-b5b1-559817e85fdb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -121,6 +121,7 @@
   > *"All things will fall to the Zero Point. By accepting this truth, my path is known and my fate is certain."*
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1289 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/227/umbral-collar-zealot) · oracle_id `12db6263-75c2-442f-a1a5-7af7915f8f9f` · printing: SOC #227 (2026-04-24) · [rulings](https://api.scryfall.com/cards/98648b8a-2cf0-4c10-ab13-c88b2e03fc15/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Umbral Expanse
@@ -135,7 +136,9 @@
   > *A neglected corner of the Adumbral Gardens, used by pages and diplomats seeking solitude for reflection and intrigue.*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7408 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/60/umbral-expanse) · oracle_id `5a1dfc60-645d-4bc0-8883-e06ed9c80706` · printing: SOC #60 (2026-04-24) · [rulings](https://api.scryfall.com/cards/15848965-01a8-48bf-aa61-8a753339c761/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-03-20* — Unlike some other dual lands, Umbral Expanse has two basic land types. It's not basic, so effects that search for basic lands can't find it, but it does have the appropriate land types for effects such as that of Shineshadow Snarl (included in the Secrets of Strixhaven Commander decks).
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/60/umbral-expanse) · oracle_id `5a1dfc60-645d-4bc0-8883-e06ed9c80706` · printing: SOC #60 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Umbral Juke
 
@@ -161,7 +164,11 @@
   > *It harnesses the power of night in a land where daylight fears to show itself.*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2299 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/shm/267/umbral-mantle) · oracle_id `44f3241f-af82-4f2e-b15d-7f279bf6e816` · printing: SHM #267 (2008-05-02) · [rulings](https://api.scryfall.com/cards/10e35711-aec9-4024-a2a6-9efff8c71df2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2008-05-01* — If a creature with an {Q} ability hasn't been under your control since your most recent turn began, you can't activate that ability, unless the creature has haste.
+  - *2008-05-01* — If the permanent is already untapped, you can't activate its {Q} ability. That's because you can't pay the "Untap this permanent" cost.
+  - *2008-05-01* — When you activate an {Q} ability, you untap the creature with that ability as a cost. The untap can't be responded to. (The actual ability can be responded to, of course.)
+- **Source flags:** [Scryfall](https://scryfall.com/card/shm/267/umbral-mantle) · oracle_id `44f3241f-af82-4f2e-b15d-7f279bf6e816` · printing: SHM #267 (2008-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Umbra Mystic
 
@@ -173,7 +180,23 @@
 - **Flavor text** (ROE printing):
   > *"I have found the courage to face death—twice, if I must."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4349 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/roe/52/umbra-mystic) · oracle_id `c0a4f47c-c7f9-4b95-aa1b-30580e4cf030` · printing: ROE #52 (2010-04-23) · [rulings](https://api.scryfall.com/cards/a55705d3-8640-478e-ace4-f4f900d617c5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2010-06-15* — All _Rise of the Eldrazi_ cards printed with umbra armor are Auras with "enchant creature." But Umbra Mystic grants umbra armor to Auras attached to any permanent you control, not just creatures. The ability works the same way even if the Aura is enchanting a land, an artifact, or any other permanent.
+  - *2010-06-15* — If a permanent you control would be destroyed, and it's enchanted by an Aura with umbra armor, it doesn't matter who controls that Aura. The umbra armor effect is mandatory. If that permanent is enchanted by multiple Auras, you choose which one is destroyed, regardless of who controls them.
+  - *2010-06-15* — Multiple instances of umbra armor on the same Aura are redundant.
+  - *2010-06-15* — Say you control a permanent that's enchanted by an Aura you control, and that Aura is itself enchanted by an Aura. If the permanent would be destroyed, instead the first Aura is destroyed... but since that Aura would be destroyed, instead the second Aura is destroyed.
+  - *2010-06-15* — Umbra Mystic grants umbra armor to Auras attached to permanents you control, regardless of who controls those Auras. Conversely, it doesn't grant umbra armor to Auras you control that are attached to permanents controlled by other players.
+  - *2024-06-07* — If a creature enchanted with an Aura that has umbra armor has indestructible, lethal damage and effects that try to destroy it simply have no effect. Umbra armor won't do anything because it won't have to.
+  - *2024-06-07* — If a creature enchanted with an Aura that has umbra armor would be destroyed by multiple state-based actions at the same time (most likely because a creature with deathtouch has dealt damage to that creature greater than or equal to its toughness), umbra armor's effect will replace all of them and save the creature.
+  - *2024-06-07* — If a creature you control is enchanted with multiple Auras that have umbra armor, and the enchanted creature would be destroyed, one of those Auras is destroyed instead—but only one of them. You choose which one because you control the enchanted creature.
+  - *2024-06-07* — If a spell or ability says that it would "destroy" a creature enchanted with an Aura that has umbra armor, that spell or ability is what causes the Aura to be destroyed instead. Umbra armor doesn't destroy the Aura; rather, it changes the effects of the spell or ability. On the other hand, if a spell or ability deals lethal damage to a creature enchanted with an Aura that has umbra armor, the game rules regarding lethal damage cause the Aura to be destroyed, not that spell or ability.
+  - *2024-06-07* — If a spell or ability would destroy both an Aura with umbra armor and the creature it's enchanting at the same time, umbra armor's effect will save the enchanted creature from being destroyed. Instead, the spell or ability will destroy the Aura in two different ways at the same time, but the result is the same as destroying it once.
+  - *2024-06-07* — Some printings of this card refer to the ability "totem armor". This ability's name has been replaced with "umbra armor". This change does not affect the gameplay function of this card.
+  - *2024-06-07* — Umbra armor has no effect if the enchanted creature is put into a graveyard for any other reason, such as if it's sacrificed, if the "legend rule" applies to it, or if its toughness is 0 or less.
+  - *2024-06-07* — Umbra armor's effect is applied no matter why the enchanted creature would be destroyed: because it's been dealt lethal damage, or because it's being affected by an effect that says to "destroy" it (such as Breathe Your Last). In either case, all damage is removed from the creature and the Aura is destroyed instead.
+  - *2024-06-07* — Umbra armor's effect is mandatory. If the enchanted creature would be destroyed, you must remove all damage from it (if it has any) and destroy the Aura that has umbra armor instead.
+  - *2024-06-07* — Umbra armor's effect is not regeneration. Specifically, if umbra armor's effect is applied, the enchanted creature does not become tapped and is not removed from combat as a result. Effects that say the enchanted creature can't be regenerated won't prevent umbra armor's effect from being applied.
+- **Source flags:** [Scryfall](https://scryfall.com/card/roe/52/umbra-mystic) · oracle_id `c0a4f47c-c7f9-4b95-aa1b-30580e4cf030` · printing: ROE #52 (2010-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Umbra Stalker
 
@@ -197,7 +220,9 @@
   > Umbris gets +1/+1 for each card your opponents own in exile.
   > Whenever Umbris or another Nightmare or Horror you control enters, target opponent exiles cards from the top of their library until they exile a land card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7527 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/voc/38/umbris-fear-manifest) · oracle_id `af31febb-af53-4b48-b930-9e1f9e5d8f26` · printing: VOC #38 (2021-11-19) · [rulings](https://api.scryfall.com/cards/7aead6a8-bada-42cf-b7cc-0b730f564582/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-11-19* — Umbris, Fear Manifest's first ability counts all cards your opponents own in exile, not just cards exiled by the second ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/voc/38/umbris-fear-manifest) · oracle_id `af31febb-af53-4b48-b930-9e1f9e5d8f26` · printing: VOC #38 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Umezawa's Charm
 
@@ -226,7 +251,13 @@
   > Equip {2}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2966 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bok/163/umezawas-jitte) · oracle_id `1da10d5c-36a8-473f-a5d4-782ad61d8057` · printing: BOK #163 (2005-02-04) · [rulings](https://api.scryfall.com/cards/3b6e5956-f795-451b-bb24-56462d1ced27/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2005-02-01* — If the "target creature gets -1/-1 until end of turn" mode is chosen, the target creature must also be announced.
+  - *2005-02-01* — If the Jitte is moved after the "+2/+2" mode is announced but before it resolves, the bonus is given to the creature that is equipped when the ability resolves.
+  - *2005-02-01* — If the Jitte leaves the battlefield after the "+2/+2" mode is announced but before it resolves, the bonus is given to the creature that was most recently equipped once the ability resolves.
+  - *2005-02-01* — The ability can be used any time Umezawa's Jitte's controller has priority — only the "target creature" choice has additional requirements. Choosing the "Equipped creature gets +2/+2 until end of turn" mode does nothing if the Jitte isn't equipped to a creature when the ability resolves.
+  - *2005-02-01* — Umezawa's Jitte's activated ability generates a modal choice. The choice is made when the ability is activated.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bok/163/umezawas-jitte) · oracle_id `1da10d5c-36a8-473f-a5d4-782ad61d8057` · printing: BOK #163 (2005-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Umori, the Collector
 

@@ -21,4 +21,5 @@
 - **Flavor text** (CHK printing):
   > *His family was the first to reach out to the human monks. He soon knew as many koans as he did blade strikes.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8507 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/241/seshiro-the-anointed) · oracle_id `54fc373e-157f-4157-b7dd-74d689f4c0f9` · printing: CHK #241 (2004-10-01) · [rulings](https://api.scryfall.com/cards/3823e561-5a0a-4020-9322-a2b481499807/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

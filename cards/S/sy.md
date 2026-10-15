@@ -134,7 +134,14 @@
 - **Flavor text** (ZNC printing):
   > *"It's not a matter of deserving. It's a matter of strength. The power to hold versus the power to take."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3879 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/znc/103/sygg-river-cutthroat) · oracle_id `cd4db500-0017-46c6-be94-1bf48f686b6a` · printing: ZNC #103 (2020-09-25) · [rulings](https://api.scryfall.com/cards/1b10e23a-7cf5-47dc-9c51-5cbe444a99c7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2008-05-01* — As the end step begins, Sygg’s ability checks whether a player who is currently your opponent, or a player who was your opponent at the time they left the game, has lost 3 or more life over the course of the turn. If so, the ability will trigger. If not, it won’t.
+  - *2008-05-01* — It doesn’t matter how the opponent lost life or who caused it, as long as the total loss of life is 3 or more.
+  - *2008-05-01* — Sygg’s ability checks only whether life was lost. It doesn’t care whether life was also gained. For example, if an opponent lost 4 life and gained 6 life during the turn, that player will have a higher life total than they started the turn with — but Sygg’s ability will trigger anyway.
+  - *2008-05-01* — Sygg’s ability checks to see if it triggers at the end of every turn. It doesn’t have to be your turn, and it doesn’t have to be the turn of the opponent that lost life.
+  - *2008-05-01* — Sygg’s ability will trigger even if Sygg wasn’t on the battlefield at the time some or all of the life was lost.
+  - *2008-05-01* — You don’t specify an opponent when the ability triggers. If multiple opponents have lost 3 or more life over the course of the turn, the ability will trigger only once.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znc/103/sygg-river-cutthroat) · oracle_id `cd4db500-0017-46c6-be94-1bf48f686b6a` · printing: ZNC #103 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sygg, River Guide
 
@@ -192,7 +199,10 @@
   > *"The land gives of itself. Its abundance provides, even in times of chaos."*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9067 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znc/84/sylvan-advocate) · oracle_id `beaf7a85-426a-4a33-80c8-33ad01614ad3` · printing: ZNC #84 (2020-09-25) · [rulings](https://api.scryfall.com/cards/7f5ac7ee-52e0-4c30-83cd-d27c29c19dbc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2016-01-22* — A “land creature” is a permanent that’s both a land and a creature.
+  - *2016-01-22* — Damage remains marked on creatures until the turn ends. If Sylvan Advocate’s ability stops applying (because Sylvan Advocate leaves the battlefield or you no longer control six or more lands), then any land creatures that needed the toughness bonus to stay alive will be destroyed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znc/84/sylvan-advocate) · oracle_id `beaf7a85-426a-4a33-80c8-33ad01614ad3` · printing: ZNC #84 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sylvan Anthem
 
@@ -206,6 +216,7 @@
   > *—Yavimaya saying*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2851 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/176/sylvan-anthem) · oracle_id `5ab5eefd-47bf-4cdf-bc29-b517e4f6adc0` · printing: MH2 #176 (2021-06-18) · [rulings](https://api.scryfall.com/cards/a119edc2-9e0f-43d1-a13d-25827f86e3e3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sylvan Awakening
@@ -219,7 +230,11 @@
   > *—Karn*
 - **Keywords:** Indestructible
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5276 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dom/183/sylvan-awakening) · oracle_id `66b46257-b64c-4672-bf47-12bf0bcd6f8f` · printing: DOM #183 (2018-04-27) · [rulings](https://api.scryfall.com/cards/93ac4d3d-064e-459d-b3a4-6c0872a2da8c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-04-27* — Sylvan Awakening affects only lands you control at the time it resolves. Lands you begin to control before your next turn won’t become creatures.
+  - *2018-04-27* — Sylvan Awakening doesn’t untap any of the lands that become creatures.
+  - *2018-04-27* — The lands affected by Sylvan Awakening stop being creatures as your next untap step begins, before you untap your permanents. If this causes any state-based actions to become applicable, or if any abilities trigger, those are handled during your upkeep.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dom/183/sylvan-awakening) · oracle_id `66b46257-b64c-4672-bf47-12bf0bcd6f8f` · printing: DOM #183 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sylvan Basilisk
 
@@ -269,6 +284,7 @@
   > *Those who enter the copse never leave. They find peace there and take root, becoming part of the ever-growing grove.*
 - **Keywords:** Hexproof, Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1896 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/272/sylvan-caryatid) · oracle_id `13d4c46b-c2d6-44cc-a252-4a991d471854` · printing: TDC #272 (2025-04-11) · [rulings](https://api.scryfall.com/cards/2662837c-3837-4da9-80b4-79edb0b6c289/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sylvan Echoes
@@ -340,7 +356,10 @@
   > Choose an opponent. You and that player each create an X/X green Treefolk creature token.
   > Choose an opponent. You and that player each create X 1/1 green Elf Warrior creature tokens.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4803 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/314/sylvan-offering) · oracle_id `732aaa4b-22ea-49e2-b09f-e6169f726537` · printing: NCC #314 (2022-04-29) · [rulings](https://api.scryfall.com/cards/cd68c02d-aa09-47ee-b989-65965e82b9f3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-11-07* — You choose the opponents for each effect as the spell resolves.
+  - *2014-11-07* — You may choose the same opponent for each of the effects, or you may choose different opponents. None of the affected players are targets of the spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/314/sylvan-offering) · oracle_id `732aaa4b-22ea-49e2-b09f-e6169f726537` · printing: NCC #314 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sylvan Paradise
 
@@ -377,6 +396,7 @@
 - **Flavor text** (JMP printing):
   > *"Not all paths are found on the forest floor."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9469 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/435/sylvan-ranger) · oracle_id `29a90fda-541e-4923-b3ed-e2b35d02c74b` · printing: JMP #435 (2020-07-17) · [rulings](https://api.scryfall.com/cards/e36a5be0-a730-4cb7-9d1e-6ae84b5bc872/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sylvan Reclamation
@@ -388,6 +408,7 @@
   > Basic landcycling {2} ({2}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)
 - **Keywords:** Landcycling, Basic landcycling, Typecycling, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9511 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/170/sylvan-reclamation) · oracle_id `aeec8e85-6571-4da6-8a48-f5d3985ca10b` · printing: DMC #170 (2022-09-09) · [rulings](https://api.scryfall.com/cards/f51c70bf-cae2-49e1-988e-c9fb3ea5f370/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sylvan Safekeeper
@@ -413,6 +434,7 @@
   > • Put a +1/+1 counter on target creature you control.
   > • Create a 3/3 green Raccoon creature token if you control a creature with power 4 or greater.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6927 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/113/sylvan-scavenging) · oracle_id `398afdf2-4a12-430e-85c9-c68847230939` · printing: FDN #113 (2024-11-15) · [rulings](https://api.scryfall.com/cards/c35b683c-d3b2-46a1-876a-81b34e8ba2fc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sylvan Scrying
@@ -425,6 +447,7 @@
   > *"As long as there is a single shred of life, there is hope."*
   > *—Nissa Revane*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1307 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/192/sylvan-scrying) · oracle_id `ee24bf27-484d-4e1c-998e-6a74e3d3f6c4` · printing: BFZ #192 (2015-10-02) · [rulings](https://api.scryfall.com/cards/d1b93087-e6a0-4ba9-83ba-a0ed2e396dc7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sylvan Shepherd
@@ -449,7 +472,9 @@
 - **Oracle text:**
   > Search your library for a creature card, reveal it, then shuffle and put that card on top.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2736 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me4/169/sylvan-tutor) · oracle_id `935e0cac-51ee-4cb7-a209-f085e0f099ed` · printing: ME4 #169 (2011-01-10) · [rulings](https://api.scryfall.com/cards/9dcad208-cbea-458f-af8d-6f5e9ec32df7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Because the "search" requires you to find a card with certain characteristics, you don't have to find the card if you don't want to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me4/169/sylvan-tutor) · oracle_id `935e0cac-51ee-4cb7-a209-f085e0f099ed` · printing: ME4 #169 (2011-01-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sylvan Yeti
 
@@ -559,6 +584,7 @@
   > Find New Host — {2}{U/B}, Exile this card from your graveyard: Put a +1/+1 counter on target creature you control. It gains this card's other abilities. Activate only as a sorcery.
 - **Keywords:** Find New Host
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9498 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/156/symbiote-spider-man) · oracle_id `bc681ecf-2a52-4782-9a47-90f5a9f435d8` · printing: SPM #156 (2025-09-26) · [rulings](https://api.scryfall.com/cards/6a21c0ff-b51a-4946-9737-7872a7eef97b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Symbiotic Beast
@@ -644,7 +670,9 @@
   > *"Achieving perfection is simple. Watch, I'll do it twice."*
   > *—Mishra*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7693 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/252/symmetry-matrix) · oracle_id `2f6d129c-e6ad-4f35-b8b1-56a101fdd5db` · printing: BRO #252 (2022-11-18) · [rulings](https://api.scryfall.com/cards/786bce65-1c04-45fc-b81b-e7590afbd117/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-10-14* — If one or more static abilities that apply to a creature entering the battlefield change its power or toughness, those abilities are considered when determining whether or not Symmetry Matrix's ability triggers. The same is true for replacement effects that apply to it, such as entering the battlefield with one or more +1/+1 counters or entering the battlefield as a copy of another creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/252/symmetry-matrix) · oracle_id `2f6d129c-e6ad-4f35-b8b1-56a101fdd5db` · printing: BRO #252 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Symmetry Sage
 
@@ -684,7 +712,10 @@
   > *"Species XR17 feeds upon the mental energies of its victims. This explains why the goblins remain unaffected."*
   > *—Riptide Project researcher*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5881 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/857/synapse-sliver) · oracle_id `b76f123d-7b78-42a1-a66e-0dee6f773687` · printing: CMM #857 (2023-08-04) · [rulings](https://api.scryfall.com/cards/7c458a0f-0e63-417f-b51e-8491822835b0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-07-01* — Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn’t provide any additional benefit.
+  - *2013-07-01* — If the creature type of a Sliver changes so it’s no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/857/synapse-sliver) · oracle_id `b76f123d-7b78-42a1-a66e-0dee6f773687` · printing: CMM #857 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Synchronized Charge
 
@@ -753,6 +784,7 @@
 - **Flavor text** (FIN printing):
   > *"Your eyes, they burn with resolve . . . beautiful."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3771 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/80/syncopate) · oracle_id `318f7f70-e374-40ef-8afb-3389c10461d8` · printing: FIN #80 (2025-06-13) · [rulings](https://api.scryfall.com/cards/83e1cd8d-5b97-427a-be75-2a1947f9c59b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Syndicate Enforcer
@@ -908,7 +940,9 @@
   > {T}, Pay {E}{E}{E}: This creature deals 3 damage to any target.
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9005 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/67/synth-eradicator) · oracle_id `c68f09d8-a1eb-449b-8bf5-4251d7a14337` · printing: PIP #67 (2024-03-08) · [rulings](https://api.scryfall.com/cards/87fc7b54-26e5-4b0d-b2bb-be8f977f752b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-03-08* — You pay all costs and follow all normal timing rules for the card played from exile with Synth Eradicator's second ability. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/67/synth-eradicator) · oracle_id `c68f09d8-a1eb-449b-8bf5-4251d7a14337` · printing: PIP #67 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Synthesis Pod
 
@@ -954,7 +988,15 @@
   > You may have this creature enter as a copy of any creature on the battlefield, except it's a Synth artifact creature in addition to its other types.
 - **Keywords:** Improvise
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9019 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/40/synth-infiltrator) · oracle_id `3d3553df-0036-47d9-b0e3-4a3261a0f73c` · printing: PIP #40 (2024-03-08) · [rulings](https://api.scryfall.com/cards/3fe16bc4-8457-4c5f-902a-0746112e80a4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2024-03-08* — Any enters-the-battlefield abilities of the copied creature will trigger when Synth Infiltrator enters the battlefield. Any “as [this creature] enters the battlefield” or “[this creature] enters the battlefield with” abilities of the copied creature will also work.
+  - *2024-03-08* — Except for being a Synth artifact creature in addition to its other types, Synth Infiltrator copies exactly what was printed on the original creature and nothing else (unless that creature is copying something else or is a token; see below). It doesn’t copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+  - *2024-03-08* — If the copied creature has {X} in its mana cost, X is 0.
+  - *2024-03-08* — If the copied creature is a token, Synth Infiltrator copies the original characteristics of that token as stated by the effect that created that token, with the noted exceptions.
+  - *2024-03-08* — If the copied creature is copying something else, then Synth Infiltrator enters the battlefield as whatever that creature copied, with the noted exceptions.
+  - *2024-03-08* — Improvise doesn’t change Synth Infiltrator’s mana cost or mana value, and it can’t reduce Synth Infiltrator’s cost below {U}{U}.
+  - *2024-03-08* — You can choose not to have Synth Infiltrator enter the battlefield as a copy of another creature. If you do, it will probably die due to having 0 toughness. (This is probably not the kind of innovation the Institute would approve of.)
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/40/synth-infiltrator) · oracle_id `3d3553df-0036-47d9-b0e3-4a3261a0f73c` · printing: PIP #40 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Syphon Essence
 
@@ -976,6 +1018,7 @@
 - **Flavor text** (MIC printing):
   > *Necromancers deal in commodities far more precious than gold and grain.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9818 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mic/129/syphon-flesh) · oracle_id `bc7c3151-ad07-429a-8af8-e4f24b7d9f6b` · printing: MIC #129 (2021-09-24) · [rulings](https://api.scryfall.com/cards/63124d37-d16c-48d6-b1a2-a1a3834b3dc1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Syphon Fuel
@@ -1012,6 +1055,7 @@
   > *"Initiating brain wave transferal protocol."*
   > *—Ultron*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1048 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/159/syphon-mind) · oracle_id `abc37d6c-6300-47b5-a679-9db5b83eb54f` · printing: MSC #159 (2026-06-26) · [rulings](https://api.scryfall.com/cards/be3f418b-25c3-4370-a1de-50e8e88c2ef6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Syphon Sliver
@@ -1024,7 +1068,10 @@
 - **Flavor text** (CMM printing):
   > *The hive knows no fear or mercy, only hunger.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4644 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/870/syphon-sliver) · oracle_id `61f18560-8f26-4d7b-a6f8-ec388766123b` · printing: CMM #870 (2023-08-04) · [rulings](https://api.scryfall.com/cards/3d222985-759c-4fdc-82ba-d970ef789b35/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-07-01* — Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn’t provide any additional benefit.
+  - *2013-07-01* — If you change the creature type of a Sliver you control so it’s no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/870/syphon-sliver) · oracle_id `61f18560-8f26-4d7b-a6f8-ec388766123b` · printing: CMM #870 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Syphon Soul
 
@@ -1123,7 +1170,9 @@
   > {2}, {T}, Sacrifice Syr Ginger: You gain life equal to its power.
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3032 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/252/syr-ginger-the-meal-ender) · oracle_id `2eb16535-718f-4b88-92bc-96429d796327` · printing: WOE #252 (2023-09-08) · [rulings](https://api.scryfall.com/cards/7fbdba12-1369-41ae-b0e9-c405c0f0a2e5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-09-01* — For Syr Ginger's last ability, use its power from when it was last on the battlefield to determine how much life is gained. If that power was 0 or less, you gain no life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/252/syr-ginger-the-meal-ender) · oracle_id `2eb16535-718f-4b88-92bc-96429d796327` · printing: WOE #252 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Syr Gwyn, Hero of Ashvale
 
@@ -1189,7 +1238,10 @@
   > When Syr Vondam dies or is put into exile while its power is 4 or greater, destroy up to one target nonland permanent.
 - **Keywords:** Vigilance, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4537 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/231/syr-vondam-sunstar-exemplar) · oracle_id `9e597063-c077-4236-a9e4-b0721b24677f` · printing: EOE #231 (2025-08-01) · [rulings](https://api.scryfall.com/cards/49554198-549b-4066-86ce-77a03fda0a2f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-07-25* — If Syr Vondam, Sunstar Exemplar leaves the battlefield at the same time as one or more other creatures you control die or are put into exile, its first triggered ability will trigger for each of those other creatures.
+  - *2025-07-25* — Syr Vondam, Sunstar Exemplar’s first triggered ability refers to creatures you control being put into exile from the battlefield. It won’t trigger if a creature card is put into exile from another zone.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/231/syr-vondam-sunstar-exemplar) · oracle_id `9e597063-c077-4236-a9e4-b0721b24677f` · printing: EOE #231 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Syr Vondam, the Lucent
 
@@ -1224,7 +1276,9 @@
 - **Flavor text** (CMM printing):
   > *"Through every verdant field, every bough that hangs heavy with fruit, Karametra shows her love."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1022 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/938/sythis-harvests-hand) · oracle_id `0fc64fd6-f057-4056-9dca-47accb7ff036` · printing: CMM #938 (2023-08-04) · [rulings](https://api.scryfall.com/cards/89511ab5-8ea6-4f07-a80b-c1ec7e89924e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-06-18* — Sythis, Harvest Hand's ability doesn't trigger when it is cast.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/938/sythis-harvests-hand) · oracle_id `0fc64fd6-f057-4056-9dca-47accb7ff036` · printing: CMM #938 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Syx, Robot Overlord
 

@@ -146,7 +146,29 @@
   > When you unlock this door, you may cast spells from your graveyard this turn, and if a card would be put into your graveyard from anywhere this turn, exile it instead.
   > (You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1826 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/205/walk-in-closet-forgotten-cellar) · oracle_id `52e77cc3-f8e9-4a20-811b-fe1e46a96ad7` · printing: DSK #205 (2024-09-27) · [rulings](https://api.scryfall.com/cards/0adcd4e5-d542-4293-8774-ace2305ef820/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (21):
+  - *2024-09-20* — An ability that triggers "when you unlock this door" triggers when that door becomes unlocked. This can happen one of two ways: (1) the door becomes unlocked on the battlefield or (2) the door becomes unlocked as the Room enters the battlefield because you cast the corresponding half. In the latter case, since the door becoming unlocked is what causes the ability to trigger, effects that cause abilities that trigger when a permanent enters to trigger an additional time (such as that of Panharmonicon) won't apply.
+  - *2024-09-20* — An ability that triggers "whenever you fully unlock a Room" triggers when a door becomes unlocked and the other door of that Room is already unlocked, or when both doors of that Room become unlocked simultaneously.
+  - *2024-09-20* — Any time you have priority during a main phase of your turn and the stack is empty, you may pay the mana cost of a locked door (also called its "unlock cost"). That door becomes unlocked. This is a special action. It doesn't use the stack and can't be responded to.
+  - *2024-09-20* — Cards that would be put into your graveyard on the turn Forgotten Cellar's ability resolves are exiled even if you didn't play them this turn.
+  - *2024-09-20* — Each Room card has two names. If an effect instructs you to choose a card name, you may choose one of those names, but not both.
+  - *2024-09-20* — Each Room card is a single card. For example, if you discard a Room card, you've discarded one card, not two. If an effect counts the number of enchantment cards in your graveyard, Bottomless Pool // Locker Room counts once, not twice.
+  - *2024-09-20* — Forgotten Cellar's ability won't stop tokens from going to your graveyard as normal (and ceasing to exist shortly thereafter, also as normal).
+  - *2024-09-20* — If a Room enters from any zone other than the stack, it will enter with both halves locked.
+  - *2024-09-20* — If a spell or ability would create a copy of a Room spell on the stack, the copy retains the choice of which door was cast but also retains the full characteristics of the spell. The characteristics of the door that wasn't cast are still ignored while the copy is on the stack, and when the copy resolves, the token it becomes will enter with the appropriate door unlocked.
+  - *2024-09-20* — If an effect allows you to cast a spell with certain characteristics, consider only the characteristics of the door you're casting. For example, if an effect allows you to cast a permanent spell with mana value 3 or less from among cards in your graveyard, you could cast Bottomless Pool this way, but not Locker Room.
+  - *2024-09-20* — If neither door of a Room is unlocked, it's a Room enchantment with no name and no abilities.
+  - *2024-09-20* — Room cards have two card faces with a shared type line on a single card. The characteristics of the door you didn't cast are ignored while the spell is on the stack.
+  - *2024-09-20* — Some abilities allow you to lock a door of a Room you control. You can't choose to lock a door that's already locked with such an ability. If such an ability requires a target, you can target a Room even if both of its doors are locked, but the ability won't do anything when it resolves.
+  - *2024-09-20* — Some abilities allow you to unlock a door of a Room you control. You can't choose to unlock a door that's already unlocked with such an ability. If such an ability requires a target, you can target a Room even if both of its doors are unlocked, but the ability won't do anything when it resolves.
+  - *2024-09-20* — Some doors have abilities that trigger whenever you unlock that door and require one or more targets. You can unlock that door even if there would be insufficient legal targets for that triggered ability. The triggered ability won't go on the stack.
+  - *2024-09-20* — To cast a Room spell, choose a half (or "door") to cast. There's no way to cast both halves of a Room card. When the Room spell resolves, the corresponding door becomes unlocked as the Room enters.
+  - *2024-09-20* — Walk-In Closet's ability doesn't allow you to activate abilities (such as cycling) of land cards in your graveyard.
+  - *2024-09-20* — Walk-In Closet's ability doesn't change the times when you can play those land cards. You can still play only one land per turn, and only during your main phase when you have priority and the stack is empty.
+  - *2024-09-20* — While in any zone other than the stack or the battlefield, a Room card's characteristics are a combination of its two doors. For example, Bottomless Pool // Locker Room has a mana value of 6 while it's in your library. If an effect allows you to search your library for a card with mana value 4 or less, you can't find Bottomless Pool // Locker Room.
+  - *2024-09-20* — While on the battlefield, a Room's characteristics are a combination of the characteristics of its unlocked doors. For example, if Bottomless Pool // Locker Room is on the battlefield with both doors unlocked, its names are Bottomless Pool and Locker Room, its mana value is 6, it's a Room Enchantment, and it has the abilities in each door's text box.
+  - *2024-09-20* — You pay all costs and follow all timing rules for spells cast from your graveyard with the permission granted by Forgotten Cellar's ability. You may pay alternative costs, such as impending costs, rather than the spell's mana cost. You may pay optional additional costs, such as kicker, and if there are any mandatory additional costs, those must be paid to cast the spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/205/walk-in-closet-forgotten-cellar) · oracle_id `52e77cc3-f8e9-4a20-811b-fe1e46a96ad7` · printing: DSK #205 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Walking Archive
 
@@ -172,7 +194,10 @@
 - **Flavor text** (WWK printing):
   > *Crafted by lullmages and bound to the land, it alters itself to match the tumultuous terrain.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2939 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/wwk/131/walking-atlas) · oracle_id `855a4837-7fc8-4b97-afbd-daa88e322c89` · printing: WWK #131 (2010-02-05) · [rulings](https://api.scryfall.com/cards/53515042-e729-4a7c-ac3b-36ef70dbbe8d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2010-03-01* — Putting a land onto the battlefield as a result of Walking Atlas’s ability isn’t the same as playing a land. You may do put a land onto the battlefield even if it’s an opponent’s turn or you’ve played a land this turn. Similarly, putting a land onto the battlefield during your turn doesn’t preclude you from playing a land later in that turn.
+  - *2010-03-01* — The word “artifact” was inadvertently omitted from Walking Atlas’s type line. The card has received errata to correct this omission; it is an artifact creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/wwk/131/walking-atlas) · oracle_id `855a4837-7fc8-4b97-afbd-daa88e322c89` · printing: WWK #131 (2010-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Walking Ballista
 
@@ -199,7 +224,9 @@
   > {2}: Until end of turn, target creature with defender gains haste, can attack as though it didn't have defender, and assigns combat damage equal to its toughness rather than its power. Activate only as a sorcery.
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4436 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/334/walking-bulwark) · oracle_id `8ad0d89b-beef-40f7-8ce8-65589e3970be` · printing: TDC #334 (2025-04-11) · [rulings](https://api.scryfall.com/cards/33e94caa-30cb-4f38-b240-7893dd2dc94d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-09-09* — Walking Bulwark’s last ability doesn’t actually change any creature’s power. It changes only the amount of combat damage it assigns. All other rules and effects that check power or toughness use the real values. For example, since having two creatures fight doesn’t result in combat damage, an effect that causes the affected creature to fight another creature will still use its power to determine how much damage is dealt.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/334/walking-bulwark) · oracle_id `8ad0d89b-beef-40f7-8ce8-65589e3970be` · printing: TDC #334 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Walking Corpse
 
@@ -315,6 +342,7 @@
   > Target player takes an extra turn after this one.
 - **Keywords:** Buyback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6424 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/98/walk-the-aeons) · oracle_id `0ec36301-6282-49d4-85ea-6a46708e2f60` · printing: TSR #98 (2021-03-19) · [rulings](https://api.scryfall.com/cards/794d09ae-a995-482f-848e-7f99477bd6f3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Walk the Plank
@@ -376,6 +404,7 @@
   > *Blood is thicker than mortar.*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5957 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mrd/82/wall-of-blood) · oracle_id `b26c3563-d289-4ca3-8736-9d89e191a840` · printing: MRD #82 (2003-10-02) · [rulings](https://api.scryfall.com/cards/17320043-f81c-4e14-b9ba-c1309972c22b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Blossoms
@@ -390,6 +419,7 @@
   > *Each flower identical, every leaf and petal disturbingly exact.*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2212 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/277/wall-of-blossoms) · oracle_id `ef4d5fb3-70a3-433d-a9d3-18b2beb8d79f` · printing: TDC #277 (2025-04-11) · [rulings](https://api.scryfall.com/cards/df901113-e273-4fe0-a264-8e9e26e70905/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Bone
@@ -476,6 +506,7 @@
   > *It provides what every discerning mage requires—time to think.*
 - **Keywords:** Flying, Shroud, Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4343 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/939/wall-of-denial) · oracle_id `9cc092f9-e8f0-40ea-847d-813b70f889db` · printing: CMM #939 (2023-08-04) · [rulings](https://api.scryfall.com/cards/049ce45b-ab07-4bce-bb4a-83f5720b6ee7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Diffusion
@@ -629,7 +660,10 @@
   > *—Lumi, goatherd*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4922 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mm3/56/wall-of-frost) · oracle_id `741e4f32-0587-40fa-a73d-5bcf66b52348` · printing: MM3 #56 (2017-03-17) · [rulings](https://api.scryfall.com/cards/b5ab28ee-f70d-441b-bb4e-8e781f26e2bc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-07-18* — If the creature isn’t tapped during its controller’s next untap step (perhaps because it was untapped by a spell), Wall of Frost’s ability has no effect at that time. It won’t try to keep the creature tapped on subsequent turns.
+  - *2014-07-18* — Wall of Frost’s ability tracks the creature, not the creature’s controller. That is, if the creature changes controllers before its first controller’s next untap step, then it won’t untap during its new controller’s next untap step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mm3/56/wall-of-frost) · oracle_id `741e4f32-0587-40fa-a73d-5bcf66b52348` · printing: MM3 #56 (2017-03-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Glare
 
@@ -643,6 +677,7 @@
   > *The blinding barrier served Benalia better than a hundred shields.*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8149 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/uds/25/wall-of-glare) · oracle_id `a59897cb-7ead-494a-a1d0-c9baf79bf18b` · printing: UDS #25 (1999-06-07) · [rulings](https://api.scryfall.com/cards/5f159193-fcf8-437c-b14a-06718a446a5c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Granite
@@ -715,7 +750,9 @@
   > *Urza saw the wall and realized that even if he tore every Phyrexian to pieces, they would still resist him.*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6029 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/240/wall-of-junk) · oracle_id `22b0de2d-47a8-4269-ba21-4bc2b4b10b40` · printing: DMR #240 (2023-01-13) · [rulings](https://api.scryfall.com/cards/17f19832-0c66-4f06-8110-ce4b2a3d8346/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — It only returns to owner's hand if it is still on the battlefield at end of combat.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/240/wall-of-junk) · oracle_id `22b0de2d-47a8-4269-ba21-4bc2b4b10b40` · printing: DMR #240 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Kelp
 
@@ -854,6 +891,7 @@
   > *—Expedition journal entry*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1108 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/138/wall-of-omens) · oracle_id `5f601f48-d24b-4883-9fde-b3f620e7c9ea` · printing: TDC #138 (2025-04-11) · [rulings](https://api.scryfall.com/cards/3d134bb2-17ec-4e65-976e-f06fa983f3fb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of One Thousand Cuts
@@ -965,7 +1003,9 @@
   > *The lives of elves are long, but their memories are longer. Even after death, they do not desert their homes.*
 - **Keywords:** Flying, Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4336 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/139/wall-of-reverence) · oracle_id `0810983f-818a-43e6-a7b5-ebe0bc8b9f6a` · printing: TDC #139 (2025-04-11) · [rulings](https://api.scryfall.com/cards/f23e6f3f-4776-4015-8ee8-8e679ec7ce02/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-12-07* — If an effect changes a creature’s power “until end of turn,” it will still have the modified power during your end step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/139/wall-of-reverence) · oracle_id `0810983f-818a-43e6-a7b5-ebe0bc8b9f6a` · printing: TDC #139 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Roots
 
@@ -980,7 +1020,9 @@
   > *—Nissa Revane*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3610 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/278/wall-of-roots) · oracle_id `3a21a6ae-b2f2-4f0c-acfd-5f3e8d63fd2f` · printing: TDC #278 (2025-04-11) · [rulings](https://api.scryfall.com/cards/e4e7d3b7-9b0c-463d-975c-ef81d7fd8dad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-11-17* — If you must sacrifice a creature to pay a casting or activation cost that also includes mana, such as that of Bubbling Cauldron's abilities, you may put a -0/-1 counter on Wall of Roots to make its toughness 0 and then sacrifice it to pay that cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/278/wall-of-roots) · oracle_id `3a21a6ae-b2f2-4f0c-acfd-5f3e8d63fd2f` · printing: TDC #278 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Runes
 
@@ -992,6 +1034,7 @@
   > When this creature enters, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
 - **Keywords:** Defender, Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7774 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m21/85/wall-of-runes) · oracle_id `35dfe1c7-48ab-436f-9a6e-44835ea01cf9` · printing: M21 #85 (2020-07-03) · [rulings](https://api.scryfall.com/cards/6ac0f66a-213f-463e-8ebb-35ff5940ea06/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Shadows
@@ -1017,7 +1060,10 @@
   > Cumulative upkeep—An opponent gains 1 life. (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)
 - **Keywords:** Cumulative upkeep, Flying, Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8778 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/csp/23/wall-of-shards) · oracle_id `8fab68ad-169d-46d3-93c4-5bdee4eea2ce` · printing: CSP #23 (2006-07-21) · [rulings](https://api.scryfall.com/cards/884ee8d8-4c0d-4e44-8321-bccd18195693/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2006-07-15* — When paying Wall of Shards’ cumulative upkeep, you may choose a different opponent for each age counter, or you can choose the same opponent multiple times.
+  - *2008-10-01* — Paying cumulative upkeep is always optional. If it’s not paid, the permanent with cumulative upkeep is sacrificed. Partial payments of the total cumulative upkeep cost can’t be made. For example, if a permanent with “cumulative upkeep {1}” has three age counters on it when its cumulative upkeep ability triggers, it gets another age counter and then its controller chooses to either pay {4} or sacrifice the permanent.
+- **Source flags:** [Scryfall](https://scryfall.com/card/csp/23/wall-of-shards) · oracle_id `8fab68ad-169d-46d3-93c4-5bdee4eea2ce` · printing: CSP #23 (2006-07-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Shields
 
@@ -1072,7 +1118,19 @@
 - **Oracle text:**
   > You may have this creature enter as a copy of any creature on the battlefield, except it's a Wall in addition to its other types and has defender. When you do, tap the copied creature and it doesn't untap during its controller's untap step for as long as you control this creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5981 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c19/13/wall-of-stolen-identity) · oracle_id `92c58354-e106-402f-8348-6c7cdb67c6df` · printing: C19 #13 (2019-08-23) · [rulings](https://api.scryfall.com/cards/359cc32c-ba90-43e0-b584-09efd321a672/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2019-08-23* — Any enters-the-battlefield abilities of the copied creature will trigger when Wall of Stolen Identity enters the battlefield. Any “as [this creature] enters the battlefield” or “[this creature] enters the battlefield with” abilities of the chosen creature will also work.
+  - *2019-08-23* — If Wall of Stolen Identity copies a creature that’s normally not a creature (such as Mutavault), the copied permanent will be tapped and will remain tapped even when it’s no longer a creature for as long as you control Wall of Stolen Identity.
+  - *2019-08-23* — If Wall of Stolen Identity leaves the battlefield before its triggered ability has resolved, the copied creature will be tapped, but it will untap as normal.
+  - *2019-08-23* — If Wall of Stolen Identity somehow enters the battlefield at the same time as another creature, it can’t become a copy of that creature. You may choose only a creature that’s already on the battlefield.
+  - *2019-08-23* — If another player gains control of Wall of Stolen Identity, its effect keeping the creature tapped expires. It won’t keep the creature from untapping anymore, even if you later regain control of Wall of Stolen Identity.
+  - *2019-08-23* — If the chosen creature is a token, Wall of Stolen Identity copies the original characteristics of that token as stated by the effect that created the token. Wall of Stolen Identity doesn’t become a token in this case.
+  - *2019-08-23* — If the chosen creature is copying something else (for example, if the chosen creature is another Wall of Stolen Identity), then Wall of Stolen Identity enters the battlefield as whatever the chosen creature copied.
+  - *2019-08-23* — If the copied creature has {X} in its mana cost, X is considered to be 0.
+  - *2019-08-23* — Once Wall of Stolen Identity has entered the battlefield and stolen a creature’s identity, players can take actions before the creature is tapped.
+  - *2019-08-23* — Wall of Stolen Identity can copy a tapped creature. That creature just remains tapped and doesn’t untap during its controller’s next untap step for as long as you control Wall of Stolen Identity.
+  - *2019-08-23* — Wall of Stolen Identity copies exactly what was printed on the original creature (unless that creature is copying something else or is a token; see below). It doesn’t copy whether that creature is tapped or untapped, whether it has any counters on it or any Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c19/13/wall-of-stolen-identity) · oracle_id `92c58354-e106-402f-8348-6c7cdb67c6df` · printing: C19 #13 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Stone
 
@@ -1114,6 +1172,7 @@
   > *Rootlike fibers travel far from Mirrodin's metallic forests, emerging from the crust to drink in the mana-infused sunlight.*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7104 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/som/222/wall-of-tanglecord) · oracle_id `423bebcc-8fa0-49c4-aa22-728bf51a535b` · printing: SOM #222 (2010-10-01) · [rulings](https://api.scryfall.com/cards/792e2aed-ce6e-4fa1-a31c-a4574e5cf1f5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Tears
@@ -1275,4 +1334,9 @@
 - **Flavor text** (DSK printing):
   > *The melody was all in her head, but she'd always preferred to dance alone.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6584 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/165/waltz-of-rage) · oracle_id `78df47c3-b771-4377-8963-ae3065fdcf8a` · printing: DSK #165 (2024-09-27) · [rulings](https://api.scryfall.com/cards/abf17d8b-12bc-4122-865d-50cf91f04f67/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-09-20* — If the target creature is an illegal target when Waltz of Rage tries to resolve, it won't resolve and none of its effects will happen. No damage will be dealt, and the delayed triggered ability won't trigger whenever a creature you control dies this turn.
+  - *2024-09-20* — The creature is the source of the damage, not Waltz of Rage.
+  - *2024-09-20* — Use the power of the target creature as Waltz of Rage resolves to determine how much damage that creature deals to each other creature.
+  - *2024-09-20* — You pay all costs and follow all timing rules for cards played with the permission granted by Waltz of Rage's delayed triggered ability. For example, if one of the exiled cards is a land card, you may play it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/165/waltz-of-rage) · oracle_id `78df47c3-b771-4377-8963-ae3065fdcf8a` · printing: DSK #165 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

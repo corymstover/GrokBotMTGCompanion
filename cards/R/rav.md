@@ -209,7 +209,12 @@
   > Foretell {U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)
 - **Keywords:** Foretell
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2033 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/167/ravenform) · oracle_id `d3d61a6a-7870-44df-92e5-513dac2c2c3e` · printing: LCC #167 (2023-11-17) · [rulings](https://api.scryfall.com/cards/f2d5e87b-1ee8-47db-9bc3-f5becfe79b37/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-02-05* — Because exiling a card with foretell from your hand is a special action, you can do so any time you have priority during your turn, including in response to spells and abilities. Once you announce you're taking the action, no other player can respond by trying to remove the card from your hand.
+  - *2021-02-05* — Casting a foretold card from exile follows the timing rules for that card. If you foretell an instant card, you can cast it as soon as the next player's turn. In most cases, if you foretell a card that isn't an instant (or doesn't have flash), you'll have to wait until your next turn to cast it.
+  - *2021-02-05* — If the target artifact or creature is an illegal target as Ravenform tries to resolve, it won't resolve and none of its effects will happen. No player will create a Bird creature token.
+  - *2021-02-05* — If you're casting a foretold card from exile for its foretell cost, you can't choose to cast it for any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/167/ravenform) · oracle_id `d3d61a6a-7870-44df-92e5-513dac2c2c3e` · printing: LCC #167 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raven Guild Initiate
 
@@ -275,7 +280,18 @@
   > If a creature an opponent controls would die, instead exile it and put a hit counter on it.
   > Whenever this creature attacks, if you've completed a dungeon, defending player loses 1 life for each card they own in exile with a hit counter on it.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5932 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/142/ravenloft-adventurer) · oracle_id `1822f924-51ba-4f81-92cc-6c5d741a33f9` · printing: CLB #142 (2022-06-10) · [rulings](https://api.scryfall.com/cards/a5e27c36-d883-4681-8430-b4d0ad7f1df0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2022-06-10* — A player who currently has the initiative may take the initiative again. This causes that player to venture into Undercity again, but does not cause them to have multiple initiative designations.
+  - *2022-06-10* — If the player with the initiative leaves the game, the active player takes the initiative at the same time that player leaves the game. If the active player is leaving the game or if there is no active player, the next player in turn order takes the initiative.
+  - *2022-06-10* — If you aren’t in a dungeon when instructed to venture into Undercity, you will put Undercity into the command zone and move your venture marker to Secret Entrance (the first room).
+  - *2022-06-10* — If you’re already in a dungeon when instructed to venture into Undercity, you move to the next room of that dungeon. If you are already in the last room, you will complete that dungeon and start Undercity. This is true whether you’re already in Undercity or any other dungeon.
+  - *2022-06-10* — In a Two-Headed Giant game, if both players on a team deal combat damage to the player that has the initiative at the same time, the player with the initiative will choose the order of the triggered abilities. Then, as those abilities resolve, one team member takes the initiative (and ventures into Undercity) and then the other team member does the same. The last player to take the initiative keeps it until the initiative changes again.
+  - *2022-06-10* — Only one player can have the initiative at a time. As one player takes the initiative, any other player that had the initiative ceases to have it.
+  - *2022-06-10* — Similarly, when instructed to venture into Undercity, you can’t start a dungeon that isn’t Undercity.
+  - *2022-06-10* — The initiative is a designation a player can have. A player with the initiative designation is said to “have the initiative.” The initiative carries two inherent rules. First, whenever a player takes the initiative, and at the beginning of the upkeep of the player with the initiative, that player ventures into Undercity. Second, whenever one or more creatures a player controls deal combat damage to the player who has the initiative, the first player takes the initiative. Also, some abilities will refer to having the initiative and provide other benefits.
+  - *2022-06-10* — There is no initiative in a game until an effect instructs a player to take the initiative. Once a player is instructed to do this, they have the initiative until another player takes the initiative.
+  - *2022-06-10* — You cannot venture into Undercity unless instructed to do so, either because you have the initiative at the beginning of your upkeep or because you take the initiative. Notably, if you aren’t in a dungeon and an effect instructs you to venture into the dungeon (not venture into Undercity), you can’t start Undercity.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/142/ravenloft-adventurer) · oracle_id `1822f924-51ba-4f81-92cc-6c5d741a33f9` · printing: CLB #142 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raven of Fell Omens
 
@@ -301,6 +317,7 @@
 - **Flavor text** (FDN printing):
   > *Each of its owners' final moments is remembered within the roiling stone.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6897 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/131/ravenous-amulet) · oracle_id `87424e20-00ab-4f6d-a905-1955897b358e` · printing: FDN #131 (2024-11-15) · [rulings](https://api.scryfall.com/cards/80cadee5-6f26-4440-ad31-a8e573a90436/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ravenous Baboons
@@ -351,6 +368,7 @@
 - **Flavor text** (MKC printing):
   > *Opening Orazca unleashed more horrors than just the Immortal Sun.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1144 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/136/ravenous-chupacabra) · oracle_id `7b459306-149b-4f43-abc1-2dd70c748c0e` · printing: MKC #136 (2024-02-09) · [rulings](https://api.scryfall.com/cards/a4dfbac0-1849-41c5-853a-1fee108d0b01/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ravenous Daggertooth
@@ -510,6 +528,7 @@
   > *"The mousers have a new command: to consume everything here . . . all of you will be destroyed!"*
   > *—Baxter Stockman*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7203 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/106/ravenous-robots) · oracle_id `45873747-f2a4-4d83-9492-bfc97df7b605` · printing: TMT #106 (2026-03-06) · [rulings](https://api.scryfall.com/cards/3b303ea3-9f4d-4c28-9446-285a23f841a0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ravenous Rotbelly
@@ -522,7 +541,10 @@
 - **Flavor text** (MIC printing):
   > *The patrol found the graf empty save for a few well-chewed bones.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7955 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mic/22/ravenous-rotbelly) · oracle_id `8f0738ce-1f07-422c-9895-8ac3c65f9054` · printing: MIC #22 (2021-09-24) · [rulings](https://api.scryfall.com/cards/d58d8968-825b-453d-b109-8f975cd99322/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-09-24* — After you sacrifice one or more Zombies, a second ability triggers. Players may respond to it before they have to sacrifice creatures.
+  - *2021-09-24* — As the reflexive triggered ability resolves, first the next opponent in turn order (or, if it's an opponent's turn, the opponent whose turn it is) chooses the creatures they plan to sacrifice. Then each other opponent in turn order does the same. Finally all chosen creatures are sacrificed at the same time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mic/22/ravenous-rotbelly) · oracle_id `8f0738ce-1f07-422c-9895-8ac3c65f9054` · printing: MIC #22 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ravenous Sailback
 
@@ -577,6 +599,7 @@
   > *"Nope, no monsters in the forest. Nothing in there but squirrels."*
   > *—Joskun, An-Havva constable*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3125 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/211/ravenous-squirrel) · oracle_id `8fb48d65-406b-4231-83ea-9cf3bb8dff76` · printing: MH2 #211 (2021-06-18) · [rulings](https://api.scryfall.com/cards/9f44a15c-1bb4-4fb8-88a0-e4d3f2dee1b4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ravenous Trap
@@ -599,7 +622,11 @@
   > Whenever this creature attacks, it deals damage equal to its power to up to one other target creature. Excess damage is dealt to that creature's controller instead.
 - **Keywords:** Devour
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5014 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mar/93/ravenous-tyrannosaurus) · oracle_id `9cfac390-4638-4654-8b50-65c0f0886b18` · printing: MAR #93 (2026-06-26) · [rulings](https://api.scryfall.com/cards/d20ce47d-f08f-475d-a8c3-8a4ebeb0b4f2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-11-10* — Excess damage is calculated in a way similar to the way trample is handled. Start with the amount of damage being dealt to the creature and determine what is lethal. Usually, this is the creature's toughness minus the damage already marked on it, ignoring any replacement or prevention effects that will modify this damage. Also ignore whether the creature won't actually be destroyed by this damage, perhaps because it has indestructible.
+  - *2023-11-10* — Once you've determined how much damage is excess, Ravenous Tyrannosaurus simultaneously deals damage to the target creature and its controller. This damage may be modified by replacement or prevention effects.
+  - *2023-11-10* — Ravenous Tyrannosaurus can't devour creatures entering the battlefield at the same time as it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mar/93/ravenous-tyrannosaurus) · oracle_id `9cfac390-4638-4654-8b50-65c0f0886b18` · printing: MAR #93 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ravenous Vampire
 
@@ -714,7 +741,9 @@
 - **Flavor text** (WAR printing):
   > *The heart of Ravnica disappeared before anyone could strike a blow in its defense.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4789 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/war/28/ravnica-at-war) · oracle_id `0012bc78-e69d-4a67-a302-e5fe0dfd4407` · printing: WAR #28 (2019-05-03) · [rulings](https://api.scryfall.com/cards/e0f83824-43c6-4101-88fd-9109958b23e2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-05-03* — A land normally has no color, even if it can produce multiple colors of mana.
+- **Source flags:** [Scryfall](https://scryfall.com/card/war/28/ravnica-at-war) · oracle_id `0012bc78-e69d-4a67-a302-e5fe0dfd4407` · printing: WAR #28 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ravos, Soultender
 
@@ -728,4 +757,13 @@
   > Partner (You can have two commanders if both have partner.)
 - **Keywords:** Flying, Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9622 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
-- **Source flags:** [Scryfall](https://scryfall.com/card/c16/39/ravos-soultender) · oracle_id `7880576b-8ad9-4382-97c5-7a631106a35e` · printing: C16 #39 (2016-11-11) · [rulings](https://api.scryfall.com/cards/f2725635-8f90-4d17-9568-51218ba663c1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2020-11-10* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2020-11-10* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to creatures you control may become lethal if Ravos leaves the battlefield during that turn.
+  - *2020-11-10* — Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+  - *2020-11-10* — If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+  - *2020-11-10* — If your Commander deck has two commanders, you can only include cards whose own color identities are also found in your commanders' combined color identities. If Falthis and Kediss are your commanders, your deck may contain cards with black and/or red in their color identity, but not cards with green, white, or blue.
+  - *2020-11-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from any one of them, not from both of them combined.
+  - *2020-11-10* — To have two commanders, both must have the partner ability as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
+  - *2020-11-10* — You can choose two commanders with partner that are the same color or colors. In Commander Draft, you can even choose two of the same commander with partner if you drafted them. If you do this, make sure you keep the number of times you've cast each from the command zone clear for "commander tax" purposes.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c16/39/ravos-soultender) · oracle_id `7880576b-8ad9-4382-97c5-7a631106a35e` · printing: C16 #39 (2016-11-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

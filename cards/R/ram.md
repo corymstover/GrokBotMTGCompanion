@@ -105,7 +105,10 @@
   > Whenever one or more Pirates you control deal combat damage to a player, exile the top card of that player's library. You may cast that card for as long as it remains exiled.
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5495 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/285/ramirez-depietro-pillager) · oracle_id `a3b8690e-ac47-444f-924e-ab2a12a85431` · printing: LCC #285 (2023-11-17) · [rulings](https://api.scryfall.com/cards/11a4e199-faa9-4c41-863d-92170c8f20cc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-09-09* — You may not play lands exiled with the last ability.
+  - *2022-09-09* — You must pay all costs and follow all normal timing rules for spells cast with Ramirez DePietro, Pillager's last ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/285/ramirez-depietro-pillager) · oracle_id `a3b8690e-ac47-444f-924e-ab2a12a85431` · printing: LCC #285 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rammas Echor, Ancient Shield
 
@@ -115,7 +118,11 @@
   > Whenever you cast your second spell each turn, draw a card, then create a 0/3 white Wall creature token with defender.
   > At the beginning of combat on your turn, creatures you control with defender gain exalted until end of turn. (Whenever a creature you control attacks alone, it gets +1/+1 until end of turn for each instance of exalted among permanents you control.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4376 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/505/rammas-echor-ancient-shield) · oracle_id `53d58401-c318-47e0-aab0-60001c071dbb` · printing: LTC #505 (2023-11-03) · [rulings](https://api.scryfall.com/cards/558c1fcc-cb01-4031-ada5-4e39d65aee27/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-11-03* — A creature attacks alone if it's the only creature declared as an attacker during the declare attackers step (including creatures controlled by your teammates, if applicable). For example, exalted won't trigger if you attack with multiple creatures and all but one of them are removed from combat.
+  - *2023-11-03* — If Rammas Echor was the second spell you cast in a turn, its first ability won't trigger that turn.
+  - *2023-11-03* — Spells that were cast before Rammas Echor, Ancient Shield entered the battlefield count. If Rammas Echor was the first spell you cast in a turn, the next spell you cast that turn is your second spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/505/rammas-echor-ancient-shield) · oracle_id `53d58401-c318-47e0-aab0-60001c071dbb` · printing: LTC #505 (2023-11-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ramos, Dragon Engine
 
@@ -128,7 +135,12 @@
   > Remove five +1/+1 counters from Ramos: Add {W}{W}{U}{U}{B}{B}{R}{R}{G}{G}. Activate only once each turn.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3162 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/678/ramos-dragon-engine) · oracle_id `3ed41d2d-211b-4013-8562-8c64d54cc43a` · printing: FDN #678 (2024-11-15) · [rulings](https://api.scryfall.com/cards/8f95f753-bbaa-4282-9cd9-f1737136fc9e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-11-08* — If you cast a colorless spell, Ramos's triggered ability triggers, but it won't get any +1/+1 counters.
+  - *2024-11-08* — Ramos's triggered ability counts the number of colors a spell has (from zero to five), not how many colored mana symbols are there in its mana cost or how many colors of mana you spent.
+  - *2024-11-08* — Ramos's triggered ability doesn't trigger until you've finished casting a spell, including paying all of its costs. If Ramos has fewer than five +1/+1 counters on it, there's no way to add counters with a spell and pay for that spell with the newly-added counters.
+  - *2024-11-08* — Ramos's triggered ability resolves before the spell that caused it to trigger. The ability will resolve even if that spell is countered or otherwise leaves the stack without resolving. In that case, use its last known information to determine what colors it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/678/ramos-dragon-engine) · oracle_id `3ed41d2d-211b-4013-8562-8c64d54cc43a` · printing: FDN #678 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ramosian Captain
 
@@ -237,7 +249,10 @@
 - **Flavor text** (RNA printing):
   > *"Rage! Rage until the whole world burns!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7683 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rna/134/rampage-of-the-clans) · oracle_id `5dc34e93-97e3-434b-9f12-f45c6d556f13` · printing: RNA #134 (2019-01-25) · [rulings](https://api.scryfall.com/cards/28ebab7d-d03d-4473-aa9b-485aebb66433/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-01-25* — All of the artifacts and enchantments that are destroyed leave the battlefield before any Centaurs are created, and their abilities can’t affect or trigger on these tokens entering the battlefield.
+  - *2019-01-25* — If a permanent has indestructible, it isn’t destroyed this way and its controller won’t create a Centaur token for it. If it is destroyed but put into a zone other than a graveyard, its controller does create a Centaur token for it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rna/134/rampage-of-the-clans) · oracle_id `5dc34e93-97e3-434b-9f12-f45c6d556f13` · printing: RNA #134 (2019-01-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rampage of the Valkyries
 
@@ -249,7 +264,10 @@
 - **Flavor text** (KHM printing):
   > *"This is a foul place. Cleanse it."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9707 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/393/rampage-of-the-valkyries) · oracle_id `49039519-62db-4605-b600-cef6f34c893f` · printing: KHM #393 (2021-02-05) · [rulings](https://api.scryfall.com/cards/1e928b7c-ca30-4e2d-adf7-965f111c8bf1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-02-05* — As the last ability resolves, if it’s not your turn, the first player to choose a creature they control is the player whose turn it is. If it is your turn, the next player in turn order chooses first. In either case, each other player in turn order then chooses a creature they control, knowing the choices made before their choice. Then all chosen creatures are sacrificed at the same time.
+  - *2021-02-05* — The last ability of Rampage of the Valkyries will trigger whenever any Angel you control dies, not just the one created by the first ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/393/rampage-of-the-valkyries) · oracle_id `49039519-62db-4605-b600-cef6f34c893f` · printing: KHM #393 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rampaging Aetherhood
 
@@ -261,7 +279,16 @@
   > At the beginning of your upkeep, you get an amount of {E} (energy counters) equal to this creature's power. Then you may pay one or more {E}. If you do, put that many +1/+1 counters on this creature.
 - **Keywords:** Trample, Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8468 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/drc/15/rampaging-aetherhood) · oracle_id `9b1f0780-072a-4fe6-91d8-e546a8aaea20` · printing: DRC #15 (2025-02-14) · [rulings](https://api.scryfall.com/cards/bd923b84-067b-4041-a0f8-e2083e0debe9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2025-02-07* — Energy counters are a kind of counter that a player may have. They’re not associated with any specific permanents.
+  - *2025-02-07* — Energy counters aren’t mana. They don’t go away as steps, phases, and turns end, and effects that add mana “of any type” can’t give you energy counters.
+  - *2025-02-07* — If an effect says you get one or more {E}, you get that many energy counters. To pay one or more {E}, you lose that many energy counters. You can’t pay more energy counters than you have. Any effects that interact with counters a player gets, has, or loses can interact with energy counters.
+  - *2025-02-07* — Keep track of how many energy counters each player has. Potential ways to track this include writing them down on paper or using dice, but any method that is clear and mutually agreeable is fine.
+  - *2025-02-07* — Some spells and abilities say that you “may pay” a certain amount of {E}, then describes an effect that happens “if you do.” In that case, no player may take actions to try to stop the ability’s effect after you make your choice. If the payment is instead followed by the phrase “when you do” followed by an effect, then after you choose to pay {E}, a new triggered ability called a reflexive trigger is put on the stack, and you choose targets for the reflexive trigger (if the effect asks for targets). Players may respond as normal to this new triggered ability. Once that reflexive trigger resolves, the effect will finally occur.
+  - *2025-02-07* — Some spells and abilities say that you “may pay” a certain amount of {E}. You can’t pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
+  - *2025-02-07* — Some spells and abilities which give you {E} or say you “may pay” some amount of {E} require one or more targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won’t resolve. None of its effects will happen, you won’t get any {E} from it, and you won’t get the chance to pay any {E} for its effects even if you want to.
+  - *2025-02-07* — {E} is the energy symbol. It represents one energy counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/drc/15/rampaging-aetherhood) · oracle_id `9b1f0780-072a-4fe6-91d8-e546a8aaea20` · printing: DRC #15 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rampaging Baloths
 
@@ -294,6 +321,7 @@
   > *Not even the tallest tree stands a chance against the underside of a dinosaur's foot.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3978 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/247/rampaging-brontodon) · oracle_id `bfea2229-a1ca-40c1-aaad-5f97add3f079` · printing: LCC #247 (2023-11-17) · [rulings](https://api.scryfall.com/cards/ea3f71d6-e333-4e50-9545-deb73749413c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rampaging Ceratops
@@ -346,7 +374,12 @@
   > *All raptors are aggressive, but ferocidons seem to enjoy their prey's pain.*
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2632 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/167/rampaging-ferocidon) · oracle_id `3e5ca524-8dd1-4f7f-a467-5210d768b8a1` · printing: DSC #167 (2024-09-27) · [rulings](https://api.scryfall.com/cards/53c38f4e-81ec-45b3-a6cf-06a65b674978/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2017-09-29* — If an effect says to set a player's life total to a number that's higher than the player's current life total while Rampaging Ferocidon is on the battlefield, the player's life total doesn't change.
+  - *2017-09-29* — If another creature enters the battlefield at the same time as Rampaging Ferocidon, its last ability triggers.
+  - *2017-09-29* — Rampaging Ferocidon's last ability triggers whenever any player has a creature enter the battlefield, including you.
+  - *2017-09-29* — Spells and abilities that cause players to gain life still resolve while Rampaging Ferocidon is on the battlefield. No player will gain life, but any other effects of that spell or ability will happen.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/167/rampaging-ferocidon) · oracle_id `3e5ca524-8dd1-4f7f-a467-5210d768b8a1` · printing: DSC #167 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rampaging Geoderm
 
@@ -466,7 +499,12 @@
   > *The Mûmakil of Harad were great beasts, like moving houses, capable of dragging huge towers and engines to war.*
 - **Keywords:** Trample, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9049 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/34/rampaging-war-mammoth) · oracle_id `05e910aa-cf84-468c-8a48-256588cbbf08` · printing: LTC #34 (2023-06-23) · [rulings](https://api.scryfall.com/cards/dc13dbf0-c0ff-4c76-96c6-d3ee88ab2fce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2023-06-16* — Some cards with cycling have an ability that triggers when you cycle them, and some cards have an ability that triggers whenever you cycle any card. These triggered abilities resolve before you draw from the cycling ability.
+  - *2023-06-16* — Triggered abilities from cycling a card and the cycling ability itself aren't spells. Effects that interact with spells (such as Saruman's Trickery) won't affect them.
+  - *2023-06-16* — You can choose 0 as the value of X in Rampaging War Mammoth's cycling cost. In that case, its triggered ability won't have any targets and won't destroy any artifacts.
+  - *2023-06-16* — You can cycle a card even if it has a triggered ability from cycling that won't have a legal target. This is because the cycling ability and the triggered ability are separate. This also means that if either ability is countered, the other ability will still resolve.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/34/rampaging-war-mammoth) · oracle_id `05e910aa-cf84-468c-8a48-256588cbbf08` · printing: LTC #34 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rampaging Yao Guai
 
@@ -479,7 +517,10 @@
   > When this creature enters, destroy any number of target artifacts and/or enchantments with total mana value X or less.
 - **Keywords:** Vigilance, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2978 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/82/rampaging-yao-guai) · oracle_id `d37e8f75-c7cb-4270-bb2f-0125e972ed15` · printing: PIP #82 (2024-03-08) · [rulings](https://api.scryfall.com/cards/63619236-a27a-4fdd-add6-7a295901f906/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-03-08* — A token that's not a copy of something else normally won't have a mana cost. Anything without a mana cost normally has a mana value of 0.
+  - *2024-03-08* — If a permanent has {X} in its mana cost, X is 0 when determining its mana value.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/82/rampaging-yao-guai) · oracle_id `d37e8f75-c7cb-4270-bb2f-0125e972ed15` · printing: PIP #82 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rampant Elephant
 
@@ -504,7 +545,11 @@
   > Whenever this creature deals combat damage to a player, you may mill that many cards. Put any number of land cards from among them onto the battlefield tapped.
 - **Keywords:** Trample, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5335 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m3c/66/rampant-frogantua) · oracle_id `a08393b5-603b-41c4-aa03-2ae9c74884a7` · printing: M3C #66 (2024-06-14) · [rulings](https://api.scryfall.com/cards/8549b26f-f1fb-42d2-b20d-987e6461d191/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-06-07* — If the number of cards remaining in your library is less than the amount of combat damage dealt to a player by Rampant Frogantua, you can't choose to mill that many cards with Rampant Frogantua's last ability.
+  - *2024-06-07* — Rampant Frogantua's second ability counts every player who has lost, no matter how the player lost the game: due to a state-based action (having 0 or less life, trying to draw a card from an empty library, having 10 or more poison counters), because of a spell or effect that states they lose the game, because your awesome might has left them with no choice other than concession, or for any other reason.
+  - *2024-06-07* — Rampant Frogantua's second ability counts players who lost the game before Rampant Frogantua entered the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m3c/66/rampant-frogantua) · oracle_id `a08393b5-603b-41c4-aa03-2ae9c74884a7` · printing: M3C #66 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rampant Growth
 
@@ -539,7 +584,9 @@
   > This creature enters with two +1/+1 counters on it.
   > When this creature dies, search your library for up to X basic land cards, where X is this creature's power, put them onto the battlefield, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3338 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/nec/28/rampant-rejuvenator) · oracle_id `b5f5d6e3-e72e-40a5-a5c7-410617b6f933` · printing: NEC #28 (2022-02-18) · [rulings](https://api.scryfall.com/cards/16b06b17-f256-428f-9bed-f115af270f27/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-02-18* — Use Rampant Rejuvenator's power as it last existed on the battlefield to determine the value of X for its last ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/nec/28/rampant-rejuvenator) · oracle_id `b5f5d6e3-e72e-40a5-a5c7-410617b6f933` · printing: NEC #28 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rampart Architect
 
@@ -550,6 +597,7 @@
   > Whenever this creature enters or attacks, create a 1/3 white Wall creature token with defender.
   > Whenever a creature you control with defender dies, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5366 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/47/rampart-architect) · oracle_id `b0edba6f-8f54-4dc4-b952-20b57a797d60` · printing: TDC #47 (2025-04-11) · [rulings](https://api.scryfall.com/cards/20f533fc-51d0-49bd-afcc-81b8b3ff9749/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rampart Crawler
@@ -618,7 +666,12 @@
   > *"Why butcher an army when you can slash a single throat for the same result?"*
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5963 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/39/ramses-assassin-lord) · oracle_id `170182ed-af1d-442a-8868-d74a96e17f03` · printing: DMC #39 (2022-09-09) · [rulings](https://api.scryfall.com/cards/9e5f168c-4f56-4d06-bef1-db10fdfbe657/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-09-09* — As long as that player was attacked this turn by an Assassin you controlled, Ramses, Assassin Lord’s last ability triggers when that player loses the game for any reason, not just due to combat damage. This is true even if the Assassin is no longer on the battlefield, no longer under your control, or no longer an Assassin at the time that player loses the game.
+  - *2022-09-09* — For the last ability to trigger, an Assassin you controlled must have attacked the player. Attacking a planeswalker the player controls won’t count.
+  - *2022-09-09* — If you attack an opponent with a non-Assassin creature and that creature becomes an Assassin after attackers were declared, that player was not “attacked” this turn by an Assassin you controlled.
+  - *2022-09-09* — Similarly, if an Assassin enters the battlefield under your control attacking a player, that creature didn’t “attack” and won’t cause this ability to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/39/ramses-assassin-lord) · oracle_id `170182ed-af1d-442a-8868-d74a96e17f03` · printing: DMC #39 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ramses Overdark
 
@@ -640,7 +693,12 @@
   > *"Need a medic! And some stonemasons!"*
   > *—Wyllon, Drannith merchant*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1092 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/314/ram-through) · oracle_id `4b1befff-48fa-47a3-832e-bdaf43495c02` · printing: CMM #314 (2023-08-04) · [rulings](https://api.scryfall.com/cards/44063a90-e4cf-4bcd-a128-792de15371a7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-04-17* — Excess damage caused by a spell or ability is similar to how combat damage from a creature with trample is handled. Start with the amount of damage being dealt to the creature and determine what is “lethal.” This is the creature’s toughness minus the amount of damage that it already has marked on it, but ignoring any replacement or prevention effects that will modify this damage. Also ignore whether the creature has an ability such as indestructible that will result in it not being destroyed by this damage.
+  - *2020-04-17* — If either creature is an illegal target as Ram Through tries to resolve, the creature you control won’t deal damage to any creature or player.
+  - *2020-04-17* — If the target creature you control has deathtouch, 1 damage from it is lethal.
+  - *2020-04-17* — Once you’ve determined how much damage is excess, the creature you control simultaneously deals damage to the creature and to its controller. This damage may be modified by replacement or prevention effects.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/314/ram-through) · oracle_id `4b1befff-48fa-47a3-832e-bdaf43495c02` · printing: CMM #314 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ramunap Excavator
 
@@ -679,4 +737,7 @@
   > {T}, Pay 1 life: Add {R}.
   > {2}{R}{R}, {T}, Sacrifice a Desert: This land deals 2 damage to each opponent.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4015 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/311/ramunap-ruins) · oracle_id `d0d35864-1edc-4af1-9b89-3d7e94908011` · printing: OTC #311 (2024-04-19) · [rulings](https://api.scryfall.com/cards/727beb1f-1445-4398-970c-e31819d54bc6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-04-18* — Desert is a land subtype with no special meaning. It doesn't grant the land an intrinsic mana ability. Other cards may care about which lands are Deserts.
+  - *2017-07-14* — If a Desert has an ability with a cost of "Sacrifice a Desert," you can sacrifice that Desert to pay the cost for its own ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/311/ramunap-ruins) · oracle_id `d0d35864-1edc-4af1-9b89-3d7e94908011` · printing: OTC #311 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

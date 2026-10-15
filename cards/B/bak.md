@@ -23,7 +23,12 @@
   > *"My secret ingredient? Well, I can't tell you that. But here's a hint. It's not love."*
 - **Keywords:** Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6136 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/169/bake-into-a-pie) · oracle_id `1b9ec782-0ba1-41f1-bc39-d3302494ecb3` · printing: FDN #169 (2024-11-15) · [rulings](https://api.scryfall.com/cards/2ab0e660-86a3-4b92-82fa-77dcb5db947d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Some spells and abilities that create Food tokens may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Food tokens.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/169/bake-into-a-pie) · oracle_id `1b9ec782-0ba1-41f1-bc39-d3302494ecb3` · printing: FDN #169 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bakersbane Duo
 
@@ -37,7 +42,14 @@
   > *"I'll take the crust!" chittered the squirrel. "And I'll take the filling!" drooled the raccoon.*
 - **Keywords:** Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9373 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/163/bakersbane-duo) · oracle_id `ecd9a0a4-1dfa-4d91-8339-062e2be4e5d9` · printing: BLB #163 (2024-08-02) · [rulings](https://api.scryfall.com/cards/5309354f-1ff4-4fa9-9141-01ea2f7588ab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-07-26* — A permanent with an ability that triggers whenever you "expend N" will see mana you spent to cast spells the turn it enters, including mana you spent before it entered. For example, if you cast Junkblade Bruiser (a creature with a mana value of 5 and an ability that triggers whenever you expend 4) by paying its full cost of five mana, you'll already have spent four mana on spells before Junkblade Bruiser enters, and therefore its ability that triggers whenever you expend 4 won't be able to trigger at all that turn.
+  - *2024-07-26* — Abilities that trigger whenever you "expend N" only trigger when you reach that specific amount of mana spent on casting spells that turn. This can only happen once per turn. For example, if you've spent three mana on spells so far this turn and you control a permanent with an ability that triggers "whenever you expend 4," that ability will trigger the next time you spend at least one mana to cast a spell this turn. It won't trigger again if you spend another four mana to cast spells later in the turn.
+  - *2024-07-26* — If the cost to cast a spell is increased, decreased, or changed because of additional or alternative costs, expend counts only the mana you actually spent.
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/163/bakersbane-duo) · oracle_id `ecd9a0a4-1dfa-4d91-8339-062e2be4e5d9` · printing: BLB #163 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Baki's Curse
 

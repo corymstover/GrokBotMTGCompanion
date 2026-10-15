@@ -22,7 +22,10 @@
   > Arwen enters with an indestructible counter on her.
   > {1}, Remove an indestructible counter from Arwen: Another target creature gains indestructible until end of turn. Put a +1/+1 counter and a lifelink counter on that creature and a +1/+1 counter and a lifelink counter on Arwen.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5054 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/193/arwen-mortal-queen) · oracle_id `9519a4ea-c4a0-4127-b06a-aac9ffaf7a32` · printing: LTR #193 (2023-06-23) · [rulings](https://api.scryfall.com/cards/547f92d4-cd1d-4ca7-a6e2-6473b4d3c832/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-06-16* — If the target of Arwen's second ability is illegal as it tries to resolve, the ability does nothing. You won't get to put any counters on Arwen.
+  - *2023-06-16* — You remove the indestructible counter from Arwen as a cost to activate its second ability. If Arwen already received 2 damage earlier in the turn, it will be destroyed due to having lethal damage before you get to put a +1/+1 counter on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/193/arwen-mortal-queen) · oracle_id `9519a4ea-c4a0-4127-b06a-aac9ffaf7a32` · printing: LTR #193 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arwen's Gift
 
@@ -35,6 +38,7 @@
   > *"Wear this now in memory of Elfstone and Evenstar with whom your life has been woven!"*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9835 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/39/arwens-gift) · oracle_id `13ac12db-d04b-4211-90df-886e1c597e8f` · printing: LTR #39 (2023-06-23) · [rulings](https://api.scryfall.com/cards/30e1ec49-ad4f-4623-aeeb-dba07d6e6251/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arwen Undómiel
@@ -49,7 +53,9 @@
   > *She was called Undómiel, for she was the Evenstar of her people.*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7532 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/194/arwen-und%C3%B3miel) · oracle_id `5ffbbce1-fe38-40dc-a7c3-2055ae86c6c5` · printing: LTR #194 (2023-06-23) · [rulings](https://api.scryfall.com/cards/c544e301-13b4-4dec-b65c-d54809bb7736/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-06-16* — You finish scrying before choosing a target for Arwen's first ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/194/arwen-und%C3%B3miel) · oracle_id `5ffbbce1-fe38-40dc-a7c3-2055ae86c6c5` · printing: LTR #194 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arwen, Weaver of Hope
 
@@ -61,4 +67,7 @@
 - **Flavor text** (LTC printing):
   > *From afar, Arwen watched over Aragorn, and in hope, she made for him a great and kingly standard.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1868 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/35/arwen-weaver-of-hope) · oracle_id `c0891157-f3dd-4866-866f-fd13e9be9633` · printing: LTC #35 (2023-06-23) · [rulings](https://api.scryfall.com/cards/4d4f4d41-232d-4377-be69-de590b880edb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-06-16* — If Arwen, Weaver of Hope and another creature you control enter the battlefield at the same time, Arwen's ability won't cause that creature to enter with additional +1/+1 counters on it.
+  - *2023-06-16* — To determine how many additional +1/+1 counters a creature enters the battlefield with, use Arwen, Weaver of Hope's toughness as that creature is entering the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/35/arwen-weaver-of-hope) · oracle_id `c0891157-f3dd-4866-866f-fd13e9be9633` · printing: LTC #35 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

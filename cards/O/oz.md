@@ -37,7 +37,15 @@
   > *"Out of the ashes, a new world will be born."*
 - **Keywords:** Haste, Trample, Firebending
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3811 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/235/ozai-the-phoenix-king) · oracle_id `7472af8e-2e93-43b2-bc32-a3741f6d7502` · printing: TLA #235 (2025-11-21) · [rulings](https://api.scryfall.com/cards/a98b1550-4609-4a2f-9371-4afe1cdc613e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2025-10-02* — "Firebending N" is a keyword that represents the ability "Whenever this creature attacks, add N {R}. Until end of combat, you don't lose this mana as steps end."
+  - *2025-10-02* — Any other mana you add during combat will still be lost as normal when moving between steps of combat.
+  - *2025-10-02* — As long as Ozai, the Phoenix King is on the battlefield, you'll keep unspent mana as steps and phases end (although it will become red). This means you can add mana and spend it during a future step, phase, or turn. Once Ozai leaves the battlefield, you have until the end of the current step or phase to use the mana before it disappears.
+  - *2025-10-02* — Firebending abilities aren't mana abilities. They use the stack and can be responded to.
+  - *2025-10-02* — If unspent mana has any restrictions or riders associated with it (for example, if it was produced by White Lotus Hideout), those restrictions or riders will remain associated with that mana when it becomes red.
+  - *2025-10-02* — Mana from firebending abilities isn't lost until you leave combat and go to your second main phase. It can be used at any time during combat, even after combat damage has been dealt.
+  - *2025-10-02* — Multiple instances of firebending on the same creature trigger separately, each granting you the appropriate amount of mana.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/235/ozai-the-phoenix-king) · oracle_id `7472af8e-2e93-43b2-bc32-a3741f6d7502` · printing: TLA #235 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ozolith, the Shattered Spire
 

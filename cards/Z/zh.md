@@ -125,6 +125,7 @@
   > *—Teferi*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2514 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/afc/273/zhalfirin-void) · oracle_id `13aab4fc-4c89-45e6-8275-b074b00d0ee9` · printing: AFC #273 (2021-07-23) · [rulings](https://api.scryfall.com/cards/d481d871-d1e3-439b-bfd5-5b2212f9b0c8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zhang Fei, Fierce Warrior
@@ -264,7 +265,19 @@
 - **Oracle text:**
   > Colorless spells you cast from your hand with mana value 7 or greater have "Cascade, cascade." (When you cast one, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order. Then do it again.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2834 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/704/zhulodok-void-gorger) · oracle_id `ec726c54-987b-48ed-8ffa-ec73a5e35333` · printing: CMM #704 (2023-08-04) · [rulings](https://api.scryfall.com/cards/a015461d-4214-4feb-8b04-519c537759eb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2023-07-28* — A spell's mana value is determined only by its mana cost. Ignore any alternative costs, additional costs, cost increases, or cost reductions.
+  - *2023-07-28* — Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade.
+  - *2023-07-28* — Due to a 2021 rules change to cascade, not only do you stop exiling cards if you exile a nonland card with lesser mana value than the spell with cascade, but the resulting spell you cast must also have lesser mana value. Previously, in cases where a card's mana value differed from the resulting spell, such as with some modal double-faced cards or cards with an Adventure, you could cast a spell with a higher mana value than the exiled card.
+  - *2023-07-28* — Each instance of cascade triggers and resolves separately. The spell you cast due to the first cascade ability will go on the stack on top of the second cascade ability. That spell will resolve before you exile cards for the second cascade ability.
+  - *2023-07-28* — If a spell with cascade is countered, the cascade ability will still resolve normally.
+  - *2023-07-28* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2023-07-28* — If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those to cast the card.
+  - *2023-07-28* — Once you announce that you're casting a spell, players can't take action until you've finished casting it. Causing Zhulodok, Void Gorger to leave the battlefield after you've cast a colorless spell from your hand with mana value 7 or greater won't stop that spell's cascade abilities from resolving.
+  - *2023-07-28* — The mana value of a split card is determined by the combined mana value of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves.
+  - *2023-07-28* — When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled.
+  - *2023-07-28* — You exile the cards face up. All players will be able to see them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/704/zhulodok-void-gorger) · oracle_id `ec726c54-987b-48ed-8ffa-ec73a5e35333` · printing: CMM #704 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zhur-Taa Ancient
 
@@ -276,6 +289,7 @@
 - **Flavor text** (DGM printing):
   > *Many Ravnicans think of nature as orderly groves and elf-tended rot farms. They haven't seen the Gruul wilds.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8330 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dgm/119/zhur-taa-ancient) · oracle_id `6543b60c-12b0-4e69-9074-6a2b468c5234` · printing: DGM #119 (2013-05-03) · [rulings](https://api.scryfall.com/cards/2076308f-0f4e-4b31-9e75-c2965942e7d1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zhur-Taa Druid
@@ -289,7 +303,11 @@
 - **Flavor text** (C16 printing):
   > *"Only the decadent think magic should be pristine and without cost."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4253 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c16/232/zhur-taa-druid) · oracle_id `5979310e-38c8-489f-ab9e-2723af98a3a5` · printing: C16 #232 (2016-11-11) · [rulings](https://api.scryfall.com/cards/b82d8359-4841-478c-851b-13a1a0f94737/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2013-04-15* — If you tap Zhur-Taa Druid for mana during the process of casting a spell or activating an ability, its triggered ability will resolve before that spell or ability.
+  - *2013-04-15* — Zhur-Taa Druid’s last ability doesn’t trigger if it becomes tapped for any other reason. However, if Zhur-Taa Druid gains another mana ability that requires you tap it, its ability will trigger.
+  - *2013-04-15* — Zhur-Taa Druid’s last ability isn’t a mana ability. It uses the stack and can be responded to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c16/232/zhur-taa-druid) · oracle_id `5979310e-38c8-489f-ab9e-2723af98a3a5` · printing: C16 #232 (2016-11-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zhur-Taa Goblin
 

@@ -133,6 +133,7 @@
 - **Flavor text** (RVR printing):
   > *In Rakdos-controlled neighborhoods, everyone is part of the show.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4612 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/180/dreadbore) · oracle_id `d685799f-cc1a-40d6-9df6-d05b8b1f5b13` · printing: RVR #180 (2024-01-12) · [rulings](https://api.scryfall.com/cards/a5134828-5876-4d17-b0bb-f7e80e54c100/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dreadbringer Lampads
@@ -270,7 +271,13 @@
   > Whenever this creature attacks, you may cast target instant or sorcery card with mana value less than or equal to this creature's power from your graveyard without paying its mana cost. If that spell would be put into your graveyard, exile it instead.
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8062 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/war/125/dreadhorde-arcanist) · oracle_id `4c05b382-58ab-4a2d-a81c-408ea273b6b6` · printing: WAR #125 (2019-05-03) · [rulings](https://api.scryfall.com/cards/fd97b3cf-924e-4f77-bb82-0bf19592389f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-03-19* — If Dreadhorde Arcanist leaves the battlefield before its triggered ability resolves, use its power as it last existed on the battlefield to check whether the card is still a legal target.
+  - *2021-03-19* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2021-03-19* — If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those to cast the card.
+  - *2021-03-19* — If you cast the card, you do so as part of the resolution of Dreadhorde Arcanist's triggered ability. You can't wait to cast it later in the turn. Timing permissions based on a card's type are ignored, and the spell will resolve before blockers are declared.
+  - *2021-03-19* — The instant or sorcery card you target must have mana value less than or equal to Dreadhorde Arcanist's power immediately after Dreadhorde Arcanist has attacked. Any other abilities that trigger when creatures you control attack won't have resolved yet.
+- **Source flags:** [Scryfall](https://scryfall.com/card/war/125/dreadhorde-arcanist) · oracle_id `4c05b382-58ab-4a2d-a81c-408ea273b6b6` · printing: WAR #125 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dreadhorde Butcher
 
@@ -294,7 +301,17 @@
   > Whenever a Zombie token you control with power 6 or greater attacks, it gains lifelink until end of turn.
 - **Keywords:** Amass
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1372 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frc/48/dreadhorde-invasion) · oracle_id `01deabbb-af6a-4998-99a7-35b7cfa9ef77` · printing: FRC #48 (2026-10-02) · [rulings](https://api.scryfall.com/cards/9bbfad2d-a3b5-4119-aea4-0793b7a9da88/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2019-05-03* — If the token's power changes later in the turn after it has attacked, including while Dreadhorde Invasion's second ability is on the stack, it won't cause the token to gain or lose lifelink.
+  - *2019-05-03* — The power of the Zombie token is checked only immediately after it attacks. Any other abilities that trigger when creatures you control attack won't have resolved yet.
+  - *2023-06-16* — Amass Orcs works the same way, except you create a 0/0 black Orc Army creature token if you don't control an Army. If the Army creature you chose isn't already an Orc, it becomes an Orc in addition to its other types. By combining cards with amass Orcs and amass Zombies, you can end up with an Orc Zombie Army.
+  - *2023-06-16* — Amass abilities are now written as "amass [subtype] N." Previous cards with amass have received errata to say "amass Zombies N."
+  - *2023-06-16* — If you don't control an Army, the Zombie Army token you create enters the battlefield as a 0/0 creature before receiving counters. Any abilities that trigger when a creature with a certain power enters the battlefield, such as that of Mentor of the Meek, will see the token enter as a 0/0 creature before it gets +1/+1 counters.
+  - *2023-06-16* — In the rare case that you control multiple Army creatures (perhaps because you played a creature with changeling) while you amass Zombies, you choose which of your Army creatures to put the +1/+1 counters on. If that creature isn't a Zombie, it becomes a Zombie in addition to its other types.
+  - *2023-06-16* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
+  - *2023-06-16* — Some cards that cause you to amass Zombies also provide bonuses to "Zombie tokens." These affect any token that happens to be a Zombie, not just a Zombie Army you've amassed.
+  - *2023-06-16* — To amass Zombies N, if you don't control an Army creature, create a 0/0 black Zombie Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already a Zombie, it becomes a Zombie in addition to its other types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frc/48/dreadhorde-invasion) · oracle_id `01deabbb-af6a-4998-99a7-35b7cfa9ef77` · printing: FRC #48 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dreadhorde Twins
 
@@ -320,6 +337,7 @@
   > *It herds souls toward eternal torment.*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5821 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/97/dreadhound) · oracle_id `5ed533a7-82b0-4a71-a9e9-4dffe9d18851` · printing: MID #97 (2021-09-24) · [rulings](https://api.scryfall.com/cards/27fd571b-8316-4c60-a042-8bcf4816b126/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dreadlight Monstrosity
@@ -347,7 +365,21 @@
 - **Flavor text** (CLB printing):
   > *A serpent's cruelty, a dragon's appetite.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8911 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/225/dread-linnorm-scale-deflection) · oracle_id `1bf04a2a-7f96-412c-9d91-034bef26e1b6` · printing: CLB #225 (2022-06-10) · [rulings](https://api.scryfall.com/cards/174ee9e7-8040-4b53-8d0d-177ce924521c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2022-06-10* — An adventurer card is a permanent card in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it’s in your graveyard, Altar of Bhaal is an artifact card whose mana value is 2.
+  - *2022-06-10* — An effect may refer to a card, spell, or permanent that “has an Adventure.” This refers to a card, spell, or permanent that has an adventurer card’s set of alternative characteristics, even if they’re not being used and even if that card was never cast as an Adventure.
+  - *2022-06-10* — Casting a card as an Adventure isn’t casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Adventure.
+  - *2022-06-10* — If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner’s graveyard as it resolves. For as long as it remains exiled, that player may cast it as a permanent spell. If an Adventure spell leaves the stack in any way other than resolving (most likely by being countered or by failing to resolve because its targets have all become illegal), that card won’t be exiled and the spell’s controller won’t be able to cast it as a permanent later.
+  - *2022-06-10* — If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won’t give you permission to cast it as a permanent spell.
+  - *2022-06-10* — If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it’s not possible to cast the copy from exile.
+  - *2022-06-10* — If an effect instructs you to choose a card name, you may choose the alternative Adventure name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2022-06-10* — If an object becomes a copy of an object that has an Adventure, the copy also has an Adventure. If it changes zones, it will either cease to exist (if it’s a token) or cease to be a copy (if it’s a nontoken permanent), and so you won’t be able to cast it as an Adventure.
+  - *2022-06-10* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it’s legal to cast that spell.
+  - *2022-06-10* — Reducing a creature's power to 3 or less after it has blocked Dread Linnorm won't cause it to become unblocked.
+  - *2022-06-10* — Scale Deflection can target an untapped creature. If the target creature is untapped as Scale Deflection resolves, you will still put two +1/+1 counters on it and it will still gain hexproof.
+  - *2022-06-10* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+  - *2022-06-10* — You must still follow any relevant timing rules for the permanent spell you cast from exile. Normally, you’ll be able to cast it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/225/dread-linnorm-scale-deflection) · oracle_id `1bf04a2a-7f96-412c-9d91-034bef26e1b6` · printing: CLB #225 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dreadmalkin
 
@@ -373,6 +405,7 @@
   > *"That's the fifth ship lost in three days! Can't we build them out of something stronger?"*
   > *—Malcolm Lee*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5751 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/147/dreadmaws-ire) · oracle_id `781d6981-d389-4677-9eaf-9c46c9192ed6` · printing: LCI #147 (2023-11-17) · [rulings](https://api.scryfall.com/cards/062e00a1-f1dc-4089-b640-800ab781c590/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dreadmobile
@@ -414,7 +447,10 @@
 - **Flavor text** (M20 printing):
   > *It beckons silently, waiting in the darkness.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2599 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m20/96/dread-presence) · oracle_id `1690a782-9e54-4231-9a72-abae5ed7050c` · printing: M20 #96 (2019-07-12) · [rulings](https://api.scryfall.com/cards/0430db1a-5cad-4444-ba93-57fb32e65606/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-07-12* — A Swamp is a land with the subtype Swamp, not any land with a mana ability that produces black mana.
+  - *2019-07-12* — If you choose the second mode and the chosen target is an illegal target by the time Dread Presence's triggered ability tries to resolve, the ability doesn't resolve. You won't gain 2 life, and the ability won't change to the first mode.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m20/96/dread-presence) · oracle_id `1690a782-9e54-4231-9a72-abae5ed7050c` · printing: M20 #96 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dread Reaper
 
@@ -548,7 +584,9 @@
   > *—Liliana Vess*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3740 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/604/dread-summons) · oracle_id `642fa01d-025e-44dd-8360-5325e5a28282` · printing: FDN #604 (2024-11-15) · [rulings](https://api.scryfall.com/cards/dfb5dd33-6e5b-4d78-92fa-678c9f01c606/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2015-11-04* — If a creature card has an ability that replaces going to the graveyard with moving somewhere else "instead," that card won't count toward the number of Zombies you get. Conversely, creature cards with a triggered ability that removes them from the graveyard when they're put there from anywhere (or your library) will count toward that number.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/604/dread-summons) · oracle_id `642fa01d-025e-44dd-8360-5325e5a28282` · printing: FDN #604 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dread Tiller
 
@@ -562,6 +600,7 @@
   > *"I told you not to build it with blighted wood."*
   > *—Lysh, kithkin wickersmith*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5908 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/20/dread-tiller) · oracle_id `ffcffad7-6c33-4265-82c9-04045fdf371b` · printing: ECC #20 (2026-01-23) · [rulings](https://api.scryfall.com/cards/5e2692eb-5a01-4b62-9d4d-263a553975ab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dread Wanderer
@@ -675,6 +714,7 @@
   > *—Ixidor, reality sculptor*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7781 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cm2/41/dreamborn-muse) · oracle_id `68d7f338-c6e7-4372-b41c-901e39e08bde` · printing: CM2 #41 (2018-06-08) · [rulings](https://api.scryfall.com/cards/83ad2ba9-ab54-4abc-805d-dc9fe31bac7f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dream Cache
@@ -687,6 +727,7 @@
   > *Dreams' riches are easily spent.*
   > *—Suq'Ata adage*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9343 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c18/88/dream-cache) · oracle_id `81338d64-8fc3-41ac-afc8-e2a79df1159b` · printing: C18 #88 (2018-08-10) · [rulings](https://api.scryfall.com/cards/d7da182c-cde3-40d8-976e-a88427a1edb8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dreamcaller Siren
@@ -750,7 +791,16 @@
   > Each nonland card in your hand without foretell has foretell. Its foretell cost is equal to its mana cost reduced by {2}. (During your turn, you may pay {2} and exile it from your hand face down. Cast it on a later turn for its foretell cost.)
   > Whenever you foretell a card, this creature gets +2/+0 until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4820 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/90/dream-devourer) · oracle_id `0ff7440b-b831-40a9-81c4-99d77bf93b8d` · printing: KHM #90 (2021-02-05) · [rulings](https://api.scryfall.com/cards/ff1d88a6-a74d-44b5-b7a8-866e866807f1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2021-02-05* — Because exiling a card with foretell from your hand is a special action, you can do so any time you have priority during your turn, including in response to spells and abilities. Once you announce you’re taking the action, no other player can respond by trying to remove the card from your hand.
+  - *2021-02-05* — Cards that are foretold by virtue of Dream Devourer’s ability won’t continue to have the foretell ability once they leave your hand, but you can still cast them from exile on a later turn for the foretell costs they were given by Dream Devourer.
+  - *2021-02-05* — Casting a foretold card from exile follows the timing rules for that card. If you foretell an instant card, you can cast it as soon as the next player’s turn. In most cases, if you foretell a card that isn’t an instant (or doesn’t have flash), you’ll have to wait until your next turn to cast it.
+  - *2021-02-05* — If you foretell a modal double-faced card, the foretell cost will be based on the mana cost of the face you cast from exile. For example, if you foretell Kolvori, God of Kinship/The Ringhart Crest, you can cast Kolvori by paying {G}{G} or The Ringhart Crest by paying {G} on a future turn. If you foretell a modal double-faced card whose front face is a nonland face but whose back face is a land face, you can’t play that card as a land.
+  - *2021-02-05* — If you’re casting a foretold card from exile for its foretell cost, you can’t choose to cast it for any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
+  - *2021-02-05* — It doesn’t matter if Dream Devourer is still on the battlefield or still under your control as you cast the spell from exile.
+  - *2021-02-05* — The last ability triggers when you exile a card from your hand using foretell, not when you cast a foretold card from exile.
+  - *2021-02-05* — The reduction of the foretell cost applies only to generic mana in the foretell cost. It can’t reduce requirements of specific colors of mana. For example, if you foretell a card in your hand with mana cost {1}{G}{G}, its foretell cost will be {G}{G}.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/90/dream-devourer) · oracle_id `0ff7440b-b831-40a9-81c4-99d77bf93b8d` · printing: KHM #90 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dreamdew Entrancer
 
@@ -764,7 +814,10 @@
   > *"Your dreams are too precious to leave to chance."*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7039 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/211/dreamdew-entrancer) · oracle_id `b6b2d63f-5b8c-47ee-8712-58596e0e9e94` · printing: BLB #211 (2024-08-02) · [rulings](https://api.scryfall.com/cards/26bd6b0d-8606-4a37-8be3-a852f1a8e99c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-07-26* — If the target creature is an illegal target as Dreamdew Entrancer’s last ability tries to resolve, it won’t resolve and none of its effects will happen. You won’t put stun counters on the creature, and you won’t draw cards no matter who controls it.
+  - *2024-07-26* — You may target a creature that is already tapped with Dreamdew Entrancer’s last ability. If the target creature is already tapped as the ability resolves, you’ll still put three stun counters on it, and if you control it, you’ll still draw two cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/211/dreamdew-entrancer) · oracle_id `b6b2d63f-5b8c-47ee-8712-58596e0e9e94` · printing: BLB #211 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dreamdrinker Vampire
 
@@ -792,7 +845,12 @@
   > When this creature enters, surveil 4. When you do, you may return target nonland permanent an opponent controls to its owner's hand. (To surveil 4, look at the top four cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)
 - **Keywords:** Flying, Surveil, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8733 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/116/dream-eater) · oracle_id `4ec84bb3-796a-4074-ac9a-1bd277158896` · printing: DSC #116 (2024-09-27) · [rulings](https://api.scryfall.com/cards/c721d449-fc77-4d86-8baf-158181e37087/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2018-10-05* — Dream Eater's reflexive triggered ability triggers even if you have fewer than four cards in your library to surveil.
+  - *2018-10-05* — Dream Eater's triggered ability goes on the stack without a target. While that ability is resolving, after you've surveilled, the reflexive triggered ability triggers and you pick a target nonland permanent to be returned to its owner's hand. This is different from effects that say "If you do . . ." in that you choose the target after having surveilled.
+  - *2024-01-12* — When you surveil, you may put all the cards you look at back on top of your library, you may put all of those cards into your graveyard, or you may put some of those cards on top and the rest of them into your graveyard.
+  - *2024-01-12* — You perform the actions stated on a card in sequence. For some spells and abilities, you'll surveil last. For others, you'll surveil and then perform other actions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/116/dream-eater) · oracle_id `4ec84bb3-796a-4074-ac9a-1bd277158896` · printing: DSC #116 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dream Fighter
 
@@ -816,6 +874,7 @@
 - **Flavor text** (CLB printing):
   > *In her dream, Lola gazed into a mirror. Her familiar features warped, her jaw stretching wider and wider until it cracked and her reflection pulled her into its gaping maw.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4494 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/66/dream-fracture) · oracle_id `c5843d13-855f-41dd-ac13-3c7f7e18bb39` · printing: CLB #66 (2022-06-10) · [rulings](https://api.scryfall.com/cards/daca6a57-38b7-4547-9174-a7f548ea1258/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dream Halls
@@ -838,7 +897,11 @@
 - **Flavor text** (ECL printing):
   > *Faeries swarm to snoring boggarts like vultures to rotting meat.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6109 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/216/dream-harvest) · oracle_id `70b9497f-0dd6-4b66-9675-57c7041fe3c0` · printing: ECL #216 (2026-01-23) · [rulings](https://api.scryfall.com/cards/a4ebc0e7-02d7-4d38-9376-a39963e6d3fa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-11-17* — If a card in a library has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
+  - *2025-11-17* — If a spell you cast has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2025-11-17* — Since you are using an alternative cost to cast the spells, you can't pay any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, you must pay those.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/216/dream-harvest) · oracle_id `70b9497f-0dd6-4b66-9675-57c7041fe3c0` · printing: ECL #216 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dream Leash
 
@@ -928,6 +991,7 @@
 - **Flavor text** (TSR printing):
   > *He's mastered the art of sleight of land.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6617 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/64/dreamscape-artist) · oracle_id `c2550f1a-b662-43e7-a0b2-843025739a8f` · printing: TSR #64 (2021-03-19) · [rulings](https://api.scryfall.com/cards/f244985e-7487-44db-bd69-47c781753f2e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dream Seizer
@@ -955,6 +1019,7 @@
   > Entwine {1} (Choose both if you pay the entwine cost.)
 - **Keywords:** Entwine
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9263 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mrd/34/dreams-grip) · oracle_id `8b239262-c392-4ec6-9ae1-8b4a076e4bf0` · printing: MRD #34 (2003-10-02) · [rulings](https://api.scryfall.com/cards/7ffaa6a2-7c86-45b4-8892-b837e05f11a6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dreamshackle Geist
@@ -969,6 +1034,7 @@
   > • Target creature doesn't untap during its controller's next untap step.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8293 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vow/58/dreamshackle-geist) · oracle_id `aa40d270-63d7-4022-ade9-67c1ab65ef70` · printing: VOW #58 (2021-11-19) · [rulings](https://api.scryfall.com/cards/1b81d90b-708a-48c9-a478-e3b0a3d7e982/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dreamshaper Shaman
@@ -994,7 +1060,14 @@
   > *"Don't go back on your word. C'mon, go wave to her."*
 - **Keywords:** Surveil, Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7537 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/50/dreams-of-laguna) · oracle_id `e060bf7a-f266-40b4-9772-e243dcbf965b` · printing: FIN #50 (2025-06-13) · [rulings](https://api.scryfall.com/cards/ba752243-2727-4b8a-8e21-e70becfd4ff3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-06-06* — "Flashback [cost]" means "You may cast this card from your graveyard if the resulting spell is an instant or sorcery spell by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2025-06-06* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2025-06-06* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2025-06-06* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2025-06-06* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/50/dreams-of-laguna) · oracle_id `e060bf7a-f266-40b4-9772-e243dcbf965b` · printing: FIN #50 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dreams of Steel and Oil
 
@@ -1091,6 +1164,7 @@
 - **Flavor text** (CMM printing):
   > *Only the Eldrazi mind thinks in the warped paths required to open the hedrons and tap the power within.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1943 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/945/dreamstone-hedron) · oracle_id `0e2575be-c596-4c8c-bf07-7941ca065721` · printing: CMM #945 (2023-08-04) · [rulings](https://api.scryfall.com/cards/d0a27816-7ee9-4fa1-aa01-78796ad62337/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dream Strix
@@ -1117,6 +1191,7 @@
   > Whenever this creature mutates, draw a card.
 - **Keywords:** Flying, Mutate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6911 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/47/dreamtail-heron) · oracle_id `1cadb1e1-19b6-4ce5-8eb5-7851cec7dfa3` · printing: IKO #47 (2020-04-24) · [rulings](https://api.scryfall.com/cards/ca777d40-736a-4cd6-85c4-5afd52f2fadd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dream Thief
@@ -1142,7 +1217,12 @@
   > Equip {1}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6485 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/38/dream-thiefs-bandana) · oracle_id `3c958b5f-680b-45fc-8c3d-27b23677436e` · printing: OTC #38 (2024-04-19) · [rulings](https://api.scryfall.com/cards/dccdb6cc-dfad-4c7e-9550-3dd12f3e9c79/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-04-12* — If you leave the game, any remaining face-down exiled cards remain exiled face down indefinitely. No player may look at them.
+  - *2024-04-12* — Playing an exiled card causes it to leave exile. You can't play it multiple times.
+  - *2024-04-12* — You may look at and play cards exiled face down with Dream-Thief's Bandana's first ability (and spend mana of any type to do so) even if Dream-Thief's Bandana and/or the equipped creature leaves the battlefield. If another player gains control of Dream-Thief's Bandana and/or the equipped creature, that player can't look at or play cards already exiled with Dream-Thief's Bandana, and you still can.
+  - *2024-04-12* — You pay all costs and follow all normal timing rules for cards played from exile with Dream-Thief's Bandana's first ability. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/38/dream-thiefs-bandana) · oracle_id `3c958b5f-680b-45fc-8c3d-27b23677436e` · printing: OTC #38 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dream Thrush
 
@@ -1178,7 +1258,14 @@
   > Whenever a player casts their second spell each turn, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)
 - **Keywords:** Vanishing, Proliferate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1186 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/59/dreamtide-whale) · oracle_id `ee8c0b4c-03c5-4da5-b4f1-028c845384af` · printing: MH3 #59 (2024-06-14) · [rulings](https://api.scryfall.com/cards/fd7dc03e-2a61-482a-b7eb-6cdb7f375fd8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-06-07* — If a permanent that's already on the battlefield without time counters on it becomes a copy of a permanent with vanishing, it will stay on the battlefield indefinitely (unless time counters are somehow put on it later). If a permanent with one or more time counters on it becomes a copy of a permanent with vanishing, it will vanish as normal. If a permanent enters the battlefield as a copy of a permanent with vanishing, it enters with the appropriate number of time counters and will vanish as normal.
+  - *2024-06-07* — If a player or permanent has more than one kind of counter on it, and you choose for it to get additional counters, it must get one of each kind of counter it already has. You can't have it get just one kind of counter it already has and not the others.
+  - *2024-06-07* — If the last time counter is removed from a permanent with vanishing and the sacrifice ability is countered, that permanent will remain on the battlefield indefinitely with no time counters on it. As long as the permanent doesn't have any time counters on it, neither of vanishing's two triggered abilities will trigger again.
+  - *2024-06-07* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
+  - *2024-06-07* — When you proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
+  - *2024-06-07* — You don't have to choose every permanent or player that has a counter—only the ones you want to add counters to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/59/dreamtide-whale) · oracle_id `ee8c0b4c-03c5-4da5-b4f1-028c845384af` · printing: MH3 #59 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dream Trawler
 
@@ -1192,7 +1279,10 @@
   > Discard a card: This creature gains hexproof until end of turn. Tap it.
 - **Keywords:** Flying, Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6139 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/214/dream-trawler) · oracle_id `661b2159-4040-4a44-b182-46085416ebd9` · printing: THB #214 (2020-01-24) · [rulings](https://api.scryfall.com/cards/7d3e97d8-92c7-43c4-bdaf-7b0a6ce7cb5f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-01-24* — Dream Trawler's second triggered ability resolves before blockers are declared. This normally causes its first triggered ability to trigger, which also resolves before blockers are declared.
+  - *2020-01-24* — You can activate Dream Trawler's last ability even if it's already tapped. It still gains hexproof until end of turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/214/dream-trawler) · oracle_id `661b2159-4040-4a44-b182-46085416ebd9` · printing: THB #214 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dream Twist
 
@@ -1238,6 +1328,7 @@
   > When this enchantment enters, mill four cards. You may put an artifact, creature, or land card from among the milled cards into your hand. (To mill four cards, put the top four cards of your library into your graveyard.)
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7764 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/159/dredgers-insight) · oracle_id `3f21c1c6-7992-4036-ad3e-b599153e54fe` · printing: DFT #159 (2025-02-14) · [rulings](https://api.scryfall.com/cards/148400a0-7819-4551-9815-9357eed1db4d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dredge the Mire
@@ -1273,6 +1364,7 @@
   > At the beginning of your end step, draw a card. Then each opponent faces a villainous choice — That player discards a card, or you may put a Construct, Robot, or Vehicle card from your hand onto the battlefield.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8574 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/2084/dr-eggman) · oracle_id `fb68c1ae-a129-4c17-81fa-be5da2c32ec5` · printing: SLD #2084 (2025-07-14) · [rulings](https://api.scryfall.com/cards/18602e92-69be-4626-a28a-463913108f42/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dreg Mangler
@@ -1383,7 +1475,10 @@
   > At the beginning of the end step, sacrifice this enchantment.
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4043 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/39/dress-down) · oracle_id `c1cbbda0-e02b-4b9c-8669-ea87ca629520` · printing: MH2 #39 (2021-06-18) · [rulings](https://api.scryfall.com/cards/04f9f061-67b8-4427-9fcb-b3ccfee8fc5d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-06-18* — If an effect causes Dress Down to become a creature, it will lose its own abilities along with all other creatures. This includes the triggered ability that causes it to be sacrificed at the beginning of the end step.
+  - *2021-06-18* — If an effect grants a creature an ability after Dress Down has entered the battlefield, it won't lose that ability. For example, if a land becomes a creature while Dress Down is on the battlefield, it will still gain any abilities given to it by the effect that animated it. It will, however, lose any abilities it already had.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/39/dress-down) · oracle_id `c1cbbda0-e02b-4b9c-8669-ea87ca629520` · printing: MH2 #39 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drey Keeper
 

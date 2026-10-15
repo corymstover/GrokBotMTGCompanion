@@ -82,6 +82,7 @@
 - **Flavor text** (TDC printing):
   > *They charge into battle and out for their morning walk with the same exuberance.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6348 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/127/release-the-dogs) · oracle_id `b97d21b4-d730-479f-872f-3e1645b66751` · printing: TDC #127 (2025-04-11) · [rulings](https://api.scryfall.com/cards/7e1df99a-c139-44c9-8881-077dbfd7332f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Release the Gremlins
@@ -106,6 +107,7 @@
   > *"Those who have passed are beyond war, beyond suffering. Mourn them, envy them, but above all, remember them."*
   > *—Light-Paws, Imperial advisor*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7620 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/nec/9/release-to-memory) · oracle_id `3ae456e4-cb35-47be-b654-051e288622fe` · printing: NEC #9 (2022-02-18) · [rulings](https://api.scryfall.com/cards/b45c4bbf-2c61-4d49-96c8-34a0fb0d6d02/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Release to the Wind
@@ -117,7 +119,12 @@
 - **Flavor text** (RIX printing):
   > *"Here and gone like a fleeting breeze."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9446 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rix/46/release-to-the-wind) · oracle_id `49d6a9be-1d10-4ce4-afa3-aa637f39b898` · printing: RIX #46 (2018-01-19) · [rulings](https://api.scryfall.com/cards/4b4f72ef-3939-467c-8fe4-fd1c215f2b1e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2018-01-19* — Casting the exiled card follows the normal timing rules for casting that card. For example, if the card is a creature card, you can cast that card only during your main phase while the stack is empty.
+  - *2018-01-19* — If a token is exiled this way, it can’t be cast.
+  - *2018-01-19* — If an exiled card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2018-01-19* — If you cast a card “without paying its mana cost,” you can’t pay any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, such as that of Silvergill Adept, those must be paid to cast the card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rix/46/release-to-the-wind) · oracle_id `49d6a9be-1d10-4ce4-afa3-aa637f39b898` · printing: RIX #46 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Relentless Advance
 
@@ -138,7 +145,12 @@
 - **Oracle text:**
   > Untap all creatures that attacked this turn. After this main phase, there is an additional combat phase followed by an additional main phase.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1576 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/416/relentless-assault) · oracle_id `dc1c0e8c-d0c1-445c-968f-7dec91e5d5fc` · printing: CMR #416 (2020-11-20) · [rulings](https://api.scryfall.com/cards/97622209-9357-4347-8961-f77f8d2389d8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-09-19* — A creature that attacks each turn if able must attack only once that turn. It is not forced into each attack that turn. However, a creature that attacks each combat if able must attack again if it can.
+  - *2025-09-19* — Abilities that trigger when a creature attacks, blocks, or is blocked will trigger during each combat that turn.
+  - *2025-09-19* — If you manage to cast this during a main phase of your opponent's turn, that opponent's creatures will untap and that opponent will be able to attack again. It will not allow you to attack during their turn.
+  - *2025-09-19* — Relentless Assault creates an additional combat and main phase only if it resolves during a main phase.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/416/relentless-assault) · oracle_id `dc1c0e8c-d0c1-445c-968f-7dec91e5d5fc` · printing: CMR #416 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Relentless Dead
 
@@ -151,7 +163,10 @@
   > When this creature dies, you may pay {X}. If you do, return another target Zombie creature card with mana value X from your graveyard to the battlefield.
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5059 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soi/131/relentless-dead) · oracle_id `7404c078-228b-4296-bf1f-62f57bf832d9` · printing: SOI #131 (2016-04-08) · [rulings](https://api.scryfall.com/cards/2a0d7998-2f3d-43b8-a0be-6ff7e5c83223/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2016-04-08* — Relentless Dead’s last two abilities trigger at the same time and can be put on the stack in either order. The ability put on the stack first will be the last to resolve.
+  - *2016-04-08* — You decide whether to pay for each triggered ability as it resolves. If you do, the rest of that ability’s effect happens before any player may take actions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soi/131/relentless-dead) · oracle_id `7404c078-228b-4296-bf1f-62f57bf832d9` · printing: SOI #131 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Relentless Drednok
 
@@ -338,7 +353,12 @@
   > {2}, {T}: Target player mills two cards. (They put the top two cards of their library into their graveyard.)
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8886 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/249/relic-golem) · oracle_id `14d9bb24-df7b-4f41-aeca-aad639b280db` · printing: ZNR #249 (2020-09-25) · [rulings](https://api.scryfall.com/cards/0b59c75b-d8f8-4f95-9030-ed73c67d988e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-09-25* — An ability that offers a bonus if an opponent has eight or more cards in their graveyard won’t provide additional benefits if more than one opponent has eight or more cards in their graveyard. There are also no additional benefits no matter how many cards are in an opponent’s graveyard, as long as there are at least eight.
+  - *2020-09-25* — In a multiplayer game, once an opponent leaves the game, they won’t be considered for such an effect, no matter how many cards they had in their graveyard before leaving the game.
+  - *2020-09-25* — Once Relic Golem has attacked, causing its first ability to apply by removing cards from graveyards won’t cause Relic Golem to be removed from combat.
+  - *2020-09-25* — Similarly, once Relic Golem has blocked an attacking creature, causing its first ability to apply won’t cause that attacking creature to become unblocked or remove Relic Golem from combat.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/249/relic-golem) · oracle_id `14d9bb24-df7b-4f41-aeca-aad639b280db` · printing: ZNR #249 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Relic of Legends
 
@@ -364,7 +384,10 @@
 - **Flavor text** (EMA printing):
   > *Elves believe the hydra-god Progenitus sleeps beneath Naya, feeding on forgotten magics.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4875 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ema/231/relic-of-progenitus) · oracle_id `6a9c3401-570c-41cb-a605-75dfa57d6ab7` · printing: EMA #231 (2016-06-10) · [rulings](https://api.scryfall.com/cards/436cd66c-0622-43cd-8748-af4d21a2db3f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2016-06-08* — If you activate Relic of Progenitus's first ability, the targeted player chooses which card to exile. The choice is made as the ability resolves.
+  - *2016-06-08* — You can activate Relic of Progenitus's second ability even if no players have any cards in their graveyards. You'll still draw a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ema/231/relic-of-progenitus) · oracle_id `6a9c3401-570c-41cb-a605-75dfa57d6ab7` · printing: EMA #231 (2016-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Relic of Sauron
 
@@ -376,6 +399,7 @@
 - **Flavor text** (LTC printing):
   > *While the power of Sauron grew, light and living things forsook his borders.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1746 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/79/relic-of-sauron) · oracle_id `b3a81bb1-cbd5-41a0-8dd4-faea06593f84` · printing: LTC #79 (2023-06-23) · [rulings](https://api.scryfall.com/cards/175b3d28-5c74-4972-9b5c-5e39762c78f4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Relic Putrescence
@@ -554,7 +578,13 @@
 - **Flavor text** (FIN printing):
   > *In her pictures she captures everything: forests, water, light . . . the very essence of the things she paints.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3926 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/67/relms-sketching) · oracle_id `dd6601c6-810d-4883-89d2-5d31419fb1cc` · printing: FIN #67 (2025-06-13) · [rulings](https://api.scryfall.com/cards/6aedac12-3714-4a81-bd4d-1d2555c66f78/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-06-06* — If the copied permanent has {X} in its mana cost, X is 0.
+  - *2025-06-06* — If the copied permanent is a token, the new token that's created copies the original characteristics of that token as stated by the effect that created the token.
+  - *2025-06-06* — If the copied permanent is copying something else, then the token enters as whatever that permanent copied.
+  - *2025-06-06* — If the permanent copied by the token had any "when [this permanent] enters" abilities, the token also has those abilities, and they'll trigger when it's created. Similarly, any "as [this permanent] enters" or "[this permanent] enters with" abilities that the token has copied will also work.
+  - *2025-06-06* — The token copies exactly what was printed on the original permanent (unless that permanent is copying something else or is a token; see below). It doesn't copy whether that permanent is tapped or untapped, whether it has any counters on it or any Auras or Equipment attached to it, or any non-copy effects that have changed its types, color, power and toughness, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/67/relms-sketching) · oracle_id `dd6601c6-810d-4883-89d2-5d31419fb1cc` · printing: FIN #67 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reluctant Dounguard
 
@@ -579,4 +609,13 @@
   > Whenever this creature or another creature you control dies, if it had counters on it, put those counters on up to one target creature.
 - **Keywords:** Lifelink, Survival
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4657 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/26/reluctant-role-model) · oracle_id `8d24c12a-a300-4199-b2a9-3d5ead8df617` · printing: DSK #26 (2024-09-27) · [rulings](https://api.scryfall.com/cards/4dde86d6-34a0-4b3b-a46a-d9941501d08c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2024-09-20* — If Reluctant Role Model dies at the same time as one or more other creatures with counters on them, its last ability will trigger for each of those creatures.
+  - *2024-09-20* — If a creature with a survival ability isn't tapped when your second main phase begins, the ability won't trigger at all. You won't be able to tap it during your second main phase in time to have that ability trigger.
+  - *2024-09-20* — If a creature's survival ability triggers but that creature is untapped when the ability begins to resolve, that ability won't do anything.
+  - *2024-09-20* — If a creature's survival ability triggers but the creature leaves the battlefield before the ability resolves, use its tapped or untapped status as it last existed on the battlefield to determine whether or not the ability will do anything.
+  - *2024-09-20* — If the creature that died had -1/-1 counters on it when it died, Reluctant Role Model's last ability will include those as well. This may result in the target creature also dying.
+  - *2024-09-20* — In some unusual cases, you may end up putting the appropriate counters on more than one permanent. For example, if you control The Ozolith when Reluctant Role Model dies, you'll put the appropriate number of each kind of counter onto both The Ozolith and the target creature.
+  - *2024-09-20* — Reluctant Role Model's last ability doesn't cause you to move counters from the creature that died onto the target creature. Rather, you put the same number of each kind of counter the creature that died had when it died onto the target creature. Other effects that interact with putting counters onto that creature will interact with this effect accordingly.
+  - *2024-09-20* — Survival abilities (and other abilities that trigger at the beginning of your second main phase) will trigger at the beginning of the second main phase you take in a turn. They won't trigger during your third, fourth, or other additional main phases in a single turn, if effects somehow cause you to have more than two main phases.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/26/reluctant-role-model) · oracle_id `8d24c12a-a300-4199-b2a9-3d5ead8df617` · printing: DSK #26 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -78,7 +78,18 @@
   > *Silent. Slithering. Sinister.*
 - **Keywords:** Venture into the dungeon
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8661 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/86/yuan-ti-malison) · oracle_id `f0e4dda1-2ffb-4353-a292-dcbc966967b4` · printing: AFR #86 (2021-07-23) · [rulings](https://api.scryfall.com/cards/0f51afd9-7093-4aa3-ad5b-7383684d6285/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2021-07-23* — A player may only have one dungeon in the command zone at a time.
+  - *2021-07-23* — Choosing the dungeon or room to venture into is part of resolving the venture into the dungeon keyword action. Once that choice is made, players may not respond until after the appropriate room ability has triggered.
+  - *2021-07-23* — Dungeon cards are not part of a player's deck or sideboard. In both constructed and limited formats, players can use any dungeon card when they venture into the dungeon.
+  - *2021-07-23* — Dungeons are removed from the game as a state-based action.
+  - *2021-07-23* — If you somehow venture into the dungeon while a room's ability is on the stack, you will continue on in the dungeon. If you're already in the last room, complete that dungeon and start a new one.
+  - *2021-07-23* — Moving into a dungeon room will cause its room ability to trigger.
+  - *2021-07-23* — Once you resolve the last room ability of a dungeon, that dungeon is now completed and is removed from the game.
+  - *2021-07-23* — The player venturing into the dungeon chooses which dungeon they will venture into. They may choose a dungeon that they have already completed this game.
+  - *2021-07-23* — To venture into the dungeon, a player moves their venture marker into the next room of the dungeon they are currently in. If they aren't currently in a dungeon, that player instead chooses a dungeon card from outside the game, puts it into the command zone, and moves their venture marker onto the first room.
+  - *2021-07-23* — You can only move forward (well, downward) in a dungeon, never backwards or sideways.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/86/yuan-ti-malison) · oracle_id `f0e4dda1-2ffb-4353-a292-dcbc966967b4` · printing: AFR #86 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yue, the Moon Spirit
 
@@ -92,7 +103,15 @@
   > *"You'll save the world again. But you can't give up."*
 - **Keywords:** Flying, Vigilance, Waterbend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6563 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/83/yue-the-moon-spirit) · oracle_id `961f1883-2f97-4249-90f9-416279d7a9dd` · printing: TLA #83 (2025-11-21) · [rulings](https://api.scryfall.com/cards/ecdac50f-c639-43fc-a03e-d488fac96ae2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2025-10-02* — "Waterbend [cost]" means "Pay [cost]. For each generic mana in that cost, you may tap an untapped artifact or creature you control rather than pay that mana."
+  - *2025-10-02* — Even if the cost of the spell or ability that waterbend is part of increases or decreases, you still may only tap artifacts or creatures to pay for costs up to the amount of the generic mana in the waterbend cost.
+  - *2025-10-02* — If a card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2025-10-02* — If a waterbend cost is part of the total cost to cast a spell or activate an ability, you may tap an untapped artifact or creature you control rather than pay one generic mana in that total cost any number of times up to a maximum of the amount of generic mana in the waterbend component of that total cost.
+  - *2025-10-02* — If an artifact or creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell or activating an ability with waterbend will result in the artifact or creature being tapped before you pay the spell's costs. You won't be able to tap it again for waterbend. Similarly, if you sacrifice an artifact or creature to activate a mana ability to pay a cost with waterbend, that artifact or creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for waterbend.
+  - *2025-10-02* — If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, such as that of Cathartic Reunion, you must pay those to cast the card.
+  - *2025-10-02* — You can tap any untapped creature or artifact you control to pay a waterbend cost, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/83/yue-the-moon-spirit) · oracle_id `961f1883-2f97-4249-90f9-416279d7a9dd` · printing: TLA #83 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yuffie, Materia Hunter
 
@@ -104,7 +123,17 @@
   > When Yuffie enters, gain control of target noncreature artifact for as long as you control Yuffie. Then you may attach an Equipment you control to Yuffie.
 - **Keywords:** Ninjutsu
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5951 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/65/yuffie-materia-hunter) · oracle_id `acdcbb49-9d71-4c36-8ccb-650fb11c3a58` · printing: FIC #65 (2025-06-13) · [rulings](https://api.scryfall.com/cards/117bb5db-4a1c-4704-b0b5-c67b45ac2f52/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2025-06-06* — Although Yuffie enters attacking when its ninjutsu ability resolves, it was never declared as an attacking creature (for purposes of abilities that trigger whenever a creature attacks, for example).
+  - *2025-06-06* — As you activate Yuffie's ninjutsu ability, you reveal Yuffie from your hand and return the attacking creature. Yuffie isn't put onto the battlefield until the ability resolves. If Yuffie leaves your hand before then, it won't enter at all.
+  - *2025-06-06* — If at least one creature in combat has first strike or double strike, you can activate Yuffie's ninjutsu ability during the first-strike combat damage step. In that case, Yuffie will deal combat damage during the regular combat damage step, even if it has first strike.
+  - *2025-06-06* — If the target of Yuffie's last ability is illegal as the ability tries to resolve, it won't resolve and none of its effects will happen. You won't attach any Equipment to Yuffie.
+  - *2025-06-06* — If you lose control of Yuffie or it leaves the battlefield before its last ability resolves, you won't gain control of the target noncreature artifact.
+  - *2025-06-06* — The ninjutsu ability can be activated during the declare blockers step, combat damage step, or end of combat step. If you wait until after the declare blockers step, because all combat damage is dealt at once, Yuffie won't normally deal combat damage.
+  - *2025-06-06* — The ninjutsu ability can be activated only after blockers have been declared. Before then, attacking creatures are neither blocked nor unblocked.
+  - *2025-06-06* — You can't use Yuffie's last ability to try to attach an Equipment to Yuffie if that Equipment can't legally be attached to Yuffie.
+  - *2025-06-06* — Yuffie enters attacking the same player, planeswalker, or battle the returned creature was attacking. This is a rule specific to ninjutsu; in other cases, when a creature is put onto the battlefield attacking, that creature's controller chooses which player, planeswalker, or battle it's attacking.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/65/yuffie-materia-hunter) · oracle_id `acdcbb49-9d71-4c36-8ccb-650fb11c3a58` · printing: FIC #65 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yuki-Onna
 
@@ -153,7 +182,9 @@
   > Whenever Yuma enters or attacks, you may sacrifice a land. If you do, draw a card.
   > Whenever a Desert card is put into your graveyard from anywhere, create a 4/2 green Plant Warrior creature token with reach.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9202 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/4/yuma-proud-protector) · oracle_id `b8a0b967-3b5b-46f5-830b-5c8f1037784a` · printing: OTC #4 (2024-04-19) · [rulings](https://api.scryfall.com/cards/18df72be-07d2-4412-b36d-a45119763db3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-04-12* — Yuma must be on the battlefield for its last ability to trigger. If it is put into your graveyard at the same time as a Desert card you own, its ability won't trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/4/yuma-proud-protector) · oracle_id `b8a0b967-3b5b-46f5-830b-5c8f1037784a` · printing: OTC #4 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yume, Chronicler of Valor
 
@@ -177,7 +208,9 @@
   > Whenever another permanent you control is put into a graveyard from the battlefield, if it had one or more counters on it, you may put that number of +1/+1 counters on target creature.
 - **Keywords:** Grand Summon
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3520 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/pw25/16/yuna-grand-summoner) · oracle_id `ba72d4a9-6f36-4796-bd71-2342fa9b4a30` · printing: PW25 #16 (2025-12-05) · [rulings](https://api.scryfall.com/cards/31572625-b4a8-4ac0-8f08-999d6a6636d7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-06-06* — Yuna's last ability counts all counters that were on the permanent, not just +1/+1 counters.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pw25/16/yuna-grand-summoner) · oracle_id `ba72d4a9-6f36-4796-bd71-2342fa9b4a30` · printing: PW25 #16 (2025-12-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yuna, Hope of Spira
 
@@ -188,7 +221,12 @@
   > During your turn, Yuna and enchantment creatures you control have trample, lifelink, and ward {2}.
   > At the beginning of your end step, return up to one target enchantment card from your graveyard to the battlefield with a finality counter on it. (If a permanent with a finality counter on it would be put into a graveyard from the battlefield, exile it instead.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4142 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/250/yuna-hope-of-spira) · oracle_id `3dee768a-612c-4960-bad2-2fe5b83a70c3` · printing: FIN #250 (2025-06-13) · [rulings](https://api.scryfall.com/cards/35b613ad-86f0-431b-af93-147d21041fde/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-06-06* — Finality counters aren't keyword counters, and a finality counter doesn't give any abilities to the permanent it's on. If that permanent loses its abilities and then would go to a graveyard, it will still be exiled instead.
+  - *2025-06-06* — Finality counters don't stop permanents from going to zones other than the graveyard from the battlefield. For example, if a permanent with a finality counter on it would be put into its owner's hand from the battlefield, it does so normally.
+  - *2025-06-06* — Finality counters work on any permanent, not only creatures. If a permanent with a finality counter on it would be put into a graveyard from the battlefield, exile it instead.
+  - *2025-06-06* — Multiple finality counters on a single permanent are redundant.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/250/yuna-hope-of-spira) · oracle_id `3dee768a-612c-4960-bad2-2fe5b83a70c3` · printing: FIN #250 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yuna's Decision
 
@@ -200,7 +238,9 @@
   > • Find Another Way — Return one or two target permanent cards from your graveyard to your hand.
 - **Keywords:** Find Another Way, Continue the Pilgrimage
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7089 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/74/yunas-decision) · oracle_id `77dd6ce0-91fc-4e71-99ff-47cdf3359067` · printing: FIC #74 (2025-06-13) · [rulings](https://api.scryfall.com/cards/5044eedb-f7d9-4b65-aa5b-fb494d00facd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-06-06* — Putting a land card onto the battlefield with the first mode of Yuna's Decision doesn't count as playing a land. You can put a land card onto the battlefield this way even if you've already played a land for the turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/74/yunas-decision) · oracle_id `77dd6ce0-91fc-4e71-99ff-47cdf3359067` · printing: FIC #74 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yuna's Whistle
 
@@ -209,7 +249,10 @@
 - **Oracle text:**
   > Reveal cards from the top of your library until you reveal a creature card. Put that card into your hand and the rest on the bottom of your library in a random order. When you reveal a creature card this way, put X +1/+1 counters on target creature you control, where X is the mana value of that card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8436 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/75/yunas-whistle) · oracle_id `39bf633c-41a6-496d-8aef-1ab7befb503d` · printing: FIC #75 (2025-06-13) · [rulings](https://api.scryfall.com/cards/8e591a23-15c3-4a65-a9d2-d1ce0f83552c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-06-06* — If the revealed card has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
+  - *2025-06-06* — You don't choose a target for Yuna's Whistle at the time you cast it. Rather, a second "reflexive" ability triggers when you reveal a creature card this way. You choose a target for that ability as it goes on the stack. Each player may respond to this triggered ability as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/75/yunas-whistle) · oracle_id `39bf633c-41a6-496d-8aef-1ab7befb503d` · printing: FIC #75 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yuriko, Blade of the Mighty
 
@@ -248,7 +291,12 @@
   > Whenever a Ninja you control deals combat damage to a player, reveal the top card of your library and put that card into your hand. Each opponent loses life equal to that card's mana value.
 - **Keywords:** Commander ninjutsu
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2530 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/364/yuriko-the-tigers-shadow) · oracle_id `a7043fbd-1dfd-42cf-be4b-cc343d0949e5` · printing: CMM #364 (2023-08-04) · [rulings](https://api.scryfall.com/cards/fe9be3e0-076c-4703-9750-2a6b0a178bc9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-11-10* — Activating Yuriko's commander ninjutsu ability isn't the same as casting Yuriko as a spell. You won't have to pay the commander tax to activate that ability, and activating that ability won't increase the commander tax to pay later.
+  - *2020-11-10* — Although the ninjutsu ability has the creature enter the battlefield attacking, it was never declared as an attacking creature (for the purposes of abilities that trigger whenever a creature attacks, for example).
+  - *2020-11-10* — Commander ninjutsu is a variant of ninjutsu that can be activated from the command zone as well as from your hand. Just as with regular ninjutsu, the Ninja enters attacking the player or planeswalker that the returned creature was attacking.
+  - *2020-11-10* — If a card in a player's library has {X} in its mana cost, X is considered to be 0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/364/yuriko-the-tigers-shadow) · oracle_id `a7043fbd-1dfd-42cf-be4b-cc343d0949e5` · printing: CMM #364 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yurlok of Scorch Thrash
 
@@ -263,7 +311,10 @@
   > *The gifts of Jund never come without a price.*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8428 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/293/yurlok-of-scorch-thrash) · oracle_id `7baaf462-b0e6-4e21-86a7-73a883c4c9f7` · printing: CMR #293 (2020-11-20) · [rulings](https://api.scryfall.com/cards/ead8a1f5-6260-47fa-a649-43711ec5bbeb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-11-10* — Multiple Yurloks on the battlefield won't cause additional life loss. For example, if two players each control a Yurlok and a player still has three unspent mana as a step or phase ends, that player will lose only 3 life.
+  - *2020-11-10* — Yurlok's middle ability is similar to the "mana burn" rule from years past. The loss of life happens at the same time the mana is lost. This loss of life doesn't use the stack and can't be responded to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/293/yurlok-of-scorch-thrash) · oracle_id `7baaf462-b0e6-4e21-86a7-73a883c4c9f7` · printing: CMR #293 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yusri, Fortune's Flame
 
@@ -275,7 +326,10 @@
   > Whenever Yusri attacks, choose a number between 1 and 5. Flip that many coins. For each flip you win, draw a card. For each flip you lose, Yusri deals 2 damage to you. If you won five flips this way, you may cast spells from your hand this turn without paying their mana costs.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6669 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/218/yusri-fortunes-flame) · oracle_id `2c0a0a7d-b12f-47c8-a6a6-d046f999ec6b` · printing: MH2 #218 (2021-06-18) · [rulings](https://api.scryfall.com/cards/bfab9e33-0d07-46e6-be06-1eaffe26cbfd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-06-18* — If an effect allows you to cast a spell with {X} in its cost without paying its mana cost, you must choose 0 for the value of X.
+  - *2021-06-18* — When you cast a spell without paying its mana cost, you may still pay additional costs. If any additional costs are required, you must pay them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/218/yusri-fortunes-flame) · oracle_id `2c0a0a7d-b12f-47c8-a6a6-d046f999ec6b` · printing: MH2 #218 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yuyan Archers
 

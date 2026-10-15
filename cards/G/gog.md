@@ -33,7 +33,22 @@
 - **Flavor text** (FIN printing):
   > *"I see... so, you seek to save the world. Then I guess that means I shall save the world as well. Lead on! I will copy your every move."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3368 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/54/gogo-master-of-mimicry) · oracle_id `61586052-7d69-489c-84c4-0359228d131b` · printing: FIN #54 (2025-06-13) · [rulings](https://api.scryfall.com/cards/cce4eb99-d960-4ab7-911a-bb4ea74d1775/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (14):
+  - *2025-06-06* — Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keyword abilities (such as equip) are activated abilities and will have a colon in their reminder text.
+  - *2025-06-06* — Any choices made when the ability resolves won't have been made yet when it's copied. Any such choices will be made separately when the copy resolves. Most notably, if a triggered ability asks its controller to pay a cost, you pay that cost for the copy if you wish to have it paid.
+  - *2025-06-06* — Gogo's ability can copy any activated or triggered ability on the stack, not just one with targets.
+  - *2025-06-06* — Gogo's ability targets an activated or triggered ability that is on the stack and creates one or more additional instances of that ability on the stack. It doesn't cause any object to gain any abilities.
+  - *2025-06-06* — If an ability is linked to a second ability, copies of that first ability are also linked to that second ability. If the second ability refers to "the exiled card," it refers to all cards exiled by the first ability and the copy. For example, if Clive's Hideaway's hideaway ability is copied and two cards are exiled, you may cast both exiled cards without paying their mana costs (assuming you control four or more legendary creatures at that time.)
+  - *2025-06-06* — If the ability has damage divided as it was put onto the stack, the division can't be changed, although the targets receiving that damage still can. The same is true of abilities that distribute counters.
+  - *2025-06-06* — If the ability that's copied has an X whose value was determined as it was activated, the copy will have the same value of X.
+  - *2025-06-06* — If the ability that's copied is modal (that is, it says "Choose one —" or the like), the copy will have the same mode. A different mode can't be chosen.
+  - *2025-06-06* — The copy is created on the stack, so it's not "activated." Creating the copy won't cause abilities that trigger when a player activates an ability to trigger. Abilities that say that a triggered ability triggers additional times won't apply to copying a triggered ability.
+  - *2025-06-06* — The copy will have the same targets as the ability it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
+  - *2025-06-06* — The copy will resolve before the original ability does.
+  - *2025-06-06* — The source of the copy from Gogo's ability is the same as the source of the original ability.
+  - *2025-06-06* — Triggered abilities use the word "when," "whenever," or "at." They're often written as "[Trigger condition], [effect]." Some keywords (such as prowess) are triggered abilities and will use "when," "whenever," or "at" in their reminder text.
+  - *2025-06-06* — You can't choose to pay any activation costs for the copy. However, effects based on those costs that were paid for the original ability are copied as though those same costs were paid for the copy.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/54/gogo-master-of-mimicry) · oracle_id `61586052-7d69-489c-84c4-0359228d131b` · printing: FIN #54 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gogo, Mysterious Mime
 
@@ -43,4 +58,10 @@
 - **Oracle text:**
   > At the beginning of combat on your turn, you may have Gogo become a copy of another target creature you control until end of turn, except its name is Gogo, Mysterious Mime. If you do, Gogo and that creature each get +2/+0 and gain haste until end of turn and attack this turn if able.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2534 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/56/gogo-mysterious-mime) · oracle_id `6fdcb563-9279-4365-8a78-26e75fbfd917` · printing: FIC #56 (2025-06-13) · [rulings](https://api.scryfall.com/cards/0db05dc8-03f8-4ab4-9ca3-2aaaa0099eb4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-06-06* — Gogo copies exactly what was printed on the original creature, with the listed exception (unless that creature is copying something else or is a token; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or any Auras or Equipment attached to it, or any non-copy effects that have changed its types, color, power and toughness, and so on.
+  - *2025-06-06* — If Gogo copies a legendary creature, Gogo will also be legendary, but because its name remains Gogo, Mysterious Mime, the "legend rule" won't cause either of them to be put into the graveyard.
+  - *2025-06-06* — If the copied creature has {X} in its mana cost, X is 0.
+  - *2025-06-06* — If the copied creature is a token, Gogo copies the original characteristics of that token as stated by the effect that created the token, with the listed exception.
+  - *2025-06-06* — If the copied creature is copying something else, then Gogo becomes a copy of whatever that creature is copying, with the listed exception.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/56/gogo-mysterious-mime) · oracle_id `6fdcb563-9279-4365-8a78-26e75fbfd917` · printing: FIC #56 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

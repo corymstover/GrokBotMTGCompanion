@@ -135,7 +135,9 @@
   > *Some nature mages unknowingly took advantage of the temporal energies still swirling on Dominaria. What they mistook for healing magic was in fact the manipulation of time.*
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2329 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cns/183/wrap-in-vigor) · oracle_id `39da2aa8-f4d9-44f6-a446-488beaec821f` · printing: CNS #183 (2014-06-06) · [rulings](https://api.scryfall.com/cards/92d53533-b10e-430a-a6f6-58ecb508be77/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2007-05-01* — Wrap in Vigor sets up a separate regeneration shield on each creature you control at the time it resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cns/183/wrap-in-vigor) · oracle_id `39da2aa8-f4d9-44f6-a446-488beaec821f` · printing: CNS #183 (2014-06-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wrathful Raptors
 
@@ -149,7 +151,12 @@
   > *They gulp down their prey on the run, claws dripping with blood as they hunt for their next meal.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2644 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/88/wrathful-raptors) · oracle_id `1ba92b64-d821-4c24-aed6-fc90d0c63c10` · printing: LCC #88 (2023-11-17) · [rulings](https://api.scryfall.com/cards/49243e92-93e3-4090-b4f7-86fa4ca2fef5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2023-11-10* — "Any target that isn't a Dinosaur" means any non-Dinosaur creature, any planeswalker or battle, or any player (no matter how old they are).
+  - *2023-11-10* — If Wrathful Raptors and one or more other Dinosaurs you control are dealt damage at the same time, Wrathful Raptors's ability triggers for itself and for each of those Dinosaurs, regardless of whether or not Wrathful Raptors was dealt lethal damage.
+  - *2023-11-10* — If lethal damage is dealt to a Dinosaur you control while you control Wrathful Raptors, Wrathful Raptors's last ability still triggers.
+  - *2023-11-10* — If multiple sources deal damage to a Dinosaur you control while you control Wrathful Raptors, most likely because multiple creatures blocked that Dinosaur, Wrathful Raptors's last ability triggers only once.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/88/wrathful-raptors) · oracle_id `1ba92b64-d821-4c24-aed6-fc90d0c63c10` · printing: LCC #88 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wrathful Red Dragon
 
@@ -163,6 +170,7 @@
   > *"We'll put it all back! The gems, the gold, the chalice that would've looked great on my mantle; we'll put everythi—"*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2260 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/207/wrathful-red-dragon) · oracle_id `17c2a962-994a-49f1-8c4e-ebcc43c3c92a` · printing: CLB #207 (2022-06-10) · [rulings](https://api.scryfall.com/cards/acd207de-eec3-4d82-b8b9-b1e60a7bad12/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wrath of God
@@ -238,7 +246,19 @@
 - **Flavor text** (MH3 printing):
   > *Even the weather of Dominaria shifts to assail would-be invaders.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9532 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/49/wrath-of-the-skies) · oracle_id `21efa6f2-3e7c-4576-b5a3-0b75b2843442` · printing: MH3 #49 (2024-06-14) · [rulings](https://api.scryfall.com/cards/4ef1882e-b422-4f30-8a6c-bd71c2601660/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2024-06-07* — Choosing not to pay any {E} will have the same result as choosing to pay zero {E}. In either of these cases, each artifact, creature, and enchantment with a mana value of 0 will be destroyed.
+  - *2024-06-07* — Energy counters are a kind of counter that a player may have. They're not associated with any specific permanents.
+  - *2024-06-07* — Energy counters aren't mana. They don't go away as steps, phases, and turns end, and effects that add mana "of any type" can't give you energy counters.
+  - *2024-06-07* — If a permanent on the battlefield has {X} in its mana cost, X is 0 when determining its mana value.
+  - *2024-06-07* — If a spell or ability with one or more targets states that you "may pay" some amount of {E}, and each permanent that it targets has become an illegal target, the spell or ability won't resolve. You can't pay any {E} even if you want to.
+  - *2024-06-07* — If an effect says you get one or more {E}, you get that many energy counters. To pay one or more {E}, you lose that many energy counters. You can't pay more energy counters than you have. Any effects that interact with counters a player gets, has, or loses can interact with energy counters.
+  - *2024-06-07* — Keep track of how many energy counters each player has. Potential ways to track this include writing theme down on paper or using dice, but any method that is clear and mutually agreeable is fine. (At higher levels of tournament play, dice may not be allowed for tracking counters that players have.)
+  - *2024-06-07* — Some spells and abilities that give you {E} may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't get any {E}.
+  - *2024-06-07* — Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
+  - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
+  - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/49/wrath-of-the-skies) · oracle_id `21efa6f2-3e7c-4576-b5a3-0b75b2843442` · printing: MH3 #49 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wreak Havoc
 
@@ -289,7 +309,14 @@
   > Flashback {3}{R}{G}
 - **Keywords:** Flashback, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9181 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/250/wreck-and-rebuild) · oracle_id `7e10c141-dfb0-409b-b8c9-cdfe93b42a06` · printing: OTC #250 (2024-04-19) · [rulings](https://api.scryfall.com/cards/a177ba01-53cd-4223-8f79-9fbeb2b86906/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-10-13* — "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2023-10-13* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2023-10-13* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2023-10-13* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2023-10-13* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2023-10-13* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/250/wreck-and-rebuild) · oracle_id `7e10c141-dfb0-409b-b8c9-cdfe93b42a06` · printing: OTC #250 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wreck Hunter
 
@@ -326,7 +353,11 @@
   > *"I don't care what it is! I'm gonna bust him up!"*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2842 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/100/wrecking-ball-arm) · oracle_id `9f48cb32-46be-4c47-b558-2ea359efdd9b` · printing: FIC #100 (2025-06-13) · [rulings](https://api.scryfall.com/cards/e1f16620-08d6-49bd-9f75-d89ae46bfd1f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-06-06* — Effects that modify the creature's power and/or toughness without setting base power and/or toughness will apply to the creature no matter when they started to take effect. The same is true for counters that change its power and/or toughness and effects that switch its power and toughness.
+  - *2025-06-06* — Once a creature equipped with Wrecking Ball Arm has been blocked, changing the blocking creature's power to 2 or less won't cause the creature to become unblocked.
+  - *2025-06-06* — Wrecking Ball Arm overwrites all previous effects that set the creature's base power and toughness to specific values. Any power- or toughness-setting effects that start to apply afterward will overwrite this effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/100/wrecking-ball-arm) · oracle_id `9f48cb32-46be-4c47-b558-2ea359efdd9b` · printing: FIC #100 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wrecking Beast
 
@@ -461,7 +492,9 @@
   > −7: You get an emblem with "You may play lands and cast permanent spells from your graveyard."
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2712 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/217/wrenn-and-realmbreaker) · oracle_id `4566fb92-448e-4b3f-9045-9d74323c35d1` · printing: MOM #217 (2023-04-21) · [rulings](https://api.scryfall.com/cards/6f807d91-b157-44e8-a431-49782184f876/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-04-14* — The lands you play and spells you cast from your graveyard follow the usual timing restrictions, and you must pay any costs for spells you cast.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/217/wrenn-and-realmbreaker) · oracle_id `4566fb92-448e-4b3f-9045-9d74323c35d1` · printing: MOM #217 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wrenn and Seven
 
@@ -474,6 +507,7 @@
   > −3: Create a green Treefolk creature token with reach and "This token's power and toughness are each equal to the number of lands you control."
   > −8: Return all permanent cards from your graveyard to your hand. You get an emblem with "You have no maximum hand size."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2491 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/226/wrenn-and-seven) · oracle_id `63a509ea-cedc-40e9-b4e8-0ff4fc356485` · printing: INR #226 (2025-01-24) · [rulings](https://api.scryfall.com/cards/302f0dc1-88ab-4961-b78c-fbe7980dca18/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wrenn and Six
@@ -486,7 +520,9 @@
   > −1: Wrenn and Six deals 1 damage to any target.
   > −7: You get an emblem with "Instant and sorcery cards in your graveyard have retrace." (You may cast instant and sorcery cards from your graveyard by discarding a land card in addition to paying their other costs.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6569 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/296/wrenn-and-six) · oracle_id `108ae90a-50fa-4cfd-b751-d630e41425fe` · printing: 2X2 #296 (2022-07-08) · [rulings](https://api.scryfall.com/cards/5bd498cc-a609-4457-9325-6888d59ca36f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-06-14* — When a spell you cast with retrace resolves or is countered, it's put back into your graveyard. You may use the retrace ability to cast it again.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/296/wrenn-and-six) · oracle_id `108ae90a-50fa-4cfd-b751-d630e41425fe` · printing: 2X2 #296 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wrenn's Resolve
 
@@ -497,7 +533,10 @@
 - **Flavor text** (MOM printing):
   > *Even as she burned, Wrenn bent Realmbreaker to her will.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2157 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/173/wrenns-resolve) · oracle_id `a7d8c99c-cd44-4bad-82e6-7c7cff9bd89f` · printing: MOM #173 (2023-04-21) · [rulings](https://api.scryfall.com/cards/9a47999c-12d5-4e1a-a9c1-40a1757007f1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-04-14* — Any cards you don't play will remain in exile.
+  - *2023-04-14* — The cards you play from exile follow the usual timing restrictions, and you must pay any costs for spells you cast.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/173/wrenns-resolve) · oracle_id `a7d8c99c-cd44-4bad-82e6-7c7cff9bd89f` · printing: MOM #173 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wren's Run Hydra
 
@@ -512,6 +551,7 @@
   > *The boggart hopped carelessly among the roots . . . until the roots woke up.*
 - **Keywords:** Reach, Reinforce
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9251 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/183/wrens-run-hydra) · oracle_id `a2196bc3-2fe6-49d4-8c79-d6beb3d6c5d8` · printing: MH2 #183 (2021-06-18) · [rulings](https://api.scryfall.com/cards/5198ac65-118c-4616-8315-d71d41b883ad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wren's Run Packmaster
@@ -637,7 +677,12 @@
   > Whenever Wrexial deals combat damage to a player, you may cast target instant or sorcery card from that player's graveyard without paying its mana cost. If that spell would be put into a graveyard, exile it instead.
 - **Keywords:** Landwalk, Swampwalk, Islandwalk
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5414 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/359/wrexial-the-risen-deep) · oracle_id `fd36cc16-d3d9-4c9d-9d28-bbe7e5459d75` · printing: NCC #359 (2022-04-29) · [rulings](https://api.scryfall.com/cards/c96b11ad-67fd-4a2b-89ea-e9df9c50731e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2010-03-01* — If you are unable to cast the targeted card (there are no legal targets for the spell, for example), nothing happens when the ability resolves, and the card remains in its owner's graveyard.
+  - *2010-03-01* — If you cast a card "without paying its mana cost," you can't pay any alternative costs. On the other hand, if the card has additional costs (such as kicker or multikicker), you may pay those.
+  - *2010-03-01* — If you cast the targeted card and it would be put into its owner's graveyard from the stack for any reason (either because it resolves or because it's countered), that card is exiled instead.
+  - *2010-03-01* — If you want to cast the targeted card, you cast it as part of the resolution of Wrexial's triggered ability. Timing restrictions based on the card's type are ignored. Other restrictions are not (such as "Cast [this card] only during your end step").
+- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/359/wrexial-the-risen-deep) · oracle_id `fd36cc16-d3d9-4c9d-9d28-bbe7e5459d75` · printing: NCC #359 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wriggling Grub
 
@@ -649,6 +694,7 @@
 - **Flavor text** (J25 printing):
   > *The professor of essence studies always relished the looks on the first-years' faces as their vivisections descended into chaos.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8067 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/j25/12/wriggling-grub) · oracle_id `d25e8f54-1915-4d0b-b4b1-93ee40da2cfa` · printing: J25 #12 (2024-11-15) · [rulings](https://api.scryfall.com/cards/e02aa086-13b2-42cf-acf4-086ba406e886/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wring Flesh
@@ -697,7 +743,14 @@
   > Whenever you sacrifice another Eldrazi, put a +1/+1 counter on this creature.
 - **Keywords:** Reach, Devoid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7169 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/208/writhing-chrysalis) · oracle_id `d27bebc9-348d-4b8e-816a-a4da66fb5618` · printing: MH3 #208 (2024-06-14) · [rulings](https://api.scryfall.com/cards/f54dbeb1-51f8-40e2-912a-ec25457de5a2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-06-07* — A card with devoid is just colorless. It's not colorless and the colors of mana in its mana cost.
+  - *2024-06-07* — Devoid doesn't affect the color identity of the card for the purposes of the Commander variant. For example, while Abstruse Appropriation is colorless because it has devoid, its color identity is still white and black, and it can't be included in a Commander deck where the commander's color identity doesn't include both white and black.
+  - *2024-06-07* — Devoid works in all zones, not just on the battlefield.
+  - *2024-06-07* — If a card loses devoid, it will still be colorless. This is because effects that change an object's color (like the one created by devoid) are considered before the object loses devoid.
+  - *2024-06-07* — Other cards and abilities can give a card with devoid a color. If that happens, it's just the new color, not that color and colorless.
+  - *2024-06-07* — Writhing Chrysalis's second ability will resolve before Writhing Chrysalis does. If Writhing Chrysalis is countered or otherwise leaves the stack in response to that triggered ability, the triggered ability will still resolve as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/208/writhing-chrysalis) · oracle_id `d27bebc9-348d-4b8e-816a-a4da66fb5618` · printing: MH3 #208 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Writhing Necromass
 
@@ -746,4 +799,6 @@
 - **Flavor text** (CMR printing):
   > *Its bewildered bellow was met with a stern "shh."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5790 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/107/wrong-turn) · oracle_id `d1cfbbcc-4aee-4400-b5a8-18713829ae72` · printing: CMR #107 (2020-11-20) · [rulings](https://api.scryfall.com/cards/3b69687d-191a-4bca-b1f7-eea27847c1af/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-11-10* — A player gaining control of a creature doesn't cause that player to gain control of any Auras or Equipment attached to that creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/107/wrong-turn) · oracle_id `d1cfbbcc-4aee-4400-b5a8-18713829ae72` · printing: CMR #107 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -235,6 +235,7 @@
   > *—Superior Spider-Man, Otto Octavius*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8460 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/173/spider-bot) · oracle_id `e4bb33b2-adde-4176-9274-7598b559aa6a` · printing: SPM #173 (2025-09-26) · [rulings](https://api.scryfall.com/cards/24df824a-c1d6-4f09-b866-313b31fec5fb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spider-Byte, Web Warden
@@ -272,7 +273,12 @@
   > *To the giant spiders of Dunbarrow, there's little difference between fly and faerie.*
 - **Keywords:** Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7739 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/186/spider-food) · oracle_id `38eabfea-5ea5-4baa-8ad6-7a7cb00e1fed` · printing: WOE #186 (2023-09-08) · [rulings](https://api.scryfall.com/cards/b9fd720b-e9c2-4e82-917e-bab6c544afb0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2023-09-01* — You can cast Spider Food without a target just to create a Food token. However, if you do choose a target, and that target is illegal at the time Spider Food tries to resolve, the spell won't resolve and none of its effects will happen. You won't create a Food token.
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/186/spider-food) · oracle_id `38eabfea-5ea5-4baa-8ad6-7a7cb00e1fed` · printing: WOE #186 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spider-Girl, Legacy Hero
 
@@ -299,6 +305,7 @@
   > *At the edge of the Spider-Verse, a Gwen Stacy becomes a hero.*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9409 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/874/spider-gwen-free-spirit) · oracle_id `2648559d-1d96-47d2-a769-cfa2cbca2be5` · printing: MSC #874 (2026-06-26) · [rulings](https://api.scryfall.com/cards/3a9a0ec2-6f57-4218-a307-6e8d785a1693/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spider-Ham, Peter Porker
@@ -311,6 +318,7 @@
   > Animal May-Ham — Other Spiders, Boars, Bats, Bears, Birds, Cats, Dogs, Frogs, Jackals, Lizards, Mice, Otters, Rabbits, Raccoons, Rats, Squirrels, Turtles, and Wolves you control get +1/+1.
 - **Keywords:** Food, Animal May-Ham
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5526 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/114/spider-ham-peter-porker) · oracle_id `00b50215-e832-417f-9c80-2bc3050b6ebb` · printing: SPM #114 (2025-09-26) · [rulings](https://api.scryfall.com/cards/41f18f42-b86b-4a12-9f0d-76b761571195/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spider-Islanders
@@ -338,6 +346,7 @@
   > At the beginning of your end step, if you've played a land or cast a spell this turn from anywhere other than your hand, Spider-Man 2099 deals damage equal to his power to any target.
 - **Keywords:** Vigilance, From the Future, Double strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7544 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/150/spider-man-2099) · oracle_id `19845456-3d96-48a4-89fa-9b8e583774c9` · printing: SPM #150 (2025-09-26) · [rulings](https://api.scryfall.com/cards/2a72c7e7-34f5-4cb0-9959-35516e398e49/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spider-Man 2099, Miguel O'Hara
@@ -365,7 +374,12 @@
   > *"Nothing like a little crimefighting after class."*
 - **Keywords:** Web-slinging
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6770 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/spm/115/spider-man-brooklyn-visionary) · oracle_id `2ca85872-9436-4515-af50-c13e59605627` · printing: SPM #115 (2025-09-26) · [rulings](https://api.scryfall.com/cards/e19929bc-cbe1-4970-952d-8e9d0193ddce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-09-19* — If any permanent has an ability that triggers when the permanent you return leaves the battlefield, that ability will be put on the stack after you finish casting the spell, and it will resolve before that spell.
+  - *2025-09-19* — The creature you return must be tapped at the time you pay costs, but doesn't necessarily need to be tapped before you start casting the spell. For example, if you tap a creature with a mana ability to pay part of the spell's web-slinging cost, you could also return that creature to your hand to pay the cost.
+  - *2025-09-19* — Web-slinging represents an alternative cost. If another effect allows you to play a card for a different alternative cost, including "without paying its mana cost," you can't also choose to pay its web-slinging cost. If any additional costs from other sources are applied, you must pay those.
+  - *2025-09-19* — You must follow all normal timing rules when casting a spell with web-slinging. For creatures, that usually means you must cast it during a main phase of your turn while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/spm/115/spider-man-brooklyn-visionary) · oracle_id `2ca85872-9436-4515-af50-c13e59605627` · printing: SPM #115 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spider-Man, Hometown Hero
 
@@ -394,6 +408,7 @@
   > *Some spiders feed on \*other\* spiders.*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3820 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/148/spider-manifestation) · oracle_id `8281f2b9-e81b-48da-812a-8713b2adf8ab` · printing: SPM #148 (2025-09-26) · [rulings](https://api.scryfall.com/cards/99223677-b8a5-48f1-8009-e8475eada7db/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spider-Man India
@@ -408,7 +423,12 @@
   > *"That's why I do what I do. For my people."*
 - **Keywords:** Web-slinging, Pavitr's Sevā
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7758 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/spm/151/spider-man-india) · oracle_id `8933297c-62f1-4df9-91b8-2d3481db77e5` · printing: SPM #151 (2025-09-26) · [rulings](https://api.scryfall.com/cards/65b8af30-559b-43a9-8526-62c28c378339/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-09-19* — If any permanent has an ability that triggers when the permanent you return leaves the battlefield, that ability will be put on the stack after you finish casting the spell, and it will resolve before that spell.
+  - *2025-09-19* — The creature you return must be tapped at the time you pay costs, but doesn't necessarily need to be tapped before you start casting the spell. For example, if you tap a creature with a mana ability to pay part of the spell's web-slinging cost, you could also return that creature to your hand to pay the cost.
+  - *2025-09-19* — Web-slinging represents an alternative cost. If another effect allows you to play a card for a different alternative cost, including "without paying its mana cost," you can't also choose to pay its web-slinging cost. If any additional costs from other sources are applied, you must pay those.
+  - *2025-09-19* — You must follow all normal timing rules when casting a spell with web-slinging. For creatures, that usually means you must cast it during a main phase of your turn while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/spm/151/spider-man-india) · oracle_id `8933297c-62f1-4df9-91b8-2d3481db77e5` · printing: SPM #151 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spider-Man, Miles Morales
 
@@ -420,7 +440,9 @@
   > Whenever Spider-Man enters or attacks, put a +1/+1 counter on each other creature you control. Those creatures gain trample until end of turn.
 - **Keywords:** Vigilance, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7061 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/spe/18/spider-man-miles-morales) · oracle_id `229ecaa1-b3c9-44a1-8e7a-857ea5b8b0df` · printing: SPE #18 (2025-09-26) · [rulings](https://api.scryfall.com/cards/61c17573-437e-4ffb-811f-8390d388d5a7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-09-19* — Spider-Man, Miles Morales's last ability triggers only when he enters or attacks, not when any other creature named Spider-Man enters or attacks.
+- **Source flags:** [Scryfall](https://scryfall.com/card/spe/18/spider-man-miles-morales) · oracle_id `229ecaa1-b3c9-44a1-8e7a-857ea5b8b0df` · printing: SPE #18 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spider-Man, New Champion
 
@@ -446,6 +468,7 @@
   > Whenever a creature you control attacks alone, put a +1/+1 counter on it. Then surveil X, where X is the number of counters on it. (Look at the top X cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)
 - **Keywords:** Surveil, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8860 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/67/spider-man-noir) · oracle_id `2efd6494-c5e1-41de-bc6e-8490ff046cd1` · printing: SPM #67 (2025-09-26) · [rulings](https://api.scryfall.com/cards/bc64366c-2691-48cd-bb4b-a4b088c6f16b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spider-Man No More
@@ -459,6 +482,7 @@
   > *"Being Spider-Man has brought me nothing but unhappiness! And for what?"*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7902 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/45/spider-man-no-more) · oracle_id `163f1fce-70c8-44e3-a679-f97d52cd1e9a` · printing: SPM #45 (2025-09-26) · [rulings](https://api.scryfall.com/cards/72dbab11-96ed-43db-8b59-ceca47c8cd22/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spider-Man, Peter Parker
@@ -543,7 +567,12 @@
   > *"Disrespect authority. Smash the system."*
 - **Keywords:** Riot
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3535 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/spm/92/spider-punk) · oracle_id `03bf7a90-78c1-4e83-8553-e22d85e49876` · printing: SPM #92 (2025-09-26) · [rulings](https://api.scryfall.com/cards/0bd41879-fcd4-4211-9b98-47e7cdba5399/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-09-19* — If a creature entering the battlefield has riot but can't have +1/+1 counters put on it, it gains haste.
+  - *2025-09-19* — If you choose for a creature with riot to gain haste, it gains haste indefinitely. It doesn't lose it as the turn ends or if another player gains control of it.
+  - *2025-09-19* — Riot is a replacement effect. Players can't respond to your choice of a +1/+1 counter or haste.
+  - *2025-09-19* — While Spider-Punk is on the battlefield, spells and abilities can still be the target of another spell or ability that would normally counter them, but they won't be countered as that spell or ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/spm/92/spider-punk) · oracle_id `03bf7a90-78c1-4e83-8553-e22d85e49876` · printing: SPM #92 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spider-Rex, Daring Dino
 
@@ -557,6 +586,7 @@
   > *On Earth-66, Pter Ptarker learned that with GRRRR power comes GRRAHHHsibility.*
 - **Keywords:** Reach, Trample, Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8958 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/818/spider-rex-daring-dino) · oracle_id `58b771d4-dfaf-4189-a5f6-4bc0fb4c0fa3` · printing: MSC #818 (2026-06-26) · [rulings](https://api.scryfall.com/cards/531bad8f-a1e2-43ff-9d76-d702142f50a1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spider-Sense
@@ -570,7 +600,13 @@
   > *"My spider-sense—it's tingling! Something behind me!"*
 - **Keywords:** Web-slinging
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2866 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/spm/46/spider-sense) · oracle_id `c4485bf9-e7ff-48b5-a983-02900939ee9d` · printing: SPM #46 (2025-09-26) · [rulings](https://api.scryfall.com/cards/4499a25b-f4a5-4f2c-9ebd-bc68c7840b39/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-09-19* — If any permanent has an ability that triggers when the permanent you return leaves the battlefield, that ability will be put on the stack after you finish casting the spell, and it will resolve before that spell.
+  - *2025-09-19* — The creature you return must be tapped at the time you pay costs, but doesn't necessarily need to be tapped before you start casting the spell. For example, if you tap a creature with a mana ability to pay part of the spell's web-slinging cost, you could also return that creature to your hand to pay the cost.
+  - *2025-09-19* — Triggered abilities use the words "when," "whenever," or "at." They're often written as "[Trigger condition], [effect]." Some keyword abilities (such as prowess) are triggered abilities and will have "when," "whenever," or "at the beginning of" in their reminder text.
+  - *2025-09-19* — Web-slinging represents an alternative cost. If another effect allows you to play a card for a different alternative cost, including "without paying its mana cost," you can't also choose to pay its web-slinging cost. If any additional costs from other sources are applied, you must pay those.
+  - *2025-09-19* — You must follow all normal timing rules when casting a spell with web-slinging. For creatures, that usually means you must cast it during a main phase of your turn while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/spm/46/spider-sense) · oracle_id `c4485bf9-e7ff-48b5-a983-02900939ee9d` · printing: SPM #46 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spidersilk Armor
 
@@ -581,6 +617,7 @@
 - **Flavor text** (DDG printing):
   > *It hardly weighs anything, but it takes all day to remove.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7255 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddg/32/spidersilk-armor) · oracle_id `ad73e5eb-197c-45a3-9d20-a406ba126c79` · printing: DDG #32 (2011-04-01) · [rulings](https://api.scryfall.com/cards/e55202a1-c246-4b5b-94d6-43c86a69d61a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spidersilk Net
@@ -594,6 +631,7 @@
   > *"Dragons are our betters, but we will fight them if our dragonlord orders it."*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8820 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dtk/244/spidersilk-net) · oracle_id `04979f18-1ba8-47a3-a078-ab6b84bfac72` · printing: DTK #244 (2015-03-27) · [rulings](https://api.scryfall.com/cards/9561b47c-b863-463a-8a10-56fede2cb42c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spider-Slayer, Hatred Honed
@@ -630,7 +668,15 @@
   > Flashback {6}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7986 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/216/spider-spawning) · oracle_id `da113cc9-bb2b-4af4-9c43-32c165b87363` · printing: INR #216 (2025-01-24) · [rulings](https://api.scryfall.com/cards/c229cbde-f370-4fef-8765-9773d516324a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2011-09-22* — The number of creature cards in your graveyard is counted when Spider Spawning resolves.
+  - *2021-03-19* — "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2021-03-19* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2021-03-19* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2021-03-19* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/216/spider-spawning) · oracle_id `da113cc9-bb2b-4af4-9c43-32c165b87363` · printing: INR #216 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spider-Suit
 
@@ -657,7 +703,12 @@
   > *"Spiders across the Multiverse are dying. I must keep them safe."*
 - **Keywords:** Web-slinging
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9053 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/777/spider-uk) · oracle_id `ebf8d006-2997-431b-b4cb-9692741b45ca` · printing: MSC #777 (2026-06-26) · [rulings](https://api.scryfall.com/cards/9a042cbb-a101-47f9-ae32-423121541f6c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-09-19* — If any permanent has an ability that triggers when the permanent you return leaves the battlefield, that ability will be put on the stack after you finish casting the spell, and it will resolve before that spell.
+  - *2025-09-19* — The creature you return must be tapped at the time you pay costs, but doesn't necessarily need to be tapped before you start casting the spell. For example, if you tap a creature with a mana ability to pay part of the spell's web-slinging cost, you could also return that creature to your hand to pay the cost.
+  - *2025-09-19* — Web-slinging represents an alternative cost. If another effect allows you to play a card for a different alternative cost, including "without paying its mana cost," you can't also choose to pay its web-slinging cost. If any additional costs from other sources are applied, you must pay those.
+  - *2025-09-19* — You must follow all normal timing rules when casting a spell with web-slinging. For creatures, that usually means you must cast it during a main phase of your turn while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/777/spider-uk) · oracle_id `ebf8d006-2997-431b-b4cb-9692741b45ca` · printing: MSC #777 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spider Umbra
 
@@ -669,7 +720,18 @@
   > Umbra armor (If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura.)
 - **Keywords:** Umbra armor, Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5922 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/uma/184/spider-umbra) · oracle_id `f32aaa81-96bd-4213-b0b8-8c021f3cea57` · printing: UMA #184 (2018-12-07) · [rulings](https://api.scryfall.com/cards/762b8d61-53c9-41e1-aaa7-098b91d9b938/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2024-06-07* — If a creature enchanted with an Aura that has umbra armor has indestructible, lethal damage and effects that try to destroy it simply have no effect. Umbra armor won't do anything because it won't have to.
+  - *2024-06-07* — If a creature enchanted with an Aura that has umbra armor would be destroyed by multiple state-based actions at the same time (most likely because a creature with deathtouch has dealt damage to that creature greater than or equal to its toughness), umbra armor's effect will replace all of them and save the creature.
+  - *2024-06-07* — If a creature you control is enchanted with multiple Auras that have umbra armor, and the enchanted creature would be destroyed, one of those Auras is destroyed instead—but only one of them. You choose which one because you control the enchanted creature.
+  - *2024-06-07* — If a spell or ability says that it would "destroy" a creature enchanted with an Aura that has umbra armor, that spell or ability is what causes the Aura to be destroyed instead. Umbra armor doesn't destroy the Aura; rather, it changes the effects of the spell or ability. On the other hand, if a spell or ability deals lethal damage to a creature enchanted with an Aura that has umbra armor, the game rules regarding lethal damage cause the Aura to be destroyed, not that spell or ability.
+  - *2024-06-07* — If a spell or ability would destroy both an Aura with umbra armor and the creature it's enchanting at the same time, umbra armor's effect will save the enchanted creature from being destroyed. Instead, the spell or ability will destroy the Aura in two different ways at the same time, but the result is the same as destroying it once.
+  - *2024-06-07* — Some printings of this card refer to the ability "totem armor". This ability's name has been replaced with "umbra armor". This change does not affect the gameplay function of this card.
+  - *2024-06-07* — Umbra armor has no effect if the enchanted creature is put into a graveyard for any other reason, such as if it's sacrificed, if the "legend rule" applies to it, or if its toughness is 0 or less.
+  - *2024-06-07* — Umbra armor's effect is applied no matter why the enchanted creature would be destroyed: because it's been dealt lethal damage, or because it's being affected by an effect that says to "destroy" it (such as Breathe Your Last). In either case, all damage is removed from the creature and the Aura is destroyed instead.
+  - *2024-06-07* — Umbra armor's effect is mandatory. If the enchanted creature would be destroyed, you must remove all damage from it (if it has any) and destroy the Aura that has umbra armor instead.
+  - *2024-06-07* — Umbra armor's effect is not regeneration. Specifically, if umbra armor's effect is applied, the enchanted creature does not become tapped and is not removed from combat as a result. Effects that say the enchanted creature can't be regenerated won't prevent umbra armor's effect from being applied.
+- **Source flags:** [Scryfall](https://scryfall.com/card/uma/184/spider-umbra) · oracle_id `f32aaa81-96bd-4213-b0b8-8c021f3cea57` · printing: UMA #184 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spider-Verse
 
@@ -681,7 +743,12 @@
 - **Flavor text** (SPM printing):
   > *Every Spider ever...and then some!*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7756 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/spm/93/spider-verse) · oracle_id `7ef7d902-1f05-40b3-8997-dec197b0b678` · printing: SPM #93 (2025-09-26) · [rulings](https://api.scryfall.com/cards/f8779eb2-1210-430d-8d42-3077053441ee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-09-19* — If the spell that's copied has an X whose value was determined as it was cast, the copy will have the same value of X.
+  - *2025-09-19* — If, while you control Spider-Verse, you also control a legendary Spider permanent and a single legendary non-Spider permanent with the same name, the legend rule will not cause you to put either one into your graveyard.
+  - *2025-09-19* — If, while you control Spider-Verse, you also control more than one legendary non-Spider permanent and at least one legendary Spider permanent all with the same name, the legend rule applies to only the non-Spider permanents. You must choose one of the non-Spider permanents to keep and put the rest of the non-Spider permanents with that name into your graveyard. You may not choose one of the Spider permanents to keep and you may not put any of the Spiders into your graveyard this way.
+  - *2025-09-19* — Once you choose to copy a spell with Spider-Verse's last ability, that ability won't trigger again for the duration of the turn. Any instances of the ability already on the stack when you choose to copy a spell will have no effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/spm/93/spider-verse) · oracle_id `7ef7d902-1f05-40b3-8997-dec197b0b678` · printing: SPM #93 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spiderwig Boggart
 
@@ -721,6 +788,7 @@
   > *To know her is to fear her.*
 - **Keywords:** Flying, Venom Blast
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5275 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/152/spider-woman-stunning-savior) · oracle_id `be2b9c6d-4ecb-49ec-b276-4aa93c5dfc00` · printing: SPM #152 (2025-09-26) · [rulings](https://api.scryfall.com/cards/bc9b2a76-3cce-4fd0-a4ef-932747cb11b2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spidery Grasp
@@ -792,7 +860,27 @@
   > If a source you control would deal noncombat damage to an opponent, it deals that much damage plus 2 instead.
   > (You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4360 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/28/spiked-corridor-torture-pit) · oracle_id `e49b902f-a556-4dab-8928-93caf0a3f609` · printing: DSC #28 (2024-09-27) · [rulings](https://api.scryfall.com/cards/b90164a1-8b0a-4445-a0ad-43e4c3324925/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (19):
+  - *2024-09-20* — An ability that triggers "when you unlock this door" triggers when that door becomes unlocked. This can happen one of two ways: (1) the door becomes unlocked on the battlefield or (2) the door becomes unlocked as the Room enters the battlefield because you cast the corresponding half. In the latter case, since the door becoming unlocked is what causes the ability to trigger, effects that cause abilities that trigger when a permanent enters to trigger an additional time (such as that of Panharmonicon) won't apply.
+  - *2024-09-20* — An ability that triggers "whenever you fully unlock a Room" triggers when a door becomes unlocked and the other door of that Room is already unlocked, or when both doors of that Room become unlocked simultaneously.
+  - *2024-09-20* — Any time you have priority during a main phase of your turn and the stack is empty, you may pay the mana cost of a locked door (also called its "unlock cost"). That door becomes unlocked. This is a special action. It doesn't use the stack and can't be responded to.
+  - *2024-09-20* — Each Room card has two names. If an effect instructs you to choose a card name, you may choose one of those names, but not both.
+  - *2024-09-20* — Each Room card is a single card. For example, if you discard a Room card, you've discarded one card, not two. If an effect counts the number of enchantment cards in your graveyard, Bottomless Pool // Locker Room counts once, not twice.
+  - *2024-09-20* — If a Room enters from any zone other than the stack, it will enter with both halves locked.
+  - *2024-09-20* — If a spell or ability would create a copy of a Room spell on the stack, the copy retains the choice of which door was cast but also retains the full characteristics of the spell. The characteristics of the door that wasn't cast are still ignored while the copy is on the stack, and when the copy resolves, the token it becomes will enter with the appropriate door unlocked.
+  - *2024-09-20* — If an effect allows you to cast a spell with certain characteristics, consider only the characteristics of the door you're casting. For example, if an effect allows you to cast a permanent spell with mana value 3 or less from among cards in your graveyard, you could cast Bottomless Pool this way, but not Locker Room.
+  - *2024-09-20* — If another effect modifies how much noncombat damage the source would deal, including preventing some of it, the player being dealt damage chooses an order in which to apply those effects. If all of the damage is prevented, Torture Pit's effect no longer applies.
+  - *2024-09-20* — If neither door of a Room is unlocked, it's a Room enchantment with no name and no abilities.
+  - *2024-09-20* — If noncombat damage dealt by a source you control is being divided or assigned among multiple players, divide the original amount before adding 2. For example, if you cast a sorcery spell that deals 4 damage divided as you choose among any number of targets, you could have it deal 3 damage to one opponent and 1 damage to another opponent. Those amounts would then be increased to 5 damage and 3 damage, respectively.
+  - *2024-09-20* — Room cards have two card faces with a shared type line on a single card. The characteristics of the door you didn't cast are ignored while the spell is on the stack.
+  - *2024-09-20* — Some abilities allow you to lock a door of a Room you control. You can't choose to lock a door that's already locked with such an ability. If such an ability requires a target, you can target a Room even if both of its doors are locked, but the ability won't do anything when it resolves.
+  - *2024-09-20* — Some abilities allow you to unlock a door of a Room you control. You can't choose to unlock a door that's already unlocked with such an ability. If such an ability requires a target, you can target a Room even if both of its doors are unlocked, but the ability won't do anything when it resolves.
+  - *2024-09-20* — Some doors have abilities that trigger whenever you unlock that door and require one or more targets. You can unlock that door even if there would be insufficient legal targets for that triggered ability. The triggered ability won't go on the stack.
+  - *2024-09-20* — The additional 2 damage is dealt by the same source as the original source of damage. The additional damage isn't dealt by Torture Pit unless Torture Pit is the original source of damage.
+  - *2024-09-20* — To cast a Room spell, choose a half (or "door") to cast. There's no way to cast both halves of a Room card. When the Room spell resolves, the corresponding door becomes unlocked as the Room enters.
+  - *2024-09-20* — While in any zone other than the stack or the battlefield, a Room card's characteristics are a combination of its two doors. For example, Bottomless Pool // Locker Room has a mana value of 6 while it's in your library. If an effect allows you to search your library for a card with mana value 4 or less, you can't find Bottomless Pool // Locker Room.
+  - *2024-09-20* — While on the battlefield, a Room's characteristics are a combination of the characteristics of its unlocked doors. For example, if Bottomless Pool // Locker Room is on the battlefield with both doors unlocked, its names are Bottomless Pool and Locker Room, its mana value is 6, it's a Room Enchantment, and it has the abilities in each door's text box.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/28/spiked-corridor-torture-pit) · oracle_id `e49b902f-a556-4dab-8928-93caf0a3f609` · printing: DSC #28 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spiked Pit Trap
 
@@ -840,6 +928,7 @@
   > {2}, Remove a +1/+1 counter from this creature: Put a +1/+1 counter on target creature.
   > Remove a +1/+1 counter from this creature: You gain 2 life.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9298 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/196/spike-feeder) · oracle_id `5b147eab-39dd-4c2a-8f59-d778037788aa` · printing: TPR #196 (2015-05-06) · [rulings](https://api.scryfall.com/cards/090a5f1f-9a1a-4e93-8c33-a0204c2917d5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spikefield Hazard // Spikefield Cave
@@ -857,7 +946,17 @@
   > *"Silence until we're through. Even a whisper's echo can dislodge death from above."*
   > *—Raff Slugeater, goblin shortcutter*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2955 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/166/spikefield-hazard-spikefield-cave) · oracle_id `81036c9f-fe0a-45a7-bcd5-0d344f31055a` · printing: ZNR #166 (2020-09-25) · [rulings](https://api.scryfall.com/cards/a69541db-3f4e-412f-aa8e-dec1e74f74dc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2020-09-25* — A modal double-faced card can't be transformed or be put onto the battlefield transformed. Ignore any instruction to transform a modal double-faced card or to put one onto the battlefield transformed.
+  - *2020-09-25* — If an effect allows you to play a land or cast a spell from among a group of cards, you may play or cast a modal double-faced card with any face that fits the criteria of that effect.
+  - *2020-09-25* — If an effect allows you to play a specific modal double-faced card, you may cast it as a spell or play it as a land, as determined by which face you choose to play. If an effect allows you to cast (rather than "play") a specific modal double-faced card, you can't play it as a land.
+  - *2020-09-25* — If an effect instructs a player to choose a card name, the name of either face may be chosen. If that effect or a linked ability refers to a spell with the chosen name being cast and/or a land with the chosen name being played, it considers only the chosen name, not the other face's name.
+  - *2020-09-25* — If an effect puts a double-faced card onto the battlefield, it enters with its front face up. If that front face can't be put onto the battlefield, it doesn't enter the battlefield.
+  - *2020-09-25* — In the Commander variant, a double-faced card's color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered.
+  - *2020-09-25* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack and battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
+  - *2020-09-25* — There is a single triangle icon in the top left corner of the front face. There is a double triangle icon in the top left corner of the back face.
+  - *2020-09-25* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/166/spikefield-hazard-spikefield-cave) · oracle_id `81036c9f-fe0a-45a7-bcd5-0d344f31055a` · printing: ZNR #166 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spike Hatcher
 
@@ -1310,7 +1409,9 @@
   > When this artifact enters, destroy target permanent.
   > When this artifact is put into a graveyard from the battlefield, return it to its owner's hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2633 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/383/spine-of-ish-sah) · oracle_id `02f062f5-8012-4440-ac12-49fc49822106` · printing: MOC #383 (2023-04-21) · [rulings](https://api.scryfall.com/cards/fe28640d-a030-4da4-882d-87b6e1678bbd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-06-01* — Spine of Ish Sah's last ability doesn't allow you to sacrifice it. You must find another way to get Spine of Ish Sah into the graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/383/spine-of-ish-sah) · oracle_id `02f062f5-8012-4440-ac12-49fc49822106` · printing: MOC #383 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spinerock Knoll
 
@@ -1344,7 +1445,14 @@
   > Whenever you cast an instant or sorcery spell with a single target, you may copy it. If you do, those spells gain wither. You may choose new targets for the copy.
 - **Keywords:** Flying, Wither
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9441 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/159/spinerock-tyrant) · oracle_id `e35d4c62-5211-4785-b683-a83719195d87` · printing: ECL #159 (2026-01-23) · [rulings](https://api.scryfall.com/cards/478bbb7a-4b96-4e04-921e-bdf23185de25/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-11-17* — Any damage dealt to creatures by a source with wither, whether it's combat damage or noncombat damage, is dealt in the form of -1/-1 counters.
+  - *2025-11-17* — If the spell that's copied has an X whose value was determined as it was cast, the copy will have the same value of X.
+  - *2025-11-17* — If the spell that's copied is modal (that is, it says "Choose one —" or the like), the copy will have the same mode or modes. You can't choose different ones.
+  - *2025-11-17* — The copy is created on the stack, so it's not "cast." Abilities that trigger when a player casts a spell (such as conspire's triggered ability that creates a copy of the spell) won't trigger.
+  - *2025-11-17* — The copy will have the same target unless you choose new ones. If you change the target, the new target must be legal.
+  - *2025-11-17* — You can't choose to pay any additional costs for the copy. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/159/spinerock-tyrant) · oracle_id `e35d4c62-5211-4785-b683-a83719195d87` · printing: ECL #159 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spineseeker Centipede
 
@@ -1403,7 +1511,11 @@
   > Whenever you attack with two or more Spiders, put a +1/+1 counter on Spinneret and Spiderling.
   > Whenever Spinneret and Spiderling deals 4 or more damage, exile the top card of your library. Until the end of your next turn, you may play that card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9473 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/spm/94/spinneret-and-spiderling) · oracle_id `daca1d5e-349d-4e8a-abc7-427dab43fb0c` · printing: SPM #94 (2025-09-26) · [rulings](https://api.scryfall.com/cards/a27834b7-e763-48ac-845e-ed49f2fa6c6d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-09-19* — Spinneret and Spiderling are one Spider under the game rules.
+  - *2025-09-19* — Spinneret and Spiderling doesn't have to be one of the two or more Spiders you attack with in order to cause their first ability to trigger.
+  - *2025-09-19* — You must follow all normal timing rules when playing a land or casting a spell this way.
+- **Source flags:** [Scryfall](https://scryfall.com/card/spm/94/spinneret-and-spiderling) · oracle_id `daca1d5e-349d-4e8a-abc7-427dab43fb0c` · printing: SPM #94 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spinneret Sliver
 
@@ -1442,7 +1554,9 @@
   > Whenever another nontoken creature you control dies, you may reveal cards from the top of your library until you reveal a creature card. Put that card into your hand and the rest on the bottom of your library in a random order.
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3834 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/112/spinner-of-souls) · oracle_id `6883e79e-0b4f-4fb8-aee3-a3905246a408` · printing: FDN #112 (2024-11-15) · [rulings](https://api.scryfall.com/cards/f50a8dec-b079-4192-9098-6cdc1026c693/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-11-08* — If Spinner of Souls dies at the same time as one or more other nontoken creatures you control, its last ability will trigger for each of those other creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/112/spinner-of-souls) · oracle_id `6883e79e-0b4f-4fb8-aee3-a3905246a408` · printing: FDN #112 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spinning Darkness
 
@@ -1571,7 +1685,10 @@
   > This land enters tapped unless you control two or fewer other lands.
   > {T}: Add {U} or {R}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1575 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/270/spirebluff-canal) · oracle_id `eb0d8093-5f93-4b25-9384-08f9731bfb28` · printing: OTJ #270 (2024-04-19) · [rulings](https://api.scryfall.com/cards/59a04e16-a767-4112-ab01-6ca1b09c286c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2016-09-20* — If one of these lands enters the battlefield at the same time as one or more other lands (due to Oblivion Sower or Warp World, perhaps), it doesn't take those lands into consideration when determining how many other lands you control.
+  - *2016-09-20* — If one of these lands is your first, second, or third land, it enters the battlefield untapped. If you control three or more other lands, however, it enters the battlefield tapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/270/spirebluff-canal) · oracle_id `eb0d8093-5f93-4b25-9384-08f9731bfb28` · printing: OTJ #270 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spire Garden
 
@@ -1818,6 +1935,7 @@
 - **Flavor text** (CMM printing):
   > *She formed a friendship with several playful spirits, and soon "the pack" was known as the source of much mischief in Eiganjo.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #944 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/838/spirited-companion) · oracle_id `9c5f0d91-9d86-4e66-94fd-4af93ad01838` · printing: CMM #838 (2023-08-04) · [rulings](https://api.scryfall.com/cards/7e038684-c476-41db-a1b1-57c46e5b4c9a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spirit en-Dal
@@ -1869,7 +1987,10 @@
   > *"We are all inextricably linked, souls woven in tapestry."*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3082 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/29/spirit-link) · oracle_id `c77ff526-c0a8-45c7-9730-2e306a0d01b8` · printing: DMR #29 (2023-01-13) · [rulings](https://api.scryfall.com/cards/fc046a97-4699-438d-8da4-022560a18564/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-12-08* — The triggered ability triggers when the enchanted creature deals any damage, not only combat damage.
+  - *2022-12-08* — Unlike the lifelink ability, the ability of Spirit Link is a triggered ability that goes on the stack and may be responded to. Notably, if the enchanted creature deals damage at the same time you’re dealt enough damage to reduce your life total to 0 or less, you’ll lose the game before you can gain any life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/29/spirit-link) · oracle_id `c77ff526-c0a8-45c7-9730-2e306a0d01b8` · printing: DMR #29 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spirit Loop
 
@@ -1881,6 +2002,7 @@
   > When this Aura is put into a graveyard from the battlefield, return it to its owner's hand.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6697 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsp/42/spirit-loop) · oracle_id `6edf5767-10d3-40b0-bfce-daa8633888f6` · printing: TSP #42 (2006-10-06) · [rulings](https://api.scryfall.com/cards/31ffb2e6-b1bc-41c5-9e52-294c060b1d45/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spirit Mantle
@@ -1894,6 +2016,7 @@
   > *The shield of unimpeachable purity is as strong as any wrought on the anvil.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1704 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/175/spirit-mantle) · oracle_id `81a51328-b995-4f3b-90bc-a20ae21dd254` · printing: SOC #175 (2026-04-24) · [rulings](https://api.scryfall.com/cards/8ac5a048-e8aa-48e8-b51b-b4e9a5b63ea6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spirit Mascot
@@ -2017,7 +2140,12 @@
 - **Flavor text** (BNG printing):
   > *Students at the Dekatia Academy learn that being sent to study with her is a lesson in itself.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5884 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bng/27/spirit-of-the-labyrinth) · oracle_id `1463795b-ec0c-44d6-ae1a-55f78d9843ec` · printing: BNG #27 (2014-02-07) · [rulings](https://api.scryfall.com/cards/f44e5128-e146-4e46-b313-a40d82719d1d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2014-02-01* — If a replacement effect would try to replace a card that you can't draw, that effect can't apply.
+  - *2014-02-01* — If you draw a card, and then Spirit of the Labyrinth enters the battlefield, you won't be able to draw more cards that turn.
+  - *2014-02-01* — If you haven't drawn any cards in a turn, and a spell or ability would cause you to draw multiple cards, you'll just draw one card.
+  - *2014-02-01* — You can draw a maximum of one card on each player's turn. Subsequent card draws are ignored.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bng/27/spirit-of-the-labyrinth) · oracle_id `1463795b-ec0c-44d6-ae1a-55f78d9843ec` · printing: BNG #27 (2014-02-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spirit of the Night
 
@@ -2186,7 +2314,13 @@
   > Exile Spirit Water Revival.
 - **Keywords:** Waterbend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3410 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/73/spirit-water-revival) · oracle_id `68979160-b5ce-4787-8a1e-1f40e614c3b0` · printing: TLA #73 (2025-11-21) · [rulings](https://api.scryfall.com/cards/0c019e76-c88e-4d1b-a546-0f4e462ef44a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-10-02* — "Waterbend [cost]" means "Pay [cost]. For each generic mana in that cost, you may tap an untapped artifact or creature you control rather than pay that mana."
+  - *2025-10-02* — Even if the cost of the spell or ability that waterbend is part of increases or decreases, you still may only tap artifacts or creatures to pay for costs up to the amount of the generic mana in the waterbend cost.
+  - *2025-10-02* — If a waterbend cost is part of the total cost to cast a spell or activate an ability, you may tap an untapped artifact or creature you control rather than pay one generic mana in that total cost any number of times up to a maximum of the amount of generic mana in the waterbend component of that total cost.
+  - *2025-10-02* — If an artifact or creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell or activating an ability with waterbend will result in the artifact or creature being tapped before you pay the spell's costs. You won't be able to tap it again for waterbend. Similarly, if you sacrifice an artifact or creature to activate a mana ability to pay a cost with waterbend, that artifact or creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for waterbend.
+  - *2025-10-02* — You can tap any untapped creature or artifact you control to pay a waterbend cost, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/73/spirit-water-revival) · oracle_id `68979160-b5ce-4787-8a1e-1f40e614c3b0` · printing: TLA #73 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spirit Weaver
 
@@ -2238,6 +2372,7 @@
   > *—Saruman*
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2276 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/149/spiteful-banditry) · oracle_id `fde2653f-5270-4b8f-9642-0835dbb076c2` · printing: LTR #149 (2023-06-23) · [rulings](https://api.scryfall.com/cards/e85a82bc-49f3-4694-b688-808a541146db/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spiteful Blow
@@ -2354,7 +2489,11 @@
   > *"The key to safely studying any sliver is to find out what provokes it, then absolutely never do that."*
   > *—Rukarumel, field journal*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4839 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/881/spiteful-sliver) · oracle_id `c4d2c804-1448-4639-b41b-0a86bac083b9` · printing: CMM #881 (2023-08-04) · [rulings](https://api.scryfall.com/cards/01fb60c9-d10d-4966-b9bd-788fabc182d2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-06-14* — Damage dealt by the Sliver due to its triggered ability isn’t combat damage, even if it was combat damage that caused that ability to trigger.
+  - *2019-06-14* — If a Sliver is dealt damage by multiple sources at once (such as by two creatures blocking it), its ability triggers once and one target is dealt that much damage.
+  - *2019-06-14* — The ability granted by Spiteful Sliver will trigger even if the Sliver is dealt lethal damage. For example, if a 2/2 Sliver blocks a 7/7 creature, the Sliver’s ability will trigger and it will deal 7 damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/881/spiteful-sliver) · oracle_id `c4d2c804-1448-4639-b41b-0a86bac083b9` · printing: CMM #881 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spiteful Squad
 
@@ -2381,7 +2520,10 @@
 - **Flavor text** (DSC printing):
   > *Knowledge brings the sting of disillusionment, but the pain teaches perspective.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2382 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/233/spiteful-visions) · oracle_id `922cf963-2b1b-43ad-819e-6e49133e6aae` · printing: DSC #233 (2024-09-27) · [rulings](https://api.scryfall.com/cards/3be610eb-790f-4f47-a92a-34fe704cc8e0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-05-01* — Spiteful Visions's second ability triggers any time any player draws a card, not just when a player draws a card as a result of its first ability.
+  - *2013-04-15* — The triggered ability is put onto the stack after you have already drawn your card for the turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/233/spiteful-visions) · oracle_id `922cf963-2b1b-43ad-819e-6e49133e6aae` · printing: DSC #233 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spite // Malice
 
@@ -2441,7 +2583,12 @@
   > *—Raff Slugeater, goblin shortcutter*
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3912 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/208/spitfire-lagac) · oracle_id `7215ca87-bbff-4c14-a1f5-de5ddd97c875` · printing: FDN #208 (2024-11-15) · [rulings](https://api.scryfall.com/cards/30f600cd-b696-4f49-9cbc-5a33aa43d04c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-09-25* — In a Two-Headed Giant game, Spitfire Lagac's ability causes the opposing team to lose 2 life.
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/208/spitfire-lagac) · oracle_id `7215ca87-bbff-4c14-a1f5-de5ddd97c875` · printing: FDN #208 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spit Flame
 
@@ -2451,6 +2598,7 @@
   > Spit Flame deals 4 damage to target creature.
   > Whenever a Dragon you control enters, you may pay {R}. If you do, return this card from your graveyard to your hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4597 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/234/spit-flame) · oracle_id `f63278e0-3c67-421d-87ce-67725e5e74df` · printing: TDC #234 (2025-04-11) · [rulings](https://api.scryfall.com/cards/5fb4fa09-2864-4973-aa49-088043f6a6d1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spitting Dilophosaurus
@@ -2464,6 +2612,7 @@
 - **Flavor text** (REX printing):
   > *"Nice boy . . . nice boy. Nice dinosaur!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5719 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rex/3/spitting-dilophosaurus) · oracle_id `19f2c2c1-cd29-4e66-b5d9-e85e1979d843` · printing: REX #3 (2023-11-17) · [rulings](https://api.scryfall.com/cards/f4f0c479-5fd1-45c2-af3f-15b6e5811b0f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spitting Drake

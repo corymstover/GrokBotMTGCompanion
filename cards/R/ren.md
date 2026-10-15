@@ -60,7 +60,19 @@
   > *"Sure, you can get one elsewhere . . . if you want a knockoff that'll break the first time you use it."*
 - **Keywords:** Choose a background
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7708 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/90/renari-merchant-of-marvels) · oracle_id `99204279-2a50-4dd6-84ec-f84ba31554cf` · printing: CLB #90 (2022-06-10) · [rulings](https://api.scryfall.com/cards/1c044363-d661-4703-841c-8279fa4aa5e5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2022-06-10* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2022-06-10* — Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+  - *2022-06-10* — Choose a Background is a variant of the partner ability. You may have two commanders if one of them is a legendary creature with the choose a background ability and the other is a legendary Background enchantment. Backgrounds and cards with choose a Background do not interact with cards which have any other partner ability.
+  - *2022-06-10* — If a card refers to a commander creature you own, a Background won't usually be counted or included for that effect. If another spell or ability causes your Background to become a creature, however, it will be included. Any effect that refers to your commander or a commander you own or control without specifying creature will apply to a Background that is your commander, as appropriate.
+  - *2022-06-10* — If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+  - *2022-06-10* — If you control a Background that grants an ability to commander creatures you own, and you own more than one commander creature, each of them will have that ability.
+  - *2022-06-10* — If your Commander deck has two commanders, you can include only cards whose own color identities are also found in your commanders’ combined color identities.
+  - *2022-06-10* — If your commander loses the choose a Background ability or stops being a Background during the game, as appropriate, it is still your commander.
+  - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won’t have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won’t usually be a creature anyway).
+  - *2022-06-10* — The first ability applies to Dragon spells and artifact spells that are cast from any zone, provided something is allowing you do cast them. For example, if another effect allows you to cast Dragon spells from your graveyard, Renari will allow you to do so as though they had flash.
+  - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/90/renari-merchant-of-marvels) · oracle_id `99204279-2a50-4dd6-84ec-f84ba31554cf` · printing: CLB #90 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Renata, Called to the Hunt
 
@@ -71,7 +83,16 @@
   > Renata's power is equal to your devotion to green. (Each {G} in the mana costs of permanents you control counts toward your devotion to green.)
   > Each other creature you control enters with an additional +1/+1 counter on it.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2965 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/196/renata-called-to-the-hunt) · oracle_id `6761b077-7a89-42c9-93ab-675fe4231564` · printing: THB #196 (2020-01-24) · [rulings](https://api.scryfall.com/cards/2b27e6b2-13ad-42b2-a121-70935913723d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2020-01-24* — A creature entering the battlefield at the same time as Renata won't get an additional +1/+1 counter.
+  - *2020-01-24* — Colorless and generic mana symbols ({C}, {0}, {1}, {2}, {X}, and so on) in mana costs of permanents you control don't count toward your devotion to any color.
+  - *2020-01-24* — Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s).
+  - *2020-01-24* — If a creature you control would normally enter the battlefield with no +1/+1 counters on it, Renata's second ability causes it to enter the battlefield with a +1/+1 counter on it.
+  - *2020-01-24* — If an activated ability or triggered ability has an effect that depends on your devotion to a color, you count the number of mana symbols of that color among the mana costs of permanents you control as the ability resolves. The permanent with that ability will be counted if it's still on the battlefield at that time.
+  - *2020-01-24* — If you put an Aura on an opponent's permanent, you still control the Aura, and mana symbols in its mana cost count towards your devotion.
+  - *2020-01-24* — Mana symbols in the text boxes of permanents you control don't count toward your devotion to any color.
+  - *2020-01-24* — The ability that defines Renata's power works in all zones, not just the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/196/renata-called-to-the-hunt) · oracle_id `6761b077-7a89-42c9-93ab-675fe4231564` · printing: THB #196 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rendclaw Trow
 
@@ -106,7 +127,13 @@
 - **Flavor text** (DGM printing):
   > *"We have confiscated your spells as evidence. Once we conclude our investigation, you may petition to have them returned."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3132 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dgm/96/render-silent) · oracle_id `3966bd03-a98e-43b6-a0c0-10d4d81c173c` · printing: DGM #96 (2013-05-03) · [rulings](https://api.scryfall.com/cards/e3f3d6e4-0abe-4042-a7f6-0395683e8582/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2013-04-15* — A spell that “can’t be countered” is a legal target for Render Silent. The spell won’t be countered when Render Silent resolves, but that spell’s controller won’t be able to cast spells for the rest of the turn.
+  - *2013-04-15* — If the spell is an illegal target when Render Silent tries to resolve (because it’s been countered by another spell, for example), Render Silent won’t resolve and none of its effects will happen.
+  - *2013-04-15* — Render Silent doesn’t stop any player from casting spells in response to Render Silent before it resolves.
+  - *2013-04-15* — The affected player can still activate abilities, including abilities of cards in their hand (such as bloodrush abilities), and the player can still play lands.
+  - *2013-04-15* — You must be able to target a spell to cast Render Silent.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dgm/96/render-silent) · oracle_id `3966bd03-a98e-43b6-a0c0-10d4d81c173c` · printing: DGM #96 (2013-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Render Speechless
 
@@ -176,7 +203,14 @@
   > When Rendmaw enters and whenever you play a card with two or more card types, each player creates a tapped 2/2 black Bird creature token with flying. The tokens are goaded for the rest of the game. (They attack each combat if able and attack a player other than you if able.)
 - **Keywords:** Reach, Goad, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6661 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/5/rendmaw-creaking-nest) · oracle_id `2207fb3f-45a1-401b-99e9-f75723495c3f` · printing: DSC #5 (2024-09-27) · [rulings](https://api.scryfall.com/cards/4dc2d415-fdf7-4f2d-95d0-a793ffc26491/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-09-20* — Attacking with a goaded creature doesn't cause it to stop being goaded. If there is an additional combat phase that turn, or if another player gains control of it before it stops being goaded, it must attack again if able.
+  - *2024-09-20* — Being goaded isn't an ability the creature has. Once it's been goaded, it must attack as detailed above even if it loses all abilities.
+  - *2024-09-20* — If a creature you control has been goaded by multiple opponents, it must attack one of your opponents that hasn't goaded it, as that fulfills the maximum number of goad requirements. If a creature you control has been goaded by each of your opponents, the creature must attack an opponent (rather than a planeswalker or battle), but you choose which opponent it attacks.
+  - *2024-09-20* — If the creature doesn't meet any of the above exceptions and can attack, it must attack a player other than the controller of the spell or ability that goaded it if able. If the creature can't attack any of those players but could otherwise attack, it must attack a planeswalker an opponent controls, a battle an opponent controls, or a player who goaded it.
+  - *2024-09-20* — If, during a player's declare attackers step, a creature that player controls that's been goaded is tapped, is affected by a spell or ability that says it can't attack, or hasn't been under that player's control continuously since the turn began (and doesn't have haste), then it doesn't attack. If there's a cost associated with having a creature attack a player, its controller isn't forced to pay that cost, so it doesn't have to attack that player.
+  - *2024-09-20* — The card types in Magic include artifact, battle, creature, enchantment, instant, kindred, land, planeswalker, and sorcery. Legendary, basic, and snow are supertypes, not card types; Horror and Room are subtypes, not card types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/5/rendmaw-creaking-nest) · oracle_id `2207fb3f-45a1-401b-99e9-f75723495c3f` · printing: DSC #5 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rend Spirit
 
@@ -334,7 +368,9 @@
 - **Flavor text** (CMR printing):
   > *"Nothing against you. It's just that waiting for Consulate clearance was never really my thing."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3346 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/195/renegade-tactics) · oracle_id `7fbcd256-c132-406f-a490-df9709835504` · printing: CMR #195 (2020-11-20) · [rulings](https://api.scryfall.com/cards/7dfa0e65-1ce0-4f8e-a78b-2ade2d25e748/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-11-10* — If the target creature is an illegal target by the time Renegade Tactics tries to resolve, the spell doesn't resolve. You don't draw a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/195/renegade-tactics) · oracle_id `7fbcd256-c132-406f-a490-df9709835504` · printing: CMR #195 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Renegade Troops
 
@@ -424,7 +460,11 @@
   > Creatures you control of the chosen type get +1/+0.
   > At the beginning of your end step, for each token you control of the chosen type that entered this turn, create a token that's a copy of it.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1693 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/drc/7/renewed-solidarity) · oracle_id `bea3ff6e-7649-4e51-b2ad-763f9ac2d4b8` · printing: DRC #7 (2025-02-14) · [rulings](https://api.scryfall.com/cards/9a72b230-dbb0-4d38-ba7a-fb0bd03b6c47/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-02-07* — Any abilities of the copied token that trigger when that permanent enters will trigger. Any “as [this permanent] enters” or “[this permanent] enters with” abilities of the copied token will also work.
+  - *2025-02-07* — If the last ability creates a copy of a token that is copying something else, then the new token enters as a copy of whatever the original token copied.
+  - *2025-02-07* — When this enchantment’s last ability resolves, for each applicable token you control that entered this turn, create a token that copies the original characteristics of that first token as stated by the effect that created it (unless that first token is copying something else; see below). It doesn’t copy whether that token is tapped or untapped, whether it has any counters on it or Auras or Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/drc/7/renewed-solidarity) · oracle_id `bea3ff6e-7649-4e51-b2ad-763f9ac2d4b8` · printing: DRC #7 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Renewing Dawn
 

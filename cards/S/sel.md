@@ -96,7 +96,13 @@
   > *"I don't know what's worse—that my family was taken, or that I wasn't."*
   > *—Elsen, Sea Gate survivor*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3480 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m3c/35/selective-obliteration) · oracle_id `9f95027a-5f04-48b4-99a0-8913be3a520a` · printing: M3C #35 (2024-06-14) · [rulings](https://api.scryfall.com/cards/f0c21e73-8db1-4ede-bea5-1dcd4b3cef01/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-06-07* — For example, say you control a colorless creature, a blue creature, a green creature, and a creature that's both blue and green. No matter what you choose, your colorless creature will not be exiled, and your creature that's both blue and green will be exiled. If you choose blue or green, the creature you control that is only that color will not be exiled. It doesn't matter what anyone else chooses.
+  - *2024-06-07* — Lands have no mana cost, so they are colorless unless an effect states otherwise. The colors of mana that a land can produce do not affect that land's color.
+  - *2024-06-07* — No matter what color any player chooses, all multicolored permanents will be exiled.
+  - *2024-06-07* — Players decide and announce in turn order, starting with the active player, which color they are choosing. Players later in the turn order will know which colors were chosen by players before them.
+  - *2024-06-07* — The colors chosen by players affect only whether or not permanents they control will be exiled. That choice does not affect whether particular permanents controlled by other players will be exiled.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m3c/35/selective-obliteration) · oracle_id `9f95027a-5f04-48b4-99a0-8913be3a520a` · printing: M3C #35 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selective Snare
 
@@ -147,6 +153,7 @@
   > • Exile target creature with power 5 or greater.
   > • Create a 2/2 white Knight creature token with vigilance.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9903 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cma/192/selesnya-charm) · oracle_id `a1a49639-bcc4-4522-8862-c9fb13d40880` · printing: CMA #192 (2017-06-09) · [rulings](https://api.scryfall.com/cards/6e52d1a2-064f-4dcb-983d-322aec1776f8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selesnya Cluestone
@@ -197,7 +204,10 @@
 - **Flavor text** (FDN printing):
   > *Enter and rejoice! The Conclave stands united, open to one and all.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2096 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/694/selesnya-guildgate) · oracle_id `75b235d3-595a-4859-be45-9559d8445db5` · printing: FDN #694 (2024-11-15) · [rulings](https://api.scryfall.com/cards/6718d4e7-768e-473f-8064-a68422e977f6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-04-15* — Gate is not a basic land type.
+  - *2013-04-15* — The subtype Gate has no special rules significance, but other spells and abilities may refer to it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/694/selesnya-guildgate) · oracle_id `75b235d3-595a-4859-be45-9559d8445db5` · printing: FDN #694 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selesnya Guildmage
 
@@ -285,6 +295,7 @@
 - **Flavor text** (PLST printing):
   > *The symbol of the Conclave is one of unity, with tree supporting sun and sun feeding tree.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1085 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/plst/RVR-267/selesnya-signet) · oracle_id `1436dd81-496e-42a5-b210-fb5b9cdf073f` · printing: PLST #RVR-267 (2026-08-10) · [rulings](https://api.scryfall.com/cards/43b5b24f-316a-406d-b30a-0f6252f6590d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Self-Assembler
@@ -321,7 +332,10 @@
   > *"Hah! If I'd just left you in the lurch, I'd look like a jerk for all of history!"*
   > *—Gilgamesh*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6764 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/157/self-destruct) · oracle_id `98bf6311-bc9b-4bf8-ac83-c041973b86d0` · printing: FIN #157 (2025-06-13) · [rulings](https://api.scryfall.com/cards/7661003c-bf83-46bb-bcc0-8fbf5819ffa8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-06-06* — If the target creature you control is an illegal target as Self-Destruct tries to resolve, the creature you control won't deal damage. If the creature you control is a legal target but the other target isn't, your creature will still deal damage to itself.
+  - *2025-06-06* — The value of X is calculated only once, as Self-Destruct resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/157/self-destruct) · oracle_id `98bf6311-bc9b-4bf8-ac83-c041973b86d0` · printing: FIN #157 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selfie Preservation
 
@@ -408,7 +422,13 @@
   > When this creature enters, choose a creature type. Other permanents you control of that type gain hexproof and indestructible until end of turn.
 - **Keywords:** Flash, Convoke
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3894 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/193/selfless-safewright) · oracle_id `ce19b337-9266-471d-bec3-49eb7f0e62ac` · printing: ECL #193 (2026-01-23) · [rulings](https://api.scryfall.com/cards/ac95b1c3-9eb2-4f80-bb32-72b36817d622/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-11-17* — If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.
+  - *2025-11-17* — Tapping an untapped creature that's attacking or blocking to convoke a spell won't cause that creature to stop attacking or blocking.
+  - *2025-11-17* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
+  - *2025-11-17* — You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
+  - *2025-11-17* — You choose the creature type as Selfless Safewright's last ability resolves. Once the ability starts to resolve, players can't respond to the choice or take any actions until the ability finishes resolving.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/193/selfless-safewright) · oracle_id `ce19b337-9266-471d-bec3-49eb7f0e62ac` · printing: ECL #193 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selfless Samurai
 
@@ -419,6 +439,7 @@
   > Whenever a Samurai or Warrior you control attacks alone, it gains lifelink until end of turn.
   > Sacrifice this creature: Another target creature you control gains indestructible until end of turn. (Damage and effects that say "destroy" don't destroy it.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7282 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/35/selfless-samurai) · oracle_id `20c9fb06-3941-456f-ba02-4fbde9deb1e2` · printing: NEO #35 (2022-02-18) · [rulings](https://api.scryfall.com/cards/76c27ec5-5a9b-4080-9a53-00630335a915/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selfless Savior
@@ -431,6 +452,7 @@
 - **Flavor text** (M21 printing):
   > *She raised him from an orphaned pup and gave him a life of love. With his last act, he thanked her.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3085 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m21/36/selfless-savior) · oracle_id `49dc3434-2501-4788-84f2-93e55730f67c` · printing: M21 #36 (2020-07-03) · [rulings](https://api.scryfall.com/cards/6911759c-7177-402c-a95a-f9f46efaf521/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selfless Spirit
@@ -460,7 +482,10 @@
   > Whenever damage that would be dealt to you is prevented, put that many +1/+1 counters on this creature.
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2507 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/82/selfless-squire) · oracle_id `7d079c78-b2a9-444f-ab54-c61c041baa6d` · printing: MKC #82 (2024-02-09) · [rulings](https://api.scryfall.com/cards/8b8f4489-3d07-4e57-9b94-afa52fa984f8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2016-11-08* — Selfless Squire's first triggered ability prevents all damage that would be dealt to you this turn after the triggered ability resolves, even if Selfless Squire leaves the battlefield.
+  - *2016-11-08* — Selfless Squire's second triggered ability doesn't trigger only when damage is prevented by its first triggered ability's effect. Any effect that uses the word "prevent" will cause it to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/82/selfless-squire) · oracle_id `7d079c78-b2a9-444f-ab54-c61c041baa6d` · printing: MKC #82 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Self-Reflection
 
@@ -573,7 +598,10 @@
   > *"The Lowlands refuse to suffer at the whims of the High City."*
 - **Keywords:** Parley
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2110 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/218/selvala-explorer-returned) · oracle_id `b628a39b-c923-473d-900a-1617f47ecb76` · printing: MKC #218 (2024-02-09) · [rulings](https://api.scryfall.com/cards/28c1b84a-a21b-4df1-9fc9-5b387fb56810/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-05-29* — Except in some very rare cases, the card each player draws will be the card revealed from the top of their library.
+  - *2026-08-05* *(Scryfall note)* — Selvala’s ability is not a mana ability. Players can respond to it, and it can’t be activated in the middle of paying for a cost. A recent update to rule 605.1a has made any abilities that move cards to or from libraries no longer mana abilities.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/218/selvala-explorer-returned) · oracle_id `b628a39b-c923-473d-900a-1617f47ecb76` · printing: MKC #218 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selvala, Heart of the Wilds
 
@@ -621,4 +649,14 @@
   > Council's dilemma — Starting with you, each player votes for wild or free. Reveal cards from the top of your library until you reveal a creature card for each wild vote. Put those creature cards onto the battlefield, then shuffle the rest into your library. You may put a permanent card from your hand onto the battlefield for each free vote.
 - **Keywords:** Council's dilemma
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4023 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/269/selvalas-stampede) · oracle_id `9d2aea05-f55c-4355-950f-bfdc4e985e80` · printing: TDC #269 (2025-04-11) · [rulings](https://api.scryfall.com/cards/b84e46c2-f3ea-49ff-8f8b-58aa6a1175a4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2016-08-23* — Any abilities that trigger because of any of those cards entering the battlefield are put onto the stack at the same time, after Selvala’s Stampede finishes resolving. You choose the order that abilities you control go on the stack, followed by each other player in turn order choosing the order for abilities they control. The last ability to be put on the stack will resolve first.
+  - *2016-08-23* — Because the votes are made in turn order, each player will know the votes of players who voted beforehand.
+  - *2016-08-23* — If a creature with an enters-the-battlefield council’s dilemma ability leaves the battlefield before that ability resolves, players can still vote for any option that would put +1/+1 counters on that creature, even though—or perhaps especially because—those votes won’t generate an effect.
+  - *2016-08-23* — No player votes until the spell or ability resolves. Any responses to that spell or ability must be made without knowing the outcome of the vote.
+  - *2016-08-23* — Players can’t do anything between voting and finishing the resolution of the spell or ability that included the vote.
+  - *2016-08-23* — The creature cards revealed for the wild votes all enter the battlefield at the same time, followed by the permanent cards put onto the battlefield from your hand for the free votes.
+  - *2016-08-23* — The effects of each council’s dilemma ability happen in the stated order. First the vote occurs, then the first effect, and finally the second effect.
+  - *2016-08-23* — Unlike the will of the council cards from the original Conspiracy set, where a majority of votes determined what happened, each vote made for a council’s dilemma card adds to the ultimate effect.
+  - *2016-08-23* — You must vote for one of the available options. You can’t abstain.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/269/selvalas-stampede) · oracle_id `9d2aea05-f55c-4355-950f-bfdc4e985e80` · printing: TDC #269 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

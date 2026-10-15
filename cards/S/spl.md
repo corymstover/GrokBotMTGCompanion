@@ -51,7 +51,17 @@
   > When this creature enters, tap up to one target creature and put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)
 - **Keywords:** Offspring
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8945 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/73/splash-lasher) · oracle_id `0d0c4c91-683a-4563-a0b0-39f3c04f6307` · printing: BLB #73 (2024-08-02) · [rulings](https://api.scryfall.com/cards/362ee125-35a0-46cd-a201-e6797d12d33a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2024-07-26* — Any “enters” abilities of the copied creature will trigger when the token enters. Any “as [this creature] enters” or “[this creature] enters with” abilities of the copied creature will also work.
+  - *2024-07-26* — If the spell is countered, the offspring ability will not trigger, and no token will be created.
+  - *2024-07-26* — If the spell resolves but the creature with offspring leaves the battlefield before the offspring ability resolves, you’ll still create a token copy of it.
+  - *2024-07-26* — In the rare case where the creature doesn’t have the offspring ability when it enters, the ability won’t trigger even if you paid the offspring cost.
+  - *2024-07-26* — In the rare case where the original creature is copying something else when the offspring ability resolves, the token enters as whatever that creature copied, except it’s a 1/1.
+  - *2024-07-26* — Many creatures with offspring abilities have other abilities that refer to them as “this creature” rather than referring to them by name. This difference is for clarity purposes and does not change the function of any of these abilities.
+  - *2024-07-26* — The token copies exactly what was printed on the original creature and nothing else, except it’s a 1/1 (unless that creature is copying something else; see below). It doesn’t copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its types, color, or so on.
+  - *2024-07-26* — The token created by the offspring ability isn’t “cast”, so abilities that trigger when a creature spell is cast won’t trigger for the copy.
+  - *2024-07-26* — You can pay an offspring cost only once as you cast a spell with offspring. You can’t try to pay it multiple times to get more token copies.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/73/splash-lasher) · oracle_id `0d0c4c91-683a-4563-a0b0-39f3c04f6307` · printing: BLB #73 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Splash Portal
 
@@ -63,7 +73,11 @@
   > *"Don't ask me how it works. If I stopped long enough to question it, I'd lose my legs."*
   > *—Lorb, frogfolk wizard*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3108 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/74/splash-portal) · oracle_id `29b537f5-4d9f-40ed-b38b-e8faa2b5af7d` · printing: BLB #74 (2024-08-02) · [rulings](https://api.scryfall.com/cards/adbaa356-28ba-487f-930a-a957d9960ab0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-07-26* — If a token is exiled this way, it will cease to exist and won’t return to the battlefield. You won’t draw a card even if it was a Bird, Frog, Otter, or Rat.
+  - *2024-07-26* — In the case where the exiled permanent returns with different creature types than it had when it left the battlefield (for example, if the target creature was copying something else when Splash Portal began to resolve), Splash Portal will check its creature types as it exists after returning to the battlefield. If it’s a Bird, Frog, Otter, or Rat at that point, you’ll draw a card.
+  - *2024-07-26* — Once the exiled permanent returns, it’s considered a new object with no relation to the object that it was. Auras attached to the exiled permanent will be put into their owners’ graveyards. Equipment attached to the exiled permanent will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/74/splash-portal) · oracle_id `29b537f5-4d9f-40ed-b38b-e8faa2b5af7d` · printing: BLB #74 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Splashy Spellcaster
 
@@ -150,7 +164,9 @@
   > *"These seeds waited faithfully for the sun to rise again. Now, their patience is rewarded."*
   > *—Wrenn*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #877 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/108/splendid-reclamation) · oracle_id `13fe5e46-77a6-45d8-ac0b-c3d740eccf86` · printing: EOC #108 (2025-08-01) · [rulings](https://api.scryfall.com/cards/63c7f172-0aec-4629-967c-37253aed0f0d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-07-13* — If an effect states that a land enters the battlefield tapped unless a condition is met, Splendid Reclamation's effect puts that land onto the battlefield tapped even if that condition is true. For example, you may reveal a Plains as Port Town (from the Shadows over Innistrad set) is returned to the battlefield, but Port Town will still enter tapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/108/splendid-reclamation) · oracle_id `13fe5e46-77a6-45d8-ac0b-c3d740eccf86` · printing: EOC #108 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Splendor Mare
 
@@ -209,7 +225,12 @@
   > At the beginning of your upkeep, mill two cards. (Put the top two cards of your library into your graveyard.)
 - **Keywords:** Trample, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5557 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/217/splinterfright) · oracle_id `e54c6fa9-59ca-47dc-9354-91681228371e` · printing: INR #217 (2025-01-24) · [rulings](https://api.scryfall.com/cards/d4d5aafc-b1a6-4387-b9bf-59fca23fff94/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-01-24* — If Splinterfright’s controller has only one card in their library when its triggered ability resolves, they put that card into their graveyard.
+  - *2025-01-24* — If Splinterfright’s controller has only one card in their library when its triggered ability resolves, they put that card into their graveyard.
+  - *2025-01-24* — The ability that defines Splinterfright’s power and toughness works in all zones, not just the battlefield. If Splinterfright is in your graveyard, it will count itself.
+  - *2025-01-24* — The ability that defines Splinterfright’s power and toughness works in all zones, not just the battlefield. If Splinterfright is in your graveyard, it will count itself.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/217/splinterfright) · oracle_id `e54c6fa9-59ca-47dc-9354-91681228371e` · printing: INR #217 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Splinter, Hamato Yoshi
 
@@ -256,7 +277,12 @@
 - **Flavor text** (TMT printing):
   > *"The first rule of the ninja is 'do no harm.' Unless you need to do harm. Then do lots of harm!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9206 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/169/splinter-radical-rat) · oracle_id `fb2cd508-f5cd-4d5b-b8e7-3cae1f39fd58` · printing: TMT #169 (2026-03-06) · [rulings](https://api.scryfall.com/cards/f0797466-c527-4d35-86bc-e0e90fd04073/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2026-01-27* — If a triggered ability is linked to a second ability, additional instances of that triggered ability are also linked to that second ability. If the second ability refers to "the exiled card," it refers to all cards exiled by instances of the triggered ability.
+  - *2026-01-27* — In some cases involving linked abilities, an ability requires information about "the exiled card." When this happens, the ability gets multiple answers. If these answers are being used to determine the value of a variable, the sum is used. For example, if Elite Arcanist's enters ability triggers twice (probably because it entered as a Ninja due to another effect), two cards are exiled. The value of X in the activation cost of Elite Arcanist's other ability is the sum of the two cards' mana values. As the ability resolves, you create copies of both cards and can cast none, one, or both of the copies in any order.
+  - *2026-01-27* — Splinter's first ability doesn't copy the triggered ability; it just causes the ability to trigger an additional time. Any choices made as you put the ability onto the stack, such as modes and targets, are made separately for each instance of the ability. Any choices made on resolution, such as whether to put counters on a permanent, are also made individually.
+  - *2026-01-27* — Triggered abilities use the word "when," "whenever," or "at." They're often written as "[Trigger condition], [effect]." Some keyword abilities are triggered abilities and will have "when," "whenever," or "at" in their reminder text.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/169/splinter-radical-rat) · oracle_id `fb2cd508-f5cd-4d5b-b8e7-3cae1f39fd58` · printing: TMT #169 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Splinter's Technique
 
@@ -269,7 +295,11 @@
   > *"Possess the right thinking. Only then can one receive the gifts of strength, knowledge, and peace."*
 - **Keywords:** Sneak
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5260 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/80/splinters-technique) · oracle_id `532ee9c3-391c-44db-8ed5-a1d28fd7f876` · printing: TMT #80 (2026-03-06) · [rulings](https://api.scryfall.com/cards/fd3a5465-074a-4688-b79b-68e232076581/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2026-01-27* — Although a creature put onto the battlefield this way is attacking, it was never declared as an attacking creature. Abilities that trigger whenever a creature attacks won't trigger when that creature enters attacking.
+  - *2026-01-27* — If a creature spell's sneak cost was paid, the creature it becomes enters tapped and attacking the same player, planeswalker, or battle as the creature that was returned to its owner's hand to pay its sneak cost. This is a rule specific to sneak; in other cases, when a creature is put onto the battlefield attacking, that creature's controller chooses which player, planeswalker, or battle it's attacking.
+  - *2026-01-27* — Spells can only be cast for their sneak costs any time you could play an instant during the declare blockers step on your turn (after your opponent has decided whether to block).
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/80/splinters-technique) · oracle_id `532ee9c3-391c-44db-8ed5-a1d28fd7f876` · printing: TMT #80 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Splinter, the Mentor
 
@@ -284,7 +314,17 @@
   > *"We choose what holds us back."*
 - **Keywords:** Partner, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8464 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmc/3/splinter-the-mentor) · oracle_id `fdcb016e-36e7-46b3-9dff-20b9b9cc421d` · printing: TMC #3 (2026-03-06) · [rulings](https://api.scryfall.com/cards/06c595fa-55ff-46f3-afaf-17edae465864/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2026-01-27* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2026-01-27* — Both commanders start in the command zone, and the remaining 98 cards of your deck are shuffled to become your library.
+  - *2026-01-27* — If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+  - *2026-01-27* — If your Commander deck has two commanders, you can only include cards whose own color identities are also found in your commanders' combined color identities. If Donatello, the Brains and Splinter, the Mentor are your commanders, your deck may contain cards with blue and/or black in their color identity, but not cards with red, green, or white. (If Leonardo, the Balance is one of your commanders, your deck may contain cards with any color or combination of colors in their color identity, regardless of who your other commander is.)
+  - *2026-01-27* — Mutagen tokens are a kind of predefined token. Each one is a colorless artifact with the artifact subtype Mutagen and the ability "{1}, {T}, Sacrifice this token: Put a +1/+1 counter on target creature. Activate only as a sorcery."
+  - *2026-01-27* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from any one of them, not from both of them combined.
+  - *2026-01-27* — Some spells and abilities that create Mutagen tokens require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Mutagen token won't be created.
+  - *2026-01-27* — To have two commanders, both must have appropriate partner abilities as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
+  - *2026-01-27* — You can have two commanders if each one has "Partner—Character select." You can't mix and match them with cards that have other partner abilities.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmc/3/splinter-the-mentor) · oracle_id `fdcb016e-36e7-46b3-9dff-20b9b9cc421d` · printing: TMC #3 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Splinter Twin
 
@@ -297,7 +337,20 @@
   > *"I know just the person for that job."*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5368 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mm2/129/splinter-twin) · oracle_id `2df3187b-4b91-4de9-9b26-d48a30700cec` · printing: MM2 #129 (2015-05-22) · [rulings](https://api.scryfall.com/cards/580fbbf8-ba7e-4889-a5ea-d066f3ea8cea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2010-06-15* — Any "enters" abilities of the enchanted creature will trigger when the token is put onto the battlefield. Any "as [this creature] enters" or "[this creature] enters with" abilities of the enchanted creature will also work.
+  - *2010-06-15* — If the ability is activated during a turn's end step, the token will be exiled at the beginning of the following turn's end step.
+  - *2010-06-15* — If the enchanted creature has {X} in its mana cost (such as Protean Hydra), X is considered to be zero.
+  - *2010-06-15* — If the enchanted creature is a token, the new token copies the characteristics of the original token as stated by the effect that put it onto the battlefield, plus it has haste.
+  - *2010-06-15* — If the enchanted creature is copying something else when the ability resolves (for example, if it's a Renegade Doppelganger), then the token enters as a copy of whatever the enchanted creature is copying, plus it has haste.
+  - *2010-06-15* — If the token isn't exiled when the delayed triggered ability resolves (due to Stifle, perhaps), it remains on the battlefield indefinitely. It continues to have haste.
+  - *2010-06-15* — If you activate the ability and the enchanted creature leaves the battlefield before the ability resolves, you still get a token. The enchanted creature's last existence on the battlefield is checked to see what it was (specifically, if it was itself or if it was copying something else).
+  - *2010-06-15* — Splinter Twin grants an activated ability to the enchanted creature. That creature's controller (who is not necessarily the Aura's controller) can activate it. The creature's controller is the player who gets the token.
+  - *2010-06-15* — The token is exiled at the beginning of the next end step regardless of who controls it at that time, or whether Splinter Twin or the enchanted creature is still on the battlefield at that time.
+  - *2010-06-15* — The token that's put onto the battlefield copies exactly what's printed on the enchanted creature (unless that creature is copying something else or it's a token; see below), plus it has haste. It doesn't copy whether the enchanted creature is tapped or untapped, whether it has any counters on it or Auras attached to it, or whether it's been affected by any noncopy effects that changed its power, toughness, types, color, or so on. In particular, it doesn't copy the ability granted to the enchanted creature by Splinter Twin.
+  - *2010-06-15* — The token will not be kicked, even if the creature it's copying was.
+  - *2013-07-01* — If the enchanted creature is legendary, you will have to put either the original creature or the token into the graveyard as a state-based action.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mm2/129/splinter-twin) · oracle_id `2df3187b-4b91-4de9-9b26-d48a30700cec` · printing: MM2 #129 (2015-05-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Split Decision
 
@@ -307,7 +360,18 @@
   > Will of the council — Choose target instant or sorcery spell. Starting with you, each player votes for denial or duplication. If denial gets more votes, counter the spell. If duplication gets more votes or the vote is tied, copy the spell. You may choose new targets for the copy.
 - **Keywords:** Will of the council
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7271 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cns/25/split-decision) · oracle_id `5f725d51-e133-488c-9ca9-1c7b0523b5bd` · printing: CNS #25 (2014-06-06) · [rulings](https://api.scryfall.com/cards/83ed7ebe-48be-4e6e-a293-b81484f85142/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2014-05-29* — Because the votes are cast in turn order, each player will know the votes of players who voted beforehand.
+  - *2014-05-29* — Effects based on any additional costs that were paid for the original spell will be copied as though those same costs were paid for the copy. For example, if a player exiles three cards from their graveyard to cast Skeletal Scrying, and you copy it, the copy will also cause you to draw three cards and lose 3 life (but you won't exile any cards from your graveyard).
+  - *2014-05-29* — If duplication gets more votes, Split Decision creates a copy of the spell. You control the copy. That copy is created on the stack, so it's not "cast." Abilities that trigger when a player casts a spell won't trigger. The copy will resolve like a normal spell, after players get a chance to cast spells and activate abilities.
+  - *2014-05-29* — If the spell being copied has an X whose value was determined as it was cast (like Skeletal Scrying has), the copy will have the same value of X.
+  - *2014-05-29* — If the spell being copied is modal (that is, it says "Choose one —" or the like), the copy will have the same mode. You can't choose a different one.
+  - *2014-05-29* — No player votes until the spell or ability resolves. Any responses to that spell or ability must be made without knowing the outcome of the vote.
+  - *2014-05-29* — Players can't do anything after they finish voting but before the spell or ability that included the vote finishes resolving.
+  - *2014-05-29* — The copy will have the same targets as the spell it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
+  - *2014-05-29* — The phrase "the vote is tied" refers only to when there is more than one choice that received the most votes. For example, if a 5-player vote from among three different choices ends 3 votes to 1 vote to 1 vote, the vote isn't tied.
+  - *2014-05-29* — You must vote for one of the available options. You can't abstain.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cns/25/split-decision) · oracle_id `5f725d51-e133-488c-9ca9-1c7b0523b5bd` · printing: CNS #25 (2014-06-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Split into Three Parts
 
@@ -339,7 +403,9 @@
 - **Flavor text** (DSK printing):
   > *Those who mock its ragged surface and seeping eyes have a curious tendency to go missing.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7611 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/33/splitskin-doll) · oracle_id `934e2634-4b1c-4d92-b4d6-9241620f3770` · printing: DSK #33 (2024-09-27) · [rulings](https://api.scryfall.com/cards/0453be94-e59b-48f1-a488-7a9fd96a627e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-09-20* — Once Splitskin Doll's ability begins to resolve, players can't take actions in between the time you draw a card and the time you would discard a card. Notably, they can't try to remove creatures you control with power 2 or less to force you to discard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/33/splitskin-doll) · oracle_id `934e2634-4b1c-4d92-b4d6-9241620f3770` · printing: DSK #33 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Split-Tail Miko
 
@@ -424,4 +490,5 @@
   > *"Don't be a wimp. We'll cover more ground this way."*
   > *—Rian, former survivor*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1942 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/32/split-up) · oracle_id `2e82520a-9da3-49ae-b5c8-37e7ac8853fe` · printing: DSK #32 (2024-09-27) · [rulings](https://api.scryfall.com/cards/1bb9a5b1-48d2-453e-8991-c788bc63e482/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

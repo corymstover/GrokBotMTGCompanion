@@ -47,7 +47,22 @@
 - **Flavor text** (MH2 printing):
   > *Time moves in mysterious ways.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5491 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/68/suspend) · oracle_id `fef9425d-82d5-470b-9cbc-8c03a001099e` · printing: MH2 #68 (2021-06-18) · [rulings](https://api.scryfall.com/cards/40af215c-d3f7-42f0-85cd-77a3fcd919ba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (14):
+  - *2024-02-02* — A creature cast using suspend will enter the battlefield with haste. It will have haste until another player gains control of it. (In some rare cases, another player may gain control of the creature spell itself. If this happens, the creature won't enter the battlefield with haste.)
+  - *2024-02-02* — Cards exiled with suspend are exiled face up.
+  - *2024-02-02* — Due to a recent rules change to suspend, you are no longer required to cast the suspended card as the second triggered ability of suspend resolves. Instead, as the second triggered ability resolves, you may cast the card. Timing permissions based on the card's type are ignored. If you don't cast the card, it remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to.
+  - *2024-02-02* — If an effect refers to a "suspended card," that means a card that (1) has suspend, (2) is in exile, and (3) has one or more time counters on it.
+  - *2024-02-02* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-02-02* — If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again at the beginning of the card's owner's next upkeep.
+  - *2024-02-02* — If the second triggered ability is countered, the card can't be cast. It remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it's exiled.
+  - *2024-02-02* — If you cast a card "without paying its mana cost," such as with suspend, you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those if you want to cast the card.
+  - *2024-02-02* — Suspend is a keyword that represents three abilities. The first is a static ability that allows you to exile the card from your hand with the specified number of time counters (the number before the dash) on it by paying its suspend cost (listed after the dash). The second is a triggered ability that removes a time counter from the suspended card at the beginning of each of your upkeeps. The third is a triggered ability that gives you the option to cast the card when the last time counter is removed.
+  - *2024-02-02* — The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.
+  - *2024-02-02* — When the last time counter is removed, the second triggered ability of suspend (the one that lets you cast the card) triggers. It doesn't matter why the last time counter was removed or what effect removed it.
+  - *2024-02-02* — You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effects that modify when you could cast it (such as flash) and any other effects that stop you from casting it (such as from Meddling Mage's ability) to determine if and when you can do this. Whether you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or that requires a target even if no legal targets are available at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/68/suspend) · oracle_id `fef9425d-82d5-470b-9cbc-8c03a001099e` · printing: MH2 #68 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Suspend Aggression
 
@@ -70,7 +85,20 @@
   > Suspend 3—{1}{B} (Rather than cast this card from your hand, you may pay {1}{B} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.)
 - **Keywords:** Suspend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5065 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/25/suspended-sentence) · oracle_id `98641070-93bd-4088-90cb-956c2b21979e` · printing: DSC #25 (2024-09-27) · [rulings](https://api.scryfall.com/cards/38c98aa0-bfa1-42f4-b035-a48dac86f0ce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2024-09-20* — As the second triggered ability of suspend resolves, you may cast the card. Timing permissions based on the card's type are ignored. If you choose not to (or can't) cast the card, it remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-09-20* — Cards exiled with suspend are exiled face up.
+  - *2024-09-20* — Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to.
+  - *2024-09-20* — If an effect refers to a "suspended card," that means a card that (1) has suspend, (2) is in exile, and (3) has one or more time counters on it.
+  - *2024-09-20* — If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again at the beginning of the card's owner's next upkeep.
+  - *2024-09-20* — If the second triggered ability is countered, the card can't be cast. It remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-09-20* — If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it's exiled.
+  - *2024-09-20* — If you cast a card "without paying its mana cost," such as with suspend, you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those if you want to cast the card.
+  - *2024-09-20* — Suspend is a keyword that represents three abilities. The first is a static ability that allows you to exile the card from your hand with the specified number of time counters (the number before the dash) on it by paying its suspend cost (listed after the dash). The second is a triggered ability that removes a time counter from the suspended card at the beginning of each of your upkeeps. The third is a triggered ability that gives you the option to cast the card when the last time counter is removed.
+  - *2024-09-20* — The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.
+  - *2024-09-20* — When the last time counter is removed, the second triggered ability of suspend (the one that lets you cast the card) triggers. It doesn't matter why the last time counter was removed or what effect removed it.
+  - *2024-09-20* — You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effects that modify when you could cast it (such as flash) and any other effects that stop you from casting it (such as from Meddling Mage's ability) to determine if and when you can do this. Whether you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or that requires a target even if no legal targets are available at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/25/suspended-sentence) · oracle_id `98641070-93bd-4088-90cb-956c2b21979e` · printing: DSC #25 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Suspension Field
 
@@ -93,7 +121,9 @@
   > *Buried beneath the sands of an unforgiving desert, a vast library of knowledge stores mysterious books in its massive halls.*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5119 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tle/170/suspicious-bookcase) · oracle_id `ca611c90-7753-43dd-af91-81694d004eeb` · printing: TLE #170 (2025-11-21) · [rulings](https://api.scryfall.com/cards/09af9bc0-1c73-4d16-8116-b76ad23c6b8f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-07-13* — Activating Suspicious Bookcase's ability after a creature has become blocked won't cause that creature to become unblocked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tle/170/suspicious-bookcase) · oracle_id `ca611c90-7753-43dd-af91-81694d004eeb` · printing: TLE #170 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Suspicious Detonation
 
@@ -214,7 +244,10 @@
   > Warp {B} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)
 - **Keywords:** Warp
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6422 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/118/susurian-voidborn) · oracle_id `4f754f11-3b6d-4a4e-86d7-7495e475ef74` · printing: EOE #118 (2025-08-01) · [rulings](https://api.scryfall.com/cards/beb97e7b-0ae7-4b08-9ceb-6a7f825bcd49/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-07-25* — If Susurian Voidborn dies at the same time as one or more creatures or artifacts you control, its first ability will still trigger for itself and each of those creatures and artifacts.
+  - *2025-07-25* — If the target opponent is an illegal target as Susurian Voidborn’s first ability tries to resolve, it won’t resolve and none of its effects will happen. You won’t gain life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/118/susurian-voidborn) · oracle_id `4f754f11-3b6d-4a4e-86d7-7495e475ef74` · printing: EOE #118 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Susur Secundi, Void Altar
 
@@ -227,4 +260,5 @@
   > 12+ | {1}{B}, {T}, Pay 2 life, Sacrifice a creature: Draw cards equal to the sacrificed creature's power. Activate only as a sorcery.
 - **Keywords:** Station
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1791 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/259/susur-secundi-void-altar) · oracle_id `50d6cadc-07e4-479e-90f4-e3a20f769bab` · printing: EOE #259 (2025-08-01) · [rulings](https://api.scryfall.com/cards/aefb8c0d-2bc6-4bec-851e-0137b4abfb22/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

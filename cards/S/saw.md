@@ -96,7 +96,12 @@
   > If a source would deal damage to the chosen player or a permanent they control, it deals double that damage instead.
 - **Keywords:** Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6725 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m3c/60/sawhorn-nemesis) · oracle_id `2f9107c5-991a-4c20-9b77-2e2fb4b9dc53` · printing: M3C #60 (2024-06-14) · [rulings](https://api.scryfall.com/cards/29b33e43-ffd5-4697-8261-9b4f5de36a19/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-06-07* — If another effect (or effects) modifies how much damage a source would deal to the chosen player or a permanent they control (for example, by preventing some of that damage), the player being dealt damage or the controller of the permanent being dealt damage chooses the order in which any such effects, including the effect of Sawhorn Nemesis, apply. If all of the damage is prevented before Sawhorn Nemesis's effect would apply, its effect no longer applies.
+  - *2024-06-07* — If damage dealt is being divided or assigned among multiple permanents or players, that damage is divided or assigned before any effects that modify how much damage will be dealt. For example, if you attack the chosen player with a 5/5 creature with trample and it's blocked by a 2/2 creature they control, you can assign 2 damage to the blocker and 3 damage to the defending player. Those amounts are then doubled to 4 and 6, respectively.
+  - *2024-06-07* — The damage is dealt by the same source as the original source of damage. The doubled damage isn't dealt by Sawhorn Nemesis unless it was the original source of damage.
+  - *2024-06-07* — The protector of a battle with the Siege subtype is not that battle's controller.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m3c/60/sawhorn-nemesis) · oracle_id `2f9107c5-991a-4c20-9b77-2e2fb4b9dc53` · printing: M3C #60 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saw in Half
 
@@ -194,4 +199,6 @@
   > Whenever this creature mutates, destroy target noncreature permanent. Its controller creates a 3/3 green Beast creature token.
 - **Keywords:** Mutate, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6501 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c20/64/sawtusk-demolisher) · oracle_id `7f93a368-9568-456c-9bd6-20d5fe5ad2f1` · printing: C20 #64 (2020-04-17) · [rulings](https://api.scryfall.com/cards/574d1a02-a403-4b6e-8ce0-a472325c9c2c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-04-17* — If the target noncreature permanent is an illegal target by the time Sawtusk Demolisher’s last ability tries to resolve, the ability won’t resolve. No player will create a Beast token. If the target is legal but not destroyed (most likely because it has indestructible), its controller does create a Beast token.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c20/64/sawtusk-demolisher) · oracle_id `7f93a368-9568-456c-9bd6-20d5fe5ad2f1` · printing: C20 #64 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

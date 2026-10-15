@@ -39,6 +39,7 @@
 - **Oracle text:**
   > All creatures have "At the beginning of your upkeep, destroy this creature unless you pay {1}."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8848 · Game Changer: **yes** · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/212/the-tabernacle-at-pendrell-vale) · oracle_id `69b409b3-fa16-4c79-8b46-215a7036ed46` · printing: ME3 #212 (2009-09-07) · [rulings](https://api.scryfall.com/cards/cd3f7f4e-cb25-4121-96a0-a4dc530420b9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Tale of Tamiyo
@@ -65,7 +66,12 @@
   > *When it rises, nations fall.*
 - **Keywords:** Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5860 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/207/the-tarrasque) · oracle_id `bfd66214-e576-4a7e-8559-4e4e51d56b98` · printing: AFR #207 (2021-07-23) · [rulings](https://api.scryfall.com/cards/8a26fa15-d81f-4152-ae33-e91aa276b3fc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-07-23* — Fighting is not optional. If there is at least one legal target for The Tarrasque's last ability, it must fight.
+  - *2021-07-23* — If a player casts a spell that targets multiple permanents their opponent controls with ward, each of those ward abilities will trigger. If that player doesn't pay for all of them, the spell will be countered.
+  - *2021-07-23* — The Tarrasque will have haste and ward {10} even if it was cast from a zone other than your hand. May we suggest the command zone?
+  - *2021-07-23* — The fight happens in the declare attackers step before blockers are declared. Unless the creature it is fighting survives, that creature won't be able to block that combat.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/207/the-tarrasque) · oracle_id `bfd66214-e576-4a7e-8559-4e4e51d56b98` · printing: AFR #207 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Temporal Anchor
 
@@ -77,7 +83,9 @@
   > During your turn, you may play cards exiled with The Temporal Anchor.
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8934 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/82/the-temporal-anchor) · oracle_id `168f2fbb-8cf7-43e0-8bb6-5e4cc3c1e363` · printing: BRO #82 (2022-11-18) · [rulings](https://api.scryfall.com/cards/1a212d59-b72e-4939-a757-c131ca4323ce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-10-14* — You must follow all normal timing rules for a card you play using The Temporal Anchor's last ability and, if it's a spell, you must pay its costs to cast it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/82/the-temporal-anchor) · oracle_id `168f2fbb-8cf7-43e0-8bb6-5e4cc3c1e363` · printing: BRO #82 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Ten Rings
 
@@ -90,6 +98,7 @@
   > *"The rings act as if they have a will of their own."*
   > *—Shang-Chi*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4190 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/251/the-ten-rings) · oracle_id `a82d855c-50c8-43f2-99ba-a84fe84539c5` · printing: MSH #251 (2026-06-26) · [rulings](https://api.scryfall.com/cards/2332bc91-b0f2-4911-844d-d1cc915cd6c8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Tenth Doctor
@@ -102,7 +111,27 @@
   > Timey-Wimey — {7}: Time travel three times. Activate only as a sorcery. (For each suspended card you own and each permanent you control with a time counter on it, you may add or remove a time counter. Then do it two more times.)
 - **Keywords:** Allons-y!, Time Travel, Timey-Wimey
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6727 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/3/the-tenth-doctor) · oracle_id `23af0a0a-1d12-47c7-b191-2bd3f84eea93` · printing: WHO #3 (2023-10-13) · [rulings](https://api.scryfall.com/cards/f1499f49-793b-4265-9ad0-883a431941ab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (19):
+  - *2023-10-13* — Any land cards exiled with The Tenth Doctor's first ability will remain in exile.
+  - *2023-10-13* — If an effect instructs you to choose a creature type, you may choose Time Lord.
+  - *2023-10-13* — Neither "Time" nor "Lord" are creature types. Some older cards were printed with the subtype "Lord," but all of those cards have updated Oracle card text that removed that type.
+  - *2023-10-13* — Time counters are usually found on cards with suspend and vanishing, but may be found on other cards as well. Notably, Sagas use lore counters to track their progress, not time counters. You can't move a Saga's chapters forward and backward this way.
+  - *2023-10-13* — To time travel, look at each permanent you control with a time counter on it and each suspended card you own in exile with a time counter on it. For each of them, you choose whether you want to put a time counter on that card or permanent, remove a time counter from it, or do neither. Then those changes all happen simultaneously.
+  - *2023-10-13* — Unlike other creature types in Magic that are each only one word, the two words "Time Lord" represent a single creature subtype. Time Lord is the only two-word creature type.
+  - *2024-02-02* — Cards exiled with suspend are exiled face up.
+  - *2024-02-02* — Due to a recent rules change to suspend, you are no longer required to cast the suspended card as the second triggered ability of suspend resolves. Instead, as the second triggered ability resolves, you may cast the card. Timing permissions based on the card's type are ignored. If you don't cast the card, it remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to.
+  - *2024-02-02* — If an effect refers to a "suspended card," that means a card that (1) has suspend, (2) is in exile, and (3) has one or more time counters on it.
+  - *2024-02-02* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-02-02* — If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again at the beginning of the card's owner's next upkeep.
+  - *2024-02-02* — If the second triggered ability is countered, the card can't be cast. It remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it's exiled.
+  - *2024-02-02* — If you cast a card "without paying its mana cost," such as with suspend, you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those if you want to cast the card.
+  - *2024-02-02* — Suspend is a keyword that represents three abilities. The first is a static ability that allows you to exile the card from your hand with the specified number of time counters (the number before the dash) on it by paying its suspend cost (listed after the dash). The second is a triggered ability that removes a time counter from the suspended card at the beginning of each of your upkeeps. The third is a triggered ability that gives you the option to cast the card when the last time counter is removed.
+  - *2024-02-02* — The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.
+  - *2024-02-02* — When the last time counter is removed, the second triggered ability of suspend (the one that lets you cast the card) triggers. It doesn't matter why the last time counter was removed or what effect removed it.
+  - *2024-02-02* — You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effects that modify when you could cast it (such as flash) and any other effects that stop you from casting it (such as from Meddling Mage's ability) to determine if and when you can do this. Whether you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or that requires a target even if no legal targets are available at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/3/the-tenth-doctor) · oracle_id `23af0a0a-1d12-47c7-b191-2bd3f84eea93` · printing: WHO #3 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Terror of Serpent's Pass
 
@@ -143,7 +172,9 @@
   > −2: For each opponent, return up to one target artifact or creature that player controls to its owner's hand.
   > −6: Draw three cards. Then put X +1/+1 counters on each creature you control, where X is the number of cards in your hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6460 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/43/the-theorist-jace-beleren) · oracle_id `89a6e876-0b00-4671-9652-766fd7ef9bf2` · printing: FRA #43 (2026-10-02) · [rulings](https://api.scryfall.com/cards/20bb8c55-4b0b-425f-8201-b54fa2fdde86/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-08-21* — Your opponent will draw the card they normally draw in their draw step before you draw a card from Jace's first ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/43/the-theorist-jace-beleren) · oracle_id `89a6e876-0b00-4671-9652-766fd7ef9bf2` · printing: FRA #43 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Thing
 
@@ -185,7 +216,14 @@
   > *"It's rather a pity, in a way. Now the universe is down to 699 wonders."*
 - **Keywords:** Treasure, Food, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9808 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/162/the-third-doctor) · oracle_id `2a73db99-5e31-49a8-91e7-b28b3434585d` · printing: WHO #162 (2023-10-13) · [rulings](https://api.scryfall.com/cards/2934f5e5-2274-4de7-a8c7-ca034f1fec29/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-10-13* — If an effect instructs you to choose a creature type, you may choose Time Lord.
+  - *2023-10-13* — Neither "Time" nor "Lord" are creature types. Some older cards were printed with the subtype "Lord," but all of those cards have updated Oracle card text that removed that type.
+  - *2023-10-13* — Unlike other creature types in Magic that are each only one word, the two words "Time Lord" represent a single creature subtype. Time Lord is the only two-word creature type.
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/162/the-third-doctor) · oracle_id `2a73db99-5e31-49a8-91e7-b28b3434585d` · printing: WHO #162 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Thirteenth Doctor
 
@@ -197,7 +235,16 @@
   > Team TARDIS — At the beginning of your end step, untap each creature you control with a counter on it.
 - **Keywords:** Paradox, Team TARDIS
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5142 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/4/the-thirteenth-doctor) · oracle_id `3778e06c-62c7-4b8f-90ff-b2fc2d2e213c` · printing: WHO #4 (2023-10-13) · [rulings](https://api.scryfall.com/cards/0dc4ec90-1650-4b98-9350-66341394cf0b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2023-10-13* — A triggered ability that triggers when a spell is cast from anywhere other than your hand, such as that of The Thirteenth Doctor, functions only on the battlefield, so it doesn't trigger when you cast that spell from a zone other than your hand.
+  - *2023-10-13* — An instant or sorcery that counts how many spells you've cast from anywhere other than your hand, such as Surge of Brilliance, counts itself if it was cast from a zone other than your hand.
+  - *2023-10-13* — If a spell or ability allows you to copy a spell on the stack but doesn't specify that the spell is cast, that spell wasn't cast and won't be counted by paradox abilities. However, if a spell or ability allows you to cast a copy of a spell, that spell will be counted for paradox abilities.
+  - *2023-10-13* — If an effect instructs you to choose a creature type, you may choose Time Lord.
+  - *2023-10-13* — Neither "Time" nor "Lord" are creature types. Some older cards were printed with the subtype "Lord," but all of those cards have updated Oracle card text that removed that type.
+  - *2023-10-13* — Paradox abilities count any spells cast from zones other than your hand. These are usually spells cast from exile, the graveyard, or the command zone. They also count spells cast from outside the game, such as spells cast with Wish or Garth One-Eye's ability.
+  - *2023-10-13* — The Thirteenth Doctor's last ability untaps creatures you control with any kind of counter on them, not just creatures you control with +1/+1 counters on them.
+  - *2023-10-13* — Unlike other creature types in Magic that are each only one word, the two words "Time Lord" represent a single creature subtype. Time Lord is the only two-word creature type.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/4/the-thirteenth-doctor) · oracle_id `3778e06c-62c7-4b8f-90ff-b2fc2d2e213c` · printing: WHO #4 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Three Seasons
 
@@ -299,7 +346,19 @@
   > The first spell you cast from anywhere other than your hand each turn has demonstrate. (When you cast that spell, you may copy it. If you do, choose an opponent to also copy it. A copy of a permanent spell becomes a token.)
   > Whenever you copy a spell, put a +1/+1 counter on The Twelfth Doctor.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7481 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/164/the-twelfth-doctor) · oracle_id `9ecf19ba-754e-4bb3-b526-fe9df87a0f08` · printing: WHO #164 (2023-10-13) · [rulings](https://api.scryfall.com/cards/2400d681-05ef-43b1-b720-c15ca4226c27/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2023-10-13* — If an effect instructs you to choose a creature type, you may choose Time Lord.
+  - *2023-10-13* — If any additional or alternative costs were paid to cast the spell with demonstrate, the copies will see those choices as well. For example, if the spell has a kicker ability and was kicked, the copies will also be kicked.
+  - *2023-10-13* — If the spell had an X value chosen for it as it was cast, the copies will have the same value of X.
+  - *2023-10-13* — If the spell requires targets, you choose the target of the original spell as you cast it. If you create a copy of the spell, you may choose new targets for the copy as you create that copy. Similarly, the opponent you chose to create a copy may choose new targets for that copy as it's created. In other words, your opponent will know the targets of your original spell and your copy when choosing the new targets, if any, for their copy.
+  - *2023-10-13* — If the spell with demonstrate had any modes chosen for it as it was cast, the copies will have the same modes chosen for it.
+  - *2023-10-13* — If you cast the spell and choose not to copy it, no opponent will get to copy it either.
+  - *2023-10-13* — If you copy a spell with demonstrate, you then immediately choose an opponent. If they copy the spell, it goes on top of the stack.
+  - *2023-10-13* — Neither "Time" nor "Lord" are creature types. Some older cards were printed with the subtype "Lord," but all of those cards have updated Oracle card text that removed that type.
+  - *2023-10-13* — This means that if you cast a spell with demonstrate and both you and an opponent copy it, the opponent's copy will resolve first, then your copy will resolve, and finally the original spell will resolve.
+  - *2023-10-13* — Unlike other creature types in Magic that are each only one word, the two words "Time Lord" represent a single creature subtype. Time Lord is the only two-word creature type.
+  - *2023-10-13* — You choose whether to make a copy as the demonstrate ability resolves. This happens before the original spell resolves. Your copy goes on the stack above the original spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/164/the-twelfth-doctor) · oracle_id `9ecf19ba-754e-4bb3-b526-fe9df87a0f08` · printing: WHO #164 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Tyrant
 

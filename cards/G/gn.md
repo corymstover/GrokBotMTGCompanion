@@ -140,7 +140,14 @@
   > Each creature you control with a +1/+1 counter on it has trample. (It can deal excess combat damage to the player or planeswalker it's attacking.)
 - **Keywords:** Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6355 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/224/gnarlid-colony) · oracle_id `e5481431-c952-4ad9-94fe-355076ef632b` · printing: FDN #224 (2024-11-15) · [rulings](https://api.scryfall.com/cards/47565d10-96bf-4fb0-820f-f20a44a76b6f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/224/gnarlid-colony) · oracle_id `e5481431-c952-4ad9-94fe-355076ef632b` · printing: FDN #224 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gnarlid Pack
 
@@ -191,6 +198,7 @@
   > *As Emrakul's influence radiated across Innistrad, evacuation from Kessig's remote villages became increasingly difficult.*
 - **Keywords:** Deathtouch, Delirium
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8817 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/180/gnarlwood-dryad) · oracle_id `e823639f-1308-47f6-9b51-8fd9a682489a` · printing: DSC #180 (2024-09-27) · [rulings](https://api.scryfall.com/cards/8eae5e38-49ee-49ef-87ca-7b570d9ca2b8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gnashing of Teeth
@@ -240,7 +248,9 @@
 - **Flavor text** (SOK printing):
   > *Nezumi insect-shamans enjoyed solitary lives, which was fortunate since no other nezumi could stand to live within half a mile of their foul stench.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8006 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sok/70/gnat-miser) · oracle_id `cfb5da72-9f00-4ae2-8d59-f997faab451b` · printing: SOK #70 (2005-06-03) · [rulings](https://api.scryfall.com/cards/f1c51ee1-d6f6-42d7-9be6-fe3f982984ba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-10-01* — If multiple effects modify a player's hand size, apply them in timestamp order. For example, if you put Cursed Rack (an artifact that sets a chosen player's maximum hand size to four) onto the battlefield choosing your opponent and then put Gnat Miser onto the battlefield, your opponent will have a maximum hand size of three. However, if those permanents entered in the opposite order, your opponent's maximum hand size would be four.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sok/70/gnat-miser) · oracle_id `cfb5da72-9f00-4ae2-8d59-f997faab451b` · printing: SOK #70 (2005-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gnawing Crescendo
 

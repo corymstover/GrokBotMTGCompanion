@@ -146,7 +146,14 @@
   > *When its power is threatened, the council speaks with a unified voice.*
 - **Keywords:** Will of the council
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3561 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/79/councils-judgment) · oracle_id `acf4d685-a718-42f7-9a7a-dee069ae8db2` · printing: OTC #79 (2024-04-19) · [rulings](https://api.scryfall.com/cards/4005e82f-0b30-4165-87e2-51250c00adb0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2020-08-07* — Because the votes are cast in turn order, each player will know the votes of players who voted beforehand.
+  - *2020-08-07* — Each player must vote for one of the candidate permanents. They can't abstain.
+  - *2020-08-07* — In the unusual case that no permanents have any votes, nothing is exiled.
+  - *2020-08-07* — No player votes until the spell or ability resolves. Any responses to that spell or ability must be made without knowing the outcome of the vote.
+  - *2020-08-07* — None of the candidate permanents are targeted. Players may vote for a permanent with protection from white, for example.
+  - *2020-08-07* — Players can't do anything after they finishing voting but before the "winning" permanent or permanents are exiled.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/79/councils-judgment) · oracle_id `acf4d685-a718-42f7-9a7a-dee069ae8db2` · printing: OTC #79 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Counsel of the Soratami
 
@@ -166,7 +173,10 @@
 - **Oracle text:**
   > Whenever an opponent casts a spell, you may reveal the top card of your library. If you do, counter that spell if it has the same mana value as the revealed card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3402 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/csp/31/counterbalance) · oracle_id `088dfd02-c0e0-41d1-9923-efe023fb2ad1` · printing: CSP #31 (2006-07-21) · [rulings](https://api.scryfall.com/cards/c329ff2b-0331-4934-a8df-870dd7bf402b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2006-07-15* — If an opponent casts a spell with X in its mana cost, the mana value of that spell takes the value of X into account. If you reveal a card with X in its mana cost, X is 0. For example, if your opponent casts Blaze with X=1, Counterbalance will counter that spell if you reveal a card with mana value 2, but it won't counter that spell if you reveal a Blaze of your own.
+  - *2017-04-18* — If an opponent casts half of a split card (for example, Hit), it won't be countered if you reveal that same split card. The mana value of a split card is determined by the combined mana cost of its two halves, but the mana value of Hit is determined using only that half's mana cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/csp/31/counterbalance) · oracle_id `088dfd02-c0e0-41d1-9923-efe023fb2ad1` · printing: CSP #31 (2006-07-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Counterbore
 
@@ -187,7 +197,12 @@
   > Overload {1}{U}{U}{R} (You may cast this spell for its overload cost. If you do, change "target" in its text to "each.")
 - **Keywords:** Overload
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5979 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c15/214/counterflux) · oracle_id `8c983da8-1436-4c06-af9c-91b72cab48c1` · printing: C15 #214 (2015-11-13) · [rulings](https://api.scryfall.com/cards/5178d975-88b8-4bd3-a5f5-b84f05172683/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-01-12* — Because a spell with overload doesn't target when its overload cost is paid, it may affect permanents with hexproof or with protection from the appropriate color.
+  - *2024-01-12* — If you are instructed to cast a spell with overload "without paying its mana cost," you can't choose to pay its overload cost instead.
+  - *2024-01-12* — If you don't pay the overload cost of a spell with overload, that spell will have a single target. If you pay the overload cost, the spell won't have any targets.
+  - *2024-01-12* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an overload cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c15/214/counterflux) · oracle_id `8c983da8-1436-4c06-af9c-91b72cab48c1` · printing: C15 #214 (2015-11-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Counterintelligence
 
@@ -232,7 +247,14 @@
 - **Flavor text** (MKC printing):
   > *"Nice theory, but I'm going to have to poke some holes in it."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9755 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/41/counterpoint) · oracle_id `dad4af15-5b26-417d-a41b-29e671e878f4` · printing: MKC #41 (2024-02-09) · [rulings](https://api.scryfall.com/cards/b74caf65-1e6c-444e-9121-906ba7e8ea20/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-02-02* — Alternatively, if the target spell is still a legal target but can’t be countered, Counterpoint will still resolve and allow you to cast a spell from your graveyard with mana value less than or equal to the target spell’s mana value.
+  - *2024-02-02* — If a spell you cast has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-02-02* — If the target spell has {X} in its mana cost, use the value chosen for X when determining that spell’s mana value.
+  - *2024-02-02* — If the target spell is an illegal target as Counterpoint tries to resolve, it won’t resolve and none of its effects will happen.
+  - *2024-02-02* — If you cast a spell “without paying its mana cost,” you can’t choose to cast it for any alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
+  - *2024-02-02* — You cast the card from your graveyard as Counterpoint resolves. You can’t wait to cast it later in the turn. Timing restrictions based on the card’s types are ignored.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/41/counterpoint) · oracle_id `dad4af15-5b26-417d-a41b-29e671e878f4` · printing: MKC #41 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Countersculpt
 
@@ -264,7 +286,9 @@
 - **Flavor text** (UMA printing):
   > *Each of the twenty-three winds of Esper is named and chronicled, and every possible interaction with the flow of magic is exhaustively detailed.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3533 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/uma/198/countersquall) · oracle_id `6df620b8-1e54-4f63-8556-12c75e5679af` · printing: UMA #198 (2018-12-07) · [rulings](https://api.scryfall.com/cards/f99f864e-a10f-47f4-94c5-4571b5c11b3b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-12-07* — A spell that can’t be countered is a legal target for Countersquall. The spell won’t be countered when Countersquall resolves, but its controller still loses 2 life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/uma/198/countersquall) · oracle_id `6df620b8-1e54-4f63-8556-12c75e5679af` · printing: UMA #198 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Countervailing Winds
 
@@ -277,7 +301,9 @@
   > *The Eternals had long since mastered every technique taught during the trials.*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9167 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hou/32/countervailing-winds) · oracle_id `2c51e20b-07b2-4c96-8d73-87379aafbc7c` · printing: HOU #32 (2017-07-14) · [rulings](https://api.scryfall.com/cards/de1c0ef3-b32c-403a-93cb-29cf05795711/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-07-14* — Count the number of cards in your graveyard as Countervailing Winds resolves to determine how much mana the controller of the target spell must pay to avoid the spell being countered. Countervailing Winds is still on the stack at this time and won’t count toward this number.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hou/32/countervailing-winds) · oracle_id `2c51e20b-07b2-4c96-8d73-87379aafbc7c` · printing: HOU #32 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Countless Gears Renegade
 
@@ -315,7 +341,9 @@
 - **Flavor text** (DFT printing):
   > *"With your help, Loot, we're going to make a hell of an entrance," said Chandra. In less than fifteen minutes, she came to regret those words.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4125 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dft/118/count-on-luck) · oracle_id `73ad7bcd-4ffc-442c-b6b5-d935b9ccaaaf` · printing: DFT #118 (2025-02-14) · [rulings](https://api.scryfall.com/cards/8f31beae-9b8f-4c32-af84-9f3ee767ba1d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-02-07* — You pay all costs and follow all normal timing rules for the card played from exile with this permanent’s ability. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dft/118/count-on-luck) · oracle_id `73ad7bcd-4ffc-442c-b6b5-d935b9ccaaaf` · printing: DFT #118 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Country Roads
 
@@ -326,6 +354,7 @@
   > {T}: Add {W}.
   > {1}{W}, {T}, Sacrifice this land: Create a 1/1 colorless Pilot creature token with "This token saddles Mounts and crews Vehicles as though its power were 2 greater." Activate only as a sorcery.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8367 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/253/country-roads) · oracle_id `c5a39f76-dd1b-442c-9f52-08561ecb91ad` · printing: DFT #253 (2025-02-14) · [rulings](https://api.scryfall.com/cards/897acd91-12ba-4fa8-a26e-c09f009167a8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Countryside Crusher
@@ -349,7 +378,14 @@
   > *"Thanks to my father, I know how to fight. He also showed me why I must."*
 - **Keywords:** Proliferate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8133 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/278/courage-in-crisis) · oracle_id `41b929ad-0c44-4e50-84d3-13b318035543` · printing: CMM #278 (2023-08-04) · [rulings](https://api.scryfall.com/cards/b836b0a9-c38b-423a-bf22-c9041acf1952/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-02-04* — An ability that triggers "Whenever you proliferate" triggers even if you chose no permanents or players while doing so.
+  - *2023-02-04* — If a permanent ever has both +1/+1 counters and -1/-1 counters on it at the same time, they're removed in pairs as a state-based action so that the permanent has only one of those kinds of counters on it.
+  - *2023-02-04* — If a player or permanent has more than one kind of counter on it, and you choose for it to get additional counters, it must get one of each kind of counter it already has. You can't have it get just one kind of counter it already has and not the others.
+  - *2023-02-04* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
+  - *2023-02-04* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
+  - *2023-02-04* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/278/courage-in-crisis) · oracle_id `41b929ad-0c44-4e50-84d3-13b318035543` · printing: CMM #278 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Courageous Goblin
 
@@ -474,7 +510,12 @@
   > Landfall — Whenever a land you control enters, you gain 1 life.
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1342 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/888/courser-of-kruphix) · oracle_id `46779609-4fa7-4fd2-b5b4-7d4d749339e6` · printing: CMM #888 (2023-08-04) · [rulings](https://api.scryfall.com/cards/dc63d2ea-a980-466e-9ebb-f28008f84c3d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-03-19* — Courser of Kruphix doesn't change when you can play lands. You can do so only during your main phase when you have priority and the stack is empty.
+  - *2021-03-19* — If the top card of your library changes while you're casting a spell, playing a land, or activating an ability, you don't reveal the new top card until you finish doing so. This means that if you play a land from the top of your library, you can't look at the next one until you've handled any replacement effects that modify that land entering the battlefield, such as that of Vesuva.
+  - *2021-03-19* — Playing a land from the top of your library counts as your land play for the turn. Once you play a land during your turn, you won't be able to play an additional land from the top of your library unless another effect (such as that of Azusa, Lost but Seeking) allows you to.
+  - *2021-03-19* — While playing with the top card of your library revealed, if you draw multiple cards, reveal each one before you draw it. If you put multiple cards on top of your library at once, reveal only the one new top card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/888/courser-of-kruphix) · oracle_id `46779609-4fa7-4fd2-b5b4-7d4d749339e6` · printing: CMM #888 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coursers' Accord
 
@@ -565,7 +606,14 @@
 - **Flavor text** (CMR printing):
   > *Watch your step.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2550 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/114/court-of-ambition) · oracle_id `652e71a9-e46f-41b3-8695-76b3606b1955` · printing: CMR #114 (2020-11-20) · [rulings](https://api.scryfall.com/cards/5deb0185-62b3-474b-83a1-25473fdae4fa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2020-11-10* — As Court of Ambition's second ability resolves, first the next opponent in turn order chooses whether they are discarding or not. If they are, they choose a card without revealing it (or two cards without revealing them, if you're the monarch), then each other opponent in turn order does the same. Then each chosen card is discarded simultaneously, and finally each player who couldn't or didn't discard loses the appropriate amount of life.
+  - *2020-11-10* — If combat damage dealt to the monarch causes that player to lose the game, the triggered ability that causes the controller of the attacking creature to become the monarch doesn't resolve. In most cases, the controller of the attacking creature will still become the monarch as it is likely their turn.
+  - *2020-11-10* — If the monarch leaves the game during another player's turn, that player becomes the monarch. If the monarch leaves the game during their turn, the next player in turn order becomes the monarch.
+  - *2020-11-10* — If the triggered ability that causes the monarch to draw a card goes on the stack and a different player becomes the monarch before that ability resolves, the first player will still draw the card.
+  - *2020-11-10* — The game starts with no monarch. Once an effect makes one player the monarch, the game will have exactly one monarch from that point forward. As a player becomes the monarch, the current monarch (if any) ceases being the monarch.
+  - *2020-11-10* — There are two inherent triggered abilities associated with being the monarch. These triggered abilities have no source and are controlled by the player who was the monarch at the time the abilities triggered. The full texts of these abilities are "At the beginning of the monarch's end step, that player draws a card" and "Whenever a creature deals combat damage to the monarch, its controller becomes the monarch."
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/114/court-of-ambition) · oracle_id `652e71a9-e46f-41b3-8695-76b3606b1955` · printing: CMR #114 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Court of Ardenvale
 
@@ -575,7 +623,13 @@
   > When this enchantment enters, you become the monarch.
   > At the beginning of your upkeep, return target permanent card with mana value 3 or less from your graveyard to your hand. If you're the monarch, return that permanent card to the battlefield instead.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3796 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woc/21/court-of-ardenvale) · oracle_id `be14d3be-295e-431c-b891-590164b730dd` · printing: WOC #21 (2023-09-08) · [rulings](https://api.scryfall.com/cards/4bd87c87-885c-4e30-9bbc-eccd75af5fbc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-09-01* — If combat damage dealt to the monarch causes that player to lose the game, the triggered ability that causes the controller of the attacking creature to become the monarch doesn't resolve. In most cases, the controller of the attacking creature will still become the monarch as it is likely their turn.
+  - *2023-09-01* — If the monarch leaves the game during another player's turn, that player becomes the monarch. If the monarch leaves the game during their turn, the next player in turn order becomes the monarch.
+  - *2023-09-01* — If the triggered ability that causes the monarch to draw a card goes on the stack and a different player becomes the monarch before that ability resolves, the first player will still draw the card.
+  - *2023-09-01* — The game starts with no monarch. As a player becomes the monarch, the current monarch (if any) ceases being the monarch. There is never more than one monarch at a time.
+  - *2023-09-01* — There are two inherent triggered abilities associated with being the monarch. These triggered abilities have no source and are controlled by the player who was the monarch at the time the abilities triggered. The full texts of these abilities are "At the beginning of the monarch's end step, that player draws a card" and "Whenever a creature deals combat damage to the monarch, its controller becomes the monarch."
+- **Source flags:** [Scryfall](https://scryfall.com/card/woc/21/court-of-ardenvale) · oracle_id `be14d3be-295e-431c-b891-590164b730dd` · printing: WOC #21 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Court of Bounty
 
@@ -587,7 +641,14 @@
 - **Flavor text** (CMR printing):
   > *To grow is to triumph.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6572 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/220/court-of-bounty) · oracle_id `e55d9377-f89a-41e5-a094-730d6f24caf0` · printing: CMR #220 (2020-11-20) · [rulings](https://api.scryfall.com/cards/dcffbea4-0126-483d-87da-b20e3c0b88a7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2020-11-10* — Court of Bounty's ability isn't the same as playing a land. You may still play a land for the turn if you put a land onto the battlefield with it.
+  - *2020-11-10* — If combat damage dealt to the monarch causes that player to lose the game, the triggered ability that causes the controller of the attacking creature to become the monarch doesn't resolve. In most cases, the controller of the attacking creature will still become the monarch as it is likely their turn.
+  - *2020-11-10* — If the monarch leaves the game during another player's turn, that player becomes the monarch. If the monarch leaves the game during their turn, the next player in turn order becomes the monarch.
+  - *2020-11-10* — If the triggered ability that causes the monarch to draw a card goes on the stack and a different player becomes the monarch before that ability resolves, the first player will still draw the card.
+  - *2020-11-10* — The game starts with no monarch. Once an effect makes one player the monarch, the game will have exactly one monarch from that point forward. As a player becomes the monarch, the current monarch (if any) ceases being the monarch.
+  - *2020-11-10* — There are two inherent triggered abilities associated with being the monarch. These triggered abilities have no source and are controlled by the player who was the monarch at the time the abilities triggered. The full texts of these abilities are "At the beginning of the monarch's end step, that player draws a card" and "Whenever a creature deals combat damage to the monarch, its controller becomes the monarch."
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/220/court-of-bounty) · oracle_id `e55d9377-f89a-41e5-a094-730d6f24caf0` · printing: CMR #220 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Court of Cunning
 
@@ -600,7 +661,13 @@
   > *A throne built on wisdom cannot be toppled.*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2759 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/63/court-of-cunning) · oracle_id `2ab88c99-aaa0-4a91-9225-0bbfba04b6bc` · printing: CMR #63 (2020-11-20) · [rulings](https://api.scryfall.com/cards/2f585f52-7b07-4453-b543-9654d314aa36/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2020-11-10* — If combat damage dealt to the monarch causes that player to lose the game, the triggered ability that causes the controller of the attacking creature to become the monarch doesn't resolve. In most cases, the controller of the attacking creature will still become the monarch as it is likely their turn.
+  - *2020-11-10* — If the monarch leaves the game during another player's turn, that player becomes the monarch. If the monarch leaves the game during their turn, the next player in turn order becomes the monarch.
+  - *2020-11-10* — If the triggered ability that causes the monarch to draw a card goes on the stack and a different player becomes the monarch before that ability resolves, the first player will still draw the card.
+  - *2020-11-10* — The game starts with no monarch. Once an effect makes one player the monarch, the game will have exactly one monarch from that point forward. As a player becomes the monarch, the current monarch (if any) ceases being the monarch.
+  - *2020-11-10* — There are two inherent triggered abilities associated with being the monarch. These triggered abilities have no source and are controlled by the player who was the monarch at the time the abilities triggered. The full texts of these abilities are "At the beginning of the monarch's end step, that player draws a card" and "Whenever a creature deals combat damage to the monarch, its controller becomes the monarch."
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/63/court-of-cunning) · oracle_id `2ab88c99-aaa0-4a91-9225-0bbfba04b6bc` · printing: CMR #63 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Court of Embereth
 
@@ -610,7 +677,13 @@
   > When this enchantment enters, you become the monarch.
   > At the beginning of your upkeep, create a 3/1 red Knight creature token. Then if you're the monarch, this enchantment deals X damage to each opponent, where X is the number of creatures you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3781 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/plst/WOC-24/court-of-embereth) · oracle_id `87a82441-9dfb-49bd-8b9e-eaab2c552843` · printing: PLST #WOC-24 (2026-10-19) · [rulings](https://api.scryfall.com/cards/aa68004f-66b6-460e-836c-05e8acd8651f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-09-01* — If combat damage dealt to the monarch causes that player to lose the game, the triggered ability that causes the controller of the attacking creature to become the monarch doesn't resolve. In most cases, the controller of the attacking creature will still become the monarch as it is likely their turn.
+  - *2023-09-01* — If the monarch leaves the game during another player's turn, that player becomes the monarch. If the monarch leaves the game during their turn, the next player in turn order becomes the monarch.
+  - *2023-09-01* — If the triggered ability that causes the monarch to draw a card goes on the stack and a different player becomes the monarch before that ability resolves, the first player will still draw the card.
+  - *2023-09-01* — The game starts with no monarch. As a player becomes the monarch, the current monarch (if any) ceases being the monarch. There is never more than one monarch at a time.
+  - *2023-09-01* — There are two inherent triggered abilities associated with being the monarch. These triggered abilities have no source and are controlled by the player who was the monarch at the time the abilities triggered. The full texts of these abilities are "At the beginning of the monarch's end step, that player draws a card" and "Whenever a creature deals combat damage to the monarch, its controller becomes the monarch."
+- **Source flags:** [Scryfall](https://scryfall.com/card/plst/WOC-24/court-of-embereth) · oracle_id `87a82441-9dfb-49bd-8b9e-eaab2c552843` · printing: PLST #WOC-24 (2026-10-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Court of Garenbrig
 
@@ -621,7 +694,16 @@
   > At the beginning of your upkeep, distribute two +1/+1 counters among up to two target creatures. Then if you're the monarch, double the number of +1/+1 counters on each creature you control.
 - **Keywords:** Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2296 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/plst/WOC-25/court-of-garenbrig) · oracle_id `1f3f6336-6f99-4181-be3c-1814f7b8ef36` · printing: PLST #WOC-25 (2026-10-19) · [rulings](https://api.scryfall.com/cards/197221d6-c67f-44f2-ab38-2014ca12f499/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2023-09-01* — If combat damage dealt to the monarch causes that player to lose the game, the triggered ability that causes the controller of the attacking creature to become the monarch doesn't resolve. In most cases, the controller of the attacking creature will still become the monarch as it is likely their turn.
+  - *2023-09-01* — If some of the creatures are illegal targets as Court of Garenbrig's last ability tries to resolve, the original distribution of counters still applies and the counters that would have been put on illegal targets are lost.
+  - *2023-09-01* — If the monarch leaves the game during another player's turn, that player becomes the monarch. If the monarch leaves the game during their turn, the next player in turn order becomes the monarch.
+  - *2023-09-01* — If the triggered ability that causes the monarch to draw a card goes on the stack and a different player becomes the monarch before that ability resolves, the first player will still draw the card.
+  - *2023-09-01* — The game starts with no monarch. As a player becomes the monarch, the current monarch (if any) ceases being the monarch. There is never more than one monarch at a time.
+  - *2023-09-01* — There are two inherent triggered abilities associated with being the monarch. These triggered abilities have no source and are controlled by the player who was the monarch at the time the abilities triggered. The full texts of these abilities are "At the beginning of the monarch's end step, that player draws a card" and "Whenever a creature deals combat damage to the monarch, its controller becomes the monarch."
+  - *2023-09-01* — To double the number of +1/+1 counters on a permanent, put a number of +1/+1 counters on it equal to the number it already has. Other cards that interact with putting counters on it will interact with this effect accordingly.
+  - *2023-09-01* — You choose how the counters will be distributed as you put Court of Garenbrig's last ability on the stack. Each target must receive at least one +1/+1 counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/plst/WOC-25/court-of-garenbrig) · oracle_id `1f3f6336-6f99-4181-be3c-1814f7b8ef36` · printing: PLST #WOC-25 (2026-10-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Court of Grace
 
@@ -633,7 +715,13 @@
 - **Flavor text** (CMR printing):
   > *A righteous sovereign makes for a blessed realm.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1647 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/16/court-of-grace) · oracle_id `f63c2438-27d4-449a-828f-f0a2ea86ff16` · printing: CMR #16 (2020-11-20) · [rulings](https://api.scryfall.com/cards/02f0be1b-554e-4b61-b495-6e2a7369cdb1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2020-11-10* — If combat damage dealt to the monarch causes that player to lose the game, the triggered ability that causes the controller of the attacking creature to become the monarch doesn't resolve. In most cases, the controller of the attacking creature will still become the monarch as it is likely their turn.
+  - *2020-11-10* — If the monarch leaves the game during another player's turn, that player becomes the monarch. If the monarch leaves the game during their turn, the next player in turn order becomes the monarch.
+  - *2020-11-10* — If the triggered ability that causes the monarch to draw a card goes on the stack and a different player becomes the monarch before that ability resolves, the first player will still draw the card.
+  - *2020-11-10* — The game starts with no monarch. Once an effect makes one player the monarch, the game will have exactly one monarch from that point forward. As a player becomes the monarch, the current monarch (if any) ceases being the monarch.
+  - *2020-11-10* — There are two inherent triggered abilities associated with being the monarch. These triggered abilities have no source and are controlled by the player who was the monarch at the time the abilities triggered. The full texts of these abilities are "At the beginning of the monarch's end step, that player draws a card" and "Whenever a creature deals combat damage to the monarch, its controller becomes the monarch."
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/16/court-of-grace) · oracle_id `f63c2438-27d4-449a-828f-f0a2ea86ff16` · printing: CMR #16 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Court of Ire
 
@@ -645,7 +733,13 @@
 - **Flavor text** (CMR printing):
   > *Hold your tongue, lest you burn it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3321 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/170/court-of-ire) · oracle_id `13f58292-9b78-4cd1-a16e-b1779a170d33` · printing: CMR #170 (2020-11-20) · [rulings](https://api.scryfall.com/cards/73ca0dcc-7a87-49da-8011-8c11a8835df2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2020-11-10* — If combat damage dealt to the monarch causes that player to lose the game, the triggered ability that causes the controller of the attacking creature to become the monarch doesn't resolve. In most cases, the controller of the attacking creature will still become the monarch as it is likely their turn.
+  - *2020-11-10* — If the monarch leaves the game during another player's turn, that player becomes the monarch. If the monarch leaves the game during their turn, the next player in turn order becomes the monarch.
+  - *2020-11-10* — If the triggered ability that causes the monarch to draw a card goes on the stack and a different player becomes the monarch before that ability resolves, the first player will still draw the card.
+  - *2020-11-10* — The game starts with no monarch. Once an effect makes one player the monarch, the game will have exactly one monarch from that point forward. As a player becomes the monarch, the current monarch (if any) ceases being the monarch.
+  - *2020-11-10* — There are two inherent triggered abilities associated with being the monarch. These triggered abilities have no source and are controlled by the player who was the monarch at the time the abilities triggered. The full texts of these abilities are "At the beginning of the monarch's end step, that player draws a card" and "Whenever a creature deals combat damage to the monarch, its controller becomes the monarch."
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/170/court-of-ire) · oracle_id `13f58292-9b78-4cd1-a16e-b1779a170d33` · printing: CMR #170 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Court of Locthwain
 
@@ -655,7 +749,16 @@
   > When this enchantment enters, you become the monarch.
   > At the beginning of your upkeep, exile the top card of target opponent's library. You may play that card for as long as it remains exiled, and mana of any type can be spent to cast it. If you're the monarch, until end of turn, you may cast a spell from among cards exiled with this enchantment without paying its mana cost.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3430 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woc/23/court-of-locthwain) · oracle_id `6106ba65-f07b-41ec-8b59-e052bbde5529` · printing: WOC #23 (2023-09-08) · [rulings](https://api.scryfall.com/cards/a8e1f698-1c04-4f31-aeaa-b796c5eb5070/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2023-09-01* — If combat damage dealt to the monarch causes that player to lose the game, the triggered ability that causes the controller of the attacking creature to become the monarch doesn't resolve. In most cases, the controller of the attacking creature will still become the monarch as it is likely their turn.
+  - *2023-09-01* — If the monarch leaves the game during another player's turn, that player becomes the monarch. If the monarch leaves the game during their turn, the next player in turn order becomes the monarch.
+  - *2023-09-01* — If the triggered ability that causes the monarch to draw a card goes on the stack and a different player becomes the monarch before that ability resolves, the first player will still draw the card.
+  - *2023-09-01* — The game starts with no monarch. As a player becomes the monarch, the current monarch (if any) ceases being the monarch. There is never more than one monarch at a time.
+  - *2023-09-01* — The six types of mana are white, blue, black, red, green, and colorless. Snow mana is not a type of mana. Court of Locthwain won't let you pay a snow cost using mana produced by a nonsnow source.
+  - *2023-09-01* — There are two inherent triggered abilities associated with being the monarch. These triggered abilities have no source and are controlled by the player who was the monarch at the time the abilities triggered. The full texts of these abilities are "At the beginning of the monarch's end step, that player draws a card" and "Whenever a creature deals combat damage to the monarch, its controller becomes the monarch."
+  - *2023-09-01* — You may play the exiled cards (and spend mana of any type to do so) even if Court of Locthwain leaves the battlefield. If another player gains control of Court of Locthwain, that player can't play the cards, and you still can.
+  - *2023-09-01* — You pay the costs for an exiled card if you cast it. You may pay any alternative costs the card has rather than the card's mana cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woc/23/court-of-locthwain) · oracle_id `6106ba65-f07b-41ec-8b59-e052bbde5529` · printing: WOC #23 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Court of Vantress
 
@@ -665,7 +768,23 @@
   > When this enchantment enters, you become the monarch.
   > At the beginning of your upkeep, choose up to one other target enchantment or artifact. If you're the monarch, you may create a token that's a copy of it. If you're not the monarch, you may have this enchantment become a copy of it, except it has this ability.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3295 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/plst/WOC-22/court-of-vantress) · oracle_id `ad82b43b-b15e-48f4-86ab-5ee2c448cf14` · printing: PLST #WOC-22 (2026-10-19) · [rulings](https://api.scryfall.com/cards/740d425c-2c0e-4e30-b8cf-4f699b2f9340/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2023-09-01* — Any enters-the-battlefield abilities of the copied permanent will trigger when the token enters the battlefield. Any "as [this permanent] enters the battlefield" or "[this permanent] enters the battlefield with" abilities of the permanent will also work.
+  - *2023-09-01* — Court of Vantress copies the printed values of the enchantment or artifact plus any copy effects that have been applied to it.
+  - *2023-09-01* — If Court of Vantress becomes a copy of a token, it copies the original characteristics of that token as defined by the effect that put it onto the battlefield. It won't become a token.
+  - *2023-09-01* — If Court of Vantress becomes a copy of an Aura, it's put into its owner's graveyard unless it's somehow attached to an appropriate object or player already. If it becomes a copy of an Equipment and is attached to a creature, it'll become unattached when it becomes a non-Equipment, non-Aura permanent.
+  - *2023-09-01* — If another permanent becomes a copy of Court of Vantress, it will become a copy of whatever Court of Vantress is currently copying (if anything) that also has Court of Vantress's last ability.
+  - *2023-09-01* — If combat damage dealt to the monarch causes that player to lose the game, the triggered ability that causes the controller of the attacking creature to become the monarch doesn't resolve. In most cases, the controller of the attacking creature will still become the monarch as it is likely their turn.
+  - *2023-09-01* — If the copied permanent has {X} in its mana cost, X is 0.
+  - *2023-09-01* — If the copied permanent is copying something else, then the token enters the battlefield as whatever that permanent copied, with the stated exceptions.
+  - *2023-09-01* — If the monarch leaves the game during another player's turn, that player becomes the monarch. If the monarch leaves the game during their turn, the next player in turn order becomes the monarch.
+  - *2023-09-01* — If the triggered ability that causes the monarch to draw a card goes on the stack and a different player becomes the monarch before that ability resolves, the first player will still draw the card.
+  - *2023-09-01* — The copy effect lasts indefinitely. Often, it will last until it is overwritten by another copy effect (if it copies another permanent on a future turn, perhaps).
+  - *2023-09-01* — The game starts with no monarch. As a player becomes the monarch, the current monarch (if any) ceases being the monarch. There is never more than one monarch at a time.
+  - *2023-09-01* — The token copies exactly what was printed on the original permanent and nothing else (unless that permanent is itself copying something else; see below). It doesn't copy whether that permanent is tapped or untapped, whether it has any counters on it or Auras attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+  - *2023-09-01* — There are two inherent triggered abilities associated with being the monarch. These triggered abilities have no source and are controlled by the player who was the monarch at the time the abilities triggered. The full texts of these abilities are "At the beginning of the monarch's end step, that player draws a card" and "Whenever a creature deals combat damage to the monarch, its controller becomes the monarch."
+  - *2023-09-01* — When Court of Vantress becomes a copy of a permanent, it's neither entering nor leaving the battlefield. Any enters-the-battlefield or leaves-the-battlefield abilities won't trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/plst/WOC-22/court-of-vantress) · oracle_id `ad82b43b-b15e-48f4-86ab-5ee2c448cf14` · printing: PLST #WOC-22 (2026-10-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Court Street Denizen
 
@@ -677,4 +796,5 @@
 - **Flavor text** (CMR printing):
   > *"The Boros fight for justice. The Azorius fight for law. I hold the line between, and make sure the people are given both."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7656 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/17/court-street-denizen) · oracle_id `34312179-f3f9-47ca-bdf4-5abbd493876e` · printing: CMR #17 (2020-11-20) · [rulings](https://api.scryfall.com/cards/c45b1d32-5a3a-4ec3-af11-d0ba947de175/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

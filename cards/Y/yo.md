@@ -140,7 +140,26 @@
   > When Yorion enters, exile any number of other nonland permanents you own and control. Return those cards to the battlefield at the beginning of the next end step.
 - **Keywords:** Flying, Companion
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4618 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Companion
-- **Source flags:** [Scryfall](https://scryfall.com/card/iko/232/yorion-sky-nomad) · oracle_id `e15504a7-2b67-4185-b916-172145f10b19` · printing: IKO #232 (2020-04-24) · [rulings](https://api.scryfall.com/cards/275426c4-c14e-47d0-a9d4-24da7f6f6911/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (18):
+  - *2020-04-17* — Auras attached to the exiled permanents will be put into their owners' graveyards. Equipment attached to the exiled permanents will become unattached and remain on the battlefield. Any counters on the exiled permanents will cease to exist. Once the exiled permanents return, they're considered new objects with no relation to the objects that they were.
+  - *2020-04-17* — Before shuffling your deck to become your library, you may reveal one card from outside the game to be your companion if your starting deck meets the requirements of the companion ability. You can't reveal more than one. It remains revealed outside the game as the game begins.
+  - *2020-04-17* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
+  - *2020-04-17* — If more than one player wishes to reveal a companion, the starting player does so first, and players proceed in turn order. Once a player has chosen not to reveal a companion, that player can't change their mind.
+  - *2020-04-17* — If you reveal a companion outside the game, for as long as it remains there, you may pay {3} any time you could cast a sorcery (that is, you have priority during your main phase and the stack is empty). Once you do, you put it into your hand and behaves like any other card you've brought into the game. For example, if it's discard, countered, or destroyed, it's put into your graveyard, remaining in the game. This is a change from previous rules.
+  - *2020-04-17* — Paying {3} to put your companion into your hand is a special action. It doesn't use the stack and players can't respond to it. Once you take this action, you may cast that card if it's legal to do so before any other player can take actions.
+  - *2020-04-17* — The companion ability has no effect if the card is in your starting deck and creates no restriction on putting a card with a companion ability into your starting deck. For example, Zirda may be in your starting deck even if your other permanent cards don't all have activated abilities.
+  - *2020-04-17* — The companion's other abilities apply only if the creature is on the battlefield. They have no effect while the companion is outside the game.
+  - *2020-04-17* — The requirements of the companion ability apply only to your starting deck. They do not apply to your sideboard.
+  - *2020-04-17* — You can't exile permanents you control but don't own, or permanents that you own but don't control.
+  - *2020-04-17* — You choose which permanents to exile as Yorion's triggered ability resolves. No player may take action between the time you choose the permanents and the time they're exiled.
+  - *2020-04-17* — You may have one companion in the Commander variant. Your deck, including your commander, must meet its companion requirement. Your companion is not one of your one hundred cards.
+  - *2020-04-17* — Your companion begins the game outside the game. In tournament play, this means your sideboard. In casual play, it's simply a card you own that's not in your starting deck.
+  - *2020-04-17* — Your minimum deck size is forty cards for Limited events (such as Booster Draft and Sealed Deck) and sixty cards for Constructed events (such as Standard or casual freeform play). Certain variants may have other minimums. The Commander variant requires exactly one hundred cards, so Yorion can never be your chosen companion in a Commander game.
+  - *2020-06-01* — If you reveal a companion outside the game, for as long as it remains there, you may pay {3} any time you could cast a sorcery (that is, you have priority during your main phase and the stack is empty). Once you do, you put it into your hand and behaves like any other card you've brought into the game. For example, if it's discarded, countered, or destroyed, it's put into your graveyard, remaining in the game. This is a change from previous rules.
+  - *2020-06-01* *(Scryfall note)* — Once you put your companion into your hand, it behaves like any other card you’ve brought into the game. For example, if it’s countered or destroyed, it’s put into your graveyard, remaining in the game.
+  - *2020-06-01* — Paying {3} to put your companion into your hand is a special action. It doesn't use the stack and players can't respond to it. Once you take this action, you may cast that card if it's legal to do so before any other player can take actions.
+  - *2020-06-01* *(Scryfall note)* — Wizards of the Coast has issued functional errata for the Companion mechanic. Instead of casting companions from outside the game: Once per game, any time you could cast a sorcery (during your main phase when the stack is empty), you can pay {3} to put your companion from your sideboard into your hand. This is a special action, not an activated ability. It happens immediately and can’t be responded to. It can’t be countered or stopped by cards like Phyrexian Revoker. For more information please see https://magic.wizards.com/en/articles/archive/news/june-1-2020-banned-and-restricted-announcement
+- **Source flags:** [Scryfall](https://scryfall.com/card/iko/232/yorion-sky-nomad) · oracle_id `e15504a7-2b67-4185-b916-172145f10b19` · printing: IKO #232 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yorvo, Lord of Garenbrig
 
@@ -151,7 +170,10 @@
   > Yorvo enters with four +1/+1 counters on it.
   > Whenever another green creature you control enters, put a +1/+1 counter on Yorvo. Then if that creature's power is greater than Yorvo's power, put another +1/+1 counter on Yorvo.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9518 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/eld/185/yorvo-lord-of-garenbrig) · oracle_id `00a15abc-bdac-4977-90a0-f08d41941d01` · printing: ELD #185 (2019-10-04) · [rulings](https://api.scryfall.com/cards/ae2998a1-1713-467e-a08e-0efd8720aa5b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-10-04* — If the entering green creature dies before Yorvo's triggered ability resolves, use its power as it last existed on the battlefield to determine whether Yorvo gets a second +1/+1 counter.
+  - *2019-10-04* — Yorvo's triggered ability compares the power of the entering green creature only after putting a +1/+1 counter on Yorvo. If that counter causes Yorvo's power to be greater than or equal to the entering creature's power, it won't get a second +1/+1 counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eld/185/yorvo-lord-of-garenbrig) · oracle_id `00a15abc-bdac-4977-90a0-f08d41941d01` · printing: ELD #185 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yosei, the Morning Star
 
@@ -192,6 +214,7 @@
   > *Day after day he sat there, knowing that the Wanderer would soon be back for him.*
 - **Keywords:** Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4309 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/nec/32/yoshimaru-ever-faithful) · oracle_id `963834c8-42df-4ee6-9b45-b9de88ce2eac` · printing: NEC #32 (2022-02-18) · [rulings](https://api.scryfall.com/cards/aa409269-3698-42a2-8c51-75557b27a6f6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yoshimaru, Scrappy Stray
@@ -303,6 +326,7 @@
 - **Flavor text** (NEO printing):
   > *So swift and sharp was his blade that the ogre never even felt the cut.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7320 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/129/you-are-already-dead) · oracle_id `c1157d79-38ea-4a88-b346-7b12614ff78a` · printing: NEO #129 (2022-02-18) · [rulings](https://api.scryfall.com/cards/768727ce-4f84-4527-8d69-3c9b7877b748/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### You Cannot Pass!
@@ -325,7 +349,9 @@
   > • Fight the Current — Return target nonland permanent to its owner's hand.
   > • Find a Crossing — Target creature gets +1/+0 until end of turn and can't be blocked this turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8117 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/83/you-come-to-a-river) · oracle_id `9913da11-07f0-494a-8c47-11629dcb5be2` · printing: AFR #83 (2021-07-23) · [rulings](https://api.scryfall.com/cards/ebf9bab7-98a0-4394-90c0-e7c52e14eb37/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-07-23* — Casting this spell and choosing the Find a Crossing mode targeting an attacking creature that has already been blocked won't change or undo that block. It will still get the +1/+0 though.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/83/you-come-to-a-river) · oracle_id `9913da11-07f0-494a-8c47-11629dcb5be2` · printing: AFR #83 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### You Come to the Gnoll Camp
 
@@ -372,7 +398,9 @@
   > • Break Their Chains — Destroy target artifact.
   > • Interrogate Them — Exile the top three cards of target opponent's library. Choose one of them. Until the end of your next turn, you may play that card, and you may spend mana as though it were mana of any color to cast it.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4521 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/169/you-find-some-prisoners) · oracle_id `467c526a-02a7-405d-98de-c632ea83519b` · printing: AFR #169 (2021-07-23) · [rulings](https://api.scryfall.com/cards/0f2a95ae-feb2-42c3-99b4-9ea7a491d326/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-07-23* — For the Interrogate Them mode, the cards you didn't choose remain in exile. If you don't play the chosen card, it also remains in exile.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/169/you-find-some-prisoners) · oracle_id `467c526a-02a7-405d-98de-c632ea83519b` · printing: AFR #169 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### You Find the Villains' Lair
 
@@ -385,6 +413,7 @@
 - **Flavor text** (AFR printing):
   > *"Give me just a moment! I almost have it."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5888 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/84/you-find-the-villains-lair) · oracle_id `41cdeb52-e90f-44f8-94d2-23aa032c4870` · printing: AFR #84 (2021-07-23) · [rulings](https://api.scryfall.com/cards/c6704458-6e9e-4795-a56d-25b68fbf9672/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### You Happen On a Glade
@@ -396,6 +425,7 @@
   > • Journey On — Search your library for up to two basic land cards, reveal them, put them into your hand, then shuffle.
   > • Make Camp — Return target permanent card from your graveyard to your hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9553 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/214/you-happen-on-a-glade) · oracle_id `88e5300d-8339-41cb-85bf-325909116b61` · printing: AFR #214 (2021-07-23) · [rulings](https://api.scryfall.com/cards/f9ae7693-a6b5-42f8-9f05-c0643b95a710/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### You Hear Something on Watch
@@ -430,6 +460,7 @@
   > • Gather Your Courage — Target creature gets +5/+5 and gains indestructible until end of turn. All creatures your opponents control able to block that creature this turn do so.
 - **Keywords:** Gather Your Courage, Run and Hide
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8154 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/262/you-look-upon-the-tarrasque) · oracle_id `231a6f8a-624a-4bff-8648-0b4ef910a6aa` · printing: CLB #262 (2022-06-10) · [rulings](https://api.scryfall.com/cards/5f00a908-1898-48e9-8b04-88c2450b2dd3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### You, Magic Playtester
@@ -551,6 +582,7 @@
   > *The Ulvenwald makes no allowances for youth. Today's newborn is either tomorrow's hunter or tomorrow's lunch.*
 - **Keywords:** Undying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7015 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/227/young-wolf) · oracle_id `8b492764-10b6-4506-be11-22daa9220a91` · printing: INR #227 (2025-01-24) · [rulings](https://api.scryfall.com/cards/ed2ca825-b029-495f-83fc-54366229d417/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### You're Ambushed on the Road
@@ -670,6 +702,7 @@
   > *"You trespass on sacred ground, monster. Leave while you still can."*
 - **Keywords:** Pray for Protection, Strike a Deal
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2390 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/52/your-temple-is-under-attack) · oracle_id `f48f69c0-cca8-4f44-84cc-71e7cbbb9208` · printing: CLB #52 (2022-06-10) · [rulings](https://api.scryfall.com/cards/7ad8aa76-b643-4bd2-aaeb-036c1d50db54/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Your Wish Is My Command
@@ -692,6 +725,7 @@
 - **Flavor text** (AFR printing):
   > *"Looks like we've got company."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7712 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/85/you-see-a-guard-approach) · oracle_id `49aa87c7-034b-409d-b37f-50db6a42e533` · printing: AFR #85 (2021-07-23) · [rulings](https://api.scryfall.com/cards/30c5fd8e-753a-45e1-bcdd-fb6e072ffbb0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### You See a Pair of Goblins
@@ -706,6 +740,7 @@
   > *"I have the shot. Shall I take it?"*
   > *—Varis, Silverymoon ranger*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7084 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/170/you-see-a-pair-of-goblins) · oracle_id `77d016e3-f652-4827-b49a-8044f6d2d45b` · printing: AFR #170 (2021-07-23) · [rulings](https://api.scryfall.com/cards/b69e7200-96ea-4455-83cc-0a497d56efe5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Youthful Knight
@@ -747,6 +782,7 @@
   > *Before she is admitted to the host of Starnheim, a young valkyrie must learn a thousand tales of her ancestors.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2914 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/149/youthful-valkyrie) · oracle_id `6d37ba4b-ff56-4eec-9dc2-2d7f357dc9c9` · printing: FDN #149 (2024-11-15) · [rulings](https://api.scryfall.com/cards/9d795f79-c3a5-4ea1-a5cf-1ce73d6837b6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### You've Been Caught Stealing

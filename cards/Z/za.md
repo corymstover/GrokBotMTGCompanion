@@ -65,7 +65,10 @@
   > {2}{W}: You gain 3 life.
 - **Keywords:** Reach, Vigilance, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1814 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/296/zacama-primal-calamity) · oracle_id `23270e4a-a222-4ffb-a946-d0e20d665187` · printing: LCC #296 (2023-11-17) · [rulings](https://api.scryfall.com/cards/05c5a9a8-badd-43ab-8408-a13e75407681/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-01-19* — Zacama's triggered ability triggers if you cast it from any zone. It doesn't trigger if you put Zacama onto the battlefield without casting it.
+  - *2023-07-28* — Zacama's damage-dealing ability can be activated during combat, perhaps targeting a creature blocking it. If all creatures blocking Zacama are destroyed, its combat damage is assigned to the player, planeswalker, or battle it's attacking because of trample. If the blocking creatures are dealt nonlethal damage, that damage is considered when assigning trample damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/296/zacama-primal-calamity) · oracle_id `23270e4a-a222-4ffb-a946-d0e20d665187` · printing: LCC #296 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zack Fair
 
@@ -76,7 +79,11 @@
   > Zack Fair enters with a +1/+1 counter on it.
   > {1}, Sacrifice Zack Fair: Target creature you control gains indestructible until end of turn. Put Zack Fair's counters on that creature and attach an Equipment that was attached to Zack Fair to that creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2631 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/45/zack-fair) · oracle_id `e84d146a-1c67-49df-b062-622794e45c42` · printing: FIN #45 (2025-06-13) · [rulings](https://api.scryfall.com/cards/f21f9161-5945-40da-8da0-446f6a4a1c23/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-06-06* — In some unusual cases, you may end up putting the appropriate counters on more than one permanent. For example, if you control The Ozolith ("Whenever a creature you control leaves the battlefield, if it had counters on it, put those counters on The Ozolith.") when Zack Fair's last ability resolves, you'll put the appropriate number of each kind of counter onto both The Ozolith and the target creature.
+  - *2025-06-06* — Zack Fair's last ability doesn't cause you to move counters from Zack Fair onto the target creature. Rather, you put the same number of each kind of counter Zack Fair had when it was sacrificed onto the target creature.
+  - *2025-06-06* — Zack Fair's last ability puts all counters that were on Zack Fair onto the target creature, not just its +1/+1 counters.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/45/zack-fair) · oracle_id `e84d146a-1c67-49df-b062-622794e45c42` · printing: FIN #45 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zada, Hedron Grinder
 
@@ -88,7 +95,16 @@
 - **Flavor text** (CMM printing):
   > *"A hedron holds magic for a thousand years—or less, if need be."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3442 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/268/zada-hedron-grinder) · oracle_id `9f7d5e1c-bf5b-4ab9-bd6e-2627b4d22b36` · printing: CMM #268 (2023-08-04) · [rulings](https://api.scryfall.com/cards/4520cdcc-a10f-4b39-9c6f-ba86f6aa2c87/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2018-03-16* — Any creature you control that couldn't be targeted by the original spell (due to shroud, protection abilities, targeting restrictions, or any other reason) is just ignored by Zada's ability.
+  - *2018-03-16* — If the spell that's copied has an X whose value was determined as it was cast (like Rolling Thunder does), the copies have the same value of X.
+  - *2018-03-16* — If the spell that's copied is modal (that is, it says "Choose one —" or the like), the copies will have the same mode. You can't choose a different one.
+  - *2018-03-16* — If you cast an instant or sorcery spell that has multiple targets, but it's targeting only Zada with all of them, Zada's ability will trigger. The copies will similarly each be targeting only one of your other creatures. You can't change any of the copy's targets to other creatures.
+  - *2018-03-16* — The controller of a copy can't choose to pay any alternative or additional costs for the copy. However, effects based on any alternative or additional costs that were paid for the original spell are copied as though those same costs were paid for the copy.
+  - *2018-03-16* — The copies that the ability creates are created on the stack, so they're not cast. Abilities that trigger when a player casts a spell (like Zada's ability itself) won't trigger.
+  - *2018-03-16* — You control all the copies. You choose the order the copies are put onto the stack. The original spell will be on the stack beneath those copies and will resolve last.
+  - *2018-03-16* — Zada's ability triggers whenever you cast an instant or sorcery spell that targets only Zada and no other object or player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/268/zada-hedron-grinder) · oracle_id `9f7d5e1c-bf5b-4ab9-bd6e-2627b4d22b36` · printing: CMM #268 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zada's Commando
 
@@ -288,7 +304,21 @@
 - **Flavor text** (FIN printing):
   > *A city dead for a thousand years. The end of Yuna's journey.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3837 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/293/zanarkand-ancient-metropolis-lasting-fayth) · oracle_id `5f2b3ea8-99ee-47a4-8a1c-4b27478d524c` · printing: FIN #293 (2025-06-13) · [rulings](https://api.scryfall.com/cards/881e4c00-3b9a-47a1-bf66-1badda994c88/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2025-06-06* — An adventurer card uses only its non-Adventure characteristics in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it's in your graveyard, Jidoor, Aristocratic Capital is a colorless Town land card whose mana value is 0. It can't be the target of Sorceress's Schemes, which reads in part "Return target instant or sorcery card from your graveyard or exiled card with flashback you own to your hand."
+  - *2025-06-06* — An effect may refer to a card, spell, or permanent that "has an Adventure." This refers to a card, spell, or permanent that has an adventurer card's set of alternative characteristics, even if they're not being used and even if that card was never cast as an Adventure.
+  - *2025-06-06* — Casting a card as an Adventure isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Adventure.
+  - *2025-06-06* — If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner's graveyard as it resolves. For as long as it remains exiled, that player may play it using its primary characteristics. If an Adventure spell leaves the stack in any way other than resolving (most likely by being countered or by failing to resolve because its targets have all become illegal), that card won't be exiled and the spell's controller won't be able to play that card from exile later.
+  - *2025-06-06* — If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won't give you permission to play it with its primary characteristics.
+  - *2025-06-06* — If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it's not possible to play the copy as a permanent.
+  - *2025-06-06* — If an effect instructs you to choose a card name, you may choose the alternative Adventure name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2025-06-06* — If an effect refers to a card, spell, or permanent that has an Adventure, it won't find an instant or sorcery spell on the stack that's been cast as an Adventure.
+  - *2025-06-06* — If an object becomes a copy of an object that has an Adventure, the copy also has an Adventure. If it changes zones, it will either cease to exist (if it's a token) or cease to be a copy (if it's a nontoken permanent), and so you won't be able to cast it as an Adventure.
+  - *2025-06-06* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell. For example, if you control Traveling Chocobo ("You may play lands and cast Bird spells from the top of your library.") and Jidoor, Aristocratic Capital is on top of your library, you can play Jidoor, Aristocratic Capital, but you can't cast Overture.
+  - *2025-06-06* — Town is a land type with no special meaning. It doesn't grant the land any intrinsic abilities. Other cards may care about which lands are Towns.
+  - *2025-06-06* — When playing a card as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The resulting spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+  - *2025-06-06* — You must still follow any timing restrictions and permissions for the card you play from exile. In the case of any of the five lands in this release, you'll be able to play it only during your main phase while the stack is empty and only if you have an available land play remaining.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/293/zanarkand-ancient-metropolis-lasting-fayth) · oracle_id `5f2b3ea8-99ee-47a4-8a1c-4b27478d524c` · printing: FIN #293 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zanikev Locust
 
@@ -324,7 +354,13 @@
   > Whenever Zara attacks, look at defending player's hand. You may put a creature card from it onto the battlefield under your control tapped and attacking that player or a planeswalker they control. Return that creature to its owner's hand at the beginning of the next end step.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4936 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/297/zara-renegade-recruiter) · oracle_id `cd2720c2-522c-4fdc-9cef-9c5ce250fe7b` · printing: LCC #297 (2023-11-17) · [rulings](https://api.scryfall.com/cards/d8bd1312-2c3a-4591-943c-c1550b506fa4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2020-11-10* — Although the creature is attacking, it was never declared as an attacking creature. This means that abilities that trigger whenever a creature attacks won't trigger when the creature enters the battlefield attacking.
+  - *2020-11-10* — Any effects that say the creature can't attack affect only the declaration of attackers. They won't stop the creature from entering the battlefield attacking. For example, you could put a creature card with defender onto the battlefield tapped and attacking this way.
+  - *2020-11-10* — If a creature is attacking a planeswalker, that planeswalker's controller is the defending player.
+  - *2020-11-10* — If you lose the game before the creature put onto the battlefield under your control returns to its owner's hand, that creature is exiled. If that creature's owner loses the game while you control the creature, the creature leaves the game with them.
+  - *2020-11-10* — The creature is returned to its owner's hand only if it's still on the battlefield as the delayed triggered ability resolves. If it's somewhere else at that time, it stays where it is.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/297/zara-renegade-recruiter) · oracle_id `cd2720c2-522c-4fdc-9cef-9c5ce250fe7b` · printing: LCC #297 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zarda, the Power Princess
 
@@ -376,7 +412,12 @@
   > 0: Create a 1/1 red Devil creature token with "When this token dies, it deals 1 damage to any target."
   > −6: You get an emblem with "At the end of the first combat phase on your turn, untap target creature you control. After this phase, there is an additional combat phase."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6458 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/172/zariel-archduke-of-avernus) · oracle_id `04ddb495-e9b0-47bf-b892-c7ae7b87c10c` · printing: AFR #172 (2021-07-23) · [rulings](https://api.scryfall.com/cards/7be5b866-d479-4698-98b2-87a973f6b8f6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-07-23* — If the target of the emblem's ability becomes an illegal target by the time the ability tries to resolve, the ability won't resolve and none of its effects will happen. You won't get an additional combat phase.
+  - *2021-07-23* — If you have more than one of Zariel's emblem, the abilities will each trigger at the end of the first combat phase on your turn. You can choose the same creature as the target of each ability. Those targets will untap before any additional combats. No creatures will untap between the first additional combat and the second additional combat (or between the second and third, and so on, and wow, how long was Zariel under your control?!)
+  - *2021-07-23* — The ability of the emblem can target any creature you control, not just one that's tapped.
+  - *2021-07-23* — There is no main phase between the combat phases. You move from the first combat phase directly into the second combat phase.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/172/zariel-archduke-of-avernus) · oracle_id `04ddb495-e9b0-47bf-b892-c7ae7b87c10c` · printing: AFR #172 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zar Ojanen, Scion of Efrava
 
@@ -402,7 +443,9 @@
   > {1}{B/G}: Target Insect gets +1/+0 and gains deathtouch until end of turn. ({B/G} can be paid with either {B} or {G}.)
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7128 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/j22/47/zask-skittering-swarmlord) · oracle_id `3c4966b9-26f9-46ff-8d41-7fd01c70986d` · printing: J22 #47 (2022-12-02) · [rulings](https://api.scryfall.com/cards/4eafc507-973a-4aec-91b9-c29d70b0e25d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-12-02* — You must pay all costs and follow all timing rules for cards played from your graveyard this way. For example, you may play a land this way only while the stack is empty during one of your own main phases, and only if you haven't played a land yet this turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/j22/47/zask-skittering-swarmlord) · oracle_id `3c4966b9-26f9-46ff-8d41-7fd01c70986d` · printing: J22 #47 (2022-12-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zaxara, the Exemplary
 
@@ -415,4 +458,10 @@
   > Whenever you cast a spell with {X} in its mana cost, create a 0/0 green Hydra creature token, then put X +1/+1 counters on it.
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5793 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/176/zaxara-the-exemplary) · oracle_id `a9946ea0-bf0e-4c9c-a3c6-21337a5029ab` · printing: DMC #176 (2022-09-09) · [rulings](https://api.scryfall.com/cards/6dc390da-75f8-490a-a724-c12d21cfe578/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2020-04-17* — If X is 0, the 0/0 Hydra token will die immediately after the ability's done resolving unless something else is raising its toughness.
+  - *2020-04-17* — If an effect, such as that of Parallel Lives, causes Zaxara's ability to create multiple Hydra tokens, they each receive X +1/+1 counters.
+  - *2020-04-17* — If the spell you cast has {X}{X} in its mana cost, the token gets only X counters, not twice X.
+  - *2020-04-17* — The Hydra token enters the battlefield as a 0/0 creature. Any abilities that modify or trigger on this event apply. After the token is on the battlefield but before any player can take actions, +1/+1 counters are put onto the token.
+  - *2020-04-17* — The value of X in Zaxara's last ability is the value of X of the spell you cast.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/176/zaxara-the-exemplary) · oracle_id `a9946ea0-bf0e-4c9c-a3c6-21337a5029ab` · printing: DMC #176 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

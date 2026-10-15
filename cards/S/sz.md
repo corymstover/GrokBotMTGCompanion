@@ -48,7 +48,12 @@
   > Whenever you sacrifice another nontoken permanent during your turn, put a number of +1/+1 counters equal to Szarel's power on up to one other target creature.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4091 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/4/szarel-genesis-shepherd) · oracle_id `1f3c3365-7dc8-47e1-b304-2a09aa229292` · printing: EOC #4 (2025-08-01) · [rulings](https://api.scryfall.com/cards/89b61123-b10f-4bcf-b5f9-1f302f9b22d1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-07-25* — If Szarel leaves the battlefield at the same time as you sacrifice one or more other nontoken permanents during your turn (probably because you also sacrificed Szarel), its last ability triggers for each of those other nontoken permanents.
+  - *2025-07-25* — If Szarel leaves the battlefield before its last ability resolves, use its power as it last existed on the battlefield to determine how many +1/+1 counters to put on the target creature.
+  - *2025-07-25* — Szarel’s second ability doesn’t allow you to activate abilities (such as cycling) of land cards in your graveyard.
+  - *2025-07-25* — Szarel’s second ability doesn’t change the times when you can play those land cards. You can still play lands only during your main phase when you have priority and the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/4/szarel-genesis-shepherd) · oracle_id `1f3c3365-7dc8-47e1-b304-2a09aa229292` · printing: EOC #4 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Szat's Will
 
@@ -59,4 +64,15 @@
   > • Each opponent sacrifices a creature they control with the greatest power.
   > • Exile all opponents' graveyards, then create X 0/1 black Thrull creature tokens, where X is the greatest power among creature cards exiled this way.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5434 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/152/szats-will) · oracle_id `f0d8bde1-76db-4bd2-ae90-3e3a3418de0b` · printing: CMR #152 (2020-11-20) · [rulings](https://api.scryfall.com/cards/9828be7b-1eae-4718-9e71-2f625121b00b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2020-11-10* — Each opponent considers their creatures independently. For example, if one opponent controls creatures with powers 4 and 5, and another opponent controls creatures with powers 2 and 7, the creatures with powers 5 and 7 will be sacrificed.
+  - *2020-11-10* — Even though the card is named after a specific character, controlling any commander will satisfy its condition.
+  - *2020-11-10* — For the second mode, use the powers of the creature cards as they existed in the graveyard to determine the value of X.
+  - *2020-11-10* — If an opponent controls more than one creature with the greatest power among creatures they control, they choose which one to sacrifice.
+  - *2020-11-10* — If both modes are chosen, and an opponent sacrifices a creature token to the first mode, that token will be in the graveyard as the instructions in the second mode are followed. As it's not a creature card, it won't be exiled, and it won't be considered for determining the value of X. The token will cease to exist after Szat's Will resolves.
+  - *2020-11-10* — If both modes are chosen, they happen in the stated order. Any creature cards that end up in an opponent's graveyard because they were sacrificed for the first mode will be exiled as the instructions for the second mode are followed.
+  - *2020-11-10* — Once you've announced that you're casting a spell, players can't take any actions until you've finished doing so. Notably, opponents can't try to remove your commander to change how many modes you may choose.
+  - *2020-11-10* — Once you've chosen both modes for the spell, it doesn't matter whether you continue to control a commander. This is true even if you somehow no longer control a commander as you finish casting the spell.
+  - *2020-11-10* — The commander you control doesn't have to be your commander.
+  - *2020-11-10* — There's no extra bonus if you control more than one commander.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/152/szats-will) · oracle_id `f0d8bde1-76db-4bd2-ae90-3e3a3418de0b` · printing: CMR #152 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

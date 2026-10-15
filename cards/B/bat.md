@@ -203,6 +203,7 @@
   > Equip {5}
 - **Keywords:** Equip, Living weapon
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7256 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/221/batterbone) · oracle_id `389d459d-446a-4b84-82b2-a30fe6ced11f` · printing: MH2 #221 (2021-06-18) · [rulings](https://api.scryfall.com/cards/94266c32-774f-42fa-84d7-7b646c950587/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battered Golem
@@ -216,6 +217,7 @@
 - **Flavor text** (5DN printing):
   > *A dent marks every year of service, and it has as much rust as glory.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8902 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/5dn/106/battered-golem) · oracle_id `066dfefd-eef5-4c81-8e8a-310bac01674f` · printing: 5DN #106 (2004-06-04) · [rulings](https://api.scryfall.com/cards/f69add35-c529-4b30-8e64-f09b8308432f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Batterhorn
@@ -317,7 +319,13 @@
   > Equip {5}
 - **Keywords:** Equip, Living weapon
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5016 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/234/batterskull) · oracle_id `d12e5ce0-5705-4c35-9a93-b883db52c80c` · printing: 2XM #234 (2020-08-07) · [rulings](https://api.scryfall.com/cards/b7f16fdf-a3f5-462d-a64a-789d893b6ef5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2020-08-07* — If the Germ token is destroyed, the Equipment remains on the battlefield as with any other Equipment.
+  - *2020-08-07* — If the living weapon trigger causes two Germs to be created (due to an effect such as that of Doubling Season), the Equipment becomes attached to one of them. The other will be put into your graveyard and subsequently cease to exist, unless another effect raises its toughness above 0.
+  - *2020-08-07* — Like other Equipment, each Equipment with living weapon has an equip cost. You can pay this cost to attach an Equipment to another creature you control. Once the Germ token is no longer equipped, it will be put into your graveyard and subsequently cease to exist, unless another effect raises its toughness above 0.
+  - *2020-08-07* — The Germ token enters the battlefield as a 0/0 creature and the Equipment becomes attached to it before state-based actions would cause the token to die. Abilities that trigger as the token enters the battlefield see that a 0/0 creature entered the battlefield.
+  - *2020-08-07* — The ability to return Batterskull to its owner's hand can be activated only if Batterskull is on the battlefield. If Batterskull is no longer on the battlefield when the ability resolves, Batterskull remains in its new zone and isn't returned to its owner's hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/234/batterskull) · oracle_id `d12e5ce0-5705-4c35-9a93-b883db52c80c` · printing: 2XM #234 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battery Bearer
 
@@ -342,7 +350,18 @@
   > Whenever this creature deals combat damage to a player, draw a card if that player has more cards in hand than each other player. Then you create a Treasure token if that player controls more lands than each other player. Then you gain 3 life if that player has more life than each other player.
 - **Keywords:** Myriad, Flying, Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1786 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/9/battle-angels-of-tyr) · oracle_id `c2bd0c24-3973-48bc-a591-3779e3640c5d` · printing: CLB #9 (2022-06-10) · [rulings](https://api.scryfall.com/cards/4c91dbf4-94fa-45d0-b8ed-a778b11d789b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2022-06-10* — Although the tokens enter the battlefield attacking, they were never declared as attackers. Abilities that trigger whenever a creature attacks won’t trigger, including the myriad ability of the tokens. If there are any costs to have a creature attack, those costs won’t apply to the tokens.
+  - *2022-06-10* — Any enters-the-battlefield abilities of the copied creature will trigger when the tokens enter the battlefield. Any “as [this permanent] enters the battlefield” or “[this permanent] enters the battlefield with” abilities of the copied creature will also work.
+  - *2022-06-10* — Each condition is checked as the triggered ability resolves, not when it is placed on the stack.
+  - *2022-06-10* — Each condition is checked, even if you don't get the benefit of one or more of them. You can create a Treasure token even if you didn't draw a card, for example.
+  - *2022-06-10* — Each token copies exactly what was printed on the original creature and nothing else. It doesn’t copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+  - *2022-06-10* — If myriad creates more than one token for any given player (due to an effect such as the one Doubling Season creates), you may choose separately for each token whether it’s attacking the player or a planeswalker they control.
+  - *2022-06-10* — If the defending player is your only opponent, no tokens are put onto the battlefield.
+  - *2022-06-10* — The term “defending player” in the myriad rules (or any other ability of an attacking creature) refers to the player the creature with myriad was attacking or the controller of the planeswalker it was attacking at the time the ability resolves. If that creature is no longer attacking, it refers to the player it was last attacking or the controller of the planeswalker it was last attacking.
+  - *2022-06-10* — The tokens all enter the battlefield at the same time.
+  - *2022-06-10* — You choose whether each token is attacking the player or a planeswalker they control as the token is created. If it’s attacking a planeswalker, you choose which one.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/9/battle-angels-of-tyr) · oracle_id `c2bd0c24-3973-48bc-a591-3779e3640c5d` · printing: CLB #9 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battle at the Bridge
 
@@ -368,7 +387,11 @@
   > III — Create Avacyn, a legendary 8/8 white Angel creature token with flying, vigilance, and indestructible.
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6377 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/719/battle-at-the-helvault) · oracle_id `076584c8-ec58-4711-8f59-4839a4fa88ad` · printing: CMM #719 (2023-08-04) · [rulings](https://api.scryfall.com/cards/0de0eaeb-9b62-427d-9873-d84de1740ddc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-07-28* — Auras attached to the exiled permanents will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled permanents will cease to exist. When the cards return to the battlefield, they will be new objects with no connection to the cards that were exiled.
+  - *2023-07-28* — If Battle at the Helvault leaves the battlefield before its first or second chapter ability resolves, the target permanents won't be exiled.
+  - *2023-07-28* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/719/battle-at-the-helvault) · oracle_id `076584c8-ec58-4711-8f59-4839a4fa88ad` · printing: CMM #719 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battle Brawler
 
@@ -405,7 +428,9 @@
   > Pack tactics — Whenever this creature attacks, if you attacked with creatures with total power 6 or greater this combat, create a 1/1 red Goblin creature token that's tapped and attacking.
 - **Keywords:** Pack tactics
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5145 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/132/battle-cry-goblin) · oracle_id `e74c4001-d958-4d2b-b57d-c3601f01580c` · printing: AFR #132 (2021-07-23) · [rulings](https://api.scryfall.com/cards/9766a427-2bb3-4028-a502-d1194cdc93aa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-07-23* — Battle Cry Goblin's activated ability will affect only Goblins you control as it resolves. If you activate it before attacking and then create a Goblin with its triggered ability during combat, the Goblin you create will not get +1/+0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/132/battle-cry-goblin) · oracle_id `e74c4001-d958-4d2b-b57d-c3601f01580c` · printing: AFR #132 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battlefield Butcher
 
@@ -444,7 +469,9 @@
 - **Flavor text** (ACR printing):
   > *The fallen had no more need of their weapons, but the living could still make use of them.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7909 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/acr/276/battlefield-improvisation) · oracle_id `c5b85aa7-6a76-4fe2-a63e-4f376b6c9af7` · printing: ACR #276 (2024-07-05) · [rulings](https://api.scryfall.com/cards/d2cf2cd1-f7b3-4a23-a23a-6eb0af5451cf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-07-05* — You can't try to attach an Equipment to the target creature if that Equipment can't legally be attached to it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/acr/276/battlefield-improvisation) · oracle_id `c5b85aa7-6a76-4fe2-a63e-4f376b6c9af7` · printing: ACR #276 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battlefield Medic
 
@@ -493,6 +520,7 @@
   > *It wheeled upward, away from the shrieks and thunder. It reached the point where sky met smoke, and, with but a glance at the horizon, aimed itself and dove.*
 - **Keywords:** Flying, First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7958 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/3/battlefield-raptor) · oracle_id `68a99e50-0e98-480b-ad25-aa2c226d24ca` · printing: KHM #3 (2021-02-05) · [rulings](https://api.scryfall.com/cards/389f0045-218d-41cd-bdca-8a9a0ab1b31b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battlefield Scavenger
@@ -556,6 +584,7 @@
   > *Having encountered the bitter Phyrexian battleflies before, Squee knew not to bother eating them—or at least to stop after the fifth.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9174 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/81/battlefly-swarm) · oracle_id `1396e7f1-ac91-4778-9f71-493c7a44bd51` · printing: DMU #81 (2022-09-09) · [rulings](https://api.scryfall.com/cards/3c6b4a2d-0bc0-4a54-9c78-712b48ad6be1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battle for Bretagard
@@ -568,7 +597,20 @@
   > II — Create a 1/1 green Elf Warrior creature token.
   > III — Choose any number of artifact tokens and/or creature tokens you control with different names. For each of them, create a token that's a copy of it.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7413 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/916/battle-for-bretagard) · oracle_id `8294539d-7982-4ec9-8392-99eed78542f5` · printing: CMM #916 (2023-08-04) · [rulings](https://api.scryfall.com/cards/c83e860a-6dd5-4522-8b2b-b730934f59f7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2021-02-05* — A chapter ability doesn't trigger if a lore counter is put on a Saga that already had a number of lore counters greater than or equal to that chapter's number. For example, the third lore counter put on a Saga causes the chapter III ability to trigger, but chapters I and II won't trigger again.
+  - *2021-02-05* — Any enters-the-battlefield abilities of tokens you create will trigger when they enter the battlefield. Any "As [this permanent] enters the battlefield" or "[This permanent] enters the battlefield with" abilities of the tokens will also work.
+  - *2021-02-05* — As a Saga enters the battlefield, its controller puts a lore counter on it. As your precombat main phase begins (immediately after your draw step), you put another lore counter on each Saga you control. Putting a lore counter on a Saga in either of these ways doesn't use the stack.
+  - *2021-02-05* — Each symbol on the left of a Saga's text box represents a chapter ability. A chapter ability is a triggered ability that triggers when a lore counter that is put on the Saga causes the number of lore counters on the Saga to become equal to or greater than the ability's chapter number. Chapter abilities are put onto the stack and may be responded to.
+  - *2021-02-05* — Each token you create copies the original characteristics of the token it's copying as stated by the effect that created that token. The newly created token doesn't copy whether the original token is tapped or untapped, whether it has any counters on it, whether it has any Auras and/or Equipment attached to it, or any non-copy effects that changed its power, toughness, types, color, and so on.
+  - *2021-02-05* — If multiple chapter abilities trigger at the same time, their controller puts them on the stack in any order. If any of them require targets, those targets are chosen as you put the abilities on the stack, before any of those abilities resolve.
+  - *2021-02-05* — If the original token is copying something else, the token you create will use the copiable values of the original token. In most cases, it will be a copy of whatever the original token is copying. If it's copying a permanent or card with {X} in its mana cost, X is 0.
+  - *2021-02-05* — Once a chapter ability has triggered, the ability on the stack won't be affected if the Saga gains or loses counters, or if it leaves the battlefield.
+  - *2021-02-05* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities, the Saga's controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn't use the stack.
+  - *2021-02-05* — Removing lore counters won't cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives more lore counters.
+  - *2021-02-05* — The chapter III ability doesn't target any of the tokens. You choose which ones you're copying as the ability resolves.
+  - *2021-02-05* — Unless the effect that creates a token specifies a different name, the name of a token is the same as its creature types plus the word "Token". In particular, a Human Warrior creature token has a different name than an Elf Warrior creature token, and you may create a copy of each using the chapter III ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/916/battle-for-bretagard) · oracle_id `8294539d-7982-4ec9-8392-99eed78542f5` · printing: CMM #916 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battle Frenzy
 
@@ -670,7 +712,9 @@
   > *"A church is just wood and walls. A congregation is the faithful praising the angels."*
   > *—Kolman, elder of Gatstaf*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1660 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/avr/128/battle-hymn) · oracle_id `4b977117-741c-4157-8fcf-719e475a8a4c` · printing: AVR #128 (2012-05-04) · [rulings](https://api.scryfall.com/cards/43b5d46e-7054-44f8-9a14-b412f2f0ab86/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2012-05-01* — Battle Hymn uses the stack and can be responded to. The amount of mana produced is based on the number of creatures you control when Battle Hymn resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/avr/128/battle-hymn) · oracle_id `4b977117-741c-4157-8fcf-719e475a8a4c` · printing: AVR #128 (2012-05-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battle-Mad Ronin
 
@@ -696,7 +740,13 @@
   > Equip {2}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5631 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c21/48/battlemages-bracers) · oracle_id `bd56225e-8c80-4328-9ca0-0fff4969573d` · printing: C21 #48 (2021-04-23) · [rulings](https://api.scryfall.com/cards/1a14aad2-47f0-4d21-9fcf-5ca171faffaf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-04-16* — Activated abilities contain a colon. They’re generally written “[Cost]: [Effect].” Some keyword abilities (such as boast) are activated abilities and will have colons in their reminder text. An activated mana ability is one that produces mana as it resolves, not one that costs mana to activate.
+  - *2021-04-16* — Copying abilities doesn’t cause magecraft abilities to trigger.
+  - *2021-04-16* — If the ability has {X} in its activation cost, the copy has the same value of X.
+  - *2021-04-16* — If the ability is modal (that is, it has a bulleted list of modes), the copy will have the same mode(s). You can’t choose new ones.
+  - *2021-04-16* — The copy will have the same targets as the ability it’s copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can’t choose a new legal target, then it remains unchanged (even if the current target is illegal).
+- **Source flags:** [Scryfall](https://scryfall.com/card/c21/48/battlemages-bracers) · oracle_id `bd56225e-8c80-4328-9ca0-0fff4969573d` · printing: C21 #48 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battle Mammoth
 
@@ -709,7 +759,14 @@
   > Foretell {2}{G}{G} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)
 - **Keywords:** Trample, Foretell
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8478 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/818/battle-mammoth) · oracle_id `7a6db509-7ef4-483c-b8a0-62a4f3e16ef9` · printing: CLB #818 (2022-06-10) · [rulings](https://api.scryfall.com/cards/df70dc42-a28c-41f3-8d3b-5a0375aab326/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-02-05* — Battle Mammoth's triggered ability resolves before the spell or ability that caused it to trigger. It will resolve even if that spell or ability is countered.
+  - *2021-02-05* — Because exiling a card with foretell from your hand is a special action, you can do so any time you have priority during your turn, including in response to spells and abilities. Once you announce you're taking the action, no other player can respond by trying to remove the card from your hand.
+  - *2021-02-05* — Casting a foretold card from exile follows the timing rules for that card. If you foretell an instant card, you can cast it as soon as the next player's turn. In most cases, if you foretell a card that isn't an instant (or doesn't have flash), you'll have to wait until your next turn to cast it.
+  - *2021-02-05* — If a spell or ability an opponent controls targets a single permanent you control more than once, Battle Mammoth's triggered ability will trigger only once. However, if a spell or ability an opponent controls targets multiple permanents you control, Battle Mammoth's triggered ability will trigger once for each of those permanents.
+  - *2021-02-05* — If you're casting a foretold card from exile for its foretell cost, you can't choose to cast it for any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
+  - *2021-02-05* — You choose whether to draw a card as Battle Mammoth's triggered ability is resolving.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/818/battle-mammoth) · oracle_id `7a6db509-7ef4-483c-b8a0-62a4f3e16ef9` · printing: CLB #818 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battle Mastery
 
@@ -723,7 +780,9 @@
   > *—Kirada, Silumgar enforcer*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4634 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/89/battle-mastery) · oracle_id `a06c7c1a-8534-40fb-8bb8-59f8f2530567` · printing: BBD #89 (2018-06-08) · [rulings](https://api.scryfall.com/cards/5266595d-5320-4dea-8e4a-dd6c1a032871/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2014-07-18* — If a creature loses double strike after dealing combat damage in the first combat damage step, it won’t assign combat damage in the second one.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/89/battle-mastery) · oracle_id `a06c7c1a-8534-40fb-8bb8-59f8f2530567` · printing: BBD #89 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battle Menu
 
@@ -737,6 +796,7 @@
   > • Item — You gain 4 life.
 - **Keywords:** Attack, Ability, Item, Magic
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8515 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/9/battle-menu) · oracle_id `8af57b80-bbc6-47ce-83f6-34ae8e2f5bd5` · printing: FIN #9 (2025-06-13) · [rulings](https://api.scryfall.com/cards/240e1466-bd02-423d-b829-234dcd2bfab2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battle Myrsphere
@@ -772,7 +832,13 @@
   > • NCR — At the beginning of your end step, return target creature card with mana value 3 or less from your graveyard to the battlefield with a finality counter on it.
   > • Legion — Whenever a creature you control dies, put two +1/+1 counters on target creature you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8699 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/11/battle-of-hoover-dam) · oracle_id `91596da5-5b1a-430c-a878-7757ae366b6b` · printing: PIP #11 (2024-03-08) · [rulings](https://api.scryfall.com/cards/59c0f13a-4e83-4e0b-a790-1f78b5ee6a64/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-03-08* — Finality counters aren’t keyword counters, and a finality counter doesn’t give any abilities to the permanent it’s on. If that permanent loses its abilities and then would go to a graveyard, it will still be exiled instead.
+  - *2024-03-08* — Finality counters don’t stop permanents from going to zones other than the graveyard from the battlefield. For example, if a permanent with a finality counter on it would be put into its owner’s hand from the battlefield, it does so normally.
+  - *2024-03-08* — Finality counters work on any permanent, not only creatures. If a permanent with a finality counter on it would be put into a graveyard from the battlefield, exile it instead.
+  - *2024-03-08* — If you somehow control Battle of Hoover Dam and no choice was made for it (perhaps because another permanent on the battlefield became a copy of it), it has neither of the two triggered abilities.
+  - *2024-03-08* — Multiple finality counters on a single permanent are redundant.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/11/battle-of-hoover-dam) · oracle_id `91596da5-5b1a-430c-a878-7757ae366b6b` · printing: PIP #11 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battle of Wits
 
@@ -873,7 +939,15 @@
   > *All sounds harmonize with the Worldsoul.*
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7695 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/17/battle-screech) · oracle_id `e73131cd-b454-405b-9539-9d777e232b9e` · printing: CMM #17 (2023-08-04) · [rulings](https://api.scryfall.com/cards/90301f8c-f7af-4179-8faf-9901931bba8d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2021-03-19* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2021-03-19* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2021-03-19* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+  - *2021-03-19* — “Flashback [cost]” means “You may cast this card from your graveyard by paying [cost] rather than paying its mana cost” and “If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack.”
+  - *2022-12-08* — You can tap any untapped white creatures you control to pay for Battle Screech’s flashback cost, even ones you haven’t controlled continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/17/battle-screech) · oracle_id `e73131cd-b454-405b-9539-9d777e232b9e` · printing: CMM #17 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Battle Sliver
 
@@ -1017,4 +1091,8 @@
 - **Oracle text:**
   > Prevent all combat damage that would be dealt this turn if {W} was spent to cast this spell. Each player loses 1 life for each attacking creature they control if {B} was spent to cast this spell. (Do both if {W}{B} was spent.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6517 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/arc/80/batwing-brume) · oracle_id `fc8247f5-f7b2-4fc4-a9ea-90babad5fa42` · printing: ARC #80 (2010-06-18) · [rulings](https://api.scryfall.com/cards/279450ca-29df-430d-b803-7ce18196260e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2008-08-01* — If the spell is copied, the copy will never have had mana of the stated color paid for it, no matter what colors were spent on the original spell.
+  - *2008-08-01* — The spell cares about what mana was spent to pay its total cost, not just what mana was spent to pay the hybrid part of its cost.
+  - *2008-08-01* — The spell checks on resolution to see if any mana of the stated colors was spent to pay its cost. If so, it doesn’t matter how much mana of that color was spent.
+- **Source flags:** [Scryfall](https://scryfall.com/card/arc/80/batwing-brume) · oracle_id `fc8247f5-f7b2-4fc4-a9ea-90babad5fa42` · printing: ARC #80 (2010-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

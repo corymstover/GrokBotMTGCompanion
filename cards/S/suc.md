@@ -72,4 +72,5 @@
   > When this creature dies, add eight {C}. Until end of turn, you don't lose this mana as steps and phases end.
 - **Keywords:** Vigilance, Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9619 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/249/su-chi-cave-guard) · oracle_id `28264920-9d14-4661-83b8-56f950fbff39` · printing: BRO #249 (2022-11-18) · [rulings](https://api.scryfall.com/cards/bb04dad2-4561-4cef-9cee-80d6f1a44bee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

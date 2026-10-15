@@ -89,7 +89,17 @@
 - **Oracle text:**
   > Whenever you cast your first spell each turn, reveal the top card of your library. You may cast it without paying its mana cost if it's a spell with lesser mana value. If you don't cast it, put it into your hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3652 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/231/rashmi-eternities-crafter) · oracle_id `01a79429-7d57-4a51-9815-a20905ed4707` · printing: DSC #231 (2024-09-27) · [rulings](https://api.scryfall.com/cards/e553935f-d8d8-4b98-ab4a-5a2eea3f3626/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2016-09-20* — For spells with {X} in their mana costs, use the value chosen for X to determine the spell's mana value. For cards in your library with {X} in their mana costs, X is considered to be 0.
+  - *2016-09-20* — If Rashmi's ability resolves and the spell that caused it to trigger has been countered, use that spell's mana value as it last existed on the stack to determine whether or not you may cast the top card of your library.
+  - *2016-09-20* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2016-09-20* — If the revealed card is a land card, you put it into your hand.
+  - *2016-09-20* — If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs, such as emerge costs. You can, however, pay additional costs. If the card has any mandatory additional costs, such as that of Cathartic Reunion, those must be paid to cast the card.
+  - *2016-09-20* — If you cast the top card of your library, you do so as part of the resolution of Rashmi's ability. You can't wait to cast it later in the turn. Timing permissions based on the card's type are ignored, but other restrictions (such as "Cast [this card] only during combat") are not.
+  - *2016-09-20* — Rashmi has to be on the battlefield at the moment you cast your first spell. If that spell is Rashmi itself, Rashmi's ability can't trigger. If that spell causes Rashmi to leave the battlefield as an additional cost to cast it, Rashmi's ability can't trigger.
+  - *2016-09-20* — Rashmi's ability resolves before the spell that caused it to trigger. If you cast a spell using the ability, it will also resolve before the initial spell.
+  - *2016-09-20* — Rashmi's ability triggers when you cast your first spell each turn, not just on your turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/231/rashmi-eternities-crafter) · oracle_id `01a79429-7d57-4a51-9815-a20905ed4707` · printing: DSC #231 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rasputin Dreamweaver
 

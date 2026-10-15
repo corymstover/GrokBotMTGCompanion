@@ -101,7 +101,20 @@
   > *"Here below the hedron fields, souls and secrets lie entombed."*
   > *—Vivias, Witch Vessel*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #964 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/90/agadeems-awakening-agadeem-the-undercrypt) · oracle_id `562d71b9-1646-474e-9293-55da6947a758` · printing: ZNR #90 (2020-09-25) · [rulings](https://api.scryfall.com/cards/67f4c93b-080c-4196-b095-6a120a221988/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2020-09-25* — A modal double-faced card can't be transformed or be put onto the battlefield transformed. Ignore any instruction to transform a modal double-faced card or to put one onto the battlefield transformed.
+  - *2020-09-25* — For example, if X is 3, you may target up to four creature cards: one with mana value 3, one with mana value 2, one with mana value 1, and one with mana value 0.
+  - *2020-09-25* — If X is 0 for Agadeem's Awakening, you can target one creature card with mana value 0.
+  - *2020-09-25* — If a card in a player's graveyard has {X} in its mana cost, X is considered to be 0 for that card.
+  - *2020-09-25* — If an effect allows you to play a land or cast a spell from among a group of cards, you may play or cast a modal double-faced card with any face that fits the criteria of that effect.
+  - *2020-09-25* — If an effect allows you to play a specific modal double-faced card, you may cast it as a spell or play it as a land, as determined by which face you choose to play. If an effect allows you to cast (rather than "play") a specific modal double-faced card, you can't play it as a land.
+  - *2020-09-25* — If an effect instructs a player to choose a card name, the name of either face may be chosen. If that effect or a linked ability refers to a spell with the chosen name being cast and/or a land with the chosen name being played, it considers only the chosen name, not the other face's name.
+  - *2020-09-25* — If an effect puts a double-faced card onto the battlefield, it enters with its front face up. If that front face can't be put onto the battlefield, it doesn't enter the battlefield.
+  - *2020-09-25* — In the Commander variant, a double-faced card's color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered.
+  - *2020-09-25* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack and battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
+  - *2020-09-25* — There is a single triangle icon in the top left corner of the front face. There is a double triangle icon in the top left corner of the back face.
+  - *2020-09-25* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/90/agadeems-awakening-agadeem-the-undercrypt) · oracle_id `562d71b9-1646-474e-9293-55da6947a758` · printing: ZNR #90 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Against All Odds
 
@@ -137,6 +150,7 @@
 - **Flavor text** (BLB printing):
   > *Some lizardfolk wield the precious agate and yearn for fire. Others wield it and thirst for blood.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9355 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/82/agate-blade-assassin) · oracle_id `381a3e8e-71dd-48e4-ab62-53478bde4a14` · printing: BLB #82 (2024-08-02) · [rulings](https://api.scryfall.com/cards/39ebb84a-1c52-4b07-9bd0-b360523b3a5b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Agate Instigator
@@ -149,7 +163,17 @@
   > Whenever another creature you control enters, this creature deals 1 damage to each opponent.
 - **Keywords:** Offspring
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1246 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/plst/BLC-21/agate-instigator) · oracle_id `e1a2bd31-b800-47cd-8866-1b849a601b09` · printing: PLST #BLC-21 (2026-10-19) · [rulings](https://api.scryfall.com/cards/72de7010-3449-4fe1-bf2a-f4bd8feb74e9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2024-07-26* — Any "enters" abilities of the copied creature will trigger when the token enters. Any "as [this creature] enters" or "[this creature] enters with" abilities of the copied creature will also work.
+  - *2024-07-26* — If the spell is countered, the offspring ability will not trigger, and no token will be created.
+  - *2024-07-26* — If the spell resolves but the creature with offspring leaves the battlefield before the offspring ability resolves, you'll still create a token copy of it.
+  - *2024-07-26* — In the rare case where the creature doesn't have the offspring ability when it enters, the ability won't trigger even if you paid the offspring cost.
+  - *2024-07-26* — In the rare case where the original creature is copying something else when the offspring ability resolves, the token enters as whatever that creature copied, except it's a 1/1.
+  - *2024-07-26* — Many creatures with offspring abilities have other abilities that refer to them as "this creature" rather than referring to them by name. This difference is for clarity purposes and does not change the function of any of these abilities.
+  - *2024-07-26* — The token copies exactly what was printed on the original creature and nothing else, except it's a 1/1 (unless that creature is copying something else; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its types, color, or so on.
+  - *2024-07-26* — The token created by the offspring ability isn't "cast", so abilities that trigger when a creature spell is cast won't trigger for the copy.
+  - *2024-07-26* — You can pay an offspring cost only once as you cast a spell with offspring. You can't try to pay it multiple times to get more token copies.
+- **Source flags:** [Scryfall](https://scryfall.com/card/plst/BLC-21/agate-instigator) · oracle_id `e1a2bd31-b800-47cd-8866-1b849a601b09` · printing: PLST #BLC-21 (2026-10-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Agatha of the Vile Cauldron
 
@@ -160,7 +184,10 @@
   > Activated abilities of creatures you control cost {X} less to activate, where X is Agatha's power. This effect can't reduce the mana in that cost to less than one mana.
   > {4}{R}{G}: Other creatures you control get +1/+1 and gain trample and haste until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5707 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/199/agatha-of-the-vile-cauldron) · oracle_id `f398d222-f8e7-4983-9a77-267adef7f551` · printing: WOE #199 (2023-09-08) · [rulings](https://api.scryfall.com/cards/d6c48f07-63b7-4a60-8da6-ce77405abf1e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-09-01* — Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keyword abilities are activated abilities and will have colons in their reminder text. Triggered abilities (starting with "when," "whenever," or "at") are unaffected by the cost reduction ability of Agatha of the Vile Cauldron.
+  - *2023-09-01* — Agatha of the Vile Cauldron's first ability affects only abilities of creatures you control on the battlefield. The costs of activated abilities of creature cards that work in other zones (such as cycling) won't be reduced.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/199/agatha-of-the-vile-cauldron) · oracle_id `f398d222-f8e7-4983-9a77-267adef7f551` · printing: WOE #199 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Agatha's Champion
 
@@ -184,7 +211,11 @@
   > Creatures you control with +1/+1 counters on them have all activated abilities of all creature cards exiled with Agatha's Soul Cauldron.
   > {T}: Exile target card from a graveyard. When a creature card is exiled this way, put a +1/+1 counter on target creature you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1382 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/242/agathas-soul-cauldron) · oracle_id `c259e16f-2a44-4552-8678-815f757a02e8` · printing: WOE #242 (2023-09-08) · [rulings](https://api.scryfall.com/cards/019b51b0-e5c6-4208-922b-7736686dddcd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-09-01* — Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keyword abilities are activated abilities and will have colons in their reminder text.
+  - *2023-09-01* — Agatha's Soul Cauldron grants only activated abilities. It doesn't grant keyword abilities (unless those keyword abilities are activated), triggered abilities, or static abilities.
+  - *2023-09-01* — The granted abilities effectively use "this permanent" rather than "[that card's name]," so you treat the abilities as though they were printed on the creature that gained the ability. For example, say you exiled the card Argothian Sprite with Agatha's Soul Cauldron. Argothian Sprite has the ability "{7}: Put two +1/+1 counters on Argothian Sprite." If you controlled a Callous Sell-Sword with a +1/+1 counter on it, you'd treat it as though it had the ability "{7}: Put two +1/+1 counters on Callous Sell-Sword."
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/242/agathas-soul-cauldron) · oracle_id `c259e16f-2a44-4552-8678-815f757a02e8` · printing: WOE #242 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ageless Entity
 
@@ -283,7 +314,17 @@
   > Whenever Agent Frank Horrigan enters or attacks, proliferate twice. (To proliferate, choose any number of permanents and/or players, then give each another counter of each kind already there.)
 - **Keywords:** Trample, Proliferate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3552 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/89/agent-frank-horrigan) · oracle_id `aedcde3b-3ed5-443c-a81c-03d785153e55` · printing: PIP #89 (2024-03-08) · [rulings](https://api.scryfall.com/cards/91193a0b-9087-404f-b397-815e29d0fe12/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2024-03-08* — If Agent Frank Horrigan enters the battlefield attacking, it doesn’t have indestructible since it was never declared as an attacker.
+  - *2024-03-08* — If a player or permanent has more than one kind of counter on it, and you choose for it to get additional counters, it must get one of each kind of counter it already has. You can’t have it get just one kind of counter it already has and not the others.
+  - *2024-03-08* — If you proliferate twice, you don’t have to choose the same set of players and/or permanents to get additional counters each time.
+  - *2024-03-08* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it’s too late for anyone to respond.
+  - *2024-03-08* — Some spells and abilities that cause you to proliferate may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won’t resolve. You won’t proliferate.
+  - *2024-03-08* — The ability that causes Agent Frank Horrigan to have indestructible starts to apply as soon as it’s declared as an attacker. It applies for the remainder of the turn. It doesn’t matter what happens to the player or permanent it attacked after that point.
+  - *2024-03-08* — While proliferating twice, players can’t respond between proliferating the first time and proliferating the second time.
+  - *2024-03-08* — You can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can’t choose cards in any zone other than the battlefield, even if they have counters on them.
+  - *2024-03-08* — You don’t have to choose every permanent or player that has a counter—only the ones you want to add counters to. Since “any number” includes zero, you don’t have to choose any permanents at all, and you don’t have to choose any players at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/89/agent-frank-horrigan) · oracle_id `aedcde3b-3ed5-443c-a81c-03d785153e55` · printing: PIP #89 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Agent Maria Hill
 
@@ -421,7 +462,18 @@
 - **Flavor text** (CLB printing):
   > *You give your clients what they want at a fair price. What happens after that is none of your concern.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2315 · Game Changer: no · Can be commander: Only alongside a commander with *Choose a Background*
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/107/agent-of-the-iron-throne) · oracle_id `325032d5-c452-4454-8976-82f86fee5ab8` · printing: CLB #107 (2022-06-10) · [rulings](https://api.scryfall.com/cards/5a5984d3-1e76-4d97-9373-b59cfa9c38ae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2022-06-10* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2022-06-10* — Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+  - *2022-06-10* — Choose a Background is a variant of the partner ability. You may have two commanders if one of them is a legendary creature with the choose a background ability and the other is a legendary Background enchantment. Backgrounds and cards with choose a Background do not interact with cards which have any other partner ability.
+  - *2022-06-10* — If a card refers to a commander creature you own, a Background won't usually be counted or included for that effect. If another spell or ability causes your Background to become a creature, however, it will be included. Any effect that refers to your commander or a commander you own or control without specifying creature will apply to a Background that is your commander, as appropriate.
+  - *2022-06-10* — If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+  - *2022-06-10* — If you control a Background that grants an ability to commander creatures you own, and you own more than one commander creature, each of them will have that ability.
+  - *2022-06-10* — If your Commander deck has two commanders, you can include only cards whose own color identities are also found in your commanders’ combined color identities.
+  - *2022-06-10* — If your commander loses the choose a Background ability or stops being a Background during the game, as appropriate, it is still your commander.
+  - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won’t have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won’t usually be a creature anyway).
+  - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/107/agent-of-the-iron-throne) · oracle_id `325032d5-c452-4454-8976-82f86fee5ab8` · printing: CLB #107 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Agent of the Shadow Thieves
 
@@ -432,7 +484,19 @@
 - **Flavor text** (CLB printing):
   > *Your skill, dexterity, and moral flexibility make you a valuable asset to your guild.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5479 · Game Changer: no · Can be commander: Only alongside a commander with *Choose a Background*
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/108/agent-of-the-shadow-thieves) · oracle_id `b2142d8b-ea53-443e-bd60-9e70d9da9bd7` · printing: CLB #108 (2022-06-10) · [rulings](https://api.scryfall.com/cards/f50448e9-afe4-4d4e-b027-bbb855f17aeb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2022-06-10* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2022-06-10* — Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+  - *2022-06-10* — Choose a Background is a variant of the partner ability. You may have two commanders if one of them is a legendary creature with the choose a background ability and the other is a legendary Background enchantment. Backgrounds and cards with choose a Background do not interact with cards which have any other partner ability.
+  - *2022-06-10* — If a card refers to a commander creature you own, a Background won't usually be counted or included for that effect. If another spell or ability causes your Background to become a creature, however, it will be included. Any effect that refers to your commander or a commander you own or control without specifying creature will apply to a Background that is your commander, as appropriate.
+  - *2022-06-10* — If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+  - *2022-06-10* — If you control a Background that grants an ability to commander creatures you own, and you own more than one commander creature, each of them will have that ability.
+  - *2022-06-10* — If your Commander deck has two commanders, you can include only cards whose own color identities are also found in your commanders’ combined color identities.
+  - *2022-06-10* — If your commander loses the choose a Background ability or stops being a Background during the game, as appropriate, it is still your commander.
+  - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won’t have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won’t usually be a creature anyway).
+  - *2022-06-10* — The ability granted by Agent of the Shadow Thieves is looking to see if any of the attacking player's opponents have a higher life total than that defending player. The attacking player's life total is not included in this comparison.
+  - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/108/agent-of-the-shadow-thieves) · oracle_id `b2142d8b-ea53-443e-bd60-9e70d9da9bd7` · printing: CLB #108 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Agent of Treachery
 
@@ -445,7 +509,13 @@
 - **Flavor text** (M20 printing):
   > *"The more secrets you have, the more easily you become my pawn."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2131 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m20/43/agent-of-treachery) · oracle_id `4cd82c7a-86df-4d29-b578-c009208c0d4b` · printing: M20 #43 (2019-07-12) · [rulings](https://api.scryfall.com/cards/cc6686e6-4535-49be-b0b3-e76464656cd2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2019-07-12* — A token's owner is the player who created it.
+  - *2019-07-12* — Agent of Treachery's effect lasts indefinitely. It doesn't wear off during the cleanup step, and it doesn't expire if Agent of Treachery leaves the battlefield. In a multiplayer game, it does expire if you leave the game.
+  - *2019-07-12* — Gaining control of a creature doesn't cause you to gain control of any Auras or Equipment attached to it. Gaining control of an Aura or Equipment doesn't change what it's currently attached to.
+  - *2019-07-12* — If you don't control three permanents you don't own as your end step begins, Agent of Treachery's last ability doesn't trigger. If you no longer control three permanents you don't own as it resolves, you won't draw three cards. Those don't have to be the same three permanents each time.
+  - *2019-07-12* — If you gain control of a permanent "until end of turn," that effect will wear off during the cleanup step, after the end step. You'll control that permanent while considering Agent of Treachery's last ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m20/43/agent-of-treachery) · oracle_id `4cd82c7a-86df-4d29-b578-c009208c0d4b` · printing: M20 #43 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Agent Phil Coulson
 
@@ -494,7 +564,16 @@
   > Whenever a creature you control enters, you may move a counter from this artifact onto that creature.
   > {2}, Sacrifice this artifact: Draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8497 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/66/agents-toolkit) · oracle_id `a87abe7a-fee9-45fd-b3d8-896e43ed6b3c` · printing: NCC #66 (2022-04-29) · [rulings](https://api.scryfall.com/cards/64cbb81d-3444-4491-963f-8ce9a9430788/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2022-04-29* — A creature with a shield counter on it may still be destroyed by state-based actions if it has damage marked on it equal to its toughness or has been dealt unpreventable damage by a source with deathtouch.
+  - *2022-04-29* — If Agent's Toolkit somehow ends up with counters on it other than the ones it entered with, those may also be moved from it by its triggered ability.
+  - *2022-04-29* — If a permanent that would be dealt damage has more than one shield counter on it, that damage is prevented and only one shield counter is removed.
+  - *2022-04-29* — If a permanent with a shield counter is dealt unpreventable damage, that damage will be dealt and a shield counter will still be removed.
+  - *2022-04-29* — Removing a shield counter in this way isn't the same as regenerating a creature.
+  - *2022-04-29* — Shield counters don't prevent players from sacrificing creatures.
+  - *2022-04-29* — The shield counter on Agent's Toolkit won't prevent its controller from sacrificing it.
+  - *2022-04-29* — “Shield” is not an ability that creatures have and shield counters are not keyword counters. If a creature with a shield counter loses its abilities, the shield counter will still protect it as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/66/agents-toolkit) · oracle_id `a87abe7a-fee9-45fd-b3d8-896e43ed6b3c` · printing: NCC #66 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Agent Venom
 
@@ -509,7 +588,9 @@
   > *Wounded in action, Corporal Thompson was offered an experimental way to be all he could be.*
 - **Keywords:** Menace, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5992 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/spm/49/agent-venom) · oracle_id `14c356aa-178d-4c14-a88e-fbe92ee6d89f` · printing: SPM #49 (2025-09-26) · [rulings](https://api.scryfall.com/cards/f5f80d82-d64c-466f-8874-9cfb00469f02/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-09-19* — If your Agent Venom dies at the same time as one or more other nontoken creatures you control, his ability triggers for each of those creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/spm/49/agent-venom) · oracle_id `14c356aa-178d-4c14-a88e-fbe92ee6d89f` · printing: SPM #49 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Age of Ultron
 
@@ -572,7 +653,13 @@
   > *—Gulistan, Simic biomancer*
 - **Keywords:** Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6754 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m3c/69/aggressive-biomancy) · oracle_id `9080a7bb-2b8b-42af-9f5b-a9f374ecb801` · printing: M3C #69 (2024-06-14) · [rulings](https://api.scryfall.com/cards/24cf121b-c6ad-4425-a2fc-7ce185cd30ef/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-06-07* — Any enters-the-battlefield abilities of the copied creature will trigger when the tokens enter the battlefield. Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the creature will also work.
+  - *2024-06-07* — If the copied creature has {X} in its mana cost, X is 0.
+  - *2024-06-07* — If the copied creature is copying something else, then the tokens enter the battlefield as whatever that creature copied, with the listed exception.
+  - *2024-06-07* — If the copied creature is itself a token, the tokens created by Aggressive Biomancy copy the original characteristics of that token as stated by the effect that created it, with the listed exception.
+  - *2024-06-07* — The tokens copy exactly what was printed on the original creature and nothing else, with the listed exception (unless that creature is itself copying something else; see below). They don't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m3c/69/aggressive-biomancy) · oracle_id `9080a7bb-2b8b-42af-9f5b-a9f374ecb801` · printing: M3C #69 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aggressive Crag
 
@@ -619,6 +706,7 @@
   > *—Vivien Reid*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5660 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/551/aggressive-mammoth) · oracle_id `032b5fc4-5aca-41b6-9bf6-2c1ed0018968` · printing: FDN #551 (2024-11-15) · [rulings](https://api.scryfall.com/cards/7724b978-999b-4654-96f3-58e28aa7cb34/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aggressive Mining
@@ -631,7 +719,10 @@
 - **Flavor text** (M15 printing):
   > *Designed by Markus Persson*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8598 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m15/127/aggressive-mining) · oracle_id `ff321c13-03ae-4cb9-b371-1242290f8433` · printing: M15 #127 (2014-07-18) · [rulings](https://api.scryfall.com/cards/e15a3f1a-83af-4541-8d1c-bf7844f969c9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-07-18* — Aggressive Mining doesn’t stop lands from being put onto the battlefield by a spell or ability. It only stops the special action of playing a land.
+  - *2014-07-18* — You can activate the ability once on each player’s turn, not just your own.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m15/127/aggressive-mining) · oracle_id `ff321c13-03ae-4cb9-b371-1242290f8433` · printing: M15 #127 (2014-07-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aggressive Negotiations
 
@@ -689,7 +780,10 @@
   > {T}: Add one mana of any color.
   > {3}, {T}: Up to X target creatures you control each gain haste until end of turn and can't be blocked this turn except by creatures with haste, where X is the number of Bobbleheads you control as you activate this ability.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5055 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/126/agility-bobblehead) · oracle_id `83a3897c-c245-4fad-b253-3f8bbe6445fb` · printing: PIP #126 (2024-03-08) · [rulings](https://api.scryfall.com/cards/cff8b0c5-5457-432a-8c27-f193c9922aec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-03-08* — Activating Agility Bobblehead’s last ability targeting a creature that has already been blocked by a creature without haste won’t cause that creature to become unblocked.
+  - *2024-03-08* — You choose how many targets Agility Bobblehead’s last ability has as you activate the ability. Once you do, it doesn’t matter what happens to any Bobbleheads you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/126/agility-bobblehead) · oracle_id `83a3897c-c245-4fad-b253-3f8bbe6445fb` · printing: PIP #126 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### A Girl and Her Dogs
 
@@ -711,7 +805,15 @@
   > At the beginning of your end step, each player may put two +1/+1 counters on a creature they control. Goad each creature that had counters put on it this way. (Until your next turn, those creatures attack each combat if able and attack a player other than you if able.)
 - **Keywords:** Goad
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2469 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/145/agitator-ant) · oracle_id `abe377f8-35f0-4dea-a681-91d31a36815c` · printing: MKC #145 (2024-02-09) · [rulings](https://api.scryfall.com/cards/bc63ff71-ff42-4baf-977b-55f69c8e122f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2020-04-17* — As Agitator Ant's ability resolves, first you choose which creature you control, if any, to put two +1/+1 counters on, then each other player in turn order does the same, knowing the choices made before them. Then each chosen creature receives its +1/+1 counters and becomes goaded.
+  - *2020-04-17* — If a creature can't have +1/+1 counters put on it, its controller can't choose it just to have it become goaded. If it can have counters put on it but replacement effects cause it not to receive +1/+1 counters, it doesn't become goaded.
+  - *2023-06-30* — Attacking with a goaded creature doesn't cause it to stop being goaded. If there is an additional combat phase that turn, or if another player gains control of it before it stops being goaded, it must attack again if able.
+  - *2023-06-30* — Being goaded isn't an ability the creature has. Once it's been goaded, it must attack as detailed above even if it loses all abilities.
+  - *2023-06-30* — If a creature you control has been goaded by multiple opponents, it must attack one of your opponents that hasn't goaded it, as that fulfills the maximum number of goad requirements. If a creature you control has been goaded by each of your opponents, the creature must attack an opponent (rather than a planeswalker or battle), but you choose which opponent it attacks.
+  - *2023-06-30* — If the creature doesn't meet any of the above exceptions and can attack, it must attack a player other than the controller of the spell or ability that goaded it if able. If the creature can't attack any of those players but could otherwise attack, it must attack a planeswalker an opponent controls, a battle an opponent controls, or a player who goaded it.
+  - *2023-06-30* — If, during a player's declare attackers step, a creature that player controls that's been goaded is tapped, is affected by a spell or ability that says it can't attack, or hasn't been under that player's control continuously since the turn began (and doesn't have haste), then it doesn't attack. If there's a cost associated with having a creature attack a player, its controller isn't forced to pay that cost, so it doesn't have to attack that player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/145/agitator-ant) · oracle_id `abe377f8-35f0-4dea-a681-91d31a36815c` · printing: MKC #145 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Agna Qel'a
 
@@ -725,7 +827,9 @@
   > *"The frozen tundra is treacherous, the landscape itself is an icy fortress."*
   > *—Admiral Zhao*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2402 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/264/agna-qela) · oracle_id `22d0a848-2126-48f0-9050-38daaf93b1d0` · printing: TLA #264 (2025-11-21) · [rulings](https://api.scryfall.com/cards/6b885829-a323-4f7d-87c9-aa4615dcbe5c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-10-02* — If one of these lands enters at the same time as any number of basic lands, those other lands are not counted when determining if this land enters tapped or untapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/264/agna-qela) · oracle_id `22d0a848-2126-48f0-9050-38daaf93b1d0` · printing: TLA #264 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Agonasaur Rex
 
@@ -738,7 +842,11 @@
   > When you cycle this card, put two +1/+1 counters on up to one target creature or Vehicle. It gains trample and indestructible until end of turn.
 - **Keywords:** Trample, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4453 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dft/151/agonasaur-rex) · oracle_id `1ad5766b-9ae3-437b-bd91-c4c988a8b095` · printing: DFT #151 (2025-02-14) · [rulings](https://api.scryfall.com/cards/5b11ec26-9e07-45e1-bcaa-5d44d1231586/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-02-07* — Some cards with cycling have an ability that triggers when you cycle them, and some cards have an ability that triggers whenever you cycle any card or discard any card. These triggered abilities resolve before you draw from the cycling ability.
+  - *2025-02-07* — Triggered abilities from cycling a card and the cycling ability itself aren’t spells. Effects that interact with spells (such as that of Cancel) won’t affect them.
+  - *2025-02-07* — You can cycle a card even if it has a triggered ability from cycling that won’t have a legal target. This is because the cycling ability and the triggered ability are separate. This also means that if either ability is countered (with Disallow, for example), the other ability will still resolve.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dft/151/agonasaur-rex) · oracle_id `1ad5766b-9ae3-437b-bd91-c4c988a8b095` · printing: DFT #151 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Agonizing Demise
 

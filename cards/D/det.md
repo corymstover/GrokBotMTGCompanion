@@ -59,7 +59,11 @@
 - **Flavor text** (M19 printing):
   > *Its light exposes enemies and lays secrets bare.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3621 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m19/249/detection-tower) · oracle_id `93695c16-c441-492d-af12-b57df9739846` · printing: M19 #249 (2018-07-13) · [rulings](https://api.scryfall.com/cards/02f99756-d334-4dba-a375-ba3d91ecae62/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-07-13* — Because Detection Tower’s last ability doesn’t change the characteristics of any permanents, the set of creatures affected by it is constantly updated. Creatures that come under your opponents’ control later in the turn can be targeted as though they didn’t have hexproof.
+  - *2018-07-13* — Creatures your opponents control with “hexproof from [quality]” abilities can be targeted as though they didn’t have those abilities as well.
+  - *2018-07-13* — Your opponents and creatures your opponents control don’t actually lose hexproof, although you will ignore hexproof for purposes of choosing targets of spells and abilities you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m19/249/detection-tower) · oracle_id `93695c16-c441-492d-af12-b57df9739846` · printing: M19 #249 (2018-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Detective of the Month
 
@@ -72,7 +76,15 @@
   > Whenever you draw your second card each turn, create a 2/2 white and blue Detective creature token.
 - **Keywords:** Ascend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6483 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/21/detective-of-the-month) · oracle_id `10d1d6ca-95f8-48da-8798-37c8aadb1f1f` · printing: MKC #21 (2024-02-09) · [rulings](https://api.scryfall.com/cards/e63e381d-142c-4622-ad78-8cacd5778355/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2024-02-02* — A permanent is any object on the battlefield, including tokens and lands. Spells and emblems aren’t permanents.
+  - *2024-02-02* — Ascend on a permanent isn’t a triggered ability and doesn’t use the stack. Players can respond to a spell that will give you your tenth permanent, but they can’t respond to you getting the city’s blessing once you control that tenth permanent. This means that if your tenth permanent is a land you play, players can’t respond before you get the city’s blessing.
+  - *2024-02-02* — Gaining the city’s blessing after a Detective you control has become blocked won’t cause that Detective to become unblocked.
+  - *2024-02-02* — If you cast a spell with ascend, you don't get the city’s blessing until it resolves. Players may respond to that spell by trying to change whether you get the city’s blessing.
+  - *2024-02-02* — If you control ten permanents but don’t control a permanent or resolving spell with ascend, you don’t get the city’s blessing. For example, if you control ten permanents, lose control of two, then cast Detective of the Month, you won’t have the city’s blessing.
+  - *2024-02-02* — If your tenth permanent enters the battlefield and then a permanent leaves the battlefield immediately afterwards (most likely due to the “legend rule” or due to being a creature with 0 toughness), you get the city’s blessing before it leaves the battlefield.
+  - *2024-02-02* — Once you have the city’s blessing, you have it for the rest of the game, even if you lose control of some or all your permanents. The city’s blessing isn’t a permanent itself and can’t be removed by any effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/21/detective-of-the-month) · oracle_id `10d1d6ca-95f8-48da-8798-37c8aadb1f1f` · printing: MKC #21 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Detective's Phoenix
 
@@ -86,7 +98,15 @@
   > You may cast this card from your graveyard using its bestow ability.
 - **Keywords:** Flying, Collect evidence, Haste, Bestow
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8581 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/116/detectives-phoenix) · oracle_id `52c3fe55-74ee-44cb-b62b-dc6c5dfdc33e` · printing: MH3 #116 (2024-06-14) · [rulings](https://api.scryfall.com/cards/e2a01edd-dbc0-4ed4-b827-9b608290e9a1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2024-06-07* — Auras attached to a creature don't become tapped when the creature becomes tapped. Except in some rare cases, an Aura with bestow remains untapped when it becomes unattached and becomes a creature.
+  - *2024-06-07* — If a permanent with bestow enters the battlefield by any method other than being cast, it will be an enchantment creature. You can't choose to pay the bestow cost and have it become an Aura.
+  - *2024-06-07* — If you can't exile enough cards to meet or exceed the required mana value, you can't choose to collect evidence at all.
+  - *2024-06-07* — On the stack, a spell with bestow is either a creature spell or an Aura spell. It's never both, although it's an enchantment spell in either case.
+  - *2024-06-07* — Once you've announced that you're casting a spell, players can't take actions until you've finished doing so. Notably, opponents can't try to remove cards from your graveyard to stop you from collecting evidence.
+  - *2024-06-07* — Unlike other Aura spells, an Aura spell with bestow isn't countered if its target is illegal as it begins to resolve. Rather, the effect making it an Aura spell ends, it loses enchant creature, it returns to being an enchantment creature spell, and it resolves and enters the battlefield as an enchantment creature.
+  - *2024-06-07* — Unlike other Auras, an Aura with bestow isn't put into its owner's graveyard if it becomes unattached. Rather, the effect making it an Aura ends, it loses enchant creature, and it remains on the battlefield as an enchantment creature. It can attack (and its {T} abilities can be activated, if it has any) on the turn it becomes unattached if it's been under your control continuously, even as an Aura, since your most recent turn began.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/116/detectives-phoenix) · oracle_id `52c3fe55-74ee-44cb-b62b-dc6c5dfdc33e` · printing: MH3 #116 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Detective's Satchel
 
@@ -122,7 +142,12 @@
   > When this enchantment enters, you may exile target nonland permanent not named Detention Sphere and all other permanents with the same name as that permanent.
   > When this enchantment leaves the battlefield, return the exiled cards to the battlefield under their owner's control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8493 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/155/detention-sphere) · oracle_id `0a0b376d-7824-4ba5-8bc9-bc0be12800c5` · printing: RTR #155 (2012-10-05) · [rulings](https://api.scryfall.com/cards/afee5464-83b7-4d7a-b407-9ee7de21535b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2012-10-01* — Although the target of the "enters" ability must not be a land, lands with the same name as that permanent will be exiled.
+  - *2012-10-01* — If Detention Sphere leaves the battlefield before its "enters" ability has resolved, its leaves-the-battlefield ability will trigger and do nothing. Then the "enters" ability will resolve and exile the targeted nonland permanent and other permanents with that name indefinitely.
+  - *2012-10-01* — If the target nonland permanent is an illegal target when the "enters" ability tries to resolve, it won't resolve and none of its effects will happen. No permanents will be exiled, including those with the same name as the target.
+  - *2012-10-01* — The "enters" ability has only one target. The other permanents with that name aren't targeted. For example, a permanent with protection from white will be exiled if it has the same name as the target nonland permanent.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/155/detention-sphere) · oracle_id `0a0b376d-7824-4ba5-8bc9-bc0be12800c5` · printing: RTR #155 (2012-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Detention Vortex
 
@@ -146,7 +171,14 @@
   > *"Have I finally done it? Have I finally freed myself from failure?"*
 - **Keywords:** Populate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3885 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/122/determined-iteration) · oracle_id `e4ed7935-0263-4cde-8118-ac18fffce3ef` · printing: SOC #122 (2026-04-24) · [rulings](https://api.scryfall.com/cards/d95490fe-44f2-4f83-b587-b0df402d38ed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-01-12* — Any enters-the-battlefield abilities of the copied token will trigger when the new token enters the battlefield. Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the copied token will also work.
+  - *2024-01-12* — If you choose to copy a creature token that's a copy of another creature, the new creature token will copy the characteristics of whatever the original token is copying.
+  - *2024-01-12* — If you control no creature tokens when you populate, nothing will happen.
+  - *2024-01-12* — Populate doesn't target the creature token you're copying. You choose that creature token as you're taking the populate action. You can choose any creature token you control. If a spell or ability causes you to create a creature token and then instructs you to populate, you may choose to copy the token you just created, or you may choose to copy another creature token you control.
+  - *2024-01-12* — The new creature token copies the characteristics of the original token as stated by the effect that created the original token.
+  - *2024-01-12* — The new token doesn't copy whether the original token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any noncopy effects that have changed its power, toughness, color, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/122/determined-iteration) · oracle_id `e4ed7935-0263-4cde-8118-ac18fffce3ef` · printing: SOC #122 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Detonate
 

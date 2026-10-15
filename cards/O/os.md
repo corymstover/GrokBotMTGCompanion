@@ -64,7 +64,11 @@
   > Mayhem (You may play this card from your graveyard if you discarded it this turn. Timing rules still apply.)
 - **Keywords:** Mayhem
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3487 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/spm/182/oscorp-industries) · oracle_id `f432eb6a-f1bf-4ce7-b915-1488dccb4bb9` · printing: SPM #182 (2025-09-26) · [rulings](https://api.scryfall.com/cards/1e609d6e-9e37-45d2-87de-8c76675f7cec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-09-19* — Mayhem represents an alternative cost that can be paid to cast a spell from your graveyard if you discarded the card with mayhem that turn. You must pay any additional costs the spell has.
+  - *2025-09-19* — You can play Oscorp Industries using its mayhem ability only if you have available land plays remaining. There's no cost to playing a land; you're simply playing it from your graveyard.
+  - *2025-09-19* — You must follow all normal timing rules when casting a spell with mayhem. For example, you can't cast a creature card with mayhem you couldn't normally cast during an opponent's turn, even if you discard that card during an opponent's turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/spm/182/oscorp-industries) · oracle_id `f432eb6a-f1bf-4ce7-b915-1488dccb4bb9` · printing: SPM #182 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oscorp Research Team
 
@@ -89,6 +93,7 @@
   > {X}, {T}, Exile an artifact card with mana value X from your graveyard: Create two tokens that are copies of the exiled card. Activate only as a sorcery.
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8195 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/8/osgir-the-reconstructor) · oracle_id `add020f8-a6ae-4ce1-8d4e-f48f3fd14767` · printing: C21 #8 (2021-04-23) · [rulings](https://api.scryfall.com/cards/5815fe6e-e26b-4918-a090-55d6442722c1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Osgood, Operation Double
@@ -138,7 +143,10 @@
   > Delirium — At the beginning of your end step, if there are four or more card types among cards in your graveyard, each opponent may sacrifice a nonland permanent of their choice or discard a card. Then this creature deals damage equal to its power to each opponent who didn't sacrifice a permanent or discard a card this way.
 - **Keywords:** Delirium, Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8001 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/112/osseous-sticktwister) · oracle_id `33c3a81a-6cea-48c9-b966-67084d96e74f` · printing: DSK #112 (2024-09-27) · [rulings](https://api.scryfall.com/cards/4f43473e-1302-4543-b331-1a86cfbc3ced/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-09-20* — Use Osseous Sticktwister's power as its last ability resolves to determine how much damage it deals to each opponent who didn't sacrifice a permanent or discard a card this way. If Osseous Sticktwister is no longer on the battlefield at that time, use its power as it last existed on the battlefield.
+  - *2024-09-20* — While resolving Osseous Sticktwister's last ability, the next opponent in turn order chooses a card to be discarded without revealing it, chooses a nonland permanent to be sacrificed, or chooses to do neither. Then each other opponent in turn order does the same. Then all of the actions occur simultaneously. Opponents will know what choices opponents earlier in the turn order made, although cards chosen to be discarded this way won't be revealed until they're discarded at the end of the process.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/112/osseous-sticktwister) · oracle_id `33c3a81a-6cea-48c9-b966-67084d96e74f` · printing: DSK #112 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ossification
 
@@ -151,7 +159,11 @@
   > *Only Elesh Norn's most loyal servants are granted the honor of becoming part of her throne.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4373 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/26/ossification) · oracle_id `e29bfd62-286f-4982-813f-7086573c333b` · printing: ONE #26 (2023-02-10) · [rulings](https://api.scryfall.com/cards/0da03224-c1af-438f-96c2-b0e41e1070b7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-02-04* — Auras attached to the exiled permanent will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist. When the card returns to the battlefield, it will be a new object with no connection to the card that was exiled.
+  - *2023-02-04* — If Ossification leaves the battlefield before its triggered ability resolves, the target permanent won't be exiled.
+  - *2023-02-04* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/26/ossification) · oracle_id `e29bfd62-286f-4982-813f-7086573c333b` · printing: ONE #26 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ossuary Rats
 
@@ -175,7 +187,19 @@
   > {T}: Until end of turn, you may cast creature spells from your graveyard by foraging in addition to paying their other costs. If you cast a spell this way, that creature enters with a finality counter on it. (To forage, exile three cards from your graveyard or sacrifice a Food. If a creature with a finality counter on it would die, exile it instead.)
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6211 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/103/osteomancer-adept) · oracle_id `791cbb7c-7935-4902-b050-9ea9d030e9fa` · printing: BLB #103 (2024-08-02) · [rulings](https://api.scryfall.com/cards/7d8238dd-858f-466c-96de-986bd66861d7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2024-07-26* — Finality counters aren't keyword counters, and a finality counter doesn't give any abilities to the permanent it's on. If that permanent loses its abilities and then would go to a graveyard, it will still be exiled instead.
+  - *2024-07-26* — Finality counters don't stop permanents from going to zones other than the graveyard from the battlefield. For example, if a permanent with a finality counter on it would be put into its owner's hand from the battlefield, it does so normally.
+  - *2024-07-26* — Finality counters work on any permanent, not only creatures. If a permanent with a finality counter on it would be put into a graveyard from the battlefield, exile it instead.
+  - *2024-07-26* — If Dryad Arbor (the only card that's both a creature and a land) is in your graveyard, you can't play it this way. Dryad Arbor can't be cast as a spell.
+  - *2024-07-26* — If you don't have enough cards in your graveyard or a Food on the battlefield, you can't choose to forage.
+  - *2024-07-26* — Multiple finality counters on a single permanent are redundant.
+  - *2024-07-26* — Once you announce that you're casting a spell or activating an ability, players can't take actions until you've finished doing so. Notably, opponents can't try to remove cards from your graveyard or Foods you control to stop you from foraging.
+  - *2024-07-26* — You must still follow timing restrictions and permissions for creature spells you cast with the permission granted by Osteomancer Adept's last ability. Normally, you'll be able to cast them only during your main phase while the stack is empty.
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/103/osteomancer-adept) · oracle_id `791cbb7c-7935-4902-b050-9ea9d030e9fa` · printing: BLB #103 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ostiary Thrull
 
@@ -223,4 +247,8 @@
 - **Flavor text** (AFR printing):
   > *"Can't see this airship crashing in the near future. Sturdy as a rock."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2937 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/28/oswald-fiddlebender) · oracle_id `dbc9ea19-cf68-41d3-88a8-b5ab8df75c5a` · printing: AFR #28 (2021-07-23) · [rulings](https://api.scryfall.com/cards/bba1650f-eddf-49a9-820e-489cb8d5b6fa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-07-23* — A token has a mana value of 0 unless it's copying something else.
+  - *2021-07-23* — An artifact's mana value is determined solely by the mana symbols printed in its upper right corner (unless that artifact is copying something else; see below). If its mana cost includes {X}, X is considered to be 0. If it has no mana symbols in its upper right corner (because it's an animated land that's also an artifact, for example), its mana value is 0. Ignore any alternative costs or additional costs (such as kicker) paid when the artifact spell was cast.
+  - *2021-07-23* — If an artifact is copying something else, its mana value is the mana value of whatever it's copying.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/28/oswald-fiddlebender) · oracle_id `dbc9ea19-cf68-41d3-88a8-b5ab8df75c5a` · printing: AFR #28 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

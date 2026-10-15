@@ -61,7 +61,9 @@
 - **Flavor text** (DSK printing):
   > *Every night, Cori threw the unsettling doll away. Every morning, it was back on the shelf, its eyes following her every move.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2282 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/208/arabella-abandoned-doll) · oracle_id `7c4bbb1b-29c4-4e06-aed0-b361293a585b` · printing: DSK #208 (2024-09-27) · [rulings](https://api.scryfall.com/cards/f683d5a1-b8bf-446f-9fe3-88a4398bf3cf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-09-20* — The value of X is determined only once, as Arabella's ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/208/arabella-abandoned-doll) · oracle_id `7c4bbb1b-29c4-4e06-aed0-b361293a585b` · printing: DSK #208 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arachne, Psionic Weaver
 
@@ -98,6 +100,7 @@
 - **Flavor text** (DSC printing):
   > *Every movement is a summons—even your screams.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1236 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/169/arachnogenesis) · oracle_id `b655bee5-52d3-467e-b16c-cfc2edf2b1a1` · printing: DSC #169 (2024-09-27) · [rulings](https://api.scryfall.com/cards/f5f18431-64c0-4ae5-bdc1-1e953313f086/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arachnoid
@@ -187,6 +190,7 @@
   > *Aragorn the King Elessar wedded Arwen Undómiel, and the tale of their long waiting and labors came to fulfillment.*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6837 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/287/aragorn-and-arwen-wed) · oracle_id `b8a3440a-03c5-444c-a1de-252524c3db82` · printing: LTR #287 (2023-06-23) · [rulings](https://api.scryfall.com/cards/d7d4c97a-9319-4534-9a49-da000f41a02d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aragorn, Company Leader
@@ -211,7 +215,12 @@
   > Whenever a renowned creature you control deals combat damage to a player, double the number of +1/+1 counters on it.
 - **Keywords:** Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6763 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/492/aragorn-hornburg-hero) · oracle_id `07326335-45dd-4ebd-8ae6-5191b6eb2928` · printing: LTC #492 (2023-11-03) · [rulings](https://api.scryfall.com/cards/14c62aa6-2660-4a18-8f69-4088e18abb40/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2023-11-03* — If Aragorn, Hornburg Hero leaves the battlefield after first strike damage is dealt but before regular combat damage, creatures you control that dealt first strike damage but no longer have first strike won't also deal regular combat damage (unless they have double strike for some reason).
+  - *2023-11-03* — If a creature has multiple instances of renown, each triggers separately. The first one that resolves causes the creature to become renowned, which means any additional renown abilities that creature has will have no effect. The creature's controller chooses what order to put those renown abilities on the stack, so they can choose to have the ability with the higher renown number resolve first.
+  - *2023-11-03* — Renown won't trigger when a creature deals damage to a planeswalker, a battle, or another creature. It also won't trigger when a creature deals noncombat damage to a player.
+  - *2023-11-03* — When a creature you control that isn't renowned deals combat damage to a player, you'll put a +1/+1 counter on it and it will become renowned. Since it wasn't renowned when it dealt combat damage, Aragorn, Hornburg Hero's last ability won't trigger, and you won't double the number of +1/+1 counters on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/492/aragorn-hornburg-hero) · oracle_id `07326335-45dd-4ebd-8ae6-5191b6eb2928` · printing: LTC #492 (2023-11-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aragorn, King of Gondor
 
@@ -226,7 +235,14 @@
   > *"In this place will I abide, and my heirs, unto the ending of the world."*
 - **Keywords:** Lifelink, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4127 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/5/aragorn-king-of-gondor) · oracle_id `be97c400-c690-426d-a39e-4082080a3823` · printing: LTC #5 (2023-06-23) · [rulings](https://api.scryfall.com/cards/1c7ac04c-8510-468b-aa6f-f249bde9ff87/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-06-16* — If combat damage dealt to the monarch causes that player to lose the game, the triggered ability that causes the controller of the attacking creature to become the monarch doesn't resolve. In most cases, the controller of the attacking creature will still become the monarch as it is likely their turn.
+  - *2023-06-16* — If the monarch leaves the game during another player's turn, that player becomes the monarch. If the monarch leaves the game during their turn, the next player in turn order becomes the monarch.
+  - *2023-06-16* — If the triggered ability that causes the monarch to draw a card goes on the stack and a different player becomes the monarch before that ability resolves, the first player will still draw the card.
+  - *2023-06-16* — The game starts with no monarch. Once an effect makes one player the monarch, the game will have exactly one monarch from that point forward. As a player becomes the monarch, the current monarch (if any) ceases being the monarch.
+  - *2023-06-16* — There are two inherent triggered abilities associated with being the monarch. These triggered abilities have no source and are controlled by the player who was the monarch at the time the abilities triggered. The full texts of these abilities are "At the beginning of the monarch's end step, that player draws a card" and "Whenever a creature deals combat damage to the monarch, its controller becomes the monarch."
+  - *2023-06-16* — When Aragorn, King of Gondor's last ability triggers, you can choose not to target a creature, probably because you're the monarch and just want creatures to be unable to block this turn. However, if you do choose a target, and that target is illegal at the time the ability tries to resolve, the ability won't resolve and none of its effects will happen. Creatures will still be able to block this turn, even if you're the monarch.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/5/aragorn-king-of-gondor) · oracle_id `be97c400-c690-426d-a39e-4082080a3823` · printing: LTC #5 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aragorn, the Uniter
 
@@ -240,7 +256,9 @@
   > Whenever you cast a green spell, target creature gets +4/+4 until end of turn.
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3405 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/192/aragorn-the-uniter) · oracle_id `3f31c423-d45c-4c3e-b7d4-ca125be0f92c` · printing: LTR #192 (2023-06-23) · [rulings](https://api.scryfall.com/cards/e98d5321-ec09-456c-a9ea-c8ca2cfc6205/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-06-16* — If you cast a spell that's multiple colors, more than one of Aragorn, the Uniter's abilities may trigger. In that case, you choose the order in which the abilities are put onto the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/192/aragorn-the-uniter) · oracle_id `3f31c423-d45c-4c3e-b7d4-ca125be0f92c` · printing: LTR #192 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arahbo, Roar of the World
 
@@ -252,7 +270,15 @@
   > Whenever another Cat you control attacks, you may pay {1}{G}{W}. If you do, it gains trample and gets +X/+X until end of turn, where X is its power.
 - **Keywords:** Eminence
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7960 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/c17/35/arahbo-roar-of-the-world) · oracle_id `66944a11-40a1-4f3a-9f83-52324e0edfef` · printing: C17 #35 (2017-08-25) · [rulings](https://api.scryfall.com/cards/81dc3d00-97cd-4549-b5a4-15a1e08767f5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2017-08-25* — If a Cat you control enters the battlefield attacking, it won't cause Arahbo's last ability to trigger.
+  - *2017-08-25* — If multiple Cats attack, Arahbo's last ability triggers that many times. You may pay {1}{G}{W} each time one resolves.
+  - *2017-08-25* — Notably, if your commander is on the battlefield and its eminence ability triggers, but it's put into the command zone before that ability resolves, that ability won't do anything as it resolves. This is because an object that changes zones is considered a new object.
+  - *2017-08-25* — Once either of Arahbo's triggered abilities has resolved, the affected Cat keeps its bonus even if Arahbo changes zones later in the turn.
+  - *2017-08-25* — The value of X is determined only as Arahbo's last ability resolves. If the attacking Cat's power is negative at that time, X is 0.
+  - *2017-08-25* — This commander's eminence ability is a triggered ability. The commander must be on the battlefield or in the command zone as the trigger event occurs and also as the triggered ability resolves. If the commander is in an appropriate zone as the trigger event occurs but leaves that zone, the ability won't do anything as it resolves.
+  - *2017-08-25* — While resolving Arahbo's last ability, you can't pay {1}{G}{W} multiple times to multiply the effect for one Cat.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c17/35/arahbo-roar-of-the-world) · oracle_id `66944a11-40a1-4f3a-9f83-52324e0edfef` · printing: C17 #35 (2017-08-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arahbo, the First Fang
 
@@ -265,7 +291,9 @@
 - **Flavor text** (FDN printing):
   > *It's said all cats in the Multiverse trace their lineage back to him, from the meekest kitten to the mightiest lion.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3700 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/2/arahbo-the-first-fang) · oracle_id `dfec65a0-6fb6-463d-aa62-e84a427db217` · printing: FDN #2 (2024-11-15) · [rulings](https://api.scryfall.com/cards/524a5d93-26ed-436d-a437-dc9460acce98/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-11-08* — If Arahbo enters at the same time as one or more nontoken Cats you control, its last ability will trigger once for each of those Cats (as well as itself).
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/2/arahbo-the-first-fang) · oracle_id `dfec65a0-6fb6-463d-aa62-e84a427db217` · printing: FDN #2 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Araña, Heart of the Spider
 
@@ -276,7 +304,11 @@
   > Whenever you attack, put a +1/+1 counter on target attacking creature.
   > Whenever a modified creature you control deals combat damage to a player, exile the top card of your library. You may play that card this turn. (Equipment, Auras you control, and counters are modifications.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5510 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/spm/123/ara%C3%B1a-heart-of-the-spider) · oracle_id `a16037f2-a0f6-465d-8d6e-cec34b4a6320` · printing: SPM #123 (2025-09-26) · [rulings](https://api.scryfall.com/cards/b02bfa0e-f761-45e1-b35c-f44ff7c5d0e8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-09-19* — A creature that is equipped is considered modified no matter who controls the Equipment that's attached to it.
+  - *2025-09-19* — A creature with a counter on it is considered modified no matter what kind of counter it is or which player put it on that creature.
+  - *2025-09-19* — An Aura controlled by an opponent does not cause a creature you control to be modified.
+- **Source flags:** [Scryfall](https://scryfall.com/card/spm/123/ara%C3%B1a-heart-of-the-spider) · oracle_id `a16037f2-a0f6-465d-8d6e-cec34b4a6320` · printing: SPM #123 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arashin Cleric
 
@@ -367,7 +399,9 @@
   > *Her webs, spun from her own hair, reach from Nyx to the mortal world and even into the Underworld.*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1024 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/244/arasta-of-the-endless-web) · oracle_id `695eea46-1535-48c5-bbb6-0b8379e77bfc` · printing: TDC #244 (2025-04-11) · [rulings](https://api.scryfall.com/cards/95a87b4e-f0ea-457c-9517-4acf313c4ca6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-01-24* — An ability that triggers when a player casts a spell resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/244/arasta-of-the-endless-web) · oracle_id `695eea46-1535-48c5-bbb6-0b8379e77bfc` · printing: TDC #244 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Araumi of the Dead Tide
 

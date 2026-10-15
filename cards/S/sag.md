@@ -144,7 +144,12 @@
   > Each other Wizard creature you control enters with an additional +1/+1 counter on it.
   > {2}, Remove a +1/+1 counter from a creature you control: Draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8265 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/169/sage-of-fables) · oracle_id `f53da056-97be-41ad-8cfc-0d92e17dcd7b` · printing: LCC #169 (2023-11-17) · [rulings](https://api.scryfall.com/cards/36d22296-8eb6-4367-bb21-47b20ad700d9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2008-04-01* — If Sage of Fables enters at the same time as another Wizard (due to Living End, for example), that creature doesn't get a +1/+1 counter.
+  - *2008-04-01* — If a Wizard would normally enter with a certain number of +1/+1 counters on it, it enters with that many +1/+1 counters plus one on it instead. If a Wizard would normally enter with no +1/+1 counters on it, it enters with one +1/+1 counter on it instead.
+  - *2008-04-01* — The creature gets the counter if it would enter under your control. It doesn't matter who owns the creature or what zone it enters from (such as your opponent's graveyard, for example).
+  - *2008-04-01* — The effects from more than one Sage of Fables are cumulative. That is, if you have two Sage of Fables on the battlefield, Wizard creatures you control enter with two additional +1/+1 counters on them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/169/sage-of-fables) · oracle_id `f53da056-97be-41ad-8cfc-0d92e17dcd7b` · printing: LCC #169 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sage of Hours
 
@@ -156,7 +161,12 @@
   > Remove all +1/+1 counters from this creature: For each five counters removed this way, take an extra turn after this one.
 - **Keywords:** Heroic
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7799 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jou/50/sage-of-hours) · oracle_id `bdbf70da-af38-4827-9b8b-39f553ebd34a` · printing: JOU #50 (2014-05-02) · [rulings](https://api.scryfall.com/cards/8cb55caf-fc95-40dc-80af-5144f94333ee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2014-04-26* — Heroic abilities will resolve before the spell that caused them to trigger.
+  - *2014-04-26* — Heroic abilities will trigger only once per spell, even if that spell targets the creature with the heroic ability multiple times.
+  - *2014-04-26* — Heroic abilities won't trigger when a copy of a spell is created on the stack or when a spell's targets are changed to include a creature with a heroic ability.
+  - *2014-04-26* — You must remove all +1/+1 counters from Sage of Hours to activate its ability, even if the number of counters isn't a multiple of five. For example, if you remove twelve counters to activate the ability, you'll take two extra turns. If you remove three counters, you won't take any extra turns.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jou/50/sage-of-hours) · oracle_id `bdbf70da-af38-4827-9b8b-39f553ebd34a` · printing: JOU #50 (2014-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sage of Lat-Nam
 
@@ -206,7 +216,13 @@
   > Foretell {4}{U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)
 - **Keywords:** Flying, Foretell
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4944 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/111/sage-of-the-beyond) · oracle_id `fc74f6a6-9064-4e1b-8dc1-446192bbc448` · printing: OTC #111 (2024-04-19) · [rulings](https://api.scryfall.com/cards/226a4c5d-bf49-40d8-a7a4-341c18029634/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-02-05* — Because exiling a card with foretell from your hand is a special action, you can do so any time you have priority during your turn, including in response to spells and abilities. Once you announce you're taking the action, no other player can respond by trying to remove the card from your hand.
+  - *2021-02-05* — Casting a foretold card from exile follows the timing rules for that card. If you foretell an instant card, you can cast it as soon as the next player's turn. In most cases, if you foretell a card that isn't an instant (or doesn't have flash), you'll have to wait until your next turn to cast it.
+  - *2021-02-05* — If you're casting a foretold card from exile for its foretell cost, you can't choose to cast it for any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
+  - *2021-02-05* — The cost reduction applies only to generic mana in the costs of spells you cast from anywhere other than your hand. It can't reduce requirements of a specific color of mana.
+  - *2021-02-05* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions (such as that of Sage of the Beyond). The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/111/sage-of-the-beyond) · oracle_id `fc74f6a6-9064-4e1b-8dc1-446192bbc448` · printing: OTC #111 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sage of the Falls
 
@@ -256,7 +272,9 @@
   > {T}: Until end of turn, target land you control becomes an X/X Citizen creature with haste in addition to its other types, where X is twice the number of Gates you control. Activate only as a sorcery.
   > Tap an untapped Gate you control: Untap this creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5787 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m3c/67/sage-of-the-maze) · oracle_id `d82618e7-494a-46d0-a19e-9cc647f96cfe` · printing: M3C #67 (2024-06-14) · [rulings](https://api.scryfall.com/cards/d420385a-3f20-411c-b686-fecdbae29717/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-06-07* — The value of X is calculated only once, as Sage of the Maze's second ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m3c/67/sage-of-the-maze) · oracle_id `d82618e7-494a-46d0-a19e-9cc647f96cfe` · printing: M3C #67 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sage of the Skies
 
@@ -357,7 +375,10 @@
   > Enchanted creature gets +1/+1 for each Aura you control that's attached to a creature.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1854 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/165/sages-reverie) · oracle_id `bd92cacd-c7d8-43a2-a261-ea4754fefdc5` · printing: SOC #165 (2026-04-24) · [rulings](https://api.scryfall.com/cards/5515393a-7d4d-454f-a550-156862ab02f1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-11-24* — An Aura doesn't necessarily need the enchant creature ability for the abilities of Sage's Reverie to count it. For example, an Aura with enchant permanent that's attached to a creature will count.
+  - *2014-11-24* — Count the number of Auras you control attached to creatures as the enters-the-battlefield ability resolves to determine how many cards to draw. This will include Sage's Reverie as long as it's still on the battlefield at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/165/sages-reverie) · oracle_id `bd92cacd-c7d8-43a2-a261-ea4754fefdc5` · printing: SOC #165 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sage's Row Denizen
 
@@ -464,4 +485,15 @@
   > Search your library for a basic land card, reveal it, put it into your hand, then shuffle. (Also shuffle this card.)
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6592 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/157/sagu-wildling-roost-seek) · oracle_id `7cee6d43-5dec-4989-85ec-c635ec783ec7` · printing: TDM #157 (2025-04-11) · [rulings](https://api.scryfall.com/cards/d8b43b00-f4d1-436c-bf3f-6d414cd4ce38/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2025-04-04* — An omen card is a creature card in every zone except the stack, as well as while on the stack if not cast as an Omen. Ignore its alternative characteristics in those cases. For example, while it’s in your graveyard, Twinmaw Stormbrood is a white creature card whose mana value is 6. It can’t be the target of the reflexive ability created by Kishla Trawlers’s triggered ability (“…When you do, return target instant or sorcery card from your graveyard to your hand.”).
+  - *2025-04-04* — As a player casts an omen card, the player chooses whether they cast the card normally or as an Omen.
+  - *2025-04-04* — Casting a card as an Omen isn’t casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Omen.
+  - *2025-04-04* — If a spell is cast as an Omen, its controller shuffles it into its owner’s library instead of putting it into its owner’s graveyard as it resolves.
+  - *2025-04-04* — If an Omen spell has one or more targets and all of those targets are illegal when the spell tries to resolve, it won’t resolve. None of its effects will happen, and it will be put into its owner’s graveyard. It won’t be shuffled into its owner’s library.
+  - *2025-04-04* — If an Omen spell is copied, that copy is also an Omen and is shuffled into its owner’s library as it resolves. Its owner still shuffles their library, but the copy ceases to exist as a state-based action.
+  - *2025-04-04* — If an Omen spell is countered or an effect causes it to otherwise leave the stack, it won’t be shuffled into its owner’s library.
+  - *2025-04-04* — If an effect instructs you to choose a card name, you may choose the alternative Omen name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2025-04-04* — If you cast an omen card as an Omen, use only its alternative characteristics to determine whether it’s legal to cast that spell. For example, if you control Thundermane Dragon (“You may cast creature spells with power 4 or greater from the top of your library.”) and Twinmaw Stormbrood is on top of your library, you can cast Twinmaw Stormbrood, but not Charring Bite.
+  - *2025-04-04* — When casting a spell as an Omen, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/157/sagu-wildling-roost-seek) · oracle_id `7cee6d43-5dec-4989-85ec-c635ec783ec7` · printing: TDM #157 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

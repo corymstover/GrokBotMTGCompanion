@@ -114,7 +114,10 @@
 - **Flavor text** (PLC printing):
   > *The rifts reach into infinite time streams, bringing the divergent products of alternate pasts into the present.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3634 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/plc/13/retether) · oracle_id `b693c24f-07d9-40fa-aa4a-8f7ba61f3452` · printing: PLC #13 (2007-02-02) · [rulings](https://api.scryfall.com/cards/0faa005e-c753-4484-bf64-349350d59094/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2007-02-01* — All the Auras return to the battlefield simultaneously. Whether an Aura can be attached to a creature is checked before any of them are returned and doesn't take into account any simultaneously returning Auras. For example, if Tattoo Ward (which gives enchanted creature protection from enchantments) and Holy Strength are in your graveyard and there's only one creature on the battlefield, both Auras are returned to the battlefield attached to that creature, then Holy Strength is put into your graveyard the next time state-based actions are checked.
+  - *2007-02-01* — Auras don't need to say "enchant creature" to return to the battlefield. For example, an Aura with "enchant land" will return to the battlefield if there's an animated land for it to enchant.
+- **Source flags:** [Scryfall](https://scryfall.com/card/plc/13/retether) · oracle_id `b693c24f-07d9-40fa-aa4a-8f7ba61f3452` · printing: PLC #13 (2007-02-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rethink
 
@@ -159,6 +162,7 @@
 - **Flavor text** (A25 printing):
   > *Where the geometries of the world collapse, a master of the aether can harvest power beyond comprehending.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4153 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/a25/71/retraction-helix) · oracle_id `2707f9f4-2b80-47ac-af0a-99fc53af94bf` · printing: A25 #71 (2018-03-16) · [rulings](https://api.scryfall.com/cards/7aa3fdd0-34d8-47b3-9753-d2929838732e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Retreat to Coralhelm
@@ -171,7 +175,11 @@
   > • Scry 1. (Look at the top card of your library. You may put that card on the bottom.)
 - **Keywords:** Landfall, Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1749 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/126/retreat-to-coralhelm) · oracle_id `c450f6b7-bb2a-4b8c-aec7-d27555137b63` · printing: DSC #126 (2024-09-27) · [rulings](https://api.scryfall.com/cards/cf8246c1-1db2-409f-9440-222d6dc78297/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/126/retreat-to-coralhelm) · oracle_id `c450f6b7-bb2a-4b8c-aec7-d27555137b63` · printing: DSC #126 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Retreat to Emeria
 
@@ -183,7 +191,11 @@
   > • Creatures you control get +1/+1 until end of turn.
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6312 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znc/20/retreat-to-emeria) · oracle_id `cc0cda37-9fea-48c6-897a-45f6b84e1eae` · printing: ZNC #20 (2020-09-25) · [rulings](https://api.scryfall.com/cards/9f18221f-e900-48ef-9b8e-e8ee52b31939/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/znc/20/retreat-to-emeria) · oracle_id `cc0cda37-9fea-48c6-897a-45f6b84e1eae` · printing: ZNC #20 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Retreat to Hagra
 
@@ -195,7 +207,11 @@
   > • Each opponent loses 1 life and you gain 1 life.
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2774 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c18/116/retreat-to-hagra) · oracle_id `73cbb4f0-90d6-4228-9341-791e3e9c4b48` · printing: C18 #116 (2018-08-10) · [rulings](https://api.scryfall.com/cards/c80046c2-021f-448c-9f54-2a1a100ec0aa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/c18/116/retreat-to-hagra) · oracle_id `73cbb4f0-90d6-4228-9341-791e3e9c4b48` · printing: C18 #116 (2018-08-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Retreat to Kazandu
 
@@ -207,7 +223,11 @@
   > • You gain 2 life.
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2594 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/435/retreat-to-kazandu) · oracle_id `3f8e5ff1-af89-427e-924c-19a44f9a3788` · printing: CMR #435 (2020-11-20) · [rulings](https://api.scryfall.com/cards/553ac818-f476-43fd-841c-c91d78c2506e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/435/retreat-to-kazandu) · oracle_id `3f8e5ff1-af89-427e-924c-19a44f9a3788` · printing: CMR #435 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Retreat to Valakut
 
@@ -239,7 +259,9 @@
 - **Flavor text** (KTK printing):
   > *Abzan ancestors died to protect their Houses, and they protect them still.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6757 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/85/retribution-of-the-ancients) · oracle_id `550b8bee-1773-427b-b300-aaceff243e11` · printing: KTK #85 (2014-09-26) · [rulings](https://api.scryfall.com/cards/0d3ee29d-b374-471d-80c3-bcad7a4226e6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2014-09-20* — Once you announce that you are activating the ability of Retribution of the Ancients, no player may take any actions before you pay its costs. Notably, opponents can’t try to remove a creature with counters on it to stop you from paying.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/85/retribution-of-the-ancients) · oracle_id `550b8bee-1773-427b-b300-aaceff243e11` · printing: KTK #85 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Retribution of the Meek
 
@@ -336,6 +358,7 @@
   > {1}, {T}, Sacrifice a Servo: Create a 1/1 colorless Thopter artifact creature token with flying.
   > {T}, Sacrifice a Thopter: Create a 4/4 colorless Construct artifact creature token.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4496 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c18/57/retrofitter-foundry) · oracle_id `aaadfe41-b2be-4183-b45e-a70e53a59d2e` · printing: C18 #57 (2018-08-10) · [rulings](https://api.scryfall.com/cards/5da578b8-19e6-4068-9336-e7cd33c585f1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Retromancer
@@ -451,7 +474,11 @@
   > • Create a Food token. (It's an artifact with "{2}, {T}, Sacrifice this token: You gain 3 life.")
 - **Keywords:** Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6189 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/181/return-from-the-wilds) · oracle_id `541adb13-1277-4c9e-ae1e-976f7aac1c72` · printing: WOE #181 (2023-09-08) · [rulings](https://api.scryfall.com/cards/9597d9ea-d9b2-4009-8e7c-02caa3585bc5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/181/return-from-the-wilds) · oracle_id `541adb13-1277-4c9e-ae1e-976f7aac1c72` · printing: WOE #181 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Return of the Mole Man
 
@@ -533,7 +560,19 @@
   > *"You're back! You're in my head. All my memories... are back."*
   > *—The Twelfth Doctor*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9422 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/92/return-the-past) · oracle_id `be2b3954-e4d7-438c-a549-252bd7f4a9bd` · printing: WHO #92 (2023-10-13) · [rulings](https://api.scryfall.com/cards/74de4341-d10a-47c6-8a60-9dfa491f1d02/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2023-10-13* — "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2023-10-13* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2023-10-13* — If a card has multiple instances of flashback, you may choose any of its flashback costs to pay.
+  - *2023-10-13* — If a card is put into your graveyard during your turn, you can cast it with flashback if it's legal to do so before any other player can take any actions.
+  - *2023-10-13* — If a card with no mana cost gains flashback, it has no flashback cost. It can't be cast this way.
+  - *2023-10-13* — If a split card gains flashback, you pay only the cost of the half you're casting.
+  - *2023-10-13* — If you cast a spell with flashback, you can't pay any alternative costs such as overload costs. You can pay additional costs such as kicker costs. If the spell has any mandatory additional costs, you must pay those to cast the spell with flashback.
+  - *2023-10-13* — If you cast an instant or sorcery with {X} in its mana cost this way, you still choose the value of X as part of casting the spell and pay that cost.
+  - *2023-10-13* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2023-10-13* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2023-10-13* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/92/return-the-past) · oracle_id `be2b3954-e4d7-438c-a549-252bd7f4a9bd` · printing: WHO #92 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Return to Action
 
@@ -545,6 +584,7 @@
   > *"You're hurt? Too bad. You stop fighting when I say, and not a moment sooner."*
   > *—Satoru Umezawa*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7832 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/121/return-to-action) · oracle_id `9c002b4d-bb6c-45a5-88e1-1df2958dff9f` · printing: NEO #121 (2022-02-18) · [rulings](https://api.scryfall.com/cards/342ec072-e581-490c-b5ae-a625bd35a153/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Return to Battle

@@ -36,6 +36,7 @@
   > Other Mice you control get +1/+1.
   > When Mabel enters, create Cragflame, a legendary colorless Equipment artifact token with "Equipped creature gets +1/+1 and has vigilance, trample, and haste" and equip {2}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9065 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/224/mabel-heir-to-cragflame) · oracle_id `4b11e435-5888-4e3b-a255-db817392163f` · printing: BLB #224 (2024-08-02) · [rulings](https://api.scryfall.com/cards/be6627fd-729d-44f2-b6bf-5299f49d1e3d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mabel's Mettle

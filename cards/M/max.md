@@ -46,7 +46,12 @@
   > II — Add {R}{R}{R}.
   > III — This Saga deals 5 damage to each opponent.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4985 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/spm/83/maximum-carnage) · oracle_id `7351fca5-8672-4ba3-a015-bd4b6b289efc` · printing: SPM #83 (2025-09-26) · [rulings](https://api.scryfall.com/cards/7d72d867-6ed2-4900-a8ae-9d86f581ce32/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-09-19* — Although the effects of the first chapter ability are the same as the goad keyword action, that ability doesn't cause any creatures to become goaded. Effects that refer to "goaded creatures" won't apply.
+  - *2025-09-19* — However, if such a creature can't attack players other than you, it must attack you (unless you control it) or a planeswalker or battle it can attack.
+  - *2025-09-19* — If a creature under the effects of the first chapter ability can't attack for any reason (such as being tapped or having come under your control that turn), then it doesn't attack. If there's a cost associated with having it attack, you're not forced to pay that cost, so it doesn't have to attack in that case either.
+  - *2025-09-19* — Maximum Carnage's first chapter ability affects all creatures until your next turn, regardless of whether or not they were on the battlefield at the time the ability resolved.
+- **Source flags:** [Scryfall](https://scryfall.com/card/spm/83/maximum-carnage) · oracle_id `7351fca5-8672-4ba3-a015-bd4b6b289efc` · printing: SPM #83 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maximum Overdrive
 
@@ -57,6 +62,7 @@
 - **Flavor text** (DFT printing):
   > *Compared to the Fuel Wars on Gastal, this Grand Prix is a thrilling vacation.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9713 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/96/maximum-overdrive) · oracle_id `f0e85b74-12fb-4d63-853e-7a3f41f731b4` · printing: DFT #96 (2025-02-14) · [rulings](https://api.scryfall.com/cards/5f6e5bb2-cfe9-48e5-86f9-e21f3d328327/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maximus, Knight Apparent

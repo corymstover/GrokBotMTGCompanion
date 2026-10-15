@@ -126,7 +126,23 @@
   > Search your library for an instant or sorcery card, reveal it, put it into your hand, then shuffle.
 - **Keywords:** Treasure, Prepared
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7434 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/223/sanar-unfinished-genius-wild-idea) · oracle_id `a8c44bd9-6470-47d7-934f-77c76a44a984` · printing: SOS #223 (2026-04-24) · [rulings](https://api.scryfall.com/cards/173157aa-712d-44f2-89ba-dd2511a07f26/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2026-03-20* — A creature with a prepare spell can't become prepared more than once at the same time. For example, Emeritus of Ideation is on the battlefield and is prepared. When it attacks, its last ability triggers. When that ability resolves, its controller may still exile eight cards from their graveyard, but doing so won't cause Emeritus of Ideation to become prepared a second time or create a second copy of Ancestral Recall in exile.
+  - *2026-03-20* — A creature without a prepare spell can't become prepared.
+  - *2026-03-20* — A preparation card is a creature card in every zone. For example, while it's in your graveyard, Emeritus of Ideation is a blue creature whose mana value is 5. It can't be the target of Zealous Lorecaster's triggered ability ("When this creature enters, return target instant or sorcery card from your graveyard to your hand.").
+  - *2026-03-20* — As an effect causes a creature with a prepare spell to become prepared (including effects that state that a creature "enters prepared"), that creature's controller creates a copy of that creature's prepare spell in exile. That copy remains in exile for as long as that permanent is on the battlefield and is prepared. That creature's controller may cast that copy as long as it remains in exile. As they cast it, that creature stops being prepared.
+  - *2026-03-20* — Being prepared isn't a copiable value. If a permanent becomes a copy of a prepared creature, it won't be prepared. That permanent will have the alternative characteristics, though, and some other effect could cause it to become prepared later.
+  - *2026-03-20* — Casting a copy of a prepare spell from exile isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to a copy of a prepare spell cast from exile.
+  - *2026-03-20* — Creating a copy of a creature's prepare spell in exile ignores copy exceptions applied to that creature that would affect the copiable values of that spell. For example, say a player casts Croaking Counterpart (a sorcery that says "Create a token that's a copy of target non-Frog creature, except it's a 1/1 green Frog.") targeting Goblin Glasswright. The token copy of Goblin Glasswright will enter prepared as a 1/1 green Frog creature, but the copy of Craft with Pride in exile will still be a red sorcery. The copy of Craft with Pride won't be green, a creature, or a Frog, and it won't have power or toughness.
+  - *2026-03-20* — If a prepare spell with one or more targets has no legal targets when it tries to resolve, it won't resolve and none of its effects will happen. Since the spell was cast, the associated permanent will still not be prepared.
+  - *2026-03-20* — If a prepared creature loses all abilities, it won't stop being prepared, and nothing will happen to its alternative characteristics or to the copy of its prepare spell in exile.
+  - *2026-03-20* — If a prepared creature stops being a creature, it will still be prepared, and the copy of its prepare spell will remain in exile. That permanent's controller will still be able to cast it. The same is true if a prepared creature becomes a copy of something else, even if it's then a permanent without a prepare spell.
+  - *2026-03-20* — If an effect causes a creature to become unprepared, a prepared creature stops being prepared and the associated copy of its prepare spell in exile ceases to exist. If it wasn't prepared at that time, nothing happens.
+  - *2026-03-20* — If an effect instructs you to choose a card name, you may choose the alternative prepare spell's name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2026-03-20* — Only the current controller of a prepared creature can cast the copy of its prepare spell in exile. It doesn't matter who owns that creature or who controlled it when it became prepared.
+  - *2026-03-20* — Preparation cards can only be cast with their base characteristics.
+  - *2026-03-20* — While copies of spells in zones other than the stack cease to exist when state-based actions are checked, this does not apply to copies of prepare spells in exile that were created as a creature became prepared.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/223/sanar-unfinished-genius-wild-idea) · oracle_id `a8c44bd9-6470-47d7-934f-77c76a44a984` · printing: SOS #223 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanctified Charge
 
@@ -173,6 +189,7 @@
   > *"Olivia Voldaren has faith only in herself. We answer to a higher calling."*
   > *—Thalia, Guardian of Thraben*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6536 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vow/33/sanctify) · oracle_id `c804ac8e-7427-43c6-b496-3ee6de192f03` · printing: VOW #33 (2021-11-19) · [rulings](https://api.scryfall.com/cards/880e071a-6d6c-41c4-b2eb-c9e6626d0c7f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanctimony
@@ -271,7 +288,15 @@
   > Whenever this creature enters or attacks, you may remove a counter from a creature or planeswalker you control. If you do, draw a card and create a 1/1 green and white Citizen creature token.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7834 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/snc/30/sanctuary-warden) · oracle_id `713bcfb6-e5ea-411e-b4b3-52e5eed5cdf1` · printing: SNC #30 (2022-04-29) · [rulings](https://api.scryfall.com/cards/4dfdab77-d7c3-4e6a-bb4b-55153bd2fd4d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2022-04-29* — "Shield" is not an ability that creatures have and shield counters are not keyword counters. If a creature with a shield counter loses its abilities, the shield counter will still protect it as normal.
+  - *2022-04-29* — A creature with a shield counter on it may still be destroyed by state-based actions if it has damage marked on it equal to its toughness or has been dealt unpreventable damage by a source with deathtouch.
+  - *2022-04-29* — If a permanent that would be dealt damage has more than one shield counter on it, that damage is prevented and only one shield counter is removed.
+  - *2022-04-29* — If a permanent with a shield counter is dealt unpreventable damage, that damage will be dealt and a shield counter will still be removed.
+  - *2022-04-29* — Removing a shield counter in this way isn't the same as regenerating a creature.
+  - *2022-04-29* — Sanctuary Warden's triggered ability allows you to remove any kind of counter, not just a shield counter.
+  - *2022-04-29* — Shield counters don't prevent players from sacrificing creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/snc/30/sanctuary-warden) · oracle_id `713bcfb6-e5ea-411e-b4b3-52e5eed5cdf1` · printing: SNC #30 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanctum Custodian
 
@@ -330,7 +355,10 @@
   > At the beginning of your upkeep, you may search your library and/or graveyard for a Shrine card and put it onto the battlefield. If you search your library this way, shuffle.
   > If a triggered ability of another Shrine you control triggers while you control six or more Shrines, that ability triggers an additional time.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5470 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m21/225/sanctum-of-all) · oracle_id `63f60dfc-2bc4-411f-ae53-504156fe0102` · printing: M21 #225 (2020-07-03) · [rulings](https://api.scryfall.com/cards/ba91338c-1f6c-4b83-851f-98c3e9dea17b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-06-23* — If the Shrine you put onto the battlefield with Sanctum of All's first ability during your upkeep has an ability that triggers at the beginning of your upkeep, it won't trigger during that upkeep.
+  - *2020-06-23* — Triggered abilities use the word “when,” “whenever,” or “at.” They're often written as “[Trigger condition], [effect].” Replacement effects, using “instead” or “as,” aren't affected. Activated abilities (written as “Cost: Effect”) of Shrines you control are also not affected.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m21/225/sanctum-of-all) · oracle_id `63f60dfc-2bc4-411f-ae53-504156fe0102` · printing: M21 #225 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanctum of Calm Waters
 
@@ -343,7 +371,12 @@
   > *Invisible from the shore.*
   > *Knowledge inundates.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5298 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m21/68/sanctum-of-calm-waters) · oracle_id `1cd1e3a8-e09d-4b61-8244-92b317132d6a` · printing: M21 #68 (2020-07-03) · [rulings](https://api.scryfall.com/cards/80b2fb65-5868-4cab-b45d-e103558ce7dc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-06-23* — Each Shrine has an ability that counts the number of Shrines you control. These abilities include the Shrine they're printed on.
+  - *2020-06-23* — If Sanctum of Calm Waters leaves the battlefield while its ability is on the stack, you may control no Shrines as the ability resolves. If so, you may choose to draw zero cards and discard one, or you may choose not to draw zero cards and not discard a card.
+  - *2020-06-23* — Shrines count only enchantments with the subtype Shrine. Other cards with “shrine” in their name (such as Jungle Shrine, Luxa River Shrine, and Nantuko Shrine) don't count.
+  - *2020-06-23* — You draw X cards and discard a card all while the triggered ability is resolving. Nothing can happen between the two, and no player may choose to take actions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m21/68/sanctum-of-calm-waters) · oracle_id `1cd1e3a8-e09d-4b61-8244-92b317132d6a` · printing: M21 #68 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanctum of Eternity
 
@@ -355,7 +388,10 @@
 - **Flavor text** (C19 printing):
   > *Come and rest here, beyond the constraints of space and time.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3778 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c19/59/sanctum-of-eternity) · oracle_id `c7d9ff27-f1fc-42e4-a47b-d2e6d68e4035` · printing: C19 #59 (2019-08-23) · [rulings](https://api.scryfall.com/cards/a680cc6d-9c31-4f5d-808f-dace92bf4346/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-08-23* — If your commander isn’t on the battlefield (or if you’re not playing the Commander variant), Sanctum of Eternity’s second ability does nothing.
+  - *2019-08-23* — The “commander tax” increases based on how many times a commander was cast from the command zone. Casting a commander from your hand doesn’t require that additional cost, and it doesn’t increase what the cost will be the next time you cast that commander from the command zone.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c19/59/sanctum-of-eternity) · oracle_id `c7d9ff27-f1fc-42e4-a47b-d2e6d68e4035` · printing: C19 #59 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanctum of Fruitful Harvest
 
@@ -368,7 +404,10 @@
   > *Verdant with spring's rich bounty,*
   > *The soul blooms in song.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5300 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m21/203/sanctum-of-fruitful-harvest) · oracle_id `132859dd-de66-45c6-8af4-ab5e202a17b0` · printing: M21 #203 (2020-07-03) · [rulings](https://api.scryfall.com/cards/5ca28cfd-1a1b-4176-8b07-993d3d7b7ae4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-06-23* — Each Shrine has an ability that counts the number of Shrines you control. These abilities include the Shrine they're printed on.
+  - *2020-06-23* — Shrines count only enchantments with the subtype Shrine. Other cards with “shrine” in their name (such as Jungle Shrine, Luxa River Shrine, and Nantuko Shrine) don't count.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m21/203/sanctum-of-fruitful-harvest) · oracle_id `132859dd-de66-45c6-8af4-ab5e202a17b0` · printing: M21 #203 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanctum of Shattered Heights
 
@@ -381,7 +420,10 @@
   > *An all-consuming wildfire*
   > *Burning fear to ash*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6671 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m21/157/sanctum-of-shattered-heights) · oracle_id `5e39d311-efb5-4f51-82cd-e8079e32907a` · printing: M21 #157 (2020-07-03) · [rulings](https://api.scryfall.com/cards/482ae7f4-3950-4766-8392-eea753e29426/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-06-23* — Each Shrine has an ability that counts the number of Shrines you control. These abilities include the Shrine they're printed on.
+  - *2020-06-23* — Shrines count only enchantments with the subtype Shrine. Other cards with “shrine” in their name (such as Jungle Shrine, Luxa River Shrine, and Nantuko Shrine) don't count.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m21/157/sanctum-of-shattered-heights) · oracle_id `5e39d311-efb5-4f51-82cd-e8079e32907a` · printing: M21 #157 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanctum of Stone Fangs
 
@@ -394,7 +436,12 @@
   > *False chains binding potential.*
   > *Power knows no bounds.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3831 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m21/120/sanctum-of-stone-fangs) · oracle_id `a1d8fcb9-26b2-4d09-9db7-e644294749f8` · printing: M21 #120 (2020-07-03) · [rulings](https://api.scryfall.com/cards/d1439412-618c-483d-89b9-5ea37f0f1edc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-06-23* — Each Shrine has an ability that counts the number of Shrines you control. These abilities include the Shrine they're printed on.
+  - *2020-06-23* — If Sanctum of Stone Fangs leaves the battlefield while its ability is on the stack, you may control no Shrines as the ability resolves. In that case, no player gains or loses any life.
+  - *2020-06-23* — In a Two-Headed Giant game, Sanctum of Stone Fangs causes the opposing team to lose twice X life and you to gain X life.
+  - *2020-06-23* — Shrines count only enchantments with the subtype Shrine. Other cards with “shrine” in their name (such as Jungle Shrine, Luxa River Shrine, and Nantuko Shrine) don't count.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m21/120/sanctum-of-stone-fangs) · oracle_id `a1d8fcb9-26b2-4d09-9db7-e644294749f8` · printing: M21 #120 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanctum of Tranquil Light
 
@@ -407,7 +454,11 @@
   > *Dwells in perfect harmony*
   > *With a peaceful heart.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6167 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m21/33/sanctum-of-tranquil-light) · oracle_id `1818b0b1-0104-4673-9be8-acfc773ef87d` · printing: M21 #33 (2020-07-03) · [rulings](https://api.scryfall.com/cards/34a5478a-1a2c-4117-b543-da083ed2b562/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-06-23* — Each Shrine has an ability that counts the number of Shrines you control. These abilities include the Shrine they're printed on.
+  - *2020-06-23* — Shrines count only enchantments with the subtype Shrine. Other cards with “shrine” in their name (such as Jungle Shrine, Luxa River Shrine, and Nantuko Shrine) don't count.
+  - *2020-06-23* — The cost reduction applies only to generic mana in the cost of the activated ability. It can't reduce the {W} requirement.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m21/33/sanctum-of-tranquil-light) · oracle_id `1818b0b1-0104-4673-9be8-acfc773ef87d` · printing: M21 #33 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanctum of Ugin
 
@@ -417,6 +468,7 @@
   > {T}: Add {C}.
   > Whenever you cast a colorless spell with mana value 7 or greater, you may sacrifice this land. If you do, search your library for a colorless creature card, reveal it, put it into your hand, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2890 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/242/sanctum-of-ugin) · oracle_id `72cb5dcd-9b24-435c-921a-3766108374c4` · printing: BFZ #242 (2015-10-02) · [rulings](https://api.scryfall.com/cards/86798d03-9f2d-46bd-a660-13c8dd5535ce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanctum Plowbeast
@@ -442,7 +494,10 @@
 - **Flavor text** (CN2 printing):
   > *"These halls are sacred. You \*will\* be silent."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9769 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/23/sanctum-prelate) · oracle_id `7e0cdba8-45e0-4fe5-b440-2d8fcf4d6b2b` · printing: CN2 #23 (2016-08-26) · [rulings](https://api.scryfall.com/cards/1d95a7dd-2803-4164-8979-d7e8e8085ca2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2016-08-23* — Effects that increase or reduce the cost to cast a spell don't affect that spell's mana value.
+  - *2016-08-23* — For spells with {X} in their mana costs, use the value chosen for X to determine if the spell's mana value is the chosen number. For example, if the chosen number is 4, a noncreature spell with mana cost {X}{R}{R} couldn't be cast with X equal to 2, but it could be cast with X equal to any other number.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/23/sanctum-prelate) · oracle_id `7e0cdba8-45e0-4fe5-b440-2d8fcf4d6b2b` · printing: CN2 #23 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanctum Seeker
 
@@ -454,7 +509,9 @@
 - **Flavor text** (LCC printing):
   > *The Sanctum Seekers were the first of the knightly orders to cross the sea and are still the most zealous.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2348 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/209/sanctum-seeker) · oracle_id `afb71560-0fc9-4ea5-9d52-d93c17d72519` · printing: LCC #209 (2023-11-17) · [rulings](https://api.scryfall.com/cards/893279fb-6f51-4d1e-b2fd-a0cdb603785f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-09-29* — In a Two-Headed Giant game, Sanctum Seeker's ability causes the opposing team to lose 2 life and you to gain 1 life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/209/sanctum-seeker) · oracle_id `afb71560-0fc9-4ea5-9d52-d93c17d72519` · printing: LCC #209 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanctum Spirit
 
@@ -601,7 +658,10 @@
   > Sandman can't be blocked by creatures with power 2 or less.
   > {3}{G}{G}: Return this card and target land card from your graveyard to the battlefield tapped.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9137 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/spm/112/sandman-shifting-scoundrel) · oracle_id `8b205480-b1fb-490c-b1c9-cf5cc3c5acdb` · printing: SPM #112 (2025-09-26) · [rulings](https://api.scryfall.com/cards/609ac18c-ec58-4fa7-bbee-3912a69d0ec6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-09-19* — Sandman's first ability works in all zones, not only the battlefield.
+  - *2025-09-19* — Sandman's second ability applies only at the time blockers are declared. For example, if Sandman is blocked by a creature with 4 power, and then an effect gives that creature -3/-0, it won't stop blocking Sandman.
+- **Source flags:** [Scryfall](https://scryfall.com/card/spm/112/sandman-shifting-scoundrel) · oracle_id `8b205480-b1fb-490c-b1c9-cf5cc3c5acdb` · printing: SPM #112 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sandman's Quicksand
 
@@ -623,7 +683,9 @@
   > When this creature enters, if an opponent controls more lands than you, search your library for a Desert card, put it onto the battlefield tapped, then shuffle.
   > Whenever one or more land cards are put into your graveyard from anywhere, create a 1/1 red, green, and white Sand Warrior creature token. This ability triggers only once each turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5116 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/11/sand-scout) · oracle_id `ca9f9017-c952-4e89-b284-02396e6be0af` · printing: OTC #11 (2024-04-19) · [rulings](https://api.scryfall.com/cards/e63ba7e6-87a9-49ef-bddc-60543edfd726/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-04-12* — Sand Scout must be on the battlefield for its last ability to trigger. If it is put into your graveyard at the same time as one or more land cards you own, its ability won’t trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/11/sand-scout) · oracle_id `ca9f9017-c952-4e89-b284-02396e6be0af` · printing: OTC #11 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sand Silos
 
@@ -822,6 +884,7 @@
   > This land enters tapped with two depletion counters on it.
   > {T}, Remove a depletion counter from this land: Add {R}{R}. If there are no depletion counters on this land, sacrifice it.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5785 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/326/sandstone-needle) · oracle_id `c8e0a1a5-8188-4677-9d8a-a18eb593343a` · printing: MMQ #326 (1999-10-04) · [rulings](https://api.scryfall.com/cards/82bc7c6b-2e3d-42d1-b2bb-b37b6f34d33b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sandstone Oracle
@@ -834,7 +897,10 @@
   > When this creature enters, choose an opponent. If that player has more cards in hand than you, draw cards equal to the difference.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4150 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/406/sandstone-oracle) · oracle_id `850e2dbd-b904-41b9-8ffe-0aa562837bde` · printing: CMM #406 (2023-08-04) · [rulings](https://api.scryfall.com/cards/c7333ea3-2c98-405a-a5cc-eecba9b14a00/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-11-10* — To draw cards equal to the difference, first determine how many cards you'll draw, then draw that many cards, as modified by replacement effects. For example, if you have two cards in hand and the chosen opponent has five, Thought Reflection will cause you to draw six cards instead of three.
+  - *2020-11-10* — You choose an opponent while Sandstone Oracle's ability is resolving. No player may take actions between the time you make this choice and the time you draw cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/406/sandstone-oracle) · oracle_id `850e2dbd-b904-41b9-8ffe-0aa562837bde` · printing: CMM #406 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sandstone Warrior
 
@@ -910,7 +976,9 @@
 - **Flavor text** (BIG printing):
   > *Mora didn't want friends, but she didn't mind having someone to watch her back.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9351 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/big/19/sandstorm-salvager) · oracle_id `ec19a9bc-6fc1-4150-976b-37a47b165016` · printing: BIG #19 (2024-04-19) · [rulings](https://api.scryfall.com/cards/13b0f27c-a359-4702-833a-82fec161eeec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-04-12* — In the rare case where +1/+1 counters can’t be put on one or more creature tokens you control, those creature tokens still gain trample until end of turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/big/19/sandstorm-salvager) · oracle_id `ec19a9bc-6fc1-4150-976b-37a47b165016` · printing: BIG #19 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sandstorm Verge
 
@@ -923,7 +991,9 @@
   > *"Ever been caught out in a storm like that? Think of it like drowning, but all the water is knives."*
   > *—Annie Flash*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6465 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/263/sandstorm-verge) · oracle_id `de417a82-8f03-4d7e-aee7-48f7d7eba61a` · printing: OTJ #263 (2024-04-19) · [rulings](https://api.scryfall.com/cards/3ab4e0a4-2faf-456b-99e3-ee06c008538c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-04-12* — Desert is a land subtype with no special meaning. It doesn’t grant the land an intrinsic mana ability. Other cards may care about which lands are Deserts.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/263/sandstorm-verge) · oracle_id `de417a82-8f03-4d7e-aee7-48f7d7eba61a` · printing: OTJ #263 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sand Strangler
 
@@ -959,7 +1029,9 @@
 - **Flavor text** (DSC printing):
   > *Cantankerous and territorial, sandwurms claim even the skies above their dunes.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2408 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/195/sandwurm-convergence) · oracle_id `429eff2b-635b-43f6-b20f-82e25992c0b9` · printing: DSC #195 (2024-09-27) · [rulings](https://api.scryfall.com/cards/3ad9cb61-4072-449b-9b32-83e2192cb292/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-04-18* — Once a creature has attacked you or a planeswalker you control, it will remain in combat even if it gains flying. Similarly, if a creature with flying enters the battlefield attacking, Sandwurm Convergence's first ability can't undo that attack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/195/sandwurm-convergence) · oracle_id `429eff2b-635b-43f6-b20f-82e25992c0b9` · printing: DSC #195 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sangrite Backlash
 
@@ -997,7 +1069,9 @@
   > Whenever an opponent discards a card, you may gain 3 life.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2036 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c21/152/sangromancer) · oracle_id `920445ab-0ac2-4de7-bc1c-f5e58eb4424c` · printing: C21 #152 (2021-04-23) · [rulings](https://api.scryfall.com/cards/59f7f84c-d0a8-4204-a68e-93075f2a96b0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-06-01* — If one or more creatures an opponent controls are put into the graveyard at the same time as Sangromancer, Sangromancer's first ability will trigger that many times.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c21/152/sangromancer) · oracle_id `920445ab-0ac2-4de7-bc1c-f5e58eb4424c` · printing: C21 #152 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sangrophage
 
@@ -1212,6 +1286,7 @@
 - **Flavor text** (FDN printing):
   > *As life returned to the bogs of Bala Ged, the vampires returned to feed upon it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6486 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/68/sanguine-syphoner) · oracle_id `b81a748b-f7a6-4ec4-8b18-40a1819745f6` · printing: FDN #68 (2024-11-15) · [rulings](https://api.scryfall.com/cards/b1daf5bb-c8e9-4e79-a532-ca92a9a885cd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanitarium Skeleton

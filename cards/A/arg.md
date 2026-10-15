@@ -40,7 +40,10 @@
   > Whenever two or more creatures attack, put an oil counter on this artifact.
   > {2}, {T}, Remove two oil counters from this artifact: Exile another target nonland permanent. Its controller draws two cards.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8988 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/20/argent-dais) · oracle_id `3269f589-00fc-4f0b-8693-656f2ab0670d` · printing: MH3 #20 (2024-06-14) · [rulings](https://api.scryfall.com/cards/b56ad225-1249-4e94-898c-ca21b132e62d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-06-07* — Argent Dais's second ability triggers whenever two or more creatures attack, not just when you attack with two or more creatures.
+  - *2024-06-07* — If the target nonland permanent is illegal as Argent Dais's last ability tries to resolve, it won't resolve and none of its effects will happen. No player will draw cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/20/argent-dais) · oracle_id `3269f589-00fc-4f0b-8693-656f2ab0670d` · printing: MH3 #20 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Argent Mutation
 
@@ -81,7 +84,10 @@
   > *Mirrodin's creator still lives, still shapes metal, and still commands world-shaking power.*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2225 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afc/198/argentum-armor) · oracle_id `d0a1f39b-cda4-4925-83f8-2161f575edfb` · printing: AFC #198 (2021-07-23) · [rulings](https://api.scryfall.com/cards/fb1b7468-85f9-472e-9f7c-b268f84aea1c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2011-01-01* — The second ability triggers and resolves during the declare attackers step. The target permanent will be destroyed before blockers are declared.
+  - *2011-01-01* — You may target any permanent with the triggered ability, not just one controlled by the defending player. If no other player controls a permanent, you must target one of your own.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afc/198/argentum-armor) · oracle_id `d0a1f39b-cda4-4925-83f8-2161f575edfb` · printing: AFC #198 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Argentum Masticore
 
@@ -192,7 +198,10 @@
   > *Sharpen your ears*
   > *—Elvish expression meaning "grow wiser"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9503 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/usg/233/argothian-elder) · oracle_id `b57f06e4-da97-4473-9fbf-f66e9129502a` · printing: USG #233 (1998-10-12) · [rulings](https://api.scryfall.com/cards/453e7cb4-bc37-4932-85b7-3a4e160b73dc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — The ability can target an already untapped land.
+  - *2004-10-04* — The ability must target two different lands. It can’t be activated if there is just one land to target.
+- **Source flags:** [Scryfall](https://scryfall.com/card/usg/233/argothian-elder) · oracle_id `b57f06e4-da97-4473-9fbf-f66e9129502a` · printing: USG #233 (1998-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Argothian Enchantress
 
@@ -204,7 +213,11 @@
   > Whenever you cast an enchantment spell, draw a card.
 - **Keywords:** Shroud
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3814 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ema/158/argothian-enchantress) · oracle_id `11f17f85-ca97-4551-838f-7cb32f0e5f10` · printing: EMA #158 (2016-06-10) · [rulings](https://api.scryfall.com/cards/b99ff81f-08d9-4b4a-a879-de5e5e402802/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2016-06-08* — Argothian Enchantress’s last ability will resolve before the spell that caused it to trigger.
+  - *2016-06-08* — Enchantments put onto the battlefield without being cast won’t cause Argothian Enchantress’s last ability to trigger.
+  - *2016-06-08* — If the enchantment spell is countered, Argothian Enchantress’s last ability still resolves and causes you to draw a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ema/158/argothian-enchantress) · oracle_id `11f17f85-ca97-4551-838f-7cb32f0e5f10` · printing: EMA #158 (2016-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Argothian Opportunist
 
@@ -289,7 +302,21 @@
   > (Melds with Titania, Voice of Gaea.)
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3813 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/256/argoth-sanctum-of-nature) · oracle_id `62648946-1708-48f4-ba40-c057563ab11b` · printing: BRO #256 (2022-11-18) · [rulings](https://api.scryfall.com/cards/b29c9e4f-7b98-4610-a681-ae6297e8fc72/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2022-10-14* — A player prompted to name a card may name the combined back face, and each player has the right to know that combined back face's characteristics at all times.
+  - *2022-10-14* — If an effect moves a melded permanent to a new zone and then affects "that card," it affects both cards.
+  - *2022-10-14* — In the Commander variant, a meld card's color identity is determined only by the mana costs and mana symbols in the rules text of its front face. No symbols or rules text of the permanent it melds into are considered.
+  - *2022-10-14* — Note that the permanent represented by the combined back faces has a color indicator.
+  - *2022-10-14* — One card in each pair of meld cards has an ability that instructs you to exile the two cards and meld them. If you control more than one object with one of those names, you select one object with that name to exile.
+  - *2022-10-14* — Only two cards belonging to the same meld pair can be melded. Tokens, cards that aren't meld cards, or meld cards that don't form a meld pair can't be melded. If an effect instructs a player to meld cards that can't be melded, those cards remain in exile.
+  - *2022-10-14* — The mana value of a melded permanent is the sum of the mana values of its front faces. A creature that becomes a copy of a melded permanent has only the characteristics of that combined back face, and its mana value is 0.
+  - *2022-10-14* — Titania, Gaea Incarnate's last ability doesn't have a duration, which means that the land remains a creature indefinitely.
+  - *2022-10-14* — When a pair of cards are melded, the result is a single creature that's represented by two cards. If the melded creature dies, both cards are put into your graveyard. As it leaves the battlefield, both of those cards are turned face up again. If the cards are put on the top or bottom of your library, you choose their relative order.
+  - *2022-10-14* — When two cards are exiled and melded, they each leave the battlefield, then return together as one new object with no relation to either of the objects that left the battlefield. Counters, Auras, Equipment, and other effects that affected those two cards don't affect the melded permanent.
+  - *2022-10-14* — While a meld card is in any zone other than the battlefield, it has only the characteristics of its front face. The same is true while it's on the battlefield with its front face up.
+  - *2022-10-14* — While a melded permanent is on the battlefield, it has only the characteristics of its combined back face. Any effects that modify how the new object enters the battlefield will consider only the combined back face.
+  - *2022-10-14* — You can activate the ability multiple times targeting the same land to add more counters.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/256/argoth-sanctum-of-nature) · oracle_id `62648946-1708-48f4-ba40-c057563ab11b` · printing: BRO #256 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arguel's Blood Fast // Temple of Aclazotz
 
@@ -307,4 +334,9 @@
   > *. . . to the lost temple of a bat-god of night, eternal enemy to the Threefold Sun.*
 - **Keywords:** Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8510 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/xln/90/arguels-blood-fast-temple-of-aclazotz) · oracle_id `be2a4bc4-8af6-48c5-9421-32d26272e71a` · printing: XLN #90 (2017-09-29) · [rulings](https://api.scryfall.com/cards/c4ac7570-e74e-4081-ac53-cf41e695b7eb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2017-09-29* — For the last ability of Temple of Aclazotz, use the creature's toughness as it last existed on the battlefield to determine how much life you gain.
+  - *2017-09-29* — If your life total is 6 or greater as the second ability of Arguel's Blood Fast tries to resolve, it won't do anything.
+  - *2017-09-29* — If your life total is 6 or greater as your upkeep begins, the second ability of Arguel's Blood Fast won't trigger. You can't take any actions during your turn before your upkeep begins.
+  - *2017-09-29* — Once you've announced the last ability of Temple of Aclazotz, it's too late for anyone to interrupt you by trying to remove the creature you sacrifice.
+- **Source flags:** [Scryfall](https://scryfall.com/card/xln/90/arguels-blood-fast-temple-of-aclazotz) · oracle_id `be2a4bc4-8af6-48c5-9421-32d26272e71a` · printing: XLN #90 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

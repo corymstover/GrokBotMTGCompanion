@@ -29,7 +29,10 @@
   > {X}{U/B}: Choose a color. Target opponent exiles the top X cards of their library. For each card of the chosen color exiled this way, create a 1/1 blue and black Faerie Rogue creature token with flying.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5165 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/znc/98/oona-queen-of-the-fae) · oracle_id `6052822d-47a2-4d69-a32d-40cdd600d7a9` · printing: ZNC #98 (2020-09-25) · [rulings](https://api.scryfall.com/cards/fbea42c8-6e9f-499d-9d26-401536afd5c2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-05-01* — The tokens enter under your control.
+  - *2008-05-01* — You target the opponent when you activate Oona's ability. You don't choose the color until the ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znc/98/oona-queen-of-the-fae) · oracle_id `6052822d-47a2-4d69-a32d-40cdd600d7a9` · printing: ZNC #98 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oona's Blackguard
 
@@ -42,7 +45,12 @@
   > Whenever a creature you control with a +1/+1 counter on it deals combat damage to a player, that player discards a card.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5803 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znc/51/oonas-blackguard) · oracle_id `b72cedc2-73b3-4e7f-8b58-8db532a69f6e` · printing: ZNC #51 (2020-09-25) · [rulings](https://api.scryfall.com/cards/4677d5d1-de04-4631-8fcf-5ff754d701b1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2008-04-01* — If Oona's Blackguard enters at the same time as another Rogue (due to Living End, for example), that creature doesn't get a +1/+1 counter.
+  - *2008-04-01* — If a Rogue would normally enter with a certain number of +1/+1 counters on it, it enters with that many +1/+1 counters plus one on it instead. If a Rogue would normally enter with no +1/+1 counters on it, it enters with one +1/+1 counter on it instead.
+  - *2008-04-01* — The creature gets the counter if it would enter under your control. It doesn't matter who owns the creature or what zone it enters from (such as your opponent's graveyard, for example).
+  - *2008-04-01* — The effects from more than one of these cards are cumulative. That is, if you have two Oona's Blackguard on the battlefield, Rogue creatures you control enter with two additional +1/+1 counters on them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znc/51/oonas-blackguard) · oracle_id `b72cedc2-73b3-4e7f-8b58-8db532a69f6e` · printing: ZNC #51 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oona's Gatewarden
 

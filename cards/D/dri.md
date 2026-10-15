@@ -42,6 +42,7 @@
   > *Though their forms embody Lolth's image, driders are those unfortunate drow who have failed the Spider Queen.*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9226 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/98/drider) · oracle_id `1db76752-31ed-4a16-986a-d0852ba7d812` · printing: AFR #98 (2021-07-23) · [rulings](https://api.scryfall.com/cards/bbc06a88-1eb6-4edb-8f03-d8274560cc41/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drifter il-Dal
@@ -93,6 +94,7 @@
   > Cycling {2} ({2}, Discard this card: Draw a card.)
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4959 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/245/drifting-meadow) · oracle_id `c6eb2814-0021-4308-ad44-6c8cc59b0d1c` · printing: DMR #245 (2023-01-13) · [rulings](https://api.scryfall.com/cards/8cb024fa-2df1-4414-b0d7-6f700d152c51/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drifting Shade
@@ -120,6 +122,7 @@
   > Transmute {1}{U}{U} ({1}{U}{U}, Discard this card: Search your library for a card with the same mana value as this card, reveal it, put it into your hand, then shuffle. Transmute only as a sorcery.)
 - **Keywords:** Flying, Defender, Transmute
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2867 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/42/drift-of-phantasms) · oracle_id `6ee51134-c4ad-4101-8ce2-23dde9359cd4` · printing: RVR #42 (2024-01-12) · [rulings](https://api.scryfall.com/cards/d722c22d-3cab-48b5-96cd-0874060ac9a4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drift of the Dead
@@ -269,7 +272,17 @@
   > If a creature dying causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.
   > {B/P}{B/P}, Exile three creature cards from your graveyard: Put an indestructible counter on Drivnod. ({B/P} can be paid with either {B} or 2 life.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1892 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/90/drivnod-carnage-dominus) · oracle_id `51780f71-bf60-4208-94ea-76fa84790fb6` · printing: ONE #90 (2023-02-10) · [rulings](https://api.scryfall.com/cards/6bc26bca-c4d8-4e8b-a96a-9529fc2daed7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2023-02-04* — An ability that triggers on an event that causes a creature to die doesn't trigger twice. For example, an ability that triggers "whenever you sacrifice a creature" triggers only once.
+  - *2023-02-04* — An ability that triggers when a creature "leaves the battlefield" will trigger twice if that creature leaves the battlefield by dying.
+  - *2023-02-04* — Drivnod affects a creature's own "when this creature dies" triggered abilities as well as other triggered abilities that trigger when that creature dies. Such triggered abilities start with "when" or "whenever."
+  - *2023-02-04* — Drivnod's effect doesn't copy the triggered ability; it just causes the ability to trigger twice. Any choices made as you put the ability onto the stack, such as modes and targets, are made separately for each instance of the ability. Any choices made on resolution, such as whether to pay a cost for that triggered ability, are also made separately.
+  - *2023-02-04* — If a creature dying at the same time as Drivnod (including Drivnod itself dying) causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.
+  - *2023-02-04* — If a creature dying at the same time that another permanent you control leaves the battlefield causes a triggered ability of that permanent to trigger, that ability triggers an additional time.
+  - *2023-02-04* — If you somehow control two Drivnods, a creature dying causes abilities to trigger three times, not four. A third Drivnod causes abilities to trigger four times, a fourth causes abilities to trigger five times, and so on. This also means that if you control Drivnod and cast a second one, an ability that triggers when it dies due to the "legend rule" triggers three times.
+  - *2023-02-04* — Look at each creature as it exists on the battlefield, taking into account continuous effects, to determine whether any triggered abilities will trigger multiple times. For example, if a land that has become a creature dies, an ability that triggers when it dies triggers twice.
+  - *2023-02-04* — The trigger event doesn't have to specifically refer to "creatures." In these cases, the trigger event may also refer to something being "put into a graveyard from the battlefield." For example, an ability that triggers "whenever an artifact is put into a graveyard from the battlefield" would trigger twice if an artifact creature dies while Drivnod, Carnage Dominus is on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/90/drivnod-carnage-dominus) · oracle_id `51780f71-bf60-4208-94ea-76fa84790fb6` · printing: ONE #90 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drix Fatemaker
 
@@ -282,6 +295,7 @@
   > Warp {1}{G} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)
 - **Keywords:** Warp
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8386 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/178/drix-fatemaker) · oracle_id `583102f8-7232-4fbb-a715-087448536bb2` · printing: EOE #178 (2025-08-01) · [rulings](https://api.scryfall.com/cards/1beb7566-305e-4091-bdc4-cf4c789ac05a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drizzt Do'Urden

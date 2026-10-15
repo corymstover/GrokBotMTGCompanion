@@ -27,7 +27,14 @@
   > Magecraft — Whenever you cast or copy an instant or sorcery spell, create a 1/1 black and green Pest creature token with "When this token dies, you gain 1 life."
 - **Keywords:** Magecraft, Menace, Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2355 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/stx/86/sedgemoor-witch) · oracle_id `25dce517-ac0a-4577-89ed-04296c7c4069` · printing: STX #86 (2021-04-23) · [rulings](https://api.scryfall.com/cards/e900c1eb-968b-4046-b824-c167a7a5b682/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-04-16* — Each magecraft ability has a different effect, although they all have the same trigger condition, whenever you cast or copy an instant or sorcery spell.
+  - *2021-04-16* — For example, if you control Archmage Emeritus and cast an instant or sorcery spell, Archmage Emeritus's magecraft ability will trigger and you will draw a card.
+  - *2021-04-16* — If a player casts a spell that targets multiple permanents their opponent controls with ward, each of those ward abilities will trigger. If that player doesn't pay for all of them, the spell will be countered.
+  - *2021-04-16* — If an effect creates a copy of an instant or sorcery spell, this will also cause the magecraft ability to trigger.
+  - *2021-04-16* — If an effect creates multiple copies of an instant or sorcery spell, magecraft abilities trigger once for each copy created by the effect.
+  - *2021-04-16* — Some effects instruct you to copy an instant or sorcery card in a zone other than the stack. These copies do not cause magecraft abilities to trigger. However, most effects that do this also allow you to cast the copy, and casting the copy will cause magecraft abilities to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/stx/86/sedgemoor-witch) · oracle_id `25dce517-ac0a-4577-89ed-04296c7c4069` · printing: STX #86 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sedge Scorpion
 
@@ -44,6 +51,7 @@
   > *—Inscription on an Akroan grave*
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9135 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m20/192/sedge-scorpion) · oracle_id `fbadf7a3-0d54-40fe-a763-f641dd448e56` · printing: M20 #192 (2019-07-12) · [rulings](https://api.scryfall.com/cards/9864f811-db2e-4d6d-ad59-a491a790bdd4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sedge Sliver

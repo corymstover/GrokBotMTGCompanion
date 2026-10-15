@@ -51,7 +51,14 @@
   > {3}{R}: Dragons you control get +2/+0 until end of turn.
 - **Keywords:** Flying, Firebending
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8467 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/150/ran-and-shaw) · oracle_id `a728685f-8670-4db2-ae02-3cf74eb3c402` · printing: TLA #150 (2025-11-21) · [rulings](https://api.scryfall.com/cards/6436e2d0-989f-47e3-90bc-9cde82a2ddb4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-10-02* — "Firebending N" is a keyword that represents the ability "Whenever this creature attacks, add N {R}. Until end of combat, you don't lose this mana as steps end."
+  - *2025-10-02* — Any other mana you add during combat will still be lost as normal when moving between steps of combat.
+  - *2025-10-02* — Except for the legendary supertype, the token copies only what is printed on Ran and Shaw unless Ran and Shaw are being modified by another copy effect. It doesn't copy whether Ran and Shaw are tapped or untapped, whether they have any counters on them or Auras or Equipment attached to them, or any non-copy effects that have changed their power, toughness, types, color, or so on.
+  - *2025-10-02* — Firebending abilities aren't mana abilities. They use the stack and can be responded to.
+  - *2025-10-02* — Mana from firebending abilities isn't lost until you leave combat and go to your second main phase. It can be used at any time during combat, even after combat damage has been dealt.
+  - *2025-10-02* — Multiple instances of firebending on the same creature trigger separately, each granting you the appropriate amount of mana.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/150/ran-and-shaw) · oracle_id `a728685f-8670-4db2-ae02-3cf74eb3c402` · printing: TLA #150 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ranar the Ever-Watchful
 
@@ -89,7 +96,10 @@
   > *"They're in the walls! Can't you hear them?"*
 - **Keywords:** Skulk, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9146 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soi/130/rancid-rats) · oracle_id `e3552730-fe09-443f-b432-9640b69c7bbb` · printing: SOI #130 (2016-04-08) · [rulings](https://api.scryfall.com/cards/336e0a75-8104-4e88-aad0-af7ac3efc115/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2016-04-08* — If you cause a creature to have 0 power or less, use the actual value (which may be negative) to determine whether it can block or be blocked. A creature with skulk and 0 or less power most likely won’t be blocked, but it won’t deal combat damage and won’t trigger any abilities that trigger when combat damage is dealt.
+  - *2016-04-08* — Skulk matters only as blockers are chosen. Modifying either creature’s power after blockers are chosen won’t cause the attacking creature to become unblocked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soi/130/rancid-rats) · oracle_id `e3552730-fe09-443f-b432-9640b69c7bbb` · printing: SOI #130 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rancor
 
@@ -103,7 +113,9 @@
   > *Hatred outlives the hateful.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #853 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/156/rancor) · oracle_id `9d2d6479-531c-4ce1-b52b-00e36fa63b64` · printing: 2X2 #156 (2022-07-08) · [rulings](https://api.scryfall.com/cards/86d6b411-4a31-4bfc-8dd6-e19f553bb29b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-03-16* — If the creature this Aura would enchant is an illegal target by the time Rancor tries to resolve, the Aura spell doesn't resolve. It won't enter the battlefield, so it won't be put into a graveyard from the battlefield and its ability won't trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/156/rancor) · oracle_id `9d2d6479-531c-4ce1-b52b-00e36fa63b64` · printing: 2X2 #156 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rancorous Archaic
 
@@ -157,7 +169,20 @@
   > You may look at the top card of your library any time.
   > You may cast creature spells from the top of your library.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7581 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/202/ranger-class) · oracle_id `d1586808-efc2-469a-8384-ba4acf231e69` · printing: AFR #202 (2021-07-23) · [rulings](https://api.scryfall.com/cards/7ca392ca-3219-4694-9a74-aa079c76b91e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2021-07-23* — Each Class has five abilities. The three in the major sections of its text box are class abilities. Class abilities can be static, activated, or triggered abilities. The other two are level abilities, one activated ability to advance the Class to level 2 and another to advance the Class to level 3.
+  - *2021-07-23* — Each Class starts with only the first of three class abilities. As the first level ability resolves, the Class becomes level 2 and gains the second class ability. As the second level ability resolves, the Class becomes level 3 and gains the third class ability.
+  - *2021-07-23* — Gaining a level is a normal activated ability. It uses the stack and can be responded to.
+  - *2021-07-23* — Gaining a level won't remove abilities that a Class had at a previous level.
+  - *2021-07-23* — If Ranger Class is level 3, you can look at the top card of your library whenever you want (with one restriction; see below), even if you don't have priority. This action doesn't use the stack. Knowing what that card is becomes part of the information you have access to, just like you can look at the cards in your hand.
+  - *2021-07-23* — If the top card of your library changes while you're casting a spell, playing a land, or activating an ability, you can't look at the new top card until you finish doing so. This means that if you cast a spell from the top of your library, you can't look at the next one until you're done paying for that spell.
+  - *2021-07-23* — Ranger Class doesn't change when you can cast creature spells. Normally, this means during your main phase when the stack is empty, although flash may change this.
+  - *2021-07-23* — Some Class cards have an effect that increases when more are under your control. For example, if you have multiple Barbarian Class cards, you roll that many additional dice and ignore that many of the lowest rolls.
+  - *2021-07-23* — The triggered ability Ranger Class gets at level 2 can trigger only once per combat, no matter how many creatures you attack with.
+  - *2021-07-23* — You can multiclass or even control multiple Class enchantments of the same class. Each Class permanent tracks its own level separately.
+  - *2021-07-23* — You can't activate the first level ability of a Class unless that Class is level 1. Similarly, you can't activate the second level ability of a Class unless that Class is level 2.
+  - *2021-07-23* — You'll still pay all costs for the spell, including additional costs. You may also pay alternative costs if any are available.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/202/ranger-class) · oracle_id `d1586808-efc2-469a-8384-ba4acf231e69` · printing: AFR #202 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ranger en-Vec
 
@@ -184,7 +209,9 @@
 - **Flavor text** (MM3 printing):
   > *At his side, humble beasts become weapons more deadly than sharpened steel.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8980 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mm3/19/ranger-of-eos) · oracle_id `b9c8b929-f3ee-457f-9cbc-9de18eb69dc5` · printing: MM3 #19 (2017-03-17) · [rulings](https://api.scryfall.com/cards/7c3ba78b-c66a-4a93-abc6-18b63779eda3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-03-14* — You may choose to find zero, one, or two creature cards in your library. Each card you find must have mana value 1 or less.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mm3/19/ranger-of-eos) · oracle_id `b9c8b929-f3ee-457f-9cbc-9de18eb69dc5` · printing: MM3 #19 (2017-03-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rangers' Aetherhive
 
@@ -221,6 +248,7 @@
   > *"You don't survive in the wild by standing in plain sight."*
   > *—Garruk Wildspeaker*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6868 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m21/199/rangers-guile) · oracle_id `694cb93a-bcc5-44b0-a76c-19ae4a4e5e0f` · printing: M21 #199 (2020-07-03) · [rulings](https://api.scryfall.com/cards/02392840-f0c4-462e-84ce-9a7cdd9f5efb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ranger's Hawk
@@ -273,6 +301,7 @@
 - **Flavor text** (M13 printing):
   > *The forest can seem like a dense maze. Those who travel the canopy know otherwise.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5210 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m13/186/rangers-path) · oracle_id `259a023a-de55-4bab-9e24-01aebcf716eb` · printing: M13 #186 (2012-07-13) · [rulings](https://api.scryfall.com/cards/26858a53-1054-407a-b2a2-34a7c4ae0f10/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rangers' Refueler
@@ -299,7 +328,10 @@
   > *They cover their territory like a tide of teeth and claws.*
 - **Keywords:** Enrage
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3067 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/249/ranging-raptors) · oracle_id `2a86b70b-34ca-45df-8aa1-c3fb2da72dc3` · printing: LCC #249 (2023-11-17) · [rulings](https://api.scryfall.com/cards/7d4f04bc-30ee-4948-9905-774f532ac811/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-01-19* — If lethal damage is dealt to a creature with an enrage ability, that ability triggers. The creature with that enrage ability leaves the battlefield before that ability resolves, so it won't be affected by the resolving ability.
+  - *2018-01-19* — If multiple sources deal damage to a creature with an enrage ability at the same time, most likely because multiple creatures blocked that creature, the enrage ability triggers only once.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/249/ranging-raptors) · oracle_id `2a86b70b-34ca-45df-8aa1-c3fb2da72dc3` · printing: LCC #249 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rank and File
 
@@ -326,7 +358,12 @@
   > • If a source would deal damage to a player or battle this turn, it deals that much damage plus 2 instead.
 - **Keywords:** Flying, First strike, Treasure, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9694 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/252/rankle-and-torbran) · oracle_id `80d918b2-3a28-49ad-a485-496658bd7ac3` · printing: MOM #252 (2023-04-21) · [rulings](https://api.scryfall.com/cards/d92c191e-329c-41f5-ae4f-1bb91fc001a0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2023-04-14* — If another effect modifies how much damage a source would deal, including preventing some of it, the player being dealt damage or the controller of the permanent being dealt damage chooses an order in which to apply those effects. If all of the damage is prevented, Rankle and Torbran’s effect no longer applies.
+  - *2023-04-14* — The additional 2 damage is dealt by the same source as the original source of damage. The damage isn’t dealt by Rankle and Torbran unless Rankle and Torbran is the original source of damage.
+  - *2023-04-14* — To resolve the second mode, starting with you (or, in unusual cases, the player whose turn it is if not you) and proceeding in turn order, each player chooses a creature they control to sacrifice. Then those creatures are sacrificed at the same time.
+  - *2023-04-14* — You may choose none of the modes, some of them, or all of them. Any modes chosen will happen in order.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/252/rankle-and-torbran) · oracle_id `80d918b2-3a28-49ad-a485-496658bd7ac3` · printing: MOM #252 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rankle, Master of Pranks
 
@@ -341,7 +378,15 @@
   > • Each player sacrifices a creature of their choice.
 - **Keywords:** Flying, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1411 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/148/rankle-master-of-pranks) · oracle_id `b8619990-9dc2-4fcc-bc7e-457b77cd2a8e` · printing: OTC #148 (2024-04-19) · [rulings](https://api.scryfall.com/cards/4821d865-2a46-4611-ab93-1a9fdde08302/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2019-10-04* — As the first mode is performed, first the player whose turn it is chooses a card in hand without revealing it, then each other player in turn order does the same. Then all the chosen cards are discarded at the same time.
+  - *2019-10-04* — As the third mode is performed, first the player whose turn it chooses a creature they control, then each other player in turn order does the same, knowing the choices made before them. Then all the chosen creatures are sacrificed at the same time.
+  - *2019-10-04* — For each chosen mode, perform that mode in its entirety before continuing on to the next chosen mode in the order printed.
+  - *2019-10-04* — If you really want, you can choose zero modes for Rankle's triggered ability, but carefully consider the hidden costs in not entertaining someone titled Master of Pranks.
+  - *2019-10-04* — In a Two-Headed Giant game, Rankle's second mode causes each team to lose 1 life twice.
+  - *2019-10-04* — You can choose a mode even if some or all players will be unaffected.
+  - *2019-10-04* — You can't choose a mode more than once.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/148/rankle-master-of-pranks) · oracle_id `b8619990-9dc2-4fcc-bc7e-457b77cd2a8e` · printing: OTC #148 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rankle, Master of Pranksters
 
@@ -370,7 +415,11 @@
 - **Flavor text** (WOE printing):
   > *The louder they scream, the harder he laughs.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6824 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/102/rankles-prank) · oracle_id `052e8e1c-d006-4c9f-90da-deafbbf7fed3` · printing: WOE #102 (2023-09-08) · [rulings](https://api.scryfall.com/cards/e8a9bdcf-160a-48c9-9750-778c910b805d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-09-01* — As the first mode is performed, first the player whose turn it is chooses two cards in hand without revealing them, then each other player in turn order does the same. Then the chosen cards are discarded at the same time.
+  - *2023-09-01* — As the third mode is performed, first the player whose turn it is chooses two creatures they control, then each other player in turn order does the same, knowing the choices made before them. Then all the chosen creatures are sacrificed at the same time.
+  - *2023-09-01* — You can choose a mode even if some or all players will be entirely or partially unaffected.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/102/rankles-prank) · oracle_id `052e8e1c-d006-4c9f-90da-deafbbf7fed3` · printing: WOE #102 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rank Officer
 

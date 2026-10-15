@@ -87,7 +87,13 @@
 - **Flavor text** (CLB printing):
   > *Leave no treasure behind.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4041 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/299/bag-of-holding) · oracle_id `63c04040-e109-494e-baa6-c639a6c9a996` · printing: CLB #299 (2022-06-10) · [rulings](https://api.scryfall.com/cards/290f4b4f-4f48-4031-b62a-91a0d6716ddd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2019-07-12* — If Bag of Holding is moved to exile when you sacrifice it (most likely due to Leyline of the Void's effect), it remains in exile. It won't be returned to your hand.
+  - *2019-07-12* — If Bag of Holding leaves the battlefield, the items it contained are exiled forever (and, perhaps, scattered throughout the Astral Plane). If the same Bag of Holding card returns to the battlefield, it's considered a new object without access to the cards stored by the old object.
+  - *2019-07-12* — If you control more than one Bag of Holding, you choose which one will hold the discarded card. Other Bags of Holding can't return that card.
+  - *2019-07-12* — If you discard a card but that card is not in your graveyard as Bag of Holding's first ability resolves, that card remains wherever it has moved.
+  - *2019-07-12* — You both draw and discard while Bag of Holding's second ability is resolving. No player may take any action—nor can anything else happen—until you've both drawn and discarded.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/299/bag-of-holding) · oracle_id `63c04040-e109-494e-baa6-c639a6c9a996` · printing: CLB #299 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bag of Stroopwafels
 

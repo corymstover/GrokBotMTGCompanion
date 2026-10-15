@@ -59,7 +59,9 @@
   > *To activate nodes, you must use spheres.*
 - **Keywords:** Unlock Ability
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1248 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/70/sphere-grid) · oracle_id `f4770345-f15e-4e31-b6ef-4c2608df9644` · printing: FIC #70 (2025-06-13) · [rulings](https://api.scryfall.com/cards/51188b1d-cb45-40f7-a3c2-5652b0679e02/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-06-06* — Once a creature that has reach because of Sphere Grid's last ability has blocked a creature, removing all +1/+1 counters from that creature or causing Sphere Grid to leave the battlefield won't cause that creature to stop blocking.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/70/sphere-grid) · oracle_id `f4770345-f15e-4e31-b6ef-4c2608df9644` · printing: FIC #70 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sphere of Annihilation
 
@@ -135,7 +137,9 @@
 - **Flavor text** (VMA printing):
   > *A sphere pushes equally in all directions.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8484 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/vma/284/sphere-of-resistance) · oracle_id `09c96077-3804-4f12-a613-5bebc5e0413f` · printing: VMA #284 (2014-06-16) · [rulings](https://api.scryfall.com/cards/9ea2ae1d-91b4-44a0-b2e6-61839d8f4468/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — It affects all players, including you.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vma/284/sphere-of-resistance) · oracle_id `09c96077-3804-4f12-a613-5bebc5e0413f` · printing: VMA #284 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sphere of Safety
 
@@ -232,6 +236,7 @@
   > *"I would be a fool if I taught you everything I know."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8965 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gn2/2/sphinx-of-enlightenment) · oracle_id `e6284fb3-7cf8-4730-b156-10085b70b0e8` · printing: GN2 #2 (2019-11-15) · [rulings](https://api.scryfall.com/cards/0faa9eea-fbf1-41f7-9def-1ec3d5134a53/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sphinx of False Conclusions
@@ -261,7 +266,10 @@
   > *"I do not understand the future I see: the guilds subverted, the world at war, armies bent to a cruel conqueror's will."*
 - **Keywords:** Scry, Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9038 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rna/55/sphinx-of-foresight) · oracle_id `d1108bd1-87b2-4795-9690-54ff4504e04f` · printing: RNA #55 (2019-01-25) · [rulings](https://api.scryfall.com/cards/cf2386fd-edc0-4731-8f4e-7a7c45548bf3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-01-25* — If you reveal two Sphinxes of Foresight from your opening hand, you'll scry 3 twice; you won't scry 6. Any cards you put on top of your library the first time you scry 3 will be part of the second time you scry 3.
+  - *2021-03-19* — A player's "opening hand" is the hand of cards the player has after all players have taken mulligans. If players have any cards in hand that allow actions to be taken with them from a player's opening hand, the starting player takes all such actions first in any order, followed by each other player in turn order. Then the first turn begins.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rna/55/sphinx-of-foresight) · oracle_id `d1108bd1-87b2-4795-9690-54ff4504e04f` · printing: RNA #55 (2019-01-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sphinx of Forgotten Lore
 
@@ -274,7 +282,14 @@
   > Whenever this creature attacks, target instant or sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to that card's mana cost. (You may cast that card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flying, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7867 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/51/sphinx-of-forgotten-lore) · oracle_id `ddb7e868-8f1d-4d57-9ee2-ebadb17b398a` · printing: FDN #51 (2024-11-15) · [rulings](https://api.scryfall.com/cards/af6e46b8-62ed-4bca-ba38-a821f225b59f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2024-11-08* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2024-11-08* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2024-11-08* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2024-11-08* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2024-11-08* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/51/sphinx-of-forgotten-lore) · oracle_id `ddb7e868-8f1d-4d57-9ee2-ebadb17b398a` · printing: FDN #51 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sphinx of Jwar Isle
 
@@ -356,7 +371,9 @@
   > Instant and sorcery spells you control can't be countered.
 - **Keywords:** Flying, Hexproof
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8791 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/747/sphinx-of-the-final-word) · oracle_id `d4246e4d-390d-4925-a5a8-89cd096a237c` · printing: FDN #747 (2026-04-24) · [rulings](https://api.scryfall.com/cards/6071239e-0b85-4c54-bef8-d9456eb8d8fc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-11-08* — A spell or ability that counters spells can still target Sphinx of the Final Word or any other spell that can't be countered. When that spell or ability resolves, the spell won't be countered, but any additional effects of the countering spell or ability will still happen.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/747/sphinx-of-the-final-word) · oracle_id `d4246e4d-390d-4925-a5a8-89cd096a237c` · printing: FDN #747 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sphinx of the Guildpact
 
@@ -384,7 +401,18 @@
   > *Crafted from absolute law. Enforcer of absolute order.*
 - **Keywords:** Flying, Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5644 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m3c/75/sphinx-of-the-revelation) · oracle_id `9b8f6c6a-49a1-4061-a2c4-5be612e138fa` · printing: M3C #75 (2024-06-14) · [rulings](https://api.scryfall.com/cards/cde649e6-1582-4f77-8cff-dcc477140d67/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2024-06-07* — Each creature with lifelink dealing combat damage causes a separate life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, Sphinx of the Revelation's triggered ability will trigger twice. This may be relevant if you control a permanent with an ability that triggers "Whenever you get one or more {E}."
+  - *2024-06-07* — Energy counters are a kind of counter that a player may have. They're not associated with any specific permanents.
+  - *2024-06-07* — Energy counters aren't mana. They don't go away as steps, phases, and turns end, and effects that add mana "of any type" can't give you energy counters.
+  - *2024-06-07* — If a spell or ability with one or more targets states that you "may pay" some amount of {E}, and each permanent that it targets has become an illegal target, the spell or ability won't resolve. You can't pay any {E} even if you want to.
+  - *2024-06-07* — If an effect says you get one or more {E}, you get that many energy counters. To pay one or more {E}, you lose that many energy counters. You can't pay more energy counters than you have. Any effects that interact with counters a player gets, has, or loses can interact with energy counters.
+  - *2024-06-07* — Keep track of how many energy counters each player has. Potential ways to track this include writing theme down on paper or using dice, but any method that is clear and mutually agreeable is fine. (At higher levels of tournament play, dice may not be allowed for tracking counters that players have.)
+  - *2024-06-07* — Some spells and abilities that give you {E} may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't get any {E}.
+  - *2024-06-07* — Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
+  - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
+  - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m3c/75/sphinx-of-the-revelation) · oracle_id `9b8f6c6a-49a1-4061-a2c4-5be612e138fa` · printing: M3C #75 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sphinx of the Second Sun
 
@@ -398,7 +426,14 @@
   > *He watches in silence as the shadows shift, bringing Amonkhet ever nearer to the Hour of Revelation.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2311 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/118/sphinx-of-the-second-sun) · oracle_id `516101be-be39-4d84-8fee-d8a79930dd0a` · printing: MKC #118 (2024-02-09) · [rulings](https://api.scryfall.com/cards/be2d74cd-76fb-4bca-99b5-07749aef4d06/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2020-11-10* — After the additional beginning phase, the game proceeds to the ending phase (unless something has added even more phases; see below.)
+  - *2020-11-10* — Even if you don't attack with any creatures during combat, you'll still get a postcombat main phase and Sphinx of the Second Sun's ability will still trigger.
+  - *2020-11-10* — If multiple phases are added to the same point in your turn, the most recently created phase happens first. For example, say you control Sphinx of the Second Sun and its ability triggers during your postcombat main phase. Later during that same main phase, another effect gives you an additional combat phase after this main phase. The additional combat will happen first, followed by the additional beginning phase.
+  - *2020-11-10* — If you somehow have more than two main phases in a turn, each main phase other than the first one is a postcombat main phase, and Sphinx of the Second Sun's ability triggers at the beginning of each of them.
+  - *2020-11-10* — The additional beginning phase all happens during the current turn. Any effects that last "until your next turn" or similar won't expire just because you'll go through an additional beginning phase.
+  - *2020-11-10* — The additional beginning phase will be a lot like your normal beginning phase. During the untap step, permanents will phase in or out as appropriate and you'll untap your tapped permanents. Anything that triggers "at the beginning of your upkeep" or similar will trigger during the upkeep step, and you'll eventually draw a card for your draw step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/118/sphinx-of-the-second-sun) · oracle_id `516101be-be39-4d84-8fee-d8a79930dd0a` · printing: MKC #118 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sphinx of the Steel Wind
 
@@ -423,7 +458,11 @@
   > When this creature enters, reveal the top five cards of your library. An opponent separates those cards into two piles. Put one pile into your hand and the other into your graveyard.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9747 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/406/sphinx-of-uthuun) · oracle_id `4b4f268d-34ae-416d-a412-66f4fe37659c` · printing: CMR #406 (2020-11-20) · [rulings](https://api.scryfall.com/cards/5bd5cd33-20e2-4063-b422-2bde13021888/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2017-11-17* — A pile can have no cards in it. In this case, you'll choose whether to put all the revealed cards into your hand or into your graveyard.
+  - *2017-11-17* — In multiplayer games, you choose an opponent to separate the cards when the ability resolves. This doesn't target that opponent. Because the cards are revealed, all players may see the cards and offer opinions.
+  - *2017-11-17* — You (not your opponent) choose which pile to put into your hand and which to put into your graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/406/sphinx-of-uthuun) · oracle_id `4b4f268d-34ae-416d-a412-66f4fe37659c` · printing: CMR #406 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sphinx's Approach
 
@@ -509,7 +548,9 @@
 - **Flavor text** (PLST printing):
   > *"Let the knowledge of absolute law inspire you to live a life of absolute order."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3374 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/plst/RVR-228/sphinxs-revelation) · oracle_id `71d83fca-e40e-4d0e-956d-d0d6da9cc472` · printing: PLST #RVR-228 (2024-12-02) · [rulings](https://api.scryfall.com/cards/6350b216-4a11-4e33-89ac-ffaf6315ab7d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2012-10-01* — If the value chosen for X is larger than the number of cards left in your library, you'll lose the game the next time state-based actions are performed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/plst/RVR-228/sphinxs-revelation) · oracle_id `71d83fca-e40e-4d0e-956d-d0d6da9cc472` · printing: PLST #RVR-228 (2024-12-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sphinx's Tutelage
 
@@ -522,7 +563,10 @@
   > *"You've never considered the implications of dealing with another telepath, Jace."*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3615 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ori/76/sphinxs-tutelage) · oracle_id `158db438-52ba-4c30-b7bf-d1c4f76da917` · printing: ORI #76 (2015-07-17) · [rulings](https://api.scryfall.com/cards/4d90c3b0-f958-4a15-94a1-9bf1b0a9ac2a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2015-06-22* — Colorless is not a color, so putting two colorless cards into a graveyard won’t cause the process to repeat.
+  - *2015-06-22* — The process will keep repeating as long as both cards share a color and neither is a land card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ori/76/sphinxs-tutelage) · oracle_id `158db438-52ba-4c30-b7bf-d1c4f76da917` · printing: ORI #76 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sphinx Summoner
 

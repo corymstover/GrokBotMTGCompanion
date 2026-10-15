@@ -177,7 +177,10 @@
 - **Flavor text** (CMM printing):
   > *Mogglings have been known to play ball with hibernating slivers, completely unaware of their true nature.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5475 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/925/hibernation-sliver) · oracle_id `edb8a6d6-9e25-4048-a842-e854eece42c2` · printing: CMM #925 (2023-08-04) · [rulings](https://api.scryfall.com/cards/1e224cfb-5bc1-490c-ab1e-f5405dc2fa0b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-07-01* — Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn’t provide any additional benefit.
+  - *2013-07-01* — If the creature type of a Sliver changes so it’s no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/925/hibernation-sliver) · oracle_id `edb8a6d6-9e25-4048-a842-e854eece42c2` · printing: CMM #925 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hickory Woodlot
 
@@ -187,6 +190,7 @@
   > This land enters tapped with two depletion counters on it.
   > {T}, Remove a depletion counter from this land: Add {G}{G}. If there are no depletion counters on this land, sacrifice it.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6239 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/319/hickory-woodlot) · oracle_id `26259c65-8f4e-42a6-b8a7-f65c36d35c4d` · printing: MMQ #319 (1999-10-04) · [rulings](https://api.scryfall.com/cards/af7aafb7-6870-4d09-a191-70786766c459/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hidden Ancients
@@ -211,6 +215,7 @@
   > Equip {2}
 - **Keywords:** Equip, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6201 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/acr/73/hidden-blade) · oracle_id `37ec9b95-8c9a-4dd5-9ff2-3d6527984126` · printing: ACR #73 (2024-07-05) · [rulings](https://api.scryfall.com/cards/a07a488f-cb64-4f4c-9c2e-6cdb5d563f13/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hidden Cataract
@@ -223,7 +228,17 @@
   > {4}{U}, {T}, Sacrifice this land: Discover 4. Activate only as a sorcery. (Exile cards from the top of your library until you exile a nonland card with mana value 4 or less. Cast it without paying its mana cost or put it into your hand. Put the rest on the bottom in a random order.)
 - **Keywords:** Discover
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5355 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/273/hidden-cataract) · oracle_id `927979d7-9b5c-4448-aef0-baf2907a89f1` · printing: LCI #273 (2023-11-17) · [rulings](https://api.scryfall.com/cards/69f317fc-f603-45b5-9208-545be4dcbf36/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2023-11-10* — A spell's mana value is determined only by its mana cost. Ignore any alternative costs, additional costs, cost increases, or cost reductions.
+  - *2023-11-10* — If the discovered card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2023-11-10* — If you can't cast the discovered card (perhaps because there are no legal targets for the spell), you'll put it into your hand.
+  - *2023-11-10* — If you cast a spell "without paying its mana cost", you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the spell has any mandatory additional costs, you must pay those to cast it.
+  - *2023-11-10* — If you discover an adventurer card, split card, or modal double-faced card, you might be able to cast that card with either set of characteristics depending on the effect's discover value. For example, if you discover 4 and reveal Galvanic Giant (an adventurer card from Wilds of Eldraine with a mana value of 4), you could cast Galvanic Giant, but not Storm Reading (its Adventure, which has a mana value of 7). If you discover 7 and reveal Galvanic Giant, you could cast either Galvanic Giant or Storm Reading.
+  - *2023-11-10* — Some spells and abilities that cause you to discover may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve and you won't discover.
+  - *2023-11-10* — The mana value of a split card is determined by the combined mana cost of its two halves. If discover allows you to cast a split card, you may cast either half (as long as its mana value is less than or equal to the effect's discover value) but not both halves.
+  - *2023-11-10* — When you discover, you must exile cards. The only optional part of the ability is whether you cast the exiled card or put it into your hand.
+  - *2023-11-10* — You exile the cards face up. All players will be able to see them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/273/hidden-cataract) · oracle_id `927979d7-9b5c-4448-aef0-baf2907a89f1` · printing: LCI #273 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hidden Courtyard
 
@@ -235,7 +250,17 @@
   > {4}{W}, {T}, Sacrifice this land: Discover 4. Activate only as a sorcery. (Exile cards from the top of your library until you exile a nonland card with mana value 4 or less. Cast it without paying its mana cost or put it into your hand. Put the rest on the bottom in a random order.)
 - **Keywords:** Discover
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5709 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/274/hidden-courtyard) · oracle_id `e19d5071-4ea1-4883-b067-a21e553f96e0` · printing: LCI #274 (2023-11-17) · [rulings](https://api.scryfall.com/cards/b8685d46-99fc-44b3-be95-707a4b7b8327/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2023-11-10* — A spell's mana value is determined only by its mana cost. Ignore any alternative costs, additional costs, cost increases, or cost reductions.
+  - *2023-11-10* — If the discovered card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2023-11-10* — If you can't cast the discovered card (perhaps because there are no legal targets for the spell), you'll put it into your hand.
+  - *2023-11-10* — If you cast a spell "without paying its mana cost", you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the spell has any mandatory additional costs, you must pay those to cast it.
+  - *2023-11-10* — If you discover an adventurer card, split card, or modal double-faced card, you might be able to cast that card with either set of characteristics depending on the effect's discover value. For example, if you discover 4 and reveal Galvanic Giant (an adventurer card from Wilds of Eldraine with a mana value of 4), you could cast Galvanic Giant, but not Storm Reading (its Adventure, which has a mana value of 7). If you discover 7 and reveal Galvanic Giant, you could cast either Galvanic Giant or Storm Reading.
+  - *2023-11-10* — Some spells and abilities that cause you to discover may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve and you won't discover.
+  - *2023-11-10* — The mana value of a split card is determined by the combined mana cost of its two halves. If discover allows you to cast a split card, you may cast either half (as long as its mana value is less than or equal to the effect's discover value) but not both halves.
+  - *2023-11-10* — When you discover, you must exile cards. The only optional part of the ability is whether you cast the exiled card or put it into your hand.
+  - *2023-11-10* — You exile the cards face up. All players will be able to see them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/274/hidden-courtyard) · oracle_id `e19d5071-4ea1-4883-b067-a21e553f96e0` · printing: LCI #274 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hidden Dragonslayer
 
@@ -284,6 +309,7 @@
   > {1}, {T}: Add one mana of any color.
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2247 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/254/hidden-grotto) · oracle_id `382d18a2-438e-4ae7-a83f-1658ef1f9b07` · printing: BLB #254 (2024-08-02) · [rulings](https://api.scryfall.com/cards/4ba8f2e7-8357-4862-97dc-1942d066023a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hidden Guerrillas
@@ -328,7 +354,11 @@
 - **Flavor text** (TMC printing):
   > *Between ninjas, mutants, and alien bases, the subterranean housing market is shockingly competitive.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3510 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmc/43/hidden-hideout) · oracle_id `b639e1fe-d099-4cab-a0d0-a1b33c7f31dd` · printing: TMC #43 (2026-03-06) · [rulings](https://api.scryfall.com/cards/f356522c-018d-43c7-988a-9ef9829ae75c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2026-01-27* — If you don't have a commander, Hidden Hideout's first ability produces no mana.
+  - *2026-01-27* — If you have two commanders, Hidden Hideout's first ability adds one mana of any color in their combined color identities.
+  - *2026-01-27* — If your commander is a card that has no colors in its color identity, Hidden Hideout's first ability produces no mana. It doesn't produce {C}.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmc/43/hidden-hideout) · oracle_id `b639e1fe-d099-4cab-a0d0-a1b33c7f31dd` · printing: TMC #43 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hidden Horror
 
@@ -352,6 +382,7 @@
 - **Flavor text** (MSH printing):
   > *While the Avengers worried over the threat of Ultron-19, in a remote bunker, the construction of Ultron-2458 neared completion.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6560 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/269/hidden-lair) · oracle_id `7069d241-4e66-40bf-afd1-551a4a5457f0` · printing: MSH #269 (2026-06-26) · [rulings](https://api.scryfall.com/cards/0742ddb6-71ed-444e-91ad-84f876725a4a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hidden Necropolis
@@ -364,7 +395,17 @@
   > {4}{B}, {T}, Sacrifice this land: Discover 4. Activate only as a sorcery. (Exile cards from the top of your library until you exile a nonland card with mana value 4 or less. Cast it without paying its mana cost or put it into your hand. Put the rest on the bottom in a random order.)
 - **Keywords:** Discover
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5995 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/275/hidden-necropolis) · oracle_id `f780ee53-62b0-4c32-b5b7-047651f48e5f` · printing: LCI #275 (2023-11-17) · [rulings](https://api.scryfall.com/cards/f67fd04f-05da-4418-97de-abeb7346cc69/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2023-11-10* — A spell's mana value is determined only by its mana cost. Ignore any alternative costs, additional costs, cost increases, or cost reductions.
+  - *2023-11-10* — If the discovered card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2023-11-10* — If you can't cast the discovered card (perhaps because there are no legal targets for the spell), you'll put it into your hand.
+  - *2023-11-10* — If you cast a spell "without paying its mana cost", you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the spell has any mandatory additional costs, you must pay those to cast it.
+  - *2023-11-10* — If you discover an adventurer card, split card, or modal double-faced card, you might be able to cast that card with either set of characteristics depending on the effect's discover value. For example, if you discover 4 and reveal Galvanic Giant (an adventurer card from Wilds of Eldraine with a mana value of 4), you could cast Galvanic Giant, but not Storm Reading (its Adventure, which has a mana value of 7). If you discover 7 and reveal Galvanic Giant, you could cast either Galvanic Giant or Storm Reading.
+  - *2023-11-10* — Some spells and abilities that cause you to discover may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve and you won't discover.
+  - *2023-11-10* — The mana value of a split card is determined by the combined mana cost of its two halves. If discover allows you to cast a split card, you may cast either half (as long as its mana value is less than or equal to the effect's discover value) but not both halves.
+  - *2023-11-10* — When you discover, you must exile cards. The only optional part of the ability is whether you cast the exiled card or put it into your hand.
+  - *2023-11-10* — You exile the cards face up. All players will be able to see them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/275/hidden-necropolis) · oracle_id `f780ee53-62b0-4c32-b5b7-047651f48e5f` · printing: LCI #275 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hidden Nursery
 
@@ -376,7 +417,17 @@
   > {4}{G}, {T}, Sacrifice this land: Discover 4. Activate only as a sorcery. (Exile cards from the top of your library until you exile a nonland card with mana value 4 or less. Cast it without paying its mana cost or put it into your hand. Put the rest on the bottom in a random order.)
 - **Keywords:** Discover
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3741 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/276/hidden-nursery) · oracle_id `1a26e2d6-6bfc-4cdc-9bd6-8b37a9be2961` · printing: LCI #276 (2023-11-17) · [rulings](https://api.scryfall.com/cards/a942939a-c06e-4b90-a404-ae5acfffcff9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2023-11-10* — A spell's mana value is determined only by its mana cost. Ignore any alternative costs, additional costs, cost increases, or cost reductions.
+  - *2023-11-10* — If the discovered card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2023-11-10* — If you can't cast the discovered card (perhaps because there are no legal targets for the spell), you'll put it into your hand.
+  - *2023-11-10* — If you cast a spell "without paying its mana cost", you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the spell has any mandatory additional costs, you must pay those to cast it.
+  - *2023-11-10* — If you discover an adventurer card, split card, or modal double-faced card, you might be able to cast that card with either set of characteristics depending on the effect's discover value. For example, if you discover 4 and reveal Galvanic Giant (an adventurer card from Wilds of Eldraine with a mana value of 4), you could cast Galvanic Giant, but not Storm Reading (its Adventure, which has a mana value of 7). If you discover 7 and reveal Galvanic Giant, you could cast either Galvanic Giant or Storm Reading.
+  - *2023-11-10* — Some spells and abilities that cause you to discover may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve and you won't discover.
+  - *2023-11-10* — The mana value of a split card is determined by the combined mana cost of its two halves. If discover allows you to cast a split card, you may cast either half (as long as its mana value is less than or equal to the effect's discover value) but not both halves.
+  - *2023-11-10* — When you discover, you must exile cards. The only optional part of the ability is whether you cast the exiled card or put it into your hand.
+  - *2023-11-10* — You exile the cards face up. All players will be able to see them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/276/hidden-nursery) · oracle_id `1a26e2d6-6bfc-4cdc-9bd6-8b37a9be2961` · printing: LCI #276 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hidden Path
 
@@ -440,7 +491,12 @@
   > {1}, Sacrifice a creature: Scry 1.
 - **Keywords:** Revolt, Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8111 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/201/hidden-stockpile) · oracle_id `f5ded323-75c8-471e-a516-238b9d6b06d3` · printing: 2XM #201 (2020-08-07) · [rulings](https://api.scryfall.com/cards/a9119c90-716b-4884-9b1e-471f262c2639/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-08-07* — If a permanent you controlled didn't leave the battlefield before your end step begins, Hidden Stockpile's first ability doesn't trigger at all. The permanent may have left before Hidden Stockpile entered the battlefield, however.
+  - *2020-08-07* — Revolt abilities check only whether a permanent you controlled left the battlefield this turn or not. They don't apply multiple times if more than one permanent you controlled left the battlefield. They don't check whether the permanent that left the battlefield is still in the zone it moved to.
+  - *2020-08-07* — Revolt abilities don't care why the permanent left the battlefield, who caused it to move, or where it moved to. They're equally satisfied by an artifact you sacrificed to pay a cost, a creature you controlled that was destroyed by Cast Down, or an enchantment you returned to your hand with Cyclonic Rift.
+  - *2020-08-07* — Tokens that leave the battlefield will satisfy a revolt ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/201/hidden-stockpile) · oracle_id `f5ded323-75c8-471e-a516-238b9d6b06d3` · printing: 2XM #201 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hidden Strings
 
@@ -451,7 +507,19 @@
   > Cipher (Then you may exile this spell card encoded on a creature you control. Whenever that creature deals combat damage to a player, its controller may cast a copy of the encoded card without paying its mana cost.)
 - **Keywords:** Cipher
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4117 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dgm/12/hidden-strings) · oracle_id `a50737d7-dd2d-40da-817c-f913f76b5011` · printing: DGM #12 (2013-05-03) · [rulings](https://api.scryfall.com/cards/216e8047-6f54-49ce-bf86-27dc8fc8c8f7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2013-04-15* — If a creature with an encoded card deals combat damage to more than one player simultaneously (perhaps because some of the combat damage was redirected), the triggered ability will trigger once for each player it deals combat damage to. Each ability will create a copy of the exiled card and allow you to cast it.
+  - *2013-04-15* — If another player gains control of the creature, that player will control the triggered ability. That player will create a copy of the encoded card and may cast it.
+  - *2013-04-15* — If the creature leaves the battlefield, the exiled card will no longer be encoded on any creature. It will stay exiled.
+  - *2013-04-15* — If the spell with cipher doesn’t resolve, none of its effects will happen, including cipher. The card will go to its owner’s graveyard and won’t be encoded on a creature.
+  - *2013-04-15* — If you choose not to cast the copy, or you can’t cast it (perhaps because there are no legal targets available), the copy will cease to exist the next time state-based actions are performed. You won’t get a chance to cast the copy at a later time.
+  - *2013-04-15* — If you want to encode the card with cipher onto a noncreature permanent such as a Keyrune that can turn into a creature, that permanent has to be a creature before the spell with cipher starts resolving. You can choose only a creature to encode the card onto.
+  - *2013-04-15* — The copy of the card with cipher is created in and cast from exile.
+  - *2013-04-15* — The exiled card with cipher grants a triggered ability to the creature it’s encoded on. If that creature loses that ability and subsequently deals combat damage to a player, the triggered ability won’t trigger. However, the exiled card will continue to be encoded on that creature.
+  - *2013-04-15* — The spell with cipher is encoded on the creature as part of that spell’s resolution, just after the spell’s other effects. That card goes directly from the stack to exile. It never goes to the graveyard.
+  - *2013-04-15* — You cast the copy of the card with cipher during the resolution of the triggered ability. Ignore timing restrictions based on the card’s type.
+  - *2013-04-15* — You choose the creature as the spell resolves. The cipher ability doesn’t target that creature, although the spell with cipher may target that creature (or a different creature) because of its other abilities.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dgm/12/hidden-strings) · oracle_id `a50737d7-dd2d-40da-817c-f913f76b5011` · printing: DGM #12 (2013-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hidden Volcano
 
@@ -463,7 +531,17 @@
   > {4}{R}, {T}, Sacrifice this land: Discover 4. Activate only as a sorcery. (Exile cards from the top of your library until you exile a nonland card with mana value 4 or less. Cast it without paying its mana cost or put it into your hand. Put the rest on the bottom in a random order.)
 - **Keywords:** Discover
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3992 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/277/hidden-volcano) · oracle_id `a1c7cd7a-0795-4135-b787-effeb981d95b` · printing: LCI #277 (2023-11-17) · [rulings](https://api.scryfall.com/cards/9fa06aed-52c1-48f1-9906-362db12a3cf7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2023-11-10* — A spell's mana value is determined only by its mana cost. Ignore any alternative costs, additional costs, cost increases, or cost reductions.
+  - *2023-11-10* — If the discovered card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2023-11-10* — If you can't cast the discovered card (perhaps because there are no legal targets for the spell), you'll put it into your hand.
+  - *2023-11-10* — If you cast a spell "without paying its mana cost", you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the spell has any mandatory additional costs, you must pay those to cast it.
+  - *2023-11-10* — If you discover an adventurer card, split card, or modal double-faced card, you might be able to cast that card with either set of characteristics depending on the effect's discover value. For example, if you discover 4 and reveal Galvanic Giant (an adventurer card from Wilds of Eldraine with a mana value of 4), you could cast Galvanic Giant, but not Storm Reading (its Adventure, which has a mana value of 7). If you discover 7 and reveal Galvanic Giant, you could cast either Galvanic Giant or Storm Reading.
+  - *2023-11-10* — Some spells and abilities that cause you to discover may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve and you won't discover.
+  - *2023-11-10* — The mana value of a split card is determined by the combined mana cost of its two halves. If discover allows you to cast a split card, you may cast either half (as long as its mana value is less than or equal to the effect's discover value) but not both halves.
+  - *2023-11-10* — When you discover, you must exile cards. The only optional part of the ability is whether you cast the exiled card or put it into your hand.
+  - *2023-11-10* — You exile the cards face up. All players will be able to see them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/277/hidden-volcano) · oracle_id `a1c7cd7a-0795-4135-b787-effeb981d95b` · printing: LCI #277 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hide in Plain Sight
 
@@ -487,7 +565,9 @@
   > *"Peter? Is that you? I could have sworn I heard that boy moving around up here."*
   > *—Aunt May*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3963 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/spm/32/hide-on-the-ceiling) · oracle_id `376fa374-ead1-4728-ab8b-aca230b72031` · printing: SPM #32 (2025-09-26) · [rulings](https://api.scryfall.com/cards/7977e448-01fa-4fa5-a275-0d6a1357b35c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-09-19* — If a double-faced card is exiled this way, it will return to the battlefield with its front face up, regardless of which face was up when it was exiled.
+- **Source flags:** [Scryfall](https://scryfall.com/card/spm/32/hide-on-the-ceiling) · oracle_id `376fa374-ead1-4728-ab8b-aca230b72031` · printing: SPM #32 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hideous End
 
@@ -523,7 +603,16 @@
   > Trample, haste, annihilator 1 (Whenever this creature attacks, defending player sacrifices a permanent of their choice.)
 - **Keywords:** Devoid, Annihilator, Haste, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3909 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m3c/57/hideous-taskmaster) · oracle_id `8f48c43e-fa70-4c4f-bb88-be0526303453` · printing: M3C #57 (2024-06-14) · [rulings](https://api.scryfall.com/cards/ba7191d0-d567-4814-8a92-52e96aa7660f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2024-06-07* — A card with devoid is just colorless. It's not colorless and the colors of mana in its mana cost.
+  - *2024-06-07* — Annihilator abilities trigger and resolve during the declare attackers step. The defending player sacrifices the required number of permanents of their choice before they declare blockers. Any creatures sacrificed this way won't be able to block.
+  - *2024-06-07* — Devoid doesn't affect the color identity of the card for the purposes of the Commander variant. For example, while Abstruse Appropriation is colorless because it has devoid, its color identity is still white and black, and it can't be included in a Commander deck where the commander's color identity doesn't include both white and black.
+  - *2024-06-07* — Devoid works in all zones, not just on the battlefield.
+  - *2024-06-07* — Hideous Taskmaster's second ability will resolve before Hideous Taskmaster does. If Hideous Taskmaster is countered or otherwise leaves the stack in response to that triggered ability, the triggered ability will still resolve as normal.
+  - *2024-06-07* — If a card loses devoid, it will still be colorless. This is because effects that change an object's color (like the one created by devoid) are considered before the object loses devoid.
+  - *2024-06-07* — If a creature with annihilator is attacking a planeswalker, and the defending player chooses to sacrifice that planeswalker, the attacking creature continues to attack. It may be blocked. If it isn't blocked, it simply won't deal combat damage to anything.
+  - *2024-06-07* — Other cards and abilities can give a card with devoid a color. If that happens, it's just the new color, not that color and colorless.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m3c/57/hideous-taskmaster) · oracle_id `8f48c43e-fa70-4c4f-bb88-be0526303453` · printing: M3C #57 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hideous Visage
 
@@ -557,7 +646,13 @@
   > When Hidetsugu and Kairi dies, exile the top card of your library. Target opponent loses life equal to its mana value. If it's an instant or sorcery card, you may cast it without paying its mana cost.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8147 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/228/hidetsugu-and-kairi) · oracle_id `18591d9e-c9f5-4ae8-aee1-8580bc8fa600` · printing: MOM #228 (2023-04-21) · [rulings](https://api.scryfall.com/cards/81039daf-0d54-4474-a833-fa287ec10cf9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-04-14* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2023-04-14* — If you cast a card “without paying its mana cost,” you can’t pay any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, those must be paid to cast the card.
+  - *2023-04-14* — The last triggered ability targets the opponent. If that player is an illegal target as the ability tries to resolve, the ability won’t resolve and none of its effects will happen. You won’t exile a card.
+  - *2023-04-14* — The two cards you put on top of your library can be from the three you just drew or ones that were already in your hand.
+  - *2023-04-14* — You choose whether or not to cast the instant or sorcery card as the last triggered ability resolves. If you do, you do so as part of the resolution of that ability. You can’t wait to cast it later in the turn. Timing restrictions based on the card’s type are ignored.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/228/hidetsugu-and-kairi) · oracle_id `18591d9e-c9f5-4ae8-aee1-8580bc8fa600` · printing: MOM #228 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hidetsugu Consumes All // Vessel of the All-Consuming
 
@@ -643,7 +738,10 @@
   > Titanic — This creature can't be blocked by creatures with power 2 or less.
 - **Keywords:** Reach, Vigilance, Ward, Titanic, Frenzied Metabolism
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8182 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/40k/92/hierophant-bio-titan) · oracle_id `f334c57b-0a57-4fbd-8798-948371d6589d` · printing: 40K #92 (2022-10-07) · [rulings](https://api.scryfall.com/cards/be8a8e26-39cb-440a-a428-58b49ff8d017/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-10-07* — Heirophant Bio-Titan's first ability can't reduce its cost below {G}{G}. You can remove any number of counters, even if they won't reduce its cost any further.
+  - *2022-10-07* — Once a creature with power 3 or greater has blocked this creature, changing the power of the blocking creature won't cause this creature to become unblocked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/40k/92/hierophant-bio-titan) · oracle_id `f334c57b-0a57-4fbd-8798-948371d6589d` · printing: 40K #92 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hierophant's Chalice
 
@@ -666,7 +764,9 @@
   > Creatures you control can attack as though they didn't have defender.
   > {2}{W}{U}: Untap target creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5710 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rna/182/high-alert) · oracle_id `5f657279-cc0f-4431-b517-47bd1c7109b6` · printing: RNA #182 (2019-01-25) · [rulings](https://api.scryfall.com/cards/ce124f6e-ef0c-4d01-a876-e34d3e445108/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-01-25* — High Alert’s first ability doesn’t actually change any creature’s power. It changes only the amount of combat damage it assigns. All other rules and effects that check power or toughness use the real values. For example, Titanic Brawl won’t cause a creature to fight with its toughness under High Alert.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rna/182/high-alert) · oracle_id `5f657279-cc0f-4431-b517-47bd1c7109b6` · printing: RNA #182 (2019-01-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Highborn Ghoul
 
@@ -797,7 +897,13 @@
   > *"Tread carefully! The last time I walked this path, half the snowdrifts were, in fact, sleeping trolls. I've never run so fast in my life!"*
   > *—Iskene, Kannah storyteller*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3568 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/896/highland-forest) · oracle_id `35137378-6754-4bb1-a38e-5940890ccab1` · printing: CLB #896 (2022-06-10) · [rulings](https://api.scryfall.com/cards/59f64a32-c364-4750-94ed-d4d71c1a3511/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-02-05* — Snow is a supertype, not a card type. It has no rules meaning or function by itself, but spells and abilities may refer to it.
+  - *2021-02-05* — Snow isn't a type of mana. If an effect says you may spend mana as though it were any type, you can't pay for {S} using mana that wasn't produced by a snow source.
+  - *2021-02-05* — Some cards have additional effects for each {S} spent to cast them. You can cast these spells even if you don't spend any snow mana to cast them; their additional effects simply won't do anything.
+  - *2021-02-05* — The Kaldheim set doesn't have any cards with mana costs that include {S}, but some previous sets do. If an effect says such a spell costs {1} less to cast, that reduction doesn't apply to any {S} costs. This is also true for activated abilities that include {S} in their activation costs and effects that reduce those costs.
+  - *2021-02-05* — The {S} symbol is a generic mana symbol. It represents a cost that can be paid by one mana that was produced by a snow source. That mana can be any color or colorless.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/896/highland-forest) · oracle_id `35137378-6754-4bb1-a38e-5940890ccab1` · printing: CLB #896 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Highland Game
 
@@ -835,6 +941,7 @@
   > *"A place like this makes me wonder if there's more to life than blood and treasure . . . Nah."*
   > *—Boyl Bucksalt, Storm Fleet swab*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6575 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c19/251/highland-lake) · oracle_id `c643365a-4255-4d23-adb9-0f8b456f0838` · printing: C19 #251 (2019-08-23) · [rulings](https://api.scryfall.com/cards/46bb20af-a326-4a42-94d3-cb1990300e0f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Highland Weald
@@ -888,7 +995,10 @@
 - **Flavor text** (OTJ printing):
   > *They both knew only one of them would walk away.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7826 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/15/high-noon) · oracle_id `3c8cbf0f-0288-4b5e-bd4f-0f208670b6b5` · printing: OTJ #15 (2024-04-19) · [rulings](https://api.scryfall.com/cards/9995e0e6-7c9c-4fef-8fd2-8fb1622e6ec8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-04-12* — If you cast High Noon, you’ve already cast at least one spell that turn (High Noon itself) so you won’t be able to cast any more spells until the next turn. If High Noon enters the battlefield on a turn where you haven’t cast any spells, you’ll be able to cast one spell that turn.
+  - *2024-04-12* — If you cast a spell that was countered, you can’t cast another spell during the same turn while High Noon is on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/15/high-noon) · oracle_id `3c8cbf0f-0288-4b5e-bd4f-0f208670b6b5` · printing: OTJ #15 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### High Perfect Morcant
 
@@ -900,7 +1010,19 @@
   > Tap three untapped Elves you control: Proliferate. Activate only as a sorcery. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)
 - **Keywords:** Blight, Proliferate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3611 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/229/high-perfect-morcant) · oracle_id `dd27c5fa-4355-4e5c-8219-b74cfe209da0` · printing: ECL #229 (2026-01-23) · [rulings](https://api.scryfall.com/cards/dfe7b8bf-c150-4be0-aef4-e8bb6f09787a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2025-11-17* — All of the -1/-1 counters must be put on a single creature. You can't choose to split them up between multiple creatures.
+  - *2025-11-17* — If High Perfect Morcant enters at the same time as one or more other Elves you control, its first ability will trigger for each of those other Elves as well as itself.
+  - *2025-11-17* — If a creature has +1/+1 counters and -1/-1 counters on it, state-based actions remove the same number of each so that it has only one kind of those counters on it. For example, if a creature has three +1/+1 counters on it and two -1/-1 counters are put on it, state-based actions will remove two of each of those kinds of counters, leaving the creature with just one +1/+1 counter.
+  - *2025-11-17* — If a creature that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner's graveyard for having 0 or less toughness, effects that refer to the counters on that creature when it died will see all of those +1/+1 and -1/-1 counters.
+  - *2025-11-17* — If a player or permanent has more than one kind of counter on it, and you choose for it to get additional counters, it must get one of each kind of counter it already has. You can't have it get just one kind of counter it already has and not the others.
+  - *2025-11-17* — If you can't place -1/-1 counters on any creatures you control (probably because you control no creatures), you can't choose to blight.
+  - *2025-11-17* — Once you've announced that you're casting a spell or activating an ability, players can't take actions until you've finished doing so. Notably, opponents can't try to destroy or otherwise remove your creatures to stop you from blighting as part of paying the cost of that spell or ability.
+  - *2025-11-17* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
+  - *2025-11-17* — The creature you choose to put -1/-1 counters on doesn't have to have enough toughness to survive the process. For example, if you blight 2, you can choose to put the counters on a 1/1 creature you control.
+  - *2025-11-17* — When you proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
+  - *2025-11-17* — You don't have to choose every permanent or player that has a counter—only the ones you want to add counters to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/229/high-perfect-morcant) · oracle_id `dd27c5fa-4355-4e5c-8219-b74cfe209da0` · printing: ECL #229 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### High Priest of Penance
 
@@ -938,7 +1060,11 @@
 - **Flavor text** (TMC printing):
   > *Victory comes in endless forms.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4767 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmc/29/high-score) · oracle_id `d81fc181-ecb0-43a5-88e8-c61aca3428d8` · printing: TMC #29 (2026-03-06) · [rulings](https://api.scryfall.com/cards/b9077ef5-d19a-4106-950b-bb49b3b37510/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2026-01-27* — If a creature you control would enter the battlefield with a number of +1/+1 counters on it, it enters with that many plus one instead.
+  - *2026-01-27* — If two or more effects attempt to modify how many counters would be put on a creature you control, you choose the order to apply those effects, no matter who controls the sources of those effects.
+  - *2026-01-27* — In the case where you control more than one High Score, each one you control will increase the number of +1/+1 counters placed on a creature you control by one. (Leave some room on the leaderboard for the rest of us!)
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmc/29/high-score) · oracle_id `d81fc181-ecb0-43a5-88e8-c61aca3428d8` · printing: TMC #29 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### High Seas
 
@@ -978,7 +1104,9 @@
   > *"You've been a marvelous servant. Consider this your final assignment."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4377 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/61/high-society-hunter) · oracle_id `0dc158ba-7ec8-4558-91f5-0a87ef8380d4` · printing: FDN #61 (2024-11-15) · [rulings](https://api.scryfall.com/cards/51da4a4b-ea12-4169-a7cf-eb4427f13e84/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-11-08* — If High-Society Hunter dies at the same time as one or more other nontoken creatures, its last ability will trigger for each of those creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/61/high-society-hunter) · oracle_id `0dc158ba-7ec8-4558-91f5-0a87ef8380d4` · printing: FDN #61 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### High-Speed Hoverbike
 
@@ -992,6 +1120,7 @@
   > Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)
 - **Keywords:** Flying, Crew, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9733 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/247/high-speed-hoverbike) · oracle_id `9bf2f0d9-57fb-4e44-90a5-260d735076a0` · printing: NEO #247 (2022-02-18) · [rulings](https://api.scryfall.com/cards/7c619116-1eae-439d-9b1f-639643458a23/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Highspire Artisan
@@ -1118,7 +1247,14 @@
   > *The fires weren't even out before the backstabbing began.*
 - **Keywords:** Plot
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4300 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/129/highway-robbery) · oracle_id `df020a47-1784-479b-9882-be77b7f30950` · printing: OTJ #129 (2024-04-19) · [rulings](https://api.scryfall.com/cards/31a88429-9204-4a23-a7a8-babbd6bab79f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-04-12* — Exiling a card using its plot ability is a special action. Once you announce you’re taking that action, no other player can respond by trying to remove that card from your hand.
+  - *2024-04-12* — If a plotted card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-04-12* — If you’re casting a plotted card from exile without paying its mana cost, you can’t choose to cast it for any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the plotted card has any mandatory additional costs, those must still be paid to cast the spell.
+  - *2024-04-12* — Plot abilities are written “Plot [cost],” which means “Any time you have priority during your main phase while the stack is empty, you may pay [cost] and exile this card from your hand. It becomes plotted.”
+  - *2024-04-12* — You can’t cast a plotted card on the same turn it became plotted. On any future turn, you may cast that card from exile without paying its mana cost during your main phase while the stack is empty.
+  - *2024-04-12* — You can’t choose to discard a card if you have no cards in hand. Similarly, you can’t choose to sacrifice a land if you control no lands.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/129/highway-robbery) · oracle_id `df020a47-1784-479b-9882-be77b7f30950` · printing: OTJ #129 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Higure, the Still Wind
 
@@ -1131,7 +1267,10 @@
   > {2}: Target Ninja creature can't be blocked this turn.
 - **Keywords:** Ninjutsu
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5695 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/pca/18/higure-the-still-wind) · oracle_id `01197456-62f1-4bc0-9f2f-127f97f9b05d` · printing: PCA #18 (2016-11-25) · [rulings](https://api.scryfall.com/cards/f7b96d12-6309-48d1-bbdc-7bc88f4e2518/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2005-02-01* — If Higure deals first strike damage (or the first part of double strike damage), the triggered ability would resolve before regular combat damage, and the searched-for Ninja would be able to get swapped with an unblocked creature and still deal its regular damage.
+  - *2005-02-01* — If Higure deals regular combat damage and you use its ability to search for another Ninja, that card won't be in your hand in time to activate its ninjutsu ability to put it onto the battlefield and deal damage. However, the card you searched for could still be swapped for an unblocked creature, including Higure, as long as you activate its ninjutsu ability before the end of combat.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pca/18/higure-the-still-wind) · oracle_id `01197456-62f1-4bc0-9f2f-127f97f9b05d` · printing: PCA #18 (2016-11-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hijack
 
@@ -1142,7 +1281,9 @@
 - **Flavor text** (XLN printing):
   > *Trapped on Ixalan, the Planeswalker Angrath is the only minotaur sailing the seas. No matter how many ships he captures, he cannot break free.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9652 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/xln/148/hijack) · oracle_id `fd5651f7-52f8-4845-8a1b-32e5d2e9b00e` · printing: XLN #148 (2017-09-29) · [rulings](https://api.scryfall.com/cards/519c5660-4daf-4404-b808-66d1c840ab70/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-09-29* — You can target and gain control of an untapped artifact or creature this way. You can also untap an artifact or creature you already control and give it haste.
+- **Source flags:** [Scryfall](https://scryfall.com/card/xln/148/hijack) · oracle_id `fd5651f7-52f8-4845-8a1b-32e5d2e9b00e` · printing: XLN #148 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hikari, Twilight Guardian
 
@@ -1257,7 +1398,10 @@
 - **Flavor text** (ALA printing):
   > *Centuries of careful practice have elevated the casting of protective spells to an art form. What little offensive magic remains on Bant stands little chance of breaching them.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5539 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ala/173/hindering-light) · oracle_id `945ac15c-780b-44a9-8a8e-011cf1c30876` · printing: ALA #173 (2008-10-03) · [rulings](https://api.scryfall.com/cards/98e43870-4bed-4d76-a633-a6326c736d22/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-10-01* — Hindering Light can target a spell that has multiple targets, as long as at least one of those targets is you or a permanent you control.
+  - *2008-10-01* — You may choose to target a spell that “can’t be countered.” If you do, the first part of Hindering Light’s effect won’t do anything, but you’ll still get to draw a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ala/173/hindering-light) · oracle_id `945ac15c-780b-44a9-8a8e-011cf1c30876` · printing: ALA #173 (2008-10-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hindering Touch
 
@@ -1359,7 +1503,9 @@
 - **Flavor text** (FDN printing):
   > *"You can learn a lot about a place just by asking the land how it's doing."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2827 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/730/hinterland-sanctifier) · oracle_id `d812fc6d-b96d-4986-b171-9f3feee603dc` · printing: FDN #730 (2024-11-15) · [rulings](https://api.scryfall.com/cards/632df69e-6377-43d0-bba5-65518a320aa5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-11-08* — If Hinterland Sanctifier enters at the same time as one or more other creatures you control, its ability will trigger for each of those other creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/730/hinterland-sanctifier) · oracle_id `d812fc6d-b96d-4986-b171-9f3feee603dc` · printing: FDN #730 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hint of Insanity
 
@@ -1577,7 +1723,9 @@
 - **Flavor text** (2X2 printing):
   > *Viashino thrashes keep iguanars as hunting companions, giving them wounded captives as playthings.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9700 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/113/hissing-iguanar) · oracle_id `7c4fc524-4734-4fb8-a5ca-ac2617242c3f` · printing: 2X2 #113 (2022-07-08) · [rulings](https://api.scryfall.com/cards/2268cf4b-de6d-4447-86e8-f8298728a3bd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-12-07* — If Hissing Iguanar dies at the same time as another creature, Hissing Iguanar's ability triggers.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/113/hissing-iguanar) · oracle_id `7c4fc524-4734-4fb8-a5ca-ac2617242c3f` · printing: 2X2 #113 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hissing Miasma
 
@@ -1599,7 +1747,12 @@
   > {T}: Add {B} or {G}.
   > {1}{B}{G}: Until end of turn, this land becomes a 2/2 black and green Elemental creature with deathtouch. It's still a land.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6924 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/171/hissing-quagmire) · oracle_id `7fff5224-c002-4a32-86fe-9a4b18d78b50` · printing: OGW #171 (2016-01-22) · [rulings](https://api.scryfall.com/cards/6ef11b54-205a-48e9-92d0-5d416be869ef/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2016-01-22* — A land that becomes a creature may be affected by "summoning sickness." You can't attack with it or use any of its {T} abilities (including its mana abilities) unless it began your most recent turn on the battlefield under your control. Note that summoning sickness cares about when that permanent came under your control, not when it became a creature nor when it entered the battlefield.
+  - *2016-01-22* — An ability that turns a land into a creature also sets that creature's power and toughness. If the land was already a creature (for example, if it was the target of a spell with awaken), this will overwrite the previous effect that set its power and toughness. Effects that modify its power or toughness will continue to apply no matter when they started to take effect. The same is true for counters that change its power or toughness (such as +1/+1 counters) and effects that switch its power and toughness. For example, if Hissing Quagmire has been made a 0/0 creature with three +1/+1 counters on it, activating its last ability will turn it into a 5/5 creature that's still a land.
+  - *2016-01-22* — This land is colorless until the last ability gives it colors.
+  - *2016-01-22* — When a land becomes a creature, that doesn't count as having a creature enter the battlefield. The permanent was already on the battlefield; it only changed its types. Abilities that trigger whenever a creature enters the battlefield won't trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/171/hissing-quagmire) · oracle_id `7fff5224-c002-4a32-86fe-9a4b18d78b50` · printing: OGW #171 (2016-01-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Historian of Zhalfir
 
@@ -1621,7 +1774,9 @@
   > Whenever this enchantment or another nontoken enchantment you control enters, create a 1/1 white Soldier creature token.
   > Whenever the final chapter ability of a Saga you control triggers, create a 4/4 white Angel creature token with flying and vigilance.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6769 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/21/historians-boon) · oracle_id `ce1e6ae2-78c1-4bc6-bb73-bb025dd67a90` · printing: DMC #21 (2022-09-09) · [rulings](https://api.scryfall.com/cards/0da48d1e-0dec-461a-9a1d-477408b297e6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-09-09* — The final chapter ability of a Saga is the ability with the greatest chapter number among chapter abilities that Saga has.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/21/historians-boon) · oracle_id `ce1e6ae2-78c1-4bc6-bb73-bb025dd67a90` · printing: DMC #21 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Historian's Wisdom
 
@@ -1671,7 +1826,9 @@
   > *—Sam*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7546 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hoc/176/hithlain-knots) · oracle_id `2c80fc55-86a0-403e-82ce-09ee03095d8a` · printing: HOC #176 (2026-08-14) · [rulings](https://api.scryfall.com/cards/74868f21-b8a2-4aa0-9431-3f2171bde9c3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-06-16* — If the target creature is an illegal target by the time Hithlain Knots tries to resolve, the spell doesn't resolve. You won't scry 1, and you won't draw a card. However, if the target is legal but doesn't become tapped (most likely because it's already tapped), you do scry 1, and you do draw a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hoc/176/hithlain-knots) · oracle_id `2c80fc55-86a0-403e-82ce-09ee03095d8a` · printing: HOC #176 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hithlain Rope
 
@@ -1682,7 +1839,10 @@
   > {1}, {T}: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. The player to your right gains control of this artifact.
   > {2}, {T}: Draw a card. The player to your right gains control of this artifact.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5217 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/76/hithlain-rope) · oracle_id `76dfa5c2-1ea6-4f89-9903-26998636845e` · printing: LTC #76 (2023-06-23) · [rulings](https://api.scryfall.com/cards/bbe6e907-eafb-402c-8b8f-4c01fb168a0b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-06-16* — In a two-player game, the other player is the player to your right. (They're also the player to your left. Funny how that works.)
+  - *2023-06-16* — In some formats, such as Two-Headed Giant, the player to your right might be a teammate. In that case, that teammate gains control of Hithlain Rope as either ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/76/hithlain-rope) · oracle_id `76dfa5c2-1ea6-4f89-9903-26998636845e` · printing: LTC #76 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hit-Monkey
 
@@ -1717,7 +1877,18 @@
   > Discover 10. If the discovered card's mana value is less than 10, create a number of tapped Treasure tokens equal to the difference. (To discover 10, exile cards from the top of your library until you exile a nonland card with mana value 10 or less. Cast it without paying its mana cost or put it into your hand. Put the rest on the bottom in a random order.)
 - **Keywords:** Treasure, Discover
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1803 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/153/hit-the-mother-lode) · oracle_id `a49900b3-cc34-428f-806d-71861dc8059d` · printing: LCI #153 (2023-11-17) · [rulings](https://api.scryfall.com/cards/e75f460c-43e2-4353-8b73-71ff8651a79d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2023-11-10* — A spell's mana value is determined only by its mana cost. Ignore any alternative costs, additional costs, cost increases, or cost reductions.
+  - *2023-11-10* — If the discovered card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2023-11-10* — If you can't cast the discovered card (perhaps because there are no legal targets for the spell), you'll put it into your hand.
+  - *2023-11-10* — If you cast a spell "without paying its mana cost", you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the spell has any mandatory additional costs, you must pay those to cast it.
+  - *2023-11-10* — If you discover an adventurer card, split card, or modal double-faced card, you might be able to cast that card with either set of characteristics depending on the effect's discover value. For example, if you discover 4 and reveal Galvanic Giant (an adventurer card from Wilds of Eldraine with a mana value of 4), you could cast Galvanic Giant, but not Storm Reading (its Adventure, which has a mana value of 7). If you discover 7 and reveal Galvanic Giant, you could cast either Galvanic Giant or Storm Reading.
+  - *2023-11-10* — Some spells and abilities that cause you to discover may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve and you won't discover.
+  - *2023-11-10* — The mana value of a split card is determined by the combined mana cost of its two halves. If discover allows you to cast a split card, you may cast either half (as long as its mana value is less than or equal to the effect's discover value) but not both halves.
+  - *2023-11-10* — When you discover, you must exile cards. The only optional part of the ability is whether you cast the exiled card or put it into your hand.
+  - *2023-11-10* — You exile the cards face up. All players will be able to see them.
+  - *2023-11-10* — You won't create any Treasure tokens until you finish discovering. For example, if the card you discover has "As an additional cost to cast this spell, sacrifice an artifact," you can't sacrifice one of the Treasures from Hit the Mother Lode to pay that additional cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/153/hit-the-mother-lode) · oracle_id `a49900b3-cc34-428f-806d-71861dc8059d` · printing: LCI #153 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hiveheart Shaman
 
@@ -1740,7 +1911,17 @@
   > *"All consciousness is one, separated only by a thin veil of the physical."*
   > *—Jace Beleren*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7723 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m10/54/hive-mind) · oracle_id `f97e405d-4c24-4d4d-9e19-e349c073113c` · printing: M10 #54 (2009-07-17) · [rulings](https://api.scryfall.com/cards/88d50518-5cfc-45de-a125-acabf97b8743/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2009-10-01* — A copy’s controller can’t choose to pay any additional costs for the copy. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too.
+  - *2009-10-01* — Each copy will have the same targets as the spell it’s copying unless its controller chooses new ones. That player may change any number of the targets, including all of them or none of them. If, for one of the targets, the player can’t choose a new legal target, then it remains unchanged (even if the current target is illegal).
+  - *2009-10-01* — Hive Mind will copy any instant or sorcery spell, not just one with targets.
+  - *2009-10-01* — Hive Mind’s effect is mandatory. Each other player must copy the spell whether they want to or not.
+  - *2009-10-01* — If a copy says that it affects “you,” it affects the controller of the copy, not the controller of the original spell. Similarly, if a copy says that it affects an “opponent,” it affects an opponent of the copy’s controller, not an opponent of the original spell’s controller.
+  - *2009-10-01* — If a player casts an instant or sorcery spell, Hive Mind’s ability triggers and is put on the stack on top of that spell. Hive Mind’s ability will resolve first. When it does, it creates a number of copies of that spell equal to the number of players in the game minus one. First the player whose turn it is (or, if that’s the player who cast the original spell, the player to that player’s left) puts their copy on the stack, choosing new targets for it if they like. Then each other player in turn order does the same. The last copy put on the stack will be the first one that resolves. (Note that the very last thing to happen is that the original spell resolves.)
+  - *2009-10-01* — If the spell that’s copied has an X whose value was determined as it was cast (like Earthquake does), the copy has the same value of X.
+  - *2009-10-01* — If the spell that’s copied is modal (that is, it says “Choose one —” or the like), the copy will have the same mode. A player can’t choose a different one.
+  - *2009-10-01* — The copies that Hive Mind’s ability creates are created on the stack, so they’re not “cast.” Abilities that trigger when a player casts a spell (like Hive Mind’s ability itself) won’t trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m10/54/hive-mind) · oracle_id `f97e405d-4c24-4d4d-9e19-e349c073113c` · printing: M10 #54 (2009-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hive Mind Coprocessor
 
@@ -1763,7 +1944,11 @@
   > {T}: Add {B}.
   > {3}{B}: Until end of turn, this land becomes a 3/3 black Beholder creature with menace and "Whenever this creature attacks, exile target card from defending player's graveyard." It's still a land.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7951 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/258/hive-of-the-eye-tyrant) · oracle_id `d17163d4-dd43-4de6-b7cf-576448160b7f` · printing: AFR #258 (2021-07-23) · [rulings](https://api.scryfall.com/cards/9eb391dc-0378-4793-a5de-899b09792a4b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-07-23* — If Hive of the Eye Tyrant enters the battlefield at the same time as one or more other lands, it doesn't take those lands into consideration when determining how many other lands you control.
+  - *2021-07-23* — If you activate Hive of the Eye Tyrant's last ability multiple times, it gains multiple instances of the triggered ability that exiles cards. For example, if you activate it twice and attack, you will choose two target cards to exile (or the same card twice, if you want to).
+  - *2021-07-23* — If you turn Hive of the Eye Tyrant into a creature but haven't controlled it continuously since your most recent turn began, you won't be able to activate its mana ability or attack with it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/258/hive-of-the-eye-tyrant) · oracle_id `d17163d4-dd43-4de6-b7cf-576448160b7f` · printing: AFR #258 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hivespine Wolverine
 

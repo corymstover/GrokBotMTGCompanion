@@ -61,6 +61,7 @@
   > *Ziatora's second-in-command has a habit of appearing when and where her enemies least expect her.*
 - **Keywords:** Treasure, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9507 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/210/ognis-the-dragons-lash) · oracle_id `a6e50e06-6d1d-457d-8fbb-ec9a866960c3` · printing: SNC #210 (2022-04-29) · [rulings](https://api.scryfall.com/cards/636058c3-bacc-4a66-8988-832ab0cc9be6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ogre Arsonist
@@ -95,6 +96,7 @@
 - **Flavor text** (TDC printing):
   > *Ogres are driven by passion, rage, and another ogre standing behind them with a whip.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3314 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/227/ogre-battledriver) · oracle_id `c834c4b5-c122-4c63-81c7-884ca4c0dc3b` · printing: TDC #227 (2025-04-11) · [rulings](https://api.scryfall.com/cards/49998b89-61ae-4b10-903b-9eb24ce50d4b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ogre Berserker
@@ -335,7 +337,9 @@
   > *"His tenement is filled with the most vile, disgusting vermin. It's infested with rats, too."*
   > *—Branko One-Ear*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2016 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/145/ogre-slumlord) · oracle_id `0a5e3748-2e58-4e53-9653-8af4e21cf223` · printing: OTC #145 (2024-04-19) · [rulings](https://api.scryfall.com/cards/76995067-81a3-41c5-bc95-bfa5a953700d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-01-24* — All Rats you control have deathtouch while Ogre Slumlord is on the battlefield, not just the ones created by Ogre Slumlord.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/145/ogre-slumlord) · oracle_id `0a5e3748-2e58-4e53-9653-8af4e21cf223` · printing: OTC #145 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ogre Taskmaster
 

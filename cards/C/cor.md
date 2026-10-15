@@ -91,7 +91,9 @@
   > When this land enters, sacrifice it unless you return an untapped Island you control to its owner's hand.
   > {T}: Add {C}{U}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5850 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/480/coral-atoll) · oracle_id `3f347ebf-e0d2-4ae0-ad84-df7a460404e0` · printing: CMR #480 (2020-11-20) · [rulings](https://api.scryfall.com/cards/77e3ea71-ea9f-4bbf-93cb-0f6339f8a3ab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-02-01* — This has a triggered ability when it enters, not a replacement effect, as previously worded.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/480/coral-atoll) · oracle_id `3f347ebf-e0d2-4ae0-ad84-df7a460404e0` · printing: CMR #480 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coral Barrier
 
@@ -276,7 +278,15 @@
   > During each of your turns, you may play a land and cast a spell from among cards in graveyards that were put there from libraries this turn.
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7470 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/m3c/7/coram-the-undertaker) · oracle_id `51c511c0-783a-456d-a7e2-959f6e8ddfc8` · printing: M3C #7 (2024-06-14) · [rulings](https://api.scryfall.com/cards/ab5cfb0c-8e95-4d2d-9e23-cf58c1c7e51c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2024-06-07* — Coram's first ability applies only while it is on the battlefield. In all other zones, its power is 0.
+  - *2024-06-07* — If it's your turn, you control Coram, and another player has permission to play a card in a graveyard that was put there from a library this turn (perhaps because it's an instant card they own that has flashback), whoever gets priority sooner will have the first chance to play that card. In most cases, this will be you, since the active player receives priority after a spell or ability resolves.
+  - *2024-06-07* — If you play a land or cast a spell from a graveyard using another permission, it won't stop you from using Coram's permission to do the same thing later in the turn, provided you haven't already done so.
+  - *2024-06-07* — If you play a land, cast a spell, or both using the permission granted by Coram's last ability and then have a new Coram come under your control in the same turn, you can still play a land, cast a spell, or both using the new Coram's permission.
+  - *2024-06-07* — Once you begin to cast a spell this way, losing control of Coram won't affect it. You can finish casting it as normal.
+  - *2024-06-07* — The value of X will change as the greatest power among creature cards in all graveyards changes.
+  - *2024-06-07* — You pay all costs and follow all timing rules for lands played and spells cast this way.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m3c/7/coram-the-undertaker) · oracle_id `51c511c0-783a-456d-a7e2-959f6e8ddfc8` · printing: M3C #7 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cordial Vampire
 
@@ -288,7 +298,10 @@
 - **Flavor text** (LCC printing):
   > *"Please, come in! Hors d'oeuvres are on the table."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1885 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/189/cordial-vampire) · oracle_id `d61fb9e8-d05a-481a-a90f-5def300c9abb` · printing: LCC #189 (2023-11-17) · [rulings](https://api.scryfall.com/cards/0d91e61d-e3bf-4ddc-9f01-18b1abe35a61/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-06-14* — If Cordial Vampire dies at the same time as one or more other creatures, its ability triggers for each of them.
+  - *2019-06-14* — If a Vampire you control is dealt lethal damage at the same time as another creature, they die at the same time. That Vampire can't receive a counter from Cordial Vampire's ability in time to save it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/189/cordial-vampire) · oracle_id `d61fb9e8-d05a-481a-a90f-5def300c9abb` · printing: LCC #189 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Core Prowler
 
@@ -300,7 +313,14 @@
   > When this creature dies, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)
 - **Keywords:** Proliferate, Infect
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7775 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mbs/103/core-prowler) · oracle_id `0ad44727-41c3-471c-b038-1bf43c5f296a` · printing: MBS #103 (2011-02-04) · [rulings](https://api.scryfall.com/cards/05414ba7-0f59-4c73-931c-e599d149d3ba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-02-04* — An ability that triggers "Whenever you proliferate" triggers even if you chose no permanents or players while doing so.
+  - *2023-02-04* — If a permanent ever has both +1/+1 counters and -1/-1 counters on it at the same time, they're removed in pairs as a state-based action so that the permanent has only one of those kinds of counters on it.
+  - *2023-02-04* — If a player or permanent has more than one kind of counter on it, and you choose for it to get additional counters, it must get one of each kind of counter it already has. You can't have it get just one kind of counter it already has and not the others.
+  - *2023-02-04* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
+  - *2023-02-04* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
+  - *2023-02-04* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mbs/103/core-prowler) · oracle_id `0ad44727-41c3-471c-b038-1bf43c5f296a` · printing: MBS #103 (2011-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coretapper
 
@@ -313,6 +333,7 @@
 - **Flavor text** (EOC printing):
   > *It converts the faintest surges of power from Mirrodin's core into usable energy, providing endless power for Memnarch's creations on the surface.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5593 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/132/coretapper) · oracle_id `66e37011-f3d2-41ed-8e09-7bba9464e8c3` · printing: EOC #132 (2025-08-01) · [rulings](https://api.scryfall.com/cards/00d9dd37-aad3-46bd-ac9b-140974c8dcaa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cori Mountain Monastery
@@ -326,7 +347,10 @@
 - **Flavor text** (TDM printing):
   > *Every spire is a physical dedication to the Way.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3497 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/252/cori-mountain-monastery) · oracle_id `35c60b66-8c85-432e-90fe-99c19d21ed15` · printing: TDM #252 (2025-04-11) · [rulings](https://api.scryfall.com/cards/9312821a-2059-4f44-9b20-c9522b827e38/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-04-04* — You must already control a Plains or Island as Cori Mountain Monastery enters for it to enter untapped. If it enters at the same time as a Plains or Island when you control no other Plains or Islands, it will enter tapped.
+  - *2025-04-04* — You pay all costs and follow all timing rules for cards played this way. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/252/cori-mountain-monastery) · oracle_id `35c60b66-8c85-432e-90fe-99c19d21ed15` · printing: TDM #252 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cori Mountain Stalwart
 
@@ -351,7 +375,12 @@
   > Equip {1}{R}
 - **Keywords:** Flurry, Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4180 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/103/cori-steel-cutter) · oracle_id `46b1a169-bc32-47bf-b379-fa0c3d13878f` · printing: TDM #103 (2025-04-11) · [rulings](https://api.scryfall.com/cards/490eb213-9ae2-4b45-abec-6f1dfc83792a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-04-04* — If the triggered ability causes two or more Monks to be created (due to an effect such as that of Doubling Season), you may choose to attach Cori-Steel Cutter to one of them.
+  - *2025-04-04* — No player may take any actions between the time you create the Monk token and the time you choose whether to attach Cori-Steel Cutter to it.
+  - *2025-04-04* — Spells that were cast before a permanent with flurry count. If that permanent was the first spell you cast that turn, the next spell you cast that turn is your second spell.
+  - *2025-04-04* — The Monk token that you create enters the battlefield as a 1/1 creature. Any abilities that trigger when a creature with a certain power enters the battlefield will see the token enter as a 1/1 creature. Static abilities that affect the Monk’s power and toughness may change this.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/103/cori-steel-cutter) · oracle_id `46b1a169-bc32-47bf-b379-fa0c3d13878f` · printing: TDM #103 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cormela, Glamour Thief
 
@@ -366,6 +395,7 @@
   > *She sees the world as a gift meant for her.*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6389 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/177/cormela-glamour-thief) · oracle_id `3cd9bac9-0abc-43d8-9f84-94f965f7a2e0` · printing: SNC #177 (2022-04-29) · [rulings](https://api.scryfall.com/cards/221ac34a-94ed-4c49-afad-b19cac541731/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cornered by Black Mages
@@ -379,7 +409,9 @@
   > *"Kuja called them black mages, dark spawn of the mist."*
   > *—The Soulcage*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3005 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/93/cornered-by-black-mages) · oracle_id `68a58e0b-1506-492e-8ca3-016e520c10ba` · printing: FIN #93 (2025-06-13) · [rulings](https://api.scryfall.com/cards/688fcf8a-0a44-416a-8086-83acf9a6fe69/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-06-06* — The Wizard token's ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/93/cornered-by-black-mages) · oracle_id `68a58e0b-1506-492e-8ca3-016e520c10ba` · printing: FIN #93 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cornered Crook
 
@@ -416,6 +448,7 @@
   > *When Sarevok's deception was unmasked, the cheering crowd erupted into an outraged mob.*
 - **Keywords:** Goad
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8072 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/168/coronation-of-chaos) · oracle_id `46f1618d-9c95-4a4b-9a20-7c378b811849` · printing: CLB #168 (2022-06-10) · [rulings](https://api.scryfall.com/cards/8647092a-9d09-42cb-bcda-4e5e7a6c8a1c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corporeal Projection
@@ -451,7 +484,9 @@
 - **Flavor text** (CMM printing):
   > *Even when the flesh grows cold, knowledge waits in the bones for a master to release it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6069 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/145/corpse-augur) · oracle_id `06eb43af-637a-4f73-8071-a7036d4c8c3d` · printing: CMM #145 (2023-08-04) · [rulings](https://api.scryfall.com/cards/14fc0dfb-663a-4713-902e-96dbecc404b7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2015-11-04* — You choose the target player as the ability goes on the stack, but you determine the value of X as that ability resolves. If you target yourself and Corpse Augur is still in the graveyard, its ability will count itself.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/145/corpse-augur) · oracle_id `06eb43af-637a-4f73-8071-a7036d4c8c3d` · printing: CMM #145 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corpseberry Cultivator
 
@@ -491,7 +526,9 @@
   > *"How did we find each other? So there I was, exploring a mound of monster corpses..."*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7345 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/107/corpse-churn) · oracle_id `e2aeac0b-af74-4c47-9ac1-51fbf869c95f` · printing: CLU #107 (2024-02-23) · [rulings](https://api.scryfall.com/cards/c151c2e9-a7d1-42ee-a68c-885df78db53e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-11-10* — Because Corpse Churn doesn't target the creature card in your graveyard, you may choose one of the three cards you put there from your library if applicable.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/107/corpse-churn) · oracle_id `e2aeac0b-af74-4c47-9ac1-51fbf869c95f` · printing: CLU #107 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corpse Cobble
 
@@ -515,7 +552,13 @@
   > Unearth {3}{B} ({3}{B}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)
 - **Keywords:** Unearth
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9126 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mm3/61/corpse-connoisseur) · oracle_id `f39e2611-c837-4ad7-b3a8-1ee48b74777c` · printing: MM3 #61 (2017-03-17) · [rulings](https://api.scryfall.com/cards/3f4ef04b-5434-480e-82a1-118ed1ff551f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2008-10-01* — Activating a creature card’s unearth ability isn’t the same as casting the creature card. The unearth ability is put on the stack, but the creature card is not. Spells and abilities that interact with activated abilities (such as Stifle) will interact with unearth, but spells and abilities that interact with spells (such as Remove Soul) will not.
+  - *2008-10-01* — At the beginning of the end step, a creature returned to the battlefield with unearth is exiled. This is a delayed triggered ability, and it can be countered by effects such as Stifle or Voidslime that counter triggered abilities. If the ability is countered, the creature will stay on the battlefield and the delayed trigger won’t trigger again. However, the replacement effect will still exile the creature when it eventually leaves the battlefield.
+  - *2008-10-01* — If a creature returned to the battlefield with unearth would leave the battlefield for any reason, it’s exiled instead — unless the spell or ability that’s causing the creature to leave the battlefield is actually trying to exile it! In that case, it succeeds at exiling it. If it later returns the creature card to the battlefield (as Oblivion Ring or Flickerwisp might, for example), the creature card will return to the battlefield as a new object with no relation to its previous existence. The unearth effect will no longer apply to it.
+  - *2008-10-01* — If you activate a card’s unearth ability but that card is removed from your graveyard before the ability resolves, that unearth ability will resolve and do nothing.
+  - *2008-10-01* — Unearth grants haste to the creature that’s returned to the battlefield. However, neither of the “exile” abilities is granted to that creature. If that creature loses all its abilities, it will still be exiled at the beginning of the end step, and if it would leave the battlefield, it is still exiled instead.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mm3/61/corpse-connoisseur) · oracle_id `f39e2611-c837-4ad7-b3a8-1ee48b74777c` · printing: MM3 #61 (2017-03-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corpse Cur
 
@@ -595,7 +638,10 @@
 - **Flavor text** (CM2 printing):
   > *Weakness is not in the nature of the Swarm.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1569 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cm2/152/corpsejack-menace) · oracle_id `ca0cc02b-b106-4eca-9388-d4b48dd3be49` · printing: CM2 #152 (2018-06-08) · [rulings](https://api.scryfall.com/cards/29538ff4-e28f-44d9-af23-6796edd56268/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-11-17* — If a creature you control would enter the battlefield with a number of +1/+1 counters on it, it enters with twice that many instead.
+  - *2017-11-17* — If you control two Corpsejack Menaces, the number of +1/+1 counters put on a creature is four times the original number. Three Corpsejack Menaces multiplies the original number by eight, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cm2/152/corpsejack-menace) · oracle_id `ca0cc02b-b106-4eca-9388-d4b48dd3be49` · printing: CM2 #152 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corpse Knight
 
@@ -608,7 +654,9 @@
   > *"With each knight that rode out from the bone-white keep, the queen's soldiers felt their courage failing."*
   > *—Krinnea, \*Siege of the Bone Spire\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1440 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/321/corpse-knight) · oracle_id `0c77b805-728d-4ae4-88a9-223f4b7b52e0` · printing: MOC #321 (2023-04-21) · [rulings](https://api.scryfall.com/cards/7aa3f166-c5d1-40f0-9b23-352424b8e13a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-07-12* — In a Two-Headed Giant game, Corpse Knight's ability causes the opposing team to lose 1 life twice.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/321/corpse-knight) · oracle_id `0c77b805-728d-4ae4-88a9-223f4b7b52e0` · printing: MOC #321 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corpse Lunge
 
@@ -676,6 +724,7 @@
 - **Flavor text** (2XM printing):
   > *Castle Vantress has no locks on its doors, but interlopers rarely make it past the foyer.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9072 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/46/corridor-monitor) · oracle_id `07b6ee55-a77e-4ba7-9ab7-8a8375c7acc9` · printing: 2XM #46 (2020-08-07) · [rulings](https://api.scryfall.com/cards/df3f6598-18a7-472d-8d05-715203379089/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corroding Dragonstorm
@@ -773,7 +822,9 @@
   > *Karn's creation is now his master.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5997 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mbs/22/corrupted-conscience) · oracle_id `c645fab4-51ac-440c-b112-57777c8f4676` · printing: MBS #22 (2011-02-04) · [rulings](https://api.scryfall.com/cards/7276c584-76ed-4c20-a5ea-627c8f7751e6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-06-01* — Multiple instances of infect on the same creature are redundant.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mbs/22/corrupted-conscience) · oracle_id `c645fab4-51ac-440c-b112-57777c8f4676` · printing: MBS #22 (2011-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corrupted Conviction
 
@@ -801,7 +852,9 @@
   > *"Look, and see the future."*
   > *—Ayli, high priest of the Eternal Pilgrims*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6281 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/169/corrupted-crossroads) · oracle_id `6276a985-7630-476d-a94f-6c6adc88f6c4` · printing: OGW #169 (2016-01-22) · [rulings](https://api.scryfall.com/cards/7043e193-8051-4f1b-9633-9c1f250d3607/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-01-22* — The mana produced by the last ability can’t be spent on a colorless spell unless that spell specifically has the devoid ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/169/corrupted-crossroads) · oracle_id `6276a985-7630-476d-a94f-6c6adc88f6c4` · printing: OGW #169 (2016-01-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corrupted Grafstone
 
@@ -875,7 +928,16 @@
   > *Within its body, three lineages warred for supremacy.*
 - **Keywords:** Devoid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8092 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/56/corrupted-shapeshifter) · oracle_id `5c4cbf1c-95ee-4555-8351-ea962e17ae1f` · printing: MH3 #56 (2024-06-14) · [rulings](https://api.scryfall.com/cards/27534c8a-cb71-43bc-b706-80a525396222/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2024-06-07* — A card with devoid is just colorless. It's not colorless and the colors of mana in its mana cost.
+  - *2024-06-07* — Devoid doesn't affect the color identity of the card for the purposes of the Commander variant. For example, while Abstruse Appropriation is colorless because it has devoid, its color identity is still white and black, and it can't be included in a Commander deck where the commander's color identity doesn't include both white and black.
+  - *2024-06-07* — Devoid works in all zones, not just on the battlefield.
+  - *2024-06-07* — If a card loses devoid, it will still be colorless. This is because effects that change an object's color (like the one created by devoid) are considered before the object loses devoid.
+  - *2024-06-07* — If a permanent enters the battlefield as a copy of Corrupted Shapeshifter, there will be two copy effects to apply to it. One will copy the values chosen for the Corrupted Shapeshifter being copied. And you'll choose the values for the copy's own enters-the-battlefield replacement effect. The resulting permanent will have the abilities from both effects, and its power and toughness will be determined by the last effect to apply. For example, if a creature entering the battlefield is copying an 0/12 Corrupted Shapeshifter with defender, you could make it a 3/3 or an 0/12, either way with flying and defender.
+  - *2024-06-07* — If an object on the battlefield becomes a copy of Corrupted Shapeshifter, it copies the values determined by its enters-the-battlefield replacement effect.
+  - *2024-06-07* — Other cards and abilities can give a card with devoid a color. If that happens, it's just the new color, not that color and colorless.
+  - *2024-06-07* — While not on the battlefield, Corrupted Shapeshifter is a 0/0 creature card. It doesn't have flying, vigilance, or defender.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/56/corrupted-shapeshifter) · oracle_id `5c4cbf1c-95ee-4555-8351-ea962e17ae1f` · printing: MH3 #56 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corrupted Zendikon
 
@@ -947,7 +1009,9 @@
   > *"Lungs full of sea air and a hold full of loot. Ah, what a life!"*
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5323 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/506/corsair-captain) · oracle_id `a7ec13c6-7ade-433a-b5a2-047854eef486` · printing: FDN #506 (2024-11-15) · [rulings](https://api.scryfall.com/cards/d5017dbc-07fd-45ea-9629-7c584144e8be/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-06-23* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to Pirates you control may become lethal if Corsair Captain leaves the battlefield during that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/506/corsair-captain) · oracle_id `a7ec13c6-7ade-433a-b5a2-047854eef486` · printing: FDN #506 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corsairs of Umbar
 
@@ -959,7 +1023,16 @@
   > Whenever this creature deals combat damage to a player, amass Orcs 3. (Put three +1/+1 counters on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first.)
 - **Keywords:** Amass
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6033 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/19/corsairs-of-umbar) · oracle_id `edc74fb9-a368-4f73-8147-f318a32a3d06` · printing: LTC #19 (2023-06-23) · [rulings](https://api.scryfall.com/cards/159727a9-0bc4-497d-8fb2-4a66923726d8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2023-06-16* — Activating Corsairs of Umbar's first ability after a Goblin, Orc, or Pirate has become blocked won't cause that creature to become unblocked.
+  - *2023-06-16* — Amass Zombies works the same way, except you create a 0/0 black Zombie Army creature token if you don't control an Army. If the Army creature you chose isn't already a Zombie, it becomes a Zombie in addition to its other types. By combining cards with amass Orcs and amass Zombies, you can end up with an Orc Zombie Army.
+  - *2023-06-16* — Amass abilities are now written as "amass [subtype] N." Previous cards with amass have received errata to say "amass Zombies N."
+  - *2023-06-16* — If you don't control an Army, the Orc Army token you create enters the battlefield as a 0/0 creature before receiving counters. Any abilities that trigger when a creature with a certain power enters the battlefield, such as that of Mentor of the Meek, will see the token enter as a 0/0 creature before it gets +1/+1 counters.
+  - *2023-06-16* — In the rare case that you control multiple Army creatures (perhaps because you played a creature with changeling) while you amass Orcs, you choose which of your Army creatures to put the +1/+1 counters on. If that creature isn't an Orc, it becomes an Orc in addition to its other types.
+  - *2023-06-16* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
+  - *2023-06-16* — Some spells and abilities that amass Orcs may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't amass Orcs.
+  - *2023-06-16* — To amass Orcs N, if you don't control an Army creature, create a 0/0 black Orc Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already an Orc, it becomes an Orc in addition to its other types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/19/corsairs-of-umbar) · oracle_id `edc74fb9-a368-4f73-8147-f318a32a3d06` · printing: LTC #19 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coruscation Mage
 

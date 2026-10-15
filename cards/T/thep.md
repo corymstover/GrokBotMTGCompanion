@@ -61,7 +61,23 @@
   > III — For each opponent, destroy up to one target artifact that player controls.
 - **Keywords:** Time Travel
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9817 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/91/the-parting-of-the-ways) · oracle_id `58d5b285-eb0c-4478-b137-26a897075f70` · printing: WHO #91 (2023-10-13) · [rulings](https://api.scryfall.com/cards/65015afb-cfdb-4373-a0db-0ca5e95c49a1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2023-10-13* — Time counters are usually found on cards with suspend and vanishing, but may be found on other cards as well. Notably, Sagas use lore counters to track their progress, not time counters. You can't move a Saga's chapters forward and backward this way.
+  - *2023-10-13* — To time travel, look at each permanent you control with a time counter on it and each suspended card you own in exile with a time counter on it. For each of them, you choose whether you want to put a time counter on that card or permanent, remove a time counter from it, or do neither. Then those changes all happen simultaneously.
+  - *2024-02-02* — Cards exiled with suspend are exiled face up.
+  - *2024-02-02* — Due to a recent rules change to suspend, you are no longer required to cast the suspended card as the second triggered ability of suspend resolves. Instead, as the second triggered ability resolves, you may cast the card. Timing permissions based on the card's type are ignored. If you don't cast the card, it remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to.
+  - *2024-02-02* — If an effect refers to a "suspended card," that means a card that (1) has suspend, (2) is in exile, and (3) has one or more time counters on it.
+  - *2024-02-02* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-02-02* — If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again at the beginning of the card's owner's next upkeep.
+  - *2024-02-02* — If the second triggered ability is countered, the card can't be cast. It remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it's exiled.
+  - *2024-02-02* — If you cast a card "without paying its mana cost," such as with suspend, you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those if you want to cast the card.
+  - *2024-02-02* — Suspend is a keyword that represents three abilities. The first is a static ability that allows you to exile the card from your hand with the specified number of time counters (the number before the dash) on it by paying its suspend cost (listed after the dash). The second is a triggered ability that removes a time counter from the suspended card at the beginning of each of your upkeeps. The third is a triggered ability that gives you the option to cast the card when the last time counter is removed.
+  - *2024-02-02* — The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.
+  - *2024-02-02* — When the last time counter is removed, the second triggered ability of suspend (the one that lets you cast the card) triggers. It doesn't matter why the last time counter was removed or what effect removed it.
+  - *2024-02-02* — You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effects that modify when you could cast it (such as flash) and any other effects that stop you from casting it (such as from Meddling Mage's ability) to determine if and when you can do this. Whether you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or that requires a target even if no legal targets are available at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/91/the-parting-of-the-ways) · oracle_id `58d5b285-eb0c-4478-b137-26a897075f70` · printing: WHO #91 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Peregrine Dynamo
 
@@ -75,7 +91,19 @@
   > *Jhoira stumbled upon an ally, not just a good source of spare parts.*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6532 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/19/the-peregrine-dynamo) · oracle_id `da21f1a7-65d0-46d0-8ad1-f84a387ba753` · printing: DMC #19 (2022-09-09) · [rulings](https://api.scryfall.com/cards/2e474c23-22d3-4249-b678-254b178ddf6f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2022-09-09* — A “legendary source” is a permanent, spell, or card in any zone with the supertype “legendary.” For example, The Peregrine Dynamo’s ability can target a cycling ability you’ve activated if the discarded card is a legendary card.
+  - *2022-09-09* — Activated abilities contain a colon. They’re generally written “[Cost]: [Effect].” Some keyword abilities (such as equip) are activated abilities and will have colons in their reminder text. An activated mana ability is one that produces mana as it resolves, not one that costs mana to activate.
+  - *2022-09-09* — Any choices made when the ability resolves won’t have been made yet when it’s copied. Any such choices will be made separately when the copy resolves. If a triggered ability asks you to pay a cost, you pay that cost for the copy separately.
+  - *2022-09-09* — If an ability is linked to a second ability, copies of that ability are also linked to that second ability. If the second ability refers to “the exiled card,” it refers to all cards exiled by the ability and the copy. For example, if Tidehollow Sculler’s enters-the-battlefield ability is copied and two cards are exiled, they both return when Tidehollow Sculler leaves the battlefield.
+  - *2022-09-09* — If the ability divides damage or distributes counters among a number of targets, the division and number of targets can’t be changed. If you choose new targets, you must choose the same number of targets.
+  - *2022-09-09* — If the ability is modal (that is, if it says, “Choose one —” or similar), the mode is copied and can’t be changed.
+  - *2022-09-09* — If the activated ability’s cost contains a choice, such as a creature to sacrifice or a number of counters to remove, the copy uses that same information. You can’t pay the cost again, even if you want to.
+  - *2022-09-09* — In some cases involving linked abilities, an ability requires information about “the exiled card.” When this happens, the ability gets multiple answers. If these answers are being used to determine the value of a variable, the sum is used. If an ability attempts to create a token that is a copy of “the exiled card,” it creates a token for each card exiled this way that is a copy of that card.
+  - *2022-09-09* — The Peregrine Dynamo’s ability targets an ability that is on the stack and creates another instance of that ability on the stack. It doesn’t cause any object to gain an ability.
+  - *2022-09-09* — The source of the copy is the same as the source of the original ability.
+  - *2022-09-09* — Triggered abilities use the word “when,” “whenever,” or “at.” They’re often written as “[Trigger condition], [effect].” Some keyword abilities are triggered abilities and will have “when,” “whenever,” or “at the beginning of” in their reminder text.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/19/the-peregrine-dynamo) · oracle_id `da21f1a7-65d0-46d0-8ad1-f84a387ba753` · printing: DMC #19 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Phasing of Zhalfir
 
@@ -155,7 +183,14 @@
   > {2}{U}{U}: Until end of turn, target creature you control gets +1/+0, gains "Whenever this creature deals combat damage to a player, draw cards equal to its toughness," and can attack as though it didn't have defender.
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5369 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/172/the-pride-of-hull-clade) · oracle_id `bbd7b756-bbee-451e-9446-06019791cb36` · printing: MKM #172 (2024-02-09) · [rulings](https://api.scryfall.com/cards/edb40ab9-e552-4eb5-9c35-09094136dd4f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-02-02* — If the target of The Pride of Hull Clade's last ability deals combat damage to a player but leaves the battlefield before the granted triggered ability resolves, use its toughness as it last existed on the battlefield to determine how many cards to draw.
+  - *2024-02-02* — Once you announce you're casting a spell, no player may take actions until the spell has been paid for. Notably, opponents can't try to reduce the total toughness of creatures you control.
+  - *2024-02-02* — Once you determine the cost to cast The Pride of Hull Clade, you may activate mana abilities to pay that cost. If the total toughness of creatures you control changes while activating mana abilities, the cost to cast The Pride of Hull Clade remains what you previously determined.
+  - *2024-02-02* — The Pride of Hull Clade's cost reduction ability can't reduce the total cost to cast the spell below {G}.
+  - *2024-02-02* — The Pride of Hull Clade's mana value doesn't change no matter what the total toughness of creatures you control is.
+  - *2024-02-02* — The first step of casting a spell is to move it to the stack. If this causes the total toughness of creatures you control to change (perhaps because you control a creature whose toughness is determined by the number of cards in your hand), that new toughness will be used to determine the cost reduction.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/172/the-pride-of-hull-clade) · oracle_id `bbd7b756-bbee-451e-9446-06019791cb36` · printing: MKM #172 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Prima Vista
 
@@ -225,4 +260,6 @@
   > Crew 2
 - **Keywords:** Flying, Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6890 · Game Changer: no · Can be commander: Yes (legendary Vehicle, CR 903.3)
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/22/the-prydwen-steel-flagship) · oracle_id `f6ea8085-5ba9-43b6-994d-04be35c5793b` · printing: PIP #22 (2024-03-08) · [rulings](https://api.scryfall.com/cards/9c0a8eda-bfeb-4fd9-9e41-12fce02883d8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-03-08* — Once an artifact enters the battlefield under your control in a given turn, it doesn't matter what happens to it later. A Knight token created by The Prydwen, Steel Flagship's second ability will still get +2/+2 for the rest of that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/22/the-prydwen-steel-flagship) · oracle_id `f6ea8085-5ba9-43b6-994d-04be35c5793b` · printing: PIP #22 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

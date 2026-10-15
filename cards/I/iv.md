@@ -35,7 +35,11 @@
   > Whenever you discard a card, put a +1/+1 counter on Ivora.
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5788 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/j25/50/ivora-insatiable-heir) · oracle_id `d847542b-7522-43ec-91b0-f0aba5d7dddd` · printing: J25 #50 (2024-11-15) · [rulings](https://api.scryfall.com/cards/2ba70366-b6ae-423a-a8d8-29d2b8afd939/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-01-24* — If an effect refers to a Blood token, it means any artifact token with the subtype Blood, even if it has gained other subtypes.
+  - *2025-01-24* — Some triggered abilities trigger "whenever you sacrifice a Blood token." These abilities trigger regardless of why you sacrificed that Blood token.
+  - *2025-01-24* — You can't sacrifice a Blood token to pay multiple costs.
+- **Source flags:** [Scryfall](https://scryfall.com/card/j25/50/ivora-insatiable-heir) · oracle_id `d847542b-7522-43ec-91b0-f0aba5d7dddd` · printing: J25 #50 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ivory Charm
 
@@ -130,7 +134,9 @@
 - **Flavor text** (VMA printing):
   > *Valuing scholarship above all else, the inhabitants of the Ivory Tower reward those who sacrifice power for knowledge.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5750 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/vma/269/ivory-tower) · oracle_id `d416a4ed-9f16-4a8b-8aee-03c630e1eb6c` · printing: VMA #269 (2014-06-16) · [rulings](https://api.scryfall.com/cards/aaf91af0-0243-4dca-90de-d7580f4f9d38/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — If you have four or fewer cards in your hand when Ivory Tower's ability resolves, the ability has no effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vma/269/ivory-tower) · oracle_id `d416a4ed-9f16-4a8b-8aee-03c630e1eb6c` · printing: VMA #269 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ivorytusk Fortress
 
@@ -178,7 +184,16 @@
   > Whenever a player casts a spell that targets only a single creature other than Ivy, you may copy that spell. The copy targets Ivy. (A copy of an Aura spell becomes a token.)
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6112 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/201/ivy-gleeful-spellthief) · oracle_id `55ad6a6b-1c44-4397-86ae-dd9221892b22` · printing: DMU #201 (2022-09-09) · [rulings](https://api.scryfall.com/cards/d94c15b7-6c8f-45a6-8734-975e3e3b790c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2022-09-09* — If Ivy, Gleeful Spellthief isn't a legal target for the spell, no copy can be created.
+  - *2022-09-09* — If a spell has multiple targets but all of them are the same creature, Ivy, Gleeful Spellthief's second ability will trigger.
+  - *2022-09-09* — If the spell that's copied has an X whose value was determined as it was cast, the copy has the same value of X.
+  - *2022-09-09* — If the spell that's copied is modal (that is, it says "Choose one —" or the like), the copy will have the same mode. You can't choose a different one.
+  - *2022-09-09* — The controller of a copy can't choose to pay any additional costs for the copy. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too. Notably, if the spell you copy was kicked, the copies will also be kicked.
+  - *2022-09-09* — The copy is created even if the spell that caused the ability to trigger has been countered by the time the ability resolves. The copy resolves before the original spell.
+  - *2022-09-09* — The copy that Ivy, Gleeful Spellthief's second ability creates is created on the stack, so it's not "cast." Other abilities that trigger when a player casts a spell won't trigger.
+  - *2022-09-09* — The second ability triggers whenever a player casts a spell that targets only one creature and no other object or player. It doesn't matter who controls the creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/201/ivy-gleeful-spellthief) · oracle_id `55ad6a6b-1c44-4397-86ae-dd9221892b22` · printing: DMU #201 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ivy Lane Denizen
 
@@ -190,7 +205,10 @@
 - **Flavor text** (CLU printing):
   > *"Skyknight gear? Well, I have drake-skin gauntlets, supple and fireproof. Or a ceratok chestplate that'll stop a crossbow bolt."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2485 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/166/ivy-lane-denizen) · oracle_id `a5da5ad6-4ed2-4041-a983-76a8c87fa109` · printing: CLU #166 (2024-02-23) · [rulings](https://api.scryfall.com/cards/b6936a91-db5d-4977-a851-2dc6a4141ceb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-11-10* — Ivy Lane Denizen can be chosen as the target of its own ability.
+  - *2020-11-10* — The green creature that entered the battlefield can be chosen as the target of Ivy Lane Denizen's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/166/ivy-lane-denizen) · oracle_id `a5da5ad6-4ed2-4041-a983-76a8c87fa109` · printing: CLU #166 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ivy Seer
 

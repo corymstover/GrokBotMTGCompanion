@@ -35,7 +35,18 @@
   > Land cards in your graveyard have dredge 2. (You may return a land card from your graveyard to your hand and mill two cards instead of drawing a card.)
 - **Keywords:** Mill, Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3808 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/194/the-necrobloom) · oracle_id `b981af39-4ee6-4fbc-9a89-618dcad9dfbf` · printing: MH3 #194 (2024-06-14) · [rulings](https://api.scryfall.com/cards/8fcf68cf-0dac-4b29-90d5-c18c685182e6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2024-06-07* — Dredge can replace any card draw, not just the one during your draw step. One card draw can't be replaced by multiple dredge abilities.
+  - *2024-06-07* — If an effect puts a card into your hand without specifically using the word "draw," you're not drawing a card. Dredge can't replace this event.
+  - *2024-06-07* — If multiple lands enter the battlefield under your control simultaneously, all of those lands are counted. For example, if you sacrifice seven lands while resolving Scapeshift and search your library for seven lands with different names, you'll create seven Zombie tokens.
+  - *2024-06-07* — If you control multiple lands with the same name, only one of those lands will count toward the seven or more required to create a Zombie. For example, if you control four lands named Forest, two named Plains, and one named Swamp, you control three lands with different names.
+  - *2024-06-07* — If you're drawing multiple cards, each draw is performed one at a time. For example, if you're instructed to draw two cards and you replace the first draw with a dredge ability, another card with a dredge ability (including one that was put into your graveyard by the first dredge ability) may be used to replace the second draw.
+  - *2024-06-07* — Once you've announced that you're applying a card's dredge ability to replace a draw, players can't take any action until you've put that card into your hand and put the top cards of your library into your graveyard.
+  - *2024-06-07* — You can't attempt to use a dredge ability if you don't have enough cards in your library.
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/194/the-necrobloom) · oracle_id `b981af39-4ee6-4fbc-9a89-618dcad9dfbf` · printing: MH3 #194 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Neutrinos
 
@@ -59,6 +70,7 @@
   > I — Destroy all creatures.
   > II — Return target legendary creature card from your graveyard to the battlefield. Put your choice of a first strike, vigilance, or lifelink counter on it.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9591 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/24/the-night-of-the-doctor) · oracle_id `a9c1fa95-34a8-42ef-af2f-1394df23cad8` · printing: WHO #24 (2023-10-13) · [rulings](https://api.scryfall.com/cards/513d33fb-becc-4804-806a-764d08fc7b7d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Ninth Doctor
@@ -73,7 +85,12 @@
   > *"Fantastic!"*
 - **Keywords:** Into the TARDIS, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7141 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/148/the-ninth-doctor) · oracle_id `c99f59c0-5cce-41a4-908f-d34e2c697419` · printing: WHO #148 (2023-10-13) · [rulings](https://api.scryfall.com/cards/74785b3b-44df-4555-a036-082572b7f4e7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2023-10-13* — If an effect instructs you to choose a creature type, you may choose Time Lord.
+  - *2023-10-13* — Neither "Time" nor "Lord" are creature types. Some older cards were printed with the subtype "Lord," but all of those cards have updated Oracle card text that removed that type.
+  - *2023-10-13* — The Ninth Doctor's ability triggers during the untap step and goes onto the stack at the beginning of the next step (usually the upkeep). The additional upkeep is taken after that step, not after the untap step.
+  - *2023-10-13* — Unlike other creature types in Magic that are each only one word, the two words "Time Lord" represent a single creature subtype. Time Lord is the only two-word creature type.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/148/the-ninth-doctor) · oracle_id `c99f59c0-5cce-41a4-908f-d34e2c697419` · printing: WHO #148 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Nipton Lottery
 

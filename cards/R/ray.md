@@ -70,7 +70,14 @@
   > Whenever a creature you control with a counter on it deals combat damage to a player, draw a card.
 - **Keywords:** Flying, Evolve
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7132 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmc/14/ray-fillet-wave-warrior) · oracle_id `206913aa-4d73-4465-8311-8054a22c0743` · printing: TMC #14 (2026-03-06) · [rulings](https://api.scryfall.com/cards/796c1b1c-c701-4c7e-922b-0964f04e03a6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2026-01-27* — If a creature enters with +1/+1 counters on it, consider those counters when determining if evolve will trigger. For example, a 1/1 creature that enters with two +1/+1 counters on it will cause the evolve ability of a 2/2 creature to trigger.
+  - *2026-01-27* — If evolve triggers, the stat comparison will happen again when the ability tries to resolve. If neither stat of the new creature is greater, the ability will do nothing. If the creature that entered the battlefield leaves the battlefield before evolve tries to resolve, use its last known power and toughness to compare the stats.
+  - *2026-01-27* — If multiple creatures enter at the same time, evolve may trigger multiple times, although the stat comparison will take place each time one of those abilities tries to resolve. For example, if you control a 2/2 creature with evolve and two 3/3 creatures you control enter, evolve will trigger twice. The first ability will resolve and put a +1/+1 counter on the creature with evolve. When the second ability tries to resolve, neither the power nor the toughness of the new creature is greater than that of the creature with evolve, so that ability does nothing.
+  - *2026-01-27* — When comparing the stats as the evolve ability resolves, it's possible that the stat that's greater changes from power to toughness or vice versa. If this happens, the ability will still resolve and you'll put a +1/+1 counter on the creature with evolve. For example, if you control a 2/2 creature with evolve and a 1/3 creature you control enters, its toughness is greater, so evolve will trigger. In response, the 1/3 creature gets +2/-2. When the evolve trigger tries to resolve, its power is greater. You'll put a +1/+1 counter on the creature with evolve.
+  - *2026-01-27* — When comparing the stats of the two creatures for evolve, you always compare power to power and toughness to toughness.
+  - *2026-01-27* — Whenever a creature you control enters check its power and toughness against the power and toughness of the creature with evolve. If neither stat of the new creature is greater, evolve won't trigger at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmc/14/ray-fillet-wave-warrior) · oracle_id `206913aa-4d73-4465-8311-8054a22c0743` · printing: TMC #14 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rayne, Academy Chancellor
 

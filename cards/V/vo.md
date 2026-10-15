@@ -202,6 +202,7 @@
   > *"You're just one more pollutant to be removed from the sea."*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4683 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/75/vodalian-hexcatcher) · oracle_id `4246b503-0da8-4de7-9343-9dfb3c3672df` · printing: DMU #75 (2022-09-09) · [rulings](https://api.scryfall.com/cards/4ec464dc-b1dd-4e45-b093-c3ad65a74050/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vodalian Hypnotist
@@ -346,7 +347,9 @@
 - **Flavor text** (MOC printing):
   > *As Phyrexian portals roared open, she whispered a prayer to Svyelun for the strength to cleanse the sky.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6296 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/43/vodalian-wave-knight) · oracle_id `148145ef-a368-4caf-921d-e3809adf03de` · printing: MOC #43 (2023-04-21) · [rulings](https://api.scryfall.com/cards/9889fe0b-d93f-4f84-9081-4bc4efc4127a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-04-14* — If a creature you control is both a Merfolk and a Knight, it gets one +1/+1 counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/43/vodalian-wave-knight) · oracle_id `148145ef-a368-4caf-921d-e3809adf03de` · printing: MOC #43 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vodalian Zombie
 
@@ -397,7 +400,9 @@
   > {T}: Draw a card, then discard a card. If you discarded an instant or sorcery card this way, each opponent loses 1 life and you gain 1 life.
   > {2}, Sacrifice Vohar: You may cast target instant or sorcery card from your graveyard this turn. If that spell would be put into your graveyard, exile it instead. Activate only as a sorcery.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3908 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/226/vohar-vodalian-desecrator) · oracle_id `4380df08-7be4-48ca-9783-d644fd2ea27d` · printing: DMU #226 (2022-09-09) · [rulings](https://api.scryfall.com/cards/807c7812-c108-45a7-a5b2-08cc693bc500/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-09-09* — You must pay all costs and follow all normal timing rules for cards cast with Vohar, Vodalian Desecrator's last ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/226/vohar-vodalian-desecrator) · oracle_id `4380df08-7be4-48ca-9783-d644fd2ea27d` · printing: DMU #226 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Voiceless Spirit
 
@@ -514,7 +519,14 @@
   > As long as this creature has four or more +1/+1 counters on it, it has flying and vigilance.
   > As long as this creature has ten or more +1/+1 counters on it, it has indestructible.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2988 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/50/voice-of-the-blessed) · oracle_id `01e742ed-660c-43c6-b393-e589a54cbe1b` · printing: INR #50 (2025-01-24) · [rulings](https://api.scryfall.com/cards/62534128-2a85-4a36-bc7b-e4f4c51fa1f6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-11-19* — Each creature with lifelink dealing combat damage causes a separate life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, Voice of the Blessed's first ability will trigger twice. However, if a single creature you control with lifelink deals combat damage to multiple creatures, players, and/or planeswalkers at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once.
+  - *2021-11-19* — Gaining flying after it has become blocked won't cause Voice of the Blessed to become unblocked.
+  - *2021-11-19* — If Voice of the Blessed is dealt lethal damage at the same time that you gain life, it won't receive a counter from its ability in time to save it.
+  - *2021-11-19* — If you gain an amount of life “for each” of something, that life is gained as one event and the ability of Voice of the Blessed triggers only once.
+  - *2021-11-19* — In a Two-Headed Giant game, life gained by your teammate won't cause the first ability to trigger, even though it caused your team's life total to increase.
+  - *2021-11-19* — The first ability of Voice of the Blessed triggers just once for each life-gaining event, no matter how much life was gained.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/50/voice-of-the-blessed) · oracle_id `01e742ed-660c-43c6-b393-e589a54cbe1b` · printing: INR #50 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Voice of the Provinces
 
@@ -631,7 +643,11 @@
   > When you cycle this card, put a deathtouch counter on target creature you control.
 - **Keywords:** Cycling, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7554 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/iko/104/void-beckoner) · oracle_id `7185e345-d8a1-4dd3-a071-f90f265634b4` · printing: IKO #104 (2020-04-24) · [rulings](https://api.scryfall.com/cards/a1523cda-c47d-4419-a5d3-fd6ed9867c56/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-04-17* — Some cards with cycling have an ability that triggers when you cycle them, and some cards have an ability that triggers whenever you cycle any card. These triggered abilities resolve before you draw from the cycling ability.
+  - *2020-04-17* — Triggered abilities from cycling a card and the cycling ability itself aren't spells. Effects that interact with spells (such as that of Cancel) won't affect them.
+  - *2020-04-17* — You can cycle a card even if it has a triggered ability from cycling that won't have a legal target. This is because the cycling ability and the triggered ability are separate. This also means that if either ability is countered (with Disallow, for example), the other ability will still resolve.
+- **Source flags:** [Scryfall](https://scryfall.com/card/iko/104/void-beckoner) · oracle_id `7185e345-d8a1-4dd3-a071-f90f265634b4` · printing: IKO #104 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Void Extrapolator // Omit Variables
 
@@ -797,7 +813,13 @@
   > *"It is technically an ooze, but its lifespan measures only seconds. In that short time, its appetite for magic is extraordinary."*
   > *—Simic research notes*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4600 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/237/voidslime) · oracle_id `c4851768-e210-4aaf-935e-715942e198f9` · printing: RVR #237 (2024-01-12) · [rulings](https://api.scryfall.com/cards/87e802b0-52a1-4108-ab4c-cb8ddc27e000/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-01-12* — Abilities that create replacement effects, such as a permanent entering the battlefield tapped or with counters on it, can't be targeted. Abilities that apply "as [this creature] enters the battlefield" are also replacement effects and can't be targeted.
+  - *2024-01-12* — Activated abilities are written in the form "[Cost]: [Effect]." Some keyword abilities, such as equip, are activated abilities and will have colons in their reminder texts. Loyalty abilities of planeswalkers are activated abilities.
+  - *2024-01-12* — An activated mana ability is one that adds mana as it resolves, doesn't have a target, and isn't a loyalty ability. A triggered mana ability is one that adds mana and triggers on an activated mana ability.
+  - *2024-01-12* — If you counter a delayed triggered ability that triggered at the beginning of the "next" occurrence of a specified step or phase, that ability won't trigger again the following time that phase or step occurs.
+  - *2024-01-12* — Triggered abilities use the word "when," "whenever," or "at." They're often written as "[Trigger condition], [effect]." Some keyword abilities, such as afterlife, are triggered abilities and will have "when," "whenever," or "at" in their reminder text.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/237/voidslime) · oracle_id `c4851768-e210-4aaf-935e-715942e198f9` · printing: RVR #237 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Void Snare
 
@@ -883,7 +905,21 @@
   > When you proliferate, return this card from your graveyard to your hand.
 - **Keywords:** Flying, Toxic, Proliferate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7549 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/221/voidwing-hybrid) · oracle_id `0dab592c-a230-408d-a383-044e561dbe5d` · printing: ONE #221 (2023-02-10) · [rulings](https://api.scryfall.com/cards/8a48705f-bd8a-43f1-b1fe-14a5c9a83ccd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2023-02-04* — A player with ten or more poison counters loses the game. This is a state-based action and doesn't use the stack. In other words, it happens immediately and players can't respond to it, just like a player losing the game due to having 0 or less life.
+  - *2023-02-04* — An ability that triggers "Whenever you proliferate" triggers even if you chose no permanents or players while doing so.
+  - *2023-02-04* — Any other effects of that damage, such as life gain from lifelink, still apply.
+  - *2023-02-04* — Conversely, replacement effects that apply to the number of counters put on a player can modify the counters placed this way. For example, Vorinclex, Monstrous Raider's last two abilities can apply to counters placed this way.
+  - *2023-02-04* — Damage dealt by a creature with toxic grants the same number of counters regardless of how much damage is dealt. Notably, if a replacement effect modifies the damage in some way (such as that of Gratuitous Violence), the number of counters given remains unchanged.
+  - *2023-02-04* — If a creature with toxic deals combat damage to a creature or planeswalker, or if it deals noncombat damage, toxic has no effect and no player gets poison counters.
+  - *2023-02-04* — If a permanent ever has both +1/+1 counters and -1/-1 counters on it at the same time, they're removed in pairs as a state-based action so that the permanent has only one of those kinds of counters on it.
+  - *2023-02-04* — If a player or permanent has more than one kind of counter on it, and you choose for it to get additional counters, it must get one of each kind of counter it already has. You can't have it get just one kind of counter it already has and not the others.
+  - *2023-02-04* — Multiple instances of toxic are cumulative. For example, if a creature has toxic 2 and gains toxic 1 due to another effect, combat damage that creature deals to a player will cause that player to get 3 poison counters.
+  - *2023-02-04* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
+  - *2023-02-04* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
+  - *2023-02-04* — Toxic doesn't change the amount of combat damage a creature deals. For example, if a 2/2 creature with toxic 1 deals combat damage to a player, that creature will deal 2 damage. The results of that damage are the player loses 2 life and gets a poison counter.
+  - *2023-02-04* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/221/voidwing-hybrid) · oracle_id `0dab592c-a230-408d-a383-044e561dbe5d` · printing: ONE #221 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Void Winnower
 
@@ -897,7 +933,13 @@
   > *"Have you ever seen a world fall to its knees? Watch, and learn."*
   > *—Ob Nixilis*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1668 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/17/void-winnower) · oracle_id `70ac902e-1eb5-4f83-a5a6-00ac89cfe50f` · printing: BFZ #17 (2015-10-02) · [rulings](https://api.scryfall.com/cards/8cbedb0a-34ca-4d42-bb43-cbea0f3c6d02/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2015-08-25* — Effects that increase or reduce the cost to cast a spell don't affect that spell's mana value.
+  - *2015-08-25* — For creatures on the battlefield with {X} in their mana costs, the value for X is 0. Mistcutter Hydra (a creature with mana cost {X}{G}) could block, but Endless One could not.
+  - *2015-08-25* — For spells with {X} in their mana costs, use the value chosen for X to determine if the spell's mana value is even or not. For example, your opponent could cast Endless One (with mana cost {X}) with X equal to 5, but not with X equal to 6.
+  - *2015-08-25* — The mana value of a face-down creature spell or a face-down creature is 0. Void Winnower will stop face-down creature spells from being cast and face-down creatures from blocking.
+  - *2015-08-25* — Yes, your opponent can't even. We know.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/17/void-winnower) · oracle_id `70ac902e-1eb5-4f83-a5a6-00ac89cfe50f` · printing: BFZ #17 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Voja, Jaws of the Conclave
 
@@ -909,6 +951,7 @@
   > Whenever Voja attacks, put X +1/+1 counters on each creature you control, where X is the number of Elves you control. Draw a card for each Wolf you control.
 - **Keywords:** Vigilance, Trample, Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6314 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/432/voja-jaws-of-the-conclave) · oracle_id `d94ff0b8-5499-4eeb-80f0-20c7fbf07499` · printing: MKM #432 (2024-02-09) · [rulings](https://api.scryfall.com/cards/bfa1bd2f-25bd-4fbd-877b-cef00ab7f92f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Volatile Arsonist // Dire-Strain Anarchist
@@ -959,7 +1002,10 @@
   > {1}, {T}, Sacrifice this land: Destroy target nonbasic land an opponent controls. That player may search their library for a basic land card, put it onto the battlefield, then shuffle. You create a Treasure token.
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2696 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/286/volatile-fault) · oracle_id `95c44f28-f7fa-4785-83b9-0d81be0db0c8` · printing: LCI #286 (2023-11-17) · [rulings](https://api.scryfall.com/cards/9385abf3-b067-4586-bf3d-175526cf8f0a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-11-10* — If Volatile Fault's ability resolves, the target nonbasic land's controller gets to search for a basic land card even if the land wasn't destroyed by Volatile Fault's ability. This may happen because the land has indestructible. In this case, you'll still create a Treasure token.
+  - *2023-11-10* — If the target of Volatile Fault's last ability is illegal as the ability tries to resolve, it won't resolve and none of its effects will happen. You won't create a Treasure token.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/286/volatile-fault) · oracle_id `95c44f28-f7fa-4785-83b9-0d81be0db0c8` · printing: LCI #286 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Volatile Fjord
 
@@ -972,7 +1018,13 @@
   > *"I watched with my own eyes as Jari Eagle-Caller fell from these cliffs, only to be snatched from the air by a giant bird!"*
   > *—Iskene, Kannah storyteller*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5437 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/273/volatile-fjord) · oracle_id `96262c15-9130-409c-8242-71f84be719b7` · printing: KHM #273 (2021-02-05) · [rulings](https://api.scryfall.com/cards/f2392fbb-d9c4-4688-b99c-4e7614c60c12/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-02-05* — Snow is a supertype, not a card type. It has no rules meaning or function by itself, but spells and abilities may refer to it.
+  - *2021-02-05* — Snow isn't a type of mana. If an effect says you may spend mana as though it were any type, you can't pay for {S} using mana that wasn't produced by a snow source.
+  - *2021-02-05* — Some cards have additional effects for each {S} spent to cast them. You can cast these spells even if you don't spend any snow mana to cast them; their additional effects simply won't do anything.
+  - *2021-02-05* — The Kaldheim set doesn't have any cards with mana costs that include {S}, but some previous sets do. If an effect says such a spell costs {1} less to cast, that reduction doesn't apply to any {S} costs. This is also true for activated abilities that include {S} in their activation costs and effects that reduce those costs.
+  - *2021-02-05* — The {S} symbol is a generic mana symbol. It represents a cost that can be paid by one mana that was produced by a snow source. That mana can be any color or colorless.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/273/volatile-fjord) · oracle_id `96262c15-9130-409c-8242-71f84be719b7` · printing: KHM #273 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Volatile Rig
 
@@ -998,7 +1050,21 @@
   > When this creature enters, exchange control of this creature and target creature an opponent controls. If you do, you get {E}{E}{E}{E}, then sacrifice that creature unless you pay an amount of {E} equal to its mana value.
 - **Keywords:** Flying, Hexproof from, Hexproof
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2069 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/79/volatile-stormdrake) · oracle_id `08d64b16-9221-4532-890c-d5cdbf181e28` · printing: MH3 #79 (2024-06-14) · [rulings](https://api.scryfall.com/cards/2e6e3232-8bb8-4504-9597-dfdfc6d634bd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2024-06-07* — As Volatile Stormdrake's last ability resolves, Volatile Stormdrake must be on the battlefield and the target creature must be a legal target. If either of these things isn't true, the ability does nothing.
+  - *2024-06-07* — Energy counters are a kind of counter that a player may have. They're not associated with any specific permanents.
+  - *2024-06-07* — Energy counters aren't mana. They don't go away as steps, phases, and turns end, and effects that add mana "of any type" can't give you energy counters.
+  - *2024-06-07* — If a spell or ability with one or more targets states that you "may pay" some amount of {E}, and each permanent that it targets has become an illegal target, the spell or ability won't resolve. You can't pay any {E} even if you want to.
+  - *2024-06-07* — If an effect says you get one or more {E}, you get that many energy counters. To pay one or more {E}, you lose that many energy counters. You can't pay more energy counters than you have. Any effects that interact with counters a player gets, has, or loses can interact with energy counters.
+  - *2024-06-07* — In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, the effect giving you control of the target creature ends.
+  - *2024-06-07* — Keep track of how many energy counters each player has. Potential ways to track this include writing theme down on paper or using dice, but any method that is clear and mutually agreeable is fine. (At higher levels of tournament play, dice may not be allowed for tracking counters that players have.)
+  - *2024-06-07* — Some spells and abilities that give you {E} may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't get any {E}.
+  - *2024-06-07* — Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
+  - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
+  - *2024-06-07* — The effect of Volatile Stormdrake's last ability lasts indefinitely. It doesn't wear off during the cleanup step, and it doesn't expire if Volatile Stormdrake leaves the battlefield.
+  - *2024-06-07* — Volatile Stormdrake can't be the target of any activated or triggered abilities your opponents control.
+  - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/79/volatile-stormdrake) · oracle_id `08d64b16-9221-4532-890c-d5cdbf181e28` · printing: MH3 #79 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Volatile Wanderglyph
 
@@ -1058,7 +1124,9 @@
   > *"How can we outrun the sky?"*
   > *—Hadran, sunseeder of Naya*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8346 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/418/volcanic-fallout) · oracle_id `bd6ce147-c991-40ac-b276-65b630fad8b6` · printing: CMR #418 (2020-11-20) · [rulings](https://api.scryfall.com/cards/6109c345-ce73-44b6-9228-5c4882764fab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-02-01* — Volcanic Fallout can be targeted by spells that try to counter it (such as Countersquall). Those spells will still resolve, but the part of their effect that would counter Volcanic Fallout won't do anything. Any other effects those spells have will work as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/418/volcanic-fallout) · oracle_id `bd6ce147-c991-40ac-b276-65b630fad8b6` · printing: CMR #418 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Volcanic Geyser
 
@@ -1139,7 +1207,14 @@
 - **Flavor text** (SOC printing):
   > *Seeing it coming a mile away is little comfort if you can't get out of range in time.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8642 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/259/volcanic-salvo) · oracle_id `9c2fd3a3-96f2-4e84-85a9-77698c2f83aa` · printing: SOC #259 (2026-04-24) · [rulings](https://api.scryfall.com/cards/fdd9dda5-0386-45a4-aec1-853137281934/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2020-06-23* — If a creature's power is somehow less than 0, it subtracts from the total power of your other creatures. If the total power of your creatures is 0 or less, the cost remains {10}{R}{R}.
+  - *2020-06-23* — Once you begin to cast Volcanic Salvo, players can't take other actions until you've finished casting it. Notably, they can't try to change the total power of your creatures.
+  - *2020-06-23* — The cost reduction applies only to generic mana in the cost of Volcanic Salvo. It can't reduce the {R}{R} requirement.
+  - *2020-06-23* — The total cost to cast Volcanic Salvo is locked in before you pay that cost. For example, if you control three 2/2 creatures, including one you can sacrifice to add {C}, the total cost is {4}{R}{R}. Then you can sacrifice the creature when you activate mana abilities just before paying the cost.
+  - *2020-06-23* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions (such as that of Volcanic Salvo). The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+  - *2020-06-23* — You can't target the same creature or planeswalker twice with Volcanic Salvo to deal 12 damage to it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/259/volcanic-salvo) · oracle_id `9c2fd3a3-96f2-4e84-85a9-77698c2f83aa` · printing: SOC #259 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Volcanic Spite
 
@@ -1198,7 +1273,19 @@
   > Volcanic Torrent deals X damage to each creature and planeswalker your opponents control, where X is the number of spells you've cast this turn.
 - **Keywords:** Cascade
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4021 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/260/volcanic-torrent) · oracle_id `ec2968fb-163d-4907-862b-b84a1f167833` · printing: SOC #260 (2026-04-24) · [rulings](https://api.scryfall.com/cards/bddd4336-ef03-4c4e-9992-02a0548d2d6f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2020-11-10* — If you copy a spell, Volcanic Torrent won't count the copy. However, if an effect instructs you to copy a card and then cast the copy, it will be counted by Volcanic Torrent.
+  - *2020-11-10* — The value of X is calculated as Volcanic Torrent resolves. It will include Volcanic Torrent, spells you cast in response to Volcanic Torrent, and spells you cast prior to casting Volcanic Torrent, even if those spells haven't resolved yet. For example, say the first spell you cast in a turn has cascade and that cascade ability causes you to cast Volcanic Torrent. Then Volcanic Torrent's cascade ability causes you to cast another spell. When Volcanic Torrent resolves, X will be 3.
+  - *2021-06-18* — A spell's mana value is determined only by its mana cost. Ignore any alternative costs, additional costs, cost increases, or cost reductions.
+  - *2021-06-18* — Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade.
+  - *2021-06-18* — Due to a 2021 rules change to cascade, not only do you stop exiling cards if you exile a nonland card with lesser mana value than the spell with cascade, but the resulting spell you cast must also have lesser mana value. Previously, in cases where a card's mana value differed from the resulting spell, such as with some modal double-faced cards or cards with an Adventure, you could cast a spell with a higher mana value than the exiled card.
+  - *2021-06-18* — If a spell with cascade is countered, the cascade ability will still resolve normally.
+  - *2021-06-18* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2021-06-18* — If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those to cast the card.
+  - *2021-06-18* — The mana value of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves.
+  - *2021-06-18* — When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled.
+  - *2021-06-18* — You exile the cards face up. All players will be able to see them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/260/volcanic-torrent) · oracle_id `ec2968fb-163d-4907-862b-b84a1f167833` · printing: SOC #260 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Volcanic Upheaval
 
@@ -1233,7 +1320,10 @@
 - **Oracle text:**
   > Return target instant or sorcery card from your graveyard to your hand. Volcanic Vision deals damage equal to that card's mana value to each creature your opponents control. Exile Volcanic Vision.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4783 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c21/182/volcanic-vision) · oracle_id `fe3b4c74-2bf8-464a-8f55-9de401a8c4b9` · printing: C21 #182 (2021-04-23) · [rulings](https://api.scryfall.com/cards/f973e1a6-c6f9-47f5-9bf0-b7fa06959bd4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2015-02-25* — If the target has {X} in its mana cost, X is 0.
+  - *2015-02-25* — If the target instant or sorcery card becomes an illegal target before Volcanic Vision resolves, the spell won’t resolve and none of its effects will happen. No damage will be dealt and Volcanic Vision won’t be exiled.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c21/182/volcanic-vision) · oracle_id `fe3b4c74-2bf8-464a-8f55-9de401a8c4b9` · printing: C21 #182 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Volcanic Wind
 
@@ -1299,7 +1389,13 @@
   > *"Humans throw rice and release doves at their weddings? How quaint."*
 - **Keywords:** Flying, Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6874 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/138/voldaren-bloodcaster-bloodbat-summoner) · oracle_id `a720f3d3-c2d7-4e50-8cc6-600120380e9c` · printing: INR #138 (2025-01-24) · [rulings](https://api.scryfall.com/cards/4b4390f4-451f-4575-96e0-dc4dcb45ad8f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-01-24* — Blood tokens that become Bats with Bloodbat Summoner’s ability are still Blood artifact tokens and still have “{1}, {T}, Discard a card, Sacrifice this token: Draw a card.”
+  - *2025-01-24* — If an effect refers to a Blood token, it means any artifact token with the subtype Blood, even if it has gained other subtypes.
+  - *2025-01-24* — Some triggered abilities trigger "whenever you sacrifice a Blood token." These abilities trigger regardless of why you sacrificed that Blood token.
+  - *2025-01-24* — Voldaren Bloodcaster’s last ability checks how many Blood tokens you have both as it triggers and as it resolves. If you don’t control at least five Blood tokens at both of those times, it won’t transform.
+  - *2025-01-24* — You can't sacrifice a Blood token to pay multiple costs.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/138/voldaren-bloodcaster-bloodbat-summoner) · oracle_id `a720f3d3-c2d7-4e50-8cc6-600120380e9c` · printing: INR #138 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Voldaren Duelist
 
@@ -1325,7 +1421,11 @@
 - **Flavor text** (INR printing):
   > *"If you're not refining your tastes, what's the point of living forever?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5228 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/182/voldaren-epicure) · oracle_id `cef82674-1f61-407b-801b-a76a3803e598` · printing: INR #182 (2025-01-24) · [rulings](https://api.scryfall.com/cards/e8fe855c-fe94-4de7-a033-9892a9d6ee0e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-01-24* — If an effect refers to a Blood token, it means any artifact token with the subtype Blood, even if it has gained other subtypes.
+  - *2025-01-24* — Some triggered abilities trigger "whenever you sacrifice a Blood token." These abilities trigger regardless of why you sacrificed that Blood token.
+  - *2025-01-24* — You can't sacrifice a Blood token to pay multiple costs.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/182/voldaren-epicure) · oracle_id `cef82674-1f61-407b-801b-a76a3803e598` · printing: INR #182 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Voldaren Estate
 
@@ -1336,7 +1436,12 @@
   > {T}, Pay 1 life: Add one mana of any color. Spend this mana only to cast a Vampire spell.
   > {5}, {T}: Create a Blood token. This ability costs {1} less to activate for each Vampire you control. (It's an artifact with "{1}, {T}, Discard a card, Sacrifice this token: Draw a card.")
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2504 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/369/voldaren-estate) · oracle_id `fb0c0426-f1a6-4e52-9242-627786d3119a` · printing: LCC #369 (2023-11-17) · [rulings](https://api.scryfall.com/cards/1fcbc704-4fb3-49c3-9040-aa1681e86e2c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-11-19* — A Vampire spell is a spell with the creature type Vampire on its type line, regardless of whether the word "Vampire" is in its name.
+  - *2025-01-24* — If an effect refers to a Blood token, it means any artifact token with the subtype Blood, even if it has gained other subtypes.
+  - *2025-01-24* — Some triggered abilities trigger "whenever you sacrifice a Blood token." These abilities trigger regardless of why you sacrificed that Blood token.
+  - *2025-01-24* — You can't sacrifice a Blood token to pay multiple costs.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/369/voldaren-estate) · oracle_id `fb0c0426-f1a6-4e52-9242-627786d3119a` · printing: LCC #369 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Voldaren Pariah // Abolisher of Bloodlines
 
@@ -1418,7 +1523,9 @@
 - **Flavor text** (FDN printing):
   > *They didn't fire in unison, nor in the same direction. Most didn't even use arrows. Somehow it worked perfectly.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8240 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/550/volley-veteran) · oracle_id `bf4268e6-170a-445b-b215-718f7494ae28` · printing: FDN #550 (2024-11-15) · [rulings](https://api.scryfall.com/cards/7fc914fe-e699-4a21-aa09-f3573d020b87/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-07-13* — The number of Goblins you control is counted only as Volley Veteran's ability resolves. If Volley Veteran is still on the battlefield, it will count itself.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/550/volley-veteran) · oracle_id `bf4268e6-170a-445b-b215-718f7494ae28` · printing: FDN #550 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Volo, Guide to Monsters
 
@@ -1430,6 +1537,7 @@
 - **Flavor text** (AFR printing):
   > *"The beholder told me I had a good eye for details. Who was I to argue?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8878 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/238/volo-guide-to-monsters) · oracle_id `f105960e-6609-4192-afc0-e243013b7cc1` · printing: AFR #238 (2021-07-23) · [rulings](https://api.scryfall.com/cards/c9ae01f9-7461-47b4-aa1e-93bd6ff1bf9e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Volo, Itinerant Scholar
@@ -1590,6 +1698,7 @@
 - **Flavor text** (DST printing):
   > *The undead may outlast the living, but those who have never lived outlast them both.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8405 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dst/156/voltaic-construct) · oracle_id `f5677831-6ca9-4c7b-b02d-f44079c3f663` · printing: DST #156 (2004-02-06) · [rulings](https://api.scryfall.com/cards/a1ca55ec-d262-40d8-b654-40e177bcfd6e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Voltaic Key
@@ -1601,6 +1710,7 @@
 - **Flavor text** (M11 printing):
   > *The missing piece to every puzzle.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1719 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m11/219/voltaic-key) · oracle_id `09aeea91-b1dc-443f-a509-4758f052c0a7` · printing: M11 #219 (2010-07-16) · [rulings](https://api.scryfall.com/cards/6dd61957-f3a2-4976-8f15-88258f71406a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Voltaic Servant
@@ -1657,7 +1767,15 @@
   > *—Koth*
 - **Keywords:** Proliferate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7454 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/155/volt-charge) · oracle_id `c57907d1-c5a1-45c7-80a8-38fedf86dd19` · printing: ONE #155 (2023-02-10) · [rulings](https://api.scryfall.com/cards/73d74045-cc9b-4b01-bc5f-0f2eb4b01580/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2011-06-01* — If the permanent or player is an illegal target when Volt Charge tries to resolve, it won't resolve and none of its effects will happen. You won't proliferate.
+  - *2023-02-04* — An ability that triggers "Whenever you proliferate" triggers even if you chose no permanents or players while doing so.
+  - *2023-02-04* — If a permanent ever has both +1/+1 counters and -1/-1 counters on it at the same time, they're removed in pairs as a state-based action so that the permanent has only one of those kinds of counters on it.
+  - *2023-02-04* — If a player or permanent has more than one kind of counter on it, and you choose for it to get additional counters, it must get one of each kind of counter it already has. You can't have it get just one kind of counter it already has and not the others.
+  - *2023-02-04* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
+  - *2023-02-04* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
+  - *2023-02-04* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/155/volt-charge) · oracle_id `c57907d1-c5a1-45c7-80a8-38fedf86dd19` · printing: ONE #155 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Voltstorm Angel
 
@@ -1713,7 +1831,9 @@
   > *"For four hundred years, I have led armies of conquest. These lands hold nothing that can stand against me."*
 - **Keywords:** Lifelink, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5891 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/293/vona-butcher-of-magan) · oracle_id `b1c56e23-eae6-47a1-a1cd-3a2d01621768` · printing: LCC #293 (2023-11-17) · [rulings](https://api.scryfall.com/cards/27beed9c-a42e-46de-8fbc-885da337ae75/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-09-29* — Vona's last ability can be activated during any step or phase of your turn, including the combat phase. It's possible to attack with Vona and then activate its ability before blockers are declared. Doing so won't remove Vona from combat.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/293/vona-butcher-of-magan) · oracle_id `b1c56e23-eae6-47a1-a1cd-3a2d01621768` · printing: LCC #293 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vona's Hunger
 
@@ -1724,7 +1844,14 @@
   > Each opponent sacrifices a creature of their choice. If you have the city's blessing, instead each opponent sacrifices half the creatures they control of their choice, rounded up.
 - **Keywords:** Ascend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3933 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rix/90/vonas-hunger) · oracle_id `da522912-1bc2-4d70-b426-94d10edb2afe` · printing: RIX #90 (2018-01-19) · [rulings](https://api.scryfall.com/cards/aab958d5-9c1f-420f-b358-ec0325f22f84/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2018-01-19* — A permanent is any object on the battlefield, including tokens and lands. Spells and emblems aren’t permanents.
+  - *2018-01-19* — If you cast a spell with ascend, you don’t get the city’s blessing until it resolves. Players may respond to that spell by trying to change whether you get the city’s blessing.
+  - *2018-01-19* — If you control ten permanents but don’t control a permanent or resolving spell with ascend, you don’t get the city’s blessing. For example, if you control ten permanents, lose control of one, then cast Golden Demise, you won’t have the city’s blessing and the spell will affect creatures you control.
+  - *2018-01-19* — If your tenth permanent enters the battlefield and then a permanent leaves the battlefield immediately afterwards (most likely due to the “Legend Rule” or due to being a creature with 0 toughness), you get the city’s blessing before it leaves the battlefield.
+  - *2018-01-19* — Once you have the city’s blessing, you have it for the rest of the game, even if you lose control of some or all of your permanents. The city’s blessing isn’t a permanent itself and can’t be removed by any effect.
+  - *2018-01-19* — When Vona’s Hunger resolves, first the player whose turn it is (if that player is an opponent) chooses which creature or creatures they will sacrifice, then each other opponent in turn order does the same, then all chosen creatures are sacrificed at the same time. Players will know choices made by earlier players when making their choices.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rix/90/vonas-hunger) · oracle_id `da522912-1bc2-4d70-b426-94d10edb2afe` · printing: RIX #90 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Voodoo Doll
 
@@ -1749,7 +1876,9 @@
   > *Finding all of the lost Jeskai archives was merely the first step to restoration. Wresting them from their draconic keeper proved much more challenging.*
 - **Keywords:** Flying, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7610 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/23/voracious-bibliophile) · oracle_id `dcc323d6-ddae-4fd9-9c9e-466b07895d73` · printing: TDC #23 (2025-04-11) · [rulings](https://api.scryfall.com/cards/77d2c30b-3130-4d9d-bd3d-484fe6dc306d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-04-04* — An Aura spell requires a target, as defined by its enchant ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/23/voracious-bibliophile) · oracle_id `dcc323d6-ddae-4fd9-9c9e-466b07895d73` · printing: TDC #23 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Voracious Brood
 
@@ -1801,7 +1930,11 @@
   > When this creature enters, each opponent sacrifices a creature of their choice. Create a Food token for each creature sacrificed this way. (It's an artifact with "{2}, {T}, Sacrifice this token: You gain 3 life.")
 - **Keywords:** Flying, Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6862 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/113/voracious-fell-beast) · oracle_id `2e037c5e-3e07-4ffc-a388-7976459f6ff7` · printing: LTR #113 (2023-06-23) · [rulings](https://api.scryfall.com/cards/d9b7d7f8-503d-4660-9a18-6a8e2fcaa25f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/113/voracious-fell-beast) · oracle_id `2e037c5e-3e07-4ffc-a388-7976459f6ff7` · printing: LTR #113 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Voracious Greatshark
 
@@ -1844,7 +1977,10 @@
   > • This creature fights target creature you don't control.
 - **Keywords:** Trample, Fight, Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2746 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m20/200/voracious-hydra) · oracle_id `ff8f5a4b-112a-425e-b489-7ee26d1d9fb3` · printing: M20 #200 (2019-07-12) · [rulings](https://api.scryfall.com/cards/74bbe44f-864a-446c-bfc9-5f5188e663b8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-07-12* — Because fighting isn't combat damage, trample has no effect during the fight.
+  - *2019-07-12* — If the target of Voracious Hydra's second mode isn't a legal target as the ability resolves, or if Voracious Hydra has left the battlefield, neither creature will deal or be dealt damage. The ability won't change to the first mode if the target is illegal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m20/200/voracious-hydra) · oracle_id `ff8f5a4b-112a-425e-b489-7ee26d1d9fb3` · printing: M20 #200 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Voracious Null
 
@@ -1871,6 +2007,7 @@
   > *She spoils the book before you read it.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7395 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/250/voracious-tome-skimmer) · oracle_id `25b0876e-c995-486e-8536-6e68b76b9c86` · printing: ECL #250 (2026-01-23) · [rulings](https://api.scryfall.com/cards/1a696fe5-410c-4699-b1d1-1a9c771d664a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Voracious Typhon
@@ -1937,6 +2074,7 @@
 - **Flavor text** (WOE printing):
   > *Lord Skitter promised the starving rats of Edgewall that they would never go hungry again.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6203 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/116/voracious-vermin) · oracle_id `8d36d80e-9934-4b56-bf3c-2b18a6da3d2d` · printing: WOE #116 (2023-09-08) · [rulings](https://api.scryfall.com/cards/8059be65-3c73-49bb-a3b6-c346ce2f9fa4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Voracious Wurm
@@ -1977,7 +2115,9 @@
   > *"I used to hurl rocks and eat scraps of meat burned over a fire. Look at what I've become and tell me Simic does not hold infinite possibility."*
 - **Keywords:** Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3271 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/294/vorel-of-the-hull-clade) · oracle_id `3001f971-c4db-4176-89b5-e7f4a8890c0f` · printing: LCC #294 (2023-11-17) · [rulings](https://api.scryfall.com/cards/82c8cac8-29ce-43cc-bdb4-428c614d8545/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-04-15* — The effect of Vorel's ability will essentially double the counters on the target artifact, creature, or land. For example, if a creature has three +1/+1 counters and a divinity counter on it before the ability resolves, it will have six +1/+1 counters and two divinity counters on it after the ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/294/vorel-of-the-hull-clade) · oracle_id `3001f971-c4db-4176-89b5-e7f4a8890c0f` · printing: LCC #294 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vorinclex, Monstrous Raider
 
@@ -1990,7 +2130,11 @@
   > If an opponent would put one or more counters on a permanent or player, they put half that many of each of those kinds of counters on that permanent or player instead, rounded down.
 - **Keywords:** Haste, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1249 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/199/vorinclex-monstrous-raider) · oracle_id `5a3fdf5a-bff8-4896-b288-3f43f9a72d9b` · printing: KHM #199 (2021-02-05) · [rulings](https://api.scryfall.com/cards/92613468-205e-488b-930d-11908477e9f8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-02-05* — If a permanent enters the battlefield with counters on it, the effect causing the permanent to be given counters may specify which player puts those counters on it. If the effect doesn’t specify a player, the object’s controller puts those counters on it.
+  - *2021-02-05* — If two or more effects attempt to modify how many counters would be put onto a permanent you control, you choose the order to apply those effects, no matter who controls the sources of those effects.
+  - *2021-02-05* — Unlike many similar effects, Vorinclex cares deeply about who is putting the counters on the permanent or player to determine which of its two last abilities applies.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/199/vorinclex-monstrous-raider) · oracle_id `5a3fdf5a-bff8-4896-b288-3f43f9a72d9b` · printing: KHM #199 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vorinclex // The Grand Evolution
 
@@ -2007,7 +2151,12 @@
   > III — Until end of turn, creatures you control gain "{1}: This creature fights target creature you don't control." Exile this Saga, then return it to the battlefield (front face up).
 - **Keywords:** Reach, Transform, Trample, Fight, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3312 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/213/vorinclex-the-grand-evolution) · oracle_id `166e5680-b8cf-47da-bcae-3591367c5fb4` · printing: MOM #213 (2023-04-21) · [rulings](https://api.scryfall.com/cards/e24b5289-d3b5-4b4d-bb37-69bf2c3b48bc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2023-04-14* — If some of the creatures are illegal targets as the chapter II ability tries to resolve, the original distribution of counters still applies and the counters that would have been put on the illegal targets are lost. They won’t be put instead on a legal target.
+  - *2023-04-14* — The Forest cards you find can be any land cards with the Forest land type, not just ones named Forest.
+  - *2023-04-14* — The set of creatures that gain the activated fight ability is determined as the chapter III ability resolves. Creatures you begin to control later in the turn and noncreature permanents that become creatures later in the turn won’t gain that ability. Notably, Vorinclex won’t be back on the battlefield yet, so it won’t gain the ability either.
+  - *2023-04-14* — You choose how many targets the chapter II ability of The Grand Evolution has and how the counters are distributed as you put the ability onto the stack. Each target must receive at least one counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/213/vorinclex-the-grand-evolution) · oracle_id `166e5680-b8cf-47da-bcae-3591367c5fb4` · printing: MOM #213 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vorinclex, Voice of Hunger
 
@@ -2020,7 +2169,11 @@
   > Whenever an opponent taps a land for mana, that land doesn't untap during its controller's next untap step.
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1765 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ima/189/vorinclex-voice-of-hunger) · oracle_id `dbf0ad03-ab31-49d2-89b1-05b45948a61f` · printing: IMA #189 (2017-11-17) · [rulings](https://api.scryfall.com/cards/9fe3af8c-109d-486c-aa34-3f023abda5b7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2017-11-17* — If Vorinclex leaves the battlefield after its second ability has triggered, that ability still resolves and the affected land won't untap during its controller's next untap step.
+  - *2017-11-17* — If a land you control produces multiple mana of more than one type, Vorinclex's first triggered ability adds one mana of only one of those types. You choose which of those types it adds.
+  - *2017-11-17* — The types of mana are white, blue, black, red, green, and colorless.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ima/189/vorinclex-voice-of-hunger) · oracle_id `dbf0ad03-ab31-49d2-89b1-05b45948a61f` · printing: IMA #189 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vorosh, the Hunter
 
@@ -2044,6 +2197,7 @@
   > Equip {B}{B}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2864 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/124/vorpal-sword) · oracle_id `61bfab3f-d8f0-4ff5-9ddf-3fd605070c8f` · printing: AFR #124 (2021-07-23) · [rulings](https://api.scryfall.com/cards/7adbe69f-326d-4b4f-850f-c57a1860d17c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vorrac Battlehorns
@@ -2055,6 +2209,7 @@
   > Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6005 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mrd/271/vorrac-battlehorns) · oracle_id `89750d72-d1c0-4c8a-aa72-fdd48570aa92` · printing: MRD #271 (2003-10-02) · [rulings](https://api.scryfall.com/cards/b1b19949-90c9-46f1-85d4-d6eda0b7977e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vorstclaw
@@ -2145,6 +2300,7 @@
   > *—Kaalia of the Vast*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7359 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/89/vow-of-duty) · oracle_id `1e7bddbd-e448-4aea-9d18-b44bd45837c5` · printing: MKC #89 (2024-02-09) · [rulings](https://api.scryfall.com/cards/210920ef-917b-4e2c-a5da-1180baa37959/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vow of Flight
@@ -2173,6 +2329,7 @@
   > *—Jared Carthalion*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7925 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/164/vow-of-lightning) · oracle_id `bfed67f3-70d2-49c2-8f25-16e4d10fa5be` · printing: MKC #164 (2024-02-09) · [rulings](https://api.scryfall.com/cards/a0742d43-8a67-4485-b0ce-5a4e057fa915/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vow of Malice
@@ -2184,6 +2341,7 @@
   > Enchanted creature gets +2/+2, has intimidate, and can't attack you or planeswalkers you control. (A creature with intimidate can't be blocked except by artifact creatures and/or creatures that share a color with it.)
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9256 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cm2/82/vow-of-malice) · oracle_id `894bc28a-6627-43dd-9650-86300b6fe5e6` · printing: CM2 #82 (2018-06-08) · [rulings](https://api.scryfall.com/cards/c58a738c-3f39-4556-ae9a-90f240e3062b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vow of Torment
@@ -2198,6 +2356,7 @@
   > *—Tevesh Szat*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9424 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/159/vow-of-torment) · oracle_id `237b87f4-783b-40ac-9fcf-4ae76a33229d` · printing: CMR #159 (2020-11-20) · [rulings](https://api.scryfall.com/cards/ae74624e-3850-4153-b682-d044272269c1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vow of Wildness
@@ -2237,6 +2396,7 @@
   > *"Observation: At current rate of travel, eventual rediscovery of home is a mathematical inevitability. Firm imperative: Let's go."*
 - **Keywords:** Affinity
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3768 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/227/voyage-home) · oracle_id `5c0cbc44-6c31-44fe-a3da-a97a37a01726` · printing: DFT #227 (2025-02-14) · [rulings](https://api.scryfall.com/cards/4ba835da-0247-4716-9079-1b605297f6d5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Voyager Drake
@@ -2277,6 +2437,7 @@
 - **Flavor text** (DFT printing):
   > *The Guidelight Voyagers had been stranded on Avishkar with no way to get home. They considered every last unit essential, down to the glitchiest grunt.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2592 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/37/voyager-quickwelder) · oracle_id `87e8c044-5f83-437d-a89e-8a95559045f6` · printing: DFT #37 (2025-02-14) · [rulings](https://api.scryfall.com/cards/f6dcdc8c-fba1-4ea1-bf93-65072d10f0da/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Voyager Staff
@@ -2288,7 +2449,9 @@
 - **Flavor text** (RVR printing):
   > *Voyager staffs are sought by those hoping to find an escape from the sprawling glut of Ravnica.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8466 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/271/voyager-staff) · oracle_id `4573f044-7011-412e-81bd-ae8d0c21283b` · printing: RVR #271 (2024-01-12) · [rulings](https://api.scryfall.com/cards/8b9533a8-6ee3-493c-b211-5a1bc2b31ec8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-01-12* — If a creature token is exiled by Voyager Staff's ability, it will cease to exist. It won't return to the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/271/voyager-staff) · oracle_id `4573f044-7011-412e-81bd-ae8d0c21283b` · printing: RVR #271 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Voyage's End
 
@@ -2312,4 +2475,5 @@
 - **Flavor text** (CN2 printing):
   > *"None can own the land's bounty. The gods made this world for all to share its riches. And I'm not just saying that because you caught me stealing your fruit."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8620 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cn2/195/voyaging-satyr) · oracle_id `bce18f34-848e-4dd2-9a38-6084c0695f78` · printing: CN2 #195 (2016-08-26) · [rulings](https://api.scryfall.com/cards/180773da-dadc-414a-92c6-f4e13c753718/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

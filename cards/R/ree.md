@@ -74,6 +74,7 @@
 - **Oracle text:**
   > When this creature dies, create a 3/3 blue Fish creature token with "When this token dies, create a 6/6 blue Whale creature token with 'When this token dies, create a 9/9 blue Kraken creature token.'"
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5513 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/271/reef-worm) · oracle_id `e3ad5cbc-4245-4e1e-8204-509381fa0c1c` · printing: MH3 #271 (2024-06-14) · [rulings](https://api.scryfall.com/cards/25576181-a5a4-4baf-a2b4-fbfe13fb9df6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reenact the Crime

@@ -115,7 +115,13 @@
   > Whenever Shredder attacks a player, for each other opponent, create a token that's a copy of Shredder tapped and attacking that player, except it isn't legendary. Sacrifice those tokens at end of combat.
   > Whenever Shredder deals combat damage to a player, that player loses half their life, rounded up.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5549 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmc/20/shredder-shadow-master) · oracle_id `ee82947d-1cf0-4c53-84d4-81f81c6201ee` · printing: TMC #20 (2026-03-06) · [rulings](https://api.scryfall.com/cards/ddf4d3c9-bef9-4796-91ef-3d5beebae571/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2026-01-27* — Although the token copies created by Shredder's first ability enter attacking, they were never declared as attacking creatures. Abilities that trigger whenever a creature attacks won't trigger when those tokens enter attacking.
+  - *2026-01-27* — If Shredder leaves the battlefield before his last ability resolves, the tokens will still enter as a copy of Shredder, using Shredder's copiable values from when he was last on the battlefield.
+  - *2026-01-27* — In the unusual case where Shredder becomes a copy of something else while his last ability is on the stack but before it resolves, the tokens will enter as a copy of whatever Shredder is copying.
+  - *2026-01-27* — The token copies will have Shredder's abilities.
+  - *2026-01-27* — The tokens don't copy whether Shredder is tapped or untapped, whether he has any counters on him or Auras attached to him, or any non-copy effects that have changed his types, color, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmc/20/shredder-shadow-master) · oracle_id `ee82947d-1cf0-4c53-84d4-81f81c6201ee` · printing: TMC #20 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shredder's Revenge
 
@@ -139,7 +145,11 @@
   > Destroy target creature or enchantment. If an enchantment was destroyed this way, you lose 2 life.
 - **Keywords:** Sneak
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7778 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/77/shredders-technique) · oracle_id `d92714c0-4e22-47f9-a4d4-405894e734d0` · printing: TMT #77 (2026-03-06) · [rulings](https://api.scryfall.com/cards/99a24349-7d11-421b-a161-c1edbb8f53b1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2026-01-27* — Although a creature put onto the battlefield this way is attacking, it was never declared as an attacking creature. Abilities that trigger whenever a creature attacks won't trigger when that creature enters attacking.
+  - *2026-01-27* — If a creature spell's sneak cost was paid, the creature it becomes enters tapped and attacking the same player, planeswalker, or battle as the creature that was returned to its owner's hand to pay its sneak cost. This is a rule specific to sneak; in other cases, when a creature is put onto the battlefield attacking, that creature's controller chooses which player, planeswalker, or battle it's attacking.
+  - *2026-01-27* — Spells can only be cast for their sneak costs any time you could play an instant during the declare blockers step on your turn (after your opponent has decided whether to block).
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/77/shredders-technique) · oracle_id `d92714c0-4e22-47f9-a4d4-405894e734d0` · printing: TMT #77 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shredder, Unrelenting
 
@@ -175,6 +185,7 @@
   > Transmute {1}{B}{B} ({1}{B}{B}, Discard this card: Search your library for a card with the same mana value as this card, reveal it, put it into your hand, then shuffle. Transmute only as a sorcery.)
 - **Keywords:** Transmute
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8363 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rav/105/shred-memory) · oracle_id `16cae855-d93a-445d-9cac-dbc5a7c18cb1` · printing: RAV #105 (2005-10-07) · [rulings](https://api.scryfall.com/cards/e38192e5-814f-4269-bae8-13867a73e7fa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shreds of Sanity
@@ -289,7 +300,10 @@
   > *—Teferi*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4660 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/272/shrieking-drake) · oracle_id `2a8e14be-6f93-428d-a204-e2399dc93797` · printing: MH3 #272 (2024-06-14) · [rulings](https://api.scryfall.com/cards/9f1cc39f-898c-4e92-82a0-a17606b60574/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-06-07* — Shrieking Drake's ability doesn't target any creature. Therefore, no player may take actions between the time you choose the creature to return and the time you return it.
+  - *2024-06-07* — You may return Shrieking Drake itself to its owner's hand as its triggered ability resolves. If you don't control any other creature, you must return it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/272/shrieking-drake) · oracle_id `2a8e14be-6f93-428d-a204-e2399dc93797` · printing: MH3 #272 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shrieking Grotesque
 
@@ -342,7 +356,10 @@
   > Evoke {1}{B} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters.)
 - **Keywords:** Evoke, Fear
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1602 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/85/shriekmaw) · oracle_id `717bbb9d-0a5b-4979-a24b-9d54aac7657a` · printing: ECC #85 (2026-01-23) · [rulings](https://api.scryfall.com/cards/ed2d62c2-85c9-4fd4-8a7e-0017640606be/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-03-19* — If you pay the evoke cost, you can have Shriekmaw's own triggered ability resolve before the evoke triggered ability. You can cast spells after that ability resolves but before you have to sacrifice Shriekmaw.
+  - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an evoke cost), add any cost increases, then apply any cost reductions. The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/85/shriekmaw) · oracle_id `717bbb9d-0a5b-4979-a24b-9d54aac7657a` · printing: ECC #85 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shriek of Dread
 
@@ -396,7 +413,10 @@
   > *With every soul it consumes, its roots stretch farther and reach for more victims.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5587 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/35/shriekwood-devourer) · oracle_id `56314980-5f18-4b93-a9a0-6002ee8a880c` · printing: DSC #35 (2024-09-27) · [rulings](https://api.scryfall.com/cards/bd73c214-f6b6-49e9-b6e8-af6b1f1fb0f0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-09-20* — Creatures that enter attacking were never declared as attackers, so Shriekwood Devourer's last ability won't take them into account.
+  - *2024-09-20* — The value of X is calculated only once, as Shriekwood Devourer's last ability resolves. This means that the value of X may be different than you had hoped when attackers were declared if attacking creatures have left the battlefield or their power has changed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/35/shriekwood-devourer) · oracle_id `56314980-5f18-4b93-a9a0-6002ee8a880c` · printing: DSC #35 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shrike Force
 
@@ -410,6 +430,7 @@
   > *—Quickwing, master flyer*
 - **Keywords:** Flying, Vigilance, Double strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5537 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/31/shrike-force) · oracle_id `d014b02f-a8b8-4b97-96e0-f588792069f0` · printing: BLB #31 (2024-08-02) · [rulings](https://api.scryfall.com/cards/306fec2c-d8b7-4f4b-8f58-10e3b9f3158f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shrike Harpy
@@ -503,6 +524,7 @@
 - **Flavor text** (MKC printing):
   > *The gods known to the merfolk as Ula, Emeria, and Cosi were nothing more than false memories of a monstrous trinity: the Eldrazi titans Ulamog, Emrakul, and Kozilek.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1218 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/292/shrine-of-the-forsaken-gods) · oracle_id `8ea46945-d5ab-4209-b473-4769e7b8b962` · printing: MKC #292 (2024-02-09) · [rulings](https://api.scryfall.com/cards/4472d5fb-ca8f-43d0-a95d-5bd8bdb6a02d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shrine Steward
@@ -566,6 +588,7 @@
   > *His laughter—and everything else about him—was infectious.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5680 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/plst/J25-54/shroofus-sproutsire) · oracle_id `e0cebb09-d10d-4b70-96be-82df0e5d52d3` · printing: PLST #J25-54 (2026-10-19) · [rulings](https://api.scryfall.com/cards/9ed9f270-4da6-439e-b13a-70da6e7f424a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shrouded Lore
@@ -613,4 +636,5 @@
   > *—Angus, survivor scout*
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9878 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/233/shroudstomper) · oracle_id `36415fe3-6bf3-4fec-909c-6c16584c44eb` · printing: DSK #233 (2024-09-27) · [rulings](https://api.scryfall.com/cards/53f746bf-0642-48db-835e-27a7fe369fef/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -423,7 +423,9 @@
   > *"Excellent! Using your superior agility against an older opponent."*
   > *—Master Piandao*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1284 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tle/153/duelists-heritage) · oracle_id `5cdc4654-b8c5-4599-a1d2-9e9d5f6509cb` · printing: TLE #153 (2025-11-21) · [rulings](https://api.scryfall.com/cards/45834bc6-be8d-4064-930d-efc73cf3c64d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-11-08* — The ability of Duelist's Heritage triggers whenever any player attacks with one or more creatures, not just when you do. You know which players and planeswalkers the creatures are attacking before you choose the target creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tle/153/duelists-heritage) · oracle_id `5cdc4654-b8c5-4599-a1d2-9e9d5f6509cb` · printing: TLE #153 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Duel Tactics
 
@@ -487,7 +489,12 @@
   > When this creature enters, if you control two or more Mountains, you may destroy target artifact.
   > When this creature enters, if you control two or more Plains, you may destroy target enchantment.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8563 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/324/duergar-hedge-mage) · oracle_id `ecb2fd58-b880-4d9e-93cb-c4d2b28233c9` · printing: MOC #324 (2023-04-21) · [rulings](https://api.scryfall.com/cards/a55e7048-4532-443b-9480-a139069ecf0a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2008-08-01* — Both abilities are optional; you choose whether to use them when they resolve. If an ability has a target, you must choose a target even if you don't plan to use the ability.
+  - *2008-08-01* — Both abilities trigger at the same time. You can put them on the stack in any order.
+  - *2008-08-01* — Each of the triggered abilities has an "intervening 'if' clause." That means (1) the ability won't trigger at all unless you control two or more lands of the appropriate land type when the Hedge-Mage enters, and (2) the ability will do nothing if you don't control two or more lands of the appropriate land type by the time it resolves.
+  - *2008-08-01* — Each of the triggered abilities look at your lands individually. This means that if you only control two dual-lands of the appropriate types, both of the abilities will trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/324/duergar-hedge-mage) · oracle_id `ecb2fd58-b880-4d9e-93cb-c4d2b28233c9` · printing: MOC #324 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Duergar Mine-Captain
 
@@ -534,7 +541,16 @@
 - **Oracle text:**
   > At the beginning of combat on your turn, another target creature you control gains haste and myriad until end of turn. (Whenever it attacks, for each opponent other than defending player, you may create a token copy that's tapped and attacking that player or a planeswalker they control. Exile the tokens at end of combat.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7013 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/272/duke-ulder-ravengard) · oracle_id `792b9752-2d46-48ca-abdd-408a787612da` · printing: CLB #272 (2022-06-10) · [rulings](https://api.scryfall.com/cards/082a8ffc-a052-498f-b457-8d70ea18a943/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2022-06-10* — Although the tokens enter the battlefield attacking, they were never declared as attackers. Abilities that trigger whenever a creature attacks won’t trigger, including the myriad ability of the tokens. If there are any costs to have a creature attack, those costs won’t apply to the tokens.
+  - *2022-06-10* — Any enters-the-battlefield abilities of the copied creature will trigger when the tokens enter the battlefield. Any “as [this permanent] enters the battlefield” or “[this permanent] enters the battlefield with” abilities of the copied creature will also work.
+  - *2022-06-10* — Each token copies exactly what was printed on the original creature and nothing else. It doesn’t copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+  - *2022-06-10* — If myriad creates more than one token for any given player (due to an effect such as the one Doubling Season creates), you may choose separately for each token whether it’s attacking the player or a planeswalker they control.
+  - *2022-06-10* — If the defending player is your only opponent, no tokens are put onto the battlefield.
+  - *2022-06-10* — The term “defending player” in the myriad rules (or any other ability of an attacking creature) refers to the player the creature with myriad was attacking or the controller of the planeswalker it was attacking at the time the ability resolves. If that creature is no longer attacking, it refers to the player it was last attacking or the controller of the planeswalker it was last attacking.
+  - *2022-06-10* — The tokens all enter the battlefield at the same time.
+  - *2022-06-10* — You choose whether each token is attacking the player or a planeswalker they control as the token is created. If it’s attacking a planeswalker, you choose which one.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/272/duke-ulder-ravengard) · oracle_id `792b9752-2d46-48ca-abdd-408a787612da` · printing: CLB #272 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dukhara Peafowl
 
@@ -619,7 +635,9 @@
 - **Flavor text** (DMC printing):
   > *The Abzan turn to this spell only as a last resort, for its inevitable result is what they most dread: to be alone.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8146 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/148/duneblast) · oracle_id `14104a52-c4e8-4755-8196-7fa5c5a35f36` · printing: DMC #148 (2022-09-09) · [rulings](https://api.scryfall.com/cards/4a38e37b-d458-402a-8b36-13a0e0a115ce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2014-09-20* — You decide which creature to spare as Duneblast resolves. This choice doesn't target the creature. If you don't choose a creature, then all creatures will be destroyed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/148/duneblast) · oracle_id `14104a52-c4e8-4755-8196-7fa5c5a35f36` · printing: DMC #148 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dune-Brood Nephilim
 
@@ -645,6 +663,7 @@
   > {T}: Mill two cards. You gain 1 life for each land card milled this way.
 - **Keywords:** Reach, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6268 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/31/dune-chanter) · oracle_id `7811b50d-af76-43cd-8753-43cf65fbefa3` · printing: OTC #31 (2024-04-19) · [rulings](https://api.scryfall.com/cards/cbed084b-c0bc-4c05-9a89-ce4630f0897c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dúnedain Blade
@@ -738,7 +757,11 @@
 - **Flavor text** (OTC printing):
   > *The Curse of Wandering permeated Amonkhet long before Nicol Bolas. He simply harnessed it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5856 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/291/dunes-of-the-dead) · oracle_id `c761f71c-785c-4533-a2b7-2da3667688b8` · printing: OTC #291 (2024-04-19) · [rulings](https://api.scryfall.com/cards/cd86b0af-9c26-4c3a-8e1e-74a28263bd83/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2017-04-18* — Desert is a land subtype with no special meaning. It doesn't grant the land an intrinsic mana ability. Other cards may care about which lands are Deserts.
+  - *2017-07-14* — Dunes of the Dead's second ability doesn't allow you to sacrifice it whenever you'd like. You must find another way to get Dunes of the Dead into the graveyard.
+  - *2017-07-14* — If you sacrifice Dunes of the Dead to pay the activation cost of an ability, you'll create the Zombie token before that activated ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/291/dunes-of-the-dead) · oracle_id `c761f71c-785c-4533-a2b7-2da3667688b8` · printing: OTC #291 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dungeon Crawler
 
@@ -763,7 +786,20 @@
 - **Flavor text** (CLB printing):
   > *You're driven not by a lust for gold or baubles, but by the thrill of danger and the excitement of the unknown.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9073 · Game Changer: no · Can be commander: Only alongside a commander with *Choose a Background*
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/67/dungeon-delver) · oracle_id `0073d731-e60d-433a-ac35-a22af855da20` · printing: CLB #67 (2022-06-10) · [rulings](https://api.scryfall.com/cards/cba131bb-b8b3-4577-9f41-4700d9985134/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2022-06-10* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2022-06-10* — Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+  - *2022-06-10* — Choose a Background is a variant of the partner ability. You may have two commanders if one of them is a legendary creature with the choose a background ability and the other is a legendary Background enchantment. Backgrounds and cards with choose a Background do not interact with cards which have any other partner ability.
+  - *2022-06-10* — If a card refers to a commander creature you own, a Background won't usually be counted or included for that effect. If another spell or ability causes your Background to become a creature, however, it will be included. Any effect that refers to your commander or a commander you own or control without specifying creature will apply to a Background that is your commander, as appropriate.
+  - *2022-06-10* — If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+  - *2022-06-10* — If you control a Background that grants an ability to commander creatures you own, and you own more than one commander creature, each of them will have that ability.
+  - *2022-06-10* — If you control more than one permanent with this ability, or a permanent with multiple instances of this ability, the room triggers that many additional times. For example, if you control Hama Pashar, Ruin Seeker; Dungeon Delver; and a commander creature you own, room abilities of dungeons you own trigger two additional times.
+  - *2022-06-10* — If your Commander deck has two commanders, you can include only cards whose own color identities are also found in your commanders’ combined color identities.
+  - *2022-06-10* — If your commander loses the choose a Background ability or stops being a Background during the game, as appropriate, it is still your commander.
+  - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won’t have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won’t usually be a creature anyway).
+  - *2022-06-10* — The ability Dungeon Delver grants causes the same room you ventured into to trigger an additional time. It does not cause you to move to the next room.
+  - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/67/dungeon-delver) · oracle_id `0073d731-e60d-433a-ac35-a22af855da20` · printing: CLB #67 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dungeon Descent
 
@@ -775,7 +811,18 @@
   > {4}, {T}, Tap an untapped legendary creature you control: Venture into the dungeon. Activate only as a sorcery. (Enter the first room or advance to the next room.)
 - **Keywords:** Venture into the dungeon
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8989 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/255/dungeon-descent) · oracle_id `f086a63c-0c62-4674-bd27-82e7aed12b1a` · printing: AFR #255 (2021-07-23) · [rulings](https://api.scryfall.com/cards/f4cccdbc-f4f4-42b6-9747-6ef703ff949a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2021-07-23* — A player may only have one dungeon in the command zone at a time.
+  - *2021-07-23* — Choosing the dungeon or room to venture into is part of resolving the venture into the dungeon keyword action. Once that choice is made, players may not respond until after the appropriate room ability has triggered.
+  - *2021-07-23* — Dungeon cards are not part of a player's deck or sideboard. In both constructed and limited formats, players can use any dungeon card when they venture into the dungeon.
+  - *2021-07-23* — Dungeons are removed from the game as a state-based action.
+  - *2021-07-23* — If you somehow venture into the dungeon while a room's ability is on the stack, you will continue on in the dungeon. If you're already in the last room, complete that dungeon and start a new one.
+  - *2021-07-23* — Moving into a dungeon room will cause its room ability to trigger.
+  - *2021-07-23* — Once you resolve the last room ability of a dungeon, that dungeon is now completed and is removed from the game.
+  - *2021-07-23* — The player venturing into the dungeon chooses which dungeon they will venture into. They may choose a dungeon that they have already completed this game.
+  - *2021-07-23* — To venture into the dungeon, a player moves their venture marker into the next room of the dungeon they are currently in. If they aren't currently in a dungeon, that player instead chooses a dungeon card from outside the game, puts it into the command zone, and moves their venture marker onto the first room.
+  - *2021-07-23* — You can only move forward (well, downward) in a dungeon, never backwards or sideways.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/255/dungeon-descent) · oracle_id `f086a63c-0c62-4674-bd27-82e7aed12b1a` · printing: AFR #255 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dungeoneer's Pack
 
@@ -811,7 +858,18 @@
   > *"Wait, is that a secret door? I can't tell for sure . . . there's some blood in the way."*
 - **Keywords:** Venture into the dungeon
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8875 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/242/dungeon-map) · oracle_id `20f1bba5-d398-4d6e-a76a-75e29df42aec` · printing: AFR #242 (2021-07-23) · [rulings](https://api.scryfall.com/cards/028506ad-ad36-44e5-b488-d038e2d2445f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2021-07-23* — A player may only have one dungeon in the command zone at a time.
+  - *2021-07-23* — Choosing the dungeon or room to venture into is part of resolving the venture into the dungeon keyword action. Once that choice is made, players may not respond until after the appropriate room ability has triggered.
+  - *2021-07-23* — Dungeon cards are not part of a player's deck or sideboard. In both constructed and limited formats, players can use any dungeon card when they venture into the dungeon.
+  - *2021-07-23* — Dungeons are removed from the game as a state-based action.
+  - *2021-07-23* — If you somehow venture into the dungeon while a room's ability is on the stack, you will continue on in the dungeon. If you're already in the last room, complete that dungeon and start a new one.
+  - *2021-07-23* — Moving into a dungeon room will cause its room ability to trigger.
+  - *2021-07-23* — Once you resolve the last room ability of a dungeon, that dungeon is now completed and is removed from the game.
+  - *2021-07-23* — The player venturing into the dungeon chooses which dungeon they will venture into. They may choose a dungeon that they have already completed this game.
+  - *2021-07-23* — To venture into the dungeon, a player moves their venture marker into the next room of the dungeon they are currently in. If they aren't currently in a dungeon, that player instead chooses a dungeon card from outside the game, puts it into the command zone, and moves their venture marker onto the first room.
+  - *2021-07-23* — You can only move forward (well, downward) in a dungeon, never backwards or sideways.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/242/dungeon-map) · oracle_id `20f1bba5-d398-4d6e-a76a-75e29df42aec` · printing: AFR #242 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dungeon Master
 
@@ -884,7 +942,15 @@
   > *—Sam*
 - **Keywords:** Flying, Amass
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9138 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/82/dunland-crebain) · oracle_id `9dd755a5-0bef-4bde-92fa-14ef2a1a1410` · printing: LTR #82 (2023-06-23) · [rulings](https://api.scryfall.com/cards/695c05ab-e46e-46c7-bd2e-ef0b2307e449/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-06-16* — Amass Zombies works the same way, except you create a 0/0 black Zombie Army creature token if you don't control an Army. If the Army creature you chose isn't already a Zombie, it becomes a Zombie in addition to its other types. By combining cards with amass Orcs and amass Zombies, you can end up with an Orc Zombie Army.
+  - *2023-06-16* — Amass abilities are now written as "amass [subtype] N." Previous cards with amass have received errata to say "amass Zombies N."
+  - *2023-06-16* — If you don't control an Army, the Orc Army token you create enters the battlefield as a 0/0 creature before receiving counters. Any abilities that trigger when a creature with a certain power enters the battlefield, such as that of Mentor of the Meek, will see the token enter as a 0/0 creature before it gets +1/+1 counters.
+  - *2023-06-16* — In the rare case that you control multiple Army creatures (perhaps because you played a creature with changeling) while you amass Orcs, you choose which of your Army creatures to put the +1/+1 counters on. If that creature isn't an Orc, it becomes an Orc in addition to its other types.
+  - *2023-06-16* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
+  - *2023-06-16* — Some spells and abilities that amass Orcs may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't amass Orcs.
+  - *2023-06-16* — To amass Orcs N, if you don't control an Army creature, create a 0/0 black Orc Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already an Orc, it becomes an Orc in addition to its other types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/82/dunland-crebain) · oracle_id `9dd755a5-0bef-4bde-92fa-14ef2a1a1410` · printing: LTR #82 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Duplicant
 
@@ -896,7 +962,12 @@
   > As long as a card exiled with this creature is a creature card, this creature has the power, toughness, and creature types of the last creature card exiled with it. It's still a Shapeshifter.
 - **Keywords:** Imprint
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2923 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/946/duplicant) · oracle_id `ea86abfa-6cab-4ef0-8463-34136fc25b59` · printing: CMM #946 (2023-08-04) · [rulings](https://api.scryfall.com/cards/9ecb184f-c282-42f3-9576-09781a116352/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-08-07* — Abilities that define a * in a creature's power and toughness apply while that card is in exile, but abilities that add or subtract power and toughness don't. For example, the ability of Crusader of Odric applies to determine Duplicant's power and toughness, but the ability of Death's Shadow doesn't.
+  - *2020-08-07* — Duplicant's base power and toughness change to the imprinted card's power and toughness. Counters and other effects that modify Duplicant's power and toughness still apply.
+  - *2020-08-07* — Duplicant's power and toughness are constantly updated if the exiled card's power and/or toughness change.
+  - *2020-08-07* — If a melded permanent or a merged permanent is exiled by Duplicant's triggered ability, that ability's controller chooses the relative timestamp of the exiled cards. Duplicant looks at the information of the one with the latest timestamp.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/946/duplicant) · oracle_id `ea86abfa-6cab-4ef0-8463-34136fc25b59` · printing: CMM #946 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Duplication Device
 
@@ -952,6 +1023,7 @@
   > *"Give of yourself, for \*compleation\* awaits the cleansed."*
   > *—Nokar, priest of Sheoldred*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3258 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/606/duress) · oracle_id `33d405ea-7a9a-4970-b70f-9c05d90dd6f0` · printing: FDN #606 (2024-11-15) · [rulings](https://api.scryfall.com/cards/34c3a894-ee75-4db9-a69f-711bb3cc150a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Durkwood Baloth
@@ -1068,7 +1140,18 @@
   > Return all creature cards with power 2 or less from your graveyard to your hand.
 - **Keywords:** Aftermath
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #967 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/61/dusk-dawn) · oracle_id `7bc3f92f-68a2-4934-afc4-89f6d0e8cf98` · printing: MKC #61 (2024-02-09) · [rulings](https://api.scryfall.com/cards/5f2facfb-dfde-4e5b-8f6d-4fabb4c85519/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2017-04-18* — A spell with aftermath cast from a graveyard will always be exiled afterward, whether it resolves, it's countered, or it leaves the stack in some other way.
+  - *2017-04-18* — All split cards have two card faces on a single card, and you put a split card onto the stack with only the half you're casting. The characteristics of the half of the card you didn't cast are ignored while the spell is on the stack. For example, if an effect prevents you from casting green spells, you can cast Destined of Destined // Lead, but not Lead.
+  - *2017-04-18* — Each split card has two names. If an effect instructs you to choose a card name, you may choose one, but not both.
+  - *2017-04-18* — Each split card is a single card. For example, if you discard one, you've discarded one card, not two. If an effect counts the number of instant and sorcery cards in your graveyard, Destined // Lead counts once, not twice.
+  - *2017-04-18* — If another effect allows you to cast a split card with aftermath from a graveyard, you may cast either half. If you cast the half that has aftermath, you'll exile the card if it would leave the stack.
+  - *2017-04-18* — If another effect allows you to cast a split card with aftermath from any zone other than a graveyard, you can't cast the half with aftermath.
+  - *2017-04-18* — If you cast the first half of a split card with aftermath during your turn, you'll have priority immediately after it resolves. You can cast the half with aftermath from your graveyard before any player can take any other action if it's legal for you to do so.
+  - *2017-04-18* — Split cards with aftermath have a new frame treatment—the half you can cast from your hand is oriented the same as other cards you'd cast from your hand, while the half you can cast from your graveyard is a traditional split card half. This frame treatment is for your convenience and has no rules significance.
+  - *2017-04-18* — While not on the stack, the characteristics of a split card are the combination of its two halves. For example, Destined // Lead is a green and black card, it is both an instant card and a sorcery card, and its mana value is 6. This means that if an effect allows you to cast a card with mana value 2 from your hand, you can't cast Destined. This is a change from the previous rules for split cards.
+  - *2017-07-14* — Once you've started to cast a spell with aftermath from your graveyard, the card is immediately moved to the stack. Opponents can't try to stop the ability by exiling the card with an effect such as that of Crook of Condemnation.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/61/dusk-dawn) · oracle_id `7bc3f92f-68a2-4934-afc4-89f6d0e8cf98` · printing: MKC #61 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Duskfang Mentor
 
@@ -1150,6 +1233,7 @@
   > *"We sailed to Ixalan guided by a promise—the Age of Everflowing Blood. No machine will take that from us."*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2711 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/11/dusk-legion-duelist) · oracle_id `30367a59-a812-41d4-a451-80d9071dd4a4` · printing: MOM #11 (2023-04-21) · [rulings](https://api.scryfall.com/cards/7305a8d3-5403-4483-92af-863dc91c6084/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dusk Legion Sergeant
@@ -1162,7 +1246,12 @@
   > {1}{B}, Sacrifice this creature: Each nontoken Vampire creature you control gains persist until end of turn. (When it dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7805 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/80/dusk-legion-sergeant) · oracle_id `f8b12c43-d83a-4e5b-a525-5ee1ae850817` · printing: LCC #80 (2023-11-17) · [rulings](https://api.scryfall.com/cards/5bfc9243-7aec-48e6-9f3b-1bbbb5370063/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2023-11-10* — If a card with persist is removed from the graveyard after it dies but before the ability trigger resolves, it won't be returned to the battlefield.
+  - *2023-11-10* — If a creature has +1/+1 counters and -1/-1 counters on it, state-based actions remove the same number of each so that it has only one kind of those counters on it. A creature's persist ability can bring it back again if its -1/-1 counters are removed this way.
+  - *2023-11-10* — If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner's graveyard for having 0 or less toughness, persist won't trigger and the card won't return to the battlefield. That's because persist checks the creature as it last existed on the battlefield, and it still had -1/-1 counters on it at that point.
+  - *2023-11-10* — Once persist returns the creature, it's considered a new object with no relation to the object that it was. Auras that were attached to it won't return to the battlefield. Equipment that was attached to it will remain unattached. Any counters that were on it won't be put on the new creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/80/dusk-legion-sergeant) · oracle_id `f8b12c43-d83a-4e5b-a525-5ee1ae850817` · printing: LCC #80 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dusk Legion Zealot
 
@@ -1174,6 +1263,7 @@
 - **Flavor text** (LCC printing):
   > *Once they reached Orazca, the Legion's explorers ransacked tombs and temples, hunting for the Immortal Sun.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4489 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/194/dusk-legion-zealot) · oracle_id `ea2dce18-195e-4681-a687-f9819edaf9fc` · printing: LCC #194 (2023-11-17) · [rulings](https://api.scryfall.com/cards/72048624-e3fd-4e9b-91a9-996ea3a1a74f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dusk Mangler
@@ -1197,7 +1287,11 @@
   > {2}{U}{B}: Target player mills two cards.
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6219 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/gtc/158/duskmantle-guildmage) · oracle_id `ec44ca05-6b10-4be2-b4df-967535967fce` · printing: GTC #158 (2013-02-01) · [rulings](https://api.scryfall.com/cards/9a1509ff-387e-4ccd-bda0-86e8738a98fb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2013-01-24* — Each time the first ability resolves, a delayed triggered ability is created. Whenever a card is put into an opponent’s graveyard that turn, each of those abilities will trigger. For example, if you activate the first ability twice (and let those abilities resolve) and then activate the second ability targeting an opponent, that player will lose a total of 4 life. Each card put into that player’s graveyard will cause two abilities to trigger, each causing that player to lose 1 life.
+  - *2013-01-24* — The delayed triggered ability created won’t trigger if a token permanent is put into an opponent’s graveyard.
+  - *2013-01-24* — The first ability considers each of your opponents. You don’t choose just one of them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/gtc/158/duskmantle-guildmage) · oracle_id `ec44ca05-6b10-4be2-b4df-967535967fce` · printing: GTC #158 (2013-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Duskmantle, House of Shadow
 
@@ -1298,7 +1392,12 @@
   > When this artifact enters, exile target artifact or creature an opponent controls until this artifact leaves the battlefield.
 - **Keywords:** Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9528 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/10/dusk-rose-reliquary) · oracle_id `dca7102e-c020-4fdc-9b59-f186e3e615a5` · printing: LCI #10 (2023-11-17) · [rulings](https://api.scryfall.com/cards/a5f231ef-4167-4b0a-b54c-a098b2eb2f6f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2023-11-10* — Auras attached to the exiled permanent will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist. When the card returns to the battlefield, it will be a new object with no connection to the card that was exiled.
+  - *2023-11-10* — If Dusk Rose Reliquary leaves the battlefield before its last ability resolves, the target permanent won't be exiled.
+  - *2023-11-10* — If a double-faced card is exiled this way, it will return with its front face up, no matter which face was up when it left the battlefield.
+  - *2023-11-10* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/10/dusk-rose-reliquary) · oracle_id `dca7102e-c020-4fdc-9b59-f186e3e615a5` · printing: LCI #10 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Duskshell Crawler
 
@@ -1311,6 +1410,7 @@
 - **Flavor text** (CLU printing):
   > *They often perch on street lamps, causing the poles to buckle under their weight.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1408 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/161/duskshell-crawler) · oracle_id `e54ad5a1-e79d-42db-a3e9-5caecae62c9f` · printing: CLU #161 (2024-02-23) · [rulings](https://api.scryfall.com/cards/eb39a0c0-668f-4881-957a-3d09c50beaf4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dusk Urchins
@@ -1324,7 +1424,10 @@
 - **Flavor text** (ECC printing):
   > *They spawn from shadow, wreaking chaos until shadow claims them again.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6446 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/73/dusk-urchins) · oracle_id `1c2cc166-dc59-44ce-86d5-ed6013b0bf67` · printing: ECC #73 (2026-01-23) · [rulings](https://api.scryfall.com/cards/fce69f5c-c4c4-4c8b-aa29-8cc8a84587d1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-05-01* — If Dusk Urchins has just 1 toughness when it blocks, it will get a -1/-1 counter and be put into the graveyard. The creature that it blocked remains blocked, however.
+  - *2008-05-01* — The -1/-1 counter is put on Dusk Urchins during the declare attackers or declare blockers step, whichever is appropriate, so it will be smaller by the time combat damage is dealt. (Note that this is different from how the _Shadowmoor_ card Wicker Warcrawler works.)
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/73/dusk-urchins) · oracle_id `1c2cc166-dc59-44ce-86d5-ed6013b0bf67` · printing: ECC #73 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Duskwalker
 
@@ -1364,7 +1467,13 @@
   > At the beginning of each upkeep, if a player cast two or more spells last turn, transform this creature.
 - **Keywords:** Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5991 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/193/duskwatch-recruiter-krallenhorde-howler) · oracle_id `87c43776-dd98-4e12-9b95-82d2b8f4f1ab` · printing: INR #193 (2025-01-24) · [rulings](https://api.scryfall.com/cards/4ef68479-ab2e-4a60-886c-ad007b64f185/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2016-04-08* — Krallenhorde Howler's first ability can only reduce the generic mana portion of a creature spell's cost.
+  - *2016-04-08* — Krallenhorde Howler's first ability can reduce alternative costs such as madness costs.
+  - *2016-04-08* — The abilities that transform a Werewolf back and forth look at the entire previous turn, even if the Werewolf with that ability wasn't on the battlefield for some or all of that turn.
+  - *2016-04-08* — To trigger the Werewolf's back face's transform ability, a single player must have cast two or more spells during the previous turn. If multiple players each cast just one spell during the previous turn, the ability won't trigger.
+  - *2016-04-08* — You can activate Duskwatch Recruiter's first ability in response to its triggered ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/193/duskwatch-recruiter-krallenhorde-howler) · oracle_id `87c43776-dd98-4e12-9b95-82d2b8f4f1ab` · printing: INR #193 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Duskwielder
 
@@ -1594,6 +1703,7 @@
   > As an additional cost to cast this spell, sacrifice a creature.
   > Creatures you control gain indestructible until end of turn. Put a +1/+1 counter on each creature you control. (Damage and effects that say "destroy" don't destroy those creatures.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2268 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/10/duty-beyond-death) · oracle_id `67e6ce99-4883-4713-9822-cb2334765b5b` · printing: TDM #10 (2025-04-11) · [rulings](https://api.scryfall.com/cards/2e92640d-768b-4357-905f-bea017d351cc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Duty-Bound Dead

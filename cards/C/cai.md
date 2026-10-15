@@ -46,4 +46,9 @@
   > *"I'm friend to one and all, thanks to my crystal ball!"*
 - **Keywords:** Lucky Slots, Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5598 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/54/cait-sith-fortune-teller) · oracle_id `31851cb6-0caf-4575-aa5e-41aeadccafc1` · printing: FIC #54 (2025-06-13) · [rulings](https://api.scryfall.com/cards/3e0f6c53-6bbf-4d4c-bbbf-4dab22297527/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-06-06* — If the exiled card has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
+  - *2025-06-06* — The value of X is calculated only once, as the reflexive triggered ability resolves.
+  - *2025-06-06* — You don't choose a target for Cait Sith's ability at the time it triggers. Rather, a second "reflexive" ability triggers when you exile a card this way. You choose a target for that ability as it goes on the stack. Each player may respond to this triggered ability as normal.
+  - *2025-06-06* — You pay all costs and follow all timing rules for cards played this way. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty and only if you have an available land play remaining.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/54/cait-sith-fortune-teller) · oracle_id `31851cb6-0caf-4575-aa5e-41aeadccafc1` · printing: FIC #54 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -38,7 +38,11 @@
   > −2: Return target creature card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of your next upkeep.
   > −7: You get an emblem with "Whenever a creature you control enters, it deals damage equal to its power to any target."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8744 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/stx/153/mila-crafty-companion-lukka-wayward-bonder) · oracle_id `ee524e82-35c4-4cae-b65e-3e147eac2927` · printing: STX #153 (2021-04-23) · [rulings](https://api.scryfall.com/cards/8e4e0f81-f92b-4a3a-bb29-adcc3de211b4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-04-16* — Mila’s first ability triggers only once no matter how many creatures are attacking or how many planeswalkers are being attacked.
+  - *2021-04-16* — Mila’s second ability will resolve before the spell or ability that caused it to trigger.
+  - *2021-04-16* — When Mila’s first ability resolves, you will put a loyalty counter on all planeswalkers you control, even ones that aren’t being attacked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/stx/153/mila-crafty-companion-lukka-wayward-bonder) · oracle_id `ee524e82-35c4-4cae-b65e-3e147eac2927` · printing: STX #153 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mild-Mannered Librarian
 
@@ -68,7 +72,19 @@
   > Whenever you attack, double the number of each kind of counter on each Spider and legendary creature you control.
 - **Keywords:** Camouflage, Transform, First strike, Haste, Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7163 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/spm/108/miles-morales-ultimate-spider-man) · oracle_id `be48c721-bdc6-4f2c-96d6-82d934b31615` · printing: SPM #108 (2025-09-26) · [rulings](https://api.scryfall.com/cards/9f8b4d9b-208a-4673-a617-5e3edd069c33/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2025-09-19* — A modal double-faced card can be transformed or be put onto the battlefield transformed. This is a change from previous rules. If an effect instructs you to transform a modal double-faced card on the battlefield, it transforms only if its other face has a permanent type (that is, if its other face isn't an instant or sorcery). If it doesn't, it simply won't transform. Similarly, if an effect attempts to put a modal double-faced card onto the battlefield transformed, it will enter transformed if its back face has a permanent type. If it doesn't, it will simply stay in its current zone.
+  - *2025-09-19* — Each double-faced card has an icon in the top-left corner of each face. For modal double-faced cards in this set, these icons are a single black triangle for the front face, and a double white triangle for the back face.
+  - *2025-09-19* — Each face of a double-faced card has its own set of characteristics: name, types, subtypes, abilities, and so on. While a double-faced card is on the stack or battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored.
+  - *2025-09-19* — If an effect allows you to play a land or cast a spell from among a group of cards, you may play or cast a modal double-faced card with any face that fits the criteria of that effect.
+  - *2025-09-19* — If an effect allows you to put a card with particular characteristics onto the battlefield without instructing you to play or cast it, you consider only the characteristics of a modal double-faced card's front face to see if that card qualifies. If it does, it enters the battlefield with its front face up.
+  - *2025-09-19* — If an effect instructs a player to choose a card name, the name of either face may be chosen. If that effect or a linked ability refers to a spell with the chosen name being cast and/or a land with the chosen name being played, it considers only the chosen name, not the other face's name.
+  - *2025-09-19* — In the Commander variant, a double-faced card's color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered.
+  - *2025-09-19* — One or both faces of a double-faced card may include a reminder about what's on the other face. This reminder text has no effect on gameplay.
+  - *2025-09-19* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack or the battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of other double-faced cards is determined.
+  - *2025-09-19* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics.
+  - *2025-09-19* — While a double-faced card isn't on the stack or battlefield, consider only the characteristics of its front face.
+- **Source flags:** [Scryfall](https://scryfall.com/card/spm/108/miles-morales-ultimate-spider-man) · oracle_id `be48c721-bdc6-4f2c-96d6-82d934b31615` · printing: SPM #108 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Miles "Tails" Prower
 
@@ -141,7 +157,10 @@
 - **Flavor text** (ZNC printing):
   > *To know the battlefield is to anticipate the enemy. To know the enemy is to anticipate victory.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6435 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znc/31/military-intelligence) · oracle_id `464bfcdb-a82b-4573-92a4-c5e463724fbe` · printing: ZNC #31 (2020-09-25) · [rulings](https://api.scryfall.com/cards/28ba3c56-94f2-4bb3-86e2-e84d5b9fb013/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-07-18* — Once the ability triggers, it doesn’t matter how many creatures are still attacking when the ability resolves.
+  - *2014-07-18* — The creatures don’t have to be attacking the same player or planeswalker.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znc/31/military-intelligence) · oracle_id `464bfcdb-a82b-4573-92a4-c5e463724fbe` · printing: ZNC #31 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Militia Bugler
 
@@ -217,7 +236,9 @@
   > *The toymaker frowned in bewilderment. None of his creations had ever sneezed before.*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1200 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/351/millikin) · oracle_id `fa4dffda-6f04-4d0b-829d-28a1a5794dee` · printing: SOC #351 (2026-04-24) · [rulings](https://api.scryfall.com/cards/c2073453-4108-4039-a8c2-0f94dd7bf237/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-08-05* *(Scryfall note)* — Millikin’s ability is not a mana ability. Players can respond to it, and it can’t be activated in the middle of paying for a cost. A recent update to rule 605.1a has made any abilities that move cards to or from libraries no longer mana abilities.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/351/millikin) · oracle_id `fa4dffda-6f04-4d0b-829d-28a1a5794dee` · printing: SOC #351 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Millstone
 

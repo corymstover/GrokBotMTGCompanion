@@ -222,6 +222,7 @@
   > Whenever a creature enters, you may attach this Aura to that creature.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3281 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/172/shielded-by-faith) · oracle_id `79085dea-8daa-41c0-a975-61e3e6da2e26` · printing: SOC #172 (2026-04-24) · [rulings](https://api.scryfall.com/cards/681149f2-0802-4ab7-9521-3b3c7281f55d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shielded Passage
@@ -286,7 +287,10 @@
   > Enchanted creature can't be the target of spells or abilities your opponents control.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8430 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afc/192/shielding-plax) · oracle_id `e9bdb194-745d-4abb-9312-a65a68c40a18` · printing: AFC #192 (2021-07-23) · [rulings](https://api.scryfall.com/cards/81e632d8-ee9c-4635-9654-4d6405cb0bf2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-04-15* — This is not the same as hexproof. If, for example, you target one of your opponent's creatures, your opponents won't be able to target their own creature with spells or abilities.
+  - *2018-12-07* — If the target creature is an illegal target by the time Shielding Plax tries to resolve, the Aura spell doesn't resolve. It won't enter the battlefield, so its enters-the-battlefield ability won't trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afc/192/shielding-plax) · oracle_id `e9bdb194-745d-4abb-9312-a65a68c40a18` · printing: AFC #192 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shieldmage Advocate
 
@@ -411,7 +415,11 @@
   > As long as enchanted creature is white, it gets +1/+1 and has flying.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4577 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/shm/242/shield-of-the-oversoul) · oracle_id `9b598025-80a3-4144-be9a-863165161594` · printing: SHM #242 (2008-05-02) · [rulings](https://api.scryfall.com/cards/54040bc6-dd7c-4933-bfac-d0d6d2c78157/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2008-05-01* — If an effect would simultaneously destroy Shield of the Oversoul and a green creature it’s enchanting, only the Shield is destroyed.
+  - *2008-05-01* — If the enchanted creature is both of the listed colors, it will get both bonuses.
+  - *2013-07-01* — If a green creature enchanted by Shield of the Oversoul is dealt lethal damage, the creature isn’t destroyed, but the damage remains on the creature. If Shield of the Oversoul stops enchanting that creature later in the turn, the creature will lose indestructible and will be destroyed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/shm/242/shield-of-the-oversoul) · oracle_id `9b598025-80a3-4144-be9a-863165161594` · printing: SHM #242 (2008-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shield of the Realm
 
@@ -464,6 +472,7 @@
   > *—King Darien of Kjeldor*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4066 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me1/166/shield-sphere) · oracle_id `df9ec9b0-be22-4136-923b-11a71ca4b6c2` · printing: ME1 #166 (2007-09-10) · [rulings](https://api.scryfall.com/cards/7a76a97e-a857-4593-ae7c-e393d8a868ac/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### S.H.I.E.L.D. Spy Kit
@@ -513,6 +522,7 @@
   > *"Unit alpha-6 locking into position!"*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6074 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/238/shield-wall-sentinel) · oracle_id `4976f08c-6f8e-42e4-9584-f04793518ddb` · printing: DMU #238 (2022-09-09) · [rulings](https://api.scryfall.com/cards/7e57e1d7-da1d-4a2b-867f-85b8331b7bbc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shifting Borders
@@ -537,7 +547,10 @@
   > {G}: This creature gains your choice of reach, trample, or haste until end of turn.
 - **Keywords:** Protection
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8893 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/258/shifting-ceratops) · oracle_id `6cac6f76-f3c6-4b00-a468-166b07853401` · printing: LCC #258 (2023-11-17) · [rulings](https://api.scryfall.com/cards/8be37115-b4aa-437a-9b72-01af0cf0a0cd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-07-12* — A spell or ability that counters spells can still target Shifting Ceratops. When that spell or ability resolves, Shifting Ceratops won't be countered, but any additional effects of that spell or ability will still happen.
+  - *2019-07-12* — Multiple instances of reach, trample, and/or haste on the same creature are redundant.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/258/shifting-ceratops) · oracle_id `6cac6f76-f3c6-4b00-a468-166b07853401` · printing: LCC #258 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shifting Grift
 
@@ -550,7 +563,25 @@
   > + {1} — Exchange control of two target enchantments.
 - **Keywords:** Spree
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6516 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/66/shifting-grift) · oracle_id `763d60ea-a0ad-4f13-b8a7-aa1515283266` · printing: OTJ #66 (2024-04-19) · [rulings](https://api.scryfall.com/cards/20b8313b-a680-4dca-959a-1a7fa5cb4b1b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (17):
+  - *2024-04-12* — Each additional cost and associated mode in the text box is also preceded with a + indicator. These symbols also have no rules meaning and serve only to remind players that the listed costs are additional costs.
+  - *2024-04-12* — Gaining control of a permanent doesn’t cause you to gain control of any Auras or Equipment attached to it.
+  - *2024-04-12* — If a mode requires a target, you can select that mode only if there’s a legal target available. Ignore the targeting requirements for modes you don’t choose.
+  - *2024-04-12* — If a spell with spree is copied, the effect that creates the copy may allow you to choose new targets. You cannot choose new modes.
+  - *2024-04-12* — If all targets for the chosen modes become illegal before a spell with spree resolves, the spell won’t resolve and none of its effects will happen. If at least one target is still legal, the spell will resolve but will have no effect on any illegal targets.
+  - *2024-04-12* — If an effect allows you to cast a spell with spree “without paying its mana cost,” you must still choose at least one mode and pay the associated additional costs.
+  - *2024-04-12* — If one of the target permanents is an illegal target when Shifting Grift resolves, the exchange that permanent is involved in won’t happen.
+  - *2024-04-12* — If the same player controls both permanents involved in a single exchange when that exchange occurs, nothing happens to those permanents.
+  - *2024-04-12* — No matter which modes you choose, you always follow the instructions in the order they are written.
+  - *2024-04-12* — No player can cast spells or activate abilities in between the modes of a resolving spell. Any abilities that trigger won’t be put onto the stack until the spell is done resolving.
+  - *2024-04-12* — Spells with spree have a + (plus sign) indicator in the upper right corner of the card frame. This has no rules meaning and serves only to remind players that at least one additional cost is required to cast the spell.
+  - *2024-04-12* — The effects of Shifting Grift’s modes last indefinitely. They don’t wear off during the cleanup step, and they don’t expire if one of the target permanents stops having that permanent type after Shifting Grift has resolved.
+  - *2024-04-12* — The mana value of a spell with spree is determined only by its mana cost (in the upper right corner of the card). It doesn’t matter which modes you choose or which additional costs you pay, including any additional costs imposed by other effects.
+  - *2024-04-12* — You can’t choose the same mode more than once.
+  - *2024-04-12* — You choose the modes as you cast the spell with spree. Once modes are chosen, they can’t be changed.
+  - *2024-04-12* — You don’t have to control any of the target permanents.
+  - *2024-04-12* — You must choose at least one of the listed modes and pay its associated additional cost in order to cast a spell with spree.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/66/shifting-grift) · oracle_id `763d60ea-a0ad-4f13-b8a7-aa1515283266` · printing: OTJ #66 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shifting Loyalties
 
@@ -598,7 +629,10 @@
 - **Flavor text** (CMM printing):
   > *Once the last few slivers the Riptide Project controlled were dead, there was nothing to keep the island from being completely overrun.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4361 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/855/shifting-sliver) · oracle_id `6a262f53-2eea-45d0-8189-9222d66f1b52` · printing: CMM #855 (2023-08-04) · [rulings](https://api.scryfall.com/cards/c1d3b30b-d4c4-4f60-a7b3-e8854bd203d5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-07-01* — Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn’t provide any additional benefit.
+  - *2013-07-01* — If the creature type of a Sliver changes so it’s no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/855/shifting-sliver) · oracle_id `6a262f53-2eea-45d0-8189-9222d66f1b52` · printing: CMM #855 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shifting Wall
 
@@ -653,7 +687,10 @@
   > Channel — {X}{X}{G}{G}, Discard this card: Return X target nonlegendary cards from your graveyard to your hand.
 - **Keywords:** Channel
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1739 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/270/shigeki-jukai-visionary) · oracle_id `cbad3570-5417-42e6-b3ef-f42194098314` · printing: TDC #270 (2025-04-11) · [rulings](https://api.scryfall.com/cards/ed8ea0da-c9d4-4158-aaa7-ebe2fe2b1e15/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-02-18* — Discarding the card is part of the cost to activate a channel ability.
+  - *2022-02-18* — If a channel ability requires a target, you may not activate it without a target just to discard the card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/270/shigeki-jukai-visionary) · oracle_id `cbad3570-5417-42e6-b3ef-f42194098314` · printing: TDC #270 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shiko and Narset, Unified
 
@@ -667,7 +704,19 @@
   > *For peace, lead by example.*
 - **Keywords:** Flying, Flurry, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8165 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/7/shiko-and-narset-unified) · oracle_id `40ed32a6-ad56-48c7-aecf-b4238c34c212` · printing: TDC #7 (2025-04-11) · [rulings](https://api.scryfall.com/cards/5a42fc7d-52ac-4e95-9e04-8f8fa7f687c8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2025-04-04* — A resolving copy of a permanent spell becomes a token. That token isn’t “created” and won’t interact with abilities that care about tokens being created.
+  - *2025-04-04* — An Aura spell requires a target, as defined by its enchant ability.
+  - *2025-04-04* — If the copied spell divides damage or distributes counters among a number of targets, the division and number of targets can’t be changed. If you choose new targets, you must choose the same number of targets.
+  - *2025-04-04* — If the second spell you cast targets a permanent or player, you must copy that spell, even if it won’t be possible to choose legal targets for the copy. You can’t choose not to copy it in order to draw a card.
+  - *2025-04-04* — If the spell that’s copied has an X whose value was determined as it was cast, the copy will have the same value of X.
+  - *2025-04-04* — If the spell that’s copied is modal (that is, it says “Choose one —” or the like), the copy will have the same mode or modes. You can’t choose different ones.
+  - *2025-04-04* — Shiko and Narset, Unified’s last ability and the copy it creates resolve before the spell it’s copying. They resolve even if the original spell is countered before the copy is created.
+  - *2025-04-04* — Spells that were cast before a permanent with flurry count. If that permanent was the first spell you cast that turn, the next spell you cast that turn is your second spell.
+  - *2025-04-04* — The copy is created on the stack, so it’s not “cast.” Abilities that trigger when a player casts a spell won’t trigger.
+  - *2025-04-04* — The copy will have the same targets unless you choose new ones. You may change any number of the targets, including all of them or none of them. The new targets must be legal.
+  - *2025-04-04* — You can’t choose to pay any additional costs for the copy. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/7/shiko-and-narset-unified) · oracle_id `40ed32a6-ad56-48c7-aecf-b4238c34c212` · printing: TDC #7 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shiko, Paragon of the Way
 
@@ -692,7 +741,16 @@
   > {W/B}{W/B}{W/B}, Sacrifice six Blood tokens: Return each creature card from your graveyard to the battlefield with a finality counter on it. Those creatures are Vampires in addition to their other types.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7563 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/109/shilgengar-sire-of-famine) · oracle_id `71ac4d8c-5b58-4ea8-996b-f0289717c4bb` · printing: MH3 #109 (2024-06-14) · [rulings](https://api.scryfall.com/cards/9e6aba35-bee5-4058-a2df-d73506d225c2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2024-06-07* — Finality counters aren't keyword counters, and a finality counter doesn't give any abilities to the permanent it's on. If that permanent loses its abilities and then would go to a graveyard, it will still be exiled instead.
+  - *2024-06-07* — Finality counters don't stop permanents from going to zones other than the graveyard from the battlefield. For example, if a permanent with a finality counter on it would be put into its owner's hand from the battlefield, it does so normally.
+  - *2024-06-07* — Finality counters work on any permanent, not only creatures. If a permanent with a finality counter on it would go to a graveyard from the battlefield, exile it instead.
+  - *2024-06-07* — If you sacrificed an Angel to pay the cost of Shilgengar's second ability, use the toughness of that Angel as it last existed on the battlefield to determine how many Blood tokens to create.
+  - *2024-06-07* — Multiple finality counters on a single permanent are redundant.
+  - *2025-01-24* — If an effect refers to a Blood token, it means any artifact token with the subtype Blood, even if it has gained other subtypes.
+  - *2025-01-24* — Some triggered abilities trigger "whenever you sacrifice a Blood token." These abilities trigger regardless of why you sacrificed that Blood token.
+  - *2025-01-24* — You can't sacrifice a Blood token to pay multiple costs.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/109/shilgengar-sire-of-famine) · oracle_id `71ac4d8c-5b58-4ea8-996b-f0289717c4bb` · printing: MH3 #109 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shimatsu the Bloodcloaked
 
@@ -756,7 +814,11 @@
   > *It lurks near the borders, harvesting loose threads of wild magic where the planes meet.*
 - **Keywords:** Menace, Vivid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9766 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/120/shimmercreep) · oracle_id `52244c23-7680-4bed-8ef8-8d10e289d3f7` · printing: ECL #120 (2026-01-23) · [rulings](https://api.scryfall.com/cards/f7c02899-5f0f-4b38-bbbc-fbc8c46419a6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-11-17* — Lands are normally colorless permanents, even if they tap for mana of a certain color.
+  - *2025-11-17* — The colors are white, blue, black, red, and green. Colorless is not a color.
+  - *2025-11-17* — The value of X is calculated only once, as Shimmercreep's last ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/120/shimmercreep) · oracle_id `52244c23-7680-4bed-8ef8-8d10e289d3f7` · printing: ECL #120 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shimmer Dragon
 
@@ -771,6 +833,7 @@
   > *The indigo dragon gladly traded a bit of its hoard for everlasting moonlight.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2747 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/117/shimmer-dragon) · oracle_id `de1316f2-1cca-4ac4-aead-0fd8b4036d88` · printing: MKC #117 (2024-02-09) · [rulings](https://api.scryfall.com/cards/3983a11e-8a8a-4d9d-868b-13e0c3719abb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shimmerdrift Vale
@@ -784,7 +847,13 @@
 - **Flavor text** (KHM printing):
   > *Reflections from the wind-sculpted snow gleam with every color of the rainbow.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7174 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/267/shimmerdrift-vale) · oracle_id `2ac34f3e-822d-4fde-99ca-a31c4d9503fd` · printing: KHM #267 (2021-02-05) · [rulings](https://api.scryfall.com/cards/f09d98db-0176-41a7-b99b-ead29876cdab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-02-05* — Snow is a supertype, not a card type. It has no rules meaning or function by itself, but spells and abilities may refer to it.
+  - *2021-02-05* — Snow isn't a type of mana. If an effect says you may spend mana as though it were any type, you can't pay for {S} using mana that wasn't produced by a snow source.
+  - *2021-02-05* — Some cards have additional effects for each {S} spent to cast them. You can cast these spells even if you don't spend any snow mana to cast them; their additional effects simply won't do anything.
+  - *2021-02-05* — The Kaldheim set doesn't have any cards with mana costs that include {S}, but some previous sets do. If an effect says such a spell costs {1} less to cast, that reduction doesn't apply to any {S} costs. This is also true for activated abilities that include {S} in their activation costs and effects that reduce those costs.
+  - *2021-02-05* — The {S} symbol is a generic mana symbol. It represents a cost that can be paid by one mana that was produced by a snow source. That mana can be any color or colorless.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/267/shimmerdrift-vale) · oracle_id `2ac34f3e-822d-4fde-99ca-a31c4d9503fd` · printing: KHM #267 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shimmering Barrier
 
@@ -878,7 +947,10 @@
   > *It evades Phyrexians by hiding in the spaces between seconds.*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1345 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/409/shimmer-myr) · oracle_id `e110ee80-37af-4989-a5fb-95d51dc7f102` · printing: CMM #409 (2023-08-04) · [rulings](https://api.scryfall.com/cards/4f61479b-05e1-4c89-bf11-b79c06ace5e2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-11-10* — Once you announce that you're casting a spell, players can't attempt to remove Shimmer Myr from the battlefield to make that casting illegal. Removing Shimmer My after you've cast a spell won't affect that spell.
+  - *2020-11-10* — Shimmer Myr has no effect on artifact lands because they aren't cast as spells.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/409/shimmer-myr) · oracle_id `e110ee80-37af-4989-a5fb-95d51dc7f102` · printing: CMM #409 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shimmer of Possibility
 
@@ -917,7 +989,10 @@
   > Whenever enchanted land is tapped for mana, its controller adds an additional one mana of the chosen color.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7878 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/194/shimmerwilds-growth) · oracle_id `c63402b2-1f8c-4004-82d8-48ea26bfe3fc` · printing: ECL #194 (2026-01-23) · [rulings](https://api.scryfall.com/cards/c122719c-f0d1-4170-a0d1-d62172df1d21/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-11-17* — If Shimmerwilds Growth is somehow on the battlefield without a chosen color, its last ability won't add any mana.
+  - *2025-11-17* — Shimmerwilds Growth's last ability is a mana ability. It doesn't use the stack and can't be responded to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/194/shimmerwilds-growth) · oracle_id `c63402b2-1f8c-4004-82d8-48ea26bfe3fc` · printing: ECL #194 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shimmerwing Chimera
 
@@ -1110,6 +1185,7 @@
 - **Flavor text** (CHK printing):
   > *The glow from within looks inviting, but woe awaits whomever finds out who stokes the fire or what simmers in the pot.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1964 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/282/shinka-the-bloodsoaked-keep) · oracle_id `255b937f-c9c9-4ae9-815e-17418eba0602` · printing: CHK #282 (2004-10-01) · [rulings](https://api.scryfall.com/cards/d2d5f30e-cc3a-46c1-82a9-2cd73705b2f5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shinra Reinforcements
@@ -1135,7 +1211,14 @@
   > Whenever enchanted creature attacks, you create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.")
 - **Keywords:** Goad, Treasure, Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1397 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/231/shiny-impetus) · oracle_id `aae76e5c-f5e0-4d18-b465-e6a829be908a` · printing: TDC #231 (2025-04-11) · [rulings](https://api.scryfall.com/cards/cc36705f-9b1a-42fe-bebd-f23c7af8a368/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2020-04-17* — Shiny Impetus causes you to create a Treasure token, not the attacking creature's controller.
+  - *2023-06-30* — Attacking with a goaded creature doesn't cause it to stop being goaded. If there is an additional combat phase that turn, or if another player gains control of it before it stops being goaded, it must attack again if able.
+  - *2023-06-30* — Being goaded isn't an ability the creature has. Once it's been goaded, it must attack as detailed above even if it loses all abilities.
+  - *2023-06-30* — If a creature you control has been goaded by multiple opponents, it must attack one of your opponents that hasn't goaded it, as that fulfills the maximum number of goad requirements. If a creature you control has been goaded by each of your opponents, the creature must attack an opponent (rather than a planeswalker or battle), but you choose which opponent it attacks.
+  - *2023-06-30* — If the creature doesn't meet any of the above exceptions and can attack, it must attack a player other than the controller of the spell or ability that goaded it if able. If the creature can't attack any of those players but could otherwise attack, it must attack a planeswalker an opponent controls, a battle an opponent controls, or a player who goaded it.
+  - *2023-06-30* — If, during a player's declare attackers step, a creature that player controls that's been goaded is tapped, is affected by a spell or ability that says it can't attack, or hasn't been under that player's control continuously since the turn began (and doesn't have haste), then it doesn't attack. If there's a cost associated with having a creature attack a player, its controller isn't forced to pay that cost, so it doesn't have to attack that player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/231/shiny-impetus) · oracle_id `aae76e5c-f5e0-4d18-b465-e6a829be908a` · printing: TDC #231 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shipbreaker Kraken
 
@@ -1147,7 +1230,15 @@
   > When this creature becomes monstrous, tap up to four target creatures. Those creatures don't untap during their controllers' untap steps for as long as you control this creature.
 - **Keywords:** Monstrosity
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8847 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/404/shipbreaker-kraken) · oracle_id `dda7a088-61e3-4c47-b9e0-529fc047f77e` · printing: CMR #404 (2020-11-20) · [rulings](https://api.scryfall.com/cards/2e558f0a-f921-4ecf-b1c9-2c93aa2d3fd9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2013-09-15* — An ability that triggers when a creature becomes monstrous won't trigger if that creature isn't on the battlefield when its monstrosity ability resolves.
+  - *2013-09-15* — If another player gains control of Shipbreaker Kraken, the creatures will no longer be affected by the effect preventing them from untapping, even if you later regain control of Shipbreaker Kraken.
+  - *2013-09-15* — If you gain control of a creature that's being prevented from untapping, that creature won't untap during your untap step for as long as you control Shipbreaker Kraken.
+  - *2013-09-15* — If you lose control of Shipbreaker Kraken between when its last ability triggers and when that ability resolves, the target creatures will become tapped. However, they won't be affected by the other effect and will untap as normal during their controllers' untap steps.
+  - *2013-09-15* — Monstrous isn't an ability that a creature has. It's just something true about that creature. If the creature stops being a creature or loses its abilities, it will continue to be monstrous.
+  - *2013-09-15* — Once a creature becomes monstrous, it can't become monstrous again. If the creature is already monstrous when the monstrosity ability resolves, nothing happens.
+  - *2013-09-15* — The ability can target a tapped creature. If a targeted creature is already tapped when it resolves, that creature just remains tapped and doesn't untap during its controller's untap step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/404/shipbreaker-kraken) · oracle_id `dda7a088-61e3-4c47-b9e0-529fc047f77e` · printing: CMR #404 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shipwreck Dowser
 
@@ -1161,6 +1252,7 @@
   > *Lost at sea doesn't have to mean lost forever.*
 - **Keywords:** Prowess
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8679 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/596/shipwreck-dowser) · oracle_id `dc3073fc-dc23-426e-b867-fee5dd99fe25` · printing: FDN #596 (2024-11-15) · [rulings](https://api.scryfall.com/cards/1f20fe3d-792a-4030-a25c-e81b48b2bcb4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shipwreck Looter
@@ -1263,7 +1355,12 @@
 - **Oracle text:**
   > Whenever a creature with power 1 or less is put into your graveyard from the battlefield, you may return that card to the battlefield at the beginning of the next end step if Shirei is still on the battlefield.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9071 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/186/shirei-shizos-caretaker) · oracle_id `7b5c3d28-6d8b-488b-b088-567b24faadc7` · printing: CMM #186 (2023-08-04) · [rulings](https://api.scryfall.com/cards/69848ec1-dba7-419f-a5f9-f934bebeeaa6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2018-12-07* — If Shirei leaves the battlefield and returns to the battlefield after a creature with power 1 or less is put into your graveyard, Shirei is considered a new object. The delayed triggered ability won't return the creature to the battlefield.
+  - *2018-12-07* — Shirei's ability can't return any creatures that died before Shirei entered the battlefield.
+  - *2018-12-07* — Shirei's ability only triggers if the creature's power immediately before leaving the battlefield is 1 or less, regardless of its power in your graveyard.
+  - *2018-12-07* — Shirei's ability triggers if a creature you own with power 1 or less dies under another player's control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/186/shirei-shizos-caretaker) · oracle_id `7b5c3d28-6d8b-488b-b088-567b24faadc7` · printing: CMM #186 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shire Scarecrow
 
@@ -1304,6 +1401,7 @@
 - **Flavor text** (LTR printing):
   > *Everything looked fresh, and the new green of Spring was shimmering in the fields.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2300 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/261/shire-terrace) · oracle_id `619173f4-0403-49cd-9659-2fedd5028a90` · printing: LTR #261 (2023-06-23) · [rulings](https://api.scryfall.com/cards/25932483-58cd-4ae5-82bf-ab455177d117/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shisato, Whispering Hunter
@@ -1343,6 +1441,7 @@
   > *There were many reasons why Shiv was not high on Sheoldred's list of places to conquer: big, fiery reasons.*
 - **Keywords:** Flying, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4143 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/143/shivan-devastator) · oracle_id `b7daa74c-6142-4107-9355-be98af6ccf13` · printing: DMU #143 (2022-09-09) · [rulings](https://api.scryfall.com/cards/1f5d274c-3a03-4f0d-97e8-7eef6508105d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shivan Dragon
@@ -1394,7 +1493,9 @@
 - **Flavor text** (DSC printing):
   > *Both forge and pyre.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2480 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/297/shivan-gorge) · oracle_id `e90a1381-c9c1-4f57-928c-5d19dc065274` · printing: DSC #297 (2024-09-27) · [rulings](https://api.scryfall.com/cards/c1752b65-dace-4c87-b102-23df276b2e41/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — The damage has no color. It is not red.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/297/shivan-gorge) · oracle_id `e90a1381-c9c1-4f57-928c-5d19dc065274` · printing: DSC #297 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shivan Harvest
 

@@ -33,4 +33,5 @@
   > Horrific Symbiosis — At the beginning of your end step, exile up to one target creature card from an opponent's graveyard. If you do, create a token that's a copy of this creature.
 - **Keywords:** Horrific Symbiosis
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4800 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/673/uchuulon) · oracle_id `1f266fa4-6667-49db-9d24-dfbabf1449ca` · printing: CLB #673 (2022-06-10) · [rulings](https://api.scryfall.com/cards/ecef5fca-72ec-4aee-af6e-ee5d6f6bc567/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

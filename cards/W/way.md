@@ -240,7 +240,11 @@
   > If a creature you control being dealt damage causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.
 - **Keywords:** Haste, Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8332 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/7/wayta-trainer-prodigy) · oracle_id `e507df33-d150-4b21-8ddb-90799f412dd8` · printing: LCC #7 (2023-11-17) · [rulings](https://api.scryfall.com/cards/04f2d7ee-43a4-48e8-af64-d9fad4b9c5f1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-11-10* — If you somehow control two copies of Wayta, Trainer Prodigy, a creature you control being dealt damage causes abilities to trigger three times, not four. A third Wayta, Trainer Prodigy causes abilities to trigger four times, a fourth causes abilities to trigger five times, and so on.
+  - *2023-11-10* — Wayta, Trainer Prodigy's last ability affects only triggered abilities whose trigger conditions refer specifically to damage being dealt, such as the ability granted by Mephidross Vampire or the last ability of Wrathful Raptors. It does not affect triggered abilities that would trigger because of the results of that damage. For example, if you control an Ajani's Pridemate ("Whenever you gain life, put a +1/+1 counter on Ajani's Pridemate") and you activate Wayta, Trainer Prodigy's second ability targeting a creature you control with lifelink and another creature you control, the triggered ability of Ajani's Pridemate will still trigger only once.
+  - *2023-11-10* — Wayta, Trainer Prodigy's last ability doesn't copy the triggered ability; it just causes the ability to trigger twice. Any choices made as you put the ability onto the stack, such as modes and targets, are made separately for each instance of the ability. Any choices made on resolution, such as whether to put counters on a permanent, are also made individually.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/7/wayta-trainer-prodigy) · oracle_id `e507df33-d150-4b21-8ddb-90799f412dd8` · printing: LCC #7 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wayward Angel
 
@@ -292,7 +296,10 @@
 - **Flavor text** (AKH printing):
   > *If one of the anointed fails to serve with perfect obedience, the desert is always ready to receive it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4953 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/akh/208/wayward-servant) · oracle_id `2916f041-f080-450f-ae79-dc09076d971a` · printing: AKH #208 (2017-04-28) · [rulings](https://api.scryfall.com/cards/e9e00112-8c6c-4551-ad68-389e315fe148/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-04-18* — If Wayward Servant enters the battlefield at the same time as another Zombie creature, its ability triggers for that Zombie.
+  - *2017-04-18* — In a Two-Headed Giant game, the triggered ability of Wayward Servant causes the opposing team to lose 2 life and you gain 1 life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/akh/208/wayward-servant) · oracle_id `2916f041-f080-450f-ae79-dc09076d971a` · printing: AKH #208 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wayward Soul
 
@@ -320,4 +327,12 @@
   > This creature can't attack or block unless you have the city's blessing.
 - **Keywords:** Ascend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1062 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/263/wayward-swordtooth) · oracle_id `3875aef0-3102-4fbf-be90-e4139f7a2348` · printing: LCC #263 (2023-11-17) · [rulings](https://api.scryfall.com/cards/95a5d742-187a-4eba-82e4-7a4cc5c4e6f3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2018-01-19* — A permanent is any object on the battlefield, including tokens and lands. Spells and emblems aren't permanents.
+  - *2018-01-19* — Ascend on a permanent isn't a triggered ability and doesn't use the stack. Players can respond to a spell that will give you your tenth permanent, but they can't respond to getting the city's blessing once you control that tenth permanent. This means that if your tenth permanent is a land you play, players can't respond before you get the city's blessing.
+  - *2018-01-19* — If you cast a spell with ascend, you don't get the city's blessing until it resolves. Players may respond to that spell by trying to change whether you get the city's blessing.
+  - *2018-01-19* — If you control ten permanents but don't control a permanent or resolving spell with ascend, you don't get the city's blessing. For example, if you control ten permanents, lose control of one, then cast Golden Demise, you won't have the city's blessing and the spell will affect creatures you control.
+  - *2018-01-19* — If your tenth permanent enters the battlefield and then a permanent leaves the battlefield immediately afterwards (most likely due to the "Legend Rule" or due to being a creature with 0 toughness), you get the city's blessing before it leaves the battlefield.
+  - *2018-01-19* — Once you have the city's blessing, you have it for the rest of the game, even if you lose control of some or all of your permanents. The city's blessing isn't a permanent itself and can't be removed by any effect.
+  - *2018-01-19* — Wayward Swordtooth's middle ability is cumulative if you control more than one. It's also cumulative with other effects that let you play additional lands, such as the one from Enter the Unknown.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/263/wayward-swordtooth) · oracle_id `3875aef0-3102-4fbf-be90-e4139f7a2348` · printing: LCC #263 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

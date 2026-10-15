@@ -33,7 +33,11 @@
   > Planeswalkers you control of the chosen type have hexproof.
   > As long as you control a creature, if damage dealt to a planeswalker you control of the chosen type would result in all loyalty counters on it being removed, instead all but one of those counters are removed.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9337 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mat/2/deification) · oracle_id `8c8f93d7-d89a-401b-8764-76be71ad16e3` · printing: MAT #2 (2023-05-12) · [rulings](https://api.scryfall.com/cards/52ce799e-cb9e-4d74-8b13-a5f4559e13a9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-05-12* — A planeswalker with hexproof may still be attacked.
+  - *2023-05-12* — Deification's last ability doesn't prevent damage. All damage is still dealt to the affected planeswalkers, and any additional effects of that damage will still happen. For example, if a 3/3 creature with lifelink attacks an affected planeswalker with two loyalty counters on it, 3 damage will be dealt, causing the controller of the creature to gain 3 life and one loyalty counter to be removed from the planeswalker.
+  - *2023-05-12* — Deification's last ability will apply to a planeswalker dealt combat damage in the same combat damage step that its controller's last creature is destroyed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mat/2/deification) · oracle_id `8c8f93d7-d89a-401b-8764-76be71ad16e3` · printing: MAT #2 (2023-05-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deity of Scars
 

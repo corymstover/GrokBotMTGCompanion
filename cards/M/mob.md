@@ -115,7 +115,11 @@
 - **Flavor text** (CMM printing):
   > *Sometimes the strongest weapon you can hold in your hand is another hand.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9564 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/1011/mobilized-district) · oracle_id `eb2094cf-b4be-4f52-8615-e179ef7c741d` · printing: CMM #1011 (2023-08-04) · [rulings](https://api.scryfall.com/cards/c7921b97-083b-480a-a7df-f2ab82e6f8fb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-05-03* — An ability that turns a land into a creature also sets that creature's power and toughness. If the land was already a creature (for example, if it was the target of Awakening of Vitu-Ghazi), this will overwrite the previous effect that set its power and toughness. Effects that modify its power or toughness will continue to apply no matter when they started to take effect. The same is true for counters that change its power or toughness (such as +1/+1 counters) and effects that switch its power and toughness. For example, if Mobilized District has been made a 0/0 creature with nine +1/+1 counters on it, activating its last ability will turn it into a 12/12 Citizen creature that's still a land.
+  - *2019-05-03* — If Mobilized District becomes a creature the same turn it enters the battlefield, you can't attack with it or activate its mana ability.
+  - *2019-05-03* — If you control four or more legendary permanents that are creatures and/or planeswalkers, the last ability of Mobilized District costs no mana to activate. A legendary planeswalker that's also a creature reduces this cost by only {1}.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/1011/mobilized-district) · oracle_id `eb2094cf-b4be-4f52-8615-e179ef7c741d` · printing: CMM #1011 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mobilizer Mech
 
@@ -128,7 +132,11 @@
   > Crew 3 (Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)
 - **Keywords:** Flying, Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5430 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/65/mobilizer-mech) · oracle_id `3c1a2a2d-656f-4021-b046-59e14383a8c8` · printing: NEO #65 (2022-02-18) · [rulings](https://api.scryfall.com/cards/cf4bb9de-ba7c-4916-b8ed-e2e644c06b58/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-02-18* — If an effect that causes a Vehicle to become a creature doesn't specify its power and toughness, it has the same power and toughness that it would normally have if it were crewed.
+  - *2022-02-18* — Mobilizer Mech's second ability triggers whenever its crew ability resolves, even if it is already a creature at that time.
+  - *2022-02-18* — That ability doesn't count as "crewing" a Vehicle for any ability that would trigger off of a Vehicle becoming crewed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/65/mobilizer-mech) · oracle_id `3c1a2a2d-656f-4021-b046-59e14383a8c8` · printing: NEO #65 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mob Justice
 
@@ -139,7 +147,9 @@
 - **Flavor text** (STH printing):
   > *A single stone can start an avalanche.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9702 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sth/90/mob-justice) · oracle_id `0ff97869-f27c-4379-92fd-605062aa5418` · printing: STH #90 (1998-03-02) · [rulings](https://api.scryfall.com/cards/b790d789-bb21-4119-a0e3-43af9bef8acc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Creatures are counted on resolution.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sth/90/mob-justice) · oracle_id `0ff97869-f27c-4379-92fd-605062aa5418` · printing: STH #90 (1998-03-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mob Lookout
 
@@ -179,7 +189,12 @@
   > • Gain control of all creatures with power 4 or greater until end of turn. Untap those creatures. They gain haste until end of turn.
   > • Gain control of all creatures with power 3 or less until end of turn. Untap those creatures. They gain haste until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3438 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/voc/147/mob-rule) · oracle_id `acca2128-6ebb-48a5-a6a2-1bc5e4aa86ce` · printing: VOC #147 (2021-11-19) · [rulings](https://api.scryfall.com/cards/8b04c928-9ee5-4e39-962e-4686e25b5c33/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2014-11-24* — Gaining control of a creature doesn't cause you to gain control of any Auras or Equipment attached to it.
+  - *2014-11-24* — Mob Rule can affect creatures you already control or ones that are already untapped. It will untap them if applicable and give them haste.
+  - *2014-11-24* — Once you gain control of a creature, it doesn't matter what happens to its power.
+  - *2014-11-24* — You choose which mode you're using as you cast Mob Rule. Once it's cast, you can't change its mode, even if creatures' powers change in response.
+- **Source flags:** [Scryfall](https://scryfall.com/card/voc/147/mob-rule) · oracle_id `acca2128-6ebb-48a5-a6a2-1bc5e4aa86ce` · printing: VOC #147 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mob Verdict
 
@@ -191,4 +206,10 @@
   > *The court of public opinion doesn't hear appeals.*
 - **Keywords:** Secret council
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7135 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/33/mob-verdict) · oracle_id `cb91e09e-f7fb-44bc-b78f-de29705bd2d6` · printing: MKC #33 (2024-02-09) · [rulings](https://api.scryfall.com/cards/e9bdc40b-ab7a-44a4-afb5-41b6fc2dffdc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-02-02* — Abilities that trigger “whenever players finish voting” trigger once all players have voted or once all secret votes are revealed, but they won’t go on the stack until the current spell or ability finishes resolving.
+  - *2024-02-02* — Before secret votes are revealed, players may announce how they intend to vote, but they can’t reveal what they actually wrote down until all votes are simultaneously revealed. Players can lie about how they intend to vote before the votes are revealed.
+  - *2024-02-02* — Each player must vote for another player. They can’t abstain.
+  - *2024-02-02* — To secretly vote, each player writes down their chosen option without showing it to anyone else. Each player then keeps their vote secret until all players simultaneously reveal their votes.
+  - *2024-02-02* — Votes are cast during the resolution of Mob Verdict, so any responses to Mob Verdict must be made without knowing the outcome of the vote.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/33/mob-verdict) · oracle_id `cb91e09e-f7fb-44bc-b78f-de29705bd2d6` · printing: MKC #33 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

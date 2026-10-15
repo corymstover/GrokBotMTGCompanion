@@ -101,7 +101,10 @@
   > You may play lands and cast spells from among cards you own in exile with croak counters on them.
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6919 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/vow/238/grolnok-the-omnivore) · oracle_id `53029460-50a0-4934-8fa9-0271517cd5d0` · printing: VOW #238 (2021-11-19) · [rulings](https://api.scryfall.com/cards/7aaba76b-9cec-4c2b-b0eb-8f44201f6422/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-11-19* — Grolnok's last ability allows you to play lands and cast spells from among all cards you own in exile with croak counters on them, regardless of whether they were put there by the Grolnok that's currently on the battlefield or by an earlier incarnation.
+  - *2021-11-19* — Grolnok, the Omnivore's second ability exiles all permanent cards that are put into your graveyard from your library, not just those that you mill when a Frog you control attacks.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vow/238/grolnok-the-omnivore) · oracle_id `53029460-50a0-4934-8fa9-0271517cd5d0` · printing: VOW #238 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grond, the Gatebreaker
 
@@ -220,7 +223,12 @@
   > When Grothama leaves the battlefield, each player draws cards equal to the amount of damage dealt to Grothama this turn by sources they controlled.
 - **Keywords:** Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6888 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/71/grothama-all-devouring) · oracle_id `34fd52c1-3d81-4005-b826-eeefbd7fd874` · printing: BBD #71 (2018-06-08) · [rulings](https://api.scryfall.com/cards/ab8935b1-ec87-4330-9952-9ef8cd344531/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2018-06-08* — Creatures fight Grothama before blockers are declared. Any creatures that die in the fight can't be blocked. Any attacking creatures that survive the fight will still be attacking, may be blocked as normal, and will deal damage to the player or planeswalker they're attacking if unblocked.
+  - *2018-06-08* — Grothama's last ability triggers even if it dies without being fought by attacking creatures. For example, if you use Blaze to deal 10 damage to Grothama, you draw ten cards.
+  - *2018-06-08* — If multiple creatures attack, each desired fight happens individually in the order the attacking players choose. Once Grothama has been defeated, any remaining attacking creatures can't fight it.
+  - *2018-06-08* — The controller of the attacking creature chooses whether that creature fights Grothama.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/71/grothama-all-devouring) · oracle_id `34fd52c1-3d81-4005-b826-eeefbd7fd874` · printing: BBD #71 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ground Assault
 
@@ -260,7 +268,9 @@
   > *"Whatever my lil' man D.B. here can't dig under, I can just about bust through. Ain't no one caging us ever again."*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8648 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/115/groundchuck-&-dirtbag) · oracle_id `da344e46-6bdf-4032-8590-bac850d5713d` · printing: TMT #115 (2026-03-06) · [rulings](https://api.scryfall.com/cards/1563592e-0f21-4488-a3ec-ca766386e423/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-01-27* — Groundchuck & Dirtbag's last ability is a mana ability. It doesn't use the stack and can't be responded to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/115/groundchuck-&-dirtbag) · oracle_id `da344e46-6bdf-4032-8590-bac850d5713d` · printing: TMT #115 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grounded
 
@@ -359,6 +369,7 @@
 - **Flavor text** (EOC printing):
   > *"While the church thinks in terms of legacies, others think in terms of eternities."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9211 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/97/groundskeeper) · oracle_id `f2c19fba-9b06-461f-bb5e-e827ba41204d` · printing: EOC #97 (2025-08-01) · [rulings](https://api.scryfall.com/cards/30444f88-5a7e-46bc-ab0c-17e62fae2457/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Groundswell
@@ -372,7 +383,13 @@
   > *"This world will not be tamed."*
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8455 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddp/15/groundswell) · oracle_id `ddbacb74-1f98-4607-a92e-d14973b9d0ef` · printing: DDP #15 (2015-08-28) · [rulings](https://api.scryfall.com/cards/821e9cb9-f78e-4d11-9c36-42e8b84b49cd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-11-08* — Having more than one land enter the battlefield under your control this turn provides no additional benefit.
+  - *2024-11-08* — Once the spell resolves, having a land enter under your control provides no further benefit.
+  - *2024-11-08* — The effect of this spell's landfall ability replaces its normal effect. If you had a land enter under your control this turn, only the landfall-based effect happens.
+  - *2024-11-08* — The landfall ability checks for an action that has happened in the past. It doesn't matter if a land that entered the battlefield under your control previously in the turn is still on the battlefield, is still under your control, or is still a land.
+  - *2024-11-08* — Whether you had a land enter the battlefield under your control this turn is checked as this spell resolves, not as you cast it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddp/15/groundswell) · oracle_id `ddbacb74-1f98-4607-a92e-d14973b9d0ef` · printing: DDP #15 (2015-08-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Group Project
 
@@ -398,6 +415,7 @@
 - **Flavor text** (IMA printing):
   > *Spring is the most beautiful season in the grove, when the new leaves open from their ember-buds in a race of leaping flames.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3345 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ima/238/grove-of-the-burnwillows) · oracle_id `d33c3fbb-8306-4c2d-b0dd-88f12639da94` · printing: IMA #238 (2017-11-17) · [rulings](https://api.scryfall.com/cards/de4b75ad-7539-4184-a940-6014a0327b3a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grove of the Guardian
@@ -408,7 +426,10 @@
   > {T}: Add {C}.
   > {3}{G}{W}, {T}, Tap two untapped creatures you control, Sacrifice this land: Create an 8/8 green and white Elemental creature token with vigilance.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9777 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/240/grove-of-the-guardian) · oracle_id `f746612a-fbed-44ca-b2cc-5928e10cf4bb` · printing: RTR #240 (2012-10-05) · [rulings](https://api.scryfall.com/cards/3cf60ca0-e01f-499c-8d04-d59050f38c33/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2012-10-01* — To activate Grove of the Guardian’s second ability you can tap any two untapped creatures you control, including ones you haven’t controlled continuously since the beginning of your most recent turn.
+  - *2012-10-01* — You can’t tap Grove of the Guardian to activate both abilities at the same time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/240/grove-of-the-guardian) · oracle_id `f746612a-fbed-44ca-b2cc-5928e10cf4bb` · printing: RTR #240 (2012-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grove Rumbler
 
@@ -459,7 +480,14 @@
   > Search your library for a basic land card, put it onto the battlefield, then shuffle. If this spell was kicked, instead search your library for two basic land cards, put them onto the battlefield, then shuffle.
 - **Keywords:** Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3512 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/225/grow-from-the-ashes) · oracle_id `645ab3c7-ee1d-4dd0-811f-2dc7f7c7e792` · printing: FDN #225 (2024-11-15) · [rulings](https://api.scryfall.com/cards/42525f8a-aee7-4811-8f05-471b559c2c4a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/225/grow-from-the-ashes) · oracle_id `645ab3c7-ee1d-4dd0-811f-2dc7f7c7e792` · printing: FDN #225 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Growing Detective
 
@@ -494,7 +522,14 @@
   > *—Trostani*
 - **Keywords:** Populate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4610 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c19/193/growing-ranks) · oracle_id `bec6fb31-60a3-432f-ba36-aebf172f8b27` · printing: C19 #193 (2019-08-23) · [rulings](https://api.scryfall.com/cards/6ea45414-4047-4921-b77d-dfcba2fe7694/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-01-12* — Any enters-the-battlefield abilities of the copied token will trigger when the new token enters the battlefield. Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the copied token will also work.
+  - *2024-01-12* — If you choose to copy a creature token that's a copy of another creature, the new creature token will copy the characteristics of whatever the original token is copying.
+  - *2024-01-12* — If you control no creature tokens when you populate, nothing will happen.
+  - *2024-01-12* — Populate doesn't target the creature token you're copying. You choose that creature token as you're taking the populate action. You can choose any creature token you control. If a spell or ability causes you to create a creature token and then instructs you to populate, you may choose to copy the token you just created, or you may choose to copy another creature token you control.
+  - *2024-01-12* — The new creature token copies the characteristics of the original token as stated by the effect that created the original token.
+  - *2024-01-12* — The new token doesn't copy whether the original token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any noncopy effects that have changed its power, toughness, color, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c19/193/growing-ranks) · oracle_id `bec6fb31-60a3-432f-ba36-aebf172f8b27` · printing: C19 #193 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Growing Rites of Itlimoc // Itlimoc, Cradle of the Sun
 
@@ -559,7 +594,9 @@
   > *"There is no force stronger or more daunting than that of exponential growth."*
 - **Keywords:** Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9678 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/193/growth-curve) · oracle_id `1efd6082-15a8-4322-892d-02d01e381e2a` · printing: SOS #193 (2026-04-24) · [rulings](https://api.scryfall.com/cards/1675a445-86ae-413b-b95a-a1c254a7f252/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-03-20* — To double the number of +1/+1 counters on a creature, put a number of +1/+1 counters on it equal to the number it already has. Other effects that interact with putting counters on it will interact with this effect accordingly.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/193/growth-curve) · oracle_id `1efd6082-15a8-4322-892d-02d01e381e2a` · printing: SOS #193 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Growth Cycle
 
@@ -580,7 +617,9 @@
 - **Oracle text:**
   > Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. Create a 0/1 colorless Eldrazi Spawn creature token. It has "Sacrifice this token: Add {C}."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7228 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mic/139/growth-spasm) · oracle_id `6c022656-2b97-46c5-8f7b-72a71996457a` · printing: MIC #139 (2021-09-24) · [rulings](https://api.scryfall.com/cards/d8a6849b-6391-4c2c-97bd-267a31e57b38/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2010-06-15* — You put an Eldrazi Spawn token onto the battlefield whether or not you put a basic land card onto the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mic/139/growth-spasm) · oracle_id `6c022656-2b97-46c5-8f7b-72a71996457a` · printing: MIC #139 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Growth Spiral
 

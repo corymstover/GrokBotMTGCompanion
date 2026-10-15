@@ -45,7 +45,10 @@
   > *It drains vitality from those it touches.*
 - **Keywords:** Flying, Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7220 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/plst/RNA-273/the-haunt-of-hightower) · oracle_id `e70f5520-1b9c-4351-8484-30f0dc692e01` · printing: PLST #RNA-273 (2024-08-02) · [rulings](https://api.scryfall.com/cards/49b1bdff-a039-4dae-acda-7371ef6aec9d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-01-25* — If The Haunt of Hightower is attacking a planeswalker, the controller of the planeswalker is the defending player.
+  - *2019-01-25* — The Haunt of Hightower's last ability won't trigger when a token is put into an opponent's graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/plst/RNA-273/the-haunt-of-hightower) · oracle_id `e70f5520-1b9c-4351-8484-30f0dc692e01` · printing: PLST #RNA-273 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Herald of Numot
 
@@ -118,6 +121,7 @@
   > II — Draw a card for each creature you control but don't own.
   > III — Starting with you, each player chooses a creature. Destroy each creature chosen this way.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9357 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/126/the-horus-heresy) · oracle_id `fc315174-d063-41dd-9379-11d95c5fd4ed` · printing: 40K #126 (2022-10-07) · [rulings](https://api.scryfall.com/cards/c9551a51-2bbd-425b-a634-185921a96865/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Howling Abomination
@@ -155,7 +159,9 @@
   > I, II, III — Create a 1/1 black and green Insect creature token.
   > IV — Sacrifice any number of creatures. Search your library and/or graveyard for a creature card with mana value less than or equal to the number of creatures sacrificed this way and put it onto the battlefield. If you search your library this way, shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9139 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/158/the-hunger-tide-rises) · oracle_id `356edd68-7dd5-4ab6-a738-6cb0eb2d4e56` · printing: MH3 #158 (2024-06-14) · [rulings](https://api.scryfall.com/cards/4b44f01b-17e8-4d49-8f38-fd1128114b2f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-06-07* — If a card in a player's library has {X} in its mana cost, X is 0 when determining its mana value.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/158/the-hunger-tide-rises) · oracle_id `356edd68-7dd5-4ab6-a738-6cb0eb2d4e56` · printing: MH3 #158 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Hunter
 
@@ -177,6 +183,7 @@
 - **Flavor text** (ONE printing):
   > *In Vorinclex's domain, only the mightiest survive, and all are prey in his endless hunt.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7304 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/253/the-hunter-maze) · oracle_id `b0ea4975-a944-4585-8711-60f203cffa4a` · printing: ONE #253 (2023-02-10) · [rulings](https://api.scryfall.com/cards/6389c242-2139-4f12-af30-2b080a1c5e83/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Huntsman's Redemption
@@ -189,4 +196,5 @@
   > II — You may sacrifice a creature. If you do, search your library for a creature or basic land card, reveal it, put it into your hand, then shuffle.
   > III — Up to two target creatures each get +2/+2 and gain trample until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9402 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/176/the-huntsmans-redemption) · oracle_id `ae63fd5c-46ff-41fb-a1f6-6259336525c1` · printing: WOE #176 (2023-09-08) · [rulings](https://api.scryfall.com/cards/27003577-e276-4ad5-b3e9-8523b166ad49/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -195,7 +195,10 @@
   > Equip {2}
 - **Keywords:** Equip, Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6374 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/268/fractal-harness) · oracle_id `09342fd7-3dad-431e-8b87-de8a9287e757` · printing: SOC #268 (2026-04-24) · [rulings](https://api.scryfall.com/cards/8d196dcf-80bc-4a0a-83c9-ae87da5e74bf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-04-16* — If you put Fractal Harness onto the battlefield without casting it, or if you choose 0 as the value of X, the token you create will be 0/0. Unless something else is raising its toughness, that token will enter the battlefield and die before you could take any actions.
+  - *2021-04-16* — To double the number of +1/+1 counters on a permanent, put a number of +1/+1 counters on it equal to the number it already has. Other cards that interact with putting counters on it will interact with this effect accordingly.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/268/fractal-harness) · oracle_id `09342fd7-3dad-431e-8b87-de8a9287e757` · printing: SOC #268 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fractalize
 
@@ -270,6 +273,7 @@
   > *"Your defiance is amusing, little mage. It's time you learn how fragile you really are."*
   > *—Extus Narr*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1259 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/310/fracture) · oracle_id `f21d0319-0509-4ac1-b6e3-10955a26fd7a` · printing: SOC #310 (2026-04-24) · [rulings](https://api.scryfall.com/cards/cba33bf7-0919-408c-8eb0-0bb9fe920c81/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fractured Identity
@@ -281,7 +285,14 @@
 - **Flavor text** (C17 printing):
   > *Self-reflection is not without its perils.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4477 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c17/37/fractured-identity) · oracle_id `1515b0c2-1b55-4cd4-ad81-fb6b1f3e8188` · printing: C17 #37 (2017-08-25) · [rulings](https://api.scryfall.com/cards/b2f73f5d-1aad-48c2-9e74-5f7bdd87900f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2017-08-25* — Any enters-the-battlefield abilities of the copied permanent will trigger when the tokens enter the battlefield. Any "As [this permanent] enters the battlefield" or "[This permanent] enters the battlefield with" abilities of the copied permanent will also work.
+  - *2017-08-25* — If the copied permanent had {X} in its mana cost, X is 0.
+  - *2017-08-25* — If the copied permanent is a token, the tokens created by Fractured Identity copy the original characteristics of that token as stated by the effect that put it onto the battlefield.
+  - *2017-08-25* — If the copied permanent was copying something else, the tokens enter the battlefield as whatever that permanent was copying.
+  - *2017-08-25* — If the exiled permanent was a commander, the tokens won't be commanders.
+  - *2017-08-25* — The tokens copy exactly what was printed on the permanent and nothing else (unless that permanent was copying something else or was a token; see below). They don't copy whether that permanent was tapped or untapped, whether it had any counters on it or Auras and/or Equipment attached to it, or any non-copy effects that changed its power, toughness, types, color, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c17/37/fractured-identity) · oracle_id `1515b0c2-1b55-4cd4-ad81-fb6b1f3e8188` · printing: C17 #37 (2017-08-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fractured Loyalty
 
@@ -304,7 +315,10 @@
 - **Flavor text** (MOC printing):
   > *The Thran learned to capture mana, but power inevitably escapes its bonds.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5693 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/357/fractured-powerstone) · oracle_id `af4f192a-9565-4377-b359-835fe4396e85` · printing: MOC #357 (2023-04-21) · [rulings](https://api.scryfall.com/cards/aeaa7115-bebe-4650-9575-f7855c0055cd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2012-06-01* — In non-Planechase games, Fractured Powerstone's second ability will have no effect.
+  - *2012-06-01* — Rolling the planar die this way doesn't count when determining the cost of the special action of rolling the planar die. For example, if you roll the planar die twice in a turn, then activate Fractured Powerstone to roll it a third time, rolling the planar die again that turn will cost {2}.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/357/fractured-powerstone) · oracle_id `af4f192a-9565-4377-b359-835fe4396e85` · printing: MOC #357 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fractured Sanity
 
@@ -318,7 +332,10 @@
   > *The body grows stronger under stress. The mind does not.*
 - **Keywords:** Mill, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2045 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/722/fractured-sanity) · oracle_id `cf32524e-0df9-4af8-9371-84feeb0a86c6` · printing: CLB #722 (2022-06-10) · [rulings](https://api.scryfall.com/cards/81875876-c1a0-4f64-8dfc-39217b5e4020/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-06-18* — Some cards with cycling have an ability that triggers when you cycle them, and some cards have an ability that triggers whenever you cycle any card. These triggered abilities resolve before you draw from the cycling ability.
+  - *2021-06-18* — Triggered abilities from cycling a card and the cycling ability itself aren't spells. Effects that interact with spells (such as that of Cancel) won't affect them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/722/fractured-sanity) · oracle_id `cf32524e-0df9-4af8-9371-84feeb0a86c6` · printing: CLB #722 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fracturing Gust
 
@@ -366,7 +383,22 @@
   > Partner (You can have two commanders if both have partner.)
 - **Keywords:** Flying, Partner, Explore
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6991 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/81/francisco-fowl-marauder) · oracle_id `1dbe4eb4-8313-459a-89ce-982442cd0cd0` · printing: LCC #81 (2023-11-17) · [rulings](https://api.scryfall.com/cards/5182b527-739e-4523-8611-01244ced26ac/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (14):
+  - *2023-11-10* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2023-11-10* — Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+  - *2023-11-10* — If a resolving spell or ability instructs a specific creature to explore but that creature has left the battlefield, the creature still explores. If you reveal a nonland card this way, you won't put a +1/+1 counter on anything, but you may put the revealed card into your graveyard. Effects that trigger "whenever a creature explores" trigger as appropriate.
+  - *2023-11-10* — If an ability instructs a creature to explore, its controller reveals the top card of their library. If it's a land card, they'll put it into their hand. Otherwise, they'll put a +1/+1 counter on that creature, then choose to either leave that card on top of their library or put it into their graveyard.
+  - *2023-11-10* — If no card is revealed, most likely because that player's library is empty, the exploring creature receives a +1/+1 counter.
+  - *2023-11-10* — If one or more Pirates you control deal damage to multiple players at once (for example, in combat, or with an ability such as that of Lightning-Rig Crew), Francisco, Fowl Marauder's ability triggers once for each of those players.
+  - *2023-11-10* — If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+  - *2023-11-10* — If your Commander deck has two commanders, you can only include cards whose own color identities are also found in your commanders' combined color identities.
+  - *2023-11-10* — In some unusual cases, noncreature permanents may explore. For example, if the creature card returned by Defossilize is somehow not a creature once it's on the battlefield, it can still explore. You'll take all the same actions, and you may end up putting a +1/+1 counter on the permanent. (Note that some effects target a creature, and those effects would still require a legal target to have it explore.)
+  - *2023-11-10* — Once an ability that causes a creature to explore begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the exploring creature after you reveal a nonland card but before it receives a counter.
+  - *2023-11-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from any one of them, not from both of them combined.
+  - *2023-11-10* — Some spells or abilities might cause a creature to explore multiple times in a row. If you reveal a nonland card when a creature explores and leave it on top of your library, then the creature explores again immediately afterwards, you'll reveal the same card again.
+  - *2023-11-10* — To have two commanders, both must have the partner ability as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
+  - *2023-11-10* — You can choose two commanders with partner that are the same color or colors. In Commander Draft, you can even choose two of the same commander with partner if you drafted them. If you do this, make sure you keep the number of times you've cast each from the command zone clear for "commander tax" purposes.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/81/francisco-fowl-marauder) · oracle_id `1dbe4eb4-8313-459a-89ce-982442cd0cd0` · printing: LCC #81 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Frankenstein's Monster
 
@@ -534,7 +566,12 @@
 - **Flavor text** (M19 printing):
   > *The Great Mending that healed the Multiverse also unraveled the threads of Nicol Bolas's power.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8849 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m19/97/fraying-omnipotence) · oracle_id `3b00068d-ad07-417c-bbb3-5f980615fb06` · printing: M19 #97 (2018-07-13) · [rulings](https://api.scryfall.com/cards/f0fa0ad8-854a-4b4e-9f87-e1dfaa11253c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2018-07-13* — Because the instructions are followed in order, abilities of the creatures a player will sacrifice may modify or trigger on losing life, discarding cards, and/or sacrificing creatures. Abilities that trigger this way will resolve after Fraying Omnipotence is done resolving.
+  - *2018-07-13* — In a Two-Headed Giant game, Fraying Omnipotence causes each player to lose half of their team’s life, rounded up. This means that teams at an even life total will have 0 life, and teams at an odd life total will have -1 life. The game then ends in a draw.
+  - *2018-07-13* — The amounts that are lost are rounded up, not the amounts kept. For example, a player with 5 life, five cards in hand, and five creatures would lose 3 life, discard three cards, and sacrifice three creatures.
+  - *2018-07-13* — When Fraying Omnipotence resolves, first each player loses the appropriate amount of life at once. Next, the player whose turn it is chooses an appropriate number of cards in hand without revealing them, then each other player in turn order does the same, and then those cards are all discarded simultaneously. Then, the player whose turn it is chooses an appropriate number of creatures they control. Each other player in turn order does the same, knowing choices made by previous players. Finally, all of the chosen creatures are sacrificed simultaneously.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m19/97/fraying-omnipotence) · oracle_id `3b00068d-ad07-417c-bbb3-5f980615fb06` · printing: M19 #97 (2018-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fraying Sanity
 
@@ -547,7 +584,10 @@
   > *Those wound tightest are first to unravel.*
 - **Keywords:** Enchant, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2934 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hou/35/fraying-sanity) · oracle_id `ab4e9284-7904-413e-97b0-69793be79cc5` · printing: HOU #35 (2017-07-14) · [rulings](https://api.scryfall.com/cards/79e5c1ab-eebd-41ca-a1ca-29b00370f6e8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-07-14* — Fraying Sanity's triggered ability counts the number of cards that were put into the enchanted player's graveyard during the turn, even if Fraying Sanity wasn't on the battlefield at the time those cards were put there, and even if those cards have left that graveyard.
+  - *2017-07-14* — The value of X is determined only as Fraying Sanity's triggered ability resolves. For example, if three Fraying Sanity Auras are attached to one player who had four cards put into their graveyard this turn, X will be four for the first ability to resolve, eight for the second, and sixteen for the third.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hou/35/fraying-sanity) · oracle_id `ab4e9284-7904-413e-97b0-69793be79cc5` · printing: HOU #35 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Frazzle
 
@@ -599,7 +639,9 @@
   > *When a strong mind moves, form and energy shift to heed it.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1579 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/a25/58/freed-from-the-real) · oracle_id `03d32ace-dd99-48c6-bcae-9b915d041aef` · printing: A25 #58 (2018-03-16) · [rulings](https://api.scryfall.com/cards/c47ee6f6-50c1-4f56-b9ce-4c309bfb92ca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-03-16* — Only the player who controls Freed from the Real can activate its abilities. This might not be the controller of the enchanted creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/a25/58/freed-from-the-real) · oracle_id `03d32ace-dd99-48c6-bcae-9b915d041aef` · printing: A25 #58 (2018-03-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Freedom Fighter Recruit
 
@@ -694,7 +736,13 @@
   > Whenever you commit a crime, look at the top five cards of your library. You may put a land card from among them onto the battlefield tapped. Put the rest on the bottom of your library in a random order. This ability triggers only once each turn. (Targeting opponents, anything they control, and/or cards in their graveyards is a crime.)
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5590 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/163/freestrider-lookout) · oracle_id `b7d3e234-0954-4422-96c0-cda91101faa3` · printing: OTJ #163 (2024-04-19) · [rulings](https://api.scryfall.com/cards/32370f05-52a2-405f-b2bb-1b8a9b0b69f8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-04-12* — A player can commit only one crime per spell or ability they control. Targeting multiple opponents, permanents, spells, abilities, and/or cards with the same spell or ability doesn’t constitute committing multiple crimes.
+  - *2024-04-12* — A player commits a crime as they cast a spell, activate an ability, or put a triggered ability on the stack that targets at least one opponent, at least one permanent, spell, or ability an opponent controls, and/or at least one card in an opponent’s graveyard.
+  - *2024-04-12* — Changing the target or targets of a spell or ability won’t affect whether or not the controller of that spell or ability has committed a crime. Only the initial targets chosen for that spell or ability are used to determine whether or not its controller committed a crime.
+  - *2024-04-12* — For example, an ability that triggers when you cast a spell that targets an opponent will trigger at the same time as an ability that triggers whenever you commit a crime. Those abilities can be put on the stack in either order (if you control them both), and they’ll both resolve before the spell that caused them to trigger.
+  - *2024-04-12* — The spell or ability that constituted a crime doesn’t have to have resolved yet or at all. As soon as you’re finished casting the spell, activating the ability, or putting the triggered ability on the stack, you’ve committed a crime.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/163/freestrider-lookout) · oracle_id `b7d3e234-0954-4422-96c0-cda91101faa3` · printing: OTJ #163 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Freewind Equenaut
 
@@ -735,7 +783,10 @@
   > *—Kellan*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8618 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/50/freeze-in-place) · oracle_id `8bf90bb0-f9c1-49c8-905e-32747e921e92` · printing: WOE #50 (2023-09-08) · [rulings](https://api.scryfall.com/cards/1a8bb9c7-2c4b-48a1-806e-742addb72b4b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-09-01* — If the target is not legal as Freeze in Place tries to resolve, Freeze in Place will be removed from the stack. You won't scry.
+  - *2023-09-01* — You may target a creature that is already tapped with Freeze in Place. If the target creature is already tapped as Freeze in Place resolves, you will still put three stun counters on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/50/freeze-in-place) · oracle_id `8bf90bb0-f9c1-49c8-905e-32747e921e92` · printing: WOE #50 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Frenemy of the Guildpact
 
@@ -822,7 +873,11 @@
   > *Not all species on Evendo welcomed the thawing of the ice.*
 - **Keywords:** Haste, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2291 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/183/frenzied-baloth) · oracle_id `6a4ef075-9254-4d36-9572-622833fae54e` · printing: EOE #183 (2025-08-01) · [rulings](https://api.scryfall.com/cards/c72d85e9-a0bc-4f73-8d73-c58843577f4e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-07-25* — A spell or ability that counters spells can still target Frenzied Baloth. When that spell or ability resolves, Frenzied Baloth won’t be countered, but any additional effects of the countering spell or ability will still happen. The same is true for creature spells you control while you control Frenzied Baloth.
+  - *2025-07-25* — Frenzied Baloth’s last ability only stops combat damage from being prevented by effects that specifically use the word “prevent.”
+  - *2025-07-25* — Protection prevents damage, so protection will be unable to prevent combat damage while Frenzied Baloth is on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/183/frenzied-baloth) · oracle_id `6a4ef075-9254-4d36-9572-622833fae54e` · printing: EOE #183 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Frenzied Devils
 
@@ -862,7 +917,9 @@
 - **Flavor text** (FDN printing):
   > *The upside to not thinking about the consequences is that you'll always surprise those who do.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9584 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/199/frenzied-goblin) · oracle_id `6ac470a1-c2be-4971-a5ca-10bb189ebe4d` · printing: FDN #199 (2024-11-15) · [rulings](https://api.scryfall.com/cards/d5592573-2889-40b1-b1d5-c2802482549a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-03-16* — Frenzied Goblin's ability has only one target. You can't pay {R} multiple times to stop multiple creatures from blocking.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/199/frenzied-goblin) · oracle_id `6ac470a1-c2be-4971-a5ca-10bb189ebe4d` · printing: FDN #199 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Frenzied Gorespawn
 
@@ -927,7 +984,9 @@
   > *The drumbeats of the horde echo in every heart.*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8200 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/180/frenzied-saddlebrute) · oracle_id `f9d72bd4-8b4c-47bb-9361-a8cb5e5f64cb` · printing: CMR #180 (2020-11-20) · [rulings](https://api.scryfall.com/cards/d518fffb-542f-4752-be05-d0dbcf4dd6c2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-11-10* — Frenzied Saddlebrute doesn't cause any creatures to gain haste. It just allows all creatures (including those you don't control) to attack as though they had haste if they're attacking your opponents or their planeswalkers.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/180/frenzied-saddlebrute) · oracle_id `f9d72bd4-8b4c-47bb-9361-a8cb5e5f64cb` · printing: CMR #180 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Frenzied Tilling
 
@@ -1029,6 +1088,7 @@
   > *"We live not to forget our past, but to learn from it!"*
 - **Keywords:** Jump
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4645 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/138/freya-crescent) · oracle_id `7e3085d8-9d46-41e0-ad9d-54c44d9ef267` · printing: FIN #138 (2025-06-13) · [rulings](https://api.scryfall.com/cards/9921f646-e893-44db-ac89-0633c1009788/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Freyalise, Llanowar's Fury
@@ -1042,6 +1102,7 @@
   > −6: Draw a card for each green creature you control.
   > Freyalise, Llanowar's Fury can be your commander.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2677 · Game Changer: no · Can be commander: Yes (Oracle text: "can be your commander")
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/290/freyalise-llanowars-fury) · oracle_id `659dfdbf-5e9d-4828-a967-348cb3bcf05a` · printing: CMM #290 (2023-08-04) · [rulings](https://api.scryfall.com/cards/52311be7-b484-4b14-a091-904c6b0c83d1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Freyalise's Charm
@@ -1168,6 +1229,7 @@
 - **Flavor text** (DSK printing):
   > *Best friends are great to share secrets with—like where the matches are, or how to find a human heart.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9684 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/247/friendly-teddy) · oracle_id `02a8b849-e708-427c-92fe-9a41bb0ec7fe` · printing: DSK #247 (2024-09-27) · [rulings](https://api.scryfall.com/cards/82b142be-4586-487a-8dd8-a55eff776458/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Frightcrawler
@@ -1243,6 +1305,7 @@
   > *"Your arrival was expected...and unwelcome."*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7347 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/183/frilled-mystic) · oracle_id `724bc69c-cd09-4ff8-91e7-70500b9474e1` · printing: RVR #183 (2024-01-12) · [rulings](https://api.scryfall.com/cards/5bf655ce-c841-42b2-9578-56ab401bf4de/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Frilled Oculus
@@ -1322,7 +1385,27 @@
   > Whenever Frodo attacks, if you gained 3 or more life this turn, the Ring tempts you. Then if Frodo is your Ring-bearer and the Ring has tempted you two or more times this game, draw a card.
 - **Keywords:** Partner with, Vigilance, Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4779 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner, Partner with
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/2/frodo-adventurous-hobbit) · oracle_id `58ee8c10-7be8-4889-944d-13cae0a4166d` · printing: LTC #2 (2023-06-23) · [rulings](https://api.scryfall.com/cards/328df403-7428-4b17-bdd1-9759fc0f32d8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (19):
+  - *2023-06-16* — "Partner with [name]" represents two abilities. The first is a triggered ability: "When this permanent enters the battlefield, target player may search their library for a card named [name], reveal it, put it into their hand, then shuffle their library."
+  - *2023-06-16* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2023-06-16* — As the Ring tempts you, you get an emblem named The Ring if you don't have one. Then your emblem gains its next ability and you choose a creature you control to become (or remain) your Ring-bearer.
+  - *2023-06-16* — Both commanders start in the command zone, and the remaining 98 cards of your deck are shuffled to become your library.
+  - *2023-06-16* — Each player can have only one emblem named The Ring and only one Ring-bearer at a time.
+  - *2023-06-16* — Each time the Ring tempts you, you must choose a creature if you control one.
+  - *2023-06-16* — Frodo, Adventurous Hobbit's ability looks at how much life you've gained in the turn, even if it wasn't on the battlefield when you gained life. It doesn't care if you also lost life, even if you lost more life than you gained.
+  - *2023-06-16* — If the creature you choose as your Ring-bearer was already your Ring-bearer, that still counts as choosing that creature as your Ring-bearer for the purpose of abilities that trigger "whenever you choose a creature as your Ring-bearer" or abilities that care about which creature was chosen as your Ring-bearer.
+  - *2023-06-16* — If you haven't gained 3 or more life by the time Frodo, Adventurous Hobbit attacks, the ability won't trigger at all.
+  - *2023-06-16* — If your Commander deck has two commanders, you can only include cards whose own color identities are also found in your commanders' combined color identities. If Frodo, Adventurous Hobbit and Sam, Loyal Attendant are your commanders, your deck may contain cards with white, black, and/or green in their color identity, but not blue or red.
+  - *2023-06-16* — Note that the target player searches their library (which may be affected by effects such as that of Stranglehold) and that the card they find is revealed, even though these words aren't included in the ability's reminder text.
+  - *2023-06-16* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from one of them, not from both of them combined. Command Beacon's effect puts one into your hand from the command zone, not both.
+  - *2023-06-16* — Some spells and abilities that cause the Ring to tempt you may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Ring won't tempt you.
+  - *2023-06-16* — The Ring can tempt you even if you don't control a creature. In this case, abilities that trigger "whenever the Ring tempts you" will still trigger.
+  - *2023-06-16* — The Ring gains its abilities in order from top to bottom. Once it gains an ability, it has that ability for the rest of the game.
+  - *2023-06-16* — The Ring tempts you just once, no matter how much life you've gained past 3 life.
+  - *2023-06-16* — The second ability represented by the "partner with [name]" keyword modifies the rules for deck construction in the Commander variant and has no function outside of that variant. If a legendary creature card with "partner with [name]" is designated as your commander, the named legendary creature card can also be designated as your commander. For more information on the Commander variant, please visit Wizards.com/Commander.
+  - *2023-06-16* — The triggered ability of the "partner with" keyword still triggers in a Commander game. If your other commander has somehow ended up in your library, you can find it. You can also target another player, whether or not they have that card in their library.
+  - *2023-06-16* — To have two commanders, both must have the partner ability or corresponding "partner with" abilities as the game begins. A creature with a "partner with" ability can't partner with any creature other than its designated partner. Losing a partner ability during the game doesn't cause either to cease to be your commander.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/2/frodo-adventurous-hobbit) · oracle_id `58ee8c10-7be8-4889-944d-13cae0a4166d` · printing: LTC #2 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Frodo Baggins
 
@@ -1336,7 +1419,17 @@
   > *"Few have ever come hither through greater peril or on an errand more urgent."*
   > *—Elrond*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8927 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/205/frodo-baggins) · oracle_id `d4dd6edf-1e9e-46fa-92b5-5df9aa0e4338` · printing: LTR #205 (2023-06-23) · [rulings](https://api.scryfall.com/cards/de1c0399-9db8-4901-b72e-0010eb9b92b0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2023-06-16* — As the Ring tempts you, you get an emblem named The Ring if you don't have one. Then your emblem gains its next ability and you choose a creature you control to become (or remain) your Ring-bearer.
+  - *2023-06-16* — Each player can have only one emblem named The Ring and only one Ring-bearer at a time.
+  - *2023-06-16* — Each time the Ring tempts you, you must choose a creature if you control one.
+  - *2023-06-16* — If Frodo Baggins is your Ring-bearer but each creature the defending player controls can't block for any reason (such as by having greater power than Frodo along with the first ability of the Ring emblem), then Frodo Baggins isn't blocked. If there's a cost associated with blocking Frodo Baggins, the defending player isn't forced to pay that cost, so it doesn't have to be blocked in that case either.
+  - *2023-06-16* — If Frodo Baggins is your Ring-bearer, only one creature is required to block it. Other creatures may also block it and are free to block other creatures or not block at all.
+  - *2023-06-16* — If the creature you choose as your Ring-bearer was already your Ring-bearer, that still counts as choosing that creature as your Ring-bearer for the purpose of abilities that trigger "whenever you choose a creature as your Ring-bearer" or abilities that care about which creature was chosen as your Ring-bearer.
+  - *2023-06-16* — Some spells and abilities that cause the Ring to tempt you may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Ring won't tempt you.
+  - *2023-06-16* — The Ring can tempt you even if you don't control a creature. In this case, abilities that trigger "whenever the Ring tempts you" will still trigger.
+  - *2023-06-16* — The Ring gains its abilities in order from top to bottom. Once it gains an ability, it has that ability for the rest of the game.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/205/frodo-baggins) · oracle_id `d4dd6edf-1e9e-46fa-92b5-5df9aa0e4338` · printing: LTR #205 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Frodo, Determined Hero
 
@@ -1360,7 +1453,18 @@
   > {W/B}{W/B}: If Frodo is a Citizen, it becomes a Halfling Scout with base power and toughness 2/3 and lifelink.
   > {B}{B}{B}: If Frodo is a Scout, it becomes a Halfling Rogue with "Whenever this creature deals combat damage to a player, that player loses the game if the Ring has tempted you four or more times this game. Otherwise, the Ring tempts you."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7996 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/18/frodo-saurons-bane) · oracle_id `8be62f5c-0ab2-4869-97a2-d8a69a3fde95` · printing: LTR #18 (2023-06-23) · [rulings](https://api.scryfall.com/cards/7d86dc2e-6f0c-4714-9d30-5d099d3b895c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2023-06-16* — As the Ring tempts you, you get an emblem named The Ring if you don't have one. Then your emblem gains its next ability and you choose a creature you control to become (or remain) your Ring-bearer.
+  - *2023-06-16* — Each player can have only one emblem named The Ring and only one Ring-bearer at a time.
+  - *2023-06-16* — Each time the Ring tempts you, you must choose a creature if you control one.
+  - *2023-06-16* — Frodo, Sauron's Bane's first ability checks whether it's a Citizen, and its second ability checks whether it's a Scout. It doesn't matter how it became the appropriate creature type.
+  - *2023-06-16* — If the creature you choose as your Ring-bearer was already your Ring-bearer, that still counts as choosing that creature as your Ring-bearer for the purpose of abilities that trigger "whenever you choose a creature as your Ring-bearer" or abilities that care about which creature was chosen as your Ring-bearer.
+  - *2023-06-16* — None of these abilities have a duration. If one of them resolves, it will remain in effect until the game ends, Frodo, Sauron's Bane leaves the battlefield, or some subsequent effect changes its characteristics, whichever comes first.
+  - *2023-06-16* — Some spells and abilities that cause the Ring to tempt you may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Ring won't tempt you.
+  - *2023-06-16* — The Ring can tempt you even if you don't control a creature. In this case, abilities that trigger "whenever the Ring tempts you" will still trigger.
+  - *2023-06-16* — The Ring gains its abilities in order from top to bottom. Once it gains an ability, it has that ability for the rest of the game.
+  - *2023-06-16* — You can activate Frodo, Sauron's Bane's abilities regardless of what creature types it is. Each of those abilities checks Frodo's creature types when that ability resolves. If Frodo, Sauron's Bane isn't the appropriate creature type at the time, that ability does nothing.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/18/frodo-saurons-bane) · oracle_id `8be62f5c-0ab2-4869-97a2-d8a69a3fde95` · printing: LTR #18 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Frog Butler
 
@@ -1376,6 +1480,7 @@
   > *—Toad Baron*
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6582 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/114/frog-butler) · oracle_id `5b865275-4114-44d0-9832-ae5d3b4efba4` · printing: TMT #114 (2026-03-06) · [rulings](https://api.scryfall.com/cards/d1a72d09-9cfc-463a-a9ec-3359003d54da/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Froghemoth
@@ -1388,6 +1493,7 @@
   > Whenever this creature deals combat damage to a player, exile up to that many target cards from their graveyard. Put a +1/+1 counter on this creature for each creature card exiled this way. You gain 1 life for each noncreature card exiled this way.
 - **Keywords:** Haste, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6129 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/184/froghemoth) · oracle_id `66e66543-1f56-4e62-9183-3804843db101` · printing: AFR #184 (2021-07-23) · [rulings](https://api.scryfall.com/cards/728e9567-2585-4c03-99a5-3e84fd8044d2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Frogify
@@ -1401,7 +1507,14 @@
   > *That gnat was still hovering by the venison, and now both looked delicious.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4717 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/52/frogify) · oracle_id `32249228-e300-4865-b977-5e1f285d02f2` · printing: 2XM #52 (2020-08-07) · [rulings](https://api.scryfall.com/cards/d89be5f5-75d4-42a0-81e9-5da5bf868e73/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2020-08-07* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to a creature may become lethal if Frogify becomes attached to it during that turn.
+  - *2020-08-07* — Effects that modify a creature's power and/or toughness, such as the effect of Dead Weight, will apply to the creature no matter when they started to take effect. The same is true for any counters that change its power and/or toughness.
+  - *2020-08-07* — Frogify may enchant a permanent that is only temporarily a creature, such as a Vehicle. If this happens, Frogify's effect causes the enchanted permanent to remain a 1/1 blue Frog creature even after the temporary effect expires.
+  - *2020-08-07* — Frogify overwrites all colors and creature types the enchanted creature has. It's just a blue Frog. The creature keeps any supertypes (such as legendary) it has, but loses any other card types it has (such as artifact).
+  - *2020-08-07* — Frogify overwrites all previous effects that set the creature's base power and toughness to specific values. Any power- or toughness-setting effects that start to apply after Frogify becomes attached to a creature will overwrite this effect.
+  - *2020-08-07* — If the affected creature gains an ability after Frogify becomes attached to it, it will keep that ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/52/frogify) · oracle_id `32249228-e300-4865-b977-5e1f285d02f2` · printing: 2XM #52 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Frogkin Kidnapper
 
@@ -1438,7 +1551,16 @@
   > *Laws of nature on Mirrodin are always malleable.*
 - **Keywords:** Affinity, Prototype
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8457 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/120/frogmyr-enforcer) · oracle_id `ccc7de36-aafc-4d87-80f7-fc2effc976eb` · printing: MH3 #120 (2024-06-14) · [rulings](https://api.scryfall.com/cards/981fdd21-a650-4360-9ea5-550399d1da91/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2024-06-07* — A prototype card is a colorless card in every zone except the stack or the battlefield, as well as while on the stack or the battlefield if not cast as a prototyped spell. Ignore its alternative characteristics in those cases. For example, while it's in your graveyard, Frogmyr Enforcer is a colorless creature card with mana value 7. It can't be the target of Recommission, a spell that targets an artifact or creature card with mana value 3 or less in your graveyard.
+  - *2024-06-07* — Casting a prototyped spell isn't the same as casting it for an alternative cost, and an alternative cost may be applied to a spell cast this way. For example, if an effect allows you to cast an artifact card without paying its mana cost, you could either cast Frogmyr Enforcer normally, or as a prototyped spell.
+  - *2024-06-07* — If an effect copies a prototyped spell, that copy (as well as the token it becomes on the battlefield) will have the same characteristics as the prototyped spell. Similarly, if an effect creates a token that's a copy of a prototyped permanent or causes another permanent to become a copy of it, the copy would have the same characteristics as the prototyped permanent.
+  - *2024-06-07* — Regardless of how it was cast, a prototype card always has the same name, abilities, types, and so on. Only the mana cost, mana value, color, power, and toughness change depending on whether the card was cast as a prototyped spell.
+  - *2024-06-07* — The prototype ability functions in any zone that the spell could be cast from. For example, if an effect allows you to cast artifact spells from your graveyard, you could cast a prototyped Frogmyr Enforcer from your graveyard.
+  - *2024-06-07* — When cast as a prototyped spell, that spell has the mana cost, power, and toughness characteristics shown in its colored, secondary text box rather than the normal values of those characteristics. Its color and mana value are determined by that mana cost. The permanent that spell becomes as it resolves has the same characteristics. If the spell leaves the stack in any other way, or the permanent it becomes leaves the battlefield, it immediately resumes using its normal characteristics.
+  - *2024-06-07* — When casting Frogmyr Enforcer prototyped, its affinity for artifacts ability will still apply.
+  - *2024-06-07* — When casting a prototyped spell, use only its prototype characteristics to determine whether it's legal to cast it. For example, if Frogmyr Enforcer is exiled with the last ability of Chandra, Dressed to Kill, you would be able to cast it for {3}{R} (because it's a red spell), even though you wouldn't be able to cast it as a colorless spell for its normal cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/120/frogmyr-enforcer) · oracle_id `ccc7de36-aafc-4d87-80f7-fc2effc976eb` · printing: MH3 #120 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Frog-Squirrels
 
@@ -1479,7 +1601,10 @@
   > *The Frogtossers thread feathers, bones, and trophies from past raids into their standards, believing they fuel the warren with the anger of its victims.*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6988 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znc/43/frogtosser-banneret) · oracle_id `91ebedb5-cb5f-4c58-ad30-6c6b0a106aa0` · printing: ZNC #43 (2020-09-25) · [rulings](https://api.scryfall.com/cards/bec81e20-b644-421a-9c93-5a3dc52eb88b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-04-01* — A spell you cast that’s both creature types costs {1} less to cast, not {2} less.
+  - *2008-04-01* — The effect reduces the total cost of the spell, regardless of whether you chose to pay additional or alternative costs. For example, if you cast a Rogue spell by paying its prowl cost, Frogtosser Banneret causes that spell to cost {1} less.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znc/43/frogtosser-banneret) · oracle_id `91ebedb5-cb5f-4c58-ad30-6c6b0a106aa0` · printing: ZNC #43 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Frolicking Familiar // Blow Off Steam
 
@@ -1492,7 +1617,20 @@
   > Blow Off Steam deals 1 damage to any target. (Then exile this card. You may cast the creature later from exile.)
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8532 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/226/frolicking-familiar-blow-off-steam) · oracle_id `bbb6867f-7186-41de-9828-21be469178c1` · printing: WOE #226 (2023-09-08) · [rulings](https://api.scryfall.com/cards/64c432d5-4f5b-44ac-9d61-891e78460d58/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2023-09-01* — An adventurer card is a permanent card in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it’s in your graveyard, Questing Druid is a green creature card whose mana value is 2. It can’t be the target of Tenacious Tomeseeker’s triggered ability (“return target instant or sorcery card from your graveyard to your hand”).
+  - *2023-09-01* — An effect may refer to a card, spell, or permanent that “has an Adventure.” This refers to a card, spell, or permanent that has an adventurer card’s set of alternative characteristics, even if they’re not being used and even if that card was never cast as an Adventure.
+  - *2023-09-01* — Casting a card as an Adventure isn’t casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Adventure.
+  - *2023-09-01* — If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner’s graveyard as it resolves. For as long as it remains exiled, that player may cast it as a permanent spell. If an Adventure spell leaves the stack in any way other than resolving (most likely by being countered or by failing to resolve because its targets have all become illegal), that card won’t be exiled and the spell’s controller won’t be able to cast it as a permanent later.
+  - *2023-09-01* — If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won’t give you permission to cast it as a permanent spell.
+  - *2023-09-01* — If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it’s not possible to cast the copy as a permanent.
+  - *2023-09-01* — If an effect instructs you to choose a card name, you may choose the alternative Adventure name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2023-09-01* — If an effect refers to a card, spell, or permanent that has an Adventure, it won’t find an instant or sorcery spell on the stack that’s been cast as an Adventure.
+  - *2023-09-01* — If an object becomes a copy of an object that has an Adventure, the copy also has an Adventure. If it changes zones, it will either cease to exist (if it’s a token) or cease to be a copy (if it’s a nontoken permanent), and so you won’t be able to cast it as an Adventure.
+  - *2023-09-01* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it’s legal to cast that spell. For example, if you control Johann, Apprentice Sorcerer (“Once each turn, you may cast an instant or sorcery spell from the top of your library.”) and Questing Druid is on top of your library, you can cast Seek the Beast, but not Questing Druid.
+  - *2023-09-01* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+  - *2023-09-01* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you’ll be able to cast it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/226/frolicking-familiar-blow-off-steam) · oracle_id `bbb6867f-7186-41de-9828-21be469178c1` · printing: WOE #226 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### From Beyond
 
@@ -1504,7 +1642,18 @@
   > {1}{G}, Sacrifice this enchantment: Search your library for an Eldrazi card, reveal it, put it into your hand, then shuffle.
 - **Keywords:** Devoid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4948 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/167/from-beyond) · oracle_id `31b27775-196b-4022-bff5-25b34290ff7f` · printing: BFZ #167 (2015-10-02) · [rulings](https://api.scryfall.com/cards/f5559960-e306-4992-b607-9654327c4507/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2015-08-25* — A card with devoid is just colorless. It's not colorless and the colors of mana in its mana cost.
+  - *2015-08-25* — An Eldrazi card is one with the creature type Eldrazi. Just having "Eldrazi" in its name or being an Eldrazi-themed card doesn't count.
+  - *2015-08-25* — Cards with devoid use frames that are variations of the transparent frame traditionally used for Eldrazi. The top part of the card features some color over a background based on the texture of the hedrons that once imprisoned the Eldrazi. This coloration is intended to aid deckbuilding and game play.
+  - *2015-08-25* — Devoid works in all zones, not just on the battlefield.
+  - *2015-08-25* — Eldrazi Scions are similar to Eldrazi Spawn, seen in the Zendikar block. Note that Eldrazi Scions are 1/1, not 0/1.
+  - *2015-08-25* — Eldrazi and Scion are each separate creature types. Anything that affects Eldrazi will affect these tokens, for example.
+  - *2015-08-25* — If a card loses devoid, it will still be colorless. This is because effects that change an object's color (like the one created by devoid) are considered before the object loses devoid.
+  - *2015-08-25* — Other cards and abilities can give a card with devoid color. If that happens, it's just the new color, not that color and colorless.
+  - *2015-08-25* — Sacrificing an Eldrazi Scion creature token to add {C} is a mana ability. It doesn't use the stack and can't be responded to.
+  - *2015-08-25* — Some instants and sorceries that create Eldrazi Scions require targets. If all targets for such a spell have become illegal by the time that spell tries to resolve, the spell won't resolve and none of its effects will happen. You won't get any Eldrazi Scions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/167/from-beyond) · oracle_id `31b27775-196b-4022-bff5-25b34290ff7f` · printing: BFZ #167 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### From Father to Son
 
@@ -1535,7 +1684,26 @@
   > Escape—{3}{B}{B}, Exile five other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)
 - **Keywords:** Escape
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8550 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/671/from-the-catacombs) · oracle_id `cc21b29f-2d1a-4769-9b65-f92bd2ca1cc8` · printing: CLB #671 (2022-06-10) · [rulings](https://api.scryfall.com/cards/08737950-4662-4d36-a1ea-6fd87e38c02b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (18):
+  - *2022-06-10* — A player who currently has the initiative may take the initiative again. This causes that player to venture into Undercity again, but does not cause them to have multiple initiative designations.
+  - *2022-06-10* — After From the Catacombs resolves, it returns to your graveyard. From there, you can use the escape ability to cast it again. Of course, you'll need five more cards to exile.
+  - *2022-06-10* — Escape's permission doesn't change when you may cast the spell from your graveyard.
+  - *2022-06-10* — If a card has multiple abilities giving you permission to cast it, such as two escape abilities or an escape ability and a flashback ability, you choose which one to apply. The others have no effect.
+  - *2022-06-10* — If a card with escape is put into your graveyard during your turn, you'll be able to cast it right away if it's legal to do so, before an opponent can take any actions.
+  - *2022-06-10* — If the player with the initiative leaves the game, the active player takes the initiative at the same time that player leaves the game. If the active player is leaving the game or if there is no active player, the next player in turn order takes the initiative.
+  - *2022-06-10* — If you aren’t in a dungeon when instructed to venture into Undercity, you will put Undercity into the command zone and move your venture marker to Secret Entrance (the first room).
+  - *2022-06-10* — If you cast a spell with its escape permission, you can't choose to apply any other alternative costs or to cast it without paying its mana cost. If it has any additional costs, you must pay those.
+  - *2022-06-10* — If you’re already in a dungeon when instructed to venture into Undercity, you move to the next room of that dungeon. If you are already in the last room, you will complete that dungeon and start Undercity. This is true whether you’re already in Undercity or any other dungeon.
+  - *2022-06-10* — In a Two-Headed Giant game, if both players on a team deal combat damage to the player that has the initiative at the same time, the player with the initiative will choose the order of the triggered abilities. Then, as those abilities resolve, one team member takes the initiative (and ventures into Undercity) and then the other team member does the same. The last player to take the initiative keeps it until the initiative changes again.
+  - *2022-06-10* — Once you begin casting a spell with escape, it immediately moves to the stack. Players can't take any other actions until you're done casting the spell.
+  - *2022-06-10* — Only one player can have the initiative at a time. As one player takes the initiative, any other player that had the initiative ceases to have it.
+  - *2022-06-10* — Similarly, when instructed to venture into Undercity, you can’t start a dungeon that isn’t Undercity.
+  - *2022-06-10* — The corpse counter is only to help remind you which creatures will be exiled if they would leave the battlefield. If you somehow remove a corpse counter from a creature that was put onto the battlefield this way, the replacement effect that will exile it continues to apply. Similarly, moving the corpse counter onto another creature has no effect on that creature; the replacement effect will continue to apply to the original creature.
+  - *2022-06-10* — The initiative is a designation a player can have. A player with the initiative designation is said to “have the initiative.” The initiative carries two inherent rules. First, whenever a player takes the initiative, and at the beginning of the upkeep of the player with the initiative, that player ventures into Undercity. Second, whenever one or more creatures a player controls deal combat damage to the player who has the initiative, the first player takes the initiative. Also, some abilities will refer to having the initiative and provide other benefits.
+  - *2022-06-10* — There is no initiative in a game until an effect instructs a player to take the initiative. Once a player is instructed to do this, they have the initiative until another player takes the initiative.
+  - *2022-06-10* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an escape cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was and no matter whether an alternative cost was paid.
+  - *2022-06-10* — You cannot venture into Undercity unless instructed to do so, either because you have the initiative at the beginning of your upkeep or because you take the initiative. Notably, if you aren’t in a dungeon and an effect instructs you to venture into the dungeon (not venture into Undercity), you can’t start Undercity.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/671/from-the-catacombs) · oracle_id `cc21b29f-2d1a-4769-9b65-f92bd2ca1cc8` · printing: CLB #671 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### From the Rubble
 
@@ -1545,7 +1713,12 @@
   > As this enchantment enters, choose a creature type.
   > At the beginning of your end step, return target creature card of the chosen type from your graveyard to the battlefield with a finality counter on it. (If a creature with a finality counter on it would die, exile it instead.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8949 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/72/from-the-rubble) · oracle_id `76d07c99-8c6b-4c2c-a0f6-47541999015b` · printing: LCC #72 (2023-11-17) · [rulings](https://api.scryfall.com/cards/9f7f7c5c-592b-4d22-968b-e5162b024b6e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2023-11-10* — Finality counters aren't keyword counters, and a finality counter doesn't give any abilities to the permanent it's on. If that permanent loses its abilities and then would go to a graveyard, it will still be exiled instead.
+  - *2023-11-10* — Finality counters don't stop permanents from going to zones other than the graveyard from the battlefield. For example, if a permanent with a finality counter on it would be put into its owner's hand from the battlefield, it does so normally.
+  - *2023-11-10* — Finality counters work on any permanent, not only creatures. If a permanent with a finality counter on it would be put into a graveyard from the battlefield, exile it instead.
+  - *2023-11-10* — Multiple finality counters on a single permanent are redundant.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/72/from-the-rubble) · oracle_id `76d07c99-8c6b-4c2c-a0f6-47541999015b` · printing: LCC #72 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### From Under the Floorboards
 
@@ -1556,7 +1729,17 @@
   > Create three tapped 2/2 black Zombie creature tokens and you gain 3 life. If this spell's madness cost was paid, instead create X of those tokens and you gain X life.
 - **Keywords:** Madness
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9580 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c19/113/from-under-the-floorboards) · oracle_id `a1fc4269-f3e4-4a59-849d-aa1727eef23a` · printing: C19 #113 (2019-08-23) · [rulings](https://api.scryfall.com/cards/cf31fec2-40d6-4810-8575-c7814bb4b6b4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2022-12-08* — A card with madness that's discarded counts as having been discarded even though it's put into exile rather than a graveyard. If it was discarded to pay a cost, that cost is still paid. Abilities that trigger when a card is discarded will still trigger.
+  - *2022-12-08* — A spell cast for its madness cost is put onto the stack like any other spell. It can be countered, copied, and so on. As it resolves, it's put onto the battlefield if it's a permanent card or into its owner's graveyard if it's an instant or sorcery card.
+  - *2022-12-08* — Cards are discarded in a Magic game only from a player's hand. Effects that put cards into a player's graveyard from anywhere else do not cause those cards to be discarded.
+  - *2022-12-08* — Casting a spell with madness ignores the timing rules based on the card's card type. For example, you can cast a sorcery with madness if you discard it during an opponent's turn.
+  - *2022-12-08* — If you choose not to cast a card with madness when the madness triggered ability resolves, it's put into your graveyard. Madness doesn't give you another chance to cast it later.
+  - *2022-12-08* — If you discard a card with madness to pay the cost of a spell or activated ability, that card's madness triggered ability (and the spell that card becomes, if you choose to cast it) will resolve before the spell or ability the discard paid for.
+  - *2022-12-08* — If you discard a card with madness while a spell or ability is resolving, it moves immediately to exile. Continue resolving that spell or ability, noting that the card you discarded is not in your graveyard at this time. Its madness triggered ability will be placed onto the stack once that spell or ability has completely resolved.
+  - *2022-12-08* — Madness works independently of why you're discarding the card. You could discard it to pay a cost, because a spell or ability tells you to, or because you have too many cards in your hand during your cleanup step. You can't discard a card with madness just because you want to, though.
+  - *2022-12-08* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a madness cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c19/113/from-under-the-floorboards) · oracle_id `a1fc4269-f3e4-4a59-849d-aa1727eef23a` · printing: C19 #113 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Frondland Felidar
 
@@ -1641,7 +1824,13 @@
   > • Dragons — Whenever a creature you control with flying enters, you may have it fight target creature you don't control.
 - **Keywords:** Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3349 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/256/frontier-siege) · oracle_id `4cfaa5cf-cc3d-49a7-9544-38a8bb7e9ec1` · printing: TDC #256 (2025-04-11) · [rulings](https://api.scryfall.com/cards/f419710e-3a73-4db0-bf2e-e76730f22c4d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2014-11-24* — Each Siege will have one of the two listed abilities, depending on your choice as it enters the battlefield.
+  - *2014-11-24* — Each of the last two abilities is linked to the first ability. They each refer only to the choice made as a result of the first ability. If a permanent enters the battlefield as a copy of one of the Sieges, its controller will make a new choice for that Siege. Which ability the copy has won't depend on the choice made for the original permanent.
+  - *2014-11-24* — For the "Dragons" ability, you decide whether the creature with flying will fight the target creature you don't control as the ability resolves.
+  - *2014-11-24* — The "Khans" ability triggers at the beginning of both your precombat main phase and your postcombat main phase. Unused mana is lost at the end of each step and phase.
+  - *2014-11-24* — The words "Khans" and "Dragons" are anchor words, connecting your choice to the appropriate ability. Anchor words are a new rules concept. "[Anchor word] — [Ability]" means "As long as you chose [anchor word] as this permanent entered the battlefield, this permanent has [ability]." Notably, the anchor word "Dragons" has no connection to the creature type Dragon.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/256/frontier-siege) · oracle_id `4cfaa5cf-cc3d-49a7-9544-38a8bb7e9ec1` · printing: TDC #256 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Frontier Warmonger
 
@@ -1653,7 +1842,9 @@
 - **Flavor text** (MKC printing):
   > *She cares little for leaders or loyalties, so long as the battle rages on.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3194 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/154/frontier-warmonger) · oracle_id `9cb741ae-14d6-4a8d-bfad-703abfe3682c` · printing: MKC #154 (2024-02-09) · [rulings](https://api.scryfall.com/cards/824aa845-0523-4434-8992-bce42f5b2bcb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-04-17* — Creatures your opponents control attacking one of your opponents will cause Frontier Warmonger's ability to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/154/frontier-warmonger) · oracle_id `9cb741ae-14d6-4a8d-bfad-703abfe3682c` · printing: MKC #154 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Frontline Devastator
 
@@ -1677,7 +1868,17 @@
   > When this enchantment enters, create a 1/1 red Soldier creature token with haste.
   > Whenever you cast a spell that targets only a single creature you control, create a 1/1 red Soldier creature token with haste, then copy that spell. The copy targets that token.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8867 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/plst/J25-15/frontline-heroism) · oracle_id `4c340b82-22e1-445a-b236-82471b442031` · printing: PLST #J25-15 (2026-05-18) · [rulings](https://api.scryfall.com/cards/7fb34149-5e09-47cb-bd1f-f2f9ee14dce3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2024-11-08* — Any choices made when the spell resolves won't have been made yet when it's copied. Any such choices will be made separately when the copy resolves.
+  - *2024-11-08* — Frontline Heroism's last ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack without resolving.
+  - *2024-11-08* — If a permanent spell is copied, the copy is put onto the battlefield as a token as the spell resolves rather than putting the copy of the spell onto the battlefield. The rules that apply to a permanent spell becoming a permanent apply to a copy of a spell becoming a token.
+  - *2024-11-08* — If the spell that's copied has an X whose value was determined as it was cast, the copy will have the same value of X.
+  - *2024-11-08* — If the spell that's copied is modal (that is, it says "Choose one —" or the like), the copy will have the same mode or modes. You can't choose different ones.
+  - *2024-11-08* — If you cast a spell that has multiple targets but all of them are the same creature you control, Frontline Heroism's last ability will trigger. In that case, the copy's targets will all be the token created by the ability.
+  - *2024-11-08* — The copy created by Frontline Heroism's last ability is created on the stack, so it's not "cast". Abilities that trigger when a player casts a spell (like Frontline Heroism's own ability) won't trigger.
+  - *2024-11-08* — The token that a resolving copy of a permanent spell becomes isn't "created" and won't interact with abilities that care about tokens being created, such as the first ability of Doubling Season.
+  - *2024-11-08* — You can't choose to pay any additional costs for the copy. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too.
+- **Source flags:** [Scryfall](https://scryfall.com/card/plst/J25-15/frontline-heroism) · oracle_id `4c340b82-22e1-445a-b236-82471b442031` · printing: PLST #J25-15 (2026-05-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Frontline Medic
 
@@ -1689,7 +1890,12 @@
   > Sacrifice this creature: Counter target spell with {X} in its mana cost unless its controller pays {3}.
 - **Keywords:** Battalion
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3571 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/693/frontline-medic) · oracle_id `36a3c910-95b8-45a2-9f84-5681336d868c` · printing: CLB #693 (2022-06-10) · [rulings](https://api.scryfall.com/cards/3e9ad9ce-f862-4663-9a36-caf0844eb416/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2013-04-15* — Once a battalion ability has triggered, it doesn't matter how many creatures are still attacking when that ability resolves.
+  - *2013-04-15* — The effects of battalion abilities vary from card to card. Read each card carefully.
+  - *2013-07-01* — Creatures that come under your control after Frontline Medic's battalion ability resolves will not be granted indestructible by this effect.
+  - *2024-01-12* — The three attacking creatures don't have to be attacking the same player, planeswalker, or battle.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/693/frontline-medic) · oracle_id `36a3c910-95b8-45a2-9f84-5681336d868c` · printing: CLB #693 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Frontline Rebel
 
@@ -1712,7 +1918,9 @@
   > • Create two 1/1 red Goblin creature tokens.
   > • Target creature gets +X/+X until end of turn, where X is the number of creatures you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7651 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/186/frontline-rush) · oracle_id `b80d21de-2ace-4e0d-92b2-6f0273512621` · printing: TDM #186 (2025-04-11) · [rulings](https://api.scryfall.com/cards/2ce8a205-99d6-4a9c-83a7-18b7220177d3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-04-04* — The value of X is calculated only once, as Frontline Rush resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/186/frontline-rush) · oracle_id `b80d21de-2ace-4e0d-92b2-6f0273512621` · printing: TDM #186 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Frontline Sage
 
@@ -1866,7 +2074,10 @@
 - **Flavor text** (TDM printing):
   > *Differing philosophies were debated by bloodshed.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1592 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/187/frostcliff-siege) · oracle_id `e7af31ff-fa1b-4225-b3bc-fde80ac72d0a` · printing: TDM #187 (2025-04-11) · [rulings](https://api.scryfall.com/cards/a750aabb-9788-494a-841f-bf75717970a7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-04-04* — If you chose Jeskai and creatures you control deal combat damage to multiple players at the same time, Frostcliff Siege’s ability will trigger once for each player dealt combat damage this way.
+  - *2025-04-04* — If you somehow control Frostcliff Siege and no choice was made for it (perhaps because another permanent on the battlefield became a copy of it), it has neither of the two abilities.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/187/frostcliff-siege) · oracle_id `e7af31ff-fa1b-4225-b3bc-fde80ac72d0a` · printing: TDM #187 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Frost Fair Lure Fish
 
@@ -2117,7 +2328,12 @@
 - **Flavor text** (PLC printing):
   > *Gjornersen entertained his followers by taking bets on which would move first—the drowsing land wurm or the frozen goblins.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8696 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/plc/54/frozen-aether) · oracle_id `32452ccf-88c7-41d6-93e5-15d31f29726d` · printing: PLC #54 (2007-02-02) · [rulings](https://api.scryfall.com/cards/e727bb9e-3510-4c8e-ac49-6d7217667a18/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2007-02-01* — Does not affect cards that phase in.
+  - *2007-02-01* — It affects all opponents.
+  - *2007-02-01* — It applies to cards and tokens that are put onto the battlefield by an effect, as well as ones that are played from the player's hand.
+  - *2007-02-01* — The appropriate permanents enter tapped. They do not enter untapped and then immediately tap, therefore they do not trigger any effects due to tapping.
+- **Source flags:** [Scryfall](https://scryfall.com/card/plc/54/frozen-aether) · oracle_id `32452ccf-88c7-41d6-93e5-15d31f29726d` · printing: PLC #54 (2007-02-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Frozen in Ice
 

@@ -67,6 +67,7 @@
   > Other Elemental creatures you control get +1/+1.
   > {1}{R}, {T}: You may put an Elemental creature card from your hand onto the battlefield. That creature gains haste until end of turn. Sacrifice it at the beginning of the next end step.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6043 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/94/incandescent-soulstoke) · oracle_id `934bd9f9-937b-4c6b-a849-012ae6bd3321` · printing: ECC #94 (2026-01-23) · [rulings](https://api.scryfall.com/cards/c1597a95-3175-42f7-abce-2f6f969c5faa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Incarnation Technique
@@ -80,7 +81,15 @@
   > *"Draw out your fear, but don't let it control you. You're in charge now."*
 - **Keywords:** Mill, Demonstrate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3605 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c21/41/incarnation-technique) · oracle_id `0ab9539d-3461-4936-95cd-4c229308c4a4` · printing: C21 #41 (2021-04-23) · [rulings](https://api.scryfall.com/cards/9655deda-f02b-47a0-89a3-2904b11b84aa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2021-04-16* — If the spell requires targets, you choose the target of the original spell as you cast it. If you create a copy of the spell, you may choose new targets for the copy as you create that copy. Similarly, the opponent you chose to create a copy may choose new targets for that copy as it’s created. In other words, your opponent will know the targets of your original spell and your copy when choosing the new targets, if any, for their copy.
+  - *2021-04-16* — If you cast the spell and choose not to copy it, no opponent will get to copy it either.
+  - *2021-04-16* — If you copy a spell with demonstrate, you then immediately choose an opponent. If they copy the spell, it goes on top of the stack.
+  - *2021-04-16* — This means that if you cast a spell with demonstrate and both you and an opponent copy it, the opponent’s copy will resolve first, then your copy will resolve, and finally the original spell will resolve.
+  - *2021-04-16* — You choose whether to make a copy as the demonstrate ability resolves. This happens before the original spell resolves. Your copy goes on the stack above the original spell.
+  - *2021-04-16* — You choose which creature to bring back after you mill five cards.
+  - *2021-04-16* — You may choose any creature card in your graveyard, not just one that you milled this way.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c21/41/incarnation-technique) · oracle_id `0ab9539d-3461-4936-95cd-4c229308c4a4` · printing: C21 #41 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Incendiary
 
@@ -105,6 +114,7 @@
   > • Destroy target nonbasic land.
   > • Each player discards all the cards in their hand, then draws that many cards.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9063 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c13/113/incendiary-command) · oracle_id `d45a4924-daa0-4ac3-afd7-b66f636ce870` · printing: C13 #113 (2013-11-01) · [rulings](https://api.scryfall.com/cards/925d6ae9-deb8-41a4-99de-fd6fc6924d3b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Incendiary Dissent
@@ -204,7 +214,11 @@
   > Whenever this creature deals combat damage to a player, you may collect evidence X. When you do, this creature deals X damage to each creature and planeswalker that player controls. (To collect evidence X, exile cards with total mana value X or greater from your graveyard.)
 - **Keywords:** Flying, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7613 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/132/incinerator-of-the-guilty) · oracle_id `9b7d037f-3269-4e3b-9744-a977acb69c67` · printing: MKM #132 (2024-02-09) · [rulings](https://api.scryfall.com/cards/0c6aca64-a554-45c1-9f23-4f7878abeda5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-02-02* — If you can't exile enough cards to meet or exceed the required mana value, you can't choose to collect evidence at all.
+  - *2024-02-02* — Once you've announced that you're casting a spell, players can't take actions until you've finished doing so. Notably, opponents can't try to remove cards from your graveyard to stop you from collecting evidence.
+  - *2024-02-02* — You may collect evidence 0, but you would be a lazy detective with no crispy culprits. Nevertheless, if you choose to do so, abilities that trigger "whenever you collect evidence", such as those of Surveillance Monitor and Evidence Examiner, will still trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/132/incinerator-of-the-guilty) · oracle_id `9b7d037f-3269-4e3b-9744-a977acb69c67` · printing: MKM #132 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Incisor Glider
 
@@ -326,7 +340,14 @@
   > Flashback {7}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9501 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dka/69/increasing-ambition) · oracle_id `09027657-bc9a-4702-88c1-e5b3534ad188` · printing: DKA #69 (2012-02-03) · [rulings](https://api.scryfall.com/cards/c8f508dc-7c7d-47e8-a4ef-0e8fd99cbd74/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-03-19* — "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2021-03-19* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2021-03-19* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2021-03-19* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dka/69/increasing-ambition) · oracle_id `09027657-bc9a-4702-88c1-e5b3534ad188` · printing: DKA #69 (2012-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Increasing Confusion
 
@@ -348,7 +369,14 @@
   > Flashback {7}{W}{W} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3415 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c20/91/increasing-devotion) · oracle_id `7a5ff4d4-27b7-47d4-ba88-970c63c4e3fb` · printing: C20 #91 (2020-04-17) · [rulings](https://api.scryfall.com/cards/0c786c28-1085-4b3e-9164-5fa3adfa5010/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-03-19* — "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2021-03-19* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2021-03-19* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2021-03-19* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c20/91/increasing-devotion) · oracle_id `7a5ff4d4-27b7-47d4-ba88-970c63c4e3fb` · printing: C20 #91 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Increasing Savagery
 
@@ -370,7 +398,20 @@
   > Flashback {3}{R}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3076 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c19/147/increasing-vengeance) · oracle_id `a5ca7bd9-0964-405f-adb9-7c27153595e6` · printing: C19 #147 (2019-08-23) · [rulings](https://api.scryfall.com/cards/2a362d78-76a1-4dbc-80cc-0360e98ba280/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2011-01-22* — Each of the copies will have the same targets as the spell it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal). If there are two copies, you may change the targets of each of them to different legal targets.
+  - *2011-01-22* — If the spell Increasing Vengeance copies has an X whose value was determined as it was cast (like Earthquake does), the copy has the same value of X.
+  - *2011-01-22* — If the spell Increasing Vengeance copies is modal (that is, it says “Choose one —” or the like), the copies will have the same mode(s). You can't choose different ones.
+  - *2011-01-22* — Increasing Vengeance can target (and copy) any instant or sorcery spell you control, not just one with targets.
+  - *2011-01-22* — When Increasing Vengeance resolves, it creates one or two copies of a spell. You control each of the copies. Those copies are created on the stack, so they're not “cast.” Abilities that trigger when a player casts a spell won't trigger. The copies will then resolve like normal spells, after players get a chance to cast spells and activate abilities.
+  - *2011-01-22* — You can't choose to pay any additional costs for the copies. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copies too. For example, if you sacrifice a 3/3 creature to cast Fling and then copy it with Increasing Vengeance, the copies of Fling will also deal 3 damage to its target.
+  - *2021-03-19* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2021-03-19* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2021-03-19* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+  - *2021-03-19* — “Flashback [cost]” means “You may cast this card from your graveyard by paying [cost] rather than paying its mana cost” and “If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack.”
+- **Source flags:** [Scryfall](https://scryfall.com/card/c19/147/increasing-vengeance) · oracle_id `a5ca7bd9-0964-405f-adb9-7c27153595e6` · printing: C19 #147 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Incremental Blight
 
@@ -381,7 +422,9 @@
 - **Flavor text** (ECC printing):
   > *Shadowmoor's main crops are rot, slime, and despair.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6186 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/76/incremental-blight) · oracle_id `159cd205-6afc-4d8c-a4b9-501911a9c345` · printing: ECC #76 (2026-01-23) · [rulings](https://api.scryfall.com/cards/67028351-3023-4433-96fe-f5c32710bdf0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-05-01* — You must target three different creatures. If you can't, you can't cast Incremental Blight.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/76/incremental-blight) · oracle_id `159cd205-6afc-4d8c-a4b9-501911a9c345` · printing: ECC #76 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Incremental Growth
 

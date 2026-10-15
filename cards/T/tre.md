@@ -207,7 +207,10 @@
   > *—Gatha, Tolarian renegade*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8051 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/uds/50/treachery) · oracle_id `8ed57194-7508-4aef-9373-64f7e80612d8` · printing: UDS #50 (1999-06-07) · [rulings](https://api.scryfall.com/cards/613694aa-b169-400d-8063-2b83d8303611/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — You can untap 0 to 5 lands.
+  - *2022-12-08* — You choose which lands to untap as the triggered ability resolves. They aren't targeted, and they don't have to be lands that you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/uds/50/treachery) · oracle_id `8ed57194-7508-4aef-9373-64f7e80612d8` · printing: UDS #50 (1999-06-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tread Mill
 
@@ -239,7 +242,16 @@
   > Amass Orcs 2. (To amass Orcs 2, put two +1/+1 counters on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first.)
 - **Keywords:** Amass
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5789 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/74/treason-of-isengard) · oracle_id `b04ef0bd-5e96-45d4-afa8-1f3bc8544e1a` · printing: LTR #74 (2023-06-23) · [rulings](https://api.scryfall.com/cards/71f97505-c961-4890-acd0-32a63919ac2a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2023-06-16* — Amass Zombies works the same way, except you create a 0/0 black Zombie Army creature token if you don't control an Army. If the Army creature you chose isn't already a Zombie, it becomes a Zombie in addition to its other types. By combining cards with amass Orcs and amass Zombies, you can end up with an Orc Zombie Army.
+  - *2023-06-16* — Amass abilities are now written as "amass [subtype] N." Previous cards with amass have received errata to say "amass Zombies N."
+  - *2023-06-16* — If you don't control an Army, the Orc Army token you create enters the battlefield as a 0/0 creature before receiving counters. Any abilities that trigger when a creature with a certain power enters the battlefield, such as that of Mentor of the Meek, will see the token enter as a 0/0 creature before it gets +1/+1 counters.
+  - *2023-06-16* — In the rare case that you control multiple Army creatures (perhaps because you played a creature with changeling) while you amass Orcs, you choose which of your Army creatures to put the +1/+1 counters on. If that creature isn't an Orc, it becomes an Orc in addition to its other types.
+  - *2023-06-16* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
+  - *2023-06-16* — Some spells and abilities that amass Orcs may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't amass Orcs.
+  - *2023-06-16* — To amass Orcs N, if you don't control an Army creature, create a 0/0 black Orc Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already an Orc, it becomes an Orc in addition to its other types.
+  - *2023-06-16* — You can cast Treason of Isengard without a target just to amass Orcs. However, if you do choose a target, and that target is illegal at the time Treason of Isengard tries to resolve, Treason of Isengard won't resolve and none of its effects will happen. You won't amass Orcs.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/74/treason-of-isengard) · oracle_id `b04ef0bd-5e96-45d4-afa8-1f3bc8544e1a` · printing: LTR #74 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treasonous Ogre
 
@@ -254,7 +266,12 @@
   > *—Grenzo, dungeon warden*
 - **Keywords:** Dethrone
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2262 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cns/36/treasonous-ogre) · oracle_id `826d4279-1576-4898-a1c2-26fd547fb0d0` · printing: CNS #36 (2014-06-06) · [rulings](https://api.scryfall.com/cards/ae48c31d-6fd9-457f-adb8-37f367724ba1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2014-05-29* — In a Two-Headed Giant game, dethrone will trigger if the creature attacks either player on the team with the most life or tied for the most life.
+  - *2014-05-29* — Once dethrone triggers, it doesn't matter what happens to the players' life totals before the ability resolves. You'll put a +1/+1 counter on the creature even if the defending player doesn't have the most life as the ability resolves.
+  - *2014-05-29* — The +1/+1 counter is put on the creature before blockers are declared.
+  - *2023-07-28* — Dethrone doesn't trigger if the creature attacks a planeswalker, even if its controller has the most life. The same is true if the creature attacks a battle, even if its protector has the most life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cns/36/treasonous-ogre) · oracle_id `826d4279-1576-4898-a1c2-26fd547fb0d0` · printing: CNS #36 (2014-06-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treasure Chest
 
@@ -268,7 +285,20 @@
   > 20 | Search your library for a card. If it's an artifact card, you may put it onto the battlefield. Otherwise, put that card into your hand. Then shuffle.
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4907 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/252/treasure-chest) · oracle_id `3df26058-c58d-4869-ae32-922d28c3aca2` · printing: AFR #252 (2021-07-23) · [rulings](https://api.scryfall.com/cards/6ecbeb07-0f45-49bf-9a12-f4ca09969122/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2021-07-23* — An ability that tells you to roll a die will also specify what to do with the result of that roll. Most often, this is in the form of a “results table” in the card text.
+  - *2021-07-23* — An effect that says “choose a target, then roll a d20” or similar still uses the normal process of putting an ability on the stack and resolving it. Choosing targets is part of putting the ability on the stack and rolling the d20 happens later, as the ability resolves.
+  - *2021-07-23* — Dice are identified by the number of faces each one has. For example, a d20 is a twenty-sided die.
+  - *2021-07-23* — Dice used must have equally likely outcomes and the roll must be fair. Although physical dice are recommended, digital substitutes are allowed, provided they have the same number of equally likely outcomes as specified in the original roll instruction.
+  - *2021-07-23* — If you choose to put the card into your hand, you don't need to reveal it.
+  - *2021-07-23* — Some abilities, like that of Pixie Guide and Barbarian Class, replace rolling a die with rolling extra dice and ignoring the lowest roll. The ignored rolls are not considered for the effect that instructed you to roll a die, and do not cause abilities to trigger. For all intents and purposes, once you determine which dice count, any extra dice were never rolled.
+  - *2021-07-23* — Some effects instruct you to roll again. This uses the same number and type of dice as the original roll, and that roll will use the same set of possible outcomes.
+  - *2021-07-23* — Some effects may modify the result of a die roll. This may be part of the instruction to roll a die or it may come from other cards. Anything that references the “result” of a die roll is looking for the result after these modifications. Anything that is looking for the “natural result” is looking for the number shown on the face of the die before these modifications.
+  - *2021-07-23* — The instruction to roll a die and the effect that occurs because of the result are all part of the same ability. Players do not get the chance to respond to the ability after knowing the result of the roll.
+  - *2021-07-23* — The “otherwise” in the last ability refers to whether or not you put it onto the battlefield, not whether or not it's an artifact card. You may put it into your hand even if it's an artifact card.
+  - *2021-07-23* — Tournament events have more specific rules regarding dice and die-rolling. For more information, please see the most recent version of the Magic Tournament Rules at https://wpn.wizards.com/en/document/magic-gathering-tournament-rules.
+  - *2021-07-23* — While playing Planechase, rolling the planar die will cause any ability that triggers whenever a player rolls one or more dice to trigger. However, any effect that refers to a numerical result will ignore the rolling of the planar die.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/252/treasure-chest) · oracle_id `3df26058-c58d-4869-ae32-922d28c3aca2` · printing: AFR #252 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treasure Cruise
 
@@ -353,7 +383,9 @@
 - **Oracle text:**
   > When this creature enters, you may search your library for an artifact card with mana value 6 or greater, reveal it, put it into your hand, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8411 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/73/treasure-mage) · oracle_id `0848bb49-5758-41d6-a3e8-0c62e1768f52` · printing: 2XM #73 (2020-08-07) · [rulings](https://api.scryfall.com/cards/c0ea2fcd-f090-4545-a055-30d7980ad66f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-08-07* — If a card in a player's library has {X} in its mana cost, X is considered to be 0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/73/treasure-mage) · oracle_id `0848bb49-5758-41d6-a3e8-0c62e1768f52` · printing: 2XM #73 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treasure Map // Treasure Cove
 
@@ -366,7 +398,10 @@
   > {T}, Sacrifice a Treasure: Draw a card.
 - **Keywords:** Transform, Treasure, Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3053 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/267/treasure-map-treasure-cove) · oracle_id `0b55eac6-a745-4bf4-8926-5ce83bc38d7d` · printing: LCI #267 (2023-11-17) · [rulings](https://api.scryfall.com/cards/a924fe1e-a85e-4e14-88d2-ac55130638ab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-09-29* — If Treasure Map leaves the battlefield before its ability resolves, you can't put a landmark counter on it. However, if it somehow already had three landmark counters on it before it left the battlefield, you'll get three Treasures.
+  - *2017-09-29* — If a third landmark counter is put on Treasure Map by something other than the resolution of its first ability (as modified by any applicable replacement effects), you won't remove those counters, transform Treasure Map, or get Treasures yet. You'll have to wait until you activate its first ability again.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/267/treasure-map-treasure-cove) · oracle_id `0b55eac6-a745-4bf4-8926-5ce83bc38d7d` · printing: LCI #267 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treasure Nabber
 
@@ -378,7 +413,15 @@
 - **Flavor text** (CMM printing):
   > *The Law of Givesies Backsies is respected by every noble pursuer of shiny things.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1478 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/265/treasure-nabber) · oracle_id `20a6d576-a5b2-43b4-8be9-75be001e567d` · printing: CMM #265 (2023-08-04) · [rulings](https://api.scryfall.com/cards/5facc43f-f865-45ad-888b-398f6e07b947/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2018-07-13* — An artifact is "tapped for mana" when a player activates a mana ability of an artifact that includes {T} (the tap symbol). Notably, tapping an artifact to pay for a spell with the improvise keyword is not tapping that artifact for mana.
+  - *2018-07-13* — If an opponent taps an artifact for mana during your turn, you'll gain control of it and keep control of it until the end of your next turn.
+  - *2018-07-13* — If multiple players each control Treasure Nabbers, an artifact tapped for mana will make quite a journey. For example, if player A taps an artifact for mana during their turn, and players B and C are the next players in turn order who control Treasure Nabbers, C's ability resolves before B and C gains control of the artifact. Then B gains control of the artifact. B keeps it during their turn, and then C regains control of the artifact once B's effect expires, then A will have it back after C's expires. However, if B or C taps the artifact for mana, one of them will take it from the other. You may need to pay very careful attention to which effects are still in effect, which have expired, and who owns what.
+  - *2018-07-13* — If the artifact leaves the battlefield, Treasure Nabber doesn't nab it from the zone it moved to.
+  - *2018-07-13* — If you control multiple Treasure Nabbers, their effects all expire at the same time. You won't keep an artifact for any longer.
+  - *2018-07-13* — In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If that player controls any nabbed treasures, the effect giving that player control of those artifacts ends.
+  - *2018-07-13* — The artifact remains tapped when you gain control of it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/265/treasure-nabber) · oracle_id `20a6d576-a5b2-43b4-8be9-75be001e567d` · printing: CMM #265 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treasure Trove
 
@@ -431,7 +474,11 @@
   > *"I go my own way, but your way may go along with mine for a while."*
 - **Keywords:** Food, Trample, Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3494 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/73/treebeard-gracious-host) · oracle_id `83860749-1603-46e9-9065-e98001244193` · printing: LTC #73 (2023-06-23) · [rulings](https://api.scryfall.com/cards/cf6be41a-1acd-4668-8f13-ccd495fbc7bd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/73/treebeard-gracious-host) · oracle_id `83860749-1603-46e9-9065-e98001244193` · printing: LTC #73 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treefolk Harbinger
 
@@ -441,6 +488,7 @@
 - **Oracle text:**
   > When this creature enters, you may search your library for a Treefolk or Forest card, reveal it, then shuffle and put that card on top.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8530 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lrw/239/treefolk-harbinger) · oracle_id `98c387bd-c9ba-464a-8380-839a5604a37f` · printing: LRW #239 (2007-10-12) · [rulings](https://api.scryfall.com/cards/9ef45cdc-2e1c-40c7-8978-b09a50f511fb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treefolk Healer
@@ -490,7 +538,19 @@
   > Umbra armor (If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura.)
 - **Keywords:** Umbra armor, Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9423 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/185/treefolk-umbra) · oracle_id `fa321366-9bc1-48c7-873a-0b12a026ce49` · printing: MH1 #185 (2019-06-14) · [rulings](https://api.scryfall.com/cards/677166cf-4e1e-43ac-a67b-afaf33c0d14e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2019-06-14* — Treefolk Umbra's effect doesn't actually change the enchanted creature's power. It changes only the amount of combat damage the creature assigns. All other rules and effects that check power or toughness use the real values. For example, Savage Swipe won't cause the enchanted creature to fight with its toughness.
+  - *2024-06-07* — If a creature enchanted with an Aura that has umbra armor has indestructible, lethal damage and effects that try to destroy it simply have no effect. Umbra armor won't do anything because it won't have to.
+  - *2024-06-07* — If a creature enchanted with an Aura that has umbra armor would be destroyed by multiple state-based actions at the same time (most likely because a creature with deathtouch has dealt damage to that creature greater than or equal to its toughness), umbra armor's effect will replace all of them and save the creature.
+  - *2024-06-07* — If a creature you control is enchanted with multiple Auras that have umbra armor, and the enchanted creature would be destroyed, one of those Auras is destroyed instead—but only one of them. You choose which one because you control the enchanted creature.
+  - *2024-06-07* — If a spell or ability says that it would "destroy" a creature enchanted with an Aura that has umbra armor, that spell or ability is what causes the Aura to be destroyed instead. Umbra armor doesn't destroy the Aura; rather, it changes the effects of the spell or ability. On the other hand, if a spell or ability deals lethal damage to a creature enchanted with an Aura that has umbra armor, the game rules regarding lethal damage cause the Aura to be destroyed, not that spell or ability.
+  - *2024-06-07* — If a spell or ability would destroy both an Aura with umbra armor and the creature it's enchanting at the same time, umbra armor's effect will save the enchanted creature from being destroyed. Instead, the spell or ability will destroy the Aura in two different ways at the same time, but the result is the same as destroying it once.
+  - *2024-06-07* — Some printings of this card refer to the ability "totem armor". This ability's name has been replaced with "umbra armor". This change does not affect the gameplay function of this card.
+  - *2024-06-07* — Umbra armor has no effect if the enchanted creature is put into a graveyard for any other reason, such as if it's sacrificed, if the "legend rule" applies to it, or if its toughness is 0 or less.
+  - *2024-06-07* — Umbra armor's effect is applied no matter why the enchanted creature would be destroyed: because it's been dealt lethal damage, or because it's being affected by an effect that says to "destroy" it (such as Breathe Your Last). In either case, all damage is removed from the creature and the Aura is destroyed instead.
+  - *2024-06-07* — Umbra armor's effect is mandatory. If the enchanted creature would be destroyed, you must remove all damage from it (if it has any) and destroy the Aura that has umbra armor instead.
+  - *2024-06-07* — Umbra armor's effect is not regeneration. Specifically, if umbra armor's effect is applied, the enchanted creature does not become tapped and is not removed from combat as a result. Effects that say the enchanted creature can't be regenerated won't prevent umbra armor's effect from being applied.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/185/treefolk-umbra) · oracle_id `fa321366-9bc1-48c7-873a-0b12a026ce49` · printing: MH1 #185 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treeguard Duo
 
@@ -502,7 +562,9 @@
 - **Flavor text** (BLB printing):
   > *"You shall not pass me," croaked the frog. "Nor me," growled the rabbit.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7911 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/200/treeguard-duo) · oracle_id `d7dfb4d5-8510-4904-abb7-834ec65d9bf3` · printing: BLB #200 (2024-08-02) · [rulings](https://api.scryfall.com/cards/89c8456e-c971-42b7-abf3-ff5ae1320abe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-07-26* — The value of X is determined only as Treeguard Duo’s triggered ability resolves, potentially including Treeguard Duo itself. It won’t change later in the turn if the number of creatures you control changes.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/200/treeguard-duo) · oracle_id `d7dfb4d5-8510-4904-abb7-834ec65d9bf3` · printing: BLB #200 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tree Monkey
 
@@ -529,7 +591,11 @@
   > *A haunted husk of bark, its cursed whispers linger on the wind.*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1900 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/49/tree-of-perdition) · oracle_id `0cdece2a-0bdf-4e6d-9ddc-4a8d58b2ec29` · printing: ECC #49 (2026-01-23) · [rulings](https://api.scryfall.com/cards/750b4c88-26c7-43ec-b6b9-ece3263dfd59/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2016-07-13* — Any toughness-modifying effects, counters, Auras, or Equipment will apply after its toughness is set to the player's former life total. For example, say Tree of Perdition is equipped with Cultist's Staff (which makes it 2/15) and the player's life total is 7. After the exchange, Tree of Perdition would be a 2/9 creature (its toughness became 7, which was then modified by Cultist's Staff) and the player's life total would be 15.
+  - *2016-07-13* — If Tree of Perdition isn't on the battlefield when the ability resolves, the exchange can't happen and the ability will have no effect. Notably, activating the ability and giving Tree of Perdition -13/-13 in response won't cause your opponent to lose the game.
+  - *2016-07-13* — When the ability resolves, Tree of Perdition's toughness becomes the targeted opponent's former life total and that player gains or loses an amount of life necessary so that their life total equals Tree of Perdition's former toughness. Other effects that interact with life gain or life loss will interact with this effect accordingly.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/49/tree-of-perdition) · oracle_id `0cdece2a-0bdf-4e6d-9ddc-4a8d58b2ec29` · printing: ECC #49 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tree of Redemption
 
@@ -543,7 +609,11 @@
   > *The Kin-Tree of Anafenza Mevak was the first recovered after Dromoka's reign, and it stands as a symbol of the Abzan's revival.*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3305 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/97/tree-of-redemption) · oracle_id `1372dd15-cdb9-470c-b3e8-3423697e46e8` · printing: TDC #97 (2025-04-11) · [rulings](https://api.scryfall.com/cards/4f55dae2-e6b4-4498-8abd-86d9717691f4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-03-16* — Any toughness-modifying effects, counters, Auras, or Equipment will apply after its toughness is set to your former life total. For example, say Tree of Redemption is enchanted with Lunarch Mantle (which makes it 2/15) and your life total is 7. After the exchange, Tree of Redemption would be a 2/9 creature (its toughness became 7, which was then modified by Lunarch Mantle) and your life total would be 15.
+  - *2018-03-16* — If Tree of Redemption isn't on the battlefield when its activated ability resolves, the exchange can't happen and the ability will have no effect.
+  - *2018-03-16* — When its activated ability resolves, Tree of Redemption's toughness will become your former life total and you will gain or lose an amount of life necessary so that your life total equals Tree of Redemption's former toughness. Other effects that interact with life gain or life loss will interact with this effect accordingly.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/97/tree-of-redemption) · oracle_id `1372dd15-cdb9-470c-b3e8-3423697e46e8` · printing: TDC #97 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tree of Tales
 
@@ -554,6 +624,7 @@
 - **Flavor text** (DSC printing):
   > *Tel-Jilad, sanctum of the ancient trolls, keepers of the secret of Mirrodin's origin.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1528 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/319/tree-of-tales) · oracle_id `8b4aa971-b919-4750-8388-33d4f42c9280` · printing: DSC #319 (2024-09-27) · [rulings](https://api.scryfall.com/cards/3b3134b3-1bad-4b41-9e56-700125ff31fa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treeshaker Chimera
@@ -567,7 +638,10 @@
 - **Flavor text** (NCC printing):
   > *The wisdom of the past is written on the bones of ancients.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7440 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/318/treeshaker-chimera) · oracle_id `8b119b69-4794-443e-aa13-747c125b5b1b` · printing: NCC #318 (2022-04-29) · [rulings](https://api.scryfall.com/cards/5f73b249-be19-4a51-8759-648a2f122e6d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-01-24* — If a creature can't block Treeshaker Chimera for any reason (such as being tapped), then it doesn't block. If there's a cost associated with having it block, the player isn't forced to pay that cost, so it doesn't have to block in that case either. If there's a cost associated with having it block Treeshaker Chimera, but not to block other attacking creatures, that creature is free to block one of those other creatures or to not block at all.
+  - *2020-01-24* — If a creature is required to block two or more different creatures, its controller chooses which one that creature blocks.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/318/treeshaker-chimera) · oracle_id `8b119b69-4794-443e-aa13-747c125b5b1b` · printing: NCC #318 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treespring Lorian
 
@@ -697,6 +771,7 @@
   > *The griffins think they rule the sky, but the spiders know better.*
 - **Keywords:** Reach, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8449 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/114/treetop-snarespinner) · oracle_id `2f57a220-9f64-4143-979a-d6aaf63d49b2` · printing: FDN #114 (2024-11-15) · [rulings](https://api.scryfall.com/cards/88e68fa3-159d-49a6-8ac6-afc9bd6f1718/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treetop Village
@@ -708,7 +783,10 @@
   > {T}: Add {G}.
   > {1}{G}: This land becomes a 3/3 green Ape creature with trample until end of turn. It's still a land. (It can deal excess combat damage to the player or planeswalker it's attacking.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5852 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddu/30/treetop-village) · oracle_id `b53f216d-1592-4eee-b204-502a805fbc8c` · printing: DDU #30 (2018-04-06) · [rulings](https://api.scryfall.com/cards/14394198-0993-46ee-a3ea-5c7084a78772/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-08-01* — A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.
+  - *2009-10-01* — Activating the ability that turns it into a creature while it's already a creature will override any effects that set its power and/or toughness to a specific number. However, any effect that raises or lowers power and/or toughness (such as the effect created by Giant Growth, Glorious Anthem, or a +1/+1 counter) will continue to apply.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddu/30/treetop-village) · oracle_id `b53f216d-1592-4eee-b204-502a805fbc8c` · printing: DDU #30 (2018-04-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Treizeci, Sun of Serra
 
@@ -749,7 +827,11 @@
   > *"Eilistraee teaches us that we are not bound by the circumstances of our birth. We all may find beauty and light, if we have the courage to seek them."*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6762 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/236/trelasarra-moon-dancer) · oracle_id `cd10ebc9-9f6c-4da2-9a86-263902002ebc` · printing: AFR #236 (2021-07-23) · [rulings](https://api.scryfall.com/cards/f6a4b54c-a8fa-464e-a3dd-f3f3a08606f5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-07-23* — An ability that triggers "whenever you gain life" triggers just once for each life gain event, no matter how much life you gain.
+  - *2021-07-23* — Each creature with lifelink dealing combat damage causes a separate life gain event. For example, if two creatures you control with lifelink deal combat damage at the same time, a "whenever you gain life" ability will trigger twice. However, if a single creature you control with lifelink deals combat damage to multiple creatures, players, and/or planeswalkers at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once.
+  - *2021-07-23* — If you gain life at the same time Trelasarra, Moon Dancer is dealt lethal damage, it dies before its triggered ability can put a +1/+1 counter on it, but you will still scry 1.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/236/trelasarra-moon-dancer) · oracle_id `cd10ebc9-9f6c-4da2-9a86-263902002ebc` · printing: AFR #236 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tremble
 
@@ -783,7 +865,14 @@
   > Landfall — Whenever a land you control enters, target creature an opponent controls attacks during its controller's next combat phase if able.
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9852 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/366/trench-behemoth) · oracle_id `dc2b1863-b45c-4213-ad89-5e39432daca7` · printing: CMR #366 (2020-11-20) · [rulings](https://api.scryfall.com/cards/909dc123-8234-4e81-bb7b-77404d94a87c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2020-11-10* — If the target creature can't attack for any reason (such as being tapped), then it doesn't attack. If there's a cost associated with having it attack, the player isn't forced to pay that cost, so it doesn't have to attack in that case either.
+  - *2020-11-10* — If the target creature does attack, its controller still chooses which player or planeswalker it attacks, as normal. It can attack opponents who don't control untapped Trench Behemoths waiting to crush it, if any are available.
+  - *2020-11-10* — You can activate Trench Behemoth's first ability even if it's already untapped and/or already has hexproof.
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/366/trench-behemoth) · oracle_id `dc2b1863-b45c-4213-ad89-5e39432daca7` · printing: CMR #366 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trench Gorger
 
@@ -820,6 +909,7 @@
   > *What once watched from among the clouds now lies buried and forgotten beneath an artificial sky.*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8068 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m3c/83/trenchpost) · oracle_id `42f1ccb8-eda0-4828-ac07-82d4e950d7e1` · printing: M3C #83 (2024-06-14) · [rulings](https://api.scryfall.com/cards/4afcabf8-8f84-489d-8496-5bec55b351bd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trench Stalker
@@ -871,7 +961,9 @@
   > *"There aren't many nobles living here. The nights are long. It's a great place for thieves."*
   > *—Marcus, Tantalus thief*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4495 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/290/treno-dark-city) · oracle_id `6d5bb714-1bf4-4f75-9ea8-bdbd18b0425b` · printing: FIN #290 (2025-06-13) · [rulings](https://api.scryfall.com/cards/f6285535-bc44-4274-a886-b14d7c7aaba8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-06-06* — Town is a land type with no special meaning. It doesn't grant the land any intrinsic abilities. Other cards may care about which lands are Towns.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/290/treno-dark-city) · oracle_id `6d5bb714-1bf4-4f75-9ea8-bdbd18b0425b` · printing: FIN #290 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trenzalore Clocktower
 
@@ -881,6 +973,7 @@
   > {T}: Add {U}. Put a time counter on Trenzalore Clocktower.
   > {1}{U}, {T}, Remove twelve time counters from Trenzalore Clocktower and exile it: Shuffle your graveyard and hand into your library, then draw seven cards. Activate only if you control a Time Lord.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4769 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/190/trenzalore-clocktower) · oracle_id `69143645-97b6-4c7c-9fa2-844fb3b99822` · printing: WHO #190 (2023-10-13) · [rulings](https://api.scryfall.com/cards/64444549-1198-4465-91d5-02a7903691dc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trepanation Blade
@@ -892,7 +985,10 @@
   > Equip {2}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9309 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ima/231/trepanation-blade) · oracle_id `f0031ef3-d5f5-4114-97aa-4beabd11ff8d` · printing: IMA #231 (2017-11-17) · [rulings](https://api.scryfall.com/cards/6b1bab36-3fb7-48f3-b3ed-90863d244641/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-11-17* — If the equipped creature is attacking a planeswalker, the controller of the planeswalker is the defending player.
+  - *2017-11-17* — The land card is counted when calculating the bonus, and it will be put into the graveyard with the other revealed cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ima/231/trepanation-blade) · oracle_id `f0031ef3-d5f5-4114-97aa-4beabd11ff8d` · printing: IMA #231 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### _____ _____ _____ Trespasser
 
@@ -930,7 +1026,9 @@
   > *Even in the relative safety of the city, there are places best left undisturbed.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5176 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/akh/112/trespassers-curse) · oracle_id `2769751d-ca67-4d6e-93c9-9587367ae8ab` · printing: AKH #112 (2017-04-28) · [rulings](https://api.scryfall.com/cards/f6ef4c59-ab84-4d84-b795-015b21ae3fe0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-04-18* — If a creature enters the battlefield under enchanted player’s control and causes an ability controlled by that player to trigger, the triggered ability of Trespasser’s Curse resolves first if it’s that player’s turn, and resolves last if it’s your turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/akh/112/trespassers-curse) · oracle_id `2769751d-ca67-4d6e-93c9-9587367ae8ab` · printing: AKH #112 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trespassing Souleater
 

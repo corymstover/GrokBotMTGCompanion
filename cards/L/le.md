@@ -242,6 +242,7 @@
 - **Flavor text** (SOM printing):
   > *The myr are like necrogen: a transformative force unconcerned with the changes they wreak.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1830 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/som/170/leaden-myr) · oracle_id `f62cabf0-df0d-4c4f-a93a-9340967d1775` · printing: SOM #170 (2010-10-01) · [rulings](https://api.scryfall.com/cards/3a709559-fec3-44f4-a2bf-3396989b9189/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Leadership Vacuum
@@ -255,7 +256,11 @@
   > *"While they scramble to fill the sudden vacancy at the top, we strike."*
   > *—Sedris, the Traitor King*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8251 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c19/9/leadership-vacuum) · oracle_id `5f9dd005-1648-451e-b888-69ef81331c95` · printing: C19 #9 (2019-08-23) · [rulings](https://api.scryfall.com/cards/4fa953a9-171c-4532-a352-40ce27eed3c4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-08-23* — Leadership Vacuum targets the player, not their creatures. A commander with hexproof or protection from blue may be returned this way.
+  - *2019-08-23* — The "commander tax" increases based on how many times a commander was cast from the command zone, not how many times it was put there as a result of Commander rules. The returned commander will cost more to cast again even though it was put directly into the command zone.
+  - *2019-08-23* — You'll draw a card even if the target player controls no commanders as Leadership Vacuum resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c19/9/leadership-vacuum) · oracle_id `5f9dd005-1648-451e-b888-69ef81331c95` · printing: C19 #9 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Leader's Talent
 
@@ -269,7 +274,15 @@
   > {3}{W}: Level 3
   > Whenever you cast a spell, put a +1/+1 counter on each creature you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9887 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/13/leaders-talent) · oracle_id `134430b7-d566-485a-bd5c-7db8a285f4ca` · printing: TMT #13 (2026-03-06) · [rulings](https://api.scryfall.com/cards/4cbcb622-1aff-460f-b8fa-4502d991e0ad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2026-01-27* — An ability that advances a Class to a higher level is a normal activated ability. It uses the stack and can be responded to.
+  - *2026-01-27* — Class cards have multiple text box sections. Other than the top section, each section contains a class level bar that includes a cost and a level number. Each represents an activated ability with the listed cost that advances the Class to the level listed in that bar.
+  - *2026-01-27* — Each Class starts at level 1 and has the abilities in the top section of its text box. Once a Class advances to level 2 or level 3, it has all of the abilities listed in the associated section of its text box as well.
+  - *2026-01-27* — Gaining a level won't remove abilities that a Class had at a previous level.
+  - *2026-01-27* — Leader's Talent's level 3 ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+  - *2026-01-27* — There's no restriction on how many Class permanents you can control, whether they're the same or different classes. Each Class permanent tracks its own level separately.
+  - *2026-01-27* — You can't activate an ability that advances a Class to a particular level if that Class is already that level or higher. For example, if a Class is already level 2, you can't activate the ability that advances it to level 2 again.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/13/leaders-talent) · oracle_id `134430b7-d566-485a-bd5c-7db8a285f4ca` · printing: TMT #13 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Leader, Super-Genius
 
@@ -281,6 +294,7 @@
   > At the beginning of combat on your turn, target creature you control connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.)
 - **Keywords:** Connive
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8381 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/64/leader-super-genius) · oracle_id `bec686dd-a9ea-4db5-bc20-8e40420b9a9b` · printing: MSH #64 (2026-06-26) · [rulings](https://api.scryfall.com/cards/2c8aab8d-2dfe-49c8-9aa8-536b0587b467/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lead Golem
@@ -376,7 +390,9 @@
 - **Flavor text** (DMU printing):
   > *"The seedling you save today may be the sheltering boughs of generations to come."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1914 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/167/leaf-crowned-visionary) · oracle_id `ef693b9f-11e3-49bf-8387-b8f480b9007a` · printing: DMU #167 (2022-09-09) · [rulings](https://api.scryfall.com/cards/aa7bd814-9f88-4e01-932d-07ac1abc060e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-09-09* — Leaf-Crowned Visionary's ability triggers when you cast an Elf spell, and it resolves before that spell resolves. You may pay {G} to draw a card even if the spell was countered or Leaf-Crowned Visionary was removed from the battlefield in response.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/167/leaf-crowned-visionary) · oracle_id `ef693b9f-11e3-49bf-8387-b8f480b9007a` · printing: DMU #167 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Leaf Dancer
 
@@ -440,6 +456,7 @@
 - **Flavor text** (NCC printing):
   > *"I am rooted in the life of all that thrives around me. You cannot move me."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5823 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/299/leafkin-druid) · oracle_id `55eb9310-f24b-410b-850b-a7d0d5117946` · printing: NCC #299 (2022-04-29) · [rulings](https://api.scryfall.com/cards/9dc9111f-1ca6-4953-9f1e-cca55fa8c569/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### League Guildmage
@@ -463,6 +480,7 @@
 - **Flavor text** (STH printing):
   > *Mirri leapt quickly and silently. The guard died likewise.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4247 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sth/35/leap) · oracle_id `e89a3ce0-6b38-4326-a7af-8575af371baa` · printing: STH #35 (1998-03-02) · [rulings](https://api.scryfall.com/cards/0841423d-7a27-4bc5-9ac2-0ba47648c6f1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Leapfrog
@@ -608,6 +626,7 @@
   > *She's a thousand pounds of punishing reptile muscle, with the bite to back it up.*
 - **Keywords:** Haste, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8798 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmc/30/leatherhead-iron-gator) · oracle_id `1e9679e8-bef1-495c-8251-0d87d971e32a` · printing: TMC #30 (2026-03-06) · [rulings](https://api.scryfall.com/cards/c0cacd61-bdce-46c6-ac7f-b084987d9aec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Leatherhead, Swamp Stalker
@@ -845,6 +864,7 @@
   > This land enters tapped.
   > {B}, {T}: Each opponent loses 1 life. Activate only if you control two or more black permanents.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2630 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/286/leechridden-swamp) · oracle_id `d83c86c1-126d-49e9-9b13-9e55784c49c5` · printing: DSC #286 (2024-09-27) · [rulings](https://api.scryfall.com/cards/a07a0e31-ace6-40ad-8700-2d58135b5320/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Leela, Sevateem Warrior
@@ -1026,7 +1046,15 @@
   > *Boros fortresses bristle with high towers so that, even at rest, Legion soldiers can remain in the light of the sun.*
 - **Keywords:** Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1224 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/255/legion-leadership-legion-stronghold) · oracle_id `ad225ec2-ff3a-48f6-81a7-dfdd1b75e1f7` · printing: MH3 #255 (2024-06-14) · [rulings](https://api.scryfall.com/cards/7676abd9-0a3d-4721-b17b-778d2e3c2e25/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2024-06-07* — A modal double-faced card can't be transformed or be put onto the battlefield transformed. Ignore any instruction to transform a modal double-faced card or to put one onto the battlefield transformed.
+  - *2024-06-07* — If an effect allows you to play a land or cast a spell from among a group of cards, you may play or cast a modal double-faced card with any face that fits the criteria of that effect. For example, if an effect allows you to play lands from your graveyard, you can play Garden of Freyalise, but you can't cast Disciple of Freyalise.
+  - *2024-06-07* — If an effect allows you to play a specific modal double-faced card, you may cast it as a spell or play it as a land, as determined by which face you choose to play. If an effect allows you to cast (rather than "play") a specific modal double-faced card, you can't play it as a land.
+  - *2024-06-07* — If an effect allows you to put a card with particular characteristics onto the battlefield without instructing you to play or cast it, you consider only the characteristics of a modal double-faced card's front face to see if that card qualifies. If it does, it enters the battlefield with its front face up. For example, if an effect allows you to put a creature card from your graveyard onto the battlefield, you can put Disciple of Freyalise onto the battlefield. However, an effect that lets you return a land card from your graveyard to your hand won't let you return Garden of Freyalise to your hand, as that card has only its front face's characteristics while in the graveyard.
+  - *2024-06-07* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack or the battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
+  - *2024-06-07* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics. For example, if an effect stops you from casting creature spells, you can't cast Disciple of Freyalise, but you can still play Garden of Freyalise.
+  - *2024-06-07* — To double a creature's power, that creature gets +X/+0, where X is that creature's power when Legion Leadership resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/255/legion-leadership-legion-stronghold) · oracle_id `ad225ec2-ff3a-48f6-81a7-dfdd1b75e1f7` · printing: MH3 #255 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Legion Lieutenant
 
@@ -1038,7 +1066,9 @@
 - **Flavor text** (LCC printing):
   > *"We long ago abandoned the things that make humans weak: friendship, marriage, family. All that remains is the strength of our devotion."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3078 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/275/legion-lieutenant) · oracle_id `5fa1b2f0-3ba4-49db-9cb5-b6130e4c255e` · printing: LCC #275 (2023-11-17) · [rulings](https://api.scryfall.com/cards/85c6bd7d-537a-42fe-9c68-742bdf2e7025/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-01-19* — Because damage remains marked on a creature until it's removed as the turn ends, nonlethal damage dealt to another Vampire you control may become lethal if Legion Lieutenant leaves the battlefield during that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/275/legion-lieutenant) · oracle_id `5fa1b2f0-3ba4-49db-9cb5-b6130e4c255e` · printing: LCC #275 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Legion Loyalist
 
@@ -1050,7 +1080,11 @@
   > Battalion — Whenever this creature and at least two other creatures attack, creatures you control gain first strike and trample until end of turn and can't be blocked by creature tokens this turn.
 - **Keywords:** Battalion, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4435 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/gtc/97/legion-loyalist) · oracle_id `560a5452-0dc3-421d-bf16-8843a35dae6f` · printing: GTC #97 (2013-02-01) · [rulings](https://api.scryfall.com/cards/b47f639e-4635-4c26-bb2a-4925f0582c21/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2013-04-15* — Once a battalion ability has triggered, it doesn't matter how many creatures are still attacking when that ability resolves.
+  - *2013-04-15* — The effects of battalion abilities vary from card to card. Read each card carefully.
+  - *2024-01-12* — The three attacking creatures don't have to be attacking the same player, planeswalker, or battle.
+- **Source flags:** [Scryfall](https://scryfall.com/card/gtc/97/legion-loyalist) · oracle_id `560a5452-0dc3-421d-bf16-8843a35dae6f` · printing: GTC #97 (2013-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Legion Loyalty
 
@@ -1059,6 +1093,7 @@
 - **Oracle text:**
   > Creatures you control have myriad. (Whenever a creature with myriad attacks, for each opponent other than defending player, you may create a token copy that's tapped and attacking that player or a planeswalker they control. Exile the tokens at end of combat.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2963 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/122/legion-loyalty) · oracle_id `24e39d26-6a2b-461e-b194-bda575bcf898` · printing: TDC #122 (2025-04-11) · [rulings](https://api.scryfall.com/cards/11681eae-f5bd-4e78-a980-5ab58db0d9f3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Legion's End
@@ -1082,7 +1117,10 @@
   > White creatures you control get +0/+1.
   > {R}{W}, Exile this enchantment: Exile all creatures you control. At the beginning of the next combat, return those cards to the battlefield under their owner's control and those creatures gain haste until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7260 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/242/legions-initiative) · oracle_id `7b23bceb-1b82-4c9c-b7c1-8e8ef4643fb0` · printing: 2X2 #242 (2022-07-08) · [rulings](https://api.scryfall.com/cards/e41f950f-b818-4150-af71-b53a502ca0d5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-04-15* — A creature that's both red and white will get +1/+1 from Legion's Initiative.
+  - *2013-04-15* — The beginning of the next combat will happen even if the player whose turn it is doesn't intend to attack with any creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/242/legions-initiative) · oracle_id `7b23bceb-1b82-4c9c-b7c1-8e8ef4643fb0` · printing: 2X2 #242 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Legion's Judgment
 
@@ -1110,7 +1148,10 @@
   > {2}{W}, {T}: Create a 1/1 white Vampire creature token with lifelink.
 - **Keywords:** Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3856 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/xln/22/legions-landing-adanto-the-first-fort) · oracle_id `f7d8b91b-6541-4d3e-af51-7e000eac69c1` · printing: XLN #22 (2017-09-29) · [rulings](https://api.scryfall.com/cards/05e2a5e6-3aaa-4096-bdd0-fcc1afe5a36c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-09-29* — Once you've attacked with three or more creatures, Legion's Landing will transform even if some of those creatures leave the battlefield or are removed from combat.
+  - *2017-09-29* — The last ability of Legion's Landing only counts creatures that you declare as attacking creatures. Creatures that enter the battlefield attacking won't count.
+- **Source flags:** [Scryfall](https://scryfall.com/card/xln/22/legions-landing-adanto-the-first-fort) · oracle_id `f7d8b91b-6541-4d3e-af51-7e000eac69c1` · printing: XLN #22 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Legions of Lim-Dûl
 
@@ -1135,7 +1176,10 @@
   > *"For the love of the seven brass gods, it's a city of academics! How are they doing this?"*
   > *—Sharaman, Urzan lieutenant*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6760 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/215/legions-to-ashes) · oracle_id `dc29cb25-57f5-4cac-9764-efa644b41296` · printing: BRO #215 (2022-11-18) · [rulings](https://api.scryfall.com/cards/94faea39-4540-4adc-b9bd-78fefd09ecdf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-10-14* — If the target is illegal as Legions to Ashes tries to resolve, it will be removed from the stack and do nothing, even if there are tokens with that name still on the battlefield.
+  - *2022-10-14* — The target permanent need not be a token. In that case, it will still be exiled.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/215/legions-to-ashes) · oracle_id `dc29cb25-57f5-4cac-9764-efa644b41296` · printing: BRO #215 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Legion Vanguard
 
@@ -1160,7 +1204,12 @@
   > At the beginning of combat on your turn, create a 1/1 red Goblin creature token. That token gains haste until end of turn and attacks this combat if able.
 - **Keywords:** Mentor
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1792 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/220/legion-warboss) · oracle_id `0ccb9af3-6902-4130-a59c-4c882dc3a2fd` · printing: TDC #220 (2025-04-11) · [rulings](https://api.scryfall.com/cards/3d726dff-2904-4a82-adaa-29c57a5c2aed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2018-10-05* — If the creature with mentor leaves the battlefield with mentor on the stack, use its power as that creature last existed on the battlefield to determine whether the target creature has less power.
+  - *2018-10-05* — If the target creature's power is no longer less than the attacking creature's power as the ability resolves, mentor doesn't add a +1/+1 counter. For example, if two 3/3 creatures with mentor attack and both mentor triggers target the same 2/2 creature, the first to resolve puts a +1/+1 counter on it and the second does nothing.
+  - *2018-10-05* — If the token can't attack for any reason (such as becoming tapped), then it doesn't attack. If there's a cost associated with having it attack, its controller isn't forced to pay that cost, so it doesn't have to attack in that case either.
+  - *2018-10-05* — Mentor compares the power of the creature with mentor with that of the target creature at two different times: once as the triggered ability is put onto the stack, and once as the triggered ability resolves. If you wish to raise a creature's power so its mentor ability can target a bigger creature, the last chance you have to do so is during the beginning of combat step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/220/legion-warboss) · oracle_id `0ccb9af3-6902-4130-a59c-4c882dc3a2fd` · printing: TDC #220 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Legolas, Counter of Kills
 
@@ -1175,7 +1224,9 @@
   > *"Two?" said Legolas. "I make my tale twenty at the least."*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9467 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/212/legolas-counter-of-kills) · oracle_id `ddc12487-f577-4def-acdb-491f7ba6dc51` · printing: LTR #212 (2023-06-23) · [rulings](https://api.scryfall.com/cards/c8bd408c-9e6d-436d-9c4f-9ef3203aeb64/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-06-16* — "Do this only once each turn" lets you choose whether or not to untap Legolas as the triggered ability resolves. If you don't untap it, the ability will trigger again the next time the condition is met. Once you choose to do so, the ability will no longer trigger for the rest of the turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/212/legolas-counter-of-kills) · oracle_id `ddc12487-f577-4def-acdb-491f7ba6dc51` · printing: LTR #212 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Legolas Greenleaf
 
@@ -1189,7 +1240,10 @@
   > Whenever Legolas deals combat damage to a player, draw a card.
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5776 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/40/legolas-greenleaf) · oracle_id `beacbb51-51fe-47f7-a612-02cd93fbffdd` · printing: LTC #40 (2023-06-23) · [rulings](https://api.scryfall.com/cards/130237e7-6f45-4b92-b49d-12f10db29bb8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-06-16* — If Legolas Greenleaf enters the battlefield at the same time as another legendary creature you control, Legolas's Greenleaf's third ability will trigger and put a +1/+1 counter on it.
+  - *2023-06-16* — Reducing a creature's power after it has blocked Legolas Greenleaf will not remove that blocking creature from combat or make Legolas Greenleaf unblocked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/40/legolas-greenleaf) · oracle_id `beacbb51-51fe-47f7-a612-02cd93fbffdd` · printing: LTC #40 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Legolas, Master Archer
 
@@ -1202,7 +1256,11 @@
   > Whenever you cast a spell that targets a creature you don't control, Legolas deals damage equal to its power to up to one target creature.
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9502 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/173/legolas-master-archer) · oracle_id `5e99497f-7c73-49ae-88b3-78d5d74ba9ea` · printing: LTR #173 (2023-06-23) · [rulings](https://api.scryfall.com/cards/a9405577-c1dc-48e0-b2aa-6237c569d02e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-06-16* — If you cast a spell that targets Legolas, Master Archer and at least one creature you don't control, both of Legolas, Master Archer's abilities will trigger. You choose the order in which those triggers go on the stack.
+  - *2023-06-16* — Legolas, Master Archer's last ability triggers when you cast a spell that has multiple targets as long as at least one of those targets is a creature you don't control. It doesn't trigger multiple times if you cast a spell that targets a creature you don't control multiple times or that targets multiple creatures you don't control.
+  - *2023-06-16* — Legolas, Master Archer's triggered abilities resolve before the spells that caused them to trigger. They resolve even if those spells are countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/173/legolas-master-archer) · oracle_id `5e99497f-7c73-49ae-88b3-78d5d74ba9ea` · printing: LTR #173 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Legolas's Quick Reflexes
 
@@ -1213,7 +1271,14 @@
   > Untap target creature. Until end of turn, it gains reach, hexproof, and "Whenever this creature becomes tapped, it deals damage equal to its power to up to one target creature."
 - **Keywords:** Split second
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1427 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/493/legolass-quick-reflexes) · oracle_id `59154c04-6bc5-4b95-af1f-6de5fed05649` · printing: LTC #493 (2023-11-03) · [rulings](https://api.scryfall.com/cards/851c0167-04ba-4d15-b0fa-c211bd8826f1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-11-03* — After a spell with split second resolves (or otherwise leaves the stack), players may again cast spells and activate abilities before the next object on the stack resolves.
+  - *2023-11-03* — Casting a spell with split second won't affect spells and abilities that are already on the stack.
+  - *2023-11-03* — If the resolution of a triggered ability involves casting a spell, that spell can't be cast if a spell with split second is on the stack.
+  - *2023-11-03* — Players may turn face-down creatures face up while a spell with split second is on the stack.
+  - *2023-11-03* — Players still get priority while a spell with split second is on the stack; their options are just limited to mana abilities and certain special actions.
+  - *2023-11-03* — Split second doesn't stop triggered abilities from triggering, such as that of Chalice of the Void. If one does, its controller puts it on the stack and chooses targets for it, if any. Those abilities will resolve as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/493/legolass-quick-reflexes) · oracle_id `59154c04-6bc5-4b95-af1f-6de5fed05649` · printing: LTC #493 (2023-11-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Leinore, Autumn Sovereign
 
@@ -1226,7 +1291,11 @@
   > *She keeps the festival's revels from faltering, infusing the witches' rituals with hope.*
 - **Keywords:** Coven
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6243 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mic/1/leinore-autumn-sovereign) · oracle_id `cd47eedd-57cb-460d-b339-4785f63a5475` · printing: MIC #1 (2021-09-24) · [rulings](https://api.scryfall.com/cards/bd7e1645-ea8f-41c4-b3ee-58f44fc5c574/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-09-24* — A creature has different power from another if their powers are different numbers. For example, a 1/1 creature and a 2/1 creature have different powers.
+  - *2021-09-24* — For three creatures to have different powers from one another, each of their powers needs to be different. A 1/1 creature, a 2/1 creature, and another 2/1 creature aren't three creatures with different powers, even though both 2/1 creatures have different power than the 1/1 creature.
+  - *2021-09-24* — Many coven abilities, such as that of Dawnhart Wardens above, are triggered abilities with intervening if clauses. You must control three or more creatures with different powers at the time the ability triggers and at the time the ability tries to resolve. They do not, however, need to be the same set of creatures in both cases.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mic/1/leinore-autumn-sovereign) · oracle_id `cd47eedd-57cb-460d-b339-4785f63a5475` · printing: MIC #1 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Leisure Bicycle
 
@@ -1265,7 +1334,11 @@
   > *They could eat of it and find new strength even as they ran.*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3420 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/243/lembas) · oracle_id `f71fcdc3-5e96-416e-a49d-37019806e2e2` · printing: LTR #243 (2023-06-23) · [rulings](https://api.scryfall.com/cards/3b46aacf-b31a-4380-9e4b-82795fbaba3b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/243/lembas) · oracle_id `f71fcdc3-5e96-416e-a49d-37019806e2e2` · printing: LTR #243 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lena, Selfless Champion
 
@@ -1278,7 +1351,11 @@
 - **Flavor text** (JMP printing):
   > *"Those who do evil and those who do nothing are equally worthy of contempt."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8676 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/117/lena-selfless-champion) · oracle_id `a8a8407c-d0e3-4311-82ed-1ab1f75159d9` · printing: JMP #117 (2020-07-17) · [rulings](https://api.scryfall.com/cards/da1fb1a6-7f64-45a6-9fc0-a325b7600afa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-07-13* — Lena's last ability affects only creatures you control with the appropriate power at the time it resolves. Creatures you begin to control later in the turn won't gain indestructible, and a creature you control whose power increases later in the turn won't lose indestructible.
+  - *2018-07-13* — The number of nontoken creatures you control is counted only as Lena's first ability resolves. If Lena is still on the battlefield (and not somehow a token), it will count itself.
+  - *2018-07-13* — To determine which creatures gain indestructible while resolving Lena's last ability, use Lena's power as it last existed on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/117/lena-selfless-champion) · oracle_id `a8a8407c-d0e3-4311-82ed-1ab1f75159d9` · printing: JMP #117 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lens Flare
 
@@ -1328,7 +1405,16 @@
   > Whenever you gain life, put a +1/+1 counter on Leonardo.
 - **Keywords:** Lifelink, Sneak
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9112 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/15/leonardo-cutting-edge) · oracle_id `933fe6e5-8d00-4411-aa54-7780382c1ea6` · printing: TMT #15 (2026-03-06) · [rulings](https://api.scryfall.com/cards/74c11ee3-19d1-4ad5-a727-1d74c565d6a5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2026-01-27* — Although a creature put onto the battlefield this way is attacking, it was never declared as an attacking creature. Abilities that trigger whenever a creature attacks won't trigger when that creature enters attacking.
+  - *2026-01-27* — Each creature with lifelink dealing combat damage causes a separate life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, Leonardo's last ability will trigger twice. However, if a single creature you control with lifelink deals combat damage to multiple creatures, players, planeswalkers, and/or battles at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once.
+  - *2026-01-27* — If Leonardo is dealt lethal damage at the same time that you gain life, he won't receive a counter from his last ability in time to save him.
+  - *2026-01-27* — If a creature spell's sneak cost was paid, the creature it becomes enters tapped and attacking the same player, planeswalker, or battle as the creature that was returned to its owner's hand to pay its sneak cost. This is a rule specific to sneak; in other cases, when a creature is put onto the battlefield attacking, that creature's controller chooses which player, planeswalker, or battle it's attacking.
+  - *2026-01-27* — If you gain an amount of life "for each" of something or "equal to the number" of something, that life is gained as one event and Leonardo's last ability triggers only once.
+  - *2026-01-27* — In a Two-Headed Giant game, life gained by your teammate won't cause Leonardo's last ability to trigger, even though it caused your team's life total to increase.
+  - *2026-01-27* — Leonardo's last ability triggers just once for each life-gaining event, whether it's 1 life from Illegitimate Business or 3 life from Guac & Marshmallow Pizza.
+  - *2026-01-27* — Spells can only be cast for their sneak costs any time you could play an instant during the declare blockers step on your turn (after your opponent has decided whether to block).
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/15/leonardo-cutting-edge) · oracle_id `933fe6e5-8d00-4411-aa54-7780382c1ea6` · printing: TMT #15 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Leonardo da Vinci
 
@@ -1391,7 +1477,15 @@
   > Partner—Character select (You can have two commanders if both have this ability.)
 - **Keywords:** Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7989 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmc/1/leonardo-the-balance) · oracle_id `46ea8d02-b087-44f7-8403-93ffc1d3a8ad` · printing: TMC #1 (2026-03-06) · [rulings](https://api.scryfall.com/cards/72e637db-7112-406f-809b-0eda248488b5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2026-01-27* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2026-01-27* — Both commanders start in the command zone, and the remaining 98 cards of your deck are shuffled to become your library.
+  - *2026-01-27* — If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+  - *2026-01-27* — If your Commander deck has two commanders, you can only include cards whose own color identities are also found in your commanders' combined color identities. If Donatello, the Brains and Splinter, the Mentor are your commanders, your deck may contain cards with blue and/or black in their color identity, but not cards with red, green, or white. (If Leonardo, the Balance is one of your commanders, your deck may contain cards with any color or combination of colors in their color identity, regardless of who your other commander is.)
+  - *2026-01-27* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from any one of them, not from both of them combined.
+  - *2026-01-27* — To have two commanders, both must have appropriate partner abilities as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
+  - *2026-01-27* — You can have two commanders if each one has "Partner—Character select." You can't mix and match them with cards that have other partner abilities.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmc/1/leonardo-the-balance) · oracle_id `46ea8d02-b087-44f7-8403-93ffc1d3a8ad` · printing: TMC #1 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Leonardo, Worldly Warrior
 
@@ -1417,6 +1511,7 @@
 - **Flavor text** (2XM printing):
   > *Only leonin clerics who can survive the Razor Fields for one turning of the suns can stand in the Cave of Light.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8533 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/21/leonin-abunas) · oracle_id `10064324-34a0-47eb-a58e-01db10234ed9` · printing: 2XM #21 (2020-08-07) · [rulings](https://api.scryfall.com/cards/14397b59-ff0d-4838-92c3-9728bf6b0af5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Leonin Arbiter
@@ -1429,7 +1524,18 @@
 - **Flavor text** (2X2 printing):
   > *"Our people are torn by infighting. Until the two sides reconcile, our laws can carry no meaning."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7230 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/16/leonin-arbiter) · oracle_id `a33f6070-590c-4be8-9180-b1ac2608cbc4` · printing: 2X2 #16 (2022-07-08) · [rulings](https://api.scryfall.com/cards/0d0f827b-ebc3-45a4-8d12-c71a14478038/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2011-01-01* — A player who has paid {2} may search any library when instructed to do so that turn, not just their own library.
+  - *2011-01-01* — Effects that instruct you to reveal or look at cards from the top of you library will still work. Only effects that use the word "search" are affected.
+  - *2011-01-01* — If a player pays {2}, that enables only them to ignore Leonin Arbiter's effect that turn. Each other player is still affected by it.
+  - *2011-01-01* — If an effect says "Search your library . . . then shuffle your library," you shuffle you libraries even though you can't search.
+  - *2011-01-01* — If an effect says "You may search your library . . . If you do, shuffle your library" or "You may search your library . . . then shuffle your library," you can't choose to search, so you won't shuffle.
+  - *2011-01-01* — If there are multiple Leonin Arbiters on the battlefield, a player must pay {2} for each one before being able to search libraries that turn.
+  - *2011-01-01* — Once a player has paid {2}, they may search libraries that turn as many times as they are instructed to do so.
+  - *2011-01-01* — Paying {2} doesn't let a player pick up a library and search it — it just allows them to ignore Leonin Arbiter's effect that turn. That player can search a library only if another spell or ability instructs them to do so.
+  - *2011-01-01* — Paying {2} to ignore Leonin Arbiter's effect is a special action. Any player may take this special action any time they have priority. It doesn't use the stack and can't be responded to.
+  - *2011-01-01* — Since players who haven't paid {2} can't search, they won't be able to find any cards in a library. The effect applies to all players and all libraries. If a spell or ability's effect has other parts that don't depend on searching for or finding cards, they will still work normally.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/16/leonin-arbiter) · oracle_id `a33f6070-590c-4be8-9180-b1ac2608cbc4` · printing: 2X2 #16 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Leonin Armorguard
 
@@ -1501,6 +1607,7 @@
   > *"The wisdom of the elders is just as much a weapon as a sword or spear. We must learn to wield it."*
   > *—Ushanti, leonin seer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7917 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mrd/10/leonin-elder) · oracle_id `f85a1752-c6fa-481b-997d-6b5dd4c6b54b` · printing: MRD #10 (2003-10-02) · [rulings](https://api.scryfall.com/cards/e9b766e7-fe4a-47fb-949b-e046b5a38d91/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Leonin Iconoclast
@@ -1541,7 +1648,13 @@
   > *All who hear his inspiring words are filled with hope and pride.*
 - **Keywords:** Magecraft
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6495 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/stx/20/leonin-lightscribe) · oracle_id `14079b33-cf68-4d16-962c-5c40518c4163` · printing: STX #20 (2021-04-23) · [rulings](https://api.scryfall.com/cards/2a465d7b-398c-444b-9eae-331ea2513f6d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-04-16* — Each magecraft ability has a different effect, although they all have the same trigger condition, whenever you cast or copy an instant or sorcery spell.
+  - *2021-04-16* — For example, if you control Archmage Emeritus and cast an instant or sorcery spell, Archmage Emeritus’s magecraft ability will trigger and you will draw a card.
+  - *2021-04-16* — If an effect creates a copy of an instant or sorcery spell, this will also cause the magecraft ability to trigger.
+  - *2021-04-16* — If an effect creates multiple copies of an instant or sorcery spell, magecraft abilities trigger once for each copy created by the effect.
+  - *2021-04-16* — Some effects instruct you to copy an instant or sorcery card in a zone other than the stack. These copies do not cause magecraft abilities to trigger. However, most effects that do this also allow you to cast the copy, and casting the copy will cause magecraft abilities to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/stx/20/leonin-lightscribe) · oracle_id `14079b33-cf68-4d16-962c-5c40518c4163` · printing: STX #20 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Leonin of the Lost Pride
 
@@ -1564,7 +1677,9 @@
   > When this creature enters, you may exile target artifact or enchantment.
   > When this creature leaves the battlefield, return the exiled card to the battlefield under its owner's control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7213 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c17/65/leonin-relic-warder) · oracle_id `8e720216-a980-4a34-8aef-62ac3ef15a6e` · printing: C17 #65 (2017-08-25) · [rulings](https://api.scryfall.com/cards/c938a21a-ea74-4cc1-a175-08b9b98b2e4e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-06-01* — If Leonin Relic-Warder leaves the battlefield before its first ability has resolved, its second ability will trigger and when it resolves, do nothing. Then its first ability will resolve and exile the targeted artifact or enchantment with no way to return it to the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c17/65/leonin-relic-warder) · oracle_id `8e720216-a980-4a34-8aef-62ac3ef15a6e` · printing: C17 #65 (2017-08-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Leonin Scimitar
 
@@ -1587,7 +1702,10 @@
 - **Flavor text** (C17 printing):
   > *Her instinct is as sharp as her blade.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6898 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c17/66/leonin-shikari) · oracle_id `857d94f7-113c-45a4-a88a-5d087347d57f` · printing: C17 #66 (2017-08-25) · [rulings](https://api.scryfall.com/cards/47db94ce-e9f3-4bc3-b05f-17fde1d91329/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-12-01* — An equip ability uses the keyword ability “equip.” Normally, equip abilities can be activated only any time you could cast a sorcery.
+  - *2004-12-01* — Leonin Shikari allows you to move your Equipment around during the combat phase or in response to a spell or ability. You’re still subject to any other restrictions on activating equip abilities.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c17/66/leonin-shikari) · oracle_id `857d94f7-113c-45a4-a88a-5d087347d57f` · printing: C17 #66 (2017-08-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Leonin Skyhunter
 
@@ -1673,7 +1791,10 @@
 - **Flavor text** (M19 printing):
   > *When one leonin hunts, many more are surely nearby.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3325 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m19/23/leonin-warleader) · oracle_id `8b1351e6-165e-4ca3-96d5-4774b3176362` · printing: M19 #23 (2018-07-13) · [rulings](https://api.scryfall.com/cards/b31b2e5e-6572-462a-9fa0-1b2e660099e3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-07-13* — Although the tokens are attacking, they were never declared as attacking creatures (for the purposes of abilities that trigger whenever a creature attacks, for example).
+  - *2018-07-13* — You choose which players or planeswalkers the two tokens are attacking. They don’t have to be attacking the same player or planeswalker that Leonin Warleader is attacking, and they can each be attacking different players and/or planeswalkers.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m19/23/leonin-warleader) · oracle_id `8b1351e6-165e-4ca3-96d5-4774b3176362` · printing: M19 #23 (2018-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Leopard-Spotted Jiao
 
@@ -1789,7 +1910,13 @@
   > Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
 - **Keywords:** Persist
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7664 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/225/lesser-masticore) · oracle_id `a6a257bd-ee19-4246-b997-5288e6fa41e1` · printing: MH1 #225 (2019-06-14) · [rulings](https://api.scryfall.com/cards/c4c7cba5-6111-40ce-828a-e811301bb283/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2019-06-14* — If a card with persist is removed from the graveyard after it dies but before the ability trigger resolves, it won't be returned to the battlefield.
+  - *2019-06-14* — If a creature has +1/+1 counters and -1/-1 counters on it, state-based actions remove the same number of each so that it has only one kind of those of counters on it. Lesser Masticore's persist ability can bring it back again if its -1/-1 counters are removed this way.
+  - *2019-06-14* — If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner's graveyard for having 0 or less toughness, persist won't trigger and the card won't return to the battlefield. That's because persist checks the creature as it last existed on the battlefield, and it still had -1/-1 counters on it at that point.
+  - *2019-06-14* — Once persist returns the creature, it's considered a new object with no relation to the object that it was. Auras that were attached to it won't return to the battlefield. Equipment that was attached to it will remain unattached. Any counters that were on it won't be put on the new creature.
+  - *2019-06-14* — You must discard exactly one card to cast Lesser Masticore; you can't cast it without discarding a card, and you can't discard additional cards. If Lesser Masticore enters the battlefield without being cast (perhaps because of its persist ability) you don't discard a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/225/lesser-masticore) · oracle_id `a6a257bd-ee19-4246-b997-5288e6fa41e1` · printing: MH1 #225 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lesser Werewolf
 
@@ -1811,7 +1938,9 @@
   > *"Everyone's got their own strengths, Lita. You never know what cards they might play. Instead, focus on what you know and never doubt your choices."*
   > *—Michelangelo*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5454 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/155/lessons-from-life) · oracle_id `51df0203-578d-47e1-a9f7-a13445f597d7` · printing: TMT #155 (2026-03-06) · [rulings](https://api.scryfall.com/cards/0f886117-aff3-4db7-9cf5-7cbe94c8cd02/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-01-27* — Lessons from Life's effect doesn't count as playing a land. It can put a land card onto the battlefield even if you've already played your land for the turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/155/lessons-from-life) · oracle_id `51df0203-578d-47e1-a9f7-a13445f597d7` · printing: TMT #155 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lethal Exploit
 
@@ -1842,7 +1971,19 @@
   > Destroy target creature or planeswalker. Each creature that convoked this spell connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.)
 - **Keywords:** Connive, Convoke
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1268 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/157/lethal-scheme) · oracle_id `c4660b3c-a234-4a3e-83e7-e2fa9d556685` · printing: MSC #157 (2026-06-26) · [rulings](https://api.scryfall.com/cards/b2d9c467-6e56-401c-ade1-95dad7e4e766/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2022-04-29* — If a resolving spell or ability instructs a specific creature to connive but that creature has left the battlefield, the creature still connives. If you discard a nonland card this way, you won't put a +1/+1 counter on anything. Abilities that trigger "when [that creature] connives" will trigger.
+  - *2022-04-29* — If no card is discarded, most likely because that player's hand is empty and an effect says they can't draw cards, the conniving creature does not receive a +1/+1 counter.
+  - *2022-04-29* — Once an ability that causes a creature to connive begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the conniving creature after you discard a nonland card but before it receives a counter.
+  - *2022-04-29* — When multiple creatures are instructed to connive simultaneously, they connive one at a time in the order of their controller's choice.
+  - *2022-04-29* — You can't tap more creatures to convoke Lethal Scheme than it takes to pay for its total cost. This means that normally no more than four creatures can convoke it.
+  - *2024-01-12* — Because convoke isn't an alternative cost, it can be used in conjunction with alternative costs.
+  - *2024-01-12* — If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.
+  - *2024-01-12* — Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature's colors.
+  - *2024-01-12* — Tapping an untapped creature that's attacking or blocking to convoke a spell won't cause that creature to stop attacking or blocking.
+  - *2024-01-12* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
+  - *2024-01-12* — You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/157/lethal-scheme) · oracle_id `c4660b3c-a234-4a3e-83e7-e2fa9d556685` · printing: MSC #157 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lethal Sting
 
@@ -1901,6 +2042,7 @@
   > • Each opponent loses 3 life and you gain 3 life.
 - **Keywords:** Delirium
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9452 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/105/lets-play-a-game) · oracle_id `dd893746-e8bd-49fa-a1ce-755d5bd4f513` · printing: DSK #105 (2024-09-27) · [rulings](https://api.scryfall.com/cards/645911b4-7728-4380-9097-e4139b986423/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Letter Bomb
@@ -1924,6 +2066,7 @@
 - **Flavor text** (CMM printing):
   > *The letter unfolded, inviting the twins to Strixhaven. Will saw a chance for arcane study. Rowan saw a chance for power.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9657 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/397/letter-of-acceptance) · oracle_id `e0cb503e-9814-4280-9c29-4eff3379bc24` · printing: CMM #397 (2023-08-04) · [rulings](https://api.scryfall.com/cards/ae094ace-1760-4bdd-a513-04616fb0deeb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Let the Galaxy Burn
@@ -1935,7 +2078,17 @@
   > Let the Galaxy Burn deals X plus 2 damage to each creature that didn't enter this turn.
 - **Keywords:** Cascade
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9834 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/40k/81/let-the-galaxy-burn) · oracle_id `8c70980b-3c38-4624-8f19-5e29d271acf5` · printing: 40K #81 (2022-10-07) · [rulings](https://api.scryfall.com/cards/1120636b-d28b-4226-a1ba-cb42654c5a90/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2022-10-07* — A spell's mana value is determined only by its mana cost. Ignore any alternative costs, additional costs, cost increases, or cost reductions.
+  - *2022-10-07* — Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade.
+  - *2022-10-07* — Due to a 2021 rules change to cascade, not only do you stop exiling cards if you exile a nonland card with lesser mana value than the spell with cascade, but the resulting spell you cast must also have lesser mana value. Previously, in cases where a card's mana value differed from the resulting spell, such as with some modal double-faced cards or cards with an Adventure, you could cast a spell with a higher mana value than the exiled card.
+  - *2022-10-07* — If a spell with cascade is countered, the cascade ability will still resolve normally.
+  - *2022-10-07* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2022-10-07* — If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those to cast the card.
+  - *2022-10-07* — Two new cards in this set give the next spell you cast cascade. This means that the next spell you cast gains cascade as you begin to cast it by putting it on the stack, and the cascade ability will trigger when you finish casting that spell.
+  - *2022-10-07* — When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled.
+  - *2022-10-07* — You exile the cards face up. All players will be able to see them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/40k/81/let-the-galaxy-burn) · oracle_id `8c70980b-3c38-4624-8f19-5e29d271acf5` · printing: 40K #81 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Leveler
 
@@ -1947,7 +2100,9 @@
 - **Flavor text** (MRD printing):
   > *Once a century, the levelers rip through every corner of Mirrodin, obeying the commands of an unseen master.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6430 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mrd/195/leveler) · oracle_id `ba1d34ab-7529-4f47-a5e7-7d8f66d7b901` · printing: MRD #195 (2003-10-02) · [rulings](https://api.scryfall.com/cards/03ffa3c3-dd29-47eb-abf2-7951fadb5c37/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-03-19* — You won't lose the game until you try to draw from the empty library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mrd/195/leveler) · oracle_id `ba1d34ab-7529-4f47-a5e7-7d8f66d7b901` · printing: MRD #195 (2003-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Level Up
 
@@ -1959,7 +2114,9 @@
   > Enchanted creature has "Whenever this creature attacks, double the number of +1/+1 counters on it. Then if it has power 10 or greater, draw a card."
 - **Keywords:** Enchant, Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4011 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmc/31/level-up) · oracle_id `88cd43ce-b168-45a4-8d29-6cac5ab42857` · printing: TMC #31 (2026-03-06) · [rulings](https://api.scryfall.com/cards/d4398907-17d2-4fad-bfa9-56925fb75834/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-01-27* — To double the number of +1/+1 counters on a creature, put a number of +1/+1 counters on it equal to the number it already has. Other cards that interact with putting counters on it will interact with this effect accordingly.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmc/31/level-up) · oracle_id `88cd43ce-b168-45a4-8d29-6cac5ab42857` · printing: TMC #31 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Leviathan
 
@@ -1996,6 +2153,7 @@
 - **Flavor text** (M12 printing):
   > *"Why fight over scraps of land when there's so much sky waiting to be claimed?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8625 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m12/61/levitation) · oracle_id `94b703c4-5584-4913-8365-7e9f2f535c2d` · printing: M12 #61 (2011-07-15) · [rulings](https://api.scryfall.com/cards/63e5124a-67c0-44ed-8085-28bf37816423/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lexivore
@@ -2047,7 +2205,9 @@
   > *It awaits a worthy wielder.*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1356 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/129/leyline-axe) · oracle_id `4f597675-0f6d-438c-990c-337171927a5e` · printing: FDN #129 (2024-11-15) · [rulings](https://api.scryfall.com/cards/b9c03336-a321-4c06-94d1-809f328fabd8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-11-08* — A player's "opening hand" is the hand of cards the player has after all players have taken mulligans. If players have any cards in hand that allow actions to be taken with them from a player's opening hand, the starting player takes all such actions first in any order, followed by each other player in turn order. Then the first turn begins.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/129/leyline-axe) · oracle_id `4f597675-0f6d-438c-990c-337171927a5e` · printing: FDN #129 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Leyline Binding
 
@@ -2086,6 +2246,7 @@
   > *When Nissa tapped into Zhalfir's leylines, she was shocked to feel not a piece of Dominaria, but a plane all its own.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6378 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mat/21/leyline-immersion) · oracle_id `aa6c4079-72e1-4b2e-bd26-9399298c6105` · printing: MAT #21 (2023-05-12) · [rulings](https://api.scryfall.com/cards/197f5adc-e14b-4c84-896f-ef5f01f7ff57/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Leyline Invocation
@@ -2109,7 +2270,10 @@
   > Whenever you tap a creature for mana, add an additional {G}.
   > {6}{G}{G}: Put a +1/+1 counter on each creature you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3021 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m20/179/leyline-of-abundance) · oracle_id `1197a595-3afc-4f18-b868-bbb096771922` · printing: M20 #179 (2019-07-12) · [rulings](https://api.scryfall.com/cards/c68e8342-78d2-4826-a287-64c371b97d19/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-07-12* — An ability that triggers "whenever you tap a creature for mana" triggers only if you activate a mana ability of a creature including {T} in its cost. Mana abilities that don't include the {T} symbol and instead say "Tap an untapped creature you control" or similar won't cause Leyline of Abundance's second ability to trigger. Similarly, it won't trigger if you tap a creature to activate a mana ability of another object (even if that mana ability also includes {T}).
+  - *2021-03-19* — A player's "opening hand" is the hand of cards the player has after all players have taken mulligans. If players have any cards in hand that allow actions to be taken with them from a player's opening hand, the starting player takes all such actions first in any order, followed by each other player in turn order. Then the first turn begins.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m20/179/leyline-of-abundance) · oracle_id `1197a595-3afc-4f18-b868-bbb096771922` · printing: M20 #179 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Leyline of Anticipation
 
@@ -2142,7 +2306,14 @@
   > If you would gain life, you gain that much life plus 1 instead.
   > As long as you have at least 7 life more than your starting life total, creatures you control get +2/+2.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3376 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/18/leyline-of-hope) · oracle_id `c7ee79c3-a273-45b4-b3a4-548d9b2b883c` · printing: DSK #18 (2024-09-27) · [rulings](https://api.scryfall.com/cards/40960e47-3065-485e-aede-29a62411034e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-09-20* — A player's "opening hand" is the hand of cards the player has after all players have taken mulligans. If players have any cards in hand that allow actions to be taken with them from a player's opening hand, the starting player takes all such actions first in any order, followed by each other player in turn order. Then the first turn begins.
+  - *2024-09-20* — Because damage remains marked on creatures until the damage is removed as the turn ends, nonlethal damage dealt to creatures you control may become lethal if Leyline of Hope leaves the battlefield or if your life total drops below 7 life more than your starting life total.
+  - *2024-09-20* — Each creature with lifelink dealing combat damage causes a separate life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, Leyline of Hope's second ability will apply to those two events separately. However, if a single creature you control with lifelink deals combat damage to multiple permanents and/or players at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will apply only once.
+  - *2024-09-20* — If you control two Leylines of Hope and you would gain life, you gain that much life plus 2. A third Leyline of Hope has you gain that much life plus 3, and so on.
+  - *2024-09-20* — In a Two-Headed Giant game, life gained by your teammate won't cause Leyline of Hope's second ability to apply, even though it will cause your team's life total to increase.
+  - *2024-09-20* — The second ability of Leyline of Hope applies just once to each life-gaining event, no matter how much life is gained. If you gain an amount of life "for each" of something or "equal to the number" of something, that life is gained as one event and Leyline of Hope's second ability applies only once.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/18/leyline-of-hope) · oracle_id `c7ee79c3-a273-45b4-b3a4-548d9b2b883c` · printing: DSK #18 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Leyline of Lifeforce
 
@@ -2178,7 +2349,12 @@
 - **Flavor text** (DSK printing):
   > *Life thrives in the Hauntwoods, but it follows its own laws, unbound from the natural order.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6457 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/188/leyline-of-mutation) · oracle_id `caab67eb-65e7-4755-b116-6977e97f0844` · printing: DSK #188 (2024-09-27) · [rulings](https://api.scryfall.com/cards/2359b670-41f0-4ec7-8db9-3f87f7577bc3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-09-20* — A player's "opening hand" is the hand of cards the player has after all players have taken mulligans. If players have any cards in hand that allow actions to be taken with them from a player's opening hand, the starting player takes all such actions first in any order, followed by each other player in turn order. Then the first turn begins.
+  - *2024-09-20* — If a spell has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-09-20* — If you cast a spell for another cost "rather than pay" its mana cost, you can't choose to cast it for any other alternative cost. You can, however, pay additional costs. If the spell has any mandatory additional costs, such as that of Abhorrent Oculus, those must be paid to cast the spell.
+  - *2024-09-20* — If you cast a spell for which mana may be spent as though it were mana of any color, you may cast it for Leyline of Mutation's second ability's alternative cost and still spend mana as though it were mana of any color.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/188/leyline-of-mutation) · oracle_id `caab67eb-65e7-4755-b116-6977e97f0844` · printing: DSK #188 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Leyline of Punishment
 
@@ -2199,7 +2375,14 @@
   > If this card is in your opening hand, you may begin the game with it on the battlefield.
   > Whenever you cast an instant or sorcery spell that targets only a single creature you control, copy that spell. You may choose new targets for the copy.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5376 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/143/leyline-of-resonance) · oracle_id `f69574dd-097f-4908-9cab-344b0eb39c62` · printing: DSK #143 (2024-09-27) · [rulings](https://api.scryfall.com/cards/92c5f0e3-345a-40a8-9cda-565a62156692/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-09-20* — A player's "opening hand" is the hand of cards the player has after all players have taken mulligans. If players have any cards in hand that allow actions to be taken with them from a player's opening hand, the starting player takes all such actions first in any order, followed by each other player in turn order. Then the first turn begins.
+  - *2024-09-20* — If the spell that's copied has an X whose value was determined as it was cast, the copy will have the same value of X.
+  - *2024-09-20* — If the spell that's copied is modal (that is, it says "Choose one —" or the like), the copy will have the same mode or modes. You can't choose different ones.
+  - *2024-09-20* — The copy created by Leyline of Resonance's last ability will have the same targets (all the same creature you control) as the spell it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. The new targets must be legal.
+  - *2024-09-20* — The copy made by Leyline of Resonance's last ability is created on the stack, so it's not "cast."
+  - *2024-09-20* — You can't choose to pay any additional costs for the copy. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/143/leyline-of-resonance) · oracle_id `f69574dd-097f-4908-9cab-344b0eb39c62` · printing: DSK #143 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Leyline of Sanctity
 
@@ -2209,7 +2392,9 @@
   > If this card is in your opening hand, you may begin the game with it on the battlefield.
   > You have hexproof. (You can't be the target of spells or abilities your opponents control.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7603 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m20/26/leyline-of-sanctity) · oracle_id `492e0e6c-8c27-4376-938b-f8a8b6205810` · printing: M20 #26 (2019-07-12) · [rulings](https://api.scryfall.com/cards/be8b1acf-dd87-42ca-ad19-c27d21066030/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-03-19* — A player's "opening hand" is the hand of cards the player has after all players have taken mulligans. If players have any cards in hand that allow actions to be taken with them from a player's opening hand, the starting player takes all such actions first in any order, followed by each other player in turn order. Then the first turn begins.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m20/26/leyline-of-sanctity) · oracle_id `492e0e6c-8c27-4376-938b-f8a8b6205810` · printing: M20 #26 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Leyline of Singularity
 
@@ -2232,7 +2417,11 @@
   > Each nonland permanent you control is all colors.
   > Lands you control are every basic land type in addition to their other types.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1721 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/217/leyline-of-the-guildpact) · oracle_id `6b2e6a51-b9e6-4848-b7d7-98f02f2b897f` · printing: MKM #217 (2024-02-09) · [rulings](https://api.scryfall.com/cards/bf6e59be-f959-4f4a-8c2d-b7c441e88135/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-02-02* — A player's "opening hand" is the hand of cards the player has after all players have taken mulligans. If players have any cards in hand that allow actions to be taken with them from a player's opening hand, the starting player takes all such actions first in any order, followed by each other player in turn order. Then the first turn begins.
+  - *2024-02-02* — Each land you control will have the land types Plains, Island, Swamp, Mountain, and Forest. They'll also have the mana ability of each basic land type (for example, Forests have "{T}: Add {G}."). They'll still have their other subtypes and abilities.
+  - *2024-02-02* — Giving a land additional basic land types doesn't change its name or whether it's legendary or basic.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/217/leyline-of-the-guildpact) · oracle_id `6b2e6a51-b9e6-4848-b7d7-98f02f2b897f` · printing: MKM #217 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Leyline of the Meek
 
@@ -2256,7 +2445,12 @@
 - **Flavor text** (DSK printing):
   > *Cracks in the facade of the House lead not to escape but to oblivion.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3534 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/106/leyline-of-the-void) · oracle_id `f4e32fc1-1b8d-441e-8e76-71f19f98e925` · printing: DSK #106 (2024-09-27) · [rulings](https://api.scryfall.com/cards/aeaa3aff-608d-4723-bb7c-8daedebe9f36/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-09-20* — A player's "opening hand" is the hand of cards the player has after all players have taken mulligans. If players have any cards in hand that allow actions to be taken with them from a player's opening hand, the starting player takes all such actions first in any order, followed by each other player in turn order. Then the first turn begins.
+  - *2024-09-20* — If your opponent discards a card while you control Leyline of the Void, abilities that check whether a card is discarded (such as Hollow One, or a madness ability of the discarded card) still work, even though that card never reaches that player's graveyard. In addition, spells or abilities that check the characteristics of the discarded card can find that card in exile.
+  - *2024-09-20* — Tokens can still die while Leyline of the Void is on the battlefield.
+  - *2024-09-20* — While Leyline of the Void is on the battlefield, nontoken creatures your opponents control won't die. They'll be exiled instead. Abilities that would trigger when those creatures die won't trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/106/leyline-of-the-void) · oracle_id `f4e32fc1-1b8d-441e-8e76-71f19f98e925` · printing: DSK #106 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Leyline of Transformation
 
@@ -2267,7 +2461,11 @@
   > As this enchantment enters, choose a creature type.
   > Creatures you control are the chosen type in addition to their other types. The same is true for creature spells you control and creature cards you own that aren't on the battlefield.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3550 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/63/leyline-of-transformation) · oracle_id `cfaa13d6-9992-4223-8bd7-c44046505555` · printing: DSK #63 (2024-09-27) · [rulings](https://api.scryfall.com/cards/4bd941ca-f3d2-44c1-8df3-851362f6b848/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-09-20* — A player's "opening hand" is the hand of cards the player has after all players have taken mulligans. If players have any cards in hand that allow actions to be taken with them from a player's opening hand, the starting player takes all such actions first in any order, followed by each other player in turn order. Then the first turn begins.
+  - *2024-09-20* — Replacement effects that modify creatures of a certain type as they enter will apply after you apply this effect. For example, if Warrior is the chosen creature type and you control Bramblewood Paragon (a creature with "Each other Warrior creature you control enters with an additional +1/+1 counter on it."), a Runeclaw Bear would enter with an additional +1/+1 counter.
+  - *2024-09-20* — To choose a creature type, you must choose an existing creature type, such as Human or Survivor. You can't choose multiple creature types, such as "Human Survivor." Card types such as artifact can't be chosen, nor can subtypes that aren't creature types, such as Kaito, Vehicle, or Treasure.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/63/leyline-of-transformation) · oracle_id `cfaa13d6-9992-4223-8bd7-c44046505555` · printing: DSK #63 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Leyline of Vitality
 
@@ -2305,6 +2503,7 @@
   > *It feeds on the dark energies that course through the deep world—and on any other creature lured by the leyline's pull.*
 - **Keywords:** Lifelink, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5238 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/222/leyline-prowler) · oracle_id `8ca3852a-fa37-46ef-a74d-3c7487ae50fc` · printing: C21 #222 (2021-04-23) · [rulings](https://api.scryfall.com/cards/c5d9286d-449b-4959-98ae-bd6a35be221d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Leyline Tyrant
@@ -2318,7 +2517,12 @@
   > When this creature dies, you may pay any amount of {R}. When you do, it deals that much damage to any target.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2320 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/221/leyline-tyrant) · oracle_id `f92aaa00-6ece-4033-b3df-b2fc2c4718d9` · printing: TDC #221 (2025-04-11) · [rulings](https://api.scryfall.com/cards/0542d0d7-5b0f-4093-b74d-6a60f174aeb5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-09-25* — If a red mana you add has certain restrictions or riders associated with it (for example, if it was produced by Base Camp), they'll apply to that mana no matter when you spend it.
+  - *2020-09-25* — Leyline Tyrant's last ability goes on the stack without a target. While that ability is resolving, you may pay any amount of red mana, including from the unspent mana you have. If you do, a second ability triggers and you pick one target to be dealt that much damage. This is different from abilities that say "If you do . . ." in that players may cast spells and activate abilities after mana is paid but before the damage is dealt.
+  - *2020-09-25* — Once Leyline Tyrant leaves the battlefield, you have until the end of the current step or phase to spend your unspent red mana before it is lost as normal. There is no penalty associated with this other than the loss of the mana.
+  - *2020-09-25* — You can keep unspent red mana indefinitely while Leyline Tyrant is on the battlefield. That means if you add a red mana during one step or phase, you can spend it during a later step or phase, or even a later turn. Other types of mana will continue to be lost as normal as each step and phase ends.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/221/leyline-tyrant) · oracle_id `f92aaa00-6ece-4033-b3df-b2fc2c4718d9` · printing: TDC #221 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ley Weaver
 

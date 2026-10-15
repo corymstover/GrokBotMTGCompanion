@@ -42,7 +42,11 @@
   > {1}{G}, Exile this enchantment: Treefolk and Forests you control gain indestructible until end of turn.
 - **Keywords:** Affinity, Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4241 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/192/sapling-nursery) · oracle_id `8bcbae66-1854-480e-a449-33e5389610ab` · printing: ECL #192 (2026-01-23) · [rulings](https://api.scryfall.com/cards/3199bea9-fef7-45fe-8777-2103d84a9347/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-11-17* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2025-11-17* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2025-11-17* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them on the stack in any order. The last ability you put on the stack will be the first one to resolve. (As a result, you can have those abilities resolve in the order of your choosing.)
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/192/sapling-nursery) · oracle_id `8bcbae66-1854-480e-a449-33e5389610ab` · printing: ECL #192 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sapling of Colfenor
 
@@ -56,7 +60,12 @@
   > *Her plans may yet bear fruit.*
 - **Keywords:** Indestructible
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6706 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/c21/228/sapling-of-colfenor) · oracle_id `0c1e2bb8-0629-466c-b435-c4c71cdc755d` · printing: C21 #228 (2021-04-23) · [rulings](https://api.scryfall.com/cards/33c19062-9e1c-4cae-bb97-7ca9e4523593/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2008-08-01* — If a creature card has “*” in its power or toughness, the ability that defines “*” works in all zones. Note that the card is in your library when Sapling of Colfenor’s ability checks the card’s power and toughness.
+  - *2008-08-01* — If the revealed card is not a creature card, it remains on top of your library.
+  - *2008-08-01* — The triggered ability results in three sequential events: you gain some life (subject to effects that might alter life gain), then lose some life (subject to other effects that might alter life loss), and then put the card into your hand.
+  - *2014-02-01* — Lethal damage and effects that say “destroy” won’t cause Sapling of Colfenor to be put into the graveyard. However, Sapling of Colfenor could be put into the graveyard if its toughness becomes 0 or less, if it’s sacrificed, or if you control another Sapling of Colfenor (due to the “legend rule”).
+- **Source flags:** [Scryfall](https://scryfall.com/card/c21/228/sapling-of-colfenor) · oracle_id `0c1e2bb8-0629-466c-b435-c4c71cdc755d` · printing: C21 #228 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sapphire Charm
 
@@ -94,7 +103,19 @@
   > Counter target noncreature spell. (Then exile this card. You may cast the creature later from exile.)
 - **Keywords:** Scry, Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5795 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/94/sapphire-dragon-psionic-pulse) · oracle_id `53015c41-af2d-43e2-a690-d8877537b8dd` · printing: CLB #94 (2022-06-10) · [rulings](https://api.scryfall.com/cards/c0deb9ea-a0d4-4c3f-888e-abd1995cf2b3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2022-06-10* — An adventurer card is a permanent card in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it’s in your graveyard, Altar of Bhaal is an artifact card whose mana value is 2.
+  - *2022-06-10* — An effect may refer to a card, spell, or permanent that “has an Adventure.” This refers to a card, spell, or permanent that has an adventurer card’s set of alternative characteristics, even if they’re not being used and even if that card was never cast as an Adventure.
+  - *2022-06-10* — Casting a card as an Adventure isn’t casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Adventure.
+  - *2022-06-10* — If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner’s graveyard as it resolves. For as long as it remains exiled, that player may cast it as a permanent spell. If an Adventure spell leaves the stack in any way other than resolving (most likely by being countered or by failing to resolve because its targets have all become illegal), that card won’t be exiled and the spell’s controller won’t be able to cast it as a permanent later.
+  - *2022-06-10* — If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won’t give you permission to cast it as a permanent spell.
+  - *2022-06-10* — If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it’s not possible to cast the copy from exile.
+  - *2022-06-10* — If an effect instructs you to choose a card name, you may choose the alternative Adventure name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2022-06-10* — If an object becomes a copy of an object that has an Adventure, the copy also has an Adventure. If it changes zones, it will either cease to exist (if it’s a token) or cease to be a copy (if it’s a nontoken permanent), and so you won’t be able to cast it as an Adventure.
+  - *2022-06-10* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it’s legal to cast that spell.
+  - *2022-06-10* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+  - *2022-06-10* — You must still follow any relevant timing rules for the permanent spell you cast from exile. Normally, you’ll be able to cast it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/94/sapphire-dragon-psionic-pulse) · oracle_id `53015c41-af2d-43e2-a690-d8877537b8dd` · printing: CLB #94 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sapphire Drake
 
@@ -231,6 +252,7 @@
   > This land enters tapped with two depletion counters on it.
   > {T}, Remove a depletion counter from this land: Add {U}{U}. If there are no depletion counters on this land, sacrifice it.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6202 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/328/saprazzan-skerry) · oracle_id `e4e6e796-39ce-4a63-8c61-c7c956d75d78` · printing: MMQ #328 (1999-10-04) · [rulings](https://api.scryfall.com/cards/006871fd-2641-42cb-a2ac-a33d05fc5a35/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saproling Burst
@@ -276,7 +298,14 @@
   > *Thallids herd saprolings from place to place in search of detritus to feed them.*
 - **Keywords:** Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8228 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dom/178/saproling-migration) · oracle_id `bbbb80bd-76fa-4155-929b-4a3565d1cb35` · printing: DOM #178 (2018-04-27) · [rulings](https://api.scryfall.com/cards/2578d25e-5f8d-42ff-90ce-4e7d100cbbb6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dom/178/saproling-migration) · oracle_id `bbbb80bd-76fa-4155-929b-4a3565d1cb35` · printing: DOM #178 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saproling Symbiosis
 
@@ -286,6 +315,7 @@
   > You may cast this spell as though it had flash if you pay {2} more to cast it. (You may cast it any time you could cast an instant.)
   > Create a 1/1 green Saproling creature token for each creature you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5359 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/175/saproling-symbiosis) · oracle_id `69d22037-fbf7-44d2-81a7-7ce8e32f06ec` · printing: DMR #175 (2023-01-13) · [rulings](https://api.scryfall.com/cards/64ae774a-c1de-4c9e-a2ec-86d71cb2d1db/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sapseep Forest
@@ -297,6 +327,7 @@
   > This land enters tapped.
   > {G}, {T}: You gain 1 life. Activate only if you control two or more green permanents.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7107 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/313/sapseep-forest) · oracle_id `8d4dcab0-86e5-4ff8-a90f-78a062664e16` · printing: C21 #313 (2021-04-23) · [rulings](https://api.scryfall.com/cards/81d3099d-4f22-425c-8955-903b6cfb88d3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sap Sucker

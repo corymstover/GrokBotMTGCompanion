@@ -34,4 +34,6 @@
   > *"They say that beyond the dunes is the Town of Ruin, but no one can even enter the desert to find out, let alone cross it."*
   > *—Cid Previa*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5485 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/278/gohn-town-of-ruin) · oracle_id `13fbd525-c9ee-4bd6-b269-94fb264024b6` · printing: FIN #278 (2025-06-13) · [rulings](https://api.scryfall.com/cards/99582781-613e-4a33-aec7-7569b4a961aa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-06-06* — Town is a land type with no special meaning. It doesn't grant the land any intrinsic abilities. Other cards may care about which lands are Towns.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/278/gohn-town-of-ruin) · oracle_id `13fbd525-c9ee-4bd6-b269-94fb264024b6` · printing: FIN #278 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

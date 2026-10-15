@@ -80,7 +80,9 @@
   > *"Fear the fox given strength to match its cunning."*
   > *—Vivien Reid*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9727 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/19/vulpine-harvester) · oracle_id `cc5e3a21-4911-49f8-8e3c-ab23812c4004` · printing: MOC #19 (2023-04-21) · [rulings](https://api.scryfall.com/cards/42ebea93-14ba-4405-84a2-95e51a777ed5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-04-14* — You may choose any artifact card in your graveyard as the target of Vulpine Harvester’s triggered ability. The total power of the attacking Phyrexians is checked as the ability resolves to determine if that card is returned to the battlefield or not. Use the power of each of those creatures at that time, even if the creature is no longer attacking or no longer a Phyrexian. If the creature isn’t on the battlefield, use its power from when it was last on the battlefield. If the artifact card’s mana value is greater than the total power, it stays in your graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/19/vulpine-harvester) · oracle_id `cc5e3a21-4911-49f8-8e3c-ab23812c4004` · printing: MOC #19 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vulshok Battlegear
 

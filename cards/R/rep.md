@@ -80,7 +80,10 @@
 - **Flavor text** (ROE printing):
   > *Sorin has gathered grudges for centuries, patiently awaiting the day he can exact the perfect vengeance.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7813 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/roe/125/repay-in-kind) · oracle_id `24b8177f-5697-4465-9305-cb84307972ae` · printing: ROE #125 (2010-04-23) · [rulings](https://api.scryfall.com/cards/90d1db4c-1e79-410a-92ab-c9d58c5e58a6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2010-06-15* — For a player’s life total to become a certain number that’s lower than their current life total, what actually happens is that the player loses the appropriate amount of life. For example, if the lowest life total in the game is 5 and another player has 12 life, Repay in Kind will cause that player to lose 7 life. Abilities that interact with life loss will interact with this effect accordingly.
+  - *2010-06-15* — In a Two-Headed Giant game, anything that cares about a player’s life total checks the life total of that player’s team. In addition, if an effect would cause the life total of each member of a team to become a certain number, that team chooses one of its members. On that team, only that player is affected, then the life total change is applied to the entire team. For example, if one team has 13 life and another team has 21 life, the team with the higher life total chooses one of its members and Repay in Kind causes that player to lose 8 life, thus causing that team’s life total to also be 13.
+- **Source flags:** [Scryfall](https://scryfall.com/card/roe/125/repay-in-kind) · oracle_id `24b8177f-5697-4465-9305-cb84307972ae` · printing: ROE #125 (2010-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Repeal
 
@@ -104,7 +107,17 @@
 - **Flavor text** (CMM printing):
   > *It's in the nature of fire to grow.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7755 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/879/repeated-reverberation) · oracle_id `9a664735-6e38-407f-9d2f-a6d279cd6309` · printing: CMM #879 (2023-08-04) · [rulings](https://api.scryfall.com/cards/1cb03593-9369-4c26-bfcc-8819648dc018/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2019-07-12* — Copies are created even if the spell or ability that caused Repeated Reverberation’s ability to trigger has been countered by the time that ability resolves. The copies resolve before the original spell or ability.
+  - *2019-07-12* — Copying a loyalty ability doesn’t add or remove loyalty counters from any object.
+  - *2019-07-12* — If the spell or ability that’s copied has an X whose value was determined as it was cast, the copies will have the same value of X.
+  - *2019-07-12* — If the spell that’s copied is modal (that is, it says “Choose one —” or the like), the copies will have the same mode or modes. You can’t choose different ones.
+  - *2019-07-12* — If you cast one Repeated Reverberation after another, you’ll copy the second Repeated Reverberation twice. Each resolves, creating three delayed triggered abilities. The next spell you cast or loyalty ability you activate after that will be copied six times. If that spell is also a Repeated Reverberation, the following spell or ability will be copied fourteen times. A fourth Repeated Reverberation will copy the next spell or ability thirty times. Reverberations repeated beyond that shall be left as an exercise for the reader.
+  - *2019-07-12* — Repeated Reverberation’s ability will copy any instant or sorcery spell or loyalty ability, not just one with targets.
+  - *2019-07-12* — The copies made by Repeated Reverberation’s ability are created on the stack, so they’re not “cast” or “activated.” Abilities that trigger when a player casts a spell or activate an ability don’t trigger.
+  - *2019-07-12* — The copies will have the same targets as the spell or ability they’re copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. The new targets must be legal.
+  - *2019-07-12* — You can’t choose to pay any additional costs for the copies. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copies too.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/879/repeated-reverberation) · oracle_id `9a664735-6e38-407f-9d2f-a6d279cd6309` · printing: CMM #879 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Repeating Barrage
 
@@ -151,6 +164,7 @@
 - **Flavor text** (BLB printing):
   > *The living seasons come to grow, to burn, to wither, and to freeze. As natural as it is for the Calamity Beasts to live, it is just as natural for them to die.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7105 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/27/repel-calamity) · oracle_id `ba58f508-8036-496c-8a2f-c1e410165e93` · printing: BLB #27 (2024-08-02) · [rulings](https://api.scryfall.com/cards/d068192a-6270-4981-819d-4945fa4a2b83/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Repel Intruders
@@ -248,6 +262,7 @@
 - **Flavor text** (UDS printing):
   > *Not all Keld's warriors are found on the battlefield.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3003 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/uds/95/repercussion) · oracle_id `f6069a4f-744e-43e8-9f8b-7c13b8b0187f` · printing: UDS #95 (1999-06-07) · [rulings](https://api.scryfall.com/cards/d0f3c78e-16c0-4fbc-8ef4-fbf610f9d464/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Replenish
@@ -259,7 +274,11 @@
 - **Flavor text** (UDS printing):
   > *Treasures, trinkets, trash—the relics of the past are brought forth again.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3867 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/uds/15/replenish) · oracle_id `523ae937-5535-490d-96ea-07f331b5e5ad` · printing: UDS #15 (1999-06-07) · [rulings](https://api.scryfall.com/cards/7fd2fe13-bbc0-42b7-bc42-3b51910ce118/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-10-04* — It determines what enchantments to return when its resolution starts. If more enchantments go to the graveyard during the resolution, those additional enchantments are ignored.
+  - *2005-08-01* — Auras can only be placed on permanents that were on the battlefield before this effect started to resolve. You can't put an enchantment onto the battlefield with Replenish and put an Aura that is also entering onto one of those enchantments.
+  - *2005-08-01* — You must return Auras if possible, even if this means enchanting an opponent's permanent with a good enchantment.
+- **Source flags:** [Scryfall](https://scryfall.com/card/uds/15/replenish) · oracle_id `523ae937-5535-490d-96ea-07f331b5e5ad` · printing: UDS #15 (1999-06-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Replicating Ring
 
@@ -269,7 +288,14 @@
   > {T}: Add one mana of any color.
   > At the beginning of your upkeep, put a night counter on this artifact. Then if it has eight or more night counters on it, remove all of them and create eight colorless snow artifact tokens named Replicated Ring with "{T}: Add one mana of any color."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1627 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/372/replicating-ring) · oracle_id `1ff00f5b-4bf9-4724-8bb5-6b9a9eb0ec7f` · printing: MOC #372 (2023-04-21) · [rulings](https://api.scryfall.com/cards/f1e6e3a2-5145-4898-990e-150e090f5206/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-02-05* — Snow is a supertype, not a card type. It has no rules meaning or function by itself, but spells and abilities may refer to it.
+  - *2021-02-05* — Snow isn't a type of mana. If an effect says you may spend mana as though it were any type, you can't pay for {S} using mana that wasn't produced by a snow source.
+  - *2021-02-05* — Some cards have additional effects for each {S} spent to cast them. You can cast these spells even if you don't spend any snow mana to cast them; their additional effects simply won't do anything.
+  - *2021-02-05* — The Kaldheim set doesn't have any cards with mana costs that include {S}, but some previous sets do. If an effect says such a spell costs {1} less to cast, that reduction doesn't apply to any {S} costs. This is also true for activated abilities that include {S} in their activation costs and effects that reduce those costs.
+  - *2021-02-05* — The check of whether Replicating Ring has eight or more night counters on it happens only as part of the resolution of the triggered ability. If Replicating Ring picks up its eighth night counter at another time, you won't immediately create Replicated Rings. You'll have to wait until the next time the triggered ability resolves.
+  - *2021-02-05* — The {S} symbol is a generic mana symbol. It represents a cost that can be paid by one mana that was produced by a snow source. That mana can be any color or colorless.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/372/replicating-ring) · oracle_id `1ff00f5b-4bf9-4724-8bb5-6b9a9eb0ec7f` · printing: MOC #372 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Replication Specialist
 
@@ -294,7 +320,13 @@
   > Create a token that's a copy of target permanent you control.
 - **Keywords:** Demonstrate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4277 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/200/replication-technique) · oracle_id `163baf58-b35d-4f2b-aa53-8384b8b5800a` · printing: SOC #200 (2026-04-24) · [rulings](https://api.scryfall.com/cards/b3149976-2811-4bbd-af1e-d59016bb0754/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-04-16* — If the spell requires targets, you choose the target of the original spell as you cast it. If you create a copy of the spell, you may choose new targets for the copy as you create that copy. Similarly, the opponent you chose to create a copy may choose new targets for that copy as it's created. In other words, your opponent will know the targets of your original spell and your copy when choosing the new targets, if any, for their copy.
+  - *2021-04-16* — If you cast the spell and choose not to copy it, no opponent will get to copy it either.
+  - *2021-04-16* — If you copy a spell with demonstrate, you then immediately choose an opponent. If they copy the spell, it goes on top of the stack.
+  - *2021-04-16* — This means that if you cast a spell with demonstrate and both you and an opponent copy it, the opponent's copy will resolve first, then your copy will resolve, and finally the original spell will resolve.
+  - *2021-04-16* — You choose whether to make a copy as the demonstrate ability resolves. This happens before the original spell resolves. Your copy goes on the stack above the original spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/200/replication-technique) · oracle_id `163baf58-b35d-4f2b-aa53-8384b8b5800a` · printing: SOC #200 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Repopulate
 
@@ -358,7 +390,13 @@
   > *There was a time all craven beasts cowered before Avacyn's divine might.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5802 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/23/reprobation) · oracle_id `445dfef5-358e-49b1-880c-b30fc45f0a9a` · printing: MH1 #23 (2019-06-14) · [rulings](https://api.scryfall.com/cards/b1349c3d-39ad-40ba-897e-59e5b76de853/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2019-06-14* — Effects that modify the enchanted creature’s power or toughness (such as the effects of Force of Virtue or Giant Growth) will apply no matter when they started to take effect. The same is true for counters that change the creature’s power or toughness (such as +1/+1 counters).
+  - *2019-06-14* — If a noncreature permanent becomes a creature and is enchanted with Reprobation, it will remain a creature thanks to Reprobation’s effect, even when the original effect that made it a creature expires.
+  - *2019-06-14* — If the enchanted creature gains an ability after Reprobation becomes attached to it, it will keep that ability.
+  - *2019-06-14* — Reprobation overwrites all previous effects that set the enchanted creature’s creature types, card types, power, and/or toughness to specific values. Other effects that set these characteristics to specific values that start to apply after Reprobation becomes attached will overwrite that portion of the effect.
+  - *2019-06-14* — The enchanted creature retains any supertypes it had, such as legendary or snow.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/23/reprobation) · oracle_id `445dfef5-358e-49b1-880c-b30fc45f0a9a` · printing: MH1 #23 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reprocess
 
@@ -414,7 +452,25 @@
 - **Face 2: Replicate** — {1}{G}{U} — Sorcery
   > Create a token that's a copy of target creature you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9461 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/249/repudiate-replicate) · oracle_id `a43ecf8b-5dc9-4ac4-ae1f-b663aa8c9d7b` · printing: RVR #249 (2024-01-12) · [rulings](https://api.scryfall.com/cards/595332bf-6d3d-4240-974c-f87832954068/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (17):
+  - *2022-12-08* — A split card's characteristics are a combination of its two halves while it is not on the stack. For example, Assault // Battery has a mana value of 5 while it is in your library. If an effect allows you to search your library for a card with mana value 4 or less, you can't find Assault // Battery.
+  - *2022-12-08* — Each split card has two names. If an effect instructs you to choose a card name, you may choose one of those names, but not both.
+  - *2022-12-08* — Each split card is a single card. For example, if you discard a split card, you've discarded one card, not two. If an effect counts the number of sorcery cards in your graveyard, Assault // Battery counts once, not twice.
+  - *2022-12-08* — If an effect allows you to cast a spell with certain characteristics, consider only the characteristics of the half you're casting. For example, if an effect allows you to cast a sorcery spell with mana value 2 or less from among cards in your graveyard, you could cast Assault this way, but not Battery.
+  - *2022-12-08* — If you copy a spell that's half of a split card, the copy copies that same half. For example, if you copy Assault, the copy is also Assault, not Battery.
+  - *2022-12-08* — Split cards have two card faces on a single card. The characteristics of the half you didn't cast are ignored while the spell is on the stack.
+  - *2022-12-08* — To cast a split card, choose one of its halves to cast. There's no way to cast both halves of this split card.
+  - *2024-01-12* — Abilities that create replacement effects, such as a permanent entering the battlefield tapped or with counters on it, can't be targeted. Abilities that apply "as [this creature] enters the battlefield" are also replacement effects and can't be targeted.
+  - *2024-01-12* — Activated abilities are written in the form "[Cost]: [Effect]." Some keyword abilities, such as equip, are activated abilities and will have colons in their reminder texts. Loyalty abilities of planeswalkers are activated abilities.
+  - *2024-01-12* — An activated mana ability is one that adds mana as it resolves, doesn't have a target, and isn't a loyalty ability. A triggered mana ability is one that adds mana and triggers on an activated mana ability.
+  - *2024-01-12* — Any enters-the-battlefield abilities of the copied creature will trigger when the token enters the battlefield. Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the chosen creature will also work.
+  - *2024-01-12* — If the copied creature has {X} in its mana cost, X is considered to be 0.
+  - *2024-01-12* — If the copied creature is a token, the token that's created copies the original characteristics of that token as stated by the effect that created the token.
+  - *2024-01-12* — If the copied creature is copying something else (for example, if the copied creature is a Mirror Image), then the token enters the battlefield as whatever that creature copied.
+  - *2024-01-12* — If you counter a delayed triggered ability that triggered at the beginning of the "next" occurrence of a specified step or phase, that ability won't trigger again the following time that phase or step occurs.
+  - *2024-01-12* — The token copies exactly what was printed on the original creature and nothing else (unless that creature is copying something else or is a token; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
+  - *2024-01-12* — Triggered abilities use the word "when," "whenever," or "at." They're often written as "[Trigger condition], [effect]." Some keyword abilities, such as afterlife, are triggered abilities and will have "when," "whenever," or "at" in their reminder text.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/249/repudiate-replicate) · oracle_id `a43ecf8b-5dc9-4ac4-ae1f-b663aa8c9d7b` · printing: RVR #249 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Repulse
 
@@ -426,7 +482,9 @@
 - **Flavor text** (CN2 printing):
   > *"You aren't invited."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8564 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/119/repulse) · oracle_id `6f7ef1d1-c441-41ba-b7d6-6b7727ffcf04` · printing: CN2 #119 (2016-08-26) · [rulings](https://api.scryfall.com/cards/4dc7777b-6e9e-4889-91da-fb5283340fa1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-04-12* — If the target creature is an illegal target as Repulse tries to resolve, it won't resolve and none of its effects will happen. You won't draw a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/119/repulse) · oracle_id `6f7ef1d1-c441-41ba-b7d6-6b7727ffcf04` · printing: CN2 #119 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Repulsive Mutation
 
@@ -438,7 +496,9 @@
   > *"Remind me to send the biomancer team a gift basket."*
   > *—Olana, Simic field researcher*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2797 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/227/repulsive-mutation) · oracle_id `611bfaa6-b098-48d9-9e49-1e7dc8687f15` · printing: MKM #227 (2024-02-09) · [rulings](https://api.scryfall.com/cards/71701c28-f113-4d38-8fd3-a19cd9749661/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-02-02* — If you control no creatures as Repulsive Mutation is resolving, the amount of mana the target spell's controller must pay to stop their spell from being countered is 0. That player can choose not to pay 0 mana; if they do, the spell will be countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/227/repulsive-mutation) · oracle_id `611bfaa6-b098-48d9-9e49-1e7dc8687f15` · printing: MKM #227 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Repulsor Blast
 
@@ -502,7 +562,9 @@
 - **Flavor text** (DFT printing):
   > *By the end of the race, few of the Aether Rangers' vehicles resembled what they started as.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3719 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dft/56/repurposing-bay) · oracle_id `1787ac2f-762d-4f3a-b7e5-12db6d3d470d` · printing: DFT #56 (2025-02-14) · [rulings](https://api.scryfall.com/cards/0cf1ace1-b7f5-4bd9-a494-ee7cb6c1f854/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-02-07* — If there’s an {X} in the sacrificed artifact’s mana cost, X is 0 when determining its mana value.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dft/56/repurposing-bay) · oracle_id `1787ac2f-762d-4f3a-b7e5-12db6d3d470d` · printing: DFT #56 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reputable Merchant
 

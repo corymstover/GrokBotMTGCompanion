@@ -40,7 +40,13 @@
   > Overload {3}{R}{R}{R} (You may cast this spell for its overload cost. If you do, change "target" in its text to "each.")
 - **Keywords:** Overload
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3066 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/803/mizzium-mortars) · oracle_id `48ddba1e-2ad7-463f-9307-d2379a800e51` · printing: CLB #803 (2022-06-10) · [rulings](https://api.scryfall.com/cards/544b2931-0af1-4743-b7c1-91e1dc9294d5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-01-12* — Because a spell with overload doesn't target when its overload cost is paid, it may affect permanents with hexproof or with protection from the appropriate color.
+  - *2024-01-12* — If you are instructed to cast a spell with overload "without paying its mana cost," you can't choose to pay its overload cost instead.
+  - *2024-01-12* — If you don't pay the overload cost of a spell with overload, that spell will have a single target. If you pay the overload cost, the spell won't have any targets.
+  - *2024-01-12* — Note that if the spell with overload is dealing damage, protection from that spell's color will still prevent that damage.
+  - *2024-01-12* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an overload cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/803/mizzium-mortars) · oracle_id `48ddba1e-2ad7-463f-9307-d2379a800e51` · printing: CLB #803 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mizzium Skin
 
@@ -51,7 +57,12 @@
   > Overload {1}{U} (You may cast this spell for its overload cost. If you do, change "target" in its text to "each.")
 - **Keywords:** Overload
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7862 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/45/mizzium-skin) · oracle_id `02d998a6-0afd-4be1-a209-05618fcc43ea` · printing: RTR #45 (2012-10-05) · [rulings](https://api.scryfall.com/cards/d9859344-4efc-4b87-a3fb-147e496cee68/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-01-12* — Because a spell with overload doesn't target when its overload cost is paid, it may affect permanents with hexproof or with protection from the appropriate color.
+  - *2024-01-12* — If you are instructed to cast a spell with overload "without paying its mana cost," you can't choose to pay its overload cost instead.
+  - *2024-01-12* — If you don't pay the overload cost of a spell with overload, that spell will have a single target. If you pay the overload cost, the spell won't have any targets.
+  - *2024-01-12* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an overload cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/45/mizzium-skin) · oracle_id `02d998a6-0afd-4be1-a209-05618fcc43ea` · printing: RTR #45 (2012-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mizzium Tank
 
@@ -88,7 +99,17 @@
   > Whenever you cast an instant or sorcery spell with mana value greater than the number of experience counters you have, you get an experience counter.
   > Instant and sorcery spells you cast cost {1} less to cast for each experience counter you have.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6407 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/348/mizzix-of-the-izmagnus) · oracle_id `f787c6cf-a4ff-487b-a7b0-0f516e68510a` · printing: CMM #348 (2023-08-04) · [rulings](https://api.scryfall.com/cards/82f949d0-41a0-4491-9057-bfb2bb20bdb3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2015-11-04* — All experience counters are identical, no matter how you got them. For example, the last ability will count experience counters that you got from the first ability, from another ability, from proliferating, and so on.
+  - *2015-11-04* — Each game pack includes a card labeled "Experience" with the suggestion "Place your experience counters here." This card isn't required for play. It's simply a convenient spot to put your experience counters, which can be represented with dice, glass beads, or other small items.
+  - *2015-11-04* — Experience counters are the second kind of counters a player can have, joining poison.
+  - *2015-11-04* — If an instant or sorcery spell you cast has {X} in its mana cost, you choose the value of X before calculating the spell's total cost. For example, if that spell's mana cost is {X}{R} and you have one experience counter, you could choose 5 as the value of X and pay {4}{R} to cast the spell.
+  - *2015-11-04* — If there are additional costs to cast a spell, or if the cost to cast a spell is increased by an effect (such as the one created by Thalia, Guardian of Thraben's ability), apply those increases before applying cost reductions.
+  - *2015-11-04* — Mizzix's last ability can't reduce the amount of colored mana you pay for a spell. It reduces only the generic component of that cost.
+  - *2015-11-04* — Mizzix's last ability doesn't change the mana cost or mana value of any spell. It changes only the total cost you pay.
+  - *2015-11-04* — The cost reduction can apply to alternative costs such as flashback costs.
+  - *2015-11-04* — You finish casting a spell, including paying its costs, before Mizzix's first ability triggers. The ability that gives you the experience counter will resolve before the spell that caused it to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/348/mizzix-of-the-izmagnus) · oracle_id `f787c6cf-a4ff-487b-a7b0-0f516e68510a` · printing: CMM #348 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mizzix, Replica Rider
 

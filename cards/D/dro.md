@@ -81,6 +81,7 @@
   > *Dead or alive, true leaders can inspire an entire army.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8393 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/voc/154/drogskol-captain) · oracle_id `c33604ac-636a-43ad-9efe-8d7b3a28bf81` · printing: VOC #154 (2021-11-19) · [rulings](https://api.scryfall.com/cards/c88e7e22-6300-4871-9af8-923eedfe4b32/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drogskol Cavalry
@@ -126,7 +127,12 @@
   > Whenever you gain life, draw a card.
 - **Keywords:** Flying, Lifelink, Double strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4201 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/655/drogskol-reaver) · oracle_id `68175b49-f1e6-4b34-aad9-20d61a43d427` · printing: FDN #655 (2024-11-15) · [rulings](https://api.scryfall.com/cards/c0a4450c-8dfd-4d05-adb9-e84ec6066c7d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-11-08* — Drogskol Reaver's last ability triggers just once for each life-gaining event, whether it's 1 life from Dazzling Angel or 4 life from Apothecary Stomper.
+  - *2024-11-08* — Each creature with lifelink dealing combat damage causes a separate life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, Drogskol Reaver's last ability will trigger twice. However, if a single creature you control with lifelink deals combat damage to multiple creatures, players, planeswalkers, and/or battles at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once.
+  - *2024-11-08* — If Drogskol Reaver deals enough first-strike damage to destroy each creature it's blocking or was blocked by, it won't deal any damage during the regular combat damage step and its last ability won't trigger a second time that combat. This is different if Drogskol Reaver is attacking and somehow gains trample.
+  - *2024-11-08* — If you gain an amount of life "for each" of something or "equal to the number" of something, that life is gained as one event and the last ability of Drogskol Reaver triggers only once.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/655/drogskol-reaver) · oracle_id `68175b49-f1e6-4b34-aad9-20d61a43d427` · printing: FDN #655 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drogskol Reinforcements
 
@@ -139,6 +145,7 @@
   > Prevent all noncombat damage that would be dealt to Spirits you control.
 - **Keywords:** Melee
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7952 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/voc/5/drogskol-reinforcements) · oracle_id `6d174448-52f5-4439-9586-3abc5af940d7` · printing: VOC #5 (2021-11-19) · [rulings](https://api.scryfall.com/cards/c86bdb28-9b0c-426d-b603-cc10cd301cc6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drogskol Shieldmate
@@ -188,7 +195,10 @@
   > When this land enters, sacrifice it unless you return a non-Lair land you control to its owner's hand.
   > {T}: Add {W}, {U}, or {B}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9392 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/246/dromars-cavern) · oracle_id `d8b57707-796d-4488-8f91-65bb75bc6281` · printing: DMR #246 (2023-01-13) · [rulings](https://api.scryfall.com/cards/10380662-88bd-4bc5-b8c3-14af425fc5a5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — If you don't want to unsummon a land, you can play this card then tap it for mana before the enters ability resolves. You may then choose to sacrifice it instead of unsummoning a land.
+  - *2005-08-01* — This land is of type "Lair" only; other subtypes have been removed. It is not a basic land.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/246/dromars-cavern) · oracle_id `d8b57707-796d-4488-8f91-65bb75bc6281` · printing: DMR #246 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dromar's Charm
 
@@ -267,7 +277,15 @@
   > • Target creature you control fights target creature you don't control.
 - **Keywords:** Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7270 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/323/dromokas-command) · oracle_id `3bd8ea71-cbcc-4659-b9a8-88cf27ee12d8` · printing: MOC #323 (2023-04-21) · [rulings](https://api.scryfall.com/cards/43571705-6d53-4ec1-9159-c9c98771b3b6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2015-02-25* — Although most instants and sorceries that cause damage to be dealt are the sources of that damage, a few cause other objects to deal damage (for example, spells that cause creatures to fight). The first ability of Dromoka's Command won't prevent damage caused by those other sources.
+  - *2015-02-25* — As the spell resolves, follow the instructions of the modes you chose in the order they are printed on the card. For example, if you chose the second and fourth modes of Ojutai's Command, you would gain 4 life and then draw a card. (The order won't matter in most cases.)
+  - *2015-02-25* — If a Command is copied, the effect that creates the copy will usually allow you to choose new targets for the copy, but you can't choose new modes.
+  - *2015-02-25* — If all targets for the chosen modes become illegal before the Command resolves, the spell won't resolve and none of its effects will happen. If at least one target is still legal, the spell will resolve but will have no effect on any illegal targets.
+  - *2015-02-25* — You can choose a mode only if you can choose legal targets for that mode. Ignore the targeting requirements for modes that aren't chosen. For example, you can cast Ojutai's Command without targeting a creature spell provided you don't choose the third mode.
+  - *2015-02-25* — You can target any player with the second ability, including one that doesn't control an enchantment.
+  - *2015-02-25* — You choose the two modes as you cast the spell. You must choose two different modes. Once modes are chosen, they can't be changed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/323/dromokas-command) · oracle_id `3bd8ea71-cbcc-4659-b9a8-88cf27ee12d8` · printing: MOC #323 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dromoka's Gift
 
@@ -294,7 +312,11 @@
   > *—Daghatar the Adamant*
 - **Keywords:** Bolster, Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9658 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/c17/170/dromoka-the-eternal) · oracle_id `73520b5a-3d55-40c9-af60-90fdd811934f` · printing: C17 #170 (2017-08-25) · [rulings](https://api.scryfall.com/cards/b8db6ab8-cd12-431a-bf18-28464cf03509/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2014-11-24* — Bolster itself doesn’t target any creature, though some spells and abilities that bolster may have other effects that target creatures. For example, you could put counters on a creature with protection from white with Abzan Skycaptain’s bolster ability.
+  - *2014-11-24* — Each Dragon you attack with will cause Dromoka’s triggered ability to trigger. For each instance of the ability, you’ll determine which creature to put +1/+1 counters on as it resolves. Specifically, the creature you control with the lowest toughness as the first such ability resolves may not have the lowest toughness as the second such ability resolves.
+  - *2014-11-24* — You determine which creature to put counters on as the spell or ability that instructs you to bolster resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c17/170/dromoka-the-eternal) · oracle_id `73520b5a-3d55-40c9-af60-90fdd811934f` · printing: C17 #170 (2017-08-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dromoka Warrior
 
@@ -384,7 +406,9 @@
 - **Flavor text** (FDN printing):
   > *"I've always enjoyed kicking stuff, so this was an ideal career opportunity."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9892 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/537/dropkick-bomber) · oracle_id `c394d4b6-cfb8-4639-90cb-a322a25c0a2f` · printing: FDN #537 (2024-11-15) · [rulings](https://api.scryfall.com/cards/b44f758e-716a-408e-96d4-b58403591c2a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-11-08* — Because damage remains marked on a creature until it's removed as the turn ends, nonlethal damage dealt to a Goblin you control may become lethal if Dropkick Bomber leaves the battlefield during that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/537/dropkick-bomber) · oracle_id `c394d4b6-cfb8-4639-90cb-a322a25c0a2f` · printing: FDN #537 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drop of Honey
 
@@ -445,6 +469,7 @@
   > *The path to ruin is forged in pain.*
 - **Keywords:** Indestructible
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2330 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/246/drossforge-bridge) · oracle_id `44b83535-fdbf-4307-bf53-ca20470a768d` · printing: MH2 #246 (2021-06-18) · [rulings](https://api.scryfall.com/cards/5b46b8d8-723a-4752-b97d-29ef83bd294c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dross Golem
@@ -585,7 +610,9 @@
 - **Flavor text** (LCC printing):
   > *"I do not lead. They do not follow. We walk together."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6083 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/239/drover-of-the-mighty) · oracle_id `6deba6e8-077b-4602-86af-64db766fbbd9` · printing: LCC #239 (2023-11-17) · [rulings](https://api.scryfall.com/cards/013360b3-c335-46c0-abe3-b7e3760f62c9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-09-29* — Because damage remains marked on a creature until it's removed as the turn ends, the damage Drover of the Mighty takes during combat may become lethal if you no longer control a Dinosaur later in the turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/239/drover-of-the-mighty) · oracle_id `6deba6e8-077b-4602-86af-64db766fbbd9` · printing: LCC #239 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drowned
 
@@ -637,7 +664,10 @@
   > *Beneath Ravnica's streets runs a layer of tunnels, then caverns and waterways, then terrors and nightmares.*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8636 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/grn/39/drowned-secrets) · oracle_id `cab305d9-27fb-4a41-adf1-892e15167cb9` · printing: GRN #39 (2018-10-05) · [rulings](https://api.scryfall.com/cards/bfc98428-7a0f-445f-9d48-eeb76c3e10d6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-10-05* — Drowned Secrets has to be on the battlefield for its ability to trigger. Casting it won’t trigger its own ability.
+  - *2018-10-05* — Drowned Secrets’s triggered ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/grn/39/drowned-secrets) · oracle_id `cab305d9-27fb-4a41-adf1-892e15167cb9` · printing: GRN #39 (2018-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drowner Initiate
 
@@ -663,7 +693,19 @@
   > Sacrifice an Eldrazi Scion: Tap target creature.
 - **Keywords:** Devoid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8065 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/57/drowner-of-hope) · oracle_id `2b3f2e85-5ea4-44d6-86e8-e8ce6d4f98c0` · printing: BFZ #57 (2015-10-02) · [rulings](https://api.scryfall.com/cards/0fd5b48c-6850-47d4-8106-297be6c8f708/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2015-08-25* — A card with devoid is just colorless. It's not colorless and the colors of mana in its mana cost.
+  - *2015-08-25* — Cards with devoid use frames that are variations of the transparent frame traditionally used for Eldrazi. The top part of the card features some color over a background based on the texture of the hedrons that once imprisoned the Eldrazi. This coloration is intended to aid deckbuilding and game play.
+  - *2015-08-25* — Devoid works in all zones, not just on the battlefield.
+  - *2015-08-25* — Eldrazi Scions are similar to Eldrazi Spawn, seen in the Zendikar block. Note that Eldrazi Scions are 1/1, not 0/1.
+  - *2015-08-25* — Eldrazi and Scion are each separate creature types. Anything that affects Eldrazi will affect these tokens, for example.
+  - *2015-08-25* — If a card loses devoid, it will still be colorless. This is because effects that change an object's color (like the one created by devoid) are considered before the object loses devoid.
+  - *2015-08-25* — Other cards and abilities can give a card with devoid color. If that happens, it's just the new color, not that color and colorless.
+  - *2015-08-25* — Sacrificing an Eldrazi Scion creature token to add {C} is a mana ability. It doesn't use the stack and can't be responded to.
+  - *2015-08-25* — Some instants and sorceries that create Eldrazi Scions require targets. If all targets for such a spell have become illegal by the time that spell tries to resolve, the spell won't resolve and none of its effects will happen. You won't get any Eldrazi Scions.
+  - *2015-08-25* — You can sacrifice any Eldrazi Scion to activate Drowner of Hope's last ability, not just one created by Drowner of Hope.
+  - *2015-08-25* — You can't sacrifice the same permanent to pay two different costs. Notably, if you sacrifice an Eldrazi Scion to activate the last ability of Drowner of Hope, you won't add {C}.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/57/drowner-of-hope) · oracle_id `2b3f2e85-5ea4-44d6-86e8-e8ce6d4f98c0` · printing: BFZ #57 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drowner of Secrets
 
@@ -696,7 +738,20 @@
   > *—Ayli, high priest of the Eternal Pilgrims*
 - **Keywords:** Devoid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6390 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/253/drowner-of-truth-drowned-jungle) · oracle_id `db19a27a-ee22-4931-ae3c-0ce21f456ea6` · printing: MH3 #253 (2024-06-14) · [rulings](https://api.scryfall.com/cards/7a1d3c1d-1373-4ac4-bb26-9780976efc4f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2024-06-07* — A card with devoid is just colorless. It's not colorless and the colors of mana in its mana cost.
+  - *2024-06-07* — A modal double-faced card can't be transformed or be put onto the battlefield transformed. Ignore any instruction to transform a modal double-faced card or to put one onto the battlefield transformed.
+  - *2024-06-07* — Devoid doesn't affect the color identity of the card for the purposes of the Commander variant. For example, while Abstruse Appropriation is colorless because it has devoid, its color identity is still white and black, and it can't be included in a Commander deck where the commander's color identity doesn't include both white and black.
+  - *2024-06-07* — Devoid works in all zones, not just on the battlefield.
+  - *2024-06-07* — Drowner of Truth's triggered ability will resolve before Drowner of Truth does. If Drowner of Truth is countered or otherwise leaves the stack in response to that triggered ability, the triggered ability will still resolve as normal.
+  - *2024-06-07* — If a card loses devoid, it will still be colorless. This is because effects that change an object's color (like the one created by devoid) are considered before the object loses devoid.
+  - *2024-06-07* — If an effect allows you to play a land or cast a spell from among a group of cards, you may play or cast a modal double-faced card with any face that fits the criteria of that effect. For example, if an effect allows you to play lands from your graveyard, you can play Garden of Freyalise, but you can't cast Disciple of Freyalise.
+  - *2024-06-07* — If an effect allows you to play a specific modal double-faced card, you may cast it as a spell or play it as a land, as determined by which face you choose to play. If an effect allows you to cast (rather than "play") a specific modal double-faced card, you can't play it as a land.
+  - *2024-06-07* — If an effect allows you to put a card with particular characteristics onto the battlefield without instructing you to play or cast it, you consider only the characteristics of a modal double-faced card's front face to see if that card qualifies. If it does, it enters the battlefield with its front face up. For example, if an effect allows you to put a creature card from your graveyard onto the battlefield, you can put Disciple of Freyalise onto the battlefield. However, an effect that lets you return a land card from your graveyard to your hand won't let you return Garden of Freyalise to your hand, as that card has only its front face's characteristics while in the graveyard.
+  - *2024-06-07* — Other cards and abilities can give a card with devoid a color. If that happens, it's just the new color, not that color and colorless.
+  - *2024-06-07* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack or the battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
+  - *2024-06-07* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics. For example, if an effect stops you from casting creature spells, you can't cast Disciple of Freyalise, but you can still play Garden of Freyalise.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/253/drowner-of-truth-drowned-jungle) · oracle_id `db19a27a-ee22-4931-ae3c-0ce21f456ea6` · printing: MH3 #253 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drown in Dreams
 
@@ -711,7 +766,10 @@
   > *—Teferi*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2122 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mic/13/drown-in-dreams) · oracle_id `d3cec4b5-bc93-44a2-a29d-3478f0a5dac6` · printing: MIC #13 (2021-09-24) · [rulings](https://api.scryfall.com/cards/af4d5acb-12d6-46d7-aaf9-3ace1520825a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-09-24* — Controlling a commander means that you control a permanent on the battlefield that is someone's commander. It can be yours or another player's. Controlling a commander spell on the stack will not allow you to choose both modes.
+  - *2021-09-24* — You may target the same player with both modes or target different players. The effects happen in the order they're listed on the card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mic/13/drown-in-dreams) · oracle_id `d3cec4b5-bc93-44a2-a29d-3478f0a5dac6` · printing: MIC #13 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drown in Filth
 
@@ -735,7 +793,14 @@
   > *Sinking into the Dross is neither a gentle death nor a quiet one. But once the necrogen takes hold, it is inevitable.*
 - **Keywords:** Proliferate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2061 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/91/drown-in-ichor) · oracle_id `e4912bc3-bee9-4a2f-a13e-3a99018f8a65` · printing: ONE #91 (2023-02-10) · [rulings](https://api.scryfall.com/cards/bf148ef4-0ed7-4fbe-8ab6-01dd3981c8d3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-02-04* — An ability that triggers "Whenever you proliferate" triggers even if you chose no permanents or players while doing so.
+  - *2023-02-04* — If a permanent ever has both +1/+1 counters and -1/-1 counters on it at the same time, they're removed in pairs as a state-based action so that the permanent has only one of those kinds of counters on it.
+  - *2023-02-04* — If a player or permanent has more than one kind of counter on it, and you choose for it to get additional counters, it must get one of each kind of counter it already has. You can't have it get just one kind of counter it already has and not the others.
+  - *2023-02-04* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
+  - *2023-02-04* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
+  - *2023-02-04* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/91/drown-in-ichor) · oracle_id `e4912bc3-bee9-4a2f-a13e-3a99018f8a65` · printing: ONE #91 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drown in Shapelessness
 
@@ -770,7 +835,10 @@
   > • Counter target spell with mana value less than or equal to the number of cards in its controller's graveyard.
   > • Destroy target creature with mana value less than or equal to the number of cards in its controller's graveyard.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1460 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/842/drown-in-the-loch) · oracle_id `0f264e5b-264e-4e97-9a8d-8ae1d6a286ce` · printing: CLB #842 (2022-06-10) · [rulings](https://api.scryfall.com/cards/eb7b9762-740b-4c1c-a411-20dbf023aea5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-10-04* — For spells with {X} in their mana costs, use the value chosen for X to determine the spell's mana value.
+  - *2019-10-04* — If a creature on the battlefield has {X} in its mana cost, X is considered to be 0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/842/drown-in-the-loch) · oracle_id `0f264e5b-264e-4e97-9a8d-8ae1d6a286ce` · printing: CLB #842 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drownyard Amalgam
 
@@ -838,6 +906,7 @@
   > *"This is it! All the cryptoliths point here!"*
   > *—Jace Beleren*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1989 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/359/drownyard-temple) · oracle_id `c30f9be4-c274-4ad0-b5d7-7d3421aa4277` · printing: TDC #359 (2025-04-11) · [rulings](https://api.scryfall.com/cards/dbc8512a-9f6c-40d4-8049-14505e260746/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drowsing Tyrannodon

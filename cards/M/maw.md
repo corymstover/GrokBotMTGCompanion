@@ -38,7 +38,13 @@
   > Terror from the Deep — When this creature enters, it fights up to one target creature an opponent controls. If that creature would die this turn, exile it instead.
 - **Keywords:** Ravenous, Fight, Terror from the Deep
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7374 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/40k/133/mawloc) · oracle_id `e5d928dc-b465-4cf7-ab11-d5bd3328f8e7` · printing: 40K #133 (2022-10-07) · [rulings](https://api.scryfall.com/cards/bbec97ff-bb84-4496-9e09-d4fc1570c516/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2022-10-07* — A creature with ravenous gets its counters as it enters the battlefield. It doesn't enter the battlefield first and then get its counters. Any triggered ability that looks for a creature with a certain power or toughness entering the battlefield will see the counters when it checks to see if it should trigger.
+  - *2022-10-07* — If a permanent spell with ravenous is copied, the copy will have the same value for X, and the token permanent that the spell becomes as it enters the battlefield will enter with X counters.
+  - *2022-10-07* — If another permanent enters the battlefield as a copy of a creature with Ravenous, it will not enter with any counters from the ravenous ability.
+  - *2022-10-07* — The creature Mawloc fights will be exiled instead of going to the graveyard if it would die on the same turn for any reason, not just because of the damage from fighting Mawloc. This is true even if Mawloc has left the battlefield by that time.
+  - *2022-10-07* — The triggered ability that checks to see if X is 5 or greater refers to the value of X that was chosen as the spell was cast, which may be different from the number of counters it entered with if there are replacement effects involved. This is also true for any other ability that it has which refers to X and triggers when it enters the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/40k/133/mawloc) · oracle_id `e5d928dc-b465-4cf7-ab11-d5bd3328f8e7` · printing: 40K #133 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maw of Kozilek
 

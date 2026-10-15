@@ -55,6 +55,7 @@
   > As this enchantment enters, choose a creature type.
   > Creatures of the chosen type have fear. (They can't be blocked except by artifact creatures and/or black creatures.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1487 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ons/133/cover-of-darkness) · oracle_id `d78654fc-7d90-40ce-9c36-a211424d1a88` · printing: ONS #133 (2002-10-07) · [rulings](https://api.scryfall.com/cards/0d6d7d88-d82b-40f4-bf57-ec5d7c480689/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cover of Winter
@@ -134,7 +135,21 @@
   > When this creature is turned face up, target opponent gains control of any number of target permanents you control. Draw a card for each one they gained control of this way.
 - **Keywords:** Flying, Disguise
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9608 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/48/coveted-falcon) · oracle_id `4c495e94-3194-47c7-8129-dd0a0f915daa` · printing: MKM #48 (2024-02-09) · [rulings](https://api.scryfall.com/cards/bc936987-d58b-4e7c-870f-379bcae77727/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2024-02-02* — A disguise ability lets you cast a card face down by paying {3} and announcing that you are using a disguise ability. Any time you have priority, you can turn a face-down permanent with disguise face up by paying its disguise cost.
+  - *2024-02-02* — A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent and Auras and Equipment that were attached to that permanent aren't affected unless the new characteristics of the object change the legality of those targets or attachments.
+  - *2024-02-02* — A token's owner is the player who created it.
+  - *2024-02-02* — Any time you have priority, you may turn the face-down creature face up by revealing what its disguise cost is and paying that cost. This is a special action. It doesn't use the stack and can't be responded to. Only a face-down permanent can be turned face up this way; a face-down spell cannot.
+  - *2024-02-02* — At any time, you can look at a face-down spell or permanent you control. You can't look at face-down permanents or spells you don't control unless an effect instructs or allows you to do so.
+  - *2024-02-02* — Because face-down creatures don't have a name, they can't have the same name as any other creature, even another face-down creature.
+  - *2024-02-02* — Because the permanent is on the battlefield both before and after it's turned face up, turning a permanent face up doesn't cause any enters-the-battlefield abilities to trigger.
+  - *2024-02-02* — If a face-down creature loses its abilities, it can't be turned face up with a disguise ability because it will no longer have a disguise ability (or a disguise cost) once face up.
+  - *2024-02-02* — If a face-down spell leaves the stack and goes to any zone other than the battlefield (if it was countered, for example), you must reveal it. Similarly, if a face-down permanent leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or the game ends.
+  - *2024-02-02* — The creature spell is a 2/2 creature spell with ward {2} that has no name, mana cost, or creature types. The resulting creature is a 2/2 creature with ward {2} that has no name, mana cost, or creature types. Both the spell and the resulting creature are colorless and have a mana value of 0. Other effects that apply to the spell or creature can still grant it any characteristics it doesn't have or change the characteristics it does have.
+  - *2024-02-02* — The face-down spell has no mana cost and a mana value of 0. When you cast a face-down spell, put it on the stack face down so no other player knows what it is, and pay {3} to cast it. This is an alternative cost.
+  - *2024-02-02* — Turning a permanent face up or face down doesn't change whether that permanent is tapped or untapped.
+  - *2024-02-02* — You must ensure that your face-down spells and permanents can be easily differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield to confuse other players. The order in which they entered the battlefield should remain clear, as well as what ability caused them to be face down. (This includes disguise, cloak, and in games involving older cards, morph and manifest, as well as a few other effects that turn cards face down.) Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/48/coveted-falcon) · oracle_id `4c495e94-3194-47c7-8129-dd0a0f915daa` · printing: MKM #48 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coveted Jewel
 
@@ -145,7 +160,12 @@
   > {T}: Add three mana of any one color.
   > Whenever one or more creatures an opponent controls attack you and aren't blocked, that player draws three cards and gains control of this artifact. Untap it.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1261 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/196/coveted-jewel) · oracle_id `98492d7d-3b9e-4ae1-ac45-1b508d6d2670` · printing: MSC #196 (2026-06-26) · [rulings](https://api.scryfall.com/cards/06a7ad3b-87d4-47f0-9450-facac00dfe97/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2018-07-13* — A creature attacking a planeswalker you control won't cause Coveted Jewel's last ability to trigger.
+  - *2018-07-13* — Coveted Jewel's last ability resolves after blockers are chosen but before combat damage is dealt.
+  - *2018-07-13* — Coveted Jewel's last ability triggers after you declare blockers (or declare no blockers at all) if any attacking creatures are unblocked. It doesn't matter if some attacking creatures were blocked.
+  - *2018-07-13* — If more than one opponent attacks you at the same time, Coveted Jewel's last ability triggers for each of them. You choose which player ends up with Coveted Jewel, but each of them draws three cards and has a chance to activate its mana ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/196/coveted-jewel) · oracle_id `98492d7d-3b9e-4ae1-ac45-1b508d6d2670` · printing: MSC #196 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coveted Peacock
 
@@ -167,7 +187,18 @@
   > This spell costs {1} less to cast for each creature in your party. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)
   > Search your library for a card, put it into your hand, then shuffle. If you have a full party, you may cast a spell with mana value 4 or less from your hand without paying its mana cost.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6909 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/95/coveted-prize) · oracle_id `56204530-7ab5-4610-9570-fba2673725ad` · printing: ZNR #95 (2020-09-25) · [rulings](https://api.scryfall.com/cards/5afbc5d3-318f-4545-88d6-fc81e5466238/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2020-09-25* — An ability referring to the number of creatures in your party gets a number from zero to four. Such abilities never ask which creatures are in your party, and you never have to designate specific creatures as being in your party. You can't choose to exclude creatures from this count to lower the number.
+  - *2020-09-25* — If a creature has more than one party creature type, and there are multiple ways to count that creature that could result in a different number of creatures in your party, the highest such number is used. For example, if you control a Cleric and a Cleric Wizard, the number of creatures in your party is two. You can't choose to have it be just one by counting the Cleric Wizard first as a Cleric.
+  - *2020-09-25* — If a spell has a cost reduction based on the number of creatures in your party, no player may attempt to change that number after you begin to cast the spell but before you pay the cost.
+  - *2020-09-25* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2020-09-25* — If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those to cast the card.
+  - *2020-09-25* — If you have a full party and wish to cast a spell with Coveted Prize's effect, you do so as part of the resolution of Coveted Prize after searching for a card. You can't wait to cast it later in the turn. Timing permissions based on a card's type are ignored.
+  - *2020-09-25* — Several cards have a cost reduction based on the number of creatures in your party. To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2020-09-25* — Some cards refer to you having a "full party." This is true if the number of creatures in your party is four.
+  - *2020-09-25* — The card you search for may be the one you cast.
+  - *2020-09-25* — To determine "the number of creatures in your party," check whether you control a Cleric, whether you control a Rogue, whether you control a Warrior, and whether you control a Wizard. The number is the total number of those checks to which you answered yes. Each creature you control can be counted for only one of those checks.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/95/coveted-prize) · oracle_id `56204530-7ab5-4610-9570-fba2673725ad` · printing: ZNR #95 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Covetous Castaway // Ghostly Castigator
 

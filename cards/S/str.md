@@ -146,7 +146,11 @@
   > Sketch and Lore — {2}{R}, {T}: Target opponent exiles cards from the top of their library until they exile an instant, sorcery, or creature card. You may cast that card without paying its mana cost. If you cast a creature spell this way, it gains haste and "At the beginning of the end step, sacrifice this creature." Activate only as a sorcery.
 - **Keywords:** Sketch and Lore
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8977 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/59/strago-and-relm) · oracle_id `316e7c28-2b7a-40ae-961b-909644109fe4` · printing: FIC #59 (2025-06-13) · [rulings](https://api.scryfall.com/cards/a8c971d0-9ac4-4b34-ae19-1152c1c9dac1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-06-06* — If a spell has {X} in its mana cost, you must choose 0 as the value of X when playing it without paying its mana cost.
+  - *2025-06-06* — If you cast a spell "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the spell has any mandatory additional costs, those must be paid to cast the spell.
+  - *2025-06-06* — You cast the card while Strago and Relm's ability is resolving and still on the stack. You can't wait to play it later in the turn. Timing restrictions based on its types are ignored.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/59/strago-and-relm) · oracle_id `316e7c28-2b7a-40ae-961b-909644109fe4` · printing: FIC #59 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Strands of Night
 
@@ -230,7 +234,9 @@
 - **Flavor text** (DSK printing):
   > *They say that with each new moon, the buried dead rise and dance from dusk to dawn, and witnesses to the revelry must join them for eternity.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8545 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/268/strangled-cemetery) · oracle_id `3a5b3405-a1e3-4aad-ab4e-1b8db2d1f3a8` · printing: DSK #268 (2024-09-27) · [rulings](https://api.scryfall.com/cards/c1ce9250-bdbe-4c77-9243-6db9ffffe69b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-09-20* — If one of these lands is entering at the same time as a "shock land" (a cycle of lands originally from Ravnica block that allow you to pay life or have them enter tapped), use the life totals of all players before choices are made for that shock land's replacement effect to determine whether or not the land enters tapped. For example, if a Lakeside Shack and a Breeding Pool you control are entering at the same time (perhaps because of the effect of a spell like Scapeshift), your life total is 14, and your opponent's life total is 20, the Lakeside Shack will enter tapped whether or not you choose to pay life as Breeding Pool enters.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/268/strangled-cemetery) · oracle_id `3a5b3405-a1e3-4aad-ab4e-1b8db2d1f3a8` · printing: DSK #268 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stranglehold
 
@@ -242,7 +248,13 @@
 - **Flavor text** (CMA printing):
   > *The correct answer to a barbarian's riddle is to choke on your cleverness and die.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6843 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cma/87/stranglehold) · oracle_id `b66c6e3a-daed-43a3-95d6-4f9d6223bbf1` · printing: CMA #87 (2017-06-09) · [rulings](https://api.scryfall.com/cards/da81e6e9-90f2-4dad-894c-1952f05264c2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2011-09-22* — An “extra turn” means a turn created by a spell or ability. It doesn’t refer to a turn taken in a sanctioned tournament after the time limit for the round has expired.
+  - *2011-09-22* — Effects that instruct your opponents to reveal or look at cards from the top of their libraries will still work. Only effects that use the word “search” are affected.
+  - *2011-09-22* — If an effect says “Search your library . . . then shuffle your library,” your opponents shuffle their libraries even though they can’t search.
+  - *2011-09-22* — If an effect says “You may search your library . . . If you do, shuffle your library” or “You may search your library . . . then shuffle your library,” your opponents can’t choose to search, so they won’t shuffle.
+  - *2011-09-22* — If an opponent’s extra turn is created while Stranglehold is on the battlefield, but Stranglehold leaves the battlefield before that turn would begin, that opponent takes the extra turn as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cma/87/stranglehold) · oracle_id `b66c6e3a-daed-43a3-95d6-4f9d6223bbf1` · printing: CMA #87 (2017-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Strangleroot Geist
 
@@ -307,7 +319,9 @@
   > Equip {3}
 - **Keywords:** Equip, Imprint
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8617 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c14/274/strata-scythe) · oracle_id `a500b724-bf28-47a3-b434-6efdebbcc04c` · printing: C14 #274 (2014-11-07) · [rulings](https://api.scryfall.com/cards/4d623951-3896-494d-bcc5-6caf3cc74bc6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-01-01* — The bonus counts all lands on the battlefield with the same name as the exiled card, not just lands you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c14/274/strata-scythe) · oracle_id `a500b724-bf28-47a3-b434-6efdebbcc04c` · printing: C14 #274 (2014-11-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Strategic Betrayal
 
@@ -341,7 +355,9 @@
 - **Flavor text** (KHM printing):
   > *Alrund sees the future as a whorl of signs and symbols, omens interwoven in an intricate knotwork only he can decipher.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7837 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/77/strategic-planning) · oracle_id `02b5acf3-47cb-4d39-9307-e02656f1879b` · printing: KHM #77 (2021-02-05) · [rulings](https://api.scryfall.com/cards/29306305-cb71-4fef-bf86-f5deb4e7e561/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-10-01* — If there are fewer than three cards in your library, you look at all of them, put one of them into your hand, and put the rest into your graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/77/strategic-planning) · oracle_id `02b5acf3-47cb-4d39-9307-e02656f1879b` · printing: KHM #77 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Strategy, Schmategy
 
@@ -398,7 +414,11 @@
   > When this creature is turned face up, counter target instant or sorcery spell.
 - **Keywords:** Flying, Megamorph
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8446 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c19/96/stratus-dancer) · oracle_id `5b6a821c-51e4-44dc-8353-f4d10eab7fcb` · printing: C19 #96 (2019-08-23) · [rulings](https://api.scryfall.com/cards/82fb8b0c-b86e-4915-b72d-9a6b5c1368c7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2015-02-25* — If a face-down creature with megamorph is turned face up some other way (for example, if you manifest a card with megamorph and then pay its mana cost to turn it face up), you won’t put a +1/+1 counter on it.
+  - *2015-02-25* — Megamorph is a variant of the morph ability. You can find more information on morph on cards with morph from the Khans of Tarkir set.
+  - *2015-02-25* — Turning a face-down creature with megamorph face up and putting a +1/+1 counter on it is a special action. It doesn’t use the stack and can’t be responded to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c19/96/stratus-dancer) · oracle_id `5b6a821c-51e4-44dc-8353-f4d10eab7fcb` · printing: C19 #96 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stratus Walk
 
@@ -639,6 +659,7 @@
   > *The lamps on Wyndmoor Street snuff themselves at midnight and refuse to relight, afraid to illuminate what lies in the darkness.*
 - **Keywords:** Landwalk, Swampwalk, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5452 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/102/street-wraith) · oracle_id `bd7867f4-4f58-49c2-9c24-a124dfdb506d` · printing: DMR #102 (2023-01-13) · [rulings](https://api.scryfall.com/cards/5d09cc57-2275-4b6b-aaf6-a6d781cd9365/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Strefan, Maurer Progenitor
@@ -652,7 +673,9 @@
   > Whenever Strefan attacks, you may sacrifice two Blood tokens. If you do, you may put a Vampire card from your hand onto the battlefield tapped and attacking. It gains indestructible until end of turn.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7406 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/voc/2/strefan-maurer-progenitor) · oracle_id `3cc745d2-5021-43ff-ace8-35011011e62a` · printing: VOC #2 (2021-11-19) · [rulings](https://api.scryfall.com/cards/8f54c6ce-fde4-47ef-a106-5c68b4397f99/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-11-19* — Strefan's first triggered ability counts the number of players that lost any amount of life, even if they also gained that much or more life this turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/voc/2/strefan-maurer-progenitor) · oracle_id `3cc745d2-5021-43ff-ace8-35011011e62a` · printing: VOC #2 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Strength Bobblehead
 
@@ -662,7 +685,9 @@
   > {T}: Add one mana of any color.
   > {3}, {T}: Put X +1/+1 counters on target creature, where X is the number of Bobbleheads you control. Activate only as a sorcery.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6080 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/143/strength-bobblehead) · oracle_id `bd0e22d1-4789-406d-9293-3ade30365b32` · printing: PIP #143 (2024-03-08) · [rulings](https://api.scryfall.com/cards/f9af73ad-625a-4260-8917-6a837f9fdf88/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-03-08* — The value of X is determined only once, as Strength Bobblehead’s last ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/143/strength-bobblehead) · oracle_id `bd0e22d1-4789-406d-9293-3ade30365b32` · printing: PIP #143 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Strength from the Fallen
 
@@ -790,7 +815,14 @@
   > *—Sythis, Harvest's Hand*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2018 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/258/strength-of-the-harvest-haven-of-the-harvest) · oracle_id `1a8c996d-ca93-4c17-ace5-66ecd6b99317` · printing: MH3 #258 (2024-06-14) · [rulings](https://api.scryfall.com/cards/a7143aa7-b16d-4e63-910c-6ceec55483f3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-06-07* — A modal double-faced card can't be transformed or be put onto the battlefield transformed. Ignore any instruction to transform a modal double-faced card or to put one onto the battlefield transformed.
+  - *2024-06-07* — If an effect allows you to play a land or cast a spell from among a group of cards, you may play or cast a modal double-faced card with any face that fits the criteria of that effect. For example, if an effect allows you to play lands from your graveyard, you can play Garden of Freyalise, but you can't cast Disciple of Freyalise.
+  - *2024-06-07* — If an effect allows you to play a specific modal double-faced card, you may cast it as a spell or play it as a land, as determined by which face you choose to play. If an effect allows you to cast (rather than "play") a specific modal double-faced card, you can't play it as a land.
+  - *2024-06-07* — If an effect allows you to put a card with particular characteristics onto the battlefield without instructing you to play or cast it, you consider only the characteristics of a modal double-faced card's front face to see if that card qualifies. If it does, it enters the battlefield with its front face up. For example, if an effect allows you to put a creature card from your graveyard onto the battlefield, you can put Disciple of Freyalise onto the battlefield. However, an effect that lets you return a land card from your graveyard to your hand won't let you return Garden of Freyalise to your hand, as that card has only its front face's characteristics while in the graveyard.
+  - *2024-06-07* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack or the battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
+  - *2024-06-07* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics. For example, if an effect stops you from casting creature spells, you can't cast Disciple of Freyalise, but you can still play Garden of Freyalise.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/258/strength-of-the-harvest-haven-of-the-harvest) · oracle_id `1a8c996d-ca93-4c17-ace5-66ecd6b99317` · printing: MH3 #258 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Strength of the Pack
 
@@ -836,6 +868,7 @@
 - **Flavor text** (SPM printing):
   > *And then—as the agonizing ache in his limbs seems unendurable—from out of the pain—from out of the agony—comes triumph!*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3329 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/118/strength-of-will) · oracle_id `0389b48a-e64c-44fb-8a41-fd571cba237c` · printing: SPM #118 (2025-09-26) · [rulings](https://api.scryfall.com/cards/68f985c7-7765-46c3-ad31-edae3abb9fbf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Strength-Testing Hammer
@@ -849,7 +882,14 @@
   > *"I don't know you, but that hammer rings a bell."*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5574 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/193/strength-testing-hammer) · oracle_id `4548d471-e78a-473e-84d4-cd2af64c9d28` · printing: UNF #193 (2022-10-07) · [rulings](https://api.scryfall.com/cards/b654514f-b1a0-4d96-8d05-55e2cf386518/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2022-10-07* — Each die is identified by the number of faces it has. A six-sided die is a die with six equally likely outcomes: 1, 2, 3, 4, 5, and 6. The roll must be fair. Although physical dice are recommended, digital substitutes are allowed except in cases where the physical die is required for the effect.
+  - *2022-10-07* — If a die is rerolled, the original roll essentially never happened: it doesn't cause any abilities to trigger, and no effect that cares about die rolls will consider it.
+  - *2022-10-07* — If an ability triggers "whenever you roll a die," it will trigger whenever you roll any die, including the planar die. This is a change from previous Un- rules. Some abilities use the result to determine part of the effect. If you get a non-numerical result (currently just the planar die, but the future is long), that part of the effect won't do anything.
+  - *2022-10-07* — Results can be numbers not ordinarily possible on a six-sided die. Spells like Scooch can change the result to 0 or 7, for example.
+  - *2022-10-07* — Some effects may modify the result of a die roll. This may be part of the instruction to roll a die, or it may come from other cards. Anything that references the "result" of a die roll is looking for the result after these modifications.
+  - *2022-10-07* — Something in the game must tell you to roll a die. If you roll a die for any other reason (to simulate a coin flip, to choose pizza toppings, to create alternate timelines), that roll doesn't count.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/193/strength-testing-hammer) · oracle_id `4548d471-e78a-473e-84d4-cd2af64c9d28` · printing: UNF #193 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stress Dream
 
@@ -888,7 +928,13 @@
   > *"Avishkar greets the Multiverse with an open hand, but do not assume we are defenseless."*
   > *—Pia Nalaar*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1578 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/drc/19/stridehangar-automaton) · oracle_id `9070c98b-fd01-4eeb-a4ec-fc464946c7c0` · printing: DRC #19 (2025-02-14) · [rulings](https://api.scryfall.com/cards/4c398d11-a2fc-43e2-96e9-7f3383e1a43c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-02-07* — If an effect changes under whose control a token would be created, that effect applies before this creature’s effect applies. If an effect changes under whose control a token would enter the battlefield, that effect applies after this creature’s effect is able to be applied.
+  - *2025-02-07* — If another effect modifies which or how many tokens you create, you choose the order to apply those effects. For example, if you control this creature and Anointed Procession (“If an effect would create one or more tokens under your control, it creates twice that many of those tokens instead.”), each time you create tokens, you can choose to apply Anointed Procession’s effect to double those tokens first, then apply this creature’s effect to create an additional Thopter token. Or you can choose to apply this creature’s effect first followed by Anointed Procession’s effect, allowing you to create double the original tokens plus two additional Thopter tokens.
+  - *2025-02-07* — If you copy a permanent spell, that copy becomes a token on the battlefield, but that’s not the same as creating a token. You won’t get an additional Thopter token that way.
+  - *2025-02-07* — The additional Thopter token won’t have any abilities the other tokens were created with. Anything else specified in the effect creating the token (such as tapped, attacking, or “Exile that token at end of combat”) applies to both the original tokens and the Thopter. Similarly, if the effect that creates the token has an additional effect that gives the token an ability, such as “That token gains haste,” that effect will also apply to the Thopter.
+  - *2025-02-07* — You don’t need to control the spell or ability that creates the tokens, but the tokens do need to be created under your control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/drc/19/stridehangar-automaton) · oracle_id `9070c98b-fd01-4eeb-a4ec-fc464946c7c0` · printing: DRC #19 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Strider Harness
 
@@ -954,7 +1000,13 @@
   > *A few coins soon grow into an obsession.*
 - **Keywords:** Treasure, Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #978 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/143/strike-it-rich) · oracle_id `c34c17c7-3827-49a2-be25-67f44fdfe150` · printing: MH2 #143 (2021-06-18) · [rulings](https://api.scryfall.com/cards/1c7c2814-a617-4123-acdf-1b01b2768210/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-06-18* — "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2021-06-18* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2021-06-18* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2021-06-18* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2021-06-18* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/143/strike-it-rich) · oracle_id `c34c17c7-3827-49a2-be25-67f44fdfe150` · printing: MH2 #143 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Strike the Weak Spot
 
@@ -975,7 +1027,11 @@
 - **Flavor text** (CMM printing):
   > *There is no such thing as surprising a sliver.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5231 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/882/striking-sliver) · oracle_id `6a15599d-8b00-4e0f-ac0c-d05f07c1e50d` · printing: CMM #882 (2023-08-04) · [rulings](https://api.scryfall.com/cards/d4652793-6f02-4bb6-8f71-eef302a001c6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2013-07-01* — Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn’t provide any additional benefit.
+  - *2013-07-01* — If Striking Sliver leaves the battlefield after Sliver creatures you control have dealt first-strike damage but before regular combat damage, those Slivers won’t deal regular combat damage (unless they have double strike for some reason).
+  - *2013-07-01* — If you change the creature type of a Sliver you control so it’s no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/882/striking-sliver) · oracle_id `6a15599d-8b00-4e0f-ac0c-d05f07c1e50d` · printing: CMM #882 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### String of Disappearances
 
@@ -1080,7 +1136,12 @@
   > Whenever a creature deals combat damage to you, remove a point counter from this artifact.
   > Whenever a creature you control deals combat damage to an opponent, put a point counter on this artifact. Then if it has ten or more point counters on it, remove them all and that player loses the game.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4617 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/stx/259/strixhaven-stadium) · oracle_id `2ed0c6fc-b8b4-47da-a04b-1d995bdeecb0` · printing: STX #259 (2021-04-23) · [rulings](https://api.scryfall.com/cards/421674ee-4b85-4942-b166-952598165826/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-04-16* — If multiple creatures deal combat damage to you or an opponent at the same time, the appropriate ability of Strixhaven Stadium will trigger that many times. You can put these abilities on the stack in any order. The last ability put on the stack will be the first to resolve.
+  - *2021-04-16* — In a multiplayer game, if creatures you control deal combat damage to multiple opponents at the same time, the last ability will trigger multiple times. However, because the counters are removed, it is difficult (but not impossible) to make multiple players lose the game from this ability in the same combat phase.
+  - *2021-04-16* — The check for ten or more point counters happens only as the last ability is resolving. Notably, if you add the tenth point counter some other way, no one will lose the game . . . yet.
+  - *2021-04-16* — “That player” refers to the opponent who was dealt damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/stx/259/strixhaven-stadium) · oracle_id `2ed0c6fc-b8b4-47da-a04b-1d995bdeecb0` · printing: STX #259 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Strix Lookout
 
@@ -1105,7 +1166,9 @@
 - **Flavor text** (MH3 printing):
   > *Some birds sing to nature's beauty and the freedom of the skies. Others simply ask questions.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1084 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/71/strix-serenade) · oracle_id `7ca3aa03-e62d-464a-9111-e754abe17f76` · printing: MH3 #71 (2024-06-14) · [rulings](https://api.scryfall.com/cards/42ac5ac7-b2f9-4e6f-af41-7e42ac816374/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-06-07* — Strix Serenade can target a spell that can't be countered. That spell won't be countered when Strix Serenade resolves, but its controller will get a Bird token. (This won't come up often, but when it does, it'll be a hoot.)
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/71/strix-serenade) · oracle_id `7ca3aa03-e62d-464a-9111-e754abe17f76` · printing: MH3 #71 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stroke of Genius
 
@@ -1116,6 +1179,7 @@
 - **Flavor text** (SOC printing):
   > *"Every thought is a star illuminating the darkness. Inspiration comes from finding the constellations that link them."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3541 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/203/stroke-of-genius) · oracle_id `0cc6d683-366f-4ae4-be60-20ad9621fdaf` · printing: SOC #203 (2026-04-24) · [rulings](https://api.scryfall.com/cards/beeb5419-828e-4a84-b4f3-87bc6f4cc594/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stroke of Midnight
@@ -1195,7 +1259,9 @@
   > *—Runo Stromkirk*
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3056 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/voc/157/stromkirk-captain) · oracle_id `599c3fd6-3309-4b5d-adec-9c4062848ad5` · printing: VOC #157 (2021-11-19) · [rulings](https://api.scryfall.com/cards/2f053406-d2e4-4443-81f1-025e3b27c65a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-01-22* — If a creature with first strike deals damage in the first combat damage step, but then loses first strike before regular combat damage, it won't deal combat damage a second time (unless it also has double strike).
+- **Source flags:** [Scryfall](https://scryfall.com/card/voc/157/stromkirk-captain) · oracle_id `599c3fd6-3309-4b5d-adec-9c4062848ad5` · printing: VOC #157 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stromkirk Condemned
 
@@ -1307,7 +1373,11 @@
   > Enchanted creature gets +2/+2 for each Aura and Equipment attached to it.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3241 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/83/strong-back) · oracle_id `097992a9-7b88-4c3f-8191-1ff10a4a735d` · printing: PIP #83 (2024-03-08) · [rulings](https://api.scryfall.com/cards/3f65afa5-e4f7-49c2-97f9-47ad5dbcacfa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-03-08* — Some Equipment creature cards in other sets have reconfigure, a different ability that attaches them to a creature. Reconfigure is not an equip ability, and reconfigure costs are not reduced by Strong Back’s second ability. Equip variants or equip abilities with restrictions, like the “equip Citizen” ability of Ceremonial Groundbreaker from the Streets of New Capenna® set, are still equip abilities, and their costs will be reduced by Strong Back’s second ability.
+  - *2024-03-08* — Strong Back’s abilities reduce only the amount of generic mana in equip abilities that target the enchanted creature and in the total cost of Aura spells that target the enchanted creature. For example, it will reduce the total cost of Animal Friend from {1}{G} to {G}.
+  - *2024-03-08* — Strong Back’s third ability won’t reduce its own cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/83/strong-back) · oracle_id `097992a9-7b88-4c3f-8191-1ff10a4a735d` · printing: PIP #83 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Strongbox Raider
 
@@ -1428,7 +1498,12 @@
   > *In the stronghold's dungeons, the shadows hide in the vermin.*
 - **Keywords:** Shadow
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7670 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/142/stronghold-rats) · oracle_id `e91053ae-682a-4bbe-8394-fd65e626bacc` · printing: TSR #142 (2021-03-19) · [rulings](https://api.scryfall.com/cards/87761f00-bfbc-42dc-b96d-9f4258b43a8b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-03-19* — If an attacking creature has multiple evasion abilities, such as shadow and flying, a creature can block it only if that creature satisfies all of the appropriate evasion abilities.
+  - *2021-03-19* — Multiple instances of shadow on the same creature are redundant.
+  - *2021-03-19* — Once a creature has been blocked, that creature remains blocked and will deal and be dealt combat damage even if it gains or loses shadow or if the blocking creature gains or loses shadow.
+  - *2021-03-19* — While resolving the triggered ability of Stronghold Rats, each player chooses a card in hand without revealing it, then all of the cards are discarded at the same time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/142/stronghold-rats) · oracle_id `e91053ae-682a-4bbe-8394-fd65e626bacc` · printing: TSR #142 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stronghold Taskmaster
 
@@ -1470,7 +1545,19 @@
   > *"Strong learn secret to human power from Mack Beth."*
 - **Keywords:** Enrage, Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6237 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/84/strong-the-brutish-thespian) · oracle_id `f0ef48e1-c3d7-4ce2-8f7c-653342778cae` · printing: PIP #84 (2024-03-08) · [rulings](https://api.scryfall.com/cards/2bc79ed6-057b-439f-b2cd-58d5bcd8b551/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2024-03-08* — Any effects (such as proliferate) that interact with counters a player gets, has, or loses can interact with rad counters.
+  - *2024-03-08* — If a player has fewer cards remaining in their library than the number of rad counters they have when the triggered ability resolves, they’ll mill as many cards as they can.
+  - *2024-03-08* — If lethal damage is dealt to Strong, its enrage ability triggers. Strong leaves the battlefield before that ability resolves, so you won’t put three +1/+1 counters on it. In this or any other case where Strong is no longer on the battlefield when its enrage ability resolves, you’ll still get three rad counters.
+  - *2024-03-08* — If multiple sources deal damage to Strong at the same time, most likely because multiple creatures blocked it, its enrage ability will trigger only once.
+  - *2024-03-08* — In a game using the shared team turns option, such as an Archenemy or Two-Headed Giant game, the inherent triggered ability associated with rad counters triggers once for each player on the active team that has rad counters. Each instance of that ability is controlled by one of those players.
+  - *2024-03-08* — Keep track of how many rad counters each player has. Potential ways to track this include writing them down on paper or using dice, but any method that is clear and mutually agreeable is fine.
+  - *2024-03-08* — Rad counters are a kind of counter that a player may have. They’re not associated with any specific permanents.
+  - *2024-03-08* — Rad counters don’t go away as steps, phases, or turns end. They only go away when an effect instructs a player to remove rad counters from themselves.
+  - *2024-03-08* — Strong’s last ability changes what happens when the inherent triggered ability associated with having rad counters resolves. You’ll still mill cards equal to the number of rad counters you have, and you’ll still remove a rad counter from yourself for each nonland card you milled, but instead of losing life, you’ll gain 1 life for each nonland card you milled.
+  - *2024-03-08* — The cards are milled all at once, which means abilities that trigger “whenever one or more nonland cards are milled” will trigger exactly once as long as at least one nonland card was milled.
+  - *2024-03-08* — There is an inherent triggered ability associated with having rad counters. This triggered ability has no source and is controlled by the active player. The full text of this ability is “At the beginning of the precombat main phase of a player with rad counters, that player mills cards equal to the number of rad counters they have. For each nonland card milled this way, that player loses 1 life and removes one rad counter from themselves.”
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/84/strong-the-brutish-thespian) · oracle_id `f0ef48e1-c3d7-4ce2-8f7c-653342778cae` · printing: PIP #84 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Structural Assault
 
@@ -1515,7 +1602,18 @@
   > • Brotherhood — At the beginning of your upkeep, each opponent draws a card. You draw a card for each card drawn this way.
   > • Enclave — Whenever a player attacks you with one or more creatures, that player gets twice that many rad counters.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2829 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/39/struggle-for-project-purity) · oracle_id `5958e9e3-9457-48e1-afc1-a5c89e3b0ed0` · printing: PIP #39 (2024-03-08) · [rulings](https://api.scryfall.com/cards/04c60155-9337-4ea2-b9a2-5b72d96743ff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2024-03-08* — Any effects (such as proliferate) that interact with counters a player gets, has, or loses can interact with rad counters.
+  - *2024-03-08* — If a player has fewer cards remaining in their library than the number of rad counters they have when the triggered ability resolves, they’ll mill as many cards as they can.
+  - *2024-03-08* — If you somehow control Struggle for Project Purity and no choice was made for it (perhaps because another permanent on the battlefield became a copy of it), it has neither of the two triggered abilities.
+  - *2024-03-08* — In a game using the shared team turns option, such as an Archenemy or Two-Headed Giant game, the inherent triggered ability associated with rad counters triggers once for each player on the active team that has rad counters. Each instance of that ability is controlled by one of those players.
+  - *2024-03-08* — Keep track of how many rad counters each player has. Potential ways to track this include writing them down on paper or using dice, but any method that is clear and mutually agreeable is fine.
+  - *2024-03-08* — Rad counters are a kind of counter that a player may have. They’re not associated with any specific permanents.
+  - *2024-03-08* — Rad counters don’t go away as steps, phases, or turns end. They only go away when an effect instructs a player to remove rad counters from themselves.
+  - *2024-03-08* — The cards are milled all at once, which means abilities that trigger “whenever one or more nonland cards are milled” will trigger exactly once as long as at least one nonland card was milled.
+  - *2024-03-08* — The number of rad counters the attacking player gets when the “Enclave” triggered ability resolves is based on the number of creatures they declared as attackers. Removing creatures from combat won’t reduce the number of rad counters they get. Similarly, creatures that enter the battlefield attacking but weren’t declared as attackers won’t increase the number of rad counters they get.
+  - *2024-03-08* — There is an inherent triggered ability associated with having rad counters. This triggered ability has no source and is controlled by the active player. The full text of this ability is “At the beginning of the precombat main phase of a player with rad counters, that player mills cards equal to the number of rad counters they have. For each nonland card milled this way, that player loses 1 life and removes one rad counter from themselves.”
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/39/struggle-for-project-purity) · oracle_id `5958e9e3-9457-48e1-afc1-a5c89e3b0ed0` · printing: PIP #39 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Struggle for Sanity
 

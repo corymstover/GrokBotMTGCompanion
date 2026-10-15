@@ -104,7 +104,20 @@
 - **Oracle text:**
   > {2}, Exile a nonland card from your hand: Put four time counters on the exiled card. If it doesn't have suspend, it gains suspend. (At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. If it's a creature, it has haste.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6538 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/256/jhoira-of-the-ghitu) · oracle_id `ad3f4ec9-9905-421b-98ed-78bb6fc9b450` · printing: TSR #256 (2021-03-19) · [rulings](https://api.scryfall.com/cards/aa6c3c8a-aa35-46b3-8769-27b4244457b0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2024-06-07* — A creature cast using suspend will enter the battlefield with haste. It will have haste until another player gains control of it. (In some rare cases, another player may gain control of the creature spell itself. If this happens, the creature won't enter the battlefield with haste.)
+  - *2024-06-07* — Cards exiled with suspend are exiled face up.
+  - *2024-06-07* — Due to a recent rules change to suspend, you are no longer required to cast the suspended card as the second triggered ability of suspend resolves. Instead, as the second triggered ability resolves, you may cast the card. Timing permissions based on the card's type are ignored. If you don't cast the card, it remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-06-07* — If an effect refers to a "suspended card," that means a card that (1) has suspend, (2) is in exile, and (3) has one or more time counters on it.
+  - *2024-06-07* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-06-07* — If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again at the beginning of the card's owner's next upkeep.
+  - *2024-06-07* — If the second triggered ability is countered, the card can't be cast. It remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-06-07* — If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it's exiled.
+  - *2024-06-07* — If you cast a card "without paying its mana cost," such as with suspend, you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those if you want to cast the card.
+  - *2024-06-07* — Suspend is a keyword that represents three abilities. The first is a static ability that allows you to exile the card from your hand with the specified number of time counters (the number before the dash) on it by paying its suspend cost (listed after the dash). The second is a triggered ability that removes a time counter from the suspended card at the beginning of each of your upkeeps. The third is a triggered ability that gives you the option to cast the card when the last time counter is removed.
+  - *2024-06-07* — The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.
+  - *2024-06-07* — When the last time counter is removed, the second triggered ability of suspend (the one that lets you cast the card) triggers. It doesn't matter why the last time counter was removed or what effect removed it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/256/jhoira-of-the-ghitu) · oracle_id `ad3f4ec9-9905-421b-98ed-78bb6fc9b450` · printing: TSR #256 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jhoira's Familiar
 
@@ -119,7 +132,10 @@
   > *—Jhoira*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1064 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/265/jhoiras-familiar) · oracle_id `df4b5f7b-9d83-49b1-bd5e-77d0652eb34c` · printing: 2XM #265 (2020-08-07) · [rulings](https://api.scryfall.com/cards/7b89a074-9aca-4f7f-953a-b401199be1cb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-08-07* — A spell is historic if it has the legendary supertype, the artifact card type, or the Saga enchantment subtype. Having two of those qualities doesn't make a spell more historic than another or provide an additional bonus—a spell either is historic or it isn't.
+  - *2020-08-07* — The last ability of Jhoira's Familiar doesn't reduce its own cost while you're casting it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/265/jhoiras-familiar) · oracle_id `df4b5f7b-9d83-49b1-bd5e-77d0652eb34c` · printing: 2XM #265 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jhoira's Timebug
 
@@ -129,6 +145,7 @@
 - **Oracle text:**
   > {T}: Choose target permanent you control or suspended card you own. If that permanent or card has a time counter on it, you may remove a time counter from it or put another time counter on it.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8710 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/269/jhoiras-timebug) · oracle_id `afe11d79-1edd-4175-9cdd-11e475240e7a` · printing: TSR #269 (2021-03-19) · [rulings](https://api.scryfall.com/cards/35d14746-3b57-4f8e-8155-e578cc84850d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jhoira's Toolbox
@@ -154,7 +171,10 @@
 - **Flavor text** (EOC printing):
   > *As she took the wheel of the \*Weatherlight\* for the first time in a millennium, Jhoira knew she'd been right to restore the ship. Anything was possible now.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1068 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/118/jhoira-weatherlight-captain) · oracle_id `c803b788-4213-4fab-b841-7e5bbf66088e` · printing: EOC #118 (2025-08-01) · [rulings](https://api.scryfall.com/cards/776f490a-2f75-4c18-8164-56bd65bb09c6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-08-07* — A spell is historic if it has the legendary supertype, the artifact card type, or the Saga enchantment subtype. Having two of those qualities doesn't make a spell more historic than another or provide an additional bonus—a spell either is historic or it isn't.
+  - *2020-08-07* — An ability that triggers when a player casts a spell resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/118/jhoira-weatherlight-captain) · oracle_id `c803b788-4213-4fab-b841-7e5bbf66088e` · printing: EOC #118 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jhoira, Weatherlight Corsair
 

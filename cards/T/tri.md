@@ -223,7 +223,13 @@
   > Unearth {4}{B} ({4}{B}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)
 - **Keywords:** Flying, Dynastic Codes, Unearth
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9458 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/40k/66/triarch-praetorian) · oracle_id `52aa5a79-db0e-4eaa-b2df-e41674c47794` · printing: 40K #66 (2022-10-07) · [rulings](https://api.scryfall.com/cards/5ad67a79-cb13-44b8-adac-36cfd211f2d3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2022-10-07* — Activating a permanent card's unearth ability isn't the same as casting it as a spell. The unearth ability is put on the stack, but the card is not. Spells and abilities that interact with activated abilities (such as Stifle) will interact with unearth, but spells and abilities that interact with spells (such as Cancel) will not.
+  - *2022-10-07* — At the beginning of the end step, a permanent returned to the battlefield with unearth is exiled. This is a delayed triggered ability, and it can be countered by effects that counter triggered abilities. If the ability is countered, the permanent will stay on the battlefield and the delayed trigger won't trigger again. However, the replacement effect will still exile it if it eventually leaves the battlefield.
+  - *2022-10-07* — If a permanent returned to the battlefield by an unearth ability would leave it for any reason, it's exiled instead—unless the spell or ability that's causing it to leave the battlefield is actually trying to exile it. In that case, the spell or ability succeeds at exiling the permanent. If the spell or ability later returns the card to the battlefield, it will return as a new object with no relation to its previous existence. The unearth effect will no longer apply to it.
+  - *2022-10-07* — If you activate a card's unearth ability but that card is removed from your graveyard before the ability resolves, that unearth ability will resolve and do nothing.
+  - *2022-10-07* — Unearth grants haste to the permanent that's returned to the battlefield. However, neither of the "exile" abilities is granted to that permanent. If that creature loses all its abilities, it will still be exiled at the beginning of the end step, and if it would leave the battlefield, it is still exiled instead.
+- **Source flags:** [Scryfall](https://scryfall.com/card/40k/66/triarch-praetorian) · oracle_id `52aa5a79-db0e-4eaa-b2df-e41674c47794` · printing: 40K #66 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Triarch Stalker
 
@@ -324,7 +330,11 @@
   > *"Like water between rivers, wisdom must flow freely from one generation to the next."*
 - **Keywords:** Mentor
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8522 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/96/tributary-instructor) · oracle_id `1c70b9d8-b04e-48f8-a4e0-12ce077d22f2` · printing: LCC #96 (2023-11-17) · [rulings](https://api.scryfall.com/cards/af57728e-6f64-4df1-bdf8-55137b8d129e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-11-10* — If the creature with mentor leaves the battlefield with mentor on the stack, use its power as that creature last existed on the battlefield to determine whether the target creature has less power.
+  - *2023-11-10* — If the target creature's power is no longer less than the attacking creature's power as the ability resolves, mentor doesn't add a +1/+1 counter. For example, if two 3/3 creatures with mentor attack and both mentor triggers target the same 2/2 creature, the first to resolve puts a +1/+1 counter on it and the second does nothing.
+  - *2023-11-10* — Mentor compares the power of the creature with mentor with that of the target creature at two different times: once as the triggered ability is put onto the stack, and once as the triggered ability resolves. If you wish to raise a creature's power so its mentor ability can target a bigger creature, the last chance you have to do so is during the beginning of combat step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/96/tributary-instructor) · oracle_id `1c70b9d8-b04e-48f8-a4e0-12ce077d22f2` · printing: LCC #96 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tributary Vaulter
 
@@ -348,7 +358,9 @@
 - **Oracle text:**
   > When this creature enters, you may search your library for an artifact card with mana value 2, reveal that card, put it into your hand, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2182 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/73/tribute-mage) · oracle_id `c2b51295-8820-425f-a517-55231123c7de` · printing: MH1 #73 (2019-06-14) · [rulings](https://api.scryfall.com/cards/6c180888-6acd-401b-815a-6ed434482681/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-06-14* — If a card in your library has X in its mana cost, X is considered to be 0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/73/tribute-mage) · oracle_id `c2b51295-8820-425f-a517-55231123c7de` · printing: MH1 #73 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tribute to Horobi // Echo of Death's Wail
 
@@ -364,7 +376,14 @@
   > Whenever this creature attacks, you may sacrifice another creature. If you do, draw a card.
 - **Keywords:** Flying, Transform, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9111 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/124/tribute-to-horobi-echo-of-deaths-wail) · oracle_id `81622cf6-3021-4ad4-933d-a7e3d8ac817f` · printing: NEO #124 (2022-02-18) · [rulings](https://api.scryfall.com/cards/54613f38-ca91-4764-b1fe-60cd83707fb4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2022-02-18* — A transforming double-faced card enters the battlefield with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed or you cast it transformed, in which case it enters with its back face up.
+  - *2022-02-18* — Each face of a transforming double-faced card has its own set of characteristics: name, types, subtypes, abilities, and so on. While a transforming double-faced permanent is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored.
+  - *2022-02-18* — Each transforming double-faced card in this set is cast face up. In every zone other than the battlefield, consider only the characteristics of its front face. If it is on the battlefield, consider only the characteristics of the face that's up; the other face's characteristics are ignored.
+  - *2022-02-18* — If you are instructed to put a card that isn't a double-faced card onto the battlefield transformed, it will not enter the battlefield at all. In that case, it stays in the zone it was previously in. For example, if a single-faced card is a copy of Azusa's Many Journeys, the chapter III ability will cause it to be exiled and then remain in exile.
+  - *2022-02-18* — The back face of a transforming double-faced card usually has a color indicator that defines its color.
+  - *2022-02-18* — The mana value of a transforming double-faced card is the mana value of its front face, no matter which face is up.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/124/tribute-to-horobi-echo-of-deaths-wail) · oracle_id `81622cf6-3021-4ad4-933d-a7e3d8ac817f` · printing: NEO #124 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tribute to Hunger
 
@@ -453,7 +472,22 @@
   > Counter target activated or triggered ability. If a permanent's ability is countered this way, activated abilities of that permanent can't be activated this turn. (Mana abilities can't be targeted.)
 - **Keywords:** Split second
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6544 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsp/88/trickbind) · oracle_id `0c2abd2a-ca98-45d2-8dd1-984d2c0c266a` · printing: TSP #88 (2006-10-06) · [rulings](https://api.scryfall.com/cards/f2e58ff2-dea3-42b3-8c22-3e6202a7d433/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (14):
+  - *2006-09-25* — If Trickbind counters an activated ability of a permanent, no activated abilities of that permanent can be activated for the remainder of the turn. This includes activated abilities other than the one that was countered, as well as any mana abilities that permanent may have. Other abilities of that permanent, including triggered abilities and static abilities, are unaffected.
+  - *2006-09-25* — Trickbind can be used to counter the echo triggered ability. If so, the echo ability won’t trigger again so the echo cost is never paid.
+  - *2006-09-25* — Trickbind can be used to counter the flanking triggered ability.
+  - *2006-09-25* — Trickbind can be used to counter the madness triggered ability. The affected card will remain exiled.
+  - *2006-09-25* — Trickbind can be used to counter the storm triggered ability. Doing so prevents the copies from being created, but doesn’t counter the original storm spell.
+  - *2006-09-25* — Trickbind can be used to counter the suspend “remove a counter” ability. If so, the counter won’t get removed, but the ability will trigger again as normal later on. Trickbind can also be used to counter the suspend “play this card” ability. If so, the card stays exiled (the ability won’t trigger again). Using suspend to exile a card in your hand is neither an activated nor a triggered ability, so it can’t be countered this way.
+  - *2006-09-25* — Trickbind can’t counter or prevent paying the morph cost to turn a face-down creature face up, since that action doesn’t use the stack.
+  - *2016-06-08* — Activated abilities contain a colon. They’re generally written “[Cost]: [Effect].” Some keywords are activated abilities and will have colons in their reminder text.
+  - *2021-03-19* — After a spell with split second resolves (or otherwise leaves the stack), players may again cast spells and activate abilities before the next object on the stack resolves.
+  - *2021-03-19* — Casting a spell with split second won’t affect spells and abilities that are already on the stack.
+  - *2021-03-19* — If the resolution of a triggered ability involves casting a spell, that spell can’t be cast if a spell with split second is on the stack.
+  - *2021-03-19* — Players may turn face-down creatures face up while a spell with split second is on the stack.
+  - *2021-03-19* — Players still get priority while a card with split second is on the stack; their options are just limited to mana abilities and certain special actions.
+  - *2021-03-19* — Split second doesn’t stop triggered abilities from triggering, such as that of Chalice of the Void. If one does, its controller puts it on the stack and chooses targets for it, if any. Those abilities will resolve as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsp/88/trickbind) · oracle_id `0c2abd2a-ca98-45d2-8dd1-984d2c0c266a` · printing: TSP #88 (2006-10-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trickery Charm
 
@@ -517,7 +551,20 @@
   > *—Rowan Kenrith, to Will*
 - **Keywords:** Bestow
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6144 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/175/tricksters-elk) · oracle_id `5bca05c1-1c0a-45f4-aa20-69f68b99cd7e` · printing: MH3 #175 (2024-06-14) · [rulings](https://api.scryfall.com/cards/812af562-853a-48a3-b428-ad891c54be5c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2024-06-07* — Auras attached to a creature don't become tapped when the creature becomes tapped. Except in some rare cases, an Aura with bestow remains untapped when it becomes unattached and becomes a creature.
+  - *2024-06-07* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to a creature may become lethal if Trickster's Elk becomes attached to it during that turn or becomes unattached later in the turn.
+  - *2024-06-07* — Effects that modify the creature's power and/or toughness, such as the effect of Wing It, will apply to the creature no matter when they started to take effect. The same is true for counters that change its power and/or toughness and effects that switch its power and toughness.
+  - *2024-06-07* — If a permanent with bestow enters the battlefield by any method other than being cast, it will be an enchantment creature. You can't choose to pay the bestow cost and have it become an Aura.
+  - *2024-06-07* — If the enchanted creature gains an ability after Trickster's Elk becomes attached to it, it will keep that ability.
+  - *2024-06-07* — If the enchanted creature has any subtypes other than creature types, such as Equipment, Vehicle, or Urza's, it loses those as well.
+  - *2024-06-07* — On the stack, a spell with bestow is either a creature spell or an Aura spell. It's never both, although it's an enchantment spell in either case.
+  - *2024-06-07* — Trickster's Elk may enchant a permanent that is only temporarily a creature, such as a Vehicle. If this happens, Trickster's Elk's effect causes the enchanted permanent to remain a 3/3 green Elk creature even after the temporary effect making it a creature expires.
+  - *2024-06-07* — Trickster's Elk overwrites all colors and creature types the enchanted creature has. It's just a green Elk. The creature keeps any supertypes (such as legendary) it has but loses any other card types it has (such as artifact).
+  - *2024-06-07* — Trickster's Elk overwrites all previous effects that set the creature's base power and toughness to specific values. Any power- or toughness-setting effects that start to apply afterward will overwrite this effect.
+  - *2024-06-07* — Unlike other Aura spells, an Aura spell with bestow isn't countered if its target is illegal as it begins to resolve. Rather, the effect making it an Aura spell ends, it loses enchant creature, it returns to being an enchantment creature spell, and it resolves and enters the battlefield as an enchantment creature.
+  - *2024-06-07* — Unlike other Auras, an Aura with bestow isn't put into its owner's graveyard if it becomes unattached. Rather, the effect making it an Aura ends, it loses enchant creature, and it remains on the battlefield as an enchantment creature. It can attack (and its {T} abilities can be activated, if it has any) on the turn it becomes unattached if it's been under your control continuously, even as an Aura, since your most recent turn began.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/175/tricksters-elk) · oracle_id `5bca05c1-1c0a-45f4-aa20-69f68b99cd7e` · printing: MH3 #175 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trickster's Stratagem
 
@@ -640,7 +687,10 @@
 - **Oracle text:**
   > As long as this artifact is untapped, each spell that would cost less than three mana to cast costs three mana to cast. (Additional mana in the cost may be paid with any color of mana or colorless mana. For example, a spell that would cost {1}{B} to cast costs {2}{B} to cast instead.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5329 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/303/trinisphere) · oracle_id `69d994f2-b8f6-425f-9655-977c2144d40c` · printing: 2XM #303 (2020-08-07) · [rulings](https://api.scryfall.com/cards/316caa4e-a53a-460b-978c-5f0fba7bc549/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-08-07* — If Trinisphere leaves the battlefield or becomes tapped or untapped as a cost to cast a spell, this cost is paid after you've locked in the total cost.
+  - *2020-08-07* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. Finally, apply Trinisphere's effect if the mana component of the spell's cost is less than three mana. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/303/trinisphere) · oracle_id `69d994f2-b8f6-425f-9655-977c2144d40c` · printing: 2XM #303 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trinket Mage
 
@@ -650,7 +700,9 @@
 - **Oracle text:**
   > When this creature enters, you may search your library for an artifact card with mana value 1 or less, reveal that card, put it into your hand, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2055 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddu/41/trinket-mage) · oracle_id `ffc95093-24a2-4616-a44a-24788e8df9c8` · printing: DDU #41 (2018-04-06) · [rulings](https://api.scryfall.com/cards/9a7800f7-95cd-4f5c-b054-4afad8924367/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-03-19* — If a card in a player's library has {X} in its mana cost, X is considered to be 0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddu/41/trinket-mage) · oracle_id `ffc95093-24a2-4616-a44a-24788e8df9c8` · printing: DDU #41 (2018-04-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Triple Threat
 
@@ -669,7 +721,10 @@
 - **Oracle text:**
   > At the beginning of your upkeep, each player exiles the top card of their library. Until end of turn, you may play the card you own exiled this way and each other card exiled this way with lesser mana value than it without paying their mana costs.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4900 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/166/triple-triad) · oracle_id `9567d963-4815-466b-a319-6d138b6a0cd2` · printing: FIN #166 (2025-06-13) · [rulings](https://api.scryfall.com/cards/d9a1de36-7f47-4b28-bb56-38d7e5bed82f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-06-06* — If an exiled card has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
+  - *2025-06-06* — You follow all timing rules for cards played this way. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty and only if you have an available land play remaining.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/166/triple-triad) · oracle_id `9567d963-4815-466b-a319-6d138b6a0cd2` · printing: FIN #166 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Triplicate Spirits
 
@@ -692,6 +747,7 @@
   > When this creature dies, create a 3/3 colorless Golem artifact creature token with flying, a 3/3 colorless Golem artifact creature token with vigilance, and a 3/3 colorless Golem artifact creature token with trample.
 - **Keywords:** Flying, Vigilance, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2202 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/79/triplicate-titan) · oracle_id `56e05b17-aa1d-483d-857c-4cab4f12aa8a` · printing: C21 #79 (2021-04-23) · [rulings](https://api.scryfall.com/cards/568dd5a6-86f4-4039-87d7-812120c8ab94/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trip Noose
@@ -754,7 +810,9 @@
 - **Flavor text** (MID printing):
   > *She's always willing to lend a hand. It just won't be her own.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1477 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mid/81/triskaidekaphile) · oracle_id `ef238ba8-acf0-4e62-9abd-5291886a32e8` · printing: MID #81 (2021-09-24) · [rulings](https://api.scryfall.com/cards/6750e203-1215-4203-b5b8-3f1b18940839/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-09-24* — Triskaidekaphile's triggered ability will trigger only if you have exactly thirteen cards in your hand as your upkeep starts. If you have fewer cards in your hand, you won't be able to draw cards during your upkeep in time to cause the ability to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mid/81/triskaidekaphile) · oracle_id `ef238ba8-acf0-4e62-9abd-5291886a32e8` · printing: MID #81 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Triskaidekaphobia
 
@@ -792,7 +850,10 @@
   > *"Why do bad things always come in threes?"*
   > *—Gisulf, expedition survivor*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4817 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/387/triskelion) · oracle_id `74f67dcf-5afb-45aa-8d4b-3cdb23f6f2a1` · printing: MOC #387 (2023-04-21) · [rulings](https://api.scryfall.com/cards/63349fa3-4462-413c-bd96-bbc1049165a0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-12-08* — If Triskelion has damage marked on it, activating its ability may cause that damage to become lethal. For example, say a Triskelion with two +1/+1 counters on it has been dealt 2 damage earlier in the turn. If you activate its ability by removing a +1/+1 counter from it, it now has 2 toughness and is destroyed as a state-based action. You won’t be able to remove the other +1/+1 counter from it to activate its ability again. The first activation of the ability will still resolve.
+  - *2022-12-08* — If you activate the ability of an attacking or blocking Triskelion during the declare blockers step, it will deal less combat damage as a result. If you wait until the combat damage step, but Triskelion is dealt lethal damage, it’ll be destroyed before you get a chance to activate its ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/387/triskelion) · oracle_id `74f67dcf-5afb-45aa-8d4b-3cdb23f6f2a1` · printing: MOC #387 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Triton Cavalry
 
@@ -830,6 +891,7 @@
 - **Flavor text** (OTC printing):
   > *"Who will miss you, drywalker? A wife? A child? Perhaps they will blame the sea for your fate, and teach future generations to stay far away from it."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2035 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/121/triton-shorestalker) · oracle_id `71a60247-17e5-44bd-9fed-f7d550b09ef3` · printing: OTC #121 (2024-04-19) · [rulings](https://api.scryfall.com/cards/511bff25-3213-42c4-8abd-9eda49f8dc96/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Triton Shorethief
@@ -891,7 +953,18 @@
   > Whenever this creature attacks, venture into the dungeon. (Enter the first room or advance to the next room.)
 - **Keywords:** Venture into the dungeon, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9212 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/237/triumphant-adventurer) · oracle_id `6aac0ae4-d9a7-4c40-a39e-229186c84d74` · printing: AFR #237 (2021-07-23) · [rulings](https://api.scryfall.com/cards/214d3167-4eea-42a1-a464-ddff59843142/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2021-07-23* — A player may only have one dungeon in the command zone at a time.
+  - *2021-07-23* — Choosing the dungeon or room to venture into is part of resolving the venture into the dungeon keyword action. Once that choice is made, players may not respond until after the appropriate room ability has triggered.
+  - *2021-07-23* — Dungeon cards are not part of a player's deck or sideboard. In both constructed and limited formats, players can use any dungeon card when they venture into the dungeon.
+  - *2021-07-23* — Dungeons are removed from the game as a state-based action.
+  - *2021-07-23* — If you somehow venture into the dungeon while a room's ability is on the stack, you will continue on in the dungeon. If you're already in the last room, complete that dungeon and start a new one.
+  - *2021-07-23* — Moving into a dungeon room will cause its room ability to trigger.
+  - *2021-07-23* — Once you resolve the last room ability of a dungeon, that dungeon is now completed and is removed from the game.
+  - *2021-07-23* — The player venturing into the dungeon chooses which dungeon they will venture into. They may choose a dungeon that they have already completed this game.
+  - *2021-07-23* — To venture into the dungeon, a player moves their venture marker into the next room of the dungeon they are currently in. If they aren't currently in a dungeon, that player instead chooses a dungeon card from outside the game, puts it into the command zone, and moves their venture marker onto the first room.
+  - *2021-07-23* — You can only move forward (well, downward) in a dungeon, never backwards or sideways.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/237/triumphant-adventurer) · oracle_id `6aac0ae4-d9a7-4c40-a39e-229186c84d74` · printing: AFR #237 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Triumphant Chomp
 
@@ -981,7 +1054,9 @@
 - **Oracle text:**
   > Until end of turn, creatures you control get +1/+1 and gain trample and infect. (Creatures with infect deal damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1181 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/td2/78/triumph-of-the-hordes) · oracle_id `3ded0c0c-40ce-4d14-a9a6-b023bc19ee0e` · printing: TD2 #78 (2011-05-14) · [rulings](https://api.scryfall.com/cards/0a0f64d3-187c-41ff-a771-3a65da995341/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-06-01* — Multiple instances of infect are redundant.
+- **Source flags:** [Scryfall](https://scryfall.com/card/td2/78/triumph-of-the-hordes) · oracle_id `3ded0c0c-40ce-4d14-a9a6-b023bc19ee0e` · printing: TD2 #78 (2011-05-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trivia Contest (UNF #233a)
 

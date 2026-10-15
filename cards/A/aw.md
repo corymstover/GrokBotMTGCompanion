@@ -75,7 +75,9 @@
   > *"There are times when destiny calls forth a people and demands an action. \*Now\* is the time. \*We\* are the people. \*This\* is our action. Charge!"*
   > *—Eladamri, Lord of Leaves*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9088 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sth/101/awakening) · oracle_id `5563427d-ffdc-4bea-ad7d-1605894b8a6c` · printing: STH #101 (1998-03-02) · [rulings](https://api.scryfall.com/cards/59612c02-6028-4953-ac4d-aca94b0ce4b9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-05-01* — In Two-Headed Giant, triggers only once per upkeep, not once for each player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sth/101/awakening) · oracle_id `5563427d-ffdc-4bea-ad7d-1605894b8a6c` · printing: STH #101 (1998-03-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Awakening of Vitu-Ghazi
 
@@ -97,6 +99,7 @@
 - **Flavor text** (SOC printing):
   > *The ground erupted in time with the hedron's thrum, a dirge of the last days.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1594 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/262/awakening-zone) · oracle_id `f955bc96-d602-4142-a9a2-87009cc7028c` · printing: SOC #262 (2026-04-24) · [rulings](https://api.scryfall.com/cards/13724768-83d3-4da2-82d7-35787c4f9877/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Awaken the Ancient
@@ -132,7 +135,9 @@
 - **Flavor text** (RNA printing):
   > *In preparation for the conflict all foresaw, the Golgari called upon an army that had slept for millennia beneath the city.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9315 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rna/61/awaken-the-erstwhile) · oracle_id `06fa6719-aa4f-4857-8029-e42d01232645` · printing: RNA #61 (2019-01-25) · [rulings](https://api.scryfall.com/cards/ea166114-2f9b-4ca6-b573-1f49f7485580/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-01-25* — The number of Zombie tokens each player creates is equal to the number of cards that player discarded, not the total number of cards discarded.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rna/61/awaken-the-erstwhile) · oracle_id `06fa6719-aa4f-4857-8029-e42d01232645` · printing: RNA #61 (2019-01-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Awaken the Honored Dead
 
@@ -145,7 +150,9 @@
   > III — You may discard a card. When you do, return target creature or land card from your graveyard to your hand.
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5125 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/170/awaken-the-honored-dead) · oracle_id `5f694917-f434-4459-bc86-caf9ac1c80e7` · printing: TDM #170 (2025-04-11) · [rulings](https://api.scryfall.com/cards/14078a49-2230-4ad7-aea0-0c253813c646/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-04-04* — You don’t choose a target for Awaken the Honored Dead’s final chapter ability at the time it triggers. Rather, a second “reflexive” ability triggers when you discard a card this way. You choose a target for that ability as it goes on the stack. You may choose the card you just discarded as the target or a card that was already in your graveyard. Each player may respond to this triggered ability as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/170/awaken-the-honored-dead) · oracle_id `5f694917-f434-4459-bc86-caf9ac1c80e7` · printing: TDM #170 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Awaken the Inferno
 
@@ -191,6 +198,7 @@
   > *"We expected the Argothians to stand their ground. We didn't expect the ground itself to stand."*
   > *—Myrel, Shield of Argive*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1334 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/170/awaken-the-woods) · oracle_id `3cc79d36-1a24-4395-8ad1-915a65db8a60` · printing: BRO #170 (2022-11-18) · [rulings](https://api.scryfall.com/cards/1c95f8b8-faba-4412-8d8f-093e2ec903f0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Awe for the Guilds

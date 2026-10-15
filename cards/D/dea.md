@@ -194,7 +194,11 @@
   > At the beginning of your upkeep, choose a card at random in your graveyard. If it's a creature card, put it onto the battlefield. Otherwise, put it into your hand.
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3431 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/215/deadbridge-chant) · oracle_id `506667b1-7922-4959-a5b3-0f8abe8c3615` · printing: DSC #215 (2024-09-27) · [rulings](https://api.scryfall.com/cards/e67b8f21-c173-4d1d-8224-2eba4bcc6975/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2013-04-15* — Because the last ability doesn't target any card in your graveyard, any card put into your graveyard in response to the ability may be chosen.
+  - *2013-04-15* — Each card in your graveyard must have an equal chance of being chosen. Assigning them each a number and rolling a die is an easy way to do this. In formats that allow you to rearrange your graveyard—including Standard, Modern, and Return to Ravnica block Limited formats, you may also shuffle your graveyard face down and choose a card at random.
+  - *2013-04-15* — The card is chosen at random as the ability resolves. If any player responds to the ability, that player won't yet know what card will be chosen.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/215/deadbridge-chant) · oracle_id `506667b1-7922-4959-a5b3-0f8abe8c3615` · printing: DSC #215 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deadbridge Goliath
 
@@ -285,7 +289,10 @@
   > As long as Deadeye Navigator is paired with another creature, each of those creatures has "{1}{U}: Exile this creature, then return it to the battlefield under your control."
 - **Keywords:** Soulbond
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1494 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/59/deadeye-navigator) · oracle_id `ebef6d84-b724-4a84-bcde-8eb6dc06717d` · printing: INR #59 (2025-01-24) · [rulings](https://api.scryfall.com/cards/4f0791b5-fdb4-4378-8fd3-7e7367ffc05c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-03-14* — If you activate the ability granted by Deadeye Navigator, the creature will be exiled, the pair will immediately be broken, and then the card will be returned to the battlefield. Deadeye Navigator’s soulbond ability triggers when that card enters the battlefield and the pair can then be reunited.
+  - *2017-03-14* — Once Deadeye Navigator or the creature it’s paired with is exiled, the other creature will no longer have the activated ability. However, you can activate the ability of one creature in response to activating the ability of the other creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/59/deadeye-navigator) · oracle_id `ebef6d84-b724-4a84-bcde-8eb6dc06717d` · printing: INR #59 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deadeye Plunderers
 
@@ -311,6 +318,7 @@
 - **Flavor text** (XLN printing):
   > *"Welcome aboard, mate! You're going to need this."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9203 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/50/deadeye-quartermaster) · oracle_id `40abba38-533b-4f51-99e9-a2b337d65171` · printing: XLN #50 (2017-09-29) · [rulings](https://api.scryfall.com/cards/5ba70d58-69fd-4675-85d2-90bc2595c01c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deadeye Rig-Hauler
@@ -437,7 +445,12 @@
 - **Flavor text** (SOC printing):
   > *No one ever asked what was in Dina's concoctions, so long as they worked.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4751 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/303/deadly-brew) · oracle_id `b831d3f8-07ce-4172-ba29-213cac414c9a` · printing: SOC #303 (2026-04-24) · [rulings](https://api.scryfall.com/cards/3e5493c3-0be2-467c-82f0-3ee1ca909d0c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-04-16* — First the active player chooses which creature or planeswalker they'll sacrifice, then each other player in turn order does the same, knowing choices made before their choice. Then all those permanents are sacrificed simultaneously.
+  - *2021-04-16* — If you cast Deadly Brew and control any creatures or planeswalkers as it resolves, you must sacrifice one of them.
+  - *2021-04-16* — You cannot return the same permanent card that you sacrificed.
+  - *2021-04-16* — You choose which permanent card you're returning to your hand, if any, as Deadly Brew resolves, after permanents are sacrificed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/303/deadly-brew) · oracle_id `b831d3f8-07ce-4172-ba29-213cac414c9a` · printing: SOC #303 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deadly Complication
 
@@ -583,6 +596,7 @@
   > *Even dragons fear its silken strands.*
 - **Keywords:** Reach, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4972 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/282/deadly-recluse) · oracle_id `6b941291-1802-4ced-9869-39fa43825550` · printing: CMM #282 (2023-08-04) · [rulings](https://api.scryfall.com/cards/d432d17e-052b-4a81-bad8-14babf6e593f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deadly Riposte
@@ -621,7 +635,9 @@
 - **Flavor text** (C21 printing):
   > *When the winds blow out of the abyss, death is the only harvest.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3790 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c21/140/deadly-tempest) · oracle_id `b5516bc9-ec8d-4323-8748-96c49d7d0622` · printing: C21 #140 (2021-04-23) · [rulings](https://api.scryfall.com/cards/5f673d4a-76fa-4e9d-b7f6-299d80c55cb5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2015-11-04* — Creatures that aren’t destroyed this way (perhaps because they regenerated or have indestructible) don’t count toward the life lost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c21/140/deadly-tempest) · oracle_id `b5516bc9-ec8d-4323-8748-96c49d7d0622` · printing: C21 #140 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deadly Visit
 
@@ -655,7 +671,15 @@
   > When enchanted creature dies, exile cards equal to its power from the top of its owner's library. You may cast spells from among those cards for as long as they remain exiled, and mana of any type can be spent to cast them.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9377 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afc/97/dead-mans-chest) · oracle_id `e5fdd6fd-6492-47ec-8b74-9ff22ff9849a` · printing: AFC #97 (2021-07-23) · [rulings](https://api.scryfall.com/cards/7a0b60a2-50de-4328-85dc-040bf8a4dac9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2018-01-19* — Casting an exiled card causes it to leave exile. You can't cast it multiple times.
+  - *2018-01-19* — If Dead Man's Chest and the enchanted creature are both put into graveyards at the same time, the last ability of Dead Man's Chest still triggers.
+  - *2018-01-19* — If you gain control of the enchanted creature, Dead Man's Chest will be put into your graveyard.
+  - *2018-01-19* — In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, any spells or permanents you control from Dead Man's Chest's ability are exiled.
+  - *2018-01-19* — The effect of Dead Man's Chest doesn't change when you can cast the exiled cards. For example, if you exile a creature card without flash, you can cast it only during your main phase when the stack is empty.
+  - *2018-01-19* — To determine how many cards to exile, use the enchanted creature's power as it last existed on the battlefield.
+  - *2018-01-19* — You are a creature's owner if the card representing it began the game in your deck, or if it's a token that entered the battlefield under your control. If Dead Man's Chest enchants a creature that you own but an opponent controls, you'll exile cards from your library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afc/97/dead-mans-chest) · oracle_id `e5fdd6fd-6492-47ec-8b74-9ff22ff9849a` · printing: AFC #97 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dead of Winter
 
@@ -681,6 +705,7 @@
 - **Flavor text** (SLD printing):
   > *"Draw me like one of your French cards."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2681 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/1753/deadpool-trading-card) · oracle_id `4b96c22a-0d5b-44fd-b326-5f3ffcc3917b` · printing: SLD #1753 (2025-04-01) · [rulings](https://api.scryfall.com/cards/3a14d6c5-cfd1-4860-834a-5a0dc9df0320/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dead Reckoning
@@ -794,7 +819,10 @@
   > *"Commander, what's the signal to attack?"*
   > *"You'll know."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8222 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/grn/165/deafening-clarion) · oracle_id `c9bbebbd-9f2d-499c-adb1-8d3170c3fd0d` · printing: GRN #165 (2018-10-05) · [rulings](https://api.scryfall.com/cards/1e115a81-001d-4e17-98af-6a63f2b0967f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-10-05* — A creature you control that’s dealt lethal damage by Deafening Clarion’s first mode will still be on the battlefield to gain lifelink from the spell’s second mode before that creature dies.
+  - *2018-10-05* — Deafening Clarion’s second mode affects only creatures you control at the time it resolves. Creatures you begin to control later in the turn won’t gain lifelink.
+- **Source flags:** [Scryfall](https://scryfall.com/card/grn/165/deafening-clarion) · oracle_id `c9bbebbd-9f2d-499c-adb1-8d3170c3fd0d` · printing: GRN #165 (2018-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deafening Silence
 
@@ -806,7 +834,11 @@
   > *"They have forsaken their vows. The edict of the Circle demands their voices be silenced."*
   > *—Syr Tasdale, knight of Ardenvale*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1970 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eld/10/deafening-silence) · oracle_id `6284ef01-d17d-4584-aecb-1b841ae638e5` · printing: ELD #10 (2019-10-04) · [rulings](https://api.scryfall.com/cards/6072d9b0-d3c7-46f4-bd24-095bb13c4dea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-10-04* — Deafening Silence will look at the entire turn to see if a player has cast a noncreature spell yet that turn, even if Deafening Silence wasn't on the battlefield when that spell was cast. Notably, you can't cast Deafening Silence and then cast another noncreature spell that turn.
+  - *2019-10-04* — If you cast a noncreature spell that was countered, you can't cast another noncreature spell that turn.
+  - *2019-10-04* — Players may cast any number of creature spells plus one noncreature spell each turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eld/10/deafening-silence) · oracle_id `6284ef01-d17d-4584-aecb-1b841ae638e5` · printing: ELD #10 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deal Broker
 
@@ -870,7 +902,11 @@
 - **Flavor text** (FDN printing):
   > *For the necromancer barons, killing and recruitment are one and the same.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1690 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/521/death-baron) · oracle_id `99024aa8-5687-4d38-8a4b-feef42d6c1ff` · printing: FDN #521 (2024-11-15) · [rulings](https://api.scryfall.com/cards/34a27142-cf45-4164-9e10-373e5c8bf7c6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-07-13* — A creature that's both a Skeleton and a Zombie will get the bonus only once.
+  - *2018-07-13* — Because damage remains marked on a creature until it's removed as the turn ends, nonlethal damage dealt to a Skeleton or Zombie you control may become lethal if Death Baron leaves the battlefield during that turn.
+  - *2018-07-13* — Death Baron doesn't normally affect itself. If you manage to turn it into a Skeleton, however, then it will give itself +1/+1 and deathtouch.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/521/death-baron) · oracle_id `99024aa8-5687-4d38-8a4b-feef42d6c1ff` · printing: FDN #521 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Death Begets Life
 
@@ -882,7 +918,10 @@
   > *"You need not mourn. Their life essence has returned to the earth, where it will eventually bloom into a new form."*
   > *—Kotis, the Fangkeeper*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7753 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/176/death-begets-life) · oracle_id `53e86135-3b24-4618-bcc0-af4d81e672dd` · printing: TDM #176 (2025-04-11) · [rulings](https://api.scryfall.com/cards/1faab43d-587d-44f6-9516-c8e3965bbc20/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-04-04* — If a permanent destroyed this way goes to a zone other than a graveyard (for example, if it has a finality counter on it), it still counts as being destroyed and you’ll still draw a card.
+  - *2025-04-04* — Permanents with indestructible aren’t destroyed this way.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/176/death-begets-life) · oracle_id `53e86135-3b24-4618-bcc0-af4d81e672dd` · printing: TDM #176 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deathbellow Raider
 
@@ -922,6 +961,7 @@
   > *"I can provide the Coalition with poisons that will break down Phyrexian machinery as easily as they stop the heart."*
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7995 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/159/deathbloom-gardener) · oracle_id `0c7f9701-c39e-4f14-844a-15f2e3c41ca9` · printing: DMU #159 (2022-09-09) · [rulings](https://api.scryfall.com/cards/88dee3d1-0496-40ea-b208-7362a932f531/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deathbloom Ritualist
@@ -987,7 +1027,11 @@
   > Whenever you cast a white spell, you may tap target creature.
   > Whenever you cast a black spell, you may destroy target creature if it's tapped.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7662 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/200/deathbringer-liege) · oracle_id `caf89756-fb78-4e58-a730-001393ffa0a8` · printing: 2X2 #200 (2022-07-08) · [rulings](https://api.scryfall.com/cards/f72d5f2f-7e54-4538-9f0a-eed464a74016/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2008-08-01* — If you cast a spell that's both white and black, the last two abilities will both trigger. You may use them together to destroy any creature. To do so, put the "destroy" ability on the stack first, then put the "tap" ability on the stack, with each one targeting the same creature. When the abilities resolve, they'll tap the creature, then destroy it.
+  - *2008-08-01* — The abilities are separate and cumulative. If another creature you control is both of the listed colors, it will get a total of +2/+2.
+  - *2010-06-15* — The last ability can target any creature, not just a tapped creature (it doesn't say "target tapped creature"). When the ability resolves, check whether the creature is tapped or not. If it's tapped, you may destroy it. If it's not tapped, the ability does nothing.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/200/deathbringer-liege) · oracle_id `caf89756-fb78-4e58-a730-001393ffa0a8` · printing: 2X2 #200 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deathbringer Regent
 
@@ -999,7 +1043,10 @@
   > When this creature enters, if you cast it from your hand and there are five or more other creatures on the battlefield, destroy all other creatures.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7607 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/246/deathbringer-regent) · oracle_id `71b5fdf2-4475-4102-85eb-9be164a9ae29` · printing: NCC #246 (2022-04-29) · [rulings](https://api.scryfall.com/cards/8006515a-69de-4713-8318-79c0ef78a6d1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2015-02-25* — Deathbringer Regent's last ability destroys all creatures except Deathbringer Regent, including the five other creatures required for the ability to have an effect.
+  - *2015-02-25* — If you cast a creature spell that enters the battlefield as a copy of Deathbringer Regent, the enters-the-battlefield ability will trigger (assuming the “five or more other creatures” requirement is also met).
+- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/246/deathbringer-regent) · oracle_id `71b5fdf2-4475-4102-85eb-9be164a9ae29` · printing: NCC #246 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deathbringer Thoctar
 
@@ -1035,7 +1082,13 @@
   > *The old hermit would never say what he fed his mushrooms, and people learned not to ask.*
 - **Keywords:** Delirium
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9516 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/175/deathcap-cultivator) · oracle_id `26e555f1-e0ed-4b84-8783-1c0c968f462d` · printing: DSC #175 (2024-09-27) · [rulings](https://api.scryfall.com/cards/17f9339a-d327-4239-a0d8-12f7ff58982b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2016-04-08* — Because you consider only the characteristics of a double-faced card's front face while it's not on the battlefield, the types of its back face won't be counted for delirium.
+  - *2016-04-08* — If you have three noncreature card types among cards in your graveyard at the time damage is dealt by Deathcap Cultivator, and lethal damage is dealt to another creature you control at the same time, the damage from Deathcap Cultivator won't be from a source with deathtouch.
+  - *2016-04-08* — In some rare cases, you can have a token or a copy of a spell in your graveyard at the moment that an object's delirium ability counts the card types among cards in your graveyard, before that token or copy ceases to exist. Because tokens and copies of spells are not cards, even if they are copies of cards, their types will never be counted.
+  - *2016-04-08* — The card types in Magic are artifact, battle, creature, enchantment, instant, kindred, land, planeswalker, and sorcery. Supertypes (such as legendary and basic) and subtypes (such as Human and Equipment) are not counted.
+  - *2016-04-08* — The number of card types matters, not the number of cards. For example, Wicker Witch (an artifact creature) along with Catalog (an instant) and Chaplain's Blessing (a sorcery) will enable delirium.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/175/deathcap-cultivator) · oracle_id `26e555f1-e0ed-4b84-8783-1c0c968f462d` · printing: DSC #175 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deathcap Glade
 
@@ -1227,6 +1280,7 @@
 - **Flavor text** (GVL printing):
   > *"The bones of allies grant wisdom. The bones of enemies grant strength. The bones of dragons grant life eternal."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5469 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gvl/33/deathgreeter) · oracle_id `b7ad11dc-c962-4034-b15a-a080c6fff75f` · printing: GVL #33 (2014-12-05) · [rulings](https://api.scryfall.com/cards/561b8539-cb84-42f0-97f2-2c94839777e3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Death-Greeter's Champion
@@ -1275,7 +1329,13 @@
   > III — Put all creature cards exiled with this enchantment onto the battlefield face down under your control. They're 2/2 Cyberman artifact creatures.
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9572 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/66/death-in-heaven) · oracle_id `f2bf5014-677a-4880-b926-d93457348bdc` · printing: WHO #66 (2023-10-13) · [rulings](https://api.scryfall.com/cards/96c55c73-eed0-433c-b1a4-c2edae06a77f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-10-13* — Double-faced permanents that are already on the battlefield can't be turned face down this way. However, a double-faced card can be put onto the battlefield face down from another zone this way.
+  - *2023-10-13* — Each creature turned face down this way or put onto the battlefield this way is a 2/2 Cyberman artifact creature with no name and no color.
+  - *2023-10-13* — If the face-down card has a morph ability, its controller may turn it face up by paying the associated morph cost.
+  - *2023-10-13* — If, for any reason, the face-down creature is turned face up, the effect making it a Cyberman ends. It will be whatever is printed on the card.
+  - *2023-10-13* — The player who controls a face-down permanent may look at it at any time. Notably, if the cards were put on the battlefield face down from another player's library, the player that owns them does not get to look at those cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/66/death-in-heaven) · oracle_id `f2bf5014-677a-4880-b926-d93457348bdc` · printing: WHO #66 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Death in the Family
 
@@ -1299,7 +1359,12 @@
   > When this creature becomes monstrous, goad up to X target creatures your opponents control.
 - **Keywords:** Goad, Monstrosity, Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4689 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/675/death-kiss) · oracle_id `42410e81-f4a6-4501-82e4-6e745934976c` · printing: CLB #675 (2022-06-10) · [rulings](https://api.scryfall.com/cards/537b9888-70c5-4bee-8f26-d1457fdf1167/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-06-10* — An ability that triggers when a creature becomes monstrous won't trigger if that creature isn't on the battlefield when its monstrosity ability resolves.
+  - *2022-06-10* — Monstrous isn't an ability that a creature has. It's just something true about that creature. If the creature stops being a creature or loses its abilities, it will continue to be monstrous.
+  - *2022-06-10* — Once a creature becomes monstrous, it can't become monstrous again. If the creature is already monstrous when the monstrosity ability resolves, nothing happens.
+  - *2022-06-10* — To double a creature's power, it gets +X/+0, where X is its power as that ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/675/death-kiss) · oracle_id `42410e81-f4a6-4501-82e4-6e745934976c` · printing: CLB #675 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deathknell Berserker
 
@@ -1494,7 +1559,13 @@
   > Megamorph {4}{G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its megamorph cost and put a +1/+1 counter on it.)
 - **Keywords:** Megamorph, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6869 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/176/deathmist-raptor) · oracle_id `a7d4f5aa-26d4-4363-aa5a-a26d6f791b82` · printing: DSC #176 (2024-09-27) · [rulings](https://api.scryfall.com/cards/ed6e6cf5-8fb7-4ba6-943a-e5aa14a3ee92/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2015-02-25* — Deathmist Raptor's second ability triggers only if Deathmist Raptor is in the graveyard when a permanent you control is turned face up.
+  - *2015-02-25* — If a face-down creature with megamorph is turned face up some other way (for example, if you manifest a card with megamorph and then pay its mana cost to turn it face up), you won't put a +1/+1 counter on it.
+  - *2015-02-25* — Megamorph is a variant of the morph ability. You can find more information on morph on cards with morph from the Khans of Tarkir set.
+  - *2015-02-25* — Turning a face-down creature with megamorph face up and putting a +1/+1 counter on it is a special action. It doesn't use the stack and can't be responded to.
+  - *2015-02-25* — You choose whether Deathmist Raptor will enter the battlefield face up or face down as the ability resolves. You may also choose to leave it in the graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/176/deathmist-raptor) · oracle_id `a7d4f5aa-26d4-4363-aa5a-a26d6f791b82` · printing: DSC #176 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Death Mutation
 
@@ -1619,7 +1690,10 @@
   > *There is no atrocity Valgavoth's devotees would not commit for the promise of freedom from fear.*
 - **Keywords:** Morbid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2127 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/86/deathreap-ritual) · oracle_id `b26e3596-5b28-4eb6-b3e2-03f63d8c6d49` · printing: DSC #86 (2024-09-27) · [rulings](https://api.scryfall.com/cards/4980879b-87a4-4e5a-9f29-9136f022d849/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-08-07* — If a creature didn't die before a turn's end step begins, Deathreap Ritual's ability doesn't trigger at all. The creature may have died before Deathreap Ritual entered the battlefield, however.
+  - *2020-08-07* — You draw one card when the ability resolves, not one card per creature that died during the turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/86/deathreap-ritual) · oracle_id `b26e3596-5b28-4eb6-b3e2-03f63d8c6d49` · printing: DSC #86 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deathrender
 
@@ -1743,6 +1817,7 @@
   > Remove three spore counters from this creature: Create a 1/1 green Saproling creature token.
   > Sacrifice a Saproling: Target creature gets -1/-1 until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8611 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/109/deathspore-thallid) · oracle_id `3a2a6904-219a-4d16-b11a-1e0e2826814e` · printing: TSR #109 (2021-03-19) · [rulings](https://api.scryfall.com/cards/74c1b368-6fb0-4430-807e-d124f3077361/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Death's Presence
@@ -1755,7 +1830,9 @@
   > *"We traffic in flesh, not souls. Still, it's a shame to let anything go to waste."*
   > *—Cevraya, Golgari shaman*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4954 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mic/137/deaths-presence) · oracle_id `d0db5996-f749-48d2-8fb3-a69104113828` · printing: MIC #137 (2021-09-24) · [rulings](https://api.scryfall.com/cards/fd24d5dc-a4c5-4821-92f6-52d1840be66a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2012-10-01* — X is the power of that creature as it last existed on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mic/137/deaths-presence) · oracle_id `d0db5996-f749-48d2-8fb3-a69104113828` · printing: MIC #137 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deathsprout
 
@@ -1767,7 +1844,9 @@
   > *"They say nothing lasts forever. I say everything lasts forever, just not in the form you may be accustomed to."*
   > *—Vraska*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3764 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c20/208/deathsprout) · oracle_id `793b0c73-601c-41dc-b49a-45fee4970d52` · printing: C20 #208 (2020-04-17) · [rulings](https://api.scryfall.com/cards/26a0ae4f-a48c-4333-a53f-70702b5b4c9e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-05-03* — If the target creature is an illegal target by the time Deathsprout tries to resolve, the spell doesn’t resolve. You don’t search for a land card. If the target is legal but not destroyed (most likely because it has indestructible), you do search.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c20/208/deathsprout) · oracle_id `793b0c73-601c-41dc-b49a-45fee4970d52` · printing: C20 #208 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Death's Shadow
 
@@ -1779,7 +1858,12 @@
 - **Flavor text** (2XM printing):
   > *The shadow of the candle looms tall even as its light grows dim.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8134 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/82/deaths-shadow) · oracle_id `e08722b3-0f79-4c82-b298-603e04a37857` · printing: 2XM #82 (2020-08-07) · [rulings](https://api.scryfall.com/cards/5526ff6e-c079-4ad4-ac8d-5e26ecacf50d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-08-07* — Death's Shadow's ability applies only while Death's Shadow is on the battlefield. In all other zones, its power and toughness are 13.
+  - *2020-08-07* — If your life total is negative, X is considered to be 0.
+  - *2020-08-07* — In a Two-Headed Giant game, your life total is your team's life total.
+  - *2020-08-07* — The value of X changes as you gain and lose life. It's not locked in as Death's Shadow enters the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/82/deaths-shadow) · oracle_id `e08722b3-0f79-4c82-b298-603e04a37857` · printing: 2XM #82 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Death Stroke
 
@@ -1814,6 +1898,7 @@
   > {5}{B}: Return this card from your graveyard to the battlefield tapped.
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8899 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/afc/23/death-tyrant) · oracle_id `fa944633-e078-41bb-9c7d-4f6b669c27a5` · printing: AFC #23 (2021-07-23) · [rulings](https://api.scryfall.com/cards/b9e508e9-c190-4db2-a278-9dbb09515ae2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Death Ward

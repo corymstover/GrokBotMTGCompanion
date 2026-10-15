@@ -49,7 +49,11 @@
   > This creature can't be blocked except by Spirits.
   > {3}{U}: Another target creature you control can't be blocked this turn except by Spirits.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9512 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/153/departed-deckhand) · oracle_id `a620a765-97ba-4687-acfd-4dec7da75d9f` · printing: LCC #153 (2023-11-17) · [rulings](https://api.scryfall.com/cards/985cfee6-97b7-4f42-8bfe-5e1e44bb54d6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-07-13* — Activating Departed Deckhand's last ability after a creature has become blocked by a non-Spirit creature won't cause that creature to become unblocked.
+  - *2018-07-13* — If the spell that targets Departed Deckhand has no other targets, it won't resolve (because it no longer has a legal target after Departed Deckhand is sacrificed).
+  - *2018-07-13* — You'll sacrifice Departed Deckhand even if you counter the spell that targets it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/153/departed-deckhand) · oracle_id `a620a765-97ba-4687-acfd-4dec7da75d9f` · printing: LCC #153 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Depart the Realm
 
@@ -101,6 +105,7 @@
   > *"We will descend upon you like a plague of locusts to purge you from our lands!"*
   > *—Hirov, commander of the Thousand Swords*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6223 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c14/6/deploy-to-the-front) · oracle_id `135cb4af-f4b6-455b-8fea-84fcef78ee03` · printing: C14 #6 (2014-11-07) · [rulings](https://api.scryfall.com/cards/10744088-b028-43aa-8a77-cd2a430fbfb6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Depopulate
@@ -160,6 +165,7 @@
   > *"That would have brought shame to you as a mage. Tell you what—I'll keep your secret."*
   > *—Noyan Dar, Tazeem lullmage*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9877 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/roe/59/deprive) · oracle_id `1065eceb-9150-4ea4-bd6d-acaabda14e00` · printing: ROE #59 (2010-04-23) · [rulings](https://api.scryfall.com/cards/2efecdd9-bd3a-4b79-92da-6485589d5bde/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Depth Charge Colossus
@@ -199,7 +205,10 @@
   > When this creature enters, any number of target noncreature artifacts you control become 3/3 artifact creatures. Sacrifice them at the beginning of the next end step.
   > Each artifact creature you control has melee, trample, and haste. (Whenever a creature with melee attacks, it gets +1/+1 until end of turn for each opponent you attacked this combat.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4202 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/9/depthshaker-titan) · oracle_id `23bf0648-7097-41df-a539-1d36ac42cf9c` · printing: EOC #9 (2025-08-01) · [rulings](https://api.scryfall.com/cards/972f3582-ad7c-4fe9-af29-90fa695a623f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-07-25* — If Depthshaker Titan’s first ability causes a Vehicle to become an artifact creature, it doesn’t count as “crewing” that Vehicle for any ability that would trigger due to a Vehicle becoming crewed.
+  - *2025-07-25* — If Depthshaker Titan’s first ability causes a Vehicle to become an artifact creature, its base power and toughness will be set to 3/3. Crewing that Vehicle will not restore its power and toughness. Similarly, if the ability causes a permanent with station to become an artifact creature, putting an amount of charge counters on it greater than or equal to the amount required for it to become an artifact creature won’t overwrite the base power and toughness set by Depthshaker Titan’s first ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/9/depthshaker-titan) · oracle_id `23bf0648-7097-41df-a539-1d36ac42cf9c` · printing: EOC #9 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Depths of Desire
 

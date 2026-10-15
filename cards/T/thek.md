@@ -50,7 +50,14 @@
   > Whenever this creature attacks, defending player chooses a nonland card in your graveyard. Return that card to your hand. This creature gets +X/+0 until end of turn, where X is the mana value of that card.
 - **Keywords:** Flying, Transform, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5159 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/227/the-kami-war-o-kagachi-made-manifest) · oracle_id `4d23b22b-31a5-4eec-b894-2dd5a7138c5a` · printing: NEO #227 (2022-02-18) · [rulings](https://api.scryfall.com/cards/36052532-5028-43a8-9fc4-56221ec867fd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2022-02-18* — A transforming double-faced card enters the battlefield with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed or you cast it transformed, in which case it enters with its back face up.
+  - *2022-02-18* — Each face of a transforming double-faced card has its own set of characteristics: name, types, subtypes, abilities, and so on. While a transforming double-faced permanent is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored.
+  - *2022-02-18* — Each transforming double-faced card in this set is cast face up. In every zone other than the battlefield, consider only the characteristics of its front face. If it is on the battlefield, consider only the characteristics of the face that's up; the other face's characteristics are ignored.
+  - *2022-02-18* — If you are instructed to put a card that isn't a double-faced card onto the battlefield transformed, it will not enter the battlefield at all. In that case, it stays in the zone it was previously in. For example, if a single-faced card is a copy of Azusa's Many Journeys, the chapter III ability will cause it to be exiled and then remain in exile.
+  - *2022-02-18* — The back face of a transforming double-faced card usually has a color indicator that defines its color.
+  - *2022-02-18* — The mana value of a transforming double-faced card is the mana value of its front face, no matter which face is up.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/227/the-kami-war-o-kagachi-made-manifest) · oracle_id `4d23b22b-31a5-4eec-b894-2dd5a7138c5a` · printing: NEO #227 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Karfell Rocker
 
@@ -140,7 +147,10 @@
   > When The Kenriths' Royal Funeral enters, exile up to two target legendary creature cards from your graveyard. You draw X cards and you lose X life, where X is the greatest mana value among cards exiled this way.
   > Legendary spells you cast cost {1} less to cast for each card exiled with The Kenriths' Royal Funeral.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9529 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mat/34/the-kenriths-royal-funeral) · oracle_id `b4b0a4b7-b36f-4c96-b07b-a86c1efd333e` · printing: MAT #34 (2023-05-12) · [rulings](https://api.scryfall.com/cards/4569fb73-3555-4eb8-933a-130770dd56d1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-05-12* — Any of the exiled cards that somehow leave exile will no longer count toward the discount offered by the last ability.
+  - *2023-05-12* — The last ability doesn't change the mana cost or mana value of any legendary spell you cast, only the total cost you pay.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mat/34/the-kenriths-royal-funeral) · oracle_id `b4b0a4b7-b36f-4c96-b07b-a86c1efd333e` · printing: MAT #34 (2023-05-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Key to the Vault
 
@@ -151,7 +161,11 @@
   > Equip {2}{U}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2195 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/54/the-key-to-the-vault) · oracle_id `7a75d565-b0a7-46bf-94a0-c9255c8abd6d` · printing: OTJ #54 (2024-04-19) · [rulings](https://api.scryfall.com/cards/166814af-a444-4a62-937e-7491673d9387/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-04-12* — If the spell you cast has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-04-12* — If you cast a spell “without paying its mana cost,” you can’t choose to cast it for any alternative costs. You can, however, pay additional costs, such as kicker costs. If the spell has any mandatory additional costs, those must be paid to cast the spell.
+  - *2024-04-12* — You choose whether to cast the exiled card as The Key to the Vault’s triggered ability resolves. If you do, you do so as part of the resolution of that ability. You can’t wait to cast it later in the turn. Timing restrictions based on the card’s types are ignored.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/54/the-key-to-the-vault) · oracle_id `7a75d565-b0a7-46bf-94a0-c9255c8abd6d` · printing: OTJ #54 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Kingpin of Crime
 

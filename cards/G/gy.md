@@ -41,7 +41,14 @@
   > {1}, Sacrifice a Food: Target creature gains indestructible until end of turn. Tap it.
 - **Keywords:** Food, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4821 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/313/gyome-master-chef) · oracle_id `0f1b5cea-2035-444c-9f63-87dcb9782c74` · printing: SOC #313 (2026-04-24) · [rulings](https://api.scryfall.com/cards/8279d421-dd86-49d1-93f7-65f6046c542d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-04-16* — Gyome, Master Chef's second ability counts all nontoken creatures that entered the battlefield under your control this turn, even if some or all of those creatures are no longer on the battlefield, no longer creatures, or no longer under your control.
+  - *2021-04-16* — The second ability will count Gyome itself on the turn it enters the battlefield.
+  - *2021-04-16* — You can activate the last ability even if the creature is already tapped.
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/313/gyome-master-chef) · oracle_id `0f1b5cea-2035-444c-9f63-87dcb9782c74` · printing: SOC #313 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gyre Engineer
 
@@ -53,6 +60,7 @@
 - **Flavor text** (RNA printing):
   > *"As I contemplate what is, I dive ever deeper into the depths of possibility. Then I set an experiment in motion and watch the truth rise to the surface."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9813 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rna/180/gyre-engineer) · oracle_id `27eef5c1-259a-4d37-93af-7451f50905af` · printing: RNA #180 (2019-01-25) · [rulings](https://api.scryfall.com/cards/26dd6a1d-4dcb-4392-9856-c0e4140efbd7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gyre Sage
@@ -85,7 +93,24 @@
   > When Gyruda enters, each player mills four cards. Put a creature card with an even mana value from among the milled cards onto the battlefield under your control.
 - **Keywords:** Companion, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4492 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Companion
-- **Source flags:** [Scryfall](https://scryfall.com/card/iko/221/gyruda-doom-of-depths) · oracle_id `25eaa977-ca85-4f8d-8be5-9297a3edb14f` · printing: IKO #221 (2020-04-24) · [rulings](https://api.scryfall.com/cards/97eb1804-6fd8-4917-af36-87fdfce39d3a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (16):
+  - *2020-04-17* — A card with mana value 0 has an even mana value.
+  - *2020-04-17* — Before shuffling your deck to become your library, you may reveal one card from outside the game to be your companion if your starting deck meets the requirements of the companion ability. You can't reveal more than one. It remains revealed outside the game as the game begins.
+  - *2020-04-17* — If a card in a player's graveyard has {X} in its mana cost, X is considered to be 0.
+  - *2020-04-17* — If a replacement effect causes a player to exile the top four cards of their library instead of putting them into their graveyard as Gyruda's triggered ability resolves, the creature card you choose may be one of those cards in exile.
+  - *2020-04-17* — If more than one player wishes to reveal a companion, the starting player does so first, and players proceed in turn order. Once a player has chosen not to reveal a companion, that player can't change their mind.
+  - *2020-04-17* — If you reveal a companion outside the game, for as long as it remains there, you may pay {3} any time you could cast a sorcery (that is, you have priority during your main phase and the stack is empty). Once you do, you put it into your hand and behaves like any other card you've brought into the game. For example, if it's discard, countered, or destroyed, it's put into your graveyard, remaining in the game. This is a change from previous rules.
+  - *2020-04-17* — Paying {3} to put your companion into your hand is a special action. It doesn't use the stack and players can't respond to it. Once you take this action, you may cast that card if it's legal to do so before any other player can take actions.
+  - *2020-04-17* — The companion ability has no effect if the card is in your starting deck and creates no restriction on putting a card with a companion ability into your starting deck. For example, Zirda may be in your starting deck even if your other permanent cards don't all have activated abilities.
+  - *2020-04-17* — The companion's other abilities apply only if the creature is on the battlefield. They have no effect while the companion is outside the game.
+  - *2020-04-17* — The requirements of the companion ability apply only to your starting deck. They do not apply to your sideboard.
+  - *2020-04-17* — You may have one companion in the Commander variant. Your deck, including your commander, must meet its companion requirement. Your companion is not one of your one hundred cards.
+  - *2020-04-17* — Your companion begins the game outside the game. In tournament play, this means your sideboard. In casual play, it's simply a card you own that's not in your starting deck.
+  - *2020-06-01* — If you reveal a companion outside the game, for as long as it remains there, you may pay {3} any time you could cast a sorcery (that is, you have priority during your main phase and the stack is empty). Once you do, you put it into your hand and behaves like any other card you've brought into the game. For example, if it's discarded, countered, or destroyed, it's put into your graveyard, remaining in the game. This is a change from previous rules.
+  - *2020-06-01* *(Scryfall note)* — Once you put your companion into your hand, it behaves like any other card you’ve brought into the game. For example, if it’s countered or destroyed, it’s put into your graveyard, remaining in the game.
+  - *2020-06-01* — Paying {3} to put your companion into your hand is a special action. It doesn't use the stack and players can't respond to it. Once you take this action, you may cast that card if it's legal to do so before any other player can take actions.
+  - *2020-06-01* *(Scryfall note)* — Wizards of the Coast has issued functional errata for the Companion mechanic. Instead of casting companions from outside the game: Once per game, any time you could cast a sorcery (during your main phase when the stack is empty), you can pay {3} to put your companion from your sideboard into your hand. This is a special action, not an activated ability. It happens immediately and can’t be responded to. It can’t be countered or stopped by cards like Phyrexian Revoker. For more information please see https://magic.wizards.com/en/articles/archive/news/june-1-2020-banned-and-restricted-announcement
+- **Source flags:** [Scryfall](https://scryfall.com/card/iko/221/gyruda-doom-of-depths) · oracle_id `25eaa977-ca85-4f8d-8be5-9297a3edb14f` · printing: IKO #221 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gyrus, Waker of Corpses
 
@@ -107,4 +132,11 @@
   > Flashback {6}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9492 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/190/gysahl-greens) · oracle_id `eddfe7d7-6868-4b81-b46c-d0765e5210e7` · printing: FIN #190 (2025-06-13) · [rulings](https://api.scryfall.com/cards/020dee17-d85b-44c4-9faa-b1ef977956f4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-06-06* — "Flashback [cost]" means "You may cast this card from your graveyard if the resulting spell is an instant or sorcery spell by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2025-06-06* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2025-06-06* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2025-06-06* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2025-06-06* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/190/gysahl-greens) · oracle_id `eddfe7d7-6868-4b81-b46c-d0765e5210e7` · printing: FIN #190 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -93,7 +93,9 @@
   > Entwine {1}{R} (Choose both if you pay the entwine cost.)
 - **Keywords:** Entwine
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2949 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/252/savage-beating) · oracle_id `89d1cd45-8148-4396-a9b8-e0f495e94b5b` · printing: CMM #252 (2023-08-04) · [rulings](https://api.scryfall.com/cards/3c979cab-3ae6-43b1-b067-1e5abfc2e2ed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-12-01* — The additional combat phase is directly after the combat phase in which Savage Beating is cast. There isn't a main phase between the two combat phases.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/252/savage-beating) · oracle_id `89d1cd45-8148-4396-a9b8-e0f495e94b5b` · printing: CMM #252 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Savageborn Hydra
 
@@ -225,6 +227,7 @@
   > *Exotic trophies from victorious hunts adorn the walls of the Kravinoff estate.*
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9454 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/183/savage-mansion) · oracle_id `1af15c1d-a41c-44cc-9614-d72694dd26e8` · printing: SPM #183 (2025-09-26) · [rulings](https://api.scryfall.com/cards/855f59a5-17a8-4aca-8a4d-f98111eba14c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Savage Offensive
@@ -249,6 +252,7 @@
   > *"Well... it's a superpredator."*
   > *—Billy Brennan*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5100 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rex/6/savage-order) · oracle_id `8dd5b7d5-3d92-40e2-9572-bf70ae591bed` · printing: REX #6 (2023-11-17) · [rulings](https://api.scryfall.com/cards/f571ef55-50dd-4624-aa42-fea5a0303033/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Savage Punch
@@ -296,7 +300,11 @@
   > Put a +1/+1 counter on target creature you control. Then that creature fights target creature you don't control. (Each deals damage equal to its power to the other.)
 - **Keywords:** Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6206 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/257/savage-stomp) · oracle_id `2ecda58d-9aa9-4857-bdc5-b6b7b70a79c0` · printing: LCC #257 (2023-11-17) · [rulings](https://api.scryfall.com/cards/a0fe1347-7b04-464a-8226-9526a408b955/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2017-09-29* — If either target is an illegal target as Savage Stomp resolves, neither creature will deal or be dealt damage.
+  - *2017-09-29* — If the creature you control is an illegal target as Savage Stomp tries to resolve, you won't put a +1/+1 counter on it. If that creature is a legal target but the other creature isn't, you'll still put the counter on the creature you control.
+  - *2017-09-29* — You can't cast Savage Stomp unless you choose both a creature you control and a creature you don't control as targets.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/257/savage-stomp) · oracle_id `2ecda58d-9aa9-4857-bdc5-b6b7b70a79c0` · printing: LCC #257 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Savage Summoning
 
@@ -306,7 +314,11 @@
   > This spell can't be countered.
   > The next creature spell you cast this turn can be cast as though it had flash. That spell can't be countered. That creature enters with an additional +1/+1 counter on it.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9795 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m14/194/savage-summoning) · oracle_id `30c09562-0bca-4382-ae84-aca00e0eb89b` · printing: M14 #194 (2013-07-19) · [rulings](https://api.scryfall.com/cards/b5346ed7-2e17-4d8c-9c4b-b5efdd26380d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2013-07-01* — If you cast multiple Savage Summonings in succession, they’ll apply to the next creature spell you cast. That creature will enter the battlefield with that many additional +1/+1 counters on it.
+  - *2013-07-01* — Spells that would counter Savage Summoning or the relevant creature spell can still be cast. They won’t counter the spell, but any additional effects they have will happen.
+  - *2013-07-01* — You don’t choose a creature card when Savage Summoning resolves. Rather, it applies to the next creature card you cast that turn, even if you cast it at a time when you normally could cast a creature and even if you cast it from a zone other than your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m14/194/savage-summoning) · oracle_id `30c09562-0bca-4382-ae84-aca00e0eb89b` · printing: M14 #194 (2013-07-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Savage Surge
 
@@ -367,7 +379,9 @@
   > Whenever this creature attacks, add {R}{R}{R}{G}{G}{G}. Until end of turn, you don't lose this mana as steps and phases end.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1684 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/665/savage-ventmaw) · oracle_id `f743d85f-754e-4e70-9907-af54acb9e8d4` · printing: FDN #665 (2024-11-15) · [rulings](https://api.scryfall.com/cards/50027d69-8bb0-444c-8e9b-4c9afd91cbda/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2015-02-25* — This mana won't be lost as steps and phases end for the remainder of the turn even if Savage Ventmaw leaves the battlefield during the turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/665/savage-ventmaw) · oracle_id `f743d85f-754e-4e70-9907-af54acb9e8d4` · printing: FDN #665 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Savai Crystal
 
@@ -585,7 +599,12 @@
   > *Edibility is in the eye of the beholder.*
 - **Keywords:** Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9269 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/109/savor) · oracle_id `dfc1dc36-0cc2-47cc-b0dd-1cc7c31057aa` · printing: BLB #109 (2024-08-02) · [rulings](https://api.scryfall.com/cards/1397f689-dca1-4d35-864b-92c5606afb9a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-07-26* — If the target creature is an illegal target as Savor tries to resolve, it won't resolve and none of its effects will happen. You won't create a Food token.
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/109/savor) · oracle_id `dfc1dc36-0cc2-47cc-b0dd-1cc7c31057aa` · printing: BLB #109 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Savor the Moment
 
@@ -596,6 +615,7 @@
 - **Flavor text** (SHM printing):
   > *The merrow took a moment for herself. She never gave it back.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8824 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/shm/50/savor-the-moment) · oracle_id `d5b9b75d-4bf0-4328-9bb3-7b260a0c46af` · printing: SHM #50 (2008-05-02) · [rulings](https://api.scryfall.com/cards/93a0d9ad-31bf-4561-a5b2-f44a12a2c2c2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Savra, Queen of the Golgari
@@ -609,7 +629,10 @@
 - **Flavor text** (RVR printing):
   > *"Nature's most raw beauty is the circle: perfect in its continuance, with no break between death and life."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6053 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/218/savra-queen-of-the-golgari) · oracle_id `641db975-cf94-44c6-a391-f540a952e0d8` · printing: RVR #218 (2024-01-12) · [rulings](https://api.scryfall.com/cards/e189f09e-d637-4631-bae3-a5a583ada429/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-01-12* — Sacrificing a creature that's both black and green will make both abilities trigger. You may put them on the stack in whichever order you want.
+  - *2024-01-12* — Savra itself doesn't let you sacrifice creatures. Its abilities trigger whenever you sacrifice a black or green creature because some other spell, ability, or cost instructed you to do so.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/218/savra-queen-of-the-golgari) · oracle_id `641db975-cf94-44c6-a391-f540a952e0d8` · printing: RVR #218 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Savvy Hunter
 
@@ -623,7 +646,12 @@
   > *None of the other villagers dare venture into the wilds, so she feeds the whole hamlet herself.*
 - **Keywords:** Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3288 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eld/200/savvy-hunter) · oracle_id `602132c2-8ee8-41f8-bfac-cb17d32203f5` · printing: ELD #200 (2019-10-04) · [rulings](https://api.scryfall.com/cards/15c98441-2b31-4e48-a399-f36dffcfa41d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, you can sacrifice Tough Cookie (an Artifact Creature — Food Golem) to activate Maraleaf Rider's ability (an ability with "Sacrifice a Food" in its cost).
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eld/200/savvy-hunter) · oracle_id `602132c2-8ee8-41f8-bfac-cb17d32203f5` · printing: ELD #200 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Savvy Trader
 
@@ -636,4 +664,9 @@
 - **Flavor text** (OTC printing):
   > *"A little dirt doesn't indicate quality—with goods or with people."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4515 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/33/savvy-trader) · oracle_id `c1aba8c7-d940-4d5d-a176-68cc226906de` · printing: OTC #33 (2024-04-19) · [rulings](https://api.scryfall.com/cards/118f25cf-faa6-4d60-a156-27bf7aedf7eb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-04-12* — Savvy Trader’s last ability can’t reduce the amount of colored mana you pay for a spell. It reduces only the generic mana component of that spell’s cost.
+  - *2024-04-12* — Savvy Trader’s last ability doesn’t change the mana cost or mana value of any spell. It changes only the total cost you pay to cast spells from anywhere other than your hand.
+  - *2024-04-12* — You may play the card exiled with Savvy Trader’s first ability even if Savvy Trader leaves the battlefield. If another player gains control of Savvy Trader, that player can’t play the card, and you still can.
+  - *2024-04-12* — You pay all costs and follow all normal timing rules for the card played from exile with Savvy Trader’s first ability. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/33/savvy-trader) · oracle_id `c1aba8c7-d940-4d5d-a176-68cc226906de` · printing: OTC #33 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

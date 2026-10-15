@@ -88,6 +88,7 @@
 - **Flavor text** (SOK printing):
   > *"Heart of Sokenzan, I call to you! Lend me your fire."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8871 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/105/inner-fire) · oracle_id `27348fe5-21d4-40f7-9feb-bba2c2321008` · printing: SOK #105 (2005-06-03) · [rulings](https://api.scryfall.com/cards/b1d886a2-ae83-4d95-9ec0-582c563181e6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inner-Flame Acolyte
@@ -210,7 +211,9 @@
 - **Flavor text** (JMP printing):
   > *Zombies mourn for the living and celebrate those who will soon be given the gift of death.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4048 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/244/innocent-blood) · oracle_id `6791ec3c-c397-4087-8c8c-84d3797df415` · printing: JMP #244 (2020-07-17) · [rulings](https://api.scryfall.com/cards/29184c64-03f3-4a50-ac18-e34b6c89635e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-06-08* — You can cast Innocent Blood even if some (or all) players control no creatures. Those players are simply unaffected.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/244/innocent-blood) · oracle_id `6791ec3c-c397-4087-8c8c-84d3797df415` · printing: JMP #244 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Innocent Bystander
 

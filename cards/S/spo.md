@@ -289,7 +289,10 @@
   > *"The identifying ornamental growths of alpha thallids may be hereditary, or catalyzed by some chemical signal."*
   > *—\*Sarpadian Empires, vol. III\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6059 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dom/181/sporecrown-thallid) · oracle_id `d0c2ca8a-c5d4-4684-bacb-46c04f47c276` · printing: DOM #181 (2018-04-27) · [rulings](https://api.scryfall.com/cards/658b93b5-e16a-4a1a-bd26-74a9f25caffe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-04-27* — Because damage remains marked on a creature until it's removed as the turn ends, nonlethal damage dealt to a Fungus or Saproling creature you control may become lethal if Sporecrown Thallid leaves the battlefield during that turn.
+  - *2018-04-27* — If a creature is somehow both a Fungus and a Saproling, Sporecrown Thallid's ability gives it only +1/+1.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dom/181/sporecrown-thallid) · oracle_id `d0c2ca8a-c5d4-4684-bacb-46c04f47c276` · printing: DOM #181 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spore Flower
 
@@ -312,6 +315,7 @@
 - **Flavor text** (MH1 printing):
   > *A progenitor of tadpoles and allergies in equal measure.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1147 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh1/180/spore-frog) · oracle_id `97db6c39-e690-49b6-93a6-e51b8dfad10b` · printing: MH1 #180 (2019-06-14) · [rulings](https://api.scryfall.com/cards/6d42fd52-34ea-4d1b-80dc-58fb0593bb5b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sporemound
@@ -326,7 +330,9 @@
   > *—Hadi Kasten, Calla Dale naturalist*
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3669 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/437/sporemound) · oracle_id `1be56a3d-a6c0-4b65-ae71-3d90ceefc6c0` · printing: CMR #437 (2020-11-20) · [rulings](https://api.scryfall.com/cards/092bfc5f-8002-43da-8e70-c19fccfe54ac/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-07-01* — Sporemound's ability triggers whenever you play a land and also whenever a land enters the battlefield under your control for some other reason, such as the ability of Into the Wilds.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/437/sporemound) · oracle_id `1be56a3d-a6c0-4b65-ae71-3d90ceefc6c0` · printing: CMR #437 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sporesower Thallid
 
@@ -337,7 +343,9 @@
   > At the beginning of your upkeep, put a spore counter on each Fungus you control.
   > Remove three spore counters from this creature: Create a 1/1 green Saproling creature token.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8991 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/231/sporesower-thallid) · oracle_id `dd840d84-bc4a-4420-b8ac-99093a5aa253` · printing: TSR #231 (2021-03-19) · [rulings](https://api.scryfall.com/cards/babc8043-bfed-45e3-9d04-1967534f77b2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-09-25* — Sporesower Thallid's triggered ability will put a spore counter on each Fungus creature you control, even if that Fungus doesn't have any abilities that makes use of them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/231/sporesower-thallid) · oracle_id `dd840d84-bc4a-4420-b8ac-99093a5aa253` · printing: TSR #231 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spore Swarm
 
@@ -362,7 +370,12 @@
   > *It spins its web throughout the undercity, strange growths sprouting in its wake.*
 - **Keywords:** Reach, Hexproof from, Hexproof
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8181 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m21/208/sporeweb-weaver) · oracle_id `2e7c3881-6fa6-4fd2-ae86-9e3a0fcecdbd` · printing: M21 #208 (2020-07-03) · [rulings](https://api.scryfall.com/cards/e6ab63c8-0adc-4d74-aee5-a58ce5c0dad8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-06-23* — Hexproof from blue means that Sporeweb Weaver can't be the target of blue spells your opponents control or abilities your opponents control of blue sources.
+  - *2020-06-23* — If your life total is brought to 0 or less at the same time that Sporeweb Weaver is dealt damage, you lose the game before the ability goes on the stack.
+  - *2020-06-23* — Sporeweb Weaver's last ability triggers even if the damage causes it to die.
+  - *2020-06-23* — Sporeweb Weaver's last ability triggers just once, no matter how many things deal how much damage to it at once (most likely because two or more creatures blocked it).
+- **Source flags:** [Scryfall](https://scryfall.com/card/m21/208/sporeweb-weaver) · oracle_id `2e7c3881-6fa6-4fd2-ae86-9e3a0fcecdbd` · printing: M21 #208 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sporocyst
 
@@ -375,7 +388,12 @@
   > Spore Chimney — When this creature enters, search your library for up to X basic land cards, put them onto the battlefield tapped, then shuffle.
 - **Keywords:** Spore Chimney, Ravenous, Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4895 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/40k/98/sporocyst) · oracle_id `ed58a617-cf86-4c2e-8044-1af37b1a1465` · printing: 40K #98 (2022-10-07) · [rulings](https://api.scryfall.com/cards/72101d5f-f3a4-4490-a6f5-c320f3aeb242/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-10-07* — A creature with ravenous gets its counters as it enters the battlefield. It doesn't enter the battlefield first and then get its counters. Any triggered ability that looks for a creature with a certain power or toughness entering the battlefield will see the counters when it checks to see if it should trigger.
+  - *2022-10-07* — If a permanent spell with ravenous is copied, the copy will have the same value for X, and the token permanent that the spell becomes as it enters the battlefield will enter with X counters.
+  - *2022-10-07* — If another permanent enters the battlefield as a copy of a creature with Ravenous, it will not enter with any counters from the ravenous ability.
+  - *2022-10-07* — The triggered ability that checks to see if X is 5 or greater refers to the value of X that was chosen as the spell was cast, which may be different from the number of counters it entered with if there are replacement effects involved. This is also true for any other ability that it has which refers to X and triggers when it enters the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/40k/98/sporocyst) · oracle_id `ed58a617-cf86-4c2e-8044-1af37b1a1465` · printing: 40K #98 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sporogenesis
 
@@ -409,7 +427,10 @@
   > At the beginning of your upkeep, put a spore counter on this creature.
   > Creatures you control have "Remove two spore counters from this creature: Create a 1/1 green Saproling creature token."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9289 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/232/sporoloth-ancient) · oracle_id `071e15b5-6d21-4695-9ad0-69f40eb8f4ef` · printing: TSR #232 (2021-03-19) · [rulings](https://api.scryfall.com/cards/57a96041-1b20-464e-9119-93c19675ac46/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2007-05-01* — All creatures you control gain the ability, regardless of whether they have spore counters on them, which means for example, they would lose the bonus from Muraganda Petroglyphs.
+  - *2007-05-01* — Your other creatures that produce spore counters (such as Thallids) can create a Saproling by removing two spore counters (by using this ability) or by removing three spore counters (by using their own ability).
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/232/sporoloth-ancient) · oracle_id `071e15b5-6d21-4695-9ad0-69f40eb8f4ef` · printing: TSR #232 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spotcycle Scouter
 

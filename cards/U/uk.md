@@ -28,7 +28,11 @@
   > When Ukkima leaves the battlefield, it deals X damage to target player and you gain X life, where X is its power.
 - **Keywords:** Partner with, Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9717 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner, Partner with
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/247/ukkima-stalking-shadow) · oracle_id `b8c3cb84-0a30-420d-8fc3-bb85ce69b5e8` · printing: OTC #247 (2024-04-19) · [rulings](https://api.scryfall.com/cards/c66b452b-9c49-4c58-9966-6bafbfa34c36/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-04-17* — If the target player is an illegal target by the time Ukkima's last ability tries to resolve, the ability won't resolve. You won't gain any life.
+  - *2020-04-17* — If your life total is brought to 0 or less at the same time that Ukkima is dealt lethal damage, you lose the game before the last ability goes on the stack.
+  - *2020-04-17* — Use Ukkima's power as it last existed on the battlefield to determine how much damage it deals and how much life you gain. If that number is negative, it deals no damage and you gain no life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/247/ukkima-stalking-shadow) · oracle_id `b8c3cb84-0a30-420d-8fc3-bb85ce69b5e8` · printing: OTC #247 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Uktabi Drake
 
@@ -97,6 +101,7 @@
   > *"Is it true that the apes wear furs of gold when they marry?"*
   > *—Rana, Suq'Ata market fool*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9648 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/6ed/260/uktabi-orangutan) · oracle_id `6cc07a7e-e70c-45c5-83c5-a2704e57dbc5` · printing: 6ED #260 (1999-04-21) · [rulings](https://api.scryfall.com/cards/b6a944ef-dbf2-47c9-a245-dfd2533a0680/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Uktabi Wildcats

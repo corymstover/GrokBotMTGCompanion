@@ -72,7 +72,13 @@
   > −3: Draw three cards, then discard two cards.
   > −10: Draw three cards. You get an emblem with "Instant and sorcery spells you cast have storm." (Whenever you cast an instant or sorcery spell, copy it for each spell cast before it this turn.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2239 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/230/ral-crackling-wit) · oracle_id `3c970f43-17da-4187-a084-efd53b579067` · printing: BLB #230 (2024-08-02) · [rulings](https://api.scryfall.com/cards/acfde780-899a-4c5b-a39b-f4a3ff129103/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-07-26* — A copy of a spell can be countered like any other spell, but it must be countered individually. Countering a spell with storm won't affect the copies.
+  - *2024-07-26* — If a spell has multiple instances of storm, each will trigger separately.
+  - *2024-07-26* — Ral's first ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+  - *2024-07-26* — Spells cast from zones other than a player's hand and spells that were countered or otherwise failed to resolve are counted by the storm ability.
+  - *2024-07-26* — The copies of instant and sorcery spells you cast created by the storm ability are put directly onto the stack. They aren't cast and won't be counted by other spells with storm cast later in the turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/230/ral-crackling-wit) · oracle_id `3c970f43-17da-4187-a084-efd53b579067` · printing: BLB #230 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ral, Izzet Viceroy
 
@@ -107,6 +113,7 @@
 - **Flavor text** (LTR printing):
   > *With a cry and a great noise they charged. Down from the gates they roared, over the causeway they swept, and they drove through the hosts of Isengard as a wind among grass.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8158 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/142/rally-at-the-hornburg) · oracle_id `7d3f542a-de64-4de8-9de0-0e25004467f1` · printing: LTR #142 (2023-06-23) · [rulings](https://api.scryfall.com/cards/ee7292f7-1c7e-449c-9c52-7584d6a14c2c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rally for the Throne
@@ -155,7 +162,9 @@
 - **Flavor text** (WAR printing):
   > *Even the clouds became a field of battle. Known as the Sky Theater, it saw the Eternals clash with squadrons of angels.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7297 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/war/27/rally-of-wings) · oracle_id `984336a7-85bd-4549-9771-03a0c2367db0` · printing: WAR #27 (2019-05-03) · [rulings](https://api.scryfall.com/cards/f043642d-35fe-4ea9-a1d3-78ddfdddeaf4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-05-03* — Rally of Wings affects only creatures you control at the time it resolves. Creatures that gain flying later in the turn or that you begin to control later in the turn won't get +2/+2.
+- **Source flags:** [Scryfall](https://scryfall.com/card/war/27/rally-of-wings) · oracle_id `984336a7-85bd-4549-9771-03a0c2367db0` · printing: WAR #27 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rally the Ancestors
 
@@ -238,7 +247,10 @@
 - **Flavor text** (KHM printing):
   > *Halvar united the spirits of all the clans into a single, devastating force.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4708 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/20/rally-the-ranks) · oracle_id `eeb07c8a-21d1-43fa-a5f3-ee3fe328a671` · printing: KHM #20 (2021-02-05) · [rulings](https://api.scryfall.com/cards/03595195-3be2-4d18-b5c0-43b2dcc1c0f5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-02-05* — Because damage remains marked on creatures until the damage is removed as the turn ends, nonlethal damage dealt to creatures you control may become lethal if Rally the Ranks leaves the battlefield that turn.
+  - *2021-02-05* — You must choose an existing creature type, such as Hippo or Hellion. You can’t choose card types (e.g., artifact) or supertypes (e.g., snow).
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/20/rally-the-ranks) · oracle_id `eeb07c8a-21d1-43fa-a5f3-ee3fe328a671` · printing: KHM #20 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rally the Righteous
 
@@ -288,7 +300,25 @@
   > −8: Exile the top eight cards of your library. You may cast instant and sorcery spells from among them this turn without paying their mana costs.
 - **Keywords:** Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3578 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/247/ral-monsoon-mage-ral-leyline-prodigy) · oracle_id `16d40f56-691b-42a7-a5ab-157568921e03` · printing: MH3 #247 (2024-06-14) · [rulings](https://api.scryfall.com/cards/438d8a26-ddc9-4829-8aff-22d6af6575cf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (17):
+  - *2024-06-07* — A transforming double-faced card enters the battlefield with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed or allows you to cast it transformed, in which case it enters with its back face up.
+  - *2024-06-07* — Each face of a transforming double-faced card has its own set of characteristics: name, types, subtypes, abilities, and so on. While a transforming double-faced permanent is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored.
+  - *2024-06-07* — Each transforming double-faced card in this set is cast with its front face up. In every zone other than the battlefield, consider only the characteristics of its front face. If it is on the battlefield, consider only the characteristics of the face that's up; the other face's characteristics are ignored.
+  - *2024-06-07* — If Ral, Monsoon Mage is exiled and returns transformed while one or more instances of his triggered ability are still on the stack, those abilities will still resolve. However, if the controller of one of those abilities wins the flip, nothing will happen since the object that ability refers to is no longer on the battlefield.
+  - *2024-06-07* — If one of the exiled cards has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-06-07* — If some of the targets are illegal as Ral, Leyline Prodigy's second loyalty ability tries to resolve, the original division of damage still applies and the damage that would have been dealt to the illegal targets is lost. It won't be dealt instead to a legal target. If all of the targets are illegal, the ability won't resolve and none of its effects will happen. You won't draw a card.
+  - *2024-06-07* — If you are instructed to put a card that isn't a double-faced card onto the battlefield transformed, it will not enter the battlefield at all. In that case, it stays in the zone it was previously in. For example, if a single-faced card is a copy of Ral, Monsoon Mage, choosing to exile that permanent during the resolution of its triggered ability will cause it to remain in exile.
+  - *2024-06-07* — If you cast a spell "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs, such as kicker costs. If the spell has any mandatory additional costs, those must be paid to cast it.
+  - *2024-06-07* — In some rare cases, a spell or ability may cause Ral, Monsoon Mage to transform while he's a creature (front face up) on the battlefield. If this happens, Ral, Leyline Prodigy won't have any loyalty counters on him and will subsequently be put into his owner's graveyard.
+  - *2024-06-07* — In the Commander variant, a double-faced card's color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered. For example, Ral, Monsoon Mage's color identity is blue and red, since its front face is red and its back face has a blue and red color indicator.
+  - *2024-06-07* — The back face of a transforming double-faced card usually has a color indicator that defines its color. Colorless back faces, such as lands, do not.
+  - *2024-06-07* — The first ability of Ral, Leyline Prodigy will count any instant and sorcery spells you've cast that turn, including ones that were countered, didn't resolve for other reasons, or are still on the stack.
+  - *2024-06-07* — The mana value of a transforming double-faced card is the mana value of its front face, no matter which face is up.
+  - *2024-06-07* — You can activate one of Ral, Leyline Prodigy's loyalty abilities the turn he enters the battlefield. However, you may do so only during one of your main phases when the stack is empty. For example, if Ral, Leyline Prodigy enters the battlefield during combat, there will be an opportunity for your opponent to remove him before you can activate one of his abilities.
+  - *2024-06-07* — You choose how many targets Ral, Leyline Prodigy's second loyalty ability has and how the damage is divided as you activate the ability. Each target must receive at least 1 damage.
+  - *2024-06-07* — You flip a coin as Ral, Monsoon Mage's triggered ability resolves. No player may take actions between seeing the result of the flip and the effects that occur based on the result of the flip.
+  - *2024-06-07* — You follow all normal timing rules for spells cast with the permission granted by Ral, Leyline Prodigy's last ability. For example, if one of the exiled cards is a sorcery, you can cast it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/247/ral-monsoon-mage-ral-leyline-prodigy) · oracle_id `16d40f56-691b-42a7-a5ab-157568921e03` · printing: MH3 #247 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ral's Dispersal
 
@@ -320,6 +350,7 @@
 - **Flavor text** (MOM printing):
   > *"Good thing maintenance never got around to decatalyzing the bithermic plasma displacement conduits!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9468 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/158/rals-reinforcements) · oracle_id `e7fa2fc2-8542-4069-b75f-5520dd30f74d` · printing: MOM #158 (2023-04-21) · [rulings](https://api.scryfall.com/cards/74d0bb76-075c-49d7-9afb-e5bcf5b654f7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ral's Staticaster
@@ -345,7 +376,15 @@
   > −2: When you next cast an instant or sorcery spell this turn, copy that spell. You may choose new targets for the copy.
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3735 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/war/211/ral-storm-conduit) · oracle_id `b7da26c9-78a6-41c5-a5ef-6555e8274d7a` · printing: WAR #211 (2019-05-03) · [rulings](https://api.scryfall.com/cards/678ce3bf-152d-45ca-87ae-ad46c921328b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2019-05-03* — If an effect copies a spell multiple times, as Finale of Promise may, Ral's first ability triggers that many times.
+  - *2019-05-03* — If the spell that's copied has damage divided as it was cast, the division can't be changed (although the targets receiving that damage still can). The same is true of spells that distribute counters.
+  - *2019-05-03* — If the spell that's copied is modal (that is, it says "Choose one —" or the like), the copy created by Ral's last ability will have the same mode or modes. You can't choose different ones.
+  - *2019-05-03* — Some spells instruct you to "copy target instant or sorcery spell." Because a spell is never a legal target for itself, you can't cast such a spell targeting itself to create a loop that causes Ral's first ability to trigger over and over.
+  - *2019-05-03* — The copies that Ral's last ability creates are created on the stack, so they're not "cast." Abilities that trigger when a player casts a spell won't trigger.
+  - *2019-05-03* — You can't choose to pay any additional costs for the copy created by Ral's last ability. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too.
+  - *2019-06-14* — If an effect copies a card rather than a spell (such as that of God-Eternal Kefnet), this doesn't cause Ral's first ability to trigger. That ability will trigger if you cast the copy, however.
+- **Source flags:** [Scryfall](https://scryfall.com/card/war/211/ral-storm-conduit) · oracle_id `b7da26c9-78a6-41c5-a5ef-6555e8274d7a` · printing: WAR #211 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ral Zarek
 
@@ -357,7 +396,10 @@
   > −2: Ral Zarek deals 3 damage to any target.
   > −7: Flip five coins. Take an extra turn after this one for each coin that comes up heads.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5919 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/216/ral-zarek) · oracle_id `75ed6946-e7b1-4bf8-a05c-62a2ba5a6c79` · printing: RVR #216 (2024-01-12) · [rulings](https://api.scryfall.com/cards/3bdd2b4b-5ba3-4984-8d48-c4c1d75dd177/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-01-12* — Ral Zarek's first ability can target any two permanents. It doesn't matter whether they're tapped or untapped. If the first target is tapped as the ability resolves, it will just stay tapped. Similarly, if the second target is untapped as the ability resolves, it will stay untapped.
+  - *2024-01-12* — The five coins you flip for Ral Zarek's last ability aren't called, and no one wins or loses these flips. Abilities that care about a player winning or losing a coin flip won't consider these flips.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/216/ral-zarek) · oracle_id `75ed6946-e7b1-4bf8-a05c-62a2ba5a6c79` · printing: RVR #216 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ral Zarek, Guest Lecturer
 
@@ -371,4 +413,7 @@
   > −7: Flip five coins. Target opponent skips their next X turns, where X is the number of coins that came up heads.
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8981 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/97/ral-zarek-guest-lecturer) · oracle_id `0dc76b7f-6405-44a1-8c55-31fa480ff70b` · printing: SOS #97 (2026-04-24) · [rulings](https://api.scryfall.com/cards/8fbad757-4081-42f7-a460-68ac03e77510/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2026-03-20* — If a card in a graveyard has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
+  - *2026-03-20* — When Ral Zarek's second ability resolves, the next target player in turn order (or, if it's a target player's turn, that player) chooses a card in hand without revealing it, then each other target player in turn order (if any) does the same. All chosen cards are then discarded at the same time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/97/ral-zarek-guest-lecturer) · oracle_id `0dc76b7f-6405-44a1-8c55-31fa480ff70b` · printing: SOS #97 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

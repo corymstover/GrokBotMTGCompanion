@@ -72,7 +72,9 @@
   > When there are four or more page counters on this artifact, exile it. If you do, you gain 4 life.
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6341 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/676/mazemind-tome) · oracle_id `800fb917-8898-4eba-9f94-aec6e9d75236` · printing: FDN #676 (2024-11-15) · [rulings](https://api.scryfall.com/cards/f45072cd-e3f2-4090-b984-50ec8d360bf2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-06-23* — If Mazemind Tome leaves the battlefield while its triggered ability is on the stack, you can't exile it from the zone it's put into.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/676/mazemind-tome) · oracle_id `800fb917-8898-4eba-9f94-aec6e9d75236` · printing: FDN #676 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maze of Ith
 
@@ -122,7 +124,12 @@
   > {T}: Add {C}.
   > {3}, {T}, Return this land to its owner's hand: Search your library for a Gate card, put it onto the battlefield, then shuffle. If you control ten or more Gates with different names, you win the game.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2972 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/727/mazes-end) · oracle_id `49479778-c4c0-43ba-a7b7-45f00d067462` · printing: FDN #727 (2024-11-15) · [rulings](https://api.scryfall.com/cards/ea9a4d1a-79dd-4b15-8e3b-f111f16d6bfc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2013-04-15* — Controlling multiple Gates with the same name has no effect on your ability to win the game with Maze's End. The excess Gates are simply ignored.
+  - *2013-04-15* — Putting a Gate onto the battlefield with Maze's End doesn't count as the one land you can play during your turn. If it's your turn, you can play Maze's End or a different land card from your hand after its ability has resolved.
+  - *2013-04-15* — Returning Maze's End to its owner's hand is part of the cost to activate its last ability. Once that ability is announced, players can't respond to it until after you've paid its activation cost and returned Maze's End to hand.
+  - *2013-04-15* — When the last ability of Maze's End resolves, you'll search for a Gate and put it onto the battlefield before checking to see if you win the game. This check will happen even if you don't put a Gate onto the battlefield this way. This check will happen only as the ability resolves, not at other times.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/727/mazes-end) · oracle_id `49479778-c4c0-43ba-a7b7-45f00d067462` · printing: FDN #727 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maze Sentinel
 
@@ -175,7 +182,12 @@
   > *The clicks and buzz of the undercity proclaim him the incarnation of decay.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1570 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/319/mazirek-kraul-death-priest) · oracle_id `e0420f2c-d578-421e-ae75-e7dc5f70661a` · printing: SOC #319 (2026-04-24) · [rulings](https://api.scryfall.com/cards/940ae3c2-7ac2-412b-afd0-c8b0099bc3aa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-08-07* — A legendary permanent that is put into a graveyard because of the "legend rule" isn't sacrificed.
+  - *2020-08-07* — If you sacrifice Mazirek and other permanents at the same time, Mazirek's last ability triggers for the other permanents.
+  - *2020-08-07* — If you sacrifice a permanent as part of casting a spell or activating an ability, Mazirek's last ability will resolve before that spell or ability.
+  - *2020-08-07* — Mazirek's last ability is a triggered ability, not an activated ability. It doesn't allow you to sacrifice a permanent whenever you want; rather, you need some other way of sacrificing permanents.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/319/mazirek-kraul-death-priest) · oracle_id `e0420f2c-d578-421e-ae75-e7dc5f70661a` · printing: SOC #319 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mazzy, Truesword Paladin
 

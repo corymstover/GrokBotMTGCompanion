@@ -62,7 +62,9 @@
   > *"The raging gale fans the flames of righteous wrath."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2945 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/343/kykar-winds-fury) · oracle_id `71a80491-eea2-4661-9446-26a87efbf4a8` · printing: CMM #343 (2023-08-04) · [rulings](https://api.scryfall.com/cards/fdb034c8-bae0-4f66-98f1-1b3cdc072f17/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-07-12* — Kykar's triggered ability will resolve before the spell that caused it to trigger but after targets have been chosen for that spell, so the Spirit that will be created can't be a target of that spell. Kykar's ability resolves even if that spell is countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/343/kykar-winds-fury) · oracle_id `71a80491-eea2-4661-9446-26a87efbf4a8` · printing: CMM #343 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kykar, Zephyr Awakener
 
@@ -76,6 +78,7 @@
   > • Create a 1/1 white Spirit creature token with flying.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4189 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/122/kykar-zephyr-awakener) · oracle_id `0156c94b-e64c-49de-a46c-a203c5e05e98` · printing: FDN #122 (2024-11-15) · [rulings](https://api.scryfall.com/cards/6c980998-7124-4ec6-a0b6-e8d9a2364925/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kylem All-Star
@@ -100,7 +103,10 @@
 - **Flavor text** (MIC printing):
   > *"Even when the angels succumbed to madness, Sigarda stood strong. She is hope."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6596 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mic/4/kyler-sigardian-emissary) · oracle_id `726cd041-5d0b-436c-bced-9335f56c0b0d` · printing: MIC #4 (2021-09-24) · [rulings](https://api.scryfall.com/cards/62a78aae-598e-4f2b-a7bc-c3afc1d0d191/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-09-24* — If Kyler enters the battlefield at the same time as other Humans you control, Kyler's first ability will trigger once for each of those Humans.
+  - *2021-09-24* — Kyler's second ability counts all counters, not just +1/+1 counters.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mic/4/kyler-sigardian-emissary) · oracle_id `726cd041-5d0b-436c-bced-9335f56c0b0d` · printing: MIC #4 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kylox's Voltstrider
 
@@ -137,7 +143,10 @@
 - **Flavor text** (C16 printing):
   > *"Look what we fought for. Look what we built together."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6643 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/c16/36/kynaios-and-tiro-of-meletis) · oracle_id `53ee4254-fef7-49ec-aafc-0320987764e6` · printing: C16 #36 (2016-11-11) · [rulings](https://api.scryfall.com/cards/97fa8615-2b6c-445a-bcaf-44a7e847bf65/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2016-11-08* — If the card you draw is a land card, you may choose it to put onto the battlefield.
+  - *2016-11-08* — Starting with you and proceeding in turn order, each player chooses a land card from their hand or chooses not to choose one, but doesn’t reveal any chosen lands yet. Once all players have made this choice, all chosen lands are revealed and enter the battlefield simultaneously.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c16/36/kynaios-and-tiro-of-meletis) · oracle_id `53ee4254-fef7-49ec-aafc-0320987764e6` · printing: C16 #36 (2016-11-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kyodai, Soul of Kamigawa
 
@@ -188,7 +197,9 @@
   > When Kyoshi Island Plaza enters, search your library for up to X basic land cards, where X is the number of Shrines you control. Put those cards onto the battlefield tapped, then shuffle.
   > Whenever another Shrine you control enters, search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7721 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/184/kyoshi-island-plaza) · oracle_id `c0cdc333-6c5a-401c-9810-220d2027f2fe` · printing: TLA #184 (2025-11-21) · [rulings](https://api.scryfall.com/cards/9c25ea98-9823-4487-bf6b-ee29ce5a4ed8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-10-02* — For Kyoshi Island Plaza's first ability, the number of Shrines you control is checked when the ability resolves. You will still search and shuffle your library if you control no Shrines when the ability resolves, but you won't get any lands.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/184/kyoshi-island-plaza) · oracle_id `c0cdc333-6c5a-401c-9810-220d2027f2fe` · printing: TLA #184 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kyoshi Village
 
@@ -202,6 +213,7 @@
   > *"I created Kyoshi Island so my people could be safe from invaders."*
   > *—Avatar Kyoshi*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6938 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/271/kyoshi-village) · oracle_id `da81b78b-89fd-4fc1-9395-b5b01b96be70` · printing: TLA #271 (2025-11-21) · [rulings](https://api.scryfall.com/cards/8d5f3008-2af8-4e81-8847-1c91f524e747/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kyoshi Warrior Exemplars

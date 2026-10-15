@@ -100,7 +100,13 @@
   > Embalm {W} ({W}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a white Zombie Cat with no mana cost. Embalm only as a sorcery.)
 - **Keywords:** Lifelink, Embalm
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8339 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/akh/27/sacred-cat) · oracle_id `d85ea576-a794-44bf-b405-1f1c49477409` · printing: AKH #27 (2017-04-28) · [rulings](https://api.scryfall.com/cards/08891c78-13c1-4d84-aa9c-78346b3b7d18/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2017-04-18* — For each card with embalm, a corresponding game play supplement token can be found in some Amonkhet booster packs. These supplements are not required to play with cards with embalm; you can use the same items to represent an embalmed token as you would any other token.
+  - *2017-04-18* — The token copies exactly what was printed on the original card and nothing else. It doesn't copy any information about the object the card was before it was put into your graveyard.
+  - *2017-04-18* — The token is a Zombie in addition to its other types and is white instead of its other colors. It has no mana cost, and thus its mana value is 0. These are copiable values of the token that other effects may copy.
+  - *2017-07-14* — If a spell or ability puts a creature card with embalm into your graveyard during your main phase, you'll have priority immediately after that spell or ability resolves. You can activate the creature card's embalm ability before any player can exile it with an effect, such as that of Crook of Condemnation, if it's legal for you to do so.
+  - *2017-07-14* — Once you've activated an embalm ability, the card is immediately exiled. Opponents can't try to stop the ability by exiling the card with an effect such as that of Crook of Condemnation.
+- **Source flags:** [Scryfall](https://scryfall.com/card/akh/27/sacred-cat) · oracle_id `d85ea576-a794-44bf-b405-1f1c49477409` · printing: AKH #27 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sacred Excavation
 
@@ -211,6 +217,7 @@
 - **Flavor text** (SOC printing):
   > *Everyone is welcome in the floating Serran cities, though few but the most faithful attempt the ascent.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1776 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/402/sacred-peaks) · oracle_id `fb69bc57-f05a-41c2-9b7b-9a9761ef0cd3` · printing: SOC #402 (2026-04-24) · [rulings](https://api.scryfall.com/cards/ee2d6798-b19d-4628-bb57-05663ab4af68/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sacred Prey
@@ -268,7 +275,11 @@
   > As an additional cost to cast this spell, sacrifice a creature.
   > Add an amount of {B} equal to the sacrificed creature's mana value.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2862 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sum/126/sacrifice) · oracle_id `068b3692-411b-44d4-a7e9-005262760cfc` · printing: SUM #126 (1994-06-21) · [rulings](https://api.scryfall.com/cards/652bd781-1a48-42c1-9aff-f9050a9285d6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-10-04* — Sacrificing an animated land gives no mana since the converted mana cost was zero.
+  - *2013-04-15* — Players can only respond once this spell has been cast and all its costs have been paid. No one can try to destroy the creature you sacrificed to prevent you from casting this spell.
+  - *2013-04-15* — You must sacrifice exactly one creature to cast this spell; you cannot cast it without sacrificing a creature, and you cannot sacrifice additional creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sum/126/sacrifice) · oracle_id `068b3692-411b-44d4-a7e9-005262760cfc` · printing: SUM #126 (1994-06-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sacrifice Play
 

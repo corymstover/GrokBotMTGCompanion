@@ -46,4 +46,6 @@
 - **Flavor text** (LCC printing):
   > *In the rapture of his Blood Fast, he destroyed the navigator's tools and steered the ship to shore by faith alone.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3857 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/133/mavren-fein-dusk-apostle) · oracle_id `1b94a11b-21b0-4465-a520-69608f022fb4` · printing: LCC #133 (2023-11-17) · [rulings](https://api.scryfall.com/cards/fdc3e998-760b-41ca-9f92-270aaa82f3fb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-09-29* — Once you attack with one or more nontoken Vampires, Mavren Fein's ability will create a Vampire token even if some or all of those Vampires leave the battlefield or are removed from combat.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/133/mavren-fein-dusk-apostle) · oracle_id `1b94a11b-21b0-4465-a520-69608f022fb4` · printing: LCC #133 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

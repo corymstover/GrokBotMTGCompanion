@@ -119,7 +119,11 @@
   > Body Thief — You may play lands and cast spells from among cards exiled with this creature. If you cast a spell this way, you may spend mana as though it were mana of any color to cast it.
 - **Keywords:** Devour Intellect, Body Thief
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7608 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/132/intellect-devourer) · oracle_id `a06fa827-900b-46d4-8f48-b4e15964951a` · printing: CLB #132 (2022-06-10) · [rulings](https://api.scryfall.com/cards/a52d30a3-a436-4854-91e9-2c359c40457b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-06-10* — If Intellect Devourer leaves the battlefield before the Devour Intellect ability resolves, opponents won't exile any cards from their hands.
+  - *2022-06-10* — If a card exiled with the Devour Intellect leaves exile for any reason (most likely because it was played using the Body Thief ability), it won't be returned to the opponent's hand if Intellect Devourer leaves the battlefield.
+  - *2022-06-10* — You must still follow all normal timing rules for cards played this way. For example, you may play a land exiled this way only during your main phase and only if you haven't played a land yet this turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/132/intellect-devourer) · oracle_id `a06fa827-900b-46d4-8f48-b4e15964951a` · printing: CLB #132 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Intellectual Offering
 
@@ -129,7 +133,10 @@
   > Choose an opponent. You and that player each draw three cards.
   > Choose an opponent. Untap all nonland permanents you control and all nonland permanents that player controls.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7483 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c14/15/intellectual-offering) · oracle_id `73ec7a0b-274a-4a10-a173-ff1625d62fce` · printing: C14 #15 (2014-11-07) · [rulings](https://api.scryfall.com/cards/63de9e39-3c16-452f-9f06-4c1298752f57/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-11-07* — You choose the opponents for each effect as the spell resolves.
+  - *2014-11-07* — You may choose the same opponent for each of the effects, or you may choose different opponents. None of the affected players are targets of the spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c14/15/intellectual-offering) · oracle_id `73ec7a0b-274a-4a10-a173-ff1625d62fce` · printing: C14 #15 (2014-11-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Intelligence Bobblehead
 
@@ -141,7 +148,9 @@
 - **Flavor text** (PIP printing):
   > *Bobbleheads were once an exclusive perk for Vault-Tec executives and residential vault dwellers.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5905 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/134/intelligence-bobblehead) · oracle_id `16e6bd4b-fbf1-4bbe-9271-a74f59320e0d` · printing: PIP #134 (2024-03-08) · [rulings](https://api.scryfall.com/cards/e6546c0d-6be2-4ced-9d7c-4269df8dea76/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-03-08* — The value of X is determined only once, as Intelligence Bobblehead’s last ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/134/intelligence-bobblehead) · oracle_id `16e6bd4b-fbf1-4bbe-9271-a74f59320e0d` · printing: PIP #134 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Interceptor Mechan
 
@@ -200,7 +209,10 @@
 - **Flavor text** (SPM printing):
   > *The device crackled to life, the portal opened, and Gwen's allies across the Great Web poured forth.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6305 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/spm/165/interdimensional-web-watch) · oracle_id `456dbec4-1b0e-48c4-abae-5c8205651872` · printing: SPM #165 (2025-09-26) · [rulings](https://api.scryfall.com/cards/87a8e112-e72f-413f-88a3-e7ce72c2ec53/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-09-19* — Mana from Interdimensional Web Watch's last ability may be spent on any spells cast from exile, not just spells cast from exile via its first ability.
+  - *2025-09-19* — You must follow all normal timing rules when playing a land or casting a spell this way.
+- **Source flags:** [Scryfall](https://scryfall.com/card/spm/165/interdimensional-web-watch) · oracle_id `456dbec4-1b0e-48c4-abae-5c8205651872` · printing: SPM #165 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Interdisciplinary Mascot
 
@@ -226,6 +238,7 @@
 - **Flavor text** (DFT printing):
   > *To the Guidelight Voyagers, a vehicle is just another hardware upgrade.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7393 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/17/interface-ace) · oracle_id `c4272676-a38a-4b23-988e-9cdb2feb46c1` · printing: DFT #17 (2025-02-14) · [rulings](https://api.scryfall.com/cards/fcfd487a-a9e6-44e3-80af-bc384316106f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Interjection
@@ -262,7 +275,10 @@
   > {T}: Add {C}.
   > {1}, {T}: Add two mana of different colors. Spend this mana only to cast planeswalker spells.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3991 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/1004/interplanar-beacon) · oracle_id `073169f2-da3a-4a93-8c01-b3fd8558d225` · printing: CMM #1004 (2023-08-04) · [rulings](https://api.scryfall.com/cards/bc1bed72-2440-4364-a69f-a9d7c4fe3fea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-05-03* — Both mana produced by Interplanar Beacon’s last ability may be spent on the same planeswalker spell, or each may be spent on different planeswalker spells.
+  - *2019-05-03* — Interplanar Beacon’s first ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/1004/interplanar-beacon) · oracle_id `073169f2-da3a-4a93-8c01-b3fd8558d225` · printing: CMM #1004 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Interplanar Brushwagg
 
@@ -349,7 +365,18 @@
   > I, II, III — Create a 3/3 black Wraith creature token with menace. The Ring tempts you.
   > IV — For each opponent, gain control of up to one target creature that player controls until end of turn. Untap those creatures. They gain haste until end of turn. The Ring tempts you.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4068 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/58/in-the-darkness-bind-them) · oracle_id `c8689a83-cefa-4ef3-8ec1-58b4c64e332b` · printing: LTC #58 (2023-06-23) · [rulings](https://api.scryfall.com/cards/f7f7413b-0a65-4338-90eb-4b4c5462c21c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2023-06-16* — As the Ring tempts you, you get an emblem named The Ring if you don't have one. Then your emblem gains its next ability and you choose a creature you control to become (or remain) your Ring-bearer.
+  - *2023-06-16* — Each player can have only one emblem named The Ring and only one Ring-bearer at a time.
+  - *2023-06-16* — Each time the Ring tempts you, you must choose a creature if you control one.
+  - *2023-06-16* — If a creature targeted by In the Darkness Bind Them's final chapter ability changes controllers before the ability resolves, that creature is no longer a legal target.
+  - *2023-06-16* — If the creature you choose as your Ring-bearer was already your Ring-bearer, that still counts as choosing that creature as your Ring-bearer for the purpose of abilities that trigger "whenever you choose a creature as your Ring-bearer" or abilities that care about which creature was chosen as your Ring-bearer.
+  - *2023-06-16* — Some spells and abilities that cause the Ring to tempt you may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Ring won't tempt you.
+  - *2023-06-16* — The Ring can tempt you even if you don't control a creature. In this case, abilities that trigger "whenever the Ring tempts you" will still trigger.
+  - *2023-06-16* — The Ring gains its abilities in order from top to bottom. Once it gains an ability, it has that ability for the rest of the game.
+  - *2023-06-16* — When In the Darkness Bind Them's final chapter ability triggers, you can choose to target no creatures just so that the Ring tempts you. However, if you do choose at least one target, and all of those targets are illegal at the time the ability tries to resolve, the ability won't resolve and none of its effects will happen. The Ring won't tempt you.
+  - *2023-06-16* — While resolving In the Darkness Bind Them's first three chapter abilities, you can choose the Wraith token you just created to be your Ring-bearer as the Ring tempts you.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/58/in-the-darkness-bind-them) · oracle_id `c8689a83-cefa-4ef3-8ec1-58b4c64e332b` · printing: LTC #58 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### In the Eye of Chaos
 
@@ -395,7 +422,15 @@
 - **Flavor text** (BRO printing):
   > *The battlefield became so pockmarked with craters and trenches that casualties were regularly attributed to "fell in a hole."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9704 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/8/in-the-trenches) · oracle_id `1612a08f-fc1f-45cf-ae03-5f021a46869d` · printing: BRO #8 (2022-11-18) · [rulings](https://api.scryfall.com/cards/71ff86e9-1ce6-43cc-8135-f2adb1b6c5a7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2022-10-14* — Auras attached to the exiled permanent will be put into their owners' graveyards. Equipment attached to an exiled creature will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist.
+  - *2022-10-14* — If In the Trenches leaves the battlefield and later returns to the battlefield, it is a new object on the battlefield with no memory of the last time it was there. Its ability may be activated, even if it was activated a previous time it was on the battlefield.
+  - *2022-10-14* — If In the Trenches leaves the battlefield before its activated ability resolves, the target permanent won't be exiled.
+  - *2022-10-14* — If a token is exiled, it ceases to exist. It won't be returned to the battlefield.
+  - *2022-10-14* — In a multiplayer game, if the owner of In the Trenches leaves the game, the exiled card will return to the battlefield. Because the one-shot effect that returns the card isn't an ability that goes on the stack, it won't cease to exist along with the leaving player's spells and abilities on the stack.
+  - *2022-10-14* — The activated ability can only be activated once per game. If the ability is countered or otherwise fails to resolve after being activated, it can't be activated again.
+  - *2022-10-14* — The activated ability is a single ability that creates two one-shot effects: one that exiles the permanent when the ability resolves, and another that returns the exiled card to the battlefield immediately after In the Trenches leaves the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/8/in-the-trenches) · oracle_id `1612a08f-fc1f-45cf-ae03-5f021a46869d` · printing: BRO #8 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### In the Web of War
 
@@ -487,7 +522,10 @@
   > Whenever you attack, you may discard a card. When you do, put a +1/+1 counter on target attacking creature. It gains trample until end of turn.
   > Whenever you discard one or more cards, exile the top card of your library. You may play that card until your next end step.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1940 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/156/inti-seneschal-of-the-sun) · oracle_id `176f5ba8-6e7b-4234-a298-b6164f51656f` · printing: LCI #156 (2023-11-17) · [rulings](https://api.scryfall.com/cards/fa7a55aa-ae61-4933-b7a4-dcc55dac6fcd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-11-10* — You don't choose a target for Inti, Seneschal of the Sun's first ability at the time it triggers. Rather, a second "reflexive" ability triggers when you discard a card this way. You choose targets for that ability as it goes on the stack. Each player may respond to this triggered ability as normal.
+  - *2023-11-10* — You pay all costs and follow all normal timing rules for cards played due to the last ability. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/156/inti-seneschal-of-the-sun) · oracle_id `176f5ba8-6e7b-4234-a298-b6164f51656f` · printing: LCI #156 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### In Too Deep
 
@@ -535,7 +573,9 @@
 - **Flavor text** (MOM printing):
   > *The rest of the Gatewatch retreated. Chandra and Wrenn went in blazing.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7812 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/144/into-the-fire) · oracle_id `e7f735ce-e53b-40c0-b449-1f28fdfb2484` · printing: MOM #144 (2023-04-21) · [rulings](https://api.scryfall.com/cards/80f649bb-b163-44ae-801f-8884143c407f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-04-14* — If you choose the second mode, you choose how many cards to put on the bottom of your library as Into the Fire resolves. You may choose to put no cards on the bottom of your library and just draw a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/144/into-the-fire) · oracle_id `e7f735ce-e53b-40c0-b449-1f28fdfb2484` · printing: MOM #144 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Into the Flood Maw
 
@@ -601,6 +641,7 @@
   > *"Our border lands fall under the grip of Heidar's second winter. Go forth and reclaim them for Yavimaya."*
   > *—Kaysa, elder druid of the Juniper Order*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4846 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/csp/111/into-the-north) · oracle_id `30aefabc-5fd2-451b-aa93-8e5a972c7691` · printing: CSP #111 (2006-07-21) · [rulings](https://api.scryfall.com/cards/79cea55d-8ef3-44a5-894e-967f1e97fc02/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Into the Pit
@@ -613,7 +654,12 @@
 - **Flavor text** (DSC printing):
   > *Duskmourn never yields its secrets without exacting a brutal price.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6169 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/20/into-the-pit) · oracle_id `e330412f-46a1-4e7c-8766-f644606049e0` · printing: DSC #20 (2024-09-27) · [rulings](https://api.scryfall.com/cards/bf2fe1f5-0df5-4126-b760-8f3fef9c2ccc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-09-20* — If the top card of your library changes while you're casting a spell, playing a land, activating an ability, or taking a special action, you can't look at the new top card until you finish doing so. This means that if you cast a spell from the top of your library, you can't look at the next one until you're done paying for that spell.
+  - *2024-09-20* — While you control Into the Pit, if the top card of your library has disguise or morph, you may cast it face down from the top of your library by paying {3} and sacrificing a nonland permanent.
+  - *2024-09-20* — While you control Into the Pit, you can look at the top card of your library whenever you want (with one restriction; see below), even if you don't have priority. This action doesn't use the stack. Knowing what that card is becomes part of the information you have access to, just like you can look at the cards in your hand.
+  - *2024-09-20* — You pay all costs and follow all timing rules for spells cast from the top of your library this way.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/20/into-the-pit) · oracle_id `e330412f-46a1-4e7c-8766-f644606049e0` · printing: DSC #20 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Into the Roil
 
@@ -626,7 +672,16 @@
   > *In theory, the death of the Eldrazi should have stilled the Roil. It did not.*
 - **Keywords:** Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5407 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/509/into-the-roil) · oracle_id `c2898bbd-82a4-4d26-b6ee-169b0ebe71b4` · printing: FDN #509 (2024-11-15) · [rulings](https://api.scryfall.com/cards/25edefa9-9fff-4b71-83ae-696c196a795c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2009-10-01* — If the targeted permanent is an illegal target by the time Into the Roil resolves, the entire spell doesn't resolve. You don't draw a card.
+  - *2020-09-25* — If the target nonland permanent is an illegal target by the time Into the Roil tries to resolve, the spell doesn't resolve. You don't draw a card if it was kicked.
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/509/into-the-roil) · oracle_id `c2898bbd-82a4-4d26-b6ee-169b0ebe71b4` · printing: FDN #509 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Into the Story
 
@@ -638,7 +693,10 @@
 - **Flavor text** (ELD printing):
   > *The boundary between real and imaginary is as thin as the page, and just as easily torn.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5596 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eld/50/into-the-story) · oracle_id `f290c2e4-ab52-44d4-bdeb-31aeb835b18d` · printing: ELD #50 (2019-10-04) · [rulings](https://api.scryfall.com/cards/c838f08e-7fb6-46e7-83bb-dce8877d6c87/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-10-04* — Into the Story's cost reduction can only reduce its cost by {3}. It doesn't reduce the cost further if more than one opponent has seven cards in their graveyard or if an opponent has fourteen cards in their graveyard.
+  - *2019-10-04* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions (such as that of Into the Story). The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eld/50/into-the-story) · oracle_id `f290c2e4-ab52-44d4-bdeb-31aeb835b18d` · printing: ELD #50 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Into the Time Vortex
 
@@ -649,7 +707,17 @@
   > Rebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)
 - **Keywords:** Rebound, Cascade
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5304 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/165/into-the-time-vortex) · oracle_id `ad9d969e-def5-45a3-b65b-0c776f62ef0e` · printing: MSC #165 (2026-06-26) · [rulings](https://api.scryfall.com/cards/9c1763b6-c83b-4a76-af58-64c0a6418326/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2023-10-13* — A spell's mana value is determined only by its mana cost. Ignore any alternative costs, additional costs, cost increases, or cost reductions.
+  - *2023-10-13* — Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade.
+  - *2023-10-13* — Due to a 2021 rules change to cascade, not only do you stop exiling cards if you exile a nonland card with lesser mana value than the spell with cascade, but the resulting spell you cast must also have lesser mana value. Previously, in cases where a card's mana value differed from the resulting spell, such as with some modal double-faced cards or cards with an Adventure, you could cast a spell with a higher mana value than the exiled card.
+  - *2023-10-13* — If a spell with cascade is countered, the cascade ability will still resolve normally.
+  - *2023-10-13* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2023-10-13* — If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those to cast the card.
+  - *2023-10-13* — The mana value of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves.
+  - *2023-10-13* — When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled.
+  - *2023-10-13* — You exile the cards face up. All players will be able to see them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/165/into-the-time-vortex) · oracle_id `ad9d969e-def5-45a3-b65b-0c776f62ef0e` · printing: MSC #165 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Into the Void
 
@@ -725,7 +793,9 @@
 - **Flavor text** (M13 printing):
   > *A fool knows no fear. A hero shows no fear.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9222 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m13/20/intrepid-hero) · oracle_id `63c1dfcc-9d47-4dee-b4e6-1f50e716cf9e` · printing: M13 #20 (2012-07-13) · [rulings](https://api.scryfall.com/cards/43ec71e9-0024-4f8f-b499-541fb7607fcd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — The power of the creature is checked on activation and on resolution. If the targeted creature’s power is not 4 or greater on resolution, the ability doesn’t resolve.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m13/20/intrepid-hero) · oracle_id `63c1dfcc-9d47-4dee-b4e6-1f50e716cf9e` · printing: M13 #20 (2012-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Intrepid Outlander
 
@@ -749,7 +819,14 @@
   > {2}: Exile target card from a graveyard.
   > You may cast Dinosaur creature spells from among cards you own exiled with this creature. If you cast a spell this way, that creature enters with a finality counter on it. (If a creature with a finality counter on it would die, exile it instead.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5898 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/193/intrepid-paleontologist) · oracle_id `d6026309-aae9-43e7-938b-69db7af7139c` · printing: LCI #193 (2023-11-17) · [rulings](https://api.scryfall.com/cards/871a164a-0fe6-480e-a1be-cbffce884bd3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-11-10* — Finality counters aren't keyword counters, and a finality counter doesn't give any abilities to the permanent it's on. If that permanent loses its abilities and then would go to a graveyard, it will still be exiled instead.
+  - *2023-11-10* — Finality counters don't stop permanents from going to zones other than the graveyard from the battlefield. For example, if a permanent with a finality counter on it would be put into its owner's hand from the battlefield, it does so normally.
+  - *2023-11-10* — Finality counters work on any permanent, not only creatures. If a permanent with a finality counter on it would be put into a graveyard from the battlefield, exile it instead.
+  - *2023-11-10* — Intrepid Paleontologist must be under your control in order to start casting a Dinosaur creature spell using its last ability, but it doesn't need to stay under your control throughout that process or be under your control as the spell resolves. If, for example, you sacrifice Intrepid Paleontologist to pay an additional cost of the spell or it's destroyed in response, the spell will still resolve normally.
+  - *2023-11-10* — Multiple finality counters on a single permanent are redundant.
+  - *2023-11-10* — You must still pay all costs and follow any timing restrictions and permissions for Dinosaur creature spells you cast from exile this way. Normally, you'll be able to cast them only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/193/intrepid-paleontologist) · oracle_id `d6026309-aae9-43e7-938b-69db7af7139c` · printing: LCI #193 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Intrepid Provisioner
 
@@ -828,7 +905,10 @@
   > *"I've never seen a student fail quite so spectacularly. There's potential in that."*
   > *—Hostram, professor of arcanochemistry*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5770 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/stx/3/introduction-to-annihilation) · oracle_id `60e36f86-e284-468e-8073-07f19a3ed65e` · printing: STX #3 (2021-04-23) · [rulings](https://api.scryfall.com/cards/b0bc4682-bcaf-4f51-be0b-9f2851a16e3b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-04-16* — Although you may want to include Lessons in your sideboard if you’re playing with cards that instruct you to learn, Lesson cards can be included in your main deck like other instant or sorcery cards.
+  - *2021-04-16* — Lesson is a spell subtype found on some instant and sorcery cards in the Strixhaven set. The Lesson subtype has no special rules associated with it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/stx/3/introduction-to-annihilation) · oracle_id `60e36f86-e284-468e-8073-07f19a3ed65e` · printing: STX #3 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Introduction to Prophecy
 
@@ -840,7 +920,10 @@
   > *Final grades are posted on the first day of class.*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6655 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/stx/4/introduction-to-prophecy) · oracle_id `9ae1fded-2e77-498a-98e7-4a4908447175` · printing: STX #4 (2021-04-23) · [rulings](https://api.scryfall.com/cards/7820923e-bad2-4d6a-92b3-97b9737d2ca9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-04-16* — Although you may want to include Lessons in your sideboard if you’re playing with cards that instruct you to learn, Lesson cards can be included in your main deck like other instant or sorcery cards.
+  - *2021-04-16* — Lesson is a spell subtype found on some instant and sorcery cards in the Strixhaven set. The Lesson subtype has no special rules associated with it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/stx/4/introduction-to-prophecy) · oracle_id `9ae1fded-2e77-498a-98e7-4a4908447175` · printing: STX #4 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Intrude on the Mind
 
@@ -861,7 +944,9 @@
 - **Flavor text** (8ED printing):
   > *One footstep among many is silent. One footstep alone is deafening.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1729 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/8ed/86/intruder-alarm) · oracle_id `1e943e04-e213-4781-b1a7-935aad8790e1` · printing: 8ED #86 (2003-07-28) · [rulings](https://api.scryfall.com/cards/8d62468e-ed9d-4932-bbbd-103b33b98b25/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-09-01* — If multiple creatures enter the battlefield at one time, this ability triggers once for each of those creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/8ed/86/intruder-alarm) · oracle_id `1e943e04-e213-4781-b1a7-935aad8790e1` · printing: 8ED #86 (2003-07-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Intruding Soulrager
 
@@ -898,4 +983,6 @@
 - **Oracle text:**
   > Search your library for three cards and reveal them. Target opponent chooses one. Put that card into your hand and the rest into your graveyard. Then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2028 · Game Changer: **yes** · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/tpr/54/intuition) · oracle_id `3c9faba7-f2d3-4978-be94-020dc8003dc0` · printing: TPR #54 (2015-05-06) · [rulings](https://api.scryfall.com/cards/b13e73a5-067d-4dbd-9c98-34a0db6140de/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-07-15* — Targets an opponent. You choose an opponent during announcement. If you can’t target an opponent, you can’t cast this card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tpr/54/intuition) · oracle_id `3c9faba7-f2d3-4978-be94-020dc8003dc0` · printing: TPR #54 (2015-05-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

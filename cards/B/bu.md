@@ -220,7 +220,10 @@
 - **Flavor text** (UDS printing):
   > *The muck claims a hundred living things for each meager treasure it spews forth.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2209 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/uds/54/bubbling-muck) · oracle_id `3c7f2b29-9f42-41ab-a2d4-7a450fb0242d` · printing: UDS #54 (1999-06-07) · [rulings](https://api.scryfall.com/cards/6ca76614-78a1-4535-9162-70469d1e8a13/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — Affects lands tapped for rest of turn, not just swamps on the battlefield at the time it resolves. This is because it affects players and not the lands themselves.
+  - *2004-10-04* — Affects lands with type Swamp, not lands that are named “Swamp.”
+- **Source flags:** [Scryfall](https://scryfall.com/card/uds/54/bubbling-muck) · oracle_id `3c7f2b29-9f42-41ab-a2d4-7a450fb0242d` · printing: UDS #54 (1999-06-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Buccaneer's Bravado
 
@@ -255,7 +258,18 @@
   > *As long as it's never left empty, this magic pouch produces coins every dawn.*
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3843 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afc/57/bucknards-everfull-purse) · oracle_id `f70b9eee-3874-4391-8df8-e10bbd19307e` · printing: AFC #57 (2021-07-23) · [rulings](https://api.scryfall.com/cards/57073533-dcd8-4a86-9aa8-d7205d3799e1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2021-07-23* — An ability that tells you to roll a die will also specify what to do with the result of that roll. Most often, this is in the form of a “results table” in the card text.
+  - *2021-07-23* — An effect that says “choose a target, then roll a d20” or similar still uses the normal process of putting an ability on the stack and resolving it. Choosing targets is part of putting the ability on the stack and rolling the d20 happens later, as the ability resolves.
+  - *2021-07-23* — Dice are identified by the number of faces each one has. For example, a d20 is a twenty-sided die.
+  - *2021-07-23* — Dice used must have equally likely outcomes and the roll must be fair. Although physical dice are recommended, digital substitutes are allowed, provided they have the same number of equally likely outcomes as specified in the original roll instruction.
+  - *2021-07-23* — Some abilities, like that of Pixie Guide and Barbarian Class, replace rolling a die with rolling extra dice and ignoring the lowest roll. The ignored rolls are not considered for the effect that instructed you to roll a die, and do not cause abilities to trigger. For all intents and purposes, once you determine which dice count, any extra dice were never rolled.
+  - *2021-07-23* — Some effects instruct you to roll again. This uses the same number and type of dice as the original roll, and that roll will use the same set of possible outcomes.
+  - *2021-07-23* — Some effects may modify the result of a die roll. This may be part of the instruction to roll a die or it may come from other cards. Anything that references the “result” of a die roll is looking for the result after these modifications. Anything that is looking for the “natural result” is looking for the number shown on the face of the die before these modifications.
+  - *2021-07-23* — The instruction to roll a die and the effect that occurs because of the result are all part of the same ability. Players do not get the chance to respond to the ability after knowing the result of the roll.
+  - *2021-07-23* — Tournament events have more specific rules regarding dice and die-rolling. For more information, please see the most recent version of the Magic Tournament Rules at https://wpn.wizards.com/en/document/magic-gathering-tournament-rules.
+  - *2021-07-23* — While playing Planechase, rolling the planar die will cause any ability that triggers whenever a player rolls one or more dice to trigger. However, any effect that refers to a numerical result will ignore the rolling of the planar die.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afc/57/bucknards-everfull-purse) · oracle_id `f70b9eee-3874-4391-8df8-e10bbd19307e` · printing: AFC #57 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bucky Barnes, Eager Ally
 
@@ -336,7 +350,9 @@
   > *"I've been thinking if there was anything we could do to help a planet already in misery..."*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2455 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/66/bugenhagen-wise-elder) · oracle_id `4228dd75-1fdd-48dc-9259-b841b2e46c64` · printing: FIC #66 (2025-06-13) · [rulings](https://api.scryfall.com/cards/99155fae-507a-4eab-918a-bdee021e2262/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-06-06* — Bugenhagen's second ability checks at the moment it would trigger to see if you control a creature with power 7 or greater. If you don't, the ability won't trigger at all. If it does trigger, the ability will check again as it tries to resolve. If you don't control a creature with power 7 or greater at that time, the ability won't resolve and none of its effects will happen.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/66/bugenhagen-wise-elder) · oracle_id `4228dd75-1fdd-48dc-9259-b841b2e46c64` · printing: FIC #66 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Builder's Bane
 
@@ -434,7 +450,15 @@
   > *Norf would win the arm-wrestling contest this year, at any cost.*
 - **Keywords:** Flashback, Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1415 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/80/bulk-up) · oracle_id `fade8af0-5fdb-4237-9dd6-48bfd1d62767` · printing: FDN #80 (2024-11-15) · [rulings](https://api.scryfall.com/cards/977dcc50-da10-4281-b522-9240c1204f5d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2024-11-08* — "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2024-11-08* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2024-11-08* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2024-11-08* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2024-11-08* — To double a creature's power, that creature gets +X/+0, where X is that creature's power when Bulk Up resolves.
+  - *2024-11-08* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2024-11-08* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/80/bulk-up) · oracle_id `fade8af0-5fdb-4237-9dd6-48bfd1d62767` · printing: FDN #80 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bull Aurochs
 
@@ -584,7 +608,14 @@
   > Saddle 1 (Tap any number of other creatures you control with total power 1 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.)
 - **Keywords:** Saddle
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6913 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dft/7/bulwark-ox) · oracle_id `bcd56fbf-fde3-41c2-83f5-9636e92d2893` · printing: DFT #7 (2025-02-14) · [rulings](https://api.scryfall.com/cards/106944b2-f3ae-4350-be33-61b9f92fc92f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-02-07* — An ability that triggers when a creature “attacks while saddled” will trigger only if that creature was saddled when it was declared as an attacker.
+  - *2025-02-07* — Creatures with saddle can attack or block as normal even if they aren’t saddled.
+  - *2025-02-07* — If a permanent becomes a copy of a saddled Mount, the copy won’t be saddled.
+  - *2025-02-07* — You may activate a permanent’s saddle ability even if that permanent is already saddled.
+  - *2025-02-07* — “Saddle N” means “Tap any number of other untapped creatures you control with total power N or greater: This permanent becomes saddled until end of turn. Activate only as a sorcery.”
+  - *2025-02-07* — “Saddled” isn’t an ability that a creature has. It’s just something true about that creature. It won’t stop being saddled until the turn ends or it leaves the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dft/7/bulwark-ox) · oracle_id `bcd56fbf-fde3-41c2-83f5-9636e92d2893` · printing: DFT #7 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bumbleflower's Sharepot
 
@@ -597,7 +628,11 @@
   > *"I may have overestimated the portions."*
 - **Keywords:** Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8836 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/244/bumbleflowers-sharepot) · oracle_id `6e152529-64b4-472c-8e50-99095af6af99` · printing: BLB #244 (2024-08-02) · [rulings](https://api.scryfall.com/cards/5f0affd5-5dcd-4dd1-a694-37a9aedf4084/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/244/bumbleflowers-sharepot) · oracle_id `6e152529-64b4-472c-8e50-99095af6af99` · printing: BLB #244 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bumbling Pangolin
 
@@ -632,7 +667,14 @@
   > Whenever Bumi attacks, put two +1/+1 counters on each land creature you control.
 - **Keywords:** Earthbend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4765 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tle/248/bumi-eclectic-earthbender) · oracle_id `301af2b2-e2f7-4220-a3f5-7702fb62664a` · printing: TLE #248 (2025-11-21) · [rulings](https://api.scryfall.com/cards/f324a384-7380-4f6e-bbba-fac1f2a01b5d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-10-02* — "Earthbend N" means "Target land you control becomes a 0/0 land creature with haste in addition to its other types. Put N +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped under your control."
+  - *2025-10-02* — Earthbend doesn't give the land you control a color. As most lands are colorless, in most cases the resulting land creature will also be colorless.
+  - *2025-10-02* — If a land was animated by earthbend and would go to any zone other than the graveyard or exile, it will not be returned to the battlefield by the delayed triggered ability created by earthbend.
+  - *2025-10-02* — If the targeted land becomes an illegal target before the spell or ability that includes earthbend resolves, earthbend does nothing. If the spell or ability didn't have other targets, it won't resolve.
+  - *2025-10-02* — The land will retain any other types, subtypes, or supertypes it previously had. It will also retain any mana abilities it had as a result of those subtypes. For example, a Forest that's turned into a creature this way can still be tapped for {G}.
+  - *2025-10-02* — You may target a land that is already a creature, perhaps because of a previous earthbend ability. The land will get the +1/+1 counters, gain haste, and have its base power and toughness set to 0/0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tle/248/bumi-eclectic-earthbender) · oracle_id `301af2b2-e2f7-4220-a3f5-7702fb62664a` · printing: TLE #248 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bumi, King of Three Trials
 
@@ -669,7 +711,15 @@
   > Whenever Bumi deals combat damage to a player, untap all lands you control. After this phase, there is an additional combat phase. Only land creatures can attack during that combat phase.
 - **Keywords:** Trample, Earthbend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3589 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/211/bumi-unleashed) · oracle_id `1fef13d8-5da2-46a6-91ed-7a31bd46e538` · printing: TLA #211 (2025-11-21) · [rulings](https://api.scryfall.com/cards/b20a5185-7e31-4fc9-be11-9423bfc389bf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2025-10-02* — "Earthbend N" means "Target land you control becomes a 0/0 land creature with haste in addition to its other types. Put N +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped under your control."
+  - *2025-10-02* — Earthbend doesn't give the land you control a color. As most lands are colorless, in most cases the resulting land creature will also be colorless.
+  - *2025-10-02* — If a land was animated by earthbend and would go to any zone other than the graveyard or exile, it will not be returned to the battlefield by the delayed triggered ability created by earthbend.
+  - *2025-10-02* — If the targeted land becomes an illegal target before the spell or ability that includes earthbend resolves, earthbend does nothing. If the spell or ability didn't have other targets, it won't resolve.
+  - *2025-10-02* — The land will retain any other types, subtypes, or supertypes it previously had. It will also retain any mana abilities it had as a result of those subtypes. For example, a Forest that's turned into a creature this way can still be tapped for {G}.
+  - *2025-10-02* — The restriction that only land creatures can attack applies only to the combat phase created by Bumi, Unleashed, not to any other combat phases that might occur that turn.
+  - *2025-10-02* — You may target a land that is already a creature, perhaps because of a previous earthbend ability. The land will get the +1/+1 counters, gain haste, and have its base power and toughness set to 0/0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/211/bumi-unleashed) · oracle_id `1fef13d8-5da2-46a6-91ed-7a31bd46e538` · printing: TLA #211 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bumper Cars
 
@@ -721,7 +771,18 @@
   > Choose a Background (You can have a Background as a second commander.)
 - **Keywords:** Choose a background, Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6595 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/653/burakos-party-leader) · oracle_id `883ad210-917b-40e6-8682-31d6eb3ed12a` · printing: CLB #653 (2022-06-10) · [rulings](https://api.scryfall.com/cards/899e278d-5d4e-461a-9878-2b85de16b38d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2022-06-10* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2022-06-10* — Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+  - *2022-06-10* — Choose a Background is a variant of the partner ability. You may have two commanders if one of them is a legendary creature with the choose a background ability and the other is a legendary Background enchantment. Backgrounds and cards with choose a Background do not interact with cards which have any other partner ability.
+  - *2022-06-10* — If a card refers to a commander creature you own, a Background won't usually be counted or included for that effect. If another spell or ability causes your Background to become a creature, however, it will be included. Any effect that refers to your commander or a commander you own or control without specifying creature will apply to a Background that is your commander, as appropriate.
+  - *2022-06-10* — If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+  - *2022-06-10* — If you control a Background that grants an ability to commander creatures you own, and you own more than one commander creature, each of them will have that ability.
+  - *2022-06-10* — If your Commander deck has two commanders, you can include only cards whose own color identities are also found in your commanders' combined color identities.
+  - *2022-06-10* — If your commander loses the choose a Background ability or stops being a Background during the game, as appropriate, it is still your commander.
+  - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won't usually be a creature anyway).
+  - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/653/burakos-party-leader) · oracle_id `883ad210-917b-40e6-8682-31d6eb3ed12a` · printing: CLB #653 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burdened Aerialist
 
@@ -810,7 +871,10 @@
   > *"Don't let our creed fade."*
   > *—Tahira, the First Oath-Taker*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3645 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/acr/296/bureau-headmaster) · oracle_id `c022b5df-1d85-44c0-94a1-d01b345b845b` · printing: ACR #296 (2024-07-05) · [rulings](https://api.scryfall.com/cards/58766566-6e19-4f74-bfce-5a61429ffaa9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-07-05* — Bureau Headmaster’s last ability reduces only the amount of generic mana in equip abilities. For example, it will reduce an equip cost of {1} to {0}, but it will have no effect on an equip cost of {G}.
+  - *2024-07-05* — Some Equipment creature cards in other sets have reconfigure, a different ability that attaches them to a creature. Reconfigure is not an equip ability, and reconfigure costs are not reduced by Bureau Headmaster’s last ability. Equip variants or equip abilities with restrictions, like the “equip legendary creature” ability of Brotherhood Regalia, are still equip abilities, and their costs will be reduced by Bureau Headmaster’s last ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/acr/296/bureau-headmaster) · oracle_id `c022b5df-1d85-44c0-94a1-d01b345b845b` · printing: ACR #296 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burgeoning
 
@@ -836,6 +900,7 @@
   > *"Even rats hoard their treasures. Are your precious things so different?"*
   > *—Izoni*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2607 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/170/burglar-rat) · oracle_id `2f807301-37df-4724-871a-08e3512b07b3` · printing: FDN #170 (2024-11-15) · [rulings](https://api.scryfall.com/cards/de1c8758-ce3d-49cf-8173-c0eb46f5e7bc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Buried Alive
@@ -861,7 +926,11 @@
   > Whenever enchanted land is tapped for mana, its controller adds an additional one mana of any color.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7041 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/191/buried-in-the-garden) · oracle_id `f1f0eab3-681b-4c2d-b590-555951920880` · printing: MKM #191 (2024-02-09) · [rulings](https://api.scryfall.com/cards/7e144609-e1f6-4bdc-8d14-b735ef4140d3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-02-02* — Auras attached to the exiled permanent will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist. When the card returns to the battlefield, it will be a new object with no connection to the card that was exiled.
+  - *2024-02-02* — If Buried in the Garden leaves the battlefield before its first triggered ability resolves, the target permanent won't be exiled.
+  - *2024-02-02* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/191/buried-in-the-garden) · oracle_id `f1f0eab3-681b-4c2d-b590-555951920880` · printing: MKM #191 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Buried Ogre
 
@@ -979,6 +1048,7 @@
   > • Burn Down the House deals 5 damage to each creature and each planeswalker.
   > • Create three 1/1 red Devil creature tokens with "When this token dies, it deals 1 damage to any target." They gain haste until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7305 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/131/burn-down-the-house) · oracle_id `0ec54683-a65c-461d-862e-585b6499d6a5` · printing: MID #131 (2021-09-24) · [rulings](https://api.scryfall.com/cards/20ded7af-8086-465e-a980-3099217d324c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burner Rocket
@@ -1046,7 +1116,15 @@
   > *Cinders are drawn to any heat, at any cost.*
 - **Keywords:** Blight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8852 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/129/burning-curiosity) · oracle_id `7f420633-901d-47f9-ae0f-0f5b0ea8359c` · printing: ECL #129 (2026-01-23) · [rulings](https://api.scryfall.com/cards/689ed288-6228-4d7e-b198-56a12b8be299/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2025-11-17* — All of the -1/-1 counters must be put on a single creature. You can't choose to split them up between multiple creatures.
+  - *2025-11-17* — If a creature has +1/+1 counters and -1/-1 counters on it, state-based actions remove the same number of each so that it has only one kind of those counters on it. For example, if a creature has three +1/+1 counters on it and two -1/-1 counters are put on it, state-based actions will remove two of each of those kinds of counters, leaving the creature with just one +1/+1 counter.
+  - *2025-11-17* — If a creature that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner's graveyard for having 0 or less toughness, effects that refer to the counters on that creature when it died will see all of those +1/+1 and -1/-1 counters.
+  - *2025-11-17* — If you can't place -1/-1 counters on any creatures you control (probably because you control no creatures), you can't choose to blight.
+  - *2025-11-17* — Once you've announced that you're casting a spell or activating an ability, players can't take actions until you've finished doing so. Notably, opponents can't try to destroy or otherwise remove your creatures to stop you from blighting as part of paying the cost of that spell or ability.
+  - *2025-11-17* — The creature you choose to put -1/-1 counters on doesn't have to have enough toughness to survive the process. For example, if you blight 2, you can choose to put the counters on a 1/1 creature you control.
+  - *2025-11-17* — You pay all costs and follow all timing rules for cards played this way. For example, if an exiled card is a land card, you may play it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/129/burning-curiosity) · oracle_id `7f420633-901d-47f9-ae0f-0f5b0ea8359c` · printing: ECL #129 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burning Earth
 
@@ -1058,7 +1136,12 @@
   > *"Your world is formed from the same power that wraps my burning hand around your throat."*
   > *—Shrazik, lavamancer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6234 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m14/130/burning-earth) · oracle_id `21b8192e-46a2-4a6a-abd5-3a074efa30a9` · printing: M14 #130 (2013-07-19) · [rulings](https://api.scryfall.com/cards/1df3a7c9-5c8d-438c-a5ad-3c9754c6ea5d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2013-07-01* — If any nonbasic lands are tapped for mana while a player is casting a spell or activating an ability, Burning Earth’s ability will trigger that many times and wait. When the player finishes casting that spell or activating that ability, Burning Earth’s triggered abilities are put on the stack on top of it. Burning Earth’s abilities will resolve first.
+  - *2013-07-01* — On the other hand, a player can tap nonbasic lands for mana, put the Burning Earth triggered abilities on the stack, and then respond to those abilities by casting an instant spell or activating an ability using that mana. In that case, the instant spell or activated ability will resolve first.
+  - *2013-07-01* — The ability will trigger each time a nonbasic land is tapped for mana. Each of these abilities goes on the stack and resolves separately.
+  - *2013-07-01* — To tap a land for mana is to activate one of that land’s mana abilities that has {T} in its activation cost and produces mana as it resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m14/130/burning-earth) · oracle_id `21b8192e-46a2-4a6a-abd5-3a074efa30a9` · printing: M14 #130 (2013-07-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burning-Eye Zubera
 
@@ -1116,7 +1199,10 @@
 - **Flavor text** (M10 printing):
   > *Jariad burned the midnight oil, burned through scroll after scroll, and then burned down his laboratory.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3522 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m10/128/burning-inquiry) · oracle_id `af98156b-3064-4f16-940e-10039241f2b0` · printing: M10 #128 (2009-07-17) · [rulings](https://api.scryfall.com/cards/a448bc9e-f5db-4507-ac40-7d8ee3598585/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2009-10-01* — Each player must discard three cards, even a player that (for some reason) didn’t actually draw three cards.
+  - *2009-10-01* — First the player whose turn it is draws three cards, then each other player in turn order does so. Then the active player randomly chooses the three cards they will discard, then each other player in turn order does so. Then all the cards are discarded at the same time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m10/128/burning-inquiry) · oracle_id `af98156b-3064-4f16-940e-10039241f2b0` · printing: M10 #128 (2009-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burning of Xinye
 
@@ -1175,7 +1261,10 @@
   > When this creature enters, you may search your library for exactly two cards not named Burning-Rune Demon that have different names. If you do, reveal those cards. An opponent chooses one of them. Put the chosen card into your hand and the other into your graveyard, then shuffle.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4598 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/81/burning-rune-demon) · oracle_id `d551fae8-6b40-4118-b9db-29d2f5dff405` · printing: KHM #81 (2021-02-05) · [rulings](https://api.scryfall.com/cards/f358a52b-8044-404e-8d04-2ec5903386cc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-02-05* — If you choose not to search your library, no cards are revealed or put anywhere else, and you don't shuffle.
+  - *2021-02-05* — While in your library, a double-faced card has only the name of its front face. It's not possible to reveal two of the same double-faced card this way.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/81/burning-rune-demon) · oracle_id `d551fae8-6b40-4118-b9db-29d2f5dff405` · printing: KHM #81 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burning Sands
 
@@ -1412,7 +1501,10 @@
   > *"My foes serve me twice: in dying, and in death."*
   > *—Lim-Dûl, the Necromancer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3126 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ice/116/burnt-offering) · oracle_id `86eb30a0-0beb-42db-9ddf-cf8be6c99dd3` · printing: ICE #116 (1995-06-03) · [rulings](https://api.scryfall.com/cards/1dae52a2-3af7-4b97-9d2e-2448b7c413fb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-04-15* — Players can only respond once this spell has been cast and all its costs have been paid. No one can try to destroy the creature you sacrificed to prevent you from casting this spell.
+  - *2013-04-15* — You must sacrifice exactly one creature to cast this spell; you cannot cast it without sacrificing a creature, and you cannot sacrifice additional creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ice/116/burnt-offering) · oracle_id `86eb30a0-0beb-42db-9ddf-cf8be6c99dd3` · printing: ICE #116 (1995-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burn Trail
 
@@ -1528,7 +1620,9 @@
   > *"On your paws! I've been fighting in these fields for more seasons than you've had hot dinners!"*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6718 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/206/burrowguard-mentor) · oracle_id `f293da27-e42d-4e87-8b61-d3c27e4c6d71` · printing: BLB #206 (2024-08-02) · [rulings](https://api.scryfall.com/cards/87138ace-3594-499e-bad5-ec76148613ea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-07-26* — The ability that defines Burrowguard Mentor’s power and toughness functions in all zones, not just the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/206/burrowguard-mentor) · oracle_id `f293da27-e42d-4e87-8b61-d3c27e4c6d71` · printing: BLB #206 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burrowing
 
@@ -1576,7 +1670,14 @@
   > Burst Lightning deals 2 damage to any target. If this spell was kicked, it deals 4 damage instead.
 - **Keywords:** Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5235 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/192/burst-lightning) · oracle_id `ac2086fe-98ee-4280-9c7c-c5c2d6548a8b` · printing: FDN #192 (2024-11-15) · [rulings](https://api.scryfall.com/cards/aec5d380-d354-4750-931a-6c91853e2edc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/192/burst-lightning) · oracle_id `ac2086fe-98ee-4280-9c7c-c5c2d6548a8b` · printing: FDN #192 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burst of Energy
 
@@ -1674,6 +1775,7 @@
   > • Target creature you control fights target creature you don't control. (Each deals damage equal to its power to the other.)
 - **Keywords:** Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1258 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/215/bushwhack) · oracle_id `c61374e5-a7f6-455e-a40b-a481751b536b` · printing: FDN #215 (2024-11-15) · [rulings](https://api.scryfall.com/cards/03ebdb36-55e0-49dd-a514-785fbeb4ae19/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bushy Bodyguard
@@ -1739,6 +1841,7 @@
   > *Without a mind, it doesn't fear death. Without a soul, it doesn't mind killing.*
 - **Keywords:** Undying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7186 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/99/butcher-ghoul) · oracle_id `28caeed4-c175-469f-8d8e-f45bc0a51a1c` · printing: INR #99 (2025-01-24) · [rulings](https://api.scryfall.com/cards/c4ef03c8-2047-4170-9ac4-f26cc14ebf96/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Butcher of Malakir
@@ -1753,7 +1856,12 @@
   > *His verdict is always guilty. His sentence is always death.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1385 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/187/butcher-of-malakir) · oracle_id `a85197ab-dc94-4b72-9716-8dbdbbe90ff8` · printing: LCC #187 (2023-11-17) · [rulings](https://api.scryfall.com/cards/9d805499-0739-403e-8447-ed2707dc9eb2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2010-03-01* — If multiple creatures you control (possibly including Butcher of Malakir itself) are put into their owners' graveyards at the same time, Butcher of Malakir's triggered ability will trigger that many times.
+  - *2010-03-01* — If you and an opponent each control a Butcher of Malakir and a creature is put into a graveyard, a chain reaction happens. First the ability of one player's Butcher will trigger, causing each opponent to sacrifice a creature. That sacrifice causes the ability of the other player's Butcher to trigger, and so on.
+  - *2010-03-01* — If you control more than one Butcher of Malakir and a creature you control is put into a graveyard, each of those Butchers' abilities will trigger. Each opponent will sacrifice a creature each time one of those abilities resolves.
+  - *2010-03-01* — When the triggered ability resolves, first the player whose turn it is (if that player is an opponent) chooses which creature they will sacrifice, then each other opponent in turn order does the same, then all chosen creatures are sacrificed at the same time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/187/butcher-of-malakir) · oracle_id `a85197ab-dc94-4b72-9716-8dbdbbe90ff8` · printing: LCC #187 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Butcher of the Horde
 

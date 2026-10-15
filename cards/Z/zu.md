@@ -93,7 +93,14 @@
   > *"I want the Avatar. I want my honor, my throne."*
 - **Keywords:** Firebending
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4396 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/163/zuko-exiled-prince) · oracle_id `3231ce2e-d4f8-44fc-872d-aeafa59aed4b` · printing: TLA #163 (2025-11-21) · [rulings](https://api.scryfall.com/cards/6a73b372-9c0e-4a85-89d2-440163330687/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-10-02* — "Firebending N" is a keyword that represents the ability "Whenever this creature attacks, add N {R}. Until end of combat, you don't lose this mana as steps end."
+  - *2025-10-02* — Any other mana you add during combat will still be lost as normal when moving between steps of combat.
+  - *2025-10-02* — Firebending abilities aren't mana abilities. They use the stack and can be responded to.
+  - *2025-10-02* — Mana from firebending abilities isn't lost until you leave combat and go to your second main phase. It can be used at any time during combat, even after combat damage has been dealt.
+  - *2025-10-02* — Multiple instances of firebending on the same creature trigger separately, each granting you the appropriate amount of mana.
+  - *2025-10-02* — You must follow all normal timing rules for a card you play using Zuko, Exiled Prince's last ability and, if it's a spell, you must pay its costs to cast it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/163/zuko-exiled-prince) · oracle_id `3231ce2e-d4f8-44fc-872d-aeafa59aed4b` · printing: TLA #163 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zuko, Firebending Master
 
@@ -108,7 +115,15 @@
   > *"I have changed."*
 - **Keywords:** First strike, Firebending
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5103 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tle/127/zuko-firebending-master) · oracle_id `33db6dc8-2c88-4a7f-8d4d-3bc9fb6544b2` · printing: TLE #127 (2025-11-21) · [rulings](https://api.scryfall.com/cards/496a4fa5-b3e5-4020-b432-6d353095aa33/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2025-10-02* — "Firebending N" is a keyword that represents the ability "Whenever this creature attacks, add N {R}. Until end of combat, you don't lose this mana as steps end."
+  - *2025-10-02* — All experience counters are identical, no matter how you got them. For example, the firebending ability will count experience counters that you got from the last ability, from another ability, from another copy of Zuko, Firebending Master, and so on.
+  - *2025-10-02* — Any other mana you add during combat will still be lost as normal when moving between steps of combat.
+  - *2025-10-02* — Firebending abilities aren't mana abilities. They use the stack and can be responded to.
+  - *2025-10-02* — Mana from firebending abilities isn't lost until you leave combat and go to your second main phase. It can be used at any time during combat, even after combat damage has been dealt.
+  - *2025-10-02* — Multiple instances of firebending on the same creature trigger separately, each granting you the appropriate amount of mana.
+  - *2025-10-02* — The experience counter goes on you, the player, not on Zuko. You will keep that counter even if Zuko, Firebending Master dies.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tle/127/zuko-firebending-master) · oracle_id `33db6dc8-2c88-4a7f-8d4d-3bc9fb6544b2` · printing: TLE #127 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zuko's Conviction
 
@@ -121,6 +136,7 @@
   > *"I've always had to struggle and fight, and that's made me strong."*
 - **Keywords:** Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9090 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/123/zukos-conviction) · oracle_id `f034e8a3-82f7-4c70-93ea-0bf2688f66e1` · printing: TLA #123 (2025-11-21) · [rulings](https://api.scryfall.com/cards/ad8933d6-cdc7-4d60-a78e-b43ffecfb136/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zuko, Seeking Honor
@@ -147,7 +163,10 @@
 - **Flavor text** (TLA printing):
   > *As punishment for his disobedience, Zuko was banished and sent to capture the Avatar. Only then could he return home with his honor.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4312 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/3/zukos-exile) · oracle_id `5cf18398-9552-415e-a61f-2c149e35ec3d` · printing: TLA #3 (2025-11-21) · [rulings](https://api.scryfall.com/cards/9090b055-3406-4fed-a8c6-3f6353a9600e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-10-02* — Clue tokens are artifact tokens with "{2}, Sacrifice this token: Draw a card."
+  - *2025-10-02* — Creating a Clue token this way isn't the same thing as investigating. Notably, an ability that triggers whenever you investigate won't trigger because of creating a Clue token this way.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/3/zukos-exile) · oracle_id `5cf18398-9552-415e-a61f-2c149e35ec3d` · printing: TLA #3 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zuko's Offense
 
@@ -226,7 +245,9 @@
   > {T}: You may cast target Zombie creature card from your graveyard this turn.
 - **Keywords:** Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2515 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/77/zul-ashur-lich-lord) · oracle_id `a7c6c9b3-91f2-4ecf-b2b0-b0edd96974d9` · printing: FDN #77 (2024-11-15) · [rulings](https://api.scryfall.com/cards/34ad4fdb-9805-45b3-ba20-e47a15d6ff38/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-11-08* — You pay all costs and follow all normal timing rules for Zombie creature cards cast with the permission granted by Zul Ashur's last ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/77/zul-ashur-lich-lord) · oracle_id `a7c6c9b3-91f2-4ecf-b2b0-b0edd96974d9` · printing: FDN #77 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zuo Ci, the Mocking Sage
 
@@ -263,6 +284,7 @@
   > *"Obsession is Zur's one flaw as a magic user. His total preoccupation with immortality has become an affliction for his otherwise brilliant mind."*
   > *—Jodah, Archmage Eternal*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #908 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/300/zuran-orb) · oracle_id `08cb8a30-9cb4-4517-bee5-8848aa60d1a2` · printing: MH2 #300 (2021-06-18) · [rulings](https://api.scryfall.com/cards/618c8ecc-686d-41de-b9b1-1a7ee9cc7c14/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zuran Spellcaster
@@ -289,7 +311,10 @@
   > {1}{W}: Target non-Aura enchantment you control becomes a creature in addition to its other types and has base power and base toughness each equal to its mana value.
 - **Keywords:** Flying, Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4133 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/228/zur-eternal-schemer) · oracle_id `cfc5dc9c-6f26-460b-a624-3681b8584eb3` · printing: DMU #228 (2022-09-09) · [rulings](https://api.scryfall.com/cards/4d987435-2403-4e0f-b19d-693da923ba50/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-09-09* — If a permanent on the battlefield has an {X} in its mana cost, X is zero when determining its mana value.
+  - *2022-09-09* — Zur, Eternal Schemer’s last ability does not have a duration. Once it resolves the target enchantment will be a creature until it leaves the battlefield or another effect causes it to stop being a creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/228/zur-eternal-schemer) · oracle_id `cfc5dc9c-6f26-460b-a624-3681b8584eb3` · printing: DMU #228 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zurgo and Ojutai
 
@@ -302,7 +327,11 @@
   > Whenever one or more Dragons you control deal combat damage to a player or battle, look at the top three cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order. You may return one of those Dragons to its owner's hand.
 - **Keywords:** Flying, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9101 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/258/zurgo-and-ojutai) · oracle_id `941c9acd-2773-456a-88d5-0537735f93c6` · printing: MOM #258 (2023-04-21) · [rulings](https://api.scryfall.com/cards/eacbcd82-36e6-424c-bd4e-ec3a584836c5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-04-14* — Because creatures with first strike deal combat damage before creatures without first strike, it’s also possible to have the ability trigger twice in the same combat by your Dragons dealing combat damage to one player at different times. This can also happen if an attacking Dragon you control has double strike.
+  - *2023-04-14* — The triggered ability will trigger once for each player or battle dealt combat damage by Dragons you control, no matter how many Dragons were involved. For example, if you attack a player with three Dragons and a battle that player protects with two Dragons, and they all connect, the ability will trigger twice.
+  - *2023-04-14* — You choose whether to return one of the Dragons that dealt combat damage to the player or battle as the triggered ability is resolving. This doesn’t target any of those Dragons.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/258/zurgo-and-ojutai) · oracle_id `941c9acd-2773-456a-88d5-0537735f93c6` · printing: MOM #258 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zurgo Bellstriker
 
@@ -340,7 +369,11 @@
   > Whenever a creature token you control leaves the battlefield, draw a card if it was attacking. Otherwise, each opponent loses 1 life.
 - **Keywords:** Mobilize
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2962 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/10/zurgo-stormrender) · oracle_id `0f93d88c-9d2e-416d-a10b-99483360b1fb` · printing: TDC #10 (2025-04-11) · [rulings](https://api.scryfall.com/cards/dc8eb325-75c9-4331-830d-3f7d62d77290/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-04-04* — Although the Warrior tokens enter as attacking creatures, they were never declared as attacking creatures. Abilities that trigger whenever a creature attacks won’t trigger when the tokens enter attacking.
+  - *2025-04-04* — If Zurgo Stormrender leaves the battlefield at the same time as one or more creature tokens you control, its last ability will trigger once for each of those creature tokens.
+  - *2025-04-04* — You choose the player, planeswalker, or battle each Warrior token is attacking. They don’t all have to attack the same one, and they don’t have to attack the same player, planeswalker, or battle as the creature with mobilize.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/10/zurgo-stormrender) · oracle_id `0f93d88c-9d2e-416d-a10b-99483360b1fb` · printing: TDC #10 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zurgo's Vanguard
 
@@ -366,6 +399,7 @@
   > *"Hear me, Mardu! Our freedom is only beginning!"*
 - **Keywords:** Mobilize
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4991 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/237/zurgo-thunders-decree) · oracle_id `393d0bf8-5f2e-4eaa-91a1-9132429a7371` · printing: TDM #237 (2025-04-11) · [rulings](https://api.scryfall.com/cards/bd93fb95-4268-45dc-8f0d-590c481a526d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zuri, Warrior of Wakanda
@@ -404,7 +438,9 @@
   > *Zur remained aloof from Terisiare's suffering, intent only on his own perfection.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2902 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/206/zur-the-enchanter) · oracle_id `d7950018-d744-48a8-81aa-0d8384703f48` · printing: DMR #206 (2023-01-13) · [rulings](https://api.scryfall.com/cards/561cfc04-65ea-49a4-8638-b4631a7cf828/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-12-08* — If you put an Aura card onto the battlefield with Zur's ability, you choose what it will enchant as it enters the battlefield. An Aura put onto the battlefield this way doesn't target anything (so it could be attached to an opponent's permanent with hexproof, for example), but the Aura's enchant ability restricts what it can be attached to. If the Aura can't legally be attached to anything, it remains in your library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/206/zur-the-enchanter) · oracle_id `d7950018-d744-48a8-81aa-0d8384703f48` · printing: DMR #206 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zurzoth, Chaos Rider
 
@@ -415,4 +451,8 @@
   > Whenever an opponent draws their first card each turn, if it's not their turn, you create a 1/1 red Devil creature token with "When this token dies, it deals 1 damage to any target."
   > Whenever one or more Devils you control attack one or more players, you and those players each draw a card, then discard a card at random.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5278 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/278/zurzoth-chaos-rider) · oracle_id `a7da9ec5-f82f-4a6d-9737-06a1556e2dd6` · printing: NCC #278 (2022-04-29) · [rulings](https://api.scryfall.com/cards/c62990d7-a337-4fc3-859c-63bc1dade1b9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-06-23* — Devils you control that attack a planeswalker won't cause any player to draw or discard a card.
+  - *2020-06-23* — If a spell or ability causes a player to put a card into their hand without specifically using the word "draw," it's not a card drawn.
+  - *2020-06-23* — If your life total is brought to 0 or less at the same time that a Devil token is dealt lethal damage, you lose the game before its ability goes on the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/278/zurzoth-chaos-rider) · oracle_id `a7da9ec5-f82f-4a6d-9737-06a1556e2dd6` · printing: NCC #278 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

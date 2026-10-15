@@ -101,7 +101,9 @@
   > *"It's not so bad. All you have to do is keep from looking down."*
   > *—Troyan, to Kellan and Ruby*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1123 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/195/up-the-beanstalk) · oracle_id `050f5733-7c0b-4991-9a6c-7ea12ccf0ca9` · printing: WOE #195 (2023-09-08) · [rulings](https://api.scryfall.com/cards/2d5e991f-23b2-4db0-a452-7755125b1fd2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-09-01* — If a spell has {X} in its mana cost, use the value chosen for that X to determine the mana value of that spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/195/up-the-beanstalk) · oracle_id `050f5733-7c0b-4991-9a6c-7ea12ccf0ca9` · printing: WOE #195 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Upwelling
 

@@ -38,7 +38,19 @@
   > {3}, {T}: Create a colorless snow artifact token named Icy Manalith with "{T}: Add one mana of any color."
   > {6}{R}{G}, {T}: Look at the top four cards of your library. You may cast a spell from among them without paying its mana cost. Put the rest on the bottom of your library in a random order.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6788 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/230/svella-ice-shaper) · oracle_id `7fd8a508-335c-4d5a-9916-23bf26dfff38` · printing: KHM #230 (2021-02-05) · [rulings](https://api.scryfall.com/cards/a7054d48-5ed3-43a1-85e5-9f306b081b4f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2021-02-05* — If the spell has {X} in its mana cost, you must choose 0 as the value of X.
+  - *2021-02-05* — If you cast a spell using Svella’s ability, you do so as part of the resolution of that ability. You can’t wait to cast it later in the turn. Timing permissions based on the card’s type are ignored.
+  - *2021-02-05* — If you cast a spell “without paying its mana cost,” you can’t choose to cast it for any alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
+  - *2021-02-05* — In some unusual cases, the order of your library will matter as you cast the spell from among the revealed cards. Remember that looking at the top cards of your library doesn’t change their order or allow you to change their order. You don’t put the cards on the bottom of your library until after you are done casting the spell.
+  - *2021-02-05* — Snow is a supertype, not a card type. It has no rules meaning or function by itself, but spells and abilities may refer to it.
+  - *2021-02-05* — Snow isn’t a type of mana. If an effect says you may spend mana as though it were any type, you can’t pay for {S} using mana that wasn’t produced by a snow source.
+  - *2021-02-05* — Some cards have additional effects for each {S} spent to cast them. You can cast these spells even if you don’t spend any snow mana to cast them; their additional effects simply won’t do anything.
+  - *2021-02-05* — The Kaldheim set doesn’t have any cards with mana costs that include {S}, but some previous sets do. If an effect says such a spell costs {1} less to cast, that reduction doesn’t apply to any {S} costs. This is also true for activated abilities that include {S} in their activation costs and effects that reduce those costs.
+  - *2021-02-05* — The spell you cast with Svella’s last ability is cast from your library.
+  - *2021-02-05* — The {S} symbol is a generic mana symbol. It represents a cost that can be paid by one mana that was produced by a snow source. That mana can be any color or colorless.
+  - *2021-02-05* — You’ll put the cards you didn’t cast on the bottom of your library before the spell you cast resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/230/svella-ice-shaper) · oracle_id `7fd8a508-335c-4d5a-9916-23bf26dfff38` · printing: KHM #230 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Svogthos, the Restless Tomb
 
@@ -84,4 +96,7 @@
   > Whenever Svyelun attacks, draw a card.
   > Other Merfolk you control have ward {1}. (Whenever another Merfolk you control becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3847 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/175/svyelun-of-sea-and-sky) · oracle_id `872bebff-720d-459b-8f86-fb9129a8d1fb` · printing: LCC #175 (2023-11-17) · [rulings](https://api.scryfall.com/cards/01f5ab00-5305-4ac4-915d-feeb591f9389/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-06-18* — Damage dealt to creatures remains on those creatures until the cleanup step or until an effect removes that damage. If you control Svyelun of Sea and Sky with at least 4 damage and two other Merfolk and one of those Merfolk leaves the battlefield (or stops being a Merfolk), Svyelun will be destroyed.
+  - *2021-06-18* — If a player casts a spell that targets multiple permanents their opponent controls with ward, each of those ward abilities will trigger. If that player doesn't pay for all of them, the spell will be countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/175/svyelun-of-sea-and-sky) · oracle_id `872bebff-720d-459b-8f86-fb9129a8d1fb` · printing: LCC #175 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

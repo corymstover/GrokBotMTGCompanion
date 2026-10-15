@@ -138,6 +138,7 @@
   > • Destroy target enchantment.
   > • Exile any number of target players' graveyards.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3097 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/45/thraben-charm) · oracle_id `7eccd10d-f224-4467-af25-f2b768993f9f` · printing: MH3 #45 (2024-06-14) · [rulings](https://api.scryfall.com/cards/dd28a646-f38f-4cdf-948c-969cd979e5e6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thraben Doomsayer
@@ -219,7 +220,11 @@
   > *"If you've been at this as long as I have, nothing can surprise you. That's the hope, at least."*
 - **Keywords:** Investigate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6947 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/45/thraben-inspector) · oracle_id `caa02547-66e3-4e27-a2d3-5e94f3e7a069` · printing: INR #45 (2025-01-24) · [rulings](https://api.scryfall.com/cards/08a5007f-06a0-40fa-a252-c38baa6b5c6f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2016-04-08* — Clue is an artifact type. Even though it appears on some cards with other permanent types, it's never a creature type, a land type, or anything but an artifact type.
+  - *2016-04-08* — If an effect refers to a Clue, it means any Clue artifact, not just a Clue artifact token. For example, you can sacrifice Wrench to pay for Alquist Proft, Master Sleuth's activated ability.
+  - *2016-04-08* — You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/45/thraben-inspector) · oracle_id `caa02547-66e3-4e27-a2d3-5e94f3e7a069` · printing: INR #45 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thraben Purebloods
 
@@ -292,6 +297,7 @@
   > *Protectors of the Blessed Sleep."*
 - **Keywords:** Flying, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4705 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/34/thraben-watcher) · oracle_id `53cd9d9f-c1a7-404e-9934-4542415e3431` · printing: MH2 #34 (2021-06-18) · [rulings](https://api.scryfall.com/cards/5b4e0e11-2f16-42ad-b835-c9410c4bd7e3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thragtusk
@@ -306,7 +312,9 @@
   > *"Always carry two spears."*
   > *—Mokgar, Kalonian hunter*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8388 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/316/thragtusk) · oracle_id `0dd0e91a-d16b-4718-8d11-1a3fcf8e0753` · printing: NCC #316 (2022-04-29) · [rulings](https://api.scryfall.com/cards/beda7acd-e970-4222-9577-5133765d6052/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2012-07-01* — Thragtusk's second ability will trigger no matter what zone Thragtusk goes to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/316/thragtusk) · oracle_id `0dd0e91a-d16b-4718-8d11-1a3fcf8e0753` · printing: NCC #316 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thrakkus the Butcher
 
@@ -320,7 +328,9 @@
   > *Somehow, he never seems to run out of fresh meat.*
 - **Keywords:** Trample, Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2733 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/295/thrakkus-the-butcher) · oracle_id `f7cd7ede-51c1-4117-99b5-484d0d80c95f` · printing: CLB #295 (2022-06-10) · [rulings](https://api.scryfall.com/cards/2255d1e4-f387-4187-8c10-7d0009f6ec79/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-06-10* — To double a creature's power, that creature gets +X/+0, where X is the power of that creature as the triggered ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/295/thrakkus-the-butcher) · oracle_id `f7cd7ede-51c1-4117-99b5-484d0d80c95f` · printing: CLB #295 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thranduil's Company
 
@@ -358,7 +368,23 @@
   > Mill four cards, then put up to two land cards from among them into your hand. (Then exile this card. You may cast the creature later from exile.)
 - **Keywords:** Mill, Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8932 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/hob/166/thranduil-sindarin-liege-silvan-rally) · oracle_id `f6771d32-395e-4832-b33d-cbc12dff1516` · printing: HOB #166 (2026-08-14) · [rulings](https://api.scryfall.com/cards/481870ee-d1f7-421b-86e1-570ea933bbbc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2026-06-29* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2026-06-29* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2026-06-29* — An adventurer card is a permanent card in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it's in your graveyard, Bilbo, Luckwearer is a blue creature card whose mana value is 2. It can't be put into your hand by the effect of Speak Secrets ("Mill four cards, then put an instant or sorcery card from among them into your hand.").
+  - *2026-06-29* — An effect may refer to a card, spell, or permanent that "has an Adventure." This refers to a card, spell, or permanent that has an adventurer card's set of alternative characteristics, even if they're not being used and even if that card was never cast as an Adventure.
+  - *2026-06-29* — Casting a card as an Adventure isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Adventure.
+  - *2026-06-29* — If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner's graveyard as it resolves. For as long as it remains exiled, that player may play it using its primary characteristics. If an Adventure spell leaves the stack in any way other than resolving (most likely by being countered or by failing to resolve because its targets have all become illegal), that card won't be exiled and the spell's controller won't be able to cast it as a permanent later.
+  - *2026-06-29* — If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won't give you permission to cast it as a permanent spell.
+  - *2026-06-29* — If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it's not possible to cast the copy as a permanent.
+  - *2026-06-29* — If an effect instructs you to choose a card name, you may choose the alternative Adventure name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2026-06-29* — If an effect refers to a card, spell, or permanent that has an Adventure, it won't find an instant or sorcery spell on the stack that's been cast as an Adventure.
+  - *2026-06-29* — If an object becomes a copy of an object that has an Adventure, the copy also has an Adventure. If it changes zones, it will either cease to exist (if it's a token) or cease to be a copy (if it's a nontoken permanent), and so you won't be able to cast it as an Adventure.
+  - *2026-06-29* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell. For example, if you control Gandalf, Party Guest ("At the beginning of combat on your turn, you may cast an instant or sorcery spell with mana value X or less from your hand without paying its mana cost, where X is twice the number of legendary Wizards you control."), you could cast Burglar's Plot from your hand without paying its mana cost (provided you control enough legendary Wizards), but not Bilbo, Luckwearer.
+  - *2026-06-29* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+  - *2026-06-29* — Whenever a land you control enters, each landfall ability of permanents you control will trigger. You can put them on the stack in any order. The last ability you put on the stack will be the first one to resolve (as a result, you can have those abilities resolve in the order of your choosing).
+  - *2026-06-29* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hob/166/thranduil-sindarin-liege-silvan-rally) · oracle_id `f6771d32-395e-4832-b33d-cbc12dff1516` · printing: HOB #166 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thranduil, the Elvenking
 
@@ -456,7 +482,14 @@
   > This land is the chosen type in addition to its other types.
   > Mana abilities of this land cost an additional 1 life to activate.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4609 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/259/thran-portal) · oracle_id `926ce6a2-7bdd-4380-ac65-bc902ba0c284` · printing: DMU #259 (2022-09-09) · [rulings](https://api.scryfall.com/cards/ef074a2e-a387-4af8-a180-74b145d93992/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2022-09-09* — If Thran Portal somehow gains another mana ability, that ability also costs an additional 1 life to activate.
+  - *2022-09-09* — If a Thran Portal somehow enters the battlefield without a basic land type having been chosen for it, it does not have any mana abilities. The same is true for a land that is already on the battlefield that becomes a copy of it.
+  - *2022-09-09* — If a land enters the battlefield as a copy of Thran Portal (as opposed to a land that is already on the battlefield becoming a copy of it), its controller gets to choose a basic land type for it and it has that type.
+  - *2022-09-09* — If you control more than one Thran Portal, the last ability of each of them applies only to itself. That is, controlling a second Thran Portal does not make mana abilities of all cards named Thran Portal cost an additional 2 life.
+  - *2022-09-09* — Thran Portal will have the appropriate intrinsic mana ability for the basic land type chosen as it enters the battlefield. It is still a Gate and still has its other abilities, including the last ability, which makes the mana ability associated with its basic land type cost 1 life to activate.
+  - *2022-09-09* — You still have to pay that mana ability's other costs. Usually, this is just tapping the land.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/259/thran-portal) · oracle_id `926ce6a2-7bdd-4380-ac65-bc902ba0c284` · printing: DMU #259 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thran Power Suit
 
@@ -467,6 +500,7 @@
   > Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1632 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/253/thran-power-suit) · oracle_id `3952c288-5633-4e40-abe6-18940d079644` · printing: BRO #253 (2022-11-18) · [rulings](https://api.scryfall.com/cards/17bfb8c5-9105-41e4-a58f-9c9eee32b18a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thran Quarry
@@ -501,7 +535,9 @@
 - **Flavor text** (DOM printing):
   > *The portal opens not to the past, but from it. Those who step through discover an unimaginable future.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9729 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dom/233/thran-temporal-gateway) · oracle_id `36282c29-a44b-4156-9441-03aa4bf386a8` · printing: DOM #233 (2018-04-27) · [rulings](https://api.scryfall.com/cards/72806f4f-74e8-4621-92b0-5c63bb898884/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-04-27* — A card, spell, or permanent is historic if it has the legendary supertype, the artifact card type, or the Saga subtype. Having two of those qualities doesn’t make an object more historic than another or provide an additional bonus—an object either is historic or it isn’t.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dom/233/thran-temporal-gateway) · oracle_id `36282c29-a44b-4156-9441-03aa4bf386a8` · printing: DOM #233 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thran Tome
 
@@ -534,6 +570,7 @@
 - **Flavor text** (BRO printing):
   > *Glacian built his automatons to last, and last they did, beyond even the Thran themselves.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6277 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/114/thran-vigil) · oracle_id `01c179aa-533e-47e1-b6e5-c35587a39680` · printing: BRO #114 (2022-11-18) · [rulings](https://api.scryfall.com/cards/3faed400-0712-4fc1-b710-144db40a5e11/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thran War Machine
@@ -582,6 +619,7 @@
 - **Flavor text** (FDN printing):
   > *It cares more about preserving the herd's territory than about preserving itself.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2813 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/560/thrashing-brontodon) · oracle_id `60bc63dc-ac9f-4a2f-aef5-c90d0aa31553` · printing: FDN #560 (2024-11-15) · [rulings](https://api.scryfall.com/cards/592364bf-68b5-4ea0-97d6-c7cadce940fd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thrashing Frontliner
@@ -670,7 +708,17 @@
   > *Beneath crashing waves lies an ocean of secrets waiting to be explored.*
 - **Keywords:** Partner, Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2551 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
-- **Source flags:** [Scryfall](https://scryfall.com/card/c16/46/thrasios-triton-hero) · oracle_id `3d867016-2601-4a37-a73d-308898d3bd37` · printing: C16 #46 (2016-11-11) · [rulings](https://api.scryfall.com/cards/21e27b91-c7f1-4709-aa0d-8b5d81b22a0a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2016-11-08* — No player may take another action while you're resolving the activated ability.
+  - *2020-11-10* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2020-11-10* — Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+  - *2020-11-10* — If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+  - *2020-11-10* — If your Commander deck has two commanders, you can only include cards whose own color identities are also found in your commanders' combined color identities. If Falthis and Kediss are your commanders, your deck may contain cards with black and/or red in their color identity, but not cards with green, white, or blue.
+  - *2020-11-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from any one of them, not from both of them combined.
+  - *2020-11-10* — The nonland card you reveal will be the card you draw.
+  - *2020-11-10* — To have two commanders, both must have the partner ability as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
+  - *2020-11-10* — You can choose two commanders with partner that are the same color or colors. In Commander Draft, you can even choose two of the same commander with partner if you drafted them. If you do this, make sure you keep the number of times you've cast each from the command zone clear for "commander tax" purposes.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c16/46/thrasios-triton-hero) · oracle_id `3d867016-2601-4a37-a73d-308898d3bd37` · printing: C16 #46 (2016-11-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thrasta, Tempest's Roar
 
@@ -684,7 +732,13 @@
   > Thrasta has hexproof as long as it entered this turn.
 - **Keywords:** Haste, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9680 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/178/thrasta-tempests-roar) · oracle_id `19d258fb-4cda-4cbb-b07a-8b4670488867` · printing: MH2 #178 (2021-06-18) · [rulings](https://api.scryfall.com/cards/6172da14-9a87-4cf9-aff5-aca3470a67ef/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-06-18* — If a planeswalker that is being attacked by Thrasta is somehow also a creature, Thrasta still deals excess damage based on that planeswalker's loyalty, not its toughness.
+  - *2021-06-18* — In some rare, strange cases, a planeswalker that is also a creature may block Thrasta while Thrasta is attacking that same planeswalker. (I did say strange.) Assuming no other creatures are blocking Thrasta and the blocking creature has no damage marked on it, Thrasta's controller must assign at least as much damage to that creature planeswalker equal to its toughness or the number of loyalty counters it has, whichever is greater.
+  - *2021-06-18* — Trample and trample over planeswalkers can both apply during the same combat. For example, if Thrasta is attacking a planeswalker with two loyalty counters on it and is blocked by a 3/3 creature, you could have Thrasta assign 3 combat damage to the blocking creature, 2 combat damage to the planeswalker, and 2 combat damage to the defending player.
+  - *2021-06-18* — Trample over planeswalkers means that when Thrasta, Tempest's Roar deals combat damage to a planeswalker it's attacking, it can assign any amount of excess damage to that planeswalker's controller. Excess damage to a planeswalker is damage greater than the number of loyalty counters that planeswalker has. Deathtouch does not cause damage dealt to a planeswalker to be lethal.
+  - *2021-06-18* — Trample over planeswalkers takes into account any other damage being assigned to the planeswalker at the same time. For example, if Thrasta and a 2/2 Bear Cub are attacking a planeswalker with seven loyalty counters on it (and are unblocked), Thrasta can assign 5 damage to the defending planeswalker and 2 damage to the defending player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/178/thrasta-tempests-roar) · oracle_id `19d258fb-4cda-4cbb-b07a-8b4670488867` · printing: MH2 #178 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thraximundar
 
@@ -699,7 +753,10 @@
   > *His name means "he who paints the earth red."*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9231 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/287/thraximundar) · oracle_id `9e0e4217-fefe-48dd-9153-032460192b19` · printing: 2X2 #287 (2022-07-08) · [rulings](https://api.scryfall.com/cards/0e7334eb-66c1-4410-966c-4e76c1b9e9a7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2009-05-01* — Thraximundar's last ability triggers whenever any player (including you) sacrifices a creature for any reason. It doesn't trigger only when a creature is sacrificed due to its middle ability. Note that Thraximundar itself doesn't allow you to sacrifice any creatures.
+  - *2009-05-01* — Thraximundar's middle ability resolves during the declare attackers step. The defending player sacrifices a creature before it would get a chance to block.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/287/thraximundar) · oracle_id `9e0e4217-fefe-48dd-9153-032460192b19` · printing: 2X2 #287 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thraxodemon
 
@@ -763,7 +820,24 @@
   > Whenever a face-down permanent you control enters, search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
 - **Keywords:** Manifest, Manifest dread
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5964 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/200/threats-around-every-corner) · oracle_id `5c104ac8-738a-4a9d-a68b-5706018d2061` · printing: DSK #200 (2024-09-27) · [rulings](https://api.scryfall.com/cards/7201ee12-9104-48d8-aeec-08a318c8ee10/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (16):
+  - *2024-09-20* — A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent and Auras and Equipment that were attached to that permanent aren't affected unless the new characteristics of the object change the legality of those targets or attachments.
+  - *2024-09-20* — Any time you have priority, you can turn a manifested permanent you control face up by revealing that it's a creature card (ignoring any copy effects or type-changing effects that might be applying to it) and paying its mana cost. This is a special action. It doesn't use the stack and can't be responded to.
+  - *2024-09-20* — At any time, you can look at a face-down spell or permanent you control. You can't look at face-down permanents or spells you don't control unless an effect instructs or allows you to do so.
+  - *2024-09-20* — Because face-down creatures don't have a name, they can't have the same name as any other creature, even another face-down creature.
+  - *2024-09-20* — Because the permanent is on the battlefield both before and after it's turned face up, turning a permanent face up doesn't cause any enters-the-battlefield abilities to trigger.
+  - *2024-09-20* — If a double-faced card is manifested, it will be put onto the battlefield face down. While face down, it can't transform. If the front face of the card is a creature card, you can turn it face up by paying its mana cost. If you do, its front face will be up.
+  - *2024-09-20* — If a face-down creature loses its abilities, it can't be turned face up with a disguise or morph ability because it will no longer have that ability (or the associated cost) once face up.
+  - *2024-09-20* — If a face-down spell leaves the stack and goes to any zone other than the battlefield (if it was countered, for example), you must reveal it. Similarly, if a face-down permanent leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or the game ends.
+  - *2024-09-20* — If a manifested creature would have disguise or morph if it were face up, you may also turn it face up by paying its disguise or morph cost, as appropriate.
+  - *2024-09-20* — If something tries to turn a face-down instant or sorcery card on the battlefield face up, reveal that card to show all players it's an instant or sorcery card. The permanent remains on the battlefield face down. Abilities that trigger when a permanent turns face up won't trigger, because even though you revealed the card, it never turned face up.
+  - *2024-09-20* — If your library contains only one card when you manifest dread, you'll look at that card and put it onto the battlefield face down. You won't have the option to put it into your graveyard instead. If your library contains no cards when you manifest dread, you won't do anything.
+  - *2024-09-20* — Some cards in the Duskmourn release have abilities that trigger "whenever you manifest dread." In circumstances where you are instructed to manifest dread but can't perform some or all of the steps of manifesting dread (probably because your library has one or fewer cards in it), these abilities will still trigger.
+  - *2024-09-20* — To manifest dread, look at the top two cards of your library. Manifest one (by putting it onto the battlefield face down) and put the other into your graveyard. The card you put onto the battlefield becomes a 2/2 face-down creature with no name, mana cost, creature types, or abilities. It's colorless and has a mana value of 0. Other effects that apply to the permanent can still grant it any characteristics it doesn't have or change the characteristics it does have.
+  - *2024-09-20* — Turning a permanent face up or face down doesn't change whether that permanent is tapped or untapped.
+  - *2024-09-20* — Unlike a face-down creature that was cast using a disguise or morph ability, a manifested creature may still be turned face up after it loses its abilities if it's a creature card.
+  - *2024-09-20* — You must ensure that your face-down spells and permanents can be easily differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield to confuse other players. The order in which they entered should remain clear, as well as what ability caused them to be face down. (This includes manifest, disguise, cloak, morph, and a few older effects that turn cards face down.) Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/200/threats-around-every-corner) · oracle_id `5c104ac8-738a-4a9d-a68b-5706018d2061` · printing: DSK #200 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Threats Undetected
 
@@ -772,7 +846,9 @@
 - **Oracle text:**
   > Search your library for up to four creature cards with different powers and reveal them. An opponent chooses two of those cards. Shuffle the chosen cards into your library and put the rest into your hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8562 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/185/threats-undetected) · oracle_id `24108160-e72b-4451-b1b1-b2b3ac3ede85` · printing: DMU #185 (2022-09-09) · [rulings](https://api.scryfall.com/cards/99545c3e-0710-48d3-8558-046bd66f225c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-09-09* — A creature card has different power from another if their powers are different numbers. For example, a 1/1 creature and a 2/1 creature have different powers.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/185/threats-undetected) · oracle_id `24108160-e72b-4451-b1b1-b2b3ac3ede85` · printing: DMU #185 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Three Blind Mice
 
@@ -784,7 +860,11 @@
   > II, III — Create a token that's a copy of target token you control.
   > IV — Creatures you control get +1/+1 and gain vigilance until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6784 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/35/three-blind-mice) · oracle_id `e5926e14-d30a-4f81-803c-f36542df2db3` · printing: WOE #35 (2023-09-08) · [rulings](https://api.scryfall.com/cards/0d2ba371-854c-4529-b72b-e4a1887e33ab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-09-01* — If the copied token is copying something else, then the token enters the battlefield as whatever that token copied.
+  - *2023-09-01* — Only creatures you control at the time the fourth chapter ability resolves will get +1/+1 and gain vigilance. Creatures you begin to control later in the turn won't be affected.
+  - *2023-09-01* — The token copies the original characteristics of the target token as stated by the effect that created the token.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/35/three-blind-mice) · oracle_id `e5926e14-d30a-4f81-803c-f36542df2db3` · printing: WOE #35 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Three Bowls of Porridge
 
@@ -843,7 +923,9 @@
   > Whenever this creature enters or attacks, create a number of 1/1 colorless Gnome artifact creature tokens equal to its power.
   > {2}, Sacrifice another artifact: Put a +1/+1 counter on this creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1859 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/145/threefold-thunderhulk) · oracle_id `b8020a8b-557b-465d-865d-b59fecd7abc1` · printing: EOC #145 (2025-08-01) · [rulings](https://api.scryfall.com/cards/699d1222-f150-46aa-9004-87b45f07eb42/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-11-10* — If Threefold Thunderhulk leaves the battlefield while its triggered ability is on the stack, use its power as it last existed on the battlefield to determine how many Gnomes to create.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/145/threefold-thunderhulk) · oracle_id `b8020a8b-557b-465d-865d-b59fecd7abc1` · printing: EOC #145 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Three-Headed Goblin
 
@@ -870,7 +952,26 @@
   > *She'd planned for every eventuality, with the obvious exception of failure.*
 - **Keywords:** Spree
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1072 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/75/three-steps-ahead) · oracle_id `282dfeaa-6243-4f92-838a-5cb54fa85184` · printing: OTJ #75 (2024-04-19) · [rulings](https://api.scryfall.com/cards/8fffd839-2337-4a14-9312-cee085a17f4b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (18):
+  - *2024-04-12* — Any enters-the-battlefield abilities of the copied permanent will trigger when the token enters the battlefield. Any “as [this permanent] enters the battlefield” or “[this permanent] enters the battlefield with” abilities of the copied permanent will also work.
+  - *2024-04-12* — Each additional cost and associated mode in the text box is also preceded with a + indicator. These symbols also have no rules meaning and serve only to remind players that the listed costs are additional costs.
+  - *2024-04-12* — If a mode requires a target, you can select that mode only if there’s a legal target available. Ignore the targeting requirements for modes you don’t choose.
+  - *2024-04-12* — If a spell with spree is copied, the effect that creates the copy may allow you to choose new targets. You cannot choose new modes.
+  - *2024-04-12* — If all targets for the chosen modes become illegal before a spell with spree resolves, the spell won’t resolve and none of its effects will happen. If at least one target is still legal, the spell will resolve but will have no effect on any illegal targets.
+  - *2024-04-12* — If an effect allows you to cast a spell with spree “without paying its mana cost,” you must still choose at least one mode and pay the associated additional costs.
+  - *2024-04-12* — If the copied permanent has {X} in its mana cost, X is 0.
+  - *2024-04-12* — If the copied permanent is a token, the token that’s created copies the original characteristics of that token as stated by the effect that created that token.
+  - *2024-04-12* — If the copied permanent is copying something else, then the token enters the battlefield as whatever that permanent copied.
+  - *2024-04-12* — If the first and/or second modes are chosen, then Three Steps Ahead has one or more targets. If so, and all its targets are illegal as it tries to resolve, Three Steps Ahead won’t resolve and none of its effects will happen. If at least one target is still legal, the spell will resolve and modes with legal targets (and the third mode, if chosen) will have their effects.
+  - *2024-04-12* — No matter which modes you choose, you always follow the instructions in the order they are written.
+  - *2024-04-12* — No player can cast spells or activate abilities in between the modes of a resolving spell. Any abilities that trigger won’t be put onto the stack until the spell is done resolving.
+  - *2024-04-12* — Spells with spree have a + (plus sign) indicator in the upper right corner of the card frame. This has no rules meaning and serves only to remind players that at least one additional cost is required to cast the spell.
+  - *2024-04-12* — The mana value of a spell with spree is determined only by its mana cost (in the upper right corner of the card). It doesn’t matter which modes you choose or which additional costs you pay, including any additional costs imposed by other effects.
+  - *2024-04-12* — The token copies exactly what was printed on the original permanent and nothing else (unless that permanent is copying something else or is a token; see below). It doesn’t copy whether that permanent is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+  - *2024-04-12* — You can’t choose the same mode more than once.
+  - *2024-04-12* — You choose the modes as you cast the spell with spree. Once modes are chosen, they can’t be changed.
+  - *2024-04-12* — You must choose at least one of the listed modes and pay its associated additional cost in order to cast a spell with spree.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/75/three-steps-ahead) · oracle_id `282dfeaa-6243-4f92-838a-5cb54fa85184` · printing: OTJ #75 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Three Tragedies
 
@@ -910,7 +1011,12 @@
   > *—\*Valley Gazetteer\*, four-acorn review*
 - **Keywords:** Changeling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4261 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/682/three-tree-mascot) · oracle_id `6cb9d153-4eaa-4f32-8930-bd68cd99c128` · printing: FDN #682 (2024-11-15) · [rulings](https://api.scryfall.com/cards/40b8bf3a-1cb5-4ce2-ac25-9410f17130de/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-07-26* — Changeling is a characteristic-defining ability. It functions in all zones, not only while a card that has it is on the battlefield.
+  - *2024-07-26* — If an effect causes a creature with changeling to become a new creature type, it will be only that new creature type. It will still have changeling; the effect making it all creature types will simply be overwritten.
+  - *2024-07-26* — If an effect causes a creature with changeling to lose all abilities, it will remain all creature types, even though it will no longer have changeling. This is because changeling applies before the effect that removes it.
+  - *2024-07-26* — The subtype Shapeshifter that appears on the type line is mostly there to reinforce the flavor. A creature card with changeling is just as much a Mouse, a Frog, a Rabbit, a Lizard, and a Brushwagg as it is a Shapeshifter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/682/three-tree-mascot) · oracle_id `6cb9d153-4eaa-4f32-8930-bd68cd99c128` · printing: FDN #682 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Three Tree Rootweaver
 
@@ -922,6 +1028,7 @@
 - **Flavor text** (BLB printing):
   > *"It's easy to find your way around the Root Maze if you know what to look, listen, smell, feel, and taste for."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7394 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/198/three-tree-rootweaver) · oracle_id `d17d4003-e1c9-42be-ac76-3b5500fad485` · printing: BLB #198 (2024-08-02) · [rulings](https://api.scryfall.com/cards/d1ab6e14-26e0-4174-b5c6-bc0f5c26b177/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Three Tree Scribe
@@ -934,7 +1041,10 @@
 - **Flavor text** (BLB printing):
   > *"The tree wants to give me a warning. I just need to help it communicate."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8656 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/199/three-tree-scribe) · oracle_id `7d2a7741-1dff-4fac-92d8-abea24f23f97` · printing: BLB #199 (2024-08-02) · [rulings](https://api.scryfall.com/cards/ea2ca1b3-4c1a-4be5-b321-f57db5ff0528/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-07-26* — If Three Tree Scribe leaves the battlefield without dying at the same time one or more other creatures you control leave the battlefield without dying, its ability will still trigger once for each of those creatures, including itself.
+  - *2024-07-26* — Three Tree Scribe’s ability triggers whenever a creature you control goes to any zone other than the graveyard from the battlefield. They could be returned to your hand, your library, or exiled, for example.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/199/three-tree-scribe) · oracle_id `7d2a7741-1dff-4fac-92d8-abea24f23f97` · printing: BLB #199 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Three Visits
 
@@ -1007,6 +1117,7 @@
   > *"This must be the lost city of Zantafar, where my people lived before becoming nomads. Think of the history we'll learn here!"*
   > *—Quintorius, Lorehold mage-student*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4229 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/245/thrilling-discovery) · oracle_id `c5f5a234-c751-4976-a3e1-fbd52b3255c9` · printing: OTC #245 (2024-04-19) · [rulings](https://api.scryfall.com/cards/1278b2ef-6c11-4892-9388-833f67bcc858/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thrilling Encore
@@ -1018,7 +1129,11 @@
 - **Flavor text** (BBD printing):
   > *"Welcome to the winning team."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7698 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/53/thrilling-encore) · oracle_id `2a114ff8-fa7d-41b8-b412-6232fbb68efc` · printing: BBD #53 (2018-06-08) · [rulings](https://api.scryfall.com/cards/20b4d2f6-c49c-45d7-b172-2628d336e843/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-06-08* — Cards that aren't creature cards won't be returned to the battlefield, even if an effect made those cards creatures when they were last on the battlefield.
+  - *2018-06-08* — Creature spells that were countered never entered the battlefield, so Thrilling Encore won't return them to the battlefield.
+  - *2018-06-08* — In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, all creatures put onto the battlefield with Thrilling Encore that you controlled but didn't own are exiled.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/53/thrilling-encore) · oracle_id `2a114ff8-fa7d-41b8-b412-6232fbb68efc` · printing: BBD #53 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thrill-Kill Assassin
 
@@ -1105,6 +1220,7 @@
 - **Flavor text** (MSC printing):
   > *Throughout the ages Mount Wundagore has yielded wonders, supernatural and scientific, sacred and profane.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1204 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/578/thriving-bluff) · oracle_id `91fceb34-0f2d-4392-be27-00dcd765637f` · printing: MSC #578 (2026-06-26) · [rulings](https://api.scryfall.com/cards/82c96473-d7b9-48dc-9569-cdb649c78463/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thriving Grove
@@ -1117,6 +1233,7 @@
 - **Flavor text** (MSC printing):
   > *A place of perfect calm in a raging world.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1175 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/579/thriving-grove) · oracle_id `a8052556-8962-4130-86a8-6fb7b6a324f7` · printing: MSC #579 (2026-06-26) · [rulings](https://api.scryfall.com/cards/eef65ebc-12d6-4438-a908-2a0c28329124/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thriving Grubs
@@ -1143,6 +1260,7 @@
   > *"Braddock Manor is fraught with memories, both joyous and heartbreaking."*
   > *—Captain Britain, Brian Braddock*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1098 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/580/thriving-heath) · oracle_id `d1946630-e224-40db-8f0d-388b09622288` · printing: MSC #580 (2026-06-26) · [rulings](https://api.scryfall.com/cards/bb089097-1eed-4e72-a715-579ddd8307a0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thriving Ibex
@@ -1168,6 +1286,7 @@
 - **Flavor text** (MSC printing):
   > *A strange mountain that rises from the surface of the sea like an unearthly, grotesque face.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1010 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/581/thriving-isle) · oracle_id `69fc70b8-b143-4662-ac95-e2743037239d` · printing: MSC #581 (2026-06-26) · [rulings](https://api.scryfall.com/cards/58a3b5a5-eba0-4b4e-869a-5387ec7dd2b8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thriving Moor
@@ -1180,6 +1299,7 @@
 - **Flavor text** (MSC printing):
   > *As the Quinjet soars overhead, something stirs in the swamp below, roused by the strong wills of the heroes on board.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1223 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/582/thriving-moor) · oracle_id `bff416bb-d193-4c45-b2c1-7c297dbfad08` · printing: MSC #582 (2026-06-26) · [rulings](https://api.scryfall.com/cards/5d5eea5f-b9e8-4a10-8e7f-c42493a728cd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thriving Rats
@@ -1259,6 +1379,7 @@
   > Whenever this creature deals combat damage to a player, destroy target nonblack creature that player controls.
 - **Keywords:** Ninjutsu
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4302 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/pca/37/throat-slitter) · oracle_id `56f782b7-d46c-4aa1-ae16-66d6401c72ae` · printing: PCA #37 (2016-11-25) · [rulings](https://api.scryfall.com/cards/87126165-2cba-4a24-a3fc-3b5487e89d13/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Throat Wolf
@@ -1282,7 +1403,19 @@
   > Retrace (You may cast this card from your graveyard by discarding a land card in addition to paying its other costs.)
 - **Keywords:** Retrace, Cascade
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5461 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/257/throes-of-chaos) · oracle_id `e3444fcf-70ed-4d6e-aea9-030af15cad56` · printing: SOC #257 (2026-04-24) · [rulings](https://api.scryfall.com/cards/af0fd1ff-3398-45df-b934-07a6b6497998/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2019-06-14* — Throes of Chaos does nothing as it resolves. All of its chaos happens before it resolves.
+  - *2019-06-14* — When a spell you cast with retrace resolves or is countered, it's put back into your graveyard. You may use the retrace ability to cast it again.
+  - *2021-06-18* — A spell's mana value is determined only by its mana cost. Ignore any alternative costs, additional costs, cost increases, or cost reductions.
+  - *2021-06-18* — Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade.
+  - *2021-06-18* — Due to a 2021 rules change to cascade, not only do you stop exiling cards if you exile a nonland card with lesser mana value than the spell with cascade, but the resulting spell you cast must also have lesser mana value. Previously, in cases where a card's mana value differed from the resulting spell, such as with some modal double-faced cards or cards with an Adventure, you could cast a spell with a higher mana value than the exiled card.
+  - *2021-06-18* — If a spell with cascade is countered, the cascade ability will still resolve normally.
+  - *2021-06-18* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2021-06-18* — If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those to cast the card.
+  - *2021-06-18* — The mana value of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves.
+  - *2021-06-18* — When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled.
+  - *2021-06-18* — You exile the cards face up. All players will be able to see them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/257/throes-of-chaos) · oracle_id `e3444fcf-70ed-4d6e-aea9-030af15cad56` · printing: SOC #257 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thromok the Insatiable
 
@@ -1315,6 +1448,7 @@
   > {T}: Add four mana of the chosen color. Spend this mana only to cast monocolored spells of that color.
   > {3}, {T}: Draw two cards. Spend only mana of the chosen color to activate this ability.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #894 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/plst/WOC-28/throne-of-eldraine) · oracle_id `5b9a2b81-a645-43be-8001-03817ac210ca` · printing: PLST #WOC-28 (2026-05-18) · [rulings](https://api.scryfall.com/cards/6d98bdb7-bdba-4e06-a122-9bcf131f4cc8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Throne of Empires
@@ -1339,7 +1473,15 @@
   > *At the heart of Ish Sah, Geth stokes the dark fires of Phyrexia.*
 - **Keywords:** Proliferate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3866 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/301/throne-of-geth) · oracle_id `5a5f39ab-21b4-415f-aa1f-d8fad420d372` · printing: 2XM #301 (2020-08-07) · [rulings](https://api.scryfall.com/cards/a5719f8b-0a65-4f0c-bde0-74c5e107b64d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2020-08-07* — You may sacrifice Throne of Geth to pay the cost of its own ability.
+  - *2023-02-04* — An ability that triggers "Whenever you proliferate" triggers even if you chose no permanents or players while doing so.
+  - *2023-02-04* — If a permanent ever has both +1/+1 counters and -1/-1 counters on it at the same time, they're removed in pairs as a state-based action so that the permanent has only one of those kinds of counters on it.
+  - *2023-02-04* — If a player or permanent has more than one kind of counter on it, and you choose for it to get additional counters, it must get one of each kind of counter it already has. You can't have it get just one kind of counter it already has and not the others.
+  - *2023-02-04* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
+  - *2023-02-04* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
+  - *2023-02-04* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/301/throne-of-geth) · oracle_id `5a5f39ab-21b4-415f-aa1f-d8fad420d372` · printing: 2XM #301 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Throne of Makindi
 
@@ -1362,7 +1504,11 @@
   > *"When the Second Sun rests between the horns on the horizon, so begins the Hour of Revelation. Then the Hour of Glory, the Hour of Promise, and finally the Hour of Eternity."*
   > *—\*The Accounting of Hours\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2653 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/akh/237/throne-of-the-god-pharaoh) · oracle_id `ea750169-1f6f-40c2-96e9-55719e103a63` · printing: AKH #237 (2017-04-28) · [rulings](https://api.scryfall.com/cards/fe402b8e-f966-4971-90a5-950d8cff5025/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2017-04-18* — If other abilities trigger at the beginning of your end step, first those controlled by your opponents resolve, then yours resolve. Each player orders their triggers in any order.
+  - *2017-04-18* — In a Two-Headed Giant game, the triggered ability of Throne of the God-Pharaoh causes the opposing team to lose life equal to twice the number of tapped creatures you control. Tapped creatures your teammate controls aren’t counted.
+  - *2017-04-18* — Throne of the God-Pharaoh’s ability triggers at the beginning of each of your end steps, even if you control no tapped creatures. The number of tapped creatures you control is checked as the ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/akh/237/throne-of-the-god-pharaoh) · oracle_id `ea750169-1f6f-40c2-96e9-55719e103a63` · printing: AKH #237 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Throne of the Grim Captain // The Grim Captain
 
@@ -1388,7 +1534,12 @@
 - **Flavor text** (MSC printing):
   > *In times of trouble, Wakandans still look to the throne for reassurance.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4292 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/274/throne-of-the-high-city) · oracle_id `9684447a-5955-4bc7-8ad0-8bb8b316873b` · printing: MSC #274 (2026-06-26) · [rulings](https://api.scryfall.com/cards/6aac7a6d-90c7-4fe7-b6d3-f63a7170ee96/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2016-08-23* — Abilities that trigger whenever you "become the monarch" trigger only if you aren't already the monarch. For example, if you are already the monarch as Custodi Lich enters the battlefield, its last ability won't trigger.
+  - *2016-08-23* — Being the monarch carries two inherent triggered abilities. "At the beginning of the monarch's end step, that player draws a card" and "Whenever a creature deals combat damage to the monarch, its controller becomes the monarch."
+  - *2016-08-23* — If the triggered ability that causes the monarch to draw a card goes on the stack, and a different player becomes the monarch before that ability resolves, the first player will still draw the card.
+  - *2016-08-23* — The game starts with no monarch. Once an effect makes one player the monarch, the game will have exactly one monarch from that point forward.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/274/throne-of-the-high-city) · oracle_id `9684447a-5955-4bc7-8ad0-8bb8b316873b` · printing: MSC #274 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Throne Warden
 
@@ -1447,6 +1598,7 @@
   > *"Well, here is Mirkwood—the greatest of the forests of the northern world. I hope you like the look of it."*
   > *—Gandalf*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7249 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/137/through-the-forest-gate) · oracle_id `acfe54b3-10e3-4fdb-b874-d39fde96c40a` · printing: HOB #137 (2026-08-14) · [rulings](https://api.scryfall.com/cards/880adfc8-69cf-4062-a804-e65b6cb6056d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Throw from the Saddle
@@ -1499,7 +1651,14 @@
   > *The hunger of a vampire and the subtlety of a tax collector.*
 - **Keywords:** Extort
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7184 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/gtc/81/thrull-parasite) · oracle_id `577eb51d-7979-4f97-a8b1-e31242720611` · printing: GTC #81 (2013-02-01) · [rulings](https://api.scryfall.com/cards/c38dfb08-ab41-4759-9967-b5a25f18518a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2013-01-24* — The nonland permanent you choose as the target doesn't have to have any counters on it. If it has more than one kind of counter, you'll choose one of those counters when the ability resolves.
+  - *2013-01-24* — You can't activate Thrull Parasite's last ability to stop a player from paying the cost of a spell or an ability that requires removing a counter from a permanent (such as a planeswalker's loyalty ability).
+  - *2024-01-12* — The amount of life you gain from extort is based on the total amount of life lost, not necessarily the number of opponents you have. For example, if your opponent's life total can't change (perhaps because that player controls Platinum Emperion), you won't gain any life.
+  - *2024-01-12* — The extort ability doesn't target any player.
+  - *2024-01-12* — The extort ability resolves before the spell that caused it to trigger. The ability resolves even if that spell is countered.
+  - *2024-01-12* — You may pay {W/B} a maximum of one time for each extort triggered ability. You decide whether to pay when the ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/gtc/81/thrull-parasite) · oracle_id `577eb51d-7979-4f97-a8b1-e31242720611` · printing: GTC #81 (2013-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thrull Retainer
 
@@ -1573,7 +1732,9 @@
   > *—Decrypted log 4.11*
 - **Keywords:** Affinity
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4823 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/247/thrumming-hivepool) · oracle_id `04ea21b3-084b-4746-9b49-99b6ef4f0885` · printing: EOE #247 (2025-08-01) · [rulings](https://api.scryfall.com/cards/85caf659-7b43-462e-a342-34703d46eb57/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-07-25* — To determine the total cost of a spell, start with the mana cost or alternative cost you’re paying, add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/247/thrumming-hivepool) · oracle_id `04ea21b3-084b-4746-9b49-99b6ef4f0885` · printing: EOE #247 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thrumming Stone
 
@@ -1582,7 +1743,10 @@
 - **Oracle text:**
   > Spells you cast have ripple 4. (Whenever you cast a spell, you may reveal the top four cards of your library. You may cast spells with the same name as that spell from among the revealed cards without paying their mana costs. Put the rest on the bottom of your library.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2281 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/315/thrumming-stone) · oracle_id `b2bd40a1-1857-4f4c-aed6-d4e224ac0ef7` · printing: 2X2 #315 (2022-07-08) · [rulings](https://api.scryfall.com/cards/14adc0af-de61-4872-916c-3cf480dece46/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2006-07-15* — If you cast a spell that already has ripple (such as Surging Flame, which has ripple 4) while Thrumming Stone is on the battlefield, both ripple abilities will trigger separately. Assuming you choose to do all "you may" actions, when the first instance of ripple resolves, you reveal the top four cards of your library, cast all Surging Flames, and put the rest of the cards on the bottom of your library. Any new Surging Flames are on the stack on top of the other instance of ripple, so they'll resolve next. Each of them also has two instances of ripple, which trigger separately, and the process continues until the ripple abilities don't reveal any Surging Flames.
+  - *2006-07-15* — If you cast half of a split card (for example, Hit) and reveal another one of those split cards when the ripple ability resolves (for example, Hit // Run), you may cast either half of that split card (Hit or Run) without paying its mana cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/315/thrumming-stone) · oracle_id `b2bd40a1-1857-4f4c-aed6-d4e224ac0ef7` · printing: 2X2 #315 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thrun, Breaker of Silence
 
@@ -1596,6 +1760,7 @@
   > During your turn, Thrun has indestructible.
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9124 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/186/thrun-breaker-of-silence) · oracle_id `789b7af5-ac15-40b6-b5b7-f3fcdcfb52e1` · printing: ONE #186 (2023-02-10) · [rulings](https://api.scryfall.com/cards/6d9f51dd-0393-4b3c-bea5-8f74634ab0e5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thrun, the Last Troll
@@ -1626,4 +1791,11 @@
   > *Even in their mountain fortresses, the Akroans have learned not to anger Thassa.*
 - **Keywords:** Flying, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3489 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/127/thryx-the-sudden-storm) · oracle_id `20004398-bd04-4583-8378-9df743246a32` · printing: CMM #127 (2023-08-04) · [rulings](https://api.scryfall.com/cards/cbbdae80-1481-4a8c-b3c3-f4224204d29d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2020-01-24* — A spell or ability that counters spells can still target spells you control with mana value 5 or greater. When that spell or ability resolves, your spell won't be countered, but any additional effects of the countering spell or ability will still happen.
+  - *2020-01-24* — For spells with {X} in their mana costs, use the value chosen for X to determine the spell's mana value.
+  - *2020-01-24* — If Thryx enters the battlefield while a spell with mana value 5 or greater that you cast is on the stack, that spell can't be countered, even though you don't get the {1} discount.
+  - *2020-01-24* — Players can't attempt to remove Thryx to raise the cost of a spell you wish to cast, but they can remove it to allow their spells and abilities to counter your spells.
+  - *2020-01-24* — Thryx's last ability doesn't apply to itself while it's a spell.
+  - *2020-01-24* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions (such as that of Thryx). The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/127/thryx-the-sudden-storm) · oracle_id `20004398-bd04-4583-8378-9df743246a32` · printing: CMM #127 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

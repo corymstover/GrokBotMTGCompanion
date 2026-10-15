@@ -21,6 +21,7 @@
 - **Flavor text** (OTJ printing):
   > *Pioneers with a distaste for crowds and cities are welcomed by the Outcasters, who celebrate solitude and find endless wonder in the natural world.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3697 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/170/map-the-frontier) · oracle_id `11a46cb6-ab01-4630-9541-782db2ef3b91` · printing: OTJ #170 (2024-04-19) · [rulings](https://api.scryfall.com/cards/165f4428-e1a1-477d-bd90-138189e88163/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Map the Wastes

@@ -22,6 +22,7 @@
 - **Flavor text** (CMR printing):
   > *"Why so slow, why so slow? Hurry up! You never know what you'll find."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2154 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/284/kwain-itinerant-meddler) · oracle_id `ce6a85b5-e249-4582-a6be-ce200da5fd53` · printing: CMR #284 (2020-11-20) · [rulings](https://api.scryfall.com/cards/f571fef1-1fd2-4355-b803-5edccb6f4b94/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kwende, Pride of Femeref

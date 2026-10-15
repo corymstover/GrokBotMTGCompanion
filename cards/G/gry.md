@@ -38,7 +38,9 @@
   > {3}{W}: Return this card from your graveyard to the battlefield attached to target creature. Activate only as a sorcery.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7807 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/25/gryffs-boon) · oracle_id `f62f3f4e-d506-43a9-91d8-bbc86e0a9167` · printing: INR #25 (2025-01-24) · [rulings](https://api.scryfall.com/cards/a01e7a3f-9654-4f72-8adc-20dad0b5d14e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-04-08* — If you activate Gryff's Boon's last ability and the target creature becomes an illegal target in response, the ability doesn't resolve and Gryff's Boon remains in your graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/25/gryffs-boon) · oracle_id `f62f3f4e-d506-43a9-91d8-bbc86e0a9167` · printing: INR #25 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gryff Vanguard
 

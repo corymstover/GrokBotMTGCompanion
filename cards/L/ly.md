@@ -52,7 +52,10 @@
   > At the beginning of your end step, surveil X, where X is the number of tapped Assassins you control. (Look at the top X cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7490 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/acr/60/lydia-frye) · oracle_id `0315f5e7-2867-428e-8e43-66dda0db57a0` · printing: ACR #60 (2024-07-05) · [rulings](https://api.scryfall.com/cards/9dd6c700-f961-484a-8fe2-57107f5b7717/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-07-05* — Once Lydia Frye has been blocked, increasing the blocking creature’s power to 3 or greater won’t cause Lydia Frye to become unblocked.
+  - *2024-07-05* — The value of X is calculated only once, as Lydia Frye’s last ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/acr/60/lydia-frye) · oracle_id `0315f5e7-2867-428e-8e43-66dda0db57a0` · printing: ACR #60 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lyev Decree
 
@@ -88,6 +91,7 @@
 - **Flavor text** (SPE printing):
   > *"I'm a 22nd century Lyrate Life-form Approximation. I already know what you need before you do."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6047 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/spe/7/lyla-holographic-assistant) · oracle_id `b7fb0141-4fbd-4269-a2e9-92f75ec95271` · printing: SPE #7 (2025-09-26) · [rulings](https://api.scryfall.com/cards/26ea86d7-34f8-4358-8fdf-a18e53397755/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lymph Sliver
@@ -169,7 +173,10 @@
   > Other Angels you control get +1/+1 and have lifelink.
 - **Keywords:** Flying, Lifelink, First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1758 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/738/lyra-dawnbringer) · oracle_id `592c91fc-6430-4c76-9460-65f047350f67` · printing: FDN #738 (2026-04-24) · [rulings](https://api.scryfall.com/cards/f9fa30b6-3a33-46fd-8b32-ac1cfa41500d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-12-08* — Because damage remains marked on a creature until it's removed as the turn ends, nonlethal damage dealt to an Angel you control may become lethal if Lyra leaves the battlefield during that turn.
+  - *2022-12-08* — Multiple instances of lifelink on the same creature are redundant.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/738/lyra-dawnbringer) · oracle_id `592c91fc-6430-4c76-9460-65f047350f67` · printing: FDN #738 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lyra, Tolarian Archangel
 
@@ -220,7 +227,9 @@
 - **Flavor text** (KHC printing):
   > *From the highest tiers of Dawn's Light Palace to the deepest shade of Wren's Run, the silver notes of the horn shimmer through the air, and all who hear it feel its pull.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2319 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khc/67/lys-alana-huntmaster) · oracle_id `3f3439e1-75ce-482d-881f-836492dca6e9` · printing: KHC #67 (2021-02-05) · [rulings](https://api.scryfall.com/cards/0849f67b-da5d-49f7-840f-f87f48518156/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-06-08* — Lys Alana Huntmaster’s ability will resolve before the Elf spell that caused it to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khc/67/lys-alana-huntmaster) · oracle_id `3f3439e1-75ce-482d-881f-836492dca6e9` · printing: KHC #67 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lys Alana Informant
 
@@ -258,7 +267,11 @@
   > As long as you've cast two or more noncreature spells this turn, Lyse Hext has double strike.
 - **Keywords:** Prowess
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3395 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/88/lyse-hext) · oracle_id `47bce63e-8edb-43c1-b273-4b86da5c616b` · printing: FIC #88 (2025-06-13) · [rulings](https://api.scryfall.com/cards/97845ece-ceef-468c-a4e3-6fde1413c9f0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-06-06* — Noncreature spells that were cast before Lyse Hext entered count. For example, if Lyse Hext enters on a turn where you've already cast two noncreature spells, she'll have double strike immediately.
+  - *2025-06-06* — The cost reduction applies only to generic mana in the total cost of noncreature spells you cast.
+  - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as a flashback cost), add any cost increases (such as kicker costs), then apply any cost reductions (such as that of Lyse Hext's second ability). The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/88/lyse-hext) · oracle_id `47bce63e-8edb-43c1-b273-4b86da5c616b` · printing: FIC #88 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lyzolda, the Blood Witch
 

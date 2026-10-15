@@ -33,7 +33,13 @@
   > {1}, {T}: Create a token that's a copy of another target creature you control, except it's a 1/1 red Balloon creature in addition to its other colors and types and it has flying and haste. Sacrifice it at the beginning of the next end step. Activate only as a sorcery.
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2516 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/219/the-jolly-balloon-man) · oracle_id `82ea519f-0e14-43d3-bf46-a1c5352e9600` · printing: DSK #219 (2024-09-27) · [rulings](https://api.scryfall.com/cards/a3c4e2e0-1c0e-475d-a0f4-1be4216c2bad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-09-20* — Any enters abilities of the copied creature will trigger when the token enters. Any "as [this creature] enters" or "[this creature] enters with" abilities of the copied creature will also work.
+  - *2024-09-20* — Except for the listed exceptions, the token created by The Jolly Balloon Man's ability copies exactly what was printed on the original creature and nothing else (unless that creature is copying something else or is a token; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+  - *2024-09-20* — If the copied creature has {X} in its mana cost, X is 0.
+  - *2024-09-20* — If the copied creature is a token, the token that's created copies the original characteristics of that token as stated by the effect that created that token, with the stated exceptions.
+  - *2024-09-20* — If the copied creature is copying something else, then the token enters as whatever that creature copied, with the stated exception.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/219/the-jolly-balloon-man) · oracle_id `82ea519f-0e14-43d3-bf46-a1c5352e9600` · printing: DSK #219 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Judge of Height
 

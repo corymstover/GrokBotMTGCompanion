@@ -44,6 +44,7 @@
 - **Flavor text** (ONE printing):
   > *"Soon enough each praetor will have hired me to kill the others, and I will stand alone as the true Father of Machines."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4316 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/114/vraan-executioner-thane) · oracle_id `b2f2645f-5f74-456a-bd02-83169d8b8a7e` · printing: ONE #114 (2023-02-10) · [rulings](https://api.scryfall.com/cards/4c4a3119-c70a-46ff-8ede-6356f2b7bc13/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vraska, Betrayal's Sting
@@ -58,7 +59,13 @@
   > −9: If target player has fewer than nine poison counters, they get a number of poison counters equal to the difference.
 - **Keywords:** Proliferate, Compleated
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1269 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/88/vraska-betrayals-sting) · oracle_id `05d09c55-f551-4cb4-a8d2-4811dccc848d` · printing: ECC #88 (2026-01-23) · [rulings](https://api.scryfall.com/cards/9f1fa1c5-ff87-4bbc-89aa-dbebc91eada0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-02-04* — A Phyrexian mana symbol contributes 1 toward the mana value of a card, even if life is paid for it. Specifically, Vraska's mana value is always 6.
+  - *2023-02-04* — In most cases, the target of Vraska's last loyalty ability will end up with nine poison counters. However, once you calculate what the difference is, replacement effects can change how many poison counters the player actually gets. For example, if the player controls Melira, the Living Cure, they will end up getting one poison counter if they had eight or fewer to begin with.
+  - *2023-02-04* — Other replacement effects that would change the number of loyalty counters Vraska enters with will apply as normal.
+  - *2023-02-04* — The compleated ability looks only at whether a player chose to pay 2 life for a Phyrexian mana symbol as they were casting the spell. If a player paid life for some other reason while casting the spell, that will not reduce the number of loyalty counters the planeswalker enters the battlefield with.
+  - *2023-02-04* — The target of Vraska's second loyalty ability will lose any other subtypes and card types it previously had and will be only a Treasure artifact. It will retain any supertypes it had.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/88/vraska-betrayals-sting) · oracle_id `05d09c55-f551-4cb4-a8d2-4811dccc848d` · printing: ECC #88 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vraska, Golgari Queen
 
@@ -70,7 +77,11 @@
   > −3: Destroy target nonland permanent with mana value 3 or less.
   > −9: You get an emblem with "Whenever a creature you control deals combat damage to a player, that player loses the game."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4237 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/grn/213/vraska-golgari-queen) · oracle_id `131096a3-2d53-4ec2-96d3-fcb58e698a13` · printing: GRN #213 (2018-10-05) · [rulings](https://api.scryfall.com/cards/a36d3ea7-0f18-4865-b47b-755673db065e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-10-05* — If a permanent has {X} in its mana cost, X is considered to be 0.
+  - *2018-10-05* — Tokens that aren't a copy of something else don't have a mana cost. Anything without a mana cost normally has a mana value of 0.
+  - *2018-10-05* — You choose whether to sacrifice a permanent (and which one to sacrifice) while Vraska's first ability is resolving. No player may take actions between the time you choose which permanent to sacrifice and the time you do so.
+- **Source flags:** [Scryfall](https://scryfall.com/card/grn/213/vraska-golgari-queen) · oracle_id `131096a3-2d53-4ec2-96d3-fcb58e698a13` · printing: GRN #213 (2018-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vraska Joins Up
 
@@ -82,6 +93,7 @@
 - **Flavor text** (OTJ printing):
   > *Letting Oko believe he held all the cards provided the perfect cover for her own scheme to unfold.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2648 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/236/vraska-joins-up) · oracle_id `c91b0dd5-4c63-49a5-95bf-c342b6ff2076` · printing: OTJ #236 (2024-04-19) · [rulings](https://api.scryfall.com/cards/06e546c2-737e-4b17-bf60-3069b1ccdf31/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vraska, Regal Gorgon
@@ -107,7 +119,10 @@
   > −10: Target player's life total becomes 1.
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8526 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/xln/232/vraska-relic-seeker) · oracle_id `3c037103-5af0-40a8-bbbe-7f3f5958b6e9` · printing: XLN #232 (2017-09-29) · [rulings](https://api.scryfall.com/cards/967b7272-33a6-46e9-b0aa-4757aee54b3a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-09-29* — For a player's life total to become 1, what actually happens is that the player loses the appropriate amount of life (or in some rare cases, gains the appropriate amount of life). For example, if the targeted player's life total is 4 when this ability resolves, that player loses 3 life. Other cards that interact with life loss will interact with this effect accordingly.
+  - *2017-09-29* — If the target artifact, creature, or enchantment is an illegal target by the time Vraska's second ability resolves, the entire ability doesn't resolve. You won't get a Treasure. If, on the other hand, the target is a legal target but isn't destroyed (most likely because it has indestructible), you will get a Treasure.
+- **Source flags:** [Scryfall](https://scryfall.com/card/xln/232/vraska-relic-seeker) · oracle_id `3c037103-5af0-40a8-bbbe-7f3f5958b6e9` · printing: XLN #232 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vraska, Scheming Gorgon
 
@@ -153,7 +168,9 @@
 - **Flavor text** (ONE printing):
   > *The dull, creeping pain of phyresis curdled in Vraska's blood. She knew as soon as it took her, she would betray everything—even Jace.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2340 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/116/vraskas-fall) · oracle_id `33fd9192-3e9b-4d3a-92aa-06de29d449df` · printing: ONE #116 (2023-02-10) · [rulings](https://api.scryfall.com/cards/0173b7b4-2832-4943-ba45-8ba498d7a056/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-02-04* — Each opponent gets a poison counter even if they can't sacrifice any permanents.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/116/vraskas-fall) · oracle_id `33fd9192-3e9b-4d3a-92aa-06de29d449df` · printing: ONE #116 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vraska's Final Mercy
 
@@ -246,7 +263,9 @@
   > Whenever a nontoken creature an opponent controls dies, you may pay {1}. If you do, return that card to the battlefield tapped under your control. It's a Treasure artifact with "{T}, Sacrifice this artifact: Add one mana of any color," and it loses all other card types.
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5807 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/237/vraska-the-silencer) · oracle_id `e7c5a568-3855-4a20-9edf-01a8a6a4ba97` · printing: OTJ #237 (2024-04-19) · [rulings](https://api.scryfall.com/cards/b042abf2-c40b-4235-a4fa-2e4901c375c3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-04-12* — The returned card will lose any other subtypes and card types and will be only a Treasure artifact. It will retain its supertypes as well as its abilities.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/237/vraska-the-silencer) · oracle_id `e7c5a568-3855-4a20-9edf-01a8a6a4ba97` · printing: OTJ #237 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vraska the Unseen
 
@@ -258,7 +277,10 @@
   > −3: Destroy target nonland permanent.
   > −7: Create three 1/1 black Assassin creature tokens with "Whenever this token deals combat damage to a player, that player loses the game."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7551 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c19/207/vraska-the-unseen) · oracle_id `0d2bbce0-8c27-4b82-ab62-51a0c3cfc9b0` · printing: C19 #207 (2019-08-23) · [rulings](https://api.scryfall.com/cards/a6ab9d2b-6cb3-4477-8d0e-712c530383bd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2012-10-01* — Each Assassin token's triggered ability will trigger whenever it deals combat damage to any player, including you.
+  - *2012-10-01* — If an effect creates a copy of one of the Assassin creature tokens, the copy will also have the triggered ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c19/207/vraska-the-unseen) · oracle_id `0d2bbce0-8c27-4b82-ab62-51a0c3cfc9b0` · printing: C19 #207 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vren, the Relentless
 
@@ -271,7 +293,12 @@
   > At the beginning of each end step, create X 1/1 black Rat creature tokens with "This token gets +1/+1 for each other Rat you control," where X is the number of creatures that were exiled under your opponents' control this turn.
 - **Keywords:** Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5818 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/239/vren-the-relentless) · oracle_id `1216900e-93e3-41a4-b354-9c81938639c2` · printing: BLB #239 (2024-08-02) · [rulings](https://api.scryfall.com/cards/6506277d-f031-4db5-9d16-bf2389094785/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-07-26* — Cards that would go to your opponent's graveyard for reasons other than dying, such as being discarded or milled, will still go to the graveyard and will not be exiled instead.
+  - *2024-07-26* — If Vren would leave the battlefield at the same time as one or more creatures an opponent controls would die, those creatures will still be exiled.
+  - *2024-07-26* — Vren's last ability counts any creatures your opponents controlled that were exiled this turn, including creature tokens.
+  - *2024-07-26* — While Vren is on the battlefield, creatures your opponents control are exiled instead of dying, and abilities that trigger when a creature dies won't trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/239/vren-the-relentless) · oracle_id `1216900e-93e3-41a4-b354-9c81938639c2` · printing: BLB #239 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vrestin, Menoptra Leader
 
@@ -324,7 +351,19 @@
   > −2: For each opponent, return up to one target nonland permanent that player controls to its owner's hand.
   > −7: Target artifact you control becomes a 9/9 Construct artifact creature and gains vigilance, indestructible, and "This creature can't be blocked."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6904 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/729/vronos-masked-inquisitor) · oracle_id `86851bdb-9b2f-4407-97a1-a6a9f2e0ef66` · printing: CMM #729 (2023-08-04) · [rulings](https://api.scryfall.com/cards/fdd2504b-ff9b-464c-9595-7dffab3bc5b9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2023-07-28* — Any continuous effects with a "for as long as" duration, such as that of Extraction Specialist, ignore phased-out objects. If ignoring those objects causes the effect's conditions to no longer be met, the duration will expire.
+  - *2023-07-28* — Choices made for permanents as they entered the battlefield are remembered when they phase in.
+  - *2023-07-28* — Effects that modify a creature's power and/or toughness, such as the one created by Giant Growth or a +1/+1 counter, will apply to the creature no matter when they started to take effect.
+  - *2023-07-28* — If the artifact affected by Vronos, Masked Inquisitor's last ability is attached to another permanent, it becomes unattached. If an Equipment without reconfigure becomes an artifact creature, it can't be attached to another creature.
+  - *2023-07-28* — If the artifact affected by Vronos, Masked Inquisitor's last ability was already a creature, its base power and toughness will become 9/9. This overwrites any previous effects that set its base power and/or toughness to specific values. Any power- or toughness-setting effects that start to apply after Vronos, Masked Inquisitor's last ability resolves will overwrite this effect.
+  - *2023-07-28* — Permanents phase back in during their controller's untap step, immediately before that player untaps their permanents. Creatures that phase in this way are able to attack and pay a cost of {T} during that turn. If a permanent had counters on it when it phased out, it will have those counters when it phases back in.
+  - *2023-07-28* — Phased-out permanents are treated as though they don't exist. They can't be the target of spells or abilities, their static abilities have no effect on the game, their triggered abilities can't trigger, they can't attack or block, and so on.
+  - *2023-07-28* — Phasing out doesn't cause any "leaves the battlefield" abilities to trigger. Similarly, phasing in won't cause any "enters the battlefield" abilities to trigger.
+  - *2023-07-28* — The resulting artifact creature will be able to attack on your turn if it's been under your control continuously since the turn began. It doesn't matter how long it's been a creature, just how long it's been on the battlefield.
+  - *2023-07-28* — Vronos, Masked Inquisitor's last ability causes the target artifact to lose any other creature types it has. It retains any other types, subtypes, and supertypes.
+  - *2023-07-28* — Vronos, Masked Inquisitor's last ability doesn't remove any abilities the target artifact has.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/729/vronos-masked-inquisitor) · oracle_id `86851bdb-9b2f-4407-97a1-a6a9f2e0ef66` · printing: CMM #729 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vryn Wingmare
 
@@ -338,4 +377,7 @@
   > *It's the favored mount of military commanders as well as anyone with a flair for the dramatic.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8420 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m21/43/vryn-wingmare) · oracle_id `c7c241f2-d3cc-4032-a9da-149de73c2539` · printing: M21 #43 (2020-07-03) · [rulings](https://api.scryfall.com/cards/17b59819-4746-4c67-b6e5-4157d498a065/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-06-23* — The ability affects each spell that's not a creature spell, including your own. Creature spells with another type, such as artifact creature spells, aren't affected.
+  - *2020-06-23* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases (such as that of Vryn Wingmare), then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m21/43/vryn-wingmare) · oracle_id `c7c241f2-d3cc-4032-a9da-149de73c2539` · printing: M21 #43 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

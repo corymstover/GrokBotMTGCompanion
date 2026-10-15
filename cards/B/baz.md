@@ -69,4 +69,8 @@
 - **Flavor text** (WWK printing):
   > *"No need for a hurda? How about these maps to recently discovered tombs? Or these vials of invisible potion? Very fancy . . ."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6986 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/wwk/72/bazaar-trader) · oracle_id `21ad7067-3210-42d6-9009-0784b2834227` · printing: WWK #72 (2010-02-05) · [rulings](https://api.scryfall.com/cards/9235ef13-a363-4cab-b69d-39093a621a5c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2010-03-01* — If either the targeted player or the targeted permanent is an illegal target by the time the ability resolves, the ability does nothing. The player won’t gain control of the permanent.
+  - *2010-03-01* — This effect has no duration. The targeted player retains control of the targeted permanent until the game ends, the permanent leaves the battlefield, or an effect causes someone else to gain control of it.
+  - *2010-03-01* — You may target yourself with Bazaar Trader’s ability. Normally, this won’t have any visible effect. However, the ability would override an effect with a limited duration that gave you control of a permanent. For example, if you temporarily gained control of a creature with Act of Treason, targeting yourself and that creature with Bazaar Trader’s ability would then cause you to gain control of the creature indefinitely.
+- **Source flags:** [Scryfall](https://scryfall.com/card/wwk/72/bazaar-trader) · oracle_id `21ad7067-3210-42d6-9009-0784b2834227` · printing: WWK #72 (2010-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

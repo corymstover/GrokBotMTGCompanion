@@ -32,7 +32,9 @@
   > *"Within the song of Mat'Selesnya, one becomes all."*
   > *—Heruj, Selesnya hierophant*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4782 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/334/camaraderie) · oracle_id `9aab386c-d48c-4611-b757-aa69b26cc1b1` · printing: NCC #334 (2022-04-29) · [rulings](https://api.scryfall.com/cards/ca18b625-6767-45b9-bc2c-765f1ba7bd44/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-10-05* — The second part of Camaraderie's effect affects only creatures you control at the time it resolves. Creatures you begin to control later in the turn won't get +1/+1.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/334/camaraderie) · oracle_id `9aab386c-d48c-4611-b757-aa69b26cc1b1` · printing: NCC #334 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Camel
 
@@ -60,7 +62,11 @@
   > {2}, Forage: Put a +1/+1 counter on each other Squirrel you control. (To forage, exile three cards from your graveyard or sacrifice a Food.)
 - **Keywords:** Forage, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2728 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/207/camellia-the-seedmiser) · oracle_id `312c7a7b-2084-42b0-9b13-0a6d3e43a73d` · printing: BLB #207 (2024-08-02) · [rulings](https://api.scryfall.com/cards/2c16eaec-924c-42f6-9fea-07edd7ed93b9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/207/camellia-the-seedmiser) · oracle_id `312c7a7b-2084-42b0-9b13-0a6d3e43a73d` · printing: BLB #207 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Camera Launcher
 
@@ -116,6 +122,7 @@
   > {1}, {T}: You gain 2 life.
   > {2}, {T}, Exile this artifact: Put all commanders you own from the command zone and from your graveyard into your hand. Then shuffle your graveyard into your library.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5906 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/374/campfire) · oracle_id `011ff7a5-6bce-4784-a19b-e74f7b49b8f1` · printing: CMM #374 (2023-08-04) · [rulings](https://api.scryfall.com/cards/34b64d10-c012-4370-b475-755c4025a348/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Campsite Cuisine
@@ -127,7 +134,11 @@
   > Whenever you attack, you may sacrifice X Foods. When you do, up to X target attacking creatures each get +3/+3 and gain trample and indestructible until end of turn.
 - **Keywords:** Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9543 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/464/campsite-cuisine) · oracle_id `45f58002-c831-4b35-8b8c-9a502118e2ec` · printing: FIC #464 (2025-12-05) · [rulings](https://api.scryfall.com/cards/ec6d3402-eed6-44be-a572-9ec0678af403/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-10-02* — A Food token is a colorless Food artifact token with "{2}, {T}, Sacrifice this token: You gain 3 life."
+  - *2025-10-02* — If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, you can sacrifice Instant Ramen (an Artifact – Food from the Magic: The Gathering—FINAL FANTASY main set) to pay the cost of Campsite Cuisine's last ability.
+  - *2025-10-02* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to pay the cost of Campsite Cuisine's last ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/464/campsite-cuisine) · oracle_id `45f58002-c831-4b35-8b8c-9a502118e2ec` · printing: FIC #464 (2025-12-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Campus Composer // Aqueous Aria
 

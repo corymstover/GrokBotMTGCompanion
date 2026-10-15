@@ -40,7 +40,9 @@
 - **Flavor text** (NCC printing):
   > *As the Adversary's influence grew, the conflicts between families escalated.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5546 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/37/make-an-example) · oracle_id `591edddc-3736-44cf-9719-117c24ff3980` · printing: NCC #37 (2022-04-29) · [rulings](https://api.scryfall.com/cards/b4ed0e64-c7d8-49a2-9d00-21076484da0a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-04-29* — “Their chosen pile” means the pile of their permanents that you chose; it doesn't mean that they get to choose a pile.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/37/make-an-example) · oracle_id `591edddc-3736-44cf-9719-117c24ff3980` · printing: NCC #37 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Make a _____ Splash
 
@@ -65,6 +67,7 @@
 - **Flavor text** (FDN printing):
   > *For a moment they stood tall, all fear forgotten.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3351 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/708/make-a-stand) · oracle_id `531f78d5-5004-4b02-99c7-b390cb342fd9` · printing: FDN #708 (2024-11-15) · [rulings](https://api.scryfall.com/cards/9c26415d-9e98-480b-9e30-b3aed00d5f3d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Make a Wish
@@ -192,6 +195,7 @@
   > *"The Supreme Intelligence is defenseless now. I just hope we're doing the right thing."*
   > *—Black Knight, Dane Whitman*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6049 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/137/make-your-move) · oracle_id `8226f31d-6f51-49c3-87f7-0c68f7f4f9ce` · printing: MSC #137 (2026-06-26) · [rulings](https://api.scryfall.com/cards/05fa34df-99b0-4121-b2f1-d41afe97b200/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Make Your Own Luck
@@ -205,7 +209,15 @@
   > *—Annie Flash*
 - **Keywords:** Plot
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9649 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/218/make-your-own-luck) · oracle_id `41246140-4b44-40c4-b92b-501e49c50bf7` · printing: OTJ #218 (2024-04-19) · [rulings](https://api.scryfall.com/cards/0557b0a3-2b48-408f-a508-9f4da2ab1cd1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2024-04-12* — Exiling a card using its plot ability is a special action. Once you announce you're taking that action, no other player can respond by trying to remove that card from your hand.
+  - *2024-04-12* — If a plotted card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-04-12* — If there are fewer than three cards in your library, look at all of the cards in your library and follow the instructions in order. For example, if you had only two cards in your library, you would look at both, exile and plot up to one nonland card from among them, and then put the rest into your hand. Sounds like your luck is about to run out.
+  - *2024-04-12* — If you're casting a plotted card from exile without paying its mana cost, you can't choose to cast it for any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the plotted card has any mandatory additional costs, those must still be paid to cast the spell.
+  - *2024-04-12* — Plot abilities are written "Plot [cost]," which means "Any time you have priority during your main phase while the stack is empty, you may pay [cost] and exile this card from your hand. It becomes plotted."
+  - *2024-04-12* — You can't cast a plotted card on the same turn it became plotted. On any future turn, you may cast that card from exile without paying its mana cost during your main phase while the stack is empty.
+  - *2024-06-07* — If an instant or a card with flash is plotted this way, you can still cast it only when you have priority during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/218/make-your-own-luck) · oracle_id `41246140-4b44-40c4-b92b-501e49c50bf7` · printing: OTJ #218 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Makindi Aeronaut
 
@@ -303,4 +315,15 @@
   > *"The ground is rumbling. Better hope it's just the Roil!"*
   > *—Kreq of Sunder Bay*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8544 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/26/makindi-stampede-makindi-mesas) · oracle_id `342e08f9-d4d0-4408-8621-66e087058616` · printing: ZNR #26 (2020-09-25) · [rulings](https://api.scryfall.com/cards/ada9a974-8f1f-4148-bd61-200fc14714b2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2020-09-25* — A modal double-faced card can't be transformed or be put onto the battlefield transformed. Ignore any instruction to transform a modal double-faced card or to put one onto the battlefield transformed.
+  - *2020-09-25* — If an effect allows you to play a land or cast a spell from among a group of cards, you may play or cast a modal double-faced card with any face that fits the criteria of that effect.
+  - *2020-09-25* — If an effect allows you to play a specific modal double-faced card, you may cast it as a spell or play it as a land, as determined by which face you choose to play. If an effect allows you to cast (rather than "play") a specific modal double-faced card, you can't play it as a land.
+  - *2020-09-25* — If an effect instructs a player to choose a card name, the name of either face may be chosen. If that effect or a linked ability refers to a spell with the chosen name being cast and/or a land with the chosen name being played, it considers only the chosen name, not the other face's name.
+  - *2020-09-25* — If an effect puts a double-faced card onto the battlefield, it enters with its front face up. If that front face can't be put onto the battlefield, it doesn't enter the battlefield.
+  - *2020-09-25* — In the Commander variant, a double-faced card's color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered.
+  - *2020-09-25* — Makindi Stampede affects only creatures you control at the time it resolves. Creatures you begin to control later in the turn won't get +2/+2.
+  - *2020-09-25* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack and battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
+  - *2020-09-25* — There is a single triangle icon in the top left corner of the front face. There is a double triangle icon in the top left corner of the back face.
+  - *2020-09-25* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/26/makindi-stampede-makindi-mesas) · oracle_id `342e08f9-d4d0-4408-8621-66e087058616` · printing: ZNR #26 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

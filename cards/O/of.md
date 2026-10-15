@@ -67,6 +67,7 @@
 - **Flavor text** (ONE printing):
   > *"Give all you are to Phyrexia, and you will receive more than you could have ever desired."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5553 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/102/offer-immortality) · oracle_id `be4499e6-616a-4c11-b37e-9201d2492682` · printing: ONE #102 (2023-02-10) · [rulings](https://api.scryfall.com/cards/b0aac10a-6d47-4a6c-8a10-2b7c06f3ff32/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Offering to Asha
@@ -92,7 +93,18 @@
   > *No guest was permitted to leave before being questioned in an Azorius verity circle.*
 - **Keywords:** Investigate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7900 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/222/officious-interrogation) · oracle_id `e57e448b-1186-4662-a6b0-01a9ce33b961` · printing: MKM #222 (2024-02-09) · [rulings](https://api.scryfall.com/cards/a433ca4c-82d0-4e49-bc8e-98e18dd174e9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2024-02-02* — Any target players that are no longer legal targets by the time Officious Interrogation resolves won't have their creatures counted when determining how many tokens you create.
+  - *2024-02-02* — Clue is an artifact type. Even though it appears on some cards with other permanent types, it's never a creature type, a land type, or anything but an artifact type.
+  - *2024-02-02* — If a spell or ability allows you to cast Officious Interrogation without paying its mana cost, you must still pay the additional cost for any targets beyond the first.
+  - *2024-02-02* — If an effect refers to a Clue, it means any Clue artifact, not just a Clue artifact token. For example, you can sacrifice Wrench to pay for Alquist Proft, Master Sleuth's activated ability.
+  - *2024-02-02* — If this spell is copied and the effect that copies the spell allows a player to choose new targets for the copy, the number of targets can't be changed. The player may change any number of the targets, including all of them or none of them. If, for one of the targets, the player can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
+  - *2024-02-02* — Officious Interrogation's mana value doesn't change no matter how many targets it has.
+  - *2024-02-02* — Some abilities trigger "whenever you sacrifice a Clue". Those abilities trigger whenever you sacrifice a Clue for any reason, not just to activate a Clue's activated ability.
+  - *2024-02-02* — Some spells and abilities that investigate may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Clue tokens.
+  - *2024-02-02* — You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
+  - *2024-02-02* — You choose how many targets Officious Interrogation has and what those targets are as you cast it. You can't choose the same target more than once. It's legal to cast Officious Interrogation with no targets, although this particular option should be placed under some serious scrutiny.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/222/officious-interrogation) · oracle_id `e57e448b-1186-4662-a6b0-01a9ce33b961` · printing: MKM #222 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Offspring's Revenge
 
@@ -116,7 +128,13 @@
   > III — Create a 1/1 white Halfling creature token for each Food you control.
 - **Keywords:** Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4698 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/17/of-herbs-and-stewed-rabbit) · oracle_id `2efb908f-d069-4041-930b-5c1ccec00db2` · printing: LTC #17 (2023-06-23) · [rulings](https://api.scryfall.com/cards/c58623cb-8b49-470c-9622-dd6e09d47599/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-06-16* — When Of Herbs and Stewed Rabbit's first chapter ability triggers, you can choose not to target a creature just to create a Food token. However, if you do choose a target, and that target is illegal at the time the ability tries to resolve, the ability won't resolve and none of its effects will happen. You won't create a Food token.
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, you can sacrifice Tough Cookie (an Artifact Creature — Food Golem) to activate Maraleaf Rider's ability (an ability with "Sacrifice a Food" in its cost).
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/17/of-herbs-and-stewed-rabbit) · oracle_id `2efb908f-d069-4041-930b-5c1ccec00db2` · printing: LTC #17 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Of One Mind
 
@@ -140,4 +158,6 @@
   > {1}: Draw a card. Gain control of this creature and put a -1/-1 counter on it. Only your opponents may activate this ability and only as a sorcery.
   > When this creature dies, if it had one or more -1/-1 counters on it, its owner draws that many cards and each other player loses that much life.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5656 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/11/oft-nabbed-goat) · oracle_id `63193ad4-bbd2-4cc3-98e2-9f6b985e8ae7` · printing: ECC #11 (2026-01-23) · [rulings](https://api.scryfall.com/cards/4030bfab-867c-4724-904e-3e8b631f075e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-11-17* — Only the opponents of Oft-Nabbed Goat's controller can activate its first ability. For the purposes of the first ability, it doesn't matter who owns Oft-Nabbed Goat.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/11/oft-nabbed-goat) · oracle_id `63193ad4-bbd2-4cc3-98e2-9f6b985e8ae7` · printing: ECC #11 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

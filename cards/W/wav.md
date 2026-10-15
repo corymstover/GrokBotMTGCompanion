@@ -32,7 +32,12 @@
 - **Flavor text** (THB printing):
   > *Tritons search for omens in its wake.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2427 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/80/wavebreak-hippocamp) · oracle_id `3405c8a9-a8d6-4b45-9b64-94141076603b` · printing: THB #80 (2020-01-24) · [rulings](https://api.scryfall.com/cards/d900dff5-1196-443f-b9b0-b8e75c67c868/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-01-24* — An ability that triggers when you cast a spell resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+  - *2020-01-24* — If you have more than one opponent, this ability can trigger once during each of those opponents' turns.
+  - *2020-01-24* — In a Two-Headed Giant game, this ability triggers no more than once during each opposing team's turn.
+  - *2020-01-24* — This ability triggers only on your very first spell during an opponent's turn, not the first spell after the card is on the battlefield. If you cast a spell before it's on the battlefield (including if you cast this card somehow during an opponent's turn), the ability won't trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/80/wavebreak-hippocamp) · oracle_id `3405c8a9-a8d6-4b45-9b64-94141076603b` · printing: THB #80 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wavecrash Triton
 
@@ -68,6 +73,7 @@
   > *"Thanks to its increased density, water flowing at just seven miles per hour carries the same kinetic energy as an F5 tornado . . . which is to say: Hold on tight, guys!"*
   > *—Donatello*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1463 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmc/46/wave-goodbye) · oracle_id `06ef46c6-00ba-40e6-b866-d0095ab83749` · printing: TMC #46 (2026-03-06) · [rulings](https://api.scryfall.com/cards/8fb141d9-addd-47ad-bfc1-b5b376d4c950/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wave of Indifference
@@ -107,6 +113,7 @@
 - **Flavor text** (SOC printing):
   > *The Dragonsguard ensures peace across Arcavios. Where peace is not possible, they ensure justice.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5330 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/112/wave-of-reckoning) · oracle_id `24f7143c-d43a-4120-baa0-0235b15d8186` · printing: SOC #112 (2026-04-24) · [rulings](https://api.scryfall.com/cards/7be0c25a-5e65-48e1-9560-9391111bb912/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wave of Terror
@@ -167,7 +174,14 @@
   > Retrace (You may cast this card from your graveyard by discarding a land card in addition to paying its other costs.)
 - **Keywords:** Retrace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9089 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eve/148/waves-of-aggression) · oracle_id `10991b1a-7dd3-4fbf-a4c8-200dc62fc605` · printing: EVE #148 (2008-07-25) · [rulings](https://api.scryfall.com/cards/83d52ba7-ffb3-4c24-85d8-8635ef1880d9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2008-08-01* — A retrace card cast from your graveyard follows the normal timing rules for its card type.
+  - *2008-08-01* — Casting a card by using its retrace ability works just like casting any other spell, with two exceptions: You're casting it from your graveyard rather than your hand, and you must discard a land card in addition to any other costs.
+  - *2008-08-01* — If it's somehow not a main phase when Waves of Aggression resolves, all it does is untap all creatures that attacked that turn. No new phases are created.
+  - *2008-08-01* — If the active player casts a spell that has retrace, that player may cast that card again after it resolves, before another player can remove the card from the graveyard. The active player has priority after the spell resolves, so they can immediately cast a new spell. Since casting a card with retrace from the graveyard moves that card onto the stack, no one else would have the chance to affect it while it's still in the graveyard.
+  - *2008-08-01* — Waves of Aggression untaps all creatures that attacked this turn, not just those that attacked during the most recent combat phase.
+  - *2008-08-01* — When a retrace card you cast from your graveyard resolves, fails to resolve, or is countered, it's put back into your graveyard. You may use the retrace ability to cast it again.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eve/148/waves-of-aggression) · oracle_id `10991b1a-7dd3-4fbf-a4c8-200dc62fc605` · printing: EVE #148 (2008-07-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wave-Wing Elemental
 

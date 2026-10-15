@@ -210,6 +210,7 @@
   > Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)
 - **Keywords:** Treasure, Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8418 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/247/careening-mine-cart) · oracle_id `c3775748-ff62-469f-916b-8e551ccce23c` · printing: LCI #247 (2023-11-17) · [rulings](https://api.scryfall.com/cards/5a96d8ae-200a-40be-95a8-72b53638a090/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Carefree Swinemaster
@@ -257,6 +258,7 @@
 - **Flavor text** (ODY printing):
   > *Books are like crops—they must be thinned for best yield.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2657 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/70/careful-study) · oracle_id `32e9aa23-fc0a-4b82-82f9-1659c304428c` · printing: ODY #70 (2001-10-01) · [rulings](https://api.scryfall.com/cards/dea15b53-2940-40e7-8d48-8ec11341da83/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Caregiver
@@ -355,7 +357,11 @@
   > Whenever Carmen attacks, return up to one target permanent card with mana value less than or equal to Carmen's power from your graveyard to the battlefield.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2860 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/5/carmen-cruel-skymarcher) · oracle_id `84c24e62-26bd-4ca4-b6b9-d31e2065f13b` · printing: LCC #5 (2023-11-17) · [rulings](https://api.scryfall.com/cards/c0e07f8a-5290-47c4-a93d-0c3a14afebd3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-11-10* — If a permanent is sacrificed to pay a cost of a spell or ability, Carmen, Cruel Skymarcher's second ability will resolve before that spell or ability. Conversely, if a permanent is sacrificed during the resolution of a spell or ability, that spell or ability will finish resolving before Carmen, Cruel Skymarcher's second ability is put onto the stack.
+  - *2023-11-10* — If another effect causes Carmen, Cruel Skymarcher's power to be less than the mana value of the target card as its last ability tries to resolve, the target is illegal. You won't return the target card to the battlefield.
+  - *2023-11-10* — If you sacrifice Carmen, Cruel Skymarcher, its second ability will still trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/5/carmen-cruel-skymarcher) · oracle_id `84c24e62-26bd-4ca4-b6b9-d31e2065f13b` · printing: LCC #5 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Carnage Altar
 
@@ -380,7 +386,12 @@
   > Mayhem {B}{R}
 - **Keywords:** Mayhem, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7081 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/spm/125/carnage-crimson-chaos) · oracle_id `c0efafc6-8ffb-4908-ae64-3f391722370a` · printing: SPM #125 (2025-09-26) · [rulings](https://api.scryfall.com/cards/930befba-6068-493e-baa2-e9371cd99e93/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-09-19* — If a card in a graveyard has {X} in its mana cost, X is 0 when determining its mana value.
+  - *2025-09-19* — If the returned creature can't attack for any reason (such as being tapped or having come under your control that turn), then it doesn't attack. If there's a cost associated with having it attack, you're not forced to pay that cost, so it doesn't have to attack in that case either.
+  - *2025-09-19* — Mayhem represents an alternative cost that can be paid to cast a spell from your graveyard if you discarded the card with mayhem that turn. You must pay any additional costs the spell has.
+  - *2025-09-19* — You must follow all normal timing rules when casting a spell with mayhem. For example, you can't cast a creature card with mayhem you couldn't normally cast during an opponent's turn, even if you discard that card during an opponent's turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/spm/125/carnage-crimson-chaos) · oracle_id `c0efafc6-8ffb-4908-ae64-3f391722370a` · printing: SPM #125 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Carnage Gladiator
 
@@ -420,6 +431,7 @@
   > *Sun Empire commanders are well versed in advanced martial strategy. Still, the correct maneuver is usually to deploy the giant, implacable death lizard.*
 - **Keywords:** Hexproof, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6511 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/179/carnage-tyrant) · oracle_id `8c411f4e-a091-447c-9450-d895b10b4985` · printing: XLN #179 (2017-09-29) · [rulings](https://api.scryfall.com/cards/3bd78731-949c-464a-826a-92f86d784911/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Carnage Wurm
@@ -457,7 +469,12 @@
 - **Flavor text** (FDN printing):
   > *Sages whisper that Lathliss still keeps the heart of the old dragon queen sealed within a jewel, its smoldering warmth an eternal reminder that no monarch is untouchable.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2197 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/759/carnelian-orb-of-dragonkind) · oracle_id `651c967c-8f71-4eb5-b22f-545e55ea050e` · printing: FDN #759 (2026-04-24) · [rulings](https://api.scryfall.com/cards/6db2741d-2722-4eb7-b09d-0d81649c7ca2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-06-10* — An instant or sorcery spell is not a creature spell, even if that spell creates Dragon creature tokens.
+  - *2022-06-10* — If the mana from Carnelian Orb of Dragonkind is spent to pay any part of the Dragon creature spell's cost, including an alternative or additional cost, the Dragon will gain haste until end of turn.
+  - *2022-06-10* — If the mana is spent on a non-Dragon spell that becomes a Dragon later in the turn, that creature won't have haste.
+  - *2022-06-10* — The mana created by Carnelian Orb of Dragonkind can be spent on anything, not just Dragon creature spells.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/759/carnelian-orb-of-dragonkind) · oracle_id `651c967c-8f71-4eb5-b22f-545e55ea050e` · printing: FDN #759 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Carnifex Demon
 
@@ -472,7 +489,9 @@
   > *Every contagion has a host.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4976 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/72/carnifex-demon) · oracle_id `527e4eec-0983-46a9-a4f7-451080200aea` · printing: ECC #72 (2026-01-23) · [rulings](https://api.scryfall.com/cards/7eec26a5-1d2b-43ff-b340-bc72f4a71ae8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-01-01* — As Carnifex Demon's last ability resolves, you'll put a -1/-1 counter on each creature on the battlefield — including creatures you control — except for that Carnifex Demon.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/72/carnifex-demon) · oracle_id `527e4eec-0983-46a9-a4f7-451080200aea` · printing: ECC #72 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Carnival Barker
 
@@ -554,7 +573,14 @@
   > Destroy target artifact, enchantment, or creature with flying. If that permanent's mana value was 3 or less, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)
 - **Keywords:** Proliferate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6309 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/162/carnivorous-canopy) · oracle_id `b3360259-19df-43c6-95a9-e76770f2fb77` · printing: ONE #162 (2023-02-10) · [rulings](https://api.scryfall.com/cards/7b43ba43-f7ae-4e00-b797-2360c3ccd839/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-02-04* — An ability that triggers "Whenever you proliferate" triggers even if you chose no permanents or players while doing so.
+  - *2023-02-04* — If a permanent ever has both +1/+1 counters and -1/-1 counters on it at the same time, they're removed in pairs as a state-based action so that the permanent has only one of those kinds of counters on it.
+  - *2023-02-04* — If a player or permanent has more than one kind of counter on it, and you choose for it to get additional counters, it must get one of each kind of counter it already has. You can't have it get just one kind of counter it already has and not the others.
+  - *2023-02-04* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
+  - *2023-02-04* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
+  - *2023-02-04* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/162/carnivorous-canopy) · oracle_id `b3360259-19df-43c6-95a9-e76770f2fb77` · printing: ONE #162 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Carnivorous Cultivator // Enroot
 
@@ -641,7 +667,10 @@
 - **Oracle text:**
   > At the beginning of each of your main phases, if you haven't added mana with this ability this turn, you may add X mana of any one color, where X is the number of Islands target opponent controls.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1328 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/usg/240/carpet-of-flowers) · oracle_id `2ffc6372-f63b-4f32-8dd0-2d7938aeb412` · printing: USG #240 (1998-10-12) · [rulings](https://api.scryfall.com/cards/93abb48a-85f2-432d-8602-0a1d17fbb409/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — The ability is not a mana ability.
+  - *2004-10-04* — You can target a different opponent each turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/usg/240/carpet-of-flowers) · oracle_id `2ffc6372-f63b-4f32-8dd0-2d7938aeb412` · printing: USG #240 (1998-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Carrier Pigeons
 
@@ -669,7 +698,12 @@
   > *"Later we will mourn those we have lost. First we must end their suffering."*
   > *—Drana, Kalastria bloodchief*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8868 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/142/carrier-thrall) · oracle_id `b3e0b8a6-5de4-4988-b042-2641b1ed3e32` · printing: CMM #142 (2023-08-04) · [rulings](https://api.scryfall.com/cards/772e551c-0b47-4ccb-8893-f192de92908e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2015-08-25* — Eldrazi Scions are similar to Eldrazi Spawn, seen in the Zendikar block. Note that Eldrazi Scions are 1/1, not 0/1.
+  - *2015-08-25* — Eldrazi and Scion are each separate creature types. Anything that affects Eldrazi will affect these tokens, for example.
+  - *2015-08-25* — Sacrificing an Eldrazi Scion creature token to add {C} is a mana ability. It doesn't use the stack and can't be responded to.
+  - *2015-08-25* — Some instants and sorceries that create Eldrazi Scions require targets. If all targets for such a spell have become illegal by the time that spell tries to resolve, the spell won't resolve and none of its effects will happen. You won't get any Eldrazi Scions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/142/carrier-thrall) · oracle_id `b3e0b8a6-5de4-4988-b042-2641b1ed3e32` · printing: CMM #142 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Carrion
 
@@ -897,7 +931,12 @@
   > *—Ms. Bumbleflower*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7356 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/7/carrot-cake) · oracle_id `5fe3aabd-3271-41bf-ae50-f6efaba7c4ae` · printing: BLB #7 (2024-08-02) · [rulings](https://api.scryfall.com/cards/eb03bb4f-8b4b-417e-bfc6-294cd2186b2e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-07-26* — Carrot Cake's first ability will trigger whether you sacrifice it to pay the cost of its own last ability or due to another cost or effect. For example, if you sacrifice Carrot Cake in order to forage, you'll still create a Rabbit token and scry 1. It's delicious no matter how it's served!
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/7/carrot-cake) · oracle_id `5fe3aabd-3271-41bf-ae50-f6efaba7c4ae` · printing: BLB #7 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Carry Away
 
@@ -934,7 +973,12 @@
   > Whenever Carth enters or a planeswalker you control dies, look at the top seven cards of your library. You may reveal a planeswalker card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.
   > Planeswalkers' loyalty abilities you activate cost an additional [+1] to activate.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6184 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/189/carth-the-lion) · oracle_id `e0709843-0a91-4a21-9512-d7481707f3c9` · printing: MH2 #189 (2021-06-18) · [rulings](https://api.scryfall.com/cards/e09e9b65-ff0e-4efe-b96a-ede69c96e2ea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-06-18* — If a planeswalker's loyalty ability normally has a cost of [+1], Carth's ability makes it cost [+2] instead. A cost of [0] would become [+1], and a cost of [-6] would become [-5].
+  - *2021-06-18* — If an effect replaces the number of counters that would be placed on a planeswalker, such as that of Vorinclex, Monstrous Raider, that replacement happens only once, at the time payment is made.
+  - *2021-06-18* — If you somehow manage to control two Carths (perhaps because of Spark Double), the cost-changing effect is cumulative. In total, loyalty abilities will cost an additional [+2] to activate.
+  - *2021-06-18* — The total cost of a planeswalker's loyalty ability is calculated before any counters are added or removed. If a loyalty ability normally costs [-3] to activate, you do not remove three counters from it and then put one counter on it. You remove two counters at one time when you pay the cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/189/carth-the-lion) · oracle_id `e0709843-0a91-4a21-9512-d7481707f3c9` · printing: MH2 #189 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cartographer
 
@@ -971,7 +1015,9 @@
   > When this creature deals combat damage to a player who controls more lands than you, return it to its owner's hand. If you do, you may search your library for a Plains card, put it onto the battlefield tapped, then shuffle.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4722 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/18/cartographers-hawk) · oracle_id `ac8cf699-f67b-44da-bb79-eb95cfc0026d` · printing: CMM #18 (2023-08-04) · [rulings](https://api.scryfall.com/cards/12d0b07f-9823-45b7-89bb-0a2a71833d46/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-04-17* — If Cartographer’s Hawk leaves the battlefield before its triggered ability resolves, you can’t return it to its owner’s hand from its new zone.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/18/cartographers-hawk) · oracle_id `ac8cf699-f67b-44da-bb79-eb95cfc0026d` · printing: CMM #18 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cartographer's Survey
 
@@ -1008,7 +1054,11 @@
   > *Cartouches chronicle the initiates' achievements in the trials.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9792 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/akh/45/cartouche-of-knowledge) · oracle_id `488696c2-b0c7-49be-a5a1-e833b6fd8751` · printing: AKH #45 (2017-04-28) · [rulings](https://api.scryfall.com/cards/d806458e-81cd-4413-bba0-14d957bece79/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2017-04-18* — Cartouche is an enchantment subtype with no special meaning. Other cards may care about which enchantments are Cartouches.
+  - *2017-04-18* — Each Cartouche is an Aura with "Enchant creature you control." If another player gains control of either the Cartouche or the enchanted creature (but not both), then the Cartouche will be enchanting an illegal permanent and be put into its owner's graveyard as a state-based action.
+  - *2017-04-18* — If the target creature becomes an illegal target before a Cartouche spell resolves, the spell doesn't resolve. It doesn't enter the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/akh/45/cartouche-of-knowledge) · oracle_id `488696c2-b0c7-49be-a5a1-e833b6fd8751` · printing: AKH #45 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cartouche of Solidarity
 
@@ -1060,4 +1110,5 @@
   > *So-called "old wood" is rare in deforested Ravnica. Statues carved from it are said to house the last of the ancient nature spirits.*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5661 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/250/carven-caryatid) · oracle_id `bddf5e9a-7c41-45a8-8fa1-18093c408e15` · printing: TDC #250 (2025-04-11) · [rulings](https://api.scryfall.com/cards/f65260d1-9802-4e46-95d3-9d6c2e211338/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

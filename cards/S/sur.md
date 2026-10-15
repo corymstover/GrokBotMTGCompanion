@@ -129,7 +129,13 @@
   > *A conductor for an electric symphony.*
 - **Keywords:** Proliferate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2612 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/19/surge-conductor) · oracle_id `dc11d9dc-7d18-45dc-955b-d0ba71fc0db8` · printing: EOC #19 (2025-08-01) · [rulings](https://api.scryfall.com/cards/686c005b-39c8-4c6c-bf5a-462774f1d6d9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-07-25* — If Surge Conductor and one or more other nontoken artifacts you control enter the battlefield at the same time, Surge Conductor’s ability will trigger for each of those nontoken artifacts.
+  - *2025-07-25* — If a permanent or player has more than one kind of counter on them, and you choose for that permanent or player to get additional counters, that permanent or player must get one of each kind of counter they already have. You can’t have them get just one kind of counter they already have and not the others.
+  - *2025-07-25* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it’s too late for anyone to respond.
+  - *2025-07-25* — When you proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can’t choose cards in any zone other than the battlefield, even if they have counters on them.
+  - *2025-07-25* — You don’t have to choose every permanent or player that has a counter—only the ones you want to add counters to. Since “any number” includes zero, you don’t have to choose any permanents at all, and you don’t have to choose any players at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/19/surge-conductor) · oracle_id `dc11d9dc-7d18-45dc-955b-d0ba71fc0db8` · printing: EOC #19 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surge Engine
 
@@ -156,6 +162,7 @@
   > Crew 4
 - **Keywords:** Crew, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4733 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/260/surgehacker-mech) · oracle_id `bf9421d2-54e2-44d8-8b39-2e41192a6517` · printing: NEO #260 (2022-02-18) · [rulings](https://api.scryfall.com/cards/3c4bf679-01cc-4786-a3bd-89c8ae70fdfa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surge Mare
@@ -195,7 +202,15 @@
   > *"They may have superior numbers, but we have superior minds."*
 - **Keywords:** Paradox, Foretell
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6900 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/57/surge-of-brilliance) · oracle_id `4d720849-56cd-4b78-b9a7-7b9484702f0f` · printing: WHO #57 (2023-10-13) · [rulings](https://api.scryfall.com/cards/0001c639-8bd0-426f-89cb-4ca61f3cc054/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-10-13* — A triggered ability that triggers when a spell is cast from anywhere other than your hand, such as that of The Thirteenth Doctor, functions only on the battlefield, so it doesn't trigger when you cast that spell from a zone other than your hand.
+  - *2023-10-13* — An instant or sorcery that counts how many spells you've cast from anywhere other than your hand, such as Surge of Brilliance, counts itself if it was cast from a zone other than your hand.
+  - *2023-10-13* — Because exiling a card with foretell from your hand is a special action, you can do so any time you have priority during your turn, including in response to spells and abilities. Once you announce you're taking the action, no other player can respond by trying to remove the card from your hand.
+  - *2023-10-13* — Casting a foretold card from exile follows the timing rules for that card. If you foretell an instant card, you can cast it as soon as the next player's turn.
+  - *2023-10-13* — If a spell or ability allows you to copy a spell on the stack but doesn't specify that the spell is cast, that spell wasn't cast and won't be counted by paradox abilities. However, if a spell or ability allows you to cast a copy of a spell, that spell will be counted for paradox abilities.
+  - *2023-10-13* — If you cast Surge of Brilliance from exile, it counts itself when counting the number of spells cast from anywhere other than your hand.
+  - *2023-10-13* — Paradox abilities count any spells cast from zones other than your hand. These are usually spells cast from exile, the graveyard, or the command zone. They also count spells cast from outside the game, such as spells cast with Wish or Garth One-Eye's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/57/surge-of-brilliance) · oracle_id `4d720849-56cd-4b78-b9a7-7b9484702f0f` · printing: WHO #57 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surge of Righteousness
 
@@ -217,7 +232,9 @@
 - **Flavor text** (MOM printing):
   > *No Meletian had ever laid eyes on an angel, but when protective Halo flooded the Multiverse, they knew a divine blessing was at hand.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3075 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/41/surge-of-salvation) · oracle_id `b9a62c6b-5848-44b1-932b-8d5de2560976` · printing: MOM #41 (2023-04-21) · [rulings](https://api.scryfall.com/cards/41d25ee5-0348-4206-bb6a-ccb0a599ac87/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-04-14* — The set of permanents that gain hexproof is determined as Surge of Salvation resolves. Permanents you begin to control later in the turn won't gain hexproof. However, the damage prevention effect will apply to all creatures you control throughout the turn, even if you didn't control them (or they weren't creatures) as Surge of Salvation resolved.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/41/surge-of-salvation) · oracle_id `b9a62c6b-5848-44b1-932b-8d5de2560976` · printing: MOM #41 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surge of Strength
 
@@ -277,7 +294,10 @@
 - **Flavor text** (LCC printing):
   > *They ride on waves of aether, washing out anything that might pollute the Merrow Lanes.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9187 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/174/surgespanner) · oracle_id `3f15349a-6ac6-4091-95a3-ae9f593e4650` · printing: LCC #174 (2023-11-17) · [rulings](https://api.scryfall.com/cards/3303c5cb-0064-47c0-bc91-228acd82348e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2007-10-01* — For the ability to trigger, the creature has to actually change from untapped to tapped. If an effect attempts to tap the creature, but it was already tapped at the time, this ability won't trigger.
+  - *2007-10-01* — This is a triggered ability, not an activated ability. It doesn't allow you to tap the creature whenever you want; rather, you need some other way of tapping it, such as by attacking with the creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/174/surgespanner) · oracle_id `3f15349a-6ac6-4091-95a3-ae9f593e4650` · printing: LCC #174 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surge to Victory
 
@@ -286,7 +306,12 @@
 - **Oracle text:**
   > Exile target instant or sorcery card from your graveyard. Creatures you control get +X/+0 until end of turn, where X is that card's mana value. Whenever a creature you control deals combat damage to a player this turn, copy the exiled card. You may cast the copy without paying its mana cost.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4745 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/256/surge-to-victory) · oracle_id `8ea414c1-88cf-46d4-9a54-6dee9847c537` · printing: SOC #256 (2026-04-24) · [rulings](https://api.scryfall.com/cards/b5345934-60eb-417c-9716-477882c4796d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-04-16* — Copying the card doesn't cause magecraft abilities to trigger, although casting the copies does.
+  - *2021-04-16* — If the spell you cast has {X} in its mana cost, you must choose 0 as the value of X.
+  - *2021-04-16* — If you cast a spell "without paying its mana cost," you can't pay any alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, you must pay those.
+  - *2021-04-16* — You cast the copies while the delayed triggered ability of Surge to Victory is resolving. Ignore any timing restrictions based on the copies' card types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/256/surge-to-victory) · oracle_id `8ea414c1-88cf-46d4-9a54-6dee9847c537` · printing: SOC #256 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surgical Extraction
 
@@ -333,7 +358,25 @@
   > Whenever you attack, put a +1/+1 counter on target attacking creature.
   > (You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8990 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/34/surgical-suite-hospital-room) · oracle_id `68bb76af-f933-430a-a66a-fe4a7d6be4e0` · printing: DSK #34 (2024-09-27) · [rulings](https://api.scryfall.com/cards/96b2dc14-4477-4444-a9eb-4fa4c02dfbde/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (17):
+  - *2024-09-20* — An ability that triggers "when you unlock this door" triggers when that door becomes unlocked. This can happen one of two ways: (1) the door becomes unlocked on the battlefield or (2) the door becomes unlocked as the Room enters the battlefield because you cast the corresponding half. In the latter case, since the door becoming unlocked is what causes the ability to trigger, effects that cause abilities that trigger when a permanent enters to trigger an additional time (such as that of Panharmonicon) won't apply.
+  - *2024-09-20* — An ability that triggers "whenever you fully unlock a Room" triggers when a door becomes unlocked and the other door of that Room is already unlocked, or when both doors of that Room become unlocked simultaneously.
+  - *2024-09-20* — Any time you have priority during a main phase of your turn and the stack is empty, you may pay the mana cost of a locked door (also called its "unlock cost"). That door becomes unlocked. This is a special action. It doesn't use the stack and can't be responded to.
+  - *2024-09-20* — Each Room card has two names. If an effect instructs you to choose a card name, you may choose one of those names, but not both.
+  - *2024-09-20* — Each Room card is a single card. For example, if you discard a Room card, you've discarded one card, not two. If an effect counts the number of enchantment cards in your graveyard, Bottomless Pool // Locker Room counts once, not twice.
+  - *2024-09-20* — If a Room enters from any zone other than the stack, it will enter with both halves locked.
+  - *2024-09-20* — If a spell or ability would create a copy of a Room spell on the stack, the copy retains the choice of which door was cast but also retains the full characteristics of the spell. The characteristics of the door that wasn't cast are still ignored while the copy is on the stack, and when the copy resolves, the token it becomes will enter with the appropriate door unlocked.
+  - *2024-09-20* — If an effect allows you to cast a spell with certain characteristics, consider only the characteristics of the door you're casting. For example, if an effect allows you to cast a permanent spell with mana value 3 or less from among cards in your graveyard, you could cast Bottomless Pool this way, but not Locker Room.
+  - *2024-09-20* — If neither door of a Room is unlocked, it's a Room enchantment with no name and no abilities.
+  - *2024-09-20* — If the mana cost of a card in your graveyard includes {X}, X is 0 for the purpose of determining its mana value.
+  - *2024-09-20* — Room cards have two card faces with a shared type line on a single card. The characteristics of the door you didn't cast are ignored while the spell is on the stack.
+  - *2024-09-20* — Some abilities allow you to lock a door of a Room you control. You can't choose to lock a door that's already locked with such an ability. If such an ability requires a target, you can target a Room even if both of its doors are locked, but the ability won't do anything when it resolves.
+  - *2024-09-20* — Some abilities allow you to unlock a door of a Room you control. You can't choose to unlock a door that's already unlocked with such an ability. If such an ability requires a target, you can target a Room even if both of its doors are unlocked, but the ability won't do anything when it resolves.
+  - *2024-09-20* — Some doors have abilities that trigger whenever you unlock that door and require one or more targets. You can unlock that door even if there would be insufficient legal targets for that triggered ability. The triggered ability won't go on the stack.
+  - *2024-09-20* — To cast a Room spell, choose a half (or "door") to cast. There's no way to cast both halves of a Room card. When the Room spell resolves, the corresponding door becomes unlocked as the Room enters.
+  - *2024-09-20* — While in any zone other than the stack or the battlefield, a Room card's characteristics are a combination of its two doors. For example, Bottomless Pool // Locker Room has a mana value of 6 while it's in your library. If an effect allows you to search your library for a card with mana value 4 or less, you can't find Bottomless Pool // Locker Room.
+  - *2024-09-20* — While on the battlefield, a Room's characteristics are a combination of the characteristics of its unlocked doors. For example, if Bottomless Pool // Locker Room is on the battlefield with both doors unlocked, its names are Bottomless Pool and Locker Room, its mana value is 6, it's a Room Enchantment, and it has the abilities in each door's text box.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/34/surgical-suite-hospital-room) · oracle_id `68bb76af-f933-430a-a66a-fe4a7d6be4e0` · printing: DSK #34 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surging Aether
 
@@ -403,7 +446,11 @@
   > Whenever you discard a noncreature, nonland card, this creature fights up to one target creature you don't control.
 - **Keywords:** Treasure, Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3187 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c20/57/surly-badgersaur) · oracle_id `0209dc74-ac49-4deb-907a-e9fa49d27a0f` · printing: C20 #57 (2020-04-17) · [rulings](https://api.scryfall.com/cards/7ba507e2-fe5e-4947-aada-20184aa09700/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-04-17* — If the target creature is an illegal target when Surly Badgersaur's last ability tries to resolve, the ability doesn't resolve. If it's a legal target but Surly Badgersaur is no longer on the battlefield when the ability resolves, the target creature won't deal or be dealt damage.
+  - *2020-04-17* — If you discard a card as a cost to cast a spell or activate an ability, Surly Badgersaur's triggered ability resolves before that spell or ability but after you've chosen targets for it. If you discard a card while a spell or ability is resolving, that spell or ability finishes resolving before Surly Badgersaur's triggered ability does.
+  - *2020-04-17* — Surly Badgersaur's abilities are triggered abilities, not activated abilities. They don't allow you to discard a card whenever you want; rather, you need some other way of discarding a card, such as a cycling ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c20/57/surly-badgersaur) · oracle_id `0209dc74-ac49-4deb-907a-e9fa49d27a0f` · printing: C20 #57 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surly Farrier
 
@@ -463,6 +510,7 @@
   > *Two titans of Tarkir carved a swath through Phyrexia's elite.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1574 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/337/surrak-and-goreclaw) · oracle_id `95be5f72-1f81-4ec6-9bd9-f0b07bfc874b` · printing: MOM #337 (2023-04-21) · [rulings](https://api.scryfall.com/cards/9c10934d-9016-43c4-a7ab-56cc7d8f671f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surrakar Banisher
@@ -513,7 +561,9 @@
   > *Both his rank and his scars were earned in single combat against a cave bear.*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3322 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/169/surrak-dragonclaw) · oracle_id `7c766365-82c2-46d6-8521-42e73129f4ef` · printing: DMC #169 (2022-09-09) · [rulings](https://api.scryfall.com/cards/e8efe72d-3c01-4dd6-b3dd-0382ac09dc52/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2014-09-20* — A spell or ability that counters spells can still target a creature spell you control. When that spell or ability resolves, the creature spell won't be countered, but any additional effects of that spell or ability will still happen.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/169/surrak-dragonclaw) · oracle_id `7c766365-82c2-46d6-8521-42e73129f4ef` · printing: DMC #169 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surrak, Elusive Hunter
 
@@ -528,6 +578,7 @@
   > *"I've spent my life feeding Atarka's desire and hungers. It's time to see to my own."*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7208 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/161/surrak-elusive-hunter) · oracle_id `7a0fe73f-6e08-4c9a-80e1-c2ead6cebe06` · printing: TDM #161 (2025-04-11) · [rulings](https://api.scryfall.com/cards/e4775a26-0b66-40e9-8f64-41d9308ca032/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surrak, the Hunt Caller
@@ -541,7 +592,11 @@
   > *"The greatest honor is to feed Atarka."*
 - **Keywords:** Formidable
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7421 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/768/surrak-the-hunt-caller) · oracle_id `fa56a5fa-ef96-404c-8fb6-d1f5fcebb52e` · printing: FDN #768 (2026-04-24) · [rulings](https://api.scryfall.com/cards/deb328c7-fdda-4d63-9fe4-0482c1de6098/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2015-02-25* — If you control a creature with power less than 0, use its actual power when calculating the total power of creatures you control. For example, if you control three creatures with powers 4, 5, and -2, the total power of creatures you control is 7.
+  - *2015-02-25* — Other formidable abilities are triggered abilities with an "intervening 'if'" clause. Such abilities check the total power of creatures you control twice: once at the appropriate time to see if the ability will trigger, and again as the ability tries to resolve. If, at that time, the total power of creatures you control is no longer 8 or greater, the ability will have no effect.
+  - *2015-02-25* — Some formidable abilities are activated abilities that require creatures you control to have total power 8 or greater. Once you activate these abilities, it doesn't matter what happens to the total power of creatures you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/768/surrak-the-hunt-caller) · oracle_id `fa56a5fa-ef96-404c-8fb6-d1f5fcebb52e` · printing: FDN #768 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surreal Memoir
 
@@ -611,7 +666,12 @@
   > *"Do you falter, Lord of Asgard?"*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7424 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/acr/293/surtr-fiery-j%C3%B6tun) · oracle_id `424084cf-418f-47b4-915f-b254c8adb3bd` · printing: ACR #293 (2024-07-05) · [rulings](https://api.scryfall.com/cards/be38985c-f7a9-4885-9035-09390b4b754a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-07-05* — A card, spell, or permanent is historic if it has the legendary supertype, the artifact card type, or the Saga subtype. Having two of those qualities doesn't make an object more historic than another or provide an additional bonus—an object either is historic or it isn't.
+  - *2024-07-05* — An ability that triggers "whenever you cast a historic spell" doesn't trigger if a historic card is put onto the battlefield without being cast.
+  - *2024-07-05* — Lands are never cast, so abilities that trigger "whenever you cast a historic spell" won't trigger if you play a legendary land. They also won't trigger if a card on the battlefield transforms into a card with the legendary supertype, the artifact card type, or the Saga subtype.
+  - *2024-07-05* — Some abilities trigger "whenever you cast a historic spell." Such an ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/acr/293/surtr-fiery-j%C3%B6tun) · oracle_id `424084cf-418f-47b4-915f-b254c8adb3bd` · printing: ACR #293 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surveillance Monitor
 
@@ -652,6 +712,7 @@
   > *S.H.I.E.L.D. always keeps a watchful eye on the world from the shadows.*
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8771 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/274/surveillance-room) · oracle_id `a3648376-dc8b-409b-b2d1-c29e326a059c` · printing: MSH #274 (2026-06-26) · [rulings](https://api.scryfall.com/cards/8fb51fbb-ab7f-4484-a3c9-dc50cb6f2756/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surveilling Sprite
@@ -688,7 +749,10 @@
 - **Oracle text:**
   > {T}, Exile this artifact: Search your library for up to X basic land cards, where X is the number of players who control at least two more lands than you. Put those cards onto the battlefield, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7968 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cma/232/surveyors-scope) · oracle_id `9633730d-c41f-4597-b806-55ce2dd848e9` · printing: CMA #232 (2017-06-09) · [rulings](https://api.scryfall.com/cards/885aaf8f-648c-4709-ae63-714113ec2c8d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-10-17* — If no players control at least two more lands than you when the ability resolves, you'll still search and shuffle your library.
+  - *2013-10-17* — You count the number of players who control at least two more lands than you when the ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cma/232/surveyors-scope) · oracle_id `9633730d-c41f-4597-b806-55ce2dd848e9` · printing: CMA #232 (2017-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Survey the Wreckage
 
@@ -785,7 +849,10 @@
 - **Flavor text** (HOU printing):
   > *"What will happen to us?" they asked. The vizier paused. "I think . . . I think that's up to us now."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2673 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hou/184/survivors-encampment) · oracle_id `152e7e91-4eda-4e72-a9fb-bd5cb2e68239` · printing: HOU #184 (2017-07-14) · [rulings](https://api.scryfall.com/cards/c7b0404e-0f42-456b-91ce-f960195c4951/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-04-18* — Desert is a land subtype with no special meaning. It doesn’t grant the land an intrinsic mana ability. Other cards may care about which lands are Deserts.
+  - *2017-07-14* — To activate the last ability, you may tap any untapped creature you control, including one you haven’t controlled continuously since the beginning of your most recent turn. (Note that tapping the creature doesn’t use {T} [the tap symbol].)
+- **Source flags:** [Scryfall](https://scryfall.com/card/hou/184/survivors-encampment) · oracle_id `152e7e91-4eda-4e72-a9fb-bd5cb2e68239` · printing: HOU #184 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Survivor's Med Kit
 

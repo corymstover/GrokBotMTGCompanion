@@ -70,6 +70,7 @@
   > *Liliana insisted on coming to Amonkhet to confront one of the two remaining demons to whom she is bound.*
 - **Keywords:** Flying, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1881 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/181/razaketh-the-foulblooded) · oracle_id `136c9ecb-59b4-4ef6-bcb2-7b8d3df3ee75` · printing: CMM #181 (2023-08-04) · [rulings](https://api.scryfall.com/cards/d6bb956d-0df6-4910-9320-55f2c5674d98/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raze
@@ -95,6 +96,7 @@
 - **Flavor text** (MID printing):
   > *The folk of Kessig build up their courage by burning effigies of the things they fear.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9148 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/156/raze-the-effigy) · oracle_id `9286ddc5-8151-4129-aaf6-2a2abe7047e5` · printing: MID #156 (2021-09-24) · [rulings](https://api.scryfall.com/cards/e0dd378c-5050-48c9-9a16-6d91afa62d21/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raze to the Ground
@@ -205,7 +207,28 @@
   > Reconfigure—Pay {2} or {E}{E}{E}. (Pay {2} or {E}{E}{E}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.)
 - **Keywords:** Reconfigure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7673 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m3c/42/razorfield-ripper) · oracle_id `ef842299-8a31-4793-9142-2bcd7a8b2fab` · printing: M3C #42 (2024-06-14) · [rulings](https://api.scryfall.com/cards/2dc5aa4f-90c0-4a14-8a26-33780c7366c8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (20):
+  - *2024-06-07* — Although it causes an Equipment to become attached to a creature, reconfigure is not an "equip ability" for the purpose of cards like Fighter Class and Leonin Shikari.
+  - *2024-06-07* — An Equipment creature can never become attached to itself. If an effect tries to do this, nothing happens.
+  - *2024-06-07* — An Equipment creature with reconfigure can be attached to creatures by effects other than its reconfigure ability, such as the activated ability of Brass Squire.
+  - *2024-06-07* — An Equipment doesn't become tapped when the permanent it's attached to becomes tapped. For example, if you attack with a creature that is equipped with Razorfield Ripper, then use reconfigure to unattach Razorfield Ripper after combat, Razorfield Ripper will be untapped and could be used to block during your opponent's turn.
+  - *2024-06-07* — As soon as an Equipment creature with reconfigure stops being a creature, any Equipment and Auras with enchant creature abilities become unattached. Auras that can enchant an Equipment that isn't a creature remain attached to it.
+  - *2024-06-07* — Attaching an Equipment with reconfigure to a creature causes that Equipment to stop being a creature until it becomes unattached. It also loses any creature subtypes it had.
+  - *2024-06-07* — Energy counters are a kind of counter that a player may have. They're not associated with any specific permanents.
+  - *2024-06-07* — Energy counters aren't mana. They don't go away as steps, phases, and turns end, and effects that add mana "of any type" can't give you energy counters.
+  - *2024-06-07* — If a permanent with reconfigure is somehow still a creature after it becomes attached (perhaps due to an effect like that of March of the Machines), it immediately becomes unattached from the equipped creature.
+  - *2024-06-07* — If a spell or ability with one or more targets states that you "may pay" some amount of {E}, and each permanent that it targets has become an illegal target, the spell or ability won't resolve. You can't pay any {E} even if you want to.
+  - *2024-06-07* — If an Equipment with reconfigure somehow loses its abilities while it is attached, the effect causing it to not be a creature continues to apply until it becomes unattached.
+  - *2024-06-07* — If an effect says you get one or more {E}, you get that many energy counters. To pay one or more {E}, you lose that many energy counters. You can't pay more energy counters than you have. Any effects that interact with counters a player gets, has, or loses can interact with energy counters.
+  - *2024-06-07* — Keep track of how many energy counters each player has. Potential ways to track this include writing theme down on paper or using dice, but any method that is clear and mutually agreeable is fine. (At higher levels of tournament play, dice may not be allowed for tracking counters that players have.)
+  - *2024-06-07* — Reconfigure represents two activated abilities. Reconfigure [cost] means "[Cost]: Attach this permanent to another target creature you control. Activate only as a sorcery," and "[Cost]: Unattach this permanent. Activate only if this permanent is attached to a creature and only as a sorcery."
+  - *2024-06-07* — Similarly, if an Equipment is tapped, its reconfigure abilities may still be activated and it may still become attached to creatures. Becoming attached doesn't untap it. In most cases, an attached Equipment being tapped won't affect gameplay, but it will be relevant if it becomes unattached again before it untaps.
+  - *2024-06-07* — Some spells and abilities that give you {E} may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't get any {E}.
+  - *2024-06-07* — Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
+  - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
+  - *2024-06-07* — The value of X is calculated only once, as Razorfield Ripper's triggered ability resolves.
+  - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m3c/42/razorfield-ripper) · oracle_id `ef842299-8a31-4793-9142-2bcd7a8b2fab` · printing: M3C #42 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Razorfield Thresher
 
@@ -284,7 +307,14 @@
   - *Flavor text (MH3 printing):*
   > *Leonin hide their dwellings within the Razor Fields, making approach deadly without knowledge of their secret paths.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1846 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/238/razorgrass-ambush-razorgrass-field) · oracle_id `5da954fa-9001-4557-825c-1462035d21ed` · printing: MH3 #238 (2024-06-14) · [rulings](https://api.scryfall.com/cards/57065dca-f90e-4184-bbc4-95d726a4160b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-06-07* — A modal double-faced card can't be transformed or be put onto the battlefield transformed. Ignore any instruction to transform a modal double-faced card or to put one onto the battlefield transformed.
+  - *2024-06-07* — If an effect allows you to play a land or cast a spell from among a group of cards, you may play or cast a modal double-faced card with any face that fits the criteria of that effect. For example, if an effect allows you to play lands from your graveyard, you can play Garden of Freyalise, but you can't cast Disciple of Freyalise.
+  - *2024-06-07* — If an effect allows you to play a specific modal double-faced card, you may cast it as a spell or play it as a land, as determined by which face you choose to play. If an effect allows you to cast (rather than "play") a specific modal double-faced card, you can't play it as a land.
+  - *2024-06-07* — If an effect allows you to put a card with particular characteristics onto the battlefield without instructing you to play or cast it, you consider only the characteristics of a modal double-faced card's front face to see if that card qualifies. If it does, it enters the battlefield with its front face up. For example, if an effect allows you to put a creature card from your graveyard onto the battlefield, you can put Disciple of Freyalise onto the battlefield. However, an effect that lets you return a land card from your graveyard to your hand won't let you return Garden of Freyalise to your hand, as that card has only its front face's characteristics while in the graveyard.
+  - *2024-06-07* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack or the battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
+  - *2024-06-07* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics. For example, if an effect stops you from casting creature spells, you can't cast Disciple of Freyalise, but you can still play Garden of Freyalise.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/238/razorgrass-ambush-razorgrass-field) · oracle_id `5da954fa-9001-4557-825c-1462035d21ed` · printing: MH3 #238 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Razorgrass Invoker
 
@@ -365,7 +395,9 @@
 - **Flavor text** (DSK printing):
   > *"Stitch your eyes, stitch your skin, stitch your mouth into a grin."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #996 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/153/razorkin-needlehead) · oracle_id `a78f981a-bf8a-42a4-b171-d655cc2cc1a2` · printing: DSK #153 (2024-09-27) · [rulings](https://api.scryfall.com/cards/bc73b963-23c0-46d2-853a-34a8b463994e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-09-20* — If a spell or ability causes an opponent to put cards into their hand without specifically using the word "draw," it's not a card drawn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/153/razorkin-needlehead) · oracle_id `a78f981a-bf8a-42a4-b171-d655cc2cc1a2` · printing: DSK #153 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Razorlash Transmogrant
 
@@ -442,6 +474,7 @@
   > *The path to unity is forged in understanding.*
 - **Keywords:** Indestructible
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1069 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/171/razortide-bridge) · oracle_id `6cb37ac1-dd11-4a8c-bca5-ef44d828059f` · printing: EOC #171 (2025-08-01) · [rulings](https://api.scryfall.com/cards/0bbd24cd-48f7-40d7-9741-f30108f04b84/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Razortip Whip
@@ -480,7 +513,9 @@
 - **Flavor text** (DSK printing):
   > *They say the blades wait to bite through your skin until you've climbed too far to turn back, leaving you to cling with blood-slick hands until gravity takes you.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8043 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/267/razortrap-gorge) · oracle_id `8f69bd3a-244e-42d8-bfac-5a426f4b54b4` · printing: DSK #267 (2024-09-27) · [rulings](https://api.scryfall.com/cards/98d0d067-b52d-47ec-ba7b-8cfcd716c0e5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-09-20* — If one of these lands is entering at the same time as a "shock land" (a cycle of lands originally from Ravnica block that allow you to pay life or have them enter tapped), use the life totals of all players before choices are made for that shock land's replacement effect to determine whether or not the land enters tapped. For example, if a Lakeside Shack and a Breeding Pool you control are entering at the same time (perhaps because of the effect of a spell like Scapeshift), your life total is 14, and your opponent's life total is 20, the Lakeside Shack will enter tapped whether or not you choose to pay life as Breeding Pool enters.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/267/razortrap-gorge) · oracle_id `8f69bd3a-244e-42d8-bfac-5a426f4b54b4` · printing: DSK #267 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Razorverge Thicket
 
@@ -492,7 +527,10 @@
 - **Flavor text** (MSC printing):
   > *Wakanda's true nature remained hidden for centuries, disguised from the eyes of outsiders by their own blind assumptions.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1389 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/259/razorverge-thicket) · oracle_id `94f6c407-e665-4032-be13-a01e40c1f306` · printing: MSC #259 (2026-06-26) · [rulings](https://api.scryfall.com/cards/df1233de-4449-4c32-944b-e19bed666324/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-02-04* — If one of these lands enters the battlefield at the same time as one or more other lands (due to Oblivion Sower or Warp World, perhaps), it doesn't take those lands into consideration when determining how many other lands you control.
+  - *2023-02-04* — If one of these lands enters the battlefield under your control and you control zero, one, or two other lands, it enters the battlefield untapped. If you control three or more other lands, however, it enters the battlefield tapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/259/razorverge-thicket) · oracle_id `94f6c407-e665-4032-be13-a01e40c1f306` · printing: MSC #259 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Razzle-Dazzler
 

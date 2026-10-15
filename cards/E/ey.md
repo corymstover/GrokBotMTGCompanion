@@ -88,7 +88,11 @@
   > *"Those without beauty are Lorwyn's greatest tumor. The winnowers have an unpleasant duty, but a necessary one."*
   > *—Eidren, perfect of Lys Alana*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9524 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/75/eyeblights-ending) · oracle_id `9f3e1eef-31db-4e1a-b5a9-ac835f6a3eab` · printing: 2X2 #75 (2022-07-08) · [rulings](https://api.scryfall.com/cards/6738c356-734a-4930-acd3-31dead241bea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-06-07* — Kindred is a card type that allows noncreature cards to have creature types. For example, Echoes of Eternity is an Eldrazi (although not a creature) while on the battlefield and an Eldrazi card (although not a creature card) in zones other than the battlefield.
+  - *2024-06-07* — This cards was originally printed with the "tribal" card type. That card type has been replaced with "kindred". This change does not affect the gameplay function of this card.
+  - *2024-06-07* — While it appears only on cards that already have other card types, kindred is a card type and will be counted by effects that refer to the number of card types among cards in a zone.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/75/eyeblights-ending) · oracle_id `9f3e1eef-31db-4e1a-b5a9-ac835f6a3eab` · printing: 2X2 #75 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eye Collector
 
@@ -210,7 +214,18 @@
   > When Eye of Nidhogg is put into a graveyard from the battlefield, return it to its owner's hand.
 - **Keywords:** Goad, Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3525 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/44/eye-of-nidhogg) · oracle_id `c288f184-0beb-4cc9-9b0a-5f3c4b9e70d7` · printing: FIC #44 (2025-06-13) · [rulings](https://api.scryfall.com/cards/186862e7-91ba-47e9-bc38-e8e20772d40c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2025-06-06* — Attacking with a goaded creature doesn't cause it to stop being goaded. If there is an additional combat phase that turn, or if another player gains control of it before it stops being goaded, it must attack again if able.
+  - *2025-06-06* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to a creature may become lethal if Eye of Nidhogg becomes attached to it or unattached from it during that turn.
+  - *2025-06-06* — Being goaded isn't an ability the creature has. Once it's been goaded, it must attack as detailed above even if it loses all abilities.
+  - *2025-06-06* — Effects that modify the creature's power and/or toughness without setting base power and/or toughness will apply to the creature no matter when they started to take effect. The same is true for counters that change its power and/or toughness and effects that switch its power and toughness.
+  - *2025-06-06* — Eye of Nidhogg may enchant a permanent that is only temporarily a creature, such as a Vehicle. If this happens, Eye of Nidhogg will be put into its owner's graveyard as a state-based action once the creature stops being a creature.
+  - *2025-06-06* — Eye of Nidhogg overwrites all colors and creature types the enchanted creature has. It's just a black Dragon. The creature keeps any supertypes it has (such as legendary), as well as any other card types it has (such as enchantment).
+  - *2025-06-06* — Eye of Nidhogg overwrites all previous effects that set the creature's base power and toughness to specific values. Any power- or toughness-setting effects that start to apply afterward will overwrite this effect.
+  - *2025-06-06* — If a creature you control has been goaded by multiple opponents, it must attack one of your opponents that hasn't goaded it, as that fulfills the maximum number of goad requirements. If a creature you control has been goaded by each of your opponents, the creature must attack an opponent (rather than a planeswalker or battle), but you choose which opponent it attacks.
+  - *2025-06-06* — If the creature doesn't meet any of the above exceptions and can attack, it must attack a player other than the controller of the spell or ability that goaded it if able. If the creature can't attack any of those players but could otherwise attack, it must attack a planeswalker an opponent controls, a battle an opponent protects, or the player that goaded it.
+  - *2025-06-06* — If, during a player's declare attackers step, a creature that player controls that's been goaded is tapped, is affected by a spell or ability that says it can't attack, or hasn't been under that player's control continuously since the turn began (and doesn't have haste), then it doesn't attack. If there's a cost associated with having a creature attack a player, its controller isn't forced to pay that cost, so it doesn't have to attack that player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/44/eye-of-nidhogg) · oracle_id `c288f184-0beb-4cc9-9b0a-5f3c4b9e70d7` · printing: FIC #44 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eye of Nowhere
 
@@ -280,7 +295,11 @@
 - **Flavor text** (MM2 printing):
   > *An eye closes. A race awakens.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2931 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mm2/242/eye-of-ugin) · oracle_id `10d13ff6-c4d0-4753-8939-a8a90f0e92bb` · printing: MM2 #242 (2015-05-22) · [rulings](https://api.scryfall.com/cards/d2d5124b-4d73-4aa9-9331-88e03779ffad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2010-03-01* — Eye of Ugin doesn’t have a mana ability.
+  - *2010-03-01* — Eye of Ugin’s second ability lets you find any colorless creature card in your deck, such as an artifact creature card that has no colored mana symbols in its mana cost, or a creature card that’s become colorless due to Mycosynth Lattice.
+  - *2013-04-15* — Mistform Ultimus and creatures with changeling are Eldrazi. If they become colorless, possibly due to Mycosynth Lattice, Eye of Ugin would reduce the cost to cast them by {2}.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mm2/242/eye-of-ugin) · oracle_id `10d13ff6-c4d0-4753-8939-a8a90f0e92bb` · printing: MM2 #242 (2015-05-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eye of Vecna
 
@@ -292,6 +311,7 @@
 - **Flavor text** (AFR printing):
   > *"I see all things as they truly are! I see . . . decay in all flesh, and betrayal in every heart."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7123 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/243/eye-of-vecna) · oracle_id `371a7bbf-5890-46d8-ae57-f020c103b465` · printing: AFR #243 (2021-07-23) · [rulings](https://api.scryfall.com/cards/b91e2431-500e-441a-881d-094ebef62283/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eye of Yawgmoth

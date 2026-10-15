@@ -47,6 +47,7 @@
   > Whenever one or more Squirrels you control deal combat damage to a player, draw a card.
 - **Keywords:** Reach, Trample, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4691 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/blc/7/the-odd-acorn-gang) · oracle_id `1d9d8028-d946-4245-ae0c-7508023f619a` · printing: BLC #7 (2024-08-02) · [rulings](https://api.scryfall.com/cards/791d9ea0-c70a-47a6-b8a3-0f5d36a5c44d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Théoden, King of Rohan
@@ -59,6 +60,7 @@
 - **Flavor text** (LTR printing):
   > *"Dark have been my dreams of late, but I feel new-awakened. I only fear that already you have come too late, Gandalf."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4631 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/233/th%C3%A9oden-king-of-rohan) · oracle_id `e739e3ce-4c5e-4172-a9de-adf66ca6588c` · printing: LTR #233 (2023-06-23) · [rulings](https://api.scryfall.com/cards/f6dcd1ca-4943-46e4-bb5d-c14949e21e23/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The One Ring
@@ -87,7 +89,11 @@
   > Whenever a creature you control with a +1/+1 counter on it leaves the battlefield, create a Mutagen token for each +1/+1 counter on it. (A Mutagen token is an artifact with "{1}, {T}, Sacrifice this token: Put a +1/+1 counter on target creature. Activate only as a sorcery.")
   > {T}: Exile target card from a graveyard. Create a Mutagen token.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4149 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/177/the-ooze) · oracle_id `82a6fa6f-13c2-4ea3-bec2-c51b56b2783b` · printing: TMT #177 (2026-03-06) · [rulings](https://api.scryfall.com/cards/1f9bd4da-4626-40ba-95f4-14e3de36f989/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2026-01-27* — If enough -1/-1 counters are put on a creature you control at the same time to make its toughness 0 or less (or the damage marked on it to be lethal), the number of +1/+1 counters on it before it got any -1/-1 counters will be used to determine how many Mutagen tokens you get. For example, if there are three +1/+1 counters on a creature and it gets four -1/-1 counters, you'll get three Mutagen tokens. That's because The Ooze's triggered ability checks the creature's existence just before it leaves the battlefield, and it still has all those counters on it at that point.
+  - *2026-01-27* — Mutagen tokens are a kind of predefined token. Each one is a colorless artifact with the artifact subtype Mutagen and the ability "{1}, {T}, Sacrifice this token: Put a +1/+1 counter on target creature. Activate only as a sorcery."
+  - *2026-01-27* — Some spells and abilities that create Mutagen tokens require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Mutagen token won't be created.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/177/the-ooze) · oracle_id `82a6fa6f-13c2-4ea3-bec2-c51b56b2783b` · printing: TMT #177 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Theopholos, Order Acolyte
 
@@ -112,6 +118,7 @@
   > *"You made it asymmetrical just to annoy me, didn't you?"*
   > *—Imbraham, Quandrix dean*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6507 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/34/theoretical-duplication) · oracle_id `efe7e212-5c91-42f0-9dff-591131b4f6d8` · printing: C21 #34 (2021-04-23) · [rulings](https://api.scryfall.com/cards/1575a14e-fa70-44f0-8384-95cb90031337/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Theoretical Necromancer

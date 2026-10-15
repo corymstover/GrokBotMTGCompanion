@@ -22,7 +22,11 @@
   > Whenever Xyris deals combat damage to a player, you and that player each draw that many cards.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4639 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/175/xyris-the-writhing-storm) · oracle_id `8687948c-456b-495b-9b31-f818c65624b6` · printing: DMC #175 (2022-09-09) · [rulings](https://api.scryfall.com/cards/af0db1d6-5cb1-4917-8e8f-69d5dc184404/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-04-17* — If a spell or ability causes an opponent to put cards into their hand without specifically using the word "draw," it's not a card drawn.
+  - *2020-04-17* — If the amount of damage Xyris deals is greater than the number of cards in your library and the number of cards in that player's library, you both lose the game at the same time. It doesn't matter if one of you had more cards in library than the other. If there are no other players left in the game, the game is a draw.
+  - *2020-04-17* — If the amount of damage Xyris deals is greater than the number of cards in your library but causes the defending player's life total to become 0 or less, that player loses the game before Xyris's ability causes you to draw cards. If there are no other players left in the game, you win the game.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/175/xyris-the-writhing-storm) · oracle_id `8687948c-456b-495b-9b31-f818c65624b6` · printing: DMC #175 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Xyru Specter
 

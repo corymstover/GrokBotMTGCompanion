@@ -39,7 +39,21 @@
   > Whenever you or another permanent you control becomes the target of a spell or ability an opponent controls, counter that spell or ability unless its controller pays {1}.
 - **Keywords:** Flying, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6438 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/21/reidane-god-of-the-worthy-valkmira-protectors-shield) · oracle_id `35ae7b25-6d0f-49f8-a40d-dd2cf88e6f44` · printing: KHM #21 (2021-02-05) · [rulings](https://api.scryfall.com/cards/3606519e-5677-4c21-a34e-be195b6669fa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2021-02-05* — A modal double-faced card can't be transformed or be put onto the battlefield transformed. Ignore any instruction to transform a modal double-faced card or to put one onto the battlefield transformed.
+  - *2021-02-05* — If a spell has {X} in its mana cost, use the value of X to determine whether its mana value is 4 or greater. If it is, Reidane's last ability will apply. If not, it won't.
+  - *2021-02-05* — If an effect allows you to play a land or cast a spell from among a group of cards, you may play or cast a modal double-faced card with any face that fits the criteria of that effect.
+  - *2021-02-05* — If an effect allows you to play a specific modal double-faced card, you may cast it as a spell or play it as a land, as determined by which face you choose to play. If an effect allows you to cast (rather than "play") a specific modal double-faced card, you can't play it as a land.
+  - *2021-02-05* — If an effect instructs a player to choose a card name, the name of either face may be chosen. If that effect or a linked ability refers to a spell with the chosen name being cast and/or a land with the chosen name being played, it considers only the chosen name, not the other face's name.
+  - *2021-02-05* — If an effect puts a double-faced card onto the battlefield, it enters with its front face up. If that front face can't be put onto the battlefield, it doesn't enter the battlefield.
+  - *2021-02-05* — In the Commander variant, a double-faced card's color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered.
+  - *2021-02-05* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack and battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
+  - *2021-02-05* — There is a single triangle icon in the top left corner of the front face. There is a double triangle icon in the top left corner of the back face.
+  - *2021-02-05* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases (such as that of Reidane, God of the Worthy), then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2021-02-05* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics.
+  - *2021-02-05* — Valkmira's first ability prevents 1 damage from each source an opponent controls each time that source would deal damage to you. It prevents 1 of any kind of damage, not just combat damage.
+  - *2021-02-05* — Valkmira's last ability affects each spell (including Aura spells), activated ability, and triggered ability controlled by an opponent that targets you or another permanent you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/21/reidane-god-of-the-worthy-valkmira-protectors-shield) · oracle_id `35ae7b25-6d0f-49f8-a40d-dd2cf88e6f44` · printing: KHM #21 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reigning Victor
 
@@ -125,7 +139,10 @@
   > Channel — {1}{R}, Discard this card: Draw a card.
 - **Keywords:** Haste, Channel
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6428 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/158/reinforced-ronin) · oracle_id `5e891927-b6cb-40ae-8270-0e72820fd7f5` · printing: NEO #158 (2022-02-18) · [rulings](https://api.scryfall.com/cards/89a18961-8f0b-4e98-9de4-aba97e91ad9a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-02-18* — Discarding the card is part of the cost to activate a channel ability.
+  - *2022-02-18* — If a channel ability requires a target, you may not activate it without a target just to discard the card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/158/reinforced-ronin) · oracle_id `5e891927-b6cb-40ae-8270-0e72820fd7f5` · printing: NEO #158 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reinforcements
 
@@ -146,7 +163,10 @@
 - **Oracle text:**
   > Untap all creatures you control and all creatures target opponent controls. You and that opponent each gain control of all creatures the other controls until end of turn. Those creatures gain haste until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3951 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/734/reins-of-power) · oracle_id `96381388-1e82-411c-8290-1f3e909d3b5f` · printing: CLB #734 (2022-06-10) · [rulings](https://api.scryfall.com/cards/9b5730aa-c74a-4c74-bb1b-a133a3c353ec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — It is perfectly legal for either or both players to have zero creatures. They give control of all their zero creatures as instructed.
+  - *2007-05-01* — You only untap creatures controlled by you and the targeted opponent, not all creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/734/reins-of-power) · oracle_id `96381388-1e82-411c-8290-1f3e909d3b5f` · printing: CLB #734 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reins of the Vinesteed
 
@@ -184,7 +204,15 @@
   > *—Zyd, Kamahlite druid*
 - **Keywords:** Buyback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2557 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/182/reiterate) · oracle_id `38394ee3-6726-4f91-bc25-36bce0c6aab9` · printing: TSR #182 (2021-03-19) · [rulings](https://api.scryfall.com/cards/99302c41-434f-41ff-a61a-2c3681a0c135/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2021-03-19* — If the spell has damage divided as it was cast, the division can't be changed, although the targets receiving that damage still can. The same is true of spells that distribute counters.
+  - *2021-03-19* — If the spell that's copied has an X whose value was determined as it was cast, the copy will have the same value of X.
+  - *2021-03-19* — If the spell that's copied is modal (that is, it says "Choose one —" or the like), the copy will have the same mode. A different mode can't be chosen.
+  - *2021-03-19* — Reiterate can copy any instant or sorcery spell, not just one with targets.
+  - *2021-03-19* — The copy is created on the stack, so it's not "cast." Abilities that trigger when a player casts a spell won't trigger. The copy will resolve before the original spell does.
+  - *2021-03-19* — The copy will have the same targets as the spell it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
+  - *2021-03-19* — You can't choose to pay any alternative or additional costs for the copy. However, effects based on any alternative or additional costs that were paid for the original spell are copied as though those same costs were paid for the copy.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/182/reiterate) · oracle_id `38394ee3-6726-4f91-bc25-36bce0c6aab9` · printing: TSR #182 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reiterating Bolt
 

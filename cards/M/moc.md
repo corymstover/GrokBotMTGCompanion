@@ -85,7 +85,14 @@
   > You may have this creature enter as a copy of a creature an opponent controls, except it has "Other creatures with the same name as this creature are goaded." (They attack each combat if able and attack a player other than you if able.)
 - **Keywords:** Goad, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5552 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/667/mocking-doppelganger) · oracle_id `3b8eb602-01e8-432e-8dfc-8fdb62c3aa43` · printing: CLB #667 (2022-06-10) · [rulings](https://api.scryfall.com/cards/6c5f81d8-b189-4f6e-872f-a237bb872aa9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2022-06-10* — Any enters-the-battlefield abilities of the copied creature will trigger when Mocking Doppelganger enters the battlefield. Any “as [this creature] enters the battlefield” or “[this creature] enters the battlefield with” abilities of the chosen creature will also work.
+  - *2022-06-10* — Except for the added ability, Mocking Doppelganger copies exactly what was printed on the original creature (unless that creature is copying something else or is a token; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it, whether it has any Auras and/or Equipment attached to it, or any non-copy effects that changed its power, toughness, types, color, and so on.
+  - *2022-06-10* — If Mocking Doppelganger somehow enters the battlefield at the same time as another creature an opponent controls, it can't become a copy of that creature. You may choose only a creature that's already on the battlefield.
+  - *2022-06-10* — If the chosen creature has {X} in its mana cost, X is considered to be 0.
+  - *2022-06-10* — If the chosen creature is a token, Mocking Doppelganger copies the original characteristics of that token, except for the added ability. Mocking Doppelganger doesn't become a token in this case.
+  - *2022-06-10* — If the chosen creature is copying something else, Mocking Doppelganger will use the copiable values of the chosen creature. In most cases, it will be a copy of whatever the chosen creature is copying.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/667/mocking-doppelganger) · oracle_id `3b8eb602-01e8-432e-8dfc-8fdb62c3aa43` · printing: CLB #667 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mocking Sprite
 
@@ -99,4 +106,7 @@
   > *"Look at me, everyone! I'm a High Fae! Watch me do important High Fae things!"*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2894 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/744/mocking-sprite) · oracle_id `013ca531-1ff7-4efc-a280-4bc3ab574072` · printing: FDN #744 (2026-04-24) · [rulings](https://api.scryfall.com/cards/d52d16be-c74b-4e40-94f9-2ffa497b6337/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-09-01* — Mocking Sprite's last ability can't reduce the amount of colored mana you pay for a spell. It reduces only the generic mana component of that cost.
+  - *2023-09-01* — Mocking Sprite's last ability doesn't change the mana cost or mana value of any spell. It changes only the total cost you pay.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/744/mocking-sprite) · oracle_id `013ca531-1ff7-4efc-a280-4bc3ab574072` · printing: FDN #744 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

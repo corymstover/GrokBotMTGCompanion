@@ -25,6 +25,7 @@
   > *When angels despair, what hope can remain for mortals?*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9387 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c14/84/requiem-angel) · oracle_id `59f10ddb-8287-4d2c-8c60-1080b108fa78` · printing: C14 #84 (2014-11-07) · [rulings](https://api.scryfall.com/cards/ad135475-d1f6-4e78-a536-6bf61204c739/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Requiem Monolith
@@ -34,7 +35,10 @@
 - **Oracle text:**
   > {T}: Until end of turn, target creature gains "Whenever this creature is dealt damage, you draw that many cards and lose that much life." That creature's controller may have this artifact deal 1 damage to it. Activate only as a sorcery.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7032 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/113/requiem-monolith) · oracle_id `13a8b19b-23bd-4e45-81ff-23371665e4fc` · printing: EOE #113 (2025-08-01) · [rulings](https://api.scryfall.com/cards/837d710a-652f-4c60-a52d-d786231160a4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-07-25* — If lethal damage is dealt to a creature that has been granted the listed ability by Requiem Monolith’s ability, the granted ability will still trigger.
+  - *2025-07-25* — If multiple sources deal damage to a creature that has been granted the listed ability by Requiem Monolith’s ability (probably because multiple creatures blocked that creature), the granted ability triggers only once. When it resolves, the creature’s controller draws cards and loses life equal to the total amount of damage dealt to that creature by those sources.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/113/requiem-monolith) · oracle_id `13a8b19b-23bd-4e45-81ff-23371665e4fc` · printing: EOE #113 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Requisition Raid
 
@@ -49,7 +53,20 @@
   > *The Freestriders believe in liberation, in all its many forms.*
 - **Keywords:** Spree
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1206 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/26/requisition-raid) · oracle_id `09669283-eb14-46a2-b37a-51d7a52da891` · printing: OTJ #26 (2024-04-19) · [rulings](https://api.scryfall.com/cards/154e9ba9-0d0e-4b0e-acf2-f66a993cf3a2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2024-04-12* — Each additional cost and associated mode in the text box is also preceded with a + indicator. These symbols also have no rules meaning and serve only to remind players that the listed costs are additional costs.
+  - *2024-04-12* — If a mode requires a target, you can select that mode only if there's a legal target available. Ignore the targeting requirements for modes you don't choose.
+  - *2024-04-12* — If a spell with spree is copied, the effect that creates the copy may allow you to choose new targets. You cannot choose new modes.
+  - *2024-04-12* — If all targets for the chosen modes become illegal before a spell with spree resolves, the spell won't resolve and none of its effects will happen. If at least one target is still legal, the spell will resolve but will have no effect on any illegal targets.
+  - *2024-04-12* — If an effect allows you to cast a spell with spree "without paying its mana cost," you must still choose at least one mode and pay the associated additional costs.
+  - *2024-04-12* — No matter which modes you choose, you always follow the instructions in the order they are written.
+  - *2024-04-12* — No player can cast spells or activate abilities in between the modes of a resolving spell. Any abilities that trigger won't be put onto the stack until the spell is done resolving.
+  - *2024-04-12* — Spells with spree have a + (plus sign) indicator in the upper right corner of the card frame. This has no rules meaning and serves only to remind players that at least one additional cost is required to cast the spell.
+  - *2024-04-12* — The mana value of a spell with spree is determined only by its mana cost (in the upper right corner of the card). It doesn't matter which modes you choose or which additional costs you pay, including any additional costs imposed by other effects.
+  - *2024-04-12* — You can't choose the same mode more than once.
+  - *2024-04-12* — You choose the modes as you cast the spell with spree. Once modes are chosen, they can't be changed.
+  - *2024-04-12* — You must choose at least one of the listed modes and pay its associated additional cost in order to cast a spell with spree.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/26/requisition-raid) · oracle_id `09669283-eb14-46a2-b37a-51d7a52da891` · printing: OTJ #26 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Requiting Hex
 

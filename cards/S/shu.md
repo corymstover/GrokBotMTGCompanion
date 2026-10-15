@@ -213,6 +213,7 @@
 - **Flavor text** (MSH printing):
   > *While her older brother T'Challa ruled Wakanda, Shuri perfected its defenses and vibranium-based weapons.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5752 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/75/shuri-wakandan-inventor) · oracle_id `a8c047fc-20a9-4c62-b8a6-9ead56d60ad0` · printing: MSH #75 (2026-06-26) · [rulings](https://api.scryfall.com/cards/65005522-555e-4479-939c-be16e0262f6f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shu Soldier-Farmers

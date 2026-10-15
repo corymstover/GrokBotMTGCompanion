@@ -241,7 +241,9 @@
 - **Flavor text** (2XM printing):
   > *Make every blow count.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8531 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/139/rage-reflection) · oracle_id `03fb26b1-6d9c-455b-9b2f-a052a9222db7` · printing: 2XM #139 (2020-08-07) · [rulings](https://api.scryfall.com/cards/b767e176-1df5-4adc-bf6b-418d71b4dbbe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-08-07* — If a creature loses double strike after assigning damage in the first strike combat damage step (due to Rage Reflection leaving the battlefield, for example), that creature won't assign damage in the normal combat damage step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/139/rage-reflection) · oracle_id `03fb26b1-6d9c-455b-9b2f-a052a9222db7` · printing: 2XM #139 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rage-Scarred Berserker
 
@@ -289,7 +291,11 @@
   > Whenever a creature you control with a mana ability attacks, untap it.
   > Whenever you cast a spell, if at least seven mana was spent to cast it, untap target creature. It gets +7/+7 and gains trample until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7277 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/291/raggadragga-goreguts-boss) · oracle_id `a7641ee0-9c0d-4201-9827-a775ed03797c` · printing: CLB #291 (2022-06-10) · [rulings](https://api.scryfall.com/cards/1166ce2a-4e0b-4a57-929d-566f461a6282/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-06-10* — Most mana abilities found on creatures are activated mana abilities. An activated mana ability is an activated ability that could produce mana as it resolves, does not require a target, and isn't a loyalty ability.
+  - *2022-06-10* — Raggadragga's last ability can target any creature, including one that's untapped.
+  - *2022-06-10* — Some creatures may have triggered mana abilities. A triggered mana ability is a triggered ability that could produce mana as it resolves, triggers on the resolution of an activated mana ability or on mana being added, and doesn't require a target.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/291/raggadragga-goreguts-boss) · oracle_id `a7641ee0-9c0d-4201-9827-a775ed03797c` · printing: CLB #291 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ragged Playmate
 
@@ -484,7 +490,11 @@
   > {T}: Add {R} or {G}.
   > {2}{R}{G}: Until end of turn, this land becomes a 3/3 red and green Elemental creature with "Whenever this creature attacks, put a +1/+1 counter on it." It's still a land.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2790 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/160/raging-ravine) · oracle_id `8d38194e-b607-4ff4-9c19-0e8636d463bf` · printing: ECC #160 (2026-01-23) · [rulings](https://api.scryfall.com/cards/3964c3a5-3ce7-4b73-89ec-ed1b9799aef8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-07-25* — Any +1/+1 counters put on Raging Ravine remain on it even after it stops being a creature. They’ll have no effect until it becomes a creature again. (In other words, the land continues to rage, but to no effect.)
+  - *2025-07-25* — If Raging Ravine’s last ability is activated multiple times in a turn, it will get that many instances of the granted triggered ability. For example, if you activate Raging Ravine’s last ability twice and then attack with it, you’ll put a +1/+1 counter on it twice.
+  - *2025-07-25* — If this land becomes a creature but you haven’t controlled it continuously since your most recent turn began, you won’t be able to activate its mana ability or attack with it that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/160/raging-ravine) · oracle_id `8d38194e-b607-4ff4-9c19-0e8636d463bf` · printing: ECC #160 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raging Redcap
 
@@ -509,7 +519,9 @@
 - **Flavor text** (LCC printing):
   > *Its breath is a gale. Its roar is a volcano. Its anger tears soul from flesh.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9184 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/282/raging-regisaur) · oracle_id `3d563149-7d4e-43e5-b701-28e3212051ec` · printing: LCC #282 (2023-11-17) · [rulings](https://api.scryfall.com/cards/35e68007-ac45-40a4-91f3-4a1edf00bd0e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-01-19* — Damage dealt by Raging Regisaur's triggered ability isn't combat damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/282/raging-regisaur) · oracle_id `3d563149-7d4e-43e5-b701-28e3212051ec` · printing: LCC #282 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raging River
 
@@ -545,6 +557,7 @@
   > *Carnivorous dinosaurs developed a taste for undead flesh, tracking the vampires by the scent of blood on their breath.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7589 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/283/raging-swordtooth) · oracle_id `626709bc-6c29-434f-9e3f-b84bb8a5c431` · printing: LCC #283 (2023-11-17) · [rulings](https://api.scryfall.com/cards/6bf82a3f-2faf-45b8-95af-32a93880b54c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rag Man
@@ -596,7 +609,13 @@
   > {1}, {T}, Sacrifice a Food: Ragost deals 3 damage to each opponent.
   > At the beginning of each end step, if you gained life this turn, untap Ragost.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5294 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/224/ragost-deft-gastronaut) · oracle_id `76f5445a-5193-4794-8593-b44f961334b6` · printing: EOE #224 (2025-08-01) · [rulings](https://api.scryfall.com/cards/011374c3-f69d-4573-8c32-5bd0fe083d6a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-07-25* — If Ragost somehow becomes an artifact, Ragost will also be a Food.
+  - *2025-07-25* — If an effect refers to a Food, it means any Food artifact, not just a Food token. For example, when you activate Ragost’s second ability, you can sacrifice any Food you control to pay its cost.
+  - *2025-07-25* — Ragost’s last ability will check as the end step starts to see if you gained life this turn. If you haven’t, the ability won’t trigger at all. You won’t be able to gain life during your end step in time to have the ability trigger.
+  - *2025-07-25* — The artifacts retain any types, subtypes, supertypes, and abilities they have.
+  - *2025-07-25* — You can’t sacrifice a Food to pay multiple costs. For example, you can’t sacrifice a single Food to pay the cost of its own ability and also to pay the cost of Ragost’s second ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/224/ragost-deft-gastronaut) · oracle_id `76f5445a-5193-4794-8593-b44f961334b6` · printing: EOE #224 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rags // Riches
 

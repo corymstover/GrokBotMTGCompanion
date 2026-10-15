@@ -209,7 +209,10 @@
 - **Oracle text:**
   > When this creature dies, you may exile it. If you do, search your library for an enchantment card, put that card onto the battlefield, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5374 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/uds/1/academy-rector) · oracle_id `e3c85068-b4b6-40b9-a16c-5c3b2d059ec4` · printing: UDS #1 (1999-06-07) · [rulings](https://api.scryfall.com/cards/4367bc78-0912-4abd-8edd-bc792558d01a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — You do not have to find an enchantment card if you do not want to, even if you have one in your library.
+  - *2005-08-01* — An enchantment card is any Enchantment card, including Auras.
+- **Source flags:** [Scryfall](https://scryfall.com/card/uds/1/academy-rector) · oracle_id `e3c85068-b4b6-40b9-a16c-5c3b2d059ec4` · printing: UDS #1 (1999-06-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Academy Researchers
 
@@ -261,6 +264,7 @@
   > *"I've seen lightning move slower."*
   > *—Nomad sentry*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7400 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tor/90/accelerate) · oracle_id `79189464-9645-4411-8886-68fd40a588ed` · printing: TOR #90 (2002-02-04) · [rulings](https://api.scryfall.com/cards/6a28dd88-db90-4f02-8aa9-39051d2c4763/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Accelerated Evolution
@@ -306,6 +310,7 @@
 - **Flavor text** (NEC printing):
   > *The Saiba Futurists guard their secret experiments with ever-evolving networks of cutting-edge defensive technology.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3772 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/nec/11/access-denied) · oracle_id `353dd446-2ea6-41c9-a10f-5a03e4de19b4` · printing: NEC #11 (2022-02-18) · [rulings](https://api.scryfall.com/cards/1642df77-6fe8-47cf-b750-ca4dd9b331ba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Accessories to Murder
@@ -340,7 +345,10 @@
 - **Oracle text:**
   > When this creature enters, if you control another Knight, look at the top five cards of your library. You may reveal a Knight, Aura, Equipment, or legendary artifact card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6864 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/166/acclaimed-contender) · oracle_id `35df179a-c0e6-4ac1-a861-e6e9b4d1614d` · printing: MOC #166 (2023-04-21) · [rulings](https://api.scryfall.com/cards/a508ffbe-aa58-4dae-b366-fea688b60755/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-10-04* — Acclaimed Contender's ability can get you at most one card from the top five cards, no matter how many other Knights you control.
+  - *2019-10-04* — Acclaimed Contender's ability won't trigger if you don't control another Knight immediately after it enters the battlefield. If you don't control another Knight as that ability resolves, the ability has no effect. This doesn't have the be the same Knight at both times, however.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/166/acclaimed-contender) · oracle_id `35df179a-c0e6-4ac1-a861-e6e9b4d1614d` · printing: MOC #166 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Accomplished Alchemist
 
@@ -353,7 +361,9 @@
 - **Flavor text** (STX printing):
   > *"Tincture of murkroot and lizard feet? Simple. One that doesn't taste like murkroot and lizard feet? I'm working on it."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7419 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/stx/119/accomplished-alchemist) · oracle_id `97e18a8d-9068-4782-a744-280d28c68228` · printing: STX #119 (2021-04-23) · [rulings](https://api.scryfall.com/cards/0d7b7830-b65e-4c53-98e8-152026764e4b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-04-16* — Accomplished Alchemist's second ability counts the total amount of life gained without taking into account any life you lost during that turn. For example, if you lost 3 life and gained 3 life earlier in the turn, you'll add three mana.
+- **Source flags:** [Scryfall](https://scryfall.com/card/stx/119/accomplished-alchemist) · oracle_id `97e18a8d-9068-4782-a744-280d28c68228` · printing: STX #119 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Accomplished Automaton
 
@@ -392,6 +402,7 @@
   > *An Auriok shield is polished to a mirror finish even on the inside, enabling its bearer to watch foes ahead and behind.*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6456 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m14/204/accorders-shield) · oracle_id `dd70d439-bd60-43d1-ac26-13b744cc4a37` · printing: M14 #204 (2013-07-19) · [rulings](https://api.scryfall.com/cards/c5a4c2ab-c5bc-4e07-8671-a688ebd5471c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Accumulated Knowledge
@@ -416,6 +427,7 @@
   > *"To prove your worth as scholars, you have to contribute some worthwhile knowledge."*
   > *—Wan Shi Tong*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5567 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/44/accumulate-wisdom) · oracle_id `a63eb744-71c4-447d-9372-c3a734f022c5` · printing: TLA #44 (2025-11-21) · [rulings](https://api.scryfall.com/cards/a6335319-6c92-40d4-ab2d-c06c79049c30/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Accursed Centaur
@@ -440,6 +452,7 @@
   > {2}, {T}: Regenerate target Shade, Skeleton, Specter, Spirit, Vampire, Wraith, or Zombie. (The next time it would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it.)
 - **Keywords:** Heal, Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2393 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/drc/20/accursed-duneyard) · oracle_id `48edc348-93f6-4dce-9cc4-7244d76b6f4a` · printing: DRC #20 (2025-02-14) · [rulings](https://api.scryfall.com/cards/bd9e6ba8-1c5e-4416-8bff-90db3b3b1f41/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Accursed Horde
@@ -519,7 +532,11 @@
   > Whenever Acererak attacks, for each opponent, you create a 2/2 black Zombie creature token unless that player sacrifices a creature of their choice.
 - **Keywords:** Venture into the dungeon
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5874 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/87/acererak-the-archlich) · oracle_id `31b4e85d-89fc-4712-8f05-7ec097b1d3b6` · printing: AFR #87 (2021-07-23) · [rulings](https://api.scryfall.com/cards/dd52d0bd-3abd-401c-9f56-ee911613da3b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-07-23* — Acererak the Archlich has an intervening if clause in its first triggered ability. If you have completed Tomb of Annihilation, the ability won't trigger at all. If it does trigger, but you somehow complete Tomb of Annihilation while the ability is on the stack, then the ability won't do anything. You won't return Acererak to its owner's hand and you won't venture into the dungeon.
+  - *2021-07-23* — If Acererak is no longer on the battlefield as its first ability resolves and you haven't completed Tomb of Annihilation, you will still venture into the dungeon.
+  - *2021-07-23* — In a multiplayer game, each opponent decides in turn order whether or not they will sacrifice a creature and which one they will sacrifice. Each opponent knows the choices made before they make their own choice. Then, once all opponents have chosen, creatures are sacrificed and tokens are created simultaneously.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/87/acererak-the-archlich) · oracle_id `31b4e85d-89fc-4712-8f05-7ec097b1d3b6` · printing: AFR #87 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ace's Baseball Bat
 
@@ -563,7 +580,9 @@
   > Other Assassins you control get +1/+1.
 - **Keywords:** Freerunning, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7272 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/acr/294/achilles-davenport) · oracle_id `b921a672-721e-4bd8-a10b-a6de8c13c7d8` · printing: ACR #294 (2024-07-05) · [rulings](https://api.scryfall.com/cards/f8ead24c-dd4a-40cd-839e-de08017a7c29/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-07-05* — Once an Assassin creature or commander you control deals combat damage to a player in a turn, you can cast spells for their freerunning costs for the rest of that turn. It doesn’t matter what happens to that Assassin or commander after that.
+- **Source flags:** [Scryfall](https://scryfall.com/card/acr/294/achilles-davenport) · oracle_id `b921a672-721e-4bd8-a10b-a6de8c13c7d8` · printing: ACR #294 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Acidic Dagger
 
@@ -610,7 +629,9 @@
 - **Flavor text** (USG printing):
   > *Phyrexia had tried to take Urza's soul. He was relieved that Shiv tried to claim only his soles.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8113 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/usg/172/acidic-soil) · oracle_id `4ccc1ac5-db90-4fc9-9795-7afaf7466c3e` · printing: USG #172 (1998-10-12) · [rulings](https://api.scryfall.com/cards/790157c9-b1ed-4da5-9d50-e99e0dd807b7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — This counts the lands on resolution.
+- **Source flags:** [Scryfall](https://scryfall.com/card/usg/172/acidic-soil) · oracle_id `4ccc1ac5-db90-4fc9-9795-7afaf7466c3e` · printing: USG #172 (1998-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Acid Rain
 
@@ -665,7 +686,10 @@
   > *Chimil gave the Oltec peace in death. Aclazotz ripped it away.*
 - **Keywords:** Flying, Lifelink, Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2587 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/88/aclazotz-deepest-betrayal-temple-of-the-dead) · oracle_id `fcdfe9d5-2743-4d3e-ab57-bf0f96beaa15` · printing: LCI #88 (2023-11-17) · [rulings](https://api.scryfall.com/cards/627c392c-4d18-4eb2-a4e8-c668f61f5487/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-11-10* — If a card that isn't a transforming double-faced card is a copy of Aclazotz, Deepest Betrayal, it won't return to the battlefield when it dies.
+  - *2023-11-10* — The last ability of Temple of the Dead will resolve even if you have two or more cards in hand at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/88/aclazotz-deepest-betrayal-temple-of-the-dead) · oracle_id `fcdfe9d5-2743-4d3e-ab57-bf0f96beaa15` · printing: LCI #88 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Acolyte Hybrid
 
@@ -714,7 +738,18 @@
 - **Flavor text** (CLB printing):
   > *You were on a wayward path until Bahamut showed you that power and kindness can unite beneath the same banner.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9394 · Game Changer: no · Can be commander: Only alongside a commander with *Choose a Background*
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/212/acolyte-of-bahamut) · oracle_id `38477748-bc57-449c-afe1-c5f34caf8eff` · printing: CLB #212 (2022-06-10) · [rulings](https://api.scryfall.com/cards/b0260e1f-ff6a-4ef3-bef7-8c77f8413500/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2022-06-10* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2022-06-10* — Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+  - *2022-06-10* — Choose a Background is a variant of the partner ability. You may have two commanders if one of them is a legendary creature with the choose a background ability and the other is a legendary Background enchantment. Backgrounds and cards with choose a Background do not interact with cards which have any other partner ability.
+  - *2022-06-10* — If a card refers to a commander creature you own, a Background won't usually be counted or included for that effect. If another spell or ability causes your Background to become a creature, however, it will be included. Any effect that refers to your commander or a commander you own or control without specifying creature will apply to a Background that is your commander, as appropriate.
+  - *2022-06-10* — If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+  - *2022-06-10* — If you control a Background that grants an ability to commander creatures you own, and you own more than one commander creature, each of them will have that ability.
+  - *2022-06-10* — If your Commander deck has two commanders, you can include only cards whose own color identities are also found in your commanders' combined color identities.
+  - *2022-06-10* — If your commander loses the choose a Background ability or stops being a Background during the game, as appropriate, it is still your commander.
+  - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won't usually be a creature anyway).
+  - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/212/acolyte-of-bahamut) · oracle_id `38477748-bc57-449c-afe1-c5f34caf8eff` · printing: CLB #212 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Acolyte of the Inferno
 
@@ -898,7 +933,10 @@
 - **Flavor text** (KLD printing):
   > *Renegades find ever more creative ways to work around the Consulate's aether regulations.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5550 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/kld/1/acrobatic-maneuver) · oracle_id `1aa1cf50-ee79-4bef-826b-5f1a9e1aa1a5` · printing: KLD #1 (2016-09-30) · [rulings](https://api.scryfall.com/cards/74f92174-f38f-4623-a5f7-f5be7f7dcc9d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2016-09-20* — After the creature returns to the battlefield, it will be a new object with no connection to the creature that was exiled. It won't be in combat or have any additional abilities it may have had before it was exiled. Any +1/+1 counters on it or Auras attached to it are removed, and any Equipment will no longer be attached.
+  - *2016-09-20* — If a creature token is exiled this way, it will cease to exist and won't return to the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/kld/1/acrobatic-maneuver) · oracle_id `1aa1cf50-ee79-4bef-826b-5f1a9e1aa1a5` · printing: KLD #1 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Across the Multiverse
 
@@ -934,7 +972,11 @@
   > You may have this creature enter as a copy of any creature card in a graveyard that was put there from the battlefield this turn, except it's a Phyrexian in addition to its other types.
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8754 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/24/activated-sleeper) · oracle_id `e12da2a1-e390-4487-b154-69e439cb7b05` · printing: DMC #24 (2022-09-09) · [rulings](https://api.scryfall.com/cards/343d01cf-9806-4c2d-a993-ddc9ed248d7f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-09-09* — If the chosen creature card has {X} in its mana cost, X is considered to be zero.
+  - *2022-09-09* — Treat Activated Sleeper as though it were the chosen card entering the battlefield, except it's also a Phyrexian. Any "As [this creature] enters the battlefield," "[This creature] enters the battlefield with," and "When [this creature] enters the battlefield" abilities of the chosen card will work.
+  - *2022-09-09* — You don't have to choose a card to copy. If you don't, Activated Sleeper enters the battlefield as a 0/0 creature and is probably put into your graveyard immediately, unless something is increasing its toughness to keep it alive.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/24/activated-sleeper) · oracle_id `e12da2a1-e390-4487-b154-69e439cb7b05` · printing: DMC #24 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Active Volcano
 
@@ -955,7 +997,15 @@
   > ({R/P} can be paid with either {R} or 2 life.)
   > Gain control of target creature an opponent controls until end of turn. Untap that creature. It gains haste until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9234 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c15/141/act-of-aggression) · oracle_id `9d7624ea-ffff-470b-928b-bbac66ddbd1c` · printing: C15 #141 (2015-11-13) · [rulings](https://api.scryfall.com/cards/8d34c3aa-7d74-4a8b-898c-cb62b1f05989/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2011-06-01* — A card with Phyrexian mana symbols in its mana cost is each color that appears in that mana cost, regardless of how that cost may have been paid.
+  - *2011-06-01* — Act of Aggression can target any creature an opponent controls, even one that's untapped.
+  - *2011-06-01* — As you cast a spell or activate an activated ability with one or more Phyrexian mana symbols in its cost, you choose how to pay for each Phyrexian mana symbol at the same time you would choose modes or choose a value for X.
+  - *2011-06-01* — Gaining control of a creature doesn't cause you to gain control of any Auras or Equipment attached to it.
+  - *2011-06-01* — If you're at 1 life or less, you can't pay 2 life.
+  - *2011-06-01* — Phyrexian mana is not a new color. Players can't produce Phyrexian mana.
+  - *2011-06-01* — To calculate the mana value of a card with Phyrexian mana symbols in its cost, count each Phyrexian mana symbol as 1.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c15/141/act-of-aggression) · oracle_id `9d7624ea-ffff-470b-928b-bbac66ddbd1c` · printing: C15 #141 (2015-11-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Act of Authority
 
@@ -988,7 +1038,10 @@
 - **Flavor text** (RVR printing):
   > *Seen through Rakdos eyes, a cruel betrayal is a hilarious stunt.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4843 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/99/act-of-treason) · oracle_id `9d08af23-9f4a-4097-9abc-3b17475ab744` · printing: RVR #99 (2024-01-12) · [rulings](https://api.scryfall.com/cards/a1a9d323-fb40-411b-a0e7-64024bc6ba58/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-07-12* — Act of Treason can target any creature, even one that's untapped or one you already control.
+  - *2019-07-12* — Gaining control of a creature doesn't cause you to gain control of any Auras or Equipment attached to it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/99/act-of-treason) · oracle_id `9d08af23-9f4a-4097-9abc-3b17475ab744` · printing: RVR #99 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Act on Impulse
 

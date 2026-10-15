@@ -22,7 +22,9 @@
   > When Sutina enters, search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
   > Whenever Sutina attacks, you may return a land you control to its owner's hand. When you do, put a +1/+1 counter on target creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9152 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/j25/56/sutina-speaker-of-the-tajuru) · oracle_id `91f410c5-4313-462f-8d21-da63988d919f` · printing: J25 #56 (2024-11-15) · [rulings](https://api.scryfall.com/cards/1b794170-4ffd-4628-ba5a-b9293bb364dc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-11-08* — You don't choose a target for Sutina's last ability at the time it triggers. Rather, a second "reflexive" ability triggers when you return a land you control to its owner's hand this way. You choose a target for that ability as it goes on the stack. Each player may respond to this triggered ability as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/j25/56/sutina-speaker-of-the-tajuru) · oracle_id `91f410c5-4313-462f-8d21-da63988d919f` · printing: J25 #56 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sutured Ghoul
 
@@ -46,6 +48,7 @@
   > Whenever another creature you control enters, you may gain 1 life.
   > Whenever a creature an opponent controls enters, you may have that player lose 1 life.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1151 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/210/suture-priest) · oracle_id `c4d36522-3ace-4bfb-bf2d-1a366f458698` · printing: MOC #210 (2023-04-21) · [rulings](https://api.scryfall.com/cards/430b96aa-7bb0-4d2b-b265-9c4987db28a2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Suture Spirit

@@ -83,7 +83,12 @@
 - **Flavor text** (CMR printing):
   > *"I'm bored with now."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7762 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/289/obeka-brute-chronologist) · oracle_id `21b76a94-d9f3-4c34-ab24-7e89321b04f0` · printing: CMR #289 (2020-11-20) · [rulings](https://api.scryfall.com/cards/dbdb335d-3e45-4dd5-9e3e-c50ca0a4dfb6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-11-10* — Ending the turn this way means the following things happen in order: 1) All spells and abilities on the stack are exiled. This includes spells and abilities that can't be countered. 2) If there are any attacking and blocking creatures, they're removed from combat. 3) State-based actions are checked. No player gets priority, and no triggered abilities are put onto the stack. 4) The current phase and/or step ends. The game skips straight to the cleanup step. 5) The cleanup step happens in its entirety.
+  - *2020-11-10* — If any triggered abilities do trigger during this process, they're put onto the stack during the cleanup step. If this happens, players will have a chance to cast spells and activate abilities, then there will be another cleanup step before the turn is over.
+  - *2020-11-10* — If the turn ends before the end step, any "At the beginning of the next end step" triggered abilities won't get the chance to trigger that turn because the end step has been skipped. Those abilities will trigger next turn at the beginning of the end step.
+  - *2020-11-10* — If the turn ends during the end step after "At the beginning of the next end step" abilities have triggered but before they've resolved, those abilities won't trigger again next turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/289/obeka-brute-chronologist) · oracle_id `21b76a94-d9f3-4c34-ab24-7e89321b04f0` · printing: CMR #289 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Obeka, Splitter of Seconds
 
@@ -97,7 +102,13 @@
   > *"You're living on borrowed time."*
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5920 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/222/obeka-splitter-of-seconds) · oracle_id `1d15a06f-5471-48f2-8c4a-9b0886bef5af` · printing: OTJ #222 (2024-04-19) · [rulings](https://api.scryfall.com/cards/03415c42-086e-4a2e-9be8-5cdcde83f134/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-04-12* — Abilities that trigger "at the beginning of [your] upkeep" will trigger at the beginning of each additional upkeep step as well.
+  - *2024-04-12* — After the beginning phases containing the additional upkeep steps, the game proceeds to the next phase as normal, which is likely to be your postcombat main phase (unless something has added even more phases; see below).
+  - *2024-04-12* — If multiple phases are added to the same point in your turn, the most recently created phase happens first. For example, say Obeka deals combat damage and its ability resolves during your combat damage step, giving you two additional beginning phases each containing an upkeep step after this combat phase. During end of combat, another effect gives you an additional combat phase after this combat phase. The additional combat will happen first, followed by the additional beginning phases containing the two upkeep steps.
+  - *2024-04-12* — Since the upkeep step can only occur during the beginning phase, getting one or more additional upkeep steps outside of the beginning phase actually means you get an additional beginning phase for each of those upkeeps after this phase. In those beginning phases, the untap and draw steps will be skipped.
+  - *2024-04-12* — The beginning phases containing the additional upkeep steps occur after the current combat phase ends. The last step of the combat phase is the end of combat step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/222/obeka-splitter-of-seconds) · oracle_id `1d15a06f-5471-48f2-8c4a-9b0886bef5af` · printing: OTJ #222 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Obelisk of Alara
 
@@ -188,7 +199,16 @@
   > Creatures you control of the chosen type get +2/+2.
 - **Keywords:** Convoke
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4078 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znc/115/obelisk-of-urd) · oracle_id `e2ef3a24-9e78-47fc-9192-049aa0ddb7a0` · printing: ZNC #115 (2020-09-25) · [rulings](https://api.scryfall.com/cards/c610beb6-6fd5-4230-ae74-240a005d5c8c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2014-07-18* — The choice of creature type is made as Obelisk of Urd enters the battlefield. Players can't respond to this choice. The bonus starts applying immediately.
+  - *2014-07-18* — You must choose an existing creature type.
+  - *2024-01-12* — Because convoke isn't an alternative cost, it can be used in conjunction with alternative costs.
+  - *2024-01-12* — If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.
+  - *2024-01-12* — Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature's colors.
+  - *2024-01-12* — Tapping an untapped creature that's attacking or blocking to convoke a spell won't cause that creature to stop attacking or blocking.
+  - *2024-01-12* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
+  - *2024-01-12* — You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znc/115/obelisk-of-urd) · oracle_id `e2ef3a24-9e78-47fc-9192-049aa0ddb7a0` · printing: ZNC #115 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Obelisk Spider
 
@@ -201,7 +221,15 @@
   > Whenever you put one or more -1/-1 counters on a creature, each opponent loses 1 life and you gain 1 life.
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4829 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hou/141/obelisk-spider) · oracle_id `f7289e62-ce5e-4f11-8d64-9fb62531b578` · printing: HOU #141 (2017-07-14) · [rulings](https://api.scryfall.com/cards/ae054604-0d77-45d0-b17b-55a83fb18e39/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2017-04-18* — If a creature with wither or infect deals damage to a creature, the controller of the creature with wither or infect puts that many -1/-1 counters on the second creature.
+  - *2017-07-14* — Because damage remains marked on a creature until it’s removed as the turn ends, the counter Obelisk Spider’s first triggered ability puts on a creature may cause previously marked damage to become lethal.
+  - *2017-07-14* — If Obelisk Spider deals combat damage to a creature at the same time Obelisk Spider is dealt lethal damage, its first triggered ability will put a -1/-1 counter on the other creature. However, because Obelisk Spider has left the battlefield before that ability resolves, its last ability won’t trigger.
+  - *2017-07-14* — If Obelisk Spider deals combat damage to a creature but that creature isn’t on the battlefield as Obelisk Spider’s first triggered ability resolves, most likely because Obelisk Spider killed that creature already, that ability won’t put a -1/-1 counter on it.
+  - *2017-07-14* — If you put one or more -1/-1 counter on each of multiple creatures at the same time, Obelisk Spider’s last ability triggers once for each of those creatures.
+  - *2017-07-14* — In a Two-Headed Giant game, Obelisk Spider’s last ability causes the opposing team to lose 2 life and you gain 1 life.
+  - *2017-07-14* — Obelisk Spider’s first triggered ability puts only one -1/-1 counter on the creature, no matter how much combat damage it dealt.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hou/141/obelisk-spider) · oracle_id `f7289e62-ce5e-4f11-8d64-9fb62531b578` · printing: HOU #141 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oblation
 
@@ -212,6 +240,7 @@
 - **Flavor text** (C21 printing):
   > *"A richer people could give more but they could never give as much."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5457 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/97/oblation) · oracle_id `860e744d-899c-43c7-84bb-d52c69d2f45a` · printing: C21 #97 (2021-04-23) · [rulings](https://api.scryfall.com/cards/dcfdea72-4736-4442-987b-173f6885528a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Obliterate
@@ -260,7 +289,12 @@
   > When this enchantment enters, exile another target nonland permanent.
   > When this enchantment leaves the battlefield, return the exiled card to the battlefield under its owner's control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5098 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mm2/29/oblivion-ring) · oracle_id `bd9b9772-f5f9-4c6b-913e-7193bea5d0a7` · printing: MM2 #29 (2015-05-22) · [rulings](https://api.scryfall.com/cards/bff31eba-8ab3-403e-8d82-37a18b279bec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2007-10-01* — If Oblivion Ring leaves the battlefield before its first ability has resolved, its second ability will trigger and do nothing. Then its first ability will resolve and exile the targeted nonland permanent forever.
+  - *2007-10-01* — If there are no nonland permanents on the battlefield other than an Oblivion Ring, and the card it exiled was another Oblivion Ring, casting a third Oblivion Ring will result in an involuntary infinite loop that will end the game in a draw (unless someone chooses to break it by putting another nonland permanent onto the battlefield or destroying one of the Oblivion Rings, for example).
+  - *2008-10-01* — If the exiled card is an Aura, that card’s owner chooses what it will enchant as it comes back onto the battlefield. An Aura put onto the battlefield this way doesn’t target anything, but the Aura’s enchant ability restricts what it can be attached to. If the Aura can’t legally be attached to anything, it remains exiled forever.
+  - *2012-07-01* — Auras attached to the exiled permanent will be put into their owners’ graveyards. Equipment attached to the exiled permanent will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mm2/29/oblivion-ring) · oracle_id `bd9b9772-f5f9-4c6b-913e-7193bea5d0a7` · printing: MM2 #29 (2015-05-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oblivion's Hunger
 
@@ -284,7 +318,10 @@
 - **Flavor text** (OTC printing):
   > *The Eldrazi hunger without limit and consume without pause.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2338 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/77/oblivion-sower) · oracle_id `d39b9f64-dc9b-413f-8d05-e21ef46d6756` · printing: OTC #77 (2024-04-19) · [rulings](https://api.scryfall.com/cards/82bc94b5-8c22-4120-87ba-6125c62b271b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2015-08-25* — Cards that are face down in exile have no characteristics. Such cards can't be put onto the battlefield with Oblivion Sower's ability.
+  - *2015-08-25* — Oblivion Sower's ability allows you to put any land cards the player owns from exile onto the battlefield, regardless of how those cards were exiled.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/77/oblivion-sower) · oracle_id `d39b9f64-dc9b-413f-8d05-e21ef46d6756` · printing: OTC #77 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oblivion Stone
 
@@ -294,6 +331,7 @@
   > {4}, {T}: Put a fate counter on target permanent.
   > {5}, {T}, Sacrifice this artifact: Destroy each nonland permanent without a fate counter on it, then remove all fate counters from all permanents.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5779 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/373/oblivion-stone) · oracle_id `2fd61c9f-44d2-48d7-a271-8e4208407cca` · printing: NCC #373 (2022-04-29) · [rulings](https://api.scryfall.com/cards/f0cd5548-ce7b-493a-8119-62f000839e4d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oblivion Strike
@@ -333,7 +371,14 @@
   > *Stranded on New Capenna without a spark, he faced five families out for blood.*
 - **Keywords:** Flying, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4504 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mat/41/ob-nixilis-captive-kingpin) · oracle_id `55b6434b-1542-40fd-b12a-697d40976582` · printing: MAT #41 (2023-05-12) · [rulings](https://api.scryfall.com/cards/ddb68233-3683-41bd-9b6e-4f07a1b54244/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-05-12* — If you don't play the card, it will remain exiled.
+  - *2023-05-12* — Ob Nixilis's last ability looks at all combat damage dealt to an opponent in total to determine whether it triggers. For example, if three 1/1 creatures deal combat damage to an opponent, that player loses 3 life. Ob Nixilis's ability won't trigger.
+  - *2023-05-12* — Ob Nixilis's last ability will trigger if an opponent is dealt exactly 1 damage, pays exactly 1 life, or loses exactly 1 life some other way.
+  - *2023-05-12* — Playing the card exiled with Ob Nixilis follows the normal rules for playing that card. You must pay its costs, and you must follow all applicable timing rules. For example, if the card is a creature card, you can cast that card by paying its mana cost only during your main phase while the stack is empty.
+  - *2023-05-12* — Unless an effect allows you to play additional lands that turn, you can play a land card exiled with Ob Nixilis only if you haven't played a land yet that turn.
+  - *2023-05-12* — You may play the card exiled with Ob Nixilis even if Ob Nixilis leaves the battlefield or you lose control of it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mat/41/ob-nixilis-captive-kingpin) · oracle_id `55b6434b-1542-40fd-b12a-697d40976582` · printing: MAT #41 (2023-05-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ob Nixilis of the Black Oath
 
@@ -346,6 +391,7 @@
   > −8: You get an emblem with "{1}{B}, Sacrifice a creature: You gain X life and draw X cards, where X is the sacrificed creature's power."
   > Ob Nixilis of the Black Oath can be your commander.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9679 · Game Changer: no · Can be commander: Yes (Oracle text: "can be your commander")
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/176/ob-nixilis-of-the-black-oath) · oracle_id `cfc9a2f9-92fa-4608-b98d-f9763c89fc40` · printing: CMM #176 (2023-08-04) · [rulings](https://api.scryfall.com/cards/fb4e4509-ffd8-4fd0-a678-19c9975d571b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ob Nixilis Reignited
@@ -358,7 +404,9 @@
   > −3: Destroy target creature.
   > −8: Target opponent gets an emblem with "Whenever a player draws a card, you lose 2 life."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4403 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/152/ob-nixilis-reignited) · oracle_id `65481ae1-54b2-44d2-91e1-20cd486386da` · printing: DSC #152 (2024-09-27) · [rulings](https://api.scryfall.com/cards/5af237ad-9294-47f5-a338-f9ca4fce3e70/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2015-08-25* — The emblem created by Ob Nixilis Reignited's last ability is both owned and controlled by the target opponent. In a multiplayer game, if you own Ob Nixilis Reignited and use him to give one of your opponents an emblem, the emblem remains even if you leave the game.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/152/ob-nixilis-reignited) · oracle_id `65481ae1-54b2-44d2-91e1-20cd486386da` · printing: DSC #152 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ob Nixilis's Cruelty
 
@@ -383,7 +431,15 @@
   > −7: Target player draws seven cards and loses 7 life.
 - **Keywords:** Casualty
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8244 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/snc/206/ob-nixilis-the-adversary) · oracle_id `a6abb6af-7ea2-43f3-8718-2a077ad0c947` · printing: SNC #206 (2022-04-29) · [rulings](https://api.scryfall.com/cards/80226520-6b0a-48ea-a868-a29eb3fbd403/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2022-04-29* — As you cast a spell with casualty X, you choose whether to pay its casualty cost and what the value of X will be.
+  - *2022-04-29* — Casualty N means "As an additional cost to cast this spell, you may sacrifice a creature with power N or greater." and "When you cast this spell, if a casualty cost was paid for it, copy it. If the spell has any targets, you may choose new targets for the copy."
+  - *2022-04-29* — If you pay the casualty cost of a spell, the copy will resolve before the original spell.
+  - *2022-04-29* — The copied spell from Ob Nixilis, the Adversary's triggered ability copies exactly what is printed on Ob Nixilis, except its starting loyalty is equal to the chosen value of X and it isn't legendary. The copy becomes a token as it resolves.
+  - *2022-04-29* — The copy of the spell is created on the stack, so it's not "cast." Abilities that trigger when a player casts a spell won't trigger.
+  - *2022-04-29* — You can control exactly one legendary Ob Nixilis, the Adversary and any number of nonlegendary copies of Ob Nixilis, the Adversary.
+  - *2022-04-29* — You may sacrifice only one creature to pay a spell's casualty cost, and you copy the spell only once.
+- **Source flags:** [Scryfall](https://scryfall.com/card/snc/206/ob-nixilis-the-adversary) · oracle_id `a6abb6af-7ea2-43f3-8718-2a077ad0c947` · printing: SNC #206 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ob Nixilis, the Ascended
 
@@ -409,7 +465,11 @@
   > *His spark lost, he plots revenge upon the plane whose corrupting mana fractured his soul.*
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1947 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/192/ob-nixilis-the-fallen) · oracle_id `154104b7-4125-4276-8bc7-9a6edfe48cb9` · printing: TDC #192 (2025-04-11) · [rulings](https://api.scryfall.com/cards/dc9d3ada-9d0d-489a-89b7-08f53f6601e1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/192/ob-nixilis-the-fallen) · oracle_id `154104b7-4125-4276-8bc7-9a6edfe48cb9` · printing: TDC #192 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ob Nixilis, the Hate-Twisted
 
@@ -420,7 +480,10 @@
   > Whenever an opponent draws a card, Ob Nixilis deals 1 damage to that player.
   > −2: Destroy target creature. Its controller draws two cards.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4209 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/war/100/ob-nixilis-the-hate-twisted) · oracle_id `88cd12e5-ca89-4176-96fd-320fe2ccd087` · printing: WAR #100 (2019-05-03) · [rulings](https://api.scryfall.com/cards/14916e2d-73af-4747-a927-d2d4cb3e32db/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-05-03* — If Ob Nixilis leaves the battlefield before his last ability resolves, most likely because he only had 2 loyalty when you activated the ability, his first ability won't exist to trigger when the creature's controller draws two cards.
+  - *2019-05-03* — If the target creature is an illegal target by the time Ob Nixilis's last ability tries to resolve, the ability doesn't resolve. No player draws two cards. If the target is legal but not destroyed (most likely because it has indestructible), its controller does draw two cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/war/100/ob-nixilis-the-hate-twisted) · oracle_id `88cd12e5-ca89-4176-96fd-320fe2ccd087` · printing: WAR #100 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ob Nixilis, Unshackled
 
@@ -433,7 +496,11 @@
   > Whenever another creature dies, put a +1/+1 counter on Ob Nixilis.
 - **Keywords:** Flying, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4022 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/84/ob-nixilis-unshackled) · oracle_id `73021bd2-3b60-4fe4-8858-6eb525be1422` · printing: 2X2 #84 (2022-07-08) · [rulings](https://api.scryfall.com/cards/6c727f49-833a-4b79-9946-bfbc6b06999c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2014-07-18* — If the opponent controls no creatures when the first triggered ability resolves, that player still loses 10 life.
+  - *2014-07-18* — Ob Nixilis's first triggered ability won't trigger if you search an opponent's library or if an opponent searches another player's library.
+  - *2014-07-18* — The first triggered ability won't be put on the stack until after the spell or ability causing the opponent to search their library finishes resolving. Notably, if that spell or ability causes any other abilities to trigger (for example, if the opponent searched for a creature card and put it onto the battlefield), those abilities and Ob Nixilis's triggered ability will go on the stack together. The active player puts all of their abilities on the stack in any order, then each other player in turn order does the same. The last ability put onto the stack this way will be the first to resolve, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/84/ob-nixilis-unshackled) · oracle_id `73021bd2-3b60-4fe4-8858-6eb525be1422` · printing: 2X2 #84 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oboro Breezecaller
 
@@ -448,6 +515,7 @@
   > *—Eight-and-a-Half-Tails*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6127 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/48/oboro-breezecaller) · oracle_id `257ee9a0-5ee0-49c4-8619-e75e1134d7ac` · printing: SOK #48 (2005-06-03) · [rulings](https://api.scryfall.com/cards/a382a9b8-0b19-46c2-a547-a22d6e23d0ac/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oboro Envoy
@@ -472,6 +540,7 @@
 - **Flavor text** (SOK printing):
   > *Here the soratami wove their endless plots—graceful, artful, and deceitful, while the unwitting world moved below.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4983 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/164/oboro-palace-in-the-clouds) · oracle_id `645fb11b-d684-4bec-8532-8fa97e8f7b28` · printing: SOK #164 (2005-06-03) · [rulings](https://api.scryfall.com/cards/ffc2d68e-6543-43ec-b67a-afff1325a32f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Obosh, the Preypiercer
@@ -506,6 +575,7 @@
   > • Counter target instant or sorcery spell.
   > • Destroy target creature or planeswalker with mana value 3 or less.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8749 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/208/obscura-charm) · oracle_id `884eaa3f-b6af-4f0e-b0e7-cd40666986ce` · printing: SNC #208 (2022-04-29) · [rulings](https://api.scryfall.com/cards/9961562d-cad9-40e5-afae-3ebce77a2260/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Obscura Confluence
@@ -557,6 +627,7 @@
 - **Flavor text** (DSC printing):
   > *In volatile times, a sense of certainty is in high demand.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1698 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/291/obscura-storefront) · oracle_id `dc31a6f8-6228-4a25-b937-5d8d78514333` · printing: DSC #291 (2024-09-27) · [rulings](https://api.scryfall.com/cards/d8eaf8d2-8029-49d9-a94b-a72dc31fc81f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Obscuring Aether
@@ -579,7 +650,10 @@
 - **Flavor text** (CMM printing):
   > *Whether hunter or hunted, Kathril chooses when it is seen.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1493 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/308/obscuring-haze) · oracle_id `d0a31db0-69db-405c-99a3-945617900c54` · printing: CMM #308 (2023-08-04) · [rulings](https://api.scryfall.com/cards/21c8e59c-edf1-4b4d-982d-3c891e7b96ba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-04-17* — It doesn't matter whose commander you control. Any one will do. If you have two commanders, you just need to control one of them.
+  - *2020-04-17* — Once you begin casting this spell, players can't take any other actions until you're done casting it. Notably, they can't try to remove the commander you control to make you pay its cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/308/obscuring-haze) · oracle_id `d0a31db0-69db-405c-99a3-945617900c54` · printing: CMM #308 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Observant Alseid
 
@@ -605,7 +679,9 @@
   > Enchanted creature loses all abilities and can't attack or block.
 - **Keywords:** Enchant, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5273 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/40/observed-stasis) · oracle_id `0c729806-3a23-491e-847f-23a394d27291` · printing: FIC #40 (2025-06-13) · [rulings](https://api.scryfall.com/cards/6301c10c-8c27-4595-a0a7-30c621332b2c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-06-06* — Removing the enchanted creature from combat doesn't cause it to untap.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/40/observed-stasis) · oracle_id `0c729806-3a23-491e-847f-23a394d27291` · printing: FIC #40 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Obsessive Astronomer
 
@@ -628,7 +704,10 @@
   > When this enchantment enters and at the beginning of your upkeep, you lose 1 life and create a Clue token. (It's an artifact with "{2}, Sacrifice this token: Draw a card.")
   > Whenever you attack, put X +1/+1 counters on target attacking creature, where X is the number of permanents you've sacrificed this turn. If X is three or more, that creature gains lifelink until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5717 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/112/obsessive-pursuit) · oracle_id `7e7abb44-47b0-4d80-b8a1-36f0c1032aa3` · printing: TLA #112 (2025-11-21) · [rulings](https://api.scryfall.com/cards/e837e29c-d241-43c8-8f45-05056e082b60/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-10-02* — Clue tokens are artifact tokens with "{2}, Sacrifice this token: Draw a card."
+  - *2025-10-02* — Creating a Clue token this way isn't the same thing as investigating. Notably, an ability that triggers whenever you investigate won't trigger because of creating a Clue token this way.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/112/obsessive-pursuit) · oracle_id `7e7abb44-47b0-4d80-b8a1-36f0c1032aa3` · printing: TLA #112 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Obsessive Search
 
@@ -639,7 +718,17 @@
   > Madness {U} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
 - **Keywords:** Madness
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8091 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/61/obsessive-search) · oracle_id `116ee88e-9e13-4f21-bc6a-efa994b5bf75` · printing: DMR #61 (2023-01-13) · [rulings](https://api.scryfall.com/cards/1d97436e-329a-49a4-a7c9-671ec9ba90cc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2022-12-08* — A card with madness that's discarded counts as having been discarded even though it's put into exile rather than a graveyard. If it was discarded to pay a cost, that cost is still paid. Abilities that trigger when a card is discarded will still trigger.
+  - *2022-12-08* — A spell cast for its madness cost is put onto the stack like any other spell. It can be countered, copied, and so on. As it resolves, it's put onto the battlefield if it's a permanent card or into its owner's graveyard if it's an instant or sorcery card.
+  - *2022-12-08* — Cards are discarded in a Magic game only from a player's hand. Effects that put cards into a player's graveyard from anywhere else do not cause those cards to be discarded.
+  - *2022-12-08* — Casting a spell with madness ignores the timing rules based on the card's card type. For example, you can cast a sorcery with madness if you discard it during an opponent's turn.
+  - *2022-12-08* — If you choose not to cast a card with madness when the madness triggered ability resolves, it's put into your graveyard. Madness doesn't give you another chance to cast it later.
+  - *2022-12-08* — If you discard a card with madness to pay the cost of a spell or activated ability, that card's madness triggered ability (and the spell that card becomes, if you choose to cast it) will resolve before the spell or ability the discard paid for.
+  - *2022-12-08* — If you discard a card with madness while a spell or ability is resolving, it moves immediately to exile. Continue resolving that spell or ability, noting that the card you discarded is not in your graveyard at this time. Its madness triggered ability will be placed onto the stack once that spell or ability has completely resolved.
+  - *2022-12-08* — Madness works independently of why you're discarding the card. You could discard it to pay a cost, because a spell or ability tells you to, or because you have too many cards in your hand during your cleanup step. You can't discard a card with madness just because you want to, though.
+  - *2022-12-08* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a madness cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/61/obsessive-search) · oracle_id `116ee88e-9e13-4f21-bc6a-efa994b5bf75` · printing: DMR #61 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Obsessive Skinner
 
@@ -664,7 +753,10 @@
 - **Flavor text** (AFC printing):
   > *No one is as dedicated to perfection as a stitcher working on their latest masterpiece.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5901 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afc/189/obsessive-stitcher) · oracle_id `e8210145-a6ac-4f84-a74c-a5799c5e9434` · printing: AFC #189 (2021-07-23) · [rulings](https://api.scryfall.com/cards/d319c8a2-ae7b-4077-8b11-97937979fed2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-06-23* — Obsessive Stitcher can't be the target of its last ability.
+  - *2020-06-23* — You draw a card and discard a card all while Obsessive Stitcher's first ability is resolving. Nothing can happen between the two, and no player may choose to take actions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afc/189/obsessive-stitcher) · oracle_id `e8210145-a6ac-4f84-a74c-a5799c5e9434` · printing: AFC #189 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Obsianus Golem
 
@@ -815,6 +907,7 @@
   > *Obyra sleepwalks through the wilds, hunting for worthy opponents.*
 - **Keywords:** Flying, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3432 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/210/obyra-dreaming-duelist) · oracle_id `4162e60f-9d70-4b8c-a838-df57b83c208d` · printing: WOE #210 (2023-09-08) · [rulings](https://api.scryfall.com/cards/63ce03ee-279b-4955-98e3-9ce1990f8b7b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Obyra's Attendants // Desperate Parry

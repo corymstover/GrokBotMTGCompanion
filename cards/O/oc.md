@@ -34,7 +34,9 @@
 - **Flavor text** (FRC printing):
   > *In a single unending moment, a hundred lifetimes of knowledge coursed through his unraveling mind.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8203 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frc/43/occult-epiphany) · oracle_id `6df1c314-b97b-4bbc-8b7e-a07785347a49` · printing: FRC #43 (2026-10-02) · [rulings](https://api.scryfall.com/cards/e5fcfaff-2fd0-46d8-b863-ad25558c9e95/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-11-19* — The card types that you can discard include artifact, creature, enchantment, land, planeswalker, instant, and sorcery. Legendary, basic, and snow are supertypes, not card types. Human, Equipment, and Aura are subtypes, not card types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frc/43/occult-epiphany) · oracle_id `6df1c314-b97b-4bbc-8b7e-a07785347a49` · printing: FRC #43 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Occupation of Kulrath
 
@@ -82,7 +84,19 @@
   > At the beginning of your end step, if you gained life this turn, create a 1/1 white Cat creature token. Then if you have the city's blessing, for each token you control that entered this turn, create a token that's a copy of it.
 - **Keywords:** Lifelink, Ascend, First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1099 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/38/ocelot-pride) · oracle_id `b4ce2c8f-a19c-461e-8a2e-0ec2bd3ebca3` · printing: MH3 #38 (2024-06-14) · [rulings](https://api.scryfall.com/cards/89cf6f57-230f-497e-a14e-ad1e8737fd42/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2024-06-07* — A permanent is any object on the battlefield, including tokens and lands. Spells and emblems aren't permanents.
+  - *2024-06-07* — Any enters-the-battlefield abilities of tokens you create will trigger when they enter the battlefield. Any "As [this permanent] enters the battlefield" or "[This permanent] enters the battlefield with" abilities of the tokens will also work.
+  - *2024-06-07* — Ascend on a permanent isn't a triggered ability and doesn't use the stack. Players can respond to a spell that will give you your tenth permanent, but they can't respond to you getting the city's blessing once you control that tenth permanent. This means that if your tenth permanent is a land you play, players can't respond before you get the city's blessing.
+  - *2024-06-07* — Each of the token copies you create copies the original characteristics of the token it's copying as stated by the effect that created that token. The newly created token doesn't copy whether the original token is tapped or untapped, whether it has any counters on it, whether it has any Auras and/or Equipment attached to it, or any non-copy effects that changed its power, toughness, types, color, and so on.
+  - *2024-06-07* — If the creature token created by Ocelot Pride's last ability is your tenth permanent, you'll get the city's blessing before the ability would check to see if you have the city's blessing.
+  - *2024-06-07* — If the original token is copying something else, the token copy you create will use the copiable values of the original token. In most cases, it will be a copy of whatever the original token is copying. If it's copying a permanent or card with {X} in its mana cost, X is 0.
+  - *2024-06-07* — If you control ten permanents but don't control a permanent or resolving spell with ascend, you don't get the city's blessing. For example, if you control ten permanents, lose control of two, then cast Ocelot Pride, you won't have the city's blessing.
+  - *2024-06-07* — If your tenth permanent enters the battlefield and then a permanent leaves the battlefield immediately afterwards (most likely due to the "legend rule" or due to being a creature with 0 toughness), you get the city's blessing before it leaves the battlefield.
+  - *2024-06-07* — Ocelot Pride doesn't need to have been on the battlefield when you gained life. For example, if a creature with lifelink deals combat damage on your turn and you cast Ocelot Pride during your second main phase, its last ability will trigger at the beginning of your end step.
+  - *2024-06-07* — Ocelot Pride's last ability doesn't target any of the tokens.
+  - *2024-06-07* — Once you have the city's blessing, you have it for the rest of the game, even if you lose control of some or all your permanents. The city's blessing isn't a permanent itself and can't be removed by any effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/38/ocelot-pride) · oracle_id `b4ce2c8f-a19c-461e-8a2e-0ec2bd3ebca3` · printing: MH3 #38 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ochran Assassin
 
@@ -109,7 +123,9 @@
   > Split — When this creature dies, if it had two or more +1/+1 counters on it, create a token that's a copy of it at the beginning of the next end step. The token enters with half that many +1/+1 counters on it, rounded down.
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6682 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/196/ochre-jelly) · oracle_id `2b757d32-09a3-49cd-ada4-84b5335178ce` · printing: AFR #196 (2021-07-23) · [rulings](https://api.scryfall.com/cards/9f23cfb7-c6b6-4f04-abba-5b2a6117ea12/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-07-23* — For example, if Ochre Jelly had five +1/+1 counters on it when it dies, the token you create will enter the battlefield with two +1/+1 counters on it. When that token dies, the next one you create will enter with one +1/+1 counter on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/196/ochre-jelly) · oracle_id `2b757d32-09a3-49cd-ada4-84b5335178ce` · printing: AFR #196 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Octavia, Living Thesis
 
@@ -122,7 +138,14 @@
   > Magecraft — Whenever you cast or copy an instant or sorcery spell, target creature has base power and toughness 8/8 until end of turn.
 - **Keywords:** Magecraft, Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6154 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/103/octavia-living-thesis) · oracle_id `65681a2a-8395-4390-845f-9be974994dcb` · printing: OTC #103 (2024-04-19) · [rulings](https://api.scryfall.com/cards/e9591647-bad3-4015-90d1-1646a9eb4d14/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-04-16* —  Each magecraft ability has a different effect, although they all have the same trigger condition, whenever you cast or copy an instant or sorcery spell.
+  - *2021-04-16* —  For example, if you control Archmage Emeritus and cast an instant or sorcery spell, Archmage Emeritus's magecraft ability will trigger and you will draw a card.
+  - *2021-04-16* —  If an effect creates a copy of an instant or sorcery spell, this will also cause the magecraft ability to trigger.
+  - *2021-04-16* —  If an effect creates multiple copies of an instant or sorcery spell, magecraft abilities trigger once for each copy created by the effect.
+  - *2021-04-16* —  Some effects instruct you to copy an instant or sorcery card in a zone other than the stack. These copies do not cause magecraft abilities to trigger. However, most effects that do this also allow you to cast the copy, and casting the copy will cause magecraft abilities to trigger.
+  - *2021-04-16* — If a player casts a spell that targets multiple permanents their opponent controls with ward, each of those ward abilities will trigger. If that player doesn't pay for all of them, the spell will be countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/103/octavia-living-thesis) · oracle_id `65681a2a-8395-4390-845f-9be974994dcb` · printing: OTC #103 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Octomancer
 
@@ -134,7 +157,20 @@
   > At the beginning of each end step, create a token that's a copy of target creature token that entered the battlefield this turn.
 - **Keywords:** Gift
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4611 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blc/37/octomancer) · oracle_id `1cf7e5a0-cc8f-4bf7-9767-2f3bcae26339` · printing: BLC #37 (2024-08-02) · [rulings](https://api.scryfall.com/cards/f260197a-0297-4673-96de-dee915d79353/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2024-07-26* — Any "enters" abilities of the copied token will trigger when the token enters. Any "as [this permanent] enters" or "[this permanent] enters with" abilities of the copied token will also work.
+  - *2024-07-26* — As an additional cost to cast a spell with gift, you can promise the listed gift to an opponent. That opponent is chosen as part of that additional cost. The gift isn't given at this time; rather, it's given at a later time based on whether or not the spell is a permanent spell.
+  - *2024-07-26* — For instants and sorceries with gift, the gift is given to the appropriate opponent as part of the resolution of the spell. This happens before any of the spell's other effects would take place.
+  - *2024-07-26* — For permanent spells with gift, an ability triggers when that permanent enters if the gift was promised. When that ability resolves, the gift is given to the appropriate opponent.
+  - *2024-07-26* — If a spell for which the gift was promised is countered, doesn't resolve (perhaps because all of its targets are illegal), or is otherwise removed from the stack, the gift won't be given. None of its other effects will happen either.
+  - *2024-07-26* — If the copied token has {X} in its mana cost, X is 0.
+  - *2024-07-26* — If the copied token is copying something else (for example, if the copied token is one previously created by this ability), then the token enters as whatever that token copied.
+  - *2024-07-26* — If you copy a spell for which the gift was promised, the gift was also promised to the same opponent for the copy. If a card or token enters as a copy of a permanent that's already on the battlefield, the gift isn't promised for that new permanent, even if it was promised for the original.
+  - *2024-07-26* — In the main set, there are four different kinds of gifts. "Gift a Food" causes the chosen opponent to create a Food token, while "Gift a Treasure" causes the chosen opponent to create a Treasure token. "Gift a card" causes them to draw a card, and "Gift a tapped Fish" causes them to create a tapped 1/1 blue Fish creature token. The Commander decks contain two more kinds of gifts: "Gift an Octopus," which causes the chosen opponent to create an 8/8 blue Octopus creature token, and "Gift an extra turn," which causes them to take an extra turn after the current turn ends.
+  - *2024-07-26* — Some instant or sorcery spells require alternative or additional targets if the gift was promised. You ignore these targeting requirements if the gifts aren't promised for those spells. On the other hand, you can promise a gift for a permanent spell even if you won't be able to choose targets for an enters ability of that permanent once the spell resolves.
+  - *2024-07-26* — The token you create copies the original characteristics of the token as stated by the effect that created that token (unless that token is copying something else; see below). It doesn't copy whether that token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
+  - *2024-07-26* — You can't pay a gift cost more than once.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blc/37/octomancer) · oracle_id `1cf7e5a0-cc8f-4bf7-9767-2f3bcae26339` · printing: BLC #37 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Octo Opus
 
@@ -168,6 +204,7 @@
 - **Flavor text** (TLA printing):
   > *A skilled Waterbender is always well armed.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3136 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/66/octopus-form) · oracle_id `6fec368d-374d-4318-861b-ff478ba51a3c` · printing: TLA #66 (2025-11-21) · [rulings](https://api.scryfall.com/cards/ce96a826-53a0-4029-bf34-46779d133b13/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Octopus Umbra

@@ -108,6 +108,7 @@
   > When this creature enters, each opponent loses life equal to the number of Vampires you control. You gain life equal to the life lost this way.
 - **Keywords:** Flying, Protection
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3574 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/voc/131/malakir-bloodwitch) · oracle_id `870e199e-1d54-44ec-8e24-f24af93ae9c5` · printing: VOC #131 (2021-11-19) · [rulings](https://api.scryfall.com/cards/b91ceead-5071-43e8-bf90-f379d683acdf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Malakir Cullblade
@@ -265,7 +266,9 @@
   > Swampcycling {2} ({2}, Discard this card: Search your library for a Swamp card, reveal it, put it into your hand, then shuffle.)
 - **Keywords:** Landcycling, Bad Breath, Typecycling, Cycling, Swampcycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8940 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/106/malboro) · oracle_id `6804e329-800b-4aa4-9a00-b9a1f4b9537b` · printing: FIN #106 (2025-06-13) · [rulings](https://api.scryfall.com/cards/e46d8048-03ce-4e07-ba24-f41ba6140a4e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-06-06* — As Malboro's first ability resolves, the next opponent in turn order (or, if it's an opponent's turn, that opponent) chooses a card in hand without revealing it, then each other opponent in turn order does the same. Then the chosen cards are discarded at the same time. Next, each opponent loses 2 life at the same time. Finally, each opponent exiles the top three cards of their library simultaneously.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/106/malboro) · oracle_id `6804e329-800b-4aa4-9a00-b9a1f4b9537b` · printing: FIN #106 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Malcator, Purity Overseer
 
@@ -276,7 +279,9 @@
   > When Malcator enters, create a 3/3 colorless Phyrexian Golem artifact creature token.
   > At the beginning of your end step, if three or more artifacts entered the battlefield under your control this turn, create a 3/3 colorless Phyrexian Golem artifact creature token.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9668 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/208/malcator-purity-overseer) · oracle_id `0d1c6a82-943a-46bd-97ed-6055226ef2ab` · printing: ONE #208 (2023-02-10) · [rulings](https://api.scryfall.com/cards/36bda977-e5d1-4813-a5f5-265023965142/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-02-04* — Malcator will count any artifacts that entered the battlefield under your control during the turn, even if you didn't control Malcator at the time. Malcator won't count non-artifact permanents you controlled that became artifacts.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/208/malcator-purity-overseer) · oracle_id `0d1c6a82-943a-46bd-97ed-6055226ef2ab` · printing: ONE #208 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Malcator's Watcher
 
@@ -303,7 +308,13 @@
   > Whenever Malcolm deals combat damage to a player, put a chorus counter on it. Draw a card, then discard a card. If there are four or more chorus counters on Malcolm, you may cast the discarded card without paying its mana cost.
 - **Keywords:** Flying, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1577 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/63/malcolm-alluring-scoundrel) · oracle_id `3bba3b36-f8d7-4fd6-892a-797226210b6e` · printing: LCI #63 (2023-11-17) · [rulings](https://api.scryfall.com/cards/19d6834d-afa3-4747-a62d-0654f4d9729f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-11-10* — If Malcolm, Alluring Scoundrel isn't on the battlefield as its triggered ability resolves, you won't put a chorus counter on it, but you'll still draw a card and discard a card. You may still cast the discarded card without paying its mana cost if Malcolm had four or more chorus counters on it when it was last on the battlefield.
+  - *2023-11-10* — If the spell has {X} in its mana cost, you must choose 0 as the value of X.
+  - *2023-11-10* — If you cast a card "without paying its mana cost", you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those to cast the card.
+  - *2023-11-10* — If you cast a spell using Malcolm, Alluring Scoundrel's last ability, you do so as part of the resolution of the ability. You can't wait to cast the spell later in the turn. Timing permissions based on the card's type are ignored.
+  - *2023-11-10* — You may not play land cards discarded with Malcolm, Alluring Scoundrel's last ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/63/malcolm-alluring-scoundrel) · oracle_id `3bba3b36-f8d7-4fd6-892a-797226210b6e` · printing: LCI #63 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Malcolm, Keen-Eyed Navigator
 
@@ -316,7 +327,17 @@
   > Partner (You can have two commanders if both have partner.)
 - **Keywords:** Flying, Treasure, Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3210 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/161/malcolm-keen-eyed-navigator) · oracle_id `a66f8b44-0163-4456-b152-4acefab896a4` · printing: LCC #161 (2023-11-17) · [rulings](https://api.scryfall.com/cards/51187cdb-85ee-4f68-9e29-d84d296f0825/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2020-11-10* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2020-11-10* — Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+  - *2020-11-10* — If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+  - *2020-11-10* — If your Commander deck has two commanders, you can only include cards whose own color identities are also found in your commanders' combined color identities. If Falthis and Kediss are your commanders, your deck may contain cards with black and/or red in their color identity, but not cards with green, white, or blue.
+  - *2020-11-10* — Malcolm's triggered ability considers all damage dealt by Pirates you control to opponents, not just combat damage.
+  - *2020-11-10* — Malcolm's triggered ability will trigger even if Pirates you control deal damage to only a single opponent. A single Treasure for you. Yarrr.
+  - *2020-11-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from any one of them, not from both of them combined.
+  - *2020-11-10* — To have two commanders, both must have the partner ability as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
+  - *2020-11-10* — You can choose two commanders with partner that are the same color or colors. In Commander Draft, you can even choose two of the same commander with partner if you drafted them. If you do this, make sure you keep the number of times you've cast each from the command zone clear for "commander tax" purposes.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/161/malcolm-keen-eyed-navigator) · oracle_id `a66f8b44-0163-4456-b152-4acefab896a4` · printing: LCC #161 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Malcolm, the Eyes
 
@@ -330,7 +351,9 @@
   > *"It's funny how rarely folks here think to look up."*
 - **Keywords:** Flying, Investigate, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7747 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/219/malcolm-the-eyes) · oracle_id `7932ab35-39dc-4500-aa44-2ad7228f0d2a` · printing: OTJ #219 (2024-04-19) · [rulings](https://api.scryfall.com/cards/521dffaa-813b-41e4-b7c2-a8c407167875/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-04-12* — Spells that were cast before Malcolm entered the battlefield count. If Malcolm was the first spell you cast this turn, the next spell you cast this turn is your second spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/219/malcolm-the-eyes) · oracle_id `7932ab35-39dc-4500-aa44-2ad7228f0d2a` · printing: OTJ #219 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Malefic Scythe
 
@@ -387,7 +410,15 @@
   > *All his old grudges suddenly seemed laughably petty. So he laughed.*
 - **Keywords:** Flying, Transform, Disturb
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4390 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mid/61/malevolent-hermit-benevolent-geist) · oracle_id `51233ade-70cd-4539-9f41-5ffab761da54` · printing: MID #61 (2021-09-24) · [rulings](https://api.scryfall.com/cards/e79269af-63eb-43d2-afee-c38fa14a0c5b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2021-09-24* — "Disturb [cost]" means "You may cast this card transformed from your graveyard by paying [cost] rather than its mana cost."
+  - *2021-09-24* — A spell cast this way enters the battlefield with its back face up.
+  - *2021-09-24* — Disturb is found only on the front faces of some double-faced cards.
+  - *2021-09-24* — If you copy a permanent spell cast this way (perhaps with a card like Double Major), the copy becomes a token that's a copy of the card's back face, even though it isn't itself a double-faced card.
+  - *2021-09-24* — The back face of each card with disturb has an ability that instructs its controller to exile if it would be put into a graveyard from anywhere. This includes going to the graveyard from the stack, so if the spell is countered after you cast it using the disturb ability, it will be put into exile.
+  - *2021-09-24* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a disturb cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of a spell cast using disturb is determined by the mana cost on the front face of the card, no matter what the total cost to cast the spell was. (This is a special rule that applies only to nonmodal double faced-cards, including ones with disturb.)
+  - *2021-09-24* — When you cast a spell using a card's disturb ability, the card is put onto the stack with its back face up. The resulting spell has all the characteristics of that face.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mid/61/malevolent-hermit-benevolent-geist) · oracle_id `51233ade-70cd-4539-9f41-5ffab761da54` · printing: MID #61 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Malevolent Noble
 
@@ -410,6 +441,7 @@
 - **Flavor text** (MH3 printing):
   > *What emerged from Turntimber was even more twisted than the forest itself.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3013 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/161/malevolent-rumble) · oracle_id `d30d8968-ec24-4155-97e2-28efd52c8810` · printing: MH3 #161 (2024-06-14) · [rulings](https://api.scryfall.com/cards/a178cfe8-f9fa-4255-88d0-54a0bed079f5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Malevolent Whispers
@@ -504,7 +536,10 @@
   > *—Byro, plague doctor*
 - **Keywords:** Morbid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9021 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ema/96/malicious-affliction) · oracle_id `18f22cc4-e10b-4af0-9c1f-d7d15dbcce63` · printing: EMA #96 (2016-06-10) · [rulings](https://api.scryfall.com/cards/127f3f4d-93f4-4e52-b3c1-325c3981e0e1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2016-06-08* — The copy of Malicious Affliction is created on the stack. It’s not cast, so the copy won’t cause the morbid ability to trigger again.
+  - *2016-06-08* — The copy will have the same target as the original spell unless you choose a new one. You don’t have to change this target if you don’t want to or can’t choose a new legal target (perhaps because there are no other nonblack creatures on the battlefield).
+- **Source flags:** [Scryfall](https://scryfall.com/card/ema/96/malicious-affliction) · oracle_id `18f22cc4-e10b-4af0-9c1f-d7d15dbcce63` · printing: EMA #96 (2016-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Malicious Eclipse
 
@@ -565,7 +600,9 @@
 - **Flavor text** (AVR printing):
   > *It descended on Estwald like a sudden storm. Moments later, only ashes and agony remained.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7422 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/avr/148/malignus) · oracle_id `f90174b3-effc-4c81-8cb0-856a0646516d` · printing: AVR #148 (2012-05-04) · [rulings](https://api.scryfall.com/cards/8a6a7000-4a1d-4cd4-a85e-4b7b20d8e543/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2012-05-01* — If Malignus becomes blocked by a creature with protection from red, the damage Malignus deals to that creature won't be prevented.
+- **Source flags:** [Scryfall](https://scryfall.com/card/avr/148/malignus) · oracle_id `f90174b3-effc-4c81-8cb0-856a0646516d` · printing: AVR #148 (2012-05-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Malik, Grim Manipulator
 
@@ -590,4 +627,12 @@
   > You may have this creature enter as a copy of a creature an opponent controls, except it's a Faerie Shapeshifter in addition to its other types and it has flying.
 - **Keywords:** Flying, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4589 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woc/10/malleable-impostor) · oracle_id `acd209d1-37e9-4713-b320-ee52854790bb` · printing: WOC #10 (2023-09-08) · [rulings](https://api.scryfall.com/cards/ad0fc934-f49d-4607-a52b-aea5c1d5d342/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-09-01* — Any enters-the-battlefield abilities of the copied permanent will trigger when Malleable Impostor enters the battlefield. Any "as [this permanent] enters the battlefield" or "[this permanent] enters the battlefield with" abilities of the chosen permanent will also work.
+  - *2023-09-01* — Except for the listed exceptions, Malleable Impostor copies exactly what was printed on the original permanent and nothing more (unless that permanent is itself copying something or is a token; see below). It doesn't copy whether that permanent is tapped or untapped, whether it has any counters on it or Auras attached to it, or any noncopy effects that have changed its power, toughness, types, color, and so on.
+  - *2023-09-01* — If Malleable Impostor somehow enters the battlefield at the same time as another creature, Malleable Impostor can't become a copy of that creature. You may choose only a creature that's already on the battlefield.
+  - *2023-09-01* — If the chosen permanent has {X} in its mana cost, X is 0.
+  - *2023-09-01* — If the chosen permanent is a token, Malleable Impostor copies the original characteristics of that token as stated by the effect that put the token onto the battlefield, with the listed exceptions. Malleable Impostor does not become a token.
+  - *2023-09-01* — If the chosen permanent is copying something else (for example, if the chosen permanent is a Clone), then your Malleable Impostor enters the battlefield as whatever the chosen permanent copied, with the stated exceptions.
+  - *2023-09-01* — You can choose not to copy anything. In that case, Malleable Impostor simply enters the battlefield as a 0/0 creature and is probably put into your graveyard immediately, unless something else is increasing its toughness to keep it alive.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woc/10/malleable-impostor) · oracle_id `acd209d1-37e9-4713-b320-ee52854790bb` · printing: WOC #10 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -20,4 +20,17 @@
   > Create Undead — Whenever you complete a dungeon, return target creature card from your graveyard to the battlefield.
 - **Keywords:** Venture into the dungeon
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8328 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/afc/3/sefris-of-the-hidden-ways) · oracle_id `9b21e056-57e7-4e39-b2b4-2fdf8719d0d2` · printing: AFC #3 (2021-07-23) · [rulings](https://api.scryfall.com/cards/d30255f6-e058-476a-b377-2ee4c9178ed1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2021-07-23* — A player may only have one dungeon in the command zone at a time.
+  - *2021-07-23* — Choosing the dungeon or room to venture into is part of resolving the venture into the dungeon keyword action. Once that choice is made, players may not respond until after the appropriate room ability has triggered.
+  - *2021-07-23* — Dungeon cards are not part of a player's deck or sideboard. In both constructed and limited formats, players can use any dungeon card when they venture into the dungeon.
+  - *2021-07-23* — Dungeons are removed from the game as a state-based action.
+  - *2021-07-23* — If you somehow venture into the dungeon while a room's ability is on the stack, you will continue on in the dungeon. If you're already in the last room, complete that dungeon and start a new one.
+  - *2021-07-23* — Moving into a dungeon room will cause its room ability to trigger.
+  - *2021-07-23* — Once you resolve the last room ability of a dungeon, that dungeon is now completed and is removed from the game.
+  - *2021-07-23* — Sefris of the Hidden Ways' first ability looks only at the type the card has in the graveyard, not the type it had in any other zone. For example, animated lands dying won't cause the ability to trigger. The opposite is also true. For example, if a creature that was cast as an Adventure is countered, it's a creature card in the graveyard and the first ability will trigger.
+  - *2021-07-23* — The player venturing into the dungeon chooses which dungeon they will venture into. They may choose a dungeon that they have already completed this game.
+  - *2021-07-23* — To venture into the dungeon, a player moves their venture marker into the next room of the dungeon they are currently in. If they aren't currently in a dungeon, that player instead chooses a dungeon card from outside the game, puts it into the command zone, and moves their venture marker onto the first room.
+  - *2021-07-23* — You can only move forward (well, downward) in a dungeon, never backwards or sideways.
+  - *2021-09-24* — Sefris of the Hidden Ways must be on the battlefield for its first ability to trigger. It does not trigger when Sefris goes to the graveyard from the battlefield, even if other creature cards also went to the graveyard at the same time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afc/3/sefris-of-the-hidden-ways) · oracle_id `9b21e056-57e7-4e39-b2b4-2fdf8719d0d2` · printing: AFC #3 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

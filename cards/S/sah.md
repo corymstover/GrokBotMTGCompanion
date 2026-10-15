@@ -60,7 +60,11 @@
   > −4: You get an emblem with "Artifact creatures you control get +1/+1" and "Artifact spells you cast cost {1} less to cast."
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9636 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/219/saheeli-filigree-master) · oracle_id `68cf7415-b434-4284-89b4-c7d44a003eb8` · printing: BRO #219 (2022-11-18) · [rulings](https://api.scryfall.com/cards/a3657562-323c-40d0-a261-d029ed549695/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-10-14* — For the first ability, you don't choose which artifact to tap until the ability resolves.
+  - *2022-10-14* — If you manage to activate Saheeli's last ability multiple times, each emblem you get is applied independently. For example, if you have two of those emblems, artifact creatures you control get +2/+2 and artifact spells you cast cost {2} less.
+  - *2022-10-14* — The cost reduction provided by Saheeli's emblem can never reduce the colored mana costs of an artifact spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/219/saheeli-filigree-master) · oracle_id `68cf7415-b434-4284-89b4-c7d44a003eb8` · printing: BRO #219 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saheeli, Jewel of Avishkar
 
@@ -84,7 +88,20 @@
   > Whenever you cast an Artificer or artifact spell, you get {E} (an energy counter).
   > At the beginning of combat on your turn, you may pay {E}{E}{E}. When you do, create a token that's a copy of target permanent you control, except it's a 5/5 artifact creature in addition to its other types and has haste. Sacrifice it at the beginning of the next end step.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9875 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/drc/3/saheeli-radiant-creator) · oracle_id `20f602b3-814f-406c-b7eb-2d1fc98f8cf1` · printing: DRC #3 (2025-02-14) · [rulings](https://api.scryfall.com/cards/5fea0781-e933-47ef-9414-92c8652a7778/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2025-02-07* — Any abilities of the copied permanent that trigger when that permanent enters will trigger. Any “as [this permanent] enters” or “[this permanent] enters with” abilities of the chosen permanent will also work.
+  - *2025-02-07* — Energy counters are a kind of counter that a player may have. They’re not associated with any specific permanents.
+  - *2025-02-07* — Energy counters aren’t mana. They don’t go away as steps, phases, and turns end, and effects that add mana “of any type” can’t give you energy counters.
+  - *2025-02-07* — If an effect says you get one or more {E}, you get that many energy counters. To pay one or more {E}, you lose that many energy counters. You can’t pay more energy counters than you have. Any effects that interact with counters a player gets, has, or loses can interact with energy counters.
+  - *2025-02-07* — If the copied permanent has {X} in its mana cost, X is 0.
+  - *2025-02-07* — If the copied permanent is copying something else, then the token enters the battlefield as whatever that permanent copied.
+  - *2025-02-07* — Keep track of how many energy counters each player has. Potential ways to track this include writing them down on paper or using dice, but any method that is clear and mutually agreeable is fine.
+  - *2025-02-07* — Some spells and abilities say that you “may pay” a certain amount of {E}, then describes an effect that happens “if you do.” In that case, no player may take actions to try to stop the ability’s effect after you make your choice. If the payment is instead followed by the phrase “when you do” followed by an effect, then after you choose to pay {E}, a new triggered ability called a reflexive trigger is put on the stack, and you choose targets for the reflexive trigger (if the effect asks for targets). Players may respond as normal to this new triggered ability. Once that reflexive trigger resolves, the effect will finally occur.
+  - *2025-02-07* — Some spells and abilities say that you “may pay” a certain amount of {E}. You can’t pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
+  - *2025-02-07* — Some spells and abilities which give you {E} or say you “may pay” some amount of {E} require one or more targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won’t resolve. None of its effects will happen, you won’t get any {E} from it, and you won’t get the chance to pay any {E} for its effects even if you want to.
+  - *2025-02-07* — The token you create copies the original characteristics of the permanent as printed on the card or, for a token, as stated by the effect that created that token (unless it’s copying something else; see below). It doesn’t copy whether that permanent is tapped or untapped, whether it has any counters on it or Auras or Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+  - *2025-02-07* — {E} is the energy symbol. It represents one energy counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/drc/3/saheeli-radiant-creator) · oracle_id `20f602b3-814f-406c-b7eb-2d1fc98f8cf1` · printing: DRC #3 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saheeli Rai
 
@@ -97,7 +114,16 @@
   > −7: Search your library for up to three artifact cards with different names, put them onto the battlefield, then shuffle.
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7987 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/kld/186/saheeli-rai) · oracle_id `5f3fe679-aff1-41b3-8d75-c78c2c0636f0` · printing: KLD #186 (2016-09-30) · [rulings](https://api.scryfall.com/cards/94b38464-39cd-4ee6-b9bf-a0bc1e128d9a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2016-09-20* — Any enters-the-battlefield abilities of the copied permanent will trigger when the token enters the battlefield. Any “as [this permanent] enters the battlefield” or “[this permanent] enters the battlefield with” abilities of the chosen permanent will also work.
+  - *2016-09-20* — As Saheeli's last ability resolves, all three artifacts enter the battlefield at the same time. Triggered abilities of any of those artifacts will see all three entering the battlefield. Replacement effects, such as that of Sculpting Steel, won't see the others on the battlefield as they are being applied.
+  - *2016-09-20* — If the copied permanent has {X} in its mana cost, X is considered to be 0.
+  - *2016-09-20* — If the copied permanent is a token, the token created with Saheeli copies the original characteristics of that token as stated by the effect that created that token.
+  - *2016-09-20* — If the copied permanent is copying something else (for example, if the copied permanent is an Altered Ego), then the token enters the battlefield as whatever that permanent copied.
+  - *2016-09-20* — In a Two-Headed Giant game, Saheeli's first ability causes 2 damage total to be dealt to the opposing team.
+  - *2016-09-20* — The token copies exactly what was printed on the original permanent and nothing else (unless that permanent is copying something else or is a token; see below). It doesn't copy whether that permanent is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
+  - *2016-09-20* — The token is an artifact in addition to its other types. This is a copiable value of the token that other effects may copy. Haste and the ability's delayed triggered ability aren't copiable.
+- **Source flags:** [Scryfall](https://scryfall.com/card/kld/186/saheeli-rai) · oracle_id `5f3fe679-aff1-41b3-8d75-c78c2c0636f0` · printing: KLD #186 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saheeli's Artistry
 
@@ -110,7 +136,17 @@
 - **Flavor text** (MOC printing):
   > *"From the first touch, I know exactly what the metal wants to be."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7435 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/234/saheelis-artistry) · oracle_id `0038e74a-b950-47ff-8853-dba6a3b31091` · printing: MOC #234 (2023-04-21) · [rulings](https://api.scryfall.com/cards/4cdfb468-e475-47e6-80f5-190c9b206e70/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2016-09-20* — Any abilities that trigger during the resolution of Saheeli's Artistry will wait to be put onto the stack until Saheeli's Artistry finishes resolving. An ability that triggers on the first token entering the battlefield may target the second token and vice versa.
+  - *2016-09-20* — Any enters-the-battlefield abilities of the copied permanent will trigger when the token enters the battlefield. Any “as [this permanent] enters the battlefield” or “[this permanent] enters the battlefield with” abilities of the chosen permanent will also work.
+  - *2016-09-20* — If the copied permanent has {X} in its mana cost, X is considered to be 0.
+  - *2016-09-20* — If the copied permanent is a token, the token created with Saheeli's Artistry copies the original characteristics of that token as stated by the effect that that created that token.
+  - *2016-09-20* — If the copied permanent is copying something else (for example, if the copied permanent is an Altered Ego), then the token enters the battlefield as whatever that permanent copied.
+  - *2016-09-20* — If you choose both modes, the tokens enter one at a time. Thus, if the token created by the second mode has an ability that triggers “whenever an artifact enters the battlefield,” the token created by the first mode will already be on the battlefield and won't cause that ability to trigger.
+  - *2016-09-20* — If you choose both modes, you may target a single artifact creature twice and get two copies of that artifact creature.
+  - *2016-09-20* — If you chose the second mode, the token is an artifact in addition to its other types. This is a copiable value of the token that other effects may copy.
+  - *2016-09-20* — The token copies exactly what was printed on the original permanent and nothing else (unless that permanent is copying something else or is a token; see below). It doesn't copy whether that permanent is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/234/saheelis-artistry) · oracle_id `0038e74a-b950-47ff-8853-dba6a3b31091` · printing: MOC #234 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saheeli's Directive
 
@@ -161,7 +197,16 @@
   > Whenever you cast a noncreature spell, create a 1/1 colorless Servo artifact creature token.
   > −2: Target artifact you control becomes a copy of another target artifact or creature you control until end of turn, except it's an artifact in addition to its other types.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2503 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/935/saheeli-sublime-artificer) · oracle_id `ab655810-f67e-4576-9174-35b16f5e3235` · printing: CMM #935 (2023-08-04) · [rulings](https://api.scryfall.com/cards/ce35a39a-6dcd-4bbc-b43b-bd1a5425cb05/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2019-05-03* — If an effect begins to apply to the target artifact before it becomes a copy of another permanent, that effect will continue to apply.
+  - *2019-05-03* — If the target artifact becomes a creature the same turn it enters the battlefield, you can't attack with it or use any of its {T} abilities unless it has haste.
+  - *2019-05-03* — If the target artifact copies a permanent that's copying something else, it will become whatever the target is copying.
+  - *2019-05-03* — If the target artifact is an Equipment attached to a creature and it becomes a copy of a non-Equipment permanent, it becomes unattached. If it becomes a copy of an Equipment, it remains attached.
+  - *2019-05-03* — If the target artifact isn't an Equipment and becomes a copy of an Equipment, it'll become unattached when it becomes a non-Equipment artifact again.
+  - *2019-05-03* — Saheeli's first ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+  - *2019-05-03* — Saheeli's loyalty ability causes the target artifact to copy the printed values of the target permanent, plus any copy effects that have been applied to it. It won't copy counters on that permanent or effects that have changed its power, toughness, types, color, or so on. Notably, it won't copy effects that made the target permanent become a creature.
+  - *2019-05-03* — The target artifact is an artifact in addition to whatever types the second target has, and this exception is copiable. If something else copies the artifact later in the turn, that copy also will be an artifact.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/935/saheeli-sublime-artificer) · oracle_id `ab655810-f67e-4576-9174-35b16f5e3235` · printing: CMM #935 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saheeli, the Gifted
 
@@ -186,7 +231,13 @@
 - **Flavor text** (LCI printing):
   > *What began as a single gift for Huatli became a battalion of automatons unlike anything ever seen on Ixalan.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5066 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/239/saheeli-the-suns-brilliance) · oracle_id `5aa76c5d-8046-42ce-b61d-cc9b4806c11a` · printing: LCI #239 (2023-11-17) · [rulings](https://api.scryfall.com/cards/0ba99b60-c7d0-4041-a065-f2c510745223/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-11-10* — Any enters-the-battlefield abilities of the copied permanent will trigger when the token enters the battlefield. Any "as [this permanent] enters the battlefield" or "[this permanent] enters the battlefield with" abilities of the target permanent will also work.
+  - *2023-11-10* — If the copied permanent has {X} in its mana cost, X is 0.
+  - *2023-11-10* — If the copied permanent is a token, the new token that's created copies the original characteristics of that token as stated by the effect that created the token (with the listed exceptions).
+  - *2023-11-10* — If the copied permanent is copying something else, then the token enters the battlefield as whatever that permanent copied (with the listed exceptions).
+  - *2023-11-10* — The token copies exactly what was printed on the original permanent, with the listed exceptions (unless that permanent is copying something else or is a token; see below). It doesn't copy whether that permanent is tapped or untapped, whether it has any counters on it or any Auras or Equipment attached to it, or any non-copy effects that have changed its types, color, power and toughness, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/239/saheeli-the-suns-brilliance) · oracle_id `5aa76c5d-8046-42ce-b61d-cc9b4806c11a` · printing: LCI #239 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sahir, Visitor in Darkness
 

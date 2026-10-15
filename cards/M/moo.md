@@ -82,6 +82,7 @@
   > *"Thanks, moogles! We're in your debt!"*
   > *—Locke Cole*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4353 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/27/moogles-valor) · oracle_id `9627ed9a-5ade-412d-bf8d-f0705b1c9405` · printing: FIN #27 (2025-06-13) · [rulings](https://api.scryfall.com/cards/caa838a7-60a9-4791-af5b-194f7574c4c8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moonblade Shinobi
@@ -94,7 +95,14 @@
   > Whenever this creature deals combat damage to a player, create a 1/1 blue Illusion creature token with flying.
 - **Keywords:** Ninjutsu
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9754 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/59/moonblade-shinobi) · oracle_id `046e25ee-c96d-4cff-93be-f7e3379d713c` · printing: MH1 #59 (2019-06-14) · [rulings](https://api.scryfall.com/cards/f4ab7f30-ca75-4656-9738-1d965f18a22d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2019-06-14* — Although the Ninja is attacking, it was never declared as an attacking creature (for purposes of abilities that trigger whenever a creature attacks, for example).
+  - *2019-06-14* — As you activate a ninjutsu ability, you reveal the Ninja card in your hand and return the attacking creature. The Ninja isn’t put onto the battlefield until the ability resolves. If it leaves your hand before then, it won’t enter the battlefield at all.
+  - *2019-06-14* — If a creature in combat has first strike or double strike, you can activate the ninjutsu ability during the first-strike combat damage step. The Ninja will deal combat damage during the regular combat damage step, even if it has first strike.
+  - *2019-06-14* — The creature with ninjutsu enters the battlefield attacking the same player or planeswalker that the returned creature was attacking. This is a rule specific to ninjutsu; in other cases, when a creature is put onto the battlefield attacking, that creature’s controller chooses which player or planeswalker it’s attacking.
+  - *2019-06-14* — The ninjutsu ability can be activated during the declare blockers step, combat damage step, or end of combat step. If you wait until after the declare blockers step, because all combat damage is dealt at once, the Ninja won’t normally deal combat damage.
+  - *2019-06-14* — The ninjutsu ability can be activated only after blockers have been declared. Before then, attacking creatures are neither blocked nor unblocked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/59/moonblade-shinobi) · oracle_id `046e25ee-c96d-4cff-93be-f7e3379d713c` · printing: MH1 #59 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moon-Blessed Cleric
 
@@ -106,6 +114,7 @@
 - **Flavor text** (DSC printing):
   > *"Sometimes, we must make our own path through the darkness."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1950 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/69/moon-blessed-cleric) · oracle_id `89ed0598-a3ee-4d14-9a35-25e0dd80d9fb` · printing: DSC #69 (2024-09-27) · [rulings](https://api.scryfall.com/cards/0555e095-8c6f-4436-80fe-99b641fad2df/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moonbow Illusionist
@@ -143,7 +152,15 @@
   > Whenever this creature deals combat damage to a player, you may draw a card. If you do, discard a card unless this creature entered this turn.
 - **Keywords:** Ninjutsu
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3670 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/67/moon-circuit-hacker) · oracle_id `7cd8b017-8d59-4b55-bb9a-8d8e492ef1ac` · printing: NEO #67 (2022-02-18) · [rulings](https://api.scryfall.com/cards/c6e466d1-943d-41e6-a47d-c9d951ca4262/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2022-02-18* — Although the Ninja is attacking, it was never declared as an attacking creature (for purposes of abilities that trigger whenever a creature attacks, for example).
+  - *2022-02-18* — As you activate a ninjutsu ability, you reveal the Ninja card in your hand and return the attacking creature. The Ninja card stays revealed and isn't put onto the battlefield until the ability resolves. If it leaves your hand before then, it won't enter the battlefield at all.
+  - *2022-02-18* — If a creature in combat has first strike or double strike, you can activate the ninjutsu ability during the first-strike combat damage step. The Ninja will deal combat damage during the regular combat damage step, even if it has first strike.
+  - *2022-02-18* — Puff of smoke not included.
+  - *2022-02-18* — The creature with ninjutsu enters the battlefield attacking the same player or planeswalker that the returned creature was attacking. This is a rule specific to ninjutsu; in other cases, when a creature is put onto the battlefield attacking, that creature's controller chooses which player or planeswalker it's attacking.
+  - *2022-02-18* — The ninjutsu ability can be activated during the declare blockers step, combat damage step, or end of combat step. In most cases (see below), if you wait until the combatdamage step or end of combat step, it will be after combat damage has been dealt, so the Ninja won't deal combat damage.
+  - *2022-02-18* — The ninjutsu ability can be activated only after blockers have been declared. Before then, attacking creatures are neither blocked nor unblocked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/67/moon-circuit-hacker) · oracle_id `7cd8b017-8d59-4b55-bb9a-8d8e492ef1ac` · printing: NEO #67 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moon-Eating Dog
 
@@ -297,6 +314,7 @@
 - **Flavor text** (INR printing):
   > *Courage alone won't keep you alive.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9061 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/209/moonlight-hunt) · oracle_id `f38a6cb4-79dd-4c12-9896-8c6655e275f8` · printing: INR #209 (2025-01-24) · [rulings](https://api.scryfall.com/cards/6d36aecd-4bd8-4350-9161-e6feecc09bb9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moonlit Lamenter
@@ -324,7 +342,13 @@
   > *—\*Drix Codex\*, line 1*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4739 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/69/moonlit-meditation) · oracle_id `df702b0c-e011-497f-ae29-9876efac4a4c` · printing: EOE #69 (2025-08-01) · [rulings](https://api.scryfall.com/cards/f2a56007-5bca-4edf-9cc4-5f77a273636c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-07-25* — If the enchanted permanent is legendary, the copies will also be legendary. If this results in you controlling more than one legendary permanent with the same name, you’ll put all but one of them into their owner’s graveyard.
+  - *2025-07-25* — If you choose not to apply the replacement effect, you will not get the choice to apply it again until the next turn.
+  - *2025-07-25* — If you create one or more tokens, and then Moonlit Meditation comes under your control that same turn, the replacement effect won’t apply to any tokens you create for the rest of the turn. You’ll have to wait until the next turn.
+  - *2025-07-25* — The effect of Moonlit Meditation’s last ability applies before anything that modifies how those tokens enter the battlefield.
+  - *2025-07-25* — The effect of Moonlit Meditation’s last ability can apply to any token, not just artifact or creature tokens. For example, you could replace creating a Shard token (a predefined enchantment token) with creating a copy of the enchanted permanent.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/69/moonlit-meditation) · oracle_id `df702b0c-e011-497f-ae29-9876efac4a4c` · printing: EOE #69 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moonlit Scavengers
 
@@ -370,7 +394,11 @@
   > Transform all Humans. Prevent all combat damage that would be dealt this turn by creatures other than Werewolves and Wolves. (Only double-faced cards can be transformed.)
 - **Keywords:** Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4553 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/isd/195/moonmist) · oracle_id `2c306e87-e3c8-4066-9be5-570e2f2d6bad` · printing: ISD #195 (2011-09-30) · [rulings](https://api.scryfall.com/cards/57153c3f-9e55-418c-b67b-36901f29f9c1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2011-09-22* — Moonmist causes any double-faced Human to transform, not just Werewolves.
+  - *2011-09-22* — Moonmist will prevent combat damage dealt by a creature that isn’t a Werewolf or a Wolf even if that creature wasn’t on the battlefield (or was a Werewolf or a Wolf) when Moonmist resolved.
+  - *2011-09-22* — Whether or not a creature is a Werewolf or a Wolf is checked only as combat damage is dealt. If the creature isn’t a Werewolf or a Wolf at that time, its combat damage will be prevented.
+- **Source flags:** [Scryfall](https://scryfall.com/card/isd/195/moonmist) · oracle_id `2c306e87-e3c8-4066-9be5-570e2f2d6bad` · printing: ISD #195 (2011-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moonrager's Slash
 
@@ -430,6 +458,7 @@
   > Whenever one or more permanent cards are put into your graveyard from anywhere while this creature has a -1/-1 counter on it, remove a -1/-1 counter from this creature.
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8177 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/110/moonshadow) · oracle_id `a3635b3f-839c-4fe5-83a5-7c70e8630184` · printing: ECL #110 (2026-01-23) · [rulings](https://api.scryfall.com/cards/2573e694-eaa0-42ca-b470-2ab507cbcec1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moonshae Pixie // Pixie Dust
@@ -457,7 +486,10 @@
   > *"Conflict guided our lives and placed blades in our hands. Even after death, we know nothing else."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1188 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/110/moonshaker-cavalry) · oracle_id `b3f16f34-d78c-4b61-821b-05fc6bd0da37` · printing: SOC #110 (2026-04-24) · [rulings](https://api.scryfall.com/cards/ca90d382-7e13-4637-a624-2a1b82abe56c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-09-01* — Moonshaker Cavalry's triggered ability affects only creatures you control at the time it resolves. Creatures you begin to control later in the turn won't be affected.
+  - *2023-09-01* — The value of X is determined only as Moonshaker Cavalry's triggered ability resolves, potentially including Moonshaker Cavalry itself. It won't change later in the turn if the number of creatures you control changes.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/110/moonshaker-cavalry) · oracle_id `b3f16f34-d78c-4b61-821b-05fc6bd0da37` · printing: SOC #110 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moonsilver Key
 
@@ -468,7 +500,10 @@
 - **Flavor text** (MID printing):
   > *To restore the day-night balance, the Celestus mechanism's Sungold Lock must be reunited with its long-lost key.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1696 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mid/255/moonsilver-key) · oracle_id `373395b2-f04b-46c9-b9f4-4f6815b71009` · printing: MID #255 (2021-09-24) · [rulings](https://api.scryfall.com/cards/87778e37-af92-402e-b037-5fbd6112b682/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-09-24* — Most mana abilities found on artifacts are activated mana abilities. An activated mana ability is an activated ability that could produce mana as it resolves, does not require a target, and isn't a loyalty ability.
+  - *2021-09-24* — Some artifacts, such as Gauntlet of Power, have triggered mana abilities. A triggered mana ability is a triggered ability that could produce mana as it resolves, triggers on the resolution of an activated mana ability or on mana being added, and doesn't require a target.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mid/255/moonsilver-key) · oracle_id `373395b2-f04b-46c9-b9f4-4f6815b71009` · printing: MID #255 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moonsilver Spear
 
@@ -480,6 +515,7 @@
   > Equip {4}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6805 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/afc/212/moonsilver-spear) · oracle_id `d99bcf62-db93-40db-8844-3d0af0756a0c` · printing: AFC #212 (2021-07-23) · [rulings](https://api.scryfall.com/cards/a4ace878-6d15-4276-9bfb-2f23667c6d7e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moonsnare Prototype
@@ -491,7 +527,11 @@
   > Channel — {4}{U}, Discard this card: The owner of target nonland permanent puts it on their choice of the top or bottom of their library.
 - **Keywords:** Channel
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7737 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/69/moonsnare-prototype) · oracle_id `7346c266-19d8-4432-acf5-f00aff074ad5` · printing: NEO #69 (2022-02-18) · [rulings](https://api.scryfall.com/cards/9d8bc0e9-a536-4bca-92a6-8dca85e1e984/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-02-18* — Discarding the card is part of the cost to activate a channel ability.
+  - *2022-02-18* — If a channel ability requires a target, you may not activate it without a target just to discard the card.
+  - *2022-02-18* — The owner of that permanent chooses whether it goes on top or bottom. Other players get to know what they chose. In some unusual cases, including melded or mutated creatures, a permanent may consist of multiple cards. In those cases, the permanent's owner puts all cards on top or all cards on bottom. They choose the cards' relative order, and other players don't get to know that order.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/69/moonsnare-prototype) · oracle_id `7346c266-19d8-4432-acf5-f00aff074ad5` · printing: NEO #69 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moonsnare Specialist
 
@@ -503,7 +543,15 @@
   > When this creature enters, return up to one target creature to its owner's hand.
 - **Keywords:** Ninjutsu
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7314 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/70/moonsnare-specialist) · oracle_id `ba858b68-ae93-4e1c-8a3a-3e4ac97282e8` · printing: NEO #70 (2022-02-18) · [rulings](https://api.scryfall.com/cards/1e8b209f-f577-45cc-9d18-03c1d67d391e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2022-02-18* — Although the Ninja is attacking, it was never declared as an attacking creature (for purposes of abilities that trigger whenever a creature attacks, for example).
+  - *2022-02-18* — As you activate a ninjutsu ability, you reveal the Ninja card in your hand and return the attacking creature. The Ninja card stays revealed and isn't put onto the battlefield until the ability resolves. If it leaves your hand before then, it won't enter the battlefield at all.
+  - *2022-02-18* — If a creature in combat has first strike or double strike, you can activate the ninjutsu ability during the first-strike combat damage step. The Ninja will deal combat damage during the regular combat damage step, even if it has first strike.
+  - *2022-02-18* — Puff of smoke not included.
+  - *2022-02-18* — The creature with ninjutsu enters the battlefield attacking the same player or planeswalker that the returned creature was attacking. This is a rule specific to ninjutsu; in other cases, when a creature is put onto the battlefield attacking, that creature's controller chooses which player or planeswalker it's attacking.
+  - *2022-02-18* — The ninjutsu ability can be activated during the declare blockers step, combat damage step, or end of combat step. In most cases (see below), if you wait until the combatdamage step or end of combat step, it will be after combat damage has been dealt, so the Ninja won't deal combat damage.
+  - *2022-02-18* — The ninjutsu ability can be activated only after blockers have been declared. Before then, attacking creatures are neither blocked nor unblocked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/70/moonsnare-specialist) · oracle_id `ba858b68-ae93-4e1c-8a3a-3e4ac97282e8` · printing: NEO #70 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moon Sprite
 
@@ -531,7 +579,12 @@
   > Whenever you sacrifice an artifact, put a +1/+1 counter on this creature and you gain 1 life.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8247 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blc/19/moonstone-eulogist) · oracle_id `cf9190e0-6f53-44fb-8afa-c16f5bf9829e` · printing: BLC #19 (2024-08-02) · [rulings](https://api.scryfall.com/cards/13158f3b-9d85-4689-9afa-7d9a8a2d1b09/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-07-26* — If Moonstone Eulogist and one or more creatures opponents control die at the same time, its second ability will trigger for each of those creatures opponents controlled that died.
+  - *2025-01-24* — If an effect refers to a Blood token, it means any artifact token with the subtype Blood, even if it has gained other subtypes.
+  - *2025-01-24* — Some triggered abilities trigger "whenever you sacrifice a Blood token." These abilities trigger regardless of why you sacrificed that Blood token.
+  - *2025-01-24* — You can't sacrifice a Blood token to pay multiple costs.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blc/19/moonstone-eulogist) · oracle_id `cf9190e0-6f53-44fb-8afa-c16f5bf9829e` · printing: BLC #19 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moonstone Harbinger
 
@@ -681,6 +734,7 @@
   > {T}: Add {C}.
   > {W}{U}, {T}, Exile a creature card from your graveyard: Create a 1/1 white Spirit creature token with flying.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8830 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/voc/175/moorland-haunt) · oracle_id `5324192b-6687-41e4-8e56-326b21a5dbf3` · printing: VOC #175 (2021-11-19) · [rulings](https://api.scryfall.com/cards/74deeeaa-95e9-42c9-89e3-e317ea63e216/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moorland Inquisitor

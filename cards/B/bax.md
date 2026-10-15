@@ -24,6 +24,7 @@
   > *"Home sweet home, until it gets teleported to the Negative Zone again or somethin'."*
   > *—The Thing, Ben Grimm*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8021 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/261/baxter-building) · oracle_id `71bc69a5-7cec-4abd-b97d-13f8e1f9afac` · printing: MSH #261 (2026-06-26) · [rulings](https://api.scryfall.com/cards/1abc652f-8e9d-4df7-bc4e-d8b515a40fec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Baxter, Fly in the Ointment
@@ -37,6 +38,7 @@
 - **Flavor text** (TMC printing):
   > *"What am I? I am nothing anymore! A FREAK! I'll never be taken seriously as a scientist again!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7533 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmc/10/baxter-fly-in-the-ointment) · oracle_id `94551fbd-a72c-4a1f-be01-7ba1c7c03eed` · printing: TMC #10 (2026-03-06) · [rulings](https://api.scryfall.com/cards/f5ee290f-03cd-48a8-ba6e-d934cb3f4ff4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Baxter Stockman

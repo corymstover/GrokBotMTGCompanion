@@ -50,7 +50,20 @@
   > *"... we are Venom!"*
 - **Keywords:** Transform, Haste, Trample, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8972 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/spm/55/eddie-brock-venom-lethal-protector) · oracle_id `fe01c96b-eb78-4477-bec2-944b2a28c778` · printing: SPM #55 (2025-09-26) · [rulings](https://api.scryfall.com/cards/f3455651-e643-445e-9489-51e4e24fca4c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2025-09-19* — A modal double-faced card can be transformed or be put onto the battlefield transformed. This is a change from previous rules. If an effect instructs you to transform a modal double-faced card on the battlefield, it transforms only if its other face has a permanent type (that is, if its other face isn't an instant or sorcery). If it doesn't, it simply won't transform. Similarly, if an effect attempts to put a modal double-faced card onto the battlefield transformed, it will enter transformed if its back face has a permanent type. If it doesn't, it will simply stay in its current zone.
+  - *2025-09-19* — Each double-faced card has an icon in the top-left corner of each face. For modal double-faced cards in this set, these icons are a single black triangle for the front face, and a double white triangle for the back face.
+  - *2025-09-19* — Each face of a double-faced card has its own set of characteristics: name, types, subtypes, abilities, and so on. While a double-faced card is on the stack or battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored.
+  - *2025-09-19* — If a creature or a card in a player's hand or graveyard has {X} in its mana cost, X is 0 when determining its mana value.
+  - *2025-09-19* — If an effect allows you to play a land or cast a spell from among a group of cards, you may play or cast a modal double-faced card with any face that fits the criteria of that effect.
+  - *2025-09-19* — If an effect allows you to put a card with particular characteristics onto the battlefield without instructing you to play or cast it, you consider only the characteristics of a modal double-faced card's front face to see if that card qualifies. If it does, it enters the battlefield with its front face up.
+  - *2025-09-19* — If an effect instructs a player to choose a card name, the name of either face may be chosen. If that effect or a linked ability refers to a spell with the chosen name being cast and/or a land with the chosen name being played, it considers only the chosen name, not the other face's name.
+  - *2025-09-19* — In the Commander variant, a double-faced card's color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered.
+  - *2025-09-19* — One or both faces of a double-faced card may include a reminder about what's on the other face. This reminder text has no effect on gameplay.
+  - *2025-09-19* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack or the battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of other double-faced cards is determined.
+  - *2025-09-19* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics.
+  - *2025-09-19* — While a double-faced card isn't on the stack or battlefield, consider only the characteristics of its front face.
+- **Source flags:** [Scryfall](https://scryfall.com/card/spm/55/eddie-brock-venom-lethal-protector) · oracle_id `fe01c96b-eb78-4477-bec2-944b2a28c778` · printing: SPM #55 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eddymurk Crab
 
@@ -103,7 +116,9 @@
   > {2}, Sacrifice ED-E: Draw a card, then draw an additional card for each quest counter on ED-E.
 - **Keywords:** ED-E My Love, Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9522 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/131/ed-e-lonesome-eyebot) · oracle_id `1b1bbad2-13b3-4716-85ef-3956268e23ad` · printing: PIP #131 (2024-03-08) · [rulings](https://api.scryfall.com/cards/b319f0e1-6f18-4fea-9f72-a21da5513aa4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-03-08* — If the number of attacking creatures isn't greater than the number of quest counters on ED-E when you attack, its second ability won't trigger at all. When the ability tries to resolve, if the number of attacking creatures is no longer greater than the number of quest counters on ED-E, it won't resolve, and you won't put a quest counter on ED-E.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/131/ed-e-lonesome-eyebot) · oracle_id `1b1bbad2-13b3-4716-85ef-3956268e23ad` · printing: PIP #131 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eden, Seat of the Sanctum
 
@@ -116,7 +131,10 @@
   > *This city, Cocoon's capital, shares its name with its fal'Cie patron.*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3616 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/277/eden-seat-of-the-sanctum) · oracle_id `84856b92-5ce8-47f3-9a1c-78d6a3e26aca` · printing: FIN #277 (2025-06-13) · [rulings](https://api.scryfall.com/cards/e28eac1e-adc7-4f8d-b206-bef09ba07d38/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-06-06* — Town is a land type with no special meaning. It doesn't grant the land any intrinsic abilities. Other cards may care about which lands are Towns.
+  - *2025-06-06* — You don't choose a target for Eden, Seat of the Sanctum's last ability at the time you activate it. Rather, a second "reflexive" ability triggers when you sacrifice Eden, Seat of the Sanctum this way. You choose a target for that ability as it goes on the stack. Each player may respond to this triggered ability as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/277/eden-seat-of-the-sanctum) · oracle_id `84856b92-5ce8-47f3-9a1c-78d6a3e26aca` · printing: FIN #277 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Edgar, Ancient Bloodlord
 
@@ -144,7 +162,9 @@
   > At the beginning of your upkeep, create a 1/1 white and black Vampire creature token with lifelink and put a bloodline counter on Edgar Markov's Coffin. Then if there are three or more bloodline counters on it, remove those counters and transform it.
 - **Keywords:** Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3635 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/vow/236/edgar-charmed-groom-edgar-markovs-coffin) · oracle_id `96cb97ca-4ce0-4d33-86fb-4db4ce1956be` · printing: VOW #236 (2021-11-19) · [rulings](https://api.scryfall.com/cards/63ba8eef-b834-4031-b0a1-0f8505d53813/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-11-19* — If a card that isn't a double-faced card is a copy of Edgar, Charmed Groom, it won't return to the battlefield when it dies.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vow/236/edgar-charmed-groom-edgar-markovs-coffin) · oracle_id `96cb97ca-4ce0-4d33-86fb-4db4ce1956be` · printing: VOW #236 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Edgar, King of Figaro
 
@@ -158,7 +178,11 @@
   > *"Sabin...let's settle this with the toss of a coin."*
 - **Keywords:** Two-Headed Coin
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9140 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/51/edgar-king-of-figaro) · oracle_id `264efed9-65ab-40ad-877f-c6c25ca0281e` · printing: FIN #51 (2025-06-13) · [rulings](https://api.scryfall.com/cards/950ee302-5512-43c5-ac7c-b2b06f4177bf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-06-06* — If an effect tells you to flip multiple coins at once and you haven't flipped one or more coins already during that turn, Edgar's last ability modifies that set of flips. For example, suppose you control Edgar, King of Figaro and Ral Zarek and you activate Ral Zarek's last ability ("−7: Flip five coins. Take an extra turn after this one for each coin that comes up heads.") on a turn where you haven't flipped any coins yet. Edgar's last ability will apply to each of those five flips, meaning they'll all come up heads and you'll take five extra turns as a result.
+  - *2025-06-06* — Ignore the actual results of the coin or coins flipped when applying Edgar's last ability.
+  - *2025-06-06* — Some effects that instruct a player to flip a coin care only about whether the coin comes up heads or tails. These effects don't cause any player to win or lose that coin flip. However, Edgar's last ability can cause you to win coin flips that would ordinarily have no winner. For example, suppose you control Edgar, King of Figaro, Ral Zarek, and Chance Encounter (which has "Whenever you win a coin flip, put a luck counter on this enchantment.") and you activate Ral Zarek's last ability ("−7: Flip five coins. Take an extra turn after this one for each coin that comes up heads.") on a turn where you haven't flipped any coins yet. Each of those flips will come up heads, but you'll also win each of those flips. This means Chance Encounter's first ability will trigger five times.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/51/edgar-king-of-figaro) · oracle_id `264efed9-65ab-40ad-877f-c6c25ca0281e` · printing: FIN #51 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Edgar Markov
 
@@ -171,7 +195,10 @@
   > Whenever Edgar attacks, put a +1/+1 counter on each Vampire you control.
 - **Keywords:** First strike, Haste, Eminence
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3161 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/234/edgar-markov) · oracle_id `41e2790d-49f5-4e98-b8d9-04179f47f13a` · printing: INR #234 (2025-01-24) · [rulings](https://api.scryfall.com/cards/a577ba08-0aa8-45be-aa83-d5078770127c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-01-24* — Edgar Markov’s eminence ability is a triggered ability. Edgar must be on the battlefield or in the command zone when you cast another Vampire spell and also as the triggered ability resolves. If it’s on the battlefield or in the command zone when you cast another Vampire spell but leaves that zone before the ability resolves, the ability won’t do anything as it resolves.
+  - *2025-01-24* — Notably, if Edgar Markov is on the battlefield and its eminence ability triggers, but it’s put into the command zone before that ability resolves, that ability won’t do anything as it resolves. This is because an object that changes zones is considered a new object.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/234/edgar-markov) · oracle_id `41e2790d-49f5-4e98-b8d9-04179f47f13a` · printing: INR #234 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Edgar, Master Machinist
 
@@ -183,7 +210,12 @@
   > Tools — Whenever Edgar attacks, it gets +X/+0 until end of turn, where X is the greatest mana value among artifacts you control.
 - **Keywords:** Tools
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9401 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/80/edgar-master-machinist) · oracle_id `75348d55-99cd-4dab-97be-1f818c43a69d` · printing: FIC #80 (2025-06-13) · [rulings](https://api.scryfall.com/cards/098a8025-6454-45d8-abe3-2c3dada3f582/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-06-06* — Edgar must be under your control in order to start casting an artifact spell using its first ability, but it doesn't need to stay under your control throughout that process or be under your control as the spell resolves. If, for example, you sacrifice Edgar to pay an additional cost of the spell or Edgar is destroyed in response, the spell will still resolve normally.
+  - *2025-06-06* — If an artifact you control has {X} in its mana cost, X is 0 for the purpose of calculating its mana value.
+  - *2025-06-06* — The value of X is calculated only once, as Edgar's last ability resolves.
+  - *2025-06-06* — You must still pay all costs and follow any timing restrictions and permissions for artifact spells you cast from your graveyard this way. Normally, you'll be able to cast them only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/80/edgar-master-machinist) · oracle_id `75348d55-99cd-4dab-97be-1f818c43a69d` · printing: FIC #80 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Edgar, Moonlit Sovereign
 
@@ -223,7 +255,9 @@
   > *"At harvest are seeds of next year sown."*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6433 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/201/edge-of-autumn) · oracle_id `42d86827-6459-42fc-86b6-6eb055604c36` · printing: TSR #201 (2021-03-19) · [rulings](https://api.scryfall.com/cards/1c72229c-f3da-4e35-af79-14452efe581b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-03-19* — Edge of Autumn checks how many lands you control as it resolves. If you control five or more lands, it simply does nothing as it resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/201/edge-of-autumn) · oracle_id `42d86827-6459-42fc-86b6-6eb055604c36` · printing: TSR #201 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Edge of the Divinity
 
@@ -321,7 +355,11 @@
 - **Flavor text** (OTC printing):
   > *"I am not at liberty to reveal my sources, but I can assure you, the price on your head is high."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3457 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/221/edric-spymaster-of-trest) · oracle_id `9a1de7e4-9930-4db3-a8f3-d146d0abf38b` · printing: OTC #221 (2024-04-19) · [rulings](https://api.scryfall.com/cards/22d6a4c9-4bdd-4e70-8481-95260e6aa7ab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2011-09-22* — A creature controlled by an opponent that deals combat damage to another opponent will cause Edric's ability to trigger. The creature's controller chooses whether to draw a card.
+  - *2011-09-22* — When a creature you control deals combat damage to one of your opponents, you may draw a card.
+  - *2015-01-19* *(Scryfall note)* — Edric, Spymaster of Trest is banned as a commander in Duel Commander format, but it may be part of your deck.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/221/edric-spymaster-of-trest) · oracle_id `9a1de7e4-9930-4db3-a8f3-d146d0abf38b` · printing: OTC #221 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Educated Detective
 
@@ -344,4 +382,7 @@
   > Whenever a Vehicle you control deals combat damage to a player, look at the top card of that player's library, then exile it face down. You may play that card for as long as it remains exiled.
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5727 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/acr/53/edward-kenway) · oracle_id `b2fe6d17-d045-45c6-9ca2-21e73d2e38d2` · printing: ACR #53 (2024-07-05) · [rulings](https://api.scryfall.com/cards/9472be1e-388c-45fe-a18d-35b2cb12dc5f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-07-05* — If a tapped permanent you control has more than one of the subtypes listed in Edward’s first ability, count it only once when determining how many Treasure tokens to create.
+  - *2024-07-05* — If you leave the game, the cards remain exiled face down indefinitely. No player may look at them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/acr/53/edward-kenway) · oracle_id `b2fe6d17-d045-45c6-9ca2-21e73d2e38d2` · printing: ACR #53 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

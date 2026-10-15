@@ -84,7 +84,13 @@
   > When this creature enters, each player chooses an artifact, a creature, an enchantment, and a planeswalker from among the nonland permanents they control, then sacrifices the rest.
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5331 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/176/cataclysmic-gearhulk) · oracle_id `2e4865c5-a590-4820-81ec-926014ddb8c4` · printing: MOC #176 (2023-04-21) · [rulings](https://api.scryfall.com/cards/d5b8efa8-2d62-45b8-9e48-6be0a4ee944d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2016-09-20* — A permanent with more than one type may be chosen as either of the types or both. For example, an artifact creature may be chosen as the artifact, the creature, or both. Choosing the same permanent twice this way has the same result as choosing it once.
+  - *2016-09-20* — Cataclysmic Gearhulk will be sacrificed to its own ability if you don't choose it as your artifact or your creature.
+  - *2016-09-20* — First the player whose turn it is chooses permanents they control, then each other player in turn order does the same. Each player will know the choices made by players who chose before them. All of the unchosen nonland permanents are then sacrificed simultaneously.
+  - *2016-09-20* — If you don't control any permanents of one of the types, you'll still choose the permanents of the types you do control.
+  - *2016-09-20* — Lands can't be chosen and won't be sacrificed, even if they have other types (such as an artifact land).
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/176/cataclysmic-gearhulk) · oracle_id `2e4865c5-a590-4820-81ec-926014ddb8c4` · printing: MOC #176 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cataclysmic Prospecting
 
@@ -136,7 +142,17 @@
   > Whenever another creature you control dies, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
 - **Keywords:** Devoid, Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9400 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/201/catacomb-sifter) · oracle_id `4c2c5f3b-61f3-4772-9ade-f5be80719e9f` · printing: BFZ #201 (2015-10-02) · [rulings](https://api.scryfall.com/cards/6c3b220b-e699-45b0-8ec1-1022c1f50329/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2015-08-25* — A card with devoid is just colorless. It's not colorless and the colors of mana in its mana cost.
+  - *2015-08-25* — Cards with devoid use frames that are variations of the transparent frame traditionally used for Eldrazi. The top part of the card features some color over a background based on the texture of the hedrons that once imprisoned the Eldrazi. This coloration is intended to aid deckbuilding and game play.
+  - *2015-08-25* — Devoid works in all zones, not just on the battlefield.
+  - *2015-08-25* — Eldrazi Scions are similar to Eldrazi Spawn, seen in the Zendikar block. Note that Eldrazi Scions are 1/1, not 0/1.
+  - *2015-08-25* — Eldrazi and Scion are each separate creature types. Anything that affects Eldrazi will affect these tokens, for example.
+  - *2015-08-25* — If a card loses devoid, it will still be colorless. This is because effects that change an object's color (like the one created by devoid) are considered before the object loses devoid.
+  - *2015-08-25* — Other cards and abilities can give a card with devoid color. If that happens, it's just the new color, not that color and colorless.
+  - *2015-08-25* — Sacrificing an Eldrazi Scion creature token to add {C} is a mana ability. It doesn't use the stack and can't be responded to.
+  - *2015-08-25* — Some instants and sorceries that create Eldrazi Scions require targets. If all targets for such a spell have become illegal by the time that spell tries to resolve, the spell won't resolve and none of its effects will happen. You won't get any Eldrazi Scions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/201/catacomb-sifter) · oracle_id `4c2c5f3b-61f3-4772-9ade-f5be80719e9f` · printing: BFZ #201 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Catacomb Slug
 
@@ -305,7 +321,10 @@
   > *"Why so many? Because they need a home, just like I once did."*
 - **Keywords:** Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7388 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/4/cat-collector) · oracle_id `52f1b5a4-62ff-44de-80da-503d4e52d312` · printing: FDN #4 (2024-11-15) · [rulings](https://api.scryfall.com/cards/526fe356-bff1-4211-9e88-bf913ac76b1d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-11-08* — Cat Collector's last ability triggers just once and creates just one Cat token for the first life-gaining event on each of your turns, no matter how much life you gain.
+  - *2024-11-08* — If you gain life during your turn before Cat Collector is on the battlefield, its last ability won't trigger that turn even if you gain life again later in the turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/4/cat-collector) · oracle_id `52f1b5a4-62ff-44de-80da-503d4e52d312` · printing: FDN #4 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cateran Brute
 
@@ -427,6 +446,7 @@
   > *"Honorable tactics are for honorable foes. These werewolves are preying on innocent travelers. I'll stab them in the back while they sleep if I have to."*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1436 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/15/cathar-commando) · oracle_id `774dce79-67e0-4820-8013-c7a7347993ce` · printing: INR #15 (2025-01-24) · [rulings](https://api.scryfall.com/cards/7cd21530-ca72-4986-a0f2-142b9f23c413/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cathar's Call
@@ -440,7 +460,9 @@
   > *Some cathars succumbed to despair at Avacyn's unmaking. The rest redoubled their efforts to carry out her work.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9009 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/16/cathars-call) · oracle_id `433e92d2-899a-4eed-98b9-80de5d25494b` · printing: INR #16 (2025-01-24) · [rulings](https://api.scryfall.com/cards/ffa1da29-08bd-431c-ae99-525a071dba23/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-09-24* — The controller of the enchanted creature creates the Human token, even if they aren't the controller of Cathar's Call.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/16/cathars-call) · oracle_id `433e92d2-899a-4eed-98b9-80de5d25494b` · printing: INR #16 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cathar's Companion
 
@@ -493,6 +515,7 @@
   > *—Thalia, heretic cathar*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7325 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/emn/192/cathars-shield) · oracle_id `b270d091-ea4c-4dfd-9c50-48b45bbc396e` · printing: EMN #192 (2016-07-22) · [rulings](https://api.scryfall.com/cards/61c18ffa-ffff-4dc4-9db0-d5f183c35e17/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cathartic Adept
@@ -530,6 +553,7 @@
 - **Flavor text** (ECC printing):
   > *"Leave behind the sorrow of this body. Be blessed, being of light."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4171 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/90/cathartic-pyre) · oracle_id `f7e55117-69fb-412e-b16e-d92e0f95f629` · printing: ECC #90 (2026-01-23) · [rulings](https://api.scryfall.com/cards/0d762a71-ee49-49fd-a54a-0c066277c88c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cathartic Reunion
@@ -542,7 +566,9 @@
 - **Flavor text** (ECC printing):
   > *The soldier had given up his wealth, his title, even his home, but he had no room for regret. At last, he had saved his friend.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1115 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/91/cathartic-reunion) · oracle_id `0f3c3e5f-6af3-4af2-8703-4ccc8ed8f675` · printing: ECC #91 (2026-01-23) · [rulings](https://api.scryfall.com/cards/e3bca51a-b9be-4be2-a256-b15853fde433/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-08-07* — Because discarding two cards is an additional cost, you can't cast Cathartic Reunion if you don't have at least two other cards in hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/91/cathartic-reunion) · oracle_id `0f3c3e5f-6af3-4af2-8703-4ccc8ed8f675` · printing: ECC #91 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cathedral Acolyte
 
@@ -555,7 +581,10 @@
 - **Flavor text** (PIP printing):
   > *"Master, evolve me to perfection!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6537 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/75/cathedral-acolyte) · oracle_id `85fa4ed3-14e3-4eb0-b31b-62e2088321d0` · printing: PIP #75 (2024-03-08) · [rulings](https://api.scryfall.com/cards/84118221-20a3-46a9-9e6e-a928b46a8633/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-03-08* — Once a creature’s ward ability has triggered, causing that creature to lose ward by removing Cathedral Acolyte won’t affect the ability. The appropriate player will still have to pay {1} or see their spell or ability countered.
+  - *2024-03-08* — The effect of Cathedral Acolyte’s first ability applies to any creature you control with a counter on it, not just ones with +1/+1 counters.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/75/cathedral-acolyte) · oracle_id `85fa4ed3-14e3-4eb0-b31b-62e2088321d0` · printing: PIP #75 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cathedral Membrane
 
@@ -589,6 +618,7 @@
   > {T}: Add {C}.
 - **Keywords:** Exalted
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4832 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m13/221/cathedral-of-war) · oracle_id `5ff647e4-730a-498f-8f2c-5bd64d5a9780` · printing: M13 #221 (2012-07-13) · [rulings](https://api.scryfall.com/cards/dd222c07-0b28-41cb-9237-ad7991ab078f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cathedral Sanctifier
@@ -613,7 +643,11 @@
 - **Flavor text** (2XM printing):
   > *Instead of creating a tool that would be damaged by heat, the Thran built one that was charged by it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9571 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/237/cathodion) · oracle_id `fcd4f816-2de1-4b30-82fb-cb87f45747ea` · printing: 2XM #237 (2020-08-07) · [rulings](https://api.scryfall.com/cards/13ddba34-e627-4f4c-b78c-ea0c48a22537/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-10-04* — The ability is never a mana ability.
+  - *2011-01-25* — The triggered ability isn't a mana ability. It uses the stack and can be responded to.
+  - *2011-01-25* — You get the mana whether you want it or not. If you don't spend it, it will disappear at the end of the current step (or phase).
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/237/cathodion) · oracle_id `fcd4f816-2de1-4b30-82fb-cb87f45747ea` · printing: 2XM #237 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cat Oven
 

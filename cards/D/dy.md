@@ -30,7 +30,12 @@
   > Whenever you attack, you may remove a +1/+1 counter from each of two creatures you control. If you do, draw a card and create a 2/2 colorless Robot artifact creature token.
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8897 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/216/dyadrine-synthesis-amalgam) · oracle_id `618a2272-62e0-4d0e-834d-7b81719eba12` · printing: EOE #216 (2025-08-01) · [rulings](https://api.scryfall.com/cards/994ca692-7138-4dcb-bf46-5da530f86036/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-07-25* — Dyadrine’s second ability cares about the amount of mana that was actually paid to cast Dyadrine. Any effects that increase or decrease the cost to cast it (including the “commander tax” in a Commander game) will also be taken into account.
+  - *2025-07-25* — If a copy of Dyadrine is created on the stack, no mana was spent to cast the copy. The amount of mana spent to cast the original spell is not copied.
+  - *2025-07-25* — If an effect allows you to cast Dyadrine without paying its mana cost, X will be 0.
+  - *2025-07-25* — If an effect requires you to pay some amount of mana to prevent Dyadrine from being countered, as Divert Disaster does, that mana wasn’t spent to cast Dyadrine and will not be taken into account for Dyadrine’s second ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/216/dyadrine-synthesis-amalgam) · oracle_id `618a2272-62e0-4d0e-834d-7b81719eba12` · printing: EOE #216 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dyfed, the Guiding Hand
 
@@ -55,6 +60,7 @@
   > *"I used to have hired hands, but I discovered they make better waitstaff with the rest of the body attached."*
   > *—Olivia Voldaren*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9832 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vow/109/dying-to-serve) · oracle_id `2b719057-1bc0-4c3a-97c3-8377844570dd` · printing: VOW #109 (2021-11-19) · [rulings](https://api.scryfall.com/cards/c2ea16cd-801e-478a-b924-5431582b70d1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dying Wail

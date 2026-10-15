@@ -22,7 +22,9 @@
   > Creatures you control of the chosen color get +1/+1.
   > Whenever a land's ability causes you to add one or more mana of the chosen color, add an additional one mana of that color.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #946 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cm2/178/caged-sun) · oracle_id `09b895ff-e729-48d1-bfc1-ea5fd7adda6a` · printing: CM2 #178 (2018-06-08) · [rulings](https://api.scryfall.com/cards/dfe6f9ec-3b7f-4c11-acd1-440e14217e5d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-06-10* — An ability that triggers from the resolution of an activated mana ability is also a mana ability. This means that if the land's ability that caused you to add mana was an activated mana ability, Caged Sun's triggered ability won't use the stack and can't be responded to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cm2/178/caged-sun) · oracle_id `09b895ff-e729-48d1-bfc1-ea5fd7adda6a` · printing: CM2 #178 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Caged Zombie
 

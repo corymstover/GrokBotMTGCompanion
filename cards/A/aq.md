@@ -115,7 +115,11 @@
   > *"You may want to hold your breath."*
   > *—Kellyg, merrow aquitect*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7003 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddt/2/aquitects-will) · oracle_id `d02befcb-3e2c-4cfe-a913-9bb648e5bb2c` · printing: DDT #2 (2017-10-24) · [rulings](https://api.scryfall.com/cards/3c4273f6-bcce-4761-80ef-14cd4fc4bb19/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-06-07* — Kindred is a card type that allows noncreature cards to have creature types. For example, Echoes of Eternity is an Eldrazi (although not a creature) while on the battlefield and an Eldrazi card (although not a creature card) in zones other than the battlefield.
+  - *2024-06-07* — This cards was originally printed with the "tribal" card type. That card type has been replaced with "kindred". This change does not affect the gameplay function of this card.
+  - *2024-06-07* — While it appears only on cards that already have other card types, kindred is a card type and will be counted by effects that refer to the number of card types among cards in a zone.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddt/2/aquitects-will) · oracle_id `d02befcb-3e2c-4cfe-a913-9bb648e5bb2c` · printing: DDT #2 (2017-10-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aquus Steed
 

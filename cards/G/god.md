@@ -53,7 +53,11 @@
   > When God-Eternal Bontu dies or is put into exile from the battlefield, you may put her into her owner's library third from the top.
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3398 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/83/god-eternal-bontu) · oracle_id `183891b0-b5ec-47f4-8d09-b9d3cfc4e7f1` · printing: EOC #83 (2025-08-01) · [rulings](https://api.scryfall.com/cards/142b0860-8a82-4830-a4ff-2bbfc102437e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-05-03* — As Bontu's first triggered ability resolves, you may choose to sacrifice zero other permanents.
+  - *2019-05-03* — If a second God-Eternal Bontu enters the battlefield under your control, you'll put one into your graveyard before you can sacrifice anything to the new Bontu's triggered ability.
+  - *2019-05-03* — If any abilities trigger as you sacrifice other permanents, those abilities won't be put onto the stack until after you've drawn cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/83/god-eternal-bontu) · oracle_id `183891b0-b5ec-47f4-8d09-b9d3cfc4e7f1` · printing: EOC #83 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### God-Eternal Kefnet
 
@@ -66,7 +70,26 @@
   > When God-Eternal Kefnet dies or is put into exile from the battlefield, you may put it into its owner's library third from the top.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8279 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/war/53/god-eternal-kefnet) · oracle_id `41d11144-32fc-4e45-a8db-3edb9dc0ce80` · printing: WAR #53 (2019-05-03) · [rulings](https://api.scryfall.com/cards/5e14060f-9167-4e28-a053-77689e066e30/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (18):
+  - *2019-05-03* — If an effect exiles the God and immediately returns it to the battlefield, its last ability triggers but will have no effect. However, if an effect exiles it and would return it to the battlefield at a later time, the God's ability may return that card to its owner's library first. If it does, the effect that exiled it won't return it later.
+  - *2019-05-03* — If an effect puts a card into your hand without using the word "draw," the card wasn't drawn.
+  - *2019-05-03* — If one of these Gods dies and it's your commander, you may put it into the command zone before its ability puts it into your library. If you save your commander this way, it won't put it into your library. The same is true if it would be exiled.
+  - *2019-05-03* — If one of these Gods leaves the graveyard or exile while its last ability is on the stack, it will remain in its new zone, even if that zone is a graveyard or exile.
+  - *2019-05-03* — If the God's owner has two or fewer cards in their library, the God is put on the bottom of their library as its last ability resolves.
+  - *2019-05-03* — If the card leaves your hand before Kefnet's triggered ability resolves, you'll copy it using its last known information.
+  - *2019-05-03* — If you control another player's God when it dies, you decide whether to put that card into its owner's library.
+  - *2019-05-03* — If you reveal a card this way, it remains revealed until Kefnet's triggered ability finishes resolving.
+  - *2019-05-03* — If you somehow control more than one God-Eternal Kefnet (perhaps because one is a Spark Double), you may reveal a card you draw for any number of their abilities. One at a time, each will copy the card if it's an instant or sorcery, and you may cast each of them. Each copy resolves before you cast the next, and each copy's cost is reduced by only {2}.
+  - *2019-05-03* — In a multiplayer game, if you put another player's God onto the battlefield under your control, it will be exiled as you leave the game. If you were still the controller of that God, you would control its triggered ability but you have left the game; that ability won't resolve and the card remains in exile. Similarly, if you lose the game at the same time that another player's God that you put onto the battlefield is destroyed, it remains in its owner's graveyard.
+  - *2019-05-03* — It's important to reveal the first card you draw each turn (or choose not to reveal it) before it is mixed with the other cards in your hand. You look at the card as you draw it before choosing whether to reveal it.
+  - *2019-05-03* — Multiple card draws are always treated as a sequence of individual card draws. For example, if you haven't drawn any cards yet during a turn and cast a spell that instructs you to draw three cards, you'll draw them one at a time. Only the first card drawn this way may be revealed and copied with Kefnet's ability.
+  - *2019-05-03* — The copy is created in and cast from your hand.
+  - *2019-05-03* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions (such as that of Kefnet's ability). The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+  - *2019-05-03* — You can cast the copy during the resolution of the triggered ability if it's a sorcery, no matter whose turn it is or which phase it is.
+  - *2019-05-03* — You can cast the copy only as Kefnet's triggered ability resolves. If you don't want to cast it at that time (or you can't cast it, perhaps because there are no legal targets available), the copy ceases to exist. You can't cast it later.
+  - *2019-05-03* — You can reveal and copy an instant or sorcery card this way on any turn, not just your own, if it's the first card you've drawn that turn.
+  - *2019-05-03* — You don't have to reveal a drawn card if you don't wish to copy it at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/war/53/god-eternal-kefnet) · oracle_id `41d11144-32fc-4e45-a8db-3edb9dc0ce80` · printing: WAR #53 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### God-Eternal Oketra
 
@@ -79,7 +102,16 @@
   > When God-Eternal Oketra dies or is put into exile from the battlefield, you may put it into its owner's library third from the top.
 - **Keywords:** Double strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2420 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/war/16/god-eternal-oketra) · oracle_id `3b03358d-f87e-4939-afc9-5ee3f044146a` · printing: WAR #16 (2019-05-03) · [rulings](https://api.scryfall.com/cards/df70f155-2336-421c-8a9d-69772d2b51a8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2019-05-03* — If an effect exiles the God and immediately returns it to the battlefield, its last ability triggers but will have no effect. However, if an effect exiles it and would return it to the battlefield at a later time, the God's ability may return that card to its owner's library first. If it does, the effect that exiled it won't return it later.
+  - *2019-05-03* — If one of these Gods dies and it's your commander, you may put it into the command zone before its ability puts it into your library. If you save your commander this way, it won't put it into your library. The same is true if it would be exiled.
+  - *2019-05-03* — If one of these Gods leaves the graveyard or exile while its last ability is on the stack, it will remain in its new zone, even if that zone is a graveyard or exile.
+  - *2019-05-03* — If the God's owner has two or fewer cards in their library, the God is put on the bottom of their library as its last ability resolves.
+  - *2019-05-03* — If you control another player's God when it dies, you decide whether to put that card into its owner's library.
+  - *2019-05-03* — In a multiplayer game, if you put another player's God onto the battlefield under your control, it will be exiled as you leave the game. If you were still the controller of that God, you would control its triggered ability but you have left the game; that ability won't resolve and the card remains in exile. Similarly, if you lose the game at the same time that another player's God that you put onto the battlefield is destroyed, it remains in its owner's graveyard.
+  - *2019-05-03* — In the Commander format, a commander's color identity isn't affected by color words (such as black) appearing in its text. If God-Eternal Oketra is your commander, your deck can't contain black mana symbols.
+  - *2019-05-03* — Oketra's first triggered ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/war/16/god-eternal-oketra) · oracle_id `3b03358d-f87e-4939-afc9-5ee3f044146a` · printing: WAR #16 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### God-Eternal Rhonas
 
@@ -92,7 +124,16 @@
   > When God-Eternal Rhonas dies or is put into exile from the battlefield, you may put it into its owner's library third from the top.
 - **Keywords:** Double, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5029 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/war/163/god-eternal-rhonas) · oracle_id `fc4f2cdb-966c-4576-8b37-b3d138f5710e` · printing: WAR #163 (2019-05-03) · [rulings](https://api.scryfall.com/cards/0eb444f0-69cc-47c8-8cd6-1f9edad5d903/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2019-05-03* — If an effect exiles the God and immediately returns it to the battlefield, its last ability triggers but will have no effect. However, if an effect exiles it and would return it to the battlefield at a later time, the God's ability may return that card to its owner's library first. If it does, the effect that exiled it won't return it later.
+  - *2019-05-03* — If an effect instructs you to "double" a creature's power, that creature gets +X/+0, where X is its power as that effect begins to apply.
+  - *2019-05-03* — If one of these Gods dies and it's your commander, you may put it into the command zone before its ability puts it into your library. If you save your commander this way, it won't put it into your library. The same is true if it would be exiled.
+  - *2019-05-03* — If one of these Gods leaves the graveyard or exile while its last ability is on the stack, it will remain in its new zone, even if that zone is a graveyard or exile.
+  - *2019-05-03* — If the God's owner has two or fewer cards in their library, the God is put on the bottom of their library as its last ability resolves.
+  - *2019-05-03* — If you control another player's God when it dies, you decide whether to put that card into its owner's library.
+  - *2019-05-03* — In a multiplayer game, if you put another player's God onto the battlefield under your control, it will be exiled as you leave the game. If you were still the controller of that God, you would control its triggered ability but you have left the game; that ability won't resolve and the card remains in exile. Similarly, if you lose the game at the same time that another player's God that you put onto the battlefield is destroyed, it remains in its owner's graveyard.
+  - *2019-05-03* — Rhonas's first triggered ability affects only creatures you control at the time it resolves. Creatures you begin to control later in the turn won't have their power doubled or gain vigilance.
+- **Source flags:** [Scryfall](https://scryfall.com/card/war/163/god-eternal-rhonas) · oracle_id `fc4f2cdb-966c-4576-8b37-b3d138f5710e` · printing: WAR #163 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### God-Favored General
 
@@ -159,7 +200,9 @@
   > When Godo enters, you may search your library for an Equipment card, put it onto the battlefield, then shuffle.
   > Whenever Godo attacks for the first time each turn, untap it and all Samurai you control. After this phase, there is an additional combat phase.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3318 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/227/godo-bandit-warlord) · oracle_id `f890d51a-dc90-4179-8423-4738a72a527c` · printing: CMM #227 (2023-08-04) · [rulings](https://api.scryfall.com/cards/01d566cf-cb32-461d-8afe-b0f3f4c24160/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-08-07* — Unlike many effects that grant additional combat phases, you don't get an additional main phase with Godo, Bandit Warlord's ability. The additional combat phase happens immediately after the first combat phase.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/227/godo-bandit-warlord) · oracle_id `f890d51a-dc90-4179-8423-4738a72a527c` · printing: CMM #227 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Godo's Irregulars
 
@@ -192,7 +235,13 @@
 - **Oracle text:**
   > At the beginning of combat on your turn, you may exile a creature card from your graveyard. If you do, create a token that's a copy of that card, except it's a 4/4 black Zombie. It gains haste until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8916 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hou/161/god-pharaohs-gift) · oracle_id `9f2d2fda-f098-4375-8fe9-63f929e3928c` · printing: HOU #161 (2017-07-14) · [rulings](https://api.scryfall.com/cards/b2e85a9e-4c37-4721-b7ea-de3413ec39df/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2017-07-14* — If the card copied by the token had any "when [this permanent] enters the battlefield" abilities, then the token also has those abilities and will trigger them when it's created. Similarly, any "as [this permanent] enters the battlefield" or "[this permanent] enters the battlefield with" abilities that the token has copied will also work.
+  - *2017-07-14* — The ability of God-Pharaoh's Gift doesn't target the creature card you'll exile. You choose one as the ability resolves. No player may take actions between the time you choose a creature card to exile and the time you create the token.
+  - *2017-07-14* — The token copies exactly what was printed on the original card and nothing else, except the characteristics it specifically modifies. It doesn't copy any information about the object the card was before it was put into your graveyard.
+  - *2017-07-14* — The token is a Zombie instead of its other types (unlike Zombies created by an eternalize ability) and is black instead of its other colors. Its power and toughness are 4/4. These are copiable values of the token that other effects may copy.
+  - *2017-07-14* — Unlike the tokens created by an eternalize ability, this token has the mana cost and thus mana value of the card it's copying.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hou/161/god-pharaohs-gift) · oracle_id `9f2d2fda-f098-4375-8fe9-63f929e3928c` · printing: HOU #161 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### God-Pharaoh's Statue
 
@@ -204,7 +253,10 @@
 - **Flavor text** (WAR printing):
   > *A dictator's infuriating smirk, an affront to everything Ravnica stood for.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2450 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/war/238/god-pharaohs-statue) · oracle_id `183954d2-7b40-4c7e-adfa-d80191ab5ad6` · printing: WAR #238 (2019-05-03) · [rulings](https://api.scryfall.com/cards/7dce06ba-c1e1-45ec-82a7-fc10b0fa8870/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-05-03* — In a Two-Headed Giant game, the last ability of God-Pharaoh's Statue causes the opposing team to lose 2 life.
+  - *2019-05-03* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases (such as that of God-Pharaoh's Statue's first ability), then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/war/238/god-pharaohs-statue) · oracle_id `183954d2-7b40-4c7e-adfa-d80191ab5ad6` · printing: WAR #238 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Godsend
 
@@ -217,7 +269,12 @@
   > Equip {3}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7732 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jou/12/godsend) · oracle_id `dd91f4f2-ea46-48c5-8a80-0dc4ae5b79c4` · printing: JOU #12 (2014-05-02) · [rulings](https://api.scryfall.com/cards/2dcf3975-7f81-4bdd-810d-476f46444b7a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2014-04-26* — Godsend's triggered ability doesn't target any creature. You could exile a creature with protection from white, for example. You choose which creature to exile when the ability resolves.
+  - *2014-04-26* — Godsend's triggered ability will trigger only once no matter how many creatures the equipped creature blocks or becomes blocked by.
+  - *2014-04-26* — If Godsend exiles a land card (perhaps because it was turned into a creature and then blocked or was blocked by the equipped creature), opponents can still play land cards with the same name as the exiled card. Godsend stops only the casting of spells.
+  - *2014-04-26* — If Godsend leaves the battlefield, and later another Godsend enters the battlefield, it is a new object (even if the two were represented by the same card). The new Godsend won't stop opponents from casting cards with the same name as cards exiled with the first one.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jou/12/godsend) · oracle_id `dd91f4f2-ea46-48c5-8a80-0dc4ae5b79c4` · printing: JOU #12 (2014-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gods' Eye, Gate to the Reikai
 
@@ -271,7 +328,15 @@
   > *Honor the gods of Theros, and they will return the favor.*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3399 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/63/gods-willing) · oracle_id `48e603a2-b965-4fbc-ad57-4388bce5ac8b` · printing: CLU #63 (2024-02-23) · [rulings](https://api.scryfall.com/cards/138f0e49-71d5-4582-92be-797e753f0f42/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2013-09-15* — Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it won't resolve and none of its effects will happen. You won't scry.
+  - *2013-09-15* — When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
+  - *2013-09-15* — You choose how to order cards returned to your library after scrying no matter where you put them.
+  - *2013-09-15* — You choose the color as Gods Willing resolves. Once the color is chosen, it's too late for players to respond.
+  - *2013-09-15* — You perform the actions stated on a card in sequence. For some spells and abilities, that means you'll scry last. For others, that means you'll scry and then perform other actions.
+  - *2019-07-12* — If the target creature is an illegal target by the time Gods Willing tries to resolve, the spell doesn't resolve. You won't scry 1. If the target creature becomes an illegal target while Gods Willing is resolving (most likely because you gave it protection from white), you do scry 1.
+  - *2019-07-12* — You can't choose "artifact" or "colorless" as Gods Willing asks you to choose a color because those are not colors.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/63/gods-willing) · oracle_id `48e603a2-b965-4fbc-ad57-4388bce5ac8b` · printing: CLU #63 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Godtoucher
 

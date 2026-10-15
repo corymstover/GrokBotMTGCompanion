@@ -53,6 +53,7 @@
 - **Flavor text** (C15 printing):
   > *The ohran viper is not cold-blooded. Its veins course with the same antigelid venom used to kill its prey.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7827 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c15/194/ohran-viper) · oracle_id `879fdcd8-62ea-4d39-abd4-44e6d82adf4d` · printing: C15 #194 (2015-11-13) · [rulings](https://api.scryfall.com/cards/2dd1d028-0c7c-450b-a1ae-812b1212fef6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ohran Yeti

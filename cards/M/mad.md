@@ -78,7 +78,9 @@
   > *"We suffered a bit of a setback tonight, but rest assured: We'll have the planet purged and primed for you right on schedule."*
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9782 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/66/madame-null-power-broker) · oracle_id `73413bd5-8c40-4d45-8f05-c20c39ee4017` · printing: TMT #66 (2026-03-06) · [rulings](https://api.scryfall.com/cards/4e712d5c-d6fe-40bb-b8e5-5f50c6ea8d4f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-01-27* — Use the creature's power as Madame Null's last ability resolves to determine how much life you may pay. If that creature is no longer on the battlefield, use its power as it last existed on the battlefield. (You probably won't want to pay life in that case, though.)
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/66/madame-null-power-broker) · oracle_id `73413bd5-8c40-4d45-8f05-c20c39ee4017` · printing: TMT #66 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Madame Vastra
 
@@ -164,7 +166,14 @@
   > *Jace traced Nahiri to the Singing City, but the magic of the ancient ruins threatened to overwhelm his mind.*
 - **Keywords:** Mill, Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1637 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/67/maddening-cacophony) · oracle_id `e0f0f290-c83f-4d97-9f5d-786c7136b0d1` · printing: ZNR #67 (2020-09-25) · [rulings](https://api.scryfall.com/cards/10a79733-702c-4611-b073-71db7f1158b2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/67/maddening-cacophony) · oracle_id `e0f0f290-c83f-4d97-9f5d-786c7136b0d1` · printing: ZNR #67 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maddening Hex
 
@@ -177,7 +186,19 @@
   > *Much more painful than mere regret.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3888 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afc/32/maddening-hex) · oracle_id `5d96170f-14dd-496e-a485-bd3b9eedfe02` · printing: AFC #32 (2021-07-23) · [rulings](https://api.scryfall.com/cards/c8dd3a8d-5434-4405-8d17-e419a20f074a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2021-07-23* — An ability that tells you to roll a die will also specify what to do with the result of that roll. Most often, this is in the form of a "results table" in the card text.
+  - *2021-07-23* — An effect that says "choose a target, then roll a d20" or similar still uses the normal process of putting an ability on the stack and resolving it. Choosing targets is part of putting the ability on the stack and rolling the d20 happens later, as the ability resolves.
+  - *2021-07-23* — Dice are identified by the number of faces each one has. For example, a d20 is a twenty-sided die.
+  - *2021-07-23* — Dice used must have equally likely outcomes and the roll must be fair. Although physical dice are recommended, digital substitutes are allowed, provided they have the same number of equally likely outcomes as specified in the original roll instruction.
+  - *2021-07-23* — If Maddening Hex is attached to your only opponent, it stays attached to that player as the ability resolves.
+  - *2021-07-23* — Some abilities, like that of Pixie Guide and Barbarian Class, replace rolling a die with rolling extra dice and ignoring the lowest roll. The ignored rolls are not considered for the effect that instructed you to roll a die, and do not cause abilities to trigger. For all intents and purposes, once you determine which dice count, any extra dice were never rolled.
+  - *2021-07-23* — Some effects instruct you to roll again. This uses the same number and type of dice as the original roll, and that roll will use the same set of possible outcomes.
+  - *2021-07-23* — Some effects may modify the result of a die roll. This may be part of the instruction to roll a die or it may come from other cards. Anything that references the "result" of a die roll is looking for the result after these modifications. Anything that is looking for the "natural result" is looking for the number shown on the face of the die before these modifications.
+  - *2021-07-23* — The instruction to roll a die and the effect that occurs because of the result are all part of the same ability. Players do not get the chance to respond to the ability after knowing the result of the roll.
+  - *2021-07-23* — Tournament events have more specific rules regarding dice and die-rolling. For more information, please see the most recent version of the Magic Tournament Rules at https://wpn.wizards.com/en/document/magic-gathering-tournament-rules.
+  - *2021-07-23* — While playing Planechase, rolling the planar die will cause any ability that triggers whenever a player rolls one or more dice to trigger. However, any effect that refers to a numerical result will ignore the rolling of the planar die.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afc/32/maddening-hex) · oracle_id `5d96170f-14dd-496e-a485-bd3b9eedfe02` · printing: AFC #32 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maddening Imp
 

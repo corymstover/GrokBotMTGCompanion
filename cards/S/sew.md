@@ -55,7 +55,9 @@
   > Whenever the chosen player casts a spell, that player mills a card.
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6101 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/771/sewer-nemesis) · oracle_id `c7f1a49a-cc22-432f-bf3e-50ba61982b87` · printing: CLB #771 (2022-06-10) · [rulings](https://api.scryfall.com/cards/cdb8d320-fecc-42c2-b9d8-a9f6dd44b36d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-09-22* — If the chosen player leaves the game, Sewer Nemesis's power and toughness each become 0. Unless another effect is raising its toughness above 0, it will be put into its owner's graveyard as a state-based action.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/771/sewer-nemesis) · oracle_id `c7f1a49a-cc22-432f-bf3e-50ba61982b87` · printing: CLB #771 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sewer Rats
 
@@ -103,6 +105,7 @@
   > *No one in New York was going to notice one more cockroach.*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9008 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/53/sewer-veillance-cam) · oracle_id `25c83d45-581f-48ba-b6bb-feb66e8a65c7` · printing: TMT #53 (2026-03-06) · [rulings](https://api.scryfall.com/cards/ab47a37b-b66d-4f70-9bf0-4d5ed6b518f3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sewn-Eye Drake

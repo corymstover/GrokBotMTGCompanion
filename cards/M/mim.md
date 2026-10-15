@@ -55,7 +55,22 @@
   > {3}, {T}: Create a token that's a copy of a card exiled with this artifact. It gains haste. Exile it at the beginning of the next end step.
 - **Keywords:** Imprint
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2443 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/372/mimic-vat) · oracle_id `6ebdc9f3-6b23-4716-8011-48f00d7e30c8` · printing: NCC #372 (2022-04-29) · [rulings](https://api.scryfall.com/cards/dfa8757b-ef7d-44b8-ae80-45c436e85c1e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (14):
+  - *2011-01-01* — Any "enters" abilities of the exiled card will trigger when the token is put onto the battlefield. Any "as [this permanent] enters" or "[this permanent] enters with" abilities of the exiled card will also work.
+  - *2011-01-01* — Exiling the card as the first ability resolves is optional. If you choose not to exile it, or you can't exile it because the card has somehow left the graveyard before the ability resolves, the ability simply doesn't do anything as it resolves. Any card currently exiled by Mimic Vat remains exiled.
+  - *2011-01-01* — If Mimic Vat's second ability is activated during a turn's end step, the token will be exiled at the beginning of the following turn's end step.
+  - *2011-01-01* — If multiple nontoken creatures are put into their owners' graveyards from the battlefield at the same time, the imprint ability will trigger that many times. You put the triggered abilities on the stack in any order, so you'll determine in which order they resolve. However, since exiling those cards is optional, and choosing to exile a card this way causes the previously exiled cards to return to their owners' graveyards, the order generally doesn't matter: You'll wind up with at most one of those cards exiled, and the rest will be in the appropriate graveyards.
+  - *2011-01-01* — If the exiled card has {X} in its mana cost (such as Protean Hydra), X is considered to be 0.
+  - *2011-01-01* — If the token is a copy of a noncreature card, it will still have haste, though that won't matter unless that token somehow becomes a creature.
+  - *2011-01-01* — If the token isn't exiled when the delayed triggered ability resolves (due to Stifle, perhaps), it remains on the battlefield indefinitely. It continues to have haste.
+  - *2011-01-01* — The imprint ability will trigger whenever a nontoken creature is put into any graveyard from the battlefield, not just your graveyard.
+  - *2011-01-01* — The token created by the second ability will be a copy of whatever card is exiled with Mimic Vat at the time the ability resolves. This might not be the same card that was exiled with Mimic Vat at the time the ability was activated. It also might not be a creature card.
+  - *2011-01-01* — The token is exiled at the beginning of the next end step regardless of who controls it at that time, whether the exiled card is still exiled at that time, or whether Mimic Vat is still on the battlefield at that time.
+  - *2011-01-01* — You may activate the second ability even if no card has been exiled with Mimic Vat. If no card has been exiled with Mimic Vat by the time the ability resolves, no token will be created.
+  - *2011-01-01* — You may exile a noncreature card with Mimic Vat's first ability. For example, if a nontoken artifact that's become a creature is put into a graveyard from the battlefield, Mimic Vat's first ability triggers and you may exile that card.
+  - *2016-07-13* — If a melded permanent dies and triggers Mimic Vat's triggered ability, both of its component cards are exiled. As Mimic Vat's second ability resolves, its controller chooses one of those cards to make a token copy of.
+  - *2018-07-13* — If the creature that dies is an instant or sorcery card that's been manifested, Mimic Vat may have a nonpermanent card exiled. You can't create a token that's a copy of a nonpermanent card. No token is created in this case.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/372/mimic-vat) · oracle_id `6ebdc9f3-6b23-4716-8011-48f00d7e30c8` · printing: NCC #372 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Miming Slime
 

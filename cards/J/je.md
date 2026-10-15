@@ -94,7 +94,17 @@
   > Menace
 - **Keywords:** Transform, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6402 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/104/jecht-reluctant-guardian-braskas-final-aeon) · oracle_id `b6cebf8d-37e1-42de-b3f1-1c174ab17ac8` · printing: FIN #104 (2025-06-13) · [rulings](https://api.scryfall.com/cards/4ec91fe8-b3da-47fa-b45e-94b62a260aba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2025-06-06* — A nonmodal double-faced card enters with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed or allows you to cast it transformed, in which case it enters with its back face up.
+  - *2025-06-06* — A token that is created as a copy of a double-faced permanent or a double-faced card in another zone is a double-faced token. It will have both the front face and back face of whatever object it's copying. If it's copying a double-faced permanent whose back face is up, the token will enter with its back face up. It can transform if instructed to do so.
+  - *2025-06-06* — As Braska's Final Aeon's first or second chapter ability resolves, the next opponent in turn order (or, if it's an opponent's turn, that opponent) chooses a card in hand without revealing it, then each other opponent in turn order does the same. Then the chosen cards are discarded at the same time. Finally, you draw a card.
+  - *2025-06-06* — Each face of a nonmodal double-faced card has its own set of characteristics: name, types, subtypes, abilities, and so on. While a nonmodal double-faced permanent is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored.
+  - *2025-06-06* — Each nonmodal double-faced card in this release is cast face up. In every zone other than the battlefield, consider only the characteristics of its front face. If it is on the battlefield, consider only the characteristics of the face that's up; the other face's characteristics are ignored.
+  - *2025-06-06* — If you are instructed to put a card that isn't a double-faced card onto the battlefield transformed, it will not enter at all. In that case, it stays in the zone it was previously in. For example, if a single-faced card is a copy of Crystal Fragments, it will be exiled during the resolution of its second ability and remain in exile.
+  - *2025-06-06* — In the Commander variant, a double-faced card's color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered. For example, Cecil, Dark Knight's color identity is black and white, since its front face is black and its back face has a white color indicator.
+  - *2025-06-06* — The back face of a nonmodal double-faced card usually has a color indicator that defines its color.
+  - *2025-06-06* — The mana value of a nonmodal double-faced card is the mana value of its front face, no matter which face is up.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/104/jecht-reluctant-guardian-braskas-final-aeon) · oracle_id `b6cebf8d-37e1-42de-b3f1-1c174ab17ac8` · printing: FIN #104 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jedit Ojanen
 
@@ -130,7 +140,9 @@
   > *The cat warriors recognized this Jedit's face, but not his fierce loyalty to Efrava.*
 - **Keywords:** Landwalk, Forestwalk
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9790 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/c17/153/jedit-ojanen-of-efrava) · oracle_id `c065a7c0-272b-4b7e-a41c-7164352cd189` · printing: C17 #153 (2017-08-25) · [rulings](https://api.scryfall.com/cards/aba23c7b-27c0-440b-b9b2-f1cd3892ba7b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2007-02-01* — If Jedit Ojanen of Efrava attacks or blocks and a token is created, it will be too late for that token to be declared as an attacker (if it somehow gets haste) or a blocker during that combat phase.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c17/153/jedit-ojanen-of-efrava) · oracle_id `c065a7c0-272b-4b7e-a41c-7164352cd189` · printing: C17 #153 (2017-08-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jedit's Dragoons
 
@@ -181,7 +193,13 @@
   > {T}: Add {W}{U}{B}{R}{G}. This mana can't be spent to pay generic mana costs.
 - **Keywords:** Companion
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3855 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Companion
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/125/jegantha-the-wellspring) · oracle_id `f0587c55-06c1-4930-a62e-668f37464ce9` · printing: ECC #125 (2026-01-23) · [rulings](https://api.scryfall.com/cards/79ec30d9-daf7-4f1d-ac16-4d11e8160d97/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2020-04-17* — A generic mana cost is usually represented by numeric mana symbols ({1}, {2}, and so on) and also {X}. It is any cost requiring mana where that cost isn't {C}, {W}, {U}, {B}, {R}, or {G}.
+  - *2020-04-17* — Jegantha's companion ability compares the exact symbols in the mana costs of cards in your deck. If any one card has the same symbol twice, such as {X}{X}{R} or {(r/g)}{(r/g)}, the companion condition isn't satisfied.
+  - *2020-06-01* *(Scryfall note)* — Once you put your companion into your hand, it behaves like any other card you’ve brought into the game. For example, if it’s countered or destroyed, it’s put into your graveyard, remaining in the game.
+  - *2020-06-01* *(Scryfall note)* — Wizards of the Coast has issued functional errata for the Companion mechanic. Instead of casting companions from outside the game: Once per game, any time you could cast a sorcery (during your main phase when the stack is empty), you can pay {3} to put your companion from your sideboard into your hand. This is a special action, not an activated ability. It happens immediately and can’t be responded to. It can’t be countered or stopped by cards like Phyrexian Revoker. For more information please see https://magic.wizards.com/en/articles/archive/news/june-1-2020-banned-and-restricted-announcement
+  - *2023-04-14* — You can spend mana from Jegantha's mana ability to pay for a hybrid symbol such as {2/W}, but only if you choose to pay the colored mana component, not the generic mana component.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/125/jegantha-the-wellspring) · oracle_id `f0587c55-06c1-4930-a62e-668f37464ce9` · printing: ECC #125 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jelenn Sphinx
 
@@ -254,6 +272,7 @@
   > Whenever a creature you control is dealt damage, you may have The Sensational She-Hulk deal that much damage to any target. Do this only once each turn.
 - **Keywords:** Reach, Transform, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7291 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/18/jennifer-walters-the-sensational-she-hulk) · oracle_id `c867a778-97ef-4872-b890-b088b96a1281` · printing: MSH #18 (2026-06-26) · [rulings](https://api.scryfall.com/cards/61237530-ad49-469c-a952-67c92315708e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jennika, Bad Apple Big Sister
@@ -320,7 +339,11 @@
   > At the beginning of combat on your turn, put a number of +1/+1 counters equal to Jenova's power on up to one other target creature. That creature becomes a Mutant in addition to its other types.
   > Whenever a Mutant you control dies during your turn, you draw cards equal to its power.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4145 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/228/jenova-ancient-calamity) · oracle_id `9370f6bf-d6a0-4c5b-828f-7229f563cc07` · printing: FIN #228 (2025-06-13) · [rulings](https://api.scryfall.com/cards/534f98ee-7bc2-44d6-b49f-f57c051807d5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-06-06* — If Jenova dies at the same time as one or more Mutants you control, its last ability will trigger for each of those Mutants (including itself if it somehow became a mutant).
+  - *2025-06-06* — If Jenova isn't on the battlefield at the time its first ability resolves, use Jenova's power as it last existed on the battlefield to determine how many counters to put on the target creature.
+  - *2025-06-06* — Use the power of the Mutant that died as it last existed on the battlefield to determine how many cards to draw with Jenova's last ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/228/jenova-ancient-calamity) · oracle_id `9370f6bf-d6a0-4c5b-828f-7229f563cc07` · printing: FIN #228 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jenson Carthalion, Druid Exile
 
@@ -334,6 +357,7 @@
   > *He was born with the crescent-moon Mark of the Elder Druid, tying his fate to the druids of the Juniper Order.*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7939 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/3/jenson-carthalion-druid-exile) · oracle_id `68cefb44-afad-4638-8fdc-65a099b51d55` · printing: DMC #3 (2022-09-09) · [rulings](https://api.scryfall.com/cards/6a67f32c-4c9a-4bda-92f4-037b99999777/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jeong Jeong's Deserters
@@ -423,6 +447,7 @@
   > Whenever you cast a noncreature spell, creatures you control get +1/+1 until end of turn. Untap those creatures.
   > Whenever you cast a noncreature spell, you may draw a card. If you do, discard a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2727 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/231/jeskai-ascendancy) · oracle_id `c3c802ba-dfbb-4f63-ae9a-e29c2e30013d` · printing: 2X2 #231 (2022-07-08) · [rulings](https://api.scryfall.com/cards/9a8399fc-4cba-44c5-888e-2cfc0f6739f6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jeskai Baller
@@ -460,6 +485,7 @@
   > When this creature enters, you may return another target creature you control to its owner's hand.
 - **Keywords:** Flash, Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7289 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/frf/15/jeskai-barricade) · oracle_id `7a2fa0a6-1324-4714-8896-6bb97640578a` · printing: FRF #15 (2015-01-23) · [rulings](https://api.scryfall.com/cards/3aa2d511-6eec-42dd-9ebe-1260c8527856/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jeskai Brushmaster
@@ -486,6 +512,7 @@
   > • Jeskai Charm deals 4 damage to target opponent or planeswalker.
   > • Creatures you control get +1/+1 and gain lifelink until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9186 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/232/jeskai-charm) · oracle_id `2a9a05b4-1910-4f97-a0fe-0f57017f6df0` · printing: 2X2 #232 (2022-07-08) · [rulings](https://api.scryfall.com/cards/d4c0fcdb-a312-4976-bcfb-73930c0a556c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jeskai Devotee
@@ -651,7 +678,18 @@
   > Partner
 - **Keywords:** Triple, Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4666 · Game Changer: no · Can be commander: Yes (Oracle text: "can be your commander") · Pairing: Partner
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/186/jeska-thrice-reborn) · oracle_id `b1fbfcf3-6921-4417-a58e-0f5e5d34a105` · printing: CMR #186 (2020-11-20) · [rulings](https://api.scryfall.com/cards/48caf4c4-745c-4072-bf3d-1a3fa7c3bc9c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2020-11-10* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2020-11-10* — Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+  - *2020-11-10* — For a creature affected by Jeska's second ability, if that creature has trample, only the damage dealt to the defending player is tripled (as long as that player is one of your opponents). For example, say you activate that ability targeting a 5/5 creature with trample, attack one of your opponents with that creature, and that creature is blocked by a 3/3 creature. You could assign 3 damage to the blocking creature and 2 damage to the defending player. If you did, your attacker would deal 3 damage to the blocking creature and 6 damage (2 damage tripled) to the defending player. All of the damage remains combat damage.
+  - *2020-11-10* — If a creature is targeted by Jeska's second ability twice, combat damage it would deal one of your opponents is multiplied by nine. Three abilities multiply the damage by twenty-seven, and so on.
+  - *2020-11-10* — If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+  - *2020-11-10* — If you cast Jeska, Thrice Reborn and she is your commander, that casting counts for her first ability.
+  - *2020-11-10* — If your Commander deck has two commanders, you can only include cards whose own color identities are also found in your commanders' combined color identities. If Falthis and Kediss are your commanders, your deck may contain cards with black and/or red in their color identity, but not cards with green, white, or blue.
+  - *2020-11-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from any one of them, not from both of them combined.
+  - *2020-11-10* — To have two commanders, both must have the partner ability as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
+  - *2020-11-10* — You can choose two commanders with partner that are the same color or colors. In Commander Draft, you can even choose two of the same commander with partner if you drafted them. If you do this, make sure you keep the number of times you've cast each from the command zone clear for "commander tax" purposes.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/186/jeska-thrice-reborn) · oracle_id `b1fbfcf3-6921-4417-a58e-0f5e5d34a105` · printing: CMR #186 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jeska, Warrior Adept
 
@@ -790,7 +828,9 @@
   > Creatures you control also get +1/+0 and have trample as long as you control six or more creatures.
   > Creatures you control also get +1/+0 and have double strike as long as you control nine or more creatures.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2257 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/snc/193/jetmir-nexus-of-revels) · oracle_id `da72a4bc-ce6f-4b72-bc66-2ee33cfa87df` · printing: SNC #193 (2022-04-29) · [rulings](https://api.scryfall.com/cards/f9c69d75-651f-4b75-b65d-79999d2069f6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-04-29* — If a creature with double strike loses double strike after dealing damage during the first combat damage step but before dealing damage in the second combat damage step, it will not deal damage during that second combat damage step. Notably, this means that if your ninth creature dies in the first combat damage step, the rest of your creatures won't deal combat damage again unless something else is granting them double strike.
+- **Source flags:** [Scryfall](https://scryfall.com/card/snc/193/jetmir-nexus-of-revels) · oracle_id `da72a4bc-ce6f-4b72-bc66-2ee33cfa87df` · printing: SNC #193 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jetmir's Fixer
 
@@ -890,7 +930,10 @@
   > {1}, {T}: Put a charge counter on this artifact. Note the type of mana spent to pay this activation cost. Activate only if there are no charge counters on this artifact.
   > {T}, Remove a charge counter from this artifact: Add one mana of this artifact's last noted type.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3527 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mbc/75/jeweled-amulet) · oracle_id `e2ad4b4d-d5fe-4a64-9b40-296c8fc8bcce` · printing: MBC #75 (2026-10-19) · [rulings](https://api.scryfall.com/cards/d3656079-0b27-4169-a792-2629eff8ea56/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-10-01* — Charge counters are indistinguishable from one another. If some other spell or ability (such as Power Conduit’s ability) puts a charge counter on Jeweled Amulet, activating Jeweled Amulet’s second ability will still check the type of mana last noted by its first ability. If there is no type of mana noted by its first ability (because it hasn’t been activated by that point), the second ability will produce no mana.
+  - *2008-10-01* — The types of mana are white, blue, black, red, green, and colorless.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mbc/75/jeweled-amulet) · oracle_id `e2ad4b4d-d5fe-4a64-9b40-296c8fc8bcce` · printing: MBC #75 (2026-10-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jeweled Bird
 

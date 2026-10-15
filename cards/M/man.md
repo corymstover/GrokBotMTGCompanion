@@ -122,7 +122,13 @@
   > *"I don't know why people say a double-edged sword is bad. It's a sword. With two edges."*
   > *—Kamahl, pit fighter*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2295 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m12/150/manabarbs) · oracle_id `0f1afedd-c60f-454f-b84a-c8117aec0128` · printing: M12 #150 (2011-07-15) · [rulings](https://api.scryfall.com/cards/adf081d5-e644-4f46-8bc8-a754b089acb4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2004-10-04* — This card has a triggered ability that causes a separate effect for 1 point of damage each time a land is tapped for mana.
+  - *2009-10-01* — If any lands are tapped for mana while a player is casting a spell or activating an ability, Manabarbs’s ability will trigger that many times and wait. When the player finishes casting that spell or activating that ability, it’s put on the stack, then Manabarbs’s triggered abilities are put on the stack on top of it. The Manabarbs abilities will resolve first.
+  - *2009-10-01* — On the other hand, a player can tap lands for mana, let the Manabarbs triggered abilities be put on the stack, and then respond to those abilities by casting an instant or activating an ability using that mana. In that case, the spell or ability will resolve first.
+  - *2009-10-01* — The ability will trigger each time a land is tapped for mana. Each ability is separate.
+  - *2009-10-01* — This ability is not a mana ability. It goes on the stack and can be responded to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m12/150/manabarbs) · oracle_id `0f1afedd-c60f-454f-b84a-c8117aec0128` · printing: M12 #150 (2011-07-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mana Bloom
 
@@ -133,7 +139,9 @@
   > Remove a charge counter from this enchantment: Add one mana of any color. Activate only once each turn.
   > At the beginning of your upkeep, if this enchantment has no charge counters on it, return it to its owner's hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9045 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/275/mana-bloom) · oracle_id `7c699180-d18e-4599-acd1-27b951d82136` · printing: SOC #275 (2026-04-24) · [rulings](https://api.scryfall.com/cards/03a40bf7-5eb9-4b36-9388-48b482a6fcf2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2012-10-01* — Mana Bloom's last ability will trigger only if it has no charge counters on it at the beginning of your upkeep. If it has one charge counter on it as your turn begins, you won't have priority to remove the counter until after this check.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/275/mana-bloom) · oracle_id `7c699180-d18e-4599-acd1-27b951d82136` · printing: SOC #275 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Manabond
 
@@ -175,6 +183,7 @@
   > *"I hate the smell of charred Phyrexian, but it sure beats the alternative!"*
   > *—Jaya*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9687 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/7/mana-cannons) · oracle_id `26d28b68-e03b-4367-ae4b-5e54f42f8a88` · printing: DMC #7 (2022-09-09) · [rulings](https://api.scryfall.com/cards/5ba12cfc-36d3-4f9c-950e-3ed8b8f105fd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mana Chains
@@ -210,7 +219,11 @@
 - **Oracle text:**
   > You and target opponent each flip a coin. Mana Clash deals 1 damage to each player whose coin comes up tails. Repeat this process until both players' coins come up heads on the same flip.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8152 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/9ed/203/mana-clash) · oracle_id `a2f5a5fd-14dc-48e8-bdb0-984a83288023` · printing: 9ED #203 (2005-07-29) · [rulings](https://api.scryfall.com/cards/bd41352f-617f-40f6-b612-11022180c18b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-10-04* — Always affects the player and targets one of their opponents.
+  - *2004-10-04* — Each point of damage is dealt separately, so if you are damaged twice by this spell, each time is considered a separate time this source deals damage.
+  - *2004-10-04* — This card’s coin flip has no winner or loser.
+- **Source flags:** [Scryfall](https://scryfall.com/card/9ed/203/mana-clash) · oracle_id `a2f5a5fd-14dc-48e8-bdb0-984a83288023` · printing: 9ED #203 (2005-07-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Manacles of Decay
 
@@ -292,7 +305,11 @@
 - **Flavor text** (2XM printing):
   > *When the ground is saturated with mana, even the lightest footstep can bring it to the surface.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4036 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/136/mana-echoes) · oracle_id `369e90e5-a31b-49cc-b594-8a853f244be1` · printing: 2XM #136 (2020-08-07) · [rulings](https://api.scryfall.com/cards/bd079929-fa58-4484-91b7-31305b87ee43/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-08-07* — Mana Echoes counts the number of creatures that share a type, not how many types they share. For example, if a Human Warrior enters while you control two Humans and two other Human Warriors, you'll add five {C}.
+  - *2020-08-07* — The amount of mana to add is determined only as the triggered ability of Mana Echoes resolves. The ability isn't a mana ability; players may respond to it.
+  - *2020-08-07* — The creature entering the battlefield shares a creature type with itself if it has any creature types, so Mana Echoes usually adds at least {C}.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/136/mana-echoes) · oracle_id `369e90e5-a31b-49cc-b594-8a853f244be1` · printing: 2XM #136 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mana Flair
 
@@ -314,7 +331,11 @@
 - **Oracle text:**
   > Whenever a player taps a land for mana, that player adds one mana of any type that land produced.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3337 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me1/103/mana-flare) · oracle_id `97159138-c34b-416e-b079-5c952383a243` · printing: ME1 #103 (2007-09-10) · [rulings](https://api.scryfall.com/cards/a4bb303d-b230-430a-a2c3-f91a776de34e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-09-01* — If you tap a land for more than one mana, you choose one type that was produced and add one mana of that type.
+  - *2023-09-01* — Mana Flare doesn't care about any restrictions or riders your lands put on the mana they produce, such as those of Unclaimed Territory and Cavern of Souls. It just produces one mana of the appropriate type, with no restrictions or riders.
+  - *2023-09-01* — The types of mana are white, blue, black, red, green, and colorless.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me1/103/mana-flare) · oracle_id `97159138-c34b-416e-b079-5c952383a243` · printing: ME1 #103 (2007-09-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Manaforce Mace
 
@@ -351,7 +372,9 @@
   > Whenever you cast a noncreature spell, create an X/X red Dragon Illusion creature token with flying and haste, where X is the amount of mana spent to cast that spell. Exile that token at the beginning of the next end step.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5305 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/248/manaform-hellkite) · oracle_id `f426aa1a-e1dc-4563-b450-2e23d6bd980b` · printing: SOC #248 (2026-04-24) · [rulings](https://api.scryfall.com/cards/0a559655-0967-41b9-8248-170f95c05f84/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-11-19* — Manaform Hellkite's triggered ability looks at the mana that was actually spent to cast the spell, which may be different than the mana cost of that spell. For example, if you cast a noncreature spell without paying its mana cost, this ability creates a 0/0 Dragon Illusion token. In most cases, such a creature would immediately be put into your graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/248/manaform-hellkite) · oracle_id `f426aa1a-e1dc-4563-b450-2e23d6bd980b` · printing: SOC #248 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mana Geode
 
@@ -365,6 +388,7 @@
   > *—Saheeli Rai*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6976 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/472/mana-geode) · oracle_id `0844f4e6-2b98-4d09-a5c5-92f0a3b6a517` · printing: JMP #472 (2020-07-17) · [rulings](https://api.scryfall.com/cards/f8c54d41-683e-42fd-8aa4-371dddf3bcb3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mana Geyser
@@ -389,7 +413,9 @@
   > Whenever a player casts a spell, put a +1/+1 counter on this creature.
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1020 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/307/managorger-hydra) · oracle_id `b3f2265b-dd65-4b74-8b74-35ee0b147617` · printing: MOC #307 (2023-04-21) · [rulings](https://api.scryfall.com/cards/e9c124d7-b4b1-43cf-9830-1244053cc056/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2015-06-22* — Managorger Hydra's last ability will resolve before the spell that caused it to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/307/managorger-hydra) · oracle_id `b3f2265b-dd65-4b74-8b74-35ee0b147617` · printing: MOC #307 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Manakin
 
@@ -402,6 +428,7 @@
   > *"Each night, the artificer tucked the little doll into a locked drawer. Each morning, she awoke to find it waiting beside her with some new bauble."*
   > *—"The Artificer's Apprentice"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4267 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ima/218/manakin) · oracle_id `d2343af0-468b-42bc-8a0c-347c10f7e2f3` · printing: IMA #218 (2017-11-17) · [rulings](https://api.scryfall.com/cards/9f91e78e-9297-4ae3-b55f-d73e79d0d21a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Manakin and Millikin
@@ -448,6 +475,7 @@
   > *"Though the afterlife, the city, and even the God-Pharaoh himself were one great deception, the ideals championed by the gods remain true."*
   > *—Djeru, former Tah-crop initiate*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7221 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gnt/54/manalith) · oracle_id `bd9e416a-89b3-4912-be9b-49fce6a93dc9` · printing: GNT #54 (2018-11-16) · [rulings](https://api.scryfall.com/cards/f0d7d904-f29b-4524-9223-27910d748bdb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mana Matrix
@@ -494,7 +522,9 @@
   > *"Master the chaotic forces of nature, and you shall master magic."*
   > *—Yare-Tiva, warden of Gramur forest*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2326 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/208/manamorphose) · oracle_id `89c83a6d-f6c8-4984-a888-0db62dfb93b1` · printing: 2XM #208 (2020-08-07) · [rulings](https://api.scryfall.com/cards/faf9070e-14be-4ce5-a19a-6addc79359c1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-08-07* — You choose which color or colors of mana to add before you draw a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/208/manamorphose) · oracle_id `89c83a6d-f6c8-4984-a888-0db62dfb93b1` · printing: 2XM #208 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Manaplasm
 
@@ -527,7 +557,12 @@
 - **Flavor text** (2XM printing):
   > *The greatest wonders of nature are found in the smallest saplings straining toward the canopy.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1833 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/175/mana-reflection) · oracle_id `a3a8a044-283d-443e-bc40-c2f826d70c22` · printing: 2XM #175 (2020-08-07) · [rulings](https://api.scryfall.com/cards/81e0d739-990f-4ba5-b456-165c033014cf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-08-07* — If an ability triggers “whenever you tap” something for mana and produces mana, that triggered mana ability won't be affected by Mana Reflection.
+  - *2020-08-07* — Mana Reflection doesn't produce any mana itself. Rather, it causes permanents you tap for mana to produce more mana. If the mana ability of that permanent puts any restrictions or riders on the mana it produces, that will apply to all the mana it produces this way.
+  - *2020-08-07* — The effects of multiple Mana Reflections are cumulative. For example, if you have two Mana Reflections on the battlefield, you'll get four times the original amount and type of mana. If you have three, you'll get eight times the mana, and so on.
+  - *2020-08-07* — You're “tapping a permanent for mana” only if you're activating a mana ability of that permanent that includes the {T} symbol in its cost. A mana ability produces mana as part of its effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/175/mana-reflection) · oracle_id `a3a8a044-283d-443e-bc40-c2f826d70c22` · printing: 2XM #175 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Manascape Refractor
 
@@ -560,7 +595,9 @@
 - **Flavor text** (SOS printing):
   > *The harder a foe strikes, the stronger a Dragonsguard's defenses become.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3408 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/57/mana-sculpt) · oracle_id `35e2f82e-7ca3-4a92-9134-b7999eef5337` · printing: SOS #57 (2026-04-24) · [rulings](https://api.scryfall.com/cards/200c8e3d-c53b-40c7-a29a-fccc1281bfc6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-03-20* — If the target spell is an illegal target when Mana Sculpt tries to resolve, it won't resolve and none of its effects will happen. You won't add mana at the beginning of your next main phase. If the target is legal but not countered (probably because an effect says that spell can't be countered) and you control a Wizard, you'll still add mana.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/57/mana-sculpt) · oracle_id `35e2f82e-7ca3-4a92-9134-b7999eef5337` · printing: SOS #57 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mana Seism
 
@@ -622,7 +659,9 @@
   > *"Those who seek to upset the balance must be taxed for such ambitions."*
   > *—Verithain, mesa high priest*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2147 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/26/mana-tithe) · oracle_id `948217ac-289e-455f-8c7c-519aa75fa345` · printing: TSR #26 (2021-03-19) · [rulings](https://api.scryfall.com/cards/9ae707d5-d81d-4320-b947-6016dc188898/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — The payment is optional.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/26/mana-tithe) · oracle_id `948217ac-289e-455f-8c7c-519aa75fa345` · printing: TSR #26 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mana Vapors
 
@@ -678,7 +717,10 @@
 - **Flavor text** (CMM printing):
   > *Their pearlescent scales are highly sought after by those who lack the instincts for self-preservation.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3282 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/900/manaweft-sliver) · oracle_id `bd47398d-da35-4a09-8754-771af91b14f4` · printing: CMM #900 (2023-08-04) · [rulings](https://api.scryfall.com/cards/e51629ac-51d5-47cb-a7fc-315b34dd82ce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-07-01* — Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn’t provide any additional benefit.
+  - *2013-07-01* — If you change the creature type of a Sliver you control so it’s no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/900/manaweft-sliver) · oracle_id `bd47398d-da35-4a09-8754-771af91b14f4` · printing: CMM #900 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mandate of Abaddon
 
@@ -690,7 +732,9 @@
   > *"I am the Arch-fiend, the Despoiler of Worlds, and by my hands shall the false Emperor fall."*
   > *—Abaddon the Despoiler*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4840 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/40k/40/mandate-of-abaddon) · oracle_id `20582c7b-edd3-4189-98ec-8fabd39034b0` · printing: 40K #40 (2022-10-07) · [rulings](https://api.scryfall.com/cards/b63fa88b-a177-49b7-a583-a0a041313f77/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-10-07* — If the chosen creature is an illegal target as Mandate of Abaddon tries to resolve, it will be removed from the stack and no creatures will be destroyed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/40k/40/mandate-of-abaddon) · oracle_id `20582c7b-edd3-4189-98ec-8fabd39034b0` · printing: 40K #40 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mandate of Peace
 
@@ -701,7 +745,16 @@
   > Your opponents can't cast spells this turn.
   > End the combat phase. (Remove all attackers and blockers from combat. Exile all spells and abilities from the stack, including this spell.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7692 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c19/4/mandate-of-peace) · oracle_id `c309ec42-34a0-4083-a36c-7814643d7960` · printing: C19 #4 (2019-08-23) · [rulings](https://api.scryfall.com/cards/d243055f-892e-4042-9694-13d5e99e3550/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2019-08-23* — Any “at end of combat” triggered abilities won’t get the chance to trigger that combat because the end of combat step is skipped.
+  - *2019-08-23* — Ending the combat phase this way means the following things happen in order: 1) All spells and abilities on the stack are exiled. This includes spells and abilities that can’t be countered. 2) State-based actions are checked. No player gets priority, and no triggered abilities are put onto the stack. 3) The current phase and step ends. The game skips straight to the postcombat main phase. As this happens, all attacking and blocking creatures are removed from combat and effects that last “until end of combat” expire.
+  - *2019-08-23* — If an effect allows or instructs you to cast Mandate of Peace outside of a combat phase, you can’t do so. Its restriction takes precedence over that permission. Similarly, once Mandate of Peace has resolved, your opponents can’t cast spells even if another effect allows or instructs one of them to cast a spell.
+  - *2019-08-23* — If any triggered abilities trigger during this process, they’re put onto the stack after the game skips to the appropriate phase or step.
+  - *2019-08-23* — In the rare case that the postcombat main phase is skipped, the game skips to the end step of the ending phase. If that step is also skipped, the game skips straight to the turn’s cleanup step. The cleanup step can’t be skipped.
+  - *2019-08-23* — Mandate of Peace doesn’t stop any player from casting spells in response to Mandate of Peace before it resolves.
+  - *2019-08-23* — Though other spells and abilities that are exiled won’t get a chance to resolve, they don’t count as being countered.
+  - *2019-08-23* — Your opponents can still activate abilities, including abilities of cards in their hand (such as cycling abilities), and can still play lands.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c19/4/mandate-of-peace) · oracle_id `c309ec42-34a0-4083-a36c-7814643d7960` · printing: C19 #4 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mandatory Friendship Shackles
 
@@ -738,7 +791,12 @@
   > *The Machine Orthodoxy finds skin impure, and will not sully their creations with impure material.*
 - **Keywords:** Equip, Living weapon
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9779 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/34/mandibular-kite) · oracle_id `bca9f65e-ea7a-4b8d-ab0f-c2672fa967f0` · printing: MH3 #34 (2024-06-14) · [rulings](https://api.scryfall.com/cards/6b922f71-18e6-4a74-b792-d477d4a1deca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-06-07* — If the Phyrexian Germ token is destroyed, the Equipment remains on the battlefield as with any other Equipment.
+  - *2024-06-07* — If the living weapon trigger causes two Phyrexian Germs to be created (due to an effect such as that of Doubling Season), the Equipment becomes attached to one of them. The other will be put into your graveyard and subsequently cease to exist, unless another effect raises its toughness above 0.
+  - *2024-06-07* — Like other Equipment, each Equipment with living weapon has an equip cost. You can pay this cost to attach an Equipment to another creature you control. Once the Phyrexian Germ token is no longer equipped, it will be put into your graveyard and subsequently cease to exist, unless another effect raises its toughness above 0.
+  - *2024-06-07* — The Phyrexian Germ token enters the battlefield as a 0/0 creature and the Equipment becomes attached to it before state-based actions would cause the token to die. Abilities that trigger as the token enters the battlefield see that a 0/0 creature entered the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/34/mandibular-kite) · oracle_id `bca9f65e-ea7a-4b8d-ab0f-c2672fa967f0` · printing: MH3 #34 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mandroid Squadron
 
@@ -840,7 +898,9 @@
   > *"Rely too much on your weapons and watch your dreams shatter in your hands."*
   > *—Rhonas, god of strength*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2328 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/akh/175/manglehorn) · oracle_id `b67db32b-30a9-49d2-b4c2-90a9f80c36eb` · printing: AKH #175 (2017-04-28) · [rulings](https://api.scryfall.com/cards/0aa3a844-97e6-4f5d-a36f-56fea4e06932/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-04-18* — If an artifact enters the battlefield under an opponent’s control at the same time that Manglehorn enters the battlefield under your control, that artifact won’t enter tapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/akh/175/manglehorn) · oracle_id `b67db32b-30a9-49d2-b4c2-90a9f80c36eb` · printing: AKH #175 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Manhole Cover
 
@@ -947,7 +1007,9 @@
   > *"Finally! It was worth the price to never have to fiddle with lockpicks ever again."*
   > *—Davvry Mineshadow, thief*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1018 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/319/manifold-key) · oracle_id `370c37f7-2484-40e8-8fd9-c10cf6f5d5f2` · printing: CLB #319 (2022-06-10) · [rulings](https://api.scryfall.com/cards/0f5a15cd-a359-48c9-9280-ce139f1fb061/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-03-19* — Activating Manifold Key's last ability after a creature has become blocked won't cause that creature to become unblocked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/319/manifold-key) · oracle_id `370c37f7-2484-40e8-8fd9-c10cf6f5d5f2` · printing: CLB #319 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Manifold Mouse
 
@@ -1023,6 +1085,7 @@
 - **Flavor text** (CLB printing):
   > *A barrier that shields privileged eyes from the city's woes.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2502 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/356/manor-gate) · oracle_id `dd6e67c0-66a1-49b7-8a86-3cf4b209fd07` · printing: CLB #356 (2022-06-10) · [rulings](https://api.scryfall.com/cards/793d4978-9e00-453d-8dc2-6d51ad6c26b7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Manor Skeleton
@@ -1050,7 +1113,9 @@
   > *"Beauty to the eye does not always translate to the touch."*
   > *—Naimah, Femeref philosopher*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8138 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/58/man-o-war) · oracle_id `67a3541c-8408-40c8-b44f-90035b860f57` · printing: DMR #58 (2023-01-13) · [rulings](https://api.scryfall.com/cards/a1ef40d5-c287-4229-8059-3505d9f251ca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-06-14* — If there are no other creatures on the battlefield when Man-o'-War enters the battlefield, its ability must target itself.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/58/man-o-war) · oracle_id `67a3541c-8408-40c8-b44f-90035b860f57` · printing: DMR #58 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Manriki-Gusari
 
@@ -1173,7 +1238,11 @@
   > Enchanted creature gets +1/+1 for each Aura and Equipment attached to it.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1431 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afc/8/mantle-of-the-ancients) · oracle_id `7424560f-557f-4bc9-a3e7-eb890c73aaa3` · printing: AFC #8 (2021-07-23) · [rulings](https://api.scryfall.com/cards/867124fc-c8e4-4e0e-be41-b74a6bb34e86/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-07-23* — As the enters-the-battlefield ability is resolving, any targets that couldn't be legally attached to the creature enchanted by Mantle of the Ancients stay in your graveyard.
+  - *2021-07-23* — If Mantle of the Ancients becomes attached to a different creature in response to its enters-the-battlefield ability, the creature it's attached to as that ability is resolving is the "enchanted creature," even though you used the original enchanted creature to choose targets. This means some of those targets may become illegal.
+  - *2021-07-23* — If Mantle of the Ancients leaves the battlefield before its enters-the-battlefield ability resolves, the last permanent it was attached to before leaving the battlefield is the "enchanted creature" (even if that permanent is no longer a creature).
+- **Source flags:** [Scryfall](https://scryfall.com/card/afc/8/mantle-of-the-ancients) · oracle_id `7424560f-557f-4bc9-a3e7-eb890c73aaa3` · printing: AFC #8 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mantle of the Wolf
 
@@ -1226,4 +1295,8 @@
   > *"No! My cabbages!"*
 - **Keywords:** Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1979 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tle/169/many-partings) · oracle_id `92ea750e-62b7-4422-a527-ddf435759d08` · printing: TLE #169 (2025-11-21) · [rulings](https://api.scryfall.com/cards/29267b6b-e0d9-4514-8932-16bf8e6db3bb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tle/169/many-partings) · oracle_id `92ea750e-62b7-4422-a527-ddf435759d08` · printing: TLE #169 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -251,7 +251,15 @@
   > Whenever this creature deals combat damage to a player, return target permanent card from your graveyard to your hand.
 - **Keywords:** Ninjutsu
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8011 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/208/spring-leaf-avenger) · oracle_id `19797dd6-6f48-47bc-a9ac-84d4acad3fa5` · printing: NEO #208 (2022-02-18) · [rulings](https://api.scryfall.com/cards/74b1ba9c-ee62-461f-8422-f791274e2f1c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2022-02-18* — Although the Ninja is attacking, it was never declared as an attacking creature (for purposes of abilities that trigger whenever a creature attacks, for example).
+  - *2022-02-18* — As you activate a ninjutsu ability, you reveal the Ninja card in your hand and return the attacking creature. The Ninja card stays revealed and isn't put onto the battlefield until the ability resolves. If it leaves your hand before then, it won't enter the battlefield at all.
+  - *2022-02-18* — If a creature in combat has first strike or double strike, you can activate the ninjutsu ability during the first-strike combat damage step. The Ninja will deal combat damage during the regular combat damage step, even if it has first strike.
+  - *2022-02-18* — Puff of smoke not included.
+  - *2022-02-18* — The creature with ninjutsu enters the battlefield attacking the same player or planeswalker that the returned creature was attacking. This is a rule specific to ninjutsu; in other cases, when a creature is put onto the battlefield attacking, that creature's controller chooses which player or planeswalker it's attacking.
+  - *2022-02-18* — The ninjutsu ability can be activated during the declare blockers step, combat damage step, or end of combat step. In most cases (see below), if you wait until the combatdamage step or end of combat step, it will be after combat damage has been dealt, so the Ninja won't deal combat damage.
+  - *2022-02-18* — The ninjutsu ability can be activated only after blockers have been declared. Before then, attacking creatures are neither blocked nor unblocked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/208/spring-leaf-avenger) · oracle_id `19797dd6-6f48-47bc-a9ac-84d4acad3fa5` · printing: NEO #208 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Springleaf Drum
 
@@ -278,6 +286,7 @@
   > *"Come into the light, strange one. All are welcome to bask in Eirdu's glow."*
   > *—Kithkin rite-leader*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1802 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/19/springleaf-parade) · oracle_id `b1305916-53cc-4021-897e-bbefc65dce78` · printing: ECC #19 (2026-01-23) · [rulings](https://api.scryfall.com/cards/44265489-645a-43b0-bc1f-726905b06876/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spring-Loaded Sawblades // Bladewheel Chariot
@@ -390,7 +399,9 @@
   > *Size of a pixie, rage of a hellkite.*
 - **Keywords:** Flying, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6329 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/852/sprite-dragon) · oracle_id `a9d8ab76-70a4-475e-b87e-4737c090553a` · printing: CLB #852 (2022-06-10) · [rulings](https://api.scryfall.com/cards/361385d8-d9c7-4de8-a5c8-683e682779f4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-04-17* — An ability that triggers when a player casts a spell resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/852/sprite-dragon) · oracle_id `a9d8ab76-70a4-475e-b87e-4737c090553a` · printing: CLB #852 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sprite Noble
 
@@ -442,7 +453,9 @@
   > {R}, {T}, Sacrifice a land: Draw a card.
 - **Keywords:** Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6680 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/90/sprouting-goblin) · oracle_id `b0871e12-b156-4fa6-b01c-acaae222b3a5` · printing: EOC #90 (2025-08-01) · [rulings](https://api.scryfall.com/cards/f5555845-0424-4cb6-b373-57a722444a4a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-09-09* — You may search for any land card with one of the basic land types, even if that land isn't a basic land. The basic land types are Plains, Island, Swamp, Mountain, and Forest.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/90/sprouting-goblin) · oracle_id `b0871e12-b156-4fa6-b01c-acaae222b3a5` · printing: EOC #90 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sprouting Phytohydra
 
@@ -504,7 +517,14 @@
   > Create a 1/1 green Saproling creature token.
 - **Keywords:** Buyback, Convoke
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5551 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fut/138/sprout-swarm) · oracle_id `8b33d890-7d67-44a8-a253-e2b171d7ca9d` · printing: FUT #138 (2007-05-04) · [rulings](https://api.scryfall.com/cards/0b915355-4e98-44df-81bd-961a3d3c86b8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-01-12* — Because convoke isn't an alternative cost, it can be used in conjunction with alternative costs.
+  - *2024-01-12* — If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.
+  - *2024-01-12* — Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature's colors.
+  - *2024-01-12* — Tapping an untapped creature that's attacking or blocking to convoke a spell won't cause that creature to stop attacking or blocking.
+  - *2024-01-12* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
+  - *2024-01-12* — You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fut/138/sprout-swarm) · oracle_id `8b33d890-7d67-44a8-a253-e2b171d7ca9d` · printing: FUT #138 (2007-05-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spry and Mighty
 
@@ -515,4 +535,7 @@
 - **Flavor text** (ECL printing):
   > *No matter their size, strength, or demeanor, the brave stand side by side.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8767 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/195/spry-and-mighty) · oracle_id `04cc9177-1ffc-4ac8-a64d-7995b4f33d23` · printing: ECL #195 (2026-01-23) · [rulings](https://api.scryfall.com/cards/152b7374-e991-443f-b6ca-914415635c4a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-11-17* — If you don't control two creatures as Spry and Mighty resolves, the spell won't do anything.
+  - *2025-11-17* — To find the difference between the power of the chosen creatures, subtract the smaller of those two numbers from the larger one. For example, the difference between the power of a 3/3 creature and a 5/3 creature is 2.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/195/spry-and-mighty) · oracle_id `04cc9177-1ffc-4ac8-a64d-7995b4f33d23` · printing: ECL #195 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

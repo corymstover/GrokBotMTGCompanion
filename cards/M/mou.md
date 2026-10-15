@@ -121,7 +121,9 @@
 - **Flavor text** (EOC printing):
   > *The ice that grips Evendo hides a world coveted by both the Eumidians and the Καν.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3123 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/61/mountain-valley) · oracle_id `0b7393aa-d563-45bc-9946-8e7d1729d498` · printing: EOC #61 (2025-08-01) · [rulings](https://api.scryfall.com/cards/3094800e-9994-47c3-9ebc-536bf5de13cd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — You do not have to find a mountain or forest card if you do not want to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/61/mountain-valley) · oracle_id `0b7393aa-d563-45bc-9946-8e7d1729d498` · printing: EOC #61 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mountain Yeti
 
@@ -146,7 +148,10 @@
   > {1}{B}{R}, {T}: Mount Doom deals 1 damage to each opponent.
   > {5}{B}{R}, {T}, Sacrifice Mount Doom and a legendary artifact: Choose up to two creatures, then destroy the rest. Activate only as a sorcery.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1214 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/258/mount-doom) · oracle_id `995c8dac-fd27-468a-abd4-02372cf0c850` · printing: LTR #258 (2023-06-23) · [rulings](https://api.scryfall.com/cards/b5bc71a1-2344-4bc6-aa60-658cec19d0d6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-06-16* — For the last ability, none of the chosen creatures are targets of the ability. You may choose creatures with shroud, for example.
+  - *2023-06-16* — You must follow all normal timing rules for a card you play using Moria Marauder's last ability and, if it's a spell, you must pay its costs to cast it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/258/mount-doom) · oracle_id `995c8dac-fd27-468a-abd4-02372cf0c850` · printing: LTR #258 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mounted Archers
 

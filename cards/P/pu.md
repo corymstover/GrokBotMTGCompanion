@@ -141,7 +141,9 @@
   > When this land enters, sacrifice it unless you tap an untapped artifact or land you control.
   > {T}: Add one mana of any color.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8919 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/265/public-thoroughfare) · oracle_id `de5b995c-9691-4555-9070-66bcbc29f955` · printing: MKM #265 (2024-02-09) · [rulings](https://api.scryfall.com/cards/1f8b915f-3e82-4b05-b963-01ebff7a8f7b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-02-02* — In the unusual case where Public Thoroughfare is untapped as its triggered ability is resolving, you can tap it for its own triggered ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/265/public-thoroughfare) · oracle_id `de5b995c-9691-4555-9070-66bcbc29f955` · printing: MKM #265 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Puca's Covenant
 
@@ -150,7 +152,9 @@
 - **Oracle text:**
   > Whenever a creature you control with a counter on it dies, you may return another target permanent card with mana value less than or equal to the number of counters on that creature from your graveyard to your hand. Do this only once each turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8306 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/18/pucas-covenant) · oracle_id `9b832f87-0bd5-47bd-ab9c-718bd9a6c441` · printing: ECC #18 (2026-01-23) · [rulings](https://api.scryfall.com/cards/1966dbd2-963a-4d37-ab26-c0a0715f523f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-11-17* — If a permanent card in a graveyard has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/18/pucas-covenant) · oracle_id `9b832f87-0bd5-47bd-ab9c-718bd9a6c441` · printing: ECC #18 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Puca's Eye
 
@@ -172,7 +176,11 @@
 - **Oracle text:**
   > At the beginning of your upkeep, you may exchange control of target nonland permanent you control and target nonland permanent an opponent controls with equal or lesser mana value.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9514 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/shm/47/pucas-mischief) · oracle_id `a8e6655c-e63f-4a60-98f6-9d5bf8631488` · printing: SHM #47 (2008-05-02) · [rulings](https://api.scryfall.com/cards/8380bd90-35f2-4936-995b-af6427f61752/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2008-05-01* — Even if you don't plan on exchanging control of any permanents, if you can choose two legal targets when the ability triggers, you must do so. If you can't, then you don't choose any targets.
+  - *2008-05-01* — If either one of the targets becomes illegal (because it leaves the battlefield or for any other reason) by the time the ability resolves, the exchange won't happen. If both targets become illegal, the ability doesn't resolve.
+  - *2008-05-01* — You choose two targets such that as a set, all of the targeting conditions are met. That means, for example, that if you control a nonland permanent whose mana value is lower than any of your opponents' nonland permanents, you can't choose it as a target. (If you did, you'd be unable to choose a second target.)
+- **Source flags:** [Scryfall](https://scryfall.com/card/shm/47/pucas-mischief) · oracle_id `a8e6655c-e63f-4a60-98f6-9d5bf8631488` · printing: SHM #47 (2008-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Puffer Extract
 
@@ -196,7 +204,9 @@
   > *"I don't know whether it hates the mycoids or just loves breaking things. I say we leave it be."*
   > *—Samin, Oltec scout*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5255 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/208/pugnacious-hammerskull) · oracle_id `da989677-3647-46b8-aa56-b2cfb60f7a2a` · printing: LCI #208 (2023-11-17) · [rulings](https://api.scryfall.com/cards/632e5635-a9bc-473a-a885-02e1fd258f7b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-11-10* — If you didn't control another Dinosaur when you declared Pugnacious Hammerskull as an attacker, it doesn't matter whether or not you control one as its ability resolves. You'll still put a stun counter on Pugnacious Hammerskull.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/208/pugnacious-hammerskull) · oracle_id `da989677-3647-46b8-aa56-b2cfb60f7a2a` · printing: LCI #208 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pugnacious Pugilist
 
@@ -220,7 +230,11 @@
   > *It is best to conquer dragons before they hatch.*
   > *—Femeref adage*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8793 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsp/35/pull-from-eternity) · oracle_id `2903bd66-6948-445b-a18a-12e2ce1a86c3` · printing: TSP #35 (2006-10-06) · [rulings](https://api.scryfall.com/cards/3d218091-d218-41ad-b666-c8ab3de7160a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2006-09-25* — If Pull from Eternity affects a card that’s haunting a creature, the haunt effect ends.
+  - *2006-09-25* — If Pull from Eternity affects a suspended card, the card loses its time counters and is no longer suspended. (This doesn’t trigger the last ability of suspend.)
+  - *2006-09-25* — Pull from Eternity targets a card in the exile zone. A card is only face down in the exile zone if the effect that put it there specifically says so.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsp/35/pull-from-eternity) · oracle_id `2903bd66-6948-445b-a18a-12e2ce1a86c3` · printing: TSP #35 (2006-10-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pull from the Deep
 
@@ -254,6 +268,7 @@
 - **Flavor text** (SOC printing):
   > *"Anyone who says a textbook can't end on a cliffhanger has never read volume one of \*Finite Lattice Representation\*!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #939 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/116/pull-from-tomorrow) · oracle_id `b1a23235-3076-475c-a68a-db29cf2a9dba` · printing: SOC #116 (2026-04-24) · [rulings](https://api.scryfall.com/cards/74d8d661-a43f-4cee-87d5-1f74433a283e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pulling Teeth
@@ -275,6 +290,7 @@
 - **Flavor text** (EOE printing):
   > *"That which should not have happened is undone, and a new pattern takes its place."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9904 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/202/pull-through-the-weft) · oracle_id `37bd9e54-c93e-4fec-9b21-6940da75ab7a` · printing: EOE #202 (2025-08-01) · [rulings](https://api.scryfall.com/cards/a70d0877-1a1e-436b-bf8c-0ff6df9efc6a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pull Under
@@ -300,7 +316,12 @@
 - **Flavor text** (TSR printing):
   > *Like a great bellows it hisses, and its kin, both living and dead, are lifted to safety.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8622 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/34/pulmonic-sliver) · oracle_id `f578465d-f3a5-48da-bcab-cffbbdd88be8` · printing: TSR #34 (2021-03-19) · [rulings](https://api.scryfall.com/cards/fc4eb560-97a7-4f5f-bf12-1f9e1be63095/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2013-07-01* — Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn't provide any additional benefit.
+  - *2013-07-01* — If the creature type of a Sliver changes so it's no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures.
+  - *2021-03-19* — If multiple Slivers owned by one player would die at the same time, that player chooses any of those Slivers and puts them on top of their library in any order. They don't reveal this order.
+  - *2021-03-19* — The replacement effect that Pulmonic Sliver grants to all Slivers applies to Pulmonic Sliver and any Slivers that would die at the same time as it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/34/pulmonic-sliver) · oracle_id `f578465d-f3a5-48da-bcab-cffbbdd88be8` · printing: TSR #34 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pulsar Squadron Ace
 
@@ -479,7 +500,10 @@
 - **Oracle text:**
   > {T}, Discard two cards: Draw three cards, then put a fuse counter on this artifact. It deals damage equal to the number of fuse counters on it to target opponent. They gain control of this artifact.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8366 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/spe/26/pumpkin-bombs) · oracle_id `b0695221-a61a-41e4-8195-3eeaaab2d969` · printing: SPE #26 (2025-09-26) · [rulings](https://api.scryfall.com/cards/6e9a83b6-2881-4ba3-96d4-0fd89110837d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-09-19* — Discarding two cards is part of the cost of the ability, so you can't activate the ability if you don't have at least two cards in hand.
+  - *2025-09-19* — If Pumpkin Bombs is no longer on the battlefield as its ability resolves, use the number of fuse counters on it as it last existed on the battlefield to determine how much damage is dealt.
+- **Source flags:** [Scryfall](https://scryfall.com/card/spe/26/pumpkin-bombs) · oracle_id `b0695221-a61a-41e4-8195-3eeaaab2d969` · printing: SPE #26 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Punctuate
 
@@ -648,7 +672,15 @@
   > Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
 - **Keywords:** Flying, Persist
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2602 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/84/puppeteer-clique) · oracle_id `00e0b103-892c-49b3-836d-867fff197bbd` · printing: ECC #84 (2026-01-23) · [rulings](https://api.scryfall.com/cards/ffb08d08-9936-4525-bd72-3c2b77783d7d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2013-06-07* — If a creature with persist stops being a creature, persist will still work.
+  - *2013-06-07* — If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner's graveyard for having 0 or less toughness, persist won't trigger and the card won't return to the battlefield. That's because persist checks the creature's existence just before it leaves the battlefield, and it still has all those counters on it at that point.
+  - *2013-06-07* — If a permanent has multiple instances of persist, they'll each trigger separately, but the redundant instances will have no effect. If one instance returns the card to the battlefield, the next to resolve will do nothing.
+  - *2013-06-07* — If a token with no -1/-1 counters on it has persist, the ability will trigger when the token is put into the graveyard. However, the token will cease to exist and can't return to the battlefield.
+  - *2013-06-07* — If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player's persist creatures will return to the battlefield first, then the active player's persist creatures do the same. The creatures return to the battlefield one at a time.
+  - *2013-06-07* — The persist ability triggers when the permanent is put into a graveyard. Its last known information (that is, how the creature last existed on the battlefield) is used to determine whether it had a -1/-1 counter on it.
+  - *2013-06-07* — When a permanent with persist returns to the battlefield, it's a new object with no memory of or connection to its previous existence.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/84/puppeteer-clique) · oracle_id `00e0b103-892c-49b3-836d-867fff197bbd` · printing: ECC #84 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Puppet Master
 
@@ -682,6 +714,7 @@
 - **Flavor text** (DDE printing):
   > *"Have no illusions," Volrath warned Greven, "about free will."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9667 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dde/22/puppet-strings) · oracle_id `eb810d5c-903e-4ab4-874c-e49a686ca367` · printing: DDE #22 (2010-03-19) · [rulings](https://api.scryfall.com/cards/53e0bb82-c64a-4ae6-962a-7a0c45329159/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Puppet's Verdict
@@ -709,7 +742,10 @@
   > *"Thank you!"*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2434 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/266/pupu-ufo) · oracle_id `b1412eda-e3a4-41b2-932e-795a0ba0f7f8` · printing: FIN #266 (2025-06-13) · [rulings](https://api.scryfall.com/cards/989b52f7-d8a5-4488-9a5d-f14a1d48686d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-06-06* — Putting a land card onto the battlefield with PuPu UFO's first activated ability doesn't count as playing a land. You can put a land card onto the battlefield this way even if you've already played a land for the turn.
+  - *2025-06-06* — Use the number of Towns you control when PuPu UFO's last ability resolves to determine PuPu UFO's new base power.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/266/pupu-ufo) · oracle_id `b1412eda-e3a4-41b2-932e-795a0ba0f7f8` · printing: FIN #266 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pure Intentions
 
@@ -918,7 +954,21 @@
   > {2}{R}: You may put a red creature card or an artifact creature card from your hand onto the battlefield. Sacrifice it at the beginning of the next end step.
 - **Keywords:** Indestructible
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4524 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/150/purphoros-bronze-blooded) · oracle_id `6728b9d0-d3ab-4ba3-af13-63cb83e0ed99` · printing: THB #150 (2020-01-24) · [rulings](https://api.scryfall.com/cards/af3af5c4-0960-44a2-976e-abdf7803c436/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2020-01-24* — As a God enters the battlefield, your devotion to its color will determine whether any replacement effects that affect creatures entering the battlefield apply to that God. Because replacement effects are considered before the God is on the battlefield, the mana symbols in its mana cost won’t be counted when determining this.
+  - *2020-01-24* — Colorless and generic mana symbols ({C}, {0}, {1}, {2}, {X}, and so on) in mana costs of permanents you control don’t count toward your devotion to any color.
+  - *2020-01-24* — Counters put on a God remain on it while it’s not a creature, even if they have no effect.
+  - *2020-01-24* — Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s).
+  - *2020-01-24* — If a God is attacking or blocking and it stops being a creature, it will be removed from combat. It won’t rejoin combat if it resumes being a creature later during that combat.
+  - *2020-01-24* — If a God stops being a creature, it loses the type creature and the creature type God. It continues to be a legendary enchantment.
+  - *2020-01-24* — If an activated ability or triggered ability has an effect that depends on your devotion to a color, you count the number of mana symbols of that color among the mana costs of permanents you control as the ability resolves. The permanent with that ability will be counted if it’s still on the battlefield at that time.
+  - *2020-01-24* — If an effect causes a God to lose all abilities, its ability that causes it to stop being a creature still applies if appropriate.
+  - *2020-01-24* — If you put an Aura on an opponent’s permanent, you still control the Aura, and mana symbols in its mana cost count towards your devotion.
+  - *2020-01-24* — Mana symbols in the text boxes of permanents you control don’t count toward your devotion to any color.
+  - *2020-01-24* — The abilities of Gods function as long as they’re on the battlefield, regardless of whether they’re creatures.
+  - *2020-01-24* — The type-changing ability that can make a God not be a creature functions only on the battlefield. It’s always a creature card in other zones, regardless of your devotion to its color. It’s always a creature spell while it’s on the stack.
+  - *2020-01-24* — When a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not for abilities that trigger whenever a creature enters the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/150/purphoros-bronze-blooded) · oracle_id `6728b9d0-d3ab-4ba3-af13-63cb83e0ed99` · printing: THB #150 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Purphoros, God of the Forge
 
@@ -1074,7 +1124,14 @@
   > *—Velomachus Lorehold*
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8885 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/216/pursue-the-past) · oracle_id `4384996f-aeaa-41ac-aa0e-12d72c887731` · printing: SOS #216 (2026-04-24) · [rulings](https://api.scryfall.com/cards/4584d5f7-b1f1-4c8e-80c5-ad35e44a968e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2026-03-20* — "Flashback [cost]" means "You may cast this card from your graveyard if the resulting spell is an instant or sorcery spell by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2026-03-20* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2026-03-20* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2026-03-20* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2026-03-20* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2026-03-20* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/216/pursue-the-past) · oracle_id `4384996f-aeaa-41ac-aa0e-12d72c887731` · printing: SOS #216 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pursuit of Flight
 
@@ -1215,7 +1272,12 @@
   > *Too stupid to survive, too dumb to die.*
 - **Keywords:** Persist
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3756 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/101/putrid-goblin) · oracle_id `27faa94b-c7a7-45e7-8630-80126fab74ba` · printing: MH1 #101 (2019-06-14) · [rulings](https://api.scryfall.com/cards/333406d5-abcc-4629-a33b-395d0662ba1b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2019-06-14* — If a card with persist is removed from the graveyard after it dies but before the ability trigger resolves, it won’t be returned to the battlefield.
+  - *2019-06-14* — If a creature has +1/+1 counters and -1/-1 counters on it, state-based actions remove the same number of each so that it has only one kind of those counters on it. Putrid Goblin’s persist ability can bring it back again if its -1/-1 counters are removed this way.
+  - *2019-06-14* — If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner’s graveyard for having 0 or less toughness, persist won’t trigger and the card won’t return to the battlefield. That’s because persist checks the creature as it last existed on the battlefield, and it still had -1/-1 counters on it at that point.
+  - *2019-06-14* — Once persist returns the creature, it’s considered a new object with no relation to the object that it was. Auras that were attached to it won’t return to the battlefield. Equipment that was attached to it will remain unattached. Any counters that were on it won’t be put on the new creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/101/putrid-goblin) · oracle_id `27faa94b-c7a7-45e7-8630-80126fab74ba` · printing: MH1 #101 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Putrid Imp
 
@@ -1227,6 +1289,7 @@
   > Threshold — As long as there are seven or more cards in your graveyard, this creature gets +1/+1 and can't block.
 - **Keywords:** Threshold
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5011 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/135/putrid-imp) · oracle_id `7192ff07-9a84-49ad-a40c-ce255ce21544` · printing: VMA #135 (2014-06-16) · [rulings](https://api.scryfall.com/cards/47a929a4-b861-432c-a2f3-3125f8a2665b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Putrid Leech

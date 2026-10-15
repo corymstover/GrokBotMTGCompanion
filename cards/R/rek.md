@@ -46,7 +46,10 @@
   > *"After his death, monks spent ten years transcribing the tattoos from Reki's body and gathering stories from those who spoke with him. Thus the volume you hold was written."*
   > *—\*The History of Kamigawa\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4333 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/sok/142/reki-the-history-of-kamigawa) · oracle_id `8a7d68ae-ac43-46a6-9dc8-d6b07cc0333c` · printing: SOK #142 (2005-06-03) · [rulings](https://api.scryfall.com/cards/86317339-5a39-41eb-8aee-5ea926da8cd4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2005-06-01* — Lands aren’t spells.
+  - *2005-06-01* — Legendary spells are spells of any type that have the supertype legendary.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sok/142/reki-the-history-of-kamigawa) · oracle_id `8a7d68ae-ac43-46a6-9dc8-d6b07cc0333c` · printing: SOK #142 (2005-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reknit
 

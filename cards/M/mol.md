@@ -136,7 +136,40 @@
   > (You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it.)
 - **Keywords:** Manifest, Manifest dread
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8495 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/190/moldering-gym-weight-room) · oracle_id `34d0d070-fcaf-410e-a002-012cbe104fb7` · printing: DSK #190 (2024-09-27) · [rulings](https://api.scryfall.com/cards/245d5a61-c40c-4039-aea8-3ad61415b8f0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (32):
+  - *2024-09-20* — A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent and Auras and Equipment that were attached to that permanent aren't affected unless the new characteristics of the object change the legality of those targets or attachments.
+  - *2024-09-20* — An ability that triggers "when you unlock this door" triggers when that door becomes unlocked. This can happen one of two ways: (1) the door becomes unlocked on the battlefield or (2) the door becomes unlocked as the Room enters the battlefield because you cast the corresponding half. In the latter case, since the door becoming unlocked is what causes the ability to trigger, effects that cause abilities that trigger when a permanent enters to trigger an additional time (such as that of Panharmonicon) won't apply.
+  - *2024-09-20* — An ability that triggers "whenever you fully unlock a Room" triggers when a door becomes unlocked and the other door of that Room is already unlocked, or when both doors of that Room become unlocked simultaneously.
+  - *2024-09-20* — Any time you have priority during a main phase of your turn and the stack is empty, you may pay the mana cost of a locked door (also called its "unlock cost"). That door becomes unlocked. This is a special action. It doesn't use the stack and can't be responded to.
+  - *2024-09-20* — Any time you have priority, you can turn a manifested permanent you control face up by revealing that it's a creature card (ignoring any copy effects or type-changing effects that might be applying to it) and paying its mana cost. This is a special action. It doesn't use the stack and can't be responded to.
+  - *2024-09-20* — At any time, you can look at a face-down spell or permanent you control. You can't look at face-down permanents or spells you don't control unless an effect instructs or allows you to do so.
+  - *2024-09-20* — Because face-down creatures don't have a name, they can't have the same name as any other creature, even another face-down creature.
+  - *2024-09-20* — Because the permanent is on the battlefield both before and after it's turned face up, turning a permanent face up doesn't cause any enters-the-battlefield abilities to trigger.
+  - *2024-09-20* — Each Room card has two names. If an effect instructs you to choose a card name, you may choose one of those names, but not both.
+  - *2024-09-20* — Each Room card is a single card. For example, if you discard a Room card, you've discarded one card, not two. If an effect counts the number of enchantment cards in your graveyard, Bottomless Pool // Locker Room counts once, not twice.
+  - *2024-09-20* — If a Room enters from any zone other than the stack, it will enter with both halves locked.
+  - *2024-09-20* — If a double-faced card is manifested, it will be put onto the battlefield face down. While face down, it can't transform. If the front face of the card is a creature card, you can turn it face up by paying its mana cost. If you do, its front face will be up.
+  - *2024-09-20* — If a face-down creature loses its abilities, it can't be turned face up with a disguise or morph ability because it will no longer have that ability (or the associated cost) once face up.
+  - *2024-09-20* — If a face-down spell leaves the stack and goes to any zone other than the battlefield (if it was countered, for example), you must reveal it. Similarly, if a face-down permanent leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or the game ends.
+  - *2024-09-20* — If a manifested creature would have disguise or morph if it were face up, you may also turn it face up by paying its disguise or morph cost, as appropriate.
+  - *2024-09-20* — If a spell or ability would create a copy of a Room spell on the stack, the copy retains the choice of which door was cast but also retains the full characteristics of the spell. The characteristics of the door that wasn't cast are still ignored while the copy is on the stack, and when the copy resolves, the token it becomes will enter with the appropriate door unlocked.
+  - *2024-09-20* — If an effect allows you to cast a spell with certain characteristics, consider only the characteristics of the door you're casting. For example, if an effect allows you to cast a permanent spell with mana value 3 or less from among cards in your graveyard, you could cast Bottomless Pool this way, but not Locker Room.
+  - *2024-09-20* — If neither door of a Room is unlocked, it's a Room enchantment with no name and no abilities.
+  - *2024-09-20* — If something tries to turn a face-down instant or sorcery card on the battlefield face up, reveal that card to show all players it's an instant or sorcery card. The permanent remains on the battlefield face down. Abilities that trigger when a permanent turns face up won't trigger, because even though you revealed the card, it never turned face up.
+  - *2024-09-20* — If your library contains only one card when you manifest dread, you'll look at that card and put it onto the battlefield face down. You won't have the option to put it into your graveyard instead. If your library contains no cards when you manifest dread, you won't do anything.
+  - *2024-09-20* — Room cards have two card faces with a shared type line on a single card. The characteristics of the door you didn't cast are ignored while the spell is on the stack.
+  - *2024-09-20* — Some abilities allow you to lock a door of a Room you control. You can't choose to lock a door that's already locked with such an ability. If such an ability requires a target, you can target a Room even if both of its doors are locked, but the ability won't do anything when it resolves.
+  - *2024-09-20* — Some abilities allow you to unlock a door of a Room you control. You can't choose to unlock a door that's already unlocked with such an ability. If such an ability requires a target, you can target a Room even if both of its doors are unlocked, but the ability won't do anything when it resolves.
+  - *2024-09-20* — Some cards in the Duskmourn release have abilities that trigger "whenever you manifest dread." In circumstances where you are instructed to manifest dread but can't perform some or all of the steps of manifesting dread (probably because your library has one or fewer cards in it), these abilities will still trigger.
+  - *2024-09-20* — Some doors have abilities that trigger whenever you unlock that door and require one or more targets. You can unlock that door even if there would be insufficient legal targets for that triggered ability. The triggered ability won't go on the stack.
+  - *2024-09-20* — To cast a Room spell, choose a half (or "door") to cast. There's no way to cast both halves of a Room card. When the Room spell resolves, the corresponding door becomes unlocked as the Room enters.
+  - *2024-09-20* — To manifest dread, look at the top two cards of your library. Manifest one (by putting it onto the battlefield face down) and put the other into your graveyard. The card you put onto the battlefield becomes a 2/2 face-down creature with no name, mana cost, creature types, or abilities. It's colorless and has a mana value of 0. Other effects that apply to the permanent can still grant it any characteristics it doesn't have or change the characteristics it does have.
+  - *2024-09-20* — Turning a permanent face up or face down doesn't change whether that permanent is tapped or untapped.
+  - *2024-09-20* — Unlike a face-down creature that was cast using a disguise or morph ability, a manifested creature may still be turned face up after it loses its abilities if it's a creature card.
+  - *2024-09-20* — While in any zone other than the stack or the battlefield, a Room card's characteristics are a combination of its two doors. For example, Bottomless Pool // Locker Room has a mana value of 6 while it's in your library. If an effect allows you to search your library for a card with mana value 4 or less, you can't find Bottomless Pool // Locker Room.
+  - *2024-09-20* — While on the battlefield, a Room's characteristics are a combination of the characteristics of its unlocked doors. For example, if Bottomless Pool // Locker Room is on the battlefield with both doors unlocked, its names are Bottomless Pool and Locker Room, its mana value is 6, it's a Room Enchantment, and it has the abilities in each door's text box.
+  - *2024-09-20* — You must ensure that your face-down spells and permanents can be easily differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield to confuse other players. The order in which they entered should remain clear, as well as what ability caused them to be face down. (This includes manifest, disguise, cloak, morph, and a few older effects that turn cards face down.) Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/190/moldering-gym-weight-room) · oracle_id `34d0d070-fcaf-410e-a002-012cbe104fb7` · printing: DSK #190 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moldering Karok
 
@@ -185,7 +218,10 @@
   > *"The heroes of the past nourish our spirits by their example—and nourish our crops by their decay."*
   > *—Jeddeg, philosopher of graves*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #995 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/320/moldervine-reclamation) · oracle_id `68639a3d-2192-4921-8298-c76bb0cd6b02` · printing: SOC #320 (2026-04-24) · [rulings](https://api.scryfall.com/cards/f3e93085-ffcb-4f48-8649-3fcbc5e97699/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-07-12* — If Moldervine Reclamation leaves the battlefield at the same time that one or more creatures you control die, its ability triggers for each of those creatures.
+  - *2019-07-12* — If a creature you control dies at the same time that your life total becomes 0 or less, you lose the game before Moldervine Reclamation's ability can save you.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/320/moldervine-reclamation) · oracle_id `68639a3d-2192-4921-8298-c76bb0cd6b02` · printing: SOC #320 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mold Folk
 
@@ -213,7 +249,9 @@
   > *Between stitchers, cultists, and scavengers, corpses are in high demand.*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9690 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/208/moldgraf-millipede) · oracle_id `48edac92-0dd8-4274-bf1b-122243770540` · printing: INR #208 (2025-01-24) · [rulings](https://api.scryfall.com/cards/3a163ec7-4c9a-4d45-965c-e5ddeb07a3e0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-11-19* — Moldgraf Millipede gets a +1/+1 counter for every creature card in your graveyard, including any creature cards that were already there before you milled three cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/208/moldgraf-millipede) · oracle_id `48edac92-0dd8-4274-bf1b-122243770540` · printing: INR #208 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moldgraf Monstrosity
 
@@ -227,7 +265,10 @@
   > *It swallows its catches whole and keeps them in its belly—alive, immobilized, and dissolving slowly.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7797 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/83/moldgraf-monstrosity) · oracle_id `3c4d5392-27cf-492e-9ae1-dee330b82223` · printing: DSC #83 (2024-09-27) · [rulings](https://api.scryfall.com/cards/714ba062-f8ae-4ae6-a1c2-8fa093cc0fb2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2011-09-22* — If Moldgraf Monstrosity's ability can't exile it (perhaps because it's not still in the graveyard when the ability resolves), the two creature cards are still returned to the battlefield.
+  - *2011-09-22* — If two Moldgraf Monstrosities die simultaneously, the first ability to resolve could return the other Moldgraf Monstrosity to the battlefield. If it does, the second Moldgraf Monstrosity's ability won't exile it but it will return two more creature cards to the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/83/moldgraf-monstrosity) · oracle_id `3c4d5392-27cf-492e-9ae1-dee330b82223` · printing: DSC #83 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moldgraf Scavenger
 
@@ -286,6 +327,7 @@
 - **Flavor text** (MSC printing):
   > *"I now control every molecule in the universe and even beyond!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7583 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/9/molecule-man) · oracle_id `ba944437-0b55-47cb-92dc-2477ce6726c3` · printing: MSC #9 (2026-06-26) · [rulings](https://api.scryfall.com/cards/ee64d0dd-e3d8-4abc-b9d6-b19c505fbfa1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mole Man, Moloid Master
@@ -300,6 +342,7 @@
   > *"Forward, my mindless minions! To the surface, to take what's ours!"*
 - **Keywords:** Mill, Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4951 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/177/mole-man-moloid-master) · oracle_id `34994475-b914-44f6-8ca1-c2747b6d5956` · printing: MSH #177 (2026-06-26) · [rulings](https://api.scryfall.com/cards/1b406cc5-75c9-430a-83a2-de0f2a8aeae6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mole Module
@@ -387,7 +430,14 @@
   > • Destroy target creature or planeswalker.
   > • Destroy target noncreature, nonland permanent with mana value 1 or less.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9689 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/234/molten-collapse) · oracle_id `f0d1636e-6f80-44fe-869a-1749ab249815` · printing: LCI #234 (2023-11-17) · [rulings](https://api.scryfall.com/cards/2487d124-210b-4808-888c-cd0a78aebd90/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-11-10* — A permanent card is an artifact, battle, creature, enchantment, land, or planeswalker card. Tokens are not cards, and while tokens are put into the graveyard before ceasing to exist, that action doesn't count as a player having descended.
+  - *2023-11-10* — Abilities that begin with "At the beginning of your end step, if you descended this turn" will trigger only once during your end step, no matter how many times you descended this turn. However, if you haven't descended this turn as your end step begins, the ability won't trigger at all. It's not possible to put a permanent card into your graveyard during the end step in time to have the ability trigger.
+  - *2023-11-10* — In either case, it doesn't matter if those cards are still in that player's graveyard.
+  - *2023-11-10* — Multiple cards have abilities that begin with "At the beginning of your end step, if you descended this turn." These cards don't need to have been under your control at the time you descended. For example, if a permanent card is put into your graveyard during your first main phase and you cast Stalactite Stalker your second main phase, its ability will trigger at the beginning of your end step.
+  - *2023-11-10* — Some cards refer to a player who has "descended this turn." This means that a permanent card has been put into that player's graveyard from anywhere this turn.
+  - *2023-11-10* — Some cards refer to the number of times a player descended this turn. Those cards care about the number of permanent cards put into that player's graveyard from anywhere this turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/234/molten-collapse) · oracle_id `f0d1636e-6f80-44fe-869a-1749ab249815` · printing: LCI #234 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Molten-Core Maestro
 
@@ -401,7 +451,10 @@
   > *"My media? Fury and flame."*
 - **Keywords:** Menace, Opus
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7687 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/125/molten-core-maestro) · oracle_id `485233bf-dc4b-4f31-8dfb-5054aee70c08` · printing: SOS #125 (2026-04-24) · [rulings](https://api.scryfall.com/cards/326dfe32-3674-4a11-acd8-5ba62371235a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2026-03-20* — An opus ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+  - *2026-03-20* — Molten-Core Maestro's last ability is not a mana ability. It uses the stack and can be responded to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/125/molten-core-maestro) · oracle_id `485233bf-dc4b-4f31-8dfb-5054aee70c08` · printing: SOS #125 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Molten Disaster
 
@@ -424,7 +477,13 @@
 - **Flavor text** (BIG printing):
   > *No one had seen this side of Angeline before, not even her.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1725 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/big/14/molten-duplication) · oracle_id `92b91910-9b65-4421-8eef-a33793161089` · printing: BIG #14 (2024-04-19) · [rulings](https://api.scryfall.com/cards/fdbe1ac1-461f-4746-a8d8-6c8dea2c97c6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-04-12* — Any enters-the-battlefield abilities of the copied permanent will trigger when the token enters the battlefield. Any “as [this permanent] enters the battlefield” or “[this permanent] enters the battlefield with” abilities of the copied permanent will also work.
+  - *2024-04-12* — Except for the listed exceptions, the token copies exactly what was printed on the original permanent and nothing else (unless that permanent is copying something else or is a token; see below). It doesn’t copy whether that permanent is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+  - *2024-04-12* — If the copied permanent has {X} in its mana cost, X is 0.
+  - *2024-04-12* — If the copied permanent is a token, the token that’s created copies the original characteristics of that token as stated by the effect that created that token, with the stated exceptions.
+  - *2024-04-12* — If the copied permanent is copying something else, then the token enters the battlefield as whatever that permanent copied, with the stated exceptions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/big/14/molten-duplication) · oracle_id `92b91910-9b65-4421-8eef-a33793161089` · printing: BIG #14 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Molten Echoes
 
@@ -434,7 +493,14 @@
   > As this enchantment enters, choose a creature type.
   > Whenever a nontoken creature you control of the chosen type enters, create a token that's a copy of that creature. That token gains haste. Exile it at the beginning of the next end step.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2475 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/voc/148/molten-echoes) · oracle_id `26486a42-4dc6-472b-9a9b-3c3ca78cc3b5` · printing: VOC #148 (2021-11-19) · [rulings](https://api.scryfall.com/cards/461d9f1c-53a4-48a6-bafb-0e70099f276c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2020-04-17* — Any enters-the-battlefield abilities of the copied creature will trigger when the token enters the battlefield. Any “As [this creature] enters the battlefield” or “[This creature] enters the battlefield with” abilities of the copied creature will also work.
+  - *2020-04-17* — If the copied creature has {X} in its mana cost, X is 0.
+  - *2020-04-17* — If the copied creature is copying something else, the token enters the battlefield as whatever that creature is copying.
+  - *2020-04-17* — If the nontoken creature leaves the battlefield before Molten Echoes's triggered ability resolves, the token that's created uses the creature's last known information from before it left.
+  - *2020-04-17* — The token copies exactly what is printed on the creature and nothing else (unless that creature is copying something else; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and/or Equipment attached to it, or any non-copy effects that changed its power, toughness, types, color, and so on.
+  - *2020-04-17* — You must choose an existing creature type, such as Human or Warrior. Card types such as artifact and supertypes such as legendary can't be chosen.
+- **Source flags:** [Scryfall](https://scryfall.com/card/voc/148/molten-echoes) · oracle_id `26486a42-4dc6-472b-9a9b-3c3ca78cc3b5` · printing: VOC #148 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Molten Exhale
 
@@ -483,7 +549,13 @@
   > Unearth {R} ({R}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)
 - **Keywords:** Unearth
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1305 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/128/molten-gatekeeper) · oracle_id `90fdfba8-f29e-44f9-91d2-7bf3c458a9c1` · printing: MH3 #128 (2024-06-14) · [rulings](https://api.scryfall.com/cards/9f5ba065-2806-4e99-a330-168cfe76250f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-06-07* — Activating a card's unearth ability isn't the same as casting that card. The unearth ability is put on the stack, but the card is not. Spells and abilities that interact with activated abilities will interact with unearth, but spells and abilities that interact with spells (such as Flare of Denial) will not.
+  - *2024-06-07* — At the beginning of the next end step, a permanent returned to the battlefield with unearth is exiled. This is a delayed triggered ability, and it can be countered by effects that counter triggered abilities. If the ability is countered, the permanent will stay on the battlefield and the delayed triggered ability won't trigger again. However, the replacement effect will still exile the permanent if it eventually leaves the battlefield.
+  - *2024-06-07* — If a permanent returned to the battlefield with unearth would leave the battlefield for any reason, it's exiled instead—unless the spell or ability that's causing the permanent to leave the battlefield is actually trying to exile it! In that case, it succeeds at exiling it. If that spell or ability later returns the card to the battlefield (as Static Prison might, for example), the permanent card will return to the battlefield as a new object with no relation to its previous existence. The unearth effects will no longer apply to it.
+  - *2024-06-07* — If you activate a card's unearth ability but that card is removed from your graveyard before the ability resolves, that unearth ability will do nothing as it resolves.
+  - *2024-06-07* — Unearth grants haste to the permanent that's returned to the battlefield (even if it's not a creature card). However, neither of the "exile" abilities is granted to that permanent. If that permanent loses all its abilities, it will still be exiled at the beginning of the next end step, and if it would leave the battlefield, it is still exiled instead.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/128/molten-gatekeeper) · oracle_id `90fdfba8-f29e-44f9-91d2-7bf3c458a9c1` · printing: MH3 #128 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Molten Hydra
 
@@ -587,7 +659,10 @@
   > When this creature enters, for each opponent, gain control of up to one target creature that player controls until end of turn. Untap those creatures. They gain haste until end of turn.
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5762 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/gtc/101/molten-primordial) · oracle_id `8d8c9f7b-92c7-4284-ad9c-304ce42edba5` · printing: GTC #101 (2013-02-01) · [rulings](https://api.scryfall.com/cards/a8f5c7e2-f4da-4cee-a7d0-80b29bb73acd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-01-24* — Molten Primordial’s triggered ability can target a creature that’s already untapped.
+  - *2013-01-24* — You can choose a number of targets up to the number of opponents you have, one target per opponent.
+- **Source flags:** [Scryfall](https://scryfall.com/card/gtc/101/molten-primordial) · oracle_id `8d8c9f7b-92c7-4284-ad9c-304ce42edba5` · printing: GTC #101 (2013-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Molten Psyche
 
@@ -598,7 +673,10 @@
   > Metalcraft — If you control three or more artifacts, Molten Psyche deals damage to each opponent equal to the number of cards that player has drawn this turn.
 - **Keywords:** Metalcraft
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3944 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/som/98/molten-psyche) · oracle_id `6f98c1eb-0f52-4d21-a266-e8d52f98c1b3` · printing: SOM #98 (2010-10-01) · [rulings](https://api.scryfall.com/cards/57e2382d-1f27-40d1-b809-c188c19ebc72/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2011-01-01* — If a player doesn’t have any cards in their hand, the player will still shuffle their library.
+  - *2011-01-01* — The metalcraft effect counts all cards each opponent drew for any reason during that turn, not just the cards those opponents drew due to Molten Psyche’s first effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/som/98/molten-psyche) · oracle_id `6f98c1eb-0f52-4d21-a266-e8d52f98c1b3` · printing: SOM #98 (2010-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Molten Rain
 
@@ -658,6 +736,7 @@
   > {1}, {T}: Put a storage counter on this land.
   > {1}, Remove X storage counters from this land: Add X mana in any combination of {B} and/or {R}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8686 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/282/molten-slagheap) · oracle_id `33587cb2-0fd3-4e4c-bc5e-e7299cc9dab5` · printing: TSR #282 (2021-03-19) · [rulings](https://api.scryfall.com/cards/4d952491-3a33-42af-9748-d2cb9c5a2f76/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moltensteel Dragon
@@ -698,6 +777,7 @@
 - **Flavor text** (SOC printing):
   > *Though dangerous, Shiv teems with both life and mana, making it a tempting destination for ambitious mages.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2703 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/387/molten-tributary) · oracle_id `58c592ed-20fc-481b-909b-2315567e5f20` · printing: SOC #387 (2026-04-24) · [rulings](https://api.scryfall.com/cards/9c6d0f64-b8e1-41bc-ab86-bd6783daf72a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Molten Vortex
@@ -762,4 +842,5 @@
   > *The Speedbrood regards molting as a selfless act worthy of the highest of honors. It allows one to be born anew for the good of the brood.*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6147 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/171/molt-tender) · oracle_id `9a39ca64-e1a9-42ef-8efd-6aa3edde3d93` · printing: DFT #171 (2025-02-14) · [rulings](https://api.scryfall.com/cards/f800bf4e-4bfb-45b6-950b-c76952f52bb1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

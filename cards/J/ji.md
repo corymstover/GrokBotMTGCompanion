@@ -80,6 +80,7 @@
   > Each creature you control with a +1/+1 counter on it has "{T}: Add one mana of any color."
   > −1: Put a +1/+1 counter on target creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6431 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/164/jiang-yanggu-wildcrafter) · oracle_id `04f2c320-dfcc-440a-9e24-3c2083d74e7c` · printing: WAR #164 (2019-05-03) · [rulings](https://api.scryfall.com/cards/10e0d47d-b13c-4d48-881f-8aaa347ef209/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jibbirik Omnivore
@@ -110,7 +111,21 @@
   > *—Jidoor resident*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2159 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/284/jidoor-aristocratic-capital-overture) · oracle_id `bd513d9d-5aa2-4860-bd86-8b5d9430f133` · printing: FIN #284 (2025-06-13) · [rulings](https://api.scryfall.com/cards/98b2d5b5-f85b-4c42-a0f5-a76f6af304ba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2025-06-06* — An adventurer card uses only its non-Adventure characteristics in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it's in your graveyard, Jidoor, Aristocratic Capital is a colorless Town land card whose mana value is 0. It can't be the target of Sorceress's Schemes, which reads in part "Return target instant or sorcery card from your graveyard or exiled card with flashback you own to your hand."
+  - *2025-06-06* — An effect may refer to a card, spell, or permanent that "has an Adventure." This refers to a card, spell, or permanent that has an adventurer card's set of alternative characteristics, even if they're not being used and even if that card was never cast as an Adventure.
+  - *2025-06-06* — Casting a card as an Adventure isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Adventure.
+  - *2025-06-06* — If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner's graveyard as it resolves. For as long as it remains exiled, that player may play it using its primary characteristics. If an Adventure spell leaves the stack in any way other than resolving (most likely by being countered or by failing to resolve because its targets have all become illegal), that card won't be exiled and the spell's controller won't be able to play that card from exile later.
+  - *2025-06-06* — If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won't give you permission to play it with its primary characteristics.
+  - *2025-06-06* — If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it's not possible to play the copy as a permanent.
+  - *2025-06-06* — If an effect instructs you to choose a card name, you may choose the alternative Adventure name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2025-06-06* — If an effect refers to a card, spell, or permanent that has an Adventure, it won't find an instant or sorcery spell on the stack that's been cast as an Adventure.
+  - *2025-06-06* — If an object becomes a copy of an object that has an Adventure, the copy also has an Adventure. If it changes zones, it will either cease to exist (if it's a token) or cease to be a copy (if it's a nontoken permanent), and so you won't be able to cast it as an Adventure.
+  - *2025-06-06* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell. For example, if you control Traveling Chocobo ("You may play lands and cast Bird spells from the top of your library.") and Jidoor, Aristocratic Capital is on top of your library, you can play Jidoor, Aristocratic Capital, but you can't cast Overture.
+  - *2025-06-06* — Town is a land type with no special meaning. It doesn't grant the land any intrinsic abilities. Other cards may care about which lands are Towns.
+  - *2025-06-06* — When playing a card as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The resulting spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+  - *2025-06-06* — You must still follow any timing restrictions and permissions for the card you play from exile. In the case of any of the five lands in this release, you'll be able to play it only during your main phase while the stack is empty and only if you have an available land play remaining.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/284/jidoor-aristocratic-capital-overture) · oracle_id `bd513d9d-5aa2-4860-bd86-8b5d9430f133` · printing: FIN #284 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jiffy, Vehicle Repairer
 
@@ -154,7 +169,16 @@
   > *"I will be your monster no more."*
 - **Keywords:** Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6001 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/58/jill-shivas-dominant-shiva-warden-of-ice) · oracle_id `c6655e05-9e31-4a74-a97d-1eeb473fe900` · printing: FIN #58 (2025-06-13) · [rulings](https://api.scryfall.com/cards/1f163763-4802-4a96-a5bc-f3c381db7b5c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2025-06-06* — A nonmodal double-faced card enters with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed or allows you to cast it transformed, in which case it enters with its back face up.
+  - *2025-06-06* — A token that is created as a copy of a double-faced permanent or a double-faced card in another zone is a double-faced token. It will have both the front face and back face of whatever object it's copying. If it's copying a double-faced permanent whose back face is up, the token will enter with its back face up. It can transform if instructed to do so.
+  - *2025-06-06* — Each face of a nonmodal double-faced card has its own set of characteristics: name, types, subtypes, abilities, and so on. While a nonmodal double-faced permanent is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored.
+  - *2025-06-06* — Each nonmodal double-faced card in this release is cast face up. In every zone other than the battlefield, consider only the characteristics of its front face. If it is on the battlefield, consider only the characteristics of the face that's up; the other face's characteristics are ignored.
+  - *2025-06-06* — If you are instructed to put a card that isn't a double-faced card onto the battlefield transformed, it will not enter at all. In that case, it stays in the zone it was previously in. For example, if a single-faced card is a copy of Crystal Fragments, it will be exiled during the resolution of its second ability and remain in exile.
+  - *2025-06-06* — In the Commander variant, a double-faced card's color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered. For example, Cecil, Dark Knight's color identity is black and white, since its front face is black and its back face has a white color indicator.
+  - *2025-06-06* — The back face of a nonmodal double-faced card usually has a color indicator that defines its color.
+  - *2025-06-06* — The mana value of a nonmodal double-faced card is the mana value of its front face, no matter which face is up.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/58/jill-shivas-dominant-shiva-warden-of-ice) · oracle_id `c6655e05-9e31-4a74-a97d-1eeb473fe900` · printing: FIN #58 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jilt
 
@@ -183,7 +207,11 @@
   > *"It is not a goal, but a process—the process of creating the perfect Phyrexia."*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1707 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ima/62/jin-gitaxias-core-augur) · oracle_id `eb23aed0-c450-4e57-96f2-2866dceca004` · printing: IMA #62 (2017-11-17) · [rulings](https://api.scryfall.com/cards/14a360b6-c7b4-4b25-8288-b3bb8d527bda/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2017-11-17* — If a player has more cards in their hand than their maximum hand size during the cleanup step of that player's turn, that player discards until they have that many cards. A player's maximum hand size isn't checked at any time other than their own cleanup step.
+  - *2017-11-17* — Jin-Gitaxias doesn't affect the maximum hand size of its controller. Because the cleanup step is after the end step, its controller may have to discard some of the cards that were just drawn.
+  - *2017-11-17* — Unless another spell or ability is affecting your opponent's maximum hand size, Jin-Gitaxias's ability will result in your opponent having a maximum hand size of zero. They will discard each card from their hand during their cleanup step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ima/62/jin-gitaxias-core-augur) · oracle_id `eb23aed0-c450-4e57-96f2-2866dceca004` · printing: IMA #62 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jin-Gitaxias, Progress Tyrant
 
@@ -194,7 +222,14 @@
   > Whenever you cast an artifact, instant, or sorcery spell, copy that spell. You may choose new targets for the copy. This ability triggers only once each turn. (A copy of a permanent spell becomes a token.)
   > Whenever an opponent casts an artifact, instant, or sorcery spell, counter that spell. This ability triggers only once each turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1731 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/59/jin-gitaxias-progress-tyrant) · oracle_id `f5daadc1-98ff-480a-82bb-fe7bfaa7b60e` · printing: NEO #59 (2022-02-18) · [rulings](https://api.scryfall.com/cards/c57b4876-5387-4f73-b8e2-8e7bdca8b0bc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2022-02-18* — A copy is created even if the spell that caused the ability to trigger has been countered by the time that ability resolves. The copy resolves before the original spell.
+  - *2022-02-18* — If the spell that's copied had damage divided to targets as it was cast, the division can't be changed, although the targets receiving that damage still can. The same is true of spells that distribute counters to targets as it was cast.
+  - *2022-02-18* — If the spell that's copied is modal (that is, it says “Choose one —” or the like), the copy created by Jin-Gitaxias's first ability will have the same mode or modes. You can't choose different ones.
+  - *2022-02-18* — Jin-Gitaxias's last ability triggers once each turn, not once each turn per opponent.
+  - *2022-02-18* — The copies that Jin-Gitaxias's first ability creates are created on the stack, so they're not “cast.” Abilities that trigger when a player casts a spell won't trigger.
+  - *2022-02-18* — You can't choose to pay any additional costs for the copy created by Jin-Gitaxias's first ability. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/59/jin-gitaxias-progress-tyrant) · oracle_id `f5daadc1-98ff-480a-82bb-fe7bfaa7b60e` · printing: NEO #59 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jin-Gitaxias // The Great Synthesis
 
@@ -211,7 +246,14 @@
   > III — You may cast any number of spells from your hand without paying their mana costs. Exile this Saga, then return it to the battlefield (front face up).
 - **Keywords:** Transform, Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3285 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/65/jin-gitaxias-the-great-synthesis) · oracle_id `b70c3adb-64ba-49ea-bcf6-6406a58cb453` · printing: MOM #65 (2023-04-21) · [rulings](https://api.scryfall.com/cards/41c83142-b948-4ee5-a486-41306d2bb411/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-04-14* — A spell you cast this way can be the target of a later spell you cast this way. However, permanent spells cast this way won’t resolve until you’re done casting spells, so the permanents they become can’t be the target of spells cast this way. For example, if you exile Twincast and Lightning Strike, you can cast Lightning Strike and then cast Twincast targeting it; but if you exile a creature card and an Aura card, you can’t cast that Aura targeting that creature.
+  - *2023-04-14* — All the spells you cast due to chapter III are cast during the resolution of that ability. You can cast them in any order, and timing restrictions based on the cards’ types are ignored. Once you’re done casting spells, before any of them resolve, The Great Synthesis will be exiled and return as Jin-Gitaxias.
+  - *2023-04-14* — For chapter I of The Great Synthesis, the number of cards you draw is determined as the ability resolves. If you no longer control The Great Synthesis at that time, your maximum hand size remains unchanged.
+  - *2023-04-14* — If a spell has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2023-04-14* — If you cast a spell “without paying its mana cost,” you can’t pay any alternative costs. You can, however, pay additional costs. If the spell has any mandatory additional costs, those must be paid to cast it.
+  - *2023-04-14* — Once you’ve activated Jin-Gitaxias’s last ability, it doesn’t matter what happens to the number of cards in your hand. The ability will resolve even if you have six or fewer cards in your hand by that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/65/jin-gitaxias-the-great-synthesis) · oracle_id `b70c3adb-64ba-49ea-bcf6-6406a58cb453` · printing: MOM #65 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jinnie Fay, Jetmir's Second
 
@@ -223,7 +265,9 @@
 - **Flavor text** (SNC printing):
   > *She watches Jetmir's back while her companions watch hers.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4379 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/snc/195/jinnie-fay-jetmirs-second) · oracle_id `61fbaaf2-4286-4e9a-b9cb-aa31262b596a` · printing: SNC #195 (2022-04-29) · [rulings](https://api.scryfall.com/cards/c5f9326a-2a41-45b3-97c3-548f0bdc0882/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-04-29* — The tokens' characteristics are entirely replaced by either 2/2 green Cat creature token with haste or 3/1 green Dog creature token with vigilance. They don't have any other abilities the tokens would have been created with. Anything else specified in the effect creating the tokens (such as tapped, attacking, “That token gains haste,” or “Exile that token at end of combat”) still applies.
+- **Source flags:** [Scryfall](https://scryfall.com/card/snc/195/jinnie-fay-jetmirs-second) · oracle_id `61fbaaf2-4286-4e9a-b9cb-aa31262b596a` · printing: SNC #195 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jin Sakai, Ghost of Tsushima
 
@@ -237,6 +281,7 @@
   > • Ghost — It can't be blocked this turn.
 - **Keywords:** Ghost, Standoff
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7279 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/2226/jin-sakai-ghost-of-tsushima) · oracle_id `76c43ac8-a878-4239-b0e3-f0254ef63e50` · printing: SLD #2226 (2025-10-27) · [rulings](https://api.scryfall.com/cards/9f52160b-dcc0-4ab8-b8b2-b576b1688d57/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jinx
@@ -273,7 +318,11 @@
 - **Flavor text** (TPR printing):
   > *"Here."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9439 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tpr/224/jinxed-idol) · oracle_id `89b1eab9-4d24-4367-99f7-263349f69c3a` · printing: TPR #224 (2015-05-06) · [rulings](https://api.scryfall.com/cards/269da2cd-0a50-4b07-a343-35371a9dcbb4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-10-04* — Your opponent can use the ability to give this card back to you.
+  - *2010-08-15* — If you sacrifice an attacking or blocking creature during the declare blockers step, it won’t deal combat damage. If you wait until the combat damage step, but that creature is dealt lethal damage, it’ll be destroyed before you get a chance to sacrifice it.
+  - *2010-08-15* — The control-change effect has no duration. The targeted player retains control of Jinxed Idol until the game ends, Jinxed Idol leaves the battlefield, or an effect causes someone else to gain control of it (perhaps because Jinxed Idol’s ability is activated again).
+- **Source flags:** [Scryfall](https://scryfall.com/card/tpr/224/jinxed-idol) · oracle_id `89b1eab9-4d24-4367-99f7-263349f69c3a` · printing: TPR #224 (2015-05-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jinxed Ring
 
@@ -296,7 +345,9 @@
 - **Flavor text** (MAT printing):
   > *"Our strength lies not in our walls, but in our people."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6332 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mat/32/jirina-dauntless-general) · oracle_id `fda76032-7e6f-416f-8874-2a0642837522` · printing: MAT #32 (2023-05-12) · [rulings](https://api.scryfall.com/cards/5c0c3860-1dab-4897-8f36-f9be263bba03/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-05-12* — The set of creatures affected by Jirina's last ability is determined as the ability resolves. Humans you begin to control later in the turn, non-Human creatures you control that become Human, and noncreature permanents that become Human creatures later in the turn won't gain hexproof and indestructible.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mat/32/jirina-dauntless-general) · oracle_id `fda76032-7e6f-416f-8874-2a0642837522` · printing: MAT #32 (2023-05-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jirina Kudro
 

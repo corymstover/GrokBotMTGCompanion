@@ -142,7 +142,11 @@
 - **Oracle text:**
   > When this creature enters, return target creature an opponent controls to its owner's hand. That creature's owner can't cast spells with the same name as that creature until your next turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4881 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/157/reflector-mage) · oracle_id `5398362d-c45e-4d56-a622-8be1124730b9` · printing: OGW #157 (2016-01-22) · [rulings](https://api.scryfall.com/cards/9473fe01-83f6-4432-ab01-f7953d2ca904/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2016-01-22* — If the returned creature had no name while it was on the battlefield (likely because the creature was face down), its owner can still cast face-down creature spells with morph or megamorph, or cast the same card face up, before your next turn.
+  - *2016-01-22* — In several cases, the name of the creature that was returned won’t match the name of that card once it’s back in its owner’s hand. For example, if the card was copying another creature, it will probably have a different name in its owner’s hand and can be cast again before your next turn. The same is true if a double-faced card with its back face up is returned to its owner’s hand this way.
+  - *2016-01-22* — Reflector Mage’s ability doesn’t stop any player from playing lands (in the case that the returned creature was also a land).
+- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/157/reflector-mage) · oracle_id `5398362d-c45e-4d56-a622-8be1124730b9` · printing: OGW #157 (2016-01-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reflexes
 
@@ -178,6 +182,7 @@
 - **Flavor text** (FRF printing):
   > *"Before you can open your third eye, you must prove you can open the first two."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7334 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/frf/47/refocus) · oracle_id `0101f891-e54c-43e5-86f3-263d95060fcd` · printing: FRF #47 (2015-01-23) · [rulings](https://api.scryfall.com/cards/35c78973-f2ae-4c76-802f-793d1022fcbd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reforge the Soul
@@ -191,6 +196,7 @@
   > *In a wave of spells called the Cursemute, Avacyn cleansed the world with divine fire.*
 - **Keywords:** Miracle
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1701 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/167/reforge-the-soul) · oracle_id `ece854f8-8c60-4f30-894f-2286d3dd61b9` · printing: INR #167 (2025-01-24) · [rulings](https://api.scryfall.com/cards/1c3509c6-2ae7-45be-8ac9-4d14d69db32f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Refraction Trap
@@ -263,7 +269,9 @@
   > *When her beloved pet died, the artificer turned to necromancy.*
 - **Keywords:** Flying, Affinity
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7622 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/105/refurbished-familiar) · oracle_id `009e1638-9055-4872-93e1-85841bce4648` · printing: MH3 #105 (2024-06-14) · [rulings](https://api.scryfall.com/cards/b338e078-629c-4cac-bd1d-e1f0a132728d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-06-07* — When Refurbished Familiar's last ability resolves, the next opponent in turn order (or, if it's an opponent's turn, that opponent) chooses a card in hand without revealing it, then each other opponent in turn order (if any) does the same. All chosen cards are then discarded at the same time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/105/refurbished-familiar) · oracle_id `009e1638-9055-4872-93e1-85841bce4648` · printing: MH3 #105 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Refuse // Cooperate
 
@@ -298,7 +306,9 @@
   > *"You're discussing tactics?! Do you realize what this really comes down to? Millions and millions of lives hanging on what this vessel does next!"*
   > *—Dr. Leonard McCoy*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1882 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/trc/579/refute) · oracle_id `eb1dfa29-7371-4cb6-bfa2-16f7820b69be` · printing: TRC #579 (2026-11-13) · [rulings](https://api.scryfall.com/cards/b3ef9271-f16e-4912-9e92-75c3777b4102/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-11-08* — If the target spell is an illegal target when Refute tries to resolve, it won't resolve and none of its effects will happen. You won't draw or discard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/trc/579/refute) · oracle_id `eb1dfa29-7371-4cb6-bfa2-16f7820b69be` · printing: TRC #579 (2026-11-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Refute Destiny
 

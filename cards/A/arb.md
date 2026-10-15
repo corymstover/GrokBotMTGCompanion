@@ -35,7 +35,12 @@
 - **Flavor text** (ACR printing):
   > *"Until you have found a cause worth fighting for, you cannot know what you will sacrifice for it."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3751 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/acr/46/arbaaz-mir) · oracle_id `a383ef16-1af8-4b3a-956c-c10a93768617` · printing: ACR #46 (2024-07-05) · [rulings](https://api.scryfall.com/cards/c7187506-4af3-47e9-bad0-4ce8c78ccc10/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-07-05* — A card, spell, or permanent is historic if it has the legendary supertype, the artifact card type, or the Saga subtype. Having two of those qualities doesn’t make an object more historic than another or provide an additional bonus—an object either is historic or it isn’t.
+  - *2024-07-05* — An ability that triggers “whenever you cast a historic spell” doesn’t trigger if a historic card is put onto the battlefield without being cast.
+  - *2024-07-05* — Lands are never cast, so abilities that trigger “whenever you cast a historic spell” won’t trigger if you play a legendary land. They also won’t trigger if a card on the battlefield transforms into a card with the legendary supertype, the artifact card type, or the Saga subtype.
+  - *2024-07-05* — Some abilities trigger “whenever you cast a historic spell.” Such an ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/acr/46/arbaaz-mir) · oracle_id `a383ef16-1af8-4b3a-956c-c10a93768617` · printing: ACR #46 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arbalest Elite
 
@@ -113,6 +118,7 @@
   > *"Many hands make light work! Or two hands and a trunk, as the case may be."*
   > *—Sanzar, Kin-Tree Warden*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2859 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/42/arbor-adherent) · oracle_id `9640225a-8f31-495f-b9de-53ed348ff24b` · printing: TDC #42 (2025-04-11) · [rulings](https://api.scryfall.com/cards/57d0502f-5ae8-40b6-9f2b-cd4418016219/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arbor Armament
@@ -183,7 +189,9 @@
   > *—Vivien Reid*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2172 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/245/arboreal-grazer) · oracle_id `d18a0815-59d3-4667-b52b-9acda741215e` · printing: TDC #245 (2025-04-11) · [rulings](https://api.scryfall.com/cards/9eb7b2ae-a364-485b-ae75-10dbb0af5541/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-05-03* — Arboreal Grazer’s effect doesn’t count as playing a land. It can put a land card onto the battlefield even if you’ve already played your land for the turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/245/arboreal-grazer) · oracle_id `d18a0815-59d3-4667-b52b-9acda741215e` · printing: TDC #245 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arborea Pegasus
 

@@ -110,7 +110,10 @@
   > *She was born unable to walk. Through the \*eludha\*, she was able to fly.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6163 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/iko/223/jubilant-skybonder) · oracle_id `aab55af7-8084-47b6-910f-75a75a6313a4` · printing: IKO #223 (2020-04-24) · [rulings](https://api.scryfall.com/cards/7f8f2d69-fba9-40e5-8ef7-75e14ef4070a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-04-17* — An opponent’s spell that targets a single creature with flying you control more than once costs only {2} more to cast. An opponent’s spell that targets multiple creatures with flying you control costs {2} more for each of those creatures.
+  - *2020-04-17* — Jubilant Skybonder’s last ability applies to itself as long as it still has flying.
+- **Source flags:** [Scryfall](https://scryfall.com/card/iko/223/jubilant-skybonder) · oracle_id `aab55af7-8084-47b6-910f-75a75a6313a4` · printing: IKO #223 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jubilation
 
@@ -122,7 +125,16 @@
   > Encore {7}{G}{G} ({7}{G}{G}, Exile this card from your graveyard: For each opponent, create a token copy that attacks that opponent this turn if able. They gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery.)
 - **Keywords:** Encore
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5639 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/17/jubilation) · oracle_id `2cf04076-adc4-4831-a3b8-9120d516f204` · printing: ECC #17 (2026-01-23) · [rulings](https://api.scryfall.com/cards/a8eef44d-113c-428f-89e1-821418def041/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2025-11-17* — Each token must attack the appropriate player if able.
+  - *2025-11-17* — Encore is an activated ability that functions from the graveyard. "Encore [cost]" means "[Cost], Exile this card from your graveyard: For each opponent, create a token that's a copy of this card that attacks that opponent this turn if able. The tokens gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery."
+  - *2025-11-17* — Exiling the card with encore is a cost to activate the encore ability. Once you announce that you're activating it, no player may take actions until you've finished. They can't try to remove the card from your graveyard to stop you from paying the cost.
+  - *2025-11-17* — If an effect stops a token from attacking a specific player, that token can attack any player, planeswalker, or battle, or not attack at all. If the effect stops the token from attacking a specific player unless a cost is paid, you don't have to pay that cost unless you want to attack that player.
+  - *2025-11-17* — If one of the tokens can't attack for any reason (such as being tapped), then it doesn't attack. If there's a cost associated with having it attack, you aren't forced to pay that cost, so it doesn't have to attack in that case either.
+  - *2025-11-17* — If one of the tokens somehow is under another player's control as the delayed triggered ability resolves, you can't sacrifice that token. It remains on the battlefield indefinitely, even if you regain control of it later.
+  - *2025-11-17* — Opponents who have left the game aren't counted when determining how many tokens to create.
+  - *2025-11-17* — The tokens copy only what's on the original card. Effects that modified that creature when it was previously on the battlefield won't be copied.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/17/jubilation) · oracle_id `2cf04076-adc4-4831-a3b8-9120d516f204` · printing: ECC #17 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Judge Magister Gabranth
 
@@ -136,6 +148,7 @@
   > *"I slew your king. I slew your country. Do these deeds not demand vengeance?"*
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9169 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/230/judge-magister-gabranth) · oracle_id `1a846ad6-15c9-4bf9-9127-612018a557b9` · printing: FIN #230 (2025-06-13) · [rulings](https://api.scryfall.com/cards/f9e64cb6-48f7-41d3-99e7-4b0bc3b33fd7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Judge of Currents
@@ -163,6 +176,7 @@
   > *—Barvisa, courtroom scribe*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5544 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/192/judges-familiar) · oracle_id `22b7975c-37a5-4895-b209-bdeeec0c6aea` · printing: RVR #192 (2024-01-12) · [rulings](https://api.scryfall.com/cards/ed363208-cf66-4205-8512-b999b67227d3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Judge Unworthy
@@ -210,7 +224,11 @@
 - **Flavor text** (MKM printing):
   > *"I don't make my living hiding the truth, detective. I shout it from the stage."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5022 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/210/judith-carnage-connoisseur) · oracle_id `e86c965b-ac10-4fff-b682-dddd6d9747c6` · printing: MKM #210 (2024-02-09) · [rulings](https://api.scryfall.com/cards/3eaa19ce-cace-499e-8b23-ef9e56b23700/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-02-02* — An instant or sorcery spell with deathtouch must actually deal damage to a creature for it to be destroyed. If the spell instructs another object to deal damage (for example, Hard-Hitting Question), the spell doesn't deal any damage itself and its instance of deathtouch doesn't apply. Dealing 0 damage isn't dealing damage.
+  - *2024-02-02* — Judith, Carnage Connoisseur's triggered ability resolves before the spell that caused it to trigger. The ability will resolve even if that spell is countered.
+  - *2024-02-02* — Similarly, an instant or sorcery spell with lifelink must actually deal damage in order to cause its controller to gain life. If the spell instructs another object to deal damage, its controller won't gain life when that damage is dealt.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/210/judith-carnage-connoisseur) · oracle_id `e86c965b-ac10-4fff-b682-dddd6d9747c6` · printing: MKM #210 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Judith, the Scourge Diva
 
@@ -223,7 +241,11 @@
 - **Flavor text** (CMM printing):
   > *At the end of the show, she stands alone on a stage brilliant with blood.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6699 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/341/judith-the-scourge-diva) · oracle_id `c01516e0-eec3-4370-b935-7674982e8850` · printing: CMM #341 (2023-08-04) · [rulings](https://api.scryfall.com/cards/d6fb929c-1b8d-4d1d-aa69-ac6189cd7ebf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-01-25* — If Judith dies at the same time as one or more other nontoken creatures you control, Judith's ability triggers for each of them.
+  - *2019-01-25* — If your life total is brought to 0 or less at the same time that nontoken creatures you control are dealt lethal damage, you lose the game before Judith's triggered ability goes on the stack.
+  - *2019-01-25* — Judith's last ability triggers when Judith dies if it's not a token.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/341/judith-the-scourge-diva) · oracle_id `c01516e0-eec3-4370-b935-7674982e8850` · printing: CMM #341 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Judoon Enforcers
 
@@ -253,7 +275,17 @@
   > As long as you control five or more modified creatures, this creature gets +5/+5 and has trample. (Equipment, Auras you control, and counters are modifications.)
 - **Keywords:** Flying, Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6091 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/194/jugan-defends-the-temple-remnant-of-the-rising-star) · oracle_id `e70ac420-8540-4a69-820f-ae3e0274ca1a` · printing: NEO #194 (2022-02-18) · [rulings](https://api.scryfall.com/cards/a22b5f27-f9e7-49e1-8e96-dc5d8e7fbe27/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2022-02-18* — A creature that is equipped is considered modified no matter who controls the Equipment that's attached to it.
+  - *2022-02-18* — A creature with a counter on it is considered modified no matter what kind of counter it is or which player put it on that creature.
+  - *2022-02-18* — A transforming double-faced card enters the battlefield with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed or you cast it transformed, in which case it enters with its back face up.
+  - *2022-02-18* — An Aura controlled by an opponent does not cause a creature you control to be modified.
+  - *2022-02-18* — Each face of a transforming double-faced card has its own set of characteristics: name, types, subtypes, abilities, and so on. While a transforming double-faced permanent is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored.
+  - *2022-02-18* — Each transforming double-faced card in this set is cast face up. In every zone other than the battlefield, consider only the characteristics of its front face. If it is on the battlefield, consider only the characteristics of the face that's up; the other face's characteristics are ignored.
+  - *2022-02-18* — If you are instructed to put a card that isn't a double-faced card onto the battlefield transformed, it will not enter the battlefield at all. In that case, it stays in the zone it was previously in. For example, if a single-faced card is a copy of Azusa's Many Journeys, the chapter III ability will cause it to be exiled and then remain in exile.
+  - *2022-02-18* — The back face of a transforming double-faced card usually has a color indicator that defines its color.
+  - *2022-02-18* — The mana value of a transforming double-faced card is the mana value of its front face, no matter which face is up.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/194/jugan-defends-the-temple-remnant-of-the-rising-star) · oracle_id `e70ac420-8540-4a69-820f-ae3e0274ca1a` · printing: NEO #194 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jugan, the Rising Star
 
@@ -337,6 +369,7 @@
   > *He had heard rumors of the cities—the constant noise, the stagnant air, the tainted water—and he had no wish to learn if they were true.*
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1366 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/926/jukai-naturalist) · oracle_id `c4d1a78f-0cca-4042-862c-8f322ee25d50` · printing: CMM #926 (2023-08-04) · [rulings](https://api.scryfall.com/cards/07ff517f-5c31-46e9-9efb-52bc9ec9298d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jukai Preserver
@@ -376,6 +409,7 @@
   > *Some Cactuars live long lives and grow huge. This Jumbo Cactuar is one of them.*
 - **Keywords:** 10,000 Needles
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2918 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/191/jumbo-cactuar) · oracle_id `e0bdfbb4-3060-4492-bd9b-0c47e719400a` · printing: FIN #191 (2025-06-13) · [rulings](https://api.scryfall.com/cards/db01c222-8795-47e9-a789-e7f749a3ee7d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jumbo Imp
@@ -481,6 +515,7 @@
 - **Flavor text** (NCC printing):
   > *The sky is the dragon's throne, the seat from which it issues its fiery decrees.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5252 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/408/jund-panorama) · oracle_id `f39f33ac-074d-442d-ae4c-1d694ee315f3` · printing: NCC #408 (2022-04-29) · [rulings](https://api.scryfall.com/cards/50d8346a-e0b5-41eb-be89-7d1eb0e84f28/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jund Sojourners
@@ -531,7 +566,9 @@
   > When this land enters, sacrifice it unless you return an untapped Forest you control to its owner's hand.
   > {T}: Add {C}{G}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6019 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/484/jungle-basin) · oracle_id `f922f90a-b1a2-4630-9266-40726ca89f74` · printing: CMR #484 (2020-11-20) · [rulings](https://api.scryfall.com/cards/d4929e39-fccc-450b-bb18-f5ad56a397bd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-02-01* — This has a triggered ability when it enters, not a replacement effect, as previously worded.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/484/jungle-basin) · oracle_id `f922f90a-b1a2-4630-9266-40726ca89f74` · printing: CMR #484 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jungleborn Pioneer
 
@@ -709,7 +746,9 @@
 - **Flavor text** (MOC printing):
   > *To protect the alliance between Kjeldor and Yavimaya, they trained in the ways of both.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8221 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/330/juniper-order-ranger) · oracle_id `18ca77c9-e7d2-4afc-a72b-98772578fad7` · printing: MOC #330 (2023-04-21) · [rulings](https://api.scryfall.com/cards/9f299f1e-2694-44e6-aad4-1f29c2ee5553/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-07-15* — The creature doesn't enter with a +1/+1 counter on it. It enters, then the ability triggers. If either that creature or Juniper Order Ranger leaves the battlefield before the ability resolves, the remaining creature will still get a +1/+1 counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/330/juniper-order-ranger) · oracle_id `18ca77c9-e7d2-4afc-a72b-98772578fad7` · printing: MOC #330 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Juniper Order Rootweaver
 
@@ -737,6 +776,7 @@
   > • Put target non-Dragon creature card from a graveyard onto the battlefield under your control. You lose 2 life.
 - **Keywords:** Flying, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1228 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/183/junji-the-midnight-sky) · oracle_id `78a48f4e-ba4c-4d8d-938a-9ddb342a885b` · printing: TDC #183 (2025-04-11) · [rulings](https://api.scryfall.com/cards/e9ff50c0-915e-4055-a595-3df6be8f1e1b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Junkblade Bruiser
@@ -765,6 +805,7 @@
   > *Garbage in, treasure out.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1976 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/293/junk-diver) · oracle_id `08c595da-9305-42a9-b72f-5ccc546edc01` · printing: MH3 #293 (2024-06-14) · [rulings](https://api.scryfall.com/cards/6b5d53cb-bf80-43b0-b839-b11a64ff4c1b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Junk Golem
@@ -789,7 +830,14 @@
   > Equip {1}
 - **Keywords:** Equip, Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9629 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/60/junk-jet) · oracle_id `0347b8b7-0553-4a1f-9677-ad730470c345` · printing: PIP #60 (2024-03-08) · [rulings](https://api.scryfall.com/cards/2397c9b8-3974-48b8-94bd-f05f2e20750c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-03-08* — If a creature's power is less than 0 when it's doubled, instead that creature gets -X/-0, where X is how much less than 0 its power is. For example, suppose you control Infesting Radroach, a 2/2 creature. If an effect has given Infesting Radroach -4/-0 so that it's a -2/2 creature, doubling its power gives it -2/-0, and it becomes a -4/2 creature.
+  - *2024-03-08* — If an effect instructs you to "double" a creature's power, that creature gets +X/+0, where X is its power as that effect begins to apply.
+  - *2024-03-08* — If you "double" a creature's power more than once in a turn, each doubling effect applies independently. For example, suppose Junk Jet is attached to Infesting Radroach, a 2/2 creature. If you activate Junk Jet's second ability, Infesting Radroach will get +2/+0 when that ability resolves, making it a 4/2 creature. Doubling its power again will give it +4/+0, making it an 8/2 creature.
+  - *2024-03-08* — Some spells and abilities that create Junk tokens may require targets. If each target chosen is illegal as that spell or ability tries to resolve, it won't resolve and none of its effects happen. You won't create any Junk tokens.
+  - *2024-03-08* — You can't sacrifice a Junk token to pay multiple costs. For example, you can't sacrifice a Junk token to activate its own ability and also to activate the second ability of Junk Jet.
+  - *2024-03-08* — You pay all costs and follow all normal timing rules for the card played from exile with a Junk token's ability. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/60/junk-jet) · oracle_id `0347b8b7-0553-4a1f-9677-ad730470c345` · printing: PIP #60 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Junktown
 
@@ -827,6 +875,7 @@
   > Whenever a token you control enters, tap target nonland permanent an opponent controls. It doesn't untap during its controller's next untap step.
 - **Keywords:** Affinity
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1876 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/107/junk-winder) · oracle_id `5b677e88-bcc9-4a55-9c89-8bbd0e2344dc` · printing: MKC #107 (2024-02-09) · [rulings](https://api.scryfall.com/cards/1c1acd61-efc9-4fd3-86ec-b5cbd43c0b08/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Junkyard Genius
@@ -884,7 +933,10 @@
 - **Flavor text** (EOC printing):
   > *"What a show! We're going to make a killing tonight."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1829 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/119/juri-master-of-the-revue) · oracle_id `3364bad6-6d0a-4141-b410-86e3d9e1916e` · printing: EOC #119 (2025-08-01) · [rulings](https://api.scryfall.com/cards/5006eae5-3b77-45ab-a907-f5094b2eaf1f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-11-10* — For Juri's second ability, use its power from when it was last on the battlefield to determine how much damage is dealt. If that power was 0 or less, Juri deals no damage.
+  - *2020-11-10* — Juri's first ability doesn't allow you to sacrifice any permanents. You'll have to find another way to do that.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/119/juri-master-of-the-revue) · oracle_id `3364bad6-6d0a-4141-b410-86e3d9e1916e` · printing: EOC #119 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jurin, Leading the Charge
 
@@ -986,7 +1038,12 @@
 - **Flavor text** (RNA printing):
   > *With the new guildmaster's innovations, arresters can arrive on the scene moments before a crime is committed.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6958 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rna/13/justiciars-portal) · oracle_id `0214805d-d207-42da-a25f-2a8e1990904e` · printing: RNA #13 (2019-01-25) · [rulings](https://api.scryfall.com/cards/1df611df-3490-4b07-8034-6da9a0122a81/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2019-01-25* — If a token is exiled this way, it will cease to exist and won’t return to the battlefield.
+  - *2019-01-25* — Once the exiled creature returns, it’s considered a new object with no relation to the object that it was. Auras attached to the exiled creature will be put into their owners’ graveyards. Equipment attached to the exiled creature will become unattached and remain on the battlefield. Any counters on the exiled creature will cease to exist.
+  - *2019-01-25* — The creature returns untapped unless another effect causes it to enter the battlefield tapped.
+  - *2019-01-25* — The returned card won’t be the target of any spells or abilities that targeted it before. Spells that don’t target, such as Kaya’s Wrath, may still affect it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rna/13/justiciars-portal) · oracle_id `0214805d-d207-42da-a25f-2a8e1990904e` · printing: RNA #13 (2019-01-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Just the Wind
 

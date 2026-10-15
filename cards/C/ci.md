@@ -104,7 +104,10 @@
   > *"I'm Cid—that's who the hell I am! Now just let me handle it!"*
 - **Keywords:** Jump
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2554 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/13/cid-freeflier-pilot) · oracle_id `d3bdfb25-dfb2-4df4-b502-ef0909a39f86` · printing: FIC #13 (2025-06-13) · [rulings](https://api.scryfall.com/cards/afa9e3e6-a633-46ad-b52a-48574b2f3d07/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-06-06* — The cost reduction applies only to generic mana in the total cost of Equipment and Vehicle spells you cast.
+  - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as a flashback cost), add any cost increases (such as kicker costs), then apply any cost reductions (such as that of Cid's first ability). The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/13/cid-freeflier-pilot) · oracle_id `d3bdfb25-dfb2-4df4-b502-ef0909a39f86` · printing: FIC #13 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cid, Timeless Artificer
 
@@ -130,6 +133,7 @@
   > *"I do as I choose with what is mine. And it is all mine."*
   > *—Nicol Bolas*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6335 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c19/235/cinder-barrens) · oracle_id `f155a05f-9f5e-4875-a407-103b85ce30ee` · printing: C19 #235 (2019-08-23) · [rulings](https://api.scryfall.com/cards/08136a39-bf9f-493c-92d6-178567647fb2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cinderbones
@@ -365,7 +369,11 @@
   > Whenever an opponent casts a noncreature spell, this enchantment deals 1 damage to that player.
   > {1}, Sacrifice this enchantment: Destroy target artifact or enchantment. This enchantment deals 2 damage to that permanent's controller.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6505 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/171/cindervines) · oracle_id `92d95e12-fa51-4360-88e4-9078ccc5d8d3` · printing: RVR #171 (2024-01-12) · [rulings](https://api.scryfall.com/cards/a18da49b-fa47-4014-a8d8-aeccec17d8eb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-01-25* — Cindervines can be the target of its own activated ability. The ability won't resolve since it won't have a legal target, and no player will be dealt damage, but this does allow you to sacrifice Cindervines without anything else to target if you want to.
+  - *2019-01-25* — Cindervines's triggered ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+  - *2019-01-25* — If the target permanent is an illegal target by the time Cindervines's activated ability tries to resolve, the ability doesn't resolve. No player is dealt damage. If the target is legal but not destroyed (most likely because it has indestructible), its controller is dealt damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/171/cindervines) · oracle_id `92d95e12-fa51-4360-88e4-9078ccc5d8d3` · printing: RVR #171 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cinder Wall
 
@@ -436,6 +444,7 @@
 - **Flavor text** (AFR printing):
   > *The realms protected by druids of the Circle of Dreams are gleaming, fruitful places, where dream and reality blur together and the weary can find rest.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1112 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/176/circle-of-dreams-druid) · oracle_id `1c857fa4-e823-494d-9ea4-7eb9e719c9b6` · printing: AFR #176 (2021-07-23) · [rulings](https://api.scryfall.com/cards/be6fdec0-a2c4-4da2-ae14-961185eaee66/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Circle of Elders
@@ -462,7 +471,10 @@
   > *"Which do you think is a better deterrent: a moat of water or one of fire?"*
   > *—Chandra Nalaar*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9500 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m15/135/circle-of-flame) · oracle_id `c31801e6-2444-4158-8e19-2afe751d7cff` · printing: M15 #135 (2014-07-18) · [rulings](https://api.scryfall.com/cards/96cbfd4a-ac95-4191-84f9-199a9e1807c4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-07-18* — Circle of Flame's ability triggers only if a creature without flying is declared as an attacker during the declare attackers step. If a creature with flying attacks you or a planeswalker you control and then loses flying, or if a creature without flying is put onto the battlefield attacking you or a planeswalker you control, the ability won't trigger.
+  - *2021-02-01* *(Scryfall note)* — Circle of Flame is banned in Pauper (not just non-legal), due to a special case on MTGO: https://magic.wizards.com/en/articles/archive/news/january-21-2019-banned-and-restricted-announcement
+- **Source flags:** [Scryfall](https://scryfall.com/card/m15/135/circle-of-flame) · oracle_id `c31801e6-2444-4158-8e19-2afe751d7cff` · printing: M15 #135 (2014-07-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Circle of Power
 
@@ -472,7 +484,9 @@
   > You draw two cards and you lose 2 life. Create a 0/1 black Wizard creature token with "Whenever you cast a noncreature spell, this token deals 1 damage to each opponent."
   > Wizards you control get +1/+0 and gain lifelink until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2331 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/92/circle-of-power) · oracle_id `2d41fd1f-4a98-45dd-a3c5-f7c5e0152109` · printing: FIN #92 (2025-06-13) · [rulings](https://api.scryfall.com/cards/c969bd0f-f174-4e2f-b95c-c9ccd5d0b8ba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-06-06* — The Wizard token's ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/92/circle-of-power) · oracle_id `2d41fd1f-4a98-45dd-a3c5-f7c5e0152109` · printing: FIN #92 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Circle of Protection: Art
 
@@ -570,6 +584,7 @@
   > Natural Recovery — When this creature dies, return target land card from your graveyard to your hand.
 - **Keywords:** Natural Recovery, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9198 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/220/circle-of-the-land-druid) · oracle_id `b6cc351e-6afd-4427-998d-e06e430cd0e6` · printing: CLB #220 (2022-06-10) · [rulings](https://api.scryfall.com/cards/1e84fc74-5b33-423a-82c7-983320fce7a3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Circle of the Moon Druid
@@ -620,6 +635,7 @@
 - **Flavor text** (NEO printing):
   > *Inspired by industrious silkworms, its maker crafted it to restore the broken pieces of the world.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2264 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/242/circuit-mender) · oracle_id `1665ca9f-176d-40f1-a4e9-42da4f1236e9` · printing: NEO #242 (2022-02-18) · [rulings](https://api.scryfall.com/cards/defaeb68-3f8a-4740-b13f-8c71c7e9c8b4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Circuitous Route
@@ -632,6 +648,7 @@
   > *"The shortest path between two points is not always the safest."*
   > *—Tamina, district guide*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1787 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/635/circuitous-route) · oracle_id `30afacd9-4680-4aac-8c22-584f9418822d` · printing: FDN #635 (2024-11-15) · [rulings](https://api.scryfall.com/cards/a806dec2-d4f9-4f8d-a1dd-170777941131/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Circuits Act
@@ -643,7 +660,15 @@
 - **Flavor text** (UNF printing):
   > *Another day, another item Pietra has to add to the "do not juggle" database.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8319 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/103/circuits-act) · oracle_id `14421f6a-2cd6-4438-9ac9-dc06d2c7befb` · printing: UNF #103 (2022-10-07) · [rulings](https://api.scryfall.com/cards/f21045d6-638e-4267-b353-c2c11db8d965/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2022-10-07* — Each die is identified by the number of faces it has. A six-sided die is a die with six equally likely outcomes: 1, 2, 3, 4, 5, and 6. The roll must be fair. Although physical dice are recommended, digital substitutes are allowed except in cases where the physical die is required for the effect.
+  - *2022-10-07* — For example, if you rolled 1, 4, and 4, you'd create two Clown Robots. If you rolled triples, you'd create one Clown Robot.
+  - *2022-10-07* — If a die is rerolled, the original roll essentially never happened: it doesn't cause any abilities to trigger, and no effect that cares about die rolls will consider it.
+  - *2022-10-07* — If an ability triggers "whenever you roll a die," it will trigger whenever you roll any die, including the planar die. This is a change from previous Un- rules. Some abilities use the result to determine part of the effect. If you get a non-numerical result (currently just the planar die, but the future is long), that part of the effect won't do anything.
+  - *2022-10-07* — Results can be numbers not ordinarily possible on a six-sided die. Spells like Scooch can change the result to 0 or 7, for example.
+  - *2022-10-07* — Some effects may modify the result of a die roll. This may be part of the instruction to roll a die, or it may come from other cards. Anything that references the "result" of a die roll is looking for the result after these modifications.
+  - *2022-10-07* — Something in the game must tell you to roll a die. If you roll a die for any other reason (to simulate a coin flip, to choose pizza toppings, to create alternate timelines), that roll doesn't count.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/103/circuits-act) · oracle_id `14421f6a-2cd6-4438-9ac9-dc06d2c7befb` · printing: UNF #103 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Circular Logic
 
@@ -654,7 +679,18 @@
   > Madness {U} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
 - **Keywords:** Madness
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7630 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/42/circular-logic) · oracle_id `b071bbaf-79fa-413b-807b-2cc86c8a8125` · printing: DMR #42 (2023-01-13) · [rulings](https://api.scryfall.com/cards/4b19fdac-da3e-4ebd-ae7b-6f31a97b2a0f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2022-12-08* — A card with madness that's discarded counts as having been discarded even though it's put into exile rather than a graveyard. If it was discarded to pay a cost, that cost is still paid. Abilities that trigger when a card is discarded will still trigger.
+  - *2022-12-08* — A spell cast for its madness cost is put onto the stack like any other spell. It can be countered, copied, and so on. As it resolves, it's put onto the battlefield if it's a permanent card or into its owner's graveyard if it's an instant or sorcery card.
+  - *2022-12-08* — Cards are discarded in a Magic game only from a player's hand. Effects that put cards into a player's graveyard from anywhere else do not cause those cards to be discarded.
+  - *2022-12-08* — Casting a spell with madness ignores the timing rules based on the card's card type. For example, you can cast a sorcery with madness if you discard it during an opponent's turn.
+  - *2022-12-08* — Count the number of cards in your graveyard as Circular Logic resolves to determine how much the controller of the target spell has to pay. Circular Logic is still on the stack at that time. It doesn't count itself.
+  - *2022-12-08* — If you choose not to cast a card with madness when the madness triggered ability resolves, it's put into your graveyard. Madness doesn't give you another chance to cast it later.
+  - *2022-12-08* — If you discard a card with madness to pay the cost of a spell or activated ability, that card's madness triggered ability (and the spell that card becomes, if you choose to cast it) will resolve before the spell or ability the discard paid for.
+  - *2022-12-08* — If you discard a card with madness while a spell or ability is resolving, it moves immediately to exile. Continue resolving that spell or ability, noting that the card you discarded is not in your graveyard at this time. Its madness triggered ability will be placed onto the stack once that spell or ability has completely resolved.
+  - *2022-12-08* — Madness works independently of why you're discarding the card. You could discard it to pay a cost, because a spell or ability tells you to, or because you have too many cards in your hand during your cleanup step. You can't discard a card with madness just because you want to, though.
+  - *2022-12-08* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a madness cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/42/circular-logic) · oracle_id `b071bbaf-79fa-413b-807b-2cc86c8a8125` · printing: DMR #42 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Círdan the Shipwright
 
@@ -666,7 +702,15 @@
   > Secret council — Whenever Círdan enters or attacks, each player secretly votes for a player, then those votes are revealed. Each player draws a card for each vote they received. Each player who received no votes may put a permanent card from their hand onto the battlefield.
 - **Keywords:** Vigilance, Secret council
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7854 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/50/c%C3%ADrdan-the-shipwright) · oracle_id `063e05b0-554f-4b55-9feb-e11f3927f3a6` · printing: LTC #50 (2023-06-23) · [rulings](https://api.scryfall.com/cards/c4f23d68-d0de-4b57-b0f9-9c0ca770c3c1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-06-16* — Abilities that trigger "whenever players finish voting" trigger once all players have voted or once all secret votes are revealed, but they won't go on the stack until the current spell or ability finishes resolving.
+  - *2023-06-16* — After the votes are revealed, first the player whose turn it is draws a card for each vote they received, then each other player in turn order does so. Then, if the first player received no votes, they may put a permanent card from their hand onto the battlefield. Then each other player in turn order does the same.
+  - *2023-06-16* — Before secret votes are revealed, players may announce how they intend to vote, but they can't reveal what they actually wrote down until all votes are simultaneously revealed. Players can lie about how they intend to vote before the votes are revealed.
+  - *2023-06-16* — Each player must vote for one of the available options. They can't abstain.
+  - *2023-06-16* — No player votes until the spell or ability resolves. Any responses to that spell or ability must be made without knowing the outcome of the vote.
+  - *2023-06-16* — The phrase "the vote is tied" refers only to when there is more than one choice that received the most votes. For example, if a 5-player vote from among three different choices ends 3 votes to 1 vote to 1 vote, the vote isn't tied.
+  - *2023-06-16* — To secretly vote, each player writes down their chosen option without showing it to anyone else. Each player then keeps their vote secret until all players simultaneously reveal their votes.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/50/c%C3%ADrdan-the-shipwright) · oracle_id `063e05b0-554f-4b55-9feb-e11f3927f3a6` · printing: LTC #50 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cirith Ungol Patrol
 
@@ -707,6 +751,7 @@
 - **Flavor text** (CLB printing):
   > *A beacon of order and safety, for those who can afford it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3069 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/349/citadel-gate) · oracle_id `15f1fe23-5af4-4fc4-8cde-2e0bf9f9be0c` · printing: CLB #349 (2022-06-10) · [rulings](https://api.scryfall.com/cards/c0e6f002-9a10-49a1-8604-2b8ff57732dd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Citadel of Pain
@@ -719,7 +764,9 @@
   > *"Battle is our religion. This fortress is our temple."*
   > *—Latulla, Keldon overseer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6838 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pcy/86/citadel-of-pain) · oracle_id `2233c079-5ca6-4992-8bd2-84dbf9ed53a9` · printing: PCY #86 (2000-06-05) · [rulings](https://api.scryfall.com/cards/66585109-77cb-42f1-9c14-3dac1d493b71/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — It counts the untapped lands on resolution.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pcy/86/citadel-of-pain) · oracle_id `2233c079-5ca6-4992-8bd2-84dbf9ed53a9` · printing: PCY #86 (2000-06-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Citadel Siege
 
@@ -730,7 +777,11 @@
   > • Khans — At the beginning of combat on your turn, put two +1/+1 counters on target creature you control.
   > • Dragons — At the beginning of combat on each opponent's turn, tap target creature that player controls.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5547 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mic/81/citadel-siege) · oracle_id `40f66e21-5b60-4e42-927d-65397e7ad544` · printing: MIC #81 (2021-09-24) · [rulings](https://api.scryfall.com/cards/9c13bc7c-a536-44d0-8c89-49ff33bee326/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2014-11-24* — Each Siege will have one of the two listed abilities, depending on your choice as it enters the battlefield.
+  - *2014-11-24* — Each of the last two abilities is linked to the first ability. They each refer only to the choice made as a result of the first ability. If a permanent enters the battlefield as a copy of one of the Sieges, its controller will make a new choice for that Siege. Which ability the copy has won't depend on the choice made for the original permanent.
+  - *2014-11-24* — The words “Khans” and “Dragons” are anchor words, connecting your choice to the appropriate ability. Anchor words are a new rules concept. “[Anchor word] — [Ability]” means “As long as you chose [anchor word] as this permanent entered the battlefield, this permanent has [ability].” Notably, the anchor word “Dragons” has no connection to the creature type Dragon.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mic/81/citadel-siege) · oracle_id `40f66e21-5b60-4e42-927d-65397e7ad544` · printing: MIC #81 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Citanul Centaurs
 
@@ -775,6 +826,7 @@
 - **Flavor text** (DSC printing):
   > *"All who inhabit these woods are part of our ritual, whether they realize it or not."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7358 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/81/citanul-hierophants) · oracle_id `f67df84f-667e-41cf-80f9-911abafe70ac` · printing: DSC #81 (2024-09-27) · [rulings](https://api.scryfall.com/cards/f378ee17-bf8b-4a83-b42e-86da10817dba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Citanul Stalwart
@@ -888,7 +940,12 @@
   > II, III, IV, V, VI — Create a token that's a copy of target non-Saga token you control.
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4520 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/99/city-of-death) · oracle_id `313c6b29-c488-4b4b-af16-f82717f59a5d` · printing: WHO #99 (2023-10-13) · [rulings](https://api.scryfall.com/cards/bd4d9b25-02ea-4ce3-a35f-7f427a74f591/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2023-10-13* — Any enters-the-battlefield abilities of the copied token will trigger when the token enters the battlefield. Any "as [this permanent] enters the battlefield" or "[this permanent] enters the battlefield with" abilities of the chosen token will also work.
+  - *2023-10-13* — If the copied token has {X} in its mana cost, X is considered to be 0.
+  - *2023-10-13* — If the copied token is copying something else (for example, if the copied token is one previously created by this ability), then the token enters the battlefield as whatever that token copied.
+  - *2023-10-13* — The token you create copies the original characteristics of the token as stated by the effect that created that token, (unless that token is copying something else; see below). It doesn't copy whether that token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/99/city-of-death) · oracle_id `313c6b29-c488-4b4b-af16-f82717f59a5d` · printing: WHO #99 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### City of Shadows
 
@@ -923,7 +980,10 @@
   > *"While we fought, the il surrendered."*
   > *—Oracle \*en\*-Vec*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1157 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/tpr/237/city-of-traitors) · oracle_id `f161111d-9747-47b3-bb10-3c8bded32e21` · printing: TPR #237 (2015-05-06) · [rulings](https://api.scryfall.com/cards/71624139-a255-48be-93ca-594a4beba487/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — City of Traitors does not trigger on itself being played.
+  - *2004-10-04* — City of Traitors does not trigger on lands that are put onto the battlefield without playing them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tpr/237/city-of-traitors) · oracle_id `f161111d-9747-47b3-bb10-3c8bded32e21` · printing: TPR #237 (2015-05-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### City on Fire
 
@@ -934,7 +994,17 @@
   > If a source you control would deal damage to a permanent or player, it deals triple that damage instead.
 - **Keywords:** Triple, Convoke
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #896 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/135/city-on-fire) · oracle_id `41eec4e8-92d3-4f98-9346-3a3e3cc602ce` · printing: MOM #135 (2023-04-21) · [rulings](https://api.scryfall.com/cards/6f455cc1-a822-44ef-ba7c-bfcff69bd45e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2023-04-14* — If an effect such as that of Chandra's Pyrohelix asks you to divide damage among targets, you must divide the unmodified damage before tripling it.
+  - *2023-04-14* — If you control two Cities on Fire, damage dealt by sources you control will be multiplied by 9. If you control three, it will be multiplied by 27, and so on.
+  - *2023-04-14* — While you control City on Fire, if a creature you control with trample would deal combat damage to a blocking creature, you must assign its unmodified damage. For example, a 3/3 creature with trample blocked by a 2/2 creature can have 1 damage assigned to the defending player. It will then deal 6 damage to the blocking creature (2 tripled) and 3 to the defending player (1 tripled).
+  - *2024-01-12* — Because convoke isn't an alternative cost, it can be used in conjunction with alternative costs.
+  - *2024-01-12* — If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.
+  - *2024-01-12* — Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature's colors.
+  - *2024-01-12* — Tapping an untapped creature that's attacking or blocking to convoke a spell won't cause that creature to stop attacking or blocking.
+  - *2024-01-12* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
+  - *2024-01-12* — You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/135/city-on-fire) · oracle_id `41eec4e8-92d3-4f98-9346-3a3e3cc602ce` · printing: MOM #135 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### City Pigeon
 
@@ -962,7 +1032,17 @@
   > Unearth {8}
 - **Keywords:** Unearth, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2106 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/233/cityscape-leveler) · oracle_id `d4d65797-2b92-4265-9169-133120c86c7f` · printing: BRO #233 (2022-11-18) · [rulings](https://api.scryfall.com/cards/67a87278-4c82-4056-8354-253d86b0ef3d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2022-10-14* — Activating a card's unearth ability isn't the same as casting that card. The unearth ability is put on the stack, but the card is not. Spells and abilities that interact with activated abilities (such as Defabricate's second mode) will interact with unearth, but spells and abilities that interact with spells (such as Scatter Ray) will not.
+  - *2022-10-14* — Although all the cards in The Brothers' War that create Powerstone tokens create a tapped Powerstone token, entering the battlefield tapped isn't part of the token's definition. Notably, if you create a token that is a copy of a Powerstone token, the token copy won't enter the battlefield tapped.
+  - *2022-10-14* — At the beginning of the next end step, a permanent returned to the battlefield with unearth is exiled. This is a delayed triggered ability, and it can be countered by effects such as Defabricate that counter triggered abilities. If the ability is countered, the permanent will stay on the battlefield and the delayed triggered ability won't trigger again. However, the replacement effect will still exile the permanent if it eventually leaves the battlefield.
+  - *2022-10-14* — Cityscape Leveler's triggered ability won't trigger when you activate its unearth ability from your graveyard. It will, however, trigger when you attack with Cityscape Leveler that turn.
+  - *2022-10-14* — If a permanent returned to the battlefield with unearth would leave the battlefield for any reason, it's exiled instead—unless the spell or ability that's causing the permanent to leave the battlefield is actually trying to exile it! In that case, it succeeds at exiling it. If that spell or ability later returns the card to the battlefield (as Static Net might, for example), the permanent card will return to the battlefield as a new object with no relation to its previous existence. The unearth effects will no longer apply to it.
+  - *2022-10-14* — If you activate a card's unearth ability but that card is removed from your graveyard before the ability resolves, that unearth ability will do nothing as it resolves.
+  - *2022-10-14* — Powerstone tokens are a kind of predefined token. Each one has the artifact subtype "Powerstone" and the ability "{T}: Add {C}. This mana can't be spent to cast a nonartifact spell."
+  - *2022-10-14* — Unearth grants haste to the permanent that's returned to the battlefield (even if it's not a creature card). However, neither of the "exile" abilities is granted to that permanent. If that permanent loses all its abilities, it will still be exiled at the beginning of the next end step, and if it would leave the battlefield, it is still exiled instead.
+  - *2022-10-14* — You can use the {C} added by a Powerstone token on anything that isn't a nonartifact spell. This includes paying costs to activate abilities of both artifact and nonartifact permanents, paying ward costs, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/233/cityscape-leveler) · oracle_id `d4d65797-2b92-4265-9169-133120c86c7f` · printing: BRO #233 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Citywatch Sphinx
 
@@ -988,6 +1068,7 @@
   > *"Oh, you fellas are going to love the lockup. Excellent gruel. Very low ceilings."*
   > *—Libuse, Boros sergeant*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7910 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c20/82/citywide-bust) · oracle_id `3ac01298-e45b-4ea0-8379-2074279716a4` · printing: C20 #82 (2020-04-17) · [rulings](https://api.scryfall.com/cards/33d1a51a-abf0-458c-98ae-98fcf4063fd9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Civic Gardener

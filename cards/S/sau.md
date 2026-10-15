@@ -89,7 +89,24 @@
   > Whenever a commander an opponent controls dies, the Ring tempts you.
 - **Keywords:** Amass, Trample, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5141 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/4/sauron-lord-of-the-rings) · oracle_id `69c674c7-48a5-49c8-b0be-3f2b5c6a548c` · printing: LTC #4 (2023-06-23) · [rulings](https://api.scryfall.com/cards/fc53dec0-79fe-4f6f-9d5b-cf298588e808/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (16):
+  - *2023-06-16* — Amass Zombies works the same way, except you create a 0/0 black Zombie Army creature token if you don't control an Army. If the Army creature you chose isn't already a Zombie, it becomes a Zombie in addition to its other types. By combining cards with amass Orcs and amass Zombies, you can end up with an Orc Zombie Army.
+  - *2023-06-16* — Amass abilities are now written as "amass [subtype] N." Previous cards with amass have received errata to say "amass Zombies N."
+  - *2023-06-16* — As the Ring tempts you, you get an emblem named The Ring if you don't have one. Then your emblem gains its next ability and you choose a creature you control to become (or remain) your Ring-bearer.
+  - *2023-06-16* — Each player can have only one emblem named The Ring and only one Ring-bearer at a time.
+  - *2023-06-16* — Each time the Ring tempts you, you must choose a creature if you control one.
+  - *2023-06-16* — If the creature you choose as your Ring-bearer was already your Ring-bearer, that still counts as choosing that creature as your Ring-bearer for the purpose of abilities that trigger "whenever you choose a creature as your Ring-bearer" or abilities that care about which creature was chosen as your Ring-bearer.
+  - *2023-06-16* — If you don't control an Army, the Orc Army token you create enters the battlefield as a 0/0 creature before receiving counters. Any abilities that trigger when a creature with a certain power enters the battlefield, such as that of Mentor of the Meek, will see the token enter as a 0/0 creature before it gets +1/+1 counters.
+  - *2023-06-16* — In the rare case that you control multiple Army creatures (perhaps because you played a creature with changeling) while you amass Orcs, you choose which of your Army creatures to put the +1/+1 counters on. If that creature isn't an Orc, it becomes an Orc in addition to its other types.
+  - *2023-06-16* — Sauron, Lord of the Rings's last ability will trigger even if the owner of the commander that died chooses to return it to the command zone after it dies.
+  - *2023-06-16* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
+  - *2023-06-16* — Some spells and abilities that amass Orcs may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't amass Orcs.
+  - *2023-06-16* — Some spells and abilities that cause the Ring to tempt you may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Ring won't tempt you.
+  - *2023-06-16* — The Ring can tempt you even if you don't control a creature. In this case, abilities that trigger "whenever the Ring tempts you" will still trigger.
+  - *2023-06-16* — The Ring gains its abilities in order from top to bottom. Once it gains an ability, it has that ability for the rest of the game.
+  - *2023-06-16* — The creature card you choose doesn't need to be a card you milled. You may choose a creature card that was already in your graveyard before you milled.
+  - *2023-06-16* — To amass Orcs N, if you don't control an Army creature, create a 0/0 black Orc Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already an Orc, it becomes an Orc in addition to its other types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/4/sauron-lord-of-the-rings) · oracle_id `69c674c7-48a5-49c8-b0be-3f2b5c6a548c` · printing: LTC #4 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sauron's Ransom
 
@@ -100,7 +117,18 @@
 - **Flavor text** (LTR printing):
   > *"He was dear to you, I see. And now he shall endure the slow torment of years."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5005 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/225/saurons-ransom) · oracle_id `fe04a81b-413c-4bc8-bb83-29978da9a43d` · printing: LTR #225 (2023-06-23) · [rulings](https://api.scryfall.com/cards/6b98850c-ad69-42da-b91a-8dc5e226c444/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2023-06-16* — As the Ring tempts you, you get an emblem named The Ring if you don't have one. Then your emblem gains its next ability and you choose a creature you control to become (or remain) your Ring-bearer.
+  - *2023-06-16* — Each player can have only one emblem named The Ring and only one Ring-bearer at a time.
+  - *2023-06-16* — Each time the Ring tempts you, you must choose a creature if you control one.
+  - *2023-06-16* — If the creature you choose as your Ring-bearer was already your Ring-bearer, that still counts as choosing that creature as your Ring-bearer for the purpose of abilities that trigger "whenever you choose a creature as your Ring-bearer" or abilities that care about which creature was chosen as your Ring-bearer.
+  - *2023-06-16* — Some spells and abilities that cause the Ring to tempt you may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Ring won't tempt you.
+  - *2023-06-16* — The Ring can tempt you even if you don't control a creature. In this case, abilities that trigger "whenever the Ring tempts you" will still trigger.
+  - *2023-06-16* — The Ring gains its abilities in order from top to bottom. Once it gains an ability, it has that ability for the rest of the game.
+  - *2023-06-16* — The opponent may split the cards into one pile of four and one pile of zero. The pile of four cards could be the face-up pile or the face-down pile.
+  - *2023-06-16* — You choose just one opponent to look at the top four cards of your library and put them into piles. Other players can't look, but they may attempt to offer advice without knowing what cards are there. The player who looks may choose what information to share with others if that player wants advice on how to split the cards, but that player doesn't have to share any information at all.
+  - *2023-06-16* — You don't have to reveal the cards in the face-down pile if you put it into your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/225/saurons-ransom) · oracle_id `fe04a81b-413c-4bc8-bb83-29978da9a43d` · printing: LTR #225 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sauron, the Dark Lord
 
@@ -114,7 +142,28 @@
   > Whenever the Ring tempts you, you may discard your hand. If you do, draw four cards.
 - **Keywords:** Amass, Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3181 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/224/sauron-the-dark-lord) · oracle_id `9f8f29ba-7e64-455d-be05-ec7973f2bd0a` · printing: LTR #224 (2023-06-23) · [rulings](https://api.scryfall.com/cards/034e0929-b2c7-4b5f-94f2-8eaf4fb1a2a1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (20):
+  - *2023-06-16* — Amass Zombies works the same way, except you create a 0/0 black Zombie Army creature token if you don't control an Army. If the Army creature you chose isn't already a Zombie, it becomes a Zombie in addition to its other types. By combining cards with amass Orcs and amass Zombies, you can end up with an Orc Zombie Army.
+  - *2023-06-16* — Amass abilities are now written as "amass [subtype] N." Previous cards with amass have received errata to say "amass Zombies N."
+  - *2023-06-16* — As the Ring tempts you, you get an emblem named The Ring if you don't have one. Then your emblem gains its next ability and you choose a creature you control to become (or remain) your Ring-bearer.
+  - *2023-06-16* — Each player can have only one emblem named The Ring and only one Ring-bearer at a time.
+  - *2023-06-16* — Each time the Ring tempts you, you must choose a creature if you control one.
+  - *2023-06-16* — If the creature you choose as your Ring-bearer was already your Ring-bearer, that still counts as choosing that creature as your Ring-bearer for the purpose of abilities that trigger "whenever you choose a creature as your Ring-bearer" or abilities that care about which creature was chosen as your Ring-bearer.
+  - *2023-06-16* — If you don't control an Army, the Orc Army token you create enters the battlefield as a 0/0 creature before receiving counters. Any abilities that trigger when a creature with a certain power enters the battlefield, such as that of Mentor of the Meek, will see the token enter as a 0/0 creature before it gets +1/+1 counters.
+  - *2023-06-16* — In the rare case that you control multiple Army creatures (perhaps because you played a creature with changeling) while you amass Orcs, you choose which of your Army creatures to put the +1/+1 counters on. If that creature isn't an Orc, it becomes an Orc in addition to its other types.
+  - *2023-06-16* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
+  - *2023-06-16* — Some spells and abilities that amass Orcs may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't amass Orcs.
+  - *2023-06-16* — Some spells and abilities that cause the Ring to tempt you may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Ring won't tempt you.
+  - *2023-06-16* — The Ring can tempt you even if you don't control a creature. In this case, abilities that trigger "whenever the Ring tempts you" will still trigger.
+  - *2023-06-16* — The Ring gains its abilities in order from top to bottom. Once it gains an ability, it has that ability for the rest of the game.
+  - *2023-06-16* — To amass Orcs N, if you don't control an Army creature, create a 0/0 black Orc Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already an Orc, it becomes an Orc in addition to its other types.
+  - *2026-06-29* — Amass Orcs works the same way, except you create a 0/0 black Orc Army creature token if you don't control an Army. And if the Army creature you chose isn't already an Orc, it becomes an Orc in addition to its other types. By combining cards with amass Orcs and amass Goblins, you can end up with a Goblin Orc Army.
+  - *2026-06-29* — If you don't control an Army, the Goblin Army token you create enters the battlefield as a 0/0 creature before receiving counters. Any abilities that trigger when a creature with a certain power enters the battlefield, such as that of Mentor of the Meek, will see the token enter as a 0/0 creature before it gets +1/+1 counters.
+  - *2026-06-29* — In the rare case that you control multiple Army creatures (perhaps because you control a creature with changeling) while you amass Goblins, you choose which of your Army creatures to put the +1/+1 counters on. If that creature isn't a Goblin, it becomes a Goblin in addition to its other types.
+  - *2026-06-29* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
+  - *2026-06-29* — Some spells and abilities that amass Goblins may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't amass Goblins.
+  - *2026-06-29* — To amass Goblins N, if you don't control an Army creature, create a 0/0 black Goblin Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already a Goblin, it becomes a Goblin in addition to its other types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/224/sauron-the-dark-lord) · oracle_id `9f8f29ba-7e64-455d-be05-ec7973f2bd0a` · printing: LTR #224 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sauron, the Lidless Eye
 
@@ -139,7 +188,13 @@
   > Whenever Sauron attacks, exile target creature card from your graveyard. Create a tapped and attacking token that's a copy of that card, except it's a 3/3 black Wraith with menace. At the beginning of the next end step, exile that token unless Sauron is your Ring-bearer.
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5806 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/106/sauron-the-necromancer) · oracle_id `8dcd7e2b-75a9-476a-a0a0-798613e8dad6` · printing: LTR #106 (2023-06-23) · [rulings](https://api.scryfall.com/cards/377d65d8-21c8-4292-97db-610e0173ba59/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-06-16* — If the card copied by the token had any "when [this permanent] enters the battlefield" abilities, then the token also has those abilities and will trigger them when it's created. Similarly, any "as [this permanent] enters the battlefield" or "[this permanent] enters the battlefield with" abilities that the token has copied will also work.
+  - *2023-06-16* — If the exiled card has {X} in its mana cost, X is 0.
+  - *2023-06-16* — The delayed triggered ability will exile the token at the beginning of your next end step unless Sauron, the Necromancer is your Ring-bearer at the time that the ability resolves. If Sauron, the Necromancer leaves the battlefield before the delayed triggered ability resolves, that ability will exile the token, even if Sauron, the Necromancer later returns to the battlefield or you control another copy of Sauron, the Necromancer as your Ring-bearer.
+  - *2023-06-16* — The token copies exactly what was printed on the original card and nothing else, except the characteristics it specifically modifies. It doesn't copy any information about the object the card was before it was put into your graveyard.
+  - *2023-06-16* — The token is a Wraith instead of its other creature types (and other subtypes if it has any) and is black instead of its other colors. Its base power and toughness are 3/3. These are copiable values of the token that other effects may copy.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/106/sauron-the-necromancer) · oracle_id `8dcd7e2b-75a9-476a-a0a0-798613e8dad6` · printing: LTR #106 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sauté
 

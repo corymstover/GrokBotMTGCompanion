@@ -33,4 +33,12 @@
   > Whenever a Food is put into a graveyard from the battlefield, put two +1/+1 counters on Ygra.
 - **Keywords:** Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2749 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/241/ygra-eater-of-all) · oracle_id `62511d43-8eaf-405a-9c81-7bd593d3a01e` · printing: BLB #241 (2024-08-02) · [rulings](https://api.scryfall.com/cards/b9ac7673-eae8-4c4b-889e-5025213a6151/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2024-07-26* — Creatures that die while you control Ygra are still Food artifacts as they leave the battlefield, so Ygra's last ability will trigger whenever a creature affected by its second ability dies.
+  - *2024-07-26* — Replacement effects that modify artifacts as they enter will apply after you apply Ygra's effect. For example, if you control Ygra and there is an effect that says artifacts enter tapped, creatures will enter tapped.
+  - *2024-07-26* — The affected creatures retain their other types and abilities.
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, you can sacrifice Tough Cookie (an Artifact Creature — Food Golem) to activate Maraleaf Rider's ability (an ability with "Sacrifice a Food" in its cost).
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/241/ygra-eater-of-all) · oracle_id `62511d43-8eaf-405a-9c81-7bd593d3a01e` · printing: BLB #241 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

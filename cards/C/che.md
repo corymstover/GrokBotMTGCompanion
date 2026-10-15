@@ -167,7 +167,14 @@
 - **Flavor text** (MH2 printing):
   > *"Cooked to perfection, of course."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5511 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/120/chefs-kiss) · oracle_id `3d177c04-9aa3-44b8-bbe4-df5de23a4ce6` · printing: MH2 #120 (2021-06-18) · [rulings](https://api.scryfall.com/cards/c936ebbd-512a-49a6-ab23-16ac34b4a3a9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-06-18* — Chef's Kiss can target any spell that targets a single permanent or player, including a spell you control.
+  - *2021-06-18* — If a spell has multiple instances of the word “target,” but all of them target the same permanent or player, it is a legal target for Chef's Kiss. In that case, a new target will be reselected at random for each instance of the word target in its rules text. The same is true for the copy.
+  - *2021-06-18* — If there are any legal targets that are not you or permanents you control, you must reselect the targets at random.
+  - *2021-06-18* — If there are no legal targets that could be selected, the targets remain unchanged. Note that this may not mean that those targets are illegal as the spell resolves. For example, if an opponent in a two-player game has hexproof and casts Lava Spike targeting you, Chef's Kiss will not be able to change the target. However, this doesn't make you an illegal target, and both the original spell and the copy will still target you and deal 3 damage to you.
+  - *2021-06-18* — Neither copying a spell nor reselecting its targets counts as casting a spell.
+  - *2021-06-18* — Note that Chef's Kiss may make some or all of the targets of a spell illegal. For example, any spell an opponent cast that targets a “creature you control” will be unable to find a new legal target, and its target will remain unchanged. In that case, that part of the spell will do nothing. If that was the spell's only target, that spell will be removed from the stack when it tries to resolve.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/120/chefs-kiss) · oracle_id `3d177c04-9aa3-44b8-bbe4-df5de23a4ce6` · printing: MH2 #120 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chelonian Tackle
 
@@ -193,7 +200,12 @@
   > *"My specialty is theoretical universal limits and ways to circumvent them."*
 - **Keywords:** Jump, Jump-start
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8135 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/81/chemisters-insight) · oracle_id `a2cb30d7-c0a9-4f79-bc19-fc88c4986725` · printing: CLU #81 (2024-02-23) · [rulings](https://api.scryfall.com/cards/53a7272d-c809-487e-8e1f-cc77c6875493/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2018-10-05* — A spell cast using jump-start will always be exiled afterward, whether it resolves, it's countered, or it leaves the stack in some other way.
+  - *2018-10-05* — If a card with jump-start is put into your graveyard during your turn, you'll be able to cast it right away if it's legal to do so, before an opponent can take any actions.
+  - *2018-10-05* — If an effect allows you to pay an alternative cost rather than a spell's mana cost, you may pay that alternative cost when you jump-start a spell. You'll still discard a card as an additional cost to cast it.
+  - *2018-10-05* — You must still follow any timing restrictions and permissions when casting a spell with jump-start, including those based on the card's type. For instance, you can cast a sorcery using jump-start only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/81/chemisters-insight) · oracle_id `a2cb30d7-c0a9-4f79-bc19-fc88c4986725` · printing: CLU #81 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chemister's Trick
 
@@ -230,4 +242,9 @@
   > Whenever a permanent an opponent controls with a bounty counter on it dies, you gain 3 life and draw a card.
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8354 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/iko/181/chevill-bane-of-monsters) · oracle_id `50863075-a30b-4238-8e31-5af32a39d886` · printing: IKO #181 (2020-04-24) · [rulings](https://api.scryfall.com/cards/fecbf0a3-ebe1-43b6-a720-462ba19002eb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-04-17* — Chevill’s middle ability and last ability look for any bounty counter on your opponents’ permanents, not just one from that Chevill. For example, if players A and B each control a Chevill and player A has put a bounty counter on player C’s creature, player B’s Chevill won’t put a counter on anything and both players will gain 3 life and draw a card when that creature dies.
+  - *2020-04-17* — If Chevill leaves the battlefield at the same time that an opponent’s permanent with a bounty counter on it dies, you gain 3 life and draw a card. If Chevill leaves the battlefield before that permanent dies, Chevill’s last ability won’t be around to trigger.
+  - *2020-04-17* — If the creature or planeswalker with a bounty counter on it ceases to be a creature or planeswalker, Chevill’s last ability will still trigger if that permanent is put into a graveyard from the battlefield.
+  - *2020-04-17* — If your life total is brought to 0 or less at the same time that a creature with a bounty counter on it is dealt lethal damage, you lose the game before the last ability goes on the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/iko/181/chevill-bane-of-monsters) · oracle_id `50863075-a30b-4238-8e31-5af32a39d886` · printing: IKO #181 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -68,6 +68,7 @@
   > *She roams the border between wilderness and civilization, protecting those who need it most.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3957 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/269/cadira-caller-of-the-small) · oracle_id `fcf22321-2f55-41ca-b8e1-4792540ba3ee` · printing: CLB #269 (2022-06-10) · [rulings](https://api.scryfall.com/cards/75994e0b-b0c7-4b0d-8f48-4be303429bd6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cadric, Soul Kindler
@@ -79,7 +80,15 @@
   > The "legend rule" doesn't apply to tokens you control.
   > Whenever another nontoken legendary permanent you control enters, you may pay {1}. If you do, create a token that's a copy of it. That token gains haste. Sacrifice it at the beginning of the next end step.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5042 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/10/cadric-soul-kindler) · oracle_id `739bbf44-9169-4749-abea-21c20823915f` · printing: DMC #10 (2022-09-09) · [rulings](https://api.scryfall.com/cards/f82f8cab-5039-4e3a-a2ba-cbf829db80ed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2022-09-09* — Any enters-the-battlefield abilities of the copied permanent will trigger when the token enters the battlefield. Any “As [this permanent] enters the battlefield” or “[This permanent] enters the battlefield with” abilities of the copied permanent will also work.
+  - *2022-09-09* — If the copied permanent has {X} in its mana cost, X is 0.
+  - *2022-09-09* — If the copied permanent is copying something else, the token enters the battlefield as whatever that permanent is copying.
+  - *2022-09-09* — If the legendary permanent that entered the battlefield is no longer on the battlefield, no longer under the same player’s control, or no longer legendary when the triggered ability resolves, the ability’s controller may still pay {1} to copy it. If it’s no longer on the battlefield, use its copiable characteristics as it last existed on the battlefield to determine the characteristics of the token copy.
+  - *2022-09-09* — If, while you control Cadric, Soul Kindler, you also control a token legendary permanent and a single nontoken legendary permanent with the same name, the legend rule will not cause you to put either one into your graveyard.
+  - *2022-09-09* — If, while you control Cadric, Soul Kindler, you also control more than one nontoken legendary permanent with the same name and at least one token legendary permanent with that name, the legend rule applies to only the nontoken permanents. You must choose one of the nontoken permanents to keep and put the rest of the nontoken permanents with that name into your graveyard. You may not choose one of the token permanents and you may not put any of the tokens into your graveyard this way.
+  - *2022-09-09* — The token copies exactly what is printed on the permanent and nothing else (unless that creature is copying something else or is a token; see below). It doesn’t copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and/or Equipment attached to it, or any non-copy effects that changed its power, toughness, types, color, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/10/cadric-soul-kindler) · oracle_id `739bbf44-9169-4749-abea-21c20823915f` · printing: DMC #10 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Caduceus, Staff of Hermes
 
@@ -93,4 +102,6 @@
   > *It can be a key, a weapon, and a way to attain great power.*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1439 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/acr/2/caduceus-staff-of-hermes) · oracle_id `7cea5b12-9483-4142-9efa-735305581e73` · printing: ACR #2 (2024-07-05) · [rulings](https://api.scryfall.com/cards/2b60f18e-4709-4b91-a342-74eb3fca71e1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-07-05* — If the equipped creature is dealt damage at the same time that you gain life (most likely because it dealt combat damage to a creature blocking or blocked by it) and your life total becomes 30 or greater as a result, the damage won’t be prevented. However, the equipped creature will have indestructible before state-based actions are checked, so it won’t be destroyed even if that damage would ordinarily be lethal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/acr/2/caduceus-staff-of-hermes) · oracle_id `7cea5b12-9483-4142-9efa-735305581e73` · printing: ACR #2 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

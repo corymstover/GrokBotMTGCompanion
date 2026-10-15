@@ -94,7 +94,13 @@
   > If a spell would deal damage to an opponent or a permanent an opponent controls, it deals that much damage plus 1 instead.
 - **Keywords:** Flying, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8035 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mid/235/rem-karolus-stalwart-slayer) · oracle_id `21971c8b-ff9b-40f8-8c9a-93d26c2615b7` · printing: MID #235 (2021-09-24) · [rulings](https://api.scryfall.com/cards/b31e307a-9689-4e11-8c5f-96b7a4b50bed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-09-24* — If another effect modifies how much damage a spell would deal to an opponent or a permanent they control, including preventing some of it, the player being dealt damage or the controller of the permanent being dealt damage chooses an order in which to apply those effects. If all of the damage is prevented, Rem's effect no longer applies.
+  - *2021-09-24* — If damage dealt by a source you control is being divided or assigned among multiple permanents an opponent controls or among an opponent and one or more permanents they control, divide the original amount before adding 1. For example, if you cast a spell that deals 4 damage divided among any number of targets and you choose to have it deal 2 damage to a creature and 2 damage to that creature's controller, that spell will deal 3 damage to each of them instead.
+  - *2021-09-24* — Rem Karolus, Stalwart Slayer's last two abilities apply only to damage dealt by spells on the stack. A spell that becomes a permanent and then deals damage won't be affected.
+  - *2021-09-24* — Some spells cause other objects to deal damage, such as spells that cause two creatures to fight. Rem Karolus, Stalwart Slayer's last two abilities don't apply to damage from such effects.
+  - *2021-09-24* — The additional 1 damage is dealt by the original source of damage. The additional damage isn't dealt by Rem Karolus.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mid/235/rem-karolus-stalwart-slayer) · oracle_id `21971c8b-ff9b-40f8-8c9a-93d26c2615b7` · printing: MID #235 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Remnant Elemental
 
@@ -135,6 +141,7 @@
   > *A lifetime of keeping up appearances is not enough to earn an eternity of rest.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5208 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/164/remorseful-cleric) · oracle_id `c40bc9f6-2b72-4ae1-b912-50075af59628` · printing: SOC #164 (2026-04-24) · [rulings](https://api.scryfall.com/cards/665a1bd1-db82-4db9-af7d-af161d31a696/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Remorseless Punishment
@@ -157,6 +164,7 @@
   > This land enters tapped with two depletion counters on it.
   > {T}, Remove a depletion counter from this land: Add {W}{W}. If there are no depletion counters on this land, sacrifice it.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9258 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/323/remote-farm) · oracle_id `2c38f4c7-1b3f-42b4-a175-edab7acd6cc6` · printing: MMQ #323 (1999-10-04) · [rulings](https://api.scryfall.com/cards/115cab84-60d7-4bf2-9beb-b4ed7b5ceaf4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Remote Isle
@@ -169,6 +177,7 @@
   > Cycling {2} ({2}, Discard this card: Draw a card.)
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4254 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/254/remote-isle) · oracle_id `24aebda0-315f-4d2f-8bd9-00bbaf5bd76a` · printing: DMR #254 (2023-01-13) · [rulings](https://api.scryfall.com/cards/a340af37-c0a7-4f26-974b-95397b5c32f7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Remove

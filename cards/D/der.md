@@ -29,7 +29,9 @@
   > *"Garl, adjust the slurry dispensers. Garl, fetch more corpses. Garl, quit crying and give me your brain tissue. If he doesn't stop being so rude, I'm quitting."*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4652 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/61/deranged-assistant) · oracle_id `9e1b0034-bd2c-4412-8d81-db3306c8814f` · printing: INR #61 (2025-01-24) · [rulings](https://api.scryfall.com/cards/3960ed42-b3e7-4464-b345-1b9b22719efc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-01-24* — Once Deranged Assistant’s ability has been activated, it can’t be reversed for any reason. If you activate it while casting a spell and discover you can’t produce enough mana to pay that spell’s costs, the spell is reversed. The spell returns to whatever zone you were casting it from. You may reverse other mana abilities you activated while casting the spell, but Deranged Assistant’s ability can’t be reversed. You’ll still have any mana the ability produced, and the milled card will still be in your graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/61/deranged-assistant) · oracle_id `9e1b0034-bd2c-4412-8d81-db3306c8814f` · printing: INR #61 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deranged Hermit
 
@@ -80,7 +82,25 @@
   > Whenever a creature you control attacks alone, it gets +1/+0 and gains deathtouch until end of turn.
   > (You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8474 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/93/derelict-attic-widows-walk) · oracle_id `993b7b94-ed06-422d-9c7e-52a74ce9d045` · printing: DSK #93 (2024-09-27) · [rulings](https://api.scryfall.com/cards/2cae24c1-53f1-4f3f-8795-b634c46a17c4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (17):
+  - *2024-09-20* — A creature attacks alone if it's the only creature declared as an attacker during the declare attackers step (including creatures controlled by your teammates, if applicable). For example, the ability granted by Widow's Walk won't trigger if you attack with multiple creatures and all but one of them are removed from combat. Similarly, creatures that enter attacking later in combat won't be considered when determining whether or not a creature attacked alone.
+  - *2024-09-20* — An ability that triggers "when you unlock this door" triggers when that door becomes unlocked. This can happen one of two ways: (1) the door becomes unlocked on the battlefield or (2) the door becomes unlocked as the Room enters the battlefield because you cast the corresponding half. In the latter case, since the door becoming unlocked is what causes the ability to trigger, effects that cause abilities that trigger when a permanent enters to trigger an additional time (such as that of Panharmonicon) won't apply.
+  - *2024-09-20* — An ability that triggers "whenever you fully unlock a Room" triggers when a door becomes unlocked and the other door of that Room is already unlocked, or when both doors of that Room become unlocked simultaneously.
+  - *2024-09-20* — Any time you have priority during a main phase of your turn and the stack is empty, you may pay the mana cost of a locked door (also called its "unlock cost"). That door becomes unlocked. This is a special action. It doesn't use the stack and can't be responded to.
+  - *2024-09-20* — Each Room card has two names. If an effect instructs you to choose a card name, you may choose one of those names, but not both.
+  - *2024-09-20* — Each Room card is a single card. For example, if you discard a Room card, you've discarded one card, not two. If an effect counts the number of enchantment cards in your graveyard, Bottomless Pool // Locker Room counts once, not twice.
+  - *2024-09-20* — If a Room enters from any zone other than the stack, it will enter with both halves locked.
+  - *2024-09-20* — If a spell or ability would create a copy of a Room spell on the stack, the copy retains the choice of which door was cast but also retains the full characteristics of the spell. The characteristics of the door that wasn't cast are still ignored while the copy is on the stack, and when the copy resolves, the token it becomes will enter with the appropriate door unlocked.
+  - *2024-09-20* — If an effect allows you to cast a spell with certain characteristics, consider only the characteristics of the door you're casting. For example, if an effect allows you to cast a permanent spell with mana value 3 or less from among cards in your graveyard, you could cast Bottomless Pool this way, but not Locker Room.
+  - *2024-09-20* — If neither door of a Room is unlocked, it's a Room enchantment with no name and no abilities.
+  - *2024-09-20* — Room cards have two card faces with a shared type line on a single card. The characteristics of the door you didn't cast are ignored while the spell is on the stack.
+  - *2024-09-20* — Some abilities allow you to lock a door of a Room you control. You can't choose to lock a door that's already locked with such an ability. If such an ability requires a target, you can target a Room even if both of its doors are locked, but the ability won't do anything when it resolves.
+  - *2024-09-20* — Some abilities allow you to unlock a door of a Room you control. You can't choose to unlock a door that's already unlocked with such an ability. If such an ability requires a target, you can target a Room even if both of its doors are unlocked, but the ability won't do anything when it resolves.
+  - *2024-09-20* — Some doors have abilities that trigger whenever you unlock that door and require one or more targets. You can unlock that door even if there would be insufficient legal targets for that triggered ability. The triggered ability won't go on the stack.
+  - *2024-09-20* — To cast a Room spell, choose a half (or "door") to cast. There's no way to cast both halves of a Room card. When the Room spell resolves, the corresponding door becomes unlocked as the Room enters.
+  - *2024-09-20* — While in any zone other than the stack or the battlefield, a Room card's characteristics are a combination of its two doors. For example, Bottomless Pool // Locker Room has a mana value of 6 while it's in your library. If an effect allows you to search your library for a card with mana value 4 or less, you can't find Bottomless Pool // Locker Room.
+  - *2024-09-20* — While on the battlefield, a Room's characteristics are a combination of the characteristics of its unlocked doors. For example, if Bottomless Pool // Locker Room is on the battlefield with both doors unlocked, its names are Bottomless Pool and Locker Room, its mana value is 6, it's a Room Enchantment, and it has the abilities in each door's text box.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/93/derelict-attic-widows-walk) · oracle_id `993b7b94-ed06-422d-9c7e-52a74ce9d045` · printing: DSK #93 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Derelor
 
@@ -106,7 +126,11 @@
   > {1}{G}{W}{U}: Put Derevi onto the battlefield from the command zone.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2974 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cma/176/derevi-empyrial-tactician) · oracle_id `afa49a09-146f-4439-850e-dd1938c93cef` · printing: CMA #176 (2017-06-09) · [rulings](https://api.scryfall.com/cards/3a1d0dad-18a8-489e-ac11-08f64b72fda4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2015-01-19* *(Scryfall note)* — Derevi, Empyrial Tactician is banned as a commander in Duel Commander format, but it may be part of your deck.
+  - *2020-11-10* — When you activate Derevi's last ability, you're not casting Derevi as a spell. The ability can't be countered by something that counters only spells. The ability isn't subject to the commander tax, nor does it increase the tax if you cast Derevi from the command zone later in the game.
+  - *2020-11-10* — You can activate Derevi's last ability only when it is in the command zone.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cma/176/derevi-empyrial-tactician) · oracle_id `afa49a09-146f-4439-850e-dd1938c93cef` · printing: CMA #176 (2017-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dermoplasm
 

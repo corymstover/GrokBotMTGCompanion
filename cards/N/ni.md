@@ -248,7 +248,17 @@
   > Flashback {5}{R}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3828 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/146/nibelheim-aflame) · oracle_id `eab5eef8-d180-4b08-a770-6b3a1df03745` · printing: FIN #146 (2025-06-13) · [rulings](https://api.scryfall.com/cards/3d3e926a-74af-4996-849f-d31e0fdedeae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2025-06-06* — "Flashback [cost]" means "You may cast this card from your graveyard if the resulting spell is an instant or sorcery spell by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2025-06-06* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2025-06-06* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2025-06-06* — If the target creature is an illegal target as Nibelheim Aflame tries to resolve, it won't resolve and none of its effects will happen. No damage will be dealt, and you won't discard and draw even if you cast Nibelheim Aflame from a graveyard.
+  - *2025-06-06* — The creature is the source of the damage, not Nibelheim Aflame. For example, Nibelheim Aflame can have a white creature deal damage to a creature with protection from red.
+  - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2025-06-06* — Use the power of the target creature as Nibelheim Aflame resolves to determine how much damage it deals to each other creature.
+  - *2025-06-06* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2025-06-06* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/146/nibelheim-aflame) · oracle_id `eab5eef8-d180-4b08-a770-6b3a1df03745` · printing: FIN #146 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Niblis of Dusk
 
@@ -275,7 +285,9 @@
   > Whenever you cast an instant or sorcery spell, tap target creature an opponent controls. That creature doesn't untap during its controller's next untap step.
 - **Keywords:** Flying, Prowess
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8230 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c20/120/niblis-of-frost) · oracle_id `ed2f3339-5c3e-473f-b08e-58288c4ad9c2` · printing: C20 #120 (2020-04-17) · [rulings](https://api.scryfall.com/cards/f4a3d06c-8059-4f73-8f7e-29aa004cd3d5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-07-13* — If multiple effects say that a creature doesn’t untap during its controller’s next untap step, those effects all apply during one untap step. For example, if you cast two instants in one turn and target the same creature twice with Niblis of Frost’s ability, that creature will only spend one untap step without untapping.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c20/120/niblis-of-frost) · oracle_id `ed2f3339-5c3e-473f-b08e-58288c4ad9c2` · printing: C20 #120 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Niblis of the Breath
 
@@ -333,7 +345,17 @@
   > *"This water can guide you anywhere, if you know how to ask."*
 - **Keywords:** Explore
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5535 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/236/nicanzil-current-conductor) · oracle_id `4cb86fb6-3e06-4c67-aee0-d5952178f664` · printing: LCI #236 (2023-11-17) · [rulings](https://api.scryfall.com/cards/5e6f4aba-3500-4fb7-ab78-02f63c03778a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2023-11-10* — If a creature leaves the battlefield before an effect instructs it to explore, it still explores. Abilities like Nicanzil's that trigger whenever a creature you control explores will still trigger.
+  - *2023-11-10* — If a resolving spell or ability instructs a specific creature to explore but that creature has left the battlefield, the creature still explores. If you reveal a nonland card this way, you won't put a +1/+1 counter on anything, but you may put the revealed card into your graveyard. Effects that trigger "whenever a creature explores" trigger as appropriate.
+  - *2023-11-10* — If an ability instructs a creature to explore, its controller reveals the top card of their library. If it's a land card, they'll put it into their hand. Otherwise, they'll put a +1/+1 counter on that creature, then choose to either leave that card on top of their library or put it into their graveyard.
+  - *2023-11-10* — If no card is revealed, most likely because that player's library is empty, the exploring creature receives a +1/+1 counter.
+  - *2023-11-10* — In some unusual cases, noncreature permanents may explore. For example, if the creature card returned by Defossilize is somehow not a creature once it's on the battlefield, it can still explore. You'll take all the same actions, and you may end up putting a +1/+1 counter on the permanent. (Note that some effects target a creature, and those effects would still require a legal target to have it explore.)
+  - *2023-11-10* — Nicanzil's first ability won't resolve until after you're done exploring. You may put any land card from your hand onto the battlefield, including the land card you explored (if it's still in your hand) or one that was already in your hand.
+  - *2023-11-10* — Nicanzil, Current Conductor's triggered abilities care about the characteristics of the card as it was revealed while a creature explored. It doesn't matter what happened to the card after that.
+  - *2023-11-10* — Once an ability that causes a creature to explore begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the exploring creature after you reveal a nonland card but before it receives a counter.
+  - *2023-11-10* — Some spells or abilities might cause a creature to explore multiple times in a row. If you reveal a nonland card when a creature explores and leave it on top of your library, then the creature explores again immediately afterwards, you'll reveal the same card again.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/236/nicanzil-current-conductor) · oracle_id `4cb86fb6-3e06-4c67-aee0-d5952178f664` · printing: LCI #236 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nick Fury, Agent of S.H.I.E.L.D.
 
@@ -398,7 +420,16 @@
   > −3: Destroy target creature or planeswalker.
   > −8: Each opponent who doesn't control a legendary creature or planeswalker loses the game.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3889 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/205/nicol-bolas-dragon-god) · oracle_id `581eedc4-efe4-4ae4-baf2-88071e7e6f6d` · printing: RVR #205 (2024-01-12) · [rulings](https://api.scryfall.com/cards/c5408607-af8f-48fe-bc40-32828d1976de/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2024-01-12* — After you draw a card as Nicol Bolas's first loyalty ability resolves, the next opponent in turn order (or, if it's somehow an opponent's turn, that opponent) chooses a permanent they control or chooses a card in hand without revealing that card. Then each other opponent in turn order does the same, knowing the choices made before them. Finally, all of the chosen permanents and cards are exiled simultaneously.
+  - *2024-01-12* — If a loyalty ability of a planeswalker references the card it's printed on by name, treat Nicol Bolas's instance of that ability as though it referenced Nicol Bolas, Dragon-God by name instead. For instance, if Ral Zarek is on the battlefield, Nicol Bolas deals the damage if you activate the second ability he gained from Ral.
+  - *2024-01-12* — If an ability of a planeswalker exiles cards and another loyalty ability of that planeswalker references the exiled cards, those abilities are linked. If Nicol Bolas gains both abilities from the same planeswalker, the instances he has are similarly linked. Cards exiled by any other abilities Nicol Bolas has (such as his own first loyalty ability) won't be seen by those linked abilities.
+  - *2024-01-12* — If any abilities trigger as you draw a card while resolving Nicol Bolas's first loyalty ability, those abilities don't resolve until after your opponents have exiled a card or permanent.
+  - *2024-01-12* — In a Two-Headed Giant game, if one player on a team loses the game, the entire team loses the game, even if the other player controls a legendary creature or planeswalker.
+  - *2024-01-12* — Nicol Bolas doesn't gain any static or triggered abilities of other planeswalkers or any activated abilities they may have that aren't loyalty abilities.
+  - *2024-01-12* — Nicol Bolas doesn't remove loyalty abilities from the other planeswalkers.
+  - *2024-01-12* — While Nicol Bolas may end up with an astonishing number of loyalty abilities, you can still activate only one loyalty ability of Nicol Bolas, Dragon-God during each of your turns.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/205/nicol-bolas-dragon-god) · oracle_id `581eedc4-efe4-4ae4-baf2-88071e7e6f6d` · printing: RVR #205 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nicol Bolas, God-Pharaoh
 
@@ -411,7 +442,16 @@
   > −4: Nicol Bolas deals 7 damage to target opponent, creature an opponent controls, or planeswalker an opponent controls.
   > −12: Exile each nonland permanent your opponents control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5361 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/260/nicol-bolas-god-pharaoh) · oracle_id `cb33e07b-9599-4979-991f-df0c43ddac31` · printing: 2X2 #260 (2022-07-08) · [rulings](https://api.scryfall.com/cards/597ca22d-2f08-47b3-9d93-c4d685cefb5f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2017-07-14* — Casting the card exiled with Nicol Bolas's first ability follows the normal timing rules for casting that card. For example, if the card is a creature card, you can cast that card only during your main phase while the stack is empty.
+  - *2017-07-14* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2017-07-14* — If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs, such as emerge costs. You can, however, pay additional costs. If the card has any mandatory additional costs, such as that of Tormenting Voice, you must pay those to cast the card.
+  - *2017-07-14* — If you don't cast the card exiled by Nicol Bolas's first ability that turn, it will remain exiled.
+  - *2017-07-14* — In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, any spell or permanent cards you control from Nicol Bolas's first ability are exiled.
+  - *2017-07-14* — The cards exiled by Nicol Bolas's first and second abilities are exiled face up.
+  - *2017-07-14* — While resolving Nicol Bolas's second ability, each opponent chooses which cards to exile from their hand. Any opponent with two or fewer cards exiles their entire hand.
+  - *2017-07-14* — You may cast the nonland card exiled by Nicol Bolas's first ability that turn even if Nicol Bolas is no longer on the battlefield or under your control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/260/nicol-bolas-god-pharaoh) · oracle_id `cb33e07b-9599-4979-991f-df0c43ddac31` · printing: 2X2 #260 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nicol Bolas, Planeswalker
 
@@ -423,7 +463,11 @@
   > −2: Gain control of target creature.
   > −9: Nicol Bolas deals 7 damage to target player or planeswalker. That player or that planeswalker's controller discards seven cards, then sacrifices seven permanents of their choice.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7316 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/e01/85/nicol-bolas-planeswalker) · oracle_id `05e9b55e-6329-48ec-b7d7-24c6b9692244` · printing: E01 #85 (2017-06-16) · [rulings](https://api.scryfall.com/cards/9e80f2fc-06d4-4ce9-b23b-3e4af1208fa5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2009-02-01* — The control-change effect has no duration. It will last until the game ends or the affected creature leaves the battlefield. It may be superseded by a later control-change effect.
+  - *2012-07-01* — For the third ability, if the player is an illegal target when the ability tries to resolve, the ability doesn't resolve and none of its effects will happen. No damage will be dealt, no cards will be discarded, and no permanents will be sacrificed.
+  - *2012-07-01* — If the damage from Nicol Bolas's third ability is prevented or redirected, the rest of the effect will still happen. Specifically, the number of cards discarded and permanents sacrificed isn't tied to the amount of damage dealt.
+- **Source flags:** [Scryfall](https://scryfall.com/card/e01/85/nicol-bolas-planeswalker) · oracle_id `05e9b55e-6329-48ec-b7d7-24c6b9692244` · printing: E01 #85 (2017-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nicol Bolas, the Deceiver
 
@@ -453,7 +497,19 @@
   > −12: Exile all but the bottom card of target player's library.
 - **Keywords:** Flying, Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5284 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/m19/218/nicol-bolas-the-ravager-nicol-bolas-the-arisen) · oracle_id `55e4b27e-5447-4fc2-8cae-a03e344600c6` · printing: M19 #218 (2018-07-13) · [rulings](https://api.scryfall.com/cards/7b215968-93a6-4278-ac61-4e3e8c3c3943/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2018-07-13* — A double-faced card enters the battlefield with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed, in which case it enters with its back face up. The back face of a double-faced card can't be played.
+  - *2018-07-13* — Each face of a double-faced card has its own set of characteristics: name, types, subtypes, abilities, and so on. While a double-faced card is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored.
+  - *2018-07-13* — If Nicol Bolas leaves the battlefield after his creature face's activated ability has been activated but before it resolves, the card remains in whichever zone it moves to. It won't be exiled or return transformed.
+  - *2018-07-13* — If another permanent that isn't a double-faced card (such as Mirror Image) becomes a copy of Nicol Bolas, the Ravager, activating the ability to exile it and return it transformed will only exile it. It won't return to the battlefield at all.
+  - *2018-07-13* — In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, any permanents you control from Nicol Bolas's third loyalty ability that came from other players' graveyards are exiled.
+  - *2018-07-13* — In some rare cases, a spell or ability may cause Nicol Bolas to transform while it's a creature on the battlefield. If this happens, the resulting planeswalker won't have any loyalty counters on it and will subsequently be put into its owner's graveyard.
+  - *2018-07-13* — Nicol Bolas, the Arisen has a color indicator on its typeline. This color indicator means that it's a blue, black, and red permanent.
+  - *2018-07-13* — The mana value of a double-faced card is the mana value of its front face, even while it's on the battlefield with its back face up. For example, the mana value of Nicol Bolas, the Arisen is 4.
+  - *2018-07-13* — When Nicol Bolas's enters-the-battlefield triggered ability resolves, first the next opponent in turn order (or, if it's an opponent's turn, that opponent) chooses a card in their hand without revealing it, then each other opponent in turn order does the same. Then all the chosen cards are discarded at the same time.
+  - *2018-07-13* — While a double-faced card isn't on the battlefield, consider only the characteristics of its front face. For example, Nicol Bolas has the characteristics of its creature face in the graveyard, even if it was a planeswalker on the battlefield before it was put into the graveyard.
+  - *2018-07-13* — You can activate one of the planeswalker's loyalty abilities the turn it enters the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m19/218/nicol-bolas-the-ravager-nicol-bolas-the-arisen) · oracle_id `55e4b27e-5447-4fc2-8cae-a03e344600c6` · printing: M19 #218 (2018-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nico Minoru, Runaway
 
@@ -612,7 +668,11 @@
   > *Under Drana's leadership, vampires are finding new strength in unity.*
 - **Keywords:** Deathtouch, Flying, Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1929 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/144/nighthawk-scavenger) · oracle_id `379ed4ec-8f2e-448b-9ed2-a3181e2f877e` · printing: OTC #144 (2024-04-19) · [rulings](https://api.scryfall.com/cards/47433ce9-1ac6-4359-a5e4-4ec68490cb0c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-09-25* — Card types that can appear on cards in a graveyard include artifact, creature, enchantment, instant, land, planeswalker, and sorcery. Legendary, basic, and snow are supertypes, not card types; Vampire and Rogue are subtypes, not card types.
+  - *2020-09-25* — Nighthawk Scavenger counts card types, not cards. If the only card in your opponents' graveyards is a single artifact creature card, Nighthawk Scavenger will be 3/3. If the only cards in those graveyards are ten artifact cards and ten creature cards, Nighthawk Scavenger will still be 3/3.
+  - *2020-09-25* — The ability that defines Nighthawk Scavenger's power applies in all zones, not just the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/144/nighthawk-scavenger) · oracle_id `379ed4ec-8f2e-448b-9ed2-a3181e2f877e` · printing: OTC #144 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nighthaze
 
@@ -637,7 +697,14 @@
   > This creature and enchanted creature each get +X/+X, where X is the number of creature cards in all graveyards.
 - **Keywords:** Bestow
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4437 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/764/nighthowler) · oracle_id `57b3f7fc-1812-4134-a645-6cef48a8aa71` · printing: CLB #764 (2022-06-10) · [rulings](https://api.scryfall.com/cards/b76dab3d-1788-4ab7-8d2b-70f7787cf935/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2013-09-15* — Auras attached to a creature don't become tapped when the creature becomes tapped. Except in some rare cases, an Aura with bestow remains untapped when it becomes unattached and becomes a creature.
+  - *2013-09-15* — If a permanent with bestow enters the battlefield by any method other than being cast, it will be an enchantment creature. You can't choose to pay the bestow cost and have it become an Aura.
+  - *2013-09-15* — Nighthowler's last ability functions only from the battlefield. In other zones, Nighthowler is a 0/0 enchantment creature.
+  - *2013-09-15* — On the stack, a spell with bestow is either a creature spell or an Aura spell. It's never both, although it's an enchantment spell in either case.
+  - *2013-09-15* — Unlike other Aura spells, an Aura spell with bestow isn't countered if its target is illegal as it begins to resolve. Rather, the effect making it an Aura spell ends, it loses enchant creature, it returns to being an enchantment creature spell, and it resolves and enters the battlefield as an enchantment creature.
+  - *2013-09-15* — Unlike other Auras, an Aura with bestow isn't put into its owner's graveyard if it becomes unattached. Rather, the effect making it an Aura ends, it loses enchant creature, and it remains on the battlefield as an enchantment creature. It can attack (and its {T} abilities can be activated, if it has any) on the turn it becomes unattached if it's been under your control continuously, even as an Aura, since your most recent turn began.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/764/nighthowler) · oracle_id `57b3f7fc-1812-4134-a645-6cef48a8aa71` · printing: CLB #764 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nighthowl Pursuer
 
@@ -677,7 +744,17 @@
   > This creature can't be blocked as long as defending player has a rad counter.
 - **Keywords:** Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7258 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/112/nightkin-ambusher) · oracle_id `2808d652-907d-4071-b386-814507a1549e` · printing: PIP #112 (2024-03-08) · [rulings](https://api.scryfall.com/cards/ca7cfcb2-83fb-41ad-ae31-9c32c942506c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2024-03-08* — Any effects (such as proliferate) that interact with counters a player gets, has, or loses can interact with rad counters.
+  - *2024-03-08* — If a player has fewer cards remaining in their library than the number of rad counters they have when the triggered ability resolves, they'll mill as many cards as they can.
+  - *2024-03-08* — In a game using the shared team turns option, such as an Archenemy or Two-Headed Giant game, the inherent triggered ability associated with rad counters triggers once for each player on the active team that has rad counters. Each instance of that ability is controlled by one of those players.
+  - *2024-03-08* — Keep track of how many rad counters each player has. Potential ways to track this include writing them down on paper or using dice, but any method that is clear and mutually agreeable is fine.
+  - *2024-03-08* — Once Nightkin Ambusher has been blocked, giving the defending player a rad counter won't cause Nightkin Ambusher to become unblocked.
+  - *2024-03-08* — Rad counters are a kind of counter that a player may have. They're not associated with any specific permanents.
+  - *2024-03-08* — Rad counters don't go away as steps, phases, or turns end. They only go away when an effect instructs a player to remove rad counters from themselves.
+  - *2024-03-08* — The cards are milled all at once, which means abilities that trigger "whenever one or more nonland cards are milled" will trigger exactly once as long as at least one nonland card was milled.
+  - *2024-03-08* — There is an inherent triggered ability associated with having rad counters. This triggered ability has no source and is controlled by the active player. The full text of this ability is "At the beginning of the precombat main phase of a player with rad counters, that player mills cards equal to the number of rad counters they have. For each nonland card milled this way, that player loses 1 life and removes one rad counter from themselves."
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/112/nightkin-ambusher) · oracle_id `2808d652-907d-4071-b386-814507a1549e` · printing: PIP #112 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nightmare
 
@@ -753,7 +830,15 @@
   > Whenever another nontoken creature you control dies, you may exile it. If you do, create a token that's a copy of that creature, except it's 1/1 and it's a Nightmare in addition to its other types.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4397 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/149/nightmare-shepherd) · oracle_id `b8ee0dfc-f588-43b6-ab96-f3a3c58a8a3d` · printing: DSC #149 (2024-09-27) · [rulings](https://api.scryfall.com/cards/c03c1ad6-3122-4267-80d6-94ecf1ff3884/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2020-01-24* — Any enters-the-battlefield abilities of the copied creature will trigger when the token enters the battlefield. Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the creature will also work.
+  - *2020-01-24* — If something becomes a copy of the token, the copy is also a 1/1 and a Nightmare.
+  - *2020-01-24* — If the copied creature had {X} in its mana cost, X is considered to be 0.
+  - *2020-01-24* — If the copied creature was copying something else, then the token enters the battlefield as whatever that creature copied.
+  - *2020-01-24* — If the token is a copy of a creature whose power and toughness are defined by an ability (usually printed as */* or similar), the token doesn't copy the ability that defines its power and toughness. It remains a 1/1 creature.
+  - *2020-01-24* — The token copies exactly what was printed on the original creature and nothing else (unless that creature is copying something else; see below). It doesn't copy whether that creature was tapped or untapped, whether it had any counters on it or Auras or Equipment attached to it, or any non-copy effects that had changed its power, toughness, types, color, or so on.
+  - *2020-01-24* — The token copies the creature as it last existed on the battlefield before it died, not as it existed in the graveyard before it was exiled.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/149/nightmare-shepherd) · oracle_id `b8ee0dfc-f588-43b6-ab96-f3a3c58a8a3d` · printing: DSC #149 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nightmare Sower
 
@@ -826,6 +911,7 @@
   > *The Indigo Revolution changed more about Avishkar than just its name. Even Gonti's infamous night markets had gone legitimate.*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6614 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/258/night-market) · oracle_id `4cdb9f80-d08f-4986-99c8-573166d66082` · printing: DFT #258 (2025-02-14) · [rulings](https://api.scryfall.com/cards/a8c1dce3-6136-4294-9d2b-5ef8527d733b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Night Market Aeronaut
@@ -916,7 +1002,14 @@
   > {5}{G}{G}, Sacrifice this enchantment: Creatures you control get +X/+X until end of turn, where X is the number of Foods you control. Activate only as a sorcery.
 - **Keywords:** Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2064 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/178/night-of-the-sweets-revenge) · oracle_id `4bcf4f12-470e-4f73-a19a-643a20084e16` · printing: WOE #178 (2023-09-08) · [rulings](https://api.scryfall.com/cards/27f53bed-7075-4303-aa9e-fcca0a266e19/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-09-01* — Night of the Sweets' Revenge's last ability affects only creatures you control at the time it resolves. Creatures you begin to control later in the turn won't be affected.
+  - *2023-09-01* — The value of X is determined only as Night of the Sweets' Revenge's last ability resolves. It won't change later in the turn if the number of Foods you control changes.
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, you can sacrifice Tough Cookie (an Artifact Creature — Food Golem) to activate Maraleaf Rider's ability (an ability with "Sacrifice a Food" in its cost).
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/178/night-of-the-sweets-revenge) · oracle_id `4bcf4f12-470e-4f73-a19a-643a20084e16` · printing: WOE #178 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Night Out in Vegas
 
@@ -945,7 +1038,12 @@
   > *A strong leader means a growing pack.*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6530 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m20/185/nightpack-ambusher) · oracle_id `4d67357c-5939-45c8-a656-aaf76728a5a6` · printing: M20 #185 (2019-07-12) · [rulings](https://api.scryfall.com/cards/2c9b1f70-9861-4c66-a52f-c40002679e75/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2019-07-12* — A creature that’s both a Wolf and a Werewolf gets only +1/+1 from Nightpack Ambusher’s ability.
+  - *2019-07-12* — Because damage remains marked on a creature until it’s removed as the turn ends, nonlethal damage dealt to other Wolves and Werewolves you control may become lethal if Nightpack Ambusher leaves the battlefield during that turn.
+  - *2019-07-12* — If you cast a spell that was countered, Nightpack Ambusher’s last ability doesn’t trigger.
+  - *2019-07-12* — Nightpack Ambusher looks at the entire turn to see if you have cast a spell, even if Nightpack Ambusher wasn’t on the battlefield when that spell was cast. Notably, you won’t get a Wolf token during your end step if you cast Nightpack Ambusher during your turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m20/185/nightpack-ambusher) · oracle_id `4d67357c-5939-45c8-a656-aaf76728a5a6` · printing: M20 #185 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Night Revelers
 
@@ -993,7 +1091,18 @@
   > {1}{B}: Regenerate this creature.
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1158 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/94/nightscape-familiar) · oracle_id `57296ea3-3c0d-49b7-bc08-0d0d8414e9ad` · printing: DMR #94 (2023-01-13) · [rulings](https://api.scryfall.com/cards/4cf1918f-ad58-4f62-bd8c-649919de0e75/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2004-10-04* — Can never affect the colored part of the cost.
+  - *2004-10-04* — If this card is sacrificed to pay part of a spell's cost, the cost reduction still applies.
+  - *2004-10-04* — The effect is cumulative.
+  - *2004-10-04* — The generic X cost is still considered generic even if there is a requirement that a specific color be used for it. For example, “only black mana can be spent this way”. This distinction is important for effects which reduce the generic portion of a spell's cost.
+  - *2004-10-04* — The lower cost is not optional like with some other cost reducers.
+  - *2004-10-04* — This can lower the cost to zero, but not below zero.
+  - *2022-12-08* — A spell you cast that’s blue and red costs {1} less, not {2} less.
+  - *2022-12-08* — Activating the ability creates a replacement effect that acts like a shield, replacing the next time Nightscape Familiar would be destroyed that turn. This shield works against effects that try to destroy Nightscape Familiar or lethal damage that would be dealt to Nightscape Familiar.
+  - *2022-12-08* — Nightscape Familiar can regenerate even if it isn’t in combat, it’s already tapped, or it’s undamaged.
+  - *2022-12-08* — You can activate the regeneration ability even if Nightscape Familiar isn’t at risk of being destroyed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/94/nightscape-familiar) · oracle_id `57296ea3-3c0d-49b7-bc08-0d0d8414e9ad` · printing: DMR #94 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nightscape Master
 
@@ -1045,6 +1154,7 @@
   > *"Death is a natural part of life. Without the mulch to feed new sprouts, everything withers."*
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2802 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/163/nightshade-dryad) · oracle_id `f8263274-8cb4-4eab-b541-c7655b555830` · printing: MH3 #163 (2024-06-14) · [rulings](https://api.scryfall.com/cards/71f9252d-241f-45ea-9d80-663150963b59/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nightshade Harvester
@@ -1057,6 +1167,7 @@
 - **Flavor text** (DSC printing):
   > *"Anywhere the moonlight touches—that's my garden."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4740 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/150/nightshade-harvester) · oracle_id `875c3db1-2752-48e7-9664-bbb12120c032` · printing: DSC #150 (2024-09-27) · [rulings](https://api.scryfall.com/cards/fac55604-3635-4af1-b9ca-10d1f89db504/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nightshade Peddler
@@ -1118,7 +1229,10 @@
 - **Flavor text** (UNF printing):
   > *At the Astrotorium, even the dead make a living wage.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8799 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/81/night-shift-of-the-living-dead) · oracle_id `d758fd82-7ccb-441d-a948-0abaf0311892` · printing: UNF #81 (2022-10-07) · [rulings](https://api.scryfall.com/cards/05ccea2d-5cde-4c30-a498-66199cbc90a2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-10-07* — If you roll the planar die in a Planechase game, you can pay 1 life, but you can’t alter the result of the roll. This would still “use up” the ability for the turn.
+  - *2022-10-07* — The first ability can affect only one die, even if you roll multiple dice at the same time. However, you do get to see all the results before deciding whether to use it, and if so, which result to shift.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/81/night-shift-of-the-living-dead) · oracle_id `d758fd82-7ccb-441d-a948-0abaf0311892` · printing: UNF #81 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nightsky Mimic
 
@@ -1238,7 +1352,11 @@
   > You may play lands and cast spells from among cards exiled with this creature.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8933 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/gtc/222/nightveil-specter) · oracle_id `4ce83f8c-b27e-4e5b-b19b-76b66aaa904b` · printing: GTC #222 (2013-02-01) · [rulings](https://api.scryfall.com/cards/e3754b8c-16d2-41e3-b41b-4b2e70833e82/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2013-01-24* — Nightveil Specter’s last ability applies to cards exiled with that specific Nightveil Specter, not any other creature named Nightveil Specter. You should keep cards exiled by different Nightveil Specters separate.
+  - *2013-01-24* — Playing a card exiled with Nightveil Specter follows all the normal rules for playing that card. You must pay its costs, and you must follow all timing restrictions, for example.
+  - *2013-01-24* — The card is exiled face up. All players may look at it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/gtc/222/nightveil-specter) · oracle_id `4ce83f8c-b27e-4e5b-b19b-76b66aaa904b` · printing: GTC #222 (2013-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nightveil Sprite
 
@@ -1253,7 +1371,9 @@
   > *—Minosz, Orzhov chief of security*
 - **Keywords:** Flying, Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6961 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/113/nightveil-sprite) · oracle_id `8ac23863-0aa7-41bc-b9b7-c5f0566172cf` · printing: MKC #113 (2024-02-09) · [rulings](https://api.scryfall.com/cards/82f806fe-3970-4ae2-b232-d99002d46062/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-01-12* — You perform the actions stated on a card in sequence. For some spells and abilities, you'll surveil last. For others, you'll surveil and then perform other actions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/113/nightveil-sprite) · oracle_id `8ac23863-0aa7-41bc-b9b7-c5f0566172cf` · printing: MKC #113 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nightwhorl Hermit
 
@@ -1342,7 +1462,9 @@
   > {T}, Sacrifice this artifact: Exile target player's graveyard.
   > When this artifact is put into a graveyard from the battlefield, you may pay {B}. If you do, draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5487 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/a25/226/nihil-spellbomb) · oracle_id `b713e49f-1b13-42d1-91f2-cc7a579e7614` · printing: A25 #226 (2018-03-16) · [rulings](https://api.scryfall.com/cards/e5892a23-efae-4731-9b8f-41c87960fe93/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-03-16* — You may activate Nihil Spellbomb's first ability targeting any player, even one whose graveyard has no cards in it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/a25/226/nihil-spellbomb) · oracle_id `b713e49f-1b13-42d1-91f2-cc7a579e7614` · printing: A25 #226 (2018-03-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nikara, Lair Scavenger
 
@@ -1404,7 +1526,11 @@
   > {2}, {T}: Exile target nonlegendary creature you control. Shards you control become copies of it until the next end step. Return it to the battlefield under its owner's control at the beginning of the next end step.
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8850 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/224/niko-light-of-hope) · oracle_id `f153e369-1d5b-4d8b-a2f6-d93b849cabb5` · printing: DSK #224 (2024-09-27) · [rulings](https://api.scryfall.com/cards/91ad013f-de8d-4980-b4b6-c7f91ff495b1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-09-20* — If Shards you control do become copies of the creature, they'll use the copiable values of the creature as it last existed on the battlefield. They don't copy whether that creature was tapped or untapped, whether it had any counters on it, whether it had any Auras and/or Equipment attached to it, or any non-copy effects that changed its power, toughness, types, color, and so on.
+  - *2024-09-20* — If the creature that was exiled was copying something else, the Shards that become copies of that creature will use the copiable values of that creature. In most cases, they will be copies of whatever that creature was copying. If it was copying a permanent or card with {X} in its mana cost, X is 0.
+  - *2024-09-20* — If the target creature is an illegal target as Niko's last ability tries to resolve, it won't resolve and none of its effects will happen. Shards you control won't become copies of the creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/224/niko-light-of-hope) · oracle_id `f153e369-1d5b-4d8b-a2f6-d93b849cabb5` · printing: DSK #224 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nikya of the Old Ways
 
@@ -1428,7 +1554,11 @@
   > At the beginning of your end step, for each player, put a +1/+1 counter on up to one target creature that player controls.
   > Each creature with one or more counters on it can't attack you or planeswalkers you control unless its controller pays {X}, where X is the number of counters on that creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3895 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/158/nils-discipline-enforcer) · oracle_id `ff6b52b7-ae3c-465b-b10e-901160e5230e` · printing: SOC #158 (2026-04-24) · [rulings](https://api.scryfall.com/cards/c34cff04-01b0-4849-85bf-9e0b034be0e6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-04-16* — All counters on a creature are considered when determining the value of X, not only +1/+1 counters.
+  - *2021-04-16* — For each player, choosing a target creature that player controls is optional.
+  - *2021-04-16* — Your opponents can choose not to pay to attack with a creature with one or more counters on it that attacks "if able." If there's no other player or planeswalker to attack, the creature simply doesn't attack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/158/nils-discipline-enforcer) · oracle_id `ff6b52b7-ae3c-465b-b10e-901160e5230e` · printing: SOC #158 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nim Abomination
 
@@ -1533,6 +1663,7 @@
   > *"Don't worry, I can reach it."*
 - **Keywords:** Bigby's Hand
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9127 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/86/nimbleclaw-adept) · oracle_id `32e5a4ac-69c7-4de0-8b9f-dd86682f2ffd` · printing: CLB #86 (2022-06-10) · [rulings](https://api.scryfall.com/cards/0df69a02-0b89-46af-abbc-51d1c419daed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nimble Hobbit
@@ -1597,7 +1728,15 @@
   > When you cycle this card, counter target activated or triggered ability you don't control.
 - **Keywords:** Flying, Flash, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6362 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c20/121/nimble-obstructionist) · oracle_id `750d846e-2774-4296-8d9f-5207477d842d` · printing: C20 #121 (2020-04-17) · [rulings](https://api.scryfall.com/cards/832426d7-be22-4092-b614-7fa417af03bd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2017-07-14* — Abilities that create replacement effects, such as a permanent entering the battlefield tapped or with counters on it, can't be targeted. Abilities that apply "as [this creature] enters the battlefield" are also replacement effects and can't be targeted.
+  - *2017-07-14* — Activated abilities are written in the form "Cost: Effect." Some keyword abilities, such as equip and eternalize, are activated abilities and will have colons in their reminder texts.
+  - *2017-07-14* — If you counter a delayed triggered ability that triggers at the beginning of the "next" occurrence of a specified step or phase, that ability won't trigger again the following time that phase or step occurs.
+  - *2017-07-14* — Mana abilities can't be targeted. An activated mana ability is one that could add mana as it resolves, doesn't have a target, and isn't a loyalty ability. A triggered mana ability is one that could add mana as it resolves and triggers on an activated mana ability.
+  - *2017-07-14* — Triggered abilities use the word "when," "whenever," or "at." They're often written as "[Trigger condition], [effect]." Some keyword abilities, such as prowess and afflict, are triggered abilities and will have "when," "whenever," or "at" in their reminder text.
+  - *2022-12-08* — The cycling ability and the triggered ability are separate. If the triggered ability doesn't resolve (because, for example, it has been countered, or all of its targets have become illegal), the cycling ability will still resolve, and you'll draw a card.
+  - *2022-12-08* — When you cycle this card, first the cycling ability goes on the stack, then the triggered ability goes on the stack on top of it. The triggered ability will resolve before you draw a card from the cycling ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c20/121/nimble-obstructionist) · oracle_id `750d846e-2774-4296-8d9f-5207477d842d` · printing: C20 #121 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nimble Thopterist
 
@@ -1632,6 +1771,7 @@
   > *"While it is certainly a unique touch, Jan, does the mustache really need to be there?"*
   > *—High Artificer Andar Beech*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6346 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/330/nimblewright-schematic) · oracle_id `5b0dcf09-df51-4ad3-848e-c0ffb25824f9` · printing: CLB #330 (2022-06-10) · [rulings](https://api.scryfall.com/cards/34282856-c0f1-4845-bfc8-537466c6a5bb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nimbus Champion
@@ -1657,7 +1797,9 @@
 - **Flavor text** (AFC printing):
   > *To find its center is to find one's own.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1807 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afc/252/nimbus-maze) · oracle_id `d7e1d4eb-1d4e-460e-9304-7db9ab50ccb5` · printing: AFC #252 (2021-07-23) · [rulings](https://api.scryfall.com/cards/711dbdb1-7ec3-4fb4-8364-d34f5e143fd1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-11-17* — Nimbus Maze's last two abilities check the subtypes of lands you control, not their names. You can activate the appropriate abilities as long as you control a land with the corresponding subtype, Plains or Island. Most nonbasic lands don't have basic land types, even if they produce colored mana. For example, Nimbus Maze itself is neither a Plains nor an Island, while Hallowed Fountain is both.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afc/252/nimbus-maze) · oracle_id `d7e1d4eb-1d4e-460e-9304-7db9ab50ccb5` · printing: AFC #252 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nimbus Naiad
 
@@ -1722,7 +1864,16 @@
   > Equip {4}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3549 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/309/nim-deathmantle) · oracle_id `66d41377-626d-4ae6-ba86-17bf0c8b3362` · printing: 2X2 #309 (2022-07-08) · [rulings](https://api.scryfall.com/cards/787b1cc8-42b4-4d3e-9b8a-a252de297b1a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2011-01-01* — If multiple nontoken creatures are put into your graveyard from the battlefield at the same time, Nim Deathmantle's second ability triggers that many times. You put the triggered abilities on the stack in any order, so you'll determine in which order they resolve. If you pay {4} more than once, each card you paid {4} for will end up on the battlefield under your control, and Nim Deathmantle will end up attached to the last card that returned to the battlefield this way that it could equip.
+  - *2011-01-01* — If the nontoken creature that caused Nim Deathmantle's second ability to trigger is somehow removed from your graveyard before that ability resolves, you may still pay {4} as it resolves. Even if you do, however, no card will be returned to the battlefield.
+  - *2011-01-01* — Nim Deathmantle causes the equipped creature to be a black Zombie even if it didn't return that creature to the battlefield from the graveyard.
+  - *2011-01-01* — Nim Deathmantle's color-changing and type-changing effects override the equipped creature's previous colors and creature types. After Nim Deathmantle becomes equipped to a creature, that creature will be a black Zombie, not any other colors or creature types.
+  - *2011-01-01* — Nim Deathmantle's second ability may return a card it can't equip to the battlefield. For example, if a nontoken artifact that's become a creature is put into your graveyard from the battlefield, Nim Deathmantle's second ability triggers. If you pay {4} as it resolves, you'll return that card to the battlefield. However, Nim Deathmantle can't equip it, so Nim Deathmantle remains attached to whatever it was already equipping (or, if it was unattached, it remains so). The same is true if a nontoken creature with protection from artifacts is put into your graveyard from the battlefield, for example.
+  - *2011-01-01* — Once Nim Deathmantle becomes unattached from a creature, its color-changing and type-changing effects stop affecting that creature. The creature will no longer be black and will no longer be a Zombie (unless its printed characteristics or some other effects still cause it to be black and/or a Zombie, of course). This is true even if Nim Deathmantle returned that creature to the battlefield from the graveyard.
+  - *2011-01-01* — Once Nim Deathmantle returns a card from your graveyard to the battlefield, it will remain on the battlefield indefinitely, even if Nim Deathmantle becomes unattached from it.
+  - *2011-01-01* — You choose whether to pay {4} as Nim Deathmantle's second ability resolves. Although players may respond to this ability, once it begins to resolve and you decide whether to pay, it's too late for players to respond.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/309/nim-deathmantle) · oracle_id `66d41377-626d-4ae6-ba86-17bf0c8b3362` · printing: 2X2 #309 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nim Devourer
 
@@ -1848,7 +1999,9 @@
   > Whenever Nine-Fingers Keene deals combat damage to a player, look at the top nine cards of your library. You may put a Gate card from among them onto the battlefield. Then if you control nine or more Gates, put the rest into your hand. Otherwise, put the rest on the bottom of your library in a random order.
 - **Keywords:** Menace, Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8207 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/289/nine-fingers-keene) · oracle_id `e06007cf-dc6e-4b50-93d5-9a7c8ee9c023` · printing: CLB #289 (2022-06-10) · [rulings](https://api.scryfall.com/cards/5480ac0a-883a-4f73-8e7c-56d64be410a3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-06-10* — If you do not put a Gate card onto the battlefield this way but already control nine or more Gates, you will put all the cards into your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/289/nine-fingers-keene) · oracle_id `e06007cf-dc6e-4b50-93d5-9a7c8ee9c023` · printing: CLB #289 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nine Lives
 
@@ -1861,7 +2014,13 @@
   > When this enchantment leaves the battlefield, you lose the game.
 - **Keywords:** Hexproof
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6343 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m21/28/nine-lives) · oracle_id `236e1f57-7ef5-455a-82a6-8ff6b85d8849` · printing: M21 #28 (2020-07-03) · [rulings](https://api.scryfall.com/cards/e70b7a73-484e-48f1-944c-3d38866cdc20/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2020-06-23* — If damage that a source would deal to you can't be prevented, you still put an incarnation counter on Nine Lives.
+  - *2020-06-23* — If more than one source deals damage to you at once, prevent the damage from each of them and put that many incarnation counters on Nine Lives, even if this causes more than nine incarnation counters to be on Nine Lives. Leave it to cats to abuse loopholes.
+  - *2020-06-23* — If you counter the first triggered ability or otherwise remove it from the stack, it will just trigger again immediately if Nine Lives still has nine or more incarnation counters on it.
+  - *2020-06-23* — Once the first triggered ability is on the stack, it won't trigger again, even if more damage is prevented and more incarnation counters are put onto it.
+  - *2020-06-23* — The last ability of Nine Lives triggers no matter how it leaves the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m21/28/nine-lives) · oracle_id `236e1f57-7ef5-455a-82a6-8ff6b85d8849` · printing: M21 #28 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nine-Lives Familiar
 
@@ -1874,6 +2033,7 @@
 - **Flavor text** (FDN printing):
   > *Her master gathered the bones to resurrect her, only to find her purring on the altar.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2366 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/66/nine-lives-familiar) · oracle_id `5049da27-f38b-4fe6-a387-51510bd1f44e` · printing: FDN #66 (2024-11-15) · [rulings](https://api.scryfall.com/cards/988c23f6-59fe-49f9-a9ce-9881dccb7033/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nine-Ringed Bo
@@ -1923,7 +2083,14 @@
   > Whenever this creature deals combat damage to a player, you may draw a card.
 - **Keywords:** Ninjutsu
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3642 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c18/95/ninja-of-the-deep-hours) · oracle_id `1f3c2b00-0000-4ae1-9650-9553accac52e` · printing: C18 #95 (2018-08-10) · [rulings](https://api.scryfall.com/cards/5fea7980-55e1-47c1-ab18-a89c976b55fc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-03-19* — Although the Ninja is attacking, it was never declared as an attacking creature (for purposes of abilities that trigger whenever a creature attacks, for example).
+  - *2021-03-19* — As you activate a ninjutsu ability, you reveal the Ninja card in your hand and return the attacking creature. The Ninja isn't put onto the battlefield until the ability resolves. If it leaves your hand before then, it won't enter the battlefield at all.
+  - *2021-03-19* — If a creature in combat has first strike or double strike, you can activate the ninjutsu ability during the first-strike combat damage step. The Ninja will deal combat damage during the regular combat damage step in this case, even if it has first strike.
+  - *2021-03-19* — The creature put onto the battlefield with ninjutsu enters the battlefield attacking the same player or planeswalker that the returned creature was attacking. This is a rule specific to ninjutsu.
+  - *2021-03-19* — The ninjutsu ability can be activated during the declare blockers step, combat damage step, or end of combat step. If you wait until after the declare blockers step, because all combat damage is dealt at once, the Ninja won't normally deal combat damage.
+  - *2021-03-19* — The ninjutsu ability can be activated only after blockers have been declared. Before then, attacking creatures are neither blocked nor unblocked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c18/95/ninja-of-the-deep-hours) · oracle_id `1f3c2b00-0000-4ae1-9650-9553accac52e` · printing: C18 #95 (2018-08-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ninja of the Hand
 
@@ -1964,7 +2131,12 @@
   > *The pizza that vanishes quickly without a trace.*
 - **Keywords:** Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4109 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmc/32/ninja-pizza) · oracle_id `58c615f3-8c3b-47bf-8032-809fc4232ccb` · printing: TMC #32 (2026-03-06) · [rulings](https://api.scryfall.com/cards/74c24ff9-d3d2-4ffb-bf8b-dba803481a99/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2026-01-27* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2026-01-27* — If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, you can sacrifice Pizza Face (a Legendary Artifact Creature — Food Mutant) to activate Maraleaf Rider's ability (an ability with "Sacrifice a Food" in its cost). You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+  - *2026-01-27* — Some spells and abilities that create Food tokens may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Food tokens.
+  - *2026-01-27* — Whatever you do, don't eat the cards. (Also, don't make the pizzas pictured on the cards. You don't have the digestive system of a Ninja Turtle.)
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmc/32/ninja-pizza) · oracle_id `58c615f3-8c3b-47bf-8032-809fc4232ccb` · printing: TMC #32 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ninja's Blades
 
@@ -1976,7 +2148,13 @@
   > Mutsunokami — Equip {2}
 - **Keywords:** Job select, Equip, Mutsunokami
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7994 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/108/ninjas-blades) · oracle_id `cdaffb13-c2a4-4bc5-a9d6-c1a0d1686a81` · printing: FIN #108 (2025-06-13) · [rulings](https://api.scryfall.com/cards/a6b5af82-3646-44f9-ac12-1d7fa698f037/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-06-06* — If the Hero token is destroyed, the Equipment stays on the battlefield.
+  - *2025-06-06* — If the discarded card has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
+  - *2025-06-06* — If the job select ability causes two Hero tokens to be created (due to an effect such as that of Doubling Season), the Equipment becomes attached to only one of them.
+  - *2025-06-06* — The Hero token enters as a 1/1 creature, then the Equipment becomes attached to it. Abilities that trigger when a creature enters the battlefield see that a 1/1 creature entered the battlefield.
+  - *2025-06-06* — You may pay the Equipment's equip cost as normal to move it from the Hero token to another creature you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/108/ninjas-blades) · oracle_id `cdaffb13-c2a4-4bc5-a9d6-c1a0d1686a81` · printing: FIN #108 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ninja's Kunai
 
@@ -2004,7 +2182,19 @@
   > Creature cards in your graveyard have sneak {3}{B}.
   > You may cast creature spells from your graveyard using their sneak abilities.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6732 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/67/ninja-teen) · oracle_id `2c5044ff-a303-4276-8e23-7caac30a275b` · printing: TMT #67 (2026-03-06) · [rulings](https://api.scryfall.com/cards/0825a28f-f60b-4f80-83e3-cad6f9b266ce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2026-01-27* — Although a creature put onto the battlefield this way is attacking, it was never declared as an attacking creature. Abilities that trigger whenever a creature attacks won't trigger when that creature enters attacking.
+  - *2026-01-27* — An ability that advances a Class to a higher level is a normal activated ability. It uses the stack and can be responded to.
+  - *2026-01-27* — Casting creature spells from your graveyard using their sneak abilities with the permission granted by Ninja Teen's first level 3 ability doesn't change when you can cast them. You'll only be able to cast them this way during the declare blockers step on your turn when you could play an instant, and you'll still have to pay the sneak cost, including returning an unblocked attacking creature you control to its owner's hand.
+  - *2026-01-27* — Class cards have multiple text box sections. Other than the top section, each section contains a class level bar that includes a cost and a level number. Each represents an activated ability with the listed cost that advances the Class to the level listed in that bar.
+  - *2026-01-27* — Each Class starts at level 1 and has the abilities in the top section of its text box. Once a Class advances to level 2 or level 3, it has all of the abilities listed in the associated section of its text box as well.
+  - *2026-01-27* — Gaining a level won't remove abilities that a Class had at a previous level.
+  - *2026-01-27* — If a creature card in your graveyard has multiple sneak abilities, you can cast it from your graveyard using any of those sneak abilities with the permission granted by Ninja Teen's second level 3 ability.
+  - *2026-01-27* — If a creature spell's sneak cost was paid, the creature it becomes enters tapped and attacking the same player, planeswalker, or battle as the creature that was returned to its owner's hand to pay its sneak cost. This is a rule specific to sneak; in other cases, when a creature is put onto the battlefield attacking, that creature's controller chooses which player, planeswalker, or battle it's attacking.
+  - *2026-01-27* — Spells can only be cast for their sneak costs any time you could play an instant during the declare blockers step on your turn (after your opponent has decided whether to block).
+  - *2026-01-27* — There's no restriction on how many Class permanents you can control, whether they're the same or different classes. Each Class permanent tracks its own level separately.
+  - *2026-01-27* — You can't activate an ability that advances a Class to a particular level if that Class is already that level or higher. For example, if a Class is already level 2, you can't activate the ability that advances it to level 2 again.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/67/ninja-teen) · oracle_id `2c5044ff-a303-4276-8e23-7caac30a275b` · printing: TMT #67 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ninth Bridge Patrol
 
@@ -2098,6 +2288,7 @@
 - **Flavor text** (VOC printing):
   > *Hate is an everlasting wellspring from which she is eternally sustained.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2958 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/voc/134/nirkana-revenant) · oracle_id `6dff1def-5b94-40c8-a942-dea8743ab47c` · printing: VOC #134 (2021-11-19) · [rulings](https://api.scryfall.com/cards/96da0a4c-2865-4383-875a-9f5d6503baee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nishoba Brawler
@@ -2126,7 +2317,14 @@
   > −7: Until end of turn, creatures you control get +1/+1 for each Forest you control and gain trample.
 - **Keywords:** Compleated
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3786 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/175/nissa-ascended-animist) · oracle_id `9c8845d6-fa65-4731-b348-dc724fc2d285` · printing: ONE #175 (2023-02-10) · [rulings](https://api.scryfall.com/cards/1dd64b1d-bcef-476c-bf0b-3ac7df7cbed3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-02-04* — A Phyrexian mana symbol contributes 1 toward the mana value of a card, even if life is paid for it. Specifically, Nissa's mana value is always 7.
+  - *2023-02-04* — If Nissa is no longer on the battlefield at the time her first ability resolves, use the number of loyalty counters she had when she last existed on the battlefield to determine the value of X.
+  - *2023-02-04* — Other replacement effects that would change the number of loyalty counters Nissa enters with will apply as normal.
+  - *2023-02-04* — The compleated ability looks only at whether a player chose to pay 2 life for a Phyrexian mana symbol as they were casting the spell. If a player paid life for some other reason while casting the spell, that will not reduce the number of loyalty counters the planeswalker enters the battlefield with.
+  - *2023-02-04* — The power and toughness bonus granted to creatures by Nissa's last ability is determined only once, as that ability resolves. It won't increase or decrease if the number of Forests you control later changes. Similarly, it applies only to creatures you control at the time it resolves. Creatures that come under your control after it resolves will not have the bonus.
+  - *2023-02-04* — The token created by Nissa's first ability has its power and toughness set only once, at the time the ability resolves. It doesn't change later as loyalty counters are added to or removed from Nissa.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/175/nissa-ascended-animist) · oracle_id `9c8845d6-fa65-4731-b348-dc724fc2d285` · printing: ONE #175 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nissa, Genesis Mage
 
@@ -2175,7 +2373,17 @@
   > −5: You may put a creature card with mana value less than or equal to the number of lands you control onto the battlefield from your hand or graveyard with two +1/+1 counters on it.
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5801 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/231/nissa-of-shadowed-boughs) · oracle_id `15e3e226-0dd1-4c9b-a7ec-af67509cbfc5` · printing: ZNR #231 (2020-09-25) · [rulings](https://api.scryfall.com/cards/6d69f943-d474-47c0-bc6b-1b247a5dd6f3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2020-09-25* — Effects that modify the power or toughness of the land creature without setting it will apply to its new base power and toughness no matter when they started to take effect. The same is true for counters that change its power and toughness.
+  - *2020-09-25* — If a card in a player's hand or graveyard has {X} in its mana cost, X is considered to be 0.
+  - *2020-09-25* — Nissa's middle ability can target a land that's already untapped or that's already a creature.
+  - *2020-09-25* — Nissa's middle ability doesn't remove any abilities the land creature has.
+  - *2020-09-25* — Nissa's middle ability overwrites any previous effects that set the land creature's power and/or toughness to specific values. Other effects that set these characteristics to specific values that start to apply after the ability resolves will overwrite that part of the effect.
+  - *2020-09-25* — The creature card's mana value is checked only in your hand or graveyard. You may put a creature card onto the battlefield whose mana value becomes greater than the number of lands you control once it's on the battlefield, most likely because it enters as a copy of another permanent.
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/231/nissa-of-shadowed-boughs) · oracle_id `15e3e226-0dd1-4c9b-a7ec-af67509cbfc5` · printing: ZNR #231 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nissa, Resurgent Animist
 
@@ -2186,7 +2394,14 @@
   > Landfall — Whenever a land you control enters, add one mana of any color. Then if this is the second time this ability has resolved this turn, reveal cards from the top of your library until you reveal an Elf or Elemental card. Put that card into your hand and the rest on the bottom of your library in a random order.
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2095 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mat/22/nissa-resurgent-animist) · oracle_id `c1fc5923-c3cd-448a-98d1-c154661c2812` · printing: MAT #22 (2023-05-12) · [rulings](https://api.scryfall.com/cards/248c76d3-b5cb-4582-be17-7cd1d0cb0f58/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-05-12* — Each time the landfall ability resolves in a turn after the second time, you'll just add mana.
+  - *2023-05-12* — If you reveal your entire library and don't reveal an Elf or Elemental card, you'll put all revealed cards back in a random order. This uses the same physical action as shuffling, although it isn't technically a "shuffle."
+  - *2023-05-12* — Nissa's landfall ability isn't a mana ability, even though it causes you to add mana. It uses the stack and can be responded to.
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/mat/22/nissa-resurgent-animist) · oracle_id `c1fc5923-c3cd-448a-98d1-c154661c2812` · printing: MAT #22 (2023-05-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nissa Revane
 
@@ -2264,7 +2479,11 @@
   > Spell mastery — If there are two or more instant and/or sorcery cards in your graveyard, search your library for up to three basic Forest cards instead of two.
 - **Keywords:** Spell mastery
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3481 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c17/155/nissas-pilgrimage) · oracle_id `e83236f8-1c45-4d31-8937-1c76db549955` · printing: C17 #155 (2017-08-25) · [rulings](https://api.scryfall.com/cards/ccf744d0-4349-4338-99aa-db0780c7296f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2015-06-22* — Check to see if there are two or more instant and/or sorcery cards in your graveyard as the spell resolves to determine whether the spell mastery ability applies. The spell itself won’t count because it’s still on the stack as you make this check.
+  - *2015-06-22* — If the spell mastery ability applies, and you find three basic Forest cards, one of them will be put onto the battlefield tapped and two of them will be put into your hand.
+  - *2015-06-22* — If you only find one basic Forest card, you’ll put it onto the battlefield tapped. You won’t be able to put it into your hand, even if you want to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c17/155/nissas-pilgrimage) · oracle_id `e83236f8-1c45-4d31-8937-1c76db549955` · printing: C17 #155 (2017-08-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nissa's Renewal
 
@@ -2275,6 +2494,7 @@
 - **Flavor text** (C21 printing):
   > *Her connection to the plane restored, Nissa felt the power of Zendikar surge through her.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8765 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/201/nissas-renewal) · oracle_id `6a6e0f0b-af11-40a5-b454-0aea2d1b99cf` · printing: C21 #201 (2021-04-23) · [rulings](https://api.scryfall.com/cards/9474a32d-d846-41c9-9ef4-b4caf981cf12/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nissa's Revelation
@@ -2300,7 +2520,13 @@
   > −6: Untap up to two target lands you control. They become 5/5 Elemental creatures with flying and haste until end of turn. They're still lands.
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6963 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c20/224/nissa-steward-of-elements) · oracle_id `fdb96b5c-ecac-4db3-8b9a-24f824149f91` · printing: C20 #224 (2020-04-17) · [rulings](https://api.scryfall.com/cards/8d64871b-6ee5-426b-9828-125cb9c7746d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2017-04-18* — If Nissa leaves the battlefield while her second ability is on the stack, use her last known loyalty to determine whether you may put the top card of your library onto the battlefield. If Nissa left the battlefield because she took enough damage to reduce her loyalty to 0, then her last known loyalty is 0.
+  - *2017-04-18* — If X is 0, Nissa enters the battlefield with no loyalty and is put into her owner's graveyard before you can activate her abilities.
+  - *2017-04-18* — Nissa's last ability sets the base power and toughness of the lands to 5/5. Any +1/+1 or -1/-1 counters that were on those lands will apply to those values.
+  - *2017-04-18* — Once Nissa's second ability begins to resolve, no player may take actions until it's done. Notably, players can't try to change Nissa's loyalty once you look at the card or choose to put it onto the battlefield.
+  - *2017-04-18* — While resolving Nissa's second ability, if you can't or don't put the card onto the battlefield, it remains on top of your library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c20/224/nissa-steward-of-elements) · oracle_id `fdb96b5c-ecac-4db3-8b9a-24f824149f91` · printing: C20 #224 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nissa's Triumph
 
@@ -2339,7 +2565,21 @@
   > −7: Untap up to six target lands. They become 6/6 Elemental creatures. They're still lands.
 - **Keywords:** Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6847 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ori/189/nissa-vastwood-seer-nissa-sage-animist) · oracle_id `35754a21-9fba-4370-a254-292918a777ba` · printing: ORI #189 (2015-07-17) · [rulings](https://api.scryfall.com/cards/ff0063da-ab6b-499d-8e87-8b34d46f0372/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2015-06-22* — A Magic Origins planeswalker that enters the battlefield because of the ability of its front face will enter with loyalty counters as normal.
+  - *2015-06-22* — A double-faced card enters the battlefield with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed, in which case it enters with its back face up.
+  - *2015-06-22* — Each face of a double-faced card has its own set of characteristics: name, types, subtypes, power and toughness, loyalty, abilities, and so on. While a double-faced card is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored. While a double-faced card isn't on the battlefield, consider only the characteristics of its front face.
+  - *2015-06-22* — If a double-faced card is manifested, it will be put onto the battlefield face down (this is also true if it's put onto the battlefield face down some other way). Note that "face down" is not synonymous with "with its back face up." A manifested double-faced card is a 2/2 creature with no name, mana cost, creature types, or abilities. While face down, it can't transform. If the front face of a manifested double-faced card is a creature card, you can turn it face up by paying its mana cost. If you do, its front face will be up. A double-faced card on the battlefield can't be turned face down.
+  - *2015-06-22* — If a land becomes a creature but hasn't continuously been under its controller's control since that player's most recent turn began, it won't be able to attack and its abilities with {T} in the cost (including mana abilities) won't be able to be activated. In other words, look at how long the permanent itself has been under your control, not how long it's been a creature.
+  - *2015-06-22* — In some rare cases, a spell or ability may cause one of these five cards to transform while it's a creature (front face up) on the battlefield. If this happens, the resulting planeswalker won't have any loyalty counters on it and will subsequently be put into its owner's graveyard.
+  - *2015-06-22* — Nissa, Vastwood Seer is exiled as a result of her second triggered ability. If she enters the battlefield while you control seven or more lands, she won't automatically be exiled and transform.
+  - *2015-06-22* — The back face of a double-faced card (in the case of Magic Origins, the planeswalker face) can't be cast.
+  - *2015-06-22* — The mana value of a double-faced card not on the battlefield is the mana value of its front face.
+  - *2015-06-22* — You can activate Nissa, Sage Animist's second ability even if you already control an Ashaya, the Awoken World. Just after the second token is created, you'll choose one to remain on the battlefield. The other will be put into your graveyard and subsequently cease to exist.
+  - *2015-06-22* — You can activate one of the planeswalker's loyalty abilities the turn it enters the battlefield. However, you may do so only during one of your main phases when the stack is empty. For example, if the planeswalker enters the battlefield during combat, there will be an opportunity for your opponent to remove it before you can activate one of its abilities.
+  - *2016-04-08* — The back face of a double-faced card doesn't have a mana cost. A double-faced permanent with its back face up has a mana value equal to the mana value of its front face. Each back face has a color indicator that defines its color.
+  - *2017-09-29* — You can control two of this permanent, one front-face up and the other back-face up, at the same time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ori/189/nissa-vastwood-seer-nissa-sage-animist) · oracle_id `35754a21-9fba-4370-a254-292918a777ba` · printing: ORI #189 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nissa, Vital Force
 
@@ -2351,7 +2591,11 @@
   > −3: Return target permanent card from your graveyard to your hand.
   > −6: You get an emblem with "Whenever a land you control enters, you may draw a card."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4957 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/kld/163/nissa-vital-force) · oracle_id `31d4d8ce-36ba-4297-8c7a-34a83ba25255` · printing: KLD #163 (2016-09-30) · [rulings](https://api.scryfall.com/cards/bbaaa98a-ec40-4ff1-8762-a719cf1c475d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2016-09-20* — A permanent card is an artifact, creature, enchantment, land, or planeswalker card.
+  - *2016-09-20* — After resolving Nissa's first ability, the target land still has any abilities it had before it became a creature and any other types it had.
+  - *2016-09-20* — You can activate Nissa's first ability targeting a land that's already untapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/kld/163/nissa-vital-force) · oracle_id `31d4d8ce-36ba-4297-8c7a-34a83ba25255` · printing: KLD #163 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nissa, Voice of Zendikar
 
@@ -2363,6 +2607,7 @@
   > −2: Put a +1/+1 counter on each creature you control.
   > −7: You gain X life and draw X cards, where X is the number of lands you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5258 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddr/1/nissa-voice-of-zendikar) · oracle_id `b0f36bf7-bdde-4576-9eca-ec02d41326ab` · printing: DDR #1 (2016-09-02) · [rulings](https://api.scryfall.com/cards/6de97cf1-49b6-40b2-ab7f-1c8eb98f92af/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nissa, Who Shakes the World
@@ -2375,7 +2620,9 @@
   > +1: Put three +1/+1 counters on up to one target noncreature land you control. Untap it. It becomes a 0/0 Elemental creature with vigilance and haste that's still a land.
   > −8: You get an emblem with "Lands you control have indestructible." Search your library for any number of Forest cards, put them onto the battlefield tapped, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1671 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/war/169/nissa-who-shakes-the-world) · oracle_id `5aa3abf1-d56b-4f42-8c84-7e5a2c15ee0f` · printing: WAR #169 (2019-05-03) · [rulings](https://api.scryfall.com/cards/f857bbe4-5619-4733-a0c7-69700f2ef4f3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-05-03* — The effect of Nissa's first loyalty ability lasts indefinitely. It doesn't wear off during the cleanup step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/war/169/nissa-who-shakes-the-world) · oracle_id `5aa3abf1-d56b-4f42-8c84-7e5a2c15ee0f` · printing: WAR #169 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nissa, Worldsoul Speaker
 
@@ -2389,7 +2636,16 @@
   > *"Zendikar still seems so far off, but Chandra is my home."*
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7510 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/drc/13/nissa-worldsoul-speaker) · oracle_id `00037840-6089-42ec-8c5c-281f9f474504` · printing: DRC #13 (2025-02-14) · [rulings](https://api.scryfall.com/cards/a471b306-4941-4e46-a0cb-d92895c16f8a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2025-02-07* — Energy counters are a kind of counter that a player may have. They’re not associated with any specific permanents.
+  - *2025-02-07* — Energy counters aren’t mana. They don’t go away as steps, phases, and turns end, and effects that add mana “of any type” can’t give you energy counters.
+  - *2025-02-07* — If an effect says you get one or more {E}, you get that many energy counters. To pay one or more {E}, you lose that many energy counters. You can’t pay more energy counters than you have. Any effects that interact with counters a player gets, has, or loses can interact with energy counters.
+  - *2025-02-07* — Keep track of how many energy counters each player has. Potential ways to track this include writing them down on paper or using dice, but any method that is clear and mutually agreeable is fine.
+  - *2025-02-07* — Some spells and abilities say that you “may pay” a certain amount of {E}, then describes an effect that happens “if you do.” In that case, no player may take actions to try to stop the ability’s effect after you make your choice. If the payment is instead followed by the phrase “when you do” followed by an effect, then after you choose to pay {E}, a new triggered ability called a reflexive trigger is put on the stack, and you choose targets for the reflexive trigger (if the effect asks for targets). Players may respond as normal to this new triggered ability. Once that reflexive trigger resolves, the effect will finally occur.
+  - *2025-02-07* — Some spells and abilities say that you “may pay” a certain amount of {E}. You can’t pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
+  - *2025-02-07* — Some spells and abilities which give you {E} or say you “may pay” some amount of {E} require one or more targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won’t resolve. None of its effects will happen, you won’t get any {E} from it, and you won’t get the chance to pay any {E} for its effects even if you want to.
+  - *2025-02-07* — {E} is the energy symbol. It represents one energy counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/drc/13/nissa-worldsoul-speaker) · oracle_id `00037840-6089-42ec-8c5c-281f9f474504` · printing: DRC #13 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nissa, Worldwaker
 
@@ -2401,7 +2657,10 @@
   > +1: Untap up to four target Forests.
   > −7: Search your library for any number of basic land cards, put them onto the battlefield, then shuffle. Those lands become 4/4 Elemental creatures with trample. They're still lands.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9645 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/e01/68/nissa-worldwaker) · oracle_id `468f9b8e-4423-4131-8611-d34b0aa3d96f` · printing: E01 #68 (2017-06-16) · [rulings](https://api.scryfall.com/cards/4a37fbca-32db-40cc-9fd3-4764c7fd81e2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-07-18* — If the land targeted by the first ability entered the battlefield this turn, it won’t be able to attack and its activated abilities with {T} in the cost (including its mana ability) can’t be activated (unless something gives it haste). The same is true for the lands put onto the battlefield with the third ability.
+  - *2014-07-18* — The type-changing effects of the first and third abilities don’t have a duration. They last indefinitely.
+- **Source flags:** [Scryfall](https://scryfall.com/card/e01/68/nissa-worldwaker) · oracle_id `468f9b8e-4423-4131-8611-d34b0aa3d96f` · printing: E01 #68 (2017-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nita, Forum Conciliator
 
@@ -2512,6 +2771,7 @@
   > *He has no patience for minds that do not inspire him or explode by trying.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9358 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c17/184/niv-mizzet-dracogenius) · oracle_id `899d58dc-60b2-4013-9f91-c1888c585d66` · printing: C17 #184 (2017-08-25) · [rulings](https://api.scryfall.com/cards/1b1c4bed-9b6b-42f9-939d-ece0f959a0a3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Niv-Mizzet, Ghost Counsel
@@ -2570,7 +2830,10 @@
   > When Niv-Mizzet enters, reveal the top ten cards of your library. For each color pair, choose a card that's exactly those colors from among them. Put the chosen cards into your hand and the rest on the bottom of your library in a random order.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9105 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/war/208/niv-mizzet-reborn) · oracle_id `10764b35-5c6c-4161-8579-1124d5963a0e` · printing: WAR #208 (2019-05-03) · [rulings](https://api.scryfall.com/cards/56a2609d-b535-400b-81d9-72989a33c70f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-05-03* — A "color pair" is exactly two colors. There are ten color pairs in Magic: white-blue, white-black, blue-black, blue-red, black-red, black-green, red-green, red-white, green-white, and green-blue.
+  - *2019-05-03* — If the top ten cards of your library don't contain all ten color pairs, you choose as many cards as you can and put those cards into your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/war/208/niv-mizzet-reborn) · oracle_id `10764b35-5c6c-4161-8579-1124d5963a0e` · printing: WAR #208 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Niv-Mizzet's Diary
 
@@ -2608,7 +2871,10 @@
   > *As brilliant as a cut diamond, and with just as cruel an edge.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2567 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/c20/225/niv-mizzet-the-firemind) · oracle_id `959acb66-84ca-4535-bca2-ad591895735e` · printing: C20 #225 (2020-04-17) · [rulings](https://api.scryfall.com/cards/395465b8-f5ed-4668-9e6a-82257150c52c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-03-16* — If a spell or ability causes you to draw multiple cards, Niv-Mizzet's ability triggers that many times.
+  - *2018-03-16* — If dealing 1 damage to a permanent or player causes you to draw a card, perhaps because Niv-Mizzet is enchanted by Curiosity, you'll continue this loop until the loop is interrupted, perhaps by a player losing the game.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c20/225/niv-mizzet-the-firemind) · oracle_id `959acb66-84ca-4535-bca2-ad591895735e` · printing: C20 #225 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Niv-Mizzet, Visionary
 
@@ -2623,6 +2889,7 @@
   > *Ravnica's sharpest mind and its biggest ego.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2170 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/123/niv-mizzet-visionary) · oracle_id `d9f1dc61-831e-4244-a2da-aa9da6fd5b50` · printing: FDN #123 (2024-11-15) · [rulings](https://api.scryfall.com/cards/7a69a618-d588-4745-8ede-0ff0a9f356f1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nix

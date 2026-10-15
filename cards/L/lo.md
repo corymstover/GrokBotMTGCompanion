@@ -256,7 +256,12 @@
   > Warp {G} (You may cast this card from your hand for its warp cost. Exile this enchantment at the beginning of the next end step, then you may cast it from exile on a later turn.)
 - **Keywords:** Warp
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2655 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/196/loading-zone) · oracle_id `16156274-8dc0-439c-94c4-e8c89bbb5687` · printing: EOE #196 (2025-08-01) · [rulings](https://api.scryfall.com/cards/0d2c95bd-79af-4a23-b265-62cc0b164e3e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-07-25* — If a creature, Spacecraft, or Planet you control would enter the battlefield with a number of counters on it, it enters with twice that many instead.
+  - *2025-07-25* — If two or more effects attempt to modify how many counters would be put onto a permanent you control, you choose the order to apply those effects, no matter who controls the sources of those effects.
+  - *2025-07-25* — If you control two Loading Zones, the number of counters put on a creature, Spacecraft, or Planet you control is four times the original number. Three Loading Zones multiplies the original number by eight, and so on.
+  - *2025-07-25* — The Loading Zone is for immediate loading and unloading only. There is no stopping in the Loading Zone. (Especially not if it was warped.)
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/196/loading-zone) · oracle_id `16156274-8dc0-439c-94c4-e8c89bbb5687` · printing: EOE #196 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Loafing Giant
 
@@ -281,7 +286,9 @@
 - **Flavor text** (EOC printing):
   > *"Give me just a moment. I need to grow us a new bridge."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9301 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/99/loamcrafter-faun) · oracle_id `2fbfdbcc-5f89-47b2-bd8d-49c797e0624f` · printing: EOC #99 (2025-08-01) · [rulings](https://api.scryfall.com/cards/066de4d6-3fa4-44e0-ab02-8d97b603015a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-09-01* — You don't choose targets for Loamcrafter Faun's ability at the time it triggers. Rather, a second "reflexive" ability triggers when you discard one or more land cards this way. You choose targets for that ability as it goes on the stack. Each player may respond to this triggered ability as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/99/loamcrafter-faun) · oracle_id `2fbfdbcc-5f89-47b2-bd8d-49c797e0624f` · printing: EOC #99 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Loamdragger Giant
 
@@ -476,7 +483,13 @@
   > • Until end of turn, you may play a card exiled with Lobelia without paying its mana cost.
   > • Each opponent loses 2 life and you gain 2 life.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7326 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/27/lobelia-defender-of-bag-end) · oracle_id `0f2e3e2e-9857-4be5-9bf0-62da1cc147fc` · printing: LTC #27 (2023-06-23) · [rulings](https://api.scryfall.com/cards/6d67a523-bda9-4f8b-bd50-dc015f9b4b7a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-06-16* — If Lobelia, Defender of Bag End leaves the battlefield, and later another Lobelia, Defender of Bag End enters the battlefield, it is a new object (even if the two were represented by the same card). You can't play cards exiled by the original Lobelia, Defender of Bag End with the second ability of the new Lobelia, Defender of Bag End.
+  - *2023-06-16* — If the spell has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2023-06-16* — If you cast a spell "without paying its mana cost", you can't choose to cast it for any alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
+  - *2023-06-16* — To play a card using the permission granted by the first mode of Lobelia, Defender of Bag End's activated ability, you must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can play a land from exile this way only during your main phase while the stack is empty, and only if you have an available land play remaining for the turn.
+  - *2023-06-16* — You may look at these face-down exiled cards any time you wish. No other player may look at the face-down cards you exiled with Lobelia, Defender of Bag End, even if another player takes control of it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/27/lobelia-defender-of-bag-end) · oracle_id `0f2e3e2e-9857-4be5-9bf0-62da1cc147fc` · printing: LTC #27 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lobelia Sackville-Baggins
 
@@ -489,7 +502,9 @@
   > When Lobelia enters, exile target creature card from an opponent's graveyard that was put there from the battlefield this turn, then create X Treasure tokens, where X is the exiled card's power.
 - **Keywords:** Treasure, Menace, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7096 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/93/lobelia-sackville-baggins) · oracle_id `19f5a25a-97fc-41e6-bb26-7c35f4b4e37c` · printing: LTR #93 (2023-06-23) · [rulings](https://api.scryfall.com/cards/87500b92-3d68-42f3-afa9-f8206b2ebcbb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-06-16* — Use the card's power as it last existed in the graveyard to determine the value of X.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/93/lobelia-sackville-baggins) · oracle_id `19f5a25a-97fc-41e6-bb26-7c35f4b4e37c` · printing: LTR #93 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lobe Lobber
 
@@ -524,7 +539,17 @@
 - **Flavor text** (M3C printing):
   > *Imperial detonators are calibrated to maximize devastation while minimizing collateral damage.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8224 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m3c/41/localized-destruction) · oracle_id `810e1371-e028-47e7-b97e-a627a35932e0` · printing: M3C #41 (2024-06-14) · [rulings](https://api.scryfall.com/cards/dd64fe7f-2c06-42f8-96ac-47e4c38dc149/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2024-06-07* — Energy counters are a kind of counter that a player may have. They're not associated with any specific permanents.
+  - *2024-06-07* — Energy counters aren't mana. They don't go away as steps, phases, and turns end, and effects that add mana "of any type" can't give you energy counters.
+  - *2024-06-07* — If a spell or ability with one or more targets states that you "may pay" some amount of {E}, and each permanent that it targets has become an illegal target, the spell or ability won't resolve. You can't pay any {E} even if you want to.
+  - *2024-06-07* — If an effect says you get one or more {E}, you get that many energy counters. To pay one or more {E}, you lose that many energy counters. You can't pay more energy counters than you have. Any effects that interact with counters a player gets, has, or loses can interact with energy counters.
+  - *2024-06-07* — Keep track of how many energy counters each player has. Potential ways to track this include writing theme down on paper or using dice, but any method that is clear and mutually agreeable is fine. (At higher levels of tournament play, dice may not be allowed for tracking counters that players have.)
+  - *2024-06-07* — Some spells and abilities that give you {E} may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't get any {E}.
+  - *2024-06-07* — Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
+  - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
+  - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m3c/41/localized-destruction) · oracle_id `810e1371-e028-47e7-b97e-a627a35932e0` · printing: M3C #41 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Loch Dragon
 
@@ -590,7 +615,14 @@
   > *"Always bring a little extra thunder."*
 - **Keywords:** Plot
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6350 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/15/lock-and-load) · oracle_id `9355db6e-d8eb-43be-9c1d-04f1806dc366` · printing: OTC #15 (2024-04-19) · [rulings](https://api.scryfall.com/cards/7a35de4b-5d98-4034-acc9-f38dc8c8f7d6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-04-12* — Exiling a card using its plot ability is a special action. Once you announce you’re taking that action, no other player can respond by trying to remove that card from your hand.
+  - *2024-04-12* — If a plotted card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-04-12* — If you’re casting a plotted card from exile without paying its mana cost, you can’t choose to cast it for any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the plotted card has any mandatory additional costs, those must still be paid to cast the spell.
+  - *2024-04-12* — Lock and Load will count any other instant and sorcery spells you’ve cast this turn. It doesn’t matter if the other spells resolved, didn’t resolve, were countered, or are still on the stack.
+  - *2024-04-12* — Plot abilities are written “Plot [cost],” which means “Any time you have priority during your main phase while the stack is empty, you may pay [cost] and exile this card from your hand. It becomes plotted.”
+  - *2024-04-12* — You can’t cast a plotted card on the same turn it became plotted. On any future turn, you may cast that card from exile without paying its mana cost during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/15/lock-and-load) · oracle_id `9355db6e-d8eb-43be-9c1d-04f1806dc366` · printing: OTC #15 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Locke Cole
 
@@ -629,7 +661,11 @@
 - **Flavor text** (TSP printing):
   > *Every hour, at the turning of the glass, its owner had whispered to the locket, seeding it with secrets. This would be her legacy, her memory, if the rifts should take her.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7784 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsp/258/locket-of-yesterdays) · oracle_id `bfbfa8c1-5b03-40bb-8a4c-aedb768cb023` · printing: TSP #258 (2006-10-06) · [rulings](https://api.scryfall.com/cards/b316f198-4465-4fb5-a7a6-a92bf8eae8c1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2006-09-25* — Colored costs can’t be reduced by this effect. For example, a spell that costs {2}{R} can’t be reduced by more than {2}.
+  - *2006-09-25* — Locket of Yesterdays reduces only the amount of mana you need to pay to cast a spell. The spell’s mana cost and mana value are not affected.
+  - *2006-09-25* — The spell being cast doesn’t reduce its own cost, even if you’re casting it from a graveyard. At the time the cost is reduced, the spell is on the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsp/258/locket-of-yesterdays) · oracle_id `bfbfa8c1-5b03-40bb-8a4c-aedb768cb023` · printing: TSP #258 (2006-10-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Locke, Treasure Hunter
 
@@ -641,7 +677,14 @@
   > Mug — Whenever Locke attacks, each player mills a card. If a land card was milled this way, create a Treasure token. Until end of turn, you may cast a spell from among those cards.
 - **Keywords:** Treasure, Mill, Mug
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4170 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/87/locke-treasure-hunter) · oracle_id `a800bec4-bacc-43f9-a773-dd795959935b` · printing: FIC #87 (2025-06-13) · [rulings](https://api.scryfall.com/cards/42cd66f2-0704-4c8e-b5de-6df93f4a8bed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-06-06* — As long as one or more lands were milled this way, you'll create a Treasure token. Additional land cards milled beyond the first won't cause you to create additional Treasures.
+  - *2025-06-06* — If you cast a spell from among the milled cards using another permission, Locke's effect doesn't apply. You can cast another spell from among the milled cards using the permission granted by Locke's last ability.
+  - *2025-06-06* — Losing control of Locke after the last ability has triggered won't affect your ability to cast a spell from among the milled cards.
+  - *2025-06-06* — Once Locke has been blocked, changing its power or the power of the blocking creature won't cause Locke to become unblocked.
+  - *2025-06-06* — You must follow the normal timing permissions and restrictions of the spell you cast from among those cards.
+  - *2025-06-06* — You must pay the costs to cast that spell. If it has an alternative cost, you may cast it for that cost instead.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/87/locke-treasure-hunter) · oracle_id `a800bec4-bacc-43f9-a773-dd795959935b` · printing: FIC #87 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lockjaw, Slobbering Teleporter
 
@@ -694,7 +737,9 @@
   > *For years she believed persistence meant hunting for the Cauldron of Eternity. Now she knew it meant never giving up the fight against a world gone mad.*
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9743 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/27/locthwain-lancer) · oracle_id `a9baa117-ab06-4af5-9a09-4be423d7cbbd` · printing: MOC #27 (2023-04-21) · [rulings](https://api.scryfall.com/cards/7417067d-de28-404c-981e-e62b05d2bdf1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-04-14* — If Locthwain Lancer dies at the same time as other nontoken Knights you control, its ability will trigger once for itself (assuming it’s not a token) and once for each of those other Knights.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/27/locthwain-lancer) · oracle_id `a9baa117-ab06-4af5-9a09-4be423d7cbbd` · printing: MOC #27 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Locthwain Paladin
 
@@ -782,7 +827,11 @@
   > *"Somehow it warps the Æther. It brings a strange weight, a blockade in the flow of spellcraft."*
   > *—Noyan Dar, Tazeem lullmage*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7247 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mm2/219/lodestone-golem) · oracle_id `a698c9f5-325a-49f6-8902-eef09f4260c5` · printing: MM2 #219 (2015-05-22) · [rulings](https://api.scryfall.com/cards/683a5707-cddb-494d-9b41-51b4584ded69/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2010-03-01* — The ability affects each spell that's not an artifact spell, including your own.
+  - *2010-03-01* — The ability affects the total cost of each nonartifact spell, but it doesn't change that spell's mana cost or mana value. The extra mana also doesn't change how many times you kicked the spell or what the value of X is (if applicable).
+  - *2010-03-01* — When determining a spell's total cost, effects that increase the cost are applied before effects that reduce the cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mm2/219/lodestone-golem) · oracle_id `a698c9f5-325a-49f6-8902-eef09f4260c5` · printing: MM2 #219 (2015-05-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lodestone Myr
 
@@ -796,6 +845,7 @@
   > *When necessary, myr can override and control any artificial object, as can their creator.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8652 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm2/220/lodestone-myr) · oracle_id `7635fb35-7ac8-4e61-8a52-6b0c14cd88b8` · printing: MM2 #220 (2015-05-22) · [rulings](https://api.scryfall.com/cards/617ddf01-3678-470d-b009-003d6a561dbf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lodestone Needle // Guidestone Compass
@@ -820,7 +870,9 @@
 - **Flavor text** (M21 printing):
   > *The mage scowled as yet another bolt splashed harmlessly against seemingly empty air.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5309 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m21/56/lofty-denial) · oracle_id `d799a2c4-628a-45da-b9ca-0337c46e3e14` · printing: M21 #56 (2020-07-03) · [rulings](https://api.scryfall.com/cards/64832674-beb1-446e-b2f7-8a5e271139a5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-06-23* — If you control more than one creature with flying, Lofty Denial still requires only {4}.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m21/56/lofty-denial) · oracle_id `d799a2c4-628a-45da-b9ca-0337c46e3e14` · printing: M21 #56 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lofty Dreams
 
@@ -892,6 +944,7 @@
 - **Flavor text** (MSH printing):
   > *"Foolish heroes. Loki can match you trick for trick, and \*then\* some."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8343 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/65/loki-god-of-mischief) · oracle_id `c112852f-61d5-4b94-b864-c7d0b5333b29` · printing: MSH #65 (2026-06-26) · [rulings](https://api.scryfall.com/cards/236c437f-ee9d-4145-a4db-b665908089cf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Loki Laufeyson
@@ -928,6 +981,7 @@
 - **Flavor text** (MSC printing):
   > *"Nothing is safe from me. Not even your mind."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7449 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/56/lokis-scepter) · oracle_id `5f8941d8-f8f7-4ec3-86c3-88af8829080b` · printing: MSC #56 (2026-06-26) · [rulings](https://api.scryfall.com/cards/57e90938-9225-4c15-b4fb-aad2cced2e6a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Loki, the Deceiver
@@ -952,6 +1006,7 @@
   > −3: Create two 2/1 black Spider creature tokens with reach and menace.
   > −8: You get an emblem with "Whenever an opponent is dealt combat damage by one or more creatures you control, if that player lost less than 8 life this turn, they lose life equal to the difference."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4280 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/112/lolth-spider-queen) · oracle_id `7a8edf45-206e-4d0e-bd69-06f1ca70d17c` · printing: AFR #112 (2021-07-23) · [rulings](https://api.scryfall.com/cards/420a5689-d73e-4dda-82fd-8b8897ff5b55/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lona, Tracker of the Known
@@ -979,7 +1034,9 @@
   > *"Barely dodged a stampede yesterday. Took all night for the dust to settle."*
   > *—Pioneer journal of Big Ralph*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6761 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/260/lonely-arroyo) · oracle_id `36508a8a-d1a4-400e-bfda-09436bc4d5d4` · printing: OTJ #260 (2024-04-19) · [rulings](https://api.scryfall.com/cards/4b778b63-e5fc-4d63-a93b-4372f32cade2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-04-12* — Desert is a land subtype with no special meaning. It doesn’t grant the land an intrinsic mana ability. Other cards may care about which lands are Deserts.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/260/lonely-arroyo) · oracle_id `36508a8a-d1a4-400e-bfda-09436bc4d5d4` · printing: OTJ #260 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lonely Sandbar
 
@@ -991,6 +1048,7 @@
   > Cycling {U} ({U}, Discard this card: Draw a card.)
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1146 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/166/lonely-sandbar) · oracle_id `765863c8-1be0-4bb1-9e9c-db7701cffde3` · printing: EOC #166 (2025-08-01) · [rulings](https://api.scryfall.com/cards/42f8591e-df30-49ec-962c-a75d32e6d9f5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lone Missionary
@@ -1210,7 +1268,16 @@
   > {1}, Remove two charge counters from this artifact: Discover 4. Activate only as a sorcery. (Exile cards from the top of your library until you exile a nonland card with mana value 4 or less. Cast it without paying its mana cost or put it into your hand. Put the rest on the bottom in a random order.)
 - **Keywords:** Discover
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4995 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/11/long-range-sensor) · oracle_id `358297cd-4a9f-48e2-aaa5-131b0849f8dc` · printing: EOC #11 (2025-08-01) · [rulings](https://api.scryfall.com/cards/7bc56147-9920-401d-8e4e-93d497e8b67a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2025-07-25* — If the discovered card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2025-07-25* — If you can’t cast the discovered card (perhaps because there are no legal targets for the spell), you’ll put it into your hand.
+  - *2025-07-25* — If you cast a spell “without paying its mana cost,” you can’t choose to cast it for any alternative costs. You can, however, pay additional costs. If the spell has any mandatory additional costs, you must pay those to cast it.
+  - *2025-07-25* — If you discover an adventurer card, split card, or modal double-faced card, you might be able to cast that card with either set of characteristics depending on the effect’s discover value. For example, if you discover 4 and reveal Galvanic Giant (an adventurer card from Wilds of Eldraine with a mana value of 4), you could cast Galvanic Giant, but not Storm Reading (its Adventure, which has a mana value of 7). If you discover 7 and reveal Galvanic Giant, you could cast either Galvanic Giant or Storm Reading.
+  - *2025-07-25* — Long-Range Sensor’s first ability will trigger once for each player you attack.
+  - *2025-07-25* — The mana value of a split card is determined by the combined mana cost of its two halves. If discover allows you to cast a split card, you may cast either half (as long as its mana value is less than or equal to the effect’s discover value) but not both halves.
+  - *2025-07-25* — When you discover, you must exile cards. The only optional part of the ability is whether you cast the exiled card or put it into your hand.
+  - *2025-07-25* — You exile the cards face up. All players will be able to see them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/11/long-range-sensor) · oracle_id `358297cd-4a9f-48e2-aaa5-131b0849f8dc` · printing: EOC #11 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Long Rest
 
@@ -1234,7 +1301,11 @@
   > When this creature enters, target creature you control can't be blocked this turn. Whenever that creature deals combat damage this turn, you may exile it. If you do, return it to the battlefield under its owner's control.
 - **Keywords:** Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6442 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/57/long-river-lurker) · oracle_id `c65c4d01-29da-47e6-993c-a265cf1f198c` · printing: BLB #57 (2024-08-02) · [rulings](https://api.scryfall.com/cards/7c267719-cd03-4003-b281-e732d5e42a1e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-07-26* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
+  - *2024-07-26* — Once a ward ability of another Frog has triggered, causing it to lose ward by removing Long River Lurker or changing its creature types won't affect that ability. The appropriate player will still have to pay {1} or have their spell or ability countered.
+  - *2024-07-26* — Once the exiled permanent returns, it's considered a new object with no relation to the object that it was. Auras attached to the exiled permanent will be put into their owners' graveyards. Equipment attached to the exiled permanent will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/57/long-river-lurker) · oracle_id `c65c4d01-29da-47e6-993c-a265cf1f198c` · printing: BLB #57 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Long River's Pull
 
@@ -1245,7 +1316,16 @@
   > Counter target creature spell. If the gift was promised, instead counter target spell.
 - **Keywords:** Gift
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1479 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/58/long-rivers-pull) · oracle_id `f1993767-1d07-49c8-b8dc-04ec9840a999` · printing: BLB #58 (2024-08-02) · [rulings](https://api.scryfall.com/cards/1c81d0fa-81a1-4f9b-a5fd-5a648fd01dea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2024-07-26* — As an additional cost to cast a spell with gift, you can promise the listed gift to an opponent. That opponent is chosen as part of that additional cost. The gift isn't given at this time; rather, it's given at a later time based on whether or not the spell is a permanent spell.
+  - *2024-07-26* — For instants and sorceries with gift, the gift is given to the appropriate opponent as part of the resolution of the spell. This happens before any of the spell's other effects would take place.
+  - *2024-07-26* — For permanent spells with gift, an ability triggers when that permanent enters if the gift was promised. When that ability resolves, the gift is given to the appropriate opponent.
+  - *2024-07-26* — If a spell for which the gift was promised is countered, doesn't resolve (perhaps because all of its targets are illegal), or is otherwise removed from the stack, the gift won't be given. None of its other effects will happen either.
+  - *2024-07-26* — If you copy a spell for which the gift was promised, the gift was also promised to the same opponent for the copy. If a card or token enters as a copy of a permanent that's already on the battlefield, the gift isn't promised for that new permanent, even if it was promised for the original.
+  - *2024-07-26* — In the main set, there are four different kinds of gifts. "Gift a Food" causes the chosen opponent to create a Food token, while "Gift a Treasure" causes the chosen opponent to create a Treasure token. "Gift a card" causes them to draw a card, and "Gift a tapped Fish" causes them to create a tapped 1/1 blue Fish creature token. The Commander decks contain two more kinds of gifts: "Gift an Octopus," which causes the chosen opponent to create an 8/8 blue Octopus creature token, and "Gift an extra turn," which causes them to take an extra turn after the current turn ends.
+  - *2024-07-26* — Some instant or sorcery spells require alternative or additional targets if the gift was promised. You ignore these targeting requirements if the gifts aren't promised for those spells. On the other hand, you can promise a gift for a permanent spell even if you won't be able to choose targets for an enters ability of that permanent once the spell resolves.
+  - *2024-07-26* — You can't pay a gift cost more than once.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/58/long-rivers-pull) · oracle_id `f1993767-1d07-49c8-b8dc-04ec9840a999` · printing: BLB #58 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Long Road Home
 
@@ -1256,7 +1336,13 @@
 - **Flavor text** (JMP printing):
   > *The person who finishes a journey is rarely the same as the one who starts it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9714 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/120/long-road-home) · oracle_id `a8f53018-c496-41f3-bc3f-3c4703b9e4e1` · printing: JMP #120 (2020-07-17) · [rulings](https://api.scryfall.com/cards/504698a9-1512-4288-b5ef-392d41ebcd05/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2016-07-13* — At the time the creature is exiled, Auras attached to it will be put into their owners’ graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on it at that time will cease to exist.
+  - *2016-07-13* — If a creature token is exiled this way, it will cease to exist and won’t return to the battlefield.
+  - *2016-07-13* — If a double-faced card is exiled this way, it’ll return with its front face up. It gets a +1/+1 counter even if it isn’t a creature.
+  - *2016-07-13* — If a melded permanent is exiled this way, the two cards will both return with their front faces up. Each gets a +1/+1 counter.
+  - *2016-07-13* — If that creature is exiled during an end step, it won’t come back until the next turn’s end step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/120/long-road-home) · oracle_id `a8f53018-c496-41f3-bc3f-3c4703b9e4e1` · printing: JMP #120 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Longshot, Rebel Bowman
 
@@ -1271,7 +1357,9 @@
   > *He rarely used words, but then again, he rarely needed them.*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2828 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tle/120/longshot-rebel-bowman) · oracle_id `f93c3468-5b1d-4fa7-a281-1009ea0f2062` · printing: TLE #120 (2025-11-21) · [rulings](https://api.scryfall.com/cards/b36efbe2-3798-43e5-8640-f003c77440a1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-10-02* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tle/120/longshot-rebel-bowman) · oracle_id `f93c3468-5b1d-4fa7-a281-1009ea0f2062` · printing: TLE #120 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Longshot Squad
 
@@ -1294,7 +1382,17 @@
   > Choose target creature you control and target creature you don't control. Put a +1/+1 counter on the creature you control if the gift was promised. Then those creatures fight each other.
 - **Keywords:** Gift, Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9871 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/182/longstalk-brawl) · oracle_id `adc8976a-0871-4fd6-9c4c-822ba9549b4b` · printing: BLB #182 (2024-08-02) · [rulings](https://api.scryfall.com/cards/c7ef748c-b5e5-4e7d-bf2e-d3e6c08edb42/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2024-07-26* — As an additional cost to cast a spell with gift, you can promise the listed gift to an opponent. That opponent is chosen as part of that additional cost. The gift isn’t given at this time; rather, it’s given at a later time based on whether or not the spell is a permanent spell.
+  - *2024-07-26* — For instants and sorceries with gift, the gift is given to the appropriate opponent as part of the resolution of the spell. This happens before any of the spell’s other effects would take place.
+  - *2024-07-26* — For permanent spells with gift, an ability triggers when that permanent enters if the gift was promised. When that ability resolves, the gift is given to the appropriate opponent.
+  - *2024-07-26* — If a spell for which the gift was promised is countered, doesn’t resolve (perhaps because all of its targets are illegal), or is otherwise removed from the stack, the gift won’t be given. None of its other effects will happen either.
+  - *2024-07-26* — If the creature you control is an illegal target as Longstalk Brawl tries to resolve, you won’t put a +1/+1 counter on it even if the gift was promised. If that creature is a legal target but the creature you don’t control isn’t, you’ll still put a +1/+1 counter on the creature you control if the gift was promised.
+  - *2024-07-26* — If you copy a spell for which the gift was promised, the gift was also promised to the same opponent for the copy. If a card or token enters as a copy of a permanent that’s already on the battlefield, the gift isn’t promised for that new permanent, even if it was promised for the original.
+  - *2024-07-26* — In the main set, there are four different kinds of gifts. “Gift a Food” causes the chosen opponent to create a Food token, while “Gift a Treasure” causes the chosen opponent to create a Treasure token. “Gift a card” causes them to draw a card, and “Gift a tapped Fish” causes them to create a tapped 1/1 blue Fish creature token. The Commander decks contain two more kinds of gifts: “Gift an Octopus,” which causes the chosen opponent to create an 8/8 blue Octopus creature token, and “Gift an extra turn,” which causes them to take an extra turn after the current turn ends.
+  - *2024-07-26* — Some instant or sorcery spells require alternative or additional targets if the gift was promised. You ignore these targeting requirements if the gifts aren’t promised for those spells. On the other hand, you can promise a gift for a permanent spell even if you won’t be able to choose targets for an enters ability of that permanent once the spell resolves.
+  - *2024-07-26* — You can’t pay a gift cost more than once.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/182/longstalk-brawl) · oracle_id `adc8976a-0871-4fd6-9c4c-822ba9549b4b` · printing: BLB #182 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Long-Term Phyresis Study
 
@@ -1315,7 +1413,9 @@
 - **Flavor text** (SCG printing):
   > *"Wait, it'll come to me in a minute."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4999 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/scg/38/long-term-plans) · oracle_id `d1dfb359-d8f9-491e-88f7-95193b220200` · printing: SCG #38 (2003-05-26) · [rulings](https://api.scryfall.com/cards/7e0422d9-9694-45b6-9c2b-2ca31198cebf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — If there are fewer than 3 cards in your library, put the card on the bottom of your library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/scg/38/long-term-plans) · oracle_id `d1dfb359-d8f9-491e-88f7-95193b220200` · printing: SCG #38 (2003-05-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Longtusk Cub
 
@@ -1340,7 +1440,11 @@
   > {T}, Sacrifice X Clues: Target opponent reveals the top X cards of their library. You may put a nonland permanent card with mana value X or less from among them onto the battlefield under your control. That player puts the rest on the bottom of their library in a random order.
 - **Keywords:** Investigate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5266 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/215/lonis-cryptozoologist) · oracle_id `0ee06ed0-717a-4bfa-b634-d00e013c1f16` · printing: MKC #215 (2024-02-09) · [rulings](https://api.scryfall.com/cards/e786423d-3a49-4318-ac77-791918bcafcb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-06-18* — The token is named Clue Token and has the artifact subtype Clue. Clue isn't a creature type.
+  - *2021-06-18* — The tokens are normal artifacts. For example, one can be sacrificed to activate the ability of Breya's Apprentice and one can be the target of Break Ties.
+  - *2021-06-18* — You can't sacrifice a Clue to activate its own ability and also to activate the ability of Lonis, Cryptozoologist.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/215/lonis-cryptozoologist) · oracle_id `0ee06ed0-717a-4bfa-b634-d00e013c1f16` · printing: MKC #215 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lonis, Genetics Expert
 
@@ -1490,7 +1594,12 @@
   > *Unable to touch items of value, he goes forth to steal secrets instead.*
 - **Keywords:** Shadow
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5319 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/102/looter-il-kor) · oracle_id `c87e3b1d-2d24-4f1c-84e8-1c21a347cdc2` · printing: CMM #102 (2023-08-04) · [rulings](https://api.scryfall.com/cards/7083c77c-166f-4c6f-a2ca-dd1b877ff5f7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-03-19* — If an attacking creature has multiple evasion abilities, such as shadow and flying, a creature can block it only if that creature satisfies all of the appropriate evasion abilities.
+  - *2021-03-19* — Multiple instances of shadow on the same creature are redundant.
+  - *2021-03-19* — Once a creature has been blocked, that creature remains blocked and will deal and be dealt combat damage even if it gains or loses shadow or if the blocking creature gains or loses shadow.
+  - *2021-03-19* — You draw a card and discard a card all while Looter il-Kor's ability is resolving. Nothing can happen in between, and no player can take actions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/102/looter-il-kor) · oracle_id `c87e3b1d-2d24-4f1c-84e8-1c21a347cdc2` · printing: CMM #102 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Loot, Exuberant Explorer
 
@@ -1501,7 +1610,10 @@
   > You may play an additional land on each of your turns.
   > {4}{G}{G}, {T}: Look at the top six cards of your library. You may reveal a creature card with mana value less than or equal to the number of lands you control from among them and put it onto the battlefield. Put the rest on the bottom in a random order.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #871 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/106/loot-exuberant-explorer) · oracle_id `f6476884-f73f-465f-8e7f-ea312a5b306d` · printing: FDN #106 (2024-11-15) · [rulings](https://api.scryfall.com/cards/09980ce6-425b-4e03-94d0-0f02043cb361/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-11-08* — If a creature card in your library has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
+  - *2024-11-08* — The effect of Loot's first ability is cumulative with similar effects. For example, if you control both Loot and Exploration (an enchantment with "You may play an additional land on each of your turns"), you'll be able to play three lands during each of your turns.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/106/loot-exuberant-explorer) · oracle_id `f6476884-f73f-465f-8e7f-ea312a5b306d` · printing: FDN #106 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Loot, the Anomaly
 
@@ -1608,6 +1720,7 @@
   > *As Terisia City burned, Feldon pressed the sylex into Loran's hands and urged her to run. Hope ran with her.*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1884 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/14/lorans-escape) · oracle_id `1a9048d6-f3fa-4f3b-9baa-35318177bc6e` · printing: BRO #14 (2022-11-18) · [rulings](https://api.scryfall.com/cards/3765610d-a0c1-4de9-a81b-ffa3eb06454b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lorcan, Warlock Collector
@@ -1683,6 +1796,7 @@
 - **Flavor text** (TSB printing):
   > *A master of tactics, the Lord of Atlantis makes his people bold in battle merely by arriving to lead them.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4998 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsb/24/lord-of-atlantis) · oracle_id `cc7f290f-ca00-4285-9bdb-4b4402444f30` · printing: TSB #24 (2006-10-06) · [rulings](https://api.scryfall.com/cards/a9407b60-8921-4531-bdbe-9a82aaa38d28/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lord of Change
@@ -1697,6 +1811,7 @@
   > *The Lords of Change are Tzeentch's greatest servants. The most powerful of them wield fragments of his power over destiny.*
 - **Keywords:** Flying, Ward, Architect of Deception
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6122 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/24/lord-of-change) · oracle_id `b575fb16-c3c3-4cad-857f-122257a4b32f` · printing: 40K #24 (2022-10-07) · [rulings](https://api.scryfall.com/cards/f9099d82-c13a-480d-b4bc-ecf8b810427c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lord of Extinction
@@ -1709,7 +1824,10 @@
 - **Flavor text** (TDC printing):
   > *The forlorn cries of the dead combine to make its laugh.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3721 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/295/lord-of-extinction) · oracle_id `ea5e3401-bd6c-47bb-a52a-8eec5f09455d` · printing: TDC #295 (2025-04-11) · [rulings](https://api.scryfall.com/cards/4aaf4d64-b5ef-44ae-b25a-7a5ea8f72170/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-12-07* — If an instant or sorcery spell deals damage to Lord of Extinction or lowers its toughness, that spell is put into its owner's graveyard before state-based actions are performed. That card will raise Lord of Extinction's toughness before the game checks to see if it dies.
+  - *2018-12-07* — The ability that defines Lord of Extinction's power and toughness works in all zones, not just the battlefield. If Lord of Extinction is in your graveyard, it will count itself.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/295/lord-of-extinction) · oracle_id `ea5e3401-bd6c-47bb-a52a-8eec5f09455d` · printing: TDC #295 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lord of Shatterskull Pass
 
@@ -1738,6 +1856,7 @@
 - **Flavor text** (MIC printing):
   > *The Curse of Wandering leaves only hatred.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1953 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mic/124/lord-of-the-accursed) · oracle_id `3f372107-6c52-4f1f-8bf0-7b3fa21b2cae` · printing: MIC #124 (2021-09-24) · [rulings](https://api.scryfall.com/cards/20bfecb3-2dc8-4549-9297-413131de8fdc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lord of the Forsaken
@@ -1751,6 +1870,7 @@
   > Pay 1 life: Add {C}. Spend this mana only to cast a spell from your graveyard.
 - **Keywords:** Flying, Trample, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9527 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/186/lord-of-the-forsaken) · oracle_id `3a25d1e2-63d8-4a93-b0ce-f9307736b3f9` · printing: TDC #186 (2025-04-11) · [rulings](https://api.scryfall.com/cards/0f87514c-cb45-443c-8768-891e2213950e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lord of the Nazgûl
@@ -1764,6 +1884,7 @@
   > Whenever you cast an instant or sorcery spell, create a 3/3 black Wraith creature token with menace. Then if you control nine or more Wraiths, Wraiths you control have base power and toughness 9/9 until end of turn.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3567 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/60/lord-of-the-nazg%C3%BBl) · oracle_id `2e94bfb2-9f7d-43af-8995-6cd5ffb15b21` · printing: LTC #60 (2023-06-23) · [rulings](https://api.scryfall.com/cards/41e3d118-8f97-4c68-acff-2f90a055af5b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lord of the Pit
@@ -1791,7 +1912,9 @@
 - **Flavor text** (10E printing):
   > *"Do not weep at your defeat, my dear. In death, you will serve a greater purpose—mine."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3443 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/10e/155/lord-of-the-undead) · oracle_id `7714af0e-41d9-4609-967f-27233b46055f` · printing: 10E #155 (2007-07-13) · [rulings](https://api.scryfall.com/cards/792e773b-5feb-407f-a162-f35d6e693cca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2005-08-01* — Lord of the Undead now has the Zombie creature type and its first ability has been reworded to affect *other* Zombies. This means that if two Lord of the Undead are on the battlefield, each gives the other a bonus.
+- **Source flags:** [Scryfall](https://scryfall.com/card/10e/155/lord-of-the-undead) · oracle_id `7714af0e-41d9-4609-967f-27233b46055f` · printing: 10E #155 (2007-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lord of the Unreal
 
@@ -1803,6 +1926,7 @@
 - **Flavor text** (M12 printing):
   > *"The dream does not end until I say so."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8662 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m12/62/lord-of-the-unreal) · oracle_id `cc60181a-5eeb-4d66-9876-3194bac1e7a7` · printing: M12 #62 (2011-07-15) · [rulings](https://api.scryfall.com/cards/b09140f6-fa75-4bee-9ca0-3a71cd2b5a7b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lord of the Void
@@ -1815,7 +1939,9 @@
   > Whenever this creature deals combat damage to a player, exile the top seven cards of that player's library, then put a creature card from among them onto the battlefield under your control.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3417 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/81/lord-of-the-void) · oracle_id `626b85f8-8889-46e6-9659-460bac79ae9b` · printing: RVR #81 (2024-01-12) · [rulings](https://api.scryfall.com/cards/2e014649-0d96-4bc9-8446-e57df50a2a4c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-01-24* — Lord of the Void’s ability isn’t optional. If there is a creature card among the seven cards you exiled, you must put one onto the battlefield under your control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/81/lord-of-the-void) · oracle_id `626b85f8-8889-46e6-9659-460bac79ae9b` · printing: RVR #81 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lord of Tresserhorn
 
@@ -1838,7 +1964,16 @@
   > At the beginning of your draw step, if you control an enchanted creature, you lose 1 life and you draw an additional card.
 - **Keywords:** Role token
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6330 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/98/lord-skitters-blessing) · oracle_id `d5bd40fc-6138-4752-b3ff-b1e5fa269214` · printing: WOE #98 (2023-09-08) · [rulings](https://api.scryfall.com/cards/84f343a9-883f-4532-ae66-be6470d67d38/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2023-09-01* — A permanent can have multiple Roles attached to it if each one is controlled by a different player.
+  - *2023-09-01* — Cards in the Wilds of Eldraine main set create six different Role tokens: Cursed, Monster, Royal, Sorcerer, Wicked, and Young Hero. A seventh Role token, Virtuous, is created by Ellivere of the Wild Court, the commander of the "Virtue and Valor" Commander Deck.
+  - *2023-09-01* — Hexproof and shroud won't prevent a Role from becoming attached to a permanent if the ability creating that Role attached to that permanent doesn't target it.
+  - *2023-09-01* — If a permanent has more than one Role attached to it controlled by the same player, each of those Roles except the one with the most recent timestamp is put into its owner's graveyard. This is a state-based action.
+  - *2023-09-01* — If two or more Roles controlled by the same player become attached to a permanent at the same time (perhaps due to an effect such as that of Doubling Season), that player chooses which one to keep and which are put into their owners' graveyards.
+  - *2023-09-01* — In rare cases, a spell or ability might attempt to create a Role token enchanting a permanent that it can't legally enchant (because of an ability like protection from enchantments). In such cases, the Role token isn't created.
+  - *2023-09-01* — Roles are colorless enchantment tokens. Each one has the Aura and Role subtypes and the enchant creature ability.
+  - *2023-09-01* — Some spells and abilities that create Role tokens require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Role token won't be created.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/98/lord-skitters-blessing) · oracle_id `d5bd40fc-6138-4752-b3ff-b1e5fa269214` · printing: WOE #98 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lord Skitter's Butcher
 
@@ -1852,6 +1987,7 @@
   > • Creatures you control gain menace until end of turn.
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5480 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/99/lord-skitters-butcher) · oracle_id `467f756f-75db-4748-99d3-62651776adfe` · printing: WOE #99 (2023-09-08) · [rulings](https://api.scryfall.com/cards/21b31d2b-ef66-4e16-a75e-4e27eb5ebfe9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lord Skitter, Sewer King
@@ -1863,6 +1999,7 @@
   > Whenever another Rat you control enters, exile up to one target card from an opponent's graveyard.
   > At the beginning of combat on your turn, create a 1/1 black Rat creature token with "This token can't block."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2389 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/97/lord-skitter-sewer-king) · oracle_id `f5bed085-bb7a-4250-9599-b2a8a95e6b6f` · printing: WOE #97 (2023-09-08) · [rulings](https://api.scryfall.com/cards/729877be-4894-4ef5-9e60-de8a8fb2bdc0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lord Windgrace
@@ -1876,7 +2013,10 @@
   > −11: Destroy up to six target nonland permanents, then create six 2/2 green Cat Warrior creature tokens with forestwalk.
   > Lord Windgrace can be your commander.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6194 · Game Changer: no · Can be commander: Yes (Oracle text: "can be your commander")
-- **Source flags:** [Scryfall](https://scryfall.com/card/c18/43/lord-windgrace) · oracle_id `38a55562-1e2d-4240-9454-219a4a25d38d` · printing: C18 #43 (2018-08-10) · [rulings](https://api.scryfall.com/cards/213d6fb8-5624-4804-b263-51f339482754/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-07-13* — If you have no cards in hand as Lord Windgrace's first ability resolves, you'll discard nothing then you'll draw one card.
+  - *2018-07-13* — While resolving Lord Windgrace's last ability, you create six Cat Warrior tokens even if fewer than six nonland permanents are destroyed. However, if you choose any targets for the ability and each of them becomes an illegal target, the ability doesn't resolve and you don't create any tokens.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c18/43/lord-windgrace) · oracle_id `38a55562-1e2d-4240-9454-219a4a25d38d` · printing: C18 #43 (2018-08-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lord Xander, the Collector
 
@@ -1889,6 +2029,7 @@
   > When Lord Xander dies, target opponent sacrifices half the nonland permanents they control of their choice, rounded down.
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7657 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/197/lord-xander-the-collector) · oracle_id `d17bfa94-5046-46ae-80af-be5d1d35af13` · printing: SNC #197 (2022-04-29) · [rulings](https://api.scryfall.com/cards/ee0a078d-045f-401b-a561-dcb1ad02bf62/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lore Broker
@@ -1953,6 +2094,7 @@
   > *Mage-students obsessed with the secrets of the past choose Lorehold, the college of archaeomancy.*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7344 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/384/lorehold-campus) · oracle_id `45773715-3f46-4671-b633-bf087e892e26` · printing: SOC #384 (2026-04-24) · [rulings](https://api.scryfall.com/cards/b6ad08da-c9e8-4061-a4a6-032d6957a403/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lorehold Charm
@@ -1965,7 +2107,9 @@
   > • Return target artifact or creature card with mana value 2 or less from your graveyard to the battlefield.
   > • Creatures you control get +1/+1 and gain trample until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6336 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/200/lorehold-charm) · oracle_id `a5729f11-6cde-4830-b882-ab4c5251c1a9` · printing: SOS #200 (2026-04-24) · [rulings](https://api.scryfall.com/cards/5fe70295-e550-4577-a341-dab6c25aabfd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-03-20* — If a card in a graveyard has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/200/lorehold-charm) · oracle_id `a5729f11-6cde-4830-b882-ab4c5251c1a9` · printing: SOS #200 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lorehold Command
 
@@ -2016,7 +2160,19 @@
   > At the beginning of each opponent's upkeep, you may discard a card. If you do, draw a card.
 - **Keywords:** Flying, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7457 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/201/lorehold-the-historian) · oracle_id `61a41cf1-60cc-45ba-aa98-493c14e87d9d` · printing: SOS #201 (2026-04-24) · [rulings](https://api.scryfall.com/cards/71a6701f-40f1-43ef-bff5-a5907fd67cd6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2026-03-20* — If an effect puts a card into your hand without using the word "draw," the card wasn't drawn.
+  - *2026-03-20* — If the card with miracle leaves your hand before the triggered ability resolves, you won't be able to cast it using its miracle ability.
+  - *2026-03-20* — It's important to reveal a card with miracle before it is mixed with the other cards in your hand.
+  - *2026-03-20* — Miracle is an alternative cost to cast the spell with miracle. It can't be combined with other alternative costs, such as casting a spell "without paying its mana cost." You may, however, pay additional costs, such as kicker. If the spell has any mandatory additional costs, those must be paid to cast the spell.
+  - *2026-03-20* — Multiple card draws are always treated as a sequence of individual card draws. For example, if you haven't drawn any cards yet during a turn and cast a spell that instructs you to draw three cards, you'll draw them one at a time. Only the first card drawn this way may be revealed and cast using its miracle ability.
+  - *2026-03-20* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a miracle cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+  - *2026-03-20* — You can cast a card for its miracle cost only as the miracle triggered ability resolves. If you don't want to cast it at that time (or you can't cast it, perhaps because there are no legal targets available), you won't be able to cast it later for the miracle cost.
+  - *2026-03-20* — You can reveal and cast a card with miracle on any turn, not just your own, if it's the first card you've drawn that turn.
+  - *2026-03-20* — You cast the card with miracle during the resolution of the triggered ability. Ignore any timing rules based on the card's type.
+  - *2026-03-20* — You don't have to reveal a drawn card with miracle if you don't wish to cast it at that time.
+  - *2026-03-20* — You still draw the card whether you use the miracle ability or not. Any ability that triggers whenever you draw a card, for example, will trigger. If you don't cast the card using its miracle ability, it will remain in your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/201/lorehold-the-historian) · oracle_id `61a41cf1-60cc-45ba-aa98-493c14e87d9d` · printing: SOS #201 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lorescale Coatl
 
@@ -2078,7 +2234,10 @@
   > *—Haldir*
 - **Keywords:** Islandcycling, Landcycling, Typecycling, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1222 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hoc/179/l%C3%B3rien-revealed) · oracle_id `66f28905-c7fc-4ada-8fa0-199626d9bedb` · printing: HOC #179 (2026-08-14) · [rulings](https://api.scryfall.com/cards/209204c7-aae5-4768-91b8-89c8c4d4a97f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-06-16* — Typecycling is a form of cycling. Any ability that triggers on a card being cycled also triggers on a card being typecycled. Any ability that stops a cycling ability from being activated also stops a typecycling ability from being activated.
+  - *2023-06-16* — Unlike the normal cycling ability, typecycling doesn't allow you to draw a card. Rather, it lets you search your library for a card with the type or types indicated by the ability name. For example, a card with basic landcycling lets you search for a basic land card, and a card with Wizardcycling lets you search for a Wizard card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hoc/179/l%C3%B3rien-revealed) · oracle_id `66f28905-c7fc-4ada-8fa0-199626d9bedb` · printing: HOC #179 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lorthos, Tentacled Terror
 
@@ -2103,7 +2262,11 @@
 - **Flavor text** (CMM printing):
   > *When Lorthos emerges from his deepwater realm, the tides bow to his will and the coastline cowers in his presence.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7725 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/103/lorthos-the-tidemaker) · oracle_id `d9fd4ff3-5ada-40f4-b949-6fe65624a0c4` · printing: CMM #103 (2023-08-04) · [rulings](https://api.scryfall.com/cards/5f7a64cf-3c7a-4dfc-ae44-8413def80ce2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2009-10-01* — If a targeted permanent is untapped at the time its controller's next untap step begins, this ability has no effect on it. It won't apply at some later time when the targeted permanent is tapped.
+  - *2009-10-01* — If an affected permanent changes controllers before its old controller's next untap step, this ability will prevent it from being untapped during its new controller's next untap step.
+  - *2009-10-01* — You may target any eight (or fewer) permanents. It's okay if any of them are already tapped, and it's okay if any of them are controlled by someone other than the defending player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/103/lorthos-the-tidemaker) · oracle_id `d9fd4ff3-5ada-40f4-b949-6fe65624a0c4` · printing: CMM #103 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Los Diablos Missile Base
 
@@ -2162,6 +2325,7 @@
   > Prevent all combat damage that would be dealt to attacking artifact creatures you control.
   > Whenever one or more artifact creatures you control enter, draw a card. This ability triggers only once each turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1601 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/38/losheel-clockwork-scholar) · oracle_id `f8c2a972-e38f-47e5-a355-6f30ad09b1ae` · printing: CMM #38 (2023-08-04) · [rulings](https://api.scryfall.com/cards/ee6b54de-8e79-4f60-b642-3d259bf74ea0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lossarnach Captain
@@ -2175,6 +2339,7 @@
   > At the beginning of your upkeep, create a 1/1 white Human Soldier creature token.
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3826 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/16/lossarnach-captain) · oracle_id `1251691e-3c4c-4e45-9f59-f156852f2268` · printing: LTC #16 (2023-06-23) · [rulings](https://api.scryfall.com/cards/08b78cd2-7c52-4dcd-b063-1ac5e96420d4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lost Auramancers
@@ -2258,6 +2423,7 @@
   > Tapped creatures you control have hexproof.
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6440 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/64/lost-in-the-maze) · oracle_id `3a024389-91a1-460c-b4e8-3f212d2b8400` · printing: MKM #64 (2024-02-09) · [rulings](https://api.scryfall.com/cards/6308dc62-d945-4761-aa4c-ef8e9271e901/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lost in the Mist
@@ -2312,6 +2478,7 @@
 - **Flavor text** (LTR printing):
   > *"To the Sea, to the Sea!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9327 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/61/lost-isle-calling) · oracle_id `0efbf29c-09a0-4472-83ad-8d692c0232a5` · printing: LTR #61 (2023-06-23) · [rulings](https://api.scryfall.com/cards/7b744230-8127-4d4f-9d40-75e7c2aab77c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lost Jitte
@@ -2327,7 +2494,10 @@
   > Equip {1}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4534 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/big/23/lost-jitte) · oracle_id `a9d72f78-2ab5-4e2e-ab7b-ef875e0a0609` · printing: BIG #23 (2024-04-19) · [rulings](https://api.scryfall.com/cards/c936504c-4e90-408f-ba98-0fb8c0378471/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-04-12* — Choosing a creature that’s already been declared as a blocker as the target of the second mode of the activated ability won’t cause that creature to stop blocking.
+  - *2024-04-12* — You may target a land that is already untapped with the first mode of Lost Jitte’s activated ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/big/23/lost-jitte) · oracle_id `a9d72f78-2ab5-4e2e-ab7b-ef875e0a0609` · printing: BIG #23 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lost Legacy
 
@@ -2394,6 +2564,7 @@
   > At the beginning of your second main phase, if a player was dealt combat damage by a Zombie this turn, mill three cards, then you may return a creature card from your graveyard to your hand.
 - **Keywords:** Afflict, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3080 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/drc/11/lost-monarch-of-ifnir) · oracle_id `626a979f-bed7-4cb1-9ab7-c3f2bbe37781` · printing: DRC #11 (2025-02-14) · [rulings](https://api.scryfall.com/cards/cae37ab0-9d60-45e9-98cb-e7427e508bc5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lost Order of Jarkeld
@@ -2445,6 +2616,7 @@
   > Equip {5}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9320 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/77/lothl%C3%B3rien-blade) · oracle_id `a2a39123-8b70-4678-8675-ba79f37a5db8` · printing: LTC #77 (2023-06-23) · [rulings](https://api.scryfall.com/cards/3f7f1d3b-d6bb-4ddb-81d8-12f7aaaec49e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lothlórien Lookout
@@ -2515,7 +2687,23 @@
   > {T}, Sacrifice this artifact: Add three mana of any one color.
 - **Keywords:** Suspend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4049 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/270/lotus-bloom) · oracle_id `04cf02dc-f053-414e-87d8-1537f25bcbf4` · printing: TSR #270 (2021-03-19) · [rulings](https://api.scryfall.com/cards/db89ae4d-1cc2-41d8-a4de-a54b958c4429/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2024-02-02* — A card with no mana cost can't be cast normally; you'll need a way to cast it for an alternative cost or without paying its mana cost, such as by suspending it.
+  - *2024-02-02* — Cards exiled with suspend are exiled face up.
+  - *2024-02-02* — Due to a recent rules change to suspend, you are no longer required to cast the suspended card as the second triggered ability of suspend resolves. Instead, as the second triggered ability resolves, you may cast the card. Timing permissions based on the card's type are ignored. If you don't cast the card, it remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to.
+  - *2024-02-02* — If a card with no mana cost is given an alternative cost equal to its mana cost (by Snapcaster Mage, for example), that cost cannot be paid and the card cannot be cast this way.
+  - *2024-02-02* — If an effect refers to a "suspended card," that means a card that (1) has suspend, (2) is in exile, and (3) has one or more time counters on it.
+  - *2024-02-02* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-02-02* — If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again at the beginning of the card's owner's next upkeep.
+  - *2024-02-02* — If the second triggered ability is countered, the card can't be cast. It remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it's exiled.
+  - *2024-02-02* — If you cast a card "without paying its mana cost," such as with suspend, you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those if you want to cast the card.
+  - *2024-02-02* — Suspend is a keyword that represents three abilities. The first is a static ability that allows you to exile the card from your hand with the specified number of time counters (the number before the dash) on it by paying its suspend cost (listed after the dash). The second is a triggered ability that removes a time counter from the suspended card at the beginning of each of your upkeeps. The third is a triggered ability that gives you the option to cast the card when the last time counter is removed.
+  - *2024-02-02* — The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.
+  - *2024-02-02* — When the last time counter is removed, the second triggered ability of suspend (the one that lets you cast the card) triggers. It doesn't matter why the last time counter was removed or what effect removed it.
+  - *2024-02-02* — You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effects that modify when you could cast it (such as flash) and any other effects that stop you from casting it (such as from Meddling Mage's ability) to determine if and when you can do this. Whether you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or that requires a target even if no legal targets are available at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/270/lotus-bloom) · oracle_id `04cf02dc-f053-414e-87d8-1537f25bcbf4` · printing: TSR #270 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lotus Blossom
 
@@ -2574,7 +2762,9 @@
   > {T}: Add three mana of any one color.
 - **Keywords:** Hexproof
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #864 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/385/lotus-field) · oracle_id `134d5b82-7940-4b33-a922-7f9d1f403e50` · printing: SOC #385 (2026-04-24) · [rulings](https://api.scryfall.com/cards/ee5ac47c-e8b6-400e-b91e-a7cd0f952cf1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-07-12* — If Lotus Field enters the battlefield while you control fewer than two other lands, you must sacrifice each land you control, including Lotus Field.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/385/lotus-field) · oracle_id `134d5b82-7940-4b33-a922-7f9d1f403e50` · printing: SOC #385 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lotusguard Disciple
 
@@ -2617,7 +2807,10 @@
   > *They've attained a level of synchronicity beyond what's possible in a single lifetime.*
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8730 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/204/lotuslight-dancers) · oracle_id `83c8f1ca-194e-4cb6-9d5f-029133c1edbc` · printing: TDM #204 (2025-04-11) · [rulings](https://api.scryfall.com/cards/82aa2593-4a79-46f1-a2bd-b71fb504d0ab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-04-04* — You can find multicolored cards with Lotuslight Dancers’s last ability. For example, the black card you find could be any number of colors as long as black is one of them. Whatever colors it is won’t impact what other cards you can find. For example, you may find a card that’s black, green, and blue as the black card and still find a green card and a blue card.
+  - *2025-04-04* — You don’t have to find all three cards. You can find two, one, or (if you really want) none.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/204/lotuslight-dancers) · oracle_id `83c8f1ca-194e-4cb6-9d5f-029133c1edbc` · printing: TDM #204 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lotus Path Djinn
 
@@ -2667,7 +2860,9 @@
 - **Flavor text** (WTH printing):
   > *At what price beauty?*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6846 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/wth/165/lotus-vale) · oracle_id `01fc5bb3-ebd7-4ab4-8aef-2ece1e1d9b7c` · printing: WTH #165 (1997-06-09) · [rulings](https://api.scryfall.com/cards/2e5cd12a-2a07-44a8-8eac-de00d26fe9e3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-04-01* — If you don't sacrifice the lands, Lotus Vale never enters — it goes directly to your graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/wth/165/lotus-vale) · oracle_id `01fc5bb3-ebd7-4ab4-8aef-2ece1e1d9b7c` · printing: WTH #165 (1997-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Louisoix's Sacrifice
 
@@ -2680,7 +2875,10 @@
   > *"Thank you... for everything... Pray take your rest, Grandfather... You deserve it."*
   > *—Alisaie Leveilleur*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6026 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/59/louisoixs-sacrifice) · oracle_id `42d8ab49-703a-4fd3-84d0-0a3ac1eafca8` · printing: FIN #59 (2025-06-13) · [rulings](https://api.scryfall.com/cards/4a6976f2-0bd5-449a-8fcf-f5a732ce22c1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-06-06* — Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keyword abilities (such as equip) are activated abilities and will have a colon in their reminder text.
+  - *2025-06-06* — Triggered abilities use the word "when," "whenever," or "at." They're often written as "[Trigger condition], [effect]." Some keywords (such as prowess) are triggered abilities and will use "when," "whenever," or "at" in their reminder text.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/59/louisoixs-sacrifice) · oracle_id `42d8ab49-703a-4fd3-84d0-0a3ac1eafca8` · printing: FIN #59 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lounge
 
@@ -2728,7 +2926,10 @@
   > III — Put a +1/+1 counter on each of up to two target creatures.
 - **Keywords:** Read Ahead
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7893 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/827/love-song-of-night-and-day) · oracle_id `9b87b4cd-4fb9-4bb3-b4c0-de1fcc6f44a2` · printing: CMM #827 (2023-08-04) · [rulings](https://api.scryfall.com/cards/1096cb83-a192-406a-9b95-d7cbb1a0df84/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-09-09* — As a Saga with read ahead enters the battlefield, its controller chooses a number from one to that Saga’s greatest chapter number. The Saga enters the battlefield with the chosen number of lore counters. Neither choosing the number nor putting the counters on the Saga use the stack, and neither can be responded to.
+  - *2022-09-09* — If Love Song of Night and Day’s first chapter ability can’t legally target an opponent, or if the ability’s target becomes illegal while the ability is on the stack, you don’t draw any cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/827/love-song-of-night-and-day) · oracle_id `9b87b4cd-4fb9-4bb3-b4c0-de1fcc6f44a2` · printing: CMM #827 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lovestruck Beast // Heart's Desire
 
@@ -3043,6 +3244,7 @@
   > *—Melira*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #987 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/249/loxodon-warhammer) · oracle_id `dba35ac5-7ad3-488a-a006-6b9a1d54eea5` · printing: C21 #249 (2021-04-23) · [rulings](https://api.scryfall.com/cards/13eeff85-9e4a-46c9-841f-f3b1c556ef18/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Loxodon Wayfarer
@@ -3108,7 +3310,11 @@
   > *—Aeschel, royal diplomat*
 - **Keywords:** Flying, Lieutenant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5293 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/104/loyal-drake) · oracle_id `daebf011-ec85-4cbd-9445-02ac59675c58` · printing: CMM #104 (2023-08-04) · [rulings](https://api.scryfall.com/cards/d827bb89-4e28-4b77-94c0-10f79ec9099a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-07-13* — If you don’t control your commander as the lieutenant ability resolves, you won’t get its effect.
+  - *2018-07-13* — If you have multiple commanders, you need to control only one for the lieutenant effect to happen.
+  - *2018-07-13* — The lieutenant effect happens only once each combat, even if you somehow control multiple commanders (perhaps because you have two commanders with a partner ability from the Battlebond™ set).
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/104/loyal-drake) · oracle_id `daebf011-ec85-4cbd-9445-02ac59675c58` · printing: CMM #104 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Loyal Fire Sage
 
@@ -3152,7 +3358,11 @@
   > *—T'Challa, the Black Panther*
 - **Keywords:** Trample, Lieutenant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3096 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/176/loyal-guardian) · oracle_id `de1cfa83-2049-48ab-b093-2f120a3ef4f2` · printing: MSC #176 (2026-06-26) · [rulings](https://api.scryfall.com/cards/6d81eda0-2520-4531-815a-8dea27306776/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-07-13* — If you don't control your commander as the lieutenant ability resolves, you won't get its effect.
+  - *2018-07-13* — If you have multiple commanders, you need to control only one for the lieutenant effect to happen.
+  - *2018-07-13* — The lieutenant effect happens only once each combat, even if you somehow control multiple commanders (perhaps because you have two commanders with a partner ability from the Battlebond™ set).
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/176/loyal-guardian) · oracle_id `de1cfa83-2049-48ab-b093-2f120a3ef4f2` · printing: MSC #176 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Loyal Gyrfalcon
 
@@ -3178,6 +3388,7 @@
   > When this creature enters, you may search your library for an artifact card, reveal it, then shuffle. Put that card into your hand if you control an Assassin. Otherwise, put that card on top of your library.
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5462 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/acr/21/loyal-inventor) · oracle_id `eff22b28-88b8-4251-937f-4c06b6ca7bd2` · printing: ACR #21 (2024-07-05) · [rulings](https://api.scryfall.com/cards/be1e598a-840c-4166-88a6-92a8b9958536/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Loyal Pegasus
@@ -3231,7 +3442,11 @@
   > *Zombies work best when they're fed appropriately, so it's prudent to let them eat on the job.*
 - **Keywords:** Menace, Lieutenant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4940 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/172/loyal-subordinate) · oracle_id `76f405a1-242a-47e6-9aa6-261e49a85b45` · printing: CMM #172 (2023-08-04) · [rulings](https://api.scryfall.com/cards/1949469a-faa5-4bff-8b0f-0a1bc7ca87da/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-07-13* — If you don’t control your commander as the lieutenant ability resolves, you won’t get its effect.
+  - *2018-07-13* — If you have multiple commanders, you need to control only one for the lieutenant effect to happen.
+  - *2018-07-13* — The lieutenant effect happens only once each combat, even if you somehow control multiple commanders (perhaps because you have two commanders with a partner ability from the Battlebond™ set).
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/172/loyal-subordinate) · oracle_id `76f405a1-242a-47e6-9aa6-261e49a85b45` · printing: CMM #172 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Loyal Tutor
 
@@ -3254,7 +3469,13 @@
   > Lieutenant — At the beginning of combat on your turn, if you control your commander, prevent all combat damage that would be dealt to creatures you control this turn. Other creatures you control gain vigilance until end of turn.
 - **Keywords:** Vigilance, Lieutenant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6487 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/40/loyal-unicorn) · oracle_id `6cf8191c-acca-4145-86c2-53a138b3fe4a` · printing: CMM #40 (2023-08-04) · [rulings](https://api.scryfall.com/cards/c1d7203b-55ed-4d08-ac2e-2c4b4b93c274/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2018-07-13* — If you don’t control your commander as the lieutenant ability resolves, you won’t get its effect.
+  - *2018-07-13* — If you have multiple commanders, you need to control only one for the lieutenant effect to happen.
+  - *2018-07-13* — Loyal Unicorn’s effect will prevent all combat damage that would be dealt to creatures you control, even if those creatures weren’t on the battlefield or weren’t creatures when the effect resolved.
+  - *2018-07-13* — Once Loyal Unicorn’s lieutenant ability has resolved while you control your commander, its effects persist this turn even if you lose control of your commander or Loyal Unicorn.
+  - *2018-07-13* — The lieutenant effect happens only once each combat, even if you somehow control multiple commanders (perhaps because you have two commanders with a partner ability from the Battlebond™ set).
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/40/loyal-unicorn) · oracle_id `6cf8191c-acca-4145-86c2-53a138b3fe4a` · printing: CMM #40 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Loyal Warhound
 
@@ -3268,6 +3489,7 @@
   > *A paladin's steed is a celestial spirit in animal form.*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1653 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/23/loyal-warhound) · oracle_id `cc6a83c7-e645-4a53-9550-be79b42cd851` · printing: AFR #23 (2021-07-23) · [rulings](https://api.scryfall.com/cards/f408c5e4-e18d-4e4d-959a-f41df4c3019c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lozhan, Dragons' Legacy
@@ -3282,4 +3504,8 @@
   > *She channels myth and memory into waves of deadly arcane force.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4364 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/281/lozhan-dragons-legacy) · oracle_id `be2075af-1cd8-42fe-a29b-a0fd2b047a44` · printing: CLB #281 (2022-06-10) · [rulings](https://api.scryfall.com/cards/fe604232-19da-4331-a6f2-ddb004f1dd90/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-06-10* — "Any target that isn't a commander" includes any player, as well as any creature or planeswalker that isn't a commander.
+  - *2022-06-10* — If you cast a non-Dragon permanent spell that has an Adventure (rather than the Adventure itself) Lozhan's triggered ability will not trigger.
+  - *2022-06-10* — The mana value of an Adventure spell is the based on the mana cost of the Adventure, not the mana cost of the permanent card that has the Adventure.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/281/lozhan-dragons-legacy) · oracle_id `be2075af-1cd8-42fe-a29b-a0fd2b047a44` · printing: CLB #281 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

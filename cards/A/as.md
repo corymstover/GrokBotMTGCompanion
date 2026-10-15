@@ -208,7 +208,9 @@
   > This creature enters with a +1/+1 counter on it if you control a permanent with mana value 4 or greater.
   > Whenever you cast a spell with mana value 4 or greater, put a +1/+1 counter on this creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8156 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/vow/186/ascendant-packleader) · oracle_id `7e81853c-d0c0-40bc-80fc-13a5964878b2` · printing: VOW #186 (2021-11-19) · [rulings](https://api.scryfall.com/cards/142c5b67-5de9-41da-b57f-7ce771457a3e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-11-19* — Ascendant Packleader's first ability considers only permanents already on the battlefield when determining if it should apply. If Ascendant Packleader is entering the battlefield at the same time as another permanent, the replacement effect won't see that permanent.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vow/186/ascendant-packleader) · oracle_id `7e81853c-d0c0-40bc-80fc-13a5964878b2` · printing: VOW #186 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ascendant Spirit
 
@@ -245,6 +247,7 @@
 - **Flavor text** (CLB printing):
   > *Smoke clogged the streets and rubble littered the ground, but sunlight shining on the long-lost towers of Elturel was still a beautiful sight.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2626 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/5/ascend-from-avernus) · oracle_id `451e8ece-7389-4d52-8bc9-450cb5e53e6a` · printing: CLB #5 (2022-06-10) · [rulings](https://api.scryfall.com/cards/6b26c05b-f166-40ab-9693-2129b4bf75e9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ascending Aven
@@ -283,7 +286,9 @@
   > *—Thrun, the last troll*
 - **Keywords:** Heal, Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1348 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/som/110/asceticism) · oracle_id `9396546c-d067-4ce3-9c3d-b62cca970b4f` · printing: SOM #110 (2010-10-01) · [rulings](https://api.scryfall.com/cards/ec2b56b0-126c-411b-8c43-b690fc8c194b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-01-01* — You may target any creature with the regeneration ability, not just one you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/som/110/asceticism) · oracle_id `9396546c-d067-4ce3-9c3d-b62cca970b4f` · printing: SOM #110 (2010-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### As Foretold
 
@@ -293,7 +298,15 @@
   > At the beginning of your upkeep, put a time counter on this enchantment.
   > Once each turn, you may pay {0} rather than pay the mana cost for a spell you cast with mana value X or less, where X is the number of time counters on this enchantment.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1899 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/38/as-foretold) · oracle_id `e4b3e0af-5caa-47c1-b5be-c56a875cbb15` · printing: 2X2 #38 (2022-07-08) · [rulings](https://api.scryfall.com/cards/c468b523-84fc-4657-adef-acc1eec6ef2e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2017-04-18* — A card's mana value is determined solely by the mana symbols printed in its upper right corner. The mana value is the total amount of mana in that cost, regardless of color. For example, a card with mana cost {1}{U}{U} has mana value 3. Ignore any alternative costs, additional costs, cost increases, or cost reductions that could apply to it. A card with no mana cost has a mana value of 0.
+  - *2017-04-18* — All counters with the same name are indistinguishable from other counters with that name. Cards from the Time Spiral block that interact with time counters will interact with As Foretold.
+  - *2017-04-18* — If a spell has no mana cost, its mana value is 0. You can cast it with As Foretold's alternative cost.
+  - *2017-04-18* — If the card has X in its mana cost, you must choose 0 as the value of X when casting it for another cost that doesn't include X. For example, if there are five time counters on As Foretold and you choose to use its effect to cast Pull from Tomorrow, X must be 0. X can't be 2, even though the spell's mana value would be 4.
+  - *2017-04-18* — If you control multiple As Foretolds, you may cast one spell for each of them paying {0}.
+  - *2017-04-18* — If you're casting a split card, only the mana value of the half you're casting is compared to the number of time counters on As Foretold. This is because only that half is on the stack at the time that you choose to apply the effect of As Foretold.
+  - *2023-09-01* — If you cast a spell for an alternative cost of {0}, you can't pay any other alternative costs, such as emerge costs. You can, however, pay additional costs, such as bargain. If the spell has any mandatory additional costs, such as that of Tormenting Voice, you must pay those to cast the spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/38/as-foretold) · oracle_id `e4b3e0af-5caa-47c1-b5be-c56a875cbb15` · printing: 2X2 #38 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Asgardian Citadel
 
@@ -413,6 +426,7 @@
   > *The bears wade into time rifts to feed. They do not fear the storms, and they are quick enough to snatch prey just as it blinks in or out of time.*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9233 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsp/190/ashcoat-bear) · oracle_id `e6d13c0d-23ed-41f5-a726-f18d4bb44c9a` · printing: TSP #190 (2006-10-06) · [rulings](https://api.scryfall.com/cards/9b7a6ab5-8a8f-492c-8484-3089354ce8cf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ashcoat of the Shadow Swarm
@@ -425,7 +439,10 @@
   > At the beginning of your end step, you may mill four cards. If you do, return up to two Rat creature cards from your graveyard to your hand. (To mill a card, put the top card of your library into your graveyard.)
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5220 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/j22/19/ashcoat-of-the-shadow-swarm) · oracle_id `9cc69ea5-42a2-4306-ac6d-cff5adb20bcb` · printing: J22 #19 (2022-12-02) · [rulings](https://api.scryfall.com/cards/2fce5989-a2a0-4825-b90a-a1f78659b6e0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-12-02* — The value of X is locked in as the first ability resolves. The bonus it grants won't change after that point, even if the number of Rats you control does.
+  - *2022-12-02* — You choose which Rat creature cards to return to your hand as the last ability resolves. You may choose Rat creature cards milled with this ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/j22/19/ashcoat-of-the-shadow-swarm) · oracle_id `9cc69ea5-42a2-4306-ac6d-cff5adb20bcb` · printing: J22 #19 (2022-12-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ashen Firebeast
 
@@ -529,6 +546,7 @@
   > *One offering to appease her on her arrival. Another to celebrate her departure.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6411 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/173/ashen-rider) · oracle_id `455f66eb-3e33-4b51-9ec1-32288bdd3a68` · printing: 2X2 #173 (2022-07-08) · [rulings](https://api.scryfall.com/cards/1f2054d9-d10f-4127-aece-71c3f0ef547c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ashen-Skin Zubera
@@ -553,6 +571,7 @@
 - **Flavor text** (FIN printing):
   > *"I am simply myself. No more and no less. And I want only to be free."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9525 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/7/ashe-princess-of-dalmasca) · oracle_id `db75577d-1001-4088-999f-40684218a07f` · printing: FIN #7 (2025-06-13) · [rulings](https://api.scryfall.com/cards/ffe0596f-ef99-4862-9386-0fe455259995/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ashes of the Abhorrent
@@ -565,7 +584,11 @@
 - **Flavor text** (XLN printing):
   > *"Let no trace of the vampires' foulness remain."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8298 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/xln/2/ashes-of-the-abhorrent) · oracle_id `a75d5b54-5cc9-49c4-8e8c-3bef22d4c01c` · printing: XLN #2 (2017-09-29) · [rulings](https://api.scryfall.com/cards/4e8eb264-dadb-440c-af85-273e755f1db6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2017-09-29* — Activated abilities contain a colon. They’re generally written “[Cost]: [Effect].” Some keyword abilities (such as embalm from the Amonkhet set) are activated abilities and will have colons in their reminder text. Triggered abilities (starting with “when,” “whenever,” or “at”) are unaffected by Ashes of the Abhorrent.
+  - *2017-09-29* — Ashes of the Abhorrent doesn’t stop players from playing land cards from the graveyard if an effect allows them to do so.
+  - *2017-09-29* — If a creature dies at the same time that Ashes of the Abhorrent is destroyed, you’ll gain 1 life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/xln/2/ashes-of-the-abhorrent) · oracle_id `a75d5b54-5cc9-49c4-8e8c-3bef22d4c01c` · printing: XLN #2 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ashes of the Fallen
 
@@ -601,7 +624,13 @@
   > −1: Target player mills four cards. Then exile each opponent's graveyard.
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2661 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/war/228/ashiok-dream-render) · oracle_id `93723b12-db34-4047-885e-8606415b1553` · printing: WAR #228 (2019-05-03) · [rulings](https://api.scryfall.com/cards/f2df3258-c053-48a8-974f-d80899b2cd93/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2019-05-03* — Effects that instruct your opponents to reveal or look at cards from the top of their libraries will still work. Only effects that use the word “search” are affected.
+  - *2019-05-03* — If Ashiok’s last ability targets an opponent, the cards put into their graveyard will be among the cards exiled by the ability. No player may take any actions between the time the cards are put into a graveyard and the time your opponents’ graveyards are all exiled.
+  - *2019-05-03* — If an effect says “Search your library . . . then shuffle your library,” your opponents shuffle their libraries even though they can’t search.
+  - *2019-05-03* — If an effect says “You may search your library . . . If you do, shuffle your library” or “You may search your library . . . then shuffle your library,” your opponents can’t choose to search, so they won’t shuffle.
+  - *2019-05-03* — Spells and abilities your opponents control may cause other players to search their libraries, and spells and abilities you control may cause your opponents to search their libraries.
+- **Source flags:** [Scryfall](https://scryfall.com/card/war/228/ashiok-dream-render) · oracle_id `93723b12-db34-4047-885e-8606415b1553` · printing: WAR #228 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ashiok, Nightmare Muse
 
@@ -613,7 +642,16 @@
   > −3: Return target nonland permanent to its owner's hand, then that player exiles a card from their hand.
   > −7: You may cast up to three spells from among face-up cards your opponents own from exile without paying their mana costs.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7010 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/208/ashiok-nightmare-muse) · oracle_id `ebc9ff52-c914-4c48-9d35-0e4cd07741cb` · printing: THB #208 (2020-01-24) · [rulings](https://api.scryfall.com/cards/112eb5ce-4fe5-45b3-b810-79fef74b07f9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2020-01-24* — Any effect that exiles a card exiles it face up unless that effect specifies otherwise.
+  - *2020-01-24* — If Ashiok's second ability returns a token to its owner's hand, that player can't exile that token from their hand. They must exile a card from their hand if possible.
+  - *2020-01-24* — If a spell has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2020-01-24* — If you cast a spell "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, such as that of Thrill of Possibility, those must be paid to cast the card.
+  - *2020-01-24* — If you wish to cast any exiled cards, you do so as part of the resolution of Ashiok's last ability. You can't wait to cast them later. Timing permissions based on a card's type are ignored.
+  - *2020-01-24* — In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, any spells and/or permanents you control from Ashiok's last ability are exiled.
+  - *2020-01-24* — The card exiled while resolving Ashiok's second ability may be the one that was returned to its owner's hand.
+  - *2020-01-24* — You may cast any face-up cards your opponents own from exile while resolving Ashiok's last ability, not just those exiled by Ashiok's second ability or by Ashiok's Nightmare tokens.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/208/ashiok-nightmare-muse) · oracle_id `ebc9ff52-c914-4c48-9d35-0e4cd07741cb` · printing: THB #208 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ashiok, Nightmare Weaver
 
@@ -691,7 +729,9 @@
 - **Flavor text** (WOE printing):
   > *Neva's dreams were haunted by memories of the invasion—oil-black tendrils grasping at her through the mist. Or . . . was this something new?*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7526 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/79/ashioks-reaper) · oracle_id `6f1e5571-ddda-4cea-84ef-36a571d8fd51` · printing: WOE #79 (2023-09-08) · [rulings](https://api.scryfall.com/cards/83957fe0-6500-420c-9b7a-2448a1c1d3b3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-09-01* — Enchantment tokens (such as Roles) that are sacrificed, destroyed, or would otherwise go to the graveyard are put into their owner's graveyard before ceasing to exist. If you controlled the token, Ashiok's Reaper's ability will trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/79/ashioks-reaper) · oracle_id `6f1e5571-ddda-4cea-84ef-36a571d8fd51` · printing: WOE #79 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ashiok's Skulker
 
@@ -729,7 +769,13 @@
   > Magecraft — Whenever you cast or copy an instant or sorcery spell, discard a card, then draw a card. If this is the second time this ability has resolved this turn, Ashling deals 2 damage to each opponent and each creature they control. If it's the third time, add {R}{R}{R}{R}.
 - **Keywords:** Magecraft
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1571 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/115/ashling-flame-dancer) · oracle_id `6fe9fd59-9cac-4572-8f94-bc19bea44f94` · printing: MH3 #115 (2024-06-14) · [rulings](https://api.scryfall.com/cards/40463be5-89e2-410b-9a4b-770f70d14293/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-06-07* — If a red mana you add has certain restrictions or riders associated with it (for example, if it was produced by the last ability of Arena of Glory), they'll apply to that mana no matter when you spend it.
+  - *2024-06-07* — If an effect creates multiple copies of an instant or sorcery spell, Ashling's last ability triggers once for each copy created by the effect.
+  - *2024-06-07* — Once Ashling leaves the battlefield, you have until the end of the current step or phase to spend whatever red mana you have before you lose that mana as normal. There is no penalty associated with this other than the loss of the mana.
+  - *2024-06-07* — Some effects instruct you to copy an instant or sorcery card in a zone other than the stack. These copies will not cause Ashling's last ability to trigger. However, most effects that do this also allow you to cast the copy, and casting the copy will cause Ashling's last ability to trigger.
+  - *2024-06-07* — You can keep unspent red mana indefinitely while Ashling is on the battlefield. That means if you add a red mana during one step or phase, you can spend it during a later step or phase, or even a later turn. You will still lose other types of unspent mana as each step and phase ends.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/115/ashling-flame-dancer) · oracle_id `6fe9fd59-9cac-4572-8f94-bc19bea44f94` · printing: MH3 #115 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ashling, Rekindled // Ashling, Rimebound
 
@@ -744,7 +790,18 @@
   > At the beginning of your first main phase, you may pay {R}. If you do, transform Ashling.
 - **Keywords:** Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5223 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/124/ashling-rekindled-ashling-rimebound) · oracle_id `31fc5d8b-94bc-4688-8a84-f15800e717a8` · printing: ECL #124 (2026-01-23) · [rulings](https://api.scryfall.com/cards/7d7faefe-9c0d-45b6-8ea4-5fa666762a2c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2025-11-17* — A nonmodal double-faced card enters with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed or allows you to cast it transformed, in which case it enters with its back face up.
+  - *2025-11-17* — A token that is created as a copy of a double-faced permanent or a double-faced card in another zone is a double-faced token. It will have both the front face and back face of whatever object it's copying. If it's copying a double-faced permanent whose back face is up, the token will enter with its back face up. It can transform if instructed to do so.
+  - *2025-11-17* — Each face of a nonmodal double-faced card has its own set of characteristics: name, types, subtypes, abilities, and so on. While a double-faced permanent is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored.
+  - *2025-11-17* — Each nonmodal double-faced card in this release is cast face up. In every zone other than the battlefield, consider only the characteristics of its front face. If it is on the battlefield, consider only the characteristics of the face that's up; the other face's characteristics are ignored.
+  - *2025-11-17* — If a spell has {X} in its mana cost, use the value chosen for that X to determine the mana value of that spell.
+  - *2025-11-17* — If you are instructed to put a card that isn't a double-faced card onto the battlefield transformed, it will not enter at all.
+  - *2025-11-17* — In some rare cases, this permanent might transform while its triggered ability that allows you to pay mana to transform it is still on the stack. (For example, another effect might cause that ability to trigger an additional time.) In such a case, even if you pay mana as the triggered ability resolves, this permanent won't transform because it already transformed while the triggered ability was on the stack.
+  - *2025-11-17* — In the Commander variant, a double-faced card's color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered. For example, Oko, Lorwyn Liege's color identity is green and blue, since its front face is blue, its rules text contains a green mana symbol, and its back face has a green color indicator as well as a blue mana symbol in its rules text.
+  - *2025-11-17* — The back face of a nonmodal double-faced card usually has a color indicator that defines its color.
+  - *2025-11-17* — The mana value of a nonmodal double-faced card is the mana value of its front face, no matter which face is up.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/124/ashling-rekindled-ashling-rimebound) · oracle_id `31fc5d8b-94bc-4688-8a84-f15800e717a8` · printing: ECL #124 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ashling's Command
 
@@ -758,7 +815,17 @@
   > • Target player creates two Treasure tokens.
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5978 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/205/ashlings-command) · oracle_id `9651d197-a408-4665-a292-58d5471f4ffc` · printing: ECL #205 (2026-01-23) · [rulings](https://api.scryfall.com/cards/fe3a421d-07b6-4b94-b177-aec44c7fe689/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2025-11-17* — Any enters abilities of the copied permanent will trigger when the token enters. Any "as [this permanent] enters" or "[this permanent] enters with" abilities of the copied permanent will also work.
+  - *2025-11-17* — If all of Ashling's Command's targets are illegal as it tries to resolve, it will do nothing. If at least one target is still legal, it will resolve and do as much as it can.
+  - *2025-11-17* — If the copied permanent has {X} in its mana cost, X is 0.
+  - *2025-11-17* — If the copied permanent is a token, the token that's created copies the original characteristics of that token as stated by the effect that created that token.
+  - *2025-11-17* — If the copied permanent is copying something else, then the token enters as whatever that creature copied.
+  - *2025-11-17* — Kindred is a card type that allows noncreature cards to have creature types. For example, Morcant's Eyes is an Elf (although not a creature) while on the battlefield and an Elf card (although not a creature card) in zones other than the battlefield.
+  - *2025-11-17* — Some older cards were originally printed with the "tribal" card type. That card type has been replaced with "kindred." This change does not affect the gameplay function of these cards.
+  - *2025-11-17* — The token created by the first mode of Ashling's Command copies exactly what was printed on the original permanent and nothing else (unless that permanent is copying something else or is a token; see below). It doesn't copy whether that permanent is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+  - *2025-11-17* — While it appears only on cards that already have other card types, kindred is a card type and will be counted by effects that refer to the number of card types among cards in a zone.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/205/ashlings-command) · oracle_id `9651d197-a408-4665-a292-58d5471f4ffc` · printing: ECL #205 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ashling's Prerogative
 
@@ -792,7 +859,15 @@
   > Elemental permanent spells you cast from your hand gain evoke {4} as you cast them. (If you cast a spell for its evoke cost, it's sacrificed when it enters.)
   > Whenever you sacrifice a nontoken Elemental, create a token that's a copy of it. The token gains haste until end of turn. At the beginning of your next end step, sacrifice it unless you pay {W}{U}{B}{R}{G}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5472 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/1/ashling-the-limitless) · oracle_id `77a9e7cf-76e9-4323-8504-a5b831de00be` · printing: ECC #1 (2026-01-23) · [rulings](https://api.scryfall.com/cards/5924c01f-2815-4e37-b700-3ba6cc81e0e4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2025-11-17* — Any enters abilities of the copied permanent will trigger when the token enters. Any "as [this permanent] enters" or "[this permanent] enters with" abilities of the copied permanent will also work.
+  - *2025-11-17* — If Ashling leaves the battlefield after you've cast an Elemental permanent spell and paid its evoke cost but before that spell resolves, the permanent that spell becomes will still have evoke when it enters. As such, the triggered ability represented by evoke will still trigger, and when that abiltiy resolves, you'll still have to sacrifice that permanent.
+  - *2025-11-17* — If the copied permanent had {X} in its mana cost, X is 0.
+  - *2025-11-17* — If the copied permanent was copying something else, then the token enters as whatever that permanent copied.
+  - *2025-11-17* — If you pay the evoke cost, you can have the creature's own triggered ability or abilities resolve before the evoke triggered ability. You can cast spells after that ability resolves but before you have to sacrifice the creature.
+  - *2025-11-17* — The token created by Ashling's last ability copies exactly what was printed on the original permanent and nothing else (unless that creature was copying something else; see below). It doesn't copy whether that permanent was tapped or untapped, whether it had any counters on it or Auras and Equipment attached to it, or any non-copy effects that changed its power, toughness, types, color, and so on.
+  - *2025-11-17* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an evoke cost), add any cost increases, then apply any cost reductions. The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/1/ashling-the-limitless) · oracle_id `77a9e7cf-76e9-4323-8504-a5b831de00be` · printing: ECC #1 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ashling the Pilgrim
 
@@ -897,6 +972,7 @@
 - **Flavor text** (BRO printing):
   > *"Listen, Duck. Gix is everywhere, playing every side. Mishra won't listen . . . but perhaps Urza will."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8310 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/85/ashnods-intervention) · oracle_id `c1a7d108-8073-42a5-ade0-a0643d078268` · printing: BRO #85 (2022-11-18) · [rulings](https://api.scryfall.com/cards/bcf491db-d12b-4c58-9c05-085cac34a73e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ashnod's Transmogrant
@@ -948,7 +1024,10 @@
   > *"We will burn down the old growth of civilization and nurture what sprouts from the ashes."*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9249 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/117/ashroot-animist) · oracle_id `3f008b57-6471-4785-9571-3b90193da7e2` · printing: FDN #117 (2024-11-15) · [rulings](https://api.scryfall.com/cards/dece147f-d71a-4c95-9fe5-f5c862ef14ac/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-11-08* — If Ashroot Animist leaves the battlefield before its last ability resolves, use its power as it last existed on the battlefield to determine the value of X.
+  - *2024-11-08* — The value of X is determined only once, as Ashroot Animist's last ability resolves. The value of the bonus won't change later in the turn if Ashroot Animist's power changes.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/117/ashroot-animist) · oracle_id `3f008b57-6471-4785-9571-3b90193da7e2` · printing: FDN #117 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ash Zealot
 
@@ -973,7 +1052,16 @@
   > For each creature your opponents control, create a Cursed Role token attached to that creature. (If you control another Role on it, put that one into the graveyard. Enchanted creature is 1/1.)
 - **Keywords:** Role token
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8144 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/42/asinine-antics) · oracle_id `0a0a051c-59ed-4286-b842-a34da7ef15d5` · printing: WOE #42 (2023-09-08) · [rulings](https://api.scryfall.com/cards/50b96a97-0d7d-4e05-9e2f-0b99a039b655/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2023-09-01* — A permanent can have multiple Roles attached to it if each one is controlled by a different player.
+  - *2023-09-01* — Cards in the Wilds of Eldraine main set create six different Role tokens: Cursed, Monster, Royal, Sorcerer, Wicked, and Young Hero. A seventh Role token, Virtuous, is created by Ellivere of the Wild Court, the commander of the "Virtue and Valor" Commander Deck.
+  - *2023-09-01* — Hexproof and shroud won't prevent a Role from becoming attached to a permanent if the ability creating that Role attached to that permanent doesn't target it.
+  - *2023-09-01* — If a permanent has more than one Role attached to it controlled by the same player, each of those Roles except the one with the most recent timestamp is put into its owner's graveyard. This is a state-based action.
+  - *2023-09-01* — If two or more Roles controlled by the same player become attached to a permanent at the same time (perhaps due to an effect such as that of Doubling Season), that player chooses which one to keep and which are put into their owners' graveyards.
+  - *2023-09-01* — In rare cases, a spell or ability might attempt to create a Role token enchanting a permanent that it can't legally enchant (because of an ability like protection from enchantments). In such cases, the Role token isn't created.
+  - *2023-09-01* — Roles are colorless enchantment tokens. Each one has the Aura and Role subtypes and the enchant creature ability.
+  - *2023-09-01* — Some spells and abilities that create Role tokens require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Role token won't be created.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/42/asinine-antics) · oracle_id `0a0a051c-59ed-4286-b842-a34da7ef15d5` · printing: WOE #42 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### As Luck Would Have It
 
@@ -1011,7 +1099,11 @@
   > {B}{B}{B}: Draw seven cards.
   > {B}: Return all cards exiled with Asmodeus to their owner's hand and you lose that much life.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6443 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/88/asmodeus-the-archfiend) · oracle_id `1e4032f6-9741-4845-9325-781c9e489172` · printing: AFR #88 (2021-07-23) · [rulings](https://api.scryfall.com/cards/a5e6b864-58e7-43b9-9d79-1d0361340960/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-07-23* — If Asmodeus the Archfiend leaves the battlefield before you activate its last ability, any cards exiled by its replacement effect remain exiled face down for the rest of the game. If you somehow return the same Asmodeus the Archfiend card to the battlefield, it will be a different object with no connection to those face-down cards.
+  - *2021-07-23* — If a card is exiled face-down and no player has been given permission to look at it, no player is allowed to look at it as long as it remains exiled face-down.
+  - *2021-07-23* — If your library is empty, no cards will be exiled but you won't lose the game due to drawing from an empty library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/88/asmodeus-the-archfiend) · oracle_id `1e4032f6-9741-4845-9325-781c9e489172` · printing: AFR #88 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Asmoranomardicadaistinaculdacar
 
@@ -1195,6 +1287,7 @@
   > Equip {2}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5595 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/acr/12/assassin-gauntlet) · oracle_id `85d06533-3c0b-46a8-8fdb-379db9ae7e2e` · printing: ACR #12 (2024-07-05) · [rulings](https://api.scryfall.com/cards/a9ebdd18-7f07-417c-8f30-470c1f14dfae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Assassin Initiate
@@ -1208,6 +1301,7 @@
   > *"For a secret brotherhood, you certainly do get a lot of new recruits."*
   > *—Leonardo, to Ezio*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6509 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/acr/22/assassin-initiate) · oracle_id `23be5c68-6530-474d-b677-551da4745b3c` · printing: ACR #22 (2024-07-05) · [rulings](https://api.scryfall.com/cards/3ce4e330-d878-48f3-b9fe-3158d69f2da2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Assassin's Blade
@@ -1294,7 +1388,10 @@
   > {G}: Target creature with defender can attack this turn as though it didn't have defender.
   > {2}{G}: Creatures you control get +0/+1 until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2544 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/246/assault-formation) · oracle_id `4d6d3e6d-f958-4c17-b117-960fb8033601` · printing: TDC #246 (2025-04-11) · [rulings](https://api.scryfall.com/cards/40452217-9d8c-48e7-b5b4-2740b97bea2a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-11-17* — Assault Formation’s first ability doesn’t actually change any creature’s power. It changes only the amount of combat damage it assigns. All other rules and effects that check power or toughness use the real values. For example, Hunt the Weak won’t cause a creature to fight with its toughness.
+  - *2017-11-17* — For example, a 2/3 creature will assign 3 combat damage rather than 2.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/246/assault-formation) · oracle_id `4d6d3e6d-f958-4c17-b117-960fb8033601` · printing: TDC #246 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Assault Griffin
 
@@ -1322,6 +1419,7 @@
   > *A foe without honour is a foe already beaten.*
 - **Keywords:** First strike, Menace, Chainsword
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9421 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/104/assault-intercessor) · oracle_id `3ba19659-461f-482c-b882-b4fca7d5d1f8` · printing: 40K #104 (2022-10-07) · [rulings](https://api.scryfall.com/cards/019b1f71-2d99-47da-8df3-237ef25a4916/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Assault on Osgiliath
@@ -1332,7 +1430,17 @@
   > Amass Orcs X, then Goblins and Orcs you control gain double strike and haste until end of turn. (To amass Orcs X, put X +1/+1 counters on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first.)
 - **Keywords:** Amass
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8055 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/285/assault-on-osgiliath) · oracle_id `d2aa50d2-d22d-495e-afc9-23a51c8c8f32` · printing: LTR #285 (2023-06-23) · [rulings](https://api.scryfall.com/cards/2549b70a-6bd0-4c9b-96b7-4ab775a30cd3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2023-06-16* — Amass Zombies works the same way, except you create a 0/0 black Zombie Army creature token if you don't control an Army. If the Army creature you chose isn't already a Zombie, it becomes a Zombie in addition to its other types. By combining cards with amass Orcs and amass Zombies, you can end up with an Orc Zombie Army.
+  - *2023-06-16* — Amass abilities are now written as "amass [subtype] N." Previous cards with amass have received errata to say "amass Zombies N."
+  - *2023-06-16* — If you choose a value of 0 for X while you control a non-Orc Army, you won't put any counters on it, but it will become an Orc in addition to its other types.
+  - *2023-06-16* — If you choose a value of 0 for X while you don't control an Army, you will create a 0/0 Orc Army creature token and won't put any counters on it. In most cases, that 0/0 token will die immediately.
+  - *2023-06-16* — If you don't control an Army, the Orc Army token you create enters the battlefield as a 0/0 creature before receiving counters. Any abilities that trigger when a creature with a certain power enters the battlefield, such as that of Mentor of the Meek, will see the token enter as a 0/0 creature before it gets +1/+1 counters.
+  - *2023-06-16* — In the rare case that you control multiple Army creatures (perhaps because you played a creature with changeling) while you amass Orcs, you choose which of your Army creatures to put the +1/+1 counters on. If that creature isn't an Orc, it becomes an Orc in addition to its other types.
+  - *2023-06-16* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
+  - *2023-06-16* — Some spells and abilities that amass Orcs may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't amass Orcs.
+  - *2023-06-16* — To amass Orcs N, if you don't control an Army creature, create a 0/0 black Orc Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already an Orc, it becomes an Orc in addition to its other types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/285/assault-on-osgiliath) · oracle_id `d2aa50d2-d22d-495e-afc9-23a51c8c8f32` · printing: LTR #285 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Assaultron Dominator
 
@@ -1343,7 +1451,18 @@
   > When this creature enters, you get {E}{E} (two energy counters).
   > Whenever an artifact creature you control attacks, you may pay {E}. If you do, put your choice of a +1/+1, first strike, or trample counter on that creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7116 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/54/assaultron-dominator) · oracle_id `2c7818f4-a818-4603-9af1-05aee2d56ec8` · printing: PIP #54 (2024-03-08) · [rulings](https://api.scryfall.com/cards/4112fadb-da03-441a-beeb-1dc90425e3f3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2024-03-08* — Energy counters are a kind of counter that a player may have. They’re not associated with any specific permanents.
+  - *2024-03-08* — Energy counters aren’t mana. They don’t go away as steps, phases, and turns end, and effects that add mana “of any type” can’t give you energy counters.
+  - *2024-03-08* — If a spell or ability with one or more targets states that you “may pay” some amount of {E}, and each permanent that it targets has become an illegal target, the spell or ability won’t resolve. You can’t pay any {E} even if you want to.
+  - *2024-03-08* — If an effect says you get one or more {E}, you get that many energy counters. To pay one or more {E}, you lose that many energy counters. You can’t pay more energy counters than you have. Any effects that interact with counters a player gets, has, or loses can interact with energy counters.
+  - *2024-03-08* — If multiple artifact creatures you control attack, Assaultron Dominator’s last ability triggers for each of them.
+  - *2024-03-08* — Keep track of how many energy counters each player has. Potential ways to track this include writing them down on paper or using dice, but any method that is clear and mutually agreeable is fine. (At higher levels of tournament play, dice may not be allowed for tracking counters that players have.)
+  - *2024-03-08* — Some spells and abilities that give you {E} may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won’t resolve. You won’t get any {E}.
+  - *2024-03-08* — Some triggered abilities state that you “may pay” a certain amount of {E}. You can’t pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
+  - *2024-03-08* — Some triggered abilities that state that you “may pay” a certain amount of {E} describe an effect that happens “If you do.” In that case, no player may take actions to try to stop the ability’s effect after you make your choice. If the payment is followed by the phrase “When you do,” then you’ll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
+  - *2024-03-08* — {E} is the energy symbol. It represents one energy counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/54/assaultron-dominator) · oracle_id `2c7818f4-a818-4603-9af1-05aee2d56ec8` · printing: PIP #54 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Assault Strobe
 
@@ -1354,6 +1473,7 @@
 - **Flavor text** (SOM printing):
   > *When breaking someone's face once just isn't enough.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8591 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/som/82/assault-strobe) · oracle_id `9bf4ee0f-6e28-4793-b251-f81ee444a119` · printing: SOM #82 (2010-10-01) · [rulings](https://api.scryfall.com/cards/9b505c78-5dbd-483d-92bb-5144060e962f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Assault Suit
@@ -1366,7 +1486,10 @@
   > Equip {3}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4174 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/369/assault-suit) · oracle_id `c3b6e114-7bc8-4890-97d9-edbeea1f425f` · printing: CMM #369 (2023-08-04) · [rulings](https://api.scryfall.com/cards/92b22076-b04e-4d65-9d9c-d3e4c7a3cf1c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-11-07* — If an effect instructs you to sacrifice a creature, and you control any creatures other than the creature equipped with Assault Suit, you must sacrifice one of them. You can't try to sacrifice the equipped creature, fail, and therefore ignore the effect.
+  - *2014-11-07* — The equipped creature can't be sacrificed for any reason. If an effect instructs you to sacrifice it, you can't and it remains on the battlefield. You also can't sacrifice it to pay a cost that requires you to sacrifice a creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/369/assault-suit) · oracle_id `c3b6e114-7bc8-4890-97d9-edbeea1f425f` · printing: CMM #369 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Assault Zeppelid
 
@@ -1419,7 +1542,9 @@
 - **Flavor text** (LTC printing):
   > *"Boom, boom, rumboom, boorar, boom boom, dahrar boom boom, dahrar boom..."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6839 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/36/assemble-the-entmoot) · oracle_id `1f1ad44c-1811-40e3-976b-03f19866abd5` · printing: LTC #36 (2023-06-23) · [rulings](https://api.scryfall.com/cards/409c226b-ef01-4ccd-b23e-d94bdc1e4aa5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-06-16* — Assemble the Entmoot's activated ability counts the total amount of life you gained without taking into account any life you lost during that turn. For example, if you gained 3 life and lost 3 life earlier in the turn, you'll create three tapped 3/3 green Treefolk creature tokens, then put a reach counter on each of them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/36/assemble-the-entmoot) · oracle_id `1f1ad44c-1811-40e3-976b-03f19866abd5` · printing: LTC #36 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Assemble the Legion
 
@@ -1428,7 +1553,9 @@
 - **Oracle text:**
   > At the beginning of your upkeep, put a muster counter on this enchantment. Then create a 1/1 red and white Soldier creature token with haste for each muster counter on this enchantment.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2285 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/163/assemble-the-legion) · oracle_id `6f81bef3-6ca0-4cf4-aa99-7b2813eeef04` · printing: RVR #163 (2024-01-12) · [rulings](https://api.scryfall.com/cards/10ce686a-eecd-4b32-a882-9a6ca3274ae6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-01-12* — If Assemble the Legion isn't on the battlefield when its ability resolves, use the number of muster counters it had when it was last on the battlefield to determine how many Soldier tokens to create.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/163/assemble-the-legion) · oracle_id `6f81bef3-6ca0-4cf4-aa99-7b2813eeef04` · printing: RVR #163 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Assemble the Players
 
@@ -1441,7 +1568,14 @@
   > *"All will soon be made clear, but I can give you this: our killer is here with us, in this very room."*
   > *—Alquist Proft*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4719 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/3/assemble-the-players) · oracle_id `180ba940-2b11-4953-b7ce-74847e1aebfd` · printing: MKM #3 (2024-02-09) · [rulings](https://api.scryfall.com/cards/f5bcb21a-8559-4791-8cd0-482e7b8dcfd2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-02-02* — Because you never "cast" a land card, Assemble the Players doesn't allow you to play a land creature (such as Dryad Arbor) from the top of your library.
+  - *2024-02-02* — If Assemble the Players leaves the battlefield and returns to the battlefield in the same turn, the casting permission granted by the old one is different than the casting permission granted by the new one. Similarly, if you control multiple Assemble the Players, each one has a different casting permission that may be used once each turn.
+  - *2024-02-02* — If the top card of your library changes while you're casting a spell, playing a land, or activating an ability, you can't look at the new top card until you finish doing so. This means that if you cast a spell from the top of your library, you can't look at the next one until you're done paying for that spell.
+  - *2024-02-02* — If the top card of your library has a disguise or morph ability, you can cast it face down from the top of your library, even if it doesn't normally have power 2 or less.
+  - *2024-02-02* — You can look at the top card of your library whenever you want (with one restriction; see below), even if you don't have priority. This action doesn't use the stack. Knowing what that card is becomes part of the information you have access to, just like you can look at the cards in your hand.
+  - *2024-02-02* — You must pay all costs and follow all timing rules for spells cast from the top of your library this way.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/3/assemble-the-players) · oracle_id `180ba940-2b11-4953-b7ce-74847e1aebfd` · printing: MKM #3 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Assemble the Rank and Vile
 
@@ -1535,7 +1669,15 @@
   > Equip {2}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9884 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/192/assimilation-aegis) · oracle_id `6d39d218-254a-4886-907a-89df605d7ce4` · printing: OTJ #192 (2024-04-19) · [rulings](https://api.scryfall.com/cards/014bf3c6-e46f-48f8-902f-82deeba260b2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2024-04-12* — Any non-copy effects that applied to the creature Assimilation Aegis is attached to before it becomes a copy of another card will continue to apply once it becomes a copy. The same is true of any counters that are on that creature.
+  - *2024-04-12* — If Assimilation Aegis leaves the battlefield before its first ability resolves, the target creature won't be exiled at all.
+  - *2024-04-12* — If there are no creature cards exiled with Assimilation Aegis when its second ability resolves, the creature Assimilation Aegis is attached to won't become a copy of anything else. It will remain just as it was.
+  - *2024-04-12* — If you somehow exile a noncreature card with Assimilation Aegis's first ability (possibly because it was a copy of a creature while on the battlefield), you can't choose to have the creature Assimilation Aegis is attached to become a copy of that card when Assimilation Aegis's second ability resolves.
+  - *2024-04-12* — If you somehow exile multiple creature cards with the same Assimilation Aegis (probably because its first ability was copied or something caused it to trigger more than once), you choose one of the exiled creature cards each time its second triggered ability resolves. You don't have to choose the same one each time.
+  - *2024-04-12* — When Assimilation Aegis's second ability resolves, the creature Assimilation Aegis is attached to copies exactly what was printed on the original creature card and nothing else. It doesn't copy any information about the object the card was before it was exiled.
+  - *2024-04-12* — When the creature Assimilation Aegis is attached to becomes a copy of an exiled creature card, it's neither entering nor leaving the battlefield. Any enters-the-battlefield or leaves-the-battlefield abilities won't trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/192/assimilation-aegis) · oracle_id `6d39d218-254a-4886-907a-89df605d7ce4` · printing: OTJ #192 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Assquatch
 
@@ -1581,6 +1723,7 @@
   > *"Stop bleeding. It's distracting."*
   > *—Astarion, the Decadent*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3753 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/114/astarions-thirst) · oracle_id `0236ad13-d8e4-49b4-b397-fe2f6136665d` · printing: CLB #114 (2022-06-10) · [rulings](https://api.scryfall.com/cards/2366640a-ca4a-4325-8578-1ec78d0382cc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Astarion, the Decadent
@@ -1595,7 +1738,9 @@
   > • Friends — You gain life equal to the amount of life you gained this turn.
 - **Keywords:** Lifelink, Feed, Friends, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3749 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/265/astarion-the-decadent) · oracle_id `03048844-32bb-45a2-a754-73f75eaa4566` · printing: CLB #265 (2022-06-10) · [rulings](https://api.scryfall.com/cards/64d932b9-5682-4427-a871-7d452a488674/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-06-10* — Use the creature's power as it last existed on the battlefield to determine the value of X.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/265/astarion-the-decadent) · oracle_id `03048844-32bb-45a2-a754-73f75eaa4566` · printing: CLB #265 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Astelli Reclaimer
 
@@ -1608,7 +1753,13 @@
   > Warp {2}{W}
 - **Keywords:** Flying, Warp
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8585 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/4/astelli-reclaimer) · oracle_id `bb956492-e3ed-483a-9169-5b795a8e619e` · printing: EOE #4 (2025-08-01) · [rulings](https://api.scryfall.com/cards/4fb36405-cd28-432f-b0a4-e74ff8be928d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-07-25* — Astelli Reclaimer’s enters ability cares about the mana you actually paid to cast Astelli Reclaimer, not its mana cost. If you cast Astelli Reclaimer for {3}{W}{W}, X is 5. If you cast it with warp for {2}{W}, X is 3. Any effects that increase or decrease the cost to cast it will also be taken into account.
+  - *2025-07-25* — If a card in your graveyard has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
+  - *2025-07-25* — If a copy of Astelli Reclaimer is created on the stack, no mana was spent to cast the copy, so X will be 0. The amount of mana spent to cast the original spell is not copied.
+  - *2025-07-25* — If an effect allows you to cast Astelli Reclaimer without paying its mana cost, X will be 0.
+  - *2025-07-25* — If an effect requires you to pay some amount of mana to prevent Astelli Reclaimer from being countered, as Divert Disaster does, that mana wasn’t spent to cast Astelli Reclaimer and will not be taken into account.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/4/astelli-reclaimer) · oracle_id `bb956492-e3ed-483a-9169-5b795a8e619e` · printing: EOE #4 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Astonishing Spider-Man
 
@@ -1634,7 +1785,10 @@
   > Equipment you control have equip {1}.
   > Vehicles you control have crew 1.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4899 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/194/astor-bearer-of-blades) · oracle_id `196962f0-6aff-4198-9e0c-eaf42aeaf147` · printing: DMU #194 (2022-09-09) · [rulings](https://api.scryfall.com/cards/40f3a0ba-b917-488b-adbf-60a0d3c58a56/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-09-09* — Once either the equip {1} or crew 1 ability is activated, causing Astor, Bearer of Blades to leave the battlefield won't stop the ability from resolving.
+  - *2022-09-09* — You may still activate any other equip or crew abilities that permanent has if you wish.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/194/astor-bearer-of-blades) · oracle_id `196962f0-6aff-4198-9e0c-eaf42aeaf147` · printing: DMU #194 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Astral Confrontation
 
@@ -1656,7 +1810,10 @@
   > This artifact enters with X charge counters on it.
   > {T}: Choose a color. Add one mana of that color for each charge counter on this artifact.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1315 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/342/astral-cornucopia) · oracle_id `1bc42024-52da-4d93-8b47-544f0a4a72a1` · printing: SOC #342 (2026-04-24) · [rulings](https://api.scryfall.com/cards/15175742-11ae-4819-a5bd-412084b0b686/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-02-01* — If you choose 1 for the value of X, Astral Cornucopia will cost {3} to cast and enter the battlefield with one charge counter. If you choose 2 for the value of X, it will cost {6} to cast and enter the battlefield with two charge counters, and so on.
+  - *2014-02-01* — The last ability is a mana ability. It doesn't use the stack and can't be responded to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/342/astral-cornucopia) · oracle_id `1bc42024-52da-4d93-8b47-544f0a4a72a1` · printing: SOC #342 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Astral Dragon
 
@@ -1668,7 +1825,15 @@
   > Project Image — When this creature enters, create two tokens that are copies of target noncreature permanent, except they're 3/3 Dragon creatures in addition to their other types, and they have flying.
 - **Keywords:** Flying, Project Image
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2512 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/664/astral-dragon) · oracle_id `a20e2e1a-90d8-4073-96e9-efce86f0178e` · printing: CLB #664 (2022-06-10) · [rulings](https://api.scryfall.com/cards/670fbc63-4c9b-4e57-b53e-4ca4d7a224ba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2022-06-10* — Any enters-the-battlefield abilities of the copied permanent will trigger when the token enters the battlefield. Any “as [this permanent] enters the battlefield” or “[this permanent] enters the battlefield with” abilities of the chosen permanent will also work.
+  - *2022-06-10* — Except for power, toughness, types, and the flying ability, the token copies exactly what was printed on the original permanent and nothing else (unless that permanent is copying something else or is a token; see below). It doesn't copy whether that permanent is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, and so on.
+  - *2022-06-10* — If the copied permanent has {X} in its mana cost, X is considered to be 0.
+  - *2022-06-10* — If the copied permanent is a token, the new token that's created copies the original characteristics of that token, with the exceptions noted above.
+  - *2022-06-10* — If the copied permanent is copying something else, then the token enters the battlefield as whatever that permanent copied, with the exceptions noted above.
+  - *2022-06-10* — If you target an Aura with Astral Dragon's ability, no tokens will be created.
+  - *2022-06-10* — Since the tokens are creatures, they can't attack or {T} until your next turn if they don't have haste.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/664/astral-dragon) · oracle_id `a20e2e1a-90d8-4073-96e9-efce86f0178e` · printing: CLB #664 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Astral Drift
 
@@ -1679,7 +1844,12 @@
   > Cycling {2}{W} ({2}{W}, Discard this card: Draw a card.)
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9213 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c20/76/astral-drift) · oracle_id `7aa5db50-5057-45fd-bce9-fb4a5e874263` · printing: C20 #76 (2020-04-17) · [rulings](https://api.scryfall.com/cards/07a2c7fa-7aea-4da4-b7d5-9c24f5024c74/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2019-06-14* — Astral Drift's triggered ability resolves before the cycling ability does. You won't draw until after you choose the target and choose whether to exile the creature.
+  - *2019-06-14* — Auras attached to the exiled creature will be put into their owners' graveyards. Equipment attached to the exiled creature will become unattached and remain on the battlefield. Any counters on the exiled creature will cease to exist. Once the exiled creature returns, it's considered a new object with no relation to the object that it was.
+  - *2019-06-14* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
+  - *2019-06-14* — If you cycle a card during a player's end step, the exiled creature will remain exiled until the next turn's end step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c20/76/astral-drift) · oracle_id `7aa5db50-5057-45fd-bce9-fb4a5e874263` · printing: C20 #76 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Astral Slide
 
@@ -1727,7 +1897,15 @@
   > Brand-new Sky — Whenever you sacrifice a Clue or Food, Astrid Peth explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)
 - **Keywords:** Brand-new Sky, Food, Explore
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5519 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/11/astrid-peth) · oracle_id `fa55177c-ba65-4113-9c05-2d63318cf7c5` · printing: WHO #11 (2023-10-13) · [rulings](https://api.scryfall.com/cards/4cda3aa2-5fac-4188-bdad-dc369a089d00/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-10-13* — If a resolving spell or ability instructs a specific creature to explore but that creature has left the battlefield, the creature still explores. If you reveal a nonland card this way, you won't put a +1/+1 counter on anything, but you may put the revealed card into your graveyard. Effects that trigger "whenever a creature you control explores" trigger if appropriate.
+  - *2023-10-13* — If no card is revealed, most likely because that player's library is empty, the exploring creature receives a +1/+1 counter.
+  - *2023-10-13* — Once an ability that causes a creature to explore begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the exploring creature after you reveal a nonland card but before it receives a counter.
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, you can sacrifice Tough Cookie (an Artifact Creature — Food Golem) to activate Maraleaf Rider's ability (an ability with "Sacrifice a Food" in its cost).
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/11/astrid-peth) · oracle_id `fa55177c-ba65-4113-9c05-2d63318cf7c5` · printing: WHO #11 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Astrolabe
 
@@ -1748,7 +1926,13 @@
   > Diana — Equip {2}
 - **Keywords:** Job select, Diana, Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5171 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/46/astrologians-planisphere) · oracle_id `4dcd0583-cee0-46a6-ba43-93bca5eb0428` · printing: FIN #46 (2025-06-13) · [rulings](https://api.scryfall.com/cards/bfa4e927-1d6f-4a64-9801-7d168a5ef3f6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-06-06* — Astrologian's Planisphere doesn't need to have been attached to a creature you control when the first or second card is drawn for the granted ability to trigger. As long as a creature you control has the granted ability when you draw your third card in a turn, that ability will trigger.
+  - *2025-06-06* — If the Hero token is destroyed, the Equipment stays on the battlefield.
+  - *2025-06-06* — If the job select ability causes two Hero tokens to be created (due to an effect such as that of Doubling Season), the Equipment becomes attached to only one of them.
+  - *2025-06-06* — The Hero token enters as a 1/1 creature, then the Equipment becomes attached to it. Abilities that trigger when a creature enters the battlefield see that a 1/1 creature entered the battlefield.
+  - *2025-06-06* — You may pay the Equipment's equip cost as normal to move it from the Hero token to another creature you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/46/astrologians-planisphere) · oracle_id `4dcd0583-cee0-46a6-ba43-93bca5eb0428` · printing: FIN #46 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Astroquarium
 
@@ -1783,4 +1967,17 @@
   > *"The ravings of the mad are laced with eldritch knowledge."*
 - **Keywords:** Madness
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7269 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/96/asylum-visitor) · oracle_id `870deab4-8570-40e9-aeda-ac3726cebb84` · printing: INR #96 (2025-01-24) · [rulings](https://api.scryfall.com/cards/02046824-6c48-40bb-9f0b-4fd280c6ed85/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2016-04-08* — Asylum Visitor's triggered ability checks the active player's hand as the upkeep begins and as the trigger resolves. If that player has a card in hand as it resolves, you won't draw a card or lose 1 life. Notably, if you control multiple Asylum Visitors during your upkeep, whichever one's first ability resolves first will stop the other's first ability from having any effect unless you have a way to get the card you drew out of your hand before it resolves.
+  - *2016-04-08* — On an opponent's turn, triggered abilities you control will resolve before any triggered abilities of permanents that opponent controls if they trigger at the same time. This means that if you and your opponent each control an Asylum Visitor during your opponent's upkeep, and they have no cards in hand, you'll always draw a card before your opponent has a card in their hand.
+  - *2016-04-08* — The upkeep step is before the draw step, after the untap step. Asylum Visitor's first ability will trigger and resolve before the active player draws a card in their draw step if that player has no cards in hand.
+  - *2022-12-08* — A card with madness that's discarded counts as having been discarded even though it's put into exile rather than a graveyard. If it was discarded to pay a cost, that cost is still paid. Abilities that trigger when a card is discarded will still trigger.
+  - *2022-12-08* — A spell cast for its madness cost is put onto the stack like any other spell. It can be countered, copied, and so on. As it resolves, it's put onto the battlefield if it's a permanent card or into its owner's graveyard if it's an instant or sorcery card.
+  - *2022-12-08* — Cards are discarded in a Magic game only from a player's hand. Effects that put cards into a player's graveyard from anywhere else do not cause those cards to be discarded.
+  - *2022-12-08* — Casting a spell with madness ignores the timing rules based on the card's card type. For example, you can cast a sorcery with madness if you discard it during an opponent's turn.
+  - *2022-12-08* — If you choose not to cast a card with madness when the madness triggered ability resolves, it's put into your graveyard. Madness doesn't give you another chance to cast it later.
+  - *2022-12-08* — If you discard a card with madness to pay the cost of a spell or activated ability, that card's madness triggered ability (and the spell that card becomes, if you choose to cast it) will resolve before the spell or ability the discard paid for.
+  - *2022-12-08* — If you discard a card with madness while a spell or ability is resolving, it moves immediately to exile. Continue resolving that spell or ability, noting that the card you discarded is not in your graveyard at this time. Its madness triggered ability will be placed onto the stack once that spell or ability has completely resolved.
+  - *2022-12-08* — Madness works independently of why you're discarding the card. You could discard it to pay a cost, because a spell or ability tells you to, or because you have too many cards in your hand during your cleanup step. You can't discard a card with madness just because you want to, though.
+  - *2022-12-08* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a madness cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/96/asylum-visitor) · oracle_id `870deab4-8570-40e9-aeda-ac3726cebb84` · printing: INR #96 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

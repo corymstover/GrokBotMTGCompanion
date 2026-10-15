@@ -23,6 +23,7 @@
   > Artifacts you control have "{T}: Add {U}. Spend this mana only to cast a spell from anywhere other than your hand."
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4897 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/68/mmmenon-the-right-hand) · oracle_id `de58fa4b-eeeb-4dc8-aab9-6521b15678cc` · printing: EOE #68 (2025-08-01) · [rulings](https://api.scryfall.com/cards/82add0a0-e402-4b31-b101-81c0bf332015/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mm'menon, Uthros Exile
@@ -38,4 +39,5 @@
   > *—Tezzeret*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9106 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/221/mmmenon-uthros-exile) · oracle_id `6c05b882-51d9-43d8-93b8-c3317590f76a` · printing: EOE #221 (2025-08-01) · [rulings](https://api.scryfall.com/cards/5546c044-5826-48c3-9d28-866f3c3c5f2c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -83,7 +83,24 @@
   > For each opponent, you create a 1/1 black and green Pest creature token with "When this token dies, you gain 1 life."
 - **Keywords:** Trample, Prepared
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7035 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/46/eccentric-pestfinder-turn-stones) · oracle_id `dfaa02d4-4f3c-4e5d-b9e5-283a45395a53` · printing: SOC #46 (2026-04-24) · [rulings](https://api.scryfall.com/cards/508e1dd7-edbd-4b76-90bc-ff58c55b58a3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (16):
+  - *2026-03-20* — A creature with a prepare spell can't become prepared more than once at the same time. For example, Emeritus of Ideation is on the battlefield and is prepared. When it attacks, its last ability triggers. When that ability resolves, its controller may still exile eight cards from their graveyard, but doing so won't cause Emeritus of Ideation to become prepared a second time or create a second copy of Ancestral Recall in exile.
+  - *2026-03-20* — A creature without a prepare spell can't become prepared.
+  - *2026-03-20* — A preparation card is a creature card in every zone. For example, while it's in your graveyard, Emeritus of Ideation is a blue creature whose mana value is 5. It can't be the target of Zealous Lorecaster's triggered ability ("When this creature enters, return target instant or sorcery card from your graveyard to your hand.").
+  - *2026-03-20* — As an effect causes a creature with a prepare spell to become prepared (including effects that state that a creature "enters prepared"), that creature's controller creates a copy of that creature's prepare spell in exile. That copy remains in exile for as long as that permanent is on the battlefield and is prepared. That creature's controller may cast that copy as long as it remains in exile. As they cast it, that creature stops being prepared.
+  - *2026-03-20* — Being prepared isn't a copiable value. If a permanent becomes a copy of a prepared creature, it won't be prepared. That permanent will have the alternative characteristics, though, and some other effect could cause it to become prepared later.
+  - *2026-03-20* — Casting a copy of a prepare spell from exile isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to a copy of a prepare spell cast from exile.
+  - *2026-03-20* — Creating a copy of a creature's prepare spell in exile ignores copy exceptions applied to that creature that would affect the copiable values of that spell. For example, say a player casts Croaking Counterpart (a sorcery that says "Create a token that's a copy of target non-Frog creature, except it's a 1/1 green Frog.") targeting Goblin Glasswright. The token copy of Goblin Glasswright will enter prepared as a 1/1 green Frog creature, but the copy of Craft with Pride in exile will still be a red sorcery. The copy of Craft with Pride won't be green, a creature, or a Frog, and it won't have power or toughness.
+  - *2026-03-20* — Eccentric Pestfinder's last ability will check as your end step starts to see if you gained life this turn. If you didn't, the ability won't trigger at all. It's not possible to gain life during your end step in time to have the ability trigger.
+  - *2026-03-20* — If a prepare spell with one or more targets has no legal targets when it tries to resolve, it won't resolve and none of its effects will happen. Since the spell was cast, the associated permanent will still not be prepared.
+  - *2026-03-20* — If a prepared creature loses all abilities, it won't stop being prepared, and nothing will happen to its alternative characteristics or to the copy of its prepare spell in exile.
+  - *2026-03-20* — If a prepared creature stops being a creature, it will still be prepared, and the copy of its prepare spell will remain in exile. That permanent's controller will still be able to cast it. The same is true if a prepared creature becomes a copy of something else, even if it's then a permanent without a prepare spell.
+  - *2026-03-20* — If an effect causes a creature to become unprepared, a prepared creature stops being prepared and the associated copy of its prepare spell in exile ceases to exist. If it wasn't prepared at that time, nothing happens.
+  - *2026-03-20* — If an effect instructs you to choose a card name, you may choose the alternative prepare spell's name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2026-03-20* — Only the current controller of a prepared creature can cast the copy of its prepare spell in exile. It doesn't matter who owns that creature or who controlled it when it became prepared.
+  - *2026-03-20* — Preparation cards can only be cast with their base characteristics.
+  - *2026-03-20* — While copies of spells in zones other than the stack cease to exist when state-based actions are checked, this does not apply to copies of prepare spells in exile that were created as a creature became prepared.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/46/eccentric-pestfinder-turn-stones) · oracle_id `dfaa02d4-4f3c-4e5d-b9e5-283a45395a53` · printing: SOC #46 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Echocasting Symposium
 
@@ -94,7 +111,15 @@
   > Paradigm (Then exile this spell. After you first resolve a spell with this name, you may cast a copy of it from exile without paying its mana cost at the beginning of each of your first main phases.)
 - **Keywords:** Paradigm
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4326 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/44/echocasting-symposium) · oracle_id `d88c3554-18db-4e5e-a979-2402990a0311` · printing: SOS #44 (2026-04-24) · [rulings](https://api.scryfall.com/cards/5d7086a7-dc42-468a-a2cf-a6f89030f947/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2026-03-20* — Any enters abilities of the copied creature will trigger when the token enters. Any "as [this creature] enters" or "[this creature] enters with" abilities of the copied permanent will also work.
+  - *2026-03-20* — Each spell with paradigm has the Lesson subtype. The Lesson subtype appears on instants and sorceries and has no inherent rules meaning. Other effects (such as the learn ability from the original Strixhaven release) may refer to it.
+  - *2026-03-20* — If the copied permanent is a token, the token that's created copies the original characteristics of that token as stated by the effect that created the token.
+  - *2026-03-20* — If the copied permanent is copying something else, then the token enters as whatever that permanent copied.
+  - *2026-03-20* — Once a spell with paradigm has resolved, it doesn't matter what happens to the card in exile. Even if the card leaves exile, the delayed triggered ability will still trigger during each of your first main phases, and the copy will still be created.
+  - *2026-03-20* — Paradigm creates a delayed triggered ability that triggers at the beginning of each of your first main phases for the rest of the game. When that ability resolves and the copy is created, you can choose not to cast the copy. In that case, the copy will cease to exist the next time state-based actions are checked. The delayed triggered ability will still trigger again at the beginning of your first main phase on your next turn regardless.
+  - *2026-03-20* — The token created by Echocasting Symposium copies exactly what was printed on the original creature and nothing else (unless that creature is copying something else or is a token; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on. If it is a Vehicle, it is not crewed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/44/echocasting-symposium) · oracle_id `d88c3554-18db-4e5e-a979-2402990a0311` · printing: SOS #44 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Echo Chamber
 
@@ -126,7 +151,21 @@
   > If a triggered ability of a colorless spell you control or another colorless permanent you control triggers, that ability triggers an additional time.
   > Whenever you cast a colorless spell, copy it. You may choose new targets for the copy. (A copy of a permanent spell becomes a token.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1466 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/4/echoes-of-eternity) · oracle_id `23a79523-4be0-4d17-80aa-5ea024cb3463` · printing: MH3 #4 (2024-06-14) · [rulings](https://api.scryfall.com/cards/b28b9bee-d726-407b-9e5b-2231384df81e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2024-06-07* — Abilities that apply "as [this permanent] enters the battlefield" or "as [this permanent] is turned face up" are also unaffected.
+  - *2024-06-07* — Abilities that apply "when [this permanent] is turned face up" will trigger an additional time only if that permanent is colorless once it has been turned face up.
+  - *2024-06-07* — Echoes of Eternity's first ability doesn't copy the triggered ability; it just causes the ability to trigger an additional time. Any choices made as you put the ability onto the stack, such as modes and targets, are made separately for each instance of the ability. Any choices made on resolution, such as whether to put counters on a permanent, are also made individually.
+  - *2024-06-07* — If a triggered ability is linked to a second ability, additional instances of that triggered ability are also linked to that second ability. If the second ability refers to "the exiled card," it refers to all cards exiled by instances of the triggered ability.
+  - *2024-06-07* — If you control two copies of Echoes of Eternity and you cast a colorless spell, each of their second abilities will trigger. Then, each of their first abilities will cause the other's second ability to trigger an additional time. In total, you'll get four copies of the spell in addition to the original spell. If you control three copies of Echoes of Eternity, you'll end up with nine copies of the spell plus the original. Four copies of Echoes of Eternity means sixteen copies of the spell plus the original, five means twenty-five copies plus the original, and so on.
+  - *2024-06-07* — If you control two copies of Echoes of Eternity, abilities of colorless spells and other colorless permanents you control trigger three times. A third Echoes of Eternity causes such abilities to trigger four times, a fourth causes such abilities to trigger five times, and so on.
+  - *2024-06-07* — In some cases involving linked abilities, an ability requires information about "the exiled card." When this happens, the ability gets multiple answers. If these answers are being used to determine the value of a variable, the sum is used. For example, if Elite Arcanist's enters-the-battlefield ability triggers twice, two cards are exiled. The value of X in the activation cost of Elite Arcanist's other ability is the sum of the two cards' mana values. As the ability resolves, you create copies of both cards and can cast none, one, or both of the copies in any order.
+  - *2024-06-07* — Kindred is a card type that allows noncreature cards to have creature types. For example, Echoes of Eternity is an Eldrazi (although not a creature) while on the battlefield and an Eldrazi card (although not a creature card) in zones other than the battlefield.
+  - *2024-06-07* — Once an ability of a permanent you control has triggered, making it colorless won't cause that ability to trigger an additional time. Similarly, once an ability of a colorless permanent has triggered an additional time due to Echoes of Eternity's first ability, giving that permanent one or more colors won't remove that additional triggered ability from the stack.
+  - *2024-06-07* — Replacement effects are unaffected by Echoes of Eternity's first ability. For example, a colorless creature that enters the battlefield under your control with one +1/+1 counter on it won't receive an additional +1/+1 counter.
+  - *2024-06-07* — The copy created by Echoes of Eternity's last ability is put directly onto the stack. It isn't cast, so any abilities that apply "when you cast [this spell]" won't trigger.
+  - *2024-06-07* — Triggered abilities use the word "when," "whenever," or "at." They're often written as "[Trigger condition], [effect]." Some keyword abilities are triggered abilities and will have "when," "whenever," or "at the beginning of" in their reminder text.
+  - *2024-06-07* — While it appears only on cards that already have other card types, kindred is a card type and will be counted by effects that refer to the number of card types among cards in a zone.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/4/echoes-of-eternity) · oracle_id `23a79523-4be0-4d17-80aa-5ea024cb3463` · printing: MH3 #4 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Echoes of the Kin Tree
 
@@ -148,7 +187,13 @@
   > Creature tokens you control have menace.
   > Whenever you attack a player, choose target nontoken creature that's attacking that player. Create a token that's a copy of that creature, except it's 1/1. The token enters tapped and attacking that player. Sacrifice it at the beginning of the next end step.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3599 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blc/24/echoing-assault) · oracle_id `d15dba3a-3b85-43fb-b5f3-c4d8d1e23b1d` · printing: BLC #24 (2024-08-02) · [rulings](https://api.scryfall.com/cards/3213bfee-c0a0-49a2-9080-cdaa09b414c5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-07-26* — Although the token enters attacking, it was never declared as an attacking creature. Abilities that trigger whenever a creature attacks won't trigger when that creature enters attacking.
+  - *2024-07-26* — Any "enters" abilities of the copied creature will trigger when the token enters. Any "as [this creature] enters" or "[this creature] enters with" abilities of the copied creature will also work.
+  - *2024-07-26* — If you attack multiple players in the same declare attackers step, Echoing Assault's last ability triggers once for each player you attacked.
+  - *2024-07-26* — In the case where the target creature is copying something else when Echoing Assault's second ability resolves, then the token enters as whatever that creature copied, except it's a 1/1.
+  - *2024-07-26* — The token copies exactly what was printed on the original creature and nothing else, except it's a 1/1 (unless that creature is copying something else; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its types, color, or so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blc/24/echoing-assault) · oracle_id `d15dba3a-3b85-43fb-b5f3-c4d8d1e23b1d` · printing: BLC #24 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Echoing Boon
 
@@ -227,7 +272,11 @@
 - **Flavor text** (LCI printing):
   > *The still, silent waters reflect what was, not what is.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2519 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/271/echoing-deeps) · oracle_id `2ef88214-f46d-473e-a55b-795a647e2f03` · printing: LCI #271 (2023-11-17) · [rulings](https://api.scryfall.com/cards/244c06b3-532d-426e-8bee-ee9461d092a6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-11-10* — Any enters-the-battlefield abilities of the copied land card will trigger when Echoing Deeps enters the battlefield. Any "as [this land] enters the battlefield" or "[this land] enters the battlefield with" abilities of the chosen land card will also work.
+  - *2023-11-10* — Echoing Deeps copies exactly what was printed on the original land card, with the noted exception.
+  - *2023-11-10* — If you choose to have Echoing Deeps not copy anything, it enters the battlefield untapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/271/echoing-deeps) · oracle_id `2ef88214-f46d-473e-a55b-795a647e2f03` · printing: LCI #271 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Echoing Echo
 
@@ -247,7 +296,9 @@
 - **Flavor text** (MH2 printing):
   > *A single ambition unleashes a legion of horrors.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6392 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/83/echoing-return) · oracle_id `591fe685-767e-4e6e-905e-cc8b423caa19` · printing: MH2 #83 (2021-06-18) · [rulings](https://api.scryfall.com/cards/39eb0e67-f989-4430-b2d6-b8b647f0b7ca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-06-18* — If the target is illegal as Echoing Return tries to resolve (most likely because it is no longer in your graveyard), it will be removed from the stack and do nothing, even if there are cards with the same name in your graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/83/echoing-return) · oracle_id `591fe685-767e-4e6e-905e-cc8b423caa19` · printing: MH2 #83 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Echoing Ruin
 
@@ -269,6 +320,7 @@
 - **Flavor text** (DMC printing):
   > *A single lie unleashes a tide of disbelief.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9900 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/109/echoing-truth) · oracle_id `ef100544-3e6d-4661-a1d1-8b02e58c059c` · printing: DMC #109 (2022-09-09) · [rulings](https://api.scryfall.com/cards/5d987d26-c8e8-4edf-8ac0-6a2980265710/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Echo Inspector
@@ -327,7 +379,15 @@
   > *The present is a matter of perspective.*
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2610 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/46/echo-of-eons) · oracle_id `23d3e5fe-3f82-44cf-91a1-6646a12a0255` · printing: MH1 #46 (2019-06-14) · [rulings](https://api.scryfall.com/cards/ff590af2-2d6c-4f16-a9b8-1a6dab6e9ad5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2019-06-14* — Echo of Eons won't be put into your graveyard until after it's finished resolving, which means it won't be shuffled into your library as part of its own effect.
+  - *2021-03-19* — "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2021-03-19* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2021-03-19* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2021-03-19* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/46/echo-of-eons) · oracle_id `23d3e5fe-3f82-44cf-91a1-6646a12a0255` · printing: MH1 #46 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Echo, Perceptive Prodigy
 
@@ -385,6 +445,7 @@
 - **Oracle text:**
   > When this creature enters, look at the top four cards of your library. You may reveal an Elf, Swamp, or Forest card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7937 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/218/eclipsed-elf) · oracle_id `7c89ef4d-b375-4644-ac8b-034effdbe98c` · printing: ECL #218 (2026-01-23) · [rulings](https://api.scryfall.com/cards/9c8579f3-6125-4f22-b1c2-b7a0cfc50eed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eclipsed Flamekin
@@ -395,6 +456,7 @@
 - **Oracle text:**
   > When this creature enters, look at the top four cards of your library. You may reveal an Elemental, Island, or Mountain card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8657 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/219/eclipsed-flamekin) · oracle_id `48c641df-d511-4e35-b623-9d1fdb5240da` · printing: ECL #219 (2026-01-23) · [rulings](https://api.scryfall.com/cards/d907ae44-cd07-4409-946c-e97f584d9a81/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eclipsed Kithkin
@@ -426,7 +488,9 @@
   > {T}: Add {C}.
   > {T}: Add one mana of any color. Spend this mana only to cast a spell of the chosen type or activate an ability of a source of the chosen type.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3101 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/263/eclipsed-realms) · oracle_id `5715ed43-395c-4877-99a7-8e28e7bf9dce` · printing: ECL #263 (2026-01-23) · [rulings](https://api.scryfall.com/cards/a174f0db-8b4f-4c37-9583-44c92d37b9c0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-11-17* — Sources of the chosen creature type include any objects with the chosen subtype. For example, if you chose Kithkin, you could spend the mana to activate the ability of a Kithkin permanent you control or a Kithkin card in your hand or graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/263/eclipsed-realms) · oracle_id `5715ed43-395c-4877-99a7-8e28e7bf9dce` · printing: ECL #263 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eclipsed Steppe
 
@@ -438,7 +502,10 @@
 - **Flavor text** (SOC printing):
   > *The Arch Obscura never appears for the same eyes twice. Those who bear witness either find peace in their own insignificance or dread in the unnatural twilight.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3373 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/53/eclipsed-steppe) · oracle_id `6216635f-8e6e-40a3-9659-ef6352ab92ce` · printing: SOC #53 (2026-04-24) · [rulings](https://api.scryfall.com/cards/d890999a-dcc7-479e-b0f0-60388c737043/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2026-03-20* — If this land enters the battlefield at the same time as any number of basic lands, those other lands are not counted when determining if this land enters the battlefield tapped or untapped.
+  - *2026-03-20* — Unlike some other dual lands, Eclipsed Steppe has two basic land types. It's not basic, so effects that search for basic lands can't find it, but it does have the appropriate land types for effects such as that of Shineshadow Snarl (included in the Secrets of Strixhaven Commander decks).
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/53/eclipsed-steppe) · oracle_id `6216635f-8e6e-40a3-9659-ef6352ab92ce` · printing: SOC #53 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ecological Appreciation
 

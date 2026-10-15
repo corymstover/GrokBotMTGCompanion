@@ -34,6 +34,7 @@
 - **Flavor text** (FDN printing):
   > *Catching even a glimpse of one is the start of eight years of good luck.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3545 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/240/good-fortune-unicorn) · oracle_id `1e0cdff3-3ec5-41fc-8053-f072bae156b3` · printing: FDN #240 (2024-11-15) · [rulings](https://api.scryfall.com/cards/eabbe163-2b15-42e3-89ce-7363e6250d3a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Good Knight

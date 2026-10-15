@@ -44,7 +44,11 @@
 - **Flavor text** (LTC printing):
   > *On the growing of vegetables, especially potatoes, Master Hamfast Gamgee was recognized as the leading authority by all in the neighborhood.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1624 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/12/the-gaffer) · oracle_id `a177295e-3b58-4e46-a1cb-fc003a7a0848` · printing: LTC #12 (2023-06-23) · [rulings](https://api.scryfall.com/cards/863ed552-dc6d-4910-b188-3cefc3ebf0ed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-06-16* — If you haven't gained 3 or more life by the time an end step begins, The Gaffer's ability won't trigger at all.
+  - *2023-06-16* — The Gaffer's ability looks at how much life you've gained in the turn, even if it wasn't on the battlefield when you gained life. It doesn't care if you also lost life, even if you lost more life than you gained.
+  - *2023-06-16* — You draw just one card, no matter how much life you've gained past 3 life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/12/the-gaffer) · oracle_id `a177295e-3b58-4e46-a1cb-fc003a7a0848` · printing: LTC #12 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Game-Changing Host
 
@@ -118,7 +122,9 @@
   > Whenever one or more land cards are put into your graveyard from anywhere, draw a card.
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #911 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/117/the-gitrog-monster) · oracle_id `a5e54d2b-aad8-4ddd-af4b-13668913762b` · printing: EOC #117 (2025-08-01) · [rulings](https://api.scryfall.com/cards/40489e28-878d-44a2-847f-07beef1aa0f8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-01-24* — If multiple land cards are put into your graveyard at once, The Gitrog Monster's last ability triggers only once. This could happen because an effect put them there from your library at the same time (such as by a mill effect) or because they were destroyed at the same time (such as two land creatures that were dealt lethal combat damage).
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/117/the-gitrog-monster) · oracle_id `a5e54d2b-aad8-4ddd-af4b-13668913762b` · printing: EOC #117 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Gitrog, Ravenous Ride
 
@@ -131,7 +137,16 @@
   > Saddle 1
 - **Keywords:** Saddle, Haste, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4290 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/206/the-gitrog-ravenous-ride) · oracle_id `7739311a-682b-48a6-8db2-c07f44141751` · printing: OTJ #206 (2024-04-19) · [rulings](https://api.scryfall.com/cards/82512813-8618-483b-a7f0-e6a611d9d487/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2024-04-12* — "Saddle N" means "Tap any number of other untapped creatures you control with total power N or greater: This permanent becomes saddled until end of turn. Activate only as a sorcery."
+  - *2024-04-12* — "Saddled" isn't an ability that a creature has. It's just something true about that creature. It won't stop being saddled until the turn ends or it leaves the battlefield.
+  - *2024-04-12* — An ability that triggers when a creature "attacks while saddled" will trigger only if that creature was saddled when it was declared as an attacker.
+  - *2024-04-12* — Creatures with saddle can attack or block as normal even if they aren't saddled.
+  - *2024-04-12* — If a permanent becomes a copy of a saddled Mount, the copy won't be saddled.
+  - *2024-04-12* — Putting one or more land cards onto the battlefield with The Gitrog's triggered ability doesn't count as playing a land. It can put land cards onto the battlefield even if you've already played your land for the turn.
+  - *2024-04-12* — Use the power of the sacrificed creature as it last existed on the battlefield to determine the value of X.
+  - *2024-04-12* — You may activate a permanent's saddle ability even if that permanent is already saddled.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/206/the-gitrog-ravenous-ride) · oracle_id `7739311a-682b-48a6-8db2-c07f44141751` · printing: OTJ #206 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Goblin Mastermind
 
@@ -165,7 +180,15 @@
   > A Thousand Souls Die Every Day — {T}, Sacrifice a creature: Add three mana in any combination of colors.
 - **Keywords:** Arcane Life-support, A Thousand Souls Die Every Day
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4479 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/40k/157/the-golden-throne) · oracle_id `a68f41a2-37ee-46e1-bf3c-164c78b003ca` · printing: 40K #157 (2022-10-07) · [rulings](https://api.scryfall.com/cards/fa515b78-f54d-4c65-a197-c860eaf2c780/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2022-10-07* — For your life total to become 1, you will gain or lose the appropriate amount of life. For example, if your life total is -4 when The Golden Throne's ability applies, it will cause you to gain 5 life. Alternatively, if your life total is 20 when it applies (perhaps because you tried to draw a card from an empty library), you will lose 19 life. Other cards that interact with life gain or life loss will interact with this effect accordingly. Notably, this means that if you can't gain life or the life gain event is modified by another replacement effect, you might still have 0 or less life and still lose the game.
+  - *2022-10-07* — If a spell or ability both destroys The Golden Throne and deals enough damage to you to reduce your life total to zero or less, you will still lose the game. This is because the state-based action that causes a player to lose the game due to having zero or less life won't be performed until after the spell or ability finishes resolving. At that point, The Golden Throne is no longer on the battlefield to apply its replacement effect.
+  - *2022-10-07* — If an effect says that you can't lose the game, The Golden Throne's first ability doesn't apply.
+  - *2022-10-07* — If an effect states that an opponent wins the game, The Golden Throne's effect doesn't apply.
+  - *2022-10-07* — In a Two-Headed Giant game, The Golden Throne's ability set's the team's life total to 1, but only you gain or lose life.
+  - *2022-10-07* — The Golden Throne's effect applies any time you would lose the game while it is on the battlefield, even if you're not losing due to your life total being 0 or less. If you would have lost the game because you tried to draw from an empty library, your life total becomes 1 and you won't lose again until you try to draw again and still can't do so. If you would have lost the game due to having ten or more poison counters, your life total becomes 1, but you will lose the game immediately afterward because you still have ten or more poison counters.
+  - *2022-10-07* — The Golden Throne's effect does nothing if you concede the game. A player who concedes leaves the game.
+- **Source flags:** [Scryfall](https://scryfall.com/card/40k/157/the-golden-throne) · oracle_id `a68f41a2-37ee-46e1-bf3c-164c78b003ca` · printing: 40K #157 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Gold Saucer
 
@@ -179,7 +202,9 @@
   > *After relaxing at Costa del Sol, stop by the Gold Saucer. It's a rich and exciting place to play!*
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3331 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/279/the-gold-saucer) · oracle_id `93e38650-ce22-4ab9-b79d-cc7b6477c075` · printing: FIN #279 (2025-06-13) · [rulings](https://api.scryfall.com/cards/5363c881-443d-43df-afd8-f81e1a1741a2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-06-06* — Town is a land type with no special meaning. It doesn't grant the land any intrinsic abilities. Other cards may care about which lands are Towns.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/279/the-gold-saucer) · oracle_id `93e38650-ce22-4ab9-b79d-cc7b6477c075` · printing: FIN #279 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Good Gamers
 
@@ -216,7 +241,12 @@
   > Whenever The Goose Mother attacks, you may sacrifice a Food. If you do, draw a card.
 - **Keywords:** Flying, Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2956 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/312/the-goose-mother) · oracle_id `de595f1b-3f7d-45e0-a31b-ed23e5d1ee48` · printing: SOC #312 (2026-04-24) · [rulings](https://api.scryfall.com/cards/a094fa16-256f-4fb1-9738-3025085d1941/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, you can sacrifice Tough Cookie (an Artifact Creature — Food Golem) to activate Maraleaf Rider's ability (an ability with "Sacrifice a Food" in its cost).
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/312/the-goose-mother) · oracle_id `de595f1b-3f7d-45e0-a31b-ed23e5d1ee48` · printing: SOC #312 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Grand Calcutron
 
@@ -258,7 +288,9 @@
   > Whenever you put one or more counters on a Goblin, Orc, or Army you control, The Great Goblin deals 2 damage to target opponent.
   > Whenever another Goblin, Orc, or Army you control dies, exile the top card of your library. You may play it until the end of your next turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9041 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/hob/158/the-great-goblin) · oracle_id `83dcfac0-6efd-4e37-9402-15f9889e84e1` · printing: HOB #158 (2026-08-14) · [rulings](https://api.scryfall.com/cards/78d8f53e-537d-4eaa-99e3-cac57fa53d22/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-06-29* — You pay all costs and follow all timing rules for cards played this way. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty and only if you have an available land play remaining.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hob/158/the-great-goblin) · oracle_id `83dcfac0-6efd-4e37-9402-15f9889e84e1` · printing: HOB #158 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Great Henge
 
@@ -314,6 +346,7 @@
   > *There dwelt Círdan the Shipwright, and some say he dwells there still, until the Last Ship sets sail into the West.*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1560 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/255/the-grey-havens) · oracle_id `a1a9695e-073b-4a65-b3ec-2cfddc23202a` · printing: LTR #255 (2023-06-23) · [rulings](https://api.scryfall.com/cards/dd698f10-b0fc-42fc-84ec-f5a0d96bfa1d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Grim Captain's Locker

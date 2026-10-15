@@ -92,7 +92,10 @@
   > Equip {2}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3227 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/35/infantry-shield) · oracle_id `71c68002-1489-4858-a8fb-1f575641983e` · printing: TDC #35 (2025-04-11) · [rulings](https://api.scryfall.com/cards/37332798-462e-49d3-b197-72411ccf67e5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-04-04* — Although the Warrior tokens enter as attacking creatures, they were never declared as attacking creatures. Abilities that trigger whenever a creature attacks won’t trigger when the tokens enter attacking.
+  - *2025-04-04* — You choose the player, planeswalker, or battle each Warrior token is attacking. They don’t all have to attack the same one, and they don’t have to attack the same player, planeswalker, or battle as the creature with mobilize.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/35/infantry-shield) · oracle_id `71c68002-1489-4858-a8fb-1f575641983e` · printing: TDC #35 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infantry Veteran
 
@@ -141,6 +144,7 @@
   > *"Let me tell you why you must never close your eyes when on watch. Not even for a second."*
   > *—Jor Kadeen*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2763 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/172/infectious-bite) · oracle_id `7b740cd6-e07d-4273-8a7f-e084bdaf0f1c` · printing: ONE #172 (2023-02-10) · [rulings](https://api.scryfall.com/cards/83dfb2a5-cd5c-46c6-9bb8-7c5d00f3e003/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infectious Bloodlust
@@ -189,6 +193,7 @@
 - **Flavor text** (ONE printing):
   > *"I give you pain, you give me information. A simple trade, is it not?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2482 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/97/infectious-inquiry) · oracle_id `66051196-53ea-4461-b241-205df9395b3b` · printing: ONE #97 (2023-02-10) · [rulings](https://api.scryfall.com/cards/0a10f284-b043-4307-bdc7-6dad47cc9221/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infectious Rage
@@ -385,7 +390,10 @@
 - **Flavor text** (ISD printing):
   > *"Oh mighty Griselbrand, Scourge of the Heedless World, gladly I consume myself for thee!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3044 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/isd/148/infernal-plunge) · oracle_id `0b67dff0-5bb7-44fe-a72b-d3b1a6c0ee72` · printing: ISD #148 (2011-09-30) · [rulings](https://api.scryfall.com/cards/b3f50e17-c29c-4d2c-b3e7-45d1216b81ea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-04-15* — Players can only respond once this spell has been cast and all its costs have been paid. No one can try to destroy the creature you sacrificed to prevent you from casting this spell.
+  - *2013-04-15* — You must sacrifice exactly one creature to cast this spell; you cannot cast it without sacrificing a creature, and you cannot sacrifice additional creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/isd/148/infernal-plunge) · oracle_id `0b67dff0-5bb7-44fe-a72b-d3b1a6c0ee72` · printing: ISD #148 (2011-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infernal Rebirth
 
@@ -591,7 +599,11 @@
   > *The ancient dragon Imvaernarhro has earned his fiery nickname.*
 - **Keywords:** Flying, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6364 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/151/inferno-of-the-star-mounts) · oracle_id `cd54438d-7f9d-4d80-b15b-0f0bf4becc15` · printing: AFR #151 (2021-07-23) · [rulings](https://api.scryfall.com/cards/c788c6a6-20d9-4a93-a898-330b085226c4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-07-23* — However, if you have a way to decrease its power, you can cause the triggered ability to trigger multiple times in a single turn.
+  - *2021-07-23* — That triggered ability triggers only if the activated ability causes the power of Inferno of the Star Mounts to become exactly 20. If its power becomes 20 in any other way, the ability won't trigger. If its power becomes 21 or greater this way, the ability won't trigger.
+  - *2021-07-23* — You don't choose a target when you activate the activated ability. You choose a target for the linked triggered ability only if it triggers because the power of Inferno of the Star Mounts became 20.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/151/inferno-of-the-star-mounts) · oracle_id `cd54438d-7f9d-4d80-b15b-0f0bf4becc15` · printing: AFR #151 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inferno Project
 
@@ -619,7 +631,9 @@
   > *"I daresay there's more truth in some of them stories than you reckon."*
   > *—Sam*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3172 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hoc/198/inferno-titan) · oracle_id `0ce47c8b-1e1f-463f-94f0-35ca00be89e6` · printing: HOC #198 (2026-08-14) · [rulings](https://api.scryfall.com/cards/f839aadb-084e-4ddc-ba62-d654a695cc6b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2010-08-15* — You divide the damage as you put Inferno Titan's triggered ability on the stack, not as it resolves. Each target must be assigned at least 1 damage. (In other words, as you put the ability on the stack, you choose whether to have it deal 3 damage to a single target, 2 damage to one target and 1 damage to another target, or 1 damage to each of three targets.)
+- **Source flags:** [Scryfall](https://scryfall.com/card/hoc/198/inferno-titan) · oracle_id `0ce47c8b-1e1f-463f-94f0-35ca00be89e6` · printing: HOC #198 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inferno Trap
 
@@ -674,6 +688,7 @@
 - **Flavor text** (FDN printing):
   > *"I control the swarm. If you strike me down, there will be nothing left to hold back their hunger."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3862 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/64/infestation-sage) · oracle_id `d398dca3-f3a5-44c9-998f-b4fce9e5c2bf` · printing: FDN #64 (2024-11-15) · [rulings](https://api.scryfall.com/cards/d40c73de-7a5f-46f2-a70b-449bc8ecfe24/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infested Fleshcutter
@@ -727,7 +742,17 @@
   > Whenever an opponent mills a nonland card, if this creature is in your graveyard, you may return it to your hand.
 - **Keywords:** Flying, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5099 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/46/infesting-radroach) · oracle_id `064f371c-e4f2-423b-9f35-443191dfbb4c` · printing: PIP #46 (2024-03-08) · [rulings](https://api.scryfall.com/cards/5b51b691-e226-44c9-b7cb-26f19c060597/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2024-03-08* — Any effects (such as proliferate) that interact with counters a player gets, has, or loses can interact with rad counters.
+  - *2024-03-08* — If Infesting Radroach is milled at the same time an opponent mills a nonland card (for example, because of the activated ability of Raul, Trouble Shooter), Infesting Radroach's ability will trigger.
+  - *2024-03-08* — If a player has fewer cards remaining in their library than the number of rad counters they have when the triggered ability resolves, they'll mill as many cards as they can.
+  - *2024-03-08* — In a game using the shared team turns option, such as an Archenemy or Two-Headed Giant game, the inherent triggered ability associated with rad counters triggers once for each player on the active team that has rad counters. Each instance of that ability is controlled by one of those players.
+  - *2024-03-08* — Keep track of how many rad counters each player has. Potential ways to track this include writing them down on paper or using dice, but any method that is clear and mutually agreeable is fine.
+  - *2024-03-08* — Rad counters are a kind of counter that a player may have. They're not associated with any specific permanents.
+  - *2024-03-08* — Rad counters don't go away as steps, phases, or turns end. They only go away when an effect instructs a player to remove rad counters from themselves.
+  - *2024-03-08* — The cards are milled all at once, which means abilities that trigger "whenever one or more nonland cards are milled" will trigger exactly once as long as at least one nonland card was milled.
+  - *2024-03-08* — There is an inherent triggered ability associated with having rad counters. This triggered ability has no source and is controlled by the active player. The full text of this ability is "At the beginning of the precombat main phase of a player with rad counters, that player mills cards equal to the number of rad counters they have. For each nonland card milled this way, that player loses 1 life and removes one rad counter from themselves."
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/46/infesting-radroach) · oracle_id `064f371c-e4f2-423b-9f35-443191dfbb4c` · printing: PIP #46 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infiltrate
 
@@ -751,7 +776,9 @@
   > *Neurok spies carry devices that let them look a few moments into the future, giving them an almost insurmountable edge.*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3787 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/som/167/infiltration-lens) · oracle_id `72dfd729-ebba-4bb1-83eb-54c2051fea3b` · printing: SOM #167 (2010-10-01) · [rulings](https://api.scryfall.com/cards/1baa10da-2733-4657-a1ea-74eb5a5a82b1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-01-01* — If the equipped creature becomes blocked by multiple creatures, Infiltration Lens’s ability triggers that many times.
+- **Source flags:** [Scryfall](https://scryfall.com/card/som/167/infiltration-lens) · oracle_id `72dfd729-ebba-4bb1-83eb-54c2051fea3b` · printing: SOM #167 (2010-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infiltrator il-Kor
 
@@ -816,6 +843,7 @@
   > Whenever Infinite Guideline Station attacks, draw a card for each multicolored permanent you control.
 - **Keywords:** Station
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7517 · Game Changer: no · Can be commander: Yes (legendary Spacecraft with P/T, CR 903.3)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/219/infinite-guideline-station) · oracle_id `cda39514-86c9-483e-8d95-fd08138ce33a` · printing: EOE #219 (2025-08-01) · [rulings](https://api.scryfall.com/cards/5688894a-bbec-476b-ae2e-94000be258d0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infinite Hourglass
@@ -954,6 +982,7 @@
   > *"Renata launched a dozen arrows into the minotaur's thick hide, but the monster didn't slow its charge. The fury of Mogis was upon it."*
   > *—Luphea of Setessa, \*Histories\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5579 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/141/infuriate) · oracle_id `d23119ca-73d1-4a48-a8d0-dab8919d891f` · printing: THB #141 (2020-01-24) · [rulings](https://api.scryfall.com/cards/85a74392-4056-428c-a807-b062957e838e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infuse

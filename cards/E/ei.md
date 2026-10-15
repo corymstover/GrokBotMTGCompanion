@@ -51,7 +51,11 @@
   > *The emotional echoes of dryad gatherings attract lost souls.*
 - **Keywords:** Constellation
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #936 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/892/eidolon-of-blossoms) · oracle_id `77ccbea1-70af-4194-adad-39a904221c75` · printing: CMM #892 (2023-08-04) · [rulings](https://api.scryfall.com/cards/f882aa63-d43c-4359-9de6-77231500a08e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2014-04-26* — A constellation ability triggers whenever an enchantment enters the battlefield under your control for any reason. Enchantments with other card types, such as enchantment creatures, will also cause constellation abilities to trigger.
+  - *2014-04-26* — An Aura spell without bestow that has an illegal target when it tries to resolve won't resolve and will be put into its owner's graveyard. It won't enter the battlefield and constellation abilities won't trigger. An Aura spell with bestow won't be countered this way. It will revert to being an enchantment creature and resolve, entering the battlefield and triggering constellation abilities.
+  - *2014-04-26* — When an enchantment enters the battlefield under your control, each constellation ability of permanents you control will trigger. You can put these abilities on the stack in any order. The last ability you put on the stack will be the first one that resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/892/eidolon-of-blossoms) · oracle_id `77ccbea1-70af-4194-adad-39a904221c75` · printing: CMM #892 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eidolon of Countless Battles
 
@@ -63,7 +67,15 @@
   > This creature and enchanted creature each get +1/+1 for each creature you control and +1/+1 for each Aura you control.
 - **Keywords:** Bestow
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3456 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/144/eidolon-of-countless-battles) · oracle_id `441b51b0-ecd0-466d-9ca8-e754eb563aec` · printing: SOC #144 (2026-04-24) · [rulings](https://api.scryfall.com/cards/4ad6fcb1-7c35-4111-8f1e-d18a2fae5638/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2013-09-15* — Auras attached to a creature don't become tapped when the creature becomes tapped. Except in some rare cases, an Aura with bestow remains untapped when it becomes unattached and becomes a creature.
+  - *2013-09-15* — If a permanent with bestow enters the battlefield by any method other than being cast, it will be an enchantment creature. You can't choose to pay the bestow cost and have it become an Aura.
+  - *2013-09-15* — On the stack, a spell with bestow is either a creature spell or an Aura spell. It's never both, although it's an enchantment spell in either case.
+  - *2013-09-15* — Unlike other Aura spells, an Aura spell with bestow isn't countered if its target is illegal as it begins to resolve. Rather, the effect making it an Aura spell ends, it loses enchant creature, it returns to being an enchantment creature spell, and it resolves and enters the battlefield as an enchantment creature.
+  - *2013-09-15* — Unlike other Auras, an Aura with bestow isn't put into its owner's graveyard if it becomes unattached. Rather, the effect making it an Aura ends, it loses enchant creature, and it remains on the battlefield as an enchantment creature. It can attack (and its {T} abilities can be activated, if it has any) on the turn it becomes unattached if it's been under your control continuously, even as an Aura, since your most recent turn began.
+  - *2014-02-01* — A permanent with bestow is either a creature or an Aura, not both (although it's an enchantment either way). It will contribute just +1/+1 toward the bonus given by Eidolon of Countless Battles.
+  - *2014-02-01* — Eidolon of Countless Battles's last ability functions only on the battlefield. In other zones, it is a 0/0 enchantment creature card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/144/eidolon-of-countless-battles) · oracle_id `441b51b0-ecd0-466d-9ca8-e754eb563aec` · printing: SOC #144 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eidolon of Inspiration
 
@@ -114,7 +126,9 @@
 - **Flavor text** (JOU printing):
   > *It is the soul of a philosopher who died of starvation contemplating the universe.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3562 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jou/10/eidolon-of-rhetoric) · oracle_id `33017203-233e-498e-806e-94b1dccf5c35` · printing: JOU #10 (2014-05-02) · [rulings](https://api.scryfall.com/cards/c3bc8b9e-4d22-41ba-b593-d383fd301ef9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2014-04-26* — Eidolon of Rhetoric will look at the entire turn to see if a player has cast a spell yet that turn, even if Eidolon of Rhetoric wasn't on the battlefield when that spell was cast. Specifically, you can't cast Eidolon of Rhetoric and then cast another spell that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jou/10/eidolon-of-rhetoric) · oracle_id `33017203-233e-498e-806e-94b1dccf5c35` · printing: JOU #10 (2014-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eidolon of the Great Revel
 
@@ -126,7 +140,11 @@
 - **Flavor text** (A25 printing):
   > *Xenagos reveled while Theros burned.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8382 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/a25/128/eidolon-of-the-great-revel) · oracle_id `2fd7018e-1c36-4d7f-8f72-22f2f7f60c60` · printing: A25 #128 (2018-03-16) · [rulings](https://api.scryfall.com/cards/183ef738-0559-49ca-85b4-e6836521f203/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-03-16* — Casting Eidolon of the Great Revel doesn't cause its own ability to trigger. It must be on the battlefield when the spell is cast for its ability to trigger.
+  - *2018-03-16* — The amount of mana spent to cast a spell doesn't change its mana value. For example, a card cast with its morph ability has a mana value of 0 even though {3} was paid.
+  - *2018-03-16* — The mana value of a spell with {X} in its mana cost includes the value chosen for X.
+- **Source flags:** [Scryfall](https://scryfall.com/card/a25/128/eidolon-of-the-great-revel) · oracle_id `2fd7018e-1c36-4d7f-8f72-22f2f7f60c60` · printing: A25 #128 (2018-03-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eiganjo Castle
 
@@ -138,6 +156,7 @@
 - **Flavor text** (CHK printing):
   > *Since the war began, the castle's walls mark the only place on Kamigawa where no kami has ever set foot.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3306 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/275/eiganjo-castle) · oracle_id `895a0e00-20a9-44f8-9215-66edcdf016b7` · printing: CHK #275 (2004-10-01) · [rulings](https://api.scryfall.com/cards/219c1d76-40cf-4edf-8145-e6cec8ca39ad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eiganjo Dynastorian // Replenish
@@ -151,7 +170,26 @@
   > Return all enchantment cards from your graveyard to the battlefield.
 - **Keywords:** Vigilance, Prepared
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6565 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/13/eiganjo-dynastorian-replenish) · oracle_id `09b7ea91-2620-4c45-af3c-60bbeab89966` · printing: SOC #13 (2026-04-24) · [rulings](https://api.scryfall.com/cards/09d1f048-f411-4677-a0dc-dbddd06fe694/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (18):
+  - *2026-03-20* — A creature with a prepare spell can't become prepared more than once at the same time. For example, Emeritus of Ideation is on the battlefield and is prepared. When it attacks, its last ability triggers. When that ability resolves, its controller may still exile eight cards from their graveyard, but doing so won't cause Emeritus of Ideation to become prepared a second time or create a second copy of Ancestral Recall in exile.
+  - *2026-03-20* — A creature without a prepare spell can't become prepared.
+  - *2026-03-20* — A preparation card is a creature card in every zone. For example, while it's in your graveyard, Emeritus of Ideation is a blue creature whose mana value is 5. It can't be the target of Zealous Lorecaster's triggered ability ("When this creature enters, return target instant or sorcery card from your graveyard to your hand.").
+  - *2026-03-20* — An Aura put onto the battlefield this way can't enchant an enchantment that's also being put onto the battlefield with Replenish.
+  - *2026-03-20* — As an effect causes a creature with a prepare spell to become prepared (including effects that state that a creature "enters prepared"), that creature's controller creates a copy of that creature's prepare spell in exile. That copy remains in exile for as long as that permanent is on the battlefield and is prepared. That creature's controller may cast that copy as long as it remains in exile. As they cast it, that creature stops being prepared.
+  - *2026-03-20* — Being prepared isn't a copiable value. If a permanent becomes a copy of a prepared creature, it won't be prepared. That permanent will have the alternative characteristics, though, and some other effect could cause it to become prepared later.
+  - *2026-03-20* — Casting a copy of a prepare spell from exile isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to a copy of a prepare spell cast from exile.
+  - *2026-03-20* — Creating a copy of a creature's prepare spell in exile ignores copy exceptions applied to that creature that would affect the copiable values of that spell. For example, say a player casts Croaking Counterpart (a sorcery that says "Create a token that's a copy of target non-Frog creature, except it's a 1/1 green Frog.") targeting Goblin Glasswright. The token copy of Goblin Glasswright will enter prepared as a 1/1 green Frog creature, but the copy of Craft with Pride in exile will still be a red sorcery. The copy of Craft with Pride won't be green, a creature, or a Frog, and it won't have power or toughness.
+  - *2026-03-20* — If a prepare spell with one or more targets has no legal targets when it tries to resolve, it won't resolve and none of its effects will happen. Since the spell was cast, the associated permanent will still not be prepared.
+  - *2026-03-20* — If a prepared creature loses all abilities, it won't stop being prepared, and nothing will happen to its alternative characteristics or to the copy of its prepare spell in exile.
+  - *2026-03-20* — If a prepared creature stops being a creature, it will still be prepared, and the copy of its prepare spell will remain in exile. That permanent's controller will still be able to cast it. The same is true if a prepared creature becomes a copy of something else, even if it's then a permanent without a prepare spell.
+  - *2026-03-20* — If an Aura is put onto the battlefield without being cast, the Aura's controller-to-be chooses what it will enchant as it enters the battlefield. An Aura put onto the battlefield this way doesn't target anything (so it could be attached to an opponent's permanent with hexproof, for example), but the Aura's enchant ability restricts what it can be attached to. If the Aura can't legally be attached to anything, it remains in its current zone.
+  - *2026-03-20* — If an effect causes a creature to become unprepared, a prepared creature stops being prepared and the associated copy of its prepare spell in exile ceases to exist. If it wasn't prepared at that time, nothing happens.
+  - *2026-03-20* — If an effect instructs you to choose a card name, you may choose the alternative prepare spell's name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2026-03-20* — Once Eiganjo Dynastorian's last ability triggers, it doesn't matter what happens to the attacking creatures in response.
+  - *2026-03-20* — Only the current controller of a prepared creature can cast the copy of its prepare spell in exile. It doesn't matter who owns that creature or who controlled it when it became prepared.
+  - *2026-03-20* — Preparation cards can only be cast with their base characteristics.
+  - *2026-03-20* — While copies of spells in zones other than the stack cease to exist when state-based actions are checked, this does not apply to copies of prepare spells in exile that were created as a creature became prepared.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/13/eiganjo-dynastorian-replenish) · oracle_id `09b7ea91-2620-4c45-af3c-60bbeab89966` · printing: SOC #13 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eiganjo Exemplar
 
@@ -217,7 +255,9 @@
 - **Flavor text** (CLB printing):
   > *"Virtue is an inner light that can prevail in every soul."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8290 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/692/eight-and-a-half-tails) · oracle_id `01c8d29f-4924-4d55-80bc-0c0c06bcb733` · printing: CLB #692 (2022-06-10) · [rulings](https://api.scryfall.com/cards/ef722374-0305-4c30-ab45-cb772b252faf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-06-08* — A permanent spell that becomes white this way will enter the battlefield and continue to be white until end of turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/692/eight-and-a-half-tails) · oracle_id `01c8d29f-4924-4d55-80bc-0c0c06bcb733` · printing: CLB #692 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eightfold Maze
 
@@ -244,7 +284,26 @@
   > At the beginning of your first main phase, you may pay {W}. If you do, transform Isilu.
 - **Keywords:** Flying, Lifelink, Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5869 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/13/eirdu-carrier-of-dawn-isilu-carrier-of-twilight) · oracle_id `36af3c2c-49d7-46ea-ab02-c254b332448e` · printing: ECL #13 (2026-01-23) · [rulings](https://api.scryfall.com/cards/b2d9d5ca-7e15-437a-bdfc-5972b42148fe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (18):
+  - *2025-11-17* — A nonmodal double-faced card enters with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed or allows you to cast it transformed, in which case it enters with its back face up.
+  - *2025-11-17* — A token that is created as a copy of a double-faced permanent or a double-faced card in another zone is a double-faced token. It will have both the front face and back face of whatever object it's copying. If it's copying a double-faced permanent whose back face is up, the token will enter with its back face up. It can transform if instructed to do so.
+  - *2025-11-17* — Each face of a nonmodal double-faced card has its own set of characteristics: name, types, subtypes, abilities, and so on. While a double-faced permanent is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored.
+  - *2025-11-17* — Each nonmodal double-faced card in this release is cast face up. In every zone other than the battlefield, consider only the characteristics of its front face. If it is on the battlefield, consider only the characteristics of the face that's up; the other face's characteristics are ignored.
+  - *2025-11-17* — If a card with persist is removed from the graveyard after it dies but before the triggered ability resolves, it won't be returned to the battlefield.
+  - *2025-11-17* — If a creature has +1/+1 counters and -1/-1 counters on it, state-based actions remove the same number of each so that it has only one kind of those counters on it. A creature's persist ability can bring it back again if its -1/-1 counters are removed this way.
+  - *2025-11-17* — If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner's graveyard for having 0 or less toughness, persist won't trigger and the card won't return to the battlefield. That's because persist checks the creature as it last existed on the battlefield, and it still had -1/-1 counters on it at that point.
+  - *2025-11-17* — If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.
+  - *2025-11-17* — If you are instructed to put a card that isn't a double-faced card onto the battlefield transformed, it will not enter at all.
+  - *2025-11-17* — If you sacrifice Eirdu while casting a creature spell (to activate a mana ability, for example), the spell won't have convoke when you pay its costs unless it has convoke some other way.
+  - *2025-11-17* — In some rare cases, this permanent might transform while its triggered ability that allows you to pay mana to transform it is still on the stack. (For example, another effect might cause that ability to trigger an additional time.) In such a case, even if you pay mana as the triggered ability resolves, this permanent won't transform because it already transformed while the triggered ability was on the stack.
+  - *2025-11-17* — In the Commander variant, a double-faced card's color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered. For example, Oko, Lorwyn Liege's color identity is green and blue, since its front face is blue, its rules text contains a green mana symbol, and its back face has a green color indicator as well as a blue mana symbol in its rules text.
+  - *2025-11-17* — Once persist returns the creature, it's considered a new object with no relation to the object that it was. Auras that were attached to it won't return to the battlefield. Equipment that was attached to it will remain unattached. Any counters that were on it won't be put on the new creature.
+  - *2025-11-17* — Tapping an untapped creature that's attacking or blocking to convoke a spell won't cause that creature to stop attacking or blocking.
+  - *2025-11-17* — The back face of a nonmodal double-faced card usually has a color indicator that defines its color.
+  - *2025-11-17* — The mana value of a nonmodal double-faced card is the mana value of its front face, no matter which face is up.
+  - *2025-11-17* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
+  - *2025-11-17* — You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/13/eirdu-carrier-of-dawn-isilu-carrier-of-twilight) · oracle_id `36af3c2c-49d7-46ea-ab02-c254b332448e` · printing: ECL #13 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eivor, Battle-Ready
 
@@ -257,6 +316,7 @@
   > Whenever Eivor attacks, it deals damage equal to the number of Equipment you control to each opponent.
 - **Keywords:** Vigilance, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9235 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/acr/274/eivor-battle-ready) · oracle_id `1b4a07bd-5345-4520-bd05-b5173e08135c` · printing: ACR #274 (2024-07-05) · [rulings](https://api.scryfall.com/cards/4242961d-87e8-4dd2-bdea-5d765a5cf136/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eivor, Wolf-Kissed
@@ -271,4 +331,5 @@
   > *"My destiny is mine to weave."*
 - **Keywords:** Haste, Trample, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9893 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/acr/54/eivor-wolf-kissed) · oracle_id `cb8289e9-1e59-41f1-a994-6e34d2da2da2` · printing: ACR #54 (2024-07-05) · [rulings](https://api.scryfall.com/cards/88667198-3bec-413c-b41e-de96abc8db7b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

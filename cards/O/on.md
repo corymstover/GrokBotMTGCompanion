@@ -66,7 +66,11 @@
   > Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7380 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/278/o-naginata) · oracle_id `5641c831-5254-4ef2-ba48-328d86007479` · printing: 2XM #278 (2020-08-07) · [rulings](https://api.scryfall.com/cards/08db5b31-6b5a-4b99-b103-d628afaea2ba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-08-07* — O-Naginata becomes unattached if the equipped creature's power is reduced so that its power is 2 or less, including the +3/+0 from O-Naginata's effect, as state-based actions are checked.
+  - *2020-08-07* — O-Naginata can become attached to a creature only if that creature's power is 3 or greater before O-Naginata is attached to it.
+  - *2020-08-07* — O-Naginata's equip ability can target any creature you control—but if the creature's power is 2 or less, it won't become attached as it resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/278/o-naginata) · oracle_id `5641c831-5254-4ef2-ba48-328d86007479` · printing: 2XM #278 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Onakke Javelineer
 
@@ -91,7 +95,9 @@
   > Creatures can't attack planeswalkers you control unless their controller pays {1} for each creature they control that's attacking a planeswalker you control.
   > {4}{W}{W}, Exile this card from your graveyard: Return target planeswalker card from your graveyard to the battlefield.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6306 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/722/onakke-oathkeeper) · oracle_id `080df9eb-c26b-494a-96b4-d7e47e501866` · printing: CMM #722 (2023-08-04) · [rulings](https://api.scryfall.com/cards/55d0caac-50c0-434e-af77-9ebd2a466415/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-07-28* — In a Two-Headed Giant game, creatures can attack planeswalkers your teammate controls without requiring a mana payment.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/722/onakke-oathkeeper) · oracle_id `080df9eb-c26b-494a-96b4-d7e47e501866` · printing: CMM #722 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Onakke Ogre
 
@@ -136,7 +142,9 @@
   > If this spell is the first spell you've cast this game, you may cast it without paying its mana cost.
   > Look at the top five cards of your library. You may reveal a creature or land card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8845 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eld/169/once-upon-a-time) · oracle_id `d00ade82-caab-43c6-9756-6e9e6edfc519` · printing: ELD #169 (2019-10-04) · [rulings](https://api.scryfall.com/cards/4034e5ba-9974-43e3-bde7-8d9b4586c3a4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-10-04* — The earliest opportunity you have to cast Once Upon a Time is during the first player's upkeep, before that player can play a land.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eld/169/once-upon-a-time) · oracle_id `d00ade82-caab-43c6-9756-6e9e6edfc519` · printing: ELD #169 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ondu Champion
 
@@ -162,7 +170,9 @@
 - **Flavor text** (ZEN printing):
   > *A cleric's true balm is the confidence he inspires in his compatriots.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7644 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/zen/30/ondu-cleric) · oracle_id `f4232466-dd6a-49bf-be6c-95905c3ded17` · printing: ZEN #30 (2009-10-02) · [rulings](https://api.scryfall.com/cards/ced43447-fefc-482a-b8fa-33b9616aa532/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-10-01* — The ability counts the number of Allies you control as it resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/zen/30/ondu-cleric) · oracle_id `f4232466-dd6a-49bf-be6c-95905c3ded17` · printing: ZEN #30 (2009-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ondu Giant
 
@@ -206,7 +216,17 @@
   > *"It always seems so quiet in the aftermath of wrenching violence."*
   > *—Nys Dal, Sea Gate trapfinder*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2220 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/30/ondu-inversion-ondu-skyruins) · oracle_id `15fc4e74-300e-4c2d-8ed7-004553b2f7c2` · printing: ZNR #30 (2020-09-25) · [rulings](https://api.scryfall.com/cards/b6e6be8c-41c3-4348-a8dd-b40ceb24e9b4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2020-09-25* — A modal double-faced card can't be transformed or be put onto the battlefield transformed. Ignore any instruction to transform a modal double-faced card or to put one onto the battlefield transformed.
+  - *2020-09-25* — If an effect allows you to play a land or cast a spell from among a group of cards, you may play or cast a modal double-faced card with any face that fits the criteria of that effect.
+  - *2020-09-25* — If an effect allows you to play a specific modal double-faced card, you may cast it as a spell or play it as a land, as determined by which face you choose to play. If an effect allows you to cast (rather than "play") a specific modal double-faced card, you can't play it as a land.
+  - *2020-09-25* — If an effect instructs a player to choose a card name, the name of either face may be chosen. If that effect or a linked ability refers to a spell with the chosen name being cast and/or a land with the chosen name being played, it considers only the chosen name, not the other face's name.
+  - *2020-09-25* — If an effect puts a double-faced card onto the battlefield, it enters with its front face up. If that front face can't be put onto the battlefield, it doesn't enter the battlefield.
+  - *2020-09-25* — In the Commander variant, a double-faced card's color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered.
+  - *2020-09-25* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack and battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
+  - *2020-09-25* — There is a single triangle icon in the top left corner of the front face. There is a double triangle icon in the top left corner of the back face.
+  - *2020-09-25* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/30/ondu-inversion-ondu-skyruins) · oracle_id `15fc4e74-300e-4c2d-8ed7-004553b2f7c2` · printing: ZNR #30 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ondu Knotmaster // Throw a Line
 
@@ -242,7 +262,16 @@
 - **Flavor text** (DSC printing):
   > *"We travel to know the land—its sacred spirit, its perils and blessings."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1663 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/101/ondu-spiritdancer) · oracle_id `d2ae893f-52af-4645-8712-d62fb78f901e` · printing: DSC #101 (2024-09-27) · [rulings](https://api.scryfall.com/cards/ee1c6432-54d7-4b57-a554-f7194d74e03c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2023-07-28* — Any enters-the-battlefield abilities of the copied enchantment will trigger when the token enters the battlefield. Any "as [this enchantment] enters the battlefield" or "[this enchantment] enters the battlefield with" abilities of the enchantment will also work.
+  - *2023-07-28* — Each token copies exactly what was printed on the original enchantment and nothing else (unless that enchantment is copying something else or is a token; see below). It doesn't copy whether that enchantment is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
+  - *2023-07-28* — If an Aura is put onto the battlefield without being cast, such as by being created as a token, the Aura's controller-to-be chooses what it will enchant as it enters the battlefield. An Aura put onto the battlefield this way doesn't target anything (so it could be attached to an opponent's permanent with hexproof, for example), but the Aura's enchant ability restricts what it can be attached to. If an Aura token can't legally be attached to anything, it isn't created.
+  - *2023-07-28* — If multiple instances of the ability are on the stack (perhaps because multiple enchantments entered the battlefield under your control at the same time), you will be able to create a token copy of an enchantment for only one of those instances. Once you do that, other instances will do nothing as they resolve.
+  - *2023-07-28* — If the copied enchantment has {X} in its mana cost, X is 0.
+  - *2023-07-28* — If the copied enchantment is a token, the token that's created copies the original characteristics of that token as stated by the effect that created the token.
+  - *2023-07-28* — If the copied enchantment is copying something else, then the token enters the battlefield as whatever that enchantment copied.
+  - *2023-07-28* — Once you choose to create a token copy of an enchantment during the resolution of Ondu Spiritdancer's ability, that ability won't trigger again that turn, no matter how many more enchantments enter the battlefield under your control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/101/ondu-spiritdancer) · oracle_id `d2ae893f-52af-4645-8712-d62fb78f901e` · printing: DSC #101 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ondu War Cleric
 
@@ -320,7 +349,9 @@
   > *It manifests at wizard academies to siphon inspiration from young prodigies.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6943 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/162/oneirophage) · oracle_id `48c97aeb-6591-4175-a24b-d3488bf3ab0b` · printing: JMP #162 (2020-07-17) · [rulings](https://api.scryfall.com/cards/61921b05-ee83-4768-a405-4d3355c0ad6e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-06-14* — If a spell or ability causes you to put cards into your hand without specifically using the word "draw," Oneirophage's ability won't trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/162/oneirophage) · oracle_id `48c97aeb-6591-4175-a24b-d3488bf3ab0b` · printing: JMP #162 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### One Last Job
 
@@ -333,7 +364,22 @@
   > + {1} — Return target Aura or Equipment card from your graveyard to the battlefield attached to a creature you control.
 - **Keywords:** Spree
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9693 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/22/one-last-job) · oracle_id `55cba59c-932c-4295-87dc-9179fbdfbd53` · printing: OTJ #22 (2024-04-19) · [rulings](https://api.scryfall.com/cards/71bfbfae-e7eb-4f80-81c6-9ab6a1bbd39d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (14):
+  - *2024-04-12* — Each additional cost and associated mode in the text box is also preceded with a + indicator. These symbols also have no rules meaning and serve only to remind players that the listed costs are additional costs.
+  - *2024-04-12* — If a mode requires a target, you can select that mode only if there’s a legal target available. Ignore the targeting requirements for modes you don’t choose.
+  - *2024-04-12* — If a spell with spree is copied, the effect that creates the copy may allow you to choose new targets. You cannot choose new modes.
+  - *2024-04-12* — If all targets for the chosen modes become illegal before a spell with spree resolves, the spell won’t resolve and none of its effects will happen. If at least one target is still legal, the spell will resolve but will have no effect on any illegal targets.
+  - *2024-04-12* — If an effect allows you to cast a spell with spree “without paying its mana cost,” you must still choose at least one mode and pay the associated additional costs.
+  - *2024-04-12* — No matter which modes you choose, you always follow the instructions in the order they are written.
+  - *2024-04-12* — No player can cast spells or activate abilities in between the modes of a resolving spell. Any abilities that trigger won’t be put onto the stack until the spell is done resolving.
+  - *2024-04-12* — Spells with spree have a + (plus sign) indicator in the upper right corner of the card frame. This has no rules meaning and serves only to remind players that at least one additional cost is required to cast the spell.
+  - *2024-04-12* — The Aura or Equipment must be able to be legally attached to the creature you choose. You can’t return an Aura card to the battlefield if there’s nothing to enchant. However, if you control no creatures (and didn’t bring any back with the first two modes), you could return an Equipment card to the battlefield unattached to anything.
+  - *2024-04-12* — The creature that the Aura or Equipment card returned by the third mode will enter attached to isn’t a target of that mode and is chosen as One Last Job resolves. Notably, if you return a Vehicle with the second mode, you won’t have the opportunity to crew it before having to choose a creature for the third mode. In most cases, it won’t be a creature at that time.
+  - *2024-04-12* — The mana value of a spell with spree is determined only by its mana cost (in the upper right corner of the card). It doesn’t matter which modes you choose or which additional costs you pay, including any additional costs imposed by other effects.
+  - *2024-04-12* — You can’t choose the same mode more than once.
+  - *2024-04-12* — You choose the modes as you cast the spell with spree. Once modes are chosen, they can’t be changed.
+  - *2024-04-12* — You must choose at least one of the listed modes and pay its associated additional cost in order to cast a spell with spree.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/22/one-last-job) · oracle_id `55cba59c-932c-4295-87dc-9179fbdfbd53` · printing: OTJ #22 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### One Ring to Rule Them All
 
@@ -346,7 +392,15 @@
   > III — Each opponent loses 1 life for each creature card in that player's graveyard.
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3236 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/102/one-ring-to-rule-them-all) · oracle_id `c75add5e-4e9d-4c68-a8ad-b878b1dbc0a4` · printing: LTR #102 (2023-06-23) · [rulings](https://api.scryfall.com/cards/bb2dc2e0-f393-4442-818b-d3b860bfffd0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-06-16* — As the Ring tempts you, you get an emblem named The Ring if you don't have one. Then your emblem gains its next ability and you choose a creature you control to become (or remain) your Ring-bearer.
+  - *2023-06-16* — Each player can have only one emblem named The Ring and only one Ring-bearer at a time.
+  - *2023-06-16* — Each time the Ring tempts you, you must choose a creature if you control one.
+  - *2023-06-16* — If the creature you choose as your Ring-bearer was already your Ring-bearer, that still counts as choosing that creature as your Ring-bearer for the purpose of abilities that trigger "whenever you choose a creature as your Ring-bearer" or abilities that care about which creature was chosen as your Ring-bearer.
+  - *2023-06-16* — Some spells and abilities that cause the Ring to tempt you may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Ring won't tempt you.
+  - *2023-06-16* — The Ring can tempt you even if you don't control a creature. In this case, abilities that trigger "whenever the Ring tempts you" will still trigger.
+  - *2023-06-16* — The Ring gains its abilities in order from top to bottom. Once it gains an ability, it has that ability for the rest of the game.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/102/one-ring-to-rule-them-all) · oracle_id `c75add5e-4e9d-4c68-a8ad-b878b1dbc0a4` · printing: LTR #102 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### One Thousand Lashes
 
@@ -378,6 +432,7 @@
   > Whenever enchanted creature deals combat damage to a player, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7112 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/scg/125/one-with-nature) · oracle_id `e48d3de9-a5e0-4a69-8377-9e3ad5fc5b77` · printing: SCG #125 (2003-05-26) · [rulings](https://api.scryfall.com/cards/2321b01c-7eef-48cc-a86b-4074dfa5b86b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### One with Nothing
@@ -401,7 +456,11 @@
   > Whenever enchanted creature or another modified creature you control dies, create X 1/1 colorless Spirit creature tokens, where X is that creature's power. (Equipment, Auras you control, and counters are modifications.)
 - **Keywords:** Enchant, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9655 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/nec/27/one-with-the-kami) · oracle_id `006f4a62-8590-4ca0-9f51-3aea26cd1a54` · printing: NEC #27 (2022-02-18) · [rulings](https://api.scryfall.com/cards/d753c296-8cef-492d-ab41-e7ddb233d46e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-02-18* — A creature that is equipped is considered modified no matter who controls the Equipment that's attached to it.
+  - *2022-02-18* — A creature with a counter on it is considered modified no matter what kind of counter it is or which player put it on that creature.
+  - *2022-02-18* — An Aura controlled by an opponent does not cause a creature you control to be modified.
+- **Source flags:** [Scryfall](https://scryfall.com/card/nec/27/one-with-the-kami) · oracle_id `006f4a62-8590-4ca0-9f51-3aea26cd1a54` · printing: NEC #27 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### One with the Machine
 
@@ -413,7 +472,9 @@
   > *"When I grafted the Planar Bridge into myself I felt my Planeswalker spark flare beyond my body. The Multiverse was my plaything. It felt . . . incredible."*
   > *—Tezzeret*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2896 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m19/66/one-with-the-machine) · oracle_id `757eadac-dd29-4a7f-8683-5bc823168326` · printing: M19 #66 (2018-07-13) · [rulings](https://api.scryfall.com/cards/17f2aaf5-6c1f-4663-865f-6cdd5640485a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-07-13* — If a permanent has {X} in its mana cost, X is considered to be 0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m19/66/one-with-the-machine) · oracle_id `757eadac-dd29-4a7f-8683-5bc823168326` · printing: M19 #66 (2018-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### One with the Multiverse
 
@@ -424,7 +485,13 @@
   > You may play lands and cast spells from the top of your library.
   > Once during each of your turns, you may cast a spell from your hand or the top of your library without paying its mana cost.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2008 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/121/one-with-the-multiverse) · oracle_id `06bb4272-25d1-46db-8585-15f919267e1e` · printing: DSC #121 (2024-09-27) · [rulings](https://api.scryfall.com/cards/1c85ae22-ccd0-4649-a736-1915043daae7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2022-10-14* — If One with the Multiverse leaves the battlefield and later returns to the battlefield (or you play a second one), it's considered a new object and you may cast a spell using its last ability regardless of whether or not you did so earlier this turn using the enchantment that was on the battlefield before.
+  - *2022-10-14* — Similarly, if you control more than one One with the Multiverse (Two with the Multiverse, if you will), each one's last ability applies independently, and you may cast a spell without paying its mana cost once for each of them during each of your turns. In this case, you will need to track which enchantment's permission you are using to cast a spell this way (due to the possibility that one of them might leave the battlefield before you use its permission that turn).
+  - *2022-10-14* — While casting a card with the prototype ability using the last ability of One with the Multiverse, you can either choose to cast it normally or choose to cast it as a prototyped spell. In either case, you won't pay its mana cost.
+  - *2022-10-14* — While casting a spell without paying its mana cost using the last ability, you can't pay alternative costs, but you may choose to pay any optional additional costs the spell may have (such as a kicker cost). You still must pay any mandatory additional costs.
+  - *2022-10-14* — You must follow all normal timing rules for spells cast and lands played using the middle ability and must pay all costs for spells cast this way. To cast a spell this way, you may choose to pay any alternative costs or optional additional costs the spell may have (such as a kicker cost). You must pay any mandatory additional costs.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/121/one-with-the-multiverse) · oracle_id `06bb4272-25d1-46db-8585-15f919267e1e` · printing: DSC #121 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### One with the Stars
 
@@ -473,6 +540,7 @@
   > Whenever one or more artifacts you control leave the battlefield during your turn, create a 1/1 colorless Construct artifact creature token. This ability triggers only once each turn.
   > {T}, Sacrifice an artifact: This artifact deals 1 damage to each opponent. You gain 1 life.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6290 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/230/oni-cult-anvil) · oracle_id `c018f072-8f6d-4835-a717-ed4ecba70d97` · printing: NEO #230 (2022-02-18) · [rulings](https://api.scryfall.com/cards/c84db1e2-855c-4169-a9cc-a54c73c14e0c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oni of Wild Places
@@ -514,7 +582,11 @@
   > *—\*Song of All\*, canto 524*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5890 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/380/on-serras-wings) · oracle_id `f43584de-4f60-46e6-9e6b-e704bc3ecd59` · printing: CMR #380 (2020-11-20) · [rulings](https://api.scryfall.com/cards/c0a57c65-5010-4472-b877-42daf2f15af2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-04-27* — If you control two On Serra's Wings attached to two creatures you control with the same name, the "legend rule" applies to the enchanted creatures and to On Serra's Wings at once. You can choose to keep the On Serra's Wings that enchants the creature you wish to keep.
+  - *2018-04-27* — If you control two permanents with the same name but only one is legendary, the "legend rule" doesn't apply.
+  - *2018-04-27* — Multiple instances of flying, vigilance, and/or lifelink on the same creature are redundant.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/380/on-serras-wings) · oracle_id `f43584de-4f60-46e6-9e6b-e704bc3ecd59` · printing: CMR #380 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Onslaught
 
@@ -548,6 +620,7 @@
 - **Flavor text** (MKC printing):
   > *Where the victim's journey ends, the investigator's begins.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4909 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/39/on-the-trail) · oracle_id `5a060788-a601-4c01-8341-73398b497a85` · printing: MKC #39 (2024-02-09) · [rulings](https://api.scryfall.com/cards/e5cf1f9f-2e35-49b1-af47-75fbe11f7b7e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### On Thin Ice
@@ -561,7 +634,11 @@
   > *He cursed the wind. He cursed the cold. But by stepping on the ice, he cursed himself.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9630 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/20/on-thin-ice) · oracle_id `6736bb96-6718-48bb-9385-789d3349dc20` · printing: MH1 #20 (2019-06-14) · [rulings](https://api.scryfall.com/cards/b7d4f6b0-ea17-4374-a80c-ba4dd207e9d6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-06-14* — Auras attached to the exiled creature will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled creature will cease to exist.
+  - *2019-06-14* — If On Thin Ice leaves the battlefield before its triggered ability resolves, the target creature won't be exiled.
+  - *2019-06-14* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/20/on-thin-ice) · oracle_id `6736bb96-6718-48bb-9385-789d3349dc20` · printing: MH1 #20 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Onulet
 
@@ -597,6 +674,7 @@
 - **Flavor text** (DRC printing):
   > *The edge of Naktamun was once protected by Kefnet. The honored mummies who patrol it now do so in his image.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3501 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/drc/5/on-wings-of-gold) · oracle_id `3b6f608d-f27d-44cd-b0a1-0e1e1aa1c98a` · printing: DRC #5 (2025-02-14) · [rulings](https://api.scryfall.com/cards/d5e247d3-8542-4e6c-b256-5ae216eeceb0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Onyx Goblet

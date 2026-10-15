@@ -40,7 +40,9 @@
 - **Flavor text** (2X2 printing):
   > *You will scream out your innermost secrets just to make it stop.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9217 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/80/inquisition-of-kozilek) · oracle_id `395611fa-aec2-4c9e-92c3-70cf95cc00f4` · printing: 2X2 #80 (2022-07-08) · [rulings](https://api.scryfall.com/cards/17f38740-20fd-4097-90f8-f0c2c2ff7281/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2014-02-01* — If you target yourself with this spell, you must reveal your entire hand to the other players just as any other player would.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/80/inquisition-of-kozilek) · oracle_id `395611fa-aec2-4c9e-92c3-70cf95cc00f4` · printing: 2X2 #80 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inquisitive Glimmer
 
@@ -53,7 +55,10 @@
 - **Flavor text** (DSK printing):
   > *Glimmers are physical manifestations of survivors' hope and courage. Their presence is one of the few things that can protect from Valgavoth's malevolent influence.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2735 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/217/inquisitive-glimmer) · oracle_id `4abb227a-534e-4300-9009-065a10f10e8a` · printing: DSK #217 (2024-09-27) · [rulings](https://api.scryfall.com/cards/f1f66e3e-9f1f-4601-aa30-30b66805a5a8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-09-20* — The cost reduction from Inquisitive Glimmer's first ability applies only to generic mana in the total cost of enchantment spells you cast. Similarly, the cost reduction from its second ability applies only to generic mana in the unlock costs of Rooms you control. (In other words, it's impossible for these abilities to combine to make anything cost {2} less.)
+  - *2024-09-20* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as a flashback cost), add any cost increases (such as kicker costs), then apply any cost reductions (such as that of this ability). The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/217/inquisitive-glimmer) · oracle_id `4abb227a-534e-4300-9009-065a10f10e8a` · printing: DSK #217 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inquisitive Puppet
 
@@ -119,7 +124,10 @@
   > Equip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Equip, Inquisition Agents
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7042 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/40k/159/inquisitorial-rosette) · oracle_id `4a3a25ae-61f5-4bcd-ae3d-4b31feaa83d8` · printing: 40K #159 (2022-10-07) · [rulings](https://api.scryfall.com/cards/d44935ea-e8f4-45b1-8bce-e8665317d801/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-10-07* — Although the tokens enter the battlefield attacking, they were never declared as attacking creatures. Abilities that trigger whenever a creature attacks won't trigger.
+  - *2022-10-07* — For the triggered ability, you declare which player or planeswalker the token is attacking as you put it onto the battlefield. It doesn't have to be the same player or planeswalker the equipped creature is attacking.
+- **Source flags:** [Scryfall](https://scryfall.com/card/40k/159/inquisitorial-rosette) · oracle_id `4a3a25ae-61f5-4bcd-ae3d-4b31feaa83d8` · printing: 40K #159 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inquisitor's Flail
 
@@ -131,7 +139,10 @@
   > Equip {2}
 - **Keywords:** Equip, Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4118 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/isd/227/inquisitors-flail) · oracle_id `a89ae357-b5aa-4256-beb3-a2e5e7f43200` · printing: ISD #227 (2011-09-30) · [rulings](https://api.scryfall.com/cards/3014f59d-9012-473a-8bb1-8085c6e91632/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2011-09-22* — If a creature is equipped with a second Inquisitor’s Flail, combat damage dealt by and dealt to that creature will be multiplied by four. A third Inquisitor’s Flail would multiply the combat damage by eight, and so on.
+  - *2011-09-22* — If you divide the combat damage dealt by the equipped creature, perhaps because the creature has trample or is dealing combat damage to multiple creatures, you’ll divide the original amount and then double the results. For example, if a 5/5 creature with trample is blocked by a 2/2 creature, you can assign 2 damage to the blocker and 3 damage to the defending player. These amounts are then doubled to 4 and 6 damage, respectively. You can’t double the damage to 10 first and then assign 2 to the creature and 8 to the player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/isd/227/inquisitors-flail) · oracle_id `a89ae357-b5aa-4256-beb3-a2e5e7f43200` · printing: ISD #227 (2011-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inquisitor's Ox
 

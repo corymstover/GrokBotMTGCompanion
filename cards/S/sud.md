@@ -37,6 +37,7 @@
   > *Rootha created constantly, passionately, in hopes of impressing her greatest critic: herself.*
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4904 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/116/sudden-breakthrough) · oracle_id `f5576cd4-6b21-4b29-902c-9c1fbdd7b2be` · printing: STX #116 (2021-04-23) · [rulings](https://api.scryfall.com/cards/b011707a-471b-41c2-bc73-376a55d26bee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sudden Death
@@ -84,7 +85,14 @@
   > *—Whisper, blood liturgist*
 - **Keywords:** Split second
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9865 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/100/sudden-edict) · oracle_id `b95f704d-96b9-437e-8c49-aba874139e12` · printing: MH2 #100 (2021-06-18) · [rulings](https://api.scryfall.com/cards/57cc8aeb-221d-46a1-b03f-df8499bba26d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-06-18* — After a spell with split second resolves (or otherwise leaves the stack), players may again cast spells and activate abilities before the next object on the stack resolves.
+  - *2021-06-18* — Casting a spell with split second won't affect spells and abilities that are already on the stack.
+  - *2021-06-18* — If the resolution of a triggered ability involves casting a spell, that spell can't be cast if a spell with split second is on the stack.
+  - *2021-06-18* — Players may turn face-down creatures face up while a spell with split second is on the stack.
+  - *2021-06-18* — Players still get priority while a card with split second is on the stack; their options are just limited to mana abilities and certain special actions.
+  - *2021-06-18* — Split second doesn't stop triggered abilities from triggering, such as that of Chalice of the Void. If one does, its controller puts it on the stack and chooses targets for it, if any. Those abilities will resolve as normal
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/100/sudden-edict) · oracle_id `b95f704d-96b9-437e-8c49-aba874139e12` · printing: MH2 #100 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sudden Impact
 
@@ -176,7 +184,16 @@
   > Until end of turn, creatures target player controls lose all abilities and have base power and toughness 0/2.
 - **Keywords:** Split second
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2099 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/144/sudden-spoiling) · oracle_id `dce202c7-fe8e-462a-858e-7a5a69bd5b6b` · printing: TSR #144 (2021-03-19) · [rulings](https://api.scryfall.com/cards/73514b51-6c19-4b3c-9cf9-2cf5028d7708/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2021-03-19* — After a spell with split second resolves (or otherwise leaves the stack), players may again cast spells and activate abilities before the next object on the stack resolves.
+  - *2021-03-19* — Casting a spell with split second won't affect spells and abilities that are already on the stack.
+  - *2021-03-19* — If the resolution of a triggered ability involves casting a spell, that spell can't be cast if a spell with split second is on the stack.
+  - *2021-03-19* — Players may turn face-down creatures face up while a spell with split second is on the stack.
+  - *2021-03-19* — Players still get priority while a card with split second is on the stack; their options are just limited to mana abilities and certain special actions.
+  - *2021-03-19* — Split second doesn't stop triggered abilities from triggering, such as that of Chalice of the Void. If one does, its controller puts it on the stack and chooses targets for it, if any. Those abilities will resolve as normal.
+  - *2021-03-19* — Sudden Spoiling affects only creatures the target player controls at the time it resolves. Creatures they begin to control later in the turn won't change power and toughness or lose abilities.
+  - *2021-03-19* — Sudden Spoiling overwrites any effects that set a creature's power and toughness. Any existing effects or counters that raise, lower, or switch a creature's power and/or toughness continue to apply to the creature's newly-set power and toughness.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/144/sudden-spoiling) · oracle_id `dce202c7-fe8e-462a-858e-7a5a69bd5b6b` · printing: TSR #144 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sudden Storm
 
@@ -224,4 +241,18 @@
   > *"Bow before the might of—wait, what?"*
 - **Keywords:** Split second
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6842 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c19/11/sudden-substitution) · oracle_id `e5ddacfb-e5a8-4885-a4c9-fa117f321293` · printing: C19 #11 (2019-08-23) · [rulings](https://api.scryfall.com/cards/9f7983bf-2a3b-4428-8c01-35285f589da8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2019-08-23* — A mana ability is an ability that produces mana, not an ability that costs mana.
+  - *2019-08-23* — If a permanent spell is exchanged this way, its new controller will control the permanent it becomes.
+  - *2019-08-23* — If the exchange doesn't happen but the spell is still a legal target, its controller may choose new targets for it.
+  - *2019-08-23* — If the target spell or the target creature is an illegal target as Sudden Substitution resolves, the exchange won't happen. If both targets are legal but are both controlled by the same player, the exchange won't happen.
+  - *2019-08-23* — In a multiplayer game, if the controller of one of the objects leaves the game after Sudden Substitution resolves, the effect that gave them control of the spell or permanent expires. If the spell is still on the stack, the player who gains control of it this way can't choose new targets for it.
+  - *2019-08-23* — The exchange lasts indefinitely. It doesn't expire for the spell if the creature changes zones or leaves the game, or vice versa.
+  - *2019-08-23* — The noncreature spell is still on the stack after exchanging control, and the creature is still on the battlefield.
+  - *2021-03-19* — After a spell with split second resolves (or otherwise leaves the stack), players may again cast spells and activate abilities before the next object on the stack resolves.
+  - *2021-03-19* — Casting a spell with split second won't affect spells and abilities that are already on the stack.
+  - *2021-03-19* — If the resolution of a triggered ability involves casting a spell, that spell can't be cast if a spell with split second is on the stack.
+  - *2021-03-19* — Players may turn face-down creatures face up while a spell with split second is on the stack.
+  - *2021-03-19* — Players still get priority while a card with split second is on the stack; their options are just limited to mana abilities and certain special actions.
+  - *2021-03-19* — Split second doesn't stop triggered abilities from triggering, such as that of Chalice of the Void. If one does, its controller puts it on the stack and chooses targets for it, if any. Those abilities will resolve as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c19/11/sudden-substitution) · oracle_id `e5ddacfb-e5a8-4885-a4c9-fa117f321293` · printing: C19 #11 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

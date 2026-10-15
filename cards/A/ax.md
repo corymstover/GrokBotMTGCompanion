@@ -59,7 +59,9 @@
   > *Only a worthy few are permitted within the sentient forest known as Axebane.*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3284 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/248/axebane-guardian) · oracle_id `060e0378-e335-4b3d-82aa-ae36639339f6` · printing: TDC #248 (2025-04-11) · [rulings](https://api.scryfall.com/cards/f0282af2-9b3f-4335-92ea-9db9267e8cd2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2012-10-01* — Axebane Guardian’s activated ability is a mana ability. It doesn’t use the stack and can’t be responded to. The number of creatures with defender you control is counted, and the color(s) of mana produced chosen, immediately after the ability is activated when the ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/248/axebane-guardian) · oracle_id `060e0378-e335-4b3d-82aa-ae36639339f6` · printing: TDC #248 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Axebane Stag
 
@@ -118,6 +120,7 @@
   > {T}: Add {W}.
   > {1}{R}{R}{W}, {T}, Sacrifice this land: Search your library for an Aura card and/or an Equipment card, reveal them, put them into your hand, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3459 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/250/axgard-armory) · oracle_id `bce30fd0-ed1e-495d-9149-6a4c81c45c7b` · printing: KHM #250 (2021-02-05) · [rulings](https://api.scryfall.com/cards/f9c77d35-8418-48fb-b7d7-7cfa763545c5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Axgard Artisan
@@ -158,6 +161,7 @@
   > *—Dwarven expression meaning*
   > *"a foolhardy act of bravery"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6642 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/189/axgard-cavalry) · oracle_id `6a92b011-fd01-4b6a-a17c-73ac1967ff98` · printing: FDN #189 (2024-11-15) · [rulings](https://api.scryfall.com/cards/fe3cc41a-adae-4c9b-b4d3-03f3ca862fed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Axiom Engraver

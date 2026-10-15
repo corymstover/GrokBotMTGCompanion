@@ -25,6 +25,7 @@
   > Cycling {2} ({2}, Discard this card: Draw a card.)
 - **Keywords:** Flash, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5895 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/74/waxen-shapethief) · oracle_id `6c540822-4ceb-4ebf-b777-da172ada3f1b` · printing: DFT #74 (2025-02-14) · [rulings](https://api.scryfall.com/cards/412aaa30-b9cd-4cf8-beb8-1c1229667b31/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Waxing Moon

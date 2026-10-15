@@ -46,7 +46,11 @@
   > {B}{G}, Sacrifice another creature: You gain 1 life and draw a card.
 - **Keywords:** Undergrowth
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5193 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/grn/180/izoni-thousand-eyed) · oracle_id `5a210b32-6e1f-4578-bd8b-4e481b761159` · printing: GRN #180 (2018-10-05) · [rulings](https://api.scryfall.com/cards/75955b0e-12d6-40ba-aab5-b7b7e2bde121/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-10-05* — Because tokens aren't cards, they never count for undergrowth abilities.
+  - *2018-10-05* — Creature cards with other types, such as artifact creature cards, count for undergrowth abilities.
+  - *2018-10-05* — You can activate Izoni's last ability while its undergrowth ability is on the stack. This will increase the number of Insect tokens you'll create.
+- **Source flags:** [Scryfall](https://scryfall.com/card/grn/180/izoni-thousand-eyed) · oracle_id `5a210b32-6e1f-4578-bd8b-4e481b761159` · printing: GRN #180 (2018-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Izzet Boilerworks
 
@@ -71,7 +75,9 @@
   > • Izzet Charm deals 2 damage to target creature.
   > • Draw two cards, then discard two cards.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1538 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/190/izzet-charm) · oracle_id `a07698f6-5ad5-49a3-9da2-f82d407f5cd7` · printing: RVR #190 (2024-01-12) · [rulings](https://api.scryfall.com/cards/15af0592-a1cb-4b1e-b051-dde978939706/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-08-07* — If you choose the last mode, you draw two cards and discard two cards all while Izzet Charm is resolving. Nothing can happen between the two, and no player may choose to take actions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/190/izzet-charm) · oracle_id `a07698f6-5ad5-49a3-9da2-f82d407f5cd7` · printing: RVR #190 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Izzet Chemister
 
@@ -120,7 +126,18 @@
 - **Flavor text** (MH3 printing):
   > *Hard hats are required. Shock-resistant coveralls aren't, but are highly recommended.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4912 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/191/izzet-generatorium) · oracle_id `6a618c4a-e604-4dce-a078-755fd35ac5d9` · printing: MH3 #191 (2024-06-14) · [rulings](https://api.scryfall.com/cards/c6d9537d-c6b9-46ef-834b-87750d79f1ae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2024-06-07* — Energy counters are a kind of counter that a player may have. They're not associated with any specific permanents.
+  - *2024-06-07* — Energy counters aren't mana. They don't go away as steps, phases, and turns end, and effects that add mana "of any type" can't give you energy counters.
+  - *2024-06-07* — If a spell or ability with one or more targets states that you "may pay" some amount of {E}, and each permanent that it targets has become an illegal target, the spell or ability won't resolve. You can't pay any {E} even if you want to.
+  - *2024-06-07* — If an effect says you get one or more {E}, you get that many energy counters. To pay one or more {E}, you lose that many energy counters. You can't pay more energy counters than you have. Any effects that interact with counters a player gets, has, or loses can interact with energy counters.
+  - *2024-06-07* — If you control two Izzet Generatoriums (Generatoria?), the number of {E} you get is the original number plus two. Three Izzet Generatoriums adds three to the original number, and so on.
+  - *2024-06-07* — Keep track of how many energy counters each player has. Potential ways to track this include writing theme down on paper or using dice, but any method that is clear and mutually agreeable is fine. (At higher levels of tournament play, dice may not be allowed for tracking counters that players have.)
+  - *2024-06-07* — Some spells and abilities that give you {E} may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't get any {E}.
+  - *2024-06-07* — Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
+  - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
+  - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/191/izzet-generatorium) · oracle_id `6a618c4a-e604-4dce-a078-755fd35ac5d9` · printing: MH3 #191 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Izzet Guildgate
 
@@ -132,7 +149,10 @@
 - **Flavor text** (FDN printing):
   > *Enter those with the vision to create and the daring to release their creations.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1812 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/691/izzet-guildgate) · oracle_id `bf75a3d1-f184-4b48-a913-21caee1db084` · printing: FDN #691 (2024-11-15) · [rulings](https://api.scryfall.com/cards/db9e6fc9-813d-4a71-8a68-8e0f83fa945d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-04-15* — Gate is not a basic land type.
+  - *2013-04-15* — The subtype Gate has no special rules significance, but other spells and abilities may refer to it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/691/izzet-guildgate) · oracle_id `bf75a3d1-f184-4b48-a913-21caee1db084` · printing: FDN #691 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Izzet Guildmage
 
@@ -168,6 +188,7 @@
   > *"Remember to discharge your locket every seven hours. Unless you prefer the spontaneous aether overload, of course."*
   > *—Daxiver, Izzet electromancer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8114 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c19/215/izzet-locket) · oracle_id `7ee07546-2c2e-4679-b671-7ea509b1d3ea` · printing: C19 #215 (2019-08-23) · [rulings](https://api.scryfall.com/cards/a32ecc71-b924-4414-94ee-c6cb0ba752e5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Izzet Signet

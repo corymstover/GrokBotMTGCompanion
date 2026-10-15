@@ -44,7 +44,9 @@
   > {1}{B}: Regenerate Ink-Eyes.
 - **Keywords:** Regenerate, Ninjutsu
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2973 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/pca/33/ink-eyes-servant-of-oni) · oracle_id `5d520476-740a-4005-801e-472b24fa6497` · printing: PCA #33 (2016-11-25) · [rulings](https://api.scryfall.com/cards/55ed38fc-dc1f-4a03-8869-147f7eb8646b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2005-02-01* — If, during the combat damage step, a creature is destroyed during combat and Ink-Eyes also deals combat damage to a player, the destroyed creature can be a legal target for Ink-Eyes's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pca/33/ink-eyes-servant-of-oni) · oracle_id `5d520476-740a-4005-801e-472b24fa6497` · printing: PCA #33 (2016-11-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inkfathom Divers
 
@@ -117,7 +119,10 @@
   > {T}: Add {C}.
   > {1}: This land becomes a 1/1 Phyrexian Blinkmoth artifact creature with flying and infect until end of turn. It's still a land. (It deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1957 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mbs/145/inkmoth-nexus) · oracle_id `675281ff-b81f-4e5e-9f85-9f8cd202b50b` · printing: MBS #145 (2011-02-04) · [rulings](https://api.scryfall.com/cards/ec50c1c3-885e-47d3-ada7-cc0edbf09df1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2011-06-01* — If Inkmoth Nexus entered this turn and it's not a creature, it can be tapped for mana. If it becomes a creature that turn, it can't attack or be tapped for mana.
+  - *2011-06-01* — If you've controlled Inkmoth Nexus continuously since your most recent turn began and it becomes a creature, it can attack or be tapped for mana.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mbs/145/inkmoth-nexus) · oracle_id `675281ff-b81f-4e5e-9f85-9f8cd202b50b` · printing: MBS #145 (2011-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inkrise Infiltrator
 
@@ -184,4 +189,5 @@
   > *—Esper fable*
 - **Keywords:** Landwalk, Shroud, Trample, Islandwalk
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5049 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/55/inkwell-leviathan) · oracle_id `dbdd0963-b395-4cb8-ad9a-ed85a3e9f2e5` · printing: 2XM #55 (2020-08-07) · [rulings](https://api.scryfall.com/cards/9f7a6dfb-a8f8-4899-b2db-c48d542dfd55/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

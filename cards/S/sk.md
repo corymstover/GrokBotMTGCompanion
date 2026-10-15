@@ -400,6 +400,7 @@
   > *"This palace will be our fire-spit, and roasted prince our victory meal. Send in the torch-pigs!"*
   > *—Ghut Rak, Gruul guildmage*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3350 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/pca/127/skarrg-the-rage-pits) · oracle_id `92bac34e-2045-4331-842f-185711c1ac56` · printing: PCA #127 (2016-11-25) · [rulings](https://api.scryfall.com/cards/3340d094-fe13-4087-abba-27e8c9a7f3c7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Skateboard
@@ -567,7 +568,10 @@
   > Whenever one or more creature cards leave your graveyard, create a 2/2 black Skeleton Pirate creature token. (This ability triggers only from the battlefield.)
   > {5}{B}: Return this card from your graveyard to the battlefield tapped.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5814 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/85/skeleton-crew) · oracle_id `2536750c-3c4f-4e00-b517-680ad4fd2ecc` · printing: LCC #85 (2023-11-17) · [rulings](https://api.scryfall.com/cards/dd9f52d6-da6d-4f68-aafb-6bd3d022f616/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-11-10* — If two or more creature cards leave your graveyard as a single event, Skeleton Crew's second ability will trigger once. If they leave your graveyard as separate events, it will trigger once for each event.
+  - *2023-11-10* — Resolving Skeleton Crew's last ability won't cause its second ability to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/85/skeleton-crew) · oracle_id `2536750c-3c4f-4e00-b517-680ad4fd2ecc` · printing: LCC #85 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Skeletonize
 
@@ -591,7 +595,10 @@
   > Equip {2}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8595 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soi/263/skeleton-key) · oracle_id `328834f6-1f49-417a-a2d6-d430b8dca177` · printing: SOI #263 (2016-04-08) · [rulings](https://api.scryfall.com/cards/3168317b-b166-483e-9d9a-20cdfcdc255c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2016-04-08* — If you cause a creature to have 0 power or less, use the actual value (which may be negative) to determine whether it can block or be blocked. A creature with skulk and 0 or less power most likely won’t be blocked, but it won’t deal combat damage and won’t trigger any abilities that trigger when combat damage is dealt.
+  - *2016-04-08* — Skulk matters only as blockers are chosen. Modifying either creature’s power after blockers are chosen won’t cause the attacking creature to become unblocked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soi/263/skeleton-key) · oracle_id `328834f6-1f49-417a-a2d6-d430b8dca177` · printing: SOI #263 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Skeleton Scavengers
 
@@ -640,6 +647,7 @@
 - **Flavor text** (KHM printing):
   > *Stripped of their divinity, the elves of Skemfar channeled their rage and sorrow into bloody brutality.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8086 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/109/skemfar-avenger) · oracle_id `47c67df1-52f5-459f-b83e-6b971be9b294` · printing: KHM #109 (2021-02-05) · [rulings](https://api.scryfall.com/cards/fad2c6d4-03dd-4dab-861c-77c55bda0db7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Skemfar Elderhall
@@ -663,7 +671,10 @@
   > • Each opponent loses X life, where X is the greatest number of creatures you control that have a creature type in common.
   > • You gain X life, where X is the greatest number of creatures you control that have a creature type in common.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4580 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/110/skemfar-shadowsage) · oracle_id `496ecb73-f508-4ac7-b101-23e03404580f` · printing: KHM #110 (2021-02-05) · [rulings](https://api.scryfall.com/cards/c204130f-0483-49ed-8512-03a74894702e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-02-05* — The amount of life lost or gained is calculated as the triggered ability resolves based on the creatures you control at that time, including Skemfar Shadowsage itself if it's still under your control. You'll always use the greatest number possible. You don't need to choose any creature types. For example, if you control a Giant Wizard, a Giant Warrior, an Elf Warrior, and a Kor Warrior at that time, each opponent will lose 3 life or you'll gain 3 life.
+  - *2021-02-05* — You choose which mode the triggered ability has as you put that ability on the stack. You can't change modes later.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/110/skemfar-shadowsage) · oracle_id `496ecb73-f508-4ac7-b101-23e03404580f` · printing: KHM #110 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Skewer Slinger
 
@@ -690,7 +701,14 @@
   > *Going to a Rakdos show is dangerous. Trying to leave early can be fatal.*
 - **Keywords:** Spectacle
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9265 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/124/skewer-the-critics) · oracle_id `c43b616e-ef87-4c12-810b-a1a3260168fa` · printing: RVR #124 (2024-01-12) · [rulings](https://api.scryfall.com/cards/43ca8f80-e9ed-483f-a8a7-ad6149811df9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-01-12* — A card's spectacle cost is the same no matter how much life your opponents lost or how many opponents lost life.
+  - *2024-01-12* — Damage dealt to a player causes that player to lose that much life.
+  - *2024-01-12* — In a multiplayer game, if an opponent loses life and later that turn leaves the game, you can cast a spell for its spectacle cost. (If a player leaves the game during their turn, that turn continues without an active player.)
+  - *2024-01-12* — Spectacle cares only that an opponent lost life during the turn, not that the opponent's life total is currently lower than it was. For example, if an opponent loses 1 life and then gains 2 life in the same turn, you can cast a spell for its spectacle cost that turn.
+  - *2024-01-12* — Spectacle doesn't change when you can cast the spell. For example, you can't cast a sorcery with spectacle during an opponent's turn unless another effect allows you to do so, even if that player has lost life this turn.
+  - *2024-01-12* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as a spectacle cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/124/skewer-the-critics) · oracle_id `c43b616e-ef87-4c12-810b-a1a3260168fa` · printing: RVR #124 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Skill Borrower
 
@@ -780,7 +798,9 @@
   > *"Your creations are effective, Sheoldred, but we must unite the flesh, not merely flay it."*
   > *—Elesh Norn, Grand Cenobite*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5697 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/86/skinrender) · oracle_id `c5c225a6-6a5e-4905-9412-dad15ba645b4` · printing: ECC #86 (2026-01-23) · [rulings](https://api.scryfall.com/cards/178bca8c-8686-414f-8c71-a582eecd273d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-01-01* — This ability is mandatory. If there are no other creatures on the battlefield, you must target Skinrender itself.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/86/skinrender) · oracle_id `c5c225a6-6a5e-4905-9412-dad15ba645b4` · printing: ECC #86 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Skinshifter
 
@@ -832,7 +852,9 @@
   > *—Keskit, the Flesh Sculptor*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2922 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/276/skirge-familiar) · oracle_id `ba95f24d-42da-48ce-bcf1-1b7c4b3c45b5` · printing: MH2 #276 (2021-06-18) · [rulings](https://api.scryfall.com/cards/2d92fcf1-2ccd-47d2-9a24-f44b766a0b68/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-06-18* — Skirge Familiar's activated ability is a mana ability. It doesn't use the stack and can't be responded to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/276/skirge-familiar) · oracle_id `ba95f24d-42da-48ce-bcf1-1b7c4b3c45b5` · printing: MH2 #276 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Skirk Alarmist
 
@@ -920,7 +942,9 @@
 - **Flavor text** (DMR printing):
   > *Deep beneath the ruined continent of Otaria, there's a mine where goblins still work, ignorant of the destruction above.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1354 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/137/skirk-prospector) · oracle_id `c18013e4-0b99-44e3-a2b2-027ace68723a` · printing: DMR #137 (2023-01-13) · [rulings](https://api.scryfall.com/cards/7bc508b3-8b38-4cf0-89a7-a2cb247ed083/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-12-08* — You can sacrifice any Goblin you control to activate Skirk Prospector’s activated ability, including Skirk Prospector itself. Note that once you sacrifice Skirk Prospector, you won’t be able to activate its ability again, so if you’d like to sacrifice multiple Goblins including Skirk Prospector for mana, be sure to sacrifice Skirk Prospector last.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/137/skirk-prospector) · oracle_id `c18013e4-0b99-44e3-a2b2-027ace68723a` · printing: DMR #137 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Skirk Ridge Exhumer
 
@@ -1032,7 +1056,15 @@
   > {B}{B}: Regenerate Skithiryx.
 - **Keywords:** Flying, Regenerate, Infect
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2670 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/107/skithiryx-the-blight-dragon) · oracle_id `daf6c421-e7f7-4fc6-967c-65f4ab96fcfd` · printing: 2XM #107 (2020-08-07) · [rulings](https://api.scryfall.com/cards/cab61c7e-e00a-413b-a0b5-7718b479582f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2025-09-19* — A player who has ten or more poison counters loses the game. This is a state-based action.
+  - *2025-09-19* — Activating the regeneration ability creates a replacement effect that acts like a shield, replacing the next time Skithiryx would be destroyed that turn. The shield works against effects that try to destroy Skithiryx or lethal damage that would be dealt to Skithiryx.
+  - *2025-09-19* — Damage from a source with infect is damage in all respects. If the source with infect also has lifelink, damage dealt by that source also causes its controller to gain that much life. Damage from a source with infect can be prevented or redirected. Abilities that trigger on damage being dealt will trigger if a source with infect deals damage, if appropriate.
+  - *2025-09-19* — Damage that a creature with infect deals doesn't result in damage being marked on a creature or a player losing life. Instead, it results in that many -1/-1 counters being put on that creature or that many poison counters being given to that player. Damage dealt to planeswalkers still results in that planeswalker losing that many loyalty counters. Damage dealt to battles still results in that battle losing that many defense counters.
+  - *2025-09-19* — If the regeneration shield is used, Skithiryx isn't destroyed, all damage marked on Skithiryx is healed, it becomes tapped, and it's removed from combat (if applicable).
+  - *2025-09-19* — Skithiryx can regenerate even if it isn't in combat, it's already tapped, or it's undamaged.
+  - *2025-09-19* — The -1/-1 counters remain on the creature indefinitely. They're not removed if the creature regenerates or the turn ends.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/107/skithiryx-the-blight-dragon) · oracle_id `daf6c421-e7f7-4fc6-967c-65f4ab96fcfd` · printing: 2XM #107 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Skitterbeam Battalion
 
@@ -1045,7 +1077,16 @@
   > When this creature enters, if you cast it, create two tokens that are copies of it.
 - **Keywords:** Haste, Trample, Prototype
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6796 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/165/skitterbeam-battalion) · oracle_id `ff1dd9c1-d1e5-49dd-b8b2-df3e4a41d3e5` · printing: BRO #165 (2022-11-18) · [rulings](https://api.scryfall.com/cards/38fc1715-4ddb-4404-83c6-0b8a61922578/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2022-10-14* — A prototype card is a colorless card in every zone except the stack or the battlefield, as well as while on the stack or the battlefield if not cast as a prototyped spell. Ignore its alternative characteristics in those cases. For example, while it's in your graveyard, Blitz Automaton is a colorless creature card with mana value 7. It can't be the target of Recommission, a spell that targets an artifact or creature card with mana value 3 or less in your graveyard.
+  - *2022-10-14* — Casting a prototyped spell isn't the same as casting it for an alternative cost, and an alternative cost may be applied to a spell cast this way. For example, if an effect allows you to cast an artifact card without paying its mana cost, you could either cast Blitz Automaton normally, or as a prototyped spell.
+  - *2022-10-14* — If an effect copies a prototyped spell, that copy (as well as the token it becomes on the battlefield) will have the same characteristics as the prototyped spell. Similarly, if an effect creates a token that's a copy of a prototyped permanent or causes another permanent to become a copy of it, the copy would have the same characteristics as the prototyped permanent.
+  - *2022-10-14* — Regardless of how it was cast, a prototype card always has the same name, abilities, types, and so on. Only the mana cost, mana value, color, power, and toughness change depending on whether the card was cast as a prototyped spell.
+  - *2022-10-14* — The copies will have the same mana cost, mana value, color, power, and toughness as Skitterbeam Battalion, which vary depending on whether it was cast as a prototyped spell.
+  - *2022-10-14* — The prototype ability functions in any zone that the spell could be cast from. For example, if an effect allows you to cast artifact spells from your graveyard, you could cast a prototyped Blitz Automaton from your graveyard.
+  - *2022-10-14* — When cast as a prototyped spell, that spell has the mana cost, power, and toughness characteristics shown in its colored, secondary text box rather than the normal values of those characteristics. Its color and mana value are determined by that mana cost. The permanent that spell becomes as it resolves has the same characteristics. If the spell leaves the stack in any other way, or the permanent it becomes leaves the battlefield, it immediately resumes using its normal characteristics.
+  - *2022-10-14* — When casting a prototyped spell, use only its prototype characteristics to determine whether it's legal to cast it. For example, if Blitz Automaton is exiled with the last ability of Chandra, Dressed to Kill, you would be able to cast it for {2}{R} (because it's a red spell), even though you wouldn't be able to cast it as a colorless spell for its normal cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/165/skitterbeam-battalion) · oracle_id `ff1dd9c1-d1e5-49dd-b8b2-df3e4a41d3e5` · printing: BRO #165 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Skitter Eel
 
@@ -1072,7 +1113,11 @@
   > Whenever you cast a colorless spell, until end of turn, this creature gains trample and gets +X/+X, where X is that spell's mana value.
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3303 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/717/skittering-cicada) · oracle_id `ac141679-6ada-49a8-b225-d1a20c3838db` · printing: CMM #717 (2023-08-04) · [rulings](https://api.scryfall.com/cards/d3a83be9-856d-4c30-95f5-da72a5ac8263/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-07-28* — If the colorless spell has {X} in its mana cost, use the value chosen for X when calculating that spell's mana value.
+  - *2023-07-28* — Skittering Cicada's last ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+  - *2023-07-28* — Skittering Cicada's second ability applies only to casting spells. It does not, for example, change when you may activate abilities that can be activated "only as a sorcery."
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/717/skittering-cicada) · oracle_id `ac141679-6ada-49a8-b225-d1a20c3838db` · printing: CMM #717 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Skittering Crustacean
 
@@ -1121,7 +1166,11 @@
   > *"The brood spread far faster than we could kill it. I fear the worst is yet to come."*
   > *—\*The War Diaries\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4615 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/roe/10/skittering-invasion) · oracle_id `cf890abd-b282-4dbb-ac86-9e7caec1c1b8` · printing: ROE #10 (2010-04-23) · [rulings](https://api.scryfall.com/cards/270f0e5b-2c46-4816-a195-cfce16570bde/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-06-07* — Kindred is a card type that allows noncreature cards to have creature types. For example, Echoes of Eternity is an Eldrazi (although not a creature) while on the battlefield and an Eldrazi card (although not a creature card) in zones other than the battlefield.
+  - *2024-06-07* — This cards was originally printed with the "tribal" card type. That card type has been replaced with "kindred". This change does not affect the gameplay function of this card.
+  - *2024-06-07* — While it appears only on cards that already have other card types, kindred is a card type and will be counted by effects that refer to the number of card types among cards in a zone.
+- **Source flags:** [Scryfall](https://scryfall.com/card/roe/10/skittering-invasion) · oracle_id `cf890abd-b282-4dbb-ac86-9e7caec1c1b8` · printing: ROE #10 (2010-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Skittering Monstrosity
 
@@ -1344,7 +1393,13 @@
   > Unearth {2}{B} ({2}{B}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)
 - **Keywords:** Command Protocols, Unearth, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7777 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/40k/58/skorpekh-lord) · oracle_id `c40e8d52-d4cc-4502-8b51-a5612dbe1ada` · printing: 40K #58 (2022-10-07) · [rulings](https://api.scryfall.com/cards/b768ec5f-771a-4acd-b3dd-85dea914689e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2022-10-07* — Activating a permanent card's unearth ability isn't the same as casting it as a spell. The unearth ability is put on the stack, but the card is not. Spells and abilities that interact with activated abilities (such as Stifle) will interact with unearth, but spells and abilities that interact with spells (such as Cancel) will not.
+  - *2022-10-07* — At the beginning of the end step, a permanent returned to the battlefield with unearth is exiled. This is a delayed triggered ability, and it can be countered by effects that counter triggered abilities. If the ability is countered, the permanent will stay on the battlefield and the delayed trigger won't trigger again. However, the replacement effect will still exile it if it eventually leaves the battlefield.
+  - *2022-10-07* — If a permanent returned to the battlefield by an unearth ability would leave it for any reason, it's exiled instead—unless the spell or ability that's causing it to leave the battlefield is actually trying to exile it. In that case, the spell or ability succeeds at exiling the permanent. If the spell or ability later returns the card to the battlefield, it will return as a new object with no relation to its previous existence. The unearth effect will no longer apply to it.
+  - *2022-10-07* — If you activate a card's unearth ability but that card is removed from your graveyard before the ability resolves, that unearth ability will resolve and do nothing.
+  - *2022-10-07* — Unearth grants haste to the permanent that's returned to the battlefield. However, neither of the "exile" abilities is granted to that permanent. If that creature loses all its abilities, it will still be exiled at the beginning of the end step, and if it would leave the battlefield, it is still exiled instead.
+- **Source flags:** [Scryfall](https://scryfall.com/card/40k/58/skorpekh-lord) · oracle_id `c40e8d52-d4cc-4502-8b51-a5612dbe1ada` · printing: 40K #58 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Skred
 
@@ -1369,7 +1424,15 @@
   > {W/P}, {T}: Choose a color. Another target creature you control gains toxic 1 and hexproof from that color until end of turn. It can't be blocked by creatures of that color this turn. ({W/P} can be paid with either {W} or 2 life.)
 - **Keywords:** Toxic
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1124 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/33/skrelv-defector-mite) · oracle_id `20053847-6623-493c-8cdb-a69cda3b1577` · printing: ONE #33 (2023-02-10) · [rulings](https://api.scryfall.com/cards/60b565da-a49b-479c-b0c4-8ff3dd20cc0b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-02-04* — A player with ten or more poison counters loses the game. This is a state-based action and doesn't use the stack. In other words, it happens immediately and players can't respond to it, just like a player losing the game due to having 0 or less life.
+  - *2023-02-04* — Any other effects of that damage, such as life gain from lifelink, still apply.
+  - *2023-02-04* — Conversely, replacement effects that apply to the number of counters put on a player can modify the counters placed this way. For example, Vorinclex, Monstrous Raider's last two abilities can apply to counters placed this way.
+  - *2023-02-04* — Damage dealt by a creature with toxic grants the same number of counters regardless of how much damage is dealt. Notably, if a replacement effect modifies the damage in some way (such as that of Gratuitous Violence), the number of counters given remains unchanged.
+  - *2023-02-04* — If a creature with toxic deals combat damage to a creature or planeswalker, or if it deals noncombat damage, toxic has no effect and no player gets poison counters.
+  - *2023-02-04* — Multiple instances of toxic are cumulative. For example, if a creature has toxic 2 and gains toxic 1 due to another effect, combat damage that creature deals to a player will cause that player to get 3 poison counters.
+  - *2023-02-04* — Toxic doesn't change the amount of combat damage a creature deals. For example, if a 2/2 creature with toxic 1 deals combat damage to a player, that creature will deal 2 damage. The results of that damage are the player loses 2 life and gets a poison counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/33/skrelv-defector-mite) · oracle_id `20053847-6623-493c-8cdb-a69cda3b1577` · printing: ONE #33 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Skrelv's Hive
 
@@ -1380,7 +1443,15 @@
   > Corrupted — As long as an opponent has three or more poison counters, creatures you control with toxic have lifelink.
 - **Keywords:** Corrupted
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1920 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frc/33/skrelvs-hive) · oracle_id `06d219ff-0083-4c2a-b5b3-2b84bb58f57e` · printing: FRC #33 (2026-10-02) · [rulings](https://api.scryfall.com/cards/e2652c4d-38a7-4014-94bb-7efd277de992/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-02-04* — A player with ten or more poison counters loses the game. This is a state-based action and doesn't use the stack. In other words, it happens immediately and players can't respond to it, just like a player losing the game due to having 0 or less life.
+  - *2023-02-04* — Any other effects of that damage, such as life gain from lifelink, still apply.
+  - *2023-02-04* — Conversely, replacement effects that apply to the number of counters put on a player can modify the counters placed this way. For example, Vorinclex, Monstrous Raider's last two abilities can apply to counters placed this way.
+  - *2023-02-04* — Damage dealt by a creature with toxic grants the same number of counters regardless of how much damage is dealt. Notably, if a replacement effect modifies the damage in some way (such as that of Gratuitous Violence), the number of counters given remains unchanged.
+  - *2023-02-04* — If a creature with toxic deals combat damage to a creature or planeswalker, or if it deals noncombat damage, toxic has no effect and no player gets poison counters.
+  - *2023-02-04* — Multiple instances of toxic are cumulative. For example, if a creature has toxic 2 and gains toxic 1 due to another effect, combat damage that creature deals to a player will cause that player to get 3 poison counters.
+  - *2023-02-04* — Toxic doesn't change the amount of combat damage a creature deals. For example, if a 2/2 creature with toxic 1 deals combat damage to a player, that creature will deal 2 damage. The results of that damage are the player loses 2 life and gets a poison counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frc/33/skrelvs-hive) · oracle_id `06d219ff-0083-4c2a-b5b3-2b84bb58f57e` · printing: FRC #33 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Skulduggery
 
@@ -1455,7 +1526,15 @@
   > Counters remain on Skullbriar as it moves to any zone other than a player's hand or library.
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8979 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/277/skullbriar-the-walking-grave) · oracle_id `088ac883-6f44-4046-bf19-81c7fd952e55` · printing: 2X2 #277 (2022-07-08) · [rulings](https://api.scryfall.com/cards/3dd0bf11-4e43-43f1-82e3-755beed0ede0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2011-09-22* — Counters that adjust power and/or toughness affect Skullbriar's power and/or toughness in zones other than the battlefield. For example, a Skullbriar in the command zone with a +1/+1 counter on it will be 2/2.
+  - *2011-09-22* — Effects that last "for as long as that creature has a [kind of] counter on it," such as Aven Mimeomancer's, stop applying to Skullbriar once it leaves the battlefield. Even though Skullbriar retains the counters, it becomes a new object with no relation to its last existence in its previous zone.
+  - *2011-09-22* — If a card becomes a copy of Skullbriar, counters will remain on that card when it leaves the battlefield (unless it goes to your hand or library). Once it does so, it stops being a copy of Skullbriar, so those counters will cease to exist when that card next changes zones.
+  - *2011-09-22* — Skullbriar retains all counters, not just +1/+1 counters.
+  - *2011-09-22* — Skullbriar will get one +1/+1 counter each time it deals combat damage to a player (including you if its combat damage gets redirected), regardless of how much damage is dealt.
+  - *2011-09-22* — Skullbriar's last ability only works if it has that ability in the zone it's moving from. For example, with Yixlid Jailer ("Cards in graveyards lose all abilities") on the battlefield, a Skullbriar with a counter on it in a graveyard loses that counter when it's put onto the battlefield. Conversely, that Skullbriar moving from the graveyard to the battlefield would retain that counter if Humility ("All creatures lose all abilities and are 1/1") were on the battlefield; if Skullbriar then left the battlefield with Humility still on the battlefield, it would lose the counter.
+  - *2011-09-22* — The counters that remain on Skullbriar as it changes zones aren't "placed" on Skullbriar. Effects like Doubling Season's and Melira, Sylvok Outcast's won't affect those counters.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/277/skullbriar-the-walking-grave) · oracle_id `088ac883-6f44-4046-bf19-81c7fd952e55` · printing: 2X2 #277 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Skullcage
 
@@ -1626,6 +1705,7 @@
   > *"Buy something or move along."*
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6966 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/149/skullport-merchant) · oracle_id `64ed5c35-8185-4e68-8028-b7b632ef5828` · printing: CLB #149 (2022-06-10) · [rulings](https://api.scryfall.com/cards/3362080e-57e9-4da1-9065-d28932869fe5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Skull Prophet
@@ -1640,6 +1720,7 @@
   > *"I study bone because that's where truth dwells. One monster knucklebone is wiser than all that damp meat in your head."*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1407 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/304/skull-prophet) · oracle_id `39b51f62-8421-42d1-86d3-74fd6e6f31a2` · printing: TDC #304 (2025-04-11) · [rulings](https://api.scryfall.com/cards/ea53e2c9-0a3f-4fda-a6ab-9a558bb8f126/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Skull Raid
@@ -1737,7 +1818,9 @@
   > Whenever this creature deals combat damage to a player, exile up to two target cards from that player's graveyard.
 - **Keywords:** Ninjutsu
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6471 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pca/36/skullsnatcher) · oracle_id `5326381e-e5e7-4c3e-9565-4837b3ffaec0` · printing: PCA #36 (2016-11-25) · [rulings](https://api.scryfall.com/cards/07a48566-47cd-4214-879d-13bc76d2c1d2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2005-02-01* — Skullsnatcher’s ability can target zero, one, or two cards in that player’s graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pca/36/skullsnatcher) · oracle_id `5326381e-e5e7-4c3e-9565-4837b3ffaec0` · printing: PCA #36 (2016-11-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Skull Storm
 
@@ -1774,7 +1857,14 @@
   > When this creature enters, return target card from your graveyard to your hand, then choose an opponent. That player returns a card from their graveyard to their hand.
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3729 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/207/skullwinder) · oracle_id `d3d8dd6e-a80b-4063-a542-ff67ef8dad4f` · printing: OTC #207 (2024-04-19) · [rulings](https://api.scryfall.com/cards/e820c022-c3a8-4c98-a60b-1fb105d38937/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2015-11-04* — Skullwinder's enters-the-battlefield ability targets only the card in your graveyard. If that card is an illegal target as the ability tries to resolve, the ability won't resolve and none of its effects will happen. No cards will be returned to any player's hand.
+  - *2015-11-04* — You choose the opponent as the ability is resolving. You may choose an opponent with no cards in their graveyard.
+  - *2022-06-10* — Skullwinder's enters-the-battlefield ability targets only the card in your graveyard. If that card is an illegal target as the ability tries to resolve, the ability won't resolve and none of its effects will happen. No cards will be returned to any player's hand.
+  - *2022-06-10* — The chosen opponent gets to choose which card to return from their graveyard to their hand.
+  - *2022-06-10* — You choose the target card as you put Skullwinder's triggered ability on the stack, but you don't choose an opponent until after you have returned the card to your hand.
+  - *2022-06-10* — You may choose an opponent with no cards in their graveyard. In that case, they will not get to return anything.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/207/skullwinder) · oracle_id `d3d8dd6e-a80b-4063-a542-ff67ef8dad4f` · printing: OTC #207 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Skybeast Tracker
 
@@ -1889,6 +1979,7 @@
 - **Flavor text** (SNC printing):
   > *New Capenna's districts are a series of tiers; wealth and power always rise to the top.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7967 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/256/skybridge-towers) · oracle_id `46466819-3c8b-4f7e-82c2-93cb0118a6e6` · printing: SNC #256 (2022-04-29) · [rulings](https://api.scryfall.com/cards/e28c871f-a96a-4e7d-a159-2e93aeb276d4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Skycat Sovereign
@@ -1904,7 +1995,10 @@
   > *The bounty on its head is as old as Skysail, but no one has ever tried to collect.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7612 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/iko/207/skycat-sovereign) · oracle_id `84adce5c-39c7-425e-b163-4a1a3977364b` · printing: IKO #207 (2020-04-24) · [rulings](https://api.scryfall.com/cards/6209dbfd-b765-44c5-b3ad-94f6e0705926/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-04-17* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to Skycat Sovereign may become lethal if other creatures with flying you control leave the battlefield during that turn.
+  - *2020-04-17* — Skycat Sovereign's first ability applies only while it's on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/iko/207/skycat-sovereign) · oracle_id `84adce5c-39c7-425e-b163-4a1a3977364b` · printing: IKO #207 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Skyclave Aerialist // Skyclave Invader
 
@@ -1934,7 +2028,12 @@
   > When this creature enters, exile up to one target nonland, nontoken permanent you don't control with mana value 4 or less.
   > When this creature leaves the battlefield, the exiled card's owner creates an X/X blue Illusion creature token, where X is the mana value of the exiled card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1238 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/173/skyclave-apparition) · oracle_id `d90af00a-d322-4265-9954-7b1e80702e18` · printing: SOC #173 (2026-04-24) · [rulings](https://api.scryfall.com/cards/e671de25-c47c-48a1-919b-6aa30dab142f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-09-25* — If Skyclave Apparition leaves the battlefield before its first ability resolves, the ability still exiles the target permanent.
+  - *2020-09-25* — If Skyclave Apparition's first ability exiled more than one card owned by a single player, that player creates a token with power and toughness equal to the sum of those cards' mana values. If the first ability exiled cards owned by more than one player, each of those players creates a token with power and toughness equal to the sum of the mana values of all cards exiled by the first ability.
+  - *2020-09-25* — If a creature on the battlefield has {X} in its mana cost, X is considered to be 0.
+  - *2020-09-25* — If there's no exiled card when Skyclave Apparition leaves the battlefield (most likely because its first ability hasn't resolved yet), no player creates a token.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/173/skyclave-apparition) · oracle_id `d90af00a-d322-4265-9954-7b1e80702e18` · printing: SOC #173 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Skyclave Cleric // Skyclave Basilica
 
@@ -2004,7 +2103,14 @@
   > *Skyclaves held the key to reshaping the world.*
 - **Keywords:** Indestructible, Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2527 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/380/skyclave-relic) · oracle_id `eb44b65d-6b56-4f20-a4fb-c5dd147a54c4` · printing: MOC #380 (2023-04-21) · [rulings](https://api.scryfall.com/cards/a9740bce-4c89-4d98-8941-057515999bf9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/380/skyclave-relic) · oracle_id `eb44b65d-6b56-4f20-a4fb-c5dd147a54c4` · printing: MOC #380 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Skyclave Sentinel
 
@@ -2110,7 +2216,24 @@
   > Exile target non-Pilot creature you control, then return that card to the battlefield under its owner's control.
 - **Keywords:** Flying, Vigilance, Prepared, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8425 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/67/skycoach-conductor-all-aboard) · oracle_id `788d3cfa-7706-4728-9c48-cf7bc963d002` · printing: SOS #67 (2026-04-24) · [rulings](https://api.scryfall.com/cards/4ecbca71-9a1d-44c5-b709-d6f565941d5e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (16):
+  - *2026-03-20* — A creature with a prepare spell can't become prepared more than once at the same time. For example, Emeritus of Ideation is on the battlefield and is prepared. When it attacks, its last ability triggers. When that ability resolves, its controller may still exile eight cards from their graveyard, but doing so won't cause Emeritus of Ideation to become prepared a second time or create a second copy of Ancestral Recall in exile.
+  - *2026-03-20* — A creature without a prepare spell can't become prepared.
+  - *2026-03-20* — A preparation card is a creature card in every zone. For example, while it's in your graveyard, Emeritus of Ideation is a blue creature whose mana value is 5. It can't be the target of Zealous Lorecaster's triggered ability ("When this creature enters, return target instant or sorcery card from your graveyard to your hand.").
+  - *2026-03-20* — As an effect causes a creature with a prepare spell to become prepared (including effects that state that a creature "enters prepared"), that creature's controller creates a copy of that creature's prepare spell in exile. That copy remains in exile for as long as that permanent is on the battlefield and is prepared. That creature's controller may cast that copy as long as it remains in exile. As they cast it, that creature stops being prepared.
+  - *2026-03-20* — Auras attached to the exiled creature will be put into their owners' graveyards. Equipment attached to the exiled creature will become unattached and remain on the battlefield. Any counters on the exiled creature will cease to exist. Once the exiled permanent returns, it's considered a new object with no relation to the object that it was.
+  - *2026-03-20* — Being prepared isn't a copiable value. If a permanent becomes a copy of a prepared creature, it won't be prepared. That permanent will have the alternative characteristics, though, and some other effect could cause it to become prepared later.
+  - *2026-03-20* — Casting a copy of a prepare spell from exile isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to a copy of a prepare spell cast from exile.
+  - *2026-03-20* — Creating a copy of a creature's prepare spell in exile ignores copy exceptions applied to that creature that would affect the copiable values of that spell. For example, say a player casts Croaking Counterpart (a sorcery that says "Create a token that's a copy of target non-Frog creature, except it's a 1/1 green Frog.") targeting Goblin Glasswright. The token copy of Goblin Glasswright will enter prepared as a 1/1 green Frog creature, but the copy of Craft with Pride in exile will still be a red sorcery. The copy of Craft with Pride won't be green, a creature, or a Frog, and it won't have power or toughness.
+  - *2026-03-20* — If a prepare spell with one or more targets has no legal targets when it tries to resolve, it won't resolve and none of its effects will happen. Since the spell was cast, the associated permanent will still not be prepared.
+  - *2026-03-20* — If a prepared creature loses all abilities, it won't stop being prepared, and nothing will happen to its alternative characteristics or to the copy of its prepare spell in exile.
+  - *2026-03-20* — If a prepared creature stops being a creature, it will still be prepared, and the copy of its prepare spell will remain in exile. That permanent's controller will still be able to cast it. The same is true if a prepared creature becomes a copy of something else, even if it's then a permanent without a prepare spell.
+  - *2026-03-20* — If an effect causes a creature to become unprepared, a prepared creature stops being prepared and the associated copy of its prepare spell in exile ceases to exist. If it wasn't prepared at that time, nothing happens.
+  - *2026-03-20* — If an effect instructs you to choose a card name, you may choose the alternative prepare spell's name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2026-03-20* — Only the current controller of a prepared creature can cast the copy of its prepare spell in exile. It doesn't matter who owns that creature or who controlled it when it became prepared.
+  - *2026-03-20* — Preparation cards can only be cast with their base characteristics.
+  - *2026-03-20* — While copies of spells in zones other than the stack cease to exist when state-based actions are checked, this does not apply to copies of prepare spells in exile that were created as a creature became prepared.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/67/skycoach-conductor-all-aboard) · oracle_id `788d3cfa-7706-4728-9c48-cf7bc963d002` · printing: SOS #67 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Skycoach Waypoint
 
@@ -2124,7 +2247,9 @@
   > *—Overheard at Hookiver Station*
 - **Keywords:** Prepared
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9457 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/261/skycoach-waypoint) · oracle_id `2ac2b815-2d72-48e6-b43a-18884a74bf95` · printing: SOS #261 (2026-04-24) · [rulings](https://api.scryfall.com/cards/6747657b-5ce4-4dbd-b924-ca1f7119faf7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-03-20* — Skycoach Waypoint's last ability won't have any effect on a creature that has no prepare spell or is already prepared.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/261/skycoach-waypoint) · oracle_id `2ac2b815-2d72-48e6-b43a-18884a74bf95` · printing: SOS #261 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Skycrash
 
@@ -2232,7 +2357,10 @@
   > When this creature dies, you may gain 1 life for each creature card in your graveyard. If you do, exile this card from your graveyard.
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6338 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/221/skyfisher-spider) · oracle_id `67158085-4807-4f0e-8599-c55ec7ec252e` · printing: BRO #221 (2022-11-18) · [rulings](https://api.scryfall.com/cards/87300ac8-8b6f-4c37-8058-beb59eaa66be/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-10-14* — Notably, this means that players won't get to know what nonland permanent you plan to target before you choose whether to sacrifice a creature.
+  - *2022-10-14* — Skyfisher Spider's first triggered ability doesn't have any targets. If you choose to sacrifice another creature, a second triggered ability (called a "reflexive" triggered ability) goes on the stack and you choose a target nonland permanent at that time. Players may respond to that second ability as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/221/skyfisher-spider) · oracle_id `67158085-4807-4f0e-8599-c55ec7ec252e` · printing: BRO #221 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Skygames
 
@@ -2311,7 +2439,12 @@
   > Lieutenant — As long as you control your commander, other creatures you control have melee.
 - **Keywords:** Flying, Melee, Lieutenant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3283 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/plst/ONC-21/skyhunter-strike-force) · oracle_id `8ade0824-9fd0-417d-94dd-ac399e35b582` · printing: PLST #ONC-21 (2024-01-25) · [rulings](https://api.scryfall.com/cards/d77b0ae2-e26a-4536-8f19-ed15328c039c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2023-02-04* — Creatures that enter the battlefield attacking were never declared as attackers, so they won't count toward melee's effect. Similarly, if a creature with melee enters the battlefield attacking, melee won't trigger.
+  - *2023-02-04* — It doesn't matter how many creatures you attacked a player with, only that you attacked a player with at least one creature. For example, if you attack one player with Skyhunter Strike Force and another player with five creatures, Skyhunter Strike Force will get +2/+2 until end of turn.
+  - *2023-02-04* — Melee will trigger if the creature with melee attacks a planeswalker. However, the effect counts only opponents (and not planeswalkers) that you attacked with a creature when determining the bonus.
+  - *2023-02-04* — You determine the size of the bonus as the melee ability resolves. Count each opponent that you attacked with one or more creatures. It doesn't matter if the attacking creatures are still attacking or even if they are still on the battlefield. It also doesn't matter if the opponent you attacked is still in the game.
+- **Source flags:** [Scryfall](https://scryfall.com/card/plst/ONC-21/skyhunter-strike-force) · oracle_id `8ade0824-9fd0-417d-94dd-ac399e35b582` · printing: PLST #ONC-21 (2024-01-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sky Hussar
 
@@ -2351,7 +2484,10 @@
 - **Flavor text** (FDN printing):
   > *Before Pashin could become the greatest skyknight in the kingdom, he'd have to survive his first flight.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5074 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/23/skyknight-squire) · oracle_id `7e497f6b-69e1-4fab-bb04-f687c99a8310` · printing: FDN #23 (2024-11-15) · [rulings](https://api.scryfall.com/cards/fcfe4e62-c153-47b8-8e09-cedaf91f53d8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-11-08* — If Skyknight Squire enters at the same time as one or more other creatures you control, its first ability will trigger for each of those other creatures.
+  - *2024-11-08* — Once Skyknight Squire has been blocked, putting enough +1/+1 counters on it to give it flying won't cause it to become unblocked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/23/skyknight-squire) · oracle_id `7e497f6b-69e1-4fab-bb04-f687c99a8310` · printing: FDN #23 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Skyknight Vanguard
 
@@ -2365,7 +2501,10 @@
   > *"Jump! NOW!"*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3975 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m20/218/skyknight-vanguard) · oracle_id `9180f77f-c288-4a24-a35d-a16270b3d737` · printing: M20 #218 (2019-07-12) · [rulings](https://api.scryfall.com/cards/549634d8-1c33-401b-841d-a79ef4374dd1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-07-12* — Although the token is an attacking creature, it was never declared as an attacking creature. This means that abilities that trigger whenever a creature attacks won’t trigger when the token enters the battlefield attacking.
+  - *2019-07-12* — You choose which player or planeswalker the token is attacking. It doesn’t have to be attacking the same player or planeswalker that Skyknight Vanguard is attacking.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m20/218/skyknight-vanguard) · oracle_id `9180f77f-c288-4a24-a35d-a16270b3d737` · printing: M20 #218 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Skylasher
 
@@ -2405,7 +2544,13 @@
   > At the beginning of your upkeep, if you're the monarch, create a 5/5 red Dragon creature token with flying.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3681 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/254/skyline-despot) · oracle_id `c0ce54a1-14a1-45f3-91d0-c57b581afc63` · printing: CMM #254 (2023-08-04) · [rulings](https://api.scryfall.com/cards/4e080dc5-361e-4e0b-b0d6-9ca060edceed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2016-08-23* — Abilities that trigger whenever you “become the monarch” trigger only if you aren't already the monarch. For example, if you are already the monarch as Custodi Lich enters the battlefield, its last ability won't trigger.
+  - *2016-08-23* — Being the monarch carries two inherent triggered abilities. “At the beginning of the monarch's end step, that player draws a card” and “Whenever a creature deals combat damage to the monarch, its controller becomes the monarch.”
+  - *2016-08-23* — If the triggered ability that causes the monarch to draw a card goes on the stack, and a different player becomes the monarch before that ability resolves, the first player will still draw the card.
+  - *2016-08-23* — The game starts with no monarch. Once an effect makes one player the monarch, the game will have exactly one monarch from that point forward.
+  - *2016-08-23* — The last ability of Skyline Despot checks to see if you're the monarch as your upkeep begins. If you're not, the ability won't trigger at all. You won't be able to do anything that would make you the monarch during your upkeep in time to have that ability trigger. The ability will also check to see if you're the monarch as it tries to resolve. If you're not the monarch at that time, the ability will have no effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/254/skyline-despot) · oracle_id `c0ce54a1-14a1-45f3-91d0-c57b581afc63` · printing: CMM #254 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Skyline Predator
 
@@ -2577,6 +2722,7 @@
   > *The municipal senate makes extensive use of the thopters, mostly to gather dirt on rival senators.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6038 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m21/238/skyscanner) · oracle_id `974f788a-039f-4310-a2fe-16b14a1e2d35` · printing: M21 #238 (2020-07-03) · [rulings](https://api.scryfall.com/cards/cab69fbd-0179-4b02-adba-71d2a0eeea5c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sky Scourer
@@ -2607,6 +2753,7 @@
   > *—Isperia*
 - **Keywords:** Forecast
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9656 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c13/57/skyscribing) · oracle_id `c3416e6c-ec46-410c-ab80-6e8fdb89f42d` · printing: C13 #57 (2013-11-01) · [rulings](https://api.scryfall.com/cards/b6ef8e44-3b40-46c2-973e-8f857126a13e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Skyscythe Engulfer
@@ -2650,7 +2797,11 @@
   > Exhaust — {4}: Reveal cards from the top of your library until you reveal two land cards. Put those land cards onto the battlefield tapped and the rest on the bottom of your library in a random order. Put a +1/+1 counter on this creature. (Activate each exhaust ability only once.)
 - **Keywords:** Deathtouch, Flying, Exhaust
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7274 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dft/224/skyserpent-seeker) · oracle_id `5da8b86a-a7be-4fb5-9a45-a47d5cb4b372` · printing: DFT #224 (2025-02-14) · [rulings](https://api.scryfall.com/cards/8dbd9fc0-c0df-4119-a0d3-2e1790998c21/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-02-07* — Exhaust abilities can be activated any time you could normally activate an ability.
+  - *2025-02-07* — If an ability triggers whenever you activate an exhaust ability, that ability resolves before the exhaust ability resolves.
+  - *2025-02-07* — If an exhaust ability of a permanent is activated, and then that permanent leaves the battlefield and returns to the battlefield, it becomes a new object so its exhaust ability can be activated again.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dft/224/skyserpent-seeker) · oracle_id `5da8b86a-a7be-4fb5-9a45-a47d5cb4b372` · printing: DFT #224 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Skyshaper
 
@@ -2875,7 +3026,9 @@
 - **Flavor text** (10E printing):
   > *Not even the elves truly know the Skyshroud Forest. The rangers are merely the best equipped to handle its uncertainty.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6479 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/10e/297/skyshroud-ranger) · oracle_id `8f47a230-7500-4afb-97cd-dbd444c307c8` · printing: 10E #297 (2007-07-13) · [rulings](https://api.scryfall.com/cards/9a2fd9e5-1986-4998-b08c-80897b9b27e7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2007-05-01* — Putting the card onto the battlefield is optional. When the ability resolves, you can choose not to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/10e/297/skyshroud-ranger) · oracle_id `8f47a230-7500-4afb-97cd-dbd444c307c8` · printing: 10E #297 (2007-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Skyshroud Ridgeback
 
@@ -3003,7 +3156,20 @@
   > Crew 3 (Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)
 - **Keywords:** Flying, Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2708 · Game Changer: no · Can be commander: Yes (legendary Vehicle, CR 903.3)
-- **Source flags:** [Scryfall](https://scryfall.com/card/nec/159/skysovereign-consul-flagship) · oracle_id `50b14338-9318-4327-a1dd-c0ef38903cc4` · printing: NEC #159 (2022-02-18) · [rulings](https://api.scryfall.com/cards/4f8075be-8932-49b3-990b-4b365fa27e94/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2017-09-29* — Any untapped creature you control can be tapped to pay a crew cost, even one that just came under your control.
+  - *2017-09-29* — Creatures that crew a Vehicle aren't attached to it or related in any other way. Effects that affect the Vehicle, such as by destroying it or giving it a +1/+1 counter, don't affect the creatures that crewed it.
+  - *2017-09-29* — Each Vehicle is printed with a power and toughness, but it's not a creature. If it becomes a creature (most likely through its crew ability), it will have that power and toughness.
+  - *2017-09-29* — For a Vehicle to be able to attack, it must be a creature as the declare attackers step begins, so the latest you can activate its crew ability to attack with it is during the beginning of combat step. For a Vehicle to be able to block, it must be a creature as the declare blockers step begins, so the latest you can activate its crew ability to block with it is during the declare attackers step. In either case, players may take actions after the crew ability resolves but before the Vehicle has been declared as an attacking or blocking creature.
+  - *2017-09-29* — If a permanent becomes a copy of a Vehicle, the copy won't be a creature, even if the Vehicle it's copying has become an artifact creature.
+  - *2017-09-29* — If an effect causes a Vehicle to become an artifact creature with a specified power and toughness, that effect overwrites the Vehicle's printed power and toughness.
+  - *2017-09-29* — Once a Vehicle becomes a creature, it behaves exactly like any other artifact creature. It can't attack unless you've controlled it continuously since your turn began, it can block if it's untapped, it can be tapped to pay a Vehicle's crew cost, and so on.
+  - *2017-09-29* — Once a player announces that they are activating a crew ability, no player may take other actions until the ability has been paid for. Notably, players can't try to stop the ability by changing a creature's power or by removing or tapping a creature.
+  - *2017-09-29* — Vehicle is an artifact type, not a creature type. A Vehicle that's crewed won't normally have any creature type.
+  - *2017-09-29* — When a Vehicle becomes a creature, that doesn't count as having a creature enter the battlefield. The permanent was already on the battlefield; it only changed its types. Abilities that trigger whenever a creature enters the battlefield won't trigger.
+  - *2017-09-29* — You may activate a crew ability of a Vehicle even if it's already an artifact creature. Doing so has no effect on the Vehicle. It doesn't change its power and toughness.
+  - *2017-09-29* — You may tap more creatures than necessary to activate a crew ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/nec/159/skysovereign-consul-flagship) · oracle_id `50b14338-9318-4327-a1dd-c0ef38903cc4` · printing: NEC #159 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Skyspear Cavalry
 

@@ -51,6 +51,7 @@
 - **Flavor text** (SNC printing):
   > *Purchasing chrome racehorses with cash is a common means of dispersing mysterious income.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8380 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/253/racers-ring) · oracle_id `7e2eb4d5-22a3-43c1-8cf3-e85723da1b61` · printing: SNC #253 (2022-04-29) · [rulings](https://api.scryfall.com/cards/2a11bdb2-a269-4038-85f3-69fbd02982e9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Racers' Scoreboard
@@ -63,6 +64,7 @@
   > Max speed — Spells you cast cost {1} less to cast.
 - **Keywords:** Max speed, Start your engines!
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6404 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/239/racers-scoreboard) · oracle_id `54c2b3b3-e247-4146-8045-d49480b795f2` · printing: DFT #239 (2025-02-14) · [rulings](https://api.scryfall.com/cards/50bae2ba-a6a0-4a6a-96e9-0e0372e55108/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rack and Ruin

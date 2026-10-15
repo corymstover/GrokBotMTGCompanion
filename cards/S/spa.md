@@ -102,7 +102,12 @@
   > Grav-cannon — When this creature enters, destroy up to one target artifact or enchantment.
 - **Keywords:** Grav-cannon, Squad
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8216 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/40k/14/space-marine-devastator) · oracle_id `fa25d142-e6ba-4fc9-81e2-114c32afc030` · printing: 40K #14 (2022-10-07) · [rulings](https://api.scryfall.com/cards/4a821438-2b60-421e-9fd2-3ce3ec958eb7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-10-07* — If the spell is countered, the squad ability will not trigger, and no tokens will be created.
+  - *2022-10-07* — If, for some reason, the creature doesn't have the squad ability when it's on the battlefield, the ability won't trigger, even if you've paid the squad cost one or more times.
+  - *2022-10-07* — The tokens created by the squad ability aren't "cast," so any abilities that trigger when a spell is cast won't trigger for the copies.
+  - *2022-10-07* — You may pay the squad cost any number of times. You will get a token that is a copy of that permanent for each time you paid the squad cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/40k/14/space-marine-devastator) · oracle_id `fa25d142-e6ba-4fc9-81e2-114c32afc030` · printing: 40K #14 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Space Marine Scout
 
@@ -139,6 +144,7 @@
   > *The howling winds could hardly be heard over the maddening thoughts of the godcore.*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7029 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/229/space-time-anomaly) · oracle_id `241117a0-8305-48bb-9cb9-9b01e86e08f7` · printing: EOE #229 (2025-08-01) · [rulings](https://api.scryfall.com/cards/edb8dc2a-ddce-48fa-b57e-0e57c87c6671/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spaghetti Junction
@@ -578,7 +584,9 @@
   > *"For those without the Planeswalker spark, the merest touch of the Blind Eternities can kill."*
   > *—Ugin*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7831 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/809/spatial-contortion) · oracle_id `7346337e-ac12-4dd2-826d-77ec0013e74f` · printing: CMM #809 (2023-08-04) · [rulings](https://api.scryfall.com/cards/3fd2f8b3-62f3-4e52-ae17-dd0a61bc0e26/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-02-01* *(Scryfall note)* — Spatial Contortion is banned in Pauper (not just non-legal), due to a special case on MTGO: https://magic.wizards.com/en/articles/archive/news/january-21-2019-banned-and-restricted-announcement
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/809/spatial-contortion) · oracle_id `7346337e-ac12-4dd2-826d-77ec0013e74f` · printing: CMM #809 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spatula of the Ages
 
@@ -603,7 +611,9 @@
   > *"They are mere vestiges of the titan's true form. Their deaths are but a brief respite."*
   > *—Ugin*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3047 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m3c/36/spawnbed-protector) · oracle_id `256a7f54-0e8e-4d22-a0f7-ff2830e8884e` · printing: M3C #36 (2024-06-14) · [rulings](https://api.scryfall.com/cards/bf2d8dab-71f3-4da7-a4b1-ed3309a4c756/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-06-07* — You do not have to choose a target for Spawnbed Protector's ability, and if you don't, you will still create Eldrazi Scion tokens. If you do choose a target but the target Eldrazi creature card is illegal as Spawnbed Protector's ability tries to resolve, it won't resolve and none of its effects will happen. You won't create Eldrazi Scion tokens.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m3c/36/spawnbed-protector) · oracle_id `256a7f54-0e8e-4d22-a0f7-ff2830e8884e` · printing: M3C #36 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spawnbinder Mage
 
@@ -641,7 +651,14 @@
   > {1}{C}, Sacrifice an Eldrazi: This creature deals 2 damage to any target.
 - **Keywords:** Devoid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7768 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/140/spawn-gang-commander) · oracle_id `3641ceef-4f26-4647-ac12-c958524d68ca` · printing: MH3 #140 (2024-06-14) · [rulings](https://api.scryfall.com/cards/ecac9885-6f4e-4413-90dc-c8b44f883357/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-06-07* — A card with devoid is just colorless. It's not colorless and the colors of mana in its mana cost.
+  - *2024-06-07* — Devoid doesn't affect the color identity of the card for the purposes of the Commander variant. For example, while Abstruse Appropriation is colorless because it has devoid, its color identity is still white and black, and it can't be included in a Commander deck where the commander's color identity doesn't include both white and black.
+  - *2024-06-07* — Devoid works in all zones, not just on the battlefield.
+  - *2024-06-07* — If a card loses devoid, it will still be colorless. This is because effects that change an object's color (like the one created by devoid) are considered before the object loses devoid.
+  - *2024-06-07* — Other cards and abilities can give a card with devoid a color. If that happens, it's just the new color, not that color and colorless.
+  - *2024-06-07* — Spawn-Gang Commander's triggered ability will resolve before Spawn-Gang Commander does. If Spawn-Gang Commander is countered or otherwise leaves the stack in response to that triggered ability, the triggered ability will still resolve as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/140/spawn-gang-commander) · oracle_id `3641ceef-4f26-4647-ac12-c958524d68ca` · printing: MH3 #140 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spawning Bed
 
@@ -653,7 +670,12 @@
 - **Flavor text** (BFZ printing):
   > *Young Eldrazi crawl forth from the dust, compelled by a greater will.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4716 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/248/spawning-bed) · oracle_id `49e43de3-460b-4562-aef6-da43bd56debc` · printing: BFZ #248 (2015-10-02) · [rulings](https://api.scryfall.com/cards/e3a532b2-de88-40af-8961-b01eada05bd3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2015-08-25* — Eldrazi Scions are similar to Eldrazi Spawn, seen in the Zendikar block. Note that Eldrazi Scions are 1/1, not 0/1.
+  - *2015-08-25* — Eldrazi and Scion are each separate creature types. Anything that affects Eldrazi will affect these tokens, for example.
+  - *2015-08-25* — Sacrificing an Eldrazi Scion creature token to add {C} is a mana ability. It doesn't use the stack and can't be responded to.
+  - *2015-08-25* — Some instants and sorceries that create Eldrazi Scions require targets. If all targets for such a spell have become illegal by the time that spell tries to resolve, the spell won't resolve and none of its effects will happen. You won't get any Eldrazi Scions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/248/spawning-bed) · oracle_id `49e43de3-460b-4562-aef6-da43bd56debc` · printing: BFZ #248 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spawning Breath
 
@@ -690,6 +712,7 @@
   > *"I never imagined I'd lay eyes on a creature that makes Gyruda look small and harmless!"*
   > *—Lukka*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4128 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/33/spawning-kraken) · oracle_id `f0357833-80b5-40ba-874a-bd22ea6e4e46` · printing: C21 #33 (2021-04-23) · [rulings](https://api.scryfall.com/cards/44917638-3c84-4c21-b139-5084e6e1efc6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spawning Pit
@@ -700,6 +723,7 @@
   > Sacrifice a creature: Put a charge counter on this artifact.
   > {1}, Remove two charge counters from this artifact: Create a 2/2 colorless Spawn artifact creature token.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4270 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/td2/69/spawning-pit) · oracle_id `ea7b0704-7715-4f8a-b32f-d2d2f3b36054` · printing: TD2 #69 (2011-05-14) · [rulings](https://api.scryfall.com/cards/e9a8ca49-fc8f-49c1-a7c6-c8326b2deb52/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spawning Pool

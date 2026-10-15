@@ -41,7 +41,13 @@
   > *"good riddance"*
 - **Keywords:** Cleave
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2935 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/vow/87/wash-away) · oracle_id `a4630da0-fe9b-4ead-9621-eac4b7825c35` · printing: VOW #87 (2021-11-19) · [rulings](https://api.scryfall.com/cards/43411ade-be80-4535-8baa-7055e78496df/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-11-19* — A cleave cost is an alternative cost that's paid instead of the spell's mana cost. Casting a spell for its cleave cost doesn't change the spell's mana value.
+  - *2021-11-19* — Copies of spells are never cast from a player's hand, so Wash Away can counter copies of spells even if its cleave cost wasn't paid, regardless of whether the original spell being copied was cast from a player's hand.
+  - *2021-11-19* — If an effect allows you to “cast a spell without paying its mana cost,” you can't cast that spell for its cleave cost.
+  - *2021-11-19* — If you cast a spell for its cleave cost, that spell doesn't have any of the text in square brackets while it's on the stack.
+  - *2021-11-19* — You can't cast a spell for both its cleave cost and another alternative cost. For example, if an effect gives an Alchemist's Retrieval in your graveyard a flashback cost of {U}, you can't cast it from your graveyard for its cleave cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vow/87/wash-away) · oracle_id `a4630da0-fe9b-4ead-9621-eac4b7825c35` · printing: VOW #87 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wash Out
 
@@ -53,6 +59,7 @@
   > *"It's not the darkness I fear but dull and numbing shades of gray."*
   > *—Sydri, galvanic genius*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5391 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/67/wash-out) · oracle_id `54748cb1-d92a-4212-ad76-417ee79b5ef1` · printing: 2X2 #67 (2022-07-08) · [rulings](https://api.scryfall.com/cards/dc468f97-08f7-4103-898f-b14fa61b99bc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wasitora, Nekoru Queen
@@ -171,7 +178,13 @@
   > *Honor means nothing. Survival means everything.*
 - **Keywords:** Squad
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8273 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/52/wasteland-raider) · oracle_id `29439669-c9be-46f3-a62f-16de51fefe88` · printing: PIP #52 (2024-03-08) · [rulings](https://api.scryfall.com/cards/9eae2596-013a-4e9b-982b-e0fc8d1e78bf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-03-08* — If the spell is countered, the squad ability will not trigger, and no tokens will be created.
+  - *2024-03-08* — If the spell resolves but the creature with squad leaves the battlefield before its squad ability resolves, you’ll still create the token copies.
+  - *2024-03-08* — If, for some reason, the creature doesn’t have the squad ability when it’s on the battlefield, the ability won’t trigger, even if you’ve paid the squad cost one or more times.
+  - *2024-03-08* — The tokens created by the squad ability aren’t “cast,” so any abilities that trigger when a spell is cast won’t trigger for the copies.
+  - *2024-03-08* — You may pay the squad cost any number of times. You will create a token that is a copy of that permanent for each time you paid the squad cost. If you paid the squad cost multiple times, the tokens will all enter the battlefield simultaneously.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/52/wasteland-raider) · oracle_id `29439669-c9be-46f3-a62f-16de51fefe88` · printing: PIP #52 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wasteland Scorpion
 
@@ -212,6 +225,7 @@
   > *—Teysa Karlov*
 - **Keywords:** Bloodrush, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7786 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/160/wasteland-viper) · oracle_id `e30b4eb8-6393-486a-9f8e-970ad2351d8a` · printing: RVR #160 (2024-01-12) · [rulings](https://api.scryfall.com/cards/45f20aa9-a498-45f5-8fa5-c40bf5249414/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Waste Management
@@ -234,6 +248,7 @@
   > Whenever an opponent discards a land card, add {B}{B}.
   > Whenever an opponent discards a noncreature, nonland card, draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1255 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c16/117/waste-not) · oracle_id `00fdcc19-88ed-46c3-91f0-095806228105` · printing: C16 #117 (2016-11-11) · [rulings](https://api.scryfall.com/cards/2f5500a2-c6d6-40d7-b586-59b854733160/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wastes
@@ -256,7 +271,14 @@
   > When you cast this spell, if it was kicked with its {1}{U} kicker, return target creature an opponent controls to its owner's hand.
 - **Keywords:** Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7366 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/17/wastescape-battlemage) · oracle_id `3cc6475d-aae9-4592-a26b-0fbb4269759d` · printing: MH3 #17 (2024-06-14) · [rulings](https://api.scryfall.com/cards/6bc119b8-429c-4ab6-adba-b65b03810e98/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/17/wastescape-battlemage) · oracle_id `3cc6475d-aae9-4592-a26b-0fbb4269759d` · printing: MH3 #17 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wastewood Verge
 
@@ -269,4 +291,5 @@
   > *"I'm worried about Loot. He has great power but lacks the experience to know what dangers await him."*
   > *—Vraska*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #940 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/268/wastewood-verge) · oracle_id `c6e0574c-3e2b-4c40-b17a-05bce3d49309` · printing: DFT #268 (2025-02-14) · [rulings](https://api.scryfall.com/cards/5ceacc7d-d407-4f82-af58-9bdf8426924e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

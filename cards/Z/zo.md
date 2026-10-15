@@ -67,7 +67,12 @@
   > Warp Blast — When this creature enters, it deals X damage to any target.
 - **Keywords:** Flying, Warp Blast, Ravenous, Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6987 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/40k/149/zoanthrope) · oracle_id `e7d79fbe-b02c-41c7-8b0a-6477feb1da7a` · printing: 40K #149 (2022-10-07) · [rulings](https://api.scryfall.com/cards/a71d6605-4a8a-473b-9f8d-0ba2f70a34e0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-10-07* — A creature with ravenous gets its counters as it enters the battlefield. It doesn't enter the battlefield first and then get its counters. Any triggered ability that looks for a creature with a certain power or toughness entering the battlefield will see the counters when it checks to see if it should trigger.
+  - *2022-10-07* — If a permanent spell with ravenous is copied, the copy will have the same value for X, and the token permanent that the spell becomes as it enters the battlefield will enter with X counters.
+  - *2022-10-07* — If another permanent enters the battlefield as a copy of a creature with Ravenous, it will not enter with any counters from the ravenous ability.
+  - *2022-10-07* — The triggered ability that checks to see if X is 5 or greater refers to the value of X that was chosen as the spell was cast, which may be different from the number of counters it entered with if there are replacement effects involved. This is also true for any other ability that it has which refers to X and triggers when it enters the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/40k/149/zoanthrope) · oracle_id `e7d79fbe-b02c-41c7-8b0a-6477feb1da7a` · printing: 40K #149 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zodiac Dog
 
@@ -235,7 +240,9 @@
   > Whenever a player sacrifices another creature, put a +1/+1 counter on Zodiark.
 - **Keywords:** Indestructible
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4455 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/128/zodiark-umbral-god) · oracle_id `f1190fb9-72a2-48f8-bc2d-61240f1e9119` · printing: FIN #128 (2025-06-13) · [rulings](https://api.scryfall.com/cards/9ba292d5-5139-42ea-950d-0a638445277f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-06-06* — While resolving Zodiark's second ability, you choose half the non-God creatures you control (rounded down), then each other player in turn order does the same. Then each of the chosen creatures are sacrificed simultaneously.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/128/zodiark-umbral-god) · oracle_id `f1190fb9-72a2-48f8-bc2d-61240f1e9119` · printing: FIN #128 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zoetic Cavern
 
@@ -248,7 +255,10 @@
   > *Nothing lives within it, yet there is life.*
 - **Keywords:** Morph
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7759 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/311/zoetic-cavern) · oracle_id `3763de30-28e1-4689-a71c-07d2fea3a466` · printing: MKC #311 (2024-02-09) · [rulings](https://api.scryfall.com/cards/37f10035-bf05-460d-9390-433caa2570f4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-03-16* — If Blood Moon is on the battlefield and a player controls a face-down Zoetic Cavern, it can't be turned face up since it won't have a morph cost.
+  - *2018-03-16* — When Zoetic Cavern is turned face up, any Auras on it that can't legally enchant it will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on it will remain on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/311/zoetic-cavern) · oracle_id `3763de30-28e1-4689-a71c-07d2fea3a466` · printing: MKC #311 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zoetic Glyph
 
@@ -277,7 +287,18 @@
   > *"Look at this place. What more evidence do you require that existence is bleak and meaningless?"*
   > *—Voshk, oblivion priest*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9716 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/132/zof-consumption-zof-bloodbog) · oracle_id `d9f11985-e460-425d-b083-9cb0edf1983a` · printing: ZNR #132 (2020-09-25) · [rulings](https://api.scryfall.com/cards/98496d5b-1519-4f0c-8b46-0a43be643dfb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2020-09-25* — A modal double-faced card can't be transformed or be put onto the battlefield transformed. Ignore any instruction to transform a modal double-faced card or to put one onto the battlefield transformed.
+  - *2020-09-25* — If an effect allows you to play a land or cast a spell from among a group of cards, you may play or cast a modal double-faced card with any face that fits the criteria of that effect.
+  - *2020-09-25* — If an effect allows you to play a specific modal double-faced card, you may cast it as a spell or play it as a land, as determined by which face you choose to play. If an effect allows you to cast (rather than "play") a specific modal double-faced card, you can't play it as a land.
+  - *2020-09-25* — If an effect instructs a player to choose a card name, the name of either face may be chosen. If that effect or a linked ability refers to a spell with the chosen name being cast and/or a land with the chosen name being played, it considers only the chosen name, not the other face's name.
+  - *2020-09-25* — If an effect puts a double-faced card onto the battlefield, it enters with its front face up. If that front face can't be put onto the battlefield, it doesn't enter the battlefield.
+  - *2020-09-25* — In a Two-Headed Giant game, Zof Consumption causes the opposing team to lose 8 life and you to gain 4 life.
+  - *2020-09-25* — In the Commander variant, a double-faced card's color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered.
+  - *2020-09-25* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack and battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
+  - *2020-09-25* — There is a single triangle icon in the top left corner of the front face. There is a double triangle icon in the top left corner of the back face.
+  - *2020-09-25* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/132/zof-consumption-zof-bloodbog) · oracle_id `d9f11985-e460-425d-b083-9cb0edf1983a` · printing: ZNR #132 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zof Shade
 
@@ -314,7 +335,10 @@
   > *"There will come a day so dark you will pray for death. On that day your prayers will be answered."*
   > *—Minaldra, the Vizag Atum*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3090 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mic/131/zombie-apocalypse) · oracle_id `8241277d-654f-4985-9d49-a22c1e59eec2` · printing: MIC #131 (2021-09-24) · [rulings](https://api.scryfall.com/cards/854ae40d-ee52-434e-8fe0-1b5a0d4ea58b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2011-01-22* — All Humans are destroyed, not just ones you control.
+  - *2011-01-22* — If a creature card in your graveyard is both a Zombie and a Human, it will be returned to the battlefield tapped, then be destroyed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mic/131/zombie-apocalypse) · oracle_id `8241277d-654f-4985-9d49-a22c1e59eec2` · printing: MIC #131 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zombie Assassin
 
@@ -428,6 +452,7 @@
 - **Flavor text** (DMR printing):
   > *The nomads' funeral pyres are more practical than ceremonial.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9375 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/111/zombie-infestation) · oracle_id `bdce1af0-3643-4e77-88f9-320206a191d4` · printing: DMR #111 (2023-01-13) · [rulings](https://api.scryfall.com/cards/ef2c8aca-3ade-46b0-8366-ab3b244eca01/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zombie Master
@@ -442,6 +467,7 @@
   > *They say the Zombie Master controlled these foul creatures even before his own death, but now that he is one of them, nothing can make them betray him.*
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2707 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/105/zombie-master) · oracle_id `5446c92f-ff22-4e9b-a2f6-e64c8560c1e0` · printing: ME4 #105 (2011-01-10) · [rulings](https://api.scryfall.com/cards/c25eb8c9-4209-4fe4-8b02-be16d7d7bdf5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zombie Mob
@@ -546,6 +572,7 @@
   > *"The first birth celebrates life. The second birth mocks it."*
   > *—Mystic elder*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3315 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/187/zombify) · oracle_id `bb95db4d-5017-4121-bf79-d68476602d8c` · printing: FDN #187 (2024-11-15) · [rulings](https://api.scryfall.com/cards/dc798e6f-13c4-457c-b052-b7b65bc83cfe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zone of Flame
@@ -582,6 +609,7 @@
 - **Flavor text** (EOE printing):
   > *Infinite Guideline's "Fauna from Sothera" exhibit proved popular. Unfortunately, the biological zookeepers kept getting eaten.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6363 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/170/zookeeper-mechan) · oracle_id `6d4d98a8-a5a3-4cc1-9277-c45dafe40ea0` · printing: EOE #170 (2025-08-01) · [rulings](https://api.scryfall.com/cards/8d5cd0be-4337-4aba-a4f6-5adab7735a73/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zoologist
@@ -607,7 +635,11 @@
   > {G/P}{G/P}, Sacrifice two other creatures: Put an indestructible counter on Zopandrel. ({G/P} can be paid with either {G} or 2 life.)
 - **Keywords:** Reach, Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1201 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/195/zopandrel-hunger-dominus) · oracle_id `b168e4e6-f572-4d9f-b98f-95b2611354cb` · printing: ONE #195 (2023-02-10) · [rulings](https://api.scryfall.com/cards/fb419d9d-e06f-48c8-a4f8-a57f9be39e50/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-02-04* — If a creature's power is less than 0 when it's doubled, instead that creature gets -X/-0, where X is how much less than 0 its power is. For example, if an effect has given Bear Cub, a 2/2 creature, -4/-0 so that it's a -2/2 creature, doubling its power and toughness gives it -2/+2, and it becomes a -4/4 creature.
+  - *2023-02-04* — If an effect instructs you to "double" a creature's power, that creature gets +X/+0, where X is its power as that effect begins to apply. Similarly, a creature whose toughness is doubled gets +0/+X, where X is its toughness as the effect begins to apply.
+  - *2023-02-04* — If you somehow control more than one Zopandrel, each one applies independently. For example, if you somehow control two copies of Zopandrel, a 2/2 Bear Cub becomes a 4/4 creature when the first ability resolves and then becomes an 8/8 creature when the second one resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/195/zopandrel-hunger-dominus) · oracle_id `b168e4e6-f572-4d9f-b98f-95b2611354cb` · printing: ONE #195 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zoraline, Cosmos Caller
 
@@ -620,7 +652,13 @@
   > Whenever Zoraline enters or attacks, you may pay {W}{B} and 2 life. When you do, return target nonland permanent card with mana value 3 or less from your graveyard to the battlefield with a finality counter on it.
 - **Keywords:** Flying, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9074 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/242/zoraline-cosmos-caller) · oracle_id `5a775f50-20f8-4a8f-868c-8907305bfad6` · printing: BLB #242 (2024-08-02) · [rulings](https://api.scryfall.com/cards/b7f99fd5-5298-4b27-923d-9d31203c931a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-07-26* — Finality counters aren’t keyword counters, and a finality counter doesn’t give any abilities to the permanent it’s on. If that permanent loses its abilities and then would go to a graveyard, it will still be exiled instead.
+  - *2024-07-26* — Finality counters don’t stop permanents from going to zones other than the graveyard from the battlefield. For example, if a permanent with a finality counter on it would be put into its owner’s hand from the battlefield, it does so normally.
+  - *2024-07-26* — If a permanent with a finality counter on it would be put into a graveyard from the battlefield, exile it instead.
+  - *2024-07-26* — Multiple finality counters on a single permanent are redundant.
+  - *2024-07-26* — You don’t choose a target for Zoraline’s last ability at the time it triggers. Rather, a second “reflexive” ability triggers when you pay {W}{B} and 2 life this way. You choose a target for this ability as it goes on the stack. Each player may respond to this triggered ability as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/242/zoraline-cosmos-caller) · oracle_id `5a775f50-20f8-4a8f-868c-8907305bfad6` · printing: BLB #242 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zoyowa Lava-Tongue
 
@@ -632,7 +670,15 @@
   > At the beginning of your end step, if you descended this turn, each opponent may discard a card or sacrifice a permanent of their choice. Zoyowa deals 3 damage to each opponent who didn't. (You descended if a permanent card was put into your graveyard from anywhere.)
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7825 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/245/zoyowa-lava-tongue) · oracle_id `e90f298f-c54b-4fe8-82db-5b9153a57712` · printing: LCI #245 (2023-11-17) · [rulings](https://api.scryfall.com/cards/c06f0ff2-d42f-4854-bbe5-4b022fb26d7d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-11-10* — A permanent card is an artifact, battle, creature, enchantment, land, or planeswalker card. Tokens are not cards, and while tokens are put into the graveyard before ceasing to exist, that action doesn't count as a player having descended.
+  - *2023-11-10* — Abilities that begin with "At the beginning of your end step, if you descended this turn" will trigger only once during your end step, no matter how many times you descended this turn. However, if you haven't descended this turn as your end step begins, the ability won't trigger at all. It's not possible to put a permanent card into your graveyard during the end step in time to have the ability trigger.
+  - *2023-11-10* — An opponent with zero cards in hand can't choose to discard a card. Similarly, an opponent with no permanents can't choose to sacrifice a permanent.
+  - *2023-11-10* — In either case, it doesn't matter if those cards are still in that player's graveyard.
+  - *2023-11-10* — Multiple cards have abilities that begin with "At the beginning of your end step, if you descended this turn." These cards don't need to have been under your control at the time you descended. For example, if a permanent card is put into your graveyard during your first main phase and you cast Stalactite Stalker your second main phase, its ability will trigger at the beginning of your end step.
+  - *2023-11-10* — Some cards refer to a player who has "descended this turn." This means that a permanent card has been put into that player's graveyard from anywhere this turn.
+  - *2023-11-10* — Some cards refer to the number of times a player descended this turn. Those cards care about the number of permanent cards put into that player's graveyard from anywhere this turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/245/zoyowa-lava-tongue) · oracle_id `e90f298f-c54b-4fe8-82db-5b9153a57712` · printing: LCI #245 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zoyowa's Justice
 
@@ -642,7 +688,18 @@
   > The owner of target artifact or creature with mana value 1 or greater shuffles it into their library. Then that player discovers X, where X is its mana value. (They exile cards from the top of their library until they exile a nonland card with that mana value or less. They cast it without paying its mana cost or put it into their hand. They put the rest on the bottom in a random order.)
 - **Keywords:** Discover
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5478 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/173/zoyowas-justice) · oracle_id `17e11f0c-4ac7-4060-9e0b-27cd5c151e50` · printing: LCI #173 (2023-11-17) · [rulings](https://api.scryfall.com/cards/04839717-d2f9-481d-9d13-e4038dbcbb0e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2023-11-10* — A spell's mana value is determined only by its mana cost. Ignore any alternative costs, additional costs, cost increases, or cost reductions.
+  - *2023-11-10* — If the discovered card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2023-11-10* — If the target artifact or creature has X in its mana cost, that X is 0 when determining its mana value.
+  - *2023-11-10* — If you can't cast the discovered card (perhaps because there are no legal targets for the spell), you'll put it into your hand.
+  - *2023-11-10* — If you cast a spell "without paying its mana cost", you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the spell has any mandatory additional costs, you must pay those to cast it.
+  - *2023-11-10* — If you discover an adventurer card, split card, or modal double-faced card, you might be able to cast that card with either set of characteristics depending on the effect's discover value. For example, if you discover 4 and reveal Galvanic Giant (an adventurer card from Wilds of Eldraine with a mana value of 4), you could cast Galvanic Giant, but not Storm Reading (its Adventure, which has a mana value of 7). If you discover 7 and reveal Galvanic Giant, you could cast either Galvanic Giant or Storm Reading.
+  - *2023-11-10* — Some spells and abilities that cause you to discover may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve and you won't discover.
+  - *2023-11-10* — The mana value of a split card is determined by the combined mana cost of its two halves. If discover allows you to cast a split card, you may cast either half (as long as its mana value is less than or equal to the effect's discover value) but not both halves.
+  - *2023-11-10* — When you discover, you must exile cards. The only optional part of the ability is whether you cast the exiled card or put it into your hand.
+  - *2023-11-10* — You exile the cards face up. All players will be able to see them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/173/zoyowas-justice) · oracle_id `17e11f0c-4ac7-4060-9e0b-27cd5c151e50` · printing: LCI #173 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zo-Zu the Punisher
 
@@ -654,4 +711,5 @@
 - **Flavor text** (DDS printing):
   > *He does not tolerate intruders.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4147 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dds/41/zo-zu-the-punisher) · oracle_id `0e412b68-9179-4094-960a-95692428855b` · printing: DDS #41 (2017-03-31) · [rulings](https://api.scryfall.com/cards/e7c927d6-911d-4a37-89a2-6c500edf4dd7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

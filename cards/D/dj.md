@@ -29,7 +29,11 @@
   > As long as you have one or fewer cards in hand, Djeru and Hazoret has vigilance and haste.
   > Whenever Djeru and Hazoret attacks, look at the top six cards of your library. You may exile a legendary creature card from among them. Put the rest on the bottom of your library in a random order. Until end of turn, you may cast the exiled card without paying its mana cost.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5453 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/221/djeru-and-hazoret) · oracle_id `2c0061ab-4123-4b0c-8286-3207e8f9497d` · printing: MOM #221 (2023-04-21) · [rulings](https://api.scryfall.com/cards/1db1ae7b-ed48-409f-8d50-07c7e8c6c128/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-04-14* — If the spell has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2023-04-14* — If you cast a spell without paying its mana cost, you can’t choose to cast it for any alternative costs. You can, however, pay any additional costs. If the spell has any mandatory additional costs, you must pay those.
+  - *2023-04-14* — Once Djeru and Hazoret has legally attacked during the turn it came under your control, causing it to lose haste by adding cards to your hand won’t cause it to stop attacking. Similarly, causing it to lose vigilance after it has attacked won’t cause it to become tapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/221/djeru-and-hazoret) · oracle_id `2c0061ab-4123-4b0c-8286-3207e8f9497d` · printing: MOM #221 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Djeru's Renunciation
 

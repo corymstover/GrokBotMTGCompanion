@@ -21,4 +21,7 @@
   > Whenever Iymrith deals combat damage to a player, draw a card. Then if you have fewer than three cards in hand, draw cards equal to the difference.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5508 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/62/iymrith-desert-doom) · oracle_id `d5efba91-8400-41a3-91c6-cb5e81f07976` · printing: AFR #62 (2021-07-23) · [rulings](https://api.scryfall.com/cards/c3e6025d-d273-4ae4-9929-5e588612f1b3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-07-23* — If a player casts a spell that targets multiple permanents their opponent controls with ward, each of those ward abilities will trigger. If that player doesn't pay for all of them, the spell will be countered.
+  - *2021-07-23* — If a spell or ability an opponent controls targets Iymrith, Desert Doom while it is tapped, finding a way to untap it in response will not cause its ward ability to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/62/iymrith-desert-doom) · oracle_id `d5efba91-8400-41a3-91c6-cb5e81f07976` · printing: AFR #62 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

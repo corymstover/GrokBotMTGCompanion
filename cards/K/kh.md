@@ -70,7 +70,18 @@
   > *—Raff Slugeater, goblin shortcutter*
 - **Keywords:** Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1748 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/192/khalni-ambush-khalni-territory) · oracle_id `37a55560-6e32-4f54-b9a8-fd157aea6eb5` · printing: ZNR #192 (2020-09-25) · [rulings](https://api.scryfall.com/cards/99535539-aa73-41ed-86ab-21c97b92620d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2020-09-25* — A modal double-faced card can't be transformed or be put onto the battlefield transformed. Ignore any instruction to transform a modal double-faced card or to put one onto the battlefield transformed.
+  - *2020-09-25* — If an effect allows you to play a land or cast a spell from among a group of cards, you may play or cast a modal double-faced card with any face that fits the criteria of that effect.
+  - *2020-09-25* — If an effect allows you to play a specific modal double-faced card, you may cast it as a spell or play it as a land, as determined by which face you choose to play. If an effect allows you to cast (rather than "play") a specific modal double-faced card, you can't play it as a land.
+  - *2020-09-25* — If an effect instructs a player to choose a card name, the name of either face may be chosen. If that effect or a linked ability refers to a spell with the chosen name being cast and/or a land with the chosen name being played, it considers only the chosen name, not the other face's name.
+  - *2020-09-25* — If an effect puts a double-faced card onto the battlefield, it enters with its front face up. If that front face can't be put onto the battlefield, it doesn't enter the battlefield.
+  - *2020-09-25* — If either target is an illegal target as Khalni Ambush resolves, no creature will deal or be dealt damage.
+  - *2020-09-25* — In the Commander variant, a double-faced card's color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered.
+  - *2020-09-25* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack and battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
+  - *2020-09-25* — There is a single triangle icon in the top left corner of the front face. There is a double triangle icon in the top left corner of the back face.
+  - *2020-09-25* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/192/khalni-ambush-khalni-territory) · oracle_id `37a55560-6e32-4f54-b9a8-fd157aea6eb5` · printing: ZNR #192 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Khalni Garden
 
@@ -81,6 +92,7 @@
   > When this land enters, create a 0/1 green Plant creature token.
   > {T}: Add {G}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3202 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c18/262/khalni-garden) · oracle_id `b2d5ba45-8674-4428-89db-c2bbbf0bf5c5` · printing: C18 #262 (2018-08-10) · [rulings](https://api.scryfall.com/cards/3e0f6ae6-b303-405a-8efa-91de9692768e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Khalni Gem
@@ -104,7 +116,11 @@
   > Remove three quest counters from this enchantment and sacrifice it: Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle.
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2724 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/899/khalni-heart-expedition) · oracle_id `be6155de-c5b2-415c-ad83-142f9926462a` · printing: CMM #899 (2023-08-04) · [rulings](https://api.scryfall.com/cards/159c309c-568d-4780-9db5-b50a997e7bb2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/899/khalni-heart-expedition) · oracle_id `be6155de-c5b2-415c-ad83-142f9926462a` · printing: CMM #899 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Khalni Hydra
 
@@ -148,7 +164,12 @@
   > The Betrayer — If damage would be dealt to Khârn the Betrayer, prevent that damage and an opponent of your choice gains control of it.
 - **Keywords:** Berzerker, Sigil of Corruption, The Betrayer
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4647 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/40k/79/kh%C3%A2rn-the-betrayer) · oracle_id `3246eff5-8739-469f-a401-e5de927dd6bb` · printing: 40K #79 (2022-10-07) · [rulings](https://api.scryfall.com/cards/c29e6c69-7830-4898-9d1e-97dfc2e868d9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-10-07* — An opponent gaining control of it is part of the replacement effect and happens immediately, even if you are in the middle of resolving the spell or ability and it has more instructions to perform after taking damage.
+  - *2022-10-07* — In contrast, the Sigil of Corruption ability is a triggered ability, and it won't go onto the stack until after the spell or ability that tried to deal damage finishes resolving.
+  - *2022-10-07* — In some cases, a single spell or ability will deal damage to this creature multiple times during its resolution. In that case, a new player gains control of it each time, its ability triggers once each time, and the appropriate players control those triggers. After that spell or ability is done resolving, all of those triggers are put onto the stack in turn order, starting with the active player (or the next player in turn order if the active player isn't involved). Usually, this means that the cards are drawn in a different order than the control-changing effects took place.
+  - *2022-10-07* — You lose control of Khârn the Betrayer when it leaves the battlefield or another player gains control of it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/40k/79/kh%C3%A2rn-the-betrayer) · oracle_id `3246eff5-8739-469f-a401-e5de927dd6bb` · printing: 40K #79 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Khenra Charioteer
 
@@ -221,6 +242,7 @@
   > *"I swear, for every one Prossh devours, three more pop out of a hole somewhere."*
   > *—Jaya Ballard*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1617 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/75/kher-keep) · oracle_id `79638767-fbc7-451a-b29f-d93f2ac6f102` · printing: FRC #75 (2026-10-02) · [rulings](https://api.scryfall.com/cards/15ca0b68-33a1-4d25-b622-d3f5ba05b0a5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kheru Bloodsucker
@@ -261,7 +283,10 @@
   > Renew — {2}{B}{G}{U}, Exile this card from your graveyard: Put two +1/+1 counters and a flying counter on target creature. Activate only as a sorcery.
 - **Keywords:** Flying, Renew, Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4251 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/199/kheru-goldkeeper) · oracle_id `aef4ab0e-c81f-428c-ab23-64504a9fb989` · printing: TDM #199 (2025-04-11) · [rulings](https://api.scryfall.com/cards/8d11183a-57f5-4ddb-8a6e-15fff704b114/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-04-04* — If a card with a renew ability is put into your graveyard during your turn, you can activate that ability if it’s legal to do so before any other player can take any actions.
+  - *2025-04-04* — If multiple cards leave your graveyard at the same time, Kheru Goldkeeper’s triggered ability will trigger only once.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/199/kheru-goldkeeper) · oracle_id `aef4ab0e-c81f-428c-ab23-64504a9fb989` · printing: TDM #199 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kheru Lich Lord
 
@@ -296,7 +321,20 @@
   > When this creature is turned face up, counter target spell. If that spell is countered this way, exile it instead of putting it into its owner's graveyard. You may cast that card without paying its mana cost for as long as it remains exiled.
 - **Keywords:** Morph
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7971 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/119/kheru-spellsnatcher) · oracle_id `c01411e0-77b2-4e65-a369-5dbe13745769` · printing: DSC #119 (2024-09-27) · [rulings](https://api.scryfall.com/cards/610f4f2b-e5ed-463b-9d9b-0f7b3f3e99c8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2014-09-20* — A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent, as well as Auras and Equipment that were attached to the permanent, aren't affected.
+  - *2014-09-20* — Any time you have priority, you may turn the face-down creature face up by revealing what its morph cost is and paying that cost. This is a special action. It doesn't use the stack and can't be responded to. Only a face-down permanent can be turned face up this way; a face-down spell cannot.
+  - *2014-09-20* — At any time, you can look at a face-down spell or permanent you control. You can't look at face-down spells or permanents you don't control unless an effect instructs you to do so.
+  - *2014-09-20* — Because the permanent is on the battlefield both before and after it's turned face up, turning a permanent face up doesn't cause any enters-the-battlefield abilities to trigger.
+  - *2014-09-20* — Because you're already casting the card using an alternative cost (by casting it without paying its mana cost), you can't pay any other alternative costs for the card, including casting it face down using the morph ability. You can pay additional costs, such as kicker costs. If the card has any mandatory additional costs, you must pay those.
+  - *2014-09-20* — If a face-down permanent leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or if the game ends.
+  - *2014-09-20* — If the card has {X} in its mana cost, you must choose 0 as the value for X when casting it.
+  - *2014-09-20* — Morph lets you cast a card face down by paying {3}, and lets you turn the face-down permanent face up any time you have priority by paying its morph cost.
+  - *2014-09-20* — The face-down spell has no mana cost and has a mana value of 0. When you cast a face-down spell, put it on the stack face down so no other player knows what it is, and pay {3}. This is an alternative cost.
+  - *2014-09-20* — When the spell resolves, it enters the battlefield as a 2/2 creature with no name, mana cost, creature types, or abilities. It's colorless and has a mana value of 0. Other effects that apply to the creature can still grant it any of these characteristics.
+  - *2014-09-20* — You can target a spell you control with Kheru Spellsnatcher's triggered ability. This will give you the ability to cast the card later without paying its mana cost.
+  - *2014-09-20* — You must ensure that your face-down spells and permanents can easily be differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/119/kheru-spellsnatcher) · oracle_id `c01411e0-77b2-4e65-a369-5dbe13745769` · printing: DSC #119 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Khod, Etlan Shiis Envoy
 
@@ -329,4 +367,11 @@
 - **Oracle text:**
   > For each player, choose friend or foe. Each friend discards all cards from their hand, then draws that many cards plus one. Khorvath's Fury deals damage to each foe equal to the number of cards in their hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9639 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/59/khorvaths-fury) · oracle_id `c3575cf9-847a-472c-94b3-ef70712c297d` · printing: BBD #59 (2018-06-08) · [rulings](https://api.scryfall.com/cards/39107560-58d5-4a7d-84a0-df26f89856b4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2018-06-08* — Friends perform their specified actions before foes. This means that a friend’s action may cause a triggered ability of a foe’s permanent to trigger before that foe’s action causes that permanent to leave the battlefield.
+  - *2018-06-08* — If a friend has zero cards in hand, that player discards nothing and draws one card.
+  - *2018-06-08* — Players can’t take actions in between the time that friends perform their actions and the time that foes perform theirs. If any abilities trigger from friends performing actions, those triggers won’t be put onto the stack until the foes perform their actions and the spell finishes resolving.
+  - *2018-06-08* — The designation of friend or foe is only relevant to the spell that asks you to choose. A player you call your friend doesn’t become your teammate, and the next “friend or foe” spell you cast could name that player your foe.
+  - *2018-06-08* — You make this choice for yourself as well as each other player. In some rare cases, you may wish to call yourself (or your teammate in a Two-Headed Giant game) a foe. You can do that.
+  - *2018-06-08* — You may call a player a friend or a foe even if that player will be instructed to perform an impossible action. For example, for Regna’s Sanction, a foe may control no untapped creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/59/khorvaths-fury) · oracle_id `c3575cf9-847a-472c-94b3-ef70712c297d` · printing: BBD #59 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
