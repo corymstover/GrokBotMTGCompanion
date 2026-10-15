@@ -1,0 +1,233 @@
+# Deck Skeleton — Trostani, Selesnya's Voice
+
+> **Data-derived skeleton, not a tuned list.** Built 2026-10-15 by `scripts/build_deck_skeleton.py` from [EDHREC](https://edhrec.com/commanders/trostani-selesnyas-voice) inclusion rates (community data) and validated against Scryfall Oracle bulk (2026-10-15). Card choices = most-included cards for this commander; *any judgment about what to cut/add is Opinion*. Format per [EDH Standards](../EDH%20Standards.md).
+
+## Contents
+- [Commander](#commander)
+- [Validation](#validation)
+- [Bracket assessment](#bracket-assessment)
+- [Decklist (Archidekt import)](#decklist-archidekt-import)
+- [Card breakdown](#card-breakdown)
+- [Rejected candidates](#rejected-candidates)
+- [Commander rules & rulings](#commander-rules--rulings)
+
+## Commander
+
+- **[Trostani, Selesnya's Voice](../cards/T/tro.md#trostani-selesnyas-voice)** — {G}{G}{W}{W} — Legendary Creature — Dryad
+- Color identity: **GW (Green, White)**
+- Eligibility: Yes (legendary creature)
+- EDHREC sample: 11332 decks · bracket distribution reported by EDHREC: B1: 34, B2: 1,070, B3: 964, B4: 297, B5: 2
+
+## Validation
+
+- Total cards: **100** (1 commander + 63 nonland + 16 nonbasic lands + 20 basics)
+- Strict color identity (CR 903.5c), singleton (903.5b), Commander-legal, size (903.5a): ✅ **all checks pass**
+
+## Bracket assessment
+
+- Game Changers (1): Aura Shards
+- Extra-turn cards: none
+- Mass land denial: none
+- Two-card infinite combos: ⚠️ not machine-checked — review manually.
+- **Minimum bracket by the published barometers: 3 (Upgraded) — 1–3 Game Changers.** (Brackets are a pregame-conversation tool; see [EDH Standards](../EDH%20Standards.md#power-bracket-assessment).)
+
+## Decklist (Archidekt import)
+
+```text
+1x Trostani, Selesnya's Voice [Commander{top}]
+1x Sol Ring [Artifact]
+1x Aetherflux Reservoir [Artifact]
+1x Idol of Oblivion [Artifact]
+1x Phyrexian Processor [Artifact]
+1x Arcane Signet [Artifact]
+1x Halo Fountain [Artifact]
+1x Selesnya Signet [Artifact]
+1x Skullclamp [Artifact]
+1x Swords to Plowshares [Instant]
+1x Sundering Growth [Instant]
+1x Path to Exile [Instant]
+1x Rootborn Defenses [Instant]
+1x Grand Crescendo [Instant]
+1x Break Down [Instant]
+1x Beast Within [Instant]
+1x Heroic Intervention [Instant]
+1x Second Harvest [Instant]
+1x Druid's Deliverance [Instant]
+1x Cultivate [Sorcery]
+1x Nature's Lore [Sorcery]
+1x Farseek [Sorcery]
+1x Hour of Reckoning [Sorcery]
+1x Shamanic Revelation [Sorcery]
+1x Finale of Devastation [Sorcery]
+1x Rampant Growth [Sorcery]
+1x Pest Infestation [Sorcery]
+1x Kodama's Reach [Sorcery]
+1x Camaraderie [Sorcery]
+1x Three Visits [Sorcery]
+1x Soul Warden [Creature]
+1x Crested Sunmare [Creature]
+1x Rhys the Redeemed [Creature]
+1x Archangel of Thune [Creature]
+1x Avacyn's Pilgrim [Creature]
+1x Resplendent Angel [Creature]
+1x Bramble Sovereign [Creature]
+1x Shalai, Voice of Plenty [Creature]
+1x Ghalta and Mavren [Creature]
+1x Llanowar Elves [Creature]
+1x Lathiel, the Bounteous Dawn [Creature]
+1x Blossoming Bogbeast [Creature]
+1x Nykthos Paragon [Creature]
+1x Voice of Resurgence [Creature]
+1x Fanatic of Rhonas [Creature]
+1x Speaker of the Heavens [Creature]
+1x Vorinclex, Voice of Hunger [Creature]
+1x Conclave Evangelist [Creature]
+1x Suture Priest [Creature]
+1x Soul of Eternity [Creature]
+1x Elvish Mystic [Creature]
+1x Elenda's Hierophant [Creature]
+1x Arasta of the Endless Web [Creature]
+1x Essence Warden [Creature]
+1x Prosperous Innkeeper [Creature]
+1x Birds of Paradise [Creature]
+1x Growing Ranks [Enchantment]
+1x Mirari's Wake [Enchantment]
+1x Song of the Worldsoul [Enchantment]
+1x Parallel Lives [Enchantment]
+1x Doubling Season [Enchantment]
+1x Cleric Class [Enchantment]
+1x Anointed Procession [Enchantment]
+1x Aura Shards [Enchantment]
+1x Command Tower [Land]
+1x Canopy Vista [Land]
+1x Sunpetal Grove [Land]
+1x Bountiful Promenade [Land]
+1x Overgrown Farmland [Land]
+1x Selesnya Sanctuary [Land]
+1x Temple Garden [Land]
+1x Grove of the Guardian [Land]
+1x Sungrass Prairie [Land]
+1x Temple of Plenty [Land]
+1x Gavony Township [Land]
+1x Blossoming Sands [Land]
+1x Krosan Verge [Land]
+1x Fortified Village [Land]
+1x Brushland [Land]
+1x Graypelt Refuge [Land]
+10x Plains [Land]
+10x Forest [Land]
+```
+
+## Card breakdown
+
+| Card | Section | EDHREC inclusion | Identity |
+|---|---|---|---|
+| [Sol Ring](../cards/S/so.md#sol-ring) | Artifact | 86% | C |
+| [Aetherflux Reservoir](../cards/A/ae.md#aetherflux-reservoir) | Artifact | 60% | C |
+| [Idol of Oblivion](../cards/I/id.md#idol-of-oblivion) | Artifact | 54% | C |
+| [Phyrexian Processor](../cards/P/ph.md#phyrexian-processor) | Artifact | 52% | C |
+| [Arcane Signet](../cards/A/arc.md#arcane-signet) | Artifact | 50% | C |
+| [Halo Fountain](../cards/H/ha.md#halo-fountain) | Artifact | 48% | W |
+| [Selesnya Signet](../cards/S/sel.md#selesnya-signet) | Artifact | 42% | GW |
+| [Skullclamp](../cards/S/sk.md#skullclamp) | Artifact | 34% | C |
+| [Swords to Plowshares](../cards/S/sw.md#swords-to-plowshares) | Instant | 77% | W |
+| [Sundering Growth](../cards/S/sun.md#sundering-growth) | Instant | 70% | GW |
+| [Path to Exile](../cards/P/pa.md#path-to-exile) | Instant | 69% | W |
+| [Rootborn Defenses](../cards/R/ro.md#rootborn-defenses) | Instant | 62% | W |
+| [Grand Crescendo](../cards/G/gra.md#grand-crescendo) | Instant | 48% | W |
+| [Break Down](../cards/B/br.md#break-down) | Instant | 38% | G |
+| [Beast Within](../cards/B/be.md#beast-within) | Instant | 33% | G |
+| [Heroic Intervention](../cards/H/he.md#heroic-intervention) | Instant | 32% | G |
+| [Second Harvest](../cards/S/sec.md#second-harvest) | Instant | 30% | G |
+| [Druid's Deliverance](../cards/D/dru.md#druids-deliverance) | Instant | 27% | G |
+| [Cultivate](../cards/C/cu.md#cultivate) | Sorcery | 75% | G |
+| [Nature's Lore](../cards/N/na.md#natures-lore) | Sorcery | 60% | G |
+| [Farseek](../cards/F/fa.md#farseek) | Sorcery | 55% | G |
+| [Hour of Reckoning](../cards/H/ho.md#hour-of-reckoning) | Sorcery | 52% | W |
+| [Shamanic Revelation](../cards/S/sha.md#shamanic-revelation) | Sorcery | 48% | G |
+| [Finale of Devastation](../cards/F/fi.md#finale-of-devastation) | Sorcery | 46% | G |
+| [Rampant Growth](../cards/R/ram.md#rampant-growth) | Sorcery | 32% | G |
+| [Pest Infestation](../cards/P/pe.md#pest-infestation) | Sorcery | 29% | G |
+| [Kodama's Reach](../cards/K/ko.md#kodamas-reach) | Sorcery | 28% | G |
+| [Camaraderie](../cards/C/cam.md#camaraderie) | Sorcery | 28% | GW |
+| [Three Visits](../cards/T/thr.md#three-visits) | Sorcery | 26% | G |
+| [Soul Warden](../cards/S/so.md#soul-warden) | Creature | 65% | W |
+| [Crested Sunmare](../cards/C/cr.md#crested-sunmare) | Creature | 59% | W |
+| [Rhys the Redeemed](../cards/R/rh.md#rhys-the-redeemed) | Creature | 57% | GW |
+| [Archangel of Thune](../cards/A/arc.md#archangel-of-thune) | Creature | 57% | W |
+| [Avacyn's Pilgrim](../cards/A/av.md#avacyns-pilgrim) | Creature | 56% | GW |
+| [Resplendent Angel](../cards/R/res.md#resplendent-angel) | Creature | 54% | W |
+| [Bramble Sovereign](../cards/B/br.md#bramble-sovereign) | Creature | 54% | G |
+| [Shalai, Voice of Plenty](../cards/S/sha.md#shalai-voice-of-plenty) | Creature | 52% | GW |
+| [Ghalta and Mavren](../cards/G/gh.md#ghalta-and-mavren) | Creature | 52% | GW |
+| [Llanowar Elves](../cards/L/ll.md#llanowar-elves) | Creature | 50% | G |
+| [Lathiel, the Bounteous Dawn](../cards/L/la.md#lathiel-the-bounteous-dawn) | Creature | 46% | GW |
+| [Blossoming Bogbeast](../cards/B/blo.md#blossoming-bogbeast) | Creature | 44% | G |
+| [Nykthos Paragon](../cards/N/ny.md#nykthos-paragon) | Creature | 43% | W |
+| [Voice of Resurgence](../cards/V/vo.md#voice-of-resurgence) | Creature | 43% | GW |
+| [Fanatic of Rhonas](../cards/F/fa.md#fanatic-of-rhonas) | Creature | 43% | G |
+| [Speaker of the Heavens](../cards/S/spe.md#speaker-of-the-heavens) | Creature | 41% | W |
+| [Vorinclex, Voice of Hunger](../cards/V/vo.md#vorinclex-voice-of-hunger) | Creature | 37% | G |
+| [Conclave Evangelist](../cards/C/con.md#conclave-evangelist) | Creature | 35% | GW |
+| [Suture Priest](../cards/S/sut.md#suture-priest) | Creature | 32% | W |
+| [Soul of Eternity](../cards/S/so.md#soul-of-eternity) | Creature | 32% | W |
+| [Elvish Mystic](../cards/E/el.md#elvish-mystic) | Creature | 31% | G |
+| [Elenda's Hierophant](../cards/E/el.md#elendas-hierophant) | Creature | 30% | W |
+| [Arasta of the Endless Web](../cards/A/ara.md#arasta-of-the-endless-web) | Creature | 29% | G |
+| [Essence Warden](../cards/E/es.md#essence-warden) | Creature | 27% | G |
+| [Prosperous Innkeeper](../cards/P/pr.md#prosperous-innkeeper) | Creature | 27% | G |
+| [Birds of Paradise](../cards/B/bi.md#birds-of-paradise) | Creature | 27% | G |
+| [Growing Ranks](../cards/G/gro.md#growing-ranks) | Enchantment | 56% | GW |
+| [Mirari's Wake](../cards/M/mir.md#miraris-wake) | Enchantment | 55% | GW |
+| [Song of the Worldsoul](../cards/S/so.md#song-of-the-worldsoul) | Enchantment | 52% | W |
+| [Parallel Lives](../cards/P/pa.md#parallel-lives) | Enchantment | 33% | G |
+| [Doubling Season](../cards/D/do.md#doubling-season) | Enchantment | 31% | G |
+| [Cleric Class](../cards/C/cl.md#cleric-class) | Enchantment | 29% | W |
+| [Anointed Procession](../cards/A/an.md#anointed-procession) | Enchantment | 26% | W |
+| [Aura Shards](../cards/A/au.md#aura-shards) | Enchantment | 25% | GW |
+| [Command Tower](../cards/C/com.md#command-tower) | Land | 89% | C |
+| [Canopy Vista](../cards/C/can.md#canopy-vista) | Land | 79% | GW |
+| [Sunpetal Grove](../cards/S/sun.md#sunpetal-grove) | Land | 77% | GW |
+| [Bountiful Promenade](../cards/B/bo.md#bountiful-promenade) | Land | 64% | GW |
+| [Overgrown Farmland](../cards/O/ov.md#overgrown-farmland) | Land | 64% | GW |
+| [Selesnya Sanctuary](../cards/S/sel.md#selesnya-sanctuary) | Land | 56% | GW |
+| [Temple Garden](../cards/T/te.md#temple-garden) | Land | 56% | GW |
+| [Grove of the Guardian](../cards/G/gro.md#grove-of-the-guardian) | Land | 53% | GW |
+| [Sungrass Prairie](../cards/S/sun.md#sungrass-prairie) | Land | 52% | GW |
+| [Temple of Plenty](../cards/T/te.md#temple-of-plenty) | Land | 48% | GW |
+| [Gavony Township](../cards/G/ga.md#gavony-township) | Land | 45% | GW |
+| [Blossoming Sands](../cards/B/blo.md#blossoming-sands) | Land | 43% | GW |
+| [Krosan Verge](../cards/K/kr.md#krosan-verge) | Land | 39% | C |
+| [Fortified Village](../cards/F/fo.md#fortified-village) | Land | 36% | GW |
+| [Brushland](../cards/B/br.md#brushland) | Land | 36% | GW |
+| [Graypelt Refuge](../cards/G/gra.md#graypelt-refuge) | Land | 34% | GW |
+| 10× Plains | Basic land | — | — |
+| 10× Forest | Basic land | — | — |
+
+## Rejected candidates
+
+EDHREC suggestions excluded by validation (should normally be empty or only off-identity/illegal cards):
+
+- none
+
+<!-- RULES-NOTES:START -->
+## Commander rules & rulings
+
+> Auto-generated by `scripts/deck_rules_notes.py` from Scryfall Oracle bulk (2026-10-15) and rulings bulk (2026-10-15); rulings are quoted verbatim (source: Wizards of the Coast unless marked). Facts only — strategy is in [EDH Standards](../EDH%20Standards.md#synergy-notes), labeled Opinion.
+
+**Oracle text — [Trostani, Selesnya's Voice](../cards/T/tro.md#trostani-selesnyas-voice):**
+> Trostani, Selesnya's Voice: Whenever another creature you control enters, you gain life equal to that creature's toughness. / {1}{G}{W}, {T}: Populate. (Create a token that's a copy of a creature token you control.)
+
+**Official rulings on the commander (7):**
+- *2012-10-01* — Trostani's first ability checks the creature's toughness as it resolves. If that creature has left the battlefield, use its toughness from when it was last on the battlefield. You can't lose life this way if that creature's toughness was less than 0.
+- *2024-01-12* — Any enters-the-battlefield abilities of the copied token will trigger when the new token enters the battlefield. Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the copied token will also work.
+- *2024-01-12* — The new token doesn't copy whether the original token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any noncopy effects that have changed its power, toughness, color, and so on.
+- *2024-01-12* — The new creature token copies the characteristics of the original token as stated by the effect that created the original token.
+- *2024-01-12* — If you choose to copy a creature token that's a copy of another creature, the new creature token will copy the characteristics of whatever the original token is copying.
+- *2024-01-12* — If you control no creature tokens when you populate, nothing will happen.
+- *2024-01-12* — Populate doesn't target the creature token you're copying. You choose that creature token as you're taking the populate action. You can choose any creature token you control. If a spell or ability causes you to create a creature token and then instructs you to populate, you may choose to copy the token you just created, or you may choose to copy another creature token you control.
+
+**Creature-type overlap** with the commander (Dryad): 1 card(s) — [Bramble Sovereign](../cards/B/br.md#bramble-sovereign).
+
+**Deck cards with official rulings:** 59 of 79 non-basic cards — [Aetherflux Reservoir](../cards/A/ae.md#aetherflux-reservoir) (4), [Idol of Oblivion](../cards/I/id.md#idol-of-oblivion) (1), [Phyrexian Processor](../cards/P/ph.md#phyrexian-processor) (1), [Arcane Signet](../cards/A/arc.md#arcane-signet) (3), [Halo Fountain](../cards/H/ha.md#halo-fountain) (2), [Swords to Plowshares](../cards/S/sw.md#swords-to-plowshares) (1), [Sundering Growth](../cards/S/sun.md#sundering-growth) (7), [Path to Exile](../cards/P/pa.md#path-to-exile) (2), [Rootborn Defenses](../cards/R/ro.md#rootborn-defenses) (7), [Break Down](../cards/B/br.md#break-down) (3), [Beast Within](../cards/B/be.md#beast-within) (1), [Heroic Intervention](../cards/H/he.md#heroic-intervention) (3), [Second Harvest](../cards/S/sec.md#second-harvest) (2), [Druid's Deliverance](../cards/D/dru.md#druids-deliverance) (9), [Cultivate](../cards/C/cu.md#cultivate) (1), [Nature's Lore](../cards/N/na.md#natures-lore) (1), [Farseek](../cards/F/fa.md#farseek) (1), [Hour of Reckoning](../cards/H/ho.md#hour-of-reckoning) (6), [Shamanic Revelation](../cards/S/sha.md#shamanic-revelation) (1), [Finale of Devastation](../cards/F/fi.md#finale-of-devastation) (4), [Rampant Growth](../cards/R/ram.md#rampant-growth) (2), [Pest Infestation](../cards/P/pe.md#pest-infestation) (2), [Kodama's Reach](../cards/K/ko.md#kodamas-reach) (1), [Camaraderie](../cards/C/cam.md#camaraderie) (1), [Three Visits](../cards/T/thr.md#three-visits) (2), [Soul Warden](../cards/S/so.md#soul-warden) (1), [Crested Sunmare](../cards/C/cr.md#crested-sunmare) (3), [Archangel of Thune](../cards/A/arc.md#archangel-of-thune) (4), [Resplendent Angel](../cards/R/res.md#resplendent-angel) (5), [Bramble Sovereign](../cards/B/br.md#bramble-sovereign) (6), [Ghalta and Mavren](../cards/G/gh.md#ghalta-and-mavren) (5), [Lathiel, the Bounteous Dawn](../cards/L/la.md#lathiel-the-bounteous-dawn) (5), [Blossoming Bogbeast](../cards/B/blo.md#blossoming-bogbeast) (1), [Nykthos Paragon](../cards/N/ny.md#nykthos-paragon) (6), [Voice of Resurgence](../cards/V/vo.md#voice-of-resurgence) (2), [Speaker of the Heavens](../cards/S/spe.md#speaker-of-the-heavens) (1), [Vorinclex, Voice of Hunger](../cards/V/vo.md#vorinclex-voice-of-hunger) (3), [Conclave Evangelist](../cards/C/con.md#conclave-evangelist) (9), [Soul of Eternity](../cards/S/so.md#soul-of-eternity) (8), [Elenda's Hierophant](../cards/E/el.md#elendas-hierophant) (5), [Arasta of the Endless Web](../cards/A/ara.md#arasta-of-the-endless-web) (1), [Essence Warden](../cards/E/es.md#essence-warden) (1), [Growing Ranks](../cards/G/gro.md#growing-ranks) (6), [Mirari's Wake](../cards/M/mir.md#miraris-wake) (4), [Song of the Worldsoul](../cards/S/so.md#song-of-the-worldsoul) (7), [Parallel Lives](../cards/P/pa.md#parallel-lives) (2), [Doubling Season](../cards/D/do.md#doubling-season) (5), [Cleric Class](../cards/C/cl.md#cleric-class) (12), [Anointed Procession](../cards/A/an.md#anointed-procession) (6), [Command Tower](../cards/C/com.md#command-tower) (3), [Canopy Vista](../cards/C/can.md#canopy-vista) (3), [Sunpetal Grove](../cards/S/sun.md#sunpetal-grove) (2), [Bountiful Promenade](../cards/B/bo.md#bountiful-promenade) (1), [Overgrown Farmland](../cards/O/ov.md#overgrown-farmland) (1), [Selesnya Sanctuary](../cards/S/sel.md#selesnya-sanctuary) (1), [Temple Garden](../cards/T/te.md#temple-garden) (3), [Grove of the Guardian](../cards/G/gro.md#grove-of-the-guardian) (2), [Temple of Plenty](../cards/T/te.md#temple-of-plenty) (4), [Fortified Village](../cards/F/fo.md#fortified-village) (4).
+<!-- RULES-NOTES:END -->

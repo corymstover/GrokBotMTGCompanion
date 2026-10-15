@@ -29,7 +29,7 @@ import ingest_scryfall as ing  # noqa: E402
 ROOT = ing.ROOT
 DECKS = ROOT / "decks"
 EDHREC = "https://json.edhrec.com/pages/commanders/{slug}.json"
-MLD_PAT = re.compile(r"destroy all lands|each player sacrifices (all|.*lands)|destroy all (nonbasic )?lands|lands don't untap", re.I)
+MLD_PAT = re.compile(r"destroy all lands|each player sacrifices [^.]*lands|destroy all (nonbasic )?lands|lands don't untap", re.I)
 BASICS = {"W": "Plains", "U": "Island", "B": "Swamp", "R": "Mountain", "G": "Forest"}
 
 

@@ -1,0 +1,230 @@
+# Deck Skeleton — Yuriko, the Tiger's Shadow
+
+> **Data-derived skeleton, not a tuned list.** Built 2026-10-15 by `scripts/build_deck_skeleton.py` from [EDHREC](https://edhrec.com/commanders/yuriko-the-tigers-shadow) inclusion rates (community data) and validated against Scryfall Oracle bulk (2026-10-15). Card choices = most-included cards for this commander; *any judgment about what to cut/add is Opinion*. Format per [EDH Standards](../EDH%20Standards.md).
+
+## Contents
+- [Commander](#commander)
+- [Validation](#validation)
+- [Bracket assessment](#bracket-assessment)
+- [Decklist (Archidekt import)](#decklist-archidekt-import)
+- [Card breakdown](#card-breakdown)
+- [Rejected candidates](#rejected-candidates)
+- [Commander rules & rulings](#commander-rules--rulings)
+
+## Commander
+
+- **[Yuriko, the Tiger's Shadow](../cards/Y/yu.md#yuriko-the-tigers-shadow)** — {1}{U}{B} — Legendary Creature — Human Ninja
+- Color identity: **BU (Black, Blue)**
+- Eligibility: Yes (legendary creature)
+- EDHREC sample: 31726 decks · bracket distribution reported by EDHREC: B1: 24, B2: 463, B3: 2,711, B4: 2,621, B5: 2,300
+
+## Validation
+
+- Total cards: **100** (1 commander + 63 nonland + 16 nonbasic lands + 20 basics)
+- Strict color identity (CR 903.5c), singleton (903.5b), Commander-legal, size (903.5a): ✅ **all checks pass**
+
+## Bracket assessment
+
+- Game Changers (4): Mystical Tutor, Vampiric Tutor, Fierce Guardianship, Rhystic Study
+- Extra-turn cards: Temporal Trespass
+- Mass land denial: none
+- Two-card infinite combos: ⚠️ not machine-checked — review manually.
+- **Minimum bracket by the published barometers: 4 (Optimized) — more than three Game Changers.** (Brackets are a pregame-conversation tool; see [EDH Standards](../EDH%20Standards.md#power-bracket-assessment).)
+
+## Decklist (Archidekt import)
+
+```text
+1x Yuriko, the Tiger's Shadow [Commander{top}]
+1x Changeling Outcast [Creature]
+1x Ingenious Infiltrator [Creature]
+1x Thousand-Faced Shadow [Creature]
+1x Prosperous Thief [Creature]
+1x Ornithopter [Creature]
+1x Silver-Fur Master [Creature]
+1x Mistblade Shinobi [Creature]
+1x Tetsuko Umezawa, Fugitive [Creature]
+1x Ninja of the Deep Hours [Creature]
+1x Moon-Circuit Hacker [Creature]
+1x Faerie Seer [Creature]
+1x Shadow of Mortality [Creature]
+1x Slither Blade [Creature]
+1x Fallen Shinobi [Creature]
+1x Sakashima's Student [Creature]
+1x Mothdust Changeling [Creature]
+1x Mist-Syndicate Naga [Creature]
+1x Skullsnatcher [Creature]
+1x Triton Shorestalker [Creature]
+1x Silent-Blade Oni [Creature]
+1x Satoru, the Infiltrator [Creature]
+1x Nashi, Moon Sage's Scion [Creature]
+1x Spectral Sailor [Creature]
+1x Gingerbrute [Creature]
+1x Higure, the Still Wind [Creature]
+1x Wingcrafter [Creature]
+1x Baleful Strix [Creature]
+1x Mist-Cloaked Herald [Creature]
+1x Throat Slitter [Creature]
+1x Tormented Soul [Creature]
+1x Ink-Eyes, Servant of Oni [Creature]
+1x Satoru Umezawa [Creature]
+1x Dokuchi Silencer [Creature]
+1x Sol Ring [Artifact]
+1x Arcane Signet [Artifact]
+1x Sensei's Divining Top [Artifact]
+1x Dimir Signet [Artifact]
+1x Talisman of Dominance [Artifact]
+1x Scroll Rack [Artifact]
+1x Brainstorm [Instant]
+1x Counterspell [Instant]
+1x Dig Through Time [Instant]
+1x Lim-Dûl's Vault [Instant]
+1x Mystical Tutor [Instant]
+1x Commandeer [Instant]
+1x Deadly Rollick [Instant]
+1x An Offer You Can't Refuse [Instant]
+1x Misdirection [Instant]
+1x Vampiric Tutor [Instant]
+1x Dark Ritual [Instant]
+1x Fell the Profane // Fell Mire [Instant]
+1x Fierce Guardianship [Instant]
+1x Snuff Out [Instant]
+1x Sink into Stupor // Soporific Springs [Instant]
+1x Negate [Instant]
+1x Flare of Denial [Instant]
+1x Temporal Trespass [Sorcery]
+1x Treasure Cruise [Sorcery]
+1x Ponder [Sorcery]
+1x Sea Gate Restoration // Sea Gate, Reborn [Sorcery]
+1x Kaito, Bane of Nightmares [Planeswalker]
+1x Smoke Shroud [Enchantment]
+1x Rhystic Study [Enchantment]
+1x Command Tower [Land]
+1x Watery Grave [Land]
+1x Underground River [Land]
+1x Sunken Hollow [Land]
+1x Drowned Catacomb [Land]
+1x Polluted Delta [Land]
+1x Morphic Pool [Land]
+1x Rogue's Passage [Land]
+1x Choked Estuary [Land]
+1x Reliquary Tower [Land]
+1x Shizo, Death's Storehouse [Land]
+1x Otawara, Soaring City [Land]
+1x Clearwater Pathway // Murkwater Pathway [Land]
+1x Exotic Orchard [Land]
+1x Darkwater Catacombs [Land]
+1x Shipwreck Marsh [Land]
+10x Island [Land]
+10x Swamp [Land]
+```
+
+## Card breakdown
+
+| Card | Section | EDHREC inclusion | Identity |
+|---|---|---|---|
+| [Changeling Outcast](../cards/C/cha.md#changeling-outcast) | Creature | 90% | B |
+| [Ingenious Infiltrator](../cards/I/ing.md#ingenious-infiltrator) | Creature | 86% | BU |
+| [Thousand-Faced Shadow](../cards/T/tho.md#thousand-faced-shadow) | Creature | 85% | U |
+| [Prosperous Thief](../cards/P/pr.md#prosperous-thief) | Creature | 84% | U |
+| [Ornithopter](../cards/O/or.md#ornithopter) | Creature | 80% | C |
+| [Silver-Fur Master](../cards/S/si.md#silver-fur-master) | Creature | 79% | BU |
+| [Mistblade Shinobi](../cards/M/mis.md#mistblade-shinobi) | Creature | 78% | U |
+| [Tetsuko Umezawa, Fugitive](../cards/T/te.md#tetsuko-umezawa-fugitive) | Creature | 77% | U |
+| [Ninja of the Deep Hours](../cards/N/ni.md#ninja-of-the-deep-hours) | Creature | 75% | U |
+| [Moon-Circuit Hacker](../cards/M/moo.md#moon-circuit-hacker) | Creature | 72% | U |
+| [Faerie Seer](../cards/F/fa.md#faerie-seer) | Creature | 69% | U |
+| [Shadow of Mortality](../cards/S/sha.md#shadow-of-mortality) | Creature | 62% | B |
+| [Slither Blade](../cards/S/sl.md#slither-blade) | Creature | 61% | U |
+| [Fallen Shinobi](../cards/F/fa.md#fallen-shinobi) | Creature | 60% | BU |
+| [Sakashima's Student](../cards/S/sak.md#sakashimas-student) | Creature | 56% | U |
+| [Mothdust Changeling](../cards/M/mot.md#mothdust-changeling) | Creature | 54% | U |
+| [Mist-Syndicate Naga](../cards/M/mis.md#mist-syndicate-naga) | Creature | 53% | U |
+| [Skullsnatcher](../cards/S/sk.md#skullsnatcher) | Creature | 51% | B |
+| [Triton Shorestalker](../cards/T/tri.md#triton-shorestalker) | Creature | 48% | U |
+| [Silent-Blade Oni](../cards/S/si.md#silent-blade-oni) | Creature | 48% | BU |
+| [Satoru, the Infiltrator](../cards/S/sat.md#satoru-the-infiltrator) | Creature | 48% | BU |
+| [Nashi, Moon Sage's Scion](../cards/N/na.md#nashi-moon-sages-scion) | Creature | 47% | B |
+| [Spectral Sailor](../cards/S/spe.md#spectral-sailor) | Creature | 44% | U |
+| [Gingerbrute](../cards/G/gi.md#gingerbrute) | Creature | 44% | C |
+| [Higure, the Still Wind](../cards/H/hi.md#higure-the-still-wind) | Creature | 43% | U |
+| [Wingcrafter](../cards/W/wi.md#wingcrafter) | Creature | 42% | U |
+| [Baleful Strix](../cards/B/bal.md#baleful-strix) | Creature | 41% | BU |
+| [Mist-Cloaked Herald](../cards/M/mis.md#mist-cloaked-herald) | Creature | 40% | U |
+| [Throat Slitter](../cards/T/thr.md#throat-slitter) | Creature | 38% | B |
+| [Tormented Soul](../cards/T/to.md#tormented-soul) | Creature | 36% | B |
+| [Ink-Eyes, Servant of Oni](../cards/I/ink.md#ink-eyes-servant-of-oni) | Creature | 36% | B |
+| [Satoru Umezawa](../cards/S/sat.md#satoru-umezawa) | Creature | 35% | BU |
+| [Dokuchi Silencer](../cards/D/do.md#dokuchi-silencer) | Creature | 33% | B |
+| [Sol Ring](../cards/S/so.md#sol-ring) | Artifact | 85% | C |
+| [Arcane Signet](../cards/A/arc.md#arcane-signet) | Artifact | 66% | C |
+| [Sensei's Divining Top](../cards/S/sen.md#senseis-divining-top) | Artifact | 44% | C |
+| [Dimir Signet](../cards/D/di.md#dimir-signet) | Artifact | 40% | BU |
+| [Talisman of Dominance](../cards/T/ta.md#talisman-of-dominance) | Artifact | 39% | BU |
+| [Scroll Rack](../cards/S/sc.md#scroll-rack) | Artifact | 35% | C |
+| [Brainstorm](../cards/B/br.md#brainstorm) | Instant | 83% | U |
+| [Counterspell](../cards/C/cou.md#counterspell) | Instant | 56% | U |
+| [Dig Through Time](../cards/D/di.md#dig-through-time) | Instant | 51% | U |
+| [Lim-Dûl's Vault](../cards/L/li.md#lim-dûls-vault) | Instant | 51% | BU |
+| [Mystical Tutor](../cards/M/my.md#mystical-tutor) | Instant | 47% | U |
+| [Commandeer](../cards/C/com.md#commandeer) | Instant | 45% | U |
+| [Deadly Rollick](../cards/D/dea.md#deadly-rollick) | Instant | 44% | B |
+| [An Offer You Can't Refuse](../cards/A/an.md#an-offer-you-cant-refuse) | Instant | 44% | U |
+| [Misdirection](../cards/M/mis.md#misdirection) | Instant | 43% | U |
+| [Vampiric Tutor](../cards/V/va.md#vampiric-tutor) | Instant | 40% | B |
+| [Dark Ritual](../cards/D/da.md#dark-ritual) | Instant | 39% | B |
+| [Fell the Profane // Fell Mire](../cards/F/fe.md#fell-the-profane--fell-mire) | Instant | 37% | B |
+| [Fierce Guardianship](../cards/F/fi.md#fierce-guardianship) | Instant | 37% | U |
+| [Snuff Out](../cards/S/sn.md#snuff-out) | Instant | 35% | B |
+| [Sink into Stupor // Soporific Springs](../cards/S/si.md#sink-into-stupor--soporific-springs) | Instant | 34% | U |
+| [Negate](../cards/N/ne.md#negate) | Instant | 34% | U |
+| [Flare of Denial](../cards/F/fl.md#flare-of-denial) | Instant | 34% | U |
+| [Temporal Trespass](../cards/T/te.md#temporal-trespass) | Sorcery | 61% | U |
+| [Treasure Cruise](../cards/T/tre.md#treasure-cruise) | Sorcery | 46% | U |
+| [Ponder](../cards/P/po.md#ponder) | Sorcery | 45% | U |
+| [Sea Gate Restoration // Sea Gate, Reborn](../cards/S/sea.md#sea-gate-restoration--sea-gate-reborn) | Sorcery | 34% | U |
+| [Kaito, Bane of Nightmares](../cards/K/ka.md#kaito-bane-of-nightmares) | Planeswalker | 50% | BU |
+| [Smoke Shroud](../cards/S/sm.md#smoke-shroud) | Enchantment | 38% | U |
+| [Rhystic Study](../cards/R/rh.md#rhystic-study) | Enchantment | 33% | U |
+| [Command Tower](../cards/C/com.md#command-tower) | Land | 91% | C |
+| [Watery Grave](../cards/W/wat.md#watery-grave) | Land | 59% | BU |
+| [Underground River](../cards/U/un.md#underground-river) | Land | 56% | BU |
+| [Sunken Hollow](../cards/S/sun.md#sunken-hollow) | Land | 54% | BU |
+| [Drowned Catacomb](../cards/D/dro.md#drowned-catacomb) | Land | 48% | BU |
+| [Polluted Delta](../cards/P/po.md#polluted-delta) | Land | 46% | C |
+| [Morphic Pool](../cards/M/mor.md#morphic-pool) | Land | 44% | BU |
+| [Rogue's Passage](../cards/R/ro.md#rogues-passage) | Land | 40% | C |
+| [Choked Estuary](../cards/C/cho.md#choked-estuary) | Land | 38% | BU |
+| [Reliquary Tower](../cards/R/rel.md#reliquary-tower) | Land | 38% | C |
+| [Shizo, Death's Storehouse](../cards/S/shi.md#shizo-deaths-storehouse) | Land | 36% | B |
+| [Otawara, Soaring City](../cards/O/ot.md#otawara-soaring-city) | Land | 36% | U |
+| [Clearwater Pathway // Murkwater Pathway](../cards/C/cl.md#clearwater-pathway--murkwater-pathway) | Land | 32% | BU |
+| [Exotic Orchard](../cards/E/ex.md#exotic-orchard) | Land | 32% | C |
+| [Darkwater Catacombs](../cards/D/da.md#darkwater-catacombs) | Land | 29% | BU |
+| [Shipwreck Marsh](../cards/S/shi.md#shipwreck-marsh) | Land | 29% | BU |
+| 10× Island | Basic land | — | — |
+| 10× Swamp | Basic land | — | — |
+
+## Rejected candidates
+
+EDHREC suggestions excluded by validation (should normally be empty or only off-identity/illegal cards):
+
+- Boss Uramon, Shadow's Reach — not Commander-legal
+
+<!-- RULES-NOTES:START -->
+## Commander rules & rulings
+
+> Auto-generated by `scripts/deck_rules_notes.py` from Scryfall Oracle bulk (2026-10-15) and rulings bulk (2026-10-15); rulings are quoted verbatim (source: Wizards of the Coast unless marked). Facts only — strategy is in [EDH Standards](../EDH%20Standards.md#synergy-notes), labeled Opinion.
+
+**Oracle text — [Yuriko, the Tiger's Shadow](../cards/Y/yu.md#yuriko-the-tigers-shadow):**
+> Yuriko, the Tiger's Shadow: Commander ninjutsu {U}{B} ({U}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand or the command zone tapped and attacking.) / Whenever a Ninja you control deals combat damage to a player, reveal the top card of your library and put that card into your hand. Each opponent loses life equal to that card's mana value.
+
+**Official rulings on the commander (4):**
+- *2020-11-10* — Activating Yuriko's commander ninjutsu ability isn't the same as casting Yuriko as a spell. You won't have to pay the commander tax to activate that ability, and activating that ability won't increase the commander tax to pay later.
+- *2020-11-10* — If a card in a player's library has {X} in its mana cost, X is considered to be 0.
+- *2020-11-10* — Although the ninjutsu ability has the creature enter the battlefield attacking, it was never declared as an attacking creature (for the purposes of abilities that trigger whenever a creature attacks, for example).
+- *2020-11-10* — Commander ninjutsu is a variant of ninjutsu that can be activated from the command zone as well as from your hand. Just as with regular ninjutsu, the Ninja enters attacking the player or planeswalker that the returned creature was attacking.
+
+**Creature-type overlap** with the commander (Human, Ninja): 21 card(s) — [Ingenious Infiltrator](../cards/I/ing.md#ingenious-infiltrator), [Thousand-Faced Shadow](../cards/T/tho.md#thousand-faced-shadow), [Prosperous Thief](../cards/P/pr.md#prosperous-thief), [Silver-Fur Master](../cards/S/si.md#silver-fur-master), [Mistblade Shinobi](../cards/M/mis.md#mistblade-shinobi), [Tetsuko Umezawa, Fugitive](../cards/T/te.md#tetsuko-umezawa-fugitive), [Ninja of the Deep Hours](../cards/N/ni.md#ninja-of-the-deep-hours), [Moon-Circuit Hacker](../cards/M/moo.md#moon-circuit-hacker), [Fallen Shinobi](../cards/F/fa.md#fallen-shinobi), [Sakashima's Student](../cards/S/sak.md#sakashimas-student), [Mist-Syndicate Naga](../cards/M/mis.md#mist-syndicate-naga), [Skullsnatcher](../cards/S/sk.md#skullsnatcher) ….
+
+**Deck cards with official rulings:** 55 of 79 non-basic cards — [Ingenious Infiltrator](../cards/I/ing.md#ingenious-infiltrator) (7), [Thousand-Faced Shadow](../cards/T/tho.md#thousand-faced-shadow) (14), [Prosperous Thief](../cards/P/pr.md#prosperous-thief) (7), [Silver-Fur Master](../cards/S/si.md#silver-fur-master) (7), [Tetsuko Umezawa, Fugitive](../cards/T/te.md#tetsuko-umezawa-fugitive) (1), [Ninja of the Deep Hours](../cards/N/ni.md#ninja-of-the-deep-hours) (6), [Moon-Circuit Hacker](../cards/M/moo.md#moon-circuit-hacker) (7), [Shadow of Mortality](../cards/S/sha.md#shadow-of-mortality) (1), [Fallen Shinobi](../cards/F/fa.md#fallen-shinobi) (9), [Sakashima's Student](../cards/S/sak.md#sakashimas-student) (8), [Mothdust Changeling](../cards/M/mot.md#mothdust-changeling) (1), [Mist-Syndicate Naga](../cards/M/mis.md#mist-syndicate-naga) (9), [Skullsnatcher](../cards/S/sk.md#skullsnatcher) (1), [Silent-Blade Oni](../cards/S/si.md#silent-blade-oni) (3), [Satoru, the Infiltrator](../cards/S/sat.md#satoru-the-infiltrator) (1), [Nashi, Moon Sage's Scion](../cards/N/na.md#nashi-moon-sages-scion) (10), [Gingerbrute](../cards/G/gi.md#gingerbrute) (5), [Higure, the Still Wind](../cards/H/hi.md#higure-the-still-wind) (2), [Ink-Eyes, Servant of Oni](../cards/I/ink.md#ink-eyes-servant-of-oni) (1), [Satoru Umezawa](../cards/S/sat.md#satoru-umezawa) (9), [Dokuchi Silencer](../cards/D/do.md#dokuchi-silencer) (8), [Arcane Signet](../cards/A/arc.md#arcane-signet) (3), [Sensei's Divining Top](../cards/S/sen.md#senseis-divining-top) (2), [Scroll Rack](../cards/S/sc.md#scroll-rack) (1), [Brainstorm](../cards/B/br.md#brainstorm) (1), [Dig Through Time](../cards/D/di.md#dig-through-time) (3), [Lim-Dûl's Vault](../cards/L/li.md#lim-dûls-vault) (3), [Mystical Tutor](../cards/M/my.md#mystical-tutor) (1), [Commandeer](../cards/C/com.md#commandeer) (8), [Deadly Rollick](../cards/D/dea.md#deadly-rollick) (2), [An Offer You Can't Refuse](../cards/A/an.md#an-offer-you-cant-refuse) (2), [Misdirection](../cards/M/mis.md#misdirection) (8), [Vampiric Tutor](../cards/V/va.md#vampiric-tutor) (1), [Fell the Profane // Fell Mire](../cards/F/fe.md#fell-the-profane--fell-mire) (6), [Fierce Guardianship](../cards/F/fi.md#fierce-guardianship) (2), [Sink into Stupor // Soporific Springs](../cards/S/si.md#sink-into-stupor--soporific-springs) (8), [Negate](../cards/N/ne.md#negate) (1), [Temporal Trespass](../cards/T/te.md#temporal-trespass) (3), [Treasure Cruise](../cards/T/tre.md#treasure-cruise) (3), [Ponder](../cards/P/po.md#ponder) (1), [Sea Gate Restoration // Sea Gate, Reborn](../cards/S/sea.md#sea-gate-restoration--sea-gate-reborn) (10), [Kaito, Bane of Nightmares](../cards/K/ka.md#kaito-bane-of-nightmares) (10), [Rhystic Study](../cards/R/rh.md#rhystic-study) (2), [Command Tower](../cards/C/com.md#command-tower) (3), [Watery Grave](../cards/W/wat.md#watery-grave) (2), [Sunken Hollow](../cards/S/sun.md#sunken-hollow) (3), [Drowned Catacomb](../cards/D/dro.md#drowned-catacomb) (2), [Morphic Pool](../cards/M/mor.md#morphic-pool) (1), [Rogue's Passage](../cards/R/ro.md#rogues-passage) (1), [Choked Estuary](../cards/C/cho.md#choked-estuary) (4), [Reliquary Tower](../cards/R/rel.md#reliquary-tower) (1), [Otawara, Soaring City](../cards/O/ot.md#otawara-soaring-city) (2), [Clearwater Pathway // Murkwater Pathway](../cards/C/cl.md#clearwater-pathway--murkwater-pathway) (9), [Exotic Orchard](../cards/E/ex.md#exotic-orchard) (5), [Shipwreck Marsh](../cards/S/shi.md#shipwreck-marsh) (1).
+<!-- RULES-NOTES:END -->

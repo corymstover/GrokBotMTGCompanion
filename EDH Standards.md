@@ -91,18 +91,38 @@ Definition (official): cards that "can dramatically warp Commander games… run 
 <!-- GAME-CHANGERS:END -->
 
 ## Deck skeletons
-Built by [`scripts/build_deck_skeleton.py`](scripts/build_deck_skeleton.py): highest-inclusion cards for the commander from EDHREC (community data, fetched 2026-10-15), then **validated** (100 cards, singleton, strict identity, Commander-legal, commander eligibility) and bracket-floored. They are *starting points*, not tuned lists.
+Built by [`scripts/build_deck_skeleton.py`](scripts/build_deck_skeleton.py): highest-inclusion cards for the commander from EDHREC (community data, fetched 2026-10-15), then **validated** (100 cards, singleton, strict identity, Commander-legal, commander eligibility) and bracket-floored. They are *starting points*, not tuned lists. Each skeleton ends with an auto-generated **Commander rules & rulings** block (`scripts/deck_rules_notes.py`): commander Oracle text, every official ruling, creature-type overlap, and which deck cards carry rulings. **Coverage: 28 skeletons across 28 color identities** — all 5 mono-colors + colorless, all 10 two-color pairs, all 10 three-color combinations, 1 of 5 four-color (WUBG — Atraxa) and five-color (The Ur-Dragon); still missing: the other 4 four-color identities (WUBR, UBRG, BRGW, RGWU).
 
 | Deck | Identity | Game Changers | Bracket floor |
 |---|---|---|---|
+| [Kozilek, the Great Distortion](decks/kozilek-the-great-distortion.md) | Colorless | 1 | 3 |
+| [K'rrik, Son of Yawgmoth](decks/krrik-son-of-yawgmoth.md) | B | 7 | 4 |
+| [Selvala, Heart of the Wilds](decks/selvala-heart-of-the-wilds.md) | G | 2 | 3 |
 | [Krenko, Mob Boss](decks/krenko-mob-boss.md) | R | 0 | 2 (or 1) |
-| [Lathril, Blade of the Elves](decks/lathril-blade-of-the-elves.md) | BG | 1 | 3 |
-| [Edgar Markov](decks/edgar-markov.md) | BRW | 3 | 3 |
-| [Atraxa, Praetors' Voice](decks/atraxa-praetors-voice.md) | BGUW | 5 | 4 |
-| [The Ur-Dragon](decks/the-ur-dragon.md) | WUBRG | 3 | 3 |
 | [Talrand, Sky Summoner](decks/talrand-sky-summoner.md) | U | 3 | 3 |
+| [Giada, Font of Hope](decks/giada-font-of-hope.md) | W | 3 | 3 |
+| [Lathril, Blade of the Elves](decks/lathril-blade-of-the-elves.md) | BG | 1 | 3 |
+| [Prosper, Tome-Bound](decks/prosper-tome-bound.md) | BR | 1 | 3 |
+| [Yuriko, the Tiger's Shadow](decks/yuriko-the-tigers-shadow.md) | BU | 4 | 4 |
 | [Teysa Karlov](decks/teysa-karlov.md) | BW | 2 | 3 |
+| [Xenagos, God of Revels](decks/xenagos-god-of-revels.md) | GR | 0 | 2 (or 1) |
 | [Tatyova, Benthic Druid](decks/tatyova-benthic-druid.md) | GU | 2 | 3 |
+| [Trostani, Selesnya's Voice](decks/trostani-selesnyas-voice.md) | GW | 1 | 3 |
+| [Niv-Mizzet, Parun](decks/niv-mizzet-parun.md) | RU | 4 | 4 |
+| [Feather, the Redeemed](decks/feather-the-redeemed.md) | RW | 0 | 2 (or 1) |
+| [Brago, King Eternal](decks/brago-king-eternal.md) | UW | 1 | 3 |
+| [Korvold, Fae-Cursed King](decks/korvold-fae-cursed-king.md) | BGR | 4 | 4 |
+| [Muldrotha, the Gravetide](decks/muldrotha-the-gravetide.md) | BGU | 1 | 3 |
+| [Karador, Ghost Chieftain](decks/karador-ghost-chieftain.md) | BGW | 0 | 2 (or 1) |
+| [Nekusar, the Mindrazer](decks/nekusar-the-mindrazer.md) | BRU | 2 | 3 |
+| [Edgar Markov](decks/edgar-markov.md) | BRW | 3 | 3 |
+| [Zur the Enchanter](decks/zur-the-enchanter.md) | BUW | 8 | 4 |
+| [Animar, Soul of Elements](decks/animar-soul-of-elements.md) | GRU | 5 | 4 |
+| [Gishath, Sun's Avatar](decks/gishath-suns-avatar.md) | GRW | 0 | 2 (or 1) |
+| [Chulane, Teller of Tales](decks/chulane-teller-of-tales.md) | GUW | 6 | 4 |
+| [Kykar, Wind's Fury](decks/kykar-winds-fury.md) | RUW | 6 | 4 |
+| [Atraxa, Praetors' Voice](decks/atraxa-praetors-voice.md) | BGUW | 5 | 4 |
+| [The Ur-Dragon](decks/the-ur-dragon.md) | BGRUW | 3 | 3 |
 
 ## Synergy notes
 
@@ -124,6 +144,46 @@ Built by [`scripts/build_deck_skeleton.py`](scripts/build_deck_skeleton.py): hig
 - **Extra land drops (more triggers per turn):** [Exploration](cards/E/ex.md#exploration), [Azusa, Lost but Seeking](cards/A/az.md#azusa-lost-but-seeking) (two additional lands), [Dryad of the Ilysian Grove](cards/D/dry.md#dryad-of-the-ilysian-grove), [Oracle of Mul Daya](cards/O/or.md#oracle-of-mul-daya) (also plays lands from the top of the library).
 - **Land recursion (reuse fetch/sacrifice lands):** [Crucible of Worlds](cards/C/cr.md#crucible-of-worlds), [Ramunap Excavator](cards/R/ram.md#ramunap-excavator) — "You may play lands from your graveyard."
 - **Opinion:** run more lands than usual (~38–40) plus fetch-style lands so each land drop yields two triggers. Skeleton: [Tatyova, Benthic Druid](decks/tatyova-benthic-druid.md).
+
+### Sacrifice = card + counter — Korvold, Fae-Cursed King (BRG, sacrifice/Treasure)
+- **Rules fact:** [Korvold, Fae-Cursed King](cards/K/ko.md#korvold-fae-cursed-king) — "Whenever you sacrifice a permanent, put a +1/+1 counter on Korvold and draw a card." Rulings (2019-10-04, WotC): it "is a triggered ability, not an activated ability … you need some other way of sacrificing permanents"; a sacrifice paid as a cost resolves its trigger "before that spell or ability"; a legendary permanent put into the graveyard by the legend rule "isn't sacrificed."
+- **Enablers in the skeleton (each sacrifice = a Korvold trigger):** Treasure makers [Pitiless Plunderer](cards/P/pi.md#pitiless-plunderer), [Mahadi, Emporium Master](cards/M/mah.md#mahadi-emporium-master), [Tireless Provisioner](cards/T/ti.md#tireless-provisioner) (Food or Treasure); outlets [Viscera Seer](cards/V/vi.md#viscera-seer), [Ashnod's Altar](cards/A/as.md#ashnods-altar); even [Evolving Wilds](cards/E/ev.md#evolving-wilds) ("Sacrifice this land"). [Mayhem Devil](cards/M/may.md#mayhem-devil) pings on *any player's* sacrifice.
+- **Opinion:** Treasures are the cleanest fodder (mana now, card later). Skeleton: [Korvold](decks/korvold-fae-cursed-king.md) (4 GC → floor 4).
+
+### One permanent of each type from the graveyard — Muldrotha, the Gravetide (BGU, self-mill)
+- **Rules fact:** [Muldrotha, the Gravetide](cards/M/mu.md#muldrotha-the-gravetide) — "During each of your turns, you may play a land and cast a permanent spell of each permanent type from your graveyard." Rulings (2020-11-10, WotC): you "must follow the normal timing permissions" (no land without an available land play); an artifact creature can count as *either* type, chosen as you cast it; costs must be paid.
+- **In the skeleton:** mill enablers [Stitcher's Supplier](cards/S/sti.md#stitchers-supplier), [Satyr Wayfinder](cards/S/sat.md#satyr-wayfinder), [Mesmeric Orb](cards/M/me.md#mesmeric-orb); recastable sacrifice creatures [Sakura-Tribe Elder](cards/S/sak.md#sakura-tribe-elder) and [Spore Frog](cards/S/spo.md#spore-frog) (one creature recast per turn — the creature "slot" is shared); [Eternal Witness](cards/E/et.md#eternal-witness) returns nonpermanents Muldrotha can't cast.
+- **Opinion:** diversify permanent types (artifact, enchantment, land, creature, planeswalker, battle) to use every slot. Skeleton: [Muldrotha](decks/muldrotha-the-gravetide.md).
+
+### Recursion with a cost reduction — Karador, Ghost Chieftain (WBG, graveyard creatures)
+- **Rules fact:** [Karador, Ghost Chieftain](cards/K/ka.md#karador-ghost-chieftain) — costs "{1} less to cast for each creature card in your graveyard" and "Once during each of your turns, you may cast a creature spell from your graveyard." Ruling (2020-11-10): total cost = mana cost + increases (e.g. **commander tax**) − reductions; mana value is unchanged.
+- **In the skeleton:** the same sacrifice-and-recast pieces as Muldrotha ([Sakura-Tribe Elder](cards/S/sak.md#sakura-tribe-elder), [Spore Frog](cards/S/spo.md#spore-frog), [Viscera Seer](cards/V/vi.md#viscera-seer)) plus mill ([Stitcher's Supplier](cards/S/sti.md#stitchers-supplier), [Satyr Wayfinder](cards/S/sat.md#satyr-wayfinder)) that also shrinks Karador's own cost.
+- Skeleton: [Karador](decks/karador-ghost-chieftain.md) (0 GC → floor 2).
+
+### Ninjas reveal and drain — Yuriko, the Tiger's Shadow (UB, ninjutsu)
+- **Rules fact:** [Yuriko, the Tiger's Shadow](cards/Y/yu.md#yuriko-the-tigers-shadow) — whenever a Ninja you control deals combat damage to a player, reveal the top card; "Each opponent loses life equal to that card's mana value." Rulings (2020-11-10): activating commander ninjutsu "isn't the same as casting Yuriko … You won't have to pay the commander tax"; the Ninja "was never declared as an attacking creature" (no attack triggers); X in a revealed card's cost is 0.
+- **In the skeleton:** evasive 1-drops that start ninjutsu — [Changeling Outcast](cards/C/cha.md#changeling-outcast) (is every creature type, so it is also a Ninja for Yuriko's trigger; "can't be blocked"), [Ornithopter](cards/O/or.md#ornithopter), [Gingerbrute](cards/G/gi.md#gingerbrute); Ninjas [Ingenious Infiltrator](cards/I/ing.md#ingenious-infiltrator), [Fallen Shinobi](cards/F/fa.md#fallen-shinobi), [Mistblade Shinobi](cards/M/mis.md#mistblade-shinobi); [Sensei's Divining Top](cards/S/sen.md#senseis-divining-top) arranges the top card before the reveal.
+- Skeleton: [Yuriko](decks/yuriko-the-tigers-shadow.md) (4 GC → floor 4).
+
+### Life as black mana — K'rrik, Son of Yawgmoth (B, life-payment)
+- **Rules fact:** [K'rrik, Son of Yawgmoth](cards/K/kr.md#krrik-son-of-yawgmoth) — "For each {B} in a cost, you may pay 2 life rather than pay that mana." Rulings: it "doesn't modify or reduce costs" (only how you pay); you can't pay life for **generic** mana; it applies to "any cost you pay, including … activation costs, and even costs for special actions"; K'rrik's mana value is always 7.
+- **In the skeleton:** [Dark Ritual](cards/D/da.md#dark-ritual) for 2 life (adds {B}{B}{B}); [Necropotence](cards/N/ne.md#necropotence) and [Bolas's Citadel](cards/B/bo.md#bolass-citadel) convert life into cards/spells; lifelink plus [Gray Merchant of Asphodel](cards/G/gra.md#gray-merchant-of-asphodel), [Exsanguinate](cards/E/ex.md#exsanguinate) and [Sanguine Bond](cards/S/san.md#sanguine-bond) refill life.
+- Skeleton: [K'rrik](decks/krrik-son-of-yawgmoth.md) (7 GC → floor 4).
+
+### Blink on combat damage — Brago, King Eternal (WU, flicker)
+- **Rules fact:** [Brago, King Eternal](cards/B/br.md#brago-king-eternal) — on combat damage to a player, exile any number of target nonland permanents you control, then return them. Rulings (2020-11-10): this happens "after combat damage is dealt" (creatures that died can't be targeted); Brago may blink itself; a returning Aura "doesn't target anything."
+- **In the skeleton:** enter-the-battlefield value — [Mulldrifter](cards/M/mu.md#mulldrifter), [Cloudblazer](cards/C/cl.md#cloudblazer) (draw two), [Solemn Simulacrum](cards/S/so.md#solemn-simulacrum) (land), [Venser, Shaper Savant](cards/V/ve.md#venser-shaper-savant) (bounce), [Sun Titan](cards/S/sun.md#sun-titan).
+- Skeleton: [Brago](decks/brago-king-eternal.md).
+
+### Playing from exile makes Treasure — Prosper, Tome-Bound (BR, impulse draw)
+- **Rules fact:** [Prosper, Tome-Bound](cards/P/pr.md#prosper-tome-bound) — "Pact Boon — Whenever you play a card from exile, create a Treasure token." Ruling (2021-07-23): it "triggers whenever you play any cards from exile, not just those exiled with the Mystic Arcanum ability."
+- **In the skeleton:** other exile-and-play sources — [Light Up the Stage](cards/L/li.md#light-up-the-stage), [Jeska's Will](cards/J/je.md#jeskas-will), [Professional Face-Breaker](cards/P/pr.md#professional-face-breaker) (whose Treasures also feed its own exile ability).
+- Skeleton: [Prosper](decks/prosper-tome-bound.md).
+
+### Draw ↔ damage loop — Niv-Mizzet, Parun (UR, spellslinger) ⚠️ two-card combo
+- **Rules fact:** [Niv-Mizzet, Parun](cards/N/ni.md#niv-mizzet-parun) — "Whenever you draw a card, Niv-Mizzet deals 1 damage to any target." Rulings (2018-10-05): drawing multiple cards triggers it that many times; putting cards into hand without the word "draw" doesn't.
+- **Combo (rules fact from Oracle text):** with [Curiosity](cards/C/cu.md#curiosity) or [Ophidian Eye](cards/O/op.md#ophidian-eye) on Niv-Mizzet ("Whenever enchanted creature deals damage to an opponent, you may draw a card"), each ping at an opponent draws a card, which pings again — a loop that only stops when you decline the optional draw or run out of library/opponents. [Tandem Lookout](cards/T/ta.md#tandem-lookout) paired with Niv-Mizzet does the same (mandatory draw). [Psychosis Crawler](cards/P/ps.md#psychosis-crawler) adds 1 life loss per draw.
+- **Bracket note:** the [Commander Brackets](#power-bracket-assessment) restrict two-card infinite combos in the lower brackets; this skeleton already floors at 4 (4 GC). Flagged because `build_deck_skeleton.py` does not detect combos (#15).
 
 ## Deck-building checklist
 1. Commander block first (eligibility per CR 903.3; pairing mechanics).
