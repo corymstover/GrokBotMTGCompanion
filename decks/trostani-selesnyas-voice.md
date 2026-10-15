@@ -1,3 +1,14 @@
+---
+title: "Deck Skeleton — Trostani, Selesnya's Voice"
+category: deck
+kind: core
+commander: "Trostani, Selesnya's Voice"
+color_identity: GW
+bracket_floor: 3
+game_changers: 1
+validated: true
+---
+
 # Deck Skeleton — Trostani, Selesnya's Voice
 
 > **Data-derived skeleton, not a tuned list.** Built 2026-10-15 by `scripts/build_deck_skeleton.py` from [EDHREC](https://edhrec.com/commanders/trostani-selesnyas-voice) inclusion rates (community data) and validated against Scryfall Oracle bulk (2026-10-15). Card choices = most-included cards for this commander; *any judgment about what to cut/add is Opinion*. Format per [EDH Standards](../EDH%20Standards.md).

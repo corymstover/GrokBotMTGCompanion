@@ -1,3 +1,14 @@
+---
+title: "Deck Skeleton — Yuriko, the Tiger's Shadow"
+category: deck
+kind: core
+commander: "Yuriko, the Tiger's Shadow"
+color_identity: BU
+bracket_floor: 4
+game_changers: 4
+validated: true
+---
+
 # Deck Skeleton — Yuriko, the Tiger's Shadow
 
 > **Data-derived skeleton, not a tuned list.** Built 2026-10-15 by `scripts/build_deck_skeleton.py` from [EDHREC](https://edhrec.com/commanders/yuriko-the-tigers-shadow) inclusion rates (community data) and validated against Scryfall Oracle bulk (2026-10-15). Card choices = most-included cards for this commander; *any judgment about what to cut/add is Opinion*. Format per [EDH Standards](../EDH%20Standards.md).

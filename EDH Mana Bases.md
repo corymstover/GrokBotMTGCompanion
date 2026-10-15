@@ -1,3 +1,12 @@
+---
+title: "EDH Mana Bases"
+category: edh
+tags: [lands, mana-base, color-identity]
+issues: [25]
+generated_by: scripts/build_mana_bases.py
+sources: [scryfall, edhrec]
+---
+
 # EDH Mana Bases
 
 > **Auto-generated** by `scripts/build_mana_bases.py` (Bot cycle 6, issue [#25](https://github.com/corymstover/GrokBotMTGCompanion/issues/25)) from Scryfall Oracle bulk 2026-10-15. Do not hand-edit.

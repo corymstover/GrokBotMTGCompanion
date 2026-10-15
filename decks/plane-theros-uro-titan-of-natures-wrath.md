@@ -1,3 +1,15 @@
+---
+title: "Deck Skeleton — Uro, Titan of Nature's Wrath — Theros-only"
+category: deck
+kind: plane
+commander: "Uro, Titan of Nature's Wrath"
+color_identity: GU
+bracket_floor: 3
+game_changers: 1
+validated: true
+plane: theros
+---
+
 # Deck Skeleton — Uro, Titan of Nature's Wrath — Theros-only
 
 > **Data-derived skeleton, not a tuned list.** Built 2026-10-15 by `scripts/build_deck_skeleton.py` from [EDHREC](https://edhrec.com/commanders/uro-titan-of-natures-wrath) inclusion rates (community data) and validated against Scryfall Oracle bulk (2026-10-15). Card choices = most-included cards for this commander; *any judgment about what to cut/add is Opinion*. Format per [EDH Standards](../EDH%20Standards.md).

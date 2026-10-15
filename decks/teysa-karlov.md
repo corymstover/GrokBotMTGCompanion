@@ -1,3 +1,14 @@
+---
+title: "Deck Skeleton — Teysa Karlov"
+category: deck
+kind: core
+commander: "Teysa Karlov"
+color_identity: BW
+bracket_floor: 3
+game_changers: 2
+validated: true
+---
+
 # Deck Skeleton — Teysa Karlov
 
 > **Data-derived skeleton, not a tuned list.** Built 2026-10-15 by `scripts/build_deck_skeleton.py` from [EDHREC](https://edhrec.com/commanders/teysa-karlov) inclusion rates (community data) and validated against Scryfall Oracle bulk (2026-10-15). Card choices = most-included cards for this commander; *any judgment about what to cut/add is Opinion*. Format per [EDH Standards](../EDH%20Standards.md).

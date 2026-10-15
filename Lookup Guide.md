@@ -1,3 +1,12 @@
+---
+title: "Lookup Guide"
+category: meta
+tags: [lookup, retrieval]
+issues: [46]
+generated_by: hand-written
+sources: []
+---
+
 # Lookup Guide
 
 > **Bot cycle 14 · issue [#46](https://github.com/corymstover/GrokBotMTGCompanion/issues/46) (Phase 4, first pass).** The fastest way to find each kind of fact in this repo, with commands tested against the current data. Start from the [Knowledge Index](Knowledge%20Index.md) when browsing. Use this page when you know what you want.
@@ -7,6 +16,7 @@
 - [Rules](#rules)
 - [Commander / EDH](#commander--edh)
 - [Lore](#lore)
+- [Filtering by front-matter](#filtering-by-front-matter)
 - [Answering a question: which source wins](#answering-a-question-which-source-wins)
 
 ## Cards
@@ -51,6 +61,21 @@
 | Which card shows a story moment | [Art & Flavor Story Links](Art%20%26%20Flavor%20Story%20Links.md) |
 | Novels, comics and other media | [Side-Media Index](Side-Media%20Index.md) |
 | The original official story page | [Story Archive Index](Story%20Archive%20Index.md) · `data/story_index.csv` (`date,title,source,words,url`) |
+
+## Filtering by front-matter
+Every major page and every deck starts with YAML front-matter (Bot cycle 15, [#44](https://github.com/corymstover/GrokBotMTGCompanion/issues/44); `scripts/front_matter.py`). Pages carry `title, category (lore/edh/rules/cards/meta), tags, issues, generated_by, sources`. Decks carry `kind (core/plane/theme), commander, color_identity, bracket_floor, game_changers, validated`.
+
+| I want… | Command |
+|---|---|
+| All lore pages | `rg -l '^category: lore' *.md` |
+| Pages built by a script (safe to regenerate) | `rg '^generated_by: scripts/' *.md` |
+| Pages for an issue | `rg -l '^issues: .*\b39\b' *.md` |
+| Decks at bracket 4 or more | `rg -l '^bracket_floor: [45]' decks/` |
+| Decks with no Game Changers | `rg -l '^game_changers: 0$' decks/` |
+| Decks for a color identity (e.g. Sultai) | `rg -l '^color_identity: BGU$' decks/` |
+| Plane-restricted decks | `rg '^plane: ' decks/` |
+
+After running any generator, re-apply with `python3 scripts/front_matter.py`. `--check` fails if any page or deck is missing front-matter or has a stale value.
 
 ## Answering a question: which source wins
 1. **Card text and legality:** the card entry and the legality matrix (Scryfall bulk, checked by `scripts/verify_cards.py`). Re-check B&R after announcements ([#17](https://github.com/corymstover/GrokBotMTGCompanion/issues/17)).

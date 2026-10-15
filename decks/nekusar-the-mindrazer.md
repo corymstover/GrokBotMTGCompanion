@@ -1,3 +1,14 @@
+---
+title: "Deck Skeleton — Nekusar, the Mindrazer"
+category: deck
+kind: core
+commander: "Nekusar, the Mindrazer"
+color_identity: BRU
+bracket_floor: 3
+game_changers: 2
+validated: true
+---
+
 # Deck Skeleton — Nekusar, the Mindrazer
 
 > **Data-derived skeleton, not a tuned list.** Built 2026-10-15 by `scripts/build_deck_skeleton.py` from [EDHREC](https://edhrec.com/commanders/nekusar-the-mindrazer) inclusion rates (community data) and validated against Scryfall Oracle bulk (2026-10-15). Card choices = most-included cards for this commander; *any judgment about what to cut/add is Opinion*. Format per [EDH Standards](../EDH%20Standards.md).

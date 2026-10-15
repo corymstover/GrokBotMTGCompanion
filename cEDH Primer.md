@@ -1,3 +1,12 @@
+---
+title: "cEDH Primer"
+category: edh
+tags: [cedh, competitive, bracket-5]
+issues: [29]
+generated_by: scripts/build_cedh.py
+sources: [scryfall, spellbook]
+---
+
 # cEDH Primer
 
 > ## ⚠️ COMPETITIVE — Bracket 5 (cEDH)

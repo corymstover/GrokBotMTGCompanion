@@ -1,3 +1,12 @@
+---
+title: "EDH Standards"
+category: edh
+tags: [deckbuilding-rules, color-identity, brackets]
+issues: [6]
+generated_by: hand-written
+sources: [cr, wotc-articles]
+---
+
 # EDH Standards
 
 > House rules for every Commander (EDH) answer, list, and deck skeleton in this knowledge base.

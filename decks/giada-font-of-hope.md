@@ -1,3 +1,14 @@
+---
+title: "Deck Skeleton — Giada, Font of Hope"
+category: deck
+kind: core
+commander: "Giada, Font of Hope"
+color_identity: W
+bracket_floor: 3
+game_changers: 3
+validated: true
+---
+
 # Deck Skeleton — Giada, Font of Hope
 
 > **Data-derived skeleton, not a tuned list.** Built 2026-10-15 by `scripts/build_deck_skeleton.py` from [EDHREC](https://edhrec.com/commanders/giada-font-of-hope) inclusion rates (community data) and validated against Scryfall Oracle bulk (2026-10-15). Card choices = most-included cards for this commander; *any judgment about what to cut/add is Opinion*. Format per [EDH Standards](../EDH%20Standards.md).

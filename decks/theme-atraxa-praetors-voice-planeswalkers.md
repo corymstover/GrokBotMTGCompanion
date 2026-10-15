@@ -1,3 +1,14 @@
+---
+title: "Deck Skeleton — Atraxa, Praetors' Voice — Planeswalkers theme"
+category: deck
+kind: theme
+commander: "Atraxa, Praetors' Voice"
+color_identity: BGUW
+bracket_floor: 4
+game_changers: 7
+validated: true
+---
+
 # Deck Skeleton — Atraxa, Praetors' Voice — Planeswalkers theme
 
 > **Data-derived skeleton, not a tuned list.** Built 2026-10-15 by `scripts/build_deck_skeleton.py` from [EDHREC](https://edhrec.com/commanders/atraxa-praetors-voice/planeswalkers) inclusion rates (community data) and validated against Scryfall Oracle bulk (2026-10-15). Card choices = most-included cards for this commander; *any judgment about what to cut/add is Opinion*. Format per [EDH Standards](../EDH%20Standards.md).

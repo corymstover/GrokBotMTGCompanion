@@ -1,3 +1,15 @@
+---
+title: "Deck Skeleton — Aurelia, the Warleader — Ravnica-only"
+category: deck
+kind: plane
+commander: "Aurelia, the Warleader"
+color_identity: RW
+bracket_floor: 3
+game_changers: 1
+validated: true
+plane: ravnica
+---
+
 # Deck Skeleton — Aurelia, the Warleader — Ravnica-only
 
 > **Data-derived skeleton, not a tuned list.** Built 2026-10-15 by `scripts/build_deck_skeleton.py` from [EDHREC](https://edhrec.com/commanders/aurelia-the-warleader) inclusion rates (community data) and validated against Scryfall Oracle bulk (2026-10-15). Card choices = most-included cards for this commander; *any judgment about what to cut/add is Opinion*. Format per [EDH Standards](../EDH%20Standards.md).

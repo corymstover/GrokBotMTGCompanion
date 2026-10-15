@@ -1,3 +1,12 @@
+---
+title: "Characters Index"
+category: lore
+tags: [characters, status, planeswalkers]
+issues: [7, 11, 20]
+generated_by: hand-written
+sources: [wizards-story]
+---
+
 # Characters Index
 
 > **Deepened (Bot cycle 2, 2026-10-15).** One entry per character: who they are, **status as of late 2026**, key events, and cross-links to [Planes Index](Planes%20Index.md), [Conflicts & Arcs](Conflicts%20%26%20Arcs.md) and [Master Timeline](Master%20Timeline.md), with **source notes** saying what each cited page establishes. Card entries: search [Card Index](Card%20Index.md).

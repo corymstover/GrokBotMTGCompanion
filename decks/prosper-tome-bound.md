@@ -1,3 +1,14 @@
+---
+title: "Deck Skeleton — Prosper, Tome-Bound"
+category: deck
+kind: core
+commander: "Prosper, Tome-Bound"
+color_identity: BR
+bracket_floor: 3
+game_changers: 1
+validated: true
+---
+
 # Deck Skeleton — Prosper, Tome-Bound
 
 > **Data-derived skeleton, not a tuned list.** Built 2026-10-15 by `scripts/build_deck_skeleton.py` from [EDHREC](https://edhrec.com/commanders/prosper-tome-bound) inclusion rates (community data) and validated against Scryfall Oracle bulk (2026-10-15). Card choices = most-included cards for this commander; *any judgment about what to cut/add is Opinion*. Format per [EDH Standards](../EDH%20Standards.md).

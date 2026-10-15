@@ -1,3 +1,12 @@
+---
+title: "Planeswalker Dossiers"
+category: lore
+tags: [planeswalkers, dossiers, sparks]
+issues: [35]
+generated_by: hand-written
+sources: [wizards-story]
+---
+
 # Planeswalker Dossiers
 
 > **Bot cycles 7–8 · issue [#35](https://github.com/corymstover/GrokBotMTGCompanion/issues/35).** Fuller profiles for 21 major Planeswalkers (13 in cycle 7, 8 in cycle 8): identity, spark moment, personal timeline, allegiances and current status. Every line cites an official magic.wizards.com page. Quotes are verbatim; summaries paraphrase the cited page.

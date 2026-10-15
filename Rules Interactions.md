@@ -1,3 +1,12 @@
+---
+title: "Rules Interactions"
+category: rules
+tags: [rules, interactions, rulings]
+issues: [9]
+generated_by: scripts/build_rules_interactions.py
+sources: [cr, scryfall]
+---
+
 # Rules Interactions
 
 > **Source of truth:** Magic: The Gathering **Comprehensive Rules, effective 2026-09-25** ([official text](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt), Wizards of the Coast). Rule text below is **quoted verbatim** (long rules trimmed with "…"); card rulings are **official WotC rulings** from the Scryfall rulings bulk (2026-10-15), quoted verbatim and linked to the card entries that carry them. Plain-language summaries are labeled **Summary** and are paraphrase, not rules text. Started Bot cycle 3, extended Bot cycles 4–5 (issue [#9](https://github.com/corymstover/GrokBotMTGCompanion/issues/9)).

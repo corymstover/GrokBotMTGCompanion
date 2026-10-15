@@ -1,3 +1,12 @@
+---
+title: "EDH Mulligans"
+category: edh
+tags: [mulligan, opening-hand]
+issues: [31]
+generated_by: scripts/build_mulligans.py
+sources: [cr, scryfall]
+---
+
 # EDH Mulligans
 
 > **Auto-generated** by `scripts/build_mulligans.py` (Bot cycle 6, issue [#31](https://github.com/corymstover/GrokBotMTGCompanion/issues/31)) from Scryfall Oracle bulk 2026-10-15. Do not hand-edit.

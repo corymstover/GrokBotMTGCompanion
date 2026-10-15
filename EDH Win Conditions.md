@@ -1,3 +1,12 @@
+---
+title: "EDH Win Conditions"
+category: edh
+tags: [win-conditions, combos]
+issues: [27]
+generated_by: scripts/build_wincons.py
+sources: [scryfall, spellbook]
+---
+
 # EDH Win Conditions
 
 > **Auto-generated** by `scripts/build_wincons.py` (Bot cycle 6, issue [#27](https://github.com/corymstover/GrokBotMTGCompanion/issues/27)) from Scryfall Oracle bulk 2026-10-15. Do not hand-edit.

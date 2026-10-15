@@ -1,3 +1,12 @@
+---
+title: "EDH Pairings — Partner, Background, Friends forever & Doctor's companion"
+category: edh
+tags: [partner, background, pairings]
+issues: [32]
+generated_by: scripts/build_pairings.py
+sources: [cr, scryfall]
+---
+
 # EDH Pairings — Partner, Background, Friends forever & Doctor's companion
 
 > **Auto-generated** by `scripts/build_pairings.py` (Bot cycle 6, issue [#32](https://github.com/corymstover/GrokBotMTGCompanion/issues/32)) from Scryfall Oracle bulk 2026-10-15. Do not hand-edit.
