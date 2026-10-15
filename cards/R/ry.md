@@ -113,5 +113,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6065 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 70 decks; highest synergy [Dragon Tempest](../../cards/D/dra.md#dragon-tempest) (+46%), [Dragon's Hoard](../../cards/D/dra.md#dragons-hoard) (+42%), [Atsushi, the Blazing Sky](../../cards/A/at.md#atsushi-the-blazing-sky) (+41%) · EDHREC: in 25,681 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (6.1% of its decks), [Miirym, Sentinel Wyrm](../../cards/M/mii.md#miirym-sentinel-wyrm) (10.5% of its decks), [Rivaz of the Claw](../../cards/R/ri.md#rivaz-of-the-claw) (28.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#ryusei-the-falling-star)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/806/ryusei-the-falling-star) · oracle_id `5e99ba3b-dc2b-4c3c-84ce-228d4772cfee` · printing: CLB #806 (2022-06-10) · [rulings](https://api.scryfall.com/cards/68d57ab8-fbe0-4f01-b7f7-2a5cccd2d13a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

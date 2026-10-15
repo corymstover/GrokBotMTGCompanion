@@ -716,6 +716,8 @@ schema: 2
 - **Keywords:** Surveil, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5625 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 194 decks; highest synergy [Assassin Initiate](../../cards/A/as.md#assassin-initiate) (+89%), [Royal Assassin](../../cards/R/ro.md#royal-assassin) (+86%), [Merciless Harlequin](../../cards/M/me.md#merciless-harlequin) (+77%) · EDHREC: in 28,006 decks; most often under [Ezio Auditore da Firenze](../../cards/E/ez.md#ezio-auditore-da-firenze) (76.4% of its decks), [Altaïr Ibn-La'Ahad](../../cards/A/al.md#altaïr-ibn-laahad) (89.5% of its decks), [Etrata, Deadly Fugitive](../../cards/E/et.md#etrata-deadly-fugitive) (64.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#desmond-miles)
 - **Source flags:** [Scryfall](https://scryfall.com/card/acr/24/desmond-miles) · oracle_id `654d84bb-f801-4d03-898c-78952f1c5a73` · printing: ACR #24 (2024-07-05) · [rulings](https://api.scryfall.com/cards/c9523cd1-c3cf-4745-af09-77c1a83ac86f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

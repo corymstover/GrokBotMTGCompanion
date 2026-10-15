@@ -60,6 +60,8 @@ schema: 2
   - *2023-06-16* — Gwaihir, Greatest of the Eagles's ability looks at how much life you've gained in the turn, even if it wasn't on the battlefield when you gained life. It doesn't care if you also lost life, even if you lost more life than you gained.
   - *2023-06-16* — If you haven't gained 3 or more life by the time an end step begins, Gwaihir, Greatest of the Eagles's ability won't trigger at all.
   - *2023-06-16* — You create just one Bird token, no matter how much life you've gained past 3 life.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 233 decks; highest synergy [The Gaffer](../../cards/T/theg.md#the-gaffer) (+62%), [Griffin Aerie](../../cards/G/gri.md#griffin-aerie) (+58%), [Shattered Angel](../../cards/S/sha.md#shattered-angel) (+57%) · EDHREC: in 26,115 decks; most often under [Frodo, Adventurous Hobbit // Sam, Loyal Attendant](../../cards/F/fr.md#frodo-adventurous-hobbit) (45.3% of its decks), [Choco, Seeker of Paradise](../../cards/C/cho.md#choco-seeker-of-paradise) (6.0% of its decks), [Samwise Gamgee](../../cards/S/sam.md#samwise-gamgee) (27.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#gwaihir-greatest-of-the-eagles)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/15/gwaihir-greatest-of-the-eagles) · oracle_id `77572e70-4b8b-46ae-8c8d-f71b7dd456e0` · printing: LTC #15 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -77,6 +79,8 @@ schema: 2
 - **Keywords:** Flying, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6694 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 438 decks; highest synergy [Empyrean Eagle](../../cards/E/em.md#empyrean-eagle) (+74%), [Warden of Evos Isle](../../cards/W/war.md#warden-of-evos-isle) (+69%), [Watcher of the Spheres](../../cards/W/wat.md#watcher-of-the-spheres) (+66%) · EDHREC: in 22,390 decks; most often under [Choco, Seeker of Paradise](../../cards/C/cho.md#choco-seeker-of-paradise) (51.1% of its decks), [Kastral, the Windcrested](../../cards/K/ka.md#kastral-the-windcrested) (71.0% of its decks), [Derevi, Empyrial Tactician](../../cards/D/der.md#derevi-empyrial-tactician) (10.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/210/gwaihir-the-windlord) · oracle_id `b967fbb8-ddc8-485b-bd18-cbf3ef6b1bf8` · printing: LTR #210 (2023-06-23) · [rulings](https://api.scryfall.com/cards/1a42c951-1146-4f49-a690-7d385962b191/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gwendlyn Di Corci

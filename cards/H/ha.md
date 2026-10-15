@@ -978,7 +978,9 @@ schema: 2
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6531 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/H.md#haldir-lórien-lieutenant)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Haldir, Lórien Lieutenant + Devoted Druid](https://commanderspellbook.com/combo/4762-6315/) (Infinite green mana, Infinite power and toughness for certain creatures until end of turn) · EDHREC as commander: 205 decks; highest synergy [Elvish Archdruid](../../cards/E/el.md#elvish-archdruid) (+69%), [Priest of Titania](../../cards/P/pr.md#priest-of-titania) (+60%), [Marwyn, the Nurturer](../../cards/M/mar.md#marwyn-the-nurturer) (+50%) · EDHREC: in 23,342 decks; most often under [Galadriel, Light of Valinor](../../cards/G/ga.md#galadriel-light-of-valinor) (28.6% of its decks), [Lathril, Blade of the Elves](../../cards/L/la.md#lathril-blade-of-the-elves) (6.6% of its decks), [Galadriel, Elven-Queen](../../cards/G/ga.md#galadriel-elven-queen) (84.3% of its decks) — *Guidance (Oracle pattern)* — packages: [+1/+1 counters: Counter payoffs](../../EDH%20Packages.md#11-counters-counter-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/H.md#haldir-lórien-lieutenant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/39/haldir-l%C3%B3rien-lieutenant) · oracle_id `653217b1-1e92-49a7-81d9-fc4d70d4f27f` · printing: LTC #39 (2023-06-23) · [rulings](https://api.scryfall.com/cards/440e5796-9264-4649-bf2f-58826dd0352c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Halfdane
@@ -2186,6 +2188,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6415 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2024-03-08* — A creature that's both a Zombie and a Mutant will get +X/+X only once from Hancock's first ability.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 17 combos; most popular [Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Viscera Seer + Hancock, Ghoulish Mayor](https://commanderspellbook.com/combo/2292-6972-7510/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 324 decks; highest synergy [Astarion's Thirst](../../cards/A/as.md#astarions-thirst) (+74%), [Lord of the Accursed](../../cards/L/lo.md#lord-of-the-accursed) (+67%), [Feral Ghoul](../../cards/F/fe.md#feral-ghoul) (+65%) · EDHREC: in 23,782 decks; most often under [The Wise Mothman](../../cards/T/thew.md#the-wise-mothman) (31.7% of its decks), [Jenova, Ancient Calamity](../../cards/J/je.md#jenova-ancient-calamity) (54.2% of its decks), [Yawgmoth, Thran Physician](../../cards/Y/ya.md#yawgmoth-thran-physician) (28.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 rules) → [reverse index](../../references/H.md#hancock-ghoulish-mayor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/pip/45/hancock-ghoulish-mayor) · oracle_id `adf9aed9-dd63-48da-b799-ea94839fc22a` · printing: PIP #45 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2502,6 +2506,9 @@ schema: 2
   > *"I never thought I'd spend my life fighting. I'm a maker, not a destroyer."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5826 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 8 combos; most popular [Second Chance + Hanna, Ship's Navigator](https://commanderspellbook.com/combo/395-1530/) (Infinite turns, Lock) · EDHREC as commander: 669 decks; highest synergy [Seal of Cleansing](../../cards/S/sea.md#seal-of-cleansing) (+40%), [Mirrormade](../../cards/M/mir.md#mirrormade) (+27%), [Sphere of Safety](../../cards/S/sph.md#sphere-of-safety) (+26%) · EDHREC: in 26,261 decks; most often under [Shorikai, Genesis Engine](../../cards/S/sho.md#shorikai-genesis-engine) (16.7% of its decks), [Zur the Enchanter](../../cards/Z/zu.md#zur-the-enchanter) (16.0% of its decks), [Kotori, Pilot Prodigy](../../cards/K/ko.md#kotori-pilot-prodigy) (43.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Recursion to hand](../../EDH%20Packages.md#graveyard-recursion-to-hand) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/H.md#hanna-ships-navigator)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/340/hanna-ships-navigator) · oracle_id `3b008c71-e2a0-4f56-83d3-655c5dd58e0e` · printing: CMM #340 (2023-08-04) · [rulings](https://api.scryfall.com/cards/65b41982-6e79-4e04-a0f3-d985da92e8c1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hans Eriksson

@@ -208,7 +208,9 @@ schema: 2
 - **Rulings** (2):
   - *2020-04-17* — If a spell or ability causes you to put cards into your hand without specifically using the word "draw," it's not a card drawn.
   - *2020-04-17* — Shabraz's middle ability has you gain 1 life even if you can't put a +1/+1 counter on Shabraz, most likely because Shabraz has left the battlefield.
-- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#shabraz-the-skyshark)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Drogskol Reaver + Shabraz, the Skyshark](https://commanderspellbook.com/combo/444-2275/) (Infinite card draw, Infinite draw triggers) · EDHREC as commander: 263 decks; highest synergy [Chasm Skulker](../../cards/C/cha.md#chasm-skulker) (+49%), [Teferi's Ageless Insight](../../cards/T/te.md#teferis-ageless-insight) (+46%), [Wizard Class](../../cards/W/wi.md#wizard-class) (+41%) · EDHREC: in 23,136 decks; most often under [Hope Estheim](../../cards/H/ho.md#hope-estheim) (15.2% of its decks), [Kwain, Itinerant Meddler](../../cards/K/kw.md#kwain-itinerant-meddler) (28.7% of its decks), [Gavi, Nest Warden](../../cards/G/ga.md#gavi-nest-warden) (42.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (2 edh guides) → [reverse index](../../references/S.md#shabraz-the-skyshark)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c20/14/shabraz-the-skyshark) · oracle_id `7599fe9a-b6a5-491b-a308-aef3bf1e9daf` · printing: C20 #14 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shacklegeist
@@ -681,6 +683,8 @@ schema: 2
 - **Rulings** (2):
   - *2025-06-06* — If a permanent has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
   - *2025-06-06* — Use the mana value of the sacrificed permanent as it last existed on the battlefield to determine how much life each opponent loses.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 834 decks; highest synergy [Interceptor, Shadow's Hound](../../cards/I/int.md#interceptor-shadows-hound) (+78%), [Shadow of Mortality](../../cards/S/sha.md#shadow-of-mortality) (+74%), [Access Tunnel](../../cards/A/ac.md#access-tunnel) (+60%) · EDHREC: in 27,260 decks; most often under [Terra, Herald of Hope](../../cards/T/te.md#terra-herald-of-hope) (53.2% of its decks), [Altaïr Ibn-La'Ahad](../../cards/A/al.md#altaïr-ibn-laahad) (58.9% of its decks), [Celes, Rune Knight](../../cards/C/ce.md#celes-rune-knight) (10.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/50/shadow-mysterious-assassin) · oracle_id `13ca49a2-8a78-4be4-976a-b684086864bb` · printing: FIC #50 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shadow of Doubt
@@ -1017,6 +1021,9 @@ schema: 2
 - **Keywords:** Chaos Control, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5757 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 15 combos; most popular [Shadow the Hedgehog + Workhorse + Agatha's Soul Cauldron + Pack Rat](https://commanderspellbook.com/combo/4613-4774-5296-6713/) (Infinite self-discard triggers, Near-infinite creature ETB) · EDHREC as commander: 12,171 decks; highest synergy [Great Furnace](../../cards/G/gre.md#great-furnace) (+72%), [Vault of Whispers](../../cards/V/va.md#vault-of-whispers) (+71%), [Knuckles the Echidna](../../cards/K/kn.md#knuckles-the-echidna) (+69%) · EDHREC: in 15,312 decks; most often under [Dr. Eggman](../../cards/D/dre.md#dr-eggman) (14.9% of its decks), [Ognis, the Dragon's Lash](../../cards/O/og.md#ognis-the-dragons-lash) (35.0% of its decks), [Vihaan, Goldwaker](../../cards/V/vi.md#vihaan-goldwaker) (19.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#shadow-the-hedgehog)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/2086/shadow-the-hedgehog) · oracle_id `0c12abcc-6ada-43b3-8750-9cb6ce2b0785` · printing: SLD #2086 (2025-07-14) · [rulings](https://api.scryfall.com/cards/6c184959-a1e5-40d7-8faa-99310c4156ef/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shadow Urchin
@@ -2953,6 +2960,8 @@ schema: 2
   - *2024-03-08* — If the copied creature is copying something else, then the token enters the battlefield as whatever that creature copied, with the noted exceptions.
   - *2024-03-08* — Shaun’s last ability will exile all Synth tokens you control, not just Synth tokens created by its first ability.
   - *2024-03-08* — You declare which player, planeswalker, or battle the token is attacking as you put it onto the battlefield. It doesn’t have to be attacking the same player, planeswalker, or battle that Shaun is attacking.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 5 combos; most popular [Shaun, Father of Synths + Aurelia, the Warleader](https://commanderspellbook.com/combo/4364-5404/) (Infinite combat phases, Infinite creature tokens with haste) · EDHREC as commander: 865 decks; highest synergy [Brudiclad, Telchor Engineer](../../cards/B/br.md#brudiclad-telchor-engineer) (+71%), [Etali, Primal Storm](../../cards/E/et.md#etali-primal-storm) (+60%), [K-9, Mark I](../../cards/K/k9.md#k-9-mark-i) (+58%) · EDHREC: in 21,358 decks; most often under [Obeka, Splitter of Seconds](../../cards/O/ob.md#obeka-splitter-of-seconds) (21.1% of its decks), [Liberty Prime, Recharged](../../cards/L/li.md#liberty-prime-recharged) (43.6% of its decks), [Satya, Aetherflux Genius](../../cards/S/sat.md#satya-aetherflux-genius) (14.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/pip/119/shaun-father-of-synths) · oracle_id `0bd11d6c-b707-4b37-b49c-a3274b2a5a81` · printing: PIP #119 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shaun & Rebecca, Agents

@@ -757,6 +757,8 @@ schema: 2
 - **Rulings** (2):
   - *2024-01-12* — Sacrificing a creature that's both black and green will make both abilities trigger. You may put them on the stack in whichever order you want.
   - *2024-01-12* — Savra itself doesn't let you sacrifice creatures. Its abilities trigger whenever you sacrifice a black or green creature because some other spell, ability, or cost instructed you to do so.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 3 combos; most popular [Chatterfang, Squirrel General + Warren Soultrader + Savra, Queen of the Golgari](https://commanderspellbook.com/combo/3000-3124-5670/) (Infinite artifact ETB, Infinite artifact LTB) · EDHREC as commander: 5,156 decks; highest synergy [Creakwood Liege](../../cards/C/cr.md#creakwood-liege) (+54%), [Dina, Soul Steeper](../../cards/D/di.md#dina-soul-steeper) (+54%), [Beledros Witherbloom](../../cards/B/be.md#beledros-witherbloom) (+48%) · EDHREC: in 20,670 decks; most often under [Dina, Essence Brewer](../../cards/D/di.md#dina-essence-brewer) (25.4% of its decks), [Meren of Clan Nel Toth](../../cards/M/me.md#meren-of-clan-nel-toth) (9.9% of its decks), [Beledros Witherbloom](../../cards/B/be.md#beledros-witherbloom) (43.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/218/savra-queen-of-the-golgari) · oracle_id `641db975-cf94-44c6-a391-f540a952e0d8` · printing: RVR #218 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Savvy Hunter

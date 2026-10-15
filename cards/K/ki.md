@@ -238,6 +238,8 @@ schema: 2
   > Whenever Kibo attacks, defending player sacrifices an artifact of their choice.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6783 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 13 combos; most popular [Kibo, Uktabi Prince + Battered Golem + Staff of Domination + Multani's Harmony](https://commanderspellbook.com/combo/1037-2625-2645-3459/) (Infinite card draw, Infinite draw triggers) · EDHREC as commander: 15,032 decks; highest synergy [Viridian Revel](../../cards/V/vi.md#viridian-revel) (+82%), [Gorilla Shaman](../../cards/G/gor.md#gorilla-shaman) (+79%), [Silverback Elder](../../cards/S/si.md#silverback-elder) (+78%) · EDHREC: in 7,397 decks; most often under [Gimbal, Gremlin Prodigy](../../cards/G/gi.md#gimbal-gremlin-prodigy) (36.6% of its decks), [Roxanne, Starfall Savant](../../cards/R/ro.md#roxanne-starfall-savant) (8.2% of its decks), [Kynaios and Tiro of Meletis](../../cards/K/ky.md#kynaios-and-tiro-of-meletis) (3.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/2401/kibo-uktabi-prince) · oracle_id `0b9be4fa-5238-4afd-a9f6-f9022e67e5ab` · printing: SLD #2401 (2026-08-31) · [rulings](https://api.scryfall.com/cards/dcf7a304-4a45-42ed-9b1e-d36ae1963b66/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kick in the Door
@@ -381,7 +383,9 @@ schema: 2
   - *2026-06-29* — If your third legendary, Saga, or artifact permanent enters the battlefield and then one of those permanents leaves the battlefield immediately afterwards (most likely due to the "legend rule" or due to being a creature with 0 toughness), you get an enduring story before it leaves the battlefield.
   - *2026-06-29* — Once you have an enduring story, you have it for the rest of the game, even if you lose control of some or all of your storied permanents. The enduring story designation is on the player and can't be removed by any effect.
   - *2026-06-29* — Storied isn't a triggered ability and doesn't use the stack. Players can respond to a spell that will give you your third legendary, Saga, and/or artifact permanent, but they can't respond to you getting an enduring story once you control that third permanent.
-- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/K.md#kíli-the-resourceful)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 84 decks; highest synergy [Sram, Senior Edificer](../../cards/S/sr.md#sram-senior-edificer) (+75%), [Colossus Hammer](../../cards/C/col.md#colossus-hammer) (+71%), [Puresteel Paladin](../../cards/P/pu.md#puresteel-paladin) (+65%) · EDHREC: in 22,978 decks; most often under [Thorin, King of Durin's Folk](../../cards/T/tho.md#thorin-king-of-durins-folk) (90.0% of its decks), [Dáin of the Ancient Halls](../../cards/D/da.md#dáin-of-the-ancient-halls) (86.8% of its decks), [Dwalin, Weaponmaster](../../cards/D/dw.md#dwalin-weaponmaster) (81.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 rules) → [reverse index](../../references/K.md#kíli-the-resourceful)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/17/k%C3%ADli-the-resourceful) · oracle_id `840de40b-590e-4bf0-8d16-22b0eff61202` · printing: HOB #17 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kill! Destroy!
@@ -1406,7 +1410,9 @@ schema: 2
 - **Keywords:** Transform, Double strike, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5576 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/K.md#king-tchalla--black-panther-hope-enduring)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,243 decks; highest synergy [Faerie Mastermind](../../cards/F/fa.md#faerie-mastermind) (+62%), [Howling Mine](../../cards/H/ho.md#howling-mine) (+47%), [Tataru Taru](../../cards/T/ta.md#tataru-taru) (+44%) · EDHREC: in 26,633 decks; most often under [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (47.8% of its decks), [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (42.9% of its decks), [Bard, King of Dale](../../cards/B/bar.md#bard-king-of-dale) (32.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/K.md#king-tchalla--black-panther-hope-enduring)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/219/king-tchalla-black-panther-hope-enduring) · oracle_id `fe00278d-4385-4e3f-919c-12a794fd86f5` · printing: MSH #219 (2026-06-26) · [rulings](https://api.scryfall.com/cards/add7d3ce-aa58-4da0-8c2a-cfd01c3a8975/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kinjalli's Caller
@@ -1928,6 +1934,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5609 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 430 decks; highest synergy [Guile](../../cards/G/gu.md#guile) (+51%), [Sower of Temptation](../../cards/S/so.md#sower-of-temptation) (+43%), [Bribery](../../cards/B/br.md#bribery) (+36%) · EDHREC: in 27,912 decks; most often under [Millicent, Restless Revenant](../../cards/M/mil.md#millicent-restless-revenant) (48.0% of its decks), [Braids, Conjurer Adept](../../cards/B/br.md#braids-conjurer-adept) (35.3% of its decks), [Aesi, Tyrant of Gyre Strait](../../cards/A/ae.md#aesi-tyrant-of-gyre-strait) (5.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/154/kira-great-glass-spinner) · oracle_id `60808c8f-5257-451b-a9b6-389ba51598d5` · printing: JMP #154 (2020-07-17) · [rulings](https://api.scryfall.com/cards/437ded6e-4e53-49fa-a5ca-fd76b9165a47/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kird Ape

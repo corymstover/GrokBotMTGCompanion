@@ -614,6 +614,9 @@ schema: 2
   - *2025-06-06* — Alternative costs, additional costs, and cost reductions don't change a spell's mana value. Its mana value is still based on its mana cost.
   - *2025-06-06* — For spells on the stack with {X} in their mana costs, use the value chosen for X to determine the spell's mana value.
   - *2025-06-06* — G'raha Tia's last ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 4,981 decks; highest synergy [Champions from Beyond](../../cards/C/cha.md#champions-from-beyond) (+57%), [Envoy of the Ancestors](../../cards/E/en.md#envoy-of-the-ancestors) (+47%), [Caretaker's Talent](../../cards/C/car.md#caretakers-talent) (+44%) · EDHREC: in 21,704 decks; most often under [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (35.5% of its decks), [The Wandering Minstrel](../../cards/T/thew.md#the-wandering-minstrel) (2.6% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.9% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/G.md#graha-tia-scion-reborn)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/3/graha-tia-scion-reborn) · oracle_id `f558c758-8f12-45f9-8683-eee33ba1fb0d` · printing: FIC #3 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grakk the Pacifist
@@ -902,7 +905,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6311 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-10-02* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#gran-gran)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 97 combos; most popular [Sensei's Divining Top + The Reality Chip + Gran-Gran](https://commanderspellbook.com/combo/5078-5243-7010/) (Infinite card draw, Infinite draw triggers) · EDHREC as commander: 814 decks; highest synergy [It'll Quench Ya!](../../cards/I/it.md#itll-quench-ya) (+69%), [Octopus Form](../../cards/O/oc.md#octopus-form) (+68%), [Accumulate Wisdom](../../cards/A/ac.md#accumulate-wisdom) (+65%) · EDHREC: in 23,792 decks; most often under [Iroh, Grand Lotus](../../cards/I/ir.md#iroh-grand-lotus) (58.4% of its decks), [Katara, the Fearless](../../cards/K/ka.md#katara-the-fearless) (20.4% of its decks), [Sokka, Tenacious Tactician](../../cards/S/so.md#sokka-tenacious-tactician) (15.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Ramp: Cost reducers](../../EDH%20Packages.md#ramp-cost-reducers) · [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/G.md#gran-gran)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/54/gran-gran) · oracle_id `0259a9ed-0558-4183-b737-871ed5573c32` · printing: TLA #54 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Granite Gargoyle

@@ -136,6 +136,8 @@ schema: 2
 - **Rulings** (2):
   - *2021-09-24* — If Kyler enters the battlefield at the same time as other Humans you control, Kyler's first ability will trigger once for each of those Humans.
   - *2021-09-24* — Kyler's second ability counts all counters, not just +1/+1 counters.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 2 combos; most popular [Kyler, Sigardian Emissary + Presence of Gond + Devoted Druid + Maskwood Nexus](https://commanderspellbook.com/combo/643-1424-1791-4762/) (Infinite creature tokens, Infinite creature ETB) · EDHREC as commander: 5,507 decks; highest synergy [Heronblade Elite](../../cards/H/he.md#heronblade-elite) (+79%), [Katilda, Dawnhart Prime](../../cards/K/ka.md#katilda-dawnhart-prime) (+69%), [Torens, Fist of the Angels](../../cards/T/to.md#torens-fist-of-the-angels) (+65%) · EDHREC: in 17,741 decks; most often under [Aragorn, the Uniter](../../cards/A/ara.md#aragorn-the-uniter) (19.8% of its decks), [Katilda, Dawnhart Prime](../../cards/K/ka.md#katilda-dawnhart-prime) (65.3% of its decks), [Sigarda, Font of Blessings](../../cards/S/si.md#sigarda-font-of-blessings) (19.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mic/4/kyler-sigardian-emissary) · oracle_id `726cd041-5d0b-436c-bced-9335f56c0b0d` · printing: MIC #4 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kylox's Voltstrider
@@ -185,7 +187,9 @@ schema: 2
 - **Rulings** (2):
   - *2016-11-08* — If the card you draw is a land card, you may choose it to put onto the battlefield.
   - *2016-11-08* — Starting with you and proceeding in turn order, each player chooses a land card from their hand or chooses not to choose one, but doesn’t reveal any chosen lands yet. Once all players have made this choice, all chosen lands are revealed and enter the battlefield simultaneously.
-- **Referenced in:** 3 pages (1 decks · 2 edh guides) → [reverse index](../../references/K.md#kynaios-and-tiro-of-meletis)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Kynaios and Tiro of Meletis](../../decks/kynaios-and-tiro-of-meletis.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 16,545 decks; highest synergy [Rites of Flourishing](../../cards/R/ri.md#rites-of-flourishing) (+53%), [Howling Mine](../../cards/H/ho.md#howling-mine) (+43%), [Tempt with Discovery](../../cards/T/te.md#tempt-with-discovery) (+42%) · EDHREC: in 6,529 decks; most often under [Kenrith, the Returned King](../../cards/K/ke.md#kenrith-the-returned-king) (7.4% of its decks), [Aragorn, the Uniter](../../cards/A/ara.md#aragorn-the-uniter) (3.3% of its decks), [Go-Shintai of Life's Origin](../../cards/G/gos.md#go-shintai-of-lifes-origin) (2.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 4 pages (1 decks · 3 edh guides) → [reverse index](../../references/K.md#kynaios-and-tiro-of-meletis)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c16/36/kynaios-and-tiro-of-meletis) · oracle_id `53ee4254-fef7-49ec-aafc-0320987764e6` · printing: C16 #36 (2016-11-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kyodai, Soul of Kamigawa

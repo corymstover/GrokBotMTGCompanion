@@ -298,6 +298,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5287 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-06-06* — The effect of Zell Dincht's first ability is cumulative with similar effects. For example, if you control both Zell Dincht and Exploration (an enchantment with "You may play an additional land on each of your turns"), you'll be able to play three lands during each of your turns.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,211 decks; highest synergy [Sabotender](../../cards/S/sab.md#sabotender) (+84%), [Valakut Exploration](../../cards/V/va.md#valakut-exploration) (+81%), [Tunneling Geopede](../../cards/T/tu.md#tunneling-geopede) (+79%) · EDHREC: in 29,053 decks; most often under [The Wandering Minstrel](../../cards/T/thew.md#the-wandering-minstrel) (27.3% of its decks), [Tannuk, Memorial Ensign](../../cards/T/ta.md#tannuk-memorial-ensign) (49.8% of its decks), [Omnath, Locus of Creation](../../cards/O/om.md#omnath-locus-of-creation) (7.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Lands / landfall: Extra land drops](../../EDH%20Packages.md#lands--landfall-extra-land-drops) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/Z.md#zell-dincht)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/170/zell-dincht) · oracle_id `f207ce73-e4cd-4dfc-b3b9-5704f5148959` · printing: FIN #170 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zellix, Sanity Flayer

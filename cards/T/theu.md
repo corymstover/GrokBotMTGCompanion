@@ -82,7 +82,9 @@ schema: 2
 - **Keywords:** I LOVE Squirrels!
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6096 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-unbeatable-squirrel-girl)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [The Unbeatable Squirrel Girl + Cryptolith Rite + Concordant Crossroads](https://commanderspellbook.com/combo/1322-4289-7686/) (Infinite creature ETB, Infinite colored mana) · EDHREC as commander: 8,296 decks; highest synergy [Squirrel Sovereign](../../cards/S/sq.md#squirrel-sovereign) (+78%), [Chitterspitter](../../cards/C/chi.md#chitterspitter) (+75%), [Honored Dreyleader](../../cards/H/ho.md#honored-dreyleader) (+74%) · EDHREC: in 17,584 decks; most often under [Chatterfang, Squirrel General](../../cards/C/cha.md#chatterfang-squirrel-general) (62.3% of its decks), [Hazel of the Rootbloom](../../cards/H/ha.md#hazel-of-the-rootbloom) (60.9% of its decks), [Camellia, the Seedmiser](../../cards/C/cam.md#camellia-the-seedmiser) (57.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/T.md#the-unbeatable-squirrel-girl)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/193/the-unbeatable-squirrel-girl) · oracle_id `80312910-5d53-44f1-9982-e46dc7532abb` · printing: MSH #193 (2026-06-26) · [rulings](https://api.scryfall.com/cards/d8b94ebb-0b3a-4e68-8c0c-3a61ac32f3ef/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Underworld Cookbook

@@ -317,6 +317,8 @@ schema: 2
   > Whenever you cast a creature spell, put a +1/+1 counter on Eshki. If that spell's power is 4 or greater, draw a card. If that spell's power is 6 or greater, Eshki deals damage equal to Eshki's power to each opponent.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5301 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 14,942 decks; highest synergy [Goreclaw, Terror of Qal Sisma](../../cards/G/gor.md#goreclaw-terror-of-qal-sisma) (+69%), [Temur Battlecrier](../../cards/T/te.md#temur-battlecrier) (+64%), [Ghalta, Primal Hunger](../../cards/G/gh.md#ghalta-primal-hunger) (+58%) · EDHREC: in 15,199 decks; most often under [Ureni of the Unwritten](../../cards/U/ur.md#ureni-of-the-unwritten) (33.1% of its decks), [Animar, Soul of Elements](../../cards/A/an.md#animar-soul-of-elements) (8.1% of its decks), [Miirym, Sentinel Wyrm](../../cards/M/mii.md#miirym-sentinel-wyrm) (6.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/3/eshki-temurs-roar) · oracle_id `1b162dd3-3be6-406d-bf86-f7cc9eff098d` · printing: TDC #3 (2025-04-11) · [rulings](https://api.scryfall.com/cards/ff9aa863-8773-452d-946c-ae334c632e11/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Esika, God of the Tree // The Prismatic Bridge
@@ -413,6 +415,8 @@ schema: 2
   - *2021-04-16* — If you create one or more tokens during your turn, and then Esix comes under your control, the replacement effect won't apply to any tokens you create the rest of the turn. You'll have to wait until your next turn.
   - *2021-04-16* — This effect applies before anything that modifies how those tokens enter the battlefield.
   - *2021-04-16* — This effect can apply to any token, not just creature tokens. For example, you could replace creating a Treasure token with creating a copy of the chosen creature.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 54 combos; most popular [Esix, Fractal Bloom + Biovisionary + Avenger of Zendikar](https://commanderspellbook.com/combo/430-2567-2743/) (Win the game) · EDHREC as commander: 3,854 decks; highest synergy [Adrix and Nev, Twincasters](../../cards/A/ad.md#adrix-and-nev-twincasters) (+71%), [Hornet Queen](../../cards/H/ho.md#hornet-queen) (+67%), [Avenger of Zendikar](../../cards/A/av.md#avenger-of-zendikar) (+64%) · EDHREC: in 23,146 decks; most often under [Adrix and Nev, Twincasters](../../cards/A/ad.md#adrix-and-nev-twincasters) (55.4% of its decks), [Morska, Undersea Sleuth](../../cards/M/mor.md#morska-undersea-sleuth) (34.4% of its decks), [Koma, Cosmos Serpent](../../cards/K/ko.md#koma-cosmos-serpent) (23.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/210/esix-fractal-bloom) · oracle_id `9d22960b-babc-4cf3-b228-d32e13bc6014` · printing: MKC #210 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Esoteric Duplicator

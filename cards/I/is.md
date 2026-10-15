@@ -216,7 +216,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6899 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2016-07-13* — The number of Spiders you control is checked only as Ishkanah's last ability resolves. The ability will count Ishkanah itself if it's still on the battlefield.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#ishkanah-grafwidow)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 2 combos; most popular [Nim Deathmantle + Ashnod's Altar + Ishkanah, Grafwidow](https://commanderspellbook.com/combo/1442-2034-5003/) (Infinite death triggers, Infinite colorless mana) · EDHREC as commander: 849 decks; highest synergy [Arasta of the Endless Web](../../cards/A/ara.md#arasta-of-the-endless-web) (+79%), [Rotwidow Pack](../../cards/R/ro.md#rotwidow-pack) (+79%), [Spider Spawning](../../cards/S/spi.md#spider-spawning) (+78%) · EDHREC: in 20,989 decks; most often under [Shelob, Child of Ungoliant](../../cards/S/she.md#shelob-child-of-ungoliant) (81.5% of its decks), [Winter, Cynical Opportunist](../../cards/W/wi.md#winter-cynical-opportunist) (40.2% of its decks), [Cosmic Spider-Man](../../cards/C/cos.md#cosmic-spider-man) (16.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/I.md#ishkanah-grafwidow)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/187/ishkanah-grafwidow) · oracle_id `6f4861f4-1b3b-4dbc-b55b-196075d0a693` · printing: DSC #187 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Isildur's Fateful Strike

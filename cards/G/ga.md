@@ -673,6 +673,8 @@ schema: 2
   > • Each player sacrifices an enchantment of their choice.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5766 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 53 decks; highest synergy [Zodiark, Umbral God](../../cards/Z/zo.md#zodiark-umbral-god) (+46%), [Plaguecrafter](../../cards/P/pl.md#plaguecrafter) (+44%), [Accursed Marauder](../../cards/A/ac.md#accursed-marauder) (+40%) · EDHREC: in 27,348 decks; most often under [Sephiroth, Fabled SOLDIER](../../cards/S/sep.md#sephiroth-fabled-soldier--sephiroth-one-winged-angel) (24.5% of its decks), [Terra, Herald of Hope](../../cards/T/te.md#terra-herald-of-hope) (16.5% of its decks), [Vincent Valentine](../../cards/V/vi.md#vincent-valentine--galian-beast) (43.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/102/gaius-van-baelsar) · oracle_id `86d2a45a-e452-4241-8ab4-28a2bb808ffa` · printing: FIN #102 (2025-06-13) · [rulings](https://api.scryfall.com/cards/a4ee8ba5-6a79-4652-b2a4-a3dae804bc28/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Galactic Wayfarer
@@ -907,6 +909,8 @@ schema: 2
 - **Keywords:** Flying, Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5622 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 24 combos; most popular [Galazeth Prismari + Deadeye Navigator + Goldspan Dragon](https://commanderspellbook.com/combo/773-1409-3809/) (Infinite death triggers, Infinite creature ETB) · EDHREC as commander: 4,846 decks; highest synergy [Academy Manufactor](../../cards/A/ac.md#academy-manufactor) (+60%), [Trail of Evidence](../../cards/T/tra.md#trail-of-evidence) (+59%), [Unexpected Windfall](../../cards/U/un.md#unexpected-windfall) (+51%) · EDHREC: in 23,441 decks; most often under [Myra the Magnificent](../../cards/M/my.md#myra-the-magnificent) (66.7% of its decks), [Rootha, Mastering the Moment](../../cards/R/ro.md#rootha-mastering-the-moment) (28.0% of its decks), [Prismari, the Inspiration](../../cards/P/pr.md#prismari-the-inspiration) (16.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/311/galazeth-prismari) · oracle_id `f9217532-f7cf-4436-b476-72d97a3147dc` · printing: SOC #311 (2026-04-24) · [rulings](https://api.scryfall.com/cards/abdd3b41-6bdd-4b35-998c-0358ba72ca12/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Galea, Kindler of Hope
@@ -1800,7 +1804,9 @@ schema: 2
 - **Rulings** (2):
   - *2023-06-16* — If the creature you choose as your Ring-bearer was already your Ring-bearer, that still counts as choosing that creature as your Ring-bearer for the purpose of abilities that trigger "whenever you choose a creature as your Ring-bearer" or abilities that care about which creature was chosen as your Ring-bearer.
   - *2023-06-16* — The second ability applies only to casting spells. It does not, for example, change when you may activate abilities that can be activated "only as a sorcery."
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#gandalf-friend-of-the-shire)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 9 combos; most popular [Approach of the Second Sun + Memory Lapse + Gandalf, Friend of the Shire](https://commanderspellbook.com/combo/553-819-5858/) (Win the game) · EDHREC as commander: 695 decks; highest synergy [Birthday Escape](../../cards/B/bi.md#birthday-escape) (+70%), [Soothing of Sméagol](../../cards/S/so.md#soothing-of-sméagol) (+58%), [Glorious Gale](../../cards/G/gl.md#glorious-gale) (+57%) · EDHREC: in 27,416 decks; most often under [Lord of the Nazgûl](../../cards/L/lo.md#lord-of-the-nazgûl) (36.4% of its decks), [Sauron, the Dark Lord](../../cards/S/sau.md#sauron-the-dark-lord) (9.5% of its decks), [Gandalf, Party Guest](../../cards/G/ga.md#gandalf-party-guest) (38.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/G.md#gandalf-friend-of-the-shire)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/50/gandalf-friend-of-the-shire) · oracle_id `7f7c917b-f940-4f43-bafa-31f50a6d9d6f` · printing: LTR #50 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gandalf, Goblins' Bane // Flameshape
@@ -3587,6 +3593,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5489 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-06-06* — If damage that can't be prevented is dealt to the target creature after Gatta and Luzzu's last ability resolves, you still put that many +1/+1 counters on it.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 71 combos; most popular [Gatta and Luzzu + Hardened Scales + Walking Ballista](https://commanderspellbook.com/combo/2265-3693-6593/) (Infinite damage, Infinite +1/+1 counters on a creature) · EDHREC as commander: 38 decks; highest synergy [Selfless Squire](../../cards/S/sel.md#selfless-squire) (+74%), [Ephemerate](../../cards/E/ep.md#ephemerate) (+50%), [Gideon's Sacrifice](../../cards/G/gi.md#gideons-sacrifice) (+48%) · EDHREC: in 29,096 decks; most often under [Tidus, Yuna's Guardian](../../cards/T/ti.md#tidus-yunas-guardian) (60.0% of its decks), [Yuna, Grand Summoner](../../cards/Y/yu.md#yuna-grand-summoner) (37.1% of its decks), [Sonic the Hedgehog](../../cards/S/so.md#sonic-the-hedgehog) (19.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/19/gatta-and-luzzu) · oracle_id `c01d6fde-1bd2-4412-932a-9bc97d4e5aef` · printing: FIC #19 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gau, Feral Youth

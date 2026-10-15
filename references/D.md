@@ -1955,10 +1955,10 @@ schema: 2
 
 ### Don Andres, the Renegade
 
-[Card entry](../cards/D/do.md#don-andres-the-renegade) · **6 pages** (decks 5 · edh guides 1)
+[Card entry](../cards/D/do.md#don-andres-the-renegade) · **7 pages** (decks 5 · edh guides 2)
 
 - **Decks (5):** [Admiral Beckett Brass (Grixis)](../grixis/decks/admiral-beckett-brass.md) · [Don Andres, the Renegade (Grixis)](../grixis/decks/don-andres-the-renegade.md) · [Edea, Possessed Sorceress (Grixis)](../grixis/decks/edea-possessed-sorceress.md) · [Edward Kenway (Grixis)](../grixis/decks/edward-kenway.md) · [Nathan Drake, Treasure Hunter (Grixis)](../grixis/decks/nathan-drake-treasure-hunter.md)
-- **EDH guides (1):** [Grixis Packages → Theft](../grixis/Grixis%20Packages.md#theft)
+- **EDH guides (2):** [EDH Packages → Spellslinger: Cast-trigger payoffs](../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [Grixis Packages → Theft](../grixis/Grixis%20Packages.md#theft)
 
 ### Donatello, the Brains
 

@@ -119,6 +119,9 @@ schema: 2
   > *"I'm a 22nd century Lyrate Life-form Approximation. I already know what you need before you do."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6047 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Pensive Professor + Lyla, Holographic Assistant](https://commanderspellbook.com/combo/6822-7414/) (Infinite card draw, Infinite draw triggers) · EDHREC as commander: 291 decks; highest synergy [Benthic Biomancer](../../cards/B/be.md#benthic-biomancer) (+60%), [Pensive Professor](../../cards/P/pe.md#pensive-professor) (+57%), [Danny Pink](../../cards/D/da.md#danny-pink) (+50%) · EDHREC: in 25,638 decks; most often under [The Astonishing Ant-Man](../../cards/T/thea.md#the-astonishing-ant-man) (28.6% of its decks), [Vnwxt, Verbose Host](../../cards/V/vn.md#vnwxt-verbose-host) (16.5% of its decks), [Ms. Bumbleflower](../../cards/M/ms.md#ms-bumbleflower) (3.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/L.md#lyla-holographic-assistant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spe/7/lyla-holographic-assistant) · oracle_id `b7fb0141-4fbd-4269-a2e9-92f75ec95271` · printing: SPE #7 (2025-09-26) · [rulings](https://api.scryfall.com/cards/26ea86d7-34f8-4358-8fdf-a18e53397755/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lymph Sliver

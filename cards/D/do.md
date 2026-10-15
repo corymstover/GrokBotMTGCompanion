@@ -1168,7 +1168,9 @@ schema: 2
 - **Rulings** (2):
   - *2023-11-10* — The owner of a copy of a spell is the player under whose control it was put onto the stack.
   - *2023-11-10* — The player who creates a token is its owner.
-- **Referenced in:** 6 pages (5 decks · 1 edh guides) → [reverse index](../../references/D.md#don-andres-the-renegade)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (5): [Admiral Beckett Brass (Grixis)](../../grixis/decks/admiral-beckett-brass.md) · [Don Andres, the Renegade (Grixis)](../../grixis/decks/don-andres-the-renegade.md) · [Edea, Possessed Sorceress (Grixis)](../../grixis/decks/edea-possessed-sorceress.md) · [Edward Kenway (Grixis)](../../grixis/decks/edward-kenway.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 6,771 decks; highest synergy [Ramirez DePietro, Pillager](../../cards/R/ram.md#ramirez-depietro-pillager) (+73%), [Hostage Taker](../../cards/H/ho.md#hostage-taker) (+71%), [Laughing Jasper Flint](../../cards/L/la.md#laughing-jasper-flint) (+66%) · EDHREC: in 22,425 decks; most often under [Edward Kenway](../../cards/E/ed.md#edward-kenway) (54.3% of its decks), [Nathan Drake, Treasure Hunter](../../cards/N/na.md#nathan-drake-treasure-hunter) (80.8% of its decks), [Edea, Possessed Sorceress](../../cards/E/ed.md#edea-possessed-sorceress) (53.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 7 pages (5 decks · 2 edh guides) → [reverse index](../../references/D.md#don-andres-the-renegade)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/6/don-andres-the-renegade) · oracle_id `060ef981-db05-436b-b1c1-f55071375344` · printing: LCC #6 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Donate
@@ -2039,6 +2041,8 @@ schema: 2
   - *2025-11-17* — The value of X is calculated only once, as Doran's last ability resolves.
   - *2025-11-17* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as a flashback cost), add any cost increases (such as kicker costs), then apply any cost reductions (such as that of this ability). The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
   - *2025-11-17* — To find the difference between a creature's power and its toughness, subtract the smaller of those two numbers from the larger one. For example, the difference between the power and toughness of a 3/5 creature is 2. The difference between the power and toughness of a 5/3 creature is also 2.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 13,733 decks; highest synergy [Great Forest Druid](../../cards/G/gre.md#great-forest-druid) (+60%), [Doran, the Siege Tower](../../cards/D/do.md#doran-the-siege-tower) (+54%), [Felothar the Steadfast](../../cards/F/fe.md#felothar-the-steadfast) (+54%) · EDHREC: in 14,597 decks; most often under [Felothar the Steadfast](../../cards/F/fe.md#felothar-the-steadfast) (69.2% of its decks), [Betor, Kin to All](../../cards/B/be.md#betor-kin-to-all) (61.4% of its decks), [Doran, the Siege Tower](../../cards/D/do.md#doran-the-siege-tower) (63.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/215/doran-besieged-by-time) · oracle_id `dd35a377-0865-4b25-bd0f-aaead29a9f0e` · printing: ECL #215 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Doran, the Siege Tower
@@ -2193,6 +2197,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6230 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2004-12-01* — Dosan’s ability only stops players from casting spells. It doesn’t stop activated or triggered abilities.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 292 decks; highest synergy [Collector Ouphe](../../cards/C/col.md#collector-ouphe) (+56%), [Manglehorn](../../cards/M/man.md#manglehorn) (+56%), [Runic Armasaur](../../cards/R/ru.md#runic-armasaur) (+54%) · EDHREC: in 24,622 decks; most often under [Yurlok of Scorch Thrash](../../cards/Y/yu.md#yurlok-of-scorch-thrash) (22.1% of its decks), [Korvold, Fae-Cursed King](../../cards/K/ko.md#korvold-fae-cursed-king) (7.9% of its decks), [Witherbloom, the Balancer](../../cards/W/wi.md#witherbloom-the-balancer) (6.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/205/dosan-the-falling-leaf) · oracle_id `70e4025f-41de-4b47-a590-3c922dc1e209` · printing: CHK #205 (2004-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dose of Dawnglow

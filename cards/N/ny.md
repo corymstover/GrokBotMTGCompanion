@@ -319,6 +319,8 @@ schema: 2
 - **Keywords:** Flying, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5690 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,757 decks; highest synergy [Wavebreak Hippocamp](../../cards/W/wav.md#wavebreak-hippocamp) (+63%), [Rewind](../../cards/R/rew.md#rewind) (+55%), [Cunning Nightbonder](../../cards/C/cu.md#cunning-nightbonder) (+52%) · EDHREC: in 26,027 decks; most often under [Alela, Cunning Conqueror](../../cards/A/al.md#alela-cunning-conqueror) (71.5% of its decks), [Maralen, Fae Ascendant](../../cards/M/mar.md#maralen-fae-ascendant) (20.7% of its decks), [Tegwyll, Duke of Splendor](../../cards/T/te.md#tegwyll-duke-of-splendor) (61.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/288/nymris-oonas-trickster) · oracle_id `9ee50bae-47c4-4ae7-a82b-f2a0b366df35` · printing: CMR #288 (2020-11-20) · [rulings](https://api.scryfall.com/cards/b8cfc97a-3c8a-4d44-846b-7a523dc11878/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nyssa of Traken

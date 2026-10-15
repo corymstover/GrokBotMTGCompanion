@@ -140,6 +140,8 @@ schema: 2
   - *2026-01-27* — In the unusual case where Shredder becomes a copy of something else while his last ability is on the stack but before it resolves, the tokens will enter as a copy of whatever Shredder is copying.
   - *2026-01-27* — The token copies will have Shredder's abilities.
   - *2026-01-27* — The tokens don't copy whether Shredder is tapped or untapped, whether he has any counters on him or Auras attached to him, or any non-copy effects that have changed his types, color, and so on.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 4 combos; most popular [Shredder, Shadow Master + Bloodletter of Aclazotz](https://commanderspellbook.com/combo/5342-7319/) (Each opponent loses the game, Infinite lifeloss) · EDHREC as commander: 769 decks; highest synergy [Wound Reflection](../../cards/W/wo.md#wound-reflection) (+63%), [Bloodletter of Aclazotz](../../cards/B/blo.md#bloodletter-of-aclazotz) (+57%), [Brotherhood Regalia](../../cards/B/br.md#brotherhood-regalia) (+55%) · EDHREC: in 28,075 decks; most often under [Leonardo, the Balance // Michelangelo, the Heart](../../cards/L/le.md#leonardo-the-balance) (44.2% of its decks), [Splinter, Radical Rat](../../cards/S/spl.md#splinter-radical-rat) (60.3% of its decks), [Jin Sakai, Ghost of Tsushima](../../cards/J/ji.md#jin-sakai-ghost-of-tsushima) (25.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmc/20/shredder-shadow-master) · oracle_id `ee82947d-1cf0-4c53-84d4-81f81c6201ee` · printing: TMC #20 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shredder's Revenge
@@ -670,6 +672,8 @@ schema: 2
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5680 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 13,303 decks; highest synergy [Tendershoot Dryad](../../cards/T/te.md#tendershoot-dryad) (+82%), [Sporecrown Thallid](../../cards/S/spo.md#sporecrown-thallid) (+74%), [Fungal Plots](../../cards/F/fu.md#fungal-plots) (+69%) · EDHREC: in 14,642 decks; most often under [Slimefoot, the Stowaway](../../cards/S/sl.md#slimefoot-the-stowaway) (42.6% of its decks), [Ghave, Guru of Spores](../../cards/G/gh.md#ghave-guru-of-spores) (19.2% of its decks), [The Mycotyrant](../../cards/T/them.md#the-mycotyrant) (15.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#shroofus-sproutsire)
 - **Source flags:** [Scryfall](https://scryfall.com/card/plst/J25-54/shroofus-sproutsire) · oracle_id `e0cebb09-d10d-4b70-96be-82df0e5d52d3` · printing: PLST #J25-54 (2026-10-19) · [rulings](https://api.scryfall.com/cards/9ed9f270-4da6-439e-b13a-70da6e7f424a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

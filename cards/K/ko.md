@@ -578,6 +578,8 @@ schema: 2
 - **Rulings** (2):
   - *2021-02-05* — A creature token you control is enchanted or equipped if there’s an Aura or an Equipment attached to it. You don’t have to control that Aura or Equipment.
   - *2021-02-05* — A creature token you control that’s enchanted or equipped gets only +1/+1 from Koll’s last ability, no matter how many Auras and Equipment are attached to that creature.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Koll, the Forgemaster + Ashnod's Altar](https://commanderspellbook.com/combo/2034-4763--21--45/) (Infinite creature LTB, Infinite creature ETB) · EDHREC as commander: 1,146 decks; highest synergy [Rograkh, Son of Rohgahh](../../cards/R/ro.md#rograkh-son-of-rohgahh) (+63%), [Memnite](../../cards/M/me.md#memnite) (+58%), [Sai of the Shinobi](../../cards/S/sai.md#sai-of-the-shinobi) (+57%) · EDHREC: in 21,699 decks; most often under [Bruenor Battlehammer](../../cards/B/br.md#bruenor-battlehammer) (54.7% of its decks), [Nahiri, Forged in Fury](../../cards/N/na.md#nahiri-forged-in-fury) (24.1% of its decks), [Thorin, King of Durin's Folk](../../cards/T/tho.md#thorin-king-of-durins-folk) (20.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/K.md#koll-the-forgemaster)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/220/koll-the-forgemaster) · oracle_id `344dc8b0-302a-4721-99b6-5a6626a349c1` · printing: KHM #220 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1565,7 +1567,9 @@ schema: 2
   - *2025-04-04* — If any of the spells you cast has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
   - *2025-04-04* — Since you are using an alternative cost to cast the spells, you can’t pay any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the spells have any mandatory additional costs, you must pay those.
   - *2025-04-04* — You cast the spells from among the exiled cards while Kotis’s last ability is resolving and still on the stack. You can’t wait to cast them later in the turn. Timing restrictions based on the card’s type are ignored.
-- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/K.md#kotis-the-fangkeeper)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 20,232 decks; highest synergy [Rancor](../../cards/R/ran.md#rancor) (+62%), [Aqueous Form](../../cards/A/aq.md#aqueous-form) (+61%), [Dragonfire Blade](../../cards/D/dra.md#dragonfire-blade) (+53%) · EDHREC: in 9,943 decks; most often under [Gonti, Canny Acquisitor](../../cards/G/gon.md#gonti-canny-acquisitor) (15.0% of its decks), [Felix Five-Boots](../../cards/F/fe.md#felix-five-boots) (21.4% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (3.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Impulse / exile-to-play](../../EDH%20Packages.md#card-advantage-impulse--exile-to-play) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (2 edh guides) → [reverse index](../../references/K.md#kotis-the-fangkeeper)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/202/kotis-the-fangkeeper) · oracle_id `2eb2f6a2-e31a-4d3e-93ce-100394899014` · printing: TDM #202 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kotori, Pilot Prodigy
@@ -1580,6 +1584,8 @@ schema: 2
   > *"Some people test limits. I prefer to demolish them."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6253 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,649 decks; highest synergy [Shorikai, Genesis Engine](../../cards/S/sho.md#shorikai-genesis-engine) (+88%), [Prodigy's Prototype](../../cards/P/pr.md#prodigys-prototype) (+81%), [Mobilizer Mech](../../cards/M/mob.md#mobilizer-mech) (+78%) · EDHREC: in 22,122 decks; most often under [Shorikai, Genesis Engine](../../cards/S/sho.md#shorikai-genesis-engine) (62.5% of its decks), [Miles "Tails" Prower](../../cards/M/mil.md#miles-tails-prower) (81.1% of its decks), [Sydri, Galvanic Genius](../../cards/S/sy.md#sydri-galvanic-genius) (24.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/nec/2/kotori-pilot-prodigy) · oracle_id `0659a5b0-9807-4e4c-8af3-b6e233051ad6` · printing: NEC #2 (2022-02-18) · [rulings](https://api.scryfall.com/cards/fea6c1c8-eff9-4b66-b96d-e23016f0bb62/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kotose, the Silent Spider

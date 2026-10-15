@@ -1127,6 +1127,8 @@ schema: 2
 - **Keywords:** Vigilance, Trample, Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6314 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 18,457 decks; highest synergy [Priest of Titania](../../cards/P/pr.md#priest-of-titania) (+77%), [Elvish Archdruid](../../cards/E/el.md#elvish-archdruid) (+76%), [Llanowar Elves](../../cards/L/ll.md#llanowar-elves) (+71%) · EDHREC: in 6,047 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (4.2% of its decks), [Morophon, the Boundless](../../cards/M/mor.md#morophon-the-boundless) (8.4% of its decks), [Reaper King](../../cards/R/rea.md#reaper-king) (3.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/432/voja-jaws-of-the-conclave) · oracle_id `d94ff0b8-5499-4eeb-80f0-20c7fbf07499` · printing: MKM #432 (2024-02-09) · [rulings](https://api.scryfall.com/cards/bfa1bd2f-25bd-4fbd-877b-cef00ab7f92f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Volatile Arsonist // Dire-Strain Anarchist
@@ -2180,6 +2182,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5891 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2017-09-29* — Vona's last ability can be activated during any step or phase of your turn, including the combat phase. It's possible to attack with Vona and then activate its ability before blockers are declared. Doing so won't remove Vona from combat.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 314 decks; highest synergy [Font of Agonies](../../cards/F/fo.md#font-of-agonies) (+36%), [Sanctum Seeker](../../cards/S/san.md#sanctum-seeker) (+32%), [Mavren Fein, Dusk Apostle](../../cards/M/mav.md#mavren-fein-dusk-apostle) (+28%) · EDHREC: in 26,313 decks; most often under [Sidar Jabari of Zhalfir](../../cards/S/si.md#sidar-jabari-of-zhalfir) (31.6% of its decks), [Betor, Ancestor's Voice](../../cards/B/be.md#betor-ancestors-voice) (16.6% of its decks), [Edgar Markov](../../cards/E/ed.md#edgar-markov) (6.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/293/vona-butcher-of-magan) · oracle_id `b1c56e23-eae6-47a1-a1cd-3a2d01621768` · printing: LCC #293 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vona's Hunger

@@ -2274,6 +2274,8 @@ schema: 2
 - **Rulings** (2):
   - *2006-09-25* — Removing the other Dragon card from your graveyard has no effect on Scion of the Ur-Dragon.
   - *2006-09-25* — When Scion of the Ur-Dragon becomes a copy of another Dragon, it loses its copy ability for the rest of the turn.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [The Ur-Dragon](../../decks/the-ur-dragon.md) · Commander Spellbook: 2 combos; most popular [Scion of the Ur-Dragon + Colossal Grave-Reaver + Bladewing the Risen](https://commanderspellbook.com/combo/2194-3362-6481/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 5,854 decks; highest synergy [Colossal Grave-Reaver](../../cards/C/col.md#colossal-grave-reaver) (+53%), [Bladewing the Risen](../../cards/B/bla.md#bladewing-the-risen) (+50%), [Reanimate](../../cards/R/rea.md#reanimate) (+47%) · EDHREC: in 20,338 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (31.6% of its decks), [Tiamat](../../cards/T/ti.md#tiamat) (13.9% of its decks), [Morophon, the Boundless](../../cards/M/mor.md#morophon-the-boundless) (5.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#scion-of-the-ur-dragon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c17/192/scion-of-the-ur-dragon) · oracle_id `b4031540-584b-4c8a-9e4e-d68ae5cdec5b` · printing: C17 #192 (2017-08-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

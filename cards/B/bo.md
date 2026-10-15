@@ -3900,6 +3900,8 @@ schema: 2
   > *"Long have I wandered by roads forgotten, seeking the house of Elrond."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6808 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 242 decks; highest synergy [Horn of Gondor](../../cards/H/ho.md#horn-of-gondor) (+52%), [Boromir, Warden of the Tower](../../cards/B/bo.md#boromir-warden-of-the-tower) (+45%), [Faramir, Prince of Ithilien](../../cards/F/fa.md#faramir-prince-of-ithilien) (+45%) · EDHREC: in 22,101 decks; most often under [Éowyn, Shieldmaiden](../../cards/E/eo.md#éowyn-shieldmaiden) (69.2% of its decks), [Aragorn, the Uniter](../../cards/A/ara.md#aragorn-the-uniter) (19.3% of its decks), [Aragorn, King of Gondor](../../cards/A/ara.md#aragorn-king-of-gondor) (46.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/49/boromir-gondors-hope) · oracle_id `5bb5e4e5-c3b4-4f67-83e1-bde9ce9f18c4` · printing: LTC #49 (2023-06-23) · [rulings](https://api.scryfall.com/cards/3c9b154f-808f-4338-ad95-a0a478460ad8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Boromir, Warden of the Tower

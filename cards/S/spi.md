@@ -343,6 +343,8 @@ schema: 2
 - **Keywords:** Food, Animal May-Ham
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5526 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 471 decks; highest synergy [Arasta of the Endless Web](../../cards/A/ara.md#arasta-of-the-endless-web) (+65%), [Gilded Goose](../../cards/G/gi.md#gilded-goose) (+52%), [End-Raze Forerunners](../../cards/E/en.md#end-raze-forerunners) (+50%) · EDHREC: in 28,490 decks; most often under [Cosmic Spider-Man](../../cards/C/cos.md#cosmic-spider-man) (73.5% of its decks), [Shelob, Child of Ungoliant](../../cards/S/she.md#shelob-child-of-ungoliant) (29.4% of its decks), [The Unbeatable Squirrel Girl](../../cards/T/theu.md#the-unbeatable-squirrel-girl) (26.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#spider-ham-peter-porker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/114/spider-ham-peter-porker) · oracle_id `00b50215-e832-417f-9c80-2bc3050b6ebb` · printing: SPM #114 (2025-09-26) · [rulings](https://api.scryfall.com/cards/41f18f42-b86b-4a12-9f0d-76b761571195/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -409,7 +411,9 @@ schema: 2
   - *2025-09-19* — The creature you return must be tapped at the time you pay costs, but doesn't necessarily need to be tapped before you start casting the spell. For example, if you tap a creature with a mana ability to pay part of the spell's web-slinging cost, you could also return that creature to your hand to pay the cost.
   - *2025-09-19* — Web-slinging represents an alternative cost. If another effect allows you to play a card for a different alternative cost, including "without paying its mana cost," you can't also choose to pay its web-slinging cost. If any additional costs from other sources are applied, you must pay those.
   - *2025-09-19* — You must follow all normal timing rules when casting a spell with web-slinging. For creatures, that usually means you must cast it during a main phase of your turn while the stack is empty.
-- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/S.md#spider-man-brooklyn-visionary)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 91 decks; highest synergy [Mistbreath Elder](../../cards/M/mis.md#mistbreath-elder) (+45%), [Stickytongue Sentinel](../../cards/S/sti.md#stickytongue-sentinel) (+40%), [Elvish Visionary](../../cards/E/el.md#elvish-visionary) (+39%) · EDHREC: in 22,459 decks; most often under [Cosmic Spider-Man](../../cards/C/cos.md#cosmic-spider-man) (63.1% of its decks), [Miles Morales](../../cards/M/mil.md#miles-morales--ultimate-spider-man) (52.5% of its decks), [Peter Parker](../../cards/P/pe.md#peter-parker--amazing-spider-man) (33.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Ramp: Land ramp (puts lands onto the battlefield)](../../EDH%20Packages.md#ramp-land-ramp-puts-lands-onto-the-battlefield) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/S.md#spider-man-brooklyn-visionary)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/115/spider-man-brooklyn-visionary) · oracle_id `2ca85872-9436-4515-af50-c13e59605627` · printing: SPM #115 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spider-Man, Hometown Hero
@@ -848,6 +852,8 @@ schema: 2
 - **Keywords:** Flying, Venom Blast
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5275 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 283 decks; highest synergy [Lavinia, Azorius Renegade](../../cards/L/la.md#lavinia-azorius-renegade) (+38%), [Thalia, Heretic Cathar](../../cards/T/tha.md#thalia-heretic-cathar) (+35%), [Grand Abolisher](../../cards/G/gra.md#grand-abolisher) (+29%) · EDHREC: in 30,082 decks; most often under [Cosmic Spider-Man](../../cards/C/cos.md#cosmic-spider-man) (73.4% of its decks), [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (49.5% of its decks), [Sisay, Weatherlight Captain](../../cards/S/si.md#sisay-weatherlight-captain) (15.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/152/spider-woman-stunning-savior) · oracle_id `be2b9c6d-4ecb-49ec-b276-4aa93c5dfc00` · printing: SPM #152 (2025-09-26) · [rulings](https://api.scryfall.com/cards/bc9b2a76-3cce-4fd0-a4ef-932747cb11b2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spidery Grasp

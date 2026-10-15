@@ -194,6 +194,8 @@ schema: 2
   - *2005-06-01* — One permanent is sacrificed each time an opponent’s source deals damage to Michiko Konda’s controller. The amount of damage doesn’t matter.
   - *2005-06-01* — Sources that deal damage multiple times (such as creatures with double strike) will trigger Michiko Konda multiple times.
   - *2005-06-01* — Spells that deal damage repeatedly trigger Michiko Konda’s ability each time they deal damage. For example, a Glacial Ray spliced onto another Glacial Ray triggers the ability twice (once for each “2 damage” event from the Glacial Ray).
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 682 decks; highest synergy [Karmic Justice](../../cards/K/ka.md#karmic-justice) (+62%), [Windborn Muse](../../cards/W/wi.md#windborn-muse) (+51%), [Approach of the Second Sun](../../cards/A/ap.md#approach-of-the-second-sun) (+46%) · EDHREC: in 25,545 decks; most often under [Queen Marchesa](../../cards/Q/qu.md#queen-marchesa) (26.3% of its decks), [Delney, Streetwise Lookout](../../cards/D/del.md#delney-streetwise-lookout) (21.9% of its decks), [The Archimandrite](../../cards/T/thea.md#the-archimandrite) (21.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/19/michiko-konda-truth-seeker) · oracle_id `fbe190eb-fd4b-40e7-9a17-48c96b60f653` · printing: SOK #19 (2005-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Michiko's Reign of Truth // Portrait of Michiko

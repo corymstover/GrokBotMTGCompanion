@@ -1663,6 +1663,8 @@ schema: 2
   - *2021-06-18* — The token is named Clue Token and has the artifact subtype Clue. Clue isn't a creature type.
   - *2021-06-18* — The tokens are normal artifacts. For example, one can be sacrificed to activate the ability of Breya's Apprentice and one can be the target of Break Ties.
   - *2021-06-18* — You can't sacrifice a Clue to activate its own ability and also to activate the ability of Lonis, Cryptozoologist.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 32 combos; most popular [Lonis, Cryptozoologist + Shrieking Drake + Academy Manufactor](https://commanderspellbook.com/combo/751-2564-4231/) (Infinite artifact tokens, Infinite Clue tokens) · EDHREC as commander: 5,079 decks; highest synergy [Academy Manufactor](../../cards/A/ac.md#academy-manufactor) (+77%), [Shrieking Drake](../../cards/S/shr.md#shrieking-drake) (+68%), [Erdwal Illuminator](../../cards/E/er.md#erdwal-illuminator) (+67%) · EDHREC: in 25,219 decks; most often under [Morska, Undersea Sleuth](../../cards/M/mor.md#morska-undersea-sleuth) (69.0% of its decks), [Sophia, Dogged Detective](../../cards/S/so.md#sophia-dogged-detective) (33.0% of its decks), [Jenny Flint // Madame Vastra](../../cards/J/je.md#jenny-flint) (63.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/215/lonis-cryptozoologist) · oracle_id `0ee06ed0-717a-4bfa-b634-d00e013c1f16` · printing: MKC #215 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lonis, Genetics Expert

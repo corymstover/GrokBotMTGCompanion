@@ -53,6 +53,8 @@ schema: 2
 - **Rulings** (2):
   - *2024-03-08* — Some cards from other releases may instruct you to roll dice other than six-sided dice. Results of 4 or higher on those dice cause Mr. House's first ability to trigger.
   - *2024-03-08* — The die rolls caused by Mr. House's last ability have no inherent effect. Abilities that trigger whenever you roll dice or whenever you roll a certain result, such as Mr. House's first ability, will trigger as appropriate.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 23,035 decks; highest synergy [Barbarian Class](../../cards/B/bar.md#barbarian-class) (+88%), [Wyll, Blade of Frontiers](../../cards/W/wy.md#wyll-blade-of-frontiers) (+88%), [Vexing Puzzlebox](../../cards/V/ve.md#vexing-puzzlebox) (+81%) · EDHREC: in 2,607 decks; most often under [Caesar, Legion's Emperor](../../cards/C/cae.md#caesar-legions-emperor) (4.9% of its decks), [Vihaan, Goldwaker](../../cards/V/vi.md#vihaan-goldwaker) (1.6% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mr-house-president-and-ceo)
 - **Source flags:** [Scryfall](https://scryfall.com/card/pip/7/mr-house-president-and-ceo) · oracle_id `d4e54b48-956f-4467-8485-a5fdb44779fd` · printing: PIP #7 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

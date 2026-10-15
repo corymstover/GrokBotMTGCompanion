@@ -71,6 +71,8 @@ schema: 2
 - **Rulings** (2):
   - *2023-06-16* — The Balrog, Durin's Bane's first ability can't reduce its cost to less than {B}{R}.
   - *2023-06-16* — The Balrog, Durin's Bane's first ability counts every permanent that was sacrificed this turn, by any player.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 8 combos; most popular [The Balrog, Durin's Bane + Phyrexian Altar + Pitiless Plunderer](https://commanderspellbook.com/combo/4050-4516-4871/) (Infinite commander casts, Infinite death triggers) · EDHREC as commander: 2,233 decks; highest synergy [Impulsive Pilferer](../../cards/I/im.md#impulsive-pilferer) (+57%), [Mines of Moria](../../cards/M/min.md#mines-of-moria) (+55%), [Innocent Blood](../../cards/I/inn.md#innocent-blood) (+52%) · EDHREC: in 20,507 decks; most often under [Sauron, the Dark Lord](../../cards/S/sau.md#sauron-the-dark-lord) (10.8% of its decks), [Ognis, the Dragon's Lash](../../cards/O/og.md#ognis-the-dragons-lash) (29.1% of its decks), [Raphael, Fiendish Savior](../../cards/R/rap.md#raphael-fiendish-savior) (30.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/195/the-balrog-durins-bane) · oracle_id `d113af33-d75d-44e4-a8dc-31f8984edc42` · printing: LTR #195 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Balrog, Flame of Udûn

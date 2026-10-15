@@ -598,6 +598,8 @@ schema: 2
   - *2021-04-16* — If you can't exile the card, perhaps because another effect moved the card before the triggered ability started resolving, you won't create a token.
   - *2021-04-16* — The copy uses the copiable values of the creature as it last existed on the battlefield before it died, not as it existed in the graveyard before it was exiled.
   - *2021-04-16* — The token copies exactly what was printed on the original creature and nothing else (unless the creature was copying something else; see below). It doesn't copy whether that creature was tapped or untapped, whether it had any counters on it or Auras or Equipment attached to it, or any non-copy effects that changed its power, toughness, types, color, or so on.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 15 combos; most popular [Hofri Ghostforge + Mistmoon Griffin + Goblin Bombardment](https://commanderspellbook.com/combo/510-3359-5147/) (Infinite damage, Infinite death triggers) · EDHREC as commander: 1,850 decks; highest synergy [Goblin Bombardment](../../cards/G/gob.md#goblin-bombardment) (+69%), [Karmic Guide](../../cards/K/ka.md#karmic-guide) (+62%), [Ashnod's Altar](../../cards/A/as.md#ashnods-altar) (+58%) · EDHREC: in 20,907 decks; most often under [Quintorius, History Chaser](../../cards/Q/qu.md#quintorius-history-chaser) (84.5% of its decks), [Brion Stoutarm](../../cards/B/br.md#brion-stoutarm) (47.4% of its decks), [Quintorius, Loremaster](../../cards/Q/qu.md#quintorius-loremaster) (53.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/314/hofri-ghostforge) · oracle_id `663d451b-f848-41cc-b541-0c6fe37d3d54` · printing: SOC #314 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hogaak, Arisen Necropolis
@@ -2134,6 +2136,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5819 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-06-06* — The value of X is calculated only once, as Hope's last ability resolves.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 18,793 decks; highest synergy [The Wind Crystal](../../cards/T/thew.md#the-wind-crystal) (+77%), [Rhox Faithmender](../../cards/R/rh.md#rhox-faithmender) (+72%), [The Water Crystal](../../cards/T/thew.md#the-water-crystal) (+70%) · EDHREC: in 8,281 decks; most often under [Oloro, Ageless Ascetic](../../cards/O/ol.md#oloro-ageless-ascetic) (10.3% of its decks), [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (1.8% of its decks), [Will, Scion of Peace](../../cards/W/wi.md#will-scion-of-peace) (25.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/226/hope-estheim) · oracle_id `187a110c-032a-42e1-be2d-3cfaaa9495f8` · printing: FIN #226 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hopeful Eidolon
@@ -2337,6 +2341,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6204 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2007-10-01* — This ability does not allow you to pay the evoke cost of the targeted Elemental card.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Horde of Notions + Jegantha, the Wellspring + Ashling's Command + Maelstrom Wanderer](https://commanderspellbook.com/combo/339-677-955-6974/) (Infinite artifact ETB, Infinite artifact LTB) · EDHREC as commander: 3,252 decks; highest synergy [Risen Reef](../../cards/R/ri.md#risen-reef) (+74%), [Smokebraider](../../cards/S/sm.md#smokebraider) (+68%), [Mulldrifter](../../cards/M/mu.md#mulldrifter) (+66%) · EDHREC: in 21,836 decks; most often under [Ashling, the Limitless](../../cards/A/as.md#ashling-the-limitless) (64.0% of its decks), [Mass of Mysteries](../../cards/M/mas.md#mass-of-mysteries) (65.8% of its decks), [Omnath, Locus of All](../../cards/O/om.md#omnath-locus-of-all) (5.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/124/horde-of-notions) · oracle_id `a7656948-4d7d-47f7-b8a1-fc9716155e37` · printing: ECC #124 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hordewing Skaab

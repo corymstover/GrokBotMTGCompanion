@@ -895,9 +895,10 @@ schema: 2
 
 ### Phylath, World Sculptor
 
-[Card entry](../cards/P/ph.md#phylath-world-sculptor) · **2 pages** (decks 1 · card data 1)
+[Card entry](../cards/P/ph.md#phylath-world-sculptor) · **3 pages** (decks 1 · edh guides 1 · card data 1)
 
 - **Decks (1):** [Omnath, Locus of Rage (Zendikar-only)](../decks/plane-zendikar-omnath-locus-of-rage.md)
+- **EDH guides (1):** [EDH Packages → Lands / landfall: Landfall payoffs](../EDH%20Packages.md#lands--landfall-landfall-payoffs)
 - **Card data (1):** [Artist Index → Artists P](../Artist%20Index.md#artists-p)
 
 ### Phyresis
@@ -1192,9 +1193,9 @@ schema: 2
 
 ### Pir, Imaginative Rascal
 
-[Card entry](../cards/P/pi.md#pir-imaginative-rascal) · **2 pages** (edh guides 1 · card data 1)
+[Card entry](../cards/P/pi.md#pir-imaginative-rascal) · **3 pages** (edh guides 2 · card data 1)
 
-- **EDH guides (1):** [EDH Pairings — Partner, Background, Friends forever & Doctor's companion → Partner with](../EDH%20Pairings.md#partner-with)
+- **EDH guides (2):** [EDH Packages → +1/+1 counters: Counter doublers](../EDH%20Packages.md#11-counters-counter-doublers) · [EDH Pairings — Partner, Background, Friends forever & Doctor's companion → Partner with](../EDH%20Pairings.md#partner-with)
 - **Card data (1):** [Artist Index → Artists J](../Artist%20Index.md#artists-j)
 
 ### Pithing Needle

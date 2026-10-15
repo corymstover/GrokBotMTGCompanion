@@ -655,6 +655,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6545 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-06-06* — You pay all costs and follow all timing rules for cards played with the permission granted by Banon's first ability.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 161 decks; highest synergy [Monument to Endurance](../../cards/M/mon.md#monument-to-endurance) (+52%), [Faithless Looting](../../cards/F/fa.md#faithless-looting) (+51%), [Hardened Academic](../../cards/H/ha.md#hardened-academic) (+51%) · EDHREC: in 23,385 decks; most often under [Terra, Herald of Hope](../../cards/T/te.md#terra-herald-of-hope) (56.9% of its decks), [Quintorius, History Chaser](../../cards/Q/qu.md#quintorius-history-chaser) (40.1% of its decks), [Celes, Rune Knight](../../cards/C/ce.md#celes-rune-knight) (20.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#banon-the-returners-leader)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/78/banon-the-returners-leader) · oracle_id `1b62e88f-d544-4c01-a5a2-1c185a3c9c1e` · printing: FIC #78 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

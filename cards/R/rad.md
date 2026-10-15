@@ -157,6 +157,9 @@ schema: 2
 - **Rulings** (2):
   - *2022-12-08* — Radha's triggered ability is not a mana ability because it doesn't trigger from another mana ability. It goes on the stack and it can be responded to.
   - *2022-12-08* — You lose the mana produced by Radha's ability before blockers are declared if you don't spend it first.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 2 combos; most popular [Radha, Heir to Keld + Savage Ventmaw + Hellkite Charger](https://commanderspellbook.com/combo/62-3398-5608/) (Infinite combat phases, Infinite green mana) · EDHREC as commander: 2,509 decks; highest synergy [Migration Path](../../cards/M/mig.md#migration-path) (+72%), [Explosive Vegetation](../../cards/E/ex.md#explosive-vegetation) (+71%), [Circuitous Route](../../cards/C/ci.md#circuitous-route) (+68%) · EDHREC: in 21,317 decks; most often under [Raggadragga, Goreguts Boss](../../cards/R/rag.md#raggadragga-goreguts-boss) (54.3% of its decks), [Duskana, the Rage Mother](../../cards/D/du.md#duskana-the-rage-mother) (17.2% of its decks), [Anzrag, the Quake-Mole](../../cards/A/an.md#anzrag-the-quake-mole) (19.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Ramp: Mana creatures (MV ≤ 2)](../../EDH%20Packages.md#ramp-mana-creatures-mv--2) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/R.md#radha-heir-to-keld)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/196/radha-heir-to-keld) · oracle_id `61d94fe7-b559-4bd4-94a7-f4ed4c853b4b` · printing: DMR #196 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Radha's Firebrand

@@ -2327,6 +2327,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6339 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2023-06-16* — If Gimli, Counter of Kills dies at the same time as one or more creatures an opponent controls, the last ability will trigger for each of those other creatures.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 234 decks; highest synergy [Fear, Fire, Foes!](../../cards/F/fe.md#fear-fire-foes) (+48%), [Gimli's Axe](../../cards/G/gi.md#gimlis-axe) (+47%), [Erebor Flamesmith](../../cards/E/er.md#erebor-flamesmith) (+46%) · EDHREC: in 24,180 decks; most often under [Ghyrson Starn, Kelermorph](../../cards/G/gh.md#ghyrson-starn-kelermorph) (15.5% of its decks), [Thorin, King of Durin's Folk](../../cards/T/tho.md#thorin-king-of-durins-folk) (29.1% of its decks), [Aragorn, the Uniter](../../cards/A/ara.md#aragorn-the-uniter) (7.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/129/gimli-counter-of-kills) · oracle_id `96ebcd8b-ae3c-47b0-b895-bfc9848713e5` · printing: LTR #129 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gimli, Mournful Avenger

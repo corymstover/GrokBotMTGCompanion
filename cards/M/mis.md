@@ -1111,6 +1111,9 @@ schema: 2
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5528 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 25 combos; most popular [Mister Fantastic, Reed Richards + The Thing, Ben Grimm + Invisible Woman, Sue Storm + Human Torch, Johnny Storm](https://commanderspellbook.com/combo/7687-7690-7691-7863/) (Infinite card draw, Infinite draw triggers) · EDHREC as commander: 119 decks; highest synergy [Mischievous Mystic](../../cards/M/mis.md#mischievous-mystic) (+71%), [Emrakul's Messenger](../../cards/E/em.md#emrakuls-messenger) (+61%), [Ethereal Investigator](../../cards/E/et.md#ethereal-investigator) (+60%) · EDHREC: in 29,070 decks; most often under [The Astonishing Ant-Man](../../cards/T/thea.md#the-astonishing-ant-man) (41.9% of its decks), [Bard, King of Dale](../../cards/B/bar.md#bard-king-of-dale) (38.9% of its decks), [The Fantastic Four](../../cards/T/thef.md#the-fantastic-four) (73.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/M.md#mister-fantastic-reed-richards)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/66/mister-fantastic-reed-richards) · oracle_id `7fa5237e-dd79-4646-b935-cb8c6ee803ab` · printing: MSH #66 (2026-06-26) · [rulings](https://api.scryfall.com/cards/17ef068b-61fc-443d-97b0-1e41f2622425/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mister Gutsy

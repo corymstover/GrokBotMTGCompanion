@@ -794,6 +794,8 @@ schema: 2
 - **Rulings** (2):
   - *2019-10-04* — A spell that's both an artifact and an enchantment spell causes Alela's last ability to trigger only once.
   - *2019-10-04* — Alela's last ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 79 combos; most popular [Alela, Artful Provocateur + Sensei's Divining Top + Ashnod's Altar + The Reality Chip](https://commanderspellbook.com/combo/2034-5043-5078-5243/) (Infinite card draw, Infinite draw triggers) · EDHREC as commander: 17,024 decks; highest synergy [Intangible Virtue](../../cards/I/int.md#intangible-virtue) (+55%), [Obyra, Dreaming Duelist](../../cards/O/ob.md#obyra-dreaming-duelist) (+53%), [Bitterblossom](../../cards/B/bi.md#bitterblossom) (+51%) · EDHREC: in 12,095 decks; most often under [Arna Kennerüd, Skycaptain](../../cards/A/arn.md#arna-kennerüd-skycaptain) (22.5% of its decks), [Aminatou, Veil Piercer](../../cards/A/am.md#aminatou-veil-piercer) (9.4% of its decks), [Urza, Chief Artificer](../../cards/U/ur.md#urza-chief-artificer) (8.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#alela-artful-provocateur)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/325/alela-artful-provocateur) · oracle_id `936ae5dc-9838-47f3-ba1f-66523a7f5b76` · printing: NCC #325 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

@@ -265,6 +265,8 @@ schema: 2
   - *2018-06-08* — Grothama's last ability triggers even if it dies without being fought by attacking creatures. For example, if you use Blaze to deal 10 damage to Grothama, you draw ten cards.
   - *2018-06-08* — If multiple creatures attack, each desired fight happens individually in the order the attacking players choose. Once Grothama has been defeated, any remaining attacking creatures can't fight it.
   - *2018-06-08* — The controller of the attacking creature chooses whether that creature fights Grothama.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,054 decks; highest synergy [Mossbridge Troll](../../cards/M/mos.md#mossbridge-troll) (+70%), [Broodhatch Nantuko](../../cards/B/br.md#broodhatch-nantuko) (+58%), [Ghalta, Primal Hunger](../../cards/G/gh.md#ghalta-primal-hunger) (+57%) · EDHREC: in 19,859 decks; most often under [Bello, Bard of the Brambles](../../cards/B/be.md#bello-bard-of-the-brambles) (19.2% of its decks), [Baru, Wurmspeaker](../../cards/B/bar.md#baru-wurmspeaker) (53.0% of its decks), [The Gitrog, Ravenous Ride](../../cards/T/theg.md#the-gitrog-ravenous-ride) (7.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bbd/71/grothama-all-devouring) · oracle_id `34fd52c1-3d81-4005-b826-eeefbd7fd874` · printing: BBD #71 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ground Assault

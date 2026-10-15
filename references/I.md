@@ -1213,8 +1213,9 @@ schema: 2
 
 ### Iron Man, Titan of Innovation
 
-[Card entry](../cards/I/ir.md#iron-man-titan-of-innovation) · **1 pages** (card data 1)
+[Card entry](../cards/I/ir.md#iron-man-titan-of-innovation) · **2 pages** (edh guides 1 · card data 1)
 
+- **EDH guides (1):** [EDH Packages → Treasure: Repeatable Treasure makers](../EDH%20Packages.md#treasure-repeatable-treasure-makers)
 - **Card data (1):** [Artist Index → Artists J](../Artist%20Index.md#artists-j)
 
 ### Iron Man, Tony Stark
@@ -1280,8 +1281,9 @@ schema: 2
 
 ### Ishkanah, Grafwidow
 
-[Card entry](../cards/I/is.md#ishkanah-grafwidow) · **1 pages** (card data 1)
+[Card entry](../cards/I/is.md#ishkanah-grafwidow) · **2 pages** (edh guides 1 · card data 1)
 
+- **EDH guides (1):** [EDH Packages → Aristocrats: Fodder makers (multiple creature tokens)](../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
 
 ### Island
@@ -1410,8 +1412,9 @@ schema: 2
 
 ### Iymrith, Desert Doom
 
-[Card entry](../cards/I/iy.md#iymrith-desert-doom) · **1 pages** (card data 1)
+[Card entry](../cards/I/iy.md#iymrith-desert-doom) · **2 pages** (edh guides 1 · card data 1)
 
+- **EDH guides (1):** [EDH Packages → Card advantage: Repeatable draw engines (permanents)](../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents)
 - **Card data (1):** [Artist Index → Artists R](../Artist%20Index.md#artists-r)
 
 ### Izoni, Center of the Web

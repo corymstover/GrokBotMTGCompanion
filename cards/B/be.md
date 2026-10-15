@@ -3025,6 +3025,8 @@ schema: 2
   > *—Pippin*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5302 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 74 decks; highest synergy [Horn of Gondor](../../cards/H/ho.md#horn-of-gondor) (+77%), [Coppercoat Vanguard](../../cards/C/cop.md#coppercoat-vanguard) (+72%), [Lossarnach Captain](../../cards/L/lo.md#lossarnach-captain) (+72%) · EDHREC: in 30,031 decks; most often under [Éowyn, Shieldmaiden](../../cards/E/eo.md#éowyn-shieldmaiden) (85.4% of its decks), [Aragorn, King of Gondor](../../cards/A/ara.md#aragorn-king-of-gondor) (50.1% of its decks), [Aragorn, the Uniter](../../cards/A/ara.md#aragorn-the-uniter) (13.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/9/beregond-of-the-guard) · oracle_id `8ea50101-8392-471e-8523-b12045a7b95b` · printing: LTC #9 (2023-06-23) · [rulings](https://api.scryfall.com/cards/6aad41a6-e894-43f8-a4b5-abc206836306/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Berg Strider

@@ -376,7 +376,9 @@ schema: 2
   - *2024-07-26* — If Vren would leave the battlefield at the same time as one or more creatures an opponent controls would die, those creatures will still be exiled.
   - *2024-07-26* — Vren's last ability counts any creatures your opponents controlled that were exiled this turn, including creature tokens.
   - *2024-07-26* — While Vren is on the battlefield, creatures your opponents control are exiled instead of dying, and abilities that trigger when a creature dies won't trigger.
-- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/V.md#vren-the-relentless)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 12,886 decks; highest synergy [Piper of the Swarm](../../cards/P/pi.md#piper-of-the-swarm) (+70%), [Marrow-Gnawer](../../cards/M/mar.md#marrow-gnawer) (+65%), [Lord Skitter, Sewer King](../../cards/L/lo.md#lord-skitter-sewer-king) (+62%) · EDHREC: in 14,096 decks; most often under [Wick, the Whorled Mind](../../cards/W/wi.md#wick-the-whorled-mind) (78.6% of its decks), [Nashi, Moon's Legacy](../../cards/N/na.md#nashi-moons-legacy) (52.1% of its decks), [Umbris, Fear Manifest](../../cards/U/um.md#umbris-fear-manifest) (2.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (1 edh guides · 2 card data) → [reverse index](../../references/V.md#vren-the-relentless)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/239/vren-the-relentless) · oracle_id `1216900e-93e3-41a4-b354-9c81938639c2` · printing: BLB #239 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vrestin, Menoptra Leader

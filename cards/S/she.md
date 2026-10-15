@@ -232,6 +232,8 @@ schema: 2
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5435 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 5 combos; most popular [Shelinda, Yevon Acolyte + Animation Module + Ashnod's Altar](https://commanderspellbook.com/combo/2034-3490-6600/) (Infinite creature LTB, Infinite creature ETB) · EDHREC as commander: 264 decks; highest synergy [Conclave Mentor](../../cards/C/con.md#conclave-mentor) (+53%), [Hardened Scales](../../cards/H/ha.md#hardened-scales) (+48%), [Inspiring Call](../../cards/I/ins.md#inspiring-call) (+48%) · EDHREC: in 29,161 decks; most often under [Tidus, Yuna's Guardian](../../cards/T/ti.md#tidus-yunas-guardian) (70.5% of its decks), [Yuna, Grand Summoner](../../cards/Y/yu.md#yuna-grand-summoner) (41.0% of its decks), [Aerith, Last Ancient](../../cards/A/ae.md#aerith-last-ancient) (21.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/94/shelinda-yevon-acolyte) · oracle_id `b06c9a4b-f309-45b3-ae5b-0ce3f067a5cb` · printing: FIC #94 (2025-06-13) · [rulings](https://api.scryfall.com/cards/6f2cec5d-50ea-4d0f-8925-eba06222d015/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shelkin Brownie
@@ -379,6 +381,8 @@ schema: 2
 - **Rulings** (2):
   - *2023-06-16* — Cards exiled with Shelob, Dread Weaver that would go to the graveyard but have that replaced by an effect such as Leyline of the Void are considered new objects. They are no longer considered to have been exiled with Shelob, Dread Weaver for the purposes of its activated abilities.
   - *2023-06-16* — If Shelob, Dread Weaver and a nontoken creature an opponent controls die at the same time, the opponent's creature will be exiled.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 187 decks; highest synergy [Harvester of Souls](../../cards/H/ha.md#harvester-of-souls) (+44%), [Merciless Executioner](../../cards/M/me.md#merciless-executioner) (+42%), [Gravelighter](../../cards/G/gra.md#gravelighter) (+40%) · EDHREC: in 26,615 decks; most often under [Shelob, Child of Ungoliant](../../cards/S/she.md#shelob-child-of-ungoliant) (75.8% of its decks), [Sauron, the Dark Lord](../../cards/S/sau.md#sauron-the-dark-lord) (9.5% of its decks), [Sauron, Lord of the Rings](../../cards/S/sau.md#sauron-lord-of-the-rings) (38.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/29/shelob-dread-weaver) · oracle_id `7eade76f-92e4-4d26-9eb8-d3d954845c04` · printing: LTC #29 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shelob's Ambush

@@ -841,6 +841,8 @@ schema: 2
   - *2020-11-10* — Liesa's first ability applies only to the "commander tax." If there are any other additional costs to cast Liesa, those costs must be paid as normal.
   - *2020-11-10* — Liesa's first ability isn't optional. You can't choose to pay mana to cover the "commander tax," even if you have that mana available.
   - *2020-11-10* — Liesa's last ability will resolve before the spell that caused it to trigger.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 13,238 decks; highest synergy [Kambal, Consul of Allocation](../../cards/K/ka.md#kambal-consul-of-allocation) (+59%), [Authority of the Consuls](../../cards/A/au.md#authority-of-the-consuls) (+44%), [Soul Warden](../../cards/S/so.md#soul-warden) (+41%) · EDHREC: in 14,834 decks; most often under [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (4.4% of its decks), [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (4.9% of its decks), [Betor, Ancestor's Voice](../../cards/B/be.md#betor-ancestors-voice) (4.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#liesa-shroud-of-dusk)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/286/liesa-shroud-of-dusk) · oracle_id `2270daaf-252d-40c4-bed5-bd46ae15f041` · printing: CMR #286 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

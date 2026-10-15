@@ -968,6 +968,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6067 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2022-04-29* — If an effect allows you to cast Rocco without paying its mana cost, X is 0.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 9,999 decks; highest synergy [Wirewood Symbiote](../../cards/W/wi.md#wirewood-symbiote) (+50%), [Eternal Witness](../../cards/E/et.md#eternal-witness) (+45%), [Norin the Wary](../../cards/N/no.md#norin-the-wary) (+37%) · EDHREC: in 15,792 decks; most often under [Voja, Jaws of the Conclave](../../cards/V/vo.md#voja-jaws-of-the-conclave) (22.1% of its decks), [Omnath, Locus of All](../../cards/O/om.md#omnath-locus-of-all) (19.0% of its decks), [Rocco, Street Chef](../../cards/R/ro.md#rocco-street-chef) (8.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/218/rocco-cabaretti-caterer) · oracle_id `41c765a4-a9c9-4169-a9f1-74ededeb793c` · printing: SNC #218 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rocco, Street Chef
@@ -989,6 +991,8 @@ schema: 2
   - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
   - *2024-11-08* — Whatever you do, don't eat the delicious cards.
   - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 27 combos; most popular [Rocco, Street Chef + Birgi, God of Storytelling // Harnfel, Horn of Bounty + Sensei's Divining Top + Academy Manufactor](https://commanderspellbook.com/combo/392-1356-4231-5078/) (Near-infinite artifact tokens, Near-infinite +1/+1 counters) · EDHREC as commander: 13,674 decks; highest synergy [Night of the Sweets' Revenge](../../cards/N/ni.md#night-of-the-sweets-revenge) (+76%), [Academy Manufactor](../../cards/A/ac.md#academy-manufactor) (+74%), [Peregrin Took](../../cards/P/pe.md#peregrin-took) (+72%) · EDHREC: in 8,656 decks; most often under [Kynaios and Tiro of Meletis](../../cards/K/ky.md#kynaios-and-tiro-of-meletis) (13.2% of its decks), [Baylen, the Haymaker](../../cards/B/bay.md#baylen-the-haymaker) (3.1% of its decks), [Kenrith, the Returned King](../../cards/K/ke.md#kenrith-the-returned-king) (2.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mat/44/rocco-street-chef) · oracle_id `071f5b4b-6a1e-4dc3-9c08-b79713191811` · printing: MAT #44 (2023-05-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Roc Egg
@@ -1513,6 +1517,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6011 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2022-12-02* — X is the total amount of life you gained this turn, regardless of any life lost. For example, if you gained 3 life this turn and also lost 2 life this turn, X is 3, not 1.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Rodolf Duskbringer + The Peregrine Dynamo + Ashnod's Altar](https://commanderspellbook.com/combo/2034-2341-3683/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 1,320 decks; highest synergy [Creeping Bloodsucker](../../cards/C/cr.md#creeping-bloodsucker) (+46%), [Pristine Talisman](../../cards/P/pr.md#pristine-talisman) (+43%), [Valkyrie Harbinger](../../cards/V/va.md#valkyrie-harbinger) (+41%) · EDHREC: in 24,744 decks; most often under [Betor, Ancestor's Voice](../../cards/B/be.md#betor-ancestors-voice) (26.6% of its decks), [Shilgengar, Sire of Famine](../../cards/S/shi.md#shilgengar-sire-of-famine) (29.8% of its decks), [Liesa, Shroud of Dusk](../../cards/L/li.md#liesa-shroud-of-dusk) (15.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/j25/482/rodolf-duskbringer) · oracle_id `26a716b2-a2e2-405b-accd-df572416d8bf` · printing: J25 #482 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rofellos, Llanowar Emissary
@@ -3284,6 +3290,8 @@ schema: 2
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5972 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 145 decks; highest synergy [Aerith Gainsborough](../../cards/A/ae.md#aerith-gainsborough) (+49%), [Abzan Falconer](../../cards/A/ab.md#abzan-falconer) (+44%), [Exemplar of Light](../../cards/E/ex.md#exemplar-of-light) (+43%) · EDHREC: in 26,155 decks; most often under [The Destined Warrior](../../cards/T/thed.md#the-destined-warrior) (47.0% of its decks), [Aerith Gainsborough](../../cards/A/ae.md#aerith-gainsborough) (48.4% of its decks), [Cecil, Dark Knight](../../cards/C/ce.md#cecil-dark-knight--cecil-redeemed-paladin) (46.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#rosa-resolute-white-mage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/555/rosa-resolute-white-mage) · oracle_id `9c4fdd20-0396-40b7-8687-43b1035b6956` · printing: FIN #555 (2025-06-13) · [rulings](https://api.scryfall.com/cards/c44e0ad6-9f44-4e4c-8c3b-3ee99409a740/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

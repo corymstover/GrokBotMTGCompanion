@@ -78,6 +78,9 @@ schema: 2
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6577 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 896 decks; highest synergy [Achilles Davenport](../../cards/A/ac.md#achilles-davenport) (+93%), [Brotherhood Spy](../../cards/B/br.md#brotherhood-spy) (+87%), [Assassin Initiate](../../cards/A/as.md#assassin-initiate) (+86%) · EDHREC: in 22,426 decks; most often under [Ezio Auditore da Firenze](../../cards/E/ez.md#ezio-auditore-da-firenze) (82.1% of its decks), [Etrata, Deadly Fugitive](../../cards/E/et.md#etrata-deadly-fugitive) (54.1% of its decks), [Ramses, Assassin Lord](../../cards/R/ram.md#ramses-assassin-lord) (61.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/E.md#ezio-blade-of-vengeance)
 - **Source flags:** [Scryfall](https://scryfall.com/card/acr/275/ezio-blade-of-vengeance) · oracle_id `2127a245-d664-45cb-8ed1-0024de1a10df` · printing: ACR #275 (2024-07-05) · [rulings](https://api.scryfall.com/cards/bbdc8019-9b5e-4d9a-a09b-2a14f41ddfe1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ezio, Brash Novice
@@ -127,6 +130,8 @@ schema: 2
   - *2015-11-04* — All experience counters are identical, no matter how you got them. For example, the last ability will count experience counters that you got from the first ability, from another ability, from proliferating, and so on.
   - *2015-11-04* — Each game pack includes a card labeled "Experience" with the suggestion "Place your experience counters here." This card isn't required for play. It's simply a convenient spot to put your experience counters, which can be represented with dice, glass beads, or other small items.
   - *2015-11-04* — Experience counters are the second kind of counters a player can have, joining poison.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Sage of Hours + Ezuri, Claw of Progress](https://commanderspellbook.com/combo/1494-2356/) (Infinite turns, Lock) · EDHREC as commander: 7,404 decks; highest synergy [Fathom Mage](../../cards/F/fa.md#fathom-mage) (+63%), [Champion of Lambholt](../../cards/C/cha.md#champion-of-lambholt) (+61%), [Thrummingbird](../../cards/T/thr.md#thrummingbird) (+56%) · EDHREC: in 20,436 decks; most often under [Azlask, the Swelling Scourge](../../cards/A/az.md#azlask-the-swelling-scourge) (59.8% of its decks), [The Astonishing Ant-Man](../../cards/T/thea.md#the-astonishing-ant-man) (55.2% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (2.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/211/ezuri-claw-of-progress) · oracle_id `40eacdae-fae5-46b9-a9e5-9211469f74fc` · printing: 2X2 #211 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ezuri, Renegade Leader

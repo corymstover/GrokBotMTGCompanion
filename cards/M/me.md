@@ -807,6 +807,8 @@ schema: 2
 - **Rulings** (2):
   - *2013-09-15* — An "extra turn" is any turn created by a spell or ability. Notably, it doesn't include additional turns taken in tournaments after time expires for a round.
   - *2013-09-15* — It doesn't matter whose turn it is. In very rare cases, an opponent may be taking an extra turn and gain control of Medomai. Medomai can't attack during that turn.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Medomai the Ageless + Satoru Umezawa](https://commanderspellbook.com/combo/1267-3489/) (Infinite turns, Lock) · EDHREC as commander: 623 decks; highest synergy [Duelist's Heritage](../../cards/D/du.md#duelists-heritage) (+41%), [Warden of Evos Isle](../../cards/W/war.md#warden-of-evos-isle) (+36%), [Fireshrieker](../../cards/F/fi.md#fireshrieker) (+35%) · EDHREC: in 23,656 decks; most often under [Jin Sakai, Ghost of Tsushima](../../cards/J/ji.md#jin-sakai-ghost-of-tsushima) (32.9% of its decks), [Arthur, Marigold Knight](../../cards/A/art.md#arthur-marigold-knight) (37.1% of its decks), [Kamiz, Obscura Oculus](../../cards/K/ka.md#kamiz-obscura-oculus) (30.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ths/196/medomai-the-ageless) · oracle_id `b6b91ea7-a22c-4835-8c62-3360b0fd3a8b` · printing: THS #196 (2013-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Medusa, Inhuman Queen
@@ -3186,6 +3188,8 @@ schema: 2
   - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
   - *2024-11-08* — Whatever you do, don't eat the delicious cards.
   - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 28 decks; highest synergy [Bilbo, Fellow Conspirator](../../cards/B/bi.md#bilbo-fellow-conspirator) (+98%), [The Notary Hobbits](../../cards/T/then.md#the-notary-hobbits) (+98%), [Feasting Hobbit](../../cards/F/fe.md#feasting-hobbit) (+88%) · EDHREC: in 25,568 decks; most often under [Frodo, Adventurous Hobbit // Sam, Loyal Attendant](../../cards/F/fr.md#frodo-adventurous-hobbit) (57.4% of its decks), [Samwise Gamgee](../../cards/S/sam.md#samwise-gamgee) (48.3% of its decks), [Merry, Warden of Isengard // Pippin, Warden of Isengard](../../cards/M/me.md#merry-warden-of-isengard) (35.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/177/meriadoc-brandybuck) · oracle_id `fec6a4a7-4ded-4062-b99b-c1826dea7113` · printing: LTR #177 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Meria, Scholar of Antiquity

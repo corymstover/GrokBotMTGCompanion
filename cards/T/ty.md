@@ -84,7 +84,9 @@ schema: 2
   - *2025-10-02* — If Ty Lee, Chi Blocker ceases to be under your control before its ability resolves, you will still tap the targeted creature, but it will untap normally during its controller's next untap step.
   - *2025-10-02* — If Ty Lee, Chi Blocker leaves the battlefield, you no longer control her, and her effect ends.
   - *2025-10-02* — If another player gains control of Ty Lee, Chi Blocker, her effect ends. Regaining control of Ty Lee, Chi Blocker won't cause the effect to resume.
-- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/T.md#ty-lee-chi-blocker)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Mai and Zuko (Grixis)](../../grixis/decks/mai-and-zuko.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 210 decks; highest synergy [Niblis of Frost](../../cards/N/ni.md#niblis-of-frost) (+39%), [Aqueous Form](../../cards/A/aq.md#aqueous-form) (+35%), [Enter the Enigma](../../cards/E/en.md#enter-the-enigma) (+35%) · EDHREC: in 22,685 decks; most often under [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (14.3% of its decks), [Katara, the Fearless](../../cards/K/ka.md#katara-the-fearless) (49.6% of its decks), [Sokka, Tenacious Tactician](../../cards/S/so.md#sokka-tenacious-tactician) (22.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/T.md#ty-lee-chi-blocker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/76/ty-lee-chi-blocker) · oracle_id `081ad4e3-cda3-41cc-890f-412611dc9ea0` · printing: TLA #76 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tymaret Calls the Dead

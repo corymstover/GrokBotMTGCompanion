@@ -356,6 +356,8 @@ schema: 2
   > *—Zuko*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6468 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 872 decks; highest synergy [Firebender Ascension](../../cards/F/fi.md#firebender-ascension) (+59%), [Bulk Up](../../cards/B/bu.md#bulk-up) (+50%), [Blackblade Reforged](../../cards/B/bla.md#blackblade-reforged) (+46%) · EDHREC: in 22,973 decks; most often under [Ozai, the Phoenix King](../../cards/O/oz.md#ozai-the-phoenix-king) (28.9% of its decks), [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (5.6% of its decks), [Fire Lord Zuko](../../cards/F/fi.md#fire-lord-zuko) (12.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#combustion-man)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/127/combustion-man) · oracle_id `533b107c-fd66-45ef-b74e-e6bd9b75ea8f` · printing: TLA #127 (2025-11-21) · [rulings](https://api.scryfall.com/cards/86f7399d-6876-4e85-ba34-ff1f97dc144a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

@@ -29,8 +29,9 @@ schema: 2
 
 ### Nadaar, Selfless Paladin
 
-[Card entry](../cards/N/na.md#nadaar-selfless-paladin) · **2 pages** (rules 1 · card data 1)
+[Card entry](../cards/N/na.md#nadaar-selfless-paladin) · **3 pages** (edh guides 1 · rules 1 · card data 1)
 
+- **EDH guides (1):** [EDH Packages → Tokens: Anthems](../EDH%20Packages.md#tokens-anthems)
 - **Rules (1):** [Keyword Encyclopedia → Venture into the Dungeon](../Keyword%20Encyclopedia.md#venture-into-the-dungeon)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Dungeons](../Tokens%2C%20Emblems%20%26%20Dungeons.md#dungeons)
 

@@ -1370,6 +1370,8 @@ schema: 2
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6736 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 16 combos; most popular [Clement, the Worrywort + Intruder Alarm + Stickytongue Sentinel](https://commanderspellbook.com/combo/1636-5914-5915/) (Infinite creature LTB, Infinite creature ETB) · EDHREC as commander: 8,331 decks; highest synergy [Pond Prophet](../../cards/P/po.md#pond-prophet) (+91%), [Dour Port-Mage](../../cards/D/do.md#dour-port-mage) (+90%), [Clifftop Lookout](../../cards/C/cl.md#clifftop-lookout) (+86%) · EDHREC: in 14,278 decks; most often under [Grolnok, the Omnivore](../../cards/G/gro.md#grolnok-the-omnivore) (62.5% of its decks), [Glarb, Calamity's Augur](../../cards/G/gl.md#glarb-calamitys-augur) (15.8% of its decks), [Helga, Skittish Seer](../../cards/H/he.md#helga-skittish-seer) (5.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#clement-the-worrywort)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/209/clement-the-worrywort) · oracle_id `57ce5ebd-cfac-4bb9-b010-04d0c285be27` · printing: BLB #209 (2024-08-02) · [rulings](https://api.scryfall.com/cards/7028130c-c91d-4bf7-b0b0-450f71107d7a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

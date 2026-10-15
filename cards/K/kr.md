@@ -463,6 +463,8 @@ schema: 2
 - **Keywords:** Double strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5990 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Breath of Fury + Kratos, God of War](https://commanderspellbook.com/combo/3259-6968--95/) (Infinite creature LTB, Infinite creature ETB) · EDHREC as commander: 9,725 decks; highest synergy [World at War](../../cards/W/wo.md#world-at-war) (+71%), [Urabrask the Hidden](../../cards/U/ur.md#urabrask-the-hidden) (+63%), [Crawlspace](../../cards/C/cr.md#crawlspace) (+60%) · EDHREC: in 16,501 decks; most often under [Atreus, Impulsive Son // Kratos, Stoic Father](../../cards/A/at.md#atreus-impulsive-son) (45.1% of its decks), [Ares, God of War](../../cards/A/are.md#ares-god-of-war) (34.3% of its decks), [Gornog, the Red Reaper](../../cards/G/gor.md#gornog-the-red-reaper) (25.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/2207/kratos-god-of-war) · oracle_id `42e55b84-8250-441d-a09e-7c61bf7661cc` · printing: SLD #2207 (2025-10-27) · [rulings](https://api.scryfall.com/cards/fb97e2a1-0e86-4c12-8d31-6ff7b825ca10/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kratos, Stoic Father
