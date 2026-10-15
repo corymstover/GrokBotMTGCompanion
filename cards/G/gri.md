@@ -372,6 +372,8 @@ schema: 2
   - *2023-06-16* — If you choose not to cast the card, it is put on the bottom of its owner's library in a random order along with the other exiled cards.
   - *2023-06-16* — The cards are exiled face up. All players will be able to see them.
   - *2023-06-16* — You cast the card while the ability is resolving and still on the stack. You can't wait to cast it later in the turn.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Nathan Drake, Treasure Hunter (Grixis)](../../grixis/decks/nathan-drake-treasure-hunter.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 996 decks; highest synergy [Fireshrieker](../../cards/F/fi.md#fireshrieker) (+59%), [Arcane Heist](../../cards/A/arc.md#arcane-heist) (+57%), [Combat Research](../../cards/C/com.md#combat-research) (+52%) · EDHREC: in 51,421 decks; most often under [Sauron, the Dark Lord](../../cards/S/sau.md#sauron-the-dark-lord) (22.9% of its decks), [Lord of the Nazgûl](../../cards/L/lo.md#lord-of-the-nazgûl) (34.9% of its decks), [Gonti, Canny Acquisitor](../../cards/G/gon.md#gonti-canny-acquisitor) (40.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/G.md#gríma-sarumans-footman)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/57/gr%C3%ADma-sarumans-footman) · oracle_id `9df60bb7-2dd4-4d22-b814-f52145356424` · printing: LTC #57 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

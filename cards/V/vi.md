@@ -1982,6 +1982,8 @@ schema: 2
   - *2025-06-06* — The back face of a nonmodal double-faced card usually has a color indicator that defines its color.
   - *2025-06-06* — The mana value of a nonmodal double-faced card is the mana value of its front face, no matter which face is up.
   - *2025-06-06* — Use the creature's power as it last existed on the battlefield to determine how many +1/+1 counters to put on Vincent Valentine.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 5,386 decks; highest synergy [Sheoldred's Edict](../../cards/S/she.md#sheoldreds-edict) (+55%), [Accursed Marauder](../../cards/A/ac.md#accursed-marauder) (+52%), [Fleshbag Marauder](../../cards/F/fl.md#fleshbag-marauder) (+52%) · EDHREC: in 43,733 decks; most often under [Sephiroth, Fabled SOLDIER](../../cards/S/sep.md#sephiroth-fabled-soldier--sephiroth-one-winged-angel) (29.2% of its decks), [Ezio Auditore da Firenze](../../cards/E/ez.md#ezio-auditore-da-firenze) (15.0% of its decks), [Terra, Herald of Hope](../../cards/T/te.md#terra-herald-of-hope) (8.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/V.md#vincent-valentine--galian-beast)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/125/vincent-valentine-galian-beast) · oracle_id `f40e6bbf-1fed-4ec5-869d-18c2dd396d14` · printing: FIN #125 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

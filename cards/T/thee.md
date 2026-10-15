@@ -93,6 +93,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2570 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-10-02* — The Earth King's second ability counts the number of creatures with power 4 or greater you attack with when the ability triggers. Even if some or all of those creatures are no longer attacking or no longer have power 4 or greater when the ability resolves, they still count towards how many lands you can search for.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,014 decks; highest synergy [Rampaging Baloths](../../cards/R/ram.md#rampaging-baloths) (+64%), [Goreclaw, Terror of Qal Sisma](../../cards/G/gor.md#goreclaw-terror-of-qal-sisma) (+55%), [Outcaster Trailblazer](../../cards/O/ou.md#outcaster-trailblazer) (+53%) · EDHREC: in 62,681 decks; most often under [Katara, the Fearless](../../cards/K/ka.md#katara-the-fearless) (64.2% of its decks), [Avatar Aang](../../cards/A/av.md#avatar-aang--aang-master-of-elements) (25.3% of its decks), [Toph, the First Metalbender](../../cards/T/to.md#toph-the-first-metalbender) (16.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/T.md#the-earth-king)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/172/the-earth-king) · oracle_id `d5770b0f-4493-42e9-a2d7-0e74a28da4ba` · printing: TLA #172 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

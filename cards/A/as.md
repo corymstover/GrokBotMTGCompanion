@@ -2044,6 +2044,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3749 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2022-06-10* — Use the creature's power as it last existed on the battlefield to determine the value of X.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 15 combos; most popular [Astarion, the Decadent + Blood Tribute](https://commanderspellbook.com/combo/3373-4141/) (Target opponent loses the game, Infinite lifeloss for target opponent) · EDHREC as commander: 6,998 decks; highest synergy [Sanguine Bond](../../cards/S/san.md#sanguine-bond) (+63%), [Exquisite Blood](../../cards/E/ex.md#exquisite-blood) (+52%), [Astarion's Thirst](../../cards/A/as.md#astarions-thirst) (+50%) · EDHREC: in 37,629 decks; most often under [Edgar Markov](../../cards/E/ed.md#edgar-markov) (9.0% of its decks), [Oloro, Ageless Ascetic](../../cards/O/ol.md#oloro-ageless-ascetic) (11.2% of its decks), [Mister Negative](../../cards/M/mis.md#mister-negative) (38.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/265/astarion-the-decadent) · oracle_id `03048844-32bb-45a2-a754-73f75eaa4566` · printing: CLB #265 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Astelli Reclaimer

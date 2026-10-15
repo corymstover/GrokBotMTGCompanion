@@ -293,9 +293,10 @@ schema: 2
 
 ### Maja, Bretagard Protector
 
-[Card entry](../cards/M/maj.md#maja-bretagard-protector) · **2 pages** (decks 1 · card data 1)
+[Card entry](../cards/M/maj.md#maja-bretagard-protector) · **3 pages** (decks 1 · edh guides 1 · card data 1)
 
 - **Decks (1):** [Chulane, Teller of Tales (landfall theme)](../decks/theme-chulane-teller-of-tales-landfall.md)
+- **EDH guides (1):** [EDH Packages → Tokens: Anthems](../EDH%20Packages.md#tokens-anthems) (+1 more)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
 
 ### Majestic Heliopterus
@@ -357,10 +358,10 @@ schema: 2
 
 ### Malcolm, Keen-Eyed Navigator
 
-[Card entry](../cards/M/mal.md#malcolm-keen-eyed-navigator) · **6 pages** (decks 4 · edh guides 2)
+[Card entry](../cards/M/mal.md#malcolm-keen-eyed-navigator) · **7 pages** (decks 4 · edh guides 3)
 
 - **Decks (4):** [Admiral Beckett Brass (Grixis)](../grixis/decks/admiral-beckett-brass.md) · [Admiral Brass, Unsinkable (Grixis)](../grixis/decks/admiral-brass-unsinkable.md) · [Don Andres, the Renegade (Grixis)](../grixis/decks/don-andres-the-renegade.md) · [Edward Kenway (Grixis)](../grixis/decks/edward-kenway.md)
-- **EDH guides (2):** [EDH Pairings — Partner, Background, Friends forever & Doctor's companion → Partner](../EDH%20Pairings.md#partner) · [Grixis Packages → Ramp](../grixis/Grixis%20Packages.md#ramp)
+- **EDH guides (3):** [EDH Packages → Treasure: Repeatable Treasure makers](../EDH%20Packages.md#treasure-repeatable-treasure-makers) · [EDH Pairings — Partner, Background, Friends forever & Doctor's companion → Partner](../EDH%20Pairings.md#partner) · [Grixis Packages → Ramp](../grixis/Grixis%20Packages.md#ramp)
 
 ### Malevolent Hermit // Benevolent Geist
 
@@ -726,9 +727,10 @@ schema: 2
 
 ### Marrow-Gnawer
 
-[Card entry](../cards/M/mar.md#marrow-gnawer) · **2 pages** (decks 1 · card data 1)
+[Card entry](../cards/M/mar.md#marrow-gnawer) · **3 pages** (decks 1 · edh guides 1 · card data 1)
 
 - **Decks (1):** [Isshin, Two Heavens as One (Kamigawa-only)](../decks/plane-kamigawa-isshin-two-heavens-as-one.md)
+- **EDH guides (1):** [EDH Packages → Aristocrats: Fodder makers (multiple creature tokens)](../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
 
 ### Marshaling the Troops

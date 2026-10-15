@@ -1424,7 +1424,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3032 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2023-09-01* — For Syr Ginger's last ability, use its power from when it was last on the battlefield to determine how much life is gained. If that power was 0 or less, you gain no life.
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#syr-ginger-the-meal-ender)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Syr Konrad, the Grim (Eldraine-only)](../../decks/plane-eldraine-syr-konrad-the-grim.md) · Commander Spellbook: 20 combos; most popular [Samwise Gamgee + Syr Ginger, the Meal Ender + Gingerbrute + Academy Manufactor + Peregrin Took](https://commanderspellbook.com/combo/674-2206-4231-4321-5270/) (Infinite artifact ETB, Infinite artifact LTB) · EDHREC as commander: 2,020 decks; highest synergy [Candy Trail](../../cards/C/can.md#candy-trail) (+61%), [Lembas](../../cards/L/le.md#lembas) (+59%), [Tarrian's Soulcleaver](../../cards/T/ta.md#tarrians-soulcleaver) (+58%) · EDHREC: in 52,993 decks; most often under [Ragost, Deft Gastronaut](../../cards/R/rag.md#ragost-deft-gastronaut) (38.7% of its decks), [Ygra, Eater of All](../../cards/Y/yg.md#ygra-eater-of-all) (19.8% of its decks), [Brenard, Ginger Sculptor](../../cards/B/br.md#brenard-ginger-sculptor) (46.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Artifacts: Artifact payoffs](../../EDH%20Packages.md#artifacts-artifact-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/S.md#syr-ginger-the-meal-ender)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/252/syr-ginger-the-meal-ender) · oracle_id `2eb16535-718f-4b88-92bc-96429d796327` · printing: WOE #252 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Syr Gwyn, Hero of Ashvale

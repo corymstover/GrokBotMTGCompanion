@@ -124,6 +124,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3262 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2023-06-16* — Éowyn, Fearless Knight cares about the creature's colors just before it left the battlefield. These could be different from the creature card's colors in exile (for example, if it had a copy effect applied to it on the battlefield.)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 188 decks; highest synergy [Merry, Esquire of Rohan](../../cards/M/me.md#merry-esquire-of-rohan) (+67%), [Gilraen, Dúnedain Protector](../../cards/G/gi.md#gilraen-dúnedain-protector) (+58%), [Ephemerate](../../cards/E/ep.md#ephemerate) (+57%) · EDHREC: in 50,873 decks; most often under [Aragorn, the Uniter](../../cards/A/ara.md#aragorn-the-uniter) (38.1% of its decks), [Éowyn, Shieldmaiden](../../cards/E/eo.md#éowyn-shieldmaiden) (46.7% of its decks), [The Jolly Balloon Man](../../cards/T/thej.md#the-jolly-balloon-man) (24.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/201/%C3%A9owyn-fearless-knight) · oracle_id `dcc349e9-399d-4f33-8131-d1801272466a` · printing: LTR #201 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Éowyn, Lady of Rohan

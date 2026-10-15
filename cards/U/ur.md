@@ -618,6 +618,8 @@ schema: 2
 - **Keywords:** Flying, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2430 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [The Ur-Dragon](../../decks/the-ur-dragon.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 22,638 decks; highest synergy [Dragon Tempest](../../cards/D/dra.md#dragon-tempest) (+80%), [Hellkite Courser](../../cards/H/he.md#hellkite-courser) (+79%), [Lathliss, Dragon Queen](../../cards/L/la.md#lathliss-dragon-queen) (+78%) · EDHREC: in 45,803 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (47.3% of its decks), [Miirym, Sentinel Wyrm](../../cards/M/mii.md#miirym-sentinel-wyrm) (53.1% of its decks), [Tiamat](../../cards/T/ti.md#tiamat) (32.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/U.md#ureni-of-the-unwritten)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/9/ureni-of-the-unwritten) · oracle_id `99c2d3ef-e5b4-48cd-b3f5-de9b02c7c36a` · printing: TDC #9 (2025-04-11) · [rulings](https://api.scryfall.com/cards/f54ecbf1-83df-4486-bd6a-7d1f173b6863/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

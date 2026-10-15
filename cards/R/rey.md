@@ -37,6 +37,9 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3807 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 176 decks; highest synergy [Emeria Shepherd](../../cards/E/em.md#emeria-shepherd) (+52%), [Angel of the Ruins](../../cards/A/an.md#angel-of-the-ruins) (+49%), [Karmic Guide](../../cards/K/ka.md#karmic-guide) (+43%) · EDHREC: in 43,819 decks; most often under [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (42.7% of its decks), [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (16.3% of its decks), [Hashaton, Scarab's Fist](../../cards/H/ha.md#hashaton-scarabs-fist) (6.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Reanimation](../../EDH%20Packages.md#graveyard-reanimation) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/R.md#reya-dawnbringer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/uma/32/reya-dawnbringer) · oracle_id `08d1a5d1-141d-48e3-ac22-c2529191cb13` · printing: UMA #32 (2018-12-07) · [rulings](https://api.scryfall.com/cards/44b45bdd-829a-4fc1-ad37-17c2bd57fac8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reyav, Master Smith
@@ -52,6 +55,8 @@ schema: 2
 - **Rulings** (2):
   - *2020-11-10* — If a creature you control that's enchanted and equipped attacks, Reyav's ability will trigger only once for that creature. (Don't worry. Multiple instances of double strike are redundant. You're not missing much.)
   - *2020-11-10* — The creature needs to be enchanted or equipped at the moment it's declared as an attacker to cause Reyav's ability to trigger. If the creature is no longer enchanted or equipped (or no longer attacking) as the ability tries to resolve, the ability still resolves.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 672 decks; highest synergy [Sram, Senior Edificer](../../cards/S/sr.md#sram-senior-edificer) (+43%), [Bruenor Battlehammer](../../cards/B/br.md#bruenor-battlehammer) (+39%), [Goldvein Pick](../../cards/G/gol.md#goldvein-pick) (+36%) · EDHREC: in 58,851 decks; most often under [Cloud, Ex-SOLDIER](../../cards/C/cl.md#cloud-ex-soldier) (15.6% of its decks), [Ardenn, Intrepid Archaeologist // Rograkh, Son of Rohgahh](../../cards/A/ard.md#ardenn-intrepid-archaeologist) (59.1% of its decks), [Lightning, Army of One](../../cards/L/li.md#lightning-army-of-one) (30.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/290/reyav-master-smith) · oracle_id `d1fc2549-40d5-41c8-b3ab-07ea13e9381d` · printing: CMR #290 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reyhan, Last of the Abzan

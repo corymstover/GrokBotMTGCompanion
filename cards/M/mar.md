@@ -1485,6 +1485,8 @@ schema: 2
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2606 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,045 decks; highest synergy [Royal Assassin](../../cards/R/ro.md#royal-assassin) (+70%), [Hoard Robber](../../cards/H/ho.md#hoard-robber) (+69%), [Changeling Outcast](../../cards/C/cha.md#changeling-outcast) (+66%) · EDHREC: in 62,572 decks; most often under [Ezio Auditore da Firenze](../../cards/E/ez.md#ezio-auditore-da-firenze) (59.4% of its decks), [Vihaan, Goldwaker](../../cards/V/vi.md#vihaan-goldwaker) (71.9% of its decks), [Laughing Jasper Flint](../../cards/L/la.md#laughing-jasper-flint) (65.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/138/mari-the-killing-quill) · oracle_id `5f1fdc23-9af0-41a1-aeba-7288f9642734` · printing: OTC #138 (2024-04-19) · [rulings](https://api.scryfall.com/cards/6b4b3c1a-671c-422d-a98c-7d750760ca46/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maritime Guard
@@ -2017,7 +2019,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3170 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2004-12-01* — Marrow-Gnawer's ability counts the number of Rats on the battlefield when it resolves, so you don't count the sacrificed Rat.
-- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/M.md#marrow-gnawer)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Isshin, Two Heavens as One (Kamigawa-only)](../../decks/plane-kamigawa-isshin-two-heavens-as-one.md) · Commander Spellbook: 9 combos; most popular [Marrow-Gnawer + Thornbite Staff](https://commanderspellbook.com/combo/2178-3126/) (Infinite creature tokens, Infinite creature ETB) · EDHREC as commander: 14,389 decks; highest synergy [Piper of the Swarm](../../cards/P/pi.md#piper-of-the-swarm) (+76%), [Pack Rat](../../cards/P/pa.md#pack-rat) (+73%), [Karumonix, the Rat King](../../cards/K/ka.md#karumonix-the-rat-king) (+72%) · EDHREC: in 38,227 decks; most often under [Wick, the Whorled Mind](../../cards/W/wi.md#wick-the-whorled-mind) (72.5% of its decks), [Vren, the Relentless](../../cards/V/vr.md#vren-the-relentless) (67.7% of its decks), [Karumonix, the Rat King](../../cards/K/ka.md#karumonix-the-rat-king) (74.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/M.md#marrow-gnawer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/124/marrow-gnawer) · oracle_id `2b934761-5720-477b-94b7-d1d91dc581a6` · printing: CHK #124 (2004-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Marrow Shards

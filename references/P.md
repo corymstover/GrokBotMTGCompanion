@@ -325,9 +325,10 @@ schema: 2
 
 ### Pashalik Mons
 
-[Card entry](../cards/P/pa.md#pashalik-mons) · **2 pages** (decks 1 · card data 1)
+[Card entry](../cards/P/pa.md#pashalik-mons) · **3 pages** (decks 1 · edh guides 1 · card data 1)
 
 - **Decks (1):** [Krenko, Mob Boss](../decks/krenko-mob-boss.md)
+- **EDH guides (1):** [EDH Packages → Aristocrats: Fodder makers (multiple creature tokens)](../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens)
 - **Card data (1):** [Artist Index → Artists E](../Artist%20Index.md#artists-e)
 
 ### Passionate Archaeologist

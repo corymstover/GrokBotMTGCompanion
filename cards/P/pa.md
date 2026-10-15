@@ -1832,6 +1832,8 @@ schema: 2
   - *2023-11-10* — The value of X is calculated only once, as the ability resolves. If the creature has left the battlefield, use its toughness as it last existed on the battlefield.
   - *2023-11-10* — When you discover, you must exile cards. The only optional part of the ability is whether you cast the exiled card or put it into your hand.
   - *2023-11-10* — You exile the cards face up. All players will be able to see them.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Gishath, Sun's Avatar](../../decks/gishath-suns-avatar.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 37,404 decks; highest synergy [Gishath, Sun's Avatar](../../cards/G/gi.md#gishath-suns-avatar) (+72%), [Zacama, Primal Calamity](../../cards/Z/za.md#zacama-primal-calamity) (+71%), [Regisaur Alpha](../../cards/R/reg.md#regisaur-alpha) (+68%) · EDHREC: in 29,952 decks; most often under [Gishath, Sun's Avatar](../../cards/G/gi.md#gishath-suns-avatar) (73.9% of its decks), [Atla Palani, Nest Tender](../../cards/A/at.md#atla-palani-nest-tender) (36.1% of its decks), [Wayta, Trainer Prodigy](../../cards/W/way.md#wayta-trainer-prodigy) (21.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/P.md#pantlaza-sun-favored)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/4/pantlaza-sun-favored) · oracle_id `b828ba28-e98d-498b-9ab4-d4aa7143e407` · printing: LCC #4 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3129,7 +3131,9 @@ schema: 2
 - **Rulings** (2):
   - *2022-12-08* — If Pashalik Mons and one or more other Goblins you control die at the same time, its ability will trigger for each of those creatures.
   - *2022-12-08* — You can sacrifice Pashalik Mons to pay the cost of its last ability.
-- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/P.md#pashalik-mons)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Krenko, Mob Boss](../../decks/krenko-mob-boss.md) · Commander Spellbook: 11 combos; most popular [Skirk Prospector + Pashalik Mons + Mana Echoes](https://commanderspellbook.com/combo/38-2440-2967/) (Infinite colorless mana, Infinite creature tokens) · EDHREC as commander: 543 decks; highest synergy [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (+78%), [Skirk Prospector](../../cards/S/sk.md#skirk-prospector) (+73%), [Siege-Gang Commander](../../cards/S/si.md#siege-gang-commander) (+67%) · EDHREC: in 61,378 decks; most often under [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (67.5% of its decks), [Zada, Hedron Grinder](../../cards/Z/za.md#zada-hedron-grinder) (21.0% of its decks), [Grub, Storied Matriarch](../../cards/G/gru.md#grub-storied-matriarch--grub-notorious-auntie) (59.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/P.md#pashalik-mons)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/133/pashalik-mons) · oracle_id `bdb94ccd-1bb5-4bb7-9539-e1b1c97c19c5` · printing: DMR #133 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Passageway Seer

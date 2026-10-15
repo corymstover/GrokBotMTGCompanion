@@ -817,6 +817,8 @@ schema: 2
 - **Rulings** (2):
   - *2023-11-10* — If a card that isn't a transforming double-faced card is a copy of Aclazotz, Deepest Betrayal, it won't return to the battlefield when it dies.
   - *2023-11-10* — The last ability of Temple of the Dead will resolve even if you have two or more cards in hand at that time.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,057 decks; highest synergy [Waste Not](../../cards/W/was.md#waste-not) (+74%), [Geth's Grimoire](../../cards/G/ge.md#geths-grimoire) (+65%), [Painful Quandary](../../cards/P/pa.md#painful-quandary) (+61%) · EDHREC: in 62,009 decks; most often under [Tinybones, Bauble Burglar](../../cards/T/ti.md#tinybones-bauble-burglar) (51.6% of its decks), [Kefka, Court Mage](../../cards/K/ke.md#kefka-court-mage--kefka-ruler-of-ruin) (18.5% of its decks), [Zoraline, Cosmos Caller](../../cards/Z/zo.md#zoraline-cosmos-caller) (65.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#aclazotz-deepest-betrayal--temple-of-the-dead)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/88/aclazotz-deepest-betrayal-temple-of-the-dead) · oracle_id `fcdfe9d5-2743-4d3e-ab57-bf0f96beaa15` · printing: LCI #88 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

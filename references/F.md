@@ -328,8 +328,9 @@ schema: 2
 
 ### Fandaniel, Telophoroi Ascian
 
-[Card entry](../cards/F/fa.md#fandaniel-telophoroi-ascian) · **1 pages** (card data 1)
+[Card entry](../cards/F/fa.md#fandaniel-telophoroi-ascian) · **2 pages** (edh guides 1 · card data 1)
 
+- **EDH guides (1):** [EDH Packages → Spellslinger: Cast-trigger payoffs](../EDH%20Packages.md#spellslinger-cast-trigger-payoffs)
 - **Card data (1):** [Artist Index → Artists P](../Artist%20Index.md#artists-p)
 
 ### Fang Dragon // Forktail Sweep
@@ -386,8 +387,9 @@ schema: 2
 
 ### Farmer Cotton
 
-[Card entry](../cards/F/fa.md#farmer-cotton) · **1 pages** (card data 1)
+[Card entry](../cards/F/fa.md#farmer-cotton) · **2 pages** (edh guides 1 · card data 1)
 
+- **EDH guides (1):** [EDH Packages → Aristocrats: Fodder makers (multiple creature tokens)](../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
 
 ### Farseek

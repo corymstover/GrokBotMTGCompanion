@@ -478,9 +478,9 @@ schema: 2
 
 ### Zurgo Stormrender
 
-[Card entry](../cards/Z/zu.md#zurgo-stormrender) · **3 pages** (edh guides 1 · rules 1 · card data 1)
+[Card entry](../cards/Z/zu.md#zurgo-stormrender) · **4 pages** (edh guides 2 · rules 1 · card data 1)
 
-- **EDH guides (1):** [EDH Staples → Mardu (WBR)](../EDH%20Staples.md#mardu-wbr)
+- **EDH guides (2):** [EDH Packages → Card advantage: Repeatable draw engines (permanents)](../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [EDH Staples → Mardu (WBR)](../EDH%20Staples.md#mardu-wbr)
 - **Rules (1):** [Keyword Encyclopedia → Mobilize](../Keyword%20Encyclopedia.md#mobilize)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
 

@@ -596,6 +596,8 @@ schema: 2
   - *2022-06-10* — If your commander loses the choose a Background ability or stops being a Background during the game, as appropriate, it is still your commander.
   - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won’t have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won’t usually be a creature anyway).
   - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Shadowheart, Dark Justiciar + Body of Research](https://commanderspellbook.com/combo/648-4575/) (Infinite card draw, Infinite draw triggers) · EDHREC as commander: 131 decks; highest synergy [Black Market](../../cards/B/bla.md#black-market) (+49%), [Viconia, Drow Apostate](../../cards/V/vi.md#viconia-drow-apostate) (+43%), [Victimize](../../cards/V/vi.md#victimize) (+41%) · EDHREC: in 41,285 decks; most often under [Xu-Ifit, Osteoharmonist](../../cards/X/xu.md#xu-ifit-osteoharmonist) (67.9% of its decks), [Minthara, Merciless Soul](../../cards/M/min.md#minthara-merciless-soul) (58.1% of its decks), [Thranduil, the Elvenking](../../cards/T/thr.md#thranduil-the-elvenking) (18.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#shadowheart-dark-justiciar)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/146/shadowheart-dark-justiciar) · oracle_id `180919a5-67b2-473a-9b90-a828bdc2477c` · printing: CLB #146 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1067,6 +1069,8 @@ schema: 2
 - **Rulings** (2):
   - *2021-04-16* — You can target a player with the third mode even if they control no creatures.
   - *2021-04-16* — You may choose exactly zero modes or two modes. You can't choose only one mode. If you choose two modes, you choose which two and the target players as you put the triggered ability on the stack.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 3,367 decks; highest synergy [Breena, the Demagogue](../../cards/B/br.md#breena-the-demagogue) (+59%), [Combat Calligrapher](../../cards/C/com.md#combat-calligrapher) (+58%), [Inkshield](../../cards/I/ink.md#inkshield) (+51%) · EDHREC: in 59,929 decks; most often under [Felothar the Steadfast](../../cards/F/fe.md#felothar-the-steadfast) (32.5% of its decks), [Breena, the Demagogue](../../cards/B/br.md#breena-the-demagogue) (59.5% of its decks), [Queen Marchesa](../../cards/Q/qu.md#queen-marchesa) (19.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#shadrix-silverquill)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/330/shadrix-silverquill) · oracle_id `2143f413-7baa-4fd6-a7ca-32f52bfa553f` · printing: SOC #330 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

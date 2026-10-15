@@ -351,7 +351,9 @@ schema: 2
 - **Rulings** (2):
   - *2020-11-10* — If an effect creates a copy of a permanent spell, that spell becomes a token on the battlefield under your control, but that token has not been "created." It won't count for Thalisse's ability.
   - *2020-11-10* — Thalisse's ability counts all tokens you created that turn prior to the ability resolving, including both noncreature tokens and creature tokens. It doesn't matter if those tokens are still on the battlefield or still under your control.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#thalisse-reverent-medium)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,685 decks; highest synergy [Intangible Virtue](../../cards/I/int.md#intangible-virtue) (+56%), [Adeline, Resplendent Cathar](../../cards/A/ad.md#adeline-resplendent-cathar) (+49%), [Lingering Souls](../../cards/L/li.md#lingering-souls) (+45%) · EDHREC: in 59,065 decks; most often under [Zurgo Stormrender](../../cards/Z/zu.md#zurgo-stormrender) (55.9% of its decks), [Caesar, Legion's Emperor](../../cards/C/cae.md#caesar-legions-emperor) (22.7% of its decks), [Marneus Calgar](../../cards/M/mar.md#marneus-calgar) (24.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/T.md#thalisse-reverent-medium)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/306/thalisse-reverent-medium) · oracle_id `77cf4fb1-593f-4240-96d9-6ae9084baeac` · printing: TDC #306 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thallid

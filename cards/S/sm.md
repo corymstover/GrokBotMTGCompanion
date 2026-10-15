@@ -243,7 +243,9 @@ schema: 2
 - **Keywords:** Flying, Treasure, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3508 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#smaug-the-magnificent)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 5 combos; most popular [Obeka, Splitter of Seconds + Smaug the Magnificent + Aggravated Assault](https://commanderspellbook.com/combo/3750-5471-7651/) (Infinite artifact ETB, Infinite artifact LTB) · EDHREC as commander: 4,387 decks; highest synergy [Goldspan Dragon](../../cards/G/gol.md#goldspan-dragon) (+75%), [Xorn](../../cards/X/xo.md#xorn) (+74%), [Rain of Riches](../../cards/R/rai.md#rain-of-riches) (+67%) · EDHREC: in 43,927 decks; most often under [Smaug the Impenetrable](../../cards/S/sm.md#smaug-the-impenetrable) (75.9% of its decks), [Thorin, King of Durin's Folk](../../cards/T/tho.md#thorin-king-of-durins-folk) (57.9% of its decks), [Smaug, Wicked Worm](../../cards/S/sm.md#smaug-wicked-worm) (74.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Treasure: Repeatable Treasure makers](../../EDH%20Packages.md#treasure-repeatable-treasure-makers) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/S.md#smaug-the-magnificent)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/110/smaug-the-magnificent) · oracle_id `c53b7602-5e36-4900-896c-844bf6eac22e` · printing: HOB #110 (2026-08-14) · [rulings](https://api.scryfall.com/cards/6a5d8fad-2ffd-4645-8c49-907999b6cecf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Smaug, Wicked Worm

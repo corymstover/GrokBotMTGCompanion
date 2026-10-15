@@ -153,9 +153,10 @@ schema: 2
 
 ### Danny Pink
 
-[Card entry](../cards/D/da.md#danny-pink) · **2 pages** (decks 1 · rules 1)
+[Card entry](../cards/D/da.md#danny-pink) · **3 pages** (decks 1 · edh guides 1 · rules 1)
 
 - **Decks (1):** [Marchesa, the Black Rose (Grixis)](../grixis/decks/marchesa-the-black-rose.md)
+- **EDH guides (1):** [EDH Packages → Card advantage: Repeatable draw engines (permanents)](../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents)
 - **Rules (1):** [Keyword Encyclopedia → Mentor](../Keyword%20Encyclopedia.md#mentor)
 
 ### Daredevil, Man Without Fear
@@ -1819,9 +1820,10 @@ schema: 2
 
 ### Doc Aurlock, Grizzled Genius
 
-[Card entry](../cards/D/do.md#doc-aurlock-grizzled-genius) · **2 pages** (decks 2)
+[Card entry](../cards/D/do.md#doc-aurlock-grizzled-genius) · **3 pages** (decks 2 · edh guides 1)
 
 - **Decks (2):** [Muldrotha, the Gravetide](../decks/muldrotha-the-gravetide.md) · [Muldrotha, the Gravetide (self mill theme)](../decks/theme-muldrotha-the-gravetide-self-mill.md)
+- **EDH guides (1):** [EDH Packages → Ramp: Cost reducers](../EDH%20Packages.md#ramp-cost-reducers)
 
 ### Docent of Perfection // Final Iteration
 

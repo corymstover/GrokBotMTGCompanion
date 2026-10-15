@@ -403,6 +403,8 @@ schema: 2
 - **Rulings** (2):
   - *2025-06-06* — The affected land keeps any other card types (such as artifact) and supertypes (such as basic or legendary) when it loses its land types.
   - *2025-06-06* — Ultima's last ability is a triggered mana ability. It doesn't use the stack and can't be responded to.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Kozilek, the Great Distortion](../../decks/kozilek-the-great-distortion.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 8,058 decks; highest synergy [Zhulodok, Void Gorger](../../cards/Z/zh.md#zhulodok-void-gorger) (+38%), [Breaker of Creation](../../cards/B/br.md#breaker-of-creation) (+31%), [Summon: Bahamut](../../cards/S/sum.md#summon-bahamut) (+30%) · EDHREC: in 49,618 decks; most often under [Zhulodok, Void Gorger](../../cards/Z/zh.md#zhulodok-void-gorger) (52.4% of its decks), [Ulalek, Fused Atrocity](../../cards/U/ul.md#ulalek-fused-atrocity) (25.9% of its decks), [Atreus, Impulsive Son // Kratos, Stoic Father](../../cards/A/at.md#atreus-impulsive-son) (16.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/U.md#ultima-origin-of-oblivion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/2/ultima-origin-of-oblivion) · oracle_id `baa337ce-edc6-4ee5-a898-68e9dbb4ab93` · printing: FIN #2 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

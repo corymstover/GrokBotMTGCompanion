@@ -2559,6 +2559,8 @@ schema: 2
   - *2024-11-08* — If Prime Speaker Zegana enters at the same time as another creature you control, you won't consider that creature when determining the greatest power among creatures you control.
   - *2024-11-08* — If Prime Speaker Zegana is no longer on the battlefield when its last ability resolves, use its power as it last existed on the battlefield to determine how many cards to draw.
   - *2024-11-08* — The value of X is calculated only once, as Prime Speaker Zegana's first ability resolves. If you control no other creatures at that time, X is 0.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,099 decks; highest synergy [Managorger Hydra](../../cards/M/man.md#managorger-hydra) (+28%), [Psychosis Crawler](../../cards/P/ps.md#psychosis-crawler) (+28%), [Chasm Skulker](../../cards/C/cha.md#chasm-skulker) (+27%) · EDHREC: in 57,353 decks; most often under [Hakbal of the Surging Soul](../../cards/H/ha.md#hakbal-of-the-surging-soul) (41.1% of its decks), [Peter Parker](../../cards/P/pe.md#peter-parker--amazing-spider-man) (47.0% of its decks), [Arixmethes, Slumbering Isle](../../cards/A/ari.md#arixmethes-slumbering-isle) (39.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/664/prime-speaker-zegana) · oracle_id `311e9368-696a-47e7-aa2f-3ef1b1a92e2b` · printing: FDN #664 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Primetime Suspect
@@ -2910,6 +2912,8 @@ schema: 2
   > *"The Lord Aragorn I hold to be my liege lord, whether he claim it or no. His wish is to me a command."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3400 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 470 decks; highest synergy [Skystrike Officer](../../cards/S/sk.md#skystrike-officer) (+46%), [Horn of Gondor](../../cards/H/ho.md#horn-of-gondor) (+43%), [Faramir, Prince of Ithilien](../../cards/F/fa.md#faramir-prince-of-ithilien) (+42%) · EDHREC: in 48,701 decks; most often under [Éowyn, Shieldmaiden](../../cards/E/eo.md#éowyn-shieldmaiden) (63.6% of its decks), [Marneus Calgar](../../cards/M/mar.md#marneus-calgar) (34.4% of its decks), [Aragorn, the Uniter](../../cards/A/ara.md#aragorn-the-uniter) (22.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/219/prince-imrahil-the-fair) · oracle_id `4c66e0ca-2d8a-4f68-ad15-55d75959d6e8` · printing: LTR #219 (2023-06-23) · [rulings](https://api.scryfall.com/cards/7d486def-7c3f-41e9-bb28-4582450a7b9e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Prince of Thralls

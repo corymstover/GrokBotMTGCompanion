@@ -2496,6 +2496,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3271 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2013-04-15* — The effect of Vorel's ability will essentially double the counters on the target artifact, creature, or land. For example, if a creature has three +1/+1 counters and a divinity counter on it before the ability resolves, it will have six +1/+1 counters and two divinity counters on it after the ability resolves.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 64 combos; most popular [Vorel of the Hull Clade + Magistrate's Scepter](https://commanderspellbook.com/combo/3609-4312/) (Infinite turns, Lock) · EDHREC as commander: 1,712 decks; highest synergy [Kiora's Follower](../../cards/K/ki.md#kioras-follower) (+50%), [Everflowing Chalice](../../cards/E/ev.md#everflowing-chalice) (+49%), [Fathom Mage](../../cards/F/fa.md#fathom-mage) (+49%) · EDHREC: in 49,245 decks; most often under [Hakbal of the Surging Soul](../../cards/H/ha.md#hakbal-of-the-surging-soul) (40.8% of its decks), [Zaxara, the Exemplary](../../cards/Z/za.md#zaxara-the-exemplary) (16.8% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (6.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/294/vorel-of-the-hull-clade) · oracle_id `3001f971-c4db-4176-89b5-e7f4a8890c0f` · printing: LCC #294 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vorinclex, Monstrous Raider

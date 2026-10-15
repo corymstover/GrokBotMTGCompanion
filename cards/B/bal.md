@@ -258,6 +258,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3816 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2024-11-08* — For the purposes of deck construction, format legality, and all rules, abilities, and effects that refer to a card’s name, this card’s name is the same as that of E. Honda, Sumo Champion.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Horobi, Death's Wail + Baldin, Century Herdmaster](https://commanderspellbook.com/combo/905-4199/) (Destroy up to 100 creatures during each of your turns) · EDHREC as commander: 810 decks; highest synergy [Stoneskin](../../cards/S/sto.md#stoneskin) (+63%), [Nyx-Fleece Ram](../../cards/N/ny.md#nyx-fleece-ram) (+60%), [Daxos, Blessed by the Sun](../../cards/D/da.md#daxos-blessed-by-the-sun) (+58%) · EDHREC: in 43,031 decks; most often under [Felothar the Steadfast](../../cards/F/fe.md#felothar-the-steadfast) (71.9% of its decks), [Doran, Besieged by Time](../../cards/D/do.md#doran-besieged-by-time) (48.3% of its decks), [Betor, Kin to All](../../cards/B/be.md#betor-kin-to-all) (51.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/110/baldin-century-herdmaster) · oracle_id `14493624-fdc7-4630-9b1e-f35668651108` · printing: TDC #110 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Baldur's Gate

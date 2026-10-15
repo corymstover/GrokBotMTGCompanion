@@ -1228,9 +1228,10 @@ schema: 2
 
 ### Longshot, Rebel Bowman
 
-[Card entry](../cards/L/lo.md#longshot-rebel-bowman) · **2 pages** (decks 1 · card data 1)
+[Card entry](../cards/L/lo.md#longshot-rebel-bowman) · **3 pages** (decks 1 · edh guides 1 · card data 1)
 
 - **Decks (1):** [Mai and Zuko (Grixis)](../grixis/decks/mai-and-zuko.md)
+- **EDH guides (1):** [EDH Packages → Ramp: Cost reducers](../EDH%20Packages.md#ramp-cost-reducers) (+1 more)
 - **Card data (1):** [Artist Index → Artists M](../Artist%20Index.md#artists-m)
 
 ### Long-Term Plans
@@ -1305,8 +1306,9 @@ schema: 2
 
 ### Lord of the Nazgûl
 
-[Card entry](../cards/L/lo.md#lord-of-the-nazgûl) · **1 pages** (card data 1)
+[Card entry](../cards/L/lo.md#lord-of-the-nazgûl) · **2 pages** (edh guides 1 · card data 1)
 
+- **EDH guides (1):** [EDH Packages → Spellslinger: Cast-trigger payoffs](../EDH%20Packages.md#spellslinger-cast-trigger-payoffs)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
 
 ### Lord of Tresserhorn
@@ -1535,8 +1537,9 @@ schema: 2
 
 ### Lulu, Stern Guardian
 
-[Card entry](../cards/L/lu.md#lulu-stern-guardian) · **1 pages** (card data 1)
+[Card entry](../cards/L/lu.md#lulu-stern-guardian) · **2 pages** (edh guides 1 · card data 1)
 
+- **EDH guides (1):** [EDH Packages → +1/+1 counters: Proliferate](../EDH%20Packages.md#11-counters-proliferate)
 - **Card data (1):** [Artist Index → Artists A](../Artist%20Index.md#artists-a) (+1 more)
 
 ### Lumbering Worldwagon
@@ -1691,6 +1694,7 @@ schema: 2
 
 ### Lyse Hext
 
-[Card entry](../cards/L/ly.md#lyse-hext) · **1 pages** (card data 1)
+[Card entry](../cards/L/ly.md#lyse-hext) · **2 pages** (edh guides 1 · card data 1)
 
+- **EDH guides (1):** [EDH Packages → Ramp: Cost reducers](../EDH%20Packages.md#ramp-cost-reducers) (+1 more)
 - **Card data (1):** [Artist Index → Artists R](../Artist%20Index.md#artists-r)

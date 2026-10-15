@@ -773,6 +773,8 @@ schema: 2
 - **Rulings** (2):
   - *2017-08-25* — Tapping Mirri after creatures have attacked will not remove creatures from combat.
   - *2023-07-28* — While Mirri is tapped, there's no restriction on how many creatures can attack planeswalkers you control or battles you protect.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Saskia the Unyielding](../../decks/saskia-the-unyielding.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,249 decks; highest synergy [Regal Caracal](../../cards/R/reg.md#regal-caracal) (+45%), [Feline Sovereign](../../cards/F/fe.md#feline-sovereign) (+43%), [Arahbo, the First Fang](../../cards/A/ara.md#arahbo-the-first-fang) (+39%) · EDHREC: in 59,648 decks; most often under [Rin and Seri, Inseparable](../../cards/R/ri.md#rin-and-seri-inseparable) (62.5% of its decks), [Arahbo, Roar of the World](../../cards/A/ara.md#arahbo-roar-of-the-world) (84.9% of its decks), [Najeela, the Blade-Blossom](../../cards/N/na.md#najeela-the-blade-blossom) (36.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/M.md#mirri-weatherlight-duelist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/347/mirri-weatherlight-duelist) · oracle_id `60bc9cd2-2e03-4889-b1ef-fdab9a9a6d08` · printing: CMM #347 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

@@ -666,9 +666,10 @@ schema: 2
 
 ### Inga and Esika
 
-[Card entry](../cards/I/ing.md#inga-and-esika) · **2 pages** (decks 1 · card data 1)
+[Card entry](../cards/I/ing.md#inga-and-esika) · **3 pages** (decks 1 · edh guides 1 · card data 1)
 
 - **Decks (1):** [Chulane, Teller of Tales (landfall theme)](../decks/theme-chulane-teller-of-tales-landfall.md)
+- **EDH guides (1):** [EDH Packages → Card advantage: Repeatable draw engines (permanents)](../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents)
 - **Card data (1):** [Artist Index → Artists M](../Artist%20Index.md#artists-m)
 
 ### In Garruk's Wake

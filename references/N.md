@@ -1258,9 +1258,10 @@ schema: 2
 
 ### Nylea, Keen-Eyed
 
-[Card entry](../cards/N/ny.md#nylea-keen-eyed) · **1 pages** (decks 1)
+[Card entry](../cards/N/ny.md#nylea-keen-eyed) · **2 pages** (decks 1 · edh guides 1)
 
 - **Decks (1):** [Uro, Titan of Nature's Wrath (Theros-only)](../decks/plane-theros-uro-titan-of-natures-wrath.md)
+- **EDH guides (1):** [EDH Packages → Ramp: Cost reducers](../EDH%20Packages.md#ramp-cost-reducers)
 
 ### Nylea's Forerunner
 

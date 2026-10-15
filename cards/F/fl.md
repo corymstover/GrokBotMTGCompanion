@@ -3451,6 +3451,8 @@ schema: 2
   - *2021-09-24* — If you somehow have more than two main phases in a turn, each main phase after your first one is a postcombat main phase, and Florian's last ability triggers at the beginning of each of them.
   - *2021-09-24* — You get a postcombat main phase even if no creatures attacked during a turn. Florian's last ability will trigger.
   - *2021-09-24* — You must pay all costs and follow all timing rules for cards you play with Florian's last ability.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,096 decks; highest synergy [Loyal Subordinate](../../cards/L/lo.md#loyal-subordinate) (+39%), [Neheb, the Eternal](../../cards/N/ne.md#neheb-the-eternal) (+39%), [Creeping Bloodsucker](../../cards/C/cr.md#creeping-bloodsucker) (+27%) · EDHREC: in 44,808 decks; most often under [Edgar Markov](../../cards/E/ed.md#edgar-markov) (19.8% of its decks), [Valgavoth, Harrower of Souls](../../cards/V/va.md#valgavoth-harrower-of-souls) (19.5% of its decks), [Rakdos, Lord of Riots](../../cards/R/rak.md#rakdos-lord-of-riots) (41.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/217/florian-voldaren-scion) · oracle_id `d74a2cbf-4d13-401d-9b3f-bfbde4942afd` · printing: DSC #217 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Floriferous Vinewall

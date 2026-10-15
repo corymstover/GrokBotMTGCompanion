@@ -576,9 +576,9 @@ schema: 2
 
 ### Saruman, the White Hand
 
-[Card entry](../cards/S/sar.md#saruman-the-white-hand) · **1 pages** (edh guides 1)
+[Card entry](../cards/S/sar.md#saruman-the-white-hand) · **2 pages** (edh guides 2)
 
-- **EDH guides (1):** [EDH Staples → Grixis (UBR)](../EDH%20Staples.md#grixis-ubr)
+- **EDH guides (2):** [EDH Packages → Spellslinger: Cast-trigger payoffs](../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [EDH Staples → Grixis (UBR)](../EDH%20Staples.md#grixis-ubr)
 
 ### Saryth, the Viper's Fang
 
@@ -602,9 +602,10 @@ schema: 2
 
 ### Satoru, the Infiltrator
 
-[Card entry](../cards/S/sat.md#satoru-the-infiltrator) · **4 pages** (decks 3 · card data 1)
+[Card entry](../cards/S/sat.md#satoru-the-infiltrator) · **5 pages** (decks 3 · edh guides 1 · card data 1)
 
 - **Decks (3):** [Goro-Goro and Satoru (Grixis)](../grixis/decks/goro-goro-and-satoru.md) · [Marchesa, the Black Rose (Grixis)](../grixis/decks/marchesa-the-black-rose.md) · [Yuriko, the Tiger's Shadow](../decks/yuriko-the-tigers-shadow.md)
+- **EDH guides (1):** [EDH Packages → Card advantage: Repeatable draw engines (permanents)](../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents)
 - **Card data (1):** [Artist Index → Artists D](../Artist%20Index.md#artists-d)
 
 ### Satoru Umezawa
@@ -3382,8 +3383,9 @@ schema: 2
 
 ### Smaug the Magnificent
 
-[Card entry](../cards/S/sm.md#smaug-the-magnificent) · **1 pages** (card data 1)
+[Card entry](../cards/S/sm.md#smaug-the-magnificent) · **2 pages** (edh guides 1 · card data 1)
 
+- **EDH guides (1):** [EDH Packages → Treasure: Repeatable Treasure makers](../EDH%20Packages.md#treasure-repeatable-treasure-makers)
 - **Card data (1):** [Artist Index → Artists F](../Artist%20Index.md#artists-f) (+1 more)
 
 ### Smaug, Wicked Worm
@@ -6620,9 +6622,10 @@ schema: 2
 
 ### Syr Ginger, the Meal Ender
 
-[Card entry](../cards/S/sy.md#syr-ginger-the-meal-ender) · **1 pages** (decks 1)
+[Card entry](../cards/S/sy.md#syr-ginger-the-meal-ender) · **2 pages** (decks 1 · edh guides 1)
 
 - **Decks (1):** [Syr Konrad, the Grim (Eldraine-only)](../decks/plane-eldraine-syr-konrad-the-grim.md)
+- **EDH guides (1):** [EDH Packages → Artifacts: Artifact payoffs](../EDH%20Packages.md#artifacts-artifact-payoffs)
 
 ### Syr Konrad, the Grim
 

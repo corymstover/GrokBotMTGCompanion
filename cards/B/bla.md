@@ -711,6 +711,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2985 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-06-06* — Black Waltz No. 3's last ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 5,079 decks; highest synergy [Black Mage's Rod](../../cards/B/bla.md#black-mages-rod) (+64%), [Cornered by Black Mages](../../cards/C/cor.md#cornered-by-black-mages) (+58%), [Kuja, Genome Sorcerer](../../cards/K/ku.md#kuja-genome-sorcerer--trance-kuja-fate-defied) (+58%) · EDHREC: in 51,175 decks; most often under [Kuja, Genome Sorcerer](../../cards/K/ku.md#kuja-genome-sorcerer--trance-kuja-fate-defied) (92.3% of its decks), [Kefka, Court Mage](../../cards/K/ke.md#kefka-court-mage--kefka-ruler-of-ruin) (23.5% of its decks), [Inalla, Archmage Ritualist](../../cards/I/ina.md#inalla-archmage-ritualist) (30.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/B.md#black-waltz-no-3)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/214/black-waltz-no-3) · oracle_id `9c84c681-40c1-4ff3-86e6-48b4ab7491e5` · printing: FIN #214 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Black Ward
@@ -1347,6 +1350,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3765 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [The Ur-Dragon](../../decks/the-ur-dragon.md) · Commander Spellbook: 97 combos; most popular [Miirym, Sentinel Wyrm + Bladewing the Risen + Terror of the Peaks](https://commanderspellbook.com/combo/380-1110-3362/) (Infinite creature LTB, Infinite creature ETB) · EDHREC as commander: 607 decks; highest synergy [Lathliss, Dragon Queen](../../cards/L/la.md#lathliss-dragon-queen) (+57%), [Dragon Tempest](../../cards/D/dra.md#dragon-tempest) (+55%), [Hellkite Courser](../../cards/H/he.md#hellkite-courser) (+53%) · EDHREC: in 43,875 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (33.3% of its decks), [Tiamat](../../cards/T/ti.md#tiamat) (38.6% of its decks), [Rivaz of the Claw](../../cards/R/ri.md#rivaz-of-the-claw) (84.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/B.md#bladewing-the-risen)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ima/193/bladewing-the-risen) · oracle_id `c22cc70a-9533-4bfc-b3ce-b2d43a73f0c1` · printing: IMA #193 (2017-11-17) · [rulings](https://api.scryfall.com/cards/27ce43cb-44f4-4d94-8700-d9f3cc043989/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

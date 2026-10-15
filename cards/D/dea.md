@@ -878,6 +878,8 @@ schema: 2
   > *"Draw me like one of your French cards."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2681 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Dargo, the Shipwrecker + Ruthless Technomancer + Deadpool, Trading Card](https://commanderspellbook.com/combo/3327-3719-6523/) (Infinite artifact ETB, Infinite artifact LTB) · EDHREC as commander: 17,552 decks; highest synergy [Saw in Half](../../cards/S/saw.md#saw-in-half) (+80%), [Blade of Selves](../../cards/B/bla.md#blade-of-selves) (+71%), [The Master, Multiplied](../../cards/T/them.md#the-master-multiplied) (+68%) · EDHREC: in 44,555 decks; most often under [Sisay, Weatherlight Captain](../../cards/S/si.md#sisay-weatherlight-captain) (38.8% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (10.5% of its decks), [Valgavoth, Harrower of Souls](../../cards/V/va.md#valgavoth-harrower-of-souls) (12.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/1753/deadpool-trading-card) · oracle_id `4b96c22a-0d5b-44fd-b326-5f3ffcc3917b` · printing: SLD #1753 (2025-04-01) · [rulings](https://api.scryfall.com/cards/3a14d6c5-cfd1-4860-834a-5a0dc9df0320/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dead Reckoning

@@ -958,6 +958,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3618 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2022-10-07* — In Two-Headed Giant and other formats where multiple players can attack at the same time, Commissar Severina Raine's triggered ability counts all attacking creatures, even those controlled by other players.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,398 decks; highest synergy [Company Commander](../../cards/C/com.md#company-commander) (+77%), [Adeline, Resplendent Cathar](../../cards/A/ad.md#adeline-resplendent-cathar) (+59%), [Martial Coup](../../cards/M/mar.md#martial-coup) (+56%) · EDHREC: in 43,717 decks; most often under [Isshin, Two Heavens as One](../../cards/I/is.md#isshin-two-heavens-as-one) (36.9% of its decks), [Marneus Calgar](../../cards/M/mar.md#marneus-calgar) (43.2% of its decks), [Caesar, Legion's Emperor](../../cards/C/cae.md#caesar-legions-emperor) (31.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/112/commissar-severina-raine) · oracle_id `c00074ec-5b31-44d3-b69b-e2bf6f6a2477` · printing: 40K #112 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Commit // Memory

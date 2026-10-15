@@ -294,9 +294,9 @@ schema: 2
 
 ### Y'shtola, Night's Blessed
 
-[Card entry](../cards/Y/ys.md#yshtola-nights-blessed) · **2 pages** (edh guides 1 · card data 1)
+[Card entry](../cards/Y/ys.md#yshtola-nights-blessed) · **3 pages** (edh guides 2 · card data 1)
 
-- **EDH guides (1):** [EDH Staples → Esper (WUB)](../EDH%20Staples.md#esper-wub)
+- **EDH guides (2):** [EDH Packages → Card advantage: Repeatable draw engines (permanents)](../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) (+1 more) · [EDH Staples → Esper (WUB)](../EDH%20Staples.md#esper-wub)
 - **Card data (1):** [Artist Index → Artists N](../Artist%20Index.md#artists-n)
 
 ### Y'shtola Rhul

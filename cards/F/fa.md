@@ -1325,6 +1325,8 @@ schema: 2
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3388 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 93 combos; most popular [Fain, the Broker + Puppeteer Clique + Ashnod's Altar](https://commanderspellbook.com/combo/2034-3020-4170/) (Infinite colorless mana, Infinite death triggers) · EDHREC as commander: 445 decks; highest synergy [Ichor Wellspring](../../cards/I/ic.md#ichor-wellspring) (+58%), [Trading Post](../../cards/T/tra.md#trading-post) (+52%), [Marionette Master](../../cards/M/mar.md#marionette-master) (+50%) · EDHREC: in 48,886 decks; most often under [Mirko, Obsessive Theorist](../../cards/M/mir.md#mirko-obsessive-theorist) (43.6% of its decks), [Marchesa, the Black Rose](../../cards/M/mar.md#marchesa-the-black-rose) (24.2% of its decks), [Juri, Master of the Revue](../../cards/J/ju.md#juri-master-of-the-revue) (42.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/F.md#fain-the-broker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/133/fain-the-broker) · oracle_id `31b990e3-9bad-4b0a-a9d5-f5b9ed2ad0b0` · printing: OTC #133 (2024-04-19) · [rulings](https://api.scryfall.com/cards/7f1ff9e5-3d69-43a9-965c-2d87951cfd2b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2951,7 +2953,9 @@ schema: 2
 - **Rulings** (2):
   - *2025-06-06* — Fandaniel's first ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
   - *2025-06-06* — While resolving Fandaniel's second ability, the next opponent in turn order chooses up to one nontoken creature to be sacrificed, then each other opponent in turn order does the same. Then each of the chosen creatures are sacrificed simultaneously. Finally, each opponent who didn't sacrifice a creature this way loses 2 life for each instant and sorcery card in your graveyard.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/F.md#fandaniel-telophoroi-ascian)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,742 decks; highest synergy [Circle of Power](../../cards/C/ci.md#circle-of-power) (+58%), [Diresight](../../cards/D/di.md#diresight) (+58%), [Transpose](../../cards/T/tra.md#transpose) (+54%) · EDHREC: in 50,516 decks; most often under [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (38.2% of its decks), [Kuja, Genome Sorcerer](../../cards/K/ku.md#kuja-genome-sorcerer--trance-kuja-fate-defied) (51.7% of its decks), [Emet-Selch, Unsundered](../../cards/E/em.md#emet-selch-unsundered--hades-sorcerer-of-eld) (45.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/F.md#fandaniel-telophoroi-ascian)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/46/fandaniel-telophoroi-ascian) · oracle_id `3909ff79-2103-407c-a812-a5a5a996fce2` · printing: FIC #46 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fan Favorite
@@ -3590,7 +3594,9 @@ schema: 2
   - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
   - *2024-11-08* — Whatever you do, don't eat the delicious cards.
   - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/F.md#farmer-cotton)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 67 combos; most popular [Farmer Cotton + Samwise Gamgee + Academy Manufactor + Ashnod's Altar](https://commanderspellbook.com/combo/2034-4010-4231-5270/) (Infinite artifact ETB, Infinite artifact LTB) · EDHREC as commander: 572 decks; highest synergy [Peregrin Took](../../cards/P/pe.md#peregrin-took) (+70%), [Academy Manufactor](../../cards/A/ac.md#academy-manufactor) (+66%), [Samwise Gamgee](../../cards/S/sam.md#samwise-gamgee) (+63%) · EDHREC: in 56,151 decks; most often under [Frodo, Adventurous Hobbit // Sam, Loyal Attendant](../../cards/F/fr.md#frodo-adventurous-hobbit) (81.6% of its decks), [Baylen, the Haymaker](../../cards/B/bay.md#baylen-the-haymaker) (40.3% of its decks), [Merry, Warden of Isengard // Pippin, Warden of Isengard](../../cards/M/me.md#merry-warden-of-isengard) (79.9% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/F.md#farmer-cotton)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/55/farmer-cotton) · oracle_id `11f1d2b7-0c2b-40df-bf90-3c55b23449af` · printing: LTC #55 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Farm // Market

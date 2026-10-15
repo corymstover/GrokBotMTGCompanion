@@ -69,6 +69,8 @@ schema: 2
   > *"Say, lad, you wouldn't have a bit o' gil to lend?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3354 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 24 combos; most popular [O'aka, Traveling Merchant + Mind Over Matter + Chasm Skulker](https://commanderspellbook.com/combo/4067-4842-6609/) (Infinite self-discard triggers, Infinite draw triggers) · EDHREC as commander: 201 decks; highest synergy [Scroll of Isildur](../../cards/S/sc.md#scroll-of-isildur) (+82%), [Summon: Valefor](../../cards/S/sum.md#summon-valefor) (+76%), [The Phasing of Zhalfir](../../cards/T/thep.md#the-phasing-of-zhalfir) (+72%) · EDHREC: in 49,757 decks; most often under [Tidus, Yuna's Guardian](../../cards/T/ti.md#tidus-yunas-guardian) (53.5% of its decks), [Terra, Magical Adept](../../cards/T/te.md#terra-magical-adept--esper-terra) (48.1% of its decks), [Tom Bombadil](../../cards/T/to.md#tom-bombadil) (37.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/39/oaka-traveling-merchant) · oracle_id `ed0fc294-de9b-4c64-b97d-e3a41fd2f46a` · printing: FIC #39 (2025-06-13) · [rulings](https://api.scryfall.com/cards/9d860089-fb88-4736-b7f4-b605551bedc8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oaken Brawler

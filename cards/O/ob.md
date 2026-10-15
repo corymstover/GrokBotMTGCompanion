@@ -1080,6 +1080,8 @@ schema: 2
 - **Keywords:** Flying, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3432 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 3,188 decks; highest synergy [Cloud of Faeries](../../cards/C/cl.md#cloud-of-faeries) (+74%), [Spell Stutter](../../cards/S/spe.md#spell-stutter) (+69%), [Tegwyll, Duke of Splendor](../../cards/T/te.md#tegwyll-duke-of-splendor) (+69%) · EDHREC: in 45,418 decks; most often under [Alela, Cunning Conqueror](../../cards/A/al.md#alela-cunning-conqueror) (91.8% of its decks), [Maralen, Fae Ascendant](../../cards/M/mar.md#maralen-fae-ascendant) (51.5% of its decks), [Alela, Artful Provocateur](../../cards/A/al.md#alela-artful-provocateur) (55.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/210/obyra-dreaming-duelist) · oracle_id `4162e60f-9d70-4b8c-a838-df57b83c208d` · printing: WOE #210 (2023-09-08) · [rulings](https://api.scryfall.com/cards/63ce03ee-279b-4955-98e3-9ce1990f8b7b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Obyra's Attendants // Desperate Parry

@@ -171,9 +171,10 @@ schema: 2
 
 ### Edric, Spymaster of Trest
 
-[Card entry](../cards/E/ed.md#edric-spymaster-of-trest) · **2 pages** (decks 1 · card data 1)
+[Card entry](../cards/E/ed.md#edric-spymaster-of-trest) · **3 pages** (decks 1 · edh guides 1 · card data 1)
 
 - **Decks (1):** [Kynaios and Tiro of Meletis](../decks/kynaios-and-tiro-of-meletis.md)
+- **EDH guides (1):** [EDH Packages → Card advantage: Repeatable draw engines (permanents)](../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents)
 - **Card data (1):** [Format Legality Matrix → duel](../Format%20Legality%20Matrix.md#duel)
 
 ### Edward Kenway
@@ -928,8 +929,9 @@ schema: 2
 
 ### Emet-Selch of the Third Seat
 
-[Card entry](../cards/E/em.md#emet-selch-of-the-third-seat) · **1 pages** (card data 1)
+[Card entry](../cards/E/em.md#emet-selch-of-the-third-seat) · **2 pages** (edh guides 1 · card data 1)
 
+- **EDH guides (1):** [EDH Packages → Ramp: Cost reducers](../EDH%20Packages.md#ramp-cost-reducers)
 - **Card data (1):** [Artist Index → Artists K](../Artist%20Index.md#artists-k)
 
 ### Emet-Selch, Unsundered // Hades, Sorcerer of Eld
@@ -1121,8 +1123,9 @@ schema: 2
 
 ### Endrek Sahr, Master Breeder
 
-[Card entry](../cards/E/en.md#endrek-sahr-master-breeder) · **1 pages** (card data 1)
+[Card entry](../cards/E/en.md#endrek-sahr-master-breeder) · **2 pages** (edh guides 1 · card data 1)
 
+- **EDH guides (1):** [EDH Packages → Aristocrats: Fodder makers (multiple creature tokens)](../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
 
 ### Endurance
@@ -2183,7 +2186,7 @@ schema: 2
 
 ### Ezuri, Stalker of Spheres
 
-[Card entry](../cards/E/ez.md#ezuri-stalker-of-spheres) · **3 pages** (decks 2 · edh guides 1)
+[Card entry](../cards/E/ez.md#ezuri-stalker-of-spheres) · **4 pages** (decks 2 · edh guides 2)
 
 - **Decks (2):** [Atraxa, Praetors' Voice](../decks/atraxa-praetors-voice.md) · [Atraxa, Praetors' Voice (planeswalkers theme)](../decks/theme-atraxa-praetors-voice-planeswalkers.md)
-- **EDH guides (1):** [EDH Archetypes → +1/+1 counters](../EDH%20Archetypes.md#11-counters)
+- **EDH guides (2):** [EDH Archetypes → +1/+1 counters](../EDH%20Archetypes.md#11-counters) · [EDH Packages → Card advantage: Repeatable draw engines (permanents)](../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) (+1 more)

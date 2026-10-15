@@ -115,7 +115,9 @@ schema: 2
   - *2025-06-06* — The back face of a nonmodal double-faced card usually has a color indicator that defines its color.
   - *2025-06-06* — The damage is dealt by the same source as the original source of damage. The doubled damage isn't dealt by Trance Kuja unless it was the original source of damage.
   - *2025-06-06* — The mana value of a nonmodal double-faced card is the mana value of its front face, no matter which face is up.
-- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/K.md#kuja-genome-sorcerer--trance-kuja-fate-defied)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 22,934 decks; highest synergy [Black Waltz No. 3](../../cards/B/bla.md#black-waltz-no-3) (+84%), [Circle of Power](../../cards/C/ci.md#circle-of-power) (+82%), [Black Mage's Rod](../../cards/B/bla.md#black-mages-rod) (+81%) · EDHREC: in 32,160 decks; most often under [Kefka, Court Mage](../../cards/K/ke.md#kefka-court-mage--kefka-ruler-of-ruin) (30.7% of its decks), [Inalla, Archmage Ritualist](../../cards/I/ina.md#inalla-archmage-ritualist) (45.8% of its decks), [Black Waltz No. 3](../../cards/B/bla.md#black-waltz-no-3) (60.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (2 edh guides · 1 card data) → [reverse index](../../references/K.md#kuja-genome-sorcerer--trance-kuja-fate-defied)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/232/kuja-genome-sorcerer-trance-kuja-fate-defied) · oracle_id `3998a60d-9521-4100-8d41-3e612972a3de` · printing: FIN #232 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kujar Seedsculptor

@@ -615,6 +615,8 @@ schema: 2
   - *2025-09-19* — If you choose for a creature with riot to gain haste, it gains haste indefinitely. It doesn't lose it as the turn ends or if another player gains control of it.
   - *2025-09-19* — Riot is a replacement effect. Players can't respond to your choice of a +1/+1 counter or haste.
   - *2025-09-19* — While Spider-Punk is on the battlefield, spells and abilities can still be the target of another spell or ability that would normally counter them, but they won't be countered as that spell or ability resolves.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 694 decks; highest synergy [Ghost-Spider, Gwen Stacy](../../cards/G/gh.md#ghost-spider-gwen-stacy) (+59%), [Spider-Gwen, Free Spirit](../../cards/S/spi.md#spider-gwen-free-spirit) (+58%), [Taurean Mauler](../../cards/T/ta.md#taurean-mauler) (+56%) · EDHREC: in 46,606 decks; most often under [Cosmic Spider-Man](../../cards/C/cos.md#cosmic-spider-man) (83.5% of its decks), [Miles Morales](../../cards/M/mil.md#miles-morales--ultimate-spider-man) (70.5% of its decks), [Kratos, God of War](../../cards/K/kr.md#kratos-god-of-war) (31.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/S.md#spider-punk)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/92/spider-punk) · oracle_id `03bf7a90-78c1-4e83-8553-e22d85e49876` · printing: SPM #92 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

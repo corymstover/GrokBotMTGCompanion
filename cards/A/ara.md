@@ -320,6 +320,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3405 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2023-06-16* — If you cast a spell that's multiple colors, more than one of Aragorn, the Uniter's abilities may trigger. In that case, you choose the order in which the abilities are put onto the stack.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Aragorn, the Uniter + Shrieking Drake + Phyrexian Altar + Painter's Servant](https://commanderspellbook.com/combo/751-2023-2302-4050/) (Infinite death triggers, Infinite creature ETB) · EDHREC as commander: 23,336 decks; highest synergy [Éowyn, Shieldmaiden](../../cards/E/eo.md#éowyn-shieldmaiden) (+38%), [Aragorn, King of Gondor](../../cards/A/ara.md#aragorn-king-of-gondor) (+35%), [Pippin, Guard of the Citadel](../../cards/P/pi.md#pippin-guard-of-the-citadel) (+31%) · EDHREC: in 25,749 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (23.4% of its decks), [Omnath, Locus of All](../../cards/O/om.md#omnath-locus-of-all) (21.0% of its decks), [Infinite Guideline Station](../../cards/I/inf.md#infinite-guideline-station) (24.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/192/aragorn-the-uniter) · oracle_id `3f31c423-d45c-4c3e-b7d4-ca125be0f92c` · printing: LTR #192 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arahbo, Roar of the World
@@ -356,6 +358,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3700 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2024-11-08* — If Arahbo enters at the same time as one or more nontoken Cats you control, its last ability will trigger once for each of those Cats (as well as itself).
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Arahbo, the First Fang + Whitemane Lion + Phyrexian Altar + Anointed Procession](https://commanderspellbook.com/combo/1308-4050-4770-6090/) (Infinite creature LTB, Infinite creature ETB) · EDHREC as commander: 3,613 decks; highest synergy [Regal Caracal](../../cards/R/reg.md#regal-caracal) (+89%), [King of the Pride](../../cards/K/ki.md#king-of-the-pride) (+85%), [Helpful Hunter](../../cards/H/he.md#helpful-hunter) (+82%) · EDHREC: in 41,706 decks; most often under [Rin and Seri, Inseparable](../../cards/R/ri.md#rin-and-seri-inseparable) (72.4% of its decks), [Arahbo, Roar of the World](../../cards/A/ara.md#arahbo-roar-of-the-world) (78.7% of its decks), [Ajani, Nacatl Pariah](../../cards/A/aj.md#ajani-nacatl-pariah--ajani-nacatl-avenger) (73.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#arahbo-the-first-fang)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/2/arahbo-the-first-fang) · oracle_id `dfec65a0-6fb6-463d-aa62-e84a427db217` · printing: FDN #2 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

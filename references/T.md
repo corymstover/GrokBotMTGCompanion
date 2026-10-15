@@ -1201,10 +1201,10 @@ schema: 2
 
 ### Teval, the Balanced Scale
 
-[Card entry](../cards/T/te.md#teval-the-balanced-scale) · **4 pages** (decks 2 · edh guides 1 · card data 1)
+[Card entry](../cards/T/te.md#teval-the-balanced-scale) · **5 pages** (decks 2 · edh guides 2 · card data 1)
 
 - **Decks (2):** [Muldrotha, the Gravetide](../decks/muldrotha-the-gravetide.md) · [Muldrotha, the Gravetide (self mill theme)](../decks/theme-muldrotha-the-gravetide-self-mill.md)
-- **EDH guides (1):** [EDH Staples → Sultai (UBG)](../EDH%20Staples.md#sultai-ubg)
+- **EDH guides (2):** [EDH Packages → Graveyard: Self-mill](../EDH%20Packages.md#graveyard-self-mill) · [EDH Staples → Sultai (UBG)](../EDH%20Staples.md#sultai-ubg)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
 
 ### Tevesh Szat, Doom of Fools
@@ -1392,8 +1392,9 @@ schema: 2
 
 ### Thalisse, Reverent Medium
 
-[Card entry](../cards/T/tha.md#thalisse-reverent-medium) · **1 pages** (card data 1)
+[Card entry](../cards/T/tha.md#thalisse-reverent-medium) · **2 pages** (edh guides 1 · card data 1)
 
+- **EDH guides (1):** [EDH Packages → Aristocrats: Fodder makers (multiple creature tokens)](../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
 
 ### Thallid Soothsayer
@@ -2087,9 +2088,9 @@ schema: 2
 
 ### The Necrobloom
 
-[Card entry](../cards/T/then.md#the-necrobloom) · **1 pages** (edh guides 1)
+[Card entry](../cards/T/then.md#the-necrobloom) · **2 pages** (edh guides 2)
 
-- **EDH guides (1):** [EDH Staples → Abzan (WBG)](../EDH%20Staples.md#abzan-wbg)
+- **EDH guides (2):** [EDH Packages → Graveyard: Self-mill](../EDH%20Packages.md#graveyard-self-mill) (+1 more) · [EDH Staples → Abzan (WBG)](../EDH%20Staples.md#abzan-wbg)
 
 ### The Ninth Doctor
 
@@ -2244,10 +2245,10 @@ schema: 2
 
 ### The Second Doctor
 
-[Card entry](../cards/T/thes.md#the-second-doctor) · **3 pages** (decks 1 · edh guides 2)
+[Card entry](../cards/T/thes.md#the-second-doctor) · **4 pages** (decks 1 · edh guides 3)
 
 - **Decks (1):** [Kynaios and Tiro of Meletis](../decks/kynaios-and-tiro-of-meletis.md)
-- **EDH guides (2):** [EDH Pairings — Partner, Background, Friends forever & Doctor's companion → Doctor's companion](../EDH%20Pairings.md#doctors-companion) · [EDH Standards → Group hug lands & cards — Kynaios and Tiro of Meletis (RGWU, group hug)](../EDH%20Standards.md#group-hug-lands--cards--kynaios-and-tiro-of-meletis-rgwu-group-hug)
+- **EDH guides (3):** [EDH Packages → Card advantage: Repeatable draw engines (permanents)](../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [EDH Pairings — Partner, Background, Friends forever & Doctor's companion → Doctor's companion](../EDH%20Pairings.md#doctors-companion) · [EDH Standards → Group hug lands & cards — Kynaios and Tiro of Meletis (RGWU, group hug)](../EDH%20Standards.md#group-hug-lands--cards--kynaios-and-tiro-of-meletis-rgwu-group-hug)
 
 ### The Sentry, Golden Guardian
 
@@ -2404,10 +2405,10 @@ schema: 2
 
 ### The Ur-Dragon
 
-[Card entry](../cards/T/theu.md#the-ur-dragon) · **2 pages** (decks 1 · edh guides 1)
+[Card entry](../cards/T/theu.md#the-ur-dragon) · **3 pages** (decks 1 · edh guides 2)
 
 - **Decks (1):** [The Ur-Dragon](../decks/the-ur-dragon.md)
-- **EDH guides (1):** [EDH Upgrade Paths → The Ur-Dragon](../EDH%20Upgrade%20Paths.md#the-ur-dragon)
+- **EDH guides (2):** [EDH Packages → Ramp: Cost reducers](../EDH%20Packages.md#ramp-cost-reducers) · [EDH Upgrade Paths → The Ur-Dragon](../EDH%20Upgrade%20Paths.md#the-ur-dragon)
 
 ### The Valeyard
 
@@ -2951,9 +2952,10 @@ schema: 2
 
 ### Thryx, the Sudden Storm
 
-[Card entry](../cards/T/thr.md#thryx-the-sudden-storm) · **1 pages** (decks 1)
+[Card entry](../cards/T/thr.md#thryx-the-sudden-storm) · **2 pages** (decks 1 · edh guides 1)
 
 - **Decks (1):** [Uro, Titan of Nature's Wrath (Theros-only)](../decks/plane-theros-uro-titan-of-natures-wrath.md)
+- **EDH guides (1):** [EDH Packages → Ramp: Cost reducers](../EDH%20Packages.md#ramp-cost-reducers)
 
 ### Thunderblade Charge
 
@@ -3154,15 +3156,16 @@ schema: 2
 
 ### Tidus, Yuna's Guardian
 
-[Card entry](../cards/T/ti.md#tidus-yunas-guardian) · **2 pages** (edh guides 1 · card data 1)
+[Card entry](../cards/T/ti.md#tidus-yunas-guardian) · **3 pages** (edh guides 2 · card data 1)
 
-- **EDH guides (1):** [EDH Staples → Bant (WUG)](../EDH%20Staples.md#bant-wug)
+- **EDH guides (2):** [EDH Packages → Card advantage: Repeatable draw engines (permanents)](../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) (+1 more) · [EDH Staples → Bant (WUG)](../EDH%20Staples.md#bant-wug)
 - **Card data (1):** [Artist Index → Artists N](../Artist%20Index.md#artists-n)
 
 ### Tifa Lockhart
 
-[Card entry](../cards/T/ti.md#tifa-lockhart) · **1 pages** (card data 1)
+[Card entry](../cards/T/ti.md#tifa-lockhart) · **2 pages** (edh guides 1 · card data 1)
 
+- **EDH guides (1):** [EDH Packages → Lands / landfall: Landfall payoffs](../EDH%20Packages.md#lands--landfall-landfall-payoffs)
 - **Card data (1):** [Artist Index → Artists L](../Artist%20Index.md#artists-l) (+2 more)
 
 ### Tifa, Martial Artist
@@ -3689,14 +3692,16 @@ schema: 2
 
 ### Toph, Earthbending Master
 
-[Card entry](../cards/T/to.md#toph-earthbending-master) · **1 pages** (card data 1)
+[Card entry](../cards/T/to.md#toph-earthbending-master) · **2 pages** (edh guides 1 · card data 1)
 
+- **EDH guides (1):** [EDH Packages → Lands / landfall: Landfall payoffs](../EDH%20Packages.md#lands--landfall-landfall-payoffs)
 - **Card data (1):** [Artist Index → Artists P](../Artist%20Index.md#artists-p)
 
 ### Toph, Hardheaded Teacher
 
-[Card entry](../cards/T/to.md#toph-hardheaded-teacher) · **1 pages** (card data 1)
+[Card entry](../cards/T/to.md#toph-hardheaded-teacher) · **2 pages** (edh guides 1 · card data 1)
 
+- **EDH guides (1):** [EDH Packages → Graveyard: Recursion to hand](../EDH%20Packages.md#graveyard-recursion-to-hand)
 - **Card data (1):** [Artist Index → Artists R](../Artist%20Index.md#artists-r)
 
 ### Toph, the Blind Bandit
