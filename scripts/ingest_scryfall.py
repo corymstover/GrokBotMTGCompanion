@@ -329,6 +329,8 @@ def main() -> int:
             ordered.append(c)
         else:
             missing_priority.append(n)
+    # Commander-banned cards next: legality questions about them are common and the list is small.
+    ordered += sorted([c for c in universe if c.get("legalities", {}).get("commander") == "banned"], key=lambda c: c["name"])
     ordered += sorted([c for c in universe if is_legal(c) and c.get("edhrec_rank")], key=lambda c: c["edhrec_rank"])
     ordered += sorted([c for c in universe if is_legal(c) and not c.get("edhrec_rank")], key=lambda c: ascii_key(c["name"]))
     ordered += sorted([c for c in universe if not is_legal(c)], key=lambda c: ascii_key(c["name"]))
@@ -446,6 +448,7 @@ def main() -> int:
 
     write_card_index(rows, by_id, state, shards)
     write_dashboard(state)
+    write_edh_lists(queue, {r["oracle_id"]: r for r in rows}, bulk_updated)
     print(json.dumps({k: state[k] for k in ("ingested_total", "last_added", "universe_size",
                                              "ingested_edhrec_rank_contiguous_through", "next_target",
                                              "missing_priority_names", "shards")}, indent=2))
@@ -516,6 +519,30 @@ def write_card_index(rows, by_id, state, shards):
           "Names starting with a digit live in `cards/0-9/0-9.md`.",
           "2. Or search [`data/card_index.csv`](data/card_index.csv) (columns: " + ", ".join(CSV_FIELDS) + ").", ""]
     CARD_INDEX_MD.write_text("\n".join(L), encoding="utf-8")
+
+
+def write_edh_lists(universe, rows_by_id, bulk_updated):
+    """Regenerate the Commander banned list and Game Changers list blocks in EDH Standards.md."""
+    edh = ROOT / "EDH Standards.md"
+
+    def fmt(c):
+        r = rows_by_id.get(c["oracle_id"])
+        return f"[{c['name']}]({r['shard'].replace(' ', '%20')}#{r['anchor']})" if r else c["name"]
+
+    banned = sorted((c for c in universe if c.get("legalities", {}).get("commander") == "banned"), key=lambda c: c["name"])
+    gcs = sorted((c for c in universe if c.get("game_changer")), key=lambda c: c["name"])
+    note = f"*Auto-generated from Scryfall bulk data ({bulk_updated[:10]}); Scryfall mirrors the official lists.*"
+    replace_block(edh, "BANNED-LIST", f"{note} **{len(banned)} cards banned in Commander:**\n\n" + " · ".join(fmt(c) for c in banned))
+    by_color = defaultdict(list)
+    for c in gcs:
+        ci = c.get("color_identity", [])
+        key = "Colorless" if not ci else (COLOR_NAMES[ci[0]] if len(ci) == 1 else "Multicolor")
+        by_color[key].append(c)
+    lines = [f"{note} **{len(gcs)} Game Changers:**", ""]
+    for k in ["White", "Blue", "Black", "Red", "Green", "Multicolor", "Colorless"]:
+        if by_color.get(k):
+            lines.append(f"- **{k} ({len(by_color[k])}):** " + " · ".join(fmt(c) for c in by_color[k]))
+    replace_block(edh, "GAME-CHANGERS", "\n".join(lines))
 
 
 def bar(frac: float, width: int = 30) -> str:

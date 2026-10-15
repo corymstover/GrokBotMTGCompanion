@@ -1,0 +1,186 @@
+# Deck Skeleton — Krenko, Mob Boss
+
+> **Data-derived skeleton, not a tuned list.** Built 2026-10-15 by `scripts/build_deck_skeleton.py` from [EDHREC](https://edhrec.com/commanders/krenko-mob-boss) inclusion rates (community data) and validated against Scryfall Oracle bulk (2026-10-15). Card choices = most-included cards for this commander; *any judgment about what to cut/add is Opinion*. Format per [EDH Standards](../EDH%20Standards.md).
+
+## Contents
+- [Commander](#commander)
+- [Validation](#validation)
+- [Bracket assessment](#bracket-assessment)
+- [Decklist (Archidekt import)](#decklist-archidekt-import)
+- [Card breakdown](#card-breakdown)
+- [Rejected candidates](#rejected-candidates)
+
+## Commander
+
+- **[Krenko, Mob Boss](../cards/K/kr.md#krenko-mob-boss)** — {2}{R}{R} — Legendary Creature — Goblin Warrior
+- Color identity: **R (Red)**
+- Eligibility: Yes (legendary creature)
+- EDHREC sample: 44540 decks · bracket distribution reported by EDHREC: B1: 149, B2: 3,968, B3: 3,048, B4: 3,483, B5: 310
+
+## Validation
+
+- Total cards: **100** (1 commander + 63 nonland + 5 nonbasic lands + 31 basics)
+- Strict color identity (CR 903.5c), singleton (903.5b), Commander-legal, size (903.5a): ✅ **all checks pass**
+
+## Bracket assessment
+
+- Game Changers (0): none
+- Extra-turn cards: none
+- Mass land denial: none
+- Two-card infinite combos: ⚠️ not machine-checked — review manually.
+- **Minimum bracket by the published barometers: 2 (Core) or 1 (Exhibition) — no Game Changers; final call depends on combos/intent.** (Brackets are a pregame-conversation tool; see [EDH Standards](../EDH%20Standards.md#power-bracket-assessment).)
+
+## Decklist (Archidekt import)
+
+```text
+1x Krenko, Mob Boss [Commander{top}]
+1x Goblin Warchief [Creature]
+1x Skirk Prospector [Creature]
+1x Goblin Matron [Creature]
+1x Goblin Chieftain [Creature]
+1x Pashalik Mons [Creature]
+1x Siege-Gang Commander [Creature]
+1x Goblin King [Creature]
+1x Krenko, Tin Street Kingpin [Creature]
+1x Hobgoblin Bandit Lord [Creature]
+1x Goblin Trashmaster [Creature]
+1x Conspicuous Snoop [Creature]
+1x Goblin Recruiter [Creature]
+1x Goblin Chirurgeon [Creature]
+1x Goblin Ringleader [Creature]
+1x Muxus, Goblin Grandee [Creature]
+1x Howlsquad Heavy [Creature]
+1x Goblin Instigator [Creature]
+1x Rundvelt Hordemaster [Creature]
+1x General Kreat, the Boltbringer [Creature]
+1x Legion Warboss [Creature]
+1x Hexing Squelcher [Creature]
+1x Purphoros, God of the Forge [Creature]
+1x Goblin Lackey [Creature]
+1x Warren Instigator [Creature]
+1x Kiki-Jiki, Mirror Breaker [Creature]
+1x Battle Cry Goblin [Creature]
+1x Beetleback Chief [Creature]
+1x Mogg War Marshal [Creature]
+1x Gempalm Incinerator [Creature]
+1x Goblin Piledriver [Creature]
+1x Grenzo, Havoc Raiser [Creature]
+1x Treasure Nabber [Creature]
+1x Searslicer Goblin [Creature]
+1x Goro-Goro, Disciple of Ryusei [Creature]
+1x Sol Ring [Artifact]
+1x Skullclamp [Artifact]
+1x Swiftfoot Boots [Artifact]
+1x Arcane Signet [Artifact]
+1x Ruby Medallion [Artifact]
+1x Lightning Greaves [Artifact]
+1x Thousand-Year Elixir [Artifact]
+1x Sting, the Glinting Dagger [Artifact]
+1x Impact Tremors [Enchantment]
+1x Goblin Bombardment [Enchantment]
+1x Shared Animosity [Enchantment]
+1x Blood Moon [Enchantment]
+1x Boggart Shenanigans [Enchantment]
+1x Raid Bombardment [Enchantment]
+1x Brightstone Ritual [Instant]
+1x Chaos Warp [Instant]
+1x Battle Hymn [Instant]
+1x Abrade [Instant]
+1x Massive Raid [Instant]
+1x Thrill of Possibility [Instant]
+1x Krenko's Command [Sorcery]
+1x Goblin War Strike [Sorcery]
+1x Dragon Fodder [Sorcery]
+1x Hordeling Outburst [Sorcery]
+1x Blasphemous Act [Sorcery]
+1x Vandalblast [Sorcery]
+1x Faithless Looting [Sorcery]
+1x Goblin Grenade [Sorcery]
+1x Empty the Warrens [Sorcery]
+1x Castle Embereth [Land]
+1x Path of Ancestry [Land]
+1x Three Tree City [Land]
+1x Den of the Bugbear [Land]
+1x Arena of Glory [Land]
+31x Mountain [Land]
+```
+
+## Card breakdown
+
+| Card | Section | EDHREC inclusion | Identity |
+|---|---|---|---|
+| [Goblin Warchief](../cards/G/gob.md#goblin-warchief) | Creature | 87% | R |
+| [Skirk Prospector](../cards/S/sk.md#skirk-prospector) | Creature | 86% | R |
+| [Goblin Matron](../cards/G/gob.md#goblin-matron) | Creature | 84% | R |
+| [Goblin Chieftain](../cards/G/gob.md#goblin-chieftain) | Creature | 77% | R |
+| [Pashalik Mons](../cards/P/pa.md#pashalik-mons) | Creature | 67% | R |
+| [Siege-Gang Commander](../cards/S/si.md#siege-gang-commander) | Creature | 65% | R |
+| [Goblin King](../cards/G/gob.md#goblin-king) | Creature | 63% | R |
+| [Krenko, Tin Street Kingpin](../cards/K/kr.md#krenko-tin-street-kingpin) | Creature | 63% | R |
+| [Hobgoblin Bandit Lord](../cards/H/ho.md#hobgoblin-bandit-lord) | Creature | 62% | R |
+| [Goblin Trashmaster](../cards/G/gob.md#goblin-trashmaster) | Creature | 62% | R |
+| [Conspicuous Snoop](../cards/C/con.md#conspicuous-snoop) | Creature | 61% | R |
+| [Goblin Recruiter](../cards/G/gob.md#goblin-recruiter) | Creature | 58% | R |
+| [Goblin Chirurgeon](../cards/G/gob.md#goblin-chirurgeon) | Creature | 56% | R |
+| [Goblin Ringleader](../cards/G/gob.md#goblin-ringleader) | Creature | 52% | R |
+| [Muxus, Goblin Grandee](../cards/M/mu.md#muxus-goblin-grandee) | Creature | 50% | R |
+| [Howlsquad Heavy](../cards/H/ho.md#howlsquad-heavy) | Creature | 46% | R |
+| [Goblin Instigator](../cards/G/gob.md#goblin-instigator) | Creature | 45% | R |
+| [Rundvelt Hordemaster](../cards/R/ru.md#rundvelt-hordemaster) | Creature | 45% | R |
+| [General Kreat, the Boltbringer](../cards/G/ge.md#general-kreat-the-boltbringer) | Creature | 45% | R |
+| [Legion Warboss](../cards/L/le.md#legion-warboss) | Creature | 44% | R |
+| [Hexing Squelcher](../cards/H/he.md#hexing-squelcher) | Creature | 43% | R |
+| [Purphoros, God of the Forge](../cards/P/pu.md#purphoros-god-of-the-forge) | Creature | 42% | R |
+| [Goblin Lackey](../cards/G/gob.md#goblin-lackey) | Creature | 41% | R |
+| [Warren Instigator](../cards/W/war.md#warren-instigator) | Creature | 39% | R |
+| [Kiki-Jiki, Mirror Breaker](../cards/K/ki.md#kiki-jiki-mirror-breaker) | Creature | 37% | R |
+| [Battle Cry Goblin](../cards/B/bat.md#battle-cry-goblin) | Creature | 37% | R |
+| [Beetleback Chief](../cards/B/be.md#beetleback-chief) | Creature | 36% | R |
+| [Mogg War Marshal](../cards/M/mog.md#mogg-war-marshal) | Creature | 36% | R |
+| [Gempalm Incinerator](../cards/G/ge.md#gempalm-incinerator) | Creature | 36% | R |
+| [Goblin Piledriver](../cards/G/gob.md#goblin-piledriver) | Creature | 34% | R |
+| [Grenzo, Havoc Raiser](../cards/G/gre.md#grenzo-havoc-raiser) | Creature | 32% | R |
+| [Treasure Nabber](../cards/T/tre.md#treasure-nabber) | Creature | 30% | R |
+| [Searslicer Goblin](../cards/S/sea.md#searslicer-goblin) | Creature | 30% | R |
+| [Goro-Goro, Disciple of Ryusei](../cards/G/gor.md#goro-goro-disciple-of-ryusei) | Creature | 29% | R |
+| [Sol Ring](../cards/S/so.md#sol-ring) | Artifact | 85% | C |
+| [Skullclamp](../cards/S/sk.md#skullclamp) | Artifact | 62% | C |
+| [Swiftfoot Boots](../cards/S/sw.md#swiftfoot-boots) | Artifact | 55% | C |
+| [Arcane Signet](../cards/A/arc.md#arcane-signet) | Artifact | 53% | C |
+| [Ruby Medallion](../cards/R/ru.md#ruby-medallion) | Artifact | 50% | C |
+| [Lightning Greaves](../cards/L/li.md#lightning-greaves) | Artifact | 49% | C |
+| [Thousand-Year Elixir](../cards/T/tho.md#thousand-year-elixir) | Artifact | 33% | C |
+| [Sting, the Glinting Dagger](../cards/S/sti.md#sting-the-glinting-dagger) | Artifact | 33% | C |
+| [Impact Tremors](../cards/I/im.md#impact-tremors) | Enchantment | 85% | R |
+| [Goblin Bombardment](../cards/G/gob.md#goblin-bombardment) | Enchantment | 74% | R |
+| [Shared Animosity](../cards/S/sha.md#shared-animosity) | Enchantment | 51% | R |
+| [Blood Moon](../cards/B/blo.md#blood-moon) | Enchantment | 32% | R |
+| [Boggart Shenanigans](../cards/B/bo.md#boggart-shenanigans) | Enchantment | 31% | R |
+| [Raid Bombardment](../cards/R/rai.md#raid-bombardment) | Enchantment | 29% | R |
+| [Brightstone Ritual](../cards/B/br.md#brightstone-ritual) | Instant | 68% | R |
+| [Chaos Warp](../cards/C/cha.md#chaos-warp) | Instant | 52% | R |
+| [Battle Hymn](../cards/B/bat.md#battle-hymn) | Instant | 52% | R |
+| [Abrade](../cards/A/ab.md#abrade) | Instant | 39% | R |
+| [Massive Raid](../cards/M/mas.md#massive-raid) | Instant | 35% | R |
+| [Thrill of Possibility](../cards/T/thr.md#thrill-of-possibility) | Instant | 29% | R |
+| [Krenko's Command](../cards/K/kr.md#krenkos-command) | Sorcery | 60% | R |
+| [Goblin War Strike](../cards/G/gob.md#goblin-war-strike) | Sorcery | 54% | R |
+| [Dragon Fodder](../cards/D/dra.md#dragon-fodder) | Sorcery | 54% | R |
+| [Hordeling Outburst](../cards/H/ho.md#hordeling-outburst) | Sorcery | 45% | R |
+| [Blasphemous Act](../cards/B/bla.md#blasphemous-act) | Sorcery | 38% | R |
+| [Vandalblast](../cards/V/va.md#vandalblast) | Sorcery | 37% | R |
+| [Faithless Looting](../cards/F/fa.md#faithless-looting) | Sorcery | 36% | R |
+| [Goblin Grenade](../cards/G/gob.md#goblin-grenade) | Sorcery | 33% | R |
+| [Empty the Warrens](../cards/E/em.md#empty-the-warrens) | Sorcery | 32% | R |
+| [Castle Embereth](../cards/C/cas.md#castle-embereth) | Land | 40% | R |
+| [Path of Ancestry](../cards/P/pa.md#path-of-ancestry) | Land | 29% | C |
+| [Three Tree City](../cards/T/thr.md#three-tree-city) | Land | 29% | C |
+| [Den of the Bugbear](../cards/D/den.md#den-of-the-bugbear) | Land | 29% | R |
+| [Arena of Glory](../cards/A/are.md#arena-of-glory) | Land | 26% | R |
+| 31× Mountain | Basic land | — | — |
+
+## Rejected candidates
+
+EDHREC suggestions excluded by validation (should normally be empty or only off-identity/illegal cards):
+
+- none

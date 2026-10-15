@@ -74,9 +74,10 @@ Scryfall Oracle cards that exist in paper — a paper printing, or legal/banned/
 
 ## Ingestion order
 1. `data/priority_cards.txt` (the original Grok project's categories: utility lands, land destruction, counterspells, plus ramp/removal/tutors/draw/protection).
-2. Commander-legal cards by ascending EDHREC rank.
-3. Commander-legal cards without an EDHREC rank (alphabetical).
-4. Everything else (banned / not legal in Commander), alphabetical.
+2. Cards **banned in Commander** (small list; needed for legality answers).
+3. Commander-legal cards by ascending EDHREC rank.
+4. Commander-legal cards without an EDHREC rank (alphabetical).
+5. Everything else (not legal in Commander), alphabetical.
 
 ## Editing rules
 - Do not hand-edit generated shard files or `Card Index.md`; change `scripts/` or `data/` inputs and re-run.

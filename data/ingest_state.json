@@ -4,17 +4,17 @@
   "bulk_updated_at": "2026-10-15T09:02:01.217+00:00",
   "universe_size": 34185,
   "universe_definition": "Scryfall oracle_cards that exist in paper (paper printing, or legal/banned/restricted in Vintage/Legacy/Commander); excludes Arena/Alchemy-only cards and token/emblem/art_series/planar/scheme/vanguard/reversible layouts",
-  "ingested_total": 20000,
-  "batches_run": 4,
+  "ingested_total": 20100,
+  "batches_run": 5,
   "next_batch_size": 2000,
-  "last_run": "2026-10-15T10:41:02+00:00",
-  "last_added": 0,
-  "ingested_edhrec_rank_contiguous_through": 20016,
+  "last_run": "2026-10-15T10:44:20+00:00",
+  "last_added": 100,
+  "ingested_edhrec_rank_contiguous_through": 20038,
   "max_ingested_edhrec_rank": 30683,
   "next_target": {
-    "name": "Annihilating Fire",
-    "oracle_id": "762f891e-5d88-42b0-8abf-c69f3421011b",
-    "edhrec_rank": 20017,
+    "name": "Diminish",
+    "oracle_id": "3e554ab4-8179-4d3e-84ba-9a67b51cff7f",
+    "edhrec_rank": 20039,
     "commander_legality": "legal"
   },
   "missing_priority_names": [],
@@ -44,6 +44,12 @@
       "label": "2026-10-15-b4",
       "added": 10000,
       "total": 20000
+    },
+    {
+      "date": "2026-10-15",
+      "label": "2026-10-15-b5",
+      "added": 100,
+      "total": 20100
     }
   ]
 }
