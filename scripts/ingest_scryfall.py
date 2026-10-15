@@ -435,8 +435,8 @@ def main() -> int:
         else:
             break
     hist = state.get("history", [])
-    if added or not hist:
-        hist.append({"date": today, "label": label, "added": len(added), "total": total})
+    if added or dropped or not hist:
+        hist.append({"date": today, "label": label, "added": len(added), "removed": len(dropped), "total": total})
     state.update({
         "schema": 1,
         "source": "scryfall oracle_cards bulk",
@@ -567,14 +567,16 @@ def bar(frac: float, width: int = 30) -> str:
 def write_dashboard(state):
     total, uni = state["ingested_total"], state["universe_size"]
     nt = state.get("next_target") or {}
+    lb = next((h for h in reversed(state["history"]) if h.get("added")), state["history"][-1])
     block = "\n".join([
         f"**Cards with full Scryfall-verified entries: {total:,} / {uni:,}** ({total / uni:.1%}) — working target {UNIVERSE_TARGET_LABEL}",
         "",
         f"`{bar(total / uni)}`",
         "",
         f"- EDHREC coverage: every Commander-legal card ranked ≤ **{state['ingested_edhrec_rank_contiguous_through']:,}** has an entry",
-        f"- Last batch: `{state['history'][-1]['label']}` (+{state['history'][-1]['added']:,} cards) · last run {state['last_run']} · Scryfall bulk {state['bulk_updated_at'][:10]}",
-        f"- Next card target: **{nt.get('name', '—')}** (EDHREC rank {nt.get('edhrec_rank', '—')}) · default batch {state['next_batch_size']:,}",
+        f"- Last batch: `{lb['label']}` (+{lb['added']:,} cards) · last run {state['last_run']} · Scryfall bulk {state['bulk_updated_at'][:10]}",
+        (f"- Next card target: **{nt.get('name')}** (EDHREC rank {nt.get('edhrec_rank') or '—'}) · default batch {state['next_batch_size']:,}"
+         if nt else "- Next card target: **none — full coverage.** Each run auto-adds newly released Scryfall cards and refreshes Oracle text/legality."),
     ])
     replace_block(README, "CARD-STATS", block)
     replace_block(TRACKER, "CARD-STATS", block)
