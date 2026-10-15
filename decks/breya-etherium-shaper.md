@@ -1,0 +1,232 @@
+# Deck Skeleton — Breya, Etherium Shaper
+
+> **Data-derived skeleton, not a tuned list.** Built 2026-10-15 by `scripts/build_deck_skeleton.py` from [EDHREC](https://edhrec.com/commanders/breya-etherium-shaper) inclusion rates (community data) and validated against Scryfall Oracle bulk (2026-10-15). Card choices = most-included cards for this commander; *any judgment about what to cut/add is Opinion*. Format per [EDH Standards](../EDH%20Standards.md).
+
+## Contents
+- [Commander](#commander)
+- [Validation](#validation)
+- [Bracket assessment](#bracket-assessment)
+- [Decklist (Archidekt import)](#decklist-archidekt-import)
+- [Card breakdown](#card-breakdown)
+- [Rejected candidates](#rejected-candidates)
+- [Commander rules & rulings](#commander-rules--rulings)
+
+## Commander
+
+- **[Breya, Etherium Shaper](../cards/B/br.md#breya-etherium-shaper)** — {W}{U}{B}{R} — Legendary Artifact Creature — Human
+- Color identity: **BRUW (Black, Red, Blue, White)**
+- Eligibility: Yes (legendary creature)
+- EDHREC sample: 22624 decks · bracket distribution reported by EDHREC: B1: 73, B2: 1,116, B3: 2,112, B4: 1,903, B5: 399
+
+## Validation
+
+- Total cards: **100** (1 commander + 63 nonland + 16 nonbasic lands + 20 basics)
+- Strict color identity (CR 903.5c), singleton (903.5b), Commander-legal, size (903.5a): ✅ **all checks pass**
+
+## Bracket assessment
+
+- Game Changers (3): Smothering Tithe, Enlightened Tutor, Cyclonic Rift
+- Extra-turn cards: Time Sieve
+- Mass land denial: none
+- Two-card infinite combos: ⚠️ not machine-checked — review manually.
+- **Minimum bracket by the published barometers: 3 (Upgraded) — 1–3 Game Changers.** (Brackets are a pregame-conversation tool; see [EDH Standards](../EDH%20Standards.md#power-bracket-assessment).)
+
+## Decklist (Archidekt import)
+
+```text
+1x Breya, Etherium Shaper [Commander{top}]
+1x Sol Ring [Artifact]
+1x Arcane Signet [Artifact]
+1x Skullclamp [Artifact]
+1x Fellwar Stone [Artifact]
+1x Ashnod's Altar [Artifact]
+1x Thopter Foundry [Artifact]
+1x Time Sieve [Artifact]
+1x Chromatic Lantern [Artifact]
+1x Sword of the Meek [Artifact]
+1x Krark-Clan Ironworks [Artifact]
+1x Talisman of Dominance [Artifact]
+1x Unwinding Clock [Artifact]
+1x Talisman of Progress [Artifact]
+1x Mystic Forge [Artifact]
+1x Talisman of Creativity [Artifact]
+1x Nim Deathmantle [Artifact]
+1x Ichor Wellspring [Artifact]
+1x Azorius Signet [Artifact]
+1x Sai, Master Thopterist [Creature]
+1x Etherium Sculptor [Creature]
+1x Emry, Lurker of the Loch [Creature]
+1x Jhoira, Weatherlight Captain [Creature]
+1x Foundry Inspector [Creature]
+1x Baleful Strix [Creature]
+1x Urza, Lord High Artificer [Creature]
+1x Padeem, Consul of Innovation [Creature]
+1x Thought Monitor [Creature]
+1x Enthusiastic Mechanaut [Creature]
+1x Solemn Simulacrum [Creature]
+1x Esper Sentinel [Creature]
+1x Marionette Master [Creature]
+1x Marionette Apprentice [Creature]
+1x Ornithopter of Paradise [Creature]
+1x Master Transmuter [Creature]
+1x Phyrexian Metamorph [Creature]
+1x Myr Retriever [Creature]
+1x Scrap Trawler [Creature]
+1x Reckless Fireweaver [Creature]
+1x Jan Jansen, Chaos Crafter [Creature]
+1x Forensic Gadgeteer [Creature]
+1x Stridehangar Automaton [Creature]
+1x Myr Battlesphere [Creature]
+1x Urza, Chief Artificer [Creature]
+1x Goblin Welder [Creature]
+1x Pinnacle Emissary [Creature]
+1x Eldrazi Displacer [Creature]
+1x Swords to Plowshares [Instant]
+1x Dispatch [Instant]
+1x Counterspell [Instant]
+1x Path to Exile [Instant]
+1x Enlightened Tutor [Instant]
+1x Whir of Invention [Instant]
+1x Cyclonic Rift [Instant]
+1x Thopter Spy Network [Enchantment]
+1x Efficient Construction [Enchantment]
+1x Smothering Tithe [Enchantment]
+1x Weapons Manufacturing [Enchantment]
+1x Mechanized Production [Enchantment]
+1x Storm the Vault // Vault of Catlacan [Enchantment]
+1x Fabricate [Sorcery]
+1x Organic Extinction [Sorcery]
+1x Thoughtcast [Sorcery]
+1x Tezzeret, Master of the Bridge [Planeswalker]
+1x Command Tower [Land]
+1x Seat of the Synod [Land]
+1x Exotic Orchard [Land]
+1x Great Furnace [Land]
+1x Ancient Den [Land]
+1x Vault of Whispers [Land]
+1x Spire of Industry [Land]
+1x Watery Grave [Land]
+1x Hallowed Fountain [Land]
+1x Steam Vents [Land]
+1x Razortide Bridge [Land]
+1x Silverbluff Bridge [Land]
+1x Godless Shrine [Land]
+1x Mistvault Bridge [Land]
+1x Darksteel Citadel [Land]
+1x Sacred Foundry [Land]
+5x Plains [Land]
+5x Island [Land]
+5x Swamp [Land]
+5x Mountain [Land]
+```
+
+## Card breakdown
+
+| Card | Section | EDHREC inclusion | Identity |
+|---|---|---|---|
+| [Sol Ring](../cards/S/so.md#sol-ring) | Artifact | 90% | C |
+| [Arcane Signet](../cards/A/arc.md#arcane-signet) | Artifact | 85% | C |
+| [Skullclamp](../cards/S/sk.md#skullclamp) | Artifact | 55% | C |
+| [Fellwar Stone](../cards/F/fe.md#fellwar-stone) | Artifact | 46% | C |
+| [Ashnod's Altar](../cards/A/as.md#ashnods-altar) | Artifact | 45% | C |
+| [Thopter Foundry](../cards/T/tho.md#thopter-foundry) | Artifact | 43% | BUW |
+| [Time Sieve](../cards/T/ti.md#time-sieve) | Artifact | 41% | BU |
+| [Chromatic Lantern](../cards/C/chr.md#chromatic-lantern) | Artifact | 37% | C |
+| [Sword of the Meek](../cards/S/sw.md#sword-of-the-meek) | Artifact | 37% | C |
+| [Krark-Clan Ironworks](../cards/K/kr.md#krark-clan-ironworks) | Artifact | 37% | C |
+| [Talisman of Dominance](../cards/T/ta.md#talisman-of-dominance) | Artifact | 35% | BU |
+| [Unwinding Clock](../cards/U/un.md#unwinding-clock) | Artifact | 34% | C |
+| [Talisman of Progress](../cards/T/ta.md#talisman-of-progress) | Artifact | 33% | UW |
+| [Mystic Forge](../cards/M/my.md#mystic-forge) | Artifact | 31% | C |
+| [Talisman of Creativity](../cards/T/ta.md#talisman-of-creativity) | Artifact | 31% | RU |
+| [Nim Deathmantle](../cards/N/ni.md#nim-deathmantle) | Artifact | 30% | C |
+| [Ichor Wellspring](../cards/I/ic.md#ichor-wellspring) | Artifact | 26% | C |
+| [Azorius Signet](../cards/A/az.md#azorius-signet) | Artifact | 23% | UW |
+| [Sai, Master Thopterist](../cards/S/sai.md#sai-master-thopterist) | Creature | 64% | U |
+| [Etherium Sculptor](../cards/E/et.md#etherium-sculptor) | Creature | 59% | U |
+| [Emry, Lurker of the Loch](../cards/E/em.md#emry-lurker-of-the-loch) | Creature | 51% | U |
+| [Jhoira, Weatherlight Captain](../cards/J/jh.md#jhoira-weatherlight-captain) | Creature | 47% | RU |
+| [Foundry Inspector](../cards/F/fo.md#foundry-inspector) | Creature | 46% | C |
+| [Baleful Strix](../cards/B/bal.md#baleful-strix) | Creature | 44% | BU |
+| [Urza, Lord High Artificer](../cards/U/ur.md#urza-lord-high-artificer) | Creature | 44% | U |
+| [Padeem, Consul of Innovation](../cards/P/pa.md#padeem-consul-of-innovation) | Creature | 41% | U |
+| [Thought Monitor](../cards/T/tho.md#thought-monitor) | Creature | 41% | U |
+| [Enthusiastic Mechanaut](../cards/E/en.md#enthusiastic-mechanaut) | Creature | 40% | RU |
+| [Solemn Simulacrum](../cards/S/so.md#solemn-simulacrum) | Creature | 36% | C |
+| [Esper Sentinel](../cards/E/es.md#esper-sentinel) | Creature | 35% | W |
+| [Marionette Master](../cards/M/mar.md#marionette-master) | Creature | 35% | B |
+| [Marionette Apprentice](../cards/M/mar.md#marionette-apprentice) | Creature | 33% | B |
+| [Ornithopter of Paradise](../cards/O/or.md#ornithopter-of-paradise) | Creature | 33% | C |
+| [Master Transmuter](../cards/M/mas.md#master-transmuter) | Creature | 33% | U |
+| [Phyrexian Metamorph](../cards/P/ph.md#phyrexian-metamorph) | Creature | 32% | U |
+| [Myr Retriever](../cards/M/my.md#myr-retriever) | Creature | 31% | C |
+| [Scrap Trawler](../cards/S/sc.md#scrap-trawler) | Creature | 31% | C |
+| [Reckless Fireweaver](../cards/R/rec.md#reckless-fireweaver) | Creature | 31% | R |
+| [Jan Jansen, Chaos Crafter](../cards/J/ja.md#jan-jansen-chaos-crafter) | Creature | 29% | BRW |
+| [Forensic Gadgeteer](../cards/F/fo.md#forensic-gadgeteer) | Creature | 29% | U |
+| [Stridehangar Automaton](../cards/S/str.md#stridehangar-automaton) | Creature | 29% | C |
+| [Myr Battlesphere](../cards/M/my.md#myr-battlesphere) | Creature | 29% | C |
+| [Urza, Chief Artificer](../cards/U/ur.md#urza-chief-artificer) | Creature | 25% | BUW |
+| [Goblin Welder](../cards/G/gob.md#goblin-welder) | Creature | 25% | R |
+| [Pinnacle Emissary](../cards/P/pi.md#pinnacle-emissary) | Creature | 23% | RU |
+| [Eldrazi Displacer](../cards/E/el.md#eldrazi-displacer) | Creature | 22% | W |
+| [Swords to Plowshares](../cards/S/sw.md#swords-to-plowshares) | Instant | 51% | W |
+| [Dispatch](../cards/D/di.md#dispatch) | Instant | 41% | W |
+| [Counterspell](../cards/C/cou.md#counterspell) | Instant | 37% | U |
+| [Path to Exile](../cards/P/pa.md#path-to-exile) | Instant | 32% | W |
+| [Enlightened Tutor](../cards/E/en.md#enlightened-tutor) | Instant | 25% | W |
+| [Whir of Invention](../cards/W/wh.md#whir-of-invention) | Instant | 24% | U |
+| [Cyclonic Rift](../cards/C/cy.md#cyclonic-rift) | Instant | 23% | U |
+| [Thopter Spy Network](../cards/T/tho.md#thopter-spy-network) | Enchantment | 51% | U |
+| [Efficient Construction](../cards/E/ef.md#efficient-construction) | Enchantment | 31% | U |
+| [Smothering Tithe](../cards/S/sm.md#smothering-tithe) | Enchantment | 31% | W |
+| [Weapons Manufacturing](../cards/W/we.md#weapons-manufacturing) | Enchantment | 29% | R |
+| [Mechanized Production](../cards/M/me.md#mechanized-production) | Enchantment | 27% | U |
+| [Storm the Vault // Vault of Catlacan](../cards/S/sto.md#storm-the-vault--vault-of-catlacan) | Enchantment | 23% | RU |
+| [Fabricate](../cards/F/fa.md#fabricate) | Sorcery | 35% | U |
+| [Organic Extinction](../cards/O/or.md#organic-extinction) | Sorcery | 31% | W |
+| [Thoughtcast](../cards/T/tho.md#thoughtcast) | Sorcery | 31% | U |
+| [Tezzeret, Master of the Bridge](../cards/T/te.md#tezzeret-master-of-the-bridge) | Planeswalker | 30% | BU |
+| [Command Tower](../cards/C/com.md#command-tower) | Land | 91% | C |
+| [Seat of the Synod](../cards/S/sea.md#seat-of-the-synod) | Land | 66% | U |
+| [Exotic Orchard](../cards/E/ex.md#exotic-orchard) | Land | 62% | C |
+| [Great Furnace](../cards/G/gre.md#great-furnace) | Land | 60% | R |
+| [Ancient Den](../cards/A/an.md#ancient-den) | Land | 59% | W |
+| [Vault of Whispers](../cards/V/va.md#vault-of-whispers) | Land | 58% | B |
+| [Spire of Industry](../cards/S/spi.md#spire-of-industry) | Land | 49% | C |
+| [Watery Grave](../cards/W/wat.md#watery-grave) | Land | 47% | BU |
+| [Hallowed Fountain](../cards/H/ha.md#hallowed-fountain) | Land | 46% | UW |
+| [Steam Vents](../cards/S/ste.md#steam-vents) | Land | 44% | RU |
+| [Razortide Bridge](../cards/R/raz.md#razortide-bridge) | Land | 43% | UW |
+| [Silverbluff Bridge](../cards/S/si.md#silverbluff-bridge) | Land | 42% | RU |
+| [Godless Shrine](../cards/G/god.md#godless-shrine) | Land | 41% | BW |
+| [Mistvault Bridge](../cards/M/mis.md#mistvault-bridge) | Land | 41% | BU |
+| [Darksteel Citadel](../cards/D/da.md#darksteel-citadel) | Land | 40% | C |
+| [Sacred Foundry](../cards/S/sac.md#sacred-foundry) | Land | 38% | RW |
+| 5× Plains | Basic land | — | — |
+| 5× Island | Basic land | — | — |
+| 5× Swamp | Basic land | — | — |
+| 5× Mountain | Basic land | — | — |
+
+## Rejected candidates
+
+EDHREC suggestions excluded by validation (should normally be empty or only off-identity/illegal cards):
+
+- none
+
+<!-- RULES-NOTES:START -->
+## Commander rules & rulings
+
+> Auto-generated by `scripts/deck_rules_notes.py` from Scryfall Oracle bulk (2026-10-15) and rulings bulk (2026-10-15); rulings are quoted verbatim (source: Wizards of the Coast unless marked). Facts only — strategy is in [EDH Standards](../EDH%20Standards.md#synergy-notes), labeled Opinion.
+
+**Oracle text — [Breya, Etherium Shaper](../cards/B/br.md#breya-etherium-shaper):**
+> Breya, Etherium Shaper: When Breya enters, create two 1/1 blue Thopter artifact creature tokens with flying. / {2}, Sacrifice two artifacts: Choose one — / • Breya deals 3 damage to target player or planeswalker. / • Target creature gets -4/-4 until end of turn. / • You gain 5 life.
+
+**Official rulings on the commander (2):**
+- *2017-04-17* *(Scryfall note)* — Breya, Etherium Shaper is banned as a commander in Duel Commander format, but it may be part of your deck.
+- *2020-08-07* — Breya can be one of the two artifacts sacrificed to pay the cost of its last ability.
+
+**Creature-type overlap** with the commander (Human): 9 card(s) — [Sai, Master Thopterist](../cards/S/sai.md#sai-master-thopterist), [Jhoira, Weatherlight Captain](../cards/J/jh.md#jhoira-weatherlight-captain), [Urza, Lord High Artificer](../cards/U/ur.md#urza-lord-high-artificer), [Esper Sentinel](../cards/E/es.md#esper-sentinel), [Marionette Master](../cards/M/mar.md#marionette-master), [Marionette Apprentice](../cards/M/mar.md#marionette-apprentice), [Master Transmuter](../cards/M/mas.md#master-transmuter), [Reckless Fireweaver](../cards/R/rec.md#reckless-fireweaver), [Urza, Chief Artificer](../cards/U/ur.md#urza-chief-artificer).
+
+**Deck cards with official rulings:** 52 of 79 non-basic cards — [Arcane Signet](../cards/A/arc.md#arcane-signet) (3), [Fellwar Stone](../cards/F/fe.md#fellwar-stone) (7), [Thopter Foundry](../cards/T/tho.md#thopter-foundry) (1), [Time Sieve](../cards/T/ti.md#time-sieve) (1), [Chromatic Lantern](../cards/C/chr.md#chromatic-lantern) (1), [Sword of the Meek](../cards/S/sw.md#sword-of-the-meek) (5), [Unwinding Clock](../cards/U/un.md#unwinding-clock) (3), [Mystic Forge](../cards/M/my.md#mystic-forge) (6), [Nim Deathmantle](../cards/N/ni.md#nim-deathmantle) (8), [Ichor Wellspring](../cards/I/ic.md#ichor-wellspring) (1), [Sai, Master Thopterist](../cards/S/sai.md#sai-master-thopterist) (1), [Etherium Sculptor](../cards/E/et.md#etherium-sculptor) (2), [Emry, Lurker of the Loch](../cards/E/em.md#emry-lurker-of-the-loch) (7), [Jhoira, Weatherlight Captain](../cards/J/jh.md#jhoira-weatherlight-captain) (2), [Foundry Inspector](../cards/F/fo.md#foundry-inspector) (2), [Urza, Lord High Artificer](../cards/U/ur.md#urza-lord-high-artificer) (6), [Padeem, Consul of Innovation](../cards/P/pa.md#padeem-consul-of-innovation) (4), [Esper Sentinel](../cards/E/es.md#esper-sentinel) (3), [Marionette Master](../cards/M/mar.md#marionette-master) (7), [Marionette Apprentice](../cards/M/mar.md#marionette-apprentice) (3), [Master Transmuter](../cards/M/mas.md#master-transmuter) (2), [Phyrexian Metamorph](../cards/P/ph.md#phyrexian-metamorph) (8), [Myr Retriever](../cards/M/my.md#myr-retriever) (1), [Scrap Trawler](../cards/S/sc.md#scrap-trawler) (4), [Reckless Fireweaver](../cards/R/rec.md#reckless-fireweaver) (1), [Forensic Gadgeteer](../cards/F/fo.md#forensic-gadgeteer) (7), [Stridehangar Automaton](../cards/S/str.md#stridehangar-automaton) (5), [Myr Battlesphere](../cards/M/my.md#myr-battlesphere) (3), [Urza, Chief Artificer](../cards/U/ur.md#urza-chief-artificer) (1), [Goblin Welder](../cards/G/gob.md#goblin-welder) (1), [Pinnacle Emissary](../cards/P/pi.md#pinnacle-emissary) (1), [Eldrazi Displacer](../cards/E/el.md#eldrazi-displacer) (2), [Swords to Plowshares](../cards/S/sw.md#swords-to-plowshares) (1), [Dispatch](../cards/D/di.md#dispatch) (1), [Path to Exile](../cards/P/pa.md#path-to-exile) (2), [Enlightened Tutor](../cards/E/en.md#enlightened-tutor) (1), [Whir of Invention](../cards/W/wh.md#whir-of-invention) (9), [Cyclonic Rift](../cards/C/cy.md#cyclonic-rift) (4), [Thopter Spy Network](../cards/T/tho.md#thopter-spy-network) (2), [Efficient Construction](../cards/E/ef.md#efficient-construction) (1), [Smothering Tithe](../cards/S/sm.md#smothering-tithe) (1), [Mechanized Production](../cards/M/me.md#mechanized-production) (11), [Storm the Vault // Vault of Catlacan](../cards/S/sto.md#storm-the-vault--vault-of-catlacan) (3), [Tezzeret, Master of the Bridge](../cards/T/te.md#tezzeret-master-of-the-bridge) (8), [Command Tower](../cards/C/com.md#command-tower) (3), [Exotic Orchard](../cards/E/ex.md#exotic-orchard) (5), [Watery Grave](../cards/W/wat.md#watery-grave) (2), [Hallowed Fountain](../cards/H/ha.md#hallowed-fountain) (3), [Steam Vents](../cards/S/ste.md#steam-vents) (3), [Godless Shrine](../cards/G/god.md#godless-shrine) (2), [Darksteel Citadel](../cards/D/da.md#darksteel-citadel) (1), [Sacred Foundry](../cards/S/sac.md#sacred-foundry) (2).
+<!-- RULES-NOTES:END -->
