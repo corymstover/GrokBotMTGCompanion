@@ -78,9 +78,9 @@ schema: 2
 
 ### Baeloth Barrityl, Entertainer
 
-[Card entry](../cards/B/bae.md#baeloth-barrityl-entertainer) · **1 pages** (edh guides 1)
+[Card entry](../cards/B/bae.md#baeloth-barrityl-entertainer) · **2 pages** (edh guides 2)
 
-- **EDH guides (1):** [EDH Pairings — Partner, Background, Friends forever & Doctor's companion → Choose a Background](../EDH%20Pairings.md#choose-a-background)
+- **EDH guides (2):** [EDH Packages → Treasure: Repeatable Treasure makers](../EDH%20Packages.md#treasure-repeatable-treasure-makers) · [EDH Pairings — Partner, Background, Friends forever & Doctor's companion → Choose a Background](../EDH%20Pairings.md#choose-a-background)
 
 ### Bake into a Pie
 
@@ -928,8 +928,9 @@ schema: 2
 
 ### Beza, the Bounding Spring
 
-[Card entry](../cards/B/be.md#beza-the-bounding-spring) · **1 pages** (card data 1)
+[Card entry](../cards/B/be.md#beza-the-bounding-spring) · **2 pages** (edh guides 1 · card data 1)
 
+- **EDH guides (1):** [EDH Packages → Aristocrats: Fodder makers (multiple creature tokens)](../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens)
 - **Card data (1):** [Artist Index → Artists H](../Artist%20Index.md#artists-h) (+1 more)
 
 ### Bicycle Elemental
@@ -2496,10 +2497,10 @@ schema: 2
 
 ### Breeches, Brazen Plunderer
 
-[Card entry](../cards/B/br.md#breeches-brazen-plunderer) · **5 pages** (decks 4 · edh guides 1)
+[Card entry](../cards/B/br.md#breeches-brazen-plunderer) · **6 pages** (decks 4 · edh guides 2)
 
 - **Decks (4):** [Admiral Beckett Brass (Grixis)](../grixis/decks/admiral-beckett-brass.md) · [Admiral Brass, Unsinkable (Grixis)](../grixis/decks/admiral-brass-unsinkable.md) · [Don Andres, the Renegade (Grixis)](../grixis/decks/don-andres-the-renegade.md) · [Edward Kenway (Grixis)](../grixis/decks/edward-kenway.md)
-- **EDH guides (1):** [Grixis Packages → Draw](../grixis/Grixis%20Packages.md#draw)
+- **EDH guides (2):** [EDH Packages → Card advantage: Impulse / exile-to-play](../EDH%20Packages.md#card-advantage-impulse--exile-to-play) · [Grixis Packages → Draw](../grixis/Grixis%20Packages.md#draw)
 
 ### Breeches, Eager Pillager
 

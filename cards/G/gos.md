@@ -90,6 +90,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5143 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2022-02-18* — If a token copy of Go-Shintai of Life's Origin enters the battlefield, it will cause its own triggered ability to trigger.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 14 combos; most popular [Go-Shintai of Life's Origin + Second Chance](https://commanderspellbook.com/combo/747-1530/) (Infinite turns, Lock) · EDHREC as commander: 20,574 decks; highest synergy [Sanctum of All](../../cards/S/san.md#sanctum-of-all) (+88%), [Sanctum of Fruitful Harvest](../../cards/S/san.md#sanctum-of-fruitful-harvest) (+88%), [Honden of Infinite Rage](../../cards/H/ho.md#honden-of-infinite-rage) (+87%) · EDHREC: in 10,526 decks; most often under [Hei Bai, Forest Guardian](../../cards/H/he.md#hei-bai-forest-guardian) (90.4% of its decks), [Sisay, Weatherlight Captain](../../cards/S/si.md#sisay-weatherlight-captain) (4.8% of its decks), [Tom Bombadil](../../cards/T/to.md#tom-bombadil) (2.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/G.md#go-shintai-of-lifes-origin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/nec/37/go-shintai-of-lifes-origin) · oracle_id `6dbcd542-ddb0-434e-b8ee-3e31e1a8b051` · printing: NEC #37 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

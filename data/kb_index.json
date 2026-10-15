@@ -16605,6 +16605,11 @@
 ],
 [
 3,
+"Anti-Venom, Horrifying Healer",
+"anti-venom-horrifying-healer"
+],
+[
+3,
 "Ant-Man, Elusive Avenger",
 "ant-man-elusive-avenger"
 ],
@@ -17207,6 +17212,11 @@
 3,
 "Artistic Process",
 "artistic-process"
+],
+[
+3,
+"Arvad the Cursed",
+"arvad-the-cursed"
 ],
 [
 3,
@@ -20446,6 +20456,11 @@
 3,
 "Captain America, Wings of Freedom",
 "captain-america-wings-of-freedom"
+],
+[
+3,
+"Captain Howler, Sea Scourge",
+"captain-howler-sea-scourge"
 ],
 [
 3,
@@ -27355,6 +27370,16 @@
 ],
 [
 3,
+"Faramir, Prince of Ithilien",
+"faramir-prince-of-ithilien"
+],
+[
+3,
+"Faramir, Steward of Gondor",
+"faramir-steward-of-gondor"
+],
+[
+3,
 "Farewell",
 "farewell"
 ],
@@ -28685,6 +28710,11 @@
 ],
 [
 3,
+"Freya Crescent",
+"freya-crescent"
+],
+[
+3,
 "Freyalise, Llanowar's Fury",
 "freyalise-llanowars-fury"
 ],
@@ -28857,6 +28887,11 @@
 "headings": [
 [
 3,
+"Gadrak, the Crown-Scourge",
+"gadrak-the-crown-scourge"
+],
+[
+3,
 "Gadwick, the Wizened",
 "gadwick-the-wizened"
 ],
@@ -28984,6 +29019,11 @@
 3,
 "Garenbrig Carver // Shield's Might",
 "garenbrig-carver--shields-might"
+],
+[
+3,
+"Gargos, Vicious Watcher",
+"gargos-vicious-watcher"
 ],
 [
 3,
@@ -29649,6 +29689,11 @@
 3,
 "Ginger, Queen of Sweets",
 "ginger-queen-of-sweets"
+],
+[
+3,
+"Gisa and Geralf",
+"gisa-and-geralf"
 ],
 [
 3,
@@ -32394,6 +32439,11 @@
 ],
 [
 3,
+"Hugs, Grisly Guardian",
+"hugs-grisly-guardian"
+],
+[
+3,
 "Hulkbuster Armor",
 "hulkbuster-armor"
 ],
@@ -34507,6 +34557,11 @@
 3,
 "Karametra's Acolyte",
 "karametras-acolyte"
+],
+[
+3,
+"Karazikar, the Eye Tyrant",
+"karazikar-the-eye-tyrant"
 ],
 [
 3,
@@ -37704,6 +37759,11 @@
 ],
 [
 3,
+"Matoya, Archon Elder",
+"matoya-archon-elder"
+],
+[
+3,
 "Matzalantli, the Great Door // The Core",
 "matzalantli-the-great-door--the-core"
 ],
@@ -37976,6 +38036,11 @@
 3,
 "Merrow Skyswimmer",
 "merrow-skyswimmer"
+],
+[
+3,
+"Merry, Esquire of Rohan",
+"merry-esquire-of-rohan"
 ],
 [
 3,
@@ -38371,6 +38436,11 @@
 3,
 "Minsc & Boo, Timeless Heroes",
 "minsc--boo-timeless-heroes"
+],
+[
+3,
+"Minthara, Merciless Soul",
+"minthara-merciless-soul"
 ],
 [
 3,
@@ -39891,6 +39961,11 @@
 ],
 [
 3,
+"Neyith of the Dire Hunt",
+"neyith-of-the-dire-hunt"
+],
+[
+3,
 "Nezahal, Primal Tide",
 "nezahal-primal-tide"
 ],
@@ -40198,6 +40273,11 @@
 3,
 "No Escape",
 "no-escape"
+],
+[
+3,
+"Nogi, Draco-Zealot",
+"nogi-draco-zealot"
 ],
 [
 3,
@@ -40785,6 +40865,11 @@
 3,
 "Olivia, Mobilized for War",
 "olivia-mobilized-for-war"
+],
+[
+3,
+"Olivia, Opulent Outlaw",
+"olivia-opulent-outlaw"
 ],
 [
 3,
@@ -41597,6 +41682,11 @@
 3,
 "Pantlaza, Sun-Favored",
 "pantlaza-sun-favored"
+],
+[
+3,
+"Papalymo Totolymo",
+"papalymo-totolymo"
 ],
 [
 3,
@@ -42910,6 +43000,11 @@
 ],
 [
 3,
+"Prismari, the Inspiration",
+"prismari-the-inspiration"
+],
+[
+3,
 "Prismatic Ending",
 "prismatic-ending"
 ],
@@ -43394,6 +43489,11 @@
 3,
 "Quasiduplicate",
 "quasiduplicate"
+],
+[
+3,
+"Queen Brahne",
+"queen-brahne"
 ],
 [
 3,
@@ -44476,6 +44576,11 @@
 3,
 "Rekindling Phoenix",
 "rekindling-phoenix"
+],
+[
+3,
+"Reki, the History of Kamigawa",
+"reki-the-history-of-kamigawa"
 ],
 [
 3,
@@ -45766,6 +45871,11 @@
 3,
 "Rydia's Return",
 "rydias-return"
+],
+[
+3,
+"Rydia, Summoner of Mist",
+"rydia-summoner-of-mist"
 ],
 [
 3,
@@ -49708,6 +49818,11 @@
 ],
 [
 3,
+"Stella Lee, Wild Card",
+"stella-lee-wild-card"
+],
+[
+3,
 "Stensia Masquerade",
 "stensia-masquerade"
 ],
@@ -50713,6 +50828,11 @@
 ],
 [
 3,
+"Svyelun of Sea and Sky",
+"svyelun-of-sea-and-sky"
+],
+[
+3,
 "Swamp",
 "swamp"
 ],
@@ -51475,6 +51595,11 @@
 ],
 [
 3,
+"Tegwyll, Duke of Splendor",
+"tegwyll-duke-of-splendor"
+],
+[
+3,
 "Tekuthal, Inquiry Dominus",
 "tekuthal-inquiry-dominus"
 ],
@@ -52190,6 +52315,11 @@
 ],
 [
 3,
+"The Emperor of Palamecia // The Lord Master of Hell",
+"the-emperor-of-palamecia--the-lord-master-of-hell"
+],
+[
+3,
 "The Endstone",
 "the-endstone"
 ],
@@ -52510,6 +52640,11 @@
 ],
 [
 3,
+"The Odd Acorn Gang",
+"the-odd-acorn-gang"
+],
+[
+3,
 "Théoden, King of Rohan",
 "théoden-king-of-rohan"
 ],
@@ -52607,6 +52742,11 @@
 3,
 "The Scarab God",
 "the-scarab-god"
+],
+[
+3,
+"The Scorpion God",
+"the-scorpion-god"
 ],
 [
 3,
@@ -54804,6 +54944,11 @@
 3,
 "Unclaimed Territory",
 "unclaimed-territory"
+],
+[
+3,
+"Unctus, Grand Metatect",
+"unctus-grand-metatect"
 ],
 [
 3,
@@ -57988,6 +58133,11 @@
 ],
 [
 3,
+"Xu-Ifit, Osteoharmonist",
+"xu-ifit-osteoharmonist"
+],
+[
+3,
 "Xun Yu, Wei Advisor",
 "xun-yu-wei-advisor"
 ],
@@ -58617,6 +58767,11 @@
 ],
 [
 3,
+"Zuko, Exiled Prince",
+"zuko-exiled-prince"
+],
+[
+3,
 "Zuko, Firebending Master",
 "zuko-firebending-master"
 ],
@@ -58654,6 +58809,11 @@
 3,
 "Zurgo Stormrender",
 "zurgo-stormrender"
+],
+[
+3,
+"Zurgo, Thunder's Decree",
+"zurgo-thunders-decree"
 ],
 [
 3,

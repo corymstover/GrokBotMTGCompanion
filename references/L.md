@@ -186,9 +186,10 @@ schema: 2
 
 ### Laughing Jasper Flint
 
-[Card entry](../cards/L/la.md#laughing-jasper-flint) · **2 pages** (decks 2)
+[Card entry](../cards/L/la.md#laughing-jasper-flint) · **3 pages** (decks 2 · edh guides 1)
 
 - **Decks (2):** [Don Andres, the Renegade (Grixis)](../grixis/decks/don-andres-the-renegade.md) · [Nathan Drake, Treasure Hunter (Grixis)](../grixis/decks/nathan-drake-treasure-hunter.md)
+- **EDH guides (1):** [EDH Packages → Card advantage: Impulse / exile-to-play](../EDH%20Packages.md#card-advantage-impulse--exile-to-play)
 
 ### Laughing Mad
 

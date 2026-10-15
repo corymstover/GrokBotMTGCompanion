@@ -188,6 +188,9 @@ schema: 2
 - **Rulings** (2):
   - *2017-07-14* — If a creature with a -1/-1 counter on it dies at the same time as The Scorpion God does, you'll draw a card. The same is true if The Scorpion God dies with a -1/-1 counter on it.
   - *2017-07-14* — You'll draw only one card when a creature with more than one -1/-1 counter on it dies.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [The Scorpion God + Blowfly Infestation + The Locust God](https://commanderspellbook.com/combo/1145-1339-4994/) (Infinite card draw, Infinite draw triggers) · EDHREC as commander: 2,667 decks; highest synergy [Nest of Scarabs](../../cards/N/ne.md#nest-of-scarabs) (+89%), [Blowfly Infestation](../../cards/B/blo.md#blowfly-infestation) (+88%), [Kulrath Knight](../../cards/K/ku.md#kulrath-knight) (+86%) · EDHREC: in 28,556 decks; most often under [Auntie Ool, Cursewretch](../../cards/A/au.md#auntie-ool-cursewretch) (90.2% of its decks), [The Reaper, King No More](../../cards/T/ther.md#the-reaper-king-no-more) (85.6% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (3.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/T.md#the-scorpion-god)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/133/the-scorpion-god) · oracle_id `aff223d4-6338-460d-a4d5-d45f522864dc` · printing: ECC #133 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Sea Devils

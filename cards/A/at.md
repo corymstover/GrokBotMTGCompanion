@@ -427,6 +427,8 @@ schema: 2
 - **Rulings** (2):
   - *2019-08-23* — If Atla Palani dies at the same time as one or more Eggs you control, its last ability triggers for each of those Eggs.
   - *2019-08-23* — If there are no creature cards in your library as Atla Palani's last ability resolves, you reveal your library then put it back in a random order.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Atla Palani, Nest Tender + Ashnod's Altar + Maskwood Nexus](https://commanderspellbook.com/combo/240-643-2034/) (Near-infinite creature ETB, Near-infinite creature LTB) · EDHREC as commander: 21,407 decks; highest synergy [Ashnod's Altar](../../cards/A/as.md#ashnods-altar) (+61%), [Palani's Hatcher](../../cards/P/pa.md#palanis-hatcher) (+57%), [Goblin Bombardment](../../cards/G/gob.md#goblin-bombardment) (+56%) · EDHREC: in 14,146 decks; most often under [Pantlaza, Sun-Favored](../../cards/P/pa.md#pantlaza-sun-favored) (6.9% of its decks), [Gishath, Sun's Avatar](../../cards/G/gi.md#gishath-suns-avatar) (8.3% of its decks), [Morophon, the Boundless](../../cards/M/mor.md#morophon-the-boundless) (9.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#atla-palani-nest-tender)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/142/atla-palani-nest-tender) · oracle_id `b56cebe0-3752-4ce5-afbd-911543784015` · printing: DMC #142 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

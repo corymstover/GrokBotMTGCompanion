@@ -1446,6 +1446,8 @@ schema: 2
 - **Rulings** (2):
   - *2022-09-09* — Conversely, if you attempt to put a non-Aura Equipment onto the battlefield this way and Danitha is no longer on the battlefield or that Equipment can't legally be attached to Danitha, that Equipment will enter the battlefield unattached.
   - *2022-09-09* — If you attempt to put an Aura onto the battlefield this way and Danitha is no longer on the battlefield or that Aura can't legally be attached to Danitha, that Aura does not enter the battlefield at all. Instead, it will stay in its previous zone.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Danitha, Benalia's Hope + Kaya's Ghostform + Bartolomé del Presidio](https://commanderspellbook.com/combo/710-2730-2921/) (Infinite creature LTB, Infinite creature ETB) · EDHREC as commander: 219 decks; highest synergy [Puresteel Paladin](../../cards/P/pu.md#puresteel-paladin) (+61%), [Argentum Armor](../../cards/A/arg.md#argentum-armor) (+49%), [Open the Armory](../../cards/O/op.md#open-the-armory) (+46%) · EDHREC: in 33,200 decks; most often under [Syr Gwyn, Hero of Ashvale](../../cards/S/sy.md#syr-gwyn-hero-of-ashvale) (56.7% of its decks), [Arna Kennerüd, Skycaptain](../../cards/A/arn.md#arna-kennerüd-skycaptain) (19.8% of its decks), [Dogmeat, Ever Loyal](../../cards/D/do.md#dogmeat-ever-loyal) (16.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/15/danitha-benalias-hope) · oracle_id `43b5dbe9-41f7-4082-944b-ea9d6292c6fd` · printing: DMU #15 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Danitha Capashen, Paragon
@@ -1485,6 +1487,8 @@ schema: 2
   - *2023-05-12* — Once you begin to cast the spell, losing control of Danitha won't affect the spell.
   - *2023-05-12* — You must follow the normal timing permissions and restrictions of the spell you cast from your graveyard.
   - *2023-05-12* — You must pay the costs to cast that spell. If it has an alternative cost, you may cast it for that cost instead.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 819 decks; highest synergy [All That Glitters](../../cards/A/al.md#all-that-glitters) (+67%), [Sram, Senior Edificer](../../cards/S/sr.md#sram-senior-edificer) (+66%), [Danitha Capashen, Paragon](../../cards/D/da.md#danitha-capashen-paragon) (+61%) · EDHREC: in 30,107 decks; most often under [Dogmeat, Ever Loyal](../../cards/D/do.md#dogmeat-ever-loyal) (44.1% of its decks), [Cloud, Ex-SOLDIER](../../cards/C/cl.md#cloud-ex-soldier) (11.7% of its decks), [Galea, Kindler of Hope](../../cards/G/ga.md#galea-kindler-of-hope) (47.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#danitha-new-benalias-light)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mat/29/danitha-new-benalias-light) · oracle_id `971b30a8-4ab4-4e96-9d50-597da4d52994` · printing: MAT #29 (2023-05-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1809,6 +1813,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4536 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2018-03-16* — If you're dealt damage that causes your life total to become 0 or less, you lose the game before the tokens can be created.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Darien, King of Kjeldor + Soul Warden + Blasting Station](https://commanderspellbook.com/combo/360-413-1981/) (Infinite death triggers, Infinite creature ETB) · EDHREC as commander: 5,096 decks; highest synergy [Nomad Stadium](../../cards/N/no.md#nomad-stadium) (+74%), [Soul's Attendant](../../cards/S/so.md#souls-attendant) (+68%), [Soul Warden](../../cards/S/so.md#soul-warden) (+67%) · EDHREC: in 30,848 decks; most often under [Myrel, Shield of Argive](../../cards/M/my.md#myrel-shield-of-argive) (41.7% of its decks), [Commander Mustard](../../cards/C/com.md#commander-mustard) (60.6% of its decks), [Arabella, Abandoned Doll](../../cards/A/ara.md#arabella-abandoned-doll) (6.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/59/darien-king-of-kjeldor) · oracle_id `d05336cb-6157-47e7-942f-43becd67a5bf` · printing: MKC #59 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Darigaaz Reincarnated

@@ -446,6 +446,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3908 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2022-09-09* — You must pay all costs and follow all normal timing rules for cards cast with Vohar, Vodalian Desecrator's last ability.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 20 combos; most popular [Vohar, Vodalian Desecrator + Haunted One + Cauldron of Souls + Deceiver Exarch + Bartolomé del Presidio](https://commanderspellbook.com/combo/1365-2198-2527-2921-5294/) (Infinite card draw, Infinite draw triggers) · EDHREC as commander: 1,662 decks; highest synergy [Persist](../../cards/P/pe.md#persist) (+36%), [Reanimate](../../cards/R/rea.md#reanimate) (+35%), [Animate Dead](../../cards/A/an.md#animate-dead) (+33%) · EDHREC: in 40,873 decks; most often under [Hashaton, Scarab's Fist](../../cards/H/ha.md#hashaton-scarabs-fist) (34.4% of its decks), [Sefris of the Hidden Ways](../../cards/S/sef.md#sefris-of-the-hidden-ways) (32.4% of its decks), [Norman Osborn](../../cards/N/no.md#norman-osborn--green-goblin) (14.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/226/vohar-vodalian-desecrator) · oracle_id `4380df08-7be4-48ca-9783-d644fd2ea27d` · printing: DMU #226 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Voiceless Spirit

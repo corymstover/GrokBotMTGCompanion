@@ -1942,6 +1942,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4340 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2021-07-23* — Minn's last ability uses the Illusion's power the last time it existed on the battlefield to determine what cards you may put onto the battlefield.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 38 combos; most popular [Meloku the Clouded Mirror + Minn, Wily Illusionist + Ashnod's Altar](https://commanderspellbook.com/combo/2034-3783-4300/) (Infinite colorless mana, Infinite death triggers) · EDHREC as commander: 6,479 decks; highest synergy [Perilous Research](../../cards/P/pe.md#perilous-research) (+71%), [Skullclamp](../../cards/S/sk.md#skullclamp) (+67%), [Abjure](../../cards/A/ab.md#abjure) (+62%) · EDHREC: in 31,187 decks; most often under [Vnwxt, Verbose Host](../../cards/V/vn.md#vnwxt-verbose-host) (24.7% of its decks), [Zimone and Dina](../../cards/Z/zi.md#zimone-and-dina) (29.7% of its decks), [The Council of Four](../../cards/T/thec.md#the-council-of-four) (23.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#minn-wily-illusionist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afc/16/minn-wily-illusionist) · oracle_id `d4212d44-d6a0-4c5b-9c54-bc90f36828dd` · printing: AFC #16 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2147,6 +2149,9 @@ schema: 2
 - **Keywords:** Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5236 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 4 combos; most popular [Minthara, Merciless Soul + Ruthless Technomancer + Restoration Angel](https://commanderspellbook.com/combo/1090-3719-5912/) (Infinite artifact ETB, Infinite artifact LTB) · EDHREC as commander: 5,438 decks; highest synergy [Metastatic Evangel](../../cards/M/me.md#metastatic-evangel) (+64%), [Grateful Apparition](../../cards/G/gra.md#grateful-apparition) (+59%), [Lae'zel, Vlaakith's Champion](../../cards/L/la.md#laezel-vlaakiths-champion) (+59%) · EDHREC: in 25,074 decks; most often under [Azlask, the Swelling Scourge](../../cards/A/az.md#azlask-the-swelling-scourge) (57.5% of its decks), [Kelsien, the Plague](../../cards/K/ke.md#kelsien-the-plague) (71.9% of its decks), [Daxos the Returned](../../cards/D/da.md#daxos-the-returned) (57.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Tokens: Anthems](../../EDH%20Packages.md#tokens-anthems) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/M.md#minthara-merciless-soul)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/286/minthara-merciless-soul) · oracle_id `fad0c174-4c4a-4662-bd1f-224886e826e1` · printing: CLB #286 (2022-06-10) · [rulings](https://api.scryfall.com/cards/0c9e944b-98fa-4aea-825d-b8b8a9d7ed47/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mintstrosity

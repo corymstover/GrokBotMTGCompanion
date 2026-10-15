@@ -2777,7 +2777,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4404 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-06-06* — You can't use Cloud's second ability to try to attach an Equipment to Cloud if that Equipment can't legally be attached to Cloud.
-- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/C.md#cloud-ex-soldier)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 32,693 decks; highest synergy [Puresteel Paladin](../../cards/P/pu.md#puresteel-paladin) (+86%), [Colossus Hammer](../../cards/C/col.md#colossus-hammer) (+81%), [Conqueror's Flail](../../cards/C/con.md#conquerors-flail) (+74%) · EDHREC: in 4,439 decks; most often under [Tifa, Martial Artist](../../cards/T/ti.md#tifa-martial-artist) (22.4% of its decks), [Dogmeat, Ever Loyal](../../cards/D/do.md#dogmeat-ever-loyal) (9.8% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (1.9% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (2 edh guides · 1 card data) → [reverse index](../../references/C.md#cloud-ex-soldier)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/2/cloud-ex-soldier) · oracle_id `653f0452-5802-4639-86c2-1500c3964fcb` · printing: FIC #2 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cloudfin Raptor

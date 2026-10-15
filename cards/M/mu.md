@@ -1813,6 +1813,8 @@ schema: 2
 - **Rulings** (2):
   - *2020-06-23* — If a card in a player's library has {X} in its mana cost, X is considered to be 0.
   - *2020-06-23* — The bonus Muxus gets is determined only as its last ability resolves. Once that happens, the bonus won't change later in the turn even if the number of Goblins you control changes.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Krenko, Mob Boss](../../decks/krenko-mob-boss.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,475 decks; highest synergy [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (+86%), [Goblin Warchief](../../cards/G/gob.md#goblin-warchief) (+79%), [Goblin Chieftain](../../cards/G/gob.md#goblin-chieftain) (+76%) · EDHREC: in 39,114 decks; most often under [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (50.5% of its decks), [Grub, Storied Matriarch](../../cards/G/gru.md#grub-storied-matriarch--grub-notorious-auntie) (49.8% of its decks), [Wort, Boggart Auntie](../../cards/W/wo.md#wort-boggart-auntie) (63.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#muxus-goblin-grandee)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/24/muxus-goblin-grandee) · oracle_id `07c82cde-f00d-4454-9df4-9286e344c9bb` · printing: JMP #24 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

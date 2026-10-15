@@ -811,6 +811,8 @@ schema: 2
 - **Rulings** (2):
   - *2020-11-10* — As long as Abomination of Llanowar is on the battlefield (and still an Elf) or in your graveyard, its ability will count itself.
   - *2020-11-10* — The ability that defines Abomination of Llanowar's power and toughness applies in all zones, not just the battlefield.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Lathril, Blade of the Elves](../../decks/lathril-blade-of-the-elves.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,363 decks; highest synergy [Elvish Archdruid](../../cards/E/el.md#elvish-archdruid) (+66%), [Imperious Perfect](../../cards/I/im.md#imperious-perfect) (+63%), [Priest of Titania](../../cards/P/pr.md#priest-of-titania) (+57%) · EDHREC: in 29,882 decks; most often under [Lathril, Blade of the Elves](../../cards/L/la.md#lathril-blade-of-the-elves) (43.3% of its decks), [High Perfect Morcant](../../cards/H/hi.md#high-perfect-morcant) (32.5% of its decks), [Thranduil, the Elvenking](../../cards/T/thr.md#thranduil-the-elvenking) (32.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/A.md#abomination-of-llanowar)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khc/81/abomination-of-llanowar) · oracle_id `5146ba3f-2c5f-4a86-95d7-a34ce1e842b0` · printing: KHC #81 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -990,6 +992,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4358 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-06-06* — Protection from a player means that you have protection from each object controlled by that player. If an object has no controller (such as a card in a graveyard), its owner is considered its controller for this purpose.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,405 decks; highest synergy [Vexilus Praetor](../../cards/V/ve.md#vexilus-praetor) (+47%), [Bastion Protector](../../cards/B/bas.md#bastion-protector) (+44%), [Mithril Coat](../../cards/M/mit.md#mithril-coat) (+40%) · EDHREC: in 35,406 decks; most often under [Peter Parker](../../cards/P/pe.md#peter-parker--amazing-spider-man) (56.8% of its decks), [Grand Arbiter Augustin IV](../../cards/G/gra.md#grand-arbiter-augustin-iv) (19.5% of its decks), [Mr. Foxglove](../../cards/M/mr.md#mr-foxglove) (33.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/212/absolute-virtue) · oracle_id `d4fddf20-6b3a-42c3-a245-002dacbb4725` · printing: FIN #212 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Absolver Thrull

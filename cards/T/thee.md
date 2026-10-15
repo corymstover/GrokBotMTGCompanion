@@ -281,6 +281,9 @@ schema: 2
   - *2025-06-06* — The back face of a nonmodal double-faced card usually has a color indicator that defines its color.
   - *2025-06-06* — The mana value of a nonmodal double-faced card is the mana value of its front face, no matter which face is up.
   - *2025-06-06* — The value of X is calculated only once, as The Lord Master of Hell's ability resolves.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 6,620 decks; highest synergy [Traumatize](../../cards/T/tra.md#traumatize) (+55%), [Cut Your Losses](../../cards/C/cu.md#cut-your-losses) (+50%), [Pirate's Pillage](../../cards/P/pi.md#pirates-pillage) (+50%) · EDHREC: in 31,042 decks; most often under [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (13.7% of its decks), [Kefka, Court Mage](../../cards/K/ke.md#kefka-court-mage--kefka-ruler-of-ruin) (11.7% of its decks), [Gandalf, Party Guest](../../cards/G/ga.md#gandalf-party-guest) (63.0% of its decks) — *Guidance (Oracle pattern)* — packages: [Ramp: Mana creatures (MV ≤ 2)](../../EDH%20Packages.md#ramp-mana-creatures-mv--2) · [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/T.md#the-emperor-of-palamecia--the-lord-master-of-hell)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/219/the-emperor-of-palamecia-the-lord-master-of-hell) · oracle_id `042c01ec-9f1f-432b-bea9-d64d822cd91e` · printing: FIN #219 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The End

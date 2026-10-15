@@ -334,6 +334,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4876 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-06-06* — You choose how many cards to discard as Celes's first ability resolves. You may choose to discard no cards and just draw a card.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 70 combos; most popular [Murderous Redcap + Celes, Rune Knight](https://commanderspellbook.com/combo/1657-6431/) (Infinite +1/+1 counters on most creatures you control, Infinite creature ETB) · EDHREC as commander: 12,572 decks; highest synergy [Reanimate](../../cards/R/rea.md#reanimate) (+59%), [Murderous Redcap](../../cards/M/mu.md#murderous-redcap) (+57%), [Ephemerate](../../cards/E/ep.md#ephemerate) (+50%) · EDHREC: in 20,554 decks; most often under [Terra, Herald of Hope](../../cards/T/te.md#terra-herald-of-hope) (80.0% of its decks), [Dihada, Binder of Wills](../../cards/D/di.md#dihada-binder-of-wills) (8.7% of its decks), [Kroxa and Kunoros](../../cards/K/kr.md#kroxa-and-kunoros) (25.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/1/celes-rune-knight) · oracle_id `aea8345a-191d-4c62-8d15-a716a9934b66` · printing: FIC #1 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Celestial Ancient

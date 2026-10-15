@@ -522,7 +522,9 @@ schema: 2
 - **Rulings** (2):
   - *2022-12-02* — The value of X is locked in as the first ability resolves. The bonus it grants won't change after that point, even if the number of Rats you control does.
   - *2022-12-02* — You choose which Rat creature cards to return to your hand as the last ability resolves. You may choose Rat creature cards milled with this ability.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#ashcoat-of-the-shadow-swarm)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Ashcoat of the Shadow Swarm + Mind Over Matter + The Peregrine Dynamo](https://commanderspellbook.com/combo/1572-2341-4067/) (Infinite self-discard triggers, Infinite self-mill) · EDHREC as commander: 3,574 decks; highest synergy [Marrow-Gnawer](../../cards/M/mar.md#marrow-gnawer) (+83%), [Piper of the Swarm](../../cards/P/pi.md#piper-of-the-swarm) (+72%), [Karumonix, the Rat King](../../cards/K/ka.md#karumonix-the-rat-king) (+70%) · EDHREC: in 27,097 decks; most often under [Marrow-Gnawer](../../cards/M/mar.md#marrow-gnawer) (54.4% of its decks), [Wick, the Whorled Mind](../../cards/W/wi.md#wick-the-whorled-mind) (36.6% of its decks), [Vren, the Relentless](../../cards/V/vr.md#vren-the-relentless) (33.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Self-mill](../../EDH%20Packages.md#graveyard-self-mill) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/A.md#ashcoat-of-the-shadow-swarm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/j22/19/ashcoat-of-the-shadow-swarm) · oracle_id `9cc69ea5-42a2-4306-ac6d-cff5adb20bcb` · printing: J22 #19 (2022-12-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ashen Firebeast
@@ -951,6 +953,8 @@ schema: 2
   - *2025-11-17* — In the Commander variant, a double-faced card's color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered. For example, Oko, Lorwyn Liege's color identity is green and blue, since its front face is blue, its rules text contains a green mana symbol, and its back face has a green color indicator as well as a blue mana symbol in its rules text.
   - *2025-11-17* — The back face of a nonmodal double-faced card usually has a color indicator that defines its color.
   - *2025-11-17* — The mana value of a nonmodal double-faced card is the mana value of its front face, no matter which face is up.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 5,998 decks; highest synergy [Hedron Archive](../../cards/H/he.md#hedron-archive) (+63%), [Thran Dynamo](../../cards/T/thr.md#thran-dynamo) (+62%), [Sunbird's Invocation](../../cards/S/sun.md#sunbirds-invocation) (+60%) · EDHREC: in 24,743 decks; most often under [Ashling, the Limitless](../../cards/A/as.md#ashling-the-limitless) (26.3% of its decks), [Rootha, Mastering the Moment](../../cards/R/ro.md#rootha-mastering-the-moment) (39.1% of its decks), [Gandalf, Party Guest](../../cards/G/ga.md#gandalf-party-guest) (28.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/124/ashling-rekindled-ashling-rimebound) · oracle_id `31fc5d8b-94bc-4688-8a84-f15800e717a8` · printing: ECL #124 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ashling's Command
@@ -2096,6 +2100,8 @@ schema: 2
 - **Rulings** (2):
   - *2022-09-09* — Once either the equip {1} or crew 1 ability is activated, causing Astor, Bearer of Blades to leave the battlefield won't stop the ability from resolving.
   - *2022-09-09* — You may still activate any other equip or crew abilities that permanent has if you wish.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,132 decks; highest synergy [Colossus Hammer](../../cards/C/col.md#colossus-hammer) (+59%), [Sram, Senior Edificer](../../cards/S/sr.md#sram-senior-edificer) (+58%), [Puresteel Paladin](../../cards/P/pu.md#puresteel-paladin) (+49%) · EDHREC: in 31,686 decks; most often under [Nahiri, Forged in Fury](../../cards/N/na.md#nahiri-forged-in-fury) (56.6% of its decks), [Kolodin, Triumph Caster](../../cards/K/ko.md#kolodin-triumph-caster) (66.2% of its decks), [Captain America, First Avenger](../../cards/C/cap.md#captain-america-first-avenger) (15.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/194/astor-bearer-of-blades) · oracle_id `196962f0-6aff-4198-9e0c-eaf42aeaf147` · printing: DMU #194 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Astral Confrontation

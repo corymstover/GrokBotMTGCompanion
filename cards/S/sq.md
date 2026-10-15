@@ -363,6 +363,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3896 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2018-12-07* — If Squee isn't in your graveyard as your upkeep begins, its ability won't trigger. You can't take any actions during your turn before your upkeep begins.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 155 decks; highest synergy [Electric Revelation](../../cards/E/el.md#electric-revelation) (+31%), [Sazacap's Brew](../../cards/S/saz.md#sazacaps-brew) (+30%), [Tormenting Voice](../../cards/T/to.md#tormenting-voice) (+30%) · EDHREC: in 42,582 decks; most often under [Quintorius, History Chaser](../../cards/Q/qu.md#quintorius-history-chaser) (78.8% of its decks), [Asmoranomardicadaistinaculdacar](../../cards/A/as.md#asmoranomardicadaistinaculdacar) (65.5% of its decks), [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (5.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#squee-goblin-nabob)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/254/squee-goblin-nabob) · oracle_id `0ef760f4-bbec-4735-8d60-fc24d973452a` · printing: SOC #254 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

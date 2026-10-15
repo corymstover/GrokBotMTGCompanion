@@ -66,6 +66,8 @@ schema: 2
   - *2018-10-05* — Because tokens aren't cards, they never count for undergrowth abilities.
   - *2018-10-05* — Creature cards with other types, such as artifact creature cards, count for undergrowth abilities.
   - *2018-10-05* — You can activate Izoni's last ability while its undergrowth ability is on the stack. This will increase the number of Insect tokens you'll create.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 10 combos; most popular [Nim Deathmantle + Ashnod's Altar + Izoni, Thousand-Eyed](https://commanderspellbook.com/combo/505-2034-5003/) (Infinite death triggers, Infinite creature ETB) · EDHREC as commander: 605 decks; highest synergy [Stitcher's Supplier](../../cards/S/sti.md#stitchers-supplier) (+49%), [Satyr Wayfinder](../../cards/S/sat.md#satyr-wayfinder) (+47%), [Skull Prophet](../../cards/S/sk.md#skull-prophet) (+39%) · EDHREC: in 30,166 decks; most often under [Grist, the Hunger Tide](../../cards/G/gri.md#grist-the-hunger-tide) (47.9% of its decks), [Meren of Clan Nel Toth](../../cards/M/me.md#meren-of-clan-nel-toth) (12.1% of its decks), [Zask, Skittering Swarmlord](../../cards/Z/za.md#zask-skittering-swarmlord) (42.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#izoni-thousand-eyed)
 - **Source flags:** [Scryfall](https://scryfall.com/card/grn/180/izoni-thousand-eyed) · oracle_id `5a210b32-6e1f-4578-bd8b-4e481b761159` · printing: GRN #180 (2018-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

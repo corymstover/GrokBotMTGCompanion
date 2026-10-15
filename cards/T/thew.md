@@ -160,6 +160,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4785 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2024-09-20* — You can't tap more creatures to cast this spell using convoke than are required to pay its total cost.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 729 decks; highest synergy [The Wandering Emperor](../../cards/T/thew.md#the-wandering-emperor) (+56%), [Masako the Humorless](../../cards/M/mas.md#masako-the-humorless) (+54%), [Split Up](../../cards/S/spl.md#split-up) (+50%) · EDHREC: in 33,039 decks; most often under [Sonic the Hedgehog](../../cards/S/so.md#sonic-the-hedgehog) (23.6% of its decks), [Kasla, the Broken Halo](../../cards/K/ka.md#kasla-the-broken-halo) (52.6% of its decks), [Winota, Joiner of Forces](../../cards/W/wi.md#winota-joiner-of-forces) (15.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/41/the-wandering-rescuer) · oracle_id `b8ef65df-f8e7-44e3-9864-9c127232a2b6` · printing: DSK #41 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The War Doctor

@@ -1842,6 +1842,8 @@ schema: 2
   - *2021-04-16* — All counters on a creature are considered when determining the value of X, not only +1/+1 counters.
   - *2021-04-16* — For each player, choosing a target creature that player controls is optional.
   - *2021-04-16* — Your opponents can choose not to pay to attack with a creature with one or more counters on it that attacks "if able." If there's no other player or planeswalker to attack, the creature simply doesn't attack.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 502 decks; highest synergy [Orzhov Advokist](../../cards/O/or.md#orzhov-advokist) (+76%), [Noble Heritage](../../cards/N/no.md#noble-heritage) (+70%), [Grateful Apparition](../../cards/G/gra.md#grateful-apparition) (+66%) · EDHREC: in 42,285 decks; most often under [Gluntch, the Bestower](../../cards/G/gl.md#gluntch-the-bestower) (56.7% of its decks), [Kros, Defense Contractor](../../cards/K/kr.md#kros-defense-contractor) (82.7% of its decks), [Breena, the Demagogue](../../cards/B/br.md#breena-the-demagogue) (50.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/158/nils-discipline-enforcer) · oracle_id `ff6b52b7-ae3c-465b-b10e-901160e5230e` · printing: SOC #158 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nim Abomination

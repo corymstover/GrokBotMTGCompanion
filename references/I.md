@@ -295,8 +295,9 @@ schema: 2
 
 ### Imotekh the Stormlord
 
-[Card entry](../cards/I/im.md#imotekh-the-stormlord) · **1 pages** (card data 1)
+[Card entry](../cards/I/im.md#imotekh-the-stormlord) · **2 pages** (edh guides 1 · card data 1)
 
+- **EDH guides (1):** [EDH Packages → Aristocrats: Fodder makers (multiple creature tokens)](../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
 
 ### Imoti, Celebrant of Bounty

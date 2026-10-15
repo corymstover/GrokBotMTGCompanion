@@ -124,7 +124,9 @@ schema: 2
   - *2023-06-16* — The Ring gains its abilities in order from top to bottom. Once it gains an ability, it has that ability for the rest of the game.
   - *2023-06-16* — The creature card you choose doesn't need to be a card you milled. You may choose a creature card that was already in your graveyard before you milled.
   - *2023-06-16* — To amass Orcs N, if you don't control an Army creature, create a 0/0 black Orc Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already an Orc, it becomes an Orc in addition to its other types.
-- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/S.md#sauron-lord-of-the-rings)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 4,917 decks; highest synergy [The Balrog of Moria](../../cards/T/theb.md#the-balrog-of-moria) (+69%), [Anger](../../cards/A/an.md#anger) (+65%), [Living Death](../../cards/L/li.md#living-death) (+65%) · EDHREC: in 26,188 decks; most often under [Sauron, the Dark Lord](../../cards/S/sau.md#sauron-the-dark-lord) (52.8% of its decks), [Saruman, the White Hand](../../cards/S/sar.md#saruman-the-white-hand) (21.9% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Self-mill](../../EDH%20Packages.md#graveyard-self-mill) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/S.md#sauron-lord-of-the-rings)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/4/sauron-lord-of-the-rings) · oracle_id `69c674c7-48a5-49c8-b0be-3f2b5c6a548c` · printing: LTC #4 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sauron's Ransom

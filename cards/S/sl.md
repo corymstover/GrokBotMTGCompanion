@@ -1430,6 +1430,8 @@ schema: 2
   - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
   - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
   - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 272 decks; highest synergy [Whelming Wave](../../cards/W/wh.md#whelming-wave) (+67%), [Serpent of Yawning Depths](../../cards/S/ser.md#serpent-of-yawning-depths) (+62%), [Inkwell Leviathan](../../cards/I/ink.md#inkwell-leviathan) (+59%) · EDHREC: in 33,628 decks; most often under [Kiora, Sovereign of the Deep](../../cards/K/ki.md#kiora-sovereign-of-the-deep) (86.1% of its decks), [Aesi, Tyrant of Gyre Strait](../../cards/A/ae.md#aesi-tyrant-of-gyre-strait) (20.3% of its decks), [Runo Stromkirk](../../cards/R/ru.md#runo-stromkirk--krothuss-lord-of-the-deep) (57.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/405/slinn-voda-the-rising-deep) · oracle_id `753d98d3-d534-42c1-b728-a4f14c7f29ec` · printing: CMR #405 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Slinza, the Spiked Stampede
@@ -1920,6 +1922,8 @@ schema: 2
   - *2013-07-01* — If the creature type of a Sliver changes so it's no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures.
   - *2021-03-19* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to a Sliver may become lethal if another Sliver leaves the battlefield during that turn.
   - *2021-03-19* — If Sliver Legion and two other Slivers are on the battlefield, for example, each of them gets +2/+2.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,307 decks; highest synergy [Gemhide Sliver](../../cards/G/ge.md#gemhide-sliver) (+83%), [Cloudshredder Sliver](../../cards/C/cl.md#cloudshredder-sliver) (+76%), [Manaweft Sliver](../../cards/M/man.md#manaweft-sliver) (+74%) · EDHREC: in 33,310 decks; most often under [The First Sliver](../../cards/T/thef.md#the-first-sliver) (76.0% of its decks), [Sliver Overlord](../../cards/S/sl.md#sliver-overlord) (78.0% of its decks), [Sliver Hivelord](../../cards/S/sl.md#sliver-hivelord) (48.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sliver-legion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/261/sliver-legion) · oracle_id `47657df2-0e58-46c8-87e2-cc752708a612` · printing: TSR #261 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1951,6 +1955,8 @@ schema: 2
   > *The end of evolution.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5124 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 14 combos; most popular [Sliver Overlord + Manaweft Sliver + Intruder Alarm + Cloudshredder Sliver](https://commanderspellbook.com/combo/239-1636-2273-2467/) (Cast a subset of spells in your library, Infinite mana creatures you control can produce) · EDHREC as commander: 11,075 decks; highest synergy [Gemhide Sliver](../../cards/G/ge.md#gemhide-sliver) (+86%), [Sliver Hivelord](../../cards/S/sl.md#sliver-hivelord) (+85%), [Manaweft Sliver](../../cards/M/man.md#manaweft-sliver) (+84%) · EDHREC: in 20,130 decks; most often under [The First Sliver](../../cards/T/thef.md#the-first-sliver) (61.9% of its decks), [Morophon, the Boundless](../../cards/M/mor.md#morophon-the-boundless) (9.8% of its decks), [Sliver Hivelord](../../cards/S/sl.md#sliver-hivelord) (31.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/scg/139/sliver-overlord) · oracle_id `762d864b-69bc-43ac-af2f-e18186010169` · printing: SCG #139 (2003-05-26) · [rulings](https://api.scryfall.com/cards/3c16915b-c50d-4fb5-830f-9ca4597a9c0f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sliver Queen

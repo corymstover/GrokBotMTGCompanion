@@ -35,6 +35,8 @@ schema: 2
 - **Rulings** (2):
   - *2023-11-10* — The land retains any land types and abilities it already had. An Island has the ability "{T}: Add {U}."
   - *2023-11-10* — The land stays an Island until the flood counter is removed, even if Xolatoyac, the Smiling Flood leaves the battlefield.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 3,020 decks; highest synergy [Eluge, the Shoreless Sea](../../cards/E/el.md#eluge-the-shoreless-sea) (+67%), [The Flood of Mars](../../cards/T/thef.md#the-flood-of-mars) (+52%), [Arixmethes, Slumbering Isle](../../cards/A/ari.md#arixmethes-slumbering-isle) (+51%) · EDHREC: in 28,181 decks; most often under [Hakbal of the Surging Soul](../../cards/H/ha.md#hakbal-of-the-surging-soul) (19.5% of its decks), [Kiora, Sovereign of the Deep](../../cards/K/ki.md#kiora-sovereign-of-the-deep) (54.1% of its decks), [Omo, Queen of Vesuva](../../cards/O/om.md#omo-queen-of-vesuva) (30.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/8/xolatoyac-the-smiling-flood) · oracle_id `2c0fc559-857f-4239-97fa-379ced3dfc1f` · printing: LCC #8 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Xorn

@@ -1766,6 +1766,8 @@ schema: 2
 - **Keywords:** Lifelink, Hexproof from, Hexproof
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4857 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 3,416 decks; highest synergy [Marauding Blight-Priest](../../cards/M/mar.md#marauding-blight-priest) (+46%), [Exsanguinate](../../cards/E/ex.md#exsanguinate) (+45%), [Vampire Nighthawk](../../cards/V/va.md#vampire-nighthawk) (+42%) · EDHREC: in 29,836 decks; most often under [Edgar Markov](../../cards/E/ed.md#edgar-markov) (10.5% of its decks), [Oloro, Ageless Ascetic](../../cards/O/ol.md#oloro-ageless-ascetic) (12.4% of its decks), [Astarion, the Decadent](../../cards/A/as.md#astarion-the-decadent) (34.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/119/elenda-saint-of-dusk) · oracle_id `bfd614d5-4c7f-416b-9cb2-bb167c0893a0` · printing: FDN #119 (2024-11-15) · [rulings](https://api.scryfall.com/cards/24955f5f-093c-4d33-b0c1-911cd36032ce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Elenda's Hierophant

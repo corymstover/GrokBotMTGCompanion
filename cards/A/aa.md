@@ -54,6 +54,8 @@ schema: 2
   - *2025-10-02* — The experience counter goes on you, the player, not on Aang. You will keep that counter even if Aang, Airbending Master dies.
   - *2025-10-02* — To airbend one or more permanents and/or spells means to exile each of those objects. For each card exiled this way, for as long as it's exiled, its owner may cast it from exile by paying {2} rather than paying its mana cost.
   - *2025-10-02* — Tokens exiled this way will cease to exist and cannot be cast.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 35 combos; most popular [Appa, Steadfast Guardian + Avatar Aang // Aang, Master of Elements + Aang, Airbending Master](https://commanderspellbook.com/combo/6867-6869-7117/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 1,038 decks; highest synergy [Airbender Ascension](../../cards/A/ai.md#airbender-ascension) (+82%), [Appa, Steadfast Guardian](../../cards/A/ap.md#appa-steadfast-guardian) (+78%), [Cloudshift](../../cards/C/cl.md#cloudshift) (+72%) · EDHREC: in 32,813 decks; most often under [Avatar Aang](../../cards/A/av.md#avatar-aang--aang-master-of-elements) (47.5% of its decks), [Katara, the Fearless](../../cards/K/ka.md#katara-the-fearless) (41.1% of its decks), [Atreus, Impulsive Son // Kratos, Stoic Father](../../cards/A/at.md#atreus-impulsive-son) (15.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#aang-airbending-master)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/74/aang-airbending-master) · oracle_id `f3176779-74f7-4136-a701-438feeead7a0` · printing: TLE #74 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -117,6 +119,8 @@ schema: 2
 - **Rulings** (2):
   - *2025-10-02* — Aang, at the Crossroads's delayed triggered ability triggers at the beginning of the next upkeep regardless of whose turn it is.
   - *2025-10-02* — Aang, at the Crossroads's delayed triggered ability won't cause it to transform back into Aang, at the Crossroads if it has already transformed into Aang, Destined Savior, perhaps because several creatures left the battlefield in one turn.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 6,747 decks; highest synergy [Katara, the Fearless](../../cards/K/ka.md#katara-the-fearless) (+71%), [Restoration Angel](../../cards/R/res.md#restoration-angel) (+60%), [Starfield Vocalist](../../cards/S/sta.md#starfield-vocalist) (+60%) · EDHREC: in 25,351 decks; most often under [Avatar Aang](../../cards/A/av.md#avatar-aang--aang-master-of-elements) (73.8% of its decks), [Katara, the Fearless](../../cards/K/ka.md#katara-the-fearless) (64.2% of its decks), [Aang and Katara](../../cards/A/aa.md#aang-and-katara) (32.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/203/aang-at-the-crossroads-aang-destined-savior) · oracle_id `96e5d4a1-e59f-4140-823f-a17e15ee5d8d` · printing: TLA #203 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aang's Defense

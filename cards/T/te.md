@@ -1469,6 +1469,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3868 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2023-09-01* — If Tegwyll, Duke of Splendor dies at the same time as one or more other Faeries you control, Tegwyll's ability triggers for each of those other Faeries.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 3,018 decks; highest synergy [Obyra, Dreaming Duelist](../../cards/O/ob.md#obyra-dreaming-duelist) (+91%), [Scion of Oona](../../cards/S/sc.md#scion-of-oona) (+85%), [Glen Elendra Liege](../../cards/G/gl.md#glen-elendra-liege) (+84%) · EDHREC: in 40,031 decks; most often under [Alela, Cunning Conqueror](../../cards/A/al.md#alela-cunning-conqueror) (86.3% of its decks), [Maralen, Fae Ascendant](../../cards/M/mar.md#maralen-fae-ascendant) (39.8% of its decks), [Alela, Artful Provocateur](../../cards/A/al.md#alela-artful-provocateur) (52.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/T.md#tegwyll-duke-of-splendor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woc/1/tegwyll-duke-of-splendor) · oracle_id `868f0a0a-ca9e-4baf-8295-6b228aa834e5` · printing: WOC #1 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tegwyll's Scouring
@@ -1900,7 +1903,9 @@ schema: 2
 - **Keywords:** Vigilance, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5263 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/T.md#temmet-naktamuns-will)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 14,250 decks; highest synergy [God-Eternal Oketra](../../cards/G/god.md#god-eternal-oketra) (+84%), [Unholy Grotto](../../cards/U/un.md#unholy-grotto) (+81%), [On Wings of Gold](../../cards/O/on.md#on-wings-of-gold) (+80%) · EDHREC: in 16,189 decks; most often under [Hashaton, Scarab's Fist](../../cards/H/ha.md#hashaton-scarabs-fist) (29.2% of its decks), [Varina, Lich Queen](../../cards/V/va.md#varina-lich-queen) (63.7% of its decks), [Nevinyrral, Urborg Tyrant](../../cards/N/ne.md#nevinyrral-urborg-tyrant) (8.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (2 edh guides) → [reverse index](../../references/T.md#temmet-naktamuns-will)
 - **Source flags:** [Scryfall](https://scryfall.com/card/drc/4/temmet-naktamuns-will) · oracle_id `3dc43ffe-f6b0-4cdc-86b3-01c0f41df0ae` · printing: DRC #4 (2025-02-14) · [rulings](https://api.scryfall.com/cards/c0629894-0b72-4abe-9771-03becfdb241c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Temmet, Vizier of Naktamun
@@ -4128,7 +4133,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5225 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-06-06* — You don't choose a target for Terra's last ability at the time it triggers. Rather, a second "reflexive" ability triggers when you pay {2} this way. You choose a target for that ability as it goes on the stack. Each player may respond to this triggered ability as normal.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#terra-herald-of-hope)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 7 combos; most popular [Terra, Herald of Hope + Aurelia, the Warleader + Ashnod's Altar + Karmic Guide](https://commanderspellbook.com/combo/2034-4364-4681-6332/) (Infinite creature LTB, Infinite creature ETB) · EDHREC as commander: 20,531 decks; highest synergy [Celes, Rune Knight](../../cards/C/ce.md#celes-rune-knight) (+75%), [Stitcher's Supplier](../../cards/S/sti.md#stitchers-supplier) (+68%), [Reanimate](../../cards/R/rea.md#reanimate) (+65%) · EDHREC: in 10,169 decks; most often under [Celes, Rune Knight](../../cards/C/ce.md#celes-rune-knight) (38.2% of its decks), [Terra, Magical Adept](../../cards/T/te.md#terra-magical-adept--esper-terra) (4.3% of its decks), [Dihada, Binder of Wills](../../cards/D/di.md#dihada-binder-of-wills) (8.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Self-mill](../../EDH%20Packages.md#graveyard-self-mill) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/T.md#terra-herald-of-hope)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/4/terra-herald-of-hope) · oracle_id `25d40d28-1b46-4055-959a-45719040ed30` · printing: FIC #4 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Terrain Elemental
@@ -4189,7 +4196,9 @@ schema: 2
   - *2025-06-06* — The back face of a nonmodal double-faced card usually has a color indicator that defines its color.
   - *2025-06-06* — The mana value of a nonmodal double-faced card is the mana value of its front face, no matter which face is up.
   - *2025-06-06* — The token copies exactly what was printed on the original enchantment (unless that enchantment is copying something else or is a token; see below). It doesn't copy whether that enchantment is tapped or untapped, whether it has any counters on it or any Auras or Equipment attached to it, or any non-copy effects that have changed its types, color, power and toughness, and so on.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#terra-magical-adept--esper-terra)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Terra, Magical Adept // Esper Terra + Estrid's Invocation](https://commanderspellbook.com/combo/4948-6575/) (Infinite creature LTB, Infinite creature ETB) · EDHREC as commander: 20,050 decks; highest synergy [Summon: Titan](../../cards/S/sum.md#summon-titan) (+62%), [Summon: Fenrir](../../cards/S/sum.md#summon-fenrir) (+60%), [Summon: Primal Odin](../../cards/S/sum.md#summon-primal-odin) (+60%) · EDHREC: in 10,685 decks; most often under [Tom Bombadil](../../cards/T/to.md#tom-bombadil) (48.4% of its decks), [The Wandering Minstrel](../../cards/T/thew.md#the-wandering-minstrel) (2.0% of its decks), [Go-Shintai of Life's Origin](../../cards/G/gos.md#go-shintai-of-lifes-origin) (2.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Self-mill](../../EDH%20Packages.md#graveyard-self-mill) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/T.md#terra-magical-adept--esper-terra)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/245/terra-magical-adept-esper-terra) · oracle_id `54ca5904-9099-497a-9684-101656025487` · printing: FIN #245 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Terramorph
@@ -5400,6 +5409,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4387 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2024-01-12* — You may sacrifice Teysa itself to help pay for its first ability, but Teysa dying won't cause its second ability to trigger. Any other white and black creatures you sacrifice to pay for the first ability will cause the second ability to trigger.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Teysa Karlov](../../decks/teysa-karlov.md) · Commander Spellbook: 31 combos; most popular [Teysa, Orzhov Scion + Phyrexian Altar + Reassembling Skeleton](https://commanderspellbook.com/combo/1580-4050-4619/) (Infinite creature LTB, Infinite creature ETB) · EDHREC as commander: 4,316 decks; highest synergy [Darkest Hour](../../cards/D/da.md#darkest-hour) (+59%), [Teysa Karlov](../../cards/T/te.md#teysa-karlov) (+52%), [Viscera Seer](../../cards/V/vi.md#viscera-seer) (+51%) · EDHREC: in 32,872 decks; most often under [Teysa Karlov](../../cards/T/te.md#teysa-karlov) (63.9% of its decks), [Teysa, Opulent Oligarch](../../cards/T/te.md#teysa-opulent-oligarch) (58.4% of its decks), [Thalisse, Reverent Medium](../../cards/T/tha.md#thalisse-reverent-medium) (41.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#teysa-orzhov-scion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/233/teysa-orzhov-scion) · oracle_id `8191342b-b25e-4c4d-8f69-aee662148ff4` · printing: RVR #233 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

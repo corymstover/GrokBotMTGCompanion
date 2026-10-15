@@ -1350,7 +1350,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5201 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2023-07-28* — The final chapter ability of a Saga is the ability with the greatest chapter number among chapter abilities that Saga has.
-- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/N.md#narci-fable-singer)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Narci, Fable Singer + The Cruelty of Gix + Huatli's Raptor + Hex Parasite + Phyrexian Altar](https://commanderspellbook.com/combo/4050-4080-4417-5492-5493/) (Infinite death triggers, Infinite creature ETB) · EDHREC as commander: 6,785 decks; highest synergy [Binding the Old Gods](../../cards/B/bi.md#binding-the-old-gods) (+82%), [Sythis, Harvest's Hand](../../cards/S/sy.md#sythis-harvests-hand) (+80%), [Satsuki, the Living Lore](../../cards/S/sat.md#satsuki-the-living-lore) (+78%) · EDHREC: in 23,959 decks; most often under [Tom Bombadil](../../cards/T/to.md#tom-bombadil) (68.6% of its decks), [Terra, Magical Adept](../../cards/T/te.md#terra-magical-adept--esper-terra) (34.9% of its decks), [Anikthea, Hand of Erebos](../../cards/A/an.md#anikthea-hand-of-erebos) (10.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (2 edh guides) → [reverse index](../../references/N.md#narci-fable-singer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/710/narci-fable-singer) · oracle_id `61bbf710-4eb4-4e11-be6e-700a0c6a41ee` · printing: CMM #710 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Narcissism

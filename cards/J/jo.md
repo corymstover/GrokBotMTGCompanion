@@ -538,6 +538,8 @@ schema: 2
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4714 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 99+ combos; most popular [Jolene, the Plunder Queen + Goldspan Dragon + Aggravated Assault](https://commanderspellbook.com/combo/2097-3750-3809/) (Infinite artifact ETB, Infinite artifact LTB) · EDHREC as commander: 3,900 decks; highest synergy [Xorn](../../cards/X/xo.md#xorn) (+81%), [Professional Face-Breaker](../../cards/P/pr.md#professional-face-breaker) (+76%), [Goldspan Dragon](../../cards/G/gol.md#goldspan-dragon) (+72%) · EDHREC: in 30,452 decks; most often under [Roxanne, Starfall Savant](../../cards/R/ro.md#roxanne-starfall-savant) (42.8% of its decks), [Vazi, Keen Negotiator](../../cards/V/va.md#vazi-keen-negotiator) (86.8% of its decks), [Ognis, the Dragon's Lash](../../cards/O/og.md#ognis-the-dragons-lash) (42.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/73/jolene-the-plunder-queen) · oracle_id `8215f4a2-7131-426b-ad9c-6427caabd715` · printing: NCC #73 (2022-04-29) · [rulings](https://api.scryfall.com/cards/61c217d9-21d5-45ef-938a-138192a901f4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jolly Gerbils

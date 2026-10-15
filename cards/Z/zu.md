@@ -119,6 +119,9 @@ schema: 2
   - *2025-10-02* — Mana from firebending abilities isn't lost until you leave combat and go to your second main phase. It can be used at any time during combat, even after combat damage has been dealt.
   - *2025-10-02* — Multiple instances of firebending on the same creature trigger separately, each granting you the appropriate amount of mana.
   - *2025-10-02* — You must follow all normal timing rules for a card you play using Zuko, Exiled Prince's last ability and, if it's a spell, you must pay its costs to cast it.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 125 decks; highest synergy [Firebending Student](../../cards/F/fi.md#firebending-student) (+56%), [Fire Sages](../../cards/F/fi.md#fire-sages) (+53%), [Firebender Ascension](../../cards/F/fi.md#firebender-ascension) (+52%) · EDHREC: in 37,019 decks; most often under [Fire Lord Zuko](../../cards/F/fi.md#fire-lord-zuko) (61.5% of its decks), [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (18.2% of its decks), [Ozai, the Phoenix King](../../cards/O/oz.md#ozai-the-phoenix-king) (70.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Impulse / exile-to-play](../../EDH%20Packages.md#card-advantage-impulse--exile-to-play) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/Z.md#zuko-exiled-prince)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/163/zuko-exiled-prince) · oracle_id `3231ce2e-d4f8-44fc-872d-aeafa59aed4b` · printing: TLA #163 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zuko, Firebending Master
@@ -142,6 +145,8 @@ schema: 2
   - *2025-10-02* — Mana from firebending abilities isn't lost until you leave combat and go to your second main phase. It can be used at any time during combat, even after combat damage has been dealt.
   - *2025-10-02* — Multiple instances of firebending on the same creature trigger separately, each granting you the appropriate amount of mana.
   - *2025-10-02* — The experience counter goes on you, the player, not on Zuko. You will keep that counter even if Zuko, Firebending Master dies.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Mai and Zuko (Grixis)](../../grixis/decks/mai-and-zuko.md) · Commander Spellbook: 7 combos; most popular [Hellkite Charger + Zuko, Firebending Master](https://commanderspellbook.com/combo/3398-7017/) (Infinite combat phases, Infinite red mana) · EDHREC as commander: 1,779 decks; highest synergy [Firebender Ascension](../../cards/F/fi.md#firebender-ascension) (+75%), [Firebending Student](../../cards/F/fi.md#firebending-student) (+68%), [Fists of Flame](../../cards/F/fi.md#fists-of-flame) (+66%) · EDHREC: in 29,568 decks; most often under [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (26.3% of its decks), [Avatar Aang](../../cards/A/av.md#avatar-aang--aang-master-of-elements) (22.7% of its decks), [Ozai, the Phoenix King](../../cards/O/oz.md#ozai-the-phoenix-king) (34.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/Z.md#zuko-firebending-master)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/127/zuko-firebending-master) · oracle_id `33db6dc8-2c88-4a7f-8d4d-3bc9fb6544b2` · printing: TLE #127 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -361,6 +366,8 @@ schema: 2
 - **Rulings** (2):
   - *2022-09-09* — If a permanent on the battlefield has an {X} in its mana cost, X is zero when determining its mana value.
   - *2022-09-09* — Zur, Eternal Schemer’s last ability does not have a duration. Once it resolves the target enchantment will be a creature until it leaves the battlefield or another effect causes it to stop being a creature.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Zur, Eternal Schemer + Central Elevator // Promising Stairs + Spy Kit](https://commanderspellbook.com/combo/3372-6196-6197/) (Win the game at the beginning of your next upkeep) · EDHREC as commander: 6,616 decks; highest synergy [Inquisitive Glimmer](../../cards/I/inq.md#inquisitive-glimmer) (+73%), [Mesa Enchantress](../../cards/M/me.md#mesa-enchantress) (+64%), [Enduring Curiosity](../../cards/E/en.md#enduring-curiosity) (+62%) · EDHREC: in 33,229 decks; most often under [Aminatou, Veil Piercer](../../cards/A/am.md#aminatou-veil-piercer) (46.7% of its decks), [Go-Shintai of Life's Origin](../../cards/G/gos.md#go-shintai-of-lifes-origin) (32.6% of its decks), [Marina Vendrell](../../cards/M/mar.md#marina-vendrell) (32.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/Z.md#zur-eternal-schemer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/228/zur-eternal-schemer) · oracle_id `cfc5dc9c-6f26-460b-a624-3681b8584eb3` · printing: DMU #228 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -468,6 +475,9 @@ schema: 2
 - **Keywords:** Mobilize
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4991 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 7,403 decks; highest synergy [Bone-Cairn Butcher](../../cards/B/bo.md#bone-cairn-butcher) (+75%), [Dalkovan Packbeasts](../../cards/D/da.md#dalkovan-packbeasts) (+62%), [Avenger of the Fallen](../../cards/A/av.md#avenger-of-the-fallen) (+60%) · EDHREC: in 24,757 decks; most often under [Zurgo Stormrender](../../cards/Z/zu.md#zurgo-stormrender) (42.4% of its decks), [Isshin, Two Heavens as One](../../cards/I/is.md#isshin-two-heavens-as-one) (23.1% of its decks), [Caesar, Legion's Emperor](../../cards/C/cae.md#caesar-legions-emperor) (12.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/Z.md#zurgo-thunders-decree)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/237/zurgo-thunders-decree) · oracle_id `393d0bf8-5f2e-4eaa-91a1-9132429a7371` · printing: TDM #237 (2025-04-11) · [rulings](https://api.scryfall.com/cards/bd93fb95-4268-45dc-8f0d-590c481a526d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zuri, Warrior of Wakanda

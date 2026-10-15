@@ -51,6 +51,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5131 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2018-04-27* — Because damage remains marked on a creature until it's removed as the turn ends, nonlethal damage dealt to a legendary creature you control may become lethal if Arvad leaves the battlefield during that turn.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 194 decks; highest synergy [Heroes' Podium](../../cards/H/he.md#heroes-podium) (+56%), [Primevals' Glorious Rebirth](../../cards/P/pr.md#primevals-glorious-rebirth) (+55%), [Day of Destiny](../../cards/D/da.md#day-of-destiny) (+54%) · EDHREC: in 30,929 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (18.9% of its decks), [Ardbert, Warrior of Darkness](../../cards/A/ard.md#ardbert-warrior-of-darkness) (70.8% of its decks), [Dihada, Binder of Wills](../../cards/D/di.md#dihada-binder-of-wills) (35.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Tokens: Anthems](../../EDH%20Packages.md#tokens-anthems) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/A.md#arvad-the-cursed)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/317/arvad-the-cursed) · oracle_id `d561dcff-0a19-46ac-9dee-f374c840d532` · printing: MOC #317 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arvinox, the Mind Flail
@@ -64,4 +67,6 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4982 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2024-11-08* — For the purposes of deck construction, format legality, and all rules, abilities, and effects that refer to a card’s name, this card’s name is the same as that of Mind Flayer, the Shadow.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,227 decks; highest synergy [Brainstealer Dragon](../../cards/B/br.md#brainstealer-dragon) (+74%), [Elder Brain](../../cards/E/el.md#elder-brain) (+69%), [Gonti, Lord of Luxury](../../cards/G/gon.md#gonti-lord-of-luxury) (+68%) · EDHREC: in 30,882 decks; most often under [Aminatou, Veil Piercer](../../cards/A/am.md#aminatou-veil-piercer) (23.8% of its decks), [Captain N'ghathrod](../../cards/C/cap.md#captain-nghathrod) (16.6% of its decks), [Gonti, Night Minister](../../cards/G/gon.md#gonti-night-minister) (41.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/130/arvinox-the-mind-flail) · oracle_id `9abecd23-a2d9-43c7-8d01-f8afdc53026e` · printing: DSC #130 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -74,6 +74,8 @@ schema: 2
   - *2026-06-29* — Radagast's ability can't reduce the amount of colored mana you pay for a spell. It reduces only the generic component of that cost.
   - *2026-06-29* — The cost reduction can apply to alternative costs.
   - *2026-06-29* — The first creature spell you cast each turn doesn't necessarily have to be the first spell you cast. You could cast a sorcery spell and then cast a creature spell that would get the discount.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 4,663 decks; highest synergy [Goreclaw, Terror of Qal Sisma](../../cards/G/gor.md#goreclaw-terror-of-qal-sisma) (+54%), [Silverback Elder](../../cards/S/si.md#silverback-elder) (+52%), [Wilderness Reclamation](../../cards/W/wi.md#wilderness-reclamation) (+51%) · EDHREC: in 33,511 decks; most often under [Beorn the Fierce](../../cards/B/be.md#beorn-the-fierce) (65.4% of its decks), [Helga, Skittish Seer](../../cards/H/he.md#helga-skittish-seer) (28.7% of its decks), [Galadriel, Light of Valinor](../../cards/G/ga.md#galadriel-light-of-valinor) (19.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/136/radagast-of-rhosgobel) · oracle_id `84d648c7-655e-4590-a3e0-366a8a4a4cb3` · printing: HOB #136 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Radagast the Brown

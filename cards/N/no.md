@@ -675,6 +675,9 @@ schema: 2
   > *"Glory to the Burning Ones! May their mighty fangs devour all foes!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4587 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 445 decks; highest synergy [Dragon Tempest](../../cards/D/dra.md#dragon-tempest) (+83%), [Lathliss, Dragon Queen](../../cards/L/la.md#lathliss-dragon-queen) (+82%), [Dragonlord's Servant](../../cards/D/dra.md#dragonlords-servant) (+81%) · EDHREC: in 35,107 decks; most often under [Ureni of the Unwritten](../../cards/U/ur.md#ureni-of-the-unwritten) (54.5% of its decks), [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (7.2% of its decks), [Miirym, Sentinel Wyrm](../../cards/M/mii.md#miirym-sentinel-wyrm) (11.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Ramp: Cost reducers](../../EDH%20Packages.md#ramp-cost-reducers) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/N.md#nogi-draco-zealot)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/226/nogi-draco-zealot) · oracle_id `3d04aa8c-7bff-42c6-bed3-0b18d2cb1529` · printing: TDC #226 (2025-04-11) · [rulings](https://api.scryfall.com/cards/86e576f2-8f9f-4bbf-85c4-b99ecb665412/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Noise Marine
@@ -1010,6 +1013,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4968 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2006-09-25* — Norin the Wary will be exiled if it attacks.
+- **Lore:** ✅ Flavor text verbatim on [official page 1](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-12-2018-05-30) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 9,192 decks; highest synergy [Genesis Chamber](../../cards/G/ge.md#genesis-chamber) (+85%), [Tome of Legends](../../cards/T/to.md#tome-of-legends) (+81%), [Witty Roastmaster](../../cards/W/wi.md#witty-roastmaster) (+79%) · EDHREC: in 23,078 decks; most often under [Fire Lord Zuko](../../cards/F/fi.md#fire-lord-zuko) (44.4% of its decks), [Rocco, Cabaretti Caterer](../../cards/R/ro.md#rocco-cabaretti-caterer) (38.4% of its decks), [Purphoros, God of the Forge](../../cards/P/pu.md#purphoros-god-of-the-forge) (63.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsp/171/norin-the-wary) · oracle_id `b8b51a29-a2be-4b97-a73c-ea512d3d5622` · printing: TSP #171 (2006-10-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nori, Teller of Tales
@@ -1058,7 +1063,9 @@ schema: 2
   - *2025-09-19* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack or the battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of other double-faced cards is determined.
   - *2025-09-19* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics.
   - *2025-09-19* — While a double-faced card isn't on the stack or battlefield, consider only the characteristics of its front face.
-- **Referenced in:** 3 pages (2 decks · 1 edh guides) → [reverse index](../../references/N.md#norman-osborn--green-goblin)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (2): [Doctor Doom, King of Latveria (Grixis)](../../grixis/decks/doctor-doom-king-of-latveria.md) · [Loki, the Deceiver (Grixis)](../../grixis/decks/loki-the-deceiver.md) · Commander Spellbook: 100+ combos; most popular [Norman Osborn // Green Goblin + Acererak the Archlich + Skirge Familiar](https://commanderspellbook.com/combo/1742-1824-6896/) (Infinite card draw, Infinite self-discard triggers) · EDHREC as commander: 19,157 decks; highest synergy [Shadow of the Goblin](../../cards/S/sha.md#shadow-of-the-goblin) (+59%), [Frantic Search](../../cards/F/fr.md#frantic-search) (+53%), [Ultimate Green Goblin](../../cards/U/ul.md#ultimate-green-goblin) (+53%) · EDHREC: in 15,094 decks; most often under [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (68.9% of its decks), [Kefka, Court Mage](../../cards/K/ke.md#kefka-court-mage--kefka-ruler-of-ruin) (9.1% of its decks), [Loki, the Deceiver](../../cards/L/lo.md#loki-the-deceiver) (46.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Ramp: Cost reducers](../../EDH%20Packages.md#ramp-cost-reducers) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 4 pages (2 decks · 2 edh guides) → [reverse index](../../references/N.md#norman-osborn--green-goblin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/39/norman-osborn-green-goblin) · oracle_id `aa5b06a4-90c3-45e7-ab83-cb5c96ded21d` · printing: SPM #39 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Norn's Annex

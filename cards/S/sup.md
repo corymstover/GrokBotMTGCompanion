@@ -253,6 +253,8 @@ schema: 2
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5067 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 4 combos; most popular [Animation Module + Ashnod's Altar + Super Shredder](https://commanderspellbook.com/combo/2034-3490-7135/) (Infinite artifact tokens, Infinite creature LTB) · EDHREC as commander: 3,594 decks; highest synergy [The Ozolith](../../cards/T/theo.md#the-ozolith) (+45%), [Accursed Marauder](../../cards/A/ac.md#accursed-marauder) (+42%), [Ophiomancer](../../cards/O/op.md#ophiomancer) (+42%) · EDHREC: in 28,076 decks; most often under [Splinter, Radical Rat](../../cards/S/spl.md#splinter-radical-rat) (49.6% of its decks), [Leonardo, the Balance // Michelangelo, the Heart](../../cards/L/le.md#leonardo-the-balance) (19.1% of its decks), [Dark Leo & Shredder](../../cards/D/da.md#dark-leo--shredder) (67.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#super-shredder)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/83/super-shredder) · oracle_id `b7ee76bf-d15a-489e-8f05-414788f8f649` · printing: TMT #83 (2026-03-06) · [rulings](https://api.scryfall.com/cards/37a497b8-e908-4ddc-996e-a8470df72afb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

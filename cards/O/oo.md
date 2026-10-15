@@ -44,6 +44,8 @@ schema: 2
 - **Rulings** (2):
   - *2008-05-01* — The tokens enter under your control.
   - *2008-05-01* — You target the opponent when you activate Oona's ability. You don't choose the color until the ability resolves.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Oona, Queen of the Fae + Ashnod's Altar + Painter's Servant + Prismite](https://commanderspellbook.com/combo/1106-1812-2034-2302/) (Exile each opponent's library, Near-infinite colored mana) · EDHREC as commander: 2,036 decks; highest synergy [Scion of Oona](../../cards/S/sc.md#scion-of-oona) (+48%), [Glen Elendra Liege](../../cards/G/gl.md#glen-elendra-liege) (+47%), [Obyra, Dreaming Duelist](../../cards/O/ob.md#obyra-dreaming-duelist) (+43%) · EDHREC: in 28,885 decks; most often under [Maralen, Fae Ascendant](../../cards/M/mar.md#maralen-fae-ascendant) (37.0% of its decks), [Alela, Cunning Conqueror](../../cards/A/al.md#alela-cunning-conqueror) (29.5% of its decks), [Alela, Artful Provocateur](../../cards/A/al.md#alela-artful-provocateur) (21.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/O.md#oona-queen-of-the-fae)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znc/98/oona-queen-of-the-fae) · oracle_id `6052822d-47a2-4d69-a32d-40cdd600d7a9` · printing: ZNC #98 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

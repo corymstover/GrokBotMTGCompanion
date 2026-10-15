@@ -172,6 +172,8 @@ schema: 2
   - *2024-04-12* — Putting one or more land cards onto the battlefield with The Gitrog's triggered ability doesn't count as playing a land. It can put land cards onto the battlefield even if you've already played your land for the turn.
   - *2024-04-12* — Use the power of the sacrificed creature as it last existed on the battlefield to determine the value of X.
   - *2024-04-12* — You may activate a permanent's saddle ability even if that permanent is already saddled.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 7,676 decks; highest synergy [Daemogoth Titan](../../cards/D/da.md#daemogoth-titan) (+76%), [Yargle and Multani](../../cards/Y/ya.md#yargle-and-multani) (+75%), [Ghalta, Primal Hunger](../../cards/G/gh.md#ghalta-primal-hunger) (+68%) · EDHREC: in 30,536 decks; most often under [Glarb, Calamity's Augur](../../cards/G/gl.md#glarb-calamitys-augur) (12.0% of its decks), [The Necrobloom](../../cards/T/then.md#the-necrobloom) (9.3% of its decks), [Dina, Essence Brewer](../../cards/D/di.md#dina-essence-brewer) (16.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 rules) → [reverse index](../../references/T.md#the-gitrog-ravenous-ride)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/206/the-gitrog-ravenous-ride) · oracle_id `7739311a-682b-48a6-8db2-c07f44141751` · printing: OTJ #206 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

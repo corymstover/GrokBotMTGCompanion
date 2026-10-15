@@ -37,6 +37,8 @@ schema: 2
 - **Rulings** (2):
   - *2023-06-16* — If the target of Arwen's second ability is illegal as it tries to resolve, the ability does nothing. You won't get to put any counters on Arwen.
   - *2023-06-16* — You remove the indestructible counter from Arwen as a cost to activate its second ability. If Arwen already received 2 damage earlier in the turn, it will be destroyed due to having lethal damage before you get to put a +1/+1 counter on it.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 883 decks; highest synergy [Evolution Sage](../../cards/E/ev.md#evolution-sage) (+67%), [Grateful Apparition](../../cards/G/gra.md#grateful-apparition) (+64%), [Metastatic Evangel](../../cards/M/me.md#metastatic-evangel) (+60%) · EDHREC: in 30,758 decks; most often under [Tidus, Yuna's Guardian](../../cards/T/ti.md#tidus-yunas-guardian) (44.6% of its decks), [Aragorn, the Uniter](../../cards/A/ara.md#aragorn-the-uniter) (15.5% of its decks), [Galadriel, Light of Valinor](../../cards/G/ga.md#galadriel-light-of-valinor) (17.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/193/arwen-mortal-queen) · oracle_id `9519a4ea-c4a0-4127-b06a-aac9ffaf7a32` · printing: LTR #193 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arwen's Gift

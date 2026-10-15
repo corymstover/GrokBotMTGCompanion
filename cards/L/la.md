@@ -623,6 +623,8 @@ schema: 2
 - **Rulings** (2):
   - *2025-09-19* — The spell is cast as Lady Octopus's last ability resolves. You can't wait and cast it later.
   - *2025-09-19* — You don't have to cast a spell as that ability resolves. If you choose not to for some reason, don't let anyone judge your genius plans.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Lady Octopus, Inspired Inventor + Ancestral Statue + Intruder Alarm](https://commanderspellbook.com/combo/2-1636-6914/) (Infinite artifact ETB, Infinite artifact LTB) · EDHREC as commander: 4,931 decks; highest synergy [Mirran Spy](../../cards/M/mir.md#mirran-spy) (+60%), [Uthros Research Craft](../../cards/U/ut.md#uthros-research-craft) (+47%), [Emry, Lurker of the Loch](../../cards/E/em.md#emry-lurker-of-the-loch) (+44%) · EDHREC: in 25,618 decks; most often under [Aloy, Savior of Meridian](../../cards/A/al.md#aloy-savior-of-meridian) (21.5% of its decks), [Tony Stark](../../cards/T/to.md#tony-stark--the-invincible-iron-man) (20.2% of its decks), [Dr. Eggman](../../cards/D/dre.md#dr-eggman) (15.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lady-octopus-inspired-inventor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/35/lady-octopus-inspired-inventor) · oracle_id `8e51fdb8-4f83-4e94-b36c-40a501075ecb` · printing: SPM #35 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2521,7 +2523,9 @@ schema: 2
   - *2024-04-12* — Outlaw is not a creature type. If an effect asks you to choose a creature type, you can’t choose outlaw.
   - *2024-04-12* — The value of X is determined as Laughing Jasper Flint’s last ability resolves.
   - *2024-04-12* — You pay all costs and follow all normal timing rules for cards played from exile with Laughing Jasper Flint’s last ability. For example, if you exile a creature card this way, you must wait until your main phase to cast it.
-- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/L.md#laughing-jasper-flint)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (2): [Don Andres, the Renegade (Grixis)](../../grixis/decks/don-andres-the-renegade.md) · [Nathan Drake, Treasure Hunter (Grixis)](../../grixis/decks/nathan-drake-treasure-hunter.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 7,308 decks; highest synergy [At Knifepoint](../../cards/A/at.md#at-knifepoint) (+82%), [Hellspur Posse Boss](../../cards/H/he.md#hellspur-posse-boss) (+79%), [Vial Smasher, Gleeful Grenadier](../../cards/V/vi.md#vial-smasher-gleeful-grenadier) (+71%) · EDHREC: in 36,419 decks; most often under [Obeka, Splitter of Seconds](../../cards/O/ob.md#obeka-splitter-of-seconds) (28.4% of its decks), [Don Andres, the Renegade](../../cards/D/do.md#don-andres-the-renegade) (69.8% of its decks), [Gev, Scaled Scorch](../../cards/G/ge.md#gev-scaled-scorch) (45.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Impulse / exile-to-play](../../EDH%20Packages.md#card-advantage-impulse--exile-to-play) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (2 decks · 1 edh guides) → [reverse index](../../references/L.md#laughing-jasper-flint)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/215/laughing-jasper-flint) · oracle_id `bd7c5a8b-cf62-41e1-a664-b16e3e5d142b` · printing: OTJ #215 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Laughing Mad

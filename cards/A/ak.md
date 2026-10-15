@@ -745,6 +745,8 @@ schema: 2
 - **Keywords:** Flying, Vigilance, First strike, Protection, Haste, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4471 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 261 decks; highest synergy [Akroma's Vengeance](../../cards/A/ak.md#akromas-vengeance) (+44%), [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (+41%), [Baneslayer Angel](../../cards/B/ban.md#baneslayer-angel) (+29%) · EDHREC: in 36,223 decks; most often under [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (21.7% of its decks), [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (15.7% of its decks), [Kathril, Aspect Warper](../../cards/K/ka.md#kathril-aspect-warper) (66.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c20/73/akroma-angel-of-wrath) · oracle_id `107f204c-9fd3-490d-8887-be63d14fc6a4` · printing: C20 #73 (2020-04-17) · [rulings](https://api.scryfall.com/cards/bf1ef8ec-d915-41f2-b087-3d6d82e3db85/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akroma's Blessing
@@ -847,6 +849,8 @@ schema: 2
   - *2020-11-10* — To have two commanders, both must have the partner ability as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
   - *2020-11-10* — Which creatures are affected and the size of their individual bonuses is determined only as Akroma's triggered ability resolves. Gaining or losing keywords after that time won't cause a creature to grow or shrink.
   - *2020-11-10* — You can choose two commanders with partner that are the same color or colors. In Commander Draft, you can even choose two of the same commander with partner if you drafted them. If you do this, make sure you keep the number of times you've cast each from the command zone clear for "commander tax" purposes.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 99 decks; highest synergy [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (+60%), [Akroma's Memorial](../../cards/A/ak.md#akromas-memorial) (+49%), [Akroma, Angel of Wrath](../../cards/A/ak.md#akroma-angel-of-wrath) (+47%) · EDHREC: in 26,949 decks; most often under [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (15.4% of its decks), [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (7.5% of its decks), [Odric, Lunarch Marshal](../../cards/O/od.md#odric-lunarch-marshal) (54.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/2/akroma-vision-of-ixidor) · oracle_id `b9be5ce9-08bb-4361-940c-9031e429ba86` · printing: CMR #2 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akron Legionnaire

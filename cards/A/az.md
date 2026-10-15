@@ -72,6 +72,8 @@ schema: 2
   > *—Lady Azami, letter to Sensei Hisoka*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4172 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 6 combos; most popular [Mind Over Matter + Azami, Lady of Scrolls](https://commanderspellbook.com/combo/2627-4067/) (Infinite draw triggers, Infinite looting) · EDHREC as commander: 4,784 decks; highest synergy [Stonybrook Banneret](../../cards/S/sto.md#stonybrook-banneret) (+70%), [Patron Wizard](../../cards/P/pa.md#patron-wizard) (+65%), [Triskaidekaphile](../../cards/T/tri.md#triskaidekaphile) (+58%) · EDHREC: in 34,819 decks; most often under [Inalla, Archmage Ritualist](../../cards/I/ina.md#inalla-archmage-ritualist) (52.8% of its decks), [Omo, Queen of Vesuva](../../cards/O/om.md#omo-queen-of-vesuva) (31.6% of its decks), [Gandalf, Party Guest](../../cards/G/ga.md#gandalf-party-guest) (55.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#azami-lady-of-scrolls)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/74/azami-lady-of-scrolls) · oracle_id `0f8b97fe-3e5e-47c2-9a9d-7f77482aa159` · printing: CMM #74 (2023-08-04) · [rulings](https://api.scryfall.com/cards/fa727656-fb33-485b-9378-18b80cad42b9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

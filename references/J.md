@@ -224,10 +224,10 @@ schema: 2
 
 ### Jan Jansen, Chaos Crafter
 
-[Card entry](../cards/J/ja.md#jan-jansen-chaos-crafter) · **5 pages** (decks 1 · edh guides 2 · card data 2)
+[Card entry](../cards/J/ja.md#jan-jansen-chaos-crafter) · **6 pages** (decks 1 · edh guides 3 · card data 2)
 
 - **Decks (1):** [Breya, Etherium Shaper](../decks/breya-etherium-shaper.md)
-- **EDH guides (2):** [EDH Standards → Artifacts as ammunition — Breya, Etherium Shaper (WUBR, artifacts)](../EDH%20Standards.md#artifacts-as-ammunition--breya-etherium-shaper-wubr-artifacts) · [EDH Staples → Mardu (WBR)](../EDH%20Staples.md#mardu-wbr)
+- **EDH guides (3):** [EDH Packages → Aristocrats: Fodder makers (multiple creature tokens)](../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [EDH Standards → Artifacts as ammunition — Breya, Etherium Shaper (WUBR, artifacts)](../EDH%20Standards.md#artifacts-as-ammunition--breya-etherium-shaper-wubr-artifacts) · [EDH Staples → Mardu (WBR)](../EDH%20Staples.md#mardu-wbr)
 - **Card data (2):** [Artist Index → Artists J](../Artist%20Index.md#artists-j) (+1 more) · [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
 
 ### Jarad, Golgari Lich Lord
@@ -703,9 +703,10 @@ schema: 2
 
 ### Judith, Carnage Connoisseur
 
-[Card entry](../cards/J/ju.md#judith-carnage-connoisseur) · **2 pages** (decks 1 · card data 1)
+[Card entry](../cards/J/ju.md#judith-carnage-connoisseur) · **3 pages** (decks 1 · edh guides 1 · card data 1)
 
 - **Decks (1):** [Anhelo, the Painter (Grixis)](../grixis/decks/anhelo-the-painter.md)
+- **EDH guides (1):** [EDH Packages → Spellslinger: Cast-trigger payoffs](../EDH%20Packages.md#spellslinger-cast-trigger-payoffs)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
 
 ### Jugan Defends the Temple // Remnant of the Rising Star

@@ -783,9 +783,10 @@ schema: 2
 
 ### Deekah, Fractal Theorist
 
-[Card entry](../cards/D/dee.md#deekah-fractal-theorist) · **2 pages** (decks 1 · card data 1)
+[Card entry](../cards/D/dee.md#deekah-fractal-theorist) · **3 pages** (decks 1 · edh guides 1 · card data 1)
 
 - **Decks (1):** [Anhelo, the Painter (Grixis)](../grixis/decks/anhelo-the-painter.md)
+- **EDH guides (1):** [EDH Packages → Spellslinger: Cast-trigger payoffs](../EDH%20Packages.md#spellslinger-cast-trigger-payoffs)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
 
 ### Dee Kay, Finder of the Lost

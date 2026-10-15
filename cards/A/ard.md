@@ -48,6 +48,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4842 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-06-06* — Each of Ardbert's abilities resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 7,419 decks; highest synergy [Felisa, Fang of Silverquill](../../cards/F/fe.md#felisa-fang-of-silverquill) (+70%), [Arvad the Cursed](../../cards/A/arv.md#arvad-the-cursed) (+68%), [Venat, Heart of Hydaelyn](../../cards/V/ve.md#venat-heart-of-hydaelyn--hydaelyn-the-mothercrystal) (+66%) · EDHREC: in 25,982 decks; most often under [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (13.2% of its decks), [The Destined Warrior](../../cards/T/thed.md#the-destined-warrior) (45.5% of its decks), [Dihada, Binder of Wills](../../cards/D/di.md#dihada-binder-of-wills) (19.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/77/ardbert-warrior-of-darkness) · oracle_id `a9243760-b9b1-4d43-8550-3528b5571dae` · printing: FIC #77 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arden Angel

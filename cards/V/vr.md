@@ -57,6 +57,8 @@ schema: 2
   > *"Soon enough each praetor will have hired me to kill the others, and I will stand alone as the true Father of Machines."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4316 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 223 decks; highest synergy [Vermin Gorger](../../cards/V/ve.md#vermin-gorger) (+36%), [Reassembling Skeleton](../../cards/R/rea.md#reassembling-skeleton) (+34%), [Bastion of Remembrance](../../cards/B/bas.md#bastion-of-remembrance) (+32%) · EDHREC: in 37,693 decks; most often under [Edgar Markov](../../cards/E/ed.md#edgar-markov) (8.0% of its decks), [Braids, Arisen Nightmare](../../cards/B/br.md#braids-arisen-nightmare) (27.4% of its decks), [Clavileño, First of the Blessed](../../cards/C/cl.md#clavileño-first-of-the-blessed) (20.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/V.md#vraan-executioner-thane)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/114/vraan-executioner-thane) · oracle_id `b2f2645f-5f74-456a-bd02-83169d8b8a7e` · printing: ONE #114 (2023-02-10) · [rulings](https://api.scryfall.com/cards/4c4a3119-c70a-46ff-8ede-6356f2b7bc13/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

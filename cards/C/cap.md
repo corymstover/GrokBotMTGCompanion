@@ -524,6 +524,9 @@ schema: 2
 - **Keywords:** Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5033 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 12,162 decks; highest synergy [Marauding Mako](../../cards/M/mar.md#marauding-mako) (+71%), [Ghostly Pilferer](../../cards/G/gh.md#ghostly-pilferer) (+70%), [Key to the City](../../cards/K/ke.md#key-to-the-city) (+69%) · EDHREC: in 19,667 decks; most often under [Norman Osborn](../../cards/N/no.md#norman-osborn--green-goblin) (38.6% of its decks), [Brallin, Skyshark Rider // Shabraz, the Skyshark](../../cards/B/br.md#brallin-skyshark-rider) (51.3% of its decks), [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (14.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/C.md#captain-howler-sea-scourge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/194/captain-howler-sea-scourge) · oracle_id `46c99d67-8307-4af0-afd0-377714806614` · printing: DFT #194 (2025-02-14) · [rulings](https://api.scryfall.com/cards/0957c90f-e10d-40f8-a4be-9e9ef623dd43/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Captain James T. Kirk
@@ -658,6 +661,8 @@ schema: 2
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4478 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 18,648 decks; highest synergy [Consuming Aberration](../../cards/C/con.md#consuming-aberration) (+79%), [Nemesis of Reason](../../cards/N/ne.md#nemesis-of-reason) (+76%), [Zellix, Sanity Flayer](../../cards/Z/ze.md#zellix-sanity-flayer) (+72%) · EDHREC: in 17,679 decks; most often under [Umbris, Fear Manifest](../../cards/U/um.md#umbris-fear-manifest) (63.5% of its decks), [Phenax, God of Deception](../../cards/P/ph.md#phenax-god-of-deception) (15.0% of its decks), [Zellix, Sanity Flayer // Haunted One](../../cards/Z/ze.md#zellix-sanity-flayer) (82.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#captain-nghathrod)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/646/captain-nghathrod) · oracle_id `cfb23c6b-6e4a-4fc9-b3bb-a3ddc2ba06b8` · printing: CLB #646 (2022-06-10) · [rulings](https://api.scryfall.com/cards/55c02dc8-0743-400c-b334-ca029caf0463/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -815,6 +820,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4502 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2004-10-04* — Because the "search" requires you to find a card with certain characteristics, you don't have to find the card if you don't want to.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 5 combos; most popular [Captain Sisay + Mindslaver + Mistveil Plains](https://commanderspellbook.com/combo/723-1007-1167/) (You control one opponent on their turn each turn cycle, Lock) · EDHREC as commander: 2,894 decks; highest synergy [Urza's Ruinous Blast](../../cards/U/ur.md#urzas-ruinous-blast) (+55%), [Reki, the History of Kamigawa](../../cards/R/rek.md#reki-the-history-of-kamigawa) (+44%), [Elesh Norn, Grand Cenobite](../../cards/E/el.md#elesh-norn-grand-cenobite) (+43%) · EDHREC: in 33,284 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (24.4% of its decks), [Sisay, Weatherlight Captain](../../cards/S/si.md#sisay-weatherlight-captain) (11.1% of its decks), [Peter Parker](../../cards/P/pe.md#peter-parker--amazing-spider-man) (27.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#captain-sisay)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/237/captain-sisay) · oracle_id `2e7a9ea9-f76c-4c12-950f-c613fa16cfa8` · printing: INV #237 (2000-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

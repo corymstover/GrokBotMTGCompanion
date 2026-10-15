@@ -1713,7 +1713,9 @@ schema: 2
 - **Keywords:** Treasure, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4195 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 5 pages (1 decks · 2 edh guides · 2 card data) → [reverse index](../../references/J.md#jan-jansen-chaos-crafter)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Breya, Etherium Shaper](../../decks/breya-etherium-shaper.md) · Commander Spellbook: 82 combos; most popular [Jan Jansen, Chaos Crafter + Clock of Omens + Liquimetal Torque](https://commanderspellbook.com/combo/486-1651-4917/) (Infinite artifact ETB, Infinite artifact tokens) · EDHREC as commander: 5,533 decks; highest synergy [Academy Manufactor](../../cards/A/ac.md#academy-manufactor) (+64%), [Ichor Wellspring](../../cards/I/ic.md#ichor-wellspring) (+62%), [Reckless Fireweaver](../../cards/R/rec.md#reckless-fireweaver) (+61%) · EDHREC: in 33,892 decks; most often under [Mr. House, President and CEO](../../cards/M/mr.md#mr-house-president-and-ceo) (69.7% of its decks), [Vihaan, Goldwaker](../../cards/V/vi.md#vihaan-goldwaker) (68.5% of its decks), [Breya, Etherium Shaper](../../cards/B/br.md#breya-etherium-shaper) (29.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 6 pages (1 decks · 3 edh guides · 2 card data) → [reverse index](../../references/J.md#jan-jansen-chaos-crafter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/277/jan-jansen-chaos-crafter) · oracle_id `cb491d8a-2e9f-46fe-9590-44c3b4a25f1b` · printing: CLB #277 (2022-06-10) · [rulings](https://api.scryfall.com/cards/6b215a08-41db-4440-8e33-34a84a33db50/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Janjeet Sentry

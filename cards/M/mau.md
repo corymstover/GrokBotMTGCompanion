@@ -47,6 +47,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4466 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2023-06-16* — Mauhúr's last ability applies to counters placed on Army tokens when you amass Orcs (or Zombies, or anything else.)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 641 decks; highest synergy [March from the Black Gate](../../cards/M/mar.md#march-from-the-black-gate) (+84%), [Foray of Orcs](../../cards/F/fo.md#foray-of-orcs) (+81%), [Uglúk of the White Hand](../../cards/U/ug.md#uglúk-of-the-white-hand) (+81%) · EDHREC: in 35,921 decks; most often under [Sauron, the Dark Lord](../../cards/S/sau.md#sauron-the-dark-lord) (55.1% of its decks), [Saruman, the White Hand](../../cards/S/sar.md#saruman-the-white-hand) (46.9% of its decks), [The Great Goblin](../../cards/T/theg.md#the-great-goblin) (51.2% of its decks) — *Guidance (Oracle pattern)* — packages: [+1/+1 counters: Counter doublers](../../EDH%20Packages.md#11-counters-counter-doublers) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/M.md#mauhúr-uruk-hai-captain)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/214/mauh%C3%BAr-uruk-hai-captain) · oracle_id `9966cac0-331f-4627-be5a-5060a6ac5a32` · printing: LTR #214 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

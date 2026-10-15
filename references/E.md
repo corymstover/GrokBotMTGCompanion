@@ -1311,9 +1311,9 @@ schema: 2
 
 ### Éowyn, Shieldmaiden
 
-[Card entry](../cards/E/eo.md#éowyn-shieldmaiden) · **2 pages** (edh guides 1 · card data 1)
+[Card entry](../cards/E/eo.md#éowyn-shieldmaiden) · **3 pages** (edh guides 2 · card data 1)
 
-- **EDH guides (1):** [EDH Staples → Jeskai (WUR)](../EDH%20Staples.md#jeskai-wur)
+- **EDH guides (2):** [EDH Packages → Aristocrats: Fodder makers (multiple creature tokens)](../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [EDH Staples → Jeskai (WUR)](../EDH%20Staples.md#jeskai-wur)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
 
 ### Ephara, God of the Polis

@@ -872,6 +872,8 @@ schema: 2
 - **Keywords:** Hexproof from, Hexproof
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3974 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 5,889 decks; highest synergy [Balefire Liege](../../cards/B/bal.md#balefire-liege) (+77%), [Justice Strike](../../cards/J/ju.md#justice-strike) (+77%), [Legion's Initiative](../../cards/L/le.md#legions-initiative) (+75%) · EDHREC: in 35,877 decks; most often under [Aragorn, the Uniter](../../cards/A/ara.md#aragorn-the-uniter) (42.6% of its decks), [Infinite Guideline Station](../../cards/I/inf.md#infinite-guideline-station) (50.1% of its decks), [Niv-Mizzet Reborn](../../cards/N/ni.md#niv-mizzet-reborn) (59.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#general-ferrous-rokiric)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/198/general-ferrous-rokiric) · oracle_id `64c15098-f893-44f2-bf7f-162db8ab80e9` · printing: MH2 #198 (2021-06-18) · [rulings](https://api.scryfall.com/cards/600dca0f-5964-45e7-86df-f16a5b4a0106/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
