@@ -2,6 +2,7 @@
 
 > **Deepened (Bot cycle 3, 2026-10-15).** Wars and multi-set story arcs in story order. Each entry: **Sets** (release month from Scryfall), **Timeline** placement, **Planes**, **Characters**, sourced **Events**, **Outcome**, and **Sources** with a note on what each page establishes. Cross-arc storylines are traced in [Cross-arc threads](#cross-arc-threads). Related: [Characters Index](Characters%20Index.md) · [Planes Index](Planes%20Index.md) · [Master Timeline](Master%20Timeline.md).
 > **Sourcing:** official magic.wizards.com pages only (fetched 2026-10-15; URLs checked against the site's sitemap). Quotes are verbatim fragments. Flags per [Knowledge Index](Knowledge%20Index.md#canon--verification-flags): ✅ sourced · ⚠️ not verified this cycle · ❓ open question · 🚫 non-canonical.
+> **Bot cycle 7:** fuller beat-by-beat narratives (key beats, outcome, lasting consequences) are in [Story Arc Summaries](Story%20Arc%20Summaries.md); Omenpath links are in [Omenpath & Multiverse Connections](Omenpath%20%26%20Multiverse%20Connections.md).
 
 ## Contents
 - [Ancient: imprisoning the Eldrazi](#ancient-imprisoning-the-eldrazi)
@@ -292,7 +293,7 @@
 **Sets:** MKM (2024-02) · **Timeline:** [Omenpath era](Master%20Timeline.md#omenpath-era-post-invasion) · **Planes:** [Ravnica after the invasion](Planes%20Index.md#ravnica-after-the-invasion-murders-at-karlov-manor) · **Characters:** [Kaya](Characters%20Index.md#kaya), [Kellan](Characters%20Index.md#kellan), [Proft, Etrata, Aminatou, Niv-Mizzet](Characters%20Index.md#proft-etrata-aminatou-niv-mizzet) · **Status:** ✅
 
 - A scream at the Orzhov's Karlov Manor gala starts the murder mystery ([MKM Ep. 1](https://magic.wizards.com/en/news/magic-story/episode-1-ghosts-of-our-past)); Kaya fights the living soul of a plane with her spark ([Ep. 10](https://magic.wizards.com/en/news/magic-story/episode-10-roots-of-decay)).
-- **Outcome:** Teysa turns out to be alive; Proft hires Etrata; Kaya leaves Ravnica ([Ep. 10](https://magic.wizards.com/en/news/magic-story/episode-10-roots-of-decay)).
+- **Outcome:** Trostani's grief-poisoned Oba aspect was the killer; Teysa was "Murdered by a grief-poisoned Trostani", and her ghost remains with Kaya. Proft hires Etrata, and Kaya leaves Ravnica ([Ep. 10](https://magic.wizards.com/en/news/magic-story/episode-10-roots-of-decay)). *Corrected in Bot cycle 7: this entry previously said Teysa was alive.* Full beats: [Story Arc Summaries → MKM](Story%20Arc%20Summaries.md#murders-at-karlov-manor-2024).
 - **Sources:** [Ep. 1](https://magic.wizards.com/en/news/magic-story/episode-1-ghosts-of-our-past) · [Ep. 10](https://magic.wizards.com/en/news/magic-story/episode-10-roots-of-decay)
 
 ### Outlaws of Thunder Junction (2024)

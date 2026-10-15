@@ -3,12 +3,28 @@
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-15 — Bot cycle 7 (Phase 1 complete; Phase 2 lore depth started)](#2026-10-15--bot-cycle-7-phase-1-complete-phase-2-lore-depth-started)
 - [2026-10-15 — Bot cycle 6 (ROADMAP Phase 1: EDH & deckbuilding depth)](#2026-10-15--bot-cycle-6-roadmap-phase-1-edh--deckbuilding-depth)
 - [2026-10-15 — Bot cycle 5 (sprint: rules topics, remaining planes, story archive, maintenance)](#2026-10-15--bot-cycle-5-sprint-rules-topics-remaining-planes-story-archive-maintenance)
 - [2026-10-15 — Bot cycle 4 (sprint: rules topics, Planeswalker review, ELD/THB/IKO sources, combos & archetypes)](#2026-10-15--bot-cycle-4-sprint-rules-topics-planeswalker-review-eldthbiko-sources-combos--archetypes)
 - [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-15 — Bot cycle 7 (Phase 1 complete; Phase 2 lore depth started)
+
+> All entries in this section are **Bot cycle 7** (Grok Bot) changes, on branch `bot-cycle7` (commit 2b629f0 and the lore/docs commit).
+
+| # | Summary | Files affected | Reason |
+|---|---|---|---|
+| 7.1 | Bot cycle 7: **EDH Upgrade Paths**. For 32 commanders, EDHREC budget vs expensive pages; an upgrade is an inclusion delta ≥ 0.10. Rows are grouped into Step 1 ≤ $5, Step 2 $5–20, Step 3 > $20, with likely cuts and a bracket note. 576 upgrade rows (58 GC), 256 cuts; every card is legality- and identity-checked. | `EDH Upgrade Paths.md`, `data/upgrade_paths.json`, `scripts/build_upgrade_paths.py` | #30 |
+| 7.2 | Bot cycle 7: deck builder gains `--sets`/`--plane` (paper printings in the plane's sets only; filler is labeled) and `--theme` (EDHREC theme pages). **10 plane-restricted decks** (Innistrad, Ravnica, Zendikar, Kamigawa, Theros, Eldraine, Ixalan, Tarkir, Dominaria, Mirrodin/New Phyrexia) and **4 themed decks** (Atraxa planeswalkers, Muldrotha self-mill, Chulane landfall, Edgar Markov lifegain). All validate at 100 cards. | `scripts/build_deck_skeleton.py`, `decks/plane-*.md`, `decks/theme-*.md`, `EDH Themed Decks.md`, `scripts/build_themed_index.py` | #33 |
+| 7.3 | Bot cycle 7: reran combo detection and rules notes for the 46 decks: 218 combos, 63 two-card infinites in 18 decks (was 189 / 51 / 14). Braids' plane deck floor rose 2 → 3 (Sheoldred + Lich's Mastery). | `data/combos.json`, `decks/*.md` | #15 upkeep |
+| 7.4 | Bot cycle 7: **Story Arc Summaries**. 7 arcs and 52 beats (ONE, MOM, MKM, OTJ, BLB, DSK, TDM), each with an episode citation and verbatim quotes, plus outcome and lasting consequences. Gaps are marked ❓. | `Story Arc Summaries.md` | #34 |
+| 7.5 | Bot cycle 7: **Planeswalker Dossiers**. 13 dossiers with identity, spark moment, cited timeline, allegiances and a status link. | `Planeswalker Dossiers.md` | #35 |
+| 7.6 | Bot cycle 7: **Omenpath & Multiverse Connections**. The term's 2021 Kaldheim origin vs post-invasion portals, known connections, infrastructure, artificial paths, Loot's map and open questions. | `Omenpath & Multiverse Connections.md` | #36 |
+| 7.7 | Bot cycle 7: **correction**. The MKM outcome in Conflicts & Arcs said "Teysa turns out to be alive". MKM Ep. 10 says she was "Murdered by a grief-poisoned Trostani" and her ghost remains with Kaya. Fixed, with cross-links to the new lore files. | `Conflicts & Arcs.md`, `Characters Index.md` | Accuracy |
+| 7.8 | Bot cycle 7: README dashboard (also fixed a malformed status/key-files table), Progress Tracker, Knowledge Index, ROADMAP tracking table, Update Log. | `README.md`, `Progress Tracker.md`, `Knowledge Index.md`, `ROADMAP.md`, `Update Log.md` | Keep the dashboard current |
 
 ## 2026-10-15 — Bot cycle 6 (ROADMAP Phase 1: EDH & deckbuilding depth)
 

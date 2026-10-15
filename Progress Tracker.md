@@ -36,18 +36,21 @@
 | Master Timeline | 🟢 deepened (cycle 3) | 7 era tables (was 6 one-row eras) · **8 AR-dated events** (was 0) · 15 post-Mending steps, 5 invasion phases, 12 Omenpath rows with quoted relative markers · 56 links into Conflicts & Arcs · 23 release-chronology rows |
 | Planes Index | 🟢 complete for named targets (cycle 5) | **23 detailed entries** (was 18). Mercadia and Ulgrotha went from ⚠️ stubs to ✅ sourced (*Known Multiverse*, Wizards 2008). Added Ergamon, ZNR Zendikar, NEO Kamigawa, DMU Dominaria and the Arcavios colleges; Vryn deepened. Only Nauctis remains (no story yet) |
 | Characters Index | 🟢 complete for profiled PWs (cycle 4) | **78 entries** (was 59); **61 ✅ / 10 ❓ / 6 ⚠️ / 1 🚫** (was 54 / 1 / 3 / 1); 0 profiled Planeswalkers left unreviewed (was 19) |
-| Conflicts & Arcs | 🟢 deepened (cycle 4) | **39 sourced arc entries / 42 headings** (was 36 / 40); ELD, THB and IKO are now sourced (was ⚠️). Cross-arc threads table (5 threads) |
+| Story Arc Summaries | 🟡 started (cycle 7, #34) | **7 arcs and 52 cited beats** (ONE 5, MOM 10, MKM 11, OTJ 8, BLB 5, DSK 6, TDM 7). Remaining: WOE, LCI, DFT, EOE, ECL, SOS, Reality Fracture, pre-2022 |
+| Planeswalker Dossiers | 🟡 started (cycle 7, #35) | **13 dossiers** with cited timelines; spark moments are sourced or ❓ |
+| Omenpath & Multiverse | 🟢 first pass (cycle 7, #36) | 5 definition facts, 5 known connections, 4 infrastructure items, 4 exceptions, 3 open ❓ |
+| Conflicts & Arcs | 🟢 deepened (cycle 4; cycle 7 fixed an MKM outcome error) | **39 sourced arc entries / 42 headings** (was 36 / 40); ELD, THB and IKO are now sourced (was ⚠️). Cross-arc threads table (5 threads) |
 | Sources crawled | — | 563 magic.wizards.com story pages (79 profiles + 484 Magic Story articles); text kept off-repo |
 
 ## EDH
 | Item | Status |
 |---|---|
 | EDH Standards | ✅ CR 903 rules, strict color identity, Archidekt format, Brackets (beta, Oct 2025 + Feb 2026 updates), auto banned list (83) and Game Changers (53) |
-| Deck skeletons | **32 validated — all 32 color identities** (was 8): C, 5 mono, 10 pairs, 10 three-color, 5 four-color (Atraxa, Breya, Yidris, Saskia, Kynaios & Tiro), WUBRG; each with a Commander rules & rulings block |
+| Deck skeletons | **46 validated** (was 32): 32 core, one per color identity, + **10 plane-restricted + 4 themed** (Bot cycle 7): C, 5 mono, 10 pairs, 10 three-color, 5 four-color (Atraxa, Breya, Yidris, Saskia, Kynaios & Tiro), WUBRG; each with a Commander rules & rulings block |
 | EDH Staples | ✅ auto-generated: top 15 per color identity (C, 5 mono, 10 two-color, 10 three-color) + top 15 per role/archetype (14 roles) from 32,048 ranked Commander-legal cards |
 | Synergy notes | 15 commander engines with Oracle text + official rulings · **12 archetype guides** in [EDH Archetypes](EDH%20Archetypes.md) (was 0) |
-| Combo detection | ✅ (#15) Commander Spellbook API on all 32 decks: **189 complete combos, 51 two-card infinite in 14 decks**; combo-adjusted floors (Xenagos and Gishath 2 → 3) |
-| Phase 1 guides (Bot cycle 6, [ROADMAP](ROADMAP.md)) | 🟢 **7 of 9 Phase 1 issues done**: Mana Bases (32 identities, 1,118 non-basic lands), Packages (13 / 33 sub-packages / 321 rows), Win Conditions (8 categories / 146 rows / 46 combo kills), Interaction (6 hierarchies / 19 buckets / 183 rows), Pairings (8 abilities / 3,104 legal pairs), Mulligans (5 CR quotes, 2 odds tables, 19 opening-hand cards, 12 archetype rows), cEDH Primer (129 rows, 61 Spellbook combos). Open: #30 upgrade paths, #33 themed decks |
+| Combo detection | ✅ (#15) Commander Spellbook API on all 46 decks: **218 complete combos, 63 two-card infinite in 18 decks** (was 189 / 51 / 14); combo-adjusted floors (Xenagos and Gishath 2 → 3) |
+| Phase 1 guides (Bot cycles 6–7, [ROADMAP](ROADMAP.md)) | ✅ **9 of 9 Phase 1 issues done** (cycle 7: Upgrade Paths, 32 commanders / 576 upgrade rows / 256 cuts; Themed Decks, 14): Mana Bases (32 identities, 1,118 non-basic lands), Packages (13 / 33 sub-packages / 321 rows), Win Conditions (8 categories / 146 rows / 46 combo kills), Interaction (6 hierarchies / 19 buckets / 183 rows), Pairings (8 abilities / 3,104 legal pairs), Mulligans (5 CR quotes, 2 odds tables, 19 opening-hand cards, 12 archetype rows), cEDH Primer (129 rows, 61 Spellbook combos). Open: #30 upgrade paths, #33 themed decks |
 
 ## Rules
 | Item | Status |
@@ -68,7 +71,7 @@
 | Lore foundation | ✅ closed (Bot cycle 5: #12, #14 done) | v1.3-cycle5-rules-lore-maintenance |
 | EDH foundation | ✅ closed (Bot cycle 4: #15, #19 done) | v1.2-cycle4-rules-lore-edh |
 | Rules interactions | ✅ closed (Bot cycle 5: #9, 27 topics) | v1.3-cycle5-rules-lore-maintenance |
-| Phase 1 — EDH & Deckbuilding depth | 🟡 open (7/9 closed in Bot cycle 6; #30 and #33 remain) | `v1.4-cycle6-edh-depth` |
-| Phase 2 — Lore & Story depth | ⏳ open (#34–#38) | — |
+| Phase 1 — EDH & Deckbuilding depth | ✅ closed (Bot cycle 6: 7 issues; Bot cycle 7: #30, #33) | `v1.4-cycle6-edh-depth` · `v1.5-cycle7-phase1-complete` |
+| Phase 2 — Lore & Story depth | 🟡 open (Bot cycle 7: #36 done; #34 and #35 in progress; #37 and #38 open) | — |
 | Phase 3 — Card & Rules enrichment | ⏳ open (#39–#43) | — |
 | Phase 4 — Structure & usability | ⏳ open (#44–#47) | — |

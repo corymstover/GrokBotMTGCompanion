@@ -2,6 +2,7 @@
 
 > **Deepened (Bot cycle 2, 2026-10-15).** One entry per character: who they are, **status as of late 2026**, key events, and cross-links to [Planes Index](Planes%20Index.md), [Conflicts & Arcs](Conflicts%20%26%20Arcs.md) and [Master Timeline](Master%20Timeline.md), with **source notes** saying what each cited page establishes. Card entries: search [Card Index](Card%20Index.md).
 > **Sourcing rules:** only official Wizards pages (magic.wizards.com Planeswalker profiles `…/en/story/<name>-planeswalker` and Magic Story articles), fetched 2026-10-15; every cited URL is checked against the site's sitemap. Profiles are era snapshots. Quotes are verbatim fragments. Nothing is inferred beyond what a cited page states.
+> **Bot cycle 7:** fuller profiles (spark moment, personal timeline, allegiances) for 13 major Planeswalkers are in [Planeswalker Dossiers](Planeswalker%20Dossiers.md). Status stays here.
 
 **Status key:** ✅ stated by a cited official source · ❓ the source is ambiguous or silent on a detail (noted inline) · ⚠️ unverified, with no fetched source stating current status · 🚫 Echoverse (alternate-reality) version, not the Multiverse character. "Spark lost" refers to the post-invasion loss of sparks described in [She Who Breaks the World](https://magic.wizards.com/en/news/magic-story/she-who-breaks-the-world).
 
