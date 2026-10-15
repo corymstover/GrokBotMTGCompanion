@@ -33,25 +33,25 @@
 ## Lore
 | File | Status | Count |
 |---|---|---|
-| Master Timeline | 🟡 initial | 6 in-universe eras, 23 release-chronology rows |
-| Planes Index | 🟡 deepening | 15 profiled planes + 6 recent settings + 4 special realms + **8 detailed entries** (6 new planes: Kaldheim, Eldraine, Ikoria, New Capenna, Skalla, Vryn; 2 deepened: Phyrexia/New Phyrexia, Ravnica post-invasion); 72 card links; 8 new official sources (Planeswalker's Guides) |
+| Master Timeline | 🟢 deepened (cycle 3) | 7 era tables (was 6 one-row eras) · **8 AR-dated events** (was 0) · 15 post-Mending steps, 5 invasion phases, 12 Omenpath rows with quoted relative markers · 56 links into Conflicts & Arcs · 23 release-chronology rows |
+| Planes Index | 🟡 deepening | 15 profiled planes + 6 recent settings + 4 special realms + **12 detailed entries** (cycle 3: +Regatha, +Rath sourced; Mercadia, Ulgrotha ⚠️ stubs — no official source; cycle 2: 6 new planes: Kaldheim, Eldraine, Ikoria, New Capenna, Skalla, Vryn; 2 deepened: Phyrexia/New Phyrexia, Ravnica post-invasion); 72 card links; 8 new official sources (Planeswalker's Guides) |
 | Characters Index | 🟢 deepened | 59 entries (was 47 rows); 54 ✅ / 1 ❓ / 3 ⚠️ / 1 🚫 (was 29 ✅ / 20 ⚠️); 19 names queued (#20) |
-| Conflicts & Arcs | 🟡 initial | 15 arcs (Omenpath-era table: 9 sets) |
+| Conflicts & Arcs | 🟢 deepened (cycle 3) | **36 sourced arc entries / 40 headings** (was 15 single-paragraph arcs + a 9-row table); cross-arc threads table (5 threads); ⚠️ ELD/THB/IKO unsourced |
 | Sources crawled | — | 563 magic.wizards.com story pages (79 profiles + 484 Magic Story articles); text kept off-repo |
 
 ## EDH
 | Item | Status |
 |---|---|
 | EDH Standards | ✅ CR 903 rules, strict color identity, Archidekt format, Brackets (beta, Oct 2025 + Feb 2026 updates), auto banned list (83) and Game Changers (53) |
-| Deck skeletons | 8 validated (Krenko R · Talrand U · Teysa Karlov WB · Tatyova GU · Lathril BG · Edgar Markov RWB · Atraxa WUBG · The Ur-Dragon WUBRG) |
+| Deck skeletons | **32 validated — all 32 color identities** (was 8): C, 5 mono, 10 pairs, 10 three-color, 5 four-color (Atraxa, Breya, Yidris, Saskia, Kynaios & Tiro), WUBRG; each with a Commander rules & rulings block |
 | EDH Staples | ✅ auto-generated: top 15 per color identity (C, 5 mono, 10 two-color, 10 three-color) + top 15 per role/archetype (14 roles) from 32,048 ranked Commander-legal cards |
-| Synergy notes | 3 commander engines (Teysa, Talrand, Tatyova) with Oracle text + official rulings |
+| Synergy notes | 15 commander engines (was 3) with Oracle text + official rulings; ⚠️ two-card combos flagged |
 | Combo detection | 🔴 open (#15) |
 
 ## Rules
 | Item | Status |
 |---|---|
-| Rules-interactions section | 🔴 not started (#9) — CR 2026-09-25 located |
+| Rules-interactions section | 🟡 started (#9) — [Rules Interactions](Rules%20Interactions.md): 7 topics (was 0), CR 2026-09-25 quoted verbatim, 35 official rulings linked |
 | Rulings in card entries | ✅ 78,943 rulings on 19,889 cards; all 33,894 cards processed (#10 closed) |
 
 ## Milestones & tags
@@ -64,4 +64,4 @@
 | v1.0 – Full card coverage | ✅ closed | `v1.0-33894-cards` |
 | Lore foundation | 🟡 open | — |
 | EDH foundation | 🟡 open | — |
-| Rules interactions | 🔴 open | — |
+| Rules interactions | 🟡 open | — |
