@@ -18,7 +18,9 @@
 - [Tarkir: Fate Reforged](#tarkir-fate-reforged)
 - [Return to Dominaria & War of the Spark](#return-to-dominaria--war-of-the-spark)
 - [Post–War of the Spark arcs (2019–2022)](#postwar-of-the-spark-arcs-20192022)
-  - [Throne of Eldraine, Theros Beyond Death, Ikoria (2019–20)](#throne-of-eldraine-theros-beyond-death-ikoria-201920)
+  - [Throne of Eldraine (2019)](#throne-of-eldraine-2019)
+  - [Theros Beyond Death (2020)](#theros-beyond-death-2020)
+  - [Ikoria: Lair of Behemoths (2020)](#ikoria-lair-of-behemoths-2020)
   - [Zendikar Rising (2020)](#zendikar-rising-2020)
   - [Kaldheim (2021)](#kaldheim-2021)
   - [Strixhaven (2021)](#strixhaven-2021)
@@ -150,10 +152,32 @@
 **Timeline:** [Post-Mending (Gatewatch era)](Master%20Timeline.md#post-mending-gatewatch-era)
 
 
-### Throne of Eldraine, Theros Beyond Death, Ikoria (2019–20)
-**Sets:** ELD 2019-10, THB 2020-01, IKO 2020-04 · **Timeline:** [Post-Mending (Gatewatch era)](Master%20Timeline.md#post-mending-gatewatch-era) · **Planes:** [Eldraine](Planes%20Index.md#eldraine), [Theros](Planes%20Index.md#planes-with-official-profiles), [Ikoria](Planes%20Index.md#ikoria)
+### Throne of Eldraine (2019)
+**Sets:** ELD (2019-10) · **Timeline:** [Post-Mending (Gatewatch era)](Master%20Timeline.md#post-mending-gatewatch-era) · **Planes:** [Eldraine](Planes%20Index.md#eldraine) · **Characters:** [Rowan Kenrith](Characters%20Index.md#rowan-kenrith), [Will Kenrith](Characters%20Index.md#will-kenrith), [Oko](Characters%20Index.md#oko), [Garruk Wildspeaker](Characters%20Index.md#garruk-wildspeaker) · **Status:** ✅ (cards + official ebook blurb; ebook text ⚠️ not fetched)
 
-- ⚠️ The 2019–20 web stories are not in the fetched sitemap corpus. Plane facts: see Planes Index.
+- Official ebook *Throne of Eldraine: The Wildered Quest* (Kate Elliott; Wizards of the Coast / Penguin Random House, released 2019-09-04). Its publisher description: "the young warrior-mage twins Rowan and Will Kenrith quest for their missing father, High King Kenrith". They meet "the wily and inscrutable shapeshifter Oko" and are "pursued relentlessly by Garruk, a cursed hunter stalking Planeswalkers across the Multiverse" ([Apple Books listing](https://books.apple.com/us/book/throne-of-eldraine-the-wildered-quest/id1475500848)).
+- Story Spotlight cards: [Unexplained Vision](cards/U/un.md#unexplained-vision) — "Rowan and Will exchanged a baffled glance. Could the stag in the vision lead them to their father?" (ELD #70 flavor text); [Kenrith's Transformation](cards/K/ke.md#kenriths-transformation); [Return of the Wildspeaker](cards/R/ret.md#return-of-the-wildspeaker) — "The curse is broken." (ELD #172 flavor text); [Happily Ever After](cards/H/ha.md#happily-ever-after).
+- **Outcome:** Garruk's curse is broken (Return of the Wildspeaker). The twins are Planeswalkers who share one spark (Will Kenrith profile). ⚠️ The ebook text itself was not fetched, so other plot details are not recorded.
+- **Sources:** [The Wildered Quest — publisher listing](https://books.apple.com/us/book/throne-of-eldraine-the-wildered-quest/id1475500848) · ELD Story Spotlight cards (Scryfall ELD printings; flavor text quoted) · [Will Kenrith profile](https://magic.wizards.com/en/story/will-kenrith-planeswalker)
+
+### Theros Beyond Death (2020)
+**Sets:** THB (2020-01) · **Timeline:** [Post-Mending (Gatewatch era)](Master%20Timeline.md#post-mending-gatewatch-era) · **Planes:** [Theros](Planes%20Index.md#planes-with-official-profiles) · **Characters:** [Elspeth Tirel](Characters%20Index.md#elspeth-tirel), [Calix](Characters%20Index.md#calix), [Ashiok](Characters%20Index.md#ashiok), [Xenagos](Characters%20Index.md#xenagos) · **Status:** ✅
+
+- There was no ebook. Wizards published an official summary ([Theros Beyond Death Story Summary](https://magic.wizards.com/en/news/feature/theros-beyond-death-story-summary-2020-01-10), 2020-01-11) and a [Story on Cards](https://magic.wizards.com/en/news/feature/theros-beyond-death-story-cards-2019-12-16) page ("there are currently no plans for an ebook").
+- Backstory: Elspeth "stabbed Xenagos with Godsend, destroying him once and for all". Then "Heliod stabbed Elspeth with her very own weapon", trapping her soul in Erebos's Underworld (Story on Cards).
+- In the Underworld, Ashiok's nightmares give Elspeth "a twisted version of the spear" (Khrusor); Ashiok "learned of the Phyrexians' existence". Klothys creates Calix to stop Elspeth's escape. At the exit Heliod's Khrusor "promptly shattered in his hands", and Erebos placed Heliod "beneath a giant boulder" (Summary).
+- Story Spotlight cards: [Agonizing Remorse](cards/A/ag.md#agonizing-remorse) ("The sharp memory of Daxos's death stabbed into Elspeth's soul."), [Triumphant Surge](cards/T/tri.md#triumphant-surge), [Relentless Pursuit](cards/R/rel.md#relentless-pursuit) ("Calix was patient, steadily following Elspeth…"), [Heliod's Punishment](cards/H/he.md#heliods-punishment).
+- **Outcome:** Erebos grants Elspeth "safe passage back to the mortal realm". "After a brief reunion with Daxos, Elspeth planeswalked away", and Calix "simply planeswalked after her" (Summary). See [Streets of New Capenna (2022)](#streets-of-new-capenna-2022).
+- **Sources:** [THB Story Summary](https://magic.wizards.com/en/news/feature/theros-beyond-death-story-summary-2020-01-10) · [THB Story on Cards](https://magic.wizards.com/en/news/feature/theros-beyond-death-story-cards-2019-12-16)
+
+### Ikoria: Lair of Behemoths (2020)
+**Sets:** IKO (2020-04) · **Timeline:** [Post-Mending (Gatewatch era)](Master%20Timeline.md#post-mending-gatewatch-era) · **Planes:** [Ikoria](Planes%20Index.md#ikoria) · **Characters:** [Lukka](Characters%20Index.md#lukka), [Vivien Reid](Characters%20Index.md#vivien-reid) · **Status:** ✅
+
+- Official ebook *Ikoria: Lair of Behemoths—Sundered Bond* (released 2020-04-07). Wizards' [Story on Cards](https://magic.wizards.com/en/news/feature/ikoria-lair-behemoths-story-cards-2020-04-10) page tells the plot in 14 story images; quotes below are from those images.
+- Lukka, a Coppercoat of Drannith, bonds with a winged tiger. Bonds are "high crimes in the city of Drannith", so General Kudro exiles him. Vivien Reid rescues him and teaches him; they track mutations to "a massive crystal formation called the Ozolith".
+- Lukka uses the Ozolith to control mutated monsters and turns on Drannith ("Ruinous Ultimatum"). Vivien, "who believes Lukka's control over the monsters to be unnatural and cruel, charges him with an army of bonders" and turns the battle "in Drannith's favor".
+- **Outcome:** "The Ozolith, strained to its core, explodes in a flash of orange light … Lukka lets out a primal scream and disappears, planeswalking for the first time" (image 14/14, [Unpredictable Cyclone](cards/U/un.md#unpredictable-cyclone)). Key cards: [Lukka, Coppercoat Outcast](cards/L/lu.md#lukka-coppercoat-outcast), [General Kudro of Drannith](cards/G/ge.md#general-kudro-of-drannith), [The Ozolith](cards/T/theo.md#the-ozolith), [Vivien, Monsters' Advocate](cards/V/vi.md#vivien-monsters-advocate).
+- **Sources:** [IKO Story on Cards](https://magic.wizards.com/en/news/feature/ikoria-lair-behemoths-story-cards-2020-04-10) (story text in images)
 
 ### Zendikar Rising (2020)
 **Sets:** Zendikar Rising (2020-09) · **Timeline:** [Post-Mending (Gatewatch era)](Master%20Timeline.md#post-mending-gatewatch-era) · **Planes:** [Zendikar](Planes%20Index.md#planes-with-official-profiles) · **Characters:** [Nissa Revane](Characters%20Index.md#nissa-revane), [Jace Beleren](Characters%20Index.md#jace-beleren), [Nahiri](Characters%20Index.md#nahiri) · **Status:** ✅

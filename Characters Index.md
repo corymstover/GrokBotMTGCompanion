@@ -97,7 +97,7 @@
 | [Tyvar Kell](#tyvar-kell) | Remaining Planeswalkers (cycle 4) | ✅ Alive (2026) |
 | [Vivien Reid](#vivien-reid) | Remaining Planeswalkers (cycle 4) | ✅ Alive after the invasion |
 | [Will Kenrith](#will-kenrith) | Remaining Planeswalkers (cycle 4) | ✅ Alive as of *Wilds of Eldraine* (2023) |
-| [Xenagos](#xenagos) | Remaining Planeswalkers (cycle 4) | ⚠️ Probably dead |
+| [Xenagos](#xenagos) | Remaining Planeswalkers (cycle 4) | ✅ Dead |
 
 ## Pre-Mending / Ancient
 
@@ -575,7 +575,7 @@ Reality Fracture cards include 🚫 Echoverse versions with different histories 
 
 ### Calix
 - **Who:** "Artificially created by the God of Destiny" (Klothys) to keep Elspeth in the Underworld. His spark ignited when he failed.
-- **Status (late 2026):** ❓ Unknown. The last fetched story (*BRO Chapter 4*, 2022) says "He will never stop chasing you" (Elspeth). No later story shows him.
+- **Status (late 2026):** ❓ Unknown. His spark ignited when he "simply planeswalked after" Elspeth (THB Story Summary). The last fetched story (*BRO Chapter 4*, 2022) says "He will never stop chasing you". No later story shows him.
 - **Sources:** [profile](https://magic.wizards.com/en/story/calix-planeswalker) · [BRO Ch. 4](https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-4-the-dark)
 
 ### Dack Fayden
@@ -645,8 +645,8 @@ Reality Fracture cards include 🚫 Echoverse versions with different histories 
 
 ### Xenagos
 - **Who:** Satyr of the Skola Valley on Theros who sought "all the pleasures of the Multiverse".
-- **Status (late 2026):** ⚠️ Probably dead. Kruphix's account says Xenagos "traveled to other worlds" and tried to become a god. In *SNC* Ep. 1 Elspeth recalls "the battle with Xenagos". His death is not quoted from any fetched source.
-- **Sources:** [profile](https://magic.wizards.com/en/story/xenagos-planeswalker) · [Kruphix's Insight (2014)](https://magic.wizards.com/en/news/magic-story/kruphixs-insight-2014-06-11) · [SNC Ep. 1](https://magic.wizards.com/en/news/magic-story/episode-1-homecoming-2022-03-28)
+- **Status (late 2026):** ✅ Dead. He ascended to godhood, and Elspeth "stabbed Xenagos with Godsend, destroying him once and for all" (THB Story on Cards). Elspeth still recalls "the battle with Xenagos" in *SNC* Ep. 1.
+- **Sources:** [profile](https://magic.wizards.com/en/story/xenagos-planeswalker) · [THB Story on Cards](https://magic.wizards.com/en/news/feature/theros-beyond-death-story-cards-2019-12-16) · [Kruphix's Insight (2014)](https://magic.wizards.com/en/news/magic-story/kruphixs-insight-2014-06-11) · [SNC Ep. 1](https://magic.wizards.com/en/news/magic-story/episode-1-homecoming-2022-03-28)
 
 ## Open questions
 - ❓ **Sarkhan Vol**: survived Ugin's ghostfire? ([TDM Ep. 7](https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-7-return) ends with him diving into the storm.)
