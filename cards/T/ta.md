@@ -4258,6 +4258,7 @@ schema: 2
   - *2007-09-16* — If the targeted creature is a token, it will cease to exist after being exiled. Any Auras that were attached to it will remain exiled forever.
   - *2008-04-01* — Because the new wording doesn’t use phasing, the exiled card will suffer from summoning sickness upon its return to the battlefield.
   - *2008-04-01* — The effect doesn’t care what types the card has after it is exiled, only that it have been a creature while on the battlefield.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#tawnoss-coffin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me1/169/tawnoss-coffin) · oracle_id `05f20087-416f-4928-a0ab-6d0d2ca2ad05` · printing: ME1 #169 (2007-09-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tawnos, Solemn Survivor

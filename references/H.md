@@ -159,9 +159,8 @@ schema: 2
 
 ### Hammer of Nazahn
 
-[Card entry](../cards/H/ha.md#hammer-of-nazahn) · **2 pages** (decks 1 · edh guides 1)
+[Card entry](../cards/H/ha.md#hammer-of-nazahn) · **1 pages** (edh guides 1)
 
-- **Decks (1):** [Nahiri, the Lithomancer](../decks/lore-nahiri-the-lithomancer.md)
 - **EDH guides (1):** [EDH Packages → Voltron (equipment & auras): Protective equipment/auras](../EDH%20Packages.md#voltron-equipment--auras-protective-equipmentauras)
 
 ### Hammer of Purphoros

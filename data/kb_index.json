@@ -5080,6 +5080,11 @@
 "headings": [
 [
 2,
+"2026-10-15 — Bot cycle 23 (lore decks: 85% standard incl. lands)",
+"2026-10-15--bot-cycle-23-lore-decks-85-standard-incl-lands"
+],
+[
+2,
 "2026-10-15 — Bot cycle 22 (Phase 6: primary-source ingestion & thin arcs)",
 "2026-10-15--bot-cycle-22-phase-6-primary-source-ingestion--thin-arcs"
 ],
@@ -5192,11 +5197,11 @@
 "issues": [],
 "related": [
 "Knowledge Index.md",
-"Contradictions & Retcons Log.md",
 "Front-Matter Schema.md",
-"Characters Index.md",
-"Conflicts & Arcs.md",
-"EDH Bracket Calibration.md"
+"Contradictions & Retcons Log.md",
+"EDH Deck Evaluation Checklist.md",
+"EDH Deck Template.md",
+"EDH Lore-Themed Deckbuilding.md"
 ]
 },
 {
@@ -14670,6 +14675,11 @@
 3,
 "Adventurer's Inn",
 "adventurers-inn"
+],
+[
+3,
+"Adventuring Gear",
+"adventuring-gear"
 ],
 [
 3,
@@ -33206,6 +33216,11 @@
 ],
 [
 3,
+"Journey to Nowhere",
+"journey-to-nowhere"
+],
+[
+3,
 "Judith, Carnage Connoisseur",
 "judith-carnage-connoisseur"
 ],
@@ -36469,6 +36484,11 @@
 3,
 "Mary Read and Anne Bonny",
 "mary-read-and-anne-bonny"
+],
+[
+3,
+"Mask of Avacyn",
+"mask-of-avacyn"
 ],
 [
 3,
@@ -40685,6 +40705,11 @@
 3,
 "Pendelhaven",
 "pendelhaven"
+],
+[
+3,
+"Pennon Blade",
+"pennon-blade"
 ],
 [
 3,
@@ -49975,6 +50000,11 @@
 3,
 "Tavern Brawler",
 "tavern-brawler"
+],
+[
+3,
+"Tawnos's Coffin",
+"tawnoss-coffin"
 ],
 [
 3,

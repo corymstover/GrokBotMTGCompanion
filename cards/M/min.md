@@ -1307,7 +1307,7 @@ schema: 2
   > *—Jhoira, master artificer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 13 pages (9 decks · 2 edh guides · 2 card data) → [reverse index](../../references/M.md#mind-stone)
+- **Referenced in:** 12 pages (8 decks · 2 edh guides · 2 card data) → [reverse index](../../references/M.md#mind-stone)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/76/mind-stone) · oracle_id `c97361b5-af16-4a7b-af85-a429dbaf4ad2` · printing: MBC #76 (2026-10-19) · [rulings](https://api.scryfall.com/cards/b30a8f92-ce42-4b27-a893-bcf97fde228d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mindstorm Crown

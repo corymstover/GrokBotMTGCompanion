@@ -17,9 +17,9 @@ schema: 2
 
 ### Fabled Passage
 
-[Card entry](../cards/F/fa.md#fabled-passage) · **9 pages** (decks 6 · edh guides 2 · card data 1)
+[Card entry](../cards/F/fa.md#fabled-passage) · **8 pages** (decks 5 · edh guides 2 · card data 1)
 
-- **Decks (6):** [Bjorna, Nightfall Alchemist (Grixis)](../grixis/decks/bjorna-nightfall-alchemist-cecily.md) · [Doctor Doom, King of Latveria (Grixis)](../grixis/decks/doctor-doom-king-of-latveria.md) · [Goro-Goro and Satoru (Grixis)](../grixis/decks/goro-goro-and-satoru.md) · [Korvold, Fae-Cursed King](../decks/korvold-fae-cursed-king.md) · [Nahiri, the Lithomancer](../decks/lore-nahiri-the-lithomancer.md) · [Tatyova, Benthic Druid](../decks/tatyova-benthic-druid.md)
+- **Decks (5):** [Bjorna, Nightfall Alchemist (Grixis)](../grixis/decks/bjorna-nightfall-alchemist-cecily.md) · [Doctor Doom, King of Latveria (Grixis)](../grixis/decks/doctor-doom-king-of-latveria.md) · [Goro-Goro and Satoru (Grixis)](../grixis/decks/goro-goro-and-satoru.md) · [Korvold, Fae-Cursed King](../decks/korvold-fae-cursed-king.md) · [Tatyova, Benthic Druid](../decks/tatyova-benthic-druid.md)
 - **EDH guides (2):** [EDH Mana Bases → Fetch lands & land search](../EDH%20Mana%20Bases.md#fetch-lands--land-search) · [EDH Staples → Utility lands](../EDH%20Staples.md#utility-lands)
 - **Card data (1):** [Artist Index → Artists B](../Artist%20Index.md#artists-b) (+7 more)
 
@@ -32,9 +32,9 @@ schema: 2
 
 ### Fabricate
 
-[Card entry](../cards/F/fa.md#fabricate) · **7 pages** (decks 5 · edh guides 1 · card data 1)
+[Card entry](../cards/F/fa.md#fabricate) · **6 pages** (decks 4 · edh guides 1 · card data 1)
 
-- **Decks (5):** [Ashad, the Lone Cyberman (Grixis)](../grixis/decks/ashad-the-lone-cyberman.md) · [Breya, Etherium Shaper](../decks/breya-etherium-shaper.md) · [Dr. Eggman (Grixis)](../grixis/decks/dr-eggman.md) · [Mishra, Artificer Prodigy (Grixis)](../grixis/decks/mishra-artificer-prodigy.md) · [Urza, Lord High Artificer](../decks/lore-brothers-war-urza-lord-high-artificer.md)
+- **Decks (4):** [Ashad, the Lone Cyberman (Grixis)](../grixis/decks/ashad-the-lone-cyberman.md) · [Breya, Etherium Shaper](../decks/breya-etherium-shaper.md) · [Dr. Eggman (Grixis)](../grixis/decks/dr-eggman.md) · [Mishra, Artificer Prodigy (Grixis)](../grixis/decks/mishra-artificer-prodigy.md)
 - **EDH guides (1):** [EDH Staples → Tutors](../EDH%20Staples.md#tutors)
 - **Card data (1):** [Artist Index → Artists C](../Artist%20Index.md#artists-c) (+5 more)
 

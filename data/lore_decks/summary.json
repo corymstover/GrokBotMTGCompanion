@@ -6,11 +6,14 @@
   "identity": "U",
   "floor": 2,
   "gc": 0,
-  "story": 58,
-  "playability": 21,
-  "share": 73,
+  "story": 75,
+  "playability": 5,
+  "share": 93.8,
   "valid": true,
-  "lands": 37
+  "lands": 37,
+  "nonbasic_lands": 17,
+  "nonbasic_lands_linked": 17,
+  "threshold": 85
  },
  {
   "slug": "lore-nahiri-the-lithomancer",
@@ -19,10 +22,13 @@
   "identity": "W",
   "floor": 2,
   "gc": 0,
-  "story": 57,
-  "playability": 18,
-  "share": 76,
+  "story": 66,
+  "playability": 10,
+  "share": 86.8,
   "valid": true,
-  "lands": 37
+  "lands": 37,
+  "nonbasic_lands": 13,
+  "nonbasic_lands_linked": 13,
+  "threshold": 85
  }
 ]

@@ -10,12 +10,14 @@ combos: 0
 two_card_infinites: 0
 validated: true
 tags: [lore, mono-white, bracket-floor-2, no-game-changers]
+lore_score: 86.8
+lore_standard_met: true
 schema: 2
 ---
 
 # Lore Deck — Nahiri, the Lithomancer
 
-> **Lore-themed deck (story-first, not power-first).** Built by `scripts/build_lore_decks.py` (Bot cycle 21, [#80](https://github.com/corymstover/GrokBotMTGCompanion/issues/80)) under [EDH Lore-Themed Deckbuilding](../EDH%20Lore-Themed%20Deckbuilding.md). Card data and legality are facts from Scryfall bulk; story claims cite official magic.wizards.com pages; package choices, pilot notes and *How the deck tells it* are **guidance**. ✅ sourced · ⚠️ uncertain · 🚫 non-canonical.
+> **Lore-themed deck (story-first, not power-first).** Built by `scripts/build_lore_decks.py` (Bot cycle 21, [#80](https://github.com/corymstover/GrokBotMTGCompanion/issues/80); 85% standard Bot cycle 23) under [EDH Lore-Themed Deckbuilding](../EDH%20Lore-Themed%20Deckbuilding.md). Card data and legality are facts from Scryfall bulk; story claims cite official magic.wizards.com pages; package choices, pilot notes and *How the deck tells it* are **guidance**. ✅ sourced · ⚠️ uncertain · 🚫 non-canonical.
 
 ## Contents
 - [Story the deck tells](#story-the-deck-tells)
@@ -83,16 +85,16 @@ Lore links: [Conflicts & Arcs](../Conflicts%20%26%20Arcs.md#ancient-imprisoning-
 
 ### Pilot notes (guidance)
 
-- **Mana (fact):** 36 lands, 8 ramp pieces, average nonland mana value 2.6. A 7-card opening hand has 3–5 lands 49% of the time and at least 2 lands 80%; it has no ramp piece 54% of the time. **Guidance:** keep 3–4 landers, or 2 lands plus ramp; see [EDH Mulligans](../EDH%20Mulligans.md#keep-or-mulligan-guidance).
-- **Interaction budget (fact):** 12 spot removal · 1 board wipes · 0 counterspells · 7 protection · 10 card draw. **Guidance:** hold protection or a counterspell on the turn you commit the commander or a combo.
+- **Mana (fact):** 36 lands, 8 ramp pieces, average nonland mana value 2.57. A 7-card opening hand has 3–5 lands 49% of the time and at least 2 lands 80%; it has no ramp piece 54% of the time. **Guidance:** keep 3–4 landers, or 2 lands plus ramp; see [EDH Mulligans](../EDH%20Mulligans.md#keep-or-mulligan-guidance).
+- **Interaction budget (fact):** 12 spot removal · 1 board wipes · 0 counterspells · 5 protection · 9 card draw. **Guidance:** hold protection or a counterspell on the turn you commit the commander or a combo.
 - **Win plan:** no complete Spellbook combo in the list. **Guidance:** it wins through board presence and the commander; see [EDH Win Conditions](../EDH%20Win%20Conditions.md) for finishers that fit the identity.
 - **Pregame talk (guidance):** say the floor (Bracket 2), the Game Changers (0), and any two-card infinite or extra-turn cards before the game, as the Brackets intend.
 <!-- CALIBRATION:END -->
 
 ## Lore score
 
-- **Story-connected slots: 57 / 75 non-basic cards (76%)**; playability slots (guidance): 18. Guide threshold: ≥ 60%.
-- Evidence types are machine-found (name, flavor text, story-set printing, type echo) plus cited notes. Story sets: `zen`, `wwk`, `roe`, `bfz`, `ogw`, `znr`, `isd`, `dka`, `avr`, `soi`, `emn`.
+- **Story-linked: 66 / 76 non-basic cards (86.8%)** — ✅ meets the ≥ 85% standard. Counted over the commander, every non-land card and every non-basic land (13 non-basic lands, 13 of them story-linked); basics excluded. Not linked (guidance slots): 10.
+- Counting tests (facts): card **name**, **flavor text** of any paper printing, **printing in the story's sets**, or a note citing an **official story page**. Type and mechanical echoes are shown as guidance and **do not count**. Story sets: `zen`, `wwk`, `roe`, `bfz`, `ogw`, `znr`, `isd`, `dka`, `avr`, `soi`, `emn`.
 
 ## Packages
 
@@ -102,8 +104,13 @@ Lore links: [Conflicts & Arcs](../Conflicts%20%26%20Arcs.md#ancient-imprisoning-
 | Kor of Zendikar | 17 |
 | Skyclaves & the Lithoform hunt (ZNR) | 4 |
 | The Helvault & revenge on Innistrad | 7 |
-| Lithomancer's arsenal (mechanical echo of Nahiri's Equipment abilities) | 16 |
-| Playability (guidance) | 15 |
+| Lithomancer's arsenal (mechanical echo of Nahiri's Equipment abilities) | 10 |
+| Lithomancer's arsenal (story-set Equipment) | 6 |
+| Playability (guidance) | 6 |
+| Story-set interaction | 1 |
+| Story-set ramp | 1 |
+| Story lands (Zendikar / Innistrad printings) | 6 |
+| Story-set threats | 1 |
 
 ## Decklist (Archidekt import)
 
@@ -145,41 +152,41 @@ Lore links: [Conflicts & Arcs](../Conflicts%20%26%20Arcs.md#ancient-imprisoning-
 1x Avacyn, Angel of Hope [The Helvault & revenge on Innistrad]
 1x Puresteel Paladin [Lithomancer's arsenal]
 1x Sram, Senior Edificer [Lithomancer's arsenal]
-1x Colossus Hammer [Lithomancer's arsenal]
-1x Shadowspear [Lithomancer's arsenal]
+1x Moonsilver Spear [Lithomancer's arsenal]
+1x Adventuring Gear [Lithomancer's arsenal]
 1x Sword of the Animist [Lithomancer's arsenal]
-1x Mithril Coat [Lithomancer's arsenal]
-1x Hammer of Nazahn [Lithomancer's arsenal]
-1x Blackblade Reforged [Lithomancer's arsenal]
+1x Basilisk Collar [Lithomancer's arsenal]
+1x Trailblazer's Boots [Lithomancer's arsenal]
+1x Pennon Blade [Lithomancer's arsenal]
 1x Umezawa's Jitte [Lithomancer's arsenal]
 1x Lightning Greaves [Lithomancer's arsenal]
-1x Swiftfoot Boots [Lithomancer's arsenal]
+1x Mask of Avacyn [Lithomancer's arsenal]
 1x Skullclamp [Lithomancer's arsenal]
 1x Sigarda's Aid [Lithomancer's arsenal]
 1x Open the Armory [Lithomancer's arsenal]
 1x Steelshaper's Gift [Lithomancer's arsenal]
 1x Path to Exile [Playability]
 1x Swords to Plowshares [Playability]
-1x Generous Gift [Playability]
+1x Journey to Nowhere [Story-set interaction]
 1x Fateful Absence [The Helvault & revenge on Innistrad]
 1x Smite the Monstrous [Kor of Zendikar]
 1x Isolation Zone [Hedrons & the Eldrazi prison]
 1x Sol Ring [Playability]
-1x Mind Stone [Playability]
+1x Everflowing Chalice [Story-set ramp]
 1x Pearl Medallion [Playability]
 1x Expedition Map [Playability]
-1x Ancient Den [Playability]
+1x Seraph Sanctuary [Story lands]
 1x Emeria, the Sky Ruin [Kor of Zendikar]
 1x Kor Haven [Kor of Zendikar]
 1x Holdout Settlement [Hedrons & the Eldrazi prison]
 1x Shrine of the Forsaken Gods [Hedrons & the Eldrazi prison]
 1x Sanctum of Ugin [Hedrons & the Eldrazi prison]
-1x Inventors' Fair [Playability]
-1x Buried Ruin [Playability]
-1x Myriad Landscape [Playability]
-1x Fabled Passage [Playability]
-1x Prismatic Vista [Playability]
-1x Sun Titan [Playability]
+1x Tectonic Edge [Story lands]
+1x Ghost Quarter [Story lands]
+1x Evolving Wilds [Story lands]
+1x Arid Mesa [Story lands]
+1x Marsh Flats [Story lands]
+1x Emeria Shepherd [Story-set threats]
 1x Selfless Spirit [Playability]
 1x Mentor of the Meek [Lithomancer's arsenal]
 1x Hedron Crawler [Hedrons & the Eldrazi prison]
@@ -193,6 +200,7 @@ Lore links: [Conflicts & Arcs](../Conflicts%20%26%20Arcs.md#ancient-imprisoning-
 
 | Card | Package | Why it belongs | Identity |
 |---|---|---|---|
+| [Nahiri, the Lithomancer](../cards/N/na.md#nahiri-the-lithomancer) | Commander | named for the story | W |
 | [Lithomancer's Focus](../cards/L/li.md#lithomancers-focus) | Hedrons & the Eldrazi prison | named for the story; flavor: “"Even in the hands of amateurs, Nahiri's hedrons can harm the Eldrazi." —Ugin”; printed in `bfz` | W |
 | [Nahiri's Binding](../cards/N/na.md#nahiris-binding) | Hedrons & the Eldrazi prison | named for the story; printed in `znr` | W |
 | [Stoneforge Mystic](../cards/S/sto.md#stoneforge-mystic) | Kor of Zendikar | printed in `wwk` | W |
@@ -211,60 +219,60 @@ Lore links: [Conflicts & Arcs](../Conflicts%20%26%20Arcs.md#ancient-imprisoning-
 | [Kor Scythemaster](../cards/K/ko.md#kor-scythemaster) | Kor of Zendikar | named for the story; flavor: “The kor of Zendikar are known for quiet determination in the face of overwhelming odds.”; printed in `ogw` | W |
 | [Skyclave Apparition](../cards/S/sk.md#skyclave-apparition) | Skyclaves & the Lithoform hunt (ZNR) | named for the story; printed in `znr` | W |
 | [Skyclave Relic](../cards/S/sk.md#skyclave-relic) | Skyclaves & the Lithoform hunt (ZNR) | named for the story; flavor: “Skyclaves held the key to reshaping the world.”; printed in `znr` | C |
-| [Emeria's Call // Emeria, Shattered Skyclave](../cards/E/em.md#emerias-call--emeria-shattered-skyclave) | Skyclaves & the Lithoform hunt (ZNR) | named for the story; printed in `znr` | W |
+| [Emeria's Call // Emeria, Shattered Skyclave](../cards/E/em.md#emerias-call--emeria-shattered-skyclave) | Skyclaves & the Lithoform hunt (ZNR) (land) | named for the story; printed in `znr` | W |
 | [Maul of the Skyclaves](../cards/M/mau.md#maul-of-the-skyclaves) | Skyclaves & the Lithoform hunt (ZNR) | named for the story; printed in `znr` | W |
-| [Hedron Archive](../cards/H/he.md#hedron-archive) | Hedrons & the Eldrazi prison | "At Ugin's direction, Nahiri constructed a massive network of stone structures called hedrons" ([BFZ Story Summary](https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23)).; named for the story; flavor: “"You've begun to understand the hedrons' true purpose," said Ugin. "The Eldrazi can be imprisoned." "And how did that work out last time?" asked Jace.”; printed in `bfz` | C |
+| [Hedron Archive](../cards/H/he.md#hedron-archive) | Hedrons & the Eldrazi prison | "At Ugin's direction, Nahiri constructed a massive network of stone structures called hedrons" ([BFZ Story Summary](https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23)).; named for the story; flavor: “"You've begun to understand the hedrons' true purpose," said Ugin. "The Eldrazi can be imprisoned.""And how did that work out last time?" asked Jace.”; printed in `bfz` | C |
 | [Hedron Matrix](../cards/H/he.md#hedron-matrix) | Hedrons & the Eldrazi prison | named for the story; flavor: “The hedrons awoke along with the Eldrazi, forming superstructures that radiated overwhelming magic.”; printed in `roe` | C |
 | [Hedron Blade](../cards/H/he.md#hedron-blade) | Hedrons & the Eldrazi prison | named for the story; printed in `bfz` | C |
 | [Aligned Hedron Network](../cards/A/al.md#aligned-hedron-network) | Hedrons & the Eldrazi prison | named for the story; flavor: “The last hedron slotted into place, locking Ulamog in an infinite loop of binding energy.”; printed in `bfz` | C |
 | [Dreamstone Hedron](../cards/D/dre.md#dreamstone-hedron) | Hedrons & the Eldrazi prison | named for the story; flavor: “Only the Eldrazi mind thinks in the warped paths required to open the hedrons and tap the power within.”; printed in `roe` | C |
 | [Ugin's Construct](../cards/U/ug.md#ugins-construct) | Hedrons & the Eldrazi prison | named for the story; flavor: “While trapping the Eldrazi on Zendikar, Ugin learned little from Sorin, but he gleaned the rudiments of lithomancy from Nahiri.” | C |
-| [Eye of Ugin](../cards/E/ey.md#eye-of-ugin) | Hedrons & the Eldrazi prison | Site of the Eldrazi prison's lock, damaged when the Eldrazi were loosed ([Battle of Fort Keff](https://magic.wizards.com/en/news/magic-story/the-battle-of-fort-keff)).; named for the story; printed in `wwk` | C |
+| [Eye of Ugin](../cards/E/ey.md#eye-of-ugin) | Hedrons & the Eldrazi prison (land) | Site of the Eldrazi prison's lock, damaged when the Eldrazi were loosed ([Battle of Fort Keff](https://magic.wizards.com/en/news/magic-story/the-battle-of-fort-keff)).; named for the story; printed in `wwk` | C |
 | [Ugin, the Ineffable](../cards/U/ug.md#ugin-the-ineffable) | Hedrons & the Eldrazi prison | Ugin directed Nahiri's hedron network ([BFZ Story Summary](https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23)).; named for the story | C |
 | [Helvault](../cards/H/he.md#helvault) | The Helvault & revenge on Innistrad | Nahiri spent "the millennium spent trapped in the Helvault" before her revenge on Sorin ([Stone and Blood](https://magic.wizards.com/en/news/magic-story/stone-and-blood-2016-06-15)).; named for the story; printed in `dka` | C |
 | [Battle at the Helvault](../cards/B/bat.md#battle-at-the-helvault) | The Helvault & revenge on Innistrad | named for the story | W |
 | [Declaration in Stone](../cards/D/dec.md#declaration-in-stone) | The Helvault & revenge on Innistrad | flavor: “The message was clear to Sorin—Nahiri had paid Markov Manor a visit.”; printed in `soi` | W |
 | [Thraben Gargoyle // Stonewing Antagonizer](../cards/T/thr.md#thraben-gargoyle--stonewing-antagonizer) | The Helvault & revenge on Innistrad | flavor: “Runechanters engrave their strongest wards on those that protect the church. Nahiri twisted them in shape and bent them to her will.”; printed in `soi` | C |
 | [Bladed Bracers](../cards/B/bla.md#bladed-bracers) | The Helvault & revenge on Innistrad | flavor: “Forged from the rubble of the Helvault.”; printed in `avr` | C |
-| [Avacyn, Angel of Hope](../cards/A/av.md#avacyn-angel-of-hope) | The Helvault & revenge on Innistrad | named for the story; flavor: “A golden helix streaked skyward from the Helvault. A thunderous explosion shattered the silver monolith and Avacyn emerged, free from her prison at last.”; printed in `avr` | W |
-| [Puresteel Paladin](../cards/P/pu.md#puresteel-paladin) | Lithomancer's arsenal (mechanical echo of Nahiri's Equipment abilities) | **Playability slot (guidance)** — no direct story link; kept for mana, interaction or a win path. | W |
-| [Sram, Senior Edificer](../cards/S/sr.md#sram-senior-edificer) | Lithomancer's arsenal (mechanical echo of Nahiri's Equipment abilities) | **Playability slot (guidance)** — no direct story link; kept for mana, interaction or a win path. | W |
-| [Colossus Hammer](../cards/C/col.md#colossus-hammer) | Lithomancer's arsenal (mechanical echo of Nahiri's Equipment abilities) | type echo: Equipment | C |
-| [Shadowspear](../cards/S/sha.md#shadowspear) | Lithomancer's arsenal (mechanical echo of Nahiri's Equipment abilities) | type echo: Equipment | C |
+| [Avacyn, Angel of Hope](../cards/A/av.md#avacyn-angel-of-hope) | The Helvault & revenge on Innistrad | named for the story; flavor: “Avacyn lives on in the hearts and minds of Innistrad's people.”; printed in `avr` | W |
+| [Puresteel Paladin](../cards/P/pu.md#puresteel-paladin) | Lithomancer's arsenal (mechanical echo of Nahiri's Equipment abilities) | **Not story-linked under the 85% tests (guidance slot)** — kept for mana, interaction or a win path. | W |
+| [Sram, Senior Edificer](../cards/S/sr.md#sram-senior-edificer) | Lithomancer's arsenal (mechanical echo of Nahiri's Equipment abilities) | **Not story-linked under the 85% tests (guidance slot)** — kept for mana, interaction or a win path. | W |
+| [Moonsilver Spear](../cards/M/moo.md#moonsilver-spear) | Lithomancer's arsenal (story-set Equipment) | Printed in Avacyn Restored (AVR). Makes a 4/4 flying Angel on each attack.; printed in `avr` | C |
+| [Adventuring Gear](../cards/A/ad.md#adventuring-gear) | Lithomancer's arsenal (story-set Equipment) | Printed in Zendikar (ZEN); landfall Equipment.; printed in `zen` | C |
 | [Sword of the Animist](../cards/S/sw.md#sword-of-the-animist) | Lithomancer's arsenal (mechanical echo of Nahiri's Equipment abilities) | flavor: “The blade glows only for Zendikar's chosen.” | C |
-| [Mithril Coat](../cards/M/mit.md#mithril-coat) | Lithomancer's arsenal (mechanical echo of Nahiri's Equipment abilities) | type echo: Equipment | C |
-| [Hammer of Nazahn](../cards/H/ha.md#hammer-of-nazahn) | Lithomancer's arsenal (mechanical echo of Nahiri's Equipment abilities) | type echo: Equipment | C |
-| [Blackblade Reforged](../cards/B/bla.md#blackblade-reforged) | Lithomancer's arsenal (mechanical echo of Nahiri's Equipment abilities) | type echo: Equipment | C |
-| [Umezawa's Jitte](../cards/U/um.md#umezawas-jitte) | Lithomancer's arsenal (mechanical echo of Nahiri's Equipment abilities) | type echo: Equipment | C |
-| [Lightning Greaves](../cards/L/li.md#lightning-greaves) | Lithomancer's arsenal (mechanical echo of Nahiri's Equipment abilities) | type echo: Equipment | C |
-| [Swiftfoot Boots](../cards/S/sw.md#swiftfoot-boots) | Lithomancer's arsenal (mechanical echo of Nahiri's Equipment abilities) | type echo: Equipment | C |
-| [Skullclamp](../cards/S/sk.md#skullclamp) | Lithomancer's arsenal (mechanical echo of Nahiri's Equipment abilities) | type echo: Equipment | C |
+| [Basilisk Collar](../cards/B/bas.md#basilisk-collar) | Lithomancer's arsenal (story-set Equipment) | Printed in Worldwake (WWK). Cheap deathtouch + lifelink.; printed in `wwk` | C |
+| [Trailblazer's Boots](../cards/T/tra.md#trailblazers-boots) | Lithomancer's arsenal (story-set Equipment) | Printed in Zendikar (ZEN). Evasion for the equipped attacker.; printed in `zen` | C |
+| [Pennon Blade](../cards/P/pe.md#pennon-blade) | Lithomancer's arsenal (story-set Equipment) | Printed in Rise of the Eldrazi (ROE); flavor text names the peoples of Zendikar.; flavor: “Draped with the pennon of a fallen outpost, the sword came to symbolize the peoples of Zendikar becoming one.”; printed in `roe` | C |
+| [Umezawa's Jitte](../cards/U/um.md#umezawas-jitte) | Lithomancer's arsenal (mechanical echo of Nahiri's Equipment abilities) | **Not story-linked under the 85% tests (guidance slot)**: type echo (guidance, not counted): Equipment | C |
+| [Lightning Greaves](../cards/L/li.md#lightning-greaves) | Lithomancer's arsenal (mechanical echo of Nahiri's Equipment abilities) | **Not story-linked under the 85% tests (guidance slot)**: type echo (guidance, not counted): Equipment | C |
+| [Mask of Avacyn](../cards/M/mas.md#mask-of-avacyn) | Lithomancer's arsenal (story-set Equipment) | Named for Avacyn; printed in Innistrad (ISD). Hexproof protection replaces Swiftfoot Boots.; named for the story; printed in `isd` | C |
+| [Skullclamp](../cards/S/sk.md#skullclamp) | Lithomancer's arsenal (mechanical echo of Nahiri's Equipment abilities) | **Not story-linked under the 85% tests (guidance slot)**: type echo (guidance, not counted): Equipment | C |
 | [Sigarda's Aid](../cards/S/si.md#sigardas-aid) | Lithomancer's arsenal (mechanical echo of Nahiri's Equipment abilities) | flavor: “"Avacyn is gone, yet you remain." —Traveler's prayer to Sigarda”; printed in `emn` | W |
 | [Open the Armory](../cards/O/op.md#open-the-armory) | Lithomancer's arsenal (mechanical echo of Nahiri's Equipment abilities) | flavor: “"Once Avacyn returned, I hoped I'd never need these things again. I didn't think I'd be dusting them off to use against angels."”; printed in `soi` | W |
-| [Steelshaper's Gift](../cards/S/ste.md#steelshapers-gift) | Lithomancer's arsenal (mechanical echo of Nahiri's Equipment abilities) | **Playability slot (guidance)** — no direct story link; kept for mana, interaction or a win path. | W |
-| [Path to Exile](../cards/P/pa.md#path-to-exile) | Playability (guidance) | **Playability slot (guidance)** — no direct story link; kept for mana, interaction or a win path. | W |
-| [Swords to Plowshares](../cards/S/sw.md#swords-to-plowshares) | Playability (guidance) | **Playability slot (guidance)** — no direct story link; kept for mana, interaction or a win path. | W |
-| [Generous Gift](../cards/G/ge.md#generous-gift) | Playability (guidance) | **Playability slot (guidance)** — no direct story link; kept for mana, interaction or a win path. | W |
+| [Steelshaper's Gift](../cards/S/ste.md#steelshapers-gift) | Lithomancer's arsenal (mechanical echo of Nahiri's Equipment abilities) | **Not story-linked under the 85% tests (guidance slot)** — kept for mana, interaction or a win path. | W |
+| [Path to Exile](../cards/P/pa.md#path-to-exile) | Playability (guidance) | **Not story-linked under the 85% tests (guidance slot)** — kept for mana, interaction or a win path. | W |
+| [Swords to Plowshares](../cards/S/sw.md#swords-to-plowshares) | Playability (guidance) | **Not story-linked under the 85% tests (guidance slot)** — kept for mana, interaction or a win path. | W |
+| [Journey to Nowhere](../cards/J/jo.md#journey-to-nowhere) | Story-set interaction | Printed in Zendikar (ZEN). Two-mana creature exile.; printed in `zen` | W |
 | [Fateful Absence](../cards/F/fa.md#fateful-absence) | The Helvault & revenge on Innistrad | flavor: “Sensing a plot, Sorin raced to his grandfather's resting-crypt. But someone else had gotten there first.” | W |
-| [Smite the Monstrous](../cards/S/sm.md#smite-the-monstrous) | Kor of Zendikar | flavor: “After watching the kor in battle, Gideon understood the difference between working together and working as one.”; printed in `bfz`, `isd`, `znr` | W |
+| [Smite the Monstrous](../cards/S/sm.md#smite-the-monstrous) | Kor of Zendikar | flavor: “Though the old holy wards and roadside shrines have begun to fail, faith in Avacyn still holds true power.”; printed in `bfz`, `isd`, `znr` | W |
 | [Isolation Zone](../cards/I/is.md#isolation-zone) | Hedrons & the Eldrazi prison | flavor: “When properly aligned, hedrons become powerful tools of binding.”; printed in `ogw` | W |
-| [Sol Ring](../cards/S/so.md#sol-ring) | Playability (guidance) | **Playability slot (guidance)** — no direct story link; kept for mana, interaction or a win path. | C |
-| [Mind Stone](../cards/M/min.md#mind-stone) | Playability (guidance) | **Playability slot (guidance)** — no direct story link; kept for mana, interaction or a win path. | C |
-| [Pearl Medallion](../cards/P/pe.md#pearl-medallion) | Playability (guidance) | **Playability slot (guidance)** — no direct story link; kept for mana, interaction or a win path. | C |
-| [Expedition Map](../cards/E/ex.md#expedition-map) | Playability (guidance) | **Playability slot (guidance)**: printed in `zen` | C |
-| [Ancient Den](../cards/A/an.md#ancient-den) | Playability (guidance) | **Playability slot (guidance)** — no direct story link; kept for mana, interaction or a win path. | W |
-| [Emeria, the Sky Ruin](../cards/E/em.md#emeria-the-sky-ruin) | Kor of Zendikar | printed in `zen` | W |
-| [Kor Haven](../cards/K/ko.md#kor-haven) | Kor of Zendikar | named for the story; flavor: “"Find shelter where none but the angels can reach you." —Kor saying” | W |
-| [Holdout Settlement](../cards/H/ho.md#holdout-settlement) | Hedrons & the Eldrazi prison | flavor: “Even in areas of profound devastation, the hedrons remained intact.”; printed in `ogw` | C |
-| [Shrine of the Forsaken Gods](../cards/S/shr.md#shrine-of-the-forsaken-gods) | Hedrons & the Eldrazi prison | flavor: “The gods known to the merfolk as Ula, Emeria, and Cosi were nothing more than false memories of a monstrous trinity: the Eldrazi titans Ulamog, Emrakul, and …”; printed in `bfz` | C |
-| [Sanctum of Ugin](../cards/S/san.md#sanctum-of-ugin) | Hedrons & the Eldrazi prison | named for the story; printed in `bfz` | C |
-| [Inventors' Fair](../cards/I/inv.md#inventors-fair) | Playability (guidance) | **Playability slot (guidance)** — no direct story link; kept for mana, interaction or a win path. | C |
-| [Buried Ruin](../cards/B/bu.md#buried-ruin) | Playability (guidance) | **Playability slot (guidance)** — no direct story link; kept for mana, interaction or a win path. | C |
-| [Myriad Landscape](../cards/M/my.md#myriad-landscape) | Playability (guidance) | **Playability slot (guidance)** — no direct story link; kept for mana, interaction or a win path. | C |
-| [Fabled Passage](../cards/F/fa.md#fabled-passage) | Playability (guidance) | **Playability slot (guidance)** — no direct story link; kept for mana, interaction or a win path. | C |
-| [Prismatic Vista](../cards/P/pr.md#prismatic-vista) | Playability (guidance) | **Playability slot (guidance)** — no direct story link; kept for mana, interaction or a win path. | C |
-| [Sun Titan](../cards/S/sun.md#sun-titan) | Playability (guidance) | **Playability slot (guidance)** — no direct story link; kept for mana, interaction or a win path. | W |
-| [Selfless Spirit](../cards/S/sel.md#selfless-spirit) | Playability (guidance) | **Playability slot (guidance)**: printed in `emn` | W |
+| [Sol Ring](../cards/S/so.md#sol-ring) | Playability (guidance) | **Not story-linked under the 85% tests (guidance slot)** — kept for mana, interaction or a win path. | C |
+| [Everflowing Chalice](../cards/E/ev.md#everflowing-chalice) | Story-set ramp | Printed in Worldwake (WWK). Scalable mana rock.; printed in `wwk` | C |
+| [Pearl Medallion](../cards/P/pe.md#pearl-medallion) | Playability (guidance) | **Not story-linked under the 85% tests (guidance slot)** — kept for mana, interaction or a win path. | C |
+| [Expedition Map](../cards/E/ex.md#expedition-map) | Playability (guidance) | printed in `zen` | C |
+| [Seraph Sanctuary](../cards/S/ser.md#seraph-sanctuary) | Story lands (Zendikar / Innistrad printings) (land) | Printed in Avacyn Restored (AVR); Angel synergy with Avacyn in the deck.; printed in `avr` | C |
+| [Emeria, the Sky Ruin](../cards/E/em.md#emeria-the-sky-ruin) | Kor of Zendikar (land) | printed in `zen` | W |
+| [Kor Haven](../cards/K/ko.md#kor-haven) | Kor of Zendikar (land) | named for the story; flavor: “"Find shelter where none but the angels can reach you." —Kor saying” | W |
+| [Holdout Settlement](../cards/H/ho.md#holdout-settlement) | Hedrons & the Eldrazi prison (land) | flavor: “Even in areas of profound devastation, the hedrons remained intact.”; printed in `ogw` | C |
+| [Shrine of the Forsaken Gods](../cards/S/shr.md#shrine-of-the-forsaken-gods) | Hedrons & the Eldrazi prison (land) | flavor: “The gods known to the merfolk as Ula, Emeria, and Cosi were nothing more than false memories of a monstrous trinity: the Eldrazi titans Ulamog, Emrakul, and …”; printed in `bfz` | C |
+| [Sanctum of Ugin](../cards/S/san.md#sanctum-of-ugin) | Hedrons & the Eldrazi prison (land) | named for the story; printed in `bfz` | C |
+| [Tectonic Edge](../cards/T/te.md#tectonic-edge) | Story lands (Zendikar / Innistrad printings) (land) | Printed in Worldwake (WWK). Nonbasic-land answer.; printed in `wwk` | C |
+| [Ghost Quarter](../cards/G/gh.md#ghost-quarter) | Story lands (Zendikar / Innistrad printings) (land) | Printed in Innistrad (ISD), the plane where Nahiri was sealed in the Helvault and later took revenge (Shadows over Innistrad).; printed in `isd` | C |
+| [Evolving Wilds](../cards/E/ev.md#evolving-wilds) | Story lands (Zendikar / Innistrad printings) (land) | Printed in ROE/BFZ/DKA; the BFZ flavor text names Zendikar and the Eldrazi.; flavor: “The Eldrazi may be ruthless, but Zendikar is relentless.”; printed in `bfz`, `dka`, `roe` | C |
+| [Arid Mesa](../cards/A/ari.md#arid-mesa) | Story lands (Zendikar / Innistrad printings) (land) | Printed in Zendikar (ZEN), the set of Nahiri's home plane; fetches a Plains and triggers landfall.; printed in `zen` | C |
+| [Marsh Flats](../cards/M/mar.md#marsh-flats) | Story lands (Zendikar / Innistrad printings) (land) | Printed in Zendikar (ZEN); fetches a Plains.; printed in `zen` | C |
+| [Emeria Shepherd](../cards/E/em.md#emeria-shepherd) | Story-set threats | Printed in Battle for Zendikar (BFZ); landfall recursion of nonland permanents (Equipment), returns them to the battlefield off a Plains.; printed in `bfz` | W |
+| [Selfless Spirit](../cards/S/sel.md#selfless-spirit) | Playability (guidance) | printed in `emn` | W |
 | [Mentor of the Meek](../cards/M/me.md#mentor-of-the-meek) | Lithomancer's arsenal (mechanical echo of Nahiri's Equipment abilities) | printed in `isd` | W |
 | [Hedron Crawler](../cards/H/he.md#hedron-crawler) | Hedrons & the Eldrazi prison | named for the story; printed in `ogw` | C |
 | [Hedron Scrabbler](../cards/H/he.md#hedron-scrabbler) | Hedrons & the Eldrazi prison | named for the story; flavor: “"I don't care when the hedrons awoke. *Why* is the question that really matters." —Anowon, the Ruin Sage”; printed in `zen` | C |
@@ -281,7 +289,7 @@ Lore links: [Conflicts & Arcs](../Conflicts%20%26%20Arcs.md#ancient-imprisoning-
 
 > Auto-generated 2026-10-15 by `scripts/detect_combos.py` from the [Commander Spellbook](https://commanderspellbook.com) public API (community-maintained combo database; each combo links to its page). Only combos whose **every card is in this list** are shown. Bracket note uses the official barometer: *Brackets 1–2 — no intentional two-card infinite combos; Bracket 3 — no early-game two-card infinite combos*.
 
-**No complete combos found** (7 combos are one card away — not listed).
+**No complete combos found** (8 combos are one card away — not listed).
 <!-- COMBOS:END -->
 
 <!-- CROSSREFS:START -->
@@ -289,10 +297,10 @@ Lore links: [Conflicts & Arcs](../Conflicts%20%26%20Arcs.md#ancient-imprisoning-
 
 > Generated by `scripts/build_crossrefs.py` (Bot cycle 18, [#66](https://github.com/corymstover/GrokBotMTGCompanion/issues/66)) from this list. Package counts are Oracle-text pattern matches using the [EDH Packages](../EDH%20Packages.md) patterns, so a card can fit loosely or count in several packages. Facts, not advice. Every card entry also lists where else it is cited (*Referenced in* → the [reverse card index](../references/README.md)).
 
-- **EDH packages in this list:** [Card advantage: Repeatable draw engines (permanents)](../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) 4 · [Voltron (equipment & auras): Protective equipment/auras](../EDH%20Packages.md#voltron-equipment--auras-protective-equipmentauras) 3 · [Ramp: Cost reducers](../EDH%20Packages.md#ramp-cost-reducers) 2 · [Ramp: Mana rocks (MV ≤ 2)](../EDH%20Packages.md#ramp-mana-rocks-mv--2) 2 · [Tokens: Anthems](../EDH%20Packages.md#tokens-anthems) 2 · [Voltron (equipment & auras): Evasion & double strike](../EDH%20Packages.md#voltron-equipment--auras-evasion--double-strike) 2 · [Aristocrats: Fodder makers (multiple creature tokens)](../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) 1 · [Lands / landfall: Landfall payoffs](../EDH%20Packages.md#lands--landfall-landfall-payoffs) 1 · [Ramp: Land ramp (puts lands onto the battlefield)](../EDH%20Packages.md#ramp-land-ramp-puts-lands-onto-the-battlefield) 1 · [Ramp: Mana creatures (MV ≤ 2)](../EDH%20Packages.md#ramp-mana-creatures-mv--2) 1
-- **Keywords → [Keyword Encyclopedia](../Keyword%20Encyclopedia.md):** [Equip](../Keyword%20Encyclopedia.md#equip) 15 · [Flying](../Keyword%20Encyclopedia.md#flying) 4 · [Indestructible](../Keyword%20Encyclopedia.md#indestructible) 3 · [Vigilance](../Keyword%20Encyclopedia.md#vigilance) 3 · [Investigate](../Keyword%20Encyclopedia.md#investigate) 2 · [Kicker](../Keyword%20Encyclopedia.md#kicker) 2 · [Defender](../Keyword%20Encyclopedia.md#defender) 1 · [Double strike](../Keyword%20Encyclopedia.md#double-strike) 1 · [Enchant](../Keyword%20Encyclopedia.md#enchant) 1 · [Flash](../Keyword%20Encyclopedia.md#flash) 1 · [Transform](../Keyword%20Encyclopedia.md#transform) 1
-- **Rules sections citing cards in this list:** [Keyword Encyclopedia → Equip](../Keyword%20Encyclopedia.md#equip) (Lightning Greaves, Mithril Coat, Swiftfoot Boots) · [Keyword Encyclopedia → Indestructible](../Keyword%20Encyclopedia.md#indestructible) (Avacyn, Angel of Hope, Mithril Coat) · [Keyword Encyclopedia → Flash](../Keyword%20Encyclopedia.md#flash) (Mithril Coat) · [Keyword Encyclopedia → Vigilance](../Keyword%20Encyclopedia.md#vigilance) (Sun Titan) · [Rules Interactions → Hexproof, shroud & ward](../Rules%20Interactions.md#hexproof-shroud--ward) (Shadowspear)
-- **Lore & story sections citing cards in this list:** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) (Aligned Hedron Network, Avacyn, Angel of Hope, Blackblade Reforged +4) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) (Nahiri, the Lithomancer, Ugin, the Ineffable) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched) (Nahiri, the Lithomancer, Ugin, the Ineffable) · [Art & Flavor Story Links → Kaladesh & Aether Revolt (2016–17)](../Art%20%26%20Flavor%20Story%20Links.md#kaladesh--aether-revolt-201617) (Inventors' Fair)
-- **EDH guide sections citing cards in this list:** [EDH Staples → Colorless](../EDH%20Staples.md#colorless) (Lightning Greaves, Mind Stone, Myriad Landscape +2) · [EDH Upgrade Paths → Kozilek, the Great Distortion](../EDH%20Upgrade%20Paths.md#kozilek-the-great-distortion) (Expedition Map, Eye of Ugin, Hedron Crawler +1) · [EDH Packages → Voltron (equipment & auras): Protective equipment/auras](../EDH%20Packages.md#voltron-equipment--auras-protective-equipmentauras) (Hammer of Nazahn, Mithril Coat, Swiftfoot Boots) · [EDH Staples → Targeted removal](../EDH%20Staples.md#targeted-removal) (Generous Gift, Path to Exile, Swords to Plowshares) · [EDH Staples → White](../EDH%20Staples.md#white) (Generous Gift, Path to Exile, Swords to Plowshares) · [EDH Upgrade Paths → Giada, Font of Hope](../EDH%20Upgrade%20Paths.md#giada-font-of-hope) (Avacyn, Angel of Hope, Emeria, the Sky Ruin, Lightning Greaves) · …41 more sections
-- **Decks sharing the most cards:** [Giada, Font of Hope](../decks/giada-font-of-hope.md) 12 · [Kozilek, the Great Distortion](../decks/kozilek-the-great-distortion.md) 12 · [Brago, King Eternal](../decks/brago-king-eternal.md) 9 · [Kykar, Wind's Fury](../decks/kykar-winds-fury.md) 7
+- **EDH packages in this list:** [Card advantage: Repeatable draw engines (permanents)](../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) 4 · [Lands / landfall: Landfall payoffs](../EDH%20Packages.md#lands--landfall-landfall-payoffs) 3 · [Ramp: Cost reducers](../EDH%20Packages.md#ramp-cost-reducers) 2 · [Ramp: Mana rocks (MV ≤ 2)](../EDH%20Packages.md#ramp-mana-rocks-mv--2) 2 · [Tokens: Anthems](../EDH%20Packages.md#tokens-anthems) 2 · [Voltron (equipment & auras): Evasion & double strike](../EDH%20Packages.md#voltron-equipment--auras-evasion--double-strike) 2 · [Aristocrats: Fodder makers (multiple creature tokens)](../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) 1 · [Graveyard: Recursion to hand](../EDH%20Packages.md#graveyard-recursion-to-hand) 1 · [Ramp: Land ramp (puts lands onto the battlefield)](../EDH%20Packages.md#ramp-land-ramp-puts-lands-onto-the-battlefield) 1 · [Ramp: Mana creatures (MV ≤ 2)](../EDH%20Packages.md#ramp-mana-creatures-mv--2) 1 · [Voltron (equipment & auras): Protective equipment/auras](../EDH%20Packages.md#voltron-equipment--auras-protective-equipmentauras) 1
+- **Keywords → [Keyword Encyclopedia](../Keyword%20Encyclopedia.md):** [Equip](../Keyword%20Encyclopedia.md#equip) 15 · [Flying](../Keyword%20Encyclopedia.md#flying) 5 · [Indestructible](../Keyword%20Encyclopedia.md#indestructible) 2 · [Investigate](../Keyword%20Encyclopedia.md#investigate) 2 · [Kicker](../Keyword%20Encyclopedia.md#kicker) 2 · [Vigilance](../Keyword%20Encyclopedia.md#vigilance) 2 · [Defender](../Keyword%20Encyclopedia.md#defender) 1 · [Double strike](../Keyword%20Encyclopedia.md#double-strike) 1 · [Enchant](../Keyword%20Encyclopedia.md#enchant) 1 · [Transform](../Keyword%20Encyclopedia.md#transform) 1
+- **Rules sections citing cards in this list:** [Keyword Encyclopedia → Equip](../Keyword%20Encyclopedia.md#equip) (Lightning Greaves) · [Keyword Encyclopedia → Indestructible](../Keyword%20Encyclopedia.md#indestructible) (Avacyn, Angel of Hope) · [Rules Interactions → Casting vs. copying a spell](../Rules%20Interactions.md#casting-vs-copying-a-spell) (Everflowing Chalice) · [Rules Interactions → Copy effects](../Rules%20Interactions.md#copy-effects) (Everflowing Chalice)
+- **Lore & story sections citing cards in this list:** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) (Aligned Hedron Network, Avacyn, Angel of Hope, Hedron Archive +3) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) (Nahiri, the Lithomancer, Ugin, the Ineffable) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched) (Nahiri, the Lithomancer, Ugin, the Ineffable) · [Art & Flavor Story Links → Lorwyn Eclipsed (2025–26)](../Art%20%26%20Flavor%20Story%20Links.md#lorwyn-eclipsed-202526) (Evolving Wilds)
+- **EDH guide sections citing cards in this list:** [EDH Upgrade Paths → Edgar Markov](../EDH%20Upgrade%20Paths.md#edgar-markov) (Arid Mesa, Evolving Wilds, Marsh Flats +2) · [EDH Staples → Colorless](../EDH%20Staples.md#colorless) (Evolving Wilds, Lightning Greaves, Sol Ring) · [EDH Upgrade Paths → Brago, King Eternal](../EDH%20Upgrade%20Paths.md#brago-king-eternal) (Evolving Wilds, Kor Cartographer, Lightning Greaves) · [EDH Upgrade Paths → Feather, the Redeemed](../EDH%20Upgrade%20Paths.md#feather-the-redeemed) (Arid Mesa, Evolving Wilds, Swords to Plowshares) · [EDH Upgrade Paths → Giada, Font of Hope](../EDH%20Upgrade%20Paths.md#giada-font-of-hope) (Avacyn, Angel of Hope, Emeria, the Sky Ruin, Lightning Greaves) · [EDH Upgrade Paths → Karador, Ghost Chieftain](../EDH%20Upgrade%20Paths.md#karador-ghost-chieftain) (Evolving Wilds, Marsh Flats, Swords to Plowshares) · …50 more sections
+- **Decks sharing the most cards:** [Giada, Font of Hope](../decks/giada-font-of-hope.md) 10 · [Kozilek, the Great Distortion](../decks/kozilek-the-great-distortion.md) 10 · [Chulane, Teller of Tales (landfall theme)](../decks/theme-chulane-teller-of-tales-landfall.md) 7 · [Atraxa, Praetors' Voice](../decks/atraxa-praetors-voice.md) 6
 <!-- CROSSREFS:END -->

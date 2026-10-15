@@ -320,14 +320,14 @@
      "note": ""
     },
     {
-     "name": "Expedition Map",
-     "package": "Playability (guidance)",
-     "note": ""
+     "name": "Tawnos's Coffin",
+     "package": "Artificers of Terisiare",
+     "note": "Named for Tawnos, Urza's apprentice; printed in Antiquities (ATQ). Repeatable creature exile adds interaction."
     },
     {
-     "name": "Fabricate",
-     "package": "Playability (guidance)",
-     "note": ""
+     "name": "Transmute Artifact",
+     "package": "Artificers of Terisiare",
+     "note": "Printed in Antiquities (ATQ). Artifact tutor replacing Fabricate."
     },
     {
      "name": "Whir of Invention",
@@ -360,9 +360,9 @@
      "note": ""
     },
     {
-     "name": "Academy Ruins",
-     "package": "Playability (guidance)",
-     "note": ""
+     "name": "Strip Mine",
+     "package": "Story lands (Antiquities / Brothers' War printings)",
+     "note": "Printed in Antiquities (ATQ); its flavor text names the war between Urza and Mishra. Single-target land removal (not mass land denial)."
     },
     {
      "name": "Buried Ruin",
@@ -370,9 +370,9 @@
      "note": ""
     },
     {
-     "name": "Inventors' Fair",
-     "package": "Playability (guidance)",
-     "note": ""
+     "name": "Mishra's Factory",
+     "package": "Story lands (Antiquities / Brothers' War printings)",
+     "note": "Named for Mishra; printed in Antiquities (ATQ). Manland adds a threat on an artifact-dense mana base."
     },
     {
      "name": "Seat of the Synod",
@@ -624,14 +624,14 @@
      "note": ""
     },
     {
-     "name": "Colossus Hammer",
-     "package": "Lithomancer's arsenal (mechanical echo of Nahiri's Equipment abilities)",
-     "note": ""
+     "name": "Moonsilver Spear",
+     "package": "Lithomancer's arsenal (story-set Equipment)",
+     "note": "Printed in Avacyn Restored (AVR). Makes a 4/4 flying Angel on each attack."
     },
     {
-     "name": "Shadowspear",
-     "package": "Lithomancer's arsenal (mechanical echo of Nahiri's Equipment abilities)",
-     "note": ""
+     "name": "Adventuring Gear",
+     "package": "Lithomancer's arsenal (story-set Equipment)",
+     "note": "Printed in Zendikar (ZEN); landfall Equipment."
     },
     {
      "name": "Sword of the Animist",
@@ -639,19 +639,19 @@
      "note": ""
     },
     {
-     "name": "Mithril Coat",
-     "package": "Lithomancer's arsenal (mechanical echo of Nahiri's Equipment abilities)",
-     "note": ""
+     "name": "Basilisk Collar",
+     "package": "Lithomancer's arsenal (story-set Equipment)",
+     "note": "Printed in Worldwake (WWK). Cheap deathtouch + lifelink."
     },
     {
-     "name": "Hammer of Nazahn",
-     "package": "Lithomancer's arsenal (mechanical echo of Nahiri's Equipment abilities)",
-     "note": ""
+     "name": "Trailblazer's Boots",
+     "package": "Lithomancer's arsenal (story-set Equipment)",
+     "note": "Printed in Zendikar (ZEN). Evasion for the equipped attacker."
     },
     {
-     "name": "Blackblade Reforged",
-     "package": "Lithomancer's arsenal (mechanical echo of Nahiri's Equipment abilities)",
-     "note": ""
+     "name": "Pennon Blade",
+     "package": "Lithomancer's arsenal (story-set Equipment)",
+     "note": "Printed in Rise of the Eldrazi (ROE); flavor text names the peoples of Zendikar."
     },
     {
      "name": "Umezawa's Jitte",
@@ -664,9 +664,9 @@
      "note": ""
     },
     {
-     "name": "Swiftfoot Boots",
-     "package": "Lithomancer's arsenal (mechanical echo of Nahiri's Equipment abilities)",
-     "note": ""
+     "name": "Mask of Avacyn",
+     "package": "Lithomancer's arsenal (story-set Equipment)",
+     "note": "Named for Avacyn; printed in Innistrad (ISD). Hexproof protection replaces Swiftfoot Boots."
     },
     {
      "name": "Skullclamp",
@@ -699,9 +699,9 @@
      "note": ""
     },
     {
-     "name": "Generous Gift",
-     "package": "Playability (guidance)",
-     "note": ""
+     "name": "Journey to Nowhere",
+     "package": "Story-set interaction",
+     "note": "Printed in Zendikar (ZEN). Two-mana creature exile."
     },
     {
      "name": "Fateful Absence",
@@ -724,9 +724,9 @@
      "note": ""
     },
     {
-     "name": "Mind Stone",
-     "package": "Playability (guidance)",
-     "note": ""
+     "name": "Everflowing Chalice",
+     "package": "Story-set ramp",
+     "note": "Printed in Worldwake (WWK). Scalable mana rock."
     },
     {
      "name": "Pearl Medallion",
@@ -739,9 +739,9 @@
      "note": ""
     },
     {
-     "name": "Ancient Den",
-     "package": "Playability (guidance)",
-     "note": ""
+     "name": "Seraph Sanctuary",
+     "package": "Story lands (Zendikar / Innistrad printings)",
+     "note": "Printed in Avacyn Restored (AVR); Angel synergy with Avacyn in the deck."
     },
     {
      "name": "Emeria, the Sky Ruin",
@@ -769,34 +769,34 @@
      "note": ""
     },
     {
-     "name": "Inventors' Fair",
-     "package": "Playability (guidance)",
-     "note": ""
+     "name": "Tectonic Edge",
+     "package": "Story lands (Zendikar / Innistrad printings)",
+     "note": "Printed in Worldwake (WWK). Nonbasic-land answer."
     },
     {
-     "name": "Buried Ruin",
-     "package": "Playability (guidance)",
-     "note": ""
+     "name": "Ghost Quarter",
+     "package": "Story lands (Zendikar / Innistrad printings)",
+     "note": "Printed in Innistrad (ISD), the plane where Nahiri was sealed in the Helvault and later took revenge (Shadows over Innistrad)."
     },
     {
-     "name": "Myriad Landscape",
-     "package": "Playability (guidance)",
-     "note": ""
+     "name": "Evolving Wilds",
+     "package": "Story lands (Zendikar / Innistrad printings)",
+     "note": "Printed in ROE/BFZ/DKA; the BFZ flavor text names Zendikar and the Eldrazi."
     },
     {
-     "name": "Fabled Passage",
-     "package": "Playability (guidance)",
-     "note": ""
+     "name": "Arid Mesa",
+     "package": "Story lands (Zendikar / Innistrad printings)",
+     "note": "Printed in Zendikar (ZEN), the set of Nahiri's home plane; fetches a Plains and triggers landfall."
     },
     {
-     "name": "Prismatic Vista",
-     "package": "Playability (guidance)",
-     "note": ""
+     "name": "Marsh Flats",
+     "package": "Story lands (Zendikar / Innistrad printings)",
+     "note": "Printed in Zendikar (ZEN); fetches a Plains."
     },
     {
-     "name": "Sun Titan",
-     "package": "Playability (guidance)",
-     "note": ""
+     "name": "Emeria Shepherd",
+     "package": "Story-set threats",
+     "note": "Printed in Battle for Zendikar (BFZ); landfall recursion of nonland permanents (Equipment), returns them to the battlefield off a Plains."
     },
     {
      "name": "Selfless Spirit",

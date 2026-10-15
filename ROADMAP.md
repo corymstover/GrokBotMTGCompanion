@@ -99,7 +99,8 @@ Phase 5 complete in Bot cycle 19; snapshot tag `v2.0-phase5-optimization`.
 
 ## Phase 6
 - ✅ **Bot cycle 21:** [EDH Lore-Themed Deckbuilding](EDH%20Lore-Themed%20Deckbuilding.md) + 2 worked lore decks (Urza Brothers' War; Nahiri Lithomancer).
-- 🟡 **Bot cycle 22:** [Lore Primary Sources](Lore%20Primary%20Sources.md) (538 pages, 60 PW Guides); 14 arcs deepened; +6 retcon entries; 7 misquotes fixed. Next: cycle 23 (TDM/EOE/ECL/SOS/RF + pre-2019 arcs, dossiers #74).
+- 🟡 **Bot cycle 22:** [Lore Primary Sources](Lore%20Primary%20Sources.md) (538 pages, 60 PW Guides); 14 arcs deepened; +6 retcon entries; 7 misquotes fixed. Next: cycle 24 (TDM/EOE/ECL/SOS/RF + pre-2019 arcs, dossiers #74).
+- ✅ **Bot cycle 23:** lore-deck standard raised to ≥ 85% story-linked over all non-basic cards (non-basic lands included); both example decks rebuilt (Urza 93.8%, Nahiri 86.8%); `validate_all` step `lore`.
  — Lore deepening sprint (Bot cycles 20+; Cory, 2026-10-15)
 Canonical lore & history deepening; all other queued work on hold. Milestone: [Phase 6 — Lore deepening sprint](https://github.com/corymstover/GrokBotMTGCompanion/milestone/15).
 

@@ -100,6 +100,7 @@ def main(argv):
     steps = [("links", ["scripts/check_links.py", "--all"]), ("schema", ["scripts/front_matter.py", "--check"]),
              ("index", ["scripts/kb_find.py", "--check"]), ("crossrefs", ["scripts/build_crossrefs.py", "--check"]),
              ("calibration", ["scripts/deck_calibration.py", "--check"]),
+             ("lore", ["scripts/build_lore_decks.py", "--check"]),  # Bot cycle 23: kind: lore decks must be >= 85% story-linked
              ("citations", ["scripts/check_citations.py"] + (["--online"] if online else [])),
              ("oracle", ["scripts/verify_cards.py"]), ("decks", None), ("freshness", None)]
     results = []

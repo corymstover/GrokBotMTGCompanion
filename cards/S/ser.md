@@ -309,7 +309,7 @@ schema: 2
   > {T}: Add {C}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2143 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#seraph-sanctuary)
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/S.md#seraph-sanctuary)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddq/33/seraph-sanctuary) · oracle_id `0b504dc6-61cc-4a72-907c-145fa4c72466` · printing: DDQ #33 (2016-02-26) · [rulings](https://api.scryfall.com/cards/e1c1fa29-362f-40b4-b67f-513f6592fb3b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Serendib Djinn

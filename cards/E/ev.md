@@ -441,7 +441,7 @@ schema: 2
   - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
   - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
   - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
-- **Referenced in:** 7 pages (4 decks · 1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/E.md#everflowing-chalice)
+- **Referenced in:** 8 pages (5 decks · 1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/E.md#everflowing-chalice)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/137/everflowing-chalice) · oracle_id `0a79237e-0811-4a8a-bd4d-db3ca91bff22` · printing: EOC #137 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Everglades
@@ -1170,7 +1170,7 @@ schema: 2
   > *—High Evolutionary, Herbert Wyndham*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 14 pages (7 decks · 4 edh guides · 1 lore & story · 2 card data) → [reverse index](../../references/E.md#evolving-wilds)
+- **Referenced in:** 15 pages (8 decks · 4 edh guides · 1 lore & story · 2 card data) → [reverse index](../../references/E.md#evolving-wilds)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/240/evolving-wilds) · oracle_id `a75445d3-1303-4bb5-89ad-26ea93fecd48` · printing: MSC #240 (2026-06-26) · [rulings](https://api.scryfall.com/cards/c0318a48-30e4-4ef7-be3d-5e561c5ce428/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Evra, Halcyon Witness

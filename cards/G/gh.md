@@ -1250,7 +1250,7 @@ schema: 2
   - *2006-05-01* — If you target Ghost Quarter with its own ability, the ability won't resolve because its target is no longer on the battlefield. You won't get to search for a land card.
   - *2011-09-22* — If the targeted land is an illegal target by the time Ghost Quarter's ability resolves, it won't resolve and none of its effects will happen. The land's controller won't get to search for a basic land card.
   - *2013-07-01* — The target land's controller gets to search for a basic land card even if that land wasn't destroyed by Ghost Quarter's ability. This may happen because the land has indestructible or because it was regenerated.
-- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/G.md#ghost-quarter)
+- **Referenced in:** 4 pages (2 decks · 1 edh guides · 1 card data) → [reverse index](../../references/G.md#ghost-quarter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cm2/253/ghost-quarter) · oracle_id `2ec4288e-34c6-4831-a2c0-ba1ca1d9d1dc` · printing: CM2 #253 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghost Ship

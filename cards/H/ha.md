@@ -2034,7 +2034,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-08-07* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to the equipped creature may become lethal if you attach Hammer of Nazahn to a different creature during that turn.
   - *2020-08-07* — If Hammer of Nazahn enters the battlefield at the same time as other Equipment you control, its ability will trigger for each of those Equipment.
-- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/H.md#hammer-of-nazahn)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/H.md#hammer-of-nazahn)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/388/hammer-of-nazahn) · oracle_id `e3955573-3db5-490e-903e-65e0172a9202` · printing: CMM #388 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hammer of Purphoros

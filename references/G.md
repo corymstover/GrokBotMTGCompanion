@@ -477,9 +477,9 @@ schema: 2
 
 ### Generous Gift
 
-[Card entry](../cards/G/ge.md#generous-gift) · **9 pages** (decks 5 · edh guides 2 · card data 2)
+[Card entry](../cards/G/ge.md#generous-gift) · **8 pages** (decks 4 · edh guides 2 · card data 2)
 
-- **Decks (5):** [Chulane, Teller of Tales (landfall theme)](../decks/theme-chulane-teller-of-tales-landfall.md) · [Giada, Font of Hope](../decks/giada-font-of-hope.md) · [Kykar, Wind's Fury](../decks/kykar-winds-fury.md) · [Kynaios and Tiro of Meletis](../decks/kynaios-and-tiro-of-meletis.md) · [Nahiri, the Lithomancer](../decks/lore-nahiri-the-lithomancer.md)
+- **Decks (4):** [Chulane, Teller of Tales (landfall theme)](../decks/theme-chulane-teller-of-tales-landfall.md) · [Giada, Font of Hope](../decks/giada-font-of-hope.md) · [Kykar, Wind's Fury](../decks/kykar-winds-fury.md) · [Kynaios and Tiro of Meletis](../decks/kynaios-and-tiro-of-meletis.md)
 - **EDH guides (2):** [EDH Interaction → 1. Any permanent / nonland permanent](../EDH%20Interaction.md#1-any-permanent--nonland-permanent) · [EDH Staples → White](../EDH%20Staples.md#white) (+1 more)
 - **Card data (2):** [Artist Index → Most prolific artists](../Artist%20Index.md#most-prolific-artists) (+4 more) · [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
 
@@ -712,9 +712,9 @@ schema: 2
 
 ### Ghost Quarter
 
-[Card entry](../cards/G/gh.md#ghost-quarter) · **3 pages** (decks 1 · edh guides 1 · card data 1)
+[Card entry](../cards/G/gh.md#ghost-quarter) · **4 pages** (decks 2 · edh guides 1 · card data 1)
 
-- **Decks (1):** [The Gitrog Monster (Innistrad-only)](../decks/plane-innistrad-the-gitrog-monster.md)
+- **Decks (2):** [Nahiri, the Lithomancer](../decks/lore-nahiri-the-lithomancer.md) · [The Gitrog Monster (Innistrad-only)](../decks/plane-innistrad-the-gitrog-monster.md)
 - **EDH guides (1):** [EDH Mana Bases → Land destruction / utility removal](../EDH%20Mana%20Bases.md#land-destruction--utility-removal)
 - **Card data (1):** [Artist Index → Artists P](../Artist%20Index.md#artists-p)
 

@@ -5,7 +5,7 @@ tags: [changelog]
 issues: []
 generated_by: hand-written
 sources: []
-related: ["Knowledge Index.md", "Contradictions & Retcons Log.md", "Front-Matter Schema.md", "Characters Index.md", "Conflicts & Arcs.md", "EDH Bracket Calibration.md"]
+related: ["Knowledge Index.md", "Front-Matter Schema.md", "Contradictions & Retcons Log.md", "EDH Deck Evaluation Checklist.md", "EDH Deck Template.md", "EDH Lore-Themed Deckbuilding.md"]
 schema: 2
 ---
 
@@ -14,6 +14,7 @@ schema: 2
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-15 — Bot cycle 23 (lore decks: 85% standard incl. lands)](#2026-10-15--bot-cycle-23-lore-decks-85-standard-incl-lands)
 - [2026-10-15 — Bot cycle 22 (Phase 6: primary-source ingestion & thin arcs)](#2026-10-15--bot-cycle-22-phase-6-primary-source-ingestion--thin-arcs)
 - [2026-10-15 — Bot cycle 21 (Phase 6: lore-themed deckbuilding)](#2026-10-15--bot-cycle-21-phase-6-lore-themed-deckbuilding)
 - [2026-10-15 — Bot cycle 20 (Phase 6: lore deepening — timeline & arcs, retcon log)](#2026-10-15--bot-cycle-20-phase-6-lore-deepening--timeline--arcs-retcon-log)
@@ -36,6 +37,14 @@ schema: 2
 - [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-15 — Bot cycle 23 (lore decks: 85% standard incl. lands)
+Cory's request (run before the planned lore cycle, now renumbered cycle 24); follows [#79](https://github.com/corymstover/GrokBotMTGCompanion/issues/79)–[#81](https://github.com/corymstover/GrokBotMTGCompanion/issues/81).
+
+- **Standard raised 60% → 85%** and re-based on **all non-basic cards**: commander + non-land cards + non-basic lands; basics excluded. Counting tests (facts): name, flavor text of any paper printing, story-set printing, or a note citing an official Wizards story page. Mechanical and type echoes are still shown but **no longer count** (guidance). Updated [EDH Lore-Themed Deckbuilding](EDH%20Lore-Themed%20Deckbuilding.md), [EDH Deck Template §8](EDH%20Deck%20Template.md#8-lore-themed-story-first-extension), [Gate L](EDH%20Deck%20Evaluation%20Checklist.md#gate-l--lore-themed-story-first).
+- `scripts/build_lore_decks.py`: new classifier, land-aware Lore score section, `--check` fails below 85%; new `validate_all` step **`lore`**; `front_matter.py` adds `lore_score` / `lore_standard_met` to `kind: lore` decks ([Front-Matter Schema](Front-Matter%20Schema.md)).
+- Decks rebuilt (Scryfall-verified; still valid, 37 lands, floor 2, 0 Game Changers, no two-card infinites): [Urza](decks/lore-brothers-war-urza-lord-high-artificer.md) 73.8% → **93.8%** (75/80; non-basic lands 17/17), 4 swaps incl. Mishra's Factory, Strip Mine, Tawnos's Coffin, Transmute Artifact. [Nahiri](decks/lore-nahiri-the-lithomancer.md) 64.5% → **86.8%** (66/76; lands 13/13), 15 swaps: Zendikar fetches, Evolving Wilds, Ghost Quarter, Tectonic Edge, Seraph Sanctuary, Everflowing Chalice, Journey to Nowhere, Emeria Shepherd and six story-set Equipment. (Old 60% measure had shown 73% / 76%.)
+- `validate_all.py` PASS. Grixis #63 remains ON HOLD.
 
 ## 2026-10-15 — Bot cycle 22 (Phase 6: primary-source ingestion & thin arcs)
 Issue [#73](https://github.com/corymstover/GrokBotMTGCompanion/issues/73) (P6.2), with [#72](https://github.com/corymstover/GrokBotMTGCompanion/issues/72) (arcs) and [#76](https://github.com/corymstover/GrokBotMTGCompanion/issues/76) (retcons); milestone 15.

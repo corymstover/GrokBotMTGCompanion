@@ -2189,7 +2189,7 @@ schema: 2
   > {T}, Pay 1 life, Sacrifice this land: Search your library for a Plains or Swamp card, put it onto the battlefield, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #51 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 28 pages (23 decks · 3 edh guides · 2 card data) → [reverse index](../../references/M.md#marsh-flats)
+- **Referenced in:** 29 pages (24 decks · 3 edh guides · 2 card data) → [reverse index](../../references/M.md#marsh-flats)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/248/marsh-flats) · oracle_id `dab520d0-20b4-4273-ba6b-eb07f85ea433` · printing: MH2 #248 (2021-06-18) · [rulings](https://api.scryfall.com/cards/9db3ba6d-eb7f-4f5b-9a3b-c6239c3baa42/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Marsh Flitter

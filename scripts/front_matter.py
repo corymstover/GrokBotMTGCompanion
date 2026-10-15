@@ -118,6 +118,8 @@ SCHEMA = {
         "tags": ("list of tags", True, "Computed: kind, identity name, `bracket-floor-N`, Game Changer and combo flags, plane/theme."),
         "plane": ("string", False, "Plane-restricted decks only."),
         "theme": ("string", False, "Theme decks only (EDHREC theme)."),
+        "lore_score": ("float 0–100", False, "Lore decks only (Bot cycle 23): % of non-basic cards (commander + non-lands + non-basic lands) that are story-linked."),
+        "lore_standard_met": ("bool", False, "Lore decks only: lore_score ≥ 85 (the Lore-Themed Deckbuilding standard; enforced by `build_lore_decks.py --check`)."),
         "source_repo": ("string", False, "Grixis decks only: the read-only source repository."),
         "schema": ("int", True, f"Front-matter schema version (currently {SCHEMA_VERSION})."),
     },
@@ -240,6 +242,9 @@ def deck_fields(path, body):
          "two_card_infinites": int(cb.group(2)) if cb else 0, "validated": "✅ **all checks pass**" in body}
     if kind == "plane":
         f["plane"] = path.stem.split("-")[1]
+    if kind == "lore":
+        ls = re.search(r"\*\*Story-linked: \d+ / \d+ non-basic cards \(([\d.]+)%\)\*\*", body)
+        f["lore_score"] = float(ls.group(1)) if ls else None
     if kind == "theme":
         m = re.search(r"— ([^—]+?) theme$", title)
         f["theme"] = slug(m.group(1)) if m else None
@@ -273,6 +278,9 @@ def deck_fm(path, body):
         lines.append(f"plane: {f['plane']}")
     if f["kind"] == "theme":
         lines.append(f"theme: {nv(f['theme'])}")
+    if f["kind"] == "lore":
+        lines.append(f"lore_score: {nv(f['lore_score'])}")
+        lines.append(f"lore_standard_met: {'true' if (f['lore_score'] or 0) >= 85 else 'false'}")
     if f["kind"] == "grixis":
         lines.append("source_repo: corymstover/grixis-commander-encyclopediaGPT")
     lines += [f"schema: {SCHEMA_VERSION}", "---", ""]

@@ -50,7 +50,7 @@ schema: 2
 | Conflicts & Arcs | 🟢 cycle 22 (Phase 6) | **28 arcs** with Cause · Key beats · Outcome · Lasting consequences (of 39 entries); cycle 22 primary-source pass on 14 post-2020 arcs |
 | Contradictions & Retcons Log | 🟢 cycle 22 | **11** cited entries (+6 in cycle 22) · 5 queued |
 | Lore Primary Sources | 🟢 cycle 22 (#73) | [538 fetched pages](Lore%20Primary%20Sources.md) incl. 60 Planeswalker's Guides; 14 arcs ✅, 5 recent arcs 📚 queued |
-| Lore-themed EDH decks | 🟢 cycle 21 | [Guide](EDH%20Lore-Themed%20Deckbuilding.md) · 2 decks (Urza Brothers' War 73%; Nahiri 76%); Gate L; `kind: lore` |
+| Lore-themed EDH decks | 🟢 cycle 23 | [Guide](EDH%20Lore-Themed%20Deckbuilding.md) · 2 decks at the **85% standard** (cycle 23, all non-basic cards incl. lands): Urza Brothers' War **93.8%**; Nahiri **86.8%**; Gate L; `kind: lore` + `lore_score` front matter |
 | Story Arc Summaries | ✅ Phase 2 done (cycles 7–8, #34) | **19 arcs and 135 cited beats** (was 7 / 52). Cycle 8 added BFZ/OGW, SOI/EMN, KLD/AER, AKH/HOU, DOM, WAR, WOE, LCI, DFT, EOE, ECL, SOS and RF, and folded ONE+MOM into one Phyrexia arc. Other pre-2022 arcs stay as entries in Conflicts & Arcs |
 | Planeswalker Dossiers | ✅ Phase 2 done (cycles 7–8, #35) | **21 dossiers** (was 13). Cycle 8 newly sourced the spark moments of Gideon, Sorin, Ugin and Bolas, plus Karn's partial (Venser's spark). Still ❓: Teferi, Kaya, Vraska, Tamiyo, Nahiri, Ral, Oko, Tezzeret, and Ajani's ignition scene |
 | Omenpath & Multiverse | 🟢 first pass (cycle 7, #36) | 5 definition facts, 5 known connections, 4 infrastructure items, 4 exceptions, 3 open ❓ |
@@ -110,5 +110,5 @@ schema: 2
 | Phase 4 — Structure & usability | ✅ closed (Bot cycle 14: #46; Bot cycle 15: #44, #45, #47) | `v1.8-cycle15-phase4-complete` |
 | Grixis integration (Bot cycle 16) | ✅ #59–#62 done; #63 (follow-ups) open | `v1.9-grixis-integration` |
 | Phase 5 — Optimization pass (Bot cycles 17–19) | ✅ closed (Bot cycle 17: #65, #67; Bot cycle 18: #66; Bot cycle 19: #68) | `v2.0-phase5-optimization` |
-| Phase 6 — Lore deepening sprint | 🟡 Bot cycle 20 arcs/timeline/retcons; cycle 21 lore deckbuilding (#79–#81); **cycle 22** primary-source pass (#73) | milestone 15 |
+| Phase 6 — Lore deepening sprint | 🟡 Bot cycle 20 arcs/timeline/retcons; cycle 21 lore deckbuilding (#79–#81); **cycle 22** primary-source pass (#73); **cycle 23** 85% lore-deck standard | milestone 15 |
 

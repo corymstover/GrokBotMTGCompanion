@@ -583,7 +583,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-12-08* — A noncreature permanent that becomes a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature. Notably, if you turn Mishra's Factory into a creature on the turn it entered the battlefield, you won't be able to then activate its first or last abilities.
   - *2022-12-08* — After it becomes a creature, Mishra's Factory will still have all its abilities.
-- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/M.md#mishras-factory)
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/M.md#mishras-factory)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/251/mishras-factory) · oracle_id `5963e0ef-e0bc-4611-ad4f-813a4c0eacfb` · printing: DMR #251 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mishra's Foundry

@@ -1679,9 +1679,9 @@ schema: 2
 
 ### Seraph Sanctuary
 
-[Card entry](../cards/S/ser.md#seraph-sanctuary) · **1 pages** (decks 1)
+[Card entry](../cards/S/ser.md#seraph-sanctuary) · **2 pages** (decks 2)
 
-- **Decks (1):** [Giada, Font of Hope](../decks/giada-font-of-hope.md)
+- **Decks (2):** [Giada, Font of Hope](../decks/giada-font-of-hope.md) · [Nahiri, the Lithomancer](../decks/lore-nahiri-the-lithomancer.md)
 
 ### Serpentine Spike
 
@@ -1918,9 +1918,9 @@ schema: 2
 
 ### Shadowspear
 
-[Card entry](../cards/S/sha.md#shadowspear) · **7 pages** (decks 4 · edh guides 1 · rules 1 · card data 1)
+[Card entry](../cards/S/sha.md#shadowspear) · **6 pages** (decks 3 · edh guides 1 · rules 1 · card data 1)
 
-- **Decks (4):** [Garza Zol, Plague Queen (Grixis)](../grixis/decks/garza-zol-plague-queen.md) · [Lord of Tresserhorn (Grixis)](../grixis/decks/lord-of-tresserhorn.md) · [Nahiri, the Lithomancer](../decks/lore-nahiri-the-lithomancer.md) · [Uro, Titan of Nature's Wrath (Theros-only)](../decks/plane-theros-uro-titan-of-natures-wrath.md)
+- **Decks (3):** [Garza Zol, Plague Queen (Grixis)](../grixis/decks/garza-zol-plague-queen.md) · [Lord of Tresserhorn (Grixis)](../grixis/decks/lord-of-tresserhorn.md) · [Uro, Titan of Nature's Wrath (Theros-only)](../decks/plane-theros-uro-titan-of-natures-wrath.md)
 - **EDH guides (1):** [EDH Packages → Voltron (equipment & auras): Evasion & double strike](../EDH%20Packages.md#voltron-equipment--auras-evasion--double-strike)
 - **Rules (1):** [Rules Interactions → Hexproof, shroud & ward](../Rules%20Interactions.md#hexproof-shroud--ward)
 - **Card data (1):** [Artist Index → Artists C](../Artist%20Index.md#artists-c) (+1 more)
@@ -5485,8 +5485,9 @@ schema: 2
 
 ### Strip Mine
 
-[Card entry](../cards/S/str.md#strip-mine) · **3 pages** (edh guides 1 · card data 2)
+[Card entry](../cards/S/str.md#strip-mine) · **4 pages** (decks 1 · edh guides 1 · card data 2)
 
+- **Decks (1):** [Urza, Lord High Artificer](../decks/lore-brothers-war-urza-lord-high-artificer.md)
 - **EDH guides (1):** [EDH Mana Bases → Land destruction / utility removal](../EDH%20Mana%20Bases.md#land-destruction--utility-removal)
 - **Card data (2):** [Artist Index → Artists D](../Artist%20Index.md#artists-d) (+1 more) · [Format Legality Matrix → legacy](../Format%20Legality%20Matrix.md#legacy) (+7 more)
 
@@ -6031,9 +6032,9 @@ schema: 2
 
 ### Sun Titan
 
-[Card entry](../cards/S/sun.md#sun-titan) · **9 pages** (decks 4 · edh guides 3 · rules 1 · card data 1)
+[Card entry](../cards/S/sun.md#sun-titan) · **8 pages** (decks 3 · edh guides 3 · rules 1 · card data 1)
 
-- **Decks (4):** [Brago, King Eternal](../decks/brago-king-eternal.md) · [Karador, Ghost Chieftain](../decks/karador-ghost-chieftain.md) · [Nahiri, the Lithomancer](../decks/lore-nahiri-the-lithomancer.md) · [Zur the Enchanter](../decks/zur-the-enchanter.md)
+- **Decks (3):** [Brago, King Eternal](../decks/brago-king-eternal.md) · [Karador, Ghost Chieftain](../decks/karador-ghost-chieftain.md) · [Zur the Enchanter](../decks/zur-the-enchanter.md)
 - **EDH guides (3):** [EDH Archetypes → Graveyard value / reanimator](../EDH%20Archetypes.md#graveyard-value--reanimator) · [EDH Standards → Blink on combat damage — Brago, King Eternal (WU, flicker)](../EDH%20Standards.md#blink-on-combat-damage--brago-king-eternal-wu-flicker) · [EDH Staples → Graveyard recursion](../EDH%20Staples.md#graveyard-recursion)
 - **Rules (1):** [Keyword Encyclopedia → Vigilance](../Keyword%20Encyclopedia.md#vigilance)
 - **Card data (1):** [Artist Index → Artists T](../Artist%20Index.md#artists-t)
@@ -6240,9 +6241,9 @@ schema: 2
 
 ### Swiftfoot Boots
 
-[Card entry](../cards/S/sw.md#swiftfoot-boots) · **32 pages** (decks 25 · edh guides 4 · rules 1 · card data 2)
+[Card entry](../cards/S/sw.md#swiftfoot-boots) · **31 pages** (decks 24 · edh guides 4 · rules 1 · card data 2)
 
-- **Decks (25):** [Animar, Soul of Elements](../decks/animar-soul-of-elements.md) · [Brago, King Eternal](../decks/brago-king-eternal.md) · [Crosis, the Purger (Grixis)](../grixis/decks/crosis-the-purger.md) · [Cult of Skaro (Grixis)](../grixis/decks/cult-of-skaro.md) · [Davros, Dalek Creator (Grixis)](../grixis/decks/davros-dalek-creator.md) · [Feather, the Redeemed](../decks/feather-the-redeemed.md) · [Garza Zol, Plague Queen (Grixis)](../grixis/decks/garza-zol-plague-queen.md) · [Giada, Font of Hope](../decks/giada-font-of-hope.md) · [Korvold, Fae-Cursed King](../decks/korvold-fae-cursed-king.md) · [Kozilek, the Great Distortion](../decks/kozilek-the-great-distortion.md) · [Krenko, Mob Boss](../decks/krenko-mob-boss.md) · [Lathril, Blade of the Elves](../decks/lathril-blade-of-the-elves.md) · [Loki, the Deceiver (Grixis)](../grixis/decks/loki-the-deceiver.md) · [Lord of Tresserhorn (Grixis)](../grixis/decks/lord-of-tresserhorn.md) · [Muldrotha, the Gravetide](../decks/muldrotha-the-gravetide.md) · [Muldrotha, the Gravetide (self mill theme)](../decks/theme-muldrotha-the-gravetide-self-mill.md) · [Nahiri, the Lithomancer](../decks/lore-nahiri-the-lithomancer.md) · [Nathan Drake, Treasure Hunter (Grixis)](../grixis/decks/nathan-drake-treasure-hunter.md) · [Nekusar, the Mindrazer](../decks/nekusar-the-mindrazer.md) · [Niv-Mizzet, Parun](../decks/niv-mizzet-parun.md) · [Prosper, Tome-Bound](../decks/prosper-tome-bound.md) · [Saskia the Unyielding](../decks/saskia-the-unyielding.md) · [Selvala, Heart of the Wilds](../decks/selvala-heart-of-the-wilds.md) · [Yidris, Maelstrom Wielder](../decks/yidris-maelstrom-wielder.md) · [Zur the Enchanter](../decks/zur-the-enchanter.md)
+- **Decks (24):** [Animar, Soul of Elements](../decks/animar-soul-of-elements.md) · [Brago, King Eternal](../decks/brago-king-eternal.md) · [Crosis, the Purger (Grixis)](../grixis/decks/crosis-the-purger.md) · [Cult of Skaro (Grixis)](../grixis/decks/cult-of-skaro.md) · [Davros, Dalek Creator (Grixis)](../grixis/decks/davros-dalek-creator.md) · [Feather, the Redeemed](../decks/feather-the-redeemed.md) · [Garza Zol, Plague Queen (Grixis)](../grixis/decks/garza-zol-plague-queen.md) · [Giada, Font of Hope](../decks/giada-font-of-hope.md) · [Korvold, Fae-Cursed King](../decks/korvold-fae-cursed-king.md) · [Kozilek, the Great Distortion](../decks/kozilek-the-great-distortion.md) · [Krenko, Mob Boss](../decks/krenko-mob-boss.md) · [Lathril, Blade of the Elves](../decks/lathril-blade-of-the-elves.md) · [Loki, the Deceiver (Grixis)](../grixis/decks/loki-the-deceiver.md) · [Lord of Tresserhorn (Grixis)](../grixis/decks/lord-of-tresserhorn.md) · [Muldrotha, the Gravetide](../decks/muldrotha-the-gravetide.md) · [Muldrotha, the Gravetide (self mill theme)](../decks/theme-muldrotha-the-gravetide-self-mill.md) · [Nathan Drake, Treasure Hunter (Grixis)](../grixis/decks/nathan-drake-treasure-hunter.md) · [Nekusar, the Mindrazer](../decks/nekusar-the-mindrazer.md) · [Niv-Mizzet, Parun](../decks/niv-mizzet-parun.md) · [Prosper, Tome-Bound](../decks/prosper-tome-bound.md) · [Saskia the Unyielding](../decks/saskia-the-unyielding.md) · [Selvala, Heart of the Wilds](../decks/selvala-heart-of-the-wilds.md) · [Yidris, Maelstrom Wielder](../decks/yidris-maelstrom-wielder.md) · [Zur the Enchanter](../decks/zur-the-enchanter.md)
 - **EDH guides (4):** [EDH Archetypes → Blink / flicker](../EDH%20Archetypes.md#blink--flicker) (+1 more) · [EDH Packages → Voltron (equipment & auras): Protective equipment/auras](../EDH%20Packages.md#voltron-equipment--auras-protective-equipmentauras) · [EDH Staples → Colorless](../EDH%20Staples.md#colorless) (+1 more) · [Grixis Packages → Protection](../grixis/Grixis%20Packages.md#protection)
 - **Rules (1):** [Keyword Encyclopedia → Equip](../Keyword%20Encyclopedia.md#equip)
 - **Card data (2):** [Artist Index → Most prolific artists](../Artist%20Index.md#most-prolific-artists) (+9 more) · [Printing History → Most-printed cards](../Printing%20History.md#most-printed-cards)
