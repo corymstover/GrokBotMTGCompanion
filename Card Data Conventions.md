@@ -39,6 +39,7 @@ data/priority_cards.txt                        names ingested before the rank qu
 data/categories.json                           curated category trackers (shown in Card Index)
 ```
 - Every shard starts with YAML front-matter (`kind: shard`, `prefix`, `cards`, `bulk`; Bot cycle 17, see [Front-Matter Schema](Front-Matter%20Schema.md#card-shard-keys)), written by `scripts/front_matter.py`, which `ingest_scryfall.py` calls after each render.
+- A card cited by any page gets one **Referenced in** line (Bot cycle 18, #66) just before *Source flags*: page count by kind and a link to its section in the [reverse card index](references/README.md). The line is rendered by `ingest_scryfall.py` from `data/card_refs.json` and refreshed by `scripts/build_crossrefs.py`; the full list lives in `references/` so shards stay lean.
 - Shard key = card name with accents stripped and all non-alphanumerics removed, lower-cased (*Æther Vial* → `aethervial`; *Rogue's Passage* → `roguespassage`).
 - Prefix = first **2** characters, deepened to 3, 4 or 5 characters when that prefix would hold more than **350** cards across the *full* universe (so `ma` → `mag`, `mal` …; `th` → `tha`, `thea` …). Because the depth is computed from the whole universe, not from what is ingested, **a card's shard never moves** as coverage grows.
 - The exact file for every card is in `data/card_index.csv` (`shard` + `anchor` columns) and the per-letter table in [Card Index](Card%20Index.md#shards-by-letter).

@@ -12,13 +12,14 @@ schema: 2
 # Front-Matter Schema
 
 > **Auto-generated** by `scripts/front_matter.py` (Bot cycle 17, issue [#65](https://github.com/corymstover/GrokBotMTGCompanion/issues/65)) from the `SCHEMA` and `PAGES` tables in the script, so this page cannot drift from what `--check` enforces. Schema version **2**. Do not hand-edit.
-> Coverage: **46** pages (incl. README/GOAL exempt: 2), **86** decks, **684** card shards. Related: [Lookup Guide](Lookup%20Guide.md) · [Knowledge Index](Knowledge%20Index.md) · [Card Data Conventions](Card%20Data%20Conventions.md).
+> Coverage: **45** registered pages (README.md and GOAL.md are exempt), **86** decks, **684** card shards, **28** reverse-index pages. Related: [Lookup Guide](Lookup%20Guide.md) · [Knowledge Index](Knowledge%20Index.md) · [Card Data Conventions](Card%20Data%20Conventions.md).
 
 ## Contents
 - [Format](#format)
 - [Page keys](#page-keys)
 - [Deck keys](#deck-keys)
 - [Card-shard keys](#card-shard-keys)
+- [Reverse-index keys](#reverse-index-keys)
 - [Source keys](#source-keys)
 - [Tag vocabulary](#tag-vocabulary)
 - [Validation rules](#validation-rules)
@@ -73,6 +74,19 @@ Every entry starts with a YAML block between `---` lines. Values are flat: strin
 | `bulk` | date | yes | Scryfall Oracle bulk date the entries were rendered from. |
 | `generated_by` | `scripts/ingest_scryfall.py` | yes | Shards are never hand-edited. |
 | `tags` | list of tags | yes | Always `[card-entries, oracle, rulings]`. |
+| `schema` | int | yes | Front-matter schema version (currently 2). |
+
+## Reverse-index keys
+
+| Key | Type | Required | Meaning |
+|---|---|---|---|
+| `title` | string | yes | The page's H1 (`Reverse card index — L`). |
+| `category` | `cards` | yes | Always `cards`. |
+| `kind` | `reference` | yes | Always `reference`. |
+| `letter` | string | yes | Card-shard letter folder the page mirrors (`index` for references/README.md). |
+| `cards` | int | yes | Number of cited cards listed on the page. |
+| `generated_by` | `scripts/build_crossrefs.py` | yes | Never hand-edited. |
+| `tags` | list of tags | yes | Always `[reverse-index, cross-references]`. |
 | `schema` | int | yes | Front-matter schema version (currently 2). |
 
 Example (deck):
