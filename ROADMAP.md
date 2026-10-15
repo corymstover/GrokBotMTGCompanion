@@ -35,7 +35,7 @@ Phase 4 — Structure & usability
 
 Rules: well-structured, cross-referenced, source-noted, no redundancy; official sources first (Scryfall, magic.wizards.com, Comprehensive Rules); flag non-canonical/uncertain; maintain README, Progress Tracker, issues/milestones; chain cycles continuously, stop only for genuine blockers.
 
-## Tracking (Bot cycle 6; updated Bot cycle 11)
+## Tracking (Bot cycle 6; updated Bot cycle 12)
 
 | Phase | Issue | Item | Status | Output |
 |---|---|---|---|---|
@@ -56,7 +56,7 @@ Rules: well-structured, cross-referenced, source-noted, no redundancy; official 
 | Phase 3 | [#39](https://github.com/corymstover/GrokBotMTGCompanion/issues/39) | Keyword & ability encyclopedia (evergreen and set-specific) with examples and ruling links | ✅ Bot cycle 9: 264 entries + 44 status labels + 217 ruling excerpts | [Keyword Encyclopedia](Keyword%20Encyclopedia.md) |
 | Phase 3 | [#40](https://github.com/corymstover/GrokBotMTGCompanion/issues/40) | Reprint & set-history notes per card where useful | ✅ Bot cycle 10: CSV + Printing History.md | [Printing History](Printing%20History.md) |
 | Phase 3 | [#41](https://github.com/corymstover/GrokBotMTGCompanion/issues/41) | Format legality matrix beyond Commander | ✅ Bot cycle 11: CSV + Format Legality Matrix.md | [Format Legality Matrix](Format%20Legality%20Matrix.md) |
-| Phase 3 | [#42](https://github.com/corymstover/GrokBotMTGCompanion/issues/42) | Structured token, emblem, and dungeon/adventure data | ⏳ open | — |
+| Phase 3 | [#42](https://github.com/corymstover/GrokBotMTGCompanion/issues/42) | Structured token, emblem, and dungeon/adventure data | ✅ Bot cycle 12: tokens.json + Tokens, Emblems & Dungeons.md | [Tokens, Emblems & Dungeons](Tokens%2C%20Emblems%20%26%20Dungeons.md) |
 | Phase 3 | [#43](https://github.com/corymstover/GrokBotMTGCompanion/issues/43) | Artist / art-credit index | ⏳ open | — |
 | Phase 4 | [#44](https://github.com/corymstover/GrokBotMTGCompanion/issues/44) | Consistent tagging or YAML front-matter on major entries for easier filtering | ⏳ open | — |
 | Phase 4 | [#45](https://github.com/corymstover/GrokBotMTGCompanion/issues/45) | Central FAQ for common lore and rules questions with internal links | ⏳ open | — |

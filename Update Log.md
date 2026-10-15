@@ -3,6 +3,7 @@
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-15 — Bot cycle 12 (Phase 3: Tokens, Emblems & Dungeons)](#2026-10-15--bot-cycle-12-phase-3-tokens-emblems--dungeons)
 - [2026-10-15 — Bot cycle 11 (Phase 3: Format Legality Matrix)](#2026-10-15--bot-cycle-11-phase-3-format-legality-matrix)
 - [2026-10-15 — Bot cycle 10 (Phase 3: Printing History)](#2026-10-15--bot-cycle-10-phase-3-printing-history)
 - [2026-10-15 — Bot cycle 9 (Phase 3: Keyword Encyclopedia complete)](#2026-10-15--bot-cycle-9-phase-3-keyword-encyclopedia-complete)
@@ -14,6 +15,15 @@
 - [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-15 — Bot cycle 12 (Phase 3: Tokens, Emblems & Dungeons)
+
+> All entries in this section are **Bot cycle 12** (Grok Bot) changes, on branch `bot-cycle12`.
+
+| # | Summary | Files affected | Reason |
+|---|---|---|---|
+| 12.1 | Bot cycle 12: **Tokens, Emblems & Dungeons** for [#42](https://github.com/corymstover/GrokBotMTGCompanion/issues/42). Structured `data/tokens.json` plus Markdown tables: 780 creature tokens, 133 noncreature tokens, 89 emblems, 5 dungeons, and 159 adventurer cards (real cards, CR 715). Marked 🚫 not cards where they cannot go in a deck (CR 111.1, 114.1, 309.2). Creators linked via Scryfall `all_parts`. | `Tokens, Emblems & Dungeons.md`, `data/tokens.json`, `scripts/build_tokens.py` | #42 |
+| 12.2 | Bot cycle 12: README, Progress Tracker, Knowledge Index, ROADMAP, Update Log (#42 ✅; Phase 3 left with #43). | `README.md`, `Progress Tracker.md`, `Knowledge Index.md`, `ROADMAP.md`, `Update Log.md` | docs |
 
 ## 2026-10-15 — Bot cycle 11 (Phase 3: Format Legality Matrix)
 
