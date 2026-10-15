@@ -6,8 +6,12 @@ commander: "Lord of Tresserhorn"
 color_identity: UBR
 bracket_floor: 3
 game_changers: 2
+combos: 19
+two_card_infinites: 1
 validated: true
+tags: [grixis, grixis, bracket-floor-3, game-changers, two-card-infinite]
 source_repo: corymstover/grixis-commander-encyclopediaGPT
+schema: 2
 ---
 
 # Grixis Deck — Lord of Tresserhorn

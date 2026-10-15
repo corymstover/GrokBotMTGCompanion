@@ -3,10 +3,14 @@ title: "Deck Skeleton — Kykar, Wind's Fury"
 category: deck
 kind: core
 commander: "Kykar, Wind's Fury"
-color_identity: RUW
+color_identity: WUR
 bracket_floor: 4
 game_changers: 6
+combos: 0
+two_card_infinites: 0
 validated: true
+tags: [core, jeskai, bracket-floor-4, game-changers]
+schema: 2
 ---
 
 # Deck Skeleton — Kykar, Wind's Fury

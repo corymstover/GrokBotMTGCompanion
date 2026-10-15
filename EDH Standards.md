@@ -5,6 +5,8 @@ tags: [deckbuilding-rules, color-identity, brackets]
 issues: [6]
 generated_by: hand-written
 sources: [cr, wotc-articles]
+related: ["grixis/Grixis Corrections.md", "EDH Archetypes.md", "EDH Staples.md", "EDH Deck Template.md", "EDH Deck Evaluation Checklist.md", "EDH Win Conditions.md"]
+schema: 2
 ---
 
 # EDH Standards

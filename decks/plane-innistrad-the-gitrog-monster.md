@@ -6,8 +6,12 @@ commander: "The Gitrog Monster"
 color_identity: BG
 bracket_floor: 2
 game_changers: 0
+combos: 0
+two_card_infinites: 0
 validated: true
+tags: [plane, golgari, bracket-floor-2, no-game-changers, plane-innistrad]
 plane: innistrad
+schema: 2
 ---
 
 # Deck Skeleton — The Gitrog Monster — Innistrad-only

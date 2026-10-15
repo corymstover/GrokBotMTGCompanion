@@ -5,6 +5,8 @@ tags: [template, blueprint, swap-ledger, methodology]
 issues: [62]
 generated_by: hand-written
 sources: [grixis-repo, cr]
+related: ["EDH Deck Evaluation Checklist.md", "EDH Standards.md", "grixis/README.md", "EDH Win Conditions.md", "grixis/Grixis Packages.md"]
+schema: 2
 ---
 
 # EDH Deck Template

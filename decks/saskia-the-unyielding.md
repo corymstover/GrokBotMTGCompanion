@@ -3,10 +3,14 @@ title: "Deck Skeleton — Saskia the Unyielding"
 category: deck
 kind: core
 commander: "Saskia the Unyielding"
-color_identity: BGRW
+color_identity: WBRG
 bracket_floor: 3
 game_changers: 1
+combos: 0
+two_card_infinites: 0
 validated: true
+tags: [core, dune, bracket-floor-3, game-changers]
+schema: 2
 ---
 
 # Deck Skeleton — Saskia the Unyielding

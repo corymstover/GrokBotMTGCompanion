@@ -5,6 +5,8 @@ tags: [arcs, story-beats]
 issues: [34]
 generated_by: hand-written
 sources: [wizards-story]
+related: ["Conflicts & Arcs.md", "Art & Flavor Story Links.md", "Omenpath & Multiverse Connections.md", "Side-Media Index.md", "Characters Index.md", "Planes Index.md"]
+schema: 2
 ---
 
 # Story Arc Summaries

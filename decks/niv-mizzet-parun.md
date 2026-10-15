@@ -3,10 +3,14 @@ title: "Deck Skeleton — Niv-Mizzet, Parun"
 category: deck
 kind: core
 commander: "Niv-Mizzet, Parun"
-color_identity: RU
+color_identity: UR
 bracket_floor: 4
 game_changers: 4
+combos: 8
+two_card_infinites: 8
 validated: true
+tags: [core, izzet, bracket-floor-4, game-changers, two-card-infinite]
+schema: 2
 ---
 
 # Deck Skeleton — Niv-Mizzet, Parun

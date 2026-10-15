@@ -6,7 +6,11 @@ commander: "Selvala, Heart of the Wilds"
 color_identity: G
 bracket_floor: 3
 game_changers: 2
+combos: 27
+two_card_infinites: 9
 validated: true
+tags: [core, mono-green, bracket-floor-3, game-changers, two-card-infinite]
+schema: 2
 ---
 
 # Deck Skeleton — Selvala, Heart of the Wilds

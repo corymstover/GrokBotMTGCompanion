@@ -5,6 +5,8 @@ tags: [printings, reprints, reserved-list]
 issues: [40]
 generated_by: scripts/build_printings.py
 sources: [scryfall, wotc-articles]
+related: []
+schema: 2
 ---
 
 # Printing History

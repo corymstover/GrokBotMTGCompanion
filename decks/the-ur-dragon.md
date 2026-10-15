@@ -3,10 +3,14 @@ title: "Deck Skeleton — The Ur-Dragon"
 category: deck
 kind: core
 commander: "The Ur-Dragon"
-color_identity: BGRUW
+color_identity: WUBRG
 bracket_floor: 3
 game_changers: 3
+combos: 2
+two_card_infinites: 1
 validated: true
+tags: [core, five-color, bracket-floor-3, game-changers, two-card-infinite]
+schema: 2
 ---
 
 # Deck Skeleton — The Ur-Dragon

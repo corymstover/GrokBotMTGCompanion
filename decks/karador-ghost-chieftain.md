@@ -3,10 +3,14 @@ title: "Deck Skeleton — Karador, Ghost Chieftain"
 category: deck
 kind: core
 commander: "Karador, Ghost Chieftain"
-color_identity: BGW
+color_identity: WBG
 bracket_floor: 2
 game_changers: 0
+combos: 14
+two_card_infinites: 0
 validated: true
+tags: [core, abzan, bracket-floor-2, no-game-changers, combos]
+schema: 2
 ---
 
 # Deck Skeleton — Karador, Ghost Chieftain

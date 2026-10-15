@@ -3,10 +3,14 @@ title: "Deck Skeleton — Chulane, Teller of Tales"
 category: deck
 kind: core
 commander: "Chulane, Teller of Tales"
-color_identity: GUW
+color_identity: WUG
 bracket_floor: 4
 game_changers: 6
+combos: 8
+two_card_infinites: 3
 validated: true
+tags: [core, bant, bracket-floor-4, game-changers, two-card-infinite]
+schema: 2
 ---
 
 # Deck Skeleton — Chulane, Teller of Tales

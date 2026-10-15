@@ -3,10 +3,14 @@ title: "Deck Skeleton — Yuriko, the Tiger's Shadow"
 category: deck
 kind: core
 commander: "Yuriko, the Tiger's Shadow"
-color_identity: BU
+color_identity: UB
 bracket_floor: 4
 game_changers: 4
+combos: 0
+two_card_infinites: 0
 validated: true
+tags: [core, dimir, bracket-floor-4, game-changers]
+schema: 2
 ---
 
 # Deck Skeleton — Yuriko, the Tiger's Shadow

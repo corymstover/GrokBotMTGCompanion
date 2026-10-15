@@ -6,8 +6,12 @@ commander: "Braids, Arisen Nightmare"
 color_identity: B
 bracket_floor: 3
 game_changers: 0
+combos: 1
+two_card_infinites: 1
 validated: true
+tags: [plane, mono-black, bracket-floor-3, no-game-changers, two-card-infinite, plane-dominaria]
 plane: dominaria
+schema: 2
 ---
 
 # Deck Skeleton — Braids, Arisen Nightmare — Dominaria-only

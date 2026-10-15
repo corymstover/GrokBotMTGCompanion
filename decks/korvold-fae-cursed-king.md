@@ -3,10 +3,14 @@ title: "Deck Skeleton — Korvold, Fae-Cursed King"
 category: deck
 kind: core
 commander: "Korvold, Fae-Cursed King"
-color_identity: BGR
+color_identity: BRG
 bracket_floor: 4
 game_changers: 4
+combos: 11
+two_card_infinites: 1
 validated: true
+tags: [core, jund, bracket-floor-4, game-changers, two-card-infinite]
+schema: 2
 ---
 
 # Deck Skeleton — Korvold, Fae-Cursed King

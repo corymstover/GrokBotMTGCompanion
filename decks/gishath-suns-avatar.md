@@ -3,10 +3,14 @@ title: "Deck Skeleton — Gishath, Sun's Avatar"
 category: deck
 kind: core
 commander: "Gishath, Sun's Avatar"
-color_identity: GRW
+color_identity: WRG
 bracket_floor: 3
 game_changers: 0
+combos: 3
+two_card_infinites: 1
 validated: true
+tags: [core, naya, bracket-floor-3, no-game-changers, two-card-infinite]
+schema: 2
 ---
 
 # Deck Skeleton — Gishath, Sun's Avatar

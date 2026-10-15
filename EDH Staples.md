@@ -5,6 +5,8 @@ tags: [staples, color-identity]
 issues: []
 generated_by: scripts/build_staples.py
 sources: [scryfall, edhrec]
+related: ["EDH Archetypes.md", "EDH Standards.md", "Card Index.md", "EDH Mana Bases.md", "EDH Packages.md"]
+schema: 2
 ---
 
 # EDH Staples

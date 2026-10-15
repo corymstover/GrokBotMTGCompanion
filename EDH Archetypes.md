@@ -5,6 +5,8 @@ tags: [archetypes, strategy]
 issues: [16, 19]
 generated_by: scripts/build_archetypes.py
 sources: [scryfall, edhrec, spellbook]
+related: ["EDH Standards.md", "Rules Interactions.md", "EDH Mulligans.md", "EDH Staples.md", "EDH Packages.md", "EDH Win Conditions.md"]
+schema: 2
 ---
 
 # EDH Archetypes

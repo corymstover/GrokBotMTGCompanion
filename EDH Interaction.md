@@ -5,6 +5,8 @@ tags: [removal, interaction, stax]
 issues: [28]
 generated_by: scripts/build_interaction.py
 sources: [scryfall, edhrec]
+related: ["EDH Packages.md", "EDH Standards.md", "EDH Win Conditions.md", "Rules Interactions.md", "cEDH Primer.md"]
+schema: 2
 ---
 
 # EDH Interaction

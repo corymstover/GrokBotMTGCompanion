@@ -5,6 +5,8 @@ tags: [grixis, decks, index]
 issues: [59, 60, 61]
 generated_by: scripts/build_grixis.py
 sources: [grixis-repo, scryfall, spellbook]
+related: ["grixis/Grixis Evaluation.md", "EDH Deck Template.md", "EDH Standards.md", "grixis/Grixis Corrections.md", "grixis/Grixis Packages.md", "EDH Deck Evaluation Checklist.md"]
+schema: 2
 ---
 
 # Grixis (U/B/R) Commander

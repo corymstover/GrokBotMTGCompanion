@@ -3,10 +3,14 @@ title: "Deck Skeleton — Kynaios and Tiro of Meletis"
 category: deck
 kind: core
 commander: "Kynaios and Tiro of Meletis"
-color_identity: GRUW
+color_identity: WURG
 bracket_floor: 3
 game_changers: 1
+combos: 0
+two_card_infinites: 0
 validated: true
+tags: [core, ink, bracket-floor-3, game-changers]
+schema: 2
 ---
 
 # Deck Skeleton — Kynaios and Tiro of Meletis

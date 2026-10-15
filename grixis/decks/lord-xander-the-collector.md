@@ -6,8 +6,12 @@ commander: "Lord Xander, the Collector"
 color_identity: UBR
 bracket_floor: 4
 game_changers: 20
+combos: 11
+two_card_infinites: 7
 validated: true
+tags: [grixis, grixis, bracket-floor-4, game-changers, two-card-infinite]
 source_repo: corymstover/grixis-commander-encyclopediaGPT
+schema: 2
 ---
 
 # Grixis Deck — Lord Xander, the Collector

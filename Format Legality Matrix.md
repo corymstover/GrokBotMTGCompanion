@@ -5,6 +5,8 @@ tags: [legality, formats, banned-restricted]
 issues: [41]
 generated_by: scripts/build_legality.py
 sources: [scryfall, wotc-articles]
+related: ["EDH Standards.md"]
+schema: 2
 ---
 
 # Format Legality Matrix

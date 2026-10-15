@@ -6,7 +6,11 @@ commander: "Kozilek, the Great Distortion"
 color_identity: C
 bracket_floor: 3
 game_changers: 1
+combos: 1
+two_card_infinites: 1
 validated: true
+tags: [core, colorless, bracket-floor-3, game-changers, two-card-infinite]
+schema: 2
 ---
 
 # Deck Skeleton — Kozilek, the Great Distortion

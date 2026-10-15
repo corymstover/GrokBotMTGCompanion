@@ -5,6 +5,8 @@ tags: [grixis, packages, rules-insights]
 issues: [61]
 generated_by: scripts/build_grixis.py
 sources: [grixis-repo, scryfall, cr]
+related: ["grixis/README.md", "EDH Deck Evaluation Checklist.md", "EDH Deck Template.md", "EDH Packages.md"]
+schema: 2
 ---
 
 # Grixis Packages

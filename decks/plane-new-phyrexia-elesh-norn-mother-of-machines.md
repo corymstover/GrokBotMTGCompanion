@@ -6,8 +6,12 @@ commander: "Elesh Norn, Mother of Machines"
 color_identity: W
 bracket_floor: 3
 game_changers: 1
+combos: 0
+two_card_infinites: 0
 validated: true
+tags: [plane, mono-white, bracket-floor-3, game-changers, plane-new]
 plane: new
+schema: 2
 ---
 
 # Deck Skeleton — Elesh Norn, Mother of Machines — Mirrodin/New Phyrexia-only

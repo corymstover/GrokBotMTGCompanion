@@ -3,10 +3,14 @@ title: "Deck Skeleton — Muldrotha, the Gravetide"
 category: deck
 kind: core
 commander: "Muldrotha, the Gravetide"
-color_identity: BGU
+color_identity: UBG
 bracket_floor: 3
 game_changers: 1
+combos: 1
+two_card_infinites: 0
 validated: true
+tags: [core, sultai, bracket-floor-3, game-changers, combos]
+schema: 2
 ---
 
 # Deck Skeleton — Muldrotha, the Gravetide

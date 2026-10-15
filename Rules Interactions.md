@@ -5,6 +5,8 @@ tags: [rules, interactions, rulings]
 issues: [9]
 generated_by: scripts/build_rules_interactions.py
 sources: [cr, scryfall]
+related: ["EDH Archetypes.md", "EDH Win Conditions.md", "EDH Pairings.md", "EDH Packages.md", "EDH Interaction.md", "cEDH Primer.md"]
+schema: 2
 ---
 
 # Rules Interactions

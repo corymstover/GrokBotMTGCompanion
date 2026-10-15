@@ -3,11 +3,15 @@ title: "Deck Skeleton — Atarka, World Render — Tarkir-only"
 category: deck
 kind: plane
 commander: "Atarka, World Render"
-color_identity: GR
+color_identity: RG
 bracket_floor: 2
 game_changers: 0
+combos: 0
+two_card_infinites: 0
 validated: true
+tags: [plane, gruul, bracket-floor-2, no-game-changers, plane-tarkir]
 plane: tarkir
+schema: 2
 ---
 
 # Deck Skeleton — Atarka, World Render — Tarkir-only

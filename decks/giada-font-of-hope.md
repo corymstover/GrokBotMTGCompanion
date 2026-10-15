@@ -6,7 +6,11 @@ commander: "Giada, Font of Hope"
 color_identity: W
 bracket_floor: 3
 game_changers: 3
+combos: 0
+two_card_infinites: 0
 validated: true
+tags: [core, mono-white, bracket-floor-3, game-changers]
+schema: 2
 ---
 
 # Deck Skeleton — Giada, Font of Hope

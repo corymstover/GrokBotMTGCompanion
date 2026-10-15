@@ -5,6 +5,8 @@ tags: [lookup, retrieval]
 issues: [46]
 generated_by: hand-written
 sources: []
+related: ["Front-Matter Schema.md", "FAQ.md", "Format Legality Matrix.md", "Knowledge Index.md", "ROADMAP.md", "Art & Flavor Story Links.md"]
+schema: 2
 ---
 
 # Lookup Guide
@@ -17,6 +19,8 @@ sources: []
 - [Commander / EDH](#commander--edh)
 - [Lore](#lore)
 - [Filtering by front-matter](#filtering-by-front-matter)
+- [Retrieval index (kb_find)](#retrieval-index-kb_find)
+- [Validating the knowledge base](#validating-the-knowledge-base)
 - [Answering a question: which source wins](#answering-a-question-which-source-wins)
 
 ## Cards
@@ -75,11 +79,30 @@ Every major page and every deck starts with YAML front-matter (Bot cycle 15, [#4
 | Pages for an issue | `rg -l '^issues: .*\b39\b' *.md` |
 | Decks at bracket 4 or more | `rg -l '^bracket_floor: [45]' decks/` |
 | Decks with no Game Changers | `rg -l '^game_changers: 0$' decks/` |
-| Decks for a color identity (e.g. Sultai) | `rg -l '^color_identity: BGU$' decks/` |
+| Decks for a color identity (e.g. Sultai; always WUBRG order since Bot cycle 17) | `rg -l '^color_identity: UBG$' decks/ grixis/decks/` |
+| Decks with a two-card infinite | `rg -l '^tags: .*two-card-infinite' decks/ grixis/decks/` |
+| Card shards built from an older bulk | `rg -L '^bulk: 2026-10-15' -g '*.md' cards/` |
 | Plane-restricted decks | `rg '^plane: ' decks/` |
 | Grixis decks at the bracket floor 3 | `rg -l '^bracket_floor: 3' grixis/decks/` |
 
+Every key, type and tag is documented in [Front-Matter Schema](Front-Matter%20Schema.md) (schema v2, Bot cycle 17, [#65](https://github.com/corymstover/GrokBotMTGCompanion/issues/65)), which the script generates from the same table `--check` enforces. Card shards carry front-matter too (`kind: shard`, `prefix`, `cards`, `bulk`).
+
 After running any generator, re-apply with `python3 scripts/front_matter.py`. `--check` fails if any page or deck is missing front-matter or has a stale value.
+
+## Retrieval index (kb_find)
+`data/kb_index.json` lists every page and deck with its front-matter and every `##`/`###` heading with its anchor (Bot cycle 17, [#65](https://github.com/corymstover/GrokBotMTGCompanion/issues/65)). `scripts/kb_find.py` ranks entries by title, tag, commander and heading matches, and also returns the card entry when the query is an exact card name.
+
+| I want… | Command |
+|---|---|
+| Where a topic is covered, down to the section | `python3 scripts/kb_find.py commander damage` |
+| Only rules pages | `python3 scripts/kb_find.py layers --category rules` |
+| Everything with a tag | `python3 scripts/kb_find.py --tag two-card-infinite` |
+| A card entry by exact name | `python3 scripts/kb_find.py "Sol Ring"` |
+
+Rebuild after editing pages: `python3 scripts/kb_find.py --build` (`validate_all.py` fails while it is stale).
+
+## Validating the knowledge base
+`python3 scripts/validate_all.py` runs every check in one go (Bot cycle 17, [#67](https://github.com/corymstover/GrokBotMTGCompanion/issues/67)): links and anchors, front-matter schema, retrieval-index freshness, citations (every Wizards URL is in the official sitemap, resolves, or is a resolving Internet Archive copy; every `CR nnn.nx` rule number exists in the cached Comprehensive Rules), Oracle drift (every card entry verbatim vs the Scryfall bulk), deck re-checks (legality, identity, 100 cards, singleton, Game Changer count still matches Scryfall), and generator freshness. Default is offline; `--online` re-checks citations live and verifies against Scryfall's newest bulk; `--only` / `--skip` take step names.
 
 ## Answering a question: which source wins
 1. **Card text and legality:** the card entry and the legality matrix (Scryfall bulk, checked by `scripts/verify_cards.py`). Re-check B&R after announcements ([#17](https://github.com/corymstover/GrokBotMTGCompanion/issues/17)).

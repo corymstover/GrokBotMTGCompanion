@@ -5,6 +5,8 @@ tags: [index, maintenance]
 issues: []
 generated_by: hand-written
 sources: []
+related: ["Front-Matter Schema.md", "Update Log.md", "Card Data Conventions.md", "Conflicts & Arcs.md", "EDH Staples.md", "Lookup Guide.md"]
+schema: 2
 ---
 
 # Knowledge Index
@@ -40,7 +42,9 @@ sources: []
 | [Keyword Encyclopedia.md](Keyword%20Encyclopedia.md) | Generated (`scripts/build_keywords.py`, Bot cycles 8–9, #39): every CR 702 keyword ability and CR 701 keyword action, with the verbatim definition, sourced evergreen/deciduous/retired status (official articles only), card counts, earliest printing, Commander-legal examples and verbatim ruling excerpts. |
 | [FAQ.md](FAQ.md) | Bot cycle 15 (#45): common lore, rules, Commander and card questions, each answered briefly with links to the cited page. |
 | [Knowledge Snapshots.md](Knowledge%20Snapshots.md) | Bot cycle 15 (#47): when to tag, every tag with its commit and contents, and how to use a snapshot. |
-| [scripts/front_matter.py](scripts/front_matter.py) | Bot cycle 15 (#44): applies or checks YAML front-matter on the major pages (registry in the script) and decks (parsed from each deck body). Re-run after generators. |
+| [scripts/front_matter.py](scripts/front_matter.py) | Bot cycle 15 (#44), schema v2 in Bot cycle 17 (#65): applies or checks typed YAML front-matter on the major pages (registry in the script), decks (parsed from each deck body) and card shards, and generates [Front-Matter Schema](Front-Matter%20Schema.md). Re-run after generators. |
+| [Front-Matter Schema.md](Front-Matter%20Schema.md) | Generated (`scripts/front_matter.py`, Bot cycle 17, #65): every front-matter key for pages, decks and card shards, with types, the source keys and the full tag vocabulary. |
+| [scripts/validate_all.py](scripts/validate_all.py) · [scripts/check_citations.py](scripts/check_citations.py) · [scripts/kb_find.py](scripts/kb_find.py) | Bot cycle 17 (#65, #67): one entry point for all checks (links, schema, index, citations, Oracle drift, decks, freshness) · Wizards URL + CR-number citation check (`data/citations.json`) · retrieval index and lookup CLI (`data/kb_index.json`). |
 | [Lookup Guide.md](Lookup%20Guide.md) | Bot cycles 9 and 14 (#46): where each kind of fact lives, with tested lookup commands, and which source wins. |
 | [Printing History.md](Printing%20History.md) | Generated (`scripts/build_printings.py`, Bot cycle 10, #40): field guide and notable lists. Full per-card data in `data/printings_summary.csv` (33,894 rows from Scryfall default-cards). |
 | [Format Legality Matrix.md](Format%20Legality%20Matrix.md) | Generated (`scripts/build_legality.py`, Bot cycle 11, #41): per-format totals and full banned/restricted lists. Matrix in `data/legality_matrix.csv` (33,894 × 23 Scryfall format keys). |

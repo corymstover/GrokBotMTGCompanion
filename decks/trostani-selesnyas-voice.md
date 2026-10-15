@@ -3,10 +3,14 @@ title: "Deck Skeleton — Trostani, Selesnya's Voice"
 category: deck
 kind: core
 commander: "Trostani, Selesnya's Voice"
-color_identity: GW
+color_identity: WG
 bracket_floor: 3
 game_changers: 1
+combos: 0
+two_card_infinites: 0
 validated: true
+tags: [core, selesnya, bracket-floor-3, game-changers]
+schema: 2
 ---
 
 # Deck Skeleton — Trostani, Selesnya's Voice

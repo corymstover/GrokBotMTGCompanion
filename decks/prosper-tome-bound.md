@@ -6,7 +6,11 @@ commander: "Prosper, Tome-Bound"
 color_identity: BR
 bracket_floor: 3
 game_changers: 1
+combos: 2
+two_card_infinites: 0
 validated: true
+tags: [core, rakdos, bracket-floor-3, game-changers, combos]
+schema: 2
 ---
 
 # Deck Skeleton — Prosper, Tome-Bound

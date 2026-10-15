@@ -5,6 +5,8 @@ tags: [faq, lore, rules]
 issues: [45]
 generated_by: hand-written
 sources: [cr, wizards-story, scryfall]
+related: ["Rules Interactions.md", "EDH Standards.md", "Keyword Encyclopedia.md", "Story Arc Summaries.md", "Front-Matter Schema.md", "Characters Index.md"]
+schema: 2
 ---
 
 # FAQ

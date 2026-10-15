@@ -5,6 +5,8 @@ tags: [packages, ramp, card-advantage]
 issues: [26]
 generated_by: scripts/build_packages.py
 sources: [scryfall, edhrec]
+related: ["EDH Interaction.md", "EDH Win Conditions.md", "Rules Interactions.md", "EDH Archetypes.md", "EDH Mana Bases.md", "EDH Standards.md"]
+schema: 2
 ---
 
 # EDH Packages

@@ -5,6 +5,8 @@ tags: [changelog]
 issues: []
 generated_by: hand-written
 sources: []
+related: ["Knowledge Index.md", "Front-Matter Schema.md", "EDH Deck Evaluation Checklist.md", "EDH Deck Template.md", "Progress Tracker.md"]
+schema: 2
 ---
 
 # Update Log
@@ -12,6 +14,7 @@ sources: []
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-15 — Bot cycle 17 (Phase 5: schema v2, retrieval index, validate_all)](#2026-10-15--bot-cycle-17-phase-5-schema-v2-retrieval-index-validate_all)
 - [2026-10-15 — Bot cycle 16 (Grixis integration)](#2026-10-15--bot-cycle-16-grixis-integration)
 - [2026-10-15 — Bot cycle 15 (Phase 4 complete; duplicate cleanup)](#2026-10-15--bot-cycle-15-phase-4-complete-duplicate-cleanup)
 - [2026-10-15 — Bot cycle 14 (Phase 4: Lookup Guide)](#2026-10-15--bot-cycle-14-phase-4-lookup-guide)
@@ -28,6 +31,19 @@ sources: []
 - [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-15 — Bot cycle 17 (Phase 5: schema v2, retrieval index, validate_all)
+
+> All entries are **Bot cycle 17** (Grok Bot) changes on branch `bot-cycle17-schema-validation`, for the user's optimization-pass task. Milestone: [Phase 5 — Optimization pass](https://github.com/corymstover/GrokBotMTGCompanion/milestone/14).
+
+| # | Summary | Files affected | Reason |
+|---|---|---|---|
+| 17.1 | **Front-matter schema v2** ([#65](https://github.com/corymstover/GrokBotMTGCompanion/issues/65)): one typed `SCHEMA` for pages, decks and card shards. `--check` now validates types (int/bool/list/enum), kebab-case tags, source keys, generator paths and related-page registration, plus staleness. Decks gain `combos`, `two_card_infinites` and computed `tags` (kind, identity name, `bracket-floor-N`, Game Changer/combo flags, plane/theme) and a `theme` key; `color_identity` is now always WUBRG order (it was alphabetical for the 46 core decks, e.g. `BRW` → `WBR`). Pages gain `related` (up to 6 pages from the link graph) and `schema`. **684 card shards** now carry front-matter (`ingest_scryfall.py` calls `front_matter.apply_shards()` after each render). | `scripts/front_matter.py`, `scripts/ingest_scryfall.py`, all 45 pages, 86 decks, 684 shards | Consistent, machine-checkable metadata on every major entry. |
+| 17.2 | **[Front-Matter Schema](Front-Matter%20Schema.md)** generated from the script: key tables per kind, source keys, the page and deck tag vocabulary with counts, validation rules and filter commands. `--check` fails if it is stale. | `Front-Matter Schema.md` (new) | A documented schema that cannot drift from the enforcement code. |
+| 17.3 | **Retrieval index**: `scripts/kb_find.py --build` writes `data/kb_index.json` (131 pages and decks, every `##`/`###` heading with its anchor); `kb_find.py "query"` ranks by title, tag, commander and heading, filters by `--category`/`--tag`, and resolves exact card names to their entries. | `scripts/kb_find.py`, `data/kb_index.json` (new), `Lookup Guide.md` | Faster, section-level lookups. |
+| 17.4 | **Citation check** ([#67](https://github.com/corymstover/GrokBotMTGCompanion/issues/67)): every Wizards URL in any .md (725) must be in the official sitemap (674), resolve (14, incl. 11 redirects) or be a resolving Internet Archive copy (37); every `CR nnn.nx` citation (478 distinct rules) must exist in the cached CR 2026-09-25. Results in `data/citations.json`; offline by default, `--online` re-tests all, `--recheck` only new/broken. First run found no dead citations: the 5 `http://` URLs inside verbatim Scryfall ruling text resolve over https, and the Wayback timeouts were transient (availability-API fallback added). | `scripts/check_citations.py`, `data/citations.json` (new) | Every cited source is reachable. |
+| 17.5 | **`scripts/validate_all.py`**: one entry point for links, schema, retrieval index, cross-refs (from cycle 18), citations, Oracle drift (`verify_cards.py`), deck re-checks (all 86 lists re-validated, plus Game Changer drift vs the stored count) and generator freshness. Offline by default via the new `SCRYFALL_OFFLINE=1` mode in `ingest_scryfall.get_bulk` (newest cached bulk, dated from its file name); `--online` verifies against Scryfall's newest bulk and live citations. Result: **all steps PASS**. | `scripts/validate_all.py` (new), `scripts/ingest_scryfall.py` | A single gate before every merge. |
+| 17.6 | Docs: README (area row, commands, key files), Lookup Guide (kb_find, validation, WUBRG identity filter fix), Knowledge Index, Card Data Conventions, Progress Tracker, ROADMAP (Phase 5 table). | listed files | Dashboards stay current. |
 
 ## 2026-10-15 — Bot cycle 16 (Grixis integration)
 

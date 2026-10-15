@@ -5,6 +5,8 @@ tags: [roadmap, sprint]
 issues: []
 generated_by: hand-written
 sources: []
+related: ["Front-Matter Schema.md", "Lookup Guide.md", "Progress Tracker.md", "Art & Flavor Story Links.md", "Artist Index.md", "EDH Deck Evaluation Checklist.md"]
+schema: 2
 ---
 
 > **Roadmap**: the user's refinement sprint brief (2026-10-15), copied verbatim below. Bot cycle 6 created one GitHub milestone per phase and one issue per bullet. Progress is tracked on GitHub ([milestones](https://github.com/corymstover/GrokBotMTGCompanion/milestones)) and in [Progress Tracker](Progress%20Tracker.md).
@@ -82,4 +84,14 @@ The user asked us to integrate their [grixis-commander-encyclopediaGPT](https://
 | [#61](https://github.com/corymstover/GrokBotMTGCompanion/issues/61) | Cross-deck Grixis package library | ✅ Bot cycle 16 | [Grixis Packages](grixis/Grixis%20Packages.md) |
 | [#62](https://github.com/corymstover/GrokBotMTGCompanion/issues/62) | Generalize the method for any identity | ✅ Bot cycle 16 | [EDH Deck Template](EDH%20Deck%20Template.md) · [EDH Deck Evaluation Checklist](EDH%20Deck%20Evaluation%20Checklist.md) · `scripts/evaluate_decklist.py` |
 | [#63](https://github.com/corymstover/GrokBotMTGCompanion/issues/63) | Follow-ups: import remaining lists as approved; re-check `mbc` cards; optional optimization pass | ⏳ open (not started) | [Summary → follow-ups](grixis/Grixis%20Integration%20Summary.md#recommended-follow-ups) |
+
+## Phase 5 — Optimization pass (Bot cycles 17–19; user task, 2026-10-15)
+The user asked for an optimization pass over the whole knowledge base: consistent schema and tags, denser cross-references, one validation entry point, and bracket calibration with pilot notes for every deck. Milestone: [Phase 5 — Optimization pass (Bot cycles 17–19)](https://github.com/corymstover/GrokBotMTGCompanion/milestone/14).
+
+| Issue | Item | Status | Output |
+|---|---|---|---|
+| [#65](https://github.com/corymstover/GrokBotMTGCompanion/issues/65) | Typed front-matter on every major entry, documented schema, retrieval index | ✅ Bot cycle 17 | [Front-Matter Schema](Front-Matter%20Schema.md) · `scripts/front_matter.py` · `scripts/kb_find.py` · `data/kb_index.json` |
+| [#67](https://github.com/corymstover/GrokBotMTGCompanion/issues/67) | `scripts/validate_all.py`: links, citations, schema, Oracle drift | ✅ Bot cycle 17 | `scripts/validate_all.py` · `scripts/check_citations.py` · `data/citations.json` |
+| [#66](https://github.com/corymstover/GrokBotMTGCompanion/issues/66) | Bidirectional cross-references (cards ↔ decks, packages, rules, lore) | ⏳ Bot cycle 18 | — |
+| [#68](https://github.com/corymstover/GrokBotMTGCompanion/issues/68) | Bracket calibration & pilot notes for every deck | ⏳ Bot cycle 19 | — |
 

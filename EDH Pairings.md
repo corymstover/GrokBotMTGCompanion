@@ -5,6 +5,8 @@ tags: [partner, background, pairings]
 issues: [32]
 generated_by: scripts/build_pairings.py
 sources: [cr, scryfall]
+related: ["Rules Interactions.md", "EDH Standards.md"]
+schema: 2
 ---
 
 # EDH Pairings — Partner, Background, Friends forever & Doctor's companion

@@ -3,10 +3,14 @@ title: "Deck Skeleton — Nekusar, the Mindrazer"
 category: deck
 kind: core
 commander: "Nekusar, the Mindrazer"
-color_identity: BRU
+color_identity: UBR
 bracket_floor: 3
 game_changers: 2
+combos: 7
+two_card_infinites: 5
 validated: true
+tags: [core, grixis, bracket-floor-3, game-changers, two-card-infinite]
+schema: 2
 ---
 
 # Deck Skeleton — Nekusar, the Mindrazer

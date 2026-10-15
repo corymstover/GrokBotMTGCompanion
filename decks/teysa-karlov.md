@@ -3,10 +3,14 @@ title: "Deck Skeleton — Teysa Karlov"
 category: deck
 kind: core
 commander: "Teysa Karlov"
-color_identity: BW
+color_identity: WB
 bracket_floor: 3
 game_changers: 2
+combos: 23
+two_card_infinites: 0
 validated: true
+tags: [core, orzhov, bracket-floor-3, game-changers, combos]
+schema: 2
 ---
 
 # Deck Skeleton — Teysa Karlov

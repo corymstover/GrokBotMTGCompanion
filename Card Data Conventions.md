@@ -5,6 +5,8 @@ tags: [conventions, card-entries]
 issues: []
 generated_by: hand-written
 sources: [scryfall]
+related: ["EDH Standards.md", "Front-Matter Schema.md", "Card Index.md", "Knowledge Index.md"]
+schema: 2
 ---
 
 # Card Data Conventions
@@ -36,6 +38,7 @@ data/ingest_state.json                         resumable ingestion state + next 
 data/priority_cards.txt                        names ingested before the rank queue
 data/categories.json                           curated category trackers (shown in Card Index)
 ```
+- Every shard starts with YAML front-matter (`kind: shard`, `prefix`, `cards`, `bulk`; Bot cycle 17, see [Front-Matter Schema](Front-Matter%20Schema.md#card-shard-keys)), written by `scripts/front_matter.py`, which `ingest_scryfall.py` calls after each render.
 - Shard key = card name with accents stripped and all non-alphanumerics removed, lower-cased (*Æther Vial* → `aethervial`; *Rogue's Passage* → `roguespassage`).
 - Prefix = first **2** characters, deepened to 3, 4 or 5 characters when that prefix would hold more than **350** cards across the *full* universe (so `ma` → `mag`, `mal` …; `th` → `tha`, `thea` …). Because the depth is computed from the whole universe, not from what is ingested, **a card's shard never moves** as coverage grows.
 - The exact file for every card is in `data/card_index.csv` (`shard` + `anchor` columns) and the per-letter table in [Card Index](Card%20Index.md#shards-by-letter).

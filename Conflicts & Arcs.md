@@ -5,6 +5,8 @@ tags: [arcs, conflicts]
 issues: [7, 13, 34]
 generated_by: hand-written
 sources: [wizards-story]
+related: ["Characters Index.md", "Master Timeline.md", "Planes Index.md", "Story Arc Summaries.md", "Omenpath & Multiverse Connections.md"]
+schema: 2
 ---
 
 # Conflicts & Arcs

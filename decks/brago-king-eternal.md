@@ -3,10 +3,14 @@ title: "Deck Skeleton — Brago, King Eternal"
 category: deck
 kind: core
 commander: "Brago, King Eternal"
-color_identity: UW
+color_identity: WU
 bracket_floor: 3
 game_changers: 1
+combos: 11
+two_card_infinites: 4
 validated: true
+tags: [core, azorius, bracket-floor-3, game-changers, two-card-infinite]
+schema: 2
 ---
 
 # Deck Skeleton — Brago, King Eternal

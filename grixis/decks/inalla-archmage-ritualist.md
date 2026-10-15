@@ -6,8 +6,12 @@ commander: "Inalla, Archmage Ritualist"
 color_identity: UBR
 bracket_floor: 4
 game_changers: 18
+combos: 15
+two_card_infinites: 0
 validated: true
+tags: [grixis, grixis, bracket-floor-4, game-changers, combos]
 source_repo: corymstover/grixis-commander-encyclopediaGPT
+schema: 2
 ---
 
 # Grixis Deck — Inalla, Archmage Ritualist

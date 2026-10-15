@@ -5,6 +5,8 @@ tags: [planes]
 issues: [7, 12]
 generated_by: hand-written
 sources: [wizards-story]
+related: ["Characters Index.md", "Conflicts & Arcs.md", "Master Timeline.md", "Planeswalker Dossiers.md", "Story Arc Summaries.md", "Card Index.md"]
+schema: 2
 ---
 
 # Planes Index

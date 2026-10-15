@@ -5,6 +5,8 @@ tags: [novels, comics, side-media]
 issues: [38]
 generated_by: hand-written
 sources: [wizards-story, wotc-articles]
+related: ["Story Arc Summaries.md", "Art & Flavor Story Links.md", "Planeswalker Dossiers.md", "Story Archive Index.md"]
+schema: 2
 ---
 
 # Side-Media Index

@@ -3,10 +3,14 @@ title: "Deck Skeleton — Zur the Enchanter"
 category: deck
 kind: core
 commander: "Zur the Enchanter"
-color_identity: BUW
+color_identity: WUB
 bracket_floor: 4
 game_changers: 8
+combos: 1
+two_card_infinites: 0
 validated: true
+tags: [core, esper, bracket-floor-4, game-changers, combos]
+schema: 2
 ---
 
 # Deck Skeleton — Zur the Enchanter

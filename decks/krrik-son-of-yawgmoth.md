@@ -6,7 +6,11 @@ commander: "K'rrik, Son of Yawgmoth"
 color_identity: B
 bracket_floor: 4
 game_changers: 7
+combos: 15
+two_card_infinites: 5
 validated: true
+tags: [core, mono-black, bracket-floor-4, game-changers, two-card-infinite]
+schema: 2
 ---
 
 # Deck Skeleton — K'rrik, Son of Yawgmoth

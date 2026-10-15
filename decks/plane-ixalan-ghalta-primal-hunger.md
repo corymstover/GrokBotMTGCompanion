@@ -6,8 +6,12 @@ commander: "Ghalta, Primal Hunger"
 color_identity: G
 bracket_floor: 2
 game_changers: 0
+combos: 0
+two_card_infinites: 0
 validated: true
+tags: [plane, mono-green, bracket-floor-2, no-game-changers, plane-ixalan]
 plane: ixalan
+schema: 2
 ---
 
 # Deck Skeleton — Ghalta, Primal Hunger — Ixalan-only
