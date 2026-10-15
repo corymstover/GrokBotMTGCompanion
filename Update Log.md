@@ -5,7 +5,7 @@ tags: [changelog]
 issues: []
 generated_by: hand-written
 sources: []
-related: ["Contradictions & Retcons Log.md", "Planeswalker Dossiers.md", "Items & Artifacts Index.md", "Lore Primary Sources.md", "Planes Index.md", "Knowledge Index.md"]
+related: ["Contradictions & Retcons Log.md", "Planeswalker Dossiers.md", "Items & Artifacts Index.md", "Lore Primary Sources.md", "Planes Index.md", "Front-Matter Schema.md"]
 schema: 2
 ---
 
@@ -14,6 +14,7 @@ schema: 2
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-15 — Bot cycle 31 (Phase 7: lore retrieval + validation)](#2026-10-15--bot-cycle-31-phase-7-lore-retrieval--validation)
 - [2026-10-15 — Bot cycle 30 (Phase 6: final dossiers, status, snapshot)](#2026-10-15--bot-cycle-30-phase-6-final-dossiers-status-snapshot)
 - [2026-10-15 — Bot cycle 29 (Phase 6: dossiers, Omenpath-era planes, items)](#2026-10-15--bot-cycle-29-phase-6-dossiers-omenpath-era-planes-items)
 - [2026-10-15 — Bot cycle 28 (Phase 6: dossiers, items, planes, retcons)](#2026-10-15--bot-cycle-28-phase-6-dossiers-items-planes-retcons)
@@ -44,6 +45,34 @@ schema: 2
 - [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-15 — Bot cycle 31 (Phase 7: lore retrieval + validation)
+New milestone [Phase 7 — Lore optimization pass](https://github.com/corymstover/GrokBotMTGCompanion/milestone/16) and issues #92–#96 (Cory's request: Phase 5's 4 priorities applied to the Phase 6 material). This cycle covers priorities 1 + 3.
+
+- **P7.1 (#92) retrieval:**
+  - Every lore page now carries the `lore` tag and its Phase 6/7 issue numbers.
+  - The 7 lore entry pages carry `entry_kind` and `entries` (schema v2, additive keys; [Front-Matter Schema](Front-Matter%20Schema.md) regenerated).
+  - New `scripts/lore_lib.py` (entry parsing) and `scripts/build_lore_index.py`, which writes [Lore Entry Index](Lore%20Entry%20Index.md) and `data/lore_entries.json`: 260 entries, each with computed tags (kind, ⚠️/❓/🚫/🔄 flags, spark state, `has-cards`), citation count and links by target.
+  - `kb_find.py` indexes these entries (`--kind`, e.g. `--tag spark-lost`).
+  - [Lookup Guide](Lookup%20Guide.md) gained lore lookups.
+- **P7.3 (#94) validation:**
+  - New `scripts/check_lore.py` (`validate_all` step **lore-entries**): every entry cites an official page; dossier timeline and retcon statement rows are cited; anchors resolve; spark state is consistent across the Characters Index (glance table + sparks table), the dossier summary and the retcon log's KB treatment rows; the index is current.
+  - New `scripts/lore_quotes.py` (step **lore-quotes**): 1,675 quotations on 13 lore pages are checked against the cited cached page, then any cached official page, then Scryfall card text. NFKC ligatures and nested quotation marks are folded. Ledger: `data/lore_quotes.json`.
+  - Documented exceptions are in `data/lore_quote_exceptions.json`: IKO Story-on-Cards image text, Apple Books / Netflix Tudum, and labels in quotation marks.
+  - Without the gitignored cache, the step compares quote fingerprints with the ledger.
+- **Fixes found by the new checks (P7.5, #96):**
+  - **30 cited official pages had never been cached**: 19 Planeswalker profile pages, 9 feature articles (incl. the Jace, Liliana and Gideon origin stories) and 2 Making Magic columns. They are now fetched, so Lore Primary Sources has 626 pages.
+  - **Paraphrases shown as quotations corrected to the verbatim text:**
+    - Tarkir "dragon tempests kept birthing dragons" (Conflicts & Arcs, Retcons Log).
+    - Teferi's profile line (Dossiers).
+    - The Gideon's Memorial listing (Characters Index).
+    - Three profile date phrases (Master Timeline).
+    - The Deepest Night D&D line (Side-Media).
+    - "the Edge (of Eternity)" (Planes).
+    - "the stripping of her spark" (Characters).
+  - Elspeth retcon row now cites its page directly.
+  - Stale lore counts fixed in Knowledge Index (Conflicts 39→40, Retcons, Planes, Primary Sources 538→626) and Progress Tracker (588→626).
+- `validate_all.py` PASS (12 steps). Grixis #63 remains ON HOLD.
 
 ## 2026-10-15 — Bot cycle 30 (Phase 6: final dossiers, status, snapshot)
 Issues [#72](https://github.com/corymstover/GrokBotMTGCompanion/issues/72)–[#77](https://github.com/corymstover/GrokBotMTGCompanion/issues/77); milestone 15. Cycle 29 merged as PR #90.

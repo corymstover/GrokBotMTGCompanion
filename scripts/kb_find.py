@@ -6,6 +6,9 @@
   python3 scripts/kb_find.py "commander damage"   ranked pages/sections; exact card names also return the card entry
   python3 scripts/kb_find.py layers --category rules      filter by category (lore/edh/rules/cards/meta/deck)
   python3 scripts/kb_find.py --tag two-card-infinite      every entry carrying a tag
+  python3 scripts/kb_find.py sylex --kind item            lore entries only (Bot cycle 31, #92): arc/era/dossier/character/plane/item/retcon
+Lore entries (one per dossier, plane, item, retcon, character, arc, era; scripts/build_lore_index.py) are indexed with
+their computed tags (e.g. spark-lost, unknown, secondary, non-canonical, has-cards) and point at page#anchor.
 Scoring (simple, deterministic): per query word, title 5 · tag 4 · commander 4 · section heading 2; all words must hit.
 Card facts stay in the card entries (data/card_index.csv); this index only points at them.
 """
@@ -48,23 +51,32 @@ def entry(p, kind):
     return e
 
 
+def lore_entries():
+    import build_lore_index as B  # noqa: E402
+    return [{"path": f"{r['page']}#{r['anchor']}", "kind": "entry", "entry_kind": r["kind"], "title": r["name"],
+             "category": "lore", "tags": r["tags"], "headings": []} for r in B.build()["items"]]
+
+
 def build():
     items = [entry(p, kind) for p, _, kind in fm.targets(shards=False)]
-    return {"schema": 1, "generated_by": "scripts/kb_find.py --build", "entries": len(items),
-            "note": "Pages and decks only; card entries are indexed by data/card_index.csv.", "items": items}
+    lore = lore_entries()
+    return {"schema": 2, "generated_by": "scripts/kb_find.py --build", "entries": len(items) + len(lore),
+            "note": "Pages, decks and lore entries (Bot cycle 31); card entries are indexed by data/card_index.csv.", "items": items + lore}
 
 
 def dump(d):
     return json.dumps(d, ensure_ascii=False, indent=0, sort_keys=False) + "\n"
 
 
-def search(idx, words, cat=None, tag=None):
+def search(idx, words, cat=None, tag=None, ekind=None):
     words = [w.lower() for w in words]
     out = []
     for e in idx["items"]:
         if cat and e.get("category") != cat:
             continue
         if tag and tag not in e["tags"]:
+            continue
+        if ekind and e.get("entry_kind") != ekind:
             continue
         score, hits = 0, []
         for w in words:
@@ -107,16 +119,17 @@ def main(argv):
         print("kb_index: " + ("up to date" if ok else "STALE — run python3 scripts/kb_find.py --build"))
         return 0 if ok else 1
     opt = lambda k: argv[argv.index(k) + 1] if k in argv else None
-    cat, tag, lim = opt("--category"), opt("--tag"), int(opt("--limit") or 10)
-    skip = {x for k in ("--category", "--tag", "--limit") if k in argv for x in (k, argv[argv.index(k) + 1])}
+    cat, tag, lim, ek = opt("--category"), opt("--tag"), int(opt("--limit") or 10), opt("--kind")
+    skip = {x for k in ("--category", "--tag", "--limit", "--kind") if k in argv for x in (k, argv[argv.index(k) + 1])}
     words = [w for w in argv if w not in skip]
     q = " ".join(words)
     for r, ref in card_hits(q) if q else []:
         print(f"CARD  {r['name']} → {r['shard']}#{r['anchor']}" + (f"  (referenced in {ref['n']} pages; see {ref['index']})" if ref else ""))
     idx = json.loads(OUT.read_text(encoding="utf-8"))
-    res = search(idx, re.findall(r"[\w+'/-]+", q), cat, tag)
+    res = search(idx, re.findall(r"[\w+'/-]+", q), cat, tag, ek)
     for score, e, hh in res[:lim]:
-        print(f"{score:>3}  {e['path']}  — {e['title']}  [{e.get('category')}; {', '.join(e['tags'][:5])}]")
+        what = f"{e['entry_kind']} entry" if e.get("kind") == "entry" else e.get("category")
+        print(f"{score:>3}  {e['path']}  — {e['title']}  [{what}; {', '.join(e['tags'][:5])}]")
         for lvl, h, a in hh:
             print(f"       → {e['path']}#{a}  ({h})")
     if not res:

@@ -1,7 +1,7 @@
 ---
 title: "Story Archive Index"
 category: lore
-tags: [story-archive, sources]
+tags: [lore, story-archive, sources]
 issues: [14]
 generated_by: scripts/crawl_story_index.py
 sources: [wizards-story]

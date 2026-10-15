@@ -1,11 +1,13 @@
 ---
 title: "Items & Artifacts Index"
 category: lore
-tags: [items, artifacts, relics]
-issues: [75]
+tags: [lore, items, artifacts, relics]
+issues: [75, 92, 94]
 generated_by: hand-written
 sources: [wizards-story]
 related: ["Conflicts & Arcs.md", "Contradictions & Retcons Log.md", "Planes Index.md", "Lore Primary Sources.md", "Planeswalker Dossiers.md"]
+entry_kind: item
+entries: 26
 schema: 2
 ---
 

@@ -1,0 +1,6836 @@
+{
+ "generated_by": "scripts/lore_quotes.py --build",
+ "story_pages_cached": 626,
+ "pages": {
+  "Planeswalker Dossiers.md": {
+   "counts": {
+    "excepted": 1,
+    "verified": 313,
+    "verified-other": 9
+   },
+   "quotes": [
+    {
+     "fp": "bf9e442ebc6c",
+     "status": "excepted:not-a-quote",
+     "quote": "era snapshots"
+    },
+    {
+     "fp": "beca6bf5c5b4",
+     "status": "verified"
+    },
+    {
+     "fp": "8ca26dce7c04",
+     "status": "verified"
+    },
+    {
+     "fp": "f321e95276dc",
+     "status": "verified"
+    },
+    {
+     "fp": "a441bc6dc0df",
+     "status": "verified"
+    },
+    {
+     "fp": "cfaaa31a7b00",
+     "status": "verified"
+    },
+    {
+     "fp": "6e6c03bab4fc",
+     "status": "verified"
+    },
+    {
+     "fp": "33b415c3bff6",
+     "status": "verified"
+    },
+    {
+     "fp": "ab060ba874f9",
+     "status": "verified"
+    },
+    {
+     "fp": "0e48db3a8d74",
+     "status": "verified"
+    },
+    {
+     "fp": "7d076690ac1d",
+     "status": "verified"
+    },
+    {
+     "fp": "dd56157a8f55",
+     "status": "verified"
+    },
+    {
+     "fp": "04ed1e364330",
+     "status": "verified"
+    },
+    {
+     "fp": "49ca5cb43e32",
+     "status": "verified"
+    },
+    {
+     "fp": "32d30e765ce7",
+     "status": "verified"
+    },
+    {
+     "fp": "344fa865d7b5",
+     "status": "verified"
+    },
+    {
+     "fp": "67ed9b30eb81",
+     "status": "verified"
+    },
+    {
+     "fp": "31c098f3d36a",
+     "status": "verified"
+    },
+    {
+     "fp": "92ddd6ffe9cc",
+     "status": "verified"
+    },
+    {
+     "fp": "49c393d2c793",
+     "status": "verified"
+    },
+    {
+     "fp": "cc24d2959cad",
+     "status": "verified"
+    },
+    {
+     "fp": "45557f90229f",
+     "status": "verified"
+    },
+    {
+     "fp": "d862ea3f433b",
+     "status": "verified"
+    },
+    {
+     "fp": "5243f08b5488",
+     "status": "verified"
+    },
+    {
+     "fp": "ee5bea27c112",
+     "status": "verified-other"
+    },
+    {
+     "fp": "cb1e71877ae2",
+     "status": "verified"
+    },
+    {
+     "fp": "3f0070050247",
+     "status": "verified"
+    },
+    {
+     "fp": "26113f1dab86",
+     "status": "verified"
+    },
+    {
+     "fp": "5ade185e16bb",
+     "status": "verified"
+    },
+    {
+     "fp": "3ba1add0465f",
+     "status": "verified"
+    },
+    {
+     "fp": "9632bb0213ef",
+     "status": "verified"
+    },
+    {
+     "fp": "8c2bed6a544c",
+     "status": "verified"
+    },
+    {
+     "fp": "9f0349906170",
+     "status": "verified"
+    },
+    {
+     "fp": "e7a3971b1306",
+     "status": "verified"
+    },
+    {
+     "fp": "96f2b142d80d",
+     "status": "verified"
+    },
+    {
+     "fp": "076b27ae6216",
+     "status": "verified"
+    },
+    {
+     "fp": "bd1ca4310991",
+     "status": "verified-other"
+    },
+    {
+     "fp": "2b9b80d485c1",
+     "status": "verified"
+    },
+    {
+     "fp": "ec24de88cd6e",
+     "status": "verified"
+    },
+    {
+     "fp": "2a36e5cef95b",
+     "status": "verified"
+    },
+    {
+     "fp": "a478b6a09b89",
+     "status": "verified"
+    },
+    {
+     "fp": "061b274107a6",
+     "status": "verified"
+    },
+    {
+     "fp": "2293c4244c98",
+     "status": "verified"
+    },
+    {
+     "fp": "5540f0764ae8",
+     "status": "verified"
+    },
+    {
+     "fp": "ae51bac707d9",
+     "status": "verified"
+    },
+    {
+     "fp": "da63b5e04f72",
+     "status": "verified"
+    },
+    {
+     "fp": "b7863c83063d",
+     "status": "verified"
+    },
+    {
+     "fp": "4a048e0ca73b",
+     "status": "verified"
+    },
+    {
+     "fp": "6def9c312703",
+     "status": "verified"
+    },
+    {
+     "fp": "2fbf19048735",
+     "status": "verified"
+    },
+    {
+     "fp": "c50df0377f11",
+     "status": "verified"
+    },
+    {
+     "fp": "5185ab0d715c",
+     "status": "verified"
+    },
+    {
+     "fp": "19f8edd82133",
+     "status": "verified"
+    },
+    {
+     "fp": "76c18bf77db8",
+     "status": "verified"
+    },
+    {
+     "fp": "eebe5e240059",
+     "status": "verified"
+    },
+    {
+     "fp": "5740819cd70e",
+     "status": "verified"
+    },
+    {
+     "fp": "478586a37c4a",
+     "status": "verified-other"
+    },
+    {
+     "fp": "8a58e0c1cb4f",
+     "status": "verified"
+    },
+    {
+     "fp": "c66c0802471b",
+     "status": "verified"
+    },
+    {
+     "fp": "f341b024e1e8",
+     "status": "verified"
+    },
+    {
+     "fp": "e524d90ffc2b",
+     "status": "verified"
+    },
+    {
+     "fp": "f0a0c2a489cc",
+     "status": "verified"
+    },
+    {
+     "fp": "53766317ba7e",
+     "status": "verified"
+    },
+    {
+     "fp": "e2cd4b8e8a7a",
+     "status": "verified"
+    },
+    {
+     "fp": "8ef661d3446e",
+     "status": "verified"
+    },
+    {
+     "fp": "e1a6b83e5efc",
+     "status": "verified"
+    },
+    {
+     "fp": "07d1b1164f6d",
+     "status": "verified"
+    },
+    {
+     "fp": "7cd674030680",
+     "status": "verified"
+    },
+    {
+     "fp": "0486e3b3ee6d",
+     "status": "verified"
+    },
+    {
+     "fp": "5020e08592da",
+     "status": "verified"
+    },
+    {
+     "fp": "ce40b38297df",
+     "status": "verified-other"
+    },
+    {
+     "fp": "475a069ae8a9",
+     "status": "verified"
+    },
+    {
+     "fp": "dabdaaa855ae",
+     "status": "verified"
+    },
+    {
+     "fp": "4e765cd89687",
+     "status": "verified"
+    },
+    {
+     "fp": "aded5e455e6e",
+     "status": "verified"
+    },
+    {
+     "fp": "a3b71d0c9f1d",
+     "status": "verified"
+    },
+    {
+     "fp": "3c963e7559a4",
+     "status": "verified"
+    },
+    {
+     "fp": "1d4d4ef5a1ea",
+     "status": "verified"
+    },
+    {
+     "fp": "9715890c6721",
+     "status": "verified"
+    },
+    {
+     "fp": "448735482480",
+     "status": "verified"
+    },
+    {
+     "fp": "b24f983d1a77",
+     "status": "verified"
+    },
+    {
+     "fp": "53521c25dff4",
+     "status": "verified"
+    },
+    {
+     "fp": "0613e0c80c03",
+     "status": "verified"
+    },
+    {
+     "fp": "465a58f9e7ae",
+     "status": "verified"
+    },
+    {
+     "fp": "8f0205fa2af2",
+     "status": "verified"
+    },
+    {
+     "fp": "deaa753f6a08",
+     "status": "verified"
+    },
+    {
+     "fp": "7c816a5bd69d",
+     "status": "verified"
+    },
+    {
+     "fp": "7983da7ae741",
+     "status": "verified"
+    },
+    {
+     "fp": "e8497781e72b",
+     "status": "verified"
+    },
+    {
+     "fp": "e0c9456991c7",
+     "status": "verified"
+    },
+    {
+     "fp": "2b6888a40d78",
+     "status": "verified"
+    },
+    {
+     "fp": "53bf6a38c46c",
+     "status": "verified"
+    },
+    {
+     "fp": "c00bfec85e12",
+     "status": "verified"
+    },
+    {
+     "fp": "2f4a7a133511",
+     "status": "verified"
+    },
+    {
+     "fp": "b92724d2a4fe",
+     "status": "verified"
+    },
+    {
+     "fp": "5747d2525ca2",
+     "status": "verified"
+    },
+    {
+     "fp": "1acf611a6d3a",
+     "status": "verified"
+    },
+    {
+     "fp": "d2e4065022c8",
+     "status": "verified"
+    },
+    {
+     "fp": "0419c738bb25",
+     "status": "verified"
+    },
+    {
+     "fp": "478ca4d010c5",
+     "status": "verified"
+    },
+    {
+     "fp": "9eb5688e03a0",
+     "status": "verified"
+    },
+    {
+     "fp": "c7211042f2e8",
+     "status": "verified"
+    },
+    {
+     "fp": "49c92396925d",
+     "status": "verified"
+    },
+    {
+     "fp": "85b471c05d7a",
+     "status": "verified"
+    },
+    {
+     "fp": "42793a953736",
+     "status": "verified"
+    },
+    {
+     "fp": "ef7355a77e57",
+     "status": "verified"
+    },
+    {
+     "fp": "c29c10c54269",
+     "status": "verified"
+    },
+    {
+     "fp": "3dab816f8864",
+     "status": "verified"
+    },
+    {
+     "fp": "d021df999d1a",
+     "status": "verified"
+    },
+    {
+     "fp": "369834fb7217",
+     "status": "verified"
+    },
+    {
+     "fp": "d8c0ed6bf2b2",
+     "status": "verified"
+    },
+    {
+     "fp": "e7795e7d2ed0",
+     "status": "verified"
+    },
+    {
+     "fp": "deb28e38721b",
+     "status": "verified"
+    },
+    {
+     "fp": "4ed6ad220b86",
+     "status": "verified"
+    },
+    {
+     "fp": "462149760d1f",
+     "status": "verified"
+    },
+    {
+     "fp": "a2d2dfb30cba",
+     "status": "verified"
+    },
+    {
+     "fp": "e4ef60888610",
+     "status": "verified"
+    },
+    {
+     "fp": "f919ccc30e78",
+     "status": "verified"
+    },
+    {
+     "fp": "0ffdeff72acb",
+     "status": "verified"
+    },
+    {
+     "fp": "3c71f7c90617",
+     "status": "verified"
+    },
+    {
+     "fp": "85b3792a503b",
+     "status": "verified"
+    },
+    {
+     "fp": "6834b8dd69ee",
+     "status": "verified"
+    },
+    {
+     "fp": "9c6c9249f17a",
+     "status": "verified"
+    },
+    {
+     "fp": "268f6d52901a",
+     "status": "verified"
+    },
+    {
+     "fp": "dd56157a8f55",
+     "status": "verified"
+    },
+    {
+     "fp": "89e74c5052ea",
+     "status": "verified-other"
+    },
+    {
+     "fp": "e6ee2f48ad83",
+     "status": "verified-other"
+    },
+    {
+     "fp": "58a4d0cc5cd7",
+     "status": "verified"
+    },
+    {
+     "fp": "674d39d32ec9",
+     "status": "verified"
+    },
+    {
+     "fp": "42dc5d6558c6",
+     "status": "verified"
+    },
+    {
+     "fp": "cd88bea7edc7",
+     "status": "verified"
+    },
+    {
+     "fp": "b7e9a05e91d2",
+     "status": "verified"
+    },
+    {
+     "fp": "b40b4636ea4b",
+     "status": "verified"
+    },
+    {
+     "fp": "cc24547bc2fc",
+     "status": "verified"
+    },
+    {
+     "fp": "afe12719ea64",
+     "status": "verified"
+    },
+    {
+     "fp": "cba5a46813cf",
+     "status": "verified"
+    },
+    {
+     "fp": "cadc75f0d91e",
+     "status": "verified"
+    },
+    {
+     "fp": "05a05db8bbb9",
+     "status": "verified"
+    },
+    {
+     "fp": "0d287efb6f6f",
+     "status": "verified"
+    },
+    {
+     "fp": "9bc1e4296041",
+     "status": "verified"
+    },
+    {
+     "fp": "b153c2a05add",
+     "status": "verified"
+    },
+    {
+     "fp": "b4fc94747a80",
+     "status": "verified"
+    },
+    {
+     "fp": "73713bc85c75",
+     "status": "verified"
+    },
+    {
+     "fp": "800e3d2b275d",
+     "status": "verified"
+    },
+    {
+     "fp": "d3c1f2f338ce",
+     "status": "verified"
+    },
+    {
+     "fp": "b59ed8edc15d",
+     "status": "verified"
+    },
+    {
+     "fp": "5a4c01a2d7bd",
+     "status": "verified"
+    },
+    {
+     "fp": "ef7f328bb907",
+     "status": "verified"
+    },
+    {
+     "fp": "c1486e9575f3",
+     "status": "verified"
+    },
+    {
+     "fp": "964899e65b9d",
+     "status": "verified"
+    },
+    {
+     "fp": "d93d3d9e0eec",
+     "status": "verified"
+    },
+    {
+     "fp": "7eec758d5b87",
+     "status": "verified"
+    },
+    {
+     "fp": "934c2fdcdd2f",
+     "status": "verified"
+    },
+    {
+     "fp": "fe09c3f7638c",
+     "status": "verified"
+    },
+    {
+     "fp": "187665dcc9bc",
+     "status": "verified"
+    },
+    {
+     "fp": "b35380a65dd5",
+     "status": "verified"
+    },
+    {
+     "fp": "f6e6690484b5",
+     "status": "verified"
+    },
+    {
+     "fp": "2177d1a0be92",
+     "status": "verified"
+    },
+    {
+     "fp": "a6a8838fd3f6",
+     "status": "verified"
+    },
+    {
+     "fp": "36ba651b5bbb",
+     "status": "verified"
+    },
+    {
+     "fp": "1e8618af342e",
+     "status": "verified"
+    },
+    {
+     "fp": "5d167accfb8d",
+     "status": "verified"
+    },
+    {
+     "fp": "de7a07899c93",
+     "status": "verified"
+    },
+    {
+     "fp": "ebc9b956231b",
+     "status": "verified"
+    },
+    {
+     "fp": "3fdf4f696413",
+     "status": "verified"
+    },
+    {
+     "fp": "b6ba0d8183a2",
+     "status": "verified"
+    },
+    {
+     "fp": "74c367479933",
+     "status": "verified"
+    },
+    {
+     "fp": "82a4a5271ada",
+     "status": "verified"
+    },
+    {
+     "fp": "f02979abea23",
+     "status": "verified"
+    },
+    {
+     "fp": "32d22ec4ffad",
+     "status": "verified"
+    },
+    {
+     "fp": "1b28dd062072",
+     "status": "verified"
+    },
+    {
+     "fp": "67c87901b547",
+     "status": "verified"
+    },
+    {
+     "fp": "0f68a41abdd3",
+     "status": "verified"
+    },
+    {
+     "fp": "c6213133443b",
+     "status": "verified"
+    },
+    {
+     "fp": "46d6e686b492",
+     "status": "verified"
+    },
+    {
+     "fp": "cf46f568135a",
+     "status": "verified"
+    },
+    {
+     "fp": "6846d4ed99aa",
+     "status": "verified"
+    },
+    {
+     "fp": "8fe3db5c63ce",
+     "status": "verified"
+    },
+    {
+     "fp": "99ff73d64039",
+     "status": "verified"
+    },
+    {
+     "fp": "102f3da10bc3",
+     "status": "verified"
+    },
+    {
+     "fp": "16c7063a6613",
+     "status": "verified"
+    },
+    {
+     "fp": "d8bed10e417c",
+     "status": "verified"
+    },
+    {
+     "fp": "5ef6476b2abf",
+     "status": "verified"
+    },
+    {
+     "fp": "8e510f6bcd97",
+     "status": "verified"
+    },
+    {
+     "fp": "d1ac07afc798",
+     "status": "verified"
+    },
+    {
+     "fp": "6e5a4e4a6688",
+     "status": "verified"
+    },
+    {
+     "fp": "4a9a298f22e5",
+     "status": "verified"
+    },
+    {
+     "fp": "352d1c5e6df4",
+     "status": "verified"
+    },
+    {
+     "fp": "02108152d2b1",
+     "status": "verified"
+    },
+    {
+     "fp": "bfcdfe7a90a0",
+     "status": "verified"
+    },
+    {
+     "fp": "cc208aa4d231",
+     "status": "verified"
+    },
+    {
+     "fp": "20856227b90d",
+     "status": "verified"
+    },
+    {
+     "fp": "6e5028e7ef0d",
+     "status": "verified"
+    },
+    {
+     "fp": "9175e6cfc062",
+     "status": "verified"
+    },
+    {
+     "fp": "662134dfa68e",
+     "status": "verified"
+    },
+    {
+     "fp": "105bd350f692",
+     "status": "verified"
+    },
+    {
+     "fp": "cabf42782965",
+     "status": "verified"
+    },
+    {
+     "fp": "6749c956aa43",
+     "status": "verified"
+    },
+    {
+     "fp": "ffd9d0620b87",
+     "status": "verified"
+    },
+    {
+     "fp": "3ad63ad517d5",
+     "status": "verified"
+    },
+    {
+     "fp": "16c7063a6613",
+     "status": "verified"
+    },
+    {
+     "fp": "5185ab0d715c",
+     "status": "verified"
+    },
+    {
+     "fp": "612e77741e65",
+     "status": "verified"
+    },
+    {
+     "fp": "4a0728b03b65",
+     "status": "verified"
+    },
+    {
+     "fp": "7c11b1879c3f",
+     "status": "verified"
+    },
+    {
+     "fp": "3a32b0d5db04",
+     "status": "verified"
+    },
+    {
+     "fp": "e5630b23c7dd",
+     "status": "verified"
+    },
+    {
+     "fp": "5bc1d2774e3e",
+     "status": "verified"
+    },
+    {
+     "fp": "85d4f1bc2217",
+     "status": "verified"
+    },
+    {
+     "fp": "1c3d50740546",
+     "status": "verified"
+    },
+    {
+     "fp": "37cc7cca6712",
+     "status": "verified"
+    },
+    {
+     "fp": "5218a7438741",
+     "status": "verified"
+    },
+    {
+     "fp": "ff0820d57dbf",
+     "status": "verified"
+    },
+    {
+     "fp": "a609009340ac",
+     "status": "verified"
+    },
+    {
+     "fp": "b4227cd83c56",
+     "status": "verified"
+    },
+    {
+     "fp": "45b337d6e914",
+     "status": "verified"
+    },
+    {
+     "fp": "39916a156053",
+     "status": "verified"
+    },
+    {
+     "fp": "ce342fa9dff4",
+     "status": "verified"
+    },
+    {
+     "fp": "94cae097d145",
+     "status": "verified"
+    },
+    {
+     "fp": "fdcf86187ceb",
+     "status": "verified"
+    },
+    {
+     "fp": "c8d3b3330392",
+     "status": "verified"
+    },
+    {
+     "fp": "bbc21ada59c5",
+     "status": "verified"
+    },
+    {
+     "fp": "15bef0627a18",
+     "status": "verified"
+    },
+    {
+     "fp": "f7d9c72367b8",
+     "status": "verified"
+    },
+    {
+     "fp": "ef78e4f52912",
+     "status": "verified"
+    },
+    {
+     "fp": "5b36d816c63f",
+     "status": "verified"
+    },
+    {
+     "fp": "fbdc75098798",
+     "status": "verified"
+    },
+    {
+     "fp": "78d9247ca659",
+     "status": "verified"
+    },
+    {
+     "fp": "24e4430fd1cf",
+     "status": "verified"
+    },
+    {
+     "fp": "3b2599ec1aa6",
+     "status": "verified"
+    },
+    {
+     "fp": "474251d90103",
+     "status": "verified"
+    },
+    {
+     "fp": "bc91e922c374",
+     "status": "verified"
+    },
+    {
+     "fp": "44661f4d3188",
+     "status": "verified"
+    },
+    {
+     "fp": "183bbfb902ef",
+     "status": "verified"
+    },
+    {
+     "fp": "7322c94c5005",
+     "status": "verified"
+    },
+    {
+     "fp": "bc5b5e31eac9",
+     "status": "verified"
+    },
+    {
+     "fp": "fd4cb8d80876",
+     "status": "verified"
+    },
+    {
+     "fp": "a7e00fd4c7d7",
+     "status": "verified"
+    },
+    {
+     "fp": "455f2c5cf23b",
+     "status": "verified"
+    },
+    {
+     "fp": "d84ac81dfd10",
+     "status": "verified"
+    },
+    {
+     "fp": "75f01d8fcfa5",
+     "status": "verified"
+    },
+    {
+     "fp": "72070c39f9cb",
+     "status": "verified"
+    },
+    {
+     "fp": "fb7ca7db3c72",
+     "status": "verified"
+    },
+    {
+     "fp": "1e991413a715",
+     "status": "verified"
+    },
+    {
+     "fp": "14121e2c0f5b",
+     "status": "verified"
+    },
+    {
+     "fp": "843f96a18ae8",
+     "status": "verified"
+    },
+    {
+     "fp": "f48ccb1159f3",
+     "status": "verified"
+    },
+    {
+     "fp": "99cd6acb18ff",
+     "status": "verified"
+    },
+    {
+     "fp": "0240526d6bf4",
+     "status": "verified"
+    },
+    {
+     "fp": "e90b41c1ac67",
+     "status": "verified"
+    },
+    {
+     "fp": "c273c56b3725",
+     "status": "verified"
+    },
+    {
+     "fp": "40dd97aadbb1",
+     "status": "verified"
+    },
+    {
+     "fp": "c8bca707b93a",
+     "status": "verified"
+    },
+    {
+     "fp": "6e3944281c5f",
+     "status": "verified"
+    },
+    {
+     "fp": "6ec524201d38",
+     "status": "verified"
+    },
+    {
+     "fp": "57318f1d9653",
+     "status": "verified"
+    },
+    {
+     "fp": "ef8946bfecde",
+     "status": "verified"
+    },
+    {
+     "fp": "13bc1326c5aa",
+     "status": "verified"
+    },
+    {
+     "fp": "ecdf987d8303",
+     "status": "verified"
+    },
+    {
+     "fp": "1039e344ba59",
+     "status": "verified"
+    },
+    {
+     "fp": "37dc84c20ace",
+     "status": "verified"
+    },
+    {
+     "fp": "c643c5da9f87",
+     "status": "verified"
+    },
+    {
+     "fp": "6177f0b46b87",
+     "status": "verified"
+    },
+    {
+     "fp": "ce7aea854ab0",
+     "status": "verified"
+    },
+    {
+     "fp": "a949940394d4",
+     "status": "verified"
+    },
+    {
+     "fp": "6939892441e7",
+     "status": "verified"
+    },
+    {
+     "fp": "a478fa7a8b2b",
+     "status": "verified"
+    },
+    {
+     "fp": "f97bac699339",
+     "status": "verified"
+    },
+    {
+     "fp": "db080e364566",
+     "status": "verified"
+    },
+    {
+     "fp": "6df9b2b71186",
+     "status": "verified"
+    },
+    {
+     "fp": "a2f7dfe4493d",
+     "status": "verified"
+    },
+    {
+     "fp": "3921a554fd6f",
+     "status": "verified"
+    },
+    {
+     "fp": "a7f306fb3b4d",
+     "status": "verified"
+    },
+    {
+     "fp": "0ea1493d98cd",
+     "status": "verified"
+    },
+    {
+     "fp": "8cd3a8b97350",
+     "status": "verified"
+    },
+    {
+     "fp": "3278ba236b18",
+     "status": "verified"
+    },
+    {
+     "fp": "a69ed1c393bf",
+     "status": "verified"
+    },
+    {
+     "fp": "3b375c259ec3",
+     "status": "verified"
+    },
+    {
+     "fp": "d5483ea3869c",
+     "status": "verified"
+    },
+    {
+     "fp": "9c63dd477fe9",
+     "status": "verified"
+    },
+    {
+     "fp": "fc528302e743",
+     "status": "verified"
+    },
+    {
+     "fp": "b304a0a92856",
+     "status": "verified"
+    },
+    {
+     "fp": "98f941db15fa",
+     "status": "verified"
+    },
+    {
+     "fp": "ef2843a25d17",
+     "status": "verified"
+    },
+    {
+     "fp": "a158d3604ff9",
+     "status": "verified"
+    },
+    {
+     "fp": "c33bb04bb33c",
+     "status": "verified"
+    },
+    {
+     "fp": "7448361df518",
+     "status": "verified"
+    },
+    {
+     "fp": "0f27a8d493b1",
+     "status": "verified"
+    },
+    {
+     "fp": "30721df02a14",
+     "status": "verified"
+    },
+    {
+     "fp": "c3810a3db411",
+     "status": "verified"
+    },
+    {
+     "fp": "f09dd6f31d4a",
+     "status": "verified"
+    },
+    {
+     "fp": "fd38d7e6fa81",
+     "status": "verified"
+    },
+    {
+     "fp": "75cd7b965abb",
+     "status": "verified"
+    },
+    {
+     "fp": "3e077ed88b46",
+     "status": "verified"
+    },
+    {
+     "fp": "1761dbb8fcca",
+     "status": "verified"
+    },
+    {
+     "fp": "36f60b32b86e",
+     "status": "verified"
+    },
+    {
+     "fp": "c5f3cba49059",
+     "status": "verified"
+    },
+    {
+     "fp": "18f9b90be84b",
+     "status": "verified"
+    },
+    {
+     "fp": "62b5389c4c4f",
+     "status": "verified"
+    },
+    {
+     "fp": "ca71f257ee8f",
+     "status": "verified-other"
+    },
+    {
+     "fp": "67c937b65498",
+     "status": "verified"
+    },
+    {
+     "fp": "5c72b515c5f7",
+     "status": "verified"
+    },
+    {
+     "fp": "a1402044ec64",
+     "status": "verified"
+    },
+    {
+     "fp": "5eb96c68e88f",
+     "status": "verified"
+    },
+    {
+     "fp": "77eed4b7a9d6",
+     "status": "verified"
+    },
+    {
+     "fp": "7c63241f9260",
+     "status": "verified"
+    },
+    {
+     "fp": "d6bf57b54c82",
+     "status": "verified"
+    },
+    {
+     "fp": "e75c9575fe24",
+     "status": "verified"
+    },
+    {
+     "fp": "66c42232f84c",
+     "status": "verified"
+    },
+    {
+     "fp": "d5b49a2b167f",
+     "status": "verified"
+    },
+    {
+     "fp": "9b353bdf791a",
+     "status": "verified"
+    },
+    {
+     "fp": "00ae5a9b9e40",
+     "status": "verified"
+    },
+    {
+     "fp": "9ef6f4a0900e",
+     "status": "verified"
+    },
+    {
+     "fp": "94358b8caad6",
+     "status": "verified"
+    },
+    {
+     "fp": "00274b366861",
+     "status": "verified"
+    },
+    {
+     "fp": "7430ed20f3ba",
+     "status": "verified"
+    },
+    {
+     "fp": "dc6cf0c4dfcf",
+     "status": "verified"
+    },
+    {
+     "fp": "fc359bf41b39",
+     "status": "verified"
+    },
+    {
+     "fp": "3ef07f574b15",
+     "status": "verified"
+    },
+    {
+     "fp": "57a562f9a61b",
+     "status": "verified"
+    },
+    {
+     "fp": "3535c54d7b0e",
+     "status": "verified"
+    },
+    {
+     "fp": "8ebb46ab12cd",
+     "status": "verified-other"
+    },
+    {
+     "fp": "4021bff9102d",
+     "status": "verified-other"
+    }
+   ]
+  },
+  "Planes Index.md": {
+   "counts": {
+    "card": 1,
+    "verified": 227,
+    "verified-other": 7
+   },
+   "quotes": [
+    {
+     "fp": "5d316c8e1fc8",
+     "status": "verified"
+    },
+    {
+     "fp": "1a0709d52db8",
+     "status": "verified"
+    },
+    {
+     "fp": "afe113ae14f2",
+     "status": "verified"
+    },
+    {
+     "fp": "7bece6f481f8",
+     "status": "verified"
+    },
+    {
+     "fp": "cf2c5c5c7f63",
+     "status": "verified"
+    },
+    {
+     "fp": "6a895bad670e",
+     "status": "verified"
+    },
+    {
+     "fp": "6f3c7aa79168",
+     "status": "verified"
+    },
+    {
+     "fp": "5d210ef40394",
+     "status": "verified"
+    },
+    {
+     "fp": "403ddf839014",
+     "status": "verified"
+    },
+    {
+     "fp": "a2e5f6aadc22",
+     "status": "verified"
+    },
+    {
+     "fp": "4cb81134342f",
+     "status": "verified"
+    },
+    {
+     "fp": "ede9e0801c7c",
+     "status": "verified"
+    },
+    {
+     "fp": "0771ed4e3979",
+     "status": "verified"
+    },
+    {
+     "fp": "72ace26e6afc",
+     "status": "verified"
+    },
+    {
+     "fp": "014302a8661d",
+     "status": "verified"
+    },
+    {
+     "fp": "dc01b20b93ec",
+     "status": "verified"
+    },
+    {
+     "fp": "e156a3929fdc",
+     "status": "verified-other"
+    },
+    {
+     "fp": "19fbbca3de43",
+     "status": "verified-other"
+    },
+    {
+     "fp": "2522a3f67784",
+     "status": "verified"
+    },
+    {
+     "fp": "2fa726b6ec4c",
+     "status": "verified"
+    },
+    {
+     "fp": "a6c84d4fd53f",
+     "status": "verified"
+    },
+    {
+     "fp": "36a461426a74",
+     "status": "verified"
+    },
+    {
+     "fp": "2ff61361de87",
+     "status": "verified"
+    },
+    {
+     "fp": "10126c779239",
+     "status": "verified"
+    },
+    {
+     "fp": "94b8bdc4fd96",
+     "status": "verified"
+    },
+    {
+     "fp": "f107b6c923a9",
+     "status": "verified"
+    },
+    {
+     "fp": "aca26f3eccc1",
+     "status": "verified"
+    },
+    {
+     "fp": "221915fb0c30",
+     "status": "verified"
+    },
+    {
+     "fp": "40c4c9015c15",
+     "status": "verified"
+    },
+    {
+     "fp": "830035ba71e1",
+     "status": "verified"
+    },
+    {
+     "fp": "e29a86c39d3c",
+     "status": "verified"
+    },
+    {
+     "fp": "3de66ccb8da4",
+     "status": "verified"
+    },
+    {
+     "fp": "c6a72fede2a6",
+     "status": "verified"
+    },
+    {
+     "fp": "ec30b8311d4f",
+     "status": "verified"
+    },
+    {
+     "fp": "d4dc2eb662ed",
+     "status": "verified"
+    },
+    {
+     "fp": "5d8259ff6b6b",
+     "status": "verified"
+    },
+    {
+     "fp": "dc9fbdf5c74d",
+     "status": "verified"
+    },
+    {
+     "fp": "e50bde17bc80",
+     "status": "verified"
+    },
+    {
+     "fp": "4f69369f1de7",
+     "status": "verified"
+    },
+    {
+     "fp": "0c4258f12d4e",
+     "status": "verified"
+    },
+    {
+     "fp": "00a647a6df86",
+     "status": "verified"
+    },
+    {
+     "fp": "68304337d3fe",
+     "status": "verified"
+    },
+    {
+     "fp": "f66c79966bd2",
+     "status": "verified"
+    },
+    {
+     "fp": "22ace7ffc307",
+     "status": "verified"
+    },
+    {
+     "fp": "20b8f2aee157",
+     "status": "verified"
+    },
+    {
+     "fp": "f6306baee263",
+     "status": "verified"
+    },
+    {
+     "fp": "9ba3411473b6",
+     "status": "verified"
+    },
+    {
+     "fp": "946c2f19dcdd",
+     "status": "verified"
+    },
+    {
+     "fp": "cb804e4bc16c",
+     "status": "verified"
+    },
+    {
+     "fp": "ca5dbfdfdb3f",
+     "status": "verified-other"
+    },
+    {
+     "fp": "caa10dcfc3bc",
+     "status": "verified-other"
+    },
+    {
+     "fp": "bc532894de8d",
+     "status": "verified"
+    },
+    {
+     "fp": "bb25201370e2",
+     "status": "verified"
+    },
+    {
+     "fp": "a359d7fdfd75",
+     "status": "verified"
+    },
+    {
+     "fp": "c5d0ce9cf7a8",
+     "status": "verified"
+    },
+    {
+     "fp": "f54c61963eb9",
+     "status": "verified"
+    },
+    {
+     "fp": "252bba055cb2",
+     "status": "verified"
+    },
+    {
+     "fp": "8ed3587f601b",
+     "status": "verified"
+    },
+    {
+     "fp": "d798231bbef3",
+     "status": "verified"
+    },
+    {
+     "fp": "3d05cbeddac5",
+     "status": "verified"
+    },
+    {
+     "fp": "8523b1f0e55a",
+     "status": "verified"
+    },
+    {
+     "fp": "ef1b417ae7c3",
+     "status": "verified"
+    },
+    {
+     "fp": "67e3e6a73cdd",
+     "status": "verified"
+    },
+    {
+     "fp": "acffde2097d7",
+     "status": "verified"
+    },
+    {
+     "fp": "5dce07572a95",
+     "status": "verified"
+    },
+    {
+     "fp": "787504bfd632",
+     "status": "verified"
+    },
+    {
+     "fp": "475074933d63",
+     "status": "verified"
+    },
+    {
+     "fp": "733afbcb06c0",
+     "status": "verified"
+    },
+    {
+     "fp": "e731a686f9b9",
+     "status": "verified"
+    },
+    {
+     "fp": "bed51874c748",
+     "status": "verified"
+    },
+    {
+     "fp": "66ed1b12e7dc",
+     "status": "verified"
+    },
+    {
+     "fp": "3432b69513c9",
+     "status": "verified"
+    },
+    {
+     "fp": "0dff884a7d0d",
+     "status": "verified"
+    },
+    {
+     "fp": "8e5ee6eb83df",
+     "status": "verified"
+    },
+    {
+     "fp": "d52236b99d12",
+     "status": "verified"
+    },
+    {
+     "fp": "9ef3d9fed53c",
+     "status": "verified"
+    },
+    {
+     "fp": "11254d197405",
+     "status": "verified"
+    },
+    {
+     "fp": "d6e14dd41ced",
+     "status": "verified"
+    },
+    {
+     "fp": "b8757a8e875b",
+     "status": "verified"
+    },
+    {
+     "fp": "15c7e25dbada",
+     "status": "verified"
+    },
+    {
+     "fp": "bd6fefe89aef",
+     "status": "verified"
+    },
+    {
+     "fp": "d8c0ed6bf2b2",
+     "status": "verified"
+    },
+    {
+     "fp": "e7795e7d2ed0",
+     "status": "verified"
+    },
+    {
+     "fp": "a04491f15fab",
+     "status": "verified"
+    },
+    {
+     "fp": "42b024b4d0e8",
+     "status": "verified"
+    },
+    {
+     "fp": "d47e9a85a53e",
+     "status": "verified"
+    },
+    {
+     "fp": "73dba4769b07",
+     "status": "verified"
+    },
+    {
+     "fp": "54328688985b",
+     "status": "verified"
+    },
+    {
+     "fp": "04fc0e9ca84b",
+     "status": "verified"
+    },
+    {
+     "fp": "25841db929b5",
+     "status": "verified"
+    },
+    {
+     "fp": "b5d4a688b8b4",
+     "status": "verified"
+    },
+    {
+     "fp": "5e14cecd6487",
+     "status": "verified"
+    },
+    {
+     "fp": "0072551e55ae",
+     "status": "verified-other"
+    },
+    {
+     "fp": "b28699e45a3b",
+     "status": "verified-other"
+    },
+    {
+     "fp": "34bf4ae544f0",
+     "status": "verified"
+    },
+    {
+     "fp": "33327493ee67",
+     "status": "verified"
+    },
+    {
+     "fp": "c863636a9667",
+     "status": "verified"
+    },
+    {
+     "fp": "072e64eec871",
+     "status": "verified"
+    },
+    {
+     "fp": "aeb1b2112a84",
+     "status": "verified"
+    },
+    {
+     "fp": "e990d659bf8d",
+     "status": "verified"
+    },
+    {
+     "fp": "75ca1253f7d8",
+     "status": "verified"
+    },
+    {
+     "fp": "b5e0b5ad5acb",
+     "status": "verified"
+    },
+    {
+     "fp": "b8341318af5e",
+     "status": "verified"
+    },
+    {
+     "fp": "9bd94a9a9029",
+     "status": "verified"
+    },
+    {
+     "fp": "7f06478812c4",
+     "status": "verified"
+    },
+    {
+     "fp": "382ded171922",
+     "status": "verified"
+    },
+    {
+     "fp": "ed845a458d51",
+     "status": "verified"
+    },
+    {
+     "fp": "612ef7153b4e",
+     "status": "verified"
+    },
+    {
+     "fp": "1d6dfcde6553",
+     "status": "verified"
+    },
+    {
+     "fp": "3420f2c38622",
+     "status": "verified"
+    },
+    {
+     "fp": "9864e9287e6d",
+     "status": "verified"
+    },
+    {
+     "fp": "53bfb1aae2c5",
+     "status": "verified"
+    },
+    {
+     "fp": "0a87284eff32",
+     "status": "verified"
+    },
+    {
+     "fp": "17af2f36436b",
+     "status": "verified"
+    },
+    {
+     "fp": "f810bda6e3f0",
+     "status": "verified"
+    },
+    {
+     "fp": "3878453a38b9",
+     "status": "verified"
+    },
+    {
+     "fp": "e6c8dc99bc4d",
+     "status": "verified"
+    },
+    {
+     "fp": "386023688424",
+     "status": "verified"
+    },
+    {
+     "fp": "bafc7f30e02f",
+     "status": "verified"
+    },
+    {
+     "fp": "9a3f1fef15b6",
+     "status": "verified"
+    },
+    {
+     "fp": "c30729cc72a9",
+     "status": "verified"
+    },
+    {
+     "fp": "c20152c7fa4a",
+     "status": "verified"
+    },
+    {
+     "fp": "3c2e635e85fd",
+     "status": "verified"
+    },
+    {
+     "fp": "f6fef990dda0",
+     "status": "verified"
+    },
+    {
+     "fp": "32cc83d2676b",
+     "status": "verified"
+    },
+    {
+     "fp": "d8044a7ee3cf",
+     "status": "verified"
+    },
+    {
+     "fp": "7f1e475b0def",
+     "status": "verified"
+    },
+    {
+     "fp": "1680c22a2921",
+     "status": "verified"
+    },
+    {
+     "fp": "fd10b3b9ced4",
+     "status": "verified"
+    },
+    {
+     "fp": "fb157ab49802",
+     "status": "verified"
+    },
+    {
+     "fp": "007922139733",
+     "status": "verified"
+    },
+    {
+     "fp": "ce672ba4951e",
+     "status": "verified"
+    },
+    {
+     "fp": "db5f8f917a2b",
+     "status": "verified"
+    },
+    {
+     "fp": "e660354bc4a3",
+     "status": "verified"
+    },
+    {
+     "fp": "eb5e6cbd34d7",
+     "status": "verified"
+    },
+    {
+     "fp": "524e9dceac24",
+     "status": "verified"
+    },
+    {
+     "fp": "796b3f95a11f",
+     "status": "verified"
+    },
+    {
+     "fp": "70cc5cd6794e",
+     "status": "verified"
+    },
+    {
+     "fp": "69d1f2de8df1",
+     "status": "verified"
+    },
+    {
+     "fp": "7d934b4b10bc",
+     "status": "verified"
+    },
+    {
+     "fp": "545e43cb7936",
+     "status": "verified"
+    },
+    {
+     "fp": "8f513d59ba8a",
+     "status": "verified"
+    },
+    {
+     "fp": "b32c96c49d57",
+     "status": "verified"
+    },
+    {
+     "fp": "0c759f18cca3",
+     "status": "verified"
+    },
+    {
+     "fp": "74bef16155db",
+     "status": "verified"
+    },
+    {
+     "fp": "3a5eb1b2b844",
+     "status": "verified"
+    },
+    {
+     "fp": "ec37ee3bb2fa",
+     "status": "verified"
+    },
+    {
+     "fp": "c027a904df77",
+     "status": "verified"
+    },
+    {
+     "fp": "2350650dded9",
+     "status": "verified"
+    },
+    {
+     "fp": "120dd27f3f6e",
+     "status": "verified"
+    },
+    {
+     "fp": "72486fcc4050",
+     "status": "verified"
+    },
+    {
+     "fp": "4e36a5a08027",
+     "status": "verified"
+    },
+    {
+     "fp": "595de0fc2584",
+     "status": "verified"
+    },
+    {
+     "fp": "9eba0bb229e7",
+     "status": "verified"
+    },
+    {
+     "fp": "05ad77299f86",
+     "status": "verified"
+    },
+    {
+     "fp": "f99eea674781",
+     "status": "verified"
+    },
+    {
+     "fp": "b8d935fdf641",
+     "status": "verified"
+    },
+    {
+     "fp": "8996e44b60b5",
+     "status": "verified"
+    },
+    {
+     "fp": "e63f27b27256",
+     "status": "verified"
+    },
+    {
+     "fp": "e638f7d168e1",
+     "status": "verified"
+    },
+    {
+     "fp": "6848e81b23f3",
+     "status": "verified"
+    },
+    {
+     "fp": "a4f3fe00134a",
+     "status": "verified"
+    },
+    {
+     "fp": "5fc868416ca6",
+     "status": "verified"
+    },
+    {
+     "fp": "b428f581de26",
+     "status": "verified"
+    },
+    {
+     "fp": "34a99861d1de",
+     "status": "verified"
+    },
+    {
+     "fp": "541ebebfcf7c",
+     "status": "verified"
+    },
+    {
+     "fp": "3d7ad9ee7340",
+     "status": "verified"
+    },
+    {
+     "fp": "9614b2994f6a",
+     "status": "verified"
+    },
+    {
+     "fp": "0133c6100f9b",
+     "status": "verified"
+    },
+    {
+     "fp": "7a057f2613f6",
+     "status": "verified"
+    },
+    {
+     "fp": "e5acc5c6c8fc",
+     "status": "verified"
+    },
+    {
+     "fp": "19eaed7e2921",
+     "status": "verified"
+    },
+    {
+     "fp": "8d3f21621623",
+     "status": "verified"
+    },
+    {
+     "fp": "d0a80716aa68",
+     "status": "verified"
+    },
+    {
+     "fp": "76a792c2be7e",
+     "status": "verified"
+    },
+    {
+     "fp": "b1b4ba62e329",
+     "status": "verified"
+    },
+    {
+     "fp": "fab71a158e68",
+     "status": "verified"
+    },
+    {
+     "fp": "c887cdfdea33",
+     "status": "verified"
+    },
+    {
+     "fp": "a8035a6c8aeb",
+     "status": "verified"
+    },
+    {
+     "fp": "8ca6b30c555f",
+     "status": "verified"
+    },
+    {
+     "fp": "75e82aed35c5",
+     "status": "verified"
+    },
+    {
+     "fp": "fa30812cef27",
+     "status": "verified"
+    },
+    {
+     "fp": "b7955cce6773",
+     "status": "verified"
+    },
+    {
+     "fp": "e6cead53a3ca",
+     "status": "verified"
+    },
+    {
+     "fp": "d667bee7b2a7",
+     "status": "verified"
+    },
+    {
+     "fp": "d429cffd195d",
+     "status": "verified"
+    },
+    {
+     "fp": "393ae659b9d8",
+     "status": "verified"
+    },
+    {
+     "fp": "4024e0ef852f",
+     "status": "verified"
+    },
+    {
+     "fp": "39ede5d7c5f5",
+     "status": "verified"
+    },
+    {
+     "fp": "596ede61b2e5",
+     "status": "verified"
+    },
+    {
+     "fp": "2f621065cc69",
+     "status": "verified"
+    },
+    {
+     "fp": "25d4573cd077",
+     "status": "verified"
+    },
+    {
+     "fp": "069552cc57d5",
+     "status": "verified"
+    },
+    {
+     "fp": "21a6b8d8d908",
+     "status": "verified"
+    },
+    {
+     "fp": "e6c467d6adcd",
+     "status": "verified"
+    },
+    {
+     "fp": "34b57b79ae9a",
+     "status": "verified-other"
+    },
+    {
+     "fp": "541376603566",
+     "status": "verified"
+    },
+    {
+     "fp": "b39bf2c9c26d",
+     "status": "verified"
+    },
+    {
+     "fp": "b922f9302a07",
+     "status": "verified"
+    },
+    {
+     "fp": "69cad29c673c",
+     "status": "verified"
+    },
+    {
+     "fp": "0dff884a7d0d",
+     "status": "verified"
+    },
+    {
+     "fp": "dff4fcf1f0eb",
+     "status": "verified"
+    },
+    {
+     "fp": "6a82fc3124b4",
+     "status": "verified"
+    },
+    {
+     "fp": "0d012c61b8b5",
+     "status": "verified"
+    },
+    {
+     "fp": "bdecd2d58070",
+     "status": "verified"
+    },
+    {
+     "fp": "6b50b5f5c848",
+     "status": "verified"
+    },
+    {
+     "fp": "ac0bd3151006",
+     "status": "verified"
+    },
+    {
+     "fp": "401db3eb69a1",
+     "status": "verified"
+    },
+    {
+     "fp": "b80bac5594e1",
+     "status": "verified"
+    },
+    {
+     "fp": "431e214b4ab3",
+     "status": "verified"
+    },
+    {
+     "fp": "472f4923e06a",
+     "status": "verified"
+    },
+    {
+     "fp": "fdcf86187ceb",
+     "status": "verified"
+    },
+    {
+     "fp": "d4629310b2e8",
+     "status": "verified"
+    },
+    {
+     "fp": "fcfdd43e665a",
+     "status": "verified"
+    },
+    {
+     "fp": "94d0c33c9ef9",
+     "status": "verified"
+    },
+    {
+     "fp": "131dd1e3aa73",
+     "status": "verified"
+    },
+    {
+     "fp": "e62ea9e07c34",
+     "status": "verified"
+    },
+    {
+     "fp": "1defe476fd8a",
+     "status": "verified"
+    },
+    {
+     "fp": "37aeffabc511",
+     "status": "verified"
+    },
+    {
+     "fp": "d626eeccb47d",
+     "status": "verified"
+    },
+    {
+     "fp": "49dccca570ad",
+     "status": "verified"
+    },
+    {
+     "fp": "63f8c6f39e28",
+     "status": "verified"
+    },
+    {
+     "fp": "b4d2afac7e1a",
+     "status": "verified"
+    },
+    {
+     "fp": "f04ce3fcf14c",
+     "status": "verified"
+    },
+    {
+     "fp": "db4f9594e0e3",
+     "status": "verified"
+    },
+    {
+     "fp": "3f0e31f92dd0",
+     "status": "verified"
+    },
+    {
+     "fp": "dcb0dc6f1198",
+     "status": "verified"
+    },
+    {
+     "fp": "f5bcae57270e",
+     "status": "verified"
+    },
+    {
+     "fp": "c33d8cac256e",
+     "status": "verified"
+    },
+    {
+     "fp": "0acb89a77bce",
+     "status": "verified"
+    },
+    {
+     "fp": "1a0709d52db8",
+     "status": "verified"
+    },
+    {
+     "fp": "932d43e048b4",
+     "status": "verified"
+    },
+    {
+     "fp": "f3ebc1316b79",
+     "status": "verified"
+    },
+    {
+     "fp": "7865ddb92bfb",
+     "status": "verified"
+    },
+    {
+     "fp": "07a09430c94e",
+     "status": "card"
+    }
+   ]
+  },
+  "Items & Artifacts Index.md": {
+   "counts": {
+    "excepted": 2,
+    "verified": 104,
+    "verified-other": 2
+   },
+   "quotes": [
+    {
+     "fp": "e3b774f44daa",
+     "status": "verified"
+    },
+    {
+     "fp": "dca04feb51d1",
+     "status": "verified"
+    },
+    {
+     "fp": "10d752ecaf26",
+     "status": "verified"
+    },
+    {
+     "fp": "1fd8359ba24b",
+     "status": "verified"
+    },
+    {
+     "fp": "83b246c13129",
+     "status": "verified"
+    },
+    {
+     "fp": "66c1e2f5f9c1",
+     "status": "verified"
+    },
+    {
+     "fp": "f50f0b8f9f26",
+     "status": "verified"
+    },
+    {
+     "fp": "3fbcf5bec279",
+     "status": "verified"
+    },
+    {
+     "fp": "1dc5be21d416",
+     "status": "verified"
+    },
+    {
+     "fp": "5936e64557de",
+     "status": "verified"
+    },
+    {
+     "fp": "15c2c64da3df",
+     "status": "verified"
+    },
+    {
+     "fp": "949664a79ed6",
+     "status": "verified"
+    },
+    {
+     "fp": "6aa436bb5450",
+     "status": "verified"
+    },
+    {
+     "fp": "31a4a13a9528",
+     "status": "verified"
+    },
+    {
+     "fp": "961fa8386aa5",
+     "status": "verified"
+    },
+    {
+     "fp": "02eace02c801",
+     "status": "verified"
+    },
+    {
+     "fp": "f35a131a0ff3",
+     "status": "verified"
+    },
+    {
+     "fp": "f37205be2098",
+     "status": "verified"
+    },
+    {
+     "fp": "637b9ab36a5f",
+     "status": "verified"
+    },
+    {
+     "fp": "a66af28f6fcf",
+     "status": "verified"
+    },
+    {
+     "fp": "969429cb26f6",
+     "status": "verified"
+    },
+    {
+     "fp": "134408f9f73a",
+     "status": "verified"
+    },
+    {
+     "fp": "89fa61f6389c",
+     "status": "verified"
+    },
+    {
+     "fp": "be8ca746d66c",
+     "status": "verified"
+    },
+    {
+     "fp": "a0906ecdb11b",
+     "status": "verified"
+    },
+    {
+     "fp": "e2f3c797779d",
+     "status": "verified"
+    },
+    {
+     "fp": "187665dcc9bc",
+     "status": "verified"
+    },
+    {
+     "fp": "b35380a65dd5",
+     "status": "verified"
+    },
+    {
+     "fp": "8f513d59ba8a",
+     "status": "verified"
+    },
+    {
+     "fp": "b32c96c49d57",
+     "status": "verified"
+    },
+    {
+     "fp": "2165d6f01b35",
+     "status": "verified"
+    },
+    {
+     "fp": "2d629f26b2a8",
+     "status": "verified"
+    },
+    {
+     "fp": "9319496dd58a",
+     "status": "verified"
+    },
+    {
+     "fp": "175b2ddd5701",
+     "status": "verified"
+    },
+    {
+     "fp": "4227fe0f9a6c",
+     "status": "verified"
+    },
+    {
+     "fp": "6baa8cfdacf9",
+     "status": "verified-other"
+    },
+    {
+     "fp": "87140cf28ec6",
+     "status": "verified"
+    },
+    {
+     "fp": "f655d42eb074",
+     "status": "verified"
+    },
+    {
+     "fp": "a54e16a39e5f",
+     "status": "verified"
+    },
+    {
+     "fp": "8f0205fa2af2",
+     "status": "verified"
+    },
+    {
+     "fp": "208147c6a9ce",
+     "status": "verified"
+    },
+    {
+     "fp": "6257e1459421",
+     "status": "excepted:image-text",
+     "quote": "a massive crystal formation"
+    },
+    {
+     "fp": "63a4bf1b5a76",
+     "status": "excepted:image-text",
+     "quote": "explodes in a flash of orange light"
+    },
+    {
+     "fp": "d29cdf3cc063",
+     "status": "verified"
+    },
+    {
+     "fp": "c0220496ae9c",
+     "status": "verified"
+    },
+    {
+     "fp": "3772d010b93d",
+     "status": "verified"
+    },
+    {
+     "fp": "f349ab59d5d8",
+     "status": "verified"
+    },
+    {
+     "fp": "090aa22f244c",
+     "status": "verified"
+    },
+    {
+     "fp": "9b8b42460466",
+     "status": "verified"
+    },
+    {
+     "fp": "291624c86e36",
+     "status": "verified"
+    },
+    {
+     "fp": "51b78570063d",
+     "status": "verified"
+    },
+    {
+     "fp": "b6fdf470d2ec",
+     "status": "verified"
+    },
+    {
+     "fp": "1f427d6049db",
+     "status": "verified"
+    },
+    {
+     "fp": "1478df7beb2d",
+     "status": "verified"
+    },
+    {
+     "fp": "74716ea65dbf",
+     "status": "verified"
+    },
+    {
+     "fp": "fc8ea92fee70",
+     "status": "verified"
+    },
+    {
+     "fp": "2429fc31fbba",
+     "status": "verified"
+    },
+    {
+     "fp": "17cad8823c98",
+     "status": "verified"
+    },
+    {
+     "fp": "1b19c9a9b7f5",
+     "status": "verified"
+    },
+    {
+     "fp": "94fb9bd306c0",
+     "status": "verified"
+    },
+    {
+     "fp": "501073e1a8a0",
+     "status": "verified"
+    },
+    {
+     "fp": "bc4b526dbcc0",
+     "status": "verified"
+    },
+    {
+     "fp": "bcfa45239b77",
+     "status": "verified"
+    },
+    {
+     "fp": "25c08f4abf76",
+     "status": "verified"
+    },
+    {
+     "fp": "f3b4810ca6be",
+     "status": "verified"
+    },
+    {
+     "fp": "1af4013ff5cb",
+     "status": "verified"
+    },
+    {
+     "fp": "a4551840c093",
+     "status": "verified"
+    },
+    {
+     "fp": "18b4e0405c60",
+     "status": "verified"
+    },
+    {
+     "fp": "70e378015fa9",
+     "status": "verified"
+    },
+    {
+     "fp": "4c611b08e68a",
+     "status": "verified"
+    },
+    {
+     "fp": "9b1d046ebe09",
+     "status": "verified"
+    },
+    {
+     "fp": "2ed5d6e4ca30",
+     "status": "verified"
+    },
+    {
+     "fp": "4bf5d659f641",
+     "status": "verified"
+    },
+    {
+     "fp": "d4751c5971bb",
+     "status": "verified"
+    },
+    {
+     "fp": "1f8ec2f13d03",
+     "status": "verified"
+    },
+    {
+     "fp": "a1091b170fa3",
+     "status": "verified"
+    },
+    {
+     "fp": "6670defc2a3b",
+     "status": "verified"
+    },
+    {
+     "fp": "c6144ece9b2b",
+     "status": "verified"
+    },
+    {
+     "fp": "5e2100280688",
+     "status": "verified"
+    },
+    {
+     "fp": "7ec99649623c",
+     "status": "verified"
+    },
+    {
+     "fp": "723e33b93234",
+     "status": "verified"
+    },
+    {
+     "fp": "b8ab9a21b58c",
+     "status": "verified"
+    },
+    {
+     "fp": "f03a71217c88",
+     "status": "verified"
+    },
+    {
+     "fp": "858dd63e03f6",
+     "status": "verified"
+    },
+    {
+     "fp": "b51d01a78115",
+     "status": "verified"
+    },
+    {
+     "fp": "5398072d5200",
+     "status": "verified"
+    },
+    {
+     "fp": "00c413324f0a",
+     "status": "verified"
+    },
+    {
+     "fp": "53d03be0d8fa",
+     "status": "verified"
+    },
+    {
+     "fp": "b2c7e6ce08d2",
+     "status": "verified"
+    },
+    {
+     "fp": "32fc714a7073",
+     "status": "verified"
+    },
+    {
+     "fp": "eacedea07736",
+     "status": "verified"
+    },
+    {
+     "fp": "be237ab4a827",
+     "status": "verified"
+    },
+    {
+     "fp": "c1d399c784f1",
+     "status": "verified"
+    },
+    {
+     "fp": "e296b113d1bd",
+     "status": "verified"
+    },
+    {
+     "fp": "87841db05afb",
+     "status": "verified"
+    },
+    {
+     "fp": "e4135c3ae2bf",
+     "status": "verified"
+    },
+    {
+     "fp": "3e24819c5668",
+     "status": "verified"
+    },
+    {
+     "fp": "65ac4dd39af0",
+     "status": "verified"
+    },
+    {
+     "fp": "ca5a84f28f3e",
+     "status": "verified"
+    },
+    {
+     "fp": "a7b5611259f4",
+     "status": "verified"
+    },
+    {
+     "fp": "841cb1fca74a",
+     "status": "verified"
+    },
+    {
+     "fp": "20fdff4a12be",
+     "status": "verified"
+    },
+    {
+     "fp": "e17c67ef8e97",
+     "status": "verified"
+    },
+    {
+     "fp": "503b17f01b25",
+     "status": "verified"
+    },
+    {
+     "fp": "cd357ba5f9e0",
+     "status": "verified"
+    },
+    {
+     "fp": "e82059e43126",
+     "status": "verified"
+    },
+    {
+     "fp": "922333ed49dd",
+     "status": "verified"
+    },
+    {
+     "fp": "99ed3ebe10d7",
+     "status": "verified-other"
+    }
+   ]
+  },
+  "Contradictions & Retcons Log.md": {
+   "counts": {
+    "excepted": 2,
+    "verified": 92,
+    "verified-other": 2
+   },
+   "quotes": [
+    {
+     "fp": "0b7eb256017b",
+     "status": "verified"
+    },
+    {
+     "fp": "102f3da10bc3",
+     "status": "verified"
+    },
+    {
+     "fp": "4f661978fd8d",
+     "status": "verified"
+    },
+    {
+     "fp": "732a44ab0060",
+     "status": "verified"
+    },
+    {
+     "fp": "3fd1166e50dd",
+     "status": "verified"
+    },
+    {
+     "fp": "727d151aeb73",
+     "status": "verified"
+    },
+    {
+     "fp": "b7f0f39d0173",
+     "status": "excepted:not-a-quote",
+     "quote": "After Reckoning"
+    },
+    {
+     "fp": "4569f9baeaed",
+     "status": "verified"
+    },
+    {
+     "fp": "449c336d1e76",
+     "status": "excepted:not-a-quote",
+     "quote": "defeated for good"
+    },
+    {
+     "fp": "442427eb5a88",
+     "status": "verified"
+    },
+    {
+     "fp": "95c2c8114e25",
+     "status": "verified"
+    },
+    {
+     "fp": "0384d3d68b2f",
+     "status": "verified"
+    },
+    {
+     "fp": "147d1602d15e",
+     "status": "verified"
+    },
+    {
+     "fp": "ba817e00ea42",
+     "status": "verified"
+    },
+    {
+     "fp": "8646c9cb4cbd",
+     "status": "verified"
+    },
+    {
+     "fp": "67cbedfbc0c3",
+     "status": "verified"
+    },
+    {
+     "fp": "5b6dd803e95f",
+     "status": "verified"
+    },
+    {
+     "fp": "dc1c501f7f65",
+     "status": "verified"
+    },
+    {
+     "fp": "6ca9b40d350f",
+     "status": "verified"
+    },
+    {
+     "fp": "f1d6620c950d",
+     "status": "verified"
+    },
+    {
+     "fp": "4570b367c32d",
+     "status": "verified"
+    },
+    {
+     "fp": "265a2b1f56b5",
+     "status": "verified"
+    },
+    {
+     "fp": "52b7d39c689a",
+     "status": "verified"
+    },
+    {
+     "fp": "94f90976f4b6",
+     "status": "verified"
+    },
+    {
+     "fp": "9df5c035e2fa",
+     "status": "verified"
+    },
+    {
+     "fp": "314d202cebc1",
+     "status": "verified"
+    },
+    {
+     "fp": "7fd3bc5c7ccf",
+     "status": "verified"
+    },
+    {
+     "fp": "e73f80ca1093",
+     "status": "verified"
+    },
+    {
+     "fp": "8f99be3e9b73",
+     "status": "verified"
+    },
+    {
+     "fp": "d4aceb0edb90",
+     "status": "verified"
+    },
+    {
+     "fp": "e92719012b7d",
+     "status": "verified"
+    },
+    {
+     "fp": "838efb522887",
+     "status": "verified"
+    },
+    {
+     "fp": "afbc9a983622",
+     "status": "verified"
+    },
+    {
+     "fp": "e5e3f6a18b9e",
+     "status": "verified"
+    },
+    {
+     "fp": "a1276288dc03",
+     "status": "verified"
+    },
+    {
+     "fp": "cc24d2959cad",
+     "status": "verified"
+    },
+    {
+     "fp": "7ba7312f3fc2",
+     "status": "verified"
+    },
+    {
+     "fp": "9175e6cfc062",
+     "status": "verified"
+    },
+    {
+     "fp": "cce0fd50c38f",
+     "status": "verified"
+    },
+    {
+     "fp": "37cc7cca6712",
+     "status": "verified"
+    },
+    {
+     "fp": "c7b1b7f153c5",
+     "status": "verified"
+    },
+    {
+     "fp": "be68e7fe79bd",
+     "status": "verified"
+    },
+    {
+     "fp": "ecfb482105e1",
+     "status": "verified"
+    },
+    {
+     "fp": "c30729cc72a9",
+     "status": "verified"
+    },
+    {
+     "fp": "f75ec30a22f2",
+     "status": "verified"
+    },
+    {
+     "fp": "3eb3356affcb",
+     "status": "verified"
+    },
+    {
+     "fp": "2f870db3078e",
+     "status": "verified"
+    },
+    {
+     "fp": "86caf871d936",
+     "status": "verified"
+    },
+    {
+     "fp": "fbc279f5c0b6",
+     "status": "verified"
+    },
+    {
+     "fp": "01526304e091",
+     "status": "verified"
+    },
+    {
+     "fp": "d66e9451e277",
+     "status": "verified"
+    },
+    {
+     "fp": "5af96acb29ff",
+     "status": "verified"
+    },
+    {
+     "fp": "576f7c787494",
+     "status": "verified"
+    },
+    {
+     "fp": "4c9c49f46aee",
+     "status": "verified"
+    },
+    {
+     "fp": "c4234b706f2a",
+     "status": "verified"
+    },
+    {
+     "fp": "281958ae9539",
+     "status": "verified"
+    },
+    {
+     "fp": "7fffd919711f",
+     "status": "verified"
+    },
+    {
+     "fp": "53521c25dff4",
+     "status": "verified"
+    },
+    {
+     "fp": "d48a003833b3",
+     "status": "verified"
+    },
+    {
+     "fp": "17758435b71b",
+     "status": "verified"
+    },
+    {
+     "fp": "ee16f2b8e7c3",
+     "status": "verified"
+    },
+    {
+     "fp": "9e822ac9bf3b",
+     "status": "verified"
+    },
+    {
+     "fp": "e235c07d2e46",
+     "status": "verified"
+    },
+    {
+     "fp": "56bddfde0be4",
+     "status": "verified"
+    },
+    {
+     "fp": "df572dade62c",
+     "status": "verified"
+    },
+    {
+     "fp": "3794469fe17e",
+     "status": "verified"
+    },
+    {
+     "fp": "6e7bb855e07f",
+     "status": "verified"
+    },
+    {
+     "fp": "54b42aaeaefb",
+     "status": "verified"
+    },
+    {
+     "fp": "14d9daaf8dba",
+     "status": "verified"
+    },
+    {
+     "fp": "b097dc1b8457",
+     "status": "verified"
+    },
+    {
+     "fp": "a6cd4a763c44",
+     "status": "verified"
+    },
+    {
+     "fp": "da60d46344e7",
+     "status": "verified"
+    },
+    {
+     "fp": "f3b4810ca6be",
+     "status": "verified"
+    },
+    {
+     "fp": "1af4013ff5cb",
+     "status": "verified"
+    },
+    {
+     "fp": "fbaa54ac7cae",
+     "status": "verified"
+    },
+    {
+     "fp": "8ff747fb1bfc",
+     "status": "verified"
+    },
+    {
+     "fp": "2405dd8f7424",
+     "status": "verified"
+    },
+    {
+     "fp": "2ef2d967e57c",
+     "status": "verified"
+    },
+    {
+     "fp": "e2cd4b8e8a7a",
+     "status": "verified"
+    },
+    {
+     "fp": "ab060ba874f9",
+     "status": "verified"
+    },
+    {
+     "fp": "06761a369088",
+     "status": "verified"
+    },
+    {
+     "fp": "ee1ee6cc32e3",
+     "status": "verified"
+    },
+    {
+     "fp": "1dc5be21d416",
+     "status": "verified"
+    },
+    {
+     "fp": "2eb3ebc88e90",
+     "status": "verified"
+    },
+    {
+     "fp": "15c2c64da3df",
+     "status": "verified"
+    },
+    {
+     "fp": "2288dd228163",
+     "status": "verified"
+    },
+    {
+     "fp": "548ae2635500",
+     "status": "verified"
+    },
+    {
+     "fp": "6592d1243edd",
+     "status": "verified"
+    },
+    {
+     "fp": "54ef17e9620d",
+     "status": "verified"
+    },
+    {
+     "fp": "95938ccca255",
+     "status": "verified"
+    },
+    {
+     "fp": "afbc9a983622",
+     "status": "verified"
+    },
+    {
+     "fp": "bd09078b18d4",
+     "status": "verified"
+    },
+    {
+     "fp": "18f9b90be84b",
+     "status": "verified"
+    },
+    {
+     "fp": "8efa3f957841",
+     "status": "verified"
+    },
+    {
+     "fp": "316137053050",
+     "status": "verified-other"
+    },
+    {
+     "fp": "77a0ebd11086",
+     "status": "verified-other"
+    }
+   ]
+  },
+  "Characters Index.md": {
+   "counts": {
+    "verified": 124,
+    "verified-other": 11
+   },
+   "quotes": [
+    {
+     "fp": "a9d3b8e31af5",
+     "status": "verified"
+    },
+    {
+     "fp": "0037cc59bb2f",
+     "status": "verified"
+    },
+    {
+     "fp": "17b04f862ed3",
+     "status": "verified"
+    },
+    {
+     "fp": "975ebd3cc9b9",
+     "status": "verified-other"
+    },
+    {
+     "fp": "290a7231e773",
+     "status": "verified"
+    },
+    {
+     "fp": "f5614694188a",
+     "status": "verified"
+    },
+    {
+     "fp": "cf46f568135a",
+     "status": "verified"
+    },
+    {
+     "fp": "6846d4ed99aa",
+     "status": "verified"
+    },
+    {
+     "fp": "16b61eb034c6",
+     "status": "verified"
+    },
+    {
+     "fp": "ba817e00ea42",
+     "status": "verified"
+    },
+    {
+     "fp": "b0c7fcc9cea9",
+     "status": "verified"
+    },
+    {
+     "fp": "36ba651b5bbb",
+     "status": "verified"
+    },
+    {
+     "fp": "14d9daaf8dba",
+     "status": "verified"
+    },
+    {
+     "fp": "b097dc1b8457",
+     "status": "verified"
+    },
+    {
+     "fp": "a6cd4a763c44",
+     "status": "verified"
+    },
+    {
+     "fp": "dad8411899f5",
+     "status": "verified"
+    },
+    {
+     "fp": "bc9440bafbb2",
+     "status": "verified-other"
+    },
+    {
+     "fp": "8b0ffb40d3ad",
+     "status": "verified"
+    },
+    {
+     "fp": "bd09b36817b0",
+     "status": "verified"
+    },
+    {
+     "fp": "e9e0b14ac59d",
+     "status": "verified"
+    },
+    {
+     "fp": "29f4beed50d7",
+     "status": "verified"
+    },
+    {
+     "fp": "29f996ab116d",
+     "status": "verified"
+    },
+    {
+     "fp": "d2180e8a080f",
+     "status": "verified"
+    },
+    {
+     "fp": "4efc08ce5272",
+     "status": "verified"
+    },
+    {
+     "fp": "3ac214a28fce",
+     "status": "verified"
+    },
+    {
+     "fp": "b24f983d1a77",
+     "status": "verified"
+    },
+    {
+     "fp": "17758435b71b",
+     "status": "verified"
+    },
+    {
+     "fp": "9abdb0b7ab05",
+     "status": "verified"
+    },
+    {
+     "fp": "024f449672cb",
+     "status": "verified"
+    },
+    {
+     "fp": "489407bec24f",
+     "status": "verified-other"
+    },
+    {
+     "fp": "dbdd5f70e178",
+     "status": "verified"
+    },
+    {
+     "fp": "63a8e9f855f7",
+     "status": "verified"
+    },
+    {
+     "fp": "e4a4ca2a183a",
+     "status": "verified"
+    },
+    {
+     "fp": "2c6400756824",
+     "status": "verified"
+    },
+    {
+     "fp": "f72d282b5148",
+     "status": "verified"
+    },
+    {
+     "fp": "6411352be9e1",
+     "status": "verified"
+    },
+    {
+     "fp": "2293c4244c98",
+     "status": "verified"
+    },
+    {
+     "fp": "11e5010b48dc",
+     "status": "verified"
+    },
+    {
+     "fp": "c5041dd71c71",
+     "status": "verified"
+    },
+    {
+     "fp": "755641d3a281",
+     "status": "verified-other"
+    },
+    {
+     "fp": "fa907fd0485e",
+     "status": "verified"
+    },
+    {
+     "fp": "dbb264dbdd7d",
+     "status": "verified"
+    },
+    {
+     "fp": "7b7a7ed68135",
+     "status": "verified-other"
+    },
+    {
+     "fp": "fd4c7a2ed143",
+     "status": "verified"
+    },
+    {
+     "fp": "a9e332f6a5af",
+     "status": "verified-other"
+    },
+    {
+     "fp": "2a4ff8aecb26",
+     "status": "verified"
+    },
+    {
+     "fp": "065608d54237",
+     "status": "verified"
+    },
+    {
+     "fp": "9df5c035e2fa",
+     "status": "verified"
+    },
+    {
+     "fp": "9449ff154268",
+     "status": "verified"
+    },
+    {
+     "fp": "cee1a86be791",
+     "status": "verified"
+    },
+    {
+     "fp": "9948f8e02e46",
+     "status": "verified-other"
+    },
+    {
+     "fp": "49c92396925d",
+     "status": "verified"
+    },
+    {
+     "fp": "3dd39b5f8857",
+     "status": "verified"
+    },
+    {
+     "fp": "dba66397d553",
+     "status": "verified"
+    },
+    {
+     "fp": "1bdbb900f109",
+     "status": "verified"
+    },
+    {
+     "fp": "3bbb13e6cb8a",
+     "status": "verified"
+    },
+    {
+     "fp": "63e077e6f635",
+     "status": "verified"
+    },
+    {
+     "fp": "a19861f4f29e",
+     "status": "verified"
+    },
+    {
+     "fp": "6408109cdde1",
+     "status": "verified"
+    },
+    {
+     "fp": "b60873b15594",
+     "status": "verified"
+    },
+    {
+     "fp": "3b0b1feef275",
+     "status": "verified"
+    },
+    {
+     "fp": "489407bec24f",
+     "status": "verified"
+    },
+    {
+     "fp": "92cc8faf9feb",
+     "status": "verified"
+    },
+    {
+     "fp": "9db7feb8c24a",
+     "status": "verified"
+    },
+    {
+     "fp": "79bdcb00a47c",
+     "status": "verified"
+    },
+    {
+     "fp": "d985d710463b",
+     "status": "verified"
+    },
+    {
+     "fp": "a550a209d4a3",
+     "status": "verified"
+    },
+    {
+     "fp": "8de419d26a94",
+     "status": "verified"
+    },
+    {
+     "fp": "8abee3c4590b",
+     "status": "verified"
+    },
+    {
+     "fp": "7e0adc770d0a",
+     "status": "verified"
+    },
+    {
+     "fp": "81a1a4747bd0",
+     "status": "verified"
+    },
+    {
+     "fp": "fdc2fa0156b0",
+     "status": "verified"
+    },
+    {
+     "fp": "8c819d02bebb",
+     "status": "verified-other"
+    },
+    {
+     "fp": "8870dc16c10c",
+     "status": "verified"
+    },
+    {
+     "fp": "ea3800179e2f",
+     "status": "verified"
+    },
+    {
+     "fp": "e07c7817116a",
+     "status": "verified"
+    },
+    {
+     "fp": "b13b5d3a1cc6",
+     "status": "verified"
+    },
+    {
+     "fp": "34a08ac8f368",
+     "status": "verified"
+    },
+    {
+     "fp": "4021bff9102d",
+     "status": "verified"
+    },
+    {
+     "fp": "2177d1a0be92",
+     "status": "verified"
+    },
+    {
+     "fp": "8ebb46ab12cd",
+     "status": "verified"
+    },
+    {
+     "fp": "f9fb1871bbcd",
+     "status": "verified"
+    },
+    {
+     "fp": "3fbcf5bec279",
+     "status": "verified"
+    },
+    {
+     "fp": "316137053050",
+     "status": "verified"
+    },
+    {
+     "fp": "df3174d81b9a",
+     "status": "verified"
+    },
+    {
+     "fp": "29f996ab116d",
+     "status": "verified"
+    },
+    {
+     "fp": "14aefee0e505",
+     "status": "verified"
+    },
+    {
+     "fp": "da3196f53cd1",
+     "status": "verified"
+    },
+    {
+     "fp": "d19b4ace3c58",
+     "status": "verified"
+    },
+    {
+     "fp": "3feba4835425",
+     "status": "verified"
+    },
+    {
+     "fp": "e535e0c9dfbe",
+     "status": "verified"
+    },
+    {
+     "fp": "1c2ff1c295d9",
+     "status": "verified"
+    },
+    {
+     "fp": "146d559ae253",
+     "status": "verified"
+    },
+    {
+     "fp": "7a191369b256",
+     "status": "verified"
+    },
+    {
+     "fp": "53067a463a55",
+     "status": "verified"
+    },
+    {
+     "fp": "eae48b4adc27",
+     "status": "verified"
+    },
+    {
+     "fp": "4e7872fbf4a4",
+     "status": "verified"
+    },
+    {
+     "fp": "eff15a9c9f29",
+     "status": "verified"
+    },
+    {
+     "fp": "8ebea3468c8e",
+     "status": "verified-other"
+    },
+    {
+     "fp": "9d0e18f33be9",
+     "status": "verified"
+    },
+    {
+     "fp": "4aefe30d8e4e",
+     "status": "verified"
+    },
+    {
+     "fp": "c78495e32018",
+     "status": "verified"
+    },
+    {
+     "fp": "e0f7ef1dc70e",
+     "status": "verified"
+    },
+    {
+     "fp": "0a2f0571e3a1",
+     "status": "verified"
+    },
+    {
+     "fp": "bf615dd44b30",
+     "status": "verified"
+    },
+    {
+     "fp": "a7d8165d8ead",
+     "status": "verified"
+    },
+    {
+     "fp": "789505b8cca5",
+     "status": "verified"
+    },
+    {
+     "fp": "a720e438d824",
+     "status": "verified"
+    },
+    {
+     "fp": "8e1d011163ee",
+     "status": "verified"
+    },
+    {
+     "fp": "296584b91d73",
+     "status": "verified"
+    },
+    {
+     "fp": "47dd88c42b35",
+     "status": "verified"
+    },
+    {
+     "fp": "6236fafd5951",
+     "status": "verified"
+    },
+    {
+     "fp": "28c68c8bffb5",
+     "status": "verified"
+    },
+    {
+     "fp": "693cd63154a4",
+     "status": "verified"
+    },
+    {
+     "fp": "28eb44e9d466",
+     "status": "verified"
+    },
+    {
+     "fp": "0a0be481ba30",
+     "status": "verified"
+    },
+    {
+     "fp": "e2dfee6fb065",
+     "status": "verified"
+    },
+    {
+     "fp": "b69d01d6f54c",
+     "status": "verified"
+    },
+    {
+     "fp": "a091f47c1a85",
+     "status": "verified"
+    },
+    {
+     "fp": "12dd320f128e",
+     "status": "verified"
+    },
+    {
+     "fp": "5862e32f88e2",
+     "status": "verified"
+    },
+    {
+     "fp": "39925e44f98b",
+     "status": "verified"
+    },
+    {
+     "fp": "c232b3292d88",
+     "status": "verified"
+    },
+    {
+     "fp": "dd0c8dbd74d2",
+     "status": "verified"
+    },
+    {
+     "fp": "cfa55e44796a",
+     "status": "verified"
+    },
+    {
+     "fp": "98b9a59576d8",
+     "status": "verified"
+    },
+    {
+     "fp": "037672e9ecc1",
+     "status": "verified"
+    },
+    {
+     "fp": "e88a8ec3adc7",
+     "status": "verified-other"
+    },
+    {
+     "fp": "b063641c9137",
+     "status": "verified"
+    },
+    {
+     "fp": "989c44568a31",
+     "status": "verified"
+    },
+    {
+     "fp": "b7fa8bab668f",
+     "status": "verified"
+    },
+    {
+     "fp": "a0906ecdb11b",
+     "status": "verified"
+    },
+    {
+     "fp": "508c0035c7d3",
+     "status": "verified"
+    },
+    {
+     "fp": "e6d215a0b812",
+     "status": "verified"
+    },
+    {
+     "fp": "693cd63154a4",
+     "status": "verified-other"
+    }
+   ]
+  },
+  "Conflicts & Arcs.md": {
+   "counts": {
+    "card": 5,
+    "excepted": 8,
+    "verified": 375,
+    "verified-other": 4
+   },
+   "quotes": [
+    {
+     "fp": "59e7976bdde8",
+     "status": "verified"
+    },
+    {
+     "fp": "627ab61fbda2",
+     "status": "verified"
+    },
+    {
+     "fp": "fe75435bfd60",
+     "status": "verified"
+    },
+    {
+     "fp": "befc33db4299",
+     "status": "verified"
+    },
+    {
+     "fp": "a92087c2fea6",
+     "status": "verified"
+    },
+    {
+     "fp": "aa95f36a0623",
+     "status": "verified"
+    },
+    {
+     "fp": "6733a0c94a62",
+     "status": "verified-other"
+    },
+    {
+     "fp": "0d262f46e83b",
+     "status": "verified"
+    },
+    {
+     "fp": "d374dc6c9338",
+     "status": "verified"
+    },
+    {
+     "fp": "21ee1170d960",
+     "status": "verified"
+    },
+    {
+     "fp": "92f8866eb613",
+     "status": "verified"
+    },
+    {
+     "fp": "bd09b36817b0",
+     "status": "verified"
+    },
+    {
+     "fp": "e3ad11615e07",
+     "status": "verified"
+    },
+    {
+     "fp": "310d4b588bc5",
+     "status": "verified"
+    },
+    {
+     "fp": "75009b5d0e03",
+     "status": "verified"
+    },
+    {
+     "fp": "f57e6f6cfa85",
+     "status": "verified"
+    },
+    {
+     "fp": "81db48b9c4b8",
+     "status": "verified"
+    },
+    {
+     "fp": "d8d024ba7306",
+     "status": "verified"
+    },
+    {
+     "fp": "a7a940608d18",
+     "status": "verified"
+    },
+    {
+     "fp": "3577f649b4f6",
+     "status": "verified"
+    },
+    {
+     "fp": "35c607fe767f",
+     "status": "verified"
+    },
+    {
+     "fp": "0c9f3df48efa",
+     "status": "verified"
+    },
+    {
+     "fp": "721c0597eed8",
+     "status": "verified"
+    },
+    {
+     "fp": "bbe093b3117a",
+     "status": "verified"
+    },
+    {
+     "fp": "beba795dc569",
+     "status": "verified"
+    },
+    {
+     "fp": "6307cc533161",
+     "status": "verified"
+    },
+    {
+     "fp": "711072e040de",
+     "status": "verified"
+    },
+    {
+     "fp": "9f47b8a880cc",
+     "status": "verified"
+    },
+    {
+     "fp": "2cf09da26f41",
+     "status": "verified"
+    },
+    {
+     "fp": "bb74cea4faa7",
+     "status": "verified"
+    },
+    {
+     "fp": "0733d2ea4773",
+     "status": "verified"
+    },
+    {
+     "fp": "c3349d4c2b84",
+     "status": "verified"
+    },
+    {
+     "fp": "c7e7eb6eb20a",
+     "status": "verified"
+    },
+    {
+     "fp": "1ea4fe40e77a",
+     "status": "verified"
+    },
+    {
+     "fp": "6e0d99f3230c",
+     "status": "verified"
+    },
+    {
+     "fp": "17d54134f437",
+     "status": "verified"
+    },
+    {
+     "fp": "c4dc426f74be",
+     "status": "verified"
+    },
+    {
+     "fp": "c686e5d8b62a",
+     "status": "verified"
+    },
+    {
+     "fp": "d290e4a25ca9",
+     "status": "verified"
+    },
+    {
+     "fp": "10d980a5afe2",
+     "status": "verified"
+    },
+    {
+     "fp": "81d036d52e6e",
+     "status": "verified"
+    },
+    {
+     "fp": "bd1ca4310991",
+     "status": "verified"
+    },
+    {
+     "fp": "9163a2d1fa7d",
+     "status": "verified"
+    },
+    {
+     "fp": "bfeab50d6cc8",
+     "status": "verified"
+    },
+    {
+     "fp": "594e1c088b27",
+     "status": "verified"
+    },
+    {
+     "fp": "2717b994b782",
+     "status": "verified"
+    },
+    {
+     "fp": "9319496dd58a",
+     "status": "verified"
+    },
+    {
+     "fp": "175b2ddd5701",
+     "status": "verified"
+    },
+    {
+     "fp": "3d08e853a509",
+     "status": "verified"
+    },
+    {
+     "fp": "c52ca7cf08d7",
+     "status": "verified"
+    },
+    {
+     "fp": "c8ae6dcef20f",
+     "status": "verified"
+    },
+    {
+     "fp": "2e84ebd7ad9f",
+     "status": "verified"
+    },
+    {
+     "fp": "a2e169bef6d4",
+     "status": "verified"
+    },
+    {
+     "fp": "d6a4583af6dd",
+     "status": "verified"
+    },
+    {
+     "fp": "187665dcc9bc",
+     "status": "verified"
+    },
+    {
+     "fp": "6d6b9e22d326",
+     "status": "verified"
+    },
+    {
+     "fp": "2ac7039c2f33",
+     "status": "verified"
+    },
+    {
+     "fp": "a45bc3a009ca",
+     "status": "verified"
+    },
+    {
+     "fp": "5f04868322ac",
+     "status": "verified"
+    },
+    {
+     "fp": "66a023d33a72",
+     "status": "verified"
+    },
+    {
+     "fp": "0c759f18cca3",
+     "status": "verified"
+    },
+    {
+     "fp": "2ff36d7c6ebf",
+     "status": "verified"
+    },
+    {
+     "fp": "b15d16936b12",
+     "status": "verified"
+    },
+    {
+     "fp": "9221b6a584dc",
+     "status": "verified"
+    },
+    {
+     "fp": "c855a04bbeeb",
+     "status": "verified"
+    },
+    {
+     "fp": "55687dd3dc7d",
+     "status": "verified"
+    },
+    {
+     "fp": "23a11bff0c07",
+     "status": "verified"
+    },
+    {
+     "fp": "7ec5a3d1c074",
+     "status": "verified"
+    },
+    {
+     "fp": "fc98411b2726",
+     "status": "verified"
+    },
+    {
+     "fp": "7a2cb3e9883e",
+     "status": "verified"
+    },
+    {
+     "fp": "53bcf05f1e13",
+     "status": "verified"
+    },
+    {
+     "fp": "620837c3fda4",
+     "status": "verified"
+    },
+    {
+     "fp": "3ff9df4aaad7",
+     "status": "verified"
+    },
+    {
+     "fp": "9f8f0edf4ef0",
+     "status": "verified"
+    },
+    {
+     "fp": "4c709c1acbec",
+     "status": "verified"
+    },
+    {
+     "fp": "77ba9bfb6231",
+     "status": "verified"
+    },
+    {
+     "fp": "77eed4b7a9d6",
+     "status": "verified"
+    },
+    {
+     "fp": "c1075c8f9953",
+     "status": "verified"
+    },
+    {
+     "fp": "fd919109700c",
+     "status": "verified"
+    },
+    {
+     "fp": "09449518c824",
+     "status": "verified"
+    },
+    {
+     "fp": "58c983c39624",
+     "status": "verified"
+    },
+    {
+     "fp": "1b7ab54cd75b",
+     "status": "verified"
+    },
+    {
+     "fp": "5db44edd4b25",
+     "status": "verified"
+    },
+    {
+     "fp": "94cd6f385d3b",
+     "status": "verified"
+    },
+    {
+     "fp": "18d91b6f111e",
+     "status": "verified"
+    },
+    {
+     "fp": "5185ab0d715c",
+     "status": "verified"
+    },
+    {
+     "fp": "612e77741e65",
+     "status": "verified"
+    },
+    {
+     "fp": "6afb07e836c9",
+     "status": "verified"
+    },
+    {
+     "fp": "06f415a11207",
+     "status": "verified"
+    },
+    {
+     "fp": "11ee607929e2",
+     "status": "verified"
+    },
+    {
+     "fp": "e4a98aabc6f5",
+     "status": "verified"
+    },
+    {
+     "fp": "b24e0e265c64",
+     "status": "verified"
+    },
+    {
+     "fp": "f75ec30a22f2",
+     "status": "verified"
+    },
+    {
+     "fp": "3eb3356affcb",
+     "status": "verified"
+    },
+    {
+     "fp": "50901243d5bc",
+     "status": "verified"
+    },
+    {
+     "fp": "d235443d7b02",
+     "status": "verified"
+    },
+    {
+     "fp": "ab019687a895",
+     "status": "verified"
+    },
+    {
+     "fp": "ec24de88cd6e",
+     "status": "verified"
+    },
+    {
+     "fp": "c30729cc72a9",
+     "status": "verified"
+    },
+    {
+     "fp": "3853c8564987",
+     "status": "verified"
+    },
+    {
+     "fp": "7c58096bfd11",
+     "status": "verified"
+    },
+    {
+     "fp": "cc1cb4414965",
+     "status": "verified"
+    },
+    {
+     "fp": "51e208d529e6",
+     "status": "verified"
+    },
+    {
+     "fp": "cb9531b80081",
+     "status": "verified"
+    },
+    {
+     "fp": "36f4d2233d23",
+     "status": "verified"
+    },
+    {
+     "fp": "9c5ef1a726df",
+     "status": "verified"
+    },
+    {
+     "fp": "c20152c7fa4a",
+     "status": "verified"
+    },
+    {
+     "fp": "3c2e635e85fd",
+     "status": "verified"
+    },
+    {
+     "fp": "2955d04fb1e9",
+     "status": "verified"
+    },
+    {
+     "fp": "62320ad16269",
+     "status": "verified"
+    },
+    {
+     "fp": "6e6c03bab4fc",
+     "status": "verified"
+    },
+    {
+     "fp": "8af206761a48",
+     "status": "verified"
+    },
+    {
+     "fp": "1dbe03927dac",
+     "status": "verified"
+    },
+    {
+     "fp": "684c60124942",
+     "status": "verified"
+    },
+    {
+     "fp": "ad37638ab6d8",
+     "status": "verified"
+    },
+    {
+     "fp": "bf53f65e05f4",
+     "status": "verified"
+    },
+    {
+     "fp": "33b415c3bff6",
+     "status": "verified"
+    },
+    {
+     "fp": "f919ccc30e78",
+     "status": "verified"
+    },
+    {
+     "fp": "76b82b0f8b77",
+     "status": "verified"
+    },
+    {
+     "fp": "6a721a9ab833",
+     "status": "verified"
+    },
+    {
+     "fp": "0ffdeff72acb",
+     "status": "verified"
+    },
+    {
+     "fp": "2e75ab907ede",
+     "status": "verified"
+    },
+    {
+     "fp": "f56e0fb9bf3d",
+     "status": "verified"
+    },
+    {
+     "fp": "cc673fb63485",
+     "status": "verified"
+    },
+    {
+     "fp": "160ae201e262",
+     "status": "verified-other"
+    },
+    {
+     "fp": "60dc5005ef04",
+     "status": "verified"
+    },
+    {
+     "fp": "3fd1166e50dd",
+     "status": "verified"
+    },
+    {
+     "fp": "10764e4a2d9e",
+     "status": "verified"
+    },
+    {
+     "fp": "67e0f1684008",
+     "status": "verified"
+    },
+    {
+     "fp": "53521c25dff4",
+     "status": "verified"
+    },
+    {
+     "fp": "949664a79ed6",
+     "status": "verified"
+    },
+    {
+     "fp": "bec37cf3d380",
+     "status": "verified"
+    },
+    {
+     "fp": "439c06c37a5f",
+     "status": "verified"
+    },
+    {
+     "fp": "8326ede74317",
+     "status": "verified"
+    },
+    {
+     "fp": "2072ea8a9a94",
+     "status": "verified"
+    },
+    {
+     "fp": "442427eb5a88",
+     "status": "verified"
+    },
+    {
+     "fp": "f66e64ad7228",
+     "status": "verified"
+    },
+    {
+     "fp": "052865e0a60e",
+     "status": "verified"
+    },
+    {
+     "fp": "c4687500a60e",
+     "status": "verified"
+    },
+    {
+     "fp": "d26c4e68bd73",
+     "status": "verified"
+    },
+    {
+     "fp": "e428a76961ed",
+     "status": "excepted:other-source",
+     "quote": "quest for their missing father, High King Kenrith"
+    },
+    {
+     "fp": "b1163a3daecd",
+     "status": "excepted:other-source",
+     "quote": "the wily and inscrutable shapeshifter Oko"
+    },
+    {
+     "fp": "a407718e1ddb",
+     "status": "excepted:other-source",
+     "quote": "pursued relentlessly by Garruk, a cursed hunter stalking Planeswalkers across the Multiverse"
+    },
+    {
+     "fp": "f6734bf347c0",
+     "status": "card"
+    },
+    {
+     "fp": "46ce1a6f38e7",
+     "status": "verified"
+    },
+    {
+     "fp": "232dbf61ebc0",
+     "status": "card"
+    },
+    {
+     "fp": "134408f9f73a",
+     "status": "verified"
+    },
+    {
+     "fp": "e3f645eeb7e7",
+     "status": "verified"
+    },
+    {
+     "fp": "89fa61f6389c",
+     "status": "verified"
+    },
+    {
+     "fp": "c1075c8f9953",
+     "status": "verified"
+    },
+    {
+     "fp": "8123c0fc7ce1",
+     "status": "verified"
+    },
+    {
+     "fp": "06acbace2f8e",
+     "status": "verified"
+    },
+    {
+     "fp": "18509e45cd83",
+     "status": "verified"
+    },
+    {
+     "fp": "54f1b35b9705",
+     "status": "verified"
+    },
+    {
+     "fp": "b5377b286464",
+     "status": "verified"
+    },
+    {
+     "fp": "76b9d3c9304c",
+     "status": "card"
+    },
+    {
+     "fp": "bbc7b3e97e9a",
+     "status": "card"
+    },
+    {
+     "fp": "e2f3c797779d",
+     "status": "verified"
+    },
+    {
+     "fp": "caa10dcfc3bc",
+     "status": "verified"
+    },
+    {
+     "fp": "48c36fb46399",
+     "status": "verified"
+    },
+    {
+     "fp": "5a8323b46753",
+     "status": "verified"
+    },
+    {
+     "fp": "56c0574d6f96",
+     "status": "verified"
+    },
+    {
+     "fp": "0adeafef2d14",
+     "status": "verified"
+    },
+    {
+     "fp": "698b9423c2fb",
+     "status": "verified"
+    },
+    {
+     "fp": "cffe272b2938",
+     "status": "verified"
+    },
+    {
+     "fp": "638894dde6a9",
+     "status": "verified"
+    },
+    {
+     "fp": "7d1204aaa263",
+     "status": "verified"
+    },
+    {
+     "fp": "516b0e0cae70",
+     "status": "excepted:image-text",
+     "quote": "high crimes in the city of Drannith"
+    },
+    {
+     "fp": "d461614a178f",
+     "status": "excepted:image-text",
+     "quote": "a massive crystal formation called the Ozolith"
+    },
+    {
+     "fp": "d7b380d34cc6",
+     "status": "card"
+    },
+    {
+     "fp": "2c9b663799a3",
+     "status": "excepted:image-text",
+     "quote": "who believes Lukka's control over the monsters to be unnatural and cruel, charges him with an army of bonders"
+    },
+    {
+     "fp": "5e0c38844842",
+     "status": "excepted:image-text",
+     "quote": "in Drannith's favor"
+    },
+    {
+     "fp": "6f1dcdcbec06",
+     "status": "excepted:image-text",
+     "quote": "The Ozolith, strained to its core, explodes in a flash of orange light … Lukka lets out a primal scream and disappears, planeswalking for the first time"
+    },
+    {
+     "fp": "19c55ab90d34",
+     "status": "verified"
+    },
+    {
+     "fp": "5abfc55dae8f",
+     "status": "verified-other"
+    },
+    {
+     "fp": "caecc22ce412",
+     "status": "verified"
+    },
+    {
+     "fp": "dc4b2c19da59",
+     "status": "verified"
+    },
+    {
+     "fp": "b493fa95ab17",
+     "status": "verified"
+    },
+    {
+     "fp": "006985032ecf",
+     "status": "verified"
+    },
+    {
+     "fp": "6ca9b40d350f",
+     "status": "verified"
+    },
+    {
+     "fp": "3d00182327a7",
+     "status": "verified"
+    },
+    {
+     "fp": "b9e58ed24d3a",
+     "status": "verified"
+    },
+    {
+     "fp": "a6dc81de651f",
+     "status": "verified"
+    },
+    {
+     "fp": "bf84db8b16b1",
+     "status": "verified"
+    },
+    {
+     "fp": "841cb1fca74a",
+     "status": "verified"
+    },
+    {
+     "fp": "755641d3a281",
+     "status": "verified"
+    },
+    {
+     "fp": "3bf3d3714960",
+     "status": "verified"
+    },
+    {
+     "fp": "e588fa5b73f9",
+     "status": "verified"
+    },
+    {
+     "fp": "6e0a4a9d8f14",
+     "status": "verified"
+    },
+    {
+     "fp": "74bef16155db",
+     "status": "verified"
+    },
+    {
+     "fp": "c64c4ea8cd22",
+     "status": "verified"
+    },
+    {
+     "fp": "d97cedecf98a",
+     "status": "verified"
+    },
+    {
+     "fp": "b0f60a099dff",
+     "status": "verified"
+    },
+    {
+     "fp": "3079f19e48eb",
+     "status": "verified"
+    },
+    {
+     "fp": "4278e05b35ca",
+     "status": "verified"
+    },
+    {
+     "fp": "5b74e297d2b0",
+     "status": "verified"
+    },
+    {
+     "fp": "8d1116f16da7",
+     "status": "verified"
+    },
+    {
+     "fp": "642a74d6569c",
+     "status": "verified"
+    },
+    {
+     "fp": "0cfd8ef79b63",
+     "status": "verified"
+    },
+    {
+     "fp": "cabcc5321e58",
+     "status": "verified"
+    },
+    {
+     "fp": "cc34229eb2de",
+     "status": "verified"
+    },
+    {
+     "fp": "8d709fc77788",
+     "status": "verified"
+    },
+    {
+     "fp": "dff4fcf1f0eb",
+     "status": "verified"
+    },
+    {
+     "fp": "12be5855764b",
+     "status": "verified"
+    },
+    {
+     "fp": "94b716639323",
+     "status": "verified"
+    },
+    {
+     "fp": "09d7ddae3c52",
+     "status": "verified"
+    },
+    {
+     "fp": "3bbb13e6cb8a",
+     "status": "verified"
+    },
+    {
+     "fp": "52b7d39c689a",
+     "status": "verified"
+    },
+    {
+     "fp": "0a18be89535e",
+     "status": "verified"
+    },
+    {
+     "fp": "da52fac6e020",
+     "status": "verified"
+    },
+    {
+     "fp": "9d21efda61e9",
+     "status": "verified"
+    },
+    {
+     "fp": "a67f7dc62ed1",
+     "status": "verified"
+    },
+    {
+     "fp": "231e37236939",
+     "status": "verified"
+    },
+    {
+     "fp": "13fa7aa41506",
+     "status": "verified"
+    },
+    {
+     "fp": "a3dc07b2bac1",
+     "status": "verified"
+    },
+    {
+     "fp": "2266b86aa028",
+     "status": "verified"
+    },
+    {
+     "fp": "f33782bde57c",
+     "status": "verified"
+    },
+    {
+     "fp": "8346d1e874a9",
+     "status": "verified"
+    },
+    {
+     "fp": "10e160e542a1",
+     "status": "verified"
+    },
+    {
+     "fp": "3f55042de0bd",
+     "status": "verified"
+    },
+    {
+     "fp": "31acb48ed2bc",
+     "status": "verified"
+    },
+    {
+     "fp": "2d1774ed5d41",
+     "status": "verified"
+    },
+    {
+     "fp": "fe4f4320a813",
+     "status": "verified"
+    },
+    {
+     "fp": "2591438f704d",
+     "status": "verified"
+    },
+    {
+     "fp": "a54e16a39e5f",
+     "status": "verified"
+    },
+    {
+     "fp": "2499902ccecd",
+     "status": "verified"
+    },
+    {
+     "fp": "31662325f3e6",
+     "status": "verified"
+    },
+    {
+     "fp": "bd1b01f7ae8d",
+     "status": "verified"
+    },
+    {
+     "fp": "10d752ecaf26",
+     "status": "verified"
+    },
+    {
+     "fp": "fdeb23c72f6c",
+     "status": "verified"
+    },
+    {
+     "fp": "48d2c004cd89",
+     "status": "verified"
+    },
+    {
+     "fp": "dca04feb51d1",
+     "status": "verified"
+    },
+    {
+     "fp": "57bfdf5d0d9f",
+     "status": "verified"
+    },
+    {
+     "fp": "b00c821f6fa8",
+     "status": "verified"
+    },
+    {
+     "fp": "2b7538b887cf",
+     "status": "verified"
+    },
+    {
+     "fp": "143b1a013ab4",
+     "status": "verified"
+    },
+    {
+     "fp": "7d1de49cc689",
+     "status": "verified"
+    },
+    {
+     "fp": "91fc1a32f70a",
+     "status": "verified"
+    },
+    {
+     "fp": "ab83da8477d8",
+     "status": "verified"
+    },
+    {
+     "fp": "6150fd2cf125",
+     "status": "verified"
+    },
+    {
+     "fp": "9fbdc2e2a029",
+     "status": "verified"
+    },
+    {
+     "fp": "8f99be3e9b73",
+     "status": "verified"
+    },
+    {
+     "fp": "13b1c7a0db19",
+     "status": "verified"
+    },
+    {
+     "fp": "acbcc3c8524d",
+     "status": "verified"
+    },
+    {
+     "fp": "842898517988",
+     "status": "verified"
+    },
+    {
+     "fp": "56bddfde0be4",
+     "status": "verified"
+    },
+    {
+     "fp": "1acf611a6d3a",
+     "status": "verified"
+    },
+    {
+     "fp": "314d202cebc1",
+     "status": "verified"
+    },
+    {
+     "fp": "8129c1e7a50c",
+     "status": "verified"
+    },
+    {
+     "fp": "ca6851231a37",
+     "status": "verified"
+    },
+    {
+     "fp": "cd9fa2d1b40c",
+     "status": "verified"
+    },
+    {
+     "fp": "03de7eb7571a",
+     "status": "verified"
+    },
+    {
+     "fp": "a9e332f6a5af",
+     "status": "verified"
+    },
+    {
+     "fp": "5540f0764ae8",
+     "status": "verified"
+    },
+    {
+     "fp": "d66e9451e277",
+     "status": "verified"
+    },
+    {
+     "fp": "01526304e091",
+     "status": "verified"
+    },
+    {
+     "fp": "576f7c787494",
+     "status": "verified"
+    },
+    {
+     "fp": "95b7a3f543ea",
+     "status": "verified"
+    },
+    {
+     "fp": "a6a8838fd3f6",
+     "status": "verified"
+    },
+    {
+     "fp": "033503961e61",
+     "status": "verified"
+    },
+    {
+     "fp": "4e36a5a08027",
+     "status": "verified"
+    },
+    {
+     "fp": "8c2bed6a544c",
+     "status": "verified"
+    },
+    {
+     "fp": "b46fdaa30c4e",
+     "status": "verified"
+    },
+    {
+     "fp": "e298c627db85",
+     "status": "verified"
+    },
+    {
+     "fp": "3ebc1f0431f7",
+     "status": "verified"
+    },
+    {
+     "fp": "192113430bd7",
+     "status": "verified"
+    },
+    {
+     "fp": "49ca5cb43e32",
+     "status": "verified"
+    },
+    {
+     "fp": "58b75d9dfeaa",
+     "status": "verified"
+    },
+    {
+     "fp": "baf625d26f57",
+     "status": "verified"
+    },
+    {
+     "fp": "63534b788fe5",
+     "status": "verified"
+    },
+    {
+     "fp": "817e6b1e8d16",
+     "status": "verified"
+    },
+    {
+     "fp": "37a2dbedcde0",
+     "status": "verified"
+    },
+    {
+     "fp": "b5482d42ad57",
+     "status": "verified"
+    },
+    {
+     "fp": "a337f73e784c",
+     "status": "verified"
+    },
+    {
+     "fp": "b8b69ebe044b",
+     "status": "verified"
+    },
+    {
+     "fp": "b27f51ffa08c",
+     "status": "verified"
+    },
+    {
+     "fp": "f093603b0a98",
+     "status": "verified"
+    },
+    {
+     "fp": "8f5234e29abb",
+     "status": "verified"
+    },
+    {
+     "fp": "2dfe781fc3c2",
+     "status": "verified"
+    },
+    {
+     "fp": "0e5e53f89fe3",
+     "status": "verified"
+    },
+    {
+     "fp": "65d08eb00d17",
+     "status": "verified"
+    },
+    {
+     "fp": "329ddc4e9661",
+     "status": "verified"
+    },
+    {
+     "fp": "01f4d1f626f9",
+     "status": "verified"
+    },
+    {
+     "fp": "d9b9c04dfc99",
+     "status": "verified"
+    },
+    {
+     "fp": "83f484bb851b",
+     "status": "verified"
+    },
+    {
+     "fp": "66c1ff8fac43",
+     "status": "verified"
+    },
+    {
+     "fp": "87f85f005d3e",
+     "status": "verified"
+    },
+    {
+     "fp": "2e3445c80857",
+     "status": "verified"
+    },
+    {
+     "fp": "28f0b3f0a28c",
+     "status": "verified"
+    },
+    {
+     "fp": "ea5a5be04fef",
+     "status": "verified"
+    },
+    {
+     "fp": "09c6277f3886",
+     "status": "verified"
+    },
+    {
+     "fp": "6f49a1604f71",
+     "status": "verified"
+    },
+    {
+     "fp": "ad14fb6bf3ae",
+     "status": "verified"
+    },
+    {
+     "fp": "e00e75bd6638",
+     "status": "verified"
+    },
+    {
+     "fp": "6ca2c2b15391",
+     "status": "verified"
+    },
+    {
+     "fp": "6a1f17eb4f00",
+     "status": "verified"
+    },
+    {
+     "fp": "125669dd0606",
+     "status": "verified"
+    },
+    {
+     "fp": "fcf92f9139cb",
+     "status": "verified"
+    },
+    {
+     "fp": "1c6e7ed91a12",
+     "status": "verified"
+    },
+    {
+     "fp": "718dbb62fa61",
+     "status": "verified"
+    },
+    {
+     "fp": "4262eaaff190",
+     "status": "verified"
+    },
+    {
+     "fp": "fc613a6d8f9f",
+     "status": "verified"
+    },
+    {
+     "fp": "dba9aa5b5b12",
+     "status": "verified"
+    },
+    {
+     "fp": "24bade514719",
+     "status": "verified"
+    },
+    {
+     "fp": "2fb94706e02f",
+     "status": "verified"
+    },
+    {
+     "fp": "e92719012b7d",
+     "status": "verified"
+    },
+    {
+     "fp": "e681f8aa8f6a",
+     "status": "verified"
+    },
+    {
+     "fp": "1b459abfdbb7",
+     "status": "verified"
+    },
+    {
+     "fp": "0d404a828cd0",
+     "status": "verified"
+    },
+    {
+     "fp": "732e90c3d7e8",
+     "status": "verified"
+    },
+    {
+     "fp": "434a1bd092be",
+     "status": "verified"
+    },
+    {
+     "fp": "a9068fe93d19",
+     "status": "verified"
+    },
+    {
+     "fp": "0b5e5d3c1093",
+     "status": "verified"
+    },
+    {
+     "fp": "631b8629b3c3",
+     "status": "verified"
+    },
+    {
+     "fp": "7efb862e2002",
+     "status": "verified"
+    },
+    {
+     "fp": "d8f1585856b7",
+     "status": "verified"
+    },
+    {
+     "fp": "70b41ac9a339",
+     "status": "verified"
+    },
+    {
+     "fp": "03c0cc878ea1",
+     "status": "verified"
+    },
+    {
+     "fp": "867c2a7d8034",
+     "status": "verified"
+    },
+    {
+     "fp": "e31175510311",
+     "status": "verified"
+    },
+    {
+     "fp": "3fecf750c982",
+     "status": "verified"
+    },
+    {
+     "fp": "e4ae277cf321",
+     "status": "verified"
+    },
+    {
+     "fp": "135a0c3d075a",
+     "status": "verified"
+    },
+    {
+     "fp": "b4fc94747a80",
+     "status": "verified"
+    },
+    {
+     "fp": "323a9d9c1de8",
+     "status": "verified"
+    },
+    {
+     "fp": "9064ef85d551",
+     "status": "verified"
+    },
+    {
+     "fp": "8a1cb85e2ec2",
+     "status": "verified"
+    },
+    {
+     "fp": "1376f67e6282",
+     "status": "verified"
+    },
+    {
+     "fp": "501233ec1dd6",
+     "status": "verified"
+    },
+    {
+     "fp": "e5e3f6a18b9e",
+     "status": "verified"
+    },
+    {
+     "fp": "6c3c523fcd71",
+     "status": "verified"
+    },
+    {
+     "fp": "f5d1438f69d6",
+     "status": "verified"
+    },
+    {
+     "fp": "0037cc59bb2f",
+     "status": "verified"
+    },
+    {
+     "fp": "f55d40ca619b",
+     "status": "verified"
+    },
+    {
+     "fp": "f9f47a9d33ae",
+     "status": "verified"
+    },
+    {
+     "fp": "c33d8cac256e",
+     "status": "verified"
+    },
+    {
+     "fp": "8096ad19c9b6",
+     "status": "verified"
+    },
+    {
+     "fp": "d09d656cf113",
+     "status": "verified"
+    },
+    {
+     "fp": "711b944ffe64",
+     "status": "verified"
+    },
+    {
+     "fp": "de7f5826e28f",
+     "status": "verified"
+    },
+    {
+     "fp": "a1a9bfe7ae7a",
+     "status": "verified"
+    },
+    {
+     "fp": "838634c63e6a",
+     "status": "verified"
+    },
+    {
+     "fp": "62bfa9894c82",
+     "status": "verified"
+    },
+    {
+     "fp": "1bf14bdad126",
+     "status": "verified"
+    },
+    {
+     "fp": "03bbca5670a0",
+     "status": "verified"
+    },
+    {
+     "fp": "462eb614cdcc",
+     "status": "verified"
+    },
+    {
+     "fp": "443129537a53",
+     "status": "verified"
+    },
+    {
+     "fp": "70cf22f58e12",
+     "status": "verified"
+    },
+    {
+     "fp": "8b0948b74585",
+     "status": "verified"
+    },
+    {
+     "fp": "b0d0ad2ea565",
+     "status": "verified-other"
+    },
+    {
+     "fp": "1fc1db505fb1",
+     "status": "verified"
+    },
+    {
+     "fp": "ebe8da348ced",
+     "status": "verified"
+    },
+    {
+     "fp": "d8a225978e77",
+     "status": "verified"
+    },
+    {
+     "fp": "01fa0116c1cf",
+     "status": "verified"
+    },
+    {
+     "fp": "6cd6d48037a1",
+     "status": "verified"
+    },
+    {
+     "fp": "1ae6283b270b",
+     "status": "verified"
+    },
+    {
+     "fp": "620cd8e92914",
+     "status": "verified"
+    },
+    {
+     "fp": "c3db5b3a9b20",
+     "status": "verified"
+    },
+    {
+     "fp": "dba66397d553",
+     "status": "verified"
+    },
+    {
+     "fp": "fc1698bc4098",
+     "status": "verified"
+    },
+    {
+     "fp": "58ed45314376",
+     "status": "verified"
+    },
+    {
+     "fp": "b78e6acc97d2",
+     "status": "verified"
+    },
+    {
+     "fp": "b2ecc59dc8ec",
+     "status": "verified"
+    },
+    {
+     "fp": "f8b600e53b4e",
+     "status": "verified"
+    },
+    {
+     "fp": "acb0ef92a8bb",
+     "status": "verified"
+    },
+    {
+     "fp": "2e0d405ae1c9",
+     "status": "verified"
+    },
+    {
+     "fp": "b4227cd83c56",
+     "status": "verified"
+    },
+    {
+     "fp": "5218a7438741",
+     "status": "verified"
+    },
+    {
+     "fp": "e6d215a0b812",
+     "status": "verified"
+    },
+    {
+     "fp": "5cab13b5c425",
+     "status": "verified"
+    },
+    {
+     "fp": "ed8114fdb657",
+     "status": "verified"
+    },
+    {
+     "fp": "42248597543e",
+     "status": "verified"
+    },
+    {
+     "fp": "8f4475dfc32a",
+     "status": "verified"
+    },
+    {
+     "fp": "c4c705a3f59b",
+     "status": "verified"
+    },
+    {
+     "fp": "be68e7fe79bd",
+     "status": "verified"
+    },
+    {
+     "fp": "4156a5f0d7b2",
+     "status": "verified"
+    },
+    {
+     "fp": "e4e031d0e8a0",
+     "status": "verified"
+    },
+    {
+     "fp": "674ab344e3f9",
+     "status": "verified"
+    },
+    {
+     "fp": "f91ad4faba7d",
+     "status": "verified"
+    },
+    {
+     "fp": "9c6c9249f17a",
+     "status": "verified"
+    },
+    {
+     "fp": "fb402c4fd906",
+     "status": "verified"
+    },
+    {
+     "fp": "675d6737b1a9",
+     "status": "verified"
+    },
+    {
+     "fp": "337a1de6516c",
+     "status": "verified"
+    },
+    {
+     "fp": "3e25c45bc98d",
+     "status": "verified"
+    },
+    {
+     "fp": "7f158a574508",
+     "status": "verified"
+    },
+    {
+     "fp": "4b3eb097865a",
+     "status": "verified"
+    },
+    {
+     "fp": "cc24d2959cad",
+     "status": "verified"
+    },
+    {
+     "fp": "98a7d7ce94bc",
+     "status": "verified"
+    },
+    {
+     "fp": "83623f761419",
+     "status": "verified"
+    },
+    {
+     "fp": "e1afa53de6ec",
+     "status": "verified"
+    },
+    {
+     "fp": "22d283820adf",
+     "status": "verified"
+    },
+    {
+     "fp": "e6d215a0b812",
+     "status": "verified"
+    }
+   ]
+  },
+  "Master Timeline.md": {
+   "counts": {
+    "excepted": 1,
+    "verified": 21,
+    "verified-other": 4
+   },
+   "quotes": [
+    {
+     "fp": "dd56157a8f55",
+     "status": "verified-other"
+    },
+    {
+     "fp": "b194758bcded",
+     "status": "verified"
+    },
+    {
+     "fp": "781876151c1b",
+     "status": "verified"
+    },
+    {
+     "fp": "4f661978fd8d",
+     "status": "verified"
+    },
+    {
+     "fp": "cc673fb63485",
+     "status": "verified"
+    },
+    {
+     "fp": "5f51ada25e35",
+     "status": "verified"
+    },
+    {
+     "fp": "b7f0f39d0173",
+     "status": "excepted:not-a-quote",
+     "quote": "After Reckoning"
+    },
+    {
+     "fp": "8d17c7739cc6",
+     "status": "verified"
+    },
+    {
+     "fp": "6a3d7c15f840",
+     "status": "verified"
+    },
+    {
+     "fp": "e2ffab143d07",
+     "status": "verified"
+    },
+    {
+     "fp": "3cc321b71ed4",
+     "status": "verified"
+    },
+    {
+     "fp": "576c6d238013",
+     "status": "verified"
+    },
+    {
+     "fp": "49e2509bf4a5",
+     "status": "verified-other"
+    },
+    {
+     "fp": "52bfdf6e5e9e",
+     "status": "verified-other"
+    },
+    {
+     "fp": "eb7c12fd0165",
+     "status": "verified-other"
+    },
+    {
+     "fp": "3fd122f7cdcd",
+     "status": "verified"
+    },
+    {
+     "fp": "28f0b7f2a46c",
+     "status": "verified"
+    },
+    {
+     "fp": "dd56157a8f55",
+     "status": "verified"
+    },
+    {
+     "fp": "4291ad248fab",
+     "status": "verified"
+    },
+    {
+     "fp": "0980f2943c74",
+     "status": "verified"
+    },
+    {
+     "fp": "d24a04d1b645",
+     "status": "verified"
+    },
+    {
+     "fp": "03c0cc878ea1",
+     "status": "verified"
+    },
+    {
+     "fp": "95c2c8114e25",
+     "status": "verified"
+    },
+    {
+     "fp": "ba817e00ea42",
+     "status": "verified"
+    },
+    {
+     "fp": "945455ffecea",
+     "status": "verified"
+    },
+    {
+     "fp": "147d1602d15e",
+     "status": "verified"
+    }
+   ]
+  },
+  "Story Arc Summaries.md": {
+   "counts": {
+    "verified": 215,
+    "verified-other": 5
+   },
+   "quotes": [
+    {
+     "fp": "eef4a5317db1",
+     "status": "verified"
+    },
+    {
+     "fp": "aa5374f8afd4",
+     "status": "verified"
+    },
+    {
+     "fp": "f0874c5e5eb3",
+     "status": "verified"
+    },
+    {
+     "fp": "ec5662e3a6fa",
+     "status": "verified"
+    },
+    {
+     "fp": "55e14c540b6a",
+     "status": "verified"
+    },
+    {
+     "fp": "205033fd3c45",
+     "status": "verified"
+    },
+    {
+     "fp": "c1f345fd9a5f",
+     "status": "verified"
+    },
+    {
+     "fp": "c52ca7cf08d7",
+     "status": "verified"
+    },
+    {
+     "fp": "698639f3da94",
+     "status": "verified"
+    },
+    {
+     "fp": "23224ff409ac",
+     "status": "verified"
+    },
+    {
+     "fp": "7947d56d30f7",
+     "status": "verified"
+    },
+    {
+     "fp": "f2f8ae16dc47",
+     "status": "verified"
+    },
+    {
+     "fp": "652835c60a3e",
+     "status": "verified"
+    },
+    {
+     "fp": "a3eefc176eea",
+     "status": "verified"
+    },
+    {
+     "fp": "e2df2820ac6f",
+     "status": "verified"
+    },
+    {
+     "fp": "9eac6f02198f",
+     "status": "verified"
+    },
+    {
+     "fp": "1c796bbbb183",
+     "status": "verified"
+    },
+    {
+     "fp": "c06f077de200",
+     "status": "verified"
+    },
+    {
+     "fp": "c855a04bbeeb",
+     "status": "verified"
+    },
+    {
+     "fp": "be37d63d940c",
+     "status": "verified"
+    },
+    {
+     "fp": "cdda40c9fc50",
+     "status": "verified"
+    },
+    {
+     "fp": "d39cba6e8145",
+     "status": "verified"
+    },
+    {
+     "fp": "2dfad85b0902",
+     "status": "verified"
+    },
+    {
+     "fp": "159b0ebd045d",
+     "status": "verified"
+    },
+    {
+     "fp": "48a615accd07",
+     "status": "verified"
+    },
+    {
+     "fp": "be06fcbb91da",
+     "status": "verified"
+    },
+    {
+     "fp": "6db0f8646d51",
+     "status": "verified"
+    },
+    {
+     "fp": "4cecf2350cb5",
+     "status": "verified"
+    },
+    {
+     "fp": "5a4c01a2d7bd",
+     "status": "verified"
+    },
+    {
+     "fp": "18fb53a6b050",
+     "status": "verified"
+    },
+    {
+     "fp": "6de6581d362c",
+     "status": "verified"
+    },
+    {
+     "fp": "72f2a20987ea",
+     "status": "verified"
+    },
+    {
+     "fp": "e52cd07256d3",
+     "status": "verified"
+    },
+    {
+     "fp": "d07a4a31e4fa",
+     "status": "verified"
+    },
+    {
+     "fp": "f496da6ac310",
+     "status": "verified"
+    },
+    {
+     "fp": "c30729cc72a9",
+     "status": "verified"
+    },
+    {
+     "fp": "03ea3c600f56",
+     "status": "verified"
+    },
+    {
+     "fp": "ef7f328bb907",
+     "status": "verified"
+    },
+    {
+     "fp": "ad302ee3dd9d",
+     "status": "verified"
+    },
+    {
+     "fp": "585d501a7053",
+     "status": "verified"
+    },
+    {
+     "fp": "36f4d2233d23",
+     "status": "verified"
+    },
+    {
+     "fp": "07b2f135af5b",
+     "status": "verified"
+    },
+    {
+     "fp": "b8b2e5cfbeb5",
+     "status": "verified"
+    },
+    {
+     "fp": "65f37a6b7172",
+     "status": "verified"
+    },
+    {
+     "fp": "495fdba97bf0",
+     "status": "verified"
+    },
+    {
+     "fp": "e3f8f83d5df4",
+     "status": "verified"
+    },
+    {
+     "fp": "4ad8ec225808",
+     "status": "verified"
+    },
+    {
+     "fp": "d8afb2459fe5",
+     "status": "verified"
+    },
+    {
+     "fp": "af61ebb57fe6",
+     "status": "verified"
+    },
+    {
+     "fp": "5c80f08824b3",
+     "status": "verified"
+    },
+    {
+     "fp": "74ce2da7b46f",
+     "status": "verified"
+    },
+    {
+     "fp": "1f8ec11c357b",
+     "status": "verified"
+    },
+    {
+     "fp": "4af3ceb4eafc",
+     "status": "verified"
+    },
+    {
+     "fp": "c5974380b651",
+     "status": "verified"
+    },
+    {
+     "fp": "f263ef10f635",
+     "status": "verified"
+    },
+    {
+     "fp": "427ae1031971",
+     "status": "verified"
+    },
+    {
+     "fp": "2fab79dc0dcd",
+     "status": "verified"
+    },
+    {
+     "fp": "c18b7beaa84d",
+     "status": "verified"
+    },
+    {
+     "fp": "964899e65b9d",
+     "status": "verified"
+    },
+    {
+     "fp": "2b36e064ce6f",
+     "status": "verified"
+    },
+    {
+     "fp": "442427eb5a88",
+     "status": "verified"
+    },
+    {
+     "fp": "8d21506e1cc7",
+     "status": "verified-other"
+    },
+    {
+     "fp": "89e839a97598",
+     "status": "verified"
+    },
+    {
+     "fp": "cda805918551",
+     "status": "verified"
+    },
+    {
+     "fp": "532e0a399d3b",
+     "status": "verified"
+    },
+    {
+     "fp": "9a82eaa55547",
+     "status": "verified"
+    },
+    {
+     "fp": "39b6df462204",
+     "status": "verified"
+    },
+    {
+     "fp": "9d8eaa2b0cb5",
+     "status": "verified"
+    },
+    {
+     "fp": "3d0376ac5c4a",
+     "status": "verified"
+    },
+    {
+     "fp": "697872947323",
+     "status": "verified"
+    },
+    {
+     "fp": "7ae7eb031cfd",
+     "status": "verified"
+    },
+    {
+     "fp": "1661a65f1457",
+     "status": "verified"
+    },
+    {
+     "fp": "3fda0145e995",
+     "status": "verified"
+    },
+    {
+     "fp": "afe12719ea64",
+     "status": "verified"
+    },
+    {
+     "fp": "462149760d1f",
+     "status": "verified"
+    },
+    {
+     "fp": "8129c1e7a50c",
+     "status": "verified"
+    },
+    {
+     "fp": "51fd449a5ed7",
+     "status": "verified"
+    },
+    {
+     "fp": "3e570e552f2a",
+     "status": "verified"
+    },
+    {
+     "fp": "28865d43b5ec",
+     "status": "verified"
+    },
+    {
+     "fp": "5adce1fdd99c",
+     "status": "verified"
+    },
+    {
+     "fp": "de45412e3199",
+     "status": "verified"
+    },
+    {
+     "fp": "e6bd046c366e",
+     "status": "verified"
+    },
+    {
+     "fp": "25d370396c8b",
+     "status": "verified"
+    },
+    {
+     "fp": "05f38a5c4b74",
+     "status": "verified"
+    },
+    {
+     "fp": "4e36a5a08027",
+     "status": "verified"
+    },
+    {
+     "fp": "a694e947567b",
+     "status": "verified"
+    },
+    {
+     "fp": "b2d20ca604a4",
+     "status": "verified"
+    },
+    {
+     "fp": "1d00fe32a6d7",
+     "status": "verified"
+    },
+    {
+     "fp": "270b3c09945c",
+     "status": "verified"
+    },
+    {
+     "fp": "16ac8a2eba17",
+     "status": "verified"
+    },
+    {
+     "fp": "0c9b625cb489",
+     "status": "verified"
+    },
+    {
+     "fp": "df0c97fcc6c7",
+     "status": "verified"
+    },
+    {
+     "fp": "8f8b32c820ed",
+     "status": "verified"
+    },
+    {
+     "fp": "cabf42782965",
+     "status": "verified"
+    },
+    {
+     "fp": "28edf113c6f7",
+     "status": "verified"
+    },
+    {
+     "fp": "a84df456b7b2",
+     "status": "verified-other"
+    },
+    {
+     "fp": "70101cdd5163",
+     "status": "verified"
+    },
+    {
+     "fp": "a337f73e784c",
+     "status": "verified"
+    },
+    {
+     "fp": "ce2a1da25903",
+     "status": "verified"
+    },
+    {
+     "fp": "071885d63f00",
+     "status": "verified"
+    },
+    {
+     "fp": "9d365d385f00",
+     "status": "verified"
+    },
+    {
+     "fp": "8f5234e29abb",
+     "status": "verified"
+    },
+    {
+     "fp": "3cc5bd399457",
+     "status": "verified"
+    },
+    {
+     "fp": "43ba47d16f4c",
+     "status": "verified"
+    },
+    {
+     "fp": "1d3e3e29e1c1",
+     "status": "verified"
+    },
+    {
+     "fp": "b1e29148c303",
+     "status": "verified"
+    },
+    {
+     "fp": "6b79bca3132f",
+     "status": "verified"
+    },
+    {
+     "fp": "7110c730e778",
+     "status": "verified"
+    },
+    {
+     "fp": "96e29a511fab",
+     "status": "verified"
+    },
+    {
+     "fp": "cd39e86ee1c5",
+     "status": "verified"
+    },
+    {
+     "fp": "23b0a0b8bb3f",
+     "status": "verified"
+    },
+    {
+     "fp": "138a0144161f",
+     "status": "verified"
+    },
+    {
+     "fp": "25b767fce84a",
+     "status": "verified"
+    },
+    {
+     "fp": "51e3d14077a3",
+     "status": "verified"
+    },
+    {
+     "fp": "9bd37880e20e",
+     "status": "verified"
+    },
+    {
+     "fp": "42b45ef52082",
+     "status": "verified"
+    },
+    {
+     "fp": "c470e1b228b9",
+     "status": "verified"
+    },
+    {
+     "fp": "0df3f8d24726",
+     "status": "verified"
+    },
+    {
+     "fp": "a885168ecd52",
+     "status": "verified"
+    },
+    {
+     "fp": "3513ea6f285c",
+     "status": "verified"
+    },
+    {
+     "fp": "cfde28feaf07",
+     "status": "verified"
+    },
+    {
+     "fp": "970a073acfd0",
+     "status": "verified"
+    },
+    {
+     "fp": "58a4d0cc5cd7",
+     "status": "verified"
+    },
+    {
+     "fp": "15556ab0795f",
+     "status": "verified"
+    },
+    {
+     "fp": "dd56157a8f55",
+     "status": "verified"
+    },
+    {
+     "fp": "04ed1e364330",
+     "status": "verified"
+    },
+    {
+     "fp": "af16ef2af9c0",
+     "status": "verified"
+    },
+    {
+     "fp": "c1c3e0d74779",
+     "status": "verified"
+    },
+    {
+     "fp": "acc14d40c2b2",
+     "status": "verified-other"
+    },
+    {
+     "fp": "d98cf73a621c",
+     "status": "verified"
+    },
+    {
+     "fp": "bd69721cec4f",
+     "status": "verified"
+    },
+    {
+     "fp": "3d4e321ff791",
+     "status": "verified"
+    },
+    {
+     "fp": "056d39fc4e56",
+     "status": "verified"
+    },
+    {
+     "fp": "4f11dde569b7",
+     "status": "verified"
+    },
+    {
+     "fp": "ca80cec4aeae",
+     "status": "verified"
+    },
+    {
+     "fp": "134834061096",
+     "status": "verified"
+    },
+    {
+     "fp": "418e981bd0f1",
+     "status": "verified"
+    },
+    {
+     "fp": "8047a0b1953e",
+     "status": "verified"
+    },
+    {
+     "fp": "5e9cb1c350a9",
+     "status": "verified"
+    },
+    {
+     "fp": "f2ceeede52fd",
+     "status": "verified"
+    },
+    {
+     "fp": "1609e5626796",
+     "status": "verified"
+    },
+    {
+     "fp": "3bdd33430ea3",
+     "status": "verified"
+    },
+    {
+     "fp": "cdbde9d554d1",
+     "status": "verified"
+    },
+    {
+     "fp": "1b047954e87f",
+     "status": "verified"
+    },
+    {
+     "fp": "490f077143a6",
+     "status": "verified"
+    },
+    {
+     "fp": "700f649aa69c",
+     "status": "verified"
+    },
+    {
+     "fp": "f314640633f6",
+     "status": "verified"
+    },
+    {
+     "fp": "951e702131d9",
+     "status": "verified"
+    },
+    {
+     "fp": "101d2157182d",
+     "status": "verified"
+    },
+    {
+     "fp": "03c0cc878ea1",
+     "status": "verified"
+    },
+    {
+     "fp": "f5364fafbed5",
+     "status": "verified"
+    },
+    {
+     "fp": "a3ce2b812b63",
+     "status": "verified"
+    },
+    {
+     "fp": "f80268b5072b",
+     "status": "verified"
+    },
+    {
+     "fp": "9eb5688e03a0",
+     "status": "verified"
+    },
+    {
+     "fp": "64111133a1fa",
+     "status": "verified"
+    },
+    {
+     "fp": "e4e9b1552e17",
+     "status": "verified"
+    },
+    {
+     "fp": "1376f67e6282",
+     "status": "verified"
+    },
+    {
+     "fp": "31c098f3d36a",
+     "status": "verified"
+    },
+    {
+     "fp": "ac463f1ece20",
+     "status": "verified"
+    },
+    {
+     "fp": "92ddd6ffe9cc",
+     "status": "verified"
+    },
+    {
+     "fp": "672b4e4ee6e6",
+     "status": "verified"
+    },
+    {
+     "fp": "4d78f492623c",
+     "status": "verified"
+    },
+    {
+     "fp": "82c045c88b1d",
+     "status": "verified"
+    },
+    {
+     "fp": "cff2f147fdf1",
+     "status": "verified"
+    },
+    {
+     "fp": "ba3f2c2c5ecd",
+     "status": "verified"
+    },
+    {
+     "fp": "9667f52b9509",
+     "status": "verified"
+    },
+    {
+     "fp": "7bff956c22ba",
+     "status": "verified"
+    },
+    {
+     "fp": "baee6247b6c7",
+     "status": "verified"
+    },
+    {
+     "fp": "838634c63e6a",
+     "status": "verified"
+    },
+    {
+     "fp": "5bc1d2774e3e",
+     "status": "verified"
+    },
+    {
+     "fp": "3f888b24d613",
+     "status": "verified"
+    },
+    {
+     "fp": "70c6484041c6",
+     "status": "verified"
+    },
+    {
+     "fp": "36d7a27289bf",
+     "status": "verified"
+    },
+    {
+     "fp": "3728918813fe",
+     "status": "verified"
+    },
+    {
+     "fp": "b4efde83872a",
+     "status": "verified"
+    },
+    {
+     "fp": "49a75c43b6c2",
+     "status": "verified"
+    },
+    {
+     "fp": "3e4c4c242473",
+     "status": "verified"
+    },
+    {
+     "fp": "4b5b0ca783e4",
+     "status": "verified"
+    },
+    {
+     "fp": "478285cd7dcf",
+     "status": "verified-other"
+    },
+    {
+     "fp": "95ebb0895251",
+     "status": "verified-other"
+    },
+    {
+     "fp": "5d67274fb504",
+     "status": "verified"
+    },
+    {
+     "fp": "96a2491ce39a",
+     "status": "verified"
+    },
+    {
+     "fp": "c49fd650db44",
+     "status": "verified"
+    },
+    {
+     "fp": "ad773020990a",
+     "status": "verified"
+    },
+    {
+     "fp": "03a31639c07e",
+     "status": "verified"
+    },
+    {
+     "fp": "1a4024488f4c",
+     "status": "verified"
+    },
+    {
+     "fp": "72ce00c39dd7",
+     "status": "verified"
+    },
+    {
+     "fp": "bfc1fbb0a71c",
+     "status": "verified"
+    },
+    {
+     "fp": "5fe0c59bd72c",
+     "status": "verified"
+    },
+    {
+     "fp": "28d9e6a038b7",
+     "status": "verified"
+    },
+    {
+     "fp": "f89cadef2ddb",
+     "status": "verified"
+    },
+    {
+     "fp": "aef98453e584",
+     "status": "verified"
+    },
+    {
+     "fp": "a33e260f9b65",
+     "status": "verified"
+    },
+    {
+     "fp": "a52eb7f2ec89",
+     "status": "verified"
+    },
+    {
+     "fp": "4b504b20c1a3",
+     "status": "verified"
+    },
+    {
+     "fp": "e0cbb69914e7",
+     "status": "verified"
+    },
+    {
+     "fp": "5218a7438741",
+     "status": "verified"
+    },
+    {
+     "fp": "754267985ff0",
+     "status": "verified"
+    },
+    {
+     "fp": "9d404d020621",
+     "status": "verified"
+    },
+    {
+     "fp": "c061a4909b7a",
+     "status": "verified"
+    },
+    {
+     "fp": "5295866fc1c1",
+     "status": "verified"
+    },
+    {
+     "fp": "bd111f295a98",
+     "status": "verified"
+    },
+    {
+     "fp": "c389f362d83a",
+     "status": "verified"
+    },
+    {
+     "fp": "80238fa8c103",
+     "status": "verified"
+    },
+    {
+     "fp": "91d682cde700",
+     "status": "verified"
+    },
+    {
+     "fp": "b7a0178d1011",
+     "status": "verified"
+    },
+    {
+     "fp": "786b4c44e886",
+     "status": "verified"
+    },
+    {
+     "fp": "2ecb8aa0f853",
+     "status": "verified"
+    },
+    {
+     "fp": "b798e0d8897a",
+     "status": "verified"
+    },
+    {
+     "fp": "93d3526730d0",
+     "status": "verified"
+    },
+    {
+     "fp": "f1651af4a45b",
+     "status": "verified"
+    },
+    {
+     "fp": "337a1de6516c",
+     "status": "verified"
+    },
+    {
+     "fp": "675d6737b1a9",
+     "status": "verified"
+    },
+    {
+     "fp": "756eaa446c94",
+     "status": "verified"
+    },
+    {
+     "fp": "9a89e8dc0a13",
+     "status": "verified"
+    },
+    {
+     "fp": "a78a0f8f6d6a",
+     "status": "verified"
+    },
+    {
+     "fp": "ab86f05782ae",
+     "status": "verified"
+    },
+    {
+     "fp": "39916a156053",
+     "status": "verified"
+    },
+    {
+     "fp": "07b193638915",
+     "status": "verified"
+    },
+    {
+     "fp": "9856a4f47bb3",
+     "status": "verified"
+    }
+   ]
+  },
+  "Omenpath & Multiverse Connections.md": {
+   "counts": {
+    "verified": 18,
+    "verified-other": 1
+   },
+   "quotes": [
+    {
+     "fp": "dc45791d9a94",
+     "status": "verified-other"
+    },
+    {
+     "fp": "94b33fca7d33",
+     "status": "verified"
+    },
+    {
+     "fp": "8796f2ea7d9d",
+     "status": "verified"
+    },
+    {
+     "fp": "18b1f58c9484",
+     "status": "verified"
+    },
+    {
+     "fp": "c6dc3e3fc911",
+     "status": "verified"
+    },
+    {
+     "fp": "f96adaf2cc4c",
+     "status": "verified"
+    },
+    {
+     "fp": "0934627dcfe9",
+     "status": "verified"
+    },
+    {
+     "fp": "b1e29148c303",
+     "status": "verified"
+    },
+    {
+     "fp": "5a59010a52e7",
+     "status": "verified"
+    },
+    {
+     "fp": "78e0f5ce638b",
+     "status": "verified"
+    },
+    {
+     "fp": "5e9cb1c350a9",
+     "status": "verified"
+    },
+    {
+     "fp": "0d6dd946eb53",
+     "status": "verified"
+    },
+    {
+     "fp": "cc10f5031776",
+     "status": "verified"
+    },
+    {
+     "fp": "8482c98977f7",
+     "status": "verified"
+    },
+    {
+     "fp": "5f135c662e97",
+     "status": "verified"
+    },
+    {
+     "fp": "fff6962c2a2c",
+     "status": "verified"
+    },
+    {
+     "fp": "52f17f4915f3",
+     "status": "verified"
+    },
+    {
+     "fp": "7322d5afe8d1",
+     "status": "verified"
+    },
+    {
+     "fp": "36ba651b5bbb",
+     "status": "verified"
+    }
+   ]
+  },
+  "EDH Lore-Themed Deckbuilding.md": {
+   "counts": {
+    "excepted": 4
+   },
+   "quotes": [
+    {
+     "fp": "b2ad1ca38802",
+     "status": "excepted:not-a-quote",
+     "quote": "why this card belongs"
+    },
+    {
+     "fp": "b2ad1ca38802",
+     "status": "excepted:not-a-quote",
+     "quote": "why this card belongs"
+    },
+    {
+     "fp": "87b89d132cf6",
+     "status": "excepted:not-a-quote",
+     "quote": "**Playability slot (guidance)**"
+    },
+    {
+     "fp": "087a57477bfb",
+     "status": "excepted:not-a-quote",
+     "quote": "how the deck tells it"
+    }
+   ]
+  },
+  "Side-Media Index.md": {
+   "counts": {
+    "excepted": 2,
+    "verified": 22
+   },
+   "quotes": [
+    {
+     "fp": "d6f6c8ec06ed",
+     "status": "verified"
+    },
+    {
+     "fp": "acfad84a7580",
+     "status": "verified"
+    },
+    {
+     "fp": "cca55cf87169",
+     "status": "verified"
+    },
+    {
+     "fp": "f213145ade63",
+     "status": "excepted:not-a-quote",
+     "quote": "Five Brothers"
+    },
+    {
+     "fp": "d1eea2b226ce",
+     "status": "verified"
+    },
+    {
+     "fp": "7b910bb8d6ed",
+     "status": "verified"
+    },
+    {
+     "fp": "7e23f04e6b98",
+     "status": "verified"
+    },
+    {
+     "fp": "dd0b1253b6fd",
+     "status": "verified"
+    },
+    {
+     "fp": "1ab6dd14a3d4",
+     "status": "verified"
+    },
+    {
+     "fp": "350993ac1415",
+     "status": "verified"
+    },
+    {
+     "fp": "d42cc20e4fbe",
+     "status": "verified"
+    },
+    {
+     "fp": "d3c6c2db321d",
+     "status": "verified"
+    },
+    {
+     "fp": "d315e0a6a66b",
+     "status": "verified"
+    },
+    {
+     "fp": "f0c240c1abe4",
+     "status": "verified"
+    },
+    {
+     "fp": "0fd6702dded9",
+     "status": "verified"
+    },
+    {
+     "fp": "aa075f6111c9",
+     "status": "verified"
+    },
+    {
+     "fp": "124bfc344fdf",
+     "status": "verified"
+    },
+    {
+     "fp": "07a179034665",
+     "status": "verified"
+    },
+    {
+     "fp": "7373128b16de",
+     "status": "verified"
+    },
+    {
+     "fp": "ce2266c5fdfe",
+     "status": "verified"
+    },
+    {
+     "fp": "e49fa7c87ec1",
+     "status": "verified"
+    },
+    {
+     "fp": "c3ce2e364fc6",
+     "status": "verified"
+    },
+    {
+     "fp": "62901ba07fbe",
+     "status": "verified"
+    },
+    {
+     "fp": "54e37c07c721",
+     "status": "excepted:other-source",
+     "quote": "in production"
+    }
+   ]
+  },
+  "Lore Primary Sources.md": {
+   "counts": {},
+   "quotes": []
+  },
+  "Art & Flavor Story Links.md": {
+   "counts": {
+    "card": 86,
+    "excepted": 2,
+    "verified": 2,
+    "verified-other": 3
+   },
+   "quotes": [
+    {
+     "fp": "6a6d8b0d2824",
+     "status": "excepted:not-a-quote",
+     "quote": "story-significant"
+    },
+    {
+     "fp": "3a3d8eccf32d",
+     "status": "excepted:not-a-quote",
+     "quote": "Card | Art by …"
+    },
+    {
+     "fp": "ad869f896ce8",
+     "status": "card"
+    },
+    {
+     "fp": "14518865df15",
+     "status": "card"
+    },
+    {
+     "fp": "69444babac75",
+     "status": "card"
+    },
+    {
+     "fp": "308ff1e1ce5d",
+     "status": "card"
+    },
+    {
+     "fp": "737ff9054d33",
+     "status": "card"
+    },
+    {
+     "fp": "efe55e64caa1",
+     "status": "card"
+    },
+    {
+     "fp": "60ac542057ed",
+     "status": "card"
+    },
+    {
+     "fp": "c7a9a8b51ed7",
+     "status": "card"
+    },
+    {
+     "fp": "c5b6f6c96d0f",
+     "status": "card"
+    },
+    {
+     "fp": "142cdb6c2b83",
+     "status": "card"
+    },
+    {
+     "fp": "bfbcdf80c59c",
+     "status": "card"
+    },
+    {
+     "fp": "eda6a618f25c",
+     "status": "card"
+    },
+    {
+     "fp": "8969513dc6ee",
+     "status": "verified-other"
+    },
+    {
+     "fp": "02997e48d387",
+     "status": "card"
+    },
+    {
+     "fp": "e4b28cf4994f",
+     "status": "card"
+    },
+    {
+     "fp": "8c09633c3f3a",
+     "status": "card"
+    },
+    {
+     "fp": "e677cac309e2",
+     "status": "card"
+    },
+    {
+     "fp": "a437cb931ec8",
+     "status": "card"
+    },
+    {
+     "fp": "07604ae785d2",
+     "status": "card"
+    },
+    {
+     "fp": "088234a92c1a",
+     "status": "card"
+    },
+    {
+     "fp": "2baf574226b5",
+     "status": "card"
+    },
+    {
+     "fp": "53a7c72a5144",
+     "status": "card"
+    },
+    {
+     "fp": "d54b702af588",
+     "status": "card"
+    },
+    {
+     "fp": "3a7734aa6d55",
+     "status": "card"
+    },
+    {
+     "fp": "9da95f6e9538",
+     "status": "card"
+    },
+    {
+     "fp": "6e20d433ea03",
+     "status": "card"
+    },
+    {
+     "fp": "97951954284c",
+     "status": "card"
+    },
+    {
+     "fp": "77e6fd582cb4",
+     "status": "card"
+    },
+    {
+     "fp": "5f812580e0b3",
+     "status": "card"
+    },
+    {
+     "fp": "58aa98c8e9b8",
+     "status": "card"
+    },
+    {
+     "fp": "6e79c5a8540a",
+     "status": "card"
+    },
+    {
+     "fp": "2cc58571d411",
+     "status": "card"
+    },
+    {
+     "fp": "8f95a0504edd",
+     "status": "card"
+    },
+    {
+     "fp": "139cf9848497",
+     "status": "card"
+    },
+    {
+     "fp": "44ca63107d24",
+     "status": "card"
+    },
+    {
+     "fp": "a5de50c43071",
+     "status": "card"
+    },
+    {
+     "fp": "cf2506e93afa",
+     "status": "card"
+    },
+    {
+     "fp": "03183443446a",
+     "status": "verified-other"
+    },
+    {
+     "fp": "4a3d955617d7",
+     "status": "card"
+    },
+    {
+     "fp": "a742f3781c04",
+     "status": "card"
+    },
+    {
+     "fp": "842ce7c3fabb",
+     "status": "card"
+    },
+    {
+     "fp": "08f56a4fcb8f",
+     "status": "card"
+    },
+    {
+     "fp": "474ae4324d3d",
+     "status": "card"
+    },
+    {
+     "fp": "87d2961a51d1",
+     "status": "card"
+    },
+    {
+     "fp": "17d0dd13b348",
+     "status": "card"
+    },
+    {
+     "fp": "846906f004e5",
+     "status": "card"
+    },
+    {
+     "fp": "2a938d2e17f2",
+     "status": "card"
+    },
+    {
+     "fp": "8f8a3b778faa",
+     "status": "card"
+    },
+    {
+     "fp": "abbd7052606d",
+     "status": "card"
+    },
+    {
+     "fp": "ce1ffa8b9dc6",
+     "status": "card"
+    },
+    {
+     "fp": "98e3b21c969e",
+     "status": "card"
+    },
+    {
+     "fp": "d2e3995316f1",
+     "status": "card"
+    },
+    {
+     "fp": "30b620910a7e",
+     "status": "card"
+    },
+    {
+     "fp": "19d23d3c4637",
+     "status": "card"
+    },
+    {
+     "fp": "e76691f71704",
+     "status": "card"
+    },
+    {
+     "fp": "56614fae52ea",
+     "status": "card"
+    },
+    {
+     "fp": "660c70d65268",
+     "status": "card"
+    },
+    {
+     "fp": "46a86d52d299",
+     "status": "card"
+    },
+    {
+     "fp": "ae7959daea3f",
+     "status": "card"
+    },
+    {
+     "fp": "d6673905f6a6",
+     "status": "card"
+    },
+    {
+     "fp": "02878098c12d",
+     "status": "card"
+    },
+    {
+     "fp": "de1d1ecbb479",
+     "status": "card"
+    },
+    {
+     "fp": "69f7ecad33a6",
+     "status": "card"
+    },
+    {
+     "fp": "651594577760",
+     "status": "card"
+    },
+    {
+     "fp": "a9a3be074edb",
+     "status": "card"
+    },
+    {
+     "fp": "4dbd2d9963d2",
+     "status": "card"
+    },
+    {
+     "fp": "c5e332ecb56a",
+     "status": "card"
+    },
+    {
+     "fp": "973ef4da63e9",
+     "status": "card"
+    },
+    {
+     "fp": "6089fbd84d87",
+     "status": "verified-other"
+    },
+    {
+     "fp": "b94577a8f46b",
+     "status": "card"
+    },
+    {
+     "fp": "d23c8ecb4fb0",
+     "status": "card"
+    },
+    {
+     "fp": "151705dce815",
+     "status": "card"
+    },
+    {
+     "fp": "72f7f17f7dd0",
+     "status": "card"
+    },
+    {
+     "fp": "e53f305cad0d",
+     "status": "card"
+    },
+    {
+     "fp": "018e27fe5897",
+     "status": "card"
+    },
+    {
+     "fp": "63841805b651",
+     "status": "card"
+    },
+    {
+     "fp": "fcbf2f833cc5",
+     "status": "card"
+    },
+    {
+     "fp": "935da659da2f",
+     "status": "card"
+    },
+    {
+     "fp": "031522e12b21",
+     "status": "card"
+    },
+    {
+     "fp": "b61530c55243",
+     "status": "card"
+    },
+    {
+     "fp": "13b8c2cf88f2",
+     "status": "card"
+    },
+    {
+     "fp": "9e7855097f90",
+     "status": "card"
+    },
+    {
+     "fp": "0c5b0689b73c",
+     "status": "card"
+    },
+    {
+     "fp": "b11e31750bb5",
+     "status": "card"
+    },
+    {
+     "fp": "b1e17e2e8553",
+     "status": "card"
+    },
+    {
+     "fp": "0ff4c3a552f7",
+     "status": "card"
+    },
+    {
+     "fp": "cd7395590ea6",
+     "status": "verified"
+    },
+    {
+     "fp": "bb4f668cff07",
+     "status": "card"
+    },
+    {
+     "fp": "61467a7b0eb5",
+     "status": "verified"
+    },
+    {
+     "fp": "219a4f020a3f",
+     "status": "card"
+    },
+    {
+     "fp": "b1a6a0faf35a",
+     "status": "card"
+    }
+   ]
+  }
+ }
+}

@@ -1,11 +1,13 @@
 ---
 title: "Master Timeline"
 category: lore
-tags: [timeline, eras]
-issues: [7, 72]
+tags: [lore, timeline, eras]
+issues: [7, 72, 92, 94]
 generated_by: hand-written
 sources: [wizards-story]
 related: ["Characters Index.md", "Conflicts & Arcs.md", "Contradictions & Retcons Log.md", "Planes Index.md", "EDH Lore-Themed Deckbuilding.md", "Omenpath & Multiverse Connections.md"]
+entry_kind: era
+entries: 7
 schema: 2
 ---
 
@@ -32,9 +34,9 @@ schema: 2
 > **Era summary (cycle 20):** Ancient Planeswalkers reshape the Multiverse — Eldrazi imprisoned on Zendikar; later Tarkir's past is rewritten so Ugin lives. **Lasting consequences:** hedron prison + Roil; Nahiri's grievance; Ugin's survival enables Meditation Realm and Dragonstorm threads. See [Retcons → Tarkir](Contradictions%20%26%20Retcons%20Log.md#tarkir-timeline-rewrite).
 | Relative date (as stated) | Event | Arc · Characters | Source |
 |---|---|---|---|
-| ">7,000 years ago" (profile era) | Sorin Markov born on Innistrad. | — · [Sorin Markov](Characters%20Index.md#sorin-markov) | [Sorin profile](https://magic.wizards.com/en/story/sorin-markov-planeswalker) |
+| "Born over 7,000 years ago" (profile era) | Sorin Markov born on Innistrad. | — · [Sorin Markov](Characters%20Index.md#sorin-markov) | [Sorin profile](https://magic.wizards.com/en/story/sorin-markov-planeswalker) |
 | Ancient (undated) | Ugin, Sorin and Nahiri imprison the Eldrazi titans on Zendikar with hedrons. | [Ancient: imprisoning the Eldrazi](Conflicts%20%26%20Arcs.md#ancient-imprisoning-the-eldrazi) · [Ugin](Characters%20Index.md#ugin), [Sorin Markov](Characters%20Index.md#sorin-markov), [Nahiri](Characters%20Index.md#nahiri) | [Zendikar](https://magic.wizards.com/en/story/zendikar-plane) · [The Lithomancer](https://magic.wizards.com/en/news/magic-story/the-lithomancer) |
-| ">1,500 years ago" | Jaya Ballard born on Dominaria. | — · [Jaya Ballard](Characters%20Index.md#jaya-ballard) | [Jaya profile](https://magic.wizards.com/en/story/jaya-planeswalker) |
+| "more than 1,500 years ago" | Jaya Ballard born on Dominaria. | — · [Jaya Ballard](Characters%20Index.md#jaya-ballard) | [Jaya profile](https://magic.wizards.com/en/story/jaya-planeswalker) |
 | "more than a thousand years" before Khans-era Tarkir | (Altered history) Sarkhan saves Ugin from Bolas; the dragon tempests continue. In the original timeline Bolas "breaks Ugin's body with a deathblow". | [Tarkir: Fate Reforged](Conflicts%20%26%20Arcs.md#tarkir-fate-reforged) · [Sarkhan Vol](Characters%20Index.md#sarkhan-vol), [Ugin](Characters%20Index.md#ugin), [Nicol Bolas](Characters%20Index.md#nicol-bolas) | [Tarkir](https://magic.wizards.com/en/story/tarkir-plane) · [Chronicle of Bolas](https://magic.wizards.com/en/news/magic-story/chronicle-bolas-unwritten-now-2018-08-15) |
 | Distant past (undated) | Serra creates Serra's Realm ("long gone"); Freyalise's and Windgrace's sacrifices; Dakkon and Dihada. | — · [Serra](Characters%20Index.md#serra), [Freyalise](Characters%20Index.md#freyalise), [Dakkon Blackblade](Characters%20Index.md#dakkon-blackblade), [Geyadrone Dihada](Characters%20Index.md#geyadrone-dihada) | [Serra](https://magic.wizards.com/en/story/serra-planeswalker) · [Freyalise](https://magic.wizards.com/en/story/freyalise-planeswalker) · [Dakkon](https://magic.wizards.com/en/story/dakkon-blackblade-planeswalker) |
 
@@ -44,7 +46,7 @@ schema: 2
 | Relative date | Event | Arc · Characters | Source |
 |---|---|---|---|
 | 0–64 AR (see dated table) | Urza and Mishra find the power stones in the Caves of Koilos; the Brothers' War devastates Dominaria and triggers an ice age; Urza discovers Phyrexia. | [The Brothers' War](Conflicts%20%26%20Arcs.md#the-brothers-war) · [Urza](Characters%20Index.md#urza), [Mishra](Characters%20Index.md#mishra) | [Dominaria](https://magic.wizards.com/en/story/dominaria-plane) |
-| ">1,200 years ago" (profile era) | Urza creates Karn. | — · [Karn](Characters%20Index.md#karn), [Urza](Characters%20Index.md#urza) | [Karn profile](https://magic.wizards.com/en/story/karn-planeswalker) |
+| "Created over 1200 years ago" (profile era) | Urza creates Karn. | — · [Karn](Characters%20Index.md#karn), [Urza](Characters%20Index.md#urza) | [Karn profile](https://magic.wizards.com/en/story/karn-planeswalker) |
 | Undated (millennia-long) | Urza's vendetta against Yawgmoth; the Nine Titans; *Weatherlight* and the Legacy thwart Phyrexia's invasion of Dominaria; Urza and Yawgmoth perish together. | [Phyrexia vs. Dominaria & the Weatherlight](Conflicts%20%26%20Arcs.md#phyrexia-vs-dominaria--the-weatherlight) · [Urza](Characters%20Index.md#urza), [Yawgmoth](Characters%20Index.md#yawgmoth), [Tevesh Szat](Characters%20Index.md#tevesh-szat), [Lord Windgrace](Characters%20Index.md#lord-windgrace) | [Urza](https://magic.wizards.com/en/story/urza-planeswalker) · [Dominaria](https://magic.wizards.com/en/story/dominaria-plane) |
 | After | Karn creates Mirrodin (Argentum); Phyrexian oil spreads unseen. | [Phyrexian conquest of Mirrodin](Conflicts%20%26%20Arcs.md#phyrexian-conquest-of-mirrodin) · [Karn](Characters%20Index.md#karn) | [Mirrodin](https://magic.wizards.com/en/story/mirrodin-plane) |
 

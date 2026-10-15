@@ -1,0 +1,124 @@
+{
+ "_doc": "Documented non-verifiable quotes for scripts/lore_quotes.py (Bot cycle 31). Keys are quote fingerprints (sha1 of the normalized quote, 12 hex). Reasons: image-text = IKO Story on Cards page: story text is printed on card images, so it cannot be machine-verified (⚠️ on the page); other-source = cited non-Wizards official page (publisher/retailer listing or Netflix Tudum), not in the Wizards story cache; not-a-quote = quotation marks around a KB label, term or title, not a quotation",
+ "Planeswalker Dossiers.md": {
+  "bf9e442ebc6c": {
+   "reason": "not-a-quote",
+   "quote": "era snapshots",
+   "note": "quotation marks around a KB label, term or title, not a quotation"
+  }
+ },
+ "Items & Artifacts Index.md": {
+  "6257e1459421": {
+   "reason": "image-text",
+   "quote": "a massive crystal formation",
+   "note": "IKO Story on Cards page: story text is printed on card images, so it cannot be machine-verified (⚠️ on the page)"
+  },
+  "63a4bf1b5a76": {
+   "reason": "image-text",
+   "quote": "explodes in a flash of orange light",
+   "note": "IKO Story on Cards page: story text is printed on card images, so it cannot be machine-verified (⚠️ on the page)"
+  }
+ },
+ "Contradictions & Retcons Log.md": {
+  "b7f0f39d0173": {
+   "reason": "not-a-quote",
+   "quote": "After Reckoning",
+   "note": "quotation marks around a KB label, term or title, not a quotation"
+  },
+  "449c336d1e76": {
+   "reason": "not-a-quote",
+   "quote": "defeated for good",
+   "note": "quotation marks around a KB label, term or title, not a quotation"
+  }
+ },
+ "Conflicts & Arcs.md": {
+  "e428a76961ed": {
+   "reason": "other-source",
+   "quote": "quest for their missing father, High King Kenrith",
+   "note": "cited non-Wizards official page (publisher/retailer listing or Netflix Tudum), not in the Wizards story cache"
+  },
+  "b1163a3daecd": {
+   "reason": "other-source",
+   "quote": "the wily and inscrutable shapeshifter Oko",
+   "note": "cited non-Wizards official page (publisher/retailer listing or Netflix Tudum), not in the Wizards story cache"
+  },
+  "a407718e1ddb": {
+   "reason": "other-source",
+   "quote": "pursued relentlessly by Garruk, a cursed hunter stalking Planeswalkers across the Multiverse",
+   "note": "cited non-Wizards official page (publisher/retailer listing or Netflix Tudum), not in the Wizards story cache"
+  },
+  "516b0e0cae70": {
+   "reason": "image-text",
+   "quote": "high crimes in the city of Drannith",
+   "note": "IKO Story on Cards page: story text is printed on card images, so it cannot be machine-verified (⚠️ on the page)"
+  },
+  "d461614a178f": {
+   "reason": "image-text",
+   "quote": "a massive crystal formation called the Ozolith",
+   "note": "IKO Story on Cards page: story text is printed on card images, so it cannot be machine-verified (⚠️ on the page)"
+  },
+  "2c9b663799a3": {
+   "reason": "image-text",
+   "quote": "who believes Lukka's control over the monsters to be unnatural and cruel, charges him with an army of bonders",
+   "note": "IKO Story on Cards page: story text is printed on card images, so it cannot be machine-verified (⚠️ on the page)"
+  },
+  "5e0c38844842": {
+   "reason": "image-text",
+   "quote": "in Drannith's favor",
+   "note": "IKO Story on Cards page: story text is printed on card images, so it cannot be machine-verified (⚠️ on the page)"
+  },
+  "6f1dcdcbec06": {
+   "reason": "image-text",
+   "quote": "The Ozolith, strained to its core, explodes in a flash of orange light … Lukka lets out a primal scream and disappears, ",
+   "note": "IKO Story on Cards page: story text is printed on card images, so it cannot be machine-verified (⚠️ on the page)"
+  }
+ },
+ "Master Timeline.md": {
+  "b7f0f39d0173": {
+   "reason": "not-a-quote",
+   "quote": "After Reckoning",
+   "note": "quotation marks around a KB label, term or title, not a quotation"
+  }
+ },
+ "EDH Lore-Themed Deckbuilding.md": {
+  "b2ad1ca38802": {
+   "reason": "not-a-quote",
+   "quote": "why this card belongs",
+   "note": "quotation marks around a KB label, term or title, not a quotation"
+  },
+  "87b89d132cf6": {
+   "reason": "not-a-quote",
+   "quote": "**Playability slot (guidance)**",
+   "note": "quotation marks around a KB label, term or title, not a quotation"
+  },
+  "087a57477bfb": {
+   "reason": "not-a-quote",
+   "quote": "how the deck tells it",
+   "note": "quotation marks around a KB label, term or title, not a quotation"
+  }
+ },
+ "Side-Media Index.md": {
+  "f213145ade63": {
+   "reason": "not-a-quote",
+   "quote": "Five Brothers",
+   "note": "quotation marks around a KB label, term or title, not a quotation"
+  },
+  "54e37c07c721": {
+   "reason": "other-source",
+   "quote": "in production",
+   "note": "cited non-Wizards official page (publisher/retailer listing or Netflix Tudum), not in the Wizards story cache"
+  }
+ },
+ "Art & Flavor Story Links.md": {
+  "6a6d8b0d2824": {
+   "reason": "not-a-quote",
+   "quote": "story-significant",
+   "note": "quotation marks around a KB label, term or title, not a quotation"
+  },
+  "3a3d8eccf32d": {
+   "reason": "not-a-quote",
+   "quote": "Card | Art by …",
+   "note": "quotation marks around a KB label, term or title, not a quotation"
+  }
+ }
+}

@@ -1,11 +1,13 @@
 ---
 title: "Contradictions & Retcons Log"
 category: lore
-tags: [retcons, contradictions, canon]
-issues: [73, 76]
+tags: [lore, retcons, contradictions, canon]
+issues: [73, 76, 92, 94]
 generated_by: hand-written
 sources: [wizards-story]
 related: ["Conflicts & Arcs.md", "Characters Index.md", "Planeswalker Dossiers.md", "Items & Artifacts Index.md", "Planes Index.md", "Master Timeline.md"]
+entry_kind: retcon
+entries: 29
 schema: 2
 ---
 
@@ -77,7 +79,7 @@ Add new rows only with primary citations. If only a novel/comic supports a claim
 |---|---|
 | **Type** | 🔄 in-world rewrite (also a publication arc that replaces the Khans-present) |
 | **Earlier statement** | In the original timeline, Bolas killed Ugin on Tarkir: he "turns the dragons of Tarkir against their own progenitor, and when his enemy has been weakened by their attacks, he breaks Ugin's body with a deathblow" ([Chronicle of Bolas: The Unwritten Now](https://magic.wizards.com/en/news/magic-story/chronicle-bolas-unwritten-now-2018-08-15)). Yasova's people remember: "He killed Ugin by turning the minds of all the dragons against their own progenitor." |
-| **Later / overriding statement** | Sarkhan travels "more than a thousand years" into Tarkir's past and saves Ugin, so "dragon tempests kept birthing dragons." In the resulting present, "the defeated clans are ruled by five legendary dragonlords" ([Tarkir plane profile](https://magic.wizards.com/en/story/tarkir-plane); [Tarkir block story summary](https://magic.wizards.com/en/news/magic-story/story-tarkir-block-2015-04-29); [Planeswalker's Guide to Fate Reforged](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-fate-reforged-2015-01-07)). |
+| **Later / overriding statement** | Sarkhan travels "more than a thousand years" into Tarkir's past and saves Ugin; "he ensured the continuing presence of the dragon tempests, the storms that feed on Ugin's magic and birth dragons." In the resulting present, "the defeated clans are ruled by five legendary dragonlords" ([Tarkir plane profile](https://magic.wizards.com/en/story/tarkir-plane); [Tarkir block story summary](https://magic.wizards.com/en/news/magic-story/story-tarkir-block-2015-04-29); [Planeswalker's Guide to Fate Reforged](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-fate-reforged-2015-01-07)). |
 | **KB treatment** | Present-day Tarkir = dragonlord timeline unless a source explicitly discusses the overwritten khanate present. Always note that the khanate world is the **original** timeline Sarkhan left. |
 | **Related** | [Conflicts → Tarkir: Fate Reforged](Conflicts%20%26%20Arcs.md#tarkir-fate-reforged) · [Master Timeline → Pre-Mending](Master%20Timeline.md#pre-mending--ancient) · [Tarkir: Dragonstorm](Conflicts%20%26%20Arcs.md#tarkir-dragonstorm-2025) |
 
@@ -302,7 +304,7 @@ Dossier, items and spark-status pass ([#74](https://github.com/corymstover/GrokB
 |---|---|
 | **Type** | ✅ resolved (in-story return) |
 | **Earlier statement** | "Heliod struck Elspeth down in her moment of triumph, casting her into the Underworld to be forgotten. Elspeth was dead." ([THB Story Summary](https://magic.wizards.com/en/news/feature/theros-beyond-death-story-summary-2020-01-10)). |
-| **Later / overriding statement** | Same summary: "Erebos gifted her his eternal gratitude—and safe passage back to the mortal realm. After a brief reunion with Daxos, Elspeth planeswalked away." |
+| **Later / overriding statement** | "Erebos gifted her his eternal gratitude—and safe passage back to the mortal realm. After a brief reunion with Daxos, Elspeth planeswalked away." ([same THB Story Summary](https://magic.wizards.com/en/news/feature/theros-beyond-death-story-summary-2020-01-10)) |
 | **KB treatment** | Her JOU death is real and undone in THB (2020); later appearances (ONE, MOM, TDM) follow from that return. |
 | **Related** | [Dossiers → Elspeth Tirel](Planeswalker%20Dossiers.md#elspeth-tirel) · [Items → Godsend & Khrusor](Items%20%26%20Artifacts%20Index.md#godsend--khrusor) |
 

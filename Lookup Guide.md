@@ -72,13 +72,29 @@ schema: 2
 | Which card shows a story moment | [Art & Flavor Story Links](Art%20%26%20Flavor%20Story%20Links.md) |
 | Novels, comics and other media | [Side-Media Index](Side-Media%20Index.md) |
 | The original official story page | [Story Archive Index](Story%20Archive%20Index.md) · `data/story_index.csv` (`date,title,source,words,url`) |
+| An item, artifact or world-scale spell | [Items & Artifacts Index](Items%20%26%20Artifacts%20Index.md) |
+| Where official sources disagree, or a fact was retconned | [Contradictions & Retcons Log](Contradictions%20%26%20Retcons%20Log.md) |
+| Which official pages the lore rests on | [Lore Primary Sources](Lore%20Primary%20Sources.md) |
+| **Any single lore entry** (arc, era, dossier, character, plane, item, retcon), with its tags, citation count and links | [Lore Entry Index](Lore%20Entry%20Index.md) (Bot cycle 31, [#92](https://github.com/corymstover/GrokBotMTGCompanion/issues/92)) · `data/lore_entries.json` · `python3 scripts/kb_find.py <words> --kind item` |
+
+**Lore entry tags** (computed by `scripts/build_lore_index.py`; Bot cycle 31): the kind (`arc`, `era`, `dossier`, `character`, `plane`, `item`, `retcon`); `has-secondary` ⚠️, `has-unknowns` ❓, `has-non-canonical` 🚫, `has-retcon` 🔄 when the entry carries that flag; spark state from the Characters Index (`planeswalker`, `spark-lost`, `spark-faded`, `spark-given-up`, `dead`, `alive-or-active`, `status-unknown`); `has-cards` when the entry links card entries.
+
+| I want… | Command |
+|---|---|
+| Every lore entry about the sylex | `python3 scripts/kb_find.py sylex --category lore` |
+| Only item entries | `python3 scripts/kb_find.py stone --kind item` |
+| Characters/dossiers whose spark is lost | `python3 scripts/kb_find.py --tag spark-lost --limit 30` |
+| Entries with open ❓ questions | `python3 scripts/kb_find.py --tag has-unknowns --limit 100` |
+| Entries that touch the Echoverse (🚫) | `python3 scripts/kb_find.py --tag has-non-canonical` |
+| Lore pages with entry counts | `rg -n '^entries: ' *.md` |
 
 ## Filtering by front-matter
 Every major page and every deck starts with YAML front-matter (Bot cycle 15, [#44](https://github.com/corymstover/GrokBotMTGCompanion/issues/44); `scripts/front_matter.py`). Pages carry `title, category (lore/edh/rules/cards/meta), tags, issues, generated_by, sources`. Decks carry `kind (core/plane/theme), commander, color_identity, bracket_floor, game_changers, validated`.
 
 | I want… | Command |
 |---|---|
-| All lore pages | `rg -l '^category: lore' *.md` |
+| All lore pages | `rg -l '^category: lore' *.md` (every lore page also carries the `lore` tag since Bot cycle 31) |
+| Lore pages made of entries, and what kind | `rg -n '^entry_kind: ' *.md` |
 | Pages built by a script (safe to regenerate) | `rg '^generated_by: scripts/' *.md` |
 | Pages for an issue | `rg -l '^issues: .*\b39\b' *.md` |
 | Decks at bracket 4 or more | `rg -l '^bracket_floor: [45]' decks/` |
@@ -94,7 +110,7 @@ Every key, type and tag is documented in [Front-Matter Schema](Front-Matter%20Sc
 After running any generator, re-apply with `python3 scripts/front_matter.py`. `--check` fails if any page or deck is missing front-matter or has a stale value.
 
 ## Retrieval index (kb_find)
-`data/kb_index.json` lists every page and deck with its front-matter and every `##`/`###` heading with its anchor (Bot cycle 17, [#65](https://github.com/corymstover/GrokBotMTGCompanion/issues/65)). `scripts/kb_find.py` ranks entries by title, tag, commander and heading matches, and also returns the card entry when the query is an exact card name.
+`data/kb_index.json` lists every page and deck with its front-matter and every `##`/`###` heading with its anchor (Bot cycle 17, [#65](https://github.com/corymstover/GrokBotMTGCompanion/issues/65)), plus, since Bot cycle 31 ([#92](https://github.com/corymstover/GrokBotMTGCompanion/issues/92)), one record per lore entry (260) with its computed tags. `scripts/kb_find.py` ranks entries by title, tag, commander and heading matches, and also returns the card entry when the query is an exact card name.
 
 | I want… | Command |
 |---|---|
@@ -102,11 +118,12 @@ After running any generator, re-apply with `python3 scripts/front_matter.py`. `-
 | Only rules pages | `python3 scripts/kb_find.py layers --category rules` |
 | Everything with a tag | `python3 scripts/kb_find.py --tag two-card-infinite` |
 | A card entry by exact name | `python3 scripts/kb_find.py "Sol Ring"` |
+| Lore entries of one kind | `python3 scripts/kb_find.py ashiok --kind retcon` |
 
 Rebuild after editing pages: `python3 scripts/kb_find.py --build` (`validate_all.py` fails while it is stale).
 
 ## Validating the knowledge base
-`python3 scripts/validate_all.py` runs every check in one go (Bot cycle 17, [#67](https://github.com/corymstover/GrokBotMTGCompanion/issues/67)): links and anchors, front-matter schema, retrieval-index freshness, citations (every Wizards URL is in the official sitemap, resolves, or is a resolving Internet Archive copy; every `CR nnn.nx` rule number exists in the cached Comprehensive Rules), Oracle drift (every card entry verbatim vs the Scryfall bulk), deck re-checks (legality, identity, 100 cards, singleton, Game Changer count still matches Scryfall), and generator freshness. Default is offline; `--online` re-checks citations live and verifies against Scryfall's newest bulk; `--only` / `--skip` take step names.
+`python3 scripts/validate_all.py` runs every check in one go (Bot cycle 17, [#67](https://github.com/corymstover/GrokBotMTGCompanion/issues/67)): links and anchors, front-matter schema, retrieval-index freshness, citations (every Wizards URL is in the official sitemap, resolves, or is a resolving Internet Archive copy; every `CR nnn.nx` rule number exists in the cached Comprehensive Rules), Oracle drift (every card entry verbatim vs the Scryfall bulk), deck re-checks (legality, identity, 100 cards, singleton, Game Changer count still matches Scryfall), and generator freshness. Since Bot cycle 31 ([#94](https://github.com/corymstover/GrokBotMTGCompanion/issues/94)) two lore steps run as well. **lore-entries** (`scripts/check_lore.py`) checks that every arc, era, dossier, character, plane, item and retcon entry cites an official page, that dossier timeline rows and retcon statement rows are cited, that entry anchors resolve, that spark state agrees across the Characters Index, the dossier summary and the retcon log, and that the Lore Entry Index is current. **lore-quotes** (`scripts/lore_quotes.py --check`) checks that every quotation on 13 lore pages appears verbatim in the cached official page it cites, or in Scryfall card text. The only allowed exceptions are those documented in `data/lore_quote_exceptions.json` (image-only text, non-Wizards sources, labels in quotation marks). Without the gitignored story cache, it compares quote fingerprints with `data/lore_quotes.json` instead. Default is offline; `--online` re-checks citations live and verifies against Scryfall's newest bulk; `--only` / `--skip` take step names.
 
 ## Answering a question: which source wins
 1. **Card text and legality:** the card entry and the legality matrix (Scryfall bulk, checked by `scripts/verify_cards.py`). Re-check B&R after announcements ([#17](https://github.com/corymstover/GrokBotMTGCompanion/issues/17)).

@@ -1,7 +1,7 @@
 ---
 title: "Omenpath & Multiverse Connections"
 category: lore
-tags: [omenpaths, multiverse, planes]
+tags: [lore, omenpaths, multiverse, planes]
 issues: [36]
 generated_by: hand-written
 sources: [wizards-story]
