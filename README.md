@@ -22,11 +22,11 @@
 |---|---|---|
 | Cards | ✅ **Full coverage** — 33,894 entries (Oracle text, flavor text, cost, type, identity, Commander notes), verified verbatim against Scryfall (0 problems) | [Card Index](Card%20Index.md) · [cards/](cards/) |
 | Master Timeline | 🟡 Initial — in-universe eras (source-anchored relative dates) + release chronology 2007–2027 | [Master Timeline](Master%20Timeline.md) |
-| Planes | 🟡 Initial — 15 profiled planes + 6 Omenpath-era settings; gaps listed | [Planes Index](Planes%20Index.md) |
+| Planes | 🟡 Deepening — 15 profiled planes + 6 Omenpath-era settings + **8 detailed entries** (Kaldheim, Eldraine, Ikoria, New Capenna, Phyrexia & New Phyrexia's spheres, post-invasion Ravnica, Skalla, Vryn) with source notes and 72 card links | [Planes Index](Planes%20Index.md) |
 | Characters | 🟡 Initial — 5 eras, 47 character rows (+30 more profiled names listed); 29 with a ✅ sourced status, rest ⚠️ Unverified | [Characters Index](Characters%20Index.md) |
 | Conflicts & Arcs | 🟡 Initial — 15 arcs through Reality Fracture (2026-10) | [Conflicts & Arcs](Conflicts%20%26%20Arcs.md) |
-| EDH | 🟡 Standards (CR 903, Brackets, Game Changers, banned list) + 5 validated skeletons | [EDH Standards](EDH%20Standards.md) · [decks/](decks/) |
-| Rules interactions | 🔴 Not started — [#9](https://github.com/corymstover/GrokBotMTGCompanion/issues/9) | — |
+| EDH | 🟡 Standards (CR 903, Brackets, Game Changers, banned list) + **8 validated skeletons** + [EDH Staples](EDH%20Staples.md) (top cards for 26 color identities and 14 roles/archetypes, GC-flagged) + rulings-backed synergy notes | [EDH Standards](EDH%20Standards.md) · [EDH Staples](EDH%20Staples.md) · [decks/](decks/) |
+| Rules interactions | 🟡 Rulings: all 78,943 Scryfall rulings are inside card entries ([#10](https://github.com/corymstover/GrokBotMTGCompanion/issues/10) ✅); CR-cited interactions section not started — [#9](https://github.com/corymstover/GrokBotMTGCompanion/issues/9) | [Card Data Conventions](Card%20Data%20Conventions.md) |
 
 ### Next priorities
 1. **Rules interactions** section citing the 2026-09-25 Comprehensive Rules — [#9](https://github.com/corymstover/GrokBotMTGCompanion/issues/9); rulings ingestion — [#10](https://github.com/corymstover/GrokBotMTGCompanion/issues/10)
@@ -40,7 +40,7 @@
 | [Knowledge Index](Knowledge%20Index.md) | File map, maintenance rules, canon flags, source hierarchy, cycle checklist |
 | [Progress Tracker](Progress%20Tracker.md) · [Update Log](Update%20Log.md) | Quantitative progress · every change with date/files/reason |
 | [Card Data Conventions](Card%20Data%20Conventions.md) · [Card Index](Card%20Index.md) | Card entry format & storage · which cards have entries |
-| [EDH Standards](EDH%20Standards.md) | Commander rules, color identity, Archidekt format, brackets |
+| [EDH Standards](EDH%20Standards.md) · [EDH Staples](EDH%20Staples.md) | Commander rules, color identity, Archidekt format, brackets, synergy notes · data-derived staples by identity and role |
 | [Master Timeline](Master%20Timeline.md) · [Planes Index](Planes%20Index.md) · [Characters Index](Characters%20Index.md) · [Conflicts & Arcs](Conflicts%20%26%20Arcs.md) | Lore |
 
 ## 🔁 Running a cycle
@@ -49,6 +49,8 @@ python3 scripts/ingest_scryfall.py          # add new Scryfall cards (default ba
 python3 scripts/verify_cards.py             # must report 0 problems
 python3 scripts/check_links.py --all        # link/anchor check (CI runs the docs-only variant)
 python3 scripts/build_deck_skeleton.py "Commander Name"   # new validated deck skeleton in decks/
+python3 scripts/build_staples.py            # regenerate EDH Staples.md from the Scryfall bulk
+python3 scripts/resolve_card_links.py "Planes Index.md"   # turn [[Card Name]] placeholders in hand-written pages into card-entry links
 ```
 State: [`data/ingest_state.json`](data/ingest_state.json) · index: [`data/card_index.csv`](data/card_index.csv).
 

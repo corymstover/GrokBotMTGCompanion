@@ -3,10 +3,10 @@
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
-- [2026-10-15 — Bot cycle 2 (rulings + Characters deepening)](#2026-10-15--bot-cycle-2-rulings--characters-deepening)
+- [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
 
-## 2026-10-15 — Bot cycle 2 (rulings + Characters deepening)
+## 2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples)
 
 > All entries in this section are **Bot cycle** (Grok Bot) changes.
 
@@ -15,7 +15,11 @@
 | 2.1 | Bot cycle: rulings support — Scryfall `rulings` bulk joined by oracle_id, rendered inside card entries, resumable via `rulings` CSV column + `data/ingest_state.json` → `rulings`; verifier checks every ruling verbatim. Rulings batch R1: first 1,000 cards in priority/EDHREC order (2,604 rulings on 686 cards). | `scripts/ingest_scryfall.py`, `scripts/verify_cards.py`, `cards/**`, `data/*`, `Card Index.md`, `README.md`, `Progress Tracker.md` | Issue #10. |
 | 2.2 | Bot cycle: rulings batch R2: +9,000 cards → 10,000 processed (32,675 rulings on 7,385 cards). | `cards/**`, `data/*`, `Card Index.md`, `README.md`, `Progress Tracker.md` | Issue #10. |
 | 2.3 | Bot cycle: rulings batch R3: remaining 23,894 cards → **all 33,894 processed; 78,943 / 78,943 rulings on 19,889 / 19,889 cards** (verify_cards: 0 problems). Rulings format documented. | `cards/**`, `data/*`, `Card Index.md`, `Card Data Conventions.md`, `README.md`, `Progress Tracker.md` | Issue #10 complete. |
-| 2.4 | Bot cycle (in progress, parallel Grok Bot session): **Planes Index** deepening (missing planes: Eldraine, Kaldheim, Ikoria, New Capenna, Vryn, Phyrexia, …) and **EDH staples by color/archetype + new deck outlines**. Characters Index is left to the other session to avoid overlap. | `Planes Index.md`, `EDH Standards.md`, `decks/*` | Coordination: avoid duplicate work between concurrent Bot cycle sessions. |
+| 2.4 | Bot cycle 2: coordination note — a second concurrent Grok Bot session claimed Planes Index + EDH work so the rulings/Characters session would not overlap. | `Update Log.md` | Avoid duplicate work between concurrent sessions. |
+| 2.5 | Bot cycle 2: **Planes Index — 8 detailed entries** (new: Kaldheim, Eldraine, Ikoria, New Capenna, Skalla, Vryn; deepened: Phyrexia/Old Phyrexia + New Phyrexia's nine spheres, Ravnica after the invasion), each with ✅/⚠️/🗣️ (in-universe narrator) flags, story/set dates (Scryfall sets), cross-links to Characters / Conflicts & Arcs / Master Timeline and **72 card-entry links**. Sources: 8 official articles fetched 2026-10-15 (Planeswalker's Guides to Kaldheim pts 1–2, Eldraine, Ikoria, Streets of New Capenna, Phyrexia: All Will Be One, Murders at Karlov Manor; profiles; Magic Story episodes). New `scripts/resolve_card_links.py` (`[[Card]]` → exact entry link). check_links: 0 broken. | `Planes Index.md`, `scripts/resolve_card_links.py` | Issue #12 (partial); brief priority 2. |
+| 2.6 | Bot cycle 2: **EDH Staples** (auto-generated, `scripts/build_staples.py`): top 15 Commander-legal cards per color identity (colorless, 5 mono, 10 two-color, 10 three-color) and per role/archetype (ramp, draw, removal, wipes, counterspells, tutors, protection, recursion, tokens, aristocrats, +1/+1 counters, spellslinger, landfall, utility lands) from 32,048 ranked cards, EDHREC-rank ordered, Game Changer flags, patterns documented. | `EDH Staples.md`, `scripts/build_staples.py` | Brief priority 3 (staples by color/archetype). |
+| 2.7 | Bot cycle 2: 3 new validated deck skeletons — Talrand, Sky Summoner (U, 3 GC, bracket floor 3), Teysa Karlov (WB, 2 GC, floor 3), Tatyova, Benthic Druid (GU, 2 GC, floor 3) — all 100 cards, singleton, strict identity, Commander-legal; **Synergy notes** section in EDH Standards quoting Oracle text + official WotC rulings (e.g. Teysa does not double “whenever you sacrifice” triggers). | `decks/talrand-sky-summoner.md`, `decks/teysa-karlov.md`, `decks/tatyova-benthic-druid.md`, `EDH Standards.md` | Issue #16 (closed) → follow-up #19. |
+| 2.8 | Bot cycle 2: dashboard/tracker/index refresh (Planes, EDH, rulings status), issue updates (#16 closed, #19 opened, progress on #12 and #14). | `README.md`, `Progress Tracker.md`, `Knowledge Index.md`, `Update Log.md` | Keep GitHub dashboard current. |
 
 ## 2026-10-15 — Bot cycle 1 (repository bootstrap)
 

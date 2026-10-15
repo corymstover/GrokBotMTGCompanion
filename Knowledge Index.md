@@ -23,6 +23,7 @@
 | [Conflicts & Arcs.md](Conflicts%20%26%20Arcs.md) | Major wars and story arcs. |
 | [Master Timeline.md](Master%20Timeline.md) | In-universe eras + real-world story release chronology. |
 | [EDH Standards.md](EDH%20Standards.md) | Commander deckbuilding rules: strict color identity, commander first, Archidekt format, brackets. |
+| [EDH Staples.md](EDH%20Staples.md) | Auto-generated (`scripts/build_staples.py`): Commander-legal staples by color identity and by role/archetype, EDHREC-rank ordered, Game Changer flags. Data, not opinion. |
 | [decks/](decks/) | Deck skeletons following EDH Standards. |
 | [Card Data Conventions.md](Card%20Data%20Conventions.md) | Card entry format, storage layout, source flags. |
 | [Card Index.md](Card%20Index.md) | Auto-generated tracker of which cards have entries (+ category trackers). |
@@ -32,6 +33,8 @@
 | [scripts/verify_cards.py](scripts/verify_cards.py) | Verifies every card entry verbatim against Scryfall bulk (must be 0 problems). |
 | [scripts/build_deck_skeleton.py](scripts/build_deck_skeleton.py) | Builds + validates EDHREC-derived deck skeletons (identity, singleton, legality, bracket floor). |
 | [scripts/check_links.py](scripts/check_links.py) | Validates relative links/anchors (`--all` includes card shards). CI workflow pending: the bot token lacks `workflow` scope. |
+| [scripts/build_staples.py](scripts/build_staples.py) | Regenerates [EDH Staples](EDH%20Staples.md) from the Scryfall bulk (identity + role lists; patterns documented in the page). |
+| [scripts/resolve_card_links.py](scripts/resolve_card_links.py) | Replaces `[[Card Name]]` / `[[Card Name\|label]]` placeholders in hand-written lore/EDH pages with exact card-entry links (fails on unknown names). |
 
 ## Maintenance rules
 1. **Accuracy over volume.** Never invent facts. Card data comes only from Scryfall; lore only from official Wizards of the Coast material (cited by URL).

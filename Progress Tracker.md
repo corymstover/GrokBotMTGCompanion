@@ -34,7 +34,7 @@
 | File | Status | Count |
 |---|---|---|
 | Master Timeline | 🟡 initial | 6 in-universe eras, 23 release-chronology rows |
-| Planes Index | 🟡 initial | 15 profiled planes + 6 recent settings + 4 special realms |
+| Planes Index | 🟡 deepening | 15 profiled planes + 6 recent settings + 4 special realms + **8 detailed entries** (6 new planes: Kaldheim, Eldraine, Ikoria, New Capenna, Skalla, Vryn; 2 deepened: Phyrexia/New Phyrexia, Ravnica post-invasion); 72 card links; 8 new official sources (Planeswalker's Guides) |
 | Characters Index | 🟡 initial | 47 rows in 5 eras (+30 listed names); 29 ✅ sourced statuses |
 | Conflicts & Arcs | 🟡 initial | 15 arcs (Omenpath-era table: 9 sets) |
 | Sources crawled | — | 563 magic.wizards.com story pages (79 profiles + 484 Magic Story articles); text kept off-repo |
@@ -43,14 +43,16 @@
 | Item | Status |
 |---|---|
 | EDH Standards | ✅ CR 903 rules, strict color identity, Archidekt format, Brackets (beta, Oct 2025 + Feb 2026 updates), auto banned list (83) and Game Changers (53) |
-| Deck skeletons | 5 validated (Krenko R · Lathril BG · Edgar Markov RWB · Atraxa WUBG · The Ur-Dragon WUBRG) |
+| Deck skeletons | 8 validated (Krenko R · Talrand U · Teysa Karlov WB · Tatyova GU · Lathril BG · Edgar Markov RWB · Atraxa WUBG · The Ur-Dragon WUBRG) |
+| EDH Staples | ✅ auto-generated: top 15 per color identity (C, 5 mono, 10 two-color, 10 three-color) + top 15 per role/archetype (14 roles) from 32,048 ranked Commander-legal cards |
+| Synergy notes | 3 commander engines (Teysa, Talrand, Tatyova) with Oracle text + official rulings |
 | Combo detection | 🔴 open (#15) |
 
 ## Rules
 | Item | Status |
 |---|---|
 | Rules-interactions section | 🔴 not started (#9) — CR 2026-09-25 located |
-| Rulings in card entries | 🔴 linked only (#10) |
+| Rulings in card entries | ✅ 78,943 rulings on 19,889 cards; all 33,894 cards processed (#10 closed) |
 
 ## Milestones & tags
 | Milestone | State | Tag |
