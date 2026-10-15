@@ -1,7 +1,7 @@
 {
 "schema": 1,
 "generated_by": "scripts/kb_find.py --build",
-"entries": 160,
+"entries": 161,
 "note": "Pages and decks only; card entries are indexed by data/card_index.csv.",
 "items": [
 {
@@ -1161,14 +1161,81 @@
 "issues": [
 "7",
 "13",
-"34"
+"34",
+"72"
 ],
 "related": [
 "Characters Index.md",
 "Master Timeline.md",
 "Planes Index.md",
 "Story Arc Summaries.md",
+"Contradictions & Retcons Log.md",
 "Omenpath & Multiverse Connections.md"
+]
+},
+{
+"path": "Contradictions & Retcons Log.md",
+"kind": "page",
+"title": "Contradictions & Retcons Log",
+"category": "lore",
+"tags": [
+"retcons",
+"contradictions",
+"canon"
+],
+"headings": [
+[
+2,
+"How to use this log",
+"how-to-use-this-log"
+],
+[
+2,
+"Seeded entries (Bot cycle 20)",
+"seeded-entries-bot-cycle-20"
+],
+[
+3,
+"Tarkir timeline rewrite",
+"tarkir-timeline-rewrite"
+],
+[
+3,
+"Kaladesh → Avishkar rename",
+"kaladesh--avishkar-rename"
+],
+[
+3,
+"AR (After Reckoning) expansion",
+"ar-after-reckoning-expansion"
+],
+[
+3,
+"Emrakul's path off Zendikar",
+"emrakuls-path-off-zendikar"
+],
+[
+3,
+"Bolas after War of the Spark",
+"bolas-after-war-of-the-spark"
+],
+[
+2,
+"Queue for later cycles",
+"queue-for-later-cycles"
+],
+[
+2,
+"Open / do-not-resolve",
+"open--do-not-resolve"
+]
+],
+"issues": [
+"76"
+],
+"related": [
+"Conflicts & Arcs.md",
+"Master Timeline.md"
 ]
 },
 {
@@ -3831,11 +3898,13 @@
 ]
 ],
 "issues": [
-"7"
+"7",
+"72"
 ],
 "related": [
 "Characters Index.md",
 "Conflicts & Arcs.md",
+"Contradictions & Retcons Log.md",
 "Planes Index.md",
 "Omenpath & Multiverse Connections.md",
 "Story Arc Summaries.md"
@@ -4306,16 +4375,21 @@
 2,
 "Phase 5 — Optimization pass (Bot cycles 17–19; user task, 2026-10-15)",
 "phase-5--optimization-pass-bot-cycles-1719-user-task-2026-10-15"
+],
+[
+2,
+"Phase 6 — Lore deepening sprint (Bot cycles 20+; Cory, 2026-10-15)",
+"phase-6--lore-deepening-sprint-bot-cycles-20-cory-2026-10-15"
 ]
 ],
 "issues": [],
 "related": [
 "Front-Matter Schema.md",
 "Lookup Guide.md",
+"Planeswalker Dossiers.md",
 "Progress Tracker.md",
 "Art & Flavor Story Links.md",
-"Artist Index.md",
-"EDH Bracket Calibration.md"
+"Artist Index.md"
 ]
 },
 {
@@ -4524,6 +4598,7 @@
 ],
 "related": [
 "Story Arc Summaries.md",
+"Conflicts & Arcs.md",
 "Art & Flavor Story Links.md",
 "Planeswalker Dossiers.md",
 "Story Archive Index.md"
@@ -4762,6 +4837,7 @@
 "14"
 ],
 "related": [
+"Conflicts & Arcs.md",
 "Side-Media Index.md"
 ]
 },
@@ -4817,6 +4893,11 @@
 "changelog"
 ],
 "headings": [
+[
+2,
+"2026-10-15 — Bot cycle 20 (Phase 6: lore deepening — timeline & arcs, retcon log)",
+"2026-10-15--bot-cycle-20-phase-6-lore-deepening--timeline--arcs-retcon-log"
+],
 [
 2,
 "2026-10-15 — Bot cycle 19 (Phase 5 complete: bracket calibration & pilot notes)",
@@ -4917,10 +4998,10 @@
 "related": [
 "Knowledge Index.md",
 "Front-Matter Schema.md",
+"Contradictions & Retcons Log.md",
 "EDH Bracket Calibration.md",
 "EDH Deck Evaluation Checklist.md",
-"EDH Deck Template.md",
-"Progress Tracker.md"
+"EDH Deck Template.md"
 ]
 },
 {

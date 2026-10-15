@@ -12,7 +12,7 @@ schema: 2
 # Front-Matter Schema
 
 > **Auto-generated** by `scripts/front_matter.py` (Bot cycle 17, issue [#65](https://github.com/corymstover/GrokBotMTGCompanion/issues/65)) from the `SCHEMA` and `PAGES` tables in the script, so this page cannot drift from what `--check` enforces. Schema version **2**. Do not hand-edit.
-> Coverage: **46** registered pages (README.md and GOAL.md are exempt), **86** decks, **684** card shards, **28** reverse-index pages. Related: [Lookup Guide](Lookup%20Guide.md) · [Knowledge Index](Knowledge%20Index.md) · [Card Data Conventions](Card%20Data%20Conventions.md).
+> Coverage: **47** registered pages (README.md and GOAL.md are exempt), **86** decks, **684** card shards, **28** reverse-index pages. Related: [Lookup Guide](Lookup%20Guide.md) · [Knowledge Index](Knowledge%20Index.md) · [Card Data Conventions](Card%20Data%20Conventions.md).
 
 ## Contents
 - [Format](#format)
@@ -141,6 +141,7 @@ Tags are lower-case kebab-case (`^[a-z0-9+]+(-[a-z0-9+]+)*$`). Page tags are ass
 | `brackets` | [EDH Bracket Calibration](EDH%20Bracket%20Calibration.md) · [EDH Deck Evaluation Checklist](EDH%20Deck%20Evaluation%20Checklist.md) · [EDH Standards](EDH%20Standards.md) |
 | `budget` | [EDH Upgrade Paths](EDH%20Upgrade%20Paths.md) |
 | `calibration` | [EDH Bracket Calibration](EDH%20Bracket%20Calibration.md) |
+| `canon` | [Contradictions & Retcons Log](Contradictions%20%26%20Retcons%20Log.md) |
 | `card-advantage` | [EDH Packages](EDH%20Packages.md) |
 | `card-entries` | [Card Data Conventions](Card%20Data%20Conventions.md) |
 | `cedh` | [cEDH Primer](cEDH%20Primer.md) |
@@ -152,6 +153,7 @@ Tags are lower-case kebab-case (`^[a-z0-9+]+(-[a-z0-9+]+)*$`). Page tags are ass
 | `comics` | [Side-Media Index](Side-Media%20Index.md) |
 | `competitive` | [cEDH Primer](cEDH%20Primer.md) |
 | `conflicts` | [Conflicts & Arcs](Conflicts%20%26%20Arcs.md) |
+| `contradictions` | [Contradictions & Retcons Log](Contradictions%20%26%20Retcons%20Log.md) |
 | `conventions` | [Card Data Conventions](Card%20Data%20Conventions.md) |
 | `corrections` | [Grixis Corrections](grixis/Grixis%20Corrections.md) |
 | `coverage` | [Card Index](Card%20Index.md) |
@@ -203,6 +205,7 @@ Tags are lower-case kebab-case (`^[a-z0-9+]+(-[a-z0-9+]+)*$`). Page tags are ass
 | `removal` | [EDH Interaction](EDH%20Interaction.md) |
 | `reprints` | [Printing History](Printing%20History.md) |
 | `reserved-list` | [Printing History](Printing%20History.md) |
+| `retcons` | [Contradictions & Retcons Log](Contradictions%20%26%20Retcons%20Log.md) |
 | `retrieval` | [Front-Matter Schema](Front-Matter%20Schema.md) · [Lookup Guide](Lookup%20Guide.md) |
 | `roadmap` | [ROADMAP](ROADMAP.md) |
 | `rules` | [FAQ](FAQ.md) · [Rules Interactions](Rules%20Interactions.md) |

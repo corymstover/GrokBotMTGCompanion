@@ -2,16 +2,16 @@
 title: "Master Timeline"
 category: lore
 tags: [timeline, eras]
-issues: [7]
+issues: [7, 72]
 generated_by: hand-written
 sources: [wizards-story]
-related: ["Characters Index.md", "Conflicts & Arcs.md", "Planes Index.md", "Omenpath & Multiverse Connections.md", "Story Arc Summaries.md"]
+related: ["Characters Index.md", "Conflicts & Arcs.md", "Contradictions & Retcons Log.md", "Planes Index.md", "Omenpath & Multiverse Connections.md", "Story Arc Summaries.md"]
 schema: 2
 ---
 
 # Master Timeline
 
-> **Deepened (Bot cycle 3, 2026-10-15).** Three views: **(A) in-universe eras** — every row links its arc in [Conflicts & Arcs](Conflicts%20%26%20Arcs.md) and its characters in [Characters Index](Characters%20Index.md); **(A1) dated events** — the only absolute dates (AR = *After Reckoning*) printed in fetched official fiction; **(B) real-world release chronology** (Scryfall set dates). Planes: [Planes Index](Planes%20Index.md).
+> **Deepened (Bot cycle 3; **lore-deepened Bot cycle 20**, Phase 6).** Three views: **(A) in-universe eras** — every row links its arc in [Conflicts & Arcs](Conflicts%20%26%20Arcs.md) and its characters in [Characters Index](Characters%20Index.md); **(A1) dated events** — the only absolute dates (AR = *After Reckoning*) printed in fetched official fiction; **(B) real-world release chronology** (Scryfall set dates). Planes: [Planes Index](Planes%20Index.md).
 > **Rule:** no invented dates. Absolute AR years appear **only** where an official story prints them; everything else is relative ordering ("after", "one year prior") quoted from a cited source, or story-publication order (⚠️ publication order ≈ in-world order unless a source says otherwise).
 
 ## Contents
@@ -29,6 +29,7 @@ schema: 2
 ## A. In-universe eras
 
 ### Pre-Mending / Ancient
+> **Era summary (cycle 20):** Ancient Planeswalkers reshape the Multiverse — Eldrazi imprisoned on Zendikar; later Tarkir's past is rewritten so Ugin lives. **Lasting consequences:** hedron prison + Roil; Nahiri's grievance; Ugin's survival enables Meditation Realm and Dragonstorm threads. See [Retcons → Tarkir](Contradictions%20%26%20Retcons%20Log.md#tarkir-timeline-rewrite).
 | Relative date (as stated) | Event | Arc · Characters | Source |
 |---|---|---|---|
 | ">7,000 years ago" (profile era) | Sorin Markov born on Innistrad. | — · [Sorin Markov](Characters%20Index.md#sorin-markov) | [Sorin profile](https://magic.wizards.com/en/story/sorin-markov-planeswalker) |
@@ -38,6 +39,7 @@ schema: 2
 | Distant past (undated) | Serra creates Serra's Realm ("long gone"); Freyalise's and Windgrace's sacrifices; Dakkon and Dihada. | — · [Serra](Characters%20Index.md#serra), [Freyalise](Characters%20Index.md#freyalise), [Dakkon Blackblade](Characters%20Index.md#dakkon-blackblade), [Geyadrone Dihada](Characters%20Index.md#geyadrone-dihada) | [Serra](https://magic.wizards.com/en/story/serra-planeswalker) · [Freyalise](https://magic.wizards.com/en/story/freyalise-planeswalker) · [Dakkon](https://magic.wizards.com/en/story/dakkon-blackblade-planeswalker) |
 
 ### Brothers' War & Phyrexian wars
+> **Era summary (cycle 20):** Urza/Mishra war → ice age → Urza vs Yawgmoth → *Weatherlight*/Legacy victory → Karn founds Mirrodin with hidden oil. **Lasting consequences:** Phyrexian threat lineage; sylex as recurring weapon (BRO frame → Invasion Tree); AR calendar only officially dated here.
 | Relative date | Event | Arc · Characters | Source |
 |---|---|---|---|
 | 0–64 AR (see dated table) | Urza and Mishra find the power stones in the Caves of Koilos; the Brothers' War devastates Dominaria and triggers an ice age; Urza discovers Phyrexia. | [The Brothers' War](Conflicts%20%26%20Arcs.md#the-brothers-war) · [Urza](Characters%20Index.md#urza), [Mishra](Characters%20Index.md#mishra) | [Dominaria](https://magic.wizards.com/en/story/dominaria-plane) |
@@ -60,35 +62,38 @@ The only AR years printed in fetched official fiction (all from *The Brothers' W
 | **4562 AR** | Frame story "present": Teferi, Kaya and Saheeli run the time-travel coffin to reach the war — i.e., the eve of the Phyrexian Invasion. | [BRO Ep. 5](https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-5-as-cruel-as-necessary) |
 
 ### Time Rifts & the Mending
+> **Era summary (cycle 20):** Dominaria's cataclysms tear the Multiverse; Planeswalkers sacrifice to mend the rifts. **Lasting consequences:** sparks become mortal/weaker; Zhalfir's exile persists into MOM. ([Planeswalker's Guide to Dominaria](https://magic.wizards.com/en/news/feature/planeswalkers-guide-dominaria-2022-08-31))
 | Event | Arc · Characters | Source |
 |---|---|---|
 | Time rifts radiate from Dominaria; Planeswalkers mend them; Teferi gives up his spark (later restored); post-Mending sparks are weaker. | [Time Rifts & the Mending](Conflicts%20%26%20Arcs.md#time-rifts--the-mending) · [Teferi](Characters%20Index.md#teferi), [Freyalise](Characters%20Index.md#freyalise), [Venser](Characters%20Index.md#venser), [Karn](Characters%20Index.md#karn) | [Dominaria](https://magic.wizards.com/en/story/dominaria-plane) · [BRO Ch. 1](https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-1-stronghold) · [ONE: Alone](https://magic.wizards.com/en/news/magic-story/alone) |
 
 ### Post-Mending (Gatewatch era)
 Ordered by story publication (⚠️ assumed in-world order). Each step links its arc.
+> **Era summary (cycle 20):** Bolas engineers crises (Alara → Amonkhet → WAR); Eldrazi awaken and fall; Mirrodin becomes New Phyrexia; Gatewatch rises and frays; Phyrexian probes begin (KHM Vorinclex; NEO compleated Tamiyo). **Lasting consequences:** New Phyrexia invasion staging; Immortal Sun on Ravnica; bounty aftermath after WAR.
 
-| # | Arc | Key change | Characters |
-|---|---|---|---|
-| 1 | [Conflux of Alara](Conflicts%20%26%20Arcs.md#conflux-of-alara) | Alara reconverges (Bolas's plan). | [Nicol Bolas](Characters%20Index.md#nicol-bolas), [Ajani Goldmane](Characters%20Index.md#ajani-goldmane) |
-| 2 | [Eldrazi Awaken / Battle for Zendikar / Gatewatch](Conflicts%20%26%20Arcs.md#eldrazi-awaken--battle-for-zendikar--gatewatch) | Eye of Ugin damaged; Eldrazi freed; later the Gatewatch oaths. | [Jace Beleren](Characters%20Index.md#jace-beleren), [Chandra Nalaar](Characters%20Index.md#chandra-nalaar), [Gideon Jura](Characters%20Index.md#gideon-jura), [Nissa Revane](Characters%20Index.md#nissa-revane) |
-| 3 | [Phyrexian conquest of Mirrodin](Conflicts%20%26%20Arcs.md#phyrexian-conquest-of-mirrodin) | Mirrodin becomes New Phyrexia; Venser's sacrifice. | [Karn](Characters%20Index.md#karn), [Koth](Characters%20Index.md#koth), [Elspeth Tirel](Characters%20Index.md#elspeth-tirel), [Venser](Characters%20Index.md#venser) |
-| 4 | [Innistrad & Emrakul](Conflicts%20%26%20Arcs.md#innistrad--emrakul) | Emrakul rises on Innistrad. | [Sorin Markov](Characters%20Index.md#sorin-markov), [Nahiri](Characters%20Index.md#nahiri) |
-| 5 | [Tarkir: Fate Reforged](Conflicts%20%26%20Arcs.md#tarkir-fate-reforged) | Sarkhan rewrites Tarkir's history. | [Sarkhan Vol](Characters%20Index.md#sarkhan-vol), [Ugin](Characters%20Index.md#ugin), [Narset](Characters%20Index.md#narset) |
-| 6 | [Kaladesh revolt](Conflicts%20%26%20Arcs.md#kaladesh-revolt) | Consulate overthrown (later renamed Avishkar). | [Chandra Nalaar](Characters%20Index.md#chandra-nalaar), [Saheeli Rai](Characters%20Index.md#saheeli-rai), [Tezzeret](Characters%20Index.md#tezzeret) |
-| 7 | [Amonkhet & the God-Pharaoh](Conflicts%20%26%20Arcs.md#amonkhet--the-god-pharaoh) | Bolas revealed as the God-Pharaoh. | [Nicol Bolas](Characters%20Index.md#nicol-bolas), [Samut](Characters%20Index.md#samut) |
-| 8 | [Ixalan & the Immortal Sun](Conflicts%20%26%20Arcs.md#ixalan--the-immortal-sun) | Race for the Immortal Sun. | [Huatli](Characters%20Index.md#huatli), [Vraska](Characters%20Index.md#vraska) |
-| 9 | [Return to Dominaria & War of the Spark](Conflicts%20%26%20Arcs.md#return-to-dominaria--war-of-the-spark) | Belzenlok killed; Elderspell; Gideon dies; Bolas imprisoned. | [Gideon Jura](Characters%20Index.md#gideon-jura), [Liliana Vess](Characters%20Index.md#liliana-vess), [Nicol Bolas](Characters%20Index.md#nicol-bolas), [Ugin](Characters%20Index.md#ugin) |
-| 10 | [Throne of Eldraine (2019)](Conflicts%20%26%20Arcs.md#throne-of-eldraine-2019) | Twins Rowan and Will hunt for their father; Garruk's curse broken. | [Rowan Kenrith](Characters%20Index.md#rowan-kenrith), [Will Kenrith](Characters%20Index.md#will-kenrith), [Oko](Characters%20Index.md#oko), [Garruk Wildspeaker](Characters%20Index.md#garruk-wildspeaker) |
-| 11 | [Theros Beyond Death (2020)](Conflicts%20%26%20Arcs.md#theros-beyond-death-2020) | Elspeth escapes the Underworld; Heliod imprisoned; Calix follows her. | [Elspeth Tirel](Characters%20Index.md#elspeth-tirel), [Calix](Characters%20Index.md#calix), [Ashiok](Characters%20Index.md#ashiok) |
-| 12 | [Ikoria: Lair of Behemoths (2020)](Conflicts%20%26%20Arcs.md#ikoria-lair-of-behemoths-2020) | The Ozolith explodes; Lukka's spark ignites. | [Lukka](Characters%20Index.md#lukka), [Vivien Reid](Characters%20Index.md#vivien-reid) |
-| 13 | [Zendikar Rising (2020)](Conflicts%20%26%20Arcs.md#zendikar-rising-2020) | Lithoform Core used; Jace knows Bolas lives. | [Nissa Revane](Characters%20Index.md#nissa-revane), [Jace Beleren](Characters%20Index.md#jace-beleren), [Nahiri](Characters%20Index.md#nahiri) |
-| 14 | [Kaldheim (2021)](Conflicts%20%26%20Arcs.md#kaldheim-2021) | Doomskar; Vorinclex samples the World Tree. | [Kaya](Characters%20Index.md#kaya), [Vorinclex](Characters%20Index.md#vorinclex) |
-| 15 | [Strixhaven (2021)](Conflicts%20%26%20Arcs.md#strixhaven-2021) | Liliana becomes a professor. | [Liliana Vess](Characters%20Index.md#liliana-vess), [Lukka](Characters%20Index.md#lukka) |
-| 16 | [Innistrad: Midnight Hunt & Crimson Vow (2021)](Conflicts%20%26%20Arcs.md#innistrad-midnight-hunt--crimson-vow-2021) | Eternal-night crisis; Teferi warns of Phyrexians. | [Teferi](Characters%20Index.md#teferi), [Kaya](Characters%20Index.md#kaya) |
-| 17 | [Kamigawa: Neon Dynasty (2022)](Conflicts%20%26%20Arcs.md#kamigawa-neon-dynasty-2022) | First compleated Planeswalker (Tamiyo). | [Tamiyo](Characters%20Index.md#tamiyo), [Kaito Shizuki](Characters%20Index.md#kaito-shizuki), [The Wanderer](Characters%20Index.md#the-wanderer), [Jin-Gitaxias](Characters%20Index.md#jin-gitaxias) |
-| 18 | [Streets of New Capenna (2022)](Conflicts%20%26%20Arcs.md#streets-of-new-capenna-2022) | Elspeth takes the Halo to Dominaria. | [Elspeth Tirel](Characters%20Index.md#elspeth-tirel) |
+| # | Arc | Key change | Outcome / lasting (cycle 20) | Characters |
+|---|---|---|---|---|
+| 1 | [Conflux of Alara](Conflicts%20%26%20Arcs.md#conflux-of-alara) | Alara reconverges (Bolas's plan). | One plane again; first big post-Mending Bolas plot. | [Nicol Bolas](Characters%20Index.md#nicol-bolas), [Ajani Goldmane](Characters%20Index.md#ajani-goldmane) |
+| 2 | [Eldrazi Awaken / Battle for Zendikar / Gatewatch](Conflicts%20%26%20Arcs.md#eldrazi-awaken--battle-for-zendikar--gatewatch) | Eye of Ugin damaged; Eldrazi freed; later the Gatewatch oaths. | Ulamog & Kozilek destroyed; Gatewatch founded; Emrakul absent. | [Jace Beleren](Characters%20Index.md#jace-beleren), [Chandra Nalaar](Characters%20Index.md#chandra-nalaar), [Gideon Jura](Characters%20Index.md#gideon-jura), [Nissa Revane](Characters%20Index.md#nissa-revane) |
+| 3 | [Phyrexian conquest of Mirrodin](Conflicts%20%26%20Arcs.md#phyrexian-conquest-of-mirrodin) | Mirrodin becomes New Phyrexia; Venser's sacrifice. | Praetor rule; invasion staging ground. | [Karn](Characters%20Index.md#karn), [Koth](Characters%20Index.md#koth), [Elspeth Tirel](Characters%20Index.md#elspeth-tirel), [Venser](Characters%20Index.md#venser) |
+| 4 | [Innistrad & Emrakul](Conflicts%20%26%20Arcs.md#innistrad--emrakul) | Emrakul rises on Innistrad. | Emrakul sealed in Innistrad's moon (glyph). | [Sorin Markov](Characters%20Index.md#sorin-markov), [Nahiri](Characters%20Index.md#nahiri) |
+| 5 | [Tarkir: Fate Reforged](Conflicts%20%26%20Arcs.md#tarkir-fate-reforged) | Sarkhan rewrites Tarkir's history. | Dragonlord present; Ugin alive (retcon vs original timeline). | [Sarkhan Vol](Characters%20Index.md#sarkhan-vol), [Ugin](Characters%20Index.md#ugin), [Narset](Characters%20Index.md#narset) |
+| 6 | [Kaladesh revolt](Conflicts%20%26%20Arcs.md#kaladesh-revolt) | Consulate overthrown (later renamed Avishkar). | Avishkar Assembly; rename is official (retcon log). | [Chandra Nalaar](Characters%20Index.md#chandra-nalaar), [Saheeli Rai](Characters%20Index.md#saheeli-rai), [Tezzeret](Characters%20Index.md#tezzeret) |
+| 7 | [Amonkhet & the God-Pharaoh](Conflicts%20%26%20Arcs.md#amonkhet--the-god-pharaoh) | Bolas revealed as the God-Pharaoh. | Gatewatch routed; Eternal army harvested. | [Nicol Bolas](Characters%20Index.md#nicol-bolas), [Samut](Characters%20Index.md#samut) |
+| 8 | [Ixalan & the Immortal Sun](Conflicts%20%26%20Arcs.md#ixalan--the-immortal-sun) | Race for the Immortal Sun. | Sun later shut down on Ravnica (WAR). | [Huatli](Characters%20Index.md#huatli), [Vraska](Characters%20Index.md#vraska) |
+| 9 | [Return to Dominaria & War of the Spark](Conflicts%20%26%20Arcs.md#return-to-dominaria--war-of-the-spark) | Belzenlok killed; Elderspell; Gideon dies; Bolas imprisoned. | Bounties on collaborators; Bolas in Meditation Realm. | [Gideon Jura](Characters%20Index.md#gideon-jura), [Liliana Vess](Characters%20Index.md#liliana-vess), [Nicol Bolas](Characters%20Index.md#nicol-bolas), [Ugin](Characters%20Index.md#ugin) |
+| 10 | [Throne of Eldraine (2019)](Conflicts%20%26%20Arcs.md#throne-of-eldraine-2019) | Twins Rowan and Will hunt for their father; Garruk's curse broken. | Shared-spark twins; curse broken (ebook ⚠️ not fetched). | [Rowan Kenrith](Characters%20Index.md#rowan-kenrith), [Will Kenrith](Characters%20Index.md#will-kenrith), [Oko](Characters%20Index.md#oko), [Garruk Wildspeaker](Characters%20Index.md#garruk-wildspeaker) |
+| 11 | [Theros Beyond Death (2020)](Conflicts%20%26%20Arcs.md#theros-beyond-death-2020) | Elspeth escapes the Underworld; Heliod imprisoned; Calix follows her. | Elspeth free; Calix sparks; path to Capenna. | [Elspeth Tirel](Characters%20Index.md#elspeth-tirel), [Calix](Characters%20Index.md#calix), [Ashiok](Characters%20Index.md#ashiok) |
+| 12 | [Ikoria: Lair of Behemoths (2020)](Conflicts%20%26%20Arcs.md#ikoria-lair-of-behemoths-2020) | The Ozolith explodes; Lukka's spark ignites. | Lukka planeswalks; later Oriq recruit. | [Lukka](Characters%20Index.md#lukka), [Vivien Reid](Characters%20Index.md#vivien-reid) |
+| 13 | [Zendikar Rising (2020)](Conflicts%20%26%20Arcs.md#zendikar-rising-2020) | Lithoform Core used; Jace knows Bolas lives. | Core spent; Jace–Nissa rift. | [Nissa Revane](Characters%20Index.md#nissa-revane), [Jace Beleren](Characters%20Index.md#jace-beleren), [Nahiri](Characters%20Index.md#nahiri) |
+| 14 | [Kaldheim (2021)](Conflicts%20%26%20Arcs.md#kaldheim-2021) | Doomskar; Vorinclex samples the World Tree. | First Phyrexian Multiverse probe sample. | [Kaya](Characters%20Index.md#kaya), [Vorinclex](Characters%20Index.md#vorinclex) |
+| 15 | [Strixhaven (2021)](Conflicts%20%26%20Arcs.md#strixhaven-2021) | Liliana becomes a professor. | Liliana on Arcavios faculty. | [Liliana Vess](Characters%20Index.md#liliana-vess), [Lukka](Characters%20Index.md#lukka) |
+| 16 | [Innistrad: Midnight Hunt & Crimson Vow (2021)](Conflicts%20%26%20Arcs.md#innistrad-midnight-hunt--crimson-vow-2021) | Eternal-night crisis; Teferi warns of Phyrexians. | Teferi gathers anti-Phyrexia allies. | [Teferi](Characters%20Index.md#teferi), [Kaya](Characters%20Index.md#kaya) |
+| 17 | [Kamigawa: Neon Dynasty (2022)](Conflicts%20%26%20Arcs.md#kamigawa-neon-dynasty-2022) | First compleated Planeswalker (Tamiyo). | Compleated PWs become invasion key. | [Tamiyo](Characters%20Index.md#tamiyo), [Kaito Shizuki](Characters%20Index.md#kaito-shizuki), [The Wanderer](Characters%20Index.md#the-wanderer), [Jin-Gitaxias](Characters%20Index.md#jin-gitaxias) |
+| 18 | [Streets of New Capenna (2022)](Conflicts%20%26%20Arcs.md#streets-of-new-capenna-2022) | Elspeth takes the Halo to Dominaria. | Halo & Capenna lore enter invasion. | [Elspeth Tirel](Characters%20Index.md#elspeth-tirel) |
 
 ### Phyrexian Invasion
+> **Era summary (cycle 20):** Realmbreaker invades every plane; praetors die; Zhalfir returns; most sparks fade. **Lasting consequences:** Omenpaths; desparked heroes; Nahiri seals Zendikar to Planeswalkers.
 | Order | Phase | Key events | Source |
 |---|---|---|---|
 | 1 | [Dominaria United (2022)](Conflicts%20%26%20Arcs.md#dominaria-united-2022) | Sheoldred on Dominaria; Norn shows Karn the Realmbreaker sapling. | [DMU Ep. 5](https://magic.wizards.com/en/news/magic-story/episode-5-whisper-wind-2022-08-18) |
@@ -98,6 +103,7 @@ Ordered by story publication (⚠️ assumed in-world order). Each step links it
 | 5 | [March of the Machine: The Aftermath (2023)](Conflicts%20%26%20Arcs.md#march-of-the-machine-the-aftermath-2023) | Sparks fade; Nahiri closes Zendikar to Planeswalkers. | [She Who Breaks the World](https://magic.wizards.com/en/news/magic-story/she-who-breaks-the-world) · [Beyond Repair](https://magic.wizards.com/en/news/magic-story/beyond-repair) |
 
 ### Omenpath era (post-invasion)
+> **Era summary (cycle 20):** Non-Planeswalkers travel via Omenpaths; Jace's Ashiok disguise and Echoverse end in Reality Fracture. **Lasting consequences:** ongoing — Bolas free again (TDM); Jace dead / spark seeking Tam (RF). ❓ Omenpath origin still unexplained in fetched sources.
 | Relative marker (quoted) | Arc | Event | Source |
 |---|---|---|---|
 | "One Year Prior" (Epilogue 1 frame) | [Outlaws of Thunder Junction (2024)](Conflicts%20%26%20Arcs.md#outlaws-of-thunder-junction-2024) | Epilogue 1 recalls Jace at the Invasion Tree with the sylex one year earlier ⇒ the epilogues are ~1 year after the invasion. | [Epilogue 1](https://magic.wizards.com/en/news/magic-story/epilogue-1-the-invasion-tree) |
@@ -145,6 +151,7 @@ Release month of each Multiverse-story expansion (Scryfall). Universes Beyond cr
 **Universes Beyond (🚫 not Multiverse canon):** Final Fantasy (2025-06), Marvel's Spider-Man (2025-09), Avatar: The Last Airbender (2025-11), Teenage Mutant Ninja Turtles (2026-03), Marvel Super Heroes (2026-06), The Hobbit (2026-08), Star Trek (2026-11), Marvel: Darkhold Destiny (2027-04, announced).
 
 ## Open questions
+- Documented source conflicts / overrides: [Contradictions & Retcons Log](Contradictions%20%26%20Retcons%20Log.md).
 - ❓ The AR calendar is dated only for the Brothers' War and its 4562 AR frame; other eras stay relative until an official source dates them.
 - ❓ Exact in-story origin of the Omenpaths.
 - ⚠️ Placement of Edge of Eternities relative to the other Omenpath arcs.
