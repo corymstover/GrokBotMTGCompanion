@@ -1,0 +1,230 @@
+# Deck Skeleton — Niv-Mizzet, Parun
+
+> **Data-derived skeleton, not a tuned list.** Built 2026-10-15 by `scripts/build_deck_skeleton.py` from [EDHREC](https://edhrec.com/commanders/niv-mizzet-parun) inclusion rates (community data) and validated against Scryfall Oracle bulk (2026-10-15). Card choices = most-included cards for this commander; *any judgment about what to cut/add is Opinion*. Format per [EDH Standards](../EDH%20Standards.md).
+
+## Contents
+- [Commander](#commander)
+- [Validation](#validation)
+- [Bracket assessment](#bracket-assessment)
+- [Decklist (Archidekt import)](#decklist-archidekt-import)
+- [Card breakdown](#card-breakdown)
+- [Rejected candidates](#rejected-candidates)
+- [Commander rules & rulings](#commander-rules--rulings)
+
+## Commander
+
+- **[Niv-Mizzet, Parun](../cards/N/ni.md#niv-mizzet-parun)** — {U}{U}{U}{R}{R}{R} — Legendary Creature — Dragon Wizard
+- Color identity: **RU (Red, Blue)**
+- Eligibility: Yes (legendary creature)
+- EDHREC sample: 15637 decks · bracket distribution reported by EDHREC: B1: 37, B2: 931, B3: 1,333, B4: 1,311, B5: 372
+
+## Validation
+
+- Total cards: **100** (1 commander + 63 nonland + 16 nonbasic lands + 20 basics)
+- Strict color identity (CR 903.5c), singleton (903.5b), Commander-legal, size (903.5a): ✅ **all checks pass**
+
+## Bracket assessment
+
+- Game Changers (4): Rhystic Study, Cyclonic Rift, Mystical Tutor, Fierce Guardianship
+- Extra-turn cards: none
+- Mass land denial: none
+- Two-card infinite combos: ⚠️ not machine-checked — review manually.
+- **Minimum bracket by the published barometers: 4 (Optimized) — more than three Game Changers.** (Brackets are a pregame-conversation tool; see [EDH Standards](../EDH%20Standards.md#power-bracket-assessment).)
+
+## Decklist (Archidekt import)
+
+```text
+1x Niv-Mizzet, Parun [Commander{top}]
+1x Arcane Signet [Artifact]
+1x Sol Ring [Artifact]
+1x Izzet Signet [Artifact]
+1x Talisman of Creativity [Artifact]
+1x Thought Vessel [Artifact]
+1x Fellwar Stone [Artifact]
+1x Commander's Sphere [Artifact]
+1x Swiftfoot Boots [Artifact]
+1x Decanter of Endless Water [Artifact]
+1x Brainstorm [Instant]
+1x Counterspell [Instant]
+1x Opt [Instant]
+1x Frantic Search [Instant]
+1x Negate [Instant]
+1x Lightning Bolt [Instant]
+1x Izzet Charm [Instant]
+1x Arcane Denial [Instant]
+1x An Offer You Can't Refuse [Instant]
+1x Consider [Instant]
+1x Chaos Warp [Instant]
+1x Pongify [Instant]
+1x Abrade [Instant]
+1x Cyclonic Rift [Instant]
+1x Mystical Tutor [Instant]
+1x Thrill of Possibility [Instant]
+1x Swan Song [Instant]
+1x Rapid Hybridization [Instant]
+1x Snap [Instant]
+1x Fierce Guardianship [Instant]
+1x Flame of Anor [Instant]
+1x Prismari Command [Instant]
+1x Curiosity [Enchantment]
+1x Ophidian Eye [Enchantment]
+1x Rhystic Study [Enchantment]
+1x Mystic Remora [Enchantment]
+1x Teferi's Ageless Insight [Enchantment]
+1x Thousand-Year Storm [Enchantment]
+1x Ponder [Sorcery]
+1x Preordain [Sorcery]
+1x Faithless Looting [Sorcery]
+1x Blasphemous Act [Sorcery]
+1x Windfall [Sorcery]
+1x Vandalblast [Sorcery]
+1x Gitaxian Probe [Sorcery]
+1x Serum Visions [Sorcery]
+1x Treasure Cruise [Sorcery]
+1x Expressive Iteration [Sorcery]
+1x Guttersnipe [Creature]
+1x Goblin Electromancer [Creature]
+1x Storm-Kiln Artist [Creature]
+1x Archmage Emeritus [Creature]
+1x Niv-Mizzet, the Firemind [Creature]
+1x Tandem Lookout [Creature]
+1x Niv-Mizzet, Visionary [Creature]
+1x Talrand, Sky Summoner [Creature]
+1x Harmonic Prodigy [Creature]
+1x Psychosis Crawler [Creature]
+1x Baral, Chief of Compliance [Creature]
+1x Electrostatic Field [Creature]
+1x Young Pyromancer [Creature]
+1x Laboratory Maniac [Creature]
+1x Stormcatch Mentor [Creature]
+1x Veyran, Voice of Duality [Creature]
+1x Command Tower [Land]
+1x Sulfur Falls [Land]
+1x Shivan Reef [Land]
+1x Reliquary Tower [Land]
+1x Steam Vents [Land]
+1x Temple of Epiphany [Land]
+1x Izzet Boilerworks [Land]
+1x Cascade Bluffs [Land]
+1x Frostboil Snarl [Land]
+1x Stormcarved Coast [Land]
+1x Training Center [Land]
+1x Mystic Sanctuary [Land]
+1x Exotic Orchard [Land]
+1x Swiftwater Cliffs [Land]
+1x Scalding Tarn [Land]
+1x Fiery Islet [Land]
+10x Island [Land]
+10x Mountain [Land]
+```
+
+## Card breakdown
+
+| Card | Section | EDHREC inclusion | Identity |
+|---|---|---|---|
+| [Arcane Signet](../cards/A/arc.md#arcane-signet) | Artifact | 83% | C |
+| [Sol Ring](../cards/S/so.md#sol-ring) | Artifact | 82% | C |
+| [Izzet Signet](../cards/I/iz.md#izzet-signet) | Artifact | 69% | RU |
+| [Talisman of Creativity](../cards/T/ta.md#talisman-of-creativity) | Artifact | 57% | RU |
+| [Thought Vessel](../cards/T/tho.md#thought-vessel) | Artifact | 39% | C |
+| [Fellwar Stone](../cards/F/fe.md#fellwar-stone) | Artifact | 36% | C |
+| [Commander's Sphere](../cards/C/com.md#commanders-sphere) | Artifact | 34% | C |
+| [Swiftfoot Boots](../cards/S/sw.md#swiftfoot-boots) | Artifact | 27% | C |
+| [Decanter of Endless Water](../cards/D/dec.md#decanter-of-endless-water) | Artifact | 25% | C |
+| [Brainstorm](../cards/B/br.md#brainstorm) | Instant | 74% | U |
+| [Counterspell](../cards/C/cou.md#counterspell) | Instant | 72% | U |
+| [Opt](../cards/O/op.md#opt) | Instant | 64% | U |
+| [Frantic Search](../cards/F/fr.md#frantic-search) | Instant | 59% | U |
+| [Negate](../cards/N/ne.md#negate) | Instant | 52% | U |
+| [Lightning Bolt](../cards/L/li.md#lightning-bolt) | Instant | 47% | R |
+| [Izzet Charm](../cards/I/iz.md#izzet-charm) | Instant | 46% | RU |
+| [Arcane Denial](../cards/A/arc.md#arcane-denial) | Instant | 45% | U |
+| [An Offer You Can't Refuse](../cards/A/an.md#an-offer-you-cant-refuse) | Instant | 44% | U |
+| [Consider](../cards/C/con.md#consider) | Instant | 41% | U |
+| [Chaos Warp](../cards/C/cha.md#chaos-warp) | Instant | 39% | R |
+| [Pongify](../cards/P/po.md#pongify) | Instant | 38% | U |
+| [Abrade](../cards/A/ab.md#abrade) | Instant | 37% | R |
+| [Cyclonic Rift](../cards/C/cy.md#cyclonic-rift) | Instant | 34% | U |
+| [Mystical Tutor](../cards/M/my.md#mystical-tutor) | Instant | 32% | U |
+| [Thrill of Possibility](../cards/T/thr.md#thrill-of-possibility) | Instant | 31% | R |
+| [Swan Song](../cards/S/sw.md#swan-song) | Instant | 30% | U |
+| [Rapid Hybridization](../cards/R/rap.md#rapid-hybridization) | Instant | 30% | U |
+| [Snap](../cards/S/sn.md#snap) | Instant | 30% | U |
+| [Fierce Guardianship](../cards/F/fi.md#fierce-guardianship) | Instant | 25% | U |
+| [Flame of Anor](../cards/F/fl.md#flame-of-anor) | Instant | 25% | RU |
+| [Prismari Command](../cards/P/pr.md#prismari-command) | Instant | 24% | RU |
+| [Curiosity](../cards/C/cu.md#curiosity) | Enchantment | 72% | U |
+| [Ophidian Eye](../cards/O/op.md#ophidian-eye) | Enchantment | 50% | U |
+| [Rhystic Study](../cards/R/rh.md#rhystic-study) | Enchantment | 38% | U |
+| [Mystic Remora](../cards/M/my.md#mystic-remora) | Enchantment | 30% | U |
+| [Teferi's Ageless Insight](../cards/T/te.md#teferis-ageless-insight) | Enchantment | 26% | U |
+| [Thousand-Year Storm](../cards/T/tho.md#thousand-year-storm) | Enchantment | 24% | RU |
+| [Ponder](../cards/P/po.md#ponder) | Sorcery | 58% | U |
+| [Preordain](../cards/P/pr.md#preordain) | Sorcery | 57% | U |
+| [Faithless Looting](../cards/F/fa.md#faithless-looting) | Sorcery | 52% | R |
+| [Blasphemous Act](../cards/B/bla.md#blasphemous-act) | Sorcery | 48% | R |
+| [Windfall](../cards/W/wi.md#windfall) | Sorcery | 44% | U |
+| [Vandalblast](../cards/V/va.md#vandalblast) | Sorcery | 35% | R |
+| [Gitaxian Probe](../cards/G/gi.md#gitaxian-probe) | Sorcery | 33% | U |
+| [Serum Visions](../cards/S/ser.md#serum-visions) | Sorcery | 33% | U |
+| [Treasure Cruise](../cards/T/tre.md#treasure-cruise) | Sorcery | 29% | U |
+| [Expressive Iteration](../cards/E/ex.md#expressive-iteration) | Sorcery | 26% | RU |
+| [Guttersnipe](../cards/G/gu.md#guttersnipe) | Creature | 57% | R |
+| [Goblin Electromancer](../cards/G/gob.md#goblin-electromancer) | Creature | 55% | RU |
+| [Storm-Kiln Artist](../cards/S/sto.md#storm-kiln-artist) | Creature | 52% | R |
+| [Archmage Emeritus](../cards/A/arc.md#archmage-emeritus) | Creature | 49% | U |
+| [Niv-Mizzet, the Firemind](../cards/N/ni.md#niv-mizzet-the-firemind) | Creature | 46% | RU |
+| [Tandem Lookout](../cards/T/ta.md#tandem-lookout) | Creature | 46% | U |
+| [Niv-Mizzet, Visionary](../cards/N/ni.md#niv-mizzet-visionary) | Creature | 42% | RU |
+| [Talrand, Sky Summoner](../cards/T/ta.md#talrand-sky-summoner) | Creature | 36% | U |
+| [Harmonic Prodigy](../cards/H/ha.md#harmonic-prodigy) | Creature | 36% | R |
+| [Psychosis Crawler](../cards/P/ps.md#psychosis-crawler) | Creature | 32% | C |
+| [Baral, Chief of Compliance](../cards/B/bar.md#baral-chief-of-compliance) | Creature | 31% | U |
+| [Electrostatic Field](../cards/E/el.md#electrostatic-field) | Creature | 29% | R |
+| [Young Pyromancer](../cards/Y/yo.md#young-pyromancer) | Creature | 29% | R |
+| [Laboratory Maniac](../cards/L/la.md#laboratory-maniac) | Creature | 28% | U |
+| [Stormcatch Mentor](../cards/S/sto.md#stormcatch-mentor) | Creature | 27% | RU |
+| [Veyran, Voice of Duality](../cards/V/ve.md#veyran-voice-of-duality) | Creature | 25% | RU |
+| [Command Tower](../cards/C/com.md#command-tower) | Land | 87% | C |
+| [Sulfur Falls](../cards/S/sul.md#sulfur-falls) | Land | 68% | RU |
+| [Shivan Reef](../cards/S/shi.md#shivan-reef) | Land | 62% | RU |
+| [Reliquary Tower](../cards/R/rel.md#reliquary-tower) | Land | 59% | C |
+| [Steam Vents](../cards/S/ste.md#steam-vents) | Land | 50% | RU |
+| [Temple of Epiphany](../cards/T/te.md#temple-of-epiphany) | Land | 49% | RU |
+| [Izzet Boilerworks](../cards/I/iz.md#izzet-boilerworks) | Land | 47% | RU |
+| [Cascade Bluffs](../cards/C/cas.md#cascade-bluffs) | Land | 47% | RU |
+| [Frostboil Snarl](../cards/F/fr.md#frostboil-snarl) | Land | 46% | RU |
+| [Stormcarved Coast](../cards/S/sto.md#stormcarved-coast) | Land | 41% | RU |
+| [Training Center](../cards/T/tra.md#training-center) | Land | 38% | RU |
+| [Mystic Sanctuary](../cards/M/my.md#mystic-sanctuary) | Land | 37% | U |
+| [Exotic Orchard](../cards/E/ex.md#exotic-orchard) | Land | 35% | C |
+| [Swiftwater Cliffs](../cards/S/sw.md#swiftwater-cliffs) | Land | 34% | RU |
+| [Scalding Tarn](../cards/S/sc.md#scalding-tarn) | Land | 30% | C |
+| [Fiery Islet](../cards/F/fi.md#fiery-islet) | Land | 29% | RU |
+| 10× Island | Basic land | — | — |
+| 10× Mountain | Basic land | — | — |
+
+## Rejected candidates
+
+EDHREC suggestions excluded by validation (should normally be empty or only off-identity/illegal cards):
+
+- none
+
+<!-- RULES-NOTES:START -->
+## Commander rules & rulings
+
+> Auto-generated by `scripts/deck_rules_notes.py` from Scryfall Oracle bulk (2026-10-15) and rulings bulk (2026-10-15); rulings are quoted verbatim (source: Wizards of the Coast unless marked). Facts only — strategy is in [EDH Standards](../EDH%20Standards.md#synergy-notes), labeled Opinion.
+
+**Oracle text — [Niv-Mizzet, Parun](../cards/N/ni.md#niv-mizzet-parun):**
+> Niv-Mizzet, Parun: This spell can't be countered. / Flying / Whenever you draw a card, Niv-Mizzet deals 1 damage to any target. / Whenever a player casts an instant or sorcery spell, you draw a card.
+
+**Official rulings on the commander (4):**
+- *2018-10-05* — Players can cast spells and activate abilities after Niv-Mizzet's second triggered ability resolves but before the spell that caused it to trigger does. Notably, the card you draw may be able to counter that spell.
+- *2018-10-05* — If a spell or ability causes you to put cards into your hand without specifically using the word "draw," Niv-Mizzet's first triggered ability won't trigger.
+- *2018-10-05* — If an effect instructs you to draw multiple cards, Niv-Mizzet's first triggered ability triggers that many times. You choose targets for those abilities after you've drawn all of the cards.
+- *2018-10-05* — Niv-Mizzet's second triggered ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered. This causes its first triggered ability to trigger, and that also resolves before the spell.
+
+**Creature-type overlap** with the commander (Dragon, Wizard): 10 card(s) — [Goblin Electromancer](../cards/G/gob.md#goblin-electromancer), [Archmage Emeritus](../cards/A/arc.md#archmage-emeritus), [Niv-Mizzet, the Firemind](../cards/N/ni.md#niv-mizzet-the-firemind), [Niv-Mizzet, Visionary](../cards/N/ni.md#niv-mizzet-visionary), [Talrand, Sky Summoner](../cards/T/ta.md#talrand-sky-summoner), [Harmonic Prodigy](../cards/H/ha.md#harmonic-prodigy), [Baral, Chief of Compliance](../cards/B/bar.md#baral-chief-of-compliance), [Laboratory Maniac](../cards/L/la.md#laboratory-maniac), [Stormcatch Mentor](../cards/S/sto.md#stormcatch-mentor), [Veyran, Voice of Duality](../cards/V/ve.md#veyran-voice-of-duality).
+
+**Deck cards with official rulings:** 58 of 79 non-basic cards — [Arcane Signet](../cards/A/arc.md#arcane-signet) (3), [Fellwar Stone](../cards/F/fe.md#fellwar-stone) (7), [Commander's Sphere](../cards/C/com.md#commanders-sphere) (3), [Swiftfoot Boots](../cards/S/sw.md#swiftfoot-boots) (1), [Brainstorm](../cards/B/br.md#brainstorm) (1), [Frantic Search](../cards/F/fr.md#frantic-search) (2), [Negate](../cards/N/ne.md#negate) (1), [Izzet Charm](../cards/I/iz.md#izzet-charm) (1), [Arcane Denial](../cards/A/arc.md#arcane-denial) (1), [An Offer You Can't Refuse](../cards/A/an.md#an-offer-you-cant-refuse) (2), [Consider](../cards/C/con.md#consider) (1), [Chaos Warp](../cards/C/cha.md#chaos-warp) (5), [Pongify](../cards/P/po.md#pongify) (1), [Cyclonic Rift](../cards/C/cy.md#cyclonic-rift) (4), [Mystical Tutor](../cards/M/my.md#mystical-tutor) (1), [Thrill of Possibility](../cards/T/thr.md#thrill-of-possibility) (1), [Swan Song](../cards/S/sw.md#swan-song) (1), [Rapid Hybridization](../cards/R/rap.md#rapid-hybridization) (2), [Snap](../cards/S/sn.md#snap) (1), [Fierce Guardianship](../cards/F/fi.md#fierce-guardianship) (2), [Flame of Anor](../cards/F/fl.md#flame-of-anor) (1), [Prismari Command](../cards/P/pr.md#prismari-command) (2), [Curiosity](../cards/C/cu.md#curiosity) (5), [Ophidian Eye](../cards/O/op.md#ophidian-eye) (1), [Rhystic Study](../cards/R/rh.md#rhystic-study) (2), [Mystic Remora](../cards/M/my.md#mystic-remora) (2), [Teferi's Ageless Insight](../cards/T/te.md#teferis-ageless-insight) (3), [Thousand-Year Storm](../cards/T/tho.md#thousand-year-storm) (10), [Ponder](../cards/P/po.md#ponder) (1), [Faithless Looting](../cards/F/fa.md#faithless-looting) (7), [Blasphemous Act](../cards/B/bla.md#blasphemous-act) (4), [Vandalblast](../cards/V/va.md#vandalblast) (4), [Gitaxian Probe](../cards/G/gi.md#gitaxian-probe) (6), [Treasure Cruise](../cards/T/tre.md#treasure-cruise) (3), [Expressive Iteration](../cards/E/ex.md#expressive-iteration) (3), [Guttersnipe](../cards/G/gu.md#guttersnipe) (2), [Goblin Electromancer](../cards/G/gob.md#goblin-electromancer) (3), [Storm-Kiln Artist](../cards/S/sto.md#storm-kiln-artist) (4), [Archmage Emeritus](../cards/A/arc.md#archmage-emeritus) (4), [Niv-Mizzet, the Firemind](../cards/N/ni.md#niv-mizzet-the-firemind) (2), [Tandem Lookout](../cards/T/ta.md#tandem-lookout) (1), [Talrand, Sky Summoner](../cards/T/ta.md#talrand-sky-summoner) (1), [Psychosis Crawler](../cards/P/ps.md#psychosis-crawler) (1), [Baral, Chief of Compliance](../cards/B/bar.md#baral-chief-of-compliance) (3), [Electrostatic Field](../cards/E/el.md#electrostatic-field) (2), [Young Pyromancer](../cards/Y/yo.md#young-pyromancer) (1), [Laboratory Maniac](../cards/L/la.md#laboratory-maniac) (2), [Stormcatch Mentor](../cards/S/sto.md#stormcatch-mentor) (2), [Veyran, Voice of Duality](../cards/V/ve.md#veyran-voice-of-duality) (7), [Command Tower](../cards/C/com.md#command-tower) (3), [Shivan Reef](../cards/S/shi.md#shivan-reef) (2), [Reliquary Tower](../cards/R/rel.md#reliquary-tower) (1), [Steam Vents](../cards/S/ste.md#steam-vents) (3), [Izzet Boilerworks](../cards/I/iz.md#izzet-boilerworks) (1), [Frostboil Snarl](../cards/F/fr.md#frostboil-snarl) (4), [Training Center](../cards/T/tra.md#training-center) (2), [Mystic Sanctuary](../cards/M/my.md#mystic-sanctuary) (2), [Exotic Orchard](../cards/E/ex.md#exotic-orchard) (5).
+<!-- RULES-NOTES:END -->

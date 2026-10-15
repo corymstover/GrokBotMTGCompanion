@@ -1,0 +1,209 @@
+# Deck Skeleton — Selvala, Heart of the Wilds
+
+> **Data-derived skeleton, not a tuned list.** Built 2026-10-15 by `scripts/build_deck_skeleton.py` from [EDHREC](https://edhrec.com/commanders/selvala-heart-of-the-wilds) inclusion rates (community data) and validated against Scryfall Oracle bulk (2026-10-15). Card choices = most-included cards for this commander; *any judgment about what to cut/add is Opinion*. Format per [EDH Standards](../EDH%20Standards.md).
+
+## Contents
+- [Commander](#commander)
+- [Validation](#validation)
+- [Bracket assessment](#bracket-assessment)
+- [Decklist (Archidekt import)](#decklist-archidekt-import)
+- [Card breakdown](#card-breakdown)
+- [Rejected candidates](#rejected-candidates)
+- [Commander rules & rulings](#commander-rules--rulings)
+
+## Commander
+
+- **[Selvala, Heart of the Wilds](../cards/S/sel.md#selvala-heart-of-the-wilds)** — {1}{G}{G} — Legendary Creature — Elf Scout
+- Color identity: **G (Green)**
+- Eligibility: Yes (legendary creature)
+- EDHREC sample: 6384 decks · bracket distribution reported by EDHREC: B1: 15, B2: 357, B3: 498, B4: 554, B5: 418
+
+## Validation
+
+- Total cards: **100** (1 commander + 63 nonland + 7 nonbasic lands + 29 basics)
+- Strict color identity (CR 903.5c), singleton (903.5b), Commander-legal, size (903.5a): ✅ **all checks pass**
+
+## Bracket assessment
+
+- Game Changers (2): Worldly Tutor, Natural Order
+- Extra-turn cards: none
+- Mass land denial: none
+- Two-card infinite combos: ⚠️ not machine-checked — review manually.
+- **Minimum bracket by the published barometers: 3 (Upgraded) — 1–3 Game Changers.** (Brackets are a pregame-conversation tool; see [EDH Standards](../EDH%20Standards.md#power-bracket-assessment).)
+
+## Decklist (Archidekt import)
+
+```text
+1x Selvala, Heart of the Wilds [Commander{top}]
+1x Llanowar Elves [Creature]
+1x Elvish Mystic [Creature]
+1x Fyndhorn Elves [Creature]
+1x Ghalta, Primal Hunger [Creature]
+1x Eternal Witness [Creature]
+1x Quirion Ranger [Creature]
+1x Arbor Elf [Creature]
+1x Kogla, the Titan Ape [Creature]
+1x Birds of Paradise [Creature]
+1x Scryb Ranger [Creature]
+1x Temur Sabertooth [Creature]
+1x Beast Whisperer [Creature]
+1x Ashaya, Soul of the Wild [Creature]
+1x Wirewood Symbiote [Creature]
+1x Craterhoof Behemoth [Creature]
+1x Fanatic of Rhonas [Creature]
+1x Fierce Empath [Creature]
+1x Disciple of Freyalise // Garden of Freyalise [Creature]
+1x Regal Force [Creature]
+1x Hyrax Tower Scout [Creature]
+1x Phyrexian Soulgorger [Creature]
+1x Goreclaw, Terror of Qal Sisma [Creature]
+1x Delighted Halfling [Creature]
+1x Apex Devastator [Creature]
+1x Karametra's Acolyte [Creature]
+1x Allosaurus Shepherd [Creature]
+1x Slumbering Trudge [Creature]
+1x Priest of Titania [Creature]
+1x Reclamation Sage [Creature]
+1x Woodland Bellower [Creature]
+1x Sol Ring [Artifact]
+1x Staff of Domination [Artifact]
+1x Umbral Mantle [Artifact]
+1x Lightning Greaves [Artifact]
+1x The Great Henge [Artifact]
+1x Emerald Medallion [Artifact]
+1x Swiftfoot Boots [Artifact]
+1x Beast Within [Instant]
+1x Return of the Wildspeaker [Instant]
+1x Heroic Intervention [Instant]
+1x Worldly Tutor [Instant]
+1x Chord of Calling [Instant]
+1x Veil of Summer [Instant]
+1x Momentous Fall [Instant]
+1x Nature's Claim [Instant]
+1x Invigorate [Instant]
+1x Shared Summons [Instant]
+1x Rishkar's Expertise [Sorcery]
+1x Finale of Devastation [Sorcery]
+1x Green Sun's Zenith [Sorcery]
+1x Tooth and Nail [Sorcery]
+1x Last March of the Ents [Sorcery]
+1x Natural Order [Sorcery]
+1x Cultivate [Sorcery]
+1x Eldritch Evolution [Sorcery]
+1x Garruk's Uprising [Enchantment]
+1x Wild Growth [Enchantment]
+1x Utopia Sprawl [Enchantment]
+1x Greater Good [Enchantment]
+1x Sylvan Library [Enchantment]
+1x Concordant Crossroads [Enchantment]
+1x Kenrith's Transformation [Enchantment]
+1x Garruk, Primal Hunter [Planeswalker]
+1x Wirewood Lodge [Land]
+1x Nykthos, Shrine to Nyx [Land]
+1x Castle Garenbrig [Land]
+1x Boseiju, Who Endures [Land]
+1x Reliquary Tower [Land]
+1x Yavimaya, Cradle of Growth [Land]
+1x Mosswort Bridge [Land]
+29x Forest [Land]
+```
+
+## Card breakdown
+
+| Card | Section | EDHREC inclusion | Identity |
+|---|---|---|---|
+| [Llanowar Elves](../cards/L/ll.md#llanowar-elves) | Creature | 82% | G |
+| [Elvish Mystic](../cards/E/el.md#elvish-mystic) | Creature | 78% | G |
+| [Fyndhorn Elves](../cards/F/fy.md#fyndhorn-elves) | Creature | 66% | G |
+| [Ghalta, Primal Hunger](../cards/G/gh.md#ghalta-primal-hunger) | Creature | 66% | G |
+| [Eternal Witness](../cards/E/et.md#eternal-witness) | Creature | 57% | G |
+| [Quirion Ranger](../cards/Q/qu.md#quirion-ranger) | Creature | 55% | G |
+| [Arbor Elf](../cards/A/arb.md#arbor-elf) | Creature | 54% | G |
+| [Kogla, the Titan Ape](../cards/K/ko.md#kogla-the-titan-ape) | Creature | 54% | G |
+| [Birds of Paradise](../cards/B/bi.md#birds-of-paradise) | Creature | 49% | G |
+| [Scryb Ranger](../cards/S/sc.md#scryb-ranger) | Creature | 46% | G |
+| [Temur Sabertooth](../cards/T/te.md#temur-sabertooth) | Creature | 46% | G |
+| [Beast Whisperer](../cards/B/be.md#beast-whisperer) | Creature | 43% | G |
+| [Ashaya, Soul of the Wild](../cards/A/as.md#ashaya-soul-of-the-wild) | Creature | 41% | G |
+| [Wirewood Symbiote](../cards/W/wi.md#wirewood-symbiote) | Creature | 39% | G |
+| [Craterhoof Behemoth](../cards/C/cr.md#craterhoof-behemoth) | Creature | 39% | G |
+| [Fanatic of Rhonas](../cards/F/fa.md#fanatic-of-rhonas) | Creature | 38% | G |
+| [Fierce Empath](../cards/F/fi.md#fierce-empath) | Creature | 38% | G |
+| [Disciple of Freyalise // Garden of Freyalise](../cards/D/di.md#disciple-of-freyalise--garden-of-freyalise) | Creature | 38% | G |
+| [Regal Force](../cards/R/reg.md#regal-force) | Creature | 37% | G |
+| [Hyrax Tower Scout](../cards/H/hy.md#hyrax-tower-scout) | Creature | 37% | G |
+| [Phyrexian Soulgorger](../cards/P/ph.md#phyrexian-soulgorger) | Creature | 36% | C |
+| [Goreclaw, Terror of Qal Sisma](../cards/G/gor.md#goreclaw-terror-of-qal-sisma) | Creature | 35% | G |
+| [Delighted Halfling](../cards/D/del.md#delighted-halfling) | Creature | 35% | G |
+| [Apex Devastator](../cards/A/ap.md#apex-devastator) | Creature | 34% | G |
+| [Karametra's Acolyte](../cards/K/ka.md#karametras-acolyte) | Creature | 34% | G |
+| [Allosaurus Shepherd](../cards/A/al.md#allosaurus-shepherd) | Creature | 32% | G |
+| [Slumbering Trudge](../cards/S/sl.md#slumbering-trudge) | Creature | 31% | G |
+| [Priest of Titania](../cards/P/pr.md#priest-of-titania) | Creature | 31% | G |
+| [Reclamation Sage](../cards/R/rec.md#reclamation-sage) | Creature | 31% | G |
+| [Woodland Bellower](../cards/W/wo.md#woodland-bellower) | Creature | 29% | G |
+| [Sol Ring](../cards/S/so.md#sol-ring) | Artifact | 80% | C |
+| [Staff of Domination](../cards/S/sta.md#staff-of-domination) | Artifact | 54% | C |
+| [Umbral Mantle](../cards/U/um.md#umbral-mantle) | Artifact | 46% | C |
+| [Lightning Greaves](../cards/L/li.md#lightning-greaves) | Artifact | 38% | C |
+| [The Great Henge](../cards/T/theg.md#the-great-henge) | Artifact | 33% | G |
+| [Emerald Medallion](../cards/E/em.md#emerald-medallion) | Artifact | 31% | C |
+| [Swiftfoot Boots](../cards/S/sw.md#swiftfoot-boots) | Artifact | 29% | C |
+| [Beast Within](../cards/B/be.md#beast-within) | Instant | 67% | G |
+| [Return of the Wildspeaker](../cards/R/ret.md#return-of-the-wildspeaker) | Instant | 64% | G |
+| [Heroic Intervention](../cards/H/he.md#heroic-intervention) | Instant | 49% | G |
+| [Worldly Tutor](../cards/W/wo.md#worldly-tutor) | Instant | 41% | G |
+| [Chord of Calling](../cards/C/cho.md#chord-of-calling) | Instant | 40% | G |
+| [Veil of Summer](../cards/V/ve.md#veil-of-summer) | Instant | 35% | G |
+| [Momentous Fall](../cards/M/mom.md#momentous-fall) | Instant | 35% | G |
+| [Nature's Claim](../cards/N/na.md#natures-claim) | Instant | 33% | G |
+| [Invigorate](../cards/I/inv.md#invigorate) | Instant | 31% | G |
+| [Shared Summons](../cards/S/sha.md#shared-summons) | Instant | 30% | G |
+| [Rishkar's Expertise](../cards/R/ri.md#rishkars-expertise) | Sorcery | 65% | G |
+| [Finale of Devastation](../cards/F/fi.md#finale-of-devastation) | Sorcery | 50% | G |
+| [Green Sun's Zenith](../cards/G/gre.md#green-suns-zenith) | Sorcery | 43% | G |
+| [Tooth and Nail](../cards/T/to.md#tooth-and-nail) | Sorcery | 39% | G |
+| [Last March of the Ents](../cards/L/la.md#last-march-of-the-ents) | Sorcery | 37% | G |
+| [Natural Order](../cards/N/na.md#natural-order) | Sorcery | 37% | G |
+| [Cultivate](../cards/C/cu.md#cultivate) | Sorcery | 31% | G |
+| [Eldritch Evolution](../cards/E/el.md#eldritch-evolution) | Sorcery | 29% | G |
+| [Garruk's Uprising](../cards/G/ga.md#garruks-uprising) | Enchantment | 54% | G |
+| [Wild Growth](../cards/W/wi.md#wild-growth) | Enchantment | 51% | G |
+| [Utopia Sprawl](../cards/U/ut.md#utopia-sprawl) | Enchantment | 41% | G |
+| [Greater Good](../cards/G/gre.md#greater-good) | Enchantment | 36% | G |
+| [Sylvan Library](../cards/S/sy.md#sylvan-library) | Enchantment | 34% | G |
+| [Concordant Crossroads](../cards/C/con.md#concordant-crossroads) | Enchantment | 32% | G |
+| [Kenrith's Transformation](../cards/K/ke.md#kenriths-transformation) | Enchantment | 29% | G |
+| [Garruk, Primal Hunter](../cards/G/ga.md#garruk-primal-hunter) | Planeswalker | 31% | G |
+| [Wirewood Lodge](../cards/W/wi.md#wirewood-lodge) | Land | 51% | G |
+| [Nykthos, Shrine to Nyx](../cards/N/ny.md#nykthos-shrine-to-nyx) | Land | 44% | C |
+| [Castle Garenbrig](../cards/C/cas.md#castle-garenbrig) | Land | 44% | G |
+| [Boseiju, Who Endures](../cards/B/bo.md#boseiju-who-endures) | Land | 38% | G |
+| [Reliquary Tower](../cards/R/rel.md#reliquary-tower) | Land | 33% | C |
+| [Yavimaya, Cradle of Growth](../cards/Y/ya.md#yavimaya-cradle-of-growth) | Land | 32% | C |
+| [Mosswort Bridge](../cards/M/mos.md#mosswort-bridge) | Land | 31% | G |
+| 29× Forest | Basic land | — | — |
+
+## Rejected candidates
+
+EDHREC suggestions excluded by validation (should normally be empty or only off-identity/illegal cards):
+
+- none
+
+<!-- RULES-NOTES:START -->
+## Commander rules & rulings
+
+> Auto-generated by `scripts/deck_rules_notes.py` from Scryfall Oracle bulk (2026-10-15) and rulings bulk (2026-10-15); rulings are quoted verbatim (source: Wizards of the Coast unless marked). Facts only — strategy is in [EDH Standards](../EDH%20Standards.md#synergy-notes), labeled Opinion.
+
+**Oracle text — [Selvala, Heart of the Wilds](../cards/S/sel.md#selvala-heart-of-the-wilds):**
+> Selvala, Heart of the Wilds: Whenever another creature enters, its controller may draw a card if its power is greater than each other creature's power. / {G}, {T}: Add X mana in any combination of colors, where X is the greatest power among creatures you control.
+
+**Official rulings on the commander (3):**
+- *2016-08-23* — Selvala's last ability is a mana ability. It doesn't use the stack and can't be responded to. If the greatest power among creatures you control is 0 or less at that time, no mana is added.
+- *2016-08-23* — If the new creature isn't on the battlefield as the first ability resolves, use its power when it left the battlefield to determine whether its controller may draw a card. Note that effects that reduced its power before it left the battlefield will apply.
+- *2016-08-23* — The new creature's power is compared to the power of each other creature on the battlefield as the first ability resolves. If another creature has the same or higher power than the new creature's power, no one may draw a card.
+
+**Creature-type overlap** with the commander (Elf, Scout): 12 card(s) — [Llanowar Elves](../cards/L/ll.md#llanowar-elves), [Elvish Mystic](../cards/E/el.md#elvish-mystic), [Fyndhorn Elves](../cards/F/fy.md#fyndhorn-elves), [Quirion Ranger](../cards/Q/qu.md#quirion-ranger), [Arbor Elf](../cards/A/arb.md#arbor-elf), [Beast Whisperer](../cards/B/be.md#beast-whisperer), [Fierce Empath](../cards/F/fi.md#fierce-empath), [Disciple of Freyalise // Garden of Freyalise](../cards/D/di.md#disciple-of-freyalise--garden-of-freyalise), [Hyrax Tower Scout](../cards/H/hy.md#hyrax-tower-scout), [Allosaurus Shepherd](../cards/A/al.md#allosaurus-shepherd), [Priest of Titania](../cards/P/pr.md#priest-of-titania), [Reclamation Sage](../cards/R/rec.md#reclamation-sage).
+
+**Deck cards with official rulings:** 54 of 70 non-basic cards — [Ghalta, Primal Hunger](../cards/G/gh.md#ghalta-primal-hunger) (4), [Eternal Witness](../cards/E/et.md#eternal-witness) (1), [Quirion Ranger](../cards/Q/qu.md#quirion-ranger) (3), [Kogla, the Titan Ape](../cards/K/ko.md#kogla-the-titan-ape) (2), [Temur Sabertooth](../cards/T/te.md#temur-sabertooth) (1), [Beast Whisperer](../cards/B/be.md#beast-whisperer) (1), [Ashaya, Soul of the Wild](../cards/A/as.md#ashaya-soul-of-the-wild) (5), [Wirewood Symbiote](../cards/W/wi.md#wirewood-symbiote) (2), [Craterhoof Behemoth](../cards/C/cr.md#craterhoof-behemoth) (2), [Fierce Empath](../cards/F/fi.md#fierce-empath) (1), [Disciple of Freyalise // Garden of Freyalise](../cards/D/di.md#disciple-of-freyalise--garden-of-freyalise) (7), [Regal Force](../cards/R/reg.md#regal-force) (1), [Hyrax Tower Scout](../cards/H/hy.md#hyrax-tower-scout) (1), [Phyrexian Soulgorger](../cards/P/ph.md#phyrexian-soulgorger) (1), [Goreclaw, Terror of Qal Sisma](../cards/G/gor.md#goreclaw-terror-of-qal-sisma) (3), [Delighted Halfling](../cards/D/del.md#delighted-halfling) (2), [Apex Devastator](../cards/A/ap.md#apex-devastator) (11), [Karametra's Acolyte](../cards/K/ka.md#karametras-acolyte) (5), [Allosaurus Shepherd](../cards/A/al.md#allosaurus-shepherd) (4), [Slumbering Trudge](../cards/S/sl.md#slumbering-trudge) (2), [Priest of Titania](../cards/P/pr.md#priest-of-titania) (2), [Woodland Bellower](../cards/W/wo.md#woodland-bellower) (1), [Umbral Mantle](../cards/U/um.md#umbral-mantle) (3), [Lightning Greaves](../cards/L/li.md#lightning-greaves) (2), [The Great Henge](../cards/T/theg.md#the-great-henge) (6), [Emerald Medallion](../cards/E/em.md#emerald-medallion) (5), [Swiftfoot Boots](../cards/S/sw.md#swiftfoot-boots) (1), [Beast Within](../cards/B/be.md#beast-within) (1), [Heroic Intervention](../cards/H/he.md#heroic-intervention) (3), [Worldly Tutor](../cards/W/wo.md#worldly-tutor) (1), [Chord of Calling](../cards/C/cho.md#chord-of-calling) (8), [Veil of Summer](../cards/V/ve.md#veil-of-summer) (3), [Momentous Fall](../cards/M/mom.md#momentous-fall) (3), [Nature's Claim](../cards/N/na.md#natures-claim) (1), [Invigorate](../cards/I/inv.md#invigorate) (2), [Rishkar's Expertise](../cards/R/ri.md#rishkars-expertise) (10), [Finale of Devastation](../cards/F/fi.md#finale-of-devastation) (4), [Green Sun's Zenith](../cards/G/gre.md#green-suns-zenith) (4), [Natural Order](../cards/N/na.md#natural-order) (2), [Cultivate](../cards/C/cu.md#cultivate) (1), [Eldritch Evolution](../cards/E/el.md#eldritch-evolution) (6), [Garruk's Uprising](../cards/G/ga.md#garruks-uprising) (4), [Wild Growth](../cards/W/wi.md#wild-growth) (1), [Greater Good](../cards/G/gre.md#greater-good) (3), [Sylvan Library](../cards/S/sy.md#sylvan-library) (7), [Concordant Crossroads](../cards/C/con.md#concordant-crossroads) (2), [Kenrith's Transformation](../cards/K/ke.md#kenriths-transformation) (7), [Garruk, Primal Hunter](../cards/G/ga.md#garruk-primal-hunter) (3), [Nykthos, Shrine to Nyx](../cards/N/ny.md#nykthos-shrine-to-nyx) (5), [Castle Garenbrig](../cards/C/cas.md#castle-garenbrig) (3), [Boseiju, Who Endures](../cards/B/bo.md#boseiju-who-endures) (2), [Reliquary Tower](../cards/R/rel.md#reliquary-tower) (1), [Yavimaya, Cradle of Growth](../cards/Y/ya.md#yavimaya-cradle-of-growth) (3), [Mosswort Bridge](../cards/M/mos.md#mosswort-bridge) (4).
+<!-- RULES-NOTES:END -->
