@@ -67,6 +67,7 @@
 | Format Legality Matrix | ✅ (#41, Bot cycle 11) **33,894 × 23** formats in `data/legality_matrix.csv` · banned/restricted lists (**1,390** entries across 21 formats) in [Format Legality Matrix](Format%20Legality%20Matrix.md) |
 | Tokens, Emblems & Dungeons | ✅ (#42, Bot cycle 12) **780** creature tokens · **105** noncreature · **89** emblems · **5** dungeons · **159** adventurer cards · `data/tokens.json` |
 | Artist Index | ✅ (#43, Bot cycle 13) **2,440** artists · **50,956** artist-illustration credits · `data/artists.csv` · [Artist Index](Artist%20Index.md) |
+| Lookup Guide | ✅ (#46, Bot cycle 14) how-to-find table for cards, rules, EDH and lore with `rg`/CSV fast paths |
 | Rules-interactions section | 🟢 (#9) **27 topics** (was 17) · 37 official CR examples (was 20) · 139 linked rulings (was 87) |
 | Rulings in card entries | ✅ 78,943 rulings on 19,889 cards; all 33,894 cards processed (#10 closed) |
 
@@ -85,4 +86,4 @@
 | Phase 1 — EDH & Deckbuilding depth | ✅ closed (Bot cycle 6: 7 issues; Bot cycle 7: #30, #33) | `v1.4-cycle6-edh-depth` · `v1.5-cycle7-phase1-complete` |
 | Phase 2 — Lore & Story depth | ✅ closed (Bot cycle 7: #36; Bot cycle 8: #34, #35, #37, #38) | `v1.6-cycle8-phase2-complete` |
 | Phase 3 — Card & Rules enrichment | ✅ closed (Bot cycle 8: #39 first pass; Bot cycle 9: #39–#43) | `v1.7-cycle9-phase3-complete` |
-| Phase 4 — Structure & usability | 🟡 open (Bot cycle 9: #46 Lookup Guide, first pass; #44, #45, #47 open) | — |
+| Phase 4 — Structure & usability | 🟡 open (Bot cycle 14: #46 Lookup Guide ✅; #44, #45, #47 open) | — |

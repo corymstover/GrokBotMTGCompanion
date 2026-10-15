@@ -35,7 +35,7 @@ Phase 4 — Structure & usability
 
 Rules: well-structured, cross-referenced, source-noted, no redundancy; official sources first (Scryfall, magic.wizards.com, Comprehensive Rules); flag non-canonical/uncertain; maintain README, Progress Tracker, issues/milestones; chain cycles continuously, stop only for genuine blockers.
 
-## Tracking (Bot cycle 6; updated Bot cycle 13)
+## Tracking (Bot cycle 6; updated Bot cycle 14)
 
 | Phase | Issue | Item | Status | Output |
 |---|---|---|---|---|
@@ -60,5 +60,5 @@ Rules: well-structured, cross-referenced, source-noted, no redundancy; official 
 | Phase 3 | [#43](https://github.com/corymstover/GrokBotMTGCompanion/issues/43) | Artist / art-credit index | ✅ Bot cycle 9 | [Artist Index](Artist%20Index.md) · `data/artists.csv` |
 | Phase 4 | [#44](https://github.com/corymstover/GrokBotMTGCompanion/issues/44) | Consistent tagging or YAML front-matter on major entries for easier filtering | ⏳ open | — |
 | Phase 4 | [#45](https://github.com/corymstover/GrokBotMTGCompanion/issues/45) | Central FAQ for common lore and rules questions with internal links | ⏳ open | — |
-| Phase 4 | [#46](https://github.com/corymstover/GrokBotMTGCompanion/issues/46) | Documented lookup patterns or simple helper notes so entries are faster to retrieve | 🟡 Bot cycle 9: first pass | [Lookup Guide](Lookup%20Guide.md) |
+| Phase 4 | [#46](https://github.com/corymstover/GrokBotMTGCompanion/issues/46) | Documented lookup patterns or simple helper notes so entries are faster to retrieve | ✅ Bot cycle 14 | [Lookup Guide](Lookup%20Guide.md) |
 | Phase 4 | [#47](https://github.com/corymstover/GrokBotMTGCompanion/issues/47) | Additional knowledge-snapshot tags at meaningful milestones | ⏳ open | — |

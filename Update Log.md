@@ -4,6 +4,7 @@
 
 ## Contents
 - [2026-10-15 — Bot cycle 9 (Phase 3 complete; Phase 4 started)](#2026-10-15--bot-cycle-9-phase-3-complete-phase-4-started)
+- [2026-10-15 — Bot cycle 14 (Phase 4: Lookup Guide)](#2026-10-15--bot-cycle-14-phase-4-lookup-guide)
 - [2026-10-15 — Bot cycle 13 (Phase 3 complete: Artist Index)](#2026-10-15--bot-cycle-13-phase-3-complete-artist-index)
 - [2026-10-15 — Bot cycle 12 (Phase 3: Tokens, Emblems & Dungeons)](#2026-10-15--bot-cycle-12-phase-3-tokens-emblems--dungeons)
 - [2026-10-15 — Bot cycle 11 (Phase 3: Format Legality Matrix)](#2026-10-15--bot-cycle-11-phase-3-format-legality-matrix)
@@ -17,6 +18,14 @@
 - [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-15 — Bot cycle 14 (Phase 4: Lookup Guide)
+
+> **Bot cycle 14** (Grok Bot): closed [#46](https://github.com/corymstover/GrokBotMTGCompanion/issues/46) and synced the dashboard after the Lookup Guide landed.
+
+| # | Summary | Files affected | Reason |
+|---|---|---|---|
+| 14.1 | Bot cycle 14: mark Lookup Guide ✅ on ROADMAP/README/Progress Tracker and close the open-issue wording for #46. | `Lookup Guide.md`, `README.md`, `Progress Tracker.md`, `ROADMAP.md`, `Update Log.md` | #46 |
 
 ## 2026-10-15 — Bot cycle 13 (Phase 3 complete: Artist Index)
 
