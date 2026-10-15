@@ -12,6 +12,7 @@ sources: []
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-15 — Bot cycle 16 (Grixis integration)](#2026-10-15--bot-cycle-16-grixis-integration)
 - [2026-10-15 — Bot cycle 15 (Phase 4 complete; duplicate cleanup)](#2026-10-15--bot-cycle-15-phase-4-complete-duplicate-cleanup)
 - [2026-10-15 — Bot cycle 14 (Phase 4: Lookup Guide)](#2026-10-15--bot-cycle-14-phase-4-lookup-guide)
 - [2026-10-15 — Bot cycle 13 (Phase 3 complete: Artist Index)](#2026-10-15--bot-cycle-13-phase-3-complete-artist-index)
@@ -27,6 +28,19 @@ sources: []
 - [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-15 — Bot cycle 16 (Grixis integration)
+
+> All entries in this section are **Bot cycle 16** (Grok Bot) changes, on branch `bot-cycle16-grixis`. The source, [corymstover/grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT) at commit `df1abb9`, was cloned read-only to `/workspace/grixis-src` and not modified.
+
+| # | Summary | Files affected | Reason |
+|---|---|---|---|
+| 16.1 | Bot cycle 16: **evaluated all 62 Grixis source lists** against our card DB. The current list is the user-approved one where the source state file has it (40), else the frozen FINAL baseline (22). Checks: name resolution, eligibility and pairing, 100 cards, singleton with Oracle copy exceptions, identity, legality and bans, companion, Game Changers; plus 16,137 source Oracle-text rows vs current Oracle (0 outdated). | `scripts/grixis_eval.py`, `data/grixis_eval.json`, `grixis/Grixis Evaluation.md` | #59 |
+| 16.2 | Bot cycle 16: **integrated 40 decks** into `grixis/decks/`. Each has a commander block, validation, GC and bracket floor, corrections, Archidekt list, card breakdown with the source's role tags and printings, the source blueprint, decisions, approval and evidence **quoted verbatim with path attribution**, and Commander Spellbook combos (288; 83 two-card infinite in 19 decks). Left out: 20 lists still UNREFINED in the source and 2 future-release (`mbc`) lists. | `scripts/build_grixis.py`, `grixis/README.md`, `grixis/decks/*.md` (40), `data/grixis_combos.json`, `data/grixis_summary.json` | #59 |
+| 16.3 | Bot cycle 16: **87 corrections logged**. Bjorna + Cecily: Trade Secrets → Wizard Class and Yawgmoth's Bargain → Flame of Anor (banned; both replacements are close alternatives from the source dossier); Lutri companion dropped. Game Changer counts and floors added to all 40 (the source never tracks them). List-format normalization on 40 decks (3,581 role tags restored from the source baseline). 2 provenance notes (approved hash matches no file). 2 low-land structure flags (guidance). | `grixis/Grixis Corrections.md`, deck pages | #60 |
+| 16.4 | Bot cycle 16: **Grixis package library**: cards shared by 4 or more of the 40 lists by role, with identity, MV and GC, plus 4 source rules insights checked against Oracle text and CR 118.9a/d. | `grixis/Grixis Packages.md` | #61 |
+| 16.5 | Bot cycle 16: **generalized the Grixis method** for any identity: [EDH Deck Template](EDH%20Deck%20Template.md) (blueprint, role map, swap ledger, rubric, finalization record), [EDH Deck Evaluation Checklist](EDH%20Deck%20Evaluation%20Checklist.md) (gates A–E), `scripts/evaluate_decklist.py` (shared evaluator, also used by the Grixis import). EDH Standards gains the method summary, an official-legality-vs-house-exceptions rule and checklist step 7. Its stale open question on combo detection is fixed. | `EDH Deck Template.md`, `EDH Deck Evaluation Checklist.md`, `scripts/evaluate_decklist.py`, `EDH Standards.md` | #62 |
+| 16.6 | Bot cycle 16: front-matter registry extended (7 new pages; `grixis/decks` as `kind: grixis` with `source_repo`; unregistered pages in `grixis/` now fail `--check`). Dashboard, tracker, index, lookup guide, roadmap and snapshots updated. Milestone 13 and issues #59–#63 opened. | `scripts/front_matter.py`, `README.md`, `Progress Tracker.md`, `Knowledge Index.md`, `Lookup Guide.md`, `ROADMAP.md`, `Knowledge Snapshots.md` | #59–#63 |
 
 ## 2026-10-15 — Bot cycle 15 (Phase 4 complete; duplicate cleanup)
 

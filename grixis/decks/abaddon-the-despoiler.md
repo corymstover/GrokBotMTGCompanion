@@ -1,0 +1,488 @@
+---
+title: "Grixis Deck — Abaddon the Despoiler"
+category: deck
+kind: grixis
+commander: "Abaddon the Despoiler"
+color_identity: UBR
+bracket_floor: 4
+game_changers: 14
+validated: true
+source_repo: corymstover/grixis-commander-encyclopediaGPT
+---
+
+# Grixis Deck — Abaddon the Despoiler
+
+> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Abaddon_the_Despoiler_Approved_2026-10-13.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decklists/Abaddon_the_Despoiler_Approved_2026-10-13.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-13; source commit `df1abb9`). Imported in Bot cycle 16 and re-validated against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
+
+## Contents
+- [Commander](#commander)
+- [Validation](#validation)
+- [Bracket assessment](#bracket-assessment)
+- [Corrections applied](#corrections-applied)
+- [Decklist (Archidekt import)](#decklist-archidekt-import)
+- [Card breakdown](#card-breakdown)
+- [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Combos (Commander Spellbook)](#combos-commander-spellbook)
+
+## Commander
+
+- **[Abaddon the Despoiler](../../cards/A/ab.md#abaddon-the-despoiler)** — {2}{U}{B}{R} — Legendary Creature — Astartes Warrior
+- Color identity: **UBR (Blue, Black, Red)**
+- Eligibility (Abaddon the Despoiler): Yes (legendary creature)
+
+## Validation
+
+- Total cards: **100** (1 commander(s) + 65 nonland + 25 nonbasic lands + 9 basics) · average nonland MV 2.58
+- Strict color identity (CR 903.5c), singleton (903.5b), Commander-legal, size (903.5a): ✅ **all checks pass**
+- Every card resolves to an entry in our card DB (94/94 lines linked).
+
+## Bracket assessment
+
+- Game Changers (14): Ancient Tomb, Chrome Mox, Demonic Tutor, Fierce Guardianship, Force of Will, Gamble, Imperial Seal, Jeska's Will, Lion's Eye Diamond, Mana Vault, Mystical Tutor, Rhystic Study, Underworld Breach, Vampiric Tutor
+- Extra-turn cards: none
+- Mass land denial: none
+- Commander Spellbook: 4 complete combo(s), 0 two-card infinite (see [Combos](#combos-commander-spellbook)).
+- **Minimum bracket by the published barometers: 4** (more than three Game Changers).
+- Source's stated target (guidance): **Bracket 4 — Optimized**.
+- (Brackets are a pregame-conversation tool. See [EDH Standards](../../EDH%20Standards.md#power-bracket-assessment).)
+
+## Corrections applied
+
+| Type | Change | Reason |
+|---|---|---|
+| format | Archidekt list normalized to [EDH Standards](../../EDH%20Standards.md#list-format-archidekt) | 94 pinned printings `(set) number` moved from the import block to the card breakdown, as in our 46 decks. |
+| bracket | Game Changers and combo floor added | The source records no Game Changer count and does not check the official Game Changers list anywhere in its approval records. We added it: **14 Game Changers**, so the minimum bracket is **4**. Commander Spellbook finds 4 complete combos (0 two-card infinite). This is consistent with the source's stated Bracket 4. |
+
+Full log for all decks: [Grixis Corrections](../Grixis%20Corrections.md).
+
+## Decklist (Archidekt import)
+
+```text
+1x Abaddon the Despoiler [Commander{top}]
+1x Ancestral Vision [Draw]
+1x Ancient Tomb [Land]
+1x Arcane Signet [Ramp]
+1x Badlands [Land]
+1x Birgi, God of Storytelling // Harnfel, Horn of Bounty [Ramp]
+1x Bituminous Blast [Removal]
+1x Blasphemous Act [Removal]
+1x Blood Crypt [Land]
+1x Bloodletter of Aclazotz [Drain]
+1x Bloodstained Mire [Land]
+1x Boltwave [Burn]
+1x Brain Freeze [Mill]
+1x Brainstorm [Draw]
+1x Cabal Ritual [Ramp]
+1x Call Forth the Tempest [Removal]
+1x Chrome Mox [Ramp]
+1x City of Brass [Land]
+1x Command Tower [Land]
+1x Dark Ritual [Ramp]
+1x Deadly Rollick [Removal]
+1x Deflecting Swat [Protection]
+1x Delayed Blast Fireball [Removal]
+1x Demonic Tutor [Tutor]
+1x Exalted Flamer of Tzeentch [Recursion]
+1x Exotic Orchard [Land]
+1x Fierce Guardianship [Removal]
+1x Flame Rift [Burn]
+1x Flooded Strand [Land]
+1x Flusterstorm [Counters]
+1x Force of Negation [Counters]
+1x Force of Will [Counters]
+1x Gamble [Tutor]
+1x Imperial Seal [Tutor]
+1x Inevitable Betrayal [Theft]
+3x Island [Land]
+1x Jeska's Will [Ramp]
+1x Keeper of Secrets [Burn]
+1x Kessig Flamebreather [Burn]
+1x Lion's Eye Diamond [Ramp]
+1x Lotus Petal [Ramp]
+1x Loyal Subordinate [Pingers]
+1x Luxury Suite [Land]
+1x Mana Confluence [Land]
+1x Mana Vault [Ramp]
+1x Marsh Flats [Land]
+1x Mind's Desire [Draw]
+1x Misty Rainforest [Land]
+1x Morphic Pool [Land]
+3x Mountain [Land]
+1x Mystic Remora [Draw]
+1x Mystical Tutor [Tutor]
+1x Nalfeshnee [Copy]
+1x Neheb, the Eternal [Ramp]
+1x Nightscape Familiar [Ramp]
+1x Noise Marine [Removal]
+1x Otawara, Soaring City [Land]
+1x Pact of Negation [Counters]
+1x Passionate Archaeologist [Burn]
+1x Polluted Delta [Land]
+1x Ponder [Draw]
+1x Profane Tutor [Tutor]
+1x Prosper, Tome-Bound [Draw]
+1x Pyroblast [Removal]
+1x Rakdos, Lord of Riots [Ramp]
+1x Rhystic Study [Draw]
+1x Rite of Flame [Ramp]
+1x Scalding Tarn [Land]
+1x Sol Ring [Ramp]
+1x Solphim, Mayhem Dominus [Burn]
+1x Steam Vents [Land]
+1x Storm-Kiln Artist [Ramp]
+3x Swamp [Land]
+1x Swan Song [Removal]
+1x Takenuma, Abandoned Mire [Land]
+1x Talisman of Creativity [Ramp]
+1x Talisman of Dominance [Ramp]
+1x Talisman of Indulgence [Ramp]
+1x The Lost and the Damned [Tokens]
+1x The Ruinous Powers [Draw]
+1x Thermo-Alchemist [Pingers]
+1x Training Center [Land]
+1x Underground Sea [Land]
+1x Underworld Breach [Recursion]
+1x Urborg, Tomb of Yawgmoth [Land]
+1x Vampiric Tutor [Tutor]
+1x Verdant Catacombs [Land]
+1x Vivi Ornitier [Ramp]
+1x Volcanic Island [Land]
+1x Watery Grave [Land]
+1x Wheel of Fortune [Draw]
+1x Wild-Magic Sorcerer [Draw]
+1x Windfall [Draw]
+1x Xander's Lounge [Land]
+```
+
+## Card breakdown
+
+Role tags are the source author's (untagged lines show the card type). *Printing* is the source's pinned printing, if it pinned one.
+
+| Card | Role (source tag) | Type | MV | Identity | GC | Printing |
+|---|---|---|---|---|---|---|
+| [Abaddon the Despoiler](../../cards/A/ab.md#abaddon-the-despoiler) | Commander | Legendary Creature — Astartes Warrior | 5 | UBR |  | 40k 171 |
+| [Boltwave](../../cards/B/bo.md#boltwave) | Burn | Sorcery | 1 | R |  | fdn 79 |
+| [Flame Rift](../../cards/F/fl.md#flame-rift) | Burn | Sorcery | 2 | R |  | mh2 278 |
+| [Keeper of Secrets](../../cards/K/ke.md#keeper-of-secrets) | Burn | Creature — Demon | 6 | R |  | 40k 78 |
+| [Kessig Flamebreather](../../cards/K/ke.md#kessig-flamebreather) | Burn | Creature — Human Shaman | 2 | R |  | vow 164 |
+| [Passionate Archaeologist](../../cards/P/pa.md#passionate-archaeologist) | Burn | Legendary Enchantment — Background | 2 | R |  | clb 656 |
+| [Solphim, Mayhem Dominus](../../cards/S/so.md#solphim-mayhem-dominus) | Burn | Legendary Creature — Phyrexian Horror | 4 | R |  | one 150 |
+| [Nalfeshnee](../../cards/N/na.md#nalfeshnee) | Copy | Creature — Beast Demon | 6 | R |  | clb 678 |
+| [Flusterstorm](../../cards/F/fl.md#flusterstorm) | Counters | Instant | 1 | U |  | plst CMD-46 |
+| [Force of Negation](../../cards/F/fo.md#force-of-negation) | Counters | Instant | 3 | U |  | 2x2 50 |
+| [Force of Will](../../cards/F/fo.md#force-of-will) | Counters | Instant | 5 | U | ✅ | dmr 50 |
+| [Pact of Negation](../../cards/P/pa.md#pact-of-negation) | Counters | Instant | 0 | U |  | tsr 77 |
+| [Bloodletter of Aclazotz](../../cards/B/blo.md#bloodletter-of-aclazotz) | Drain | Creature — Vampire Demon | 4 | B |  | lci 92 |
+| [Ancestral Vision](../../cards/A/an.md#ancestral-vision) | Draw | Sorcery | 0 | U |  | tdc 144 |
+| [Brainstorm](../../cards/B/br.md#brainstorm) | Draw | Instant | 1 | U |  | frc 39 |
+| [Mind's Desire](../../cards/M/min.md#minds-desire) | Draw | Sorcery | 6 | U |  | c21 123 |
+| [Mystic Remora](../../cards/M/my.md#mystic-remora) | Draw | Enchantment | 1 | U |  | dmr 59 |
+| [Ponder](../../cards/P/po.md#ponder) | Draw | Sorcery | 1 | U |  | tdc 159 |
+| [Prosper, Tome-Bound](../../cards/P/pr.md#prosper-tome-bound) | Draw | Legendary Creature — Tiefling Warlock | 4 | BR |  | afc 2 |
+| [Rhystic Study](../../cards/R/rh.md#rhystic-study) | Draw | Enchantment | 3 | U | ✅ | j22 114 |
+| [The Ruinous Powers](../../cards/T/ther.md#the-ruinous-powers) | Draw | Enchantment | 4 | BR |  | 40k 139 |
+| [Wheel of Fortune](../../cards/W/wh.md#wheel-of-fortune) | Draw | Sorcery | 3 | R |  | 3ed 185 |
+| [Wild-Magic Sorcerer](../../cards/W/wi.md#wild-magic-sorcerer) | Draw | Creature — Orc Shaman Sorcerer | 4 | R |  | clb 816 |
+| [Windfall](../../cards/W/wi.md#windfall) | Draw | Sorcery | 3 | U |  | otc 123 |
+| [Ancient Tomb](../../cards/A/an.md#ancient-tomb) | Land | Land | 0 | C | ✅ | plst TMP-315 |
+| [Badlands](../../cards/B/bad.md#badlands) | Land | Land — Swamp Mountain | 0 | BR |  | 3ed 282 |
+| [Blood Crypt](../../cards/B/blo.md#blood-crypt) | Land | Land — Swamp Mountain | 0 | BR |  | trk 278 |
+| [Bloodstained Mire](../../cards/B/blo.md#bloodstained-mire) | Land | Land | 0 | C |  | mh3 216 |
+| [City of Brass](../../cards/C/ci.md#city-of-brass) | Land | Land | 0 | C |  | tmc 62 |
+| [Command Tower](../../cards/C/com.md#command-tower) | Land | Land | 0 | C |  | frc 22 |
+| [Exotic Orchard](../../cards/E/ex.md#exotic-orchard) | Land | Land | 0 | C |  | frc 70 |
+| [Flooded Strand](../../cards/F/fl.md#flooded-strand) | Land | Land | 0 | C |  | mh3 436 |
+| [Island](../../cards/I/is.md#island) (×3) | Land | Basic Land — Island | 0 | U |  | mdd 294 |
+| [Luxury Suite](../../cards/L/lu.md#luxury-suite) | Land | Land | 0 | BR |  | msc 252 |
+| [Mana Confluence](../../cards/M/man.md#mana-confluence) | Land | Land | 0 | C |  | jou 163 |
+| [Marsh Flats](../../cards/M/mar.md#marsh-flats) | Land | Land | 0 | C |  | mh2 437 |
+| [Misty Rainforest](../../cards/M/mis.md#misty-rainforest) | Land | Land | 0 | C |  | mh2 438 |
+| [Morphic Pool](../../cards/M/mor.md#morphic-pool) | Land | Land | 0 | UB |  | clb 357 |
+| [Mountain](../../cards/M/mou.md#mountain) (×3) | Land | Basic Land — Mountain | 0 | R |  | mdd 298 |
+| [Otawara, Soaring City](../../cards/O/ot.md#otawara-soaring-city) | Land | Legendary Land | 0 | U |  | neo 271 |
+| [Polluted Delta](../../cards/P/po.md#polluted-delta) | Land | Land | 0 | C |  | mh3 224 |
+| [Scalding Tarn](../../cards/S/sc.md#scalding-tarn) | Land | Land | 0 | C |  | mh2 439 |
+| [Steam Vents](../../cards/S/ste.md#steam-vents) | Land | Land — Island Mountain | 0 | UR |  | trk 298 |
+| [Swamp](../../cards/S/sw.md#swamp) (×3) | Land | Basic Land — Swamp | 0 | B |  | mdd 296 |
+| [Takenuma, Abandoned Mire](../../cards/T/ta.md#takenuma-abandoned-mire) | Land | Legendary Land | 0 | B |  | neo 278 |
+| [Training Center](../../cards/T/tra.md#training-center) | Land | Land | 0 | UR |  | cmm 434 |
+| [Underground Sea](../../cards/U/un.md#underground-sea) | Land | Land — Island Swamp | 0 | UB |  | 3ed 290 |
+| [Urborg, Tomb of Yawgmoth](../../cards/U/ur.md#urborg-tomb-of-yawgmoth) | Land | Legendary Land | 0 | C |  | tsr 287 |
+| [Verdant Catacombs](../../cards/V/ve.md#verdant-catacombs) | Land | Land | 0 | C |  | mh2 440 |
+| [Volcanic Island](../../cards/V/vo.md#volcanic-island) | Land | Land — Island Mountain | 0 | UR |  | 3ed 291 |
+| [Watery Grave](../../cards/W/wat.md#watery-grave) | Land | Land — Island Swamp | 0 | UB |  | trk 306 |
+| [Xander's Lounge](../../cards/X/xa.md#xanders-lounge) | Land | Land — Island Swamp Mountain | 0 | UBR |  | snc 260 |
+| [Brain Freeze](../../cards/B/br.md#brain-freeze) | Mill | Instant | 2 | U |  | plst SCG-29 |
+| [Loyal Subordinate](../../cards/L/lo.md#loyal-subordinate) | Pingers | Creature — Zombie | 3 | B |  | cmm 172 |
+| [Thermo-Alchemist](../../cards/T/ther.md#thermo-alchemist) | Pingers | Creature — Human Shaman | 2 | R |  | inr 403 |
+| [Deflecting Swat](../../cards/D/def.md#deflecting-swat) | Protection | Instant | 3 | R |  | cmm 214 |
+| [Arcane Signet](../../cards/A/arc.md#arcane-signet) | Ramp | Artifact | 2 | C |  | frc 20 |
+| [Birgi, God of Storytelling // Harnfel, Horn of Bounty](../../cards/B/bi.md#birgi-god-of-storytelling--harnfel-horn-of-bounty) | Ramp | Legendary Creature — God // Legendary Artifact | 3 | R |  | khm 123 |
+| [Cabal Ritual](../../cards/C/cab.md#cabal-ritual) | Ramp | Instant | 2 | B |  | tor 51 |
+| [Chrome Mox](../../cards/C/chr.md#chrome-mox) | Ramp | Artifact | 0 | C | ✅ | 2xm 240 |
+| [Dark Ritual](../../cards/D/da.md#dark-ritual) | Ramp | Instant | 1 | B |  | msc 793 |
+| [Jeska's Will](../../cards/J/je.md#jeskas-will) | Ramp | Sorcery | 3 | R | ✅ | mkc 156 |
+| [Lion's Eye Diamond](../../cards/L/li.md#lions-eye-diamond) | Ramp | Artifact | 0 | C | ✅ | mir 307 |
+| [Lotus Petal](../../cards/L/lo.md#lotus-petal) | Ramp | Artifact | 0 | C |  | plst TMP-294 |
+| [Mana Vault](../../cards/M/man.md#mana-vault) | Ramp | Artifact | 1 | C | ✅ | 2x2 308 |
+| [Neheb, the Eternal](../../cards/N/ne.md#neheb-the-eternal) | Ramp | Legendary Creature — Zombie Minotaur Warrior | 5 | R |  | mkc 158 |
+| [Nightscape Familiar](../../cards/N/ni.md#nightscape-familiar) | Ramp | Creature — Zombie | 2 | B |  | dmr 94 |
+| [Rakdos, Lord of Riots](../../cards/R/rak.md#rakdos-lord-of-riots) | Ramp | Legendary Creature — Demon | 4 | BR |  | dsc 230 |
+| [Rite of Flame](../../cards/R/ri.md#rite-of-flame) | Ramp | Sorcery | 1 | R |  | csp 96 |
+| [Sol Ring](../../cards/S/so.md#sol-ring) | Ramp | Artifact | 1 | C |  | frc 21 |
+| [Storm-Kiln Artist](../../cards/S/sto.md#storm-kiln-artist) | Ramp | Creature — Dwarf Shaman | 4 | R |  | soc 255 |
+| [Talisman of Creativity](../../cards/T/ta.md#talisman-of-creativity) | Ramp | Artifact | 2 | UR |  | frc 61 |
+| [Talisman of Dominance](../../cards/T/ta.md#talisman-of-dominance) | Ramp | Artifact | 2 | UB |  | frc 62 |
+| [Talisman of Indulgence](../../cards/T/ta.md#talisman-of-indulgence) | Ramp | Artifact | 2 | BR |  | frc 63 |
+| [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) | Ramp | Legendary Creature — Wizard | 3 | UR |  | fin 248 |
+| [Exalted Flamer of Tzeentch](../../cards/E/ex.md#exalted-flamer-of-tzeentch) | Recursion | Creature — Demon | 4 | UR |  | 40k 119 |
+| [Underworld Breach](../../cards/U/un.md#underworld-breach) | Recursion | Enchantment | 2 | R | ✅ | thb 161 |
+| [Bituminous Blast](../../cards/B/bi.md#bituminous-blast) | Removal | Instant | 5 | BR |  | j25 742 |
+| [Blasphemous Act](../../cards/B/bla.md#blasphemous-act) | Removal | Sorcery | 9 | R |  | msc 163 |
+| [Call Forth the Tempest](../../cards/C/cal.md#call-forth-the-tempest) | Removal | Sorcery | 8 | R |  | hoc 22 |
+| [Deadly Rollick](../../cards/D/dea.md#deadly-rollick) | Removal | Instant | 4 | B |  | cmm 147 |
+| [Delayed Blast Fireball](../../cards/D/del.md#delayed-blast-fireball) | Removal | Instant | 3 | R |  | clb 676 |
+| [Fierce Guardianship](../../cards/F/fi.md#fierce-guardianship) | Removal | Instant | 3 | U | ✅ | cmm 94 |
+| [Noise Marine](../../cards/N/no.md#noise-marine) | Removal | Creature — Astartes Warrior | 5 | R |  | 40k 82 |
+| [Pyroblast](../../cards/P/py.md#pyroblast) | Removal | Instant | 1 | R |  | ema 142 |
+| [Swan Song](../../cards/S/sw.md#swan-song) | Removal | Instant | 1 | U |  | eoc 46 |
+| [Inevitable Betrayal](../../cards/I/ine.md#inevitable-betrayal) | Theft | Sorcery | 0 | U |  | mh2 390 |
+| [The Lost and the Damned](../../cards/T/thel.md#the-lost-and-the-damned) | Tokens | Enchantment | 3 | UR |  | 40k 129 |
+| [Demonic Tutor](../../cards/D/dem.md#demonic-tutor) | Tutor | Sorcery | 2 | B | ✅ | cmm 150 |
+| [Gamble](../../cards/G/ga.md#gamble) | Tutor | Sorcery | 1 | R | ✅ | dmr 321 |
+| [Imperial Seal](../../cards/I/im.md#imperial-seal) | Tutor | Sorcery | 1 | B | ✅ | 2x2 79 |
+| [Mystical Tutor](../../cards/M/my.md#mystical-tutor) | Tutor | Instant | 1 | U | ✅ | dmr 289 |
+| [Profane Tutor](../../cards/P/pr.md#profane-tutor) | Tutor | Sorcery | 0 | B |  | mh2 401 |
+| [Vampiric Tutor](../../cards/V/va.md#vampiric-tutor) | Tutor | Instant | 1 | B | ✅ | dmr 314 |
+
+## Source commentary (verbatim)
+
+> Quoted from the source repo with headings turned into bold text. This is **the source author's analysis and opinion (guidance)**, from `grixis-commander-encyclopediaGPT`, path shown above each block. Relative links point back to the source. Rules statements here were not re-verified card by card (see [Grixis Corrections](../Grixis%20Corrections.md#oracle-text-check) for the Oracle check). Where the source mentions Lutri, Trade Secrets or Yawgmoth's Bargain as approved exceptions, our corrected list above takes precedence.
+
+### From `refinement/blueprints/Abaddon_the_Despoiler_v1.md`
+
+Source: [refinement/blueprints/Abaddon_the_Despoiler_v1.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/blueprints/Abaddon_the_Despoiler_v1.md)
+
+**Abaddon the Despoiler — Commander-First Blueprint v1**
+
+**Deck ID:** `Abaddon_the_Despoiler`  
+**Baseline snapshot:** 2026-10-12  
+**Baseline TXT SHA-256:** `2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf`  
+**Status:** Blueprint complete; candidate swaps proposed for review/testing; no decklist changes made.
+
+**Commander identity and operating rule**
+
+Abaddon the Despoiler is a five-mana Grixis commander ({2}{U}{B}{R}; mana value 5) with trample. During your turn, spells cast from your hand with mana value no greater than the total life opponents have lost **this turn** have cascade.
+
+This is not a generic Grixis spells deck with cascade added as a bonus. The list should repeatedly convert early opponent life loss into a larger cascade threshold, then convert those cascade casts into more spells, damage, and value from exile.
+
+**Primary plan**
+
+1. Establish mana and a low-cost damage/life-loss engine.
+2. Deal damage or cause life loss before the important post-combat/main-phase spells. The threshold resets each turn; damage dealt on earlier turns does not count.
+3. Cast spells from hand at or below the current threshold to trigger cascade. Prefer lines where a spell also has printed cascade, because it can receive a second cascade from Abaddon when the threshold allows.
+4. Convert spells cast from exile into extra value through the existing exile/cascade package.
+5. Close with a large cascade/value turn, amplified damage, or the existing Underworld Breach + Lion's Eye Diamond + Brain Freeze combo.
+
+**Supporting packages already present**
+
+- **Threshold enablers / damage:** Boltwave, Flame Rift, Thermo-Alchemist, Kessig Flamebreather, Exalted Flamer of Tzeentch, Loyal Subordinate, and other low-cost damage effects.
+- **Cascade hits and built-in cascade:** Ancestral Vision, Profane Tutor, Inevitable Betrayal, Bituminous Blast, and Call Forth the Tempest.
+- **Cast-from-exile value:** Wild-Magic Sorcerer, Nalfeshnee, Prosper, Tome-Bound, The Lost and the Damned, Passionate Archaeologist, and The Ruinous Powers.
+- **Damage amplification / closing pressure:** Solphim, Mayhem Dominus; Bloodletter of Aclazotz; and the existing burn package.
+- **Compact combo route:** Underworld Breach + Lion's Eye Diamond + Brain Freeze, backed by the existing tutors and protection.
+
+The current 100-card baseline has 34 lands, 19 cards tagged as ramp, and 11 tagged as draw in its source TXT role tags. These are baseline classifications, not fixed quotas.
+
+**Win routes**
+
+1. **Commander cascade engine:** repeated cascades generate card advantage, free casts, and further life loss.
+2. **Burn / damage amplification:** stack low-cost damage with Solphim and life-loss effects with Bloodletter of Aclazotz, then close with repeated burn or a large spell.
+3. **Breach combo:** Underworld Breach, Lion's Eye Diamond, and Brain Freeze can produce a self-mill/escape loop and finish by milling opponents. Verify the exact line and graveyard requirements in the final combo audit.
+
+**Natural power ceiling — provisional**
+
+**Provisional target: Bracket 4 / Optimized, with a compact combo package that can threaten a higher ceiling.** The existing list contains fast mana, tutors, free interaction, and the Breach combo, but Abaddon costs five mana and its primary engine depends on same-turn opponent life loss. Do not label it cEDH solely because it contains a cEDH-capable combo; revisit the bracket only if representative games show cEDH-level speed, consistency, and interaction.
+
+The inherited candidate scores are not a current power measurement. Current EDHREC inclusion/Lift is observational association, not proof of optimality.
+
+**Failure modes to guard against**
+
+- Abaddon is not yet on the battlefield, so hand-cast spells do not receive its cascade ability.
+- Too little opponent life loss on the current turn leaves high-mana-value spells without cascade.
+- Too many expensive cascade payoffs can create hands that are powerful but slow.
+- Cascade is random; a high mana value does not guarantee a useful hit.
+- Cast-from-exile payoffs are weaker when the deck has no reliable way to cast from exile.
+- The Breach combo can draw interaction and should not replace the cascade/burn plan with generic turbo-combo goodstuff.
+
+**Identity guardrails**
+
+- Preserve the early life-loss → higher cascade threshold loop.
+- Prefer cascade, recursion from cascade, and exile-cast payoffs when they improve the existing 99.
+- Retain the compact Breach package if it remains the deck's strongest secondary win route.
+- Do not add a card merely because it is popular or ranked highly; compare it to a concrete cut and state what is lost.
+- Keep existing approved list unchanged until a specific proposal is approved.
+
+**Current candidate shortlist**
+
+EDHREC's current Abaddon page reports 6.73K decklists. Figures below are the page's rounded inclusion counts and Lift, retrieved 2026-10-12. Lift is an association signal, not a power score.
+
+| Candidate | Current EDHREC signal | Commander-specific fit | Initial decision |
+|---|---|---|---|
+| Aurora Phoenix | 17%; 1.14K / 6.73K; 66x Lift | Printed cascade plus recursion to hand whenever another cascade spell is cast; Abaddon-granted cascade spells can support this engine. | High-impact candidate. Compare against Mind's Desire; test before acceptance. |
+| Deny Reality | 38%; 2.55K / 6.73K; 48x Lift | Printed cascade and can bounce any permanent, widening interaction beyond creature-only removal. | Close alternative to Bituminous Blast; same mana value and cascade, but sorcery-speed bounce trades away instant-speed creature removal. |
+| Poxwalkers | 31%; 2.07K / 6.73K; 52x Lift | If in the graveyard, returns tapped whenever you cast a spell from outside your hand, including cascade casts from exile. | High-synergy candidate, but no cut accepted yet; compare against the value of the current low-cost pinger package. |
+| Blood for the Blood God! | 49%; 3.32K / 6.73K; 22x Lift | Large draw-and-damage finisher. Its cost reduction depends on creatures dying, not life lost, and its mana value is 11. | Defer; strong ceiling but can be a dead/high-cost cascade hit and needs a justified cut. |
+
+Sources: [EDHREC — Abaddon the Despoiler](https://edhrec.com/commanders/abaddon-the-despoiler), [Aurora Phoenix card text and legality](https://scryfall.com/card/cmr/161/aurora-phoenix), [Poxwalkers card text and legality](https://scryfall.com/card/40k/49/poxwalkers), [Deny Reality card text and legality](https://scryfall.com/card/arb/24/deny-reality).
+
+**Verification status**
+
+- [x] Baseline list hash recorded.
+- [x] Current exact-printing Oracle/color-identity/Commander-legality metadata refreshed for the current 100-card list.
+- [x] Project exceptions kept separate from official legality.
+- [x] Commander-specific blueprint written.
+- [ ] Verify Breach/LED/Brain Freeze line and all other nontrivial interactions for this exact list.
+- [ ] Complete candidate slot comparisons and log rejected alternatives.
+- [ ] Test the leading proposed variants against a declared baseline/benchmark.
+- [ ] Present exact swaps for user approval.
+- [ ] Recount, recheck singleton/color identity/legality, and record final hash only after approval.
+
+### From `refinement/decisions/Abaddon_the_Despoiler_Candidate_Decisions_2026-10-12.csv` (candidate decision ledger)
+
+Source: [refinement/decisions/Abaddon_the_Despoiler_Candidate_Decisions_2026-10-12.csv](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decisions/Abaddon_the_Despoiler_Candidate_Decisions_2026-10-12.csv)
+
+| ID | Candidate | Proposed cut | Decision | Source reasoning (abridged) |
+|---|---|---|---|---|
+| ABADDON-001 | Aurora Phoenix | Mind's Desire | CLOSED_INCONCLUSIVE_KEEP_BASELINE | Aurora's text/rules interaction with Abaddon is valid in principle; one auxiliary passive-Obeka smoke run cast Aurora and resolved its printed cascade once, but did not resolve the graveyard-return ability. The registered three-game per-list comparison never cast either candidate. These data cannot establish superiority. Mind's Desire remains because its high-ceiling storm line is not displaced by… |
+| ABADDON-002 | Deny Reality | Bituminous Blast | CLOSED_NO_MATERIAL_UPGRADE | Functional alternative with broader target types but only temporary bounce and sorcery speed. Bituminous Blast answers creatures at instant speed and preserves cascade density. No specific permanent problem or weak cut is documented; close with baseline unchanged. |
+| ABADDON-003 | Poxwalkers | Thermo-Alchemist | CLOSED_NO_MATERIAL_UPGRADE | Poxwalkers returns tapped from the graveyard when its controller casts a spell from a zone other than hand, including a cascade cast from exile. That is a genuine resilience synergy, but Thermo-Alchemist is a cheap repeatable all-opponent threshold enabler and spell-cast pinger. Without evidence the current pinger package is redundant, the trade is not an upgrade. Close with no cut; no list change… |
+| ABADDON-004 | Blood for the Blood God! | None selected | CLOSED_NO_CUT_IDENTIFIED | The spell can cost less as creatures die, then discards the hand, draws eight and deals eight to each opponent before exiling itself. Its mana value 11 and creature-death discount do not reliably solve the Abaddon threshold/castability problem. The existing wheels, Mind's Desire and burn engines already cover substantial refill/closing roles. No cut is justified; close candidate, no list change. |
+| ABADDON-005 | Dark Apostle | None selected | CLOSE_ALTERNATIVE | Strong text-level fit, poor efficiency for the optimized baseline. It creates a slower activated sub-engine where the deck already has efficient damage enablers and printed cascade. No credible cut identified; reopen only if the deck repeatedly fails to cascade below the threshold. |
+| ABADDON-006 | Heralds of Tzeentch | None selected | CLOSE_ALTERNATIVE | Card is on-theme but does not clear the slot bar: cascade is the main text and the body adds limited function. No cut or material improvement established. |
+| ABADDON-007 | Let the Galaxy Burn | None selected | CLOSE_ALTERNATIVE | Not a clean upgrade: the variable cost makes the life-loss threshold harder to meet exactly when the card is scaled up, while the existing sweepers have clearer roles. Reopen only if removal coverage is shown to be inadequate. |
+| ABADDON-008 | Kill! Maim! Burn! | None selected | CLOSE_ALTERNATIVE | Flexible text is attractive, but the deck's five-mana interaction slot already has a role-committed cascade instant. No replacement evidence justifies giving up printed cascade. |
+| ABADDON-009 | Descent into Avernus | None selected | CLOSED_FOR_CURRENT_BUILD | This is the strongest untested threshold-enabler alternative in this bounded screen, but its symmetry is structurally dangerous for an optimized multiplayer list. No cut has a demonstrated net benefit. Reopen only if real-game evidence shows the current threshold package is too unreliable and the playgroup can tolerate the opposing Treasure ramp. |
+| ABADDON-010 | Pink Horror | None selected | CLOSE_ALTERNATIVE | The spell-count synergy is real, but its cost and single-target distribution do not beat the baseline's cheaper all-opponent/persistent damage engines on the current commander-first plan. |
+| ABADDON-011 | Cryptolith Fragment // Aurora of Emrakul | None selected | CLOSE_ALTERNATIVE | High association does not overcome the tempo cost. The list already has better color fixing and more efficient threshold enablers; no slot improves by exchanging a faster mana source for this. |
+| ABADDON-012 | Spear Spewer | None selected | CLOSE_ALTERNATIVE | It looks commander-specific in text but is slower than the deck's existing life-loss tools in the critical turn. No cut justified. |
+| ABADDON-013 | Bloodthirster | None selected | CLOSE_ALTERNATIVE | Powerful standalone finisher, but no evidence the baseline needs a combat-centric route. This would be a deck-plan expansion rather than a clear upgrade to an existing slot. |
+| ABADDON-014 | Mutalith Vortex Beast | None selected | CLOSE_ALTERNATIVE | High Lift is association, not proof. The card has a real but variance-heavy fit; deterministic cascades and the current burn/combo plan have stronger role coverage. |
+| ABADDON-015 | Chaos Terminator Lord | None selected | CLOSE_ALTERNATIVE | An interesting threshold interaction but not an upgrade over direct burn/cheap pingers in the defined spell-first plan. No cut selected; reopen only if combat threshold enablers become the deck's chosen subplan. |
+| ABADDON-016 | Mandate of Abaddon | None selected | CLOSED_NO_MATERIAL_UPGRADE | Genuine Abaddon interaction, but the baseline already runs three broad sweepers and this does not hit other permanent types or larger creatures. No underperforming removal slot has been established; keep current removal package. |
+| ABADDON-017 | Florian, Voldaren Scion | None selected | CLOSE_ALTERNATIVE | One of the closest commander-specific alternatives discovered beyond the initial ranking leaders. Its threshold-scaled selection is real, but the deck already has multiple impulse-draw engines and Prosper adds Treasure for spells cast from exile. Without a named weaker slot, no upgrade is demonstrated. |
+| ABADDON-018 | Geyadrone Dihada | None selected | CLOSE_ALTERNATIVE | The +1 interaction with the threshold is rules-functional but inefficient relative to Boltwave, Flame Rift, Loyal Subordinate, and the existing damage engines. No cut or need for a slower threshold package identified. |
+| ABADDON-019 | Court of Ambition | None selected | CLOSE_ALTERNATIVE | The recurring trigger is thematic, but not a demonstrated upgrade over direct early damage and Loyal Subordinate. No cut; reopen only if gameplay shows threshold enablers are insufficient. |
+| ABADDON-020 | Sloppity Bilepiper | None selected | CLOSED_NO_MATERIAL_UPGRADE | Useful text in a creature-heavy cascade shell, but the sacrifice and mana requirements are a poor fit for this spell-first build. No clear cut; Dark Apostle and Sloppity Bilepiper are both too slow for the current threshold plan. |
+| ABADDON-021 | Rakdos Charm | None selected | CLOSE_ALTERNATIVE | A respectable flexible meta call, but the project has not identified a recurring opposing graveyard/artifact threat or a demonstrably weaker defensive slot. Do not add solely for generic popularity; revisit if the target metagame creates a named coverage gap. |
+| ABADDON-022 | Tzaangor Shaman | None selected | CLOSED_NO_MATERIAL_UPGRADE | Rules synergy with high-value spells is real, but access is combat-dependent and the copy does not reproduce cast-trigger benefits. No cut justified over existing cascade/exile engines and combo density. |
+| ABADDON-023 | Keen Duelist | None selected | CLOSED_NO_MATERIAL_UPGRADE | Unreliable symmetrical threshold setup versus direct burn and existing all-opponent pingers. No cut; no material improvement demonstrated. |
+| ABADDON-024 | Plague Drone | None selected | CLOSED_NO_MATERIAL_UPGRADE | No lifegain-oriented metagame requirement is established. It is not a cascade, cast-from-exile, combo, or damage-engine upgrade for this list; do not add solely on rank. |
+| ABADDON-025 | Warstorm Surge | None selected | CLOSED_NO_MATERIAL_UPGRADE | Warstorm Surge can convert creature entries (including some cascade hits, Nalfeshnee token copies and The Lost and the Damned Spawn) into damage, but costs six mana and does nothing immediately without a subsequent entry. No weaker damage engine or creature slot has been identified. Close without adding. |
+| ABADDON-026 | Chaos Mutation | None selected | CLOSE_ALTERNATIVE | Useful in a creature-heavy pod, but the replacement-creature downside is material and the baseline already has several sweepers plus Bituminous Blast/Deadly Rollick. No target-metagame gap justifies a cut. |
+| ABADDON-027 | Lord of Change | None selected | CLOSED_NO_MATERIAL_UPGRADE | Be'lakor offers a more commander-specific high-end draw/demon payoff, while Lord of Change is mostly a seven-mana standalone draw body. No cut is justified for the weaker fit. |
+| ABADDON-028 | Be'lakor, the Dark Master | None selected | CLOSED_NO_CUT_IDENTIFIED | Be'lakor has a genuine Demon-density/ETB-draw synergy with Nalfeshnee and five other Demons in the baseline, but its six-mana top-end overlaps the deck's established draw/engine package and life-loss risk. No lower-value high-end slot is demonstrated; do not add merely for synergy. Close no cut identified. |
+| ABADDON-029 | Chromatic Lantern | None selected | CLOSED_NO_MATERIAL_UPGRADE | No mana-fixing deficiency has been demonstrated. The deck already has stronger acceleration and fixing, so this is a popularity-driven rather than material upgrade. |
+| ABADDON-030 | Magnus the Red | None selected | CLOSED_NO_CUT_IDENTIFIED | Magnus the Red converts The Lost and the Damned tokens into instant/sorcery cost reduction, but it is a five-mana setup that depends on tokens already present. Nightscape Familiar provides cheaper, reliable reductions to blue/red spells; the new engine has no identified cut. Close no material upgrade. |
+| ABADDON-031 | Blight Grenade | None selected | CLOSED_NO_MATERIAL_UPGRADE | The baseline already has Blasphemous Act, Delayed Blast Fireball, Call Forth the Tempest, and Bituminous Blast. No demonstrated removal coverage gap makes this a material upgrade. |
+| ABADDON-032 | Drach'Nyen | None selected | CLOSED_NO_MATERIAL_UPGRADE | This would pull the deck toward Equipment/Voltron instead of improving its spell-cascade, exile-cast, or combo plan. No cut or strategic requirement is present. |
+| ABADDON-033 | Nurgle's Conscription | None selected | CLOSE_ALTERNATIVE | This is a metagame call, not a universally material upgrade. No recurring opposing-graveyard threat has been documented, so reserve the slot unless the target pod warrants dedicated graveyard hate. |
+| ABADDON-034 | Chaos Defiler | None selected | CLOSED_NO_CUT_IDENTIFIED | Chaos Defiler offers broad nonland-permanent removal with cascade-hit and Nalfeshnee-copy synergy, but its target selection is random and the existing list already has multiple wipes plus efficient single-target answers. No uncovered high-impact permanent type or defensible cut is identified. Close without addition. |
+| ABADDON-035 | Great Unclean One | None selected | CLOSED_NO_MATERIAL_UPGRADE | Abaddon primarily converts same-turn life loss into main-phase cascade access. An end-step payoff arrives too late to help that turn's central mechanic, and no Demon-token subpackage is established. |
+| ABADDON-036 | Chaos Warp | None selected | CLOSED_NO_MATERIAL_UPGRADE | Chaos Warp would answer any permanent and therefore remains a reasonable meta-trigger alternative if a resolved hate permanent repeatedly blocks the plan. No target-meta gap is documented; the existing deck has strong stack protection, Deadly Rollick, wipes and Otawara. Close for the current assumed environment; reopen only against a specified permanent-based problem. |
+| ABADDON-037 | Bloodcrusher of Khorne | None selected | CLOSED_NO_MATERIAL_UPGRADE | This is an archetype mismatch and is not an improvement over the current spell/exile engine. Do not add because of Warhammer theme alone. |
+| ABADDON-038 | Sol Talisman | None selected | CLOSED_NO_MATERIAL_UPGRADE | The deck is optimized for early commander/engine deployment. A delayed ramp source is substantially weaker than the current premium fast-mana package. |
+| ABADDON-039 | Tectonic Giant | None selected | CLOSE_ALTERNATIVE | Its text is flexible but relies on a four-mana creature surviving to attack; no lack of damage/impulse engines is demonstrated. No cut or addition justified. |
+| ABADDON-040 | Twilight Prophet | None selected | CLOSE_ALTERNATIVE | This is a slower value engine than existing draw/exile sources and may arrive too late to help the first critical cascade turn. No demonstrable cut for it. |
+| ABADDON-041 | Lucius the Eternal | None selected | CLOSED_NO_MATERIAL_UPGRADE | High Lift reflects commander-specific association but does not overcome the combat-dependent and off-plan nature of the card. No relevant slot to cut. |
+| ABADDON-042 | Volcanic Torrent | None selected | CLOSED_NO_MATERIAL_UPGRADE | Volcanic Torrent is a five-mana cascade sweeper scaling with spells cast, but the current deck already uses Delayed Blast Fireball (a particularly strong cascade hit from exile), Blasphemous Act and Call Forth the Tempest. No board-control gap or inferior wipe slot is established. Close no material upgrade. |
+| ABADDON-043 | Foreboding Ruins | None selected | CLOSED_NO_MATERIAL_UPGRADE | The project's optimization target and current manabase do not support downgrading to a conditional dual land. No inclusion justified. |
+| ABADDON-044 | Spawn of Mayhem | None selected | No cut identified; retain direct burn and lower-cost engines | Costs four and may not enable its own initial Abaddon-granted cascade; the upkeep trigger is delayed and conditional. Existing cheap burn and pingers establish threshold more reliably. |
+| ABADDON-045 | Past in Flames | None selected | Genuine backup line, but no slot is demonstrably weaker than | Its flashback costs five mana, does not recurse artifacts like LED, and its spells still require mana; Underworld Breach is a more compact primary graveyard combo engine. |
+| ABADDON-046 | Tallyman of Nurgle | None selected | Meta-dependent rather than a general upgrade; no documented  | Requires creature deaths and the end step; not a reliable threshold engine or cast-from-exile payoff. It may draw little in noncreature-combo pods. |
+| ABADDON-047 | Protection Racket | None selected | On-theme and worth remembering, but no evidence shows Mystic | Opponents choose the result, so it cannot guarantee both card draw and threshold pressure; its output is variable and overlaps existing efficient draw engines. |
+| ABADDON-048 | Chandra, Torch of Defiance | None selected | Flexible but not more efficient than the current draw/ramp/r | Sorcery-speed permanent with delayed value and no built-in cascade/cast-from-exile multiplier; slower than the deck's compact spells and instant-speed interaction. |
+| ABADDON-049 | Herald of Slaanesh | None selected | Relevant synergy, but the list does not depend on hand-casti | The reduction does not help spells cast free via cascade; current Demons are often cascade hits, and Nightscape Familiar discounts the larger blue/red spell suite at a lower cost. |
+| ABADDON-050 | Guttersnipe | None selected | Kessig Flamebreather is cheaper and triggers on a wider spel | Costs one more mana and misses noncreature artifact/enchantment spells that Kessig does trigger; the current deck already has multiple damage payoffs. |
+| ABADDON-051 | Ancient Cellarspawn | None selected | Strongest new commander-specific synergy in this targeted sc | The life-loss trigger targets one opponent rather than all opponents, and only triggers when mana spent is below mana value. Kessig Flamebreather's lower cost and distributed damage are more reliable early threshold tools; Nightscape Familiar supports more of the deck's spells. |
+| ABADDON-052 | Into the Time Vortex | None selected | Legitimate Commander-legal cascade engine, but Bituminous Bl | Five-mana sorcery with no other effect; if cascade-cast from exile, it does not rebound. It consumes a slot without immediate removal, draw, or direct damage beyond whatever cascade hits provide. |
+| ABADDON-053 | Throes of Chaos | None selected | Interesting recursion but too mana- and resource-intensive c | Four-mana retrace activation plus a land discard is slow in this fast-mana deck; from the graveyard it does not qualify for Abaddon's hand-cast Cascade grant. |
+| ABADDON-054 | Fiery Confluence | None selected | Flexible meta option, not a universal upgrade. Reopen only f | Four-mana sorcery and its creature damage is modest; overlaps Delayed Blast Fireball and Blasphemous Act. Its artifact mode is the main distinct role but no recurring artifact threat is documented. |
+| ABADDON-055 | See the Truth | None selected | A worthwhile cascade-hit texture card, but no weak draw slot | As a hand-cast it only selects one card, it has no printed Cascade, and the deck already has Ancestral Vision and multiple draw engines; its impact depends on being found in a cascade. |
+| ABADDON-056 | Black Waltz No. 3 | None selected | No cut for a fourth similar pinger has been established; kee | Four-mana creature is a slower engine than two-mana Kessig Flamebreather; duplicates the established pinger plan rather than filling a new role. |
+| ABADDON-057 | Mortarion, Daemon Primarch | None selected | A separate token/combat package would distort the commander- | Six-mana setup with delayed payoff; the deck's core win route is spell cascade and combo, and token generation doesn't improve the current-turn opponent-life-loss threshold. |
+| ABADDON-058 | Maestros Charm | None selected | Good role compression but not a clear improvement to premium | Modal flexibility does not exceed the strongest specialized cards in the current package; its burn mode is weaker than Boltwave/Flame Rift per mana and its selection mode is modest. |
+| ABADDON-059 | Reverberate | None selected | Potentially explosive on selected combo turns but has no rec | RR is restrictive in a three-color deck; copying doesn't count as casting the copied spell and does not retrigger cast-based payoffs, and the list already has high spell-chain density. |
+| ABADDON-060 | Mana Geyser | None selected | Existing acceleration package is already dense and faster; n | Five mana sorcery, weak early, depends on tapped opposing lands, and competes with Jeska's Will, Cabal Ritual, Dark Ritual, Rite of Flame, and fast mana. |
+
+### From `refinement/evidence/Abaddon_the_Despoiler_Deck_Quality_v3.md`
+
+Source: [refinement/evidence/Abaddon_the_Despoiler_Deck_Quality_v3.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/evidence/Abaddon_the_Despoiler_Deck_Quality_v3.md)
+
+**Abaddon the Despoiler — Deck Quality Gates v3 Review**
+
+**Cycle:** global restart 2026-10-13  
+**Baseline TXT SHA-256:** `2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf`  
+**Deck mutation:** none  
+**Current approval status:** UNAPPROVED — historical approval is evidence only after the global reset.
+
+**Candidate exhaustion**
+
+Sixty candidates have recorded dispositions in the existing decision ledger. The v3 closeout packet promotes the four highest-impact named candidates to explicit ACCEPT/REJECT/HOLD semantics: Aurora Phoenix, Deny Reality, Poxwalkers, and Blood for the Blood God! are REJECT for the current build. No high-impact HOLD remains. The final bounded discovery pass produced no new material candidate requiring a list mutation.
+
+This is search closure under the project budget, not a claim of mathematical optimality over every Magic card.
+
+**Hypothesis-driven testing**
+
+No new empirical test is required to justify a change because **no change is proposed**. The Aurora Phoenix versus Mind's Desire Forge comparison remains inconclusive and is explicitly excluded as superiority evidence. Repeating the same uninformative test would violate the project's research stopping rule. A future material swap hypothesis must be preregistered and compared under a validated scenario or human-game protocol.
+
+**Red-team review**
+
+Five material objections were raised and resolved:
+
+1. **Generic-goodstuff drift:** the list contains premium Grixis infrastructure and a compact Breach route, but the primary blueprint remains early life loss → Abaddon threshold → cascade → exile-cast payoff.
+2. **Mana/curve risk:** Abaddon costs five and the list has 34 lands. The existing density analysis documents 19 ramp-tagged cards and 12 explicit early accelerators. No controlled alternative demonstrates that a different land/ramp configuration is superior.
+3. **Mind's Desire sacred-cow risk:** Aurora Phoenix was not rejected because the Forge trial proved Mind's Desire better; it did not. The baseline is retained because no material improvement was demonstrated and Mind's Desire retains a distinct high-ceiling storm role.
+4. **Combo overclaim:** Breach/LED/Brain Freeze is not treated as an unconditional infinite. The worked audit proves a bounded uninterrupted line from stated resources.
+5. **Commander dependence:** removing Abaddon eliminates the deck's primary same-turn life-loss-to-cascade conversion engine and materially changes sequencing and card valuation, even though the secondary Breach route can still exist.
+
+No unresolved material red-team finding remains.
+
+**Commander necessity**
+
+Abaddon is structurally important because it turns opponent life loss during the current turn into cascade permission for qualifying spells cast from hand. The list deliberately supports that rule with threshold enablers, printed cascade, double-cascade opportunities, and exile-cast payoffs. Replacing Abaddon with a generic Grixis commander would materially change the primary engine.
+
+**Commander Necessity Gate: PASS.**
+
+**Evidence confidence**
+
+VERIFIED: combo integrity, rules confidence, source freshness.  
+HIGH CONFIDENCE: commander identity, engine, mana, interaction, conversion, card quality, candidate exhaustion.  
+PROVISIONAL but non-blocking: resilience and empirical testing. The project does not claim exhaustive multiplayer resilience or win-rate proof, and the inconclusive Forge trial is not used to establish superiority.
+
+No dimension is BLOCKED or TEST_REQUIRED.
+
+**V3 disposition**
+
+The exact unchanged frozen 100-card baseline remains the strongest defensible Abaddon configuration supported by the current bounded evidence. Deck Quality Gates v3 makes it **approval eligible**, not approved.
+
+Because the global restart explicitly revoked all historical approvals, the prior 2026-10-13 closeout approval cannot relock this deck. Explicit current-cycle user approval of the unchanged 100-card list is still required.
+
+### Further source evidence (linked, not copied)
+
+- [refinement/rules/Abaddon_the_Despoiler_Interaction_Review_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/rules/Abaddon_the_Despoiler_Interaction_Review_2026-10-13.md)
+
+<!-- COMBOS:START -->
+## Combos (Commander Spellbook)
+
+> Generated 2026-10-15 by `scripts/build_grixis.py` from the [Commander Spellbook](https://commanderspellbook.com) public API (community-maintained). Shows only combos whose **every card is in this list**. Bracket barometer: *Brackets 1–2: no intentional two-card infinite combos. Bracket 3: no early-game two-card infinite combos.*
+
+**4 complete combo(s); 0 two-card infinite.** 59 more are one card away (not listed).
+
+| Cards | Produces (Spellbook) | Extra requirements | Link |
+|---|---|---|---|
+| Underworld Breach + Lotus Petal + Brain Freeze | Infinite self-mill, Near-infinite magecraft triggers, Near-infinite mill | — | [1368-1414-4856](https://commanderspellbook.com/combo/1368-1414-4856/) |
+| Underworld Breach + Wheel of Fortune + Jeska's Will | Infinite draw triggers for all players, Infinite looting for all players, Near-infinite magecraft triggers, Near-infinite storm count | — | [1368-1878-2706](https://commanderspellbook.com/combo/1368-1878-2706/) |
+| Underworld Breach + Lion's Eye Diamond + Wheel of Fortune | Infinite draw triggers, Infinite looting, Infinite looting for opponents, Near-infinite storm count | — | [1368-2706-3518](https://commanderspellbook.com/combo/1368-2706-3518/) |
+| Underworld Breach + Lion's Eye Diamond + Brain Freeze | Infinite self-mill, Near-infinite colored mana, Near-infinite magecraft triggers, Near-infinite mill | — | [1368-3518-4856](https://commanderspellbook.com/combo/1368-3518-4856/) |
+<!-- COMBOS:END -->

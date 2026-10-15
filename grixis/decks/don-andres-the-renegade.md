@@ -1,0 +1,434 @@
+---
+title: "Grixis Deck — Don Andres, the Renegade"
+category: deck
+kind: grixis
+commander: "Don Andres, the Renegade"
+color_identity: UBR
+bracket_floor: 4
+game_changers: 5
+validated: true
+source_repo: corymstover/grixis-commander-encyclopediaGPT
+---
+
+# Grixis Deck — Don Andres, the Renegade
+
+> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Don_Andres_the_Renegade_Approved_2026-10-14.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decklists/Don_Andres_the_Renegade_Approved_2026-10-14.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-14; source commit `df1abb9`). Imported in Bot cycle 16 and re-validated against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
+
+## Contents
+- [Commander](#commander)
+- [Validation](#validation)
+- [Bracket assessment](#bracket-assessment)
+- [Corrections applied](#corrections-applied)
+- [Decklist (Archidekt import)](#decklist-archidekt-import)
+- [Card breakdown](#card-breakdown)
+- [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Combos (Commander Spellbook)](#combos-commander-spellbook)
+
+## Commander
+
+- **[Don Andres, the Renegade](../../cards/D/do.md#don-andres-the-renegade)** — {1}{U}{B}{R} — Legendary Creature — Vampire Pirate
+- Color identity: **UBR (Blue, Black, Red)**
+- Eligibility (Don Andres, the Renegade): Yes (legendary creature)
+
+## Validation
+
+- Total cards: **100** (1 commander(s) + 64 nonland + 31 nonbasic lands + 4 basics) · average nonland MV 3.31
+- Strict color identity (CR 903.5c), singleton (903.5b), Commander-legal, size (903.5a): ✅ **all checks pass**
+- Every card resolves to an entry in our card DB (99/99 lines linked).
+
+## Bracket assessment
+
+- Game Changers (5): Ancient Tomb, Cyclonic Rift, Fierce Guardianship, Opposition Agent, Vampiric Tutor
+- Extra-turn cards: none
+- Mass land denial: none
+- Commander Spellbook: 0 complete combo(s), 0 two-card infinite (see [Combos](#combos-commander-spellbook)).
+- **Minimum bracket by the published barometers: 4** (more than three Game Changers).
+- Source's stated target (guidance): **Bracket 4 — Optimized**.
+- (Brackets are a pregame-conversation tool. See [EDH Standards](../../EDH%20Standards.md#power-bracket-assessment).)
+
+## Corrections applied
+
+| Type | Change | Reason |
+|---|---|---|
+| format | Archidekt list normalized to [EDH Standards](../../EDH%20Standards.md#list-format-archidekt) | `[Commander]` → `[Commander{top}]` (1 line(s)); role tags restored on 94 untagged line(s): 85 from this deck's FINAL baseline, 9 from the tag the source uses most for that card in other decks; 4 untagged line(s) given a type tag (e.g. `[Land]`). |
+| bracket | Game Changers and combo floor added | The source records no Game Changer count and does not check the official Game Changers list anywhere in its approval records. We added it: **5 Game Changers**, so the minimum bracket is **4**. Commander Spellbook finds 0 complete combos (0 two-card infinite). This is consistent with the source's stated Bracket 4. |
+
+Full log for all decks: [Grixis Corrections](../Grixis%20Corrections.md).
+
+## Decklist (Archidekt import)
+
+```text
+1x Don Andres, the Renegade [Commander{top}]
+1x Admiral Beckett Brass [Removal]
+1x Ancient Tomb [Land]
+1x Animate Dead [Recursion]
+1x Arcane Heist [Theft]
+1x Arcane Signet [Ramp]
+1x Badlands [Land]
+1x Black Market Connections [Draw]
+1x Blasphemous Act [Removal]
+1x Blood Crypt [Land]
+1x Bloodstained Mire [Land]
+1x Brainstealer Dragon [Theft]
+1x Breeches, Brazen Plunderer [Draw]
+1x Breeches, Eager Pillager [Ramp]
+1x Mana Drain [Removal]
+1x Cavern of Souls [Land]
+1x Chaos Warp [Removal]
+1x Coercive Recruiter [Theft]
+1x Command Tower [Land]
+1x City of Brass [Land]
+1x Roaming Throne [Copy]
+1x Cyclonic Rift [Removal]
+1x Dauthi Voidwalker [Stax]
+1x Deadly Rollick [Removal]
+1x Deflecting Swat [Protection]
+1x Dimir Signet [Ramp]
+1x Dire Fleet Daredevil [Theft]
+1x Misty Rainforest [Land]
+1x Etali, Primal Storm [Draw]
+1x Exotic Orchard [Land]
+1x Feed the Swarm [Removal]
+1x Fellwar Stone [Ramp]
+1x Fierce Guardianship [Removal]
+1x Gilded Drake [Removal]
+1x Black Cat, Cunning Thief [Theft]
+1x Gonti, Night Minister [Theft]
+1x Grenzo, Havoc Raiser [Draw]
+1x Marsh Flats [Land]
+1x Hostage Taker [Removal]
+1x Hurl Through Hell [Removal]
+1x Insurrection [Theft]
+2x Island [Land]
+1x Izzet Signet [Ramp]
+1x Kindred Discovery [Draw]
+1x Laughing Jasper Flint [Theft]
+1x Lightning Greaves [Protection]
+1x Thieving Amalgam [Creature]
+1x Locke, Treasure Hunter [Ramp]
+1x Luxury Suite [Land]
+1x Malcolm, Keen-Eyed Navigator [Ramp]
+1x Mana Confluence [Land]
+1x Morphic Pool [Land]
+1x Mountain [Land]
+1x Opposition Agent [Stax]
+1x Otawara, Soaring City [Land]
+1x Outrageous Robbery [Theft]
+1x Path of Ancestry [Land]
+1x Plargg and Nassari [Draw]
+1x Polluted Delta [Land]
+1x Praetor's Grasp [Tutor]
+1x Professional Face-Breaker [Ramp]
+1x Ragavan, Nimble Pilferer [Ramp]
+1x Rakdos Signet [Ramp]
+1x Ramirez DePietro, Pillager [Ramp]
+1x Reanimate [Recursion]
+1x Thieving Varmint [Ramp]
+1x Scalding Tarn [Land]
+1x Seize the Spotlight [Draw]
+1x Court of Locthwain [Theft]
+1x Shipwreck Marsh [Land]
+1x Shivan Reef [Land]
+1x Siphon Insight [Theft]
+1x Smoldering Marsh [Land]
+1x Sol Ring [Ramp]
+1x Steam Vents [Land]
+1x Stolen Strategy [Draw]
+1x Verdant Catacombs [Land]
+1x Sulfur Falls [Land]
+1x Sulfurous Springs [Land]
+1x Swamp [Land]
+1x Takenuma, Abandoned Mire [Land]
+1x Talisman of Creativity [Ramp]
+1x Talisman of Dominance [Ramp]
+1x Talisman of Indulgence [Ramp]
+1x Tasha, the Witch Queen [Draw]
+1x Wand of Wonder [Artifact]
+1x Thief of Sanity [Theft]
+1x Toxic Deluge [Removal]
+1x Training Center [Land]
+1x Underground River [Land]
+1x Underground Sea [Land]
+1x Vaan, Street Thief [Theft]
+1x Vampiric Tutor [Tutor]
+1x Decadent Dragon // Expensive Taste [Creature]
+1x Volcanic Island [Land]
+1x Watery Grave [Land]
+1x Xander's Lounge [Land]
+1x You Find Some Prisoners [Removal]
+1x Jhoira, Weatherlight Corsair [Creature]
+```
+
+## Card breakdown
+
+Role tags are the source author's (untagged lines show the card type). *Printing* is the source's pinned printing, if it pinned one.
+
+| Card | Role (source tag) | Type | MV | Identity | GC | Printing |
+|---|---|---|---|---|---|---|
+| [Don Andres, the Renegade](../../cards/D/do.md#don-andres-the-renegade) | Commander | Legendary Creature — Vampire Pirate | 4 | UBR |  | — |
+| [Wand of Wonder](../../cards/W/wan.md#wand-of-wonder) | Artifact | Artifact | 4 | R |  | — |
+| [Roaming Throne](../../cards/R/ro.md#roaming-throne) | Copy | Artifact Creature — Golem | 4 | C |  | — |
+| [Decadent Dragon // Expensive Taste](../../cards/D/dec.md#decadent-dragon--expensive-taste) | Creature | Creature — Dragon // Instant — Adventure | 4 | BR |  | — |
+| [Jhoira, Weatherlight Corsair](../../cards/J/jh.md#jhoira-weatherlight-corsair) | Creature | Legendary Creature — Human Pirate | 6 | B |  | — |
+| [Thieving Amalgam](../../cards/T/thi.md#thieving-amalgam) | Creature | Creature — Ape Snake | 7 | B |  | — |
+| [Black Market Connections](../../cards/B/bla.md#black-market-connections) | Draw | Enchantment | 3 | B |  | — |
+| [Breeches, Brazen Plunderer](../../cards/B/br.md#breeches-brazen-plunderer) | Draw | Legendary Creature — Goblin Pirate | 4 | R |  | — |
+| [Etali, Primal Storm](../../cards/E/et.md#etali-primal-storm) | Draw | Legendary Creature — Elder Dinosaur | 6 | R |  | — |
+| [Grenzo, Havoc Raiser](../../cards/G/gre.md#grenzo-havoc-raiser) | Draw | Legendary Creature — Goblin Rogue | 2 | R |  | — |
+| [Kindred Discovery](../../cards/K/ki.md#kindred-discovery) | Draw | Enchantment | 5 | U |  | — |
+| [Plargg and Nassari](../../cards/P/pl.md#plargg-and-nassari) | Draw | Legendary Creature — Orc Efreet | 5 | R |  | — |
+| [Seize the Spotlight](../../cards/S/sei.md#seize-the-spotlight) | Draw | Sorcery | 3 | R |  | — |
+| [Stolen Strategy](../../cards/S/sto.md#stolen-strategy) | Draw | Enchantment | 5 | R |  | — |
+| [Tasha, the Witch Queen](../../cards/T/ta.md#tasha-the-witch-queen) | Draw | Legendary Planeswalker — Tasha | 5 | UB |  | — |
+| [Ancient Tomb](../../cards/A/an.md#ancient-tomb) | Land | Land | 0 | C | ✅ | — |
+| [Badlands](../../cards/B/bad.md#badlands) | Land | Land — Swamp Mountain | 0 | BR |  | — |
+| [Blood Crypt](../../cards/B/blo.md#blood-crypt) | Land | Land — Swamp Mountain | 0 | BR |  | — |
+| [Bloodstained Mire](../../cards/B/blo.md#bloodstained-mire) | Land | Land | 0 | C |  | — |
+| [Cavern of Souls](../../cards/C/cav.md#cavern-of-souls) | Land | Land | 0 | C |  | — |
+| [City of Brass](../../cards/C/ci.md#city-of-brass) | Land | Land | 0 | C |  | — |
+| [Command Tower](../../cards/C/com.md#command-tower) | Land | Land | 0 | C |  | — |
+| [Exotic Orchard](../../cards/E/ex.md#exotic-orchard) | Land | Land | 0 | C |  | — |
+| [Island](../../cards/I/is.md#island) (×2) | Land | Basic Land — Island | 0 | U |  | — |
+| [Luxury Suite](../../cards/L/lu.md#luxury-suite) | Land | Land | 0 | BR |  | — |
+| [Mana Confluence](../../cards/M/man.md#mana-confluence) | Land | Land | 0 | C |  | — |
+| [Marsh Flats](../../cards/M/mar.md#marsh-flats) | Land | Land | 0 | C |  | — |
+| [Misty Rainforest](../../cards/M/mis.md#misty-rainforest) | Land | Land | 0 | C |  | — |
+| [Morphic Pool](../../cards/M/mor.md#morphic-pool) | Land | Land | 0 | UB |  | — |
+| [Mountain](../../cards/M/mou.md#mountain) | Land | Basic Land — Mountain | 0 | R |  | — |
+| [Otawara, Soaring City](../../cards/O/ot.md#otawara-soaring-city) | Land | Legendary Land | 0 | U |  | — |
+| [Path of Ancestry](../../cards/P/pa.md#path-of-ancestry) | Land | Land | 0 | C |  | — |
+| [Polluted Delta](../../cards/P/po.md#polluted-delta) | Land | Land | 0 | C |  | — |
+| [Scalding Tarn](../../cards/S/sc.md#scalding-tarn) | Land | Land | 0 | C |  | — |
+| [Shipwreck Marsh](../../cards/S/shi.md#shipwreck-marsh) | Land | Land | 0 | UB |  | — |
+| [Shivan Reef](../../cards/S/shi.md#shivan-reef) | Land | Land | 0 | UR |  | — |
+| [Smoldering Marsh](../../cards/S/sm.md#smoldering-marsh) | Land | Land — Swamp Mountain | 0 | BR |  | — |
+| [Steam Vents](../../cards/S/ste.md#steam-vents) | Land | Land — Island Mountain | 0 | UR |  | — |
+| [Sulfur Falls](../../cards/S/sul.md#sulfur-falls) | Land | Land | 0 | UR |  | — |
+| [Sulfurous Springs](../../cards/S/sul.md#sulfurous-springs) | Land | Land | 0 | BR |  | — |
+| [Swamp](../../cards/S/sw.md#swamp) | Land | Basic Land — Swamp | 0 | B |  | — |
+| [Takenuma, Abandoned Mire](../../cards/T/ta.md#takenuma-abandoned-mire) | Land | Legendary Land | 0 | B |  | — |
+| [Training Center](../../cards/T/tra.md#training-center) | Land | Land | 0 | UR |  | — |
+| [Underground River](../../cards/U/un.md#underground-river) | Land | Land | 0 | UB |  | — |
+| [Underground Sea](../../cards/U/un.md#underground-sea) | Land | Land — Island Swamp | 0 | UB |  | — |
+| [Verdant Catacombs](../../cards/V/ve.md#verdant-catacombs) | Land | Land | 0 | C |  | — |
+| [Volcanic Island](../../cards/V/vo.md#volcanic-island) | Land | Land — Island Mountain | 0 | UR |  | — |
+| [Watery Grave](../../cards/W/wat.md#watery-grave) | Land | Land — Island Swamp | 0 | UB |  | — |
+| [Xander's Lounge](../../cards/X/xa.md#xanders-lounge) | Land | Land — Island Swamp Mountain | 0 | UBR |  | — |
+| [Deflecting Swat](../../cards/D/def.md#deflecting-swat) | Protection | Instant | 3 | R |  | — |
+| [Lightning Greaves](../../cards/L/li.md#lightning-greaves) | Protection | Artifact — Equipment | 2 | C |  | — |
+| [Arcane Signet](../../cards/A/arc.md#arcane-signet) | Ramp | Artifact | 2 | C |  | — |
+| [Breeches, Eager Pillager](../../cards/B/br.md#breeches-eager-pillager) | Ramp | Legendary Creature — Goblin Pirate | 3 | R |  | — |
+| [Dimir Signet](../../cards/D/di.md#dimir-signet) | Ramp | Artifact | 2 | UB |  | — |
+| [Fellwar Stone](../../cards/F/fe.md#fellwar-stone) | Ramp | Artifact | 2 | C |  | — |
+| [Izzet Signet](../../cards/I/iz.md#izzet-signet) | Ramp | Artifact | 2 | UR |  | — |
+| [Locke, Treasure Hunter](../../cards/L/lo.md#locke-treasure-hunter) | Ramp | Legendary Creature — Human Rogue | 3 | BR |  | — |
+| [Malcolm, Keen-Eyed Navigator](../../cards/M/mal.md#malcolm-keen-eyed-navigator) | Ramp | Legendary Creature — Siren Pirate | 3 | U |  | — |
+| [Professional Face-Breaker](../../cards/P/pr.md#professional-face-breaker) | Ramp | Creature — Human Warrior | 3 | R |  | — |
+| [Ragavan, Nimble Pilferer](../../cards/R/rag.md#ragavan-nimble-pilferer) | Ramp | Legendary Creature — Monkey Pirate | 1 | R |  | — |
+| [Rakdos Signet](../../cards/R/rak.md#rakdos-signet) | Ramp | Artifact | 2 | BR |  | — |
+| [Ramirez DePietro, Pillager](../../cards/R/ram.md#ramirez-depietro-pillager) | Ramp | Legendary Creature — Human Pirate | 4 | UB |  | — |
+| [Sol Ring](../../cards/S/so.md#sol-ring) | Ramp | Artifact | 1 | C |  | — |
+| [Talisman of Creativity](../../cards/T/ta.md#talisman-of-creativity) | Ramp | Artifact | 2 | UR |  | — |
+| [Talisman of Dominance](../../cards/T/ta.md#talisman-of-dominance) | Ramp | Artifact | 2 | UB |  | — |
+| [Talisman of Indulgence](../../cards/T/ta.md#talisman-of-indulgence) | Ramp | Artifact | 2 | BR |  | — |
+| [Thieving Varmint](../../cards/T/thi.md#thieving-varmint) | Ramp | Creature — Varmint | 2 | B |  | — |
+| [Animate Dead](../../cards/A/an.md#animate-dead) | Recursion | Enchantment — Aura | 2 | B |  | — |
+| [Reanimate](../../cards/R/rea.md#reanimate) | Recursion | Sorcery | 1 | B |  | — |
+| [Admiral Beckett Brass](../../cards/A/ad.md#admiral-beckett-brass) | Removal | Legendary Creature — Human Pirate | 4 | UBR |  | — |
+| [Blasphemous Act](../../cards/B/bla.md#blasphemous-act) | Removal | Sorcery | 9 | R |  | — |
+| [Chaos Warp](../../cards/C/cha.md#chaos-warp) | Removal | Instant | 3 | R |  | — |
+| [Cyclonic Rift](../../cards/C/cy.md#cyclonic-rift) | Removal | Instant | 2 | U | ✅ | — |
+| [Deadly Rollick](../../cards/D/dea.md#deadly-rollick) | Removal | Instant | 4 | B |  | — |
+| [Feed the Swarm](../../cards/F/fe.md#feed-the-swarm) | Removal | Sorcery | 2 | B |  | — |
+| [Fierce Guardianship](../../cards/F/fi.md#fierce-guardianship) | Removal | Instant | 3 | U | ✅ | — |
+| [Gilded Drake](../../cards/G/gi.md#gilded-drake) | Removal | Creature — Drake | 2 | U |  | — |
+| [Hostage Taker](../../cards/H/ho.md#hostage-taker) | Removal | Creature — Human Pirate | 4 | UB |  | — |
+| [Hurl Through Hell](../../cards/H/hu.md#hurl-through-hell) | Removal | Instant | 4 | BR |  | — |
+| [Mana Drain](../../cards/M/man.md#mana-drain) | Removal | Instant | 2 | U |  | — |
+| [Toxic Deluge](../../cards/T/to.md#toxic-deluge) | Removal | Sorcery | 3 | B |  | — |
+| [You Find Some Prisoners](../../cards/Y/yo.md#you-find-some-prisoners) | Removal | Instant | 2 | R |  | — |
+| [Dauthi Voidwalker](../../cards/D/da.md#dauthi-voidwalker) | Stax | Creature — Dauthi Rogue | 2 | B |  | — |
+| [Opposition Agent](../../cards/O/op.md#opposition-agent) | Stax | Creature — Human Rogue | 3 | B | ✅ | — |
+| [Arcane Heist](../../cards/A/arc.md#arcane-heist) | Theft | Sorcery | 4 | U |  | — |
+| [Black Cat, Cunning Thief](../../cards/B/bla.md#black-cat-cunning-thief) | Theft | Legendary Creature — Human Rogue Villain | 5 | B |  | — |
+| [Brainstealer Dragon](../../cards/B/br.md#brainstealer-dragon) | Theft | Creature — Dragon Horror | 7 | B |  | — |
+| [Coercive Recruiter](../../cards/C/coe.md#coercive-recruiter) | Theft | Creature — Orc Pirate | 5 | R |  | — |
+| [Court of Locthwain](../../cards/C/cou.md#court-of-locthwain) | Theft | Enchantment | 4 | B |  | — |
+| [Dire Fleet Daredevil](../../cards/D/di.md#dire-fleet-daredevil) | Theft | Creature — Human Pirate | 2 | R |  | — |
+| [Gonti, Night Minister](../../cards/G/gon.md#gonti-night-minister) | Theft | Legendary Creature — Aetherborn Rogue | 4 | B |  | — |
+| [Insurrection](../../cards/I/ins.md#insurrection) | Theft | Sorcery | 8 | R |  | — |
+| [Laughing Jasper Flint](../../cards/L/la.md#laughing-jasper-flint) | Theft | Legendary Creature — Lizard Rogue | 3 | BR |  | — |
+| [Outrageous Robbery](../../cards/O/ou.md#outrageous-robbery) | Theft | Instant | 2 | B |  | — |
+| [Siphon Insight](../../cards/S/si.md#siphon-insight) | Theft | Instant | 2 | UB |  | — |
+| [Thief of Sanity](../../cards/T/thi.md#thief-of-sanity) | Theft | Creature — Specter | 3 | UB |  | — |
+| [Vaan, Street Thief](../../cards/V/va.md#vaan-street-thief) | Theft | Legendary Creature — Human Scout | 3 | R |  | — |
+| [Praetor's Grasp](../../cards/P/pr.md#praetors-grasp) | Tutor | Sorcery | 3 | B |  | — |
+| [Vampiric Tutor](../../cards/V/va.md#vampiric-tutor) | Tutor | Instant | 1 | B | ✅ | — |
+
+## Source commentary (verbatim)
+
+> Quoted from the source repo with headings turned into bold text. This is **the source author's analysis and opinion (guidance)**, from `grixis-commander-encyclopediaGPT`, path shown above each block. Relative links point back to the source. Rules statements here were not re-verified card by card (see [Grixis Corrections](../Grixis%20Corrections.md#oracle-text-check) for the Oracle check). Where the source mentions Lutri, Trade Secrets or Yawgmoth's Bargain as approved exceptions, our corrected list above takes precedence.
+
+### From `refinement/blueprints/Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md`
+
+Source: [refinement/blueprints/Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/blueprints/Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md)
+
+**Don Andres, the Renegade — Current-Cycle Commander-First Blueprint**
+
+**Date:** 2026-10-14  
+**Cycle:** `global-restart-2026-10-13`  
+**Deck:** #14 / `Don_Andres__the_Renegade`  
+**Authoritative baseline:** `refinement/decklists/Don_Andres_the_Renegade_Current_Cycle_Baseline_2026-10-14.txt`  
+**Standardized baseline SHA-256:** `9e739e8f463dadf07c2516195995583d21ae4cd987d1af6f0f4cd695fadf7c57`  
+**Frozen October TXT source SHA-256:** `5013e0b0b035880e74f5395e55115a58eb3f60ad922cd4bd29670d5f45d0ed2e`
+
+**Commander identity**
+
+Current Oracle text:
+
+> Each creature you control but don't own gets +2/+2, has menace and deathtouch, and is a Pirate in addition to its other types.
+> Whenever you cast a noncreature spell you don't own, create two tapped Treasure tokens.
+
+Don Andres therefore has two linked theft axes:
+
+1. **Stolen creatures** — creatures taken by control-changing effects, reanimated from opponents' graveyards, put directly onto the battlefield from opponents' zones, or cast from opponents' cards remain owned by the opponent. Don turns them into enlarged menace/deathtouch Pirates.
+2. **Stolen noncreature spells** — casting opponents' instants, sorceries, artifacts, enchantments, planeswalkers, or battles triggers Don and creates two tapped Treasures.
+
+The strongest deck therefore repeatedly accesses opponents' cards while exploiting the Pirate type Don grants to stolen creatures. Pure self-recursion, generic treasure production, and generic Grixis value are secondary unless they materially support those two axes.
+
+**Primary game plan**
+
+1. Establish Don and efficient mana.
+2. Generate cards from opponents' libraries, hands, graveyards, or permanents through Ragavan, Breeches, Grenzo, Vaan, Locke, Thief of Sanity, Laughing Jasper Flint, Praetor's Grasp, Siphon Insight, Outrageous Robbery, Hostage Taker, Dauthi Voidwalker, Arcane Heist, Court of Locthwain, Black Cat, Wand of Wonder, Decadent Dragon, and related engines.
+3. Convert stolen creature permanents into oversized menace/deathtouch Pirates; leverage Malcolm, Admiral Beckett Brass, Kindred Discovery, Coercive Recruiter, Breeches, Ramirez, and other Pirate triggers around them.
+4. Convert stolen noncreature casts into large Treasure bursts. Roaming Throne naming Pirate doubles Don's Treasure trigger and also amplifies many Pirate triggers.
+5. Close through a snowballing stolen board, permanent theft from Admiral Beckett Brass, repeated theft engines, or Insurrection as the dedicated mass-theft finisher.
+
+**Natural power ceiling**
+
+**Bracket 4 — Optimized.** Don produces substantial mana and combat pressure from theft but is dependent on opponents' card quality and does not naturally support a compact cEDH win package. Optimization therefore focuses on resilient, repeatable theft, efficient interaction, and high-quality mana without replacing the deck with unrelated Grixis combo lines.
+
+**Source discrepancy resolved**
+
+The authoritative October CSV/TXT exports agree and are the baseline. `deck_card_audit.csv` contains a different five-card snapshot: it includes `Agent of Treachery`, `Bribery`, `Captivating Crew`, `Memory Plunder`, and `Zealous Conscripts` where the authoritative exports instead contain `Arcane Heist`, `Locke, Treasure Hunter`, `Seize the Spotlight`, `Share the Spoils`, and `You Find Some Prisoners`.
+
+The current refinement preserves CSV/TXT authority and manually evaluates all five audit-only cards. No research-pipeline rerun is required.
+
+### From `refinement/decisions/Don_Andres_the_Renegade_Current_Cycle_Decisions_2026-10-14.md`
+
+Source: [refinement/decisions/Don_Andres_the_Renegade_Current_Cycle_Decisions_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decisions/Don_Andres_the_Renegade_Current_Cycle_Decisions_2026-10-14.md)
+
+**Don Andres, the Renegade — Current-Cycle Refinement Decision Record**
+
+**Date:** 2026-10-14  
+**Cycle:** `global-restart-2026-10-13`  
+**Status:** working approval candidate; explicit user approval still required  
+**Baseline SHA-256:** `9e739e8f463dadf07c2516195995583d21ae4cd987d1af6f0f4cd695fadf7c57`  
+**Candidate SHA-256:** `a6022fddd295d7c671690fbce5e25dc6fed47ca7fa77bf1d8a86ebadb2d927bb`
+
+**Mandatory whole-list audit**
+
+All 99 noncommander slots were challenged for mana efficiency, ramp, draw, interaction, protection, recursion, theft density, Pirate synergies, finishers, commander-specific payoffs, and high-impact alternatives.
+
+The baseline has ample mana acceleration and card access but three structural weaknesses:
+
+1. a small self-recursion package (`Buried Alive`, `Living Death`, `Victimize`) that does not itself steal opponents' cards and became increasingly redundant once the strongest theft engines were compared slot-for-slot;
+2. several slow or symmetrical value cards (`Cunning Rhetoric`, `Share the Spoils`, `The Ruinous Powers`, `Revel in Riches`) that are less reliable than proactive theft engines; and
+3. four avoidable slow/check lands in a no-budget three-color optimized mana base.
+
+The deck keeps `Animate Dead` and `Reanimate` because both can target opposing graveyards, creating creatures Don controls but does not own. It keeps the commander-specific Pirate package and the mass-theft finisher `Insurrection`.
+
+**Proposed changes**
+
+| OUT | IN | Decision rationale |
+|---|---|---|
+| Buried Alive | Mana Drain | Buried Alive only sets up the deck's own graveyard and loses value after the weakest self-recursion cards are removed. Mana Drain repairs the stack-interaction gap while producing mana for the deck's expensive theft engines. |
+| Cunning Rhetoric | Roaming Throne | Rhetoric is reactive and opponent-dependent. Throne naming Pirate doubles Don's Treasure trigger and also doubles many Pirate triggers from Admiral Beckett Brass, Malcolm, Breeches, Ramirez, and others. |
+| Living Death | Thieving Amalgam | Living Death is symmetrical recursion. Amalgam directly steals the top card of every opponent's library as a manifested creature each round; those face-down creatures are controlled but not owned, so Don turns them into 4/4 menace/deathtouch Pirates while he remains in play. |
+| Revel in Riches | Thieving Varmint | Revel is a five-mana delayed Treasure payoff. Varmint is a two-mana, two-mana-per-turn accelerator specifically for casting spells you don't own, which directly advances Don's stolen-spell engine. |
+| Share the Spoils | Court of Locthwain | Share is symmetrical and opponents can consume the shared exile pool. Court repeatedly targets an opponent's library, grants durable permission, supplies monarch draw, fixes mana for the stolen card, and can cast a stolen spell for free while you are monarch. |
+| Victimize | Decadent Dragon // Expensive Taste | Victimize only returns your own creatures and needs a sacrifice. Expensive Taste permanently banks two cards from an opponent's library; stolen creatures become Don-buffed Pirates and stolen noncreatures trigger Don. The Dragon side then supplies an evasive Treasure-producing body. |
+| The Ruinous Powers | Wand of Wonder | Ruinous Powers offers one random paid card per upkeep. Wand can cast one to three opponents' instants/sorceries for free per activation, so every spell is eligible to trigger Don and generate Treasure. |
+| Gonti, Lord of Luxury | Black Cat, Cunning Thief | Black Cat costs one more mana but examines nine cards, banks two face-down cards indefinitely, and fixes mana for both. It is a material upgrade in selection and stolen-card volume over Gonti's one-of-four selection. |
+| Zara, Renegade Recruiter | Jhoira, Weatherlight Corsair | Zara temporarily borrows one creature from a defending player's hand after attacking. Jhoira steals a historic permanent on entry and every attack, keeps it permanently, and is itself a Pirate. Stolen creatures immediately receive Don's static bonuses. |
+| Crumbling Necropolis | City of Brass | Removes an unconditional tapped land for unconditional untapped Grixis fixing. |
+| Drowned Catacomb | Misty Rainforest | Fetches the deck's Island-typed duals/shocks/triome and removes check-land sequencing risk. |
+| Haunted Ridge | Marsh Flats | Fetches the deck's Swamp-typed duals/shocks/triome and removes slow-land sequencing risk. |
+| Stormcarved Coast | Verdant Catacombs | Fetches the deck's Swamp-typed duals/shocks/triome and removes slow-land sequencing risk. |
+
+**Important retained cards**
+
+- `Admiral Beckett Brass` is unusually commander-specific here: Don makes stolen creatures Pirates, helping satisfy the three-Pirate combat requirement and then permanently stealing another nonland permanent.
+- `Kindred Discovery`, `Malcolm, Keen-Eyed Navigator`, `Breeches, Brazen Plunderer`, `Breeches, Eager Pillager`, `Ramirez DePietro, Pillager`, and `Coercive Recruiter` all gain value from Don turning controlled-but-not-owned creatures into Pirates.
+- `Animate Dead` and `Reanimate` remain because they can take creatures from opponents' graveyards, unlike `Victimize`.
+- `Brainstealer Dragon`, `Etali, Primal Storm`, `Plargg and Nassari`, `Stolen Strategy`, `Tasha, the Witch Queen`, `Laughing Jasper Flint`, `Vaan, Street Thief`, `Locke, Treasure Hunter`, `Outrageous Robbery`, `Praetor's Grasp`, `Siphon Insight`, `Thief of Sanity`, `Dauthi Voidwalker`, `Hostage Taker`, `Hurl Through Hell`, `Arcane Heist`, and `You Find Some Prisoners` remain as the core stolen-card engine.
+- `Insurrection` remains the dedicated mass-theft finisher: Don turns the stolen creatures into larger menace/deathtouch Pirates for the lethal combat step.
+
+**Candidate exhaustion / red-team review**
+
+The top-100 project ranking was reviewed as discovery evidence, not as an automatic prescription. High-ranked challengers included `Mind's Dilation`, `Xanathar, Guild Kingpin`, `Mob Rule`, `The Beast, Deathless Prince`, `Staff of Eden, Vault's Key`, `Thieving Amalgam`, `Wand of Wonder`, `Court of Locthwain`, `Thieving Varmint`, `Decadent Dragon // Expensive Taste`, `Fallen Shinobi`, `Tinybones, the Pickpocket`, `Cruelclaw's Heist`, and `Nightveil Specter`.
+
+The five audit-only discrepancy cards were also manually reviewed: `Agent of Treachery`, `Bribery`, `Captivating Crew`, `Memory Plunder`, and `Zealous Conscripts`.
+
+The closest rejected alternatives were:
+
+- `Mind's Dilation` — extremely powerful, but seven mana with no immediate board effect; the high-end is already occupied by Brainstealer Dragon, Thieving Amalgam, Etali, and Insurrection, while Court/Wand provide cheaper repeated stolen casting.
+- `Xanathar, Guild Kingpin` — strong but six mana and delayed until upkeep; the selected package produces more immediate and/or lower-cost stolen-card access.
+- `Agent of Treachery` — excellent seven-mana theft, but Jhoira and Thieving Amalgam provide repeatable theft at the same high-end slot pressure.
+- `Bribery` — strong guaranteed creature theft, but one-shot at five mana and narrower than the selected repeatable multi-zone engines.
+- `Captivating Crew` — repeatable temporary theft but requires four additional mana per activation; Coercive Recruiter and the existing Pirate shell perform the temporary-theft role more efficiently.
+- `Memory Plunder` — directly synergistic but substantially overlaps Arcane Heist and Dire Fleet Daredevil.
+- `Black Cat, Cunning Thief` and `Jhoira, Weatherlight Corsair` were promoted despite not being top-ranked by the older candidate snapshot because current card text and recent optimized Don evidence show materially stronger theft functions.
+
+A second serious pass produced **zero new material improvements**.
+
+**External evidence checkpoint**
+
+Current EDHREC optimized Don data supports the retained core (Hostage Taker, Ramirez, Malcolm, Ragavan, Etali, Thief of Sanity, Laughing Jasper Flint, Breeches) and shows strong optimized adoption/synergy for Court of Locthwain and Wand of Wonder. Current optimized lists also use Black Cat and the newly released Jhoira in theft-focused builds. This evidence corroborates the slot analysis but does not substitute for it.
+
+**Power classification**
+
+**Bracket 4 — Optimized**  
+Proposed tags: **Theft / Pirates / Treasure**
+
+### From `refinement/approvals/Don_Andres_the_Renegade_Approved_2026-10-14.md`
+
+Source: [refinement/approvals/Don_Andres_the_Renegade_Approved_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/approvals/Don_Andres_the_Renegade_Approved_2026-10-14.md)
+
+**Don Andres, the Renegade — Current-Cycle Approval**
+
+**Cycle:** `global-restart-2026-10-13`  
+**Approval date:** 2026-10-14  
+**Status:** APPROVED / LOCKED  
+**Approved list SHA-256:** `a6022fddd295d7c671690fbce5e25dc6fed47ca7fa77bf1d8a86ebadb2d927bb`
+
+The user explicitly approved the exact SHA-bound approval candidate after the mandatory 99-slot whole-list audit, commander-first optimization pass, candidate exhaustion, adversarial red-team review, zero-new-material-improvement closure, fresh Oracle/rules verification, official Commander legality verification, and complete fail-closed approval gate.
+
+**Verification snapshot**
+
+- Cards: 100
+- Distinct names: 99; only `Island` repeats
+- Commander color identity: B/R/U
+- Singleton compliance: PASS
+- Rules gate: PASS
+- Official Commander legality: PASS
+- Project exceptions: none
+- Complete gate errors: 0
+- Power classification: Bracket 4 — Optimized
+- Tags: Theft / Pirates / Treasure
+
+**Canonical artifacts**
+
+- Approved list: `refinement/decklists/Don_Andres_the_Renegade_Approved_2026-10-14.txt`
+- Whole-list audit: `refinement/verification/don_andres_the_renegade_2026-10-14/Don_Andres_the_Renegade_Whole_List_Audit_Closeout_2026-10-14.md`
+- Complete gate: `refinement/verification/don_andres_the_renegade_2026-10-14/gate_output/Don_Andres_the_Renegade_2026-10-14_Complete_Gate.json`
+
+No future deck refinement may modify this approved list unless the user explicitly reopens Don Andres.
+
+<!-- COMBOS:START -->
+## Combos (Commander Spellbook)
+
+> Generated 2026-10-15 by `scripts/build_grixis.py` from the [Commander Spellbook](https://commanderspellbook.com) public API (community-maintained). Shows only combos whose **every card is in this list**. Bracket barometer: *Brackets 1–2: no intentional two-card infinite combos. Bracket 3: no early-game two-card infinite combos.*
+
+**No complete combos found** (23 more are one card away; not listed).
+<!-- COMBOS:END -->

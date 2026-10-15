@@ -1,0 +1,445 @@
+---
+title: "Grixis Deck — Kefka, Court Mage // Kefka, Ruler of Ruin"
+category: deck
+kind: grixis
+commander: "Kefka, Court Mage // Kefka, Ruler of Ruin"
+color_identity: UBR
+bracket_floor: 4
+game_changers: 20
+validated: true
+source_repo: corymstover/grixis-commander-encyclopediaGPT
+---
+
+# Grixis Deck — Kefka, Court Mage // Kefka, Ruler of Ruin
+
+> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Kefka_Court_Mage_Approved_2026-10-14.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decklists/Kefka_Court_Mage_Approved_2026-10-14.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-14; source commit `df1abb9`). Imported in Bot cycle 16 and re-validated against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
+
+## Contents
+- [Commander](#commander)
+- [Validation](#validation)
+- [Bracket assessment](#bracket-assessment)
+- [Corrections applied](#corrections-applied)
+- [Decklist (Archidekt import)](#decklist-archidekt-import)
+- [Card breakdown](#card-breakdown)
+- [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Combos (Commander Spellbook)](#combos-commander-spellbook)
+
+## Commander
+
+- **[Kefka, Court Mage // Kefka, Ruler of Ruin](../../cards/K/ke.md#kefka-court-mage--kefka-ruler-of-ruin)** — {2}{U}{B}{R} //  — Legendary Creature — Human Wizard // Legendary Creature — Avatar Wizard
+- Color identity: **UBR (Blue, Black, Red)**
+- Eligibility (Kefka, Court Mage // Kefka, Ruler of Ruin): Yes (legendary creature)
+
+## Validation
+
+- Total cards: **100** (1 commander(s) + 71 nonland + 27 nonbasic lands + 1 basics) · average nonland MV 1.94
+- Strict color identity (CR 903.5c), singleton (903.5b), Commander-legal, size (903.5a): ✅ **all checks pass**
+- Every card resolves to an entry in our card DB (100/100 lines linked).
+
+## Bracket assessment
+
+- Game Changers (20): Ad Nauseam, Ancient Tomb, Chrome Mox, Demonic Tutor, Fierce Guardianship, Force of Will, Gamble, Grim Monolith, Imperial Seal, Jeska's Will, Lion's Eye Diamond, Mana Vault, Mox Diamond, Mystical Tutor, Necropotence, Orcish Bowmasters, Rhystic Study, Thassa's Oracle, Underworld Breach, Vampiric Tutor
+- Extra-turn cards: Final Fortune
+- Mass land denial: none
+- Commander Spellbook: 6 complete combo(s), 0 two-card infinite (see [Combos](#combos-commander-spellbook)).
+- **Minimum bracket by the published barometers: 4** (more than three Game Changers).
+- Source's stated target (guidance): **Bracket 5 — cEDH**.
+- (Brackets are a pregame-conversation tool. See [EDH Standards](../../EDH%20Standards.md#power-bracket-assessment).)
+
+## Corrections applied
+
+| Type | Change | Reason |
+|---|---|---|
+| format | Archidekt list normalized to [EDH Standards](../../EDH%20Standards.md#list-format-archidekt) | `[Commander]` → `[Commander{top}]` (1 line(s)); role tags restored on 96 untagged line(s): 80 from this deck's FINAL baseline, 16 from the tag the source uses most for that card in other decks; 3 untagged line(s) given a type tag (e.g. `[Land]`). |
+| bracket | Game Changers and combo floor added | The source records no Game Changer count and does not check the official Game Changers list anywhere in its approval records. We added it: **20 Game Changers**, so the minimum bracket is **4**. Commander Spellbook finds 6 complete combos (0 two-card infinite). This is consistent with the source's stated Bracket 5. |
+
+Full log for all decks: [Grixis Corrections](../Grixis%20Corrections.md).
+
+## Decklist (Archidekt import)
+
+```text
+1x Kefka, Court Mage // Kefka, Ruler of Ruin [Commander{top}]
+1x Ad Nauseam [Draw]
+1x An Offer You Can't Refuse [Removal]
+1x Ancient Tomb [Land]
+1x Anger [Anthem]
+1x Arcane Signet [Ramp]
+1x Arena of Glory [Land]
+1x Arid Mesa [Land]
+1x Badlands [Land]
+1x Beseech the Mirror [Tutor]
+1x Blood Crypt [Land]
+1x Bloodstained Mire [Land]
+1x Borne Upon a Wind [Draw]
+1x Brain Freeze [Mill]
+1x Cabal Ritual [Ramp]
+1x Cavern of Souls [Land]
+1x Chain of Vapor [Removal]
+1x Chrome Mox [Ramp]
+1x City of Brass [Land]
+1x City of Traitors [Land]
+1x Command Tower [Land]
+1x Culling the Weak [Ramp]
+1x Valley Floodcaller [Pump]
+1x Dark Ritual [Ramp]
+1x Deflecting Swat [Protection]
+1x Demonic Consultation [Tutor]
+1x Demonic Tutor [Tutor]
+1x Diabolic Intent [Tutor]
+1x Displacer Kitten [Blink]
+1x Essence Flux [Blink]
+1x Fierce Guardianship [Removal]
+1x Final Fortune [Finisher]
+1x Flooded Strand [Land]
+1x Flusterstorm [Counters]
+1x Force of Negation [Counters]
+1x Force of Will [Counters]
+1x Gamble [Tutor]
+1x Gemstone Caverns [Land]
+1x Gogo, Mysterious Mime [Creature]
+1x Grim Monolith [Ramp]
+1x Harmonic Prodigy [Copy]
+1x Hexing Squelcher [Protection]
+1x Imperial Seal [Tutor]
+1x Into the Flood Maw [Removal]
+1x Island [Land]
+1x Jeska's Will [Ramp]
+1x Lion's Eye Diamond [Ramp]
+1x Lotus Petal [Ramp]
+1x Luxury Suite [Land]
+1x Mana Confluence [Land]
+1x Mana Vault [Ramp]
+1x Marsh Flats [Land]
+1x Mental Misstep [Counters]
+1x Mindbreak Trap [Counters]
+1x Misty Rainforest [Land]
+1x Mnemonic Betrayal [Theft]
+1x Molten Duplication [Copy]
+1x Morphic Pool [Land]
+1x Mox Diamond [Ramp]
+1x Mox Opal [Ramp]
+1x Mystic Remora [Draw]
+1x Mystical Tutor [Tutor]
+1x Necropotence [Draw]
+1x Demonic Counsel [Tutor]
+1x Orcish Bowmasters [Removal]
+1x Otawara, Soaring City [Land]
+1x Pact of Negation [Counters]
+1x Phantasmal Image [Creature]
+1x Phyrexian Metamorph [Clones]
+1x Polluted Delta [Land]
+1x Fellwar Stone [Ramp]
+1x Pyroblast [Removal]
+1x Ragavan, Nimble Pilferer [Ramp]
+1x Reanimate [Recursion]
+1x Red Elemental Blast [Removal]
+1x Rhystic Study [Draw]
+1x Rite of Flame [Ramp]
+1x Saw in Half [Removal]
+1x Scalding Tarn [Land]
+1x Simian Spirit Guide [Ramp]
+1x Sol Ring [Ramp]
+1x Starting Town [Land]
+1x Steam Vents [Land]
+1x Swan Song [Removal]
+1x Tainted Pact [Tutor]
+1x Talisman of Creativity [Ramp]
+1x Talisman of Dominance [Ramp]
+1x Thassa's Oracle [Draw]
+1x Tinybones, Bauble Burglar [Discard]
+1x Toxic Deluge [Removal]
+1x Underground Sea [Land]
+1x Underworld Breach [Recursion]
+1x Vampiric Tutor [Tutor]
+1x Verdant Catacombs [Land]
+1x Volcanic Island [Land]
+1x Waste Not [Discard]
+1x Watery Grave [Land]
+1x Wheel of Fortune [Draw]
+1x Wishclaw Talisman [Tutor]
+1x Wooded Foothills [Land]
+```
+
+## Card breakdown
+
+Role tags are the source author's (untagged lines show the card type). *Printing* is the source's pinned printing, if it pinned one.
+
+| Card | Role (source tag) | Type | MV | Identity | GC | Printing |
+|---|---|---|---|---|---|---|
+| [Kefka, Court Mage // Kefka, Ruler of Ruin](../../cards/K/ke.md#kefka-court-mage--kefka-ruler-of-ruin) | Commander | Legendary Creature — Human Wizard // Legendary Creature — Avatar Wizard | 5 | UBR |  | — |
+| [Anger](../../cards/A/an.md#anger) | Anthem | Creature — Incarnation | 4 | R |  | — |
+| [Displacer Kitten](../../cards/D/di.md#displacer-kitten) | Blink | Creature — Cat Beast | 4 | U |  | — |
+| [Essence Flux](../../cards/E/es.md#essence-flux) | Blink | Instant | 1 | U |  | — |
+| [Phyrexian Metamorph](../../cards/P/ph.md#phyrexian-metamorph) | Clones | Artifact Creature — Phyrexian Shapeshifter | 4 | U |  | — |
+| [Harmonic Prodigy](../../cards/H/ha.md#harmonic-prodigy) | Copy | Creature — Human Wizard | 2 | R |  | — |
+| [Molten Duplication](../../cards/M/mol.md#molten-duplication) | Copy | Sorcery | 2 | R |  | — |
+| [Flusterstorm](../../cards/F/fl.md#flusterstorm) | Counters | Instant | 1 | U |  | — |
+| [Force of Negation](../../cards/F/fo.md#force-of-negation) | Counters | Instant | 3 | U |  | — |
+| [Force of Will](../../cards/F/fo.md#force-of-will) | Counters | Instant | 5 | U | ✅ | — |
+| [Mental Misstep](../../cards/M/me.md#mental-misstep) | Counters | Instant | 1 | U |  | — |
+| [Mindbreak Trap](../../cards/M/min.md#mindbreak-trap) | Counters | Instant — Trap | 4 | U |  | — |
+| [Pact of Negation](../../cards/P/pa.md#pact-of-negation) | Counters | Instant | 0 | U |  | — |
+| [Gogo, Mysterious Mime](../../cards/G/gog.md#gogo-mysterious-mime) | Creature | Legendary Creature — Wizard | 4 | R |  | — |
+| [Phantasmal Image](../../cards/P/ph.md#phantasmal-image) | Creature | Creature — Illusion | 2 | U |  | — |
+| [Tinybones, Bauble Burglar](../../cards/T/ti.md#tinybones-bauble-burglar) | Discard | Legendary Creature — Skeleton Rogue | 2 | B |  | — |
+| [Waste Not](../../cards/W/was.md#waste-not) | Discard | Enchantment | 2 | B |  | — |
+| [Ad Nauseam](../../cards/A/ad.md#ad-nauseam) | Draw | Instant | 5 | B | ✅ | — |
+| [Borne Upon a Wind](../../cards/B/bo.md#borne-upon-a-wind) | Draw | Instant | 2 | U |  | — |
+| [Mystic Remora](../../cards/M/my.md#mystic-remora) | Draw | Enchantment | 1 | U |  | — |
+| [Necropotence](../../cards/N/ne.md#necropotence) | Draw | Enchantment | 3 | B | ✅ | — |
+| [Rhystic Study](../../cards/R/rh.md#rhystic-study) | Draw | Enchantment | 3 | U | ✅ | — |
+| [Thassa's Oracle](../../cards/T/tha.md#thassas-oracle) | Draw | Creature — Merfolk Wizard | 2 | U | ✅ | — |
+| [Wheel of Fortune](../../cards/W/wh.md#wheel-of-fortune) | Draw | Sorcery | 3 | R |  | — |
+| [Final Fortune](../../cards/F/fi.md#final-fortune) | Finisher | Instant | 2 | R |  | — |
+| [Ancient Tomb](../../cards/A/an.md#ancient-tomb) | Land | Land | 0 | C | ✅ | — |
+| [Arena of Glory](../../cards/A/are.md#arena-of-glory) | Land | Land | 0 | R |  | — |
+| [Arid Mesa](../../cards/A/ari.md#arid-mesa) | Land | Land | 0 | C |  | — |
+| [Badlands](../../cards/B/bad.md#badlands) | Land | Land — Swamp Mountain | 0 | BR |  | — |
+| [Blood Crypt](../../cards/B/blo.md#blood-crypt) | Land | Land — Swamp Mountain | 0 | BR |  | — |
+| [Bloodstained Mire](../../cards/B/blo.md#bloodstained-mire) | Land | Land | 0 | C |  | — |
+| [Cavern of Souls](../../cards/C/cav.md#cavern-of-souls) | Land | Land | 0 | C |  | — |
+| [City of Brass](../../cards/C/ci.md#city-of-brass) | Land | Land | 0 | C |  | — |
+| [City of Traitors](../../cards/C/ci.md#city-of-traitors) | Land | Land | 0 | C |  | — |
+| [Command Tower](../../cards/C/com.md#command-tower) | Land | Land | 0 | C |  | — |
+| [Flooded Strand](../../cards/F/fl.md#flooded-strand) | Land | Land | 0 | C |  | — |
+| [Gemstone Caverns](../../cards/G/ge.md#gemstone-caverns) | Land | Legendary Land | 0 | C |  | — |
+| [Island](../../cards/I/is.md#island) | Land | Basic Land — Island | 0 | U |  | — |
+| [Luxury Suite](../../cards/L/lu.md#luxury-suite) | Land | Land | 0 | BR |  | — |
+| [Mana Confluence](../../cards/M/man.md#mana-confluence) | Land | Land | 0 | C |  | — |
+| [Marsh Flats](../../cards/M/mar.md#marsh-flats) | Land | Land | 0 | C |  | — |
+| [Misty Rainforest](../../cards/M/mis.md#misty-rainforest) | Land | Land | 0 | C |  | — |
+| [Morphic Pool](../../cards/M/mor.md#morphic-pool) | Land | Land | 0 | UB |  | — |
+| [Otawara, Soaring City](../../cards/O/ot.md#otawara-soaring-city) | Land | Legendary Land | 0 | U |  | — |
+| [Polluted Delta](../../cards/P/po.md#polluted-delta) | Land | Land | 0 | C |  | — |
+| [Scalding Tarn](../../cards/S/sc.md#scalding-tarn) | Land | Land | 0 | C |  | — |
+| [Starting Town](../../cards/S/sta.md#starting-town) | Land | Land — Town | 0 | C |  | — |
+| [Steam Vents](../../cards/S/ste.md#steam-vents) | Land | Land — Island Mountain | 0 | UR |  | — |
+| [Underground Sea](../../cards/U/un.md#underground-sea) | Land | Land — Island Swamp | 0 | UB |  | — |
+| [Verdant Catacombs](../../cards/V/ve.md#verdant-catacombs) | Land | Land | 0 | C |  | — |
+| [Volcanic Island](../../cards/V/vo.md#volcanic-island) | Land | Land — Island Mountain | 0 | UR |  | — |
+| [Watery Grave](../../cards/W/wat.md#watery-grave) | Land | Land — Island Swamp | 0 | UB |  | — |
+| [Wooded Foothills](../../cards/W/wo.md#wooded-foothills) | Land | Land | 0 | C |  | — |
+| [Brain Freeze](../../cards/B/br.md#brain-freeze) | Mill | Instant | 2 | U |  | — |
+| [Deflecting Swat](../../cards/D/def.md#deflecting-swat) | Protection | Instant | 3 | R |  | — |
+| [Hexing Squelcher](../../cards/H/he.md#hexing-squelcher) | Protection | Creature — Goblin Sorcerer | 2 | R |  | — |
+| [Valley Floodcaller](../../cards/V/va.md#valley-floodcaller) | Pump | Creature — Otter Wizard | 3 | U |  | — |
+| [Arcane Signet](../../cards/A/arc.md#arcane-signet) | Ramp | Artifact | 2 | C |  | — |
+| [Cabal Ritual](../../cards/C/cab.md#cabal-ritual) | Ramp | Instant | 2 | B |  | — |
+| [Chrome Mox](../../cards/C/chr.md#chrome-mox) | Ramp | Artifact | 0 | C | ✅ | — |
+| [Culling the Weak](../../cards/C/cu.md#culling-the-weak) | Ramp | Instant | 1 | B |  | — |
+| [Dark Ritual](../../cards/D/da.md#dark-ritual) | Ramp | Instant | 1 | B |  | — |
+| [Fellwar Stone](../../cards/F/fe.md#fellwar-stone) | Ramp | Artifact | 2 | C |  | — |
+| [Grim Monolith](../../cards/G/gri.md#grim-monolith) | Ramp | Artifact | 2 | C | ✅ | — |
+| [Jeska's Will](../../cards/J/je.md#jeskas-will) | Ramp | Sorcery | 3 | R | ✅ | — |
+| [Lion's Eye Diamond](../../cards/L/li.md#lions-eye-diamond) | Ramp | Artifact | 0 | C | ✅ | — |
+| [Lotus Petal](../../cards/L/lo.md#lotus-petal) | Ramp | Artifact | 0 | C |  | — |
+| [Mana Vault](../../cards/M/man.md#mana-vault) | Ramp | Artifact | 1 | C | ✅ | — |
+| [Mox Diamond](../../cards/M/mox.md#mox-diamond) | Ramp | Artifact | 0 | C | ✅ | — |
+| [Mox Opal](../../cards/M/mox.md#mox-opal) | Ramp | Legendary Artifact | 0 | C |  | — |
+| [Ragavan, Nimble Pilferer](../../cards/R/rag.md#ragavan-nimble-pilferer) | Ramp | Legendary Creature — Monkey Pirate | 1 | R |  | — |
+| [Rite of Flame](../../cards/R/ri.md#rite-of-flame) | Ramp | Sorcery | 1 | R |  | — |
+| [Simian Spirit Guide](../../cards/S/si.md#simian-spirit-guide) | Ramp | Creature — Ape Spirit | 3 | R |  | — |
+| [Sol Ring](../../cards/S/so.md#sol-ring) | Ramp | Artifact | 1 | C |  | — |
+| [Talisman of Creativity](../../cards/T/ta.md#talisman-of-creativity) | Ramp | Artifact | 2 | UR |  | — |
+| [Talisman of Dominance](../../cards/T/ta.md#talisman-of-dominance) | Ramp | Artifact | 2 | UB |  | — |
+| [Reanimate](../../cards/R/rea.md#reanimate) | Recursion | Sorcery | 1 | B |  | — |
+| [Underworld Breach](../../cards/U/un.md#underworld-breach) | Recursion | Enchantment | 2 | R | ✅ | — |
+| [An Offer You Can't Refuse](../../cards/A/an.md#an-offer-you-cant-refuse) | Removal | Instant | 1 | U |  | — |
+| [Chain of Vapor](../../cards/C/cha.md#chain-of-vapor) | Removal | Instant | 1 | U |  | — |
+| [Fierce Guardianship](../../cards/F/fi.md#fierce-guardianship) | Removal | Instant | 3 | U | ✅ | — |
+| [Into the Flood Maw](../../cards/I/int.md#into-the-flood-maw) | Removal | Instant | 1 | U |  | — |
+| [Orcish Bowmasters](../../cards/O/or.md#orcish-bowmasters) | Removal | Creature — Orc Archer | 2 | B | ✅ | — |
+| [Pyroblast](../../cards/P/py.md#pyroblast) | Removal | Instant | 1 | R |  | — |
+| [Red Elemental Blast](../../cards/R/red.md#red-elemental-blast) | Removal | Instant | 1 | R |  | — |
+| [Saw in Half](../../cards/S/saw.md#saw-in-half) | Removal | Instant | 3 | B |  | — |
+| [Swan Song](../../cards/S/sw.md#swan-song) | Removal | Instant | 1 | U |  | — |
+| [Toxic Deluge](../../cards/T/to.md#toxic-deluge) | Removal | Sorcery | 3 | B |  | — |
+| [Mnemonic Betrayal](../../cards/M/mn.md#mnemonic-betrayal) | Theft | Sorcery | 3 | UB |  | — |
+| [Beseech the Mirror](../../cards/B/be.md#beseech-the-mirror) | Tutor | Sorcery | 4 | B |  | — |
+| [Demonic Consultation](../../cards/D/dem.md#demonic-consultation) | Tutor | Instant | 1 | B |  | — |
+| [Demonic Counsel](../../cards/D/dem.md#demonic-counsel) | Tutor | Sorcery | 2 | B |  | — |
+| [Demonic Tutor](../../cards/D/dem.md#demonic-tutor) | Tutor | Sorcery | 2 | B | ✅ | — |
+| [Diabolic Intent](../../cards/D/di.md#diabolic-intent) | Tutor | Sorcery | 2 | B |  | — |
+| [Gamble](../../cards/G/ga.md#gamble) | Tutor | Sorcery | 1 | R | ✅ | — |
+| [Imperial Seal](../../cards/I/im.md#imperial-seal) | Tutor | Sorcery | 1 | B | ✅ | — |
+| [Mystical Tutor](../../cards/M/my.md#mystical-tutor) | Tutor | Instant | 1 | U | ✅ | — |
+| [Tainted Pact](../../cards/T/ta.md#tainted-pact) | Tutor | Instant | 2 | B |  | — |
+| [Vampiric Tutor](../../cards/V/va.md#vampiric-tutor) | Tutor | Instant | 1 | B | ✅ | — |
+| [Wishclaw Talisman](../../cards/W/wi.md#wishclaw-talisman) | Tutor | Artifact | 2 | B |  | — |
+
+## Source commentary (verbatim)
+
+> Quoted from the source repo with headings turned into bold text. This is **the source author's analysis and opinion (guidance)**, from `grixis-commander-encyclopediaGPT`, path shown above each block. Relative links point back to the source. Rules statements here were not re-verified card by card (see [Grixis Corrections](../Grixis%20Corrections.md#oracle-text-check) for the Oracle check). Where the source mentions Lutri, Trade Secrets or Yawgmoth's Bargain as approved exceptions, our corrected list above takes precedence.
+
+### From `refinement/decisions/Kefka_Court_Mage_Current_Cycle_Decisions_2026-10-14.md`
+
+Source: [refinement/decisions/Kefka_Court_Mage_Current_Cycle_Decisions_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decisions/Kefka_Court_Mage_Current_Cycle_Decisions_2026-10-14.md)
+
+**Kefka, Court Mage // Kefka, Ruler of Ruin — Current-Cycle Refinement Decisions**
+
+Cycle: `global-restart-2026-10-13`  
+Date: 2026-10-14  
+Authoritative source: `GrixisFINAL60--2026.zip / Kefka__Court_Mage.csv` and `GrixisFINALTXT60--2026.zip / Kefka__Court_Mage.txt`  
+Source CSV SHA-256: `46c0446a51d7f915030c6e1f593f76143a1c41d70f1297c7b9680563471321b8`  
+Source TXT SHA-256: `3b71d085c5637935ab3be41e9d16fbf380ccb685aa0b829b32e0c00e1eaaa17e`  
+Baseline artifact: `refinement/decklists/Kefka_Court_Mage_Current_Cycle_Baseline_2026-10-14.txt`  
+Baseline artifact SHA-256: `c61a613da1aeaae2fb179ad09b1b68a6301231742f8957f102275d4467fe8074`  
+Approval candidate: `refinement/decklists/Kefka_Court_Mage_Approval_Candidate_2026-10-14.txt`  
+Approval-candidate SHA-256: `cd36192fedda7a4f54570fb8b8e4605147b40f9254e6985729097fc998f17b03`
+
+**Source reconciliation**
+
+The current FINAL60 CSV and FINALTXT exports agree exactly on the 100-card quantity/name map. The baseline is 100 cards, 100 distinct names, and 30 lands. Older v8.1.4 profile/ranking/audit material is supporting research only and does not overwrite the latest exports.
+
+An earlier current-cycle candidate at SHA `2bb99011d85cc48841cb76edcddb8ba75696153b5e81bb36283880ff691f5acc` was red-teamed against fresher six-month Kefka tournament aggregates before approval. That review identified three material upgrades and the earlier candidate was superseded before any approval: `Cyclonic Rift -> Valley Floodcaller`, `Psychosis Crawler -> Fellwar Stone`, and `Opposition Agent -> Demonic Counsel`. No historical candidate is treated as approved.
+
+**Commander blueprint and natural ceiling**
+
+**Primary commander plan:** repeatedly exploit Kefka's enters/attacks trigger to compress every hand while converting card-type diversity among the discarded cards into cards for Kefka's controller. Haste, blink, copy, and temporary-copy effects are unusually valuable because they create additional Kefka ETBs or immediate attack triggers. Efficient discard payoffs are retained only when they justify their slot at cEDH speed. The transformed Ruler of Ruin face remains a real secondary engine rather than ignored text.
+
+**Natural ceiling: Power Bracket 5 — cEDH.** Kefka has multiple 2026 tournament top cuts, including wins, runner-up finishes, and additional high finishes. Current cEDH aggregate data shows substantial tournament volume and establishes Kefka as a genuine competitive commander. This is not a generic-Grixis elevation: the final list deliberately retains and adds Kefka-specific trigger repetition, haste, discard payoff, and transformation infrastructure.
+
+**Commander-specific spine retained or added**
+
+- `Harmonic Prodigy` doubles Kefka's triggered abilities because both Kefka faces are Wizards.
+- `Essence Flux` and `Displacer Kitten` produce additional Kefka enters triggers.
+- `Anger` can be discarded to Kefka's own ETB; with a Mountain land type controlled, Kefka gains haste in time to attack that turn.
+- `Arena of Glory` can both help pay for Kefka and grant haste when its special mana is spent on the creature spell.
+- `Gogo, Mysterious Mime` can become a Kefka copy at beginning of combat while retaining the Gogo name, avoiding the legend rule; Gogo and Kefka gain haste and both attack, producing two Kefka attack triggers. Gogo does not create an additional Kefka ETB because it changes characteristics without entering.
+- `Phantasmal Image` and `Phyrexian Metamorph` can enter as Kefka copies. Their Kefka ETB triggers occur before the legend rule leaves only one permanent with the Kefka name.
+- `Saw in Half` can destroy Kefka and create two Kefka-copy tokens if Kefka dies this way. Both token ETBs trigger before state-based actions apply the legend rule.
+- `Molten Duplication` creates a hasty Kefka-copy token. The legend rule requires one Kefka to be kept, but the token's ETB trigger already triggers; keeping the hasty token also permits an immediate Kefka attack trigger before the delayed sacrifice.
+- `Tinybones, Bauble Burglar` and `Waste Not` remain efficient front-face discard payoffs that directly exploit Kefka's discard events.
+- The Ruler of Ruin face remains strategically meaningful through ordinary opponent life loss during the controller's turn, including combat and effects such as `Orcish Bowmasters`; the list does not force a slow dedicated `Psychosis Crawler` package solely to demonstrate the back face.
+
+**Exact current-cycle changes**
+
+**Cuts — 19**
+
+1. `Animate Dead` — generic reanimation redundancy; the candidate keeps `Reanimate` and prioritizes Kefka trigger infrastructure.
+2. `Dauthi Voidwalker` — powerful generic stax, but `Phyrexian Metamorph` has direct commander ETB synergy and flexible clone utility.
+3. `Geth's Grimoire` — four-mana discard payoff is too slow at the established cEDH ceiling.
+4. `Kroxa, Titan of Death's Hunger` — incremental discard/value is below rate and does not multiply Kefka's trigger.
+5. `Laughing Mad` — insufficient competitive rate relative to direct copy/haste infrastructure.
+6. `Liliana's Caress` — redundant narrow discard damage payoff.
+7. `Megrim` — redundant narrow discard damage payoff at three mana.
+8. `Monument to Endurance` — slower value engine than the selected commander-specific package.
+9. `Nightscape Familiar` — cost reduction is useful but lower impact than true fast mana and Kefka haste/copy effects.
+10. `Sheoldred, the Apocalypse` — powerful generic payoff but does less for Kefka's unique trigger architecture than the accepted additions.
+11. `Strionic Resonator` — can copy triggers, but repeated two-mana activation is less efficient than Harmonic Prodigy and selected copy effects.
+12. `Windfall` — wheel redundancy trimmed while `Wheel of Fortune` remains; the slot becomes more commander-specific/efficient.
+13. `Mountain` — removed for a higher-output competitive mana package while Mountain land types remain available from dual/shock lands.
+14. `Swamp` — removed as the singleton mana base is tightened.
+15. `Xander's Lounge` — tapped land is too slow for the cEDH ceiling.
+16. `Exotic Orchard` — weakest remaining fixing land relative to the selected fetch/haste land package.
+17. `Cyclonic Rift` — excellent generic interaction, but current Kefka data strongly favors `Valley Floodcaller`; the deck already retains sufficient cheap interaction.
+18. `Opposition Agent` — strong generic stax, but the final red-team preferred proactive `Demonic Counsel` tutor density over another commander-independent disruption piece.
+19. `Psychosis Crawler` — synergizes with transformed Kefka but is a five-mana payoff layered behind an eight-mana transformation and is materially below cEDH rate; the back face remains live without forcing this package.
+
+**Adds — 19**
+
+1. `Anger` — discardable Kefka-specific haste engine.
+2. `Arcane Signet` — efficient permanent acceleration toward a five-mana commander.
+3. `Arena of Glory` — commander acceleration plus immediate haste.
+4. `Final Fortune` — low-cost extra turn that creates another Kefka attack and supports turbo finish windows.
+5. `Flooded Strand` — untapped fetch fixing and Tainted Pact-safe singleton mana.
+6. `Gogo, Mysterious Mime` — commander-specific attack-trigger multiplier and haste source.
+7. `Grim Monolith` — high-output acceleration toward Kefka and proactive lines.
+8. `Hexing Squelcher` — efficient protection for Kefka and proactive win attempts.
+9. `Into the Flood Maw` — one-mana interaction at the cEDH ceiling.
+10. `Mnemonic Betrayal` — high-leverage resource conversion after Kefka/wheel/discard effects stock opposing graveyards.
+11. `Molten Duplication` — two-mana Kefka ETB copy with haste and immediate attack potential if the token is retained.
+12. `Phantasmal Image` — two-mana Kefka ETB copy with flexible clone utility.
+13. `Phyrexian Metamorph` — flexible competitive clone that can copy Kefka for another ETB.
+14. `Ragavan, Nimble Pilferer` — premium one-mana acceleration/value that helps reach the five-mana commander.
+15. `Saw in Half` — commander-specific two-ETB copy effect with flexible creature utility.
+16. `Talisman of Dominance` — efficient two-mana acceleration and color fixing.
+17. `Valley Floodcaller` — current high-adoption Kefka cEDH infrastructure that grants flash timing to noncreature spells and supports compact competitive sequencing without requiring a dedicated off-plan bounce-combo package.
+18. `Demonic Counsel` — efficient proactive tutor that improves compact win access without adding another commander-independent stax permanent.
+19. `Fellwar Stone` — extremely high-adoption two-mana acceleration that materially improves deployment of a five-mana commander.
+
+**Mandatory 99-slot whole-list audit**
+
+Every noncommander baseline slot was reviewed. Accounting is exact: **80 retained noncommander slots + 19 cuts = all 99 baseline noncommander slots.** Nineteen singleton additions restore the list to exactly 100 cards / 100 distinct names. The candidate has **28 lands**.
+
+**Adversarial second pass**
+
+- **Valley Floodcaller — ACCEPTED after final red-team.** Fresh six-month Kefka data places it among the commander's most common competitive cards. The candidate does not add the Banishing Knack/Retraction Helix package, so Valley remains efficient flash/combo infrastructure rather than replacing Kefka with an unrelated dedicated loop.
+- **Fellwar Stone — ACCEPTED over Psychosis Crawler.** Accelerating a five-mana commander is materially more important at cEDH speed than a five-mana payoff that requires Kefka's eight-mana transformation to become a dedicated feedback engine.
+- **Demonic Counsel — ACCEPTED over Opposition Agent.** Current evidence supports the tutor as a proactive slot; removing a generic stax creature reduces commander-independent clutter while preserving cEDH access to compact wins.
+- **Gogo, Mysterious Mime — RETAINED.** Four mana is a real cost, but Gogo is one of the few cards that both grants Kefka haste and creates a second Kefka attack trigger without invoking the legend rule.
+- **Hexing Squelcher — RETAINED.** Its uncounterability/ward package protects both the five-mana commander and compact win attempts.
+- **Phyrexian Metamorph — RETAINED over Dauthi Voidwalker.** This intentionally trades a generic stax piece for a flexible clone with direct commander ETB synergy.
+- **Cursed Totem — REJECTED.** Competitive lists can accept it, but it directly shuts off Kefka's `{8}` transformation and undermines the encyclopedia's requirement that the back face remain strategically meaningful.
+- **Samut, Tyrant of Naktamun — REJECTED.** Its split-second static ability can conflict with the free cast performed during a bargained `Beseech the Mirror` resolution; the candidate does not accept that anti-synergy.
+- **Dedicated Valley Floodcaller bounce-combo package — REJECTED.** It would consume additional slots for a generic combo that does not require Kefka; Oracle and Breach already provide compact secondary wins.
+- **The One Ring — REJECTED.** Strong generic value but four mana and no Kefka-specific trigger, haste, discard, or transformation interaction.
+- **Birgi, God of Storytelling // Harnfel, Horn of Bounty — REJECTED.** Good turbo support, but the accepted fast-mana package and commander-specific effects are higher priority within the identity constraint.
+- **Faerie Mastermind / Wan Shi Tong — REJECTED.** Efficient competitive value engines, but neither improves Kefka's ETB/attack/transform architecture as much as the selected cards.
+- **Additional discard payoffs — REJECTED.** The baseline demonstrated diminishing returns from Caress/Megrim/Grimoire/Monument-style redundancy. `Tinybones` and `Waste Not` are the retained direct front-face payoffs for distinct reasons.
+
+**Closure**
+
+The final candidate is **100 cards, 100 distinct names, and 28 lands**. Its primary identity is **Kefka trigger repetition + haste + discard compression**, with Oracle/Consultation-Pact and Breach/LED/Brain Freeze retained as compact cEDH secondary routes. The back face remains strategically relevant through ordinary life-loss events without forcing an overcosted dedicated payoff.
+
+After the mandatory 99-slot audit, current tournament/aggregate cEDH comparison, clone/haste challenge, generic-staple challenge, discard-payoff challenge, mana-base review, and a second red-team that corrected three material misses in the preliminary candidate, the exact SHA-bound candidate has **ZERO NEW MATERIAL IMPROVEMENTS** pending rules/Oracle/legality verification.
+
+Candidate remains **NOT APPROVED** until the exact SHA-bound list passes fresh Oracle/color-identity, current official Commander legality, independent rules verification, the complete fail-closed gate, and explicit user approval.
+
+### From `refinement/approvals/Kefka_Court_Mage_Approved_2026-10-14.md`
+
+Source: [refinement/approvals/Kefka_Court_Mage_Approved_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/approvals/Kefka_Court_Mage_Approved_2026-10-14.md)
+
+**Kefka, Court Mage // Kefka, Ruler of Ruin — APPROVED / LOCKED**
+
+Cycle: `global-restart-2026-10-13`  
+Approval date: 2026-10-14  
+Approved SHA-256: `cd36192fedda7a4f54570fb8b8e4605147b40f9254e6985729097fc998f17b03`  
+Power Bracket: **5 — cEDH**  
+Archidekt tags: **Discard / Trigger Copy / Turbo**
+
+**Approval basis**
+
+The user explicitly approved the exact revised SHA-bound Kefka candidate after the complete fail-closed gate returned `APPROVAL_READY` with zero errors.
+
+Verification state:
+- 100 cards
+- 100 distinct names
+- 28 lands
+- Commander color identity: B/R/U
+- Rules gate: PASS
+- Official Commander legality gate: PASS
+- Project exceptions: none
+- Fresh Oracle cache: PASS
+- Mandatory 99-slot whole-list audit: complete
+- Contemporary cEDH comparison: complete
+- Candidate exhaustion / adversarial second-pass review: complete
+- Zero-new-material-improvement closure: complete
+
+Final red-team corrections before approval:
+1. `Cyclonic Rift -> Valley Floodcaller`
+2. `Opposition Agent -> Demonic Counsel`
+3. `Psychosis Crawler -> Fellwar Stone`
+
+Canonical approved artifact: `refinement/decklists/Kefka_Court_Mage_Approved_2026-10-14.txt`
+
+Complete gate artifact: `refinement/verification/kefka_court_mage_2026-10-14/gate_output/Kefka_Court_Mage_2026-10-14_Complete_Gate.json`
+
+This deck is now locked. Do not revise, reopen, or replace it unless the user explicitly requests that action.
+
+<!-- COMBOS:START -->
+## Combos (Commander Spellbook)
+
+> Generated 2026-10-15 by `scripts/build_grixis.py` from the [Commander Spellbook](https://commanderspellbook.com) public API (community-maintained). Shows only combos whose **every card is in this list**. Bracket barometer: *Brackets 1–2: no intentional two-card infinite combos. Bracket 3: no early-game two-card infinite combos.*
+
+**6 complete combo(s); 0 two-card infinite.** 122 more are one card away (not listed).
+
+| Cards | Produces (Spellbook) | Extra requirements | Link |
+|---|---|---|---|
+| Tainted Pact + Thassa's Oracle | Win the game | — | [1295-3093](https://commanderspellbook.com/combo/1295-3093/) |
+| Demonic Consultation + Thassa's Oracle | Exile your library, Win the game | — | [742-1295](https://commanderspellbook.com/combo/742-1295/) |
+| Underworld Breach + Lotus Petal + Brain Freeze | Infinite self-mill, Near-infinite magecraft triggers, Near-infinite mill | — | [1368-1414-4856](https://commanderspellbook.com/combo/1368-1414-4856/) |
+| Underworld Breach + Wheel of Fortune + Jeska's Will | Infinite draw triggers for all players, Infinite looting for all players, Near-infinite magecraft triggers, Near-infinite storm count | — | [1368-1878-2706](https://commanderspellbook.com/combo/1368-1878-2706/) |
+| Underworld Breach + Lion's Eye Diamond + Wheel of Fortune | Infinite draw triggers, Infinite looting, Infinite looting for opponents, Near-infinite storm count | — | [1368-2706-3518](https://commanderspellbook.com/combo/1368-2706-3518/) |
+| Underworld Breach + Lion's Eye Diamond + Brain Freeze | Infinite self-mill, Near-infinite colored mana, Near-infinite magecraft triggers, Near-infinite mill | — | [1368-3518-4856](https://commanderspellbook.com/combo/1368-3518-4856/) |
+<!-- COMBOS:END -->

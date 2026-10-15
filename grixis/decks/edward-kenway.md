@@ -1,0 +1,538 @@
+---
+title: "Grixis Deck — Edward Kenway"
+category: deck
+kind: grixis
+commander: "Edward Kenway"
+color_identity: UBR
+bracket_floor: 4
+game_changers: 10
+validated: true
+source_repo: corymstover/grixis-commander-encyclopediaGPT
+---
+
+# Grixis Deck — Edward Kenway
+
+> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Edward_Kenway_Approved_2026-10-14.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decklists/Edward_Kenway_Approved_2026-10-14.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-14; source commit `df1abb9`). Imported in Bot cycle 16 and re-validated against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
+
+## Contents
+- [Commander](#commander)
+- [Validation](#validation)
+- [Bracket assessment](#bracket-assessment)
+- [Corrections applied](#corrections-applied)
+- [Decklist (Archidekt import)](#decklist-archidekt-import)
+- [Card breakdown](#card-breakdown)
+- [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Combos (Commander Spellbook)](#combos-commander-spellbook)
+
+## Commander
+
+- **[Edward Kenway](../../cards/E/ed.md#edward-kenway)** — {2}{U}{B}{R} — Legendary Creature — Human Assassin Pirate
+- Color identity: **UBR (Blue, Black, Red)**
+- Eligibility (Edward Kenway): Yes (legendary creature)
+
+## Validation
+
+- Total cards: **100** (1 commander(s) + 64 nonland + 30 nonbasic lands + 5 basics) · average nonland MV 2.80
+- Strict color identity (CR 903.5c), singleton (903.5b), Commander-legal, size (903.5a): ✅ **all checks pass**
+- Every card resolves to an entry in our card DB (98/98 lines linked).
+
+## Bracket assessment
+
+- Game Changers (10): Ancient Tomb, Chrome Mox, Cyclonic Rift, Fierce Guardianship, Force of Will, Imperial Seal, Jeska's Will, Mana Vault, Mox Diamond, Vampiric Tutor
+- Extra-turn cards: Time Sieve
+- Mass land denial: none
+- Commander Spellbook: 6 complete combo(s), 5 two-card infinite (see [Combos](#combos-commander-spellbook)).
+- **Minimum bracket by the published barometers: 4** (more than three Game Changers).
+- Source's stated target (guidance): **Bracket 4 — Optimized**.
+- (Brackets are a pregame-conversation tool. See [EDH Standards](../../EDH%20Standards.md#power-bracket-assessment).)
+
+## Corrections applied
+
+| Type | Change | Reason |
+|---|---|---|
+| format | Archidekt list normalized to [EDH Standards](../../EDH%20Standards.md#list-format-archidekt) | `[Commander]` → `[Commander{top}]` (1 line(s)); role tags restored on 96 untagged line(s): 93 from this deck's FINAL baseline, 3 from the tag the source uses most for that card in other decks; 1 untagged line(s) given a type tag (e.g. `[Land]`). |
+| bracket | Game Changers and combo floor added | The source records no Game Changer count and does not check the official Game Changers list anywhere in its approval records. We added it: **10 Game Changers**, so the minimum bracket is **4**. Commander Spellbook finds 6 complete combos (5 two-card infinite). This is consistent with the source's stated Bracket 4. |
+
+Full log for all decks: [Grixis Corrections](../Grixis%20Corrections.md).
+
+## Decklist (Archidekt import)
+
+```text
+1x Edward Kenway [Commander{top}]
+1x Academy Manufactor [Tokens]
+1x Adéwalé, Breaker of Chains [Draw]
+1x Admiral Brass, Unsinkable [Recursion]
+1x Adrestia [Draw]
+1x An Offer You Can't Refuse [Removal]
+1x Ancient Tomb [Land]
+1x Arcane Signet [Ramp]
+1x Arid Mesa [Land]
+1x Badlands [Land]
+1x Basim Ibn Ishaq [Draw]
+1x Black Market Connections [Draw]
+1x Blood Crypt [Land]
+1x Bloodstained Mire [Land]
+1x Breeches, Brazen Plunderer [Draw]
+1x Breeches, Eager Pillager [Ramp]
+1x Captain Lannery Storm [Ramp]
+1x Captain Storm, Cosmium Raider [Counters]
+1x Cavern of Souls [Land]
+1x Chrome Mox [Ramp]
+1x City of Brass [Land]
+1x Coastal Piracy [Draw]
+1x Command Tower [Land]
+1x Cyclonic Rift [Removal]
+1x Deadeye Quartermaster [Tutor]
+1x Deadly Rollick [Removal]
+1x Deflecting Swat [Protection]
+1x Deluxe Dragster [Theft]
+1x Don Andres, the Renegade [Theft]
+1x Exotic Orchard [Land]
+1x Fateful Discovery [Draw]
+1x Fearless Swashbuckler [Draw]
+1x Fellwar Stone [Ramp]
+1x Fierce Guardianship [Removal]
+1x Flooded Strand [Land]
+1x Force of Will [Counters]
+1x Gemcutter Buccaneer [Ramp]
+1x Hoard Hauler [Ramp]
+1x Hostage Taker [Removal]
+1x Imperial Seal [Tutor]
+1x Imposter Mech [Copy]
+2x Island [Land]
+1x Jackdaw [Draw]
+1x Jeska's Will [Ramp]
+1x Kitesail Larcenist [Removal]
+1x Lotus Petal [Ramp]
+1x Luxury Suite [Land]
+1x Malcolm, Keen-Eyed Navigator [Ramp]
+1x Mana Confluence [Land]
+1x Mana Drain [Removal]
+1x Mana Vault [Ramp]
+1x Marsh Flats [Land]
+1x Mary Read and Anne Bonny [Draw]
+1x Glint-Horn Buccaneer [Discard]
+1x Misty Rainforest [Land]
+1x Morphic Pool [Land]
+1x Mountain [Land]
+1x Mox Diamond [Ramp]
+1x Mox Opal [Ramp]
+1x Nautiloid Ship [Removal]
+1x Otawara, Soaring City [Land]
+1x Polluted Delta [Land]
+1x Port Razer [Finisher]
+1x Ragavan, Nimble Pilferer [Ramp]
+1x Luxurious Locomotive [Artifact]
+1x RMS Titanic [Ramp]
+1x Roaming Throne [Copy]
+1x Scalding Tarn [Land]
+1x Ramirez DePietro, Pillager [Ramp]
+1x Shivan Reef [Land]
+1x Siren Stormtamer [Protection]
+1x Skysovereign, Consul Flagship [Removal]
+1x Smuggler's Copter [Draw]
+1x Sol Ring [Ramp]
+1x Steam Vents [Land]
+1x Subterranean Schooner [Draw]
+1x Underground River [Land]
+1x Sulfurous Springs [Land]
+2x Swamp [Land]
+1x Swan Song [Removal]
+1x Talisman of Creativity [Ramp]
+1x Talisman of Dominance [Ramp]
+1x Talisman of Indulgence [Ramp]
+1x The Belligerent [Ramp]
+1x The Indomitable [Draw]
+1x The Reaver Cleaver [Ramp]
+1x Time Sieve [Sac Outlet]
+1x Toxic Deluge [Removal]
+1x Training Center [Land]
+1x Underground Sea [Land]
+1x Urza's Saga [Land]
+1x Vaan, Street Thief [Theft]
+1x Vampiric Tutor [Tutor]
+1x Verdant Catacombs [Land]
+1x Volcanic Island [Land]
+1x Watery Grave [Land]
+1x Wooded Foothills [Land]
+1x Xander's Lounge [Land]
+```
+
+## Card breakdown
+
+Role tags are the source author's (untagged lines show the card type). *Printing* is the source's pinned printing, if it pinned one.
+
+| Card | Role (source tag) | Type | MV | Identity | GC | Printing |
+|---|---|---|---|---|---|---|
+| [Edward Kenway](../../cards/E/ed.md#edward-kenway) | Commander | Legendary Creature — Human Assassin Pirate | 5 | UBR |  | — |
+| [Luxurious Locomotive](../../cards/L/lu.md#luxurious-locomotive) | Artifact | Artifact — Vehicle | 5 | C |  | — |
+| [Imposter Mech](../../cards/I/im.md#imposter-mech) | Copy | Artifact — Vehicle | 2 | U |  | — |
+| [Roaming Throne](../../cards/R/ro.md#roaming-throne) | Copy | Artifact Creature — Golem | 4 | C |  | — |
+| [Captain Storm, Cosmium Raider](../../cards/C/cap.md#captain-storm-cosmium-raider) | Counters | Legendary Creature — Human Pirate | 2 | UR |  | — |
+| [Force of Will](../../cards/F/fo.md#force-of-will) | Counters | Instant | 5 | U | ✅ | — |
+| [Glint-Horn Buccaneer](../../cards/G/gl.md#glint-horn-buccaneer) | Discard | Creature — Minotaur Pirate | 3 | R |  | — |
+| [Adrestia](../../cards/A/ad.md#adrestia) | Draw | Legendary Artifact — Vehicle | 3 | C |  | — |
+| [Adéwalé, Breaker of Chains](../../cards/A/ad.md#adéwalé-breaker-of-chains) | Draw | Legendary Creature — Human Assassin Pirate | 3 | UB |  | — |
+| [Basim Ibn Ishaq](../../cards/B/bas.md#basim-ibn-ishaq) | Draw | Legendary Creature — Human Assassin | 2 | UB |  | — |
+| [Black Market Connections](../../cards/B/bla.md#black-market-connections) | Draw | Enchantment | 3 | B |  | — |
+| [Breeches, Brazen Plunderer](../../cards/B/br.md#breeches-brazen-plunderer) | Draw | Legendary Creature — Goblin Pirate | 4 | R |  | — |
+| [Coastal Piracy](../../cards/C/coa.md#coastal-piracy) | Draw | Enchantment | 4 | U |  | — |
+| [Fateful Discovery](../../cards/F/fa.md#fateful-discovery) | Draw | Enchantment | 5 | U |  | — |
+| [Fearless Swashbuckler](../../cards/F/fe.md#fearless-swashbuckler) | Draw | Creature — Fish Pirate | 3 | UR |  | — |
+| [Jackdaw](../../cards/J/ja.md#jackdaw) | Draw | Legendary Artifact — Vehicle | 3 | UR |  | — |
+| [Mary Read and Anne Bonny](../../cards/M/mar.md#mary-read-and-anne-bonny) | Draw | Legendary Creature — Human Assassin Pirate | 3 | UR |  | — |
+| [Smuggler's Copter](../../cards/S/sm.md#smugglers-copter) | Draw | Artifact — Vehicle | 2 | C |  | — |
+| [Subterranean Schooner](../../cards/S/sub.md#subterranean-schooner) | Draw | Artifact — Vehicle | 2 | U |  | — |
+| [The Indomitable](../../cards/T/thei.md#the-indomitable) | Draw | Legendary Artifact — Vehicle | 4 | U |  | — |
+| [Port Razer](../../cards/P/po.md#port-razer) | Finisher | Creature — Orc Pirate | 5 | R |  | — |
+| [Ancient Tomb](../../cards/A/an.md#ancient-tomb) | Land | Land | 0 | C | ✅ | — |
+| [Arid Mesa](../../cards/A/ari.md#arid-mesa) | Land | Land | 0 | C |  | — |
+| [Badlands](../../cards/B/bad.md#badlands) | Land | Land — Swamp Mountain | 0 | BR |  | — |
+| [Blood Crypt](../../cards/B/blo.md#blood-crypt) | Land | Land — Swamp Mountain | 0 | BR |  | — |
+| [Bloodstained Mire](../../cards/B/blo.md#bloodstained-mire) | Land | Land | 0 | C |  | — |
+| [Cavern of Souls](../../cards/C/cav.md#cavern-of-souls) | Land | Land | 0 | C |  | — |
+| [City of Brass](../../cards/C/ci.md#city-of-brass) | Land | Land | 0 | C |  | — |
+| [Command Tower](../../cards/C/com.md#command-tower) | Land | Land | 0 | C |  | — |
+| [Exotic Orchard](../../cards/E/ex.md#exotic-orchard) | Land | Land | 0 | C |  | — |
+| [Flooded Strand](../../cards/F/fl.md#flooded-strand) | Land | Land | 0 | C |  | — |
+| [Island](../../cards/I/is.md#island) (×2) | Land | Basic Land — Island | 0 | U |  | — |
+| [Luxury Suite](../../cards/L/lu.md#luxury-suite) | Land | Land | 0 | BR |  | — |
+| [Mana Confluence](../../cards/M/man.md#mana-confluence) | Land | Land | 0 | C |  | — |
+| [Marsh Flats](../../cards/M/mar.md#marsh-flats) | Land | Land | 0 | C |  | — |
+| [Misty Rainforest](../../cards/M/mis.md#misty-rainforest) | Land | Land | 0 | C |  | — |
+| [Morphic Pool](../../cards/M/mor.md#morphic-pool) | Land | Land | 0 | UB |  | — |
+| [Mountain](../../cards/M/mou.md#mountain) | Land | Basic Land — Mountain | 0 | R |  | — |
+| [Otawara, Soaring City](../../cards/O/ot.md#otawara-soaring-city) | Land | Legendary Land | 0 | U |  | — |
+| [Polluted Delta](../../cards/P/po.md#polluted-delta) | Land | Land | 0 | C |  | — |
+| [Scalding Tarn](../../cards/S/sc.md#scalding-tarn) | Land | Land | 0 | C |  | — |
+| [Shivan Reef](../../cards/S/shi.md#shivan-reef) | Land | Land | 0 | UR |  | — |
+| [Steam Vents](../../cards/S/ste.md#steam-vents) | Land | Land — Island Mountain | 0 | UR |  | — |
+| [Sulfurous Springs](../../cards/S/sul.md#sulfurous-springs) | Land | Land | 0 | BR |  | — |
+| [Swamp](../../cards/S/sw.md#swamp) (×2) | Land | Basic Land — Swamp | 0 | B |  | — |
+| [Training Center](../../cards/T/tra.md#training-center) | Land | Land | 0 | UR |  | — |
+| [Underground River](../../cards/U/un.md#underground-river) | Land | Land | 0 | UB |  | — |
+| [Underground Sea](../../cards/U/un.md#underground-sea) | Land | Land — Island Swamp | 0 | UB |  | — |
+| [Urza's Saga](../../cards/U/ur.md#urzas-saga) | Land | Enchantment Land — Urza's Saga | 0 | C |  | — |
+| [Verdant Catacombs](../../cards/V/ve.md#verdant-catacombs) | Land | Land | 0 | C |  | — |
+| [Volcanic Island](../../cards/V/vo.md#volcanic-island) | Land | Land — Island Mountain | 0 | UR |  | — |
+| [Watery Grave](../../cards/W/wat.md#watery-grave) | Land | Land — Island Swamp | 0 | UB |  | — |
+| [Wooded Foothills](../../cards/W/wo.md#wooded-foothills) | Land | Land | 0 | C |  | — |
+| [Xander's Lounge](../../cards/X/xa.md#xanders-lounge) | Land | Land — Island Swamp Mountain | 0 | UBR |  | — |
+| [Deflecting Swat](../../cards/D/def.md#deflecting-swat) | Protection | Instant | 3 | R |  | — |
+| [Siren Stormtamer](../../cards/S/si.md#siren-stormtamer) | Protection | Creature — Siren Pirate Wizard | 1 | U |  | — |
+| [Arcane Signet](../../cards/A/arc.md#arcane-signet) | Ramp | Artifact | 2 | C |  | — |
+| [Breeches, Eager Pillager](../../cards/B/br.md#breeches-eager-pillager) | Ramp | Legendary Creature — Goblin Pirate | 3 | R |  | — |
+| [Captain Lannery Storm](../../cards/C/cap.md#captain-lannery-storm) | Ramp | Legendary Creature — Human Pirate | 3 | R |  | — |
+| [Chrome Mox](../../cards/C/chr.md#chrome-mox) | Ramp | Artifact | 0 | C | ✅ | — |
+| [Fellwar Stone](../../cards/F/fe.md#fellwar-stone) | Ramp | Artifact | 2 | C |  | — |
+| [Gemcutter Buccaneer](../../cards/G/ge.md#gemcutter-buccaneer) | Ramp | Creature — Orc Pirate Artificer | 4 | R |  | — |
+| [Hoard Hauler](../../cards/H/ho.md#hoard-hauler) | Ramp | Artifact — Vehicle | 4 | R |  | — |
+| [Jeska's Will](../../cards/J/je.md#jeskas-will) | Ramp | Sorcery | 3 | R | ✅ | — |
+| [Lotus Petal](../../cards/L/lo.md#lotus-petal) | Ramp | Artifact | 0 | C |  | — |
+| [Malcolm, Keen-Eyed Navigator](../../cards/M/mal.md#malcolm-keen-eyed-navigator) | Ramp | Legendary Creature — Siren Pirate | 3 | U |  | — |
+| [Mana Vault](../../cards/M/man.md#mana-vault) | Ramp | Artifact | 1 | C | ✅ | — |
+| [Mox Diamond](../../cards/M/mox.md#mox-diamond) | Ramp | Artifact | 0 | C | ✅ | — |
+| [Mox Opal](../../cards/M/mox.md#mox-opal) | Ramp | Legendary Artifact | 0 | C |  | — |
+| [RMS Titanic](../../cards/R/rm.md#rms-titanic) | Ramp | Legendary Artifact — Vehicle | 4 | R |  | — |
+| [Ragavan, Nimble Pilferer](../../cards/R/rag.md#ragavan-nimble-pilferer) | Ramp | Legendary Creature — Monkey Pirate | 1 | R |  | — |
+| [Ramirez DePietro, Pillager](../../cards/R/ram.md#ramirez-depietro-pillager) | Ramp | Legendary Creature — Human Pirate | 4 | UB |  | — |
+| [Sol Ring](../../cards/S/so.md#sol-ring) | Ramp | Artifact | 1 | C |  | — |
+| [Talisman of Creativity](../../cards/T/ta.md#talisman-of-creativity) | Ramp | Artifact | 2 | UR |  | — |
+| [Talisman of Dominance](../../cards/T/ta.md#talisman-of-dominance) | Ramp | Artifact | 2 | UB |  | — |
+| [Talisman of Indulgence](../../cards/T/ta.md#talisman-of-indulgence) | Ramp | Artifact | 2 | BR |  | — |
+| [The Belligerent](../../cards/T/theb.md#the-belligerent) | Ramp | Legendary Artifact — Vehicle | 4 | UR |  | — |
+| [The Reaver Cleaver](../../cards/T/ther.md#the-reaver-cleaver) | Ramp | Legendary Artifact — Equipment | 3 | R |  | — |
+| [Admiral Brass, Unsinkable](../../cards/A/ad.md#admiral-brass-unsinkable) | Recursion | Legendary Creature — Human Pirate | 5 | UBR |  | — |
+| [An Offer You Can't Refuse](../../cards/A/an.md#an-offer-you-cant-refuse) | Removal | Instant | 1 | U |  | — |
+| [Cyclonic Rift](../../cards/C/cy.md#cyclonic-rift) | Removal | Instant | 2 | U | ✅ | — |
+| [Deadly Rollick](../../cards/D/dea.md#deadly-rollick) | Removal | Instant | 4 | B |  | — |
+| [Fierce Guardianship](../../cards/F/fi.md#fierce-guardianship) | Removal | Instant | 3 | U | ✅ | — |
+| [Hostage Taker](../../cards/H/ho.md#hostage-taker) | Removal | Creature — Human Pirate | 4 | UB |  | — |
+| [Kitesail Larcenist](../../cards/K/ki.md#kitesail-larcenist) | Removal | Creature — Human Pirate | 3 | U |  | — |
+| [Mana Drain](../../cards/M/man.md#mana-drain) | Removal | Instant | 2 | U |  | — |
+| [Nautiloid Ship](../../cards/N/na.md#nautiloid-ship) | Removal | Artifact — Vehicle | 4 | C |  | — |
+| [Skysovereign, Consul Flagship](../../cards/S/sk.md#skysovereign-consul-flagship) | Removal | Legendary Artifact — Vehicle | 5 | C |  | — |
+| [Swan Song](../../cards/S/sw.md#swan-song) | Removal | Instant | 1 | U |  | — |
+| [Toxic Deluge](../../cards/T/to.md#toxic-deluge) | Removal | Sorcery | 3 | B |  | — |
+| [Time Sieve](../../cards/T/ti.md#time-sieve) | Sac Outlet | Artifact | 2 | UB |  | — |
+| [Deluxe Dragster](../../cards/D/del.md#deluxe-dragster) | Theft | Artifact — Vehicle | 5 | U |  | — |
+| [Don Andres, the Renegade](../../cards/D/do.md#don-andres-the-renegade) | Theft | Legendary Creature — Vampire Pirate | 4 | UBR |  | — |
+| [Vaan, Street Thief](../../cards/V/va.md#vaan-street-thief) | Theft | Legendary Creature — Human Scout | 3 | R |  | — |
+| [Academy Manufactor](../../cards/A/ac.md#academy-manufactor) | Tokens | Artifact Creature — Assembly-Worker | 3 | C |  | — |
+| [Deadeye Quartermaster](../../cards/D/dea.md#deadeye-quartermaster) | Tutor | Creature — Human Pirate | 4 | U |  | — |
+| [Imperial Seal](../../cards/I/im.md#imperial-seal) | Tutor | Sorcery | 1 | B | ✅ | — |
+| [Vampiric Tutor](../../cards/V/va.md#vampiric-tutor) | Tutor | Instant | 1 | B | ✅ | — |
+
+## Source commentary (verbatim)
+
+> Quoted from the source repo with headings turned into bold text. This is **the source author's analysis and opinion (guidance)**, from `grixis-commander-encyclopediaGPT`, path shown above each block. Relative links point back to the source. Rules statements here were not re-verified card by card (see [Grixis Corrections](../Grixis%20Corrections.md#oracle-text-check) for the Oracle check). Where the source mentions Lutri, Trade Secrets or Yawgmoth's Bargain as approved exceptions, our corrected list above takes precedence.
+
+### From `refinement/decisions/Edward_Kenway_Current_Cycle_Decisions_2026-10-14.md`
+
+Source: [refinement/decisions/Edward_Kenway_Current_Cycle_Decisions_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decisions/Edward_Kenway_Current_Cycle_Decisions_2026-10-14.md)
+
+**Edward Kenway — Current-Cycle Whole-List Audit and Candidate Decisions**
+
+**Date:** 2026-10-14  
+**Cycle:** `global-restart-2026-10-13`  
+**Deck:** #17 — Edward Kenway  
+**State:** APPROVAL CANDIDATE ONLY; explicit user approval still required  
+**Baseline SHA-256:** `05526735a23cc3278c14e86f328fa7a857007905c8bcd8dc02967861790030c3`  
+**Candidate SHA-256:** `a08d3bc9c283415f1579c493eccb3febd7d10dea3777bf3dc50cfbc0dbed4019`  
+**Source CSV SHA-256:** `6361e497f78ba10e7b74c41cb728ea5c3b931d15d2a2cd2d7c107eb4e6cbd6d1`
+
+**Blueprint**
+
+Edward specifically rewards tapped Assassins, Pirates, and Vehicles at end step, plus Vehicles connecting in combat. The optimized shell should therefore make creatures useful both as attackers and crew, convert those taps/connections into Treasure and stolen cards, and spend Treasure/artifacts on card advantage or compact wins. Natural ceiling: **Bracket 4 — Optimized**; premium fast mana and free interaction are justified, but generic Grixis consultation-style homogenization is not.
+
+**Source reconciliation**
+
+- Current 2026-10-12 CSV/TXT baseline: 100 cards, 98 distinct names; only Island and Swamp repeat as basics.
+- Older v8.1.4 card audit is stale for five slots: current FINAL contains Deluxe Dragster, Don Andres, Gemcutter Buccaneer, Setzer, and Vaan; the stale snapshot instead contains Coercive Recruiter, Forerunner of the Coalition, Great Gilded Boat, Unwinding Clock, and Weatherlight. The current CSV/TXT list governs.
+- No Edward-specific project legality exception applies.
+
+**Mandatory 99-slot audit**
+
+All **99 noncommander slots** were re-evaluated. The following ledger names every baseline card and records the disposition by functional group. Unless explicitly marked CUT, every named card is RETAINED after direct comparison to realistic alternatives.
+
+**Token conversion:** Academy Manufactor is retained because Edward’s Treasure events become three artifact types, scaling draw and Time Sieve material.
+
+- 1x **Academy Manufactor** — RETAIN
+
+**Card advantage / selection:** retained because each effect is tied to historic/artifact density, Pirate/Vehicle attacking, or combat connection strongly enough to outperform generic substitutes.
+
+- 1x **Adéwalé, Breaker of Chains** — RETAIN — Assassin + Pirate, digs for all three core permanent classes, recurs on Vehicle hits.
+- 1x **Adrestia** — RETAIN
+- 1x **Basim Ibn Ishaq** — RETAIN
+- 1x **Black Market Connections** — RETAIN — Treasure + draw + changeling body makes this generic-looking staple unusually commander-specific here.
+- 1x **Breeches, Brazen Plunderer** — RETAIN
+- 1x **Coastal Piracy** — RETAIN
+- 1x **Fateful Discovery** — RETAIN — five mana survives because Edward/Manufactor can create many artifact ETBs at once, turning it into explosive draw.
+- 1x **Fearless Swashbuckler** — RETAIN
+- 1x **Jackdaw** — RETAIN — low-cost Vehicle can refill a depleted hand based on high artifact count.
+- 1x **Mary Read and Anne Bonny** — RETAIN
+- 1x **Smuggler's Copter** — RETAIN
+- 1x **Subterranean Schooner** — RETAIN
+- 1x **The Indomitable** — RETAIN — broad combat draw on a Vehicle plus graveyard recast tied to tapped Pirates/Vehicles.
+
+**Recursion:** Admiral Brass is retained as the strongest Pirate-specific rebuild/haste engine.
+
+- 1x **Admiral Brass, Unsinkable** — RETAIN
+
+**Interaction:** retained premium/role-compressed interaction; Pirate/Vehicle removal bodies receive extra weight because they also advance Edward.
+
+- 1x **An Offer You Can't Refuse** — RETAIN
+- 1x **Cyclonic Rift** — RETAIN
+- 1x **Deadly Rollick** — RETAIN
+- 1x **Fierce Guardianship** — RETAIN
+- 1x **Hostage Taker** — RETAIN — Pirate body plus removal/theft and Don Andres compatibility.
+- 1x **Kitesail Larcenist** — RETAIN — Pirate body with multi-permanent neutralization/treasure transformation.
+- 1x **Mana Drain** — RETAIN
+- 1x **Nautiloid Ship** — RETAIN
+- 1x **Skysovereign, Consul Flagship** — RETAIN — keeps the five-mana removal-Vehicle slot, which is why Magmatic Galleon does not displace another card.
+- 1x **Swan Song** — RETAIN
+- 1x **Toxic Deluge** — RETAIN
+
+**Mana base (35 slots):** retained sources were checked for speed, U/B/R requirements, fetchability, utility, and colorless burden. The only material mana upgrade is Sulfur Falls -> Underground River.
+
+- 1x **Ancient Tomb** — RETAIN
+- 1x **Arid Mesa** — RETAIN
+- 1x **Badlands** — RETAIN
+- 1x **Blood Crypt** — RETAIN
+- 1x **Bloodstained Mire** — RETAIN
+- 1x **Cavern of Souls** — RETAIN
+- 1x **City of Brass** — RETAIN
+- 1x **Command Tower** — RETAIN
+- 1x **Exotic Orchard** — RETAIN
+- 1x **Flooded Strand** — RETAIN
+- 2x **Island** — RETAIN
+- 1x **Luxury Suite** — RETAIN
+- 1x **Mana Confluence** — RETAIN
+- 1x **Marsh Flats** — RETAIN
+- 1x **Misty Rainforest** — RETAIN
+- 1x **Morphic Pool** — RETAIN
+- 1x **Mountain** — RETAIN
+- 1x **Otawara, Soaring City** — RETAIN
+- 1x **Polluted Delta** — RETAIN
+- 1x **Scalding Tarn** — RETAIN
+- 1x **Shivan Reef** — RETAIN
+- 1x **Steam Vents** — RETAIN
+- 1x **Sulfur Falls** — **CUT** — conditional untapped source is replaced by always-untapped U/B painland fixing.
+- 1x **Sulfurous Springs** — RETAIN
+- 2x **Swamp** — RETAIN
+- 1x **Training Center** — RETAIN
+- 1x **Underground Sea** — RETAIN
+- 1x **Urza's Saga** — RETAIN
+- 1x **Verdant Catacombs** — RETAIN
+- 1x **Volcanic Island** — RETAIN
+- 1x **Watery Grave** — RETAIN
+- 1x **Wooded Foothills** — RETAIN
+- 1x **Xander's Lounge** — RETAIN
+
+**Ramp / Treasure:** retained because Edward costs five and the deck has a real four/five-mana Vehicle band; Treasure producers that are Pirates/Vehicles also advance the commander rather than merely ramp.
+
+- 1x **Arcane Signet** — RETAIN
+- 1x **Breeches, Eager Pillager** — RETAIN
+- 1x **Captain Lannery Storm** — RETAIN
+- 1x **Chrome Mox** — RETAIN
+- 1x **Fellwar Stone** — RETAIN
+- 1x **Gemcutter Buccaneer** — RETAIN — converts Pirate ETBs to Treasure and Treasure to equipment pressure.
+- 1x **Hoard Hauler** — RETAIN — Vehicle/Treasure payoff with a Time Sieve extra-turn line under artifact-rich opponents.
+- 1x **Jeska's Will** — RETAIN
+- 1x **Lotus Petal** — RETAIN
+- 1x **Malcolm, Keen-Eyed Navigator** — RETAIN — proposed Glint-Horn Buccaneer turns this existing Pirate into an on-theme near-infinite damage/draw engine.
+- 1x **Mana Vault** — RETAIN
+- 1x **Mox Diamond** — RETAIN
+- 1x **Mox Opal** — RETAIN
+- 1x **Ragavan, Nimble Pilferer** — RETAIN
+- 1x **Revel in Riches** — **CUT** — passive five-mana death/upkeep payoff loses to an actual Vehicle with immediate crew/Treasure synergy.
+- 1x **RMS Titanic** — RETAIN — one connection triggers Edward and produces a huge Treasure burst before Titanic leaves; unique burst role.
+- 1x **Setzer, Wandering Gambler** — **CUT** — Setzer itself is neither Pirate nor Assassin and the repeatable Treasure output is coin-flip dependent.
+- 1x **Sol Ring** — RETAIN
+- 1x **Talisman of Creativity** — RETAIN
+- 1x **Talisman of Dominance** — RETAIN
+- 1x **Talisman of Indulgence** — RETAIN
+- 1x **The Belligerent** — RETAIN
+- 1x **The Reaver Cleaver** — RETAIN — already a compact Time Sieve Treasure loop and supplies trample; Locomotive is added without sacrificing this line.
+
+**Countermagic:** retained premium stack protection/interaction appropriate to an optimized combat engine.
+
+- 1x **Captain Storm, Cosmium Raider** — RETAIN
+- 1x **Force of Will** — RETAIN
+
+**Tutors:** retained for optimized consistency; Deadeye Quartermaster is additionally commander-specific by finding Vehicles/Equipment.
+
+- 1x **Deadeye Quartermaster** — RETAIN
+- 1x **Imperial Seal** — RETAIN
+- 1x **Vampiric Tutor** — RETAIN
+
+**Protection:** retained because keeping Edward or a key engine through targeted interaction materially changes output.
+
+- 1x **Deflecting Swat** — RETAIN
+- 1x **Siren Stormtamer** — RETAIN
+
+**Theft:** retained as Edward-native opponent-resource play and because Don Andres/Vaan convert stolen cards into additional value.
+
+- 1x **Deluxe Dragster** — RETAIN — hard-to-block Vehicle that turns connection into free opponent-spell theft.
+- 1x **Don Andres, the Renegade** — RETAIN — converts Edward/Ramirez/Vaan theft into Treasures and buffs stolen creatures.
+- 1x **Vaan, Street Thief** — RETAIN
+
+**Copy / artifact engines:** retained only where the effect can directly become or multiply a Vehicle/commander engine; Mechanized Production is the exception and is cut.
+
+- 1x **Imposter Mech** — RETAIN
+- 1x **Mechanized Production** — **CUT** — slower four-mana Aura/upkeep plan loses to a Pirate that also creates a Malcolm combo finish.
+- 1x **Roaming Throne** — RETAIN — naming Pirate or Assassin doubles Edward’s triggered abilities; type overlap never makes one permanent count twice inside a single trigger.
+
+**Finisher:** Port Razer is retained because extra combats are delivered on a Pirate body and directly multiply attack/Vehicle opportunities.
+
+- 1x **Port Razer** — RETAIN
+
+**Artifact conversion:** Time Sieve is retained as the natural endpoint for Edward’s artifact bursts and multiple themed extra-turn lines.
+
+- 1x **Time Sieve** — RETAIN
+
+**Approved-for-proposal additions**
+
+- **Ramirez DePietro, Pillager** for Setzer — real Pirate, immediate two Treasures, repeatable Pirate-hit opponent-library casting. Ramirez says **cast**, so it cannot play exiled lands.
+- **Glint-Horn Buccaneer** for Mechanized Production — three-mana Pirate; with retained Malcolm, Keen-Eyed Navigator forms a verified multiplayer near-infinite damage/draw loop because Malcolm triggers from noncombat Pirate damage.
+- **Luxurious Locomotive** for Revel in Riches — actual Vehicle; official crew rules allow over-crewing, which intentionally taps extra Pirates/Assassins for Edward while the Locomotive attack trigger makes Treasure for every creature that crewed it.
+- **Underground River** for Sulfur Falls — unconditional untapped U/B source; completes the Grixis painland axis and removes an avoidable tapped-land failure case.
+
+The three nonland cuts total mana value 12 and the three nonland additions total mana value 12. Land count remains **35**. The candidate gains two Pirates and one actual Vehicle while removing no actual Vehicle card.
+
+**Candidate exhaustion**
+
+- **Magmatic Galleon (#1 ranked):** rejected. Good card, but Skysovereign already occupies the five-mana removal-Vehicle role with evasion and repeatable attack removal; the list also has Hostage Taker, Kitesail Larcenist, Nautiloid Ship, and premium spell interaction. No remaining slot is materially weaker than adding another five-mana removal Vehicle.
+- **Admiral Beckett Brass / Fell Flagship / Corsair Captain:** rejected; their anthem/three-Pirate connection conditions lose to current engines that generate cards, Treasure, removal, recursion, or combo equity while Pirates are also needed to crew.
+- **Lifecraft Engine:** rejected after rules red-team. Making Vehicles Pirates does not make Edward count them twice; each qualifying tapped permanent is counted once.
+- **Malcolm, Alluring Scoundrel:** rejected; four successful hits to unlock the free-cast mode is slower than the retained selection/value engines.
+- **Blood Money / Back in Town / Pitiless Plunderer:** rejected as too expensive or aimed at death/graveyard infrastructure that is not a primary Edward axis.
+- **Storm the Vault / Xorn / Rain of Riches / Treasure Map:** rejected as setup-only Treasure support that does not beat current Pirate/Vehicle engines.
+- **Mech Hangar / tribal taplands:** rejected; tri-color requirements and premium current fixing make conditional colored lands worse than the final 35.
+- **Mobilizer Mech / Reckoner Bankbuster / Cargo Ship / Careening Mine Cart:** rejected; lower per-slot ceiling than retained cheap draw Vehicles, theft Vehicles, or high-output Treasure Vehicles.
+- **The Thanos-Copter:** rejected at six mana; current top end is already sufficient around a five-mana commander.
+- **Overpowering Attack:** rejected; Port Razer supplies extra combats on a Pirate body.
+- **Unstoppable Plan / Shao Jun:** rejected; tap manipulation alone is not enough value.
+- **Luxurious Locomotive (#77) and Glint-Horn Buccaneer (#87):** accepted despite low research rank because the auto-seeded profile underweighted crew/tapped-state interactions and existing Malcolm combo structure.
+- **Underground River:** accepted outside the candidate ranking because the mandatory mana-base audit found a direct speed/fixing upgrade.
+- Stale-audit-only Coercive Recruiter, Forerunner of the Coalition, Great Gilded Boat, Unwinding Clock, and Weatherlight were reconsidered and remain out.
+
+**Rules red-team / combo verification**
+
+- Edward counts a qualifying tapped permanent once even if it is simultaneously Assassin, Pirate, and/or Vehicle.
+- Edward uses **play** for his exiled card, so lands can be played subject to normal limits; Ramirez uses **cast**, so Ramirez cannot play lands.
+- Luxurious Locomotive may be over-crewed. If five creatures crew it, its attack trigger makes at least five Treasures; Time Sieve can sacrifice them for an extra turn. With the prerequisites recreated each turn, this is an extra-turn lock.
+- Malcolm triggers from Pirate damage, including Glint-Horn’s noncombat discard damage. With Glint-Horn attacking, a card to discard, at least two opponents, and {1}{R} to start, two Malcolm Treasures fund the next activation while Glint-Horn draws a replacement card; this repeats as a near-infinite multiplayer finish.
+- The retained Reaver Cleaver + Time Sieve line remains valid when a power-4-or-greater equipped attacker can connect for at least five damage/Treasures.
+- Roaming Throne naming Pirate or Assassin doubles Edward’s triggered abilities but does not alter Edward’s count-once ruling.
+- RMS Titanic can sacrifice itself after combat damage and still leave Edward’s already-triggered Vehicle-damage ability on the stack.
+
+**Closure**
+
+Pass 1 found Ramirez, Glint-Horn, and Luxurious Locomotive. The dedicated mana-base pass then found Underground River over Sulfur Falls. The next full whole-list/candidate/red-team pass produced **ZERO NEW MATERIAL IMPROVEMENTS**. Candidate exhaustion, commander necessity, strategic coherence, curve, land/ramp balance, and role redundancy therefore reached closure pending the fail-closed structural/legal/rules gate.
+
+### From `refinement/approvals/Edward_Kenway_Approved_2026-10-14.md`
+
+Source: [refinement/approvals/Edward_Kenway_Approved_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/approvals/Edward_Kenway_Approved_2026-10-14.md)
+
+**Edward Kenway — Current-Cycle Approval Record**
+
+**Date:** 2026-10-14  
+**Cycle:** `global-restart-2026-10-13`  
+**Deck:** #17 — Edward Kenway  
+**Status:** **APPROVED / LOCKED**  
+**Canonical approved SHA-256:** `a08d3bc9c283415f1579c493eccb3febd7d10dea3777bf3dc50cfbc0dbed4019`
+
+**Explicit approval**
+
+The user explicitly approved the exact SHA-bound approval candidate on 2026-10-14. No further card changes are authorized after this approval without an explicit reopen request.
+
+**Approved changes**
+
+1. `Setzer, Wandering Gambler` -> `Ramirez DePietro, Pillager`
+2. `Mechanized Production` -> `Glint-Horn Buccaneer`
+3. `Revel in Riches` -> `Luxurious Locomotive`
+4. `Sulfur Falls` -> `Underground River`
+
+**Verification basis**
+
+The approved list is the exact candidate that completed the mandatory 99-slot whole-list audit, commander-specific candidate exhaustion, adversarial red-team review, second serious pass with **ZERO NEW MATERIAL IMPROVEMENTS**, fresh Oracle/rules verification, current official Commander legality verification, and the complete fail-closed approval gate.
+
+Complete gate result:
+- Total cards: **100**
+- Distinct names: **98**
+- Repeated names: basic lands only (`Island`, `Swamp`)
+- Land count: **35**
+- Commander color identity: **B/R/U — PASS**
+- Singleton compliance: **PASS**
+- Rules gate: **PASS**
+- Official Commander legality: **PASS**
+- Project exceptions: **none**
+- Errors: **0**
+- Gate result before user approval: **APPROVAL_READY**
+
+**Canonical artifacts**
+
+- Approved list: `refinement/decklists/Edward_Kenway_Approved_2026-10-14.txt`
+- Approval candidate: `refinement/decklists/Edward_Kenway_Approval_Candidate_2026-10-14.txt`
+- Whole-list / decision record: `refinement/decisions/Edward_Kenway_Current_Cycle_Decisions_2026-10-14.md`
+- Complete gate: `refinement/verification/edward_kenway_2026-10-14/gate_output/Edward_Kenway_2026-10-14_Complete_Gate.json`
+
+The frozen source-package CSV/TXT exports remain preserved as historical baseline evidence. The current-cycle approved artifact above is now canonical.
+
+<!-- COMBOS:START -->
+## Combos (Commander Spellbook)
+
+> Generated 2026-10-15 by `scripts/build_grixis.py` from the [Commander Spellbook](https://commanderspellbook.com) public API (community-maintained). Shows only combos whose **every card is in this list**. Bracket barometer: *Brackets 1–2: no intentional two-card infinite combos. Bracket 3: no early-game two-card infinite combos.*
+
+**6 complete combo(s); 5 two-card infinite.** 43 more are one card away (not listed).
+
+| Cards | Produces (Spellbook) | Extra requirements | Link |
+|---|---|---|---|
+| ⚠️ **two-card infinite** · The Reaver Cleaver + Time Sieve | Infinite turns, Lock | — | [1558-5039](https://commanderspellbook.com/combo/1558-5039/) |
+| ⚠️ **two-card infinite** · Edward Kenway + Time Sieve | Infinite turns, Lock | — | [1558-5736](https://commanderspellbook.com/combo/1558-5736/) |
+| ⚠️ **two-card infinite** · Time Sieve + Luxurious Locomotive | Infinite turns, Lock | — | [1558-6307](https://commanderspellbook.com/combo/1558-6307/) |
+| ⚠️ **two-card infinite** · Malcolm, Keen-Eyed Navigator + Glint-Horn Buccaneer | Near-infinite damage, Near-infinite self-discard triggers, Near-infinite draw triggers | — | [4508-4869](https://commanderspellbook.com/combo/4508-4869/) |
+| ⚠️ **two-card infinite** · Hoard Hauler + Time Sieve | Infinite turns, Lock | — | [451-1558](https://commanderspellbook.com/combo/451-1558/) |
+| Malcolm, Keen-Eyed Navigator + Time Sieve + Academy Manufactor | Near-infinite turns, Lock | — | [1558-4231-4508](https://commanderspellbook.com/combo/1558-4231-4508/) |
+<!-- COMBOS:END -->

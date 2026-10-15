@@ -1,0 +1,543 @@
+---
+title: "Grixis Deck — Edea, Possessed Sorceress"
+category: deck
+kind: grixis
+commander: "Edea, Possessed Sorceress"
+color_identity: UBR
+bracket_floor: 3
+game_changers: 3
+validated: true
+source_repo: corymstover/grixis-commander-encyclopediaGPT
+---
+
+# Grixis Deck — Edea, Possessed Sorceress
+
+> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Edea_Possessed_Sorceress_Approved_2026-10-14.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decklists/Edea_Possessed_Sorceress_Approved_2026-10-14.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-14; source commit `df1abb9`). Imported in Bot cycle 16 and re-validated against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
+
+## Contents
+- [Commander](#commander)
+- [Validation](#validation)
+- [Bracket assessment](#bracket-assessment)
+- [Corrections applied](#corrections-applied)
+- [Decklist (Archidekt import)](#decklist-archidekt-import)
+- [Card breakdown](#card-breakdown)
+- [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Combos (Commander Spellbook)](#combos-commander-spellbook)
+
+## Commander
+
+- **[Edea, Possessed Sorceress](../../cards/E/ed.md#edea-possessed-sorceress)** — {2}{U}{B}{R} — Legendary Creature — Human Warlock
+- Color identity: **UBR (Blue, Black, Red)**
+- Eligibility (Edea, Possessed Sorceress): Yes (legendary creature)
+
+## Validation
+
+- Total cards: **100** (1 commander(s) + 64 nonland + 26 nonbasic lands + 9 basics) · average nonland MV 3.20
+- Strict color identity (CR 903.5c), singleton (903.5b), Commander-legal, size (903.5a): ✅ **all checks pass**
+- Every card resolves to an entry in our card DB (94/94 lines linked).
+
+## Bracket assessment
+
+- Game Changers (3): Demonic Tutor, Fierce Guardianship, Ancient Tomb
+- Extra-turn cards: none
+- Mass land denial: none
+- Commander Spellbook: 0 complete combo(s), 0 two-card infinite (see [Combos](#combos-commander-spellbook)).
+- **Minimum bracket by the published barometers: 3** (1–3 Game Changers).
+- Source's stated target (guidance): **Bracket 4 — Optimized**.
+- (Brackets are a pregame-conversation tool. See [EDH Standards](../../EDH%20Standards.md#power-bracket-assessment).)
+
+## Corrections applied
+
+| Type | Change | Reason |
+|---|---|---|
+| format | Archidekt list normalized to [EDH Standards](../../EDH%20Standards.md#list-format-archidekt) | `[Commander]` → `[Commander{top}]` (1 line(s)); role tags restored on 89 untagged line(s): 84 from this deck's FINAL baseline, 5 from the tag the source uses most for that card in other decks; 4 untagged line(s) given a type tag (e.g. `[Land]`). |
+| bracket | Game Changers and combo floor added | The source records no Game Changer count and does not check the official Game Changers list anywhere in its approval records. We added it: **3 Game Changers**, so the minimum bracket is **3**. Commander Spellbook finds 0 complete combos (0 two-card infinite). This is consistent with the source's stated Bracket 4. |
+
+Full log for all decks: [Grixis Corrections](../Grixis%20Corrections.md).
+
+## Decklist (Archidekt import)
+
+```text
+1x Edea, Possessed Sorceress [Commander{top}]
+1x An Offer You Can't Refuse [Removal]
+1x Arcane Denial [Removal]
+1x Arcane Signet [Ramp]
+1x Ashnod's Altar [Ramp]
+1x Ayara, Widow of the Realm // Ayara, Furnace Queen [Recursion]
+1x Badlands [Land]
+1x Blasphemous Act [Removal]
+1x Blood Crypt [Land]
+1x Bloodstained Mire [Land]
+1x Braids, Arisen Nightmare [Draw]
+1x Chaos Shrine's Black Crystal [Recursion]
+1x Chaos Warp [Removal]
+1x Captivating Crew [Creature]
+1x Command Tower [Land]
+1x Corrupted Conviction [Draw]
+1x Deadly Dispute [Draw]
+1x Deadly Rollick [Removal]
+1x Deflecting Swat [Protection]
+1x Demonic Tutor [Tutor]
+1x Diabolic Intent [Tutor]
+1x Full Throttle [Sorcery]
+1x Disciple of Bolas [Draw]
+1x Dominus of Fealty [Theft]
+1x Don Andres, the Renegade [Theft]
+1x City of Brass [Land]
+1x Mana Confluence [Land]
+1x Evereth, Viceroy of Plunder [Sac Outlet]
+1x Exotic Orchard [Land]
+1x Fellwar Stone [Ramp]
+1x Fierce Guardianship [Removal]
+1x Thassa, Deep-Dwelling [Blink]
+1x Goblin Bombardment [Sac Outlet]
+1x Gogo, Master of Mimicry [Copy]
+1x Grave Pact [Removal]
+1x Grim Haruspex [Draw]
+1x Haunted Ridge [Land]
+1x High Market [Land]
+1x Illuminor Szeras [Ramp]
+1x Impostor Syndrome [Copy]
+1x Industrial Advancement [Draw]
+1x Insurrection [Theft]
+1x Irma, Part-Time Mutant [Copy]
+3x Island [Land]
+1x Karlach, Fury of Avernus [Finisher]
+1x Kethek, Crucible Goliath [Sac Outlet]
+1x Lightning Greaves [Protection]
+1x Luxury Suite [Land]
+1x Mana Drain [Removal]
+1x Mayhem Devil [Removal]
+1x Mob Rule [Theft]
+1x Strionic Resonator [Copy]
+1x Morphic Pool [Land]
+3x Mountain [Land]
+1x Nightmare Shepherd [Recursion]
+1x Otawara, Soaring City [Land]
+1x Phyrexian Altar [Ramp]
+1x Phyrexian Tower [Land]
+1x Pitiless Plunderer [Ramp]
+1x Polluted Delta [Land]
+1x Rakdos, the Muscle [Draw]
+1x Reanimate [Recursion]
+1x Arcane Lighthouse [Land]
+1x Roaming Throne [Copy]
+1x Sakashima of a Thousand Faces [Copy]
+1x Saw in Half [Removal]
+1x Scalding Tarn [Land]
+1x Seize the Spotlight [Draw]
+1x Shipwreck Marsh [Land]
+1x Skullclamp [Draw]
+1x Sol Ring [Ramp]
+1x Spark Double [Copy]
+1x Steam Vents [Land]
+1x Stormcarved Coast [Land]
+1x Ancient Tomb [Land]
+3x Swamp [Land]
+1x Swan Song [Removal]
+1x Talisman of Creativity [Ramp]
+1x Talisman of Dominance [Ramp]
+1x Talisman of Indulgence [Ramp]
+1x Mass Mutiny [Sorcery]
+1x Toxic Deluge [Removal]
+1x Training Center [Land]
+1x Underground Sea [Land]
+1x Urborg, Tomb of Yawgmoth [Land]
+1x Vandalblast [Removal]
+1x Victimize [Recursion]
+1x Village Rites [Draw]
+1x Viscera Seer [Sac Outlet]
+1x Volcanic Island [Land]
+1x Warren Soultrader [Sac Outlet]
+1x Watery Grave [Land]
+1x Xander's Lounge [Land]
+1x Zara, Renegade Recruiter [Theft]
+```
+
+## Card breakdown
+
+Role tags are the source author's (untagged lines show the card type). *Printing* is the source's pinned printing, if it pinned one.
+
+| Card | Role (source tag) | Type | MV | Identity | GC | Printing |
+|---|---|---|---|---|---|---|
+| [Edea, Possessed Sorceress](../../cards/E/ed.md#edea-possessed-sorceress) | Commander | Legendary Creature — Human Warlock | 5 | UBR |  | — |
+| [Thassa, Deep-Dwelling](../../cards/T/tha.md#thassa-deep-dwelling) | Blink | Legendary Enchantment Creature — God | 4 | U |  | — |
+| [Gogo, Master of Mimicry](../../cards/G/gog.md#gogo-master-of-mimicry) | Copy | Legendary Creature — Wizard | 3 | U |  | — |
+| [Impostor Syndrome](../../cards/I/im.md#impostor-syndrome) | Copy | Enchantment | 6 | U |  | — |
+| [Irma, Part-Time Mutant](../../cards/I/ir.md#irma-part-time-mutant) | Copy | Legendary Creature — Human Mutant Shapeshifter | 3 | U |  | — |
+| [Roaming Throne](../../cards/R/ro.md#roaming-throne) | Copy | Artifact Creature — Golem | 4 | C |  | — |
+| [Sakashima of a Thousand Faces](../../cards/S/sak.md#sakashima-of-a-thousand-faces) | Copy | Legendary Creature — Human Rogue | 4 | U |  | — |
+| [Spark Double](../../cards/S/spa.md#spark-double) | Copy | Creature — Illusion | 4 | U |  | — |
+| [Strionic Resonator](../../cards/S/str.md#strionic-resonator) | Copy | Artifact | 2 | C |  | — |
+| [Captivating Crew](../../cards/C/cap.md#captivating-crew) | Creature | Creature — Human Pirate | 4 | R |  | — |
+| [Braids, Arisen Nightmare](../../cards/B/br.md#braids-arisen-nightmare) | Draw | Legendary Creature — Nightmare | 3 | B |  | — |
+| [Corrupted Conviction](../../cards/C/cor.md#corrupted-conviction) | Draw | Instant | 1 | B |  | — |
+| [Deadly Dispute](../../cards/D/dea.md#deadly-dispute) | Draw | Instant | 2 | B |  | — |
+| [Disciple of Bolas](../../cards/D/di.md#disciple-of-bolas) | Draw | Creature — Human Wizard | 4 | B |  | — |
+| [Grim Haruspex](../../cards/G/gri.md#grim-haruspex) | Draw | Creature — Human Wizard | 3 | B |  | — |
+| [Industrial Advancement](../../cards/I/ind.md#industrial-advancement) | Draw | Enchantment | 4 | R |  | — |
+| [Rakdos, the Muscle](../../cards/R/rak.md#rakdos-the-muscle) | Draw | Legendary Creature — Demon Mercenary | 5 | BR |  | — |
+| [Seize the Spotlight](../../cards/S/sei.md#seize-the-spotlight) | Draw | Sorcery | 3 | R |  | — |
+| [Skullclamp](../../cards/S/sk.md#skullclamp) | Draw | Artifact — Equipment | 1 | C |  | — |
+| [Village Rites](../../cards/V/vi.md#village-rites) | Draw | Instant | 1 | B |  | — |
+| [Karlach, Fury of Avernus](../../cards/K/ka.md#karlach-fury-of-avernus) | Finisher | Legendary Creature — Tiefling Barbarian | 5 | R |  | — |
+| [Ancient Tomb](../../cards/A/an.md#ancient-tomb) | Land | Land | 0 | C | ✅ | — |
+| [Arcane Lighthouse](../../cards/A/arc.md#arcane-lighthouse) | Land | Land | 0 | C |  | — |
+| [Badlands](../../cards/B/bad.md#badlands) | Land | Land — Swamp Mountain | 0 | BR |  | — |
+| [Blood Crypt](../../cards/B/blo.md#blood-crypt) | Land | Land — Swamp Mountain | 0 | BR |  | — |
+| [Bloodstained Mire](../../cards/B/blo.md#bloodstained-mire) | Land | Land | 0 | C |  | — |
+| [City of Brass](../../cards/C/ci.md#city-of-brass) | Land | Land | 0 | C |  | — |
+| [Command Tower](../../cards/C/com.md#command-tower) | Land | Land | 0 | C |  | — |
+| [Exotic Orchard](../../cards/E/ex.md#exotic-orchard) | Land | Land | 0 | C |  | — |
+| [Haunted Ridge](../../cards/H/ha.md#haunted-ridge) | Land | Land | 0 | BR |  | — |
+| [High Market](../../cards/H/hi.md#high-market) | Land | Land | 0 | C |  | — |
+| [Island](../../cards/I/is.md#island) (×3) | Land | Basic Land — Island | 0 | U |  | — |
+| [Luxury Suite](../../cards/L/lu.md#luxury-suite) | Land | Land | 0 | BR |  | — |
+| [Mana Confluence](../../cards/M/man.md#mana-confluence) | Land | Land | 0 | C |  | — |
+| [Morphic Pool](../../cards/M/mor.md#morphic-pool) | Land | Land | 0 | UB |  | — |
+| [Mountain](../../cards/M/mou.md#mountain) (×3) | Land | Basic Land — Mountain | 0 | R |  | — |
+| [Otawara, Soaring City](../../cards/O/ot.md#otawara-soaring-city) | Land | Legendary Land | 0 | U |  | — |
+| [Phyrexian Tower](../../cards/P/ph.md#phyrexian-tower) | Land | Legendary Land | 0 | B |  | — |
+| [Polluted Delta](../../cards/P/po.md#polluted-delta) | Land | Land | 0 | C |  | — |
+| [Scalding Tarn](../../cards/S/sc.md#scalding-tarn) | Land | Land | 0 | C |  | — |
+| [Shipwreck Marsh](../../cards/S/shi.md#shipwreck-marsh) | Land | Land | 0 | UB |  | — |
+| [Steam Vents](../../cards/S/ste.md#steam-vents) | Land | Land — Island Mountain | 0 | UR |  | — |
+| [Stormcarved Coast](../../cards/S/sto.md#stormcarved-coast) | Land | Land | 0 | UR |  | — |
+| [Swamp](../../cards/S/sw.md#swamp) (×3) | Land | Basic Land — Swamp | 0 | B |  | — |
+| [Training Center](../../cards/T/tra.md#training-center) | Land | Land | 0 | UR |  | — |
+| [Underground Sea](../../cards/U/un.md#underground-sea) | Land | Land — Island Swamp | 0 | UB |  | — |
+| [Urborg, Tomb of Yawgmoth](../../cards/U/ur.md#urborg-tomb-of-yawgmoth) | Land | Legendary Land | 0 | C |  | — |
+| [Volcanic Island](../../cards/V/vo.md#volcanic-island) | Land | Land — Island Mountain | 0 | UR |  | — |
+| [Watery Grave](../../cards/W/wat.md#watery-grave) | Land | Land — Island Swamp | 0 | UB |  | — |
+| [Xander's Lounge](../../cards/X/xa.md#xanders-lounge) | Land | Land — Island Swamp Mountain | 0 | UBR |  | — |
+| [Deflecting Swat](../../cards/D/def.md#deflecting-swat) | Protection | Instant | 3 | R |  | — |
+| [Lightning Greaves](../../cards/L/li.md#lightning-greaves) | Protection | Artifact — Equipment | 2 | C |  | — |
+| [Arcane Signet](../../cards/A/arc.md#arcane-signet) | Ramp | Artifact | 2 | C |  | — |
+| [Ashnod's Altar](../../cards/A/as.md#ashnods-altar) | Ramp | Artifact | 3 | C |  | — |
+| [Fellwar Stone](../../cards/F/fe.md#fellwar-stone) | Ramp | Artifact | 2 | C |  | — |
+| [Illuminor Szeras](../../cards/I/il.md#illuminor-szeras) | Ramp | Legendary Artifact Creature — Necron | 3 | B |  | — |
+| [Phyrexian Altar](../../cards/P/ph.md#phyrexian-altar) | Ramp | Artifact | 3 | C |  | — |
+| [Pitiless Plunderer](../../cards/P/pi.md#pitiless-plunderer) | Ramp | Creature — Human Pirate | 4 | B |  | — |
+| [Sol Ring](../../cards/S/so.md#sol-ring) | Ramp | Artifact | 1 | C |  | — |
+| [Talisman of Creativity](../../cards/T/ta.md#talisman-of-creativity) | Ramp | Artifact | 2 | UR |  | — |
+| [Talisman of Dominance](../../cards/T/ta.md#talisman-of-dominance) | Ramp | Artifact | 2 | UB |  | — |
+| [Talisman of Indulgence](../../cards/T/ta.md#talisman-of-indulgence) | Ramp | Artifact | 2 | BR |  | — |
+| [Ayara, Widow of the Realm // Ayara, Furnace Queen](../../cards/A/ay.md#ayara-widow-of-the-realm--ayara-furnace-queen) | Recursion | Legendary Creature — Elf Noble // Legendary Creature — Phyrexian Elf Noble | 3 | BR |  | — |
+| [Chaos Shrine's Black Crystal](../../cards/C/cha.md#chaos-shrines-black-crystal) | Recursion | Legendary Artifact | 4 | B |  | — |
+| [Nightmare Shepherd](../../cards/N/ni.md#nightmare-shepherd) | Recursion | Enchantment Creature — Demon | 4 | B |  | — |
+| [Reanimate](../../cards/R/rea.md#reanimate) | Recursion | Sorcery | 1 | B |  | — |
+| [Victimize](../../cards/V/vi.md#victimize) | Recursion | Sorcery | 3 | B |  | — |
+| [An Offer You Can't Refuse](../../cards/A/an.md#an-offer-you-cant-refuse) | Removal | Instant | 1 | U |  | — |
+| [Arcane Denial](../../cards/A/arc.md#arcane-denial) | Removal | Instant | 2 | U |  | — |
+| [Blasphemous Act](../../cards/B/bla.md#blasphemous-act) | Removal | Sorcery | 9 | R |  | — |
+| [Chaos Warp](../../cards/C/cha.md#chaos-warp) | Removal | Instant | 3 | R |  | — |
+| [Deadly Rollick](../../cards/D/dea.md#deadly-rollick) | Removal | Instant | 4 | B |  | — |
+| [Fierce Guardianship](../../cards/F/fi.md#fierce-guardianship) | Removal | Instant | 3 | U | ✅ | — |
+| [Grave Pact](../../cards/G/gra.md#grave-pact) | Removal | Enchantment | 4 | B |  | — |
+| [Mana Drain](../../cards/M/man.md#mana-drain) | Removal | Instant | 2 | U |  | — |
+| [Mayhem Devil](../../cards/M/may.md#mayhem-devil) | Removal | Creature — Devil | 3 | BR |  | — |
+| [Saw in Half](../../cards/S/saw.md#saw-in-half) | Removal | Instant | 3 | B |  | — |
+| [Swan Song](../../cards/S/sw.md#swan-song) | Removal | Instant | 1 | U |  | — |
+| [Toxic Deluge](../../cards/T/to.md#toxic-deluge) | Removal | Sorcery | 3 | B |  | — |
+| [Vandalblast](../../cards/V/va.md#vandalblast) | Removal | Sorcery | 1 | R |  | — |
+| [Evereth, Viceroy of Plunder](../../cards/E/ev.md#evereth-viceroy-of-plunder) | Sac Outlet | Legendary Creature — Vampire Soldier | 3 | BR |  | — |
+| [Goblin Bombardment](../../cards/G/gob.md#goblin-bombardment) | Sac Outlet | Enchantment | 2 | R |  | — |
+| [Kethek, Crucible Goliath](../../cards/K/ke.md#kethek-crucible-goliath) | Sac Outlet | Legendary Creature — Phyrexian Beast | 4 | BR |  | — |
+| [Viscera Seer](../../cards/V/vi.md#viscera-seer) | Sac Outlet | Creature — Vampire Wizard | 1 | B |  | — |
+| [Warren Soultrader](../../cards/W/war.md#warren-soultrader) | Sac Outlet | Creature — Zombie Goblin Wizard | 3 | B |  | — |
+| [Full Throttle](../../cards/F/fu.md#full-throttle) | Sorcery | Sorcery | 6 | R |  | — |
+| [Mass Mutiny](../../cards/M/mas.md#mass-mutiny) | Sorcery | Sorcery | 5 | R |  | — |
+| [Dominus of Fealty](../../cards/D/do.md#dominus-of-fealty) | Theft | Creature — Spirit Avatar | 5 | UR |  | — |
+| [Don Andres, the Renegade](../../cards/D/do.md#don-andres-the-renegade) | Theft | Legendary Creature — Vampire Pirate | 4 | UBR |  | — |
+| [Insurrection](../../cards/I/ins.md#insurrection) | Theft | Sorcery | 8 | R |  | — |
+| [Mob Rule](../../cards/M/mob.md#mob-rule) | Theft | Sorcery | 6 | R |  | — |
+| [Zara, Renegade Recruiter](../../cards/Z/za.md#zara-renegade-recruiter) | Theft | Legendary Creature — Human Pirate | 5 | UR |  | — |
+| [Demonic Tutor](../../cards/D/dem.md#demonic-tutor) | Tutor | Sorcery | 2 | B | ✅ | — |
+| [Diabolic Intent](../../cards/D/di.md#diabolic-intent) | Tutor | Sorcery | 2 | B |  | — |
+
+## Source commentary (verbatim)
+
+> Quoted from the source repo with headings turned into bold text. This is **the source author's analysis and opinion (guidance)**, from `grixis-commander-encyclopediaGPT`, path shown above each block. Relative links point back to the source. Rules statements here were not re-verified card by card (see [Grixis Corrections](../Grixis%20Corrections.md#oracle-text-check) for the Oracle check). Where the source mentions Lutri, Trade Secrets or Yawgmoth's Bargain as approved exceptions, our corrected list above takes precedence.
+
+### From `refinement/decisions/Edea_Possessed_Sorceress_Current_Cycle_Decisions_2026-10-14.md`
+
+Source: [refinement/decisions/Edea_Possessed_Sorceress_Current_Cycle_Decisions_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decisions/Edea_Possessed_Sorceress_Current_Cycle_Decisions_2026-10-14.md)
+
+**Edea, Possessed Sorceress — Current-Cycle Refinement Decisions**
+
+**Date:** 2026-10-14  
+**Cycle:** `global-restart-2026-10-13`  
+**Deck:** #16 — Edea, Possessed Sorceress  
+**Status:** candidate frozen; explicit approval not yet granted  
+**Authoritative standardized baseline SHA-256:** `8caaf9d1d62204627139b88e8f440ed3d3739a64e45bb1f97497590dc9df939a`  
+**Approval-candidate SHA-256:** `fd560a9b0777088b3ad1684ded030566c894faa206ddf6763b74d95d82c532e4`
+
+**Commander-first blueprint**
+
+Edea is a Grixis 2/5 Human Warlock with ward {2}. At the beginning of combat on your turn she temporarily gains control of an opponent's creature, untaps it, and gives it haste. Whenever a creature you control but do not own dies, Edea returns it to its owner's battlefield and draws you a card.
+
+The deck therefore wants four tightly linked classes of effects:
+
+1. **Additional theft** — borrow more opposing creatures so the commander is not the only source of non-owned bodies.
+2. **Sacrifice conversion** — turn temporary control into mana, cards, damage, tutors, or board pressure before the control effect expires.
+3. **Trigger/combat multiplication** — copy Edea or her beginning-of-combat trigger, or create additional combat phases, so she steals more than one creature per turn.
+4. **Retention/replacement theft** — exploit effects such as Thassa, Nightmare Shepherd, Chaos Shrine's Black Crystal, Saw in Half, and Impostor Syndrome so a borrowed opposing card can become lasting value rather than simply return at cleanup.
+
+Natural ceiling: **Bracket 4 — Optimized**. Edea is a five-mana board-dependent commander whose strongest commander-first lines are powerful multiplayer value/tempo engines rather than a naturally compact cEDH win package.
+
+**Authoritative source reconciliation**
+
+The authoritative CSV and TXT exports agree exactly at **100 cards / 94 distinct names**, with only Island, Mountain, and Swamp repeated at three copies each. No project exception applies.
+
+The supporting `deck_card_audit.csv` is stale relative to those matching exports. The authoritative exports contain:
+
+- Corrupted Conviction
+- Evereth, Viceroy of Plunder
+- Grim Haruspex
+- Morbid Opportunist
+- Skullclamp
+
+The audit snapshot instead contains:
+
+- Captivating Crew
+- Cunning Rhetoric
+- Domineering Will
+- Nasty End
+- Thassa, Deep-Dwelling
+
+This also explains why the candidate-ranking table incorrectly presents several real baseline cards as candidates (Evereth #2, Morbid Opportunist #4, Grim Haruspex #5, Corrupted Conviction #6, Skullclamp #19) while omitting audit-only cards from ranked discovery. Per project policy, the matching CSV/TXT exports remain authoritative. All five audit-only names were nevertheless challenged manually: Captivating Crew and Thassa earned slots; Cunning Rhetoric, Domineering Will, and Nasty End did not.
+
+**Mandatory 99-slot whole-list audit**
+
+Every noncommander slot was challenged. Repeated basics are listed with their quantities; this section accounts for all 99 noncommander cards.
+
+**Retained — interaction / protection**
+
+- An Offer You Can't Refuse — efficient stack interaction.
+- Arcane Denial — broad two-mana counter; retained over adding another generic free counter because the shell already has premium interaction and commander-first slots are more valuable.
+- Blasphemous Act — efficient creature reset when theft engines cannot stabilize the board.
+- Chaos Warp — flexible answer to permanent types Grixis otherwise struggles with.
+- Deadly Rollick — premium creature interaction with commander online.
+- Deflecting Swat — protects Edea/engines and redirects hostile interaction.
+- Fierce Guardianship — premium noncreature protection with Edea online.
+- Grave Pact — one death-conversion payoff retained; sacrificing borrowed creatures can force real losses elsewhere while Edea returns the borrowed body.
+- Mana Drain — premium universal counter and acceleration.
+- Mayhem Devil — converts all sacrifice events, including Treasures and stolen bodies, into board control/damage.
+- Saw in Half — particularly strong on borrowed creatures: Edea can draw from the original death while the spell's controller creates the copy tokens.
+- Swan Song — efficient protection.
+- Toxic Deluge — scalable reset.
+- Vandalblast — efficient artifact interaction.
+
+**Retained — mana / sacrifice infrastructure**
+
+- Arcane Signet
+- Ashnod's Altar — free sacrifice outlet plus mana.
+- Fellwar Stone
+- Illuminor Szeras — turns a borrowed creature into black mana.
+- Phyrexian Altar — free outlet plus colored mana.
+- Pitiless Plunderer — converts creature deaths into Treasure.
+- Sol Ring
+- Talisman of Creativity
+- Talisman of Dominance
+- Talisman of Indulgence
+- Evereth, Viceroy of Plunder — authoritative-baseline card; repeatable sorcery-speed outlet in second main, scales into a table-damage finisher.
+- Goblin Bombardment — free outlet and damage conversion.
+- Kethek, Crucible Goliath — end-step outlet while Edea's temporary control still applies; converts high-MV borrowed creatures into deck material.
+- Viscera Seer — one-mana free outlet.
+- Warren Soultrader — free outlet that creates Treasure for one life.
+
+**Retained — sacrifice/draw/value engines**
+
+- Braids, Arisen Nightmare — end-step outlet and multiplayer draw/pressure.
+- Corrupted Conviction — one-mana instant outlet that draws two; more efficient as a generic stolen-creature converter than Nasty End when the borrowed creature is not legendary.
+- Deadly Dispute — instant outlet, cards, and Treasure.
+- Disciple of Bolas — turns borrowed power into cards/life, with Edea adding another card if the sacrificed creature is not owned.
+- Grim Haruspex — uncapped per-creature death draw for nontoken bodies; retained over Morbid Opportunist.
+- Industrial Advancement — end-step sacrifice conversion into a creature from the library.
+- Rakdos, the Muscle — sacrifices bodies and converts their mana value into playable opposing-library cards.
+- Seize the Spotlight — either steals opposing creatures or yields cards/Treasures; every mode advances the plan.
+- Skullclamp — authoritative-baseline card; cheap sacrifice/draw conversion and excellent with small bodies.
+- Village Rites — one-mana instant outlet and draw.
+
+**Retained — commander multipliers / theft / retention**
+
+- Ayara, Widow of the Realm // Ayara, Furnace Queen — sacrifice outlet whose front face converts stolen mana value into damage/life; back face is additional combat-step recursion.
+- Chaos Shrine's Black Crystal — if its death trigger resolves before Edea's, it can exile a borrowed nontoken creature and later put that card onto the battlefield under your control; Edea still draws even if the return instruction can no longer move the card.
+- Dominus of Fealty — repeatable upkeep theft of any permanent.
+- Don Andres, the Renegade — makes borrowed creatures much more threatening in combat without stopping sacrifice.
+- Gogo, Master of Mimicry — copies Edea's triggered ability for `{2}` at X=1 and can scale higher.
+- Impostor Syndrome — expensive but highly commander-specific: a borrowed attacker that connects can leave behind a nonlegendary token copy you own.
+- Insurrection — top-end theft finisher; stolen board can attack and/or be sacrificed before control expires.
+- Irma, Part-Time Mutant — retained with timing caveat: she does not retroactively create an Edea trigger during the first combat in which she becomes Edea, but the copy effect persists, so later combats/turns begin with her already carrying Edea's triggers.
+- Karlach, Fury of Avernus — an extra combat means another Edea theft trigger and reuses creatures already borrowed that turn.
+- Mob Rule — mass theft and sacrifice finisher.
+- Nightmare Shepherd — can exile a borrowed nontoken creature before Edea returns it, leaving you a token copy while Edea still draws.
+- Reanimate — can target an opponent's graveyard, producing a creature you control but do not own and therefore a continuing Edea payoff.
+- Roaming Throne — naming Warlock makes Edea's combat and death triggers trigger an additional time.
+- Sakashima of a Thousand Faces — Edea copy that also suppresses the legend rule for your permanents.
+- Spark Double — nonlegendary Edea copy.
+- Victimize — self-recursion retained because a borrowed creature can pay the sacrifice cost while Edea draws and two engine creatures return.
+- Zara, Renegade Recruiter — steals from an opponent's hand for combat; a stolen creature can be sacrificed before the delayed return.
+
+**Retained — protection / tutors**
+
+- Lightning Greaves — commander protection remains important for a five-mana engine commander.
+- Demonic Tutor — flexible tutor.
+- Diabolic Intent — tutor whose sacrifice cost is synergistic rather than incidental.
+
+**Retained — lands (26 nonbasic/basic names; 31 slots after repeated basics)**
+
+- Badlands
+- Blood Crypt
+- Bloodstained Mire
+- Command Tower
+- Exotic Orchard
+- Haunted Ridge
+- High Market — land-based sacrifice outlet.
+- Island x3
+- Luxury Suite
+- Morphic Pool
+- Mountain x3
+- Otawara, Soaring City
+- Phyrexian Tower — land-based sacrifice outlet and acceleration.
+- Polluted Delta
+- Scalding Tarn
+- Shipwreck Marsh
+- Steam Vents
+- Stormcarved Coast
+- Swamp x3
+- Training Center
+- Underground Sea
+- Urborg, Tomb of Yawgmoth
+- Volcanic Island
+- Watery Grave
+- Xander's Lounge
+
+**Cuts after challenge**
+
+1. **Garland, Royal Kidnapper** — the static clause saying creatures you control but do not own cannot be sacrificed directly shuts off Edea's primary conversion engine for every borrowed creature, not merely Garland's own theft target.
+2. **The Beast, Deathless Prince** — mostly a four-mana one-shot temporary theft spell attached to a body that enters with six stun counters; it loses badly to a multiplayer theft spell in this commander.
+3. **Coercive Recruiter** — the baseline has too few natural Pirate-entry events to justify five mana. Don Andres making a borrowed creature a Pirate does not make that creature enter the battlefield, so it does not retrigger Recruiter.
+4. **Morbid Opportunist** — capped at one trigger each turn; Edea and Grim Haruspex already reward the same death event more efficiently for this deck's burst-sacrifice turns.
+5. **Dictate of Erebos** — strong but redundant with Grave Pact and expensive at five mana. The final slot is more valuable as an effect that multiplies Edea's unique combat trigger rather than as a second generic edict engine.
+6. **Reliquary Tower** — colorless mana and no-maximum-hand-size utility are less important than making Edea's targeted theft work through hexproof/shroud.
+7. **Dragonskull Summit** — avoidable conditional untapped land.
+8. **Drowned Catacomb** — avoidable conditional untapped land.
+9. **Sulfur Falls** — avoidable conditional untapped land.
+
+**Final proposed swaps**
+
+1. `Garland, Royal Kidnapper` -> `Thassa, Deep-Dwelling`
+   - Thassa's end-step blink can target the creature Edea borrowed that turn while you still control it, then returns that card to the battlefield **under your control** as a new object. Edea's temporary-control duration no longer governs that new object, converting a one-turn borrow into lasting control.
+2. `The Beast, Deathless Prince` -> `Mass Mutiny`
+   - In a normal four-player game, Mass Mutiny can borrow up to three creatures for five mana, multiplying Edea-compatible attack/sacrifice material much more efficiently than Beast's single cast trigger.
+3. `Coercive Recruiter` -> `Captivating Crew`
+   - Crew is a repeatable mana sink that can steal a creature in precombat main and leave Edea free to steal another at beginning of combat. It does not depend on a sparse Pirate-entry package.
+4. `Morbid Opportunist` -> `Strionic Resonator`
+   - Resonator can copy Edea's beginning-of-combat theft trigger or her death/draw trigger and remains useful with many other triggers in the deck. This is direct commander multiplication rather than redundant capped draw.
+5. `Dictate of Erebos` -> `Full Throttle`
+   - Full Throttle inserts two additional combat phases. Edea triggers at the beginning of each, so one spell can generate two extra theft events while also untapping prior attackers between combats.
+6. `Reliquary Tower` -> `Arcane Lighthouse`
+   - Lighthouse removes hexproof and shroud from opposing creatures for the turn, directly solving a failure mode of Edea's targeted combat trigger.
+7. `Dragonskull Summit` -> `City of Brass`
+8. `Drowned Catacomb` -> `Mana Confluence`
+9. `Sulfur Falls` -> `Ancient Tomb`
+   - These three land upgrades improve untapped fixing/acceleration. Ancient Tomb is especially valuable for a five-mana commander and the deck's four-to-six-mana engines.
+
+The five nonland additions and five nonland cuts have the **same combined mana value (21)**, so the nonland curve does not increase. Land count remains **35**.
+
+**Candidate exhaustion / adversarial review**
+
+High-impact ranked, stale-audit, EDHREC, and current outside challengers were explicitly tested:
+
+- **Marchesa, the Black Rose (#1 ranked)** — rejected as an Oracle-term false positive. Edea's mandatory death trigger returns a borrowed creature to its owner; whichever order the Marchesa and Edea triggers resolve, the borrowed card changes zones before Marchesa's delayed return can reclaim that same object for you. Marchesa remains good generic aristocrats value, but it is not the best commander-specific slot.
+- **Evereth / Morbid Opportunist / Grim Haruspex / Corrupted Conviction / Skullclamp** — ranking appearances are artifacts of the stale audit snapshot; all were evaluated as actual baseline cards. Only Morbid was cut.
+- **Domineering Will** — capable of borrowing multiple blockers at instant speed, but its combat-condition text is less reliable than Mass Mutiny/Crew and it lost the exact-slot test.
+- **Nasty End** — can draw three when the sacrificed creature is legendary, but costs one more mana than Corrupted Conviction and the stolen target is not reliably legendary.
+- **Cunning Rhetoric** — reactive card access without theft/sacrifice linkage; not commander-first enough.
+- **Conjurer's Closet** — powerful Edea retention engine and the closest omitted card. Thassa performs the same crucial end-step retention job one mana cheaper, is indestructible, and leaves the deck less saturated with five-mana setup pieces.
+- **Chameleon, Master of Disguise** — valid distinct-name Edea copy, but the deck already retains Gogo, Irma, Roaming Throne, Sakashima, Spark Double, and now Resonator. Another four-mana clone had lower marginal value than theft density or extra combats.
+- **Irenicus's Vile Duplication / Quantum Misalignment** — same redundancy conclusion as Chameleon.
+- **Éomer, Marshal of Rohan** — extra combat is conditional on an attacking legendary creature dying; Full Throttle guarantees two additional combats without needing an opponent to supply a suitable legend.
+- **Breath of Fury** — high ceiling but needs a reliable chain of connecting creatures and is less deterministic in this build than Full Throttle.
+- **Sothera, the Supervoid** — excellent death-control engine, but it removes creatures Edea might otherwise borrow and competes with the retained Grave Pact control slot. It did not beat the more commander-specific Full Throttle slot.
+- **Helm of Possession** — strong sacrifice/theft hybrid, but requires six mana before the first activation and staying tapped to preserve control; Thassa/Crew were cleaner engines.
+- **Altar of Dementia / Yawgmoth, Thran Physician / Carrion Feeder / Umbral Collar Zealot** — no sacrifice-outlet shortage remains; existing free outlets plus lands and spell-cost outlets are sufficient.
+- **Come Back Wrong** — flavorful permanent theft/removal, but narrower as interaction than the retained flexible removal package.
+- **Jhoira, Weatherlight Corsair** — current and legal, but six mana and historic-permanent variance make it less Edea-specific than the chosen engines.
+- **Jabs, Mistress of Mockery** — not released until 2026-11-09 as of this 2026-10-14 review, and Edea has no project future-release exception; therefore ineligible for this approval candidate.
+- **Generic staples such as Rhystic Study, Vampiric Tutor, Force of Will, and The One Ring** — individually powerful but did not justify displacing a commander-specific theft/sacrifice/multiplication slot at Edea's natural Bracket-4 ceiling.
+
+**Second serious pass**
+
+After reopening the strongest rejected alternatives against the nine exact swaps, the second pass produced **ZERO NEW MATERIAL IMPROVEMENTS**.
+
+The approval candidate is therefore frozen at SHA-256 `fd560a9b0777088b3ad1684ded030566c894faa206ddf6763b74d95d82c532e4`, pending fresh Oracle/rules/legality verification and the fail-closed complete gate.
+
+### From `refinement/approvals/Edea_Possessed_Sorceress_Approved_2026-10-14.md`
+
+Source: [refinement/approvals/Edea_Possessed_Sorceress_Approved_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/approvals/Edea_Possessed_Sorceress_Approved_2026-10-14.md)
+
+**Edea, Possessed Sorceress — Current-Cycle Approval Record**
+
+**Date:** 2026-10-14  
+**Cycle:** `global-restart-2026-10-13`  
+**Deck:** #16 — Edea, Possessed Sorceress  
+**Status:** **APPROVED / LOCKED**  
+**Canonical approved SHA-256:** `fd560a9b0777088b3ad1684ded030566c894faa206ddf6763b74d95d82c532e4`
+
+**Explicit approval**
+
+The user explicitly approved the exact SHA-bound approval candidate on 2026-10-14. No further card changes are authorized after this approval without an explicit reopen request.
+
+**Approved changes**
+
+1. `Garland, Royal Kidnapper` -> `Thassa, Deep-Dwelling`
+2. `The Beast, Deathless Prince` -> `Mass Mutiny`
+3. `Coercive Recruiter` -> `Captivating Crew`
+4. `Morbid Opportunist` -> `Strionic Resonator`
+5. `Dictate of Erebos` -> `Full Throttle`
+6. `Reliquary Tower` -> `Arcane Lighthouse`
+7. `Dragonskull Summit` -> `City of Brass`
+8. `Drowned Catacomb` -> `Mana Confluence`
+9. `Sulfur Falls` -> `Ancient Tomb`
+
+**Verification basis**
+
+The approved list is the exact candidate that completed the mandatory 99-slot whole-list audit, commander-specific candidate exhaustion, adversarial red-team review, second serious pass with **ZERO NEW MATERIAL IMPROVEMENTS**, fresh Oracle/rules verification, current official Commander legality verification, and the complete fail-closed approval gate.
+
+Complete gate result:
+- Total cards: **100**
+- Distinct names: **94**
+- Repeated names: basic lands only (`Island`, `Mountain`, `Swamp`)
+- Land count: **35**
+- Commander color identity: **B/R/U — PASS**
+- Singleton compliance: **PASS**
+- Rules gate: **PASS**
+- Official Commander legality: **PASS**
+- Project exceptions: **none**
+- Errors: **0**
+- Gate result before user approval: **APPROVAL_READY**
+
+**Canonical artifacts**
+
+- Approved list: `refinement/decklists/Edea_Possessed_Sorceress_Approved_2026-10-14.txt`
+- Approval candidate: `refinement/decklists/Edea_Possessed_Sorceress_Approval_Candidate_2026-10-14.txt`
+- Whole-list / decision record: `refinement/decisions/Edea_Possessed_Sorceress_Current_Cycle_Decisions_2026-10-14.md`
+- Complete gate: `refinement/verification/edea_possessed_sorceress_2026-10-14/gate_output/Edea_Possessed_Sorceress_2026-10-14_Complete_Gate.json`
+- Approval-ready closeout: `refinement/verification/edea_possessed_sorceress_2026-10-14/Edea_Possessed_Sorceress_Approval_Ready_Closeout_2026-10-14.md`
+
+**Final classification**
+
+**Power Bracket 4 — Optimized**  
+**Archidekt tags:** Theft / Sacrifice / Extra Combats
+
+The frozen source-package CSV/TXT exports remain preserved as historical baseline evidence. The current-cycle approved artifact above is now canonical.
+
+<!-- COMBOS:START -->
+## Combos (Commander Spellbook)
+
+> Generated 2026-10-15 by `scripts/build_grixis.py` from the [Commander Spellbook](https://commanderspellbook.com) public API (community-maintained). Shows only combos whose **every card is in this list**. Bracket barometer: *Brackets 1–2: no intentional two-card infinite combos. Bracket 3: no early-game two-card infinite combos.*
+
+**No complete combos found** (126 more are one card away; not listed).
+<!-- COMBOS:END -->

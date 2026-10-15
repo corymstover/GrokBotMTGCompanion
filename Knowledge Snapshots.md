@@ -42,6 +42,7 @@ Rules: tag the **merge commit on `main`** after `verify_cards.py` and `check_lin
 | `v1.6-cycle8-phase2-complete` | a2e241b | Phase 2 (Lore & Story depth) complete |
 | `v1.7-cycle9-phase3-complete` | 63dbeb7 | Phase 3 (Card & Rules enrichment) complete. Merge of PR #55 (Bot cycles 9–13: keywords, printings, legality, tokens, artists). Tagged in Bot cycle 15 |
 | `v1.8-cycle15-phase4-complete` | merge of the Bot cycle 15 PR | Phase 4 (Structure & usability) complete: front-matter, FAQ, Lookup Guide, this page |
+| `v1.9-grixis-integration` | merge of the Bot cycle 16 PR | Grixis section (40 decks, corrections, packages, evaluation of all 62 source lists) and the any-identity deck template, evaluation checklist and `evaluate_decklist.py` |
 
 ## Using a snapshot
 - See the KB as it was: `git checkout v1.6-cycle8-phase2-complete` (then `git checkout main` to return).

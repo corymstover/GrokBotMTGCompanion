@@ -1,0 +1,455 @@
+---
+title: "Grixis Deck — Be'lakor, the Dark Master"
+category: deck
+kind: grixis
+commander: "Be'lakor, the Dark Master"
+color_identity: UBR
+bracket_floor: 4
+game_changers: 5
+validated: true
+source_repo: corymstover/grixis-commander-encyclopediaGPT
+---
+
+# Grixis Deck — Be'lakor, the Dark Master
+
+> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Be_lakor_the_Dark_Master_Approved_2026-10-13.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decklists/Be_lakor_the_Dark_Master_Approved_2026-10-13.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-13; source commit `df1abb9`). Imported in Bot cycle 16 and re-validated against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
+
+## Contents
+- [Commander](#commander)
+- [Validation](#validation)
+- [Bracket assessment](#bracket-assessment)
+- [Corrections applied](#corrections-applied)
+- [Decklist (Archidekt import)](#decklist-archidekt-import)
+- [Card breakdown](#card-breakdown)
+- [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Combos (Commander Spellbook)](#combos-commander-spellbook)
+
+## Commander
+
+- **[Be'lakor, the Dark Master](../../cards/B/be.md#belakor-the-dark-master)** — {3}{U}{B}{R} — Legendary Creature — Demon Noble
+- Color identity: **UBR (Blue, Black, Red)**
+- Eligibility (Be'lakor, the Dark Master): Yes (legendary creature)
+
+## Validation
+
+- Total cards: **100** (1 commander(s) + 63 nonland + 27 nonbasic lands + 9 basics) · average nonland MV 4.08
+- Strict color identity (CR 903.5c), singleton (903.5b), Commander-legal, size (903.5a): ✅ **all checks pass**
+- Every card resolves to an entry in our card DB (94/94 lines linked).
+
+## Bracket assessment
+
+- Game Changers (5): Ancient Tomb, Cyclonic Rift, Demonic Tutor, Fierce Guardianship, Vampiric Tutor
+- Extra-turn cards: none
+- Mass land denial: none
+- Commander Spellbook: 1 complete combo(s), 1 two-card infinite (see [Combos](#combos-commander-spellbook)).
+- **Minimum bracket by the published barometers: 4** (more than three Game Changers).
+- Source's stated target: not stated in the imported records.
+- (Brackets are a pregame-conversation tool. See [EDH Standards](../../EDH%20Standards.md#power-bracket-assessment).)
+
+## Corrections applied
+
+| Type | Change | Reason |
+|---|---|---|
+| format | Archidekt list normalized to [EDH Standards](../../EDH%20Standards.md#list-format-archidekt) | `[Commander]` → `[Commander{top}]` (1 line(s)); role tags restored on 91 untagged line(s): 90 from this deck's FINAL baseline, 1 from the tag the source uses most for that card in other decks; 2 untagged line(s) given a type tag (e.g. `[Land]`). |
+| bracket | Game Changers and combo floor added | The source records no Game Changer count and does not check the official Game Changers list anywhere in its approval records. We added it: **5 Game Changers**, so the minimum bracket is **4**. Commander Spellbook finds 1 complete combos (1 two-card infinite). |
+
+Full log for all decks: [Grixis Corrections](../Grixis%20Corrections.md).
+
+## Decklist (Archidekt import)
+
+```text
+1x Be'lakor, the Dark Master [Commander{top}]
+1x Abyssal Harvester [Recursion]
+1x Ancient Cellarspawn [Ramp]
+1x Ancient Tomb [Land]
+1x Arcane Signet [Ramp]
+1x Archfiend of Depravity [Removal]
+1x Archfiend of Despair [Burn]
+1x Badlands [Land]
+1x Balor [Removal]
+1x Bedevil [Removal]
+1x Blasphemous Act [Removal]
+1x Blood Crypt [Land]
+1x Bloodletter of Aclazotz [Drain]
+1x Bloodstained Mire [Land]
+1x Bloodthirster [Finisher]
+1x Bojuka Bog [Land]
+1x Burning-Rune Demon [Tutor]
+1x Cavern of Souls [Land]
+1x Chaos Defiler [Removal]
+1x Chaos Warp [Removal]
+1x Command Tower [Land]
+1x Crumbling Necropolis [Land]
+1x Cyclonic Rift [Removal]
+1x Dark Ritual [Ramp]
+1x Deadly Rollick [Removal]
+1x Deflecting Swat [Protection]
+1x Demon of Dark Schemes [Removal]
+1x Demonic Counsel [Tutor]
+1x Demonic Tutor [Tutor]
+1x Spark Double [Copy]
+1x Dragonskull Summit [Land]
+1x Drowned Catacomb [Land]
+1x Exotic Orchard [Land]
+1x Feed the Swarm [Removal]
+1x Fellwar Stone [Ramp]
+1x Fierce Guardianship [Removal]
+1x Foreboding Ruins [Land]
+1x Ghostly Flicker [Blink]
+1x Great Unclean One [Tokens]
+1x Gyruda, Doom of Depths [Mill]
+1x Heartless Summoning [Ramp]
+1x Herald of Slaanesh [Ramp]
+3x Island [Land]
+1x Kardur, Doomscourge [Protection]
+1x Kindred Discovery [Draw]
+1x Liliana's Contract [Draw]
+1x Lord of Change [Draw]
+1x Luxury Suite [Land]
+1x Mana Drain [Removal]
+1x Molten Echoes [Copy]
+1x Morphic Pool [Land]
+2x Mountain [Land]
+1x Orcus, Prince of Undeath [Recursion]
+1x Otawara, Soaring City [Land]
+1x Panharmonicon [Blink]
+1x Path of Ancestry [Land]
+1x Patriarch's Bidding [Recursion]
+1x Polluted Delta [Land]
+1x Rakdos Signet [Ramp]
+1x Rakdos, Lord of Riots [Ramp]
+1x Rakdos, Patron of Chaos [Draw]
+1x Rakdos, the Showstopper [Removal]
+1x Dream Devourer [Creature]
+1x Reanimate [Recursion]
+1x Doom Whisperer [Creature]
+1x Reflections of Littjara [Copy]
+1x Rite of Replication [Copy]
+1x Roaming Throne [Copy]
+1x Rune-Scarred Demon [Tutor]
+1x Scalding Tarn [Land]
+1x Sneak Attack [Ramp]
+1x Sol Ring [Ramp]
+1x Sower of Discord [Burn]
+1x Steam Vents [Land]
+1x Sulfur Falls [Land]
+1x Sunken Hollow [Land]
+4x Swamp [Land]
+1x Talisman of Creativity [Ramp]
+1x Talisman of Dominance [Ramp]
+1x Talisman of Indulgence [Ramp]
+1x Toxic Deluge [Removal]
+1x Training Center [Land]
+1x Underground Sea [Land]
+1x Unholy Annex // Ritual Chamber [Draw]
+1x Urborg, Tomb of Yawgmoth [Land]
+1x Urza's Incubator [Ramp]
+1x Valgavoth, Terror Eater [Theft]
+1x Vampiric Tutor [Tutor]
+1x Vilis, Broker of Blood [Draw]
+1x Volcanic Island [Land]
+1x Warstorm Surge [Removal]
+1x Watery Grave [Land]
+1x Whip of Erebos [Recursion]
+1x Xander's Lounge [Land]
+```
+
+## Card breakdown
+
+Role tags are the source author's (untagged lines show the card type). *Printing* is the source's pinned printing, if it pinned one.
+
+| Card | Role (source tag) | Type | MV | Identity | GC | Printing |
+|---|---|---|---|---|---|---|
+| [Be'lakor, the Dark Master](../../cards/B/be.md#belakor-the-dark-master) | Commander | Legendary Creature — Demon Noble | 6 | UBR |  | — |
+| [Ghostly Flicker](../../cards/G/gh.md#ghostly-flicker) | Blink | Instant | 3 | U |  | — |
+| [Panharmonicon](../../cards/P/pa.md#panharmonicon) | Blink | Artifact | 4 | C |  | — |
+| [Archfiend of Despair](../../cards/A/arc.md#archfiend-of-despair) | Burn | Creature — Demon | 8 | B |  | — |
+| [Sower of Discord](../../cards/S/so.md#sower-of-discord) | Burn | Creature — Demon | 6 | B |  | — |
+| [Molten Echoes](../../cards/M/mol.md#molten-echoes) | Copy | Enchantment | 4 | R |  | — |
+| [Reflections of Littjara](../../cards/R/ref.md#reflections-of-littjara) | Copy | Enchantment | 5 | U |  | — |
+| [Rite of Replication](../../cards/R/ri.md#rite-of-replication) | Copy | Sorcery | 4 | U |  | — |
+| [Roaming Throne](../../cards/R/ro.md#roaming-throne) | Copy | Artifact Creature — Golem | 4 | C |  | — |
+| [Spark Double](../../cards/S/spa.md#spark-double) | Copy | Creature — Illusion | 4 | U |  | — |
+| [Doom Whisperer](../../cards/D/do.md#doom-whisperer) | Creature | Creature — Nightmare Demon | 5 | B |  | — |
+| [Dream Devourer](../../cards/D/dre.md#dream-devourer) | Creature | Creature — Demon Cleric | 2 | B |  | — |
+| [Bloodletter of Aclazotz](../../cards/B/blo.md#bloodletter-of-aclazotz) | Drain | Creature — Vampire Demon | 4 | B |  | — |
+| [Kindred Discovery](../../cards/K/ki.md#kindred-discovery) | Draw | Enchantment | 5 | U |  | — |
+| [Liliana's Contract](../../cards/L/li.md#lilianas-contract) | Draw | Enchantment | 5 | B |  | — |
+| [Lord of Change](../../cards/L/lo.md#lord-of-change) | Draw | Creature — Demon | 7 | U |  | — |
+| [Rakdos, Patron of Chaos](../../cards/R/rak.md#rakdos-patron-of-chaos) | Draw | Legendary Creature — Demon | 6 | BR |  | — |
+| [Unholy Annex // Ritual Chamber](../../cards/U/un.md#unholy-annex--ritual-chamber) | Draw | Enchantment — Room // Enchantment — Room | 8 | B |  | — |
+| [Vilis, Broker of Blood](../../cards/V/vi.md#vilis-broker-of-blood) | Draw | Legendary Creature — Demon | 8 | B |  | — |
+| [Bloodthirster](../../cards/B/blo.md#bloodthirster) | Finisher | Creature — Demon | 6 | R |  | — |
+| [Ancient Tomb](../../cards/A/an.md#ancient-tomb) | Land | Land | 0 | C | ✅ | — |
+| [Badlands](../../cards/B/bad.md#badlands) | Land | Land — Swamp Mountain | 0 | BR |  | — |
+| [Blood Crypt](../../cards/B/blo.md#blood-crypt) | Land | Land — Swamp Mountain | 0 | BR |  | — |
+| [Bloodstained Mire](../../cards/B/blo.md#bloodstained-mire) | Land | Land | 0 | C |  | — |
+| [Bojuka Bog](../../cards/B/bo.md#bojuka-bog) | Land | Land | 0 | B |  | — |
+| [Cavern of Souls](../../cards/C/cav.md#cavern-of-souls) | Land | Land | 0 | C |  | — |
+| [Command Tower](../../cards/C/com.md#command-tower) | Land | Land | 0 | C |  | — |
+| [Crumbling Necropolis](../../cards/C/cr.md#crumbling-necropolis) | Land | Land | 0 | UBR |  | — |
+| [Dragonskull Summit](../../cards/D/dra.md#dragonskull-summit) | Land | Land | 0 | BR |  | — |
+| [Drowned Catacomb](../../cards/D/dro.md#drowned-catacomb) | Land | Land | 0 | UB |  | — |
+| [Exotic Orchard](../../cards/E/ex.md#exotic-orchard) | Land | Land | 0 | C |  | — |
+| [Foreboding Ruins](../../cards/F/fo.md#foreboding-ruins) | Land | Land | 0 | BR |  | — |
+| [Island](../../cards/I/is.md#island) (×3) | Land | Basic Land — Island | 0 | U |  | — |
+| [Luxury Suite](../../cards/L/lu.md#luxury-suite) | Land | Land | 0 | BR |  | — |
+| [Morphic Pool](../../cards/M/mor.md#morphic-pool) | Land | Land | 0 | UB |  | — |
+| [Mountain](../../cards/M/mou.md#mountain) (×2) | Land | Basic Land — Mountain | 0 | R |  | — |
+| [Otawara, Soaring City](../../cards/O/ot.md#otawara-soaring-city) | Land | Legendary Land | 0 | U |  | — |
+| [Path of Ancestry](../../cards/P/pa.md#path-of-ancestry) | Land | Land | 0 | C |  | — |
+| [Polluted Delta](../../cards/P/po.md#polluted-delta) | Land | Land | 0 | C |  | — |
+| [Scalding Tarn](../../cards/S/sc.md#scalding-tarn) | Land | Land | 0 | C |  | — |
+| [Steam Vents](../../cards/S/ste.md#steam-vents) | Land | Land — Island Mountain | 0 | UR |  | — |
+| [Sulfur Falls](../../cards/S/sul.md#sulfur-falls) | Land | Land | 0 | UR |  | — |
+| [Sunken Hollow](../../cards/S/sun.md#sunken-hollow) | Land | Land — Island Swamp | 0 | UB |  | — |
+| [Swamp](../../cards/S/sw.md#swamp) (×4) | Land | Basic Land — Swamp | 0 | B |  | — |
+| [Training Center](../../cards/T/tra.md#training-center) | Land | Land | 0 | UR |  | — |
+| [Underground Sea](../../cards/U/un.md#underground-sea) | Land | Land — Island Swamp | 0 | UB |  | — |
+| [Urborg, Tomb of Yawgmoth](../../cards/U/ur.md#urborg-tomb-of-yawgmoth) | Land | Legendary Land | 0 | C |  | — |
+| [Volcanic Island](../../cards/V/vo.md#volcanic-island) | Land | Land — Island Mountain | 0 | UR |  | — |
+| [Watery Grave](../../cards/W/wat.md#watery-grave) | Land | Land — Island Swamp | 0 | UB |  | — |
+| [Xander's Lounge](../../cards/X/xa.md#xanders-lounge) | Land | Land — Island Swamp Mountain | 0 | UBR |  | — |
+| [Gyruda, Doom of Depths](../../cards/G/gy.md#gyruda-doom-of-depths) | Mill | Legendary Creature — Demon Kraken | 6 | UB |  | — |
+| [Deflecting Swat](../../cards/D/def.md#deflecting-swat) | Protection | Instant | 3 | R |  | — |
+| [Kardur, Doomscourge](../../cards/K/ka.md#kardur-doomscourge) | Protection | Legendary Creature — Demon Berserker | 4 | BR |  | — |
+| [Ancient Cellarspawn](../../cards/A/an.md#ancient-cellarspawn) | Ramp | Enchantment Creature — Horror | 3 | B |  | — |
+| [Arcane Signet](../../cards/A/arc.md#arcane-signet) | Ramp | Artifact | 2 | C |  | — |
+| [Dark Ritual](../../cards/D/da.md#dark-ritual) | Ramp | Instant | 1 | B |  | — |
+| [Fellwar Stone](../../cards/F/fe.md#fellwar-stone) | Ramp | Artifact | 2 | C |  | — |
+| [Heartless Summoning](../../cards/H/he.md#heartless-summoning) | Ramp | Enchantment | 2 | B |  | — |
+| [Herald of Slaanesh](../../cards/H/he.md#herald-of-slaanesh) | Ramp | Creature — Demon | 3 | R |  | — |
+| [Rakdos Signet](../../cards/R/rak.md#rakdos-signet) | Ramp | Artifact | 2 | BR |  | — |
+| [Rakdos, Lord of Riots](../../cards/R/rak.md#rakdos-lord-of-riots) | Ramp | Legendary Creature — Demon | 4 | BR |  | — |
+| [Sneak Attack](../../cards/S/sn.md#sneak-attack) | Ramp | Enchantment | 4 | R |  | — |
+| [Sol Ring](../../cards/S/so.md#sol-ring) | Ramp | Artifact | 1 | C |  | — |
+| [Talisman of Creativity](../../cards/T/ta.md#talisman-of-creativity) | Ramp | Artifact | 2 | UR |  | — |
+| [Talisman of Dominance](../../cards/T/ta.md#talisman-of-dominance) | Ramp | Artifact | 2 | UB |  | — |
+| [Talisman of Indulgence](../../cards/T/ta.md#talisman-of-indulgence) | Ramp | Artifact | 2 | BR |  | — |
+| [Urza's Incubator](../../cards/U/ur.md#urzas-incubator) | Ramp | Artifact | 3 | C |  | — |
+| [Abyssal Harvester](../../cards/A/ab.md#abyssal-harvester) | Recursion | Creature — Demon Warlock | 3 | B |  | — |
+| [Orcus, Prince of Undeath](../../cards/O/or.md#orcus-prince-of-undeath) | Recursion | Legendary Creature — Demon | 4 | BR |  | — |
+| [Patriarch's Bidding](../../cards/P/pa.md#patriarchs-bidding) | Recursion | Sorcery | 5 | B |  | — |
+| [Reanimate](../../cards/R/rea.md#reanimate) | Recursion | Sorcery | 1 | B |  | — |
+| [Whip of Erebos](../../cards/W/wh.md#whip-of-erebos) | Recursion | Legendary Enchantment Artifact | 4 | B |  | — |
+| [Archfiend of Depravity](../../cards/A/arc.md#archfiend-of-depravity) | Removal | Creature — Demon | 5 | B |  | — |
+| [Balor](../../cards/B/bal.md#balor) | Removal | Creature — Demon | 5 | R |  | — |
+| [Bedevil](../../cards/B/be.md#bedevil) | Removal | Instant | 3 | BR |  | — |
+| [Blasphemous Act](../../cards/B/bla.md#blasphemous-act) | Removal | Sorcery | 9 | R |  | — |
+| [Chaos Defiler](../../cards/C/cha.md#chaos-defiler) | Removal | Artifact Creature — Demon Construct | 5 | BR |  | — |
+| [Chaos Warp](../../cards/C/cha.md#chaos-warp) | Removal | Instant | 3 | R |  | — |
+| [Cyclonic Rift](../../cards/C/cy.md#cyclonic-rift) | Removal | Instant | 2 | U | ✅ | — |
+| [Deadly Rollick](../../cards/D/dea.md#deadly-rollick) | Removal | Instant | 4 | B |  | — |
+| [Demon of Dark Schemes](../../cards/D/dem.md#demon-of-dark-schemes) | Removal | Creature — Demon | 6 | B |  | — |
+| [Feed the Swarm](../../cards/F/fe.md#feed-the-swarm) | Removal | Sorcery | 2 | B |  | — |
+| [Fierce Guardianship](../../cards/F/fi.md#fierce-guardianship) | Removal | Instant | 3 | U | ✅ | — |
+| [Mana Drain](../../cards/M/man.md#mana-drain) | Removal | Instant | 2 | U |  | — |
+| [Rakdos, the Showstopper](../../cards/R/rak.md#rakdos-the-showstopper) | Removal | Legendary Creature — Demon | 6 | BR |  | — |
+| [Toxic Deluge](../../cards/T/to.md#toxic-deluge) | Removal | Sorcery | 3 | B |  | — |
+| [Warstorm Surge](../../cards/W/war.md#warstorm-surge) | Removal | Enchantment | 6 | R |  | — |
+| [Valgavoth, Terror Eater](../../cards/V/va.md#valgavoth-terror-eater) | Theft | Legendary Creature — Elder Demon | 9 | B |  | — |
+| [Great Unclean One](../../cards/G/gre.md#great-unclean-one) | Tokens | Creature — Demon | 5 | B |  | — |
+| [Burning-Rune Demon](../../cards/B/bu.md#burning-rune-demon) | Tutor | Creature — Demon Berserker | 6 | B |  | — |
+| [Demonic Counsel](../../cards/D/dem.md#demonic-counsel) | Tutor | Sorcery | 2 | B |  | — |
+| [Demonic Tutor](../../cards/D/dem.md#demonic-tutor) | Tutor | Sorcery | 2 | B | ✅ | — |
+| [Rune-Scarred Demon](../../cards/R/ru.md#rune-scarred-demon) | Tutor | Creature — Demon | 7 | B |  | — |
+| [Vampiric Tutor](../../cards/V/va.md#vampiric-tutor) | Tutor | Instant | 1 | B | ✅ | — |
+
+## Source commentary (verbatim)
+
+> Quoted from the source repo with headings turned into bold text. This is **the source author's analysis and opinion (guidance)**, from `grixis-commander-encyclopediaGPT`, path shown above each block. Relative links point back to the source. Rules statements here were not re-verified card by card (see [Grixis Corrections](../Grixis%20Corrections.md#oracle-text-check) for the Oracle check). Where the source mentions Lutri, Trade Secrets or Yawgmoth's Bargain as approved exceptions, our corrected list above takes precedence.
+
+### From `refinement/blueprints/Be_lakor__the_Dark_Master_v1.md`
+
+Source: [refinement/blueprints/Be_lakor__the_Dark_Master_v1.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/blueprints/Be_lakor__the_Dark_Master_v1.md)
+
+**Be'lakor, the Dark Master — commander-first working blueprint**
+
+Status: WORKING, NOT APPROVAL_READY. Deck #7 in tracker order, after user-approved Ashnod (#6).
+
+Frozen baseline: GrixisFINALTXT60--2026.zip / Be_lakor__the_Dark_Master.txt. Preserve exactly as supplied; no approved edits yet.
+
+**Commander identity**
+Be'lakor is a six-mana Grixis Demon Noble with two distinct payoff axes: ETB draws cards and loses life equal to Demons controlled; every **other Demon entering under your control** deals damage equal to its power to any target. Therefore optimization should balance Demon density and meaningful power, ETB multipliers, token/copy effects, blink/reanimation, and life-total management. Do not convert into generic Grixis reanimator/control or force cEDH.
+
+**Baseline engines to protect pending verification**
+- Molten Echoes, Reflections of Littjara, Roaming Throne, Panharmonicon, Rite of Replication: multiplication of Demon arrivals/trigger volume, with text and legend-rule details requiring precise review.
+- Liliana's Contract: Demon count and distinct Demon-name alternate victory; verify upkeep timing and life loss.
+- Sneak Attack, Patriarch's Bidding, Reanimate, Whip of Erebos, Herald of Slaanesh, Heartless Summoning: deploy or recur expensive Demons, with nonbo and power reduction checks.
+- Archfiend of Despair, Bloodletter of Aclazotz, Sower of Discord: damage amplification; distinguish life loss from damage and timing.
+- Gyruda, Doom of Depths, Burning-Rune Demon, Rakdos, the Showstopper: value and risk of high-variance triggers.
+
+**Candidate screen priorities**
+- Varragoth, Bloodsky Sire (rank 1), Dream Devourer (rank 2), Bloodcrusher of Khorne (rank 3): assess low-curve Demon density and deployment setup against existing 6-8 mana creature congestion.
+- Full top-100 candidate ranking must be reviewed without auto-inclusion. Each replacement must preserve Be'lakor-specific identity.
+
+**Mandatory next checks**
+1. Reconcile exact baseline counts, source hashes, singleton and 3-color identity; inspect project audit freshness.
+2. Evaluate all 99 noncommander slots and 100 candidates with explicit dispositions.
+3. Verify Oracle/rulings for copies, legends, ETB multipliers, triggers, and death/recursion timing; legality.
+4. Evaluate curve, Demon density, colored mana, life-payment exposure, and winning lines; red-team.
+5. Prepare a full verified 100-card proposal only at approval gate. Do not lock without user approval.
+
+**Prior deck status**
+Ashnod explicit approval recorded at refinement/approvals/Ashnod_the_Uncaring_Approved_2026-10-13.md, with approved decklist at refinement/decklists/Ashnod_the_Uncaring_Approved_2026-10-13.txt. Central registry synchronization is blocked by connector safety checks; do not treat absence of registry entry as permission to reopen Ashnod.
+
+### From `refinement/blueprints/Belakor_the_Dark_Master_v1.md`
+
+Source: [refinement/blueprints/Belakor_the_Dark_Master_v1.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/blueprints/Belakor_the_Dark_Master_v1.md)
+
+**Be'lakor, the Dark Master — Commander-First Blueprint**
+
+**Refinement date:** 2026-10-13  
+**Frozen baseline:** `GrixisFINALTXT60--2026.zip`, member `Be_lakor__the_Dark_Master.txt`  
+**Frozen baseline SHA-256:** `9b0e16a43add999252504948aa3104666a342bf4f8c80b758a2d9f65649fe6c7`
+
+**Commander identity**
+
+Be'lakor is a Demon-tribal commander whose entry draws cards equal to the number of Demons you control, and whenever another Demon enters under your control, Be'lakor deals damage equal to that Demon's power to any target. The deck is built around Demon density, powerful Demon enter-the-battlefield triggers, token/copy effects, and ways to make the tribe attack profitably.
+
+**Baseline identity retained**
+
+The baseline's Demon core and supporting engines remain intact: Demon cost reduction (Herald of Slaanesh, Urza's Incubator, Ancient Cellarspawn, Heartless Summoning), Demon-copy effects (Molten Echoes, Reflections of Littjara, Roaming Throne, Rite of Replication), ETB multipliers/payoffs (Panharmonicon, Warstorm Surge), and reanimation/recursion (Abyssal Harvester, Orcus, Reanimate, Patriarch's Bidding, Whip of Erebos). This is not being converted into a generic Grixis goodstuff deck.
+
+**Auto-approved refinement**
+
+**Cut Raphael, Fiendish Savior; add Ardyn, the Usurper.** Raphael is a five-mana support creature that gives Demons, Devils, and Imps +1/+1 and lifelink, with recursion for Devils. Ardyn costs eight mana and does not itself count as a Demon, but its tribal ability grants Demons menace, lifelink, and haste. At the beginning of combat on your turn, it can exile a creature card from any graveyard and create a token copy of it, except the token is a 5/5 black Demon.
+
+This is a major commander-first engine upgrade: Ardyn can make a Demon every turn, and each created token is a Demon entering under your control, so Be'lakor triggers and deals damage equal to that token's power. If the copied creature has an ETB ability, that ability also triggers. Haste lets the new Demon attack immediately, while menace and lifelink improve combat and racing.
+
+The tradeoff is real: Ardyn costs eight mana, does not receive Demon-specific discounts from Herald of Slaanesh or Urza's Incubator, and loses Raphael's +1/+1 bonus and Devil recursion. The baseline has several other cost reducers and multiple lifelink/combat tools; the repeatable graveyard-copy engine is judged the higher ceiling for this optimized Demon tribal deck.
+
+Project candidate ranking: #6 for Be'lakor; 42.2672% EDHREC inclusion and 21.916164 lift in a 11,962-deck snapshot. Current EDHREC lists Ardyn around 42% inclusion and 22x lift for Be'lakor. No gameplay win-rate claim is made.
+
+### From `refinement/decisions/Belakor_the_Dark_Master_Candidate_Decisions_2026-10-13.csv` (candidate decision ledger)
+
+Source: [refinement/decisions/Belakor_the_Dark_Master_Candidate_Decisions_2026-10-13.csv](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decisions/Belakor_the_Dark_Master_Candidate_Decisions_2026-10-13.csv)
+
+| ID | Candidate | Proposed cut | Decision | Source reasoning (abridged) |
+|---|---|---|---|---|
+| BEL-001 | Ardyn, the Usurper | Raphael, Fiendish Savior | AUTO-APPROVED/LOCKED — standing user instruction; all requir | Project candidate rank #6. EDHREC Be'lakor page reports about 42% inclusion and 22x lift. Chosen for commander-specific Demon entry triggers and combat engine, not popularity alone. |
+
+### From `refinement/approvals/Be_lakor_the_Dark_Master_Approved_2026-10-13.md`
+
+Source: [refinement/approvals/Be_lakor_the_Dark_Master_Approved_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/approvals/Be_lakor_the_Dark_Master_Approved_2026-10-13.md)
+
+**Be'lakor, the Dark Master — explicit approval and lock**
+
+Cycle: global-restart-2026-10-13
+Date: 2026-10-13
+Deck number: 7
+Approval: APPROVED by explicit user instruction
+Lock: LOCKED — preserve exact approved decklist unless user explicitly reopens
+Decklist: refinement/decklists/Be_lakor_the_Dark_Master_Approved_2026-10-13.txt
+Card count: 100 including commander
+
+Approved changes from frozen baseline:
+- Raphael, Fiendish Savior -> Dream Devourer
+- Reaper from the Abyss -> Doom Whisperer
+- Demonlord Belzenlok -> Spark Double
+
+Approval gate evidence: refinement/evidence/Be_lakor_the_Dark_Master_Approval_Gate_Dossier_2026-10-13.md.
+
+Important: historical auto-approved Ardyn list is not the approved current-cycle list. The approved version is the three-swap proposal identified above.
+
+Central state/current_deck_overrides.json is stale and missing approved decks 6 and 7. Attempts to update this registry through GitHub are blocked by tool safety checks; approval evidence and exact decklists are recorded separately and must not be overridden by the stale registry.
+
+### From `refinement/evidence/Be_lakor__the_Dark_Master_Whole_List_Working_Audit_2026-10-13.md`
+
+Source: [refinement/evidence/Be_lakor__the_Dark_Master_Whole_List_Working_Audit_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/evidence/Be_lakor__the_Dark_Master_Whole_List_Working_Audit_2026-10-13.md)
+
+**Be'lakor deck #7 — full-list comparative audit working record**
+
+Cycle global-restart-2026-10-13. STATUS: WORKING, not approval-ready; no user approval or lock.
+
+Frozen baseline GrixisFINALTXT60--2026.zip / Be_lakor__the_Dark_Master.txt SHA-256 9b0e16a43add999252504948aa3104666a342bf4f8c80b758a2d9f65649fe6c7; 100 cards, 94 distinct names, 36 lands, 99 noncommander card copies.
+
+The inherited v8.1.4 card audit is **stale** for this baseline. Five names in the frozen source are missing from the inherited deck audit: Abyssal Harvester, Ancient Cellarspawn, Heartless Summoning, Demonlord Belzenlok, Reaper from the Abyss. Five names in the inherited audit are no longer in the frozen baseline: Kindred Dominance, Essence Flux, Herald's Horn, Quicksilver Amulet, Harvester of Souls. The five missing baseline cards occur in the ranked candidate research and have archived Oracle text, but archived research does not replace a current live legality check.
+
+**Tentative three-swap shortlist (NOT FINAL)**
+- Raphael, Fiendish Savior -> Dream Devourer: Raphael is a Devil not Demon, while Dream Devourer is a two-mana Demon that can bank expensive cards through foretell. Foretell is delayed, incurs two mana to exile, and cannot be cast the same turn. Dream Devourer's 0 base power makes Be'lakor damage trigger minimal; the cheaper Demon deployment is the principal argument.
+- Reaper from the Abyss -> Doom Whisperer: five-mana 6/6 Demon with flying, trample and repeatable life-for-surveil versus six-mana conditional end-step non-Demon removal. Surveil is valuable with reanimation, but life spending compounds Be'lakor draw loss.
+- Demonlord Belzenlok -> Spark Double: four-mana copy of Be'lakor (nonlegendary) or another Demon. Copying Be'lakor creates another Demon ETB card-draw trigger, triggers original Be'lakor damage for the entering copied Demon, and adds another persistent damage-trigger source; the copy's +1/+1 counter applies. Sacrifices a high-mana Demon body and Belzenlok's high-variance draw.
+
+**Key retained cards**
+Molten Echoes, Reflections of Littjara, Roaming Throne, Panharmonicon, Rite of Replication, Liliana's Contract, Sneak Attack, Patriarch's Bidding, Reanimate, Whip of Erebos, Herald of Slaanesh, Heartless Summoning, Archfiend of Despair, Bloodletter of Aclazotz, Sower of Discord, Bloodthirster, Warstorm Surge.
+
+**Important red-team issues**
+- Panharmonicon doubles Be'lakor's own ETB draw/life loss; this is not free advantage when life is low.
+- Molten Echoes copying legendary Demons may invoke legend rule, though ETB triggers still occur. Copies entering as Demons trigger Be'lakor; nonlegendary-copy solutions avoid legend-rule losses.
+- Be'lakor's damage trigger checks the entering Demon's power as it resolves; the original Be'lakor does not damage on its own entry. Its draw ETB includes itself in Demon count.
+- Liliana's Contract alternate win requires four Demons with different names at upkeep; copies of same named Demon do not meet diversity.
+- Spark Double is not inherently a Demon in hand or on stack; its Demon typing comes from copying on entry. This matters to Demon cost reducers.
+- Blood Speaker (candidate rank 39) is not a Demon, so its recursion/tutor merits do not improve Demon count. High-impact comparison retained.
+- 36-land manabase unchanged. Need verify colored-source sufficiency and life-cost density before finalization.
+
+**Remaining gates**
+Current Oracle/Commander legality/color identity verification for the full proposed 100-card list, detailed high-impact alternative closure including Dream Devourer vs Varragoth and Blood Speaker, rigorous mana/curve and consistency evaluation, final red-team, zero-new-material-improvement stop, exact list SHA and user approval request. No lock or advance without approval.
+
+References: https://mtg.wtf/card/prm/88276/Dream-Devourer ; https://mtg.wtf/card/grn/69/Doom-Whisperer ; https://mtg.wtf/card/cmm/856/Spark-Double ; https://media.wizards.com/2023/downloads/RVR_Release_Notes_XrN0zlJaFn/EN_MTGRVR_ReleaseNotes_20231120.pdf
+
+### From `refinement/evidence/Be_lakor_the_Dark_Master_Approval_Gate_Dossier_2026-10-13.md`
+
+Source: [refinement/evidence/Be_lakor_the_Dark_Master_Approval_Gate_Dossier_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/evidence/Be_lakor_the_Dark_Master_Approval_Gate_Dossier_2026-10-13.md)
+
+**Be'lakor, the Dark Master — Approval Gate Dossier (2026-10-13)**
+
+**Cycle:** global-restart-2026-10-13. **State:** APPROVAL_REQUESTED — NOT APPROVED — NOT LOCKED. Prior historical auto-approved/locked file is superseded as a proposal, not a user authorization. Decks #1–6 remain preserved.
+
+**Authoritative baseline and proposed list**
+- Frozen baseline: GrixisFINALTXT60--2026.zip / Be_lakor__the_Dark_Master.txt, SHA-256 9b0e16a43add999252504948aa3104666a342bf4f8c80b758a2d9f65649fe6c7.
+- Proposed list: refinement/decklists/Be_lakor_the_Dark_Master_Approval_Proposal_2026-10-13.txt, exactly 100 cards including commander, 94 distinct names, 36 lands; repeated basic lands only (Island 3, Mountain 2, Swamp 4).
+- Three changes: Raphael, Fiendish Savior -> Dream Devourer; Reaper from the Abyss -> Doom Whisperer; Demonlord Belzenlok -> Spark Double.
+- The previous artifact refinement/decklists/Be_lakor_the_Dark_Master_Final_2026-10-13.txt contains an unapproved historical Ardyn swap and must NOT be treated as current-cycle approved.
+
+**Strategic rationale and costs**
+1. Raphael -> Dream Devourer: Raphael is a Devil (not Demon) and its anthem/recursion is less direct; Dream Devourer is a two-mana Demon and foretell staging engine for expensive spells. Dream Devourer has zero base power, so entering normally contributes zero damage to Be'lakor until pumped; foretell costs 2 mana to stage and cannot be cast that turn. Accept the tradeoff for curve and Demon density.
+2. Reaper from the Abyss -> Doom Whisperer: **Reaper IS a Demon**, 6/6 for 3BBB with conditional morbid destroy at end step. Doom Whisperer is 6/6 Demon for 3BB, with flying, trample, pay 2 life to surveil 2, providing earlier same-power commander ETB damage and graveyard setup. Life payments are dangerous alongside Be'lakor and Vilis; surveil is optional.
+3. Demonlord Belzenlok -> Spark Double: Belzenlok is a six-mana 6/6 Demon with potentially uncontrolled topdeck-exile card advantage and damage to controller. Spark Double is a four-mana non-Demon creature in hand, but as it enters copying Be'lakor becomes a nonlegendary Demon with a +1/+1 counter, triggers original Be'lakor's damage ability and its own ETB draw/life loss, and creates a second permanent Be'lakor damage engine. It is less effective if commander is absent.
+
+**Commander and key rules red-team**
+- Be'lakor: 3UBR 6/5 Demon Noble; ETB draws X and loses X life where X is number of Demons controlled as trigger resolves (including Be'lakor). Whenever **another** Demon you control enters, **that entering Demon** deals damage equal to its power to any target. Original Be'lakor entering does not trigger its own Lord of Torment.
+- Ancient Cellarspawn is a **Horror**, NOT Demon; retained as cost reducer and discounted-spell life-loss engine. It does not directly cause Be'lakor ETB damage.
+- Abyssal Harvester is a 3-mana Demon and its token retains the original creature's Demon type only if the copied creature was a Demon; it adds Nightmare, and exiles other Nightmare tokens.
+- Panharmonicon can double Be'lakor's own ETB draw AND life loss. Roaming Throne naming Demon doubles triggered abilities of Demon permanents. Molten Echoes and Reflections of Littjara create Demon copies and may involve legend-rule deaths, but ETB triggers still occur.
+- Liliana's Contract requires four Demons with different names at upkeep; multiple copies of same named Demon are insufficient.
+- Heartless Summoning gives creatures -1/-1, reduces Be'lakor's power-damage output, and can kill 1/1 Demon tokens. Retained because the deck's high creature costs justify reduction, but this is a real nonbo.
+- Spark Double's copy is nonlegendary, so no legend-rule sacrifice of Be'lakor. Its own ETB triggers as the copied creature enters, and the original Be'lakor sees another Demon entering.
+- Bloodletter of Aclazotz and Archfiend of Despair multiply life pressure, but timing and damage versus life loss must be respected.
+
+**Research, legality, and performance**
+- Reviewed all 99 noncommander card copies (93 noncommander card-name rows, with basic-land multiplicities) and screened all 100 ranked candidates, with rationale and a high-impact shortlist. Key rejected alternatives: Varragoth (attack/boast timing), Blood Speaker (not Demon, delayed tutor), Ardyn (eight-mana non-Demon), Bloodcrusher (combat dependence), Razaketh (eight mana), Animate Dead (redundancy), Thassa/Closet (non-Demon setup), Nightmare Shepherd (1/1 copies lose Be'lakor damage).
+- Project v8.1.4 inherited audit was stale relative to frozen baseline: baseline-only Abyssal Harvester, Ancient Cellarspawn, Heartless Summoning, Demonlord Belzenlok, Reaper from the Abyss. Legacy-only Kindred Dominance, Essence Flux, Herald's Horn, Quicksilver Amulet, Harvester of Souls. Do not silently swap lists. Archived card-level audit covers 88/93 noncommander distinct names; targeted current card-reference checks support the five missing baseline names and all three additions. This is not a claim of individual live Scryfall API checks on every card.
+- Current reference pages confirm Be'lakor, Dream Devourer, Doom Whisperer, Spark Double, Reaper, Belzenlok, Ancient Cellarspawn and Abyssal Harvester as Commander-legal, and their relevant Oracle text. The 2026-10-12 banned/restricted announcement makes no Commander format changes. No unexpected ban or color-identity conflict found in baseline archive or additions. No project-specific exceptions needed.
+- Lands: 36 of 99 noncommander copies. Hypergeometric, before mulligans or ramp: P(0–1 lands in opening 7) = 20.15%; P(0–1 lands in first 10 cards) = 6.29%. These are structural calculations, NOT multiplayer win-rate estimates. Lands and ramp preserved across swaps.
+- No matched-start simulator or representative multiplayer testing conducted; no claimed empirical win-rate improvement. The zero-material-improvement stopping rule is qualitative: after 100 ranked-candidate review, no remaining candidate demonstrated a clear commander-specific gain without displacing higher-leverage slots. This does not prove global optimality.
+
+**Evidence and sources**
+- https://mtg.wtf/card/40k/6/Be-lakor-the-Dark-Master
+- https://mtg.wtf/card/pkhm/90p/Dream-Devourer
+- https://mtg.wtf/card/grn/69/Doom-Whisperer
+- https://mtg.wtf/card/war/68/Spark-Double
+- https://mtg.wtf/card/j25/480/Reaper-from-the-Abyss
+- https://mtg.wtf/card/dsc/16/Ancient-Cellarspawn
+- https://mtg.wtf/card/fdn/54/Abyssal-Harvester
+- https://mtg.wtf/card/dom/86/Demonlord-Belzenlok
+- https://edhrec.com/commanders/belakor-the-dark-master/demons
+
+**Approval request**
+The 100-card list and three changes are proposed for the user's **explicit approval**. Do not lock or advance to deck #8 until approval is granted. Preserve the six already approved decks.
+
+### Further source evidence (linked, not copied)
+
+- [refinement/verification/Belakor_the_Dark_Master_Final_Verification_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/verification/Belakor_the_Dark_Master_Final_Verification_2026-10-13.md)
+
+<!-- COMBOS:START -->
+## Combos (Commander Spellbook)
+
+> Generated 2026-10-15 by `scripts/build_grixis.py` from the [Commander Spellbook](https://commanderspellbook.com) public API (community-maintained). Shows only combos whose **every card is in this list**. Bracket barometer: *Brackets 1–2: no intentional two-card infinite combos. Bracket 3: no early-game two-card infinite combos.*
+
+**1 complete combo(s); 1 two-card infinite.** 79 more are one card away (not listed).
+
+| Cards | Produces (Spellbook) | Extra requirements | Link |
+|---|---|---|---|
+| ⚠️ **two-card infinite** · Be'lakor, the Dark Master + Rite of Replication | Near-infinite card draw, Near-infinite damage, Near-infinite draw triggers | — | [1744-4071](https://commanderspellbook.com/combo/1744-4071/) |
+<!-- COMBOS:END -->

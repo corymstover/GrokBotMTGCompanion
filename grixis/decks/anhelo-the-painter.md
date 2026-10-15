@@ -1,0 +1,348 @@
+---
+title: "Grixis Deck — Anhelo, the Painter"
+category: deck
+kind: grixis
+commander: "Anhelo, the Painter"
+color_identity: UBR
+bracket_floor: 4
+game_changers: 7
+validated: true
+source_repo: corymstover/grixis-commander-encyclopediaGPT
+---
+
+# Grixis Deck — Anhelo, the Painter
+
+> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Anhelo_the_Painter_Approval_Ready_2026-10-13.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decklists/Anhelo_the_Painter_Approval_Ready_2026-10-13.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-13; source commit `df1abb9`). Imported in Bot cycle 16 and re-validated against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
+
+## Contents
+- [Commander](#commander)
+- [Validation](#validation)
+- [Bracket assessment](#bracket-assessment)
+- [Corrections applied](#corrections-applied)
+- [Decklist (Archidekt import)](#decklist-archidekt-import)
+- [Card breakdown](#card-breakdown)
+- [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Combos (Commander Spellbook)](#combos-commander-spellbook)
+
+## Commander
+
+- **[Anhelo, the Painter](../../cards/A/an.md#anhelo-the-painter)** — {U}{B}{R} — Legendary Creature — Vampire Assassin
+- Color identity: **UBR (Blue, Black, Red)**
+- Eligibility (Anhelo, the Painter): Yes (legendary creature)
+
+## Validation
+
+- Total cards: **100** (1 commander(s) + 65 nonland + 25 nonbasic lands + 9 basics) · average nonland MV 2.83
+- Strict color identity (CR 903.5c), singleton (903.5b), Commander-legal, size (903.5a): ✅ **all checks pass**
+- Every card resolves to an entry in our card DB (94/94 lines linked).
+
+## Bracket assessment
+
+- Game Changers (7): Cyclonic Rift, Demonic Tutor, Fierce Guardianship, Jeska's Will, Mystical Tutor, Underworld Breach, Vampiric Tutor
+- Extra-turn cards: Time Warp
+- Mass land denial: none
+- Commander Spellbook: 8 complete combo(s), 5 two-card infinite (see [Combos](#combos-commander-spellbook)).
+- **Minimum bracket by the published barometers: 4** (more than three Game Changers).
+- Source's stated target: not stated in the imported records.
+- (Brackets are a pregame-conversation tool. See [EDH Standards](../../EDH%20Standards.md#power-bracket-assessment).)
+
+## Corrections applied
+
+| Type | Change | Reason |
+|---|---|---|
+| format | Archidekt list normalized to [EDH Standards](../../EDH%20Standards.md#list-format-archidekt) | `[Commander]` → `[Commander{top}]` (1 line(s)); role tags restored on 90 untagged line(s): 89 from this deck's FINAL baseline, 1 from the tag the source uses most for that card in other decks; 3 untagged line(s) given a type tag (e.g. `[Land]`). |
+| provenance | approved list located by content | The SHA-256 recorded in the source's `state/current_deck_overrides.json` matches none of its files. We used `refinement/decklists/Anhelo_the_Painter_Approval_Ready_2026-10-13.txt`, which matches the deck's Card_Verification CSV card for card. |
+| bracket | Game Changers and combo floor added | The source records no Game Changer count and does not check the official Game Changers list anywhere in its approval records. We added it: **7 Game Changers**, so the minimum bracket is **4**. Commander Spellbook finds 8 complete combos (5 two-card infinite). |
+
+Full log for all decks: [Grixis Corrections](../Grixis%20Corrections.md).
+
+## Decklist (Archidekt import)
+
+```text
+1x Anhelo, the Painter [Commander{top}]
+1x A Little Chat [Draw]
+1x An Offer You Can't Refuse [Removal]
+1x Arcane Signet [Ramp]
+1x Archmage Emeritus [Draw]
+1x Army of the Damned [Tokens]
+1x Badlands [Land]
+1x Baral and Kari Zev [Tokens]
+1x Big Score [Draw]
+1x Black Market Connections [Draw]
+1x Blood Crypt [Land]
+1x Bloodghast [Recursion]
+1x Bloodstained Mire [Land]
+1x Cascade Bluffs [Land]
+1x Chaos Warp [Removal]
+1x Command Tower [Land]
+1x Cormela, Glamour Thief [Ramp]
+1x Counterspell [Removal]
+1x Crackle with Power [Burn]
+1x Cryptic Pursuit [Enchantment]
+1x Cyclonic Rift [Removal]
+1x Dark Ritual [Ramp]
+1x Deadly Rollick [Removal]
+1x Deflecting Swat [Protection]
+1x Demonic Tutor [Tutor]
+1x Dig Through Time [Draw]
+1x Dimir Signet [Ramp]
+1x Deekah, Fractal Theorist [Creature]
+1x Dualcaster Mage [Copy]
+1x Exotic Orchard [Land]
+1x Feed the Swarm [Removal]
+1x Fellwar Stone [Ramp]
+1x Fierce Guardianship [Removal]
+1x Startle [Instant]
+1x Frantic Search [Draw]
+1x Jadar, Ghoulcaller of Nephalia [Tokens]
+1x Galvanic Iteration [Copy]
+1x Ghoulish Procession [Tokens]
+1x Goblin Electromancer [Ramp]
+1x Haunted Ridge [Land]
+3x Island [Land]
+1x Izzet Signet [Ramp]
+1x Jeska's Will [Ramp]
+1x Judith, Carnage Connoisseur [Tokens]
+1x Kess, Dissident Mage [Recursion]
+1x Lagomos, Hand of Hatred [Tokens]
+1x Luxury Suite [Land]
+1x Maestros Ascendancy [Recursion]
+1x Maestros Charm [Removal]
+1x Mana Confluence [Land]
+1x Mana Drain [Removal]
+1x Mana Geyser [Ramp]
+1x Morphic Pool [Land]
+3x Mountain [Land]
+1x Mystical Tutor [Tutor]
+1x Narset's Reversal [Removal]
+1x Otawara, Soaring City [Land]
+1x Polluted Delta [Land]
+1x Poppet Stitcher // Poppet Factory [Tokens]
+1x Preordain [Draw]
+1x Primal Amulet // Primal Wellspring [Ramp]
+1x Rakdos Signet [Ramp]
+1x Ral, Storm Conduit [Copy]
+1x Reiterate [Copy]
+1x Scalding Tarn [Land]
+1x Shipwreck Marsh [Land]
+1x Shivan Reef [Land]
+1x Snapcaster Mage [Recursion]
+1x Sol Ring [Ramp]
+1x Steam Vents [Land]
+1x Storm-Kiln Artist [Ramp]
+1x Stormcarved Coast [Land]
+1x Sulfur Falls [Land]
+3x Swamp [Land]
+1x Talisman of Creativity [Ramp]
+1x Talisman of Dominance [Ramp]
+1x Talisman of Indulgence [Ramp]
+1x Talrand, Sky Summoner [Tokens]
+1x Thunderclap Drake [Ramp]
+1x Time Warp [Finisher]
+1x Torment of Hailfire [Finisher]
+1x Toxic Deluge [Removal]
+1x Training Center [Land]
+1x Twinflame [Copy]
+1x Twinning Staff [Copy]
+1x Undercity Sewers [Land]
+1x Underground Sea [Land]
+1x Underworld Breach [Recursion]
+1x Urborg, Tomb of Yawgmoth [Land]
+1x Vampiric Tutor [Tutor]
+1x Veyran, Voice of Duality [Copy]
+1x Volcanic Island [Land]
+1x Watery Grave [Land]
+1x Xander's Lounge [Land]
+```
+
+## Card breakdown
+
+Role tags are the source author's (untagged lines show the card type). *Printing* is the source's pinned printing, if it pinned one.
+
+| Card | Role (source tag) | Type | MV | Identity | GC | Printing |
+|---|---|---|---|---|---|---|
+| [Anhelo, the Painter](../../cards/A/an.md#anhelo-the-painter) | Commander | Legendary Creature — Vampire Assassin | 3 | UBR |  | — |
+| [Crackle with Power](../../cards/C/cr.md#crackle-with-power) | Burn | Sorcery | 2 | R |  | — |
+| [Dualcaster Mage](../../cards/D/du.md#dualcaster-mage) | Copy | Creature — Human Wizard | 3 | R |  | — |
+| [Galvanic Iteration](../../cards/G/ga.md#galvanic-iteration) | Copy | Instant | 2 | UR |  | — |
+| [Ral, Storm Conduit](../../cards/R/ral.md#ral-storm-conduit) | Copy | Legendary Planeswalker — Ral | 4 | UR |  | — |
+| [Reiterate](../../cards/R/rei.md#reiterate) | Copy | Instant | 3 | R |  | — |
+| [Twinflame](../../cards/T/tw.md#twinflame) | Copy | Sorcery | 2 | R |  | — |
+| [Twinning Staff](../../cards/T/tw.md#twinning-staff) | Copy | Artifact | 3 | C |  | — |
+| [Veyran, Voice of Duality](../../cards/V/ve.md#veyran-voice-of-duality) | Copy | Legendary Creature — Efreet Wizard | 3 | UR |  | — |
+| [Deekah, Fractal Theorist](../../cards/D/dee.md#deekah-fractal-theorist) | Creature | Legendary Creature — Human Wizard | 5 | U |  | — |
+| [A Little Chat](../../cards/A/al.md#a-little-chat) | Draw | Instant | 2 | U |  | — |
+| [Archmage Emeritus](../../cards/A/arc.md#archmage-emeritus) | Draw | Creature — Human Wizard | 4 | U |  | — |
+| [Big Score](../../cards/B/bi.md#big-score) | Draw | Instant | 4 | R |  | — |
+| [Black Market Connections](../../cards/B/bla.md#black-market-connections) | Draw | Enchantment | 3 | B |  | — |
+| [Dig Through Time](../../cards/D/di.md#dig-through-time) | Draw | Instant | 8 | U |  | — |
+| [Frantic Search](../../cards/F/fr.md#frantic-search) | Draw | Instant | 3 | U |  | — |
+| [Preordain](../../cards/P/pr.md#preordain) | Draw | Sorcery | 1 | U |  | — |
+| [Cryptic Pursuit](../../cards/C/cr.md#cryptic-pursuit) | Enchantment | Enchantment | 4 | UR |  | — |
+| [Time Warp](../../cards/T/ti.md#time-warp) | Finisher | Sorcery | 5 | U |  | — |
+| [Torment of Hailfire](../../cards/T/to.md#torment-of-hailfire) | Finisher | Sorcery | 2 | B |  | — |
+| [Startle](../../cards/S/sta.md#startle) | Instant | Instant | 2 | U |  | — |
+| [Badlands](../../cards/B/bad.md#badlands) | Land | Land — Swamp Mountain | 0 | BR |  | — |
+| [Blood Crypt](../../cards/B/blo.md#blood-crypt) | Land | Land — Swamp Mountain | 0 | BR |  | — |
+| [Bloodstained Mire](../../cards/B/blo.md#bloodstained-mire) | Land | Land | 0 | C |  | — |
+| [Cascade Bluffs](../../cards/C/cas.md#cascade-bluffs) | Land | Land | 0 | UR |  | — |
+| [Command Tower](../../cards/C/com.md#command-tower) | Land | Land | 0 | C |  | — |
+| [Exotic Orchard](../../cards/E/ex.md#exotic-orchard) | Land | Land | 0 | C |  | — |
+| [Haunted Ridge](../../cards/H/ha.md#haunted-ridge) | Land | Land | 0 | BR |  | — |
+| [Island](../../cards/I/is.md#island) (×3) | Land | Basic Land — Island | 0 | U |  | — |
+| [Luxury Suite](../../cards/L/lu.md#luxury-suite) | Land | Land | 0 | BR |  | — |
+| [Mana Confluence](../../cards/M/man.md#mana-confluence) | Land | Land | 0 | C |  | — |
+| [Morphic Pool](../../cards/M/mor.md#morphic-pool) | Land | Land | 0 | UB |  | — |
+| [Mountain](../../cards/M/mou.md#mountain) (×3) | Land | Basic Land — Mountain | 0 | R |  | — |
+| [Otawara, Soaring City](../../cards/O/ot.md#otawara-soaring-city) | Land | Legendary Land | 0 | U |  | — |
+| [Polluted Delta](../../cards/P/po.md#polluted-delta) | Land | Land | 0 | C |  | — |
+| [Scalding Tarn](../../cards/S/sc.md#scalding-tarn) | Land | Land | 0 | C |  | — |
+| [Shipwreck Marsh](../../cards/S/shi.md#shipwreck-marsh) | Land | Land | 0 | UB |  | — |
+| [Shivan Reef](../../cards/S/shi.md#shivan-reef) | Land | Land | 0 | UR |  | — |
+| [Steam Vents](../../cards/S/ste.md#steam-vents) | Land | Land — Island Mountain | 0 | UR |  | — |
+| [Stormcarved Coast](../../cards/S/sto.md#stormcarved-coast) | Land | Land | 0 | UR |  | — |
+| [Sulfur Falls](../../cards/S/sul.md#sulfur-falls) | Land | Land | 0 | UR |  | — |
+| [Swamp](../../cards/S/sw.md#swamp) (×3) | Land | Basic Land — Swamp | 0 | B |  | — |
+| [Training Center](../../cards/T/tra.md#training-center) | Land | Land | 0 | UR |  | — |
+| [Undercity Sewers](../../cards/U/un.md#undercity-sewers) | Land | Land — Island Swamp | 0 | UB |  | — |
+| [Underground Sea](../../cards/U/un.md#underground-sea) | Land | Land — Island Swamp | 0 | UB |  | — |
+| [Urborg, Tomb of Yawgmoth](../../cards/U/ur.md#urborg-tomb-of-yawgmoth) | Land | Legendary Land | 0 | C |  | — |
+| [Volcanic Island](../../cards/V/vo.md#volcanic-island) | Land | Land — Island Mountain | 0 | UR |  | — |
+| [Watery Grave](../../cards/W/wat.md#watery-grave) | Land | Land — Island Swamp | 0 | UB |  | — |
+| [Xander's Lounge](../../cards/X/xa.md#xanders-lounge) | Land | Land — Island Swamp Mountain | 0 | UBR |  | — |
+| [Deflecting Swat](../../cards/D/def.md#deflecting-swat) | Protection | Instant | 3 | R |  | — |
+| [Arcane Signet](../../cards/A/arc.md#arcane-signet) | Ramp | Artifact | 2 | C |  | — |
+| [Cormela, Glamour Thief](../../cards/C/cor.md#cormela-glamour-thief) | Ramp | Legendary Creature — Vampire Rogue | 4 | UBR |  | — |
+| [Dark Ritual](../../cards/D/da.md#dark-ritual) | Ramp | Instant | 1 | B |  | — |
+| [Dimir Signet](../../cards/D/di.md#dimir-signet) | Ramp | Artifact | 2 | UB |  | — |
+| [Fellwar Stone](../../cards/F/fe.md#fellwar-stone) | Ramp | Artifact | 2 | C |  | — |
+| [Goblin Electromancer](../../cards/G/gob.md#goblin-electromancer) | Ramp | Creature — Goblin Wizard | 2 | UR |  | — |
+| [Izzet Signet](../../cards/I/iz.md#izzet-signet) | Ramp | Artifact | 2 | UR |  | — |
+| [Jeska's Will](../../cards/J/je.md#jeskas-will) | Ramp | Sorcery | 3 | R | ✅ | — |
+| [Mana Geyser](../../cards/M/man.md#mana-geyser) | Ramp | Sorcery | 5 | R |  | — |
+| [Primal Amulet // Primal Wellspring](../../cards/P/pr.md#primal-amulet--primal-wellspring) | Ramp | Artifact // Land | 4 | C |  | — |
+| [Rakdos Signet](../../cards/R/rak.md#rakdos-signet) | Ramp | Artifact | 2 | BR |  | — |
+| [Sol Ring](../../cards/S/so.md#sol-ring) | Ramp | Artifact | 1 | C |  | — |
+| [Storm-Kiln Artist](../../cards/S/sto.md#storm-kiln-artist) | Ramp | Creature — Dwarf Shaman | 4 | R |  | — |
+| [Talisman of Creativity](../../cards/T/ta.md#talisman-of-creativity) | Ramp | Artifact | 2 | UR |  | — |
+| [Talisman of Dominance](../../cards/T/ta.md#talisman-of-dominance) | Ramp | Artifact | 2 | UB |  | — |
+| [Talisman of Indulgence](../../cards/T/ta.md#talisman-of-indulgence) | Ramp | Artifact | 2 | BR |  | — |
+| [Thunderclap Drake](../../cards/T/thu.md#thunderclap-drake) | Ramp | Creature — Drake | 2 | U |  | — |
+| [Bloodghast](../../cards/B/blo.md#bloodghast) | Recursion | Creature — Vampire Spirit | 2 | B |  | — |
+| [Kess, Dissident Mage](../../cards/K/ke.md#kess-dissident-mage) | Recursion | Legendary Creature — Human Wizard | 4 | UBR |  | — |
+| [Maestros Ascendancy](../../cards/M/mae.md#maestros-ascendancy) | Recursion | Enchantment | 3 | UBR |  | — |
+| [Snapcaster Mage](../../cards/S/sn.md#snapcaster-mage) | Recursion | Creature — Human Wizard | 2 | U |  | — |
+| [Underworld Breach](../../cards/U/un.md#underworld-breach) | Recursion | Enchantment | 2 | R | ✅ | — |
+| [An Offer You Can't Refuse](../../cards/A/an.md#an-offer-you-cant-refuse) | Removal | Instant | 1 | U |  | — |
+| [Chaos Warp](../../cards/C/cha.md#chaos-warp) | Removal | Instant | 3 | R |  | — |
+| [Counterspell](../../cards/C/cou.md#counterspell) | Removal | Instant | 2 | U |  | — |
+| [Cyclonic Rift](../../cards/C/cy.md#cyclonic-rift) | Removal | Instant | 2 | U | ✅ | — |
+| [Deadly Rollick](../../cards/D/dea.md#deadly-rollick) | Removal | Instant | 4 | B |  | — |
+| [Feed the Swarm](../../cards/F/fe.md#feed-the-swarm) | Removal | Sorcery | 2 | B |  | — |
+| [Fierce Guardianship](../../cards/F/fi.md#fierce-guardianship) | Removal | Instant | 3 | U | ✅ | — |
+| [Maestros Charm](../../cards/M/mae.md#maestros-charm) | Removal | Instant | 3 | UBR |  | — |
+| [Mana Drain](../../cards/M/man.md#mana-drain) | Removal | Instant | 2 | U |  | — |
+| [Narset's Reversal](../../cards/N/na.md#narsets-reversal) | Removal | Instant | 2 | U |  | — |
+| [Toxic Deluge](../../cards/T/to.md#toxic-deluge) | Removal | Sorcery | 3 | B |  | — |
+| [Army of the Damned](../../cards/A/arm.md#army-of-the-damned) | Tokens | Sorcery | 8 | B |  | — |
+| [Baral and Kari Zev](../../cards/B/bar.md#baral-and-kari-zev) | Tokens | Legendary Creature — Human | 3 | UR |  | — |
+| [Ghoulish Procession](../../cards/G/gh.md#ghoulish-procession) | Tokens | Enchantment | 2 | B |  | — |
+| [Jadar, Ghoulcaller of Nephalia](../../cards/J/ja.md#jadar-ghoulcaller-of-nephalia) | Tokens | Legendary Creature — Human Wizard | 2 | B |  | — |
+| [Judith, Carnage Connoisseur](../../cards/J/ju.md#judith-carnage-connoisseur) | Tokens | Legendary Creature — Human Shaman | 5 | BR |  | — |
+| [Lagomos, Hand of Hatred](../../cards/L/la.md#lagomos-hand-of-hatred) | Tokens | Legendary Creature — Human Shaman | 3 | BR |  | — |
+| [Poppet Stitcher // Poppet Factory](../../cards/P/po.md#poppet-stitcher--poppet-factory) | Tokens | Creature — Human Wizard // Artifact | 3 | U |  | — |
+| [Talrand, Sky Summoner](../../cards/T/ta.md#talrand-sky-summoner) | Tokens | Legendary Creature — Merfolk Wizard | 4 | U |  | — |
+| [Demonic Tutor](../../cards/D/dem.md#demonic-tutor) | Tutor | Sorcery | 2 | B | ✅ | — |
+| [Mystical Tutor](../../cards/M/my.md#mystical-tutor) | Tutor | Instant | 1 | U | ✅ | — |
+| [Vampiric Tutor](../../cards/V/va.md#vampiric-tutor) | Tutor | Instant | 1 | B | ✅ | — |
+
+## Source commentary (verbatim)
+
+> Quoted from the source repo with headings turned into bold text. This is **the source author's analysis and opinion (guidance)**, from `grixis-commander-encyclopediaGPT`, path shown above each block. Relative links point back to the source. Rules statements here were not re-verified card by card (see [Grixis Corrections](../Grixis%20Corrections.md#oracle-text-check) for the Oracle check). Where the source mentions Lutri, Trade Secrets or Yawgmoth's Bargain as approved exceptions, our corrected list above takes precedence.
+
+### From `refinement/blueprints/Anhelo_the_Painter_v1.md`
+
+Source: [refinement/blueprints/Anhelo_the_Painter_v1.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/blueprints/Anhelo_the_Painter_v1.md)
+
+**Anhelo, the Painter — Commander-First Refinement Blueprint v1**
+
+**Cycle started:** 2026-10-13  
+**Status:** Baseline established; candidate review in progress; no deck changes proposed or made.  
+**Deck index:** 3 (deck 4 of 62; zero-based tracker index)  
+**Frozen source:** `GrixisFINALTXT60--2026.zip`, member `Anhelo__the_Painter.txt`  
+**Frozen TXT SHA-256:** `60da19b0969ef944f5e44bed99f7ad5f17afa935271149cc82aca965b765cf25`  
+**Baseline size:** 100 cards, including commander. Frozen exports must remain unchanged.
+
+**Commander identity and core game plan**
+
+Anhelo, the Painter is a Grixis Vampire Assassin with deathtouch. The first instant or sorcery spell its controller casts each turn gains casualty 2: while casting that spell, its controller may sacrifice a creature with power 2 or greater to copy the spell, with new targets available for the copy.
+
+The defining engine is therefore not generic Grixis spellslinger alone. It is **repeatable spell duplication funded by expendable creatures**, potentially on each player's turn. The list should maintain enough creatures/tokens with power 2 or greater to pay casualty without sacrificing its key engines, then maximize the value of copied instants and sorceries.
+
+**Initial baseline read**
+
+The frozen list already has several relevant packages:
+
+- **Token / casualty fodder:** Army of the Damned, Baral and Kari Zev, Ghoulish Procession, Judith, Carnage Connoisseur, Lagomos, Hand of Hatred, Poppet Stitcher, Talrand, Sky Summoner, and Talrand's Invocation.
+- **Spell-copy and spell-value payoffs:** Double Vision, Flawless Forgery, Fury Storm, Galvanic Iteration, Reiterate, Ral, Storm Conduit, Twinflame, Twinning Staff, and Veyran, Voice of Duality.
+- **Spell recursion / reuse:** Kess, Dissident Mage, Maestros Ascendancy, Snapcaster Mage, and Underworld Breach.
+- **Ramp and cost support:** Goblin Electromancer, Storm-Kiln Artist, Thunderclap Drake, Jeska's Will, Mana Geyser, and the existing artifact ramp package.
+- **Finishers:** Crackle with Power, Torment of Hailfire, Army of the Damned, and Time Warp as a high-value copied spell.
+
+This is a preliminary structural read, not a verdict that every listed card is optimal. The next review must test whether the current token supply reliably provides a creature with power 2 or greater, whether the expensive copy effects overlap too heavily, and whether each candidate increases Anhelo's unique casualty plan rather than merely being popular.
+
+**Candidate research leads — not automatic recommendations**
+
+The current project ranking places Dogged Detective, Sinister Concierge, Maestros Confluence, Deekah, Fractal Theorist, Mystic Confluence, Exsanguinate, Metallurgic Summonings, Squee, the Immortal, River's Rebuke, Drawn from Dreams, and Timeline Culler among early review candidates. Some are already in the baseline (including Maestros Charm and Flawless Forgery); others require card-by-card comparison against the actual list.
+
+EDHREC's current commander page and optimized/core spellslinger lists are supplementary evidence. They show recurring themes of spellslinger, spell copy, tokens, and aristocrats, but popularity alone does not justify a swap. Any candidate must be assessed for casualty eligibility, copied-spell ceiling, mana efficiency, role overlap, and a specific cut.
+
+**Verification requirements before final approval**
+
+1. Preserve the frozen baseline and record the exact proposed one-for-one card deltas.
+2. Independently recount exactly 100 cards, check singleton compliance, commander color identity, and official Commander legality (including any documented project exception, if applicable).
+3. Verify current Oracle text and relevant casualty/copy rules for Anhelo and every proposed card.
+4. Evaluate whether the proposed change improves the commander-specific plan and explain its tradeoff.
+5. Present the proposed changes for user approval. Do not alter the canonical decklist or mark the deck approved/locked before explicit approval of the exact revised list.
+
+**External reference**
+
+- EDHREC Anhelo commander page: https://edhrec.com/commanders/anhelo-the-painter
+- EDHREC optimized spellslinger view: https://edhrec.com/commanders/anhelo-the-painter/optimized/spellslinger
+- EDHREC core spellslinger view: https://edhrec.com/commanders/anhelo-the-painter/core/spellslinger
+
+### From `refinement/decisions/Anhelo_the_Painter_Candidate_Decisions_2026-10-13.csv` (candidate decision ledger)
+
+Source: [refinement/decisions/Anhelo_the_Painter_Candidate_Decisions_2026-10-13.csv](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decisions/Anhelo_the_Painter_Candidate_Decisions_2026-10-13.csv)
+
+| ID | Candidate | Proposed cut | Decision | Source reasoning (abridged) |
+|---|---|---|---|---|
+| ANH-001 | Cryptic Pursuit | Talrand's Invocation | APPROVED/LOCKED — exact revised list approved 2026-10-13; fu | Project top-100 ranking did not include Cryptic Pursuit; selected using external EDHREC core evidence and direct Oracle/rules review. Keep Ghoulish Procession for casualty-related token value. |
+| ANH-002 | Jadar, Ghoulcaller of Nephalia |  | REVIEWED — not selected in first pass; reconsider if fodder  | Jadar creates its token only at end step and only if no decayed creature is controlled; it is not immediate fodder on the turn cast. |
+| ANH-003 | Startle |  | REVIEWED — hold as an alternative; no cut selected. | Project candidate rank 25; not selected to avoid overloading the deck with low-impact token/cantrip spells. |
+| ANH-004 | Rotten Reunion |  | REVIEWED — hold; no cut selected. | Project candidate rank 27; retained as an alternative, not selected over Cryptic Pursuit. |
+
+### Further source evidence (linked, not copied)
+
+- [refinement/verification/Anhelo_the_Painter_99_Slot_Audit_Working_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/verification/Anhelo_the_Painter_99_Slot_Audit_Working_2026-10-13.md)
+- [refinement/verification/Anhelo_the_Painter_Approval_Ready_Closeout_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/verification/Anhelo_the_Painter_Approval_Ready_Closeout_2026-10-13.md)
+- [refinement/verification/Anhelo_the_Painter_Proposed_Final_Verification_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/verification/Anhelo_the_Painter_Proposed_Final_Verification_2026-10-13.md)
+
+<!-- COMBOS:START -->
+## Combos (Commander Spellbook)
+
+> Generated 2026-10-15 by `scripts/build_grixis.py` from the [Commander Spellbook](https://commanderspellbook.com) public API (community-maintained). Shows only combos whose **every card is in this list**. Bracket barometer: *Brackets 1–2: no intentional two-card infinite combos. Bracket 3: no early-game two-card infinite combos.*
+
+**8 complete combo(s); 5 two-card infinite.** 121 more are one card away (not listed).
+
+| Cards | Produces (Spellbook) | Extra requirements | Link |
+|---|---|---|---|
+| ⚠️ **two-card infinite** · Twinning Staff + Narset's Reversal | Infinite magecraft triggers | — | [11-2539](https://commanderspellbook.com/combo/11-2539/) |
+| ⚠️ **two-card infinite** · Narset's Reversal + Reiterate | Infinite magecraft triggers | — | [11-3368](https://commanderspellbook.com/combo/11-3368/) |
+| ⚠️ **two-card infinite** · Dualcaster Mage + Twinflame | Infinite creature LTB, Infinite creature ETB, Infinite creature tokens with haste, Infinite magecraft triggers | — | [147-1235](https://commanderspellbook.com/combo/147-1235/) |
+| ⚠️ **two-card infinite** · Reiterate + Jeska's Will | Infinite magecraft triggers, Infinite red mana, Infinite storm count, Exile your library with the ability to play the exiled cards until end of turn | — | [1878-3368](https://commanderspellbook.com/combo/1878-3368/) |
+| ⚠️ **two-card infinite** · Reiterate + Mana Geyser | Infinite magecraft triggers, Infinite red mana, Infinite storm count | — | [2091-3368](https://commanderspellbook.com/combo/2091-3368/) |
+| Primal Amulet // Primal Wellspring + Frantic Search + Narset's Reversal | Infinite draw triggers, Infinite looting, Near-infinite magecraft triggers, Near-infinite mana lands you control can produce | — | [11-1484-2196](https://commanderspellbook.com/combo/11-1484-2196/) |
+| Cormela, Glamour Thief + Storm-Kiln Artist + Twinflame | Infinite artifact ETB, Infinite artifact LTB, Infinite black mana that can only be spent to cast instant and sorcery spells, Infinite blue mana that can only be spent to cast instant and sorcery spells | — | [1235-4867-5195](https://commanderspellbook.com/combo/1235-4867-5195/) |
+| Primal Amulet // Primal Wellspring + Frantic Search + Reiterate | Infinite draw triggers, Infinite looting, Infinite self-discard triggers, Near-infinite magecraft triggers | — | [1484-2196-3368](https://commanderspellbook.com/combo/1484-2196-3368/) |
+<!-- COMBOS:END -->

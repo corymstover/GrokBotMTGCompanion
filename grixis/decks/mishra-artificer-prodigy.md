@@ -1,0 +1,434 @@
+---
+title: "Grixis Deck — Mishra, Artificer Prodigy"
+category: deck
+kind: grixis
+commander: "Mishra, Artificer Prodigy"
+color_identity: UBR
+bracket_floor: 4
+game_changers: 15
+validated: true
+source_repo: corymstover/grixis-commander-encyclopediaGPT
+---
+
+# Grixis Deck — Mishra, Artificer Prodigy
+
+> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Mishra_Artificer_Prodigy_Approved_2026-10-15.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decklists/Mishra_Artificer_Prodigy_Approved_2026-10-15.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-15; source commit `df1abb9`). Imported in Bot cycle 16 and re-validated against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
+
+## Contents
+- [Commander](#commander)
+- [Validation](#validation)
+- [Bracket assessment](#bracket-assessment)
+- [Corrections applied](#corrections-applied)
+- [Decklist (Archidekt import)](#decklist-archidekt-import)
+- [Card breakdown](#card-breakdown)
+- [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Combos (Commander Spellbook)](#combos-commander-spellbook)
+
+## Commander
+
+- **[Mishra, Artificer Prodigy](../../cards/M/mis.md#mishra-artificer-prodigy)** — {1}{U}{B}{R} — Legendary Creature — Human Artificer
+- Color identity: **UBR (Blue, Black, Red)**
+- Eligibility (Mishra, Artificer Prodigy): Yes (legendary creature)
+
+## Validation
+
+- Total cards: **100** (1 commander(s) + 70 nonland + 26 nonbasic lands + 3 basics) · average nonland MV 2.66
+- Strict color identity (CR 903.5c), singleton (903.5b), Commander-legal, size (903.5a): ✅ **all checks pass**
+- Every card resolves to an entry in our card DB (100/100 lines linked).
+
+## Bracket assessment
+
+- Game Changers (15): Ancient Tomb, Bolas's Citadel, Chrome Mox, Cyclonic Rift, Demonic Tutor, Fierce Guardianship, Force of Will, Gamble, Grim Monolith, Mana Vault, Mishra's Workshop, Mox Diamond, Rhystic Study, The One Ring, Vampiric Tutor
+- Extra-turn cards: none
+- Mass land denial: none
+- Commander Spellbook: 20 complete combo(s), 1 two-card infinite (see [Combos](#combos-commander-spellbook)).
+- **Minimum bracket by the published barometers: 4** (more than three Game Changers).
+- Source's stated target (guidance): **Bracket 5 — cEDH (fringe / commander-centric artifact stax-combo**.
+- (Brackets are a pregame-conversation tool. See [EDH Standards](../../EDH%20Standards.md#power-bracket-assessment).)
+
+## Corrections applied
+
+| Type | Change | Reason |
+|---|---|---|
+| format | Archidekt list normalized to [EDH Standards](../../EDH%20Standards.md#list-format-archidekt) | `[Commander]` → `[Commander{top}]` (1 line(s)); role tags restored on 95 untagged line(s): 87 from this deck's FINAL baseline, 8 from the tag the source uses most for that card in other decks; 4 untagged line(s) given a type tag (e.g. `[Land]`). |
+| bracket | Game Changers and combo floor added | The source records no Game Changer count and does not check the official Game Changers list anywhere in its approval records. We added it: **15 Game Changers**, so the minimum bracket is **4**. Commander Spellbook finds 20 complete combos (1 two-card infinite). This is consistent with the source's stated Bracket 5. |
+
+Full log for all decks: [Grixis Corrections](../Grixis%20Corrections.md).
+
+## Decklist (Archidekt import)
+
+```text
+1x Mishra, Artificer Prodigy [Commander{top}]
+1x Academy Ruins [Land]
+1x Aetherflux Reservoir [Lifegain]
+1x Ancient Tomb [Land]
+1x Arcane Signet [Ramp]
+1x Badlands [Land]
+1x Blood Crypt [Land]
+1x Blood Funnel [Ramp]
+1x Bloodstained Mire [Land]
+1x Bolas's Citadel [Draw]
+1x Chalice of the Void [Stax]
+1x Chrome Mox [Ramp]
+1x City of Brass [Land]
+1x Cloud Key [Ramp]
+1x Command Tower [Land]
+1x Cyclonic Rift [Removal]
+1x Demonic Tutor [Tutor]
+1x Dimir Signet [Ramp]
+1x Emry, Lurker of the Loch [Recursion]
+1x Encroaching Mycosynth [Protection]
+1x Enthusiastic Mechanaut [Ramp]
+1x Etherium Sculptor [Ramp]
+1x Exotic Orchard [Land]
+1x Fabricate [Tutor]
+1x Fellwar Stone [Ramp]
+1x Fierce Guardianship [Removal]
+1x Force of Negation [Counters]
+1x Force of Will [Counters]
+1x Foundry Inspector [Ramp]
+1x Gamble [Tutor]
+1x Goblin Engineer [Tutor]
+1x Goblin Welder [Recursion]
+1x Great Furnace [Land]
+1x Grim Monolith [Ramp]
+1x Inventors' Fair [Land]
+1x Island [Land]
+1x Izzet Signet [Ramp]
+1x Jhoira, Weatherlight Captain [Draw]
+1x Junk Diver [Recursion]
+1x Karn, the Great Creator [Stax]
+1x Krark-Clan Ironworks [Ramp]
+1x Lightning Greaves [Protection]
+1x Luxury Suite [Land]
+1x Mana Confluence [Land]
+1x Mana Drain [Removal]
+1x Mana Vault [Ramp]
+1x Metalworker [Ramp]
+1x Mishra's Workshop [Land]
+1x Morphic Pool [Land]
+1x Mountain [Land]
+1x Mox Amber [Ramp]
+1x Mox Diamond [Ramp]
+1x Mox Opal [Ramp]
+1x Mycosynth Lattice [Protection]
+1x Myr Retriever [Recursion]
+1x Mystic Forge [Draw]
+1x Mystic Remora [Draw]
+1x Nether Void [Stax]
+1x Nullstone Gargoyle [Protection]
+1x Phyrexian Metamorph [Clones]
+1x Planar Chaos [Enchantment]
+1x Polluted Delta [Land]
+1x Possibility Storm [Stax]
+1x Praetor's Grasp [Tutor]
+1x Rhystic Study [Draw]
+1x Scalding Tarn [Land]
+1x Scrap Trawler [Recursion]
+1x Sculpting Steel [Copy]
+1x Seat of the Synod [Land]
+1x Sensei's Divining Top [Draw]
+1x Shivan Reef [Land]
+1x Sol Ring [Ramp]
+1x Spire of Industry [Land]
+1x Steam Vents [Land]
+1x Swamp [Land]
+1x Swan Song [Removal]
+1x Talisman of Creativity [Ramp]
+1x Talisman of Dominance [Ramp]
+1x Talisman of Indulgence [Ramp]
+1x Tezzeret the Seeker [Tutor]
+1x Tezzeret, Cruel Captain [Tutor]
+1x The One Ring [Draw]
+1x The Reality Chip [Draw]
+1x Thought Monitor [Draw]
+1x Toxic Deluge [Removal]
+1x Training Center [Land]
+1x Transmute Artifact [Sorcery]
+1x Underground Sea [Land]
+1x Urza's Saga [Land]
+1x Urza, Lord High Artificer [Ramp]
+1x Uthros Research Craft [Draw]
+1x Vampiric Tutor [Tutor]
+1x Vandalblast [Removal]
+1x Vault of Whispers [Land]
+1x Vexing Bauble [Artifact]
+1x Void Mirror [Artifact]
+1x Volcanic Island [Land]
+1x Watery Grave [Land]
+1x Whir of Invention [Tutor]
+1x Wishclaw Talisman [Tutor]
+```
+
+## Card breakdown
+
+Role tags are the source author's (untagged lines show the card type). *Printing* is the source's pinned printing, if it pinned one.
+
+| Card | Role (source tag) | Type | MV | Identity | GC | Printing |
+|---|---|---|---|---|---|---|
+| [Mishra, Artificer Prodigy](../../cards/M/mis.md#mishra-artificer-prodigy) | Commander | Legendary Creature — Human Artificer | 4 | UBR |  | — |
+| [Vexing Bauble](../../cards/V/ve.md#vexing-bauble) | Artifact | Artifact | 1 | C |  | — |
+| [Void Mirror](../../cards/V/vo.md#void-mirror) | Artifact | Artifact | 2 | C |  | — |
+| [Phyrexian Metamorph](../../cards/P/ph.md#phyrexian-metamorph) | Clones | Artifact Creature — Phyrexian Shapeshifter | 4 | U |  | — |
+| [Sculpting Steel](../../cards/S/sc.md#sculpting-steel) | Copy | Artifact | 3 | C |  | — |
+| [Force of Negation](../../cards/F/fo.md#force-of-negation) | Counters | Instant | 3 | U |  | — |
+| [Force of Will](../../cards/F/fo.md#force-of-will) | Counters | Instant | 5 | U | ✅ | — |
+| [Bolas's Citadel](../../cards/B/bo.md#bolass-citadel) | Draw | Legendary Artifact | 6 | B | ✅ | — |
+| [Jhoira, Weatherlight Captain](../../cards/J/jh.md#jhoira-weatherlight-captain) | Draw | Legendary Creature — Human Artificer | 4 | UR |  | — |
+| [Mystic Forge](../../cards/M/my.md#mystic-forge) | Draw | Artifact | 4 | C |  | — |
+| [Mystic Remora](../../cards/M/my.md#mystic-remora) | Draw | Enchantment | 1 | U |  | — |
+| [Rhystic Study](../../cards/R/rh.md#rhystic-study) | Draw | Enchantment | 3 | U | ✅ | — |
+| [Sensei's Divining Top](../../cards/S/sen.md#senseis-divining-top) | Draw | Artifact | 1 | C |  | — |
+| [The One Ring](../../cards/T/theo.md#the-one-ring) | Draw | Legendary Artifact | 4 | C | ✅ | — |
+| [The Reality Chip](../../cards/T/ther.md#the-reality-chip) | Draw | Legendary Artifact Creature — Equipment Jellyfish | 2 | U |  | — |
+| [Thought Monitor](../../cards/T/tho.md#thought-monitor) | Draw | Artifact Creature — Construct | 7 | U |  | — |
+| [Uthros Research Craft](../../cards/U/ut.md#uthros-research-craft) | Draw | Artifact — Spacecraft | 3 | U |  | — |
+| [Planar Chaos](../../cards/P/pl.md#planar-chaos) | Enchantment | Enchantment | 3 | R |  | — |
+| [Academy Ruins](../../cards/A/ac.md#academy-ruins) | Land | Legendary Land | 0 | U |  | — |
+| [Ancient Tomb](../../cards/A/an.md#ancient-tomb) | Land | Land | 0 | C | ✅ | — |
+| [Badlands](../../cards/B/bad.md#badlands) | Land | Land — Swamp Mountain | 0 | BR |  | — |
+| [Blood Crypt](../../cards/B/blo.md#blood-crypt) | Land | Land — Swamp Mountain | 0 | BR |  | — |
+| [Bloodstained Mire](../../cards/B/blo.md#bloodstained-mire) | Land | Land | 0 | C |  | — |
+| [City of Brass](../../cards/C/ci.md#city-of-brass) | Land | Land | 0 | C |  | — |
+| [Command Tower](../../cards/C/com.md#command-tower) | Land | Land | 0 | C |  | — |
+| [Exotic Orchard](../../cards/E/ex.md#exotic-orchard) | Land | Land | 0 | C |  | — |
+| [Great Furnace](../../cards/G/gre.md#great-furnace) | Land | Artifact Land | 0 | R |  | — |
+| [Inventors' Fair](../../cards/I/inv.md#inventors-fair) | Land | Legendary Land | 0 | C |  | — |
+| [Island](../../cards/I/is.md#island) | Land | Basic Land — Island | 0 | U |  | — |
+| [Luxury Suite](../../cards/L/lu.md#luxury-suite) | Land | Land | 0 | BR |  | — |
+| [Mana Confluence](../../cards/M/man.md#mana-confluence) | Land | Land | 0 | C |  | — |
+| [Mishra's Workshop](../../cards/M/mis.md#mishras-workshop) | Land | Land | 0 | C | ✅ | — |
+| [Morphic Pool](../../cards/M/mor.md#morphic-pool) | Land | Land | 0 | UB |  | — |
+| [Mountain](../../cards/M/mou.md#mountain) | Land | Basic Land — Mountain | 0 | R |  | — |
+| [Polluted Delta](../../cards/P/po.md#polluted-delta) | Land | Land | 0 | C |  | — |
+| [Scalding Tarn](../../cards/S/sc.md#scalding-tarn) | Land | Land | 0 | C |  | — |
+| [Seat of the Synod](../../cards/S/sea.md#seat-of-the-synod) | Land | Artifact Land | 0 | U |  | — |
+| [Shivan Reef](../../cards/S/shi.md#shivan-reef) | Land | Land | 0 | UR |  | — |
+| [Spire of Industry](../../cards/S/spi.md#spire-of-industry) | Land | Land | 0 | C |  | — |
+| [Steam Vents](../../cards/S/ste.md#steam-vents) | Land | Land — Island Mountain | 0 | UR |  | — |
+| [Swamp](../../cards/S/sw.md#swamp) | Land | Basic Land — Swamp | 0 | B |  | — |
+| [Training Center](../../cards/T/tra.md#training-center) | Land | Land | 0 | UR |  | — |
+| [Underground Sea](../../cards/U/un.md#underground-sea) | Land | Land — Island Swamp | 0 | UB |  | — |
+| [Urza's Saga](../../cards/U/ur.md#urzas-saga) | Land | Enchantment Land — Urza's Saga | 0 | C |  | — |
+| [Vault of Whispers](../../cards/V/va.md#vault-of-whispers) | Land | Artifact Land | 0 | B |  | — |
+| [Volcanic Island](../../cards/V/vo.md#volcanic-island) | Land | Land — Island Mountain | 0 | UR |  | — |
+| [Watery Grave](../../cards/W/wat.md#watery-grave) | Land | Land — Island Swamp | 0 | UB |  | — |
+| [Aetherflux Reservoir](../../cards/A/ae.md#aetherflux-reservoir) | Lifegain | Artifact | 4 | C |  | — |
+| [Encroaching Mycosynth](../../cards/E/en.md#encroaching-mycosynth) | Protection | Artifact | 4 | U |  | — |
+| [Lightning Greaves](../../cards/L/li.md#lightning-greaves) | Protection | Artifact — Equipment | 2 | C |  | — |
+| [Mycosynth Lattice](../../cards/M/my.md#mycosynth-lattice) | Protection | Artifact | 6 | C |  | — |
+| [Nullstone Gargoyle](../../cards/N/nu.md#nullstone-gargoyle) | Protection | Artifact Creature — Gargoyle | 9 | C |  | — |
+| [Arcane Signet](../../cards/A/arc.md#arcane-signet) | Ramp | Artifact | 2 | C |  | — |
+| [Blood Funnel](../../cards/B/blo.md#blood-funnel) | Ramp | Enchantment | 2 | B |  | — |
+| [Chrome Mox](../../cards/C/chr.md#chrome-mox) | Ramp | Artifact | 0 | C | ✅ | — |
+| [Cloud Key](../../cards/C/cl.md#cloud-key) | Ramp | Artifact | 3 | C |  | — |
+| [Dimir Signet](../../cards/D/di.md#dimir-signet) | Ramp | Artifact | 2 | UB |  | — |
+| [Enthusiastic Mechanaut](../../cards/E/en.md#enthusiastic-mechanaut) | Ramp | Artifact Creature — Goblin Artificer | 2 | UR |  | — |
+| [Etherium Sculptor](../../cards/E/et.md#etherium-sculptor) | Ramp | Artifact Creature — Vedalken Artificer | 2 | U |  | — |
+| [Fellwar Stone](../../cards/F/fe.md#fellwar-stone) | Ramp | Artifact | 2 | C |  | — |
+| [Foundry Inspector](../../cards/F/fo.md#foundry-inspector) | Ramp | Artifact Creature — Construct | 3 | C |  | — |
+| [Grim Monolith](../../cards/G/gri.md#grim-monolith) | Ramp | Artifact | 2 | C | ✅ | — |
+| [Izzet Signet](../../cards/I/iz.md#izzet-signet) | Ramp | Artifact | 2 | UR |  | — |
+| [Krark-Clan Ironworks](../../cards/K/kr.md#krark-clan-ironworks) | Ramp | Artifact | 4 | C |  | — |
+| [Mana Vault](../../cards/M/man.md#mana-vault) | Ramp | Artifact | 1 | C | ✅ | — |
+| [Metalworker](../../cards/M/me.md#metalworker) | Ramp | Artifact Creature — Construct | 3 | C |  | — |
+| [Mox Amber](../../cards/M/mox.md#mox-amber) | Ramp | Legendary Artifact | 0 | C |  | — |
+| [Mox Diamond](../../cards/M/mox.md#mox-diamond) | Ramp | Artifact | 0 | C | ✅ | — |
+| [Mox Opal](../../cards/M/mox.md#mox-opal) | Ramp | Legendary Artifact | 0 | C |  | — |
+| [Sol Ring](../../cards/S/so.md#sol-ring) | Ramp | Artifact | 1 | C |  | — |
+| [Talisman of Creativity](../../cards/T/ta.md#talisman-of-creativity) | Ramp | Artifact | 2 | UR |  | — |
+| [Talisman of Dominance](../../cards/T/ta.md#talisman-of-dominance) | Ramp | Artifact | 2 | UB |  | — |
+| [Talisman of Indulgence](../../cards/T/ta.md#talisman-of-indulgence) | Ramp | Artifact | 2 | BR |  | — |
+| [Urza, Lord High Artificer](../../cards/U/ur.md#urza-lord-high-artificer) | Ramp | Legendary Creature — Human Artificer | 4 | U |  | — |
+| [Emry, Lurker of the Loch](../../cards/E/em.md#emry-lurker-of-the-loch) | Recursion | Legendary Creature — Merfolk Wizard | 3 | U |  | — |
+| [Goblin Welder](../../cards/G/gob.md#goblin-welder) | Recursion | Creature — Goblin Artificer | 1 | R |  | — |
+| [Junk Diver](../../cards/J/ju.md#junk-diver) | Recursion | Artifact Creature — Bird | 3 | C |  | — |
+| [Myr Retriever](../../cards/M/my.md#myr-retriever) | Recursion | Artifact Creature — Myr | 2 | C |  | — |
+| [Scrap Trawler](../../cards/S/sc.md#scrap-trawler) | Recursion | Artifact Creature — Construct | 3 | C |  | — |
+| [Cyclonic Rift](../../cards/C/cy.md#cyclonic-rift) | Removal | Instant | 2 | U | ✅ | — |
+| [Fierce Guardianship](../../cards/F/fi.md#fierce-guardianship) | Removal | Instant | 3 | U | ✅ | — |
+| [Mana Drain](../../cards/M/man.md#mana-drain) | Removal | Instant | 2 | U |  | — |
+| [Swan Song](../../cards/S/sw.md#swan-song) | Removal | Instant | 1 | U |  | — |
+| [Toxic Deluge](../../cards/T/to.md#toxic-deluge) | Removal | Sorcery | 3 | B |  | — |
+| [Vandalblast](../../cards/V/va.md#vandalblast) | Removal | Sorcery | 1 | R |  | — |
+| [Transmute Artifact](../../cards/T/tra.md#transmute-artifact) | Sorcery | Sorcery | 2 | U |  | — |
+| [Chalice of the Void](../../cards/C/cha.md#chalice-of-the-void) | Stax | Artifact | 0 | C |  | — |
+| [Karn, the Great Creator](../../cards/K/ka.md#karn-the-great-creator) | Stax | Legendary Planeswalker — Karn | 4 | C |  | — |
+| [Nether Void](../../cards/N/ne.md#nether-void) | Stax | World Enchantment | 4 | B |  | — |
+| [Possibility Storm](../../cards/P/po.md#possibility-storm) | Stax | Enchantment | 5 | R |  | — |
+| [Demonic Tutor](../../cards/D/dem.md#demonic-tutor) | Tutor | Sorcery | 2 | B | ✅ | — |
+| [Fabricate](../../cards/F/fa.md#fabricate) | Tutor | Sorcery | 3 | U |  | — |
+| [Gamble](../../cards/G/ga.md#gamble) | Tutor | Sorcery | 1 | R | ✅ | — |
+| [Goblin Engineer](../../cards/G/gob.md#goblin-engineer) | Tutor | Creature — Goblin Artificer | 2 | R |  | — |
+| [Praetor's Grasp](../../cards/P/pr.md#praetors-grasp) | Tutor | Sorcery | 3 | B |  | — |
+| [Tezzeret the Seeker](../../cards/T/te.md#tezzeret-the-seeker) | Tutor | Legendary Planeswalker — Tezzeret | 5 | U |  | — |
+| [Tezzeret, Cruel Captain](../../cards/T/te.md#tezzeret-cruel-captain) | Tutor | Legendary Planeswalker — Tezzeret | 3 | C |  | — |
+| [Vampiric Tutor](../../cards/V/va.md#vampiric-tutor) | Tutor | Instant | 1 | B | ✅ | — |
+| [Whir of Invention](../../cards/W/wh.md#whir-of-invention) | Tutor | Instant | 3 | U |  | — |
+| [Wishclaw Talisman](../../cards/W/wi.md#wishclaw-talisman) | Tutor | Artifact | 2 | B |  | — |
+
+## Source commentary (verbatim)
+
+> Quoted from the source repo with headings turned into bold text. This is **the source author's analysis and opinion (guidance)**, from `grixis-commander-encyclopediaGPT`, path shown above each block. Relative links point back to the source. Rules statements here were not re-verified card by card (see [Grixis Corrections](../Grixis%20Corrections.md#oracle-text-check) for the Oracle check). Where the source mentions Lutri, Trade Secrets or Yawgmoth's Bargain as approved exceptions, our corrected list above takes precedence.
+
+### From `refinement/decisions/Mishra_Artificer_Prodigy_Current_Cycle_Decisions_2026-10-15.md`
+
+Source: [refinement/decisions/Mishra_Artificer_Prodigy_Current_Cycle_Decisions_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decisions/Mishra_Artificer_Prodigy_Current_Cycle_Decisions_2026-10-15.md)
+
+**Mishra, Artificer Prodigy — Current-Cycle Decision Closeout**
+
+Date: 2026-10-15  
+Cycle: `global-restart-2026-10-13`  
+Candidate SHA-256: `9210aefa423dbe9cc69d18422c0d594cad6e5d0ee475d687b9f2278a2ca3b79d`  
+Status: **APPROVED / LOCKED**
+
+**Source reconciliation**
+
+The authoritative current FINAL CSV/TXT exports reconcile at exactly 100 cards / 100 distinct names. Raw FINAL TXT SHA-256: `33f6524ee7458a62995850fe888236fa494b59a45875ce0c8af4b6f229a3b67f`. Normalized current-cycle project-format baseline SHA-256: `98b13427fc4c901bd040baaa79b2cd06c2cdc1d4efb844326cec8da8a0e7ed34`.
+
+The current `deck_card_audit.csv` reconciles 100/100 baseline card names with no review flags, color-identity failures, or official-legality failures. Current FINAL exports control membership.
+
+**Commander blueprint and natural ceiling**
+
+Mishra is an artifact spell / parity-breaking stax-combo commander. The optimized strategy deliberately pairs his cast trigger with symmetrical effects that counter, redirect, or otherwise disrupt artifact spells. Because Mishra triggers when the artifact is cast, the deck can allow its own artifact spell to be countered or moved and then use Mishra's trigger to find a card with that spell's name in graveyard, hand, or library and put it directly onto the battlefield.
+
+This makes Blood Funnel, Nether Void, Nullstone Gargoyle, Possibility Storm, and the added Chalice of the Void / Void Mirror / Vexing Bauble / Planar Chaos package commander-specific asymmetry rather than generic stax. The remainder of the list supports fast artifact mana, compact artifact combo engines, recursion, tutors, and enough stack interaction to defend the engine.
+
+Natural ceiling: **Power Bracket 5 — cEDH (fringe / commander-centric artifact stax-combo)**.
+
+**Exact approved changes**
+
+1. An Offer You Can't Refuse -> Swan Song
+2. Biotransference -> Force of Negation
+3. Buried Ruin -> Mana Confluence
+4. Darksteel Forge -> Void Mirror
+5. Master Transmuter -> Vexing Bauble
+6. Mirrodin Besieged -> Planar Chaos
+7. Padeem, Consul of Innovation -> Chalice of the Void
+8. Rakdos Signet -> Grim Monolith
+9. Sai, Master Thopterist -> Transmute Artifact
+10. Simulacrum Synthesizer -> Force of Will
+11. Vedalken Archmage -> Uthros Research Craft
+12. Xander's Lounge -> City of Brass
+
+**Material decisions**
+
+- **Void Mirror, Vexing Bauble, Chalice of the Void, and Planar Chaos** are direct Mishra parity breakers. With correct trigger ordering, a qualifying artifact spell can be countered first, then Mishra can recover that named card from the graveyard and put it onto the battlefield.
+- **Possibility Storm** is retained as one of the strongest commander-identity cards. For an artifact spell cast from hand, its trigger can resolve before Mishra's, move the original card through exile to the bottom of the library, and cast a replacement. Mishra's original trigger can then find the original artifact in the library and put it onto the battlefield.
+- **Vexing Bauble / Void Mirror + Possibility Storm** create a powerful spell-from-hand lock structure against opponents because the free replacement spell is normally exposed to the counter effect while opponents lack Mishra's recovery trigger. This is not represented as an unconditional lock on all spells or abilities; additional-cost mana, uncounterable effects, trigger interaction, and spells not cast from hand can matter.
+- **Uthros Research Craft** is a lower-cost artifact-centric draw engine. Mishra's power 4 can station it to three or more station counters in one activation, after which its artifact-cast trigger can draw even when the artifact spell is later countered.
+- **Swan Song, Force of Negation, and Force of Will** increase efficient stack protection at the natural cEDH ceiling without displacing the artifact-stax identity.
+- **Transmute Artifact** is a high-efficiency artifact-specific tutor that directly assembles lock and combo pieces.
+- **Grim Monolith** materially improves speed and artifact-mana density over Rakdos Signet.
+- **City of Brass and Mana Confluence** improve untapped three-color access. Buried Ruin is expendable because Academy Ruins, Emry, Goblin Welder, Goblin Engineer, Scrap Trawler, Myr Retriever, and Junk Diver already provide substantial artifact-recursion redundancy.
+- **Fabricate stays.** It remains a clean artifact tutor and survives the red-team pass; cutting it for Transmute Artifact would remove useful tutor density rather than upgrade a genuinely weak slot.
+- **Biotransference, Darksteel Forge, Master Transmuter, Mirrodin Besieged, Padeem, Sai, Simulacrum Synthesizer, and Vedalken Archmage** are functional cards, but at this ceiling they are slower or less commander-specific than the incoming parity breakers, free interaction, tutor, and Uthros engine.
+
+**Retained combo / lock packages**
+
+- **Mystic Forge + Sensei's Divining Top + artifact cost reducer + Aetherflux Reservoir**: repeated Top casts/draws generate Reservoir life gain and a lethal activation.
+- **Bolas's Citadel + Sensei's Divining Top + Aetherflux Reservoir**: repeated Top casting from the library converts life into casts while Reservoir gains escalate toward lethal range.
+- **Krark-Clan Ironworks + Scrap Trawler + Myr Retriever / Junk Diver** remains the artifact-recursion core; with appropriate cost reduction and sequencing it supports repeated casts and mana generation, with Aetherflux Reservoir as a payoff.
+- **Karn, the Great Creator + Mycosynth Lattice**: Lattice makes permanents artifacts and Karn prevents opponents from activating abilities of artifacts; together this shuts off activated abilities of opposing permanents, including mana abilities of lands. The deck does not rely on Karn's outside-the-game wish ability.
+- **Mycosynth Lattice + overloaded Vandalblast**: Lattice makes opposing permanents artifacts and overload destroys artifacts you do not control, leaving your permanents intact.
+
+**Rejected challengers after red-team**
+
+Serious challengers reviewed and rejected include Ice Cave, Shimmer Myr, Liberator, Urza's Battlethopter, Mishra's Bauble, Lotus Petal, Gemstone Caverns, The Mycosynth Gardens, Darksteel Citadel, Torpor Orb, Cursed Totem, Winter Orb, Static Orb, Trinisphere, Thassa's Oracle / Consultation packages, and Underworld Breach packages. They either add insufficient commander-specific value, impose meaningful internal costs, lose to the retained slot on consistency, or push the deck toward generic Grixis cEDH homogenization without improving the commander's own strategy enough.
+
+**Whole-list closeout**
+
+- Current FINAL membership reconciliation: **COMPLETE**
+- Mandatory 99-slot whole-list audit: **COMPLETE — 87 KEEP / 12 CUT**
+- Candidate-ranking review: **COMPLETE; rankings treated as research, not mandates**
+- Current Mishra optimized/cEDH evidence review: **COMPLETE**
+- Commander-identity review: **PASS**
+- Adversarial rules/combo red-team: **COMPLETE**
+- Mana-base red-team: **PASS**
+- Final serious strategic pass: **ZERO NEW MATERIAL IMPROVEMENTS**
+- Exact candidate structure: **100 cards / 100 distinct names / 29 lands**
+- Singleton compliance: **PASS**
+- Commander color identity: **PASS — U/B/R only**
+- Current Oracle/rules/combo verification: **PASS**
+- Current official Commander legality checkpoint: **PASS**
+- Project exceptions: **NONE**
+
+**Approval state**
+
+The user explicitly approved this exact SHA-bound candidate on 2026-10-15. The canonical approved artifact is `refinement/decklists/Mishra_Artificer_Prodigy_Approved_2026-10-15.txt` and the approval record is `refinement/approvals/Mishra_Artificer_Prodigy_Approved_2026-10-15.md`.
+
+This deck is **APPROVED / LOCKED** for the current refinement cycle and must not be revised, reopened, or replaced unless the user explicitly requests it.
+
+### From `refinement/approvals/Mishra_Artificer_Prodigy_Approved_2026-10-15.md`
+
+Source: [refinement/approvals/Mishra_Artificer_Prodigy_Approved_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/approvals/Mishra_Artificer_Prodigy_Approved_2026-10-15.md)
+
+**Mishra, Artificer Prodigy — APPROVED / LOCKED**
+
+Cycle: `global-restart-2026-10-13`  
+Approval date: 2026-10-15  
+Approved SHA-256: `9210aefa423dbe9cc69d18422c0d594cad6e5d0ee475d687b9f2278a2ca3b79d`  
+Power Bracket: **5 — cEDH (fringe / commander-centric artifact stax-combo)**  
+Archidekt tags: **Artifacts / Stax / Combo**
+
+**Approval basis**
+
+The user explicitly approved the exact SHA-bound Mishra, Artificer Prodigy approval-ready candidate after authoritative FINAL baseline reconciliation, mandatory 99-slot whole-list audit, candidate exhaustion, commander-identity review, adversarial rules/combo red-team, mana-base red-team, zero-new-material-improvement closure, exact structural verification, color-identity verification, current Oracle/rules verification, and current official Commander legality checkpoint.
+
+Verification state:
+- 100 cards
+- 100 distinct names
+- 29 lands
+- Singleton compliance: PASS
+- Commander color identity: U/B/R
+- Current Oracle/rules/combo verification: PASS
+- Official Commander legality checkpoint: PASS
+- Project exceptions: none
+- Mandatory 99-slot whole-list audit: 87 KEEP / 12 CUT
+- Candidate exhaustion / adversarial red-team: complete
+- Final serious strategic pass: ZERO NEW MATERIAL IMPROVEMENTS
+
+Canonical approved artifact: `refinement/decklists/Mishra_Artificer_Prodigy_Approved_2026-10-15.txt`
+
+Verification artifact: `refinement/verification/Mishra_Artificer_Prodigy_Approval_Ready_Verification_2026-10-15.md`
+
+Whole-list audit: `refinement/decisions/Mishra_Artificer_Prodigy_Whole_List_Audit_2026-10-15.csv`
+
+Decision closeout: `refinement/decisions/Mishra_Artificer_Prodigy_Current_Cycle_Decisions_2026-10-15.md`
+
+This deck is now locked. Do not revise, reopen, or replace it unless the user explicitly requests that action.
+
+### Further source evidence (linked, not copied)
+
+- [refinement/verification/Mishra_Artificer_Prodigy_Approval_Ready_Verification_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/verification/Mishra_Artificer_Prodigy_Approval_Ready_Verification_2026-10-15.md)
+
+<!-- COMBOS:START -->
+## Combos (Commander Spellbook)
+
+> Generated 2026-10-15 by `scripts/build_grixis.py` from the [Commander Spellbook](https://commanderspellbook.com) public API (community-maintained). Shows only combos whose **every card is in this list**. Bracket barometer: *Brackets 1–2: no intentional two-card infinite combos. Bracket 3: no early-game two-card infinite combos.*
+
+**20 complete combo(s); 1 two-card infinite.** 319 more are one card away (not listed).
+
+| Cards | Produces (Spellbook) | Extra requirements | Link |
+|---|---|---|---|
+| Mycosynth Lattice + Vandalblast | Destroy all permanents opponents control, Mass Land Denial | — | [2552-3263](https://commanderspellbook.com/combo/2552-3263/) |
+| Karn, the Great Creator + Mycosynth Lattice | Activated abilities of permanents your opponents control can't be activated, Activated abilities can't be activated, Lock, Mass Land Denial | — | [3263-5089](https://commanderspellbook.com/combo/3263-5089/) |
+| ⚠️ **two-card infinite** · Karn, the Great Creator + Aetherflux Reservoir | Infinite damage, Infinite lifegain triggers | — | [4740-5089](https://commanderspellbook.com/combo/4740-5089/) |
+| Void Mirror + Possibility Storm | Counter all spells players cast from their hands, Lock | — | [507-3741](https://commanderspellbook.com/combo/507-3741/) |
+| Vexing Bauble + Possibility Storm | Counter all spells players cast from their hands, Lock | — | [507-6614](https://commanderspellbook.com/combo/507-6614/) |
+| Emry, Lurker of the Loch + The One Ring + Krark-Clan Ironworks | Prevent all damage that would be dealt to you, You have protection from everything, Lock | — | [1329-3363-4659](https://commanderspellbook.com/combo/1329-3363-4659/) |
+| Sensei's Divining Top + Etherium Sculptor + The Reality Chip | Infinite card draw, Infinite draw triggers, Near-infinite storm count | — | [1976-5078-5243](https://commanderspellbook.com/combo/1976-5078-5243/) |
+| Sensei's Divining Top + Cloud Key + The Reality Chip | Infinite card draw, Infinite draw triggers, Near-infinite storm count | — | [2146-5078-5243](https://commanderspellbook.com/combo/2146-5078-5243/) |
+| Sensei's Divining Top + Aetherflux Reservoir + Bolas's Citadel | Infinite card draw, Infinite draw triggers, Near-infinite damage, Near-infinite lifegain | — | [2173-4740-5078](https://commanderspellbook.com/combo/2173-4740-5078/) |
+| Sensei's Divining Top + Enthusiastic Mechanaut + The Reality Chip | Infinite card draw, Infinite draw triggers, Near-infinite storm count | — | [4908-5078-5243](https://commanderspellbook.com/combo/4908-5078-5243/) |
+| Sensei's Divining Top + Foundry Inspector + The Reality Chip | Infinite card draw, Infinite draw triggers, Near-infinite storm count | — | [777-5078-5243](https://commanderspellbook.com/combo/777-5078-5243/) |
+| Sensei's Divining Top + Foundry Inspector + Mystic Forge | Infinite card draw, Near-infinite storm count, Infinite draw triggers | — | [777-985-5078](https://commanderspellbook.com/combo/777-985-5078/) |
+| Sensei's Divining Top + Mystic Forge + Etherium Sculptor | Infinite card draw, Near-infinite storm count, Infinite draw triggers | — | [985-1976-5078](https://commanderspellbook.com/combo/985-1976-5078/) |
+| Sensei's Divining Top + Mystic Forge + Cloud Key | Infinite card draw, Near-infinite storm count, Infinite draw triggers | — | [985-2146-5078](https://commanderspellbook.com/combo/985-2146-5078/) |
+| Sensei's Divining Top + Mystic Forge + Enthusiastic Mechanaut | Infinite card draw, Infinite draw triggers, Near-infinite storm count | — | [985-4908-5078](https://commanderspellbook.com/combo/985-4908-5078/) |
+| Scrap Trawler + Myr Retriever + Krark-Clan Ironworks + Etherium Sculptor | Infinite artifact ETB, Infinite artifact LTB, Infinite artifact sacrifice triggers, Infinite creature ETB | — | [1020-1976-2866-4659](https://commanderspellbook.com/combo/1020-1976-2866-4659/) |
+| Scrap Trawler + Myr Retriever + Krark-Clan Ironworks + Cloud Key | Infinite artifact ETB, Infinite artifact LTB, Infinite artifact sacrifice triggers, Infinite creature ETB | — | [1020-2146-2866-4659](https://commanderspellbook.com/combo/1020-2146-2866-4659/) |
+| Scrap Trawler + Myr Retriever + Krark-Clan Ironworks + Enthusiastic Mechanaut | Infinite artifact ETB, Infinite artifact LTB, Infinite artifact sacrifice triggers, Infinite creature ETB | — | [1020-2866-4659-4908](https://commanderspellbook.com/combo/1020-2866-4659-4908/) |
+| Scrap Trawler + Myr Retriever + Krark-Clan Ironworks + Foundry Inspector | Infinite artifact ETB, Infinite artifact LTB, Infinite artifact sacrifice triggers, Infinite creature ETB | — | [777-1020-2866-4659](https://commanderspellbook.com/combo/777-1020-2866-4659/) |
+| Scrap Trawler + Myr Retriever + Krark-Clan Ironworks + Sol Ring + Junk Diver | Infinite blinking of some artifacts, Infinite colorless mana, Infinite death triggers, Infinite creature ETB | — | [1020-1117-2866-4659-5034](https://commanderspellbook.com/combo/1020-1117-2866-4659-5034/) |
+<!-- COMBOS:END -->

@@ -1,0 +1,370 @@
+---
+title: "Grixis Deck — Loki, the Deceiver"
+category: deck
+kind: grixis
+commander: "Loki, the Deceiver"
+color_identity: UBR
+bracket_floor: 4
+game_changers: 5
+validated: true
+source_repo: corymstover/grixis-commander-encyclopediaGPT
+---
+
+# Grixis Deck — Loki, the Deceiver
+
+> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Loki_the_Deceiver_Approved_2026-10-14.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decklists/Loki_the_Deceiver_Approved_2026-10-14.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-14; source commit `df1abb9`). Imported in Bot cycle 16 and re-validated against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
+
+## Contents
+- [Commander](#commander)
+- [Validation](#validation)
+- [Bracket assessment](#bracket-assessment)
+- [Corrections applied](#corrections-applied)
+- [Decklist (Archidekt import)](#decklist-archidekt-import)
+- [Card breakdown](#card-breakdown)
+- [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Combos (Commander Spellbook)](#combos-commander-spellbook)
+
+## Commander
+
+- **[Loki, the Deceiver](../../cards/L/lo.md#loki-the-deceiver)** — {1}{U}{B}{R} — Legendary Creature — God Sorcerer Villain
+- Color identity: **UBR (Blue, Black, Red)**
+- Eligibility (Loki, the Deceiver): Yes (legendary creature)
+
+## Validation
+
+- Total cards: **100** (1 commander(s) + 65 nonland + 26 nonbasic lands + 8 basics) · average nonland MV 3.38
+- Strict color identity (CR 903.5c), singleton (903.5b), Commander-legal, size (903.5a): ✅ **all checks pass**
+- Every card resolves to an entry in our card DB (95/95 lines linked).
+
+## Bracket assessment
+
+- Game Changers (5): Cyclonic Rift, Demonic Tutor, Fierce Guardianship, Jeska's Will, Rhystic Study
+- Extra-turn cards: none
+- Mass land denial: none
+- Commander Spellbook: 0 complete combo(s), 0 two-card infinite (see [Combos](#combos-commander-spellbook)).
+- **Minimum bracket by the published barometers: 4** (more than three Game Changers).
+- Source's stated target (guidance): **Bracket 4 — Optimized**.
+- (Brackets are a pregame-conversation tool. See [EDH Standards](../../EDH%20Standards.md#power-bracket-assessment).)
+
+## Corrections applied
+
+| Type | Change | Reason |
+|---|---|---|
+| format | Archidekt list normalized to [EDH Standards](../../EDH%20Standards.md#list-format-archidekt) | `[Commander]` → `[Commander{top}]` (1 line(s)); role tags restored on 91 untagged line(s): 91 from this deck's FINAL baseline, 0 from the tag the source uses most for that card in other decks; 3 untagged line(s) given a type tag (e.g. `[Land]`). |
+| bracket | Game Changers and combo floor added | The source records no Game Changer count and does not check the official Game Changers list anywhere in its approval records. We added it: **5 Game Changers**, so the minimum bracket is **4**. Commander Spellbook finds 0 complete combos (0 two-card infinite). This is consistent with the source's stated Bracket 4. |
+
+Full log for all decks: [Grixis Corrections](../Grixis%20Corrections.md).
+
+## Decklist (Archidekt import)
+
+```text
+1x Loki, the Deceiver [Commander{top}]
+1x An Offer You Can't Refuse [Removal]
+1x Arcane Signet [Ramp]
+1x Avengers: Under Siege [Tokens]
+1x Badlands [Land]
+1x Baron Strucker, HYDRA Overlord [Ramp]
+1x Black Cat, Cunning Thief [Theft]
+1x Black Market Connections [Draw]
+1x Blasphemous Act [Removal]
+1x Blood Crypt [Land]
+1x Bloodstained Mire [Land]
+1x Carnage, Crimson Chaos [Recursion]
+1x Cavern of Souls [Land]
+1x Chameleon, Master of Disguise [Copy]
+1x Chaos Warp [Removal]
+1x Command Tower [Land]
+1x Cover of Darkness [Evasion]
+1x Crimson Cowl, Master of Evil [Tokens]
+1x Crossbones, Malicious Mercenary [Burn]
+1x Cyclonic Rift [Removal]
+1x Dark Ritual [Ramp]
+1x Deadly Rollick [Removal]
+1x Deflecting Swat [Protection]
+1x Demonic Tutor [Tutor]
+1x Doctor Doom [Draw]
+1x Doctor Doom, King of Latveria [Draw]
+1x Doctor Octopus, Master Planner [Draw]
+1x Doom Reigns Supreme [Drain]
+1x Dragonskull Summit [Land]
+1x Drowned Catacomb [Land]
+1x Exotic Orchard [Land]
+1x Fierce Guardianship [Removal]
+1x Hall of Echoes [Land]
+1x Iron Monger, Sadistic Tycoon [Counters]
+3x Island [Land]
+1x Jeska's Will [Ramp]
+1x Kang Prime [Draw]
+1x Kang, Temporal Tyrant [Draw]
+1x Killmonger, Ruthless Usurper [Ramp]
+1x Kindred Discovery [Draw]
+1x Leader, Super-Genius [Draw]
+1x Lightning Greaves [Protection]
+1x Loki's Scepter [Ramp]
+1x Loki, God of Mischief [Draw]
+1x Loki, Lord of Misrule [Copy]
+1x Luxury Suite [Land]
+1x M.O.D.O.K. [Draw]
+1x Madame Hydra [Tokens]
+1x Mana Confluence [Land]
+1x Mana Drain [Removal]
+1x Morphic Pool [Land]
+2x Mountain [Land]
+1x Mysterio, Master of Illusion [Tokens]
+1x Norman Osborn // Green Goblin [Recursion]
+1x Oscorp Industries [Land]
+1x Otawara, Soaring City [Land]
+1x Patchwork Banner [Ramp]
+1x Path of Ancestry [Land]
+1x Polluted Delta [Land]
+1x Prowler, Clawed Thief [Draw]
+1x Reanimate [Recursion]
+1x Red Ghost, Intangible Genius [Creature]
+1x Rhystic Study [Draw]
+1x Roaming Throne [Copy]
+1x Scalding Tarn [Land]
+1x Sol Ring [Ramp]
+1x Spark Double [Copy]
+1x Steam Vents [Land]
+1x Stilt-Man, Towering Terror [Theft]
+1x Sulfur Falls [Land]
+1x Sundial of the Infinite [Protection]
+3x Swamp [Land]
+1x Swiftfoot Boots [Protection]
+1x Talisman of Creativity [Ramp]
+1x Talisman of Dominance [Ramp]
+1x Talisman of Indulgence [Ramp]
+1x Taskmaster, Mercenary Mimic [Copy]
+1x The Master, Multiplied [Tokens]
+1x The Soul Stone [Ramp]
+1x The Squadron Sinister [Anthem]
+1x Thunderbolts Conspiracy [Recursion]
+1x Titan of Littjara [Creature]
+1x Tombstone, Career Criminal [Ramp]
+1x Toxic Deluge [Removal]
+1x Training Center [Land]
+1x Ultron, Unlimited [Tokens]
+1x Underground Sea [Land]
+1x Urborg, Tomb of Yawgmoth [Land]
+1x Urza's Incubator [Ramp]
+1x Vandalblast [Removal]
+1x Venom, Eddie Brock [Draw]
+1x Villainous Hideout [Land]
+1x Volcanic Island [Land]
+1x Watery Grave [Land]
+1x Xander's Lounge [Land]
+```
+
+## Card breakdown
+
+Role tags are the source author's (untagged lines show the card type). *Printing* is the source's pinned printing, if it pinned one.
+
+| Card | Role (source tag) | Type | MV | Identity | GC | Printing |
+|---|---|---|---|---|---|---|
+| [Loki, the Deceiver](../../cards/L/lo.md#loki-the-deceiver) | Commander | Legendary Creature — God Sorcerer Villain | 4 | UBR |  | — |
+| [The Squadron Sinister](../../cards/T/thes.md#the-squadron-sinister) | Anthem | Legendary Creature — Human Villain | 7 | UR |  | — |
+| [Crossbones, Malicious Mercenary](../../cards/C/cr.md#crossbones-malicious-mercenary) | Burn | Legendary Creature — Human Mercenary Villain | 4 | B |  | — |
+| [Chameleon, Master of Disguise](../../cards/C/cha.md#chameleon-master-of-disguise) | Copy | Legendary Creature — Human Shapeshifter Villain | 4 | U |  | — |
+| [Loki, Lord of Misrule](../../cards/L/lo.md#loki-lord-of-misrule) | Copy | Legendary Creature — God Sorcerer Villain | 4 | U |  | — |
+| [Roaming Throne](../../cards/R/ro.md#roaming-throne) | Copy | Artifact Creature — Golem | 4 | C |  | — |
+| [Spark Double](../../cards/S/spa.md#spark-double) | Copy | Creature — Illusion | 4 | U |  | — |
+| [Taskmaster, Mercenary Mimic](../../cards/T/ta.md#taskmaster-mercenary-mimic) | Copy | Legendary Creature — Human Mercenary Villain | 4 | UB |  | — |
+| [Iron Monger, Sadistic Tycoon](../../cards/I/ir.md#iron-monger-sadistic-tycoon) | Counters | Legendary Artifact Creature — Human Villain | 3 | B |  | — |
+| [Red Ghost, Intangible Genius](../../cards/R/red.md#red-ghost-intangible-genius) | Creature | Legendary Creature — Human Scientist Villain | 4 | UR |  | — |
+| [Titan of Littjara](../../cards/T/ti.md#titan-of-littjara) | Creature | Creature — Illusion | 6 | U |  | — |
+| [Doom Reigns Supreme](../../cards/D/do.md#doom-reigns-supreme) | Drain | Enchantment — Plan | 2 | B |  | — |
+| [Black Market Connections](../../cards/B/bla.md#black-market-connections) | Draw | Enchantment | 3 | B |  | — |
+| [Doctor Doom](../../cards/D/do.md#doctor-doom) | Draw | Legendary Creature — Human Scientist Villain | 6 | B |  | — |
+| [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) | Draw | Legendary Creature — Human Noble Villain | 4 | UBR |  | — |
+| [Doctor Octopus, Master Planner](../../cards/D/do.md#doctor-octopus-master-planner) | Draw | Legendary Creature — Human Scientist Villain | 7 | UB |  | — |
+| [Kang Prime](../../cards/K/ka.md#kang-prime) | Draw | Legendary Creature — Human Villain | 5 | UB |  | — |
+| [Kang, Temporal Tyrant](../../cards/K/ka.md#kang-temporal-tyrant) | Draw | Legendary Creature — Human Villain | 4 | UB |  | — |
+| [Kindred Discovery](../../cards/K/ki.md#kindred-discovery) | Draw | Enchantment | 5 | U |  | — |
+| [Leader, Super-Genius](../../cards/L/le.md#leader-super-genius) | Draw | Legendary Creature — Gamma Scientist Villain | 4 | U |  | — |
+| [Loki, God of Mischief](../../cards/L/lo.md#loki-god-of-mischief) | Draw | Legendary Creature — God Sorcerer Villain | 2 | U |  | — |
+| [M.O.D.O.K.](../../cards/M/mod.md#modok) | Draw | Legendary Artifact Creature — Villain | 5 | B |  | — |
+| [Prowler, Clawed Thief](../../cards/P/pr.md#prowler-clawed-thief) | Draw | Legendary Creature — Human Rogue Villain | 3 | UB |  | — |
+| [Rhystic Study](../../cards/R/rh.md#rhystic-study) | Draw | Enchantment | 3 | U | ✅ | — |
+| [Venom, Eddie Brock](../../cards/V/ve.md#venom-eddie-brock) | Draw | Legendary Creature — Symbiote Villain | 6 | B |  | — |
+| [Cover of Darkness](../../cards/C/cov.md#cover-of-darkness) | Evasion | Enchantment | 2 | B |  | — |
+| [Badlands](../../cards/B/bad.md#badlands) | Land | Land — Swamp Mountain | 0 | BR |  | — |
+| [Blood Crypt](../../cards/B/blo.md#blood-crypt) | Land | Land — Swamp Mountain | 0 | BR |  | — |
+| [Bloodstained Mire](../../cards/B/blo.md#bloodstained-mire) | Land | Land | 0 | C |  | — |
+| [Cavern of Souls](../../cards/C/cav.md#cavern-of-souls) | Land | Land | 0 | C |  | — |
+| [Command Tower](../../cards/C/com.md#command-tower) | Land | Land | 0 | C |  | — |
+| [Dragonskull Summit](../../cards/D/dra.md#dragonskull-summit) | Land | Land | 0 | BR |  | — |
+| [Drowned Catacomb](../../cards/D/dro.md#drowned-catacomb) | Land | Land | 0 | UB |  | — |
+| [Exotic Orchard](../../cards/E/ex.md#exotic-orchard) | Land | Land | 0 | C |  | — |
+| [Hall of Echoes](../../cards/H/ha.md#hall-of-echoes) | Land | Land | 0 | C |  | — |
+| [Island](../../cards/I/is.md#island) (×3) | Land | Basic Land — Island | 0 | U |  | — |
+| [Luxury Suite](../../cards/L/lu.md#luxury-suite) | Land | Land | 0 | BR |  | — |
+| [Mana Confluence](../../cards/M/man.md#mana-confluence) | Land | Land | 0 | C |  | — |
+| [Morphic Pool](../../cards/M/mor.md#morphic-pool) | Land | Land | 0 | UB |  | — |
+| [Mountain](../../cards/M/mou.md#mountain) (×2) | Land | Basic Land — Mountain | 0 | R |  | — |
+| [Oscorp Industries](../../cards/O/os.md#oscorp-industries) | Land | Land | 0 | UBR |  | — |
+| [Otawara, Soaring City](../../cards/O/ot.md#otawara-soaring-city) | Land | Legendary Land | 0 | U |  | — |
+| [Path of Ancestry](../../cards/P/pa.md#path-of-ancestry) | Land | Land | 0 | C |  | — |
+| [Polluted Delta](../../cards/P/po.md#polluted-delta) | Land | Land | 0 | C |  | — |
+| [Scalding Tarn](../../cards/S/sc.md#scalding-tarn) | Land | Land | 0 | C |  | — |
+| [Steam Vents](../../cards/S/ste.md#steam-vents) | Land | Land — Island Mountain | 0 | UR |  | — |
+| [Sulfur Falls](../../cards/S/sul.md#sulfur-falls) | Land | Land | 0 | UR |  | — |
+| [Swamp](../../cards/S/sw.md#swamp) (×3) | Land | Basic Land — Swamp | 0 | B |  | — |
+| [Training Center](../../cards/T/tra.md#training-center) | Land | Land | 0 | UR |  | — |
+| [Underground Sea](../../cards/U/un.md#underground-sea) | Land | Land — Island Swamp | 0 | UB |  | — |
+| [Urborg, Tomb of Yawgmoth](../../cards/U/ur.md#urborg-tomb-of-yawgmoth) | Land | Legendary Land | 0 | C |  | — |
+| [Villainous Hideout](../../cards/V/vi.md#villainous-hideout) | Land | Land | 0 | C |  | — |
+| [Volcanic Island](../../cards/V/vo.md#volcanic-island) | Land | Land — Island Mountain | 0 | UR |  | — |
+| [Watery Grave](../../cards/W/wat.md#watery-grave) | Land | Land — Island Swamp | 0 | UB |  | — |
+| [Xander's Lounge](../../cards/X/xa.md#xanders-lounge) | Land | Land — Island Swamp Mountain | 0 | UBR |  | — |
+| [Deflecting Swat](../../cards/D/def.md#deflecting-swat) | Protection | Instant | 3 | R |  | — |
+| [Lightning Greaves](../../cards/L/li.md#lightning-greaves) | Protection | Artifact — Equipment | 2 | C |  | — |
+| [Sundial of the Infinite](../../cards/S/sun.md#sundial-of-the-infinite) | Protection | Artifact | 2 | C |  | — |
+| [Swiftfoot Boots](../../cards/S/sw.md#swiftfoot-boots) | Protection | Artifact — Equipment | 2 | C |  | — |
+| [Arcane Signet](../../cards/A/arc.md#arcane-signet) | Ramp | Artifact | 2 | C |  | — |
+| [Baron Strucker, HYDRA Overlord](../../cards/B/bar.md#baron-strucker-hydra-overlord) | Ramp | Legendary Creature — Human Villain | 3 | B |  | — |
+| [Dark Ritual](../../cards/D/da.md#dark-ritual) | Ramp | Instant | 1 | B |  | — |
+| [Jeska's Will](../../cards/J/je.md#jeskas-will) | Ramp | Sorcery | 3 | R | ✅ | — |
+| [Killmonger, Ruthless Usurper](../../cards/K/ki.md#killmonger-ruthless-usurper) | Ramp | Legendary Creature — Human Villain | 3 | R |  | — |
+| [Loki's Scepter](../../cards/L/lo.md#lokis-scepter) | Ramp | Legendary Artifact | 3 | R |  | — |
+| [Patchwork Banner](../../cards/P/pa.md#patchwork-banner) | Ramp | Artifact | 3 | C |  | — |
+| [Sol Ring](../../cards/S/so.md#sol-ring) | Ramp | Artifact | 1 | C |  | — |
+| [Talisman of Creativity](../../cards/T/ta.md#talisman-of-creativity) | Ramp | Artifact | 2 | UR |  | — |
+| [Talisman of Dominance](../../cards/T/ta.md#talisman-of-dominance) | Ramp | Artifact | 2 | UB |  | — |
+| [Talisman of Indulgence](../../cards/T/ta.md#talisman-of-indulgence) | Ramp | Artifact | 2 | BR |  | — |
+| [The Soul Stone](../../cards/T/thes.md#the-soul-stone) | Ramp | Legendary Artifact — Infinity Stone | 2 | B |  | — |
+| [Tombstone, Career Criminal](../../cards/T/to.md#tombstone-career-criminal) | Ramp | Legendary Creature — Human Villain | 3 | B |  | — |
+| [Urza's Incubator](../../cards/U/ur.md#urzas-incubator) | Ramp | Artifact | 3 | C |  | — |
+| [Carnage, Crimson Chaos](../../cards/C/car.md#carnage-crimson-chaos) | Recursion | Legendary Creature — Symbiote Villain | 4 | BR |  | — |
+| [Norman Osborn // Green Goblin](../../cards/N/no.md#norman-osborn--green-goblin) | Recursion | Legendary Creature — Human Scientist Villain // Legendary Creature — Goblin Human Villain | 2 | UBR |  | — |
+| [Reanimate](../../cards/R/rea.md#reanimate) | Recursion | Sorcery | 1 | B |  | — |
+| [Thunderbolts Conspiracy](../../cards/T/thu.md#thunderbolts-conspiracy) | Recursion | Enchantment | 4 | B |  | — |
+| [An Offer You Can't Refuse](../../cards/A/an.md#an-offer-you-cant-refuse) | Removal | Instant | 1 | U |  | — |
+| [Blasphemous Act](../../cards/B/bla.md#blasphemous-act) | Removal | Sorcery | 9 | R |  | — |
+| [Chaos Warp](../../cards/C/cha.md#chaos-warp) | Removal | Instant | 3 | R |  | — |
+| [Cyclonic Rift](../../cards/C/cy.md#cyclonic-rift) | Removal | Instant | 2 | U | ✅ | — |
+| [Deadly Rollick](../../cards/D/dea.md#deadly-rollick) | Removal | Instant | 4 | B |  | — |
+| [Fierce Guardianship](../../cards/F/fi.md#fierce-guardianship) | Removal | Instant | 3 | U | ✅ | — |
+| [Mana Drain](../../cards/M/man.md#mana-drain) | Removal | Instant | 2 | U |  | — |
+| [Toxic Deluge](../../cards/T/to.md#toxic-deluge) | Removal | Sorcery | 3 | B |  | — |
+| [Vandalblast](../../cards/V/va.md#vandalblast) | Removal | Sorcery | 1 | R |  | — |
+| [Black Cat, Cunning Thief](../../cards/B/bla.md#black-cat-cunning-thief) | Theft | Legendary Creature — Human Rogue Villain | 5 | B |  | — |
+| [Stilt-Man, Towering Terror](../../cards/S/sti.md#stilt-man-towering-terror) | Theft | Legendary Creature — Human Rogue Villain | 3 | R |  | — |
+| [Avengers: Under Siege](../../cards/A/av.md#avengers-under-siege) | Tokens | Enchantment — Saga | 4 | BR |  | — |
+| [Crimson Cowl, Master of Evil](../../cards/C/cr.md#crimson-cowl-master-of-evil) | Tokens | Legendary Creature — Human Villain | 3 | B |  | — |
+| [Madame Hydra](../../cards/M/mad.md#madame-hydra) | Tokens | Legendary Creature — Human Villain | 4 | BR |  | — |
+| [Mysterio, Master of Illusion](../../cards/M/my.md#mysterio-master-of-illusion) | Tokens | Legendary Creature — Human Villain | 4 | U |  | — |
+| [The Master, Multiplied](../../cards/T/them.md#the-master-multiplied) | Tokens | Legendary Creature — Time Lord Rogue | 6 | BR |  | — |
+| [Ultron, Unlimited](../../cards/U/ul.md#ultron-unlimited) | Tokens | Legendary Artifact Creature — Robot Villain | 3 | UB |  | — |
+| [Demonic Tutor](../../cards/D/dem.md#demonic-tutor) | Tutor | Sorcery | 2 | B | ✅ | — |
+
+## Source commentary (verbatim)
+
+> Quoted from the source repo with headings turned into bold text. This is **the source author's analysis and opinion (guidance)**, from `grixis-commander-encyclopediaGPT`, path shown above each block. Relative links point back to the source. Rules statements here were not re-verified card by card (see [Grixis Corrections](../Grixis%20Corrections.md#oracle-text-check) for the Oracle check). Where the source mentions Lutri, Trade Secrets or Yawgmoth's Bargain as approved exceptions, our corrected list above takes precedence.
+
+### From `refinement/decisions/Loki_the_Deceiver_Current_Cycle_Decisions_2026-10-14.md`
+
+Source: [refinement/decisions/Loki_the_Deceiver_Current_Cycle_Decisions_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decisions/Loki_the_Deceiver_Current_Cycle_Decisions_2026-10-14.md)
+
+**Loki, the Deceiver — Current-Cycle Refinement Decisions**
+
+Cycle: `global-restart-2026-10-13`  
+Date: 2026-10-14  
+Tracker deck id: `Loki__the_Deceiver`  
+Authoritative source TXT: `Grixis_Commander_Encyclopedia_Current_Source_Package_2026-10-12 / 02_Current_Decklists/TXT/Loki__the_Deceiver.txt`  
+Authoritative source TXT SHA-256: `21fbcd51f4798153c6d4cee4b63d9679589d943d75253273769a686199abf3f7`  
+Normalized current-cycle baseline SHA-256: `fc260af83f9da4d5f0460f2e88b1cd8103f777c92366532a2800bfda149bc223`  
+Approval-candidate SHA-256: `5079291c08c5af212b3d90d63ac5b01849d45c7700b1d64100ef57fb13458062`
+
+**Source reconciliation**
+
+The October 12 current source package is authoritative. It contains exactly 100 cards across 95 distinct names/source rows, including 34 lands and Loki as the sole commander. The older v8.1.4 `deck_card_audit.csv` is supporting research only and is not used to overwrite current membership. In particular, the current source contains `Construct a Cosmic Cube`, `Cover of Darkness`, `Killmonger, Ruthless Usurper`, `Stilt-Man, Towering Terror`, and `Venom, Eddie Brock`, while the historical audit instead contained `Ares, God of War`, `Counterspell`, `Impostor Syndrome`, `Kindred Dominance`, and `Withering Torment`.
+
+**Commander blueprint and natural ceiling**
+
+**Identity:** Villain-copy combat value. Loki should attack safely, clone the highest-value Villain for the combat, exploit enters/static/combat-damage text on the copied body, and convert connecting Villains into cards. Temporary-token preservation (`The Master, Multiplied`, `Sundial of the Infinite`), Villain ETB/death payoffs, evasion, and copy/typal support are identity infrastructure.
+
+**Rules constraint:** a creature put onto the battlefield tapped and attacking was not declared as an attacker. Therefore an attack-trigger-only Villain is materially worse as a Loki copy target than an enters/static/combat-damage Villain. Candidate evaluation was weighted accordingly.
+
+**Natural ceiling:** **Power Bracket 4 — Optimized.** Current community evidence shows a meaningful optimized Loki population but only a minimal user-labeled cEDH sample. The candidate keeps premium Grixis interaction and mana while refusing to replace the Villain-copy engine with a generic Oracle/Breach turbo shell.
+
+**Exact proposed changes — three swaps**
+
+**1. `Construct a Cosmic Cube` → `Red Ghost, Intangible Genius`**
+
+`Construct a Cosmic Cube` is a three-mana Plan that pays off the second card drawn each turn with 2/1 Villain tokens and slowly accumulates toward its seven-counter control effect. `Red Ghost` costs one more mana but is itself an unblockable Villain, has ward {2}, and creates a **3/3 red Ape Villain with haste** whenever the second card of a turn is drawn. Loki's combat-damage draw naturally helps turn on that trigger. Red Ghost also increases the density of legal Loki copy targets and reliable combat-damage enablers rather than occupying a noncreature payoff slot.
+
+**2. `The Masters of Evil` → `Titan of Littjara`**
+
+`The Masters of Evil` is a six-mana +2/+1 Villain anthem whose discard mode tutors a Plan. After the Cube cut, that tutor package becomes even narrower, while other anthem/evasion infrastructure remains. `Titan of Littjara` is a six-mana 6/6 that may choose **Villain** as it enters and then loots based on the number of other creatures sharing that type whenever it enters or attacks. Most importantly, a Loki token copying Titan receives Titan's own as-enters creature-type choice and its enters trigger, making Titan one of the strongest commander-specific copy targets in the available pool.
+
+**3. `Reliquary Tower` → `Hall of Echoes`**
+
+Both occupy a colorless utility-land slot, so the swap preserves the 34-land count and does not worsen colored-source density relative to baseline. Hall can become a copy of Loki before combat while suppressing the legend rule for the turn. If Hall has been under our control continuously since the beginning of the turn, the Hall-Loki can attack alongside the original Loki and produce a second Loki attack trigger. The land does not enter the battlefield when it becomes a copy, so enters abilities are not falsely credited to Hall itself.
+
+**Whole-list audit / rejected material challengers**
+
+Every inherited slot was challenged against the commander blueprint rather than protected by baseline status. The following close calls were rejected after the second pass:
+
+- `Kindred Dominance` over `Blasphemous Act`: the one-sided Villain wipe is more thematic, but seven mana is not a clear strict upgrade over the frequently one-to-three-mana emergency reset in a 34-land optimized list. `Toxic Deluge` already provides a second flexible reset. No swap.
+- `Raise the Palisade`: cheaper asymmetric typal interaction than Kindred Dominance, but temporary bounce is not a material improvement over the selected removal suite. No swap.
+- `Endless Ranks of HYDRA`: good recurring Villain production, but `Avengers: Under Siege` already supplies multiple Villains, a tribal/nontribal damage chapter, and a Treasure conversion chapter. Improvement is not large enough to force a fourth change.
+- `Puppet Master, String Puller`, `Vulture, Scheming Scavenger`, and other attack-trigger-centric Villains: a Loki-created copy enters attacking and therefore does not retrigger an ability that specifically triggers when that copied creature attacks. Their ranking overstates their value as Loki copy targets.
+- Generic `Thassa's Oracle` / `Demonic Consultation`, fast-combo, and sacrifice-loop packages: strong Grixis cards, but they raise generic combo density more than they strengthen Loki's own Villain-copy game plan. Rejected under no-forced-homogenization.
+- Additional clone effects: `Spark Double`, `Taskmaster, Mercenary Mimic`, `Mysterio, Master of Illusion`, `Chameleon, Master of Disguise`, `Loki, Lord of Misrule`, and commander-copy infrastructure already supply substantial copy density. No extra clone displaced a weaker commander-specific slot after the three accepted swaps.
+
+**Structural closeout before complete gate**
+
+The exact candidate is **100 cards / 95 distinct names / 34 lands**. Only basic `Island`, `Mountain`, and `Swamp` repeat. The candidate preserves the baseline's high Villain density; Red Ghost replaces a noncreature and Titan can enter as a Villain, while only `The Masters of Evil` leaves the printed Villain suite.
+
+After baseline reconciliation, commander-blueprint review, current candidate-rank challenge, current Marvel/Reality Fracture release review, optimized-community comparison, mana-base challenge, removal challenge, attack-trigger rules red-team, and a second pass that rejected a forced fourth swap, there are **ZERO NEW MATERIAL IMPROVEMENTS** remaining under the project's commander-first stopping standard.
+
+The candidate remains **NOT APPROVED** pending the exact SHA-bound complete fail-closed Oracle/color-identity, official Commander legality, rules, structural, and singleton gate plus explicit user approval.
+
+### From `refinement/approvals/Loki_the_Deceiver_Approved_2026-10-14.md`
+
+Source: [refinement/approvals/Loki_the_Deceiver_Approved_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/approvals/Loki_the_Deceiver_Approved_2026-10-14.md)
+
+**Loki, the Deceiver — current-cycle approval record**
+
+Cycle: `global-restart-2026-10-13`  
+User approval date: `2026-10-14`  
+Status: **APPROVED / LOCKED**
+
+**Exact approved candidate**
+
+- Approved decklist: `refinement/decklists/Loki_the_Deceiver_Approved_2026-10-14.txt`
+- Canonical SHA-256: `5079291c08c5af212b3d90d63ac5b01849d45c7700b1d64100ef57fb13458062`
+- Complete gate: `refinement/verification/loki_the_deceiver_2026-10-14/gate_output/Loki_the_Deceiver_2026-10-14_Complete_Gate.json`
+- Whole-list decision closeout: `refinement/decisions/Loki_the_Deceiver_Current_Cycle_Decisions_2026-10-14.md`
+- Whole-list audit: `refinement/decisions/Loki_the_Deceiver_Whole_List_Audit_2026-10-14.csv`
+
+**Approval basis**
+
+The exact SHA-bound candidate completed the current-cycle commander-first refinement process and returned `APPROVAL_READY` from the complete fail-closed gate with **zero errors**.
+
+Verified state:
+
+- 100 cards
+- 95 distinct card names; repeated names are basic lands only
+- Commander color identity: B/R/U
+- Rules gate: PASS
+- Official Commander legality gate: PASS
+- Project exceptions: none
+- Gate errors: none
+- Natural ceiling: Power Bracket 4 — Optimized
+
+The final current-cycle changes are:
+
+1. `Construct a Cosmic Cube` → `Red Ghost, Intangible Genius`
+2. `The Masters of Evil` → `Titan of Littjara`
+3. `Reliquary Tower` → `Hall of Echoes`
+
+The user explicitly approved this candidate on the condition that no gate errors were returned. The complete gate records `errors: []`, satisfying that condition. This exact list is therefore canonical and locked unless the user explicitly reopens it.
+
+<!-- COMBOS:START -->
+## Combos (Commander Spellbook)
+
+> Generated 2026-10-15 by `scripts/build_grixis.py` from the [Commander Spellbook](https://commanderspellbook.com) public API (community-maintained). Shows only combos whose **every card is in this list**. Bracket barometer: *Brackets 1–2: no intentional two-card infinite combos. Bracket 3: no early-game two-card infinite combos.*
+
+**No complete combos found** (28 more are one card away; not listed).
+<!-- COMBOS:END -->

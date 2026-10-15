@@ -1,0 +1,423 @@
+---
+title: "Grixis Deck — Doctor Doom, King of Latveria"
+category: deck
+kind: grixis
+commander: "Doctor Doom, King of Latveria"
+color_identity: UBR
+bracket_floor: 4
+game_changers: 6
+validated: true
+source_repo: corymstover/grixis-commander-encyclopediaGPT
+---
+
+# Grixis Deck — Doctor Doom, King of Latveria
+
+> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Doctor_Doom_King_of_Latveria_Approved_2026-10-14.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decklists/Doctor_Doom_King_of_Latveria_Approved_2026-10-14.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-14; source commit `df1abb9`). Imported in Bot cycle 16 and re-validated against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
+
+## Contents
+- [Commander](#commander)
+- [Validation](#validation)
+- [Bracket assessment](#bracket-assessment)
+- [Corrections applied](#corrections-applied)
+- [Decklist (Archidekt import)](#decklist-archidekt-import)
+- [Card breakdown](#card-breakdown)
+- [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Combos (Commander Spellbook)](#combos-commander-spellbook)
+
+## Commander
+
+- **[Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria)** — {1}{U}{B}{R} — Legendary Creature — Human Noble Villain
+- Color identity: **UBR (Blue, Black, Red)**
+- Eligibility (Doctor Doom, King of Latveria): Yes (legendary creature)
+
+## Validation
+
+- Total cards: **100** (1 commander(s) + 61 nonland + 35 nonbasic lands + 3 basics) · average nonland MV 2.85
+- Strict color identity (CR 903.5c), singleton (903.5b), Commander-legal, size (903.5a): ✅ **all checks pass**
+- Every card resolves to an entry in our card DB (100/100 lines linked).
+
+## Bracket assessment
+
+- Game Changers (6): Ancient Tomb, Cyclonic Rift, Demonic Tutor, Fierce Guardianship, Jeska's Will, Vampiric Tutor
+- Extra-turn cards: none
+- Mass land denial: none
+- Commander Spellbook: 1 complete combo(s), 0 two-card infinite (see [Combos](#combos-commander-spellbook)).
+- **Minimum bracket by the published barometers: 4** (more than three Game Changers).
+- Source's stated target (guidance): **Bracket 4 — Optimized**.
+- (Brackets are a pregame-conversation tool. See [EDH Standards](../../EDH%20Standards.md#power-bracket-assessment).)
+
+## Corrections applied
+
+| Type | Change | Reason |
+|---|---|---|
+| format | Archidekt list normalized to [EDH Standards](../../EDH%20Standards.md#list-format-archidekt) | `[Commander]` → `[Commander{top}]` (1 line(s)); role tags restored on 97 untagged line(s): 93 from this deck's FINAL baseline, 4 from the tag the source uses most for that card in other decks; 2 untagged line(s) given a type tag (e.g. `[Land]`). |
+| bracket | Game Changers and combo floor added | The source records no Game Changer count and does not check the official Game Changers list anywhere in its approval records. We added it: **6 Game Changers**, so the minimum bracket is **4**. Commander Spellbook finds 1 complete combos (0 two-card infinite). This is consistent with the source's stated Bracket 4. |
+
+Full log for all decks: [Grixis Corrections](../Grixis%20Corrections.md).
+
+## Decklist (Archidekt import)
+
+```text
+1x Doctor Doom, King of Latveria [Commander{top}]
+1x Ancient Tomb [Land]
+1x Arcane Signet [Ramp]
+1x Archfiend of Ifnir [Removal]
+1x Badlands [Land]
+1x Baron Strucker, HYDRA Overlord [Ramp]
+1x Big Score [Draw]
+1x Black Market Connections [Draw]
+1x Blood Crypt [Land]
+1x Bloodstained Mire [Land]
+1x Bone Miser [Discard]
+1x Canyon Slough [Land]
+1x Change of Fortune [Draw]
+1x Chaos Warp [Removal]
+1x City of Brass [Land]
+1x Command Tower [Land]
+1x Containment Construct [Draw]
+1x Cool but Rude [Draw]
+1x Crucible of Worlds [Recursion]
+1x Currency Converter [Ramp]
+1x Cyclonic Rift [Removal]
+1x Deflecting Swat [Protection]
+1x Demand Answers [Draw]
+1x Demonic Tutor [Tutor]
+1x Desolate Lighthouse [Land]
+1x Doctor Doom [Draw]
+1x Doom Reigns Supreme [Drain]
+1x Drowned Catacomb [Land]
+1x Exotic Orchard [Land]
+1x Fabled Passage [Land]
+1x Faithless Looting [Draw]
+1x Feed the Swarm [Removal]
+1x Fellwar Stone [Ramp]
+1x Fetid Pools [Land]
+1x Fierce Guardianship [Removal]
+1x Frantic Search [Draw]
+1x Geier Reach Sanitarium [Land]
+1x Green Goblin, Nemesis [Ramp]
+1x Green Goblin, Revenant [Draw]
+1x Haunted Ridge [Land]
+1x Iron Monger, Sadistic Tycoon [Counters]
+1x Island [Land]
+1x Jeska's Will [Ramp]
+1x Kang, Temporal Tyrant [Draw]
+1x Leader, Super-Genius [Draw]
+1x Lethal Scheme [Removal]
+1x Loki, the Deceiver [Copy]
+1x Luxury Suite [Land]
+1x M.O.D.O.K. [Draw]
+1x Mana Confluence [Land]
+1x Monument to Endurance [Draw]
+1x Moonstone, Harsh Mistress [Recursion]
+1x Morphic Pool [Land]
+1x Mountain [Land]
+1x Norman Osborn // Green Goblin [Recursion]
+1x Oscorp Industries [Land]
+1x Otawara, Soaring City [Land]
+1x Polluted Delta [Land]
+1x Prowler, Clawed Thief [Draw]
+1x Reanimate [Recursion]
+1x Scalding Tarn [Land]
+1x Seismic Assault [Removal]
+1x Shadow of the Grave [Recursion]
+1x Shipwreck Marsh [Land]
+1x Sol Ring [Ramp]
+1x Steam Vents [Land]
+1x Sulfur Falls [Land]
+1x Sulfurous Springs [Land]
+1x Sunken Hollow [Land]
+1x Surly Badgersaur [Ramp]
+1x Swamp [Land]
+1x Swan Song [Removal]
+1x Takenuma, Abandoned Mire [Land]
+1x Talisman of Creativity [Ramp]
+1x Talisman of Dominance [Ramp]
+1x Talisman of Indulgence [Ramp]
+1x Tectonic Reformation [Draw]
+1x The Soul Stone [Ramp]
+1x Tombstone, Career Criminal [Ramp]
+1x Toxic Deluge [Removal]
+1x Trade Routes [Draw]
+1x Training Center [Land]
+1x Ultron, Unlimited [Tokens]
+1x Underground River [Land]
+1x Underground Sea [Land]
+1x Unexpected Windfall [Draw]
+1x Vampiric Tutor [Tutor]
+1x Vandalblast [Removal]
+1x Villainous Hideout [Land]
+1x Volcanic Island [Land]
+1x Watery Grave [Land]
+1x Wheel of Fortune [Draw]
+1x Windfall [Draw]
+1x Xander's Lounge [Land]
+1x Glorious Purpose [Enchantment]
+1x Chameleon, Master of Disguise [Copy]
+1x Roaming Throne [Copy]
+1x Psychic Frog [Draw]
+1x Spark Double [Copy]
+1x Dakmor Salvage [Land]
+```
+
+## Card breakdown
+
+Role tags are the source author's (untagged lines show the card type). *Printing* is the source's pinned printing, if it pinned one.
+
+| Card | Role (source tag) | Type | MV | Identity | GC | Printing |
+|---|---|---|---|---|---|---|
+| [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) | Commander | Legendary Creature — Human Noble Villain | 4 | UBR |  | — |
+| [Chameleon, Master of Disguise](../../cards/C/cha.md#chameleon-master-of-disguise) | Copy | Legendary Creature — Human Shapeshifter Villain | 4 | U |  | — |
+| [Loki, the Deceiver](../../cards/L/lo.md#loki-the-deceiver) | Copy | Legendary Creature — God Sorcerer Villain | 4 | UBR |  | — |
+| [Roaming Throne](../../cards/R/ro.md#roaming-throne) | Copy | Artifact Creature — Golem | 4 | C |  | — |
+| [Spark Double](../../cards/S/spa.md#spark-double) | Copy | Creature — Illusion | 4 | U |  | — |
+| [Iron Monger, Sadistic Tycoon](../../cards/I/ir.md#iron-monger-sadistic-tycoon) | Counters | Legendary Artifact Creature — Human Villain | 3 | B |  | — |
+| [Bone Miser](../../cards/B/bo.md#bone-miser) | Discard | Creature — Zombie Wizard | 5 | B |  | — |
+| [Doom Reigns Supreme](../../cards/D/do.md#doom-reigns-supreme) | Drain | Enchantment — Plan | 2 | B |  | — |
+| [Big Score](../../cards/B/bi.md#big-score) | Draw | Instant | 4 | R |  | — |
+| [Black Market Connections](../../cards/B/bla.md#black-market-connections) | Draw | Enchantment | 3 | B |  | — |
+| [Change of Fortune](../../cards/C/cha.md#change-of-fortune) | Draw | Sorcery | 4 | R |  | — |
+| [Containment Construct](../../cards/C/con.md#containment-construct) | Draw | Artifact Creature — Construct | 2 | C |  | — |
+| [Cool but Rude](../../cards/C/coo.md#cool-but-rude) | Draw | Enchantment — Class | 2 | R |  | — |
+| [Demand Answers](../../cards/D/dem.md#demand-answers) | Draw | Instant | 2 | R |  | — |
+| [Doctor Doom](../../cards/D/do.md#doctor-doom) | Draw | Legendary Creature — Human Scientist Villain | 6 | B |  | — |
+| [Faithless Looting](../../cards/F/fa.md#faithless-looting) | Draw | Sorcery | 1 | R |  | — |
+| [Frantic Search](../../cards/F/fr.md#frantic-search) | Draw | Instant | 3 | U |  | — |
+| [Green Goblin, Revenant](../../cards/G/gre.md#green-goblin-revenant) | Draw | Legendary Creature — Goblin Human Villain | 5 | BR |  | — |
+| [Kang, Temporal Tyrant](../../cards/K/ka.md#kang-temporal-tyrant) | Draw | Legendary Creature — Human Villain | 4 | UB |  | — |
+| [Leader, Super-Genius](../../cards/L/le.md#leader-super-genius) | Draw | Legendary Creature — Gamma Scientist Villain | 4 | U |  | — |
+| [M.O.D.O.K.](../../cards/M/mod.md#modok) | Draw | Legendary Artifact Creature — Villain | 5 | B |  | — |
+| [Monument to Endurance](../../cards/M/mon.md#monument-to-endurance) | Draw | Artifact | 3 | C |  | — |
+| [Prowler, Clawed Thief](../../cards/P/pr.md#prowler-clawed-thief) | Draw | Legendary Creature — Human Rogue Villain | 3 | UB |  | — |
+| [Psychic Frog](../../cards/P/ps.md#psychic-frog) | Draw | Creature — Frog | 2 | UB |  | — |
+| [Tectonic Reformation](../../cards/T/te.md#tectonic-reformation) | Draw | Enchantment | 2 | R |  | — |
+| [Trade Routes](../../cards/T/tra.md#trade-routes) | Draw | Enchantment | 2 | U |  | — |
+| [Unexpected Windfall](../../cards/U/un.md#unexpected-windfall) | Draw | Instant | 4 | R |  | — |
+| [Wheel of Fortune](../../cards/W/wh.md#wheel-of-fortune) | Draw | Sorcery | 3 | R |  | — |
+| [Windfall](../../cards/W/wi.md#windfall) | Draw | Sorcery | 3 | U |  | — |
+| [Glorious Purpose](../../cards/G/gl.md#glorious-purpose) | Enchantment | Enchantment — Plan | 2 | U |  | — |
+| [Ancient Tomb](../../cards/A/an.md#ancient-tomb) | Land | Land | 0 | C | ✅ | — |
+| [Badlands](../../cards/B/bad.md#badlands) | Land | Land — Swamp Mountain | 0 | BR |  | — |
+| [Blood Crypt](../../cards/B/blo.md#blood-crypt) | Land | Land — Swamp Mountain | 0 | BR |  | — |
+| [Bloodstained Mire](../../cards/B/blo.md#bloodstained-mire) | Land | Land | 0 | C |  | — |
+| [Canyon Slough](../../cards/C/can.md#canyon-slough) | Land | Land — Swamp Mountain | 0 | BR |  | — |
+| [City of Brass](../../cards/C/ci.md#city-of-brass) | Land | Land | 0 | C |  | — |
+| [Command Tower](../../cards/C/com.md#command-tower) | Land | Land | 0 | C |  | — |
+| [Dakmor Salvage](../../cards/D/da.md#dakmor-salvage) | Land | Land | 0 | B |  | — |
+| [Desolate Lighthouse](../../cards/D/des.md#desolate-lighthouse) | Land | Land | 0 | UR |  | — |
+| [Drowned Catacomb](../../cards/D/dro.md#drowned-catacomb) | Land | Land | 0 | UB |  | — |
+| [Exotic Orchard](../../cards/E/ex.md#exotic-orchard) | Land | Land | 0 | C |  | — |
+| [Fabled Passage](../../cards/F/fa.md#fabled-passage) | Land | Land | 0 | C |  | — |
+| [Fetid Pools](../../cards/F/fe.md#fetid-pools) | Land | Land — Island Swamp | 0 | UB |  | — |
+| [Geier Reach Sanitarium](../../cards/G/ge.md#geier-reach-sanitarium) | Land | Legendary Land | 0 | C |  | — |
+| [Haunted Ridge](../../cards/H/ha.md#haunted-ridge) | Land | Land | 0 | BR |  | — |
+| [Island](../../cards/I/is.md#island) | Land | Basic Land — Island | 0 | U |  | — |
+| [Luxury Suite](../../cards/L/lu.md#luxury-suite) | Land | Land | 0 | BR |  | — |
+| [Mana Confluence](../../cards/M/man.md#mana-confluence) | Land | Land | 0 | C |  | — |
+| [Morphic Pool](../../cards/M/mor.md#morphic-pool) | Land | Land | 0 | UB |  | — |
+| [Mountain](../../cards/M/mou.md#mountain) | Land | Basic Land — Mountain | 0 | R |  | — |
+| [Oscorp Industries](../../cards/O/os.md#oscorp-industries) | Land | Land | 0 | UBR |  | — |
+| [Otawara, Soaring City](../../cards/O/ot.md#otawara-soaring-city) | Land | Legendary Land | 0 | U |  | — |
+| [Polluted Delta](../../cards/P/po.md#polluted-delta) | Land | Land | 0 | C |  | — |
+| [Scalding Tarn](../../cards/S/sc.md#scalding-tarn) | Land | Land | 0 | C |  | — |
+| [Shipwreck Marsh](../../cards/S/shi.md#shipwreck-marsh) | Land | Land | 0 | UB |  | — |
+| [Steam Vents](../../cards/S/ste.md#steam-vents) | Land | Land — Island Mountain | 0 | UR |  | — |
+| [Sulfur Falls](../../cards/S/sul.md#sulfur-falls) | Land | Land | 0 | UR |  | — |
+| [Sulfurous Springs](../../cards/S/sul.md#sulfurous-springs) | Land | Land | 0 | BR |  | — |
+| [Sunken Hollow](../../cards/S/sun.md#sunken-hollow) | Land | Land — Island Swamp | 0 | UB |  | — |
+| [Swamp](../../cards/S/sw.md#swamp) | Land | Basic Land — Swamp | 0 | B |  | — |
+| [Takenuma, Abandoned Mire](../../cards/T/ta.md#takenuma-abandoned-mire) | Land | Legendary Land | 0 | B |  | — |
+| [Training Center](../../cards/T/tra.md#training-center) | Land | Land | 0 | UR |  | — |
+| [Underground River](../../cards/U/un.md#underground-river) | Land | Land | 0 | UB |  | — |
+| [Underground Sea](../../cards/U/un.md#underground-sea) | Land | Land — Island Swamp | 0 | UB |  | — |
+| [Villainous Hideout](../../cards/V/vi.md#villainous-hideout) | Land | Land | 0 | C |  | — |
+| [Volcanic Island](../../cards/V/vo.md#volcanic-island) | Land | Land — Island Mountain | 0 | UR |  | — |
+| [Watery Grave](../../cards/W/wat.md#watery-grave) | Land | Land — Island Swamp | 0 | UB |  | — |
+| [Xander's Lounge](../../cards/X/xa.md#xanders-lounge) | Land | Land — Island Swamp Mountain | 0 | UBR |  | — |
+| [Deflecting Swat](../../cards/D/def.md#deflecting-swat) | Protection | Instant | 3 | R |  | — |
+| [Arcane Signet](../../cards/A/arc.md#arcane-signet) | Ramp | Artifact | 2 | C |  | — |
+| [Baron Strucker, HYDRA Overlord](../../cards/B/bar.md#baron-strucker-hydra-overlord) | Ramp | Legendary Creature — Human Villain | 3 | B |  | — |
+| [Currency Converter](../../cards/C/cu.md#currency-converter) | Ramp | Artifact | 1 | C |  | — |
+| [Fellwar Stone](../../cards/F/fe.md#fellwar-stone) | Ramp | Artifact | 2 | C |  | — |
+| [Green Goblin, Nemesis](../../cards/G/gre.md#green-goblin-nemesis) | Ramp | Legendary Creature — Goblin Human Villain | 4 | BR |  | — |
+| [Jeska's Will](../../cards/J/je.md#jeskas-will) | Ramp | Sorcery | 3 | R | ✅ | — |
+| [Sol Ring](../../cards/S/so.md#sol-ring) | Ramp | Artifact | 1 | C |  | — |
+| [Surly Badgersaur](../../cards/S/sur.md#surly-badgersaur) | Ramp | Creature — Badger Dinosaur | 4 | R |  | — |
+| [Talisman of Creativity](../../cards/T/ta.md#talisman-of-creativity) | Ramp | Artifact | 2 | UR |  | — |
+| [Talisman of Dominance](../../cards/T/ta.md#talisman-of-dominance) | Ramp | Artifact | 2 | UB |  | — |
+| [Talisman of Indulgence](../../cards/T/ta.md#talisman-of-indulgence) | Ramp | Artifact | 2 | BR |  | — |
+| [The Soul Stone](../../cards/T/thes.md#the-soul-stone) | Ramp | Legendary Artifact — Infinity Stone | 2 | B |  | — |
+| [Tombstone, Career Criminal](../../cards/T/to.md#tombstone-career-criminal) | Ramp | Legendary Creature — Human Villain | 3 | B |  | — |
+| [Crucible of Worlds](../../cards/C/cr.md#crucible-of-worlds) | Recursion | Artifact | 3 | C |  | — |
+| [Moonstone, Harsh Mistress](../../cards/M/moo.md#moonstone-harsh-mistress) | Recursion | Legendary Creature — Human Doctor Villain | 4 | B |  | — |
+| [Norman Osborn // Green Goblin](../../cards/N/no.md#norman-osborn--green-goblin) | Recursion | Legendary Creature — Human Scientist Villain // Legendary Creature — Goblin Human Villain | 2 | UBR |  | — |
+| [Reanimate](../../cards/R/rea.md#reanimate) | Recursion | Sorcery | 1 | B |  | — |
+| [Shadow of the Grave](../../cards/S/sha.md#shadow-of-the-grave) | Recursion | Instant | 2 | B |  | — |
+| [Archfiend of Ifnir](../../cards/A/arc.md#archfiend-of-ifnir) | Removal | Creature — Demon | 5 | B |  | — |
+| [Chaos Warp](../../cards/C/cha.md#chaos-warp) | Removal | Instant | 3 | R |  | — |
+| [Cyclonic Rift](../../cards/C/cy.md#cyclonic-rift) | Removal | Instant | 2 | U | ✅ | — |
+| [Feed the Swarm](../../cards/F/fe.md#feed-the-swarm) | Removal | Sorcery | 2 | B |  | — |
+| [Fierce Guardianship](../../cards/F/fi.md#fierce-guardianship) | Removal | Instant | 3 | U | ✅ | — |
+| [Lethal Scheme](../../cards/L/le.md#lethal-scheme) | Removal | Instant | 4 | B |  | — |
+| [Seismic Assault](../../cards/S/sei.md#seismic-assault) | Removal | Enchantment | 3 | R |  | — |
+| [Swan Song](../../cards/S/sw.md#swan-song) | Removal | Instant | 1 | U |  | — |
+| [Toxic Deluge](../../cards/T/to.md#toxic-deluge) | Removal | Sorcery | 3 | B |  | — |
+| [Vandalblast](../../cards/V/va.md#vandalblast) | Removal | Sorcery | 1 | R |  | — |
+| [Ultron, Unlimited](../../cards/U/ul.md#ultron-unlimited) | Tokens | Legendary Artifact Creature — Robot Villain | 3 | UB |  | — |
+| [Demonic Tutor](../../cards/D/dem.md#demonic-tutor) | Tutor | Sorcery | 2 | B | ✅ | — |
+| [Vampiric Tutor](../../cards/V/va.md#vampiric-tutor) | Tutor | Instant | 1 | B | ✅ | — |
+
+## Source commentary (verbatim)
+
+> Quoted from the source repo with headings turned into bold text. This is **the source author's analysis and opinion (guidance)**, from `grixis-commander-encyclopediaGPT`, path shown above each block. Relative links point back to the source. Rules statements here were not re-verified card by card (see [Grixis Corrections](../Grixis%20Corrections.md#oracle-text-check) for the Oracle check). Where the source mentions Lutri, Trade Secrets or Yawgmoth's Bargain as approved exceptions, our corrected list above takes precedence.
+
+### From `refinement/blueprints/Doctor_Doom_King_of_Latveria_Current_Cycle_Blueprint_2026-10-14.md`
+
+Source: [refinement/blueprints/Doctor_Doom_King_of_Latveria_Current_Cycle_Blueprint_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/blueprints/Doctor_Doom_King_of_Latveria_Current_Cycle_Blueprint_2026-10-14.md)
+
+**Doctor Doom, King of Latveria — Current-Cycle Commander-First Blueprint**
+
+**Date:** 2026-10-14  
+**Cycle:** `global-restart-2026-10-13`  
+**Deck:** #13 / `Doctor_Doom__King_of_Latveria`  
+**Authoritative baseline:** `refinement/decklists/Doctor_Doom_King_of_Latveria_Current_Cycle_Baseline_2026-10-14.txt`  
+**Standardized baseline SHA-256:** `08825dee74f034bc38415fe7370cccc3fe69de7887769577dd32f98f5bbd4572`
+
+**Commander identity**
+
+Current Oracle text:
+
+> Whenever you discard one or more land cards, each opponent loses 2 life.
+> At the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives.
+
+Doctor Doom therefore rewards **separate land-discard events**, not merely high discard volume. A single effect that discards several lands at once produces one Doom land-discard trigger; multiple cycling/activated-cost discards produce multiple triggers. The combat ability also makes Villain density and connive payoffs materially commander-specific.
+
+**Primary game plan**
+
+1. Deploy Doom and cheap self-discard infrastructure.
+2. Turn lands in hand into repeated, separately triggered discard events through cycling, Trade Routes, Seismic Assault, Psychic Frog, rummage effects, and Villain/connive engines.
+3. Reuse discarded lands/cards with Crucible of Worlds, Moonstone, Containment Construct, Shadow of the Grave, and Dakmor Salvage.
+4. Multiply Doom's triggered abilities with Chameleon, Spark Double, and Roaming Throne rather than adding generic Grixis combo packages.
+5. Use the Villain/connive shell as a second axis: Lethal Scheme, Kang, Ultron, Villainous Hideout, Glorious Purpose, Norman Osborn, Prowler, Tombstone, Leader, and other Villains generate value while advancing Doom's natural game plan.
+6. Close through repeated Doom drain, Cool but Rude/Monument pressure, Villain combat, or the Dakmor repeatable drain engines.
+
+**Natural power ceiling**
+
+**Bracket 4 — Optimized.** Doom is an efficient four-mana engine with repeatable table-wide damage and access to strong Grixis interaction/tutors, but his natural win structure is multi-piece and resource-dependent. The deck is optimized aggressively without replacing its identity with generic Consultation/Oracle or unrelated cEDH packages.
+
+**What distinguishes this deck**
+
+This is not generic Grixis discard and not a generic Villain tribal deck. Its defining resource loop is **lands as discard ammunition**: cycling/activating them one at a time, converting those discards into Doom damage and secondary mana/card/token payoffs, then recovering the lands and repeating. Villain/connive cards are selected when they reinforce that loop or multiply Doom's specific triggers.
+
+**Source discrepancy resolved**
+
+The authoritative October CSV/TXT exports agree with one another and are used as the baseline. `deck_card_audit.csv` contains a different five-card snapshot: it has `Archnemesis`, `Chameleon, Master of Disguise`, `Crumbling Necropolis`, `Doctor Octopus, Master Planner`, and `Doom's Time Platform` where the authoritative CSV/TXT instead contain `Cool but Rude`, `Kang, Temporal Tyrant`, `Lethal Scheme`, `Moonstone, Harsh Mistress`, and `Villainous Hideout`.
+
+This discrepancy also biases the candidate ranking pool: several cards already present in the authoritative baseline appear as candidates, while audit-only cards such as Chameleon are omitted as discovery candidates. The current refinement therefore treats CSV/TXT as authoritative and manually evaluates all five audit-only cards without rerunning the research pipeline.
+
+### From `refinement/decisions/Doctor_Doom_King_of_Latveria_Current_Cycle_Decisions_2026-10-14.md`
+
+Source: [refinement/decisions/Doctor_Doom_King_of_Latveria_Current_Cycle_Decisions_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decisions/Doctor_Doom_King_of_Latveria_Current_Cycle_Decisions_2026-10-14.md)
+
+**Doctor Doom, King of Latveria — Current-Cycle Refinement Decision Record**
+
+**Date:** 2026-10-14  
+**Cycle:** `global-restart-2026-10-13`  
+**Status:** working approval candidate; explicit user approval still required  
+**Baseline SHA-256:** `08825dee74f034bc38415fe7370cccc3fe69de7887769577dd32f98f5bbd4572`  
+**Candidate SHA-256:** `c97bd448aa4b18d2f7ed15e5d67006ab320ed67ad3ed267e44150de472e1dc58`
+
+**Mandatory whole-list audit**
+
+All 99 noncommander slots were challenged against their actual roles, commander necessity, curve, mana, interaction density, redundancy, and current alternatives. The deck remains at 38 lands after the proposed land-for-land change, and the five nonland additions have the same combined mana value as the five nonland cuts, so the nonland curve does not increase.
+
+The audit identified one structurally weak package: `Liliana's Caress`, `Geth's Grimoire`, and `Waste Not` only reward **opponents** discarding, while Doom's Oracle text rewards **you** discarding lands. `Dark Deal` is the weakest wheel in this commander because discarding a hand containing multiple lands is still one Doom trigger and Dark Deal then draws one fewer card. `Oskar, Rubbish Reclaimer` is strong in generic discard, but only recovers nonlands and overlaps broader recovery already supplied by Moonstone, Containment Construct, and Norman Osborn. `Smoldering Marsh` is the least commander-specific land among realistic land cuts and preserves the 38-land count when exchanged for Dakmor Salvage.
+
+**Proposed changes**
+
+| OUT | IN | Decision rationale |
+|---|---|---|
+| Liliana's Caress | Glorious Purpose | Replaces opponent-discard punishment with a two-mana Plan that rewards every connive, grows the conniving creature, and converts six connives into a four-card free-cast/value burst. Doom, Kang, Ultron, Lethal Scheme, and Villainous Hideout all naturally advance it. |
+| Geth's Grimoire | Chameleon, Master of Disguise | Grimoire depends on opponents discarding. Chameleon can enter as a Doom copy while retaining a different name, creating another independent Doom engine without a legend-rule conflict; mayhem also lets the deck cast Chameleon after deliberately discarding it. |
+| Waste Not | Roaming Throne | Waste Not rewards the wrong side of the discard exchange. Throne can choose Villain, doubling both of Doom's triggered abilities and many other Villain triggers throughout the deck. |
+| Dark Deal | Psychic Frog | Dark Deal compresses all lands discarded from a hand into one Doom trigger. Psychic Frog is a two-mana, zero-mana-cost repeatable discard outlet: each land can be discarded as a separate activation/event, creating a separate Doom trigger while Frog becomes a threat and can draw on combat. |
+| Oskar, Rubbish Reclaimer | Spark Double | Oskar only converts nonland discards and is redundant with broader graveyard/discard access. Spark Double can become a nonlegendary Doom copy and independently doubles the commander's core drain/connive engine; it can copy another engine when Doom is unavailable. |
+| Smoldering Marsh | Dakmor Salvage | Keeps 38 lands while turning a low-utility conditional dual into renewable discard ammunition. Dredge 2 can replace a later draw to return Dakmor after it is discarded, enabling repeatable Doom loops with existing Trade Routes/Bone Miser or Surly Badgersaur infrastructure. |
+
+**Important retained cards**
+
+- `Wheel of Fortune` and `Windfall` remain despite Doom only seeing one land-discard trigger from a multi-card hand discard. Their role is high-efficiency refill after this deck has deliberately depleted its hand, and Bone Miser, Surly Badgersaur, Archfiend of Ifnir, Cool but Rude, Monument to Endurance, and other cards still process individual discarded cards.
+- `Change of Fortune` is retained over Dark Deal because it is self-focused and its refill scales with the total number of cards already discarded that turn.
+- `Cool but Rude`, `Tectonic Reformation`, `Trade Routes`, `Seismic Assault`, `Bone Miser`, `Surly Badgersaur`, `Containment Construct`, `Crucible of Worlds`, `Moonstone, Harsh Mistress`, `Monument to Endurance`, `Green Goblin, Nemesis`, `Prowler, Clawed Thief`, and `Shadow of the Grave` form the commander-specific land/self-discard core.
+- `Lethal Scheme`, `Kang, Temporal Tyrant`, and `Villainous Hideout` are already present in the authoritative baseline despite appearing near the top of the candidate-ranking file due to the research-package snapshot discrepancy.
+
+**Candidate exhaustion / red-team review**
+
+Serious alternatives reviewed included `Coastal Peak`, `Typhoid Mary, Fractured`, `Living Laser`, `Ledger Shredder`, `Red Ghost, Intangible Genius`, `Archnemesis`, `Doctor Octopus, Master Planner`, `Doom's Time Platform`, `The Frightful Four`, `Progenitor's Icon`, `Withering Torment`, `Blasphemous Act`, `Glint-Horn Buccaneer`, `Teferi's Ageless Insight`, `Swiftfoot Boots`, `Putrid Imp`, `Land's Edge`, and the cycling-land tail.
+
+None produced a new material improvement after slot-cost comparison. The closest alternatives were Ledger Shredder and Putrid Imp as additional discard outlets, Living Laser as a discard-volume combat payoff, and Archnemesis as value/pressure. Psychic Frog is the superior free discard outlet because each activation can separate land discards while also supplying threat/card advantage; the two Doom-copy creatures and Roaming Throne give more direct commander redundancy than the five-mana-plus tribal/value challengers. Glorious Purpose has stronger commander-specific connive coverage than generic draw/value options. Dakmor Salvage is the land candidate with the highest strategic leverage because it is both a land slot and reusable discard fuel.
+
+A second serious pass produced **zero new material improvements**.
+
+**Current external-evidence checkpoint**
+
+Current EDHREC optimized Doom data is supporting evidence only. It strongly supports the retained commander-specific core and the proposed copy/connive package: Glorious Purpose has high lift in optimized Doom lists; Spark Double, Psychic Frog, Chameleon, and Roaming Throne all appear in optimized Doom subsets, including cycling/control shells. Conversely, Waste Not and Liliana's Caress have low lift in optimized discard-tagged Doom decks. These observations corroborate, but do not substitute for, the commander-first slot analysis.
+
+**Power classification**
+
+**Bracket 4 — Optimized**  
+Proposed tags: **Land Discard / Villains / Connive**
+
+### From `refinement/approvals/Doctor_Doom_King_of_Latveria_Approved_2026-10-14.md`
+
+Source: [refinement/approvals/Doctor_Doom_King_of_Latveria_Approved_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/approvals/Doctor_Doom_King_of_Latveria_Approved_2026-10-14.md)
+
+**Doctor Doom, King of Latveria — Current-Cycle Approval Record**
+
+**Date:** 2026-10-14  
+**Cycle:** `global-restart-2026-10-13`  
+**Status:** APPROVED / LOCKED  
+**Canonical SHA-256:** `c97bd448aa4b18d2f7ed15e5d67006ab320ed67ad3ed267e44150de472e1dc58`
+
+The user explicitly approved the exact SHA-bound approval candidate after the mandatory 99-slot whole-list audit, candidate exhaustion, red-team review, zero-new-material-improvement closure, fresh Oracle/cache verification, current official Commander legality verification, rules-attestation PASS, and structural complete-gate PASS.
+
+**Approved changes**
+
+1. Liliana's Caress -> Glorious Purpose
+2. Geth's Grimoire -> Chameleon, Master of Disguise
+3. Waste Not -> Roaming Throne
+4. Dark Deal -> Psychic Frog
+5. Oskar, Rubbish Reclaimer -> Spark Double
+6. Smoldering Marsh -> Dakmor Salvage
+
+**Verification**
+
+- Exactly 100 cards
+- 100 distinct names
+- Commander color identity: B/R/U
+- Singleton compliance: PASS
+- Rules gate: PASS
+- Official Commander legality gate: PASS
+- Project exceptions: none
+- Complete gate result: APPROVAL_READY before approval
+- Power classification: Bracket 4 — Optimized
+- Archidekt tags: Land Discard / Villains / Connive
+
+**Canonical artifacts**
+
+- Approved list: `refinement/decklists/Doctor_Doom_King_of_Latveria_Approved_2026-10-14.txt`
+- Approval candidate: `refinement/decklists/Doctor_Doom_King_of_Latveria_Approval_Candidate_2026-10-14.txt`
+- Whole-list audit / decisions: `refinement/decisions/Doctor_Doom_King_of_Latveria_Current_Cycle_Decisions_2026-10-14.md`
+- Complete gate: `refinement/verification/doctor_doom_king_of_latveria_2026-10-14/gate_output/Doctor_Doom_King_of_Latveria_2026-10-14_Complete_Gate.json`
+
+<!-- COMBOS:START -->
+## Combos (Commander Spellbook)
+
+> Generated 2026-10-15 by `scripts/build_grixis.py` from the [Commander Spellbook](https://commanderspellbook.com) public API (community-maintained). Shows only combos whose **every card is in this list**. Bracket barometer: *Brackets 1–2: no intentional two-card infinite combos. Bracket 3: no early-game two-card infinite combos.*
+
+**1 complete combo(s); 0 two-card infinite.** 16 more are one card away (not listed).
+
+| Cards | Produces (Spellbook) | Extra requirements | Link |
+|---|---|---|---|
+| Surly Badgersaur + Tectonic Reformation + Dakmor Salvage | Infinite self-mill, Near-infinite self-discard triggers | — | [779-2546-4467](https://commanderspellbook.com/combo/779-2546-4467/) |
+<!-- COMBOS:END -->

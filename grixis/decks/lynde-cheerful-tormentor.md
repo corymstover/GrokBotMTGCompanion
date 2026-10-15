@@ -1,0 +1,422 @@
+---
+title: "Grixis Deck — Lynde, Cheerful Tormentor"
+category: deck
+kind: grixis
+commander: "Lynde, Cheerful Tormentor"
+color_identity: UBR
+bracket_floor: 4
+game_changers: 8
+validated: true
+source_repo: corymstover/grixis-commander-encyclopediaGPT
+---
+
+# Grixis Deck — Lynde, Cheerful Tormentor
+
+> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Lynde_Cheerful_Tormentor_Approved_2026-10-14.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decklists/Lynde_Cheerful_Tormentor_Approved_2026-10-14.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-14; source commit `df1abb9`). Imported in Bot cycle 16 and re-validated against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
+
+## Contents
+- [Commander](#commander)
+- [Validation](#validation)
+- [Bracket assessment](#bracket-assessment)
+- [Corrections applied](#corrections-applied)
+- [Decklist (Archidekt import)](#decklist-archidekt-import)
+- [Card breakdown](#card-breakdown)
+- [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Combos (Commander Spellbook)](#combos-commander-spellbook)
+
+## Commander
+
+- **[Lynde, Cheerful Tormentor](../../cards/L/ly.md#lynde-cheerful-tormentor)** — {1}{U}{B}{R} — Legendary Creature — Human Warlock
+- Color identity: **UBR (Blue, Black, Red)**
+- Eligibility (Lynde, Cheerful Tormentor): Yes (legendary creature)
+
+## Validation
+
+- Total cards: **100** (1 commander(s) + 64 nonland + 25 nonbasic lands + 10 basics) · average nonland MV 3.22
+- Strict color identity (CR 903.5c), singleton (903.5b), Commander-legal, size (903.5a): ✅ **all checks pass**
+- Every card resolves to an entry in our card DB (93/93 lines linked).
+
+## Bracket assessment
+
+- Game Changers (8): Ancient Tomb, Cyclonic Rift, Demonic Tutor, Fierce Guardianship, Imperial Seal, Jeska's Will, Rhystic Study, Vampiric Tutor
+- Extra-turn cards: none
+- Mass land denial: none
+- Commander Spellbook: 0 complete combo(s), 0 two-card infinite (see [Combos](#combos-commander-spellbook)).
+- **Minimum bracket by the published barometers: 4** (more than three Game Changers).
+- Source's stated target (guidance): **Bracket 4 — Optimized**.
+- (Brackets are a pregame-conversation tool. See [EDH Standards](../../EDH%20Standards.md#power-bracket-assessment).)
+
+## Corrections applied
+
+| Type | Change | Reason |
+|---|---|---|
+| format | Archidekt list normalized to [EDH Standards](../../EDH%20Standards.md#list-format-archidekt) | `[Commander]` → `[Commander{top}]` (1 line(s)); role tags restored on 85 untagged line(s): 78 from this deck's FINAL baseline, 7 from the tag the source uses most for that card in other decks; 7 untagged line(s) given a type tag (e.g. `[Land]`). |
+| bracket | Game Changers and combo floor added | The source records no Game Changer count and does not check the official Game Changers list anywhere in its approval records. We added it: **8 Game Changers**, so the minimum bracket is **4**. Commander Spellbook finds 0 complete combos (0 two-card infinite). This is consistent with the source's stated Bracket 4. |
+
+Full log for all decks: [Grixis Corrections](../Grixis%20Corrections.md).
+
+## Decklist (Archidekt import)
+
+```text
+1x Lynde, Cheerful Tormentor [Commander{top}]
+1x Accursed Witch // Infectious Curse [Ramp]
+1x Ancient Tomb [Land]
+1x Arcane Signet [Ramp]
+1x Ashiok's Reaper [Draw]
+1x Badlands [Land]
+1x Bitterheart Witch [Tutor]
+1x Blasphemous Act [Removal]
+1x Blood Crypt [Land]
+1x Bloodstained Mire [Land]
+1x Bojuka Bog [Land]
+1x Braids, Arisen Nightmare [Draw]
+1x Chaos Warp [Removal]
+1x City of Brass [Land]
+1x Claws of Gix [Sac Outlet]
+1x Clever Impersonator [Clones]
+1x Command Tower [Land]
+1x Copy Enchantment [Copy]
+1x Cruel Reality [Removal]
+1x Curse of Bloodletting [Burn]
+1x Curse of Death's Hold [Removal]
+1x Curse of Disturbance [Tokens]
+1x Curse of Echoes [Enchantment]
+1x Curse of Fool's Wisdom [Lifegain]
+1x Curse of Hospitality [Enchantment]
+1x Curse of Misfortunes [Tutor]
+1x Curse of Obsession [Draw]
+1x Curse of Opulence [Ramp]
+1x Curse of Shaken Faith [Enchantment]
+1x Curse of Surveillance [Draw]
+1x Curse of Thirst [Burn]
+1x Curse of Unbinding [Mill]
+1x Curse of Vengeance [Enchantment]
+1x Curse of Verbosity [Draw]
+1x Curse of the Restless Dead [Tokens]
+1x Cyclonic Rift [Removal]
+1x Damnation [Removal]
+1x Deadly Rollick [Removal]
+1x Deflecting Swat [Protection]
+1x Demon of Fate's Design [Ramp]
+1x Demonic Tutor [Tutor]
+1x Despotic Scepter [Artifact]
+1x Dimir Signet [Ramp]
+1x Doomwake Giant [Removal]
+1x Entity Tracker [Draw]
+1x Estrid's Invocation [Copy]
+1x Exotic Orchard [Land]
+1x Fierce Guardianship [Removal]
+1x Flooded Strand [Land]
+1x Grim Guardian [Drain]
+1x Imperial Seal [Tutor]
+4x Island [Land]
+1x Jeska's Will [Ramp]
+1x Luxury Suite [Land]
+1x Maddening Hex [Burn]
+1x Mana Confluence [Land]
+1x Mana Drain [Removal]
+1x Marsh Flats [Land]
+1x Mirrormade [Copy]
+1x Misty Rainforest [Land]
+1x Morphic Pool [Land]
+3x Mountain [Land]
+1x Nightscape Familiar [Ramp]
+1x Obeka, Splitter of Seconds [Copy]
+1x Paradox Haze [Draw]
+1x Perilous Research [Instant]
+1x Polluted Delta [Land]
+1x Propaganda [Protection]
+1x Rakdos Signet [Ramp]
+1x Rhystic Study [Draw]
+1x Riverglide Pathway // Lavaglide Pathway [Land]
+1x Scalding Tarn [Land]
+1x Shivan Reef [Land]
+1x Sol Ring [Ramp]
+1x Steam Vents [Land]
+1x Sulfurous Springs [Land]
+3x Swamp [Land]
+1x Swan Song [Removal]
+1x Talisman of Creativity [Ramp]
+1x Talisman of Dominance [Ramp]
+1x Talisman of Indulgence [Ramp]
+1x The Ninth Doctor [Creature]
+1x Torment of Scarabs [Discard]
+1x Toxic Deluge [Removal]
+1x Training Center [Land]
+1x Trespasser's Curse [Lifegain]
+1x Underground Sea [Land]
+1x Vampiric Tutor [Tutor]
+1x Volcanic Island [Land]
+1x Watery Grave [Land]
+1x Wicked Visitor [Drain]
+1x Withering Torment [Removal]
+1x Xander's Lounge [Land]
+```
+
+## Card breakdown
+
+Role tags are the source author's (untagged lines show the card type). *Printing* is the source's pinned printing, if it pinned one.
+
+| Card | Role (source tag) | Type | MV | Identity | GC | Printing |
+|---|---|---|---|---|---|---|
+| [Lynde, Cheerful Tormentor](../../cards/L/ly.md#lynde-cheerful-tormentor) | Commander | Legendary Creature — Human Warlock | 4 | UBR |  | — |
+| [Despotic Scepter](../../cards/D/des.md#despotic-scepter) | Artifact | Artifact | 1 | C |  | — |
+| [Curse of Bloodletting](../../cards/C/cu.md#curse-of-bloodletting) | Burn | Enchantment — Aura Curse | 5 | R |  | — |
+| [Curse of Thirst](../../cards/C/cu.md#curse-of-thirst) | Burn | Enchantment — Aura Curse | 5 | B |  | — |
+| [Maddening Hex](../../cards/M/mad.md#maddening-hex) | Burn | Enchantment — Aura Curse | 3 | R |  | — |
+| [Clever Impersonator](../../cards/C/cl.md#clever-impersonator) | Clones | Creature — Shapeshifter | 4 | U |  | — |
+| [Copy Enchantment](../../cards/C/cop.md#copy-enchantment) | Copy | Enchantment | 3 | U |  | — |
+| [Estrid's Invocation](../../cards/E/es.md#estrids-invocation) | Copy | Enchantment | 3 | U |  | — |
+| [Mirrormade](../../cards/M/mir.md#mirrormade) | Copy | Enchantment | 3 | U |  | — |
+| [Obeka, Splitter of Seconds](../../cards/O/ob.md#obeka-splitter-of-seconds) | Copy | Legendary Creature — Ogre Warlock | 4 | UBR |  | — |
+| [The Ninth Doctor](../../cards/T/then.md#the-ninth-doctor) | Creature | Legendary Creature — Time Lord Doctor | 3 | UR |  | — |
+| [Torment of Scarabs](../../cards/T/to.md#torment-of-scarabs) | Discard | Enchantment — Aura Curse | 4 | B |  | — |
+| [Grim Guardian](../../cards/G/gri.md#grim-guardian) | Drain | Enchantment Creature — Zombie | 3 | B |  | — |
+| [Wicked Visitor](../../cards/W/wi.md#wicked-visitor) | Drain | Creature — Nightmare | 2 | B |  | — |
+| [Ashiok's Reaper](../../cards/A/as.md#ashioks-reaper) | Draw | Creature — Nightmare | 4 | B |  | — |
+| [Braids, Arisen Nightmare](../../cards/B/br.md#braids-arisen-nightmare) | Draw | Legendary Creature — Nightmare | 3 | B |  | — |
+| [Curse of Obsession](../../cards/C/cu.md#curse-of-obsession) | Draw | Enchantment — Aura Curse | 5 | R |  | — |
+| [Curse of Surveillance](../../cards/C/cu.md#curse-of-surveillance) | Draw | Enchantment — Aura Curse | 5 | U |  | — |
+| [Curse of Verbosity](../../cards/C/cu.md#curse-of-verbosity) | Draw | Enchantment — Aura Curse | 3 | U |  | — |
+| [Entity Tracker](../../cards/E/en.md#entity-tracker) | Draw | Creature — Human Scout | 3 | U |  | — |
+| [Paradox Haze](../../cards/P/pa.md#paradox-haze) | Draw | Enchantment — Aura | 3 | U |  | — |
+| [Rhystic Study](../../cards/R/rh.md#rhystic-study) | Draw | Enchantment | 3 | U | ✅ | — |
+| [Curse of Echoes](../../cards/C/cu.md#curse-of-echoes) | Enchantment | Enchantment — Aura Curse | 5 | U |  | — |
+| [Curse of Hospitality](../../cards/C/cu.md#curse-of-hospitality) | Enchantment | Enchantment — Aura Curse | 3 | R |  | — |
+| [Curse of Shaken Faith](../../cards/C/cu.md#curse-of-shaken-faith) | Enchantment | Enchantment — Aura Curse | 2 | R |  | — |
+| [Curse of Vengeance](../../cards/C/cu.md#curse-of-vengeance) | Enchantment | Enchantment — Aura Curse | 1 | B |  | — |
+| [Perilous Research](../../cards/P/pe.md#perilous-research) | Instant | Instant | 2 | U |  | — |
+| [Ancient Tomb](../../cards/A/an.md#ancient-tomb) | Land | Land | 0 | C | ✅ | — |
+| [Badlands](../../cards/B/bad.md#badlands) | Land | Land — Swamp Mountain | 0 | BR |  | — |
+| [Blood Crypt](../../cards/B/blo.md#blood-crypt) | Land | Land — Swamp Mountain | 0 | BR |  | — |
+| [Bloodstained Mire](../../cards/B/blo.md#bloodstained-mire) | Land | Land | 0 | C |  | — |
+| [Bojuka Bog](../../cards/B/bo.md#bojuka-bog) | Land | Land | 0 | B |  | — |
+| [City of Brass](../../cards/C/ci.md#city-of-brass) | Land | Land | 0 | C |  | — |
+| [Command Tower](../../cards/C/com.md#command-tower) | Land | Land | 0 | C |  | — |
+| [Exotic Orchard](../../cards/E/ex.md#exotic-orchard) | Land | Land | 0 | C |  | — |
+| [Flooded Strand](../../cards/F/fl.md#flooded-strand) | Land | Land | 0 | C |  | — |
+| [Island](../../cards/I/is.md#island) (×4) | Land | Basic Land — Island | 0 | U |  | — |
+| [Luxury Suite](../../cards/L/lu.md#luxury-suite) | Land | Land | 0 | BR |  | — |
+| [Mana Confluence](../../cards/M/man.md#mana-confluence) | Land | Land | 0 | C |  | — |
+| [Marsh Flats](../../cards/M/mar.md#marsh-flats) | Land | Land | 0 | C |  | — |
+| [Misty Rainforest](../../cards/M/mis.md#misty-rainforest) | Land | Land | 0 | C |  | — |
+| [Morphic Pool](../../cards/M/mor.md#morphic-pool) | Land | Land | 0 | UB |  | — |
+| [Mountain](../../cards/M/mou.md#mountain) (×3) | Land | Basic Land — Mountain | 0 | R |  | — |
+| [Polluted Delta](../../cards/P/po.md#polluted-delta) | Land | Land | 0 | C |  | — |
+| [Riverglide Pathway // Lavaglide Pathway](../../cards/R/ri.md#riverglide-pathway--lavaglide-pathway) | Land | Land // Land | 0 | UR |  | — |
+| [Scalding Tarn](../../cards/S/sc.md#scalding-tarn) | Land | Land | 0 | C |  | — |
+| [Shivan Reef](../../cards/S/shi.md#shivan-reef) | Land | Land | 0 | UR |  | — |
+| [Steam Vents](../../cards/S/ste.md#steam-vents) | Land | Land — Island Mountain | 0 | UR |  | — |
+| [Sulfurous Springs](../../cards/S/sul.md#sulfurous-springs) | Land | Land | 0 | BR |  | — |
+| [Swamp](../../cards/S/sw.md#swamp) (×3) | Land | Basic Land — Swamp | 0 | B |  | — |
+| [Training Center](../../cards/T/tra.md#training-center) | Land | Land | 0 | UR |  | — |
+| [Underground Sea](../../cards/U/un.md#underground-sea) | Land | Land — Island Swamp | 0 | UB |  | — |
+| [Volcanic Island](../../cards/V/vo.md#volcanic-island) | Land | Land — Island Mountain | 0 | UR |  | — |
+| [Watery Grave](../../cards/W/wat.md#watery-grave) | Land | Land — Island Swamp | 0 | UB |  | — |
+| [Xander's Lounge](../../cards/X/xa.md#xanders-lounge) | Land | Land — Island Swamp Mountain | 0 | UBR |  | — |
+| [Curse of Fool's Wisdom](../../cards/C/cu.md#curse-of-fools-wisdom) | Lifegain | Enchantment — Aura Curse | 6 | B |  | — |
+| [Trespasser's Curse](../../cards/T/tre.md#trespassers-curse) | Lifegain | Enchantment — Aura Curse | 2 | B |  | — |
+| [Curse of Unbinding](../../cards/C/cu.md#curse-of-unbinding) | Mill | Enchantment — Aura Curse | 7 | U |  | — |
+| [Deflecting Swat](../../cards/D/def.md#deflecting-swat) | Protection | Instant | 3 | R |  | — |
+| [Propaganda](../../cards/P/pr.md#propaganda) | Protection | Enchantment | 3 | U |  | — |
+| [Accursed Witch // Infectious Curse](../../cards/A/ac.md#accursed-witch--infectious-curse) | Ramp | Creature — Human Shaman // Enchantment — Aura Curse | 4 | B |  | — |
+| [Arcane Signet](../../cards/A/arc.md#arcane-signet) | Ramp | Artifact | 2 | C |  | — |
+| [Curse of Opulence](../../cards/C/cu.md#curse-of-opulence) | Ramp | Enchantment — Aura Curse | 1 | R |  | — |
+| [Demon of Fate's Design](../../cards/D/dem.md#demon-of-fates-design) | Ramp | Enchantment Creature — Demon | 6 | B |  | — |
+| [Dimir Signet](../../cards/D/di.md#dimir-signet) | Ramp | Artifact | 2 | UB |  | — |
+| [Jeska's Will](../../cards/J/je.md#jeskas-will) | Ramp | Sorcery | 3 | R | ✅ | — |
+| [Nightscape Familiar](../../cards/N/ni.md#nightscape-familiar) | Ramp | Creature — Zombie | 2 | B |  | — |
+| [Rakdos Signet](../../cards/R/rak.md#rakdos-signet) | Ramp | Artifact | 2 | BR |  | — |
+| [Sol Ring](../../cards/S/so.md#sol-ring) | Ramp | Artifact | 1 | C |  | — |
+| [Talisman of Creativity](../../cards/T/ta.md#talisman-of-creativity) | Ramp | Artifact | 2 | UR |  | — |
+| [Talisman of Dominance](../../cards/T/ta.md#talisman-of-dominance) | Ramp | Artifact | 2 | UB |  | — |
+| [Talisman of Indulgence](../../cards/T/ta.md#talisman-of-indulgence) | Ramp | Artifact | 2 | BR |  | — |
+| [Blasphemous Act](../../cards/B/bla.md#blasphemous-act) | Removal | Sorcery | 9 | R |  | — |
+| [Chaos Warp](../../cards/C/cha.md#chaos-warp) | Removal | Instant | 3 | R |  | — |
+| [Cruel Reality](../../cards/C/cr.md#cruel-reality) | Removal | Enchantment — Aura Curse | 7 | B |  | — |
+| [Curse of Death's Hold](../../cards/C/cu.md#curse-of-deaths-hold) | Removal | Enchantment — Aura Curse | 5 | B |  | — |
+| [Cyclonic Rift](../../cards/C/cy.md#cyclonic-rift) | Removal | Instant | 2 | U | ✅ | — |
+| [Damnation](../../cards/D/da.md#damnation) | Removal | Sorcery | 4 | B |  | — |
+| [Deadly Rollick](../../cards/D/dea.md#deadly-rollick) | Removal | Instant | 4 | B |  | — |
+| [Doomwake Giant](../../cards/D/do.md#doomwake-giant) | Removal | Enchantment Creature — Giant | 5 | B |  | — |
+| [Fierce Guardianship](../../cards/F/fi.md#fierce-guardianship) | Removal | Instant | 3 | U | ✅ | — |
+| [Mana Drain](../../cards/M/man.md#mana-drain) | Removal | Instant | 2 | U |  | — |
+| [Swan Song](../../cards/S/sw.md#swan-song) | Removal | Instant | 1 | U |  | — |
+| [Toxic Deluge](../../cards/T/to.md#toxic-deluge) | Removal | Sorcery | 3 | B |  | — |
+| [Withering Torment](../../cards/W/wi.md#withering-torment) | Removal | Instant | 3 | B |  | — |
+| [Claws of Gix](../../cards/C/cl.md#claws-of-gix) | Sac Outlet | Artifact | 0 | C |  | — |
+| [Curse of Disturbance](../../cards/C/cu.md#curse-of-disturbance) | Tokens | Enchantment — Aura Curse | 3 | B |  | — |
+| [Curse of the Restless Dead](../../cards/C/cu.md#curse-of-the-restless-dead) | Tokens | Enchantment — Aura Curse | 3 | B |  | — |
+| [Bitterheart Witch](../../cards/B/bi.md#bitterheart-witch) | Tutor | Creature — Human Shaman | 5 | B |  | — |
+| [Curse of Misfortunes](../../cards/C/cu.md#curse-of-misfortunes) | Tutor | Enchantment — Aura Curse | 5 | B |  | — |
+| [Demonic Tutor](../../cards/D/dem.md#demonic-tutor) | Tutor | Sorcery | 2 | B | ✅ | — |
+| [Imperial Seal](../../cards/I/im.md#imperial-seal) | Tutor | Sorcery | 1 | B | ✅ | — |
+| [Vampiric Tutor](../../cards/V/va.md#vampiric-tutor) | Tutor | Instant | 1 | B | ✅ | — |
+
+## Source commentary (verbatim)
+
+> Quoted from the source repo with headings turned into bold text. This is **the source author's analysis and opinion (guidance)**, from `grixis-commander-encyclopediaGPT`, path shown above each block. Relative links point back to the source. Rules statements here were not re-verified card by card (see [Grixis Corrections](../Grixis%20Corrections.md#oracle-text-check) for the Oracle check). Where the source mentions Lutri, Trade Secrets or Yawgmoth's Bargain as approved exceptions, our corrected list above takes precedence.
+
+### From `refinement/decisions/Lynde_Cheerful_Tormentor_Current_Cycle_Decisions_2026-10-14.md`
+
+Source: [refinement/decisions/Lynde_Cheerful_Tormentor_Current_Cycle_Decisions_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decisions/Lynde_Cheerful_Tormentor_Current_Cycle_Decisions_2026-10-14.md)
+
+**Lynde, Cheerful Tormentor — Current-Cycle Refinement Decisions**
+
+Cycle: `global-restart-2026-10-13`  
+Date: 2026-10-14  
+Tracker deck id: `Lynde__Cheerful_Tormentor`  
+Authoritative TXT: `GrixisFINALTXT60--2026.zip / Lynde__Cheerful_Tormentor.txt`  
+Source TXT SHA-256: `e72576fbc94bac2be7a043335397f958fa56e481908de53edbb23b5c1379a925`  
+Normalized baseline SHA-256: `aa021e7915d1a2f7cfb27c14bb4c47b4788b83a67b6f4e31dbf715f869fc88ef`  
+Approval candidate SHA-256: `05d1c4eea023d25e4308f78b109e80b78e0a3f4d655c3df36743ba3afbf04166`
+
+**Commander blueprint**
+
+**Primary identity:** Curse recycling/control. Resolve high-impact Curses on opponents, deliberately move Curses you own from the battlefield to your graveyard, use Lynde to return them attached to you at the next end step, then redeploy one on each upkeep while drawing two cards.
+
+**Secondary identity:** extra-upkeep multiplication. Paradox Haze, Obeka, Splitter of Seconds, and The Ninth Doctor multiply Lynde upkeep opportunities and Curse of Misfortunes triggers.
+
+**Support plan:** enchantment/constellation payoffs, Curse copying, premium Grixis interaction, tutors, and a high-quality three-color mana base. Generic combo packages are not added merely to raise the theoretical ceiling.
+
+**Natural ceiling:** **Power Bracket 4 — Optimized.** Current optimized Lynde evidence supports a strong enchantment-control shell, but there is not sufficient commander-specific cEDH evidence to justify replacing the Curse engine with generic Grixis turbo-combo.
+
+**Authoritative-source reconciliation**
+
+The current TXT/source package is authoritative. Historical v8.1.4 audit membership differs in several Curse slots. In particular, the old audit contained Curse of Echoes, Curse of Hospitality, Curse of Shaken Faith, Curse of Vengeance, and Curse of the Nightly Hunt where the current frozen source instead contains several other cards. Those historical differences are research evidence only; every addition below is evaluated as a new current-cycle change rather than silently restored.
+
+**Exact proposed changes**
+
+1. `Curse of Oblivion` → `Curse of Shaken Faith`
+   - Oblivion is a narrow four-mana graveyard-pressure Curse. Shaken Faith costs two and punishes the multi-spell/copy turns that define optimized Commander, making it a materially better Curse target and recursion piece.
+2. `Curse of Chaos` → `Curse of Hospitality`
+   - Both are political attack-incentive Curses. Hospitality gives attackers trample and converts each combat-damage connection into temporary card access, producing a substantially stronger reason for the table to pressure the cursed player.
+3. `Curse of Shallow Graves` → `Curse of Echoes`
+   - Shallow Graves overlaps with retained Curse of Disturbance as a combat-politics token Curse. Echoes instead attacks instant/sorcery-heavy opponents and gives every other player access to copies of the cursed player's spells.
+4. `Fraying Sanity` → `Curse of Vengeance`
+   - Fraying Sanity is a legitimate Curse but the list no longer has a dedicated mill plan. Vengeance is a one-mana Curse that begins accumulating value immediately and is exceptionally efficient fodder for Lynde's destroy/sacrifice-and-return engine.
+5. `Crystal Chimes` → `Despotic Scepter`
+   - Chimes is broad but slow enchantment recursion. Lynde already supplies bespoke Curse recursion. Scepter is a one-mana permanent that can repeatedly destroy a Curse you own, including one attached to an opponent, directly turning Lynde on at low opportunity cost.
+6. `Protean Thaumaturge` → `Perilous Research`
+   - Thaumaturge copies creatures rather than Curses and is the least commander-specific member of the copy package. Perilous Research draws two at instant speed and can sacrifice a Curse, causing Lynde to return it and setting up an additional Lynde draw-two on a later upkeep.
+7. `Sphinx of the Second Sun` → `The Ninth Doctor`
+   - Both create extra-upkeep value. The Ninth Doctor costs three rather than eight and supplies an additional upkeep after it untaps in the normal untap step, dramatically improving the rate of this commander-specific engine.
+8. `Crumbling Necropolis` → `Mana Confluence`
+9. `Dragonskull Summit` → `Badlands`
+10. `Drowned Catacomb` → `City of Brass`
+11. `Haunted Ridge` → `Marsh Flats`
+12. `Shipwreck Marsh` → `Flooded Strand`
+13. `Stormcarved Coast` → `Misty Rainforest`
+14. `Sulfur Falls` → `Volcanic Island`
+   - These seven land changes preserve the 35-land count while replacing a tapped tri-land, check/slow lands, and dependency-sensitive sources with unconditional three-color sources, original duals, and fetchlands. Xander's Lounge and Bojuka Bog remain as intentional tapped utility/fetchable sources.
+
+**Important retained packages**
+
+- `Claws of Gix`, `Braids, Arisen Nightmare`, and `Demon of Fate's Design` remain direct ways to put your own Curse from the battlefield into your graveyard and trigger Lynde.
+- `Curse of Misfortunes` is the central Curse tutor and becomes stronger with extra upkeep steps.
+- `Paradox Haze`, `Obeka, Splitter of Seconds`, and the added `The Ninth Doctor` form the extra-upkeep package.
+- `Curse of Bloodletting` is retained because it amplifies all damage to the cursed player and can increase the amount of combat damage Obeka actually deals, which increases Obeka's additional-upkeep count.
+- `Curse of Obsession` plus `Curse of Fool's Wisdom` is retained as a punishing draw-step pairing.
+- `Copy Enchantment`, `Mirrormade`, `Estrid's Invocation`, and `Clever Impersonator` remain because copying the best Curse or other high-impact enchantment is a distinct and scalable angle.
+- `Ashiok's Reaper` and `Wicked Visitor` reward enchantments going from the battlefield to the graveyard; `Entity Tracker`, `Grim Guardian`, and `Doomwake Giant` reward the enchantment-heavy construction more broadly.
+- Premium interaction and tutors are retained to protect a comparatively setup-intensive four-mana commander and prevent the identity engine from being too fragile.
+
+**Rules-critical conclusions**
+
+- Lynde triggers only when a permanent that is a Curse moves from the battlefield to **your graveyard**. Discarding or milling a Curse card does not trigger Lynde.
+- A Curse you own attached to an opponent is still a permanent you own, so Despotic Scepter can target it. Destroying it sends it to your graveyard under normal circumstances and triggers Lynde.
+- Lynde's delayed return happens at the beginning of the next end step and returns that Curse attached to you. Her upkeep ability can then move one Curse attached to you to an opponent; that move does not target.
+- If Curse of Misfortunes is attached to you, its upkeep trigger and Lynde's upkeep trigger can both trigger. Ordering Misfortunes above Lynde allows Misfortunes to put a Curse onto the battlefield attached to you first; Lynde can then move a Curse attached to you when her trigger resolves.
+- A Curse that enters during an upkeep did not exist at the beginning of that upkeep and therefore does not retroactively generate its own beginning-of-upkeep trigger.
+- Obeka's added upkeep steps and The Ninth Doctor's added upkeep step each cause beginning-of-upkeep abilities to trigger in those extra upkeeps. Obeka's added beginning phases skip untap and draw.
+- Perilous Research draws two, then sacrifices a permanent. Sacrificing a Curse while Lynde is present triggers Lynde after the spell finishes resolving.
+
+**Candidate exhaustion / rejected challengers**
+
+- `Curse of the Pierced Heart`, `Curse of Leeches`, `Curse of Stalked Prey`, `Curse of Inertia`, and `Curse of the Nightly Hunt`: valid Curse density options, but each is lower-impact than the selected four Curse upgrades.
+- `Shadow of the Second Sun`: powerful extra-beginning-phase effect, but six mana is materially less efficient than The Ninth Doctor for the same upkeep-multiplication objective.
+- `Strionic Resonator`: can copy Lynde or Curse triggers, but requires repeated mana and does not outperform the selected direct Curse/sacrifice engines.
+- `Read the Runes`, `Infernal Tribute`, `Ice Out`, `Final Vengeance`, and `Beseech the Mirror`: all have real sacrifice/bargain synergy, but no current slot is weaker enough to justify another change after the selected Despotic Scepter and Perilous Research additions.
+- `Valeria Richards, Precocious`: efficient generic noncreature support, but not more commander-specific than the retained enchantment engines.
+- `Archnemesis`: an Aura but not a Curse, so Lynde does not recur or move it as a Curse.
+- `The Unluckiest Planeswalker` and `Jabs, Mistress of Mockery`: not used; current release timing is after this refinement date and no Lynde-specific project exception authorizes them.
+- Generic Thassa's Oracle/Consultation or Breach packages: rejected as commander-independent homogenization.
+
+After the whole-list audit, source reconciliation, current optimized comparison, October 2026 card review, Curse-density review, sacrifice-engine review, mana review, extra-upkeep rules review, and adversarial candidate pass, **ZERO NEW MATERIAL IMPROVEMENTS** remain beyond the fourteen swaps above.
+
+**Structural state**
+
+- Candidate: **100 cards**
+- Distinct names: **93**
+- Repeated names: `Island x4`, `Mountain x3`, `Swamp x3` only
+- Lands: **35**
+- Commander identity: **U/B/R**
+- Expected project exceptions: **none**
+- Proposed ceiling: **Power Bracket 4 — Optimized**
+- Approval state: **NOT APPROVED** pending fresh SHA-bound complete gate and explicit user approval.
+
+### From `refinement/approvals/Lynde_Cheerful_Tormentor_Approved_2026-10-14.md`
+
+Source: [refinement/approvals/Lynde_Cheerful_Tormentor_Approved_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/approvals/Lynde_Cheerful_Tormentor_Approved_2026-10-14.md)
+
+**Lynde, Cheerful Tormentor — Current-Cycle Approval Record**
+
+Cycle: `global-restart-2026-10-13`  
+User approval date: 2026-10-14  
+Status: **APPROVED / LOCKED**  
+Power Bracket: **4 — Optimized**
+
+**Canonical approved list**
+
+Approved list: `refinement/decklists/Lynde_Cheerful_Tormentor_Approved_2026-10-14.txt`  
+Canonical SHA-256: `05d1c4eea023d25e4308f78b109e80b78e0a3f4d655c3df36743ba3afbf04166`
+
+The approved artifact is byte-for-byte identical to the exact SHA-bound approval candidate presented to and explicitly approved by the user.
+
+**Verification state**
+
+- Card count: **100**
+- Distinct names: **93**
+- Repeated names: `Island x4`, `Mountain x3`, `Swamp x3` only
+- Land count: **35**
+- Commander color identity: **U/B/R**
+- Rules gate: **PASS**
+- Official Commander legality gate: **PASS**
+- Project exceptions: **none**
+- Complete-gate errors: `[]`
+- Gate result before user approval: `APPROVAL_READY`
+
+Complete gate: `refinement/verification/lynde_cheerful_tormentor_2026-10-14/gate_output/Lynde_Cheerful_Tormentor_2026-10-14_Complete_Gate.json`
+
+Rules attestation: `refinement/verification/lynde_cheerful_tormentor_2026-10-14/Lynde_Cheerful_Tormentor_Rules_Attestation.json`
+
+Decision closeout: `refinement/decisions/Lynde_Cheerful_Tormentor_Current_Cycle_Decisions_2026-10-14.md`
+
+**Approved current-cycle changes**
+
+1. Curse of Oblivion → Curse of Shaken Faith
+2. Curse of Chaos → Curse of Hospitality
+3. Curse of Shallow Graves → Curse of Echoes
+4. Fraying Sanity → Curse of Vengeance
+5. Crystal Chimes → Despotic Scepter
+6. Protean Thaumaturge → Perilous Research
+7. Sphinx of the Second Sun → The Ninth Doctor
+8. Crumbling Necropolis → Mana Confluence
+9. Dragonskull Summit → Badlands
+10. Drowned Catacomb → City of Brass
+11. Haunted Ridge → Marsh Flats
+12. Shipwreck Marsh → Flooded Strand
+13. Stormcarved Coast → Misty Rainforest
+14. Sulfur Falls → Volcanic Island
+
+**Lock rule**
+
+This exact list is canonical for the current refinement cycle and must not be revised or reopened unless the user explicitly requests that Lynde, Cheerful Tormentor be reopened.
+
+<!-- COMBOS:START -->
+## Combos (Commander Spellbook)
+
+> Generated 2026-10-15 by `scripts/build_grixis.py` from the [Commander Spellbook](https://commanderspellbook.com) public API (community-maintained). Shows only combos whose **every card is in this list**. Bracket barometer: *Brackets 1–2: no intentional two-card infinite combos. Bracket 3: no early-game two-card infinite combos.*
+
+**No complete combos found** (17 more are one card away; not listed).
+<!-- COMBOS:END -->

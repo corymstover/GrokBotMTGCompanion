@@ -1,0 +1,358 @@
+---
+title: "Grixis Deck — Admiral Brass, Unsinkable"
+category: deck
+kind: grixis
+commander: "Admiral Brass, Unsinkable"
+color_identity: UBR
+bracket_floor: 4
+game_changers: 6
+validated: true
+source_repo: corymstover/grixis-commander-encyclopediaGPT
+---
+
+# Grixis Deck — Admiral Brass, Unsinkable
+
+> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Admiral_Brass_Unsinkable_Whole_List_Approval_Candidate_2026-10-13.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decklists/Admiral_Brass_Unsinkable_Whole_List_Approval_Candidate_2026-10-13.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-13; source commit `df1abb9`). Imported in Bot cycle 16 and re-validated against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
+
+## Contents
+- [Commander](#commander)
+- [Validation](#validation)
+- [Bracket assessment](#bracket-assessment)
+- [Corrections applied](#corrections-applied)
+- [Decklist (Archidekt import)](#decklist-archidekt-import)
+- [Card breakdown](#card-breakdown)
+- [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Combos (Commander Spellbook)](#combos-commander-spellbook)
+
+## Commander
+
+- **[Admiral Brass, Unsinkable](../../cards/A/ad.md#admiral-brass-unsinkable)** — {2}{U}{B}{R} — Legendary Creature — Human Pirate
+- Color identity: **UBR (Blue, Black, Red)**
+- Eligibility (Admiral Brass, Unsinkable): Yes (legendary creature)
+
+## Validation
+
+- Total cards: **100** (1 commander(s) + 65 nonland + 28 nonbasic lands + 6 basics) · average nonland MV 2.95
+- Strict color identity (CR 903.5c), singleton (903.5b), Commander-legal, size (903.5a): ✅ **all checks pass**
+- Every card resolves to an entry in our card DB (97/97 lines linked).
+
+## Bracket assessment
+
+- Game Changers (6): Ancient Tomb, Cyclonic Rift, Demonic Tutor, Fierce Guardianship, Jeska's Will, Vampiric Tutor
+- Extra-turn cards: none
+- Mass land denial: none
+- Commander Spellbook: 0 complete combo(s), 0 two-card infinite (see [Combos](#combos-commander-spellbook)).
+- **Minimum bracket by the published barometers: 4** (more than three Game Changers).
+- Source's stated target: not stated in the imported records.
+- (Brackets are a pregame-conversation tool. See [EDH Standards](../../EDH%20Standards.md#power-bracket-assessment).)
+
+## Corrections applied
+
+| Type | Change | Reason |
+|---|---|---|
+| format | Archidekt list normalized to [EDH Standards](../../EDH%20Standards.md#list-format-archidekt) | `[Commander]` → `[Commander{top}]` (1 line(s)); role tags restored on 94 untagged line(s): 93 from this deck's FINAL baseline, 1 from the tag the source uses most for that card in other decks; 2 untagged line(s) given a type tag (e.g. `[Land]`). |
+| provenance | approved list located by content | The SHA-256 recorded in the source's `state/current_deck_overrides.json` matches none of its files. We used `refinement/decklists/Admiral_Brass_Unsinkable_Whole_List_Approval_Candidate_2026-10-13.txt`, which matches the deck's Card_Verification CSV card for card. |
+| bracket | Game Changers and combo floor added | The source records no Game Changer count and does not check the official Game Changers list anywhere in its approval records. We added it: **6 Game Changers**, so the minimum bracket is **4**. Commander Spellbook finds 0 complete combos (0 two-card infinite). |
+
+Full log for all decks: [Grixis Corrections](../Grixis%20Corrections.md).
+
+## Decklist (Archidekt import)
+
+```text
+1x Admiral Brass, Unsinkable [Commander{top}]
+1x Admiral Beckett Brass [Removal]
+1x Amphin Mutineer [Removal]
+1x Ancient Tomb [Land]
+1x Angrath's Marauders [Burn]
+1x Animate Dead [Recursion]
+1x Arcane Signet [Ramp]
+1x Badlands [Land]
+1x Black Market Connections [Draw]
+1x Blood Crypt [Land]
+1x Bloodstained Mire [Land]
+1x Breeches, Brazen Plunderer [Draw]
+1x Breeches, Eager Pillager [Ramp]
+1x Broadside Bombardiers [Removal]
+1x Buried Alive [Tutor]
+1x Captain Lannery Storm [Ramp]
+1x Cavern of Souls [Land]
+1x Changeling Outcast [Evasion]
+1x Chaos Warp [Removal]
+1x Coercive Recruiter [Theft]
+1x Command Tower [Land]
+1x Corsair Captain [Ramp]
+1x Counterspell [Removal]
+1x Crumbling Necropolis [Land]
+1x Cyclonic Rift [Removal]
+1x Deadly Rollick [Removal]
+1x Deflecting Swat [Protection]
+1x Demonic Tutor [Tutor]
+1x Dimir Signet [Ramp]
+1x Dire Fleet Daredevil [Theft]
+1x Drowned Catacomb [Land]
+1x Edward Kenway [Ramp]
+1x Enterprising Scallywag [Ramp]
+1x Entomb [Tutor]
+1x Exotic Orchard [Land]
+1x Faithless Looting [Draw]
+1x Fathom Fleet Captain [Evasion]
+1x Feed the Swarm [Removal]
+1x Fierce Guardianship [Removal]
+1x Forerunner of the Coalition [Tutor]
+1x Francisco, Fowl Marauder [Draw]
+1x Gemcutter Buccaneer [Ramp]
+1x Mary Read and Anne Bonny [Draw]
+1x Hostage Taker [Removal]
+2x Island [Land]
+1x Izzet Signet [Ramp]
+1x Jeska's Will [Ramp]
+1x Kindred Discovery [Draw]
+1x Lightning Greaves [Protection]
+1x Living Death [Recursion]
+1x Luxury Suite [Land]
+1x Malcolm, Alluring Scoundrel [Draw]
+1x Malcolm, Keen-Eyed Navigator [Ramp]
+1x Mana Confluence [Land]
+1x Mana Drain [Removal]
+1x Merchant Raiders [Removal]
+1x Morphic Pool [Land]
+2x Mountain [Land]
+1x Otawara, Soaring City [Land]
+1x Path of Ancestry [Land]
+1x Patriarch's Bidding [Recursion]
+1x Pitiless Plunderer [Ramp]
+1x Polluted Delta [Land]
+1x Port Razer [Finisher]
+1x Power Conduit [Artifact]
+1x Rakdos Signet [Ramp]
+1x Ramirez DePietro, Pillager [Ramp]
+1x Reanimate [Recursion]
+1x Roaming Throne [Copy]
+1x Scalding Tarn [Land]
+1x Secluded Courtyard [Land]
+1x Shared Animosity [Anthem]
+1x Shipwreck Marsh [Land]
+1x Siren Stormtamer [Protection]
+1x Skeleton Crew [Anthem]
+1x Smoldering Marsh [Land]
+1x Sol Ring [Ramp]
+1x Steam Vents [Land]
+1x Stormcarved Coast [Land]
+1x Sulfur Falls [Land]
+2x Swamp [Land]
+1x Talisman of Creativity [Ramp]
+1x Talisman of Dominance [Ramp]
+1x Talisman of Indulgence [Ramp]
+1x The Indomitable [Draw]
+1x Toxic Deluge [Removal]
+1x Training Center [Land]
+1x Underground River [Land]
+1x Underground Sea [Land]
+1x Vampiric Tutor [Tutor]
+1x Victimize [Recursion]
+1x Volcanic Island [Land]
+1x Watery Grave [Land]
+1x Brass's Tunnel-Grinder // Tecutlan, the Searing Rift [Artifact]
+1x Wonder [Evasion]
+1x Xander's Lounge [Land]
+1x Zara, Renegade Recruiter [Theft]
+```
+
+## Card breakdown
+
+Role tags are the source author's (untagged lines show the card type). *Printing* is the source's pinned printing, if it pinned one.
+
+| Card | Role (source tag) | Type | MV | Identity | GC | Printing |
+|---|---|---|---|---|---|---|
+| [Admiral Brass, Unsinkable](../../cards/A/ad.md#admiral-brass-unsinkable) | Commander | Legendary Creature — Human Pirate | 5 | UBR |  | — |
+| [Shared Animosity](../../cards/S/sha.md#shared-animosity) | Anthem | Enchantment | 3 | R |  | — |
+| [Skeleton Crew](../../cards/S/sk.md#skeleton-crew) | Anthem | Creature — Skeleton Pirate | 4 | B |  | — |
+| [Brass's Tunnel-Grinder // Tecutlan, the Searing Rift](../../cards/B/br.md#brasss-tunnel-grinder--tecutlan-the-searing-rift) | Artifact | Legendary Artifact // Legendary Land — Cave | 3 | R |  | — |
+| [Power Conduit](../../cards/P/po.md#power-conduit) | Artifact | Artifact | 2 | C |  | — |
+| [Angrath's Marauders](../../cards/A/an.md#angraths-marauders) | Burn | Creature — Human Pirate | 7 | R |  | — |
+| [Roaming Throne](../../cards/R/ro.md#roaming-throne) | Copy | Artifact Creature — Golem | 4 | C |  | — |
+| [Black Market Connections](../../cards/B/bla.md#black-market-connections) | Draw | Enchantment | 3 | B |  | — |
+| [Breeches, Brazen Plunderer](../../cards/B/br.md#breeches-brazen-plunderer) | Draw | Legendary Creature — Goblin Pirate | 4 | R |  | — |
+| [Faithless Looting](../../cards/F/fa.md#faithless-looting) | Draw | Sorcery | 1 | R |  | — |
+| [Francisco, Fowl Marauder](../../cards/F/fr.md#francisco-fowl-marauder) | Draw | Legendary Creature — Bird Pirate | 2 | B |  | — |
+| [Kindred Discovery](../../cards/K/ki.md#kindred-discovery) | Draw | Enchantment | 5 | U |  | — |
+| [Malcolm, Alluring Scoundrel](../../cards/M/mal.md#malcolm-alluring-scoundrel) | Draw | Legendary Creature — Siren Pirate | 2 | U |  | — |
+| [Mary Read and Anne Bonny](../../cards/M/mar.md#mary-read-and-anne-bonny) | Draw | Legendary Creature — Human Assassin Pirate | 3 | UR |  | — |
+| [The Indomitable](../../cards/T/thei.md#the-indomitable) | Draw | Legendary Artifact — Vehicle | 4 | U |  | — |
+| [Changeling Outcast](../../cards/C/cha.md#changeling-outcast) | Evasion | Creature — Shapeshifter | 1 | B |  | — |
+| [Fathom Fleet Captain](../../cards/F/fa.md#fathom-fleet-captain) | Evasion | Creature — Human Pirate | 2 | B |  | — |
+| [Wonder](../../cards/W/wo.md#wonder) | Evasion | Creature — Incarnation | 4 | U |  | — |
+| [Port Razer](../../cards/P/po.md#port-razer) | Finisher | Creature — Orc Pirate | 5 | R |  | — |
+| [Ancient Tomb](../../cards/A/an.md#ancient-tomb) | Land | Land | 0 | C | ✅ | — |
+| [Badlands](../../cards/B/bad.md#badlands) | Land | Land — Swamp Mountain | 0 | BR |  | — |
+| [Blood Crypt](../../cards/B/blo.md#blood-crypt) | Land | Land — Swamp Mountain | 0 | BR |  | — |
+| [Bloodstained Mire](../../cards/B/blo.md#bloodstained-mire) | Land | Land | 0 | C |  | — |
+| [Cavern of Souls](../../cards/C/cav.md#cavern-of-souls) | Land | Land | 0 | C |  | — |
+| [Command Tower](../../cards/C/com.md#command-tower) | Land | Land | 0 | C |  | — |
+| [Crumbling Necropolis](../../cards/C/cr.md#crumbling-necropolis) | Land | Land | 0 | UBR |  | — |
+| [Drowned Catacomb](../../cards/D/dro.md#drowned-catacomb) | Land | Land | 0 | UB |  | — |
+| [Exotic Orchard](../../cards/E/ex.md#exotic-orchard) | Land | Land | 0 | C |  | — |
+| [Island](../../cards/I/is.md#island) (×2) | Land | Basic Land — Island | 0 | U |  | — |
+| [Luxury Suite](../../cards/L/lu.md#luxury-suite) | Land | Land | 0 | BR |  | — |
+| [Mana Confluence](../../cards/M/man.md#mana-confluence) | Land | Land | 0 | C |  | — |
+| [Morphic Pool](../../cards/M/mor.md#morphic-pool) | Land | Land | 0 | UB |  | — |
+| [Mountain](../../cards/M/mou.md#mountain) (×2) | Land | Basic Land — Mountain | 0 | R |  | — |
+| [Otawara, Soaring City](../../cards/O/ot.md#otawara-soaring-city) | Land | Legendary Land | 0 | U |  | — |
+| [Path of Ancestry](../../cards/P/pa.md#path-of-ancestry) | Land | Land | 0 | C |  | — |
+| [Polluted Delta](../../cards/P/po.md#polluted-delta) | Land | Land | 0 | C |  | — |
+| [Scalding Tarn](../../cards/S/sc.md#scalding-tarn) | Land | Land | 0 | C |  | — |
+| [Secluded Courtyard](../../cards/S/sec.md#secluded-courtyard) | Land | Land | 0 | C |  | — |
+| [Shipwreck Marsh](../../cards/S/shi.md#shipwreck-marsh) | Land | Land | 0 | UB |  | — |
+| [Smoldering Marsh](../../cards/S/sm.md#smoldering-marsh) | Land | Land — Swamp Mountain | 0 | BR |  | — |
+| [Steam Vents](../../cards/S/ste.md#steam-vents) | Land | Land — Island Mountain | 0 | UR |  | — |
+| [Stormcarved Coast](../../cards/S/sto.md#stormcarved-coast) | Land | Land | 0 | UR |  | — |
+| [Sulfur Falls](../../cards/S/sul.md#sulfur-falls) | Land | Land | 0 | UR |  | — |
+| [Swamp](../../cards/S/sw.md#swamp) (×2) | Land | Basic Land — Swamp | 0 | B |  | — |
+| [Training Center](../../cards/T/tra.md#training-center) | Land | Land | 0 | UR |  | — |
+| [Underground River](../../cards/U/un.md#underground-river) | Land | Land | 0 | UB |  | — |
+| [Underground Sea](../../cards/U/un.md#underground-sea) | Land | Land — Island Swamp | 0 | UB |  | — |
+| [Volcanic Island](../../cards/V/vo.md#volcanic-island) | Land | Land — Island Mountain | 0 | UR |  | — |
+| [Watery Grave](../../cards/W/wat.md#watery-grave) | Land | Land — Island Swamp | 0 | UB |  | — |
+| [Xander's Lounge](../../cards/X/xa.md#xanders-lounge) | Land | Land — Island Swamp Mountain | 0 | UBR |  | — |
+| [Deflecting Swat](../../cards/D/def.md#deflecting-swat) | Protection | Instant | 3 | R |  | — |
+| [Lightning Greaves](../../cards/L/li.md#lightning-greaves) | Protection | Artifact — Equipment | 2 | C |  | — |
+| [Siren Stormtamer](../../cards/S/si.md#siren-stormtamer) | Protection | Creature — Siren Pirate Wizard | 1 | U |  | — |
+| [Arcane Signet](../../cards/A/arc.md#arcane-signet) | Ramp | Artifact | 2 | C |  | — |
+| [Breeches, Eager Pillager](../../cards/B/br.md#breeches-eager-pillager) | Ramp | Legendary Creature — Goblin Pirate | 3 | R |  | — |
+| [Captain Lannery Storm](../../cards/C/cap.md#captain-lannery-storm) | Ramp | Legendary Creature — Human Pirate | 3 | R |  | — |
+| [Corsair Captain](../../cards/C/cor.md#corsair-captain) | Ramp | Creature — Human Pirate | 3 | U |  | — |
+| [Dimir Signet](../../cards/D/di.md#dimir-signet) | Ramp | Artifact | 2 | UB |  | — |
+| [Edward Kenway](../../cards/E/ed.md#edward-kenway) | Ramp | Legendary Creature — Human Assassin Pirate | 5 | UBR |  | — |
+| [Enterprising Scallywag](../../cards/E/en.md#enterprising-scallywag) | Ramp | Creature — Goblin Pirate | 2 | R |  | — |
+| [Gemcutter Buccaneer](../../cards/G/ge.md#gemcutter-buccaneer) | Ramp | Creature — Orc Pirate Artificer | 4 | R |  | — |
+| [Izzet Signet](../../cards/I/iz.md#izzet-signet) | Ramp | Artifact | 2 | UR |  | — |
+| [Jeska's Will](../../cards/J/je.md#jeskas-will) | Ramp | Sorcery | 3 | R | ✅ | — |
+| [Malcolm, Keen-Eyed Navigator](../../cards/M/mal.md#malcolm-keen-eyed-navigator) | Ramp | Legendary Creature — Siren Pirate | 3 | U |  | — |
+| [Pitiless Plunderer](../../cards/P/pi.md#pitiless-plunderer) | Ramp | Creature — Human Pirate | 4 | B |  | — |
+| [Rakdos Signet](../../cards/R/rak.md#rakdos-signet) | Ramp | Artifact | 2 | BR |  | — |
+| [Ramirez DePietro, Pillager](../../cards/R/ram.md#ramirez-depietro-pillager) | Ramp | Legendary Creature — Human Pirate | 4 | UB |  | — |
+| [Sol Ring](../../cards/S/so.md#sol-ring) | Ramp | Artifact | 1 | C |  | — |
+| [Talisman of Creativity](../../cards/T/ta.md#talisman-of-creativity) | Ramp | Artifact | 2 | UR |  | — |
+| [Talisman of Dominance](../../cards/T/ta.md#talisman-of-dominance) | Ramp | Artifact | 2 | UB |  | — |
+| [Talisman of Indulgence](../../cards/T/ta.md#talisman-of-indulgence) | Ramp | Artifact | 2 | BR |  | — |
+| [Animate Dead](../../cards/A/an.md#animate-dead) | Recursion | Enchantment — Aura | 2 | B |  | — |
+| [Living Death](../../cards/L/li.md#living-death) | Recursion | Sorcery | 5 | B |  | — |
+| [Patriarch's Bidding](../../cards/P/pa.md#patriarchs-bidding) | Recursion | Sorcery | 5 | B |  | — |
+| [Reanimate](../../cards/R/rea.md#reanimate) | Recursion | Sorcery | 1 | B |  | — |
+| [Victimize](../../cards/V/vi.md#victimize) | Recursion | Sorcery | 3 | B |  | — |
+| [Admiral Beckett Brass](../../cards/A/ad.md#admiral-beckett-brass) | Removal | Legendary Creature — Human Pirate | 4 | UBR |  | — |
+| [Amphin Mutineer](../../cards/A/am.md#amphin-mutineer) | Removal | Creature — Salamander Pirate | 4 | U |  | — |
+| [Broadside Bombardiers](../../cards/B/br.md#broadside-bombardiers) | Removal | Creature — Goblin Pirate | 3 | R |  | — |
+| [Chaos Warp](../../cards/C/cha.md#chaos-warp) | Removal | Instant | 3 | R |  | — |
+| [Counterspell](../../cards/C/cou.md#counterspell) | Removal | Instant | 2 | U |  | — |
+| [Cyclonic Rift](../../cards/C/cy.md#cyclonic-rift) | Removal | Instant | 2 | U | ✅ | — |
+| [Deadly Rollick](../../cards/D/dea.md#deadly-rollick) | Removal | Instant | 4 | B |  | — |
+| [Feed the Swarm](../../cards/F/fe.md#feed-the-swarm) | Removal | Sorcery | 2 | B |  | — |
+| [Fierce Guardianship](../../cards/F/fi.md#fierce-guardianship) | Removal | Instant | 3 | U | ✅ | — |
+| [Hostage Taker](../../cards/H/ho.md#hostage-taker) | Removal | Creature — Human Pirate | 4 | UB |  | — |
+| [Mana Drain](../../cards/M/man.md#mana-drain) | Removal | Instant | 2 | U |  | — |
+| [Merchant Raiders](../../cards/M/me.md#merchant-raiders) | Removal | Creature — Human Pirate | 4 | U |  | — |
+| [Toxic Deluge](../../cards/T/to.md#toxic-deluge) | Removal | Sorcery | 3 | B |  | — |
+| [Coercive Recruiter](../../cards/C/coe.md#coercive-recruiter) | Theft | Creature — Orc Pirate | 5 | R |  | — |
+| [Dire Fleet Daredevil](../../cards/D/di.md#dire-fleet-daredevil) | Theft | Creature — Human Pirate | 2 | R |  | — |
+| [Zara, Renegade Recruiter](../../cards/Z/za.md#zara-renegade-recruiter) | Theft | Legendary Creature — Human Pirate | 5 | UR |  | — |
+| [Buried Alive](../../cards/B/bu.md#buried-alive) | Tutor | Sorcery | 3 | B |  | — |
+| [Demonic Tutor](../../cards/D/dem.md#demonic-tutor) | Tutor | Sorcery | 2 | B | ✅ | — |
+| [Entomb](../../cards/E/en.md#entomb) | Tutor | Instant | 1 | B |  | — |
+| [Forerunner of the Coalition](../../cards/F/fo.md#forerunner-of-the-coalition) | Tutor | Creature — Human Pirate | 3 | B |  | — |
+| [Vampiric Tutor](../../cards/V/va.md#vampiric-tutor) | Tutor | Instant | 1 | B | ✅ | — |
+
+## Source commentary (verbatim)
+
+> Quoted from the source repo with headings turned into bold text. This is **the source author's analysis and opinion (guidance)**, from `grixis-commander-encyclopediaGPT`, path shown above each block. Relative links point back to the source. Rules statements here were not re-verified card by card (see [Grixis Corrections](../Grixis%20Corrections.md#oracle-text-check) for the Oracle check). Where the source mentions Lutri, Trade Secrets or Yawgmoth's Bargain as approved exceptions, our corrected list above takes precedence.
+
+### From `refinement/blueprints/Admiral_Brass_Unsinkable_v1.md`
+
+Source: [refinement/blueprints/Admiral_Brass_Unsinkable_v1.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/blueprints/Admiral_Brass_Unsinkable_v1.md)
+
+**Admiral Brass, Unsinkable — Commander-First Refinement Blueprint v1**
+
+**Date:** 2026-10-13  
+**Deck position:** 3 of 62 (tracker index 2)  
+**Status:** Baseline established; first candidate proposal pending user approval  
+**Frozen baseline:** `GrixisFINALTXT60--2026.zip` → `Admiral_Brass__Unsinkable.txt`  
+**Baseline TXT SHA-256:** `2e3721984f38bd2a19c1377357f6e737e3588152014bed816e81ce2759392196`
+
+**1. Commander identity and core plan**
+
+Admiral Brass, Unsinkable mills four cards when it enters. At the beginning of combat on your turn, it may return a target Pirate creature card from your graveyard to the battlefield with a finality counter; that creature becomes base 4/4 and gains haste until end of turn. The deck should use that recurring combat trigger as its engine rather than treat the commander as generic reanimation.
+
+**Primary plan**
+- Put high-impact Pirate creatures into the graveyard through the commander’s ETB mill, looting, and targeted setup.
+- Reanimate a Pirate at the beginning of combat to generate an immediate attack and/or ETB value.
+- Maximize Pirate density, impactful ETB/attack triggers, and ways to use the commander’s recurring body effectively.
+- Use broad tribal recursion (Living Death, Patriarch’s Bidding, Victimize) as complementary recovery/closing tools rather than the entire identity.
+- Protect the commander and preserve a functional graveyard without depending on self-mill as an end in itself.
+
+**2. Important rules interaction: finality counters**
+
+The commander’s returned creature receives a finality counter. If that creature would die while it has that counter, it is exiled instead. Removing the finality counter before it would die allows it to die normally and become a future graveyard target again. Counter-removal effects are therefore unusually relevant: they can turn a one-use reanimation into a repeatable engine. This needs to be balanced against activation timing, summoning sickness, and the fact that the commander’s reanimation happens at the beginning of combat.
+
+**3. Frozen baseline assessment**
+
+The frozen source list contains 100 cards (97 lines) and remains unchanged. Its plan already has meaningful support:
+- Graveyard setup: Entomb, Buried Alive, Faithless Looting, the commander’s own mill-four ETB.
+- Reanimation and tribal recovery: Animate Dead, Reanimate, Victimize, Living Death, Patriarch’s Bidding.
+- High-impact Pirates: Amphin Mutineer, Angrath’s Marauders, Broadside Bombardiers, Coercive Recruiter, Hostage Taker, Port Razer, Zara, Renegade Recruiter, and others.
+- Tribal/combat payoff: Shared Animosity, Skeleton Crew, Wonder, Kindred Discovery.
+- Interaction and protection: premium removal/counters and Siren Stormtamer, Lightning Greaves, Deflecting Swat, Fierce Guardianship.
+
+The first refinement should be narrow. Avoid replacing this deck with generic Grixis reanimator, and do not add cards merely because they rank highly.
+
+**4. Candidate research — first pass**
+
+The current project ranking is discovery evidence. The leading candidate Enterprising Scallywag is already present; so are Dire Fleet Daredevil, The Indomitable, and Ghost of Ramirez DePietro. Those are not proposed additions.
+
+Candidates warranting further consideration:
+- **Power Conduit (#31; score 65.4; EDHREC inclusion 20.94%, lift 50.1):** directly removes a finality counter from a returned Pirate and converts it into a +1/+1 counter on a creature or a charge counter on an artifact. As a noncreature artifact, it can activate immediately after being cast, unlike a newly cast creature with a tap ability.
+- **Soul Diviner (#37; score 62.1; inclusion 17.72%, lift 36.0):** can remove a counter from a creature and draw a card, including removing a finality counter, but summoning sickness can prevent immediate use on the turn it is cast.
+- **The Grim Captain’s Locker (#7):** graveyard/escape utility, but four mana and its escape costs compete with existing recursion; no change proposed in this pass.
+- **Back in Town (#54):** can return multiple outlaw creatures (including Pirates), but the deck already has Living Death, Patriarch’s Bidding, and Victimize; evaluate for redundancy before adding.
+- **Arm-Mounted Anchor (#19):** potentially strong draw/loot for a Pirate, but the list already has several draw engines and its equip/combat setup needs comparison against more direct commander synergy.
+- **Port of Karfell (#2) and Nephalia Drownyard (#3):** candidate ranking is high, but these utility lands have opportunity costs versus the existing premium mana base; do not add by rank alone.
+- **Warkite Marauder (#6), Kitesail Larcenist (#17), and Dire Fleet Ravager (#18):** commander-compatible Pirates with distinct utility/ETB effects; review against the existing high-impact Pirate suite before any addition.
+
+**5. Initial proposed change — pending approval**
+
+**Add 1x Power Conduit; cut 1x Revel in Riches.**
+
+Rationale: Power Conduit gives the deck a low-cost, commander-specific way to remove finality counters and reuse high-impact Pirates. Its tap ability is available immediately because it is not a creature, so it can remove the counter from the Pirate returned at the beginning of combat that turn. It also turns the removed counter into a +1/+1 counter on a creature or a charge counter on an artifact.
+
+Tradeoff: Revel in Riches is an independent alternate-win condition and a Treasure engine, so cutting it reduces that secondary win path and some Treasure value. The proposed cut is based on identity and consistency: Revel in Riches does not directly enable the commander’s Pirate reanimation loop, while Power Conduit does. No swap is approved or applied until the user approves it.
+
+**Legality/text checkpoint:** Power Conduit is a colorless artifact and is Commander-legal; current Oracle text and legality were checked against MTG.WTF. Revel in Riches is Commander-legal and has the documented Treasure/alternate-win text. No official legality exception is involved.
+
+**6. Verification boundaries**
+
+No decklist has been changed. The frozen 2026-10-12 source exports remain untouched. The candidate list, Oracle text, and legalities were reviewed for this proposal; full 100-card verification is required after any user-approved swap. No gameplay win-rate or multiplayer-test claim is made.
+
+### From `refinement/decisions/Admiral_Brass_Unsinkable_Candidate_Decisions_2026-10-13.csv` (candidate decision ledger)
+
+Source: [refinement/decisions/Admiral_Brass_Unsinkable_Candidate_Decisions_2026-10-13.csv](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decisions/Admiral_Brass_Unsinkable_Candidate_Decisions_2026-10-13.csv)
+
+| ID | Candidate | Proposed cut | Decision | Source reasoning (abridged) |
+|---|---|---|---|---|
+| ABU-001 | Power Conduit | Revel in Riches | APPROVED_AND_LOCKED — swap approved 2026-10-13; exact revise | Commander-first proposal, not automatic adoption. Power Conduit’s immediate activation is a key advantage over creature-based Soul Diviner when a Pirate returns at the beginning of combat. EDHREC ranking is discovery evidence only. User approved the swap on 2026-10-13. Revised list removes Revel in Riches and adds Power Conduit; no other card or quantity changed. Current Oracle and Commander legal… |
+| ABU-002 | Soul Diviner |  | REVIEWED — alternative not selected for initial proposal | No automatic inclusion. The card’s upside is drawing a card; the reason it is not the lead proposal is activation timing. |
+| ABU-003 | The Grim Captain's Locker |  | REVIEWED — not selected in first pass | Rank alone is insufficient; current package already has substantial recursion. |
+| ABU-004 | Back in Town |  | REVIEWED — not selected in first pass | Commander identity and redundancy matter more than popularity. |
+| ABU-005 | Arm-Mounted Anchor |  | REVIEWED — not selected in first pass | Potentially synergistic, but less direct than Power Conduit. |
+
+### Further source evidence (linked, not copied)
+
+- [refinement/verification/Admiral_Brass_Unsinkable_Proposed_Final_Verification_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/verification/Admiral_Brass_Unsinkable_Proposed_Final_Verification_2026-10-13.md)
+- [refinement/verification/Admiral_Brass_Unsinkable_Whole_List_Closeout_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/verification/Admiral_Brass_Unsinkable_Whole_List_Closeout_2026-10-13.md)
+- [refinement/verification/Admiral_Brass_Unsinkable_v3_Review_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/verification/Admiral_Brass_Unsinkable_v3_Review_2026-10-13.md)
+
+<!-- COMBOS:START -->
+## Combos (Commander Spellbook)
+
+> Generated 2026-10-15 by `scripts/build_grixis.py` from the [Commander Spellbook](https://commanderspellbook.com) public API (community-maintained). Shows only combos whose **every card is in this list**. Bracket barometer: *Brackets 1–2: no intentional two-card infinite combos. Bracket 3: no early-game two-card infinite combos.*
+
+**No complete combos found** (32 more are one card away; not listed).
+<!-- COMBOS:END -->

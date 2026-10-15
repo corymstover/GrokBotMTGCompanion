@@ -1,0 +1,462 @@
+---
+title: "Grixis Deck — Missy"
+category: deck
+kind: grixis
+commander: "Missy"
+color_identity: UBR
+bracket_floor: 4
+game_changers: 7
+validated: true
+source_repo: corymstover/grixis-commander-encyclopediaGPT
+---
+
+# Grixis Deck — Missy
+
+> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Missy_Approved_2026-10-15.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decklists/Missy_Approved_2026-10-15.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-15; source commit `df1abb9`). Imported in Bot cycle 16 and re-validated against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
+
+## Contents
+- [Commander](#commander)
+- [Validation](#validation)
+- [Bracket assessment](#bracket-assessment)
+- [Corrections applied](#corrections-applied)
+- [Decklist (Archidekt import)](#decklist-archidekt-import)
+- [Card breakdown](#card-breakdown)
+- [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Combos (Commander Spellbook)](#combos-commander-spellbook)
+
+## Commander
+
+- **[Missy](../../cards/M/mis.md#missy)** — {3}{U}{B}{R} — Legendary Creature — Time Lord Rogue
+- Color identity: **UBR (Blue, Black, Red)**
+- Eligibility (Missy): Yes (legendary creature)
+
+## Validation
+
+- Total cards: **100** (1 commander(s) + 64 nonland + 29 nonbasic lands + 6 basics) · average nonland MV 2.72
+- Strict color identity (CR 903.5c), singleton (903.5b), Commander-legal, size (903.5a): ✅ **all checks pass**
+- Every card resolves to an entry in our card DB (97/97 lines linked).
+
+## Bracket assessment
+
+- Game Changers (7): Ancient Tomb, Cyclonic Rift, Demonic Tutor, Mana Vault, Rhystic Study, The One Ring, Vampiric Tutor
+- Extra-turn cards: none
+- Mass land denial: none
+- Commander Spellbook: 17 complete combo(s), 0 two-card infinite (see [Combos](#combos-commander-spellbook)).
+- **Minimum bracket by the published barometers: 4** (more than three Game Changers).
+- Source's stated target (guidance): **Bracket 4 — Optimized**.
+- (Brackets are a pregame-conversation tool. See [EDH Standards](../../EDH%20Standards.md#power-bracket-assessment).)
+
+## Corrections applied
+
+| Type | Change | Reason |
+|---|---|---|
+| format | Archidekt list normalized to [EDH Standards](../../EDH%20Standards.md#list-format-archidekt) | `[Commander]` → `[Commander{top}]` (1 line(s)); role tags restored on 89 untagged line(s): 80 from this deck's FINAL baseline, 9 from the tag the source uses most for that card in other decks; 7 untagged line(s) given a type tag (e.g. `[Land]`). |
+| bracket | Game Changers and combo floor added | The source records no Game Changer count and does not check the official Game Changers list anywhere in its approval records. We added it: **7 Game Changers**, so the minimum bracket is **4**. Commander Spellbook finds 17 complete combos (0 two-card infinite). This is consistent with the source's stated Bracket 4. |
+
+Full log for all decks: [Grixis Corrections](../Grixis%20Corrections.md).
+
+## Decklist (Archidekt import)
+
+```text
+1x Missy [Commander{top}]
+1x Accursed Marauder [Removal]
+1x Altar of Dementia [Sac Outlet]
+1x An Offer You Can't Refuse [Removal]
+1x Ancient Tomb [Land]
+1x Aphetto Runecaster [Draw]
+1x Arcane Signet [Ramp]
+1x Ashad, the Lone Cyberman [Copy]
+1x Ashnod's Altar [Ramp]
+1x Badlands [Land]
+1x Bane of the Living [Creature]
+1x Blood Artist [Drain]
+1x Blood Crypt [Land]
+1x Bloodstained Mire [Land]
+1x Boltbender [Creature]
+1x Braids, Arisen Nightmare [Draw]
+1x Chaos Warp [Removal]
+1x City of Brass [Land]
+1x Command Tower [Land]
+1x Cyber Conversion [Removal]
+1x Cyberman Patrol [Anthem]
+1x Cybermen Squadron [Tokens]
+1x Cybership [Artifact]
+1x Cyclonic Rift [Removal]
+1x Death in Heaven [Tokens]
+1x Delete [Removal]
+1x Demonic Tutor [Tutor]
+1x Diabolic Intent [Tutor]
+1x Doomsday Confluence [Removal]
+1x Dragon's Eye Savants [Creature]
+1x Dragonskull Summit [Land]
+1x Drowned Catacomb [Land]
+1x Etrata, Deadly Fugitive [Theft]
+1x Exotic Orchard [Land]
+1x Feed the Swarm [Removal]
+1x Fellwar Stone [Ramp]
+1x Goblin Bombardment [Sac Outlet]
+1x Grave Pact [Removal]
+1x Grim Haruspex [Draw]
+1x Haunted Ridge [Land]
+1x Horde Ambusher [Creature]
+1x Inventors' Fair [Land]
+2x Island [Land]
+1x Ixidor, Reality Sculptor [Anthem]
+1x Kadena's Silencer [Removal]
+1x Lightning Greaves [Protection]
+1x Luxury Suite [Land]
+1x Mana Confluence [Land]
+1x Mana Vault [Ramp]
+1x Mayhem Devil [Removal]
+1x Morphic Pool [Land]
+1x Mountain [Land]
+1x Mystic Remora [Draw]
+1x Otawara, Soaring City [Land]
+1x Panoptic Projektor [Artifact]
+1x Phyrexian Altar [Ramp]
+1x Phyrexian Tower [Land]
+1x Pitiless Plunderer [Ramp]
+1x Plaguecrafter [Removal]
+1x Polluted Delta [Land]
+1x Pyrotechnic Performer [Burn]
+1x Reckless Fireweaver [Burn]
+1x Rhystic Study [Draw]
+1x Ruthless Ripper [Creature]
+1x Scalding Tarn [Land]
+1x Shipwreck Marsh [Land]
+1x Skirk Alarmist [Ramp]
+1x Sol Ring [Ramp]
+1x Steam Vents [Land]
+1x Stormcarved Coast [Land]
+1x Stratus Dancer [Removal]
+1x Sulfur Falls [Land]
+1x Sunken Hollow [Land]
+3x Swamp [Land]
+1x Swan Song [Removal]
+1x Talisman of Creativity [Ramp]
+1x Talisman of Dominance [Ramp]
+1x Talisman of Indulgence [Ramp]
+1x Terminate [Removal]
+1x The Cyber-Controller [Tokens]
+1x The Master, Gallifrey's End [Recursion]
+1x The One Ring [Draw]
+1x The Valeyard [Copy]
+1x Their Name Is Death [Removal]
+1x They Came from the Pipes [Draw]
+1x Toxic Deluge [Removal]
+1x Training Center [Land]
+1x Ugin's Mastery [Draw]
+1x Underground Sea [Land]
+1x Urborg, Tomb of Yawgmoth [Land]
+1x Vampiric Tutor [Tutor]
+1x Viscera Seer [Sac Outlet]
+1x Volcanic Island [Land]
+1x Watery Grave [Land]
+1x Willbender [Protection]
+1x Xander's Lounge [Land]
+1x Zulaport Cutthroat [Drain]
+```
+
+## Card breakdown
+
+Role tags are the source author's (untagged lines show the card type). *Printing* is the source's pinned printing, if it pinned one.
+
+| Card | Role (source tag) | Type | MV | Identity | GC | Printing |
+|---|---|---|---|---|---|---|
+| [Missy](../../cards/M/mis.md#missy) | Commander | Legendary Creature — Time Lord Rogue | 6 | UBR |  | — |
+| [Cyberman Patrol](../../cards/C/cy.md#cyberman-patrol) | Anthem | Artifact Creature — Cyberman | 2 | C |  | — |
+| [Ixidor, Reality Sculptor](../../cards/I/ix.md#ixidor-reality-sculptor) | Anthem | Legendary Creature — Human Wizard | 5 | U |  | — |
+| [Cybership](../../cards/C/cy.md#cybership) | Artifact | Artifact — Vehicle | 6 | C |  | — |
+| [Panoptic Projektor](../../cards/P/pa.md#panoptic-projektor) | Artifact | Artifact | 4 | C |  | — |
+| [Pyrotechnic Performer](../../cards/P/py.md#pyrotechnic-performer) | Burn | Creature — Lizard Assassin | 2 | R |  | — |
+| [Reckless Fireweaver](../../cards/R/rec.md#reckless-fireweaver) | Burn | Creature — Human Artificer | 2 | R |  | — |
+| [Ashad, the Lone Cyberman](../../cards/A/as.md#ashad-the-lone-cyberman) | Copy | Legendary Artifact Creature — Cyberman | 4 | UBR |  | — |
+| [The Valeyard](../../cards/T/thev.md#the-valeyard) | Copy | Legendary Creature — Time Lord Noble | 5 | UBR |  | — |
+| [Bane of the Living](../../cards/B/ban.md#bane-of-the-living) | Creature | Creature — Insect | 4 | B |  | — |
+| [Boltbender](../../cards/B/bo.md#boltbender) | Creature | Creature — Goblin Wizard | 4 | R |  | — |
+| [Dragon's Eye Savants](../../cards/D/dra.md#dragons-eye-savants) | Creature | Creature — Human Wizard | 2 | U |  | — |
+| [Horde Ambusher](../../cards/H/ho.md#horde-ambusher) | Creature | Creature — Human Berserker | 2 | R |  | — |
+| [Ruthless Ripper](../../cards/R/ru.md#ruthless-ripper) | Creature | Creature — Human Assassin | 1 | B |  | — |
+| [Blood Artist](../../cards/B/blo.md#blood-artist) | Drain | Creature — Vampire | 2 | B |  | — |
+| [Zulaport Cutthroat](../../cards/Z/zu.md#zulaport-cutthroat) | Drain | Creature — Human Rogue Ally | 2 | B |  | — |
+| [Aphetto Runecaster](../../cards/A/ap.md#aphetto-runecaster) | Draw | Creature — Human Wizard | 4 | U |  | — |
+| [Braids, Arisen Nightmare](../../cards/B/br.md#braids-arisen-nightmare) | Draw | Legendary Creature — Nightmare | 3 | B |  | — |
+| [Grim Haruspex](../../cards/G/gri.md#grim-haruspex) | Draw | Creature — Human Wizard | 3 | B |  | — |
+| [Mystic Remora](../../cards/M/my.md#mystic-remora) | Draw | Enchantment | 1 | U |  | — |
+| [Rhystic Study](../../cards/R/rh.md#rhystic-study) | Draw | Enchantment | 3 | U | ✅ | — |
+| [The One Ring](../../cards/T/theo.md#the-one-ring) | Draw | Legendary Artifact | 4 | C | ✅ | — |
+| [They Came from the Pipes](../../cards/T/they.md#they-came-from-the-pipes) | Draw | Enchantment | 5 | U |  | — |
+| [Ugin's Mastery](../../cards/U/ug.md#ugins-mastery) | Draw | Enchantment | 4 | C |  | — |
+| [Ancient Tomb](../../cards/A/an.md#ancient-tomb) | Land | Land | 0 | C | ✅ | — |
+| [Badlands](../../cards/B/bad.md#badlands) | Land | Land — Swamp Mountain | 0 | BR |  | — |
+| [Blood Crypt](../../cards/B/blo.md#blood-crypt) | Land | Land — Swamp Mountain | 0 | BR |  | — |
+| [Bloodstained Mire](../../cards/B/blo.md#bloodstained-mire) | Land | Land | 0 | C |  | — |
+| [City of Brass](../../cards/C/ci.md#city-of-brass) | Land | Land | 0 | C |  | — |
+| [Command Tower](../../cards/C/com.md#command-tower) | Land | Land | 0 | C |  | — |
+| [Dragonskull Summit](../../cards/D/dra.md#dragonskull-summit) | Land | Land | 0 | BR |  | — |
+| [Drowned Catacomb](../../cards/D/dro.md#drowned-catacomb) | Land | Land | 0 | UB |  | — |
+| [Exotic Orchard](../../cards/E/ex.md#exotic-orchard) | Land | Land | 0 | C |  | — |
+| [Haunted Ridge](../../cards/H/ha.md#haunted-ridge) | Land | Land | 0 | BR |  | — |
+| [Inventors' Fair](../../cards/I/inv.md#inventors-fair) | Land | Legendary Land | 0 | C |  | — |
+| [Island](../../cards/I/is.md#island) (×2) | Land | Basic Land — Island | 0 | U |  | — |
+| [Luxury Suite](../../cards/L/lu.md#luxury-suite) | Land | Land | 0 | BR |  | — |
+| [Mana Confluence](../../cards/M/man.md#mana-confluence) | Land | Land | 0 | C |  | — |
+| [Morphic Pool](../../cards/M/mor.md#morphic-pool) | Land | Land | 0 | UB |  | — |
+| [Mountain](../../cards/M/mou.md#mountain) | Land | Basic Land — Mountain | 0 | R |  | — |
+| [Otawara, Soaring City](../../cards/O/ot.md#otawara-soaring-city) | Land | Legendary Land | 0 | U |  | — |
+| [Phyrexian Tower](../../cards/P/ph.md#phyrexian-tower) | Land | Legendary Land | 0 | B |  | — |
+| [Polluted Delta](../../cards/P/po.md#polluted-delta) | Land | Land | 0 | C |  | — |
+| [Scalding Tarn](../../cards/S/sc.md#scalding-tarn) | Land | Land | 0 | C |  | — |
+| [Shipwreck Marsh](../../cards/S/shi.md#shipwreck-marsh) | Land | Land | 0 | UB |  | — |
+| [Steam Vents](../../cards/S/ste.md#steam-vents) | Land | Land — Island Mountain | 0 | UR |  | — |
+| [Stormcarved Coast](../../cards/S/sto.md#stormcarved-coast) | Land | Land | 0 | UR |  | — |
+| [Sulfur Falls](../../cards/S/sul.md#sulfur-falls) | Land | Land | 0 | UR |  | — |
+| [Sunken Hollow](../../cards/S/sun.md#sunken-hollow) | Land | Land — Island Swamp | 0 | UB |  | — |
+| [Swamp](../../cards/S/sw.md#swamp) (×3) | Land | Basic Land — Swamp | 0 | B |  | — |
+| [Training Center](../../cards/T/tra.md#training-center) | Land | Land | 0 | UR |  | — |
+| [Underground Sea](../../cards/U/un.md#underground-sea) | Land | Land — Island Swamp | 0 | UB |  | — |
+| [Urborg, Tomb of Yawgmoth](../../cards/U/ur.md#urborg-tomb-of-yawgmoth) | Land | Legendary Land | 0 | C |  | — |
+| [Volcanic Island](../../cards/V/vo.md#volcanic-island) | Land | Land — Island Mountain | 0 | UR |  | — |
+| [Watery Grave](../../cards/W/wat.md#watery-grave) | Land | Land — Island Swamp | 0 | UB |  | — |
+| [Xander's Lounge](../../cards/X/xa.md#xanders-lounge) | Land | Land — Island Swamp Mountain | 0 | UBR |  | — |
+| [Lightning Greaves](../../cards/L/li.md#lightning-greaves) | Protection | Artifact — Equipment | 2 | C |  | — |
+| [Willbender](../../cards/W/wi.md#willbender) | Protection | Creature — Human Wizard | 2 | U |  | — |
+| [Arcane Signet](../../cards/A/arc.md#arcane-signet) | Ramp | Artifact | 2 | C |  | — |
+| [Ashnod's Altar](../../cards/A/as.md#ashnods-altar) | Ramp | Artifact | 3 | C |  | — |
+| [Fellwar Stone](../../cards/F/fe.md#fellwar-stone) | Ramp | Artifact | 2 | C |  | — |
+| [Mana Vault](../../cards/M/man.md#mana-vault) | Ramp | Artifact | 1 | C | ✅ | — |
+| [Phyrexian Altar](../../cards/P/ph.md#phyrexian-altar) | Ramp | Artifact | 3 | C |  | — |
+| [Pitiless Plunderer](../../cards/P/pi.md#pitiless-plunderer) | Ramp | Creature — Human Pirate | 4 | B |  | — |
+| [Skirk Alarmist](../../cards/S/sk.md#skirk-alarmist) | Ramp | Creature — Human Wizard | 2 | R |  | — |
+| [Sol Ring](../../cards/S/so.md#sol-ring) | Ramp | Artifact | 1 | C |  | — |
+| [Talisman of Creativity](../../cards/T/ta.md#talisman-of-creativity) | Ramp | Artifact | 2 | UR |  | — |
+| [Talisman of Dominance](../../cards/T/ta.md#talisman-of-dominance) | Ramp | Artifact | 2 | UB |  | — |
+| [Talisman of Indulgence](../../cards/T/ta.md#talisman-of-indulgence) | Ramp | Artifact | 2 | BR |  | — |
+| [The Master, Gallifrey's End](../../cards/T/them.md#the-master-gallifreys-end) | Recursion | Legendary Creature — Time Lord Rogue | 4 | BR |  | — |
+| [Accursed Marauder](../../cards/A/ac.md#accursed-marauder) | Removal | Creature — Zombie Warrior | 2 | B |  | — |
+| [An Offer You Can't Refuse](../../cards/A/an.md#an-offer-you-cant-refuse) | Removal | Instant | 1 | U |  | — |
+| [Chaos Warp](../../cards/C/cha.md#chaos-warp) | Removal | Instant | 3 | R |  | — |
+| [Cyber Conversion](../../cards/C/cy.md#cyber-conversion) | Removal | Instant | 2 | U |  | — |
+| [Cyclonic Rift](../../cards/C/cy.md#cyclonic-rift) | Removal | Instant | 2 | U | ✅ | — |
+| [Delete](../../cards/D/del.md#delete) | Removal | Sorcery | 2 | R |  | — |
+| [Doomsday Confluence](../../cards/D/do.md#doomsday-confluence) | Removal | Sorcery | 1 | B |  | — |
+| [Feed the Swarm](../../cards/F/fe.md#feed-the-swarm) | Removal | Sorcery | 2 | B |  | — |
+| [Grave Pact](../../cards/G/gra.md#grave-pact) | Removal | Enchantment | 4 | B |  | — |
+| [Kadena's Silencer](../../cards/K/ka.md#kadenas-silencer) | Removal | Creature — Snake Wizard | 2 | U |  | — |
+| [Mayhem Devil](../../cards/M/may.md#mayhem-devil) | Removal | Creature — Devil | 3 | BR |  | — |
+| [Plaguecrafter](../../cards/P/pl.md#plaguecrafter) | Removal | Creature — Human Shaman | 3 | B |  | — |
+| [Stratus Dancer](../../cards/S/str.md#stratus-dancer) | Removal | Creature — Djinn Monk | 2 | U |  | — |
+| [Swan Song](../../cards/S/sw.md#swan-song) | Removal | Instant | 1 | U |  | — |
+| [Terminate](../../cards/T/te.md#terminate) | Removal | Instant | 2 | BR |  | — |
+| [Their Name Is Death](../../cards/T/thei.md#their-name-is-death) | Removal | Sorcery | 6 | B |  | — |
+| [Toxic Deluge](../../cards/T/to.md#toxic-deluge) | Removal | Sorcery | 3 | B |  | — |
+| [Altar of Dementia](../../cards/A/al.md#altar-of-dementia) | Sac Outlet | Artifact | 2 | C |  | — |
+| [Goblin Bombardment](../../cards/G/gob.md#goblin-bombardment) | Sac Outlet | Enchantment | 2 | R |  | — |
+| [Viscera Seer](../../cards/V/vi.md#viscera-seer) | Sac Outlet | Creature — Vampire Wizard | 1 | B |  | — |
+| [Etrata, Deadly Fugitive](../../cards/E/et.md#etrata-deadly-fugitive) | Theft | Legendary Creature — Vampire Assassin | 3 | UB |  | — |
+| [Cybermen Squadron](../../cards/C/cy.md#cybermen-squadron) | Tokens | Artifact Creature — Cyberman | 7 | C |  | — |
+| [Death in Heaven](../../cards/D/dea.md#death-in-heaven) | Tokens | Enchantment — Saga | 4 | B |  | — |
+| [The Cyber-Controller](../../cards/T/thec.md#the-cyber-controller) | Tokens | Legendary Artifact Creature — Cyberman | 3 | UB |  | — |
+| [Demonic Tutor](../../cards/D/dem.md#demonic-tutor) | Tutor | Sorcery | 2 | B | ✅ | — |
+| [Diabolic Intent](../../cards/D/di.md#diabolic-intent) | Tutor | Sorcery | 2 | B |  | — |
+| [Vampiric Tutor](../../cards/V/va.md#vampiric-tutor) | Tutor | Instant | 1 | B | ✅ | — |
+
+## Source commentary (verbatim)
+
+> Quoted from the source repo with headings turned into bold text. This is **the source author's analysis and opinion (guidance)**, from `grixis-commander-encyclopediaGPT`, path shown above each block. Relative links point back to the source. Rules statements here were not re-verified card by card (see [Grixis Corrections](../Grixis%20Corrections.md#oracle-text-check) for the Oracle check). Where the source mentions Lutri, Trade Secrets or Yawgmoth's Bargain as approved exceptions, our corrected list above takes precedence.
+
+### From `refinement/blueprints/Missy_Commander_Blueprint_2026-10-15.md`
+
+Source: [refinement/blueprints/Missy_Commander_Blueprint_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/blueprints/Missy_Commander_Blueprint_2026-10-15.md)
+
+**Missy — Commander-First Blueprint**
+
+Date: 2026-10-15  
+Cycle: `global-restart-2026-10-13`  
+Deck: #38 of 62
+
+**Commander Oracle checkpoint**
+
+**Missy** — `{3}{U}{B}{R}` — Legendary Creature — Time Lord Rogue — 4/5
+
+> Whenever another nonartifact creature dies, return it to the battlefield under your control face down and tapped. It's a 2/2 Cyberman artifact creature.
+>
+> At the beginning of your end step, each opponent faces a villainous choice — Each artifact creature you control deals 1 damage to that opponent, or you draw a card and chaos ensues.
+
+Current public Oracle/legality checkpoint: Commander-legal on 2026-10-15. Doctor Who rulings confirm that a Missy-returned face-down creature is a colorless 2/2 Cyberman artifact creature; if it has morph it may be turned face up for its morph cost; when it turns face up, Missy's Cyberman effect ends and its printed characteristics resume.
+
+**What Missy specifically rewards**
+
+1. Killing or sacrificing **nonartifact creatures** while Missy is on the battlefield.
+2. Turning Missy-returned face-down creatures face up so that printed nonartifact creatures can die and be converted again.
+3. Morph/disguise creatures with zero-mana reveal costs, because they make commander-native recursion loops possible with free sacrifice outlets.
+4. Opponent edicts and nonartifact sweepers, because enemy nonartifact creatures can return under Missy's controller.
+5. Artifact-creature density, because every Cyberman scales the end-step villainous-choice damage mode.
+6. Artifact ETB/death and aristocrats payoffs that monetize the repeated conversion loop.
+
+**Intended game plan**
+
+**Primary plan:** deploy Missy, force/supply nonartifact deaths, build a stolen/recursive face-down Cyberman board, and convert that material into cards, damage, sacrifice value, and deterministic loops.
+
+**Secondary plan:** use morph/disguise utility creatures as hidden interaction and turn-face-up payoffs, then recycle them through Missy after they die face up.
+
+**Finishers:**
+- Missy's artifact-creature villainous choice, amplified by The Valeyard.
+- Aristocrats/artifact-entry damage from Blood Artist, Zulaport Cutthroat, Reckless Fireweaver, and Mayhem Devil.
+- Commander-native loops using Ruthless Ripper, Dragon's Eye Savants, or Horde Ambusher plus Missy and a free sacrifice outlet.
+- Altar of Dementia as a mill kill with positive-power zero-cost-turn-up loop creatures.
+
+**Natural power ceiling**
+
+**Power Bracket 4 — Optimized.**
+
+The shell supports fast mana, premium tutors, efficient interaction, and deterministic three-card commander-dependent combos. Missy costs six mana and the primary loops depend on resolving/protecting the commander plus an outlet and a reveal-color creature, so forcing the deck into a generic Grixis cEDH shell would weaken commander identity without making Missy a credible top-tier cEDH commander.
+
+**What makes this deck distinct**
+
+This is not generic Grixis artifacts, aristocrats, theft, or morph. Its defining loop is:
+
+**nonartifact death → Missy returns it face down as a Cyberman artifact → turn it face up → printed nonartifact body resumes → sacrifice/death → repeat.**
+
+That cycle, combined with stealing opponents' dead creatures and weaponizing the growing Cyberman army, is the deck's identity test for close card decisions.
+
+**Baseline and source reconciliation**
+
+The authoritative baseline is the current FINAL export `GrixisFINALTXT60--2026.zip / Missy.txt`, not the older card-audit membership snapshot. The FINAL list contains Cybermat, Doomsday Confluence, Genesis of the Daleks, Reckless Fireweaver, and The Dalek Emperor where the older audit membership data contains a different five-card set. Candidate rankings therefore remain discovery evidence only.
+
+**Optimization targets**
+
+- Preserve 35 lands while improving untapped fixing and utility.
+- Upgrade Signets to Talismans for input-free two-mana acceleration.
+- Add fast acceleration for a six-mana commander.
+- Maximize zero-cost-turn-up morph bodies and free sacrifice outlets.
+- Preserve asymmetric nonartifact removal that feeds Missy.
+- Remove self-disabling or overly Dalek-specific high-cost cards.
+- Retain commander-text-specific payoffs even when they are not generic staples.
+
+**Blueprint status: COMPLETE.**
+
+### From `refinement/decisions/Missy_Candidate_Decisions_2026-10-15.md`
+
+Source: [refinement/decisions/Missy_Candidate_Decisions_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decisions/Missy_Candidate_Decisions_2026-10-15.md)
+
+**Missy — Current-Cycle Candidate Decisions**
+
+Date: 2026-10-15  
+Cycle: `global-restart-2026-10-13`  
+Status: **APPROVED / LOCKED** — explicit user approval received 2026-10-15
+
+**Final 16-card delta from authoritative FINAL baseline**
+
+| Cut | Add | Decision basis |
+|---|---|---|
+| Cybermat | Ruthless Ripper | Replaces attack-only artifact value with the best commander-native free-turn-up loop body. Ripper's reveal-black morph cost is mana-free and its face-up trigger drains 2. |
+| Cult of Skaro | Dragon's Eye Savants | Random Dalek combat value becomes a reveal-blue, mana-free morph body that loops through Missy with free sacrifice outlets. |
+| Davros, Dalek Creator | Horde Ambusher | Davros has real villainous-choice synergy, but the reveal-red, mana-free morph body directly enables Missy's recursion loop and lowers the curve. |
+| Deadly Dispute | Altar of Dementia | One-shot sacrifice/value becomes a repeatable zero-mana sacrifice outlet and a deterministic mill kill with positive-power loop bodies. |
+| Dictate of Erebos | Panoptic Projektor | Grave Pact already provides the expensive sacrifice-punisher effect; Projektor reduces face-down creature-spell costs and doubles turn-face-up triggers. |
+| Genesis of the Daleks | Cybership | Same six-mana slot, but Cybership directly steals opposing library cards into face-down Cyberman artifact creatures and reinforces Missy's defining board state. |
+| Ixidron | Boltbender | Ixidron turns Missy herself face down and shuts off the commander. Boltbender instead gives morph/disguise-native protection and retargeting. |
+| Primordial Mist | Bane of the Living | Slow five-mana manifest value becomes a morph sweeper whose turn-face-up trigger is repeatable through Missy and magnified by Panoptic Projektor. |
+| The Dalek Emperor | Mana Vault | Seven-mana Dalek payoff becomes one-mana fast acceleration that materially improves access to the six-mana commander and engines. |
+| Dimir Signet | Talisman of Dominance | Same color role with no activation-input tax. |
+| Izzet Signet | Talisman of Creativity | Same color role with no activation-input tax. |
+| Rakdos Signet | Talisman of Indulgence | Same color role with no activation-input tax. |
+| Crumbling Necropolis | Mana Confluence | Always-tapped fixing becomes untapped perfect fixing. |
+| Darkwater Catacombs | City of Brass | Conditional filter land becomes independent untapped perfect fixing. |
+| Smoldering Marsh | Phyrexian Tower | Frequently tapped land becomes an untapped black source plus commander-synergistic sacrifice/mana utility. |
+| Mountain (one of two) | Inventors' Fair | Keeps 35 lands while converting a surplus basic-red slot into artifact tutoring/utility; one Mountain remains. |
+
+**Important retained-card decisions after red team**
+
+- **The Valeyard — KEEP.** It directly makes each opponent face Missy's villainous choice an additional time.
+- **Ugin's Mastery — KEEP.** Morph/disguise cards cast face down are colorless creature spells, so they trigger Mastery's manifest ability; its attack trigger also turns a face-down creature face up.
+- **Grave Pact — KEEP.** Sacrifices force opposing creature deaths that Missy can convert. Dictate is cut as the redundant five-mana copy.
+- **Doomsday Confluence — KEEP.** Its nonartifact edict mode can create multiple Missy return triggers while retaining modal flexibility.
+- **Accursed Marauder / Plaguecrafter — KEEP.** Cheap edicts are unusually commander-specific because opposing nonartifact deaths become your permanents.
+- **Delete / Their Name Is Death — KEEP.** Asymmetric nonartifact wipes preserve Cybermen while feeding Missy's death trigger.
+- **Ixidor, Reality Sculptor / Skirk Alarmist / Etrata, Deadly Fugitive — KEEP.** These unlock face-down cards that Missy/Cybership create and make the converted creatures reusable.
+- **The Master, Gallifrey's End — KEEP.** It specifically monetizes deaths of nontoken artifact creatures that Missy herself cannot return because they are artifacts at death.
+- **Mystic Remora / Rhystic Study / The One Ring — KEEP.** Generic, but justified by the optimized ceiling and the resource burden of a six-mana commander.
+
+**Candidate exhaustion — notable rejected alternatives**
+
+- **Biotransference — REJECT.** Making your creatures artifacts in all zones/while controlled directly suppresses Missy's trigger when your face-up creatures die.
+- **Blasting Station — REJECT.** Valid outlet, but redundant after Goblin Bombardment, Viscera Seer, both Altars, and new Altar of Dementia.
+- **Solemn Simulacrum — REJECT.** Artifact at death, so it does not trigger Missy; four-mana ramp is too slow here.
+- **Laser Screwdriver — REJECT.** Useful utility, but lower impact than one- and two-mana acceleration already selected.
+- **Auton Soldier — REJECT.** Powerful six-drop but not part of the nonartifact-death/face-up recursion loop.
+- **Roshan, Hidden Magister — REJECT.** Face-up card advantage is real; Panoptic Projektor's cost reduction plus trigger multiplication is more impactful in the same engine space.
+- **Scroll of Fate — REJECT.** Slower hand-to-face-down engine than the selected direct morph/disguise package.
+- **Kheru Spellsnatcher / Voidmage Apprentice — REJECT.** Their flip costs are substantially less efficient than the selected interaction suite.
+- **Brine Elemental — REJECT.** Seven-mana face-up lock package adds an unnecessary subtheme and curve burden.
+- **Impact Tremors — REJECT.** Reckless Fireweaver is more specific to the Cyberman artifact-entry plan; existing death payoffs already cover creature-loop kills.
+- **Deadly Rollick — REJECT for this shell.** Exile is premium interaction but does not cause an opposing creature to die, so it forfeits Missy's theft/conversion upside.
+- **Fierce Guardianship / Deflecting Swat — NOT FORCED IN.** Extremely strong generic protection, but the retained cheap counters plus Kadena's Silencer, Stratus Dancer, Willbender, and Boltbender satisfy the interaction/protection role without replacing commander-native face-down cards.
+
+**Candidate-exhaustion result**
+
+A second serious candidate/role pass after the 16-card delta produced **ZERO NEW MATERIAL IMPROVEMENTS**. No additional change cleared the commander-identity, role-comparison, curve, mana, and opportunity-cost tests.
+
+**Decision closeout: PASS.**
+
+**Approval closeout**
+
+- Explicit user approval received: **2026-10-15**
+- Canonical approved SHA-256: `9ee63d81c07c3b43163e1356cbf264deb9021d0b776daf0a91b85d071aed5aed`
+- Exact approved artifact: `refinement/decklists/Missy_Approved_2026-10-15.txt`
+- Current-cycle state: **APPROVED / LOCKED**
+- Quality gate: **Deck Quality Gates v3 + mandatory whole-list audit**
+- Next unlocked deck in tracker order: **Nathan Drake, Treasure Hunter (index 38 / deck 39 of 62)**.
+
+### From `refinement/approvals/Missy_Approved_2026-10-15.md`
+
+Source: [refinement/approvals/Missy_Approved_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/approvals/Missy_Approved_2026-10-15.md)
+
+**Missy — Current-Cycle Approval Record**
+
+Date: 2026-10-15  
+Cycle: `global-restart-2026-10-13`
+
+Status: **APPROVED / LOCKED**
+
+Canonical approved SHA-256: `9ee63d81c07c3b43163e1356cbf264deb9021d0b776daf0a91b85d071aed5aed`
+
+The user explicitly approved the exact SHA-bound approval-ready Missy candidate after the mandatory 99-slot whole-list audit, candidate exhaustion, commander-necessity review, adversarial Oracle/rules/combo review, mana/curve review, zero-new-material-improvement closure, exact 100-card verification, singleton/color-identity verification, and current Commander legality checkpoint all passed.
+
+Approved structure: 100 cards, 97 distinct names, 35 lands; only Island x2 and Swamp x3 repeat. No project legality exception is required. Natural ceiling: Power Bracket 4 — Optimized. Archidekt tags: Cybermen / Morph / Aristocrats.
+
+This approval freezes `refinement/decklists/Missy_Approved_2026-10-15.txt` as the current-cycle canonical Missy list.
+
+### Further source evidence (linked, not copied)
+
+- [refinement/verification/Missy_Approval_Ready_Verification_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/verification/Missy_Approval_Ready_Verification_2026-10-15.md)
+- [refinement/verification/Missy_Whole_List_Audit_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/verification/Missy_Whole_List_Audit_2026-10-15.md)
+
+<!-- COMBOS:START -->
+## Combos (Commander Spellbook)
+
+> Generated 2026-10-15 by `scripts/build_grixis.py` from the [Commander Spellbook](https://commanderspellbook.com) public API (community-maintained). Shows only combos whose **every card is in this list**. Bracket barometer: *Brackets 1–2: no intentional two-card infinite combos. Bracket 3: no early-game two-card infinite combos.*
+
+**17 complete combo(s); 0 two-card infinite.** 127 more are one card away (not listed).
+
+| Cards | Produces (Spellbook) | Extra requirements | Link |
+|---|---|---|---|
+| Missy + Ashnod's Altar + Horde Ambusher | Infinite colorless mana, Infinite death triggers, Infinite creature ETB, Infinite creature LTB | — | [1045-2034-4424](https://commanderspellbook.com/combo/1045-2034-4424/) |
+| Missy + Viscera Seer + Horde Ambusher | Infinite death triggers, Infinite creature ETB, Infinite creature LTB, Infinite creature sacrifice triggers | — | [1045-2292-4424](https://commanderspellbook.com/combo/1045-2292-4424/) |
+| Missy + Phyrexian Altar + Horde Ambusher | Infinite colored mana, Infinite death triggers, Infinite creature ETB, Infinite creature LTB | — | [1045-4050-4424](https://commanderspellbook.com/combo/1045-4050-4424/) |
+| Missy + Goblin Bombardment + Horde Ambusher | Infinite damage, Infinite death triggers, Infinite creature ETB, Infinite creature LTB | — | [1045-4424-5147](https://commanderspellbook.com/combo/1045-4424-5147/) |
+| Missy + Altar of Dementia + Horde Ambusher | Infinite death triggers, Infinite creature ETB, Infinite creature LTB, Infinite mill | — | [1045-4424-5256](https://commanderspellbook.com/combo/1045-4424-5256/) |
+| Missy + Ashnod's Altar + Ruthless Ripper | Infinite colorless mana, Infinite death triggers, Infinite creature ETB, Infinite lifeloss | — | [1794-2034-4424](https://commanderspellbook.com/combo/1794-2034-4424/) |
+| Missy + Viscera Seer + Ruthless Ripper | Infinite death triggers, Infinite creature ETB, Infinite lifeloss, Infinite creature LTB | — | [1794-2292-4424](https://commanderspellbook.com/combo/1794-2292-4424/) |
+| Missy + Phyrexian Altar + Ruthless Ripper | Infinite colored mana, Infinite death triggers, Infinite creature ETB, Infinite lifeloss | — | [1794-4050-4424](https://commanderspellbook.com/combo/1794-4050-4424/) |
+| Missy + Goblin Bombardment + Ruthless Ripper | Infinite damage, Infinite death triggers, Infinite creature ETB, Infinite lifeloss | — | [1794-4424-5147](https://commanderspellbook.com/combo/1794-4424-5147/) |
+| Missy + Altar of Dementia + Ruthless Ripper | Infinite death triggers, Infinite creature ETB, Infinite lifeloss, Infinite creature LTB | — | [1794-4424-5256](https://commanderspellbook.com/combo/1794-4424-5256/) |
+| Missy + Ashnod's Altar + Dragon's Eye Savants | Infinite colorless mana, Infinite death triggers, Infinite creature ETB, Infinite creature LTB | — | [2034-3565-4424](https://commanderspellbook.com/combo/2034-3565-4424/) |
+| Missy + Viscera Seer + Dragon's Eye Savants | Infinite death triggers, Infinite creature ETB, Infinite creature LTB, Infinite creature sacrifice triggers | — | [2292-3565-4424](https://commanderspellbook.com/combo/2292-3565-4424/) |
+| Missy + Phyrexian Altar + Dragon's Eye Savants | Infinite colored mana, Infinite death triggers, Infinite creature ETB, Infinite creature LTB | — | [3565-4050-4424](https://commanderspellbook.com/combo/3565-4050-4424/) |
+| Missy + Goblin Bombardment + Dragon's Eye Savants | Infinite damage, Infinite death triggers, Infinite creature ETB, Infinite creature LTB | — | [3565-4424-5147](https://commanderspellbook.com/combo/3565-4424-5147/) |
+| Missy + Altar of Dementia + Dragon's Eye Savants | Infinite death triggers, Infinite creature ETB, Infinite creature LTB, Infinite mill | — | [3565-4424-5256](https://commanderspellbook.com/combo/3565-4424-5256/) |
+| Missy + Phyrexian Altar + Grim Haruspex | Infinite death triggers, Infinite creature ETB, Infinite creature LTB, Infinite creature sacrifice triggers | — | [631-4050-4424](https://commanderspellbook.com/combo/631-4050-4424/) |
+| Missy + Ixidor, Reality Sculptor + Pitiless Plunderer + Ashnod's Altar | Infinite death triggers, Infinite creature ETB, Infinite creature LTB, Infinite creature sacrifice triggers | — | [419-2034-4424-4871](https://commanderspellbook.com/combo/419-2034-4424-4871/) |
+<!-- COMBOS:END -->

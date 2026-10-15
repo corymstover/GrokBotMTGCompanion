@@ -1,0 +1,501 @@
+---
+title: "Grixis Deck — Garza Zol, Plague Queen"
+category: deck
+kind: grixis
+commander: "Garza Zol, Plague Queen"
+color_identity: UBR
+bracket_floor: 4
+game_changers: 9
+validated: true
+source_repo: corymstover/grixis-commander-encyclopediaGPT
+---
+
+# Grixis Deck — Garza Zol, Plague Queen
+
+> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Garza_Zol_Plague_Queen_Approved_2026-10-14.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decklists/Garza_Zol_Plague_Queen_Approved_2026-10-14.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-14; source commit `df1abb9`). Imported in Bot cycle 16 and re-validated against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
+
+## Contents
+- [Commander](#commander)
+- [Validation](#validation)
+- [Bracket assessment](#bracket-assessment)
+- [Corrections applied](#corrections-applied)
+- [Decklist (Archidekt import)](#decklist-archidekt-import)
+- [Card breakdown](#card-breakdown)
+- [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Combos (Commander Spellbook)](#combos-commander-spellbook)
+
+## Commander
+
+- **[Garza Zol, Plague Queen](../../cards/G/ga.md#garza-zol-plague-queen)** — {4}{U}{B}{R} — Legendary Creature — Vampire Noble
+- Color identity: **UBR (Blue, Black, Red)**
+- Eligibility (Garza Zol, Plague Queen): Yes (legendary creature)
+
+## Validation
+
+- Total cards: **100** (1 commander(s) + 61 nonland + 35 nonbasic lands + 3 basics) · average nonland MV 2.21
+- Strict color identity (CR 903.5c), singleton (903.5b), Commander-legal, size (903.5a): ✅ **all checks pass**
+- Every card resolves to an entry in our card DB (100/100 lines linked).
+
+## Bracket assessment
+
+- Game Changers (9): Ancient Tomb, Cyclonic Rift, Demonic Tutor, Fierce Guardianship, Grim Monolith, Jeska's Will, Mana Vault, Rhystic Study, Vampiric Tutor
+- Extra-turn cards: none
+- Mass land denial: none
+- Commander Spellbook: 3 complete combo(s), 2 two-card infinite (see [Combos](#combos-commander-spellbook)).
+- **Minimum bracket by the published barometers: 4** (more than three Game Changers).
+- Source's stated target (guidance): **Bracket 4 — Optimized**.
+- (Brackets are a pregame-conversation tool. See [EDH Standards](../../EDH%20Standards.md#power-bracket-assessment).)
+
+## Corrections applied
+
+| Type | Change | Reason |
+|---|---|---|
+| format | Archidekt list normalized to [EDH Standards](../../EDH%20Standards.md#list-format-archidekt) | `[Commander]` → `[Commander{top}]` (1 line(s)); role tags restored on 84 untagged line(s): 61 from this deck's FINAL baseline, 23 from the tag the source uses most for that card in other decks; 15 untagged line(s) given a type tag (e.g. `[Land]`). |
+| bracket | Game Changers and combo floor added | The source records no Game Changer count and does not check the official Game Changers list anywhere in its approval records. We added it: **9 Game Changers**, so the minimum bracket is **4**. Commander Spellbook finds 3 complete combos (2 two-card infinite). This is consistent with the source's stated Bracket 4. |
+
+Full log for all decks: [Grixis Corrections](../Grixis%20Corrections.md).
+
+## Decklist (Archidekt import)
+
+```text
+1x Garza Zol, Plague Queen [Commander{top}]
+1x Aggravated Assault [Finisher]
+1x An Offer You Can't Refuse [Removal]
+1x Ancient Tomb [Land]
+1x Arcane Signet [Ramp]
+1x Arid Mesa [Land]
+1x Badlands [Land]
+1x Basilisk Collar [Removal]
+1x Blackblade Reforged [Pump]
+1x Blade of the Bloodchief [Counters]
+1x Blood Crypt [Land]
+1x Bloodstained Mire [Land]
+1x Bojuka Bog [Land]
+1x Brotherhood Regalia [Evasion]
+1x Cavern of Souls [Land]
+1x Chandra's Ignition [Removal]
+1x Chaos Warp [Removal]
+1x City of Brass [Land]
+1x Command Beacon [Land]
+1x Command Tower [Land]
+1x Commander's Plate [Artifact]
+1x Counterspell [Removal]
+1x Curiosity [Draw]
+1x Cyclonic Rift [Removal]
+1x Deadly Rollick [Removal]
+1x Deflecting Swat [Protection]
+1x Demonic Tutor [Tutor]
+1x Dimir Signet [Ramp]
+1x Exotic Orchard [Land]
+1x Fall of the Hammer [Instant]
+1x Feed the Swarm [Removal]
+1x Fellwar Stone [Ramp]
+1x Fierce Guardianship [Removal]
+1x Flooded Strand [Land]
+1x Grafted Exoskeleton [Infect]
+1x Grim Monolith [Ramp]
+1x Hatred [Instant]
+1x Inquisitor's Flail [Artifact]
+1x Island [Land]
+1x Izzet Signet [Ramp]
+1x Jeska's Will [Ramp]
+1x Jeska, Thrice Reborn [Planeswalker]
+1x Kediss, Emberclaw Familiar [Burn]
+1x Luxury Suite [Land]
+1x Mana Confluence [Land]
+1x Mana Drain [Removal]
+1x Mana Vault [Ramp]
+1x Marsh Flats [Land]
+1x Mask of Memory [Draw]
+1x Misty Rainforest [Land]
+1x Mithril Coat [Protection]
+1x Morphic Pool [Land]
+1x Mountain [Land]
+1x Nova Flame [Sorcery]
+1x Otawara, Soaring City [Land]
+1x Plaza of Heroes [Land]
+1x Polluted Delta [Land]
+1x Pongify [Removal]
+1x Psychotic Fury [Instant]
+1x Quietus Spike [Removal]
+1x Rakdos Signet [Ramp]
+1x Rapid Hybridization [Removal]
+1x Rhystic Study [Draw]
+1x Robe of the Archmagi [Artifact]
+1x Rogue's Passage [Land]
+1x Scalding Tarn [Land]
+1x Scythe of the Wretched [Artifact]
+1x Shadowspear [Lifegain]
+1x Sheoldred's Edict [Removal]
+1x Shivan Reef [Land]
+1x Shizo, Death's Storehouse [Land]
+1x Slip Out the Back [Instant]
+1x Sol Ring [Ramp]
+1x Soul's Fire [Instant]
+1x Steam Vents [Land]
+1x Sulfurous Springs [Land]
+1x Swamp [Land]
+1x Swiftfoot Boots [Protection]
+1x Sword of Feast and Famine [Ramp]
+1x Sword of Fire and Ice [Draw]
+1x Takenuma, Abandoned Mire [Land]
+1x Talisman of Creativity [Ramp]
+1x Talisman of Dominance [Ramp]
+1x Talisman of Indulgence [Ramp]
+1x Tarrian's Soulcleaver [Artifact]
+1x Terminate [Removal]
+1x The Ozolith [Counters]
+1x The Reaver Cleaver [Ramp]
+1x Thornbite Staff [Artifact]
+1x Toxic Deluge [Removal]
+1x Trailblazer's Boots [Evasion]
+1x Training Center [Land]
+1x Underground River [Land]
+1x Underground Sea [Land]
+1x Vampiric Tutor [Tutor]
+1x Verdant Catacombs [Land]
+1x Volcanic Island [Land]
+1x Watery Grave [Land]
+1x Wooded Foothills [Land]
+1x Xander's Lounge [Land]
+```
+
+## Card breakdown
+
+Role tags are the source author's (untagged lines show the card type). *Printing* is the source's pinned printing, if it pinned one.
+
+| Card | Role (source tag) | Type | MV | Identity | GC | Printing |
+|---|---|---|---|---|---|---|
+| [Garza Zol, Plague Queen](../../cards/G/ga.md#garza-zol-plague-queen) | Commander | Legendary Creature — Vampire Noble | 7 | UBR |  | — |
+| [Commander's Plate](../../cards/C/com.md#commanders-plate) | Artifact | Artifact — Equipment | 1 | C |  | — |
+| [Inquisitor's Flail](../../cards/I/inq.md#inquisitors-flail) | Artifact | Artifact — Equipment | 2 | C |  | — |
+| [Robe of the Archmagi](../../cards/R/ro.md#robe-of-the-archmagi) | Artifact | Artifact — Equipment | 3 | U |  | — |
+| [Scythe of the Wretched](../../cards/S/sc.md#scythe-of-the-wretched) | Artifact | Artifact — Equipment | 2 | C |  | — |
+| [Tarrian's Soulcleaver](../../cards/T/ta.md#tarrians-soulcleaver) | Artifact | Legendary Artifact — Equipment | 1 | C |  | — |
+| [Thornbite Staff](../../cards/T/tho.md#thornbite-staff) | Artifact | Kindred Artifact — Shaman Equipment | 2 | C |  | — |
+| [Kediss, Emberclaw Familiar](../../cards/K/ke.md#kediss-emberclaw-familiar) | Burn | Legendary Creature — Elemental Lizard | 2 | R |  | — |
+| [Blade of the Bloodchief](../../cards/B/bla.md#blade-of-the-bloodchief) | Counters | Artifact — Equipment | 1 | C |  | — |
+| [The Ozolith](../../cards/T/theo.md#the-ozolith) | Counters | Legendary Artifact | 1 | C |  | — |
+| [Curiosity](../../cards/C/cu.md#curiosity) | Draw | Enchantment — Aura | 1 | U |  | — |
+| [Mask of Memory](../../cards/M/mas.md#mask-of-memory) | Draw | Artifact — Equipment | 2 | C |  | — |
+| [Rhystic Study](../../cards/R/rh.md#rhystic-study) | Draw | Enchantment | 3 | U | ✅ | — |
+| [Sword of Fire and Ice](../../cards/S/sw.md#sword-of-fire-and-ice) | Draw | Artifact — Equipment | 3 | C |  | — |
+| [Brotherhood Regalia](../../cards/B/br.md#brotherhood-regalia) | Evasion | Artifact — Equipment | 2 | C |  | — |
+| [Trailblazer's Boots](../../cards/T/tra.md#trailblazers-boots) | Evasion | Artifact — Equipment | 2 | C |  | — |
+| [Aggravated Assault](../../cards/A/ag.md#aggravated-assault) | Finisher | Enchantment | 3 | R |  | — |
+| [Grafted Exoskeleton](../../cards/G/gra.md#grafted-exoskeleton) | Infect | Artifact — Equipment | 4 | C |  | — |
+| [Fall of the Hammer](../../cards/F/fa.md#fall-of-the-hammer) | Instant | Instant | 2 | R |  | — |
+| [Hatred](../../cards/H/ha.md#hatred) | Instant | Instant | 5 | B |  | — |
+| [Psychotic Fury](../../cards/P/ps.md#psychotic-fury) | Instant | Instant | 2 | R |  | — |
+| [Slip Out the Back](../../cards/S/sl.md#slip-out-the-back) | Instant | Instant | 1 | U |  | — |
+| [Soul's Fire](../../cards/S/so.md#souls-fire) | Instant | Instant | 3 | R |  | — |
+| [Ancient Tomb](../../cards/A/an.md#ancient-tomb) | Land | Land | 0 | C | ✅ | — |
+| [Arid Mesa](../../cards/A/ari.md#arid-mesa) | Land | Land | 0 | C |  | — |
+| [Badlands](../../cards/B/bad.md#badlands) | Land | Land — Swamp Mountain | 0 | BR |  | — |
+| [Blood Crypt](../../cards/B/blo.md#blood-crypt) | Land | Land — Swamp Mountain | 0 | BR |  | — |
+| [Bloodstained Mire](../../cards/B/blo.md#bloodstained-mire) | Land | Land | 0 | C |  | — |
+| [Bojuka Bog](../../cards/B/bo.md#bojuka-bog) | Land | Land | 0 | B |  | — |
+| [Cavern of Souls](../../cards/C/cav.md#cavern-of-souls) | Land | Land | 0 | C |  | — |
+| [City of Brass](../../cards/C/ci.md#city-of-brass) | Land | Land | 0 | C |  | — |
+| [Command Beacon](../../cards/C/com.md#command-beacon) | Land | Land | 0 | C |  | — |
+| [Command Tower](../../cards/C/com.md#command-tower) | Land | Land | 0 | C |  | — |
+| [Exotic Orchard](../../cards/E/ex.md#exotic-orchard) | Land | Land | 0 | C |  | — |
+| [Flooded Strand](../../cards/F/fl.md#flooded-strand) | Land | Land | 0 | C |  | — |
+| [Island](../../cards/I/is.md#island) | Land | Basic Land — Island | 0 | U |  | — |
+| [Luxury Suite](../../cards/L/lu.md#luxury-suite) | Land | Land | 0 | BR |  | — |
+| [Mana Confluence](../../cards/M/man.md#mana-confluence) | Land | Land | 0 | C |  | — |
+| [Marsh Flats](../../cards/M/mar.md#marsh-flats) | Land | Land | 0 | C |  | — |
+| [Misty Rainforest](../../cards/M/mis.md#misty-rainforest) | Land | Land | 0 | C |  | — |
+| [Morphic Pool](../../cards/M/mor.md#morphic-pool) | Land | Land | 0 | UB |  | — |
+| [Mountain](../../cards/M/mou.md#mountain) | Land | Basic Land — Mountain | 0 | R |  | — |
+| [Otawara, Soaring City](../../cards/O/ot.md#otawara-soaring-city) | Land | Legendary Land | 0 | U |  | — |
+| [Plaza of Heroes](../../cards/P/pl.md#plaza-of-heroes) | Land | Land | 0 | C |  | — |
+| [Polluted Delta](../../cards/P/po.md#polluted-delta) | Land | Land | 0 | C |  | — |
+| [Rogue's Passage](../../cards/R/ro.md#rogues-passage) | Land | Land | 0 | C |  | — |
+| [Scalding Tarn](../../cards/S/sc.md#scalding-tarn) | Land | Land | 0 | C |  | — |
+| [Shivan Reef](../../cards/S/shi.md#shivan-reef) | Land | Land | 0 | UR |  | — |
+| [Shizo, Death's Storehouse](../../cards/S/shi.md#shizo-deaths-storehouse) | Land | Legendary Land | 0 | B |  | — |
+| [Steam Vents](../../cards/S/ste.md#steam-vents) | Land | Land — Island Mountain | 0 | UR |  | — |
+| [Sulfurous Springs](../../cards/S/sul.md#sulfurous-springs) | Land | Land | 0 | BR |  | — |
+| [Swamp](../../cards/S/sw.md#swamp) | Land | Basic Land — Swamp | 0 | B |  | — |
+| [Takenuma, Abandoned Mire](../../cards/T/ta.md#takenuma-abandoned-mire) | Land | Legendary Land | 0 | B |  | — |
+| [Training Center](../../cards/T/tra.md#training-center) | Land | Land | 0 | UR |  | — |
+| [Underground River](../../cards/U/un.md#underground-river) | Land | Land | 0 | UB |  | — |
+| [Underground Sea](../../cards/U/un.md#underground-sea) | Land | Land — Island Swamp | 0 | UB |  | — |
+| [Verdant Catacombs](../../cards/V/ve.md#verdant-catacombs) | Land | Land | 0 | C |  | — |
+| [Volcanic Island](../../cards/V/vo.md#volcanic-island) | Land | Land — Island Mountain | 0 | UR |  | — |
+| [Watery Grave](../../cards/W/wat.md#watery-grave) | Land | Land — Island Swamp | 0 | UB |  | — |
+| [Wooded Foothills](../../cards/W/wo.md#wooded-foothills) | Land | Land | 0 | C |  | — |
+| [Xander's Lounge](../../cards/X/xa.md#xanders-lounge) | Land | Land — Island Swamp Mountain | 0 | UBR |  | — |
+| [Shadowspear](../../cards/S/sha.md#shadowspear) | Lifegain | Legendary Artifact — Equipment | 1 | C |  | — |
+| [Jeska, Thrice Reborn](../../cards/J/je.md#jeska-thrice-reborn) | Planeswalker | Legendary Planeswalker — Jeska | 3 | R |  | — |
+| [Deflecting Swat](../../cards/D/def.md#deflecting-swat) | Protection | Instant | 3 | R |  | — |
+| [Mithril Coat](../../cards/M/mit.md#mithril-coat) | Protection | Legendary Artifact — Equipment | 3 | C |  | — |
+| [Swiftfoot Boots](../../cards/S/sw.md#swiftfoot-boots) | Protection | Artifact — Equipment | 2 | C |  | — |
+| [Blackblade Reforged](../../cards/B/bla.md#blackblade-reforged) | Pump | Legendary Artifact — Equipment | 2 | C |  | — |
+| [Arcane Signet](../../cards/A/arc.md#arcane-signet) | Ramp | Artifact | 2 | C |  | — |
+| [Dimir Signet](../../cards/D/di.md#dimir-signet) | Ramp | Artifact | 2 | UB |  | — |
+| [Fellwar Stone](../../cards/F/fe.md#fellwar-stone) | Ramp | Artifact | 2 | C |  | — |
+| [Grim Monolith](../../cards/G/gri.md#grim-monolith) | Ramp | Artifact | 2 | C | ✅ | — |
+| [Izzet Signet](../../cards/I/iz.md#izzet-signet) | Ramp | Artifact | 2 | UR |  | — |
+| [Jeska's Will](../../cards/J/je.md#jeskas-will) | Ramp | Sorcery | 3 | R | ✅ | — |
+| [Mana Vault](../../cards/M/man.md#mana-vault) | Ramp | Artifact | 1 | C | ✅ | — |
+| [Rakdos Signet](../../cards/R/rak.md#rakdos-signet) | Ramp | Artifact | 2 | BR |  | — |
+| [Sol Ring](../../cards/S/so.md#sol-ring) | Ramp | Artifact | 1 | C |  | — |
+| [Sword of Feast and Famine](../../cards/S/sw.md#sword-of-feast-and-famine) | Ramp | Artifact — Equipment | 3 | C |  | — |
+| [Talisman of Creativity](../../cards/T/ta.md#talisman-of-creativity) | Ramp | Artifact | 2 | UR |  | — |
+| [Talisman of Dominance](../../cards/T/ta.md#talisman-of-dominance) | Ramp | Artifact | 2 | UB |  | — |
+| [Talisman of Indulgence](../../cards/T/ta.md#talisman-of-indulgence) | Ramp | Artifact | 2 | BR |  | — |
+| [The Reaver Cleaver](../../cards/T/ther.md#the-reaver-cleaver) | Ramp | Legendary Artifact — Equipment | 3 | R |  | — |
+| [An Offer You Can't Refuse](../../cards/A/an.md#an-offer-you-cant-refuse) | Removal | Instant | 1 | U |  | — |
+| [Basilisk Collar](../../cards/B/bas.md#basilisk-collar) | Removal | Artifact — Equipment | 1 | C |  | — |
+| [Chandra's Ignition](../../cards/C/cha.md#chandras-ignition) | Removal | Sorcery | 5 | R |  | — |
+| [Chaos Warp](../../cards/C/cha.md#chaos-warp) | Removal | Instant | 3 | R |  | — |
+| [Counterspell](../../cards/C/cou.md#counterspell) | Removal | Instant | 2 | U |  | — |
+| [Cyclonic Rift](../../cards/C/cy.md#cyclonic-rift) | Removal | Instant | 2 | U | ✅ | — |
+| [Deadly Rollick](../../cards/D/dea.md#deadly-rollick) | Removal | Instant | 4 | B |  | — |
+| [Feed the Swarm](../../cards/F/fe.md#feed-the-swarm) | Removal | Sorcery | 2 | B |  | — |
+| [Fierce Guardianship](../../cards/F/fi.md#fierce-guardianship) | Removal | Instant | 3 | U | ✅ | — |
+| [Mana Drain](../../cards/M/man.md#mana-drain) | Removal | Instant | 2 | U |  | — |
+| [Pongify](../../cards/P/po.md#pongify) | Removal | Instant | 1 | U |  | — |
+| [Quietus Spike](../../cards/Q/qu.md#quietus-spike) | Removal | Artifact — Equipment | 3 | C |  | — |
+| [Rapid Hybridization](../../cards/R/rap.md#rapid-hybridization) | Removal | Instant | 1 | U |  | — |
+| [Sheoldred's Edict](../../cards/S/she.md#sheoldreds-edict) | Removal | Instant | 2 | B |  | — |
+| [Terminate](../../cards/T/te.md#terminate) | Removal | Instant | 2 | BR |  | — |
+| [Toxic Deluge](../../cards/T/to.md#toxic-deluge) | Removal | Sorcery | 3 | B |  | — |
+| [Nova Flame](../../cards/N/no.md#nova-flame) | Sorcery | Sorcery | 4 | R |  | — |
+| [Demonic Tutor](../../cards/D/dem.md#demonic-tutor) | Tutor | Sorcery | 2 | B | ✅ | — |
+| [Vampiric Tutor](../../cards/V/va.md#vampiric-tutor) | Tutor | Instant | 1 | B | ✅ | — |
+
+## Source commentary (verbatim)
+
+> Quoted from the source repo with headings turned into bold text. This is **the source author's analysis and opinion (guidance)**, from `grixis-commander-encyclopediaGPT`, path shown above each block. Relative links point back to the source. Rules statements here were not re-verified card by card (see [Grixis Corrections](../Grixis%20Corrections.md#oracle-text-check) for the Oracle check). Where the source mentions Lutri, Trade Secrets or Yawgmoth's Bargain as approved exceptions, our corrected list above takes precedence.
+
+### From `refinement/blueprints/Garza_Zol_Plague_Queen_Current_Cycle_Blueprint_2026-10-14.md`
+
+Source: [refinement/blueprints/Garza_Zol_Plague_Queen_Current_Cycle_Blueprint_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/blueprints/Garza_Zol_Plague_Queen_Current_Cycle_Blueprint_2026-10-14.md)
+
+**Garza Zol, Plague Queen — Current-Cycle Commander Blueprint**
+
+Cycle: `global-restart-2026-10-13`
+Review date: 2026-10-14
+Commander: Garza Zol, Plague Queen
+Target natural ceiling: Power Bracket 4 — Optimized
+Proposed Archidekt tags: Voltron / Commander Damage / Deathtouch-Control
+
+**Commander identity**
+
+Garza Zol is a seven-mana 5/5 flying, haste commander whose two rewards are specifically tied to Garza dealing damage: creatures she damaged that die grow her with +1/+1 counters, and combat damage to a player can draw a card. The strongest realistic build should therefore make Garza herself the damage engine rather than treating her as the top end of generic Grixis Vampire tribal.
+
+**Primary plan**
+
+1. Accelerate Garza onto the battlefield despite her seven-mana cost.
+2. Protect her and force safe combat connections through flying, unblockability, protection, phasing and efficient stack interaction.
+3. Convert Garza's own damage into removal and growth through deathtouch, fight/direct-damage effects and sweepers whose source is Garza.
+4. Scale that growth into commander-damage, infect and damage-multiplier kills.
+5. Use equipment and Garza's combat trigger to turn successful attacks into cards, mana, protection and repeat pressure.
+
+**Commander-first engines**
+
+- Basilisk Collar / Quietus Spike plus Garza-sourced damage turns one-point pings or mass damage into lethal creature interaction while preserving Garza's death-trigger growth.
+- Thornbite Staff lets Garza ping creatures directly; creature deaths untap her, creating a repeatable removal-growth engine when paired with deathtouch.
+- Chandra's Ignition, Nova Flame, Fall of the Hammer and Soul's Fire make Garza the source of damage so qualifying deaths feed her own +1/+1-counter trigger.
+- Blade of the Bloodchief, Tarrian's Soulcleaver and The Ozolith amplify or preserve the counter-growth plan.
+- Brotherhood Regalia, Trailblazer's Boots, Rogue's Passage, Shizo and protection equipment make Garza connect safely.
+- Robe of the Archmagi, Mask of Memory, Sword of Fire and Ice and Garza's own trigger convert combat into card advantage.
+- The Reaver Cleaver converts combat damage into Treasure, helping pay commander tax and redeploy/equip after interaction.
+
+**Closing packages**
+
+- Hatred can turn an unblocked Garza into a one-hit commander-damage threat.
+- Grafted Exoskeleton plus Psychotic Fury, Jeska, Thrice Reborn, or Inquisitor's Flail creates compact infect kills.
+- Jeska can also turn a seven-power Garza into 21 commander damage in one combat.
+- Sword of Feast and Famine plus Aggravated Assault is a compact extra-combat loop when the equipped creature connects and the untapped lands can produce at least five mana including 3RR.
+
+**Mana and resiliency**
+
+The candidate trims the 40-land baseline to 38 while substantially improving land quality and adding Mana Vault, Grim Monolith and Ancient Tomb. Command Beacon is included specifically because repeated seven-mana commander tax is a structural weakness. Cavern of Souls and Plaza of Heroes support commander deployment and protection.
+
+**Natural power ceiling**
+
+Garza supports a highly optimized high-power Voltron/control shell, but she does not provide a compact command-zone combo or low-mana deterministic engine. Her seven-mana cost and dependence on combat materially constrain cEDH viability. The appropriate ceiling is therefore **Power Bracket 4 — Optimized**, with premium interaction/tutors and compact synergistic finishers but without converting the deck into generic Grixis cEDH combo.
+
+**Anti-homogenization boundary**
+
+Chrome Mox, Mox Diamond, Dark Ritual, Cabal Ritual, Thassa's Oracle/Consultation and other generic cEDH packages were not added merely for raw rate. The chosen acceleration, interaction and win conditions must materially support Garza's deployment, damage, protection, combat or counter-growth identity.
+
+### From `refinement/decisions/Garza_Zol_Plague_Queen_Current_Cycle_Decisions_2026-10-14.md`
+
+Source: [refinement/decisions/Garza_Zol_Plague_Queen_Current_Cycle_Decisions_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decisions/Garza_Zol_Plague_Queen_Current_Cycle_Decisions_2026-10-14.md)
+
+**Garza Zol, Plague Queen — Current-Cycle Refinement Decision Ledger**
+
+Cycle: `global-restart-2026-10-13`
+Review date: 2026-10-14
+Baseline source: `GrixisFINAL60--2026.zip` / `Garza_Zol__Plague_Queen.csv`
+Baseline TXT: `GrixisFINALTXT60--2026.zip` / `Garza_Zol__Plague_Queen.txt`
+Baseline source CSV SHA-256: `a59a2fa54ef1c42e6ec512c301ebe35ba118e59a31a2361adcb16cdbb8592182`
+Baseline source TXT SHA-256: `4ec9221596b9b1724475706c090dbebbaf7c2326d928f8d18aa46cc1c38e8b47`
+Standardized baseline SHA-256: `517c454d17cc1fd4eb09260f65a18b7ef67734018134dea5b7389acf26a48063`
+Approval-candidate SHA-256: `32c0e8049a9c8a5d238048b4f774f0457908d724f23d4597b7da93a6cba0c16f`
+Baseline count: 100
+Baseline distinct names: 95
+Baseline lands: 40
+Candidate count: 100
+Candidate distinct names: 100
+Candidate lands: 38
+Commander identity: B/R/U
+Project exception required: no
+Natural ceiling: Power Bracket 4 — Optimized
+Proposed tags: Voltron / Commander Damage / Deathtouch-Control
+
+**Strategic diagnosis**
+
+The preserved baseline contains a substantial Vampire-tribal package and several redundant Coastal Piracy-style draw engines. Those cards are playable but do not maximize Garza Zol's own Oracle text. Garza is strongest when she is the creature dealing damage, killing creatures, accumulating counters, connecting in combat and translating that combat into commander damage, infect, cards and mana.
+
+The current-cycle rebuild therefore moves away from generic Vampire tribal toward a commander-centric Voltron/control shell. Current EDHREC evidence is sparse, so it is used only as corroboration. Project candidate rankings are likewise discovery evidence rather than automatic inclusions.
+
+**Nonland cuts — 21**
+
+- Bident of Thassa — four-mana redundant on-hit draw engine in a primarily single-attacker deck.
+- Bloodline Keeper // Lord of Lineage — Vampire-tribal payoff that does not materially exploit Garza's damage triggers.
+- Champion of Dusk — tribal draw card with weak commander-specific fit.
+- Coastal Piracy — redundant four-mana combat-draw engine.
+- Combat Research — weaker single-target draw effect than retained Curiosity/Equipment engines.
+- Cordial Vampire — tribal counter engine depends on Vampire density rather than Garza dealing damage.
+- Drana, Liberator of Malakir — strong Vampire combat card but not part of Garza's own damage engine.
+- Embercleave — replaced by lower-cost and more deterministic damage-multiplier packages.
+- Frantic Search — generic velocity; Robe of the Archmagi gives commander-scaled combat payoff instead.
+- Go for the Throat — efficient removal, but trimmed for commander-sourced damage/removal that grows Garza.
+- Lightning Greaves — haste is redundant on Garza; shroud conflicts with equipping and targeting her.
+- Markov Blademaster — tribal/combat beater independent of commander identity.
+- Olivia Voldaren — powerful standalone Vampire but diverts mana and game plan away from Garza.
+- Ophidian Eye — redundant Curiosity-style effect; Curiosity is retained because it also rewards Garza's noncombat opponent damage.
+- Patron of the Vein — high-cost tribal removal payoff.
+- Reconnaissance Mission — another redundant four-mana combat-draw engine.
+- Soul Collector — candidate-ranking hit, but too slow and creature-centric compared with direct Garza damage/deathtouch engines.
+- Soul Shatter — generic removal trimmed for commander-sourced interaction.
+- Stensia Masquerade — Vampire-wide combat payoff does not serve a Garza-first shell.
+- Stromkirk Captain — tribal lord package removed with the wider Vampire subtheme.
+- Waltz of Rage — replaced by Nova Flame. Nova can start at four mana, permanently grows Garza first, then has Garza deal the sweep damage; Waltz's own-creature impulse clause is low-value in the creature-light rebuild.
+
+**Nonland additions — 23**
+
+- Aggravated Assault — extra-combat payoff and compact loop with Sword of Feast and Famine.
+- Basilisk Collar — deathtouch/lifelink converts Garza's pings and mass damage into lethal removal and life swings.
+- Blackblade Reforged — efficient commander-scaled power; legendary equip cost is favorable on Garza.
+- Commander's Plate — +3/+3 and protection from white/green for a UBR commander; strong pressure/protection without generic combo drift.
+- Fierce Guardianship — premium protection for a seven-mana commander after she resolves.
+- Fall of the Hammer — Garza deals the damage, so creature deaths can grow her.
+- Grim Monolith — durable acceleration that materially improves seven-mana commander timing.
+- Hatred — commander-specific one-hit damage finisher when Garza is unblocked.
+- Inquisitor's Flail — efficient combat-damage doubling for commander damage/infect lines.
+- Jeska, Thrice Reborn — triples Garza's combat damage and creates one-hit commander/infect thresholds.
+- Kediss, Emberclaw Familiar — spreads Garza's successful commander combat hit to the other opponents; those secondary hits are Garza-sourced noncombat damage.
+- Mana Vault — high-impact acceleration for Garza's seven-mana deployment.
+- Mithril Coat — flash, immediate attach to legendary Garza, and indestructible protection.
+- Nova Flame — counter-growth plus Garza-sourced mass creature damage.
+- Psychotic Fury — Garza is multicolored; gives double strike and replaces itself.
+- Robe of the Archmagi — scales card draw directly with Garza's combat damage while Garza's own trigger adds another card.
+- Scythe of the Wretched — creatures damaged by Garza and dying can return under the deck's control, directly exploiting her damage plan.
+- Slip Out the Back — one-mana protection that also adds a +1/+1 counter.
+- Soul's Fire — converts Garza's power into Garza-sourced direct damage.
+- Tarrian's Soulcleaver — accumulates counters as creatures die and scales the Voltron pressure plan.
+- The Ozolith — preserves accumulated counter value through commander removal.
+- The Reaver Cleaver — trample and Treasures scale with Garza's combat damage, funding commander tax/equipment.
+- Thornbite Staff — gives Garza a direct ping ability and untaps on creature deaths; deathtouch turns it into a repeatable commander-driven removal engine.
+
+**Mana-base changes**
+
+**Cuts — 17 quantities**
+
+Clearwater Pathway // Murkwater Pathway; Crumbling Necropolis; Dragonskull Summit; Drowned Catacomb; Hall of the Bandit Lord; Haunted Ridge; Island x2; Mountain x1; Path of Ancestry; Riverglide Pathway // Lavaglide Pathway; Shipwreck Marsh; Sokenzan, Crucible of Defiance; Stormcarved Coast; Sulfur Falls; Swamp x2.
+
+**Adds — 15**
+
+Ancient Tomb; Arid Mesa; Cavern of Souls; City of Brass; Command Beacon; Flooded Strand; Mana Confluence; Marsh Flats; Misty Rainforest; Plaza of Heroes; Shizo, Death's Storehouse; Underground Sea; Verdant Catacombs; Volcanic Island; Wooded Foothills.
+
+Net result: 40 lands -> 38 lands, with materially higher source quality, more untapped fixing, commander protection, evasion and commander-tax mitigation.
+
+**Key retained commander-specific baseline cards**
+
+Blade of the Bloodchief; Brotherhood Regalia; Chandra's Ignition; Curiosity; Grafted Exoskeleton; Mask of Memory; Quietus Spike; Shadowspear; Swiftfoot Boots; Sword of Feast and Famine; Sword of Fire and Ice; Trailblazer's Boots; Rogue's Passage; the premium Grixis interaction/tutor shell.
+
+**Rules architecture to verify**
+
+1. Garza + Basilisk Collar + Thornbite Staff repeatable deathtouch-ping/removal-growth engine.
+2. Garza + deathtouch + Chandra's Ignition / Nova Flame mass removal with Garza as damage source.
+3. Garza + Scythe of the Wretched with mass Garza damage and simultaneous deaths.
+4. Blade of the Bloodchief plus Garza's own death trigger on a creature Garza damaged.
+5. Hatred commander-damage threshold.
+6. Grafted Exoskeleton with Psychotic Fury, Jeska and Inquisitor's Flail infect thresholds.
+7. Sword of Feast and Famine + Aggravated Assault extra-combat loop prerequisites.
+8. Robe of the Archmagi plus Garza's own combat-damage draw trigger.
+9. Kediss secondary damage is Garza-sourced but is not commander damage to the other opponents.
+10. The Ozolith counter-retention behavior when Garza changes zones.
+11. Slip Out the Back phasing interaction with attached Auras/Equipment.
+12. Command Beacon lets Garza move from command zone to hand and avoids commander tax on the subsequent cast from hand.
+
+**Red-team / rejected challengers**
+
+- Sword of Truth and Justice — ultimately lost to Commander's Plate; Garza already has multiple counter-growth engines and needs immediate protection/power more.
+- Viridian Longbow / Gorgon's Head — individually redundant and less efficient than Thornbite Staff + Basilisk Collar / Quietus Spike.
+- Unscythe, Killer of Kings — flavorful but slower and color-intensive relative to selected equipment.
+- Vorpal Sword — expensive activated kill condition compared with Hatred, Jeska and infect multipliers.
+- Additional Vampire tribal cards — do not improve the commander's own damage engine enough to justify dilution.
+- Chrome Mox / Mox Diamond / Dark Ritual / Cabal Ritual — raw-rate upgrades considered but rejected to avoid converting the deck into generic Grixis fast-combo infrastructure. Mana Vault, Grim Monolith and Ancient Tomb accelerate the commander with less identity loss.
+- Thassa's Oracle / Demonic Consultation / Tainted Pact — rejected as off-plan generic compact combo.
+
+**Closure**
+
+After the full baseline audit, project top-100 candidate review, current EDHREC corroboration, mana-base modernization and a second adversarial pass, **ZERO NEW MATERIAL IMPROVEMENTS** remain unreviewed at the intended Bracket 4 ceiling.
+
+The exact 100-card candidate is frozen at SHA-256 `32c0e8049a9c8a5d238048b4f774f0457908d724f23d4597b7da93a6cba0c16f` only for fresh Oracle, legality, rules and structural verification. It remains **UNAPPROVED / UNLOCKED** until the complete fail-closed gate passes and the user explicitly approves this exact SHA-bound list.
+
+### From `refinement/approvals/Garza_Zol_Plague_Queen_Approved_2026-10-14.md`
+
+Source: [refinement/approvals/Garza_Zol_Plague_Queen_Approved_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/approvals/Garza_Zol_Plague_Queen_Approved_2026-10-14.md)
+
+**Garza Zol, Plague Queen — APPROVED / LOCKED**
+
+Cycle: `global-restart-2026-10-13`  
+Approval date: 2026-10-14  
+Approved SHA-256: `32c0e8049a9c8a5d238048b4f774f0457908d724f23d4597b7da93a6cba0c16f`  
+Power Bracket: **4 — Optimized**  
+Archidekt tags: **Voltron / Commander Damage / Deathtouch-Control**
+
+**Approval basis**
+
+The user explicitly approved the exact SHA-bound approval candidate after the complete fail-closed gate returned `APPROVAL_READY` with zero errors.
+
+Verification state:
+- 100 cards
+- 100 distinct names
+- Commander color identity: B/R/U
+- Rules gate: PASS
+- Official Commander legality gate: PASS
+- Project exceptions: none
+- Fresh Oracle cache: PASS
+- Mandatory whole-list audit: complete
+- Candidate exhaustion / adversarial red-team review: complete
+- Zero-new-material-improvement closure: complete
+
+Canonical approved artifact: `refinement/decklists/Garza_Zol_Plague_Queen_Approved_2026-10-14.txt`
+
+Complete gate artifact: `refinement/verification/garza_zol_plague_queen_2026-10-14/gate_output/Garza_Zol_Plague_Queen_2026-10-14_Complete_Gate.json`
+
+This deck is now locked. Do not revise, reopen, or replace it unless the user explicitly requests that action.
+
+<!-- COMBOS:START -->
+## Combos (Commander Spellbook)
+
+> Generated 2026-10-15 by `scripts/build_grixis.py` from the [Commander Spellbook](https://commanderspellbook.com) public API (community-maintained). Shows only combos whose **every card is in this list**. Bracket barometer: *Brackets 1–2: no intentional two-card infinite combos. Bracket 3: no early-game two-card infinite combos.*
+
+**3 complete combo(s); 2 two-card infinite.** 86 more are one card away (not listed).
+
+| Cards | Produces (Spellbook) | Extra requirements | Link |
+|---|---|---|---|
+| Kediss, Emberclaw Familiar + Grafted Exoskeleton | Each opponent loses the game | — | [2822-3681](https://commanderspellbook.com/combo/2822-3681/) |
+| ⚠️ **two-card infinite** · The Reaver Cleaver + Aggravated Assault | Infinite artifact ETB, Infinite artifact LTB, Infinite artifact sacrifice triggers, Infinite artifact tokens | — | [3750-5039](https://commanderspellbook.com/combo/3750-5039/) |
+| ⚠️ **two-card infinite** · Sword of Feast and Famine + Aggravated Assault | Infinite combat phases | — | [900-3750](https://commanderspellbook.com/combo/900-3750/) |
+<!-- COMBOS:END -->

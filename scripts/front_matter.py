@@ -55,7 +55,17 @@ PAGES = {
     "Tokens, Emblems & Dungeons.md": ("cards", ["tokens", "emblems", "dungeons", "not-cards"], [42], "scripts/build_tokens.py", ["scryfall", "cr"]),
     "Update Log.md": ("meta", ["changelog"], [], None, []),
     "cEDH Primer.md": ("edh", ["cedh", "competitive", "bracket-5"], [29], "scripts/build_cedh.py", ["scryfall", "spellbook"]),
+    # Bot cycle 16 — Grixis integration (#59–#63) and the generalized method
+    "EDH Deck Template.md": ("edh", ["template", "blueprint", "swap-ledger", "methodology"], [62], None, ["grixis-repo", "cr"]),
+    "EDH Deck Evaluation Checklist.md": ("edh", ["checklist", "evaluation", "brackets", "methodology"], [62], None, ["grixis-repo", "cr", "scryfall", "spellbook"]),
+    "grixis/README.md": ("edh", ["grixis", "decks", "index"], [59, 60, 61], "scripts/build_grixis.py", ["grixis-repo", "scryfall", "spellbook"]),
+    "grixis/Grixis Evaluation.md": ("edh", ["grixis", "validation", "legality"], [59], "scripts/build_grixis.py", ["grixis-repo", "scryfall"]),
+    "grixis/Grixis Corrections.md": ("edh", ["grixis", "corrections", "legality", "oracle"], [60], "scripts/build_grixis.py", ["grixis-repo", "scryfall", "spellbook"]),
+    "grixis/Grixis Packages.md": ("edh", ["grixis", "packages", "rules-insights"], [61], "scripts/build_grixis.py", ["grixis-repo", "scryfall", "cr"]),
+    "grixis/Grixis Integration Summary.md": ("meta", ["grixis", "summary", "follow-ups"], [59, 60, 61, 62, 63], None, ["grixis-repo"]),
 }
+SUBDIRS = ["grixis"]  # sub-folders whose .md pages must be registered (decks/ folders are handled as decks)
+DECK_DIRS = ["decks", "grixis/decks"]
 PAGE_KEYS = ["title", "category", "tags", "issues", "generated_by", "sources"]
 DECK_KEYS = ["title", "category", "kind", "commander", "color_identity", "bracket_floor", "game_changers", "validated"]
 FM = re.compile(r"\A---\n.*?\n---\n\n?", re.S)
@@ -74,7 +84,7 @@ def body_of(text):
 
 
 def page_fm(path, body):
-    cat, tags, issues, gen, src = PAGES[path.name]
+    cat, tags, issues, gen, src = PAGES[str(path.relative_to(ROOT))]
     h1 = next((l[2:].strip() for l in body.splitlines() if l.startswith("# ")), path.stem)
     return "\n".join(["---", f"title: {q(h1)}", f"category: {cat}", f"tags: {ylist(tags)}",
                       f"issues: {ylist(issues)}", f"generated_by: {gen or 'hand-written'}", f"sources: {ylist(src)}", "---", ""])
@@ -91,7 +101,8 @@ def deck_fm(path, body):
         floor = max(floor, int(imp.group(1)))
     gc = re.search(r"^- Game Changers \((\d+)\)", body, re.M)
     gcn = int(gc.group(1)) if gc else (0 if re.search(r"no Game Changers", body) else None)
-    kind = "plane" if path.name.startswith("plane-") else "theme" if path.name.startswith("theme-") else "core"
+    kind = ("grixis" if path.parent.parent.name == "grixis" else "plane" if path.name.startswith("plane-")
+            else "theme" if path.name.startswith("theme-") else "core")
     ok = "✅ **all checks pass**" in body
     lines = ["---", f"title: {q(h1)}", "category: deck", f"kind: {kind}",
              f"commander: {q(cmd.group(1)) if cmd else 'null'}", f"color_identity: {ci.group(1) if ci else 'null'}",
@@ -99,6 +110,8 @@ def deck_fm(path, body):
              f"validated: {'true' if ok else 'false'}"]
     if kind == "plane":
         lines.append(f"plane: {path.stem.split('-')[1]}")
+    if kind == "grixis":
+        lines.append("source_repo: corymstover/grixis-commander-encyclopediaGPT")
     lines += ["---", ""]
     return "\n".join(lines)
 
@@ -108,8 +121,9 @@ def targets():
         p = ROOT / name
         if p.exists():
             yield p, page_fm, PAGE_KEYS
-    for p in sorted((ROOT / "decks").glob("*.md")):
-        yield p, deck_fm, DECK_KEYS
+    for d in DECK_DIRS:
+        for p in sorted((ROOT / d).glob("*.md")):
+            yield p, deck_fm, DECK_KEYS
 
 
 def main(check: bool) -> int:
@@ -138,6 +152,7 @@ def main(check: bool) -> int:
     if missing:
         print("registry lists missing pages:", missing)
     unreg = [p.name for p in ROOT.glob("*.md") if p.name not in PAGES and p.name not in ("README.md", "GOAL.md")]
+    unreg += [str(p.relative_to(ROOT)) for d in SUBDIRS for p in (ROOT / d).glob("*.md") if str(p.relative_to(ROOT)) not in PAGES]
     if unreg:
         bad.append(f"top-level pages not in the registry: {unreg}")
     if check:
