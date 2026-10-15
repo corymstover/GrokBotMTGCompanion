@@ -3,6 +3,7 @@
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-15 — Bot cycle 13 (Phase 3 complete: Artist Index)](#2026-10-15--bot-cycle-13-phase-3-complete-artist-index)
 - [2026-10-15 — Bot cycle 12 (Phase 3: Tokens, Emblems & Dungeons)](#2026-10-15--bot-cycle-12-phase-3-tokens-emblems--dungeons)
 - [2026-10-15 — Bot cycle 11 (Phase 3: Format Legality Matrix)](#2026-10-15--bot-cycle-11-phase-3-format-legality-matrix)
 - [2026-10-15 — Bot cycle 10 (Phase 3: Printing History)](#2026-10-15--bot-cycle-10-phase-3-printing-history)
@@ -16,13 +17,23 @@
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
 
+## 2026-10-15 — Bot cycle 13 (Phase 3 complete: Artist Index)
+
+> All entries in this section are **Bot cycle 13** (Grok Bot) changes, on branch `bot-cycle13`.
+
+| # | Summary | Files affected | Reason |
+|---|---|---|---|
+| 13.1 | Bot cycle 13: **Artist Index** for [#43](https://github.com/corymstover/GrokBotMTGCompanion/issues/43). **2,440** artists and **50,956** artist-illustration credits from Scryfall default-cards. CSV plus alphabetical Markdown with most-prolific list and top cards by EDHREC. Joint credits count for each artist; alternate spellings are flagged ⚠️. | `Artist Index.md`, `data/artists.csv`, `scripts/build_artists.py` | #43 |
+| 13.2 | Bot cycle 13: corrected Tokens noncreature count (105, not 133) after a cleaner Scryfall filter, and closed Phase 3 on the dashboard. | `Tokens, Emblems & Dungeons.md`, `scripts/build_tokens.py`, `data/tokens.json`, docs | Accuracy |
+| 13.3 | Bot cycle 13: README, Progress Tracker, Knowledge Index, ROADMAP, Update Log (**Phase 3 complete**; Phase 4 #44–#47 next). | `README.md`, `Progress Tracker.md`, `Knowledge Index.md`, `ROADMAP.md`, `Update Log.md` | docs |
+
 ## 2026-10-15 — Bot cycle 12 (Phase 3: Tokens, Emblems & Dungeons)
 
 > All entries in this section are **Bot cycle 12** (Grok Bot) changes, on branch `bot-cycle12`.
 
 | # | Summary | Files affected | Reason |
 |---|---|---|---|
-| 12.1 | Bot cycle 12: **Tokens, Emblems & Dungeons** for [#42](https://github.com/corymstover/GrokBotMTGCompanion/issues/42). Structured `data/tokens.json` plus Markdown tables: 780 creature tokens, 133 noncreature tokens, 89 emblems, 5 dungeons, and 159 adventurer cards (real cards, CR 715). Marked 🚫 not cards where they cannot go in a deck (CR 111.1, 114.1, 309.2). Creators linked via Scryfall `all_parts`. | `Tokens, Emblems & Dungeons.md`, `data/tokens.json`, `scripts/build_tokens.py` | #42 |
+| 12.1 | Bot cycle 12: **Tokens, Emblems & Dungeons** for [#42](https://github.com/corymstover/GrokBotMTGCompanion/issues/42). Structured `data/tokens.json` plus Markdown tables: 780 creature tokens, 105 noncreature tokens, 89 emblems, 5 dungeons, and 159 adventurer cards (real cards, CR 715). Marked 🚫 not cards where they cannot go in a deck (CR 111.1, 114.1, 309.2). Creators linked via Scryfall `all_parts`. | `Tokens, Emblems & Dungeons.md`, `data/tokens.json`, `scripts/build_tokens.py` | #42 |
 | 12.2 | Bot cycle 12: README, Progress Tracker, Knowledge Index, ROADMAP, Update Log (#42 ✅; Phase 3 left with #43). | `README.md`, `Progress Tracker.md`, `Knowledge Index.md`, `ROADMAP.md`, `Update Log.md` | docs |
 
 ## 2026-10-15 — Bot cycle 11 (Phase 3: Format Legality Matrix)

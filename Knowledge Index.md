@@ -32,6 +32,7 @@
 | [Printing History.md](Printing%20History.md) | Generated (`scripts/build_printings.py`, Bot cycle 10, #40): field guide and notable lists. Full per-card data in `data/printings_summary.csv` (33,894 rows from Scryfall default-cards). |
 | [Format Legality Matrix.md](Format%20Legality%20Matrix.md) | Generated (`scripts/build_legality.py`, Bot cycle 11, #41): per-format totals and full banned/restricted lists. Matrix in `data/legality_matrix.csv` (33,894 × 23 Scryfall format keys). |
 | [Tokens, Emblems & Dungeons.md](Tokens%2C%20Emblems%20%26%20Dungeons.md) | Generated (`scripts/build_tokens.py`, Bot cycle 12, #42): tokens, emblems and dungeons (not cards; CR 111/114/309) plus adventurer cards. Data: `data/tokens.json`. |
+| [Artist Index.md](Artist%20Index.md) | Generated (`scripts/build_artists.py`, Bot cycle 13, #43): 2,440 artists with illustration/printing/card counts and top cards. Data: `data/artists.csv`. |
 | [EDH Standards.md](EDH%20Standards.md) | Commander deckbuilding rules: strict color identity, commander first, Archidekt format, brackets. |
 | [EDH Staples.md](EDH%20Staples.md) | Auto-generated (`scripts/build_staples.py`): Commander-legal staples by color identity and by role/archetype, EDHREC-rank ordered, Game Changer flags. Data, not opinion. |
 | [Story Archive Index.md](Story%20Archive%20Index.md) | 612 official story/lore pages by year, live vs. 🗄️ archived (`scripts/crawl_story_index.py`, `data/story_index.csv`). |
