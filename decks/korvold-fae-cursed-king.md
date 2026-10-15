@@ -10,6 +10,7 @@
 - [Card breakdown](#card-breakdown)
 - [Rejected candidates](#rejected-candidates)
 - [Commander rules & rulings](#commander-rules--rulings)
+- [Combos (Commander Spellbook)](#combos-commander-spellbook)
 
 ## Commander
 
@@ -231,3 +232,27 @@ EDHREC suggestions excluded by validation (should normally be empty or only off-
 
 **Deck cards with official rulings:** 53 of 79 non-basic cards — [Arcane Signet](../cards/A/arc.md#arcane-signet) (3), [Lightning Greaves](../cards/L/li.md#lightning-greaves) (2), [Swiftfoot Boots](../cards/S/sw.md#swiftfoot-boots) (1), [Mayhem Devil](../cards/M/may.md#mayhem-devil) (5), [Tireless Provisioner](../cards/T/ti.md#tireless-provisioner) (3), [Ignoble Hierarch](../cards/I/ig.md#ignoble-hierarch) (1), [Pitiless Plunderer](../cards/P/pi.md#pitiless-plunderer) (1), [Chatterfang, Squirrel General](../cards/C/cha.md#chatterfang-squirrel-general) (5), [Academy Manufactor](../cards/A/ac.md#academy-manufactor) (4), [Juri, Master of the Revue](../cards/J/ju.md#juri-master-of-the-revue) (2), [Eternal Witness](../cards/E/et.md#eternal-witness) (1), [Goldspan Dragon](../cards/G/gol.md#goldspan-dragon) (3), [Impulsive Pilferer](../cards/I/im.md#impulsive-pilferer) (7), [Viscera Seer](../cards/V/vi.md#viscera-seer) (2), [Zulaport Cutthroat](../cards/Z/zu.md#zulaport-cutthroat) (1), [Blood Artist](../cards/B/blo.md#blood-artist) (1), [Xorn](../cards/X/xo.md#xorn) (1), [Ragavan, Nimble Pilferer](../cards/R/rag.md#ragavan-nimble-pilferer) (6), [Ziatora, the Incinerator](../cards/Z/zi.md#ziatora-the-incinerator) (1), [Braids, Arisen Nightmare](../cards/B/br.md#braids-arisen-nightmare) (1), [Delighted Halfling](../cards/D/del.md#delighted-halfling) (2), [Mazirek, Kraul Death Priest](../cards/M/maz.md#mazirek-kraul-death-priest) (4), [Springbloom Druid](../cards/S/spr.md#springbloom-druid) (1), [Marionette Apprentice](../cards/M/mar.md#marionette-apprentice) (3), [Squee, the Immortal](../cards/S/sq.md#squee-the-immortal) (2), [Assassin's Trophy](../cards/A/as.md#assassins-trophy) (6), [Harrow](../cards/H/ha.md#harrow) (2), [Crop Rotation](../cards/C/cr.md#crop-rotation) (1), [Beast Within](../cards/B/be.md#beast-within) (1), [Deflecting Swat](../cards/D/def.md#deflecting-swat) (5), [Heroic Intervention](../cards/H/he.md#heroic-intervention) (3), [Abrupt Decay](../cards/A/ab.md#abrupt-decay) (4), [Vampiric Tutor](../cards/V/va.md#vampiric-tutor) (1), [Worldly Tutor](../cards/W/wo.md#worldly-tutor) (1), [Diabolic Intent](../cards/D/di.md#diabolic-intent) (5), [Reanimate](../cards/R/rea.md#reanimate) (5), [Blasphemous Act](../cards/B/bla.md#blasphemous-act) (4), [Farseek](../cards/F/fa.md#farseek) (1), [Demonic Tutor](../cards/D/dem.md#demonic-tutor) (3), [Victimize](../cards/V/vi.md#victimize) (4), [Nature's Lore](../cards/N/na.md#natures-lore) (1), [Cultivate](../cards/C/cu.md#cultivate) (1), [Culling Ritual](../cards/C/cu.md#culling-ritual) (1), [Revel in Riches](../cards/R/rev.md#revel-in-riches) (4), [Command Tower](../cards/C/com.md#command-tower) (3), [Stomping Ground](../cards/S/sto.md#stomping-ground) (2), [Overgrown Tomb](../cards/O/ov.md#overgrown-tomb) (4), [Blood Crypt](../cards/B/blo.md#blood-crypt) (3), [Fabled Passage](../cards/F/fa.md#fabled-passage) (2), [Exotic Orchard](../cards/E/ex.md#exotic-orchard) (5), [Cinder Glade](../cards/C/ci.md#cinder-glade) (3), [Reliquary Tower](../cards/R/rel.md#reliquary-tower) (1), [Smoldering Marsh](../cards/S/sm.md#smoldering-marsh) (3).
 <!-- RULES-NOTES:END -->
+
+<!-- COMBOS:START -->
+## Combos (Commander Spellbook)
+
+> Auto-generated 2026-10-15 by `scripts/detect_combos.py` from the [Commander Spellbook](https://commanderspellbook.com) public API (community-maintained combo database; each combo links to its page). Only combos whose **every card is in this list** are shown. Bracket note uses the official barometer: *Brackets 1–2 — no intentional two-card infinite combos; Bracket 3 — no early-game two-card infinite combos*.
+
+**11 complete combo(s); 1 two-card infinite.** 235 more are one card away (not listed).
+
+| Cards | Produces (Spellbook) | Extra requirements | Link |
+|---|---|---|---|
+| Old Gnawbone + Revel in Riches | Win the game at the beginning of your next upkeep | — | [1800-2429](https://commanderspellbook.com/combo/1800-2429/) |
+| Bootleggers' Stash + Revel in Riches | Win the game at the beginning of your next upkeep | — | [2429-3340](https://commanderspellbook.com/combo/2429-3340/) |
+| ⚠️ **two-card infinite** · Chatterfang, Squirrel General + Pitiless Plunderer | Infinite artifact ETB, Infinite artifact LTB, Infinite artifact sacrifice triggers, Infinite artifact tokens | — | [3000-4871](https://commanderspellbook.com/combo/3000-4871/) |
+| Warren Soultrader + Zulaport Cutthroat + Chatterfang, Squirrel General | Infinite artifact ETB, Infinite artifact LTB, Infinite artifact sacrifice triggers, Infinite artifact tokens | — | [1385-3000-5670](https://commanderspellbook.com/combo/1385-3000-5670/) |
+| Pitiless Plunderer + Ashnod's Altar + Reassembling Skeleton | Infinite colorless mana, Infinite death triggers, Infinite creature ETB, Infinite creature LTB | — | [1580-2034-4871](https://commanderspellbook.com/combo/1580-2034-4871/) |
+| Warren Soultrader + Blood Artist + Chatterfang, Squirrel General | Infinite artifact ETB, Infinite artifact LTB, Infinite artifact sacrifice triggers, Infinite artifact tokens | — | [2842-3000-5670](https://commanderspellbook.com/combo/2842-3000-5670/) |
+| Chatterfang, Squirrel General + Warren Soultrader + Academy Manufactor | Infinite artifact ETB, Infinite artifact LTB, Infinite artifact sacrifice triggers, Infinite artifact tokens | — | [3000-4231-5670](https://commanderspellbook.com/combo/3000-4231-5670/) |
+| Mahadi, Emporium Master + Revel in Riches + Ashnod's Altar | Win the game at the beginning of your next upkeep | — | [865-2034-2429](https://commanderspellbook.com/combo/865-2034-2429/) |
+| Mahadi, Emporium Master + Revel in Riches + Viscera Seer | Win the game at the beginning of your next upkeep | — | [865-2292-2429](https://commanderspellbook.com/combo/865-2292-2429/) |
+| Warren Soultrader + Pitiless Plunderer + Zulaport Cutthroat + Reassembling Skeleton | Infinite artifact ETB, Infinite artifact LTB, Infinite artifact sacrifice triggers, Infinite creature ETB | — | [1385-1580-4871-5670](https://commanderspellbook.com/combo/1385-1580-4871-5670/) |
+| Warren Soultrader + Pitiless Plunderer + Reassembling Skeleton + Blood Artist | Infinite artifact ETB, Infinite artifact LTB, Infinite artifact sacrifice triggers, Infinite creature ETB | — | [1580-2842-4871-5670](https://commanderspellbook.com/combo/1580-2842-4871-5670/) |
+
+**Bracket implication:** a two-card infinite combo is outside the Bracket 1–2 barometer, so this deck as listed sits at **Bracket 3+** unless the combo is cut; whether it is *early-game* (Bracket 3 vs 4) is **Opinion** and must be discussed at Rule 0.
+<!-- COMBOS:END -->

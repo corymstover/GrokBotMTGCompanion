@@ -10,6 +10,7 @@
 - [Card breakdown](#card-breakdown)
 - [Rejected candidates](#rejected-candidates)
 - [Commander rules & rulings](#commander-rules--rulings)
+- [Combos (Commander Spellbook)](#combos-commander-spellbook)
 
 ## Commander
 
@@ -234,3 +235,15 @@ EDHREC suggestions excluded by validation (should normally be empty or only off-
 
 **Deck cards with official rulings:** 49 of 79 non-basic cards — [Arcane Signet](../cards/A/arc.md#arcane-signet) (3), [Altar of Dementia](../cards/A/al.md#altar-of-dementia) (2), [Lightning Greaves](../cards/L/li.md#lightning-greaves) (2), [Perpetual Timepiece](../cards/P/pe.md#perpetual-timepiece) (1), [Swiftfoot Boots](../cards/S/sw.md#swiftfoot-boots) (1), [Hedge Shredder](../cards/H/he.md#hedge-shredder) (1), [Mesmeric Orb](../cards/M/me.md#mesmeric-orb) (1), [Eternal Witness](../cards/E/et.md#eternal-witness) (1), [Gravebreaker Lamia](../cards/G/gra.md#gravebreaker-lamia) (1), [The Gitrog Monster](../cards/T/theg.md#the-gitrog-monster) (1), [Doc Aurlock, Grizzled Genius](../cards/D/do.md#doc-aurlock-grizzled-genius) (7), [Syr Konrad, the Grim](../cards/S/sy.md#syr-konrad-the-grim) (2), [Siren Stormtamer](../cards/S/si.md#siren-stormtamer) (2), [Mulldrifter](../cards/M/mu.md#mulldrifter) (2), [Icetill Explorer](../cards/I/ic.md#icetill-explorer) (3), [Sidisi, Brood Tyrant](../cards/S/si.md#sidisi-brood-tyrant) (2), [Plaguecrafter](../cards/P/pl.md#plaguecrafter) (3), [Kheru Goldkeeper](../cards/K/kh.md#kheru-goldkeeper) (2), [Accursed Marauder](../cards/A/ac.md#accursed-marauder) (2), [Teval, the Balanced Scale](../cards/T/te.md#teval-the-balanced-scale) (1), [River Kelpie](../cards/R/ri.md#river-kelpie) (12), [Glen Elendra Archmage](../cards/G/gl.md#glen-elendra-archmage) (7), [Underrealm Lich](../cards/U/un.md#underrealm-lich) (3), [Six](../cards/S/si.md#six) (1), [Hermit Druid](../cards/H/he.md#hermit-druid) (1), [Tatyova, Benthic Druid](../cards/T/ta.md#tatyova-benthic-druid) (3), [Shriekmaw](../cards/S/shr.md#shriekmaw) (2), [Seal of Primordium](../cards/S/sea.md#seal-of-primordium) (2), [Kaya's Ghostform](../cards/K/ka.md#kayas-ghostform) (7), [Animate Dead](../cards/A/an.md#animate-dead) (5), [Secrets of the Dead](../cards/S/sec.md#secrets-of-the-dead) (1), [Mystic Remora](../cards/M/my.md#mystic-remora) (2), [Pernicious Deed](../cards/P/pe.md#pernicious-deed) (2), [Seal of Removal](../cards/S/sea.md#seal-of-removal) (1), [Rhystic Study](../cards/R/rh.md#rhystic-study) (2), [Buried Alive](../cards/B/bu.md#buried-alive) (1), [Life from the Loam](../cards/L/li.md#life-from-the-loam) (6), [Reanimate](../cards/R/rea.md#reanimate) (5), [Cultivate](../cards/C/cu.md#cultivate) (1), [Victimize](../cards/V/vi.md#victimize) (4), [Farseek](../cards/F/fa.md#farseek) (1), [Assassin's Trophy](../cards/A/as.md#assassins-trophy) (6), [Ashiok, Dream Render](../cards/A/as.md#ashiok-dream-render) (5), [Command Tower](../cards/C/com.md#command-tower) (3), [Overgrown Tomb](../cards/O/ov.md#overgrown-tomb) (4), [Watery Grave](../cards/W/wat.md#watery-grave) (2), [Breeding Pool](../cards/B/br.md#breeding-pool) (2), [Exotic Orchard](../cards/E/ex.md#exotic-orchard) (5), [Drowned Catacomb](../cards/D/dro.md#drowned-catacomb) (2).
 <!-- RULES-NOTES:END -->
+
+<!-- COMBOS:START -->
+## Combos (Commander Spellbook)
+
+> Auto-generated 2026-10-15 by `scripts/detect_combos.py` from the [Commander Spellbook](https://commanderspellbook.com) public API (community-maintained combo database; each combo links to its page). Only combos whose **every card is in this list** are shown. Bracket note uses the official barometer: *Brackets 1–2 — no intentional two-card infinite combos; Bracket 3 — no early-game two-card infinite combos*.
+
+**1 complete combo(s); 0 two-card infinite.** 75 more are one card away (not listed).
+
+| Cards | Produces (Spellbook) | Extra requirements | Link |
+|---|---|---|---|
+| Muldrotha, the Gravetide + Kaya's Ghostform + Altar of Dementia + Lotus Petal | Infinite death triggers, Infinite creature ETB, Infinite creature LTB, Infinite mill | — | [1414-2730-5131-5256](https://commanderspellbook.com/combo/1414-2730-5131-5256/) |
+<!-- COMBOS:END -->

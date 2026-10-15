@@ -10,6 +10,7 @@
 - [Card breakdown](#card-breakdown)
 - [Rejected candidates](#rejected-candidates)
 - [Commander rules & rulings](#commander-rules--rulings)
+- [Combos (Commander Spellbook)](#combos-commander-spellbook)
 
 ## Commander
 
@@ -228,3 +229,24 @@ EDHREC suggestions excluded by validation (should normally be empty or only off-
 
 **Deck cards with official rulings:** 58 of 79 non-basic cards — [Arcane Signet](../cards/A/arc.md#arcane-signet) (3), [Fellwar Stone](../cards/F/fe.md#fellwar-stone) (7), [Commander's Sphere](../cards/C/com.md#commanders-sphere) (3), [Swiftfoot Boots](../cards/S/sw.md#swiftfoot-boots) (1), [Brainstorm](../cards/B/br.md#brainstorm) (1), [Frantic Search](../cards/F/fr.md#frantic-search) (2), [Negate](../cards/N/ne.md#negate) (1), [Izzet Charm](../cards/I/iz.md#izzet-charm) (1), [Arcane Denial](../cards/A/arc.md#arcane-denial) (1), [An Offer You Can't Refuse](../cards/A/an.md#an-offer-you-cant-refuse) (2), [Consider](../cards/C/con.md#consider) (1), [Chaos Warp](../cards/C/cha.md#chaos-warp) (5), [Pongify](../cards/P/po.md#pongify) (1), [Cyclonic Rift](../cards/C/cy.md#cyclonic-rift) (4), [Mystical Tutor](../cards/M/my.md#mystical-tutor) (1), [Thrill of Possibility](../cards/T/thr.md#thrill-of-possibility) (1), [Swan Song](../cards/S/sw.md#swan-song) (1), [Rapid Hybridization](../cards/R/rap.md#rapid-hybridization) (2), [Snap](../cards/S/sn.md#snap) (1), [Fierce Guardianship](../cards/F/fi.md#fierce-guardianship) (2), [Flame of Anor](../cards/F/fl.md#flame-of-anor) (1), [Prismari Command](../cards/P/pr.md#prismari-command) (2), [Curiosity](../cards/C/cu.md#curiosity) (5), [Ophidian Eye](../cards/O/op.md#ophidian-eye) (1), [Rhystic Study](../cards/R/rh.md#rhystic-study) (2), [Mystic Remora](../cards/M/my.md#mystic-remora) (2), [Teferi's Ageless Insight](../cards/T/te.md#teferis-ageless-insight) (3), [Thousand-Year Storm](../cards/T/tho.md#thousand-year-storm) (10), [Ponder](../cards/P/po.md#ponder) (1), [Faithless Looting](../cards/F/fa.md#faithless-looting) (7), [Blasphemous Act](../cards/B/bla.md#blasphemous-act) (4), [Vandalblast](../cards/V/va.md#vandalblast) (4), [Gitaxian Probe](../cards/G/gi.md#gitaxian-probe) (6), [Treasure Cruise](../cards/T/tre.md#treasure-cruise) (3), [Expressive Iteration](../cards/E/ex.md#expressive-iteration) (3), [Guttersnipe](../cards/G/gu.md#guttersnipe) (2), [Goblin Electromancer](../cards/G/gob.md#goblin-electromancer) (3), [Storm-Kiln Artist](../cards/S/sto.md#storm-kiln-artist) (4), [Archmage Emeritus](../cards/A/arc.md#archmage-emeritus) (4), [Niv-Mizzet, the Firemind](../cards/N/ni.md#niv-mizzet-the-firemind) (2), [Tandem Lookout](../cards/T/ta.md#tandem-lookout) (1), [Talrand, Sky Summoner](../cards/T/ta.md#talrand-sky-summoner) (1), [Psychosis Crawler](../cards/P/ps.md#psychosis-crawler) (1), [Baral, Chief of Compliance](../cards/B/bar.md#baral-chief-of-compliance) (3), [Electrostatic Field](../cards/E/el.md#electrostatic-field) (2), [Young Pyromancer](../cards/Y/yo.md#young-pyromancer) (1), [Laboratory Maniac](../cards/L/la.md#laboratory-maniac) (2), [Stormcatch Mentor](../cards/S/sto.md#stormcatch-mentor) (2), [Veyran, Voice of Duality](../cards/V/ve.md#veyran-voice-of-duality) (7), [Command Tower](../cards/C/com.md#command-tower) (3), [Shivan Reef](../cards/S/shi.md#shivan-reef) (2), [Reliquary Tower](../cards/R/rel.md#reliquary-tower) (1), [Steam Vents](../cards/S/ste.md#steam-vents) (3), [Izzet Boilerworks](../cards/I/iz.md#izzet-boilerworks) (1), [Frostboil Snarl](../cards/F/fr.md#frostboil-snarl) (4), [Training Center](../cards/T/tra.md#training-center) (2), [Mystic Sanctuary](../cards/M/my.md#mystic-sanctuary) (2), [Exotic Orchard](../cards/E/ex.md#exotic-orchard) (5).
 <!-- RULES-NOTES:END -->
+
+<!-- COMBOS:START -->
+## Combos (Commander Spellbook)
+
+> Auto-generated 2026-10-15 by `scripts/detect_combos.py` from the [Commander Spellbook](https://commanderspellbook.com) public API (community-maintained combo database; each combo links to its page). Only combos whose **every card is in this list** are shown. Bracket note uses the official barometer: *Brackets 1–2 — no intentional two-card infinite combos; Bracket 3 — no early-game two-card infinite combos*.
+
+**8 complete combo(s); 8 two-card infinite.** 38 more are one card away (not listed).
+
+| Cards | Produces (Spellbook) | Extra requirements | Link |
+|---|---|---|---|
+| ⚠️ **two-card infinite** · Curiosity + Niv-Mizzet, Parun | Infinite draw triggers, Infinite card draw, Near-infinite damage | — | [1089-2353](https://commanderspellbook.com/combo/1089-2353/) |
+| ⚠️ **two-card infinite** · Niv-Mizzet, the Firemind + Curiosity | Infinite card draw, Infinite draw triggers, Near-infinite damage | — | [1089-4971](https://commanderspellbook.com/combo/1089-4971/) |
+| ⚠️ **two-card infinite** · Niv-Mizzet, Parun + Ophidian Eye | Infinite card draw, Infinite draw triggers, Near-infinite damage | — | [2353-2396](https://commanderspellbook.com/combo/2353-2396/) |
+| ⚠️ **two-card infinite** · Niv-Mizzet, Parun + Niv-Mizzet, Visionary | Near-infinite damage, Infinite card draw, Infinite draw triggers | — | [2353-6092](https://commanderspellbook.com/combo/2353-6092/) |
+| ⚠️ **two-card infinite** · Niv-Mizzet, the Firemind + Ophidian Eye | Infinite card draw, Infinite draw triggers, Near-infinite damage | — | [2396-4971](https://commanderspellbook.com/combo/2396-4971/) |
+| ⚠️ **two-card infinite** · Tandem Lookout + Niv-Mizzet, Parun | Infinite card draw, Infinite draw triggers, Near-infinite damage | — | [406-2353](https://commanderspellbook.com/combo/406-2353/) |
+| ⚠️ **two-card infinite** · Niv-Mizzet, the Firemind + Tandem Lookout | Infinite card draw, Infinite draw triggers, Near-infinite damage | — | [406-4971](https://commanderspellbook.com/combo/406-4971/) |
+| ⚠️ **two-card infinite** · Niv-Mizzet, the Firemind + Niv-Mizzet, Visionary | Near-infinite damage, Infinite card draw, Infinite draw triggers | — | [4971-6092](https://commanderspellbook.com/combo/4971-6092/) |
+
+**Bracket implication:** a two-card infinite combo is outside the Bracket 1–2 barometer, so this deck as listed sits at **Bracket 3+** unless the combo is cut; whether it is *early-game* (Bracket 3 vs 4) is **Opinion** and must be discussed at Rule 0.
+<!-- COMBOS:END -->

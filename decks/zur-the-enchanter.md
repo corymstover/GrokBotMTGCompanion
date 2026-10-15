@@ -10,6 +10,7 @@
 - [Card breakdown](#card-breakdown)
 - [Rejected candidates](#rejected-candidates)
 - [Commander rules & rulings](#commander-rules--rulings)
+- [Combos (Commander Spellbook)](#combos-commander-spellbook)
 
 ## Commander
 
@@ -227,3 +228,15 @@ EDHREC suggestions excluded by validation (should normally be empty or only off-
 
 **Deck cards with official rulings:** 58 of 79 non-basic cards — [Arcane Signet](../cards/A/arc.md#arcane-signet) (3), [Fellwar Stone](../cards/F/fe.md#fellwar-stone) (7), [Lightning Greaves](../cards/L/li.md#lightning-greaves) (2), [Swiftfoot Boots](../cards/S/sw.md#swiftfoot-boots) (1), [Swords to Plowshares](../cards/S/sw.md#swords-to-plowshares) (1), [Path to Exile](../cards/P/pa.md#path-to-exile) (2), [Dovin's Veto](../cards/D/do.md#dovins-veto) (1), [An Offer You Can't Refuse](../cards/A/an.md#an-offer-you-cant-refuse) (2), [Swan Song](../cards/S/sw.md#swan-song) (1), [Negate](../cards/N/ne.md#negate) (1), [Enlightened Tutor](../cards/E/en.md#enlightened-tutor) (1), [Fierce Guardianship](../cards/F/fi.md#fierce-guardianship) (2), [Cyclonic Rift](../cards/C/cy.md#cyclonic-rift) (4), [Vampiric Tutor](../cards/V/va.md#vampiric-tutor) (1), [Mana Drain](../cards/M/man.md#mana-drain) (2), [Arcane Denial](../cards/A/arc.md#arcane-denial) (1), [Brainstorm](../cards/B/br.md#brainstorm) (1), [Propaganda](../cards/P/pr.md#propaganda) (6), [Ghostly Prison](../cards/G/gh.md#ghostly-prison) (2), [Grasp of Fate](../cards/G/gra.md#grasp-of-fate) (5), [All That Glitters](../cards/A/al.md#all-that-glitters) (3), [Mirrormade](../cards/M/mir.md#mirrormade) (7), [Rhystic Study](../cards/R/rh.md#rhystic-study) (2), [Ethereal Armor](../cards/E/et.md#ethereal-armor) (1), [Imprisoned in the Moon](../cards/I/im.md#imprisoned-in-the-moon) (5), [Darksteel Mutation](../cards/D/da.md#darksteel-mutation) (8), [Diplomatic Immunity](../cards/D/di.md#diplomatic-immunity) (1), [Steel of the Godhead](../cards/S/ste.md#steel-of-the-godhead) (1), [Mystic Remora](../cards/M/my.md#mystic-remora) (2), [Copy Enchantment](../cards/C/cop.md#copy-enchantment) (8), [Rest in Peace](../cards/R/res.md#rest-in-peace) (3), [Greater Auramancy](../cards/G/gre.md#greater-auramancy) (1), [Blind Obedience](../cards/B/bli.md#blind-obedience) (4), [Solemnity](../cards/S/so.md#solemnity) (10), [Necropotence](../cards/N/ne.md#necropotence) (4), [Estrid's Invocation](../cards/E/es.md#estrids-invocation) (10), [Rule of Law](../cards/R/ru.md#rule-of-law) (2), [Smothering Tithe](../cards/S/sm.md#smothering-tithe) (1), [Phyrexian Unlife](../cards/P/ph.md#phyrexian-unlife) (4), [Aura of Silence](../cards/A/au.md#aura-of-silence) (1), [Curator's Ward](../cards/C/cu.md#curators-ward) (3), [Aqueous Form](../cards/A/aq.md#aqueous-form) (4), [Sphere of Safety](../cards/S/sph.md#sphere-of-safety) (1), [Grand Abolisher](../cards/G/gra.md#grand-abolisher) (2), [Esper Sentinel](../cards/E/es.md#esper-sentinel) (3), [Sun Titan](../cards/S/sun.md#sun-titan) (4), [Mesa Enchantress](../cards/M/me.md#mesa-enchantress) (3), [Demonic Tutor](../cards/D/dem.md#demonic-tutor) (3), [Winds of Rath](../cards/W/wi.md#winds-of-rath) (1), [Command Tower](../cards/C/com.md#command-tower) (3), [Hallowed Fountain](../cards/H/ha.md#hallowed-fountain) (3), [Exotic Orchard](../cards/E/ex.md#exotic-orchard) (5), [Godless Shrine](../cards/G/god.md#godless-shrine) (2), [Watery Grave](../cards/W/wat.md#watery-grave) (2), [Glacial Fortress](../cards/G/gl.md#glacial-fortress) (2), [Caves of Koilos](../cards/C/cav.md#caves-of-koilos) (2), [Sea of Clouds](../cards/S/sea.md#sea-of-clouds) (1), [Prairie Stream](../cards/P/pr.md#prairie-stream) (3).
 <!-- RULES-NOTES:END -->
+
+<!-- COMBOS:START -->
+## Combos (Commander Spellbook)
+
+> Auto-generated 2026-10-15 by `scripts/detect_combos.py` from the [Commander Spellbook](https://commanderspellbook.com) public API (community-maintained combo database; each combo links to its page). Only combos whose **every card is in this list** are shown. Bracket note uses the official barometer: *Brackets 1–2 — no intentional two-card infinite combos; Bracket 3 — no early-game two-card infinite combos*.
+
+**1 complete combo(s); 0 two-card infinite.** 38 more are one card away (not listed).
+
+| Cards | Produces (Spellbook) | Extra requirements | Link |
+|---|---|---|---|
+| Solemnity + Phyrexian Unlife | You can't lose the game due to having 0 or less life, Lock | — | [4053-4551](https://commanderspellbook.com/combo/4053-4551/) |
+<!-- COMBOS:END -->

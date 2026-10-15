@@ -10,6 +10,7 @@
 - [Card breakdown](#card-breakdown)
 - [Rejected candidates](#rejected-candidates)
 - [Commander rules & rulings](#commander-rules--rulings)
+- [Combos (Commander Spellbook)](#combos-commander-spellbook)
 
 ## Commander
 
@@ -234,3 +235,18 @@ EDHREC suggestions excluded by validation (should normally be empty or only off-
 
 **Deck cards with official rulings:** 58 of 79 non-basic cards — [Arcane Signet](../cards/A/arc.md#arcane-signet) (3), [Chromatic Lantern](../cards/C/chr.md#chromatic-lantern) (1), [Urza's Incubator](../cards/U/ur.md#urzas-incubator) (2), [Herald's Horn](../cards/H/he.md#heralds-horn) (6), [Fellwar Stone](../cards/F/fe.md#fellwar-stone) (7), [Lightning Greaves](../cards/L/li.md#lightning-greaves) (2), [Miirym, Sentinel Wyrm](../cards/M/mii.md#miirym-sentinel-wyrm) (2), [Tiamat](../cards/T/ti.md#tiamat) (2), [Lathliss, Dragon Queen](../cards/L/la.md#lathliss-dragon-queen) (1), [Terror of the Peaks](../cards/T/te.md#terror-of-the-peaks) (1), [Hellkite Courser](../cards/H/he.md#hellkite-courser) (2), [Goldspan Dragon](../cards/G/gol.md#goldspan-dragon) (3), [Morophon, the Boundless](../cards/M/mor.md#morophon-the-boundless) (5), [Dragonlord's Servant](../cards/D/dra.md#dragonlords-servant) (6), [Rivaz of the Claw](../cards/R/ri.md#rivaz-of-the-claw) (6), [Sarkhan, Soul Aflame](../cards/S/sar.md#sarkhan-soul-aflame) (7), [Scourge of Valkas](../cards/S/sc.md#scourge-of-valkas) (2), [Klauth, Unrivaled Ancient](../cards/K/kl.md#klauth-unrivaled-ancient) (1), [Rith, Liberated Primeval](../cards/R/ri.md#rith-liberated-primeval) (6), [Twinflame Tyrant](../cards/T/tw.md#twinflame-tyrant) (3), [Balefire Dragon](../cards/B/bal.md#balefire-dragon) (1), [Savage Ventmaw](../cards/S/sav.md#savage-ventmaw) (1), [Silumgar, the Drifting Death](../cards/S/si.md#silumgar-the-drifting-death) (1), [Ramos, Dragon Engine](../cards/R/ram.md#ramos-dragon-engine) (4), [Scion of the Ur-Dragon](../cards/S/sc.md#scion-of-the-ur-dragon) (2), [Scion of Draco](../cards/S/sc.md#scion-of-draco) (2), [Roaming Throne](../cards/R/ro.md#roaming-throne) (2), [Scalelord Reckoner](../cards/S/sc.md#scalelord-reckoner) (2), [Bloom Tender](../cards/B/blo.md#bloom-tender) (5), [Ganax, Astral Hunter](../cards/G/ga.md#ganax-astral-hunter) (10), [Dragon Tempest](../cards/D/dra.md#dragon-tempest) (3), [Temur Ascendancy](../cards/T/te.md#temur-ascendancy) (3), [Dracogenesis](../cards/D/dra.md#dracogenesis) (4), [Call the Spirit Dragons](../cards/C/cal.md#call-the-spirit-dragons) (3), [Garruk's Uprising](../cards/G/ga.md#garruks-uprising) (4), [Rhythm of the Wild](../cards/R/rh.md#rhythm-of-the-wild) (9), [Smothering Tithe](../cards/S/sm.md#smothering-tithe) (1), [Farseek](../cards/F/fa.md#farseek) (1), [Nature's Lore](../cards/N/na.md#natures-lore) (1), [Cultivate](../cards/C/cu.md#cultivate) (1), [Three Visits](../cards/T/thr.md#three-visits) (2), [Kodama's Reach](../cards/K/ko.md#kodamas-reach) (1), [Swords to Plowshares](../cards/S/sw.md#swords-to-plowshares) (1), [Heroic Intervention](../cards/H/he.md#heroic-intervention) (3), [Cyclonic Rift](../cards/C/cy.md#cyclonic-rift) (4), [Teferi's Protection](../cards/T/te.md#teferis-protection) (27), [Command Tower](../cards/C/com.md#command-tower) (3), [Haven of the Spirit Dragon](../cards/H/ha.md#haven-of-the-spirit-dragon) (1), [Exotic Orchard](../cards/E/ex.md#exotic-orchard) (5), [Path of Ancestry](../cards/P/pa.md#path-of-ancestry) (7), [Cavern of Souls](../cards/C/cav.md#cavern-of-souls) (4), [Stomping Ground](../cards/S/sto.md#stomping-ground) (2), [Breeding Pool](../cards/B/br.md#breeding-pool) (2), [Steam Vents](../cards/S/ste.md#steam-vents) (3), [Overgrown Tomb](../cards/O/ov.md#overgrown-tomb) (4), [Temple Garden](../cards/T/te.md#temple-garden) (3), [Blood Crypt](../cards/B/blo.md#blood-crypt) (3), [Sacred Foundry](../cards/S/sac.md#sacred-foundry) (2).
 <!-- RULES-NOTES:END -->
+
+<!-- COMBOS:START -->
+## Combos (Commander Spellbook)
+
+> Auto-generated 2026-10-15 by `scripts/detect_combos.py` from the [Commander Spellbook](https://commanderspellbook.com) public API (community-maintained combo database; each combo links to its page). Only combos whose **every card is in this list** are shown. Bracket note uses the official barometer: *Brackets 1–2 — no intentional two-card infinite combos; Bracket 3 — no early-game two-card infinite combos*.
+
+**2 complete combo(s); 1 two-card infinite.** 143 more are one card away (not listed).
+
+| Cards | Produces (Spellbook) | Extra requirements | Link |
+|---|---|---|---|
+| ⚠️ **two-card infinite** · Dragon Tempest + Ancient Gold Dragon | Near-infinite damage | — | [2855-5982](https://commanderspellbook.com/combo/2855-5982/) |
+| Miirym, Sentinel Wyrm + Bladewing the Risen + Terror of the Peaks | Infinite creature LTB, Infinite creature ETB, Infinite death triggers, Infinite damage | — | [380-1110-3362](https://commanderspellbook.com/combo/380-1110-3362/) |
+
+**Bracket implication:** a two-card infinite combo is outside the Bracket 1–2 barometer, so this deck as listed sits at **Bracket 3+** unless the combo is cut; whether it is *early-game* (Bracket 3 vs 4) is **Opinion** and must be discussed at Rule 0.
+<!-- COMBOS:END -->

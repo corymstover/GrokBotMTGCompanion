@@ -1,0 +1,3602 @@
+{
+ "generated": "2026-10-15",
+ "source": "https://backend.commanderspellbook.com/find-my-combos",
+ "decks": {
+  "animar-soul-of-elements": {
+   "commander": [
+    "Animar, Soul of Elements"
+   ],
+   "combos": [
+    {
+     "id": "2-3771",
+     "cards": [
+      "Ancestral Statue",
+      "Animar, Soul of Elements"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite storm count"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "513-3771",
+     "cards": [
+      "Animar, Soul of Elements",
+      "Hullbreaker Horror"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite storm count"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "O"
+    },
+    {
+     "id": "513-5034--46",
+     "cards": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ],
+     "requires": [
+      "Permanent Castable for {C}"
+     ],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "513-1741-3821",
+     "cards": [
+      "Hullbreaker Horror",
+      "Peregrine Drake",
+      "Cloud of Faeries"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite mana lands you control can produce",
+      "Infinite storm count"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    }
+   ],
+   "two_card_infinite": 3,
+   "almost": 73
+  },
+  "atraxa-praetors-voice": {
+   "commander": [
+    "Atraxa, Praetors' Voice"
+   ],
+   "combos": [
+    {
+     "id": "1529-1887",
+     "cards": [
+      "Vraska, Betrayal's Sting",
+      "Vorinclex, Monstrous Raider"
+     ],
+     "n": 2,
+     "infinite": false,
+     "produces": [
+      "Target opponent loses the game"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    }
+   ],
+   "two_card_infinite": 0,
+   "almost": 39
+  },
+  "brago-king-eternal": {
+   "commander": [
+    "Brago, King Eternal"
+   ],
+   "combos": [
+    {
+     "id": "1090-2781",
+     "cards": [
+      "Restoration Angel",
+      "Felidar Guardian"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Infinite creature ETB",
+      "Infinite creature LTB"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "1409-1741",
+     "cards": [
+      "Cloud of Faeries",
+      "Deadeye Navigator"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Infinite creature ETB",
+      "Infinite creature LTB"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "1409-3821",
+     "cards": [
+      "Peregrine Drake",
+      "Deadeye Navigator"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Infinite blinking",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite mana lands you control can produce"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "2751-3557",
+     "cards": [
+      "Brago, King Eternal",
+      "Strionic Resonator"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Infinite blinking of nonland permanents",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite mana artifacts you control can produce"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "1770-3634-3821",
+     "cards": [
+      "Peregrine Drake",
+      "Elesh Norn, Mother of Machines",
+      "Venser, Shaper Savant"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite storm count",
+      "Infinite mana lands you control can produce"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "1987-2493-3821",
+     "cards": [
+      "Ghostly Flicker",
+      "Peregrine Drake",
+      "Archaeomancer"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite blinking",
+      "Infinite creature ETB",
+      "Infinite landfall triggers",
+      "Infinite creature LTB"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "2397-3634-3821",
+     "cards": [
+      "Peregrine Drake",
+      "Panharmonicon",
+      "Venser, Shaper Savant"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite mana lands you control can produce",
+      "Infinite storm count"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "2493-3115-3557",
+     "cards": [
+      "Brago, King Eternal",
+      "Cyclonic Rift",
+      "Archaeomancer"
+     ],
+     "n": 3,
+     "infinite": false,
+     "produces": [
+      "Return all nonland permanents opponents control to their hand on each of your turns",
+      "Lock"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "3634-3821-6751",
+     "cards": [
+      "Peregrine Drake",
+      "Venser, Shaper Savant",
+      "Starfield Vocalist"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite storm count",
+      "Infinite mana lands you control can produce"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "1741-1770-1987-2493",
+     "cards": [
+      "Cloud of Faeries",
+      "Archaeomancer",
+      "Ghostly Flicker",
+      "Elesh Norn, Mother of Machines"
+     ],
+     "n": 4,
+     "infinite": true,
+     "produces": [
+      "Infinite casts of any instants and/or sorcery cards in your hand or graveyard",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite magecraft triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "1741-1987-2397-2493",
+     "cards": [
+      "Cloud of Faeries",
+      "Archaeomancer",
+      "Ghostly Flicker",
+      "Panharmonicon"
+     ],
+     "n": 4,
+     "infinite": true,
+     "produces": [
+      "Infinite casts of any instants and/or sorcery cards in your hand or graveyard",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite magecraft triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    }
+   ],
+   "two_card_infinite": 4,
+   "almost": 231
+  },
+  "breya-etherium-shaper": {
+   "commander": [
+    "Breya, Etherium Shaper"
+   ],
+   "combos": [
+    {
+     "id": "1329-1558-4840",
+     "cards": [
+      "Time Sieve",
+      "Myr Battlesphere",
+      "Emry, Lurker of the Loch"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite turns",
+      "Lock"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "R"
+    },
+    {
+     "id": "1558-2047-4840",
+     "cards": [
+      "Time Sieve",
+      "Myr Battlesphere",
+      "Mechanized Production"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite turns",
+      "Lock"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "R"
+    },
+    {
+     "id": "1558-2558-4139",
+     "cards": [
+      "Thopter Foundry",
+      "Time Sieve",
+      "Sword of the Meek"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite turns",
+      "Lock"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "R"
+    },
+    {
+     "id": "2034-2558-4139",
+     "cards": [
+      "Thopter Foundry",
+      "Sword of the Meek",
+      "Ashnod's Altar"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite lifegain"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "2034-3121-4013",
+     "cards": [
+      "Eldrazi Displacer",
+      "Ashnod's Altar",
+      "Marionette Master"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite blinking",
+      "Infinite colorless mana",
+      "Infinite creature tokens",
+      "Infinite death triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "2034-3121-5003",
+     "cards": [
+      "Nim Deathmantle",
+      "Ashnod's Altar",
+      "Marionette Master"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact tokens",
+      "Infinite death triggers",
+      "Infinite creature ETB"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "2034-3910-4013",
+     "cards": [
+      "Eldrazi Displacer",
+      "Ashnod's Altar",
+      "Breya, Etherium Shaper"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite blinking of most creatures"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "2034-3910-5003",
+     "cards": [
+      "Nim Deathmantle",
+      "Ashnod's Altar",
+      "Breya, Etherium Shaper"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact tokens",
+      "Infinite colorless mana",
+      "Infinite death triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "2034-4013-4840",
+     "cards": [
+      "Eldrazi Displacer",
+      "Ashnod's Altar",
+      "Myr Battlesphere"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "2034-4840-5003",
+     "cards": [
+      "Nim Deathmantle",
+      "Ashnod's Altar",
+      "Myr Battlesphere"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact tokens",
+      "Infinite death triggers",
+      "Infinite creature ETB"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "2034-5003-6199",
+     "cards": [
+      "Nim Deathmantle",
+      "Ashnod's Altar",
+      "Marionette Apprentice"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "2558-4139-4659",
+     "cards": [
+      "Thopter Foundry",
+      "Sword of the Meek",
+      "Krark-Clan Ironworks"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite lifegain"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "3121-4013-4659",
+     "cards": [
+      "Marionette Master",
+      "Krark-Clan Ironworks",
+      "Eldrazi Displacer"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite blinking",
+      "Infinite colorless mana",
+      "Infinite creature tokens",
+      "Infinite death triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "3910-4013-4659",
+     "cards": [
+      "Breya, Etherium Shaper",
+      "Eldrazi Displacer",
+      "Krark-Clan Ironworks"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite colorless mana",
+      "Infinite damage"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "3910-4659-5003",
+     "cards": [
+      "Nim Deathmantle",
+      "Krark-Clan Ironworks",
+      "Breya, Etherium Shaper"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact tokens",
+      "Infinite colorless mana",
+      "Infinite death triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "4013-4659-4840",
+     "cards": [
+      "Myr Battlesphere",
+      "Eldrazi Displacer",
+      "Krark-Clan Ironworks"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "457-2034-5003",
+     "cards": [
+      "Nim Deathmantle",
+      "Ashnod's Altar",
+      "Urza, Lord High Artificer"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite blue mana",
+      "Infinite colorless mana",
+      "Infinite creature tokens",
+      "Infinite death triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "457-2558-4139",
+     "cards": [
+      "Urza, Lord High Artificer",
+      "Thopter Foundry",
+      "Sword of the Meek"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Cast all spells in your library",
+      "Infinite blue mana",
+      "Infinite creature tokens",
+      "Infinite creature ETB"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "4659-4840-5003",
+     "cards": [
+      "Nim Deathmantle",
+      "Krark-Clan Ironworks",
+      "Myr Battlesphere"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact tokens",
+      "Infinite colorless mana",
+      "Infinite death triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "4659-5003-6757",
+     "cards": [
+      "Nim Deathmantle",
+      "Krark-Clan Ironworks",
+      "Weapons Manufacturing"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite artifact sacrifice triggers",
+      "Infinite creature LTB"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "1020-1976-2034-2866",
+     "cards": [
+      "Scrap Trawler",
+      "Myr Retriever",
+      "Ashnod's Altar",
+      "Etherium Sculptor"
+     ],
+     "n": 4,
+     "infinite": true,
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite artifact sacrifice triggers",
+      "Infinite creature ETB"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "1020-1976-2866-4659",
+     "cards": [
+      "Scrap Trawler",
+      "Myr Retriever",
+      "Krark-Clan Ironworks",
+      "Etherium Sculptor"
+     ],
+     "n": 4,
+     "infinite": true,
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite artifact sacrifice triggers",
+      "Infinite creature ETB"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "1020-2034-2866-4908",
+     "cards": [
+      "Scrap Trawler",
+      "Myr Retriever",
+      "Ashnod's Altar",
+      "Enthusiastic Mechanaut"
+     ],
+     "n": 4,
+     "infinite": true,
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite artifact sacrifice triggers",
+      "Infinite creature ETB"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "1020-2034-2866-4947",
+     "cards": [
+      "Sai, Master Thopterist",
+      "Myr Retriever",
+      "Scrap Trawler",
+      "Ashnod's Altar"
+     ],
+     "n": 4,
+     "infinite": true,
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite colorless mana",
+      "Infinite creature tokens",
+      "Infinite death triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "1020-2034-2866-5202",
+     "cards": [
+      "Efficient Construction",
+      "Myr Retriever",
+      "Scrap Trawler",
+      "Ashnod's Altar"
+     ],
+     "n": 4,
+     "infinite": true,
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite colorless mana",
+      "Infinite creature tokens",
+      "Infinite death triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "1020-2866-4659-4908",
+     "cards": [
+      "Scrap Trawler",
+      "Myr Retriever",
+      "Krark-Clan Ironworks",
+      "Enthusiastic Mechanaut"
+     ],
+     "n": 4,
+     "infinite": true,
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite artifact sacrifice triggers",
+      "Infinite creature ETB"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "1020-2866-4659-4947",
+     "cards": [
+      "Sai, Master Thopterist",
+      "Myr Retriever",
+      "Scrap Trawler",
+      "Krark-Clan Ironworks"
+     ],
+     "n": 4,
+     "infinite": true,
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite colorless mana",
+      "Infinite creature tokens",
+      "Infinite death triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "1020-2866-4659-5202",
+     "cards": [
+      "Efficient Construction",
+      "Myr Retriever",
+      "Scrap Trawler",
+      "Krark-Clan Ironworks"
+     ],
+     "n": 4,
+     "infinite": true,
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite colorless mana",
+      "Infinite creature tokens",
+      "Infinite death triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "228-4013-4659-4840",
+     "cards": [
+      "Myr Battlesphere",
+      "Eldrazi Displacer",
+      "Krark-Clan Ironworks",
+      "Skullclamp"
+     ],
+     "n": 4,
+     "infinite": true,
+     "produces": [
+      "Infinite card draw",
+      "Infinite colorless mana",
+      "Infinite death triggers",
+      "Infinite creature ETB"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "2558-4659-6291-6757",
+     "cards": [
+      "Sword of the Meek",
+      "Weapons Manufacturing",
+      "Stridehangar Automaton",
+      "Krark-Clan Ironworks"
+     ],
+     "n": 4,
+     "infinite": true,
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite creature LTB",
+      "Infinite creature ETB"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "777-1020-2034-2866",
+     "cards": [
+      "Scrap Trawler",
+      "Myr Retriever",
+      "Ashnod's Altar",
+      "Foundry Inspector"
+     ],
+     "n": 4,
+     "infinite": true,
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite artifact sacrifice triggers",
+      "Infinite creature ETB"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "777-1020-2866-4659",
+     "cards": [
+      "Scrap Trawler",
+      "Myr Retriever",
+      "Krark-Clan Ironworks",
+      "Foundry Inspector"
+     ],
+     "n": 4,
+     "infinite": true,
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite artifact sacrifice triggers",
+      "Infinite creature ETB"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    }
+   ],
+   "two_card_infinite": 0,
+   "almost": 485
+  },
+  "chulane-teller-of-tales": {
+   "commander": [
+    "Chulane, Teller of Tales"
+   ],
+   "combos": [
+    {
+     "id": "1636-3314",
+     "cards": [
+      "Chulane, Teller of Tales",
+      "Intruder Alarm"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite creature ETB",
+      "Near-infinite landfall triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "1636-4770",
+     "cards": [
+      "Intruder Alarm",
+      "Whitemane Lion"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite mana creatures you control can produce",
+      "Infinite storm count"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "751-1636",
+     "cards": [
+      "Intruder Alarm",
+      "Shrieking Drake"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Infinite storm count",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite mana creatures you control can produce"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "751-3314-4093",
+     "cards": [
+      "Chulane, Teller of Tales",
+      "Mana Breach",
+      "Shrieking Drake"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite creature ETB",
+      "Near-infinite landfall triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "R"
+    },
+    {
+     "id": "751-1671-3314-3470",
+     "cards": [
+      "Chulane, Teller of Tales",
+      "Shrieking Drake",
+      "Lotus Cobra",
+      "Simic Growth Chamber"
+     ],
+     "n": 4,
+     "infinite": true,
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite creature ETB",
+      "Near-infinite landfall triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "751-1671-3314-3875",
+     "cards": [
+      "Chulane, Teller of Tales",
+      "Shrieking Drake",
+      "Tireless Provisioner",
+      "Simic Growth Chamber"
+     ],
+     "n": 4,
+     "infinite": true,
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite creature ETB",
+      "Near-infinite landfall triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "751-907-3314-3470",
+     "cards": [
+      "Chulane, Teller of Tales",
+      "Shrieking Drake",
+      "Lotus Cobra",
+      "Selesnya Sanctuary"
+     ],
+     "n": 4,
+     "infinite": true,
+     "produces": [
+      "Infinite draw triggers",
+      "Near-infinite creature ETB",
+      "Near-infinite landfall triggers",
+      "Near-infinite creature LTB"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "751-907-3314-3875",
+     "cards": [
+      "Chulane, Teller of Tales",
+      "Shrieking Drake",
+      "Tireless Provisioner",
+      "Selesnya Sanctuary"
+     ],
+     "n": 4,
+     "infinite": true,
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite creature ETB",
+      "Near-infinite landfall triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    }
+   ],
+   "two_card_infinite": 3,
+   "almost": 169
+  },
+  "edgar-markov": {
+   "commander": [
+    "Edgar Markov"
+   ],
+   "combos": [
+    {
+     "id": "110-3966",
+     "cards": [
+      "Marauding Blight-Priest",
+      "Exquisite Blood"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Infinite lifegain triggers",
+      "Infinite lifeloss",
+      "Infinite lifegain"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "110-6191",
+     "cards": [
+      "Marauding Blight-Priest",
+      "Bloodthirsty Conqueror"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Infinite lifegain triggers",
+      "Infinite lifeloss",
+      "Infinite lifegain"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "314-3966",
+     "cards": [
+      "Vito, Thorn of the Dusk Rose",
+      "Exquisite Blood"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Infinite lifegain triggers",
+      "Infinite lifeloss",
+      "Infinite lifegain"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "314-6191",
+     "cards": [
+      "Vito, Thorn of the Dusk Rose",
+      "Bloodthirsty Conqueror"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Infinite lifegain triggers",
+      "Infinite lifeloss",
+      "Infinite lifegain"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "690-3966",
+     "cards": [
+      "Sanguine Bond",
+      "Exquisite Blood"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Infinite lifegain triggers",
+      "Infinite lifeloss",
+      "Infinite lifegain"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "690-6191",
+     "cards": [
+      "Sanguine Bond",
+      "Bloodthirsty Conqueror"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Infinite lifegain triggers",
+      "Infinite lifeloss",
+      "Infinite lifegain"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    }
+   ],
+   "two_card_infinite": 6,
+   "almost": 64
+  },
+  "feather-the-redeemed": {
+   "commander": [
+    "Feather, the Redeemed"
+   ],
+   "combos": [],
+   "two_card_infinite": 0,
+   "almost": 25
+  },
+  "giada-font-of-hope": {
+   "commander": [
+    "Giada, Font of Hope"
+   ],
+   "combos": [],
+   "two_card_infinite": 0,
+   "almost": 10
+  },
+  "gishath-suns-avatar": {
+   "commander": [
+    "Gishath, Sun's Avatar"
+   ],
+   "combos": [
+    {
+     "id": "2062-3356",
+     "cards": [
+      "Polyraptor",
+      "Marauding Raptor"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Draw the game",
+      "Infinite creature tokens",
+      "Infinite creature ETB",
+      "Infinitely powerful creature until end of turn"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "P"
+    },
+    {
+     "id": "2488-3614-7167",
+     "cards": [
+      "Apex Altisaur",
+      "Wrathful Raptors",
+      "Heroic Intervention"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Destroy all creatures opponents control",
+      "Near-infinite damage"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "2488-6778-7167",
+     "cards": [
+      "Apex Altisaur",
+      "Wrathful Raptors",
+      "Akroma's Will"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Destroy all creatures opponents control",
+      "Near-infinite damage"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    }
+   ],
+   "two_card_infinite": 1,
+   "almost": 36
+  },
+  "karador-ghost-chieftain": {
+   "commander": [
+    "Karador, Ghost Chieftain"
+   ],
+   "combos": [
+    {
+     "id": "2281-2292-3175",
+     "cards": [
+      "Saffi Eriksdotter",
+      "Sun Titan",
+      "Viscera Seer"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "2281-2292-4681",
+     "cards": [
+      "Saffi Eriksdotter",
+      "Viscera Seer",
+      "Karmic Guide"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite scry 1"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "2281-2438-3175",
+     "cards": [
+      "Saffi Eriksdotter",
+      "Sun Titan",
+      "Carrion Feeder"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "O"
+    },
+    {
+     "id": "2281-2438-4681",
+     "cards": [
+      "Saffi Eriksdotter",
+      "Carrion Feeder",
+      "Karmic Guide"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "O"
+    },
+    {
+     "id": "2281-3175-5256",
+     "cards": [
+      "Saffi Eriksdotter",
+      "Sun Titan",
+      "Altar of Dementia"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "2281-4681-5256",
+     "cards": [
+      "Saffi Eriksdotter",
+      "Altar of Dementia",
+      "Karmic Guide"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite mill"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "2281-4681-6798",
+     "cards": [
+      "Saffi Eriksdotter",
+      "Umbral Collar Zealot",
+      "Karmic Guide"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite death triggers",
+      "Infinite surveil"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "67-2281-2292",
+     "cards": [
+      "Saffi Eriksdotter",
+      "Reveillark",
+      "Viscera Seer"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "67-2281-2438",
+     "cards": [
+      "Saffi Eriksdotter",
+      "Reveillark",
+      "Carrion Feeder"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "O"
+    },
+    {
+     "id": "67-2281-5256",
+     "cards": [
+      "Saffi Eriksdotter",
+      "Reveillark",
+      "Altar of Dementia"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite mill"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "67-2292-4681",
+     "cards": [
+      "Karmic Guide",
+      "Reveillark",
+      "Viscera Seer"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "67-2438-4681",
+     "cards": [
+      "Karmic Guide",
+      "Reveillark",
+      "Carrion Feeder"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "67-4681-5256",
+     "cards": [
+      "Karmic Guide",
+      "Reveillark",
+      "Altar of Dementia"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite mill"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "3175-4681-4812-5256",
+     "cards": [
+      "Sun Titan",
+      "Karmic Guide",
+      "Animate Dead",
+      "Altar of Dementia"
+     ],
+     "n": 4,
+     "infinite": true,
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite mill"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    }
+   ],
+   "two_card_infinite": 0,
+   "almost": 209
+  },
+  "korvold-fae-cursed-king": {
+   "commander": [
+    "Korvold, Fae-Cursed King"
+   ],
+   "combos": [
+    {
+     "id": "1800-2429",
+     "cards": [
+      "Old Gnawbone",
+      "Revel in Riches"
+     ],
+     "n": 2,
+     "infinite": false,
+     "produces": [
+      "Win the game at the beginning of your next upkeep"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "2429-3340",
+     "cards": [
+      "Bootleggers' Stash",
+      "Revel in Riches"
+     ],
+     "n": 2,
+     "infinite": false,
+     "produces": [
+      "Win the game at the beginning of your next upkeep"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "3000-4871",
+     "cards": [
+      "Chatterfang, Squirrel General",
+      "Pitiless Plunderer"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite artifact sacrifice triggers",
+      "Infinite artifact tokens"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "1385-3000-5670",
+     "cards": [
+      "Warren Soultrader",
+      "Zulaport Cutthroat",
+      "Chatterfang, Squirrel General"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite artifact sacrifice triggers",
+      "Infinite artifact tokens"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "1580-2034-4871",
+     "cards": [
+      "Pitiless Plunderer",
+      "Ashnod's Altar",
+      "Reassembling Skeleton"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "2842-3000-5670",
+     "cards": [
+      "Warren Soultrader",
+      "Blood Artist",
+      "Chatterfang, Squirrel General"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite artifact sacrifice triggers",
+      "Infinite artifact tokens"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "3000-4231-5670",
+     "cards": [
+      "Chatterfang, Squirrel General",
+      "Warren Soultrader",
+      "Academy Manufactor"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite artifact sacrifice triggers",
+      "Infinite artifact tokens"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "865-2034-2429",
+     "cards": [
+      "Mahadi, Emporium Master",
+      "Revel in Riches",
+      "Ashnod's Altar"
+     ],
+     "n": 3,
+     "infinite": false,
+     "produces": [
+      "Win the game at the beginning of your next upkeep"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "865-2292-2429",
+     "cards": [
+      "Mahadi, Emporium Master",
+      "Revel in Riches",
+      "Viscera Seer"
+     ],
+     "n": 3,
+     "infinite": false,
+     "produces": [
+      "Win the game at the beginning of your next upkeep"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "1385-1580-4871-5670",
+     "cards": [
+      "Warren Soultrader",
+      "Pitiless Plunderer",
+      "Zulaport Cutthroat",
+      "Reassembling Skeleton"
+     ],
+     "n": 4,
+     "infinite": true,
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite artifact sacrifice triggers",
+      "Infinite creature ETB"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "1580-2842-4871-5670",
+     "cards": [
+      "Warren Soultrader",
+      "Pitiless Plunderer",
+      "Reassembling Skeleton",
+      "Blood Artist"
+     ],
+     "n": 4,
+     "infinite": true,
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite artifact sacrifice triggers",
+      "Infinite creature ETB"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    }
+   ],
+   "two_card_infinite": 1,
+   "almost": 235
+  },
+  "kozilek-the-great-distortion": {
+   "commander": [
+    "Kozilek, the Great Distortion"
+   ],
+   "combos": [
+    {
+     "id": "4131-4547",
+     "cards": [
+      "Basalt Monolith",
+      "Forsaken Monument"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Infinite colorless mana"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "R"
+    }
+   ],
+   "two_card_infinite": 1,
+   "almost": 16
+  },
+  "krenko-mob-boss": {
+   "commander": [
+    "Krenko, Mob Boss"
+   ],
+   "combos": [
+    {
+     "id": "38-659-1288",
+     "cards": [
+      "Krenko, Mob Boss",
+      "Skirk Prospector",
+      "Goblin Warchief"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite commander casts",
+      "Infinite creature tokens with haste",
+      "Infinite death triggers",
+      "Infinite creature ETB"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "38-659-3954",
+     "cards": [
+      "Krenko, Mob Boss",
+      "Skirk Prospector",
+      "Goblin Chieftain"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite commander casts",
+      "Infinite creature tokens with haste",
+      "Infinite death triggers",
+      "Infinite creature ETB"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "38-659-5295",
+     "cards": [
+      "Krenko, Mob Boss",
+      "Skirk Prospector",
+      "Thousand-Year Elixir"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "38-659-6410",
+     "cards": [
+      "Krenko, Mob Boss",
+      "Skirk Prospector",
+      "Howlsquad Heavy"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    }
+   ],
+   "two_card_infinite": 0,
+   "almost": 70
+  },
+  "krrik-son-of-yawgmoth": {
+   "commander": [
+    "K'rrik, Son of Yawgmoth"
+   ],
+   "combos": [
+    {
+     "id": "1561-2498",
+     "cards": [
+      "Sheoldred, the Apocalypse",
+      "Peer into the Abyss"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Near-infinite card draw for target opponent",
+      "Near-infinite draw triggers for target opponent",
+      "Near-infinite lifeloss for target opponent",
+      "Target opponent loses the game"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "O"
+    },
+    {
+     "id": "1561-3862",
+     "cards": [
+      "Orcish Bowmasters",
+      "Peer into the Abyss"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Near-infinite card draw for target opponent",
+      "Near-infinite damage",
+      "Near-infinite draw triggers for target opponent"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "P"
+    },
+    {
+     "id": "314-3966",
+     "cards": [
+      "Vito, Thorn of the Dusk Rose",
+      "Exquisite Blood"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Infinite lifegain triggers",
+      "Infinite lifeloss",
+      "Infinite lifegain"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "3966-4740",
+     "cards": [
+      "Aetherflux Reservoir",
+      "Exquisite Blood"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Infinite damage",
+      "Infinite lifegain triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "690-3966",
+     "cards": [
+      "Sanguine Bond",
+      "Exquisite Blood"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Infinite lifegain triggers",
+      "Infinite lifeloss",
+      "Infinite lifegain"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "1561-1742-3245",
+     "cards": [
+      "Skirge Familiar",
+      "Peer into the Abyss",
+      "Exsanguinate"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Near-infinite draw triggers",
+      "Near-infinite lifegain",
+      "Near-infinite lifeloss",
+      "Near-infinite looting"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "1742-2498-4691",
+     "cards": [
+      "Sheoldred, the Apocalypse",
+      "Vilis, Broker of Blood",
+      "Skirge Familiar"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite draw triggers",
+      "Near-infinite black mana",
+      "Near-infinite card draw",
+      "Near-infinite lifegain"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "2173-2498-5078",
+     "cards": [
+      "Sensei's Divining Top",
+      "Bolas's Citadel",
+      "Sheoldred, the Apocalypse"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite lifegain",
+      "Near-infinite lifegain triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "2173-4740-5078",
+     "cards": [
+      "Sensei's Divining Top",
+      "Aetherflux Reservoir",
+      "Bolas's Citadel"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite damage",
+      "Near-infinite lifegain"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "P"
+    },
+    {
+     "id": "2358-2498-4691",
+     "cards": [
+      "Sheoldred, the Apocalypse",
+      "Vilis, Broker of Blood",
+      "Blood Celebrant"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite lifegain",
+      "Near-infinite lifegain triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "2498-3260-4691",
+     "cards": [
+      "Sheoldred, the Apocalypse",
+      "Vilis, Broker of Blood",
+      "K'rrik, Son of Yawgmoth"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite lifegain",
+      "Near-infinite lifegain triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "2498-3591-4691",
+     "cards": [
+      "Sheoldred, the Apocalypse",
+      "Vilis, Broker of Blood",
+      "Necropotence"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite lifegain",
+      "Near-infinite lifegain triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "P"
+    },
+    {
+     "id": "970-1656-1742",
+     "cards": [
+      "Asmodeus the Archfiend",
+      "Necrotic Ooze",
+      "Skirge Familiar"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Infinite looting",
+      "Infinite self-discard triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "328-3260-4078-4448",
+     "cards": [
+      "Chainer, Dementia Master",
+      "K'rrik, Son of Yawgmoth",
+      "Gray Merchant of Asphodel",
+      "Dimir House Guard"
+     ],
+     "n": 4,
+     "infinite": true,
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite lifegain",
+      "Infinite lifegain triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "970-1656-2498-3260",
+     "cards": [
+      "Asmodeus the Archfiend",
+      "Necrotic Ooze",
+      "K'rrik, Son of Yawgmoth",
+      "Sheoldred, the Apocalypse"
+     ],
+     "n": 4,
+     "infinite": true,
+     "produces": [
+      "Infinite card draw",
+      "Near-infinite lifegain",
+      "Near-infinite lifegain triggers",
+      "Infinite draw triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    }
+   ],
+   "two_card_infinite": 5,
+   "almost": 71
+  },
+  "kykar-winds-fury": {
+   "commander": [
+    "Kykar, Wind's Fury"
+   ],
+   "combos": [],
+   "two_card_infinite": 0,
+   "almost": 29
+  },
+  "kynaios-and-tiro-of-meletis": {
+   "commander": [
+    "Kynaios and Tiro of Meletis"
+   ],
+   "combos": [],
+   "two_card_infinite": 0,
+   "almost": 54
+  },
+  "lathril-blade-of-the-elves": {
+   "commander": [
+    "Lathril, Blade of the Elves"
+   ],
+   "combos": [],
+   "two_card_infinite": 0,
+   "almost": 20
+  },
+  "muldrotha-the-gravetide": {
+   "commander": [
+    "Muldrotha, the Gravetide"
+   ],
+   "combos": [
+    {
+     "id": "1414-2730-5131-5256",
+     "cards": [
+      "Muldrotha, the Gravetide",
+      "Kaya's Ghostform",
+      "Altar of Dementia",
+      "Lotus Petal"
+     ],
+     "n": 4,
+     "infinite": true,
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite mill"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    }
+   ],
+   "two_card_infinite": 0,
+   "almost": 75
+  },
+  "nekusar-the-mindrazer": {
+   "commander": [
+    "Nekusar, the Mindrazer"
+   ],
+   "combos": [
+    {
+     "id": "1561-1972",
+     "cards": [
+      "Nekusar, the Mindrazer",
+      "Peer into the Abyss"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Near-infinite card draw for target opponent",
+      "Near-infinite damage to one opponent",
+      "Near-infinite draw triggers for target opponent",
+      "Target opponent loses the game"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "P"
+    },
+    {
+     "id": "1561-2384",
+     "cards": [
+      "Psychosis Crawler",
+      "Peer into the Abyss"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Near-infinite lifeloss",
+      "Near-infinite card draw",
+      "Near-infinite draw triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "P"
+    },
+    {
+     "id": "1561-2498",
+     "cards": [
+      "Sheoldred, the Apocalypse",
+      "Peer into the Abyss"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Near-infinite card draw for target opponent",
+      "Near-infinite draw triggers for target opponent",
+      "Near-infinite lifeloss for target opponent",
+      "Target opponent loses the game"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "O"
+    },
+    {
+     "id": "1561-2720",
+     "cards": [
+      "Peer into the Abyss",
+      "Underworld Dreams"
+     ],
+     "n": 2,
+     "infinite": false,
+     "produces": [
+      "Target opponent loses the game"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "O"
+    },
+    {
+     "id": "1561-3862",
+     "cards": [
+      "Orcish Bowmasters",
+      "Peer into the Abyss"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Near-infinite card draw for target opponent",
+      "Near-infinite damage",
+      "Near-infinite draw triggers for target opponent"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "P"
+    },
+    {
+     "id": "1561-5165",
+     "cards": [
+      "Ob Nixilis, the Hate-Twisted",
+      "Peer into the Abyss"
+     ],
+     "n": 2,
+     "infinite": false,
+     "produces": [
+      "Target player loses the game"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "O"
+    },
+    {
+     "id": "1561-5919",
+     "cards": [
+      "Razorkin Needlehead",
+      "Peer into the Abyss"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Near-infinite damage to one opponent",
+      "Near-infinite draw triggers for target opponent",
+      "Near-infinite card draw for target opponent",
+      "Near-infinite lifeloss for target opponent"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "P"
+    }
+   ],
+   "two_card_infinite": 5,
+   "almost": 93
+  },
+  "niv-mizzet-parun": {
+   "commander": [
+    "Niv-Mizzet, Parun"
+   ],
+   "combos": [
+    {
+     "id": "1089-2353",
+     "cards": [
+      "Curiosity",
+      "Niv-Mizzet, Parun"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Infinite draw triggers",
+      "Infinite card draw",
+      "Near-infinite damage"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "1089-4971",
+     "cards": [
+      "Niv-Mizzet, the Firemind",
+      "Curiosity"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite damage"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "2353-2396",
+     "cards": [
+      "Niv-Mizzet, Parun",
+      "Ophidian Eye"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite damage"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "2353-6092",
+     "cards": [
+      "Niv-Mizzet, Parun",
+      "Niv-Mizzet, Visionary"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Near-infinite damage",
+      "Infinite card draw",
+      "Infinite draw triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "2396-4971",
+     "cards": [
+      "Niv-Mizzet, the Firemind",
+      "Ophidian Eye"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite damage"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "406-2353",
+     "cards": [
+      "Tandem Lookout",
+      "Niv-Mizzet, Parun"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite damage"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "406-4971",
+     "cards": [
+      "Niv-Mizzet, the Firemind",
+      "Tandem Lookout"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite damage"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "4971-6092",
+     "cards": [
+      "Niv-Mizzet, the Firemind",
+      "Niv-Mizzet, Visionary"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Near-infinite damage",
+      "Infinite card draw",
+      "Infinite draw triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    }
+   ],
+   "two_card_infinite": 8,
+   "almost": 38
+  },
+  "prosper-tome-bound": {
+   "commander": [
+    "Prosper, Tome-Bound"
+   ],
+   "combos": [
+    {
+     "id": "392-967-5078",
+     "cards": [
+      "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+      "Sensei's Divining Top",
+      "Prosper, Tome-Bound"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Near-infinite draw triggers",
+      "Near-infinite looting",
+      "Near-infinite self-discard triggers",
+      "Near-infinite storm count"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "O"
+    },
+    {
+     "id": "967-2815-5078-5184",
+     "cards": [
+      "Prosper, Tome-Bound",
+      "Professional Face-Breaker",
+      "Sensei's Divining Top",
+      "Xorn"
+     ],
+     "n": 4,
+     "infinite": true,
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite storm count"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    }
+   ],
+   "two_card_infinite": 0,
+   "almost": 46
+  },
+  "saskia-the-unyielding": {
+   "commander": [
+    "Saskia the Unyielding"
+   ],
+   "combos": [],
+   "two_card_infinite": 0,
+   "almost": 33
+  },
+  "selvala-heart-of-the-wilds": {
+   "commander": [
+    "Selvala, Heart of the Wilds"
+   ],
+   "combos": [
+    {
+     "id": "1376-2645",
+     "cards": [
+      "Staff of Domination",
+      "Priest of Titania"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Infinite lifegain",
+      "Infinite lifegain triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "1376-2816",
+     "cards": [
+      "Umbral Mantle",
+      "Priest of Titania"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Infinite green mana",
+      "Infinitely large creature until end of turn",
+      "Infinite untap of creatures you control",
+      "Infinite mana creatures you control can produce"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "2645-3291",
+     "cards": [
+      "Staff of Domination",
+      "Karametra's Acolyte"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Infinite lifegain",
+      "Infinite lifegain triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "2816-3291",
+     "cards": [
+      "Umbral Mantle",
+      "Karametra's Acolyte"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Infinite green mana",
+      "Infinitely large creature until end of turn",
+      "Infinite untap of creatures you control",
+      "Infinite mana creatures you control can produce"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "2816-5711",
+     "cards": [
+      "Umbral Mantle",
+      "Fanatic of Rhonas"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Infinite green mana",
+      "Infinitely large creature until end of turn",
+      "Infinite untap of creatures you control",
+      "Infinite mana creatures you control can produce"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "3291-3657--85",
+     "cards": [
+      "Kogla, the Titan Ape",
+      "Karametra's Acolyte"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite green mana",
+      "Infinite storm count"
+     ],
+     "requires": [
+      "Haste Enabler"
+     ],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "527-2645",
+     "cards": [
+      "Staff of Domination",
+      "Selvala, Heart of the Wilds"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Infinite card draw",
+      "Infinite colored mana",
+      "Infinite draw triggers",
+      "Infinite lifegain"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "527-2816",
+     "cards": [
+      "Umbral Mantle",
+      "Selvala, Heart of the Wilds"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Infinite colored mana",
+      "Infinitely large creature until end of turn",
+      "Infinite untap of creatures you control",
+      "Infinite mana creatures you control can produce"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "539-2900",
+     "cards": [
+      "Ashaya, Soul of the Wild",
+      "Quirion Ranger"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Infinite creature ETB",
+      "Infinite landfall triggers",
+      "Infinite creature LTB",
+      "Infinite storm count"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "1376-3464-3657",
+     "cards": [
+      "Kogla, the Titan Ape",
+      "Hyrax Tower Scout",
+      "Priest of Titania"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite mana creatures you control can produce",
+      "Infinite storm count"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "215-1322-1376",
+     "cards": [
+      "Temur Sabertooth",
+      "Concordant Crossroads",
+      "Priest of Titania"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite blinking of some creatures",
+      "Infinite green mana"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "215-1322-3291",
+     "cards": [
+      "Temur Sabertooth",
+      "Karametra's Acolyte",
+      "Concordant Crossroads"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite blinking of some creatures",
+      "Infinite creature ETB",
+      "Infinite green mana",
+      "Infinite creature LTB"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "215-1322-5711",
+     "cards": [
+      "Temur Sabertooth",
+      "Fanatic of Rhonas",
+      "Concordant Crossroads"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite storm count"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "215-1376-3464",
+     "cards": [
+      "Temur Sabertooth",
+      "Hyrax Tower Scout",
+      "Priest of Titania"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite mana creatures you control can produce",
+      "Infinite storm count"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "215-3291-3464",
+     "cards": [
+      "Temur Sabertooth",
+      "Hyrax Tower Scout",
+      "Karametra's Acolyte"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite mana creatures you control can produce",
+      "Infinite storm count"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "215-527-1322",
+     "cards": [
+      "Temur Sabertooth",
+      "Selvala, Heart of the Wilds",
+      "Concordant Crossroads"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite blinking",
+      "Infinite colored mana"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "215-527-3464",
+     "cards": [
+      "Temur Sabertooth",
+      "Hyrax Tower Scout",
+      "Selvala, Heart of the Wilds"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite mana creatures you control can produce",
+      "Infinite storm count",
+      "Infinite untap of creatures you control"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "215-527-876",
+     "cards": [
+      "Temur Sabertooth",
+      "Selvala, Heart of the Wilds",
+      "Lightning Greaves"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite colored mana",
+      "Infinite storm count"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "3291-3464-3657",
+     "cards": [
+      "Kogla, the Titan Ape",
+      "Hyrax Tower Scout",
+      "Karametra's Acolyte"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite storm count",
+      "Infinite untap of creatures you control"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "460-527-539",
+     "cards": [
+      "Ashaya, Soul of the Wild",
+      "Scryb Ranger",
+      "Selvala, Heart of the Wilds"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite colored mana",
+      "Infinite storm count"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "460-539-1376",
+     "cards": [
+      "Ashaya, Soul of the Wild",
+      "Scryb Ranger",
+      "Priest of Titania"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite creature ETB",
+      "Infinite green mana",
+      "Infinite landfall triggers",
+      "Infinite creature LTB"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "460-539-3291",
+     "cards": [
+      "Ashaya, Soul of the Wild",
+      "Scryb Ranger",
+      "Karametra's Acolyte"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite creature ETB",
+      "Infinite green mana",
+      "Infinite landfall triggers",
+      "Infinite creature LTB"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "460-539-5711",
+     "cards": [
+      "Ashaya, Soul of the Wild",
+      "Scryb Ranger",
+      "Fanatic of Rhonas"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite storm count",
+      "Infinite green mana"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "527-3464-3657",
+     "cards": [
+      "Kogla, the Titan Ape",
+      "Hyrax Tower Scout",
+      "Selvala, Heart of the Wilds"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite storm count",
+      "Infinite untap of creatures you control"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "215-527-1627-1909",
+     "cards": [
+      "Selvala, Heart of the Wilds",
+      "Temur Sabertooth",
+      "Wirewood Symbiote",
+      "Llanowar Elves"
+     ],
+     "n": 4,
+     "infinite": true,
+     "produces": [
+      "Infinite colored mana",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite storm count"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "215-527-1909-4852",
+     "cards": [
+      "Selvala, Heart of the Wilds",
+      "Temur Sabertooth",
+      "Wirewood Symbiote",
+      "Elvish Mystic"
+     ],
+     "n": 4,
+     "infinite": true,
+     "produces": [
+      "Infinite colored mana",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite storm count"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "215-527-1909-4977",
+     "cards": [
+      "Selvala, Heart of the Wilds",
+      "Temur Sabertooth",
+      "Wirewood Symbiote",
+      "Fyndhorn Elves"
+     ],
+     "n": 4,
+     "infinite": true,
+     "produces": [
+      "Infinite colored mana",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite storm count"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    }
+   ],
+   "two_card_infinite": 9,
+   "almost": 208
+  },
+  "talrand-sky-summoner": {
+   "commander": [
+    "Talrand, Sky Summoner"
+   ],
+   "combos": [
+    {
+     "id": "513-5034--46",
+     "cards": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ],
+     "requires": [
+      "Permanent Castable for {C}"
+     ],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "802-1846-2493",
+     "cards": [
+      "High Tide",
+      "Archaeomancer",
+      "Snap"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite storm count"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    }
+   ],
+   "two_card_infinite": 1,
+   "almost": 7
+  },
+  "tatyova-benthic-druid": {
+   "commander": [
+    "Tatyova, Benthic Druid"
+   ],
+   "combos": [
+    {
+     "id": "224-1671-3177",
+     "cards": [
+      "Retreat to Coralhelm",
+      "Simic Growth Chamber",
+      "Sakura-Tribe Scout"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite landfall triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "224-433-1671",
+     "cards": [
+      "Retreat to Coralhelm",
+      "Llanowar Scout",
+      "Simic Growth Chamber"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite landfall triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    }
+   ],
+   "two_card_infinite": 0,
+   "almost": 104
+  },
+  "teysa-karlov": {
+   "commander": [
+    "Teysa Karlov"
+   ],
+   "combos": [
+    {
+     "id": "1580-2018-4050",
+     "cards": [
+      "Luminous Broodmoth",
+      "Phyrexian Altar",
+      "Reassembling Skeleton"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "1580-2034-4871",
+     "cards": [
+      "Pitiless Plunderer",
+      "Ashnod's Altar",
+      "Reassembling Skeleton"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "1580-2393-4050",
+     "cards": [
+      "Reassembling Skeleton",
+      "Phyrexian Altar",
+      "Sifter of Skulls"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "1580-4050-4314",
+     "cards": [
+      "Reassembling Skeleton",
+      "Phyrexian Altar",
+      "Pawn of Ulamog"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "1580-4050-4619",
+     "cards": [
+      "Teysa, Orzhov Scion",
+      "Phyrexian Altar",
+      "Reassembling Skeleton"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "1580-4050-4871",
+     "cards": [
+      "Pitiless Plunderer",
+      "Reassembling Skeleton",
+      "Phyrexian Altar"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "1385-1580-4871-5670",
+     "cards": [
+      "Warren Soultrader",
+      "Pitiless Plunderer",
+      "Zulaport Cutthroat",
+      "Reassembling Skeleton"
+     ],
+     "n": 4,
+     "infinite": true,
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite artifact sacrifice triggers",
+      "Infinite creature ETB"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "1580-2018-2292-4871",
+     "cards": [
+      "Luminous Broodmoth",
+      "Pitiless Plunderer",
+      "Viscera Seer",
+      "Reassembling Skeleton"
+     ],
+     "n": 4,
+     "infinite": true,
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "1580-2018-2438-4871",
+     "cards": [
+      "Luminous Broodmoth",
+      "Pitiless Plunderer",
+      "Reassembling Skeleton",
+      "Carrion Feeder"
+     ],
+     "n": 4,
+     "infinite": true,
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "1580-2018-2921-4871",
+     "cards": [
+      "Luminous Broodmoth",
+      "Pitiless Plunderer",
+      "Reassembling Skeleton",
+      "Bartolom\u00e9 del Presidio"
+     ],
+     "n": 4,
+     "infinite": true,
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "1580-2018-3967-4871",
+     "cards": [
+      "Luminous Broodmoth",
+      "Pitiless Plunderer",
+      "Reassembling Skeleton",
+      "Yahenni, Undying Partisan"
+     ],
+     "n": 4,
+     "infinite": true,
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "1580-2292-4647-4871",
+     "cards": [
+      "Pitiless Plunderer",
+      "Reassembling Skeleton",
+      "Viscera Seer",
+      "Teysa Karlov"
+     ],
+     "n": 4,
+     "infinite": true,
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "1580-2292-4871-5111",
+     "cards": [
+      "Pitiless Plunderer",
+      "Reassembling Skeleton",
+      "Viscera Seer",
+      "Drivnod, Carnage Dominus"
+     ],
+     "n": 4,
+     "infinite": true,
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "1580-2438-4647-4871",
+     "cards": [
+      "Pitiless Plunderer",
+      "Reassembling Skeleton",
+      "Carrion Feeder",
+      "Teysa Karlov"
+     ],
+     "n": 4,
+     "infinite": true,
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "1580-2438-4871-5111",
+     "cards": [
+      "Pitiless Plunderer",
+      "Reassembling Skeleton",
+      "Carrion Feeder",
+      "Drivnod, Carnage Dominus"
+     ],
+     "n": 4,
+     "infinite": true,
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "1580-2842-4871-5670",
+     "cards": [
+      "Warren Soultrader",
+      "Pitiless Plunderer",
+      "Reassembling Skeleton",
+      "Blood Artist"
+     ],
+     "n": 4,
+     "infinite": true,
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite artifact sacrifice triggers",
+      "Infinite creature ETB"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "1580-2921-4647-4871",
+     "cards": [
+      "Pitiless Plunderer",
+      "Reassembling Skeleton",
+      "Bartolom\u00e9 del Presidio",
+      "Teysa Karlov"
+     ],
+     "n": 4,
+     "infinite": true,
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "1580-2921-4871-5111",
+     "cards": [
+      "Pitiless Plunderer",
+      "Reassembling Skeleton",
+      "Bartolom\u00e9 del Presidio",
+      "Drivnod, Carnage Dominus"
+     ],
+     "n": 4,
+     "infinite": true,
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "1580-3025-4871-5670",
+     "cards": [
+      "Warren Soultrader",
+      "Pitiless Plunderer",
+      "Reassembling Skeleton",
+      "Bastion of Remembrance"
+     ],
+     "n": 4,
+     "infinite": true,
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite artifact sacrifice triggers",
+      "Infinite creature ETB"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "1580-3967-4647-4871",
+     "cards": [
+      "Pitiless Plunderer",
+      "Reassembling Skeleton",
+      "Yahenni, Undying Partisan",
+      "Teysa Karlov"
+     ],
+     "n": 4,
+     "infinite": true,
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "1580-3967-4871-5111",
+     "cards": [
+      "Pitiless Plunderer",
+      "Reassembling Skeleton",
+      "Yahenni, Undying Partisan",
+      "Drivnod, Carnage Dominus"
+     ],
+     "n": 4,
+     "infinite": true,
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "1580-4871-5670-6578",
+     "cards": [
+      "Warren Soultrader",
+      "Pitiless Plunderer",
+      "Reassembling Skeleton",
+      "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel"
+     ],
+     "n": 4,
+     "infinite": true,
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite artifact sacrifice triggers",
+      "Infinite creature ETB"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "483-1580-4871-5670",
+     "cards": [
+      "Warren Soultrader",
+      "Pitiless Plunderer",
+      "Cruel Celebrant",
+      "Reassembling Skeleton"
+     ],
+     "n": 4,
+     "infinite": true,
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite artifact sacrifice triggers",
+      "Infinite creature ETB"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    }
+   ],
+   "two_card_infinite": 0,
+   "almost": 302
+  },
+  "the-ur-dragon": {
+   "commander": [
+    "The Ur-Dragon"
+   ],
+   "combos": [
+    {
+     "id": "2855-5982",
+     "cards": [
+      "Dragon Tempest",
+      "Ancient Gold Dragon"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Near-infinite damage"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "380-1110-3362",
+     "cards": [
+      "Miirym, Sentinel Wyrm",
+      "Bladewing the Risen",
+      "Terror of the Peaks"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite death triggers",
+      "Infinite damage"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "O"
+    }
+   ],
+   "two_card_infinite": 1,
+   "almost": 143
+  },
+  "trostani-selesnyas-voice": {
+   "commander": [
+    "Trostani, Selesnya's Voice"
+   ],
+   "combos": [],
+   "two_card_infinite": 0,
+   "almost": 51
+  },
+  "xenagos-god-of-revels": {
+   "commander": [
+    "Xenagos, God of Revels"
+   ],
+   "combos": [
+    {
+     "id": "1800-3750",
+     "cards": [
+      "Aggravated Assault",
+      "Old Gnawbone"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite artifact sacrifice triggers",
+      "Infinite artifact tokens"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "527-3750",
+     "cards": [
+      "Aggravated Assault",
+      "Selvala, Heart of the Wilds"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Infinite colored mana",
+      "Infinite combat phases",
+      "Infinite untap of creatures you control",
+      "Infinite mana creatures you control can produce"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "62-3750",
+     "cards": [
+      "Savage Ventmaw",
+      "Aggravated Assault"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Infinite combat damage",
+      "Infinite combat phases",
+      "Infinite green mana",
+      "Infinite mana creatures you control can produce"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    },
+    {
+     "id": "2560-2863-3059",
+     "cards": [
+      "Xenagos, God of Revels",
+      "Malignus",
+      "Chandra's Ignition"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Near-infinite damage",
+      "Each opponent loses the game"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    }
+   ],
+   "two_card_infinite": 3,
+   "almost": 82
+  },
+  "yidris-maelstrom-wielder": {
+   "commander": [
+    "Yidris, Maelstrom Wielder"
+   ],
+   "combos": [],
+   "two_card_infinite": 0,
+   "almost": 22
+  },
+  "yuriko-the-tigers-shadow": {
+   "commander": [
+    "Yuriko, the Tiger's Shadow"
+   ],
+   "combos": [],
+   "two_card_infinite": 0,
+   "almost": 62
+  },
+  "zur-the-enchanter": {
+   "commander": [
+    "Zur the Enchanter"
+   ],
+   "combos": [
+    {
+     "id": "4053-4551",
+     "cards": [
+      "Solemnity",
+      "Phyrexian Unlife"
+     ],
+     "n": 2,
+     "infinite": false,
+     "produces": [
+      "You can't lose the game due to having 0 or less life",
+      "Lock"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "S"
+    }
+   ],
+   "two_card_infinite": 0,
+   "almost": 38
+  }
+ }
+}
