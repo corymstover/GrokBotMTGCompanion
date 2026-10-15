@@ -3,6 +3,7 @@
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-15 — Bot cycle 10 (Phase 3: Printing History)](#2026-10-15--bot-cycle-10-phase-3-printing-history)
 - [2026-10-15 — Bot cycle 9 (Phase 3: Keyword Encyclopedia complete)](#2026-10-15--bot-cycle-9-phase-3-keyword-encyclopedia-complete)
 - [2026-10-15 — Bot cycle 8 (Phase 2 complete; Phase 3 keyword encyclopedia started)](#2026-10-15--bot-cycle-8-phase-2-complete-phase-3-keyword-encyclopedia-started)
 - [2026-10-15 — Bot cycle 7 (Phase 1 complete; Phase 2 lore depth started)](#2026-10-15--bot-cycle-7-phase-1-complete-phase-2-lore-depth-started)
@@ -12,6 +13,15 @@
 - [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-15 — Bot cycle 10 (Phase 3: Printing History)
+
+> All entries in this section are **Bot cycle 10** (Grok Bot) changes, on branch `bot-cycle10`.
+
+| # | Summary | Files affected | Reason |
+|---|---|---|---|
+| 10.1 | Bot cycle 10: **Printing History** for [#40](https://github.com/corymstover/GrokBotMTGCompanion/issues/40). One CSV row per card entry (33,894) with paper/digital printing counts, first/latest set, longest gap, set-type mix and Reserved List flag. The Markdown page covers distribution, most-printed cards, longest gaps, single-printing Commander staples and the Reserved List (571 entries). Kept outside card shards so entries stay compact. | `Printing History.md`, `data/printings_summary.csv`, `scripts/build_printings.py` | #40 |
+| 10.2 | Bot cycle 10: README, Progress Tracker, Knowledge Index, ROADMAP, Update Log (#40 ✅; Phase 3 continues with #41–#43). | `README.md`, `Progress Tracker.md`, `Knowledge Index.md`, `ROADMAP.md`, `Update Log.md` | docs |
 
 ## 2026-10-15 — Bot cycle 9 (Phase 3: Keyword Encyclopedia complete)
 
