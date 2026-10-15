@@ -655,7 +655,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4542 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2017-02-09* — A permanent card is an artifact, creature, enchantment, land, or planeswalker card.
-- **Referenced in:** 3 pages (1 decks · 1 lore & story · 1 card data) → [reverse index](../../references/P.md#planar-bridge)
+- **Referenced in:** 4 pages (1 decks · 2 lore & story · 1 card data) → [reverse index](../../references/P.md#planar-bridge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/313/planar-bridge) · oracle_id `853c6cc0-ed2b-4d65-add1-2449ade8cf68` · printing: 2X2 #313 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Planar Chaos

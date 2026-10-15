@@ -42,6 +42,7 @@ PAGES = {
     "Characters Index.md": ("lore", ["characters", "status", "planeswalkers"], [7, 11, 20], None, ["wizards-story"]),
     "Conflicts & Arcs.md": ("lore", ["arcs", "conflicts"], [7, 13, 34, 72, 73], None, ["wizards-story"]),
     "Contradictions & Retcons Log.md": ("lore", ["retcons", "contradictions", "canon"], [73, 76], None, ["wizards-story"]),
+    "Items & Artifacts Index.md": ("lore", ["items", "artifacts", "relics"], [75], None, ["wizards-story"]),
     "Lore Primary Sources.md": ("lore", ["sources", "primary", "planeswalkers-guide", "story-episodes"], [73], "scripts/build_primary_sources.py", ["wizards-story"]),
     "EDH Archetypes.md": ("edh", ["archetypes", "strategy"], [16, 19], "scripts/build_archetypes.py", ["scryfall", "edhrec", "spellbook"]),
     "EDH Interaction.md": ("edh", ["removal", "interaction", "stax"], [28], "scripts/build_interaction.py", ["scryfall", "edhrec"]),

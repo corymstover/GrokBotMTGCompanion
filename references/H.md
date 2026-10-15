@@ -637,10 +637,10 @@ schema: 2
 
 ### Hedron Archive
 
-[Card entry](../cards/H/he.md#hedron-archive) · **5 pages** (decks 3 · lore & story 1 · card data 1)
+[Card entry](../cards/H/he.md#hedron-archive) · **6 pages** (decks 3 · lore & story 2 · card data 1)
 
 - **Decks (3):** [Kozilek, the Great Distortion](../decks/kozilek-the-great-distortion.md) · [Nahiri, the Lithomancer](../decks/lore-nahiri-the-lithomancer.md) · [Omnath, Locus of Rage (Zendikar-only)](../decks/plane-zendikar-omnath-locus-of-rage.md)
-- **Lore & story (1):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages)
+- **Lore & story (2):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Items & Artifacts Index → Hedrons](../Items%20%26%20Artifacts%20Index.md#hedrons)
 - **Card data (1):** [Artist Index → Artists H](../Artist%20Index.md#artists-h)
 
 ### Hedron Blade
@@ -821,10 +821,10 @@ schema: 2
 
 ### Helvault
 
-[Card entry](../cards/H/he.md#helvault) · **2 pages** (decks 1 · lore & story 1)
+[Card entry](../cards/H/he.md#helvault) · **3 pages** (decks 1 · lore & story 2)
 
 - **Decks (1):** [Nahiri, the Lithomancer](../decks/lore-nahiri-the-lithomancer.md)
-- **Lore & story (1):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages)
+- **Lore & story (2):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Items & Artifacts Index → Helvault](../Items%20%26%20Artifacts%20Index.md#helvault)
 
 ### Hemosymbic Mite
 

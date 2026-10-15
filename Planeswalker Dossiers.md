@@ -18,7 +18,7 @@ schema: 2
 ## Contents
 - [Jace Beleren](#jace-beleren) · [Chandra Nalaar](#chandra-nalaar) · [Nissa Revane](#nissa-revane) · [Liliana Vess](#liliana-vess) · [Elspeth Tirel](#elspeth-tirel) · [Karn](#karn) · [Teferi](#teferi)
 - [Ajani Goldmane](#ajani-goldmane) · [Kaya](#kaya) · [Kaito Shizuki](#kaito-shizuki) · [Vraska](#vraska) · [Tamiyo](#tamiyo) · [Sarkhan Vol](#sarkhan-vol)
-- [Gideon Jura](#gideon-jura) · [Nahiri](#nahiri) · [Sorin Markov](#sorin-markov) · [Ugin](#ugin) · [Nicol Bolas](#nicol-bolas) · [Ral Zarek](#ral-zarek) · [Oko](#oko) · [Tezzeret](#tezzeret) *(Bot cycle 8)* · [Tam](#tam) *(Bot cycle 24)* · Chandra, Nissa, Liliana and Gideon extended *(Bot cycle 25)*
+- [Gideon Jura](#gideon-jura) · [Nahiri](#nahiri) · [Sorin Markov](#sorin-markov) · [Ugin](#ugin) · [Nicol Bolas](#nicol-bolas) · [Ral Zarek](#ral-zarek) · [Oko](#oko) · [Tezzeret](#tezzeret) *(Bot cycle 8)* · [Tam](#tam) *(Bot cycle 24)* · Chandra, Nissa, Liliana and Gideon extended *(Bot cycle 25)* · Kaya, Teferi, Karn, Sorin, Nahiri, Ral and Tezzeret extended *(Bot cycle 26)*
 - [Spark & allegiance summary](#spark--allegiance-summary)
 - [Character cards (name-matched)](#character-cards-name-matched)
 
@@ -120,7 +120,10 @@ schema: 2
 
 | When (story) | Event | Source |
 |---|---|---|
+| Dominaria (2018) *(Bot cycle 26)* | Digs up the sylex: "It was created by Urza to help defeat the Phyrexians. I intend to take it to New Phyrexia and detonate it there." Later: "I need to take the Sylex to destroy New Phyrexia before the Phyrexians return to Dominaria." | [RtD Ep. 9](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-9-2018-05-09) · [Ep. 11](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-11-2018-05-23) |
+| WAR (2019) *(Bot cycle 26)* | Returns from Amonkhet with the Spear of Hazoret; in battle "I saw Mister Karn crush an Eternal's head between his two metal hands". | [WAR: Ashes](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12) |
 | DMU (2022) | Captured by Norn, who shows him Realmbreaker's sapling: "It is the beginning of great things, Father." | [DMU Ep. 5](https://magic.wizards.com/en/news/magic-story/episode-5-whisper-wind-2022-08-18) |
+| BRO (2022) *(Bot cycle 26)* | On New Phyrexia, "Karn did not speak, did not complain while hooks and razors … prodded his mangled body"; Tezzeret watches the dissection. | [BRO Ch. 3](https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-3-nemesis) |
 | MOM (2023) | Rescued; kills Elesh Norn himself ("the smallest way he can take responsibility"); crosses to Zhalfir. | [MOM Ep. 7](https://magic.wizards.com/en/news/magic-story/episode-7-divine-intervention) · [Ep. 9](https://magic.wizards.com/en/news/magic-story/episode-9-the-old-sins-of-new-phyrexia) |
 | MOM (2023) | "Karn's given up his spark." | [MOM Ep. 10](https://magic.wizards.com/en/news/magic-story/episode-10-the-rhythms-of-life) |
 
@@ -129,11 +132,13 @@ schema: 2
 
 ## Teferi
 **Identity:** "A centuries-old hero … who once saved his homeland from war by phasing it out of time." He lost his spark, "raise[d] a family", then reclaimed his spark ([profile](https://magic.wizards.com/en/story/teferi-planeswalker)).
-**Spark moment:** ❓ The original ignition isn't in the fetched sources. Spark lost, later reclaimed ([profile](https://magic.wizards.com/en/story/teferi-planeswalker)), and it faded after the invasion ([She Who Breaks the World](https://magic.wizards.com/en/news/magic-story/she-who-breaks-the-world)).
+**Spark moment:** ❓ The original ignition isn't in the fetched sources. Spark lost, later reclaimed ([profile](https://magic.wizards.com/en/story/teferi-planeswalker); reclaimed during the 2018 Dominaria story: "One of the reasons I took my spark back was to come with you", [RtD Ep. 11](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-11-2018-05-23)), and it faded after the invasion ([She Who Breaks the World](https://magic.wizards.com/en/news/magic-story/she-who-breaks-the-world)).
 
 | When (story) | Event | Source |
 |---|---|---|
 | Past | Phases Zhalfir out of time; loses his spark; reclaims it. | [profile](https://magic.wizards.com/en/story/teferi-planeswalker) |
+| Dominaria (2018) *(Bot cycle 26)* | Mortal at first; on giving up his spark: "I regret a lot of things. But not that." Then: "One of the reasons I took my spark back was to come with you. I know Bolas, and I know his plans will include my home." | [RtD Ep. 10](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-10-2018-05-16) · [Ep. 11](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-11-2018-05-23) |
+| BRO (2022) *(Bot cycle 26)* | In the Temporal Anchor's "coffin", "By extending her ghostform over the coffin with Teferi inside, Kaya could render him entirely incorporeal"; it "projected a person's spirit backward in time". Ends stranded in the past: "Teferi put his back to the ocean and started walking inland." | [BRO Ch. 2](https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-2-antiquities) · [Ch. 5](https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-5-exodus) |
 | BRO (2022) | Time-travels to recover the sylex. | [BRO Ep. 5](https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-5-as-cruel-as-necessary) |
 | MOM (2023) | Zhalfir returns through the Invasion Tree. Teferi "spent hundreds of years trying to restore his home". | [MOM Ep. 8](https://magic.wizards.com/en/news/magic-story/episode-8-wrenn-and-eight) · [Ep. 10](https://magic.wizards.com/en/news/magic-story/episode-10-the-rhythms-of-life) |
 | MAT (2023) | "Teferi's spark had faded". | [She Who Breaks the World](https://magic.wizards.com/en/news/magic-story/she-who-breaks-the-world) |
@@ -163,10 +168,12 @@ schema: 2
 
 | When (story) | Event | Source |
 |---|---|---|
+| WAR (2019) *(Bot cycle 26)* | Tries "to rally the Orzhov to fight Bolas and his Eternals"; swears: "Never again. For the living and the dead, I will keep watch." Afterwards the guilds hire her to assassinate Liliana. | [WAR: Rallying the Reluctant](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-rallying-reluctant-2019-05-22) · [WAR: Ashes](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12) |
+| BRO (2022) *(Bot cycle 26)* | Powers Teferi's time travel with her ghostform; tells Nissa, "We're close," … "but we need more time." | [BRO Ch. 2](https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-2-antiquities) · [Ch. 5](https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-5-exodus) |
 | ONE (2023) | Strike team member; carries the bag to Norn's altar; refuses Norn: "Go to hell." | [ONE Ep. 3](https://magic.wizards.com/en/news/magic-story/assault-on-new-phyrexia-or-episode-3-inconceivable-losses) · [Ep. 5](https://magic.wizards.com/en/news/magic-story/assault-on-new-phyrexia-or-episode-5-inevitable-resolutions) |
 | MKM (2024) | Investigates Teysa's murder; breaks free of the Worldsoul with her spark; leaves Ravnica. | [MKM Ep. 4](https://magic.wizards.com/en/news/magic-story/episode-4-justice-before-mercy) · [Ep. 10](https://magic.wizards.com/en/news/magic-story/episode-10-roots-of-decay) |
 
-**Allegiances:** Orzhov ties. In MKM, "Teysa had forgiven part of it by taking over the leadership of the guild" ([MKM Ep. 10](https://magic.wizards.com/en/news/magic-story/episode-10-roots-of-decay)). Close friend of Teysa. ❓ The fetched sources don't explain her earlier guild role.
+**Allegiances:** Gatewatch oath in WAR (above). Orzhov ties. In MKM, "Teysa had forgiven part of it by taking over the leadership of the guild" ([MKM Ep. 10](https://magic.wizards.com/en/news/magic-story/episode-10-roots-of-decay)). Close friend of Teysa. ❓ The fetched sources don't explain her earlier guild role.
 **Status:** [Characters Index → Kaya](Characters%20Index.md#kaya).
 
 ## Kaito Shizuki
@@ -249,9 +256,11 @@ schema: 2
 | When (story) | Event | Source |
 |---|---|---|
 | Ancient | With Ugin and Sorin, traps the Eldrazi on Zendikar ("Six thousand years before …"). | [Stone and Blood](https://magic.wizards.com/en/news/magic-story/stone-and-blood-2016-06-15) |
+| ~1,000 years ago *(Bot cycle 26)* | "The imprisonment of the Eldrazi had become her life's work." When "the Eldrazi nearly escaped over a thousand years ago, and neither Sorin nor Ugin came," she seeks Sorin on Innistrad and finds the Helvault, "a massive, rough-hewn chunk of silver, forty feet tall at least". | [Stone and Blood](https://magic.wizards.com/en/news/magic-story/stone-and-blood-2016-06-15) |
 | EMN (2016) | After "the millennium spent trapped in the Helvault", swears revenge on Sorin; "Thanks to Nahiri's machinations", Emrakul is unleashed on Innistrad. | [Stone and Blood](https://magic.wizards.com/en/news/magic-story/stone-and-blood-2016-06-15) · [Campaign of Vengeance](https://magic.wizards.com/en/news/magic-story/campaign-vengeance-2016-07-06) · [Innistrad's Last Hope](https://magic.wizards.com/en/news/magic-story/innistrads-last-hope-2016-06-29) |
 | ZNR (2020) | On Zendikar with Nissa in the hunt for the Skyclave. | [ZNR Ep. 1](https://magic.wizards.com/en/news/magic-story/episode-1-heart-skyclave-2020-09-02) |
 | ONE/MOM (2023) | Sacrifices herself on New Phyrexia and returns compleated, leading the invasion of Zendikar. | [ONE Ep. 4](https://magic.wizards.com/en/news/magic-story/assault-on-new-phyrexia-or-episode-4-impossible-odds) · [MOM: Battles in the Field](https://magic.wizards.com/en/news/magic-story/battles-in-the-field-and-in-the-mind) |
+| MAT (2023) *(Bot cycle 26)* | "She was no longer a Planeswalker"; she finds her spark fueling a Skyclave engine, guarded by "an instinctive protection her spark had grown to protect itself"; Ajani arrives. | [Beyond Repair](https://magic.wizards.com/en/news/magic-story/beyond-repair) |
 | MAT (2023) | Survives, diminished: "No Planeswalker will set foot on Zendikar ever again." | [Beyond Repair](https://magic.wizards.com/en/news/magic-story/beyond-repair) |
 
 **Allegiances:** Zendikar above all. An enemy of Sorin since the Helvault.
@@ -264,6 +273,8 @@ schema: 2
 | When (story) | Event | Source |
 |---|---|---|
 | Ancient | Helps bind the Eldrazi on Zendikar, then imprisons Nahiri in the Helvault. | [Stone and Blood](https://magic.wizards.com/en/news/magic-story/stone-and-blood-2016-06-15) · [Campaign of Vengeance](https://magic.wizards.com/en/news/magic-story/campaign-vengeance-2016-07-06) |
+| Helvault era *(Bot cycle 26)* | Greets Nahiri at the Helvault: "You'll have to forgive my rudimentary attempt at shaping stone, young one." | [Stone and Blood](https://magic.wizards.com/en/news/magic-story/stone-and-blood-2016-06-15) |
+| SOI (2016) *(Bot cycle 26)* | Sought by Jace: "Jace Beleren has come to Innistrad searching for the vampire lord Sorin Markov." After Avacyn's death Tamiyo warns, "The plane has lost its protector." | [Unwelcome](https://magic.wizards.com/en/news/magic-story/unwelcome-2016-03-16) · [I Am Avacyn](https://magic.wizards.com/en/news/magic-story/i-am-avacyn-2016-05-18) |
 | SOI (2016) | Confronts the mad Avacyn; "the unmaking of Avacyn". | [I Am Avacyn](https://magic.wizards.com/en/news/magic-story/i-am-avacyn-2016-05-18) · [Campaign of Vengeance](https://magic.wizards.com/en/news/magic-story/campaign-vengeance-2016-07-06) |
 | EMN (2016) | Loses the duel with Nahiri, mocked by Olivia: "you're where you are." | [Campaign of Vengeance](https://magic.wizards.com/en/news/magic-story/campaign-vengeance-2016-07-06) |
 | VOW (2021) | The episode in which Olivia's wedding ("You're ruining my wedding day!") is crashed; his turning is recalled. | [VOW Ep. 4](https://magic.wizards.com/en/news/magic-story/episode-4-wedding-crashers-2021-11-17) |
@@ -305,6 +316,7 @@ schema: 2
 
 | When (story) | Event | Source |
 |---|---|---|
+| WAR (2019) *(Bot cycle 26)* | Needs Hekara "to activate the Beacony-Beacon to summon the uber-troopers to fight the evil dragon"; before the final assault he tells Tomik, "You're not a fighter." | [Old Friends and New](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-old-friends-and-new-2019-05-08) · [WAR: Ashes](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12) |
 | WAR (2019) | "Master Zarek" helps rally Ravnica; afterward hired to hunt Tezzeret. | [Old Friends and New](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-old-friends-and-new-2019-05-08) · [Ashes](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12) |
 | MOM (2023) | Fights on Ravnica as Realmbreaker sinks in, with Tomik. | [One and the Same](https://magic.wizards.com/en/news/magic-story/one-and-the-same) |
 | MKM (2024) | Survives the fight with the Worldsoul: "Tomik is going to kill me." | [MKM Ep. 10](https://magic.wizards.com/en/news/magic-story/episode-10-roots-of-decay) |
@@ -334,7 +346,9 @@ schema: 2
 | When (story) | Event | Source |
 |---|---|---|
 | KLD/AER (2016–17) | Installs himself as Grand Consul and builds the Planar Bridge, then flees: "run home to his master". | [Revolution Begins](https://magic.wizards.com/en/news/magic-story/revolution-begins-2017-01-02) · [Puppets](https://magic.wizards.com/en/news/magic-story/puppets-2017-01-25) |
+| AER (2017) *(Bot cycle 26)* | Liliana hunts him ("Tezzeret had to die"); afterwards "He's either buried in this rubble or run home to his master". | [Puppets](https://magic.wizards.com/en/news/magic-story/puppets-2017-01-25) |
 | HOU (2017) | Arrives after the Gatewatch's defeat: "You're late," says Bolas. "No, master, I did not doubt." | [Hour of Devastation](https://magic.wizards.com/en/news/magic-story/hour-devastation-2017-07-26) |
+| BRO (2022) *(Bot cycle 26)* | On New Phyrexia, overseeing Karn's dissection; "Without thinking, Tezzeret placed his hand on his chest, the resting place of the Planar Bridge." Of the Phyrexians: "We make our own cages." | [BRO Ch. 3](https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-3-nemesis) |
 | WAR (2019) | Ral is hired to hunt him. | [Ashes](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12) |
 | EOE (2025) | Called "the Metalman" ("He's a wizard"); delivers the Endstone: "Tezzeret's mission is complete." | [EOE Ep. 8](https://magic.wizards.com/en/news/magic-story/edge-of-eternities-episode-8) · [Ep. 11](https://magic.wizards.com/en/news/magic-story/edge-of-eternities-episode-11) |
 

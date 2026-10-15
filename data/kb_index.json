@@ -1,7 +1,7 @@
 {
 "schema": 1,
 "generated_by": "scripts/kb_find.py --build",
-"entries": 165,
+"entries": 166,
 "note": "Pages and decks only; card entries are indexed by data/card_index.csv.",
 "items": [
 {
@@ -1308,6 +1308,21 @@
 ],
 [
 2,
+"Added Bot cycle 26",
+"added-bot-cycle-26"
+],
+[
+3,
+"The sylex plan: Karn (2018) vs the invasion copy",
+"the-sylex-plan-karn-2018-vs-the-invasion-copy"
+],
+[
+3,
+"The Immortal Sun: built for Torrezon, found in Orazca",
+"the-immortal-sun-built-for-torrezon-found-in-orazca"
+],
+[
+2,
 "Queue for later cycles",
 "queue-for-later-cycles"
 ],
@@ -1327,7 +1342,7 @@
 "Master Timeline.md",
 "Planes Index.md",
 "Planeswalker Dossiers.md",
-"Lore Primary Sources.md"
+"Items & Artifacts Index.md"
 ]
 },
 {
@@ -3645,6 +3660,112 @@
 ]
 },
 {
+"path": "Items & Artifacts Index.md",
+"kind": "page",
+"title": "Items & Artifacts Index",
+"category": "lore",
+"tags": [
+"items",
+"artifacts",
+"relics"
+],
+"headings": [
+[
+2,
+"Artifacts",
+"artifacts"
+],
+[
+3,
+"Golgothian Sylex",
+"golgothian-sylex"
+],
+[
+3,
+"Blackblade",
+"blackblade"
+],
+[
+3,
+"Immortal Sun",
+"immortal-sun"
+],
+[
+3,
+"Chain Veil",
+"chain-veil"
+],
+[
+3,
+"Godsend & Khrusor",
+"godsend--khrusor"
+],
+[
+3,
+"Helvault",
+"helvault"
+],
+[
+3,
+"Hedrons",
+"hedrons"
+],
+[
+3,
+"Planar Bridge",
+"planar-bridge"
+],
+[
+3,
+"Spear of Hazoret",
+"spear-of-hazoret"
+],
+[
+3,
+"Temporal Anchor",
+"temporal-anchor"
+],
+[
+3,
+"Ozolith",
+"ozolith"
+],
+[
+3,
+"Endstone",
+"endstone"
+],
+[
+2,
+"Spells & world-scale magic",
+"spells--world-scale-magic"
+],
+[
+3,
+"Elderspell",
+"elderspell"
+],
+[
+3,
+"Realmbreaker, the Invasion Tree",
+"realmbreaker-the-invasion-tree"
+],
+[
+2,
+"Queue",
+"queue"
+]
+],
+"issues": [
+"75"
+],
+"related": [
+"Conflicts & Arcs.md",
+"Contradictions & Retcons Log.md",
+"Lore Primary Sources.md"
+]
+},
+{
 "path": "Keyword Encyclopedia.md",
 "kind": "page",
 "title": "Keyword Encyclopedia",
@@ -4069,6 +4190,7 @@
 "Conflicts & Arcs.md",
 "Side-Media Index.md",
 "Contradictions & Retcons Log.md",
+"Items & Artifacts Index.md",
 "Planeswalker Dossiers.md"
 ]
 },
@@ -4346,6 +4468,26 @@
 3,
 "Ixalan",
 "ixalan"
+],
+[
+3,
+"Innistrad",
+"innistrad"
+],
+[
+3,
+"Zendikar (Eldrazi era)",
+"zendikar-eldrazi-era"
+],
+[
+3,
+"Theros",
+"theros"
+],
+[
+3,
+"Tarkir",
+"tarkir"
 ],
 [
 2,
@@ -4643,10 +4785,10 @@
 "related": [
 "Front-Matter Schema.md",
 "EDH Lore-Themed Deckbuilding.md",
+"Items & Artifacts Index.md",
 "Lookup Guide.md",
 "Lore Primary Sources.md",
-"Planeswalker Dossiers.md",
-"Progress Tracker.md"
+"Planeswalker Dossiers.md"
 ]
 },
 {
@@ -5152,6 +5294,11 @@
 "headings": [
 [
 2,
+"2026-10-15 — Bot cycle 26 (Phase 6: dossiers, planes, items index)",
+"2026-10-15--bot-cycle-26-phase-6-dossiers-planes-items-index"
+],
+[
+2,
 "2026-10-15 — Bot cycle 25 (Phase 6: last six arcs, episode upgrades, dossiers)",
 "2026-10-15--bot-cycle-25-phase-6-last-six-arcs-episode-upgrades-dossiers"
 ],
@@ -5283,7 +5430,7 @@
 "Conflicts & Arcs.md",
 "Front-Matter Schema.md",
 "Lore Primary Sources.md",
-"EDH Deck Evaluation Checklist.md"
+"Planeswalker Dossiers.md"
 ]
 },
 {
@@ -29237,6 +29384,11 @@
 ],
 [
 3,
+"Godsend",
+"godsend"
+],
+[
+3,
 "Godsire",
 "godsire"
 ],
@@ -43021,6 +43173,11 @@
 3,
 "Reality Twist",
 "reality-twist"
+],
+[
+3,
+"Realmbreaker, the Invasion Tree",
+"realmbreaker-the-invasion-tree"
 ],
 [
 3,

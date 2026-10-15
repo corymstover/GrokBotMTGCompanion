@@ -54,7 +54,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2650 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-01-19* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#the-immortal-sun)
+- **Referenced in:** 2 pages (1 decks · 1 lore & story) → [reverse index](../../references/T.md#the-immortal-sun)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/393/the-immortal-sun) · oracle_id `52232aad-e4ca-4551-8c8d-c69a3b6b49c7` · printing: CMM #393 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Immortal Weapons

@@ -5,7 +5,7 @@ tags: [retcons, contradictions, canon]
 issues: [73, 76]
 generated_by: hand-written
 sources: [wizards-story]
-related: ["Conflicts & Arcs.md", "Characters Index.md", "Master Timeline.md", "Planes Index.md", "Planeswalker Dossiers.md", "Lore Primary Sources.md"]
+related: ["Conflicts & Arcs.md", "Characters Index.md", "Master Timeline.md", "Planes Index.md", "Planeswalker Dossiers.md", "Items & Artifacts Index.md"]
 schema: 2
 ---
 
@@ -39,6 +39,9 @@ schema: 2
   - [Rivals of Ixalan alternate endings vs LCI canon](#rivals-of-ixalan-alternate-endings-vs-lci-canon)
   - [Spark loss after the invasion (MAT → LCI)](#spark-loss-after-the-invasion-mat--lci)
   - [Teferi's spark: given up, then a Planeswalker again](#teferis-spark-given-up-then-a-planeswalker-again)
+- [Added Bot cycle 26](#added-bot-cycle-26)
+  - [The sylex plan: Karn (2018) vs the invasion copy](#the-sylex-plan-karn-2018-vs-the-invasion-copy)
+  - [The Immortal Sun: built for Torrezon, found in Orazca](#the-immortal-sun-built-for-torrezon-found-in-orazca)
 - [Queue for later cycles](#queue-for-later-cycles)
 - [Open / do-not-resolve](#open--do-not-resolve)
 
@@ -221,17 +224,38 @@ Retcon-queue pass and 2015–2023 arc upgrades ([#72](https://github.com/corymst
 ### Teferi's spark: given up, then a Planeswalker again
 | Field | Detail |
 |---|---|
-| **Type** | ❓ open (a spark is surrendered and later present again) |
+| **Type** | 📝 clarification — *resolved Bot cycle 26* (was ❓ open in cycle 25) |
 | **Earlier statement** | In Dominaria (2018) Jhoira asks, "So you don't regret it, then. Giving up your spark?" Teferi: "I regret a lot of things. But not that." ([RtD Ep. 10](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-10-2018-05-16)). |
-| **Later / overriding statement** | Teferi is a Planeswalker again in the invasion era, and after the invasion "Teferi's spark had faded sometime after the invasion" ([She Who Breaks the World](https://magic.wizards.com/en/news/magic-story/she-who-breaks-the-world)). |
-| **KB treatment** | Teferi: mortal at the start of DOM (2018), a Planeswalker again by the invasion, and sparkless after MAT. ❓ The story moment his spark returned is not in the fetched sources, so the KB does not date it. |
+| **Later / overriding statement** | One episode later: "One of the reasons I took my spark back was to come with you. I know Bolas, and I know his plans will include my home, sooner or later" ([RtD Ep. 11](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-11-2018-05-23)). After the invasion, "Teferi's spark had faded sometime after the invasion" ([She Who Breaks the World](https://magic.wizards.com/en/news/magic-story/she-who-breaks-the-world)). |
+| **KB treatment** | Teferi: mortal early in DOM (2018), Planeswalker again from DOM Ep. 11, sparkless after MAT. ❓ The reclaiming scene itself happens off-page between Ep. 10 and Ep. 11. |
 | **Related** | [Planeswalker Dossiers → Teferi](Planeswalker%20Dossiers.md#teferi) · [Conflicts → DOM/WAR](Conflicts%20%26%20Arcs.md#return-to-dominaria--war-of-the-spark) |
+
+## Added Bot cycle 26
+Dossier, plane and items pass ([#74](https://github.com/corymstover/GrokBotMTGCompanion/issues/74), [#75](https://github.com/corymstover/GrokBotMTGCompanion/issues/75), [#76](https://github.com/corymstover/GrokBotMTGCompanion/issues/76)). Every quote below was checked verbatim against the fetched text.
+
+### The sylex plan: Karn (2018) vs the invasion copy
+| Field | Detail |
+|---|---|
+| **Type** | 🔄 in-world change of plan |
+| **Earlier statement** | Karn digs up the sylex on Dominaria: "I intend to take it to New Phyrexia and detonate it there"; "I need to take the Sylex to destroy New Phyrexia before the Phyrexians return to Dominaria" ([RtD Ep. 9](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-9-2018-05-09); [Ep. 11](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-11-2018-05-23)). |
+| **Later / overriding statement** | In the invasion era the strike team instead made "their own copy of the Golgothian sylex," aiming to "detonate it and destroy the Invasion Tree, preventing New Phyrexia from connecting to other planes" ([PW Guide to MOM](https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-march-of-the-machine)); Teferi travels back for information on "how to use the sylex" ([BRO Ch. 5](https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-5-exodus)). |
+| **KB treatment** | Not a contradiction: the target shifts from New Phyrexia itself (2018 plan) to the Invasion Tree (2022–23), and the weapon used is a copy. ❓ What became of the original 2018 sylex is not stated in the fetched sources. |
+| **Related** | [Items → Golgothian Sylex](Items%20%26%20Artifacts%20Index.md#golgothian-sylex) · [Conflicts → BRO frame](Conflicts%20%26%20Arcs.md#the-brothers-war-frame-story-2022) · [Conflicts → MOM](Conflicts%20%26%20Arcs.md#march-of-the-machine-2023) |
+
+### The Immortal Sun: built for Torrezon, found in Orazca
+| Field | Detail |
+|---|---|
+| **Type** | ❓ open (location as planned vs as found) |
+| **Earlier statement** | In the *Sabotage* flashback Azor says, "I will build the Immortal Sun there, on the continent of Torrezon" ([Sabotage](https://magic.wizards.com/en/news/magic-story/sabotage-2018-01-31)). |
+| **Later / overriding statement** | The profile: "Secure in the ancient golden city of Orazca, the Immortal Sun" ([Ixalan profile](https://magic.wizards.com/en/story/ixalan-plane)); Orazca is on the continent of Ixalan. |
+| **KB treatment** | Canon location for the XLN/RIX story = Orazca, Ixalan. ❓ The fetched text records Azor's stated plan but does not explain the change; do not invent one. |
+| **Related** | [Items → Immortal Sun](Items%20%26%20Artifacts%20Index.md#immortal-sun) · [Conflicts → Ixalan](Conflicts%20%26%20Arcs.md#ixalan--the-immortal-sun) |
 
 ## Queue for later cycles
 | Candidate | Why queued | Needed sources |
 |---|---|---|
 | Weatherlight / Invasion-block novel continuity vs modern plane profiles | Profiles summarize; novels not fetched ⚠️ | Official novels / e-books once accessible; flag secondary until read |
-| Spark restorations after MOM Aftermath (losses logged Bot cycle 25) | Later stories may restore sparks unevenly | Characters Index spark table + each dossier's sources |
+| Spark restorations after MOM Aftermath (losses logged Bot cycle 25; cycle 26 search of 588 fetched pages found no post-MAT restoration) | Later stories may restore sparks unevenly | Characters Index spark table + each dossier's sources |
 | Pre-Mending godlike Planeswalker power vs post-Mending portrayals in side media | Scope of Mending discussed unevenly | Time Spiral–era official text + modern clarifications |
 
 ## Open / do-not-resolve

@@ -222,7 +222,7 @@ schema: 2
   - *2014-07-18* — Each additional time The Chain Veil’s last ability resolves will allow you to activate a loyalty ability of each planeswalker you control an additional time. For example, if you activate The Chain Veil’s last ability, untap it, then activate it again, you can activate a loyalty ability of a planeswalker you control three times that turn.
   - *2014-07-18* — For the first ability, it doesn’t matter whether the planeswalker is still on the battlefield as your end step begins. If you activated one of its loyalty abilities that turn, The Chain Veil’s triggered ability won’t trigger.
   - *2014-07-18* — The second loyalty ability you activate doesn’t have to be the same as the first ability. For example, you could activate a planeswalker’s first ability twice, or you could activate a planeswalker’s first ability, then activate its second ability.
-- **Referenced in:** 2 pages (1 decks · 1 lore & story) → [reverse index](../../references/T.md#the-chain-veil)
+- **Referenced in:** 3 pages (1 decks · 2 lore & story) → [reverse index](../../references/T.md#the-chain-veil)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/943/the-chain-veil) · oracle_id `fb88fb3d-6a85-4bb1-b316-7f759b45a0fa` · printing: CMM #943 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Champion

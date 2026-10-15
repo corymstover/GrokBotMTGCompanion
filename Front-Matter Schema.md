@@ -12,7 +12,7 @@ schema: 2
 # Front-Matter Schema
 
 > **Auto-generated** by `scripts/front_matter.py` (Bot cycle 17, issue [#65](https://github.com/corymstover/GrokBotMTGCompanion/issues/65)) from the `SCHEMA` and `PAGES` tables in the script, so this page cannot drift from what `--check` enforces. Schema version **2**. Do not hand-edit.
-> Coverage: **49** registered pages (README.md and GOAL.md are exempt), **88** decks, **684** card shards, **28** reverse-index pages. Related: [Lookup Guide](Lookup%20Guide.md) · [Knowledge Index](Knowledge%20Index.md) · [Card Data Conventions](Card%20Data%20Conventions.md).
+> Coverage: **50** registered pages (README.md and GOAL.md are exempt), **88** decks, **684** card shards, **28** reverse-index pages. Related: [Lookup Guide](Lookup%20Guide.md) · [Knowledge Index](Knowledge%20Index.md) · [Card Data Conventions](Card%20Data%20Conventions.md).
 
 ## Contents
 - [Format](#format)
@@ -135,6 +135,7 @@ Tags are lower-case kebab-case (`^[a-z0-9+]+(-[a-z0-9+]+)*$`). Page tags are ass
 | `arcs` | [Conflicts & Arcs](Conflicts%20%26%20Arcs.md) · [Story Arc Summaries](Story%20Arc%20Summaries.md) |
 | `art` | [Art & Flavor Story Links](Art%20%26%20Flavor%20Story%20Links.md) |
 | `art-credits` | [Artist Index](Artist%20Index.md) |
+| `artifacts` | [Items & Artifacts Index](Items%20%26%20Artifacts%20Index.md) |
 | `artists` | [Artist Index](Artist%20Index.md) |
 | `background` | [EDH Pairings](EDH%20Pairings.md) |
 | `banned-restricted` | [Format Legality Matrix](Format%20Legality%20Matrix.md) |
@@ -177,6 +178,7 @@ Tags are lower-case kebab-case (`^[a-z0-9+]+(-[a-z0-9+]+)*$`). Page tags are ass
 | `index` | [Card Index](Card%20Index.md) · [Knowledge Index](Knowledge%20Index.md) · [README](grixis/README.md) |
 | `interaction` | [EDH Interaction](EDH%20Interaction.md) |
 | `interactions` | [Rules Interactions](Rules%20Interactions.md) |
+| `items` | [Items & Artifacts Index](Items%20%26%20Artifacts%20Index.md) |
 | `keywords` | [Keyword Encyclopedia](Keyword%20Encyclopedia.md) |
 | `lands` | [EDH Mana Bases](EDH%20Mana%20Bases.md) |
 | `legality` | [Format Legality Matrix](Format%20Legality%20Matrix.md) · [Grixis Corrections](grixis/Grixis%20Corrections.md) · [Grixis Evaluation](grixis/Grixis%20Evaluation.md) |
@@ -207,6 +209,7 @@ Tags are lower-case kebab-case (`^[a-z0-9+]+(-[a-z0-9+]+)*$`). Page tags are ass
 | `progress` | [Progress Tracker](Progress%20Tracker.md) |
 | `ramp` | [EDH Packages](EDH%20Packages.md) |
 | `releases` | [Knowledge Snapshots](Knowledge%20Snapshots.md) |
+| `relics` | [Items & Artifacts Index](Items%20%26%20Artifacts%20Index.md) |
 | `removal` | [EDH Interaction](EDH%20Interaction.md) |
 | `reprints` | [Printing History](Printing%20History.md) |
 | `reserved-list` | [Printing History](Printing%20History.md) |
