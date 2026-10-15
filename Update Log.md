@@ -3,7 +3,7 @@
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
-- [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples)
+- [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
 
 ## 2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)
