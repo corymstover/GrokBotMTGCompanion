@@ -2,10 +2,10 @@
 title: "EDH Bracket Calibration"
 category: edh
 tags: [brackets, calibration, game-changers, combos, pilot-notes]
-issues: [68]
+issues: [68, 95]
 generated_by: scripts/deck_calibration.py
 sources: [scryfall, spellbook, edhrec, wotc-articles]
-related: ["EDH Standards.md", "cEDH Primer.md", "grixis/README.md"]
+related: ["EDH Standards.md", "EDH Lore-Themed Deckbuilding.md", "cEDH Primer.md", "grixis/README.md"]
 schema: 2
 ---
 
@@ -17,6 +17,7 @@ schema: 2
 - [Summary](#summary)
 - [All decks](#all-decks)
 - [Targets below the floor](#targets-below-the-floor)
+- [Lore decks](#lore-decks)
 - [Method](#method)
 
 ## Summary
@@ -122,6 +123,15 @@ schema: 2
 ## Targets below the floor
 
 None: every stated target is at or above the deck's floor.
+
+## Lore decks
+
+Story-first decks ([EDH Lore-Themed Deckbuilding](EDH%20Lore-Themed%20Deckbuilding.md)). They are calibrated like every other deck. *Lore score* = story-linked share of non-basic cards (≥ 85% standard, `scripts/build_lore_decks.py --check`). *Story map* = non-playability packages that point at a [lore entry](Lore%20Entry%20Index.md) (each entry links the deck back; `scripts/check_lore.py`).
+
+| Deck | Floor | GC | 2-card ∞ | Lands | Avg MV | Lore score | Story map | Pilot & story notes |
+|---|---|---|---|---|---|---|---|---|
+| [Nahiri, the Lithomancer](decks/lore-nahiri-the-lithomancer.md#bracket-calibration--pilot-notes) | **2** | 0 | 0 | 36 | 2.57 | 86.8% | 10/10 packages | [calibration](decks/lore-nahiri-the-lithomancer.md#pilot-notes-guidance) · [story map](decks/lore-nahiri-the-lithomancer.md#story-map) |
+| [The Brothers' War (Urza, Lord High Artificer)](decks/lore-brothers-war-urza-lord-high-artificer.md#bracket-calibration--pilot-notes) | **2** | 0 | 0 | 37 | 2.98 | 93.8% | 9/10 packages | [calibration](decks/lore-brothers-war-urza-lord-high-artificer.md#pilot-notes-guidance) · [story map](decks/lore-brothers-war-urza-lord-high-artificer.md#story-map) |
 
 ## Method
 

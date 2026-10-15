@@ -415,7 +415,44 @@
      "note": ""
     }
    ],
-   "win_path": "combat with Constructs, thopters and Urza himself; Golgothian Sylex is the story finale (sacrifice for a board wipe), not a guaranteed one."
+   "win_path": "combat with Constructs, thopters and Urza himself; Golgothian Sylex is the story finale (sacrifice for a board wipe), not a guaranteed one.",
+   "plane_anchor": "dominaria-before-dominaria-united",
+   "story_map": {
+    "Urza's inventions": [
+     "Characters Index.md#urza",
+     "Conflicts & Arcs.md#the-brothers-war"
+    ],
+    "Kroog, Tawnos & the war machines": [
+     "Conflicts & Arcs.md#the-brothers-war"
+    ],
+    "Urza's lands & workshops": [
+     "Planes Index.md#dominaria-before-dominaria-united"
+    ],
+    "Koilos stones, powerstones & the sylex": [
+     "Items & Artifacts Index.md#mightstone--weakstone",
+     "Items & Artifacts Index.md#mana-rig-powerstones--thran-steel-dmu",
+     "Items & Artifacts Index.md#golgothian-sylex",
+     "Contradictions & Retcons Log.md#who-made-the-sylex"
+    ],
+    "Machine army (mechanical echo)": [
+     "Conflicts & Arcs.md#the-brothers-war"
+    ],
+    "Lat-Nam & the Third Path": [],
+    "Thran legacy": [
+     "Items & Artifacts Index.md#mana-rig-powerstones--thran-steel-dmu"
+    ],
+    "Karn & Urza's later legacy": [
+     "Planeswalker Dossiers.md#karn",
+     "Conflicts & Arcs.md#the-brothers-war-frame-story-2022"
+    ],
+    "Artificers of Terisiare": [
+     "Conflicts & Arcs.md#the-brothers-war"
+    ],
+    "Story lands (Antiquities / Brothers' War printings)": [
+     "Planes Index.md#dominaria-before-dominaria-united"
+    ],
+    "Playability (guidance)": []
+   }
   },
   {
    "slug": "lore-nahiri-the-lithomancer",
@@ -819,7 +856,51 @@
      "note": ""
     }
    ],
-   "win_path": "combat with Equipment-bearing Kor and Nahiri's tokens; Avacyn or a voltron Equipment finisher closes games."
+   "win_path": "combat with Equipment-bearing Kor and Nahiri's tokens; Avacyn or a voltron Equipment finisher closes games.",
+   "plane_anchor": "zendikar-eldrazi-era",
+   "story_map": {
+    "Kor of Zendikar": [
+     "Planes Index.md#zendikar-eldrazi-era",
+     "Planeswalker Dossiers.md#nahiri"
+    ],
+    "Hedrons & the Eldrazi prison": [
+     "Items & Artifacts Index.md#hedrons",
+     "Conflicts & Arcs.md#ancient-imprisoning-the-eldrazi",
+     "Planeswalker Dossiers.md#ugin"
+    ],
+    "Lithomancer's arsenal (mechanical echo of Nahiri's Equipment abilities)": [
+     "Planeswalker Dossiers.md#nahiri"
+    ],
+    "The Helvault & revenge on Innistrad": [
+     "Items & Artifacts Index.md#helvault",
+     "Conflicts & Arcs.md#innistrad--emrakul",
+     "Planes Index.md#innistrad",
+     "Planeswalker Dossiers.md#sorin-markov",
+     "Contradictions & Retcons Log.md#emrakuls-path-off-zendikar"
+    ],
+    "Lithomancer's arsenal (story-set Equipment)": [
+     "Planeswalker Dossiers.md#nahiri"
+    ],
+    "Story lands (Zendikar / Innistrad printings)": [
+     "Planes Index.md#zendikar-eldrazi-era",
+     "Planes Index.md#innistrad"
+    ],
+    "Skyclaves & the Lithoform hunt (ZNR)": [
+     "Items & Artifacts Index.md#lithoform-core",
+     "Conflicts & Arcs.md#zendikar-rising-2020",
+     "Planes Index.md#zendikar-zendikar-rising-era"
+    ],
+    "Story-set interaction": [
+     "Conflicts & Arcs.md#eldrazi-awaken--battle-for-zendikar--gatewatch"
+    ],
+    "Story-set ramp": [
+     "Conflicts & Arcs.md#eldrazi-awaken--battle-for-zendikar--gatewatch"
+    ],
+    "Story-set threats": [
+     "Conflicts & Arcs.md#eldrazi-awaken--battle-for-zendikar--gatewatch"
+    ],
+    "Playability (guidance)": []
+   }
   }
  ]
 }

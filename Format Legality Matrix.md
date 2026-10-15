@@ -2,7 +2,7 @@
 title: "Format Legality Matrix"
 category: cards
 tags: [legality, formats, banned-restricted]
-issues: [41]
+issues: [41, 96]
 generated_by: scripts/build_legality.py
 sources: [scryfall, wotc-articles]
 related: ["EDH Standards.md"]

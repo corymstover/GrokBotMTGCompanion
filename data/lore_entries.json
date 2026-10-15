@@ -1,6 +1,6 @@
 {
  "generated_by": "scripts/build_lore_index.py",
- "entries": 260,
+ "entries": 280,
  "by_kind": {
   "dossier": 38,
   "plane": 42,
@@ -8,7 +8,8 @@
   "retcon": 29,
   "character": 78,
   "era": 7,
-  "arc": 40
+  "arc": 40,
+  "summary": 20
  },
  "items": [
   {
@@ -6335,6 +6336,420 @@
     ],
     "retcons": [
      "Contradictions & Retcons Log.md#jace-dead-then-fragments-then-dead"
+    ]
+   }
+  },
+  {
+   "page": "Story Arc Summaries.md",
+   "kind": "summary",
+   "name": "Battle for Zendikar & Oath of the Gatewatch (2015–16)",
+   "anchor": "battle-for-zendikar--oath-of-the-gatewatch-201516",
+   "tags": [
+    "summary"
+   ],
+   "citations": 8,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#eldrazi-awaken--battle-for-zendikar--gatewatch",
+     "Story Arc Summaries.md#shadows-over-innistrad--eldritch-moon-2016"
+    ]
+   }
+  },
+  {
+   "page": "Story Arc Summaries.md",
+   "kind": "summary",
+   "name": "Shadows over Innistrad & Eldritch Moon (2016)",
+   "anchor": "shadows-over-innistrad--eldritch-moon-2016",
+   "tags": [
+    "summary",
+    "has-secondary"
+   ],
+   "citations": 7,
+   "flags": {
+    "confirmed": 1,
+    "secondary": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#innistrad--emrakul",
+     "Story Arc Summaries.md#reality-fracture-2026"
+    ]
+   }
+  },
+  {
+   "page": "Story Arc Summaries.md",
+   "kind": "summary",
+   "name": "Kaladesh & Aether Revolt (2016–17)",
+   "anchor": "kaladesh--aether-revolt-201617",
+   "tags": [
+    "summary"
+   ],
+   "citations": 11,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#kaladesh-revolt"
+    ]
+   }
+  },
+  {
+   "page": "Story Arc Summaries.md",
+   "kind": "summary",
+   "name": "Amonkhet & Hour of Devastation (2017)",
+   "anchor": "amonkhet--hour-of-devastation-2017",
+   "tags": [
+    "summary"
+   ],
+   "citations": 12,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#amonkhet--the-god-pharaoh",
+     "Story Arc Summaries.md#return-to-dominaria-2018"
+    ]
+   }
+  },
+  {
+   "page": "Story Arc Summaries.md",
+   "kind": "summary",
+   "name": "Return to Dominaria (2018)",
+   "anchor": "return-to-dominaria-2018",
+   "tags": [
+    "summary",
+    "has-secondary"
+   ],
+   "citations": 7,
+   "flags": {
+    "confirmed": 1,
+    "secondary": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#return-to-dominaria--war-of-the-spark",
+     "Story Arc Summaries.md#war-of-the-spark-2019"
+    ]
+   }
+  },
+  {
+   "page": "Story Arc Summaries.md",
+   "kind": "summary",
+   "name": "War of the Spark (2019)",
+   "anchor": "war-of-the-spark-2019",
+   "tags": [
+    "summary"
+   ],
+   "citations": 7,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#return-to-dominaria--war-of-the-spark"
+    ]
+   }
+  },
+  {
+   "page": "Story Arc Summaries.md",
+   "kind": "summary",
+   "name": "Phyrexia: All Will Be One — *Assault on New Phyrexia*",
+   "anchor": "phyrexia-all-will-be-one--assault-on-new-phyrexia",
+   "tags": [
+    "summary"
+   ],
+   "citations": 5,
+   "flags": {},
+   "links": {}
+  },
+  {
+   "page": "Story Arc Summaries.md",
+   "kind": "summary",
+   "name": "March of the Machine",
+   "anchor": "march-of-the-machine",
+   "tags": [
+    "summary",
+    "has-unknowns"
+   ],
+   "citations": 12,
+   "flags": {
+    "unknown": 1
+   },
+   "links": {
+    "eras": [
+     "Master Timeline.md#omenpath-era-post-invasion"
+    ]
+   }
+  },
+  {
+   "page": "Story Arc Summaries.md",
+   "kind": "summary",
+   "name": "Wilds of Eldraine (2023)",
+   "anchor": "wilds-of-eldraine-2023",
+   "tags": [
+    "summary",
+    "has-unknowns"
+   ],
+   "citations": 5,
+   "flags": {
+    "confirmed": 1,
+    "unknown": 3
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#wilds-of-eldraine-2023",
+     "Story Arc Summaries.md#outlaws-of-thunder-junction-2024"
+    ],
+    "characters": [
+     "Characters Index.md#ashiok"
+    ]
+   }
+  },
+  {
+   "page": "Story Arc Summaries.md",
+   "kind": "summary",
+   "name": "The Lost Caverns of Ixalan (2023)",
+   "anchor": "the-lost-caverns-of-ixalan-2023",
+   "tags": [
+    "summary"
+   ],
+   "citations": 7,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#the-lost-caverns-of-ixalan-2023"
+    ],
+    "planes": [
+     "Omenpath & Multiverse Connections.md#known-connections"
+    ]
+   }
+  },
+  {
+   "page": "Story Arc Summaries.md",
+   "kind": "summary",
+   "name": "Murders at Karlov Manor (2024)",
+   "anchor": "murders-at-karlov-manor-2024",
+   "tags": [
+    "summary",
+    "has-unknowns"
+   ],
+   "citations": 11,
+   "flags": {
+    "confirmed": 1,
+    "unknown": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#murders-at-karlov-manor-2024"
+    ],
+    "planes": [
+     "Planes Index.md#ravnica-after-the-invasion-murders-at-karlov-manor"
+    ]
+   }
+  },
+  {
+   "page": "Story Arc Summaries.md",
+   "kind": "summary",
+   "name": "Outlaws of Thunder Junction (2024)",
+   "anchor": "outlaws-of-thunder-junction-2024",
+   "tags": [
+    "summary",
+    "has-unknowns"
+   ],
+   "citations": 9,
+   "flags": {
+    "confirmed": 1,
+    "unknown": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#jaces-echoverse-reality-fracture",
+     "Conflicts & Arcs.md#outlaws-of-thunder-junction-2024"
+    ],
+    "planes": [
+     "Planes Index.md#other-planes-in-recent-stories-omenpath-era"
+    ]
+   }
+  },
+  {
+   "page": "Story Arc Summaries.md",
+   "kind": "summary",
+   "name": "Bloomburrow (2024)",
+   "anchor": "bloomburrow-2024",
+   "tags": [
+    "summary",
+    "has-unknowns"
+   ],
+   "citations": 5,
+   "flags": {
+    "confirmed": 1,
+    "unknown": 2
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#bloomburrow-2024",
+     "Conflicts & Arcs.md#jaces-echoverse-reality-fracture"
+    ]
+   }
+  },
+  {
+   "page": "Story Arc Summaries.md",
+   "kind": "summary",
+   "name": "Duskmourn: House of Horror (2024)",
+   "anchor": "duskmourn-house-of-horror-2024",
+   "tags": [
+    "summary",
+    "has-unknowns"
+   ],
+   "citations": 6,
+   "flags": {
+    "confirmed": 1,
+    "unknown": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#duskmourn-house-of-horror-2024"
+    ]
+   }
+  },
+  {
+   "page": "Story Arc Summaries.md",
+   "kind": "summary",
+   "name": "Aetherdrift (2025)",
+   "anchor": "aetherdrift-2025",
+   "tags": [
+    "summary",
+    "has-unknowns"
+   ],
+   "citations": 7,
+   "flags": {
+    "confirmed": 1,
+    "unknown": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#aetherdrift-2025",
+     "Story Arc Summaries.md#tarkir-dragonstorm-2025"
+    ],
+    "planes": [
+     "Omenpath & Multiverse Connections.md#exceptions-artificial-paths-maps-and-closures"
+    ]
+   }
+  },
+  {
+   "page": "Story Arc Summaries.md",
+   "kind": "summary",
+   "name": "Tarkir: Dragonstorm (2025)",
+   "anchor": "tarkir-dragonstorm-2025",
+   "tags": [
+    "summary",
+    "has-unknowns"
+   ],
+   "citations": 7,
+   "flags": {
+    "confirmed": 1,
+    "unknown": 2
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#jaces-echoverse-reality-fracture",
+     "Conflicts & Arcs.md#tarkir-dragonstorm-2025"
+    ]
+   }
+  },
+  {
+   "page": "Story Arc Summaries.md",
+   "kind": "summary",
+   "name": "Edge of Eternities (2025)",
+   "anchor": "edge-of-eternities-2025",
+   "tags": [
+    "summary",
+    "has-secondary",
+    "has-unknowns"
+   ],
+   "citations": 12,
+   "flags": {
+    "confirmed": 1,
+    "secondary": 1,
+    "unknown": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#edge-of-eternities-2025"
+    ]
+   }
+  },
+  {
+   "page": "Story Arc Summaries.md",
+   "kind": "summary",
+   "name": "Lorwyn Eclipsed (2025–26)",
+   "anchor": "lorwyn-eclipsed-202526",
+   "tags": [
+    "summary",
+    "has-unknowns"
+   ],
+   "citations": 8,
+   "flags": {
+    "confirmed": 1,
+    "unknown": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#lorwyn-eclipsed-202526",
+     "Story Arc Summaries.md#secrets-of-strixhaven-2026"
+    ],
+    "planes": [
+     "Omenpath & Multiverse Connections.md#known-connections"
+    ]
+   }
+  },
+  {
+   "page": "Story Arc Summaries.md",
+   "kind": "summary",
+   "name": "Secrets of Strixhaven (2026)",
+   "anchor": "secrets-of-strixhaven-2026",
+   "tags": [
+    "summary",
+    "has-secondary"
+   ],
+   "citations": 8,
+   "flags": {
+    "confirmed": 1,
+    "secondary": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#secrets-of-strixhaven-2026",
+     "Story Arc Summaries.md#reality-fracture-2026"
+    ]
+   }
+  },
+  {
+   "page": "Story Arc Summaries.md",
+   "kind": "summary",
+   "name": "Reality Fracture (2026)",
+   "anchor": "reality-fracture-2026",
+   "tags": [
+    "summary",
+    "has-secondary",
+    "has-unknowns"
+   ],
+   "citations": 10,
+   "flags": {
+    "confirmed": 1,
+    "secondary": 1,
+    "unknown": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#jaces-echoverse-reality-fracture"
     ]
    }
   }

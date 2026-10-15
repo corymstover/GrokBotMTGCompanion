@@ -2,7 +2,7 @@
 title: "EDH Deck Evaluation Checklist"
 category: edh
 tags: [checklist, evaluation, brackets, methodology]
-issues: [62, 81]
+issues: [62, 81, 96]
 generated_by: hand-written
 sources: [grixis-repo, cr, scryfall, spellbook]
 related: ["EDH Deck Template.md", "EDH Lore-Themed Deckbuilding.md", "EDH Standards.md", "grixis/Grixis Corrections.md", "EDH Mulligans.md", "grixis/Grixis Packages.md"]

@@ -11,11 +11,12 @@ schema: 2
 
 # Lore Entry Index
 
-> **Generated** by `scripts/build_lore_index.py` (Bot cycle 31, Phase 7 — retrieval for lore material). One row per entry on the seven lore entry pages; do not hand-edit. Tags are computed from what each entry already says (kind; `has-secondary` ⚠️ · `has-unknowns` ❓ · `has-non-canonical` 🚫 · `has-retcon` 🔄 when the entry carries that flag; spark state from [Characters Index → Status at a glance](Characters%20Index.md#status-at-a-glance), card links). Links = internal links from the entry, by target (C = cards, Ch = characters, D = dossiers, P = planes, I = items, A = arcs, E = eras, R = retcons). Machine-readable copy: `data/lore_entries.json`; search with `python3 scripts/kb_find.py <words> --category lore`.
-> **260 entries** · Arcs 40 · Eras 7 · Planeswalker Dossiers 38 · Characters 78 · Planes 42 · Items & artifacts 26 · Retcons & contradictions 29 · 1078 official citations (distinct URLs per entry, summed). Every entry cites ≥ 1 official page (`scripts/check_lore.py`).
+> **Generated** by `scripts/build_lore_index.py` (Bot cycle 31, Phase 7 — retrieval for lore material). One row per entry on the eight lore entry pages; do not hand-edit. Tags are computed from what each entry already says (kind; `has-secondary` ⚠️ · `has-unknowns` ❓ · `has-non-canonical` 🚫 · `has-retcon` 🔄 when the entry carries that flag; spark state from [Characters Index → Status at a glance](Characters%20Index.md#status-at-a-glance), card links). Links = internal links from the entry, by target (C = cards, Ch = characters, D = dossiers, P = planes, I = items, A = arcs, E = eras, R = retcons). Machine-readable copy: `data/lore_entries.json`; search with `python3 scripts/kb_find.py <words> --category lore`.
+> **280 entries** · Arcs 40 · Arc summaries 20 · Eras 7 · Planeswalker Dossiers 38 · Characters 78 · Planes 42 · Items & artifacts 26 · Retcons & contradictions 29 · 1242 official citations (distinct URLs per entry, summed). Every entry cites ≥ 1 official page (`scripts/check_lore.py`).
 
 ## Contents
 - [Arcs (Conflicts & Arcs)](#arcs-conflicts--arcs)
+- [Arc summaries (Story Arc Summaries)](#arc-summaries-story-arc-summaries)
 - [Eras (Master Timeline)](#eras-master-timeline)
 - [Planeswalker Dossiers](#planeswalker-dossiers)
 - [Characters](#characters)
@@ -67,6 +68,31 @@ schema: 2
 | [Lorwyn Eclipsed (2025–26)](Conflicts%20%26%20Arcs.md#lorwyn-eclipsed-202526) | `arc` | 9 | A 1 Ch 5 E 1 P 2 R 1 |
 | [Secrets of Strixhaven (2026)](Conflicts%20%26%20Arcs.md#secrets-of-strixhaven-2026) | `arc` | 7 | A 1 Ch 5 E 1 P 1 R 1 |
 | [Jace's Echoverse (Reality Fracture)](Conflicts%20%26%20Arcs.md#jaces-echoverse-reality-fracture) | `arc`, `has-non-canonical` | 12 | Ch 9 E 1 P 2 R 1 |
+
+## Arc summaries (Story Arc Summaries)
+
+| Entry | Tags | Cites | Links |
+|---|---|---|---|
+| [Battle for Zendikar & Oath of the Gatewatch (2015–16)](Story%20Arc%20Summaries.md#battle-for-zendikar--oath-of-the-gatewatch-201516) | `summary` | 8 | A 2 |
+| [Shadows over Innistrad & Eldritch Moon (2016)](Story%20Arc%20Summaries.md#shadows-over-innistrad--eldritch-moon-2016) | `summary`, `has-secondary` | 7 | A 2 |
+| [Kaladesh & Aether Revolt (2016–17)](Story%20Arc%20Summaries.md#kaladesh--aether-revolt-201617) | `summary` | 11 | A 1 |
+| [Amonkhet & Hour of Devastation (2017)](Story%20Arc%20Summaries.md#amonkhet--hour-of-devastation-2017) | `summary` | 12 | A 2 |
+| [Return to Dominaria (2018)](Story%20Arc%20Summaries.md#return-to-dominaria-2018) | `summary`, `has-secondary` | 7 | A 2 |
+| [War of the Spark (2019)](Story%20Arc%20Summaries.md#war-of-the-spark-2019) | `summary` | 7 | A 1 |
+| [Phyrexia: All Will Be One — *Assault on New Phyrexia*](Story%20Arc%20Summaries.md#phyrexia-all-will-be-one--assault-on-new-phyrexia) | `summary` | 5 | — |
+| [March of the Machine](Story%20Arc%20Summaries.md#march-of-the-machine) | `summary`, `has-unknowns` | 12 | E 1 |
+| [Wilds of Eldraine (2023)](Story%20Arc%20Summaries.md#wilds-of-eldraine-2023) | `summary`, `has-unknowns` | 5 | A 2 Ch 1 |
+| [The Lost Caverns of Ixalan (2023)](Story%20Arc%20Summaries.md#the-lost-caverns-of-ixalan-2023) | `summary` | 7 | A 1 P 1 |
+| [Murders at Karlov Manor (2024)](Story%20Arc%20Summaries.md#murders-at-karlov-manor-2024) | `summary`, `has-unknowns` | 11 | A 1 P 1 |
+| [Outlaws of Thunder Junction (2024)](Story%20Arc%20Summaries.md#outlaws-of-thunder-junction-2024) | `summary`, `has-unknowns` | 9 | A 2 P 1 |
+| [Bloomburrow (2024)](Story%20Arc%20Summaries.md#bloomburrow-2024) | `summary`, `has-unknowns` | 5 | A 2 |
+| [Duskmourn: House of Horror (2024)](Story%20Arc%20Summaries.md#duskmourn-house-of-horror-2024) | `summary`, `has-unknowns` | 6 | A 1 |
+| [Aetherdrift (2025)](Story%20Arc%20Summaries.md#aetherdrift-2025) | `summary`, `has-unknowns` | 7 | A 2 P 1 |
+| [Tarkir: Dragonstorm (2025)](Story%20Arc%20Summaries.md#tarkir-dragonstorm-2025) | `summary`, `has-unknowns` | 7 | A 2 |
+| [Edge of Eternities (2025)](Story%20Arc%20Summaries.md#edge-of-eternities-2025) | `summary`, `has-secondary`, `has-unknowns` | 12 | A 1 |
+| [Lorwyn Eclipsed (2025–26)](Story%20Arc%20Summaries.md#lorwyn-eclipsed-202526) | `summary`, `has-unknowns` | 8 | A 2 P 1 |
+| [Secrets of Strixhaven (2026)](Story%20Arc%20Summaries.md#secrets-of-strixhaven-2026) | `summary`, `has-secondary` | 8 | A 2 |
+| [Reality Fracture (2026)](Story%20Arc%20Summaries.md#reality-fracture-2026) | `summary`, `has-secondary`, `has-unknowns` | 10 | A 1 |
 
 ## Eras (Master Timeline)
 

@@ -2,7 +2,7 @@
 title: "EDH Win Conditions"
 category: edh
 tags: [win-conditions, combos]
-issues: [27]
+issues: [27, 96]
 generated_by: scripts/build_wincons.py
 sources: [scryfall, spellbook]
 related: ["Rules Interactions.md", "EDH Packages.md", "EDH Standards.md", "EDH Interaction.md", "cEDH Primer.md", "EDH Archetypes.md"]

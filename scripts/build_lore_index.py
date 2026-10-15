@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Per-entry retrieval index for lore material (Bot cycle 31, Phase 7 priority 1).
 
-Reads the 7 lore entry pages (lore_lib.ENTRY_PAGES) and writes
+Reads the 8 lore entry pages (lore_lib.ENTRY_PAGES) and writes
   data/lore_entries.json   one record per entry: page, kind, name, anchor, computed tags, official citations,
                            flag counts, and internal links grouped by target (cards, characters, dossiers, planes, items,
                            arcs, eras, retcons) — pointers only, no new facts
@@ -31,8 +31,8 @@ TARGET = {"Characters Index.md": "characters", "Planeswalker Dossiers.md": "doss
           "Contradictions & Retcons Log.md": "retcons", "Story Arc Summaries.md": "arcs",
           "Omenpath & Multiverse Connections.md": "planes"}
 FLAG_TAG = {"secondary": "secondary", "unknown": "unknowns", "non-canonical": "non-canonical", "retcon": "retcon"}
-KIND_ORDER = ["arc", "era", "dossier", "character", "plane", "item", "retcon"]
-KIND_LABEL = {"arc": "Arcs (Conflicts & Arcs)", "era": "Eras (Master Timeline)", "dossier": "Planeswalker Dossiers",
+KIND_ORDER = ["arc", "summary", "era", "dossier", "character", "plane", "item", "retcon"]
+KIND_LABEL = {"arc": "Arcs (Conflicts & Arcs)", "summary": "Arc summaries (Story Arc Summaries)", "era": "Eras (Master Timeline)", "dossier": "Planeswalker Dossiers",
               "character": "Characters", "plane": "Planes (detailed entries)", "item": "Items & artifacts", "retcon": "Retcons & contradictions"}
 
 
@@ -85,7 +85,7 @@ def page(d):
     recs = d["items"]
     n_c = sum(r["citations"] for r in recs)
     L_ = ["---", 'title: "Lore Entry Index"', "PLACEHOLDER", "---", "", "# Lore Entry Index", "",
-          "> **Generated** by `scripts/build_lore_index.py` (Bot cycle 31, Phase 7 — retrieval for lore material). One row per entry on the seven lore entry pages; do not hand-edit. "
+          "> **Generated** by `scripts/build_lore_index.py` (Bot cycle 31, Phase 7 — retrieval for lore material). One row per entry on the eight lore entry pages; do not hand-edit. "
           "Tags are computed from what each entry already says (kind; `has-secondary` ⚠️ · `has-unknowns` ❓ · `has-non-canonical` 🚫 · `has-retcon` 🔄 when the entry carries that flag; spark state from [Characters Index → Status at a glance](Characters%20Index.md#status-at-a-glance), card links). "
           "Links = internal links from the entry, by target (C = cards, Ch = characters, D = dossiers, P = planes, I = items, A = arcs, E = eras, R = retcons). Machine-readable copy: `data/lore_entries.json`; search with `python3 scripts/kb_find.py <words> --category lore`.",
           f"> **{len(recs)} entries** · " + " · ".join(f"{KIND_LABEL[k].split(' (')[0]} {d['by_kind'].get(k, 0)}" for k in KIND_ORDER) + f" · {n_c} official citations (distinct URLs per entry, summed). Every entry cites ≥ 1 official page (`scripts/check_lore.py`).", "",

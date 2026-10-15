@@ -2,7 +2,7 @@
 title: "Card Data Conventions"
 category: meta
 tags: [conventions, card-entries]
-issues: []
+issues: [96]
 generated_by: hand-written
 sources: [scryfall]
 related: ["EDH Standards.md", "Front-Matter Schema.md", "Card Index.md", "Knowledge Index.md"]

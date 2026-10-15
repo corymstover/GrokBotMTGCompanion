@@ -1,5 +1,5 @@
 {
- "_doc": "Documented non-verifiable quotes for scripts/lore_quotes.py (Bot cycle 31). Keys are quote fingerprints (sha1 of the normalized quote, 12 hex). Reasons: image-text = IKO Story on Cards page: story text is printed on card images, so it cannot be machine-verified (⚠️ on the page); other-source = cited non-Wizards official page (publisher/retailer listing or Netflix Tudum), not in the Wizards story cache; not-a-quote = quotation marks around a KB label, term or title, not a quotation",
+ "_doc": "Documented non-verifiable quotes for scripts/lore_quotes.py (Bot cycle 31; rules/FAQ/EDH pages added in Bot cycle 32). Keys are quote fingerprints (sha1 of the normalized quote, 12 hex). Reasons: image-text = IKO Story on Cards page: story text is printed on card images, so it cannot be machine-verified (⚠️ on the page); other-source = cited non-Wizards official page (publisher/retailer listing or Netflix Tudum), not in the Wizards story cache; not-a-quote = quotation marks around a KB label, term, title or code snippet, not a quotation",
  "Planeswalker Dossiers.md": {
   "bf9e442ebc6c": {
    "reason": "not-a-quote",
@@ -119,6 +119,25 @@
    "reason": "not-a-quote",
    "quote": "Card | Art by …",
    "note": "quotation marks around a KB label, term or title, not a quotation"
+  }
+ },
+ "EDH Mulligans.md": {
+  "2ab85cff89e8": {
+   "reason": "not-a-quote",
+   "quote": "Partial Paris",
+   "note": "house-rule mulligan name in quotation marks (a term, not a quotation; the page says it is not in the CR)"
+  }
+ },
+ "Format Legality Matrix.md": {
+  "7874bb525689": {
+   "reason": "not-a-quote",
+   "quote": "Future Standard",
+   "note": "Scryfall's label for the `future` legality key (https://scryfall.com/docs/syntax); a term, not a quotation"
+  },
+  "68f02e74a7e3": {
+   "reason": "not-a-quote",
+   "quote": "import csv;print(sum(r['modern']=='L' for r in csv.DictReader(open('data/legality_matrix.csv'))))",
+   "note": "Python one-liner in a reproduce-this-count code line; string literals, not a quotation"
   }
  }
 }

@@ -5,7 +5,7 @@ tags: [roadmap, sprint]
 issues: []
 generated_by: hand-written
 sources: []
-related: ["Front-Matter Schema.md", "Progress Tracker.md", "EDH Lore-Themed Deckbuilding.md", "Items & Artifacts Index.md", "Lookup Guide.md", "Lore Primary Sources.md"]
+related: ["Front-Matter Schema.md", "Progress Tracker.md", "EDH Bracket Calibration.md", "EDH Lore-Themed Deckbuilding.md", "Items & Artifacts Index.md", "Lookup Guide.md"]
 schema: 2
 ---
 
@@ -103,12 +103,13 @@ Apply the 4 Phase 5 priorities to the material Phase 6 added (cycles 20–30: Co
 | Issue | Item | Status | Output |
 |---|---|---|---|
 | [#92](https://github.com/corymstover/GrokBotMTGCompanion/issues/92) | P7.1 Lore front-matter, per-entry tags/anchors, retrieval index | 🟢 Bot cycle 31 | `lore` tag + Phase 6 issue numbers on every lore page; `entry_kind`/`entries` keys; [Lore Entry Index](Lore%20Entry%20Index.md) · `data/lore_entries.json` (260 entries) · `scripts/build_lore_index.py`; kb_find indexes entries (`--kind`, entry tags) |
-| [#93](https://github.com/corymstover/GrokBotMTGCompanion/issues/93) | P7.2 Bidirectional lore cross-refs (cards ↔ items ↔ characters ↔ planes ↔ arcs) | ⏳ Bot cycle 32 | — |
+| [#93](https://github.com/corymstover/GrokBotMTGCompanion/issues/93) | P7.2 Bidirectional lore cross-refs (cards ↔ items ↔ characters ↔ planes ↔ arcs) | 🟢 Bot cycle 32 | `scripts/build_lore_xrefs.py`: a generated *Cross-references* block on 269 of 280 entries (1,460 symmetric relations from hand links + name mentions; item ↔ card name matches; lore-deck back-links); `check_lore.py` checks the blocks are current and that all 2,943 entry→entry links are reciprocal |
 | [#94](https://github.com/corymstover/GrokBotMTGCompanion/issues/94) | P7.3 Lore validation in validate_all | 🟢 Bot cycle 31 | `scripts/check_lore.py` (step `lore-entries`) · `scripts/lore_quotes.py` (step `lore-quotes`) · `data/lore_quotes.json` · `data/lore_quote_exceptions.json` |
-| [#95](https://github.com/corymstover/GrokBotMTGCompanion/issues/95) | P7.4 Lore-deck calibration + pilot notes; refresh EDH Bracket Calibration | ⏳ Bot cycle 32–33 | — |
-| [#96](https://github.com/corymstover/GrokBotMTGCompanion/issues/96) | P7.5 Audit for gaps left by Phase 5 | 🟡 Bot cycle 31 started | stale lore counts in Knowledge Index/Progress Tracker fixed; 4 paraphrases shown as quotes fixed; 30 cited pages that were never cached now fetched and verified |
+| [#95](https://github.com/corymstover/GrokBotMTGCompanion/issues/95) | P7.4 Lore-deck calibration + pilot notes; refresh EDH Bracket Calibration | 🟢 Bot cycle 32 | `story_map` in `data/lore_decks/lore_decks.json` → **Story pilot notes → Story map** on both lore decks (package → lore entries, 23 pointers, back-linked); [EDH Bracket Calibration → Lore decks](EDH%20Bracket%20Calibration.md#lore-decks) (floor 2 both; lore score 93.8% / 86.8%; story map 9/10 / 10/10 packages); land counts by front face |
+| [#96](https://github.com/corymstover/GrokBotMTGCompanion/issues/96) | P7.5 Audit for gaps left by Phase 5 | 🟢 Bot cycles 31–32 | cycle 31: stale lore counts fixed, paraphrases-as-quotes fixed, 30 never-cached cited pages fetched; cycle 32: quote checks extended to 12 rules/FAQ/EDH pages (1,044 quotes vs CR, rulings, card text, 8 cached Wizards articles, Grixis source), 1 paraphrase fixed (EDH Deck Template), 2 uncited official quotes cited (EDH Standards), Story Arc Summaries split into 20 entries, missing `v2.1` snapshot row added |
 
 - ✅ **Bot cycle 31:** priorities 1 + 3 for lore. 260 lore entries indexed with computed tags. Every entry cites ≥ 1 official page (1,078 entry citations). 1,675 quotations on 13 lore pages: 1,653 verified verbatim (1,561 against the cited or another cached official page, 92 against Scryfall card text) and 22 documented exceptions (image-only, non-Wizards, labels). Spark state agrees across 39 dossier/Characters-Index pairs and the retcon log. Two new `validate_all` steps.
+- ✅ **Bot cycle 32:** priorities 2 + 4 and the gap audit. 280 entries (Story Arc Summaries added, 20 entries). Bidirectional cross-reference blocks on 269 entries (1,460 symmetric relations; 2,943 entry→entry links all reciprocal; 23 lore-deck pointers back-linked). Lore-deck story maps and a Lore decks section in EDH Bracket Calibration. Quote checks now cover 25 pages / 2,719 quotes (12 rules/FAQ/EDH pages added). **Phase 7 complete**; snapshot tag `v2.2-phase7-optimization`.
 
 ## Phase 6
 - ✅ **Bot cycle 21:** [EDH Lore-Themed Deckbuilding](EDH%20Lore-Themed%20Deckbuilding.md) + 2 worked lore decks (Urza Brothers' War; Nahiri Lithomancer).

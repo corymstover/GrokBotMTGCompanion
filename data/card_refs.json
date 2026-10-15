@@ -1,7 +1,7 @@
 {
 "generated_by": "scripts/build_crossrefs.py",
 "bulk": "2026-10-15",
-"cards_referenced": 8536,
+"cards_referenced": 8537,
 "cards": {
 "00037840-6089-42ec-8c5c-281f9f474504": {
 "name": "Nissa, Worldsoul Speaker",
@@ -79,9 +79,10 @@
 },
 "004584f8-fd89-4a3e-9782-c117dbe1532b": {
 "name": "Weakstone",
-"n": 1,
+"n": 2,
 "kinds": {
-"deck": 1
+"deck": 1,
+"lore": 1
 },
 "index": "references/W.md#weakstone"
 },
@@ -6802,9 +6803,9 @@
 },
 "168f2fbb-8cf7-43e0-8bb6-5e4cc3c1e363": {
 "name": "The Temporal Anchor",
-"n": 1,
+"n": 2,
 "kinds": {
-"lore": 1
+"lore": 2
 },
 "index": "references/T.md#the-temporal-anchor"
 },
@@ -13671,9 +13672,10 @@
 },
 "2f578020-9b39-4c61-8b0b-6d29187e022a": {
 "name": "Mightstone",
-"n": 1,
+"n": 2,
 "kinds": {
-"deck": 1
+"deck": 1,
+"lore": 1
 },
 "index": "references/M.md#mightstone"
 },
@@ -38431,6 +38433,14 @@
 "deck": 1
 },
 "index": "references/S.md#searslicer-goblin"
+},
+"86ed6073-c35c-4d29-9911-5fe191dd875f": {
+"name": "The Biblioplex",
+"n": 1,
+"kinds": {
+"lore": 1
+},
+"index": "references/T.md#the-biblioplex"
 },
 "86ef2ceb-b7e6-4451-92ec-8528ea191d3a": {
 "name": "Old One Eye",
@@ -67345,9 +67355,9 @@
 },
 "eff0a1ad-ecc6-416f-a4ae-96b26cd8a905": {
 "name": "The Elderspell",
-"n": 1,
+"n": 2,
 "kinds": {
-"lore": 1
+"lore": 2
 },
 "index": "references/T.md#the-elderspell"
 },

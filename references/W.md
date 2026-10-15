@@ -454,9 +454,10 @@ schema: 2
 
 ### Weakstone
 
-[Card entry](../cards/W/we.md#weakstone) · **1 pages** (decks 1)
+[Card entry](../cards/W/we.md#weakstone) · **2 pages** (decks 1 · lore & story 1)
 
 - **Decks (1):** [Urza, Lord High Artificer](../decks/lore-brothers-war-urza-lord-high-artificer.md)
+- **Lore & story (1):** [Items & Artifacts Index → Mightstone & Weakstone](../Items%20%26%20Artifacts%20Index.md#mightstone--weakstone)
 
 ### Weaponcraft Enthusiast
 

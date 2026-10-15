@@ -2,7 +2,7 @@
 title: "EDH Deck Template"
 category: edh
 tags: [template, blueprint, swap-ledger, methodology]
-issues: [62, 81]
+issues: [62, 81, 96]
 generated_by: hand-written
 sources: [grixis-repo, cr]
 related: ["EDH Deck Evaluation Checklist.md", "EDH Standards.md", "EDH Lore-Themed Deckbuilding.md", "grixis/README.md", "EDH Win Conditions.md", "grixis/Grixis Packages.md"]
@@ -60,7 +60,7 @@ Companion:      none, or name + Commander legality as a companion (e.g. Lutri is
 Then record, with numbers where they mean something: land count, basics, average nonland MV, ramp, draw/selection, interaction, protection, engines, payoffs, recursion and finishers. Name the weakest retained cards and packages.
 
 ## 4. Swap ledger
-**(from the Grixis repo, Protocol §7 and `refinement/Candidate_Decision_Ledger_TEMPLATE.csv`)**. The unit of optimization is a **named swap**: "For this role, is Candidate A a meaningful improvement over Cut B for this commander, and what evidence would change our mind?"
+**(from the Grixis repo, Protocol §7 and `refinement/Candidate_Decision_Ledger_TEMPLATE.csv`)**. The unit of optimization is a **named swap**: "For this named role or package, is Candidate A a meaningful improvement over Cut B for this commander, and what evidence would change our mind?"
 
 | ID | Role / package | Candidate | Proposed cut | Expected benefit | Trade-off | Oracle, identity and legality checked | Evidence (EDHREC inclusion/Lift, sample size, date; Spellbook; tests) | Decision | Reason |
 |---|---|---|---|---|---|---|---|---|---|

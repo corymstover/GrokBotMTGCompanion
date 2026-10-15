@@ -2,7 +2,7 @@
 title: "EDH Standards"
 category: edh
 tags: [deckbuilding-rules, color-identity, brackets]
-issues: [6]
+issues: [6, 96]
 generated_by: hand-written
 sources: [cr, wotc-articles]
 related: ["grixis/Grixis Corrections.md", "EDH Archetypes.md", "EDH Staples.md", "EDH Deck Template.md", "EDH Deck Evaluation Checklist.md", "EDH Win Conditions.md"]
@@ -91,7 +91,7 @@ Card legality in every entry comes from Scryfall. Latest Commander-specific B&R 
 <!-- BANNED-LIST:END -->
 
 ## Game Changers
-Definition (official): cards that "can dramatically warp Commander games… run away with resources… block people from play, efficiently search for their strongest cards, or have commanders that tend to take away from more casual games." Brackets 1–2: none; Bracket 3: up to three; Brackets 4–5: unlimited. Feb 9 2026: **Farewell** and **Biorhythm** added; **Lutri** deliberately not added.
+Definition (official, [Commander format page](https://magic.wizards.com/en/formats/commander)): cards that "can dramatically warp Commander games… run away with resources… block people from play, efficiently search for their strongest cards, or have commanders that tend to take away from more casual games." Brackets 1–2: none; Bracket 3: up to three; Brackets 4–5: unlimited. Feb 9 2026: **Farewell** and **Biorhythm** added; **Lutri** deliberately not added.
 
 <!-- GAME-CHANGERS:START -->
 *Auto-generated from Scryfall bulk data (2026-10-15); Scryfall mirrors the official lists.* **53 Game Changers:**
@@ -251,6 +251,6 @@ Bot cycle 16 ([#62](https://github.com/corymstover/GrokBotMTGCompanion/issues/62
 A Rule 0 group may allow banned cards or companions. Lists published in this repo must be **officially Commander-legal**. A house-allowed card is recorded separately and replaced or flagged, never labeled legal. Example: the Grixis import replaced Trade Secrets and Yawgmoth's Bargain and dropped Lutri as companion ([corrections table](grixis/Grixis%20Corrections.md#corrections-table)).
 
 ## Open questions
-- ❓ The Commander format page says "choose a legendary creature or artifact" while CR 903.3 (2026-09-25) specifies creature, Vehicle, or Spacecraft-with-P/T. This repo follows the CR.
+- ❓ The [Commander format page](https://magic.wizards.com/en/formats/commander) says "choose a legendary creature or artifact" while CR 903.3 (2026-09-25) specifies creature, Vehicle, or Spacecraft-with-P/T. This repo follows the CR.
 - ❓ Brackets remain "beta"; the Feb 2026 update said the beta tag may be dropped later in 2026. Re-check each cycle.
 - ✅ Two-card combo detection is automated through Commander Spellbook (`scripts/detect_combos.py`, `scripts/evaluate_decklist.py --combos`). Spellbook is community-maintained, so a missing combo does not prove that none exists.

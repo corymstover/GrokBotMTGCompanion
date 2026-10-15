@@ -256,12 +256,31 @@ def insert(text, a, p):
     return pre + body
 
 
+def lore_section(all_a):
+    """Bot cycle 32 (#95): lore decks get the same calibration row plus their lore score and story-map coverage."""
+    spec = json.loads((ROOT / "data" / "lore_decks" / "lore_decks.json").read_text(encoding="utf-8"))
+    sm = {f"decks/{d['slug']}.md": d.get("story_map", {}) for d in spec["decks"]}
+    L = ["", "## Lore decks", "",
+         "Story-first decks ([EDH Lore-Themed Deckbuilding](EDH%20Lore-Themed%20Deckbuilding.md)). They are calibrated like every other deck. "
+         "*Lore score* = story-linked share of non-basic cards (≥ 85% standard, `scripts/build_lore_decks.py --check`). "
+         "*Story map* = non-playability packages that point at a [lore entry](Lore%20Entry%20Index.md) (each entry links the deck back; `scripts/check_lore.py`).", "",
+         "| Deck | Floor | GC | 2-card ∞ | Lands | Avg MV | Lore score | Story map | Pilot & story notes |", "|---|---|---|---|---|---|---|---|---|"]
+    for a in sorted((a for a in all_a if a["kind"] == "lore"), key=lambda a: a["title"]):
+        m = re.search(r"^lore_score: ([\d.]+)", a["text"], re.M)
+        pk = {k: v for k, v in sm.get(a["path"], {}).items() if not k.startswith("Playability")}
+        cov = f"{sum(1 for v in pk.values() if v)}/{len(pk)} packages" if pk else "—"
+        path = a["path"].replace(" ", "%20")
+        L.append(f"| [{a['title'].replace('Lore Deck — ', '')}]({path}#bracket-calibration--pilot-notes) | **{a['floor']}** | {len(a['gcs'])} | {len(a['two'])} | {a['lands']} | {a['avg_mv']} | "
+                 f"{m.group(1) + '%' if m else '—'} | {cov} | [calibration]({path}#pilot-notes-guidance) · [story map]({path}#story-map) |")
+    return L
+
+
 def summary_page(all_a):
     by_floor = Counter(a["floor"] for a in all_a)
     L = ["# EDH Bracket Calibration", "",
          f"> **Auto-generated** by `scripts/deck_calibration.py` (Bot cycle 19, issue [#68]({I}68)). One row per deck in [decks/](decks/) and [grixis/decks/](grixis/README.md). "
          "Floors are facts from the official barometers ([EDH Standards → Power bracket assessment](EDH%20Standards.md#power-bracket-assessment)); stated targets and community data are context; every deck page carries the full rationale and pilot notes (guidance).", "",
-         "## Contents", "- [Summary](#summary)", "- [All decks](#all-decks)", "- [Targets below the floor](#targets-below-the-floor)", "- [Method](#method)", "",
+         "## Contents", "- [Summary](#summary)", "- [All decks](#all-decks)", "- [Targets below the floor](#targets-below-the-floor)", "- [Lore decks](#lore-decks)", "- [Method](#method)", "",
          "## Summary", "",
          f"- **{len(all_a)} decks**: floor Bracket 2: **{by_floor[2]}** · Bracket 3: **{by_floor[3]}** · Bracket 4: **{by_floor[4]}**.",
          f"- Set by Game Changers (> 3): {sum(1 for a in all_a if len(a['gcs']) > 3)} · mass land denial: {sum(1 for a in all_a if a['mld'])} · two-card infinites: {sum(1 for a in all_a if a['two'])} decks ({sum(len(a['two']) for a in all_a)} combos).",
@@ -275,6 +294,7 @@ def summary_page(all_a):
     below = [a for a in all_a if a["target"] and a["target"] < a["floor"]]
     L += ["", "## Targets below the floor", ""]
     L += [f"- [{a['title']}]({a['path'].replace(' ', '%20')}#bracket-calibration--pilot-notes): target {a['target']}, floor {a['floor']}" for a in below] or ["None: every stated target is at or above the deck's floor."]
+    L += lore_section(all_a)
     L += ["", "## Method", "",
           "- **Floor (fact):** 0 Game Changers → 2 · 1–3 → 3 · 4+ → 4; any mass land denial → 4; any two-card infinite (Commander Spellbook, complete in the list) → at least 3. The highest applies. Game Changer and Oracle data: Scryfall bulk; combos: each deck's Spellbook block.",
           "- **Not a floor input:** tutors (the Oct 2025 update removed tutor limits) and extra turns beyond Bracket 1 (\"low quantity\" is a judgment). Both are shown.",

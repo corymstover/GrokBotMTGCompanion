@@ -5,7 +5,7 @@ tags: [tags, releases, snapshots]
 issues: [47]
 generated_by: hand-written
 sources: []
-related: ["Front-Matter Schema.md", "Knowledge Index.md", "Progress Tracker.md", "ROADMAP.md"]
+related: ["Front-Matter Schema.md", "Knowledge Index.md", "Progress Tracker.md", "ROADMAP.md", "Update Log.md"]
 schema: 2
 ---
 
@@ -45,6 +45,8 @@ Rules: tag the **merge commit on `main`** after `verify_cards.py` and `check_lin
 | `v1.7-cycle9-phase3-complete` | 63dbeb7 | Phase 3 (Card & Rules enrichment) complete. Merge of PR #55 (Bot cycles 9–13: keywords, printings, legality, tokens, artists). Tagged in Bot cycle 15 |
 | `v1.8-cycle15-phase4-complete` | merge of the Bot cycle 15 PR | Phase 4 (Structure & usability) complete: front-matter, FAQ, Lookup Guide, this page |
 | `v1.9-grixis-integration` | merge of the Bot cycle 16 PR | Grixis section (40 decks, corrections, packages, evaluation of all 62 source lists) and the any-identity deck template, evaluation checklist and `evaluate_decklist.py` |
+| `v2.2-phase7-optimization` | merge of the Bot cycle 32 PR | Phase 7 lore optimization pass (Bot cycles 31–32, #92–#96): 280 lore entries indexed with computed tags; bidirectional lore cross-references (1,460 symmetric relations, reciprocity checked); lore-deck story maps + Lore decks section in EDH Bracket Calibration; verbatim quote checks on 25 lore and rules/EDH pages (2,719 quotes) |
+| `v2.1-phase6-lore` | 5ec2486 (Bot cycle 30) | Phase 6 lore deepening: 40 arcs, 38 dossiers, 42 planes, 26 items, 29 retcons, 596 primary pages (row added in Bot cycle 32; it was missing) |
 | `v2.0-phase5-optimization` | merge of the Bot cycle 19 PR | Phase 5 optimization pass: front-matter schema v2 on pages, decks, card shards and reverse-index pages; `kb_find` retrieval index; `validate_all.py` (links, schema, index, cross-refs, calibration, citations, Oracle drift, decks, freshness); reverse card index and cross-references; bracket calibration & pilot notes in all 86 decks |
 
 ## Using a snapshot

@@ -1,7 +1,7 @@
 {
 "schema": 2,
 "generated_by": "scripts/kb_find.py --build",
-"entries": 427,
+"entries": 447,
 "note": "Pages, decks and lore entries (Bot cycle 31); card entries are indexed by data/card_index.csv.",
 "items": [
 {
@@ -347,7 +347,9 @@
 "editing-rules"
 ]
 ],
-"issues": [],
+"issues": [
+"96"
+],
 "related": [
 "EDH Standards.md",
 "Front-Matter Schema.md",
@@ -922,15 +924,16 @@
 "20",
 "74",
 "92",
+"93",
 "94"
 ],
 "related": [
 "Conflicts & Arcs.md",
-"Master Timeline.md",
 "Planes Index.md",
 "Planeswalker Dossiers.md",
-"Contradictions & Retcons Log.md",
-"Story Arc Summaries.md"
+"Master Timeline.md",
+"Story Arc Summaries.md",
+"Contradictions & Retcons Log.md"
 ]
 },
 {
@@ -1177,15 +1180,16 @@
 "72",
 "73",
 "92",
+"93",
 "94"
 ],
 "related": [
 "Characters Index.md",
-"Master Timeline.md",
 "Planes Index.md",
-"Contradictions & Retcons Log.md",
+"Master Timeline.md",
 "Items & Artifacts Index.md",
-"Lore Primary Sources.md"
+"Contradictions & Retcons Log.md",
+"Story Arc Summaries.md"
 ]
 },
 {
@@ -1410,14 +1414,15 @@
 "73",
 "76",
 "92",
+"93",
 "94"
 ],
 "related": [
-"Conflicts & Arcs.md",
 "Characters Index.md",
-"Planeswalker Dossiers.md",
-"Items & Artifacts Index.md",
+"Conflicts & Arcs.md",
 "Planes Index.md",
+"Items & Artifacts Index.md",
+"Planeswalker Dossiers.md",
 "Master Timeline.md"
 ]
 },
@@ -1535,15 +1540,22 @@
 ],
 [
 2,
+"Lore decks",
+"lore-decks"
+],
+[
+2,
 "Method",
 "method"
 ]
 ],
 "issues": [
-"68"
+"68",
+"95"
 ],
 "related": [
 "EDH Standards.md",
+"EDH Lore-Themed Deckbuilding.md",
 "cEDH Primer.md",
 "grixis/README.md"
 ]
@@ -1603,7 +1615,8 @@
 ],
 "issues": [
 "62",
-"81"
+"81",
+"96"
 ],
 "related": [
 "EDH Deck Template.md",
@@ -1669,7 +1682,8 @@
 ],
 "issues": [
 "62",
-"81"
+"81",
+"96"
 ],
 "related": [
 "EDH Deck Evaluation Checklist.md",
@@ -1909,7 +1923,8 @@
 "issues": [
 "79",
 "80",
-"81"
+"81",
+"95"
 ],
 "related": [
 "Conflicts & Arcs.md",
@@ -2206,7 +2221,8 @@
 ]
 ],
 "issues": [
-"31"
+"31",
+"96"
 ],
 "related": [
 "EDH Archetypes.md",
@@ -2709,7 +2725,8 @@
 ]
 ],
 "issues": [
-"6"
+"6",
+"96"
 ],
 "related": [
 "grixis/Grixis Corrections.md",
@@ -3316,7 +3333,8 @@
 ]
 ],
 "issues": [
-"27"
+"27",
+"96"
 ],
 "related": [
 "Rules Interactions.md",
@@ -3505,7 +3523,8 @@
 ]
 ],
 "issues": [
-"45"
+"45",
+"96"
 ],
 "related": [
 "Rules Interactions.md",
@@ -3649,7 +3668,8 @@
 ]
 ],
 "issues": [
-"41"
+"41",
+"96"
 ],
 "related": [
 "EDH Standards.md"
@@ -3896,14 +3916,16 @@
 "issues": [
 "75",
 "92",
+"93",
 "94"
 ],
 "related": [
+"Characters Index.md",
 "Conflicts & Arcs.md",
-"Contradictions & Retcons Log.md",
 "Planes Index.md",
-"Lore Primary Sources.md",
-"Planeswalker Dossiers.md"
+"Planeswalker Dossiers.md",
+"Master Timeline.md",
+"Contradictions & Retcons Log.md"
 ]
 },
 {
@@ -4134,7 +4156,8 @@
 ]
 ],
 "issues": [
-"39"
+"39",
+"96"
 ],
 "related": [
 "Rules Interactions.md"
@@ -4225,7 +4248,8 @@
 "Front-Matter Schema.md",
 "Knowledge Index.md",
 "Progress Tracker.md",
-"ROADMAP.md"
+"ROADMAP.md",
+"Update Log.md"
 ]
 },
 {
@@ -4307,6 +4331,11 @@
 2,
 "Arcs (Conflicts & Arcs)",
 "arcs-conflicts--arcs"
+],
+[
+2,
+"Arc summaries (Story Arc Summaries)",
+"arc-summaries-story-arc-summaries"
 ],
 [
 2,
@@ -4464,15 +4493,16 @@
 "7",
 "72",
 "92",
+"93",
 "94"
 ],
 "related": [
 "Characters Index.md",
 "Conflicts & Arcs.md",
-"Contradictions & Retcons Log.md",
 "Planes Index.md",
-"EDH Lore-Themed Deckbuilding.md",
-"Omenpath & Multiverse Connections.md"
+"Items & Artifacts Index.md",
+"Contradictions & Retcons Log.md",
+"Story Arc Summaries.md"
 ]
 },
 {
@@ -4774,15 +4804,16 @@
 "12",
 "74",
 "92",
+"93",
 "94"
 ],
 "related": [
 "Characters Index.md",
 "Conflicts & Arcs.md",
-"Contradictions & Retcons Log.md",
-"Items & Artifacts Index.md",
+"Planeswalker Dossiers.md",
 "Master Timeline.md",
-"Planeswalker Dossiers.md"
+"Story Arc Summaries.md",
+"Items & Artifacts Index.md"
 ]
 },
 {
@@ -5002,15 +5033,16 @@
 "35",
 "74",
 "92",
+"93",
 "94"
 ],
 "related": [
 "Characters Index.md",
+"Planes Index.md",
+"Items & Artifacts Index.md",
 "Contradictions & Retcons Log.md",
 "EDH Lore-Themed Deckbuilding.md",
-"Planes Index.md",
-"Art & Flavor Story Links.md",
-"Items & Artifacts Index.md"
+"Art & Flavor Story Links.md"
 ]
 },
 {
@@ -5056,7 +5088,8 @@
 ]
 ],
 "issues": [
-"40"
+"40",
+"96"
 ],
 "related": []
 },
@@ -5156,10 +5189,10 @@
 "related": [
 "Front-Matter Schema.md",
 "Progress Tracker.md",
+"EDH Bracket Calibration.md",
 "EDH Lore-Themed Deckbuilding.md",
 "Items & Artifacts Index.md",
-"Lookup Guide.md",
-"Lore Primary Sources.md"
+"Lookup Guide.md"
 ]
 },
 {
@@ -5315,7 +5348,8 @@
 ]
 ],
 "issues": [
-"9"
+"9",
+"96"
 ],
 "related": [
 "EDH Archetypes.md",
@@ -5494,15 +5528,17 @@
 ]
 ],
 "issues": [
-"34"
+"34",
+"93",
+"96"
 ],
 "related": [
-"Conflicts & Arcs.md",
-"Art & Flavor Story Links.md",
-"Omenpath & Multiverse Connections.md",
-"Side-Media Index.md",
 "Characters Index.md",
-"Planes Index.md"
+"Planes Index.md",
+"Conflicts & Arcs.md",
+"Items & Artifacts Index.md",
+"Art & Flavor Story Links.md",
+"Omenpath & Multiverse Connections.md"
 ]
 },
 {
@@ -5653,7 +5689,8 @@
 ]
 ],
 "issues": [
-"42"
+"42",
+"96"
 ],
 "related": []
 },
@@ -5666,6 +5703,11 @@
 "changelog"
 ],
 "headings": [
+[
+2,
+"2026-10-15 — Bot cycle 32 (Phase 7 complete: lore cross-refs, story maps, rules quote checks)",
+"2026-10-15--bot-cycle-32-phase-7-complete-lore-cross-refs-story-maps-rules-quote-checks"
+],
 [
 2,
 "2026-10-15 — Bot cycle 31 (Phase 7: lore retrieval + validation)",
@@ -7940,8 +7982,13 @@
 ],
 [
 2,
-"Pilot notes (guidance)",
-"pilot-notes-guidance-1"
+"Story pilot notes (guidance)",
+"story-pilot-notes-guidance"
+],
+[
+3,
+"Story map",
+"story-map"
 ],
 [
 2,
@@ -8035,8 +8082,13 @@
 ],
 [
 2,
-"Pilot notes (guidance)",
-"pilot-notes-guidance-1"
+"Story pilot notes (guidance)",
+"story-pilot-notes-guidance"
+],
+[
+3,
+"Story map",
+"story-map"
 ],
 [
 2,
@@ -51346,6 +51398,11 @@
 ],
 [
 3,
+"The Biblioplex",
+"the-biblioplex"
+],
+[
+3,
 "The Big Idea",
 "the-big-idea"
 ],
@@ -61088,6 +61145,242 @@
 "tags": [
 "arc",
 "has-non-canonical"
+],
+"headings": []
+},
+{
+"path": "Story Arc Summaries.md#battle-for-zendikar--oath-of-the-gatewatch-201516",
+"kind": "entry",
+"entry_kind": "summary",
+"title": "Battle for Zendikar & Oath of the Gatewatch (2015–16)",
+"category": "lore",
+"tags": [
+"summary"
+],
+"headings": []
+},
+{
+"path": "Story Arc Summaries.md#shadows-over-innistrad--eldritch-moon-2016",
+"kind": "entry",
+"entry_kind": "summary",
+"title": "Shadows over Innistrad & Eldritch Moon (2016)",
+"category": "lore",
+"tags": [
+"summary",
+"has-secondary"
+],
+"headings": []
+},
+{
+"path": "Story Arc Summaries.md#kaladesh--aether-revolt-201617",
+"kind": "entry",
+"entry_kind": "summary",
+"title": "Kaladesh & Aether Revolt (2016–17)",
+"category": "lore",
+"tags": [
+"summary"
+],
+"headings": []
+},
+{
+"path": "Story Arc Summaries.md#amonkhet--hour-of-devastation-2017",
+"kind": "entry",
+"entry_kind": "summary",
+"title": "Amonkhet & Hour of Devastation (2017)",
+"category": "lore",
+"tags": [
+"summary"
+],
+"headings": []
+},
+{
+"path": "Story Arc Summaries.md#return-to-dominaria-2018",
+"kind": "entry",
+"entry_kind": "summary",
+"title": "Return to Dominaria (2018)",
+"category": "lore",
+"tags": [
+"summary",
+"has-secondary"
+],
+"headings": []
+},
+{
+"path": "Story Arc Summaries.md#war-of-the-spark-2019",
+"kind": "entry",
+"entry_kind": "summary",
+"title": "War of the Spark (2019)",
+"category": "lore",
+"tags": [
+"summary"
+],
+"headings": []
+},
+{
+"path": "Story Arc Summaries.md#phyrexia-all-will-be-one--assault-on-new-phyrexia",
+"kind": "entry",
+"entry_kind": "summary",
+"title": "Phyrexia: All Will Be One — *Assault on New Phyrexia*",
+"category": "lore",
+"tags": [
+"summary"
+],
+"headings": []
+},
+{
+"path": "Story Arc Summaries.md#march-of-the-machine",
+"kind": "entry",
+"entry_kind": "summary",
+"title": "March of the Machine",
+"category": "lore",
+"tags": [
+"summary",
+"has-unknowns"
+],
+"headings": []
+},
+{
+"path": "Story Arc Summaries.md#wilds-of-eldraine-2023",
+"kind": "entry",
+"entry_kind": "summary",
+"title": "Wilds of Eldraine (2023)",
+"category": "lore",
+"tags": [
+"summary",
+"has-unknowns"
+],
+"headings": []
+},
+{
+"path": "Story Arc Summaries.md#the-lost-caverns-of-ixalan-2023",
+"kind": "entry",
+"entry_kind": "summary",
+"title": "The Lost Caverns of Ixalan (2023)",
+"category": "lore",
+"tags": [
+"summary"
+],
+"headings": []
+},
+{
+"path": "Story Arc Summaries.md#murders-at-karlov-manor-2024",
+"kind": "entry",
+"entry_kind": "summary",
+"title": "Murders at Karlov Manor (2024)",
+"category": "lore",
+"tags": [
+"summary",
+"has-unknowns"
+],
+"headings": []
+},
+{
+"path": "Story Arc Summaries.md#outlaws-of-thunder-junction-2024",
+"kind": "entry",
+"entry_kind": "summary",
+"title": "Outlaws of Thunder Junction (2024)",
+"category": "lore",
+"tags": [
+"summary",
+"has-unknowns"
+],
+"headings": []
+},
+{
+"path": "Story Arc Summaries.md#bloomburrow-2024",
+"kind": "entry",
+"entry_kind": "summary",
+"title": "Bloomburrow (2024)",
+"category": "lore",
+"tags": [
+"summary",
+"has-unknowns"
+],
+"headings": []
+},
+{
+"path": "Story Arc Summaries.md#duskmourn-house-of-horror-2024",
+"kind": "entry",
+"entry_kind": "summary",
+"title": "Duskmourn: House of Horror (2024)",
+"category": "lore",
+"tags": [
+"summary",
+"has-unknowns"
+],
+"headings": []
+},
+{
+"path": "Story Arc Summaries.md#aetherdrift-2025",
+"kind": "entry",
+"entry_kind": "summary",
+"title": "Aetherdrift (2025)",
+"category": "lore",
+"tags": [
+"summary",
+"has-unknowns"
+],
+"headings": []
+},
+{
+"path": "Story Arc Summaries.md#tarkir-dragonstorm-2025",
+"kind": "entry",
+"entry_kind": "summary",
+"title": "Tarkir: Dragonstorm (2025)",
+"category": "lore",
+"tags": [
+"summary",
+"has-unknowns"
+],
+"headings": []
+},
+{
+"path": "Story Arc Summaries.md#edge-of-eternities-2025",
+"kind": "entry",
+"entry_kind": "summary",
+"title": "Edge of Eternities (2025)",
+"category": "lore",
+"tags": [
+"summary",
+"has-secondary",
+"has-unknowns"
+],
+"headings": []
+},
+{
+"path": "Story Arc Summaries.md#lorwyn-eclipsed-202526",
+"kind": "entry",
+"entry_kind": "summary",
+"title": "Lorwyn Eclipsed (2025–26)",
+"category": "lore",
+"tags": [
+"summary",
+"has-unknowns"
+],
+"headings": []
+},
+{
+"path": "Story Arc Summaries.md#secrets-of-strixhaven-2026",
+"kind": "entry",
+"entry_kind": "summary",
+"title": "Secrets of Strixhaven (2026)",
+"category": "lore",
+"tags": [
+"summary",
+"has-secondary"
+],
+"headings": []
+},
+{
+"path": "Story Arc Summaries.md#reality-fracture-2026",
+"kind": "entry",
+"entry_kind": "summary",
+"title": "Reality Fracture (2026)",
+"category": "lore",
+"tags": [
+"summary",
+"has-secondary",
+"has-unknowns"
 ],
 "headings": []
 }

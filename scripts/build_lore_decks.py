@@ -22,6 +22,8 @@ import ingest_scryfall as ing  # noqa: E402
 import evaluate_decklist as ev  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
+import lore_lib as _LL  # noqa: E402  (Bot cycle 32: names of lore entries for the story map)
+ENTRY_NAMES = {f"{e['page']}#{e['anchor']}": e["name"] for e in _LL.all_entries()}
 SPEC = ROOT / "data/lore_decks/lore_decks.json"
 COMBOS = ROOT / "data/lore_decks/combos.json"
 API = "https://backend.commanderspellbook.com/find-my-combos"
@@ -121,17 +123,19 @@ def build(d, by, idx, sets, flav, R, combos):
     pk = {}
     for c in d["cards"]:
         pk.setdefault(c["package"], []).append(c["name"])
-    lands = sum(1 for n in names if "Land" in by[n]["type_line"]) + d["basics"]
+    front = lambda c: (c.get("card_faces") or [c])[0].get("type_line", c.get("type_line", ""))
+    lands = sum(1 for n in names if "Land" in front(by[n]).split("—")[0]) + int(d["basics"])  # Bot cycle 32: front face, as deck_calibration.py
+    mdfc = sorted(n for n in names if "Land" in by[n]["type_line"] and "Land" not in front(by[n]).split("—")[0])
     L = [f"# {d['title']}", "",
          f"> **Lore-themed deck (story-first, not power-first).** Built by `scripts/build_lore_decks.py` (Bot cycle 21, [#80]({I}80); 85% standard Bot cycle 23) under [EDH Lore-Themed Deckbuilding](../EDH%20Lore-Themed%20Deckbuilding.md). Card data and legality are facts from Scryfall bulk; story claims cite official magic.wizards.com pages; package choices, pilot notes and *How the deck tells it* are **guidance**. ✅ sourced · ⚠️ uncertain · 🚫 non-canonical.",
          "", "## Contents", "- [Story the deck tells](#story-the-deck-tells)", "- [Commander](#commander)", "- [Validation](#validation)", "- [Bracket assessment](#bracket-assessment)",
          "- [Lore score](#lore-score)", "- [Packages](#packages)", "- [Decklist (Archidekt import)](#decklist-archidekt-import)", "- [Card breakdown](#card-breakdown)",
-         "- [Pilot notes (guidance)](#pilot-notes-guidance)", "- [Combos (Commander Spellbook)](#combos-commander-spellbook)", "",
+         "- [Story pilot notes (guidance)](#story-pilot-notes-guidance)", "- [Combos (Commander Spellbook)](#combos-commander-spellbook)", "",
          "## Story the deck tells", "", d["story"], "",
-         f"Lore links: [Conflicts & Arcs](../Conflicts%20%26%20Arcs.md#{d['arc_anchor']}) · [Characters Index](../Characters%20Index.md#{d['character_anchor']}) · [Planes Index → {d['plane']}](../Planes%20Index.md#planes-with-official-profiles) · [Master Timeline](../Master%20Timeline.md)", "",
+         f"Lore links: [Conflicts & Arcs](../Conflicts%20%26%20Arcs.md#{d['arc_anchor']}) · [Characters Index](../Characters%20Index.md#{d['character_anchor']}) · [Planes Index → {d['plane']}](../Planes%20Index.md#{d.get('plane_anchor', 'planes-with-official-profiles')}) · [Master Timeline](../Master%20Timeline.md)", "",
          "## Commander", "", f"- **{lk(d['commander'])}** — {cmd.get('mana_cost','')} — {cmd['type_line']}",
          f"- Color identity: **{ci}**", "- Eligibility: Yes (" + ("its Oracle text says it can be your commander" if "can be your commander" in (cmd.get("oracle_text") or "") else "legendary creature") + ")", "",
-         "## Validation", "", f"- Total cards: **{res['total']}** ({lands} lands incl. {d['basics']} basics)",
+         "## Validation", "", f"- Total cards: **{res['total']}** ({lands} lands incl. {d['basics']} basics" + (f"; plus {len(mdfc)} modal double-faced spell/land: {', '.join(mdfc)}" if mdfc else "") + ")",
          "- Strict color identity (CR 903.5c), singleton (903.5b), Commander-legal, size (903.5a): " + ("✅ **all checks pass**" if not hard else "❌ " + "; ".join(i['detail'] for i in hard)),
          f"- Checked with `scripts/evaluate_decklist.py` against Scryfall bulk {R.bulk[:10]}.", "",
          "## Bracket assessment", "", (f"- Game Changers ({len(gcs)}): " + ", ".join(gcs)) if gcs else "- Game Changers: no Game Changers",
@@ -145,11 +149,25 @@ def build(d, by, idx, sets, flav, R, combos):
     L += ["", "## Decklist (Archidekt import)", "", "```text", text.rstrip(), "```", "",
           "## Card breakdown", "", "*Why this card belongs:* evidence first, then package. Quotes are flavor text from a paper printing (Scryfall).", "",
           "| Card | Package | Why it belongs | Identity |", "|---|---|---|---|"] + rows
-    L += ["", "## Pilot notes (guidance)", "",
-          f"- **Mana (fact):** {lands} lands. **Guidance:** keep hands with 3+ lands or 2 lands plus a mana rock; the deck is slower than a tuned list by design.",
+    sm = d.get("story_map", {})
+    L += ["", "## Story pilot notes (guidance)", "",
+          "> Bot cycle 32 ([#95](" + I + "95)). Opening-hand odds, interaction counts and the floor are in [Bracket calibration & pilot notes](#bracket-calibration--pilot-notes) (generated, same as every deck). This section adds the lore side: which story each package plays out, linked to the [lore entries](../Lore%20Entry%20Index.md) that cite it. Package-to-entry pointers are curated in `data/lore_decks/lore_decks.json` (`story_map`); `scripts/check_lore.py` checks that every pointer resolves, and each entry links back.", "",
+          f"- **Mana (fact):** {lands} lands" + (f" (front face; +{len(mdfc)} modal double-faced spell/land)" if mdfc else "") + ". **Guidance:** keep hands with 3+ lands or 2 lands plus a mana rock; the deck is slower than a tuned list by design.",
           "- **Win path (guidance):** " + d.get("win_path", "combat with the commander's package; the story finale card is a fun closer, not a guaranteed one."),
           "- **Interaction (guidance):** the list keeps a small removal/counter suite so the story can reach its ending; hold it for threats that end the game.",
-          f"- **Pregame talk (guidance):** say it is a lore deck at Bracket {floor}, {len(gcs)} Game Changers, {len(two)} two-card infinites.", ""]
+          f"- **Pregame talk (guidance):** say it is a lore deck at Bracket {floor}, {len(gcs)} Game Changers, {len(two)} two-card infinites.",
+          "- **Telling the story at the table (guidance):** name the package when you cast its first card. The table below is the cheat sheet.", ""]
+    if sm:
+        def ent(k):
+            pg, _, a = k.partition("#")
+            lab = {"Conflicts & Arcs.md": "Arc", "Planes Index.md": "Plane", "Items & Artifacts Index.md": "Item", "Planeswalker Dossiers.md": "Dossier",
+                   "Characters Index.md": "Character", "Contradictions & Retcons Log.md": "Retcon", "Master Timeline.md": "Era"}[pg]
+            return f"{lab}: [{ENTRY_NAMES.get(k, a)}](../{pg.replace(' ', '%20').replace('&', '%26')}#{a})"
+        L += ["### Story map", "", "| Package | Cards | Story it plays out (lore entries) |", "|---|---|---|"]
+        for pkg in sorted(pk, key=lambda x: (-len(pk[x]), x)):
+            ks = sm.get(pkg, [])
+            L.append(f"| {pkg} | {len(pk[pkg])} | " + (" · ".join(ent(k) for k in ks) if ks else ("— (playability slots)" if pkg.startswith("Playability") else "— ⚠️ no lore entry covers this yet")) + " |")
+        L.append("")
     blk = [C_START, "## Combos (Commander Spellbook)", "", f"> From the [Commander Spellbook](https://commanderspellbook.com) API ({cb['date']}); only combos complete in this list."]
     if not cb["combos"]:
         blk += ["", f"**No complete combos found** ({cb['almost']} combos are one card away — not listed)."]
