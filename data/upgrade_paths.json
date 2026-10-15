@@ -1,0 +1,1222 @@
+{
+ "source": "json.edhrec.com budget/expensive commander pages",
+ "delta": 0.1,
+ "commanders": {
+  "Animar, Soul of Elements": {
+   "upgrades": {
+    "Step 1 \u2014 cheap upgrades (\u2264 $5)": [
+     "Birds of Paradise",
+     "Phyrexian Metamorph",
+     "Rejuvenating Springs",
+     "Fyndhorn Elves",
+     "Elvish Spirit Guide",
+     "Eldritch Evolution"
+    ],
+    "Step 2 \u2014 mid upgrades ($5\u2013$20)": [
+     "Breeding Pool",
+     "Stomping Ground",
+     "Steam Vents",
+     "Wooded Foothills",
+     "Bloom Tender",
+     "Walking Ballista"
+    ],
+    "Step 3 \u2014 optimized (> $20)": [
+     "Tropical Island",
+     "Taiga",
+     "Volcanic Island",
+     "Gaea's Cradle",
+     "Misty Rainforest",
+     "Scalding Tarn"
+    ]
+   },
+   "cuts": [
+    "Frontier Bivouac",
+    "Evolving Wilds",
+    "Solemn Simulacrum",
+    "Terramorphic Expanse",
+    "Cinder Glade",
+    "Artisan of Kozilek",
+    "Temple of Mystery",
+    "Sakura-Tribe Elder"
+   ]
+  },
+  "Atraxa, Praetors' Voice": {
+   "upgrades": {
+    "Step 1 \u2014 cheap upgrades (\u2264 $5)": [
+     "Birds of Paradise",
+     "Reflecting Pool",
+     "Rejuvenating Springs",
+     "Nature's Lore",
+     "Swords to Plowshares",
+     "Vraska, Betrayal's Sting"
+    ],
+    "Step 2 \u2014 mid upgrades ($5\u2013$20)": [
+     "Flooded Strand",
+     "Breeding Pool",
+     "Windswept Heath",
+     "Hallowed Fountain",
+     "Watery Grave",
+     "Overgrown Tomb"
+    ],
+    "Step 3 \u2014 optimized (> $20)": [
+     "Underground Sea",
+     "Tropical Island",
+     "Bayou",
+     "Savannah",
+     "Tundra",
+     "Scrubland"
+    ]
+   },
+   "cuts": [
+    "Evolving Wilds",
+    "Terramorphic Expanse",
+    "Sandsteppe Citadel",
+    "Arcane Sanctum",
+    "Opulent Palace",
+    "Seaside Citadel",
+    "Necrogen Rotpriest",
+    "Path of Ancestry"
+   ]
+  },
+  "Brago, King Eternal": {
+   "upgrades": {
+    "Step 1 \u2014 cheap upgrades (\u2264 $5)": [
+     "Lightning Greaves",
+     "Teferi, Time Raveler",
+     "Trinket Mage",
+     "Loran of the Third Path",
+     "Tribute Mage",
+     "Adarkar Wastes"
+    ],
+    "Step 2 \u2014 mid upgrades ($5\u2013$20)": [
+     "Hallowed Fountain",
+     "Flooded Strand",
+     "Sea of Clouds",
+     "Mystic Remora",
+     "Strionic Resonator",
+     "Recruiter of the Guard"
+    ],
+    "Step 3 \u2014 optimized (> $20)": [
+     "Tundra",
+     "Mana Vault",
+     "Cyclonic Rift",
+     "Rhystic Study",
+     "Fierce Guardianship",
+     "Enlightened Tutor"
+    ]
+   },
+   "cuts": [
+    "Tranquil Cove",
+    "Kor Cartographer",
+    "Meteor Golem",
+    "Negate",
+    "Cloudblazer",
+    "Whirler Rogue",
+    "Evolving Wilds",
+    "Inspiring Overseer"
+   ]
+  },
+  "Breya, Etherium Shaper": {
+   "upgrades": {
+    "Step 1 \u2014 cheap upgrades (\u2264 $5)": [
+     "Academy Ruins",
+     "Phyrexian Metamorph",
+     "Silence",
+     "Wishclaw Talisman",
+     "Dark Ritual",
+     "An Offer You Can't Refuse"
+    ],
+    "Step 2 \u2014 mid upgrades ($5\u2013$20)": [
+     "Flooded Strand",
+     "Bloodstained Mire",
+     "Watery Grave",
+     "Hallowed Fountain",
+     "Steam Vents",
+     "Urza, Lord High Artificer"
+    ],
+    "Step 3 \u2014 optimized (> $20)": [
+     "Underground Sea",
+     "Tundra",
+     "Volcanic Island",
+     "Scrubland",
+     "Badlands",
+     "Polluted Delta"
+    ]
+   },
+   "cuts": [
+    "Mystic Monastery",
+    "Arcane Sanctum",
+    "Crumbling Necropolis",
+    "Evolving Wilds",
+    "Sharding Sphinx",
+    "Rustvale Bridge",
+    "Nomad Outpost",
+    "Thopter Spy Network"
+   ]
+  },
+  "Chulane, Teller of Tales": {
+   "upgrades": {
+    "Step 1 \u2014 cheap upgrades (\u2264 $5)": [
+     "Birds of Paradise",
+     "Crop Rotation",
+     "Silence",
+     "Rejuvenating Springs",
+     "Flusterstorm",
+     "Fyndhorn Elves"
+    ],
+    "Step 2 \u2014 mid upgrades ($5\u2013$20)": [
+     "Breeding Pool",
+     "Temple Garden",
+     "Windswept Heath",
+     "Flooded Strand",
+     "Noble Hierarch",
+     "Hallowed Fountain"
+    ],
+    "Step 3 \u2014 optimized (> $20)": [
+     "Gaea's Cradle",
+     "Tundra",
+     "Tropical Island",
+     "Savannah",
+     "Misty Rainforest",
+     "Esper Sentinel"
+    ]
+   },
+   "cuts": [
+    "Evolving Wilds",
+    "Prairie Stream",
+    "Seaside Citadel",
+    "Canopy Vista",
+    "Temple of Mystery",
+    "Selesnya Sanctuary",
+    "Growth Spiral",
+    "Frilled Mystic"
+   ]
+  },
+  "Edgar Markov": {
+   "upgrades": {
+    "Step 1 \u2014 cheap upgrades (\u2264 $5)": [
+     "Master of Dark Rites",
+     "Skullclamp",
+     "Dark Ritual",
+     "Swords to Plowshares",
+     "Anguished Unmaking",
+     "Cordial Vampire"
+    ],
+    "Step 2 \u2014 mid upgrades ($5\u2013$20)": [
+     "Godless Shrine",
+     "Blood Crypt",
+     "Bloodstained Mire",
+     "Sacred Foundry",
+     "Vault of Champions",
+     "Luxury Suite"
+    ],
+    "Step 3 \u2014 optimized (> $20)": [
+     "Badlands",
+     "Scrubland",
+     "Plateau",
+     "Marsh Flats",
+     "Arid Mesa",
+     "Charismatic Conqueror"
+    ]
+   },
+   "cuts": [
+    "Evolving Wilds",
+    "Bloodfell Caves",
+    "Scoured Barrens",
+    "Stensia Masquerade",
+    "Vampire Nighthawk",
+    "Wind-Scarred Crag",
+    "Terramorphic Expanse",
+    "Falkenrath Noble"
+   ]
+  },
+  "Feather, the Redeemed": {
+   "upgrades": {
+    "Step 1 \u2014 cheap upgrades (\u2264 $5)": [
+     "Sundown Pass",
+     "Crimson Wisps",
+     "Needleverge Pathway",
+     "Boros Charm",
+     "Sunbaked Canyon",
+     "Swords to Plowshares"
+    ],
+    "Step 2 \u2014 mid upgrades ($5\u2013$20)": [
+     "Sacred Foundry",
+     "Spectator Seating",
+     "Goldspan Dragon",
+     "Elegant Parlor",
+     "Sunbillow Verge",
+     "Windswept Heath"
+    ],
+    "Step 3 \u2014 optimized (> $20)": [
+     "Arid Mesa",
+     "Plateau",
+     "Esper Sentinel",
+     "Birgi, God of Storytelling",
+     "Smothering Tithe",
+     "Jeska's Will"
+    ]
+   },
+   "cuts": [
+    "Wind-Scarred Crag",
+    "Evolving Wilds",
+    "Adamant Will",
+    "Valorous Stance",
+    "Feat of Resistance",
+    "Anax and Cymede",
+    "Tenth District Legionnaire",
+    "Electrostatic Infantry"
+   ]
+  },
+  "Giada, Font of Hope": {
+   "upgrades": {
+    "Step 1 \u2014 cheap upgrades (\u2264 $5)": [
+     "Bruna, the Fading Light",
+     "Serra's Emissary",
+     "Serra Paragon",
+     "Righteous Valkyrie",
+     "Lightning Greaves",
+     "Archangel of Tithes"
+    ],
+    "Step 2 \u2014 mid upgrades ($5\u2013$20)": [
+     "Archangel of Thune",
+     "Land Tax",
+     "Linvala, Keeper of Silence",
+     "Emeria, the Sky Ruin",
+     "Akroma's Will",
+     "Urza's Incubator"
+    ],
+    "Step 3 \u2014 optimized (> $20)": [
+     "Avacyn, Angel of Hope",
+     "Nykthos, Shrine to Nyx",
+     "Battle Angels of Tyr",
+     "Teferi's Protection",
+     "Cavern of Souls",
+     "Smothering Tithe"
+    ]
+   },
+   "cuts": [
+    "Angel of Finality",
+    "Dazzling Angel",
+    "Heraldic Banner",
+    "Vanguard Seraph",
+    "Serra Avenger",
+    "Sunblast Angel",
+    "Marble Diamond",
+    "Segovian Angel"
+   ]
+  },
+  "Gishath, Sun's Avatar": {
+   "upgrades": {
+    "Step 1 \u2014 cheap upgrades (\u2264 $5)": [
+     "Nature's Lore",
+     "Curious Altisaur",
+     "Birds of Paradise",
+     "Wayward Swordtooth",
+     "Mirari's Wake",
+     "Boros Charm"
+    ],
+    "Step 2 \u2014 mid upgrades ($5\u2013$20)": [
+     "Stomping Ground",
+     "Temple Garden",
+     "Sacred Foundry",
+     "Wooded Foothills",
+     "Windswept Heath",
+     "Apex Altisaur"
+    ],
+    "Step 3 \u2014 optimized (> $20)": [
+     "Ghalta, Stampede Tyrant",
+     "Etali, Primal Conqueror",
+     "Taiga",
+     "Savannah",
+     "Cavern of Souls",
+     "Plateau"
+    ]
+   },
+   "cuts": [
+    "Evolving Wilds",
+    "Thundering Spineback",
+    "Drover of the Mighty",
+    "Raging Swordtooth",
+    "Majestic Heliopterus",
+    "Bellowing Aegisaur",
+    "Belligerent Yearling",
+    "Terramorphic Expanse"
+   ]
+  },
+  "Karador, Ghost Chieftain": {
+   "upgrades": {
+    "Step 1 \u2014 cheap upgrades (\u2264 $5)": [
+     "Birds of Paradise",
+     "Eternal Witness",
+     "Swords to Plowshares",
+     "Life from the Loam",
+     "Assassin's Trophy",
+     "Deathrite Shaman"
+    ],
+    "Step 2 \u2014 mid upgrades ($5\u2013$20)": [
+     "Overgrown Tomb",
+     "Temple Garden",
+     "Godless Shrine",
+     "Windswept Heath",
+     "Reanimate",
+     "Indatha Triome"
+    ],
+    "Step 3 \u2014 optimized (> $20)": [
+     "Verdant Catacombs",
+     "Bayou",
+     "Marsh Flats",
+     "Savannah",
+     "Scrubland",
+     "Phyrexian Tower"
+    ]
+   },
+   "cuts": [
+    "Evolving Wilds",
+    "Deceptive Landscape",
+    "Terramorphic Expanse",
+    "Bringer of the Last Gift",
+    "Sandsteppe Citadel",
+    "Angel of the Ruins",
+    "Canopy Vista",
+    "Jungle Hollow"
+   ]
+  },
+  "Korvold, Fae-Cursed King": {
+   "upgrades": {
+    "Step 1 \u2014 cheap upgrades (\u2264 $5)": [
+     "Birds of Paradise",
+     "Dark Ritual",
+     "Pyroblast",
+     "Tinder Wall",
+     "Red Elemental Blast",
+     "Veil of Summer"
+    ],
+    "Step 2 \u2014 mid upgrades ($5\u2013$20)": [
+     "Bloodstained Mire",
+     "Overgrown Tomb",
+     "Wooded Foothills",
+     "Blood Crypt",
+     "Underworld Breach",
+     "Stomping Ground"
+    ],
+    "Step 3 \u2014 optimized (> $20)": [
+     "Bayou",
+     "Taiga",
+     "Badlands",
+     "Verdant Catacombs",
+     "Demonic Tutor",
+     "Vampiric Tutor"
+    ]
+   },
+   "cuts": [
+    "Evolving Wilds",
+    "Terramorphic Expanse",
+    "Juri, Master of the Revue",
+    "Sakura-Tribe Elder",
+    "Harrow",
+    "Cinder Glade",
+    "Smoldering Marsh",
+    "Riveteers Overlook"
+   ]
+  },
+  "Kozilek, the Great Distortion": {
+   "upgrades": {
+    "Step 1 \u2014 cheap upgrades (\u2264 $5)": [
+     "Voltaic Key",
+     "Urza's Cave",
+     "Deserted Temple",
+     "Expedition Map",
+     "Crystal Vein",
+     "Eldrazi Temple"
+    ],
+    "Step 2 \u2014 mid upgrades ($5\u2013$20)": [
+     "Inventors' Fair",
+     "Ugin's Labyrinth",
+     "Urza's Workshop",
+     "Void Winnower",
+     "Ugin, the Spirit Dragon",
+     "Kozilek's Command"
+    ],
+    "Step 3 \u2014 optimized (> $20)": [
+     "Ancient Tomb",
+     "Mishra's Workshop",
+     "Mana Vault",
+     "Urza's Saga",
+     "Eye of Ugin",
+     "Grim Monolith"
+    ]
+   },
+   "cuts": [
+    "Meteor Golem",
+    "Ulamog's Crusher",
+    "Radiant Fountain",
+    "Endbringer",
+    "Artisan of Kozilek",
+    "Spawning Bed",
+    "Hedron Crawler",
+    "Steel Hellkite"
+   ]
+  },
+  "Krenko, Mob Boss": {
+   "upgrades": {
+    "Step 1 \u2014 cheap upgrades (\u2264 $5)": [
+     "Goblin Recruiter",
+     "Conspicuous Snoop",
+     "Skullclamp",
+     "Lightning Greaves",
+     "Goblin Chieftain",
+     "Goblin Bombardment"
+    ],
+    "Step 2 \u2014 mid upgrades ($5\u2013$20)": [
+     "Ruby Medallion",
+     "Kiki-Jiki, Mirror Breaker",
+     "Goblin Trashmaster",
+     "Hexing Squelcher",
+     "Gamble",
+     "Goblin Lackey"
+    ],
+    "Step 3 \u2014 optimized (> $20)": [
+     "Deflecting Swat",
+     "Jeska's Will",
+     "Cavern of Souls",
+     "Purphoros, God of the Forge",
+     "Nykthos, Shrine to Nyx",
+     "Ancient Tomb"
+    ]
+   },
+   "cuts": [
+    "Dragon Fodder",
+    "Volley Veteran",
+    "Goblin Surprise",
+    "Frenzied Goblin",
+    "Foundry Street Denizen",
+    "Rummaging Goblin",
+    "Krenko's Command",
+    "Goblin Rally"
+   ]
+  },
+  "K'rrik, Son of Yawgmoth": {
+   "upgrades": {
+    "Step 1 \u2014 cheap upgrades (\u2264 $5)": [
+     "Crystal Vein",
+     "Sacrifice",
+     "Fleshwrither",
+     "Emergence Zone",
+     "Heartless Summoning",
+     "Dauthi Voidwalker"
+    ],
+    "Step 2 \u2014 mid upgrades ($5\u2013$20)": [
+     "Cabal Ritual",
+     "Entomb",
+     "Beseech the Mirror",
+     "Necromancy",
+     "Culling the Weak",
+     "Animate Dead"
+    ],
+    "Step 3 \u2014 optimized (> $20)": [
+     "Demonic Tutor",
+     "Vampiric Tutor",
+     "Ancient Tomb",
+     "Mox Diamond",
+     "Mana Vault",
+     "Lotus Petal"
+    ]
+   },
+   "cuts": [
+    "Exsanguinate",
+    "Font of Agonies",
+    "Sign in Blood",
+    "Read the Bones",
+    "Pontiff of Blight",
+    "Consuming Corruption",
+    "Demon's Horn",
+    "Feed the Swarm"
+   ]
+  },
+  "Kykar, Wind's Fury": {
+   "upgrades": {
+    "Step 1 \u2014 cheap upgrades (\u2264 $5)": [
+     "Skullclamp",
+     "Gitaxian Probe",
+     "Silence",
+     "Brain Freeze",
+     "Windfall",
+     "Flusterstorm"
+    ],
+    "Step 2 \u2014 mid upgrades ($5\u2013$20)": [
+     "Hallowed Fountain",
+     "Steam Vents",
+     "Flooded Strand",
+     "Sacred Foundry",
+     "Mystical Tutor",
+     "Training Center"
+    ],
+    "Step 3 \u2014 optimized (> $20)": [
+     "Volcanic Island",
+     "Tundra",
+     "Scalding Tarn",
+     "Plateau",
+     "Arid Mesa",
+     "Rhystic Study"
+    ]
+   },
+   "cuts": [
+    "Mystic Monastery",
+    "Evolving Wilds",
+    "Prairie Stream",
+    "Temple of Epiphany",
+    "Temple of Enlightenment",
+    "Temple of Triumph",
+    "Terramorphic Expanse",
+    "Negate"
+   ]
+  },
+  "Kynaios and Tiro of Meletis": {
+   "upgrades": {
+    "Step 1 \u2014 cheap upgrades (\u2264 $5)": [
+     "Rejuvenating Springs",
+     "Birds of Paradise",
+     "Howling Mine",
+     "Reflecting Pool",
+     "Nature's Lore",
+     "Reliquary Tower"
+    ],
+    "Step 2 \u2014 mid upgrades ($5\u2013$20)": [
+     "Flooded Strand",
+     "Temple Garden",
+     "Windswept Heath",
+     "Hallowed Fountain",
+     "Breeding Pool",
+     "Wooded Foothills"
+    ],
+    "Step 3 \u2014 optimized (> $20)": [
+     "Tropical Island",
+     "Volcanic Island",
+     "Tundra",
+     "Savannah",
+     "Taiga",
+     "Plateau"
+    ]
+   },
+   "cuts": [
+    "Evolving Wilds",
+    "Terramorphic Expanse",
+    "Seaside Citadel",
+    "Mystic Monastery",
+    "Frontier Bivouac",
+    "Jungle Shrine",
+    "Prairie Stream",
+    "Path of Ancestry"
+   ]
+  },
+  "Lathril, Blade of the Elves": {
+   "upgrades": {
+    "Step 1 \u2014 cheap upgrades (\u2264 $5)": [
+     "Assassin's Trophy",
+     "Gilt-Leaf Palace",
+     "Elves of Deep Shadow",
+     "Fyndhorn Elves",
+     "Beast Whisperer",
+     "Priest of Titania"
+    ],
+    "Step 2 \u2014 mid upgrades ($5\u2013$20)": [
+     "Overgrown Tomb",
+     "Heroic Intervention",
+     "Yavimaya, Cradle of Growth",
+     "Ezuri, Renegade Leader",
+     "Leaf-Crowned Visionary",
+     "Circle of Dreams Druid"
+    ],
+    "Step 3 \u2014 optimized (> $20)": [
+     "Gaea's Cradle",
+     "Allosaurus Shepherd",
+     "Craterhoof Behemoth",
+     "Verdant Catacombs",
+     "Bayou",
+     "Cavern of Souls"
+    ]
+   },
+   "cuts": [
+    "Jungle Hollow",
+    "Dwynen's Elite",
+    "Harald, King of Skemfar",
+    "Farhaven Elf",
+    "Golgari Guildgate",
+    "Evolving Wilds",
+    "Pride of the Perfect",
+    "Eyeblight Massacre"
+   ]
+  },
+  "Muldrotha, the Gravetide": {
+   "upgrades": {
+    "Step 1 \u2014 cheap upgrades (\u2264 $5)": [
+     "Birds of Paradise",
+     "Eternal Witness",
+     "Rejuvenating Springs",
+     "Life from the Loam",
+     "Pernicious Deed",
+     "Deathrite Shaman"
+    ],
+    "Step 2 \u2014 mid upgrades ($5\u2013$20)": [
+     "Breeding Pool",
+     "Overgrown Tomb",
+     "Watery Grave",
+     "Mystic Remora",
+     "Animate Dead",
+     "Entomb"
+    ],
+    "Step 3 \u2014 optimized (> $20)": [
+     "Bayou",
+     "Polluted Delta",
+     "Verdant Catacombs",
+     "Misty Rainforest",
+     "Tropical Island",
+     "Underground Sea"
+    ]
+   },
+   "cuts": [
+    "Evolving Wilds",
+    "Terramorphic Expanse",
+    "Opulent Palace",
+    "Jungle Hollow",
+    "Thornwood Falls",
+    "Dismal Backwater",
+    "Myriad Landscape",
+    "Sunken Hollow"
+   ]
+  },
+  "Nekusar, the Mindrazer": {
+   "upgrades": {
+    "Step 1 \u2014 cheap upgrades (\u2264 $5)": [
+     "Winds of Change",
+     "Dark Ritual",
+     "Molten Psyche",
+     "Windfall",
+     "Dark Deal",
+     "Scrawling Crawler"
+    ],
+    "Step 2 \u2014 mid upgrades ($5\u2013$20)": [
+     "Watery Grave",
+     "Steam Vents",
+     "Blood Crypt",
+     "Bloodstained Mire",
+     "Training Center",
+     "Teferi's Puzzle Box"
+    ],
+    "Step 3 \u2014 optimized (> $20)": [
+     "Wheel of Fortune",
+     "Sheoldred, the Apocalypse",
+     "Orcish Bowmasters",
+     "Underground Sea",
+     "Volcanic Island",
+     "Badlands"
+    ]
+   },
+   "cuts": [
+    "Evolving Wilds",
+    "Crumbling Necropolis",
+    "Vision Skeins",
+    "Smoldering Marsh",
+    "Stormfist Crusader",
+    "Terramorphic Expanse",
+    "Negate",
+    "Dragon Mage"
+   ]
+  },
+  "Niv-Mizzet, Parun": {
+   "upgrades": {
+    "Step 1 \u2014 cheap upgrades (\u2264 $5)": [
+     "Fiery Islet",
+     "An Offer You Can't Refuse",
+     "Flusterstorm",
+     "Gitaxian Probe",
+     "Talisman of Creativity",
+     "Pongify"
+    ],
+    "Step 2 \u2014 mid upgrades ($5\u2013$20)": [
+     "Steam Vents",
+     "Training Center",
+     "Mystic Remora",
+     "Swan Song",
+     "Mystical Tutor",
+     "Ophidian Eye"
+    ],
+    "Step 3 \u2014 optimized (> $20)": [
+     "Rhystic Study",
+     "Scalding Tarn",
+     "Volcanic Island",
+     "Deflecting Swat",
+     "Fierce Guardianship",
+     "Force of Will"
+    ]
+   },
+   "cuts": [
+    "Swiftwater Cliffs",
+    "Goblin Electromancer",
+    "Izzet Guildgate",
+    "Thrill of Possibility",
+    "Guttersnipe",
+    "Evolving Wilds",
+    "Negate",
+    "Young Pyromancer"
+   ]
+  },
+  "Prosper, Tome-Bound": {
+   "upgrades": {
+    "Step 1 \u2014 cheap upgrades (\u2264 $5)": [
+     "Dark Ritual",
+     "Dauthi Voidwalker",
+     "Professional Face-Breaker",
+     "Sulfurous Springs",
+     "Haunted Ridge",
+     "Graven Cairns"
+    ],
+    "Step 2 \u2014 mid upgrades ($5\u2013$20)": [
+     "Bloodstained Mire",
+     "Blood Crypt",
+     "Luxury Suite",
+     "Blightstep Pathway",
+     "Delayed Blast Fireball",
+     "Beseech the Mirror"
+    ],
+    "Step 3 \u2014 optimized (> $20)": [
+     "Jeska's Will",
+     "Deflecting Swat",
+     "Badlands",
+     "Birgi, God of Storytelling",
+     "Sensei's Divining Top",
+     "Deadly Rollick"
+    ]
+   },
+   "cuts": [
+    "Dire Fleet Daredevil",
+    "Theater of Horrors",
+    "Foreboding Ruins",
+    "Gonti, Lord of Luxury",
+    "Bituminous Blast",
+    "Commander's Sphere",
+    "Rakdos Carnarium",
+    "Etali, Primal Storm"
+   ]
+  },
+  "Saskia the Unyielding": {
+   "upgrades": {
+    "Step 1 \u2014 cheap upgrades (\u2264 $5)": [
+     "Birds of Paradise",
+     "Aurelia, the Warleader",
+     "Nature's Lore",
+     "Ignoble Hierarch",
+     "Assassin's Trophy",
+     "Swords to Plowshares"
+    ],
+    "Step 2 \u2014 mid upgrades ($5\u2013$20)": [
+     "Wooded Foothills",
+     "Windswept Heath",
+     "Stomping Ground",
+     "Temple Garden",
+     "Overgrown Tomb",
+     "Godless Shrine"
+    ],
+    "Step 3 \u2014 optimized (> $20)": [
+     "Savannah",
+     "Bayou",
+     "Taiga",
+     "Scrubland",
+     "Badlands",
+     "Plateau"
+    ]
+   },
+   "cuts": [
+    "Evolving Wilds",
+    "Savage Lands",
+    "Nomad Outpost",
+    "Jungle Shrine",
+    "Terramorphic Expanse",
+    "Sandsteppe Citadel",
+    "Cinder Glade",
+    "Canopy Vista"
+   ]
+  },
+  "Selvala, Heart of the Wilds": {
+   "upgrades": {
+    "Step 1 \u2014 cheap upgrades (\u2264 $5)": [
+     "Veil of Summer",
+     "Birds of Paradise",
+     "Crop Rotation",
+     "Summoner's Pact",
+     "Elvish Spirit Guide",
+     "Eldritch Evolution"
+    ],
+    "Step 2 \u2014 mid upgrades ($5\u2013$20)": [
+     "Natural Order",
+     "Yavimaya, Cradle of Growth",
+     "Wirewood Lodge",
+     "Chord of Calling",
+     "Staff of Domination",
+     "Umbral Mantle"
+    ],
+    "Step 3 \u2014 optimized (> $20)": [
+     "Gaea's Cradle",
+     "Finale of Devastation",
+     "Worldly Tutor",
+     "Green Sun's Zenith",
+     "Boseiju, Who Endures",
+     "Chrome Mox"
+    ]
+   },
+   "cuts": [
+    "Garruk's Uprising",
+    "Cultivate",
+    "Goreclaw, Terror of Qal Sisma",
+    "Rampant Growth",
+    "Harmonize",
+    "Terastodon",
+    "Gigantosaurus",
+    "Overwhelming Stampede"
+   ]
+  },
+  "Talrand, Sky Summoner": {
+   "upgrades": {
+    "Step 1 \u2014 cheap upgrades (\u2264 $5)": [
+     "Pongify",
+     "An Offer You Can't Refuse",
+     "Rapid Hybridization",
+     "Brainstorm",
+     "Ponder",
+     "Mystic Sanctuary"
+    ],
+    "Step 2 \u2014 mid upgrades ($5\u2013$20)": [
+     "Sapphire Medallion",
+     "Swan Song",
+     "Mystical Tutor",
+     "Mystic Remora",
+     "Isochron Scepter",
+     "Hullbreaker Horror"
+    ],
+    "Step 3 \u2014 optimized (> $20)": [
+     "Mana Drain",
+     "Cyclonic Rift",
+     "Rhystic Study",
+     "Fierce Guardianship",
+     "Force of Will",
+     "Force of Negation"
+    ]
+   },
+   "cuts": [
+    "Disdainful Stroke",
+    "Essence Scatter",
+    "Unsummon",
+    "Into the Roil",
+    "Cancel",
+    "Divination",
+    "Think Twice",
+    "Anticipate"
+   ]
+  },
+  "Tatyova, Benthic Druid": {
+   "upgrades": {
+    "Step 1 \u2014 cheap upgrades (\u2264 $5)": [
+     "Crop Rotation",
+     "Tireless Provisioner",
+     "Ramunap Excavator",
+     "Sol Ring",
+     "Mystic Sanctuary",
+     "Birds of Paradise"
+    ],
+    "Step 2 \u2014 mid upgrades ($5\u2013$20)": [
+     "Breeding Pool",
+     "Azusa, Lost but Seeking",
+     "Lotus Cobra",
+     "Windswept Heath",
+     "Flooded Strand",
+     "Wooded Foothills"
+    ],
+    "Step 3 \u2014 optimized (> $20)": [
+     "Misty Rainforest",
+     "Exploration",
+     "Tropical Island",
+     "Boseiju, Who Endures",
+     "Verdant Catacombs",
+     "Cyclonic Rift"
+    ]
+   },
+   "cuts": [
+    "Evolving Wilds",
+    "Thornwood Falls",
+    "Springbloom Druid",
+    "Negate",
+    "Coiling Oracle",
+    "Terramorphic Expanse",
+    "Simic Guildgate",
+    "Elfsworn Giant"
+   ]
+  },
+  "Teysa Karlov": {
+   "upgrades": {
+    "Step 1 \u2014 cheap upgrades (\u2264 $5)": [
+     "Shattered Sanctum",
+     "Brightclimb Pathway",
+     "Pitiless Plunderer",
+     "Skullclamp",
+     "Dark Ritual",
+     "Anguished Unmaking"
+    ],
+    "Step 2 \u2014 mid upgrades ($5\u2013$20)": [
+     "Godless Shrine",
+     "Vault of Champions",
+     "Ashnod's Altar",
+     "Warren Soultrader",
+     "Diabolic Intent",
+     "Elenda, the Dusk Rose"
+    ],
+    "Step 3 \u2014 optimized (> $20)": [
+     "Phyrexian Altar",
+     "Marsh Flats",
+     "Phyrexian Tower",
+     "Urborg, Tomb of Yawgmoth",
+     "Scrubland",
+     "Demonic Tutor"
+    ]
+   },
+   "cuts": [
+    "Scoured Barrens",
+    "Vindictive Vampire",
+    "Mortify",
+    "Butcher of Malakir",
+    "Temple of Silence",
+    "Evolving Wilds",
+    "Orzhov Enforcer",
+    "Falkenrath Noble"
+   ]
+  },
+  "The Ur-Dragon": {
+   "upgrades": {
+    "Step 1 \u2014 cheap upgrades (\u2264 $5)": [
+     "Birds of Paradise",
+     "Hellkite Courser",
+     "Dragonlord Dromoka",
+     "Reflecting Pool",
+     "Nature's Lore",
+     "Temur Ascendancy"
+    ],
+    "Step 2 \u2014 mid upgrades ($5\u2013$20)": [
+     "Wooded Foothills",
+     "Goldspan Dragon",
+     "Bloodstained Mire",
+     "Windswept Heath",
+     "Flooded Strand",
+     "Klauth, Unrivaled Ancient"
+    ],
+    "Step 3 \u2014 optimized (> $20)": [
+     "Volcanic Island",
+     "Taiga",
+     "Tropical Island",
+     "Badlands",
+     "Bayou",
+     "Underground Sea"
+    ]
+   },
+   "cuts": [
+    "Frontier Bivouac",
+    "Path of Ancestry",
+    "Opulent Palace",
+    "Mystic Monastery",
+    "Evolving Wilds",
+    "Jungle Shrine",
+    "Sandsteppe Citadel",
+    "Nomad Outpost"
+   ]
+  },
+  "Trostani, Selesnya's Voice": {
+   "upgrades": {
+    "Step 1 \u2014 cheap upgrades (\u2264 $5)": [
+     "Birds of Paradise",
+     "Overgrown Farmland",
+     "Nature's Lore",
+     "Grand Crescendo",
+     "Soul Warden",
+     "Mirari's Wake"
+    ],
+    "Step 2 \u2014 mid upgrades ($5\u2013$20)": [
+     "Bountiful Promenade",
+     "Temple Garden",
+     "Windswept Heath",
+     "Archangel of Thune",
+     "Heroic Intervention",
+     "Yavimaya, Cradle of Growth"
+    ],
+    "Step 3 \u2014 optimized (> $20)": [
+     "Savannah",
+     "Gaea's Cradle",
+     "Parallel Lives",
+     "Ocelot Pride",
+     "Doubling Season",
+     "Anointed Procession"
+    ]
+   },
+   "cuts": [
+    "Vitu-Ghazi Guildmage",
+    "Selesnya Guildgate",
+    "Selesnya Charm",
+    "Advent of the Wurm",
+    "Wayfaring Temple",
+    "Blossoming Sands",
+    "Armada Wurm",
+    "Trostani's Summoner"
+   ]
+  },
+  "Xenagos, God of Revels": {
+   "upgrades": {
+    "Step 1 \u2014 cheap upgrades (\u2264 $5)": [
+     "Birds of Paradise",
+     "Fire-Lit Thicket",
+     "Dragonborn Champion",
+     "Moraug, Fury of Akoum",
+     "Seize the Day",
+     "Karplusan Forest"
+    ],
+    "Step 2 \u2014 mid upgrades ($5\u2013$20)": [
+     "Stomping Ground",
+     "Wooded Foothills",
+     "Spire Garden",
+     "Yavimaya, Cradle of Growth",
+     "Fanatic of Rhonas",
+     "Heroic Intervention"
+    ],
+    "Step 3 \u2014 optimized (> $20)": [
+     "Taiga",
+     "Boseiju, Who Endures",
+     "Old Gnawbone",
+     "Deflecting Swat",
+     "Bloodthirster",
+     "Ancient Tomb"
+    ]
+   },
+   "cuts": [
+    "Temple of Abandon",
+    "Rampant Growth",
+    "Game Trail",
+    "Thunderfoot Baloth",
+    "Ashroot Animist",
+    "Harmonize",
+    "Rugged Highlands",
+    "Giant Adephage"
+   ]
+  },
+  "Yidris, Maelstrom Wielder": {
+   "upgrades": {
+    "Step 1 \u2014 cheap upgrades (\u2264 $5)": [
+     "Birds of Paradise",
+     "Dark Ritual",
+     "Manamorphose",
+     "Ignoble Hierarch",
+     "Deathrite Shaman",
+     "Noxious Revival"
+    ],
+    "Step 2 \u2014 mid upgrades ($5\u2013$20)": [
+     "Wooded Foothills",
+     "Bloodstained Mire",
+     "Breeding Pool",
+     "Watery Grave",
+     "Steam Vents",
+     "Overgrown Tomb"
+    ],
+    "Step 3 \u2014 optimized (> $20)": [
+     "Tropical Island",
+     "Underground Sea",
+     "Volcanic Island",
+     "Bayou",
+     "Badlands",
+     "Taiga"
+    ]
+   },
+   "cuts": [
+    "Frontier Bivouac",
+    "Opulent Palace",
+    "Evolving Wilds",
+    "Crumbling Necropolis",
+    "Savage Lands",
+    "Terramorphic Expanse",
+    "Rampant Growth",
+    "Path of Ancestry"
+   ]
+  },
+  "Yuriko, the Tiger's Shadow": {
+   "upgrades": {
+    "Step 1 \u2014 cheap upgrades (\u2264 $5)": [
+     "Flusterstorm",
+     "Flare of Denial",
+     "Mockingbird",
+     "Dismember",
+     "Lim-D\u00fbl's Vault",
+     "Commandeer"
+    ],
+    "Step 2 \u2014 mid upgrades ($5\u2013$20)": [
+     "Watery Grave",
+     "Mystical Tutor",
+     "Mystic Remora",
+     "Sakashima's Student",
+     "Flooded Strand",
+     "Demonic Consultation"
+    ],
+    "Step 3 \u2014 optimized (> $20)": [
+     "Underground Sea",
+     "Vampiric Tutor",
+     "Force of Will",
+     "Polluted Delta",
+     "Chrome Mox",
+     "Mox Diamond"
+    ]
+   },
+   "cuts": [
+    "Dokuchi Silencer",
+    "Moonsnare Specialist",
+    "Negate",
+    "Smoke Shroud",
+    "Choked Estuary",
+    "Tormented Soul",
+    "Sunken Hollow",
+    "Nezumi Prowler"
+   ]
+  },
+  "Zur the Enchanter": {
+   "upgrades": {
+    "Step 1 \u2014 cheap upgrades (\u2264 $5)": [
+     "Silence",
+     "Dark Ritual",
+     "Flusterstorm",
+     "An Offer You Can't Refuse",
+     "Borne Upon a Wind",
+     "Wishclaw Talisman"
+    ],
+    "Step 2 \u2014 mid upgrades ($5\u2013$20)": [
+     "Watery Grave",
+     "Flooded Strand",
+     "Hallowed Fountain",
+     "Godless Shrine",
+     "Mystic Remora",
+     "City of Brass"
+    ],
+    "Step 3 \u2014 optimized (> $20)": [
+     "Underground Sea",
+     "Tundra",
+     "Scrubland",
+     "Polluted Delta",
+     "Rhystic Study",
+     "Demonic Tutor"
+    ]
+   },
+   "cuts": [
+    "Arcane Sanctum",
+    "Prairie Stream",
+    "Ethereal Armor",
+    "Evolving Wilds",
+    "Curator's Ward",
+    "Sunken Hollow",
+    "Orzhov Signet",
+    "Auramancer"
+   ]
+  }
+ }
+}

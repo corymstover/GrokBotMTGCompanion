@@ -1,0 +1,240 @@
+# Deck Skeleton — Braids, Arisen Nightmare — Dominaria-only
+
+> **Data-derived skeleton, not a tuned list.** Built 2026-10-15 by `scripts/build_deck_skeleton.py` from [EDHREC](https://edhrec.com/commanders/braids-arisen-nightmare) inclusion rates (community data) and validated against Scryfall Oracle bulk (2026-10-15). Card choices = most-included cards for this commander; *any judgment about what to cut/add is Opinion*. Format per [EDH Standards](../EDH%20Standards.md).
+
+## Contents
+- [Commander](#commander)
+- [Validation](#validation)
+- [Bracket assessment](#bracket-assessment)
+- [Decklist (Archidekt import)](#decklist-archidekt-import)
+- [Card breakdown](#card-breakdown)
+- [Rejected candidates](#rejected-candidates)
+- [Commander rules & rulings](#commander-rules--rulings)
+- [Combos (Commander Spellbook)](#combos-commander-spellbook)
+
+## Commander
+
+- **[Braids, Arisen Nightmare](../cards/B/br.md#braids-arisen-nightmare)** — {1}{B}{B} — Legendary Creature — Nightmare
+- Color identity: **B (Black)**
+- Eligibility: Yes (legendary creature)
+- EDHREC sample: 8480 decks · bracket distribution reported by EDHREC: B1: 11, B2: 568, B3: 1,097, B4: 491, B5: 87
+
+## Validation
+
+- Total cards: **100** (1 commander + 63 nonland + 1 nonbasic lands + 35 basics)
+- **Plane restriction (Dominaria):** every non-basic card has a paper printing in sets `dmu, dom` (Scryfall default-cards). 59 slots were filled from that card pool by EDHREC rank because the EDHREC suggestions ran out (marked — in the inclusion column). Filler prefers the commander's creature types (tribe: Nightmare), then EDHREC rank; multicolor decks also get up to 8 on-plane dual lands. *This is an outline: filler cards are popular on-plane cards, not hand-tuned synergy (Opinion: review them).*
+- Strict color identity (CR 903.5c), singleton (903.5b), Commander-legal, size (903.5a): ✅ **all checks pass**
+
+## Bracket assessment
+
+- Game Changers (0): none
+- Extra-turn cards: none
+- Mass land denial: none
+- Two-card infinite combos: ⚠️ not machine-checked — review manually.
+- **Minimum bracket by the published barometers: 2 (Core) or 1 (Exhibition) — no Game Changers; final call depends on combos/intent.** (Brackets are a pregame-conversation tool; see [EDH Standards](../EDH%20Standards.md#power-bracket-assessment).)
+
+## Decklist (Archidekt import)
+
+```text
+1x Braids, Arisen Nightmare [Commander{top}]
+1x Sheoldred, the Apocalypse [Creature]
+1x Cult Conscript [Creature]
+1x Gibbering Barricade [Creature]
+1x Jhoira's Familiar [Creature]
+1x Traxos, Scourge of Kroog [Creature]
+1x Walking Bulwark [Creature]
+1x Rat Colony [Creature]
+1x The Raven Man [Creature]
+1x Defiler of Flesh [Creature]
+1x Shield-Wall Sentinel [Creature]
+1x Whisper, Blood Liturgist [Creature]
+1x Howling Golem [Creature]
+1x Yargle, Glutton of Urborg [Creature]
+1x Josu Vess, Lich Knight [Creature]
+1x Demonlord Belzenlok [Creature]
+1x Phyrexian Rager [Creature]
+1x Battlefly Swarm [Creature]
+1x Blight Pile [Creature]
+1x Knight of Dusk's Shadow [Creature]
+1x Voltaic Servant [Creature]
+1x Amaranthine Wall [Creature]
+1x Mishra's Self-Replicator [Creature]
+1x Shadow-Rite Priest [Creature]
+1x Torgaar, Famine Incarnate [Creature]
+1x Skittering Surveyor [Creature]
+1x Thallid Soothsayer [Creature]
+1x Liliana of the Veil [Planeswalker]
+1x Karn, Scion of Urza [Planeswalker]
+1x Karn, Living Legacy [Planeswalker]
+1x Mox Amber [Artifact]
+1x Blackblade Reforged [Artifact]
+1x Helm of the Host [Artifact]
+1x Gilded Lotus [Artifact]
+1x Relic of Legends [Artifact]
+1x Weatherlight [Artifact]
+1x Hero's Heirloom [Artifact]
+1x Damping Sphere [Artifact]
+1x Golden Argosy [Artifact]
+1x Forebear's Blade [Artifact]
+1x Thran Temporal Gateway [Artifact]
+1x Weatherlight Compleated [Artifact]
+1x Icy Manipulator [Artifact]
+1x Karn's Sylex [Artifact]
+1x Meteorite [Artifact]
+1x Powerstone Shard [Artifact]
+1x The Eldest Reborn [Enchantment]
+1x The Cruelty of Gix [Enchantment]
+1x Phyrexian Scriptures [Enchantment]
+1x Lich's Mastery [Enchantment]
+1x Braids's Frightful Return [Enchantment]
+1x Demonic Vigor [Enchantment]
+1x Rite of Belzenlok [Enchantment]
+1x Final Parting [Sorcery]
+1x Bone Splinters [Sorcery]
+1x Yawgmoth's Vile Offering [Sorcery]
+1x Pilfer [Sorcery]
+1x Settle the Score [Sorcery]
+1x Divest [Sorcery]
+1x Cut Down [Instant]
+1x Cast Down [Instant]
+1x Battle-Rage Blessing [Instant]
+1x Fungal Infection [Instant]
+1x Dark Bargain [Instant]
+1x Cabal Stronghold [Land]
+35x Swamp [Land]
+```
+
+## Card breakdown
+
+| Card | Section | EDHREC inclusion | Identity |
+|---|---|---|---|
+| [Sheoldred, the Apocalypse](../cards/S/she.md#sheoldred-the-apocalypse) | Creature | 28% | B |
+| [Cult Conscript](../cards/C/cu.md#cult-conscript) | Creature | 19% | B |
+| [Gibbering Barricade](../cards/G/gi.md#gibbering-barricade) | Creature | — | B |
+| [Jhoira's Familiar](../cards/J/jh.md#jhoiras-familiar) | Creature | — | C |
+| [Traxos, Scourge of Kroog](../cards/T/tra.md#traxos-scourge-of-kroog) | Creature | — | C |
+| [Walking Bulwark](../cards/W/wal.md#walking-bulwark) | Creature | — | C |
+| [Rat Colony](../cards/R/rat.md#rat-colony) | Creature | — | B |
+| [The Raven Man](../cards/T/ther.md#the-raven-man) | Creature | — | B |
+| [Defiler of Flesh](../cards/D/def.md#defiler-of-flesh) | Creature | — | B |
+| [Shield-Wall Sentinel](../cards/S/shi.md#shield-wall-sentinel) | Creature | — | C |
+| [Whisper, Blood Liturgist](../cards/W/wh.md#whisper-blood-liturgist) | Creature | — | B |
+| [Howling Golem](../cards/H/ho.md#howling-golem) | Creature | — | C |
+| [Yargle, Glutton of Urborg](../cards/Y/ya.md#yargle-glutton-of-urborg) | Creature | — | B |
+| [Josu Vess, Lich Knight](../cards/J/jo.md#josu-vess-lich-knight) | Creature | — | B |
+| [Demonlord Belzenlok](../cards/D/dem.md#demonlord-belzenlok) | Creature | — | B |
+| [Phyrexian Rager](../cards/P/ph.md#phyrexian-rager) | Creature | — | B |
+| [Battlefly Swarm](../cards/B/bat.md#battlefly-swarm) | Creature | — | B |
+| [Blight Pile](../cards/B/bli.md#blight-pile) | Creature | — | B |
+| [Knight of Dusk's Shadow](../cards/K/kn.md#knight-of-dusks-shadow) | Creature | — | B |
+| [Voltaic Servant](../cards/V/vo.md#voltaic-servant) | Creature | — | C |
+| [Amaranthine Wall](../cards/A/am.md#amaranthine-wall) | Creature | — | C |
+| [Mishra's Self-Replicator](../cards/M/mis.md#mishras-self-replicator) | Creature | — | C |
+| [Shadow-Rite Priest](../cards/S/sha.md#shadow-rite-priest) | Creature | — | B |
+| [Torgaar, Famine Incarnate](../cards/T/to.md#torgaar-famine-incarnate) | Creature | — | B |
+| [Skittering Surveyor](../cards/S/sk.md#skittering-surveyor) | Creature | — | C |
+| [Thallid Soothsayer](../cards/T/tha.md#thallid-soothsayer) | Creature | — | B |
+| [Liliana of the Veil](../cards/L/li.md#liliana-of-the-veil) | Planeswalker | 8% | B |
+| [Karn, Scion of Urza](../cards/K/ka.md#karn-scion-of-urza) | Planeswalker | — | C |
+| [Karn, Living Legacy](../cards/K/ka.md#karn-living-legacy) | Planeswalker | — | C |
+| [Mox Amber](../cards/M/mox.md#mox-amber) | Artifact | 5% | C |
+| [Blackblade Reforged](../cards/B/bla.md#blackblade-reforged) | Artifact | — | C |
+| [Helm of the Host](../cards/H/he.md#helm-of-the-host) | Artifact | — | C |
+| [Gilded Lotus](../cards/G/gi.md#gilded-lotus) | Artifact | — | C |
+| [Relic of Legends](../cards/R/rel.md#relic-of-legends) | Artifact | — | C |
+| [Weatherlight](../cards/W/we.md#weatherlight) | Artifact | — | C |
+| [Hero's Heirloom](../cards/H/he.md#heros-heirloom) | Artifact | — | C |
+| [Damping Sphere](../cards/D/da.md#damping-sphere) | Artifact | — | C |
+| [Golden Argosy](../cards/G/gol.md#golden-argosy) | Artifact | — | C |
+| [Forebear's Blade](../cards/F/fo.md#forebears-blade) | Artifact | — | C |
+| [Thran Temporal Gateway](../cards/T/thr.md#thran-temporal-gateway) | Artifact | — | C |
+| [Weatherlight Compleated](../cards/W/we.md#weatherlight-compleated) | Artifact | — | C |
+| [Icy Manipulator](../cards/I/ic.md#icy-manipulator) | Artifact | — | C |
+| [Karn's Sylex](../cards/K/ka.md#karns-sylex) | Artifact | — | C |
+| [Meteorite](../cards/M/me.md#meteorite) | Artifact | — | C |
+| [Powerstone Shard](../cards/P/po.md#powerstone-shard) | Artifact | — | C |
+| [The Eldest Reborn](../cards/T/thee.md#the-eldest-reborn) | Enchantment | — | B |
+| [The Cruelty of Gix](../cards/T/thec.md#the-cruelty-of-gix) | Enchantment | — | B |
+| [Phyrexian Scriptures](../cards/P/ph.md#phyrexian-scriptures) | Enchantment | — | B |
+| [Lich's Mastery](../cards/L/li.md#lichs-mastery) | Enchantment | — | B |
+| [Braids's Frightful Return](../cards/B/br.md#braidss-frightful-return) | Enchantment | — | B |
+| [Demonic Vigor](../cards/D/dem.md#demonic-vigor) | Enchantment | — | B |
+| [Rite of Belzenlok](../cards/R/ri.md#rite-of-belzenlok) | Enchantment | — | B |
+| [Final Parting](../cards/F/fi.md#final-parting) | Sorcery | — | B |
+| [Bone Splinters](../cards/B/bo.md#bone-splinters) | Sorcery | — | B |
+| [Yawgmoth's Vile Offering](../cards/Y/ya.md#yawgmoths-vile-offering) | Sorcery | — | B |
+| [Pilfer](../cards/P/pi.md#pilfer) | Sorcery | — | B |
+| [Settle the Score](../cards/S/set.md#settle-the-score) | Sorcery | — | B |
+| [Divest](../cards/D/di.md#divest) | Sorcery | — | B |
+| [Cut Down](../cards/C/cu.md#cut-down) | Instant | — | B |
+| [Cast Down](../cards/C/cas.md#cast-down) | Instant | — | B |
+| [Battle-Rage Blessing](../cards/B/bat.md#battle-rage-blessing) | Instant | — | B |
+| [Fungal Infection](../cards/F/fu.md#fungal-infection) | Instant | — | B |
+| [Dark Bargain](../cards/D/da.md#dark-bargain) | Instant | — | B |
+| [Cabal Stronghold](../cards/C/cab.md#cabal-stronghold) | Land | 32% | B |
+| 35× Swamp | Basic land | — | — |
+
+## Rejected candidates
+
+EDHREC suggestions excluded by validation (should normally be empty or only off-identity/illegal cards):
+
+- Sol Ring — no printing in Dominaria
+- Dark Ritual — no printing in Dominaria
+- Gray Merchant of Asphodel — no printing in Dominaria
+- Ophiomancer — no printing in Dominaria
+- Jet Medallion — no printing in Dominaria
+- Arcane Signet — no printing in Dominaria
+- Blood Artist — no printing in Dominaria
+- Feed the Swarm — no printing in Dominaria
+- Reassembling Skeleton — no printing in Dominaria
+- Jadar, Ghoulcaller of Nephalia — no printing in Dominaria
+- Zulaport Cutthroat — no printing in Dominaria
+- Ichor Wellspring — no printing in Dominaria
+- Victimize — no printing in Dominaria
+- Bloodghast — no printing in Dominaria
+- Cabal Coffers — no printing in Dominaria
+- Bojuka Bog — no printing in Dominaria
+- Bastion of Remembrance — no printing in Dominaria
+- Crypt Ghast — no printing in Dominaria
+- Reanimate — no printing in Dominaria
+- Ayara, First of Locthwain — no printing in Dominaria
+- Reliquary Tower — no printing in Dominaria
+- Toxic Deluge — no printing in Dominaria
+- Pitiless Plunderer — no printing in Dominaria
+- Morbid Opportunist — no printing in Dominaria
+- Syr Konrad, the Grim — no printing in Dominaria
+- Dreadhorde Invasion — no printing in Dominaria
+- Solemn Simulacrum — no printing in Dominaria
+- Bitterblossom — no printing in Dominaria
+- Thought Vessel — no printing in Dominaria
+- Accursed Marauder — no printing in Dominaria
+
+<!-- RULES-NOTES:START -->
+## Commander rules & rulings
+
+> Auto-generated by `scripts/deck_rules_notes.py` from Scryfall Oracle bulk (2026-10-15) and rulings bulk (2026-10-15); rulings are quoted verbatim (source: Wizards of the Coast unless marked). Facts only — strategy is in [EDH Standards](../EDH%20Standards.md#synergy-notes), labeled Opinion.
+
+**Oracle text — [Braids, Arisen Nightmare](../cards/B/br.md#braids-arisen-nightmare):**
+> Braids, Arisen Nightmare: At the beginning of your end step, you may sacrifice an artifact, creature, enchantment, land, or planeswalker. If you do, each opponent may sacrifice a permanent of their choice that shares a card type with it. For each opponent who doesn't, that player loses 2 life and you draw a card.
+
+**Official rulings on the commander (1):**
+- *2022-09-09* — If the permanent that you sacrifice as you resolve Braids's triggered ability has more than one card type, each opponent may choose to sacrifice any permanent they control that shares any card type with it. For example, if the permanent you sacrifice is an artifact creature, one opponent might choose to sacrifice an artifact and another opponent might choose to sacrifice a creature.
+
+**Creature-type overlap** with the commander (Nightmare): 1 card(s) — [Gibbering Barricade](../cards/G/gi.md#gibbering-barricade).
+
+**Deck cards with official rulings:** 47 of 64 non-basic cards — [Sheoldred, the Apocalypse](../cards/S/she.md#sheoldred-the-apocalypse) (1), [Cult Conscript](../cards/C/cu.md#cult-conscript) (3), [Gibbering Barricade](../cards/G/gi.md#gibbering-barricade) (1), [Jhoira's Familiar](../cards/J/jh.md#jhoiras-familiar) (2), [Traxos, Scourge of Kroog](../cards/T/tra.md#traxos-scourge-of-kroog) (4), [Walking Bulwark](../cards/W/wal.md#walking-bulwark) (1), [Rat Colony](../cards/R/rat.md#rat-colony) (1), [The Raven Man](../cards/T/ther.md#the-raven-man) (1), [Defiler of Flesh](../cards/D/def.md#defiler-of-flesh) (2), [Whisper, Blood Liturgist](../cards/W/wh.md#whisper-blood-liturgist) (2), [Howling Golem](../cards/H/ho.md#howling-golem) (1), [Josu Vess, Lich Knight](../cards/J/jo.md#josu-vess-lich-knight) (6), [Demonlord Belzenlok](../cards/D/dem.md#demonlord-belzenlok) (6), [Blight Pile](../cards/B/bli.md#blight-pile) (1), [Voltaic Servant](../cards/V/vo.md#voltaic-servant) (1), [Mishra's Self-Replicator](../cards/M/mis.md#mishras-self-replicator) (8), [Torgaar, Famine Incarnate](../cards/T/to.md#torgaar-famine-incarnate) (3), [Thallid Soothsayer](../cards/T/tha.md#thallid-soothsayer) (1), [Liliana of the Veil](../cards/L/li.md#liliana-of-the-veil) (4), [Karn, Scion of Urza](../cards/K/ka.md#karn-scion-of-urza) (2), [Karn, Living Legacy](../cards/K/ka.md#karn-living-legacy) (7), [Mox Amber](../cards/M/mox.md#mox-amber) (3), [Blackblade Reforged](../cards/B/bla.md#blackblade-reforged) (2), [Helm of the Host](../cards/H/he.md#helm-of-the-host) (8), [Relic of Legends](../cards/R/rel.md#relic-of-legends) (1), [Weatherlight](../cards/W/we.md#weatherlight) (1), [Damping Sphere](../cards/D/da.md#damping-sphere) (3), [Golden Argosy](../cards/G/gol.md#golden-argosy) (2), [Forebear's Blade](../cards/F/fo.md#forebears-blade) (1), [Thran Temporal Gateway](../cards/T/thr.md#thran-temporal-gateway) (1), [Weatherlight Compleated](../cards/W/we.md#weatherlight-compleated) (4), [Icy Manipulator](../cards/I/ic.md#icy-manipulator) (1), [Karn's Sylex](../cards/K/ka.md#karns-sylex) (5), [Powerstone Shard](../cards/P/po.md#powerstone-shard) (1), [The Eldest Reborn](../cards/T/thee.md#the-eldest-reborn) (10), [The Cruelty of Gix](../cards/T/thec.md#the-cruelty-of-gix) (2), [Phyrexian Scriptures](../cards/P/ph.md#phyrexian-scriptures) (8), [Lich's Mastery](../cards/L/li.md#lichs-mastery) (5), [Braids's Frightful Return](../cards/B/br.md#braidss-frightful-return) (1), [Demonic Vigor](../cards/D/dem.md#demonic-vigor) (1), [Rite of Belzenlok](../cards/R/ri.md#rite-of-belzenlok) (7), [Bone Splinters](../cards/B/bo.md#bone-splinters) (2), [Yawgmoth's Vile Offering](../cards/Y/ya.md#yawgmoths-vile-offering) (2), [Settle the Score](../cards/S/set.md#settle-the-score) (3), [Cut Down](../cards/C/cu.md#cut-down) (1), [Fungal Infection](../cards/F/fu.md#fungal-infection) (2), [Dark Bargain](../cards/D/da.md#dark-bargain) (1).
+<!-- RULES-NOTES:END -->
+
+<!-- COMBOS:START -->
+## Combos (Commander Spellbook)
+
+> Auto-generated 2026-10-15 by `scripts/detect_combos.py` from the [Commander Spellbook](https://commanderspellbook.com) public API (community-maintained combo database; each combo links to its page). Only combos whose **every card is in this list** are shown. Bracket note uses the official barometer: *Brackets 1–2 — no intentional two-card infinite combos; Bracket 3 — no early-game two-card infinite combos*.
+
+**1 complete combo(s); 1 two-card infinite.** 13 more are one card away (not listed).
+
+| Cards | Produces (Spellbook) | Extra requirements | Link |
+|---|---|---|---|
+| ⚠️ **two-card infinite** · Sheoldred, the Apocalypse + Lich's Mastery | Infinite card draw, Infinite draw triggers, Near-infinite lifegain, Near-infinite lifegain triggers | — | [679-2498](https://commanderspellbook.com/combo/679-2498/) |
+
+**Bracket implication:** a two-card infinite combo is outside the Bracket 1–2 barometer, so this deck as listed sits at **Bracket 3+** unless the combo is cut; whether it is *early-game* (Bracket 3 vs 4) is **Opinion** and must be discussed at Rule 0.
+<!-- COMBOS:END -->

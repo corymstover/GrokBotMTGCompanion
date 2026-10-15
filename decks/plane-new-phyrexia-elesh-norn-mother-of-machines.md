@@ -1,0 +1,242 @@
+# Deck Skeleton — Elesh Norn, Mother of Machines — Mirrodin/New Phyrexia-only
+
+> **Data-derived skeleton, not a tuned list.** Built 2026-10-15 by `scripts/build_deck_skeleton.py` from [EDHREC](https://edhrec.com/commanders/elesh-norn-mother-of-machines) inclusion rates (community data) and validated against Scryfall Oracle bulk (2026-10-15). Card choices = most-included cards for this commander; *any judgment about what to cut/add is Opinion*. Format per [EDH Standards](../EDH%20Standards.md).
+
+## Contents
+- [Commander](#commander)
+- [Validation](#validation)
+- [Bracket assessment](#bracket-assessment)
+- [Decklist (Archidekt import)](#decklist-archidekt-import)
+- [Card breakdown](#card-breakdown)
+- [Rejected candidates](#rejected-candidates)
+- [Commander rules & rulings](#commander-rules--rulings)
+- [Combos (Commander Spellbook)](#combos-commander-spellbook)
+
+## Commander
+
+- **[Elesh Norn, Mother of Machines](../cards/E/el.md#elesh-norn-mother-of-machines)** — {4}{W} — Legendary Creature — Phyrexian Praetor
+- Color identity: **W (White)**
+- Eligibility: Yes (legendary creature)
+- EDHREC sample: 8124 decks · bracket distribution reported by EDHREC: B1: 23, B2: 593, B3: 691, B4: 389, B5: 35
+
+## Validation
+
+- Total cards: **100** (1 commander + 63 nonland + 0 nonbasic lands + 36 basics)
+- **Plane restriction (Mirrodin/New Phyrexia):** every non-basic card has a paper printing in sets `5dn, dst, mbs, mrd, nph, one, som` (Scryfall default-cards). 36 slots were filled from that card pool by EDHREC rank because the EDHREC suggestions ran out (marked — in the inclusion column). Filler prefers the commander's creature types (tribe: Phyrexian, Praetor), then EDHREC rank; multicolor decks also get up to 8 on-plane dual lands. *This is an outline: filler cards are popular on-plane cards, not hand-tuned synergy (Opinion: review them).*
+- Strict color identity (CR 903.5c), singleton (903.5b), Commander-legal, size (903.5a): ✅ **all checks pass**
+
+## Bracket assessment
+
+- Game Changers (1): Chrome Mox
+- Extra-turn cards: none
+- Mass land denial: none
+- Two-card infinite combos: ⚠️ not machine-checked — review manually.
+- **Minimum bracket by the published barometers: 3 (Upgraded) — 1–3 Game Changers.** (Brackets are a pregame-conversation tool; see [EDH Standards](../EDH%20Standards.md#power-bracket-assessment).)
+
+## Decklist (Archidekt import)
+
+```text
+1x Elesh Norn, Mother of Machines [Commander{top}]
+1x Solemn Simulacrum [Creature]
+1x Suture Priest [Creature]
+1x Elesh Norn, Grand Cenobite [Creature]
+1x Blade Splicer [Creature]
+1x Mondrak, Glory Dominus [Creature]
+1x Phyrexian Vindicator [Creature]
+1x Master Splicer [Creature]
+1x Skrelv, Defector Mite [Creature]
+1x Basilica Shepherd [Creature]
+1x Annex Sentry [Creature]
+1x Sensor Splicer [Creature]
+1x Psychosis Crawler [Creature]
+1x Blightsteel Colossus [Creature]
+1x Wurmcoil Engine [Creature]
+1x Plague Myr [Creature]
+1x Myr Convert [Creature]
+1x Zenith Chronicler [Creature]
+1x Soulless Jailer [Creature]
+1x Ichorclaw Myr [Creature]
+1x Phyrexian Revoker [Creature]
+1x Crawling Chorus [Creature]
+1x Shattered Angel [Creature]
+1x Myr Sire [Creature]
+1x Core Prowler [Creature]
+1x Mite Overseer [Creature]
+1x Necropede [Creature]
+1x Perilous Myr [Creature]
+1x Jawbone Duelist [Creature]
+1x Swooping Lookout [Creature]
+1x Chancellor of the Annex [Creature]
+1x Argentum Masticore [Creature]
+1x Dune Mover [Creature]
+1x Atraxa's Skitterfang [Creature]
+1x Corpse Cur [Creature]
+1x Flensing Raptor [Creature]
+1x Lost Leonin [Creature]
+1x Indoctrination Attendant [Creature]
+1x Duelist of Deep Faith [Creature]
+1x Phyrexian Digester [Creature]
+1x Phyrexian Juggernaut [Creature]
+1x Priests of Norn [Creature]
+1x Mandible Justiciar [Creature]
+1x Cathedral Membrane [Creature]
+1x Sinew Dancer [Creature]
+1x Tine Shrike [Creature]
+1x Apostle of Invasion [Creature]
+1x Porcelain Zealot [Creature]
+1x The Eternal Wanderer [Planeswalker]
+1x Lightning Greaves [Artifact]
+1x Norn's Annex [Artifact]
+1x Skullclamp [Artifact]
+1x Wayfarer's Bauble [Artifact]
+1x Norn's Wellspring [Artifact]
+1x Caged Sun [Artifact]
+1x Ichor Wellspring [Artifact]
+1x Infested Fleshcutter [Artifact]
+1x Chrome Mox [Artifact]
+1x Ossification [Enchantment]
+1x Skrelv's Hive [Enchantment]
+1x White Sun's Twilight [Sorcery]
+1x Phyrexian Rebirth [Sorcery]
+1x Against All Odds [Sorcery]
+1x Charge of the Mites [Instant]
+36x Plains [Land]
+```
+
+## Card breakdown
+
+| Card | Section | EDHREC inclusion | Identity |
+|---|---|---|---|
+| [Solemn Simulacrum](../cards/S/so.md#solemn-simulacrum) | Creature | 62% | C |
+| [Suture Priest](../cards/S/sut.md#suture-priest) | Creature | 57% | W |
+| [Elesh Norn, Grand Cenobite](../cards/E/el.md#elesh-norn-grand-cenobite) | Creature | 49% | W |
+| [Blade Splicer](../cards/B/bla.md#blade-splicer) | Creature | 35% | W |
+| [Mondrak, Glory Dominus](../cards/M/mon.md#mondrak-glory-dominus) | Creature | 31% | W |
+| [Phyrexian Vindicator](../cards/P/ph.md#phyrexian-vindicator) | Creature | 25% | W |
+| [Master Splicer](../cards/M/mas.md#master-splicer) | Creature | 19% | W |
+| [Skrelv, Defector Mite](../cards/S/sk.md#skrelv-defector-mite) | Creature | 16% | W |
+| [Basilica Shepherd](../cards/B/bas.md#basilica-shepherd) | Creature | 16% | W |
+| [Annex Sentry](../cards/A/an.md#annex-sentry) | Creature | 15% | W |
+| [Sensor Splicer](../cards/S/sen.md#sensor-splicer) | Creature | 8% | W |
+| [Psychosis Crawler](../cards/P/ps.md#psychosis-crawler) | Creature | — | C |
+| [Blightsteel Colossus](../cards/B/bli.md#blightsteel-colossus) | Creature | — | C |
+| [Wurmcoil Engine](../cards/W/wu.md#wurmcoil-engine) | Creature | — | C |
+| [Plague Myr](../cards/P/pl.md#plague-myr) | Creature | — | C |
+| [Myr Convert](../cards/M/my.md#myr-convert) | Creature | — | C |
+| [Zenith Chronicler](../cards/Z/ze.md#zenith-chronicler) | Creature | — | C |
+| [Soulless Jailer](../cards/S/so.md#soulless-jailer) | Creature | — | C |
+| [Ichorclaw Myr](../cards/I/ic.md#ichorclaw-myr) | Creature | — | C |
+| [Phyrexian Revoker](../cards/P/ph.md#phyrexian-revoker) | Creature | — | C |
+| [Crawling Chorus](../cards/C/cr.md#crawling-chorus) | Creature | — | W |
+| [Shattered Angel](../cards/S/sha.md#shattered-angel) | Creature | — | W |
+| [Myr Sire](../cards/M/my.md#myr-sire) | Creature | — | C |
+| [Core Prowler](../cards/C/cor.md#core-prowler) | Creature | — | C |
+| [Mite Overseer](../cards/M/mit.md#mite-overseer) | Creature | — | W |
+| [Necropede](../cards/N/ne.md#necropede) | Creature | — | C |
+| [Perilous Myr](../cards/P/pe.md#perilous-myr) | Creature | — | C |
+| [Jawbone Duelist](../cards/J/ja.md#jawbone-duelist) | Creature | — | W |
+| [Swooping Lookout](../cards/S/sw.md#swooping-lookout) | Creature | — | W |
+| [Chancellor of the Annex](../cards/C/cha.md#chancellor-of-the-annex) | Creature | — | W |
+| [Argentum Masticore](../cards/A/arg.md#argentum-masticore) | Creature | — | C |
+| [Dune Mover](../cards/D/du.md#dune-mover) | Creature | — | C |
+| [Atraxa's Skitterfang](../cards/A/at.md#atraxas-skitterfang) | Creature | — | C |
+| [Corpse Cur](../cards/C/cor.md#corpse-cur) | Creature | — | C |
+| [Flensing Raptor](../cards/F/fl.md#flensing-raptor) | Creature | — | W |
+| [Lost Leonin](../cards/L/lo.md#lost-leonin) | Creature | — | W |
+| [Indoctrination Attendant](../cards/I/ind.md#indoctrination-attendant) | Creature | — | W |
+| [Duelist of Deep Faith](../cards/D/du.md#duelist-of-deep-faith) | Creature | — | W |
+| [Phyrexian Digester](../cards/P/ph.md#phyrexian-digester) | Creature | — | C |
+| [Phyrexian Juggernaut](../cards/P/ph.md#phyrexian-juggernaut) | Creature | — | C |
+| [Priests of Norn](../cards/P/pr.md#priests-of-norn) | Creature | — | W |
+| [Mandible Justiciar](../cards/M/man.md#mandible-justiciar) | Creature | — | W |
+| [Cathedral Membrane](../cards/C/cat.md#cathedral-membrane) | Creature | — | W |
+| [Sinew Dancer](../cards/S/si.md#sinew-dancer) | Creature | — | W |
+| [Tine Shrike](../cards/T/ti.md#tine-shrike) | Creature | — | W |
+| [Apostle of Invasion](../cards/A/ap.md#apostle-of-invasion) | Creature | — | W |
+| [Porcelain Zealot](../cards/P/po.md#porcelain-zealot) | Creature | — | W |
+| [The Eternal Wanderer](../cards/T/thee.md#the-eternal-wanderer) | Planeswalker | 38% | W |
+| [Lightning Greaves](../cards/L/li.md#lightning-greaves) | Artifact | 32% | C |
+| [Norn's Annex](../cards/N/no.md#norns-annex) | Artifact | 18% | W |
+| [Skullclamp](../cards/S/sk.md#skullclamp) | Artifact | 14% | C |
+| [Wayfarer's Bauble](../cards/W/way.md#wayfarers-bauble) | Artifact | 9% | C |
+| [Norn's Wellspring](../cards/N/no.md#norns-wellspring) | Artifact | 9% | W |
+| [Caged Sun](../cards/C/cag.md#caged-sun) | Artifact | 9% | C |
+| [Ichor Wellspring](../cards/I/ic.md#ichor-wellspring) | Artifact | 8% | C |
+| [Infested Fleshcutter](../cards/I/inf.md#infested-fleshcutter) | Artifact | 7% | W |
+| [Chrome Mox](../cards/C/chr.md#chrome-mox) | Artifact | 5% | C |
+| [Ossification](../cards/O/os.md#ossification) | Enchantment | 28% | W |
+| [Skrelv's Hive](../cards/S/sk.md#skrelvs-hive) | Enchantment | 11% | W |
+| [White Sun's Twilight](../cards/W/wh.md#white-suns-twilight) | Sorcery | 25% | W |
+| [Phyrexian Rebirth](../cards/P/ph.md#phyrexian-rebirth) | Sorcery | 12% | W |
+| [Against All Odds](../cards/A/ag.md#against-all-odds) | Sorcery | 9% | W |
+| [Charge of the Mites](../cards/C/cha.md#charge-of-the-mites) | Instant | 7% | W |
+| 36× Plains | Basic land | — | — |
+
+## Rejected candidates
+
+EDHREC suggestions excluded by validation (should normally be empty or only off-identity/illegal cards):
+
+- Sol Ring — no printing in Mirrodin/New Phyrexia
+- Swords to Plowshares — no printing in Mirrodin/New Phyrexia
+- Pearl Medallion — no printing in Mirrodin/New Phyrexia
+- Panharmonicon — no printing in Mirrodin/New Phyrexia
+- Ephemerate — no printing in Mirrodin/New Phyrexia
+- Path to Exile — no printing in Mirrodin/New Phyrexia
+- Arcane Signet — no printing in Mirrodin/New Phyrexia
+- Teleportation Circle — no printing in Mirrodin/New Phyrexia
+- Spirited Companion — no printing in Mirrodin/New Phyrexia
+- Restoration Angel — no printing in Mirrodin/New Phyrexia
+- Sun Titan — no printing in Mirrodin/New Phyrexia
+- Wall of Omens — no printing in Mirrodin/New Phyrexia
+- Charming Prince — no printing in Mirrodin/New Phyrexia
+- Loran of the Third Path — no printing in Mirrodin/New Phyrexia
+- Cloudshift — no printing in Mirrodin/New Phyrexia
+- Eerie Interlude — no printing in Mirrodin/New Phyrexia
+- Flickerwisp — no printing in Mirrodin/New Phyrexia
+- Felidar Guardian — no printing in Mirrodin/New Phyrexia
+- Inspiring Overseer — no printing in Mirrodin/New Phyrexia
+- Emeria, the Sky Ruin — no printing in Mirrodin/New Phyrexia
+- Archaeomancer's Map — no printing in Mirrodin/New Phyrexia
+- Knight of the White Orchid — no printing in Mirrodin/New Phyrexia
+- Conjurer's Closet — no printing in Mirrodin/New Phyrexia
+- Felidar Retreat — no printing in Mirrodin/New Phyrexia
+- Smothering Tithe — no printing in Mirrodin/New Phyrexia
+- Cathars' Crusade — no printing in Mirrodin/New Phyrexia
+- Soul Warden — no printing in Mirrodin/New Phyrexia
+- Nykthos, Shrine to Nyx — no printing in Mirrodin/New Phyrexia
+- Karmic Guide — no printing in Mirrodin/New Phyrexia
+- Esper Sentinel — no printing in Mirrodin/New Phyrexia
+
+<!-- RULES-NOTES:START -->
+## Commander rules & rulings
+
+> Auto-generated by `scripts/deck_rules_notes.py` from Scryfall Oracle bulk (2026-10-15) and rulings bulk (2026-10-15); rulings are quoted verbatim (source: Wizards of the Coast unless marked). Facts only — strategy is in [EDH Standards](../EDH%20Standards.md#synergy-notes), labeled Opinion.
+
+**Oracle text — [Elesh Norn, Mother of Machines](../cards/E/el.md#elesh-norn-mother-of-machines):**
+> Elesh Norn, Mother of Machines: Vigilance / If a permanent entering causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time. / Permanents entering don't cause abilities of permanents your opponents control to trigger.
+
+**Official rulings on the commander (11):**
+- *2023-02-04* — In some cases involving linked abilities, an ability requires information about "the exiled card." When this happens, the ability gets multiple answers. If these answers are being used to determine the value of a variable, the sum is used. For example, if Elite Arcanist's enters-the-battlefield ability triggers twice, two cards are exiled. The value of X in the activation cost of Elite Arcanist's other ability is the sum of the two cards' mana values. As the ability resolves, you create copies of both cards and can cast none, one, or both of the copies in any order.
+- *2023-02-04* — Elesh Norn's first ability doesn't copy the triggered ability; it just causes the ability to trigger twice. Any choices made as you put the ability onto the stack, such as modes and targets, are made separately for each instance of the ability. Any choices made on resolution, such as whether to put counters on a permanent, are also made individually.
+- *2023-02-04* — If you somehow control two Elesh Norns, a permanent entering the battlefield causes abilities to trigger three times, not four. A third Elesh Norn causes abilities to trigger four times, a fourth causes abilities to trigger five times, and so on.
+- *2023-02-04* — Elesh Norn's second and third ability each affects a permanent's own enters-the-battlefield triggered abilities as well as other triggered abilities that trigger when that permanent enters the battlefield. Such triggered abilities start with "when" or "whenever." Some keyword abilities also include a triggered ability that happens when a permanent enters the battlefield, such as For Mirrodin!
+- *2023-02-04* — If a permanent entering the battlefield at the same time as Elesh Norn (including Elesh Norn itself) causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.
+- *2023-02-04* — Elesh Norn's abilities don't look at who controls the permanent entering the battlefield, only who controls the permanent that has the triggered ability. For example, if you control Elesh Norn and a permanent with the ability "Whenever a creature enters the battlefield, you gain 1 life," a creature entering the battlefield under an opponent's control will cause that ability to trigger twice.
+- *2023-02-04* — Replacement effects are unaffected by Elesh Norn's abilities. For example, a creature that enters the battlefield under your control with one +1/+1 counter on it won't receive an additional +1/+1 counter.
+- *2023-02-04* — Similarly, a permanent entering the battlefield at the same time as Elesh Norn (still including Elesh Norn) won't cause abilities of permanents an opponent controls to trigger.
+- *2023-02-04* — Abilities that apply "as [this permanent] enters the battlefield," such as choosing a card type with Stenn, Paranoid Partisan, are also unaffected.
+- *2023-02-04* — In a Two-Headed Giant game, Elesh Norn does not affect triggered abilities of permanents your teammate controls.
+- *2023-02-04* — If a triggered ability is linked to a second ability, additional instances of that triggered ability are also linked to that second ability. If the second ability refers to "the exiled card," it refers to all cards exiled by instances of the triggered ability.
+
+**Creature-type overlap** with the commander (Phyrexian, Praetor): 46 card(s) — [Suture Priest](../cards/S/sut.md#suture-priest), [Elesh Norn, Grand Cenobite](../cards/E/el.md#elesh-norn-grand-cenobite), [Blade Splicer](../cards/B/bla.md#blade-splicer), [Mondrak, Glory Dominus](../cards/M/mon.md#mondrak-glory-dominus), [Phyrexian Vindicator](../cards/P/ph.md#phyrexian-vindicator), [Master Splicer](../cards/M/mas.md#master-splicer), [Skrelv, Defector Mite](../cards/S/sk.md#skrelv-defector-mite), [Basilica Shepherd](../cards/B/bas.md#basilica-shepherd), [Annex Sentry](../cards/A/an.md#annex-sentry), [Sensor Splicer](../cards/S/sen.md#sensor-splicer), [Psychosis Crawler](../cards/P/ps.md#psychosis-crawler), [Blightsteel Colossus](../cards/B/bli.md#blightsteel-colossus) ….
+
+**Deck cards with official rulings:** 42 of 63 non-basic cards — [Elesh Norn, Grand Cenobite](../cards/E/el.md#elesh-norn-grand-cenobite) (1), [Mondrak, Glory Dominus](../cards/M/mon.md#mondrak-glory-dominus) (1), [Phyrexian Vindicator](../cards/P/ph.md#phyrexian-vindicator) (1), [Master Splicer](../cards/M/mas.md#master-splicer) (1), [Skrelv, Defector Mite](../cards/S/sk.md#skrelv-defector-mite) (7), [Basilica Shepherd](../cards/B/bas.md#basilica-shepherd) (7), [Annex Sentry](../cards/A/an.md#annex-sentry) (7), [Psychosis Crawler](../cards/P/ps.md#psychosis-crawler) (1), [Blightsteel Colossus](../cards/B/bli.md#blightsteel-colossus) (4), [Wurmcoil Engine](../cards/W/wu.md#wurmcoil-engine) (2), [Myr Convert](../cards/M/my.md#myr-convert) (7), [Soulless Jailer](../cards/S/so.md#soulless-jailer) (2), [Ichorclaw Myr](../cards/I/ic.md#ichorclaw-myr) (7), [Phyrexian Revoker](../cards/P/ph.md#phyrexian-revoker) (2), [Crawling Chorus](../cards/C/cr.md#crawling-chorus) (7), [Core Prowler](../cards/C/cor.md#core-prowler) (6), [Mite Overseer](../cards/M/mit.md#mite-overseer) (8), [Necropede](../cards/N/ne.md#necropede) (6), [Perilous Myr](../cards/P/pe.md#perilous-myr) (1), [Jawbone Duelist](../cards/J/ja.md#jawbone-duelist) (7), [Chancellor of the Annex](../cards/C/cha.md#chancellor-of-the-annex) (3), [Argentum Masticore](../cards/A/arg.md#argentum-masticore) (2), [Dune Mover](../cards/D/du.md#dune-mover) (7), [Atraxa's Skitterfang](../cards/A/at.md#atraxas-skitterfang) (2), [Corpse Cur](../cards/C/cor.md#corpse-cur) (6), [Flensing Raptor](../cards/F/fl.md#flensing-raptor) (6), [Indoctrination Attendant](../cards/I/ind.md#indoctrination-attendant) (7), [Duelist of Deep Faith](../cards/D/du.md#duelist-of-deep-faith) (7), [Cathedral Membrane](../cards/C/cat.md#cathedral-membrane) (6), [Apostle of Invasion](../cards/A/ap.md#apostle-of-invasion) (1), [The Eternal Wanderer](../cards/T/thee.md#the-eternal-wanderer) (6), [Lightning Greaves](../cards/L/li.md#lightning-greaves) (2), [Norn's Annex](../cards/N/no.md#norns-annex) (9), [Caged Sun](../cards/C/cag.md#caged-sun) (1), [Ichor Wellspring](../cards/I/ic.md#ichor-wellspring) (1), [Infested Fleshcutter](../cards/I/inf.md#infested-fleshcutter) (7), [Chrome Mox](../cards/C/chr.md#chrome-mox) (3), [Ossification](../cards/O/os.md#ossification) (3), [Skrelv's Hive](../cards/S/sk.md#skrelvs-hive) (7), [White Sun's Twilight](../cards/W/wh.md#white-suns-twilight) (7), [Phyrexian Rebirth](../cards/P/ph.md#phyrexian-rebirth) (2), [Charge of the Mites](../cards/C/cha.md#charge-of-the-mites) (7).
+<!-- RULES-NOTES:END -->
+
+<!-- COMBOS:START -->
+## Combos (Commander Spellbook)
+
+> Auto-generated 2026-10-15 by `scripts/detect_combos.py` from the [Commander Spellbook](https://commanderspellbook.com) public API (community-maintained combo database; each combo links to its page). Only combos whose **every card is in this list** are shown. Bracket note uses the official barometer: *Brackets 1–2 — no intentional two-card infinite combos; Bracket 3 — no early-game two-card infinite combos*.
+
+**No complete combos found** (9 combos are one card away — not listed).
+<!-- COMBOS:END -->
