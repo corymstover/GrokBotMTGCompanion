@@ -17,7 +17,7 @@
 
 - EDHREC coverage: every Commander-legal card ranked ≤ **32,351** has an entry
 - Rulings: **78,943 / 78,943** Scryfall rulings in entries (19,889 / 19,889 cards with rulings; 33,894 / 33,894 cards processed) · next: **none — complete**
-- Last batch: `2026-10-15-b6` (+14,085 cards) · last run 2026-10-15T11:04:12+00:00 · Scryfall bulk 2026-10-15
+- Last batch: `2026-10-15-b6` (+14,085 cards) · last run 2026-10-15T12:07:15+00:00 · Scryfall bulk 2026-10-15
 - Next card target: **none — full coverage.** Each run auto-adds newly released Scryfall cards and refreshes Oracle text/legality.
 <!-- CARD-STATS:END -->
 
