@@ -1,0 +1,473 @@
+---
+title: "Grixis Deck — Kraum, Ludevic's Opus + Tevesh Szat, Doom of Fools"
+category: deck
+kind: grixis
+commander: "Kraum, Ludevic's Opus"
+color_identity: UBR
+bracket_floor: 4
+game_changers: 22
+validated: true
+source_repo: corymstover/grixis-commander-encyclopediaGPT
+---
+
+# Grixis Deck — Kraum, Ludevic's Opus + Tevesh Szat, Doom of Fools
+
+> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Grixistax_October_2026_Approved_2026-10-14.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decklists/Grixistax_October_2026_Approved_2026-10-14.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-14; source commit `df1abb9`). Imported in Bot cycle 16 and re-validated against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
+
+## Contents
+- [Commander](#commander)
+- [Validation](#validation)
+- [Bracket assessment](#bracket-assessment)
+- [Corrections applied](#corrections-applied)
+- [Decklist (Archidekt import)](#decklist-archidekt-import)
+- [Card breakdown](#card-breakdown)
+- [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Combos (Commander Spellbook)](#combos-commander-spellbook)
+
+## Commander
+
+- **[Kraum, Ludevic's Opus](../../cards/K/kr.md#kraum-ludevics-opus)** — {3}{U}{R} — Legendary Creature — Zombie Horror
+- **[Tevesh Szat, Doom of Fools](../../cards/T/te.md#tevesh-szat-doom-of-fools)** — {4}{B} — Legendary Planeswalker — Szat
+- Color identity: **UBR (Blue, Black, Red)**
+- Eligibility (Kraum, Ludevic's Opus): Yes (legendary creature) · pairing: Partner
+- Eligibility (Tevesh Szat, Doom of Fools): Yes (Oracle text: "can be your commander") · pairing: Partner
+
+## Validation
+
+- Total cards: **100** (2 commander(s) + 72 nonland + 23 nonbasic lands + 3 basics) · average nonland MV 2.06
+- Strict color identity (CR 903.5c), singleton (903.5b), Commander-legal, size (903.5a): ✅ **all checks pass**
+- Every card resolves to an entry in our card DB (100/100 lines linked).
+
+## Bracket assessment
+
+- Game Changers (22): Ancient Tomb, Chrome Mox, Cyclonic Rift, Demonic Tutor, Fierce Guardianship, Force of Will, Gamble, Grim Monolith, Imperial Seal, Jeska's Will, Lion's Eye Diamond, Mana Vault, Mox Diamond, Mystical Tutor, Narset, Parter of Veils, Necropotence, Notion Thief, Opposition Agent, Orcish Bowmasters, Rhystic Study, Underworld Breach, Vampiric Tutor
+- Extra-turn cards: none
+- Mass land denial: Back to Basics
+- Commander Spellbook: 6 complete combo(s), 0 two-card infinite (see [Combos](#combos-commander-spellbook)).
+- **Minimum bracket by the published barometers: 4** (more than three Game Changers; mass land denial).
+- Source's stated target (guidance): **Bracket 5 — fringe / rogue cEDH**.
+- (Brackets are a pregame-conversation tool. See [EDH Standards](../../EDH%20Standards.md#power-bracket-assessment).)
+
+## Corrections applied
+
+| Type | Change | Reason |
+|---|---|---|
+| format | Archidekt list normalized to [EDH Standards](../../EDH%20Standards.md#list-format-archidekt) | `[Commander]` → `[Commander{top}]` (2 line(s)); role tags restored on 96 untagged line(s): 86 from this deck's FINAL baseline, 10 from the tag the source uses most for that card in other decks; 2 untagged line(s) given a type tag (e.g. `[Land]`). |
+| bracket | Game Changers and combo floor added | The source records no Game Changer count and does not check the official Game Changers list anywhere in its approval records. We added it: **22 Game Changers**, so the minimum bracket is **4**. Commander Spellbook finds 6 complete combos (0 two-card infinite). This is consistent with the source's stated Bracket 5. |
+
+Full log for all decks: [Grixis Corrections](../Grixis%20Corrections.md).
+
+## Decklist (Archidekt import)
+
+```text
+1x Kraum, Ludevic's Opus [Commander{top}]
+1x Tevesh Szat, Doom of Fools [Commander{top}]
+1x An Offer You Can't Refuse [Removal]
+1x Ancient Tomb [Land]
+1x Arid Mesa [Land]
+1x Ashiok, Dream Render [Mill]
+1x Back to Basics [Stax]
+1x Badlands [Land]
+1x Beseech the Mirror [Tutor]
+1x Blood Crypt [Land]
+1x Blood Moon [Stax]
+1x Bloodstained Mire [Land]
+1x Brain Freeze [Mill]
+1x Chain of Vapor [Removal]
+1x Chalice of the Void [Stax]
+1x Chrome Mox [Ramp]
+1x City of Brass [Land]
+1x Command Tower [Land]
+1x Contamination [Enchantment]
+1x Culling the Weak [Ramp]
+1x Cursed Totem [Stax]
+1x Cyclonic Rift [Removal]
+1x Damping Sphere [Artifact]
+1x Dark Ritual [Ramp]
+1x Dauthi Voidwalker [Stax]
+1x Deadly Rollick [Removal]
+1x Deflecting Swat [Protection]
+1x Demonic Tutor [Tutor]
+1x Diabolic Intent [Tutor]
+1x Fierce Guardianship [Removal]
+1x Flooded Strand [Land]
+1x Flusterstorm [Counters]
+1x Force of Negation [Counters]
+1x Force of Will [Counters]
+1x Gamble [Tutor]
+1x Gemstone Caverns [Land]
+1x Grim Monolith [Ramp]
+1x Helm of Obedience [Mill]
+1x Imperial Seal [Tutor]
+1x Island [Land]
+1x Jeska's Will [Ramp]
+1x Karn, the Great Creator [Stax]
+1x Leyline of the Void [Stax]
+1x Lion's Eye Diamond [Ramp]
+1x Lotus Petal [Ramp]
+1x Magus of the Moon [Stax]
+1x Mana Confluence [Land]
+1x Mana Drain [Removal]
+1x Mana Vault [Ramp]
+1x Marsh Flats [Land]
+1x Mental Misstep [Counters]
+1x Mindbreak Trap [Counters]
+1x Misty Rainforest [Land]
+1x Morphic Pool [Land]
+1x Mountain [Land]
+1x Mox Amber [Ramp]
+1x Mox Diamond [Ramp]
+1x Mox Opal [Ramp]
+1x Mystic Remora [Draw]
+1x Mystical Tutor [Tutor]
+1x Narset, Parter of Veils [Draw]
+1x Necropotence [Draw]
+1x Notion Thief [Draw]
+1x Opposition Agent [Stax]
+1x Orcish Bowmasters [Removal]
+1x Otawara, Soaring City [Land]
+1x Overburden [Stax]
+1x Pact of Negation [Counters]
+1x Phyrexian Tower [Land]
+1x Polluted Delta [Land]
+1x Pyroblast [Removal]
+1x Ragavan, Nimble Pilferer [Ramp]
+1x Red Elemental Blast [Removal]
+1x Rhystic Study [Draw]
+1x Scalding Tarn [Land]
+1x Sheoldred, the Apocalypse [Lifegain]
+1x Skullclamp [Draw]
+1x Sol Ring [Ramp]
+1x Static Orb [Stax]
+1x Steam Vents [Land]
+1x Swamp [Land]
+1x Swan Song [Removal]
+1x Tainted Pact [Tutor]
+1x Talisman of Creativity [Ramp]
+1x Talisman of Dominance [Ramp]
+1x Tangle Wire [Stax]
+1x Torpor Orb [Stax]
+1x Toxic Deluge [Removal]
+1x Trinisphere [Stax]
+1x Underground Sea [Land]
+1x Underworld Breach [Recursion]
+1x Vampiric Tutor [Tutor]
+1x Verdant Catacombs [Land]
+1x Volcanic Island [Land]
+1x Watery Grave [Land]
+1x Wheel of Fortune [Draw]
+1x Windfall [Draw]
+1x Winter Orb [Stax]
+1x Wishclaw Talisman [Tutor]
+1x Wooded Foothills [Land]
+```
+
+## Card breakdown
+
+Role tags are the source author's (untagged lines show the card type). *Printing* is the source's pinned printing, if it pinned one.
+
+| Card | Role (source tag) | Type | MV | Identity | GC | Printing |
+|---|---|---|---|---|---|---|
+| [Kraum, Ludevic's Opus](../../cards/K/kr.md#kraum-ludevics-opus) | Commander | Legendary Creature — Zombie Horror | 5 | UR |  | — |
+| [Tevesh Szat, Doom of Fools](../../cards/T/te.md#tevesh-szat-doom-of-fools) | Commander | Legendary Planeswalker — Szat | 5 | B |  | — |
+| [Damping Sphere](../../cards/D/da.md#damping-sphere) | Artifact | Artifact | 2 | C |  | — |
+| [Flusterstorm](../../cards/F/fl.md#flusterstorm) | Counters | Instant | 1 | U |  | — |
+| [Force of Negation](../../cards/F/fo.md#force-of-negation) | Counters | Instant | 3 | U |  | — |
+| [Force of Will](../../cards/F/fo.md#force-of-will) | Counters | Instant | 5 | U | ✅ | — |
+| [Mental Misstep](../../cards/M/me.md#mental-misstep) | Counters | Instant | 1 | U |  | — |
+| [Mindbreak Trap](../../cards/M/min.md#mindbreak-trap) | Counters | Instant — Trap | 4 | U |  | — |
+| [Pact of Negation](../../cards/P/pa.md#pact-of-negation) | Counters | Instant | 0 | U |  | — |
+| [Mystic Remora](../../cards/M/my.md#mystic-remora) | Draw | Enchantment | 1 | U |  | — |
+| [Narset, Parter of Veils](../../cards/N/na.md#narset-parter-of-veils) | Draw | Legendary Planeswalker — Narset | 3 | U | ✅ | — |
+| [Necropotence](../../cards/N/ne.md#necropotence) | Draw | Enchantment | 3 | B | ✅ | — |
+| [Notion Thief](../../cards/N/no.md#notion-thief) | Draw | Creature — Human Rogue | 4 | UB | ✅ | — |
+| [Rhystic Study](../../cards/R/rh.md#rhystic-study) | Draw | Enchantment | 3 | U | ✅ | — |
+| [Skullclamp](../../cards/S/sk.md#skullclamp) | Draw | Artifact — Equipment | 1 | C |  | — |
+| [Wheel of Fortune](../../cards/W/wh.md#wheel-of-fortune) | Draw | Sorcery | 3 | R |  | — |
+| [Windfall](../../cards/W/wi.md#windfall) | Draw | Sorcery | 3 | U |  | — |
+| [Contamination](../../cards/C/con.md#contamination) | Enchantment | Enchantment | 3 | B |  | — |
+| [Ancient Tomb](../../cards/A/an.md#ancient-tomb) | Land | Land | 0 | C | ✅ | — |
+| [Arid Mesa](../../cards/A/ari.md#arid-mesa) | Land | Land | 0 | C |  | — |
+| [Badlands](../../cards/B/bad.md#badlands) | Land | Land — Swamp Mountain | 0 | BR |  | — |
+| [Blood Crypt](../../cards/B/blo.md#blood-crypt) | Land | Land — Swamp Mountain | 0 | BR |  | — |
+| [Bloodstained Mire](../../cards/B/blo.md#bloodstained-mire) | Land | Land | 0 | C |  | — |
+| [City of Brass](../../cards/C/ci.md#city-of-brass) | Land | Land | 0 | C |  | — |
+| [Command Tower](../../cards/C/com.md#command-tower) | Land | Land | 0 | C |  | — |
+| [Flooded Strand](../../cards/F/fl.md#flooded-strand) | Land | Land | 0 | C |  | — |
+| [Gemstone Caverns](../../cards/G/ge.md#gemstone-caverns) | Land | Legendary Land | 0 | C |  | — |
+| [Island](../../cards/I/is.md#island) | Land | Basic Land — Island | 0 | U |  | — |
+| [Mana Confluence](../../cards/M/man.md#mana-confluence) | Land | Land | 0 | C |  | — |
+| [Marsh Flats](../../cards/M/mar.md#marsh-flats) | Land | Land | 0 | C |  | — |
+| [Misty Rainforest](../../cards/M/mis.md#misty-rainforest) | Land | Land | 0 | C |  | — |
+| [Morphic Pool](../../cards/M/mor.md#morphic-pool) | Land | Land | 0 | UB |  | — |
+| [Mountain](../../cards/M/mou.md#mountain) | Land | Basic Land — Mountain | 0 | R |  | — |
+| [Otawara, Soaring City](../../cards/O/ot.md#otawara-soaring-city) | Land | Legendary Land | 0 | U |  | — |
+| [Phyrexian Tower](../../cards/P/ph.md#phyrexian-tower) | Land | Legendary Land | 0 | B |  | — |
+| [Polluted Delta](../../cards/P/po.md#polluted-delta) | Land | Land | 0 | C |  | — |
+| [Scalding Tarn](../../cards/S/sc.md#scalding-tarn) | Land | Land | 0 | C |  | — |
+| [Steam Vents](../../cards/S/ste.md#steam-vents) | Land | Land — Island Mountain | 0 | UR |  | — |
+| [Swamp](../../cards/S/sw.md#swamp) | Land | Basic Land — Swamp | 0 | B |  | — |
+| [Underground Sea](../../cards/U/un.md#underground-sea) | Land | Land — Island Swamp | 0 | UB |  | — |
+| [Verdant Catacombs](../../cards/V/ve.md#verdant-catacombs) | Land | Land | 0 | C |  | — |
+| [Volcanic Island](../../cards/V/vo.md#volcanic-island) | Land | Land — Island Mountain | 0 | UR |  | — |
+| [Watery Grave](../../cards/W/wat.md#watery-grave) | Land | Land — Island Swamp | 0 | UB |  | — |
+| [Wooded Foothills](../../cards/W/wo.md#wooded-foothills) | Land | Land | 0 | C |  | — |
+| [Sheoldred, the Apocalypse](../../cards/S/she.md#sheoldred-the-apocalypse) | Lifegain | Legendary Creature — Phyrexian Praetor | 4 | B |  | — |
+| [Ashiok, Dream Render](../../cards/A/as.md#ashiok-dream-render) | Mill | Legendary Planeswalker — Ashiok | 3 | UB |  | — |
+| [Brain Freeze](../../cards/B/br.md#brain-freeze) | Mill | Instant | 2 | U |  | — |
+| [Helm of Obedience](../../cards/H/he.md#helm-of-obedience) | Mill | Artifact | 4 | C |  | — |
+| [Deflecting Swat](../../cards/D/def.md#deflecting-swat) | Protection | Instant | 3 | R |  | — |
+| [Chrome Mox](../../cards/C/chr.md#chrome-mox) | Ramp | Artifact | 0 | C | ✅ | — |
+| [Culling the Weak](../../cards/C/cu.md#culling-the-weak) | Ramp | Instant | 1 | B |  | — |
+| [Dark Ritual](../../cards/D/da.md#dark-ritual) | Ramp | Instant | 1 | B |  | — |
+| [Grim Monolith](../../cards/G/gri.md#grim-monolith) | Ramp | Artifact | 2 | C | ✅ | — |
+| [Jeska's Will](../../cards/J/je.md#jeskas-will) | Ramp | Sorcery | 3 | R | ✅ | — |
+| [Lion's Eye Diamond](../../cards/L/li.md#lions-eye-diamond) | Ramp | Artifact | 0 | C | ✅ | — |
+| [Lotus Petal](../../cards/L/lo.md#lotus-petal) | Ramp | Artifact | 0 | C |  | — |
+| [Mana Vault](../../cards/M/man.md#mana-vault) | Ramp | Artifact | 1 | C | ✅ | — |
+| [Mox Amber](../../cards/M/mox.md#mox-amber) | Ramp | Legendary Artifact | 0 | C |  | — |
+| [Mox Diamond](../../cards/M/mox.md#mox-diamond) | Ramp | Artifact | 0 | C | ✅ | — |
+| [Mox Opal](../../cards/M/mox.md#mox-opal) | Ramp | Legendary Artifact | 0 | C |  | — |
+| [Ragavan, Nimble Pilferer](../../cards/R/rag.md#ragavan-nimble-pilferer) | Ramp | Legendary Creature — Monkey Pirate | 1 | R |  | — |
+| [Sol Ring](../../cards/S/so.md#sol-ring) | Ramp | Artifact | 1 | C |  | — |
+| [Talisman of Creativity](../../cards/T/ta.md#talisman-of-creativity) | Ramp | Artifact | 2 | UR |  | — |
+| [Talisman of Dominance](../../cards/T/ta.md#talisman-of-dominance) | Ramp | Artifact | 2 | UB |  | — |
+| [Underworld Breach](../../cards/U/un.md#underworld-breach) | Recursion | Enchantment | 2 | R | ✅ | — |
+| [An Offer You Can't Refuse](../../cards/A/an.md#an-offer-you-cant-refuse) | Removal | Instant | 1 | U |  | — |
+| [Chain of Vapor](../../cards/C/cha.md#chain-of-vapor) | Removal | Instant | 1 | U |  | — |
+| [Cyclonic Rift](../../cards/C/cy.md#cyclonic-rift) | Removal | Instant | 2 | U | ✅ | — |
+| [Deadly Rollick](../../cards/D/dea.md#deadly-rollick) | Removal | Instant | 4 | B |  | — |
+| [Fierce Guardianship](../../cards/F/fi.md#fierce-guardianship) | Removal | Instant | 3 | U | ✅ | — |
+| [Mana Drain](../../cards/M/man.md#mana-drain) | Removal | Instant | 2 | U |  | — |
+| [Orcish Bowmasters](../../cards/O/or.md#orcish-bowmasters) | Removal | Creature — Orc Archer | 2 | B | ✅ | — |
+| [Pyroblast](../../cards/P/py.md#pyroblast) | Removal | Instant | 1 | R |  | — |
+| [Red Elemental Blast](../../cards/R/red.md#red-elemental-blast) | Removal | Instant | 1 | R |  | — |
+| [Swan Song](../../cards/S/sw.md#swan-song) | Removal | Instant | 1 | U |  | — |
+| [Toxic Deluge](../../cards/T/to.md#toxic-deluge) | Removal | Sorcery | 3 | B |  | — |
+| [Back to Basics](../../cards/B/bac.md#back-to-basics) | Stax | Enchantment | 3 | U |  | — |
+| [Blood Moon](../../cards/B/blo.md#blood-moon) | Stax | Enchantment | 3 | R |  | — |
+| [Chalice of the Void](../../cards/C/cha.md#chalice-of-the-void) | Stax | Artifact | 0 | C |  | — |
+| [Cursed Totem](../../cards/C/cu.md#cursed-totem) | Stax | Artifact | 2 | C |  | — |
+| [Dauthi Voidwalker](../../cards/D/da.md#dauthi-voidwalker) | Stax | Creature — Dauthi Rogue | 2 | B |  | — |
+| [Karn, the Great Creator](../../cards/K/ka.md#karn-the-great-creator) | Stax | Legendary Planeswalker — Karn | 4 | C |  | — |
+| [Leyline of the Void](../../cards/L/le.md#leyline-of-the-void) | Stax | Enchantment | 4 | B |  | — |
+| [Magus of the Moon](../../cards/M/mag.md#magus-of-the-moon) | Stax | Creature — Human Wizard | 3 | R |  | — |
+| [Opposition Agent](../../cards/O/op.md#opposition-agent) | Stax | Creature — Human Rogue | 3 | B | ✅ | — |
+| [Overburden](../../cards/O/ov.md#overburden) | Stax | Enchantment | 2 | U |  | — |
+| [Static Orb](../../cards/S/sta.md#static-orb) | Stax | Artifact | 3 | C |  | — |
+| [Tangle Wire](../../cards/T/ta.md#tangle-wire) | Stax | Artifact | 3 | C |  | — |
+| [Torpor Orb](../../cards/T/to.md#torpor-orb) | Stax | Artifact | 2 | C |  | — |
+| [Trinisphere](../../cards/T/tri.md#trinisphere) | Stax | Artifact | 3 | C |  | — |
+| [Winter Orb](../../cards/W/wi.md#winter-orb) | Stax | Artifact | 2 | C |  | — |
+| [Beseech the Mirror](../../cards/B/be.md#beseech-the-mirror) | Tutor | Sorcery | 4 | B |  | — |
+| [Demonic Tutor](../../cards/D/dem.md#demonic-tutor) | Tutor | Sorcery | 2 | B | ✅ | — |
+| [Diabolic Intent](../../cards/D/di.md#diabolic-intent) | Tutor | Sorcery | 2 | B |  | — |
+| [Gamble](../../cards/G/ga.md#gamble) | Tutor | Sorcery | 1 | R | ✅ | — |
+| [Imperial Seal](../../cards/I/im.md#imperial-seal) | Tutor | Sorcery | 1 | B | ✅ | — |
+| [Mystical Tutor](../../cards/M/my.md#mystical-tutor) | Tutor | Instant | 1 | U | ✅ | — |
+| [Tainted Pact](../../cards/T/ta.md#tainted-pact) | Tutor | Instant | 2 | B |  | — |
+| [Vampiric Tutor](../../cards/V/va.md#vampiric-tutor) | Tutor | Instant | 1 | B | ✅ | — |
+| [Wishclaw Talisman](../../cards/W/wi.md#wishclaw-talisman) | Tutor | Artifact | 2 | B |  | — |
+
+## Source commentary (verbatim)
+
+> Quoted from the source repo with headings turned into bold text. This is **the source author's analysis and opinion (guidance)**, from `grixis-commander-encyclopediaGPT`, path shown above each block. Relative links point back to the source. Rules statements here were not re-verified card by card (see [Grixis Corrections](../Grixis%20Corrections.md#oracle-text-check) for the Oracle check). Where the source mentions Lutri, Trade Secrets or Yawgmoth's Bargain as approved exceptions, our corrected list above takes precedence.
+
+### From `refinement/decisions/Grixistax_October_2026_Current_Cycle_Decisions_2026-10-14.md`
+
+Source: [refinement/decisions/Grixistax_October_2026_Current_Cycle_Decisions_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decisions/Grixistax_October_2026_Current_Cycle_Decisions_2026-10-14.md)
+
+**Grixistax — October 2026 — Current-Cycle Refinement Decisions**
+
+Cycle: `global-restart-2026-10-13`  
+Date: 2026-10-14  
+Commanders: `Kraum, Ludevic's Opus // Tevesh Szat, Doom of Fools`  
+Tracker deck id: `Grixistax___October_2026`  
+Authoritative source TXT: `GrixisFINALTXT60--2026.zip / Grixistax___October_2026.txt`  
+Authoritative source TXT SHA-256: `ac02379cf1803f317213db663129889ccae6dee9258f76607ec5420a03d1aacd`  
+Current-cycle clean baseline: `refinement/verification/grixistax_october_2026_2026-10-14/Grixistax_October_2026_Current_Cycle_Baseline_2026-10-14.txt`  
+Clean-baseline SHA-256: `79f7d444bea3616c497ddb922b350fc4cdbf51723bfe34fc601be1127f5ccf5e`  
+Approval candidate: `refinement/decklists/Grixistax_October_2026_Approval_Candidate_2026-10-14.txt`  
+Approval-candidate SHA-256: `f36346d4ba965db1e098b0aa92d27a968ee3a14c74a2b9401c1a5357f83c025c`
+
+**Source reconciliation**
+
+The frozen source baseline contains exactly 100 cards, 100 distinct card names, two partner commanders, and 26 lands. `Tainted Pact` therefore has a fully unique-name library. No project-specific legality exception applies.
+
+The first-pass whole-list audit is preserved at `refinement/decisions/Grixistax_October_2026_Whole_List_Audit_2026-10-14.csv`. That audit remains valid except for one explicit final red-team supersession: its `KEEP` decision for `Black Market Connections` is replaced by **CUT**, and `Necropotence` is **ADD**. The exact candidate and this closeout are authoritative for the final proposal.
+
+**Commander blueprint and natural ceiling**
+
+**Identity:** Grixis Stax / prison-resource deception. The objective is not to rebuild the list into stock Kraum/Tevesh turbo-combo. The deck should constrict mana, searches, activated abilities, creature engines, graveyards, untaps, and card flow while exploiting commander-generated resources to break parity.
+
+**Kraum:** evasive haste pressure and a card-advantage trigger when an opponent casts their second spell each turn. The final prison suite therefore prefers taxes and resource restrictions over a universal one-spell-per-turn lock that would make Kraum's signature trigger structurally dead.
+
+**Tevesh Szat:** the principal parity engine. His +2 supplies two expendable Thrulls; his +1 converts creatures or planeswalkers into cards. The final list deliberately turns Thrulls into upkeep payments, mana, tutoring, card draw, and Tangle Wire fodder.
+
+**Natural ceiling:** **Power Bracket 5 — fringe / rogue cEDH.** The exact partner pair has current cEDH representation but materially lower tournament conversion than leading partner shells. Optimization therefore retains full cEDH interaction, tutors, acceleration, and compact wins without replacing the deck's defining prison identity with a generic Grixis turbo package.
+
+**Exact current-cycle changes — 12 swaps**
+
+**Cuts**
+
+1. `Arcane Laboratory` — hard-caps every player at one spell, suppressing Kraum's second-spell trigger and making the Breach/LED/Brain Freeze line nonfunctional while present.
+2. `Black Market Connections` — useful parity engine, but final red-team research identified `Necropotence` as the materially stronger cEDH resource engine for a deck that wants to convert life rather than mana into cards after establishing a lock.
+3. `Defense Grid` — better as turbo-combo protection than as persistent prison infrastructure; it also reduces opponents' ability to police one another.
+4. `Grafdigger's Cage` — directly prevents casting cards from graveyards and therefore shuts off the deck's own `Underworld Breach` route.
+5. `Kederekt Parasite` — conditional damage payoff that neither denies resources nor materially exploits the commanders.
+6. `Nekusar, the Mindrazer` — five-mana symmetric draw engine gives opponents resources before converting them to pressure and is inefficient at the selected ceiling.
+7. `Phyrexian Tyranny` — taxes the deck's own Kraum/Tevesh/Remora/Rhystic draw plan; anti-synergistic despite wheel flavor.
+8. `Psychosis Crawler` — five-mana payoff-only card with no lock function and insufficient cEDH impact.
+9. `Exotic Orchard` — replaced by a fetchland for deterministic typed-dual/basic access and Breach graveyard fuel.
+10. `Luxury Suite` — replaced by a fetchland with broader color selection and graveyard utility.
+11. `Training Center` — replaced by a fetchland that improves pre-lock sequencing and typed-dual/basic access.
+12. `Urborg, Tomb of Yawgmoth` — can improve opponents' mana and is less commander-specific than `Phyrexian Tower` once `Contamination` is part of the prison package.
+
+**Adds**
+
+1. `Damping Sphere` — anti-storm / spell-chain tax that preserves the possibility of an opponent casting a second spell, keeping Kraum's trigger live; unlike Arcane Laboratory it is not a hard one-spell cap.
+2. `Necropotence` — premier life-to-cards engine that lets the deck rebuild or stockpile resources while mana is constrained. Its discard-exile tension with Breach is explicitly acknowledged and sequenced around.
+3. `An Offer You Can't Refuse` — one-mana broad noncreature interaction appropriate to cEDH stack density.
+4. `Contamination` — direct Tevesh engine: Thrulls sustain the upkeep sacrifice while artifact mana helps break parity under the land-mana lock.
+5. `Dark Ritual` — cEDH-rate acceleration into Tevesh, tutors, or prison pieces.
+6. `Force of Negation` — free noncreature protection on opposing turns without consuming another prison slot.
+7. `Mindbreak Trap` — free answer to storm chains and counter-war stacks, especially useful for a slower prison deck.
+8. `Skullclamp` — direct Tevesh draw engine: a 0/1 Thrull becomes 1/0, dies to state-based actions, and draws two cards.
+9. `Flooded Strand` — fetch fixing, basic access, and graveyard fuel.
+10. `Marsh Flats` — fetch fixing, basic access, and graveyard fuel.
+11. `Arid Mesa` — fetch fixing, access to typed duals/basic Mountain, and graveyard fuel.
+12. `Phyrexian Tower` — commander-specific land-slot engine converting expendable Thrulls into `{B}{B}`.
+
+**Mandatory whole-list audit and parity review**
+
+Every baseline slot was challenged rather than treating inherited cards as protected. The following apparent tensions are intentional and must be sequenced rather than ignored:
+
+- `Damping Sphere` reduces `Ancient Tomb` to one colorless mana and taxes spell chains, including a Breach turn. It is retained because the prison value exceeds the sequencing cost; the lock can be removed or played around before the finish.
+- `Trinisphere` can make ostensibly free spells cost three mana. `Chalice of the Void` can counter the deck's own zero- or one-mana spells. Both are retained as high-impact prison pieces with explicit deployment sequencing requirements.
+- `Blood Moon` plus `Back to Basics` can heavily constrain the deck's own nonbasics. Fetches, basics, fast artifact mana, and ordering are the parity tools.
+- `Necropotence` exiles discarded cards and can reduce Breach fuel. It is still the stronger resource engine, but wheels and end-step hand management must account for that replacement effect.
+- `Overburden` is retained because it triggers on nontoken creatures; Tevesh's Thrulls bypass it.
+- `Tangle Wire` is retained because Thrulls absorb its tap requirement and the controller can order the Wire triggers to remove a fade counter before the tap trigger resolves.
+- `Karn, the Great Creator` is retained for its static ability. The deck does **not** rely on Karn's outside-the-game -2 as though Commander had a normal sideboard.
+
+**Win packages**
+
+The candidate keeps two compact closing packages that fit the prison shell:
+
+1. `Helm of Obedience` + `Leyline of the Void` or `Dauthi Voidwalker`.
+2. `Underworld Breach` + `Lion's Eye Diamond` + `Brain Freeze`, with self-lock sequencing explicitly required.
+
+A third generic `Thassa's Oracle` / `Demonic Consultation` package was rejected. `Ad Nauseam`, `Rite of Flame`, `Cabal Ritual`, `Simian Spirit Guide`, `Final Fortune`, and `Borne Upon a Wind` were likewise rejected as moves toward stock turbo rather than improvements to this deck's commander-first prison identity.
+
+**Candidate exhaustion / rejected challengers**
+
+The inherited top-100 candidate table was used as discovery evidence, not an automatic shopping list. High-impact current and inherited challengers were individually considered.
+
+**Accepted from current/inherited evidence:** `Marsh Flats`, `Flooded Strand`, `Arid Mesa`, `Force of Negation`, `Mindbreak Trap`, `Skullclamp`, `Phyrexian Tower`, `An Offer You Can't Refuse`, `Dark Ritual`, and `Necropotence`.
+
+**Accepted from commander/stax red-team rather than inherited ranking pressure:** `Contamination` and `Damping Sphere`.
+
+**Rejected after challenge:**
+
+- `Thassa's Oracle` / `Demonic Consultation` — redundant third win package and a direct move toward generic Grixis turbo.
+- `Ad Nauseam` — excellent generic cEDH engine but pushes the deck away from persistent resource denial into turbo sequencing.
+- `Gilded Drake` — powerful but substantially weaker through the deck's own `Torpor Orb` and not more important than the chosen lock density.
+- `Dress Down` — efficient interaction, but temporary and can also blank Kraum; final slots favor persistent denial/free countermagic.
+- `Mnemonic Betrayal` / broad graveyard recursion alternatives — overlap the Breach spell-chain axis rather than increasing prison density.
+- `The One Ring` — excellent generic value, but four mana and less commander-specific than the selected resource engines.
+- `Hullbreaker Horror` and other high-mana generic control closers — unnecessary with two compact existing wins.
+- `Stranglehold` — strong but four-mana redundant search denial alongside `Ashiok, Dream Render` and `Opposition Agent`.
+- `Vexing Bauble` — clashes with the deck's own free interaction and zero-mana acceleration.
+- `Chains of Mephistopheles` — powerful draw suppression but hostile to Kraum and the deck's own draw engines.
+- `Nether Void`, `Smokestack`, and additional broad symmetrical taxes — either overly hostile to deploying two five-mana commanders or too slow relative to the selected prison pieces.
+
+**Closure**
+
+The exact candidate is **100 cards / 100 distinct names / 26 lands**, with two legal partner commanders and a fully unique-name `Tainted Pact` configuration.
+
+After source reconciliation, mandatory 99-slot audit, commander-parity review, inherited top-100 candidate challenge, current 2026 exact-pair cEDH comparison, mana-base reconstruction, win-package review, self-lock analysis, and a second adversarial pass that produced the final `Black Market Connections` → `Necropotence` correction, there are **ZERO NEW MATERIAL IMPROVEMENTS** remaining under the project's commander-first stopping standard.
+
+The candidate remains **NOT APPROVED** pending the exact SHA-bound complete fail-closed Oracle/color-identity, official Commander legality, rules, structural, and singleton gate plus explicit user approval.
+
+### From `refinement/approvals/Grixistax_October_2026_Approved_2026-10-14.md`
+
+Source: [refinement/approvals/Grixistax_October_2026_Approved_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/approvals/Grixistax_October_2026_Approved_2026-10-14.md)
+
+**Grixistax — Current-Cycle Approval Record**
+
+Cycle: `global-restart-2026-10-13`  
+Approval date: 2026-10-14  
+Commanders: `Kraum, Ludevic's Opus // Tevesh Szat, Doom of Fools`  
+Tracker deck id: `Grixistax___October_2026`  
+Approved list: `refinement/decklists/Grixistax_October_2026_Approved_2026-10-14.txt`  
+Approved list SHA-256: `f36346d4ba965db1e098b0aa92d27a968ee3a14c74a2b9401c1a5357f83c025c`
+
+**Approval state**
+
+**APPROVED / LOCKED** by explicit user approval on 2026-10-14.
+
+The exact SHA-bound candidate passed the complete fail-closed approval gate before approval:
+
+- 100 cards
+- 100 distinct names
+- Two legal Partner commanders
+- Combined commander color identity: U/B/R
+- Singleton compliance: PASS
+- Tainted Pact unique-name condition: PASS
+- Fresh current-cycle Oracle/cache verification: PASS
+- Current official Commander legality: PASS
+- Independent rules attestation: PASS
+- Project exceptions: none
+- Gate errors: zero
+- Complete gate result: `APPROVAL_READY`
+
+Complete gate artifact: `refinement/verification/grixistax_october_2026_2026-10-14/gate_output/Grixistax_October_2026_2026-10-14_Complete_Gate.json`
+
+Whole-list audit / strategic closeout: `refinement/decisions/Grixistax_October_2026_Current_Cycle_Decisions_2026-10-14.md`
+
+**Approved current-cycle swaps**
+
+1. Arcane Laboratory → Damping Sphere
+2. Black Market Connections → Necropotence
+3. Defense Grid → An Offer You Can't Refuse
+4. Grafdigger's Cage → Force of Negation
+5. Kederekt Parasite → Dark Ritual
+6. Nekusar, the Mindrazer → Contamination
+7. Phyrexian Tyranny → Mindbreak Trap
+8. Psychosis Crawler → Skullclamp
+9. Exotic Orchard → Flooded Strand
+10. Luxury Suite → Marsh Flats
+11. Training Center → Arid Mesa
+12. Urborg, Tomb of Yawgmoth → Phyrexian Tower
+
+**Final classification**
+
+Power Bracket: **5 — fringe / rogue cEDH**
+
+Primary identity: **Grixis Stax / prison-resource denial**, using Tevesh Szat as a parity-breaking token/resource engine and Kraum as pressure/card advantage while avoiding a universal one-spell-per-turn lock that would suppress Kraum's defining trigger.
+
+The approved list retains two compact closing packages:
+
+- Helm of Obedience + Leyline of the Void or Dauthi Voidwalker
+- Underworld Breach + Lion's Eye Diamond + Brain Freeze
+
+Generic Oracle/Consultation/Ad Nauseam turbo conversion was explicitly rejected to preserve the deck's commander-first prison identity.
+
+This deck is now canonical and must not be revised, reopened, or replaced unless the user explicitly requests it.
+
+<!-- COMBOS:START -->
+## Combos (Commander Spellbook)
+
+> Generated 2026-10-15 by `scripts/build_grixis.py` from the [Commander Spellbook](https://commanderspellbook.com) public API (community-maintained). Shows only combos whose **every card is in this list**. Bracket barometer: *Brackets 1–2: no intentional two-card infinite combos. Bracket 3: no early-game two-card infinite combos.*
+
+**6 complete combo(s); 0 two-card infinite.** 56 more are one card away (not listed).
+
+| Cards | Produces (Spellbook) | Extra requirements | Link |
+|---|---|---|---|
+| Helm of Obedience + Leyline of the Void | Exile target opponent's library | — | [2163-5065](https://commanderspellbook.com/combo/2163-5065/) |
+| Helm of Obedience + Dauthi Voidwalker | Exile target opponent's library | — | [2581-5065](https://commanderspellbook.com/combo/2581-5065/) |
+| Underworld Breach + Lotus Petal + Brain Freeze | Infinite self-mill, Near-infinite magecraft triggers, Near-infinite mill | — | [1368-1414-4856](https://commanderspellbook.com/combo/1368-1414-4856/) |
+| Underworld Breach + Wheel of Fortune + Jeska's Will | Infinite draw triggers for all players, Infinite looting for all players, Near-infinite magecraft triggers, Near-infinite storm count | — | [1368-1878-2706](https://commanderspellbook.com/combo/1368-1878-2706/) |
+| Underworld Breach + Lion's Eye Diamond + Wheel of Fortune | Infinite draw triggers, Infinite looting, Infinite looting for opponents, Near-infinite storm count | — | [1368-2706-3518](https://commanderspellbook.com/combo/1368-2706-3518/) |
+| Underworld Breach + Lion's Eye Diamond + Brain Freeze | Infinite self-mill, Near-infinite colored mana, Near-infinite magecraft triggers, Near-infinite mill | — | [1368-3518-4856](https://commanderspellbook.com/combo/1368-3518-4856/) |
+<!-- COMBOS:END -->

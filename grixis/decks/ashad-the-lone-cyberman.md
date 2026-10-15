@@ -1,0 +1,329 @@
+---
+title: "Grixis Deck — Ashad, the Lone Cyberman"
+category: deck
+kind: grixis
+commander: "Ashad, the Lone Cyberman"
+color_identity: UBR
+bracket_floor: 3
+game_changers: 3
+validated: true
+source_repo: corymstover/grixis-commander-encyclopediaGPT
+---
+
+# Grixis Deck — Ashad, the Lone Cyberman
+
+> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Ashad_the_Lone_Cyberman_Approval_Ready_2026-10-13.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decklists/Ashad_the_Lone_Cyberman_Approval_Ready_2026-10-13.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-13; source commit `df1abb9`). Imported in Bot cycle 16 and re-validated against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
+
+## Contents
+- [Commander](#commander)
+- [Validation](#validation)
+- [Bracket assessment](#bracket-assessment)
+- [Corrections applied](#corrections-applied)
+- [Decklist (Archidekt import)](#decklist-archidekt-import)
+- [Card breakdown](#card-breakdown)
+- [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Combos (Commander Spellbook)](#combos-commander-spellbook)
+
+## Commander
+
+- **[Ashad, the Lone Cyberman](../../cards/A/as.md#ashad-the-lone-cyberman)** — {1}{U}{B}{R} — Legendary Artifact Creature — Cyberman
+- Color identity: **UBR (Blue, Black, Red)**
+- Eligibility (Ashad, the Lone Cyberman): Yes (legendary creature)
+
+## Validation
+
+- Total cards: **100** (1 commander(s) + 69 nonland + 22 nonbasic lands + 8 basics) · average nonland MV 3.41
+- Strict color identity (CR 903.5c), singleton (903.5b), Commander-legal, size (903.5a): ✅ **all checks pass**
+- Every card resolves to an entry in our card DB (95/95 lines linked).
+
+## Bracket assessment
+
+- Game Changers (3): Cyclonic Rift, Demonic Tutor, Fierce Guardianship
+- Extra-turn cards: none
+- Mass land denial: none
+- Commander Spellbook: 1 complete combo(s), 0 two-card infinite (see [Combos](#combos-commander-spellbook)).
+- **Minimum bracket by the published barometers: 3** (1–3 Game Changers).
+- Source's stated target: not stated in the imported records.
+- (Brackets are a pregame-conversation tool. See [EDH Standards](../../EDH%20Standards.md#power-bracket-assessment).)
+
+## Corrections applied
+
+| Type | Change | Reason |
+|---|---|---|
+| format | Archidekt list normalized to [EDH Standards](../../EDH%20Standards.md#list-format-archidekt) | `[Commander]` → `[Commander{top}]` (1 line(s)); role tags restored on 93 untagged line(s): 92 from this deck's FINAL baseline, 1 from the tag the source uses most for that card in other decks; 1 untagged line(s) given a type tag (e.g. `[Land]`). |
+| bracket | Game Changers and combo floor added | The source records no Game Changer count and does not check the official Game Changers list anywhere in its approval records. We added it: **3 Game Changers**, so the minimum bracket is **3**. Commander Spellbook finds 1 complete combos (0 two-card infinite). |
+| structure (flag) | low land count for curve | 30 lands with an average nonland MV of 3.41. That is below the community-convention range (~36 lands; see [EDH Standards](../../EDH%20Standards.md#deck-building-checklist)) for a curve this high. **Guidance:** review the mana base. The list is unchanged, because the source approved it. |
+
+Full log for all decks: [Grixis Corrections](../Grixis%20Corrections.md).
+
+## Decklist (Archidekt import)
+
+```text
+1x Ashad, the Lone Cyberman [Commander{top}]
+1x Academy Ruins [Land]
+1x Arcane Denial [Removal]
+1x Arcane Signet [Ramp]
+1x Artificer Class [Ramp]
+1x Ashnod's Altar [Ramp]
+1x Auton Soldier [Copy]
+1x Baleful Strix [Draw]
+1x Biotransference [Tokens]
+1x Blood Crypt [Land]
+1x Bloodstained Mire [Land]
+1x Brudiclad, Telchor Engineer [Tokens]
+1x Chaos Warp [Removal]
+1x Command Tower [Land]
+1x Crumbling Necropolis [Land]
+1x Cursed Mirror [Ramp]
+1x Cyber Conversion [Removal]
+1x Cyberdrive Awakener [Finisher]
+1x Cybermen Squadron [Tokens]
+1x Cyclonic Rift [Removal]
+1x Ichor Wellspring [Draw]
+1x Deflecting Swat [Protection]
+1x Delete [Removal]
+1x Demonic Tutor [Tutor]
+1x Disciple of the Vault [Drain]
+1x Emry, Lurker of the Loch [Recursion]
+1x Enthusiastic Mechanaut [Ramp]
+1x Esoteric Duplicator [Copy]
+1x Etherium Sculptor [Ramp]
+1x Exotic Orchard [Land]
+1x Fabricate [Tutor]
+1x Fellwar Stone [Ramp]
+1x Fierce Guardianship [Removal]
+1x Foundry Inspector [Ramp]
+1x Goblin Welder [Recursion]
+1x Great Furnace [Land]
+1x Ingenious Artillerist [Burn]
+1x Inventors' Fair [Land]
+1x Iron Man, Bleeding Edge [Copy]
+3x Island [Land]
+1x Solemn Simulacrum [Creature]
+1x Jhoira, Weatherlight Captain [Draw]
+1x Kappa Cannoneer [Finisher]
+1x Krark-Clan Ironworks [Ramp]
+1x Lightning Greaves [Protection]
+1x Luxury Suite [Land]
+1x Mana Drain [Removal]
+1x Marionette Master [Drain]
+1x Mayhem Devil [Removal]
+1x Morphic Pool [Land]
+2x Mountain [Land]
+1x Mox Opal [Ramp]
+1x Mystic Forge [Draw]
+1x Noxious Gearhulk [Removal]
+1x Padeem, Consul of Innovation [Protection]
+1x Phyrexian Altar [Ramp]
+1x Phyrexian Metamorph [Clones]
+1x Pitiless Plunderer [Ramp]
+1x Poetic Ingenuity [Ramp]
+1x Polluted Delta [Land]
+1x Portal to Phyrexia [Removal]
+1x Rakdos Signet [Ramp]
+1x Reckless Fireweaver [Burn]
+1x Scrap Trawler [Recursion]
+1x Sculpting Steel [Copy]
+1x Seat of the Synod [Land]
+1x Shimmer Myr [Protection]
+1x Shipwreck Marsh [Land]
+1x Simulacrum Synthesizer [Tokens]
+1x Sol Ring [Ramp]
+1x Steam Vents [Land]
+1x Stormcarved Coast [Land]
+3x Swamp [Land]
+1x Talisman of Creativity [Ramp]
+1x Talisman of Dominance [Ramp]
+1x Talisman of Indulgence [Ramp]
+1x Tezzeret, Master of the Bridge [Ramp]
+1x The Cyber-Controller [Tokens]
+1x Their Name Is Death [Removal]
+1x Thopter Spy Network [Draw]
+1x Thought Monitor [Draw]
+1x Thoughtcast [Draw]
+1x Training Center [Land]
+1x Twinning Staff [Copy]
+1x Underground Sea [Land]
+1x Unwinding Clock [Untap]
+1x Urza, Lord High Artificer [Ramp]
+1x Urza's Saga [Land]
+1x Uthros Research Craft [Draw]
+1x Vault of Whispers [Land]
+1x Volcanic Island [Land]
+1x Watery Grave [Land]
+1x Worldwalker Helm [Tokens]
+1x Wurmcoil Engine [Tokens]
+1x Xander's Lounge [Land]
+```
+
+## Card breakdown
+
+Role tags are the source author's (untagged lines show the card type). *Printing* is the source's pinned printing, if it pinned one.
+
+| Card | Role (source tag) | Type | MV | Identity | GC | Printing |
+|---|---|---|---|---|---|---|
+| [Ashad, the Lone Cyberman](../../cards/A/as.md#ashad-the-lone-cyberman) | Commander | Legendary Artifact Creature — Cyberman | 4 | UBR |  | — |
+| [Ingenious Artillerist](../../cards/I/ing.md#ingenious-artillerist) | Burn | Creature — Human Artificer | 3 | R |  | — |
+| [Reckless Fireweaver](../../cards/R/rec.md#reckless-fireweaver) | Burn | Creature — Human Artificer | 2 | R |  | — |
+| [Phyrexian Metamorph](../../cards/P/ph.md#phyrexian-metamorph) | Clones | Artifact Creature — Phyrexian Shapeshifter | 4 | U |  | — |
+| [Auton Soldier](../../cards/A/au.md#auton-soldier) | Copy | Artifact Creature — Alien Soldier | 6 | U |  | — |
+| [Esoteric Duplicator](../../cards/E/es.md#esoteric-duplicator) | Copy | Artifact — Clue | 3 | U |  | — |
+| [Iron Man, Bleeding Edge](../../cards/I/ir.md#iron-man-bleeding-edge) | Copy | Legendary Artifact Creature — Human Hero | 5 | U |  | — |
+| [Sculpting Steel](../../cards/S/sc.md#sculpting-steel) | Copy | Artifact | 3 | C |  | — |
+| [Twinning Staff](../../cards/T/tw.md#twinning-staff) | Copy | Artifact | 3 | C |  | — |
+| [Solemn Simulacrum](../../cards/S/so.md#solemn-simulacrum) | Creature | Artifact Creature — Golem | 4 | C |  | — |
+| [Disciple of the Vault](../../cards/D/di.md#disciple-of-the-vault) | Drain | Creature — Human Cleric | 1 | B |  | — |
+| [Marionette Master](../../cards/M/mar.md#marionette-master) | Drain | Creature — Human Artificer | 6 | B |  | — |
+| [Baleful Strix](../../cards/B/bal.md#baleful-strix) | Draw | Artifact Creature — Bird | 2 | UB |  | — |
+| [Ichor Wellspring](../../cards/I/ic.md#ichor-wellspring) | Draw | Artifact | 2 | C |  | — |
+| [Jhoira, Weatherlight Captain](../../cards/J/jh.md#jhoira-weatherlight-captain) | Draw | Legendary Creature — Human Artificer | 4 | UR |  | — |
+| [Mystic Forge](../../cards/M/my.md#mystic-forge) | Draw | Artifact | 4 | C |  | — |
+| [Thopter Spy Network](../../cards/T/tho.md#thopter-spy-network) | Draw | Enchantment | 4 | U |  | — |
+| [Thought Monitor](../../cards/T/tho.md#thought-monitor) | Draw | Artifact Creature — Construct | 7 | U |  | — |
+| [Thoughtcast](../../cards/T/tho.md#thoughtcast) | Draw | Sorcery | 5 | U |  | — |
+| [Uthros Research Craft](../../cards/U/ut.md#uthros-research-craft) | Draw | Artifact — Spacecraft | 3 | U |  | — |
+| [Cyberdrive Awakener](../../cards/C/cy.md#cyberdrive-awakener) | Finisher | Artifact Creature — Construct | 6 | U |  | — |
+| [Kappa Cannoneer](../../cards/K/ka.md#kappa-cannoneer) | Finisher | Artifact Creature — Turtle Warrior | 6 | U |  | — |
+| [Academy Ruins](../../cards/A/ac.md#academy-ruins) | Land | Legendary Land | 0 | U |  | — |
+| [Blood Crypt](../../cards/B/blo.md#blood-crypt) | Land | Land — Swamp Mountain | 0 | BR |  | — |
+| [Bloodstained Mire](../../cards/B/blo.md#bloodstained-mire) | Land | Land | 0 | C |  | — |
+| [Command Tower](../../cards/C/com.md#command-tower) | Land | Land | 0 | C |  | — |
+| [Crumbling Necropolis](../../cards/C/cr.md#crumbling-necropolis) | Land | Land | 0 | UBR |  | — |
+| [Exotic Orchard](../../cards/E/ex.md#exotic-orchard) | Land | Land | 0 | C |  | — |
+| [Great Furnace](../../cards/G/gre.md#great-furnace) | Land | Artifact Land | 0 | R |  | — |
+| [Inventors' Fair](../../cards/I/inv.md#inventors-fair) | Land | Legendary Land | 0 | C |  | — |
+| [Island](../../cards/I/is.md#island) (×3) | Land | Basic Land — Island | 0 | U |  | — |
+| [Luxury Suite](../../cards/L/lu.md#luxury-suite) | Land | Land | 0 | BR |  | — |
+| [Morphic Pool](../../cards/M/mor.md#morphic-pool) | Land | Land | 0 | UB |  | — |
+| [Mountain](../../cards/M/mou.md#mountain) (×2) | Land | Basic Land — Mountain | 0 | R |  | — |
+| [Polluted Delta](../../cards/P/po.md#polluted-delta) | Land | Land | 0 | C |  | — |
+| [Seat of the Synod](../../cards/S/sea.md#seat-of-the-synod) | Land | Artifact Land | 0 | U |  | — |
+| [Shipwreck Marsh](../../cards/S/shi.md#shipwreck-marsh) | Land | Land | 0 | UB |  | — |
+| [Steam Vents](../../cards/S/ste.md#steam-vents) | Land | Land — Island Mountain | 0 | UR |  | — |
+| [Stormcarved Coast](../../cards/S/sto.md#stormcarved-coast) | Land | Land | 0 | UR |  | — |
+| [Swamp](../../cards/S/sw.md#swamp) (×3) | Land | Basic Land — Swamp | 0 | B |  | — |
+| [Training Center](../../cards/T/tra.md#training-center) | Land | Land | 0 | UR |  | — |
+| [Underground Sea](../../cards/U/un.md#underground-sea) | Land | Land — Island Swamp | 0 | UB |  | — |
+| [Urza's Saga](../../cards/U/ur.md#urzas-saga) | Land | Enchantment Land — Urza's Saga | 0 | C |  | — |
+| [Vault of Whispers](../../cards/V/va.md#vault-of-whispers) | Land | Artifact Land | 0 | B |  | — |
+| [Volcanic Island](../../cards/V/vo.md#volcanic-island) | Land | Land — Island Mountain | 0 | UR |  | — |
+| [Watery Grave](../../cards/W/wat.md#watery-grave) | Land | Land — Island Swamp | 0 | UB |  | — |
+| [Xander's Lounge](../../cards/X/xa.md#xanders-lounge) | Land | Land — Island Swamp Mountain | 0 | UBR |  | — |
+| [Deflecting Swat](../../cards/D/def.md#deflecting-swat) | Protection | Instant | 3 | R |  | — |
+| [Lightning Greaves](../../cards/L/li.md#lightning-greaves) | Protection | Artifact — Equipment | 2 | C |  | — |
+| [Padeem, Consul of Innovation](../../cards/P/pa.md#padeem-consul-of-innovation) | Protection | Legendary Creature — Vedalken Artificer | 4 | U |  | — |
+| [Shimmer Myr](../../cards/S/shi.md#shimmer-myr) | Protection | Artifact Creature — Myr | 3 | C |  | — |
+| [Arcane Signet](../../cards/A/arc.md#arcane-signet) | Ramp | Artifact | 2 | C |  | — |
+| [Artificer Class](../../cards/A/art.md#artificer-class) | Ramp | Enchantment — Class | 2 | U |  | — |
+| [Ashnod's Altar](../../cards/A/as.md#ashnods-altar) | Ramp | Artifact | 3 | C |  | — |
+| [Cursed Mirror](../../cards/C/cu.md#cursed-mirror) | Ramp | Artifact | 3 | R |  | — |
+| [Enthusiastic Mechanaut](../../cards/E/en.md#enthusiastic-mechanaut) | Ramp | Artifact Creature — Goblin Artificer | 2 | UR |  | — |
+| [Etherium Sculptor](../../cards/E/et.md#etherium-sculptor) | Ramp | Artifact Creature — Vedalken Artificer | 2 | U |  | — |
+| [Fellwar Stone](../../cards/F/fe.md#fellwar-stone) | Ramp | Artifact | 2 | C |  | — |
+| [Foundry Inspector](../../cards/F/fo.md#foundry-inspector) | Ramp | Artifact Creature — Construct | 3 | C |  | — |
+| [Krark-Clan Ironworks](../../cards/K/kr.md#krark-clan-ironworks) | Ramp | Artifact | 4 | C |  | — |
+| [Mox Opal](../../cards/M/mox.md#mox-opal) | Ramp | Legendary Artifact | 0 | C |  | — |
+| [Phyrexian Altar](../../cards/P/ph.md#phyrexian-altar) | Ramp | Artifact | 3 | C |  | — |
+| [Pitiless Plunderer](../../cards/P/pi.md#pitiless-plunderer) | Ramp | Creature — Human Pirate | 4 | B |  | — |
+| [Poetic Ingenuity](../../cards/P/po.md#poetic-ingenuity) | Ramp | Enchantment | 3 | R |  | — |
+| [Rakdos Signet](../../cards/R/rak.md#rakdos-signet) | Ramp | Artifact | 2 | BR |  | — |
+| [Sol Ring](../../cards/S/so.md#sol-ring) | Ramp | Artifact | 1 | C |  | — |
+| [Talisman of Creativity](../../cards/T/ta.md#talisman-of-creativity) | Ramp | Artifact | 2 | UR |  | — |
+| [Talisman of Dominance](../../cards/T/ta.md#talisman-of-dominance) | Ramp | Artifact | 2 | UB |  | — |
+| [Talisman of Indulgence](../../cards/T/ta.md#talisman-of-indulgence) | Ramp | Artifact | 2 | BR |  | — |
+| [Tezzeret, Master of the Bridge](../../cards/T/te.md#tezzeret-master-of-the-bridge) | Ramp | Legendary Planeswalker — Tezzeret | 6 | UB |  | — |
+| [Urza, Lord High Artificer](../../cards/U/ur.md#urza-lord-high-artificer) | Ramp | Legendary Creature — Human Artificer | 4 | U |  | — |
+| [Emry, Lurker of the Loch](../../cards/E/em.md#emry-lurker-of-the-loch) | Recursion | Legendary Creature — Merfolk Wizard | 3 | U |  | — |
+| [Goblin Welder](../../cards/G/gob.md#goblin-welder) | Recursion | Creature — Goblin Artificer | 1 | R |  | — |
+| [Scrap Trawler](../../cards/S/sc.md#scrap-trawler) | Recursion | Artifact Creature — Construct | 3 | C |  | — |
+| [Arcane Denial](../../cards/A/arc.md#arcane-denial) | Removal | Instant | 2 | U |  | — |
+| [Chaos Warp](../../cards/C/cha.md#chaos-warp) | Removal | Instant | 3 | R |  | — |
+| [Cyber Conversion](../../cards/C/cy.md#cyber-conversion) | Removal | Instant | 2 | U |  | — |
+| [Cyclonic Rift](../../cards/C/cy.md#cyclonic-rift) | Removal | Instant | 2 | U | ✅ | — |
+| [Delete](../../cards/D/del.md#delete) | Removal | Sorcery | 2 | R |  | — |
+| [Fierce Guardianship](../../cards/F/fi.md#fierce-guardianship) | Removal | Instant | 3 | U | ✅ | — |
+| [Mana Drain](../../cards/M/man.md#mana-drain) | Removal | Instant | 2 | U |  | — |
+| [Mayhem Devil](../../cards/M/may.md#mayhem-devil) | Removal | Creature — Devil | 3 | BR |  | — |
+| [Noxious Gearhulk](../../cards/N/no.md#noxious-gearhulk) | Removal | Artifact Creature — Construct | 6 | B |  | — |
+| [Portal to Phyrexia](../../cards/P/po.md#portal-to-phyrexia) | Removal | Artifact | 9 | C |  | — |
+| [Their Name Is Death](../../cards/T/thei.md#their-name-is-death) | Removal | Sorcery | 6 | B |  | — |
+| [Biotransference](../../cards/B/bi.md#biotransference) | Tokens | Enchantment | 4 | B |  | — |
+| [Brudiclad, Telchor Engineer](../../cards/B/br.md#brudiclad-telchor-engineer) | Tokens | Legendary Artifact Creature — Phyrexian Artificer | 6 | UR |  | — |
+| [Cybermen Squadron](../../cards/C/cy.md#cybermen-squadron) | Tokens | Artifact Creature — Cyberman | 7 | C |  | — |
+| [Simulacrum Synthesizer](../../cards/S/si.md#simulacrum-synthesizer) | Tokens | Artifact | 3 | U |  | — |
+| [The Cyber-Controller](../../cards/T/thec.md#the-cyber-controller) | Tokens | Legendary Artifact Creature — Cyberman | 3 | UB |  | — |
+| [Worldwalker Helm](../../cards/W/wo.md#worldwalker-helm) | Tokens | Artifact | 3 | U |  | — |
+| [Wurmcoil Engine](../../cards/W/wu.md#wurmcoil-engine) | Tokens | Artifact Creature — Phyrexian Wurm | 6 | C |  | — |
+| [Demonic Tutor](../../cards/D/dem.md#demonic-tutor) | Tutor | Sorcery | 2 | B | ✅ | — |
+| [Fabricate](../../cards/F/fa.md#fabricate) | Tutor | Sorcery | 3 | U |  | — |
+| [Unwinding Clock](../../cards/U/un.md#unwinding-clock) | Untap | Artifact | 4 | C |  | — |
+
+## Source commentary (verbatim)
+
+> Quoted from the source repo with headings turned into bold text. This is **the source author's analysis and opinion (guidance)**, from `grixis-commander-encyclopediaGPT`, path shown above each block. Relative links point back to the source. Rules statements here were not re-verified card by card (see [Grixis Corrections](../Grixis%20Corrections.md#oracle-text-check) for the Oracle check). Where the source mentions Lutri, Trade Secrets or Yawgmoth's Bargain as approved exceptions, our corrected list above takes precedence.
+
+### From `refinement/blueprints/Ashad_the_Lone_Cyberman_v1.md`
+
+Source: [refinement/blueprints/Ashad_the_Lone_Cyberman_v1.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/blueprints/Ashad_the_Lone_Cyberman_v1.md)
+
+**Ashad, the Lone Cyberman — Commander-First Blueprint**
+
+**Refinement date:** 2026-10-13  
+**Frozen baseline:** `GrixisFINALTXT60--2026.zip`, member `Ashad__the_Lone_Cyberman.txt`  
+**Frozen baseline SHA-256:** `2ec9953fe019c05fec1fcc40085b025ac52ead53f332a731365b900e5688ba75`
+
+**Commander identity**
+
+Ashad is a four-mana 3/3 legendary artifact creature with two linked incentives:
+
+- The first nonlegendary artifact spell cast each turn gains casualty 2. Sacrificing a creature with power 2 or greater copies that artifact spell; the copy becomes a token.
+- Whenever another creature is sacrificed, Ashad receives a +1/+1 counter.
+
+The deck should cast meaningful nonlegendary artifacts across turn cycles, maintain reliable power-2-or-greater casualty fodder, and convert sacrifice costs into copied artifacts and commander growth. Sacrifice outlets, artifact recursion, artifact-entry draw, and death-trigger payoffs support the plan.
+
+**Refinement decisions**
+
+1. **Jadar, Ghoulcaller of Nephalia -> Solemn Simulacrum.** Solemn is a 2/2 artifact creature that ramps when it enters and can draw a card when it dies. It can pay casualty 2 for a later artifact spell; if Solemn is the first qualifying artifact spell cast that turn, Ashad can copy it for another land-search trigger. Jadar creates 2/2 casualty fodder, but that token is not an artifact and Jadar does not provide comparable ramp or death value.
+2. **Twinning Staff -> Canoptek Spyder.** Twinning Staff improves copies of instant or sorcery spells, but Ashad's signature copy engine copies artifact spells. Canoptek Spyder is a 4/4 flying artifact creature and draws a card whenever another nontoken artifact creature or Vehicle enters under its controller's control, supporting the artifact-cast engine and providing power-2+ casualty fodder.
+
+These are commander-specific role upgrades, not a blanket adoption of popular cards. No gameplay win-rate claim is made.
+
+### From `refinement/decisions/Ashad_the_Lone_Cyberman_Candidate_Decisions_2026-10-13.md`
+
+Source: [refinement/decisions/Ashad_the_Lone_Cyberman_Candidate_Decisions_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decisions/Ashad_the_Lone_Cyberman_Candidate_Decisions_2026-10-13.md)
+
+**Ashad, the Lone Cyberman — Candidate Decisions**
+
+Date: 2026-10-13
+
+**ASH-001 — Jadar, Ghoulcaller of Nephalia → Solemn Simulacrum**
+
+**Decision:** Auto-approved and locked under the user's standing instruction after card and deck checks passed.
+
+Solemn Simulacrum is a colorless 2/2 artifact creature. Its enter-the-battlefield ability searches for a basic land and puts it onto the battlefield tapped; when it dies, its controller may draw a card. It can pay Ashad's casualty 2 for a later artifact spell. When Solemn itself is the first qualifying artifact spell of the turn, Ashad can copy the spell, giving the token copy its own land-search trigger. This improves ramp, artifact density, casualty support, and death value. The tradeoff is losing Jadar's recurring 2/2 decayed Zombie token.
+
+**ASH-002 — Twinning Staff → Canoptek Spyder**
+
+**Decision:** Auto-approved and locked under the user's standing instruction after card and deck checks passed.
+
+Canoptek Spyder is a colorless 4/4 flying artifact creature. It draws a card whenever another nontoken artifact creature or Vehicle enters under its controller's control. The project candidate ranking places it at rank 4 for Ashad; its EDHREC-derived snapshot showed 28.4281% inclusion and 56.7967 lift. It adds repeatable draw and a power-2+ body. The trigger does not see token copies, and it costs five mana. Twinning Staff is a weaker fit because Ashad copies artifact spells, not instant or sorcery spells.
+
+No matched-start simulator or representative multiplayer playtest was available. No win-rate claim is made.
+
+### Further source evidence (linked, not copied)
+
+- [refinement/verification/Ashad_the_Lone_Cyberman_99_Slot_Audit_Working_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/verification/Ashad_the_Lone_Cyberman_99_Slot_Audit_Working_2026-10-13.md)
+- [refinement/verification/Ashad_the_Lone_Cyberman_Approval_Ready_Closeout_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/verification/Ashad_the_Lone_Cyberman_Approval_Ready_Closeout_2026-10-13.md)
+- [refinement/verification/Ashad_the_Lone_Cyberman_Final_Verification_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/verification/Ashad_the_Lone_Cyberman_Final_Verification_2026-10-13.md)
+
+<!-- COMBOS:START -->
+## Combos (Commander Spellbook)
+
+> Generated 2026-10-15 by `scripts/build_grixis.py` from the [Commander Spellbook](https://commanderspellbook.com) public API (community-maintained). Shows only combos whose **every card is in this list**. Bracket barometer: *Brackets 1–2: no intentional two-card infinite combos. Bracket 3: no early-game two-card infinite combos.*
+
+**1 complete combo(s); 0 two-card infinite.** 134 more are one card away (not listed).
+
+| Cards | Produces (Spellbook) | Extra requirements | Link |
+|---|---|---|---|
+| Urza, Lord High Artificer + Worldwalker Helm + Artificer Class | Infinite artifact tokens, Infinite blue mana, Exile your library, Cast all spells in your library | — | [66-457-5491](https://commanderspellbook.com/combo/66-457-5491/) |
+<!-- COMBOS:END -->

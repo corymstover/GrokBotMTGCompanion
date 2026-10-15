@@ -1,0 +1,384 @@
+---
+title: "Grixis Deck — Bjorna, Nightfall Alchemist + Cecily, Haunted Mage"
+category: deck
+kind: grixis
+commander: "Bjorna, Nightfall Alchemist"
+color_identity: UBR
+bracket_floor: 4
+game_changers: 10
+validated: true
+source_repo: corymstover/grixis-commander-encyclopediaGPT
+---
+
+# Grixis Deck — Bjorna, Nightfall Alchemist + Cecily, Haunted Mage
+
+> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Cecily__Bjorna__Lutri_Approved_2026-10-13.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decklists/Cecily__Bjorna__Lutri_Approved_2026-10-13.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-13; source commit `df1abb9`). Imported in Bot cycle 16 and re-validated against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
+
+## Contents
+- [Commander](#commander)
+- [Validation](#validation)
+- [Bracket assessment](#bracket-assessment)
+- [Corrections applied](#corrections-applied)
+- [Decklist (Archidekt import)](#decklist-archidekt-import)
+- [Card breakdown](#card-breakdown)
+- [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Combos (Commander Spellbook)](#combos-commander-spellbook)
+
+## Commander
+
+- **[Bjorna, Nightfall Alchemist](../../cards/B/bj.md#bjorna-nightfall-alchemist)** — {U}{R} — Legendary Creature — Human
+- **[Cecily, Haunted Mage](../../cards/C/ce.md#cecily-haunted-mage)** — {1}{U}{B}{R} — Legendary Creature — Human Wizard
+- Color identity: **UBR (Blue, Black, Red)**
+- Eligibility (Bjorna, Nightfall Alchemist): Yes (legendary creature) · pairing: Partner
+- Eligibility (Cecily, Haunted Mage): Yes (legendary creature) · pairing: Partner
+
+## Validation
+
+- Total cards: **100** (2 commander(s) + 65 nonland + 29 nonbasic lands + 4 basics) · average nonland MV 3.26
+- Strict color identity (CR 903.5c), singleton (903.5b), Commander-legal, size (903.5a): ✅ **all checks pass** (after the corrections below)
+- Every card resolves to an entry in our card DB (99/99 lines linked).
+
+## Bracket assessment
+
+- Game Changers (10): Cyclonic Rift, Demonic Tutor, Fierce Guardianship, Jeska's Will, Mystical Tutor, Notion Thief, Rhystic Study, The One Ring, Underworld Breach, Vampiric Tutor
+- Extra-turn cards: none
+- Mass land denial: none
+- Commander Spellbook: 3 complete combo(s), 2 two-card infinite (see [Combos](#combos-commander-spellbook)).
+- **Minimum bracket by the published barometers: 4** (more than three Game Changers).
+- Source's stated target: not stated in the imported records.
+- (Brackets are a pregame-conversation tool. See [EDH Standards](../../EDH%20Standards.md#power-bracket-assessment).)
+
+## Corrections applied
+
+| Type | Change | Reason |
+|---|---|---|
+| legality | Trade Secrets → Wizard Class | Trade Secrets is **banned in Commander** (Scryfall). The source kept it as a *project exception*. Replaced with Wizard Class, which the source's own approval dossier logged as a close alternative ("hand-size support"). Its Oracle text says "You have no maximum hand size" and level 2 draws two cards, so it serves the same goal: reaching Cecily's eleven-card hand. |
+| legality | Yawgmoth's Bargain → Flame of Anor | Yawgmoth's Bargain is **banned in Commander** (Scryfall). Replaced with Flame of Anor, another alternative from the source dossier. Its Oracle text: "Target player draws two cards" as one mode, and you may choose two modes if you control a Wizard (Cecily is a Human Wizard). It is draw plus interaction at instant speed. |
+| companion | Lutri, the Spellchaser (companion) removed | The source's approval record designates **Lutri, the Spellchaser** as a companion outside the 100. Commander bans Lutri *as a companion* (B&R 2026-02-09; Lutri is legal in the 99). So the companion is **dropped** here. The source's approved 100-card file does not list Lutri anyway, so no card count changes. |
+| format | Archidekt list normalized to [EDH Standards](../../EDH%20Standards.md#list-format-archidekt) | `[Commander]` → `[Commander{top}]` (2 line(s)); role tags restored on 96 untagged line(s): 96 from this deck's FINAL baseline, 0 from the tag the source uses most for that card in other decks; 1 untagged line(s) given a type tag (e.g. `[Land]`). |
+| bracket | Game Changers and combo floor added | The source records no Game Changer count and does not check the official Game Changers list anywhere in its approval records. We added it: **10 Game Changers**, so the minimum bracket is **4**. Commander Spellbook finds 3 complete combos (2 two-card infinite). |
+
+Full log for all decks: [Grixis Corrections](../Grixis%20Corrections.md).
+
+## Decklist (Archidekt import)
+
+```text
+1x Bjorna, Nightfall Alchemist [Commander{top}]
+1x Cecily, Haunted Mage [Commander{top}]
+1x Academy Manufactor [Tokens]
+1x Apex of Power [Draw]
+1x Arcane Signet [Ramp]
+1x Archmage Emeritus [Draw]
+1x Big Score [Draw]
+1x Blightstep Pathway // Searstep Pathway [Land]
+1x Blood Crypt [Land]
+1x Bloodstained Mire [Land]
+1x Bojuka Bog [Land]
+1x Brainstorm [Draw]
+1x Brass's Bounty [Ramp]
+1x Chaos Warp [Removal]
+1x Clearwater Pathway // Murkwater Pathway [Land]
+1x Command Tower [Land]
+1x Cormela, Glamour Thief [Ramp]
+1x Counterspell [Removal]
+1x Cruel Ultimatum [Draw]
+1x Crumbling Necropolis [Land]
+1x Cyclonic Rift [Removal]
+1x Dark Deal [Discard]
+1x Deadly Dispute [Draw]
+1x Demonic Tutor [Tutor]
+1x Dimir Signet [Ramp]
+1x Dragonskull Summit [Land]
+1x Drowned Catacomb [Land]
+1x Echo of Eons [Draw]
+1x Emry, Lurker of the Loch [Recursion]
+1x Fabled Passage [Land]
+1x Feed the Swarm [Removal]
+1x Fierce Guardianship [Removal]
+1x Frantic Search [Draw]
+1x Goblin Electromancer [Ramp]
+1x Goblin Engineer [Tutor]
+1x Harmonic Prodigy [Copy]
+1x Haunted Ridge [Land]
+1x Hexing Squelcher [Protection]
+1x Ichor Wellspring [Draw]
+1x In Garruk's Wake [Removal]
+2x Island [Land]
+1x Izzet Signet [Ramp]
+1x Jeska's Will [Ramp]
+1x Kess, Dissident Mage [Recursion]
+1x Lightning Greaves [Protection]
+1x Luxury Suite [Land]
+1x Mana Geyser [Ramp]
+1x Mnemonic Deluge [Recursion]
+1x Morphic Pool [Land]
+1x Mountain [Land]
+1x Mystic Remora [Draw]
+1x Mystical Tutor [Tutor]
+1x Niv-Mizzet, Parun [Draw]
+1x Notion Thief [Draw]
+1x Oni-Cult Anvil [Tokens]
+1x Otawara, Soaring City [Land]
+1x Peer into the Abyss [Draw]
+1x Polluted Delta [Land]
+1x Psychosis Crawler [Burn]
+1x Rakdos Signet [Ramp]
+1x Reforge the Soul [Draw]
+1x Rhystic Study [Draw]
+1x Riverglide Pathway // Lavaglide Pathway [Land]
+1x Robe of the Archmagi [Artifact]
+1x Sai, Master Thopterist [Tokens]
+1x Scalding Tarn [Land]
+1x Seething Song [Ramp]
+1x Shipwreck Marsh [Land]
+1x Shivan Reef [Land]
+1x Sokenzan, Crucible of Defiance [Land]
+1x Sol Ring [Ramp]
+1x Steam Vents [Land]
+1x Storm-Kiln Artist [Ramp]
+1x Stormcarved Coast [Land]
+1x Sulfur Falls [Land]
+1x Sulfurous Springs [Land]
+1x Swamp [Land]
+1x Takenuma, Abandoned Mire [Land]
+1x Talisman of Creativity [Ramp]
+1x Talisman of Dominance [Ramp]
+1x Talisman of Indulgence [Ramp]
+1x Teferi's Ageless Insight [Draw]
+1x The One Ring [Draw]
+1x Third Path Iconoclast [Tokens]
+1x Thought Vessel [Ramp]
+1x Toxic Deluge [Removal]
+1x Wizard Class [Draw]
+1x Training Center [Land]
+1x Triskaidekaphile [Draw]
+1x Underground River [Land]
+1x Underworld Breach [Recursion]
+1x Vampiric Tutor [Tutor]
+1x Watery Grave [Land]
+1x Wheel of Fortune [Draw]
+1x Wheel of Misfortune [Draw]
+1x Whispering Madness [Draw]
+1x Windfall [Draw]
+1x Xander's Lounge [Land]
+1x Flame of Anor [Draw]
+```
+
+## Card breakdown
+
+Role tags are the source author's (untagged lines show the card type). *Printing* is the source's pinned printing, if it pinned one.
+
+| Card | Role (source tag) | Type | MV | Identity | GC | Printing |
+|---|---|---|---|---|---|---|
+| [Bjorna, Nightfall Alchemist](../../cards/B/bj.md#bjorna-nightfall-alchemist) | Commander | Legendary Creature — Human | 2 | UR |  | — |
+| [Cecily, Haunted Mage](../../cards/C/ce.md#cecily-haunted-mage) | Commander | Legendary Creature — Human Wizard | 4 | UBR |  | — |
+| [Robe of the Archmagi](../../cards/R/ro.md#robe-of-the-archmagi) | Artifact | Artifact — Equipment | 3 | U |  | — |
+| [Psychosis Crawler](../../cards/P/ps.md#psychosis-crawler) | Burn | Artifact Creature — Phyrexian Horror | 5 | C |  | — |
+| [Harmonic Prodigy](../../cards/H/ha.md#harmonic-prodigy) | Copy | Creature — Human Wizard | 2 | R |  | — |
+| [Dark Deal](../../cards/D/da.md#dark-deal) | Discard | Sorcery | 3 | B |  | — |
+| [Apex of Power](../../cards/A/ap.md#apex-of-power) | Draw | Sorcery | 10 | R |  | — |
+| [Archmage Emeritus](../../cards/A/arc.md#archmage-emeritus) | Draw | Creature — Human Wizard | 4 | U |  | — |
+| [Big Score](../../cards/B/bi.md#big-score) | Draw | Instant | 4 | R |  | — |
+| [Brainstorm](../../cards/B/br.md#brainstorm) | Draw | Instant | 1 | U |  | — |
+| [Cruel Ultimatum](../../cards/C/cr.md#cruel-ultimatum) | Draw | Sorcery | 7 | UBR |  | — |
+| [Deadly Dispute](../../cards/D/dea.md#deadly-dispute) | Draw | Instant | 2 | B |  | — |
+| [Echo of Eons](../../cards/E/ec.md#echo-of-eons) | Draw | Sorcery | 6 | U |  | — |
+| **[Flame of Anor](../../cards/F/fl.md#flame-of-anor)** | Draw | Instant | 3 | UR |  | — |
+| [Frantic Search](../../cards/F/fr.md#frantic-search) | Draw | Instant | 3 | U |  | — |
+| [Ichor Wellspring](../../cards/I/ic.md#ichor-wellspring) | Draw | Artifact | 2 | C |  | — |
+| [Mystic Remora](../../cards/M/my.md#mystic-remora) | Draw | Enchantment | 1 | U |  | — |
+| [Niv-Mizzet, Parun](../../cards/N/ni.md#niv-mizzet-parun) | Draw | Legendary Creature — Dragon Wizard | 6 | UR |  | — |
+| [Notion Thief](../../cards/N/no.md#notion-thief) | Draw | Creature — Human Rogue | 4 | UB | ✅ | — |
+| [Peer into the Abyss](../../cards/P/pe.md#peer-into-the-abyss) | Draw | Sorcery | 7 | B |  | — |
+| [Reforge the Soul](../../cards/R/ref.md#reforge-the-soul) | Draw | Sorcery | 5 | R |  | — |
+| [Rhystic Study](../../cards/R/rh.md#rhystic-study) | Draw | Enchantment | 3 | U | ✅ | — |
+| [Teferi's Ageless Insight](../../cards/T/te.md#teferis-ageless-insight) | Draw | Legendary Enchantment | 4 | U |  | — |
+| [The One Ring](../../cards/T/theo.md#the-one-ring) | Draw | Legendary Artifact | 4 | C | ✅ | — |
+| [Triskaidekaphile](../../cards/T/tri.md#triskaidekaphile) | Draw | Creature — Human Wizard | 2 | U |  | — |
+| [Wheel of Fortune](../../cards/W/wh.md#wheel-of-fortune) | Draw | Sorcery | 3 | R |  | — |
+| [Wheel of Misfortune](../../cards/W/wh.md#wheel-of-misfortune) | Draw | Sorcery | 3 | R |  | — |
+| [Whispering Madness](../../cards/W/wh.md#whispering-madness) | Draw | Sorcery | 4 | UB |  | — |
+| [Windfall](../../cards/W/wi.md#windfall) | Draw | Sorcery | 3 | U |  | — |
+| **[Wizard Class](../../cards/W/wi.md#wizard-class)** | Draw | Enchantment — Class | 1 | U |  | — |
+| [Blightstep Pathway // Searstep Pathway](../../cards/B/bli.md#blightstep-pathway--searstep-pathway) | Land | Land // Land | 0 | BR |  | — |
+| [Blood Crypt](../../cards/B/blo.md#blood-crypt) | Land | Land — Swamp Mountain | 0 | BR |  | — |
+| [Bloodstained Mire](../../cards/B/blo.md#bloodstained-mire) | Land | Land | 0 | C |  | — |
+| [Bojuka Bog](../../cards/B/bo.md#bojuka-bog) | Land | Land | 0 | B |  | — |
+| [Clearwater Pathway // Murkwater Pathway](../../cards/C/cl.md#clearwater-pathway--murkwater-pathway) | Land | Land // Land | 0 | UB |  | — |
+| [Command Tower](../../cards/C/com.md#command-tower) | Land | Land | 0 | C |  | — |
+| [Crumbling Necropolis](../../cards/C/cr.md#crumbling-necropolis) | Land | Land | 0 | UBR |  | — |
+| [Dragonskull Summit](../../cards/D/dra.md#dragonskull-summit) | Land | Land | 0 | BR |  | — |
+| [Drowned Catacomb](../../cards/D/dro.md#drowned-catacomb) | Land | Land | 0 | UB |  | — |
+| [Fabled Passage](../../cards/F/fa.md#fabled-passage) | Land | Land | 0 | C |  | — |
+| [Haunted Ridge](../../cards/H/ha.md#haunted-ridge) | Land | Land | 0 | BR |  | — |
+| [Island](../../cards/I/is.md#island) (×2) | Land | Basic Land — Island | 0 | U |  | — |
+| [Luxury Suite](../../cards/L/lu.md#luxury-suite) | Land | Land | 0 | BR |  | — |
+| [Morphic Pool](../../cards/M/mor.md#morphic-pool) | Land | Land | 0 | UB |  | — |
+| [Mountain](../../cards/M/mou.md#mountain) | Land | Basic Land — Mountain | 0 | R |  | — |
+| [Otawara, Soaring City](../../cards/O/ot.md#otawara-soaring-city) | Land | Legendary Land | 0 | U |  | — |
+| [Polluted Delta](../../cards/P/po.md#polluted-delta) | Land | Land | 0 | C |  | — |
+| [Riverglide Pathway // Lavaglide Pathway](../../cards/R/ri.md#riverglide-pathway--lavaglide-pathway) | Land | Land // Land | 0 | UR |  | — |
+| [Scalding Tarn](../../cards/S/sc.md#scalding-tarn) | Land | Land | 0 | C |  | — |
+| [Shipwreck Marsh](../../cards/S/shi.md#shipwreck-marsh) | Land | Land | 0 | UB |  | — |
+| [Shivan Reef](../../cards/S/shi.md#shivan-reef) | Land | Land | 0 | UR |  | — |
+| [Sokenzan, Crucible of Defiance](../../cards/S/so.md#sokenzan-crucible-of-defiance) | Land | Legendary Land | 0 | R |  | — |
+| [Steam Vents](../../cards/S/ste.md#steam-vents) | Land | Land — Island Mountain | 0 | UR |  | — |
+| [Stormcarved Coast](../../cards/S/sto.md#stormcarved-coast) | Land | Land | 0 | UR |  | — |
+| [Sulfur Falls](../../cards/S/sul.md#sulfur-falls) | Land | Land | 0 | UR |  | — |
+| [Sulfurous Springs](../../cards/S/sul.md#sulfurous-springs) | Land | Land | 0 | BR |  | — |
+| [Swamp](../../cards/S/sw.md#swamp) | Land | Basic Land — Swamp | 0 | B |  | — |
+| [Takenuma, Abandoned Mire](../../cards/T/ta.md#takenuma-abandoned-mire) | Land | Legendary Land | 0 | B |  | — |
+| [Training Center](../../cards/T/tra.md#training-center) | Land | Land | 0 | UR |  | — |
+| [Underground River](../../cards/U/un.md#underground-river) | Land | Land | 0 | UB |  | — |
+| [Watery Grave](../../cards/W/wat.md#watery-grave) | Land | Land — Island Swamp | 0 | UB |  | — |
+| [Xander's Lounge](../../cards/X/xa.md#xanders-lounge) | Land | Land — Island Swamp Mountain | 0 | UBR |  | — |
+| [Hexing Squelcher](../../cards/H/he.md#hexing-squelcher) | Protection | Creature — Goblin Sorcerer | 2 | R |  | — |
+| [Lightning Greaves](../../cards/L/li.md#lightning-greaves) | Protection | Artifact — Equipment | 2 | C |  | — |
+| [Arcane Signet](../../cards/A/arc.md#arcane-signet) | Ramp | Artifact | 2 | C |  | — |
+| [Brass's Bounty](../../cards/B/br.md#brasss-bounty) | Ramp | Sorcery | 7 | R |  | — |
+| [Cormela, Glamour Thief](../../cards/C/cor.md#cormela-glamour-thief) | Ramp | Legendary Creature — Vampire Rogue | 4 | UBR |  | — |
+| [Dimir Signet](../../cards/D/di.md#dimir-signet) | Ramp | Artifact | 2 | UB |  | — |
+| [Goblin Electromancer](../../cards/G/gob.md#goblin-electromancer) | Ramp | Creature — Goblin Wizard | 2 | UR |  | — |
+| [Izzet Signet](../../cards/I/iz.md#izzet-signet) | Ramp | Artifact | 2 | UR |  | — |
+| [Jeska's Will](../../cards/J/je.md#jeskas-will) | Ramp | Sorcery | 3 | R | ✅ | — |
+| [Mana Geyser](../../cards/M/man.md#mana-geyser) | Ramp | Sorcery | 5 | R |  | — |
+| [Rakdos Signet](../../cards/R/rak.md#rakdos-signet) | Ramp | Artifact | 2 | BR |  | — |
+| [Seething Song](../../cards/S/see.md#seething-song) | Ramp | Instant | 3 | R |  | — |
+| [Sol Ring](../../cards/S/so.md#sol-ring) | Ramp | Artifact | 1 | C |  | — |
+| [Storm-Kiln Artist](../../cards/S/sto.md#storm-kiln-artist) | Ramp | Creature — Dwarf Shaman | 4 | R |  | — |
+| [Talisman of Creativity](../../cards/T/ta.md#talisman-of-creativity) | Ramp | Artifact | 2 | UR |  | — |
+| [Talisman of Dominance](../../cards/T/ta.md#talisman-of-dominance) | Ramp | Artifact | 2 | UB |  | — |
+| [Talisman of Indulgence](../../cards/T/ta.md#talisman-of-indulgence) | Ramp | Artifact | 2 | BR |  | — |
+| [Thought Vessel](../../cards/T/tho.md#thought-vessel) | Ramp | Artifact | 2 | C |  | — |
+| [Emry, Lurker of the Loch](../../cards/E/em.md#emry-lurker-of-the-loch) | Recursion | Legendary Creature — Merfolk Wizard | 3 | U |  | — |
+| [Kess, Dissident Mage](../../cards/K/ke.md#kess-dissident-mage) | Recursion | Legendary Creature — Human Wizard | 4 | UBR |  | — |
+| [Mnemonic Deluge](../../cards/M/mn.md#mnemonic-deluge) | Recursion | Sorcery | 9 | U |  | — |
+| [Underworld Breach](../../cards/U/un.md#underworld-breach) | Recursion | Enchantment | 2 | R | ✅ | — |
+| [Chaos Warp](../../cards/C/cha.md#chaos-warp) | Removal | Instant | 3 | R |  | — |
+| [Counterspell](../../cards/C/cou.md#counterspell) | Removal | Instant | 2 | U |  | — |
+| [Cyclonic Rift](../../cards/C/cy.md#cyclonic-rift) | Removal | Instant | 2 | U | ✅ | — |
+| [Feed the Swarm](../../cards/F/fe.md#feed-the-swarm) | Removal | Sorcery | 2 | B |  | — |
+| [Fierce Guardianship](../../cards/F/fi.md#fierce-guardianship) | Removal | Instant | 3 | U | ✅ | — |
+| [In Garruk's Wake](../../cards/I/ing.md#in-garruks-wake) | Removal | Sorcery | 9 | B |  | — |
+| [Toxic Deluge](../../cards/T/to.md#toxic-deluge) | Removal | Sorcery | 3 | B |  | — |
+| [Academy Manufactor](../../cards/A/ac.md#academy-manufactor) | Tokens | Artifact Creature — Assembly-Worker | 3 | C |  | — |
+| [Oni-Cult Anvil](../../cards/O/on.md#oni-cult-anvil) | Tokens | Artifact | 2 | BR |  | — |
+| [Sai, Master Thopterist](../../cards/S/sai.md#sai-master-thopterist) | Tokens | Legendary Creature — Human Artificer | 3 | U |  | — |
+| [Third Path Iconoclast](../../cards/T/thi.md#third-path-iconoclast) | Tokens | Creature — Human Monk | 2 | UR |  | — |
+| [Demonic Tutor](../../cards/D/dem.md#demonic-tutor) | Tutor | Sorcery | 2 | B | ✅ | — |
+| [Goblin Engineer](../../cards/G/gob.md#goblin-engineer) | Tutor | Creature — Goblin Artificer | 2 | R |  | — |
+| [Mystical Tutor](../../cards/M/my.md#mystical-tutor) | Tutor | Instant | 1 | U | ✅ | — |
+| [Vampiric Tutor](../../cards/V/va.md#vampiric-tutor) | Tutor | Instant | 1 | B | ✅ | — |
+
+## Source commentary (verbatim)
+
+> Quoted from the source repo with headings turned into bold text. This is **the source author's analysis and opinion (guidance)**, from `grixis-commander-encyclopediaGPT`, path shown above each block. Relative links point back to the source. Rules statements here were not re-verified card by card (see [Grixis Corrections](../Grixis%20Corrections.md#oracle-text-check) for the Oracle check). Where the source mentions Lutri, Trade Secrets or Yawgmoth's Bargain as approved exceptions, our corrected list above takes precedence.
+
+### From `refinement/blueprints/Cecily__Bjorna__Lutri_v1.md`
+
+Source: [refinement/blueprints/Cecily__Bjorna__Lutri_v1.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/blueprints/Cecily__Bjorna__Lutri_v1.md)
+
+**Deck #8 — Bjorna // Cecily + Lutri — refinement blueprint**
+
+Cycle: global-restart-2026-10-13
+Status: WORKING, NOT APPROVED, NOT LOCKED.
+
+Authoritative frozen baseline: GrixisFINALTXT60--2026.zip / Cecily__Bjorna__Lutri.txt; reconcile with matching CSV and project exception registry before any changes.
+
+Commander pair: Bjorna, Nightfall Alchemist + Cecily, Haunted Mage (Friends forever). Designated Lutri, the Spellchaser companion is a project-authorized exception to the official Commander ban; do not claim Lutri is officially legal. The designated Trade Secrets and Yawgmoth's Bargain exceptions also apply; distinguish project legality from official legality in the final gate.
+
+Commander-first plan: Bjorna rewards casting noncreature spells by granting haste and goading a creature, while Cecily rewards combat damage to a player with card draw and casting an instant or sorcery from hand without paying its mana cost if hand size permits. Tune spell density, cheap interaction, card velocity, protected combat connections, hand-size thresholds, and useful high-impact free-cast spells; retain Lutri's companion constraints and role. Do not homogenize into generic Grixis storm.
+
+Mandatory audit: frozen baseline 100-card count with companion treatment explicitly documented; card-by-card 99-slot review, top-100 candidates, current Oracle and legality with registered exceptions, commander trigger timing, free-cast alternate-cost restrictions, companion mechanics, mana curve, combo interactions, red-team, zero-material-improvement stopping rule, and explicit user approval. No changes or lock until approval.
+
+Deck #7 Be'lakor explicitly approved and locked, see refinement/approvals/Be_lakor_the_Dark_Master_Approved_2026-10-13.md. The central state registry remains stale and must not override the approval record.
+
+### From `refinement/approvals/Cecily__Bjorna__Lutri_Approved_2026-10-13.md`
+
+Source: [refinement/approvals/Cecily__Bjorna__Lutri_Approved_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/approvals/Cecily__Bjorna__Lutri_Approved_2026-10-13.md)
+
+**Deck #8 — Bjorna // Cecily + Lutri — Explicit approval and lock**
+
+Cycle: global-restart-2026-10-13
+Status: APPROVED / LOCKED by explicit user instruction
+Date: 2026-10-13
+Approved main-deck list: refinement/decklists/Cecily__Bjorna__Lutri_Approved_2026-10-13.txt
+SHA-256 (UTF-8, LF, trailing newline): 553838da88fe00974e74664633be5051c4f1a0879baa71de81ca9f880e5a6d28
+Commander deck: 100 cards total = 2 commanders + 98 library cards.
+Companion outside the deck: **1x Lutri, the Spellchaser [Companion]**. The companion is NOT included in the 100-card decklist count.
+
+Explicitly approved change: CUT Reckless Fireweaver; ADD Robe of the Archmagi. No other changes authorized.
+
+Project-specific exceptions preserved:
+1. Lutri as companion, notwithstanding its official Commander ban.
+2. Trade Secrets in the main deck, notwithstanding official Commander ban.
+3. Yawgmoth's Bargain in the main deck, notwithstanding official Commander ban.
+
+This deck is **project-authorized, not officially Commander-legal** with those three exceptions. Preserve this distinction.
+
+The GitHub central state/current_deck_overrides.json is stale and lacks approved decks #6 and #7. Do not use its absence of a deck #8 entry as permission to reopen or revise. Explicit approval record and exact list control until registry synchronization.
+
+Approval dossier: refinement/evidence/Cecily__Bjorna__Lutri_Approval_Gate_Dossier_2026-10-13.md.
+
+### From `refinement/evidence/Cecily__Bjorna__Lutri_Approval_Gate_Dossier_2026-10-13.md`
+
+Source: [refinement/evidence/Cecily__Bjorna__Lutri_Approval_Gate_Dossier_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/evidence/Cecily__Bjorna__Lutri_Approval_Gate_Dossier_2026-10-13.md)
+
+**Deck #8 — Bjorna // Cecily + Lutri — Approval Gate Dossier**
+
+**Current-cycle status:** APPROVAL_REQUESTED, NOT APPROVED, NOT LOCKED. All prior seven approved decks preserved.
+
+**Source and deck count**
+Frozen TXT: GrixisFINALTXT60--2026.zip / Cecily__Bjorna__Lutri.txt. Source-member SHA-256: 4e10f9fcc2e8ec230cf7627d9f32eb4693b45c1af7a5a104d14f878e39f99a2f.
+
+The frozen TXT has 100 distinct name rows and **101 physical cards**: 2 commanders + 98 library cards (including one extra Island) + 1 Lutri companion outside the game. This is **exactly 100 in the Commander deck**, plus companion outside the deck; the companion must not be incorrectly counted as a 101st deck card. Commander pair is Bjorna, Nightfall Alchemist and Cecily, Haunted Mage (Friends forever). Main-deck singleton compliance passes, only Island x2. Companion's starting-deck restriction (nonland names unique) passes. All 33 lands preserved.
+
+**One recommended change**
+- CUT Reckless Fireweaver
+- ADD Robe of the Archmagi
+
+Reckless Fireweaver converts artifact-token arrivals to table-wide damage but is a secondary payoff, not a direct way to attain Cecily's 11-card attack trigger. Robe of the Archmagi costs 2U and equips **Cecily (Human Wizard)** for 1 mana, giving draw equal to combat damage dealt to a player. It also equips non-Wizards for 4. Cecily triggers **on attack**, not combat damage; Robe's combat-damage draw happens **after** Cecily's attack trigger resolves and cannot make the 11-card condition true on that same attack. It builds hand size for subsequent attacks. Robe does not make Cecily unblockable and is vulnerable to artifact removal. Cutting Fireweaver reduces passive token-burn output; Academy Manufactor, Sai, Third Path Iconoclast, Oni-Cult Anvil, Bjorna sacrifice fodder and Treasure synergies remain.
+
+**Commander rules and interactions**
+- **Bjorna** is a 1/3 Human, not Wizard, with {T}, sacrifice an artifact as cost to deal 1 damage to a creature and goad it. Target must be a creature; it does not target players. Academy Manufactor increases Treasure/Clue/Food resources for sacrifice. Robe does not have the cheap Wizard equip rate for Bjorna.
+- **Cecily** is a Human Wizard with maximum hand size 11. On attack she draws one card, loses one life, then checks **11 or more cards in hand** to allow casting an instant or sorcery **from hand** without paying its mana cost. The draw happens before checking the threshold. An eleven-card maximum is not a requirement to discard immediately; normal cleanup rules apply.
+- Cecily free-casts **Apex of Power from hand**; Apex's own 'if cast from your hand' clause is satisfied even though mana cost is waived, producing ten mana of one color. 'Cast without paying its mana cost' disallows alternate casting costs but allows additional costs.
+- Lutri's companion condition checks **starting deck**, not the outside-the-game companion. Lutri is banned **as a companion** in official Commander, but expressly authorized as a project exception. To put Lutri from outside the game into hand, pay {3} at sorcery speed; then pay its normal mana cost to cast it. Its ETB spell-copy ability requires Lutri to have been cast, and a target instant/sorcery spell you control on stack.
+- Trade Secrets and Yawgmoth's Bargain are officially banned in Commander but are explicit project-authorized exceptions for this deck. Do not describe the deck as officially legal without qualifications.
+- Harmonic Prodigy can copy relevant Wizard/Shaman triggered abilities, including Cecily's attack trigger if it is a Wizard triggered ability; additional Cecily attack triggers resolve individually and may produce multiple free casts if hand thresholds are met.
+- The One Ring, Trade Secrets, Bargain, Windfall, Wheels, and Rhystic Study help build the eleven-card threshold; Wheel effects also replace hand and can reduce it. The deck is not just generic spellstorm: its commander pair's artifact-goad control and hand-size attack engine remain the strategic center.
+
+**Candidate exhaustion and review**
+All 98 noncommander main-deck card copies, plus the one outside-deck companion, reviewed; all 100 ranked candidates screened. Notable alternatives considered: Whispersilk Cloak (attack trigger needs no combat damage); Wizard Class (hand-size support, but slower to draw than the Robe's successful connection); Double Vision, Mizzix's Mastery, Thousand-Year Storm (high synergy but compete for expensive spell and payoff slots); Ponder, Preordain, Flame of Anor, An Offer You Can't Refuse (efficient but lack a decisive weakest cut). No other candidate demonstrated a clearly stronger slot-specific upgrade under identity-first constraints.
+
+**Structural / legal verification**
+- Proposed list: 100 deck cards including 2 commanders, 98 library cards; plus 1 outside-deck companion.
+- 33 lands; only basic Island repeated (x2).
+- Color identity UBR: inherited v8.1.4 deck audit passes all 100 original distinct names, including companion, with exactly the three authorized official-legality exceptions. Robe of the Archmagi is blue and currently Commander legal.
+- Official Commander banned list and October 12, 2026 WotC announcement consulted. No unexpected format ban found. The current legality conclusion is based on archived per-card audit + targeted current check, not an individual live Scryfall API query for every card.
+- Proposed decklist SHA-256 (UTF-8 LF newline): 553838da88fe00974e74664633be5051c4f1a0879baa71de81ca9f880e5a6d28.
+- Hypergeometric 33-land-only consistency (98-card library), ignoring mulligans and mana rocks: P(0–1 land in opening 7) 24.74%; P(0–1 land in first 10 cards) 8.81%. 33 lands is relatively lean, but the deck retains a dense two-mana artifact acceleration package and spell-based Treasure generation.
+- No controlled multiplayer win-rate tests performed; no empirical improvement claim. The one-swap proposal is a commander-first qualitative recommendation with acknowledged combat-connectivity risk.
+
+**Source links**
+- https://www.mtg.wtf/card/clb/91/Robe-of-the-Archmagi
+- https://www.mtg.wtf/card?q=e%3Asld+subset%3A%22Stranger+Things%22
+- https://mtgcommander.net/index.php/banned-list/
+- https://www.magic.wizards.com/en/news/announcements/banned-and-restricted-october-12-2026
+
+**Approval gate**
+Request explicit approval for the single Reckless Fireweaver -> Robe of the Archmagi change and resulting 100-card main-deck list with outside-deck Lutri companion. **Do not lock without user approval.**
+
+<!-- COMBOS:START -->
+## Combos (Commander Spellbook)
+
+> Generated 2026-10-15 by `scripts/build_grixis.py` from the [Commander Spellbook](https://commanderspellbook.com) public API (community-maintained). Shows only combos whose **every card is in this list**. Bracket barometer: *Brackets 1–2: no intentional two-card infinite combos. Bracket 3: no early-game two-card infinite combos.*
+
+**3 complete combo(s); 2 two-card infinite.** 108 more are one card away (not listed).
+
+| Cards | Produces (Spellbook) | Extra requirements | Link |
+|---|---|---|---|
+| ⚠️ **two-card infinite** · Psychosis Crawler + Peer into the Abyss | Near-infinite lifeloss, Near-infinite card draw, Near-infinite draw triggers | — | [1561-2384](https://commanderspellbook.com/combo/1561-2384/) |
+| ⚠️ **two-card infinite** · Peer into the Abyss + Teferi's Ageless Insight | Infinite card draw, Infinite draw triggers | — | [1561-5042](https://commanderspellbook.com/combo/1561-5042/) |
+| Underworld Breach + Wheel of Fortune + Jeska's Will | Infinite draw triggers for all players, Infinite looting for all players, Near-infinite magecraft triggers, Near-infinite storm count | — | [1368-1878-2706](https://commanderspellbook.com/combo/1368-1878-2706/) |
+<!-- COMBOS:END -->

@@ -1,0 +1,468 @@
+---
+title: "Grixis Deck — Fire Lord Azula"
+category: deck
+kind: grixis
+commander: "Fire Lord Azula"
+color_identity: UBR
+bracket_floor: 4
+game_changers: 20
+validated: true
+source_repo: corymstover/grixis-commander-encyclopediaGPT
+---
+
+# Grixis Deck — Fire Lord Azula
+
+> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Fire_Lord_Azula_Approved_2026-10-14.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decklists/Fire_Lord_Azula_Approved_2026-10-14.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-14; source commit `df1abb9`). Imported in Bot cycle 16 and re-validated against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
+
+## Contents
+- [Commander](#commander)
+- [Validation](#validation)
+- [Bracket assessment](#bracket-assessment)
+- [Corrections applied](#corrections-applied)
+- [Decklist (Archidekt import)](#decklist-archidekt-import)
+- [Card breakdown](#card-breakdown)
+- [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Combos (Commander Spellbook)](#combos-commander-spellbook)
+
+## Commander
+
+- **[Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula)** — {1}{U}{B}{R} — Legendary Creature — Human Noble
+- Color identity: **UBR (Blue, Black, Red)**
+- Eligibility (Fire Lord Azula): Yes (legendary creature)
+
+## Validation
+
+- Total cards: **100** (1 commander(s) + 73 nonland + 26 nonbasic lands + 0 basics) · average nonland MV 1.85
+- Strict color identity (CR 903.5c), singleton (903.5b), Commander-legal, size (903.5a): ✅ **all checks pass**
+- Every card resolves to an entry in our card DB (100/100 lines linked).
+
+## Bracket assessment
+
+- Game Changers (20): Orcish Bowmasters, Thassa's Oracle, Ad Nauseam, Fierce Guardianship, Force of Will, Mystical Tutor, Vampiric Tutor, Demonic Tutor, Gamble, Imperial Seal, Jeska's Will, Necropotence, Rhystic Study, Underworld Breach, Chrome Mox, Grim Monolith, Lion's Eye Diamond, Mana Vault, Mox Diamond, Ancient Tomb
+- Extra-turn cards: none
+- Mass land denial: none
+- Commander Spellbook: 9 complete combo(s), 1 two-card infinite (see [Combos](#combos-commander-spellbook)).
+- **Minimum bracket by the published barometers: 4** (more than three Game Changers).
+- Source's stated target (guidance): **Bracket 5 — cEDH**.
+- (Brackets are a pregame-conversation tool. See [EDH Standards](../../EDH%20Standards.md#power-bracket-assessment).)
+
+## Corrections applied
+
+| Type | Change | Reason |
+|---|---|---|
+| format | Archidekt list normalized to [EDH Standards](../../EDH%20Standards.md#list-format-archidekt) | `[Commander]` → `[Commander{top}]` (1 line(s)); role tags restored on 88 untagged line(s): 64 from this deck's FINAL baseline, 24 from the tag the source uses most for that card in other decks; 11 untagged line(s) given a type tag (e.g. `[Land]`). |
+| bracket | Game Changers and combo floor added | The source records no Game Changer count and does not check the official Game Changers list anywhere in its approval records. We added it: **20 Game Changers**, so the minimum bracket is **4**. Commander Spellbook finds 9 complete combos (1 two-card infinite). This is consistent with the source's stated Bracket 5. |
+
+Full log for all decks: [Grixis Corrections](../Grixis%20Corrections.md).
+
+## Decklist (Archidekt import)
+
+```text
+1x Fire Lord Azula [Commander{top}]
+1x Birgi, God of Storytelling // Harnfel, Horn of Bounty [Ramp]
+1x Faerie Mastermind [Creature]
+1x Geist of Saint Thalia [Creature]
+1x Hexing Squelcher [Protection]
+1x High Fae Trickster [Creature]
+1x Orcish Bowmasters [Removal]
+1x Ragavan, Nimble Pilferer [Ramp]
+1x Samut, Tyrant of Naktamun [Protection]
+1x Simian Spirit Guide [Ramp]
+1x Thassa's Oracle [Draw]
+1x Valley Floodcaller [Pump]
+1x Vivi Ornitier [Ramp]
+1x Wan Shi Tong, Librarian [Creature]
+1x Ad Nauseam [Draw]
+1x An Offer You Can't Refuse [Removal]
+1x Big Score [Draw]
+1x Borne Upon a Wind [Draw]
+1x Brain Freeze [Mill]
+1x Cabal Ritual [Ramp]
+1x Chain of Vapor [Removal]
+1x Crimson Wisps [Instant]
+1x Dark Ritual [Ramp]
+1x Deflecting Swat [Protection]
+1x Demand Answers [Draw]
+1x Demonic Consultation [Tutor]
+1x Expedite [Instant]
+1x Fierce Guardianship [Removal]
+1x Flusterstorm [Counters]
+1x Force of Negation [Counters]
+1x Force of Will [Counters]
+1x Frantic Search [Draw]
+1x Into the Flood Maw [Removal]
+1x Mental Misstep [Counters]
+1x Mindbreak Trap [Counters]
+1x Mystical Tutor [Tutor]
+1x Narset's Reversal [Removal]
+1x Pact of Negation [Counters]
+1x Pyroblast [Removal]
+1x Quicken [Instant]
+1x Red Elemental Blast [Removal]
+1x Redirect Lightning [Instant]
+1x Repeal [Instant]
+1x Snap [Removal]
+1x Strix Serenade [Instant]
+1x Swan Song [Removal]
+1x Tainted Pact [Tutor]
+1x Vampiric Tutor [Tutor]
+1x Beseech the Mirror [Tutor]
+1x Demonic Tutor [Tutor]
+1x Gamble [Tutor]
+1x Imperial Seal [Tutor]
+1x Jeska's Will [Ramp]
+1x Rite of Flame [Ramp]
+1x Wheel of Fortune [Draw]
+1x Mystic Remora [Draw]
+1x Necropotence [Draw]
+1x Rhystic Study [Draw]
+1x Underworld Breach [Recursion]
+1x Arcane Signet [Ramp]
+1x Chrome Mox [Ramp]
+1x Fellwar Stone [Ramp]
+1x Grim Monolith [Ramp]
+1x Grinding Station [Sac Outlet]
+1x Lion's Eye Diamond [Ramp]
+1x Lotus Petal [Ramp]
+1x Mana Vault [Ramp]
+1x Mox Diamond [Ramp]
+1x Mox Opal [Ramp]
+1x Sol Ring [Ramp]
+1x Talisman of Creativity [Ramp]
+1x Talisman of Dominance [Ramp]
+1x Talisman of Indulgence [Ramp]
+1x Wishclaw Talisman [Tutor]
+1x Ancient Tomb [Land]
+1x Arena of Glory [Land]
+1x Arid Mesa [Land]
+1x Badlands [Land]
+1x Blood Crypt [Land]
+1x Bloodstained Mire [Land]
+1x Cavern of Souls [Land]
+1x City of Brass [Land]
+1x Command Tower [Land]
+1x Emergence Zone [Land]
+1x Exotic Orchard [Land]
+1x Flooded Strand [Land]
+1x Gemstone Caverns [Land]
+1x Mana Confluence [Land]
+1x Marsh Flats [Land]
+1x Misty Rainforest [Land]
+1x Otawara, Soaring City [Land]
+1x Polluted Delta [Land]
+1x Scalding Tarn [Land]
+1x Starting Town [Land]
+1x Steam Vents [Land]
+1x Underground Sea [Land]
+1x Verdant Catacombs [Land]
+1x Volcanic Island [Land]
+1x Watery Grave [Land]
+1x Wooded Foothills [Land]
+```
+
+## Card breakdown
+
+Role tags are the source author's (untagged lines show the card type). *Printing* is the source's pinned printing, if it pinned one.
+
+| Card | Role (source tag) | Type | MV | Identity | GC | Printing |
+|---|---|---|---|---|---|---|
+| [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) | Commander | Legendary Creature — Human Noble | 4 | UBR |  | — |
+| [Flusterstorm](../../cards/F/fl.md#flusterstorm) | Counters | Instant | 1 | U |  | — |
+| [Force of Negation](../../cards/F/fo.md#force-of-negation) | Counters | Instant | 3 | U |  | — |
+| [Force of Will](../../cards/F/fo.md#force-of-will) | Counters | Instant | 5 | U | ✅ | — |
+| [Mental Misstep](../../cards/M/me.md#mental-misstep) | Counters | Instant | 1 | U |  | — |
+| [Mindbreak Trap](../../cards/M/min.md#mindbreak-trap) | Counters | Instant — Trap | 4 | U |  | — |
+| [Pact of Negation](../../cards/P/pa.md#pact-of-negation) | Counters | Instant | 0 | U |  | — |
+| [Faerie Mastermind](../../cards/F/fa.md#faerie-mastermind) | Creature | Creature — Faerie Rogue | 2 | U |  | — |
+| [Geist of Saint Thalia](../../cards/G/ge.md#geist-of-saint-thalia) | Creature | Legendary Creature — Spirit Cleric | 2 | U |  | — |
+| [High Fae Trickster](../../cards/H/hi.md#high-fae-trickster) | Creature | Creature — Faerie Wizard | 4 | U |  | — |
+| [Wan Shi Tong, Librarian](../../cards/W/wan.md#wan-shi-tong-librarian) | Creature | Legendary Creature — Bird Spirit | 2 | U |  | — |
+| [Ad Nauseam](../../cards/A/ad.md#ad-nauseam) | Draw | Instant | 5 | B | ✅ | — |
+| [Big Score](../../cards/B/bi.md#big-score) | Draw | Instant | 4 | R |  | — |
+| [Borne Upon a Wind](../../cards/B/bo.md#borne-upon-a-wind) | Draw | Instant | 2 | U |  | — |
+| [Demand Answers](../../cards/D/dem.md#demand-answers) | Draw | Instant | 2 | R |  | — |
+| [Frantic Search](../../cards/F/fr.md#frantic-search) | Draw | Instant | 3 | U |  | — |
+| [Mystic Remora](../../cards/M/my.md#mystic-remora) | Draw | Enchantment | 1 | U |  | — |
+| [Necropotence](../../cards/N/ne.md#necropotence) | Draw | Enchantment | 3 | B | ✅ | — |
+| [Rhystic Study](../../cards/R/rh.md#rhystic-study) | Draw | Enchantment | 3 | U | ✅ | — |
+| [Thassa's Oracle](../../cards/T/tha.md#thassas-oracle) | Draw | Creature — Merfolk Wizard | 2 | U | ✅ | — |
+| [Wheel of Fortune](../../cards/W/wh.md#wheel-of-fortune) | Draw | Sorcery | 3 | R |  | — |
+| [Crimson Wisps](../../cards/C/cr.md#crimson-wisps) | Instant | Instant | 1 | R |  | — |
+| [Expedite](../../cards/E/ex.md#expedite) | Instant | Instant | 1 | R |  | — |
+| [Quicken](../../cards/Q/qu.md#quicken) | Instant | Instant | 1 | U |  | — |
+| [Redirect Lightning](../../cards/R/red.md#redirect-lightning) | Instant | Instant — Lesson | 1 | R |  | — |
+| [Repeal](../../cards/R/rep.md#repeal) | Instant | Instant | 1 | U |  | — |
+| [Strix Serenade](../../cards/S/str.md#strix-serenade) | Instant | Instant | 1 | U |  | — |
+| [Ancient Tomb](../../cards/A/an.md#ancient-tomb) | Land | Land | 0 | C | ✅ | — |
+| [Arena of Glory](../../cards/A/are.md#arena-of-glory) | Land | Land | 0 | R |  | — |
+| [Arid Mesa](../../cards/A/ari.md#arid-mesa) | Land | Land | 0 | C |  | — |
+| [Badlands](../../cards/B/bad.md#badlands) | Land | Land — Swamp Mountain | 0 | BR |  | — |
+| [Blood Crypt](../../cards/B/blo.md#blood-crypt) | Land | Land — Swamp Mountain | 0 | BR |  | — |
+| [Bloodstained Mire](../../cards/B/blo.md#bloodstained-mire) | Land | Land | 0 | C |  | — |
+| [Cavern of Souls](../../cards/C/cav.md#cavern-of-souls) | Land | Land | 0 | C |  | — |
+| [City of Brass](../../cards/C/ci.md#city-of-brass) | Land | Land | 0 | C |  | — |
+| [Command Tower](../../cards/C/com.md#command-tower) | Land | Land | 0 | C |  | — |
+| [Emergence Zone](../../cards/E/em.md#emergence-zone) | Land | Land | 0 | C |  | — |
+| [Exotic Orchard](../../cards/E/ex.md#exotic-orchard) | Land | Land | 0 | C |  | — |
+| [Flooded Strand](../../cards/F/fl.md#flooded-strand) | Land | Land | 0 | C |  | — |
+| [Gemstone Caverns](../../cards/G/ge.md#gemstone-caverns) | Land | Legendary Land | 0 | C |  | — |
+| [Mana Confluence](../../cards/M/man.md#mana-confluence) | Land | Land | 0 | C |  | — |
+| [Marsh Flats](../../cards/M/mar.md#marsh-flats) | Land | Land | 0 | C |  | — |
+| [Misty Rainforest](../../cards/M/mis.md#misty-rainforest) | Land | Land | 0 | C |  | — |
+| [Otawara, Soaring City](../../cards/O/ot.md#otawara-soaring-city) | Land | Legendary Land | 0 | U |  | — |
+| [Polluted Delta](../../cards/P/po.md#polluted-delta) | Land | Land | 0 | C |  | — |
+| [Scalding Tarn](../../cards/S/sc.md#scalding-tarn) | Land | Land | 0 | C |  | — |
+| [Starting Town](../../cards/S/sta.md#starting-town) | Land | Land — Town | 0 | C |  | — |
+| [Steam Vents](../../cards/S/ste.md#steam-vents) | Land | Land — Island Mountain | 0 | UR |  | — |
+| [Underground Sea](../../cards/U/un.md#underground-sea) | Land | Land — Island Swamp | 0 | UB |  | — |
+| [Verdant Catacombs](../../cards/V/ve.md#verdant-catacombs) | Land | Land | 0 | C |  | — |
+| [Volcanic Island](../../cards/V/vo.md#volcanic-island) | Land | Land — Island Mountain | 0 | UR |  | — |
+| [Watery Grave](../../cards/W/wat.md#watery-grave) | Land | Land — Island Swamp | 0 | UB |  | — |
+| [Wooded Foothills](../../cards/W/wo.md#wooded-foothills) | Land | Land | 0 | C |  | — |
+| [Brain Freeze](../../cards/B/br.md#brain-freeze) | Mill | Instant | 2 | U |  | — |
+| [Deflecting Swat](../../cards/D/def.md#deflecting-swat) | Protection | Instant | 3 | R |  | — |
+| [Hexing Squelcher](../../cards/H/he.md#hexing-squelcher) | Protection | Creature — Goblin Sorcerer | 2 | R |  | — |
+| [Samut, Tyrant of Naktamun](../../cards/S/sam.md#samut-tyrant-of-naktamun) | Protection | Legendary Creature — Human Wizard | 2 | U |  | — |
+| [Valley Floodcaller](../../cards/V/va.md#valley-floodcaller) | Pump | Creature — Otter Wizard | 3 | U |  | — |
+| [Arcane Signet](../../cards/A/arc.md#arcane-signet) | Ramp | Artifact | 2 | C |  | — |
+| [Birgi, God of Storytelling // Harnfel, Horn of Bounty](../../cards/B/bi.md#birgi-god-of-storytelling--harnfel-horn-of-bounty) | Ramp | Legendary Creature — God // Legendary Artifact | 3 | R |  | — |
+| [Cabal Ritual](../../cards/C/cab.md#cabal-ritual) | Ramp | Instant | 2 | B |  | — |
+| [Chrome Mox](../../cards/C/chr.md#chrome-mox) | Ramp | Artifact | 0 | C | ✅ | — |
+| [Dark Ritual](../../cards/D/da.md#dark-ritual) | Ramp | Instant | 1 | B |  | — |
+| [Fellwar Stone](../../cards/F/fe.md#fellwar-stone) | Ramp | Artifact | 2 | C |  | — |
+| [Grim Monolith](../../cards/G/gri.md#grim-monolith) | Ramp | Artifact | 2 | C | ✅ | — |
+| [Jeska's Will](../../cards/J/je.md#jeskas-will) | Ramp | Sorcery | 3 | R | ✅ | — |
+| [Lion's Eye Diamond](../../cards/L/li.md#lions-eye-diamond) | Ramp | Artifact | 0 | C | ✅ | — |
+| [Lotus Petal](../../cards/L/lo.md#lotus-petal) | Ramp | Artifact | 0 | C |  | — |
+| [Mana Vault](../../cards/M/man.md#mana-vault) | Ramp | Artifact | 1 | C | ✅ | — |
+| [Mox Diamond](../../cards/M/mox.md#mox-diamond) | Ramp | Artifact | 0 | C | ✅ | — |
+| [Mox Opal](../../cards/M/mox.md#mox-opal) | Ramp | Legendary Artifact | 0 | C |  | — |
+| [Ragavan, Nimble Pilferer](../../cards/R/rag.md#ragavan-nimble-pilferer) | Ramp | Legendary Creature — Monkey Pirate | 1 | R |  | — |
+| [Rite of Flame](../../cards/R/ri.md#rite-of-flame) | Ramp | Sorcery | 1 | R |  | — |
+| [Simian Spirit Guide](../../cards/S/si.md#simian-spirit-guide) | Ramp | Creature — Ape Spirit | 3 | R |  | — |
+| [Sol Ring](../../cards/S/so.md#sol-ring) | Ramp | Artifact | 1 | C |  | — |
+| [Talisman of Creativity](../../cards/T/ta.md#talisman-of-creativity) | Ramp | Artifact | 2 | UR |  | — |
+| [Talisman of Dominance](../../cards/T/ta.md#talisman-of-dominance) | Ramp | Artifact | 2 | UB |  | — |
+| [Talisman of Indulgence](../../cards/T/ta.md#talisman-of-indulgence) | Ramp | Artifact | 2 | BR |  | — |
+| [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) | Ramp | Legendary Creature — Wizard | 3 | UR |  | — |
+| [Underworld Breach](../../cards/U/un.md#underworld-breach) | Recursion | Enchantment | 2 | R | ✅ | — |
+| [An Offer You Can't Refuse](../../cards/A/an.md#an-offer-you-cant-refuse) | Removal | Instant | 1 | U |  | — |
+| [Chain of Vapor](../../cards/C/cha.md#chain-of-vapor) | Removal | Instant | 1 | U |  | — |
+| [Fierce Guardianship](../../cards/F/fi.md#fierce-guardianship) | Removal | Instant | 3 | U | ✅ | — |
+| [Into the Flood Maw](../../cards/I/int.md#into-the-flood-maw) | Removal | Instant | 1 | U |  | — |
+| [Narset's Reversal](../../cards/N/na.md#narsets-reversal) | Removal | Instant | 2 | U |  | — |
+| [Orcish Bowmasters](../../cards/O/or.md#orcish-bowmasters) | Removal | Creature — Orc Archer | 2 | B | ✅ | — |
+| [Pyroblast](../../cards/P/py.md#pyroblast) | Removal | Instant | 1 | R |  | — |
+| [Red Elemental Blast](../../cards/R/red.md#red-elemental-blast) | Removal | Instant | 1 | R |  | — |
+| [Snap](../../cards/S/sn.md#snap) | Removal | Instant | 2 | U |  | — |
+| [Swan Song](../../cards/S/sw.md#swan-song) | Removal | Instant | 1 | U |  | — |
+| [Grinding Station](../../cards/G/gri.md#grinding-station) | Sac Outlet | Artifact | 2 | C |  | — |
+| [Beseech the Mirror](../../cards/B/be.md#beseech-the-mirror) | Tutor | Sorcery | 4 | B |  | — |
+| [Demonic Consultation](../../cards/D/dem.md#demonic-consultation) | Tutor | Instant | 1 | B |  | — |
+| [Demonic Tutor](../../cards/D/dem.md#demonic-tutor) | Tutor | Sorcery | 2 | B | ✅ | — |
+| [Gamble](../../cards/G/ga.md#gamble) | Tutor | Sorcery | 1 | R | ✅ | — |
+| [Imperial Seal](../../cards/I/im.md#imperial-seal) | Tutor | Sorcery | 1 | B | ✅ | — |
+| [Mystical Tutor](../../cards/M/my.md#mystical-tutor) | Tutor | Instant | 1 | U | ✅ | — |
+| [Tainted Pact](../../cards/T/ta.md#tainted-pact) | Tutor | Instant | 2 | B |  | — |
+| [Vampiric Tutor](../../cards/V/va.md#vampiric-tutor) | Tutor | Instant | 1 | B | ✅ | — |
+| [Wishclaw Talisman](../../cards/W/wi.md#wishclaw-talisman) | Tutor | Artifact | 2 | B |  | — |
+
+## Source commentary (verbatim)
+
+> Quoted from the source repo with headings turned into bold text. This is **the source author's analysis and opinion (guidance)**, from `grixis-commander-encyclopediaGPT`, path shown above each block. Relative links point back to the source. Rules statements here were not re-verified card by card (see [Grixis Corrections](../Grixis%20Corrections.md#oracle-text-check) for the Oracle check). Where the source mentions Lutri, Trade Secrets or Yawgmoth's Bargain as approved exceptions, our corrected list above takes precedence.
+
+### From `refinement/decisions/Fire_Lord_Azula_Current_Cycle_Decisions_2026-10-14.md`
+
+Source: [refinement/decisions/Fire_Lord_Azula_Current_Cycle_Decisions_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decisions/Fire_Lord_Azula_Current_Cycle_Decisions_2026-10-14.md)
+
+**Fire Lord Azula — Current-Cycle Refinement Decision Ledger**
+
+Cycle: `global-restart-2026-10-13`
+Review date: 2026-10-14
+Baseline source: `GrixisFINAL60--2026.zip` / `Fire_Lord_Azula.csv`
+Baseline source CSV SHA-256: `2d83c6962c8aa6638b19bf248ddb88e2de977854e3737eb5b8f9c7497473ae7b`
+Corroborating TXT export SHA-256: `5d7ab12b87d5aac8aa216d1d85eb78037ee2031a90ca96631e97fe10c5ee259c`
+Standardized baseline SHA-256: `90ec69182cef0c80828a9bea5e3acf871d5c1017b30ea1fb6b49a8b045a633f9`
+Approval-candidate SHA-256: `b6ef396641f2b5cfac0eb81fb494f21f3745e2a3fd47fa75d2eaadbdc34ddee5`
+Baseline count: 100
+Candidate count: 100
+Candidate distinct names: 100
+Candidate lands: 26
+Commander identity: B/R/U
+Project exception required: no
+Natural ceiling: Power Bracket 5 — cEDH
+Proposed tags: Combat-Flash / Spell Copy / Combo
+
+**Commander blueprint**
+
+Fire Lord Azula is strongest when the deck can deploy her quickly, attack immediately or safely, and cast high-leverage spells while she is attacking. Her text rewards: (1) flash/timing permission that moves sorceries and permanent spells into combat, (2) haste access, (3) rituals, untap spells, cantrips, rummage/draw spells and tutors whose single paid cost becomes disproportionately valuable when copied, and (4) compact cEDH win packages that leave room for interaction.
+
+Current tournament evidence supports a true cEDH ceiling. The review included current EDHTop16 results, current EDHREC Bracket 5/cEDH evidence, Wizards Oracle/release-note evidence, and the 2026-10-10 cEDH Galicia Top 4 Fire Lord Azula list. The comparator is evidence, not an automatic import.
+
+The v8.1.4 project profile independently seeds Azula around `copy that spell` / `whenever you cast`. The project top-100 candidate pool surfaces commander-specific options including High Fae Trickster, Demand Answers and Redirect Lightning. The preserved October 12 list passed the old structural audits, but those audits do not substitute for this current-cycle strategic review.
+
+**Mandatory whole-list audit — all 99 baseline slots accounted**
+
+**Retain — 64 noncommander slots**
+
+These cards survived the current cEDH efficiency, commander-fit, mana, interaction and combo review:
+
+An Offer You Can't Refuse; Ancient Tomb; Arcane Signet; Arid Mesa; Badlands; Big Score; Birgi, God of Storytelling // Harnfel, Horn of Bounty; Blood Crypt; Bloodstained Mire; Borne Upon a Wind; Brain Freeze; Chrome Mox; City of Brass; Command Tower; Dark Ritual; Deflecting Swat; Demonic Tutor; Emergence Zone; Exotic Orchard; Fellwar Stone; Fierce Guardianship; Flooded Strand; Flusterstorm; Force of Negation; Force of Will; Frantic Search; Gamble; Gemstone Caverns; Imperial Seal; Jeska's Will; Lotus Petal; Mana Confluence; Mana Vault; Marsh Flats; Misty Rainforest; Mox Diamond; Mystic Remora; Mystical Tutor; Narset's Reversal; Orcish Bowmasters; Otawara, Soaring City; Pact of Negation; Polluted Delta; Ragavan, Nimble Pilferer; Rhystic Study; Rite of Flame; Scalding Tarn; Snap; Sol Ring; Steam Vents; Swan Song; Talisman of Creativity; Talisman of Dominance; Talisman of Indulgence; Thassa's Oracle; Underground Sea; Underworld Breach; Valley Floodcaller; Vampiric Tutor; Vivi Ornitier; Volcanic Island; Watery Grave; Wheel of Fortune; Wooded Foothills.
+
+The retained shell preserves Azula-specific infrastructure rather than merely generic Grixis staples: Borne Upon a Wind, Valley Floodcaller and Emergence Zone create combat timing; Big Score, Frantic Search, Snap and the rituals scale directly with her copy trigger; Narset's Reversal + Frantic Search forms a commander-dependent loop; Underworld Breach + Frantic Search forms another commander-dependent recursive engine.
+
+**Cut — 35 baseline slots**
+
+- Archmage Emeritus — four-mana setup engine is too slow for the established ceiling.
+- Ashling, Flame Dancer — expensive, board-dependent payoff.
+- Brainstorm — excellent generic card, but the rebuilt shell prioritizes Azula-multiplied cantrips/timing pieces and live interaction.
+- Comet Storm — mana-intensive finisher redundant beside compact combo wins.
+- Deadly Rollick — strong but commander-dependent and narrower than the current bounce/stack suite.
+- Desperate Ritual — lower leverage than Cabal Ritual and the optimized fast-mana package.
+- Dualcaster Mage — removed with Twinflame; the package is less slot-efficient than the chosen wins.
+- Electro, Assaulting Battery — too slow and board dependent.
+- Electrodominance — mana intensive and lower floor than the current timing/tutor package.
+- Fire Nation Palace — theme land loses to the cEDH unique-name mana base.
+- Firebender Ascension — slow setup.
+- Firebending Student — insufficient immediate impact.
+- Fists of Flame — thematic combat payoff is not a reliable cEDH win route.
+- Gitaxian Probe — free information is useful, but the slot is more valuable as live interaction or an Azula-multiplied cantrip.
+- Island x2 — removed during Tainted Pact unique-name conversion.
+- Lightning Greaves — haste is replaced by Arena of Glory, Crimson Wisps and Expedite, which also advance mana/cards.
+- Luxury Suite — replaced during tournament-grade unique-name mana modernization.
+- Morphic Pool — replaced during tournament-grade unique-name mana modernization.
+- Mountain x2 — removed during Tainted Pact unique-name conversion.
+- Nightscape Familiar — lower impact than the new reduction/acceleration suite.
+- Seething Song — three-mana ritual is comparatively inefficient and raises Ad Nauseam cost.
+- Snapcaster Mage — strong value, but slower than the dedicated tutor/combo/interaction slots.
+- Spellseeker — powerful but three-mana tutor body loses on speed to Beseech/Wishclaw/one-mana tutors.
+- Storm-Kiln Artist — excellent Azula synergy, but four-mana setup is too slow; Big Score produces immediate resources at the same MV.
+- Stormcatch Mentor — compressed creature slots favor Geist of Saint Thalia and higher-impact protection/value bodies.
+- Swamp x2 — removed during Tainted Pact unique-name conversion.
+- The Last Agni Kai — strong theme, lower floor than universal interaction/card velocity and requires favorable creature combat.
+- Training Center — replaced during unique-name mana modernization.
+- Twinflame — removed with Dualcaster Mage.
+- Twinning Staff — three-mana win-more copy enhancer; Azula already supplies the engine from the command zone.
+- Veyran, Voice of Duality — synergistic but a three-mana setup card without enough immediate cEDH impact.
+- Zuko, Firebending Master — flavor-forward but insufficient immediate mana/protection/cards/combo leverage.
+
+**Additions — 35 slots**
+
+- Ad Nauseam — premier instant-speed cEDH draw engine.
+- Arena of Glory — can give Azula haste when its exert mana pays for her creature spell.
+- Beseech the Mirror — efficient tutor; if bargained, Azula's copy is also treated as bargained.
+- Cabal Ritual — efficient ritual that scales dramatically when copied.
+- Cavern of Souls — helps force Human commander Azula through countermagic.
+- Chain of Vapor — one-mana flexible bounce.
+- Crimson Wisps — haste plus cantrip; Azula can copy it for a second draw.
+- Demand Answers — one additional cost paid, then copy + original each draw two.
+- Demonic Consultation — compact Thassa's Oracle win piece.
+- Expedite — haste plus cantrip; Azula can copy it for a second draw.
+- Faerie Mastermind — low-MV flash draw engine.
+- Geist of Saint Thalia — reduces noncreature spell costs and improves the spell-dense combat turn.
+- Grim Monolith — high-efficiency acceleration.
+- Grinding Station — Breach/graveyard-engine redundancy.
+- Hexing Squelcher — uncounterable protection piece that makes the deck's spells uncounterable.
+- High Fae Trickster — persistent flash permission, directly enabling Azula to copy sorceries/permanent spells in combat.
+- Into the Flood Maw — efficient broad interaction.
+- Lion's Eye Diamond — core Breach/Brain Freeze engine and fast mana.
+- Mental Misstep — zero-mana cEDH interaction.
+- Mindbreak Trap — free interaction against overloaded/uncounterable stacks.
+- Mox Opal — zero-mana acceleration; candidate has 15 artifacts including Opal.
+- Necropotence — elite cEDH card advantage.
+- Pyroblast — one-mana protection/blue interaction.
+- Quicken — one-mana draw spell plus sorcery timing permission; Azula copies it for a second draw.
+- Red Elemental Blast — one-mana protection/blue interaction.
+- Redirect Lightning — efficient redirect spell whose paid additional-cost status carries to the copy.
+- Repeal — flexible instant interaction that replaces itself.
+- Samut, Tyrant of Naktamun — gives instants/sorceries split second; Azula's triggered copy ability still functions through split second.
+- Simian Spirit Guide — zero-mana-from-hand acceleration.
+- Starting Town — early untapped unique-name rainbow source.
+- Strix Serenade — one-mana broad counterspell.
+- Tainted Pact — second compact Oracle enabler; candidate has 100 distinct names.
+- Verdant Catacombs — additional unique fetchland/fixing.
+- Wan Shi Tong, Librarian — flash value engine that punishes opposing searches.
+- Wishclaw Talisman — two-mana tutor artifact with very high combo access efficiency.
+
+**Commander-specific combo/rules architecture**
+
+1. Fire Lord Azula + Narset's Reversal + Frantic Search is a verified Commander Spellbook loop with an attacking, nonsummoning-sick Azula and sufficient blue-producing lands. Azula's automatic copy of Narset's Reversal returns the original spells to hand while Frantic Search copies untap lands, yielding repeatable looting/draw triggers, storm and mana.
+2. Fire Lord Azula + Underworld Breach + Frantic Search is independently recorded by Commander Spellbook as a recursive Azula engine, subject to the graveyard and mana prerequisites.
+3. Underworld Breach + Lion's Eye Diamond + Brain Freeze remains the compact noncommander Breach engine.
+4. Thassa's Oracle + Demonic Consultation / Tainted Pact are compact primary wins. The candidate's 100 distinct names satisfy the Tainted Pact duplicate-name constraint.
+5. Big Score and Demand Answers pay their additional cost only for the original spell. Wizards' Azula ruling states that effects based on additional costs paid for the original are copied as though those same costs were paid for the copy. Big Score therefore resolves for four cards and four Treasures total if both copy and original resolve; Demand Answers draws four total.
+6. Bargain is an additional cost; a copied bargained Beseech the Mirror is also bargained.
+7. Samut's split second does not stop triggered abilities from triggering. Azula still triggers on an instant/sorcery cast while attacking and creates her copy.
+8. Azula copies permanent spells as well. A copied nonlegendary permanent spell resolves as a token; a legendary permanent copy is subject to the legend rule after resolution.
+
+**Red-team deviations from the 2026-10-10 Top 4 comparator**
+
+The current Galicia Top 4 shell was not imported verbatim. Two slots changed after the second serious pass:
+
+- Final Fortune -> Big Score. Azula automatically copying Final Fortune creates hazardous multiple delayed loss triggers rather than a clean two-turn multiplier. Big Score is a direct positive multiplier of Azula's text.
+- Undercity Sewers -> Mox Opal. The candidate returns to 26 lands and adds zero-mana acceleration while retaining 15 artifacts for metalcraft support.
+
+Serious rejected challengers after the second pass included Leyline of Anticipation, Storm-Kiln Artist, The Last Agni Kai, Dualcaster Mage/Twinflame, Lightning Greaves, the flavor-forward Fire Nation package, Archmage Emeritus, Veyran, Twinning Staff, Electro, Brainstorm, Gitaxian Probe and Deadly Rollick. Each loses on speed, slot efficiency, redundancy or commander-specific output against the frozen candidate.
+
+**Closure**
+
+After comparing the full 99-slot baseline, v8.1.4 top-100 candidates, current EDHREC cEDH evidence, current EDHTop16 results, the 2026-10-10 Top 4 shell, newly released Reality Fracture cards and the serious challengers above, the second serious pass produced **ZERO NEW MATERIAL IMPROVEMENTS** beyond Big Score over Final Fortune and Mox Opal over Undercity Sewers.
+
+This candidate is frozen only for complete rules/Oracle/legality/structural verification. It remains **UNAPPROVED / UNLOCKED** until the fail-closed complete gate passes and the user explicitly approves this exact SHA-bound list.
+
+### From `refinement/approvals/Fire_Lord_Azula_Approved_2026-10-14.md`
+
+Source: [refinement/approvals/Fire_Lord_Azula_Approved_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/approvals/Fire_Lord_Azula_Approved_2026-10-14.md)
+
+**Fire Lord Azula — Current-Cycle Approval Record**
+
+Cycle: `global-restart-2026-10-13`
+Approval date: 2026-10-14
+Status: APPROVED / LOCKED
+
+Approved candidate SHA-256: `b6ef396641f2b5cfac0eb81fb494f21f3745e2a3fd47fa75d2eaadbdc34ddee5`
+Approved decklist: `refinement/decklists/Fire_Lord_Azula_Approved_2026-10-14.txt`
+Approval candidate: `refinement/decklists/Fire_Lord_Azula_Approval_Candidate_2026-10-14.txt`
+Complete gate artifact: `refinement/verification/fire_lord_azula_2026-10-14/gate_output/Fire_Lord_Azula_2026-10-14_Complete_Gate.json`
+Whole-list decision ledger: `refinement/decisions/Fire_Lord_Azula_Current_Cycle_Decisions_2026-10-14.md`
+
+**Approval basis**
+
+The user explicitly approved the exact SHA-bound Fire Lord Azula approval candidate after the complete fail-closed gate returned `APPROVAL_READY`.
+
+Verified state at approval:
+
+- 100 cards
+- 100 distinct names
+- Commander color identity: B/R/U
+- Rules gate: PASS
+- Official Commander legality gate: PASS
+- Project exceptions: none
+- Gate errors: 0
+- Natural ceiling: Power Bracket 5 — cEDH
+- Archidekt tags: Combat-Flash / Spell Copy / Combo
+- Mandatory 99-slot whole-list audit completed
+- Candidate exhaustion and adversarial red-team review completed
+- Second serious pass closed with ZERO NEW MATERIAL IMPROVEMENTS
+
+The approved decklist is the exact frozen candidate. No card substitutions or post-approval edits were made.
+
+<!-- COMBOS:START -->
+## Combos (Commander Spellbook)
+
+> Generated 2026-10-15 by `scripts/build_grixis.py` from the [Commander Spellbook](https://commanderspellbook.com) public API (community-maintained). Shows only combos whose **every card is in this list**. Bracket barometer: *Brackets 1–2: no intentional two-card infinite combos. Bracket 3: no early-game two-card infinite combos.*
+
+**9 complete combo(s); 1 two-card infinite.** 98 more are one card away (not listed).
+
+| Cards | Produces (Spellbook) | Extra requirements | Link |
+|---|---|---|---|
+| Tainted Pact + Thassa's Oracle | Win the game | — | [1295-3093](https://commanderspellbook.com/combo/1295-3093/) |
+| ⚠️ **two-card infinite** · Underworld Breach + Grinding Station | Infinite self-mill, Near-infinite storm count, Near-infinite mana among colors of legendary creatures and planeswalkers you control | Artifact Castable for {0} that survives | [1368-3698--44](https://commanderspellbook.com/combo/1368-3698--44/) |
+| Demonic Consultation + Thassa's Oracle | Exile your library, Win the game | — | [742-1295](https://commanderspellbook.com/combo/742-1295/) |
+| Fire Lord Azula + Narset's Reversal + Frantic Search | Infinite self-discard triggers, Infinite draw triggers, Infinite looting, Near-infinite storm count | — | [11-2196-7089](https://commanderspellbook.com/combo/11-2196-7089/) |
+| Underworld Breach + Lotus Petal + Brain Freeze | Infinite self-mill, Near-infinite magecraft triggers, Near-infinite mill | — | [1368-1414-4856](https://commanderspellbook.com/combo/1368-1414-4856/) |
+| Underworld Breach + Wheel of Fortune + Jeska's Will | Infinite draw triggers for all players, Infinite looting for all players, Near-infinite magecraft triggers, Near-infinite storm count | — | [1368-1878-2706](https://commanderspellbook.com/combo/1368-1878-2706/) |
+| Fire Lord Azula + Underworld Breach + Frantic Search | Infinite draw triggers, Infinite looting, Infinite self-discard triggers, Near-infinite magecraft triggers | — | [1368-2196-7089](https://commanderspellbook.com/combo/1368-2196-7089/) |
+| Underworld Breach + Lion's Eye Diamond + Wheel of Fortune | Infinite draw triggers, Infinite looting, Infinite looting for opponents, Near-infinite storm count | — | [1368-2706-3518](https://commanderspellbook.com/combo/1368-2706-3518/) |
+| Underworld Breach + Lion's Eye Diamond + Brain Freeze | Infinite self-mill, Near-infinite colored mana, Near-infinite magecraft triggers, Near-infinite mill | — | [1368-3518-4856](https://commanderspellbook.com/combo/1368-3518-4856/) |
+<!-- COMBOS:END -->

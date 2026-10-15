@@ -1,0 +1,388 @@
+---
+title: "Grixis Deck — Lord Xander, the Collector"
+category: deck
+kind: grixis
+commander: "Lord Xander, the Collector"
+color_identity: UBR
+bracket_floor: 4
+game_changers: 20
+validated: true
+source_repo: corymstover/grixis-commander-encyclopediaGPT
+---
+
+# Grixis Deck — Lord Xander, the Collector
+
+> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Lord_Xander_the_Collector_Approved_2026-10-14.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decklists/Lord_Xander_the_Collector_Approved_2026-10-14.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-14; source commit `df1abb9`). Imported in Bot cycle 16 and re-validated against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
+
+## Contents
+- [Commander](#commander)
+- [Validation](#validation)
+- [Bracket assessment](#bracket-assessment)
+- [Corrections applied](#corrections-applied)
+- [Decklist (Archidekt import)](#decklist-archidekt-import)
+- [Card breakdown](#card-breakdown)
+- [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Combos (Commander Spellbook)](#combos-commander-spellbook)
+
+## Commander
+
+- **[Lord Xander, the Collector](../../cards/L/lo.md#lord-xander-the-collector)** — {4}{U}{B}{R} — Legendary Creature — Vampire Demon Noble
+- Color identity: **UBR (Blue, Black, Red)**
+- Eligibility (Lord Xander, the Collector): Yes (legendary creature)
+
+## Validation
+
+- Total cards: **100** (1 commander(s) + 66 nonland + 27 nonbasic lands + 6 basics) · average nonland MV 2.33
+- Strict color identity (CR 903.5c), singleton (903.5b), Commander-legal, size (903.5a): ✅ **all checks pass**
+- Every card resolves to an entry in our card DB (97/97 lines linked).
+
+## Bracket assessment
+
+- Game Changers (20): Ancient Tomb, Cyclonic Rift, Demonic Tutor, Fierce Guardianship, Force of Will, Gamble, Grim Monolith, Imperial Seal, Jeska's Will, Lion's Eye Diamond, Mana Vault, Mystical Tutor, Notion Thief, Opposition Agent, Orcish Bowmasters, Rhystic Study, Tergrid, God of Fright // Tergrid's Lantern, The One Ring, Underworld Breach, Vampiric Tutor
+- Extra-turn cards: none
+- Mass land denial: none
+- Commander Spellbook: 11 complete combo(s), 7 two-card infinite (see [Combos](#combos-commander-spellbook)).
+- **Minimum bracket by the published barometers: 4** (more than three Game Changers).
+- Source's stated target (guidance): **Bracket 4 — Optimized**.
+- (Brackets are a pregame-conversation tool. See [EDH Standards](../../EDH%20Standards.md#power-bracket-assessment).)
+
+## Corrections applied
+
+| Type | Change | Reason |
+|---|---|---|
+| format | Archidekt list normalized to [EDH Standards](../../EDH%20Standards.md#list-format-archidekt) | `[Commander]` → `[Commander{top}]` (1 line(s)); role tags restored on 93 untagged line(s): 92 from this deck's FINAL baseline, 1 from the tag the source uses most for that card in other decks; 3 untagged line(s) given a type tag (e.g. `[Land]`). |
+| bracket | Game Changers and combo floor added | The source records no Game Changer count and does not check the official Game Changers list anywhere in its approval records. We added it: **20 Game Changers**, so the minimum bracket is **4**. Commander Spellbook finds 11 complete combos (7 two-card infinite). This is consistent with the source's stated Bracket 4. |
+
+Full log for all decks: [Grixis Corrections](../Grixis%20Corrections.md).
+
+## Decklist (Archidekt import)
+
+```text
+1x Lord Xander, the Collector [Commander{top}]
+1x Aggravated Assault [Finisher]
+1x Altar of Dementia [Sac Outlet]
+1x An Offer You Can't Refuse [Removal]
+1x Ancient Tomb [Land]
+1x Animate Dead [Recursion]
+1x Arcane Signet [Ramp]
+1x Auton Soldier [Copy]
+1x Badlands [Land]
+1x Blade of Selves [Tokens]
+1x Blood Crypt [Land]
+1x Bloodstained Mire [Land]
+1x Bojuka Bog [Land]
+1x Brain Freeze [Mill]
+1x Brainstorm [Draw]
+1x Bruvac the Grandiloquent [Mill]
+1x Chaos Warp [Removal]
+1x City of Brass [Land]
+1x Command Tower [Land]
+1x Cruel Calculations [Sorcery]
+1x Cyclonic Rift [Removal]
+1x Dark Ritual [Ramp]
+1x Deadly Rollick [Removal]
+1x Deflecting Swat [Protection]
+1x Demonic Tutor [Tutor]
+1x Duskmantle Guildmage [Mill]
+1x Entomb [Tutor]
+1x Feign Death [Protection]
+1x Fierce Guardianship [Removal]
+1x Flooded Strand [Land]
+1x Force of Negation [Counters]
+1x Force of Will [Counters]
+1x Fraying Sanity [Mill]
+1x Gamble [Tutor]
+1x Grim Monolith [Ramp]
+1x Hall of Echoes [Land]
+1x Hall of the Bandit Lord [Land]
+1x Haunted Ridge [Land]
+1x Helm of the Host [Copy]
+1x Imperial Seal [Tutor]
+2x Island [Land]
+1x Jeska's Will [Ramp]
+1x Karlach, Fury of Avernus [Finisher]
+1x Lightning Greaves [Protection]
+1x Lion's Eye Diamond [Ramp]
+1x Lotus Petal [Ramp]
+1x Luxury Suite [Land]
+1x Maddening Cacophony [Mill]
+1x Mana Confluence [Land]
+1x Mana Drain [Removal]
+1x Mana Vault [Ramp]
+1x Marsh Flats [Land]
+1x Mindcrank [Mill]
+1x Molten Duplication [Copy]
+1x Morphic Pool [Land]
+2x Mountain [Land]
+1x Mystic Remora [Draw]
+1x Mystical Tutor [Tutor]
+1x Notion Thief [Draw]
+1x Opposition Agent [Stax]
+1x Orcish Bowmasters [Removal]
+1x Otawara, Soaring City [Land]
+1x Pact of Negation [Counters]
+1x Persist [Recursion]
+1x Phantasmal Image [Creature]
+1x Polluted Delta [Land]
+1x Prismatic Vista [Land]
+1x Reanimate [Recursion]
+1x Rhystic Study [Draw]
+1x Riverchurn Monument [Mill]
+1x Roaming Throne [Copy]
+1x Sakashima of a Thousand Faces [Copy]
+1x Saw in Half [Removal]
+1x Scalding Tarn [Land]
+1x Sol Ring [Ramp]
+1x Spark Double [Copy]
+1x Steam Vents [Land]
+1x Strionic Resonator [Copy]
+2x Swamp [Land]
+1x Swan Song [Removal]
+1x Sword of Feast and Famine [Ramp]
+1x Takenuma, Abandoned Mire [Land]
+1x Talisman of Creativity [Ramp]
+1x Talisman of Dominance [Ramp]
+1x Talisman of Indulgence [Ramp]
+1x Tergrid, God of Fright // Tergrid's Lantern [Discard]
+1x The One Ring [Draw]
+1x Toxic Deluge [Removal]
+1x Training Center [Land]
+1x Underground Sea [Land]
+1x Underworld Breach [Recursion]
+1x Urza's Saga [Land]
+1x Vampiric Tutor [Tutor]
+1x Volcanic Island [Land]
+1x Watery Grave [Land]
+1x Wheel of Fortune [Draw]
+1x Xander's Lounge [Land]
+```
+
+## Card breakdown
+
+Role tags are the source author's (untagged lines show the card type). *Printing* is the source's pinned printing, if it pinned one.
+
+| Card | Role (source tag) | Type | MV | Identity | GC | Printing |
+|---|---|---|---|---|---|---|
+| [Lord Xander, the Collector](../../cards/L/lo.md#lord-xander-the-collector) | Commander | Legendary Creature — Vampire Demon Noble | 7 | UBR |  | — |
+| [Auton Soldier](../../cards/A/au.md#auton-soldier) | Copy | Artifact Creature — Alien Soldier | 6 | U |  | — |
+| [Helm of the Host](../../cards/H/he.md#helm-of-the-host) | Copy | Legendary Artifact — Equipment | 4 | C |  | — |
+| [Molten Duplication](../../cards/M/mol.md#molten-duplication) | Copy | Sorcery | 2 | R |  | — |
+| [Roaming Throne](../../cards/R/ro.md#roaming-throne) | Copy | Artifact Creature — Golem | 4 | C |  | — |
+| [Sakashima of a Thousand Faces](../../cards/S/sak.md#sakashima-of-a-thousand-faces) | Copy | Legendary Creature — Human Rogue | 4 | U |  | — |
+| [Spark Double](../../cards/S/spa.md#spark-double) | Copy | Creature — Illusion | 4 | U |  | — |
+| [Strionic Resonator](../../cards/S/str.md#strionic-resonator) | Copy | Artifact | 2 | C |  | — |
+| [Force of Negation](../../cards/F/fo.md#force-of-negation) | Counters | Instant | 3 | U |  | — |
+| [Force of Will](../../cards/F/fo.md#force-of-will) | Counters | Instant | 5 | U | ✅ | — |
+| [Pact of Negation](../../cards/P/pa.md#pact-of-negation) | Counters | Instant | 0 | U |  | — |
+| [Phantasmal Image](../../cards/P/ph.md#phantasmal-image) | Creature | Creature — Illusion | 2 | U |  | — |
+| [Tergrid, God of Fright // Tergrid's Lantern](../../cards/T/te.md#tergrid-god-of-fright--tergrids-lantern) | Discard | Legendary Creature — God // Legendary Artifact | 5 | B | ✅ | — |
+| [Brainstorm](../../cards/B/br.md#brainstorm) | Draw | Instant | 1 | U |  | — |
+| [Mystic Remora](../../cards/M/my.md#mystic-remora) | Draw | Enchantment | 1 | U |  | — |
+| [Notion Thief](../../cards/N/no.md#notion-thief) | Draw | Creature — Human Rogue | 4 | UB | ✅ | — |
+| [Rhystic Study](../../cards/R/rh.md#rhystic-study) | Draw | Enchantment | 3 | U | ✅ | — |
+| [The One Ring](../../cards/T/theo.md#the-one-ring) | Draw | Legendary Artifact | 4 | C | ✅ | — |
+| [Wheel of Fortune](../../cards/W/wh.md#wheel-of-fortune) | Draw | Sorcery | 3 | R |  | — |
+| [Aggravated Assault](../../cards/A/ag.md#aggravated-assault) | Finisher | Enchantment | 3 | R |  | — |
+| [Karlach, Fury of Avernus](../../cards/K/ka.md#karlach-fury-of-avernus) | Finisher | Legendary Creature — Tiefling Barbarian | 5 | R |  | — |
+| [Ancient Tomb](../../cards/A/an.md#ancient-tomb) | Land | Land | 0 | C | ✅ | — |
+| [Badlands](../../cards/B/bad.md#badlands) | Land | Land — Swamp Mountain | 0 | BR |  | — |
+| [Blood Crypt](../../cards/B/blo.md#blood-crypt) | Land | Land — Swamp Mountain | 0 | BR |  | — |
+| [Bloodstained Mire](../../cards/B/blo.md#bloodstained-mire) | Land | Land | 0 | C |  | — |
+| [Bojuka Bog](../../cards/B/bo.md#bojuka-bog) | Land | Land | 0 | B |  | — |
+| [City of Brass](../../cards/C/ci.md#city-of-brass) | Land | Land | 0 | C |  | — |
+| [Command Tower](../../cards/C/com.md#command-tower) | Land | Land | 0 | C |  | — |
+| [Flooded Strand](../../cards/F/fl.md#flooded-strand) | Land | Land | 0 | C |  | — |
+| [Hall of Echoes](../../cards/H/ha.md#hall-of-echoes) | Land | Land | 0 | C |  | — |
+| [Hall of the Bandit Lord](../../cards/H/ha.md#hall-of-the-bandit-lord) | Land | Legendary Land | 0 | C |  | — |
+| [Haunted Ridge](../../cards/H/ha.md#haunted-ridge) | Land | Land | 0 | BR |  | — |
+| [Island](../../cards/I/is.md#island) (×2) | Land | Basic Land — Island | 0 | U |  | — |
+| [Luxury Suite](../../cards/L/lu.md#luxury-suite) | Land | Land | 0 | BR |  | — |
+| [Mana Confluence](../../cards/M/man.md#mana-confluence) | Land | Land | 0 | C |  | — |
+| [Marsh Flats](../../cards/M/mar.md#marsh-flats) | Land | Land | 0 | C |  | — |
+| [Morphic Pool](../../cards/M/mor.md#morphic-pool) | Land | Land | 0 | UB |  | — |
+| [Mountain](../../cards/M/mou.md#mountain) (×2) | Land | Basic Land — Mountain | 0 | R |  | — |
+| [Otawara, Soaring City](../../cards/O/ot.md#otawara-soaring-city) | Land | Legendary Land | 0 | U |  | — |
+| [Polluted Delta](../../cards/P/po.md#polluted-delta) | Land | Land | 0 | C |  | — |
+| [Prismatic Vista](../../cards/P/pr.md#prismatic-vista) | Land | Land | 0 | C |  | — |
+| [Scalding Tarn](../../cards/S/sc.md#scalding-tarn) | Land | Land | 0 | C |  | — |
+| [Steam Vents](../../cards/S/ste.md#steam-vents) | Land | Land — Island Mountain | 0 | UR |  | — |
+| [Swamp](../../cards/S/sw.md#swamp) (×2) | Land | Basic Land — Swamp | 0 | B |  | — |
+| [Takenuma, Abandoned Mire](../../cards/T/ta.md#takenuma-abandoned-mire) | Land | Legendary Land | 0 | B |  | — |
+| [Training Center](../../cards/T/tra.md#training-center) | Land | Land | 0 | UR |  | — |
+| [Underground Sea](../../cards/U/un.md#underground-sea) | Land | Land — Island Swamp | 0 | UB |  | — |
+| [Urza's Saga](../../cards/U/ur.md#urzas-saga) | Land | Enchantment Land — Urza's Saga | 0 | C |  | — |
+| [Volcanic Island](../../cards/V/vo.md#volcanic-island) | Land | Land — Island Mountain | 0 | UR |  | — |
+| [Watery Grave](../../cards/W/wat.md#watery-grave) | Land | Land — Island Swamp | 0 | UB |  | — |
+| [Xander's Lounge](../../cards/X/xa.md#xanders-lounge) | Land | Land — Island Swamp Mountain | 0 | UBR |  | — |
+| [Brain Freeze](../../cards/B/br.md#brain-freeze) | Mill | Instant | 2 | U |  | — |
+| [Bruvac the Grandiloquent](../../cards/B/br.md#bruvac-the-grandiloquent) | Mill | Legendary Creature — Human Advisor | 3 | U |  | — |
+| [Duskmantle Guildmage](../../cards/D/du.md#duskmantle-guildmage) | Mill | Creature — Human Wizard | 2 | UB |  | — |
+| [Fraying Sanity](../../cards/F/fr.md#fraying-sanity) | Mill | Enchantment — Aura Curse | 3 | U |  | — |
+| [Maddening Cacophony](../../cards/M/mad.md#maddening-cacophony) | Mill | Sorcery | 2 | U |  | — |
+| [Mindcrank](../../cards/M/min.md#mindcrank) | Mill | Artifact | 2 | C |  | — |
+| [Riverchurn Monument](../../cards/R/ri.md#riverchurn-monument) | Mill | Artifact | 2 | U |  | — |
+| [Deflecting Swat](../../cards/D/def.md#deflecting-swat) | Protection | Instant | 3 | R |  | — |
+| [Feign Death](../../cards/F/fe.md#feign-death) | Protection | Instant | 1 | B |  | — |
+| [Lightning Greaves](../../cards/L/li.md#lightning-greaves) | Protection | Artifact — Equipment | 2 | C |  | — |
+| [Arcane Signet](../../cards/A/arc.md#arcane-signet) | Ramp | Artifact | 2 | C |  | — |
+| [Dark Ritual](../../cards/D/da.md#dark-ritual) | Ramp | Instant | 1 | B |  | — |
+| [Grim Monolith](../../cards/G/gri.md#grim-monolith) | Ramp | Artifact | 2 | C | ✅ | — |
+| [Jeska's Will](../../cards/J/je.md#jeskas-will) | Ramp | Sorcery | 3 | R | ✅ | — |
+| [Lion's Eye Diamond](../../cards/L/li.md#lions-eye-diamond) | Ramp | Artifact | 0 | C | ✅ | — |
+| [Lotus Petal](../../cards/L/lo.md#lotus-petal) | Ramp | Artifact | 0 | C |  | — |
+| [Mana Vault](../../cards/M/man.md#mana-vault) | Ramp | Artifact | 1 | C | ✅ | — |
+| [Sol Ring](../../cards/S/so.md#sol-ring) | Ramp | Artifact | 1 | C |  | — |
+| [Sword of Feast and Famine](../../cards/S/sw.md#sword-of-feast-and-famine) | Ramp | Artifact — Equipment | 3 | C |  | — |
+| [Talisman of Creativity](../../cards/T/ta.md#talisman-of-creativity) | Ramp | Artifact | 2 | UR |  | — |
+| [Talisman of Dominance](../../cards/T/ta.md#talisman-of-dominance) | Ramp | Artifact | 2 | UB |  | — |
+| [Talisman of Indulgence](../../cards/T/ta.md#talisman-of-indulgence) | Ramp | Artifact | 2 | BR |  | — |
+| [Animate Dead](../../cards/A/an.md#animate-dead) | Recursion | Enchantment — Aura | 2 | B |  | — |
+| [Persist](../../cards/P/pe.md#persist) | Recursion | Sorcery | 2 | B |  | — |
+| [Reanimate](../../cards/R/rea.md#reanimate) | Recursion | Sorcery | 1 | B |  | — |
+| [Underworld Breach](../../cards/U/un.md#underworld-breach) | Recursion | Enchantment | 2 | R | ✅ | — |
+| [An Offer You Can't Refuse](../../cards/A/an.md#an-offer-you-cant-refuse) | Removal | Instant | 1 | U |  | — |
+| [Chaos Warp](../../cards/C/cha.md#chaos-warp) | Removal | Instant | 3 | R |  | — |
+| [Cyclonic Rift](../../cards/C/cy.md#cyclonic-rift) | Removal | Instant | 2 | U | ✅ | — |
+| [Deadly Rollick](../../cards/D/dea.md#deadly-rollick) | Removal | Instant | 4 | B |  | — |
+| [Fierce Guardianship](../../cards/F/fi.md#fierce-guardianship) | Removal | Instant | 3 | U | ✅ | — |
+| [Mana Drain](../../cards/M/man.md#mana-drain) | Removal | Instant | 2 | U |  | — |
+| [Orcish Bowmasters](../../cards/O/or.md#orcish-bowmasters) | Removal | Creature — Orc Archer | 2 | B | ✅ | — |
+| [Saw in Half](../../cards/S/saw.md#saw-in-half) | Removal | Instant | 3 | B |  | — |
+| [Swan Song](../../cards/S/sw.md#swan-song) | Removal | Instant | 1 | U |  | — |
+| [Toxic Deluge](../../cards/T/to.md#toxic-deluge) | Removal | Sorcery | 3 | B |  | — |
+| [Altar of Dementia](../../cards/A/al.md#altar-of-dementia) | Sac Outlet | Artifact | 2 | C |  | — |
+| [Cruel Calculations](../../cards/C/cr.md#cruel-calculations) | Sorcery | Sorcery | 3 | U |  | — |
+| [Opposition Agent](../../cards/O/op.md#opposition-agent) | Stax | Creature — Human Rogue | 3 | B | ✅ | — |
+| [Blade of Selves](../../cards/B/bla.md#blade-of-selves) | Tokens | Artifact — Equipment | 2 | C |  | — |
+| [Demonic Tutor](../../cards/D/dem.md#demonic-tutor) | Tutor | Sorcery | 2 | B | ✅ | — |
+| [Entomb](../../cards/E/en.md#entomb) | Tutor | Instant | 1 | B |  | — |
+| [Gamble](../../cards/G/ga.md#gamble) | Tutor | Sorcery | 1 | R | ✅ | — |
+| [Imperial Seal](../../cards/I/im.md#imperial-seal) | Tutor | Sorcery | 1 | B | ✅ | — |
+| [Mystical Tutor](../../cards/M/my.md#mystical-tutor) | Tutor | Instant | 1 | U | ✅ | — |
+| [Vampiric Tutor](../../cards/V/va.md#vampiric-tutor) | Tutor | Instant | 1 | B | ✅ | — |
+
+## Source commentary (verbatim)
+
+> Quoted from the source repo with headings turned into bold text. This is **the source author's analysis and opinion (guidance)**, from `grixis-commander-encyclopediaGPT`, path shown above each block. Relative links point back to the source. Rules statements here were not re-verified card by card (see [Grixis Corrections](../Grixis%20Corrections.md#oracle-text-check) for the Oracle check). Where the source mentions Lutri, Trade Secrets or Yawgmoth's Bargain as approved exceptions, our corrected list above takes precedence.
+
+### From `refinement/decisions/Lord_Xander_the_Collector_Current_Cycle_Decisions_2026-10-14.md`
+
+Source: [refinement/decisions/Lord_Xander_the_Collector_Current_Cycle_Decisions_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decisions/Lord_Xander_the_Collector_Current_Cycle_Decisions_2026-10-14.md)
+
+**Lord Xander, the Collector — Current-Cycle Refinement Decisions**
+
+Cycle: `global-restart-2026-10-13`  
+Date: 2026-10-14  
+Tracker deck id: `Lord_Xander__the_Collector`  
+Authoritative TXT: `GrixisFINALTXT60--2026.zip / Lord_Xander__the_Collector.txt`  
+Source TXT SHA-256: `6525dcb9e2165610e832998d94b1b929cd2b30e2701706ca91a77611bafa371c`  
+Clean baseline SHA-256: `f66d97734cf16799a569f44a00209e4981fc977538c07cc7b1fe0d3e01ba5960`  
+Approval candidate SHA-256: `92cdc2f9c1a3583ccf6a311679db66bef825dac2902761859e929f268b6b4787`
+
+**Commander blueprint**
+
+**Primary identity:** Xander trigger multiplication — reanimate/copy a seven-mana commander, then exploit his ETB discard, declared-attack half-library mill, and dies half-board sacrifice.
+
+**Secondary identity:** high-power Grixis control/combo support that protects the commander plan or converts Xander’s mill/attack pressure into a deterministic close. Compact backup combos may remain, but Xander must remain the clearest strategic reason for the deck’s construction.
+
+**Natural ceiling:** **Power Bracket 4 — Optimized.** Contemporary EDHREC shows roughly 185–188 user-bracketed optimized Xander lists but only about 14 self-labeled cEDH lists. No material current tournament evidence was found that justifies replacing the commander-first shell with generic Grixis cEDH.
+
+**Exact proposed changes**
+
+1. `Grindstone` → `Auton Soldier`
+   - Painter/Grindstone is a commander-independent mill package. Auton Soldier can enter as a nonlegendary Xander with myriad, immediately generating Xander’s ETB trigger. When declared as an attacker it generates Xander’s attack trigger plus myriad; the myriad tokens enter as Xander copies and generate further ETB triggers.
+2. `Painter's Servant` → `Phantasmal Image`
+   - Image is a two-mana Xander trigger burst. It enters as Xander and creates the ETB trigger; the legend rule can then put Image-Xander into the graveyard, creating a Xander death trigger while the original commander remains.
+3. `Narset, Parter of Veils` → `Cruel Calculations`
+   - The list retains Notion Thief as its wheel payoff. Cruel Calculations converts Xander’s attack directly into a massive three-mana draw spell by counting cards actually put from the targeted player’s library into their graveyard that turn.
+4. `Reliquary Tower` → `Hall of Echoes`
+   - Both occupy a colorless land slot, but Hall can become Xander before combat and suspends the legend rule for the turn. If Hall has been continuously controlled since the beginning of the turn, Hall-Xander can be declared as an additional attacker and generate its own Xander attack trigger. Hall does not enter when it copies, so it does not generate Xander’s ETB trigger.
+
+**Important retained packages**
+
+- `Bruvac the Grandiloquent`, `Fraying Sanity`, and `Riverchurn Monument` directly convert Xander’s half-library attack into near/immediate library exhaustion.
+- `Blade of Selves`, `Helm of the Host`, `Roaming Throne`, `Sakashima of a Thousand Faces`, `Spark Double`, `Molten Duplication`, `Saw in Half`, and `Strionic Resonator` are retained because they multiply Xander’s own triggers rather than merely adding generic mill.
+- `Feign Death`, `Animate Dead`, `Persist`, `Reanimate`, and `Entomb` retain the reanimation axis that makes a seven-mana commander realistic.
+- `Duskmantle Guildmage + Mindcrank`, `Underworld Breach + Lion's Eye Diamond + Brain Freeze`, and `Aggravated Assault + Sword of Feast and Famine` remain compact secondary closes. The Assault/Sword line also converts directly into repeated Xander attack triggers.
+
+**Candidate exhaustion / rejected challengers**
+
+- `Fractured Sanity`, `Ruin Crab`, `Hedron Crab`, `Consuming Aberration`, `Syr Konrad, the Grim`, `The Mindskinner`, `Fleet Swallower`, and `Traumatize`: additive mill is lower leverage than multiplying Xander’s half-library trigger in this shell.
+- `The Master of Lake-town`: strong new mill engine and redundant combo partner for Duskmantle Guildmage, but it does not improve Xander’s triggers enough to displace the retained interaction/value floor.
+- `Irenicus's Vile Duplication`: excellent persistent nonlegendary Xander copy, but Spark Double/Sakashima/Helm already cover that role; Phantasmal Image supplies a unique two-mana ETB-plus-death line and Auton Soldier supplies multiplayer myriad leverage.
+- `Phyrexian Metamorph`: efficient clone, but redundant after the selected clone package and does not outperform Image’s rate or Auton’s multiplayer ceiling.
+- `Panharmonicon`: doubles only the ETB trigger; Roaming Throne and Strionic Resonator cover more of Xander’s text.
+- `Displacer Kitten` / `Deadeye Navigator`: repeated Xander flicker is real, but repeated half-hand discard has diminishing returns and these engines require more setup than the chosen copy package.
+- `Jidoor, Aristocratic Capital // Overture`: the half-library Adventure is thematic, but the land enters tapped and the Adventure costs six; not enough to replace the current mana quality.
+- `Kitsune's Technique`: another half-library effect, but it does not outperform the existing Bruvac/Fraying/Monument conversions.
+- `The One Ring`, `Opposition Agent`, `Orcish Bowmasters`, free interaction, and premium tutors were challenged as generic staples and retained because a seven-mana commander requires a high interaction/consistency floor at Bracket 4.
+- Additional generic Oracle/Consultation packages were rejected because they increase commander-independence rather than improve Xander’s natural strategy.
+
+After the whole-list audit, current optimized/cEDH comparison, October 2026 card review, copy/legend-rule challenge, mana review, combo review, and adversarial candidate pass, **ZERO NEW MATERIAL IMPROVEMENTS** remain beyond the four swaps above.
+
+**Structural state**
+
+- Candidate: **100 cards**
+- Distinct names: **97**
+- Repeated names: `Island x2`, `Mountain x2`, `Swamp x2` only
+- Lands: **33**
+- Commander identity: **U/B/R**
+- Expected project exceptions: **none**
+- Proposed ceiling: **Power Bracket 4 — Optimized**
+- Approval state: **NOT APPROVED** pending fresh SHA-bound complete gate and explicit user approval.
+
+### From `refinement/approvals/Lord_Xander_the_Collector_Approved_2026-10-14.md`
+
+Source: [refinement/approvals/Lord_Xander_the_Collector_Approved_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/approvals/Lord_Xander_the_Collector_Approved_2026-10-14.md)
+
+**Lord Xander, the Collector — Approved / Locked**
+
+Cycle: `global-restart-2026-10-13`  
+Approval date: 2026-10-14  
+Tracker deck id: `Lord_Xander__the_Collector`  
+Approval candidate SHA-256: `92cdc2f9c1a3583ccf6a311679db66bef825dac2902761859e929f268b6b4787`  
+Approved list artifact: `refinement/decklists/Lord_Xander_the_Collector_Approved_2026-10-14.txt`  
+Complete gate artifact: `refinement/verification/lord_xander_the_collector_2026-10-14/gate_output/Lord_Xander_the_Collector_2026-10-14_Complete_Gate.json`
+
+**Approval basis**
+
+The user explicitly approved the exact SHA-bound Lord Xander candidate after the current-cycle whole-list audit and refinement closeout. The complete fail-closed gate returned `APPROVAL_READY` with exactly 100 cards, 97 distinct names, only basic-land duplicates, Grixis color identity, rules gate PASS, official Commander legality PASS, zero project exceptions, and zero errors.
+
+**Final approved changes**
+
+1. `Grindstone` → `Auton Soldier`
+2. `Painter's Servant` → `Phantasmal Image`
+3. `Narset, Parter of Veils` → `Cruel Calculations`
+4. `Reliquary Tower` → `Hall of Echoes`
+
+**Final status**
+
+- Approval status: `APPROVED`
+- Lock status: `LOCKED`
+- Final gate passed: `true`
+- Power Bracket: `4 — Optimized`
+- Canonical approved SHA-256: `92cdc2f9c1a3583ccf6a311679db66bef825dac2902761859e929f268b6b4787`
+
+Do not revise or reopen this deck unless the user explicitly requests it.
+
+<!-- COMBOS:START -->
+## Combos (Commander Spellbook)
+
+> Generated 2026-10-15 by `scripts/build_grixis.py` from the [Commander Spellbook](https://commanderspellbook.com) public API (community-maintained). Shows only combos whose **every card is in this list**. Bracket barometer: *Brackets 1–2: no intentional two-card infinite combos. Bracket 3: no early-game two-card infinite combos.*
+
+**11 complete combo(s); 7 two-card infinite.** 132 more are one card away (not listed).
+
+| Cards | Produces (Spellbook) | Extra requirements | Link |
+|---|---|---|---|
+| ⚠️ **two-card infinite** · Riverchurn Monument + Lord Xander, the Collector | Infinite mill for target opponent | — | [1022-6285](https://commanderspellbook.com/combo/1022-6285/) |
+| ⚠️ **two-card infinite** · Duskmantle Guildmage + Maddening Cacophony | Each opponent loses the game, Near-infinite lifeloss, Near-infinite mill | — | [5069-5080](https://commanderspellbook.com/combo/5069-5080/) |
+| ⚠️ **two-card infinite** · Riverchurn Monument + Maddening Cacophony | Infinite mill | — | [5080-6285](https://commanderspellbook.com/combo/5080-6285/) |
+| ⚠️ **two-card infinite** · Sword of Feast and Famine + Aggravated Assault | Infinite combat phases | — | [900-3750](https://commanderspellbook.com/combo/900-3750/) |
+| ⚠️ **two-card infinite** · Duskmantle Guildmage + Mindcrank | Each opponent loses the game, Infinite mill, Near-infinite lifeloss | — | [936-5069](https://commanderspellbook.com/combo/936-5069/) |
+| ⚠️ **two-card infinite** · Bruvac the Grandiloquent + Lord Xander, the Collector | Infinite mill for target opponent | — | [95-1022](https://commanderspellbook.com/combo/95-1022/) |
+| ⚠️ **two-card infinite** · Bruvac the Grandiloquent + Maddening Cacophony | Infinite mill | — | [95-5080](https://commanderspellbook.com/combo/95-5080/) |
+| Underworld Breach + Lotus Petal + Brain Freeze | Infinite self-mill, Near-infinite magecraft triggers, Near-infinite mill | — | [1368-1414-4856](https://commanderspellbook.com/combo/1368-1414-4856/) |
+| Underworld Breach + Wheel of Fortune + Jeska's Will | Infinite draw triggers for all players, Infinite looting for all players, Near-infinite magecraft triggers, Near-infinite storm count | — | [1368-1878-2706](https://commanderspellbook.com/combo/1368-1878-2706/) |
+| Underworld Breach + Lion's Eye Diamond + Wheel of Fortune | Infinite draw triggers, Infinite looting, Infinite looting for opponents, Near-infinite storm count | — | [1368-2706-3518](https://commanderspellbook.com/combo/1368-2706-3518/) |
+| Underworld Breach + Lion's Eye Diamond + Brain Freeze | Infinite self-mill, Near-infinite colored mana, Near-infinite magecraft triggers, Near-infinite mill | — | [1368-3518-4856](https://commanderspellbook.com/combo/1368-3518-4856/) |
+<!-- COMBOS:END -->

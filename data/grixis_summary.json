@@ -1,0 +1,1208 @@
+{
+ "Abaddon_the_Despoiler": {
+  "slug": "abaddon-the-despoiler",
+  "themes": "",
+  "commanders": [
+   "Abaddon the Despoiler"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Ancient Tomb",
+   "Chrome Mox",
+   "Demonic Tutor",
+   "Fierce Guardianship",
+   "Force of Will",
+   "Gamble",
+   "Imperial Seal",
+   "Jeska's Will",
+   "Lion's Eye Diamond",
+   "Mana Vault",
+   "Mystical Tutor",
+   "Rhystic Study",
+   "Underworld Breach",
+   "Vampiric Tutor"
+  ],
+  "floor": 4,
+  "cfloor": 4,
+  "n_combos": 4,
+  "n_two": 0,
+  "src_claim": "4 — Optimized",
+  "lands": 34,
+  "avg_mv": 2.5846153846153848,
+  "source_path": "refinement/decklists/Abaddon_the_Despoiler_Approved_2026-10-13.txt",
+  "fixes": 2
+ },
+ "Admiral_Beckett_Brass": {
+  "slug": "admiral-beckett-brass",
+  "themes": "",
+  "commanders": [
+   "Admiral Beckett Brass"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Ancient Tomb",
+   "Cyclonic Rift",
+   "Demonic Tutor",
+   "Fierce Guardianship",
+   "Jeska's Will",
+   "Vampiric Tutor"
+  ],
+  "floor": 4,
+  "cfloor": 4,
+  "n_combos": 0,
+  "n_two": 0,
+  "src_claim": null,
+  "lands": 35,
+  "avg_mv": 2.75,
+  "source_path": "refinement/decklists/Admiral_Beckett_Brass_Approval_Ready_2026-10-13.txt",
+  "fixes": 2
+ },
+ "Admiral_Brass__Unsinkable": {
+  "slug": "admiral-brass-unsinkable",
+  "themes": "",
+  "commanders": [
+   "Admiral Brass, Unsinkable"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Ancient Tomb",
+   "Cyclonic Rift",
+   "Demonic Tutor",
+   "Fierce Guardianship",
+   "Jeska's Will",
+   "Vampiric Tutor"
+  ],
+  "floor": 4,
+  "cfloor": 4,
+  "n_combos": 0,
+  "n_two": 0,
+  "src_claim": null,
+  "lands": 34,
+  "avg_mv": 2.953846153846154,
+  "source_path": "refinement/decklists/Admiral_Brass_Unsinkable_Whole_List_Approval_Candidate_2026-10-13.txt",
+  "fixes": 3
+ },
+ "Anhelo__the_Painter": {
+  "slug": "anhelo-the-painter",
+  "themes": "",
+  "commanders": [
+   "Anhelo, the Painter"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Cyclonic Rift",
+   "Demonic Tutor",
+   "Fierce Guardianship",
+   "Jeska's Will",
+   "Mystical Tutor",
+   "Underworld Breach",
+   "Vampiric Tutor"
+  ],
+  "floor": 4,
+  "cfloor": 4,
+  "n_combos": 8,
+  "n_two": 5,
+  "src_claim": null,
+  "lands": 34,
+  "avg_mv": 2.830769230769231,
+  "source_path": "refinement/decklists/Anhelo_the_Painter_Approval_Ready_2026-10-13.txt",
+  "fixes": 3
+ },
+ "Ashad__the_Lone_Cyberman": {
+  "slug": "ashad-the-lone-cyberman",
+  "themes": "",
+  "commanders": [
+   "Ashad, the Lone Cyberman"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Cyclonic Rift",
+   "Demonic Tutor",
+   "Fierce Guardianship"
+  ],
+  "floor": 3,
+  "cfloor": 3,
+  "n_combos": 1,
+  "n_two": 0,
+  "src_claim": null,
+  "lands": 30,
+  "avg_mv": 3.4057971014492754,
+  "source_path": "refinement/decklists/Ashad_the_Lone_Cyberman_Approval_Ready_2026-10-13.txt",
+  "fixes": 3
+ },
+ "Ashnod_the_Uncaring": {
+  "slug": "ashnod-the-uncaring",
+  "themes": "",
+  "commanders": [
+   "Ashnod the Uncaring"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Ancient Tomb",
+   "Bolas's Citadel",
+   "Cyclonic Rift",
+   "Demonic Tutor",
+   "Fierce Guardianship",
+   "Vampiric Tutor"
+  ],
+  "floor": 4,
+  "cfloor": 4,
+  "n_combos": 15,
+  "n_two": 0,
+  "src_claim": null,
+  "lands": 33,
+  "avg_mv": 2.212121212121212,
+  "source_path": "refinement/decklists/Ashnod_the_Uncaring_Approved_2026-10-13.txt",
+  "fixes": 2
+ },
+ "Be_lakor__the_Dark_Master": {
+  "slug": "belakor-the-dark-master",
+  "themes": "",
+  "commanders": [
+   "Be'lakor, the Dark Master"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Ancient Tomb",
+   "Cyclonic Rift",
+   "Demonic Tutor",
+   "Fierce Guardianship",
+   "Vampiric Tutor"
+  ],
+  "floor": 4,
+  "cfloor": 4,
+  "n_combos": 1,
+  "n_two": 1,
+  "src_claim": null,
+  "lands": 36,
+  "avg_mv": 4.079365079365079,
+  "source_path": "refinement/decklists/Be_lakor_the_Dark_Master_Approved_2026-10-13.txt",
+  "fixes": 2
+ },
+ "Cecily__Bjorna__Lutri": {
+  "slug": "bjorna-nightfall-alchemist-cecily",
+  "themes": "",
+  "commanders": [
+   "Bjorna, Nightfall Alchemist",
+   "Cecily, Haunted Mage"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Cyclonic Rift",
+   "Demonic Tutor",
+   "Fierce Guardianship",
+   "Jeska's Will",
+   "Mystical Tutor",
+   "Notion Thief",
+   "Rhystic Study",
+   "The One Ring",
+   "Underworld Breach",
+   "Vampiric Tutor"
+  ],
+  "floor": 4,
+  "cfloor": 4,
+  "n_combos": 3,
+  "n_two": 2,
+  "src_claim": null,
+  "lands": 33,
+  "avg_mv": 3.2615384615384615,
+  "source_path": "refinement/decklists/Cecily__Bjorna__Lutri_Approved_2026-10-13.txt",
+  "fixes": 5
+ },
+ "Cormela__Glamour_Thief": {
+  "slug": "cormela-glamour-thief",
+  "themes": "",
+  "commanders": [
+   "Cormela, Glamour Thief"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Ad Nauseam",
+   "Ancient Tomb",
+   "Chrome Mox",
+   "Demonic Tutor",
+   "Fierce Guardianship",
+   "Force of Will",
+   "Gamble",
+   "Imperial Seal",
+   "Intuition",
+   "Jeska's Will",
+   "Lion's Eye Diamond",
+   "Mana Vault",
+   "Mox Diamond",
+   "Mystical Tutor",
+   "Necropotence",
+   "Thassa's Oracle",
+   "Rhystic Study",
+   "Underworld Breach",
+   "Vampiric Tutor",
+   "Orcish Bowmasters"
+  ],
+  "floor": 4,
+  "cfloor": 4,
+  "n_combos": 23,
+  "n_two": 2,
+  "src_claim": null,
+  "lands": 30,
+  "avg_mv": 1.8405797101449275,
+  "source_path": "refinement/decklists/Cormela_Glamour_Thief_Approved_2026-10-14.txt",
+  "fixes": 2
+ },
+ "Crosis__the_Purger": {
+  "slug": "crosis-the-purger",
+  "themes": "",
+  "commanders": [
+   "Crosis, the Purger"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Ancient Tomb",
+   "Chrome Mox",
+   "Cyclonic Rift",
+   "Demonic Tutor",
+   "Fierce Guardianship",
+   "Force of Will",
+   "Gamble",
+   "Mana Vault",
+   "Mox Diamond",
+   "Mystical Tutor",
+   "Notion Thief",
+   "Orcish Bowmasters",
+   "Tergrid, God of Fright // Tergrid's Lantern",
+   "Vampiric Tutor"
+  ],
+  "floor": 4,
+  "cfloor": 4,
+  "n_combos": 1,
+  "n_two": 0,
+  "src_claim": "4 — Optimized",
+  "lands": 36,
+  "avg_mv": 2.2857142857142856,
+  "source_path": "refinement/decklists/Crosis_the_Purger_Approval_Candidate_2026-10-14.txt",
+  "fixes": 2
+ },
+ "Cult_of_Skaro": {
+  "slug": "cult-of-skaro",
+  "themes": "",
+  "commanders": [
+   "Cult of Skaro"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Cyclonic Rift",
+   "Fierce Guardianship",
+   "Mana Vault"
+  ],
+  "floor": 3,
+  "cfloor": 3,
+  "n_combos": 1,
+  "n_two": 1,
+  "src_claim": "4 — Optimized",
+  "lands": 34,
+  "avg_mv": 3.353846153846154,
+  "source_path": "refinement/decklists/Cult_of_Skaro_Approval_Candidate_2026-10-14.txt",
+  "fixes": 2
+ },
+ "Davros__Dalek_Creator": {
+  "slug": "davros-dalek-creator",
+  "themes": "",
+  "commanders": [
+   "Davros, Dalek Creator"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Ancient Tomb",
+   "Cyclonic Rift",
+   "Demonic Tutor",
+   "Fierce Guardianship",
+   "Jeska's Will"
+  ],
+  "floor": 4,
+  "cfloor": 4,
+  "n_combos": 0,
+  "n_two": 0,
+  "src_claim": "4 — Optimized",
+  "lands": 34,
+  "avg_mv": 3.1846153846153844,
+  "source_path": "refinement/decklists/Davros_Dalek_Creator_Approved_2026-10-14.txt",
+  "fixes": 2
+ },
+ "Doctor_Doom__King_of_Latveria": {
+  "slug": "doctor-doom-king-of-latveria",
+  "themes": "Land Discard / Villains / Connive",
+  "commanders": [
+   "Doctor Doom, King of Latveria"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Ancient Tomb",
+   "Cyclonic Rift",
+   "Demonic Tutor",
+   "Fierce Guardianship",
+   "Jeska's Will",
+   "Vampiric Tutor"
+  ],
+  "floor": 4,
+  "cfloor": 4,
+  "n_combos": 1,
+  "n_two": 0,
+  "src_claim": "4 — Optimized",
+  "lands": 38,
+  "avg_mv": 2.8524590163934427,
+  "source_path": "refinement/decklists/Doctor_Doom_King_of_Latveria_Approved_2026-10-14.txt",
+  "fixes": 2
+ },
+ "Don_Andres__the_Renegade": {
+  "slug": "don-andres-the-renegade",
+  "themes": "",
+  "commanders": [
+   "Don Andres, the Renegade"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Ancient Tomb",
+   "Cyclonic Rift",
+   "Fierce Guardianship",
+   "Opposition Agent",
+   "Vampiric Tutor"
+  ],
+  "floor": 4,
+  "cfloor": 4,
+  "n_combos": 0,
+  "n_two": 0,
+  "src_claim": "4 — Optimized",
+  "lands": 35,
+  "avg_mv": 3.3125,
+  "source_path": "refinement/decklists/Don_Andres_the_Renegade_Approved_2026-10-14.txt",
+  "fixes": 2
+ },
+ "Dr__Eggman": {
+  "slug": "dr-eggman",
+  "themes": "Villainous Choice / Robots / Artifact Cheat",
+  "commanders": [
+   "Dr. Eggman"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Ancient Tomb",
+   "Cyclonic Rift",
+   "Fierce Guardianship"
+  ],
+  "floor": 3,
+  "cfloor": 3,
+  "n_combos": 0,
+  "n_two": 0,
+  "src_claim": "4 — Optimized",
+  "lands": 31,
+  "avg_mv": 4.205882352941177,
+  "source_path": "refinement/decklists/Dr_Eggman_Approved_2026-10-14.txt",
+  "fixes": 3
+ },
+ "Edea__Possessed_Sorceress": {
+  "slug": "edea-possessed-sorceress",
+  "themes": "Theft / Sacrifice / Extra Combats",
+  "commanders": [
+   "Edea, Possessed Sorceress"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Demonic Tutor",
+   "Fierce Guardianship",
+   "Ancient Tomb"
+  ],
+  "floor": 3,
+  "cfloor": 3,
+  "n_combos": 0,
+  "n_two": 0,
+  "src_claim": "4 — Optimized",
+  "lands": 35,
+  "avg_mv": 3.203125,
+  "source_path": "refinement/decklists/Edea_Possessed_Sorceress_Approved_2026-10-14.txt",
+  "fixes": 2
+ },
+ "Edward_Kenway": {
+  "slug": "edward-kenway",
+  "themes": "",
+  "commanders": [
+   "Edward Kenway"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Ancient Tomb",
+   "Chrome Mox",
+   "Cyclonic Rift",
+   "Fierce Guardianship",
+   "Force of Will",
+   "Imperial Seal",
+   "Jeska's Will",
+   "Mana Vault",
+   "Mox Diamond",
+   "Vampiric Tutor"
+  ],
+  "floor": 4,
+  "cfloor": 4,
+  "n_combos": 6,
+  "n_two": 5,
+  "src_claim": "4 — Optimized",
+  "lands": 35,
+  "avg_mv": 2.796875,
+  "source_path": "refinement/decklists/Edward_Kenway_Approved_2026-10-14.txt",
+  "fixes": 2
+ },
+ "Evelyn__the_Covetous": {
+  "slug": "evelyn-the-covetous",
+  "themes": "Worldgorger / Exile / Combo",
+  "commanders": [
+   "Evelyn, the Covetous"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Ancient Tomb",
+   "Notion Thief",
+   "Opposition Agent",
+   "Orcish Bowmasters",
+   "Thassa's Oracle",
+   "Ad Nauseam",
+   "Demonic Tutor",
+   "Force of Will",
+   "Gamble",
+   "Imperial Seal",
+   "Mystical Tutor",
+   "Vampiric Tutor",
+   "Chrome Mox",
+   "Lion's Eye Diamond",
+   "Mana Vault",
+   "Mox Diamond",
+   "Necropotence",
+   "Rhystic Study",
+   "Underworld Breach"
+  ],
+  "floor": 4,
+  "cfloor": 4,
+  "n_combos": 7,
+  "n_two": 3,
+  "src_claim": "5 — cEDH",
+  "lands": 26,
+  "avg_mv": 1.8356164383561644,
+  "source_path": "refinement/decklists/Evelyn_the_Covetous_Approved_2026-10-14.txt",
+  "fixes": 2
+ },
+ "Fire_Lord_Azula": {
+  "slug": "fire-lord-azula",
+  "themes": "Combat-Flash / Spell Copy / Combo",
+  "commanders": [
+   "Fire Lord Azula"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Orcish Bowmasters",
+   "Thassa's Oracle",
+   "Ad Nauseam",
+   "Fierce Guardianship",
+   "Force of Will",
+   "Mystical Tutor",
+   "Vampiric Tutor",
+   "Demonic Tutor",
+   "Gamble",
+   "Imperial Seal",
+   "Jeska's Will",
+   "Necropotence",
+   "Rhystic Study",
+   "Underworld Breach",
+   "Chrome Mox",
+   "Grim Monolith",
+   "Lion's Eye Diamond",
+   "Mana Vault",
+   "Mox Diamond",
+   "Ancient Tomb"
+  ],
+  "floor": 4,
+  "cfloor": 4,
+  "n_combos": 9,
+  "n_two": 1,
+  "src_claim": "5 — cEDH",
+  "lands": 26,
+  "avg_mv": 1.8493150684931507,
+  "source_path": "refinement/decklists/Fire_Lord_Azula_Approved_2026-10-14.txt",
+  "fixes": 2
+ },
+ "Garza_Zol__Plague_Queen": {
+  "slug": "garza-zol-plague-queen",
+  "themes": "Voltron / Commander Damage / Deathtouch-Control",
+  "commanders": [
+   "Garza Zol, Plague Queen"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Ancient Tomb",
+   "Cyclonic Rift",
+   "Demonic Tutor",
+   "Fierce Guardianship",
+   "Grim Monolith",
+   "Jeska's Will",
+   "Mana Vault",
+   "Rhystic Study",
+   "Vampiric Tutor"
+  ],
+  "floor": 4,
+  "cfloor": 4,
+  "n_combos": 3,
+  "n_two": 2,
+  "src_claim": "4 — Optimized",
+  "lands": 38,
+  "avg_mv": 2.2131147540983607,
+  "source_path": "refinement/decklists/Garza_Zol_Plague_Queen_Approved_2026-10-14.txt",
+  "fixes": 2
+ },
+ "Goro_Goro_and_Satoru": {
+  "slug": "goro-goro-and-satoru",
+  "themes": "Ninjutsu / Dragon Tokens / Extra Combats",
+  "commanders": [
+   "Goro-Goro and Satoru"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Ancient Tomb",
+   "Cyclonic Rift",
+   "Demonic Tutor",
+   "Fierce Guardianship",
+   "Jeska's Will",
+   "Vampiric Tutor"
+  ],
+  "floor": 4,
+  "cfloor": 4,
+  "n_combos": 5,
+  "n_two": 5,
+  "src_claim": "4 — Optimized",
+  "lands": 33,
+  "avg_mv": 2.5303030303030303,
+  "source_path": "refinement/decklists/Goro_Goro_and_Satoru_Approved_2026-10-14.txt",
+  "fixes": 2
+ },
+ "Grixistax___October_2026": {
+  "slug": "grixistax-october-2026",
+  "themes": "",
+  "commanders": [
+   "Kraum, Ludevic's Opus",
+   "Tevesh Szat, Doom of Fools"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Ancient Tomb",
+   "Chrome Mox",
+   "Cyclonic Rift",
+   "Demonic Tutor",
+   "Fierce Guardianship",
+   "Force of Will",
+   "Gamble",
+   "Grim Monolith",
+   "Imperial Seal",
+   "Jeska's Will",
+   "Lion's Eye Diamond",
+   "Mana Vault",
+   "Mox Diamond",
+   "Mystical Tutor",
+   "Narset, Parter of Veils",
+   "Necropotence",
+   "Notion Thief",
+   "Opposition Agent",
+   "Orcish Bowmasters",
+   "Rhystic Study",
+   "Underworld Breach",
+   "Vampiric Tutor"
+  ],
+  "floor": 4,
+  "cfloor": 4,
+  "n_combos": 6,
+  "n_two": 0,
+  "src_claim": "5 — fringe / rogue cEDH",
+  "lands": 26,
+  "avg_mv": 2.0555555555555554,
+  "source_path": "refinement/decklists/Grixistax_October_2026_Approved_2026-10-14.txt",
+  "fixes": 2
+ },
+ "Gwendlyn_Di_Corci": {
+  "slug": "gwendlyn-di-corci",
+  "themes": "Random Discard / Activated Ability / Wheels",
+  "commanders": [
+   "Gwendlyn Di Corci"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Ancient Tomb",
+   "Chrome Mox",
+   "Cyclonic Rift",
+   "Demonic Tutor",
+   "Fierce Guardianship",
+   "Force of Will",
+   "Gamble",
+   "Imperial Seal",
+   "Lion's Eye Diamond",
+   "Mystical Tutor",
+   "Notion Thief",
+   "Opposition Agent",
+   "Orcish Bowmasters",
+   "Rhystic Study",
+   "Tergrid, God of Fright // Tergrid's Lantern",
+   "Underworld Breach",
+   "Vampiric Tutor"
+  ],
+  "floor": 4,
+  "cfloor": 4,
+  "n_combos": 1,
+  "n_two": 0,
+  "src_claim": "4 — Optimized",
+  "lands": 35,
+  "avg_mv": 2.328125,
+  "source_path": "refinement/decklists/Gwendlyn_Di_Corci_Approved_2026-10-14.txt",
+  "fixes": 2
+ },
+ "Inalla__Archmage_Ritualist": {
+  "slug": "inalla-archmage-ritualist",
+  "themes": "Spellseeker Combo / Reanimator / Turbo",
+  "commanders": [
+   "Inalla, Archmage Ritualist"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Thassa's Oracle",
+   "Ad Nauseam",
+   "Force of Will",
+   "Intuition",
+   "Mystical Tutor",
+   "Vampiric Tutor",
+   "Demonic Tutor",
+   "Gamble",
+   "Imperial Seal",
+   "Chrome Mox",
+   "Grim Monolith",
+   "Lion's Eye Diamond",
+   "Mana Vault",
+   "Mox Diamond",
+   "Necropotence",
+   "Rhystic Study",
+   "Underworld Breach",
+   "Ancient Tomb"
+  ],
+  "floor": 4,
+  "cfloor": 4,
+  "n_combos": 15,
+  "n_two": 0,
+  "src_claim": "5 — cEDH",
+  "lands": 27,
+  "avg_mv": 2.0,
+  "source_path": "refinement/decklists/Inalla_Archmage_Ritualist_Approved_2026-10-14.txt",
+  "fixes": 2
+ },
+ "Jeleva__Nephalia_s_Scourge": {
+  "slug": "jeleva-nephalias-scourge",
+  "themes": "Topdeck / Free-Cast / Storm",
+  "commanders": [
+   "Jeleva, Nephalia's Scourge"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Opposition Agent",
+   "Thassa's Oracle",
+   "Ad Nauseam",
+   "Fierce Guardianship",
+   "Force of Will",
+   "Mystical Tutor",
+   "Vampiric Tutor",
+   "Demonic Tutor",
+   "Gamble",
+   "Imperial Seal",
+   "Jeska's Will",
+   "Chrome Mox",
+   "Grim Monolith",
+   "Lion's Eye Diamond",
+   "Mana Vault",
+   "Mox Diamond",
+   "Necropotence",
+   "Rhystic Study",
+   "Underworld Breach",
+   "Ancient Tomb"
+  ],
+  "floor": 4,
+  "cfloor": 4,
+  "n_combos": 7,
+  "n_two": 0,
+  "src_claim": "5 — fringe cEDH",
+  "lands": 27,
+  "avg_mv": 1.9027777777777777,
+  "source_path": "refinement/decklists/Jeleva_Nephalia_s_Scourge_Approved_2026-10-14.txt",
+  "fixes": 2
+ },
+ "Kefka__Court_Mage": {
+  "slug": "kefka-court-mage",
+  "themes": "Discard / Trigger Copy / Turbo",
+  "commanders": [
+   "Kefka, Court Mage // Kefka, Ruler of Ruin"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Ad Nauseam",
+   "Ancient Tomb",
+   "Chrome Mox",
+   "Demonic Tutor",
+   "Fierce Guardianship",
+   "Force of Will",
+   "Gamble",
+   "Grim Monolith",
+   "Imperial Seal",
+   "Jeska's Will",
+   "Lion's Eye Diamond",
+   "Mana Vault",
+   "Mox Diamond",
+   "Mystical Tutor",
+   "Necropotence",
+   "Orcish Bowmasters",
+   "Rhystic Study",
+   "Thassa's Oracle",
+   "Underworld Breach",
+   "Vampiric Tutor"
+  ],
+  "floor": 4,
+  "cfloor": 4,
+  "n_combos": 6,
+  "n_two": 0,
+  "src_claim": "5 — cEDH",
+  "lands": 28,
+  "avg_mv": 1.943661971830986,
+  "source_path": "refinement/decklists/Kefka_Court_Mage_Approved_2026-10-14.txt",
+  "fixes": 2
+ },
+ "Kess__Dissident_Mage": {
+  "slug": "kess-dissident-mage",
+  "themes": "",
+  "commanders": [
+   "Kess, Dissident Mage"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Orcish Bowmasters",
+   "Thassa's Oracle",
+   "Gamble",
+   "Imperial Seal",
+   "Demonic Tutor",
+   "Mystical Tutor",
+   "Vampiric Tutor",
+   "Fierce Guardianship",
+   "Intuition",
+   "Gifts Ungiven",
+   "Ad Nauseam",
+   "Force of Will",
+   "Chrome Mox",
+   "Lion's Eye Diamond",
+   "Mox Diamond",
+   "Mana Vault",
+   "Grim Monolith",
+   "Underworld Breach",
+   "Necropotence",
+   "Rhystic Study",
+   "Ancient Tomb"
+  ],
+  "floor": 4,
+  "cfloor": 4,
+  "n_combos": 6,
+  "n_two": 1,
+  "src_claim": "5 — fringe cEDH",
+  "lands": 27,
+  "avg_mv": 1.8472222222222223,
+  "source_path": "refinement/decklists/Kess_Dissident_Mage_Approved_2026-10-14.txt",
+  "fixes": 2
+ },
+ "Loki__the_Deceiver": {
+  "slug": "loki-the-deceiver",
+  "themes": "",
+  "commanders": [
+   "Loki, the Deceiver"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Cyclonic Rift",
+   "Demonic Tutor",
+   "Fierce Guardianship",
+   "Jeska's Will",
+   "Rhystic Study"
+  ],
+  "floor": 4,
+  "cfloor": 4,
+  "n_combos": 0,
+  "n_two": 0,
+  "src_claim": "4 — Optimized",
+  "lands": 34,
+  "avg_mv": 3.3846153846153846,
+  "source_path": "refinement/decklists/Loki_the_Deceiver_Approved_2026-10-14.txt",
+  "fixes": 2
+ },
+ "Lord_Xander__the_Collector": {
+  "slug": "lord-xander-the-collector",
+  "themes": "",
+  "commanders": [
+   "Lord Xander, the Collector"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Ancient Tomb",
+   "Cyclonic Rift",
+   "Demonic Tutor",
+   "Fierce Guardianship",
+   "Force of Will",
+   "Gamble",
+   "Grim Monolith",
+   "Imperial Seal",
+   "Jeska's Will",
+   "Lion's Eye Diamond",
+   "Mana Vault",
+   "Mystical Tutor",
+   "Notion Thief",
+   "Opposition Agent",
+   "Orcish Bowmasters",
+   "Rhystic Study",
+   "Tergrid, God of Fright // Tergrid's Lantern",
+   "The One Ring",
+   "Underworld Breach",
+   "Vampiric Tutor"
+  ],
+  "floor": 4,
+  "cfloor": 4,
+  "n_combos": 11,
+  "n_two": 7,
+  "src_claim": "4 — Optimized",
+  "lands": 33,
+  "avg_mv": 2.3333333333333335,
+  "source_path": "refinement/decklists/Lord_Xander_the_Collector_Approved_2026-10-14.txt",
+  "fixes": 2
+ },
+ "Lord_of_Tresserhorn": {
+  "slug": "lord-of-tresserhorn",
+  "themes": "",
+  "commanders": [
+   "Lord of Tresserhorn"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Demonic Tutor",
+   "Vampiric Tutor"
+  ],
+  "floor": 3,
+  "cfloor": 3,
+  "n_combos": 19,
+  "n_two": 1,
+  "src_claim": "4 — Optimized",
+  "lands": 35,
+  "avg_mv": 2.4375,
+  "source_path": "refinement/decklists/Lord_of_Tresserhorn_Approved_2026-10-14.txt",
+  "fixes": 2
+ },
+ "Lynde__Cheerful_Tormentor": {
+  "slug": "lynde-cheerful-tormentor",
+  "themes": "",
+  "commanders": [
+   "Lynde, Cheerful Tormentor"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Ancient Tomb",
+   "Cyclonic Rift",
+   "Demonic Tutor",
+   "Fierce Guardianship",
+   "Imperial Seal",
+   "Jeska's Will",
+   "Rhystic Study",
+   "Vampiric Tutor"
+  ],
+  "floor": 4,
+  "cfloor": 4,
+  "n_combos": 0,
+  "n_two": 0,
+  "src_claim": "4 — Optimized",
+  "lands": 35,
+  "avg_mv": 3.21875,
+  "source_path": "refinement/decklists/Lynde_Cheerful_Tormentor_Approved_2026-10-14.txt",
+  "fixes": 2
+ },
+ "Mai_and_Zuko": {
+  "slug": "mai-and-zuko",
+  "themes": "",
+  "commanders": [
+   "Mai and Zuko"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Ancient Tomb",
+   "Bolas's Citadel",
+   "Chrome Mox",
+   "Cyclonic Rift",
+   "Demonic Tutor",
+   "Fierce Guardianship",
+   "Force of Will",
+   "Lion's Eye Diamond",
+   "Mana Vault",
+   "Mox Diamond",
+   "Mystical Tutor",
+   "Rhystic Study",
+   "The One Ring",
+   "Underworld Breach",
+   "Vampiric Tutor"
+  ],
+  "floor": 4,
+  "cfloor": 4,
+  "n_combos": 8,
+  "n_two": 1,
+  "src_claim": "4 — Optimized",
+  "lands": 31,
+  "avg_mv": 2.6029411764705883,
+  "source_path": "refinement/decklists/Mai_and_Zuko_Approved_2026-10-14.txt",
+  "fixes": 2
+ },
+ "Mairsil__the_Pretender": {
+  "slug": "mairsil-the-pretender",
+  "themes": "",
+  "commanders": [
+   "Mairsil, the Pretender"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Ancient Tomb",
+   "Chrome Mox",
+   "Cyclonic Rift",
+   "Demonic Tutor",
+   "Fierce Guardianship",
+   "Force of Will",
+   "Gamble",
+   "Intuition",
+   "Mana Vault",
+   "Mox Diamond",
+   "Mystical Tutor",
+   "Rhystic Study",
+   "Vampiric Tutor"
+  ],
+  "floor": 4,
+  "cfloor": 4,
+  "n_combos": 6,
+  "n_two": 0,
+  "src_claim": "4 — Optimized",
+  "lands": 32,
+  "avg_mv": 2.8059701492537314,
+  "source_path": "refinement/decklists/Mairsil_the_Pretender_Approved_2026-10-14.txt",
+  "fixes": 2
+ },
+ "Marchesa__Dealer_of_Death": {
+  "slug": "marchesa-dealer-of-death",
+  "themes": "Crimes / Control / Storm",
+  "commanders": [
+   "Marchesa, Dealer of Death"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Orcish Bowmasters",
+   "Thassa's Oracle",
+   "Ad Nauseam",
+   "Fierce Guardianship",
+   "Force of Will",
+   "Mystical Tutor",
+   "Vampiric Tutor",
+   "Demonic Tutor",
+   "Imperial Seal",
+   "Jeska's Will",
+   "Necropotence",
+   "Rhystic Study",
+   "Underworld Breach",
+   "Chrome Mox",
+   "Lion's Eye Diamond",
+   "Mana Vault",
+   "Mox Diamond",
+   "Ancient Tomb"
+  ],
+  "floor": 4,
+  "cfloor": 4,
+  "n_combos": 4,
+  "n_two": 1,
+  "src_claim": "5 — cEDH",
+  "lands": 29,
+  "avg_mv": 1.8714285714285714,
+  "source_path": "refinement/decklists/Marchesa_Dealer_of_Death_Approved_2026-10-15.txt",
+  "fixes": 2
+ },
+ "Marchesa__the_Black_Rose": {
+  "slug": "marchesa-the-black-rose",
+  "themes": "+1/+1 Counters / Aristocrats / Combo",
+  "commanders": [
+   "Marchesa, the Black Rose"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Ancient Tomb",
+   "Cyclonic Rift",
+   "Demonic Tutor",
+   "Fierce Guardianship",
+   "Vampiric Tutor"
+  ],
+  "floor": 4,
+  "cfloor": 4,
+  "n_combos": 48,
+  "n_two": 38,
+  "src_claim": "4 — Optimized",
+  "lands": 34,
+  "avg_mv": 2.8153846153846156,
+  "source_path": "refinement/decklists/Marchesa_the_Black_Rose_Approved_2026-10-15.txt",
+  "fixes": 2
+ },
+ "Mishra__Artificer_Prodigy": {
+  "slug": "mishra-artificer-prodigy",
+  "themes": "Artifacts / Stax / Combo",
+  "commanders": [
+   "Mishra, Artificer Prodigy"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Ancient Tomb",
+   "Bolas's Citadel",
+   "Chrome Mox",
+   "Cyclonic Rift",
+   "Demonic Tutor",
+   "Fierce Guardianship",
+   "Force of Will",
+   "Gamble",
+   "Grim Monolith",
+   "Mana Vault",
+   "Mishra's Workshop",
+   "Mox Diamond",
+   "Rhystic Study",
+   "The One Ring",
+   "Vampiric Tutor"
+  ],
+  "floor": 4,
+  "cfloor": 4,
+  "n_combos": 20,
+  "n_two": 1,
+  "src_claim": "5 — cEDH (fringe / commander-centric artifact stax-combo",
+  "lands": 29,
+  "avg_mv": 2.657142857142857,
+  "source_path": "refinement/decklists/Mishra_Artificer_Prodigy_Approved_2026-10-15.txt",
+  "fixes": 2
+ },
+ "Mishra__Eminent_One": {
+  "slug": "mishra-eminent-one",
+  "themes": "Artifacts / Tokens / Combo",
+  "commanders": [
+   "Mishra, Eminent One"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Ancient Tomb",
+   "Chrome Mox",
+   "Cyclonic Rift",
+   "Demonic Tutor",
+   "Fierce Guardianship",
+   "Force of Will",
+   "Gamble",
+   "Imperial Seal",
+   "Mana Vault",
+   "Mishra's Workshop",
+   "Mox Diamond",
+   "Rhystic Study",
+   "The One Ring",
+   "Vampiric Tutor"
+  ],
+  "floor": 4,
+  "cfloor": 4,
+  "n_combos": 19,
+  "n_two": 1,
+  "src_claim": "4 — Optimized",
+  "lands": 34,
+  "avg_mv": 2.7846153846153845,
+  "source_path": "refinement/decklists/Mishra_Eminent_One_Approved_2026-10-15.txt",
+  "fixes": 2
+ },
+ "Missy": {
+  "slug": "missy",
+  "themes": "Cybermen / Morph / Aristocrats",
+  "commanders": [
+   "Missy"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Ancient Tomb",
+   "Cyclonic Rift",
+   "Demonic Tutor",
+   "Mana Vault",
+   "Rhystic Study",
+   "The One Ring",
+   "Vampiric Tutor"
+  ],
+  "floor": 4,
+  "cfloor": 4,
+  "n_combos": 17,
+  "n_two": 0,
+  "src_claim": "4 — Optimized",
+  "lands": 35,
+  "avg_mv": 2.71875,
+  "source_path": "refinement/decklists/Missy_Approved_2026-10-15.txt",
+  "fixes": 2
+ },
+ "Nathan_Drake__Treasure_Hunter": {
+  "slug": "nathan-drake-treasure-hunter",
+  "themes": "Theft / Attack Triggers / Exile",
+  "commanders": [
+   "Nathan Drake, Treasure Hunter"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Ancient Tomb",
+   "Cyclonic Rift",
+   "Demonic Tutor",
+   "Fierce Guardianship",
+   "Jeska's Will",
+   "Notion Thief",
+   "Opposition Agent",
+   "Rhystic Study",
+   "Vampiric Tutor"
+  ],
+  "floor": 4,
+  "cfloor": 4,
+  "n_combos": 0,
+  "n_two": 0,
+  "src_claim": "4 — Optimized",
+  "lands": 34,
+  "avg_mv": 2.9076923076923076,
+  "source_path": "refinement/decklists/Nathan_Drake_Treasure_Hunter_Approved_2026-10-15.txt",
+  "fixes": 2
+ },
+ "Nekusar__the_Mindrazer": {
+  "slug": "nekusar-the-mindrazer",
+  "themes": "Wheels / Draw Punishment / Group Slug",
+  "commanders": [
+   "Nekusar, the Mindrazer"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Ancient Tomb",
+   "Chrome Mox",
+   "Consecrated Sphinx",
+   "Cyclonic Rift",
+   "Demonic Tutor",
+   "Fierce Guardianship",
+   "Force of Will",
+   "Grim Monolith",
+   "Jeska's Will",
+   "Mana Vault",
+   "Mystical Tutor",
+   "Orcish Bowmasters",
+   "Rhystic Study",
+   "Underworld Breach",
+   "Vampiric Tutor"
+  ],
+  "floor": 4,
+  "cfloor": 4,
+  "n_combos": 7,
+  "n_two": 5,
+  "src_claim": "4 — Optimized",
+  "lands": 35,
+  "avg_mv": 2.671875,
+  "source_path": "refinement/decklists/Nekusar_the_Mindrazer_Approved_2026-10-15.txt",
+  "fixes": 2
+ }
+}

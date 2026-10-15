@@ -1,0 +1,434 @@
+---
+title: "Grixis Deck — Gwendlyn Di Corci"
+category: deck
+kind: grixis
+commander: "Gwendlyn Di Corci"
+color_identity: UBR
+bracket_floor: 4
+game_changers: 17
+validated: true
+source_repo: corymstover/grixis-commander-encyclopediaGPT
+---
+
+# Grixis Deck — Gwendlyn Di Corci
+
+> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Gwendlyn_Di_Corci_Approved_2026-10-14.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decklists/Gwendlyn_Di_Corci_Approved_2026-10-14.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-14; source commit `df1abb9`). Imported in Bot cycle 16 and re-validated against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
+
+## Contents
+- [Commander](#commander)
+- [Validation](#validation)
+- [Bracket assessment](#bracket-assessment)
+- [Corrections applied](#corrections-applied)
+- [Decklist (Archidekt import)](#decklist-archidekt-import)
+- [Card breakdown](#card-breakdown)
+- [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Combos (Commander Spellbook)](#combos-commander-spellbook)
+
+## Commander
+
+- **[Gwendlyn Di Corci](../../cards/G/gw.md#gwendlyn-di-corci)** — {U}{B}{B}{R} — Legendary Creature — Human Rogue
+- Color identity: **UBR (Blue, Black, Red)**
+- Eligibility (Gwendlyn Di Corci): Yes (legendary creature)
+
+## Validation
+
+- Total cards: **100** (1 commander(s) + 64 nonland + 26 nonbasic lands + 9 basics) · average nonland MV 2.33
+- Strict color identity (CR 903.5c), singleton (903.5b), Commander-legal, size (903.5a): ✅ **all checks pass**
+- Every card resolves to an entry in our card DB (94/94 lines linked).
+
+## Bracket assessment
+
+- Game Changers (17): Ancient Tomb, Chrome Mox, Cyclonic Rift, Demonic Tutor, Fierce Guardianship, Force of Will, Gamble, Imperial Seal, Lion's Eye Diamond, Mystical Tutor, Notion Thief, Opposition Agent, Orcish Bowmasters, Rhystic Study, Tergrid, God of Fright // Tergrid's Lantern, Underworld Breach, Vampiric Tutor
+- Extra-turn cards: none
+- Mass land denial: none
+- Commander Spellbook: 1 complete combo(s), 0 two-card infinite (see [Combos](#combos-commander-spellbook)).
+- **Minimum bracket by the published barometers: 4** (more than three Game Changers).
+- Source's stated target (guidance): **Bracket 4 — Optimized**.
+- (Brackets are a pregame-conversation tool. See [EDH Standards](../../EDH%20Standards.md#power-bracket-assessment).)
+
+## Corrections applied
+
+| Type | Change | Reason |
+|---|---|---|
+| format | Archidekt list normalized to [EDH Standards](../../EDH%20Standards.md#list-format-archidekt) | `[Commander]` → `[Commander{top}]` (1 line(s)); role tags restored on 92 untagged line(s): 87 from this deck's FINAL baseline, 5 from the tag the source uses most for that card in other decks; 1 untagged line(s) given a type tag (e.g. `[Land]`). |
+| bracket | Game Changers and combo floor added | The source records no Game Changer count and does not check the official Game Changers list anywhere in its approval records. We added it: **17 Game Changers**, so the minimum bracket is **4**. Commander Spellbook finds 1 complete combos (0 two-card infinite). This is consistent with the source's stated Bracket 4. |
+
+Full log for all decks: [Grixis Corrections](../Grixis%20Corrections.md).
+
+## Decklist (Archidekt import)
+
+```text
+1x Gwendlyn Di Corci [Commander{top}]
+1x An Offer You Can't Refuse [Removal]
+1x Ancient Tomb [Land]
+1x Anvil of Bogardan [Draw]
+1x Arcane Signet [Ramp]
+1x Badlands [Land]
+1x Blood Crypt [Land]
+1x Bloodchief Ascension [Drain]
+1x Bloodstained Mire [Land]
+1x Bojuka Bog [Land]
+1x Mind Twist [Discard]
+1x Bottomless Pit [Discard]
+1x Chains of Mephistopheles [Discard]
+1x Chrome Mox [Ramp]
+1x City of Brass [Land]
+1x Command Tower [Land]
+1x Crumbling Necropolis [Land]
+1x Cyclonic Rift [Removal]
+1x Dark Deal [Discard]
+1x Dark Ritual [Ramp]
+1x Dauthi Voidwalker [Stax]
+1x Deflecting Swat [Protection]
+1x Demonic Tutor [Tutor]
+1x Dream Salvage [Draw]
+1x Drowned Catacomb [Land]
+1x Exotic Orchard [Land]
+1x Withering Torment [Removal]
+1x Illusionist's Bracers [Copy]
+1x Fierce Guardianship [Removal]
+1x Force of Negation [Counters]
+1x Force of Will [Counters]
+1x Gamble [Tutor]
+1x Geth's Grimoire [Draw]
+1x Pemmin's Aura [Enchantment]
+1x Imperial Seal [Tutor]
+2x Island [Land]
+1x Minamo, School at Water's Edge [Land]
+1x Jace's Archivist [Draw]
+1x Kess, Dissident Mage [Recursion]
+1x Lightning Greaves [Protection]
+1x Liliana's Caress [Discard]
+1x Lion's Eye Diamond [Ramp]
+1x Lotus Petal [Ramp]
+1x Luxury Suite [Land]
+1x Magewright's Stone [Untap]
+1x Magus of the Wheel [Draw]
+1x Mana Confluence [Land]
+1x Mana Drain [Removal]
+1x Morphic Pool [Land]
+2x Mountain [Land]
+1x Mystic Remora [Draw]
+1x Mystical Tutor [Tutor]
+1x Notion Thief [Draw]
+1x Opposition Agent [Stax]
+1x Oppression [Discard]
+1x Orcish Bowmasters [Removal]
+1x Otawara, Soaring City [Land]
+1x Patriar's Seal [Ramp]
+1x Polluted Delta [Land]
+1x Reforge the Soul [Draw]
+1x Rhystic Study [Draw]
+1x Tinybones, Pocket Nuisance [Discard]
+1x Scalding Tarn [Land]
+1x Sheoldred, the Apocalypse [Lifegain]
+1x Sol Ring [Ramp]
+1x Steam Vents [Land]
+5x Swamp [Land]
+1x Swan Song [Removal]
+1x Takenuma, Abandoned Mire [Land]
+1x Talisman of Dominance [Ramp]
+1x Talisman of Indulgence [Ramp]
+1x Tergrid, God of Fright // Tergrid's Lantern [Discard]
+1x The Raven Man [Discard]
+1x Thousand-Year Elixir [Untap]
+1x Timetwister [Draw]
+1x Tinybones, Bauble Burglar [Discard]
+1x Tinybones, Trinket Thief [Draw]
+1x Tourach, Dread Cantor [Discard]
+1x Toxic Deluge [Removal]
+1x Training Center [Land]
+1x Underground River [Land]
+1x Underground Sea [Land]
+1x Underworld Breach [Recursion]
+1x Underworld Dreams [Burn]
+1x Urborg, Tomb of Yawgmoth [Land]
+1x Vampiric Tutor [Tutor]
+1x Volcanic Island [Land]
+1x Waste Not [Discard]
+1x Watery Grave [Land]
+1x Wheel of Fortune [Draw]
+1x Wheel of Misfortune [Draw]
+1x Windfall [Draw]
+1x Xander's Lounge [Land]
+1x Yawgmoth's Will [Recursion]
+```
+
+## Card breakdown
+
+Role tags are the source author's (untagged lines show the card type). *Printing* is the source's pinned printing, if it pinned one.
+
+| Card | Role (source tag) | Type | MV | Identity | GC | Printing |
+|---|---|---|---|---|---|---|
+| [Gwendlyn Di Corci](../../cards/G/gw.md#gwendlyn-di-corci) | Commander | Legendary Creature — Human Rogue | 4 | UBR |  | — |
+| [Underworld Dreams](../../cards/U/un.md#underworld-dreams) | Burn | Enchantment | 3 | B |  | — |
+| [Illusionist's Bracers](../../cards/I/il.md#illusionists-bracers) | Copy | Artifact — Equipment | 2 | C |  | — |
+| [Force of Negation](../../cards/F/fo.md#force-of-negation) | Counters | Instant | 3 | U |  | — |
+| [Force of Will](../../cards/F/fo.md#force-of-will) | Counters | Instant | 5 | U | ✅ | — |
+| [Bottomless Pit](../../cards/B/bo.md#bottomless-pit) | Discard | Enchantment | 3 | B |  | — |
+| [Chains of Mephistopheles](../../cards/C/cha.md#chains-of-mephistopheles) | Discard | Enchantment | 2 | B |  | — |
+| [Dark Deal](../../cards/D/da.md#dark-deal) | Discard | Sorcery | 3 | B |  | — |
+| [Liliana's Caress](../../cards/L/li.md#lilianas-caress) | Discard | Enchantment | 2 | B |  | — |
+| [Mind Twist](../../cards/M/min.md#mind-twist) | Discard | Sorcery | 1 | B |  | — |
+| [Oppression](../../cards/O/op.md#oppression) | Discard | Enchantment | 3 | B |  | — |
+| [Tergrid, God of Fright // Tergrid's Lantern](../../cards/T/te.md#tergrid-god-of-fright--tergrids-lantern) | Discard | Legendary Creature — God // Legendary Artifact | 5 | B | ✅ | — |
+| [The Raven Man](../../cards/T/ther.md#the-raven-man) | Discard | Legendary Creature — Human Wizard | 2 | B |  | — |
+| [Tinybones, Bauble Burglar](../../cards/T/ti.md#tinybones-bauble-burglar) | Discard | Legendary Creature — Skeleton Rogue | 2 | B |  | — |
+| [Tinybones, Pocket Nuisance](../../cards/T/ti.md#tinybones-pocket-nuisance) | Discard | Legendary Creature — Skeleton Rogue | 3 | B |  | — |
+| [Tourach, Dread Cantor](../../cards/T/to.md#tourach-dread-cantor) | Discard | Legendary Creature — Human Cleric | 2 | B |  | — |
+| [Waste Not](../../cards/W/was.md#waste-not) | Discard | Enchantment | 2 | B |  | — |
+| [Bloodchief Ascension](../../cards/B/blo.md#bloodchief-ascension) | Drain | Enchantment | 1 | B |  | — |
+| [Anvil of Bogardan](../../cards/A/an.md#anvil-of-bogardan) | Draw | Artifact | 2 | C |  | — |
+| [Dream Salvage](../../cards/D/dre.md#dream-salvage) | Draw | Instant | 1 | UB |  | — |
+| [Geth's Grimoire](../../cards/G/ge.md#geths-grimoire) | Draw | Artifact — Book | 4 | C |  | — |
+| [Jace's Archivist](../../cards/J/ja.md#jaces-archivist) | Draw | Creature — Vedalken Wizard | 3 | U |  | — |
+| [Magus of the Wheel](../../cards/M/mag.md#magus-of-the-wheel) | Draw | Creature — Human Wizard | 3 | R |  | — |
+| [Mystic Remora](../../cards/M/my.md#mystic-remora) | Draw | Enchantment | 1 | U |  | — |
+| [Notion Thief](../../cards/N/no.md#notion-thief) | Draw | Creature — Human Rogue | 4 | UB | ✅ | — |
+| [Reforge the Soul](../../cards/R/ref.md#reforge-the-soul) | Draw | Sorcery | 5 | R |  | — |
+| [Rhystic Study](../../cards/R/rh.md#rhystic-study) | Draw | Enchantment | 3 | U | ✅ | — |
+| [Timetwister](../../cards/T/ti.md#timetwister) | Draw | Sorcery | 3 | U |  | — |
+| [Tinybones, Trinket Thief](../../cards/T/ti.md#tinybones-trinket-thief) | Draw | Legendary Creature — Skeleton Rogue | 2 | B |  | — |
+| [Wheel of Fortune](../../cards/W/wh.md#wheel-of-fortune) | Draw | Sorcery | 3 | R |  | — |
+| [Wheel of Misfortune](../../cards/W/wh.md#wheel-of-misfortune) | Draw | Sorcery | 3 | R |  | — |
+| [Windfall](../../cards/W/wi.md#windfall) | Draw | Sorcery | 3 | U |  | — |
+| [Pemmin's Aura](../../cards/P/pe.md#pemmins-aura) | Enchantment | Enchantment — Aura | 3 | U |  | — |
+| [Ancient Tomb](../../cards/A/an.md#ancient-tomb) | Land | Land | 0 | C | ✅ | — |
+| [Badlands](../../cards/B/bad.md#badlands) | Land | Land — Swamp Mountain | 0 | BR |  | — |
+| [Blood Crypt](../../cards/B/blo.md#blood-crypt) | Land | Land — Swamp Mountain | 0 | BR |  | — |
+| [Bloodstained Mire](../../cards/B/blo.md#bloodstained-mire) | Land | Land | 0 | C |  | — |
+| [Bojuka Bog](../../cards/B/bo.md#bojuka-bog) | Land | Land | 0 | B |  | — |
+| [City of Brass](../../cards/C/ci.md#city-of-brass) | Land | Land | 0 | C |  | — |
+| [Command Tower](../../cards/C/com.md#command-tower) | Land | Land | 0 | C |  | — |
+| [Crumbling Necropolis](../../cards/C/cr.md#crumbling-necropolis) | Land | Land | 0 | UBR |  | — |
+| [Drowned Catacomb](../../cards/D/dro.md#drowned-catacomb) | Land | Land | 0 | UB |  | — |
+| [Exotic Orchard](../../cards/E/ex.md#exotic-orchard) | Land | Land | 0 | C |  | — |
+| [Island](../../cards/I/is.md#island) (×2) | Land | Basic Land — Island | 0 | U |  | — |
+| [Luxury Suite](../../cards/L/lu.md#luxury-suite) | Land | Land | 0 | BR |  | — |
+| [Mana Confluence](../../cards/M/man.md#mana-confluence) | Land | Land | 0 | C |  | — |
+| [Minamo, School at Water's Edge](../../cards/M/min.md#minamo-school-at-waters-edge) | Land | Legendary Land | 0 | U |  | — |
+| [Morphic Pool](../../cards/M/mor.md#morphic-pool) | Land | Land | 0 | UB |  | — |
+| [Mountain](../../cards/M/mou.md#mountain) (×2) | Land | Basic Land — Mountain | 0 | R |  | — |
+| [Otawara, Soaring City](../../cards/O/ot.md#otawara-soaring-city) | Land | Legendary Land | 0 | U |  | — |
+| [Polluted Delta](../../cards/P/po.md#polluted-delta) | Land | Land | 0 | C |  | — |
+| [Scalding Tarn](../../cards/S/sc.md#scalding-tarn) | Land | Land | 0 | C |  | — |
+| [Steam Vents](../../cards/S/ste.md#steam-vents) | Land | Land — Island Mountain | 0 | UR |  | — |
+| [Swamp](../../cards/S/sw.md#swamp) (×5) | Land | Basic Land — Swamp | 0 | B |  | — |
+| [Takenuma, Abandoned Mire](../../cards/T/ta.md#takenuma-abandoned-mire) | Land | Legendary Land | 0 | B |  | — |
+| [Training Center](../../cards/T/tra.md#training-center) | Land | Land | 0 | UR |  | — |
+| [Underground River](../../cards/U/un.md#underground-river) | Land | Land | 0 | UB |  | — |
+| [Underground Sea](../../cards/U/un.md#underground-sea) | Land | Land — Island Swamp | 0 | UB |  | — |
+| [Urborg, Tomb of Yawgmoth](../../cards/U/ur.md#urborg-tomb-of-yawgmoth) | Land | Legendary Land | 0 | C |  | — |
+| [Volcanic Island](../../cards/V/vo.md#volcanic-island) | Land | Land — Island Mountain | 0 | UR |  | — |
+| [Watery Grave](../../cards/W/wat.md#watery-grave) | Land | Land — Island Swamp | 0 | UB |  | — |
+| [Xander's Lounge](../../cards/X/xa.md#xanders-lounge) | Land | Land — Island Swamp Mountain | 0 | UBR |  | — |
+| [Sheoldred, the Apocalypse](../../cards/S/she.md#sheoldred-the-apocalypse) | Lifegain | Legendary Creature — Phyrexian Praetor | 4 | B |  | — |
+| [Deflecting Swat](../../cards/D/def.md#deflecting-swat) | Protection | Instant | 3 | R |  | — |
+| [Lightning Greaves](../../cards/L/li.md#lightning-greaves) | Protection | Artifact — Equipment | 2 | C |  | — |
+| [Arcane Signet](../../cards/A/arc.md#arcane-signet) | Ramp | Artifact | 2 | C |  | — |
+| [Chrome Mox](../../cards/C/chr.md#chrome-mox) | Ramp | Artifact | 0 | C | ✅ | — |
+| [Dark Ritual](../../cards/D/da.md#dark-ritual) | Ramp | Instant | 1 | B |  | — |
+| [Lion's Eye Diamond](../../cards/L/li.md#lions-eye-diamond) | Ramp | Artifact | 0 | C | ✅ | — |
+| [Lotus Petal](../../cards/L/lo.md#lotus-petal) | Ramp | Artifact | 0 | C |  | — |
+| [Patriar's Seal](../../cards/P/pa.md#patriars-seal) | Ramp | Artifact | 3 | C |  | — |
+| [Sol Ring](../../cards/S/so.md#sol-ring) | Ramp | Artifact | 1 | C |  | — |
+| [Talisman of Dominance](../../cards/T/ta.md#talisman-of-dominance) | Ramp | Artifact | 2 | UB |  | — |
+| [Talisman of Indulgence](../../cards/T/ta.md#talisman-of-indulgence) | Ramp | Artifact | 2 | BR |  | — |
+| [Kess, Dissident Mage](../../cards/K/ke.md#kess-dissident-mage) | Recursion | Legendary Creature — Human Wizard | 4 | UBR |  | — |
+| [Underworld Breach](../../cards/U/un.md#underworld-breach) | Recursion | Enchantment | 2 | R | ✅ | — |
+| [Yawgmoth's Will](../../cards/Y/ya.md#yawgmoths-will) | Recursion | Sorcery | 3 | B |  | — |
+| [An Offer You Can't Refuse](../../cards/A/an.md#an-offer-you-cant-refuse) | Removal | Instant | 1 | U |  | — |
+| [Cyclonic Rift](../../cards/C/cy.md#cyclonic-rift) | Removal | Instant | 2 | U | ✅ | — |
+| [Fierce Guardianship](../../cards/F/fi.md#fierce-guardianship) | Removal | Instant | 3 | U | ✅ | — |
+| [Mana Drain](../../cards/M/man.md#mana-drain) | Removal | Instant | 2 | U |  | — |
+| [Orcish Bowmasters](../../cards/O/or.md#orcish-bowmasters) | Removal | Creature — Orc Archer | 2 | B | ✅ | — |
+| [Swan Song](../../cards/S/sw.md#swan-song) | Removal | Instant | 1 | U |  | — |
+| [Toxic Deluge](../../cards/T/to.md#toxic-deluge) | Removal | Sorcery | 3 | B |  | — |
+| [Withering Torment](../../cards/W/wi.md#withering-torment) | Removal | Instant | 3 | B |  | — |
+| [Dauthi Voidwalker](../../cards/D/da.md#dauthi-voidwalker) | Stax | Creature — Dauthi Rogue | 2 | B |  | — |
+| [Opposition Agent](../../cards/O/op.md#opposition-agent) | Stax | Creature — Human Rogue | 3 | B | ✅ | — |
+| [Demonic Tutor](../../cards/D/dem.md#demonic-tutor) | Tutor | Sorcery | 2 | B | ✅ | — |
+| [Gamble](../../cards/G/ga.md#gamble) | Tutor | Sorcery | 1 | R | ✅ | — |
+| [Imperial Seal](../../cards/I/im.md#imperial-seal) | Tutor | Sorcery | 1 | B | ✅ | — |
+| [Mystical Tutor](../../cards/M/my.md#mystical-tutor) | Tutor | Instant | 1 | U | ✅ | — |
+| [Vampiric Tutor](../../cards/V/va.md#vampiric-tutor) | Tutor | Instant | 1 | B | ✅ | — |
+| [Magewright's Stone](../../cards/M/mag.md#magewrights-stone) | Untap | Artifact | 2 | C |  | — |
+| [Thousand-Year Elixir](../../cards/T/tho.md#thousand-year-elixir) | Untap | Artifact | 3 | C |  | — |
+
+## Source commentary (verbatim)
+
+> Quoted from the source repo with headings turned into bold text. This is **the source author's analysis and opinion (guidance)**, from `grixis-commander-encyclopediaGPT`, path shown above each block. Relative links point back to the source. Rules statements here were not re-verified card by card (see [Grixis Corrections](../Grixis%20Corrections.md#oracle-text-check) for the Oracle check). Where the source mentions Lutri, Trade Secrets or Yawgmoth's Bargain as approved exceptions, our corrected list above takes precedence.
+
+### From `refinement/decisions/Gwendlyn_Di_Corci_Current_Cycle_Decisions_2026-10-14.md`
+
+Source: [refinement/decisions/Gwendlyn_Di_Corci_Current_Cycle_Decisions_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decisions/Gwendlyn_Di_Corci_Current_Cycle_Decisions_2026-10-14.md)
+
+**Gwendlyn Di Corci — Current-Cycle Refinement Decisions**
+
+Cycle: `global-restart-2026-10-13`  
+Date: 2026-10-14  
+Baseline artifact: `refinement/decklists/Gwendlyn_Di_Corci_Current_Cycle_Baseline_2026-10-14.txt`  
+Baseline SHA-256: `265797170468ec011582a6e0a341eee5a3ec084c921303b4f4611b7b1e112bf3`  
+Authoritative source: `GrixisFINAL60--2026.zip / Gwendlyn_Di_Corci.csv`  
+Source CSV SHA-256: `b4200e0d54197135870a5a4f13ef311c5393860ec3e8d2dc9074e565bfd08495`  
+Approval-candidate artifact: `refinement/decklists/Gwendlyn_Di_Corci_Approval_Candidate_2026-10-14.txt`  
+Approval-candidate SHA-256: `9a393cb7edf40f9bfb388d37dd657839cad851dc6a021440c7d1b239c1fd20a9`
+
+**Source reconciliation**
+
+The latest FINAL CSV/TXT export is the current card-membership baseline under the project source-of-truth rules. The older v8.1.4 card-audit material still reflects an earlier five-card configuration containing `Burning Inquiry`, `Counterspell`, `Megrim`, `The Locust God`, and `Winds of Change`; the current FINAL export instead contains `Dream Salvage`, `Fell Specter`, `Hypnotic Specter`, `Sangromancer`, and `Tourach, Dread Cantor`. The older audit is therefore treated as research evidence only and is not allowed to overwrite the current FINAL membership.
+
+**Commander blueprint**
+
+**Primary plan:** make Gwendlyn Di Corci itself a repeatable random-discard engine. Her activated ability is intentionally the center of the list rather than merely a flavor card in a generic Grixis wheels shell.
+
+**Support plan:** give Gwendlyn haste or pseudo-haste, untap her repeatedly, copy her activated ability, refill opposing hands with wheels and then strip them again, and convert discard into cards, mana, stolen permanents, life loss, and table pressure.
+
+**Primary win routes:**
+- Repeated Gwendlyn activations backed by `Illusionist's Bracers`, `Pemmin's Aura`, `Minamo, School at Water's Edge`, `Magewright's Stone`, `Patriar's Seal`, and `Thousand-Year Elixir` to dismantle hands while discard payoffs accrue value.
+- Wheel/discard bursts through `Wheel of Fortune`, `Wheel of Misfortune`, `Windfall`, `Timetwister`, `Dark Deal`, `Reforge the Soul`, `Jace's Archivist`, and `Magus of the Wheel`, amplified by `Waste Not`, `Geth's Grimoire`, `Liliana's Caress`, `Tinybones` cards, `Sheoldred`, and `Orcish Bowmasters`.
+- Resource denial/value asymmetry from `Chains of Mephistopheles`, `Notion Thief`, `Opposition Agent`, `Dauthi Voidwalker`, `Tergrid`, `Bottomless Pit`, and `Oppression`.
+- Reuse premium discard and wheel spells through `Kess, Dissident Mage`, `Underworld Breach`, and `Yawgmoth's Will` where their own rules permit.
+
+**Natural ceiling:** **Bracket 4 — Optimized.** The commander can support an oppressive, high-interaction discard-control shell, but Gwendlyn is a four-mana tap-ability commander with a once-per-activation one-card effect and needs haste/untap infrastructure. Converting the deck into generic Grixis Thoracle/Breach turbo-combo would raise generic card power while making the commander substantially less relevant, so that conversion is rejected under the commander-first philosophy.
+
+**Accepted swaps**
+
+1. **Bone Miser → Mind Twist**
+   - `Bone Miser` is a five-mana engine that rewards the controller for discarding their own cards; most of its ceiling comes from the wheel package rather than Gwendlyn.
+   - `Mind Twist` is efficient, scalable random discard that directly mirrors the commander's defining mechanic and can remove multiple cards from one chosen player's hand.
+   - It also remains useful as a premium recursion target for the deck's spell-recursion package.
+
+2. **Fell Specter → Illusionist's Bracers**
+   - `Fell Specter` is a four-mana discard payoff, but it does not improve Gwendlyn's actual activation rate.
+   - `Illusionist's Bracers` copies Gwendlyn's nonmana activated ability whenever it is activated while equipped, producing an additional random discard without paying another tap cost and allowing a different player to be targeted with the copy.
+   - This is substantially more commander-specific than another generic punishment body.
+
+3. **Hypnotic Specter → Pemmin's Aura**
+   - `Hypnotic Specter` is thematically excellent random discard, but it requires surviving summoning sickness and then connecting in combat.
+   - `Pemmin's Aura` turns each available blue mana into another Gwendlyn untap/activation on the controller's turn and also supplies reactive shroud protection.
+   - The accepted card raises both commander throughput and resilience rather than adding a second, slower version of the commander's effect.
+
+4. **Sangromancer → Tinybones, Pocket Nuisance**
+   - `Sangromancer` is a four-mana life-gain payoff that stabilizes but does not materially accelerate the deck's pressure or commander plan.
+   - `Tinybones, Pocket Nuisance` costs three, makes each opponent discard when it enters, and converts every qualifying discard event—including Gwendlyn's random discard—into damage to each opponent.
+   - It therefore functions as both immediate disruption and a scalable table-wide payoff.
+
+5. **Feed the Swarm → Withering Torment**
+   - Both preserve black access to creature/enchantment removal.
+   - `Withering Torment` moves the effect to instant speed and uses a fixed two-life payment rather than variable life loss based on mana value.
+   - The additional mana is justified by substantially better multiplayer timing.
+
+6. **Island → Minamo, School at Water's Edge**
+   - `Minamo` remains an untapped blue-producing land and therefore has very low deckbuilding opportunity cost.
+   - Its activated ability directly untaps the legendary commander, producing another Gwendlyn activation when blue mana is available.
+   - Replacing a basic Island rather than a black/red source preserves the rest of the three-color source distribution.
+
+**Whole-list audit and retained challenged cards**
+
+All 99 noncommander slots in the current FINAL baseline were reviewed by role rather than treating rankings as automatic instructions. The following challenged cards are intentionally retained:
+
+- **Lightning Greaves / Thousand-Year Elixir:** essential because Gwendlyn's ability uses the tap symbol and otherwise cannot normally be used the turn she enters. Elixir also supplies another untap.
+- **Magewright's Stone / Patriar's Seal:** direct commander untap effects. Seal also produces mana, so these remain superior to replacing them with another generic discard spell.
+- **Bottomless Pit / Oppression:** repeatable hand pressure that keeps discard payoffs live after the first wheel cycle; Bottomless Pit's random discard is especially aligned with Gwendlyn's identity.
+- **Chains of Mephistopheles / Notion Thief:** high-impact draw-denial pieces that make the deck's wheel effects asymmetric and punish attempts to rebuild stripped hands.
+- **Waste Not / Geth's Grimoire / Liliana's Caress / Tinybones, Trinket Thief / Tinybones, Bauble Burglar:** retained as the efficient payoff/value layer that turns opponent discard into mana, cards, theft, or damage.
+- **Tergrid, God of Fright:** expensive but unusually high-ceiling in a deck repeatedly forcing opponents to discard permanents, and therefore materially connected to the primary plan.
+- **Underworld Breach / Yawgmoth's Will / Kess, Dissident Mage:** retained as recursion/value infrastructure rather than a generic deterministic combo package; they replay the deck's best discard, tutor, wheel, and interaction spells.
+- **Bloodchief Ascension:** retained as a low-cost life-loss payoff. `Mindcrank` is intentionally absent, so the deck is not being converted into a generic two-card combo shell.
+- **Current fast mana / interaction suite:** retained because the four-mana commander needs acceleration and protection to function at its realistic optimized ceiling.
+
+**Serious challengers rejected after second pass**
+
+- **Aphetto Alchemist:** a legitimate two-mana untapper, but summoning sickness and creature fragility make it slower than `Pemmin's Aura` and `Minamo` for the exact commander job.
+- **Battlemage's Bracers:** haste plus activation copying is attractive, but each copy requires an additional mana. `Illusionist's Bracers` is the stronger repeatable activation multiplier once Gwendlyn is online, while the list already has haste/pseudo-haste infrastructure.
+- **Freed from the Real:** performs the same core blue-mana untap function as `Pemmin's Aura`, but Pemmin also provides reactive shroud and other utility for only a tighter initial colored requirement.
+- **Liliana of the Veil:** efficient and synergistic, but its symmetrical +1 also strips the controller and is less commander-specific than the accepted activation engines.
+- **Syphon Mind / Unnerve / Necrogen Mists:** all are defensible discard cards, but they add generic redundancy rather than increasing the commander's throughput. The deck already has sufficient mass/repeatable discard.
+- **Naktamun Lorespinner // Wheel of Fortune:** the prepared Wheel is synergistic, but the front half requires upkeep/low-hand setup and is slower than the existing direct wheel suite. It does not clear a stronger existing slot after direct comparison.
+- **Quest for the Nihil Stone / Raiders' Wake / Painful Quandary:** payoff density is already high; these are slower or more conditional than the retained value engines and accepted commander-specific pieces.
+- **Cao Cao, Lord of Wei:** another tap-to-discard creature fits the theme but costs five mana and has summoning-sickness liability; investing in Gwendlyn's own activations is stronger and more identity-driven.
+- **Monument to Endurance:** rewards the controller's own discard rather than primarily exploiting opponents' random discard; it is more wheel/self-discard support than a Gwendlyn engine.
+- **Mindcrank:** would create a compact combo with `Bloodchief Ascension`, but that line does not require Gwendlyn and would move the deck toward generic combo homogenization. Rejected intentionally.
+- **Mox Diamond / broad fetch-land overhaul:** additional generic acceleration/fixing is defensible in isolation, but the current 35-land plus fast-mana configuration is already functional. No generic mana-base churn beats the commander-specific gain from the single `Minamo` change.
+
+**Current-rule checkpoints before formal gate**
+
+- Gwendlyn's activated ability may be activated only during its controller's turn and uses the tap symbol; normal summoning-sickness restrictions therefore matter unless haste/pseudo-haste is supplied.
+- `Illusionist's Bracers` copies the activated ability without paying its tap cost again; the copy may choose a new target.
+- `Pemmin's Aura` and `Minamo` can repeatedly untap Gwendlyn as their costs can be paid. Pemmin's shroud mode is best used reactively because shroud also prevents the controller from targeting Gwendlyn with their own Minamo/Stone/Seal effects while it lasts.
+- `Tinybones, Pocket Nuisance` triggers once for a given player's event of discarding one or more cards, not once per card discarded in that single event. Its own ETB causes each opponent to discard and therefore immediately feeds the discard plan.
+- `Chains of Mephistopheles` replaces draws other than the first card drawn in each draw step with its discard/draw-or-mill procedure, making wheel sequencing materially asymmetric when hands are being emptied.
+- `Notion Thief` can replace opponents' draws with draws for its controller, making wheel effects especially punishing after the initial discard.
+- `Tergrid` only returns opponent permanent cards discarded or sacrificed while its trigger conditions are met; nonpermanent cards do not become permanents under its control.
+
+**Closure**
+
+After the six accepted swaps, the current FINAL baseline, inherited candidate rankings, current commander evidence, direct activation-engine alternatives, recent 2026 releases, removal suite, mana base, payoff density, and generic combo temptations were challenged a second time. The second serious pass produced **ZERO NEW MATERIAL IMPROVEMENTS**.
+
+Candidate state before formal gate:
+- 100 cards
+- 94 distinct names
+- only basic Island, Mountain, and Swamp repeat
+- 35 lands
+- commander-first random-discard / activated-ability / wheels identity preserved
+- target natural ceiling: Bracket 4 — Optimized
+- no project legality exception expected
+
+The candidate remains **NOT APPROVED** until the complete fail-closed Oracle/color-identity/legality/rules gate passes and the user explicitly approves the exact SHA-bound candidate.
+
+### From `refinement/approvals/Gwendlyn_Di_Corci_Approved_2026-10-14.md`
+
+Source: [refinement/approvals/Gwendlyn_Di_Corci_Approved_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/approvals/Gwendlyn_Di_Corci_Approved_2026-10-14.md)
+
+**Gwendlyn Di Corci — Approved and Locked**
+
+Cycle: `global-restart-2026-10-13`  
+Approval date: 2026-10-14  
+Status: **APPROVED / LOCKED**
+
+**Canonical approved list**
+
+- Candidate SHA-256: `9a393cb7edf40f9bfb388d37dd657839cad851dc6a021440c7d1b239c1fd20a9`
+- Approved artifact: `refinement/decklists/Gwendlyn_Di_Corci_Approved_2026-10-14.txt`
+- Approval candidate: `refinement/decklists/Gwendlyn_Di_Corci_Approval_Candidate_2026-10-14.txt`
+- Complete gate: `refinement/verification/gwendlyn_di_corci_2026-10-14/gate_output/Gwendlyn_Di_Corci_2026-10-14_Complete_Gate.json`
+- Whole-list decision ledger: `refinement/decisions/Gwendlyn_Di_Corci_Current_Cycle_Decisions_2026-10-14.md`
+
+The approved artifact is byte-identical to the exact SHA-bound candidate approved by the user. No post-approval card edits are permitted unless the user explicitly reopens this deck.
+
+**Verification state at approval**
+
+- Card count: **100**
+- Distinct names: **94**
+- Commander color identity: **B/R/U**
+- Rules gate: **PASS**
+- Official Commander legality: **PASS**
+- Project exceptions: **none**
+- Gate errors: **0**
+- Complete gate result: **APPROVAL_READY** before explicit user approval
+- Mandatory 99-slot whole-list audit: **complete**
+- Candidate exhaustion / second serious pass: **ZERO NEW MATERIAL IMPROVEMENTS**
+- Natural ceiling: **Bracket 4 — Optimized**
+- Archidekt tags: **Random Discard / Activated Ability / Wheels**
+
+**Approved changes**
+
+1. Bone Miser → Mind Twist
+2. Fell Specter → Illusionist's Bracers
+3. Hypnotic Specter → Pemmin's Aura
+4. Sangromancer → Tinybones, Pocket Nuisance
+5. Feed the Swarm → Withering Torment
+6. Island → Minamo, School at Water's Edge
+
+<!-- COMBOS:START -->
+## Combos (Commander Spellbook)
+
+> Generated 2026-10-15 by `scripts/build_grixis.py` from the [Commander Spellbook](https://commanderspellbook.com) public API (community-maintained). Shows only combos whose **every card is in this list**. Bracket barometer: *Brackets 1–2: no intentional two-card infinite combos. Bracket 3: no early-game two-card infinite combos.*
+
+**1 complete combo(s); 0 two-card infinite.** 52 more are one card away (not listed).
+
+| Cards | Produces (Spellbook) | Extra requirements | Link |
+|---|---|---|---|
+| Underworld Breach + Lion's Eye Diamond + Wheel of Fortune | Infinite draw triggers, Infinite looting, Infinite looting for opponents, Near-infinite storm count | — | [1368-2706-3518](https://commanderspellbook.com/combo/1368-2706-3518/) |
+<!-- COMBOS:END -->

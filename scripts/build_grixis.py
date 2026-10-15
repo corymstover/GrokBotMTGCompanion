@@ -1,0 +1,455 @@
+#!/usr/bin/env python3
+"""Build the Grixis section (grixis/) from the read-only source repo (Bot cycle 16).
+
+Source: corymstover/grixis-commander-encyclopediaGPT, cloned to /workspace/grixis-src (never modified).
+Steps: run scripts/grixis_eval.py checks → apply logged corrections → write
+  grixis/decks/<slug>.md (one page per integrated list: commander block, validation, bracket floor,
+      corrections, Archidekt list, card breakdown, source commentary verbatim with attribution,
+      Commander Spellbook combos),
+  grixis/Grixis Evaluation.md (all 62 source lists), grixis/Grixis Corrections.md,
+  grixis/Grixis Packages.md (cross-deck package library), data/grixis_combos.json.
+Usage: python3 scripts/build_grixis.py [--refresh-combos] [SRC]
+Facts come from Scryfall bulk (.cache/) and Commander Spellbook; source commentary is the
+source author's guidance and is quoted, not re-asserted.
+"""
+import csv, datetime as dt, glob, json, os, re, subprocess, sys, time
+from collections import Counter, defaultdict
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import ingest_scryfall as ing  # noqa: E402
+import detect_combos as dc  # noqa: E402
+from grixis_eval import norm  # noqa: E402
+
+ROOT = Path(__file__).resolve().parent.parent
+args = [a for a in sys.argv[1:] if not a.startswith("--")]
+SRC = Path(args[0] if args else "/workspace/grixis-src")
+REPO = "https://github.com/corymstover/grixis-commander-encyclopediaGPT"
+OUT = ROOT / "grixis"
+DECKS = OUT / "decks"
+TODAY = dt.date.today().isoformat()
+SRC_SHA = subprocess.run(["git", "-C", str(SRC), "rev-parse", "--short", "HEAD"], capture_output=True, text=True).stdout.strip()
+BLOB = f"{REPO}/blob/{SRC_SHA or 'main'}/"
+
+# ---- corrections that change cards (everything else is mechanical and logged automatically)
+CARD_FIXES = {
+    "Cecily__Bjorna__Lutri": [
+        ("Trade Secrets", "Wizard Class", "legality",
+         "Trade Secrets is **banned in Commander** (Scryfall). The source kept it as a *project exception*. Replaced with Wizard Class, which the source's own approval dossier logged as a close alternative (\"hand-size support\"). Its Oracle text says \"You have no maximum hand size\" and level 2 draws two cards, so it serves the same goal: reaching Cecily's eleven-card hand."),
+        ("Yawgmoth's Bargain", "Flame of Anor", "legality",
+         "Yawgmoth's Bargain is **banned in Commander** (Scryfall). Replaced with Flame of Anor, another alternative from the source dossier. Its Oracle text: \"Target player draws two cards\" as one mode, and you may choose two modes if you control a Wizard (Cecily is a Human Wizard). It is draw plus interaction at instant speed."),
+    ],
+}
+COMPANION_NOTE = {
+    "Cecily__Bjorna__Lutri": "The source's approval record designates **Lutri, the Spellchaser** as a companion outside the 100. Commander bans Lutri *as a companion* (B&R 2026-02-09; Lutri is legal in the 99). So the companion is **dropped** here. The source's approved 100-card file does not list Lutri anyway, so no card count changes.",
+}
+LEFT_OUT = {
+    "The_Madcap_Jester": "The commander and Dragon's Smile come from Scryfall set `mbc` (draft_innovation), releasing 2026-10-19. Both are `not_legal` in Commander today, and the source registers them as a *future-release* exception. Re-check after release.",
+    "Tresserhorn_s_Lord__Returned": "The commander is in set `mbc` (releasing 2026-10-19) and is `not_legal` in Commander today. The source registers it as a *future-release* exception.",
+}
+EVIDENCE_LABELS = ("VERIFIED", "HIGH_CONFIDENCE", "PROVISIONAL", "TEST_REQUIRED", "BLOCKED")
+
+
+def slugify(s):
+    s = re.sub(r"[^\w\s-]", "", norm_keep(s)).strip().lower()
+    return re.sub(r"[\s_]+", "-", s)
+
+
+def norm_keep(s):
+    import unicodedata
+    return unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode().replace("'", "")
+
+
+def rel_link(row, up="../../"):
+    return f"[{row['name']}]({up}{row['shard'].replace(' ', '%20')}#{row['anchor']})" if row.get("shard") else row["name"]
+
+
+def type_tag(t):
+    front = t.split(" // ")[0]
+    for k in ("Land", "Creature", "Planeswalker", "Battle", "Instant", "Sorcery", "Artifact", "Enchantment"):
+        if k in front:
+            return k
+    return "Other"
+
+
+def src_files(did):
+    key = norm(did).replace("the", "")
+    out = defaultdict(list)
+    for f in sorted(glob.glob(str(SRC / "refinement/**/*"), recursive=True)):
+        p = Path(f)
+        if p.is_file() and norm(p.name).replace("the", "").startswith(key):
+            out[p.parent.name].append(p)
+    return out
+
+
+def demote(md, rel_dir):
+    """Quote a source markdown file: headings demoted under ####, relative links → absolute source URLs."""
+    def fix(m):
+        t = m.group(2)
+        if re.match(r"^[a-z]+:", t) or t.startswith("#"):
+            return m.group(0) if not t.startswith("#") else m.group(1)
+        return f"{m.group(1)}({BLOB}{os.path.normpath(os.path.join(rel_dir, t))})"
+    md = re.sub(r"(\[[^\]]*\])\(([^)\s]+)\)", fix, md)
+    lines = []
+    infence = False
+    for l in md.splitlines():
+        if l.startswith("```"):
+            infence = not infence
+        if not infence and re.match(r"^#{1,6} ", l):
+            l = "**" + l.lstrip("#").strip() + "**"
+        lines.append(l)
+    return "\n".join(lines).strip()
+
+
+def decisions_csv_table(p):
+    rows = list(csv.DictReader(open(p, encoding="utf-8")))
+    out = ["| ID | Candidate | Proposed cut | Decision | Source reasoning (abridged) |", "|---|---|---|---|---|"]
+    for r in rows:
+        why = (r.get("reviewer_notes") or r.get("expected_benefit") or "").replace("|", "/").replace("\n", " ")
+        out.append(f"| {r.get('review_id','')} | {r.get('candidate_card','')} | {r.get('proposed_cut','')} | {r.get('decision_status','')[:60]} | {why[:400]}{'…' if len(why) > 400 else ''} |")
+    return "\n".join(out)
+
+
+def combos(decks, refresh):
+    cache = ROOT / "data" / "grixis_combos.json"
+    have = json.loads(cache.read_text())["decks"] if cache.exists() and not refresh else {}
+    for did, d in decks.items():
+        sig = sorted(c["name"] for c in d["final"])
+        if did in have and have[did].get("sig") == sig:
+            continue
+        cmd = [c["name"] for c in d["final"] if c["zone"] == "commander"]
+        mn = [c["name"] for c in d["final"] if c["zone"] == "main"]
+        res = dc.query(cmd, mn)
+        rows = []
+        for v in sorted(res["included"], key=lambda v: (len(v["uses"]), v["id"])):
+            names = [u["card"]["name"] for u in v["uses"]]
+            rows.append({"id": v["id"], "cards": names, "n": len(names), "infinite": dc.infinite(v),
+                         "produces": [p["feature"]["name"] for p in v["produces"]][:4],
+                         "requires": [r["template"]["name"] for r in v.get("requires", [])], "csb_bracket_tag": v.get("bracketTag")})
+        have[did] = {"sig": sig, "combos": rows, "almost": len(res.get("almostIncluded", [])), "queried": TODAY}
+        print(f"  spellbook {did}: {len(rows)} combos", flush=True)
+        time.sleep(1)
+    cache.write_text(json.dumps({"source": dc.API, "decks": have}, indent=1, ensure_ascii=False))
+    return have
+
+
+def main():
+    subprocess.run([sys.executable, str(ROOT / "scripts/grixis_eval.py"), str(SRC)], check=True, stdout=subprocess.DEVNULL)
+    ev = json.loads((ROOT / "data/grixis_eval.json").read_text())
+    cards, bulk = ing.get_bulk(ing.DEFAULT_CACHE, None)
+    by_name = {}
+    for c in cards:
+        if c.get("layout") not in ing.EXCLUDED_LAYOUTS and ing.in_universe(c):
+            by_name.setdefault(c["name"], c)
+    index = {r["oracle_id"]: r for r in csv.DictReader(ing.INDEX_CSV.open(encoding="utf-8"))}
+    DECKS.mkdir(parents=True, exist_ok=True)
+    import tarfile
+    from grixis_eval import parse
+    tar = tarfile.open(SRC / "source-package/GrixisFINAL_62Decks_CSV_TXT_2026-10-12.tar.gz")
+    base_tags, any_tags = {}, defaultdict(Counter)
+    for m in tar.getmembers():
+        if m.isfile() and m.name.endswith(".txt"):
+            for e in parse(tar.extractfile(m).read().decode("utf-8-sig")):
+                if not e.get("bad") and e["tags"] and "commander" not in e["tags"].lower():
+                    base_tags[(Path(m.name).stem, e["name"])] = e["tags"]
+                    any_tags[e["name"]][e["tags"]] += 1
+    corrections, integrated, evaluation = [], {}, []
+    for did, d in ev["decks"].items():
+        approved = d["source_state"]["approval_status"] == "APPROVED"
+        hard = [i for i in d["issues"] if i["type"] in ("banned", "not Commander-legal", "color identity", "deck size", "singleton", "unresolved name", "commander eligibility", "commander pairing")]
+        fixable = {f[0] for f in CARD_FIXES.get(did, [])}
+        unfixed = [i for i in hard if i["card"] not in fixable]
+        if did in LEFT_OUT:
+            why = "future-release: " + LEFT_OUT[did]
+        elif not approved:
+            why = "not integrated: the source repo marks this list UNREFINED (its whole-list audit has not run yet). Validation results are kept here for a later import."
+        elif unfixed:
+            why = "not integrated: unresolved " + "; ".join(i["type"] for i in unfixed)
+        else:
+            why = None
+        evaluation.append((did, d, hard, why))
+        if why:
+            continue
+        final = [dict(r) for r in d["cards"] if r["zone"] != "companion"]
+        fixes = []
+        for old, new, kind, reason in CARD_FIXES.get(did, []):
+            c = by_name[new]
+            assert c["legalities"]["commander"] == "legal" and set(c["color_identity"]) <= set(d["ci"]) and c["oracle_id"] in index
+            for r in final:
+                if r["name"] == old:
+                    r0 = index[c["oracle_id"]]
+                    r.update(name=c["name"], src_name=old, oracle_id=c["oracle_id"], ci="".join(x for x in "WUBRG" if x in c["color_identity"]) or "C",
+                             type=c["type_line"], mv=c.get("cmc", 0), gc=bool(c.get("game_changer")), legal="legal",
+                             shard=r0["shard"], anchor=r0["anchor"], set=None, cn=None, fixed=True)
+            fixes.append((kind, f"{old} → {new}", reason))
+        if did in COMPANION_NOTE:
+            fixes.append(("companion", "Lutri, the Spellchaser (companion) removed", COMPANION_NOTE[did]))
+        # mechanical normalization log
+        restored = [0, 0]
+        for r in final:
+            if r["zone"] == "commander" or r["tags"]:
+                continue
+            key = r.get("src_name") or r["name"]
+            if (did, key) in base_tags:
+                r["tags"], restored[0] = base_tags[(did, key)], restored[0] + 1
+            elif any_tags.get(key):
+                r["tags"], restored[1] = any_tags[key].most_common(1)[0][0], restored[1] + 1
+        untagged = [r for r in final if not r["tags"] or r["tags"].lower() in ("commander",)]
+        cmd_plain = [r for r in final if r["zone"] == "commander" and "{top}" not in r["tags"]]
+        pins = sum(1 for r in final if r.get("set"))
+        mech = []
+        if cmd_plain:
+            mech.append(f"`[Commander]` → `[Commander{{top}}]` ({len(cmd_plain)} line(s))")
+        n_unt = len([r for r in untagged if r["zone"] != "commander"])
+        if restored[0] or restored[1]:
+            mech.append(f"role tags restored on {sum(restored)} untagged line(s): {restored[0]} from this deck's FINAL baseline, {restored[1]} from the tag the source uses most for that card in other decks")
+        if n_unt:
+            mech.append(f"{n_unt} untagged line(s) given a type tag (e.g. `[Land]`)")
+        if pins:
+            mech.append(f"{pins} pinned printings `(set) number` moved from the import block to the card breakdown, as in our 46 decks")
+        if mech:
+            fixes.append(("format", "Archidekt list normalized to [EDH Standards](../../EDH%20Standards.md#list-format-archidekt)", "; ".join(mech) + "."))
+        sh = d.get("selection", "")
+        if "card-for-card" in sh:
+            fixes.append(("provenance", "approved list located by content", f"The SHA-256 recorded in the source's `state/current_deck_overrides.json` matches none of its files. We used `{d['source_path']}`, which matches the deck's Card_Verification CSV card for card."))
+        d["final"], d["fixes"] = final, fixes
+        integrated[did] = d
+        for kind, what, reason in fixes:
+            corrections.append((did, d, kind, what, reason))
+    combo = combos(integrated, "--refresh-combos" in sys.argv)
+
+    # ---------------- per-deck pages
+    names_ix = {}
+    for did, d in integrated.items():
+        final = d["final"]
+        cmdrs = [r for r in final if r["zone"] == "commander"]
+        title = " + ".join(r["name"] for r in cmdrs)
+        slug = slugify(did.replace("__", " ").replace("_", " ")) if did.startswith("Grixistax") else slugify(cmdrs[0]["name"].split(" // ")[0]) + (("-" + slugify(cmdrs[1]["name"].split(",")[0])) if len(cmdrs) > 1 else "")
+        d["slug"] = slug
+        names_ix[did] = slug
+        gcs = [r["name"] for r in final if r["gc"]]
+        xt = [r["name"] for r in final if r["xturn"]]
+        mld = [r["name"] for r in final if r["mld"]]
+        floor = 4 if (mld or len(gcs) > 3) else 3 if gcs else 2
+        co = combo[did]["combos"]
+        two_inf = [x for x in co if x["n"] == 2 and x["infinite"]]
+        cfloor = max(floor, 3) if two_inf else floor
+        d.update(gcs=gcs, floor=floor, cfloor=cfloor, n_combos=len(co), n_two=len(two_inf))
+        total = sum(r["qty"] for r in final)
+        lands = sum(r["qty"] for r in final if type_tag(r["type"]) == "Land")
+        basics = sum(r["qty"] for r in final if "Basic" in r["type"])
+        avg = sum(r["mv"] * r["qty"] for r in final if type_tag(r["type"]) != "Land" and r["zone"] == "main") / max(1, sum(r["qty"] for r in final if type_tag(r["type"]) != "Land" and r["zone"] == "main"))
+        d.update(lands=lands, avg_mv=avg)
+        src_claim = None
+        fl = src_files(did)
+        texts = "\n".join(p.read_text(encoding="utf-8", errors="ignore") for k in ("approvals", "decisions", "blueprints") for p in fl.get(k, []) if p.suffix == ".md")
+        m = re.search(r"Bracket[^0-9\n]{0,6}([1-5])\s*(?:[—/-]|\(|)\s*`?\**\s*([A-Za-z][A-Za-z /()-]*?)\s*(?:[`*\n.,;)]|$)", texts)
+        if m:
+            src_claim = f"{m.group(1)} — {m.group(2).strip()}"
+        d["src_claim"] = src_claim
+        mt = re.search(r"Archidekt tags:?\**:?\s*\**\s*([A-Za-z0-9+/&' ,-]{3,80}?)\s*(?:\*\*|\.|\n)", texts)
+        d["themes"] = mt.group(1).strip() if mt else ""
+        fx = (f"The source records no Game Changer count and does not check the official Game Changers list anywhere in its approval records. We added it: **{len(gcs)} Game Changers**, so the minimum bracket is **{floor}**"
+              + (f", and **{cfloor}** once its two-card infinite combos are counted" if cfloor > floor else "") + f". Commander Spellbook finds {len(co)} complete combos ({len(two_inf)} two-card infinite)."
+              + (f" This is consistent with the source's stated Bracket {src_claim.split(' ')[0]}." if src_claim and int(src_claim[0]) >= cfloor else (f" ⚠️ The source states Bracket {src_claim.split(' ')[0]}, which is **below** this floor." if src_claim else "")))
+        d["fixes"].append(("bracket", "Game Changers and combo floor added", fx))
+        corrections.append((did, d, "bracket", "Game Changers and combo floor added", fx))
+        if lands < 32 and avg > 3.0:
+            note = f"{lands} lands with an average nonland MV of {avg:.2f}. That is below the community-convention range (~36 lands; see [EDH Standards](../../EDH%20Standards.md#deck-building-checklist)) for a curve this high. **Guidance:** review the mana base. The list is unchanged, because the source approved it."
+            d["fixes"].append(("structure (flag)", "low land count for curve", note))
+            corrections.append((did, d, "structure (flag)", "low land count for curve", note))
+        ci = d["ci"]
+        L = [f"# Grixis Deck — {title}", "",
+             f"> **From [grixis-commander-encyclopediaGPT]({REPO}), path [`{d['source_path']}`]({BLOB}{d['source_path'].split(' → ')[0]})** "
+             f"({d['source_state'].get('approval_status')} / {d['source_state'].get('lock_status')} in the source, user approval {d['source_state'].get('user_approval_date')}; source commit `{SRC_SHA}`). "
+             f"Imported in Bot cycle 16 and re-validated against Scryfall Oracle bulk {bulk[:10]}. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).", "",
+             "## Contents", "- [Commander](#commander)", "- [Validation](#validation)", "- [Bracket assessment](#bracket-assessment)",
+             "- [Corrections applied](#corrections-applied)", "- [Decklist (Archidekt import)](#decklist-archidekt-import)", "- [Card breakdown](#card-breakdown)",
+             "- [Source commentary (verbatim)](#source-commentary-verbatim)", "- [Combos (Commander Spellbook)](#combos-commander-spellbook)", "",
+             "## Commander", ""]
+        for r in cmdrs:
+            c = by_name.get(r["name"]) or {}
+            L.append(f"- **{rel_link(r)}** — {c.get('mana_cost') or ' // '.join(f.get('mana_cost','') for f in c.get('card_faces') or [])} — {r['type']}")
+        L.append(f"- Color identity: **{ing.ci_label(list(ci))}**")
+        for r in cmdrs:
+            c = by_name.get(r["name"]) or {}
+            pn = ing.pairing_notes(c) if c else []
+            L.append(f"- Eligibility ({r['name']}): {ing.commander_eligibility(c)}" + (f" · pairing: {', '.join(pn)}" if pn else ""))
+        L += ["", "## Validation", "",
+              f"- Total cards: **{total}** ({len(cmdrs)} commander(s) + {total - len(cmdrs) - lands} nonland + {lands - basics} nonbasic lands + {basics} basics) · average nonland MV {avg:.2f}",
+              "- Strict color identity (CR 903.5c), singleton (903.5b), Commander-legal, size (903.5a): ✅ **all checks pass**" + (" (after the corrections below)" if any(f[0] == "legality" for f in d["fixes"]) else ""),
+              f"- Every card resolves to an entry in our card DB ({len(final)}/{len(final)} lines linked).", "",
+              "## Bracket assessment", "",
+              f"- Game Changers ({len(gcs)}): " + (", ".join(gcs) or "none"),
+              "- Extra-turn cards: " + (", ".join(xt) or "none"),
+              "- Mass land denial: " + (", ".join(mld) or "none"),
+              f"- Commander Spellbook: {len(co)} complete combo(s), {len(two_inf)} two-card infinite (see [Combos](#combos-commander-spellbook)).",
+              f"- **Minimum bracket by the published barometers: {floor}** ({'more than three Game Changers' if len(gcs) > 3 else '1–3 Game Changers' if gcs else 'no Game Changers'}{'; mass land denial' if mld else ''})."
+              + (f" **Bracket implication:** a two-card infinite combo raises the floor to **Bracket {cfloor}+**." if cfloor > floor else ""),
+              f"- Source's stated target (guidance): **Bracket {src_claim}**." if src_claim else "- Source's stated target: not stated in the imported records.",
+              "- (Brackets are a pregame-conversation tool. See [EDH Standards](../../EDH%20Standards.md#power-bracket-assessment).)", "",
+              "## Corrections applied", ""]
+        if d["fixes"]:
+            L += ["| Type | Change | Reason |", "|---|---|---|"] + [f"| {k} | {w} | {r} |" for k, w, r in d["fixes"]]
+        else:
+            L.append("None needed.")
+        L += ["", f"Full log for all decks: [Grixis Corrections](../Grixis%20Corrections.md).", "", "## Decklist (Archidekt import)", "", "```text"]
+        for r in final:
+            if r["zone"] == "commander":
+                tag = "Commander{top}"
+            else:
+                tag = r["tags"] or type_tag(r["type"])
+            L.append(f"{r['qty']}x {r['name']} [{tag}]")
+        L += ["```", "", "## Card breakdown", "",
+              "Role tags are the source author's (untagged lines show the card type). *Printing* is the source's pinned printing, if it pinned one.", "",
+              "| Card | Role (source tag) | Type | MV | Identity | GC | Printing |", "|---|---|---|---|---|---|---|"]
+        for r in sorted(final, key=lambda r: (r["zone"] != "commander", (r["tags"] or type_tag(r["type"])).lower(), r["name"])):
+            role = "Commander" if r["zone"] == "commander" else (r["tags"] or type_tag(r["type"]))
+            L.append(f"| {('**' + rel_link(r) + '**') if r.get('fixed') else rel_link(r)}{' (×' + str(r['qty']) + ')' if r['qty'] > 1 else ''} | {role} | {r['type']} | {int(r['mv'])} | {r['ci']} | {'✅' if r['gc'] else ''} | {(r['set'] or '') + (' ' + r['cn'] if r.get('cn') else '') if r.get('set') else '—'} |")
+        L += ["", "## Source commentary (verbatim)", "",
+              f"> Quoted from the source repo with headings turned into bold text. This is **the source author's analysis and opinion (guidance)**, from `{REPO.split('/')[-1]}`, path shown above each block. Relative links point back to the source. Rules statements here were not re-verified card by card (see [Grixis Corrections](../Grixis%20Corrections.md#oracle-text-check) for the Oracle check). Where the source mentions Lutri, Trade Secrets or Yawgmoth's Bargain as approved exceptions, our corrected list above takes precedence.", ""]
+        shown = 0
+        for k in ("blueprints", "decisions", "approvals", "evidence"):
+            for p in fl.get(k, []):
+                rp = str(p.relative_to(SRC))
+                if p.suffix == ".md":
+                    L += [f"### From `{rp}`", "", f"Source: [{rp}]({BLOB}{rp})", "", demote(p.read_text(encoding="utf-8"), str(p.parent.relative_to(SRC))), ""]
+                    shown += 1
+                elif p.suffix == ".csv" and k == "decisions" and not any(q.suffix == ".md" for q in fl.get("decisions", [])):
+                    L += [f"### From `{rp}` (candidate decision ledger)", "", f"Source: [{rp}]({BLOB}{rp})", "", decisions_csv_table(p), ""]
+                    shown += 1
+        other = [p for k in ("verification", "rules", "tests", "tracker_reconciliation") for p in fl.get(k, [])]
+        if other:
+            L += ["### Further source evidence (linked, not copied)", ""] + [f"- [{p.relative_to(SRC)}]({BLOB}{p.relative_to(SRC)})" for p in other][:40] + [""]
+        L += [dc.START, "## Combos (Commander Spellbook)", "",
+              f"> Generated {combo[did]['queried']} by `scripts/build_grixis.py` from the [Commander Spellbook](https://commanderspellbook.com) public API (community-maintained). Shows only combos whose **every card is in this list**. Bracket barometer: *Brackets 1–2: no intentional two-card infinite combos. Bracket 3: no early-game two-card infinite combos.*", ""]
+        if not co:
+            L.append(f"**No complete combos found** ({combo[did]['almost']} more are one card away; not listed).")
+        else:
+            L += [f"**{len(co)} complete combo(s); {len(two_inf)} two-card infinite.** {combo[did]['almost']} more are one card away (not listed).", "",
+                  "| Cards | Produces (Spellbook) | Extra requirements | Link |", "|---|---|---|---|"]
+            for x in co:
+                flag = "⚠️ **two-card infinite** · " if x["n"] == 2 and x["infinite"] else ""
+                L.append(f"| {flag}{' + '.join(x['cards'])} | {', '.join(x['produces'])} | {'; '.join(x['requires']) or '—'} | [{x['id']}](https://commanderspellbook.com/combo/{x['id']}/) |")
+        L.append(dc.END)
+        (DECKS / f"{slug}.md").write_text("\n".join(L) + "\n", encoding="utf-8")
+
+    # ---------------- evaluation page (all 62)
+    E = ["# Grixis Evaluation — all 62 source lists", "",
+         f"> Bot cycle 16. Every decklist in [grixis-commander-encyclopediaGPT]({REPO}) (commit `{SRC_SHA}`), checked by `scripts/grixis_eval.py` against Scryfall Oracle bulk {bulk[:10]}. Checks: name resolution, commander eligibility and pairing, 100 cards, singleton (with Oracle copy exceptions such as Nazgûl), color identity, Commander legality and bans, companion, Game Changers. Oracle text recorded in the source's audit CSVs is compared with current Oracle. Back to [Grixis](README.md).", "",
+         "## Contents", "- [Summary](#summary)", "- [Per-list results](#per-list-results)", "- [How the current list was chosen](#how-the-current-list-was-chosen)", "",
+         "## Summary", ""]
+    n_int = len(integrated)
+    E += [f"- Source lists: **{len(evaluation)}** (62 baseline FINAL lists; {sum(1 for _, d, _, _ in evaluation if d['source_state']['approval_status'] == 'APPROVED')} have a newer user-approved list).",
+          f"- **Integrated: {n_int}**, i.e. every approved list that passes or could be corrected to pass. **Left out: {len(evaluation) - n_int}** ({sum(1 for x in evaluation if x[3] and x[3].startswith('future'))} future-release lists; {sum(1 for x in evaluation if x[3] and 'UNREFINED' in x[3])} lists the source still marks UNREFINED).",
+          f"- Hard problems found across all 62: " + (", ".join(f"{v}× {k}" for k, v in Counter(i['type'] for _, _, h, _ in evaluation for i in h).most_common()) or "none") + ".",
+          f"- Oracle check: {ev['oracle_check']['rows_checked']:,} Oracle-text rows in {ev['oracle_check']['files']} source audit files; **{len(ev['oracle_check']['stale'])} differ** from current Oracle.", "",
+          "## Per-list results", "",
+          "| # | Source deck | Commander(s) | Source status | Cards | Hard issues | GC | Result |", "|---|---|---|---|---|---|---|---|"]
+    for i, (did, d, hard, why) in enumerate(evaluation, 1):
+        gc = sum(1 for r in d["cards"] if r["gc"])
+        res = f"✅ [integrated](decks/{names_ix[did]}.md)" if did in integrated else "⏸ " + why
+        E.append(f"| {i} | `{did}` | {' + '.join(d['commanders'])} | {d['source_state']['approval_status']} | {d['total']} | {'; '.join(x['type'] + ': ' + x['card'] for x in hard) or '—'} | {gc} | {res} |")
+    E += ["", "## How the current list was chosen", "",
+          "- If `state/current_deck_overrides.json` marks the deck APPROVED/LOCKED, we use the approved list: the `approved_list_artifact`, or the `refinement/decklists/*.txt` file whose SHA-256 matches `approved_list_sha256`. If no file matches, we use the file that matches the deck's Card_Verification CSV card for card.",
+          "- Otherwise we use the frozen baseline `source-package/GrixisFINAL_62Decks_CSV_TXT_2026-10-12.tar.gz → TXT/<deck>.txt`.", ""]
+    (OUT / "Grixis Evaluation.md").write_text("\n".join(E) + "\n", encoding="utf-8")
+
+    # ---------------- corrections page
+    kinds = Counter(c[2] for c in corrections)
+    C = ["# Grixis Corrections", "",
+         f"> Bot cycle 16. Every change made to a source list on import from [grixis-commander-encyclopediaGPT]({REPO}), with its reason. The source repo was not modified. Back to [Grixis](README.md).", "",
+         "## Contents", "- [Summary](#summary)", "- [Corrections table](#corrections-table)", "- [Oracle text check](#oracle-text-check)", "- [Source-repo structural findings](#source-repo-structural-findings)", "",
+         "## Summary", "", f"**{len(corrections)} corrections** across {len({c[0] for c in corrections})} decks: " + ", ".join(f"{v} {k}" for k, v in kinds.most_common()) + ".", "",
+         "## Corrections table", "", "| Deck | Type | Issue → fix | Reason |", "|---|---|---|---|"]
+    for did, d, kind, what, reason in corrections:
+        C.append(f"| [{' + '.join(d['commanders'])}](decks/{d['slug']}.md) | {kind} | {what.replace('../../', '../')} | {reason.replace('../../', '../')} |")
+    st = ev["oracle_check"]["stale"]
+    C += ["", "## Oracle text check", "",
+          f"- **{ev['oracle_check']['rows_checked']:,} Oracle-text rows** checked, from {ev['oracle_check']['files']} source files: per-deck `Card_Verification` CSVs, the Abaddon card audit, the Scryfall metadata overlays and the Oracle cache. Each was compared with our current Oracle text (Scryfall bulk {bulk[:10]}), ignoring punctuation and case.",
+          f"- **{len(st)} rows are outdated.** The source refreshed Scryfall data on 2026-10-12 to 2026-10-15, so its recorded Oracle text is current." if not st else f"- **{len(st)} outdated:** " + ", ".join(st),
+          "- Quotes inside the source's Markdown notes were also checked against all Oracle text. One is **abridged** rather than outdated: `refinement/verification/Anhelo_the_Painter_Proposed_Final_Verification_2026-10-13.md` labels Cryptic Pursuit's text as \"Current Oracle text\" but leaves out the manifest reminder text. The rules wording matches the [card entry](../cards/C/cr.md#cryptic-pursuit), so no fix was needed.",
+          "- The source's notes contain no pre-2024 \"enters the battlefield\" wording.", "",
+          "## Source-repo structural findings", "",
+          "These are process notes, not deck changes. We did not modify the source.",
+          "- Two approved lists (Admiral Brass, Unsinkable; Anhelo, the Painter) have an `approved_list_sha256` that matches no file in the repo. Their content matches the Card_Verification CSVs, so the hash was probably computed on a different serialization.",
+          "- Decklist files use mixed formats: some lines have `(set) number` printings and role tags, some only `Nx Name`. Commanders are tagged `[Commander]` or `[Commander{top}]`.",
+          "- The Lutri companion is recorded in the approval record but missing from the approved 100-card file. The two disagree.",
+          "- Per-deck evidence is spread across 5–8 folders (blueprints, decisions, approvals, evidence, verification, rules, tests), and one blueprint exists twice (`Be_lakor__the_Dark_Master_v1.md` / `Belakor_the_Dark_Master_v1.md`). On import, each deck's records are gathered into a single page.",
+          "- The approval record for deck #8 says `state/current_deck_overrides.json` was stale at that time. The state file now lists 40 decks, and Goben (#21) is the only baseline deck between approved ones that is not in it.", ""]
+    (OUT / "Grixis Corrections.md").write_text("\n".join(C) + "\n", encoding="utf-8")
+
+    # ---------------- package library
+    cnt, roles, rows = Counter(), defaultdict(Counter), {}
+    for did, d in integrated.items():
+        for r in d["final"]:
+            if r["zone"] == "commander" or "Basic" in r["type"]:
+                continue
+            cnt[r["name"]] += 1
+            roles[r["name"]][(r["tags"] or type_tag(r["type"])).split(",")[0].strip()] += 1
+            rows[r["name"]] = r
+    N = len(integrated)
+    groups = defaultdict(list)
+    for n, k in cnt.items():
+        role = roles[n].most_common(1)[0][0]
+        if type_tag(rows[n]["type"]) == "Land":
+            role = "Land"
+        groups[role].append((k, n))
+    P = ["# Grixis Packages", "",
+         f"> Bot cycle 16. Cross-deck package library built from the **{N} integrated Grixis lists** (source: [grixis-commander-encyclopediaGPT]({REPO}); role tags are the source author's). For each role, the cards that appear in at least 4 lists, with how many lists use them. Facts: Commander-legal, identity from Scryfall, **GC** = Game Changer. *Which package to run is guidance: start from the commander blueprint ([EDH Deck Template](../EDH%20Deck%20Template.md)), not from popularity.* The general, identity-wide version is [EDH Packages](../EDH%20Packages.md). Back to [Grixis](README.md).", "",
+         "## Contents"]
+    order = sorted(groups, key=lambda g: (g != "Land", -sum(k for k, _ in groups[g])))
+    P += [f"- [{g}](#{re.sub(r'[^a-z0-9 -]', '', g.lower()).replace(' ', '-')})" for g in order] + ["- [Grixis rules insights (from the source)](#grixis-rules-insights-from-the-source)", ""]
+    for g in order:
+        items = sorted([x for x in groups[g] if x[0] >= 4], key=lambda x: (-x[0], x[1]))
+        P += [f"## {g}", "", f"{len(groups[g])} distinct cards carry this role across the {N} lists; {len(items)} appear in 4 or more.", ""]
+        if items:
+            P += ["| Card | Lists | Identity | MV | GC |", "|---|---|---|---|---|"]
+            P += [f"| {rel_link(rows[n], '../')} | {k}/{N} | {rows[n]['ci']} | {int(rows[n]['mv'])} | {'✅' if rows[n]['gc'] else ''} |" for k, n in items[:40]]
+        P.append("")
+    P += ["## Grixis rules insights (from the source)", "",
+          "> Rules interactions the source author worked out and relied on. Each one is quoted with its source path and checked against the Oracle text in our card entries (quoted below). How to *use* them is guidance.", ""]
+    def ot(n):
+        c = by_name[n]
+        return (c.get("oracle_text") or " // ".join(f.get("oracle_text", "") for f in c.get("card_faces") or [])).replace("\n", " ")
+    def lk(n):
+        r = index[by_name[n]["oracle_id"]]
+        return f"[{n}](../{r['shard']}#{r['anchor']})"
+    staff = "Wizard's Staff"
+    staff_line = next(x for x in by_name[staff]["oracle_text"].split("\n") if "additional time" in x)
+    ghy_line = next(x for x in by_name["Ghyrson Starn, Kelermorph"]["oracle_text"].split("\n") if "exactly 1" in x)
+    cec_line = next(x for x in by_name["Cecily, Haunted Mage"]["oracle_text"].split("\n") if "attacks" in x)
+    P += [f"- **Trigger multipliers are additive, not multiplicative.** In the Nekusar build the source found that {lk(staff)} (\"{staff_line}\") and {lk('Harmonic Prodigy')} add instances of *both* Nekusar triggers, while {lk('Krang, the All-Powerful')} (\"{ot('Krang, the All-Powerful').split('. ')[0]}.\") adds one only to the draw-caused damage trigger, not to the draw-step trigger. Source: `refinement/decisions/Nekusar_the_Mindrazer_Candidate_Decisions_2026-10-15.md`.",
+          f"- **Damage replacement can break exact-damage payoffs.** The same source file cuts Solphim, Mayhem Dominus because doubling Nekusar's 1 damage stops {lk('Ghyrson Starn, Kelermorph')} from seeing an event of exactly 1 damage. Oracle: \"{ghy_line.rstrip('.')}.\"",
+          f"- **Attack triggers come before combat-damage draws.** For {lk('Cecily, Haunted Mage')} (\"{cec_line}\") the source notes that a combat-damage draw such as {lk('Robe of the Archmagi')} resolves *after* her attack trigger. So it cannot meet the eleven-card check on the same attack. Source: `refinement/evidence/Cecily__Bjorna__Lutri_Approval_Gate_Dossier_2026-10-13.md`.",
+          f"- **\"Cast from hand\" clauses still work with free casts.** {lk('Apex of Power')} cast for free through Cecily's trigger is still cast from hand, so its hand clause applies. \"Without paying its mana cost\" bars alternative costs but allows additional costs (CR 118.9a, 118.9d). Same source file.", ""]
+    (OUT / "Grixis Packages.md").write_text("\n".join(P) + "\n", encoding="utf-8")
+    # ---------------- section index
+    R = ["# Grixis (U/B/R) Commander", "",
+         f"> **Bot cycle 16 import.** This section brings in the user's Grixis Commander work from [grixis-commander-encyclopediaGPT]({REPO}) (commit `{SRC_SHA}`, read-only): the user-approved, refined decklists, each with its commander-first blueprint, swap decisions and approval record quoted verbatim. Each list was re-validated against our card DB, corrected where needed, and given Game Changer counts, bracket floors and Commander Spellbook combos. Source analysis is **the source author's guidance**. Our facts come from Scryfall and Commander Spellbook. Built by `scripts/build_grixis.py`. Related: [EDH Standards](../EDH%20Standards.md) · [EDH Deck Template](../EDH%20Deck%20Template.md) · [EDH Deck Evaluation Checklist](../EDH%20Deck%20Evaluation%20Checklist.md) · [Grixis mana base](../EDH%20Mana%20Bases.md) · [data-derived Nekusar skeleton](../decks/nekusar-the-mindrazer.md)", "",
+         "## Contents", "- [Pages](#pages)", "- [Decks](#decks)", "- [What was left out](#what-was-left-out)", "",
+         "## Pages", "",
+         "| Page | What it holds |", "|---|---|",
+         "| [Grixis Integration Summary](Grixis%20Integration%20Summary.md) | What was integrated, what was generalized, and follow-ups |",
+         f"| [Grixis Evaluation](Grixis%20Evaluation.md) | Check results for all {len(evaluation)} source lists, and how each current list was chosen |",
+         f"| [Grixis Corrections](Grixis%20Corrections.md) | All {len(corrections)} corrections (deck, issue, fix), the Oracle-text check, source-repo structural findings |",
+         f"| [Grixis Packages](Grixis%20Packages.md) | Cross-deck package library (cards shared by 4 or more of the {N} lists, by role) and verified rules insights |",
+         f"| [decks/](decks/) | {N} validated deck pages |", "",
+         "## Decks", "",
+         "*Themes* are the source's Archidekt tags where it recorded them. *Source bracket* is the source author's stated target (guidance). *Floor* is the minimum by the official barometers (Game Changers, mass land denial, two-card infinites).", "",
+         "| Deck | Themes (source) | GC | Floor | Source bracket | Spellbook combos / 2-card ∞ | Lands | Avg MV | Fixes |", "|---|---|---|---|---|---|---|---|---|"]
+    for did, d in sorted(integrated.items(), key=lambda kv: kv[1]["commanders"][0]):
+        R.append(f"| [{' + '.join(d['commanders'])}](decks/{d['slug']}.md) | {d['themes'] or '—'} | {len(d['gcs'])} | {d['cfloor']} | {d['src_claim'] or '—'} | {d['n_combos']} / {d['n_two']} | {d['lands']} | {d['avg_mv']:.2f} | {len(d['fixes'])} |")
+    R += ["", "## What was left out", "",
+          f"{len(evaluation) - N} of {len(evaluation)} source lists are left out. Their check results are in [Grixis Evaluation](Grixis%20Evaluation.md#per-list-results).", ""]
+    for did, d, hard, why in evaluation:
+        if why:
+            R.append(f"- **{' + '.join(d['commanders'])}** (`{did}`): {why}")
+    R.append("")
+    (OUT / "README.md").write_text("\n".join(R) + "\n", encoding="utf-8")
+    json.dump({did: {k: d[k] for k in ("slug", "themes", "commanders", "ci", "gcs", "floor", "cfloor", "n_combos", "n_two", "src_claim", "lands", "avg_mv", "source_path")} | {"fixes": len(d["fixes"])}
+               for did, d in integrated.items()}, open(ROOT / "data/grixis_summary.json", "w"), indent=1, ensure_ascii=False)
+    print(json.dumps({"integrated": len(integrated), "left_out": len(evaluation) - len(integrated), "corrections": len(corrections), "kinds": kinds}, default=str))
+
+
+if __name__ == "__main__":
+    main()

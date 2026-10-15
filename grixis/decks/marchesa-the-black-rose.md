@@ -1,0 +1,472 @@
+---
+title: "Grixis Deck — Marchesa, the Black Rose"
+category: deck
+kind: grixis
+commander: "Marchesa, the Black Rose"
+color_identity: UBR
+bracket_floor: 4
+game_changers: 5
+validated: true
+source_repo: corymstover/grixis-commander-encyclopediaGPT
+---
+
+# Grixis Deck — Marchesa, the Black Rose
+
+> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Marchesa_the_Black_Rose_Approved_2026-10-15.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decklists/Marchesa_the_Black_Rose_Approved_2026-10-15.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-15; source commit `df1abb9`). Imported in Bot cycle 16 and re-validated against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
+
+## Contents
+- [Commander](#commander)
+- [Validation](#validation)
+- [Bracket assessment](#bracket-assessment)
+- [Corrections applied](#corrections-applied)
+- [Decklist (Archidekt import)](#decklist-archidekt-import)
+- [Card breakdown](#card-breakdown)
+- [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Combos (Commander Spellbook)](#combos-commander-spellbook)
+
+## Commander
+
+- **[Marchesa, the Black Rose](../../cards/M/mar.md#marchesa-the-black-rose)** — {1}{U}{B}{R} — Legendary Creature — Human Wizard
+- Color identity: **UBR (Blue, Black, Red)**
+- Eligibility (Marchesa, the Black Rose): Yes (legendary creature)
+
+## Validation
+
+- Total cards: **100** (1 commander(s) + 65 nonland + 29 nonbasic lands + 5 basics) · average nonland MV 2.82
+- Strict color identity (CR 903.5c), singleton (903.5b), Commander-legal, size (903.5a): ✅ **all checks pass**
+- Every card resolves to an entry in our card DB (98/98 lines linked).
+
+## Bracket assessment
+
+- Game Changers (5): Ancient Tomb, Cyclonic Rift, Demonic Tutor, Fierce Guardianship, Vampiric Tutor
+- Extra-turn cards: none
+- Mass land denial: none
+- Commander Spellbook: 48 complete combo(s), 38 two-card infinite (see [Combos](#combos-commander-spellbook)).
+- **Minimum bracket by the published barometers: 4** (more than three Game Changers).
+- Source's stated target (guidance): **Bracket 4 — Optimized**.
+- (Brackets are a pregame-conversation tool. See [EDH Standards](../../EDH%20Standards.md#power-bracket-assessment).)
+
+## Corrections applied
+
+| Type | Change | Reason |
+|---|---|---|
+| format | Archidekt list normalized to [EDH Standards](../../EDH%20Standards.md#list-format-archidekt) | `[Commander]` → `[Commander{top}]` (1 line(s)); role tags restored on 90 untagged line(s): 76 from this deck's FINAL baseline, 14 from the tag the source uses most for that card in other decks; 7 untagged line(s) given a type tag (e.g. `[Land]`). |
+| bracket | Game Changers and combo floor added | The source records no Game Changer count and does not check the official Game Changers list anywhere in its approval records. We added it: **5 Game Changers**, so the minimum bracket is **4**. Commander Spellbook finds 48 complete combos (38 two-card infinite). This is consistent with the source's stated Bracket 4. |
+
+Full log for all decks: [Grixis Corrections](../Grixis%20Corrections.md).
+
+## Decklist (Archidekt import)
+
+```text
+1x Marchesa, the Black Rose [Commander{top}]
+1x Agatha's Soul Cauldron [Artifact]
+1x Altar of Dementia [Sac Outlet]
+1x An Offer You Can't Refuse [Removal]
+1x Ancient Tomb [Land]
+1x Arcane Signet [Ramp]
+1x Ashnod's Altar [Ramp]
+1x Badlands [Land]
+1x Baleful Strix [Draw]
+1x Blasphemous Act [Removal]
+1x Blood Artist [Drain]
+1x Blood Crypt [Land]
+1x Bloodstained Mire [Land]
+1x Braids, Arisen Nightmare [Draw]
+1x Carrion Feeder [Sac Outlet]
+1x Chaos Warp [Removal]
+1x City of Brass [Land]
+1x Command Tower [Land]
+1x Cyclonic Rift [Removal]
+1x Danny Pink [Creature]
+1x Deadly Dispute [Draw]
+1x Demonic Tutor [Tutor]
+1x Diabolic Intent [Tutor]
+1x Exotic Orchard [Land]
+1x Feed the Swarm [Removal]
+1x Fellwar Stone [Ramp]
+1x Fierce Guardianship [Removal]
+1x Flare of Denial [Instant]
+1x Flayer of the Hatebound [Removal]
+1x Fleshbag Marauder [Removal]
+1x Flooded Strand [Land]
+1x Forge of Heroes [Land]
+1x Gev, Scaled Scorch [Creature]
+1x Glen Elendra Archmage [Removal]
+1x Goblin Bombardment [Sac Outlet]
+1x Grave Pact [Removal]
+1x Gray Merchant of Asphodel [Drain]
+1x Grim Haruspex [Draw]
+1x High Market [Land]
+1x Imperial Recruiter [Creature]
+1x Iron Apprentice [Counters]
+2x Island [Land]
+1x Lightning Greaves [Protection]
+1x Luxury Suite [Land]
+1x Mana Confluence [Land]
+1x Marionette Apprentice [Drain]
+1x Mayhem Devil [Removal]
+1x Metallic Mimic [Counters]
+1x Mikaeus, the Unhallowed [Recursion]
+1x Misty Rainforest [Land]
+1x Morphic Pool [Land]
+1x Mountain [Land]
+1x Murderous Redcap [Removal]
+1x Otawara, Soaring City [Land]
+1x Phyrexian Altar [Ramp]
+1x Phyrexian Tower [Land]
+1x Pitiless Plunderer [Ramp]
+1x Polluted Delta [Land]
+1x Puppeteer Clique [Recursion]
+1x Reanimate [Recursion]
+1x River Kelpie [Draw]
+1x Sage of Fables [Creature]
+1x Satoru, the Infiltrator [Draw]
+1x Scalding Tarn [Land]
+1x Scorn-Blade Berserker [Draw]
+1x Shivan Reef [Land]
+1x Skullclamp [Draw]
+1x Sneak Attack [Ramp]
+1x Sol Ring [Ramp]
+1x Spark Double [Copy]
+1x Steam Vents [Land]
+1x Sulfurous Springs [Land]
+2x Swamp [Land]
+1x Syr Konrad, the Grim [Drain]
+1x Takenuma, Abandoned Mire [Land]
+1x Talisman of Creativity [Ramp]
+1x Talisman of Dominance [Ramp]
+1x Talisman of Indulgence [Ramp]
+1x The Ozolith [Counters]
+1x Thran Vigil [Counters]
+1x Toxic Deluge [Removal]
+1x Training Center [Land]
+1x Twilight Diviner [Copy]
+1x Uncivil Unrest [Counters]
+1x Underground River [Land]
+1x Underground Sea [Land]
+1x Unspeakable Symbol [Counters]
+1x Vampiric Tutor [Tutor]
+1x Verdant Catacombs [Land]
+1x Victimize [Recursion]
+1x Viscera Seer [Sac Outlet]
+1x Volcanic Island [Land]
+1x Warren Soultrader [Sac Outlet]
+1x Watery Grave [Land]
+1x Xander's Lounge [Land]
+1x Yahenni, Undying Partisan [Sac Outlet]
+1x Yawgmoth, Thran Physician [Draw]
+1x Zulaport Cutthroat [Drain]
+```
+
+## Card breakdown
+
+Role tags are the source author's (untagged lines show the card type). *Printing* is the source's pinned printing, if it pinned one.
+
+| Card | Role (source tag) | Type | MV | Identity | GC | Printing |
+|---|---|---|---|---|---|---|
+| [Marchesa, the Black Rose](../../cards/M/mar.md#marchesa-the-black-rose) | Commander | Legendary Creature — Human Wizard | 4 | UBR |  | — |
+| [Agatha's Soul Cauldron](../../cards/A/ag.md#agathas-soul-cauldron) | Artifact | Legendary Artifact | 2 | C |  | — |
+| [Spark Double](../../cards/S/spa.md#spark-double) | Copy | Creature — Illusion | 4 | U |  | — |
+| [Twilight Diviner](../../cards/T/tw.md#twilight-diviner) | Copy | Creature — Elf Cleric | 3 | B |  | — |
+| [Iron Apprentice](../../cards/I/ir.md#iron-apprentice) | Counters | Artifact Creature — Construct | 1 | C |  | — |
+| [Metallic Mimic](../../cards/M/me.md#metallic-mimic) | Counters | Artifact Creature — Shapeshifter | 2 | C |  | — |
+| [The Ozolith](../../cards/T/theo.md#the-ozolith) | Counters | Legendary Artifact | 1 | C |  | — |
+| [Thran Vigil](../../cards/T/thr.md#thran-vigil) | Counters | Enchantment | 2 | B |  | — |
+| [Uncivil Unrest](../../cards/U/un.md#uncivil-unrest) | Counters | Enchantment | 5 | R |  | — |
+| [Unspeakable Symbol](../../cards/U/un.md#unspeakable-symbol) | Counters | Enchantment | 3 | B |  | — |
+| [Danny Pink](../../cards/D/da.md#danny-pink) | Creature | Legendary Creature — Human Soldier Advisor | 4 | U |  | — |
+| [Gev, Scaled Scorch](../../cards/G/ge.md#gev-scaled-scorch) | Creature | Legendary Creature — Lizard Mercenary | 2 | BR |  | — |
+| [Imperial Recruiter](../../cards/I/im.md#imperial-recruiter) | Creature | Creature — Human Advisor | 3 | R |  | — |
+| [Sage of Fables](../../cards/S/sag.md#sage-of-fables) | Creature | Creature — Merfolk Wizard | 3 | U |  | — |
+| [Blood Artist](../../cards/B/blo.md#blood-artist) | Drain | Creature — Vampire | 2 | B |  | — |
+| [Gray Merchant of Asphodel](../../cards/G/gra.md#gray-merchant-of-asphodel) | Drain | Creature — Zombie | 5 | B |  | — |
+| [Marionette Apprentice](../../cards/M/mar.md#marionette-apprentice) | Drain | Creature — Human Artificer | 2 | B |  | — |
+| [Syr Konrad, the Grim](../../cards/S/sy.md#syr-konrad-the-grim) | Drain | Legendary Creature — Human Knight | 5 | B |  | — |
+| [Zulaport Cutthroat](../../cards/Z/zu.md#zulaport-cutthroat) | Drain | Creature — Human Rogue Ally | 2 | B |  | — |
+| [Baleful Strix](../../cards/B/bal.md#baleful-strix) | Draw | Artifact Creature — Bird | 2 | UB |  | — |
+| [Braids, Arisen Nightmare](../../cards/B/br.md#braids-arisen-nightmare) | Draw | Legendary Creature — Nightmare | 3 | B |  | — |
+| [Deadly Dispute](../../cards/D/dea.md#deadly-dispute) | Draw | Instant | 2 | B |  | — |
+| [Grim Haruspex](../../cards/G/gri.md#grim-haruspex) | Draw | Creature — Human Wizard | 3 | B |  | — |
+| [River Kelpie](../../cards/R/ri.md#river-kelpie) | Draw | Creature — Beast | 5 | U |  | — |
+| [Satoru, the Infiltrator](../../cards/S/sat.md#satoru-the-infiltrator) | Draw | Legendary Creature — Human Ninja Rogue | 2 | UB |  | — |
+| [Scorn-Blade Berserker](../../cards/S/sc.md#scorn-blade-berserker) | Draw | Creature — Human Berserker | 1 | B |  | — |
+| [Skullclamp](../../cards/S/sk.md#skullclamp) | Draw | Artifact — Equipment | 1 | C |  | — |
+| [Yawgmoth, Thran Physician](../../cards/Y/ya.md#yawgmoth-thran-physician) | Draw | Legendary Creature — Human Cleric | 4 | B |  | — |
+| [Flare of Denial](../../cards/F/fl.md#flare-of-denial) | Instant | Instant | 3 | U |  | — |
+| [Ancient Tomb](../../cards/A/an.md#ancient-tomb) | Land | Land | 0 | C | ✅ | — |
+| [Badlands](../../cards/B/bad.md#badlands) | Land | Land — Swamp Mountain | 0 | BR |  | — |
+| [Blood Crypt](../../cards/B/blo.md#blood-crypt) | Land | Land — Swamp Mountain | 0 | BR |  | — |
+| [Bloodstained Mire](../../cards/B/blo.md#bloodstained-mire) | Land | Land | 0 | C |  | — |
+| [City of Brass](../../cards/C/ci.md#city-of-brass) | Land | Land | 0 | C |  | — |
+| [Command Tower](../../cards/C/com.md#command-tower) | Land | Land | 0 | C |  | — |
+| [Exotic Orchard](../../cards/E/ex.md#exotic-orchard) | Land | Land | 0 | C |  | — |
+| [Flooded Strand](../../cards/F/fl.md#flooded-strand) | Land | Land | 0 | C |  | — |
+| [Forge of Heroes](../../cards/F/fo.md#forge-of-heroes) | Land | Land | 0 | C |  | — |
+| [High Market](../../cards/H/hi.md#high-market) | Land | Land | 0 | C |  | — |
+| [Island](../../cards/I/is.md#island) (×2) | Land | Basic Land — Island | 0 | U |  | — |
+| [Luxury Suite](../../cards/L/lu.md#luxury-suite) | Land | Land | 0 | BR |  | — |
+| [Mana Confluence](../../cards/M/man.md#mana-confluence) | Land | Land | 0 | C |  | — |
+| [Misty Rainforest](../../cards/M/mis.md#misty-rainforest) | Land | Land | 0 | C |  | — |
+| [Morphic Pool](../../cards/M/mor.md#morphic-pool) | Land | Land | 0 | UB |  | — |
+| [Mountain](../../cards/M/mou.md#mountain) | Land | Basic Land — Mountain | 0 | R |  | — |
+| [Otawara, Soaring City](../../cards/O/ot.md#otawara-soaring-city) | Land | Legendary Land | 0 | U |  | — |
+| [Phyrexian Tower](../../cards/P/ph.md#phyrexian-tower) | Land | Legendary Land | 0 | B |  | — |
+| [Polluted Delta](../../cards/P/po.md#polluted-delta) | Land | Land | 0 | C |  | — |
+| [Scalding Tarn](../../cards/S/sc.md#scalding-tarn) | Land | Land | 0 | C |  | — |
+| [Shivan Reef](../../cards/S/shi.md#shivan-reef) | Land | Land | 0 | UR |  | — |
+| [Steam Vents](../../cards/S/ste.md#steam-vents) | Land | Land — Island Mountain | 0 | UR |  | — |
+| [Sulfurous Springs](../../cards/S/sul.md#sulfurous-springs) | Land | Land | 0 | BR |  | — |
+| [Swamp](../../cards/S/sw.md#swamp) (×2) | Land | Basic Land — Swamp | 0 | B |  | — |
+| [Takenuma, Abandoned Mire](../../cards/T/ta.md#takenuma-abandoned-mire) | Land | Legendary Land | 0 | B |  | — |
+| [Training Center](../../cards/T/tra.md#training-center) | Land | Land | 0 | UR |  | — |
+| [Underground River](../../cards/U/un.md#underground-river) | Land | Land | 0 | UB |  | — |
+| [Underground Sea](../../cards/U/un.md#underground-sea) | Land | Land — Island Swamp | 0 | UB |  | — |
+| [Verdant Catacombs](../../cards/V/ve.md#verdant-catacombs) | Land | Land | 0 | C |  | — |
+| [Volcanic Island](../../cards/V/vo.md#volcanic-island) | Land | Land — Island Mountain | 0 | UR |  | — |
+| [Watery Grave](../../cards/W/wat.md#watery-grave) | Land | Land — Island Swamp | 0 | UB |  | — |
+| [Xander's Lounge](../../cards/X/xa.md#xanders-lounge) | Land | Land — Island Swamp Mountain | 0 | UBR |  | — |
+| [Lightning Greaves](../../cards/L/li.md#lightning-greaves) | Protection | Artifact — Equipment | 2 | C |  | — |
+| [Arcane Signet](../../cards/A/arc.md#arcane-signet) | Ramp | Artifact | 2 | C |  | — |
+| [Ashnod's Altar](../../cards/A/as.md#ashnods-altar) | Ramp | Artifact | 3 | C |  | — |
+| [Fellwar Stone](../../cards/F/fe.md#fellwar-stone) | Ramp | Artifact | 2 | C |  | — |
+| [Phyrexian Altar](../../cards/P/ph.md#phyrexian-altar) | Ramp | Artifact | 3 | C |  | — |
+| [Pitiless Plunderer](../../cards/P/pi.md#pitiless-plunderer) | Ramp | Creature — Human Pirate | 4 | B |  | — |
+| [Sneak Attack](../../cards/S/sn.md#sneak-attack) | Ramp | Enchantment | 4 | R |  | — |
+| [Sol Ring](../../cards/S/so.md#sol-ring) | Ramp | Artifact | 1 | C |  | — |
+| [Talisman of Creativity](../../cards/T/ta.md#talisman-of-creativity) | Ramp | Artifact | 2 | UR |  | — |
+| [Talisman of Dominance](../../cards/T/ta.md#talisman-of-dominance) | Ramp | Artifact | 2 | UB |  | — |
+| [Talisman of Indulgence](../../cards/T/ta.md#talisman-of-indulgence) | Ramp | Artifact | 2 | BR |  | — |
+| [Mikaeus, the Unhallowed](../../cards/M/mik.md#mikaeus-the-unhallowed) | Recursion | Legendary Creature — Zombie Cleric | 6 | B |  | — |
+| [Puppeteer Clique](../../cards/P/pu.md#puppeteer-clique) | Recursion | Creature — Faerie Wizard | 5 | B |  | — |
+| [Reanimate](../../cards/R/rea.md#reanimate) | Recursion | Sorcery | 1 | B |  | — |
+| [Victimize](../../cards/V/vi.md#victimize) | Recursion | Sorcery | 3 | B |  | — |
+| [An Offer You Can't Refuse](../../cards/A/an.md#an-offer-you-cant-refuse) | Removal | Instant | 1 | U |  | — |
+| [Blasphemous Act](../../cards/B/bla.md#blasphemous-act) | Removal | Sorcery | 9 | R |  | — |
+| [Chaos Warp](../../cards/C/cha.md#chaos-warp) | Removal | Instant | 3 | R |  | — |
+| [Cyclonic Rift](../../cards/C/cy.md#cyclonic-rift) | Removal | Instant | 2 | U | ✅ | — |
+| [Feed the Swarm](../../cards/F/fe.md#feed-the-swarm) | Removal | Sorcery | 2 | B |  | — |
+| [Fierce Guardianship](../../cards/F/fi.md#fierce-guardianship) | Removal | Instant | 3 | U | ✅ | — |
+| [Flayer of the Hatebound](../../cards/F/fl.md#flayer-of-the-hatebound) | Removal | Creature — Devil | 6 | R |  | — |
+| [Fleshbag Marauder](../../cards/F/fl.md#fleshbag-marauder) | Removal | Creature — Zombie Warrior | 3 | B |  | — |
+| [Glen Elendra Archmage](../../cards/G/gl.md#glen-elendra-archmage) | Removal | Creature — Faerie Wizard | 4 | U |  | — |
+| [Grave Pact](../../cards/G/gra.md#grave-pact) | Removal | Enchantment | 4 | B |  | — |
+| [Mayhem Devil](../../cards/M/may.md#mayhem-devil) | Removal | Creature — Devil | 3 | BR |  | — |
+| [Murderous Redcap](../../cards/M/mu.md#murderous-redcap) | Removal | Creature — Goblin Assassin | 4 | BR |  | — |
+| [Toxic Deluge](../../cards/T/to.md#toxic-deluge) | Removal | Sorcery | 3 | B |  | — |
+| [Altar of Dementia](../../cards/A/al.md#altar-of-dementia) | Sac Outlet | Artifact | 2 | C |  | — |
+| [Carrion Feeder](../../cards/C/car.md#carrion-feeder) | Sac Outlet | Creature — Zombie | 1 | B |  | — |
+| [Goblin Bombardment](../../cards/G/gob.md#goblin-bombardment) | Sac Outlet | Enchantment | 2 | R |  | — |
+| [Viscera Seer](../../cards/V/vi.md#viscera-seer) | Sac Outlet | Creature — Vampire Wizard | 1 | B |  | — |
+| [Warren Soultrader](../../cards/W/war.md#warren-soultrader) | Sac Outlet | Creature — Zombie Goblin Wizard | 3 | B |  | — |
+| [Yahenni, Undying Partisan](../../cards/Y/ya.md#yahenni-undying-partisan) | Sac Outlet | Legendary Creature — Aetherborn Vampire | 3 | B |  | — |
+| [Demonic Tutor](../../cards/D/dem.md#demonic-tutor) | Tutor | Sorcery | 2 | B | ✅ | — |
+| [Diabolic Intent](../../cards/D/di.md#diabolic-intent) | Tutor | Sorcery | 2 | B |  | — |
+| [Vampiric Tutor](../../cards/V/va.md#vampiric-tutor) | Tutor | Instant | 1 | B | ✅ | — |
+
+## Source commentary (verbatim)
+
+> Quoted from the source repo with headings turned into bold text. This is **the source author's analysis and opinion (guidance)**, from `grixis-commander-encyclopediaGPT`, path shown above each block. Relative links point back to the source. Rules statements here were not re-verified card by card (see [Grixis Corrections](../Grixis%20Corrections.md#oracle-text-check) for the Oracle check). Where the source mentions Lutri, Trade Secrets or Yawgmoth's Bargain as approved exceptions, our corrected list above takes precedence.
+
+### From `refinement/decisions/Marchesa_the_Black_Rose_Current_Cycle_Decisions_2026-10-15.md`
+
+Source: [refinement/decisions/Marchesa_the_Black_Rose_Current_Cycle_Decisions_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decisions/Marchesa_the_Black_Rose_Current_Cycle_Decisions_2026-10-15.md)
+
+**Marchesa, the Black Rose — Current-Cycle Decision Closeout**
+
+Date: 2026-10-15  
+Cycle: `global-restart-2026-10-13`  
+Candidate SHA-256: `627b07f6466c0a48f16daea58ee9c01bba02c2b7fb4de76a37b14a7f75ad7f9b`  
+Status: **APPROVED / LOCKED**
+
+**Source reconciliation**
+
+The authoritative current FINAL CSV/TXT exports reconcile at exactly 100 cards. Raw FINAL TXT source SHA-256: `d292b21d373085ebe83ddea091bc7f51cf8f59048c987deca5fee2395205cdc9`. Normalized current-cycle project-format baseline SHA-256: `2e8a3fec0749abe153cc2be45ca89f65a6f9634376f7740a9ff63633a15d3ab7`.
+
+The inherited `deck_card_audit.csv` has stale membership for this commander, so the current FINAL exports control membership. Audit metadata was reused only where card names reconcile.
+
+**Commander blueprint and natural ceiling**
+
+Marchesa is a +1/+1-counter, sacrifice, death/ETB recursion engine. The optimized plan is to place counters through dethrone and dedicated counter engines; sacrifice creatures for mana/cards/interaction; exploit Marchesa's delayed return trigger; use +1/+1 counters to reset persist creatures; and close through compact commander-native loops rather than a generic Grixis combo shell.
+
+Natural ceiling: **Power Bracket 4 — Optimized**.
+
+**Exact proposed changes**
+
+**Nonland**
+1. Animate Dead -> Sneak Attack
+2. Arcane Denial -> Flare of Denial
+3. Black Market Connections -> Agatha's Soul Cauldron
+4. Bloodghast -> Twilight Diviner
+5. Cauldron of Souls -> Sage of Fables
+6. Drana, Liberator of Malakir -> Spark Double
+7. Herald of Secret Streams -> Danny Pink
+8. Juri, Master of the Revue -> Imperial Recruiter
+9. Midnight Reaper -> Satoru, the Infiltrator
+10. Pawn of Ulamog -> Gev, Scaled Scorch
+11. Reassembling Skeleton -> Altar of Dementia
+12. Village Rites -> Vampiric Tutor
+
+**Mana base**
+13. Crumbling Necropolis -> Badlands
+14. Drowned Catacomb -> Flooded Strand
+15. Fabled Passage -> City of Brass
+16. Haunted Ridge -> Mana Confluence
+17. Shipwreck Marsh -> Misty Rainforest
+18. Smoldering Marsh -> Underground Sea
+19. Sulfur Falls -> Verdant Catacombs
+20. Sunken Hollow -> Volcanic Island
+21. Swamp (3 -> 2) -> Forge of Heroes
+
+**Material decisions**
+
+- **Gray Merchant of Asphodel stays.** Red-team verification identified its real deterministic/near-deterministic engine role with Mikaeus, the Unhallowed + Yawgmoth, Thran Physician plus another qualifying nontoken non-Human body. Cutting it for generic copy value would weaken an existing compact creature-combo package.
+- **The Ozolith stays.** It remains one of the cleanest ways to conserve +1/+1-counter equity when Marchesa creatures die and therefore supports the commander's defining resource rather than merely adding generic value.
+- **Sage of Fables** is a high-value persist/counter piece: it gives Wizard creatures +1/+1 counters, resets Glen Elendra Archmage / Puppeteer Clique persist states, and converts counters into cards.
+- **Gev, Scaled Scorch** turns opponent life loss into +1/+1 counters on entering creatures and directly supports a Murderous Redcap persist loop.
+- **Spark Double** is flexible copy redundancy and participates in a Murderous Redcap + Ashnod's Altar loop while naturally entering with a +1/+1 counter when copying a creature.
+- **Satoru, the Infiltrator** turns Marchesa/persist returns into card draw because those creatures enter without being cast.
+- **Twilight Diviner** directly amplifies graveyard returns by copying a qualifying creature entering from a graveyard once each turn.
+- **Danny Pink** turns routine +1/+1 counter placement into card draw and adds another counter-placement vector through mentor.
+- **Agatha's Soul Cauldron** provides instant-speed counters, graveyard interaction, and activated-ability reuse; it is more commander-specific than Black Market Connections.
+- **Altar of Dementia** adds another free sacrifice outlet and gives deterministic creature loops a noncombat mill finish.
+- **Imperial Recruiter** improves access to a large share of the engine and combo creature suite.
+- **Sneak Attack** is more Marchesa-specific than Animate Dead: it provides haste, immediate dethrone access, ETB deployment, and exploitable sacrifice sequencing.
+- **Flare of Denial** keeps premium countermagic while its alternate cost can sacrifice a blue nontoken creature that Marchesa may later return.
+- **Vampiric Tutor** is generic power, but at this deck's optimized ceiling it materially improves assembly of commander-native engines rather than replacing the strategy.
+- **Forge of Heroes** gives a newly entered commander an immediate +1/+1 counter, creating commander-specific recursion insurance. The land upgrade package otherwise increases fetch density and untapped colored access while preserving one fetchable Grixis tri-land in Xander's Lounge.
+
+**Rules / combo red-team**
+
+Verified functional packages include:
+- Gev + Murderous Redcap after an opponent has lost life that turn.
+- Spark Double copying Murderous Redcap + Ashnod's Altar.
+- Sage of Fables + Glen Elendra Archmage or Puppeteer Clique + an appropriate sacrifice outlet.
+- Mikaeus + Yawgmoth + Gray Merchant plus another qualifying nontoken non-Human creature.
+
+Marchesa's trigger was checked carefully: when a creature with a +1/+1 counter dies while Marchesa's ability can trigger, it creates a delayed return for the beginning of the next end step. A creature sacrificed after the beginning of an end step will therefore wait until the following end step; Sneak Attack's beginning-of-end-step sacrifice should not be described as an immediate same-step Marchesa return.
+
+**Mana-base red team**
+
+The candidate remains at **34 lands**. Premium duals, five-color lands, and three additional fetchlands replace slower conditional/tapped sources. Forge of Heroes replaces one basic Swamp as a commander-specific utility land. Xander's Lounge remains as a fetchable three-color source.
+
+**Closure**
+
+- Current FINAL membership reconciliation: **COMPLETE**
+- Mandatory 99-slot whole-list audit: **COMPLETE — 78 KEEP / 21 CUT**
+- Candidate exhaustion: **COMPLETE**
+- Commander-identity review: **PASS**
+- Adversarial red-team: **COMPLETE**
+- Final serious strategic pass: **ZERO NEW MATERIAL IMPROVEMENTS**
+- Exact structure: **100 cards / 34 lands / 98 distinct names; only basic lands repeat**
+- Singleton compliance: **PASS**
+- Commander color identity: **PASS — U/B/R only**
+- Current Oracle/rules/combo verification: **PASS**
+- Current official Commander legality checkpoint: **PASS**
+- Project exceptions: **NONE**
+
+**Approval**
+
+The user explicitly approved this exact SHA-bound candidate on 2026-10-15. The canonical approved artifact is `refinement/decklists/Marchesa_the_Black_Rose_Approved_2026-10-15.txt` and the approval record is `refinement/approvals/Marchesa_the_Black_Rose_Approved_2026-10-15.md`.
+
+This deck is **APPROVED / LOCKED** for the current refinement cycle and must not be revised, reopened, or replaced unless the user explicitly requests it.
+
+### From `refinement/approvals/Marchesa_the_Black_Rose_Approved_2026-10-15.md`
+
+Source: [refinement/approvals/Marchesa_the_Black_Rose_Approved_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/approvals/Marchesa_the_Black_Rose_Approved_2026-10-15.md)
+
+**Marchesa, the Black Rose — APPROVED / LOCKED**
+
+Cycle: `global-restart-2026-10-13`  
+Approval date: 2026-10-15  
+Approved SHA-256: `627b07f6466c0a48f16daea58ee9c01bba02c2b7fb4de76a37b14a7f75ad7f9b`  
+Power Bracket: **4 — Optimized**  
+Archidekt tags: **+1/+1 Counters / Aristocrats / Combo**
+
+**Approval basis**
+
+The user explicitly approved the exact SHA-bound Marchesa, the Black Rose approval-ready candidate after authoritative FINAL baseline reconciliation, mandatory 99-slot whole-list audit, candidate exhaustion, adversarial red-team review, zero-new-material-improvement closure, structural verification, color-identity verification, current Oracle/rules/combo review, and current official Commander legality checkpoint.
+
+Verification state:
+- 100 cards
+- 34 lands
+- 98 distinct names
+- Only Island x2 and Swamp x2 repeat
+- Singleton compliance: PASS
+- Commander color identity: U/B/R
+- Current Oracle/rules/combo verification: PASS
+- Official Commander legality checkpoint: PASS
+- Project exceptions: none
+- Mandatory 99-slot whole-list audit: 78 KEEP / 21 CUT
+- Candidate exhaustion / adversarial red-team: complete
+- Final serious strategic pass: ZERO NEW MATERIAL IMPROVEMENTS
+
+Canonical approved artifact: `refinement/decklists/Marchesa_the_Black_Rose_Approved_2026-10-15.txt`
+
+Verification artifact: `refinement/verification/Marchesa_the_Black_Rose_Approval_Ready_Verification_2026-10-15.md`
+
+Whole-list audit: `refinement/decisions/Marchesa_the_Black_Rose_Whole_List_Audit_2026-10-15.csv`
+
+This deck is now locked. Do not revise, reopen, or replace it unless the user explicitly requests that action.
+
+### Further source evidence (linked, not copied)
+
+- [refinement/verification/Marchesa_the_Black_Rose_Approval_Ready_Verification_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/verification/Marchesa_the_Black_Rose_Approval_Ready_Verification_2026-10-15.md)
+
+<!-- COMBOS:START -->
+## Combos (Commander Spellbook)
+
+> Generated 2026-10-15 by `scripts/build_grixis.py` from the [Commander Spellbook](https://commanderspellbook.com) public API (community-maintained). Shows only combos whose **every card is in this list**. Bracket barometer: *Brackets 1–2: no intentional two-card infinite combos. Bracket 3: no early-game two-card infinite combos.*
+
+**48 complete combo(s); 38 two-card infinite.** 405 more are one card away (not listed).
+
+| Cards | Produces (Spellbook) | Extra requirements | Link |
+|---|---|---|---|
+| ⚠️ **two-card infinite** · Murderous Redcap + Gev, Scaled Scorch | Infinite creature LTB, Infinite creature ETB, Infinite death triggers | — | [1657-5805](https://commanderspellbook.com/combo/1657-5805/) |
+| ⚠️ **two-card infinite** · Murderous Redcap + Uncivil Unrest | Infinite creature LTB, Infinite creature ETB, Infinite death triggers | — | [1657-5961](https://commanderspellbook.com/combo/1657-5961/) |
+| ⚠️ **two-card infinite** · Ashnod's Altar + Thran Vigil | Infinite colorless mana, Infinite creature ETB, Infinite creature LTB, Infinite creature sacrifice triggers | Persist Creature | [2034-2131--5](https://commanderspellbook.com/combo/2034-2131--5/) |
+| ⚠️ **two-card infinite** · Ashnod's Altar + Gev, Scaled Scorch | Infinite colorless mana, Infinite creature LTB, Infinite creature ETB, Infinite creature sacrifice triggers | Persist Creature | [2034-5805--5](https://commanderspellbook.com/combo/2034-5805--5/) |
+| ⚠️ **two-card infinite** · Ashnod's Altar + Uncivil Unrest | Infinite creature ETB, Infinite creature LTB, Infinite colorless mana, Infinite death triggers | Persist Creature | [2034-5961--5](https://commanderspellbook.com/combo/2034-5961--5/) |
+| ⚠️ **two-card infinite** · Viscera Seer + Thran Vigil | Infinite creature ETB, Infinite creature LTB, Infinite creature sacrifice triggers, Infinite death triggers | Persist Creature | [2131-2292--5](https://commanderspellbook.com/combo/2131-2292--5/) |
+| ⚠️ **two-card infinite** · Thran Vigil + Carrion Feeder | Infinite +1/+1 counters on a creature, Infinite creature ETB, Infinite creature LTB, Infinite creature sacrifice triggers | Persist Creature | [2131-2438--5](https://commanderspellbook.com/combo/2131-2438--5/) |
+| ⚠️ **two-card infinite** · Thran Vigil + Yahenni, Undying Partisan | Infinite creature ETB, Infinite creature LTB, Infinite creature sacrifice triggers, Infinite death triggers | Persist Creature | [2131-3967--5](https://commanderspellbook.com/combo/2131-3967--5/) |
+| ⚠️ **two-card infinite** · Phyrexian Altar + Thran Vigil | Infinite colored mana, Infinite creature ETB, Infinite creature LTB, Infinite creature sacrifice triggers | Persist Creature | [2131-4050--5](https://commanderspellbook.com/combo/2131-4050--5/) |
+| ⚠️ **two-card infinite** · Goblin Bombardment + Thran Vigil | Infinite creature ETB, Infinite creature LTB, Infinite creature sacrifice triggers, Infinite damage | Persist Creature | [2131-5147--5](https://commanderspellbook.com/combo/2131-5147--5/) |
+| ⚠️ **two-card infinite** · Altar of Dementia + Thran Vigil | Infinite creature ETB, Infinite creature LTB, Infinite creature sacrifice triggers, Infinite death triggers | Persist Creature | [2131-5256--5](https://commanderspellbook.com/combo/2131-5256--5/) |
+| ⚠️ **two-card infinite** · Viscera Seer + Gev, Scaled Scorch | Infinite scry 1, Infinite creature LTB, Infinite creature ETB, Infinite creature sacrifice triggers | Persist Creature | [2292-5805--5](https://commanderspellbook.com/combo/2292-5805--5/) |
+| ⚠️ **two-card infinite** · Viscera Seer + Uncivil Unrest | Infinite creature ETB, Infinite creature LTB, Infinite death triggers, Infinite creature sacrifice triggers | Persist Creature | [2292-5961--5](https://commanderspellbook.com/combo/2292-5961--5/) |
+| ⚠️ **two-card infinite** · Carrion Feeder + Gev, Scaled Scorch | Infinite +1/+1 counters on a creature, Infinite creature LTB, Infinite creature ETB, Infinite creature sacrifice triggers | Persist Creature | [2438-5805--5](https://commanderspellbook.com/combo/2438-5805--5/) |
+| ⚠️ **two-card infinite** · Carrion Feeder + Uncivil Unrest | Infinite +1/+1 counters on a creature, Infinite creature ETB, Infinite creature LTB, Infinite death triggers | Persist Creature | [2438-5961--5](https://commanderspellbook.com/combo/2438-5961--5/) |
+| ⚠️ **two-card infinite** · Murderous Redcap + Metallic Mimic | Infinite creature LTB, Infinite creature ETB, Infinite death triggers | — | [345-1657](https://commanderspellbook.com/combo/345-1657/) |
+| ⚠️ **two-card infinite** · Ashnod's Altar + Metallic Mimic | Infinite creature ETB, Infinite creature LTB, Infinite colorless mana, Infinite death triggers | Persist Creature | [345-2034--5](https://commanderspellbook.com/combo/345-2034--5/) |
+| ⚠️ **two-card infinite** · Viscera Seer + Metallic Mimic | Infinite creature ETB, Infinite creature LTB, Infinite death triggers, Infinite creature sacrifice triggers | Persist Creature | [345-2292--5](https://commanderspellbook.com/combo/345-2292--5/) |
+| ⚠️ **two-card infinite** · Metallic Mimic + Carrion Feeder | Infinite +1/+1 counters on a creature, Infinite creature ETB, Infinite creature LTB, Infinite death triggers | Persist Creature | [345-2438--5](https://commanderspellbook.com/combo/345-2438--5/) |
+| ⚠️ **two-card infinite** · Metallic Mimic + Yahenni, Undying Partisan | Infinite creature ETB, Infinite creature LTB, Infinite death triggers, Infinite creature sacrifice triggers | Persist Creature | [345-3967--5](https://commanderspellbook.com/combo/345-3967--5/) |
+| ⚠️ **two-card infinite** · Phyrexian Altar + Metallic Mimic | Infinite creature ETB, Infinite creature LTB, Infinite colored mana, Infinite death triggers | Persist Creature | [345-4050--5](https://commanderspellbook.com/combo/345-4050--5/) |
+| ⚠️ **two-card infinite** · Goblin Bombardment + Metallic Mimic | Infinite creature ETB, Infinite creature LTB, Infinite damage, Infinite death triggers | Persist Creature | [345-5147--5](https://commanderspellbook.com/combo/345-5147--5/) |
+| ⚠️ **two-card infinite** · Altar of Dementia + Metallic Mimic | Infinite creature ETB, Infinite creature LTB, Infinite death triggers, Infinite mill | Persist Creature | [345-5256--5](https://commanderspellbook.com/combo/345-5256--5/) |
+| ⚠️ **two-card infinite** · Yahenni, Undying Partisan + Gev, Scaled Scorch | Infinite creature LTB, Infinite creature ETB, Infinite creature sacrifice triggers, Infinite death triggers | Persist Creature | [3967-5805--5](https://commanderspellbook.com/combo/3967-5805--5/) |
+| ⚠️ **two-card infinite** · Yahenni, Undying Partisan + Uncivil Unrest | Infinite creature ETB, Infinite creature LTB, Infinite death triggers, Infinite creature sacrifice triggers | Persist Creature | [3967-5961--5](https://commanderspellbook.com/combo/3967-5961--5/) |
+| ⚠️ **two-card infinite** · Phyrexian Altar + Gev, Scaled Scorch | Infinite colored mana, Infinite creature LTB, Infinite creature ETB, Infinite creature sacrifice triggers | Persist Creature | [4050-5805--5](https://commanderspellbook.com/combo/4050-5805--5/) |
+| ⚠️ **two-card infinite** · Phyrexian Altar + Uncivil Unrest | Infinite creature ETB, Infinite creature LTB, Infinite colored mana, Infinite death triggers | Persist Creature | [4050-5961--5](https://commanderspellbook.com/combo/4050-5961--5/) |
+| ⚠️ **two-card infinite** · Goblin Bombardment + Gev, Scaled Scorch | Infinite damage, Infinite creature LTB, Infinite creature ETB, Infinite creature sacrifice triggers | Persist Creature | [5147-5805--5](https://commanderspellbook.com/combo/5147-5805--5/) |
+| ⚠️ **two-card infinite** · Goblin Bombardment + Uncivil Unrest | Infinite creature ETB, Infinite creature LTB, Infinite damage, Infinite death triggers | Persist Creature | [5147-5961--5](https://commanderspellbook.com/combo/5147-5961--5/) |
+| ⚠️ **two-card infinite** · Altar of Dementia + Gev, Scaled Scorch | Infinite self-mill, Infinite creature LTB, Infinite creature ETB, Infinite creature sacrifice triggers | Persist Creature | [5256-5805--5](https://commanderspellbook.com/combo/5256-5805--5/) |
+| ⚠️ **two-card infinite** · Altar of Dementia + Uncivil Unrest | Infinite creature ETB, Infinite creature LTB, Infinite death triggers, Infinite mill | Persist Creature | [5256-5961--5](https://commanderspellbook.com/combo/5256-5961--5/) |
+| ⚠️ **two-card infinite** · Mikaeus, the Unhallowed + Ashnod's Altar | Infinite colorless mana, Infinite creature ETB, Infinite creature LTB, Infinite creature sacrifice triggers | Persist Creature | [628-2034--5](https://commanderspellbook.com/combo/628-2034--5/) |
+| ⚠️ **two-card infinite** · Mikaeus, the Unhallowed + Viscera Seer | Infinite creature ETB, Infinite creature LTB, Infinite creature sacrifice triggers, Infinite death triggers | Persist Creature | [628-2292--5](https://commanderspellbook.com/combo/628-2292--5/) |
+| ⚠️ **two-card infinite** · Mikaeus, the Unhallowed + Carrion Feeder | Infinite +1/+1 counters on a creature, Infinite creature ETB, Infinite creature LTB, Infinite creature sacrifice triggers | Persist Creature | [628-2438--5](https://commanderspellbook.com/combo/628-2438--5/) |
+| ⚠️ **two-card infinite** · Mikaeus, the Unhallowed + Yahenni, Undying Partisan | Infinite creature ETB, Infinite creature LTB, Infinite creature sacrifice triggers, Infinite death triggers | Persist Creature | [628-3967--5](https://commanderspellbook.com/combo/628-3967--5/) |
+| ⚠️ **two-card infinite** · Mikaeus, the Unhallowed + Phyrexian Altar | Infinite colored mana, Infinite creature ETB, Infinite creature LTB, Infinite creature sacrifice triggers | Persist Creature | [628-4050--5](https://commanderspellbook.com/combo/628-4050--5/) |
+| ⚠️ **two-card infinite** · Mikaeus, the Unhallowed + Goblin Bombardment | Infinite creature ETB, Infinite creature LTB, Infinite creature sacrifice triggers, Infinite damage | Persist Creature | [628-5147--5](https://commanderspellbook.com/combo/628-5147--5/) |
+| ⚠️ **two-card infinite** · Mikaeus, the Unhallowed + Altar of Dementia | Infinite creature ETB, Infinite creature LTB, Infinite creature sacrifice triggers, Infinite death triggers | Persist Creature | [628-5256--5](https://commanderspellbook.com/combo/628-5256--5/) |
+| Ashnod's Altar + Flayer of the Hatebound + Sage of Fables | Infinite card draw, Infinite damage, Infinite death triggers, Infinite creature ETB | — | [1123-2034-4866](https://commanderspellbook.com/combo/1123-2034-4866/) |
+| Spark Double + Murderous Redcap + Ashnod's Altar | Infinite colorless mana, Infinite damage, Infinite death triggers, Infinite creature ETB | — | [1657-2034-3908](https://commanderspellbook.com/combo/1657-2034-3908/) |
+| Spark Double + Murderous Redcap + Viscera Seer | Infinite damage, Infinite death triggers, Infinite creature ETB, Infinite creature LTB | — | [1657-2292-3908](https://commanderspellbook.com/combo/1657-2292-3908/) |
+| Spark Double + Glen Elendra Archmage + Ashnod's Altar | Infinite colorless mana, Infinite death triggers, Infinite creature ETB, Infinite creature LTB | — | [2034-2831-3908](https://commanderspellbook.com/combo/2034-2831-3908/) |
+| Spark Double + River Kelpie + Ashnod's Altar | Infinite card draw, Infinite draw triggers, Near-infinite colorless mana, Near-infinite death triggers | — | [2034-3607-3908](https://commanderspellbook.com/combo/2034-3607-3908/) |
+| Spark Double + Puppeteer Clique + Altar of Dementia | Infinite death triggers, Infinite creature ETB, Infinite creature LTB, Infinite mill | — | [3020-3908-5256](https://commanderspellbook.com/combo/3020-3908-5256/) |
+| Mikaeus, the Unhallowed + Yawgmoth, Thran Physician + Gray Merchant of Asphodel | Infinite card draw, Infinite draw triggers, Near-infinite death triggers, Near-infinite creature ETB | — | [328-628-4279](https://commanderspellbook.com/combo/328-628-4279/) |
+| Murderous Redcap + Metallic Mimic + Viscera Seer | Infinite damage, Infinite creature ETB, Infinite creature LTB, Infinite creature sacrifice triggers | — | [345-1657-2292](https://commanderspellbook.com/combo/345-1657-2292/) |
+| Mikaeus, the Unhallowed + Sage of Fables + Ashnod's Altar | Infinite card draw, Infinite draw triggers, Near-infinite death triggers, Near-infinite creature ETB | — | [628-2034-4866](https://commanderspellbook.com/combo/628-2034-4866/) |
+| Mikaeus, the Unhallowed + Warren Soultrader + Blood Artist | Infinite artifact ETB, Infinite artifact LTB, Infinite artifact sacrifice triggers, Infinite artifact tokens | Persist Creature | [628-2842-5670--5](https://commanderspellbook.com/combo/628-2842-5670--5/) |
+<!-- COMBOS:END -->
