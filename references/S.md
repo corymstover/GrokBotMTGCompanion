@@ -88,56 +88,56 @@ schema: 2
 
 ### Saheeli, Consul of Oversight
 
-[Card entry](../cards/S/sah.md#saheeli-consul-of-oversight) · **1 pages** (lore & story 1)
+[Card entry](../cards/S/sah.md#saheeli-consul-of-oversight) · **2 pages** (lore & story 2)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 
 ### Saheeli, Filigree Master
 
-[Card entry](../cards/S/sah.md#saheeli-filigree-master) · **3 pages** (edh guides 1 · lore & story 1 · card data 1)
+[Card entry](../cards/S/sah.md#saheeli-filigree-master) · **4 pages** (edh guides 1 · lore & story 2 · card data 1)
 
 - **EDH guides (1):** [EDH Packages → Artifacts: Artifact cost reducers](../EDH%20Packages.md#artifacts-artifact-cost-reducers)
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Emblems](../Tokens%2C%20Emblems%20%26%20Dungeons.md#emblems)
 
 ### Saheeli, Jewel of Avishkar
 
-[Card entry](../cards/S/sah.md#saheeli-jewel-of-avishkar) · **1 pages** (lore & story 1)
+[Card entry](../cards/S/sah.md#saheeli-jewel-of-avishkar) · **2 pages** (lore & story 2)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 
 ### Saheeli, Radiant Creator
 
-[Card entry](../cards/S/sah.md#saheeli-radiant-creator) · **1 pages** (lore & story 1)
+[Card entry](../cards/S/sah.md#saheeli-radiant-creator) · **2 pages** (lore & story 2)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 
 ### Saheeli Rai
 
-[Card entry](../cards/S/sah.md#saheeli-rai) · **1 pages** (lore & story 1)
+[Card entry](../cards/S/sah.md#saheeli-rai) · **2 pages** (lore & story 2)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 
 ### Saheeli, Sublime Artificer
 
-[Card entry](../cards/S/sah.md#saheeli-sublime-artificer) · **4 pages** (decks 1 · lore & story 1 · card data 2)
+[Card entry](../cards/S/sah.md#saheeli-sublime-artificer) · **5 pages** (decks 1 · lore & story 2 · card data 2)
 
 - **Decks (1):** [Kykar, Wind's Fury](../decks/kykar-winds-fury.md)
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (2):** [Artist Index → Artists U](../Artist%20Index.md#artists-u) · [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
 
 ### Saheeli, the Gifted
 
-[Card entry](../cards/S/sah.md#saheeli-the-gifted) · **2 pages** (lore & story 1 · card data 1)
+[Card entry](../cards/S/sah.md#saheeli-the-gifted) · **3 pages** (lore & story 2 · card data 1)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Format Legality Matrix → oathbreaker](../Format%20Legality%20Matrix.md#oathbreaker)
 
 ### Saheeli, the Sun's Brilliance
 
-[Card entry](../cards/S/sah.md#saheeli-the-suns-brilliance) · **1 pages** (lore & story 1)
+[Card entry](../cards/S/sah.md#saheeli-the-suns-brilliance) · **2 pages** (lore & story 2)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 
 ### Sai, Master Thopterist
 
@@ -250,49 +250,49 @@ schema: 2
 
 ### Samut, Hazoret's Champion
 
-[Card entry](../cards/S/sam.md#samut-hazorets-champion) · **2 pages** (decks 1 · lore & story 1)
+[Card entry](../cards/S/sam.md#samut-hazorets-champion) · **3 pages** (decks 1 · lore & story 2)
 
 - **Decks (1):** [Goro-Goro and Satoru (Grixis)](../grixis/decks/goro-goro-and-satoru.md)
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 
 ### Samut, the Driving Force
 
-[Card entry](../cards/S/sam.md#samut-the-driving-force) · **1 pages** (lore & story 1)
+[Card entry](../cards/S/sam.md#samut-the-driving-force) · **2 pages** (lore & story 2)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 
 ### Samut, the Tested
 
-[Card entry](../cards/S/sam.md#samut-the-tested) · **1 pages** (lore & story 1)
+[Card entry](../cards/S/sam.md#samut-the-tested) · **2 pages** (lore & story 2)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 
 ### Samut, Tyrant of Naktamun
 
-[Card entry](../cards/S/sam.md#samut-tyrant-of-naktamun) · **2 pages** (decks 1 · lore & story 1)
+[Card entry](../cards/S/sam.md#samut-tyrant-of-naktamun) · **3 pages** (decks 1 · lore & story 2)
 
 - **Decks (1):** [Fire Lord Azula (Grixis)](../grixis/decks/fire-lord-azula.md)
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 
 ### Samut, Tyrant Smasher
 
-[Card entry](../cards/S/sam.md#samut-tyrant-smasher) · **2 pages** (lore & story 2)
+[Card entry](../cards/S/sam.md#samut-tyrant-smasher) · **3 pages** (lore & story 3)
 
-- **Lore & story (2):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (3):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 
 ### Samut, Vizier of Naktamun
 
-[Card entry](../cards/S/sam.md#samut-vizier-of-naktamun) · **1 pages** (lore & story 1)
+[Card entry](../cards/S/sam.md#samut-vizier-of-naktamun) · **2 pages** (lore & story 2)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 
 ### Samut, Voice of Dissent
 
-[Card entry](../cards/S/sam.md#samut-voice-of-dissent) · **4 pages** (decks 1 · edh guides 1 · lore & story 2)
+[Card entry](../cards/S/sam.md#samut-voice-of-dissent) · **5 pages** (decks 1 · edh guides 1 · lore & story 3)
 
 - **Decks (1):** [Saskia the Unyielding](../decks/saskia-the-unyielding.md)
 - **EDH guides (1):** [EDH Standards → Combat damage, redirected — Saskia the Unyielding (BRGW, aggro)](../EDH%20Standards.md#combat-damage-redirected--saskia-the-unyielding-brgw-aggro)
-- **Lore & story (2):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (3):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 
 ### Samwise Gamgee
 
@@ -3751,8 +3751,9 @@ schema: 2
 
 ### Sothera, the Supervoid
 
-[Card entry](../cards/S/so.md#sothera-the-supervoid) · **1 pages** (card data 1)
+[Card entry](../cards/S/so.md#sothera-the-supervoid) · **2 pages** (lore & story 1 · card data 1)
 
+- **Lore & story (1):** [Planes Index → Sothera system (the Edge)](../Planes%20Index.md#sothera-system-the-edge)
 - **Card data (1):** [Artist Index → Artists M](../Artist%20Index.md#artists-m)
 
 ### Soul Enervation

@@ -49,6 +49,9 @@ schema: 2
   - [Did the sylex blast cause the spark loss?](#did-the-sylex-blast-cause-the-spark-loss)
   - [Elspeth: struck down on Theros, then back](#elspeth-struck-down-on-theros-then-back)
   - [The Living Guildpact: Jace, then Niv-Mizzet](#the-living-guildpact-jace-then-niv-mizzet)
+- [Added Bot cycle 29](#added-bot-cycle-29)
+  - [Who made the sylex?](#who-made-the-sylex)
+  - [Vraska's spark after compleation](#vraskas-spark-after-compleation)
 - [Queue for later cycles](#queue-for-later-cycles)
 - [Open / do-not-resolve](#open--do-not-resolve)
 
@@ -309,11 +312,33 @@ Dossier, items and spark-status pass ([#74](https://github.com/corymstover/GrokB
 | **KB treatment** | From WAR on, the Living Guildpact is Niv-Mizzet. Earlier pages that call Jace the Living Guildpact are era snapshots. |
 | **Related** | [Dossiers → Niv-Mizzet](Planeswalker%20Dossiers.md#niv-mizzet) · [Dossiers → Jace Beleren](Planeswalker%20Dossiers.md#jace-beleren) · [Planes → Ravnica (before the invasion)](Planes%20Index.md#ravnica-before-the-invasion) |
 
+## Added Bot cycle 29
+Dossier, plane and items pass ([#74](https://github.com/corymstover/GrokBotMTGCompanion/issues/74), [#75](https://github.com/corymstover/GrokBotMTGCompanion/issues/75), [#76](https://github.com/corymstover/GrokBotMTGCompanion/issues/76)). Every quote below was checked verbatim against the fetched text.
+
+### Who made the sylex?
+| Field | Detail |
+|---|---|
+| **Type** | ❓ open (three official statements disagree) |
+| **Earlier statement** | Karn (2018): "It was created by Urza to help defeat the Phyrexians" ([RtD Ep. 9](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-9-2018-05-09)). |
+| **Later / overriding statement** | BRO (2022): "The Golgothian sylex had first been created or discovered by Feldon … some decades before the Brothers' War" ([BRO Ep. 5](https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-5-as-cruel-as-necessary)). DMU (2022): "A Thran artifact, most said—but he had his doubts. It was Karn's belief that this device came from farther fields than simply the past" ([DMU Ep. 1](https://magic.wizards.com/en/news/magic-story/episode-1-echoes-dark-2022-08-10)). |
+| **KB treatment** | The BRO text is the most specific ("created or discovered by Feldon"), and it hedges. Karn's 2018 line and the DMU "Thran artifact" rumour are in-world beliefs. Do not name a single maker. |
+| **Related** | [Items → Golgothian Sylex](Items%20%26%20Artifacts%20Index.md#golgothian-sylex) · [The sylex plan](#the-sylex-plan-karn-2018-vs-the-invasion-copy) · [Did the sylex blast cause the spark loss?](#did-the-sylex-blast-cause-the-spark-loss) |
+
+### Vraska's spark after compleation
+| Field | Detail |
+|---|---|
+| **Type** | ✅ resolved (KB gap closed) |
+| **Earlier statement** | The KB listed Vraska's post-invasion spark as "see index" with no statement; she was compleated in ONE. |
+| **Later / overriding statement** | "Fused with metal and corrupted beyond recognition, somehow Vraska has returned to her former body and former self—only without her Planeswalker's spark" ([A Legendary Crew (OTJ)](https://magic.wizards.com/en/news/feature/a-legendary-crew-for-an-unbelievable-heist-outlaws-of-thunder-junction)). |
+| **KB treatment** | Vraska = spark lost (✅). The Characters Index sparks table and the dossier summary are updated. |
+| **Related** | [Dossiers → Vraska](Planeswalker%20Dossiers.md#vraska) · [Characters → Sparks after the invasion](Characters%20Index.md#sparks-after-the-phyrexian-invasion) |
+
 ## Queue for later cycles
 | Candidate | Why queued | Needed sources |
 |---|---|---|
 | Weatherlight / Invasion-block novel continuity vs modern plane profiles | Profiles summarize; novels not fetched ⚠️ | Official novels / e-books once accessible; flag secondary until read |
-| Spark restorations after MOM Aftermath (losses logged Bot cycle 25; cycle 26 search of 588 fetched pages found no post-MAT restoration; cycle 27 moved Nahiri to 'lost'; Teyo, Will Kenrith and Bolas still unstated; cycle 28 re-check found no new statement, and for Bolas the text itself says "we don't know whether his spark is intact") | Later stories may restore sparks unevenly | Characters Index spark table + each dossier's sources |
+| Spark restorations after MOM Aftermath (losses logged Bot cycle 25; cycle 26 search of 588 fetched pages found no post-MAT restoration; cycle 27 moved Nahiri to 'lost'; cycle 29 moved Vraska to 'lost'; Teyo, Will Kenrith and Bolas still unstated; cycle 28 re-check found no new statement, and for Bolas the text itself says "we don't know whether his spark is intact") | Later stories may restore sparks unevenly | Characters Index spark table + each dossier's sources |
+| The Endstone's maker (EOE) | Tezzeret seeks "the Endstone's maker"; identity not stated in the fetched text ❓ | Later EOE-follow-up stories |
 | Pre-Mending godlike Planeswalker power vs post-Mending portrayals in side media | Scope of Mending discussed unevenly | Time Spiral–era official text + modern clarifications |
 
 ## Open / do-not-resolve

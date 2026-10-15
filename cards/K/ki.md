@@ -1693,7 +1693,7 @@ schema: 2
 - **Rulings** (2):
   - *2019-05-03* — If the entering creature’s power changes to 3 or less after it has entered the battlefield, you’ll still draw a card.
   - *2019-05-03* — The entering creature must have power 4 or greater as it enters the battlefield, or Kiora’s first ability won’t trigger. Static abilities that raise or lower a creature’s power are taken into account, as well as any +1/+1 counters the creature enters with. However, you can’t have a creature with power 3 or less enter the battlefield, raise its power with a spell, an activated ability, or a triggered ability, and have Kiora’s ability trigger.
-- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/K.md#kiora-behemoth-beckoner)
+- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/K.md#kiora-behemoth-beckoner)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/232/kiora-behemoth-beckoner) · oracle_id `1efe485e-6874-4f4c-b981-e10f41670865` · printing: WAR #232 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kiora Bests the Sea God
@@ -1737,7 +1737,7 @@ schema: 2
   - *2015-08-25* — With Kiora’s second ability, you could put no cards, a creature card, a land card, or a creature card and a land card into your hand.
   - *2015-08-25* — You can activate Kiora’s first ability with no targets just to put a loyalty counter on her.
   - *2015-08-25* — You will have the emblem by the time the Octopus creature tokens enter the battlefield—they’ll be looking to fight!
-- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/K.md#kiora-master-of-the-depths)
+- **Referenced in:** 4 pages (3 lore & story · 1 card data) → [reverse index](../../references/K.md#kiora-master-of-the-depths)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/213/kiora-master-of-the-depths) · oracle_id `0b829189-ff9d-4f6c-9a2a-fdb4a9bfeeb6` · printing: BFZ #213 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kiora of Fire and Ashes
@@ -1752,7 +1752,7 @@ schema: 2
   > *"If you can't stand the heat, get out of my way."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24130 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/K.md#kiora-of-fire-and-ashes)
+- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/K.md#kiora-of-fire-and-ashes)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/247/kiora-of-fire-and-ashes) · oracle_id `02b41d0e-82e7-4307-8cc4-8175ff78ea1f` · printing: FRA #247 (2026-10-02) · [rulings](https://api.scryfall.com/cards/08657053-86f9-4c52-abf0-d9cdd443ae3b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kiora of Salt and Sand
@@ -1768,7 +1768,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21913 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2026-08-21* — Only one loyalty ability of each planeswalker may be activated per turn, no matter how many it has gained.
-- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/K.md#kiora-of-salt-and-sand)
+- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/K.md#kiora-of-salt-and-sand)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/273/kiora-of-salt-and-sand) · oracle_id `e70bb7f8-8098-49c5-929c-68f63cd821c5` · printing: FRA #273 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kiora's Dambreaker
@@ -1837,7 +1837,7 @@ schema: 2
   - *2023-05-12* — If the spell has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
   - *2023-05-12* — If you cast a spell "without paying its mana cost," you can't pay any alternative costs. You can, however, pay additional costs. If the spell has any mandatory additional costs, those must be paid to cast it.
   - *2023-05-12* — The spell you cast without paying its mana cost is cast during the resolution of the triggered ability. Timing restrictions of that spell based on card type are ignored. It will resolve before the spell that caused the ability to trigger.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/K.md#kiora-sovereign-of-the-deep)
+- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/K.md#kiora-sovereign-of-the-deep)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mat/35/kiora-sovereign-of-the-deep) · oracle_id `95df54e2-0196-4e54-8144-de5982ce07f5` · printing: MAT #35 (2023-05-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kiora, the Crashing Wave
@@ -1856,7 +1856,7 @@ schema: 2
   - *2014-02-01* — Kiora’s second ability allows you to play an additional land during your main phase. Doing so follows the normal timing rules for playing lands. In particular, you won’t play a land as that ability resolves. The ability will fully resolve (and you’ll draw a card, perhaps a land you’ll play later) first.
   - *2014-02-01* — Once the first ability resolves, the damage prevention continues to apply even if that permanent changes controllers.
   - *2014-02-01* — The effect of the second ability is cumulative with other effects that let you play additional lands, such as the one from Rites of Flourishing.
-- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/K.md#kiora-the-crashing-wave)
+- **Referenced in:** 4 pages (3 lore & story · 1 card data) → [reverse index](../../references/K.md#kiora-the-crashing-wave)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddo/34/kiora-the-crashing-wave) · oracle_id `58cc2097-f4b4-4695-9076-78666050cdb6` · printing: DDO #34 (2015-02-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kiora, the Rising Tide
@@ -1871,7 +1871,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3564 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2024-11-08* — Kiora's threshold ability checks your graveyard at the moment it would trigger to see if you have seven or more cards in your graveyard. If you don't, the ability won't trigger at all. If it does trigger, the ability will check again as it tries to resolve. If you don't have seven or more cards in your graveyard at that time, the ability won't resolve and none of its effects will happen.
-- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/K.md#kiora-the-rising-tide)
+- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/K.md#kiora-the-rising-tide)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/45/kiora-the-rising-tide) · oracle_id `5d748bce-dff8-46fa-a3d1-633863b7bbff` · printing: FDN #45 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kira, Great Glass-Spinner

@@ -1590,22 +1590,22 @@ schema: 2
 
 ### Huatli, Dinosaur Knight
 
-[Card entry](../cards/H/hu.md#huatli-dinosaur-knight) · **1 pages** (lore & story 1)
+[Card entry](../cards/H/hu.md#huatli-dinosaur-knight) · **2 pages** (lore & story 2)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 
 ### Huatli, Poet of Unity // Roar of the Fifth People
 
-[Card entry](../cards/H/hu.md#huatli-poet-of-unity--roar-of-the-fifth-people) · **2 pages** (lore & story 1 · card data 1)
+[Card entry](../cards/H/hu.md#huatli-poet-of-unity--roar-of-the-fifth-people) · **3 pages** (lore & story 2 · card data 1)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
 
 ### Huatli, Radiant Champion
 
-[Card entry](../cards/H/hu.md#huatli-radiant-champion) · **2 pages** (lore & story 1 · card data 1)
+[Card entry](../cards/H/hu.md#huatli-radiant-champion) · **3 pages** (lore & story 2 · card data 1)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Emblems](../Tokens%2C%20Emblems%20%26%20Dungeons.md#emblems)
 
 ### Huatli's Final Strike
@@ -1616,15 +1616,15 @@ schema: 2
 
 ### Huatli, the Sun's Heart
 
-[Card entry](../cards/H/hu.md#huatli-the-suns-heart) · **2 pages** (lore & story 2)
+[Card entry](../cards/H/hu.md#huatli-the-suns-heart) · **3 pages** (lore & story 3)
 
-- **Lore & story (2):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (3):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 
 ### Huatli, Warrior Poet
 
-[Card entry](../cards/H/hu.md#huatli-warrior-poet) · **1 pages** (lore & story 1)
+[Card entry](../cards/H/hu.md#huatli-warrior-poet) · **2 pages** (lore & story 2)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 
 ### Hua Tuo, Honored Physician
 

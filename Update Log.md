@@ -5,7 +5,7 @@ tags: [changelog]
 issues: []
 generated_by: hand-written
 sources: []
-related: ["Contradictions & Retcons Log.md", "Planeswalker Dossiers.md", "Knowledge Index.md", "Lore Primary Sources.md", "Planes Index.md", "Characters Index.md"]
+related: ["Contradictions & Retcons Log.md", "Planeswalker Dossiers.md", "Lore Primary Sources.md", "Planes Index.md", "Items & Artifacts Index.md", "Knowledge Index.md"]
 schema: 2
 ---
 
@@ -14,6 +14,7 @@ schema: 2
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-15 — Bot cycle 29 (Phase 6: dossiers, Omenpath-era planes, items)](#2026-10-15--bot-cycle-29-phase-6-dossiers-omenpath-era-planes-items)
 - [2026-10-15 — Bot cycle 28 (Phase 6: dossiers, items, planes, retcons)](#2026-10-15--bot-cycle-28-phase-6-dossiers-items-planes-retcons)
 - [2026-10-15 — Bot cycle 27 (Phase 6: dossiers, items, planes, spark refresh)](#2026-10-15--bot-cycle-27-phase-6-dossiers-items-planes-spark-refresh)
 - [2026-10-15 — Bot cycle 26 (Phase 6: dossiers, planes, items index)](#2026-10-15--bot-cycle-26-phase-6-dossiers-planes-items-index)
@@ -42,6 +43,17 @@ schema: 2
 - [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-15 — Bot cycle 29 (Phase 6: dossiers, Omenpath-era planes, items)
+Issues [#73](https://github.com/corymstover/GrokBotMTGCompanion/issues/73), [#74](https://github.com/corymstover/GrokBotMTGCompanion/issues/74), [#75](https://github.com/corymstover/GrokBotMTGCompanion/issues/75), [#76](https://github.com/corymstover/GrokBotMTGCompanion/issues/76); milestone 15. Cycle 28 merged as PR #89.
+
+- [Planeswalker Dossiers](Planeswalker%20Dossiers.md) (#74): **6 new dossiers** — Kiora, Koth, Narset, Saheeli Rai, Huatli, Samut (25 timeline rows; spark moments ✅ for Narset and Samut) → **31 dossiers**. Vraska gains an OTJ row; summary table +6 rows.
+- **Spark fix:** Vraska → **lost** ("only without her Planeswalker's spark", official OTJ crew feature). Characters Index status row, entry and sparks table updated.
+- [Planes Index](Planes%20Index.md) (#74): **Thunder Junction** (⚠️ no Planeswalker's Guide was published; sourced from the announcement, crew feature and episodes), **Bloomburrow**, **Duskmourn**, **Sothera system (the Edge)** → 42 detailed entries.
+- [Items & Artifacts Index](Items%20%26%20Artifacts%20Index.md) (#75): **+2 (24)** — Mana Rig / powerstones / Thran steel (DMU), singularity beads (EOE). The Endstone entry now covers the "Metalman's artifact" (Tezzeret) and the unnamed maker ❓; the sylex entry lists three origin statements.
+- [Contradictions & Retcons Log](Contradictions%20%26%20Retcons%20Log.md): **27 entries** (+who made the sylex ❓, Vraska's spark ✅); queue +1 (the Endstone's maker).
+- [Lore Primary Sources](Lore%20Primary%20Sources.md) (#73): OTJ episodes 1, 3–5, the OTJ announcement and the crew feature fetched → 596 pages.
+- Every new quote was checked verbatim against the fetched text (0 new misses). `validate_all.py` PASS. Grixis #63 remains ON HOLD.
 
 ## 2026-10-15 — Bot cycle 28 (Phase 6: dossiers, items, planes, retcons)
 Issues [#73](https://github.com/corymstover/GrokBotMTGCompanion/issues/73), [#74](https://github.com/corymstover/GrokBotMTGCompanion/issues/74), [#75](https://github.com/corymstover/GrokBotMTGCompanion/issues/75), [#76](https://github.com/corymstover/GrokBotMTGCompanion/issues/76); milestone 15. Cycle 27 merged as PR #88.

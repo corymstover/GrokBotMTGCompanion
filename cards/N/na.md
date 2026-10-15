@@ -1522,7 +1522,7 @@ schema: 2
   - *2023-05-12* — Narset's first ability gives it prowess while it's on the battlefield.
   - *2023-05-12* — Once a prowess ability triggers, causing the creature to lose prowess by removing Narset, Enlightened Exile won't affect that ability. The creature will still get +1/+1 until end of turn.
   - *2023-05-12* — You cast the copy while the ability is resolving and still on the stack. You can't wait to cast it later in the turn.
-- **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/N.md#narset-enlightened-exile)
+- **Referenced in:** 3 pages (1 edh guides · 2 lore & story) → [reverse index](../../references/N.md#narset-enlightened-exile)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mat/38/narset-enlightened-exile) · oracle_id `d92725de-ead0-4a6c-83db-55ec3acc7184` · printing: MAT #38 (2023-05-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Narset, Enlightened Master
@@ -1541,7 +1541,7 @@ schema: 2
   - *2014-09-20* — If the card has {X} in its mana cost, you must choose 0 as the value for X when casting it.
   - *2014-09-20* — The cards are exiled face up. Casting the noncreature cards exiled this way follows the normal rules for casting those cards. You must follow all applicable timing rules. For example, if one of the exiled cards is a sorcery card, you can cast it only during your main phase while the stack is empty.
   - *2014-09-20* — You can't play any land cards exiled with Narset.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/N.md#narset-enlightened-master)
+- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/N.md#narset-enlightened-master)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/931/narset-enlightened-master) · oracle_id `aeaf7768-ed67-487d-8506-e667babb88ba` · printing: CMM #931 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Narset, Jeskai Waymaster
@@ -1556,7 +1556,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12062 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-04-04* — You may choose to discard your hand even if your hand contains zero cards.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/N.md#narset-jeskai-waymaster)
+- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/N.md#narset-jeskai-waymaster)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/209/narset-jeskai-waymaster) · oracle_id `1a2a74b8-0689-4959-9348-02cc832194cf` · printing: TDM #209 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Narset of the Ancient Way
@@ -1576,7 +1576,7 @@ schema: 2
   - *2020-04-17* — Narset's second ability goes on the stack without a target. While that ability is resolving, you draw a card and may choose to discard a card. When you discard a nonland card this way, the reflexive triggered ability triggers and you pick a target to be dealt damage. This is different from effects that say "If you do . . ." in that you choose a target after looking at the card you draw and players can respond to the reflexive triggered ability knowing how much damage will be dealt.
   - *2020-04-17* — The emblem created by Narset's last ability is colorless. The damage it deals is from a colorless source.
   - *2020-04-17* — You can discard a card even if Narset leaves the battlefield before her middle ability resolves. The reflexive triggered ability will still trigger if you discard a nonland card.
-- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/N.md#narset-of-the-ancient-way)
+- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/N.md#narset-of-the-ancient-way)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/930/narset-of-the-ancient-way) · oracle_id `b7ac6e89-941f-4ad9-a437-38ec38ec5263` · printing: CMM #930 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Narset, Parter of Veils
@@ -1593,7 +1593,7 @@ schema: 2
   - *2019-05-03* — Narset will "see" cards drawn by opponents earlier in the turn she entered the battlefield, although Narset can't affect cards drawn before she entered the battlefield. For example, if an opponent draws two cards, then Narset enters the battlefield, that opponent can't draw more cards that turn, but the two drawn cards are unaffected.
   - *2019-05-03* — Replacement effects (such as that of Underrealm Lich or the first ability of Jace, Wielder of Mysteries) can't be used to replace draws that Narset disallows. However, if an opponent's first draw is replaced (by Underrealm Lich's ability, for example), that draw didn't happen and Narset won't stop the next draw (which may also be replaced by Underrealm Lich's ability).
   - *2019-05-03* — Your opponents can each draw a maximum of one card each on each player's turn. Subsequent card draws during that turn are ignored.
-- **Referenced in:** 6 pages (2 decks · 1 edh guides · 1 lore & story · 2 card data) → [reverse index](../../references/N.md#narset-parter-of-veils)
+- **Referenced in:** 7 pages (2 decks · 1 edh guides · 2 lore & story · 2 card data) → [reverse index](../../references/N.md#narset-parter-of-veils)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/853/narset-parter-of-veils) · oracle_id `ab26fbe2-e808-48b9-8d0d-3fbb6c3d554f` · printing: CMM #853 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Narset's Rebuke
@@ -1645,7 +1645,7 @@ schema: 2
 - **Rulings** (2):
   - *2015-02-25* — If a spell that exiles itself as part of its own resolution, such as Volcanic Vision, gains rebound, the ability that lets you cast the spell again won’t be created. The spell will simply be exiled.
   - *2015-02-25* — When resolving Narset’s first ability, if the top card of your library is a creature or a land card, or if you don’t wish to put it into your hand, it isn’t revealed.
-- **Referenced in:** 3 pages (1 decks · 1 lore & story · 1 card data) → [reverse index](../../references/N.md#narset-transcendent)
+- **Referenced in:** 4 pages (1 decks · 2 lore & story · 1 card data) → [reverse index](../../references/N.md#narset-transcendent)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dtk/225/narset-transcendent) · oracle_id `e1de0c94-0ecc-425a-9b92-27c2745d07e7` · printing: DTK #225 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Narstad Scrapper

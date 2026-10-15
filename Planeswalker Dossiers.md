@@ -18,7 +18,7 @@ schema: 2
 ## Contents
 - [Jace Beleren](#jace-beleren) · [Chandra Nalaar](#chandra-nalaar) · [Nissa Revane](#nissa-revane) · [Liliana Vess](#liliana-vess) · [Elspeth Tirel](#elspeth-tirel) · [Karn](#karn) · [Teferi](#teferi)
 - [Ajani Goldmane](#ajani-goldmane) · [Kaya](#kaya) · [Kaito Shizuki](#kaito-shizuki) · [Vraska](#vraska) · [Tamiyo](#tamiyo) · [Sarkhan Vol](#sarkhan-vol)
-- [Gideon Jura](#gideon-jura) · [Nahiri](#nahiri) · [Sorin Markov](#sorin-markov) · [Ugin](#ugin) · [Nicol Bolas](#nicol-bolas) · [Ral Zarek](#ral-zarek) · [Oko](#oko) · [Tezzeret](#tezzeret) *(Bot cycle 8)* · [Tam](#tam) *(Bot cycle 24)* · [Garruk Wildspeaker](#garruk-wildspeaker) · [Wrenn](#wrenn) · [Niv-Mizzet](#niv-mizzet) *(Bot cycle 28)* · Chandra, Nissa, Liliana and Gideon extended *(Bot cycle 25)* · Kaya, Teferi, Karn, Sorin, Nahiri, Ral and Tezzeret extended *(Bot cycle 26)* · Vraska, Tamiyo, Sarkhan, Ugin, Bolas, Kaito and Oko extended *(Bot cycle 27)* · Jace, Elspeth and Ajani extended *(Bot cycle 28)*
+- [Gideon Jura](#gideon-jura) · [Nahiri](#nahiri) · [Sorin Markov](#sorin-markov) · [Ugin](#ugin) · [Nicol Bolas](#nicol-bolas) · [Ral Zarek](#ral-zarek) · [Oko](#oko) · [Tezzeret](#tezzeret) *(Bot cycle 8)* · [Tam](#tam) *(Bot cycle 24)* · [Garruk Wildspeaker](#garruk-wildspeaker) · [Wrenn](#wrenn) · [Niv-Mizzet](#niv-mizzet) *(Bot cycle 28)* · [Kiora](#kiora) · [Koth](#koth) · [Narset](#narset) · [Saheeli Rai](#saheeli-rai) · [Huatli](#huatli) · [Samut](#samut) *(Bot cycle 29)* · Chandra, Nissa, Liliana and Gideon extended *(Bot cycle 25)* · Kaya, Teferi, Karn, Sorin, Nahiri, Ral and Tezzeret extended *(Bot cycle 26)* · Vraska, Tamiyo, Sarkhan, Ugin, Bolas, Kaito and Oko extended *(Bot cycle 27)* · Jace, Elspeth and Ajani extended *(Bot cycle 28)*
 - [Spark & allegiance summary](#spark--allegiance-summary)
 - [Character cards (name-matched)](#character-cards-name-matched)
 
@@ -206,6 +206,7 @@ schema: 2
 | XLN/RIX (2017–18) | Hired by Bolas ("I would like to hire you for the use of your talents") to retrieve the Immortal Sun. She learns he wants "an artifact that imprisons Planeswalkers", and he later inspects "her memories of Ixalan". | [The Talented Captain Vraska](https://magic.wizards.com/en/news/magic-story/talented-captain-vraska-2017-09-20) · [The Arbiter of Law](https://magic.wizards.com/en/news/magic-story/arbiter-law-left-chaos-his-wake-2018-01-24) · [Wool over the Eyes](https://magic.wizards.com/en/news/magic-story/wool-over-eyes-2018-02-14) |
 | XLN (2017) *(Bot cycle 27)* | Bolas's offer: "I can make you Guildmaster of the Golgari, Vraska." | [The Talented Captain Vraska](https://magic.wizards.com/en/news/magic-story/talented-captain-vraska-2017-09-20) |
 | WAR (2019) *(Bot cycle 27)* | As Golgari queen, "Queen Vraska fought like a demon, using her cutlass like a surgical blade and her gorgon gaze"; she fights hand in hand with Jace. | [WAR: Ashes](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12) |
+| OTJ (2024) *(Bot cycle 29)* | "Fused with metal and corrupted beyond recognition, somehow Vraska has returned to her former body and former self—only without her Planeswalker's spark." | [A Legendary Crew (OTJ)](https://magic.wizards.com/en/news/feature/a-legendary-crew-for-an-unbelievable-heist-outlaws-of-thunder-junction) |
 | RF (2026) | Learns that "the spell is held together by our body" and holds Jace as he dies. | [RF Ep. 6](https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-6-the-man-who-kills-his-own-ambition) · [Ep. 9](https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-9-unafraid) |
 | ONE (2023) | Lost on New Phyrexia ("the loss of Vraska"); compleated. | [ONE Ep. 3](https://magic.wizards.com/en/news/magic-story/assault-on-new-phyrexia-or-episode-3-inconceivable-losses) |
 | OTJ epilogue (set "One Year Prior") | "a bloodied and mangled Phyrexian gorgon" in Ranna's home: "Save him first." | [Epilogue 1](https://magic.wizards.com/en/news/magic-story/epilogue-1-the-invasion-tree) |
@@ -434,6 +435,95 @@ schema: 2
 **Allegiances:** Izzet League; Living Guildpact of Ravnica.
 **Status:** [Characters Index → Proft, Etrata, Aminatou, Niv-Mizzet](Characters%20Index.md#proft-etrata-aminatou-niv-mizzet).
 
+## Kiora
+*Dossier added Bot cycle 29.*
+**Identity:** "Cocky, brash, and occasionally selfish, Kiora is a merfolk Planeswalker who wields a magical bident she once stole from a god" ([profile](https://magic.wizards.com/en/story/kiora-planeswalker)).
+**Spark moment:** ❓ Not in the fetched sources.
+
+| When (story) | Event | Source |
+|---|---|---|
+| BNG (2014) | Explores Theros's seas: "Kiora swam, and tasted a new world." Being "arrogant and egocentric in her worst moments … led her to stealing the magical bident of the sea god Thassa." | [Kiora's Followers](https://magic.wizards.com/en/news/magic-story/kioras-followers-2014-02-14) · [Legends of RF](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture) |
+| BFZ (2015) | Returns to Zendikar: "she had narrowly escaped from a battle with a deity, the sea god Thassa on Theros." | [Home Waters](https://magic.wizards.com/en/news/magic-story/home-waters-2015-09-30) |
+| BFZ (2015–16) | Faces Ulamog, "gripping the bident that was going to kill a god"; "Kiora has no intention of stopping there." | [The Rise of Kozilek](https://magic.wizards.com/en/news/magic-story/rise-kozilek-2015-12-09) · [Zendikar's Last Stand](https://magic.wizards.com/en/news/magic-story/zendikars-last-stand-2016-02-17) |
+| WAR (2019) | Joins the fight on Ravnica: "a merfolk woman named Kiora from a world called Zendikar". | [The Path to Opulent](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-path-opulent-2019-05-15) |
+| RF (2026) | "While traveling the Omenpaths to new oceans, Kiora found herself unable to find a route back home to Zendikar." | [Legends of RF](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture) |
+
+**Allegiances:** Zendikar; fought the Eldrazi alongside the Gatewatch (BFZ).
+**Status:** [Characters Index → Kiora](Characters%20Index.md#kiora).
+
+## Koth
+*Dossier added Bot cycle 29.*
+**Identity:** "Koth of the Hammer is a freedom fighter waging war against an extra-planar evil that conquered his native plane" ([profile](https://magic.wizards.com/en/story/koth-planeswalker)).
+**Spark moment:** ❓ Not in the fetched sources.
+
+| When (story) | Event | Source |
+|---|---|---|
+| Mirrodin (past) | "For years, he used his powerful geomancy abilities to sunder stone and forge weapons in the fight against the Phyrexians." | [Legends of RF](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture) |
+| ONE (2023) | Reunites with the strike team: "Koth, I thought you were dead!" | [ONE Ep. 2](https://magic.wizards.com/en/news/magic-story/assault-on-new-phyrexia-or-episode-2-unstable-foundations) |
+| MOM (2023) | Fights for Zhalfir ("As Koth's barricade comes tumbling down, the Zhalfirins charge ahead"); afterwards helps the wounded. | [MOM Ep. 9](https://magic.wizards.com/en/news/magic-story/episode-9-the-old-sins-of-new-phyrexia) · [Ep. 10](https://magic.wizards.com/en/news/magic-story/episode-10-the-rhythms-of-life) |
+| MAT (2023) | "Teferi's spark had faded sometime after the invasion. Koth's as well." | [She Who Breaks the World](https://magic.wizards.com/en/news/magic-story/she-who-breaks-the-world) |
+| RF (2026) | "Now, Koth finally has peace." "On Zhalfir, he and his people adjust to a new way of life." | [Legends of RF](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture) |
+
+**Allegiances:** Mirran resistance; the Mirran survivors on Zhalfir.
+**Status:** [Characters Index → Koth](Characters%20Index.md#koth).
+
+## Narset
+*Dossier added Bot cycle 29.*
+**Identity / spark:** ✅ "Now that Narset's Planeswalker spark has ignited, she has the ability to walk the Blind Eternities … but her devotion is to her home plane of Tarkir" ([profile](https://magic.wizards.com/en/story/narset-planeswalker)).
+**Spark moment:** In the new timeline, "Narset has a secret power burning inside of her"; "Her mother's words swam in Narset's mind as she teetered on the precipice of the Eternities" ([The Great Teacher's Student](https://magic.wizards.com/en/news/magic-story/great-teachers-student-2015-03-04)).
+
+| When (story) | Event | Source |
+|---|---|---|
+| DTK (2015) | "In another time Narset was the khan of a clan known as the Jeskai." Under Ojutai she learns: "I have learned the truth," she whispered. | [The Great Teacher's Student](https://magic.wizards.com/en/news/magic-story/great-teachers-student-2015-03-04) |
+| TDM (2025) | "I am Narset, waymaster of the Jeskai." Hosts Elspeth. Later, "Narset had thought Bolas was dead and Ugin gone, but neither of these things proved true." | [TDM Ep. 2](https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-2-omens) · [Ep. 7](https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-7-return) |
+
+**Allegiances:** Jeskai; ally of Elspeth and Ajani (TDM).
+**Status:** [Characters Index → Narset](Characters%20Index.md#narset).
+
+## Saheeli Rai
+*Dossier added Bot cycle 29.*
+**Identity:** "Saheeli is a master inventor. Her brilliant mind is a never-ending font of innovative ideas, and her magical command over metal allows her to bring them into reality" ([profile](https://magic.wizards.com/en/story/saheeli-rai-planeswalker)).
+**Spark moment:** ❓ Not in the fetched sources.
+
+| When (story) | Event | Source |
+|---|---|---|
+| KLD (2016) | Hailed as "Saheeli Rai, famous inventor, brilliant metalsmith, and most renowned luminary of our time"; helps Rashmi. | [Time and Innovation](https://magic.wizards.com/en/news/magic-story/time-innovation-2016-08-31) |
+| BRO (2022) | Builds "her latest version of the Temporal Anchor" for Teferi's journey. | [BRO Ch. 2](https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-2-antiquities) |
+| LCI (2023) | On Ixalan, "ever since the nerve-burning terror of the Phyrexian war and stripping of her spark". | [LCI: Pawns](https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-pawns) |
+| RF (2026) | "Saheeli has returned to Avishkar after a stay in Ixalan with her beloved, Huatli." | [Legends of RF](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture) |
+
+**Allegiances:** Kaladesh / Avishkar; partner of Huatli.
+**Status:** [Characters Index → Saheeli Rai](Characters%20Index.md#saheeli-rai).
+
+## Huatli
+*Dossier added Bot cycle 29.*
+**Identity:** "A renowned Warrior Poet from Ixalan … After spending many years trapped on her home plane by a magical artifact, Huatli was only recently freed to explore her powers as a Planeswalker" ([profile](https://magic.wizards.com/en/story/huatli-planeswalker)).
+**Spark moment:** ❓ The ignition scene isn't in the fetched sources; she leaves Ixalan in RIX: "Her family waved, and Huatli reached for the spark inside her" ([Who Tells the Stories](https://magic.wizards.com/en/news/magic-story/who-tells-stories-2018-02-07)).
+
+| When (story) | Event | Source |
+|---|---|---|
+| XLN (2017) | Hopes "her emperor would bestow the title of warrior-poet upon her after all these years". | [A Question of Confidence](https://magic.wizards.com/en/news/magic-story/question-confidence-2017-09-13) |
+| RIX (2018) | Planeswalks away from Ixalan once the Immortal Sun is gone. | [Who Tells the Stories](https://magic.wizards.com/en/news/magic-story/who-tells-stories-2018-02-07) |
+| LCI (2023) | Spark gone: "Without my spark I cannot escape the consequences of resistance. I must play my role." Later defends Orazca: "Huatli, alone, stood atop the Winged Temple of Orazca". | [LCI: Pawns](https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-pawns) · [Three Hundred Steps Under the Sun](https://magic.wizards.com/en/news/magic-story/three-hundred-steps-under-the-sun) |
+
+**Allegiances:** Sun Empire (warrior-poet); partner of Saheeli.
+**Status:** [Characters Index → Huatli](Characters%20Index.md#huatli).
+
+## Samut
+*Dossier added Bot cycle 29.*
+**Identity:** "Samut was a renowned initiate, a master of the double khopesh, and adept at channeling her speed and strength into her attacks" ([profile](https://magic.wizards.com/en/story/samut-planeswalker)).
+**Spark moment:** ✅ After Hazoret calls her "Samut the Tested": "And within her soul, a powerful force crackled, and sparked"—"she was falling, falling through space" ([Endure](https://magic.wizards.com/en/news/magic-story/endure-2017-07-19)).
+
+| When (story) | Event | Source |
+|---|---|---|
+| AKH (2017) | Dissenter in Naktamun; warns "the public about the lies of the Hours". | [Judgment](https://magic.wizards.com/en/news/magic-story/judgment-2017-05-17) |
+| HOU (2017) | Hazoret: "Thank you, Samut the Tested." Her spark ignites. | [Endure](https://magic.wizards.com/en/news/magic-story/endure-2017-07-19) |
+| WAR (2019) | On Ravnica: "Miss Samut raced through the Eternal ranks at high speed"; "These are my people. They must be destroyed, I know. But not like this. Grant them some dignity." | [WAR: Ashes](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12) |
+| RF (2026) | "Samut spends much of her time overseeing the restoration of Naktamun's empty quarters and communing with the new gods of Amonkhet." | [Legends of RF](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture) |
+
+**Allegiances:** Hazoret; the living of Naktamun.
+**Status:** [Characters Index → Samut](Characters%20Index.md#samut).
+
 ## Spark & allegiance summary
 | Planeswalker | Spark ignition (sourced) | Spark now (per Characters Index) | Key allegiance |
 |---|---|---|---|
@@ -447,7 +537,7 @@ schema: 2
 | Ajani | ❓ (only "had awoken") | kept | Gatewatch (oath: Renewal) |
 | Kaya | ❓ | kept (MKM) | Orzhov |
 | Kaito | ✅ origin story (Himoto) | active (DSK) | Kamigawa's empress |
-| Vraska | ❓ | see index | Golgari (era) |
+| Vraska | ❓ | lost ("only without her Planeswalker's spark", OTJ crew feature) *(Bot cycle 29)* | Golgari (era) |
 | Tamiyo | ❓ | dead | — |
 | Sarkhan | ✅ Victory | ❓ | Mardu / Ugin |
 | Gideon | ✅ Kytheon Iora of Akros | dead (WAR) | Gatewatch |
@@ -462,6 +552,12 @@ schema: 2
 | Garruk | ❓ | kept (planeswalks, RF Ep. 10) | himself |
 | Wrenn | ✅ profile | dead (MOM) | Teferi / coalition |
 | Niv-Mizzet | n/a (not a Planeswalker) | n/a | Izzet / Living Guildpact |
+| Kiora | ❓ | ❓ (lost on the Omenpaths) | Zendikar |
+| Koth | ❓ | faded (MAT) | Mirrans on Zhalfir |
+| Narset | ✅ profile / DTK | ❓ | Jeskai |
+| Saheeli | ❓ | lost (LCI) | Avishkar |
+| Huatli | ❓ | lost (LCI) | Sun Empire |
+| Samut | ✅ Endure | ❓ | Hazoret / Naktamun |
 
 <!-- CHARCARDS:START -->
 ## Character cards (name-matched)
@@ -495,6 +591,12 @@ schema: 2
 | [Garruk Wildspeaker](#garruk-wildspeaker) | [Garruk Relentless // Garruk, the Veil-Cursed](cards/G/ga.md#garruk-relentless--garruk-the-veil-cursed) · [Garruk Wildspeaker](cards/G/ga.md#garruk-wildspeaker) · [Garruk the Slayer](cards/G/ga.md#garruk-the-slayer) · [Garruk, Apex Predator](cards/G/ga.md#garruk-apex-predator) · [Garruk, Caller of Beasts](cards/G/ga.md#garruk-caller-of-beasts) · [Garruk, Curse Breaker](cards/G/ga.md#garruk-curse-breaker) · [Garruk, Cursed Huntsman](cards/G/ga.md#garruk-cursed-huntsman) · [Garruk, Primal Hunter](cards/G/ga.md#garruk-primal-hunter) · [Garruk, Savage Herald](cards/G/ga.md#garruk-savage-herald) · [Garruk, Unleashed](cards/G/ga.md#garruk-unleashed) · [Garruk, Veiled Butcher](cards/G/ga.md#garruk-veiled-butcher) | 11 |
 | [Wrenn](#wrenn) | [Wrenn and Realmbreaker](cards/W/wr.md#wrenn-and-realmbreaker) · [Wrenn and Seven](cards/W/wr.md#wrenn-and-seven) · [Wrenn and Six](cards/W/wr.md#wrenn-and-six) | 3 |
 | [Niv-Mizzet](#niv-mizzet) | [Niv-Mizzet Reborn](cards/N/ni.md#niv-mizzet-reborn) · [Niv-Mizzet, Dracogenius](cards/N/ni.md#niv-mizzet-dracogenius) · [Niv-Mizzet, Ghost Counsel](cards/N/ni.md#niv-mizzet-ghost-counsel) · [Niv-Mizzet, Guildpact](cards/N/ni.md#niv-mizzet-guildpact) · [Niv-Mizzet, Parun](cards/N/ni.md#niv-mizzet-parun) · [Niv-Mizzet, Supreme](cards/N/ni.md#niv-mizzet-supreme) · [Niv-Mizzet, Visionary](cards/N/ni.md#niv-mizzet-visionary) · [Niv-Mizzet, the Firemind](cards/N/ni.md#niv-mizzet-the-firemind) | 8 |
+| [Kiora](#kiora) | [Kiora of Fire and Ashes](cards/K/ki.md#kiora-of-fire-and-ashes) · [Kiora of Salt and Sand](cards/K/ki.md#kiora-of-salt-and-sand) · [Kiora, Behemoth Beckoner](cards/K/ki.md#kiora-behemoth-beckoner) · [Kiora, Master of the Depths](cards/K/ki.md#kiora-master-of-the-depths) · [Kiora, Sovereign of the Deep](cards/K/ki.md#kiora-sovereign-of-the-deep) · [Kiora, the Crashing Wave](cards/K/ki.md#kiora-the-crashing-wave) · [Kiora, the Rising Tide](cards/K/ki.md#kiora-the-rising-tide) | 7 |
+| [Koth](#koth) | [Koth of the Hammer](cards/K/ko.md#koth-of-the-hammer) · [Koth of the Homestead](cards/K/ko.md#koth-of-the-homestead) · [Koth, Fire of Resistance](cards/K/ko.md#koth-fire-of-resistance) · [Koth, the Geomancer](cards/K/ko.md#koth-the-geomancer) | 4 |
+| [Narset](#narset) | [Narset Transcendent](cards/N/na.md#narset-transcendent) · [Narset of the Ancient Way](cards/N/na.md#narset-of-the-ancient-way) · [Narset, Enlightened Exile](cards/N/na.md#narset-enlightened-exile) · [Narset, Enlightened Master](cards/N/na.md#narset-enlightened-master) · [Narset, Jeskai Waymaster](cards/N/na.md#narset-jeskai-waymaster) · [Narset, Parter of Veils](cards/N/na.md#narset-parter-of-veils) | 6 |
+| [Saheeli Rai](#saheeli-rai) | [Saheeli Rai](cards/S/sah.md#saheeli-rai) · [Saheeli, Consul of Oversight](cards/S/sah.md#saheeli-consul-of-oversight) · [Saheeli, Filigree Master](cards/S/sah.md#saheeli-filigree-master) · [Saheeli, Jewel of Avishkar](cards/S/sah.md#saheeli-jewel-of-avishkar) · [Saheeli, Radiant Creator](cards/S/sah.md#saheeli-radiant-creator) · [Saheeli, Sublime Artificer](cards/S/sah.md#saheeli-sublime-artificer) · [Saheeli, the Gifted](cards/S/sah.md#saheeli-the-gifted) · [Saheeli, the Sun's Brilliance](cards/S/sah.md#saheeli-the-suns-brilliance) | 8 |
+| [Huatli](#huatli) | [Huatli, Dinosaur Knight](cards/H/hu.md#huatli-dinosaur-knight) · [Huatli, Poet of Unity // Roar of the Fifth People](cards/H/hu.md#huatli-poet-of-unity--roar-of-the-fifth-people) · [Huatli, Radiant Champion](cards/H/hu.md#huatli-radiant-champion) · [Huatli, Warrior Poet](cards/H/hu.md#huatli-warrior-poet) · [Huatli, the Sun's Heart](cards/H/hu.md#huatli-the-suns-heart) | 5 |
+| [Samut](#samut) | [Samut, Hazoret's Champion](cards/S/sam.md#samut-hazorets-champion) · [Samut, Tyrant Smasher](cards/S/sam.md#samut-tyrant-smasher) · [Samut, Tyrant of Naktamun](cards/S/sam.md#samut-tyrant-of-naktamun) · [Samut, Vizier of Naktamun](cards/S/sam.md#samut-vizier-of-naktamun) · [Samut, Voice of Dissent](cards/S/sam.md#samut-voice-of-dissent) · [Samut, the Driving Force](cards/S/sam.md#samut-the-driving-force) · [Samut, the Tested](cards/S/sam.md#samut-the-tested) | 7 |
 
-25 of 25 characters have name-matched cards (224 card links).
+31 of 31 characters have name-matched cards (261 card links).
 <!-- CHARCARDS:END -->
