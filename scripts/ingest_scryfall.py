@@ -115,15 +115,30 @@ def ascii_key(name: str) -> str:
     return "".join(ch for ch in n if ch.isalnum())
 
 
+SHARD_MAX = 350  # max cards per shard file at FULL universe coverage (keeps files GitHub-renderable)
+_PREFIX_COUNTS: Counter = Counter()
+
+
+def configure_shards(universe: list[dict]) -> None:
+    """Shard keys depend only on the full universe, so a card's shard never moves as ingestion grows."""
+    _PREFIX_COUNTS.clear()
+    for c in universe:
+        k = ascii_key(c["name"])
+        for n in range(2, 6):
+            _PREFIX_COUNTS[k[:n]] += 1
+
+
 def shard_for(name: str) -> str:
     k = ascii_key(name)
     if not k:
         return "_/__.md"
-    first = k[0] if k[0].isalpha() else "0-9"
-    two = (k[:2] if len(k) > 1 else k[0] + "_")
     if not k[0].isalpha():
-        two = "0-9"
-    return f"{first.upper()}/{two}.md"
+        return "0-9/0-9.md"
+    n = 2
+    while n < 5 and _PREFIX_COUNTS.get(k[:n], 0) > SHARD_MAX and len(k) > n:
+        n += 1
+    pre = k[:n] if len(k) >= 2 else k + "_"
+    return f"{k[0].upper()}/{pre}.md"
 
 
 def gh_anchor(text: str) -> str:
@@ -291,6 +306,7 @@ def main() -> int:
     cards, bulk_updated = get_bulk(Path(args.cache_dir), args.bulk_file)
 
     universe = [c for c in cards if c.get("layout") not in EXCLUDED_LAYOUTS and in_universe(c)]
+    configure_shards(universe)
     by_id = {c["oracle_id"]: c for c in universe}
     by_name = {c["name"].lower(): c for c in universe}
     for c in universe:  # allow face names (e.g. "Fire") to resolve
@@ -465,7 +481,8 @@ def write_card_index(rows, by_id, state, shards):
     for k, v in sorted(ci.items(), key=lambda kv: (len(kv[0]) if kv[0] != 'C' else 0, kv[0])):
         L.append(f"| {k} | {v:,} |")
     L += ["", "## Shards by letter", "",
-          "Cards are stored in `cards/<LETTER>/<first-two-letters>.md` (accents stripped, punctuation ignored).", "",
+          "Cards are stored in `cards/<LETTER>/<prefix>.md` (accents stripped, punctuation ignored; 2-letter prefix, deepened to 3–5 letters "
+          f"where the full universe would exceed {SHARD_MAX} cards in one file).", "",
           "| Letter | Cards | Shard files |", "|---|---|---|"]
     letter_files = defaultdict(list)
     for s in sorted(shards):
@@ -489,8 +506,9 @@ def write_card_index(rows, by_id, state, shards):
     for r in sorted([r for r in rows if r["edhrec_rank"]], key=lambda r: int(r["edhrec_rank"]))[:100]:
         L.append(f"| {r['edhrec_rank']} | {link(r)} | {r['color_identity']} | {r['type_line']} |")
     L += ["", "## How to find a card", "",
-          "1. Strip accents and punctuation from the name, take the first two letters → `cards/<FIRST>/<first two>.md` "
-          "(names starting with a digit live in `cards/0-9/0-9.md`).",
+          "1. Strip accents and punctuation from the name and lower-case it → take the first two letters → `cards/<FIRST>/<first two>.md`; "
+          "very common prefixes are split one letter deeper (e.g. `cards/T/the.md`, `cards/M/mag.md`) — see the shard table above. "
+          "Names starting with a digit live in `cards/0-9/0-9.md`.",
           "2. Or search [`data/card_index.csv`](data/card_index.csv) (columns: " + ", ".join(CSV_FIELDS) + ").", ""]
     CARD_INDEX_MD.write_text("\n".join(L), encoding="utf-8")
 

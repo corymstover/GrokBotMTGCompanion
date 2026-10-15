@@ -4,28 +4,46 @@
   "bulk_updated_at": "2026-10-15T09:02:01.217+00:00",
   "universe_size": 34185,
   "universe_definition": "Scryfall oracle_cards that exist in paper (paper printing, or legal/banned/restricted in Vintage/Legacy/Commander); excludes Arena/Alchemy-only cards and token/emblem/art_series/planar/scheme/vanguard/reversible layouts",
-  "ingested_total": 1000,
-  "batches_run": 1,
+  "ingested_total": 20000,
+  "batches_run": 4,
   "next_batch_size": 2000,
-  "last_run": "2026-10-15T10:34:24+00:00",
-  "last_added": 0,
-  "ingested_edhrec_rank_contiguous_through": 935,
+  "last_run": "2026-10-15T10:39:06+00:00",
+  "last_added": 10000,
+  "ingested_edhrec_rank_contiguous_through": 20016,
   "max_ingested_edhrec_rank": 30683,
   "next_target": {
-    "name": "Eidolon of Blossoms",
-    "oracle_id": "77ccbea1-70af-4194-adad-39a904221c75",
-    "edhrec_rank": 936,
+    "name": "Annihilating Fire",
+    "oracle_id": "762f891e-5d88-42b0-8abf-c69f3421011b",
+    "edhrec_rank": 20017,
     "commander_legality": "legal"
   },
   "missing_priority_names": [],
   "dropped_oracle_ids": [],
-  "shards": 175,
+  "shards": 636,
   "history": [
     {
       "date": "2026-10-15",
       "label": "2026-10-15-b1",
       "added": 1000,
       "total": 1000
+    },
+    {
+      "date": "2026-10-15",
+      "label": "2026-10-15-b2",
+      "added": 4000,
+      "total": 5000
+    },
+    {
+      "date": "2026-10-15",
+      "label": "2026-10-15-b3",
+      "added": 5000,
+      "total": 10000
+    },
+    {
+      "date": "2026-10-15",
+      "label": "2026-10-15-b4",
+      "added": 10000,
+      "total": 20000
     }
   ]
 }

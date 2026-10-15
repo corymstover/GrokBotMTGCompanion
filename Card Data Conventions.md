@@ -20,16 +20,18 @@
 
 ## Storage layout (scales to ~33,000+ cards)
 ```
-cards/<FIRST LETTER>/<first two letters>.md   e.g. cards/S/so.md  (Sol Ring, Solemn Simulacrum …)
+cards/<FIRST LETTER>/<prefix>.md              e.g. cards/S/so.md (Sol Ring …), cards/T/thea.md ("The A…")
 cards/0-9/0-9.md                               names starting with a digit
 data/card_index.csv                            one row per ingested card (machine-readable index)
 data/ingest_state.json                         resumable ingestion state + next target
 data/priority_cards.txt                        names ingested before the rank queue
 data/categories.json                           curated category trackers (shown in Card Index)
 ```
-- Shard key = card name with accents stripped and all non-alphanumerics removed, lower-cased; first two characters. Example: *Æther Vial* → `aethervial` → `cards/A/ae.md`. *Rogue's Passage* → `cards/R/ro.md`.
+- Shard key = card name with accents stripped and all non-alphanumerics removed, lower-cased (*Æther Vial* → `aethervial`; *Rogue's Passage* → `roguespassage`).
+- Prefix = first **2** characters, deepened to 3, 4 or 5 characters when that prefix would hold more than **350** cards across the *full* universe (so `ma` → `mag`, `mal` …; `th` → `tha`, `thea` …). Because the depth is computed from the whole universe, not from what is ingested, **a card's shard never moves** as coverage grows.
+- The exact file for every card is in `data/card_index.csv` (`shard` + `anchor` columns) and the per-letter table in [Card Index](Card%20Index.md#shards-by-letter).
 - Within a shard, entries are sorted letter-by-letter on that key (so "Sol Ring" (`solring`) sorts after "Solphim" (`solphim`)). Each shard opens with a linked table of contents.
-- Projected size at full coverage (~34k cards): ≈310 shards, largest (`th`, mostly "The …") ≈700 entries.
+- Projected size at full coverage (~34k cards): ≤350 entries (~350 KB) per shard — comfortably renderable on GitHub.
 
 ## Entry format
 ```markdown
