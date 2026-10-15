@@ -5,7 +5,7 @@ tags: [story-archive, sources]
 issues: [14]
 generated_by: scripts/crawl_story_index.py
 sources: [wizards-story]
-related: ["Conflicts & Arcs.md", "Side-Media Index.md"]
+related: ["Side-Media Index.md"]
 schema: 2
 ---
 

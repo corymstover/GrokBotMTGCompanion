@@ -35,8 +35,13 @@ ARCS = [
  ('ECL', 'Lorwyn Eclipsed (2025–26)', r'lorwyn-eclipsed'),
  ('SOS', 'Secrets of Strixhaven (2026)', r'secrets-of-strixhaven'),
  ('RF', "Jace's Echoverse (Reality Fracture)", r'reality-fracture'),
+ # Bot cycle 24: pre-2019 arcs upgraded from fetched web fiction / guides
+ ('THS', "Theros: Xenagos's ascension & Elspeth's fall", r'planeswalkers-guide-theros-part|planeswalkers-guide-born-gods|planeswalkers-guide-journey-nyx|^theros-plane$'),
+ ('KLD/AER', 'Kaladesh revolt', r'torch-defiance|renegade-prime|born-aether|bottled-2016|release-2016|very-arena|grateful-consulate|quiet-moments|breakthrough-2016|revolution-begins|skies-over-ghirapur|breaking-points|puppets-2017|renewal-2017|planeswalkers-guide-kaladesh|homesick-2016|time-innovation'),
+ ('AKH/HOU', 'Amonkhet & the God-Pharaoh', r'^trust-2017|writing-wall|servants-2017|hand-moves|brazen-2017|trespass-2017|judgment-2017|^hour-(revelation|glory|promise|eternity|devastation)|^amonkhet-plane$|feast-2017|favor-2017|endure-2017'),
+ ('XLN/RIX', 'Ixalan & the Immortal Sun', r'jace-alone|question-confidence|talented-captain|shapers-2017|something-else-entirely|race-part|flood-2018|glimpse-far-side|arbiter-law|sabotage-2018|who-tells-stories|wool-over-eyes|planeswalkers-guide-ixalan-part|^ixalan-plane$|rivals-ixalan'),
 ]
-DEEPENED = {'KHM','STX','MID/VOW','NEO','SNC','DMU','ONE','MOM','WOE','MKM','OTJ','BLB','DSK','DFT'}
+DEEPENED = {'KHM','STX','MID/VOW','NEO','SNC','DMU','ONE','MOM','WOE','MKM','OTJ','BLB','DSK','DFT','TDM','EOE','ECL','SOS','RF','THS','KLD/AER','AKH/HOU','XLN/RIX'}  # +9 in Bot cycle 24
 
 def anchor(t):
     a = re.sub(r'[^\w\- ]', '', t.lower()).replace(' ', '-')
@@ -69,7 +74,7 @@ def page(rows):
          'issues: [73]', 'generated_by: scripts/build_primary_sources.py', 'sources: [wizards-story]',
          'related: ["Conflicts & Arcs.md", "Side-Media Index.md", "Contradictions & Retcons Log.md"]', 'schema: 2', '---', '',
          '# Lore Primary Sources', '',
-         f'> **Generated (Bot cycle 22, [#73](https://github.com/corymstover/GrokBotMTGCompanion/issues/73)).** Official Wizards pages fetched for the Phase 6 primary-source pass: **{len(rows)} pages** ({total_words:,} words), incl. **{len(guides)} Planeswalker\'s Guides**. Page text is cached locally (`.cache/story/text22/`, gitignored) and is never committed; this page lists titles, dates and URLs only. Quotes added to [Conflicts & Arcs](Conflicts%20%26%20Arcs.md) and the [Contradictions & Retcons Log](Contradictions%20%26%20Retcons%20Log.md) in cycle 22 were matched against this text.',
+         f'> **Generated (Bot cycle 22, [#73](https://github.com/corymstover/GrokBotMTGCompanion/issues/73)).** Official Wizards pages fetched for the Phase 6 primary-source pass: **{len(rows)} pages** ({total_words:,} words), incl. **{len(guides)} Planeswalker\'s Guides**. Page text is cached locally (`.cache/story/text22/`, gitignored) and is never committed; this page lists titles, dates and URLs only. Quotes added to [Conflicts & Arcs](Conflicts%20%26%20Arcs.md), the [Contradictions & Retcons Log](Contradictions%20%26%20Retcons%20Log.md) and [Planeswalker Dossiers](Planeswalker%20Dossiers.md) in cycles 22 and 24 were matched against this text (cycle 24 added pre-2019 web fiction for Kaladesh, Amonkhet, Ixalan and Theros).',
          '', '**Flags:** ✅ deepened this cycle (Cause · Key beats · Outcome · Lasting consequences, primary quotes) · 📚 fetched, deepening queued · ⚠️ secondary material (novels / e-books / comics) is **not** in this list — see [Side-Media Index](Side-Media%20Index.md).', '',
          '## Contents', '- [Coverage by arc](#coverage-by-arc)', "- [Planeswalker's Guides](#planeswalkers-guides)", '- [Secondary material (not ingested)](#secondary-material-not-ingested)', '- [Rebuild](#rebuild)', '',
          '## Coverage by arc', '| Arc | Status | Pages | Words | Conflicts & Arcs |', '|---|---|---|---|---|']

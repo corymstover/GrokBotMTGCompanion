@@ -980,6 +980,11 @@
 ],
 [
 2,
+"Theros: Xenagos's ascension & Elspeth's fall",
+"theros-xenagoss-ascension--elspeths-fall"
+],
+[
+2,
 "Kaladesh revolt",
 "kaladesh-revolt"
 ],
@@ -1170,8 +1175,8 @@
 "Characters Index.md",
 "Master Timeline.md",
 "Planes Index.md",
-"Story Arc Summaries.md",
 "Contradictions & Retcons Log.md",
+"Story Arc Summaries.md",
 "Lore Primary Sources.md"
 ]
 },
@@ -1258,6 +1263,31 @@
 ],
 [
 2,
+"Added Bot cycle 24",
+"added-bot-cycle-24"
+],
+[
+3,
+"Jace: dead, then fragments, then dead",
+"jace-dead-then-fragments-then-dead"
+],
+[
+3,
+"Oko's origin revealed",
+"okos-origin-revealed"
+],
+[
+3,
+"Tam revealed as Jace's creation",
+"tam-revealed-as-jaces-creation"
+],
+[
+3,
+"Did Bolas create Amonkhet?",
+"did-bolas-create-amonkhet"
+],
+[
+2,
 "Queue for later cycles",
 "queue-for-later-cycles"
 ],
@@ -1273,8 +1303,9 @@
 ],
 "related": [
 "Conflicts & Arcs.md",
-"Master Timeline.md",
 "Characters Index.md",
+"Master Timeline.md",
+"Planeswalker Dossiers.md",
 "Lore Primary Sources.md"
 ]
 },
@@ -4016,7 +4047,8 @@
 "related": [
 "Conflicts & Arcs.md",
 "Side-Media Index.md",
-"Contradictions & Retcons Log.md"
+"Contradictions & Retcons Log.md",
+"Planeswalker Dossiers.md"
 ]
 },
 {
@@ -4421,6 +4453,11 @@
 ],
 [
 2,
+"Tam",
+"tam"
+],
+[
+2,
 "Spark & allegiance summary",
 "spark--allegiance-summary"
 ],
@@ -4437,9 +4474,9 @@
 "Characters Index.md",
 "EDH Lore-Themed Deckbuilding.md",
 "Planes Index.md",
+"Contradictions & Retcons Log.md",
 "Art & Flavor Story Links.md",
-"Side-Media Index.md",
-"Story Arc Summaries.md"
+"Lore Primary Sources.md"
 ]
 },
 {
@@ -4781,8 +4818,8 @@
 "38"
 ],
 "related": [
-"Story Arc Summaries.md",
 "Conflicts & Arcs.md",
+"Story Arc Summaries.md",
 "Lore Primary Sources.md",
 "Art & Flavor Story Links.md",
 "Planeswalker Dossiers.md",
@@ -5022,7 +5059,6 @@
 "14"
 ],
 "related": [
-"Conflicts & Arcs.md",
 "Side-Media Index.md"
 ]
 },
@@ -5078,6 +5114,11 @@
 "changelog"
 ],
 "headings": [
+[
+2,
+"2026-10-15 — Bot cycle 24 (Phase 6: newest arcs, pre-2019 arcs, dossiers)",
+"2026-10-15--bot-cycle-24-phase-6-newest-arcs-pre-2019-arcs-dossiers"
+],
 [
 2,
 "2026-10-15 — Bot cycle 23 (lore decks: 85% standard incl. lands)",
@@ -5197,11 +5238,11 @@
 "issues": [],
 "related": [
 "Knowledge Index.md",
-"Front-Matter Schema.md",
 "Contradictions & Retcons Log.md",
+"Front-Matter Schema.md",
+"Conflicts & Arcs.md",
 "EDH Deck Evaluation Checklist.md",
-"EDH Deck Template.md",
-"EDH Lore-Themed Deckbuilding.md"
+"EDH Deck Template.md"
 ]
 },
 {
