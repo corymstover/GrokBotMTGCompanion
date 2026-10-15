@@ -5,7 +5,7 @@ tags: [items, artifacts, relics]
 issues: [75]
 generated_by: hand-written
 sources: [wizards-story]
-related: ["Conflicts & Arcs.md", "Contradictions & Retcons Log.md", "Planes Index.md", "Lore Primary Sources.md"]
+related: ["Conflicts & Arcs.md", "Contradictions & Retcons Log.md", "Planes Index.md", "Lore Primary Sources.md", "Planeswalker Dossiers.md"]
 schema: 2
 ---
 
@@ -14,8 +14,8 @@ schema: 2
 > **Bot cycles 26–27 · issue [#75](https://github.com/corymstover/GrokBotMTGCompanion/issues/75).** Story items, spells and artifacts: what each is, who used it, where it appears, and the card that depicts it. Every quote is verbatim from a fetched magic.wizards.com page (see [Lore Primary Sources](Lore%20Primary%20Sources.md)). Card links go to this KB's Oracle-verified card entries; card text is game rules, not story. Flags: ⚠️ secondary or image-only source · ❓ not covered by fetched sources.
 
 ## Contents
-- [Artifacts](#artifacts): [Golgothian Sylex](#golgothian-sylex) · [Blackblade](#blackblade) · [Immortal Sun](#immortal-sun) · [Chain Veil](#chain-veil) · [Godsend & Khrusor](#godsend--khrusor) · [Helvault](#helvault) · [Hedrons](#hedrons) · [Planar Bridge](#planar-bridge) · [Spear of Hazoret](#spear-of-hazoret) · [Temporal Anchor](#temporal-anchor) · [Ozolith](#ozolith) · [Endstone](#endstone) · *(Bot cycle 27)* [Halo](#halo) · [Lithoform Core](#lithoform-core) · [Mightstone & Weakstone](#mightstone--weakstone) · [Celestus, Sungold Lock & Moonsilver Key](#celestus-sungold-lock--moonsilver-key) · [Biblioplex & the Blood Avatar](#biblioplex--the-blood-avatar-strixhaven) · *(Bot cycle 28)* [Reality Chip](#reality-chip) · [World Tree & the Sword of the Realms](#world-tree--the-sword-of-the-realms-kaldheim) · [Theros god weapons](#theros-god-weapons) · *(Bot cycle 29)* [Mana Rig, powerstones & Thran steel](#mana-rig-powerstones--thran-steel-dmu) · [Singularity beads](#singularity-beads-eoe)
-- [Spells & world-scale magic](#spells--world-scale-magic): [Elderspell](#elderspell) · [Realmbreaker, the Invasion Tree](#realmbreaker-the-invasion-tree)
+- [Artifacts](#artifacts): [Golgothian Sylex](#golgothian-sylex) · [Blackblade](#blackblade) · [Immortal Sun](#immortal-sun) · [Chain Veil](#chain-veil) · [Godsend & Khrusor](#godsend--khrusor) · [Helvault](#helvault) · [Hedrons](#hedrons) · [Planar Bridge](#planar-bridge) · [Spear of Hazoret](#spear-of-hazoret) · [Temporal Anchor](#temporal-anchor) · [Ozolith](#ozolith) · [Endstone](#endstone) · *(Bot cycle 27)* [Halo](#halo) · [Lithoform Core](#lithoform-core) · [Mightstone & Weakstone](#mightstone--weakstone) · [Celestus, Sungold Lock & Moonsilver Key](#celestus-sungold-lock--moonsilver-key) · [Biblioplex & the Blood Avatar](#biblioplex--the-blood-avatar-strixhaven) · *(Bot cycle 28)* [Reality Chip](#reality-chip) · [World Tree & the Sword of the Realms](#world-tree--the-sword-of-the-realms-kaldheim) · [Theros god weapons](#theros-god-weapons) · *(Bot cycle 29)* [Mana Rig, powerstones & Thran steel](#mana-rig-powerstones--thran-steel-dmu) · [Singularity beads](#singularity-beads-eoe) · *(Bot cycle 30)* [A piece of the House](#a-piece-of-the-house-duskmourn)
+- [Spells & world-scale magic](#spells--world-scale-magic): [Elderspell](#elderspell) · [Realmbreaker, the Invasion Tree](#realmbreaker-the-invasion-tree) · *(Bot cycle 30)* [Stormnexus Ritual & the Crucible](#stormnexus-ritual--the-crucible-of-the-spirit-dragon-tarkir)
 - [Queue](#queue)
 
 ## Artifacts
@@ -136,6 +136,11 @@ schema: 2
 - **What / use:** Edge technology dangerous enough to need containment: a shed's walls exist to protect against "something really dangerous, like a singularity bead" ([EOE Ep. 2](https://magic.wizards.com/en/news/magic-story/edge-of-eternities-episode-2)). Used as a weapon—"The singularity bead flashes violet. The collapse takes the Monoist's right hand with it" ([EOE Ep. 4](https://magic.wizards.com/en/news/magic-story/edge-of-eternities-episode-4))—and in fleet strikes: "That was a strike with singularity beads" ([EOE Ep. 10](https://magic.wizards.com/en/news/magic-story/edge-of-eternities-episode-10)).
 - **Arc:** [Edge of Eternities](Conflicts%20%26%20Arcs.md#edge-of-eternities-2025)
 
+### A piece of the House (Duskmourn)
+*Added Bot cycle 30.*
+- **What / use:** After escaping, "Kaito's hand … still clutched the broken-off piece of Duskmourn" ([DSK Ep. 5](https://magic.wizards.com/en/news/magic-story/episode-five-dont-give-in)). It becomes part of a way back in: "An artificial Omenpath," said Kaito. "My spark, Proft's mind magic, Aminatou's fate-twisting, and a piece of the House that I took with me when I had to planeswalk away" ([DSK Ep. 6](https://magic.wizards.com/en/news/magic-story/episode-six-dont-die)).
+- **Arc:** [Duskmourn: House of Horror](Conflicts%20%26%20Arcs.md#duskmourn-house-of-horror-2024) · Plane: [Duskmourn](Planes%20Index.md#duskmourn)
+
 ## Spells & world-scale magic
 
 ### Elderspell
@@ -144,8 +149,15 @@ schema: 2
 ### Realmbreaker, the Invasion Tree
 - Norn "sent Vorinclex to Kaldheim to steal some of the essence of the World Tree, which she then used to grow her own plane-traversing Invasion Tree"; it "breaches into countless planes" ([PW Guide to MOM](https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-march-of-the-machine)). Its sapling: "It is the beginning of great things, Father" ([DMU Ep. 5](https://magic.wizards.com/en/news/magic-story/episode-5-whisper-wind-2022-08-18)). Arcs: [DMU](Conflicts%20%26%20Arcs.md#dominaria-united-2022) · [MOM](Conflicts%20%26%20Arcs.md#march-of-the-machine-2023) · **Card:** [Realmbreaker, the Invasion Tree](cards/R/rea.md#realmbreaker-the-invasion-tree)
 
+### Stormnexus Ritual & the Crucible of the Spirit Dragon (Tarkir)
+*Added Bot cycle 30.*
+- **What:** "In her research, Narset uncovered a spell scroll for the Stormnexus Ritual." "Narset and the other rebellion leaders gathered at the remains of the Crucible of the Spirit Dragon, hoping to finally put an end to the dragonlords' reign" ([PW Guide to TDM Pt 1](https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-tarkir-dragonstorm-part-1)).
+- **Effect:** "When the rebellion leaders enacted the Stormnexus Ritual, they disrupted Ugin's delicate balance of draconic mana that maintained the storms"; afterwards "two major breeds have formed: clan dragons and wild dragons" (same source).
+- **Arc:** [Tarkir: Dragonstorm](Conflicts%20%26%20Arcs.md#tarkir-dragonstorm-2025) · **Card:** [Crucible of the Spirit Dragon](cards/C/cr.md#crucible-of-the-spirit-dragon)
+
 ## Queue
 - Done Bot cycle 27: Halo, Lithoform Core, Mightstone & Weakstone, Celestus / Sungold Lock / Moonsilver Key, Biblioplex & Blood Avatar.
 - Done Bot cycle 28: Reality Chip, World Tree & Sword of the Realms, Theros god weapons (Dekella, Mastix, Akmon, Ephixis), fate of the sylex copy (added to the sylex entry); Ozolith re-checked (still ⚠️ image text only).
 - Done Bot cycle 29: Mana Rig / powerstones / Thran steel, singularity beads, Endstone expanded (the "Metalman's artifact"), sylex origin statements.
-- Next cycles: Duskmourn's House relics and Tarkir's dragonstorm artifacts, only where official text names them; otherwise the index is in maintenance mode.
+- Done Bot cycle 30: a piece of the House (DSK), Stormnexus Ritual & Crucible of the Spirit Dragon (TDM). No other officially named Duskmourn or dragonstorm relics were found in the fetched text.
+- Remaining: ⚠️ Ozolith (image-only text); ❓ original 2018 sylex's fate; ❓ the Endstone's maker.

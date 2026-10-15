@@ -3143,9 +3143,10 @@ schema: 2
 
 ### Crucible of the Spirit Dragon
 
-[Card entry](../cards/C/cr.md#crucible-of-the-spirit-dragon) · **1 pages** (decks 1)
+[Card entry](../cards/C/cr.md#crucible-of-the-spirit-dragon) · **2 pages** (decks 1 · lore & story 1)
 
 - **Decks (1):** [Atarka, World Render (Tarkir-only)](../decks/plane-tarkir-atarka-world-render.md)
+- **Lore & story (1):** [Items & Artifacts Index → Stormnexus Ritual & the Crucible of the Spirit Dragon (Tarkir)](../Items%20%26%20Artifacts%20Index.md#stormnexus-ritual--the-crucible-of-the-spirit-dragon-tarkir)
 
 ### Crucible of Worlds
 

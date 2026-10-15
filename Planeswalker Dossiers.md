@@ -5,7 +5,7 @@ tags: [planeswalkers, dossiers, sparks]
 issues: [35]
 generated_by: hand-written
 sources: [wizards-story]
-related: ["Characters Index.md", "Contradictions & Retcons Log.md", "EDH Lore-Themed Deckbuilding.md", "Planes Index.md", "Art & Flavor Story Links.md", "Lore Primary Sources.md"]
+related: ["Characters Index.md", "Contradictions & Retcons Log.md", "EDH Lore-Themed Deckbuilding.md", "Planes Index.md", "Art & Flavor Story Links.md", "Items & Artifacts Index.md"]
 schema: 2
 ---
 
@@ -18,7 +18,7 @@ schema: 2
 ## Contents
 - [Jace Beleren](#jace-beleren) · [Chandra Nalaar](#chandra-nalaar) · [Nissa Revane](#nissa-revane) · [Liliana Vess](#liliana-vess) · [Elspeth Tirel](#elspeth-tirel) · [Karn](#karn) · [Teferi](#teferi)
 - [Ajani Goldmane](#ajani-goldmane) · [Kaya](#kaya) · [Kaito Shizuki](#kaito-shizuki) · [Vraska](#vraska) · [Tamiyo](#tamiyo) · [Sarkhan Vol](#sarkhan-vol)
-- [Gideon Jura](#gideon-jura) · [Nahiri](#nahiri) · [Sorin Markov](#sorin-markov) · [Ugin](#ugin) · [Nicol Bolas](#nicol-bolas) · [Ral Zarek](#ral-zarek) · [Oko](#oko) · [Tezzeret](#tezzeret) *(Bot cycle 8)* · [Tam](#tam) *(Bot cycle 24)* · [Garruk Wildspeaker](#garruk-wildspeaker) · [Wrenn](#wrenn) · [Niv-Mizzet](#niv-mizzet) *(Bot cycle 28)* · [Kiora](#kiora) · [Koth](#koth) · [Narset](#narset) · [Saheeli Rai](#saheeli-rai) · [Huatli](#huatli) · [Samut](#samut) *(Bot cycle 29)* · Chandra, Nissa, Liliana and Gideon extended *(Bot cycle 25)* · Kaya, Teferi, Karn, Sorin, Nahiri, Ral and Tezzeret extended *(Bot cycle 26)* · Vraska, Tamiyo, Sarkhan, Ugin, Bolas, Kaito and Oko extended *(Bot cycle 27)* · Jace, Elspeth and Ajani extended *(Bot cycle 28)*
+- [Gideon Jura](#gideon-jura) · [Nahiri](#nahiri) · [Sorin Markov](#sorin-markov) · [Ugin](#ugin) · [Nicol Bolas](#nicol-bolas) · [Ral Zarek](#ral-zarek) · [Oko](#oko) · [Tezzeret](#tezzeret) *(Bot cycle 8)* · [Tam](#tam) *(Bot cycle 24)* · [Garruk Wildspeaker](#garruk-wildspeaker) · [Wrenn](#wrenn) · [Niv-Mizzet](#niv-mizzet) *(Bot cycle 28)* · [Kiora](#kiora) · [Koth](#koth) · [Narset](#narset) · [Saheeli Rai](#saheeli-rai) · [Huatli](#huatli) · [Samut](#samut) *(Bot cycle 29)* · [Dovin Baan](#dovin-baan) · [Angrath](#angrath) · [Venser](#venser) · [Xenagos](#xenagos) · [Ashiok](#ashiok) · [Rowan & Will Kenrith](#rowan--will-kenrith) · [Teyo Verada](#teyo-verada) *(Bot cycle 30)* · Chandra, Nissa, Liliana and Gideon extended *(Bot cycle 25)* · Kaya, Teferi, Karn, Sorin, Nahiri, Ral and Tezzeret extended *(Bot cycle 26)* · Vraska, Tamiyo, Sarkhan, Ugin, Bolas, Kaito and Oko extended *(Bot cycle 27)* · Jace, Elspeth and Ajani extended *(Bot cycle 28)*
 - [Spark & allegiance summary](#spark--allegiance-summary)
 - [Character cards (name-matched)](#character-cards-name-matched)
 
@@ -524,6 +524,105 @@ schema: 2
 **Allegiances:** Hazoret; the living of Naktamun.
 **Status:** [Characters Index → Samut](Characters%20Index.md#samut).
 
+## Dovin Baan
+*Dossier added Bot cycle 30.*
+**Identity:** "Dovin can clearly see the flaws in any system or machine and predict with startling accuracy exactly how and when it will fail" ([profile](https://magic.wizards.com/en/story/dovin-baan-planeswalker)).
+**Spark moment:** ❓ Not in the fetched sources.
+
+| When (story) | Event | Source |
+|---|---|---|
+| KLD (2016) | Consulate advisor working against Tezzeret's methods: "If Tezzeret had just consulted me before setting the enforcers to work, Dovin thought, everything would be going so much more smoothly." | [The Grateful Consulate](https://magic.wizards.com/en/news/magic-story/grateful-consulate-2016-10-19) |
+| AER (2017) | Confronts Chandra: "I had planned to recruit your help." | [Breaking Points](https://magic.wizards.com/en/news/magic-story/breaking-points-2017-01-18) |
+| WAR (2019) | "The Azorius Senate guildmaster, the already infamous Dovin Baan, had—like Mistress Vraska—been working with Bolas." After the war: "Vraska, as penance for past sins, we assign you Dovin Baan." | [Rallying the Reluctant](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-rallying-reluctant-2019-05-22) · [WAR: Ashes](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12) |
+
+**Allegiances:** Kaladesh Consulate; Azorius Senate; Bolas (WAR).
+**Status:** [Characters Index → Dovin Baan](Characters%20Index.md#dovin-baan). ❓ His fate after WAR is not stated in the fetched text.
+
+## Angrath
+*Dossier added Bot cycle 30.*
+**Identity:** "Angrath is driven by a feeling of restless impatience, like a caged animal awaiting its moment of freedom" ([profile](https://magic.wizards.com/en/story/angrath-planeswalker)).
+**Spark moment:** ❓ Not in the fetched sources.
+
+| When (story) | Event | Source |
+|---|---|---|
+| XLN (2017) | "I am the dread pirate Angrath," he said, "and I seek the Immortal Sun." | [A Question of Confidence](https://magic.wizards.com/en/news/magic-story/question-confidence-2017-09-13) |
+| RIX (2018) | Trapped by the Immortal Sun: "Freedom starts with knowing when you're trapped." Where he would go first: "I want to see my daughters." | [Glimpse of the Far Side of the Sun](https://magic.wizards.com/en/news/magic-story/glimpse-far-side-sun-2018-01-17) |
+| RIX (2018) | When the Immortal Sun vanishes: "SEE YOU NEVER, PATHETIC FOOLS!" as he planeswalked away. | [Who Tells the Stories](https://magic.wizards.com/en/news/magic-story/who-tells-stories-2018-02-07) |
+
+**Allegiances:** Himself; his daughters (RIX).
+**Status:** [Characters Index → Angrath](Characters%20Index.md#angrath).
+
+## Venser
+*Dossier added Bot cycle 30.*
+**Identity:** "Venser is a brilliant inventor able to think fast on his feet … Venser's talent eventually ignited his spark, making him a Planeswalker" ([profile](https://magic.wizards.com/en/story/venser-planeswalker)).
+**Spark moment:** ✅ (summary only) "Venser's talent eventually ignited his spark" ([profile](https://magic.wizards.com/en/story/venser-planeswalker)). ❓ The scene isn't in the fetched sources.
+
+| When (story) | Event | Source |
+|---|---|---|
+| Scars of Mirrodin (recalled) | "Venser was part of the group that'd come to find Karn when he was deep in the throes of phyresis"; "If it wasn't for Venser sacrificing his spark, Karn would be dead." | [MOM Ep. 7](https://magic.wizards.com/en/news/magic-story/episode-7-divine-intervention) |
+| DOM (2018) | Jhoira learns: "Venser gave up his spark to Karn, to rescue him. Venser did not survive." | [RtD Ep. 5](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-5-2018-04-11) |
+| DMU (2022) | Karn: "Venser's spark saved him from that." | [DMU Ep. 1](https://magic.wizards.com/en/news/magic-story/episode-1-echoes-dark-2022-08-10) |
+
+**Allegiances:** Dominaria; ally of Karn, Jhoira, Koth and Elspeth.
+**Status:** [Characters Index → Venser](Characters%20Index.md#venser). 🚫 The Legends of Reality Fracture "Venser, Fervent Forger" (Jhoira's pirate first mate) is an Echoverse counterpart and is not used here.
+
+## Xenagos
+*Dossier added Bot cycle 30.*
+**Identity / spark:** ✅ "When his Planeswalker spark ignited, he was excited to bring his boisterous, carefree hedonism to distant planes … but what he found instead was disillusionment" ([profile](https://magic.wizards.com/en/story/xenagos-planeswalker)).
+
+| When (story) | Event | Source |
+|---|---|---|
+| BNG (2014) | "Xenagos returned to his home world with an unprecedented ambition: to become the god of revels." | [PW Guide to Born of the Gods](https://magic.wizards.com/en/news/feature/planeswalkers-guide-born-gods-2014-01-08) |
+| JOU (2014) | "Xenagos, the usurper god, has ascended"; he "used the occasion to stage the final ritual that propelled him to godhood." | [PW Guide to Journey into Nyx](https://magic.wizards.com/en/news/feature/planeswalkers-guide-journey-nyx-2014-04-02) |
+| JOU (2014) | Killed by Elspeth: "The sun god Heliod sent his champion, the Planeswalker Elspeth, to destroy Xenagos—and she succeeded." | [THB Story Summary](https://magic.wizards.com/en/news/feature/theros-beyond-death-story-summary-2020-01-10) |
+
+**Allegiances:** The satyrs of the Skola Valley; himself.
+**Status:** [Characters Index → Xenagos](Characters%20Index.md#xenagos). See [Items → Godsend & Khrusor](Items%20%26%20Artifacts%20Index.md#godsend--khrusor).
+
+## Ashiok
+*Dossier added Bot cycle 30.*
+**Identity:** "Ashiok is an elegant being of nightmare who draws on fear … Ashiok's motives and origin are unknown" ([profile](https://magic.wizards.com/en/story/ashiok-planeswalker)).
+**Spark moment:** ❓ Unknown (origin unknown per profile).
+
+| When (story) | Event | Source |
+|---|---|---|
+| JOU (2014) | Repays a favor from Phenax: "So what boon do you wish of me?" the god Phenax had asked Ashiok. | [Dreams of the City](https://magic.wizards.com/en/news/magic-story/dreams-city-2014-04-23) |
+| THB (2020) | "Ashiok lived for fear, believing it to be the great equalizer of all things." Then "Ashiok learned of the Phyrexians' existence and promptly planeswalked away to learn more of these true living nightmares." | [THB Story Summary](https://magic.wizards.com/en/news/feature/theros-beyond-death-story-summary-2020-01-10) |
+| SNC-era side story (2022) | Sends a nightmare into Elesh Norn's Basilica; "Norn was not unfamiliar with the chaos Ashiok had inflicted on the Mirrans" | [A Garden of Flesh](https://magic.wizards.com/en/news/magic-story/garden-flesh-2022-05-03) |
+| BRO (2022) | Writes to Elspeth about New Phyrexia: "It truly is a sight, your Phyrexia. A land where nightmares can have nightmares." Signed "Yours, always," Ashiok. | [BRO Ch. 4](https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-4-the-dark) |
+| WOE / OTJ (2023–24) | ⚠️ Jace later disguises himself as Ashiok; which appearances are the real Ashiok is not fully stated (see [Characters Index → Ashiok](Characters%20Index.md#ashiok)). | — |
+
+**Allegiances:** None known.
+**Status:** [Characters Index → Ashiok](Characters%20Index.md#ashiok).
+
+## Rowan & Will Kenrith
+*Dossier added Bot cycle 30.*
+**Identity:** "Will Kenrith and his sister Rowan are unique in the Multiverse, the only Planeswalkers known to share a Spark. Wherever one goes, the other must follow" ([Will profile](https://magic.wizards.com/en/story/will-kenrith-planeswalker); same text on [Rowan profile](https://magic.wizards.com/en/story/rowan-kenrith-planeswalker)).
+**Spark moment:** ❓ Not in the fetched sources.
+
+| When (story) | Event | Source |
+|---|---|---|
+| ELD (2019) | Children of the High King: "The castle is home to both High King Kenrith and Queen Linden, along with their four children: Rowan, Will, Hazel, and Eric." | [PW Guide to Eldraine](https://magic.wizards.com/en/news/feature/planeswalkers-guide-eldraine-2019-10-31) |
+| STX (2021) | Students at Strixhaven: "Will Kenrith stared helplessly at the towering stack of books on his bed." | [STX Ep. 1](https://magic.wizards.com/en/news/magic-story/episode-1-class-session-2021-03-25) |
+| WOE (2023) | Will is called "the Boy King"; Rowan "can't feel" the spark. Disguised Jace tells her "The spark is gone." | [WOE Ep. 1](https://magic.wizards.com/en/news/magic-story/episode-1-pure-of-heart) · [Ep. 3](https://magic.wizards.com/en/news/magic-story/episode-3-two-great-banquets) |
+
+**Allegiances:** Eldraine (Ardenvale / Kenrith family).
+**Status:** [Characters Index → Rowan Kenrith](Characters%20Index.md#rowan-kenrith) · [Will Kenrith](Characters%20Index.md#will-kenrith). ❓ Will's own spark (see [Retcons queue](Contradictions%20%26%20Retcons%20Log.md#queue-for-later-cycles)).
+
+## Teyo Verada
+*Dossier added Bot cycle 30.*
+**Identity:** "Teyo Verada is a young, inexperienced shield mage who was unexpectedly thrust into the chaos of war" ([profile](https://magic.wizards.com/en/story/teyo-verada-planeswalker)).
+**Spark moment:** ❓ The scene isn't in the fetched sources; on arrival Ral tells him "You're a Planeswalker." ([WAR: Old Friends and New](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-old-friends-and-new-2019-05-08)).
+
+| When (story) | Event | Source |
+|---|---|---|
+| Gobakhan (past) | "Shieldmages found him alone in his village, the only survivor of the vicious diamond storms that regularly plague Gobakhan." | [Legends of RF](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture) |
+| WAR (2019) | Arrives on Ravnica ("Teyo," he replied, his voice rising at the end); fights alongside Kaya and Hekara. | [Old Friends and New](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-old-friends-and-new-2019-05-08) · [WAR: Ashes](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12) |
+| RF (2026) | "Now more certain of himself, Teyo has brought his unorthodox techniques back to Gobakhan to protect it anew." | [Legends of RF](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture) |
+
+**Allegiances:** Gobakhan's shieldmages.
+**Status:** [Characters Index → Teyo Verada](Characters%20Index.md#teyo-verada). ❓ Spark status after the invasion.
+
 ## Spark & allegiance summary
 | Planeswalker | Spark ignition (sourced) | Spark now (per Characters Index) | Key allegiance |
 |---|---|---|---|
@@ -558,6 +657,13 @@ schema: 2
 | Saheeli | ❓ | lost (LCI) | Avishkar |
 | Huatli | ❓ | lost (LCI) | Sun Empire |
 | Samut | ✅ Endure | ❓ | Hazoret / Naktamun |
+| Dovin Baan | ❓ | ❓ | Azorius / ex-Bolas |
+| Angrath | ❓ | ❓ | himself |
+| Venser | ✅ profile (summary) | gave it to Karn; dead | Karn / Dominaria |
+| Xenagos | ✅ profile | dead (JOU) | Skola satyrs |
+| Ashiok | ❓ | ❓ | none known |
+| Rowan & Will | ❓ | Rowan lost; Will ❓ | Eldraine |
+| Teyo | ❓ | ❓ | Gobakhan |
 
 <!-- CHARCARDS:START -->
 ## Character cards (name-matched)
@@ -597,6 +703,13 @@ schema: 2
 | [Saheeli Rai](#saheeli-rai) | [Saheeli Rai](cards/S/sah.md#saheeli-rai) · [Saheeli, Consul of Oversight](cards/S/sah.md#saheeli-consul-of-oversight) · [Saheeli, Filigree Master](cards/S/sah.md#saheeli-filigree-master) · [Saheeli, Jewel of Avishkar](cards/S/sah.md#saheeli-jewel-of-avishkar) · [Saheeli, Radiant Creator](cards/S/sah.md#saheeli-radiant-creator) · [Saheeli, Sublime Artificer](cards/S/sah.md#saheeli-sublime-artificer) · [Saheeli, the Gifted](cards/S/sah.md#saheeli-the-gifted) · [Saheeli, the Sun's Brilliance](cards/S/sah.md#saheeli-the-suns-brilliance) | 8 |
 | [Huatli](#huatli) | [Huatli, Dinosaur Knight](cards/H/hu.md#huatli-dinosaur-knight) · [Huatli, Poet of Unity // Roar of the Fifth People](cards/H/hu.md#huatli-poet-of-unity--roar-of-the-fifth-people) · [Huatli, Radiant Champion](cards/H/hu.md#huatli-radiant-champion) · [Huatli, Warrior Poet](cards/H/hu.md#huatli-warrior-poet) · [Huatli, the Sun's Heart](cards/H/hu.md#huatli-the-suns-heart) | 5 |
 | [Samut](#samut) | [Samut, Hazoret's Champion](cards/S/sam.md#samut-hazorets-champion) · [Samut, Tyrant Smasher](cards/S/sam.md#samut-tyrant-smasher) · [Samut, Tyrant of Naktamun](cards/S/sam.md#samut-tyrant-of-naktamun) · [Samut, Vizier of Naktamun](cards/S/sam.md#samut-vizier-of-naktamun) · [Samut, Voice of Dissent](cards/S/sam.md#samut-voice-of-dissent) · [Samut, the Driving Force](cards/S/sam.md#samut-the-driving-force) · [Samut, the Tested](cards/S/sam.md#samut-the-tested) | 7 |
+| [Dovin Baan](#dovin-baan) | [Dovin Baan](cards/D/do.md#dovin-baan) · [Dovin, Architect of Law](cards/D/do.md#dovin-architect-of-law) · [Dovin, Grand Arbiter](cards/D/do.md#dovin-grand-arbiter) · [Dovin, Hand of Control](cards/D/do.md#dovin-hand-of-control) | 4 |
+| [Angrath](#angrath) | [Angrath, Captain of Chaos](cards/A/an.md#angrath-captain-of-chaos) · [Angrath, Minotaur Pirate](cards/A/an.md#angrath-minotaur-pirate) · [Angrath, the Flame-Chained](cards/A/an.md#angrath-the-flame-chained) | 3 |
+| [Venser](#venser) | [Venser, Corpse Puppet](cards/V/ve.md#venser-corpse-puppet) · [Venser, Fervent Forger](cards/V/ve.md#venser-fervent-forger) · [Venser, Shaper Savant](cards/V/ve.md#venser-shaper-savant) · [Venser, Visionary Traveler](cards/V/ve.md#venser-visionary-traveler) · [Venser, the Sojourner](cards/V/ve.md#venser-the-sojourner) | 5 |
+| [Xenagos](#xenagos) | [Xenagos, God of Revels](cards/X/xe.md#xenagos-god-of-revels) · [Xenagos, the Reveler](cards/X/xe.md#xenagos-the-reveler) | 2 |
+| [Ashiok](#ashiok) | [Ashiok, Dream Render](cards/A/as.md#ashiok-dream-render) · [Ashiok, Nightmare Muse](cards/A/as.md#ashiok-nightmare-muse) · [Ashiok, Nightmare Weaver](cards/A/as.md#ashiok-nightmare-weaver) · [Ashiok, Sculptor of Fears](cards/A/as.md#ashiok-sculptor-of-fears) · [Ashiok, Wicked Manipulator](cards/A/as.md#ashiok-wicked-manipulator) | 5 |
+| [Rowan & Will Kenrith](#rowan--will-kenrith) | [Rowan Kenrith](cards/R/ro.md#rowan-kenrith) · [Rowan, Fearless Sparkmage](cards/R/ro.md#rowan-fearless-sparkmage) · [Rowan, Scholar of Sparks // Will, Scholar of Frost](cards/R/ro.md#rowan-scholar-of-sparks--will-scholar-of-frost) · [Rowan, Scion of War](cards/R/ro.md#rowan-scion-of-war) | 4 |
+| [Teyo Verada](#teyo-verada) | [Teyo, Diamondblade Mage](cards/T/te.md#teyo-diamondblade-mage) · [Teyo, Geometric Tactician](cards/T/te.md#teyo-geometric-tactician) · [Teyo, Lightshield Expert](cards/T/te.md#teyo-lightshield-expert) · [Teyo, the Shieldmage](cards/T/te.md#teyo-the-shieldmage) | 4 |
 
-31 of 31 characters have name-matched cards (261 card links).
+38 of 38 characters have name-matched cards (288 card links).
 <!-- CHARCARDS:END -->

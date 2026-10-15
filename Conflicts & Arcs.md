@@ -5,7 +5,7 @@ tags: [arcs, conflicts]
 issues: [7, 13, 34, 72, 73]
 generated_by: hand-written
 sources: [wizards-story]
-related: ["Characters Index.md", "Master Timeline.md", "Planes Index.md", "Contradictions & Retcons Log.md", "Lore Primary Sources.md", "Items & Artifacts Index.md"]
+related: ["Characters Index.md", "Master Timeline.md", "Planes Index.md", "Contradictions & Retcons Log.md", "Items & Artifacts Index.md", "Lore Primary Sources.md"]
 schema: 2
 ---
 

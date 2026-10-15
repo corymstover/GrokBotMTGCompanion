@@ -1176,28 +1176,28 @@ schema: 2
 
 ### Teyo, Diamondblade Mage
 
-[Card entry](../cards/T/te.md#teyo-diamondblade-mage) · **1 pages** (lore & story 1)
+[Card entry](../cards/T/te.md#teyo-diamondblade-mage) · **2 pages** (lore & story 2)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 
 ### Teyo, Geometric Tactician
 
-[Card entry](../cards/T/te.md#teyo-geometric-tactician) · **2 pages** (lore & story 1 · card data 1)
+[Card entry](../cards/T/te.md#teyo-geometric-tactician) · **3 pages** (lore & story 2 · card data 1)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
 
 ### Teyo, Lightshield Expert
 
-[Card entry](../cards/T/te.md#teyo-lightshield-expert) · **1 pages** (lore & story 1)
+[Card entry](../cards/T/te.md#teyo-lightshield-expert) · **2 pages** (lore & story 2)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 
 ### Teyo, the Shieldmage
 
-[Card entry](../cards/T/te.md#teyo-the-shieldmage) · **4 pages** (lore & story 2 · card data 2)
+[Card entry](../cards/T/te.md#teyo-the-shieldmage) · **5 pages** (lore & story 3 · card data 2)
 
-- **Lore & story (2):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (3):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (2):** [Artist Index → Artists F](../Artist%20Index.md#artists-f) · [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
 
 ### Teysa, Envoy of Ghosts

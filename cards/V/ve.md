@@ -2042,7 +2042,7 @@ schema: 2
   - *2023-02-04* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
   - *2023-02-04* — Toxic doesn't change the amount of combat damage a creature deals. For example, if a 2/2 creature with toxic 1 deals combat damage to a player, that creature will deal 2 damage. The results of that damage are the player loses 2 life and gets a poison counter.
   - *2023-02-04* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
-- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/V.md#venser-corpse-puppet)
+- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/V.md#venser-corpse-puppet)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/219/venser-corpse-puppet) · oracle_id `17c934a7-3480-4309-a217-ca2550538ae7` · printing: ONE #219 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Venser, Fervent Forger
@@ -2071,7 +2071,7 @@ schema: 2
   - *2026-08-21* — The tokens copy exactly what was printed on the original permanent and nothing else (unless that permanent is copying something else or is a token; see below). They don't copy whether that permanent is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
   - *2026-08-21* — The tokens see each other enter the battlefield. If any of them have a triggered ability that triggers whenever a creature enters, they'll trigger for one another.
   - *2026-08-21* — You can't choose to pay any additional costs for a copied spell. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/V.md#venser-fervent-forger)
+- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/V.md#venser-fervent-forger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/9/venser-fervent-forger) · oracle_id `9b1ae6d8-0cf3-4a67-9241-37f4bc5ddbdd` · printing: FRC #9 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Venser's Diffusion
@@ -2105,7 +2105,7 @@ schema: 2
   - *2021-03-19* — If Venser's triggered ability targets a spell cast with flashback, that spell will be exiled instead of returning to its owner's hand.
   - *2021-03-19* — If a copy of a spell is returned to its owner's hand, it's moved there, then it will cease to exist as a state-based action. It can't be recast.
   - *2021-03-19* — If a spell is returned to its owner's hand, it's removed from the stack and thus will not resolve. The spell isn't countered; it just no longer exists. This works even against a spell that can't be countered.
-- **Referenced in:** 4 pages (1 decks · 1 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/V.md#venser-shaper-savant)
+- **Referenced in:** 5 pages (1 decks · 1 edh guides · 2 lore & story · 1 card data) → [reverse index](../../references/V.md#venser-shaper-savant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/66/venser-shaper-savant) · oracle_id `0f41cefc-d6ff-4db7-ba35-502b7e081de1` · printing: 2X2 #66 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Venser's Journal
@@ -2154,7 +2154,7 @@ schema: 2
   - *2011-01-01* — Venser’s last ability creates an emblem with a triggered ability. The emblem is the source of the triggered ability. Because emblems are colorless, you can target permanents with protection from white or from blue, for example, with the triggered ability.
   - *2011-01-01* — Venser’s second ability doesn’t lock in what it applies to. That’s because the effect states a true thing about creatures, but doesn’t actually change the characteristics of those creatures. As a result, all creatures can’t be blocked that turn, including creatures you don’t control, creatures that weren’t on the battlefield at the time the ability resolved, and creatures that have lost all abilities.
   - *2011-01-01* — Whenever you cast a spell, the emblem’s ability triggers and goes on the stack on top of it. It will resolve before the spell does.
-- **Referenced in:** 3 pages (1 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/V.md#venser-the-sojourner)
+- **Referenced in:** 4 pages (1 edh guides · 2 lore & story · 1 card data) → [reverse index](../../references/V.md#venser-the-sojourner)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddi/1/venser-the-sojourner) · oracle_id `a8bf8ff8-d924-4fd2-b5ed-05b38f55325a` · printing: DDI #1 (2012-03-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Venser, Visionary Traveler
@@ -2169,7 +2169,7 @@ schema: 2
   > Venser, Visionary Traveler can be your commander.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #27575 · Game Changer: no · Can be commander: Yes (Oracle text: "can be your commander")
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/V.md#venser-visionary-traveler)
+- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/V.md#venser-visionary-traveler)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/55/venser-visionary-traveler) · oracle_id `f4a64308-5f24-47c0-83f9-ee16a3b4f143` · printing: MBC #55 (2026-10-19) · [rulings](https://api.scryfall.com/cards/24c9aafe-95d0-47c1-996e-21befbcaa578/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ventifact Bottle

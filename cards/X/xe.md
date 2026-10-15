@@ -57,7 +57,7 @@ schema: 2
   - *2020-11-10* — When Xenagos enters the battlefield, your devotion to red and green will determine if a creature entered the battlefield or not for abilities that trigger whenever a creature enters the battlefield. The mana symbols in Xenagos's own mana cost are counted when determining this.
   - *2020-11-10* — Xenagos's abilities function as long as it's on the battlefield, regardless of whether it's a creature.
   - *2020-11-10* — Your devotion to two colors is the number of mana symbols among mana costs of permanents you control that are the first color, the second, or both. If an effect counts your devotion to two colors, a hybrid symbol that is both of those colors is counted just once.
-- **Referenced in:** 4 pages (1 decks · 1 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/X.md#xenagos-god-of-revels)
+- **Referenced in:** 5 pages (1 decks · 1 edh guides · 2 lore & story · 1 card data) → [reverse index](../../references/X.md#xenagos-god-of-revels)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/295/xenagos-god-of-revels) · oracle_id `cb15a8dd-57fe-466f-847e-66476b690a1f` · printing: LCC #295 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Xenagos's Scorn
@@ -93,7 +93,7 @@ schema: 2
 - **Rulings** (2):
   - *2013-09-15* — Creature cards with bestow put onto the battlefield with the third ability will be creatures on the battlefield, not Auras.
   - *2013-09-15* — Xenagos's first ability isn't a mana ability. It uses the stack and can be responded to. Count the number of creatures you control as the ability resolves to determine how much mana to add. You choose how much of that mana is red and how much is green at that time.
-- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/X.md#xenagos-the-reveler)
+- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/X.md#xenagos-the-reveler)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/853/xenagos-the-reveler) · oracle_id `942a318e-90eb-4f10-bb30-2e10f5cc922a` · printing: CLB #853 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Xenic Poltergeist

@@ -441,39 +441,39 @@ schema: 2
 
 ### Venser, Corpse Puppet
 
-[Card entry](../cards/V/ve.md#venser-corpse-puppet) · **2 pages** (lore & story 1 · card data 1)
+[Card entry](../cards/V/ve.md#venser-corpse-puppet) · **3 pages** (lore & story 2 · card data 1)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
 
 ### Venser, Fervent Forger
 
-[Card entry](../cards/V/ve.md#venser-fervent-forger) · **1 pages** (lore & story 1)
+[Card entry](../cards/V/ve.md#venser-fervent-forger) · **2 pages** (lore & story 2)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 
 ### Venser, Shaper Savant
 
-[Card entry](../cards/V/ve.md#venser-shaper-savant) · **4 pages** (decks 1 · edh guides 1 · lore & story 1 · card data 1)
+[Card entry](../cards/V/ve.md#venser-shaper-savant) · **5 pages** (decks 1 · edh guides 1 · lore & story 2 · card data 1)
 
 - **Decks (1):** [Brago, King Eternal](../decks/brago-king-eternal.md)
 - **EDH guides (1):** [EDH Standards → Blink on combat damage — Brago, King Eternal (WU, flicker)](../EDH%20Standards.md#blink-on-combat-damage--brago-king-eternal-wu-flicker)
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Artist Index → Artists B](../Artist%20Index.md#artists-b)
 
 ### Venser, the Sojourner
 
-[Card entry](../cards/V/ve.md#venser-the-sojourner) · **3 pages** (edh guides 1 · lore & story 1 · card data 1)
+[Card entry](../cards/V/ve.md#venser-the-sojourner) · **4 pages** (edh guides 1 · lore & story 2 · card data 1)
 
 - **EDH guides (1):** [EDH Packages → Blink: Blink effects](../EDH%20Packages.md#blink-blink-effects)
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Emblems](../Tokens%2C%20Emblems%20%26%20Dungeons.md#emblems)
 
 ### Venser, Visionary Traveler
 
-[Card entry](../cards/V/ve.md#venser-visionary-traveler) · **1 pages** (lore & story 1)
+[Card entry](../cards/V/ve.md#venser-visionary-traveler) · **2 pages** (lore & story 2)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 
 ### Vent Sentinel
 

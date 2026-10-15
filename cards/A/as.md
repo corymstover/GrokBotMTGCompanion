@@ -729,7 +729,7 @@ schema: 2
   - *2019-05-03* — If an effect says “Search your library . . . then shuffle your library,” your opponents shuffle their libraries even though they can’t search.
   - *2019-05-03* — If an effect says “You may search your library . . . If you do, shuffle your library” or “You may search your library . . . then shuffle your library,” your opponents can’t choose to search, so they won’t shuffle.
   - *2019-05-03* — Spells and abilities your opponents control may cause other players to search their libraries, and spells and abilities you control may cause your opponents to search their libraries.
-- **Referenced in:** 7 pages (4 decks · 1 lore & story · 2 card data) → [reverse index](../../references/A.md#ashiok-dream-render)
+- **Referenced in:** 8 pages (4 decks · 2 lore & story · 2 card data) → [reverse index](../../references/A.md#ashiok-dream-render)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/228/ashiok-dream-render) · oracle_id `93723b12-db34-4047-885e-8606415b1553` · printing: WAR #228 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ashiok, Nightmare Muse
@@ -751,7 +751,7 @@ schema: 2
   - *2020-01-24* — In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, any spells and/or permanents you control from Ashiok's last ability are exiled.
   - *2020-01-24* — The card exiled while resolving Ashiok's second ability may be the one that was returned to its owner's hand.
   - *2020-01-24* — You may cast any face-up cards your opponents own from exile while resolving Ashiok's last ability, not just those exiled by Ashiok's second ability or by Ashiok's Nightmare tokens.
-- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/A.md#ashiok-nightmare-muse)
+- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/A.md#ashiok-nightmare-muse)
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/208/ashiok-nightmare-muse) · oracle_id `ebc9ff52-c914-4c48-9d35-0e4cd07741cb` · printing: THB #208 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ashiok, Nightmare Weaver
@@ -770,7 +770,7 @@ schema: 2
   - *2013-09-15* — If Ashiok leaves the battlefield, and later another Ashiok enters the battlefield, it is a new object (even if the two were represented by the same card). Creature cards exiled by the original Ashiok can't be put onto the battlefield by the second ability of the new Ashiok.
   - *2013-09-15* — If you put a creature card with bestow onto the battlefield, it will be a creature on the battlefield, not an Aura.
   - *2013-09-15* — If you put a creature card with {X} in its mana cost onto the battlefield, the value of that X is 0.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/A.md#ashiok-nightmare-weaver)
+- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/A.md#ashiok-nightmare-weaver)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ths/188/ashiok-nightmare-weaver) · oracle_id `b6f52260-9ad5-4024-acf9-d77f3c08c872` · printing: THS #188 (2013-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ashiok's Adept
@@ -805,7 +805,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-01-24* — In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, any permanents you control from Ashiok’s second ability are exiled, and the control effect of Ashiok’s last ability ends.
   - *2020-01-24* — The effect of Ashiok’s last ability lasts indefinitely. It doesn’t expire as the turn ends or if Ashiok leaves the battlefield.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/A.md#ashiok-sculptor-of-fears)
+- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/A.md#ashiok-sculptor-of-fears)
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/274/ashiok-sculptor-of-fears) · oracle_id `ce79bbd2-edf0-4d5e-9aaf-717ec3960c48` · printing: THB #274 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ashiok's Erasure
@@ -887,7 +887,7 @@ schema: 2
   - *2023-09-01* — Ashiok's first ability doesn't allow you to attempt to pay an amount of life greater than your current life total.
   - *2023-09-01* — Ashiok, Wicked Nightmare's first ability isn't optional. You can't choose to pay life instead of exiling cards from the top of your library while you control Ashiok, and you can't split the payment between life and cards.
   - *2023-09-01* — If you would pay life while you control Ashiok and your library does not have at least that many cards in it, you'll just pay life as normal.
-- **Referenced in:** 3 pages (1 decks · 1 lore & story · 1 card data) → [reverse index](../../references/A.md#ashiok-wicked-manipulator)
+- **Referenced in:** 4 pages (1 decks · 2 lore & story · 1 card data) → [reverse index](../../references/A.md#ashiok-wicked-manipulator)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/78/ashiok-wicked-manipulator) · oracle_id `67d66678-a8e6-4f80-bade-1f1daf4b0610` · printing: WOE #78 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ashling, Flame Dancer

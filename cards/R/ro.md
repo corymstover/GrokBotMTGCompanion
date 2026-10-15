@@ -4124,7 +4124,7 @@ schema: 2
   - *2019-10-04* — If a target of Rowan's second ability is a legal target but an effect prevents the damage that would be dealt to it, that creature still can't block this turn.
   - *2019-10-04* — Rowan's second ability can't target the same creature twice to deal 2 damage to it.
   - *2019-10-04* — Rowan's third ability can affect creatures you already control or ones that are already untapped. It will untap them if applicable and give them haste.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/R.md#rowan-fearless-sparkmage)
+- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/R.md#rowan-fearless-sparkmage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/304/rowan-fearless-sparkmage) · oracle_id `cd83f886-c651-4ad7-82ca-2446c60c8f94` · printing: ELD #304 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rowan Kenrith
@@ -4162,7 +4162,7 @@ schema: 2
   - *2018-06-08* — The second ability represented by the "partner with [name]" keyword modifies the rules for deck construction in the Commander variant and has no function outside of that variant. If a legendary creature card with "partner with [name]" is designated as your commander, the named legendary creature card can also be designated as your commander. For more information on the Commander variant, please visit Wizards.com/Commander.
   - *2018-06-08* — The triggered ability of the "partner with" keyword still triggers in a Commander game. If your other commander has somehow ended up in your library, you can find it. You can also target another player who might have that card in their library.
   - *2018-06-08* — To have two commanders, both must have the partner ability (featured in the Magic: The Gathering—Commander™ (2016 Edition) set) or corresponding "partner with" abilities as the game begins. A creature with a "partner with" ability can't partner with any creature other than its designated partner. Losing a partner ability during the game doesn't cause either to cease to be your commander.
-- **Referenced in:** 3 pages (1 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/R.md#rowan-kenrith)
+- **Referenced in:** 4 pages (1 edh guides · 2 lore & story · 1 card data) → [reverse index](../../references/R.md#rowan-kenrith)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/805/rowan-kenrith) · oracle_id `e191976c-6ab1-4a23-aeb8-8a88bd4bd203` · printing: CLB #805 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rowan's Battleguard
@@ -4200,7 +4200,7 @@ schema: 2
   - *2021-04-16* — For Will’s first loyalty ability, any effects that modify a creature’s power and/or toughness without setting them to a specific value (i.e. ones that don’t affect base power and/or toughness) will apply after its base power and toughness are set, regardless of the order those effects were created. The same is true for counters that modify its power and toughness.
   - *2021-04-16* — Neither face’s first ability can reduce colored mana requirements of spells you cast.
   - *2021-04-16* — To determine the total cost of a spell, start with the mana cost or alternative cost you’re paying, add any cost increases, then apply any cost reductions (such as that of Rowan or Will’s first ability). The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
-- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/R.md#rowan-scholar-of-sparks--will-scholar-of-frost)
+- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/R.md#rowan-scholar-of-sparks--will-scholar-of-frost)
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/156/rowan-scholar-of-sparks-will-scholar-of-frost) · oracle_id `dd06c11c-c4fd-414e-ac63-5556f31491f5` · printing: STX #156 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rowan, Scion of War
@@ -4220,7 +4220,7 @@ schema: 2
   - *2023-09-01* — Rowan's activated ability counts the total amount of life you lost without taking into account any life you gained during that turn. For example, if you gained 3 life and lost 3 life earlier in the turn, the cost of black and/or red spells you cast this turn will be reduced by {3}.
   - *2023-09-01* — Rowan's activated ability doesn't change the mana cost or mana value of any spell. It changes only the total cost you pay.
   - *2023-09-01* — The value of X is determined only once, at the time Rowan, Scion of War's activated ability resolves.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/R.md#rowan-scion-of-war)
+- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/R.md#rowan-scion-of-war)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/211/rowan-scion-of-war) · oracle_id `333c15c6-c8fd-4cdd-89d2-06b921edeb8b` · printing: WOE #211 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rowan's Grim Search

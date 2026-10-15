@@ -1740,15 +1740,15 @@ schema: 2
 
 ### Angrath, Captain of Chaos
 
-[Card entry](../cards/A/an.md#angrath-captain-of-chaos) · **1 pages** (lore & story 1)
+[Card entry](../cards/A/an.md#angrath-captain-of-chaos) · **2 pages** (lore & story 2)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 
 ### Angrath, Minotaur Pirate
 
-[Card entry](../cards/A/an.md#angrath-minotaur-pirate) · **1 pages** (lore & story 1)
+[Card entry](../cards/A/an.md#angrath-minotaur-pirate) · **2 pages** (lore & story 2)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 
 ### Angrath's Marauders
 
@@ -1759,9 +1759,9 @@ schema: 2
 
 ### Angrath, the Flame-Chained
 
-[Card entry](../cards/A/an.md#angrath-the-flame-chained) · **2 pages** (lore & story 1 · card data 1)
+[Card entry](../cards/A/an.md#angrath-the-flame-chained) · **3 pages** (lore & story 2 · card data 1)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Artist Index → Artists Other](../Artist%20Index.md#artists-other)
 
 ### Anguished Unmaking
@@ -2767,30 +2767,30 @@ schema: 2
 
 ### Ashiok, Dream Render
 
-[Card entry](../cards/A/as.md#ashiok-dream-render) · **7 pages** (decks 4 · lore & story 1 · card data 2)
+[Card entry](../cards/A/as.md#ashiok-dream-render) · **8 pages** (decks 4 · lore & story 2 · card data 2)
 
 - **Decks (4):** [Atraxa, Praetors' Voice (planeswalkers theme)](../decks/theme-atraxa-praetors-voice-planeswalkers.md) · [Kraum, Ludevic's Opus (Grixis)](../grixis/decks/grixistax-october-2026.md) · [Muldrotha, the Gravetide](../decks/muldrotha-the-gravetide.md) · [Muldrotha, the Gravetide (self mill theme)](../decks/theme-muldrotha-the-gravetide-self-mill.md)
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (2):** [Artist Index → Artists H](../Artist%20Index.md#artists-h) · [Format Legality Matrix → tlr](../Format%20Legality%20Matrix.md#tlr)
 
 ### Ashiok, Nightmare Muse
 
-[Card entry](../cards/A/as.md#ashiok-nightmare-muse) · **2 pages** (lore & story 1 · card data 1)
+[Card entry](../cards/A/as.md#ashiok-nightmare-muse) · **3 pages** (lore & story 2 · card data 1)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
 
 ### Ashiok, Nightmare Weaver
 
-[Card entry](../cards/A/as.md#ashiok-nightmare-weaver) · **1 pages** (lore & story 1)
+[Card entry](../cards/A/as.md#ashiok-nightmare-weaver) · **2 pages** (lore & story 2)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 
 ### Ashiok, Sculptor of Fears
 
-[Card entry](../cards/A/as.md#ashiok-sculptor-of-fears) · **1 pages** (lore & story 1)
+[Card entry](../cards/A/as.md#ashiok-sculptor-of-fears) · **2 pages** (lore & story 2)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 
 ### Ashiok's Reaper
 
@@ -2800,10 +2800,10 @@ schema: 2
 
 ### Ashiok, Wicked Manipulator
 
-[Card entry](../cards/A/as.md#ashiok-wicked-manipulator) · **3 pages** (decks 1 · lore & story 1 · card data 1)
+[Card entry](../cards/A/as.md#ashiok-wicked-manipulator) · **4 pages** (decks 1 · lore & story 2 · card data 1)
 
 - **Decks (1):** [Syr Konrad, the Grim (Eldraine-only)](../decks/plane-eldraine-syr-konrad-the-grim.md)
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
 
 ### Ashling, Flame Dancer

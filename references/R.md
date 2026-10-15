@@ -2548,30 +2548,30 @@ schema: 2
 
 ### Rowan, Fearless Sparkmage
 
-[Card entry](../cards/R/ro.md#rowan-fearless-sparkmage) · **1 pages** (lore & story 1)
+[Card entry](../cards/R/ro.md#rowan-fearless-sparkmage) · **2 pages** (lore & story 2)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 
 ### Rowan Kenrith
 
-[Card entry](../cards/R/ro.md#rowan-kenrith) · **3 pages** (edh guides 1 · lore & story 1 · card data 1)
+[Card entry](../cards/R/ro.md#rowan-kenrith) · **4 pages** (edh guides 1 · lore & story 2 · card data 1)
 
 - **EDH guides (1):** [EDH Pairings — Partner, Background, Friends forever & Doctor's companion → Partner with](../EDH%20Pairings.md#partner-with)
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Emblems](../Tokens%2C%20Emblems%20%26%20Dungeons.md#emblems)
 
 ### Rowan, Scholar of Sparks // Will, Scholar of Frost
 
-[Card entry](../cards/R/ro.md#rowan-scholar-of-sparks--will-scholar-of-frost) · **2 pages** (lore & story 1 · card data 1)
+[Card entry](../cards/R/ro.md#rowan-scholar-of-sparks--will-scholar-of-frost) · **3 pages** (lore & story 2 · card data 1)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Emblems](../Tokens%2C%20Emblems%20%26%20Dungeons.md#emblems)
 
 ### Rowan, Scion of War
 
-[Card entry](../cards/R/ro.md#rowan-scion-of-war) · **1 pages** (lore & story 1)
+[Card entry](../cards/R/ro.md#rowan-scion-of-war) · **2 pages** (lore & story 2)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 
 ### Rowan's Grim Search
 
