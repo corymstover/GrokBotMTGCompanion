@@ -12,7 +12,7 @@ schema: 2
 # Front-Matter Schema
 
 > **Auto-generated** by `scripts/front_matter.py` (Bot cycle 17, issue [#65](https://github.com/corymstover/GrokBotMTGCompanion/issues/65)) from the `SCHEMA` and `PAGES` tables in the script, so this page cannot drift from what `--check` enforces. Schema version **2**. Do not hand-edit.
-> Coverage: **48** registered pages (README.md and GOAL.md are exempt), **88** decks, **684** card shards, **28** reverse-index pages. Related: [Lookup Guide](Lookup%20Guide.md) · [Knowledge Index](Knowledge%20Index.md) · [Card Data Conventions](Card%20Data%20Conventions.md).
+> Coverage: **49** registered pages (README.md and GOAL.md are exempt), **88** decks, **684** card shards, **28** reverse-index pages. Related: [Lookup Guide](Lookup%20Guide.md) · [Knowledge Index](Knowledge%20Index.md) · [Card Data Conventions](Card%20Data%20Conventions.md).
 
 ## Contents
 - [Format](#format)
@@ -199,6 +199,8 @@ Tags are lower-case kebab-case (`^[a-z0-9+]+(-[a-z0-9+]+)*$`). Page tags are ass
 | `plane-restricted` | [EDH Themed Decks](EDH%20Themed%20Decks.md) |
 | `planes` | [Omenpath & Multiverse Connections](Omenpath%20%26%20Multiverse%20Connections.md) · [Planes Index](Planes%20Index.md) |
 | `planeswalkers` | [Characters Index](Characters%20Index.md) · [Planeswalker Dossiers](Planeswalker%20Dossiers.md) |
+| `planeswalkers-guide` | [Lore Primary Sources](Lore%20Primary%20Sources.md) |
+| `primary` | [Lore Primary Sources](Lore%20Primary%20Sources.md) |
 | `printings` | [Printing History](Printing%20History.md) |
 | `progress` | [Progress Tracker](Progress%20Tracker.md) |
 | `ramp` | [EDH Packages](EDH%20Packages.md) |
@@ -215,7 +217,7 @@ Tags are lower-case kebab-case (`^[a-z0-9+]+(-[a-z0-9+]+)*$`). Page tags are ass
 | `schema` | [Front-Matter Schema](Front-Matter%20Schema.md) |
 | `side-media` | [Side-Media Index](Side-Media%20Index.md) |
 | `snapshots` | [Knowledge Snapshots](Knowledge%20Snapshots.md) |
-| `sources` | [Story Archive Index](Story%20Archive%20Index.md) |
+| `sources` | [Lore Primary Sources](Lore%20Primary%20Sources.md) · [Story Archive Index](Story%20Archive%20Index.md) |
 | `sparks` | [Planeswalker Dossiers](Planeswalker%20Dossiers.md) |
 | `sprint` | [ROADMAP](ROADMAP.md) |
 | `staples` | [EDH Staples](EDH%20Staples.md) |
@@ -223,6 +225,7 @@ Tags are lower-case kebab-case (`^[a-z0-9+]+(-[a-z0-9+]+)*$`). Page tags are ass
 | `stax` | [EDH Interaction](EDH%20Interaction.md) |
 | `story-archive` | [Story Archive Index](Story%20Archive%20Index.md) |
 | `story-beats` | [Story Arc Summaries](Story%20Arc%20Summaries.md) |
+| `story-episodes` | [Lore Primary Sources](Lore%20Primary%20Sources.md) |
 | `story-first` | [EDH Lore-Themed Deckbuilding](EDH%20Lore-Themed%20Deckbuilding.md) |
 | `story-spotlight` | [Art & Flavor Story Links](Art%20%26%20Flavor%20Story%20Links.md) |
 | `strategy` | [EDH Archetypes](EDH%20Archetypes.md) |

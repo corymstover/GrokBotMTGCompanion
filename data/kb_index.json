@@ -1,7 +1,7 @@
 {
 "schema": 1,
 "generated_by": "scripts/kb_find.py --build",
-"entries": 164,
+"entries": 165,
 "note": "Pages and decks only; card entries are indexed by data/card_index.csv.",
 "items": [
 {
@@ -924,8 +924,8 @@
 "Master Timeline.md",
 "Planes Index.md",
 "Planeswalker Dossiers.md",
-"Story Arc Summaries.md",
-"Card Index.md"
+"Contradictions & Retcons Log.md",
+"Story Arc Summaries.md"
 ]
 },
 {
@@ -1163,7 +1163,8 @@
 "7",
 "13",
 "34",
-"72"
+"72",
+"73"
 ],
 "related": [
 "Characters Index.md",
@@ -1171,7 +1172,7 @@
 "Planes Index.md",
 "Story Arc Summaries.md",
 "Contradictions & Retcons Log.md",
-"EDH Lore-Themed Deckbuilding.md"
+"Lore Primary Sources.md"
 ]
 },
 {
@@ -1222,6 +1223,41 @@
 ],
 [
 2,
+"Added Bot cycle 22",
+"added-bot-cycle-22"
+],
+[
+3,
+"Omenpath term (Kaldheim → Multiverse)",
+"omenpath-term-kaldheim--multiverse"
+],
+[
+3,
+"Tibalt disguised as Valki",
+"tibalt-disguised-as-valki"
+],
+[
+3,
+"The Wanderer is the Emperor of Kamigawa",
+"the-wanderer-is-the-emperor-of-kamigawa"
+],
+[
+3,
+"Tamiyo after compleation",
+"tamiyo-after-compleation"
+],
+[
+3,
+"Jace compleated, then healed",
+"jace-compleated-then-healed"
+],
+[
+3,
+"\"Ashiok\" on Eldraine was Jace",
+"ashiok-on-eldraine-was-jace"
+],
+[
+2,
 "Queue for later cycles",
 "queue-for-later-cycles"
 ],
@@ -1232,11 +1268,14 @@
 ]
 ],
 "issues": [
+"73",
 "76"
 ],
 "related": [
 "Conflicts & Arcs.md",
-"Master Timeline.md"
+"Master Timeline.md",
+"Characters Index.md",
+"Lore Primary Sources.md"
 ]
 },
 {
@@ -3939,6 +3978,48 @@
 ]
 },
 {
+"path": "Lore Primary Sources.md",
+"kind": "page",
+"title": "Lore Primary Sources",
+"category": "lore",
+"tags": [
+"sources",
+"primary",
+"planeswalkers-guide",
+"story-episodes"
+],
+"headings": [
+[
+2,
+"Coverage by arc",
+"coverage-by-arc"
+],
+[
+2,
+"Planeswalker's Guides",
+"planeswalkers-guides"
+],
+[
+2,
+"Secondary material (not ingested)",
+"secondary-material-not-ingested"
+],
+[
+2,
+"Rebuild",
+"rebuild"
+]
+],
+"issues": [
+"73"
+],
+"related": [
+"Conflicts & Arcs.md",
+"Side-Media Index.md",
+"Contradictions & Retcons Log.md"
+]
+},
+{
 "path": "Master Timeline.md",
 "kind": "page",
 "title": "Master Timeline",
@@ -4490,9 +4571,9 @@
 "Front-Matter Schema.md",
 "EDH Lore-Themed Deckbuilding.md",
 "Lookup Guide.md",
+"Lore Primary Sources.md",
 "Planeswalker Dossiers.md",
-"Progress Tracker.md",
-"Art & Flavor Story Links.md"
+"Progress Tracker.md"
 ]
 },
 {
@@ -4702,6 +4783,7 @@
 "related": [
 "Story Arc Summaries.md",
 "Conflicts & Arcs.md",
+"Lore Primary Sources.md",
 "Art & Flavor Story Links.md",
 "Planeswalker Dossiers.md",
 "Story Archive Index.md"
@@ -4998,8 +5080,13 @@
 "headings": [
 [
 2,
-"Bot cycle 21 — lore-themed deckbuilding (2026-10-15)",
-"bot-cycle-21--lore-themed-deckbuilding-2026-10-15"
+"2026-10-15 — Bot cycle 22 (Phase 6: primary-source ingestion & thin arcs)",
+"2026-10-15--bot-cycle-22-phase-6-primary-source-ingestion--thin-arcs"
+],
+[
+2,
+"2026-10-15 — Bot cycle 21 (Phase 6: lore-themed deckbuilding)",
+"2026-10-15--bot-cycle-21-phase-6-lore-themed-deckbuilding"
 ],
 [
 2,
@@ -5105,11 +5192,11 @@
 "issues": [],
 "related": [
 "Knowledge Index.md",
-"Front-Matter Schema.md",
 "Contradictions & Retcons Log.md",
-"EDH Bracket Calibration.md",
-"EDH Deck Evaluation Checklist.md",
-"EDH Deck Template.md"
+"Front-Matter Schema.md",
+"Characters Index.md",
+"Conflicts & Arcs.md",
+"EDH Bracket Calibration.md"
 ]
 },
 {

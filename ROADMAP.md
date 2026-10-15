@@ -5,7 +5,7 @@ tags: [roadmap, sprint]
 issues: []
 generated_by: hand-written
 sources: []
-related: ["Front-Matter Schema.md", "EDH Lore-Themed Deckbuilding.md", "Lookup Guide.md", "Planeswalker Dossiers.md", "Progress Tracker.md", "Art & Flavor Story Links.md"]
+related: ["Front-Matter Schema.md", "EDH Lore-Themed Deckbuilding.md", "Lookup Guide.md", "Lore Primary Sources.md", "Planeswalker Dossiers.md", "Progress Tracker.md"]
 schema: 2
 ---
 
@@ -98,17 +98,18 @@ The user asked for an optimization pass over the whole knowledge base: consisten
 Phase 5 complete in Bot cycle 19; snapshot tag `v2.0-phase5-optimization`.
 
 ## Phase 6
-- ✅ **Bot cycle 21:** [EDH Lore-Themed Deckbuilding](EDH%20Lore-Themed%20Deckbuilding.md) + 2 worked lore decks (Urza Brothers' War; Nahiri Lithomancer). Next: Bot cycle 22 priority-2 primary ingestion + thin arcs.
+- ✅ **Bot cycle 21:** [EDH Lore-Themed Deckbuilding](EDH%20Lore-Themed%20Deckbuilding.md) + 2 worked lore decks (Urza Brothers' War; Nahiri Lithomancer).
+- 🟡 **Bot cycle 22:** [Lore Primary Sources](Lore%20Primary%20Sources.md) (538 pages, 60 PW Guides); 14 arcs deepened; +6 retcon entries; 7 misquotes fixed. Next: cycle 23 (TDM/EOE/ECL/SOS/RF + pre-2019 arcs, dossiers #74).
  — Lore deepening sprint (Bot cycles 20+; Cory, 2026-10-15)
 Canonical lore & history deepening; all other queued work on hold. Milestone: [Phase 6 — Lore deepening sprint](https://github.com/corymstover/GrokBotMTGCompanion/milestone/15).
 
 | Issue | Item | Status | Output |
 |---|---|---|---|
-| [#72](https://github.com/corymstover/GrokBotMTGCompanion/issues/72) | P6.1 Deepen eras/arcs (beats, causes, outcomes, consequences) | 🟡 Bot cycle 20: 17 arcs + 6 era summaries | [Conflicts & Arcs](Conflicts%20%26%20Arcs.md) · [Master Timeline](Master%20Timeline.md) |
-| [#73](https://github.com/corymstover/GrokBotMTGCompanion/issues/73) | P6.2 Ingest primary material (stories, PW Guides, novels — secondary flagged) | ⏳ next (Bot cycle 22) | — |
+| [#72](https://github.com/corymstover/GrokBotMTGCompanion/issues/72) | P6.1 Deepen eras/arcs (beats, causes, outcomes, consequences) | 🟡 Bot cycles 20–22: 28 arcs + 6 era summaries | [Conflicts & Arcs](Conflicts%20%26%20Arcs.md) · [Master Timeline](Master%20Timeline.md) |
+| [#73](https://github.com/corymstover/GrokBotMTGCompanion/issues/73) | P6.2 Ingest primary material (stories, PW Guides, novels — secondary flagged) | 🟡 Bot cycle 22: 538 pages, 14 arcs deepened; TDM/EOE/ECL/SOS/RF next | [Lore Primary Sources](Lore%20Primary%20Sources.md) |
 | [#74](https://github.com/corymstover/GrokBotMTGCompanion/issues/74) | P6.3 Dossiers & plane entries | ⏳ | [Planeswalker Dossiers](Planeswalker%20Dossiers.md) |
 | [#75](https://github.com/corymstover/GrokBotMTGCompanion/issues/75) | P6.4 Items/spells/artifacts index | ⏳ | — |
-| [#76](https://github.com/corymstover/GrokBotMTGCompanion/issues/76) | P6.5 Contradictions & Retcons Log | 🟡 Bot cycle 20 skeleton, 5 entries | [Contradictions & Retcons Log](Contradictions%20%26%20Retcons%20Log.md) |
+| [#76](https://github.com/corymstover/GrokBotMTGCompanion/issues/76) | P6.5 Contradictions & Retcons Log | 🟡 Bot cycles 20–22: 11 entries | [Contradictions & Retcons Log](Contradictions%20%26%20Retcons%20Log.md) |
 | [#77](https://github.com/corymstover/GrokBotMTGCompanion/issues/77) | P6.6 Structure, cross-refs, lore checks | 🟡 ongoing | `scripts/validate_all.py` |
 | [#79](https://github.com/corymstover/GrokBotMTGCompanion/issues/79)–[#81](https://github.com/corymstover/GrokBotMTGCompanion/issues/81) | Lore-themed deckbuilding (guide, examples, template/Gate L) | ✅ Bot cycle 21 | [EDH Lore-Themed Deckbuilding](EDH%20Lore-Themed%20Deckbuilding.md) · [Urza](decks/lore-brothers-war-urza-lord-high-artificer.md) · [Nahiri](decks/lore-nahiri-the-lithomancer.md) |
 

@@ -41,7 +41,7 @@ schema: 2
 
 | # | Key beat | Source |
 |---|---|---|
-| 1 | Jace returns to the Eye of Ugin, "where he inadvertently helped release the Eldrazi", to unravel the hedron network that "might be used to capture—or kill—the titan Ulamog". | [Revelation at the Eye](https://magic.wizards.com/en/news/magic-story/revelation-eye-2015-10-14) |
+| 1 | Jace returns to the Eye of Ugin, "when he inadvertently helped release the Eldrazi", to unravel the hedron network that "might be used to capture—or kill—the titan Ulamog". | [Revelation at the Eye](https://magic.wizards.com/en/news/magic-story/revelation-eye-2015-10-14) |
 | 2 | Gideon's army liberates Sea Gate. Kiora brings word: "Ulamog is coming!" | [The Liberation of Sea Gate](https://magic.wizards.com/en/news/magic-story/liberation-sea-gate-2015-10-28) · [Hedron Alignment](https://magic.wizards.com/en/news/magic-story/hedron-alignment-2015-11-18) |
 | 3 | Ulamog is caught in the hedron ring and seems close to defeat, "but Ob Nixilis had called Kozilek, one of the other Eldrazi titans, from beneath Zendikar's surface." | [BFZ Story Summary](https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23) · [The Rise of Kozilek](https://magic.wizards.com/en/news/magic-story/rise-kozilek-2015-12-09) |
 | 4 | Chandra rescues Gideon, Jace and Nissa. The four swear oaths ("A choice—a commitment, a promise. To keep watch."), founding the Gatewatch. | [Oath of the Gatewatch](https://magic.wizards.com/en/news/magic-story/oath-gatewatch-2016-02-03) |
@@ -72,7 +72,7 @@ schema: 2
 | # | Key beat | Source |
 |---|---|---|
 | 1 | A Kaladesh Planeswalker asks the Gatewatch for help. Chandra returns home, Liliana identifies "Tezzeret", and Chandra finds her mother alive: "… Mom?" | [Torch of Defiance](https://magic.wizards.com/en/news/magic-story/torch-defiance-2016-09-07) |
-| 2 | Pia Nalaar, "now a leader of the renegade movement", is arrested. Ajani appears ("I don't kill. Not anymore."). | [Release](https://magic.wizards.com/en/news/magic-story/release-2016-10-05) |
+| 2 | Pia Nalaar, "now a leader of the renegade movement", is arrested. Ajani appears ("I don't kill," … "Not anymore."). | [Release](https://magic.wizards.com/en/news/magic-story/release-2016-10-05) |
 | 3 | At the Inventors' Fair, Tezzeret means to make an example of Pia, and the Gatewatch interrupts. Ajani: "He's building something." Consul Dovin Baan plans to restore order with "Curfews, perhaps". | [In This Very Arena](https://magic.wizards.com/en/news/magic-story/very-arena-2016-10-12) · [A Grateful Consulate](https://magic.wizards.com/en/news/magic-story/grateful-consulate-2016-10-19) |
 | 4 | "Tezzeret installed himself as Grand Consul." The renegades rise ("For the spirit of invention!"). | [Revolution Begins](https://magic.wizards.com/en/news/magic-story/revolution-begins-2017-01-02) |
 | 5 | After the loss of the Aether Hub, the allies escape on the *Heart of Kiran*. Gideon hangs up his sural to follow Chandra: "You're not going alone." | [The Skies over Ghirapur](https://magic.wizards.com/en/news/magic-story/skies-over-ghirapur-2017-01-11) · [Breaking Points](https://magic.wizards.com/en/news/magic-story/breaking-points-2017-01-18) |
@@ -146,7 +146,7 @@ schema: 2
 |---|---|---|
 | 1 | Elesh Norn holds Kaya, Kaito and Tyvar captive and sends Atraxa to strike New Capenna ("In killing New Capenna, we strike at her heart") and Ajani to Theros. She is haunted by nightmares of "the woman who stalks them, cloaked in white". | [Ep. 1: Triumph of the Fleshless](https://magic.wizards.com/en/news/magic-story/episode-1-triumph-of-the-fleshless) |
 | 2 | Chandra and the surviving Planeswalkers wait in a safe house. Wrenn and Seven set out, watched by unseen observers: "We are here to witness the beginning of the end." | [Ep. 2: Holding Your Breath](https://magic.wizards.com/en/news/magic-story/episode-2-holding-your-breath) |
-| 3 | On Kamigawa, compleated Tamiyo turns on her son Nashi; her blow was "Tamiyo making a request, in the only way she could." "Tamiyo fell—but Nashi lived." | [Ep. 3: Mother, Son, and Story](https://magic.wizards.com/en/news/magic-story/episode-3-mother-son-and-story) |
+| 3 | On Kamigawa, compleated Tamiyo turns on her son Nashi; her blow was "Tamiyo was making a request, in the only way she could." "Tamiyo fell—but Nashi lived." | [Ep. 3: Mother, Son, and Story](https://magic.wizards.com/en/news/magic-story/episode-3-mother-son-and-story) |
 | 4 | Tyvar returns to Kaldheim's Skemfar. On New Capenna, Atraxa destroys the archangels' heads ("Beauty is dead") while unseen seraphs watch. | [Ep. 4: Beneath Eyes Unblinking](https://magic.wizards.com/en/news/magic-story/episode-4-beneath-eyes-unblinking) |
 | 5 | Inside New Phyrexia, compleated Nissa offers Chandra "a life without fear". Chandra refuses ("I miss you so much. But I can't"), and her blast leaves Wrenn alone clinging to the Invasion Tree. | [Ep. 5: Cathartic Reunion](https://magic.wizards.com/en/news/magic-story/episode-5-cathartic-reunion) |
 | 6 | Elspeth, dying, is visited by Serra ("Fear is always the last thing to leave") and is reborn with wings to face Jin-Gitaxias. | [Ep. 6: The Last to Leave](https://magic.wizards.com/en/news/magic-story/episode-6-the-last-to-leave) |
@@ -260,7 +260,7 @@ schema: 2
 | # | Key beat | Source |
 |---|---|---|
 | 1 | Prologue: during the invasion, the aether specialist Ishikari sacrifices herself to make the Aetherspark ("my spark"). Two years later it is the prize of an inter-plane race. The Speed Demons' Winter races under a demon's threat: "Bring us the Aetherspark, and you're free. Fail, and you belong to the House." | [Ep. 1: The Dashing and the Desperate](https://magic.wizards.com/en/news/magic-story/aetherdrift-episode-1-the-dashing-and-the-desperate) |
-| 2 | Chandra races, and on Kaladesh, Consul Mohar Varma is courted to restore the consuls: "Two bloodless revolutions, your opponents imprisoned … All we need is a little help from you." | [Ep. 2: Pit Stop](https://magic.wizards.com/en/news/magic-story/aetherdrift-episode-2-pit-stop) |
+| 2 | Chandra races, and on Kaladesh, Consul Mohar Varma is courted to restore the consuls: "Two bloodless revolutions, your opponents imprisoned …" "All we need," says the man, "is a little help from you." | [Ep. 2: Pit Stop](https://magic.wizards.com/en/news/magic-story/aetherdrift-episode-2-pit-stop) |
 | 3 | On Amonkhet, Khuru, a young man who "offered his life for Zahur", is raised. Pia Nalaar, racing as "Spitfire", has doubts. | [Ep. 3: Go!](https://magic.wizards.com/en/news/magic-story/aetherdrift-episode-3-go) |
 | 4 | Loot finds a hidden Omenpath for Chandra's team: "A little-guy shortcut." | [Ep. 4: Little-Guy Shortcuts](https://magic.wizards.com/en/news/magic-story/aetherdrift-episode-4-little-guy-shortcuts) |
 | 5 | Chandra realizes that "Winter used shortcuts. He made you show him where the other Omenpaths are". | [Ep. 5: First Over the Line](https://magic.wizards.com/en/news/magic-story/aetherdrift-episode-5-first-over-the-line) |
